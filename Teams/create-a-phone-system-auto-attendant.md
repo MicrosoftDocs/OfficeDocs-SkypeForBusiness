@@ -32,9 +32,9 @@ Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto
 The steps to add an auto attendant are:
 
 1. Set up general information.
-1. Set up call flow.
-1. Set up after hours.
-1. Set up holiday hours.
+1. Set up general call flow.
+1. Set up after hours call flow.
+1. Set up holiday hours call flow.
 1. Set up dial scope.
 1. Set up resource accounts.
 
@@ -58,19 +58,13 @@ For more complex enterprise scenarios, see these additional sections:
 - [Auto attendant diagnostic tool](#auto-attendant-diagnostic-tool).
 - [Related topics](#related-topics).
 
-## Video demonstration
-
-This video shows a basic example of how to create an auto attendant in Teams.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
-
 ### Follow these steps to set up your auto attendant
 
 To set up an auto attendant, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
 
 ## [Step 1 - General info](#tab/general-info)
 
-## General info
+## Set up general information
 
 ![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs.](./media/auto-attendant-general-info-page-new.png)
 
@@ -89,9 +83,9 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, select
 
 6. Select **Next**.
 
-## [Step 2 - Call flow](#tab/call-flow)
+## [Step 2 - General call flow](#tab/call-flow)
 
-## Call flow
+## Set up the general call flow
 
 ![Screenshot of greeting message settings.](./media/auto-attendant-call-flow-greeting-message.png)
 
@@ -132,6 +126,69 @@ For each menu option, specify the following settings:
 
 - **Redirect to** - the call routing destination used when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
+## [Step 3 - After hours call flow](#tab/after-hours)
+
+## Set up call flow for after hours
+
+![Screenshot of after hours day and time settings.](./media/auto-attendant-business-hours.png)
+
+Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
+
+Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
+
+If you want separate call routing for after-hours callers, then specify your business hours for each day. Select **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
+
+Once you've specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified above.
+
+Select **Next** when you're done.
+
+## [Step 4 - Holiday call flow](#tab/holidays)
+
+## Set up call flows for holidays
+
+![Screenshot of holiday and holiday greeting settings.](./media/auto-attendant-holiday-greeting.png)
+
+Your auto attendant can have a call flow for each [Holiday you've set up](./set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
+
+1. On the Holiday call settings page, select **Add**.
+
+2. Type a name for this holiday setting.
+
+3. From the **Holiday** dropdown, choose the holiday that you want to use.
+
+4. Choose the type of greeting that you want to use.
+
+    ![Screenshot of holiday call action settings.](./media/auto-attendant-holiday-actions.png)
+
+5. Choose if you want to **Disconnect** or **Redirect** the call.
+
+6. If you chose to redirect, choose the call routing destination for the call.
+
+7. If you choose to play menu options, configure the [Menu options](create-a-phone-system-auto-attendant.md#menu-options).
+
+8. Select **Save**.
+
+![Screenshot of holiday settings with holidays listed.](./media/auto-attendant-holiday-call-settings.png)
+
+Repeat the procedure as needed for each additional holiday.
+
+When you've added all your holidays, select **Next**.
+
+## [Step 5 - Dial scope](#tab/dial-scope)
+
+## Set up dial scope
+
+![Screenshot of dial scope include and exclude options.](./media/auto-attendant-dial-scope.png)
+
+The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users or hosted on-premises using Skype for Business Server.
+
+You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
+
+> [!NOTE]
+> It might take up to 36 hours for a new user to have their name listed in the directory.
+
+When you're done setting the dial scope, select **Next**.
+
 ### Directory search
 
 If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they might be unexpectedly routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
@@ -168,70 +225,9 @@ Refer to [Dial and voice reference](./dial-voice-reference.md) for more informat
 
 Once you have selected a **Directory search** option, select **Next**.
 
-## [Step 3 - After hours](#tab/after-hours)
-
-## Call flow for after hours
-
-![Screenshot of after hours day and time settings.](./media/auto-attendant-business-hours.png)
-
-Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
-
-Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
-
-If you want separate call routing for after-hours callers, then specify your business hours for each day. Select **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
-
-Once you've specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified above.
-
-Select **Next** when you're done.
-
-## [Step 4 - Holidays](#tab/holidays)
-
-## Call flows during holidays
-
-![Screenshot of holiday and holiday greeting settings.](./media/auto-attendant-holiday-greeting.png)
-
-Your auto attendant can have a call flow for each [Holiday you've set up](./set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
-
-1. On the Holiday call settings page, select **Add**.
-
-2. Type a name for this holiday setting.
-
-3. From the **Holiday** dropdown, choose the holiday that you want to use.
-
-4. Choose the type of greeting that you want to use.
-
-    ![Screenshot of holiday call action settings.](./media/auto-attendant-holiday-actions.png)
-
-5. Choose if you want to **Disconnect** or **Redirect** the call.
-
-6. If you chose to redirect, choose the call routing destination for the call.
-
-7. Select **Save**.
-
-![Screenshot of holiday settings with holidays listed.](./media/auto-attendant-holiday-call-settings.png)
-
-Repeat the procedure as needed for each additional holiday.
-
-When you've added all your holidays, select **Next**.
-
-## [Step 5 - Dial scope](#tab/dial-scope)
-
-## Dial scope
-
-![Screenshot of dial scope include and exclude options.](./media/auto-attendant-dial-scope.png)
-
-The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users or hosted on-premises using Skype for Business Server.
-
-You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
-
-> [!NOTE]
-> It might take up to 36 hours for a new user to have their name listed in the directory.
-
-When you're done setting the dial scope, select **Next**.
-
 ## [Step 6 - Resource accounts](#tab/resource-accounts)
 
-## Resource accounts
+## Set up resource accounts
 
 All auto attendants must have an associated resource account.  First-level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
