@@ -17,10 +17,10 @@ description: "This article discusses how to configure your organization and Team
 
 # Enable Teams Rooms devices to join third-party meetings
 
-> [!NOTE]
-> This feature is currently only available on Teams Rooms on Windows.
-
 Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
+
+> [!NOTE]
+> To join a Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in WebEx Meetings Pro using Cisco WebEx web application version WBS 40.7 or later. 
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
@@ -68,7 +68,7 @@ For a complete list of URLs to add to your Defender for Office 365 Safe Links *D
 > [!CAUTION]
 > Only add URLs that you trust to your Microsoft Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list.
 
-## Step 3: Enable third-party meetings on Teams Rooms
+## Step 3a: Enable third-party meetings on Teams Rooms on Windows
 
 The last step you need to do is allow Teams Rooms to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the Teams Rooms settings or in the XML config file.
 
@@ -108,6 +108,11 @@ You can optionally specify a custom username and email address to join third-par
 
 <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
 ```
-
-> [!NOTE]
-> To join a Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in WebEx Meetings Pro using Cisco WebEx web application version WBS 40.7 or later. 
+## Step 3a: Enable third-party meetings on Teams Rooms on Android
+For Teams Rooms on Android, you need to allw the third-party meetings join feature.
+1. On the Teams Rooms interface, select **Settings**. (ON some systems, you may need to select **More** to see the **Settings** menu)
+2. Select **Device settings**
+3. From here, navigate to the **Teams Admin Settings**. THis is different per-manufacturer. If necessary, contact your device manufacturer for assistance in locating **Teams Admin Settings**.
+4. Within **Teams Admin Settings**, select teh **Meetings** option.
+5. Enable the third-party meetings provider you would like to use.
+6. If you want to join meetings with an alternate username and email address, select **Join with custom name and email** and enter username and email address you'd like to use.
