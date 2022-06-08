@@ -108,11 +108,14 @@ You can optionally specify a custom username and email address to join third-par
 
 <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
 ```
-## Step 3a: Enable third-party meetings on Teams Rooms on Android
-For Teams Rooms on Android, you need to allw the third-party meetings join feature.
-1. On the Teams Rooms interface, select **Settings**. (ON some systems, you may need to select **More** to see the **Settings** menu)
-2. Select **Device settings**
-3. From here, navigate to the **Teams Admin Settings**. THis is different per-manufacturer. If necessary, contact your device manufacturer for assistance in locating **Teams Admin Settings**.
-4. Within **Teams Admin Settings**, select teh **Meetings** option.
-5. Enable the third-party meetings provider you would like to use.
-6. If you want to join meetings with an alternate username and email address, select **Join with custom name and email** and enter username and email address you'd like to use.
+## Step 3b: Enable third-party meetings on Teams Rooms on Android
+
+For Teams Rooms on Android, you need to allow the third-party meetings join feature.
+
+1. On the Teams Rooms interface, select **Settings**. On some systems, you might need to select **More** to see the **Settings** menu.
+2. Select **Device settings** and then go to **Teams Admin Settings**. 
+    > [!NOTE]
+    > This is different per manufacturer. If necessary, contact your device manufacturer for assistance in locating **Teams Admin Settings**.
+4. Within **Teams Admin Settings**, select **Meetings**.
+5. Enable the third-party meetings provider you'd like to use.
+6. If you want to join meetings with an alternate username and email address, select **Join with custom name and email** and enter the username and email address you'd like to use.
