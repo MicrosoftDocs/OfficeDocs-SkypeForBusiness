@@ -85,11 +85,18 @@ Agents will see the resource account name when they receive an incoming call.
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
-### Assign a calling ID
+### Assign a calling ID (optional)
 
 **Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard call queues.**
 
 You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make.
+
+> [!NOTE]
+> The resource account used for calling ID purposes must have a **Microsoft Teams Phone System - Virtual User** license and one of the following assigned:
+>
+> - A Calling Plan license and a phone number assigned
+> - An Operator Connect phone number assigned
+> - An online voice routing policy (phone number assignment is optional when using Direct Routing)
 
 1. Under **Assign calling ID**, select the **Add** button.
 1. On the **Add accounts** pane, search for the resource account(s) you want to allow agents to use for outbound caller ID purposes.
@@ -107,88 +114,54 @@ If you don't have a resource account with an assigned phone number:
     1. Select the **Resource account type** dropdown and select **Call queue**.
 1. At the bottom of the pane, select the **Save** button.
 1. On the **Resource accounts** pane, select the **Add** button.
-1. Open a new tab in your browser, keeping the current tab open too.
-1. In the new tab, [assign a **Teams Phone Standard - Virtual User** license and **service phone number**](manage-resource-accounts.md) to this newly created resource account.
 
-Learn how to assign a **Teams Phone Standard - Virtual User** license and **service phone number** to resource accounts in [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md).
+After you've created this new resource account for calling ID, you'll still need to:
+
+- Assign a [Teams Phone Standard - Virtual User license](manage-resource-accounts.md#assign-a-license)
+- Assign a Microsoft Calling Plan license, use an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
+- Assign the [service phone number to the resource account](manage-resource-accounts.md#assign-a-service-number), if you're using Microsoft Calling Plan
 
 ### Set the call queue language
 
-Choose a [supported language](./create-a-phone-system-call-queue-languages.md).
+Choose a [supported language](create-a-phone-system-call-queue-languages.md).
 
 This language will be used for system-generated voice prompts and voicemail transcription, if you enable them.
 
-# [Step 2 - Resource accounts](#tab/resource-account)
+Once you've selected a language, select the **Next** button at the bottom of the **Add a call queue** page.
 
-## Step 2: Add resource accounts
+# [Step 2 - Greeting and music](#tab/greeting-music)
 
-![Screenshot of resource account settings.](./media/call-queue-name-language.png)
+## Step 2: Add a greeting and on-hold music
 
-Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
+Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
-Agents will see the resource account name when they receive an incoming call.
+If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
 
-For more information, see [Manage Teams resource accounts](./manage-resource-accounts.md).
+Teams provides default music to callers while they are *on hold in a queue*.
 
-# [Step 3 - Dynamic Caller ID](#tab/dynamic-caller-id)
-
-## Step 3: Set up dynamic caller ID
-
-![Screenshot of calling ID settings.](./media/call-queue-assign-calling-id.png)
-
-**Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard call queues**
-
-You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make.
-
-Click **Add**, search for the resource accounts that you want to allow agents to use for caller ID purposes when making outbound calls, click **Add**, and then click **Add**.
-
-### Standard Call Queues
-
-For Teams desktop users and standard call queues consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](./caller-id-policies.md).
-
-> [!NOTE]
-> The resource account used for calling ID purposes must have a Microsoft Teams Phone System Virtual User license and one of the following assigned:
->
-> - A Calling Plan license and a phone number assigned
-> - An Operator Connect phone number assigned
-> - An online voice routing policy (phone number assignment is optional when using Direct Routing)
-
-# [Step 4 - Language](#tab/language)
-
-## Step 4: Choose a language
-
-![Screenshot of language settings.](./media/call-queue-language.png)
-
-Choose a [supported language](./create-a-phone-system-call-queue-languages.md).
-
-This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
-
-# [Step 5 - Greetings and music](#tab/greetings)
-
-## Step 5: Greetings and music on hold in queue
-
-![Screenshot of greetings and music on hold in queue settings.](./media/call-queue-greetings-music.png)
-
-Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
-
-Teams provides default music to callers while they are on hold in a queue. The default music supplied in Teams call queues is free of any royalties payable by your organization. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
+- The default music supplied in Teams call queues is free of any royalties payable by your organization.
+- If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
-# [Step 6 - Call agents](#tab/call-agents)
+Once you've selected a greeting and on-hold music, select the **Next** button at the bottom of the **Add a call queue** page.
 
-## Step 6: Call agents
+# [Step 3 - Call answering](#tab/call-answering)
 
-Review the [prerequisites for adding agents to a call queue](./plan-auto-attendant-call-queue.md#prerequisites).
+## Step 3: Set up who will answer incoming calls
 
-![Screenshot of users and groups settings for call queues.](./media/call-queue-users-groups.png)
+Review the [prerequisites for adding agents to a call queue](plan-auto-attendant-call-queue.md#prerequisites).
 
 ### Teams channel
 
 You can add up to 200 agents via a Teams channel. You must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
 
-If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**.
+If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
+
+1. Select the **Choose a team** radio button and select **Add a channel**.
+1. Search for the team that you want to use, select it, and select **Add**.
+1. Select the channel that you want to use (only standard channels are supported) and select **Apply**.
 
 The following clients are supported when using a Teams channel for call queues:
 
@@ -202,20 +175,23 @@ The following clients are supported when using a Teams channel for call queues:
 
 You can add up to 20 agents individually and up to 200 agents via groups.
 
-If you want to add individual users or groups to the queue, select the **Choose users and groups** option.
+If you want to add individual users or groups to the queue:
 
-To add a user to the queue, click **Add users**, search for the user, click **Add**, and then click **Add**.
+1. Select the **Choose users and groups** radio button.
 
-To add a group to the queue, click **Add groups**, search for the group, click **Add**, and then click **Add**. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
+To **add a user** to the queue:
+
+1. Select **Add users**, search for the user, click **Add**, and then click **Add**.
+
+To **add a group** to the queue:
+
+1. Select **Add groups**, search for the group, click **Add**, and then click **Add**. 
+    1. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
 
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
 
-# [Step 7 - Call routing](#tab/call-routing)
-
-## Step 7: Call routing
-
-![Screenshot of conference mode and routing method settings.](./media/call-queue-conference-mode-routing-method.png)
+### Conference mode
 
 **Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
@@ -232,7 +208,15 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
 
-**Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
+Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
+
+# [Step 5 - Agent routing](#tab/agent-routing)
+
+## Step 5: Select your agent routing options
+
+**Routing method** determines the order in which agents receive calls from the queue.
+
+Choose from these options:
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
@@ -242,8 +226,7 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose presence state is not Available will not be eligible to receive calls until they change their presence to Available.
 
-> [!TIP]
-> Setting **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
+We recommend setting your **Routing Method** to either **Round robin** or **Longest idle**.
 
 > [!NOTE]
 > If [Compliance recording](./teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** is not supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
@@ -254,13 +237,23 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 >
 > Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but will not be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the call queue timeout condition occurs.  
 
-![Screenshot of routing, opt out, and alert time settings.](./media/call-queue-presence-agents-time.png)
+### Presence-based call routing
 
-**Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
+**Presence-based call routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method.
 
-You can enable presence-based call routing with any of the routing methods.
+Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
+
+You can enable **presence-based call routing** with any of the routing methods.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
+
+We recommend to turn on **Presence-based routing**.
+
+### Call agents can opt out of taking calls
+
+You can specify whether call agents have the ability to opt out of taking calls or not.
+
+We recommend to turn on **Call agents can opt out of taking calls**.
 
 > [!NOTE]
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
@@ -271,43 +264,55 @@ If an agent opts out of getting calls, they won't be included in the call routin
 >
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
-> [!TIP]
-> Setting **Presence-based routing** to **On** is the recommended setting.
+### Agent alert time
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-> [!TIP]
-> Setting **Agent alert time** to **20 seconds** is the recommended setting.
+We recommend setting the **Agent alert time** to **20 seconds**.
 
-# [Step 8 - Call overflow](#tab/call-overflow)
+Once you've selected your agent call routing options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-## Step 8: Call overflow handling
+# [Step 6 - Call overflow](#tab/call-overflow)
 
-![Screenshot of call overflow settings.](./media/call-queue-overflow-handling.png)
+## Step 6: Set how to handle call overflow
 
-**Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
+**Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time.
 
-You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+The default is 50, but it can range from 0 to 200.
+
+When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
+
+You can choose to **disconnect** the call or **redirect** it to any of the call routing destinations.
+
+For example, you might have the caller leave a voicemail for the agents in the queue.
+
+For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 >
 > When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
-# [Step 9 - Call timeout](#tab/call-timeout)
+Once you've selected your call timeout options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-## Step 9: Call timeout handling
+# [Step 7 - Call timeout](#tab/call-timeout)
 
-![Screenshot of call timeout settings.](./media/call-queue-timeout-handling.png)
+## Step 7: Set how to handle call timeouts
 
-**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
+**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, refer to [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+You can specify a value from 0 seconds to 45 minutes.
+
+You can choose to **disconnect** the call or **redirect** it to one of the call routing destinations.
+
+For example, you might have the caller leave a voicemail for the agents in the queue.
+
+For external transfers, refer to [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
-When you have selected your call timeout options, click **Save**.
+Once you've selected your agent call routing options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
 ---
 
