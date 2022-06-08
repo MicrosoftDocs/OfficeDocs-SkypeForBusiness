@@ -62,8 +62,8 @@ You'll need to create two comma-separated values (CSV) files for each batch of t
     |---------|---------|
     |**Team Name**|The name of the team.|
     |**Existing Team ID**|If you're adding or removing users from an existing team, specify the team ID of the team.|
-    |**Visibility**|Whether the team is public (in which anyone in your organization can join) or private (in which users need approval from the team owners to join). Options are **Public** or **Private**.|
-    |**Team Template ID**|If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list of template IDs for pre-built team templates.|
+    |**Visibility**|Whether the team is public (anyone in your organization can join) or private (users need approval from the team owners to join). Options are **Public** and **Private**.|
+    |**Team Template ID**|If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list pre-built team template IDs.|
 
 - **A CSV file that maps the users you're adding to each team**. This file must contain these required columns, in the following order, starting with the first column:
 
@@ -80,10 +80,10 @@ You'll need to create two comma-separated values (CSV) files for each batch of t
 
 Use the following examples to help you create your CSV files. Here, we've named the files, Teams.csv and Users.csv.
 
-Teams.csv
+**Teams.csv**
 
 ```CSV
-Team name, Existing Team ID, Visibility, Team Template ID
+Team name, Existing Team ID,Visibility,Team Template ID
 Contoso Store 1,,Public,com.microsoft.teams.template.retailStore
 Contoso Store 2,,Public,com.microsoft.teams.template.retailStore
 Contoso Store 3,,Public,com.microsoft.teams.template.retailStore
@@ -96,7 +96,7 @@ Contoso Store 9,,Private,com.microsoft.teams.template.OnboardEmployees
 Contoso Store 10,,Private,com.microsoft.teams.template.OnboardEmployees
 ```
 
-Users.csv
+**Users.csv**
 
 ```CSV
 User Full Name,User UPN or ID,Team Name,ActionType,Owner or Member,License
