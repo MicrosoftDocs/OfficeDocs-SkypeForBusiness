@@ -83,7 +83,7 @@ Use the following examples to help you create your CSV files. Here, we've named 
 **Teams.csv**
 
 ```CSV
-Team name, Existing Team ID,Visibility,Team Template ID
+Team name,Existing Team ID,Visibility,Team Template ID
 Contoso Store 1,,Public,com.microsoft.teams.template.retailStore
 Contoso Store 2,,Public,com.microsoft.teams.template.retailStore
 Contoso Store 3,,Public,com.microsoft.teams.template.retailStore
