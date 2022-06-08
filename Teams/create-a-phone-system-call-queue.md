@@ -1,5 +1,5 @@
 ---
-title: "Create a call queue in Microsoft Teams"
+title: Create a call queue in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,11 +23,12 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
     - seo-marvel-apr2020
-description: Learn how to set up call queues for large organizations in Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
+description: Learn how to set up call queues in Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
 ---
+
 # Create a call queue
 
-Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*).
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
 
 Call queues provide:
 
@@ -42,33 +43,82 @@ Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto
 
 The steps to set up a call queue includes:
 
-1. [Create the call queue](?tabs=create-queue)
-1. [Add resource accounts](?tabs=resource-account)
-1. [Set up dynamic caller ID](?tabs=dynamic-caller-id)
-1. [Choose languages](?tabs=language)
-1. [Choose greetings and music](?tabs=greetings)
-1. [Select call agents](?tabs=call-agents)
-1. [Map call routing](?tabs=call-routing)
-1. [Handle call overflow](?tabs=call-overflow)
-1. [Handle call timeout](?tabs=call-timeout)
+1. Set up general information
+1. Set the greeting and music
+1. Set up call answering
+1. Choose and assign agents
+1. Set call overflow handling
+1. Set call timeout handling
 
-## Video demonstration
+## Follow these steps to set up your call queue
 
-This video shows a basic example of how to create a call queue in Teams.
+# [Step 1: General info](#tab/general-info)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
+## Step 1: Set up general information
 
-## How to set up your call queue
+To set up a call queue, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Call queues**, and then select **Add**.
 
-### [Step 1: Call queue](#tab/create-queue)
+Type a name for the call queue in the box at the top.
 
-## Step 1: Create the call queue
+### Add a resource account
 
-To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
+To add an existing resource account:
 
-Type a name for the call queue.
+1. Under **Resource accounts**, click the **Add** button to add a resource account for this call queue.
+1. On the **Add accounts** pane, search for the resource account to add.
+1. Select the **Add** button next to the resource account you want to assign to this call queue.
+1. At the bottom of the pane, select the **Add** button.
 
-### [Step 2 - Resource accounts](#tab/resource-account)
+If you need to create a resource account:
+
+1. Under **Resource accounts**, click the **Add** button to add a resource account for this call queue.
+1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
+1. Select the **+ Add a resource account** button at the bottom of the results.
+1. On the **Add resource account** pane:
+    1. Type in a descriptive **Display name**, which will be visible to agents.
+    1. Type in a descriptive **Username** for the resource account.
+    1. Select the **Resource account type** dropdown and select **Call queue**.
+1. At the bottom of the pane, select the **Save** button.
+1. On the **Resource accounts** pane, select the **Add** button.
+
+Agents will see the resource account name when they receive an incoming call.
+
+For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
+
+### Assign a calling ID
+
+**Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard call queues.**
+
+You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make.
+
+1. Under **Assign calling ID**, select the **Add** button.
+1. On the **Add accounts** pane, search for the resource account(s) you want to allow agents to use for outbound caller ID purposes.
+1. Select the **Add** button next to the resource account with an assigned phone number.
+1. Select the **Add** button at the bottom of the pane.
+
+If you don't have a resource account with an assigned phone number:
+
+1. Under **Resource accounts**, click the **Add** button to add a resource account.
+1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
+1. Select the **+ Add a resource account** button at the bottom of the results.
+1. On the **Add resource account** pane:
+    1. Type in a descriptive **Display name**, which will be visible to call recipients.
+    1. Type in a descriptive **Username** for the resource account.
+    1. Select the **Resource account type** dropdown and select **Call queue**.
+1. At the bottom of the pane, select the **Save** button.
+1. On the **Resource accounts** pane, select the **Add** button.
+1. Open a new tab in your browser, keeping the current tab open too.
+1. In the new tab, [assign a **Teams Phone Standard - Virtual User** license and **service phone number**](manage-resource-accounts.md) to this newly created resource account.
+
+Learn how to assign a **Teams Phone Standard - Virtual User** license and **service phone number** to resource accounts in [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md).
+
+### Set the call queue language
+
+Choose a [supported language](./create-a-phone-system-call-queue-languages.md).
+
+This language will be used for system-generated voice prompts and voicemail transcription, if you enable them.
+
+# [Step 2 - Resource accounts](#tab/resource-account)
 
 ## Step 2: Add resource accounts
 
@@ -80,7 +130,7 @@ Agents will see the resource account name when they receive an incoming call.
 
 For more information, see [Manage Teams resource accounts](./manage-resource-accounts.md).
 
-### [Step 3 - Dynamic Caller ID](#tab/dynamic-caller-id)
+# [Step 3 - Dynamic Caller ID](#tab/dynamic-caller-id)
 
 ## Step 3: Set up dynamic caller ID
 
@@ -103,7 +153,7 @@ For Teams desktop users and standard call queues consider directly setting the c
 > - An Operator Connect phone number assigned
 > - An online voice routing policy (phone number assignment is optional when using Direct Routing)
 
-### [Step 4 - Language](#tab/language)
+# [Step 4 - Language](#tab/language)
 
 ## Step 4: Choose a language
 
@@ -113,7 +163,7 @@ Choose a [supported language](./create-a-phone-system-call-queue-languages.md).
 
 This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-### [Step 5 - Greetings and music](#tab/greetings)
+# [Step 5 - Greetings and music](#tab/greetings)
 
 ## Step 5: Greetings and music on hold in queue
 
@@ -126,7 +176,7 @@ Teams provides default music to callers while they are on hold in a queue. The d
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
-### [Step 6 - Call agents](#tab/call-agents)
+# [Step 6 - Call agents](#tab/call-agents)
 
 ## Step 6: Call agents
 
@@ -161,7 +211,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
 
-### [Step 7 - Call routing](#tab/call-routing)
+# [Step 7 - Call routing](#tab/call-routing)
 
 ## Step 7: Call routing
 
@@ -229,7 +279,7 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > [!TIP]
 > Setting **Agent alert time** to **20 seconds** is the recommended setting.
 
-### [Step 8 - Call overflow](#tab/call-overflow)
+# [Step 8 - Call overflow](#tab/call-overflow)
 
 ## Step 8: Call overflow handling
 
@@ -244,8 +294,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 >
 > When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
-
-### [Step 9 - Call timeout](#tab/call-timeout)
+# [Step 9 - Call timeout](#tab/call-timeout)
 
 ## Step 9: Call timeout handling
 

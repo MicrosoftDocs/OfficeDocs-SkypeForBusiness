@@ -1,5 +1,5 @@
 ---
-title: "Set up an auto attendant for Microsoft Teams"
+title: Set up an auto attendant for Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,22 +21,14 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test auto attendants for large organizations in Microsoft Teams."
+description: Learn how to set up and test auto attendants in Microsoft Teams.
 --- 
+
 # Set up an auto attendant
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
-
-The steps to add an auto attendant are:
-
-1. Set up general information.
-1. Set up general call flow.
-1. Set up after hours call flow.
-1. Set up holiday hours call flow.
-1. Set up dial scope.
-1. Set up resource accounts.
 
 Auto attendants can direct calls, based on callers' input, to one of the following destinations:
 
@@ -44,12 +36,19 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 - **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
-- - In M365 Admin Center enable "Let people outside the organization email this team" for the Microsoft 365 group that you specificy
+  - In M365 Admin Center enable "Let people outside the organization email this team" for the Microsoft 365 group that you specify
 - **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
 
-In the tabs below, you'll find the steps to complete the setup of your auto attendant.
+The steps to add an auto attendant are:
+
+1. Set up general information.
+1. Set up a general call flow.
+1. Set up an after hours call flow.
+1. Set up holiday hours call flows.
+1. Set up dial scope.
+1. Set up resource accounts.
 
 For more complex enterprise scenarios, see these additional sections:
 
@@ -58,13 +57,13 @@ For more complex enterprise scenarios, see these additional sections:
 - [Auto attendant diagnostic tool](#auto-attendant-diagnostic-tool).
 - [Related topics](#related-topics).
 
-### Follow these steps to set up your auto attendant
+## Follow these steps to set up your auto attendant
 
-To set up an auto attendant, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
+To set up an auto attendant, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Auto attendants**, and then select **Add**.
 
-## [Step 1 - General info](#tab/general-info)
+# [Step 1 - General info](#tab/general-info)
 
-## Set up general information
+## Step 1 - Set up general information
 
 ![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs.](./media/auto-attendant-general-info-page-new.png)
 
@@ -83,9 +82,9 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, select
 
 6. Select **Next**.
 
-## [Step 2 - General call flow](#tab/call-flow)
+# [Step 2 - General call flow](#tab/call-flow)
 
-## Set up the general call flow
+## Step 2 - Set up the general call flow
 
 ![Screenshot of greeting message settings.](./media/auto-attendant-call-flow-greeting-message.png)
 
@@ -126,9 +125,9 @@ For each menu option, specify the following settings:
 
 - **Redirect to** - the call routing destination used when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
-## [Step 3 - After hours call flow](#tab/after-hours)
+# [Step 3 - After hours call flow](#tab/after-hours)
 
-## Set up call flow for after hours
+## Step 3 - Set up call flow for after hours
 
 ![Screenshot of after hours day and time settings.](./media/auto-attendant-business-hours.png)
 
@@ -142,9 +141,9 @@ Once you've specified your business hours, then choose your call routing options
 
 Select **Next** when you're done.
 
-## [Step 4 - Holiday call flow](#tab/holidays)
+# [Step 4 - Holiday call flow](#tab/holidays)
 
-## Set up call flows for holidays
+## Step 4 - Set up call flows for holidays
 
 ![Screenshot of holiday and holiday greeting settings.](./media/auto-attendant-holiday-greeting.png)
 
@@ -174,9 +173,9 @@ Repeat the procedure as needed for each additional holiday.
 
 When you've added all your holidays, select **Next**.
 
-## [Step 5 - Dial scope](#tab/dial-scope)
+# [Step 5 - Dial scope](#tab/dial-scope)
 
-## Set up dial scope
+## Step 5 - Set up dial scope
 
 ![Screenshot of dial scope include and exclude options.](./media/auto-attendant-dial-scope.png)
 
@@ -225,9 +224,9 @@ Refer to [Dial and voice reference](./dial-voice-reference.md) for more informat
 
 Once you have selected a **Directory search** option, select **Next**.
 
-## [Step 6 - Resource accounts](#tab/resource-accounts)
+# [Step 6 - Resource accounts](#tab/resource-accounts)
 
-## Set up resource accounts
+## Step 6 - Set up resource accounts
 
 All auto attendants must have an associated resource account.  First-level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 

@@ -823,9 +823,9 @@ items:
           items: 
             - name: Planning
               href: plan-auto-attendant-call-queue.md
-            - name: Auto attendant setup
+            - name: Set up auto attendants
               href: create-a-phone-system-auto-attendant.md
-            - name: Call queue setup
+            - name: Set up call queues
               href: create-a-phone-system-call-queue.md
             - name: Manage Teams resource accounts
               href: manage-resource-accounts.md
