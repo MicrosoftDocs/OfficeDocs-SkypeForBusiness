@@ -61,6 +61,12 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 
 ## Requirements
 
+You need to use Microsoft Graph or School Data Sync (SDS) to populate each student's parent and guardian related contact information.
+
+### Graph API
+
+If you already use [Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview) to create Student identities, you can easily include [relatedContact resource type](/graph/api/resources/relatedcontact).
+
 ### School Data Sync
 
 - You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information.
