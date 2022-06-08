@@ -52,6 +52,60 @@ Follow these steps to deploy a large number of teams at a time.
 
 You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
 
+### Prepare your CSV files
+
+You'll need to create two comma-separated values (CSV) files for each batch of teams that you deploy:
+
+- A CSV file that defines the teams you're creating. This file must contain these required columns, in the following order, starting with the first column:
+
+    |Column name  |Description  |
+    |---------|---------|
+    |Team Name    |The name of the team.        |
+    |Existing Team ID     | If you're add or removing users from an existing team, specify the team ID of the team.          |
+    |Visibility     |Whether the team is public (in which anyone in your organization can join) or private (in which users need approval from the team owners to join). Options are **Public** or **Private**.|
+    |Team Template ID    |If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list of team template IDs.        |
+ 
+- A CSV file that lists the users you're adding to each team.
+
+
+#### Examples
+
+Use the following examples to help you create your CSV files.
+
+Teams.csv
+
+```CSV
+Team name, Existing team ID, Visibility, Team template ID
+Contoso Store 1,,Public,com.microsoft.teams.template.retailStore
+Contoso Store 2,,Public,com.microsoft.teams.template.retailStore
+Contoso Store 3,,Public,com.microsoft.teams.template.retailStore
+Contoso Store 4,,Public,com.microsoft.teams.template.ManageAProject
+Contoso Store 5,,Public,com.microsoft.teams.template.ManageAProject
+Contoso Store 6,,Public,com.microsoft.teams.template.ManageAProject
+Contoso Store 7,,Public,
+Contoso Store 8,,Private,com.microsoft.teams.template.OnboardEmployees
+Contoso Store 9,,Private,com.microsoft.teams.template.OnboardEmployees
+Contoso Store 10,,Private,com.microsoft.teams.template.OnboardEmployees
+```
+
+Users.csv
+
+```CSV
+User Full Name,User UPN or ID,Team name,ActionType,Owner or Member,License
+Contoso User 001,user-001@contoso.com,Contoso Store 1,AddMember,Owner,M365F3
+Contoso User 002,user-002@contoso.com,Contoso Store 2,AddMember,Owner,M365F3
+Contoso User 003,user-003@contoso.com,Contoso Store 3,AddMember,Owner,M365F3
+Contoso User 004,user-004@contoso.com,Contoso Store 4,AddMember,Owner,M365F3
+Contoso User 005,user-005@contoso.com,Contoso Store 5,AddMember,Owner,M365F3
+Contoso User 006,user-006@contoso.com,Contoso Store 6,AddMember,Member,M365F3
+Contoso User 007,user-007@contoso.com,Contoso Store 7,AddMember,Member,M365F3
+Contoso User 008,user-008@contoso.com,Contoso Store 8,AddMember,Member,M365F3
+Contoso User 009,user-009@contoso.com,Contoso Store 9,AddMember,Member,M365F3
+Contoso User 010,user-010@contoso.com,Contoso Store 10,AddMember,Member,M365F3
+```
+
+### Deploy your teams
+
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Run PowerShell in administrator mode.
 1. Run the following to uninstall any previously installed Teams PowerShell module.
@@ -84,6 +138,8 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
     ```powershell
     New-CsBatchTeamsDeployment -TeamsFilePath "*Your file path*" -UsersFilePath "*Your file path*" -UsersToNotify *Email addresses* 
     ```
+
+    The email recipients you entered will receive an email notification about deployment status. The email contains the orchestration ID for the batch you submitted and any errors that may have occurred.
 
 1. Run the following to check the status of the batch you submitted.
 
