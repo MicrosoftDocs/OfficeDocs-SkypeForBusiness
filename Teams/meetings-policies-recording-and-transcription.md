@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies for recording and transcription
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams

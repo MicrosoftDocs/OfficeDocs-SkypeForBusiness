@@ -1,7 +1,7 @@
 ---
 title: Manage voice and calling policies in Teams
-author: karlistites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

@@ -29,7 +29,7 @@ When you are setting up users in your organization to make and receive telephone
   
 Before you can assign Microsoft-supplied telephone numbers to your users, you must use the **Get new numbers** page to search for telephone numbers that are available to you. You can search by **Country (Market)**, **Number type**, and **Location**. You will then see a list of operators that supply numbers in that country.
 
-If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you will need for your users. The page will automatically limit the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you will be directed to the landing page of your selected operator to complete the number order.
+If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you will need for your users. The page will automatically limit the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you will be directed to the landing page of your selected operator to complete the number order.
 
 How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, or Direct Routing.
 
