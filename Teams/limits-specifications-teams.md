@@ -57,7 +57,7 @@ This article describes some of the limits, specifications, and other requirement
 <sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
 > [!NOTE]
-> For limits for the shared channels preview, see [Limits for shared channels (preview)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
+> For limits for shared channels, see [Limits for shared channels](/MicrosoftTeams/shared-channels#limits-for-shared-channels).
 
 ## Messaging
 
