@@ -57,25 +57,25 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
 You'll need to create two comma-separated values (CSV) files for each batch of teams that you deploy:
 
 - A CSV file that defines the teams you're creating. This file must contain these required columns, in the following order, starting with the first column:
-
+    [!div class="mx-tdBreakAll"]
     |Column name  |Description  |
     |---------|---------|
-    |Team Name    |The name of the team.        |
-    |Existing Team ID     | If you're add or removing users from an existing team, specify the team ID of the team.          |
-    |Visibility     |Whether the team is public (in which anyone in your organization can join) or private (in which users need approval from the team owners to join). Options are **Public** or **Private**.|
-    |Team Template ID    |If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list of team template IDs.        |
+    |**Team Name**    |The name of the team.        |
+    |**Existing Team ID**     | If you're add or removing users from an existing team, specify the team ID of the team.          |
+    |**Visibility**     |Whether the team is public (in which anyone in your organization can join) or private (in which users need approval from the team owners to join). Options are **Public** or **Private**.|
+    |**Team Template ID**    |If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list of team template IDs.        |
  
 - A CSV file that lists the users you're adding to each team.
 
 
 #### Examples
 
-Use the following examples to help you create your CSV files.
+Use the following examples to help you create your CSV files. 
 
 Teams.csv
 
 ```CSV
-Team name, Existing team ID, Visibility, Team template ID
+Team name, Existing Team ID, Visibility, Team Template ID
 Contoso Store 1,,Public,com.microsoft.teams.template.retailStore
 Contoso Store 2,,Public,com.microsoft.teams.template.retailStore
 Contoso Store 3,,Public,com.microsoft.teams.template.retailStore
@@ -91,7 +91,7 @@ Contoso Store 10,,Private,com.microsoft.teams.template.OnboardEmployees
 Users.csv
 
 ```CSV
-User Full Name,User UPN or ID,Team name,ActionType,Owner or Member,License
+User Full Name,User UPN or ID,Team Name,ActionType,Owner or Member,License
 Contoso User 001,user-001@contoso.com,Contoso Store 1,AddMember,Owner,M365F3
 Contoso User 002,user-002@contoso.com,Contoso Store 2,AddMember,Owner,M365F3
 Contoso User 003,user-003@contoso.com,Contoso Store 3,AddMember,Owner,M365F3
