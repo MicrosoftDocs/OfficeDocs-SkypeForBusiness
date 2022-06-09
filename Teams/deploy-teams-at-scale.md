@@ -144,13 +144,13 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
 1. Run the following to deploy a batch of teams. In this command, you specify the path to your CSV files and the email addresses of up to five recipients to notify about this deployment.
 
     ```powershell
-    New-CsBatchTeamsDeployment -TeamsFilePath "*Your CSV file path*" -UsersFilePath "*Your CSV file path*" -UsersToNotify *Email addresses* 
+    New-CsBatchTeamsDeployment -TeamsFilePath "Your CSV file path" -UsersFilePath "Your CSV file path" -UsersToNotify "Email addresses" 
     ```
 
     For example:
 
     ```powershell
-    New-CsBatchTeamsDeployment -TeamsFilePath C:\dscale\Teams.csv -UsersFilePath C:\dscale\Users.csv -UsersToNotify "adminteams@contoso.com,adelev@contoso.com"
+    New-CsBatchTeamsDeployment -TeamsFilePath "C:\dscale\Teams.csv" -UsersFilePath "C:\dscale\Users.csv" -UsersToNotify "adminteams@contoso.com,adelev@contoso.com"
     ```
 
     The recipients will receive email notifications about deployment status. The email contains the orchestration ID for the batch you submitted and any errors that may have occurred.
