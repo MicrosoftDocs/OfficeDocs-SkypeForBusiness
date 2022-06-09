@@ -30,7 +30,7 @@ Teams apps behave when guest, external (federated), and anonymous users are pres
   > [!Note]
   > For a more detailed comparison of guest versus external users, [see communicate with users from other organizations](./communicate-with-users-from-other-organizations.md).
 
-* An **anonymous user** is a concept in Teams meetings where the user has joined the meeting via a link. The user hasn't logged in with their Microsoft or organization’s account.
+* An **anonymous user** is a user who joins a meeting via a link. The user isn't logged in with their Microsoft account or their organization’s account.
 
 ## Guests
 
