@@ -41,7 +41,7 @@ Deploying teams at scale allows you to:
 - Create teams using pre-built templates or your own custom templates.
 - Add users to teams as owners or members.
 - Manage teams at scale by adding or removing users from existing teams.
-- Stay notified through email, including completion, status, and errors (if any). Team owners and members are automatically notified when they are added to a team. You can also choose to notify up to five other people about the status of each batch of teams you deploy.
+- Stay notified through email, including completion, status, and errors (if any). Team owners and members are automatically notified when they're added to a team. You can also choose to notify up to five other people about the status of each batch of teams you deploy.
 
 ## How to deploy teams at scale
 
@@ -68,7 +68,7 @@ You'll need to create two CSV files for each batch of teams that you deploy:
     |Column name  |Description  |
     |---------|---------|
     |**User Full Name**|The display name of the user.|
-    |**User UPN or ID**|The user principal name (UPN) or ID of the user. For example, user-001@contoso.com.|
+    |**User UPN or ID**|The user principal name (UPN) or ID of the user. For example, averyh@contoso.com.|
     |**Team Name**|The name of the team.|
     |**ActionType**|Whether you're adding or removing the user from the team. Options are **AddMember** and **RemoveMember**.|
     |**Owner or Member**|Whether the user is a team owner or team member. Options are **Owner** and **Member**.|
