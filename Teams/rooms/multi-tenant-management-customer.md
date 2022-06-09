@@ -4,7 +4,7 @@ author: donnah007
 ms.author: v-donnahill
 manager: serdars
 ms.reviewer: dstrome 
-ms.date: 06/09/22
+ms.date: 06/09/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
