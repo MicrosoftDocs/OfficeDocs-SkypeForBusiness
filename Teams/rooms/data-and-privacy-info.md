@@ -23,7 +23,7 @@ f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
 
 # Approach
 
-Customers using Microsoft Teams Rooms Managed Services entrust Microsoft with their most valuable asset — data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
+Customers using Microsoft Teams Rooms Managed Services entrust Microsoft with their most valuable asset—data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
 
 The technology follows privacy processes to make sure that it adheres to the customer promises in collecting and using data effectively running the service.
 ## Data collection and privacy
@@ -39,7 +39,7 @@ Managed Services takes strong measures to help protect customer data from inappr
 
 ## Zero Standing Access data storage
 
-Managed Services mitigates risks associated with accounts with privileged access from malicious actors--both inside and outside an organization--through the principle of Zero Standing Access. This principle enables Managed Services to operate without any privileges available to any user by default. Combined with the principles of Just-In-Time and Just-Enough-Access, it provides a robust framework to be secure and compliant by default. Diagnostic data is available to the Microsoft service operations team via an internal portal.
+Managed Services mitigates risks associated with accounts with privileged access from malicious actors—both inside and outside an organization—through the principle of Zero Standing Access. This principle enables Managed Services to operate without any privileges available to any user by default. Combined with the principles of Just-In-Time and Just-Enough-Access, it provides a robust framework to be secure and compliant by default. Diagnostic data is available to the Microsoft service operations team via an internal portal.
 
 ## Data handling
 
@@ -65,17 +65,17 @@ The data classification can be used to adhere to security, compliance, and priva
 
 Managed Services sends data to Microsoft for the purposes of monitoring, diagnosing, and mitigating any issues in the deployment. Examples include
 
-1. Ensuring the device is up to date (including the app, OS, drivers, F/W)
-1. Ensuring the device is ready to use (signed in, all peripherals reporting healthy state, etc.)
-1. Ensuring the environment is ready (accounts provisioned, network speeds are fast enough, etc.)
-1. Determining if there may be hardware issues or installation issues (such as loose cabling)
-1. Heuristics to determine issues (excessive reboots, etc.)
+- Ensuring the device is up to date (including the app, OS, drivers, F/W)
+- Ensuring the device is ready to use (signed in, all peripherals reporting healthy state, etc.)
+- Ensuring the environment is ready (accounts provisioned, network speeds are fast enough, etc.)
+- Determining if there may be hardware issues or installation issues (such as loose cabling)
+- Heuristics to determine issues (excessive reboots, etc.)
 
 Managed Services manages the device with the following actions:
 
-1. Update software
-1. Mitigate issues through reboots, resetting USB connections & states
-1. Collect specific logs to help diagnose issues
+- Update software
+- Mitigate issues through reboots, resetting USB connections & states
+- Collect specific logs to help diagnose issues
 
 Managed Services doesn't monitor or record audio, video, media, or meeting content from solution kits.
 
@@ -89,9 +89,9 @@ Managed Services doesn't monitor or record audio, video, media, or meeting conte
 
 Certain sensitive data in the Device Activity log is redacted out locally (not collected by Managed Services):
 
-1. Meeting subject and body
-1. Contact card information for meeting attendees (such as title, phone number, etc.)
-1. In Meeting IM message content
+- Meeting subject and body
+- Contact card information for meeting attendees (such as title, phone number, etc.)
+- In Meeting IM message content
 
 > [!NOTE]
 > As Microsoft evolves Managed Services, the specific data is subject to change.
