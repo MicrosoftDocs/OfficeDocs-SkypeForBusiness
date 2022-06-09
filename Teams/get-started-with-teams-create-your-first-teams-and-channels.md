@@ -1,7 +1,7 @@
 ---
 title: Create your first teams and channels
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
