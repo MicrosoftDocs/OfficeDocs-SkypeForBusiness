@@ -38,7 +38,7 @@ If you don't set up Communications Credits, and you run out of minutes for your 
 
 To set up Communication Credits for your organization, follow these steps:
 
-1. [Assign an Audio Conferencing and/or Phone System with Calling Plan licenses to your users](#step-1-assign-an-audio-conferencing-or-phone-system-with-calling-plan-license-to-your-users).
+1. [Assign an Audio Conferencing and/or Phone System with Calling Plan license to your users](#step-1-assign-an-audio-conferencing-and/or-phone-system-with-calling-plan-license-to-your-users).
 
 2. [Set up Communications Credits for your organization](#step-2-set-up-communications-credits-for-your-organization).
 
