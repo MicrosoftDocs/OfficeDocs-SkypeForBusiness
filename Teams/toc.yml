@@ -821,8 +821,10 @@ items:
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: Auto attendants and call queues
           items: 
-            - name: Planning
+            - name: Plan auto attendants and call queues
               href: plan-auto-attendant-call-queue.md
+            - name: Plan call routing flow
+              href: plan-your-call-routing-flow.md
             - name: Set up auto attendants
               href: create-a-phone-system-auto-attendant.md
             - name: Set up call queues
@@ -835,6 +837,8 @@ items:
               href: answer-auto-attendant-and-call-queue-calls.md
             - name: Reports
               href: aa-cq-cqd-historical-reports.md
+            - name: PowerShell cmdlet reference for auto attendants and call queues
+              href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
         - name: Block inbound calls

@@ -28,7 +28,7 @@ description: Learn how to set up call queues in Microsoft Teams, which provides 
 
 # Create a call queue
 
-Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
+Call queues route callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
 
 Call queues provide:
 
@@ -39,8 +39,6 @@ Call queues provide:
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
-**See the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.**
-
 The steps to set up a call queue includes:
 
 1. Set up general information
@@ -49,6 +47,8 @@ The steps to set up a call queue includes:
 1. Choose and assign agents
 1. Set call overflow handling
 1. Set call timeout handling
+
+The steps outlined in the article create call queues using the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
 
 ## Follow these steps to set up your call queue
 
@@ -118,7 +118,7 @@ If you don't have a resource account with an assigned phone number:
 After you've created this new resource account for calling ID, you'll still need to:
 
 - Assign a [Teams Phone Standard - Virtual User license](manage-resource-accounts.md#assign-a-license)
-- Assign a Microsoft Calling Plan license, use an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
+- Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
 - Assign the [service phone number to the resource account](manage-resource-accounts.md#assign-a-service-number), if you're using Microsoft Calling Plan
 
 ### Set the call queue language
@@ -314,7 +314,7 @@ For external transfers, refer to [Prerequisites](./plan-auto-attendant-call-queu
 
 Once you've selected your agent call routing options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
----
+# [Additional resources](#tab/additional-resources)
 
 ## Summary of recommended call queue settings
 
@@ -378,68 +378,12 @@ The following clients are supported for call agents in a call queue:
 - iPad Skype for Business Client (version 6.16.0 and later)
 - Microsoft Teams Windows client (32-bit and 64-bit versions)
 - Microsoft Teams Mac client
-- Microsoft Teams on [Virtualized Desktop Infrastructure](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix, and VMware)
+- Microsoft Teams on [Virtualized Desktop Infrastructure](teams-for-vdi.md) (Windows Virtual Desktop, Citrix, and VMware)
 - Microsoft Teams iPhone app
 - Microsoft Teams Android app
 
   > [!NOTE]
-  > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
-
-## Call queue cmdlets
-
-Windows PowerShell allows you to create and manage call queues via the command line in a batch or programmatic manner.
-
-The following cmdlets allow you to manage a call queue:
-
-- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
-- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
-- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
-- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
-
-The following additional cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with call queues:
-
-Users/Teams
-
-- Users
-  - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-
-- Teams:
-  - [Get-Team](/powershell/module/teams/Get-Team)
-  - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
-
-Resource accounts:
-
-- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
-- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
-- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
-- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
-
-Virtual Teams Phone licenses:
-
-- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
-- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
-Phone number assignment:
-
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
-
-Audio Files
-
-- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
-- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
-- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
-
-Support Language Lists
-
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-
-For a step-by-step guide to creating call queues with PowerShell, see [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
+  > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
 ## Call Queue Diagnostic Tool
 
@@ -453,6 +397,8 @@ If you're an administrator, you can use the following diagnostic tool to validat
 2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
 
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
+
+---
 
 ## Related topics
 
