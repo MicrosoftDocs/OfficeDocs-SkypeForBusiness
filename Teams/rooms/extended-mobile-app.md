@@ -46,7 +46,7 @@ Here are some of the capabilities you have on the mobile app for managing incide
 
 The Incidents page shows the types of open incidents.
 
-![MTMS mobile application incidents page screen](../media/mtms-extended-app-001.png)
+![MTMS mobile application incidents page screen](../media/mtms-extended-app-001.png)<!--Microsoft approved image per author.>
 
 ## Managing tickets
 Here are some of the capabilities you have on the mobile app for managing tickets.
@@ -78,7 +78,7 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 ![MTMS mobile application report incident](../media/mtms-extended-app-012.png)
 ### View an incident by category
 
-![MTMS mobile application  Rooms problems screen](../media/mtms-extended-app-001.png)
+![MTMS mobile application  Rooms problems screen](../media/mtms-extended-app-001.png)<!--Microsoft approved image per author.>
 ### Managed Security with Microsoft Defender
 
 ![MTMS mobile application managed security screen](../media/mtms-extended-app-009.png)
@@ -86,7 +86,7 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 ![MTMS mobile application Messages screen](../media/mtms-extended-app-008.png)
 ### Sign out
 
-![MTMS mobile application signout page page](../media/mtms-extended-app-011.png)
+![MTMS mobile application signout page page](../media/mtms-extended-app-011.png)<!--Microsoft approved image per author.>
 ## Frequently asked questions
 
 Below are answers to frequently asked questions.
