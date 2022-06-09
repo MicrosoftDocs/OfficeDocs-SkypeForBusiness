@@ -97,16 +97,16 @@ Use the following examples to help you create your CSV files. Here, we've named 
 
 |User Full Name |User UPN or ID|Team Name|ActionType|Owner or Member|License|
 |---------|---------|---------|---------|---------|---------|
-|User001|user-001@contoso.com|Contoso Store 1|AddMember|Owner|M365F3|
-|User002|user-002@contoso.com|Contoso Store 2|AddMember|Owner|M365F3|
-|User003|user-003@contoso.com|Contoso Store 3|AddMember|Owner|M365F3|
-|User004|user-004@contoso.com|Contoso Store 4|AddMember|Owner|M365F3|
-|User005|user-005@contoso.com|Contoso Store 5|AddMember|Owner|M365F3|
-|User006|user-006@contoso.com|Contoso Store 6|AddMember|Member|M365F3|
-|User007|user-007@contoso.com|Contoso Store 7|AddMember|Member|M365F3|
-|User008|user-008@contoso.com|Contoso Store 8|AddMember|Member|M365F3|
-|User009|user-009@contoso.com|Contoso Store 9|AddMember|Member|M365F3|
-|User010|user-010@contoso.com|Contoso Store 10|AddMember|Member|M365F3|
+|Avery Howard|averyh@contoso.com|Contoso Store 1|AddMember|Owner|M365F3|
+|Casey Jensen|caseyj@contoso.com|Contoso Store 2|AddMember|Owner|M365F3|
+|Jessie Irwin|jessiei@contoso.com|Contoso Store 3|AddMember|Owner|M365F3|
+|Manjeet Bhatia|manjeetb@contoso.com|Contoso Store 4|AddMember|Owner|M365F3|
+|Mikaela Lee|mikaelal@contoso.com|Contoso Store 5|AddMember|Owner|M365F3|
+|Morgan Conners|morganc@contoso.com|Contoso Store 6|AddMember|Member|M365F3|
+|Oscar Ward|oscarw@contoso.com|Contoso Store 7|AddMember|Member|M365F3|
+|Renee Pelletier|renep@contoso.com|Contoso Store 8|AddMember|Member|M365F3|
+|Sydney Mattos|sydneym@contoso.com|Contoso Store 9|AddMember|Member|M365F3|
+|Violet Martinez|violetm@contoso.com|Contoso Store 10|AddMember|Member|M365F3|
 
 ### Step 2: Deploy your teams
 
@@ -145,6 +145,12 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
 
     ```powershell
     New-CsBatchTeamsDeployment -TeamsFilePath "*Your CSV file path*" -UsersFilePath "*Your CSV file path*" -UsersToNotify *Email addresses* 
+    ```
+
+    For example:
+
+    ```powershell
+    New-CsBatchTeamsDeployment -TeamsFilePath C:\dscale\Teams.csv -UsersFilePath C:\dscale\Users.csv -UsersToNotify "adminteams@contoso.com,adelev@contoso.com"
     ```
 
     The recipients will receive email notifications about deployment status. The email contains the orchestration ID for the batch you submitted and any errors that may have occurred.
