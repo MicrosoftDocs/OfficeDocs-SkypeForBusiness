@@ -104,7 +104,7 @@ Use the following examples to help you create your CSV files. Here, we've named 
 |Mikaela Lee|mikaelal@contoso.com|Contoso Store 5|AddMember|Owner|M365F3|
 |Morgan Conners|morganc@contoso.com|Contoso Store 6|AddMember|Member|M365F3|
 |Oscar Ward|oscarw@contoso.com|Contoso Store 7|AddMember|Member|M365F3|
-|Renee Pelletier|renep@contoso.com|Contoso Store 8|AddMember|Member|M365F3|
+|Rene Pelletier|renep@contoso.com|Contoso Store 8|AddMember|Member|M365F3|
 |Sydney Mattos|sydneym@contoso.com|Contoso Store 9|AddMember|Member|M365F3|
 |Violet Martinez|violetm@contoso.com|Contoso Store 10|AddMember|Member|M365F3|
 
