@@ -17,10 +17,10 @@ description: "This article discusses how to configure your organization and Team
 
 # Enable Teams Rooms devices to join third-party meetings
 
-> [!NOTE]
-> This feature is currently only available on Teams Rooms on Windows.
-
 Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
+
+> [!NOTE]
+> To join a Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in WebEx Meetings Pro using Cisco WebEx web application version WBS 40.7 or later. 
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
@@ -54,7 +54,7 @@ Learn more about [Exchange Online PowerShell](/powershell/exchange/exchange-onli
 
 ## Step 2: Configure Office 365 Threat Protection and link rewrite
 
-To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide) safe links feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the Defender for [Office 365 Safe Links **Do not rewrite** list](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide) or the third-party URL rewrite exception list.
+To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links) safe links feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the Defender for [Office 365 Safe Links **Do not rewrite** list](/microsoft-365/security/office-365-security/safe-links) or the third-party URL rewrite exception list.
 
  If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
 
@@ -68,7 +68,7 @@ For a complete list of URLs to add to your Defender for Office 365 Safe Links *D
 > [!CAUTION]
 > Only add URLs that you trust to your Microsoft Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list.
 
-## Step 3: Enable third-party meetings on Teams Rooms
+## Step 3a: Enable third-party meetings on Teams Rooms on Windows
 
 The last step you need to do is allow Teams Rooms to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the Teams Rooms settings or in the XML config file.
 
@@ -108,6 +108,14 @@ You can optionally specify a custom username and email address to join third-par
 
 <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
 ```
+## Step 3b: Enable third-party meetings on Teams Rooms on Android
 
-> [!NOTE]
-> To join a Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in WebEx Meetings Pro using Cisco WebEx web application version WBS 40.7 or later. 
+For Teams Rooms on Android, you need to allow the third-party meetings join feature.
+
+1. On the Teams Rooms interface, select **Settings**. On some systems, you might need to select **More** to see the **Settings** menu.
+2. Select **Device settings** and then go to **Teams Admin Settings**. 
+    > [!NOTE]
+    > This is different per manufacturer. If necessary, contact your device manufacturer for assistance in locating **Teams Admin Settings**.
+4. Within **Teams Admin Settings**, select **Meetings**.
+5. Enable the third-party meetings provider you'd like to use.
+6. If you want to join meetings with an alternate username and email address, select **Join with custom name and email** and enter the username and email address you'd like to use.
