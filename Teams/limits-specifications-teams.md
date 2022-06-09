@@ -40,8 +40,8 @@ This article describes some of the limits, specifications, and other requirement
 |Number of channels per team    | 200 (includes deleted channels)<sup>4</sup>        |
 |Number of Private channels per team    |30 (includes deleted channels)<sup>4</sup>        |
 |Number of members in a Private channel    |250|
-|Maximum size of distribution list, security group or Office 365 group that can be imported in to a team    |3,500|
-|Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>6</sup>     |
+|Maximum size of distribution list, security group or Microsoft 365 group that can be imported in to a team    |3,500|
+|Maximum number of members in a Microsoft 365 group that can be converted to a team    |10,000<sup>6</sup>     |
 |Channel conversation post size | Approximately 28 KB per post<sup>5</sup> |
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
@@ -57,7 +57,7 @@ This article describes some of the limits, specifications, and other requirement
 <sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
 > [!NOTE]
-> For limits for the shared channels preview, see [Limits for shared channels (preview)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
+> For limits for shared channels, see [Limits for shared channels](/MicrosoftTeams/shared-channels#limits-for-shared-channels).
 
 ## Messaging
 
