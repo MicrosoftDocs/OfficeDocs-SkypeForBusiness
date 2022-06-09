@@ -29,14 +29,22 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
 
 If you want to use toll-free numbers with Microsoft Teams, you need to set up Communications Credits. Microsoft recommends that you set up Communications Credits for your Calling Plan (Domestic or International) and Audio Conferencing users who need to dial out to **any destination**. Some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. 
 
-If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users, and you run out minutes for your organization, those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](what-are-communications-credits.md)
+When you sign up for Calling Plans and/or Audio Conferencing, you get a certain number of minutes depending on your country/region. To see the number of minutes you get, see [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization). 
+
+If you don't set up Communications Credits, and you run out of minutes for your organization, those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](what-are-communications-credits.md)
   
 > [!NOTE]
-> To find out how much it costs, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523). 
+> For more information about plans and pricing, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523). 
 
-When you sign up, you get a certain number of minutes depending on your country/region. You can search for your country or region in the [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) to see the number of minutes you will get. After you use those minutes, calls will be disconnected. To prevent calls from being disconnected, you need to set up Communications Credits.
+To set up Communication Credits for your organization, follow these steps:
+
+1. [Assign an Audio Conferencing and/or Phone System with Calling Plan licenses to your users](#step-1-assign-an-audio-conferencing-or-phone-system-with-calling-plan-licenses-to-your-users)
+
+2. [Set up Communications Credits for your organization](#step-2-set-up-communications-credits-for-your-organization)
+
+3. [Assign a Communications Credits license to users](#step-3-assign-a-communications-credits-license-to-users)
   
-## Step 1: Assign an Audio Conferencing or Phone System with Calling Plan licenses to your users
+## Step 1: Assign an Audio Conferencing and/or Phone System with Calling Plan licenses to your users
   
 Communication Credits can be enabled for users that have either of those two licenses assigned or both.
   
@@ -81,6 +89,7 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
      > When using the auto-recharge function, invoicing for Communication Credits is generated when the trigger amount is reached and a recharge transaction is processed. Communication credit amounts are used in a first in first out manner. To learn how to check your monthly usage, read [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
     
 6. Select **Place order**.
+
     >[!IMPORTANT]
     >If you are a volume licensing customer, you may wish to use your enterprise agreement for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable) once Support enables this.
     
@@ -104,24 +113,15 @@ When you are setting up Communications Credits, you will need to investigate cal
     > [!TIP]
     > You can use [Powershell](/powershell/module/skype/?view=skype-ps&preserve-view=true) to assign licenses and apps to multiple users with one command.
   
-## Want to know about plans and pricing?
+  
+## For more information
 
-You can see the plans and pricing by visiting one of the following links:
+- You can see more information by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-- [Calling Plans](https://go.microsoft.com/fwlink/?LinkId=799761 )
+- For more information about licenses, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-- [Audio Conferencing Plans](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- For more information about Calling Plans, see [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md).
     
-- [Phone System Plans](https://go.microsoft.com/fwlink/?LinkId=799763)
-    
-You can also see information by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
-  
-To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-  
-## Related topics
-    
-- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md)
-    
-- [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
+- For more information about adding funds and managing Communication Credits, see [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md).
     
   
