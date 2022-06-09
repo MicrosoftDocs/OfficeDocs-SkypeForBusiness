@@ -124,6 +124,8 @@ The following clients are supported when using a Teams channel for call queues:
 
 > [!NOTE]
 > If you use this option, it can take up to 24 hours for the call queue to be fully operational.
+>
+> If there are more than 200 members of the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
 
 ##### Users and groups
 
@@ -137,6 +139,8 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
+>
+> If there are more than 200 members in the group, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
 
 ## Call routing
 
