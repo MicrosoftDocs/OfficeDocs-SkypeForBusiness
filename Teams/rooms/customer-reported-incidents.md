@@ -24,6 +24,7 @@ description: Partners/Customers can manually close incidents and ensure accurate
 For any type of incident that Microsoft did not flag, or for questions about the service/features, customers or partners on behalf of customers can use the Report Incident feature to alert Microsoft to investigate the problem or answer the question.
 
 ![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)
+
 In the Description field, describe as best as possible the issue that you need help with from Microsoft. You can add one or more rooms.
 
 ![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)
