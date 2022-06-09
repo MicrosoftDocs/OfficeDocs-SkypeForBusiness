@@ -50,11 +50,9 @@ Deploying teams at scale allows you to:
 
 Follow these steps to deploy a large number of teams at a time.
 
-You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
-
 ### Step 1: Prepare your CSV files
 
-You'll need to create two comma-separated values (CSV) files for each batch of teams that you deploy:
+You'll need to create two CSV files for each batch of teams that you deploy:
 
 - **A CSV file that defines the teams you're creating**. This file must contain these required columns, in the following order, starting with the first column:
 
@@ -115,6 +113,8 @@ Contoso User 010,user-010@contoso.com,Contoso Store 10,AddMember,Member,M365F3
 ### Step 2: Deploy your teams
 
 Now that you've created your CSV files, you're ready to set up your environment and deploy your teams.
+
+You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
 
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Run PowerShell in administrator mode.
