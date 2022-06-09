@@ -106,7 +106,7 @@ You can view requests to make a blocked app available for use. The request is se
 
   :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
 
-If an admin dismiss a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
 
 ## Apps blocked by publishers
 
