@@ -61,7 +61,7 @@ You'll need to create two CSV files for each batch of teams that you deploy:
     |**Team Name**|The name of the team.|
     |**Existing Team ID**|If you're adding or removing users from an existing team, specify the team ID of the team.|
     |**Visibility**|Whether the team is public (anyone in your organization can join) or private (users need approval from the team owners to join). Options are **Public** and **Private**.|
-    |**Team Template ID**|If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list pre-built team templates and IDs.|
+    |**Team Template ID**|If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list pre-built team templates and IDs. If you want to use the standard default team template, leave this blank.|
 
 - **A CSV file that maps the users you're adding to each team**. This file must contain these required columns, in the following order, starting with the first column:
 
@@ -72,7 +72,6 @@ You'll need to create two CSV files for each batch of teams that you deploy:
     |**Team Name**|The name of the team.|
     |**ActionType**|Whether you're adding or removing the user from the team. Options are **AddMember** and **RemoveMember**.|
     |**Owner or Member**|Whether the user is a team owner or team member. Options are **Owner** and **Member**.|
-    |**License**|The Microsoft 365 or Office 365 license that's assigned to the user. For example, M365F3.|
 
 #### Examples
 
@@ -95,18 +94,18 @@ Use the following examples to help you create your CSV files. Here, we've named 
 
 **Users.csv**
 
-|User Full Name |User UPN or ID|Team Name|ActionType|Owner or Member|License|
-|---------|---------|---------|---------|---------|---------|
-|Avery Howard|averyh@contoso.com|Contoso Store 1|AddMember|Owner|M365F3|
-|Casey Jensen|caseyj@contoso.com|Contoso Store 2|AddMember|Owner|M365F3|
-|Jessie Irwin|jessiei@contoso.com|Contoso Store 3|AddMember|Owner|M365F3|
-|Manjeet Bhatia|manjeetb@contoso.com|Contoso Store 4|AddMember|Owner|M365F3|
-|Mikaela Lee|mikaelal@contoso.com|Contoso Store 5|AddMember|Owner|M365F3|
-|Morgan Conners|morganc@contoso.com|Contoso Store 6|AddMember|Member|M365F3|
-|Oscar Ward|oscarw@contoso.com|Contoso Store 7|AddMember|Member|M365F3|
-|Rene Pelletier|renep@contoso.com|Contoso Store 8|AddMember|Member|M365F3|
-|Sydney Mattos|sydneym@contoso.com|Contoso Store 9|AddMember|Member|M365F3|
-|Violet Martinez|violetm@contoso.com|Contoso Store 10|AddMember|Member|M365F3|
+|User Full Name |User UPN or ID|Team Name|ActionType|Owner or Member|
+|---------|---------|---------|---------|---------|
+|Avery Howard|averyh@contoso.com|Contoso Store 1|AddMember|Owner|
+|Casey Jensen|caseyj@contoso.com|Contoso Store 2|AddMember|Owner|
+|Jessie Irwin|jessiei@contoso.com|Contoso Store 3|AddMember|Owner|
+|Manjeet Bhatia|manjeetb@contoso.com|Contoso Store 4|AddMember|Owner|
+|Mikaela Lee|mikaelal@contoso.com|Contoso Store 5|AddMember|Owner|
+|Morgan Conners|morganc@contoso.com|Contoso Store 6|AddMember|Member|
+|Oscar Ward|oscarw@contoso.com|Contoso Store 7|AddMember|Member|
+|Rene Pelletier|renep@contoso.com|Contoso Store 8|AddMember|Member|
+|Sydney Mattos|sydneym@contoso.com|Contoso Store 9|AddMember|Member|
+|Violet Martinez|violetm@contoso.com|Contoso Store 10|AddMember|Member|
 
 ### Step 2: Deploy your teams
 
