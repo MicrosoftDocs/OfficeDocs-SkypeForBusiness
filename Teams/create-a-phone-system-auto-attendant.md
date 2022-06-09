@@ -194,7 +194,7 @@ If you assign dial keys to destinations, we recommend that you choose **None** f
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
-**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name. (You can set who is and isn't included in the directory on the [Dial scope](?tabs=#dial-scope) page.)
+**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.
 
 **Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and isn't included in the directory on the [Dial scope](?tabs=dial-scope) page.)
 
