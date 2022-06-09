@@ -41,7 +41,7 @@ Deploying teams at scale allows you to:
 - Create teams using pre-built templates or your own custom templates.
 - Add users to teams as owners or members.
 - Manage teams at scale by adding or removing users from existing teams.
-- Stay notified through email, including completion, status, and errors (if any). You can also choose to notify up to five people about the status of each batch of teams you deploy. Team owners and members are automatically notified when they're added to a team.
+- Stay notified through email, including completion, status, and errors (if any). You can choose to notify up to five people about the status of each batch of teams you deploy. Team owners and members are automatically notified when they're added to a team.
 
 ## How to deploy teams at scale
 
