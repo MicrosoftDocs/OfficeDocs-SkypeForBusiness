@@ -2,6 +2,7 @@
 title: Multi-tenant customer management for partners
 author: donnah007
 ms.author: v-donnahill
+ms.date: 06/09/2022
 manager: serdars
 ms.reviewer: dstrome 
 ms.topic: article
@@ -37,6 +38,20 @@ To gain access to the MTM portal, your organization must be onboarded as an Elit
 ## On-boarding customers
 
 To manage customers through the TRM-MTM portal, a relationship must be established between the partner organization’s tenant and the customer through an invitation sent by the customer. 
+
+## Tenant managers
+
+This built-in role is only configurable in the TRM-MTM portal. This role allows you to assign a group of users that accept invitations, but are not involved with the management of customer rooms. It is recommended to configure the role. Otherwise, only users with the Managed Service Administrator role in your tenant will be able to accept invitations.
+
+**To configure tenant managers**
+ 
+1.	Log in to the TRM-MTM portal as either a Global admin or Managed Service admin.
+2.	Go to Tenant managers.
+3.	Select **Add tenant managers**.
+4.	In the detail pane, search for the users or security groups.
+5.	Select the user or group.
+6.	Select **Add**.
+
 
 ### Invitation from the customer
 

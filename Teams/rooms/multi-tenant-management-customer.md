@@ -23,10 +23,10 @@ f1keywords:
 # Partner management for customers
 
 
-Partner management in the Teams Rooms Managed (TRM) service enables customers to seamlessly delegate access and responsibilities to one or many partner organizations. Partners can only manage rooms that they are assigned to manage. 
+Partner management in the Teams Rooms Managed (TRM) service enables customers to seamlessly delegate access and responsibilities to one or many partner organizations. Partners can only manage rooms that they are assigned to manage.
 
 ## On-boarding partners
-   Invite partners through the TRM portal to establish the relationship between your organization and the partner organization’s tenant. 
+   Invite partners through the TRM portal to establish the relationship between your organization and the partner organization’s tenant.
 
 ### Invitation to partner
 
@@ -34,7 +34,7 @@ Partner management in the Teams Rooms Managed (TRM) service enables customers to
 
 **To initiate the invite** 
 
-1. Log in to the Teams Rooms Managed portal as an MMR Administrator.
+1. Log in to the Teams Rooms Managed portal as a Managed service administrator.
 1. Go to **Settings >** **Partners**, then select **Add partner.**
 1. Enter the domain name in the first row.
 1. Configure the number of days until the invitation expires by entering an integer from 1-30.
