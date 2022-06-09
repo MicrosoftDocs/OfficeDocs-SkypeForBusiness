@@ -41,7 +41,7 @@ Deploying teams at scale allows you to:
 - Create teams using pre-built templates or your own custom templates.
 - Add users to teams as owners or members.
 - Manage teams at scale by adding or removing users from existing teams.
-- Stay notified through email, including completion, status, and errors (if any). Team owners and members are notified.
+- Stay notified through email, including completion, status, and errors (if any). Team owners and members are automatically notified when they are added to a team. You can also choose to notify up to five other people about the status of each batch of teams you deploy.
 
 ## How to deploy teams at scale
 
@@ -68,7 +68,7 @@ You'll need to create two CSV files for each batch of teams that you deploy:
     |Column name  |Description  |
     |---------|---------|
     |**User Full Name**|The display name of the user.|
-    |**User UPN or ID**|The user principal name (UPN) or ID of the user. For example, user001@contoso.com.|
+    |**User UPN or ID**|The user principal name (UPN) or ID of the user. For example, user-001@contoso.com.|
     |**Team Name**|The name of the team.|
     |**ActionType**|Whether you're adding or removing the user from the team. Options are **AddMember** and **RemoveMember**.|
     |**Owner or Member**|Whether the user is a team owner or team member. Options are **Owner** and **Member**.|
@@ -80,35 +80,33 @@ Use the following examples to help you create your CSV files. Here, we've named 
 
 **Teams.csv**
 
-```CSV
-Team name,Existing Team ID,Visibility,Team Template ID
-Contoso Store 1,,Public,com.microsoft.teams.template.retailStore
-Contoso Store 2,,Public,com.microsoft.teams.template.retailStore
-Contoso Store 3,,Public,com.microsoft.teams.template.retailStore
-Contoso Store 4,,Public,com.microsoft.teams.template.ManageAProject
-Contoso Store 5,,Public,com.microsoft.teams.template.ManageAProject
-Contoso Store 6,,Public,com.microsoft.teams.template.ManageAProject
-Contoso Store 7,,Public,
-Contoso Store 8,,Private,com.microsoft.teams.template.OnboardEmployees
-Contoso Store 9,,Private,com.microsoft.teams.template.OnboardEmployees
-Contoso Store 10,,Private,com.microsoft.teams.template.OnboardEmployees
-```
+|Team Name|Existing Team ID|Visibility|Team Template ID|
+|---------|---------|---------|---------|
+|Contoso Store 1||Public|com.microsoft.teams.template.retailStore|
+|Contoso Store 2||Public|com.microsoft.teams.template.retailStore|
+|Contoso Store 3||Public|com.microsoft.teams.template.retailStore|
+|Contoso Store 4||Public|com.microsoft.teams.template.retailStore|
+|Contoso Store 5||Public|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 6||Public|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 7||Public||
+|Contoso Store 8||Private|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 9||Private|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 10||Private|com.microsoft.teams.template.OnboardEmployees|
 
 **Users.csv**
 
-```CSV
-User Full Name,User UPN or ID,Team Name,ActionType,Owner or Member,License
-Contoso User 001,user-001@contoso.com,Contoso Store 1,AddMember,Owner,M365F3
-Contoso User 002,user-002@contoso.com,Contoso Store 2,AddMember,Owner,M365F3
-Contoso User 003,user-003@contoso.com,Contoso Store 3,AddMember,Owner,M365F3
-Contoso User 004,user-004@contoso.com,Contoso Store 4,AddMember,Owner,M365F3
-Contoso User 005,user-005@contoso.com,Contoso Store 5,AddMember,Owner,M365F3
-Contoso User 006,user-006@contoso.com,Contoso Store 6,AddMember,Member,M365F3
-Contoso User 007,user-007@contoso.com,Contoso Store 7,AddMember,Member,M365F3
-Contoso User 008,user-008@contoso.com,Contoso Store 8,AddMember,Member,M365F3
-Contoso User 009,user-009@contoso.com,Contoso Store 9,AddMember,Member,M365F3
-Contoso User 010,user-010@contoso.com,Contoso Store 10,AddMember,Member,M365F3
-```
+|User Full Name |User UPN or ID|Team Name|ActionType|Owner or Member|License|
+|---------|---------|---------|---------|---------|---------|
+|User001|user-001@contoso.com|Contoso Store 1|AddMember|Owner|M365F3|
+|User002|user-002@contoso.com|Contoso Store 2|AddMember|Owner|M365F3|
+|User003|user-003@contoso.com|Contoso Store 3|AddMember|Owner|M365F3|
+|User004|user-004@contoso.com|Contoso Store 4|AddMember|Owner|M365F3|
+|User005|user-005@contoso.com|Contoso Store 5|AddMember|Owner|M365F3|
+|User006|user-006@contoso.com|Contoso Store 6|AddMember|Member|M365F3|
+|User007|user-007@contoso.com|Contoso Store 7|AddMember|Member|M365F3|
+|User008|user-008@contoso.com|Contoso Store 8|AddMember|Member|M365F3|
+|User009|user-009@contoso.com|Contoso Store 9|AddMember|Member|M365F3|
+|User010|user-010@contoso.com|Contoso Store 10|AddMember|Member|M365F3|
 
 ### Step 2: Deploy your teams
 
