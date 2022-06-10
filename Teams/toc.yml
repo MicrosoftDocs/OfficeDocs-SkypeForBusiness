@@ -462,6 +462,8 @@ items:
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Teams Virtual Visits usage report
           href: teams-analytics-and-reports/virtual-visits-usage-report.md
+        - name: Teams EHR connector Virtual Appointments report
+          href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               
     - name: Log files, service health, and support
       items:
@@ -1432,7 +1434,9 @@ items:
           href: rooms/standards-and-room-planner.md
         - name: Customer-reported incidents 
           href: rooms/customer-reported-incidents.md
-
+        - name: Using the Teams Rooms mobile application
+          href: rooms/extended-mobile-app.md
+          
     - name: Devices
       items:
         - name: Teams device store
@@ -1730,7 +1734,7 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
             - name: Virtual appointments with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: EHR connector Virtual Appointments report
+            - name: Teams EHR connector Virtual Appointments report
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md

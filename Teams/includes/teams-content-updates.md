@@ -2,6 +2,25 @@
 
 
 
+## Week of May 30, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/31/2022 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | added |
+| 5/31/2022 | [Customize your app store in Teams](/MicrosoftTeams/customize-your-app-store) | modified |
+| 5/31/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
+| 5/31/2022 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
+| 5/31/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 6/1/2022 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 6/1/2022 | [Emergency addresses for remote locations](/MicrosoftTeams/emergency-calling-dispatchable-location) | modified |
+| 6/1/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/2/2022 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
+| 6/2/2022 | [Special character restrictions in Teams policies](/MicrosoftTeams/special-character-restrictions-in-policy-names) | modified |
+| 6/2/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
+| 6/3/2022 | [Microsoft Teams EHR connector Virtual Appointments report](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | modified |
+
+
 ## Week of May 23, 2022
 
 
