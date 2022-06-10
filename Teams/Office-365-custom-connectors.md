@@ -13,7 +13,7 @@ ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
+description: Learn how connectors keep your team current by delivering content, and updates from services you frequently use directly into a channel.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
