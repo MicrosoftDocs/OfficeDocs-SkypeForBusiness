@@ -1,7 +1,7 @@
 ---
 title: Overview of app validation and app testing by Microsoft
 ms.reviewer: 
-description: In this learning module, you'll understand the quality checks and app validation done for Teams apps.
+description: Understand the quality checks and app validation done for Teams apps to achieve high standards of privacy and security.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
