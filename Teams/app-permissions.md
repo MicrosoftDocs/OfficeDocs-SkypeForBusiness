@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: In this module, Admin can learn what data permissions and considerations at the capability level Microsoft Teams apps are requesting from their organization.
+description: Admin can learn what data, permissions, and considerations Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -128,7 +128,7 @@ None
 
 * Messaging extensions, on the other hand, do see users' IP addresses and referrer information.
 
-* App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. If abuse, users can block the bot, tenant admins can block the app, and Microsoft can block bots centrally if necessary.
+* App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. In the event of abuse, users can block the bot, tenant admins can block the app, and Microsoft can block bots centrally if necessary.
 
 <sup>1</sup> Some bots only send messages (POST_MESSAGE_USER). They're called "notification-only" bots, but the term doesn't refer to what a bot is allowed or not allowed to do, it means that the bot doesn't want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to do compared to bots that expose a conversational experience.
 
