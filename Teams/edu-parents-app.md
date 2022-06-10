@@ -36,12 +36,11 @@ Here are some resources IT admins can share with guardians and educators on how 
 
 The Parents Connection allows educators and guardians to chat, email, and call using Teams.
 
-- Teams guardian contact data stays current with SIS using School Data Sync (SDS).
+- Educators can initiate chats with guardians.
+  - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
 - It works with Supervised chat. For more information, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
   - By default, guardians have restricted permissions, so they can't chat with students or remove users from chats.
   - This setting can be changed by the tenant admin.
-- Educators can initiate chats with guardians.
-  - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
 - Educators can click a guardian's email to email them using their native email client.
 - Educators can click a guardian's phone number to call them within Teams.
 
@@ -68,6 +67,10 @@ You need to use Microsoft Graph or School Data Sync (SDS) to populate each stude
 If you already use [Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview) to create Student identities, you can easily include [relatedContact resource type](/graph/api/resources/relatedcontact).
 
 ### School Data Sync
+
+Teams guardian contact data stays current with SIS using School Data Sync (SDS), when SDS is set up to sync regularly.
+
+If guardian is removed from a *Student's* records, any existing chats involving them will contain a banner visible to chat owner, making the chat owner aware of the change so they may take action.
 
 - You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information.
   - [Deploy SDS](/schooldatasync/parents-and-guardians-in-sds)
