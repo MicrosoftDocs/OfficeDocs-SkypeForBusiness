@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how apps are updated namely, Microsoft apps, Custom apps and Third-party apps in Microsoft Teams.
+description: In this article, learn how Microsoft apps, custom apps, and third-party apps in Microsoft Teams are updated.
 ---
 
 # Update apps in Microsoft Teams
