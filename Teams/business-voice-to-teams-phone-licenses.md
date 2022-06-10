@@ -60,6 +60,7 @@ You have four ways to update your licenses:
 - Bulk user license update using a PowerShell script.
 - Bulk user license update using Azure group-based licensing.
 
+### Choose from 4 options to update licenses
 # [Option 1: Single user in admin center](#tab/single-user)
 
 ### Option 1: Single user license update via Microsoft 365 admin center
