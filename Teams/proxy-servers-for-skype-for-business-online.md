@@ -1,7 +1,7 @@
 ---
 title: "Proxy servers for Teams or Skype for Business Online"
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: reference

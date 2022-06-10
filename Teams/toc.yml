@@ -228,7 +228,7 @@ items:
                 - name: Disable hybrid to complete migration to Teams Only
                   href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                 - name: Update DNS entries
-                  href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                  href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
                 - name: Decide how to manage attributes after decommissioning
                   href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
             - name: Move application endpoints to the cloud
@@ -462,6 +462,8 @@ items:
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Teams Virtual Visits usage report
           href: teams-analytics-and-reports/virtual-visits-usage-report.md
+        - name: Teams EHR connector Virtual Appointments report
+          href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               
     - name: Log files, service health, and support
       items:
@@ -1432,7 +1434,9 @@ items:
           href: rooms/standards-and-room-planner.md
         - name: Customer-reported incidents 
           href: rooms/customer-reported-incidents.md
-
+        - name: Using the Teams Rooms mobile application
+          href: rooms/extended-mobile-app.md
+          
     - name: Devices
       items:
         - name: Teams device store
@@ -1730,7 +1734,7 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
             - name: Virtual appointments with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: EHR admin reports
+            - name: Teams EHR connector Virtual Appointments report
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
@@ -1876,7 +1880,7 @@ items:
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams
-          href: /powershell/module/teams/?view=teams-ps
+          href: /powershell/module/teams
     - name: Developer documentation for Teams
       href: /microsoftteams/platform
     - name: Teams content updates
