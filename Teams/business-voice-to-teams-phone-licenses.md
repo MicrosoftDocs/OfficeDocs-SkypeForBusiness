@@ -55,14 +55,14 @@ Use the following table to determine which licenses to purchase based on your ne
 
 You have four ways to update your licenses:
 
-- [Single user license update via Microsoft 365 admin center](?tabs=single-user).
-- [Bulk user license update via Microsoft 365 admin center](?tabs=bulk-users-admin-center).
-- [Bulk user license update using a PowerShell script](?tabs=powershell).
-- [Bulk user license update using Azure group-based licensing](?tabs=azure-licensing).
+- Single user license update via Microsoft 365 admin center.
+- Bulk user license update via Microsoft 365 admin center.
+- Bulk user license update using a PowerShell script.
+- Bulk user license update using Azure group-based licensing.
 
 # [Option 1: Single user in admin center](#tab/single-user)
 
-## Option 1: Single user license update via Microsoft 365 admin center
+### Option 1: Single user license update via Microsoft 365 admin center
 
 To update a single user, you can use the Microsoft 365 admin center.
 
@@ -74,18 +74,19 @@ To update a single user, you can use the Microsoft 365 admin center.
     > DON'T save changes yet. If you save changes without adding the new licenses, the user account will be deprovisioned and the phone number unassigned.
 1. After deselecting Business Voice, check the new Teams Phone and Audio Conferencing licenses.
 1. Now you can safely save your changes by selecting **Save change**.
-    1. The user's licenses will be updated and shouldn't impact service availability.
+
+The user's licenses will be updated and shouldn't impact service availability.
 
 # [Option 2: Bulk users in admin center](#tab/bulk-users-admin-center)
 
-## Option 2: Bulk user license update via Microsoft 365 admin center
+### Option 2: Bulk user license update via Microsoft 365 admin center
 
 To update multiple users' licenses in bulk, you can use the Microsoft 365 admin center. The selected users will have the same license plan assignment.
 
 1. Go to [admin.microsoft.com](https://admin.microsoft.com/) and sign in with the tenant admin credentials.
 1. Navigate to **Users** > **Active Users** and select all the desired users.  
 1. Select **Manage product licenses** on the list toolbar.
-1. 1. At the **What would you like to do with the licenses for these users?** prompt, select the **Replace: Unassign existing licenses and assign new ones** option.
+1. At the **What would you like to do with the licenses for these users?** prompt, select the **Replace: Unassign existing licenses and assign new ones** option.
     > [!IMPORTANT]
     > The **Replace** option will remove all existing licenses for the selected users.  As a result, you’ll have to select the desired licensing state for users, including any other licenses in use, like Microsoft 365 Business Premium.
     >
@@ -97,11 +98,11 @@ To update multiple users' licenses in bulk, you can use the Microsoft 365 admin 
     > DON'T save changes yet. If you save changes without adding the new licenses, the accounts for the selected users will be deprovisioned and the phone number unassigned.
 1. After deselecting Business Voice, check the new Teams Phone and Audio Conferencing licenses.
 1. Now you can safely save your changes by selecting **Save change**.
-    1. The users' licenses will be updated and shouldn't impact service availability.
+  The users' licenses will be updated and shouldn't impact service availability.
 
 # [Option 3: Bulk users via PowerShell](#tab/powershell)
 
-## Option 3: Bulk user license update using a PowerShell script
+### Option 3: Bulk user license update using a PowerShell script
 
 Replacing the Business Voice license plan using a PowerShell script is an efficient solution for most scenarios.  
 
@@ -314,7 +315,7 @@ $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -A
 
 # [Option 4: Bulk users with Azure group-based licensing](#tab/azure-licensing)
 
-## Option 4: Bulk user license update using Azure group-based licensing
+### Option 4: Bulk user license update using Azure group-based licensing
 
 Azure group-based license management allows you to assign subscriptions and service plans to a group.
 
@@ -336,15 +337,13 @@ You’ll have to validate [license requirements for group-based licensing](/azur
 1. Go to [portal.azure.com](https://portal.azure.com) and sign in with admin credentials.
 1. Go to **Azure Active Directory** and on the left menu, select **Licenses**.
 1. To verify which groups have Business Voice licenses assigned, choose **All Products** and select the Business Voice plan.
-1. Select **Licensed Groups** or **Licensed users**.  
-    1. You’ll find the list of licensed groups in the right-hand pane.
+1. Select **Licensed Groups** or **Licensed users**. You’ll find the list of licensed groups in the right-hand pane.
 1. Select the group name to open the group assignment details.
 1. Select **Assignments** to modify the licenses assigned to this group.
 1. Check the boxes in front of the license plans you acquired to replace Business Voice.
 1. Uncheck the box in front of the Microsoft 365 Business Voice license plan.
 1. Select **Save**.
-1. Return to the group by selecting the group name.
-    1. You’ll see a banner stating **License changes are pending**.  
+1. Return to the group by selecting the group name. You’ll see a banner stating **License changes are pending**.
 1. Select **Reprocess** to force the license assignment to update.
 
 ---
