@@ -70,7 +70,7 @@ If you already use [Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/o
 
 Teams guardian contact data stays current with SIS using School Data Sync (SDS), when SDS is set up to sync regularly.
 
-If guardian is removed from a *Student's* records, any existing chats involving them will contain a banner visible to chat owner, making the chat owner aware of the change so they may take action.
+If guardian is removed from a *Student's* records, any existing chats involving them will contain a banner visible to chat owner. This banner will make the chat owner aware of the change, asking them to remove the guardian from the chat. Microsoft won't automatically update chat membership to remove the guardian.
 
 - You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information.
   - [Deploy SDS](/schooldatasync/parents-and-guardians-in-sds)
