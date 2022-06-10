@@ -34,6 +34,8 @@ To manage apps, you use policies to control permissions for users, installation 
 > [!NOTE]
 > The Manage apps page isn't available in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
 
+During the creation of an app, the developers create and add an app ID to the manifest file. You can view this app ID on the Manage apps page when you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app.
+
 ## Publish a custom app to your organization's app store
 
 Use the Manage apps page to publish apps that are built specifically for your organization. After you publish a custom app, it's available to users in your organization's app store. There are two ways to publish a custom app to your organization's app store. The way that you use depends on how you get the app.
@@ -104,7 +106,7 @@ You can view requests to make a blocked app available for use. The request is se
 
   :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
 
-If an admin dismiss a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
 
 ## Apps blocked by publishers
 
