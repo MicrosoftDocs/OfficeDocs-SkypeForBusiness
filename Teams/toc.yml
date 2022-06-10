@@ -1434,7 +1434,9 @@ items:
           href: rooms/standards-and-room-planner.md
         - name: Customer-reported incidents 
           href: rooms/customer-reported-incidents.md
-
+        - name: Using the Teams Rooms mobile application
+          href: rooms/extended-mobile-app.md
+          
     - name: Devices
       items:
         - name: Teams device store
