@@ -136,6 +136,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Teams/deploy-teams-at-scale.md",
+      "redirect_url": "/microsoft-365/frontline/deploy-teams-at-scale",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/admin-settings.md",
       "redirect_url": "/microsoftteams/manage-apps",
       "redirect_document_id": false
