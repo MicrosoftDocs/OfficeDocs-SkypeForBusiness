@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to customize apps in Microsoft Teams, special consideration for customizing an app, review and reset app details. 
+description: Learn how to customize apps in Microsoft Teams, special consideration for customizing an app, review, and reset app details. 
 ---
 
 # Customize apps in Microsoft Teams
