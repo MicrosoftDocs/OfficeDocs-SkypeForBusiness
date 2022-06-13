@@ -56,10 +56,10 @@ Use the following table to determine which licenses to purchase based on your ne
 
 You have four ways to update your licenses:
 
-- Single user license update via Microsoft 365 admin center.
-- Bulk user license update via Microsoft 365 admin center.
-- Bulk user license update using a PowerShell script.
-- Bulk user license update using Azure group-based licensing.
+- Single user license update via Microsoft 365 admin center
+- Bulk user license update via Microsoft 365 admin center
+- Bulk user license update using a PowerShell script
+- Bulk user license update using Azure group-based licensing
 
 # [Option 1: Single user in admin center](#tab/single-user)
 
