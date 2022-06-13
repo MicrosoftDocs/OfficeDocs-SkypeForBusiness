@@ -68,7 +68,7 @@ Your organization might have requirements to limit which organizers can turn on 
 Example PowerShell command to Enable Q&A:
 
 ```PowerShell
-Set-CsTeamsMeetingPolicy  -Identity Global -QnAEngagementMode Enabled
+Set-CsTeamsMeetingPolicy -Identity Global -QnAEngagementMode Enabled
 ```
 
 ## Delete an individual message from Q&A in Teams
