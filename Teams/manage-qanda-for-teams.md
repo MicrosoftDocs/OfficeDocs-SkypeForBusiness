@@ -11,7 +11,6 @@ ms.collection:
   - m365initiative-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 
 description: Learn how to set up and manage Q&A for Teams. Q&A is best suited for structured meeting scenarios and provides organizers with a structured approach to gathering questions and organizing discussions.
