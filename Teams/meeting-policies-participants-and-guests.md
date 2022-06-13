@@ -106,7 +106,7 @@ This setting is a per-participant setting. This setting controls whether meeting
 
 ## Q&A in meetings
 
-This is a per-organizer policy. This setting controls whether organizers can add the Q&A experience to their meetings By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings)
+This is a per-organizer policy. This setting controls whether organizers can add the Q&A experience to their meetings. By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings)
 
 ## Enable meeting policy settings
 
