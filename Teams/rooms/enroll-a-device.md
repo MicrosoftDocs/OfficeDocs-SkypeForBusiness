@@ -85,7 +85,7 @@ To log in to the device as Administrator (local administrator):
 To return to the Microsoft Teams Rooms app after performing the necessary administrative tasks:
 
 1. From the Windows ***Start menu***, sign out from the Admin account.
-1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
+1. Return to Microsoft Teams Rooms by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
 
 > [!NOTE]
 > If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in.
