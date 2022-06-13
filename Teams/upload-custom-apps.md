@@ -28,9 +28,7 @@ This article provides end-to-end guidance for how to take your Teams app from de
 
 ![Overview of your app from development to deployment.](media/upload-custom-apps.png)
 
-## Develop
-
-### Create your app
+## Create your app
 
 The Microsoft Teams developer platform makes it easy for developers to integrate your own apps and services to improve productivity, make decisions faster, and create collaboration around existing content and workflows. Apps built on the Teams platform are bridges between the Teams client and your services and workflows, bringing them directly into the context of your collaboration platform. For more information, go to the [Teams developer documentation](/microsoftteams/platform/).
 
@@ -38,9 +36,9 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 ### Get the app package
 
-When the app is ready for use in production, the developer should produce an app package. They can use [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) for that. They'll send you the file in .zip format.
+When the app is ready for use in production, the developer produces an app package. They can use [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) for that. They'll send you the file in .zip format.
 
-Microsoft uses [these guidelines](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines) to ensure apps comply with the quality and security standards of the global Teams apps store.
+All apps in Teams store pass a mandatory [app validation](overview-of-app-validation.md) to comply with the quality and security standards of the global Teams apps store. In addition, Microsoft strongly encourages app developers to participate in an optional [app compliance program](overview-of-app-certification.md) that indicates enhanced compliance, security, and privacy controls. For more information, see [Teams app validation guidelines](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### Allow trusted users to upload custom apps
 
@@ -53,13 +51,13 @@ To allow trusted users to upload custom apps, follow these steps:
 
 1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
-    2. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
-2. Turn off the **Upload custom apps** setting in the global app setup policy. To do this:
+    1. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
+1. Turn off the **Upload custom apps** setting in the global app setup policy. To do this:
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
-    2. Turn off **Upload custom apps**, and then click **Save**.
-3. Create a new app setup policy that allows uploading custom apps and assign it to your set of trusted users. To do this:
+    1. Turn off **Upload custom apps**, and then click **Save**.
+1. Create a new app setup policy that allows uploading custom apps and assign it to your set of trusted users. To do this:
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Add**. Give the new policy a name and description, turn on **Upload custom apps**, and then click **Save**.
-    2. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
+    1. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
 
         ![Screenshot of the "Add app setup policy" page](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -70,7 +68,7 @@ To allow trusted users to upload custom apps, follow these steps:
 To make the app available to users in your organization's app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Select **Upload**, click **Upload**, select the app package that you received from the developer, and select **Open**.
+1. Select **Upload**, click **Upload**, select the app package that you received from the developer, and select **Open**.
 
    ![Screenshot of uploading an app in the admin center.](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -104,17 +102,17 @@ To update an app, developers should continue to follow the steps in the [Develop
 
 You can update the app on the Manage apps page in the Microsoft Teams admin center. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. Click the app name, and then click **Update**. Doing this replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
 
-### End user update experience
+### End-user update experience
 
 In most cases, after you complete an app update the new version automatically appears for end users. However, there are some updates to the [Microsoft Teams manifest](/microsoftteams/platform/resources/schema/manifest-schema) that require user acceptance to complete:
 
-- A bot was added or removed
-- An existing bot's "botId" property changed
-- An existing bot's "isNotificationOnly" property changed
-- A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
-- A messaging extension was added
-- A new connector was added
-- Permissions inside "Authorization" were added or changed
+* A bot was added or removed
+* An existing bot's "botId" property changes
+* An existing bot's `isNotificationOnly` property changes
+* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability is added
+* A messaging extension is added
+* A new connector is added
+* Permissions in "Authorization" are added or changed
 
 ![Screenshot of apps list, showing apps that have a new version available.](media/manage-your-custom-apps-update1.png)
 
@@ -122,10 +120,8 @@ In most cases, after you complete an app update the new version automatically ap
 
 ## Related topics
 
-- [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
-
-- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-- [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
-
-- [Manage app permission policies in Teams](teams-app-permission-policies.md)
-- [Manage app setup policies in Teams](teams-app-setup-policies.md)
+* [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+* [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
+* [Manage app permission policies in Teams](teams-app-permission-policies.md)
+* [Manage app setup policies in Teams](teams-app-setup-policies.md)
