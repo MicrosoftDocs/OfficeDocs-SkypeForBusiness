@@ -30,7 +30,8 @@ This article describes how to manage Q&A and user-level policies which dictate w
 ## Prerequisites
 
 - Verify that you haven’t blocked access to [Yammer’s IPs and URLs.](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
-- To allow users in your organization to add Q&A to Teams meetings, you need to confirm that sign-ins for the Office 365 Yammer service are enabled in Azure Active Directory
+- To allow users in your organization to add Q&A to Teams meetings, you need to confirm that sign-ins for the Office 365 Yammer service are enabled in Azure Active Directory. 
+Follow the steps below to confirm that sign-ins are enabled:
   - Go to the **Azure AD admin center** > **All services** > **Enterprise Applications** > **Office 365 Yammer** > **Properties**.
   - For the **Enabled for users to sign-in?** option, select **Yes** if required.
 
