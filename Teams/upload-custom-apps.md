@@ -98,7 +98,7 @@ If you created and assigned an app setup policy, the app is pinned to the app ba
 
 ## Update
 
-To update an app, developers should continue to follow the steps in the [Develop](#develop) and [Validate](#validate) sections.
+To update an app, developers should continue to follow the steps in the [Develop](#create-your-app) and [Validate](#validate) sections.
 
 You can update the app on the Manage apps page in the Microsoft Teams admin center. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. Click the app name, and then click **Update**. Doing this replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
 
