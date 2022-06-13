@@ -18,7 +18,6 @@ ms.localizationpriority: medium
 description: "Use Power BI to analyze CQD data for Microsoft Teams."
 ---
 
-
 # Use Power BI to analyze CQD data for Microsoft Teams
 
 New in January 2020: [Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). Customizable Power BI templates you can use to analyze and report your CQD data.
@@ -29,8 +28,8 @@ Before you can use these PBIT files, you'll need to [Install the Power BI Connec
 
 Make sure you have the right [CQD access role](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to access the Power BI reports. 
 
-|&nbsp;|&nbsp;|
-|---------|---------|
+|Pbit |Description |
+|:----------|:---------|
 |<strong>(New!)</strong> QER.pbit     |  The Quality of Experience Report (QER) template empowers customers to proactively identify issues that are impacting the Teams meeting and calling expierence before they escalate.  Reports are also provided to enable administrators to respond quickly to escalating issues and help answer the question, "What happened during the meeting?"  This template provides the following reports:</p><li>Search – enables searching by Meeting URL, Conference ID, Subnet, or UPN.</li><li>Meeting Health Details – detailed metrics for a single meeting.</li><li>User Health Details – detailed metrics for a single user.</li><li>Media Health – high level overview of Key Health Indicators (KHI) for overall tenant meeting and calling health.</li><li>Media Setup – analyze media setup failures.</li><li>Media Reliablity – analyze media reliability issues.</li><li>Audio/Video/Sharing Health – review mid-level KHIs for audio, video, or sharing health.</li><li>Audio/Video/Sharing Health Details – review detailed metrics on audio, video, or sharing health.</li><li>VPN – review the impact of VPN on meeting health. (Estimated or Mapped VPN)</li><li>Top 10 Reports – identify problem areas in your tenant.</li><li>Dailies – review daily report of KHIs.</li><li>Usage – general meeting and calling usage.</li><li>User Feedback – review user survey feedback, also known as Rate My Call.</li><li>Transport – identify networks that are blocking UDP.</li><li>Devices – review the impact of devices.</li><li>Clients - review client focused metrics.</li><li>Building Data – review the building data file in CQD.</li><li>PSTN Health and User Details – two reports that provide a high level summary as well as individual user health for PSTN based calls.</li><li>Network Metrics – two reports that display raw network metric details for jitter, packet loss, and latency.</li>  |
 |CQD Teams Auto Attendant & Call Queue Historical Report.pbit     |  This template provides the following three reports:</p><li>Auto Attendant – showing analytics for calls coming into your Auto Attendants.</li><li>Call Queue – showing analytics for calls coming into your Call Queues.</li><li>Agent Timeline – showing a timeline view of agents being active in Call Queue calls.</li><br>To learn more, read [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md).        |
 |CQD Helpdesk Report.pbit     |Integrating building and EUII data, this report is designed to let you drill up from a single user to find the upstream root cause of poor call quality for that user (for example, the user is in a building that's experiencing network problems).         |
@@ -43,7 +42,6 @@ Make sure you have the right [CQD access role](turning-on-and-using-call-quality
 
 > [!TIP]
 > Once you've set up your Power BI reports for CQD data, add them as a tab to a channel. After you select **+** in a channel, select **Power BI** and then find your report. To learn more, read [Embed report with the Power BI tab for Teams](/power-bi/service-embed-report-microsoft-teams). Remember, only people with a Power BI license and CQD admin credentials can access these reports.
-
 
 ## Related topics
 
