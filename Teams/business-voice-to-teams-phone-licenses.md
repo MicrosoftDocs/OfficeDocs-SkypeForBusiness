@@ -6,13 +6,10 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: Learn how to change your Business Voice licenses to Teams Phone licenses.
 appliesto: 
@@ -33,6 +30,11 @@ Existing Business Voice customers won't be automatically transitioned to the new
 
 This article is for IT admins who need to change their Business Voice licenses to Microsoft Teams Phone and Audio Conferencing licenses while maintaining the same capabilities.
 
+> [!WARNING]
+> Closely follow this article's instructions. If the instructions tell you to NOT select the **Save** button, don't select the **Save** button.
+>
+> Saving prematurely may result in losing phone number assignments, dial plans, auto attendants, and call queues.
+
 ## Acquire new licenses
 
 Before replacing Business Voice licenses, you first need to purchase replacement licenses for your users.
@@ -47,18 +49,17 @@ Use the following table to determine which licenses to purchase based on your ne
 
 | Old license plan | Recommended license plan | Description |
 | ---------------- | ------------------------ | ----------- |
-| Business Voice with Calling Plan | Teams Phone with Calling Plan | Provides cloud-based Phone System capabilities and a Domestic Calling Plan with Microsoft as your PSTN provider. |
-| Business Voice without Calling Plan | Teams Phone Standard | Provides cloud-based Phone System capabilities that can be combined with a [calling plan through a third-party PSTN provider using either Operator Connect or Direct Routing](pstn-connectivity.md) |
-| Business Voice (any version) | Microsoft Team Audio Conferencing select dial-out or Audio Conferencing | Provides dial-in and dial-out capabilities to meeting attendees organized by a licensed user |
+| Business Voice with Calling Plan | Teams Phone with Calling Plan and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities, a Domestic Calling Plan with Microsoft as your PSTN provider, and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
+| Business Voice without Calling Plan | Teams Phone Standard and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities that can be combined with [a third-party calling plan with a PSTN provider using Operator Connect or Direct Routing](pstn-connectivity.md) and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
 
 ## How to update licenses
 
 You have four ways to update your licenses:
 
-- Single user license update via Microsoft 365 admin center.
-- Bulk user license update via Microsoft 365 admin center.
-- Bulk user license update using a PowerShell script.
-- Bulk user license update using Azure group-based licensing.
+- Single user license update via Microsoft 365 admin center
+- Bulk user license update via Microsoft 365 admin center
+- Bulk user license update using a PowerShell script
+- Bulk user license update using Azure group-based licensing
 
 # [Option 1: Single user in admin center](#tab/single-user)
 
