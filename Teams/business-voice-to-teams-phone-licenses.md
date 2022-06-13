@@ -6,13 +6,10 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: Learn how to change your Business Voice licenses to Teams Phone licenses.
 appliesto: 
@@ -32,6 +29,11 @@ Business Voice bundled the following three Teams add-on licenses:
 Existing Business Voice customers won't be automatically transitioned to the new licensing model.
 
 This article is for IT admins who need to change their Business Voice licenses to Microsoft Teams Phone and Audio Conferencing licenses while maintaining the same capabilities.
+
+> [!WARNING]
+> Closely follow this article's instructions. If the instructions tell you to NOT select the **Save** button, don't select the **Save** button.
+>
+> Saving prematurely may result in losing phone number assignments, dial plans, auto attendants, and call queues.
 
 ## Acquire new licenses
 
