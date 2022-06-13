@@ -1058,6 +1058,8 @@ items:
       items: 
       - name: Phone System guidance
         href: business-voice/whats-business-voice.md
+      - name: Move from Business Voice to Teams Phone licenses
+        href: business-voice-to-teams-phone-licenses.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
       - name: Check your internet connection
