@@ -47,9 +47,8 @@ Use the following table to determine which licenses to purchase based on your ne
 
 | Old license plan | Recommended license plan | Description |
 | ---------------- | ------------------------ | ----------- |
-| Business Voice with Calling Plan | Teams Phone with Calling Plan | Provides cloud-based Phone System capabilities and a Domestic Calling Plan with Microsoft as your PSTN provider. |
-| Business Voice without Calling Plan | Teams Phone Standard | Provides cloud-based Phone System capabilities that can be combined with a [calling plan through a third-party PSTN provider using either Operator Connect or Direct Routing](pstn-connectivity.md) |
-| Business Voice (any version) | Microsoft Team Audio Conferencing select dial-out or Audio Conferencing | Provides dial-in and dial-out capabilities to meeting attendees organized by a licensed user |
+| Business Voice with Calling Plan | Teams Phone with Calling Plan and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities, a Domestic Calling Plan with Microsoft as your PSTN provider, and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
+| Business Voice without Calling Plan | Teams Phone Standard and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities that can be combined with [a third-party calling plan with a PSTN provider using Operator Connect or Direct Routing](pstn-connectivity.md) and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
 
 ## How to update licenses
 
