@@ -46,7 +46,7 @@ Following simple readiness checks is recommended:
 There are a few pre-requisites for receiving managed services updates: 
 
 |Software |Guidance |
-| :- | :- |
+|:- |:- |
 |Logitech Sync Services  |Should be installed and running on the Logitech meeting room devices. Required Sync services will be installed automatically from Windows Updates unless blocked. The full Sync package can also be installed. |
 |Windows OS updates |Should be kept enabled and not redirected to WSUS, nor blocked from a networking perspective. Neither GPO nor MDM policies should be used to manage OS updates. |
 |Microsoft Store updates   |Should be turned off. Managed Services will turn off Store updates if found on. |
@@ -73,7 +73,7 @@ When choosing ring validation, review the following sections on how rings work i
  Check for announcements on the portal home page and within the Managed Services documentation as new types of software and firmware become available in the portfolio. Because Managed Services experts are reviewing update versions daily across our portfolio of devices, they address specific issues and target updates based on need.  
 
 ### Scheduling 
-Managed updates are scheduled for rooms based on the equipment in the room and if they are not meeting Managed Services standards for applicable software and firmware.  
+Managed updates are scheduled for rooms based on the equipment in the room and if they are not meeting Managed Services standards for applicable software and firmware. 
 
 - To help our customers meet change management requirements, update deployment start on **Wednesdays** in the staging ring. If a critical update is required, we will bypass this schedule and release the update as soon as it’s available. 
 
@@ -83,7 +83,7 @@ Managed updates are scheduled for rooms based on the equipment in the room and i
 - Updates are typically applied during our nightly maintenance window – which is room local time **12:00am – 5:00am** to avoid any kind of interruptions. 
 
 ## Microsoft Teams Rooms app update lifecycle policy 
-The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs ](rooms-lifecycle-support.md)for detailed service description.
+The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) for detailed service description.
 
 To maintain a uniform standard across all our managed rooms and to allow us to efficiently identify trending issues, we will support and deploy the two latest Major or Minor Releases (N, N-1) of the MTR App software as per the Support and Subscription Services Terms and Conditions. We will automatically bring non-compliant rooms up to date, bypassing update rings as necessary. 
 
@@ -97,8 +97,8 @@ To view updates, log in to the managed services portal and navigate to the Updat
 The Updates pane displays a high-level overview of update management for your rooms with the following tabs:
 
 - **Updates**: Software or firmware updates that Managed Services is orchestrating through your organization.  
-- **Rooms**: The Rooms tab provides a view of rooms and rings to which each belong.
-- **Rings**: The Rings tab show the rings of rooms for your organization.
+- **Rooms**: The Rooms tab provides a view of rooms and rings to which each room belongs.
+- **Rings**: The Rings tab shows the rings of rooms for your organization.
 
 ### Updates  
 
@@ -107,8 +107,8 @@ This view shows the relevant updates for your tenant and their respective status
 Any update can be in one of the following states:
 
 | Status | Description |
-| :- | :- |
-| Scheduled | An update is scheduled for the rooms in a given ring. Please keep in mind that an update will only show Scheduled after the progression hits the ring the room is in. For example, if a new update is in the Staging ring, it would only show Scheduled for rooms in the Staging ring. <p> Other rings will have a “Not required” status until the update progresses to that ring.</p> |
+|:- |:- |
+| Scheduled | An update is scheduled for the rooms in a given ring. Please keep in mind that an update will only show Scheduled after the progression hits the ring the room is in. For example, if a new update is in the Staging ring, it would only show Scheduled for rooms in the Staging ring.<br></br><p> Other rings will have a “Not required” status until the update progresses to that ring.</p> |
 | In progress | An update is in progress, and individual rings show status. This state shows the overall ring status, and therefore if an update applies to a single room in the Staging ring in your tenant, the update will have an “In Progress” state until the Executive ring is reached. |
 | Completed with failures | An update has completed progression through all your configured rings and failed in at least one room. |
 | Completed | An update has completed progression through all your configured rings and successfully installed on all applicable rooms.|
@@ -139,32 +139,25 @@ Rings are used to reduce the risk of issues derived from the deployment of the f
 
 The **Rings** tab lists  all the rings in your tenant. There are three preconfigured rings:  
 
-**Staging**
+**Staging**: Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
 
-Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
+**General**: By default, all rooms are placed in this ring. Most of the room devices being used across the enterprise fall into this category. 
 
-**General**
-
-By default, all rooms are placed in this ring. Most of the room devices being used across the enterprise fall into this category. 
-
-**Executive**
-
-This group should include your most high-profile rooms where you want to minimize disruption proactively. A good example is a large conference room used for executive meetings or large team meetings. 
+**Executive**: This group should include your most high-profile rooms where you want to minimize disruption proactively. A good example is a large conference room used for executive meetings or large team meetings. 
 
 ### Specifying rollout timeline
 
 Updates cannot exceed 60 days to complete across all rings.  
 
-|**Parameter** |**Explanation** |
-| :- | :- |
-|<p> </p><p>Deferment Period </p>|<p>Once an update starts with the first ring, the deferment period is the delay in days before the update is initiated on this ring.  </p><p> </p>|
-|<p> </p><p>Rollout duration  </p><p> </p>|<p>Once the update commences on this ring, this is the time to deploy in this ring. For example, if the duration is 5 days, it will deploy over 5 days to the rooms in this ring once the update starts on this ring. </p><p> </p>|
-|<p> </p><p>Test Period </p>|<p><p>The number of days to test/validate the update in a ring once applied to the ring. The test period starts after the rollout is completed, and once complete, the update moves to the next ring. </p><p> </p>|
-|<p> </p><p>Completion Time </p>|<p> </p><p>The “Completion time” column indicates the total number of days (rollout duration + test period) for this ring to complete.  </p><p> </p>|
-|<p> </p><p>Total Time </p>|<p> </p><p>At the bottom is the “Total” row, which indicates how long it will take an update to complete from the first to the last ring. </p><p> </p><p> </p>|
+|Parameter |Explanation |
+|:- |:- |
+|Deferment Period|Once an update starts with the first ring, the deferment period is the delay in days before the update is initiated on this ring.|
+|Rollout duration|<p>Once the update commences on this ring, this is the time to deploy in this ring. For example, if the duration is 5 days, it will deploy over 5 days to the rooms in this ring once the update starts on this ring.|
+|Test Period|The number of days to test/validate the update in a ring once applied to the ring. The test period starts after the rollout is completed, and once complete, the update moves to the next ring.|
+|Completion Time|The “Completion time” column indicates the total number of days (rollout duration + test period) for this ring to complete.|
+|Total Time|At the bottom is the “Total” row that indicates how long an update will take to complete from the first to the last ring.|
 
 ### Creating Custom Rings
-
 
 1. Navigate to the **Rings** tab.  
 1. Click **Add ring**.  
