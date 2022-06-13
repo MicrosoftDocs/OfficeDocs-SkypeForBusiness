@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 
-description: Learn about how IT Admins can set up, use, and manage Q&A in Teams Q&A for a structured approach to gathering questions and organizing discussions, delete individual messages, use available languages, and understand the data lifecycle as well as data retention and deletion policies.
+description: Learn about how IT Admins can set up, use, and manage Q&A in Teams Q&A for a structured approach to gathering questions, organizing discussions, deleting individual messages, using available languages, and understanding the data lifecycle as well as data retention and deletion policies.
 ---
 # Manage Q&A for Teams
 
