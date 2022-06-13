@@ -103,7 +103,7 @@ The Q&A will default to the user’s language for Teams. When there’s a differ
 
 ## eDiscovery
 
-eDiscovery for Q&A in Teams, powered by Yammer, will work the same as eDiscovery for any other Yammer content.
+eDiscovery for Q&A will work the same as eDiscovery for any other Yammer content.
 
 - If you use  Teams Q&A in your tenant’s Teams application, this content will be available in eDiscovery regardless of the configuration or existence of your Yammer network. To use eDiscovery for standard Yammer content, your Yammer network needs to be in [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode).
 - When you perform eDiscovery, you can determine whether messages were generated in Yammer or through Q&A in Teams. In the File Metadata section, you can find that information in the Item Class field.
