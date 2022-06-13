@@ -119,7 +119,7 @@ The following explains how messaging data is stored:
 - Q&A content is searchable via eDiscovery and Advanced eDiscovery at the user level.
 - Message data (which includes message content) will be stored in North America or EU by default (depending on the customer’s Yammer network location).
 - For tenants that don’t have an existing Yammer network, the Q&A Yammer network will be created in the United States Yammer region. Your organization's messages for Q&A will always be stored in the US.
-- Like OneNote tabs, removing the Q&A from a meeting does not delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If you add the Q&A tab back, you will see all the meeting conversations again.
+- Similar to OneNote tabs, removing the Q&A from a meeting does not delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If you add the Q&A tab back, you will see all the meeting conversations again.
 
 ## GDPR for Q&A in Teams
 
