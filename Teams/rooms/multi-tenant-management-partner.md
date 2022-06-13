@@ -55,42 +55,45 @@ This built-in role is only configurable in the TRM-MTM portal. This role allows 
 
 ### Invitation from the customer
 
-The partner provides the user principle names (UPNs) of the users who will be primary administrators assigned to the customer. Only the users identified in the invitation can see and accept the invitation when they log in to the TRM-MTM portal. 
+The partner should provide the domain name to customers. Only the Global admin, Managed service admin, and Tenant managers roles can see and accept the invitation when they log in to the TRM-MTM portal. 
 
 > [!Note]
-> Even if you have elevated privileges such as Global Administrator, you will not see the invitation unless you are explicitly added. 
+> Even though these roles can see invitations and high-level Tenant metadata, you will not see the customer’s data until you are assigned a role with that customer.
 
 Details on the customer invitation are outlined in [Multi-tenant management for Customers](multi-tenant-management-customer.md).
 
 **To accept a pending invite**
 
-1. Log in to the TRM-MTM portal as one of the users on the invitation.
-1. Go to **Customers**.
+1. Log in to the TRM-MTM portal as either a Global admin, Managed Service admin, or Tenant manager.
+1. Go to **Tenants**.
 1. Select the invitation showing with a status of “Pending”.
 1. Review the invitation details.
+1. Assign users that will be the primary admins of this customer.
 1. Select **Accept** to establish the partner-customer relationship.
 
-   Selecting **Deny** deletes the invitation for the user denying. The invitation is still available for other users that have not yet acted.
+   Selecting **Deny** deletes the invitation.
 
    > [!Note]
-   > The invitation is unique, and independent for each user. The first user to accept establishes the link between the partner and customer tenant. There is no permanent association with the user that establishes the link. Subsequent users who accept the invitation are added as Primary admins.
+   > There is no permanent association with the user that accepts the invitation.
 
    > [!Note]
-   > *If a partner user accidentally denies the invitation, it is best to have another user simply add them to the Partner role (or any other RBAC role) for that customer.* 
+   > *If the invitation is accidentally denied the invitation, the customer must create a new invitation.* 
 
-After accepting the invitation, the user is automatically added as a Primary admin for this customer's tenant. 
+**To review the configuration or add more primary admins for a tenant**
 
-To review the configuration for this tenant, select the customer in the **Customers** list.
-
+1. Select the customer in the **Tenants** list.
+1. In the detail pane, select **Primary admins**.
+1. Search for the user or group.
+1. Select **Add** to confirm the selection.
 
 ## Off-boarding customers
 
-To off-board a customer, you must remove them from the Customers list.
+To off-board a customer, you must remove them from the **Tenants** list.
 
 **To remove a customer** 
 
 1. Login to the TRM-MTM portal as a Primary admin for the customer you wish to remove.
-1. Go to **Customers**.
+1. Go to **Tenants**.
 1. Select the customer you wish to remove.
 1. In the customer detail pane, select **Remove customer**.
 1. Select **Delete** in the confirmation prompt to terminate the association between your and the customer tenant.
@@ -102,8 +105,6 @@ Partner roles allow for delegation of responsibilities to additional personnel. 
 
 The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions —– in context of the customer —– for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the customer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
 
-> [!Important]
-> There must always be at least one user in the **Primary admins** role.
 
 **To manage users in the **Partner** role for a customer**
 
@@ -111,7 +112,7 @@ The **Primary admins** role is the only built-in role for each on-boarded custom
 1. Select the customer from the drop-down list for which you want to edit the partner role.
 1. Select the **Primary admins** built-in role from the list.
 1. Select **Assignments.**
-1. From the list, select **Invited Admins.**
+1. From the list, select **Assigned Admins.**
 1. Select **Members.**
 1. Click Select **Edit.** 
 1. Search for the user or security group you wish to add in the search bar.
