@@ -139,11 +139,11 @@ Rings are used to reduce the risk of issues derived from the deployment of the f
 
 The **Rings** tab lists  all the rings in your tenant. There are three preconfigured rings:  
 
-**Staging**: Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
+- **Staging**: Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
 
-**General**: By default, all rooms are placed in this ring. Most of the room devices being used across the enterprise fall into this category. 
+- **General**: By default, all rooms are placed in this ring. Most of the room devices being used across the enterprise fall into this category. 
 
-**Executive**: This group should include your most high-profile rooms where you want to minimize disruption proactively. A good example is a large conference room used for executive meetings or large team meetings. 
+- **Executive**: This group should include your most high-profile rooms where you want to minimize disruption proactively. A good example is a large conference room used for executive meetings or large team meetings. 
 
 ### Specifying rollout timeline
 
