@@ -2,6 +2,14 @@
 
 
 
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/6/2022 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | modified |
+
+
 ## Week of May 30, 2022
 
 
