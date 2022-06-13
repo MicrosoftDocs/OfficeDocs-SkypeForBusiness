@@ -19,7 +19,7 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Teams 
 ---
 # Manage Q&A in Teams Meetings
 
-Q&A is an integrated meeting experience that gives participants the ability to formally ask and receive answers questions, as well as engage in discussion posts. This experience is a best practice for meetings with more than 10 participants.
+Q&A is an integrated meeting experience that gives participants the opportunity to formally ask and receive answers to questions, as well as engage in structured discussions. This experience is a best practice for meetings with more than 10 participants.
 
 This article describes how to manage Q&A and user-level policies which dictate whether an organizer can enable Teams Q&A in their meetings.
 
