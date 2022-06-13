@@ -112,7 +112,7 @@ Note the following details about customizing an app:
 
 * For an app to become customizable, the developers can provide a new version of the app. You upload the new version and remove the previous version of the app. If you have customized an app and published it, the new app customized using the app customization feature won't replace the current app.
 
-* The [app usage report](Teams/teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that is provided by the publisher.
+* The [app usage report](teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that is provided by the publisher.
 
 * The Microsoft Graph permission consent dialog displays the original name of the app that is provided by the publisher. It helps you to accurately identify an app while providing permissions to it.
 
