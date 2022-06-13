@@ -104,6 +104,10 @@ This setting is a per-participant setting. This setting controls whether meeting
 
 <a name="bkparticipantsandguests"> </a>
 
+## Q&A in meetings
+
+This is a per-organizer policy. This setting controls whether organizers can add the Q&A experience to their meetings By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings)
+
 ## Enable meeting policy settings
 
 To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet in Teams PowerShell. 
