@@ -70,11 +70,7 @@ None
 
 * RECEIVE_MESSAGE, REPLYTO_MESSAGE: The bot can receive messages from users and reply to them.<sup>1</sup>
 
-
 * POST_MESSAGE_USER: After a user has sent a message to a bot, the bot can send the user direct messages (also called *proactive messages* at any time.
-
-- POST_MESSAGE_USER. After a user has sent a message to a bot, the bot can send the user direct messages (also called _proactive messages_ at any time.
-
 
 * GET_CHANNEL_LIST: Bots added to teams can get a list of names and IDs of the channels in a team.
 
@@ -108,19 +104,17 @@ None
 
 * When a user converses with a bot, if the bot stores the user's ID, it can send the user direct messages at any time.
 
-* Theoretically it's possible for bot messages to contain links to phishing or malware sites. However, bots can be blocked by the user, the tenant admin, or globally by Microsoft.
+* Theoretically it's possible for bot messages to contain links to phishing or malware sites. However, bots can be blocked by the user, the tenant admin, or globally by Microsoft. [App verification and validation checks](overview-of-app-validation.md) ensures that any spurious apps are not available in Teams store.
 
 * A bot can retrieve (and might store) basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory (Azure AD).
 
 * Bots can retrieve (and might store) the list of channels in a team; this data leaves the corporate network.
 
-* When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file. 
-
 * By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those other things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
 
-- When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
+* When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
-- By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at [Application Registration Portal](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) and can have its own set of permissions.
+* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at [Application Registration Portal](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) and can have its own set of permissions.
 
 * Bots are informed whenever users are added to or deleted from a team.
 
@@ -132,7 +126,10 @@ None
 
 <sup>1</sup> Some bots only send messages (POST_MESSAGE_USER). They're called "notification-only" bots, but the term doesn't refer to what a bot is allowed or not allowed to do, it means that the bot doesn't want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to do compared to bots that expose a conversational experience.
 
-<sup>2</sup> Governed by the supportsFiles Boolean property on the bot object in the manifest.json file for the app.
+<sup>2</sup> Governed by the supportsFiles Boolean property on the bot object in the `manifest.json` file for the app.
+
+<!--- TBD: Verify the info in the note.
+--->
 
 > [!NOTE]
 > If a bot has its own sign-in, there's a second—different—consent experience the first time the user signs in.
@@ -153,11 +150,7 @@ None (currently)
 
 ### Considerations
 
-
 * The risk profile for a tab is almost identical to that same website running in a browser tab.
-
-- The risk profile for a tab is almost identical to that same website running in a browser tab.
-
 
 * A tab also gets the context in which it's running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Microsoft 365 Group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user's information, the tab would have to make the user sign in to Azure AD.
 
@@ -190,11 +183,11 @@ REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which
 * If the service that sends connector messages were to become compromised and start sending spam/phishing/malware links, a tenant administrator can prevent new connector instances from being created and Microsoft can block them centrally.
 
 > [!NOTE]
-> It's not currently possible to know which connectors support actionable messages (REPLYTO_CONNECTOR_MESSAGE permission).
+> It's not currently possible to know which Connectors support actionable messages (REPLYTO_CONNECTOR_MESSAGE permission).
 
 ## Outgoing webhooks
 
-_Outgoing webhooks_ are created on the fly by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
+_Outgoing webhooks_ are created by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
 
 ### Required permissions
 
@@ -212,8 +205,7 @@ None
 
 * Although it's possible to create an outgoing webhook that doesn't validate the secret, we recommend against it.
 
-
 * Other than receiving and replying to messages, outgoing webhooks can't do much: they can't proactively send messages, they can't send or receive files, they can't do anything else that bots can do except receive and reply to messages.
 
-- Other than receiving and replying to messages, outgoing webhooks can't do much: they can't proactively send messages, they can't send or receive files, they can't do anything else that bots can do except receive and reply to messages.
-
+<!--- TBD: Get the above webhooks considerations reviewed by dev writers.
+--->
