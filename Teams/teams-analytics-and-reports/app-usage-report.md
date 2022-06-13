@@ -25,11 +25,15 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 ## View the App Usage report
 
-1. In the left navigation of the admin center at <https://admin.teams.microsoft.com>, click **Analytics & reports** > **Usage reports**.<br><br>![Screenshot of the Usage Reports menu item.](media/app-usage-report1.png "Screenshot of the Usage Reports menu item.")
-2. On the **View reports** tab, under **Report**, select **Apps Usage**.
+1. In the left navigation of the admin center at <https://admin.teams.microsoft.com>, click **Analytics & reports** > **Usage reports**.
 
-3. Under **Date range**, select a range, and then click **Run report**. The Teams Apps usage report can be viewed for trends over the last 7, 30 or 90 days.<br><br>![Screenshot of the Apps Usage report.](media/app-usage-report2.png "Screenshot of the Apps Usage report.")
+   ![Screenshot of the Usage Reports menu item.](media/app-usage-report1.png "Screenshot of the Usage Reports menu item.")
 
+1. On the **View reports** tab, under **Report**, select **Apps Usage**.
+
+1. Under **Date range**, select a range, and then click **Run report**. The Teams Apps usage report can be viewed for trends over the last 7, 30 or 90 days.
+
+   ![Screenshot of the Apps Usage report.](media/app-usage-report2.png "Screenshot of the Apps Usage report.")
 
 ## Interpret the report
 
@@ -37,9 +41,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-hour latency from the time an app was opened.
 
-The Y axis on the chart is the number of users who for the date you selected by hovering over the chart are considered active users because they have opened an app at least once.
-
-The X axis on the chart is the date range that you selected for the report.
+Admin center provides a chart of the active users and the dates. Active users is the number of users who opened an app at least once during the selected time period.
 
 Hover over the dot (4) representing an app's usage on any date to see the total number of that app’s active users on that date.
 
