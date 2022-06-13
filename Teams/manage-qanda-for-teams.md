@@ -2,6 +2,7 @@
 title: "Manage Q&A for Teams"
 author: wlibebe
 ms.author: wlibebe
+ms.reviewer: justle
 manager: serdars
 ms.topic: article
 ms.service: msteams
