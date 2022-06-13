@@ -67,12 +67,12 @@ Set-CsTeamsMeetingPolicy  -Identity Global -QnAEngagementMode Disabled
 To delete a question or answer posted in the Q&A application, follow these steps:
 
 1. Log into the Exchange Admin Center as a Global Administrator.
-2. Go to Recipients > Mailboxes and search by name for the user who organized the meeting.
-3. Select the meeting organizer and click on Manage mailbox delegation. In the Read and manage section, select Edit > Add permissions.
+2. Go to **Recipients** > **Mailboxes** and search by name for the user who organized the meeting.
+3. Select the meeting organizer and click on **Manage mailbox delegation**. In the **Read and manage** section, select **Edit** > **Add permissions**.
 4. Add yourself as a delegate of the meeting organizer and select Save.
-5. Open Outlook Calendar in the Outlook Web App (not desktop) and select Add calendar and then Add from directory.
-6. Search for the meeting organizer and add their calendar to My calendars. Meetings for the selected user will now be shown on your calendar.
-7. In your calendar, find the meeting you want to delete content for, open the meeting record, and select Chat with participants. This will open the meeting chat in Teams.
+5. Open Outlook Calendar in the Outlook Web App (not desktop) and select **Add calendar** and then **Add from directory**.
+6. Search for the meeting organizer and add their calendar to **My calendars**. Meetings for the selected user will now be shown on your calendar.
+7. In your calendar, find the meeting you want to delete content for, open the meeting record, and select **Chat with participants**. This will open the meeting chat in Teams.
 8. Navigate to the Q&A application in the Teams app bar.
 9. Find any questions or answers you want to delete and select Delete.
 10. Once you’re finished deleting content, go back to the Exchange Admin Center and remove yourself as a delegate of the meeting organizer.
