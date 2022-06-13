@@ -312,7 +312,7 @@ The following partners are in the process of certifying their solution for Micro
 
 |Partner|Solution website |
 |:--|:--|
-|GuardRec|https://www.guardrec.com/en/teams-compliance-recording |
+|GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 
