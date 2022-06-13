@@ -45,4 +45,4 @@ To turn on search by name
 
 > [!Note]
 > It may take a few hours for this change to take effect.
-> Turning on search by name hides the _Search teams_ box and public teams listing in **Join or create a team** in Teams. It will also disable joining a team by typing /join in the command box at the top of Teams.
+> Turning on search by name hides the **Search teams** box and public teams listing in **Join or create a team** in Teams. It will also disable joining a team by typing /join in the command box at the top of Teams.
