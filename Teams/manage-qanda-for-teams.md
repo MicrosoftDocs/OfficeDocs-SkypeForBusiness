@@ -7,6 +7,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - m365initiative-voice
@@ -14,7 +15,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 
-description: Learn how to set up and manage Q&A for Teams. Q&A is best suited for structured meeting scenarios and provides organizers with a structured approach to gathering questions and organizing discussions.
+description: Learn how to set up and manage Q&A for Teams. Q&A provides organizers with a structured approach to gathering questions and organizing discussions.
 ---
 # Manage Q&A for Teams
 
