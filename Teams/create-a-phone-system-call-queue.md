@@ -66,7 +66,7 @@ For more information, see [Manage Teams resource accounts](manage-resource-accou
 
 **Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard call queues**
 
-You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make.
+You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
 
 Click **Add**, search for the resource accounts that you want to allow agents to use for caller ID purposes when making outbound calls, click **Add**, and then click **Add**.
 
@@ -245,33 +245,33 @@ The following settings are recommended:
 
 ## Call queue feature compatibility
 
-|Feature                          |Teams Desktop<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
-|:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
-|**Agent Routing Methods**        |                          |                         |     |          |                      |                          |              |
-|`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Default*     |
-|`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
-|`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Recommended* |
-|`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
-|**Agent Routing Options**        |                          |                         |     |          |                      |                          |              |
-|`Presence Based Routing`<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
-|`Agents can Opt-out`               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
-|**Transfer Modes**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*Recommended* |
-|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Default*              |
-|**Collaborative Calling**        |                          |                         |     |          |                      |                          |              |
-|`Channel Based Queues`             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
-|**Dynamic caller ID**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
-|`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
-|**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 10   |
-|`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
-|`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
-|`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
-|**Miscellaneous**    |                          |                         |     |          |                      |                          |See Note 10   |
-|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
+|:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
+|**Agent Routing Methods**        |                          |          |                |     |          |                      |                          |   |
+|`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
+|`Longest Idle`<sup>3</sup>       |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
+|`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
+|`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
+|**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
+|`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Recommended* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*              |
+|**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
+|`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
+|**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |
+|`Standard call queue`            |N                         |N         |Y               |N    |N         |Y                     |n/a                       |   |
+|`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
+|**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
+|`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |N         |Y                     |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
+|`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
 Notes:
-1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure, Microsoft Teams Web client.
+1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
 4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
@@ -279,8 +279,7 @@ Notes:
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at https://aka.ms/vmsettings.
 8. Only public channels are supported.
-9. Excluding Teams Web client.
-10. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
+9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
 
 
 ## Supported clients
