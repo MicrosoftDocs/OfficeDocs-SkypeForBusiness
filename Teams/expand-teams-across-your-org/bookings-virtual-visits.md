@@ -95,7 +95,7 @@ When a scheduler uses the appointment type to schedule an appointment, they can 
 
 To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## Schedule an appointment 
+## Schedule an appointment
 
 In the booking calendar, select **New booking**. Select an appointment type, and then fill out the relevant information.
 
