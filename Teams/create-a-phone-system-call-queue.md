@@ -150,7 +150,7 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > [!NOTE]
 > Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 >
-> Conference mode isn't supported if phone calls are routed to the queue from a Skype for Business server.
+> Conference mode isn't supported if phone calls are routed to the queue from Skype for Business Server.
 > 
 > Conference mode is required if Teams users need to consult/transfer calls with call queues.
 
