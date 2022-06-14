@@ -32,11 +32,11 @@ This article gives you an overview of how to manage [Microsoft Power Platform](h
 
 Microsoft Power Platform apps created by makers in your organization are automatically added to Teams. Makers can control who can access their app by using the [sharing feature in Power Apps](/powerapps/maker/canvas-apps/share-app) and the [sharing feature in Power Virtual Agents](/power-virtual-agents/admin-share-bots).
 
-When a Microsoft Power Platform app is created or shared, users can view and install it on the Apps page by going to **Built for *Your Organization Name*** > **Built by your colleagues**. (It might take a few minutes after an app is created or shared for the app to appear here.)
+When a Microsoft Power Platform app is created or shared, users can view and install it on the Apps page by going to **Built with Power Platform**. (It might take a few minutes after an app is created or shared for the app to appear here.)
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built by your colleagues":::
 
-A user will see an app in **Built by your colleagues** if the app meets one of the following conditions.
+A user will see an app in **Built by Power Platform** if the app meets one of the following conditions.
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
@@ -46,13 +46,13 @@ Users install Microsoft Power Platform apps in the same way they install any oth
 
 ## Manage access to Microsoft Power Platform apps in the Microsoft Teams admin center
 
-As an admin, you can control whether Microsoft Power Platform apps are listed in **Built by your colleagues** on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).
+As an admin, you can control whether Microsoft Power Platform apps are listed in **Built by Power Platform** on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).
 
 The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your organization's app store represent all apps created on that particular platform. If you block one or both these apps at the org level or for specific users, those users can't see any apps from those platforms in **Built by your colleagues** and can't install them in Teams.  
 
 Keep in mind that you can control access to all apps created in Power Apps and Power Virtual Agents but you can't allow or block individual apps. Makers decide who can access the apps they create through the sharing feature from within Power Apps and Power Virtual Agents. If a maker shared an app they created in Power Virtual Agents with a user and you blocked **Shared Power Virtual Agents Apps** for that user, the user won't be able to see or install any apps from that platform in Teams.
 
-If a user is allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps from one or both these platforms, the user can still access and use Microsoft Power Platforms apps that they installed before you blocked the app or apps. However, the user can no longer see or install any apps from those platforms in **Built by your colleagues**.
+If a user is allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps from one or both these platforms, the user can still access and use Microsoft Power Platforms apps that they installed before you blocked the app or apps. However, the user can no longer see or install any apps from those platforms in **Built by Power Platform**.
 
 > [!NOTE]
 > The **Allow interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. By default, this setting is turned on. If this setting is turned off, users in your organization can't see or install any custom apps, including Microsoft Power Platform apps. To learn  more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
