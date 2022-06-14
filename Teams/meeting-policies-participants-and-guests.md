@@ -115,7 +115,6 @@ To parameter QnAEngagementMode controls this policy in PowerShell and Q&A can al
 |**Enabled**     | Organizers can add Q&A when creating meetings. |
 |**Disabled**     | Organizers won't have the option to add Q&A when creating meetings.  |
 
-
 ## Enable meeting policy settings
 
 To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet in Teams PowerShell. 
