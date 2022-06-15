@@ -197,21 +197,6 @@ Once you've added resource accounts, select **Next**.
 
 See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
 
-# [Step 7 - Authorized users](#tab/authorized-users)
-
-## Step 7 - Set up authorized users (optional)
-
-**Authorized users** can make changes to the auto attendant, even if they don’t have administrative rights. You can add and remove users as needed.
-
-Only users who have a Teams Phone license and are connected to the PSTN can be assigned as authorized users of an auto attendant.
-
-1. On the **Authorized users** page, select **+ Add members**.
-1. On the **Add authorized users** pane, search for a user.
-1. Next to the user's name, select the **Add** button.
-1. At the bottom of the **Add authorized users** pane, select the **Add** button.
-
-When you've added authorized users, select **Submit** to complete the auto attendant setup.
-
 # [Additional resources](#tab/additional-resources)
 
 ## Resources for more complex scenarios
