@@ -358,7 +358,8 @@ The following settings are recommended:
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
-Notes:
+### Notes
+
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.

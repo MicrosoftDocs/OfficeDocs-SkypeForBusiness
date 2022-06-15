@@ -104,7 +104,28 @@ Callers can say names in the following formats:
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory for Dial by Name with speech recognition due to Active Directory replication lag.
-  
+
+### Dial by Extension
+
+Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Azure AD Connect) or Azure Active Directory. (See [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) for more information.)
+
+- OfficePhone/TelephoneNumber (AD and Azure AD)
+- HomePhone (AD)
+- Mobile/MobilePhone (AD and Azure AD)
+- OtherTelephone (AD)
+
+The required format to enter the extension in the user phone number field can be one of the following formats:
+
+- *+\<phone number>;ext=\<extension>*
+- *+\<phone number>x\<extension>*
+- *x\<extension>*
+
+- Example 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
+- Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+- Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+
+You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
+
 ## Language support
 
 Language support for text-to-speech and speech recognition is available in these [supported languages](create-a-phone-system-auto-attendant-languages.md).
