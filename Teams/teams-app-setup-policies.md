@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use and manage app setup policies that helps you to choose apps to pin, install apps, and upload custom apps.
+description: Learn how to use and manage app setup policies to choose apps to pin, install apps, and upload custom apps.
 f1.keywords:
 - CSH
 ms.custom: 
