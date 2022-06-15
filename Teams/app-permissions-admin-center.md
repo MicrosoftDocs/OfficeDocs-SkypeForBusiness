@@ -29,7 +29,7 @@ Examples of permissions requested by apps include the ability to read informatio
 
 The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps. You won't see this link or need to grant admin consent for apps published by Microsoft.
 
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot of Permissions column on Manage apps page.":::
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot of Permissions column on Manage apps page." lightbox="media/app-perm-admin-center-permissions-column.png":::
 
 To grant org-wide consent to an app, follow these steps:
 
