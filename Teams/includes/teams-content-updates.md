@@ -2,6 +2,25 @@
 
 
 
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/6/2022 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
+| 6/7/2022 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | modified |
+| 6/7/2022 | [Deploy teams at scale for frontline workers in Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | added |
+| 6/8/2022 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
+| 6/9/2022 | [Teams apps behavior based on types of users](/MicrosoftTeams/non-standard-users) | modified |
+| 6/9/2022 | [Set up the Common Area Phone license](/MicrosoftTeams/set-up-common-area-phones) | modified |
+| 6/9/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/9/2022 | [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modified |
+| 6/10/2022 | [Mobile App extension](/MicrosoftTeams/rooms/extended-mobile-app) | added |
+| 6/10/2022 | [Deploy teams at scale for frontline workers in Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | modified |
+| 6/10/2022 | [Move from Business Voice to Teams Phone licenses](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | added |
+| 6/10/2022 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
+
+
 ## Week of May 30, 2022
 
 
@@ -152,25 +171,3 @@
 | 5/12/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
 | 5/13/2022 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
 | 5/13/2022 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-
-
-## Week of May 02, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/2/2022 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
-| 5/3/2022 | [Approvals application availability in Teams](/MicrosoftTeams/approval-admin) | modified |
-| 5/3/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
-| 5/3/2022 | [Manage the Shifts app for your organization](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modified |
-| 5/3/2022 | [Manage the Tasks app for your organization in Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modified |
-| 5/3/2022 | [Walkie Talkie application in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
-| 5/4/2022 | Manage settings for your organization | removed |
-| 5/4/2022 | [Microsoft Teams app usage report](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | modified |
-| 5/4/2022 | [Check-in and room release on Microsoft Teams panels](/MicrosoftTeams/devices/check-in-and-room-release) | modified |
-| 5/4/2022 | [Manage your devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
-| 5/5/2022 | [Create a call queue via cmdlets](/MicrosoftTeams/create-a-phone-system-call-queue-via-cmdlets) | modified |
-| 5/5/2022 | Use activity reports for Microsoft Teams | removed |
-| 5/6/2022 | [Teams dial pad configuration](/MicrosoftTeams/dial-pad-configuration) | modified |
-| 5/6/2022 | [Manage team templates in the admin center](/MicrosoftTeams/templates-policies) | modified |
-| 5/6/2022 | [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modified |
