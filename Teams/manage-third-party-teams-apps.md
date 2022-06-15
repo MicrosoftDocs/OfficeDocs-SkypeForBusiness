@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to manage access to Teams apps for end-users such as, new app access for specific end-users or for all end-users across Microsoft 365. 
+description: Learn how to manage access to Teams apps across Microsoft 365. 
 ---
 
 # Manage access to Teams apps across Microsoft 365
