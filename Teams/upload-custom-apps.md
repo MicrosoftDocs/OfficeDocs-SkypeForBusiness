@@ -65,9 +65,9 @@ To allow trusted users to upload custom apps, follow these steps:
 
 ## Upload
 
-To make the app available to users in your organization's app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
+To make the app available to users in your organization's app store, upload the app.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Select **Upload**, click **Upload**, select the app package that you received from the developer, and select **Open**.
 
    ![Screenshot of uploading an app in the admin center.](media/manage-your-lob-apps-upload-new-app.png)
@@ -98,7 +98,7 @@ If you created and assigned an app setup policy, the app is pinned to the app ba
 
 ## Update
 
-To update an app, developers should continue to follow the steps in the [Develop](#create-your-app) and [Validate](#validate) sections.
+To update an app, developers follow the steps in the [Create your app](#create-your-app) and [Validate](#validate) sections.
 
 You can update the app on the Manage apps page in the Microsoft Teams admin center. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. Click the app name, and then click **Update**. Doing this replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
 
