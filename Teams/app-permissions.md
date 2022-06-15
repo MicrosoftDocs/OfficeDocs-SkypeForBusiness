@@ -35,17 +35,6 @@ As an admin, you only manage apps. However, the article focuses on permissions a
 
 The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).
 
-<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
-
-| Title   | Description    |
-|-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
-| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
-
-See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
-
---->
-
 ## Global app permissions and considerations
 
 ### Required permissions
@@ -128,9 +117,6 @@ None
 
 <sup>2</sup> Governed by the supportsFiles Boolean property on the bot object in the `manifest.json` file for the app.
 
-<!--- TBD: Verify the info in the note.
---->
-
 > [!NOTE]
 > If a bot has its own sign-in, there's a second—different—consent experience the first time the user signs in.
 >
@@ -206,6 +192,3 @@ None
 * Although it's possible to create an outgoing webhook that doesn't validate the secret, we recommend against it.
 
 * Other than receiving and replying to messages, outgoing webhooks can't do much: they can't proactively send messages, they can't send or receive files, they can't do anything else that bots can do except receive and reply to messages.
-
-<!--- TBD: Get the above webhooks considerations reviewed by dev writers.
---->

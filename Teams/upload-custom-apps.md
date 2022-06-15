@@ -90,9 +90,9 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Discover and adopt
 
-Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
+End-users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
-![Screenshot of Apps page showing published app .](media/custom-app-lifecycle-discovery.png)
+:::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Screenshot of Teams store showing custom app published for organization" lightbox="media/custom-app-lifecycle-discovery.png":::
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
@@ -104,19 +104,7 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 ### End-user update experience
 
-In most cases, after you complete an app update the new version automatically appears for end users. However, there are some updates to the [Microsoft Teams manifest](/microsoftteams/platform/resources/schema/manifest-schema) that require user acceptance to complete:
-
-* A bot was added or removed
-* An existing bot's "botId" property changes
-* An existing bot's `isNotificationOnly` property changes
-* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability is added
-* A messaging extension is added
-* A new connector is added
-* Permissions in "Authorization" are added or changed
-
-![Screenshot of apps list, showing apps that have a new version available.](media/manage-your-custom-apps-update1.png)
-
-![Screenshot of upgrade option for an app.](media/manage-your-custom-apps-update2.png)
+In most cases, after you complete an app update the new version automatically appears for end users. For more information, see [end-user update experience](apps-update-experience.md).
 
 ## Related topics
 
