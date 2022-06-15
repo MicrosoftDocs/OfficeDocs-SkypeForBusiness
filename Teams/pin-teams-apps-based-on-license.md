@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn about the tailored app experience for frontline workers in Teams, and also learn how the tailored frontline app works with other Teams app policies.
+description: Learn about the tailored app experience for frontline workers in Teams.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
