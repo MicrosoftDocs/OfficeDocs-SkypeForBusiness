@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
 search.appverid: 
-description: Learn about App Permission policies, App Setup policies and Custom App policies used to manage apps in Microsoft Teams.
+description: Learn about App permission policies, App setup policies, and Custom app policies used to manage apps in Microsoft Teams.
 audience: admin
 ms.localizationpriority: medium
 MS.collection: 
