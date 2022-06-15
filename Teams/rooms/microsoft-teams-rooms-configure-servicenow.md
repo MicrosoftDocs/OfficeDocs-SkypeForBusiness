@@ -1,9 +1,9 @@
 ---
 title: Configure ServiceNow for Teams Rooms
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: 
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -18,7 +18,10 @@ f1keywords:
 
 This article describes the prerequisites and steps to configure your ServiceNow environment in the Teams Rooms Premium portal.
 
-## Before you begin
+## Watch: Microsoft Teams Rooms — Managed Services Service Now Integration
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### Teams Rooms prerequisites
 
