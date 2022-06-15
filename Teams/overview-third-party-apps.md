@@ -1,7 +1,7 @@
 ---
 title: Understand third-party apps in Microsoft Teams
 ms.reviewer: 
-description: Learn about third-party apps from ISVs and Microsoft partners in Microsoft Teams, and also learn how admins have control over third-party apps.
+description: Learn about third-party apps from ISVs and Microsoft partners in Microsoft Teams.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
