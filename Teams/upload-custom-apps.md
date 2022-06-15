@@ -50,18 +50,26 @@ To validate that the app is working correctly in your production tenant, you nee
 To allow trusted users to upload custom apps, follow these steps:
 
 1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
+
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
-    1. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
+    
+    2. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
+    
 1. Turn off the **Upload custom apps** setting in the global app setup policy. To do this:
+
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
-    1. Turn off **Upload custom apps**, and then click **Save**.
+    
+    2. Turn off **Upload custom apps**, and then click **Save**.
+    
 1. Create a new app setup policy that allows uploading custom apps and assign it to your set of trusted users. To do this:
+
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Add**. Give the new policy a name and description, turn on **Upload custom apps**, and then click **Save**.
-    1. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
+    
+    2. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
 
-        ![Screenshot of the "Add app setup policy" page](media/manage-your-lob-apps-new-app-setup-policy.png)
+       ![Screenshot of the "Add app setup policy" page](media/manage-your-lob-apps-new-app-setup-policy.png)
 
-    These users can now upload the app manifest to validate that the app is working correctly in the production tenant.
+These users can now upload the app manifest to validate that the app is working correctly in the production tenant.
 
 ## Upload
 
