@@ -46,7 +46,7 @@ This page provides the latest Teams PowerShell change log for both General Avail
 ### Cmdlet availability
 
 > [!NOTE]
-> The list in the table below only includes cmdlets that are natively part of the Teams PowerShell module. The Teams cmdlets in the S[kype for Business Online Connector module](/powershell/skype/intro?view=skype-ps) are not displayed. However, as those cmdlets are migrated natively into Teams PowerShell, we'll add them to this table.
+> The list in the following table only includes cmdlets that are natively part of the Teams PowerShell module. The Teams cmdlets in the [Skype for Business Online Connector module](/powershell/skype/intro?view=skype-ps) are not displayed. However, as those cmdlets are migrated natively into Teams PowerShell, we'll add them to this table.
 
 | Cmdlet | Available in Public Preview | Available in GA |
 | -| -- | --|
