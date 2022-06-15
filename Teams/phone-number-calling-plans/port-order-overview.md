@@ -52,7 +52,8 @@ In general, you can transfer any phone number that's from a supported provider, 
 - Toll-free phone numbers.
 
     > [!NOTE]
-    > Universal International Freephone Number (UIFN) can't be transferred to us. 
+    > Universal International Freephone Number (UIFN) can't be transferred to us.
+    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service. 
   
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
 
