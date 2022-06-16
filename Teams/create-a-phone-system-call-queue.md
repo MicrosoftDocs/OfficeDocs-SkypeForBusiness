@@ -253,13 +253,13 @@ You can enable **presence-based call routing** with any of the routing methods.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
 
-We recommend to turn on **Presence-based routing**.
+We recommend turning on **Presence-based routing**.
 
 ### Call agents can opt out of taking calls
 
 You can specify whether call agents have the ability to opt out of taking calls or not.
 
-We recommend to turn on **Call agents can opt out of taking calls**.
+We recommend turning on **Call agents can opt out of taking calls**.
 
 > [!NOTE]
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.

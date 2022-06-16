@@ -43,7 +43,7 @@ These articles will help your business plan, set up, and manage the Phone System
 |---------|-------------|
 | [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See if Phone System and Calling Plans are available in your country and region. If they're not available, [get help from a reseller or partner](../business-voice/reseller-partner-support.md) to find the right voice solution. |
 | [Check your internet connection](../business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for the Phone System with Calling Plan bundle. |
-| [Set up the Phone System with Calling Plan bundle](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Phone System with Calling Plan. |
+| [Set up the Phone System with Calling Plan bundle](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic setup of Phone System with Calling Plan. |
 | [Customize your Phone System with Calling Plan setup](../business-voice/customize-business-voice.md) | Learn how to customize the Phone System with Calling Plan bundle for your unique needs. |
 | [Manage your Phone System setup](../business-voice/create-users.md) | Learn how to manage Phone System with Calling Plan bundle users, devices, and call quality. |
 
@@ -63,7 +63,7 @@ To buy **Teams Phone with Calling Plan** bundle licenses:
 2. Go to **Billing** > **Purchase services**.
 3. Under **Purchase from Microsoft**, select **View Products**.
 4. Select the **Add-ons** category filter to view all available add-on licenses.
-5. Find the **Teams Phone with Calling Plan** add on and select **Details** to go to the product page.
+5. Find the **Teams Phone with Calling Plan** add-on and select **Details** to go to the product page.
 6. Select the **Buy** button to choose the number of licenses you need and to complete the purchasing process. If you run out of licenses, you can purchase more later.
 
 After you've purchased Teams Phone with Calling Plan bundle licenses, read [Set up Phone System with Calling Plan](../business-voice/set-up-overview.md).

@@ -144,7 +144,7 @@ Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the require
 
 We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
-**Call routing flow** plans help determine the most efficient routing for people calling into your organization. To learn how to plan yor call routing flow, see [Plan your call routing flow](plan-your-call-routing-flow.md).
+**Call routing flow** plans help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Plan your call routing flow](plan-your-call-routing-flow.md).
 
 ## Getting started
 
