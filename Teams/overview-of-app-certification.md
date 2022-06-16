@@ -1,7 +1,7 @@
 ---
 title: Overview of app certification by Microsoft
 ms.reviewer: 
-description: Understand the compliance program for security, compliance, and privacy of third-party Teams apps.
+description: Learn how to implement strong security and compliance practices to protect customer data. Understand the compliance program for security, compliance, and privacy of third-party apps.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
