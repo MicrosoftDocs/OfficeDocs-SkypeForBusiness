@@ -38,19 +38,6 @@ And having a proxy can cause issues. Performance-related problems can be introdu
 
 Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
   
-Microsoft also strongly recommends:
-  
-- Using external DNS resolution
-    
-- Using direct UDP based routing
-    
-- Allowing UDP traffic
-    
-- Following the other recommendations in our networking guidelines:
-  [Prepare your organization's network for Teams](prepare-network.md)
-  
-    
-Following this guidance should minimize potential problems.
   
 ## Related topics
 
