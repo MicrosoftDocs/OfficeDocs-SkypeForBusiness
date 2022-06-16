@@ -27,6 +27,9 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 
 ![Screenshot of purchase licenses manage apps page.](media/manage-apps-new-page.png)
 
+> [!NOTE]
+> End users can also purchase licenses directly from the Teams app store.
+
 ## Purchase apps in the Teams admin center
 
 > [!IMPORTANT]
