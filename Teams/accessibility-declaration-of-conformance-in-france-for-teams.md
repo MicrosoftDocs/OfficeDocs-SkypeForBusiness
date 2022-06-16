@@ -44,7 +44,7 @@ Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:e
 
 ## Section 1 Champ d'application
 
-La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d'accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services TIC de Microsoft.
+La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d'accessibilité](https://www.levelaccess.com/accessibility-regulations/m376/#:~:text=The%20European%20Commission%E2%80%99s%20%28EC%29%20Mandate%20M%20376%20directs,procurement%20of%20accessible%20information%20and%20communication%20technologies%20%28ICT%29.) applicables aux produits et services TIC de Microsoft.
 
 ## Section 2 Références
 

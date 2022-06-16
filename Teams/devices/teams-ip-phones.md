@@ -1,7 +1,7 @@
 ---
 title: "Devices for Teams"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
@@ -240,6 +240,18 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
+| Logi Rallybar Mini | `1.6.552`       | 2022 Update #2   |
+| Neat Bar | `NFB1.20220512.2200` | 2022 Update #2 |
+| Neat Pad touch console | `NFA1.20220512.2158`  |  2022 Update #2 |
+| Neat Board | `NFC1.20220512.2200` |  2022 Update #2 |
+| Yealink MeetingBar A20 | `133.15.0.95 `   | 2022 Update #2  |
+| Yealink MeetingBar A30 | `133.15.0.95 `   | 2022 Update #2  |
+| Yealink CTP18 | `137.15.0.53`     | 2022 Update #2    |
+| Yealink VC210 + VC210 | `118.15.0.69`     | 2022 Update #2    |
+| Logi Tap Device  |  `1.5.705`   | 2022 Update #1    |
+| Poly Studio X30 | `3.11.0.364021`          | 2022 Update #1    |
+| Poly Studio X50 | `3.11.0.364021`          | 2022 Update #1    |
 | Logi Roommate |   `1.6.290`   | 2022 Update #1    |
 | Logi Rallybar Mini   |   `1.6.272`   | 2022 Update #1  |
 | Logi Rallybar    |   `1.6.272`   | 2022 Update #1   |
