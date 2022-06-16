@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: 
-description: Learn how to purchase third-party apps for Teams with a credit card, a debit card, or invoice billing.
+description: Learn how to purchase licenses for services offered by third-party apps for users in your organization using a credit card, a debit card, or invoice billing.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
