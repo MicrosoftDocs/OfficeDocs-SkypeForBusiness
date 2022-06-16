@@ -27,7 +27,7 @@ description: Learn to manage meeting policy settings in Teams for participants a
 
 <a name="bkmeetingparticipants"> </a>
 
-These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
+These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
 
 - [Let anonymous people join a meeting](#let-anonymous-people-join-a-meeting)
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
@@ -52,7 +52,7 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 ## Automatically admit people
 
-This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
+This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.
 
 ![Screenshot showing a meeting with a user in the lobby.](media/meeting-policies-lobby.png)
 
@@ -95,9 +95,9 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 ## Chat in meetings
 
-This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting. 
+This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
-This setting does not apply to channel meetings. Once this meeting chat policy is applied to users, an organizer cannot override this policy through meeting options. 
+This setting doesn't apply to channel meetings. Once this meeting chat policy is applied to users, an organizer can't override this policy through meeting options.
 
 |Setting value |Behavior  |
 |---------|---------|
