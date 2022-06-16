@@ -2706,11 +2706,6 @@
       "redirect_document_id": false
      },
      {
-      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-cq.yml",
-      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
-      "redirect_document_id": false
-     },
-     {
       "source_path": "Teams/business-voice/set-up-auto-attendant.md",
       "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
       "redirect_document_id": false
