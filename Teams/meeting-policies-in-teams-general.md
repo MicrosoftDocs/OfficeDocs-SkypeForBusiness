@@ -177,9 +177,9 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
 ## Meeting reactions
 
-The AllowMeetingReactions setting can only be applied using PowerShell. There is no option to toggle AllowMeetingReactions on or off from the Teams admin center.
+The AllowMeetingReactions setting can be applied using PowerShell or under the Meeting policies in the Teams admin center.
 
-Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
+Meeting reactions are On by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Speaker Coach
 
