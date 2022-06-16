@@ -2457,22 +2457,22 @@
     },
     {
       "source_path": "Teams/business-voice/set-up-auto-attendants.md",
-      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb",
       "redirect_document_id": true
     },
     {
       "source_path": "Teams/business-voice/set-up-call-queues.md",
-      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-call-queue-smb",
       "redirect_document_id": true
     },
     {
       "source_path": "Teams/tutorial-org-aa.yml",
-      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-cq.yml",
-      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-call-queue-smb",
       "redirect_document_id": false
     },
     {
@@ -2679,31 +2679,46 @@
       "source_path": "Teams/rooms/domain-joining-considerations.md",
       "redirect_url": "/microsoftteams/rooms",
       "redirect_document_id": false
-    },
-    {
+     },
+     {
       "source_path": "Teams/enable-features-office-365.md",
       "redirect_url": "/microsoftteams/manage-teams-overview",
       "redirect_document_id": false
-    },
-    {
+     },
+     {
       "source_path": "Teams/teams-activity-reports.md",
       "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
       "redirect_document_id": false
-    },
+     },
      {
        "source_path": "Teams/meeting-recording-expiration-feature.md",
        "redirect_url": "/microsoftteams/meeting-expiration",
        "redirect_document_id": false
      },
      {
+      "source_path": "Teams/business-voice/set-up-call-queues.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/tutorial-org-aa.yml",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-cq.yml",
+      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+      "redirect_document_id": false
+     },
+     {
       "source_path": "Teams/business-voice/set-up-auto-attendant.md",
       "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
       "redirect_document_id": false
-    },
-    {
+     },
+     {
       "source_path": "Teams/business-voice/create-a-phone-system-call-queue-smb.md",
       "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
       "redirect_document_id": false
-    }
+     }
   ] 
 }
