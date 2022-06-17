@@ -1,7 +1,7 @@
 ---
 title: Overview of app validation and app testing by Microsoft
 ms.reviewer: 
-description: Learn about Teams app validation guidelines and certification policies. Understand how Microsoft ensures Teams apps are usable and adhere to high standards of privacy and security.
+description: Learn about Teams app validation guidelines based on marketplace certification policies. Understand how Microsoft ensures that Teams apps adhere to high standards of privacy and security.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
