@@ -38,7 +38,6 @@ And having a proxy can cause issues. Performance-related problems can be introdu
 
 Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
   
-  
 ## Related topics
 
 [Microsoft 365 and Office 365 Network Connectivity Principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
