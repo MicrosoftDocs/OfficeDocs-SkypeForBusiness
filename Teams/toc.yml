@@ -821,11 +821,13 @@ items:
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: Auto attendants and call queues
           items: 
-            - name: Planning
+            - name: Plan auto attendants and call queues
               href: plan-auto-attendant-call-queue.md
-            - name: Auto attendant setup
+            - name: Plan call routing flow
+              href: plan-your-call-routing-flow.md
+            - name: Set up auto attendants
               href: create-a-phone-system-auto-attendant.md
-            - name: Call queue setup
+            - name: Set up call queues
               href: create-a-phone-system-call-queue.md
             - name: Manage Teams resource accounts
               href: manage-resource-accounts.md
@@ -835,6 +837,8 @@ items:
               href: answer-auto-attendant-and-call-queue-calls.md
             - name: Reports
               href: aa-cq-cqd-historical-reports.md
+            - name: PowerShell cmdlet reference for auto attendants and call queues
+              href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
         - name: Block inbound calls
@@ -1081,7 +1085,7 @@ items:
           - name: "Step 5: Assign phone numbers to users"
             href: business-voice/set-up-assign-numbers.md
           - name: "Step 6: Set up an auto attendant"
-            href: business-voice/set-up-auto-attendant.md
+            href: create-a-phone-system-auto-attendant.md
           - name: "Step 7: Port phone numbers (optional)"
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
@@ -1097,13 +1101,9 @@ items:
           - name: Create more users
             href: business-voice/create-users.md
           - name: Set up a call queue
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: Set up an auto attendant
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+            href: create-a-phone-system-call-queue.md
       - name: Manage your Phone System setup
         items: 
-          - name: Create one or more users
-            href: business-voice/create-users.md
           - name: Manage devices
             href: business-voice/manage-devices.md
           - name: Monitor call quality
@@ -1832,7 +1832,7 @@ items:
           href: teams-add-on-licensing/advanced-communications.md
         - name: Messaging policies licensing
           href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft 365 Phone System – Virtual User license
+        - name: Microsoft Teams Phone Standard – Virtual User license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
