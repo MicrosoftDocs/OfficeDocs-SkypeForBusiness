@@ -1,7 +1,7 @@
 ---
 title: Overview of app certification by Microsoft
 ms.reviewer: 
-description: Learn how to implement strong security and compliance practices to protect customer data. Understand the compliance program for security, compliance, and privacy of third-party apps.
+description: Learn about the Microsoft 365 app compliance program for security, compliance, and privacy of third-party apps.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
