@@ -37,7 +37,7 @@ When a meeting is recorded, it's automatically:
 Related: [Teams meeting recording end user documentation](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
-> The change from using Microsoft Stream (classic) to OneDrive for Business and SharePoint Online for meeting recordings will automatically happen in August 2021. For detailed information, see [Use OneDrive for Business and SharePoint Online or Stream for meeting recordings](tmr-meeting-recording-change.md).
+> The change from using Microsoft Stream (classic) to OneDrive for Business and SharePoint Online for meeting recordings would have happened automatically in August 2021. For detailed information, see [Use OneDrive for Business and SharePoint Online or Stream for meeting recordings](tmr-meeting-recording-change.md).
 
 > [!NOTE]
 > For information about using roles in Teams meetings, and how to change users' roles, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019). For live events recording options, see [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
