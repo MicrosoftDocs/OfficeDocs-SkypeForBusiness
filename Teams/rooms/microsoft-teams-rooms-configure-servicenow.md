@@ -72,7 +72,7 @@ Once your test passes successfully, select **Submit** to save your changes. Once
 
 - **description**: The description field in ServiceNow is the first value in the conversation history of a ServiceNow incident. Description is equivalent to First message in the Teams Rooms Premium portal.
 
-- **assignment_group**: The assignment group field in ServiceNow is used to organize incidents. Assignment group are equivalent to Room groups in the Teams Rooms Premium portal. By default, there is one room group, and more can be added. You decide how many groups there are and how to group your incidents. For example, you might choose to organize your incidents by location.
+- **assignment_group**: The assignment group field in ServiceNow is used to organize incidents. Assignment groups are equivalent to Room groups in the Teams Rooms Premium portal. By default, there is one room group, and more can be added. You decide how many groups there are and how to group your incidents. For example, you might choose to organize your incidents by location.
 
 - **severity**: The severity field in ServiceNow is used to organize incidents by priority. The values that designate priority are customizable. Severity is equivalent to the Ring field in the Teams Rooms Premium portal. To customize rings in the Teams Rooms Premium portal, go to **Updates** in the left navigation menu. Then go to the **Rings** tab and select **Add ring**.
 
