@@ -171,6 +171,8 @@ Grant-CsTeamsMediaLoggingPolicy -PolicyName $null -Global
 > [!NOTE]
 > When you remove force enabling, Media logging goes back to its default setting.
 
+Read [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)for more information on policy management.
+
 ### End user configuration
 
 For end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue.
