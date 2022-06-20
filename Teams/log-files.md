@@ -117,10 +117,66 @@ Media logging is turned on by default for computers if your CPU is:
 - any Intel i9, except for the U, G7, M, and MQ series
 - any 6th generation and later Intel i7, except for the U, G7, M, and MQ series
 
-Otherwise, it is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. 
+Otherwise, it is turned off by default. There are two ways to log diagnostic data for Teams meetings:
+
+### Admin configuration
+
+Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to manage enabling Media logging for users.
+
+Assign this policy by running the below cmdlets in PowerShell.
+
+To return information about the Teams Media logging policy:
+
+```PowerShell
+Get-CsTeamsMediaLoggingPolicy 
+```
 
 > [!NOTE]
-> When you sign out of Teams, Media logging resets to its default. 
+> Admins can add and remove users from an existing policy instance but can’t create new policy instances.
+
+To assign a Teams Media logging policy to a user or tenant:
+
+```PowerShell
+Grant-CsTeamsMediaLoggingPolicy 
+```
+
+To force enable Media logging:
+
+- For a single user:
+
+```PowerShell
+Grant-CsTeamsMediaLoggingPolicy -PolicyName Enabled -Identity <sip|email>
+```
+
+- For the entire tenant:
+
+```PowerShell
+Grant-CsTeamsMediaLoggingPolicy -PolicyName Enabled -Global
+```
+
+To remove force enabling:
+
+- For a single user:
+
+```PowerShell
+Grant-CsTeamsMediaLoggingPolicy -PolicyName $null -Identity <sip|email>
+```
+
+- For the entire tenant:
+
+```PowerShell
+Grant-CsTeamsMediaLoggingPolicy -PolicyName $null -Global
+```
+
+> [!NOTE]
+> When you remove force enabling, Media logging goes back to its default setting.
+
+### End user configuration
+
+For end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue.
+
+> [!NOTE]
+> When users sign out of Teams, Media logging resets to its default.
 
 When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
