@@ -171,7 +171,7 @@ Grant-CsTeamsMediaLoggingPolicy -PolicyName $null -Global
 > [!NOTE]
 > When you remove force enabling, Media logging goes back to its default setting.
 
-Read [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)for more information on policy management.
+Read [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy) for more information on policy management.
 
 ### End user configuration
 
