@@ -119,6 +119,9 @@ Media logging is turned on by default for computers if your CPU is:
 
 Otherwise, it is turned off by default. There are two ways to log diagnostic data for Teams meetings:
 
+- Admin configuration- you can manage Media logs for your end users
+- End user configuration- your end users can turn on media logs
+
 ### Admin configuration
 
 Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to manage enabling Media logging for users.
