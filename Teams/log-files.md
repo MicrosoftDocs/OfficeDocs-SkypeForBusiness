@@ -140,37 +140,6 @@ To assign a Teams Media logging policy to a user or tenant:
 Grant-CsTeamsMediaLoggingPolicy 
 ```
 
-To force enable Media logging:
-
-- For a single user:
-
-```PowerShell
-Grant-CsTeamsMediaLoggingPolicy -PolicyName Enabled -Identity <sip|email>
-```
-
-- For the entire tenant:
-
-```PowerShell
-Grant-CsTeamsMediaLoggingPolicy -PolicyName Enabled -Global
-```
-
-To remove force enabling:
-
-- For a single user:
-
-```PowerShell
-Grant-CsTeamsMediaLoggingPolicy -PolicyName $null -Identity <sip|email>
-```
-
-- For the entire tenant:
-
-```PowerShell
-Grant-CsTeamsMediaLoggingPolicy -PolicyName $null -Global
-```
-
-> [!NOTE]
-> When you remove force enabling, Media logging resets to its default setting.
-
 Read [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy) for more information on policy management.
 
 ### End user configuration
