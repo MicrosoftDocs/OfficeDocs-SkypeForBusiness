@@ -35,7 +35,7 @@ This article describes these logs and how they are used. For information about t
 
 ## Collect and enable logging
 
-It’s important to collect logs as soon as an issue occurs. The logs can be collected together with just a couple of clicks.
+It’s important to collect logs as soon as an issue occurs. The logs can be collected with just a couple of clicks.
 
 - Windows:
   Right-click on the Teams icon in the system tray and choose **Collect support files**. 
@@ -51,16 +51,13 @@ Debug, Desktop, and Media logs will be collected in one folder with the name _MS
 - Mac:
   <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
-
-Media logging is turned on by default only for some CPUs, described in [Media logs](#media-logs). Otherwise, it is off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin (restart it by right-clicking the icon in your dock (Mac) or taskbar (Windows) and selecting **Quit**. After you quit, just click the app icon to open it again).
-
-If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. This provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
+If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. The URL provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
 
 > [!NOTE]
 > If Media logging is enabled, there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging is not enabled, there will be a limited number of logs available.
   
 > [!NOTE]
-> The debug logs were previously collecting using the keyboard shortcuts below. These still function and will complete the same log capture as the **Collect support files** option.
+> The debug logs were previously collected using the keyboard shortcuts below. These still function and will complete the same log capture as the **Collect support files** option.
 >
 > - Windows:
 >   <kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
@@ -124,7 +121,7 @@ Otherwise, it is turned off by default. There are two ways to log diagnostic dat
 
 ### Admin configuration
 
-Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to manage enabling Media logging for users.
+Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to  enable and manage Media logging for users.
 
 Assign this policy by running the below cmdlets in PowerShell.
 
@@ -178,12 +175,12 @@ Read [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradep
 
 ### End user configuration
 
-For your end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue.
+For your end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. The Teams client must be restarted for logging to begin. Users can restart it by right clicking the icon in their dock (Mac) or taskbar (Windows) and selecting Quit. After they quit, they can click the app icon to open Teams again.
 
 > [!NOTE]
 > When your users sign out of Teams, Media logging resets to its default.
 
-When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
+Before you send the log files to Microsoft support, verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
 To collect logs for Linux:  
 - The files will be available in the following locations:
