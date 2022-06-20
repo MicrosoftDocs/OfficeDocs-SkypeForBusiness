@@ -213,6 +213,8 @@ To configure Career Coach settings and enable it for users, you must be a global
 3. Search or browse for **Career Coach**.
 4. Select **Career Coach**, and then **Settings**.
 
+![shows the Career Coach app selected with the Settings tab selected.](media/career-coach-app-updated.png)
+
 ### Career Coach configuration categories
 
 To effectively enable Career Coach for students, faculty, and staff, the following settings are required:
@@ -262,7 +264,7 @@ Customize Career Coach to match your educational institution’s brand. You're r
 
 8. To confirm settings were submitted successfully, check [Career Coach configuration status](#configuration-status) for **Complete**.
 
-![the Career Coach branding section of the admin center.](media/career-coach-brand.png)
+![the Career Coach branding section of the admin center.](media/career-coach-brand-updated.png)
 
 ### LinkedIn connection
 
@@ -285,11 +287,11 @@ The process of adding the LinkedIn School Page URL is handled by a Teams Adminis
 
 4. Find your institution's LinkedIn School Page by searching on LinkedIn and selecting the **School** filter. Or connect with a marketing staff member at your institution to determine the correct LinkedIn School Page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
-    ![linkedin search for school.](media/career-coach-school-search.png)
+    ![linkedin search for school.](media/career-coach-school-search-updated.png)
 
 5. Add the **LinkedIn School Page URL**. The URL must be a *school page*, not a *company page*, and is typically formatted as `https://www.linkedin.com/school/willow-university/`.
 
-   ![linkedin School Page example.](media/career-coach-linkedin-page-url.png)
+   ![linkedin School Page example.](media/career-coach-linkedin-page-url-updated.png)
 
 6. Select **Submit**.
 
@@ -309,7 +311,7 @@ You can check your LinkedIn account’s admin roles by signing into LinkedIn and
 
 1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
-   ![linkedin connections for the career coach app.](media/career-coach-linked-in.png)  
+   ![linkedin connections for the career coach app.](media/career-coach-linkedin-updated.png)  
 
 2. Copy the verification link and share it with your LinkedIn School Page Super admin.
 
@@ -317,7 +319,7 @@ You can check your LinkedIn account’s admin roles by signing into LinkedIn and
 
 4. Once verification is complete, the Teams administrator can view whether the settings were submitted successfully by checking if the [Career Coach configuration status](#configuration-status) is marked **Complete**.
 
-   ![linkedin page verification in the linkedin developer portal.](media/career-coach-linkedin-verification.png)
+   ![linkedin page verification in the linkedin developer portal.](media/career-coach-linkedin-verification-updated.png)
 
 ### Course catalog
 
@@ -360,7 +362,7 @@ To create the course catalog, put together a list of all courses taught at your 
 > [!TIP]
 > To upload a new file, ensure the last file is cleared by selecting (X) to close the document preview. This action will allow the **Upload** button to display again.
 
-![the course catalog section of the career coach app.](media/course-catalog.png)
+![the course catalog section of the career coach app.](media/course-catalog-updated.png)
 
 #### Course catalog document format and schema
 
@@ -392,7 +394,7 @@ The course catalog status is shown on the Course catalog settings page once a do
 
 During processing, Career Coach will analyze your document for duplicates, normalize and enrich your catalog by extracting skills from titles and descriptions, and store it for use on the Learn page and during student transcript uploads for skill identification.
 
-![the course catalog upload status of the career coach app.](media/career-coach-course-catalog-status.png)
+![the course catalog upload status of the career coach app.](media/career-coach-course-catalog-status-updated.png)
 
 | Column           | Value     | Description                                                                                        |
 | ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
@@ -469,7 +471,7 @@ The status message can help you determine whether Career Coach is properly confi
 
 The configuration status section of the app settings page will display the real-time status using the following legend.
 
-![the configuration status section of the career coach app.](media/career-coach-config-status.png)
+![the configuration status section of the career coach app.](media/career-coach-config-status-updated.png)
 
 | Category                    | Status                                        | Description                                                 |
 | --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
