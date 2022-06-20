@@ -175,10 +175,10 @@ Read [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradep
 
 ### End user configuration
 
-For end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue.
+For your end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue.
 
 > [!NOTE]
-> When users sign out of Teams, Media logging resets to its default.
+> When your users sign out of Teams, Media logging resets to its default.
 
 When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
