@@ -182,6 +182,8 @@ For your end users to log diagnostic data for Teams meetings, they must turn on 
 
 Before you send the log files to Microsoft support, verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
+### Sending logs
+
 To collect logs for Linux:  
 - The files will be available in the following locations:
   - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
