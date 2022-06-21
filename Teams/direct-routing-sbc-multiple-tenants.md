@@ -217,7 +217,7 @@ Two new entities were introduced:
    New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
     ```
 
-- A derived trunk that doesn't require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The derived trunk doesn't need to be created in PowerShell, and the association with the carrier trunk is based on the FQDN name (see details below).
+- A derived trunk that doesn't require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The association with the carrier trunk is based on the FQDN name (see details below).
 
 **Provisioning logic and example**
 
@@ -230,7 +230,7 @@ Two new entities were introduced:
 Examples:
 - Customers.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
 
-- Sbc1.customers.adatum.biz – the derived trunk in a customer tenant that doesn't need to be created in PowerShell. You can add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it (use derived trunk FQDN when setting up voice routing policy in TAC under Teams-Voice-Direct Routing-Voice Routes field SBCs enrolled).
+- Sbc1.customers.adatum.biz – the derived trunk in a customer tenant. You can add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it.
 
 - Carrier will need to set up DNS record resolving derived trunk FQDN to carrier SBC IP address.
 
