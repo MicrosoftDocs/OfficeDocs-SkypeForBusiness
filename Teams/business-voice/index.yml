@@ -29,7 +29,7 @@ productDirectory:
     - title: Set up
       imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
       links:
-        - url: ./whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses
+        - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
           text: How to get Teams Phone System with Calling Plan
         - url: get-ready-internet.md
           text: Check your Internet connection
@@ -43,7 +43,7 @@ productDirectory:
       links:
         - url: port-phone-numbers.md
           text: Port existing phone numbers
-        - url: ./create-a-phone-system-auto-attendant-smb.md
+        - url: ./set-up-auto-attendant.md
           text: Set up auto attendants
         - url: set-up-policies.md
           text: Set up policies

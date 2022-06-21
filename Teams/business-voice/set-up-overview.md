@@ -38,7 +38,7 @@ If you want to learn more about the Phone System with Calling Plan bundle for sm
 
 Before you set up the Phone System with Calling Plan bundle, there are a few things you need to do. The following tasks will make sure your organization is ready.
 
-* **Buy Teams Phone with Calling Plan bundle licenses** and, if you want to get a toll-free number, make long-distance phone calls, or purchase Communication Credits, see [Purchase Teams Phone with Calling Plan bundle licenses](whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses).
+* **Buy Teams Phone with Calling Plan bundle licenses** and, if you want to get a toll-free number, make long-distance phone calls, or purchase Communication Credits, see [Purchase Teams Phone with Calling Plan bundle licenses](whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses).
 * **Make sure your internet connection can support Phone System**. For more information, see [Check your internet connection for Teams Phone System](get-ready-internet.md).
 
 After you've prepared your organization for the Phone System with Calling Plan bundle, select **Next step: Start setting up Teams Phone System with Calling Plan**.
