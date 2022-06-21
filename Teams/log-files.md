@@ -125,14 +125,12 @@ Managing Media logs for your end users provides a seamless troubleshooting exper
 
 Example PowerShell cmdlets:
 
-To return information about the Teams Media logging policy:
+To force enable Media logging for a single user:
 
 ```PowerShell
-Get-CsTeamsMediaLoggingPolicy 
+Grant-CsTeamsMediaLoggingPolicy -PolicyName Enabled -Identity <sip|email>
 ```
 
-> [!NOTE]
-> Admins can add and remove users from an existing policy instance but can’t create new policy instances.
 
 To assign a Teams Media logging policy to a user or tenant:
 
