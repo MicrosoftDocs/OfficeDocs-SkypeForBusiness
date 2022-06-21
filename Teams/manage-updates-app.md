@@ -126,9 +126,11 @@ Updates created from the Updates app are stored in the default Microsoft Dataver
 
 Data stored in Forms will not be deleted until the template creators clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
-## Conditional Access policies
+## Conditional access and permission policies
 
-Currently, the Updates app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
+The Updates app in Teams doesn't currently support Conditional Access policies that are set for Microsoft Teams.
+
+You can use [Teams app permission policies](teams-app-permission-policies.md) to manage Updates.
 
 ## Data limitations
 
