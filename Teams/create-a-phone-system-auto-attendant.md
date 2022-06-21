@@ -74,7 +74,6 @@ To set up an auto attendant, in the [Teams admin center](https://go.microsoft.co
 
 Once you've set your auto attendant's general info, select **Next**.
 
-Next: [Step 2 - Basic call flow](create-a-phone-system-auto-attendant&tabs=call-flow#set-a-greeting)
 
 # [Step 2 - Basic call flow](#tab/call-flow)
 
