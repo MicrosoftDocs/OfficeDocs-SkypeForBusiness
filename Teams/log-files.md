@@ -103,6 +103,10 @@ To collect logs for Browser and Windows:
 - Keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - The files will be available in `%userprofile%\Downloads`
 
+To collect logs for Mac:
+- Keyboard shortcut: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- The files will be available in `~/Downloads`
+
 ## Media logs
 
 See the _Collect and enable logging_ section for Windows and Mac instructions. Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
@@ -154,7 +158,11 @@ See the _Collect and enable logging_ section for Windows and Mac instructions. D
 To collect logs for Linux:
 - Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
 - The files will be available in `~/.config/Microsoft/Microsoft Teams/logs.txt`.
-  
+
+To collect logs for Mac:
+- Click the Help menu in Microsoft Teams, and select **Collect support files**.
+- The `logs.txt` file will be in the Desktop folder inside the _MSTeams Diagnostics Log \<local date and time>_ folder.
+
 To collect logs for Windows:
 - Click the Microsoft Teams icon in your system tray, and select **Collect support files**.
 - The `logs.txt` file will be opened in Notepad automatically.
