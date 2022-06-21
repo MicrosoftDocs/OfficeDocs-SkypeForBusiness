@@ -467,7 +467,7 @@ items:
               
     - name: Log files, service health, and support
       items:
-        - name: Use log files to monitor and troubleshoot Teams
+        - name: Configure log files for monitoring and troubleshooting in Teams
           href: log-files.md
         - name: Browser logs and tracing for Teams
           href: browser-logs-and-tracing-for-teams.md
