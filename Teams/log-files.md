@@ -140,7 +140,7 @@ For your end users to log diagnostic data for Teams meetings, they must turn on 
 > [!NOTE]
 > When your users sign out of Teams, Media logging resets to its default.
 
-### Collecting and sending logs
+### Collecting and sending Media logs
 
 Before you send the log files to Microsoft support, verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
