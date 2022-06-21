@@ -1,8 +1,8 @@
 ---
 title: Pdf experience in Teams
-author: v-sdhakshina
-ms.author: Sarath
-manager: 
+author: ashishgupta
+ms.author: ashishgupta
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
