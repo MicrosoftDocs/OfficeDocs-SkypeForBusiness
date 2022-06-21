@@ -1,5 +1,5 @@
 ---
-title: Use log files in troubleshooting Microsoft Teams
+title: Configure log files for monitoring and troubleshooting in Teams
 ms.reviewer: tejeshs
 author: CarolynRowe
 ms.author: crowe
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use log files to monitor and troubleshoot Microsoft Teams
+# Configure log files for monitoring and troubleshooting in Teams
 
 There are three types of log files automatically produced by the client, which can be leveraged to assist in monitoring and troubleshooting Teams:
 
