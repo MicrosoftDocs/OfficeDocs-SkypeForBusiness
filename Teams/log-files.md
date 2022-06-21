@@ -193,4 +193,4 @@ When investigating problems signing into Teams, you might need to manually colle
 
 [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
 
-[Browser logs and tracing for Teams](/MicrosoftTeams/troubleshoot/teams)
+[Browser logs and tracing for Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams)
