@@ -176,7 +176,7 @@ Channels are dedicated sections within a team to keep conversations organized by
 
 ## Create Teams policies
 
-As an admin, you can use teams policies in Microsoft Teams to control what users in your organization see and can. For example, you can control which applications are pinned to the left rail on your desktop or web browser, or the bottom bar on mobile devices, in order to simplify the end user experience when onboarding a large amount of users. Some of these policies can be created with PowerShell, and others have to be manually created in the Teams admin center.
+As an admin, you can use teams policies in Microsoft Teams to control what users in your organization see and can. For example, you can control which applications are pinned to the left rail on your desktop or web browser, or the bottom bar on mobile devices, in order to simplify the end user experience when onboarding a large number of users. Some of these policies can be created with PowerShell, and others have to be manually created in the Teams admin center.
 
 *Best practice discussion*: For each of the following policies, we're choosing to actually create two policies: one for frontline workers and one for frontline managers. You can choose to create as many or as few as you like. For most customers, two is a good place to start, even if you give the same settings to each group initially. As your experience with Teams grows, you may choose to differentiate their experience further and having the two separate policies already created can make that simpler.
 
@@ -312,7 +312,7 @@ In order to manage these users at scale more effectively, you need to create two
 
 1. Find the **Users.csv** file in the scripts folder in the repository.
 1. Update the **Users.csv** file with your organization's specific information.
-    1. By default, the script we've provided will create a user with a temporary password that must be changed at first sign in. If you don't want to use the default password, edit the **CreateUsers.ps1** script to meet your requirements.
+    1. By default, the script we've provided will create a user with a temporary password that must be changed at first sign-in. If you don't want to use the default password, edit the **CreateUsers.ps1** script to meet your requirements.
     1. Make sure to update the SecurityGroup field to reflect the appropriate name created earlier.
 1. Find the **SecurityGroups.csv** file in the scripts folder in the repository.
 1. Update the **SecurityGroups.csv** file with your organization's specific security group information.
@@ -365,7 +365,7 @@ Using Dynamic membership, rules are written to determine if someone is a member 
 
 Now that you've completed all the steps, it's time to verify the work you've completed.
 
-1. The created user will have an initial password that is in the CreateUsers.ps1 and they are required to change it at their first sign in.
+1. The created user will have an initial password that is in the CreateUsers.ps1 and they are required to change it at their first sign-in.
 1. Verify the look and feel of Teams is what you expected. If not, review the **Create Teams policies** and the **Assign Teams policies to Users** sections.
 1. Verify the user is in the correct team. If not, review the **Create and set up users** and **Assign users to teams** sections.
 
