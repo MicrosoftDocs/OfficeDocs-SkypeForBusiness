@@ -174,10 +174,6 @@ Career Coach is a Microsoft application, and so it must be allowed within Teams 
 3. Select your preferred policy.
     1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
-4. Select **Career Coach**, and then select **Settings**.
-
-![shows the Career Coach app selected with the Settings option showing.](media/career-coach-app.png)
-
 Learn more about [configuring permission policies](teams-app-permission-policies.md).
 
 ### Add Career Coach as an installed app
