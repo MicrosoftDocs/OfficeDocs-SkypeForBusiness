@@ -123,7 +123,7 @@ Otherwise, it is turned off by default. There are two ways to log diagnostic dat
 
 Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to  enable and manage Media logging for users.
 
-Assign this policy by running the below cmdlets in PowerShell.
+Example PowerShell cmdlets:
 
 To return information about the Teams Media logging policy:
 
