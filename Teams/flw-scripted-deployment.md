@@ -19,6 +19,7 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 # How to provision Teams at scale for Frontline Workers
 

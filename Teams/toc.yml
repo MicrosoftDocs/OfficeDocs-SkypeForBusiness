@@ -1696,8 +1696,8 @@ items:
           href: flw-quickstart.yml
         - name: Frontline Worker onboarding wizard
           href: flw-onboarding-wizard.md  
-        - name: Frontline Workers scripted deployment
-          href: flw-scripted-deployment.md
+        - name: Deploy teams at scale for frontline workers
+          href: deploy-teams-at-scale.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
         - name: Manage the Shifts app
