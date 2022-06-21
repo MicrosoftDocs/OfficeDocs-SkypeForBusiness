@@ -255,12 +255,6 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 We recommend turning on **Presence-based routing**.
 
-### Call agents can opt out of taking calls
-
-You can specify whether call agents have the ability to opt out of taking calls or not.
-
-We recommend turning on **Call agents can opt out of taking calls**.
-
 > [!NOTE]
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
 >
@@ -269,6 +263,12 @@ We recommend turning on **Call agents can opt out of taking calls**.
 > When using **Presence-based routing**, there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
 >
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
+
+### Call agents can opt out of taking calls
+
+You can specify whether call agents have the ability to opt out of taking calls or not.
+
+We recommend turning on **Call agents can opt out of taking calls**.
 
 ### Agent alert time
 
@@ -292,7 +292,7 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant?tabs=additional-resources#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
@@ -313,7 +313,7 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-For external transfers, refer to [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant?tabs=additional-resources#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
