@@ -131,7 +131,6 @@ To force enable Media logging for a single user:
 Grant-CsTeamsMediaLoggingPolicy -PolicyName Enabled -Identity <sip|email>
 ```
 
-
 To assign a Teams Media logging policy to a user or tenant:
 
 ```PowerShell
