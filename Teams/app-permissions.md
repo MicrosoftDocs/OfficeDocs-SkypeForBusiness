@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Admin can Learn what data and permissions Microsoft Teams apps are requesting from their organization.
+description: Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -69,13 +69,13 @@ None
 
 * POST_MESSAGE_TEAM: Allows an app's bots to send direct (proactive) messages to the team member at any time, even if the user has never interacted with the bot.
 
-* The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
+* The following aren't explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
   * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
-* The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
+* The following aren't explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
@@ -164,7 +164,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which
 
 * Connector messages can't contain file attachments.
 
-* The connector instance URL should be treated as secret/confidential: anyone who has that URL can post to it, like an email address. Therefore, there's some risk of spam or links to phishing or malware sites. If that were to happen, team owners can delete the connector instance.
+* The connector instance URL should be treated as secret/confidential: anyone who has that URL can post to it, like an email address. Therefore, there's some risk of spam or links to phishing or malware sites. If that happens, then team owners can delete the connector instance.
 
 * If the service that sends connector messages were to become compromised and start sending spam/phishing/malware links, a tenant administrator can prevent new connector instances from being created and Microsoft can block them centrally.
 

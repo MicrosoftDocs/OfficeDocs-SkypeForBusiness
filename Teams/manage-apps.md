@@ -13,7 +13,7 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center.
+description: Learn how to manage Teams apps. Learn to allow or block apps, check org-level status and app properties, upload custom apps, and manage app settings.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
