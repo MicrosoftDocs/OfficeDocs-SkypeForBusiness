@@ -54,4 +54,5 @@ WebRTC logs can assist Microsoft Support by providing connection details for aud
 ## Related topics
 
 [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
+
 [Configure log files for monitoring and troubleshooting in Teams](/MicrosoftTeams/log-files)
