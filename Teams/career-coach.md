@@ -160,8 +160,6 @@ There are two ways LinkedIn account connections are used by Career Coach.
 
 For more information, see [LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
 
-![Integrate LinkedIn account connections in the organization](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
-
 > [!NOTE]
 > No data is shared without the user's consent.
 
