@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to customize apps in Microsoft Teams.
+description: Learn how to change the appearance of the app and rebrand an app by editing app details and metadata. 
 ---
 
 # Customize appearance of apps in your organization's Teams store
