@@ -13,7 +13,7 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center.
+description: Learn how to manage Teams apps. Learn to allow or block apps, check org-level status and app properties, upload custom apps, and manage app settings.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
@@ -33,6 +33,8 @@ To manage apps, you use policies to control permissions for users, installation 
 
 > [!NOTE]
 > The Manage apps page isn't available in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
+
+During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only.
 
 ## Publish a custom app to your organization's app store
 
@@ -104,7 +106,7 @@ You can view requests to make a blocked app available for use. The request is se
 
   :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
 
-If an admin dismiss a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
 
 ## Apps blocked by publishers
 
@@ -142,7 +144,7 @@ Resource-specific consent (RSC) permissions let team owners grant consent for an
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience (coming soon), whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
+Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
 > [!NOTE]
 > To learn how to use org-wide app settings in Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
@@ -151,7 +153,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Screenshot of the Org-wide app settings pane on the Manage apps page":::
 
-1. (Coming soon) Under **Tailored apps**, turn off or turn on **Show tailored apps**. When this setting is on, users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience. This experience pins the most relevant apps in Teams for frontline workers. To learn more, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
+1. Under **Tailored apps**, turn off or turn on **Show tailored apps**. When this setting is on, users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience. This experience pins the most relevant apps in Teams for frontline workers. To learn more, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
 
     This feature is available for F licenses. Other license types will be supported in the future.
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:

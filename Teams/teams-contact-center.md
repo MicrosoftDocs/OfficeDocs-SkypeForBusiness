@@ -66,6 +66,8 @@ The following providers offer contact center solutions that are integrated into 
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CentrePal` | https://www.centrepal.com/                                 |
+| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
@@ -82,6 +84,5 @@ The following providers offer contact center solutions that are integrated into 
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
-| `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
 
 This list will be updated as more solution providers join and meet the certification criteria.
