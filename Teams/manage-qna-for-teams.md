@@ -153,9 +153,3 @@ Retention of content follows the retention policies set for Yammer – regardles
 **Q: What is the difference between setting up Q&A through the Teams App store versus using Meeting Options?**
 
 **A:** While there is no difference to the attendee and moderator user experience, going forward Q&A must be set up only using Meeting Options. The Q&A app in the Teams app store will be deprecated by the end of 2022, so it is best to use Meeting Options to set up Q&A in your meetings.
-
-**Q: Why am I seeing two Q&A icons in my Teams meeting?**
-
-**A:** The two Q&A icons appear because Q&A was also automatically enabled via Teams Meeting Options.
-Please remove the Q&A app that was added through the Teams App Store by following the steps below. This will ensure that there’s only one Q&A experience in your meeting – powered my Teams Meeting Options.
-Going forward, please use Meeting Options to add Q&A to your meeting.
