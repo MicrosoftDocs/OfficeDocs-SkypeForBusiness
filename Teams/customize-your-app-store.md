@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to customize your organization's app store in Microsoft Teams.
+description: Learn how to customize your organization's Teams app store by adding logo, custom backgrounds, and custom text colors.
 ---
 
 # Customize your organization's app store in Microsoft Teams
