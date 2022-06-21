@@ -295,7 +295,7 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant?tabs=additional-resources#external-phone-number-transfers---technical-details) for number formatting.
+For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
@@ -316,7 +316,7 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant?tabs=additional-resources#external-phone-number-transfers---technical-details) for number formatting.
+For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
