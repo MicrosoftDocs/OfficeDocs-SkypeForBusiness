@@ -53,11 +53,11 @@ The steps outlined in the article create auto attendants using the Teams admin c
 
 ## Follow these steps to set up your auto attendant
 
-To set up an auto attendant, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Auto attendants**, and then select **Add**.
-
 # [Step 1 - General info](#tab/general-info)
 
 ## Step 1 - Set the auto attendant's general information
+
+To set up an auto attendant, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Auto attendants**, and then select **Add**.
 
 1. Type a name for the auto attendant in the box at the top.
 
