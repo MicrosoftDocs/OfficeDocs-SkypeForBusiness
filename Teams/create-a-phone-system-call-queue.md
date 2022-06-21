@@ -210,6 +210,9 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > Conference mode isn't supported if phone calls are routed to the queue from Skype for Business Server.
 > 
 > Conference mode is required if Teams users need to consult/transfer calls with call queues.
+>
+> Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
+
 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
