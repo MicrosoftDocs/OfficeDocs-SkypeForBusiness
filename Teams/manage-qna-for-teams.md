@@ -2,7 +2,7 @@
 title: "Manage Q&A in Teams Meetings"
 author: wlibebe
 ms.author: wlibebe
-ms.reviewer: justle
+ms.reviewer: sameer.sitaram
 manager: serdars
 ms.topic: article
 ms.service: msteams
