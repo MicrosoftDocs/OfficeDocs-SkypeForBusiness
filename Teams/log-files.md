@@ -35,13 +35,7 @@ This article describes these logs and how they are used. For information about t
 
 ## Collect and enable logging
 
-It’s important to collect logs as soon as an issue occurs. The logs can be collected with just a couple of clicks.
-
-- Windows:
-  Right-click on the Teams icon in the system tray and choose **Collect support files**. 
-
-- Mac:
-  Select the Help menu and choose **Collect support files**.
+It’s important to collect logs as soon as an issue occurs.
 
 Debug, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local date and time\>_. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
 
@@ -82,7 +76,7 @@ For a complete list of supported operating systems and browsers, see [Get client
 
 ## Debug logs
 
-See the _Collect and enable logging_ section for Windows and Mac instructions. Debug logs are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text-based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
+Debug logs are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text-based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
 
 Debug logs show the following data flows:
 
@@ -106,7 +100,7 @@ To collect logs for Mac:
 
 ## Media logs
 
-See the _Collect and enable logging_ section for Windows and Mac instructions. Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
+Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
 
 Media logging is turned on by default for computers if your CPU is:
 - any Apple M1
@@ -179,7 +173,7 @@ Here's a list of the log files that are generated and the information they conta
 
 ## Desktop logs
 
-See the _Collect and enable logging_ section for Windows and Mac instructions. Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top-down format.
+Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top-down format.
 
 To collect logs for Linux:
 - Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
@@ -195,40 +189,8 @@ To collect logs for Windows:
 
 When investigating problems signing into Teams, you might need to manually collect the desktop logs. These log files are located at %appdata%\Microsoft\Teams in Windows.
 
-## Browser trace
-
-For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs.
-
-Before you start the browser trace, make sure that you’re signed in to Teams. It's important to do this before you start the trace so that the trace doesn't contain sensitive sign-in information.
-
-After you’re signed in, select one of the following links, as appropriate for your browser, and follow the provided steps. 
-
--   [Chrome & Edge (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
-
--   [Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
-
--   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
-
--   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
-
-> [!NOTE]
-> In the steps, replace all references to the Azure portal with the Teams client.
-  
-## WebRTC logs in browsers
-WebRTC logs can assist Microsoft Support by providing connection details for audio and video calls. Follow the steps to access the WebRTC logs in Edge (Chromium) or Chrome: 
-  
-1.  Open a new tab and go to one of the following URLs:
-    -   Edge (Chromium): `edge://webrtc-internals/`
-    -   Chrome: `chrome://webrtc-internals/`
-  
-2.  Open the Teams Web application and reproduce the problem.
-  
-3.  Go back to the tab that was accessed in step 1 and you will see at least two tabs:
-    -   GetUserMedia Requests
-    -   `https://teams.microsoft.com/url`
-
-4.  Choose the tab with the name of the Teams application and save the page content.
-
 ## Related topics
 
 [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
+
+[Browser logs and tracing for Teams](/MicrosoftTeams/troubleshoot/teams)
