@@ -143,7 +143,7 @@ User signals identify when a user is actively participating in the call, is not 
 
 ## Limitations
 
-- Real-time telemetry is only available for scheduled meetings. For ad hoc meetings like Meet Now, PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
+- Real-time telemetry is only available for scheduled meetings and Meet Now. For PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
 - Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
 - Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 - Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.
