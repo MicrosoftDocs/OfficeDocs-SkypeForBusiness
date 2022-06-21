@@ -16,9 +16,9 @@ appliesto:
 ---
 # Browser logs and tracing for Teams
 
-## Browser logs
+For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs. This article describes how to collect browser and WebRTC logs for Teams.
 
-For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs.
+## Browser logs
 
 Before you start the browser trace, make sure that you’re signed in to Teams. It's important to do this before you start the trace so that the trace doesn't contain sensitive sign-in information.
 
