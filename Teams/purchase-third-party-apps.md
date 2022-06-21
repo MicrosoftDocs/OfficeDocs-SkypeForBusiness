@@ -68,6 +68,28 @@ Global admins can add more licenses, remove licenses, and cancel subscriptions f
 > [!NOTE]
 > If a Global admin wants to manage a subscription purchased by another global admin, they need to be in the same billing account. You can give another Global admin access to a subscription you purchased by selecting the app in the Microsoft 365 admin center. From there, go to **View billing profile** > **Select billing account** > **Assign roles** > **Add other Global admins**.
 
+## Manage subscriptions in Teams admin center
+
+> [!NOTE]
+> In Teams admin center, you can only view the list of subscriptions purchased by you or others using the same billing account . If you want to view all the purchased  subscription for a tenant or a different billing account, you must visit the Microsoft admin center.
+
+Admins can now manage their app subscriptions and licenses purchased from Teams​ in Teams admin centre. You can Add or Remove licenses, update billing details or access the invoice in the Teams admin center. To manage subscriptions:
+
+1. Login to Teams admin center using your admin + billing credentials.
+1. Go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
+1. Select the Subscriptions tab.
+
+   :::image type="content" source="../images/manage-app-subscription-tac.png" alt-text="Manage subscriptions in TAC" border="true":::
+
+You can perform the following actions from the subscriptions tab:
+
+- View app subscriptions
+- Assign licenses
+- Buy licenses
+- Remove assigned or unassigned licenses
+- Activate and cancel subscriptions
+- Update payment methods
+
 ### Invoice billing
 
 - Invoice billing is available as a payment option for some transactions.
