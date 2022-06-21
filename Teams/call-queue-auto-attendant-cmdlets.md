@@ -80,7 +80,7 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 ### Phone number assignment
 
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
 
 ### Audio Files
@@ -135,8 +135,8 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 ### Assign phone numbers
 
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 
 ### Audio files
 
