@@ -24,9 +24,9 @@ Frontline workers are employees whose primary function is to work directly with 
 
 In this section:
 
-- [Quick start - Teams for Frontline Workers](/microsoft-365/frontline/flw-quickstart?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
-- [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](/microsoft-365/frontline/flw-onboarding-wizard?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
-- [How to provision Teams at scale for frontline workers](/microsoft-365/frontline/flw-scripted-deployment?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
+- [Quick start - Teams for Frontline Workers](flw-quickstart.yml)
+- [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md)
+- [Deploy teams at scale for frontline workers](deploy-teams-at-scale.md)
 - [Policy packages for frontline workers and managers](manage-policy-packages.md)
 - [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
 - [Sign in to Teams](sign-in-teams.md)
