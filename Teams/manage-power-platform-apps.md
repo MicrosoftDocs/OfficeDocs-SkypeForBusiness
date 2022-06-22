@@ -55,7 +55,7 @@ Keep in mind that you can control access to all apps created in Power Apps and P
 If a user is allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps from one or both these platforms, the user can still access and use Microsoft Power Platforms apps that they installed before you blocked the app or apps. However, the user can no longer install any apps from those platforms in **Built with Power Platform**.
 
 > [!NOTE]
-> The **Allow interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. eIf this setting is turned off, users in your organization can't install any custom apps, including Microsoft Power Platform apps. To learn more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
+> The **Allow interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. If this setting is turned off, users in your organization can't install any custom apps, including Microsoft Power Platform apps. To learn more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
 ### Allow or block Microsoft Power Platform apps for your organization
 
