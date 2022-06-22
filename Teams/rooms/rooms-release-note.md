@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -34,7 +34,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|4.12.123.0 |4/27/2022 |
+|4.12.138.0 |5/26/2022 |
+|4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
 |Teams Web-Client release | December 2021 |
@@ -86,7 +87,14 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
-### 4.12.123.0 (4/27/2022)
+### 4.12.138.0 (5/26/2022)
+
+Introduced in this update:
+- Bug fix for multiple simultaneous video streams from Jabra Panacast 50 (meeting video, content camera video)
+- Cross-cloud meetings can now use default conferencing audio device
+- Quality and reliability fixes
+
+### 4.12.126.0 (4/27/2022)
 
 Introduced in this update:
 - IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
@@ -226,11 +234,11 @@ Introduced in this update:
 
 - Share HDMI audio to meeting participants in Teams meeting
 - Cortana voice skills (Preview)
-- Prevent unmuting based on audio permissions when Teams Room joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Prevent unmuting based on audio permissions when Teams Rooms joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
 
 > [!NOTE]
-> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)
+> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)
 
 ### 4.6.23.0 (10/19/2020)
 

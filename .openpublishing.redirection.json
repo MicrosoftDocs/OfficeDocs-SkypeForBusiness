@@ -2640,7 +2640,7 @@
       "redirect_url": "/graph/api/resources/channel",
       "redirect_document_id": false 
      },
-     {
+      {
       "source_path": "Teams/view-guests.md",
       "redirect_url": "https://support.microsoft.com/office/5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7",
       "redirect_document_id": false 
@@ -2679,11 +2679,36 @@
       "source_path": "Teams/rooms/domain-joining-considerations.md",
       "redirect_url": "/microsoftteams/rooms",
       "redirect_document_id": false
-    },
+     },
+     {
+      "source_path": "Teams/enable-features-office-365.md",
+      "redirect_url": "/microsoftteams/manage-teams-overview",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/teams-activity-reports.md",
+      "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
+      "redirect_document_id": false
+     },
      {
        "source_path": "Teams/meeting-recording-expiration-feature.md",
        "redirect_url": "/microsoftteams/meeting-expiration",
        "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/business-voice/create-a-phone-system-call-queue-smb.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/business-voice/create-a-phone-system-auto-attendant-smb.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/business-voice/set-up-auto-attendant.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_document_id": false
      }
   ] 
 }

@@ -1,7 +1,7 @@
 ---
 title: "Check-in and room release on Microsoft Teams panels"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: gary.lai
 ms.service: msteams
@@ -19,7 +19,7 @@ description: "This article provides guidance on how to enable check-in and room 
 
 # Check-in and room release on Microsoft Teams panels
 
-When check-in and room release are enabled, users check in on Teams panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.  
+When check-in and room release are enabled, users check in on Teams panels at the room they reserved at the start of the meeting. If a user doesn’t check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.  
 
 ## Requirements 
 
@@ -31,13 +31,13 @@ Check-in and room release is off by default. To turn it on,
 
 1. On the Teams panel, sign in using your admin credentials.  
 
-2. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**.
+2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
 3. Turn on Release room if no one checks in.
 
 4. To adjust the amount of time users have to check in before the room is released, go to **Release after:** and select an option from the dropdown.  
 
-When Teams panels are paired with a Teams Room on Android, a user can check-in joining the meeting on the Teams Room.  
+When Teams panels are paired with a Teams Room on Android, a user can check in joining the meeting on the Teams Room.  
 
 ## Turn on check-in notifications
 
@@ -50,7 +50,7 @@ To turn on check-in notifications,
 
 1. On the Teams panel, sign in using your admin credentials. 
 
-2. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**.
+2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
 3. Go to **Check-in** and turn on **Send check-in notification**.
 

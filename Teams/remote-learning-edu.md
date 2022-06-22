@@ -99,15 +99,15 @@ Teams policies control the capabilities available for specific users or groups. 
 
 ## Create class teams for secure classroom use
 
-The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is for classroom use and comes with features that support classrooms, including:  
+Microsoft Teams for Education offers  [specific team types](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)  for educational use. The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is designed for classroom use and comes with specific features that support classroom needs including:
 
 - Assignments.
 - Grades.
-- OneNote classroom notebook .
-- [Secure class materials folders](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988).
-- [Student insights](./class-insights.md).
-- [Set up of classes before adding students](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78).
-- Muting disruptive students.
+- OneNote classroom notebook.
+- [Class Materials folder](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  for securing read-only content for students.
+- [Insights](./class-insights.md) to provide real-time data regarding student's engagement, assignments, and well-being for each classroom.
+- [Early educator access](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) to set up the class before students are added.
+- The ability to mute disruptive students and other special permissions.
 
 Class teams can be created through:
 
@@ -116,7 +116,7 @@ Class teams can be created through:
 - [PowerShell scripts using Graph APIs](#powershell-script-using-graph-apis).
 - [Manual team creation](#manual-team-creation).
 
-We'll step through various options to help you choose the right deployment path that best fits your needs.  
+We'll step through various options to help you choose the right deployment path that best fits your needs.
 
 ### Automatic team creation using SDS
 

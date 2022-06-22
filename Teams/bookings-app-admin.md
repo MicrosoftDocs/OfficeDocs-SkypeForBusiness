@@ -1,8 +1,8 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: guptaashish
-ms.author: guptaashish
-manager: prkosh
+author: mkbond007
+ms.author: mabond
+manager: serdars
 audience: ITPro
 ms.topic: article 
 ms.service: msteams 
@@ -36,7 +36,7 @@ Schedulers can manage multiple department and staff calendars and communications
 
 * The Exchange mailbox is in Exchange Online. On-premises Exchange Server mailboxes aren't supported.
 * Microsoft Bookings is available for the organization.
-* Users have an appropriate license. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3, and Business Standard are supported.
+* Users have an appropriate license. Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3, and Business Standard are supported.
 * All users of the Bookings app and all staff participating in meetings have a license that supports Teams meeting scheduling.
 * [Software and browser prerequisites](hardware-requirements-for-the-teams-app.md).
 

@@ -1,7 +1,7 @@
 ---
 title: "Teams device store"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
 ms.topic: article
@@ -29,7 +29,7 @@ The device store in the Teams admin center lets you browse, purchase, and provis
 
 ## Requirements
 
-To use the device store, you must be a Global admin, Teams admin, or a Teams device admin.
+To use the device store, you must be a Global admin or a Teams admin.
 
 ## Browse the store
 

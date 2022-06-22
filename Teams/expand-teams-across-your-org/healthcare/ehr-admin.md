@@ -37,10 +37,6 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Write metadata back to the EHR system about Teams virtual appointments to record when attendees connect, disconnect, and enable automatic auditing and record keeping.
 - View consumption data reports and customizable Call Quality information for EHR-connected appointments.
 
-Check out this video for an overview of how to manage virtual appointments from the EHR portal.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
-
 This article describes how to set up and configure the Teams EHR connector to integrate with the Epic platform in your healthcare organization. It also gives you an overview of the Teams virtual appointments experience from the Epic EHR system.
 
 ## Before you begin
@@ -61,7 +57,7 @@ Review the following information to get an understanding of the overall integrat
 
 You'll need to request access to the Teams app.
 
-1. Request to download the Teams app in the [Epic App Orchard marketplace](https://apporchard.epic.com/Gallery?id=6153). Doing this triggers a request from Epic to the Microsoft EHR connector team.
+1. Request to download the Teams app in the [Epic App Orchard marketplace](https://apporchard.epic.com/Gallery?id=16793). Doing this triggers a request from Epic to the Microsoft EHR connector team.
 1. After you make your request, send an email to [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) with your organization name, tenant ID, and the email address of your Epic technical contact.
 1. The Microsoft EHR connector team will respond to your email with confirmation of enablement.
 
@@ -192,7 +188,7 @@ When the configuration information is approved by the Epic administrator, you'll
 - SMS configuration record
 - Device test configuration record
 
-The Epic customer analyst must provide these records to Epic to complete the virtual appointments configuration in Epic. For more information, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+The context token for device test can be found in the patient integration record. The Epic customer analyst must provide these records to Epic to complete the virtual appointments configuration in Epic. For more information, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > At any time the Microsoft 365 or Epic customer analyst can sign in to the configuration portal to view integration records and change organization configuration, as needed.
@@ -216,6 +212,8 @@ After completing the EHR connector steps and Epic configuration, your organizati
 
 Healthcare providers from your organization can join appointments using Teams from their Epic provider apps (Hyperspace, Haiku, Canto). The **Begin virtual visit** button is embedded in the provider flow.
 
+  ![Provider experience of a virtual appointment with patient.](media/ehc-provider-experience-6.png)
+
 Key features of the provider experience:
 
 - Providers can join appointments using supported browsers or the Teams app.
@@ -226,18 +224,27 @@ Key features of the provider experience:
 
 - Providers can see real-time updates of participants connecting and disconnecting for a given appointment. Providers can see when the patient is connected to an appointment.
 
-  ![Provider experience of an appointment with a patient.](media/ehc-provider-experience-6.png)
-
 > [!NOTE]
 > Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
 
 ### Patient experience
 
-The connector supports patients joining appointments through MyChart web and mobile. At the time of the appointment, patients can start an appointment from MyChart using the **Begin virtual visit** button.
+The connector supports patients joining appointments through a link in the SMS text message, MyChart web, and mobile. At the time of the appointment, patients can start the appointment from MyChart using the **Begin virtual visit** button or by tapping the link in the SMS text message.
+
+  ![Patient experience of a virtual appointment.](media/ehc-virtual-visit-5.png)
 
 Key features of the patient experience:
 
 - Patients can join appointments from [modern web browsers on desktop and mobile without having to install the Teams app](../browser-join.md).
+- Patients can test their device hardware and connection before joining an appointment.
+
+    :::image type="content" source="media/ehr-admin-epic-device-test.png" alt-text="Images of a mobile device, showing device test capabilities." lightbox="media/ehr-admin-epic-device-test.png":::
+  
+    Device test capabilities:
+
+  - Patients can test their speaker, microphone, camera, and connection.
+  - Patients can complete a test call to fully validate their configuration.
+  - Results of the device test can be sent back to the EHR system.
 
 - Patients can join appointments with a single click and no other account or sign-in is required.
 
@@ -246,8 +253,6 @@ Key features of the patient experience:
 - Patients are placed in a lobby until the provider joins and admits them.
 
 - Patients can test their video and microphone in the lobby before they join the appointment.
-
-  ![Patient experience of the appointment.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
