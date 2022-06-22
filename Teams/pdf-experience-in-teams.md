@@ -64,6 +64,8 @@ Now you've successfully added Adobe Acrobat app to work in the Teams tenant.
 
    :::image type="content" source="media/TAC-add-app.PNG" alt-text="TAC-adobe-app-add":::
 
+   :::image type="content" source="media/adobe-pdf-teams.PNG" alt-text="Teams-adobe":::
+
 ## Limitations
 
 1. Pinning PDF files (powered by Adobe) as a tab on channel is not supported as of now.
