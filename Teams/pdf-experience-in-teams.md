@@ -40,7 +40,9 @@ To set Adobe Acrobat as default PDF handler, follow these steps:
 
    :::image type="content" source="media/TAC-teams-app-adobe.PNG" alt-text="adobe-acrobat-tac":::
 
-1. On the Permissions tab, select **Review permission** requested by the app, then select Accept to grant consent.
+1. On the Permissions tab, select **Review permission**. The consent request page appears.
+[]
+1. Select **Accept** to grant consent.
 
    :::image type="content" source="media/TAC-teams-app-adobe-acrobat-permission.PNG" alt-text="TAC-teams-permission":::
 
@@ -48,7 +50,7 @@ Now you've successfully added Adobe Acrobat app to work in the Teams tenant.
 
 :::image type="content" source="media/TAC-consent.png" alt-text="TAC-adobe-consent":::
 
-## Make Adobe Acrobat app available on user’s Teams client
+## Make Adobe Acrobat app available for users
 
 1. Log in to [Teams admin center](https://admin.teams.microsoft.com/).
 
@@ -64,7 +66,9 @@ Now you've successfully added Adobe Acrobat app to work in the Teams tenant.
 
    :::image type="content" source="media/TAC-add-app.PNG" alt-text="TAC-adobe-app-add":::
 
-   :::image type="content" source="media/adobe-pdf-teams.PNG" alt-text="Teams-adobe":::
+Users receives a welcome message from Adobe Acrobat app in Teams.
+
+:::image type="content" source="media/adobe-pdf-teams.PNG" alt-text="Teams-adobe":::
 
 ## Limitations
 
