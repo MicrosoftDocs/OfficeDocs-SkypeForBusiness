@@ -61,7 +61,7 @@ For guidance on deploying Microsoft 365 and getting Teams set up, check out [Cre
 
 ## Easily set up Teams
 
-These are the two things you need to do to get up and running with Teams:
+Here are the two things you need to do to get up and running with Teams:
 
 ### 1. Allow users to create teams
 
@@ -86,7 +86,7 @@ Teams policies control the capabilities available for specific users or groups. 
 
 **Higher education staff, educators, and students** can use the default (global) policies. You can adjust policies to add more functionality to Teams, including [translation capabilities](messaging-policies-in-teams.md#messaging-policy-settings) and [automatic meeting transcription](meetings-policies-recording-and-transcription.md#allow-transcription).
 
-**Primary-secondary school students** may need restricted capabilities. It's recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
+**Primary-secondary school students** may need restricted capabilities. It's recommended that student policy changes be made to the 'Global (Org-wide default)' policy.
 
 **Primary-secondary school staff and educators** should be assigned policies that grant key capabilities, like allowing private chat and meeting scheduling. [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
@@ -205,7 +205,7 @@ You can also use the [Microsoft Graph API to create, configure, clone, and archi
 
 - Requires a high level of technical expertise and time to create and run the script and fix any issues when creating class groups.
 - No built-in error handling or retry logic.
-- Membership changes are not synced with SIS.
+- Membership changes aren't synced with SIS.
 
 > [!NOTE]
 > Class teams require hidden group membership so only educators and students within the class can see the members of that class. To create an Microsoft 365 class group, see [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) to meet the privacy requirements.
@@ -246,9 +246,9 @@ It’s best to have educators add their students to the team to ensure the stude
 
 ## Early access to class teams
 
-Early Access Class Teams allows educators access to their class teams before their students can view it. This allows educators time to set up, add files, and get organized before granting access to their students.
+Early Access Class Teams allows educators access to their class teams before their students can view it. Educators will have time to set up, add files, and get organized before granting access to their students.
 
-When they are ready for students to access the team, they can [activate their class](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78).
+When they're ready for students to access the team, they can [activate their class](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78).
 
 ### How do I create class teams that allow educators early access to set up a team before admitting students?
 
@@ -291,7 +291,7 @@ Meetings can be:
 
 ### District/University events or updates
 
-Some meetings have a large audience and additional production needs. These meetings often have defined presenters, producers, and moderated Q&A.
+Some meetings have a large audience and extra production needs. These meetings often have defined presenters, producers, and moderated Q&A.
 
 Teams supports these sessions using [Microsoft Teams live events](teams-live-events/what-are-teams-live-events.md).
 

@@ -2709,6 +2709,11 @@
       "source_path": "Teams/business-voice/set-up-auto-attendant.md",
       "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
       "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/Teams-quick-start-edu.yml",
+      "redirect_url": "/microsoftteams/teams-quick-start-guide-edu",
+      "redirect_document_id": true
      }
   ] 
 }

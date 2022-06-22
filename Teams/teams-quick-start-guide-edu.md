@@ -26,7 +26,7 @@ appliesto:
 
 # Quick start - Set up Teams for Education
 
-This guide is for **IT admins in education**, including those who haven't yet deployed Teams.
+This guide is for **IT admins in education**, including admins who haven't yet deployed Teams.
 
 [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Microsoft 365, schools benefit from integration with their familiar Office apps and services.
 
@@ -121,7 +121,7 @@ Here’s a quick checklist of our best practices to get you started.
 
 Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients.
 
-They can install these clients themselves -- the IT admin doesn't need to deploy these clients.
+They can install these clients themselves. The IT admin doesn't need to deploy these clients.
 
 You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Microsoft 365 licensing for Teams](/teams-edu-licensing) for information about both methods.
 
@@ -145,7 +145,7 @@ We suggest that you define different policies to manage which capabilities are a
 With policies, you can turn on and off features at the per-user level. Here’s how policy assignments work:
 
 - By default, every new user will get the Global policy (tenant-level settings).
-- A user can be assigned a pre-defined user policy created by Microsoft, if it meets your requirements. These pre-defined policies are not editable by admins. If you want to manage these in the future, create new custom policies, and assign the custom policies to users.
+- A user can be assigned a pre-defined user policy created by Microsoft, if it meets your requirements. These pre-defined policies aren't editable by admins. If you want to manage these policies in the future, create new custom policies, and assign the custom policies to users.
 - A custom policy can be assigned to any user. To create a new custom policy, click **Add**, choose the settings you want for the policy, and click **Save**. Then, assign the custom policy to a user by going to **Users** in the Teams admin center or using a PowerShell script.
 
 ### Allow different policies for faculty and students

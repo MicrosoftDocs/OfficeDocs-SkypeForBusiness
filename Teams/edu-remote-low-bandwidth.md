@@ -29,7 +29,7 @@ Numerous network elements can affect performance when working with Microsoft Tea
 - Low-speed internet connection for the school.
 - Low-speed internet connection for one or more students.
 - Times of the day when there's low bandwidth because of network usage in an area.
-- Outages local to neither the school nor students, but affect performance.
+- Outages not local to the school or students, but affect performance.
 - Issues with hardware that cause low-bandwidth issues.
 
 > [!IMPORTANT]
@@ -85,9 +85,9 @@ For more information, read [Set the phone numbers included on invites in Microso
 Having educators troubleshoot bandwidth issues may be a better choice than IT action in the following situations:
 
 - The problem is intermittent.
-- There is a specific time of the day you can anticipate there being an issue.
+- There's a specific time of the day you can anticipate there being an issue.
 
-For steps an educator can take to resolve bandwidth issues, read [Use Teams for schoolwork when bandwidth is low](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262).
+For steps an educator can take to resolve bandwidth issues, read [Use Teams for school work when bandwidth is low](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262).
 
 ## Low-bandwidth scenarios as a parent or student
 
@@ -97,4 +97,4 @@ Sometimes the bandwidth problem is on a student's side.
 - They may have many people in their immediate area also consuming bandwidth.
 - There may be internet instability.
 
-We've put together guidance in our [Use Teams for schoolwork when bandwidth is low](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) article for parents and students.
+We've put together guidance in our [Use Teams for school work when bandwidth is low](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) article for parents and students.

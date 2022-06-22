@@ -25,7 +25,7 @@ ms.custom:
 
 This article is for IT admins in education who need to assign Team licenses to their faculty, staff, and students.
 
-To get your users ready for Teams, you will need to:
+To get your users ready for Teams, you'll need to:
 
 1. [Enable Microsoft Teams for your school in the Microsoft 365 admin center](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
 2. Assign licenses to user accounts for access to Microsoft 365 services, including Teams.

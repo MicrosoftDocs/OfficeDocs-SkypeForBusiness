@@ -22,7 +22,7 @@ f1keywords:
 
 This article lists Education Faculty and Student licensing plans (SKUs) and SKU IDs.
 
-Use this as a reference when using PowerShell to identify users in your organization by license type.
+Use this reference when using PowerShell to identify users in your organization by license type.
 
 ## Faculty licenses
 
