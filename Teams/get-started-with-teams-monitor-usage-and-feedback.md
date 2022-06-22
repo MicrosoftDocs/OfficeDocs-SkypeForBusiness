@@ -1,7 +1,7 @@
 ---
 title: Monitor usage and feedback in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 03/20/2019
 ms.topic: article

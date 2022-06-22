@@ -1,7 +1,7 @@
 ---
 title: Start your organization-wide rollout of Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article

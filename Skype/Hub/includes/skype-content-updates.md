@@ -2,6 +2,23 @@
 
 
 
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/6/2022 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | modified |
+
+
+## Week of May 30, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/2/2022 | [Install Skype for Business Server](/SkypeForBusiness/deploy/install/install) | modified |
+| 6/3/2022 | [Integration between Skype for Business Online and Exchange server](/SkypeForBusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) | modified |
+
+
 ## Week of May 23, 2022
 
 

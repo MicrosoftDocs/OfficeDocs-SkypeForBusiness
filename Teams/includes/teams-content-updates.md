@@ -2,6 +2,76 @@
 
 
 
+## Week of June 13, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/13/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/13/2022 | [Use Power BI to analyze CQD data for Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modified |
+| 6/13/2022 | [Move from Business Voice to Teams Phone licenses](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | modified |
+| 6/13/2022 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
+| 6/13/2022 | [Data and Privacy Information](/MicrosoftTeams/rooms/data-and-privacy-info) | modified |
+| 6/13/2022 | [Microsoft Teams Rooms update management](/MicrosoftTeams/rooms/update-management) | modified |
+| 6/15/2022 | [Teams PowerShell Module - Supported Versions](/MicrosoftTeams/teams-powershell-supported-versions) | modified |
+| 6/16/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | added |
+| 6/16/2022 | [Plan your call routing flow for Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | added |
+| 6/16/2022 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
+| 6/16/2022 | [Assign, change, or remove a phone number for a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modified |
+| 6/16/2022 | Set up an auto attendant for Microsoft Teams - small business tutorial | removed |
+| 6/16/2022 | Create a call queue in Microsoft Teams Phone System - small business tutorial | removed |
+| 6/16/2022 | [Assign Teams Phone System phone numbers to your users](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modified |
+| 6/16/2022 | Set up an auto attendant for your company's main phone number | removed |
+| 6/16/2022 | [Set up a Microsoft Teams Phone System resource account](/MicrosoftTeams/business-voice/set-up-resource-account) | modified |
+| 6/16/2022 | [Teams Phone System guidance for small and medium businesses](/MicrosoftTeams/business-voice/whats-business-voice) | modified |
+| 6/16/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 6/16/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/16/2022 | [Modify the appearance of apps in your organization's Teams store](/MicrosoftTeams/customize-apps) | modified |
+| 6/16/2022 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
+| 6/16/2022 | [Manage resource accounts in Teams](/MicrosoftTeams/manage-resource-accounts) | modified |
+| 6/16/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 6/16/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
+| 6/16/2022 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+
+
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/6/2022 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
+| 6/7/2022 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | modified |
+| 6/7/2022 | [Deploy teams at scale for frontline workers in Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | added |
+| 6/8/2022 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
+| 6/9/2022 | [Teams apps behavior based on types of users](/MicrosoftTeams/non-standard-users) | modified |
+| 6/9/2022 | [Set up the Common Area Phone license](/MicrosoftTeams/set-up-common-area-phones) | modified |
+| 6/9/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/9/2022 | [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modified |
+| 6/10/2022 | [Mobile App extension](/MicrosoftTeams/rooms/extended-mobile-app) | added |
+| 6/10/2022 | [Deploy teams at scale for frontline workers in Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | modified |
+| 6/10/2022 | [Move from Business Voice to Teams Phone licenses](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | added |
+| 6/10/2022 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
+
+
+## Week of May 30, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/31/2022 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | added |
+| 5/31/2022 | [Customize your app store in Teams](/MicrosoftTeams/customize-your-app-store) | modified |
+| 5/31/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
+| 5/31/2022 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
+| 5/31/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 6/1/2022 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 6/1/2022 | [Emergency addresses for remote locations](/MicrosoftTeams/emergency-calling-dispatchable-location) | modified |
+| 6/1/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/2/2022 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
+| 6/2/2022 | [Special character restrictions in Teams policies](/MicrosoftTeams/special-character-restrictions-in-policy-names) | modified |
+| 6/2/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
+| 6/3/2022 | [Microsoft Teams EHR connector Virtual Appointments report](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | modified |
+
+
 ## Week of May 23, 2022
 
 
@@ -114,44 +184,3 @@
 | 5/20/2022 | [Manage emergency call routing policies for Direct Routing](/MicrosoftTeams/manage-emergency-call-routing-policies) | modified |
 | 5/20/2022 | [Manage emergency calling policies in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modified |
 | 5/20/2022 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-
-
-## Week of May 09, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/9/2022 | [Enable users for Direct Routing](/MicrosoftTeams/direct-routing-enable-users) | modified |
-| 5/9/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
-| 5/9/2022 | [Assign policies in Teams](/MicrosoftTeams/policy-assignment-overview) | modified |
-| 5/9/2022 | [Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
-| 5/10/2022 | [Plan Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-plan) | modified |
-| 5/10/2022 | [Calling policies in Microsoft Teams: Calling and call-forwarding features](/MicrosoftTeams/teams-calling-policy) | modified |
-| 5/10/2022 | [Microsoft Teams Rooms app version support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
-| 5/12/2022 | [Manage Voicemail Policies](/MicrosoftTeams/manage-voicemail-policies) | modified |
-| 5/12/2022 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
-| 5/12/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
-| 5/13/2022 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
-| 5/13/2022 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-
-
-## Week of May 02, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/2/2022 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
-| 5/3/2022 | [Approvals application availability in Teams](/MicrosoftTeams/approval-admin) | modified |
-| 5/3/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
-| 5/3/2022 | [Manage the Shifts app for your organization](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modified |
-| 5/3/2022 | [Manage the Tasks app for your organization in Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modified |
-| 5/3/2022 | [Walkie Talkie application in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
-| 5/4/2022 | Manage settings for your organization | removed |
-| 5/4/2022 | [Microsoft Teams app usage report](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | modified |
-| 5/4/2022 | [Check-in and room release on Microsoft Teams panels](/MicrosoftTeams/devices/check-in-and-room-release) | modified |
-| 5/4/2022 | [Manage your devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
-| 5/5/2022 | [Create a call queue via cmdlets](/MicrosoftTeams/create-a-phone-system-call-queue-via-cmdlets) | modified |
-| 5/5/2022 | Use activity reports for Microsoft Teams | removed |
-| 5/6/2022 | [Teams dial pad configuration](/MicrosoftTeams/dial-pad-configuration) | modified |
-| 5/6/2022 | [Manage team templates in the admin center](/MicrosoftTeams/templates-policies) | modified |
-| 5/6/2022 | [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modified |

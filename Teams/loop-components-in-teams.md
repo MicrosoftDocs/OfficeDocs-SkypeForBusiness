@@ -71,6 +71,14 @@ Version History allows you to review and copy from previous versions of the file
 
 .fluid files are discoverable but have limited eDiscovery workflow support. Currently, .fluid files are stored in the creator's OneDrive and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive. If desired, you can temporarily disable these experiences as outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section.
 
+## If Loop is disabled from the admin switch, what will the user experience be?
+
+If you disable these experiences as outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section, the following experience changes will apply:
+
+- The create/insert entry point within Teams messaging will be hidden. Users will not be able to create new .fluid files.
+- Existing messages that would have formerly rendered as an interactive Loop component will instead render as a hyperlink "Loop component." No interactive content will be displayed within Teams.
+- When an end-user clicks on the "Loop component" hyperlink or browses to a .fluid file in OneDrive for Business and clicks to open, it will open the file in a separate browser tab, but end-users will not be able to edit the file.
+
 ## Known issues
 
 - Loop components in chat cannot be edited via Office app when using Teams on Android.

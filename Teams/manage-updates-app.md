@@ -27,7 +27,7 @@ ms.custom:
 
 The Updates in Microsoft Teams app provides a centralized place for members of your organization to create, review, and submit updates. By creating templates, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
-In Teams, users can get Updates from the Teams app store. They'll see all of the updates they need to submit on the **Submit** page.
+In Teams, users can get Updates from the Teams app store. They'll see all of the updates they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
 
 [![Image of the Submit page in Teams for desktop.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
@@ -116,17 +116,7 @@ The Updates app is available by default. You can disable the app in the Teams ad
 
 ## Pin Updates to Teams
 
-### Use the Tailored frontline app experience to pin Updates and other apps to Teams
-
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Updates, Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
-
-The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
-
-To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
-
-### Use an app setup policy to pin Updates to Teams
-
-App setup policies let you customize Teams to pin apps that are most important for your users in your users.
+App setup policies let you customize Teams to pin apps that are most important for your users in your users. The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
 To pin the Updates app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
@@ -136,9 +126,11 @@ Updates created from the Updates app are stored in the default Microsoft Dataver
 
 Data stored in Forms will not be deleted until the template creators clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
-## Conditional Access policies
+## Conditional access and permission policies
 
-Currently, the Updates app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
+The Updates app in Teams doesn't currently support Conditional Access policies that are set for Microsoft Teams.
+
+You can use [Teams app permission policies](teams-app-permission-policies.md) to manage Updates.
 
 ## Data limitations
 
