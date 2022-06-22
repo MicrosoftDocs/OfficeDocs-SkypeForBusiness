@@ -123,7 +123,7 @@ Once an educator or student has a valid license and Teams has been enabled, they
 
 They can install these clients themselves. The IT admin doesn't need to deploy these clients.
 
-You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Microsoft 365 licensing for Teams](/teams-edu-licensing.md) for information about both methods.
+You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Microsoft 365 licensing for Teams](teams-edu-licensing.md) for information about both methods.
 
 # [Configure Teams](#tab/configure)
 
