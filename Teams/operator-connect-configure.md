@@ -121,7 +121,7 @@ If `OnPremLineUri` is populated with an E.164 phone number, the phone number was
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following Teams PowerShell Module command: 
+The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced from on-premises to Office 365, run the following Teams PowerShell Module command: 
     
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
