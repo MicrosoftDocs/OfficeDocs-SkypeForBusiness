@@ -592,5 +592,5 @@ The following resources will help you plan your Career Coach implementation with
 - [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md)
 - [Managing apps in Microsoft Teams admin center](manage-apps.md)
 - [Getting started with admin training for Microsoft Teams](ITAdmin-readiness.md)
-- [Teams troubleshooting](/troubleshoot/teams-welcome)
+- [Teams troubleshooting](/microsoftteams/troubleshoot/teams-welcome)
 - [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md)
