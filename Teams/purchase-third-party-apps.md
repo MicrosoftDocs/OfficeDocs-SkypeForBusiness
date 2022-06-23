@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: 
-description: Learn how to purchase third-party apps for Teams in the Microsoft Teams admin center.
+description: Learn how to purchase third-party apps from Teams store using a credit card, a debit card, or via invoice billing.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium

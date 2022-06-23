@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Manage access to Teams apps across Microsoft 365. 
+description: Learn how to manage access to Teams apps across Microsoft 365. 
 ---
 
 # Manage access to Teams apps across Microsoft 365
