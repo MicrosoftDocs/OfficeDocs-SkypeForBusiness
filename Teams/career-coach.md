@@ -96,7 +96,7 @@ Role: [Teams administrator](/azure/active-directory/roles/permissions-reference#
 Career Coach tasks:
 
 - [Add Career Coach as an installed app](#add-career-coach-as-an-installed-app)
-- [Configure the Career Coach app settings](#configure-the-career-coach-app-settings)
+- [Configure the Career Coach app settings](#configure-career-coach-settings)
   - [Brand and preferences](#brand-and-preferences) - required
   - [LinkedIn connection](#linkedin-connection) - required
   - [Course catalog](#course-catalog) - required
@@ -172,7 +172,7 @@ Career Coach is a Microsoft application, and so it must be allowed within Teams 
 2. In the left navigation, select **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 3. Select your preferred policy.
-    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 Learn more about [configuring permission policies](teams-app-permission-policies.md).
 
@@ -183,7 +183,7 @@ This step ensures that Career Coach is properly configured for your organization
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
 2. Select **Teams apps** > **Setup policies**, and select your preferred policy.
-    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 3. Under **Installed apps**, select **+ Add apps**.
 
@@ -194,9 +194,9 @@ This step ensures that Career Coach is properly configured for your organization
 6. Select **Save** > **Confirm**.
 
 > [!NOTE]
-> Editing or assigning a policy can take a few hours for changes to take effect. The Career Coach app won't be available in Microsoft Teams until the changes are complete.
+> Editing or assigning a policy can take a few hours for changes to take effect. The Career Coach won't be available in Microsoft Teams until the changes are complete.
 
-## Configure the Career Coach app settings
+## Configure Career Coach settings
 
 ### Access the Career Coach app settings
 
@@ -397,7 +397,7 @@ During processing, Career Coach will analyze your document for duplicates, norma
 | Courses uploaded | Integer   | Number of courses found in the document.                                                           |
 | Ingestion status | Pending   | Document in queue for processing.                                                                  |
 | Ingestion status | Running   | Document is currently be processed. This process can take up to 6 hours depending on the size of your document. |
-| Ingestion status | Success   | Ingestion process is complete, and courses will be available in Career Coach once all required settings are completely configured. |
+| Ingestion status | Success   | Ingestion process is complete, and courses will be available in Career Coach once all required settings are configured. |
 | Ingestion status | Failed    | Check the document format and reupload.                                                           |
 | Duplicates       | Integer   | Number of duplicate courses found in the document.                                                 |
 
@@ -507,7 +507,7 @@ Pinning Career Coach will add it to the left rail of the Microsoft Teams window 
 
 2. Select **Teams apps** > **Setup policies** and select your preferred policy.
 
-    If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+    If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 3. Under **Pinned apps**, choose **Add apps**.
 
@@ -536,7 +536,7 @@ Career Coach accessibility features include:
 
 ### Missing required configuration data
 
-If you see "Career Coach is currently being set up for you to use soon" in the Career Coach app experience, **all required configuration data hasn't been added**.
+If you see "Career Coach is currently being set up for you to use soon" in the Career Coach experience, **all required configuration data hasn't been added**.
 
 The following **sections must be completed** before Career Coach can be used:
 
@@ -576,9 +576,9 @@ However, Career Coach can be installed directly from the Microsoft Teams app sto
 
 You may encounter the following error: “We can't retrieve the app's settings. Try again. If you continue to have problems, contact Microsoft customer support.”
 
-Check the **Service Provisioning status** on the Career Coach app settings page.
+Check the **Service Provisioning status** on the Career Coach settings page.
 
-If your tenant is still being initialized, wait 15 minutes and try again. If after 15 minutes you're still receiving the error, open a support ticket.
+If your tenant is still being initialized, wait 15 minutes and try again. Open a support ticket if you still receive the error.
 
 ## Resources
 
