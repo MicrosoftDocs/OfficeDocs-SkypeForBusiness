@@ -99,6 +99,14 @@ To move numbers from Direct Routing to Operator Connect, the existing Direct Rou
 
 #### Step 1 - Remove existing Direct Routing numbers.
 
+Check that the user is assigned a Direct Routing number by running the Teams PowerShell Module command:
+
+```PowerShell
+Get-CsPhoneNumberAssignment -AssignedPstnTargetId <user> 
+```
+
+Check that `NumberType` is DirectRouting.
+
 How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following Teams PowerShell Module command:
     
 ```PowerShell
