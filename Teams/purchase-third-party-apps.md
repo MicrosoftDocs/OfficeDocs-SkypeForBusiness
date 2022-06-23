@@ -50,13 +50,13 @@ Here, you can also purchase licenses for services offered by third-party apps fo
    > [!NOTE]
    > You have to be a Global admin to add a new billing account.
 
-1. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You have the option to pay with a credit card, debit card, or with [invoice billing](#invoice-billing). The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You can pay with a credit card, debit card, or with [invoice billing](#invoice-billing). The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 1. Select **Place order**.
 1. Select **Set up** to activate your subscription on the publisher's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage licenses**.
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
 
-- **License activation date**: Date on which your license was activated. If your account isn't yet set up, this shows as **Subscription pending activation**.
+- **License activation date**: Date on which your license was activated. If your account isn't yet set up, this field shows **Subscription pending activation**.
 - **Licenses**: Number of licenses you purchased.
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab of app details page.":::
