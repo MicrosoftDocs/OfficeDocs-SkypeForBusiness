@@ -15,7 +15,6 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Deploy teams at scale for frontline workers in Microsoft Teams
