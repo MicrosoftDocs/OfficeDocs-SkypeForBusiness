@@ -38,9 +38,7 @@ To contact the service desk:
 
 2. In the left-hand pane, select **Voice**, and then **Phone numbers**.
 
-3. Select **Add** or **Port**.
-
-4. At the top of the page, select **Get phone number support**. You will see the Phone Number Service Center.
+3. In the upper right corner of the page, click Actions, then select **Get phone number support**. You will be transfered to the **Phone Number Service Center** (Service Desk Portal).
 
 > [!NOTE]
 > Only someone from the same tenant will be allowed to create a case. That is, someone from @fabrikam.com cannot create a case on behalf of @contoso.com.
