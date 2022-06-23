@@ -5,7 +5,7 @@ ms.author: czawideh
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
-ms.service: msteams
+ms.service: msteams 
 audience: admin
 ms.collection: 
   - M365-voice
@@ -113,7 +113,7 @@ How you remove your existing Direct Routing numbers depends whether the number i
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
+If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Microsoft 365.
     
 **To remove Direct Routing numbers assigned on-premises,** run the following Skype for Business Server PowerShell command:
     
@@ -121,13 +121,13 @@ If `OnPremLineUri` is populated with an E.164 phone number, the phone number was
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced from on-premises to Office 365, run the following Teams PowerShell Module command: 
+The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced from on-premises to Microsoft 365, run the following Teams PowerShell Module command: 
     
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
-After the changes have synced to Office 365 online directory, the expected output is: 
+After the changes have synced to Microsoft 365 online directory, the expected output is: 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
