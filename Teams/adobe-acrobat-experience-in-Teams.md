@@ -50,9 +50,9 @@ To set up Adobe Acrobat as default app, follow these steps:
 
    :::image type="content" source="media/consent-permission.png" alt-text="Teams admin center adobe app consent":::
 
-## Make Adobe Acrobat app available for users
+## Assign Adobe Acrobat app for all users
 
-You can set up a policy and set required permissions to the Adobe Acrobat app in the Teams admin center. To make Adobe Acrobat app available for users, follow these steps:
+You can use the Global (Org-wide default) policy to assign and make the Adobe Acrobat app available for all users. To assign the Adobe Acrobat app for all users, follow these steps:
 
 1. Log in [Teams admin center](https://admin.teams.microsoft.com/).
 
