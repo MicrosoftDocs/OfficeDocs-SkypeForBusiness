@@ -56,15 +56,43 @@ The delivery of a voicemail to an Exchange mailbox is done using Simple Mail Tra
 
 ## Manage Cloud Voicemail for users
 
-To manage Cloud Voicemail features for your users, use the Teams PowerShell module as follows.
+You can manage Cloud Voicemail for users by using voicemail policies and configurating voicemail settings.  
 
-To manage Cloud Voicemail features for groups of users, use the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy) cmdlet.
+- Voicemail policies allow you to manage features for groups of users.
+
+- Voicemail settings allow you to configure settings for individual users.  
+
+**Voicemail policies.** For groups of users, you can configure and assign existing or new voicemail policies for features such as call answering rules, voicemail transcription, transcription profanity masking, transcription translation, and system prompt language. For more information, see [Manage voicemail policies](manage-voicemail-policies.md).
+
+**Voicemail settings.** For individual users, you can configure settings such as call answering rules, prompt language, text to speech default, and vacation greetings. For more information, see [Manage voicemail settings](manage-voicemail-settings.md). (Note that your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail**.)
+
+
+To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell.
+
+### Teams admin center
+
+In the Teams admin center:
+
+1.	In the left navigation, go to **Users > Manage users** and select the user.
+
+2.	On the user details page, go to the **Voicemail** tab.
+
+3.	Change the settings.
+
+4.	Select **Save**.
+
+
+### Use PowerShell
+
+You can also use PowerShell to manage voicemail settings as follows:
+
+- To manage Cloud Voicemail features for groups of users, use the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy) cmdlet.
 You can configure and assign existing or new voicemail policies for features such as call answering rules, voicemail transcription, transcription profanity masking, transcription translation, and system prompt language. For more information, see [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy).
 
-To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet. Cloud Voicemail settings that you can apply to individual users include call answering rules, prompt language, text to speech default, and vacation greetings. For more information, see [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
+- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet. Cloud Voicemail settings that you can apply to individual users include call answering rules, prompt language, text to speech default, and vacation greetings. For more information, see [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
 (Note that your end users can also configure these settings in the Teams client by going to **Settings** -> **Calls** -> **Configure Voicemail**.)
 
-You can also disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false. This setting will ensure that Cloud Voicemail can no longer record a voicemail for the user.
+- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false. This setting will ensure that Cloud Voicemail can no longer record a voicemail for the user.
 
 ## Control routing of calls to Cloud Voicemail
 
