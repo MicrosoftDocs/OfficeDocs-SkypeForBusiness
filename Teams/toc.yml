@@ -1551,8 +1551,8 @@ items:
           href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
-        - name: PDF experience in Teams
-          href: pdf-experience-in-teams.md
+        - name: Adobe acrobat experience in Teams
+          href: adobe-acrobat-experience-in-Teams.md
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
