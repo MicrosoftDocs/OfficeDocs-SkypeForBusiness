@@ -24,7 +24,7 @@ You can set Adobe Acrobat as the default app to view and edit PDF files in the
 
 ## Set up Adobe Acrobat as default app
 
-To set up Adobe Acrobat as default app, follow these steps:
+Follow the steps to setup Adobe Acrobat as default app:
 
 1. Log in to [Teams admin center](https://admin.teams.microsoft.com/).
 
