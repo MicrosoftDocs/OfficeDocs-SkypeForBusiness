@@ -38,7 +38,7 @@ During the creation of an app, the developers create and add an app ID to the ma
 
 ## App management use cases and the available interfaces
 
-The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are are available in other portals.
+The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are available in other portals.
 
 | App management use cases | Link to the interface | Documentation |
 |:----|:----|:----|
@@ -48,7 +48,7 @@ The options to accomplish most of app management use cases are available in Team
 | You can develop and upload custom apps as app packages and make them available in your organization's app store. | Org-wide app settings in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) | [Manage custom app policies](teams-custom-app-policies-and-settings.md) |
 | You can customize the Teams app store with your organization's logo, custom background, or color. | [Customize store](https://admin.teams.microsoft.com/policies/customize-appstore) | [Customize your organization's app store](customize-your-app-store.md) |
 | The Teams app usage report provides information about which apps in use, active users, and other app usage information. | [Usage reports](https://admin.teams.microsoft.com/analytics/reports) | [Teams app usage report](teams-analytics-and-reports/app-usage-report.md) |
-| Your users can add apps when they host meetings or chats with external users. They can also use apps shared by external users when they join meetings or chats hosted externally. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](non-standard-users.md) |
+| Your users can add apps when they host meetings or chats with guests. They can also use apps shared by guests when they join meetings or chats hosted externally. The data policies of the hosting user's organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](non-standard-users.md) |
 | With guest access, you can provide access to applications and other Teams functionality to people outside your organization, while maintaining control over your corporate data. | [Guest access](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Guest access in Teams](guest-access.md) |
 | Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app.  | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
 | Audit Teams app events on Microsoft Purview compliance portal | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-log-events.md#teams-activities) |
@@ -79,7 +79,7 @@ The developer creates a Teams app package using [Teams App Studio](/microsofttea
 
 To upload a new custom app, select **Upload** to upload the app package. The app isn't highlighted after it's uploaded so you'll need to search the list of apps on the Manage apps page to find it.
 
-To update an app after it's uploaded, in the list of apps on the Manage apps page, select the app name, and then select **Update**. Doing this replaces the existing app and all app permission policies and app setup policies remain enforced for the updated app.
+To update an app after it's uploaded, in the list of apps on the Manage apps page, select the app name, and then select **Update**. Doing an update replaces the existing app and all app permission policies and app setup policies remain enforced for the updated app.
 
 To learn more, see [Publish a custom app by uploading an app package](upload-custom-apps.md).
 
@@ -118,7 +118,7 @@ You can view requests to make a blocked app available for use. The request is se
     * If the app is blocked for all users, [allow the app](#allow-and-block-apps).
     * If all apps are blocked for all users, modify [org-wide settings](#manage-org-wide-app-settings).
 
- If an admin allows an app then it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+ If an admin allows an app, then it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
 
 ### Dismiss a user request
 
@@ -132,7 +132,7 @@ If an admin dismisses a request, it doesn't inform the end-user that their reque
 
 ## Apps blocked by publishers
 
-When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is completely set up.
+When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is set up.
 
 For example, Contoso Electronics is an ISV that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and will be hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**, or block users from using the app by changing the status to **Blocked**.
 
@@ -142,9 +142,9 @@ For example, Contoso Electronics is an ISV that created a help desk app for Micr
 
 ## Add an app to a team
 
-You use the **Add to team** button to install an app to a team. This option is available only for the apps that can be installed in a team scope. The option is not available for apps that can only be installed in the personal scope.
+You use the **Add to team** button to install an app to a team. This option is available only for the apps that can be installed in a team scope. The option isn't available for apps that can only be installed in the personal scope.
 
-1. Search for an app by its name and select the app. Do not open the app details page.
+1. Search for an app by its name and select the app. Don't open the app details page.
 1. Select **Add to team**.
 
    :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot of Add to team option for app that can be added to the team scope." lightbox="media/manage-apps-add-app-team.png":::
