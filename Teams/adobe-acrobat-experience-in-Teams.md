@@ -20,9 +20,7 @@ ms.localizationpriority: medium
 
 # Adobe Acrobat experience in Teams
 
-You can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Users don't need an Adobe Acrobat subscription or an Adobe ID to use the Adobe Acrobat app, they can view, bookmark, comment, and annotate PDFs.
-
-After you set Adobe Acrobat as default app, all PDF files from the chat, channel, and files app open directly in the Adobe Acrobat app within Teams.
+You can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Users don't need an Adobe Acrobat subscription or an Adobe ID to use the Adobe Acrobat app.
 
 ## Set up Adobe Acrobat as default app
 
@@ -45,6 +43,8 @@ To set up Adobe Acrobat as default app, follow these steps:
    Now you've successfully added Adobe Acrobat as a default app.
 
    :::image type="content" source="media/consent-permission.png" alt-text="Teams admin center adobe app consent":::
+
+After you set Adobe Acrobat as default app, all PDF files from the chat, channel, and files app open directly in the Adobe Acrobat app within Teams.
 
 ## Assign Adobe Acrobat app for all users
 
