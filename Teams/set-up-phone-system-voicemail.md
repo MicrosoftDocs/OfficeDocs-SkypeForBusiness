@@ -66,8 +66,6 @@ You can manage Cloud Voicemail for users by specifying voicemail policies and co
 
 The default setting for all users provisioned for Cloud Voicemail is to allow routing of calls to Cloud Voicemail, and to allow users to forward calls to Cloud Voicemail.
 
-You can also change this parameter by using Teams admin center (Voice -> Calling Policies -> add new or edit existing policy -> Voicemail is available for routing inbound calls).
-
 You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Teams admin center or by using PowerShell. 
 
 - To use the Teams admin center, go to **Voice** -> **Calling Policies** -> add new or edit existing policy -> **Voicemail is available for routing inbound calls**.  

@@ -28,7 +28,7 @@ description: "Manage Voicemail settings for your users."
 
 Voicemail settings allow you to configure voicemail settings for individual users.
 
-Before configuring voicemail settings for your users, you should read [Set up Cloud Voicemail(set-up-phone-system-voicemail.md). For information about setting policies for groups of users, see [Manage Voicemail policies](manage-voicemail-policies.md).
+Before configuring voicemail settings for your users, you should read [Set up Cloud Voicemail](set-up-phone-system-voicemail.md). For information about setting policies for groups of users, see [Manage Voicemail policies](manage-voicemail-policies.md).
 
 The default settings for Cloud Voicemail are:
 
@@ -44,9 +44,7 @@ The default settings for Cloud Voicemail are:
 - The transfer target is not set.
 
 
-To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell.
-
-Note that your end users can configuralso e these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
+To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell.Note that your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
 
 ## Use Teams admin center
 
@@ -75,7 +73,7 @@ You can also use PowerShell to manage voicemail settings as follows:
 
 - **Voicemail enabled** - This setting controls whether Cloud Voicemail is enabled for the user. If the settings is false, Cloud Voicemail service will not be available for the user and will not record a voicemail for the user.
 
-  - **Prompt language** - This setting specifies the language used for the prompts in the Cloud Voicemail. For more information see [Change the default language for greetings and emails](change-the-default-language-for-greetings-and-emails.md).
+- **Prompt language** - This setting specifies the language used for the prompts in the Cloud Voicemail. For more information see [Change the default language for greetings and emails](change-the-default-language-for-greetings-and-emails.md).
 
 - **Greeting settings** - Cloud Voicemail is able to play a specific greeting for when the user is in the office and for when the user is out-of-office. Both greetings can be recorded by the user or a text-to-speech greeting can be used.
 
@@ -87,13 +85,13 @@ You can also use PowerShell to manage voicemail settings as follows:
 
   - **Oof Greeting Follow Calendar Enabled** - specifies whether to play out-of-office greeting in voicemail deposit scenario when user set out-of-office in calendar.
 
- - **Default Oof Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that will be played in case the user is out-of-office and has not recorded an out-of-office  greeting.
+  - **Default Oof Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that will be played in case the user is out-of-office and has not recorded an out-of-office  greeting.
 
 - **Call answering rule** - This setting specifies the call answering rule. The rule can be:
-  - The service declines the call with no message
-  - Only the relevant greeting (normal or out-of-office) is played
-  - The relevant greeting (normal or out-of-office) is played and the caller is transferred to the specified user or phone number
-  -  The relevant greeting (normal or out-of-office) is played and the caller can leave a voicemail
+  - The service declines the call with no message.
+  - Only the relevant greeting (normal or out-of-office) is played.
+  - The relevant greeting (normal or out-of-office) is played and the caller is transferred to the specified user or phone number.
+  -  The relevant greeting (normal or out-of-office) is played and the caller can leave a voicemail.
   - The relevant greeting (normal or out-of-office) is played, the caller can leave a voicemail and is allowed to press 0 to be transferred to the specified user or phone number.
 
 - **Share data for service improvements** - Specifies whether voicemail and transcription data is shared with the service for training and improving accuracy. If set to false, voicemail data will not be shared, regardless of user choice.

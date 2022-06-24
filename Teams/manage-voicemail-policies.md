@@ -24,7 +24,7 @@ ms.custom:
 description: "Manage Voicemail Policies for your users."
 ---
 
-# Manage voicemail policies for your users
+# Manage Cloud Voicemail policies for your users
 
 > [!WARNING]
 > For Skype for Business customers, disabling voicemail through a Microsoft Teams calling policy might also disable the voicemail service for your Skype for Business users.
@@ -83,8 +83,7 @@ Follow these steps to edit an existing voicemail policy.
 
 ## Use PowerShell
 
-You can also use PowerShell to configure and assign existing or new voicemail policies.  
-To manage policies by using PowerShell, use the following cmdlets:
+You can also use PowerShell to configure and assign existing or new voicemail policies. To manage policies by using PowerShell, use the following cmdlets:
 
 - [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
 
