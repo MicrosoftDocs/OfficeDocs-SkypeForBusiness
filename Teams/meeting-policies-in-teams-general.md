@@ -34,9 +34,10 @@ This article describes the following general policy settings for Teams meetings:
 - [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Designated presenter role mode](#designated-presenter-role-mode)
 - [Engagement report](#engagement-report)
-- [Meeting registration](#meeting-registration)
+- [Webinar registration](#webinar-registration)
 - [Who can register](#who-can-register)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
+- [Meeting reactions](#meeting-reactions)
 - [Speaker Coach](#speaker-coach)
 
 ## Meet now in channels
@@ -133,17 +134,17 @@ When this policy is enabled, the option to download the meeting attendance repor
 
 For more information, including limits of the engagement report, see [viewing and downloading meeting attendance reports in Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-## Meeting registration
+## Webinar registration
 
 This is a per-user policy. If you turn this on, users in your organization can set up webinars. This policy is enabled by default.
 
-To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**. To turn off meeting registration, set the policy to **Off**.
+To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**. To turn off webinar registration, set the policy to **Off**.
 
 You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-To turn on meeting registration, set the  **MeetingRegistration** parameter to **True**. This is set to **True** by default.
+To turn on webinar registration, set the  **WebinarRegistration** parameter to **True**. This is set to **True** by default.
 
-To turn off meeting registration and prevent users from scheduling webinars, set the parameter to **False**.
+To turn off webinar registration and prevent users from scheduling webinars, set the parameter to **False**.
 
 ## Who can register
 
