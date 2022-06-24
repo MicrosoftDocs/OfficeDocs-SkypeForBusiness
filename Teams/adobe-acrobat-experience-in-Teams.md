@@ -28,13 +28,9 @@ After you set Adobe Acrobat as default app, all PDF files from the chat, channel
 
 To set up Adobe Acrobat as default app, follow these steps:
 
-1. Log in [Teams admin center](https://admin.teams.microsoft.com/).
-
-   :::image type="content" source="media/teams-admin-center-main-page.PNG" alt-text="teams admin center dashboard":::
+1. Log in to [Teams admin center](https://admin.teams.microsoft.com/).
 
 1. Go to **Teams app** > **Manage apps**.
-
-   :::image type="content" source="media/teams-admin-center-teams-app.PNG" alt-text="Teams admin center manage apps in left pane":::
 
 1. Search for the Adobe Acrobat app and select **Adobe Acrobat** app.
 
@@ -54,15 +50,13 @@ To set up Adobe Acrobat as default app, follow these steps:
 
 You can use the Global (Org-wide default) policy to assign and make the Adobe Acrobat app available for all users. To assign the Adobe Acrobat app for all users, follow these steps:
 
-1. Log in [Teams admin center](https://admin.teams.microsoft.com/).
+1. In Teams admin center, go to **Teams app** > [**Setup policies**](https://admin.teams.microsoft.com/policies/app-setup).
 
-1. Go to Teams app and select **Setup policies** from left pane.
-
-1. Select **Global (Org-wide default)**, and then select **Edit**.
+1. Under Manage policies, select **Global (Org-wide default)**, and then select **Edit**.
 
    :::image type="content" source="media/setup-policies.PNG" alt-text="setup-policies in Teams admin center":::
 
-1. Select **Add apps**. A add installed app pane appears.
+1. Select **Add apps**. A Add installed app pane appears.
 
 1. Search **Adobe Acrobat** and select the app and select **Add**.
 
@@ -73,5 +67,5 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 > [!NOTE]
 >
 > * After the policy is setup, it typically takes few hours for users to view the app.
-> * Adobe Acrobat doesn't support users to pin PDF files as a tab on channel.
+> * Currently, Adobe Acrobat doesn't allow users to pin PDF files as a tab on a channel.
 > * PDF experience inside Assignments app will remain within Teams experience.
