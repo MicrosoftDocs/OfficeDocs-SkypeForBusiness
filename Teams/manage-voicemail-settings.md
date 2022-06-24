@@ -1,9 +1,9 @@
 ---
-title: "Manage Voicemail Policies"
-author: dstrome
-ms.author: dstrome
+title: "Manage Cloud Voicemail settings"
+author: crowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -21,95 +21,78 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Manage Voicemail Policies for your users."
+description: "Manage Voicemail settings for your users."
 ---
 
-# Setting voicemail policies in your organization
+# Manage Cloud Voicemail settings for users
 
-> [!WARNING]
-> For Skype for Business customers, disabling voicemail through a Microsoft Teams calling policy might also disable the voicemail service for your Skype for Business users.
+Voicemail settings allow you to configure voicemail settings for individual users.
 
-You can use voicemail policies to control different features related to Cloud Voicemail.
+Before configuring voicemail settings for your users, you should read [Set up Cloud Voicemail(set-up-phone-system-voicemail.md). For information about setting policies for groups of users, see [Manage Voicemail policies](manage-voicemail-policies).
 
-## Voicemail organization defaults for all users
-- Voicemail transcription is enabled.
-- Voicemail transcription translation is enabled.
-- Voicemail transcription profanity masking is disabled.
-- The maximum recording duration is set to five minutes.
-- Editing call answering rules is enabled.
-- Primary and secondary system prompt languages are set to null and the user's voicemail language setting is used.
+The default settings for Cloud Voicemail are:
 
-You can use the global (Org-wide default) policy that's created automatically or create and assign custom policies.
-
-## Create a custom voicemail policy
-
-Follow these steps to create a custom voicemail policy.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voicemail policies**.
-2. Select **Add**.
-3. Turn on or turn off the features that you want to use in your voicemail policy.
-4. Select **Save**.
-
-## Edit a voicemail policy
-
-Follow these steps to edit an existing voicemail policy.
-
-1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Voicemail policies**.
-2. Click next to the policy that you want to modify, and then select **Edit**.
-3. Make the changes that you want, and then click **Save**.
-
-> [!IMPORTANT]
-> You can't edit or remove the pre-configured policy instances called TranscriptionDisabled and TranscriptionProfanityMaskingEnabled.
+- Voicemail is enabled.
+- The prompt language is set to the user’s preferred language.
+- The out-of-office greeting is disabled.
+- The out-of-office greeting, when automatic replies are set in Outlook, is disabled.
+- The out-of-office greeting, when the calendar in Outlook shows out-of-office, is disabled.
+- Sharing of voicemail and transcription data with the service for training and improving accuracy purposes is disabled.
+- The call answering rule is set to Regular Voicemail.
+- The default greeting prompt overwrite is not set.
+- The default out-of-office greeting prompt overwrite is not set.
+- The transfer target is not set.
 
 
-## Assign a custom voicemail policy to users
+To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell.
 
-[!INCLUDE [assign-policy](includes/assign-policy.md)]
+Note that your end users can configuralso e these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
 
-## Voicemail policy settings
-  
-### Enable transcription
+## Use Teams admin center
 
-This setting controls whether the Cloud Voicemail service will generate a text transciption of the recorded voicemail and include it in the voicemail message. The transcription will be done based on the language detected in the recorded voicemail.
+In the Teams admin center:
 
-### Transcription translation
+1.	In the left navigation, go to **Users > Manage users** and select the user.
 
-This setting controls whether the Cloud Voicemail service will translate the transcription of the recorded voicemail. The translation will be attempted into the
-preferred language of the voicemail receiver.
+2.	On the user details page, go to the **Voicemail** tab.
 
-### Transcription profanity masking
+3.	Change the settings.
 
-This setting controls whether the Cloud Voicemail service will mask profanity found in the transcription of the voicemail.
+4.	Select **Save**.
 
-### Maximum recording duration
 
-The maximum recording length controls the maximum time a voicemail can be recorded. The default is 5 minutes.
+## Use PowerShell
 
-### Call answering rules
+You can also use PowerShell to manage voicemail settings as follows:
 
-This setting controls whether the user is allowed to configure voicemail call answering rules in Microsoft Teams.
+- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet. 
 
-### Dual language system prompts
+- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false. This setting will ensure that Cloud Voicemail can no longer record a voicemail for the user.
 
-By default, the voicemail system prompts are presented to callers in the language selected by the user when setting up their voicemail. If there is a business 
-requirement to have the voicemail system prompts presented in two languages, a primary and secondary language can be set and they may not be the same.
+## Voicemail settings
 
-### Share data for service improvements
+- **Voicemail enabled** - This setting controls whether Cloud Voicemail is enabled for the user. If the settings is false, Cloud Voicemail service will not be available for the user and will not record a voicemail for the user.
 
+- **Prompt language** - This setting specifies the language used for the prompts in the Cloud Voicemail. For more information see https://docs.microsoft.com/microsoftteams/change-the-default-language-for-greetings-and-emails.
+
+- **Greeting settings** - Cloud Voicemail is able to play a specific greeting for when the user is in the office and for when the user is out-of-office. Both greetings can be recorded by the user or a text-to-speech greeting can be used.
+
+- **Default Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that will be played in case the user has not recorded a greeting.
+
+Oof Greeting Enabled specifies whether the out-of-office greeting is played in voicemail deposit scenario, no matter Outlook settings.
+Oof Greeting Follow Automatic Replies Enabled specifies whether to play out-of-office greeting in voicemail deposit scenario when user set automatic replies in Outlook.
+Oof Greeting Follow Calendar Enabled specifies whether to play out-of-office greeting in voicemail deposit scenario when user set out-of-office in calendar.
+Default Oof Greeting Prompt Overwrite specifies the text-to-speech greeting that will be played in case the user is out-of-office and has not recorded an out-of-office  greeting.
+Call answering rule
+This setting specifies the call answering rule. The rule can be:
+•	The service declines the call with no message
+•	Only the relevant greeting (normal or out-of-office) is played
+•	The relevant greeting (normal or out-of-office) is played and the caller is transferred to the specified user or phone number
+•	The relevant greeting (normal or out-of-office) is played and the caller can leave a voicemail
+•	The relevant greeting (normal or out-of-office) is played, the caller can leave a voicemail and is allowed to press 0 to be transferred to the specified user or phone number
+Share data for service improvements
 Specifies whether voicemail and transcription data is shared with the service for training and improving accuracy. If set to false, voicemail data will not be shared, regardless of user choice.
+Call transfer
+Specifies the user or phone number that the caller is transferred to.
 
 
-> [!IMPORTANT]
-> The voicemail service in Microsoft 365 and Office 365 caches voicemail policies and updates the cache every 6 hours. So, policy changes that you make can take up to 6 hours to be applied.
-
-## Related articles
-
-[New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
-
-[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
-
-[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
-
-[Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/grant-csonlinevoicemailpolicy)
-
-[Remove-CsOnlineVoicemailPolicy](/powershell/module/skype/remove-csonlinevoicemailpolicy)
