@@ -27,7 +27,7 @@ You manage apps for your organization in **Teams apps** page in the Teams admin 
 To use Teams admin center, you must have a Global Admin or Teams Administrator role. For details, see the following help articles:
 
 * [Teams administrator roles](./using-admin-roles.md).
-* [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+* [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles)
 
 To manage apps, you use policies to control permissions for users, installation of apps, and upload of custom apps created within your organization. To understand policies, see [Overview of app policies](app-policies.md).
 
@@ -198,4 +198,4 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
 ## See also
 
-* [Manage Teams during the transition from Skype for Business admin center](../manage-teams-skypeforbusiness-admin-center.md)
+* [Manage Teams during the transition from Skype for Business admin center](manage-teams-skypeforbusiness-admin-center.md)
