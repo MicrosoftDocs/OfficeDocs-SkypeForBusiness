@@ -46,9 +46,9 @@ To set up Adobe Acrobat as default app, follow these steps:
 
    :::image type="content" source="media/teams-app-adobe-acrobat-permission.PNG" alt-text="app permission in Teams admin center":::
 
-Now you've successfully added Adobe Acrobat as a default app.
+   Now you've successfully added Adobe Acrobat as a default app.
 
-:::image type="content" source="media/consent-permission.png" alt-text="Teams admin center adobe app consent":::
+   :::image type="content" source="media/consent-permission.png" alt-text="Teams admin center adobe app consent":::
 
 ## Make Adobe Acrobat app available for users
 
