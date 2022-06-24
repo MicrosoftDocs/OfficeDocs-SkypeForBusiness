@@ -58,7 +58,7 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 1. Select **Add apps**. A Add installed app pane appears.
 
-1. Search **Adobe Acrobat** and select the app and select **Add**.
+1. Search **Adobe Acrobat** and select the app and then select **Add**.
 
 1. Select **Save**.
 
