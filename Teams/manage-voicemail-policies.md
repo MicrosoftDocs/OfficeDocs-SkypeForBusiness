@@ -31,7 +31,7 @@ description: "Manage Voicemail Policies for your users."
 
 Voicemail policies allow you to configure and assign existing or new voicemail policies to groups of users for features such as call answering rules, voicemail transcription, transcription profanity masking, transcription translation, and system prompt language.
 
-Before specifying policies, you should read [Set up Cloud Voicemail](set-up-phone-system-voicemail). For information on managing settings for individual users, see [Manage Voicemail setltings](manage-voicemail-settings.md).
+Before specifying policies, you should read [Set up Cloud Voicemail](set-up-phone-system-voicemail.md). For information on managing settings for individual users, see [Manage Voicemail setltings](manage-voicemail-settings.md).
 
 To manage voicemail policies, you can use the Teams admin center or the New-CsOnlineVoicemailPolicy PowerShell cmdlet. 
 
