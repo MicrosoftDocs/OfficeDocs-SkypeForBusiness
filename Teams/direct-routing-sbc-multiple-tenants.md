@@ -129,10 +129,14 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 ### Activate the domain name
 
-After you have registered a domain name, you need to activate it by adding at least one user with a Phone System license and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain.
+After you have registered a domain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
 
-> [!NOTE]
-> The Carrier tenant must keep at least one Phone System license assigned to the tenant to avoid removal of the Skype for Business configuration. 
+- User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
+- User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
+- User Account with Common Area Phone
+- Resource Account with Virtual User License
+
+Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created domain.
 
 *For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
