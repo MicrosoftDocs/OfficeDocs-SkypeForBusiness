@@ -110,4 +110,4 @@ Team templates can't be used to create an organization-wide team. Work for this 
 
 ## See also
 
-Watch a video about [creating a company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Watch a video about [How to create an org-wide team in Microsoft Teams](https://www.youtube.com/watch?v=x3qGlwwCz_w).
