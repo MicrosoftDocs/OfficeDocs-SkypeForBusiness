@@ -49,9 +49,12 @@ However, your situation might be more complex. For example, you might have offic
 
 For a visual summary of all the voice solution options, see the voice solutions poster.
 
-| Item | Description |
+| Item | Format |
 |:-----|:-----|
-|[[Microsoft Voice Solutions poster](/media/microsoft-voice-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/> [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) \| [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx) <br/>Updated June 2022 | This poster helps you decide which Microsoft voice solution is right for users in your organization. It describes Phone System, Microsoft's technology for Private Branch Exchange (PBX) capabilities in with Microsoft Teams. The poster also describes options for connecting Phone System to the Public Switched Telephone Network (PSTN).   | 
+|[Microsoft Voice Solutions poster](/media/microsoft-voice-solutions-thumb.png)<br/>  | 
+[PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br>
+[Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
+
 
 
 
