@@ -50,12 +50,9 @@ However, your situation might be more complex. For example, you might have offic
 For a visual summary of all the voice solution options, see the voice solutions poster.
 
 | Item | Format |
-|:-----|:-----|
-|[Microsoft Voice Solutions poster](/media/microsoft-voice-solutions-thumb.png)<br/>  | 
-[PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br>
-[Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
-
-
+| :-----|:-----| 
+| ![Microsoft Voice Solutions poster.](/media/microsoft-voice-solutions-thumb.png)  | [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br>[Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx) |
+|
 
 
 >[!NOTE]
