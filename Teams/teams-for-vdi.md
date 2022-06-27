@@ -513,7 +513,7 @@ The following are known issues and limitations for calling and meetings:
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
 - Live events are not optimized.
 - Outgoing screen sharing:
-  - Application sharing is not supported for VMware and AVD/W365
+  - Application sharing is not supported for VMware and AVD/W365.
 - Give control and take control:
   - Not supported during application sharing session.
 
