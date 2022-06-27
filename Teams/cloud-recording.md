@@ -36,7 +36,7 @@ When a meeting is recorded, it's automatically:
 
 Related: [Teams meeting recording end user documentation](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
->[!Note]
+> [!NOTE]
 > The change from using Microsoft Stream (classic) to OneDrive for Business and SharePoint Online for meeting recordings would have happened automatically in August 2021. For detailed information, see [Use OneDrive for Business and SharePoint Online or Stream for meeting recordings](tmr-meeting-recording-change.md).
 
 > [!NOTE]
