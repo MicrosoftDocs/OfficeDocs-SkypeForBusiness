@@ -24,7 +24,7 @@ Q&A is an integrated meeting experience that gives participants the opportunity 
 This article describes how to manage Q&A and user-level policies which dictate whether an organizer can enable Teams Q&A in their meetings.
 
 > [!NOTE]
-> This feature is currently in private preview and is not publicly accessible. If you'd like to participate in the private preview program, sign up [here](https://m365crmedu.powerappsportals.com/LMSSignup/)
+> This feature is currently in private preview and is not publicly accessible. If you'd like to participate in the private preview program, sign up [here.](https://m365crmedu.powerappsportals.com/LMSSignup/)
 
 
 ## Prerequisites
