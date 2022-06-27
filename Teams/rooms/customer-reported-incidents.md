@@ -51,6 +51,8 @@ The ticket's Details Overview section displays that the ticket was closed by the
 
  ![screenshot of who closed the ticket ](../media/customer-reported-incidents-005.png)
 
+## FAQ
+
 **Can anyone close tickets?**
 
 Only Customer-reported incidents can be closed by a user or Microsoft’s Managed Rooms Service Operations center. Customers who have assigned a Partner to manage their rooms with Ticket Management permissions will have the ability to close Customer-reported Incidents.
