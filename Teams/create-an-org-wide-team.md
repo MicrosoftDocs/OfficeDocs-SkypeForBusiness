@@ -35,7 +35,7 @@ When an organization-wide team is created, all global admins and Teams service a
 
 The following types of accounts won't be added to your organization-wide team:
 
-- Accounts that are blocked from sign in
+- Accounts that are blocked from sign-in
 - Guest users
 - Resource or service accounts (for example, accounts associated with auto attendants and call queues)
 - Room or equipment accounts
