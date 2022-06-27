@@ -650,6 +650,8 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
+            - name: Manage Q&A in Teams Meetings
+              href: manage-qna-for-teams.md
             - name: Manage the Whiteboard in Teams
               href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
