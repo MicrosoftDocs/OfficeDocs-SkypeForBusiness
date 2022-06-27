@@ -1597,7 +1597,7 @@
     },
     {
       "source_path": "Teams/direct-routing-ringback-bot.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/direct-routing-configure",
+      "redirect_url": "/microsoftteams/direct-routing-configure",
       "redirect_document_id": true
     },
     {
