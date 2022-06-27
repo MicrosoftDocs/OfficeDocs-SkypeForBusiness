@@ -650,6 +650,8 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
+            - name: Manage Q&A in Teams Meetings
+              href: manage-qna-for-teams.md
             - name: Manage the Whiteboard in Teams
               href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
@@ -801,10 +803,12 @@ items:
           href: set-up-common-area-phones.md
         - name: Voicemail
           items: 
-            - name: Set up Cloud Voicemail
+            - name: Manage Cloud Voicemail
               href: set-up-phone-system-voicemail.md
             - name: Manage Voicemail policies
               href: manage-voicemail-policies.md
+            - name: Manage Voicemail settings
+              href: manage-voicemail-settings.md
             - name: Change the default language for voicemail
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
@@ -1656,7 +1660,7 @@ items:
           href: easy-policy-setup-edu.md
         - name: Parent Connection in Teams for Education
           href: edu-parents-app.md
-        - name: Career Coach app in Teams for Education
+        - name: Career Coach in Teams for Education
           href: career-coach.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
@@ -1696,8 +1700,8 @@ items:
           href: flw-quickstart.yml
         - name: Frontline Worker onboarding wizard
           href: flw-onboarding-wizard.md  
-        - name: Frontline Workers scripted deployment
-          href: flw-scripted-deployment.md
+        - name: Deploy teams at scale for frontline workers
+          href: deploy-teams-at-scale.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
         - name: Manage the Shifts app
@@ -1781,8 +1785,8 @@ items:
           href: get-started-with-retail-teams-templates.md
         - name: Frontline Worker onboarding wizard
           href: flw-onboarding-wizard.md  
-        - name: Frontline Workers scripted deployment
-          href: flw-scripted-deployment.md
+        - name: Deploy teams at scale for frontline workers
+          href: deploy-teams-at-scale.md
         - name: Shifts for Teams
           items: 
             - name: Shifts for Teams

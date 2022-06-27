@@ -35,7 +35,7 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 - **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
   - In M365 Admin Center enable "Let people outside the organization email this team" for the Microsoft 365 group that you specify
-- **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
 - **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
 
@@ -52,11 +52,11 @@ The steps outlined in the article create auto attendants using the Teams admin c
 
 ## Follow these steps to set up your auto attendant
 
-To set up an auto attendant, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Auto attendants**, and then select **Add**.
-
 # [Step 1 - General info](#tab/general-info)
 
 ## Step 1 - Set the auto attendant's general information
+
+To set up an auto attendant, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Auto attendants**, and then select **Add**.
 
 1. Type a name for the auto attendant in the box at the top.
 
@@ -72,6 +72,7 @@ To set up an auto attendant, in the [Teams admin center](https://go.microsoft.co
    > If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
 
 Once you've set your auto attendant's general info, select **Next**.
+
 
 # [Step 2 - Basic call flow](#tab/call-flow)
 
