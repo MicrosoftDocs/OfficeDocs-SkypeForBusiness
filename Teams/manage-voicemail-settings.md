@@ -44,7 +44,7 @@ The default settings for Cloud Voicemail are:
 - The transfer target is not set.
 
 
-To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell.Note that your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
+To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell. Note that your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
 
 ## Use Teams admin center
 
