@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Customer-reported incidents
 author: donnah007
 ms.author: v-donnahill
-ms.date: 5/27/2022
+ms.date: 06/27/2022
 manager: serdars
 ms.reviewer: dstrome 
 ms.topic: article
