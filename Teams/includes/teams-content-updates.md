@@ -2,6 +2,23 @@
 
 
 
+## Week of June 20, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/20/2022 | [Configure ServiceNow for Teams Rooms](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | modified |
+| 6/21/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
+| 6/21/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
+| 6/21/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/21/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
+| 6/22/2022 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
+| 6/23/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
+| 6/23/2022 | [Purchase, configure, and enable Career Coach for Microsoft Teams for Education](/MicrosoftTeams/career-coach) | modified |
+| 6/23/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
+| 6/24/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+
+
 ## Week of June 13, 2022
 
 
@@ -167,20 +184,3 @@
 | 5/27/2022 | [Manage the Frontline Trial in Teams](/MicrosoftTeams/flw-trial) | added |
 | 5/27/2022 | [Teams PowerShell Module - Supported Versions](/MicrosoftTeams/teams-powershell-supported-versions) | modified |
 | 5/27/2022 | [Monitor Microsoft Teams Rooms devices with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-manage) | modified |
-
-
-## Week of May 16, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/17/2022 | [Use the Microsoft Teams Meeting add-in in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modified |
-| 5/18/2022 | [Call park and retrieve in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modified |
-| 5/18/2022 | [Virtual appointments with Teams - Integration into Epic EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
-| 5/19/2022 | [Shifts connectors](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connectors) | modified |
-| 5/20/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 5/20/2022 | [Change the default language for greetings and emails](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | modified |
-| 5/20/2022 | [Teams languages for voicemail greetings and messages](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | modified |
-| 5/20/2022 | [Manage emergency call routing policies for Direct Routing](/MicrosoftTeams/manage-emergency-call-routing-policies) | modified |
-| 5/20/2022 | [Manage emergency calling policies in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modified |
-| 5/20/2022 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
