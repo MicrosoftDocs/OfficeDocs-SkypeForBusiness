@@ -47,6 +47,14 @@ However, your situation might be more complex. For example, you might have offic
 - Phone System  with your own PSTN carrier with Direct Routing
 - A combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, and/or Phone System with Direct Routing
 
+For a visual summary of all the voice solution options, see the voice solutions poster.
+
+| Item | Description |
+|:-----|:-----|
+|[![Microsoft Voice Solutions poster.](/media/microsoft-voice-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/> [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) \| [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx) <br/>Updated June 2022 | |
+
+This poster helps you decide which Microsoft telephony solution is right for users in your organization. It describes Phone System, Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in Microsoft 365 with Microsoft Teams. The poster also describes options for connecting Phone System to the Public Switched Telephone Network (PSTN).  
+
 >[!NOTE]
 >If you’re a small to medium business (300 or fewer people), Microsoft now bundles Phone System with a Domestic Calling Plan. For more information, see [Phone System guidance for small and medium businesses](/microsoftteams/business-voice/whats-business-voice) to help you plan, set up, and manage your voice solution.
 
