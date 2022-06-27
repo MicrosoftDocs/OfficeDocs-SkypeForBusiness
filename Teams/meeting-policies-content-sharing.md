@@ -123,6 +123,8 @@ Amanda can't share the whiteboard in a meeting even if she's the meeting organiz
 
 To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
 
+### Annotation
+
 When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If whiteboard is disabled, users will not have access to annotation.
 
 ## Shared notes
