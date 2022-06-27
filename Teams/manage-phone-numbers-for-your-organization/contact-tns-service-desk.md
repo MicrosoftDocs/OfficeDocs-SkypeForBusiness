@@ -34,14 +34,14 @@ There is a new process to interact with the Telephone Number Services (TNS) serv
 
 To contact the service desk:
 
-1. Log in to your [Teams admin center](https://admin.teams.microsoft.com).
+1. Log in to [Teams admin center](https://admin.teams.microsoft.com).
 
 2. In the left-hand pane, select **Voice**, and then **Phone numbers**.
 
-3. In the upper right corner of the page, click Actions, then select **Get phone number support**. You will be transfered to the **Phone Number Service Center** (Service Desk Portal).
+3. In the upper right corner of the page, click **Actions**, then select **Get phone number support**. You will be transfered to the **Phone Number Service Center** (Service Desk Portal).
 
 > [!NOTE]
-> Only someone from the same tenant will be allowed to create a case. That is, someone from @fabrikam.com cannot create a case on behalf of @contoso.com.
+> Only someone from the same tenant is allowed to create a case. For example, someone from @fabrikam.com can't create a case on behalf of @contoso.com.
 
 From the Phone Number Service Center, you can create new cases, view existing cases, communicate with the service desk, and manage your user profile. These tasks are described in more detail in the following sections.
 
@@ -71,7 +71,7 @@ To creat a new case, follow these steps:
 
 2. Provide your case details as described in detail in the [next section](#provide-case-details).
 
-3. After entering all the values, select **Submit**. You will see a new screen where you can see your case number.
+3. After entering all values, select **Submit**. You'll see a new screen where you can see your case number.
 
 ### Provide case details
 
@@ -127,7 +127,7 @@ Case type can be one of the following:
 
   - **Preferred Datetime*** - The date and time on which you want the inventory type of your numbers to be changed. See Date and time for more information.
 
-  - **Checkbox – I understand that to be able to update the inventory type, my phone numbers need to be unassigned** - Microsoft cannot process phone number type change requests unless the phone numbers within your tenant are not assigned. If you are requesting this change for a future date, then you will need to ensure that the numbers are unassigned before your requested date and time.
+  - **Checkbox – I understand that to be able to update the inventory type, my phone numbers need to be unassigned** - Microsoft can't process phone number type change requests unless the phone numbers within your tenant are not assigned. If you are requesting this change for a future date, then you will need to ensure that the numbers are unassigned before your requested date and time.
 
   - **List of phone numbers** - The list of phone numbers whose type you want to change. Upload a csv file with the list of phone numbers.
 
@@ -135,7 +135,7 @@ Case type can be one of the following:
 
   - **Number Type** - Select the type for your numbers. See [Types of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Tried to get phone numbers from the Teams Admin Center Portal** - Have you tried purchasing these phone numbers from the Microsoft Teams Admin Center portal, where you can self-serve?
+  - **Tried to get phone numbers from the Teams Admin Center Portal** - Have you tried purchasing these phone numbers from the Microsoft Teams Admin Center?
 
   - **Quantity of phone numbers required** - The count of phone numbers that you want to purchase.
 
@@ -151,7 +151,7 @@ Case type can be one of the following:
 
   - **Name your port order** - Provide an easy-to-remember name for your port request.
 
-  - **Requested porting date/time*** - The date and time on which you want the numbers to port to Microsoft. Please note that this is not a guaranteed porting date, since the current number owner has to approve our port request first. See Date and time.
+  - **Requested porting date/time*** - The date and time on which you want the numbers to port to Microsoft. This is not a guaranteed porting date because the current number owner has to approve our port request first. See Date and time.
 
   - **List of porting numbers** - The list of phone numbers that you would like to port to Microsoft. Upload a csv file with the list of phone numbers.
 
@@ -188,7 +188,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
 - **Filter your cases** by selecting **Open cases**,  **All cases**, or **Closed cases**.
 
-- **Communicate with the TNS service desk** regarding your case by opening an existing case, scrolling down, and selecting **Add comment**. A new window will appear. Enter your message in the comment box. Attach any supporting documents (if available) that may assist with your request, and select **Submit**.
+- **Communicate with the TNS service desk** regarding your case by opening an existing case, scrolling down, and selecting **Add comment**. A new window will appear. Enter your message in the comment box. Attach any supporting documents (if available), and then select **Submit**.
 
   Responses from the **TNS service desk** will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update.
 
@@ -202,7 +202,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
 - For information about the calling plans that are available in your country/region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- For information that can help you select the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- For information zbout the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 - For information about managing phone numbers for your organization, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
 
