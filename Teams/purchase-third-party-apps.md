@@ -95,7 +95,7 @@ You can select an app from the list and perform the following actions:
 - Update payment methods
 - Check billing history
 
-  :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Manage subscriptions in TAC" lightbox="media/manage-subscriptions-app-actions" border="true":::
+  :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Manage subscriptions in TAC" lightbox="media/manage-subscriptions-app-actions.png" border="true":::
 
 > [!NOTE]
 > In Teams admin center, you can only view the list of subscriptions purchased by you or other admins using the same billing account. To view subscriptions purchased for a tenant or a different billing account, visit the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
