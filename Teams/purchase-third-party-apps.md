@@ -81,7 +81,7 @@ In Teams admin center, you can manage the app subscriptions and licenses you pur
 
 1. Sign in to Teams admin center.
 1. Go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
-1. Select the **Subscriptions** tab to view the of subscriptions you purchased.
+1. Select the **Subscriptions** tab to view the subscriptions you purchased.
 
    :::image type="content" source="media/manage-existing-subscriptions-all.png" alt-text="Manage existing subscriptions" lightbox="media/manage-existing-subscriptions-tac.png" border="true":::
 
@@ -106,7 +106,7 @@ Developers can create SaaS offers associated with their Teams apps. These offers
 
 Third-party app developers can go to [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer) for more information.
 
-## Related topics
+## See also
 
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer)
