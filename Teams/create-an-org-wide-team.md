@@ -35,7 +35,7 @@ When an organization-wide team is created, all global admins and Teams service a
 
 The following types of accounts won't be added to your organization-wide team:
 
-- Accounts that are blocked from sign in
+- Accounts that are blocked from sign-in
 - Guest users
 - Resource or service accounts (for example, accounts associated with auto attendants and call queues)
 - Room or equipment accounts
@@ -110,4 +110,4 @@ Team templates can't be used to create an organization-wide team. Work for this 
 
 ## See also
 
-Watch a video about [creating a company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Watch a video about [How to create an org-wide team in Microsoft Teams](https://www.youtube.com/watch?v=x3qGlwwCz_w).
