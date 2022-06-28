@@ -195,10 +195,10 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 After you have registered a subdomain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
  
-•	User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
-•	User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
-•	User Account with Common Area Phone
-•	Resource Account with Virtual User License
+-	User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
+-	User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
+-	User Account with Common Area Phone
+-	Resource Account with Virtual User License
  
 Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created subdomain.
 
