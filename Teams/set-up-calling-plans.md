@@ -94,7 +94,7 @@ The diagnostic performs a large range of verifications.
 
 If you know Windows PowerShell, you can use the following cmdlets to automate assigning phone numbers to your users. 
   
-- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignmentview=teams-ps): Retrieves the telephone numbers from the tenant.
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment?view=teams-ps): Retrieves the telephone numbers from the tenant.
     
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps): Sets the telephone numbers.
     
