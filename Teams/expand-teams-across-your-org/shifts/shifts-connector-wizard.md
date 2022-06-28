@@ -165,7 +165,7 @@ Then, map each site to a team in Teams. You can map a site to an existing team o
     |101233|Contoso US Team|3a4d78a-2261|US Team|America/Los_Angeles|
     |1045654|Contoso UK Team|2d1f6c2e-5272|UK Team|Europe/London|
 
-1. When you've created your mapping file, select **Browse** to upload it. The wizard validates your file. If it finds errors, you'll see a list of errors and a message requesting that you correct them. If no errors occur, you'll see a message to continue to the next step.  
+1. When you've created your mapping file, select **Browse** to upload it. The wizard validates your file. If it finds errors, you'll see a list of the errors, and a message requesting that you correct them. If no errors occur, you'll see a message to continue to the next step.  
 1. Select **Next**.
 
 ### Review and finish
