@@ -321,4 +321,4 @@ This list will be updated as more partners join and meet the certification crite
 
 ## Next steps
 
-If you are a vendor seeking to join the certification program, send mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
+If you are a vendor seeking to join the certification program, send sign up at http://aka.ms/TeamsPhonePartner You will receive next steps on how to proceed. If you would like to provide more details please e-mail [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
