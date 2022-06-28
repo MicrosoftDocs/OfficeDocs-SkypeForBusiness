@@ -94,9 +94,9 @@ The diagnostic performs a large range of verifications.
 
 If you know Windows PowerShell, you can use the following cmdlets to automate assigning phone numbers to your users. 
   
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps): Retrieves the telephone numbers from the Business Voice Directory.
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment): Retrieves the telephone numbers from the tenant.
     
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps): Sets the telephone numbers.
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment): Sets the telephone numbers.
     
 To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
   
