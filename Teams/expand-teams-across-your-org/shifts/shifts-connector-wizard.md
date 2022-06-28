@@ -160,7 +160,7 @@ Then, map each site to a team in Teams. You can map a site to an existing team o
 
     Here's an example of what a mapping file looks like.
 
-    |Contoso Instance|Contoso Instance ID|Team ID|Time zone|
+    |Contoso Instance|Contoso Instance ID|Team ID|Team Name|Time zone|
     |---------|---------|---------|---------|
     |101233|Contoso US Team|3a4d78a-2261|US Team|America/Los_Angeles|
     |1045654|Contoso UK Team|2d1f6c2e-5272|UK Team|Europe/London|
