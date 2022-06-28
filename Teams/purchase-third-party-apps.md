@@ -85,7 +85,7 @@ In Teams admin center, you can manage the app subscriptions and licenses you pur
 
    :::image type="content" source="media/manage-existing-subscriptions-all.png" alt-text="Manage existing subscriptions" lightbox="media/manage-existing-subscriptions-tac.png" border="true":::
 
-You can perform the following actions from the subscriptions tab:
+You can select an app from the list and perform the following actions:
 
 - View app subscriptions
 - Assign licenses
@@ -93,6 +93,7 @@ You can perform the following actions from the subscriptions tab:
 - Remove assigned or unassigned licenses
 - Activate and cancel subscriptions
 - Update payment methods
+- Check billing history
 
   :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Manage subscriptions in TAC" lightbox="media/manage-subscriptions-app-actions" border="true":::
 
