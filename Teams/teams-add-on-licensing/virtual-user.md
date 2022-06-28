@@ -31,16 +31,14 @@ All auto attendants and call queues require an associated resource account. Reso
 > [!TIP]
 > No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. See the following diagram for reference.
 
-:::image type="content" alt-text="Virtual User licenses." source="../media/resource-account.png":::
+## Resource Account license allocation
 
-## Virtual User license allocation
-
-Your organization is allotted *Microsoft Teams Phone Resource Account* licenses depending on its overall size. Any organization that has at least one license with Teams  Phone System features, including Teams Phone Standard and Teams Phone with Calling Plan licenses, has 25 Virtual User licenses available at no cost. When you add 10 Teams Phone Standard or Teams Phone with Calling Plan user licenses in your organization, one more *Microsoft Teams Phone Resource Account* license becomes available.
+Your organization is allotted *Microsoft Teams Phone Resource Account* licenses depending on its overall size. Any organization that has at least one license with Teams  Phone System features, including Teams Phone Standard and Teams Phone with Calling Plan licenses, has 25 Resource Account licenses available at no cost. When you add 10 Teams Phone Standard or Teams Phone with Calling Plan user licenses in your organization, one more *Microsoft Teams Phone Resource Account* license becomes available.
 
 > [!NOTE]
 > Teams Phone Standard and Teams Phone with Calling Plan are add-on licenses available to all Microsoft 365 subscribers. Teams Phone Standard licenses are also included as part of Microsoft 365 E5 plans.
 
-If your organization uses up the free *Microsoft Teams Phone Resource Account* licenses in creating auto attendant or call queue nodes, you can still use the paid *Teams Phone Standard* licenses with a resource account. Most organizations will have enough Virtual User licenses based on the scaling plan.
+If your organization uses up the free *Microsoft Teams Phone Resource Account* licenses in creating auto attendant or call queue nodes, you can still use the paid *Teams Phone Standard* licenses with a resource account. Most organizations will have enough Resource Account licenses based on the scaling plan.
 
 ### License allocation example
 
