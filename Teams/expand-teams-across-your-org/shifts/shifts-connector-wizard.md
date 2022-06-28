@@ -110,26 +110,29 @@ On the Sync settings page, you choose the information to sync from Blue Yonder W
 ### Map Blue Yonder Workforce Management sites to teams
 <a name="sites"> </a>
 
-Choose the Blue Yonder WFM sites that you want to connect to Shifts, and then map each site to a team in Teams. You can map up to 100 sites.
+Choose the Blue Yonder WFM sites that you want to connect to Shifts, and then map each site to a team in Teams. You can map up to 100 sites. There's two ways that you can do this:
 
-You can do this manually or you can 
+- [Manually map sites to teams](#manually-map-sites-to-teams)
+- [Prepare and upload a CSV file that defines your site-to-team mappings](#use-a-csv-file-to-map-sites-to-teams)
 
-*****
-Choose the Blue Yonder WFM sites you want to connect to Shifts. You can select up to 100 sites.
+#### Manually map sites to teams
+
+Select the sites that you want to map.
 
 :::image type="content" source="../../media/shifts-connector-wizard-sites.png" alt-text="Screenshot of wizard, showing list of Blue Yonder WFM sites." lightbox="../../media/shifts-connector-wizard-sites.png":::
 <a name="mapping"> </a>
 <a name="search_teams"> </a>
-Then, map each Blue Yonder WFM site that you selected to a team in Teams. You can map a site to an existing team or you can create a new team.
+Then, map each site to a team in Teams. You can map a site to an existing team or you can create a new team.
 :::image type="content" source="../../media/shifts-connector-wizard-search-team.png" alt-text="Screenshot of the pane showing the search team option and create a new team option." lightbox="../../media/shifts-connector-wizard-search-team.png":::
-#### To map a site to an existing team
+
+##### To map a site to an existing team
 
 1. Select the site name.
 2. In the pane, search for the team, and then select it. Keep in mind that teams that are already mapped to a site in this connection don't show up in the search.
 3. Choose the time zone and closest city.
 4. Select **Save**, and then select **Next**.
 
-#### To map a site to a new team
+##### To map a site to a new team
 
 1. Select the site name.
 2. In the pane, choose **Create a new team**. You'll be taken to a new tab in your browser where you can create a new team in the Microsoft 365 admin center.
@@ -141,6 +144,29 @@ Then, map each Blue Yonder WFM site that you selected to a team in Teams. You ca
 3. Go back to the wizard, search for, and then select the new team you created.
 4. Choose the time zone and closest city.
 5. Select **Save**, and then select **Next**.
+
+#### Use a CSV file to map sites to teams
+
+1. Select **switch to bulk mode**.
+1. Select **download the CSV template** to download a mapping template that you can customize to define your mappings.
+1. Use the template to create your mapping file. It contains these required columns, in the following order, starting with the first column:
+
+    |Column name  |Description  |
+    |---------|---------|
+    |**Contoso Instance**|The Blue Yonder WFM site name.|
+    |**Contoso Instance ID**|The Blue Yonder WFM site ID.|
+    |**Team ID**|The team ID in Teams.|
+    |**Time zone**|The time zone in tz database format. For example, Europe/London.|
+
+    Here's an example of what a mapping file looks like.
+
+    |Contoso Instance|Contoso Instance ID|Team ID|Time zone|
+    |---------|---------|---------|---------|
+    |101233|Contoso US Team|3a4d78a-2261|US Team|America/Los_Angeles|
+    |1045654|Contoso UK Team|2d1f6c2e-5272|UK Team|Europe/London|
+
+1. When you've created your mapping file, select **Browse** to upload it. The wizard validates your file. If it finds errors, you'll see a list of errors and a message requesting that you correct them. If no errors occur, you'll see a message to continue to the next step.  
+1. Select **Next**.
 
 ### Review and finish
 
