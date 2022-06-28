@@ -76,6 +76,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |C10/C20/C50 Series headsets                                |5/31/2022       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Certified for Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
