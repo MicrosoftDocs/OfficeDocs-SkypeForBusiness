@@ -37,7 +37,7 @@ You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-
 
 2. Click **Add**.
 
-3. Enter a FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use `sbc.service.contoso.com`, then `service.contoso.com` needs to be registered.
+3. Enter an FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use `sbc.service.contoso.com`, then `service.contoso.com` needs to be registered.
 
 4. Configure the following settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
 
