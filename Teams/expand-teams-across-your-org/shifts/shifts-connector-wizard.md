@@ -110,6 +110,11 @@ On the Sync settings page, you choose the information to sync from Blue Yonder W
 ### Map Blue Yonder Workforce Management sites to teams
 <a name="sites"> </a>
 
+Choose the Blue Yonder WFM sites that you want to connect to Shifts, and then map each site to a team in Teams. You can map up to 100 sites.
+
+You can do this manually or you can 
+
+*****
 Choose the Blue Yonder WFM sites you want to connect to Shifts. You can select up to 100 sites.
 
 :::image type="content" source="../../media/shifts-connector-wizard-sites.png" alt-text="Screenshot of wizard, showing list of Blue Yonder WFM sites." lightbox="../../media/shifts-connector-wizard-sites.png":::
@@ -188,7 +193,6 @@ You can view information about your connection, such as health status and sync i
 2. Select **Manage Shifts connectors**, and then choose **Manage**. Keep in mind that this option is available only if you've already set up a connection.
 
     Here, you'll see a list of all the connections you've set up by using the wizard or PowerShell, along with information about each one.
-
 
 ## Related articles
 
