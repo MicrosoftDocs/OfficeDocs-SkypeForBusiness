@@ -106,6 +106,9 @@ To create an app setup policy to install apps, follow these steps:
 > [!IMPORTANT]
 > Users can't uninstall apps that are installed by admins.
 
+>[!NOTE]
+> Using this procedure, you cannot install custom apps with configurable tabs.
+
 ## Upload custom apps
 
 To create a custom policy to allow users to upload custom apps, follow these steps:
