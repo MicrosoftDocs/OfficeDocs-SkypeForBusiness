@@ -162,7 +162,7 @@ You'll see file statistics that show:
 
 ### When will the file be deleted?
 
-The file will be deleted within five days of the expiration date, though this isn't a strict guarantee. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
+The recording is usually deleted within a day after the expiration date but in rare instances could take as long as five days. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
 
 > [!NOTE]
 > On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won't be deleted by this feature again because the expiration date has been cleared.
