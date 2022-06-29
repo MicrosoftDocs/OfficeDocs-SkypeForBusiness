@@ -77,7 +77,7 @@ Global admins can add more licenses, remove licenses, and cancel subscriptions f
 
 ## Manage subscriptions in Teams admin center
 
-In Teams admin center, you can manage the app subscriptions and licenses you purchased​. You can add or remove licenses, update billing details, and access the invoice. To manage  subscriptions, follow these steps:
+In Teams admin center, you can manage the app subscriptions and licenses you purchased​ from Teams admin center or from Teams app store. You can add or remove licenses, update billing details, and access the invoice. To manage  subscriptions, follow these steps:
 
 1. Sign in to Teams admin center.
 1. Go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
@@ -85,12 +85,12 @@ In Teams admin center, you can manage the app subscriptions and licenses you pur
 
    :::image type="content" source="media/manage-existing-subscriptions-all.png" alt-text="Manage existing subscriptions" lightbox="media/manage-existing-subscriptions-tac.png" border="true":::
 
-You can select an app from the list and perform the following actions:
+You can select an app from the list and perform one or more of the following actions:
 
 - View app subscriptions
 - Assign licenses
 - Buy licenses
-- Remove assigned or unassigned licenses
+- Remove licenses
 - Activate and cancel subscriptions
 - Update payment methods
 - Check billing history
@@ -98,7 +98,7 @@ You can select an app from the list and perform the following actions:
   :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Manage subscriptions in TAC" lightbox="media/manage-subscriptions-app-actions.png" border="true":::
 
 > [!NOTE]
-> In Teams admin center, you can only view the list of subscriptions purchased by you or other admins using the same billing account. To view subscriptions purchased for a tenant or a different billing account, visit the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
+> In Teams admin center, you can manage the app subscriptions purchased by you or other admins who are part of the same billing account. To view all the app subscriptions purchased for the same tenant by other admins or using different billing account, visit the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
 
 ## Have a SaaS offer for a Teams app that you want to list and sell in the Microsoft Teams admin center and AppSource?
 
