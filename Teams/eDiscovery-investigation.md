@@ -47,7 +47,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Meeting metadata<sup>1</sup>|Yes||
 |Name of channel|Yes||
 |Quotes|Yes|Quoted content is searchable. However, search results don't indicate that the content was quoted.|
-|Reactions (such as likes, hearts, and other reactions)|No||
+|Reactions (such as likes, hearts, and other reactions)|Yes||
 |Subject|Yes||
 |Tables|Yes||
 
