@@ -151,8 +151,8 @@ Then, map each instance to a team in Teams. You can map an instance to an existi
 1. Select **download a template file** to download a mapping template that you can use to define your mappings.
 
     :::image type="content" source="../../media/shifts-connector-wizard-mapping-file.png" alt-text="Screenshot of the Upload mapping file page of the wizard." lightbox="../../media/shifts-connector-wizard-mapping-file.png":::
-    
-1. Use the template to create your mapping file. It contains these columns, in the following order, starting with the first column. An asterisk (*) indicates a required column
+
+1. Use the template to create your mapping file. It contains these columns, in the following order, starting with the first column. An asterisk (*) indicates a required column.
 
     |Column name  |Description  |
     |---------|---------|
