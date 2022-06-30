@@ -160,7 +160,7 @@ Then, map each instance to a team in Teams. You can map an instance to an existi
     |**Time zone** (Required)|The time zone in tz database format. For example, Europe/London.|
 
     > [!NOTE]
-    > You only need to fill out the required columns to map your instances to teams.
+    > You only need to fill out the required columns (Blue Yonder Instance ID, Team ID, Time zone) to map your instances to teams.
 
     Here's an example of what a mapping file looks like.
 
