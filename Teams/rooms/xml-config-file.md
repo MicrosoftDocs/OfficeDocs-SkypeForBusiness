@@ -279,7 +279,7 @@ Front row is enabled by default. Turn off Front row if you don't want to allow e
 
 To set the scale and resolution for your Front of Room displays, add `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` to your XML configuration file with the `<MainFoRDisplay>` container. If your device is using dual displays, include `<ExtendedFoRDisplay>` container too. 
 
-If you use both `<MainFoRDisplay>` and `<ExtendedFoRDisplay>` containers together for your Teams Room using single display, the `<ExtendedFoRDisplay>` container will be ignored. Refer to the example XML and elements table above for more information.
+If you use both `<MainFoRDisplay>` and `<ExtendedFoRDisplay>` containers together for your Teams Rooms using single display, the `<ExtendedFoRDisplay>` container will be ignored. Refer to the example XML and elements table above for more information.
 
 ## See also
 
