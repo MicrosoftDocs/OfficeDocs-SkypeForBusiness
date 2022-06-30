@@ -81,7 +81,7 @@ Developers can create SaaS offers associated with their Teams apps. These offers
 
 Third-party app developers can go to [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer) for more information.
 
-## Related topics
+## See also
 
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer)
