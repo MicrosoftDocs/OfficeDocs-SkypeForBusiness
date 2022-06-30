@@ -268,7 +268,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Join Cisco WebEx meetings from Teams Rooms with direct guest join
+- Join Cisco Webex meetings from Teams Rooms with direct guest join
 - Teams Admin Center enablement and auto-enrollment
 - Windows 10 1909 release support
 - Switch to video gallery layout even when content is present
