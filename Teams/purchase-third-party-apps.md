@@ -98,7 +98,7 @@ You can select an app from the list and perform one or more of the following act
   :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Manage subscriptions in TAC" lightbox="media/manage-subscriptions-app-actions.png" border="true":::
 
 > [!NOTE]
-> In Teams admin center, you can manage the app subscriptions purchased by you or other admins who are part of the same billing account. To view all the app subscriptions purchased for the same tenant by other admins or using different billing account, visit the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
+> In Teams admin center, you can manage the app subscriptions purchased by you or other admins who are part of the same billing account. To view all the app subscriptions purchased for the same tenant by other admins or using different billing accounts, visit the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
 
 ## Have a SaaS offer for a Teams app that you want to list and sell in the Microsoft Teams admin center and AppSource?
 
