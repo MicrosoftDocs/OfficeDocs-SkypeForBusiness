@@ -149,23 +149,23 @@ Then, map each instance to a team in Teams. You can map an instance to an existi
 
 1. Select **switch to bulk mode**.
 1. Select **download a template file** to download a mapping template that you can use to define your mappings.
-1. Use the template to create your mapping file. It contains these columns, in the following order, starting with the first column:
+1. Use the template to create your mapping file. It contains these columns, in the following order, starting with the first column. An asterisk (*) indicates a required column
 
     |Column name  |Description  |
     |---------|---------|
-    |**Blue Yonder Instance ID** (Required)|The Blue Yonder WFM instance ID.|
+    |**Blue Yonder Instance ID*** |The Blue Yonder WFM instance ID.|
     |**Blue Yonder Instance Name**|The Blue Yonder WFM instance name.|
-    |**Team ID** (Required)|The team ID.|
+    |**Team ID*** |The team ID.|
     |**Team Name**|The team name.|
-    |**Time zone** (Required)|The time zone in tz database format. For example, Europe/London.|
+    |**Time zone*** |The time zone in tz database format. For example, Europe/London.|
 
     > [!NOTE]
-    > You only need to fill out the required columns (Blue Yonder Instance ID, Team ID, Time zone) to map your instances to teams.
+    > You only need to fill out the required columns (Blue Yonder Instance ID, Team ID, Time zone) to map instances to teams.
 
     Here's an example of what a mapping file looks like.
 
     |Blue Yonder Instance ID|Blue Yonder Instance Name|Team ID|Team Name|Time zone|
-    |---------|---------|---------|---------|
+    |---------|---------|---------|---------|---------|
     |2111|Contoso US Team|3a4d78a-2561|US Team|America/Los_Angeles|
     |3212|Contoso UK Team|2d1f6c2e-5772|UK Team|Europe/London|
     |4865||bfa6o89e-1328||America/Toronto|
