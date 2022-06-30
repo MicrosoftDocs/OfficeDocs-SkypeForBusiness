@@ -169,8 +169,8 @@ Then, map each instance to a team in Teams. You can map an instance to an existi
 
     |Blue Yonder Instance ID|Blue Yonder Instance Name|Team ID|Team Name|Time zone|
     |---------|---------|---------|---------|---------|
-    |2111|Contoso US Team|3a4d78a-2561|US Team|America/Los_Angeles|
-    |3212|Contoso UK Team|2d1f6c2e-5772|UK Team|Europe/London|
+    |2111|Contoso US Team|3a4d78a-2261|US Team|America/Los_Angeles|
+    |3212|Contoso UK Team|2d1f6c2e-5272|UK Team|Europe/London|
     |4865||bfa6o89e-1328||America/Toronto|
 
 1. When you've created your mapping file, select **Browse** to upload it. The wizard validates your file. If it finds errors, you'll see a list of the errors, and a message requesting that you correct them. Otherwise, you'll see a message to continue to the next step.  
