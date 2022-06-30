@@ -33,7 +33,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 
 |Content type|eDiscoverable|Notes|
 |---|---|---|
-|Audio recordings|No||
+|Audio recordings|Yes||
 |Card content|Yes|See [Search for card content](#search-for-card-content) for more information.|
 |Chat links|Yes||
 |Chat messages|Yes|This includes content in standard Teams channels, 1:1 chats, 1:N group chats, and chats with guest user participants.|
@@ -46,7 +46,6 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Meeting IM conversations|Yes||
 |Meeting metadata<sup>1</sup>|Yes||
 |Name of channel|Yes||
-|Private and shared channel chat messages|Yes||
 |Quotes|Yes|Quoted content is searchable. However, search results don't indicate that the content was quoted.|
 |Reactions (such as likes, hearts, and other reactions)|Yes||
 |Subject|Yes||
