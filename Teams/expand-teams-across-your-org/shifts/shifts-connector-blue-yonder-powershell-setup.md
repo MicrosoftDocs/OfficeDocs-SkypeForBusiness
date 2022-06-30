@@ -25,11 +25,11 @@ Use the [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#
 
 In this article, we walk you through how to use PowerShell to set up and configure the connector to integrate Shifts with Blue Yonder WFM.
 
-To set up the connection, you run a PowerShell script. The script configures the connector, applies sync settings, creates the connection, and maps Blue Yonder WFM sites to teams. Sync settings determine the features enabled in Shifts and the schedule information that's synced between Blue Yonder WFM and Shifts. Mappings define the sync relationship between your Blue Yonder WFM sites and teams in Teams. You can map to existing teams and new teams.
+To set up the connection, you run a PowerShell script. The script configures the connector, applies sync settings, creates the connection, and maps Blue Yonder WFM instances to teams. Sync settings determine the features enabled in Shifts and the schedule information that's synced between Blue Yonder WFM and Shifts. Mappings define the sync relationship between your Blue Yonder WFM instances and teams in Teams. You can map to existing teams and new teams.
 
 We provide two scripts. You can use either script, depending on whether you want to map to existing teams or create new teams to map to.
 
-You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a Blue Yonder WFM site can only be mapped to one team at any given time. If a site is already mapped to a team, it can't be mapped to another team.
+You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a Blue Yonder WFM instance can only be mapped to one team at any given time. If an instance is already mapped to a team, it can't be mapped to another team.
 
 With Blue Yonder WFM as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can continue to use Blue Yonder WFM to set up schedules.
 
@@ -63,7 +63,7 @@ When you're prompted, sign in using your admin credentials. You're now set up to
 ## Identify the teams you want to map
 
 > [!NOTE]
-> Complete this step if you're mapping Blue Yonder WFM sites to existing teams. If you're creating new teams to map to, you can skip this step.
+> Complete this step if you're mapping Blue Yonder WFM instances to existing teams. If you're creating new teams to map to, you can skip this step.
 
 In the Azure portal, go to the [All groups](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) page to get a list of the TeamIds of teams in your organization.
 
@@ -94,7 +94,7 @@ The script does the following actions. You'll be prompted to enter setup and con
     > The script enables sync for all these options. If you want to change sync settings, you can do so after the connection is set up. To learn more, see [Use PowerShell to manage your Shifts connection to Blue Yonder Workforce Management](shifts-connector-powershell-manage.md).
 
 1. Creates the connection.
-1. Maps Blue Yonder WFM sites to teams. Mappings are based on the Blue Yonder WFM site IDs and TeamIds that you enter or new teams you create, depending on the script that you run. If a team has an existing schedule, the script removes schedule data for the date and time range that you specify.
+1. Maps Blue Yonder WFM instances to teams. Mappings are based on the Blue Yonder WFM instance IDs and TeamIds that you enter or new teams you create, depending on the script that you run. If a team has an existing schedule, the script removes schedule data for the date and time range that you specify.
 
 A Success message on the screen indicates that your connection is successfully set up.
 
