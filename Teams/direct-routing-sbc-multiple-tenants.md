@@ -129,12 +129,16 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 ### Activate the domain name
 
-After you have registered a domain name, you need to activate it by adding at least one user with a Phone System license and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain.
+After you have registered a domain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
 
-> [!NOTE]
-> The Carrier tenant must keep at least one Phone System license assigned to the tenant to avoid removal of the Skype for Business configuration. 
+- User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
+- User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
+- User Account with Common Area Phone
+- Resource Account with Virtual User License
 
-*For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
+Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created domain.
+
+For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 For example: test@customers.adatum.biz
 
@@ -189,9 +193,16 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 ### Activate the subdomain name
 
-After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant. 
+After you have registered a subdomain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
+ 
+-	User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
+-	User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
+-	User Account with Common Area Phone
+-	Resource Account with Virtual User License
+ 
+Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created subdomain.
 
-*For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
+For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 For example: test@sbc1.customers.adatum.biz
 
@@ -217,7 +228,7 @@ Two new entities were introduced:
    New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
     ```
 
-- A derived trunk that doesn't require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The derived trunk doesn't need to be created in PowerShell, and the association with the carrier trunk is based on the FQDN name (see details below).
+- A derived trunk that doesn't require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The association with the carrier trunk is based on the FQDN name (see details below).
 
 **Provisioning logic and example**
 
@@ -230,7 +241,7 @@ Two new entities were introduced:
 Examples:
 - Customers.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
 
-- Sbc1.customers.adatum.biz – the derived trunk in a customer tenant that doesn't need to be created in PowerShell. You can add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it (use derived trunk FQDN when setting up voice routing policy in TAC under Teams-Voice-Direct Routing-Voice Routes field SBCs enrolled).
+- Sbc1.customers.adatum.biz – the derived trunk in a customer tenant. You can add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it.
 
 - Carrier will need to set up DNS record resolving derived trunk FQDN to carrier SBC IP address.
 
