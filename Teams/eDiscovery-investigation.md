@@ -48,7 +48,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Name of channel|Yes||
 |Private and shared channel chat messages|Yes||
 |Quotes|Yes|Quoted content is searchable. However, search results don't indicate that the content was quoted.|
-|Reactions (such as likes, hearts, and other reactions)|Yes||
+|Reactions (such as likes, hearts, and other reactions)|Yes|Reactions are supported for all commercial customers after June 15th, 2022. Reactions before this date are not available for eDiscovery. Government cloud support is planned. There is no legal hold support for reactions.|
 |Subject|Yes||
 |Tables|Yes||
 
