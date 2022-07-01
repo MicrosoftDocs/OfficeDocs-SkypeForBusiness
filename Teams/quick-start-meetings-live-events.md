@@ -173,6 +173,8 @@ To run a successful event, follow the practices outlined below:
 
 Your organizers and presenters should implement the below recommendations:
 
+- For meetings with more than 10 participants, use [Q&A](/MicrosoftTeams/manage-qna-for-teams) to give participants the opportunity to formally ask and receive answers to questions, as well as engage in structured discussions.
+
 - To create a smooth meeting, event organizers can set pre-defined presenters. After a meeting has started, presenters also can promote other attendees to the presenter role.
 
 - Define a co-organizer via meeting options (Public preview)
