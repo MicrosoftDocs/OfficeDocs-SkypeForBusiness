@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 and Office 365 URLs and IP address ranges
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
