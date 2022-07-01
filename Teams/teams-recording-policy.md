@@ -322,4 +322,4 @@ This list will be updated as more partners join and meet the certification crite
 
 ## Next steps
 
-If you are a vendor seeking to join the certification program, send mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
+If you are a vendor seeking to join the certification program, fill out [this form](http://aka.ms/CallingPlatformIntake) as the next step. If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
