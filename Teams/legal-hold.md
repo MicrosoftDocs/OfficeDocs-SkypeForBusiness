@@ -1,7 +1,7 @@
 ---
 title: Place a Microsoft Teams user or team on legal hold
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -12,7 +12,7 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: "Learn to place a Microsoft Teams user or team on legal hold using the Microsoft 365 compliance center and learn what needs a legal hold based on data requirements."
+description: "Learn to place a Microsoft Teams user or team on legal hold using the Microsoft Purview compliance portal and learn what needs a legal hold based on data requirements."
 appliesto: 
   - Microsoft Teams
 ---
@@ -30,16 +30,16 @@ Within Microsoft Teams, an entire team or select users can be put on legal hold.
 > Placing a user on hold does not automatically place a group on hold or vice-versa.
 > Notifications sent in activity feeds can't be placed on hold.
 
-To put a user or a team on legal hold in a Core eDiscovery case:
+To put a user or a team on legal hold in a eDiscovery (Standard) case:
 
-1. Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com). When you create a new case, you're presented with the option to place mailboxes or sites on hold.
+1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com). When you create a new case, you're presented with the option to place mailboxes or sites on hold.
 
 2. Go to **eDiscovery** > **Core** and create a case by clicking **Create a case**. After the case is created, open it.
   
    ![Microsoft Teams eDiscovery tab is selected, showing the Create a case button.](media/LegalHold1.png)
 
    > [!NOTE]
-   > You can also place a user on a hold that's associated with an Advanced eDiscovery case. For more information, see [Manage holds in Advanced eDiscovery](/microsoft-365/compliance/managing-holds).
+   > You can also place a user on a hold that's associated with an eDiscovery (Premium) case. For more information, see [Manage holds in eDiscovery (Premium)](/microsoft-365/compliance/managing-holds).
 
 3. Go to the **Holds** tab on the top menu and click **Create** to create a hold. Placing a user or a team on hold preserves all the messages exchanged by those users. When you create a new case, you're presented with the option to place mailboxes or sites on hold.
 

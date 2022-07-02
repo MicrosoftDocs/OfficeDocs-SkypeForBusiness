@@ -69,7 +69,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **Set the policy on the tenant level with the following cmdlet**.
 
 ```powershell
-Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 All users of the tenant who don't have any dialout policy assigned will get this policy. Other users remain with their current policy.

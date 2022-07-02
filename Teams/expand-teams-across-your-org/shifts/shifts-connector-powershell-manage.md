@@ -2,7 +2,7 @@
 title: Use PowerShell to manage your Shifts connection to Blue Yonder Workforce Management
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: 
+ms.reviewer:
 manager: samanro
 ms.topic: article
 audience: admin
@@ -10,10 +10,10 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to use PowerShell to manage your Shifts connection to Blue Yonder Workforce Management.
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
@@ -57,6 +57,7 @@ This article describes how to use PowerShell to do the following:
     When you're prompted, sign in using your admin credentials. You're now set up to run the scripts in this article and Shifts connector cmdlets.
 
 ## Check connection setup status
+
 <a name="setup_status"> </a>
 
 To check the status of the connection you set up using the operation ID that you received in email:
@@ -68,9 +69,10 @@ To check the status of the connection you set up using the operation ID that you
     Get-CsTeamsShiftsConnectionOperation -OperationId <YourOperationId>
     ```
 
-To learn more, see [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps).
+To learn more, see [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation).
 
 ## View an error report for a connection
+
 <a name="error_report"> </a>
 
 You can run a report that shows error details for a connection. The report lists team and user mappings that succeeded and failed. It also provides information about any issues related to the accounts associated with the connection.
@@ -88,7 +90,7 @@ You can run a report that shows error details for a connection. The report lists
     Get-CsTeamsShiftsConnectionErrorReport -ErrorReportId <ErrorReportId>
     ```
 
-To learn more, see [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport?view=teams-ps).
+To learn more, see [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport).
 
 ## Resolve connection errors
 
@@ -99,29 +101,29 @@ User mapping errors may occur if one or more users in a Blue Yonder WFM site isn
 To view details of unmapped users, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
-#View sync errors script 
+#View sync errors script
 Write-Host "View sync errors"
 Start-Sleep 1
 
-#Ensure Teams module is of version x 
+#Ensure Teams module is of version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
-#List connection instances available 
+#List connection instances available
 Write-Host "Listing connection instances"
 $InstanceList = Get-CsTeamsShiftsConnectionInstance
 write $InstanceList
 
 #Get an instance
 if ($InstanceList.Count -gt 0){
-	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
+    $InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
 }
 else {
-	throw "Instance list is empty"
+    throw "Instance list is empty"
 }
 
 #Get a list of the mappings
@@ -131,14 +133,14 @@ write $mappings
 
 #For each mapping, retrieve the failed mappings
 ForEach ($mapping in $mappings){
-	$teamsTeamId = $mapping.TeamId
-	$wfmTeamId = $mapping.WfmTeamId
-	Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
-	$userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
-	Write-Host "Failed AAD users:"
-	write $userSyncResult.FailedAadUser
-	Write-Host "Failed WFM users:"
-	write $userSyncResult.FailedWfmUser
+    $teamsTeamId = $mapping.TeamId
+    $wfmTeamId = $mapping.WfmTeamId
+    Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
+    $userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
+    Write-Host "Failed AAD users:"
+    write $userSyncResult.FailedAadUser
+    Write-Host "Failed WFM users:"
+    write $userSyncResult.FailedWfmUser
 }
 ```
 
@@ -146,14 +148,14 @@ ForEach ($mapping in $mappings){
 
 Account authorization errors may occur if the Blue Yonder WFM service account or Microsoft 365 system account credentials are incorrect or don't have the required permissions.
 
-To change your Blue Yonder WFM service account or Microsoft 365 system account credentials for the connection, you can run the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet or use the PowerShell script in the [Change connection settings](#change-connection-settings) section of this article.
+To change your Blue Yonder WFM service account or Microsoft 365 system account credentials for the connection, you can run the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) cmdlet or use the PowerShell script in the [Change connection settings](#change-connection-settings) section of this article.
 
 ## Change connection settings
 <a name="change_settings"> </a>
 
 Use this script to change connection settings. Settings that you can change include your Blue Yonder WFM service account and password, Microsoft 365 system account, team mappings, and sync settings.
 
-Sync settings include the sync frequency (in minutes) and the schedule data that's synced between Blue Yonder WFM and Shifts. Schedule data is defined in the following parameters, which you can view by running [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
+Sync settings include the sync frequency (in minutes) and the schedule data that's synced between Blue Yonder WFM and Shifts. Schedule data is defined in the following parameters, which you can view by running [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector).
 
 - The **enabledConnectorScenarios** parameter defines data that's synced from Blue Yonder WFM to Shifts. Options are `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
 - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder WFM. Options are `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
@@ -174,15 +176,15 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
 
-#List connector types available (comment out if not implemented for preview) 
+#List connector types available (comment out if not implemented for preview)
 Write-Host "Listing connector types available"
 $BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
 $connectors = Get-CsTeamsShiftsConnectionConnector
@@ -194,7 +196,7 @@ Write-Host "Listing connection instances available"
 $InstanceList = Get-CsTeamsShiftsConnectionInstance
 write $InstanceList
 
-#Prompt for the WFM username and password 
+#Prompt for the WFM username and password
 $WfmUserName = Read-Host -Prompt 'Input your WFM user name'
 $WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
 $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
@@ -248,14 +250,14 @@ $TeamMaps = Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId
 write $TeamMaps
 
 #Modify a mapping
-#Remove a mapping 
+#Remove a mapping
 Write-Host "Removing a mapping"
 $TeamsTeamId = Read-Host -Prompt 'Input the Teams team ID that you want to unlink'
 $WfmTeamId = Read-Host -Prompt 'Input the WFM team ID that you want to unlink'
 Remove-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId
 Write-Host "Success"
 
-#Add a mapping 
+#Add a mapping
 Write-Host "Adding a mapping"
 $TeamsTeamId = Read-Host -Prompt 'Input the Teams team ID that you want to link'
 $WfmTeamId = Read-Host -Prompt 'Input the WFM team ID that you want to link'
@@ -266,9 +268,9 @@ Write-Host "Success"
 ## Disable open shifts, open shifts requests, swap requests, and time off requests
 
 > [!IMPORTANT]
-> Follow these steps only if you chose to disable open shifts, open shift requests, swap requests, or time off requests using the script in the [Change connection settings](#change-connection-settings) section earlier in this article or by using the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet. Completing this step hides the capability in Shifts. Without this second step, users will still see the capability in Shifts, and will get an "unsupported operation" error message if they try to use it.
+> Follow these steps only if you chose to disable open shifts, open shift requests, swap requests, or time off requests using the script in the [Change connection settings](#change-connection-settings) section earlier in this article or by using the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) cmdlet. Completing this step hides the capability in Shifts. Without this second step, users will still see the capability in Shifts, and will get an "unsupported operation" error message if they try to use it.
 
-To hide open shifts, swap requests, and time off requests in Shifts, use the Graph API [schedule resource type](/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
+To hide open shifts, swap requests, and time off requests in Shifts, use the Graph API [schedule resource type](/graph/api/resources/schedule) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
 
 - Open shifts: ```openShiftsEnabled```
 - Swap requests:  ```swapShiftsRequestsEnabled```
@@ -302,7 +304,7 @@ If you want to unmap a team from one connection and map it to another connection
     New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId> -TeamId <TeamId> -WfmTeamId <SiteId> -TimeZone <TimeZone>
     ```
 
-To learn more, see [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps), and [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps).
+To learn more, see [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap), and [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap).
 
 ## Disable sync for a connection
 
@@ -316,33 +318,33 @@ Write-Host "Disable sync"
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
-#List connection instances available 
+#List connection instances available
 Write-Host "Listing connection instances"
 $InstanceList = Get-CsTeamsShiftsConnectionInstance
 write $InstanceList
 
 #Get an instance
 if ($InstanceList.Count -gt 0){
-	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to disable sync'
-	$Instance = Get-CsTeamsShiftsConnectionInstance -ConnectorInstanceId $InstanceId
-	$Etag = $Instance.etag
-	$InstanceName = $Instance.Name
-	$DesignatedActorId = $Instance.designatedActorId
-	$adminApiUrl = $Instance.ConnectorSpecificSettingAdminApiUrl
-	$cookieAuthUrl = $Instance.ConnectorSpecificSettingCookieAuthUrl
-	$essApiUrl = $Instance.ConnectorSpecificSettingEssApiUrl
-	$federatedAuthUrl = $Instance.ConnectorSpecificSettingFederatedAuthUrl
-	$retailWebApiUrl = $Instance.ConnectorSpecificSettingRetailWebApiUrl
-	$siteManagerUrl = $Instance.ConnectorSpecificSettingSiteManagerUrl
-	$ConnectorAdminEmail = $Instance.ConnectorAdminEmail
+    $InstanceId = Read-Host -Prompt 'Input the instance ID that you want to disable sync'
+    $Instance = Get-CsTeamsShiftsConnectionInstance -ConnectorInstanceId $InstanceId
+    $Etag = $Instance.etag
+    $InstanceName = $Instance.Name
+    $DesignatedActorId = $Instance.designatedActorId
+    $adminApiUrl = $Instance.ConnectorSpecificSettingAdminApiUrl
+    $cookieAuthUrl = $Instance.ConnectorSpecificSettingCookieAuthUrl
+    $essApiUrl = $Instance.ConnectorSpecificSettingEssApiUrl
+    $federatedAuthUrl = $Instance.ConnectorSpecificSettingFederatedAuthUrl
+    $retailWebApiUrl = $Instance.ConnectorSpecificSettingRetailWebApiUrl
+    $siteManagerUrl = $Instance.ConnectorSpecificSettingSiteManagerUrl
+    $ConnectorAdminEmail = $Instance.ConnectorAdminEmail
 }
 else {
-	throw "Instance list is empty"
+    throw "Instance list is empty"
 }
 
 #Remove scenarios in the mapping
@@ -356,32 +358,32 @@ $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropSe
 $UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $DesignatedActorId -EnabledConnectorScenario @() -EnabledWfiScenario @() -Name $UpdatedInstanceName -SyncFrequencyInMin 60 -IfMatch $Etag -ConnectorAdminEmail $ConnectorAdminEmail
 
 if ($UpdatedInstance.Id -ne $null) {
-	Write-Host "Success"
+    Write-Host "Success"
 }
 else {
-	throw "Update instance failed"
+    throw "Update instance failed"
 }
 ```
 
 ## Shifts connector cmdlets
 
-For help with Shifts connector cmdlets, search for **CsTeamsShiftsConnection** in the [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps). Here are links to some commonly used cmdlets.
+For help with Shifts connector cmdlets, search for **CsTeamsShiftsConnection** in the [Teams PowerShell cmdlet reference](/powershell/teams/intro). Here are links to some commonly used cmdlets.
 
-- [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
-- [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Remove-CsTeamsShiftsConnectionInstance](/powershell/module/teams/remove-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Test-CsTeamsShiftsConnectionValidate](/powershell/module/teams/test-csteamsshiftsconnectionvalidate?view=teams-ps)
-- [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionWfmUser](/powershell/module/teams/get-csteamsshiftsconnectionwfmuser?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport?view=teams-ps)
-- [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation)
+- [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)
+- [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance)
+- [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance)
+- [Remove-CsTeamsShiftsConnectionInstance](/powershell/module/teams/remove-csteamsshiftsconnectioninstance)
+- [Test-CsTeamsShiftsConnectionValidate](/powershell/module/teams/test-csteamsshiftsconnectionvalidate)
+- [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap)
+- [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap)
+- [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap)
+- [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector)
+- [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult)
+- [Get-CsTeamsShiftsConnectionWfmUser](/powershell/module/teams/get-csteamsshiftsconnectionwfmuser)
+- [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam)
+- [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport)
+- [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord)
 
 ## Related articles
 
