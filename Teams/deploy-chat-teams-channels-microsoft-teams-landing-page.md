@@ -6,6 +6,8 @@ ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-chat
+ms.custom: intro-get-started
 audience: admin
 search.appverid: MET150
 description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in Microsoft Teams.
