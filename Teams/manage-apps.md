@@ -24,7 +24,7 @@ ms.localizationpriority: medium
 
 You manage apps for your organization in **Teams apps** page in the Teams admin center portal. Use the Manage apps page to view and manage all Teams apps in your organization's app catalog.
 
-:::image type="content" source="media/manage-apps.png" alt-text="Screenshot of the Manage apps page." lightbox:"media/manage-apps.png":::
+:::image type="content" source="media/manage-apps.png" alt-text="Screenshot of the Manage apps page." lightbox="media/manage-apps.png":::
 
 To use Teams admin center, you must have a Global Admin or Teams Administrator role. For details, see the following help articles:
 
