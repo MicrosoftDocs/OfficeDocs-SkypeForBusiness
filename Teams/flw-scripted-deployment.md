@@ -19,6 +19,7 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 # How to provision Teams at scale for Frontline Workers
 
@@ -99,7 +100,7 @@ For example: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\d
 > [!IMPORTANT]
 > How credentials are managed in these scripts may not be appropriate for your use, and they're easily changed to meet your requirements. Always follow your company's standards and practices for securing service accounts and managed identities.
 
-The scripts use credentials that are stored as XML files in $ENV:LOCALAPPDATA\keys, that is, the AppData\Local folder. The helper function **Set-Creds** in the module **BulkAddFunctions.psm1** needs to be called to set the credentials used to run these scripts. This technique removes the need for you to authenticate to all various service endpoints while maintaining the credentials in a local store. From within each script, the appropriate credentials are read with the helper function **Get-Creds** and those credentials are used to connect to the various services.
+The scripts use credentials that are stored as XML files in `$ENV:LOCALAPPDATA\keys`, that is, the AppData\Local folder. The helper function **Set-Creds** in the module **BulkAddFunctions.psm1** needs to be called to set the credentials used to run these scripts. This technique removes the need for you to authenticate to all various service endpoints while maintaining the credentials in a local store. From within each script, the appropriate credentials are read with the helper function **Get-Creds** and those credentials are used to connect to the various services.
 
 When you call **Set-Creds**, you're prompted to provide an XML file name that will be written to $ENV:LOCALAPPDATA\keys. You might have different credentials for different services. For example, you might have different credentials for MicrosoftTeams, AzureAD, and MSonline, in which case you can run **Set-Creds** more than once, saving each credential file with its own meaningful name.
 
@@ -175,7 +176,7 @@ Channels are dedicated sections within a team to keep conversations organized by
 
 ## Create Teams policies
 
-As an admin, you can use teams policies in Microsoft Teams to control what users in your organization see and can. For example, you can control which applications are pinned to the left rail on your desktop or web browser, or the bottom bar on mobile devices, in order to simplify the end user experience when onboarding a large amount of users. Some of these policies can be created with PowerShell, and others have to be manually created in the Teams admin center.
+As an admin, you can use teams policies in Microsoft Teams to control what users in your organization see and can. For example, you can control which applications are pinned to the left rail on your desktop or web browser, or the bottom bar on mobile devices, in order to simplify the end user experience when onboarding a large number of users. Some of these policies can be created with PowerShell, and others have to be manually created in the Teams admin center.
 
 *Best practice discussion*: For each of the following policies, we're choosing to actually create two policies: one for frontline workers and one for frontline managers. You can choose to create as many or as few as you like. For most customers, two is a good place to start, even if you give the same settings to each group initially. As your experience with Teams grows, you may choose to differentiate their experience further and having the two separate policies already created can make that simpler.
 
@@ -211,8 +212,8 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](teams-app-setup-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Click **Add**.  
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
+2. Click **Add**.  
 3. Enter a name and description for the policy. For example, Frontline manager app setup policy.
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline manager app setup policy.":::
 
@@ -224,7 +225,7 @@ The following settings can be customized to meet your business needs. We have ch
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot of the Add pinned apps screen, showing the Add button for the Shifts app":::
 
 7. Remove Calling, if it appears. Removing this feature will not disable it for the user, but will prevent it from appearing on the app bar to simplify the end user experience.
-8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
+8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
 
     - Activity
     - Chat
@@ -238,8 +239,8 @@ The following settings can be customized to meet your business needs. We have ch
 
 The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](teams-app-setup-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
+2. Click **Add**.
 3. Enter a name and description for the policy. For example, Frontline worker app setup policy.
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline worker app setup policy.":::
 
@@ -252,7 +253,7 @@ The following settings can be customized to meet your business needs. We have ch
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot of the Add pinned apps screen, showing the Add button for the Shifts app":::
 
 7. Remove Meetings and Calling, if they appear. Removing these features will not disable them for the user, but will prevent them from appearing on the app bar to simplify the end user experience.
-8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
+8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
     - Activity
     - Chat
     - Teams
@@ -270,31 +271,31 @@ As an admin, you can use app permission policies to control what apps are availa
 
 The following settings can be customized to meet your business needs. These are some recommended options based on best practices that can improve the ease of onboarding new users at scale. For more information, click [here](teams-app-permission-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
-2. Click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Click **Add**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page.":::
 
 3. Enter a name and description for the policy. For example, Frontline manager app permission policy.
-4. Under **Microsoft apps**, select **Allow all apps**.
-5. Under **Third-party apps**, select **Allow all apps**.
+4. Under **Microsoft apps**, select **Allow all apps**.
+5. Under **Third-party apps**, select **Allow all apps**.
 6. Under **Custom apps**, select **Allow all apps**.
-7. Click **Save**.
+7. Click **Save**.
 
 #### Create the frontline worker app permission policy
 
 The following settings can be customized to meet your business needs. These are some recommended options based on best practices that can improve the ease of onboarding new users at scale. For more information, click [here](teams-app-permission-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
-2. Click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Click **Add**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page.":::
 
 3. Enter a name and description for the policy. For example, Frontline worker app permission policy.
-4. Under **Microsoft apps**, select **Allow all apps**.
-5. Under **Third-party apps**, select **Block all apps**.
+4. Under **Microsoft apps**, select **Allow all apps**.
+5. Under **Third-party apps**, select **Block all apps**.
 6. Under **Custom apps**, select **Allow all apps**.
-7. Click **Save**.
+7. Click **Save**.
 
 ## Users and security groups
 
@@ -311,7 +312,7 @@ In order to manage these users at scale more effectively, you need to create two
 
 1. Find the **Users.csv** file in the scripts folder in the repository.
 1. Update the **Users.csv** file with your organization's specific information.
-    1. By default, the script we've provided will create a user with a temporary password that must be changed at first sign in. If you don't want to use the default password, edit the **CreateUsers.ps1** script to meet your requirements.
+    1. By default, the script we've provided will create a user with a temporary password that must be changed at first sign-in. If you don't want to use the default password, edit the **CreateUsers.ps1** script to meet your requirements.
     1. Make sure to update the SecurityGroup field to reflect the appropriate name created earlier.
 1. Find the **SecurityGroups.csv** file in the scripts folder in the repository.
 1. Update the **SecurityGroups.csv** file with your organization's specific security group information.
@@ -364,7 +365,7 @@ Using Dynamic membership, rules are written to determine if someone is a member 
 
 Now that you've completed all the steps, it's time to verify the work you've completed.
 
-1. The created user will have an initial password that is in the CreateUsers.ps1 and they are required to change it at their first sign in.
+1. The created user will have an initial password that is in the CreateUsers.ps1 and they are required to change it at their first sign-in.
 1. Verify the look and feel of Teams is what you expected. If not, review the **Create Teams policies** and the **Assign Teams policies to Users** sections.
 1. Verify the user is in the correct team. If not, review the **Create and set up users** and **Assign users to teams** sections.
 

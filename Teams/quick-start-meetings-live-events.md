@@ -47,9 +47,9 @@ The following table summarizes the three types of meetings, the number of recomm
 | Live events | Up to 20,000** |-Broadcast to large audiences. <br>-Moderated Q&A for audience interaction. <br> -Can specify producers and presenters, including external presenters.<br>-Supports more advanced production capabilities. | No |
 ||||
 
-*The usual 10,000 is increased to 20,000 through June 30, 2022.<br>
+*The usual 10,000 is increased to 20,000 through December 31, 2022.<br>
 
-**The usual 10,000 is increased to 20,000 through June 30, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
+**The usual 10,000 is increased to 20,000 through December 31, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
@@ -172,6 +172,8 @@ To run a successful event, follow the practices outlined below:
 ### Guidelines for your end users
 
 Your organizers and presenters should implement the below recommendations:
+
+- For meetings with more than 10 participants, use [Q&A](/MicrosoftTeams/manage-qna-for-teams) to give participants the opportunity to formally ask and receive answers to questions, as well as engage in structured discussions.
 
 - To create a smooth meeting, event organizers can set pre-defined presenters. After a meeting has started, presenters also can promote other attendees to the presenter role.
 

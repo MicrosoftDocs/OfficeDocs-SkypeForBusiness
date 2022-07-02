@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Teams in your enterprise
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -140,7 +140,7 @@ Teams and Microsoft 365 provide many tools that can help you conform to regulato
 | [Communication compliance](communication-compliance.md)| Helps reduce communication risks by identifying, and taking action on, offensive, profane, and harassing language; adult racy, and gory images; and the sharing of sensitive information. |
 | [Policy-based recording for calls and meetings](teams-recording-policy.md)| Lets you control when, or whether, calls and meetings should be automatically recorded and stored for later processing, retention, or analysis.|
 | [Sensitivity labels](sensitivity-labels.md)| Helps you to protect and regulate access to sensitive information by creating labels that enforce selected privacy options.|
-| [Data Loss Prevention](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Lets you create rules that determine how certain information, such as social security numbers, credit card numbers, and so on, should be handled. You can prevent the sending of certain information, prevent it from leaving your organization, and so on.|
+| [Microsoft Purview Data Loss Prevention](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Lets you create rules that determine how certain information, such as social security numbers, credit card numbers, and so on, should be handled. You can prevent the sending of certain information, prevent it from leaving your organization, and so on.|
 | [eDiscovery](eDiscovery-investigation.md)| Helps you search for, and retrieve, content in your organization when your organization receives discovery demands in legal proceedings. |
 | [Legal hold](legal-hold.md)| Helps you retain information in your organization, even if it's deleted by a user, when required during legal proceedings so that it can be discovered during eDiscovery investigations. |
 | [Content search](content-search.md)| Provides a way to query Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.|

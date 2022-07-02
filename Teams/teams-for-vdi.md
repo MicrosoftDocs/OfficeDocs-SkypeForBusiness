@@ -97,6 +97,9 @@ For a dedicated persistent setup, both per-machine and per-user installation wil
 
 With per-machine installation, automatic updates are disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates are enabled.
 
+> [!IMPORTANT]
+> Keep the Teams desktop app in your VDI environment up to date. Teams desktop app versions with release dates that are more than 90 days older than the [current version's release date](/officeupdates/teams-app-versioning) aren't supported. Unsupported Teams desktop app versions show a blocking page to users and request that they update their app.
+
 For most VDI deployments, we recommend you deploy Teams using per-machine installation. To update to the latest Teams version, start with the uninstall procedure followed by latest Teams version deployment.
 
 For Teams AV optimization in VDI environments to work properly, the thin-client device must have access to the internet. If internet access isn't available at the thin-client device, optimization startup won't be successful. This means that the user is in a non-optimized media state.
@@ -163,8 +166,8 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
 
-    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
-    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+    - [32-bit version](https://statics.teams.cdn.office.net/production-windows/1.5.00.11865/Teams_windows.msi)
+    - [64-bit version](https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.11865/Teams_windows_x64.msi)
 
     > [!NOTE]
     > For government clouds, see [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md) for the download links to the MSI files.
@@ -491,9 +494,8 @@ if($cleanup){
 
 The following calling and meeting features are not supported:
 
-- Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
 - HID buttons and LED controls between the Teams app and devices for Citrix and VMware
-- Background blur and effects
+- Background blur and effects for Citrix and VMware
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - PSTN call ringback tone
@@ -508,14 +510,12 @@ The following are known issues and limitations for calling and meetings:
 
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
-- Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
 - Live events are not optimized.
 - Outgoing screen sharing:
-  - Application sharing is not supported.
+  - Application sharing is not supported for VMware and AVD/W365.
 - Give control and take control:
-  - Not supported during a screen sharing or application sharing session.
-  - Supported during a PowerPoint sharing session.
+  - Not supported during application sharing session.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
