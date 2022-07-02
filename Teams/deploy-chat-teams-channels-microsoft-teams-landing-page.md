@@ -7,7 +7,6 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.subservice: teams-chat
-ms.custom: intro-get-started
 audience: admin
 search.appverid: MET150
 description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in Microsoft Teams.
@@ -19,6 +18,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+  - intro-get-started
 appliesto: 
   - Microsoft Teams
   - seo-marvel-apr2020
