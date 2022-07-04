@@ -1,5 +1,5 @@
 ---
-title: Search the audit logs for app events
+title: Search the audit logs for app management events
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -23,13 +23,13 @@ Microsoft Purview Audit (Standard) in Microsoft 365 lets you search for audit re
 
 Before you can search the audit, ensure you complete the following pre-requisites:
 
-* [Obtain organization subscription and user licensing](/microsoft-365/compliance/set-up-basic-audit?view=o365-worldwide&preserve-view=true).
-* [Turn on auditing in the Microsoft Purview compliance portal](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&preserve-view=true).
-* [Assign permissions to search the audit log](/microsoft-365/compliance/set-up-basic-audit?view=o365-worldwide&preserve-view=true).
+* [Obtain organization subscription and user licensing](/microsoft-365/compliance/set-up-basic-audit).
+* [Turn on auditing in the Microsoft Purview compliance portal](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+* [Assign permissions to search the audit log](/microsoft-365/compliance/set-up-basic-audit).
 
 ## Audit logs for app events in Teams
 
-The audit logs for app events in Teams help you investigate specific actions. While you can search the logs for a wide-range of actions, the following table lists some of the Teams app actions that are logged. In addition, you can filter the logs by users and date and time range.
+The audit logs for app events in Teams help you investigate specific actions. While you can search the logs for a wide-range of actions, the following table lists some of the Teams app actions that are logged. In addition, you can search activities related to Connectors, bots, tabs, and so on.
 
 | Teams app action                  | Activity name                | Description                                              |
 |-----------------------------------|------------------------------|:---------------------------------------------------------|
@@ -48,8 +48,7 @@ For a complete list of Teams activities that are audited, see [Teams activities]
 
 Use the Audit log search tool in the compliance portal to search for audit records. To search for app event audit logs, follow these steps:
 
-1. Sign in to [Microsoft Purview compliance portal](https://compliance.microsoft.com).
-1. From the left pane, go to **Solutions** > **Audit**.
+1. Sign in to Microsoft Purview compliance portal and go to **Solutions** > **[Audit](https://compliance.microsoft.com/auditlogsearch)**.
 1. On the audit page, update the following fields as per your requirement:
 
    * **Date and time range**: Select the Start and End date.
@@ -61,13 +60,13 @@ Use the Audit log search tool in the compliance portal to search for audit recor
 
 1. Select **Search**.
 
-After searching the audit sign in the compliance portal, you can export the audit records as a CSV file. For more information, see [Export, configure, and view audit logs](/microsoft-365/compliance/export-view-audit-log-records?view=o365-worldwide&preserve-view=true).
+After searching the audit sign in the compliance portal, you can export the audit records as a CSV file. For more information, see [Export, configure, and view audit logs](/microsoft-365/compliance/export-view-audit-log-records).
 
 > [!NOTE]
 > When one of the above activities is performed by a user or admin, Teams generates and stores an audit record. In Audit (Standard), records are retained for 90 days, which means you can search for activities that occurred within the past three months.
 
 ## See also
 
-* [Search the audit sign in the compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide).
-* [Overview of Microsoft Purview Audit Premium](/microsoft-365/compliance/advanced-audit?view=o365-worldwide).
-* [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)
+* [Search the audit sign in the compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+* [Overview of Microsoft Purview Audit Premium](/microsoft-365/compliance/advanced-audit).
+* [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
