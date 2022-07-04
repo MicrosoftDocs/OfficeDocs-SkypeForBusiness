@@ -27,12 +27,12 @@ As an admin, you can set Adobe Acrobat as the default app to view and edit PDF
 
 To set up Adobe Acrobat as the default app to view PDF files, follow these steps:
 
-1. Log in to [Teams admin center](https://admin.teams.microsoft.com) and go to **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Log in to Teams admin center and go to **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Search for the Adobe Acrobat app and select **Adobe Acrobat** app.
 
    > [!NOTE]
-   > Ensure that the status of the Adobe Acrobat app is **Allowed** if not, change the status to **Allowed**.
+   > Ensure the Adobe Acrobat app status is set to **Allowed**. Else, enable the **Allowed** toggle.
 
 1. In the **Permissions** tab, select **Review permission**.
 
@@ -60,7 +60,7 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 After you set Adobe Acrobat as default app, all PDF files from the chat, channel, and files app open directly in the Adobe Acrobat app within Teams.
 
-If you want to block the Adobe Acrobat app for users, either for an individual, or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
+If you want to selectively allow the Adobe Acrobat app for a few specific individuals or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
 
 Know the following information about this functionality:
 
