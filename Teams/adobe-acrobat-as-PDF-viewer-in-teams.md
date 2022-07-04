@@ -21,7 +21,7 @@ ms.localizationpriority: medium
 # Adobe Acrobat as PDF viewer in Teams
 
 > [!NOTE]
-> Adobe Acrobat experience in Teams is currently available only in [public preview](public-preview-doc-updates.md). Enable public preview for your tenant, before you use this feature.
+> Adobe Acrobat experience in Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature.
 
 As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Your end-users don't need an Adobe Acrobat subscription or an Adobe ID to use the Adobe Acrobat app.
 
