@@ -35,7 +35,7 @@ To setup Adobe Acrobat as the default app to view PDF files, follow these steps:
 
 1. Select **Accept**.
 
-   :::image type="content" source="media/permission-policy.PNG" alt-text="app permission in Teams admin center" lightbox="media/teams-app-adobe-acrobat-permission.PNG":::
+   :::image type="content" source="media/permission-policy.PNG" alt-text="App permission in Teams admin center." lightbox="media/teams-app-adobe-acrobat-permission.PNG":::
 
 After you set Adobe Acrobat as default app, all PDF files from the chat, channel, and files app open directly in the Adobe Acrobat app within Teams.
 
@@ -47,7 +47,7 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 1. Under **Manage policies** tab, select **Global (Org-wide default)**, and then select **Edit**.
 
-   :::image type="content" source="media/setup-policies.PNG" alt-text="setup-policies in Teams admin center":::
+   :::image type="content" source="media/setup-policies.PNG" alt-text="Setup policies for Adobe Acrobat app in Teams admin center.":::
 
 1. Under Installed apps, select **Add apps**.
 
@@ -55,7 +55,7 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 1. Select **Save**.
 
-   :::image type="content" source="media/add-adobe-acrobat-app.PNG" alt-text="add app in teams admin center":::
+   :::image type="content" source="media/add-adobe-acrobat.PNG" alt-text="Select and add app to install for all users." lightbox="media/add-adobe-acrobat-app.PNG":::
 
 If you want to block the Abode Acrobat app for users, either for an individually or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
 
