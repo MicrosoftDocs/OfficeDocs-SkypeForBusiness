@@ -56,7 +56,7 @@ Use the Audit log search tool in the compliance portal to search for audit recor
    * **File, folder, or site**: Enter file name or a URL or a part of it.
    * **Users**: Add the users whose audit log you want to search.
 
-  :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Search for Teams activities in the Microsoft Purview compliance portal to audit for Teams events." lightbox="media/compliance-search-teams-activities.png":::
+   :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Search for Teams activities in the Microsoft Purview compliance portal to audit for Teams events." lightbox="media/compliance-search-teams-activities.png":::
 
 1. Select **Search**.
 
