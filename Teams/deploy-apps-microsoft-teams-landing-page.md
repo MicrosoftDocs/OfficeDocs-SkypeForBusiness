@@ -9,6 +9,7 @@ manager: prkosh
 audience: admin
 ms.date: 04/05/2022
 ms.service: msteams
+ms.subservice: teams-apps
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -17,7 +18,7 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # About apps in Microsoft Teams
 
@@ -163,6 +164,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 | Ask yourself | Action |
 |--------------|--------|
-| <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
+| Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
