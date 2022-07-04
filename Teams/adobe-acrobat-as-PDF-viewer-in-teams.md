@@ -25,19 +25,20 @@ ms.localizationpriority: medium
 
 You can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Users don't need an Adobe Acrobat subscription or an Adobe ID to use the Adobe Acrobat app.
 
-To setup Adobe Acrobat as the default app to view PDF files, follow these steps:
+To set up Adobe Acrobat as the default app to view PDF files, follow these steps:
 
 1. Log in to [Teams admin center](https://admin.teams.microsoft.com) and go to **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Search for the Adobe Acrobat app and select **Adobe Acrobat** app.
+
+   > [!NOTE]
+   > Ensure that the status of the Adobe Acrobat app is "allowed" if not, change the status to Allowed.
 
 1. In the **Permissions** tab, select **Review permission**.
 
 1. Select **Accept**.
 
    :::image type="content" source="media/permission-policy.PNG" alt-text="App permission in Teams admin center." lightbox="media/teams-app-adobe-acrobat-permission.PNG":::
-
-After you set Adobe Acrobat as default app, all PDF files from the chat, channel, and files app open directly in the Adobe Acrobat app within Teams.
 
 ## Install Adobe Acrobat app for all users
 
@@ -53,15 +54,17 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 1. Search **Adobe Acrobat**, select **Add** next to the app name and then select **Add**.
 
-   :::image type="content" source="media/add-adobe-acrobat.PNG" alt-text="Add Abode Acrobat app for all users." lightbox="media/add-adobe-acrobat-app.PNG":::
+   :::image type="content" source="media/add-adobe-acrobat.PNG" alt-text="Add Adobe Acrobat app for all users." lightbox="media/add-adobe-acrobat-app.PNG":::
 
 1. Select **Save**.
 
-If you want to block the Abode Acrobat app for users, either for an individual or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
+After you set Adobe Acrobat as default app, all PDF files from the chat, channel, and files app open directly in the Adobe Acrobat app within Teams.
+
+If you want to block the Adobe Acrobat app for users, either for an individual or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
 
 Know the following information about this functionality:
 
-* After the policy is setup, it typically takes few hours for users to view the installed app.
+* After the policy is set up, it typically takes few hours for users to view the installed app.
 * Currently, Adobe Acrobat doesn't allow users to pin PDF files as a tab in a channel.
 * PDF viewing experience in the Assignments app continues to remain the same.
 * On Teams mobile, you can't set Adobe Acrobat as the default PDF viewer.
