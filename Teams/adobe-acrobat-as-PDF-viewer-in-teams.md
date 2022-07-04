@@ -27,7 +27,7 @@ You can set Adobe Acrobat as the default app to view and edit PDF files in the
 
 To setup Adobe Acrobat as the default app to view PDF files, follow these steps:
 
-1. Log in to [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps) and go to **Teams app** > **Manage apps**.
+1. Log in to [Teams admin center](https://admin.teams.microsoft.com) and go to **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Search for the Adobe Acrobat app and select **Adobe Acrobat** app.
 
@@ -53,15 +53,15 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 1. Search **Adobe Acrobat**, select **Add** next to the app name and then select **Add**.
 
-1. Select **Save**.
-
    :::image type="content" source="media/add-adobe-acrobat.PNG" alt-text="Add Abode Acrobat app for all users." lightbox="media/add-adobe-acrobat-app.PNG":::
 
-If you want to block the Abode Acrobat app for users, either for an individually or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
+1. Select **Save**.
 
-Know the following information about this fucntionality:
+If you want to block the Abode Acrobat app for users, either for an individual or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
 
-* After the policy is setup, it typically takes few hours for users to view the app.
+Know the following information about this functionality:
+
+* After the policy is setup, it typically takes few hours for users to view the installed app.
 * Currently, Adobe Acrobat doesn't allow users to pin PDF files as a tab in a channel.
-* PDF viewing experience in the Assignments app continues to remain the same as now.
-* On Teams mobile, you cannot set Abobe Acrobat as the default PDF viewer.
+* PDF viewing experience in the Assignments app continues to remain the same.
+* On Teams mobile, you can't set Adobe Acrobat as the default PDF viewer.
