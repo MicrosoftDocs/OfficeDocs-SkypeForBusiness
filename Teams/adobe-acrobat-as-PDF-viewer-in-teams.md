@@ -55,7 +55,7 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 1. Select **Save**.
 
-   :::image type="content" source="media/add-adobe-acrobat.PNG" alt-text="Select and add app to install for all users." lightbox="media/add-adobe-acrobat-app.PNG":::
+   :::image type="content" source="media/add-adobe-acrobat.PNG" alt-text="Add Abode Acrobat app for all users." lightbox="media/add-adobe-acrobat-app.PNG":::
 
 If you want to block the Abode Acrobat app for users, either for an individually or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
 
