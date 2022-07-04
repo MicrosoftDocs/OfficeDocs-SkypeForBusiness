@@ -1556,7 +1556,7 @@ items:
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
         - name: Adobe Acrobat as PDF viewer in Teams
-          href: adobe-acrobat-as-PDF-viewer-in-teams.md
+          href: adobe-acrobat-as-pdf-viewer-in-teams.md
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
