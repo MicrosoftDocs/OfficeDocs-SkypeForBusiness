@@ -1,7 +1,7 @@
 ---
 title: PowerShell script to test Direct Routing Session Border Controller connections
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
