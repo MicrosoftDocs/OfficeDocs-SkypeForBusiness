@@ -52,7 +52,7 @@ Use the Audit log search tool in the compliance portal to search for audit recor
 1. On the audit page, update the following fields as per your requirement:
 
    * **Date and time range**: Select the Start and End date.
-   * **Activities**: Enter Microsoft Teams activities. From the list, select one or more app activities. To quickly find the Teams activities, you can search for `Teams activities in the **Activities** search field.
+   * **Activities**: Enter Microsoft Teams activities. From the list, select one or more app activities. To quickly find the Teams activities, you can search for the word `Teams activities` in the **Activities** search field.
    * **File, folder, or site**: Enter file name or a URL or a part of it.
    * **Users**: Add the users whose audit log you want to search.
 
