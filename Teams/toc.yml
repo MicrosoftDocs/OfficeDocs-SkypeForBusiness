@@ -1599,8 +1599,8 @@ items:
           href: apps-update-experience.md
         - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: Audit logs for app management events
-          href: search-audit-logs-for-app-events.md
+        - name: Audit for app management activities and events
+          href: audit-app-management-activities.md
     - name: App usage report and analytics
       href: teams-analytics-and-reports/app-usage-report.md
 
