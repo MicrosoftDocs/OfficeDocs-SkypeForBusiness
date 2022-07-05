@@ -1,7 +1,7 @@
 ---
 title: Manage Skype for Business settings in the Microsoft Teams admin center
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
