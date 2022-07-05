@@ -26,8 +26,8 @@ Find out what you can do with Teams for:
 - [Education](./teams-for-education-landing-page.md)
 - [Frontline Workers](../flw-landing-page.md)
 - [Government](./teams-for-government-landing-page.md)
-- [Healthcare](./teams-for-healthcare-landing-page.md)
-- [Nonprofit](/microsoft-365/frontline/teams-for-nonprofit-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
+- [Healthcare](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json))
+- [Nonprofit](teams-for-nonprofit-landing-page.md)
 - [Retail](/microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
 
 Or learn more about these apps and capabilities available for all industries:
