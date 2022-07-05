@@ -319,6 +319,7 @@ The following partners are in the process of certifying their solution for Micro
 
 This list will be updated as more partners join and meet the certification criteria.
 
+
 ## Next steps
 
 If you are a vendor seeking to join the certification program, fill out [this form](https://aka.ms/CallingPlatformIntake) as the next step. If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
