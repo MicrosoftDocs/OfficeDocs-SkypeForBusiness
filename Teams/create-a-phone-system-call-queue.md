@@ -92,7 +92,7 @@ For more information, see [Manage Teams resource accounts](manage-resource-accou
 You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
 
 > [!NOTE]
-> The resource account used for calling ID purposes must have a **Microsoft Teams Phone System - Virtual User** license and one of the following assigned:
+> The resource account used for calling ID purposes must have a **Microsoft Teams Phone Resource Account** license and one of the following assigned:
 >
 > - A Calling Plan license and a phone number assigned
 > - An Operator Connect phone number assigned
@@ -117,7 +117,7 @@ If you don't have a resource account with an assigned phone number:
 
 After you've created this new resource account for calling ID, you'll still need to:
 
-- Assign a [Teams Phone Standard - Virtual User license](manage-resource-accounts.md#assign-a-license)
+- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license)
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
 - Assign the [service phone number to the resource account](manage-resource-accounts.md#assign-a-service-number), if you're using Microsoft Calling Plan
 
