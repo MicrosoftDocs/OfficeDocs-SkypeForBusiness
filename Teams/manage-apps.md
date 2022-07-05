@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_Help
@@ -22,7 +24,7 @@ ms.localizationpriority: medium
 
 You manage apps for your organization in **Teams apps** page in the Teams admin center portal. Use the Manage apps page to view and manage all Teams apps in your organization's app catalog.
 
-![Screenshot of the Manage apps page.](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="Screenshot of the Manage apps page." lightbox="media/manage-apps.png":::
 
 To use Teams admin center, you must have a Global Admin or Teams Administrator role. For details, see the following help articles:
 
@@ -150,7 +152,7 @@ You use the **Add to team** button to install an app to a team. This option is a
 1. Search for an app by its name and select the app. Don't open the app details page.
 1. Select **Add to team**.
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot of Add to team option for app that can be added to the team scope." lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot of Add to team option for app that can be added to the team scope.":::
 
 1. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
