@@ -52,29 +52,27 @@ Depending on the site type, Contoso had the following needs:
   - Q: How will we determine when a user should or should not get a call? 
     A: Contoso decided to use call handling options to determine if the agent is available: presence-based routing. 
 
-
 ## Configuration
 
-The steps to set up an auto attendant and a call queue include the following outlined in [Manage resource accounts](manage-resource-accounts.md): 
+The steps to set up an auto attendant and a call queue include the following outlined in [Manage resource accounts](manage-resource-accounts.md):
 
-1. Obtain a service number. 
+1. Obtain a service number.
 
-2. Obtain a free Phone System - Virtual User license or a paid Phone System license to use with the resource account or a Phone System license.
+2. Obtain a free **Microsoft Teams Phone Resource Account** license or a paid Phone System license to use with the resource account or a Phone System license.
 
-3. Create the resource account. An auto attendant or call queue is required to have an associated resource account. 
+3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
 
-4. Assign the Phone System or a Phone System - Virtual user license to the resource account. For more information, see [Microsoft 365 Phone System – Virtual User license](./teams-add-on-licensing/virtual-user.md).
+4. Assign a **Teams Phone Standard** or **Microsoft Teams Phone Resource Account** license to the resource account. For more information, see [Microsoft Teams Phone Resource Account license](./teams-add-on-licensing/virtual-user.md).
 
-5. Assign a service phone number to the resource account you assigned licenses to. 
+5. Assign a service phone number to the resource account you assigned licenses to.
 
-6. Create a Phone System call queue or auto attendant 
+6. Create a Phone System call queue or auto attendant.
 
-7. Link the resource account with a call queue or auto attendant. 
+7. Link the resource account with a call queue or auto attendant.
 
+### Sites with Phone System with Direct routing
 
-### Sites with Phone System with Direct routing 
-
-Contoso had to set up the phone number provided by the local carrier as the service number in Office 365. 
+Contoso had to set up the phone number provided by the local carrier as the service number in Office 365.
 
 - To set up a phone number available through Direct Routing, Contoso followed the instructions located in [Manage Resource Accounts](manage-resource-accounts.md). Because Office 365 is not aware of the on-premises phone numbers, Contoso used PowerShell to complete the setup.   
 
