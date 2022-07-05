@@ -134,7 +134,7 @@ After you have registered a domain name, you need to activate it by adding at le
 - User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
 - User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
 - User Account with Common Area Phone
-- Resource Account with Virtual User License
+- Resource Account with **Microsoft Teams Phone Resource Account** license
 
 Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created domain.
 
@@ -184,22 +184,22 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 10. Select **Finish** on the **Update DNS settings** page.
 
-11. Ensure that the status is **Setup complete**. 
-    
+11. Ensure that the status is **Setup complete**.
+
     ![Screenshot of page showing status of Setup complete.](media/direct-routing-12-sbc-setup-complete.png)
-    
+
 > [!NOTE]
 > The base URL and the subdomain for the individual client have to be on the same tenant to enable you to add a _direct route_ trunk.
 
 ### Activate the subdomain name
 
 After you have registered a subdomain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
- 
+
 -	User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
 -	User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
 -	User Account with Common Area Phone
--	Resource Account with Virtual User License
- 
+-	Resource Account with a **Microsoft Teams Phone Resource Account** license
+
 Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created subdomain.
 
 For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
