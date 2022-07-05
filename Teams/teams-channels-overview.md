@@ -6,6 +6,7 @@ ms.reviewer:
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
@@ -18,6 +19,7 @@ ms.custom:
   - ms.teamsadmincenter.teamschannel.overview
   - ms.teamsadmincenter.teamssettings.overview
   - okr_smb
+  - intro-overview
 ms.collection: 
   - M365-collaboration
 appliesto: 

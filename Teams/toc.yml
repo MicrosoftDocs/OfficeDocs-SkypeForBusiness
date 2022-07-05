@@ -1599,6 +1599,8 @@ items:
           href: apps-update-experience.md
         - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
+        - name: Audit for app management activities and events
+          href: audit-app-management-activities.md
     - name: App usage report and analytics
       href: teams-analytics-and-reports/app-usage-report.md
 
@@ -1836,7 +1838,7 @@ items:
           href: teams-add-on-licensing/advanced-communications.md
         - name: Messaging policies licensing
           href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft Teams Phone Standard – Virtual User license
+        - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
