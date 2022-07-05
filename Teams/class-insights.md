@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection:
   - M365-collaboration
+  - m365initiative-edu
 appliesto:
   - Microsoft Teams
 ---
@@ -246,17 +247,19 @@ By default, Insights is turned on, which enables us to collect analytics of stud
 :::image type="content" source="media/insights-settings.png" alt-text="A screenshot of the SDS Admin Center page where you have a settings option to turn Insights on or off.":::
 
 > [!NOTE]
-> If you've turned Insights off, the data that's been collected is deleted. The deleted data on opt-out canot be restored at a later time, even if Insights is re-enabled.
+> If you've turned Insights off, the data that's been collected is deleted. The deleted data on opt-out cannot be restored at a later time, even if Insights is re-enabled.
 
-### Turn Machine Learning in Insights on or off
+### Turn on and off Advanced inferences in Insights
 
-By default, machine learing based experiences in Insights are turned off. To allow these insights, you need to **Allow machine learning based Insights**. Turning on this toggle won't collect any additional data other than the data already collected by Education Insights.
+When the **Allow advanced inferences** toggle for Education Insights is turned on, Education Insights may present students, educators, and education leaders with advanced inferences about learning (such as engagement warnings). These inferences allow educators to provide more tailored support to students. The toggle also controls using tenant data for modeling.
+
+Turning on this toggle won't collect any additional data other than the data already collected by Education Insights.
 
 - To adjust this setting, open the [SDS admin center](https://sds.microsoft.com/), and go to **Settings** > **Manage Education Insights**.
-- Adjust the **Allow machine learning based Insights** toggle to off or on.
+- Adjust the **Allow advanced inferences** toggle to off or on.
 
 > [!NOTE]
-> This toggle depends on the **Collect activity data for Insights** toggle. Turning off **Collect activity data for Insights** will also turn off the **Allow machine learning based Insights** toggle.
+> This toggle depends on the **Collect activity data for Insights** toggle. Turning off **Collect activity data for Insights** will also turn off the **Allow advanced inferences** toggle.
 
 ### Turn SDS for Insights on or off
 
