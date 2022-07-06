@@ -9,6 +9,7 @@ manager: prkosh
 audience: admin
 ms.date: 04/05/2022
 ms.service: msteams
+ms.subservice: teams-apps
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -17,13 +18,13 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # About apps in Microsoft Teams
 
 Apps are a great way to bring together your workplace tools and services and collaborate with others. Apps help end-users be more productive, collaborative, and effective in their day-to-day tasks. Organizations use apps to connect with their customers, provide services, and share information. Apps let users be more effective in Teams chats, meetings, and channels. Examples are end-users using a pinned Calendar in Teams to quickly collaborate with others, an app with bots functionality informing users of QoS of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel.
 
-Our extensive selection of validated and secure apps in the store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that do not need to be deployed. End-users can use apps in Teams based only on the permissions provided by you. As an admin, you just approve or block the use of any app for your organization’s users. You control the availability of apps for all users across meetings, chats, and channels.
+Our extensive selection of validated and secure apps in the store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that do not need to be deployed. End-users can use apps in Teams based only on the [permissions](https://admin.teams.microsoft.com/policies/app-permission) provided by you. As an admin, you just approve or block the use of any app for your organization’s users. You control the availability of apps for all users across meetings, chats, and channels.
 
 To provide your end-users with apps that they need, read on to understand the types of apps and where your users access those apps. To learn more about use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
 
@@ -42,7 +43,7 @@ The different types of apps that your end-users can use in Teams are:
 
 ## Core apps
 
-Some default functionality such as activity feed, Teams channels, chat, calendar, and calls is available and pinned by default for ease of access for end-users. As an admin you can modify the default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
+Some default functionality such as activity feed, Teams channels, chat, calendar, and calls are available and pinned by default for ease of access for end-users. As an admin you can modify the default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
@@ -72,7 +73,7 @@ After an admin allows the use of custom apps, end-users find such apps by clicki
 
 When developing custom apps and before distributing those to the end-users, developers test the apps by adding it to the store to test on their own or test with a team in which they sideload the app. This method is called sideloading of apps and applies only to custom apps.
 
-Developers can sideload an app to make it available to the members of a specific team, typically for testing an under-development app. This does not require admin approval if sideloading is allowed. As an admin, you can disallow sideloading for any developer.
+Developers can sideload an app to make it available to the members of a specific team, typically for testing an under-development app. This doesn't require admin approval if sideloading is allowed. As an admin, you can disallow sideloading for any developer.
 
 If you disallow sideloading, the developers can still test their apps in a [test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the end-users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you can allow or disallow the use a custom app for specific users.
 
@@ -163,6 +164,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 | Ask yourself | Action |
 |--------------|--------|
-| <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
+| Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->

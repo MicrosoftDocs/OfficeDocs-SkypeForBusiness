@@ -20,16 +20,13 @@ description: Learn how to browse and purchase devices in the Teams admin center 
 
 # Purchase devices in the Teams device store
 
->[!NOTE]
->The Teams device store is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Cloud.
-
 The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams.  
 
  To use the devices store in the Teams admin center, go to **Devices > Store**.
 
 ## Requirements
 
-To use the device store, you must be a Global admin, Teams admin, or a Teams device admin.
+To use the device store, you must be a Global admin or a Teams admin.
 
 ## Browse the store
 
