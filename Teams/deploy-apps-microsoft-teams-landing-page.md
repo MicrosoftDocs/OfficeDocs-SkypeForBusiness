@@ -9,6 +9,7 @@ manager: prkosh
 audience: admin
 ms.date: 04/05/2022
 ms.service: msteams
+ms.subservice: teams-apps
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -17,7 +18,7 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # About apps in Microsoft Teams
 
@@ -42,7 +43,7 @@ The different types of apps that your end-users can use in Teams are:
 
 ## Core apps
 
-Some default functionality such as activity feed, Teams channels, chat, calendar, and calls is available and pinned by default for ease of access for end-users. As an admin you can modify the default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
+Some default functionality such as activity feed, Teams channels, chat, calendar, and calls are available and pinned by default for ease of access for end-users. As an admin you can modify the default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
@@ -72,7 +73,7 @@ After an admin allows the use of custom apps, end-users find such apps by clicki
 
 When developing custom apps and before distributing those to the end-users, developers test the apps by adding it to the store to test on their own or test with a team in which they sideload the app. This method is called sideloading of apps and applies only to custom apps.
 
-Developers can sideload an app to make it available to the members of a specific team, typically for testing an under-development app. This does not require admin approval if sideloading is allowed. As an admin, you can disallow sideloading for any developer.
+Developers can sideload an app to make it available to the members of a specific team, typically for testing an under-development app. This doesn't require admin approval if sideloading is allowed. As an admin, you can disallow sideloading for any developer.
 
 If you disallow sideloading, the developers can still test their apps in a [test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the end-users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you can allow or disallow the use a custom app for specific users.
 
@@ -163,6 +164,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 | Ask yourself | Action |
 |--------------|--------|
-| <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
+| Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->

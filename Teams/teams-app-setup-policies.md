@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use and manage app setup policies in Microsoft Teams for users in your organization.
+description: Learn how to create, edit, and manage app setup policies to pin apps, to install apps, and to allow users to upload custom apps.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -105,6 +105,9 @@ To create an app setup policy to install apps, follow these steps:
 
 > [!IMPORTANT]
 > Users can't uninstall apps that are installed by admins.
+
+>[!NOTE]
+> Using this procedure, you cannot install custom apps with configurable tabs.
 
 ## Upload custom apps
 
