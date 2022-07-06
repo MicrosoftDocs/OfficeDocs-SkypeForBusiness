@@ -1661,8 +1661,6 @@ items:
       items: 
         - name: Get started with Teams for frontline workers
           href: flw-landing-page.md
-        - name: Frontline Worker quick start guide
-          href: /microsoft-365/frontline/flw-quickstart?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items: 
@@ -1685,39 +1683,11 @@ items:
     - name: Teams for Healthcare
       items: 
         - name: Get started with Teams for healthcare organizations
-          href: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Virtual appointments
-          items: 
-            - name: Virtual appointments with Teams - Integration into Cerner EHR
-              href: /microsoft-365/frontline/ehr-admin-cerner?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-            - name: Virtual appointments with Teams - Integration into Epic EHR
-              href: /microsoft-365/frontline/ehr-admin-epic?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-            - name: EHR connector Virtual Appointments report
-              href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-            - name: Virtual appointments with Teams and Bookings
-              href: /microsoft-365/frontline/bookings-virtual-visits?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-            - name: Virtual Visits usage report
-              href: /microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json  
-            - name: Manage the join experience on browsers
-              href: /microsoft-365/frontline/browser-join?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json             
+          href: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json            
         - name: View and assign policy packages
           href: policy-packages-healthcare.md
-        - name: Secure messaging
-          items: 
-            - name: Secure Messaging
-              href: /microsoft-365/frontline/messaging-policies-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-            - name: Message delegation
-              href: /microsoft-365/frontline/hc-delegates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Use healthcare team templates
           href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-        - name: Manage the Approvals app
-          href: approval-admin.md
-        - name: Manage the Lists app
-          href: manage-lists-app.md
-        - name: Manage the Shifts app
-          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-        - name: Manage the Tasks app
-          href: manage-tasks-app.md
     - name: Teams for Nonprofit
       href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
       items:
@@ -1726,37 +1696,8 @@ items:
     - name: Teams for Retail
       href: /microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       items:
-        - name: Retail team collaboration
-          href: /microsoft-365/frontline/retail-team-collaboration?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Simplify business processes in Retail
-          href: /microsoft-365/frontline/retail-business-processes?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Use retail team templates
           href: get-started-with-retail-teams-templates.md
-        - name: Frontline Worker onboarding wizard
-          href: /microsoft-365/frontline/flw-onboarding-wizard?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json 
-        - name: Deploy teams at scale for frontline workers
-          href: /microsoft-365/frontline/deploy-teams-at-scale?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json 
-        - name: Shifts for Teams
-          items: 
-            - name: Shifts for Teams
-              href: /microsoft-365/frontline/shifts-for-teams-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-            - name: Manage the Shifts app
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-            - name: Manage shift-based access
-              href: /microsoft-365/frontline/manage-shift-based-access-flw?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Walkie Talkie
-          href: walkie-talkie.md
-        - name: RealWear
-          href: flw-realwear.md
-        - name: Manage the Praise app
-          href: manage-praise-app.md
-        - name: Manage the Tasks app
-          href: manage-tasks-app.md
-        - name: Manage the Lists app
-          href: manage-lists-app.md
-        - name: Manage the Approvals app
-          href: approval-admin.md
-          
 - name: Reference
   items: 
     - name: Limits and specifications for Teams

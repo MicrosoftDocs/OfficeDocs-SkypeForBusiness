@@ -31,7 +31,7 @@ Set up an effective pilot for your frontline workforce with the interactive [IT 
 
 Conduct frontline training for Microsoft Teams with engaging and educational [videos](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).
 
-For more admin guidance on frontline workers in Teams, see our [Microsoft Teams Frontline Worker – Quick Start Guide](/microsoft-365/frontline/flw-quickstart?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
+For more admin guidance on frontline workers in Teams, see [Learn where to start with a frontline deployment](/microsoft-365/frontline/flw-deploy-overview).
 
 Learn more about how you can optimize frontline impact with Microsoft 365 by visiting our [products and pricing page](https://www.microsoft.com/microsoft-365/enterprise/frontline).
 
