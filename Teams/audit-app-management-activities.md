@@ -17,7 +17,7 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# Search the audit logs for app events
+# Audit for app management activities and events
 
 Microsoft Purview Audit (Standard) in Microsoft 365 lets you search for audit records of activities performed in the various Microsoft 365 services by end-users and administrators.
 
@@ -27,7 +27,7 @@ Before you can search the audit, ensure you complete the following pre-requisite
 * [Turn on auditing in the Microsoft Purview compliance portal](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 * [Assign permissions to search the audit log](/microsoft-365/compliance/set-up-basic-audit).
 
-## Audit logs for app events in Teams
+## Search the audit logs for app events in Teams
 
 The audit logs for app events in Teams help you investigate specific actions. While you can search the logs for a wide-range of actions, the following table lists some of the Teams app actions that are logged. In addition, you can search activities related to Connectors, bots, tabs, and so on.
 
