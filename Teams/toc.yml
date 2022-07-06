@@ -1541,7 +1541,7 @@ items:
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Shifts data FAQ       
-          href: /microsoft-365/frontline/shifts-data-faq?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+          href: expand-teams-across-your-org/shifts/shifts-data-faq.md
         - name: Manage the Updates app
           href: manage-updates-app.md
           
@@ -1694,8 +1694,9 @@ items:
         - name: Use nonprofit team templates
           href: team-templates-nonprofit.md
     - name: Teams for Retail
-      href: /microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       items:
+        - name: Get started with Teams for Retail
+          href: /microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Use retail team templates
           href: get-started-with-retail-teams-templates.md
 - name: Reference
