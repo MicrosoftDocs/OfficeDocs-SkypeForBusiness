@@ -39,7 +39,7 @@ Here are some examples on how you can use these export APIs:
 - **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
 - **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
-- **Reactions:** Export APIs support reactions initated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised and laugh.
+- **Reactions:** Export APIs support reactions initated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh.
 - **Chat Message Properties:** Refer to the complete list of properties that Teams Export APIs support [here](/graph/api/resources/chatmessage#properties).
 
 
