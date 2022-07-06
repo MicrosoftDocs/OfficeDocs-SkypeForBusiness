@@ -36,6 +36,8 @@ When you're ready to move your phone numbers to Phone System with Calling Plan, 
 
 After your phone numbers have been moved to Phone System with Calling Plan, you need to assign them to people. To do that, follow the steps in [Change a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user). When you follow these steps, you'll replace the phone number that was temporarily assigned to the user with their original phone number that you ported over.
 
+## Need help?
+
 If you need help, let us know. We're here to help you get your phone numbers moved to Phone System with Calling Plan as easy as possible. Be sure to include the following information:
 
 - Your organization ID (such as ***contoso***.onmicrosoft.com)
@@ -43,7 +45,7 @@ If you need help, let us know. We're here to help you get your phone numbers mov
 - The authorizing person on your account
 - A description of the issue or question that you have
 
-**For help with phone numbers, check out [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).**
+For help with phone numbers, check out [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 > [!div class="nextstepaction"]
 > [Next step: Finish Teams Phone System with Calling Plan setup](set-up-finish.md)
