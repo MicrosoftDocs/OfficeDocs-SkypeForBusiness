@@ -1591,7 +1591,7 @@ items:
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: About Azure AD permissions and admin consent
           href: app-permissions-admin-center.md
-        - name: Manage resource-specific consent for your organization
+        - name: Manage resource-specific consent for your org
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
@@ -1599,9 +1599,9 @@ items:
           href: non-standard-users.md
         - name: App updates and admin role
           href: apps-update-experience.md
-        - name: Manage access to Teams apps across Microsoft 365
+        - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: Audit for app management activities and events
+        - name: Audit app management activities
           href: audit-app-management-activities.md
     - name: App usage report and analytics
       href: teams-analytics-and-reports/app-usage-report.md
