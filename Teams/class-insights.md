@@ -74,7 +74,7 @@ Educators and education leaders have different ways to access Insights.
 
 Educators can use these two methods:
 
-- [Personal app](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - an overview of all their active classes is available from Teams left app bar, with the ability to drill-down to class data.
+- [Personal app](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - an overview of all their active classes is available from Teams left app bar, with the ability to drill down to class data.
 - [Tabs](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) - Insights for specific classes they own are available in a tab from a class team's top navigation menu. This tab enables the educator to directly access the relevant data when they are in that class in Teams to see the data in the class context.
 
 Insights surfaces activity data from all channels within a class team but can only be added as a tab to public channels. The tab reflects activity from everyone in the class team who isn't an owner (including educators who aren't owners of the class team).
