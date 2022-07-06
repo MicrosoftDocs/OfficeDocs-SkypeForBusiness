@@ -22,4 +22,4 @@ Frontline workers are employees whose primary function is to work directly with 
 
 [Microsoft 365 for frontline workers](https://www.microsoft.com/microsoft-365/enterprise/frontline) is optimized for a mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization.
 
-See our [Microsoft 365 for frontline workers documentation](/microsoft-365/frontline) for how to set up, configure, and manage Teams for your frontline workforce.
+See our [Microsoft 365 for frontline workers documentation](/microsoft-365/frontline) for deployment guidance and how to get the most out of Teams for your frontline workforce.
