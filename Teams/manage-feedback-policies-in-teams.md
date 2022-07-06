@@ -21,8 +21,6 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 # Manage feedback policies in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 Users in your organization can send feedback about Microsoft Teams to let us know how we're doing directly from within the Teams desktop, web clients, and mobile. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 > [!NOTE]
