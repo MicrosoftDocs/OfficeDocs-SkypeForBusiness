@@ -51,7 +51,7 @@ For the outbound PSTN caller ID, the following options are available.
 
 - A substitute phone number, which can be:
 
-  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is usually assigned to a Teams Auto Attendant or Call Queue.
+  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is assigned to a Teams Auto Attendant or Call Queue.
 
   - An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue. 
 
@@ -63,9 +63,9 @@ For more information, see [Set the Caller ID for a user](./set-the-caller-id-for
 
 Users can change their caller ID setting to **Anonymous** by setting the EnableUserOverride attribute. 
 
-If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect and the caller ID is always set to Anonymous. The default value of EnableUserOverride is False.
+If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect, and the caller ID is always set to Anonymous. The default value of EnableUserOverride is False.
 
-Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. Please note it will take few minutes for this setting change to reflect on new calls. 
+Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. Note it will take few minutes for this setting change to reflect on new calls. 
 
 ### Notes
 
