@@ -328,7 +328,7 @@ Applies to non-media bypass case only. With Media Bypass, the media flows direct
 On the leg between the Cloud Media Processor and Microsoft Teams client, either SILK or G.722 is used. The codec choice on this leg is based on Microsoft algorithms, which take into consideration multiple parameters. 
 
   > [!NOTE]
-  > Media re-targeting is not supported. If during a Direct Routing call SBC sends a new media IP to Teams Direct Routing, although it's negotiated in the SIP signaling the media is never sent to the new IP address from Teams Direct Routing.
+  > Media re-targeting is not supported. During a Direct Routing call, if the SBC sends a new media IP to Teams Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from Teams Direct Routing.
 
 ## Supported Session Border Controllers (SBCs)
 
