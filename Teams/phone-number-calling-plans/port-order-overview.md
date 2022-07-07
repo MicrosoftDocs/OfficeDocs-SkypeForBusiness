@@ -61,7 +61,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
 
-- Skype for Business hybrid phone numbers. If you want to transfer these numbers, email us at <ptn@microsoft.com>.
+- If you are porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans) please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), make sure you include a note stating those are hybrid phone numbers.
 
 **You can't transfer:**
   
