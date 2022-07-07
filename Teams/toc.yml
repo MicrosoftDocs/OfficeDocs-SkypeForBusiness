@@ -650,6 +650,8 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
+            - name: Manage Q&A in Teams Meetings
+              href: manage-qna-for-teams.md
             - name: Manage the Whiteboard in Teams
               href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
@@ -801,10 +803,12 @@ items:
           href: set-up-common-area-phones.md
         - name: Voicemail
           items: 
-            - name: Set up Cloud Voicemail
+            - name: Manage Cloud Voicemail
               href: set-up-phone-system-voicemail.md
             - name: Manage Voicemail policies
               href: manage-voicemail-policies.md
+            - name: Manage Voicemail settings
+              href: manage-voicemail-settings.md
             - name: Change the default language for voicemail
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
@@ -1585,7 +1589,7 @@ items:
           href: pin-teams-apps-based-on-license.md
         - name: Graph permissions and admin consent in Azure AD
           href: app-permissions-admin-center.md
-        - name: Manage resource-specific consent for your organization
+        - name: Manage resource-specific consent for your org
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
@@ -1593,8 +1597,10 @@ items:
           href: non-standard-users.md
         - name: App updates and admin role
           href: apps-update-experience.md
-        - name: Manage access to Teams apps across Microsoft 365
+        - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
+        - name: Audit app management activities
+          href: audit-app-management-activities.md
     - name: App usage report and analytics
       href: teams-analytics-and-reports/app-usage-report.md
 
@@ -1832,7 +1838,7 @@ items:
           href: teams-add-on-licensing/advanced-communications.md
         - name: Messaging policies licensing
           href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft Teams Phone Standard – Virtual User license
+        - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
