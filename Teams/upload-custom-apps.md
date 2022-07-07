@@ -92,7 +92,7 @@ By default, for users to find the app they have to go to your organization's app
 
 ### Search the audit log for Teams app events
 
-You can search the audit log to view Teams apps activity in your organization. To learn more about how to search the audit log and to see a list of Teams activities that are logged in the audit log, see [Search the audit log for events in Teams](audit-log-events.md).
+You can search the audit log to view Teams apps activity in your organization. To learn more about auditing Teams activities, see [search the audit log for events in Teams](audit-app-management-activities.md).
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/homepage). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
