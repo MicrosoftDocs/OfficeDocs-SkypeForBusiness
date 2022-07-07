@@ -27,7 +27,12 @@ For any type of incident that Microsoft did not flag, or for questions about the
 
 In the Description field, describe as best as possible the issue that you need help with from Microsoft. You can add one or more rooms.
 
-![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002A.png)
+Check  **High Impact** if the incident is causing significant health degradation for the service or for a critical room. To help Microsoft properly prioritize your request, describe in detail the reason this is high impact.
+
+> [!NOTE]
+> This field should not be used for general questions, Rooms and/or issues that are not hard down or have an available mitigation.
+
+![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)
 
 Customer-reported incidents (CRIs) are considered critical tickets, which means that the Teams Rooms Service Operations Center triage these tickets first. See the Service Description SLA for Customer-reported incidents [here](microsoft-teams-rooms-premium.md). When a room is (or rooms are) selected as part of the CRI, each room will be marked as **Unhealthy** until the CRI is closed.
 
