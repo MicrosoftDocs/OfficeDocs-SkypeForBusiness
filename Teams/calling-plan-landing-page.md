@@ -38,11 +38,10 @@ The following articles provide more information about deploying and using Micros
 
 To use Microsoft as your telephony carrier, you need to obtain Calling Plan licenses and assign them to your Phone System users.
 
-There are three types of Calling Plans available:
+There are two types of Calling Plans available:
 
 - Domestic Calling Plans
 - International Calling Plans
-- Domestic and International Calling Plans
 
 |Ask yourself|Action |
 |------------|-------|
