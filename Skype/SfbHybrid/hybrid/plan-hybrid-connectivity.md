@@ -129,11 +129,11 @@ To configure your deployment for hybrid with **Teams**, you need to have one of 
 |Skype for Business Server 2019| CU6 |7.0.2046.385|
 |Skype for Business Server 2015| CU12|6.0.9319.619|
 |Lync Server 2013| CU10 with Hotfix 7|5.0.8308.1182|
-||||
 
 </br>
 
-> [!NOTE] Lync Server 2010 is not supported with Teams.
+> [!NOTE] 
+> Lync Server 2010 is not supported with Teams.
 
 
 ## Multi-forest support
