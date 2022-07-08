@@ -1,7 +1,7 @@
 ---
 title: Turn on Teams in your Microsoft 365
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/7/2018
 ms.topic: article

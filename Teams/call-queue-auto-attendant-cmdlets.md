@@ -54,7 +54,6 @@ The following cmdlets allow you to manage auto attendants:
 
 For a step-by-step guide to creating auto attendants with PowerShell, see [Creating auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
-
 ## Call queue cmdlets
 
 The following cmdlets allow you to manage a call queue:
@@ -64,9 +63,7 @@ The following cmdlets allow you to manage a call queue:
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-
 For a step-by-step guide to creating call queues with PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
-
 
 ## Common cmdlets used by both auto attendants and call queues
 
@@ -92,18 +89,15 @@ The following cmdlets are also required to manage the users, resource accounts, 
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-
-### Virtual Teams Phone licenses
+### Teams Phone Resource Account licenses
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
 
 ### Phone number assignment
 
 - [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
-
 
 ### Audio Files
 
@@ -112,9 +106,7 @@ The following cmdlets are also required to manage the users, resource accounts, 
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-
 ### Support Languages and Time zones
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-

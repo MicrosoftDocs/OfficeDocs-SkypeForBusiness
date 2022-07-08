@@ -76,6 +76,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |WB5023 camera                                              |6/29/2022       |Certified for Microsoft Teams                           |
+|EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |C10/C20/C50 Series headsets                                |5/31/2022       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Certified for Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
@@ -142,8 +144,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Lenovo               |Pro Wired VoIP Stereo Headset                              |12/21/2020      |Skype for Business with upgrade to Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Certified for Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Certified for Microsoft Teams                           |
-|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
-|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
@@ -160,8 +162,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
-|Jabra                |Evolve 75 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
-|Jabra                |Evolve 65 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 75 / SE Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 65 / SE Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Engage 50 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 85 Headset                                         |7/17/2020       |Certified for Microsoft Teams                           |

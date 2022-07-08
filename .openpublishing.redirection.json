@@ -1818,7 +1818,7 @@
     {
       "source_path": "Teams/onboarding-test-plan-for-enterprises-phone-system.md",
       "redirect_url": "/MicrosoftTeams/cloud-voice-landing-page",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md",
@@ -2708,6 +2708,11 @@
      {
       "source_path": "Teams/business-voice/set-up-auto-attendant.md",
       "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/tutorial-calling-in-teams.yml",
+      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
       "redirect_document_id": false
      }
   ] 
