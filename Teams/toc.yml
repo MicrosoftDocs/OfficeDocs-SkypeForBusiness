@@ -1599,10 +1599,10 @@ items:
           href: audit-app-management-activities.md
         - name: App usage report and analytics
           href: teams-analytics-and-reports/app-usage-report.md
-    - name: App behavior based on types of users
-      href: non-standard-users.md
-    - name: App updates and admin role
-      href: apps-update-experience.md
+        - name: App behavior based on types of users
+          href: non-standard-users.md
+        - name: App updates and admin role
+          href: apps-update-experience.md
 
 - name: Industries and government guidance
   items: 
