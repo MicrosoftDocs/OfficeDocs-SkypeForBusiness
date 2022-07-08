@@ -681,20 +681,20 @@ items:
               href: teams-live-events/configure-teams-live-events.md
             - name: Live events recording policies
               href: teams-live-events/live-events-recording-policies.md
-              
+
         - name: Create a Teams hybrid meeting experience
           items:
           - name: "Overview"
             href: hybrid-meetings-overview
           - name: "Step 1 - Get familiar with Teams meeting features"
             href: hybrid-meetings-features
-          - name: "Step 2 - Attendee best practices"
+          - name: "Step 2 - Evangelize meeting best practices"
             items:
             - name: "Meeting organizers"
               href: hybrid-meetings-educate-organizer
-            - name: "Remote participants"
+            - name: "Remote attendees"
               href: hybrid-meetings-educate-remote
-            - name: "In-room participants"
+            - name: "In-room attendees"
               href: hybrid-meetings-educate-inroom
           - name: "Step 3 - Design a meeting space"
             href: hybrid-meetings-room-design
