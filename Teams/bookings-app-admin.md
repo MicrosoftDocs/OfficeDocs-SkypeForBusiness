@@ -54,6 +54,8 @@ You can also [create a Teams app setup policy to pin the Bookings app for select
 
 To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **Everyone in your organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [how to automatically admit people to meetings](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
+For more information about meeting policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md) and [Meeting policies and meeting expiration in Teams](meeting-expiration.md).
+
 ## Optional staff approvals setting
 
 You can require staff to opt in before Bookings shares their schedule availability information and before others can schedule an appointment with them.
