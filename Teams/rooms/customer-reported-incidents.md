@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Customer-reported incidents
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/30/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome 
 ms.topic: article
@@ -30,7 +30,7 @@ In the Description field, describe as best as possible the issue that you need h
 Check  **High Impact** if the incident is causing significant health degradation for the service or for a critical room. To help Microsoft properly prioritize your request, describe in detail the reason this is high impact.
 
 > [!NOTE]
-> This field should not be used for general questions, Rooms and/or issues that are not hard down or have an available mitigation.
+> Do not use this field for general questions, rooms, and/or issues that do not have available mitigation.
 
 ![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)
 
