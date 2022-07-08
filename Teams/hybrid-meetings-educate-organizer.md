@@ -10,7 +10,7 @@ manager: serdars
 audience: ITPro
 description: 
 ms.topic: article
-ms.prod: microsoft-365-enterprise
+ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
