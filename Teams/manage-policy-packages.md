@@ -28,7 +28,7 @@ A policy package in Microsoft Teams is a collection of predefined policies and p
 
 You can use the [policy packages included in Teams](#policy-packages-included-in-teams) or [create your own custom policy packages](#custom-policy-packages).
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot of the Policy packages page in the admin center.":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot of the Policy packages page in the admin center." lightbox="media/policy-packages-admin-center.png":::
 
 You can customize the settings of the policies in a policy package to suit the needs of your users. When you change the settings of policies in a package, all users who are assigned to that package get the updated settings. You manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
@@ -74,7 +74,7 @@ Teams currently includes the following policy packages.
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
 For example, when you assign the Education (Teacher) policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
-![Screenshot of the Education (Teacher) policy package.](media/policy-packages-education_teacher.png)
+:::image type="content" source="media/policy-packages-education_teacher.png" alt-text="Screenshot of the Education (Teacher) policy package." lightbox="media/policy-packages-education_teacher.png":::
 
 ## Custom policy packages
 
@@ -84,11 +84,11 @@ To create a new custom policy package:
 
 1. In the left pane of the Microsoft Teams admin center,  select **Policy packages**, and then click **Add**.
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot of Add button on Policy packages page in the admin center.":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot of Add button on Policy packages page in the admin center." lightbox="media/policy-packages-add.png":::
 
 2. Enter a name and description for your package.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Screenshot of adding a  new custom policy package.":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Screenshot of adding a  new custom policy package." lightbox="media/policy-packages-add-custom.png":::
 
 3. Select the policy types and policy names to include in the package.
 

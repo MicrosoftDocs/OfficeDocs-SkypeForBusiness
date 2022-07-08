@@ -84,8 +84,7 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 
     1. Select **Apply**.
 
-
-       ![shows the group policy assignment.](media/group-pkg-assignment.png)
+       :::image type="content" source="media/group-pkg-assignment.png" alt-text="Screenshot of Assign a policy package to a group pane." lightbox="media/group-pkg-assignment.png":::
 
 5. To manage ranking for a specific policy type, navigate to the specific policy page.
 
