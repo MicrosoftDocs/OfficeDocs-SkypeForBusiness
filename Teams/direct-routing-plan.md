@@ -155,6 +155,9 @@ It is possible that a company might have several SIP address spaces in one tenan
 
 The SBC only needs one FQDN and can service users from any address space in the paired tenant. For example,  an SBC with the name sbc1.contoso.com can receive and send the PSTN traffic for users with addresses user@contoso.com and user@fabrikam.com as long as these SIP address spaces are registered in the same tenant.  
 
+ > [!NOTE]
+ > SBC FQDN in Azure Communication Services direct routing must be different from SBC FQDN in Teams Direct Routing.
+  
 ## Public trusted certificate for the SBC
 
 Microsoft recommends that you request the certificate for the SBC by generating a certification signing request (CSR). For specific instructions on generating a CSR for an SBC, refer to the interconnection instructions or documentation provided by your SBC vendors. 
