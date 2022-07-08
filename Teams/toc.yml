@@ -681,6 +681,31 @@ items:
               href: teams-live-events/configure-teams-live-events.md
             - name: Live events recording policies
               href: teams-live-events/live-events-recording-policies.md
+              
+        - name: Create a Teams hybrid meeting experience
+          items:
+          - name: "Overview"
+            href: hybrid-meetings-overview
+          - name: "Step 1 - Get familiar with Teams meeting features"
+            href: hybrid-meetings-features
+          - name: "Step 2 - Attendee best practices"
+            items:
+            - name: "Meeting organizers"
+              href: hybrid-meetings-educate-organizer
+            - name: "Remote participants"
+              href: hybrid-meetings-educate-remote
+            - name: "In-room participants"
+              href: hybrid-meetings-educate-inroom
+          - name: "Step 3 - Design a meeting space"
+            href: hybrid-meetings-room-design
+          - name: "Step 4 - Select room devices"
+            href: hybrid-meetings-device-select
+          - name: "Step 5 - Build out your room"
+            href: hybrid-meetings-room-build
+          - name: "Step 6 - Set up your devices"
+            href: hybrid-meetings-device-config
+          - name: "Step 7 - Manage and monitor rooms and meetings"
+            href: hybrid-meetings-manage
     - name: Audio conferencing
       items: 
         - name: Audio Conferencing in M365
