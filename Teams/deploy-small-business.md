@@ -68,9 +68,10 @@ Meetings and conferencing lets people in your organization meet with each other 
 > [!TIP]
 > Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
 
-Meetings are enabled by default in Teams, however, you can control the meeting experience for organizers and participants. You can also set policies for what people are, and aren't, allowed to do before and during meetings. For more information, check out the following article:
+Meetings are enabled by default in Teams, however, you can control the meeting experience for organizers and participants. You can also set policies for what people are, and aren't, allowed to do before and during meetings. For more information, check out the following articles:
 
 - [Admin quick start - Meetings and live events in Microsoft Teams](quick-start-meetings-live-events.md)
+- [Set up Audio Conferencing for small and medium businesses](audio-conferencing-smb.md)
 
 ### Teams Phone with Calling Plan
 
