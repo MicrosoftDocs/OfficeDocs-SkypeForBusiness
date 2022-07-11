@@ -41,6 +41,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Teams/flw-trial.md",
+      "redirect_url": "/microsoft-365/frontline/flw-trial",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/hc-delegates.md",
       "redirect_url": "/microsoft-365/frontline/hc-delegates",
       "redirect_document_id": false
