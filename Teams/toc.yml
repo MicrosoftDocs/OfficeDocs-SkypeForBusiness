@@ -1522,7 +1522,7 @@ items:
         - name: Resource accounts for Skype for Business Server
           href: rooms/with-skype-for-business-server-2015.md           
               
-- name: Manage apps
+- name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
       href: deploy-apps-microsoft-teams-landing-page.md
@@ -1551,10 +1551,10 @@ items:
           href: overview-of-app-validation.md
         - name: Security, compliance, and privacy of third-party apps
           href: overview-of-app-certification.md
-        - name: Manage Microsoft 365 and custom connectors
-          href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
+        - name: Manage Microsoft 365 and custom connectors
+          href: Office-365-custom-connectors.md
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
@@ -1566,9 +1566,9 @@ items:
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
-        - name: Customize apps in Teams
+        - name: Customize appearance and metadata of apps
           href: customize-apps.md
-        - name: Brand your organization's app store
+        - name: Brand your org app store
           href: customize-your-app-store.md
 
     - name: Admin controls to govern apps
@@ -1577,13 +1577,13 @@ items:
           href: manage-apps.md
         - name: App policies
           items: 
-          - name: Manage app policies in Teams
+          - name: Understand app policies
             href: app-policies.md
-          - name: Manage app permission policies in Teams
+          - name: Manage app permission policies
             href: teams-app-permission-policies.md
-          - name: Manage app setup policies in Teams
+          - name: Manage app setup policies
             href: teams-app-setup-policies.md
-          - name: Manage custom app policies and settings in Teams
+          - name: Manage custom app policies and settings
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
@@ -1593,16 +1593,16 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
-        - name: App behavior based on types of users
-          href: non-standard-users.md
-        - name: App updates and admin role
-          href: apps-update-experience.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
         - name: Audit app management activities
           href: audit-app-management-activities.md
-    - name: App usage report and analytics
-      href: teams-analytics-and-reports/app-usage-report.md
+        - name: App usage report and analytics
+          href: teams-analytics-and-reports/app-usage-report.md
+        - name: App behavior based on types of users
+          href: non-standard-users.md
+        - name: App updates and admin role
+          href: apps-update-experience.md
 
 - name: Industries and government guidance
   items: 
