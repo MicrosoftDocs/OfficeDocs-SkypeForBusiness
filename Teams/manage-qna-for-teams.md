@@ -19,7 +19,7 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Teams 
 ---
 # Manage Q&A in Teams Meetings
 
-Q&A is an integrated meeting experience that gives participants the opportunity to formally ask and receive answers to questions, and engage in structured discussions. This experience is a best practice for meetings with more than 10 participants.
+Q&A allows presenters take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings – like Town Halls, Webinars, All Hands, and trainings.
 
 This article describes how to manage Q&A and user-level policies, which dictate whether an organizer can enable Teams Q&A in their meetings.
 
@@ -42,9 +42,6 @@ Q&A can be used by the following user types:
 - Regular user—A user with Microsoft 365 credentials in your tenant.
 - Federated user—A user with Microsoft 365 credentials to a different tenant.
 - Guest user—Any guests you add to your Microsoft Teams, SharePoint, or Azure Active Directory.
-
-> [!NOTE]
-> Q&A does not support anonymous users at this time.
 
 When admins enable Q&A, users with the organizer role can turn on Q&A when creating or updating meetings. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to stop attendees from using the feature.
 
