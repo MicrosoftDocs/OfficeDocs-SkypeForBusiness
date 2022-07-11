@@ -42,7 +42,7 @@ In addition to the requirements above, the below requirements must be configured
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
-- If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
+- If you are assigning a phone number to a resource account you can now use the cost-free **Microsoft Teams Phone Resource Account** license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
 - Create an on-premises [resource account](configure-onprem-ra.md) for each call queue, and assign a license and phone number if required.  
 
