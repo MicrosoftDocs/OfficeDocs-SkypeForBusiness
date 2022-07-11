@@ -236,15 +236,28 @@ Feel free to distribute the following material to your **educators**:
 - And lastly, check out [this blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) dedicated to Insights.
 
 Material for **education leaders**:
+
 - [Insights for education organizations support page](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
-### Turn Insights on or off
+### Turn on and off Insights
 
-By default, Insights is turned on, which enables us to collect analytics of students' activities within Teams, to be used in insights. You may decide to opt-out from Insights, in which case we *delete all the data collected* for Insights and stop collecting any future data. If you turn Insights back on, we start collecting data from the time it's re-enabled.
+By default, Insights is turned on, which allows analytics of students' activities within Teams, to be used in insights. You may opt out of Insights, in which case we *delete all the data collected* for Insights and stop collecting any future data. If you turn Insights back on, we start collecting data from the time it's re-enabled.
 
-- To turn Insights on or off, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn **Collect activity data for Insights** off or on to disable or enable Insights.
+There are two places where you can control *Education Insights*. Both options have the same result. For customers that have transitioned from *SDS (Classic)* to *SDS for provisioning*, only the Teams client option is available.
+
+#### Turn on and off Insights from the SDS admin center
+
+1. Open the [SDS Admin Center](https://sds.microsoft.com/).
+1. Go to **Settings** > **Manage Education Insights**.
+1. Adjust the **Collect activity data for Insights** toggle to on or off.
 
 :::image type="content" source="media/insights-settings.png" alt-text="A screenshot of the SDS Admin Center page where you have a settings option to turn Insights on or off.":::
+
+#### Turn on and off Insights from the Teams client
+
+1. If you don’t have the *Education Insights* personal app pinned yet, follow [these instructions](class-insights.md#education-leaders) to add it.
+1. With Admin privileges only, open the **Admin settings** page using the ellipsis icon located in the top right corner of *Education Insights*.
+1. Adjust the **Collect activity data for Insights** toggle to on or off.
 
 > [!NOTE]
 > If you've turned Insights off, the data that's been collected is deleted. The deleted data on opt-out cannot be restored at a later time, even if Insights is re-enabled.
@@ -255,8 +268,19 @@ When the **Allow advanced inferences** toggle for Education Insights is turned o
 
 Turning on this toggle won't collect any additional data other than the data already collected by Education Insights.
 
-- To adjust this setting, open the [SDS admin center](https://sds.microsoft.com/), and go to **Settings** > **Manage Education Insights**.
-- Adjust the **Allow advanced inferences** toggle to off or on.
+There are two places where you can control *Advanced inferences*. Both options have the same result. For customers that have transitioned from *SDS (Classic)* to *SDS for provisioning*, only the Teams client option is available.  
+
+#### Turn on and off Advanced inferences from the SDS admin center
+
+1. Open the [SDS admin center](https://sds.microsoft.com/).
+1. Go to **Settings** > **Manage Education Insights**.
+1. Adjust the **Allow advanced inferences** toggle to on or off.
+
+#### Turn on and off Advanced inferences from the Teams client
+
+1. If you don’t have the *Education Insights* personal app pinned yet, follow [these instructions](class-insights.md#education-leaders) to add it.
+1. With Admin privileges only, open the **Admin settings** page using the ellipsis icon located in the top right corner of *Education Insights*.
+1. Adjust the **Allow advanced inferences** toggle to on or off.
 
 > [!NOTE]
 > This toggle depends on the **Collect activity data for Insights** toggle. Turning off **Collect activity data for Insights** will also turn off the **Allow advanced inferences** toggle.
