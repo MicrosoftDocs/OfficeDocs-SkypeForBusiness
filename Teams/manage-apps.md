@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_Help
@@ -22,7 +24,7 @@ ms.localizationpriority: medium
 
 You manage apps for your organization in **Teams apps** page in the Teams admin center portal. Use the Manage apps page to view and manage all Teams apps in your organization's app catalog.
 
-![Screenshot of the Manage apps page.](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="Screenshot of the Manage apps page." lightbox="media/manage-apps.png":::
 
 To use Teams admin center, you must have a Global Admin or Teams Administrator role. For details, see the following help articles:
 
@@ -42,6 +44,7 @@ The options to accomplish most of app management use cases are available in Team
 
 | App management use cases | Link to the interface | Documentation |
 |:----|:----|:----|
+| **In Teams admin center** | | |
 | Control which apps are available to users in your organization by allowing and blocking apps. You can also upload and approve custom apps. After managing apps on this page, you can use app permission and app setup policies to configure what apps are available for specific users in your organization's app store. | [Manage apps in Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps) | Current article |
 | App permission policies control what apps you want to make available to Teams users in your organization. You can use the Global (Org-wide) default policy and customize it, or you can create one or more policies to meet the needs of your organization. | [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) | [Manage app permission policies](teams-app-permission-policies.md) |
 | App setup policies control how apps are made available to a user with the Teams app. Use the Global (Org-wide default) policy and customize it or create custom policies and assign them to a set of users. | [Setup policies](https://admin.teams.microsoft.com/policies/app-setup) | [Manage app setup policies](teams-app-setup-policies.md) |
@@ -51,7 +54,9 @@ The options to accomplish most of app management use cases are available in Team
 | Your users can add apps when they host meetings or chats with guests. They can also use apps shared by guests when they join meetings or chats hosted externally. The data policies of the hosting user's organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](non-standard-users.md) |
 | With guest access, you can provide access to applications and other Teams functionality to people outside your organization, while maintaining control over your corporate data. | [Guest access](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Guest access in Teams](guest-access.md) |
 | Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app.  | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
-| Audit Teams app events on Microsoft Purview compliance portal | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-log-events.md#teams-activities) |
+| **Outside Teams admin center** | | |
+| Manage licenses and subscriptions of third-party apps in Microsoft 365 admin center | [Microsoft 365 admin center](https://admin.microsoft.com/#/licenses) | [Manage third-party app subscriptions](/microsoft-365/commerce/manage-saas-apps) |
+| Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
 | Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Azure AD portal](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---
@@ -108,7 +113,7 @@ You can view requests to make a blocked app available for use. The request is se
 
  1. Sign in to the Teams admin center and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="Request by users" lightbox="media/requested-apps.png" border="true":::​
+    :::image type="content" source="media/requested-apps1.png" alt-text="End-user requests for blocked apps are displayed in the Teams admin center in the column titled Requests by users." lightbox="media/requested-apps.png":::​
 
  1. To view and check the number of requests for each app, sort the requests in the **Requests by user** column.
  1. Select the name of the app that you want to unblock and it opens the app details page.
@@ -147,7 +152,7 @@ You use the **Add to team** button to install an app to a team. This option is a
 1. Search for an app by its name and select the app. Don't open the app details page.
 1. Select **Add to team**.
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot of Add to team option for app that can be added to the team scope." lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot of Add to team option for app that can be added to the team scope.":::
 
 1. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
