@@ -105,8 +105,6 @@ If you're using the Microsoft Teams Rooms managed services component of Microsof
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
 - gj3ftstorage.blob.core.windows.net
-- iothubsgagwt5wgvwg6.azure-devices.net
-- blobssgagwt5wgvwg6.blob.core.windows.net
 - mmrstgnoamiot.azure-devices.net
 - mmrstgnoamstor.blob.core.windows.net
 - mmrprodapaciot.azure-devices.net
