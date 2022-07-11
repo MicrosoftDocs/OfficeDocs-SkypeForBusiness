@@ -1661,6 +1661,8 @@ items:
       items: 
         - name: Get started with Teams for frontline workers
           href: flw-landing-page.md
+        - name: Policy packages for frontline workers
+          href: policy-packages-flw.md
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items: 
@@ -1684,7 +1686,7 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json            
-        - name: View and assign policy packages
+        - name: Policy packages for healthcare
           href: policy-packages-healthcare.md
         - name: Use healthcare team templates
           href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
