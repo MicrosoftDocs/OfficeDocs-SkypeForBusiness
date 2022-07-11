@@ -132,6 +132,27 @@ If you have a 3PIP or SIP device, you must have:
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |Handset |   |
+|          |7212        |PCS22B     |PCS22B     |Handset |   |
+|          |7502        |PCS22B     |PCS22B     |Handset |   |
+|          |7522        |PCS22B     |PCS22B     |Handset |   |
+|          |7532        |PCS22B     |PCS22B     |Handset |   |
+|          |7622        |PCS22B     |PCS22B     |Handset |   |
+|          |7642        |PCS22B     |PCS22B     |Handset |   |
+|          |7722        |PCS22B     |PCS22B     |Handset |   |
+|          |7742        |PCS22B     |PCS22B     |Handset |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |Virtual IP-DECT Server One |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Base Station |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+
+> [!NOTE]
+> Handsets receive firmware updates over the air from IP-DECT servers.
+
+> [!NOTE]
+> For support queries, customers using Spectralink IP-DECT systems with Teams SIP Gateway should reach out to Spectralink or their implementation channel partners.
 
 > [!NOTE]
 > For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.
