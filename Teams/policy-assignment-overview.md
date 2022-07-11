@@ -77,7 +77,7 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 2. Select the **Global (Org-wide default)** policy to view the current settings.
 3. Update the policy as needed, and then select **Apply**.
 
-![Update global policy in Teams admin center.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global.png" alt-text="Update global policy in Teams admin center." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### Using PowerShell
 
