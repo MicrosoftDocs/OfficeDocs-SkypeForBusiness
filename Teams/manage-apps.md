@@ -56,7 +56,7 @@ The options to accomplish most of app management use cases are available in Team
 | Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app.  | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
 | **Outside Teams admin center** | | |
 | Manage licenses and subscriptions of third-party apps in Microsoft 365 admin center | [Microsoft 365 admin center](https://admin.microsoft.com/#/licenses) | [Manage third-party app subscriptions](/microsoft-365/commerce/manage-saas-apps) |
-| Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-log-events.md#teams-activities) |
+| Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
 | Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Azure AD portal](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---
@@ -113,7 +113,7 @@ You can view requests to make a blocked app available for use. The request is se
 
  1. Sign in to the Teams admin center and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="Request by users" lightbox="media/requested-apps.png" border="true":::​
+    :::image type="content" source="media/requested-apps1.png" alt-text="End-user requests for blocked apps are displayed in the Teams admin center in the column titled Requests by users." lightbox="media/requested-apps.png":::​
 
  1. To view and check the number of requests for each app, sort the requests in the **Requests by user** column.
  1. Select the name of the app that you want to unblock and it opens the app details page.
