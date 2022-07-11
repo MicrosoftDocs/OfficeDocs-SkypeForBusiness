@@ -36,8 +36,7 @@ To assign a policy to a user:
 2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
 3. Select the policy you want to assign, and then select **Apply**.
 
-![Screenshot of Edit settings pane under Manage users.](media/assign-policy-user.png)
-:::image type="content" source="media/teams-assign-policies-users-groups-edit-settings.png" alt-text="Screenshot of Edit settings pane under Manage users." lightbox="media/teams-assign-policies-users-groups-edit-settings-expanded.png":::
+:::image type="content" source="media/teams-assign-policies-users-groups-edit-settings.png" alt-text="Screenshot of Edit settings pane under Manage users." lightbox="media/assign-policy-user.png":::
 
 > [!NOTE]
 > To unassign a specialized policy from a user, you can set each policy to **Global (Org-wide default)**.
