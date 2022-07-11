@@ -38,7 +38,7 @@ To contact the service desk:
 
 2. In the left-hand pane, select **Voice**, and then **Phone numbers**.
 
-3. In the upper right corner of the page, click **Actions**, then select **Get phone number support**. You will be transfered to the **Phone Number Service Center** (Service Desk Portal).
+3. In the upper right corner of the page, click **Actions**, then select **Get phone number support**. You will be transfered to the [Telephone Number Service Center](https://pstnsd.powerappsportals.com/)
 
 > [!NOTE]
 > Only someone from the same tenant is allowed to create a case. For example, someone from @fabrikam.com can't create a case on behalf of @contoso.com.

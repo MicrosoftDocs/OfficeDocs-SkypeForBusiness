@@ -2,6 +2,30 @@
 
 
 
+## Week of July 04, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/5/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
+| 7/5/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 7/5/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 7/5/2022 | [Meetings and conferencing in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modified |
+| 7/5/2022 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
+| 7/5/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 7/5/2022 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
+| 7/5/2022 | [Microsoft Teams Phone Resource Account licenses](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modified |
+| 7/5/2022 | [Teams voice Contoso case study: Auto attendants and call queues](/MicrosoftTeams/voice-case-study-call-queues) | modified |
+| 7/5/2022 | [Search the audit logs for app management events](/MicrosoftTeams/audit-app-management-activities) | added |
+| 7/6/2022 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 7/6/2022 | [Use PowerShell to connect Shifts to Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modified |
+| 7/6/2022 | [Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | modified |
+| 7/6/2022 | [How can caller ID be used in your organization](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modified |
+| 7/7/2022 | Understand calling in Microsoft Teams | removed |
+| 7/7/2022 | [Calling Plans for Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modified |
+| 7/8/2022 | [Virtual appointments with Microsoft Teams and the Bookings app](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modified |
+
+
 ## Week of June 27, 2022
 
 
@@ -84,22 +108,3 @@
 | 6/10/2022 | [Deploy teams at scale for frontline workers in Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | modified |
 | 6/10/2022 | [Move from Business Voice to Teams Phone licenses](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | added |
 | 6/10/2022 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
-
-
-## Week of May 30, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/31/2022 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | added |
-| 5/31/2022 | [Customize your app store in Teams](/MicrosoftTeams/customize-your-app-store) | modified |
-| 5/31/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
-| 5/31/2022 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
-| 5/31/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 6/1/2022 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 6/1/2022 | [Emergency addresses for remote locations](/MicrosoftTeams/emergency-calling-dispatchable-location) | modified |
-| 6/1/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 6/2/2022 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
-| 6/2/2022 | [Special character restrictions in Teams policies](/MicrosoftTeams/special-character-restrictions-in-policy-names) | modified |
-| 6/2/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
-| 6/3/2022 | [Microsoft Teams EHR connector Virtual Appointments report](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | modified |
