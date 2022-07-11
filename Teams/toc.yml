@@ -699,6 +699,8 @@ items:
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
+            - name: Set up Audio Conferencing - quickstart for small and medium businesses
+              href: audio-conferencing-smb.md
         - name: Manage
           items:
             - name: Manage your audio conferencing service
