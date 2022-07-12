@@ -48,6 +48,9 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 
 Teams users must have a phone number with PSTN calling enabled to use SIP Gateway.
 
+> [!NOTE]
+> SIP Gateway is not available for government environments (GCC, GCC High and DoD).
+
 ### Hardware, software, and licenses
 
 If you have a 3PIP or SIP device, you must have:
