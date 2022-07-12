@@ -109,9 +109,11 @@ This setting doesn't apply to channel meetings. Once this meeting chat policy is
 
 ## Q&A in meetings
 
-This is a per-organizer policy. This setting controls whether organizers can add the Q&A experience to their meetings. By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings). 
+This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
 
-To parameter QnAEngagementMode controls this policy in PowerShell and Q&A can also be adjusted within the admin portal.
+The setting is enforced when a meeting is created or is updated by Organizers. By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings).
+
+The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the admin portal.
 
 |Setting value |Behavior  |
 |---------|---------|
