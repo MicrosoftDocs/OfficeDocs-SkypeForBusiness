@@ -1,5 +1,5 @@
 ---
-title: "Create a great Teams meeting experience for all participants"
+title: "Step 1 - Get familiar with Teams meeting features"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,4 +19,4 @@ ms.custom:
 keywords: 
 ---
 
-# Create a great Teams meeting experience for all participants
+# Step 1 - Get familiar with Teams meeting features

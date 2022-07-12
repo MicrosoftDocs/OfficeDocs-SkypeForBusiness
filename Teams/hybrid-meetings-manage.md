@@ -1,5 +1,5 @@
 ---
-title: "Step 6 - Manage and monitor your Teams meeting space"
+title: "Step 7 - Manage and monitor your Teams meeting space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,4 +19,4 @@ ms.custom:
 keywords: 
 ---
 
-# Step 6 - Manage and monitor your Teams meeting space
+# Step 7 - Manage and monitor your Teams meeting space

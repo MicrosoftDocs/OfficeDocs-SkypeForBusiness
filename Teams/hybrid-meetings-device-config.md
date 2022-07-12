@@ -1,5 +1,5 @@
 ---
-title: "Step 5 - Set up devices in your Teams meeting space"
+title: "Step 6 - Set up devices in your Teams meeting space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,4 +19,4 @@ ms.custom:
 keywords: 
 ---
 
-# Step 5 - Set up devices in your Teams meeting space
+# Step 6 - Set up devices in your Teams meeting space

@@ -1,5 +1,5 @@
 ---
-title: "Step 4 - Build out your meeting space"
+title: "Step 5 - Build out your meeting space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,4 +19,4 @@ ms.custom:
 keywords: 
 ---
 
-# Step 4 - Build out your meeting space
+# Step 5 - Build out your meeting space

@@ -1,5 +1,5 @@
 ---
-title: "Step 3 - Select devices that enable your space for hybrid meetings"
+title: "Step 4 - Select devices that enable your space for hybrid meetings"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,4 +19,4 @@ ms.custom:
 keywords: 
 ---
 
-# Step 3 - Select devices that enable your space for hybrid meetings
+# Step 4 - Select devices that enable your space for hybrid meetings

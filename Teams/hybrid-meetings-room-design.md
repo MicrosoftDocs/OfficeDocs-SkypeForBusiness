@@ -1,5 +1,5 @@
 ---
-title: "Step 2 - Design a new meeting space or enhance an existing space"
+title: "Step 3 - Design a new meeting space or enhance an existing space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,4 +19,4 @@ ms.custom:
 keywords: 
 ---
 
-# Step 1 - Design a new meeting space or enhance an existing space
+# Step 3 - Design a new meeting space or enhance an existing space
