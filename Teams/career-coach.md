@@ -1,5 +1,5 @@
 ---
-title: Purchase, configure, and enable Career Coach for Microsoft Teams for Education
+title: Get started with Career Coach for Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 ms.reviewer: alaina.creager
@@ -8,17 +8,16 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to purchase, configure, and enable Career Coach for Microsoft Teams for Education.
+description: Learn how to get started with Career Coach for Microsoft Teams, including supported languages and requirements.
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-edu
 appliesto: 
   - Microsoft Teams
 ---
 
-# Purchase, configure, and enable Career Coach for Microsoft Teams
+# Get started with Career Coach for Microsoft Teams
 
 Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.
 
