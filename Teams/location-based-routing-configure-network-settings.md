@@ -1,7 +1,7 @@
 ---
 title: Configure network settings - Location-based routing
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz

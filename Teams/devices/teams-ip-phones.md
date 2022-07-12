@@ -67,6 +67,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBar A20 | `133.15.0.108  `   | September 3, 2024 | Small meeting room(4.5 m x 4.5 m)| 10|
+| Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
+| Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Neat Bar | `NFB1.20220211.1400` |September 3, 2024|    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Pad touch console | `NFA1.20220211.1400`  | August 5, 2023 |  Compatible with Neat Bar only | 9 |
 | Neat Board | `NFC1.20220211.1400 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
@@ -112,6 +115,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #3  | July 6,2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
 | 2022 Update #2A  | April 13,2022   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | 2022 Update #2   | March 21,2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | 2022 Update #1C  | March 3,2022  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
@@ -240,6 +244,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
+| Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
 | Logi Rallybar Mini | `1.6.552`       | 2022 Update #2   |
 | Neat Bar | `NFB1.20220512.2200` | 2022 Update #2 |
@@ -343,6 +349,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
+|Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
 |Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 Update #1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | 2022 Update #1 |

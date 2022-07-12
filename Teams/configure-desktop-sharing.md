@@ -1,7 +1,7 @@
 ---
 title: Configure desktop sharing in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019

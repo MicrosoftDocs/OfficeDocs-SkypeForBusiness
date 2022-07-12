@@ -650,6 +650,8 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
+            - name: Manage Q&A in Teams Meetings
+              href: manage-qna-for-teams.md
             - name: Manage the Whiteboard in Teams
               href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
@@ -801,10 +803,12 @@ items:
           href: set-up-common-area-phones.md
         - name: Voicemail
           items: 
-            - name: Set up Cloud Voicemail
+            - name: Manage Cloud Voicemail
               href: set-up-phone-system-voicemail.md
             - name: Manage Voicemail policies
               href: manage-voicemail-policies.md
+            - name: Manage Voicemail settings
+              href: manage-voicemail-settings.md
             - name: Change the default language for voicemail
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
@@ -1518,9 +1522,9 @@ items:
         - name: Resource accounts for Skype for Business Server
           href: rooms/with-skype-for-business-server-2015.md           
               
-- name: Manage apps
+- name: Manage apps in Teams
   items: 
-    - name: Overview
+    - name: Understand apps in Teams
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Manage apps provided by Microsoft
       items:
@@ -1547,10 +1551,10 @@ items:
           href: overview-of-app-validation.md
         - name: Security, compliance, and privacy of third-party apps
           href: overview-of-app-certification.md
-        - name: Use Microsoft 365 or Office 365 and custom connectors
-          href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
+        - name: Manage Microsoft 365 and custom connectors
+          href: Office-365-custom-connectors.md
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
@@ -1562,41 +1566,43 @@ items:
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
-        - name: Customize apps in Teams
+        - name: Customize appearance and metadata of apps
           href: customize-apps.md
-        - name: Brand your organization's app store
+        - name: Brand your org app store
           href: customize-your-app-store.md
 
     - name: Admin controls to govern apps
       items:
-        - name: Overview of app management for admins
+        - name: Overview of app management
           href: manage-apps.md
         - name: App policies
           items: 
-          - name: Manage app policies in Teams
+          - name: Understand app policies
             href: app-policies.md
-          - name: Manage app permission policies in Teams
+          - name: Manage app permission policies
             href: teams-app-permission-policies.md
-          - name: Manage app setup policies in Teams
+          - name: Manage app setup policies
             href: teams-app-setup-policies.md
-          - name: Manage custom app policies and settings in Teams
+          - name: Manage custom app policies and settings
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
-        - name: About Azure AD permissions and admin consent
+        - name: Graph permissions and admin consent in Azure AD
           href: app-permissions-admin-center.md
-        - name: Manage resource-specific consent for your organization
+        - name: Manage resource-specific consent for your org
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
+        - name: Manage access to apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
+        - name: Audit app management activities
+          href: audit-app-management-activities.md
+        - name: App usage report and analytics
+          href: teams-analytics-and-reports/app-usage-report.md
         - name: App behavior based on types of users
           href: non-standard-users.md
-        - name: Update apps to newer versions as end-users
+        - name: App updates and admin role
           href: apps-update-experience.md
-        - name: Manage access to Teams apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
-    - name: App usage report
-      href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 
@@ -1656,7 +1662,7 @@ items:
           href: easy-policy-setup-edu.md
         - name: Parent Connection in Teams for Education
           href: edu-parents-app.md
-        - name: Career Coach app in Teams for Education
+        - name: Career Coach in Teams for Education
           href: career-coach.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
@@ -1696,8 +1702,8 @@ items:
           href: flw-quickstart.yml
         - name: Frontline Worker onboarding wizard
           href: flw-onboarding-wizard.md  
-        - name: Frontline Workers scripted deployment
-          href: flw-scripted-deployment.md
+        - name: Deploy teams at scale for frontline workers
+          href: deploy-teams-at-scale.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
         - name: Manage the Shifts app
@@ -1781,8 +1787,8 @@ items:
           href: get-started-with-retail-teams-templates.md
         - name: Frontline Worker onboarding wizard
           href: flw-onboarding-wizard.md  
-        - name: Frontline Workers scripted deployment
-          href: flw-scripted-deployment.md
+        - name: Deploy teams at scale for frontline workers
+          href: deploy-teams-at-scale.md
         - name: Shifts for Teams
           items: 
             - name: Shifts for Teams
@@ -1832,7 +1838,7 @@ items:
           href: teams-add-on-licensing/advanced-communications.md
         - name: Messaging policies licensing
           href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft Teams Phone Standard – Virtual User license
+        - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
