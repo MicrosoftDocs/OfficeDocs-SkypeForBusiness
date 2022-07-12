@@ -1662,8 +1662,16 @@ items:
           href: easy-policy-setup-edu.md
         - name: Parent Connection in Teams for Education
           href: edu-parents-app.md
-        - name: Career Coach in Teams for Education
-          href: career-coach.md
+        - name: Career Coach
+          items:
+          - name: Get started with Career Coach
+            href: career-coach.md
+          - name: Set up and configure Career Coach
+            href: career-coach-set-up-steps.md
+          - name: Troubleshoot Career Coach
+            href: career-coach-troubleshoot.md
+          - name: Resources for Career Coach
+            href: career-coach-resources.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
         - name: Education Insights
