@@ -172,8 +172,6 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
     > [!NOTE]
     > For government clouds, see [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md) for the download links to the MSI files.
 
-    The minimum version of the Teams desktop app that's required is version 1.3.00.4461. PSTN hold isn't supported in earlier versions.
-
 2. Install the MSI to the VDI VM by running one of the following commands:
 
     - Per-user installation (default)
