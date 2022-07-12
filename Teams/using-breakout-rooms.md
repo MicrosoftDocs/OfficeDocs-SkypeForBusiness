@@ -38,13 +38,13 @@ When you are ready to start your breakout sessions, select **Start rooms**.
 
 You will see participants leaving the main meeting and joining their breakout rooms.
 
-If a participant leaves their breakout room, the organizer can move the participant back to the breakout room by selecting the ellipses **[…]** next to the participant’s name and then selecting **Ask to join**.
+If a participant leaves their breakout room, the organizer can move the participant back to the breakout room by selecting the ellipses **[...]** next to the participant’s name and then selecting **Ask to join**.
 
 If a participant joins the main meeting late after breakout rooms have opened, the organizer can add the participant to a breakout room. If the participant misses the notification to join the room, select **Ask to join**.
 
 ## Send announcements
 
-The meeting organizer can send announcements to all participants while breakout rooms are open. Select the ellipses **[…]** in the breakout rooms header.
+The meeting organizer can send announcements to all participants while breakout rooms are open. Select the ellipses **[...]** in the breakout rooms header.
 
 For example, remind participants to @mention the meeting organizer when they need help, or give them a five-minute countdown before pulling them back into the main room.
 Participants receive the announcement in their breakout rooms’ chat.
@@ -53,5 +53,5 @@ Participants receive the announcement in their breakout rooms’ chat.
 
 Select **Close rooms** to pull all the participants back to the main room.
 
-Alternatively, select the ellipses **[…]** for a specific breakout room, then select **Close room**.
+Alternatively, select the ellipses **[...]** for a specific breakout room, then select **Close room**.
 Once a breakout room is closed, chat for that session is closed. Participants can’t continue to chat there.

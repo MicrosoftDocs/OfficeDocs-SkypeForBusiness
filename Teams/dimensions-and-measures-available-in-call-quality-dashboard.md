@@ -144,6 +144,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Endpoint Label 3|String|A customizable label, information is read from an Endpoint Data file.| <br/>&bull; No data file for the endpoint |
 | First ASN|String|Autonomous system number for the first endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | Second ASN|String|Autonomous system number for the second endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
+| First ASN ISP Name|String|Name of the ASN holder -- usually an internet service provider or ISP -- for the autonomous system number of the first endpoint. <br/> **Example value** Microsoft Corporation  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
+| Second ASN ISP Name|String|Name of the ASN holder -- usually an internet service provider or ISP -- for the autonomous system number of the second endpoint. <br/> **Example value:** Microsoft Corporation  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | First ASN Country Code|String|Country code for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** US  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | Second ASN Country Code|String|Country code for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** US  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | First ASN Country|String|Country name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** United States  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
@@ -544,6 +546,9 @@ The following table lists the dimensions currently available in CQD, in the orde
 |Is Call Queue Involved|Boolean|If True, a Call Queue was involved in a given call or stream. ||
 |**Meeting**||||
 |Scheduling Source App Id|String |The AppID of the first or third-party scheduling client that booked the meeting.|The scheduling client has not provided this parameter through its telemetry.|
+|**Common**||||
+| First ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the first endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint is not using Azure Communication Services APIs|
+| Second ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the second endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint is not using Azure Communication Services APIs|
 |**Datapair**||||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This may happen if the call could not be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent wasn't a known type  |
@@ -748,8 +753,9 @@ Many Measurement values can also be used as filters. The following table lists t
 |P50 Packet Loss Rate | Percentage | 50% of the requests should have lower than the given Packet Loss Rate.|
 |PSTN Outgoing Post Dial Delay| Milliseconds | The delay that occurs on outgoing calls measured from the time a number has been dialed until the caller or called party hears ringing.|
 |PSTN Incoming Post Dial Delay | Milliseconds | The time or delay that occurs on incoming calls measured from the time a number has been dialed until the caller or called party hears ringing.|
-|PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures）/ Total Attempt Calls x 100.There's an up to 0.2% error for this measure. See note below for details.|
-
+|PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures) / Total Attempt Calls x 100. There's an up to 0.2% error for this measure. See note below for details.|
+| Avg Auto Attendant Chain Duration Seconds | Integer | The average duration that users spend in the Auto Attendant, measured in seconds. |
+| Avg Call Queue Duration Seconds | Integer | The average duration that users are waiting for a Call Queue to be answered by an agent, measured in seconds. |
 
 ### Notes on measurements
 

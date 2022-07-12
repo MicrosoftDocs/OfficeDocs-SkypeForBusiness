@@ -1,7 +1,7 @@
 ---
 title: Tools & workshops - Plan, deliver, & adopt Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

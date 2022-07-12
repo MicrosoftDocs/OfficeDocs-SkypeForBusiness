@@ -1,7 +1,7 @@
 ---
 title: Use Advisor for Teams to help you roll out Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: pkrebs
 manager: serdars
 ms.topic: article

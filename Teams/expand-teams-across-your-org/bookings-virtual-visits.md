@@ -37,7 +37,7 @@ Each virtual appointment includes a Teams meeting link that’s sent to attendee
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
 
-With Bookings, you get an experience that's tailored to your industry. Here's a few examples of how you can use it in your organization:
+With Bookings, you get an experience that's tailored to your industry. Here are a few examples of how you can use it in your organization:
 
 |Industry | Examples |
 |---------|---------|
@@ -51,7 +51,7 @@ This article gives you an overview of how to schedule, manage, and conduct virtu
 
 If you’re an admin, see [Manage the Bookings app in Teams](../bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
 
-Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Teams or Outlook calendar or by using the meeting link in their booking confirmation email.
+Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff members who conduct or participate in virtual appointments don't need the app. They join appointments from their Teams or Outlook calendar or by using the meeting link in their booking confirmation email.
 
 ## Set up a new booking calendar
 
@@ -71,7 +71,7 @@ To learn more, see [Create a Bookings calendar](https://support.microsoft.com//o
 
 In the booking calendar, go to **More options** (...) > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add. You can add up to 100 staff members to a booking calendar.
 
-The Bookings app integrates with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a Bookings calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
+The Bookings app integrates with Outlook. After you add staff members, you’ll be able to view their calendar availability and schedule bookings for them. To learn more, see [Add staff and view a Bookings calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
 ### Create appointment types
 
@@ -90,15 +90,18 @@ When working with forms, keep in mind that:
 
 When a scheduler uses the appointment type to schedule an appointment, they can then choose to include the form, remove it, or add any other forms that you linked to the appointment type. Attendees must fill out the form before they join the appointment.
 
+> [!NOTE]
+> If you're a healthcare provider, any information provided by you or patients in Teams (including the Forms app, Bookings app, meeting recordings if enabled by you, or any other Teams virtual appointments services) that's necessary for medical records continuity or retention purposes should be downloaded, copied, and/or notated directly in such records by you. This service does not maintain legal medical records or a designated record set.
+
 To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## Schedule an appointment 
+## Schedule an appointment
 
 In the booking calendar, select **New booking**. Select an appointment type, and then fill out the relevant information.
 
 This includes attendee contact information, the staff member who will be providing the service, internal notes that only staff can see, email reminders, and whether the attendee can join from a mobile browser. If a form is linked to the appointment type, you can choose to include it, remove it, or add any other linked forms.
 
-The email confirmation sent to the attendee includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff also receive an email confirmation and meeting invite. If a form was included in the appointment, Bookings admins and schedulers can see whether the form was completed by the attendee before the appointment and can view the attendee's response.
+The email confirmation sent to the attendee includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff members also receive an email confirmation and meeting invite. If a form was included in the appointment, Bookings admins and schedulers can see whether the form was completed by the attendee before the appointment and can view the attendee's response.
 
 To learn more, see [Schedule a booking in the Teams Bookings app](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 

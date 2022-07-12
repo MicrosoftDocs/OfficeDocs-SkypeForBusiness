@@ -1,8 +1,8 @@
 ---
 title: Manage the Praise app in the Teams admin center
-author: guptaashish
-ms.author: guptaashish
-manager: prkosh
+author: mkbond007
+ms.author: mabond
+manager: serdars
 ms.reviewer: rjam
 audience: admin 
 ms.topic: article 
@@ -31,6 +31,8 @@ Praise is enabled by default for all Teams users in your organization. You can t
 2. In the list of apps, search for the Praise app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
 
 Keep in mind that this setting affects both the Praise app and the Praise feature in the Viva Insights app in Teams.
+
+If you set the Status to Blocked, the Praise app is blocked within a few minutes for Teams. However, praise in Viva Insights can take 7-9 days to be blocked.
 
 ## Enable or disable Praise for specific users in your organization
 
