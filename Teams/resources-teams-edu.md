@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Teams: Resources for Education admins"
 author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.topic: reference
 ms.service: msteams
 audience: admin
