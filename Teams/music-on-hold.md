@@ -58,9 +58,9 @@ To configure a new call hold policy:
 
 1. In the Teams admin center, go to **Voice** > **Call hold policies**.
 
-2. Select **Add** tab.
+2. Select the **Add** tab.
 
-3. Give the policy a name and a descrption.
+3. Give the policy a name and a description.
 
 4. Select **Upload file** to upload the custom music audio file.
 
