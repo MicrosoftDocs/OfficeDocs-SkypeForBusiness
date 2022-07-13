@@ -71,7 +71,7 @@ Link to your organization’s booking page. Let your customers know if there are
 
 **Who can I make an appointment with?**
 
-Make sure your clients can maintain relationships with their preferred providers by sharing which, if any, staff are operating exclusively virtually or in-person.
+Make sure your clients can maintain relationships with their preferred providers by sharing which, if any, staff members are operating exclusively virtually or in-person.
 
 **How do I cancel or reschedule a virtual appointment?**
 
@@ -105,9 +105,10 @@ Download and [customize](#customize-your-infographic) one of these infographics 
 
 | Graphic                | Description and links              |
 | :------------------- | -------------------: |
-| [![Image of the financial services infographic](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | Customizable infographic for your financial services organization <br> [Download as a PDF](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [Download as a PowerPoint](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
-| [![Image of the retail infographic](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | Customizable infographic for your retail organization <br> [Download as a PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [Download as a PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
-| [![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | Customizable infographic for your healthcare organization <br> [Download as a PDF](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [Download as a PowerPoint](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
+| [![Image of the financial services infographic](../media/vv-finserv-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) | Customizable infographic for your financial services organization <br> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) <br> [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196449&clcid=0x409)
+| [![Image of the retail infographic](../media/vv-retail-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) | Customizable infographic for your retail organization <br> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) <br> [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196451&clcid=0x409) |
+| [![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) | Customizable infographic for your healthcare organization <br> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) <br> [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196450&clcid=0x409) |
+| [![Image of the non-industry-specific infographic.](../media/va-generic-thumb.png)](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) | Customizable infographic not specific to a particular industry <br> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) <br> [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196356&clcid=0x409) |
 
 ### Customize your infographic
 

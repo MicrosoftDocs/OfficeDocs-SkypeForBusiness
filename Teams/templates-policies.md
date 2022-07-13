@@ -1,7 +1,7 @@
 ---
 title: Manage team templates in the admin center
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -30,11 +30,11 @@ Watch this short video to learn how to manage templates policies.
 
 ## Create templates policies and assign available templates
 
-1. Sign in to the Teams admin center.
+1. Sign in to the Teams admin center.
 
-2. Go to **Teams** > **Templates policies**.
+2. Go to **Teams** > **Templates policies**.
 
-3. Choose **Add**.
+3. Choose **Add**.
 
     ![The templates policies is selected and Add is highlighted.](media/template-policies-1.png)
 

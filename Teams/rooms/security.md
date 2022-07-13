@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms Security"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto: 

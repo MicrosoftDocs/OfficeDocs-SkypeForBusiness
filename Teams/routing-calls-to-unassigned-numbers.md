@@ -29,7 +29,7 @@ As an administrator, you can route calls to unassigned numbers in your organizat
 
 - Route all calls to a given unassigned number to a custom announcement.
 
-- Route all calls to a given unassigned number to the the main switchboard.
+- Route all calls to a given unassigned number to the main switchboard.
 
 You can route calls to unassigned numbers to a user, to a resource account associated with an Auto Attendant or a Call Queue, or to an announcement service that will play a custom audio file to the caller.
 
@@ -64,7 +64,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - To route calls to unassigned Microsoft Calling Plan subscriber numbers, your tenant needs to have available [Communications Credits](what-are-communications-credits.md).
 
-- To route calls to unassigned Microsoft Calling Plan service numbers, your tenant needs to have at least one Phone System – Virtual User license.
+- To route calls to unassigned Microsoft Calling Plan service numbers, your tenant needs to have at least one **Microsoft Teams Phone Resource Account** license.
 
 - The custom audio file supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. The audio file content cannot be more than 5 MB.
 

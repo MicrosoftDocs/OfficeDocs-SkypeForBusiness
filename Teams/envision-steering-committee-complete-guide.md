@@ -1,7 +1,7 @@
 ---
 title: Steering committee for cloud voice deployment
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -49,7 +49,7 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 -   Identify, manage, and mitigate gaps, risks, and issues where additional influence is required from the committee.
 
 -   Gather support from the executive sponsor or executive leadership team for issues that require escalation, prioritizing and resolving any conflicts
-    between stakeholder business units. 
+    between stakeholder business units. 
 
 -   Provide formal feedback and recommendations to executive leadership, the change advisory board, or other business and IT stakeholders, as applicable.
 

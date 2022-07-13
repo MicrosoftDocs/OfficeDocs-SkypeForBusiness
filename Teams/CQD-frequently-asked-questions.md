@@ -1,7 +1,7 @@
 ---
 title: Call Quality Dashboard (CQD) Frequently asked questions (FAQ)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -91,7 +91,7 @@ With that in mind, we don't support the use of call quality management tools for
 
 ### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
 
-When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report. Depending on customers’ scenarios, CQD may include Skype for Business Server 2019 calls when [Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector.md) is configured. It may also include Skype Bot calls (AA, CVI, VDI), Live Events, and PSTN calls.
+When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report. Depending on customers’ scenarios, CQD may include Skype for Business Server 2019 calls when [Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) is configured. It may also include Skype Bot calls (AA, CVI, VDI), Live Events, and PSTN calls.
 
 It's possible to remove Skype for Business information from your queries by filtering on dimensions such as *First User Agent Category* and *Second User Agent Category*. You can also use *User Agent Category Pair* which combines the First and Second dimensions into a single filter.
 

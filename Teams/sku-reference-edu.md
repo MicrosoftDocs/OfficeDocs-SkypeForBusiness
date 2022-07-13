@@ -1,7 +1,7 @@
 ---
 title: Education SKU reference
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -45,7 +45,7 @@ This article lists Education Faculty and Student licensing plans (SKUs) and SKU 
 |Product name |SkuPartNumber   |SkuID |
 |---------|---------|---------|
 |Office 365 Education E3 for Students       |ENTERPRISEPACK_STUDENT         |8fc2205d-4e51-4401-97f0-5c89ef1aafbb         |
-|Office 365 Education for Students     |STANDARDWOFFPACK_IW_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |
+|Office 365 Education for Students     |STANDARDWOFFPACK_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |
 |Office 365 Education E5 for Students      |ENTERPRISEPREMIUM_STUDENT         |ee656612-49fa-43e5-b67e-cb1fdf7699df         |
 |Office 365 Education E5 without PSTN Conferencing for Students     |ENTERPRISEPREMIUM_NOPSTNCONF_STUDENT         |1164451b-e2e5-4c9e-8fa6-e5122d90dbdc         |
 |Office 365 Education E1 for Students       |STANDARDPACK_STUDENT         |d37ba356-38c5-4c82-90da-3d714f72a382         |
