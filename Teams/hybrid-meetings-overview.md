@@ -84,3 +84,32 @@ Open and honest communication between meeting organizers and participants, both 
 * "Raise hands" action to get the attention of organizers or presenters
 * Post-meeting surveys to send detailed feedback after the meeting has ended
 
+## Step 1 - Get familiar with Teams meeting features
+
+This step helps you understand what features are available in Teams to help make meetings more inclusive and effective.
+
+## Step 2 - Evangelize meeting best practices
+
+Meetings of the past were typically held in conference rooms with remote participants periodically calling in via a conference phone. Conversations were primarily between those in the room with remote participants listening in. If meetings were online, content may be shared with remote participants, but discussions were still heavily dominated by those in the room. There was a significant imbalance between remote and in-room participants.
+
+Equality and inclusivity in meetings means ensuring that all participants, regardless of location or ability, are able to contribute to meetings. Do to this, all participants whether they're organizers, presenters, remote, or in the room, need to be aware how they "come to the meeting" and interact with others. This step provides best practices for each of these groups to help them become better participants.
+
+## Step 3 - Design or enhance a meeting space
+
+You might be looking to create a new meeting space, or just enhance an existing one. This step helps you design a meeting space that will support meetings with approximately 6-10 in-room participants and any number of remote participants. Things like what furniture is best and where it should be placed to support participants and the devices you want to use.
+
+## Step 4 - Select devices for your space
+
+Choosing the right devices for your space can be a little overwhelming because of the options available to you. This step steps you through the process of selecting the right devices to meet the needs of your space and participants.
+
+## Step 5 - Build your meeting space
+
+After you've designed your space and selected your devices, it's time to put everything together. This step helps you decide where your devices and furniture should be placed to give you and your participants a great meeting experience.
+
+## Step 6 - Set up your devices
+
+After you've built out your space, you need to set up your devices. This step helps you configure your devices and get your space ready for its first meeting.
+
+## Step 7 - Manage and monitor your space and its devices
+
+After everything's set up, you need to set up policies for how the meeting space and its devices should be used, and set up monitoring so that you can stay on top of device health and meeting experiences. This step helps you configure meeting and device policies and shows you how to use Teams monitoring tools to monitor call quality.
