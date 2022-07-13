@@ -50,6 +50,19 @@ For example a department or organization might want to play a custom announcemen
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
 ### Use the Teams admin center
+You can use the Teams admin center to configure custom music on hold for your users by creating or editing call hold policies.
+
+To configure a new call hold policy:
+
+1. In the Teams admin center, go to **Voice** > **Call hold policies**.
+
+2. Select **Add** tab.
+
+3. Give the policy a name and a descrption.
+
+4. Select **Upload file** to upload the custom music audio file.
+
+5. Select **Apply**.
 
 ### Use PowerShell
 To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove/Export-CsOnlineAudioFile in Teams PowerShell module 3.0.0 or later.
