@@ -97,7 +97,7 @@ Before you can search the audit log, you have to first turn on auditing in the [
 ## Related articles
 
 - [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
-- [Shifts data FAQ](shifts-data-faq)
+- [Shifts data FAQ](shifts-data-faq.md)
 - [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)
