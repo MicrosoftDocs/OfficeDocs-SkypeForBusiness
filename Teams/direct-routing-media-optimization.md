@@ -155,7 +155,7 @@ For more information on possible modes and relevant behavior, see Configure Loca
 
 Diagram 3. Traffic flow when the user is in the "home" network with a proxy SBC and with connected downstream SBCs
 
-![Diagram again showing traffic flow Local Media Optimization.](media/direct-routing-media-op-3.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the "home" network")
+![Diagram again showing traffic flow Local Media Optimization.](media/direct-routing-media-op-3.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the \"home\" network")
 
 ### External user
 

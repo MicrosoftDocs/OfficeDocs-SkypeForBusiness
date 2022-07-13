@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -90,8 +90,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 ### 4.12.138.0 (5/26/2022)
 
 Introduced in this update:
-- Bug fix for Jabra Panacast 50
-- Bug fix for Cross Cloud Anonymous meeting join
+- Bug fix for multiple simultaneous video streams from Jabra Panacast 50 (meeting video, content camera video)
+- Cross-cloud meetings can now use default conferencing audio device
 - Quality and reliability fixes
 
 ### 4.12.126.0 (4/27/2022)
@@ -268,7 +268,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Join Cisco WebEx meetings from Teams Rooms with direct guest join
+- Join Cisco Webex meetings from Teams Rooms with direct guest join
 - Teams Admin Center enablement and auto-enrollment
 - Windows 10 1909 release support
 - Switch to video gallery layout even when content is present

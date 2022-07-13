@@ -8,7 +8,7 @@ As a contact center solution provider, there are three models to choose from to 
 
 - If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](?tabs=extend#steps).
 
-- If you want to use an SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](?tabs=power#steps). Power solutions will be possible when the SDK is available, towards the end of 2021.
+- If you want to use an SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](?tabs=power#steps). Power solutions will be possible when the SDK is available. Coming soon.
 
 ### [**The Connect model**](#tab/connect)
 
@@ -60,21 +60,13 @@ While these features aren't a comprehensive list of feature capabilities for thi
 
 - Preserve performance and quality of Teams client experiences in all apps
 
+> [!NOTE]
+> The agent bot does not need a phone system license. The Teams user does need a phone system license and a phone number.
+
 ### [**The Power model**](#tab/power)
 
 The Power model enables solution providers to create native Azure-based voice applications using the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection. The goal of the Power model is to provide a one-app, one-screen contact center experience.
 
-**Feature highlights:**
-
-While these features aren't a comprehensive list of feature capabilities for this model of integration, the focus areas include:
-
-- Formal agent experiences natively enabled for omni-channel communication via Teams SDK
-
-- Use Teams collaboration services for agent collaboration and customer interactions
-
-- Rapid provisioning of cloud services, deploy anywhere
-
-- Direct conversation control and interaction with users during Teams conversations
 
 > [!NOTE]
-> The Power model will be available towards the end of 2021.
+> Coming soon.

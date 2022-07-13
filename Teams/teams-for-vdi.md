@@ -172,8 +172,6 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
     > [!NOTE]
     > For government clouds, see [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md) for the download links to the MSI files.
 
-    The minimum version of the Teams desktop app that's required is version 1.3.00.4461. PSTN hold isn't supported in earlier versions.
-
 2. Install the MSI to the VDI VM by running one of the following commands:
 
     - Per-user installation (default)
@@ -494,9 +492,8 @@ if($cleanup){
 
 The following calling and meeting features are not supported:
 
-- Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
 - HID buttons and LED controls between the Teams app and devices for Citrix and VMware
-- Background blur and effects
+- Background blur and effects for Citrix and VMware
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - PSTN call ringback tone
@@ -511,14 +508,12 @@ The following are known issues and limitations for calling and meetings:
 
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
-- Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
 - Live events are not optimized.
 - Outgoing screen sharing:
-  - Application sharing is not supported.
+  - Application sharing is not supported for VMware and AVD/W365.
 - Give control and take control:
-  - Not supported during a screen sharing or application sharing session.
-  - Supported during a PowerPoint sharing session.
+  - Not supported during application sharing session.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
