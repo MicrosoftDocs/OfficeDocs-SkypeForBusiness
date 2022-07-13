@@ -1,7 +1,7 @@
 ---
 title: Teams policy packages for healthcare
-ms.author: LanaChin
-author: v-lanachin
+ms.author: v-lanachin
+author: LanaChin
 manager: samanro
 ms.reviewer: aaglick
 ms.topic: article
