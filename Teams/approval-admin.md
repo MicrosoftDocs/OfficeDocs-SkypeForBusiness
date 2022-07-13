@@ -1,16 +1,16 @@
 ---
-title: Approvals application availability in Teams
-author: mkbond007
-ms.author: mabond
+title: Manage the Approvals app in Microsoft Teams
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: farhazk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
   - Microsoft Teams
 search.appverid: MET150
-description: Learn about the Approvals application availability in Microsoft Teams.
+description: Learn how to manage the Approvals app for your organization in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams Approvals app availability
+# Manage the Approvals app in Microsoft Teams
 
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.

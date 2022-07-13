@@ -1,9 +1,9 @@
 ---
 title: Manage the Shifts app for your organization
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: aaku
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -96,8 +96,8 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Related articles
 
-- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
-- [Shifts data FAQ](/microsoft-365/frontline/shifts-data-faq?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
-- [Shifts connectors](/microsoft-365/frontline/shifts-connectors?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
+- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
+- [Shifts data FAQ](shifts-data-faq)
+- [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)

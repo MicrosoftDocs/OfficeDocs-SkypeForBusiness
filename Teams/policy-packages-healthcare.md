@@ -1,8 +1,8 @@
 ---
 title: Teams policy packages for healthcare
-ms.author: mabond
-author: mkbond007
-manager: serdars
+ms.author: LanaChin
+author: v-lanachin
+manager: samanro
 ms.reviewer: aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -95,8 +95,6 @@ To learn more, see [Assign a policy package](assign-policy-packages.md).
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 #### Assign a policy package to a group
-
-**This feature is in private preview**
 
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 

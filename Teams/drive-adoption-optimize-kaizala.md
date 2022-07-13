@@ -23,7 +23,7 @@ Microsoft is committed to doing what we can, to address the economic and societa
 
 Across industries, Microsoft customers like [IKEA](https://customers.microsoft.com/story/799203-ikea-retailers-teams) and [Alcoa](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams) are using Teams to empower their frontline workforce.
 
-To [manage shift schedules seamlessly](/microsoft-365/frontline/shifts-for-teams-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json), [connect your workforce](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi), [simplify the task management process](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq), activate and engage your community with Teams, and [safeguard teamwork](/microsoftteams/teams-security-guide).
+To [manage shift schedules seamlessly](/microsoft-365/frontline/shifts-for-teams-landing-page), [connect your workforce](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi), [simplify the task management process](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq), activate and engage your community with Teams, and [safeguard teamwork](/microsoftteams/teams-security-guide).
 
 You can increase employee engagement by connecting them with one-on-one conversations, group chats, and video calls. And through [Walkie Talkie](/MicrosoftTeams/walkie-talkie), a push-to-talk app built natively into Teams.
 
