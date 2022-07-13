@@ -1,7 +1,7 @@
 ---
 title: "Upgrade Teams phones to Teams displays"
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
