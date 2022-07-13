@@ -38,12 +38,12 @@ See the following references to learn more:
 
 You can edit the resource account **Display name** and **Resource account** type using the **Edit** option. Click **Save** when you are done.
 
-## Change an existing resource account to use a Virtual User license
+## Change an existing resource account to use a Teams Phone Resource Account license
 
-If you decide to switch the licenses on your existing resource account from a **Teams Phone Standard** license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+If you decide to switch the licenses on your existing resource account from a **Teams Phone Standard** license to a **Microsoft Teams Phone Resource Account** license, you'll need to acquire the free **Teams Phone Resource Account** license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Always remove a full Teams Phone Standard License and assign the Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.
+> Always remove a full Teams Phone Standard License and assign the **Microsoft Teams Phone Resource Account** license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the **Microsoft Teams Phone Resource Account** license and remove the broken resource account.
 
 ## Skype For Business Server 2019
 

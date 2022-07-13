@@ -30,7 +30,7 @@ If you have an existing Exchange UM auto attendant and call queue system, before
 If your Phone System auto attendant or call queue will need a service number, the various dependencies can be met in the following sequence:
 
 1. Obtain a service number.
-2. Obtain a free Phone System - [Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user) or a paid Phone System license to use with the resource account.
+2. Obtain a free [Microsoft Teams Phone Resource Account license](/MicrosoftTeams/teams-add-on-licensing/virtual-user) or a paid Phone System license to use with the resource account.
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
 4. Wait for an active directory sync between online and on premises.
 5. Assign the Phone System license to the resource account.
@@ -60,7 +60,7 @@ Creating a resource account that uses a phone number would require performing th
    If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
 
 2. Buy a Phone System license. See:  
-   - [Phone System–Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
+   - [Microsoft Teams Phone Resource Account license](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 and E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5 Business Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -80,13 +80,12 @@ Creating a resource account that uses a phone number would require performing th
     ```
 
     See [Start-ADSyncSyncCycle](/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
-    
+
     Note-at this point, the account may have synced, but provisioning may not be complete.  Check the output of [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint).  If the synced endpoint has not completed provisioning yet, then it will not appear here.  You can check the status of the provisioning requests in the M365 portal under [Teams Setup Status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  This provisioning phase can take up to 24 hours.
 
-5. Assign the Phone System - Virtual User or Phone System license to the resource account. See [Assign Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) and [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
+5. Assign the **Microsoft Teams Phone Resource Account** license or **Teams Phone Standard** license to the resource account. See [Assign Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) and [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-   If you are assigning a phone number to a resource account you can now use the cost-free Phone System - Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
-
+   If you are assigning a phone number to a resource account you can now use the cost-free **Microsoft Teams Phone Resource Account** license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
 6. Assign the service number to the resource account. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
 
