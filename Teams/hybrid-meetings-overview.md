@@ -35,19 +35,52 @@ Each of these principles helps define the meeting best practices outlined in [St
 
 All participants, whether in-person or remote, expect and deserve to be heard and to be given a chance to participate in collaboration. Participants with disabilities need access to technology and materials that enable them to fully participate in meetings.
 
-To support this principle, in-person and remote participants can use Teams chat for side conversations and Front Row view to see participants in other locations. Participants with disabilities can use meeting transcriptions, recordings, live closed captioning, and more, to participate in, and review, conversations.
+The following Teams features can help support this principle:
+
+* Teams chat for side conversations
+* Front Row to view participants in other locations
+* Meeting transcripts, live closed captioning, and recordings, for participants with disabilities
 
 ### Be seen and heard
 
+All participants, but particularly those who are remote, should feel empowered to make their presence known in meetings and contribute to conversations.
 
-To support this principle, all recipients can join the meeting in Teams (even if in the room) and turn on their individual cameras. By using individual cameras, in-room participants can create a better connection with those who are remote while remote attendees can more easily see who's speaking in the room. Combined with Front Row, remote participants can be seen just as clearly as those in the room. By using the "raise hands" reaction, in-room (via both Front Row and their individual devices) and remote participants can easily see those who want to contribute to the conversation.
+The following Teams features can help support this principle:
+
+* In-room companion join so in-room participants can contribute to meeting chat, use reactions, and so on, on their device
+* Camera support, including for those in-room, so participants can show their presence and reactions to others
+* "Raise hands" reaction so participants can indicate they want to contribute to a discussion
+* Reactions to show sentiment for content and discussions
 
 ### See and listen
 
-To support this principle, all recipients can join the meeting in Teams (even if in the room) and see participant videos, reactions, chat, meeting content, live closed captioning, and who's the active speaker.
+All participants, but particularly those who are in-person, should ensure that opportunities are made so that anyone who wants to contribute to a conversation, can.
+
+The following Teams features can help support this principle:
+
+* In-room companion join so in-room participants can follow meeting chat, use reactions, and so on, on their device
+* Front Row so those in-room can see remote participants easily
+* Live closed captioning for participants with disabilities
+* "Raise hands" reaction so all participants can see who wants to contribute to the conversation
+* Reactions to see sentiment for content and discussions
 
 ### Collaborate
 
+All participants should endeavor to use virtual collaboration tools to ensure everyone is able to contribute to discussions.
 
+The following Teams features can help support this principle:
 
-### Provide feedback
+* Breakout rooms for separate group-focused discussions
+* Content sharing from devices
+* Virtual whiteboards for seamless brainstorming
+* Meeting chats for side discussions of content being presented
+* Shared notes to keep track of meeting minutes and actions
+
+### Request and provide feedback
+
+Open and honest communication between meeting organizers and participants, both during and after a meeting, is critical to successful meetings.
+
+* Meeting chats to make organizers and participants aware of issues in-meeting
+* "Raise hands" action to get the attention of organizers or presenters
+* Post-meeting surveys to send detailed feedback after the meeting has ended
+
