@@ -44,7 +44,9 @@ If a Teams user has a Teams calling policy with Music on Hold set to Disabled, t
 ## Configure custom music
 
 In addition to playing default music to callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the caller.
-For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.  
+For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.
+
+The configuration is done using call hold policies.
 
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
@@ -63,6 +65,10 @@ To configure a new call hold policy:
 4. Select **Upload file** to upload the custom music audio file.
 
 5. Select **Apply**.
+
+### Assign a custom call hold policy to users
+
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ### Use PowerShell
 To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove/Export-CsOnlineAudioFile in Teams PowerShell module 3.0.0 or later.
