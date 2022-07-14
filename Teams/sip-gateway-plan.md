@@ -149,10 +149,10 @@ If you have a 3PIP or SIP device, you must have:
 |          |IP-DECT Base Station |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 
 > [!NOTE]
-> Handsets receive firmware updates over the air from IP-DECT servers.
+> Spectralink Handsets receive firmware updates over the air from Spectralink IP-DECT servers.
 
 > [!NOTE]
-> For support queries, customers using Spectralink IP-DECT systems with Teams SIP Gateway should reach out to Spectralink or their implementation channel partners.
+> For support queries, customers using IP-DECT systems with Teams SIP Gateway should reach out to their DECT manufacturer or their implementation channel partners.
 
 > [!NOTE]
 > For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.
