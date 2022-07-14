@@ -1,7 +1,7 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
