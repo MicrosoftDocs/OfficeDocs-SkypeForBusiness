@@ -146,7 +146,7 @@ Be aware of the following when you use these settings:
 
 - All clients, including mobile clients and Teams devices, will use these port ranges and will be affected by any DSCP policy you implement that uses these source port ranges. The only clients that will continue to use dynamic ports are the browser-based clients (clients that let participants join meetings by using their browsers).
 
-- Although the Mac client uses the same port ranges, it also uses hard-coded values for audio (EF) and video (AF41). These values aren't configurable.
+- Although the Mac client uses the same port ranges, it also uses hard-coded values for audio (EF) and video and application/screen sharing (AF41). These values aren't configurable.
 
 - If you later need to adjust the port ranges to improve user experience, the port ranges can't overlap and should be adjacent to each other.
 
