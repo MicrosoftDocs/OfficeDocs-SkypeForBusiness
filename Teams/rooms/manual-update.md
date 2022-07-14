@@ -24,7 +24,7 @@ The Microsoft Teams Rooms app is distributed through the Microsoft Store. Update
 If you can't get updates from the Microsoft Store, you can use an offline app update PowerShell script to manually update your Teams Rooms devices to a newer version of the Teams Rooms app. Follow the steps in this article to manually update your Teams Rooms devices.
 
 > [!NOTE]
-> This process can only update a Teams Rooms device with the Teams Rooms app already installed. It can't be used to perform a new installation. It also can't be used to downgrade the app to an older version. To perform a new installation of the Teams Rooms app, contact your device's manufacturer for media specific to it, or see [Prepare the installation media](console.md#prepare-the-installation-media).
+> This process can only update a Teams Rooms device with the Teams Rooms app already installed. It can't be used to perform a new installation. It also can't be used to downgrade the app to an older version. To perform a new installation of the Teams Rooms app, contact your device's manufacturer for media specific to it.
 
 ## Step 1: Download the offline app update script
 

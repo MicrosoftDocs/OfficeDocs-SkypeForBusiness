@@ -1,5 +1,5 @@
 ﻿---
-title: Microsoft Teams Rooms Portal
+title: Multi-tenant auditing
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -57,7 +57,7 @@ The following table describes the properties that are included in the CSV.
 | - | - |
 |activity.category|<p>The category of the object on which the was action performed. Possible values:</p><p>**User, Assignment, PartnerInvitation, Role**</p>|
 |activity.objectName|The name of the object that was modified.|
-|activity.operation|The type of operation performed. Possible values are: **Create, Update, Delete** |
+|activity.operation|The type of operation performed. Possible values are: **Create, Update, Delete** |
 |activity.resultStatus|<p>Indicates whether the action (specified in the **activity.operation** property) was successful or not.</p><p>The value is either **Successful** or **Failed**.</p>|
 |activity.tenantId|The GUID of the tenant on which the action was performed|
 |creationTime|The date and time in Coordinated Universal Time (UTC) in the ISO format when the user performed the activity.|

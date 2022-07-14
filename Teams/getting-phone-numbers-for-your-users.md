@@ -36,8 +36,7 @@ There are three ways to get user numbers:
 - **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams Admin Center or you'll need specific phone numbers or area codes. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
 > [!NOTE]
-> If you need help setting up phone numbers for your organization, please [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
-  
+> If you need help setting up phone numbers for your organization, please [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
 ## Get new phone numbers for your users
 
  **Using the Microsoft Teams admin center**
@@ -62,7 +61,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 6. When you're ready to place your order, click **Place order**.
 
     > [!IMPORTANT]
-    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
+    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
   
 ## Port or transfer phone numbers from your service provider or phone carrier
   
@@ -81,7 +80,7 @@ In the left navigation of the admin center, go to **Voice** > **Phone numbers** 
 After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](./assign-change-or-remove-a-phone-number-for-a-user.md) for more information.
 
 > [!NOTE]
-> If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
+> If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
 
 ## Related topics
 

@@ -1,10 +1,10 @@
 ---
 title: Information barriers in Microsoft Teams
-description: This article explains what are information barriers in Microsoft Teams and how can they affect Teams.
+description: This article explains how information barriers are supported in Microsoft Teams.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
-ms.reviewer: vikramju
+ms.reviewer: smahadevan
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -20,7 +20,7 @@ ms.custom: seo-marvel-apr2020
 
 # Information barriers in Microsoft Teams
 
-Information barriers (IBs) are policies that an admin can configure to prevent individuals or groups from communicating with each other. IBs are useful if, for example, one department is handling information that shouldn't be shared with other departments. IBs are also useful when a group needs to be isolated or prevented from communicating with anyone outside of that group.
+[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) (IBs) are policies that an admin can configure to prevent individuals or groups from communicating with each other. IBs are useful if, for example, one department is handling information that shouldn't be shared with other departments. IBs are also useful when a group needs to be isolated or prevented from communicating with anyone outside of that group. Shared channels in Microsoft Teams is supported by information barriers. Depending on the type of sharing, information barriers policies may restrict sharing in certain ways. For more information about shared channels and information barriers behavior, see [Information barriers and Shared Channels](information-barriers-shared-channels.md).
 
 For Microsoft Teams, information barriers can determine and prevent the following kinds of unauthorized collaborations:
 
@@ -28,7 +28,7 @@ For Microsoft Teams, information barriers can determine and prevent the followin
 - User access to team or channel content
 - User access to 1:1 and group chats
 - User access to meetings
-- Prevents lookups and discovery, users will not be visible in the people picker.
+- Prevents lookups and discovery, users won't be visible in the people picker.
 
 >[!NOTE]
 >- Information barrier groups cannot be created across tenants.
@@ -62,14 +62,14 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 ## Managing information barrier policies
 
-IB policies are managed in the Microsoft 365 Compliance Center (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+IB policies are managed in the Microsoft Purview compliance portal (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
 >Before you set up or define policies, you must enable scoped directory search in Microsoft Teams. Wait at least a few hours after enabling scoped directory search before you set up or define policies for information barriers. For more information, see [Define information barrier policies](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## Information barriers administrator role
 
-The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft 365 Compliance Center](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview compliance portal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## Information barrier triggers
 
@@ -183,10 +183,11 @@ Information barriers mode  help strengthen who can be added to or removed from a
 
 - **Open**: This configuration is the default IB mode for all existing groups that were provisioned before information barriers were enabled. In this mode, there are no IB policies applicable.
 - **Implicit**: This configuration is the default IB mode when a Team is provisioned after enabling Information barriers. Implicit mode allows you to add all compatible users in the group.
+- **Owner Moderated**: This mode is set on a team when you want to allow collaboration between incompatible segment users that are moderated by the owner. The team owner can add new members per their IB policy.
 
-Microsoft 365 Groups created before activating an information barrier policy are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you would be required to update mode that will reevaluate groups and sites and result in non-compliant users being automatically removed from these groups and sites. If you need to change the *Open* mode configuration on existing Teams-connected groups to meet compliance requirements for your organization, you'll need to [update the IB modes](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for SharePoint sites connected to the Teams team.
+Teams created before activating an information barrier policy in your tenant are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you're required to update mode of your existing teams to *Implicit* to ensure that existing teams are IB-compliant.
 
-Use the [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open* and *Implicit*.
+Use the [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open*, *Implicit*, and *Owner Moderated*.
 
 For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll use the following PowerShell command:
 
@@ -194,7 +195,9 @@ For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll 
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-For more information about how users may be automatically removed from groups, see the [Information barriers compliance assistant (preview)](/sharepoint/information-barriers-compliance-assistant) article.
+To update the mode from Open to Implicit for all existing teams, use this [PowerShell script](information-barriers-mode-script.md).
+
+If you change the Open mode configuration on existing Teams-connected groups to meet compliance requirements for your organization, you'll need to [update the IB modes](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for associated SharePoint sites connected to the Teams team.
 
 ## Required licenses and permissions
 
@@ -202,9 +205,9 @@ For more information on licenses and permissions, plans, and pricing, see [Micro
 
 ## Known Issues
 
-- **Users can't join ad-hoc meetings**: If IB policies are enabled, users aren't allowed to join meetings if the size of the meeting roster is greater than the [meeting attendance limits](limits-specifications-teams.md). The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. A user joining a meeting once adds that user to the roster; hence for recurring meetings, the roster can fill up fast. Once the chat roster reaches the [meeting attendance limits](limits-specifications-teams.md), additional users cannot be added to the meeting. If IB is enabled for the organization and the chat roster is full for a meeting, new users (those users who aren't already on the roster) aren't allowed to join the meeting. But if IB isn't enabled for the organization and the meeting chat roster is full, new users (those users who aren't already on the roster) are allowed to join the meeting, though they won't see the chat option in the meeting. A short-term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
-- **Users can't join channel meetings**: If IB policies are enabled, users aren't allowed to join channel meetings if they're not a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. The chat thread in a channel meeting is available to Team/Channel members only, and non-members can't see or access the chat thread. If IB is enabled for the organization and a non-team member attempts to join a channel meeting, that user isn't allowed to join the meeting. However, if IB is *not* enabled for the organization and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting—but they won't see the chat option in the meeting.
-- **Maximum number of segments allowed in a organization**: Each organization can set up to 100 segments when configuring IB policies. There is no limit on the number of policies that can be configured.
+- **Users can't join ad-hoc meetings**: If IB policies are enabled, users aren't allowed to join meetings if the size of the meeting roster is greater than the [meeting attendance limits](limits-specifications-teams.md). The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. A user joining a meeting once adds that user to the roster; hence for recurring meetings, the roster can fill up fast. Once the chat roster reaches the [meeting attendance limits](limits-specifications-teams.md), additional users can't be added to the meeting. If IB is enabled for the organization and the chat roster is full for a meeting, new users (those users who aren't already on the roster) aren't allowed to join the meeting. But if IB isn't enabled for the organization and the meeting chat roster is full, new users (those users who aren't already on the roster) are allowed to join the meeting, though they won't see the chat option in the meeting. A short-term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
+- **Users can't join channel meetings**: If IB policies are enabled, users aren't allowed to join channel meetings if they're not a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. The chat thread in a channel meeting is available to Team/Channel members only, and non-members can't see or access the chat thread. If IB is enabled for the organization and a non-team member attempts to join a channel meeting, that user isn't allowed to join the meeting. However, if IB isn't* enabled for the organization and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting—but they won't see the chat option in the meeting.
+- **Maximum number of segments allowed in a organization**: Each organization can set up to 100 segments when configuring IB policies. There's no limit on the number of policies that can be configured.
 - **IB policies don't work for federated users**: If you allow federation with external organizations, the users of those organizations won't be restricted by IB policies. If users of your organization join a chat or meeting organized by external federated users, then IB policies also won't restrict communication between users of your organization.
 
 ## More information
@@ -212,8 +215,8 @@ For more information on licenses and permissions, plans, and pricing, see [Micro
 - To learn more about IBs, see [Information barriers](/office365/securitycompliance/information-barriers).
 - To set up IB policies, see [Get started with information barriers](/office365/securitycompliance/information-barriers-policies).
 - To edit or remove IB policies, see [Manage information barrier policies](/microsoft-365/compliance/information-barriers-edit-segments-policies).
+- [Information barriers and Shared Channels](information-barriers-shared-channels.md)
 
 ## Availability
 
-- The feature is available in our public cloud; in January 2021, we rolled out information barriers in the GCC cloud.
-- The feature is not yet available in the GCC - High and DOD clouds.
+Information barriers in Teams is available in our public, GCC, GCC - High, and DOD clouds.

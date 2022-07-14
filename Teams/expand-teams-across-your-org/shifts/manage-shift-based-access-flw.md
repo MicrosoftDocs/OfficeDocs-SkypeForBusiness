@@ -1,7 +1,7 @@
 ---
 title: Manage shift-based access for frontline workers in Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -18,10 +18,6 @@ appliesto:
 ---
 
 # Manage shift-based access for frontline workers in Teams
-
-> [!IMPORTANT]
-> Effective June 30, 2020, Microsoft StaffHub has been retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub stopped working for all users on June 30, 2020. Anyone who tries to open StaffHub is shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub has been retired](microsoft-staffhub-to-be-retired.md).  
-
 ## Overview
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
@@ -79,7 +75,7 @@ Here's some examples. For detailed information about each policy setting and par
 In this example, we create a new policy named Off Shift Teams Access Default Message. In this policy, shift-based presence is turned on and the default message is displayed every time a user who is assigned this policy accesses Teams when off shift. The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is restricted is 10 minutes.  
 
 ```powershell
-New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
+New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
 ```
 
 > [!NOTE]
@@ -105,7 +101,7 @@ In this example, we create a new policy named Off Shift Teams Access Message1. I
 The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is restricted is three minutes.  
 
 ```powershell
-New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
+New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
 ```
 
 > [!NOTE]
@@ -116,7 +112,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 In this example, we assign a policy named Off Shift Teams Access Custom Message to a user named remy@contoso.com.
 
 ```powershell
-Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
+Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
 ## Related topics

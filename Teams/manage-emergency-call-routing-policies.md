@@ -45,7 +45,7 @@ If you assigned an emergency call routing policy to a network site and to a user
 3. Enter a name and description for the policy.
 4. To enable dynamic emergency calling, turn on **Dynamic emergency calling**. When dynamic emergency calling is enabled, Teams retrieves policy and location information from the service and includes that information as part of the emergency call.
 5. Define one or more emergency numbers. To do this, under **Emergency numbers**, click **Add**, and then do the following:
-    1. **Emergency dial string**: Enter the emergency dial string. This dial string indicates that a call is an emergency call.
+    1. **Emergency dial string**: Enter the emergency dial string. This dial string indicates that a call is an emergency call and the route pattern must match this dial string exactly. 
         > [!NOTE]
         > **For Direct Routing, Teams clients no longer send emergency calls with a "+" in front of the emergency dial string. Be sure the voice route pattern to match an emergency dial string reflects this change.**
     2. **Emergency dial mask**: For each emergency number, you can specify zero or more emergency dial masks. A dial mask is the number that you want to translate into the value of the emergency dial string. This allows for alternate emergency numbers to be dialed and still have the call reach emergency services. <br>For example, you add 112 as the emergency dial mask, which is the emergency service number for most of Europe, and 911 as the emergency dial string. A Teams user from Europe who is visiting may not know that 911 is the emergency number in the United States, and when they dial 112, the call is made to 911. To define multiple dial masks, separate each value by a semicolon. For example, 112;212.
@@ -82,7 +82,17 @@ See also [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/gran
 
 ## Assign a custom emergency call routing policy to a network site
 
-Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling routing policy to a network site.
+### Using the Microsoft Teams admin center
+
+You can assign the global policy or any custom policies that you create.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and click the **Network sites** tab.
+2. Select the site by clicking to the left of the name, and then click **Edit**.
+3. Under **Emergency call routing policy**, select the policy, and then click **Save**.
+
+### Using PowerShell
+
+Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency call routing policy to a network site.
 
 This example shows how to assign a policy called Emergency Call Routing Policy 1 to the Site1 site.
 

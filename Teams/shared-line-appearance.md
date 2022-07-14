@@ -1,7 +1,7 @@
 ---
 title: "Shared line appearance in Microsoft Teams"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -58,16 +58,18 @@ Shared line appearance is currently supported by the following apps and devices.
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
-| See the delegate view of shared lines | Yes | Yes | Yes | No | No |
-| See the delegate view of manager's call activities | Yes | Yes | Yes | No | No |
-| See the manager view of delegates | Yes | Yes | Yes | No | No |
-| Delegate or manager can hold or resume | Yes | Yes | Yes | No | No |
+| See the delegate view of shared lines | Yes | Yes | Yes | No | Yes |
+| See the delegate view of manager's call activities | Yes | Yes | Yes | No | Yes |
+| See the manager view of delegates | Yes | Yes | Yes | No | Yes |
+| Delegate or manager can hold or resume | Yes | Yes | Yes | No | Yes |
 
 ## Limitations
 
 Managers can add up to 25 delegates, and delegates can have up to 25 managers. There is no limit to the number of delegation relationships that can be created in a tenant. 
  
 If the delegator and delegate are not in the same geographic location, it is up to the PSTN provider to allow caller ID to show up from a different geographic location for a delegated (on behalf of) call. 
+
+Circular delegation configuration is not permitted. If the delegated users also have delegations between them, they will only be able to see their delegation and not the initial delegation.
  
 ## More information
 

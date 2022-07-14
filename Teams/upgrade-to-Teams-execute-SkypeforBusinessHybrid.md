@@ -1,7 +1,7 @@
 ---
 title: Upgrade Skype for Business hybrid deployment to Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

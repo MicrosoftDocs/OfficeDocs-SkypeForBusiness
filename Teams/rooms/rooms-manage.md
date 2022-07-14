@@ -19,15 +19,15 @@ ms.custom: seo-marvel-apr2020
 
 # Manage Microsoft Teams Rooms
 
-If you have Microsoft Teams Rooms-certified devices in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams Admin Center. Alternately, you can transfer management responsibility to dedicated experts using [Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com).  You can also delegate management access to a partner of your choice for either of the options.
+If you have Microsoft Teams Rooms in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams admin center. Alternately, you can transfer management responsibility to dedicated experts using [Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com).  You can also delegate management access to a partner of your choice for either of the options.
 
-With Microsoft Teams Admin Center, you can:
+With Microsoft Teams admin center, you can:
 
 - Perform device management like restarting devices and downloading device logs
 - Apply Teams-specific settings
-- Check the health status of Microsoft Teams Room devices and their peripherals, including cameras, displays, microphones, and so on
+- Check the health status of Microsoft Teams Rooms and their peripherals, including cameras, displays, microphones, and so on
 - Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
-- See peripherals (such as cameras and projectors) connected to a Microsoft Teams Room device
+- See peripherals (such as cameras and projectors) connected to Microsoft Teams Rooms
 
 To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows**.
 
@@ -35,44 +35,59 @@ To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://a
 
 
 > [!IMPORTANT]
-> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator, or Teams Device Administrator roles.
+> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator, or Teams Devices Administrator roles.
 
 ## Make changes to Teams Rooms devices
 
-If you have more than one Teams Rooms device, you can do most actions on multiple devices at the same time. For example, you can set Teams app settings on all of your devices at the same time.
+If you have more than one Teams Rooms, you can do most actions on multiple devices at the same time. For example, you can set Teams app settings on all of your Teams Rooms at the same time.
 
 ### Device settings
 
-You can change settings on one or more devices in your organization. To change settings, select the device or devices you want to manage and then select **Edit Settings**. A new pane will open with all of the settings you can change on your devices. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single device.
+You can change settings on one or more Teams Rooms in your organization. To change settings, select the device or devices you want to manage and then select **Edit Settings**. A new pane will open with all of the settings you can change. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single Teams Rooms.
 
-If you select more than one device, settings that support bulk editing show the two following options.
+If you select more than one, settings that support bulk editing show the two following options.
 
-- **Keep existing value** If you choose this option, no changes will be made to the setting on the devices you selected.
-- **Replace existing value with** If you choose this option, you can update the setting on the devices you selected with the value you provide.
+- **Keep existing value** If you choose this option, no changes will be made to the setting on the Teams Rooms you selected.
+- **Replace existing value with** If you choose this option, you can update the setting on the Teams Rooms you selected with the value you provide.
     > [!CAUTION]
     > Existing values on the settings you choose to update will be replaced with the value you provide. If you want to add to a list of existing values, you need to include the existing values with the value you want to add. For example, if a setting has an existing domain list of `contoso.com, fabrikam.com`, and you want to add `northwindtraders.com`, the value you need to provide would be `contoso.com, fabrikam.com, northwindtraders.com`.
     >
-    > If you select multiple devices, the setting on all of the devices you select will be changed to the value you provide. If devices have different values for a setting, they'll all be updated to the same value.
+    > If you select multiple Teams Rooms, the setting on all of the devices you select will be changed to the value you provide. If Teams Rooms have different values for a setting, they'll all be updated to the same value.
 
 | Setting                                                      | Accepted values                                        | Supports bulk edit |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Account*                                                    |                                                        |                    |
 | **Email**                                                    | Email address                                          | No                 |
-| **Supported meeting mode**                                   | Skype for Business (default) and Microsoft Teams<br>Skype for Business and Microsoft Teams (default)<br>Skype for Business Only|Yes|
+| **Supported meeting mode**                                   | Microsoft Teams only<br>Skype for Business (default) and Microsoft Teams<br>Skype for Business and Microsoft Teams (default)<br>Skype for Business Only|Yes|
 | **Modern authentication**                                    | On<br>Off                                              | Yes                |
 | **Exchange address**                                         | Email address                                          | No                 |
 | **Domain\username (optional)**                               | Account domain and user name                           | No                 |
 | **Configure domain**                                         | Comma-separated list                                   | Yes                |
 | *Meetings*                                                   |                                                        |                    |
 | **Automatic screen sharing**                                 | On<br>Off                                              | Yes                |
+| **HDMI ingest audio sharing**                                 | On<br>Off                                              | Yes                |
 | **Show meeting names**                                       | On<br>Off                                              | Yes                |
 | **Auto-leave if everyone else left meeting**                 | On<br>Off                                              | Yes                |
+| **Join third-party meetings**                 | Cisco Webex<br>Zoom                                              | Yes                |
+| **Join with room info**                 | Selected<br>Unselected                                              | Yes                |
+| **Join with custom info**                 | Selected<br>Unselected                                              | Yes                |
+| **Name (required)**                 | Name of room or space                                              | Yes                |
+| **Email (required)**                 | Email address                                              | Yes                |
 | *Device*                                                     |                                                        |                    |
 | **Dual monitor mode**                                        | On<br>Off                                              | Yes                |
+| **Allow content duplication** | Selected<br>Unselected                                 | Yes                |
 | **Bluetooth beaconing**                                      | On<br>Off                                              | Yes                |
 | **Automatically accept proximity-based meeting invitations** | Selected<br>Unselected                                 | Yes                |
 | **Send logs with feedback**                                  | On<br>Off                                              | Yes                |
 | **Email address for logs and feedback**                      | Email address                                          | Yes                |
+| *Coordinate Meetings*                                                     |                                                        |                    |
+| **Coordinated Meetings** | On<br>Off                                 | No                |
+| **Turn on this device’s microphone** | On<br>Off                                 | No                |
+| **Let people enable when joining a meeting** | Selected<br>Unselected                                 | No                |
+| **Turn on this device’s camera** | On<br>Off                                 | No                |
+| **Let people enable when joining a meeting** | Selected<br>Unselected                                 | No                |
+| **Turn on whiteboarding for this device** | On<br>Off                                 | No                |
+| **Trusted device accounts (separate with commas)** | List of devices                              | No                |
 | *Peripherals*                                                |                                                        |                    |
 | **Conferencing microphone**                                  | List of available microphones                          | No                 |
 | **Conferencing speaker**                                     | List of available speakers                             | No                 |
@@ -85,31 +100,29 @@ If you select more than one device, settings that support bulk editing show the 
 | *Theming*                                                    |                                                        |                    |
 |                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                |
 
-## Cortana settings 
-You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell for all devices in your organization, or for each device separately. 
--	At the organization and group level, you must use PowerShell.
--	At the device level, you have a few options. You can use PowerShell, edit the  XML configuration file, or change the settings in Teams admin center. 
+### Cortana settings
 
-To learn more about using PowerShell to configure Cortana, see [Admin control and limitations for Cortana in Teams](/microsoftteams/cortana-in-teams#admin-control-and-limitations).
+You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell for all devices in your organization, or for each device separately.
 
-To learn more about configuring your device using the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file).
+See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
 
-At the device level, you can configure Cortana to be activated for:
-- _Push to talk_ using PowerShell  
-  - How to turn it on: Cortana _Push to talk_ is enabled by default for all devices that are set up with locale en-us regardless of the geographic region
-  - How to turn it off: use Powershell. 
-- _Voice Activation_ using XML configuration file or Teams admin center.
-  - How to turn it on: set `<CortanaWakeWord>true</>` in the XML configuration file or use the corresponding setting in Teams admin center
-  - How to turn it off: Cortana Voice Activation is off by default 
-  
-  Keep in mind that three conditions must be met to have Cortana _Voice Activation_ on your device:
-    1. Your organization must have Cortana enabled
-    2. Your device must be set up with one of the following locales: en-au, en-ca, en-gb, en-in, en-us
-    3. You must have a Cortana certified device connected to your Teams Room [Learn More](/microsoftteams/cortana-in-teams)   
+### Front row layout settings
 
-### Device restart options
+Front row is meeting view layout option for Teams Rooms on Windows.
 
-Changes to device settings will only take effect after the devices have been restarted. When you make changes that need a restart, you can choose whether to restart the devices immediately or schedule a restart. Here are the available restart options:
+| Teams device | App version | Front of room display |
+|--------------|-------------|-----------------------|
+|Microsoft Teams Rooms on Windows | 4.11.12.0 or higher (The latest version is recommended) | Supports single and dual displays; Minimum size: 46 inches; Aspect ratio 16:9 with 1920x1080 resolution or 21:9 with 2560x1080 resolution; All displays should be set at 100% scaling in Windows settings |
+
+See [Microsoft Teams Rooms maintenance and operations](rooms-operations.md#scale-and-resolution), to adjust your display settings to meet Front row's requirements.
+
+To learn how to set Front row as the default layout for a room, or how to turn it off, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-front-row-as-the-default-layout).
+
+See [Known issues](known-issues.md#Limits) for more information on managing Front row.
+
+## Device restart options
+
+Changes to device settings will only take effect after Teams Rooms has been restarted. When you make changes that need a restart, you can choose whether to restart immediately or schedule a restart. Here are the available restart options:
 
 - **Immediate restart** If you choose this option, all of the devices you're making changes to will restart as soon as you select this option.
 - **Scheduled restart** If you choose this option, you can restart the devices you're making changes to at a time that's less disruptive to your organization.
@@ -117,18 +130,18 @@ Changes to device settings will only take effect after the devices have been res
   - **Leave update for nightly reboot** Devices are restarted nightly to perform maintenance. Changes you make to devices will be applied during this restart.
 
 > [!CAUTION]
-> Devices in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
+> Teams Rooms that are in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
 
-### Remove device
+## Remove device
 
-When you remove a device, the device is removed from your organization and no longer appears in your list of Teams Rooms devices in the Teams admin center.
+When you remove a device, the device is removed from your organization and no longer appears in your list of Teams Rooms on Windows in the Teams admin center.
 
-If you remove a device and it's still configured with a valid username and password, it will be automatically re-added to your Teams Rooms devices list if it connects to Microsoft 365 again.
+If you remove a device and it's still configured with a valid username and password, it will be automatically re-added to your Teams Rooms list if it connects to Microsoft 365 again.
 
 To remove one or more devices, do the following:
 
-1. Go to **Teams Devices** > **Teams Rooms** and select the devices you want to remove.
-1. Select **Remove**.
+1. Go to **Teams Devices** > **Teams Rooms on Windows** and select the devices you want to remove.
+2. Select **Remove**.
 
 ## Download device logs
 
@@ -136,7 +149,7 @@ You can download a copy of a device's diagnostic log files if requested to do so
 
 To download logs from a Teams Rooms device to your computer, do the following:
 
-1. Go to **Teams Devices** > **Teams Rooms** and select the name of the device you want to download logs from.
+1. Go to **Teams Devices** > **Teams Rooms on Windows** and select the name of the device you want to download logs from.
 1. Select **Download device logs**. It can take several minutes for device logs to become available.
 1. Select the **History** tab and then select log file link under **Diagnostics file**. A zip file containing your device's diagnostic log files will be downloaded to your browser's default Downloads folder.
 

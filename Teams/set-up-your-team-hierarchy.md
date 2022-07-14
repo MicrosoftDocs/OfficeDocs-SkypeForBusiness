@@ -1,7 +1,7 @@
 ---
 title: Set up your team targeting hierarchy
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

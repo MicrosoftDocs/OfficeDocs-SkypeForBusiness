@@ -1,7 +1,7 @@
 ---
 title: Set up for webinars in Microsoft Teams 
-author: KarliStites
-ms.author: kastites
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -54,15 +54,15 @@ If you select **Everyone**, all users, including anonymous users, can register f
 
 ### Engagement report
 
-If you turn this on, organizers can see reports of who registered and attended the webinars they set up. This policy is off by default. For more information, see [Meeting policies in Teams - Engagement report](meeting-policies-in-teams-general.md#engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
+When this is on, organizers can see reports of who registered and attended the webinars they set up. This policy is on by default. For more information, see [Meeting policies in Teams - Engagement report](meeting-policies-in-teams-general.md#engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## Allow users to schedule webinars using PowerShell
 
 You can use the following attributes within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet to set up for webinars in Teams.
 
-- MeetingRegistration
+- AllowMeetingRegistration
 - WhoCanRegister
-- PrivateMeetingScheduling
+- AllowPrivateMeetingScheduling
 
 Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) for more information on the cmdlet.
 
@@ -71,21 +71,21 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ### Allow users to schedule webinars
 
-You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone** for the **Global (Org-wide default)** policy. If you want to turn off meeting registration, set **MeetingRegistration** to **False**.
+You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone** for the **Global (Org-wide default)** policy. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
 
 > [!IMPORTANT]
-> **PrivateMeetingScheduling** must be set to **True** for **MeetingRegistration** to work.
+> **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work.
 
 1. Turn on meeting registration
 
 ```powershell
-Set-CsTeamsMeetingPolicy -MeetingRegistration $True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 
 2. Turn on private meeting scheduling
 
 ```powershell
-Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 3. Configure who can register for webinars
@@ -107,10 +107,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### Collect meeting attendance
 
-If you want organizers to analyze who registered and attended webinars, you'll need to turn on the **EngagementReport** policy. To do this, run the following command in PowerShell.
+The **AllowEngagementReport** parameter lets you see who registered and attended webinars. This policy is turned on by default. To turn it off, run the following command in PowerShell:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## Configure webinar settings

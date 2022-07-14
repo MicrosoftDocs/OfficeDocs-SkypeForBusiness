@@ -29,7 +29,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Language                                |
 |:---------------------------------------|
 |Arabic (Egypt)                          |
-|Catalan (Catalan)	                     |
+|Catalan (Catalan)                       |
 |Chinese (Simplified, PRC)               |
 |Chinese (Traditional, Hong Kong)        |
 |Chinese (Traditional, Taiwan)           |

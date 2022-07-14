@@ -1,7 +1,7 @@
 ---
 title: "Use Call Analytics to troubleshoot poor call quality"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -72,7 +72,7 @@ The following table tells you what per-user information is available for each co
 ||||
 
 > [!NOTE]
-> The information contained in the Debug tab contains telemetry and service diagnostic data meant to assist Microsoft support engineers. Without the context of the additional data available to support engineers, it may appear to be redundant, inaccurate, or confusing. While we make it available for advanced users who are looking for another level of detail in troubleshooting call issues, we don't recommend making judgments based on this data without Microsoft support.
+> The information contained in both the Advanced tab's 'Other' section and the Debug tab contains telemetry and service diagnostic data meant to assist Microsoft support engineers. Without the context of the additional data available to support engineers, it may appear to be redundant, inaccurate, or confusing. While we make it available for advanced users who are looking for another level of detail in troubleshooting call issues, we don't recommend making judgments based on this data without Microsoft support.
 
 ## Troubleshoot user call quality problems
 

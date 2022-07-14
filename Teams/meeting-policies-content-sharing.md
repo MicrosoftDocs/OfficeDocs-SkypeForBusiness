@@ -31,7 +31,7 @@ This article describes the following meeting policy settings related to content 
 - [Screen sharing mode](#screen-sharing-mode)
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
 - [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint sharing](#powerpoint-sharing)
+- [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
 - [Shared notes](#shared-notes)
 
@@ -95,13 +95,13 @@ Whether federated users can give control to external users while sharing is cont
 
 To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
-### PowerPoint sharing
+### PowerPoint Live
 
 This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
-|User |Meeting policy  |PowerPoint sharing |
+|User |Meeting policy  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
@@ -119,7 +119,13 @@ Let's look at the following example.
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
 
-Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.  
+Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.
+
+To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
+
+### Annotation
+
+When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If whiteboard is disabled, users will not have access to annotation.
 
 ## Shared notes
 

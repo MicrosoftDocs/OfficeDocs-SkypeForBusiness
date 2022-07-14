@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Transition emails and surveys | Basic Upgrade 
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

@@ -1,7 +1,7 @@
 ---
 title: Teams policy packages for healthcare
-author: serdars
-ms.author: v-mahoffman
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article

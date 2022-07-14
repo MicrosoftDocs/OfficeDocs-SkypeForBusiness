@@ -1,7 +1,7 @@
 ---
 title: "Emails sent to users when their settings change"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -34,7 +34,7 @@ By default, there are four types of email that will be sent to your users who ar
      This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) or [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
     > [!NOTE]
-    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
+    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user).
 
     Here is an example of this email:
 
@@ -53,9 +53,9 @@ By default, there are four types of email that will be sent to your users who ar
 - **The audio conferencing PIN of a user is reset.**
 
     This email contains the organizer's audio conferencing PIN, the existing conference ID, and default conference phone number for the user. See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
-    
+
      Here is an example of this email:
-    
+
      ![Dial-in conferencing PIN changed.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **A user's license is removed or when audio conferencing provider changes from Microsoft to other provider or None.**
@@ -79,13 +79,13 @@ You can make changes to the email that is automatically sent to users. By defaul
 
 When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
 
-By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams or Windows PowerShell. 
+By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams or Windows PowerShell.
 
- **Using the Microsoft Teams admin center**
+### Using the Microsoft Teams admin center
 
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
+2. At the top of the **Conference Bridges** page, click **Bridge settings**.
 
 3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
 
@@ -94,7 +94,7 @@ By default, emails will be sent to your users, but if you want to prevent them f
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Using Windows PowerShell**
+### Using Windows PowerShell
 
 You can also use the Microsoft Teams PowerShell module and run:
 
@@ -108,16 +108,15 @@ See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=te
 
 ## Want to know more about Windows PowerShell?
 
-By default, the sender of the emails will be from Microsoft 365 or Office 365, but you can change the email address and display name using Windows PowerShell. 
+By default, the sender of the emails will be from Microsoft 365 or Office 365, but you can change the email address and display name using Windows PowerShell.
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
-  - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [Best ways to manage Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Best ways to manage Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-
 
 ## Related topics
 

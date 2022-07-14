@@ -1,8 +1,8 @@
 ---
 title: "Set Microsoft Teams Android devices user interface"
-ms.author: mitressl
-author: flinchbot
-manager: leopaiv
+ms.author: dstrome
+author: dstrome
+manager: serdars
 audience: ITPro
 appliesto: 
   - Microsoft Teams
@@ -26,17 +26,25 @@ There are three types of user interfaces on Teams Android devices:
 
 If you [assign a user license](/microsoftteams/user-access) to an account, like an E3 or an E5 license, the Teams device will display the default end-user interface which is fully featured for most user scenarios. However, if a device is performing a specific function, such as a common area phone or a meeting room, there are specific user interfaces for these usages.
 
-The following three images show how the user interface changes based on the license assigned to the user account. In the first image, the user account is assigned an E5 license. This is a user license, so the device shows the default end-user interface:
+The following three images show how the user interface changes based on the license assigned to the user account. 
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="User mode interface.":::
+## End-user interface 
 
-In this image, the user account has been assigned a [common area phone license](/microsoftteams/set-up-common-area-phones). Common area phones are primarily used for making and receiving phone calls. As such, the dial pad is shown on the display:
+The user account is assigned an E5 license. This is a user license, so the device shows the default end-user interface:
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="Common area phone interface.":::
+:::image type="content" source="../media/teams-android-devices-usermode1.jpg" alt-text="User mode interface.":::
 
-Finally, this image shows a user account with a [Microsoft Teams Rooms Standard license](/MicrosoftTeams/rooms/rooms-licensing) assigned. Teams Rooms licenses are meant to be used in meeting rooms or shared spaces, so the user interface changes to make it easy to join a meeting by showing the calendar view:
+## Common area interface
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Meeting interface.":::
+In this image, the user account has been assigned a [Common Area Phone license](/microsoftteams/set-up-common-area-phones). Common area phones are primarily used for making and receiving phone calls. As such, the dial pad is shown on the display:
+
+:::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="Common area phone interface.":::
+
+## Meeting interface
+
+This image shows a user account with a [Microsoft Teams Rooms Standard license](/MicrosoftTeams/rooms/rooms-licensing) assigned. Teams Rooms licenses are meant to be used in meeting rooms or shared spaces, so the user interface changes to make it easy to join a meeting by showing the calendar view:
+
+:::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Meeting interface.":::
 
 > [!NOTE]
 > Changing the user interface doesn't affect your ability to use other licensed features. For example, even though the Team Rooms license's default view is the calendar view, you can still make and receive Public Switch Telephone Network (PSTN) phone calls if the account is correctly licensed and configured.
@@ -75,3 +83,16 @@ The following is an example of how to override automatic license detection. In t
    ```
 
 After granting the policy to the meeting room resource account, you'll need to wait for the policy assignment to replicate. You'll also need to sign out of the device and sign back in.
+
+## Impact on Microsoft Teams admin center
+
+Microsoft Teams admin center allows you to manage Microsoft Teams devices. For more information on managing devices using Teams admin center, see [Manage your devices in Microsoft Teams](device-management.md).
+
+
+Teams admin center provides the ability to manage Teams phones. Phones are filtered into one of three tabs based on their function: user phones, common area phones, and conference phone. 
+
+ :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="Phones header in Teams admin center.":::
+
+As with the user interface detection, Teams phones are categorized based on the license assigned to the account signing in to the phone. For example, if an account that is assigned a common area phone license signs in to a phone, then that phone will be shown in both the default **All phones** section as well as in the **Common area phones** section.
+
+If you would like a phone to appear in a different section, you can either assign a different license to the phone, or create and assign a Teams IP Phone policy as [described above](#override-automatic-user-interface-detection).

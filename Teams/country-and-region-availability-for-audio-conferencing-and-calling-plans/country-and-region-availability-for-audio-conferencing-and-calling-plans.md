@@ -1,7 +1,7 @@
 ---
 title: "Country/region availability - Audio Conferencing, Calling Plans"
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -200,7 +200,7 @@ Use the drop-down list at the top of the page to search for a country or region 
 
 ### Calling Plans
 
-Along with Phone System, a Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [Phone System and Calling Plans](../calling-plan-landing-page.md) for more details.
+Along with Phone System, a Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **International**. See [Phone System and Calling Plans](../calling-plan-landing-page.md) for more details.
 
 You can also see [Phone System and Calling Plans licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
 

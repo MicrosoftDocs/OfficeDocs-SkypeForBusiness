@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams PSTN blocked users report
-author: HowlinWolf-92    
-ms.author: v-mahoffman
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article

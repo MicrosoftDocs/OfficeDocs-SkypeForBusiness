@@ -2,7 +2,8 @@
 title: Admin training for Microsoft Teams
 ms.reviewer: 
 description: Get the administrator training and support that you need to manage Microsoft Teams in your organization.
-author: HowlinWolf-92
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,7 +20,6 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-mahoffman
 ---
 # Admin training for Microsoft Teams
 

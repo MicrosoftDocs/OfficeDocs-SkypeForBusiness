@@ -1,8 +1,8 @@
 ---
 title: "Manage enhanced 9-1-1 and the Location service"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -65,39 +65,39 @@ In Skype for Business Server, you can override the default amount of time betwee
 
 5.  Fill in the remaining fields as follows:
     
-      - **Enable enhanced emergency services**   Select this check box to enable the users associated with this policy for E9-1-1. When emergency services are enabled, Skype for Business Server clients will retrieve location information on registration and include that information when an emergency call is made.
+      - **Enable enhanced emergency services**   Select this check box to enable the users associated with this policy for E9-1-1. When emergency services are enabled, Skype for Business Server clients will retrieve location information on registration and include that information when an emergency call is made.
     
-      - **Location**   Specify one of the following values:
+      - **Location**   Specify one of the following values:
         
-          - **Required**   The user will be prompted to input location information when the client registers at a new location. The user can dismiss the prompt without entering any information. If information is entered, an emergency call will first be answered by the emergency services provider to verify the location before being routed to the Public Safety Answering Point (PSAP) operator (that is, the 911 operator).
+          - **Required**   The user will be prompted to input location information when the client registers at a new location. The user can dismiss the prompt without entering any information. If information is entered, an emergency call will first be answered by the emergency services provider to verify the location before being routed to the Public Safety Answering Point (PSAP) operator (that is, the 911 operator).
         
-          - **Not Required**   The user will not be prompted for a location. When a call is made with no location information, the emergency services provider will answer the call and ask for a location.
+          - **Not Required**   The user will not be prompted for a location. When a call is made with no location information, the emergency services provider will answer the call and ask for a location.
         
-          - **Disclaimer**   This option is the same as **Required** except that the user cannot dismiss the prompt without entering location information. The user can still complete an emergency call, but no other calls can be completed without entering the information. In addition, disclaimer text will be displayed to the user that can alert them to the consequences of declining to enter location information. To set the disclaimer text, you must use the Skype for Business Server Management Shell to run the **Set-CsLocationPolicy** cmdlet or the **New-CsLocationPolicy** cmdlet with the EnhancedEmergencyServiceDisclaimer parameter. For details, see [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) or [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
+          - **Disclaimer**   This option is the same as **Required** except that the user cannot dismiss the prompt without entering location information. The user can still complete an emergency call, but no other calls can be completed without entering the information. In addition, disclaimer text will be displayed to the user that can alert them to the consequences of declining to enter location information. To set the disclaimer text, you must use the Skype for Business Server Management Shell to run the **Set-CsLocationPolicy** cmdlet or the **New-CsLocationPolicy** cmdlet with the EnhancedEmergencyServiceDisclaimer parameter. For details, see [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) or [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
       - **Use location for emergency services only** Skype for Business can use location information for various reasons (for example, to notify teammates of your current location). Select this check box to ensure location information is available only for use with an emergency call.
     
-      - **PSTN usage**   The public switched telephone network (PSTN) usage that will be used to determine which voice route will be used to route emergency calls from clients using this profile. The route associated with this usage should point to a SIP trunk dedicated to emergency calls or to an Emergency Location Identification Number (ELIN) gateway that routes emergency calls to the nearest Public Safety Answering Point (PSAP).
+      - **PSTN usage**   The public switched telephone network (PSTN) usage that will be used to determine which voice route will be used to route emergency calls from clients using this profile. The route associated with this usage should point to a SIP trunk dedicated to emergency calls or to an Emergency Location Identification Number (ELIN) gateway that routes emergency calls to the nearest Public Safety Answering Point (PSAP).
     
-      - **Emergency dial number**   The number that is dialed to reach emergency services. In the United States this value is 911. The string must be made of the digits 0 through 9 and can be from 1 to 10 digits in length.
+      - **Emergency dial number**   The number that is dialed to reach emergency services. In the United States this value is 911. The string must be made of the digits 0 through 9 and can be from 1 to 10 digits in length.
     
-      - **Emergency dial mask**   A number that you want to translate into the value of the emergency dial number value when it is dialed. For example, if you enter a value of 212 in this field and the emergency dial number field has a value of 911, if a user dials 212 the call will be made to 911. This allows for alternate emergency numbers to be dialed and still have the call reach emergency services (for example, if someone from a country or region with a different emergency number attempts to dial that country or region’s number rather than the number for the country or region they are currently in). You can define multiple emergency dial masks by separating the values with semicolons. For example, 212;414. Maximum length of the string is 100 characters. Each character must be a digit 0 through 9.
+      - **Emergency dial mask**   A number that you want to translate into the value of the emergency dial number value when it is dialed. For example, if you enter a value of 212 in this field and the emergency dial number field has a value of 911, if a user dials 212 the call will be made to 911. This allows for alternate emergency numbers to be dialed and still have the call reach emergency services (for example, if someone from a country or region with a different emergency number attempts to dial that country or region’s number rather than the number for the country or region they are currently in). You can define multiple emergency dial masks by separating the values with semicolons. For example, 212;414. Maximum length of the string is 100 characters. Each character must be a digit 0 through 9.
       
 
         > [!IMPORTANT]  
         > Ensure that the specified dial mask value is not the same as a number in a call park orbit range. Call park routing will take precedence over emergency dial string conversion. To see the existing call park orbit ranges, click **Voice Features** in the left navigation bar and then click **Call Park**. 
 
     
-      - **Notification URI**   One or more SIP Uniform Resource Identifiers (URIs) to be notified when an emergency call is made. For example, the company security office could be notified through an instant message whenever an emergency call is made. If the caller’s location is available that location will be included in the notification. Multiple SIP URIs can be included as a comma-separated list. For example, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". Distribution lists are supported. The string must be from 1 to 256 characters in length and must begin with the prefix "sip:". Before you click in the Notification URI field an example is displayed.
+      - **Notification URI**   One or more SIP Uniform Resource Identifiers (URIs) to be notified when an emergency call is made. For example, the company security office could be notified through an instant message whenever an emergency call is made. If the caller’s location is available that location will be included in the notification. Multiple SIP URIs can be included as a comma-separated list. For example, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". Distribution lists are supported. The string must be from 1 to 256 characters in length and must begin with the prefix "sip:". Before you click in the Notification URI field an example is displayed.
     
-      - **Conference URI**   The SIP URI, in this case the telephone number, of a third party that will be conferenced in to any emergency calls that are made. For example, the company security office could receive a call when an emergency call is made and listen in or participate in that call (depending on the value supplied in the **Conference mode** field). The string must be from 1 to 256 characters in length and must begin with the prefix sip:. An example is displayed until you click inside this field.
+      - **Conference URI**   The SIP URI, in this case the telephone number, of a third party that will be conferenced in to any emergency calls that are made. For example, the company security office could receive a call when an emergency call is made and listen in or participate in that call (depending on the value supplied in the **Conference mode** field). The string must be from 1 to 256 characters in length and must begin with the prefix sip:. An example is displayed until you click inside this field.
     
-      - **Conference mode**   If you specify a value in the **Conference URI** field, the **Conference mode** determines whether a third party can participate in the call or can only listen in. Specify one of the following options:
+      - **Conference mode**   If you specify a value in the **Conference URI** field, the **Conference mode** determines whether a third party can participate in the call or can only listen in. Specify one of the following options:
         
-          - **One-way**   A third party can only listen to the conversation between the caller and the PSAP operator.
+          - **One-way**   A third party can only listen to the conversation between the caller and the PSAP operator.
         
-          - **Two-way**   A third party can listen in and participate in the call between the caller and the PSAP operator.
+          - **Two-way**   A third party can listen in and participate in the call between the caller and the PSAP operator.
 
 6.  Click **Commit**.
 

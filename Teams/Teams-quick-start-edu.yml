@@ -6,7 +6,7 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: chucked
+  ms.author: danismith
   manager: serdars
   ms.date: 08/30/2018
   ms.reviewer: ninadara
@@ -26,7 +26,7 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-    [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Office 365, schools benefit from integration with their familiar Office apps and services. It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
+    [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it's built on Office 365, schools benefit from integration with their familiar Office apps and services. It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
 
     With Microsoft Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, communicate with school staff, coordinate research across institutions, or more easily facilitate student life efforts like clubs or extracurricular activities – all from a single experience in Office 365 for Education.
 
@@ -66,19 +66,19 @@ items:
 
     ## Step 3: Conduct pilots and deploy Teams
 
-    You’ll want to conduct an initial Teams pilot with your educators, both champions and early adopters, for one or more of the scenarios you selected above. A pilot gives you valuable information about how Office 365 and Teams are received in your organization. Select an interested group of users and a prioritized business scenario to get started. 
+    You'll want to conduct an initial Teams pilot with your educators, both champions and early adopters, for one or more of the scenarios you selected above. A pilot gives you valuable information about how Office 365 and Teams are received in your organization. Select an interested group of users and a prioritized business scenario to get started. 
 
     ![Screenshot of Teams user groups.](media/quick-start-example-scenarios.png)
     
-    Once your pilots are complete, you’ll have the feedback you need to plan your broad Teams deployment. Be sure your deployment plan integrates your prioritized scenarios to ensure your school is getting the most from Office 365 and Teams.
+    Once your pilots are complete, you'll have the feedback you need to plan your broad Teams deployment. Be sure your deployment plan integrates your prioritized scenarios to ensure your school is getting the most from Office 365 and Teams.
 
 
     ## Step 4: Measure usage, manage satisfaction, and drive adoption
 
-    To successfully drive adoption of Office 365 and Teams, stay focused on your educator’s experience. Here’s a quick checklist of our best practices to get you started. 
+    To successfully drive adoption of Office 365 and Teams, stay focused on your educator's experience. Here's a quick checklist of our best practices to get you started. 
 
     1. **Read the [Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)** for best practices. Also available to you is our supplemental content for [creating a change management strategy for Microsoft Teams](change-management-strategy.md) to document your approach.
-    2. **Study [Office 365 activity reports](teams-activity-reports.md)** to understand usage across your school. If you aren’t an Office 365 admin, ask your admin to give you Reports Reader permissions so you can access activity reports.
+    2. **Study [Office 365 activity reports](teams-activity-reports.md)** to understand usage across your school. If you aren't an Office 365 admin, ask your admin to give you Reports Reader permissions so you can access activity reports.
     3. **Capture feedback from your educators** on their experience with Office 365 and Teams. Use a channel in Teams when your school has fewer than 5000 individuals. Use a public group in Yammer when your school is larger than this current membership limit in Teams. 
     4. **Nurture your champions and highlight your wins.** Reward educators for embracing these new tools and using them in innovative ways. This, above anything, ensures continued adoption of Office 365 and Teams.
 
@@ -102,7 +102,7 @@ items:
 
    ![Screenshot of the Messaging policies page.](media/teams-messaging-policies-edu.PNG)
    
-   With policies, you can turn on and turn off features at the per-user level. Here’s how policy assignments work:
+   With policies, you can turn on and turn off features at the per-user level. Here's how policy assignments work:
       - By default, every new user will get the Global policy (tenant-level settings).
       - A user can be assigned a pre-canned user policy created by Microsoft if it meets your requirements. These pre-canned policies are not editable by admins. If you want to manage these in the future, create new custom policies and assign the custom policies to users.
       - A custom policy can be assigned to any user. To create a new custom policy, click **Add**, choose the settings you want for the policy, and click **Save**. Then assign the custom policy to a user by going to **Users** in the Microsoft Teams admin center or by using a script. 
@@ -142,13 +142,13 @@ items:
 
     The setup file for the Teams client is an executable file that can be downloaded by admins and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). Educators and students on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
 
-    End users with mobile devices can download the Microsoft Teams app from the mobile platform’s app store. 
+    End users with mobile devices can download the Microsoft Teams app from the mobile platform's app store. 
 
     ### Operating system requirements
 
-    |   	|Windows   	|macOS   	|Linux  |iOS   	|Android   	|
-    |---	|---	|---	|---	|---  |--- 	|---	|
-    |   	|7 and later   	|10.10 and later   	|DEB or RPM  |10 or later   	|4.4 and later   	|
+    ||Windows|macOS|Linux|iOS|Android|
+    |---|---|---|---|---|---|---|
+    ||7 and later|10.10 and later|DEB or RPM|10 or later|4.4 and later|
 
     
     ### Internet browser support 

@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing supported languages"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: reference
@@ -26,10 +26,10 @@ description: "Find the dial-in conferencing language for each country or region 
 
 # Audio Conferencing supported languages
 
-When you are setting up and configuring Audio Conferencing in Microsoft 365 or Office 365, you can select the primary and secondary (up to 4) languages that are used when callers dial in to a Skype for Business or Microsoft Teams meeting. Here is the list of supported languages for Audio Conferencing: 
+When you are setting up and configuring Audio Conferencing in Microsoft 365 or Office 365, you can select the primary and secondary (up to 4) languages that are used when callers dial in to a Skype for Business or Microsoft Teams meeting. Here is the list of supported languages for Audio Conferencing:
   
 > [!IMPORTANT]
-> Primary and secondary languages can be changed only on dedicated Audio Conferencing phone numbers. 
+> Primary and secondary languages can be changed only on dedicated Audio Conferencing phone numbers.
   
 ## Currently supported languages
 
@@ -79,7 +79,7 @@ When you are setting up and configuring Audio Conferencing in Microsoft 365 or O
 |Thai  <br/> |Thailand  <br/> |th-TH  <br/> |
 |Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |
 |Ukrainian  <br/> |Ukraine  <br/> |uk-UA  <br/> |
-   
+
 If you are looking for countries or regions where you can purchase Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 If you are looking for specific countries or regions that have phone numbers for Audio Conferencing, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) or [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
@@ -87,23 +87,23 @@ If you are looking for specific countries or regions that have phone numbers for
 ## Want to know how to manage with Windows PowerShell?
 
 - To save time or automate this, you can use the [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) or [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) cmdlets.
-    
+
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-    
+
   - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
+
   - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics: 
-    
+
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+
   - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
     > [!NOTE]
-    > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)
   
 ## Related topics
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Education governance FAQ for admins
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

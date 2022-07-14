@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Teams in your small business
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 
 # Set up Microsoft Teams in your small business
 
-There are lots of ways you can customize Teams. The following sections show you how to set up each Teams workload: **chats, teams and channels**; **meetings and conferencing**; and **cloud voice**. The order in which you set up each workload is up to you. While we recommend setting up the chats, teams, and channels workload first, you can start with meetings and conferencing or even cloud voice. The choice is yours.
+There are lots of ways you can customize Teams. The following sections show you how to set up each Teams workload: **chats, teams and channels**; **meetings and conferencing**; and **voice solutions**. The order in which you set up each workload is up to you. While we recommend setting up the chats, teams, and channels workload first, you can start with meetings and conferencing or even cloud voice. The choice is yours.
 
 > [!NOTE]
 > If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
@@ -34,7 +34,7 @@ Jump to the section you're interested in:
 - [Workloads](#workloads)
   - [Chat, teams, and channels](#chat-teams-and-channels)
   - [Meetings and conferencing](#meetings-and-conferencing)
-  - [Business Voice](#business-voice)
+  - [Teams Phone with Calling Plan](#teams-phone-with-calling-plan)
 - [Deploy clients](#deploy-clients)
 - [Training](#training)
 
@@ -73,15 +73,11 @@ Meetings are enabled by default in Teams, however, you can control the meeting e
 - [Admin quick start - Meetings and live events in Microsoft Teams](quick-start-meetings-live-events.md)
 - [Set up Audio Conferencing for small and medium businesses](audio-conferencing-smb.md)
 
-### Business Voice
+### Teams Phone with Calling Plan
 
-[Microsoft 365 Business Voice](business-voice/whats-business-voice.md) is a great solution for businesses with fewer than 300 users that gives you all the features of an office phone system. Business Voice includes voicemail, caller ID, phone system menus, toll-free numbers, and more, without the need to manage a complex and costly on-premises phone system.
+Microsoft 365 Teams Phone with Calling Plan is a great solution for businesses with fewer than 300 users that gives you all the features of an office phone system. Teams Phone includes voicemail, caller ID, phone system menus, toll-free numbers, and more, without the need to manage a complex and costly on-premises phone system.
 
-Based on Microsoft 365 Phone System, Business Voice simplifies adding voice to your organization by bundling Phone System features and add-ons, and providing an easy-to-follow wizard to help you set up your phone system. If your organization is located in a [country or region that supports Business Voice](business-voice/country-region-availability.md), you can transfer your phone numbers to Microsoft 365 and let us manage your phone system for you.
-
-With Microsoft 365 as your phone system, you can turn any device into a phone by installing the Teams client on it. Or, if you'd rather have a traditional desk phone or conference phone, there are many Teams-certified devices to choose from. Either way, calls are always routed to where you are, and calls you make always have your office phone number.
-
-If you're interested in trying out Business Voice, check out [What do I need to buy to use Microsoft 365 Business Voice?](business-voice/what-to-buy.md).
+For more information on Teams Phone with Calling Plan for small and medium businesses, see [Teams Phone guidance for small and medium businesses](/microsoftteams/business-voice/whats-business-voice).
 
 ## Deploy clients
 

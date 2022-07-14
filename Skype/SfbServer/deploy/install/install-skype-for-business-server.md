@@ -1,8 +1,8 @@
 ---
 title: "Install Skype for Business Server on servers in the topology"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: "Summary: Learn how to install the Skype for Business Server system components on each server in the topology. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to install the Skype for Business Server system components on each server in the topology."
 ---
 
 # Install Skype for Business Server on servers in the topology
  
-**Summary:** Learn how to install the Skype for Business Server system components on each server in the topology. Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to install the Skype for Business Server system components on each server in the topology.
   
 Once the topology is loaded into the Central Management Store and Active Directory knows which servers will perform which roles, you need to install the Skype for Business Server system on each of the servers in the topology. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5 as outlined in the diagram. Installing the Skype for Business Server system is step 7 of 8.
   
@@ -83,7 +83,7 @@ Once you have published a topology, you can install the Skype for Business Serve
     
 3. When the local server configuration installation is complete, click **Finish**.
     
-### Step 2: Setup or remove Skype for Business Server components
+### Step 2: Set up or remove Skype for Business Server components
 
 1. Review the prerequisites, and then click **Run** next to **Step 2: Setup or Remove Skype for Business Server Components**.
     

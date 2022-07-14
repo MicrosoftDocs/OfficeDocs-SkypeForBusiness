@@ -1,6 +1,51 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/admin-settings.md",
+      "redirect_url": "/microsoftteams/manage-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/mobile-browser-join.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/browser-join",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/built-in-custom-tabs.md",
+      "redirect_url": "/microsoftteams/platform/tabs/what-are-tabs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-power-platfom-integration.md",
+      "redirect_url": "/microsoftteams/platform/samples/teams-low-code-solutions",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/dstu2-interface.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/stu3-interface.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    },     
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-audit.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    },     
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": true
+    },    
+    {
+      "source_path": "Teams/expand-teams-across-your-org/teams-for-healthcare-landing-page.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc",
+      "redirect_document_id": false
+    }, 
+    {
       "source_path": "Teams/manage-discovery-of-private-teams.md",
       "redirect_url": "/microsoftteams/teams-overview",
       "redirect_document_id": false
@@ -24,6 +69,11 @@
       "source_path": "Teams/rooms/managed-meeting-rooms.md",
       "redirect_url": "/microsoftteams/rooms/microsoft-teams-rooms-premium",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/rooms/rooms-scale.md",
+      "redirect_url": "/microsoftteams/rooms/console",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
@@ -132,8 +182,8 @@
     },
     {
       "source_path": "Teams/room-systems/room-systems-scale.md",
-      "redirect_url": "/MicrosoftTeams/rooms/rooms-scale",
-      "redirect_document_id": true
+      "redirect_url": "/microsoftteams/rooms/console",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/azure-monitor-deploy.md",
@@ -1547,7 +1597,7 @@
     },
     {
       "source_path": "Teams/direct-routing-ringback-bot.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/direct-routing-configure",
+      "redirect_url": "/microsoftteams/direct-routing-configure",
       "redirect_document_id": true
     },
     {
@@ -1768,7 +1818,7 @@
     {
       "source_path": "Teams/onboarding-test-plan-for-enterprises-phone-system.md",
       "redirect_url": "/MicrosoftTeams/cloud-voice-landing-page",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md",
@@ -2531,9 +2581,139 @@
       "redirect_document_id": false 
      },
      {
-      "source_path": "Teams/administrative-unit.md",
-      "redirect_url": "/MicrosoftTeams/",
+      "source_path": "Teams/business-voice/country-region-availability.md",
+      "redirect_url": "/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans",
       "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/business-voice/prepare-users.md",
+      "redirect_url": "/microsoftteams/business-voice/whats-business-voice",
+      "redirect_document_id": true 
+     },
+     {
+      "source_path": "Teams/business-voice/partner-resources.md",
+      "redirect_url": "https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/sharepoint-onedrive-interact.md",
+      "redirect_url": "/sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/live-components-in-teams.md",
+      "redirect_url": "/microsoftteams/loop-components-in-teams",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/business-voice/what-to-buy.md",
+      "redirect_url": "/microsoftteams/business-voice/whats-business-voice",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/devices/resource-account-ps.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/devices/resource-account-ui.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/rooms/with-exchange-on-premises.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/rooms/with-exchange-online.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id":false
+     },
+     {
+      "source_path": "Teams/get-teams-android-in-china.md",
+      "redirect_url": "/microsoftteams/get-clients",
+      "redirect_document_id": true 
+     },
+     {
+      "source_path": "Teams/private-channels-life-cycle-management.md",
+      "redirect_url": "/graph/api/resources/channel",
+      "redirect_document_id": false 
+     },
+      {
+      "source_path": "Teams/view-guests.md",
+      "redirect_url": "https://support.microsoft.com/office/5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/edit-guests-information.md",
+      "redirect_url": "/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/plan-Office-365-groups.md",
+      "redirect_url": "/microsoft-365/admin/create-groups/office-365-groups",
+      "redirect_document_id": false 
+     },
+     {
+       "source_path": "Teams/rooms/known-issues.md",
+       "redirect_url": "/microsoftteams/troubleshoot/Teams-devices-and-rooms/rooms-known-issues",
+       "redirect_document_id": false
+     },
+     {
+       "source_path": "Teams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md",
+       "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page",
+       "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/rooms-configure-accounts.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/lrs-migration.md",
+      "redirect_url": "/microsoftteams/rooms",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/domain-joining-considerations.md",
+      "redirect_url": "/microsoftteams/rooms",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/enable-features-office-365.md",
+      "redirect_url": "/microsoftteams/manage-teams-overview",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/teams-activity-reports.md",
+      "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
+      "redirect_document_id": false
+     },
+     {
+       "source_path": "Teams/meeting-recording-expiration-feature.md",
+       "redirect_url": "/microsoftteams/meeting-expiration",
+       "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/business-voice/create-a-phone-system-call-queue-smb.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/business-voice/create-a-phone-system-auto-attendant-smb.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/business-voice/set-up-auto-attendant.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/tutorial-calling-in-teams.yml",
+      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+      "redirect_document_id": false
      }
   ] 
 }

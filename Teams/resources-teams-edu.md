@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams: Resources for Education admins"
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams

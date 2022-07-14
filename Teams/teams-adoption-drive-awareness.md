@@ -1,7 +1,7 @@
 ---
 title: Drive awareness and implement training
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin

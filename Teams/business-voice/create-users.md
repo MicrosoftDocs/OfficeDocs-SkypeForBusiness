@@ -1,5 +1,5 @@
 ---
-title: Create Microsoft 365 users, add Business Voice licenses, and assign phone numbers
+title: Create Microsoft 365 users, add Teams Phone with Calling Plan bundle licenses, and assign phone numbers
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -8,33 +8,32 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn how to create and license Teams Phone System with Calling Plan bundle users and assign them phone numbers.
 appliesto: 
 - Microsoft Teams
 ---
 
-# Create and license Business Voice users and assign them phone numbers
+# Create and license Teams Phone System with Calling Plan bundle users and assign them phone numbers
 
-To use :::no-loc text="Microsoft 365 Business Voice":::, you need a :::no-loc text="Microsoft 365"::: account that has a :::no-loc text="Microsoft 365 Business Voice"::: license. When you have an account and license, you can assign a phone number to it.
+To use the Teams Phone System with Calling Plan bundle, you need a Microsoft 365 account that has Teams Phone with Calling Plan bundle licenses. When you have an account and licenses, you can start assigning phone numbers.
 
 ## Create and license users
 
 Follow the steps in [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) and [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
-> In the **Assign product licenses** pane,  select **:::no-loc text="Microsoft 365 Business Voice":::**.
+> In the **Assign product licenses** pane,  select **Teams Phone with Calling Plan**.
 
 ## Assign phone numbers to users
 
-After you create users and assigned them a :::no-loc text="Microsoft 365 Business Voice"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs to make or receive calls to or from external phone numbers. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
+After you create users and assigned them Teams Phone with Calling Plan bundle license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs to make or receive calls to or from external phone numbers. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
 
-1. Go to https://admin.teams.microsoft.com.
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
 2. Enter a name and description for the phone number request.
 3. Select **Voice** > **Phone numbers**.
 4. Select a phone number that you want to assign to a user, and then select **Edit**.
@@ -45,7 +44,7 @@ After you create users and assigned them a :::no-loc text="Microsoft 365 Busines
 
 If you don't have enough phone numbers to assign to new users, you can get more. It may take up to 24 hours for numbers that you order to become available.
 
-1. Go to https://admin.teams.microsoft.com.
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
 2. Enter a name and description for the phone number request.
 3. Select **Voice** > **Phone numbers** > **Add**.
 4. Choose the country or region for the phone number.
