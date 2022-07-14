@@ -34,6 +34,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
@@ -86,6 +87,14 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.12.139.0 (7/14/2022)
+
+Introduced in this update:
+- Change the version number to allow systems impacted by Windows [KB5013942](https://support.microsoft.com/en-us/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) to re-register the app so it will launch
+
+> [!NOTE]
+> Please refer to issue titled "⁠Teams Rooms app fails to start after update" for details. <Link>. There are no functional changes in this app version from 4.1.2.138.0. 
 
 ### 4.12.138.0 (5/26/2022)
 
