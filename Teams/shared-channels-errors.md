@@ -55,7 +55,7 @@ To check the inbound settings for your organization
 1. In [Azure Active Directory](https://aad.portal.azure.com), select **External Identities**, and then select **Cross-tenant access settings**.
 1. Select the inbound access link for the organization that you want to check.
 1. On the **B2B direct connect** tab, choose **Customize settings**.
-1. On the **External users and groups** tab, ensure that **Allow access** and **All external users and groups** are selected, or if you've chosen **Select external users and groups**, make sure that the users who are seeing the error message are members of the selected groups.
+1. On the **External users and groups** tab, ensure that **Allow access** and **All external users and groups** are selected, or if you've chosen **Select external users and groups**, make sure that the user being invited is a member of the selected groups.
 1. If you made changes, select **Save** and close the **Inbound access settings** blade.
 
 If users continue to see the error, check with the organization that they're collaborating with. That organization's outbound settings may disallow sharing with your organization. For information about setting up shared channels between organizations, see [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect).
