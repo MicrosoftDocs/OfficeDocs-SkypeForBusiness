@@ -126,7 +126,7 @@ Learn more about [configuring permission policies](teams-app-permission-policies
 
 #### Add Career Coach as an installed app
 
-This step ensures that Career Coach is properly configured for your institution and that students can find Career Coach.
+This step ensures Career Coach is properly configured for your institution and students can find Career Coach.
 
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
@@ -410,7 +410,7 @@ The following table shows the items to include in the fields of study:
 
 The Customization setting supports adding opportunities to gain real-world experiences to the dashboard that your educational institution offers to students.
 
-The recommended links to include are those that help students gain real-world experience, like job boards, events, career services office, career-related events, and student clubs.
+The recommended links to include should help students gain real-world experience, like job boards, events, career services office, career-related events, and student clubs.
 
 1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 

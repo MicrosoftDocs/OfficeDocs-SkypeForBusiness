@@ -58,7 +58,7 @@ If Career Coach isn't showing in Microsoft Teams for users, then the setup polic
 
 However, Career Coach can be installed directly from the Microsoft Teams app store.
 
-- If users are unable to find Career Coach in the Microsoft Teams app store, review your app permission policies and ensure that Career Coach isn't a blocked app.
+- If users are unable to find Career Coach in the Microsoft Teams app store, review your app permission policies, and ensure that Career Coach isn't a blocked app.
 - Career Coach is a Microsoft app, and it's a best practice to allow Microsoft apps by permission policies. Learn more about [configuring permission policies](teams-app-permission-policies.md).
 
 ## Career Coach initialization isn't complete
