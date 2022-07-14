@@ -1,7 +1,7 @@
 ---
 title: Education SKU reference
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
