@@ -117,12 +117,11 @@ No, you shouldn't rely on this for legal protection since end users can modify t
 
 #### Will a retention and/or deletion policy I've set in the Security & Compliance center override the Teams meeting recording expiration setting?
 
-Yes, any policies you have set in the compliance center will take full precedence.
-
-For example:
+The auto-expiration feature behaves just like a user deletion. See the below examples for further clarification:
 
 - If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a Teams meeting recording is 30 days, then the recording will be retained for the full 100 days.
 - If you have a deletion policy that says all Teams meeting recordings will be deleted after five days and you have an expiration setting for a Teams meeting recording of 30 days, then the recording will be deleted after five days.
+- If you have a deletion policy that says all Teams meeting recordings will be deleted after 60 days and yyou have an expiration setting for a Teams meeting recroding of 30 days, then the auto-expiration feature will delete it after 30 days.
 
 ### Will this feature enforce file retention?
 
