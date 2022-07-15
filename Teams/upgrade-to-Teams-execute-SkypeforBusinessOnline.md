@@ -39,7 +39,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 Follow the guidance in this article if you have wholly deployed Skype for Business Online and want to upgrade your users from Skype for Business to Teams. You can upgrade users selectively or all-in, based on the upgrade journey that your organization has chosen, by assigning the appropriate coexistence and upgrade mode to your users.
 
 > [!IMPORTANT]
-> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
+> Skype for Business Online was retired on July 31, 2021. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
 
 ## Assign the coexistence and upgrade mode
 
@@ -53,12 +53,12 @@ Follow these steps to upgrade all of your users to Teams at one time.
 
 ### Step 1: Notify the users of the change (optional)
 
-1. In the Microsoft Teams admin center, select **Org-wide settings** > **Teams upgrade**.
+1. In the Microsoft Teams admin center, select **Teams** > **Teams upgrade settings**.
 2. Under **Coexistence mode**, change the **Notify Skype for Business users that an upgrade to Teams is available** switch to **On**.
 
 ### Step 2: Set the coexistence mode to TeamsOnly for the organization
 
-1. In the Microsoft Teams admin center, select **Org-wide settings**.
+1. In the Microsoft Teams admin center, select **Teams** > **Teams upgrade settings**.
 2. Select **Teams Only** mode from the **Coexistence mode** drop-down list.
 
 ## Upgrade users in stages

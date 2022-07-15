@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Monitoring and Alerting 
-author: vaibhav
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -43,4 +43,5 @@ We continue adding to and improving the Teams monitoring experience by adding va
 
 |Rule  |Monitoring capability|What's monitored? |
 |---------|---------|---------|
-|[Device health status](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.|
+|App submissions  |Teams Apps | Pro-actively monitor Teams apps if they are submitted for approval.|
+|[Device state rule](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.|

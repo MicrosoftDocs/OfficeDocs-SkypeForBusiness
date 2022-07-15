@@ -1,7 +1,7 @@
 ---
 title: Country and region zones for Audio Conferencing
-ms.author: v-cichur
-author: cichur
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual

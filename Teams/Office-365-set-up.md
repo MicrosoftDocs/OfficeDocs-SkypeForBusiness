@@ -1,14 +1,14 @@
 ---
-title: Turn on Teams in your Microsoft 365 or Office 365
-author: SerdarSoysal
-ms.author: serdars
+title: Turn on Teams in your Microsoft 365
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Learn how to turn on Microsoft Teams for your Microsoft 365 or Office 365 organization, assign user licenses to control individual access, and allow or block content sources.
+description: Learn how to turn on Microsoft Teams for your Microsoft 365 organization.
 ms.localizationpriority: medium
 f1.keywords:
   - CSH
@@ -24,19 +24,6 @@ appliesto:
 
 # Turn on Teams in your organization
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+Microsoft Teams is turned on for all organizations. You can control access to Teams in your organization with user-level licensing. To learn more, see [Manage user access to Teams](user-access.md). To learn more about managing individual licenses, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
-By default, Teams is turned on for all organizations. If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview. 
-
-
-As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams. See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information. 
-
-
- 
-To learn more about managing individual licenses, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). 
-
- 
-## Turn Teams on or off for your entire organization 
- 
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams. See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information.

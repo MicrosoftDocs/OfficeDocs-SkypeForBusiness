@@ -1,8 +1,8 @@
 ---
-title: Admin training resources - Microsoft Teams
+title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -71,6 +71,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 7: Managing Microsoft Teams Rooms, Part 2 (41:06 min) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
 | Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Introduction to Microsoft Teams Rooms Managed Services |  | [Deck](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android devices</h2>
 
@@ -89,7 +90,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identity, Access management & Threat Protection for Teams                   | Learn how to use Microsoft admin centers and PowerShell to configure access and identity policies and Enable Office 365 Advanced Threat Protection for Teams                                                            | [Teams security guide](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Data Loss Prevention (DLP) Policies for Microsoft Teams                     | Learn how to add Microsoft Teams to an existing DLP policy, and how create a new policy, whether based on a template or fully customized to your organization's data protection needs.                        | [Teams DLP guide](https://aka.ms/teamsdlpguide)         |
+| Microsoft Purview Data loss prevention (DLP) Policies for Microsoft Teams                     | Learn how to add Microsoft Teams to an existing DLP policy, and how create a new policy, whether based on a template or fully customized to your organization's data protection needs.                        | [Teams DLP guide](https://aka.ms/teamsdlpguide)         |
 | Managing Compliance in Teams                                                | Use the Microsoft 365 Security, Microsoft 365 Compliance, and Microsoft Teams admin centers, as well as Windows PowerShell to manage and configure an Office 365 organization's Microsoft Teams policies and settings. | [Managing compliance in Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Advisor: Deploying chats, teams, channels and apps in Microsoft Teams | Learn how to use Teams advisor to assess your environment and build a plan for deploying chats, teams, channels, and apps.                                                                                         |  [Teams Advisor guide](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Streamlining Teams administration with PowerShell and dynamic groups        | Convert an Office 365 group from static membership to dynamic and use Windows PowerShell to assign a new App permission policy to all members.                                                                         |  [Streamlining Teams administration guide](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |

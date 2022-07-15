@@ -1,5 +1,5 @@
 ---
-title: "Availability in the Ukraine"
+title: "Availability in Ukraine"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -27,7 +27,7 @@ ms.custom:
 description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Ukraine."
 ---
 
-# Availability in the Ukraine
+# Availability in Ukraine
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
@@ -58,7 +58,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
 |Can make outbound calls to?  <br/> |Not applicable  <br/> |
 
-If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
+If Calling Plans are not available to purchase, see [PSTN connectivity options](../pstn-connectivity.md) for all available options.
    
 ## Toll and toll-free numbers for services
 

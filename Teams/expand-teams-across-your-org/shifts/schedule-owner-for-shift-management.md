@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to manage shift owners for schedule management. You can set a policy to elevate the permission of a team member to a schedule owner. 
 f1.keywords:
 - NOCSH
@@ -19,6 +20,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -28,7 +30,7 @@ ms.custom: seo-marvel-mar2020
 
 ## Overview
 
-Schedule Owner is a feature that lets you elevate the permissions of a team member to a schedule owner without making the employee a team owner. This means that the employee is authorized to manage their team’s schedule without being able to modify any other team properties such as updating, editing, or deleting team channels.
+The Schedule Owner feature lets you elevate the permissions of a team member so that they can manage schedules without making the employee a team owner. With Schedule Owner permissions, an employee can manage their team’s schedule without being able to modify any other team properties such as updating, editing, or deleting team channels.
 
 What can a user with schedule owner permissions do?
 

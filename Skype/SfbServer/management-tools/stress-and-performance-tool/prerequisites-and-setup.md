@@ -1,8 +1,8 @@
 ---
 title: "Prerequisites and setup for the Skype for Busines Stress and Performance Tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro

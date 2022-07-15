@@ -1,8 +1,8 @@
 ---
 title: "Hybrid wizard Move User"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/10/2015
 audience: ITPro

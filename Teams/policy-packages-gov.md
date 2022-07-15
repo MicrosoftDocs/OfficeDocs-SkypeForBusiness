@@ -1,7 +1,7 @@
 ---
 title: Teams policy packages for government
-author: cichur
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Machine External IPv6"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

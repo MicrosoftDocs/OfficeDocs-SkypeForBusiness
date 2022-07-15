@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn how to manage devices for Teams Phone System with Calling Plan.
 appliesto: 
 - Microsoft Teams
 ---

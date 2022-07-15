@@ -1,8 +1,8 @@
 ---
 title: "Configure Smart contacts list in Skype for Business clients"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

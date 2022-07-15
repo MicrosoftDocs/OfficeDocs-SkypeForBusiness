@@ -1,7 +1,7 @@
 ---
 title: Set up the Call me feature for your users
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: macai, phedry
 manager: serdars
 ms.topic: article

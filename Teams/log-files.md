@@ -37,22 +37,22 @@ This article describes these logs and how they are used. For information about t
 
 It’s important to collect logs as soon as an issue occurs. The logs can be collected together with just a couple of clicks.
 
-Windows:
-Right-click on the Teams icon in the system tray and choose **Collect support files**. 
+- Windows:
+  Right-click on the Teams icon in the system tray and choose **Collect support files**. 
 
-Mac:
-Select the Help menu and choose **Collect support files**.
+- Mac:
+  Select the Help menu and choose **Collect support files**.
 
-Debug, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local data and time\>_. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
+Debug, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local date and time\>_. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
 
-Windows:
-Ctrl + Alt + Shift + 1
+- Windows:
+  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
-Mac:
-Option + Command + Shift + 1
+- Mac:
+  <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
-Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin.
+Media logging is turned on by default only for some CPUs, described in [Media logs](#media-logs). Otherwise, it is off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin (restart it by right-clicking the icon in your dock (Mac) or taskbar (Windows) and selecting **Quit**. After you quit, just click the app icon to open it again).
 
 If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. This provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
 
@@ -61,12 +61,12 @@ If a problem occurs with a specific meeting or live event, it's helpful to have 
   
 > [!NOTE]
 > The debug logs were previously collecting using the keyboard shortcuts below. These still function and will complete the same log capture as the **Collect support files** option.
-
-> Windows:
-> Crtl + Alt + Shift + 1
-
-> Mac:
-> Option + Command + Shift + 1
+>
+> - Windows:
+>   <kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+>
+> - Mac:
+>   <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
 The following table outlines the various clients and their associated logs. Log files are stored in locations specific to the client and operating system.
@@ -96,48 +96,78 @@ Debug logs show the following data flows:
 -   Call/conversation
 
 To collect logs for Linux:
-      Keyboard shortcut: Ctrl + Alt + Shift + 1  
-      The files will be available in ~/Downloads
+- Keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- The files will be available in `~/Downloads`
 
 To collect logs for Browser and Windows:
-      Keyboard shortcut: Ctrl + Alt + Shift + 1  
-      The files will be available in %userprofile%\Downloads
+- Keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- The files will be available in `%userprofile%\Downloads`
+
+To collect logs for Mac:
+- Keyboard shortcut: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- The files will be available in `~/Downloads`
 
 ## Media logs
 
 See the _Collect and enable logging_ section for Windows and Mac instructions. Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
 
-Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. 
+Media logging is turned on by default for computers if your CPU is:
+- any Apple M1
+- any Intel Xeon
+- any Intel i9, except for the U, G7, M, and MQ series
+- any 6th generation and later Intel i7, except for the U, G7, M, and MQ series
+
+Otherwise, it is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. 
+
+> [!NOTE]
+> When you sign out of Teams, Media logging resets to its default. 
 
 When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
 To collect logs for Linux:  
-The files will be available in ~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog and ~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog.
+- The files will be available in the following locations:
+  - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
+  - `~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog`
 
 To collect logs for Windows:  
-The files will be available in %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog and %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog.  
+- The files will be available in the following locations:
+  - `%appdata%\Microsoft\Teams\media-stack\\\*\.blog`
+  - `%appdata%\Microsoft\Teams\skylib\\\*\.blog` 
+
+To collect logs for Mac:
+- The files will be available in the following locations:
+  - `~/Library/Application Support/Microsoft/Teams/media-stack\\\*\.blog`
+  - `~/Library/Application Support/Microsoft/Teams/skylib\\\*\.blog`
 
 Here's a list of the log files that are generated and the information they contain.
 
+<br/>
+
 |Log file name  |Description  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | Contains information related to the media stack. This includes channel status such as resolution, decoders and encoders used, and the number of frames sent and received, and camera and video-based screen sharing (VBSS) session status.         |
-|rtmcontrol.msrtc-0-2415069487.blog      |Records information related to remote control actions, such as the time stamp when control is given, and mouse pointer information.          |
-|Teams_MediaStackETW-2-U-xr-U.etl      |Records media stack trace events.         |
-|Debug-0-s2790420889.blog    | Contains information related to the media agent, including rendering quality.          |
-|tscalling-0-2061129496.blog   |Records events in the ts-calling API.       |
+|`Teams.msrtc-0-s1039525249.blog`     | Contains information related to the media stack. This includes channel status such as resolution, decoders and encoders used, and the number of frames sent and received, and camera and video-based screen sharing (VBSS) session status.         |
+|`rtmcontrol.msrtc-0-2415069487.blog`      |Records information related to remote control actions, such as the time stamp when control is given, and mouse pointer information.          |
+|`Teams_MediaStackETW-2-U-xr-U.etl`      |Records media stack trace events.         |
+|`Debug-0-s2790420889.blog`    | Contains information related to the media agent, including rendering quality.          |
+|`tscalling-0-2061129496.blog`   |Records events in the ts-calling API.       |
 
 ## Desktop logs
 
 See the _Collect and enable logging_ section for Windows and Mac instructions. Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top-down format.
 
 To collect logs for Linux:
-Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
-The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.
-  
+- Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
+- The files will be available in `~/.config/Microsoft/Microsoft Teams/logs.txt`.
+
+To collect logs for Mac:
+- Click the Help menu in Microsoft Teams, and select **Collect support files**.
+- The `logs.txt` file will be in the Desktop folder inside the _MSTeams Diagnostics Log \<local date and time>_ folder.
+
 To collect logs for Windows:
-Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
-The logs.txt file will be opened in Notepad automatically.    
+- Click the Microsoft Teams icon in your system tray, and select **Collect support files**.
+- The `logs.txt` file will be opened in Notepad automatically.
+
+When investigating problems signing into Teams, you might need to manually collect the desktop logs. These log files are located at %appdata%\Microsoft\Teams in Windows.
 
 ## Browser trace
 
@@ -162,14 +192,14 @@ After you’re signed in, select one of the following links, as appropriate for 
 WebRTC logs can assist Microsoft Support by providing connection details for audio and video calls. Follow the steps to access the WebRTC logs in Edge (Chromium) or Chrome: 
   
 1.  Open a new tab and go to one of the following URLs:
-    -   Edge (Chromium): "edge://webrtc-internals/"
-    -   Chrome: "chrome://webrtc-internals/"
+    -   Edge (Chromium): `edge://webrtc-internals/`
+    -   Chrome: `chrome://webrtc-internals/`
   
 2.  Open the Teams Web application and reproduce the problem.
   
 3.  Go back to the tab that was accessed in step 1 and you will see at least two tabs:
     -   GetUserMedia Requests
-    -   https://teams.microsoft.com/url
+    -   `https://teams.microsoft.com/url`
 
 4.  Choose the tab with the name of the Teams application and save the page content.
 

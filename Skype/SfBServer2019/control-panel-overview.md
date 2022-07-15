@@ -45,3 +45,48 @@ The new Control Panel includes commonly used menu items that cover most of the n
 |Device Configuration         |    [Device Configuration](use-powershell-client-menu.md#device-configuration)     |
 |Mobility Policy         |    [Mobility Policy](use-powershell-client-menu.md#mobility-policy)     |
 |Push Notification Configuration         |    [Push Notification Configuration](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## Security
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
+|Web Service      |  [Web Service](use-powershell-security-menu.md#web-service)       |
+|PIN Policy    | [PIN Policy](use-powershell-security-menu.md#pin-policy)        |
+
+## IM and Presence
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|File Filter         |    [File Filter](use-powershell-im-and-presence-menu.md#file-filter)     |
+|URL Filter      |  [URL Filter](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## Monitoring and Archiving
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|Call Detail Recording       |    [Call Detail Recording](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|Quality of Experience Data      |  [Quality of Experience Data](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|Archiving Policy       |    [Archiving Policy](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|Archiving Configuration      |  [Archiving Configuration](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## Network Configuration
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|Location Policy       |    [Location Policy](use-powershell-network-configuration-menu.md#location-policy)     |
+|Bandwidth Policy      |  [Bandwidth Policy](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|Region       |    [Region](use-powershell-network-configuration-menu.md#region)     |
+|Site      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|Subnet      |  [Subnet](use-powershell-network-configuration-menu.md#subnet)       |
+|Region Link       |    [Region Link](use-powershell-network-configuration-menu.md#region-link)     |
+|Region Route      |  [Region Route](use-powershell-network-configuration-menu.md#region-route)       |
+
+## Topology
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|Status       |    [Status](use-powershell-topology-menu.md#status)     |
+|Server Application      |  [Server Application](use-powershell-topology-menu.md#server-application)       |
+|Simple URL       |    [Simple URL](use-powershell-topology-menu.md#simple-url)     |
+|Trusted Application       |    [Trusted Application](use-powershell-topology-menu.md#trusted-application)     |

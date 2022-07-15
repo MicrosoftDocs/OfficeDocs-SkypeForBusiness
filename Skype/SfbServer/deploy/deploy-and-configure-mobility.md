@@ -1,8 +1,8 @@
 ---
 title: "Deploy and Configure Mobility for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -312,7 +312,7 @@ We have two main things to consider:
     
    - **Accept requests**, but it should be for the domain name.
     
-   - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL). Now, if you're creating a rule for the external Web Services URL on the Front End pool, you'll need to type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).
+   - For the **Name**, you should enter **lyncdiscover.**\<sipdomain> (this is the external Autodiscover Service URL). Now, if you're creating a rule for the external Web Services URL on the Front End pool, you'll need to type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).
     
    - There will be a **Path** option, and you'll need to enter **/\\*** here.
     
@@ -358,7 +358,7 @@ We have two main things to consider:
     
    - **Accept requests**, but it should be for the domain name.
     
-   - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL).
+   - For the **Name**, you should enter **lyncdiscover.**\<sipdomain> (this is the external Autodiscover Service URL).
     
    - There will be a **Path** option, and you'll need to enter **/\\*** here.
     
@@ -458,7 +458,7 @@ For Lync Server 2010 clients on Skype for Business Server 2015, you'll need to r
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-To review the command procedures further, you can check out [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) and [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
+To review the command procedures further, you can check out [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) and [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim).
   
 ## Configure for push notifications
 <a name="ConfigPush"> </a>
@@ -587,7 +587,7 @@ For users to be able to use Call via Work, they'll also need to be:
     > [!NOTE]
     > You can turn off Call via Work without turning off access to Mobility. But you can't turn off Mobility without also turning off Call via Work. 
   
-    For more info, check out [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps).
+    For more info, check out [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy).
     
 ### Modify Mobility policy by site
 
@@ -601,7 +601,7 @@ For users to be able to use Call via Work, they'll also need to be:
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    Learn more at [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+    Learn more at [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy).
     
 ### Modify Mobility policy by user
 

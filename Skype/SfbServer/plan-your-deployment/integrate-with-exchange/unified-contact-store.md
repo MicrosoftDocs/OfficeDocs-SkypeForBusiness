@@ -1,8 +1,8 @@
 ---
 title: "Plan for unified contact store in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 6/8/2017
 audience: ITPro

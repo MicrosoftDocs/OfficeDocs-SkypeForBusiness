@@ -1,7 +1,7 @@
 ---
 title: Drive awareness and implement training
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin

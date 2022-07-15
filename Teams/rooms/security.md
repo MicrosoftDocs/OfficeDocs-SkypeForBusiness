@@ -77,14 +77,17 @@ The Admin account isn't required for proper operation of Teams Rooms devices and
 
 You can also import domain accounts into the local Windows Administrator group. You can do this for Azure AD accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
+> [!NOTE]
+> If you are using Crestron consoles, be sure to also update the Admin password on the console as well as on the compute module. For more information, contact Crestron.
+
 > [!CAUTION]
 > If you delete or disable the Admin account before granting local Administrator permissions to another local or domain account, you may lose the ability to administer the Teams Rooms device. If this happens, you'll need to reset the device back to its original settings and complete the setup process again.
->
-> Don't grant local Administrator permissions to the Skype user account.
+
+Don't grant local Administrator permissions to the Skype user account.
 
 Windows Configuration Designer can be used to create Windows 10 provisioning packages. Along with changing the local Admin password, you can also do things like changing the machine name and enrolling into Azure Active Directory. For more information on creating a Windows Configuration Designer provisioning package, see [Provisioning packages for Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
 
-You need to create a resource account for each Teams Rooms device so that it can sign into Teams. You can't use two-factor or multi-factor authentication with this account. Requiring a second factor would prevent the account from being able to automatically sign into the Teams Rooms app after a reboot. However, you can enable Modern Authentication for additional security for this account. In addition, location based Conditional Access policies can be deployed for the resource account to prevent signing into the account from an unapproved location. For more information, see [Using the location condition in a Conditional Access policy](/azure/active-directory/conditional-access/location-condition)
+You need to create a resource account for each Teams Rooms device so that it can sign into Teams. You can't use two-factor or multi-factor authentication with this account. Requiring a second factor would prevent the account from being able to automatically sign into the Teams Rooms app after a reboot. However, you can enable Modern Authentication for additional security for this account. In addition, Azure Active Directory Conditional Access policies and Intune Compliance Policies can be deployed to secure the resource account. For more information, see [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md) and [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md)
 
 We recommend that you create the resource account in Azure AD, if possible. While a synced account can work with Teams Rooms in hybrid deployments, these synced accounts often have difficulty signing into Teams Rooms and can be difficult to troubleshoot. If you choose to use a third-party federation service to authenticate the credentials for the resource account, ensure the third-party IDP responds with the `wsTrustResponse` attribute set to `urn:oasis:names:tc:SAML:1.0:assertion`.
 
@@ -95,7 +98,7 @@ Generally, Teams Rooms has the same network requirements as any Microsoft Teams 
 - **Microsoft Teams** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
-- **Microsoft Intune** [Network Enpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
+- **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
 If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the following URLs:
 

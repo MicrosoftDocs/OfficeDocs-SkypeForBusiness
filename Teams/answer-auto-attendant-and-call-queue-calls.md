@@ -42,8 +42,10 @@ The following illustration shows how an incoming call from an auto attendant or 
 Once an auto attendant or call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user's configuration.
 
 > [!NOTE] 
-> Call queue calls are not forwarded based on the user's configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
-
+> Call queue calls are not forwarded based on the user's call answering rules configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
+>
+> Users receiving calls from auto attendants and call queues will only be presented with the name of the caller if it's provided from the PSTN or if the caller's number matches the target user's local Team's client contacts.
+>
 > Agents are not notified of any missed calls or voicemails for call queue calls.
 
 ## Supported clients
@@ -63,7 +65,7 @@ To receive auto attendant and call queue calls on Microsoft Teams, you need to c
 
 ## Known Issues
 
-When a call queue agents receives a call on their mobile device, calls may go on hold if the device is locked. User must unlock device first and then answer the call.
+When a call queue agent receives a call on their mobile device, the call may go on hold if the device is locked. Users must unlock the device first and then answer the call.
 
 
 ## Related topics

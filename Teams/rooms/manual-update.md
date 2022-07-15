@@ -24,7 +24,7 @@ The Microsoft Teams Rooms app is distributed through the Microsoft Store. Update
 If you can't get updates from the Microsoft Store, you can use an offline app update PowerShell script to manually update your Teams Rooms devices to a newer version of the Teams Rooms app. Follow the steps in this article to manually update your Teams Rooms devices.
 
 > [!NOTE]
-> This process can only update a Teams Rooms device with the Teams Rooms app already installed. It can't be used to perform a new installation. It also can't be used to downgrade the app to an older version. To perform a new installation of the Teams Rooms app, contact your device's manufacturer for media specific to it, or see [Prepare the installation media](console.md#prepare-the-installation-media).
+> This process can only update a Teams Rooms device with the Teams Rooms app already installed. It can't be used to perform a new installation. It also can't be used to downgrade the app to an older version. To perform a new installation of the Teams Rooms app, contact your device's manufacturer for media specific to it.
 
 ## Step 1: Download the offline app update script
 
@@ -43,7 +43,7 @@ After the offline app update script is downloaded, transfer the file to the Team
 
 ## Step 2: Run the script to update the Teams Rooms app
 
-The offline app update script needs to be run from an elevated command prompt while the Skype user (the user under which the app runs) is still signed in. For more information about how to log into an admin account to use the elevated command prompt while the Skype user is still logged in, see [Switching to Admin Mode and back when the Microsoft Teams Rooms app is running](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
+The offline app update script needs to be run from an elevated command prompt while the Skype user (the user under which the app runs) is still signed in. For more information about how to log into an admin account to use the elevated command prompt while the Skype user is still logged in, see [Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes).
 
 Do the following to run the script from an elevated command prompt:
 

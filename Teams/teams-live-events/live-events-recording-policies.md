@@ -1,7 +1,7 @@
 ---
 title: Live events recording policies
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -56,7 +56,7 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 | Recording available for attendees | Selected     | DVR is available and the Azure Media Services (AMS) asset is stored for 180 days | Attendee can access and watch the event                     |                              |
 |                                                  | Not Selected | DVR is available and the AMS asset is stored for 180 days | Attendee won't get access into the event after it's over |                              |
 ||Disabled (Not selected)|DVR is available and the AMS asset is deleted after the event|Attendee won't get access into the event after it's over||
-| Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored |
+| Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored for 180 days |
 |                                                  | Not Selected |                                                           |                                                             | No file is created           |
 
 ### Related topics

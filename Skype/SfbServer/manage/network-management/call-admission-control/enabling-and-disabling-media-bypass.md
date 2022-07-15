@@ -1,8 +1,8 @@
 ---
 title: 'Enabling and disabling media bypass'
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -41,7 +41,7 @@ You can enable and configure media bypass from the Skype for Business Server Con
 
 7.  Select one of the following options:
     
-      - **Always bypass**   Select this option to attempt media bypass on all calls. This option will be unavailable if call admission control (CAC) is enabled. If CAC is not enabled, select this option in the following situations:
+      - **Always bypass**   Select this option to attempt media bypass on all calls. This option will be unavailable if call admission control (CAC) is enabled. If CAC is not enabled, select this option in the following situations:
         
           - There is no need for bandwidth control.
         
@@ -49,7 +49,7 @@ You can enable and configure media bypass from the Skype for Business Server Con
         
           - There is full connectivity between gateways and clients.
     
-      - **Use sites and region configuration**   If CAC is enabled, this option is selected by default and cannot be changed. When this option is selected, network configuration sites and regions will be used to determine when media bypass is possible. If you select this option, you can choose to enable bypass for sites that are not mapped. Click the **Enable bypass for non-mapped sites** check box only if you have one or more large sites associated with the same region that do not have bandwidth constraints (for example, a large central site) and you also have some branch sites associated with the same region that do have bandwidth constraints. When you enable bypass for non-mapped sites, configuration is streamlined because you specify only the subnets associated with the branch sites rather than needing to specify all subnets associated with all sites. We recommend that you do not select the **Enable bypass for non-mapped sites** check box if CAC is enabled.
+      - **Use sites and region configuration**   If CAC is enabled, this option is selected by default and cannot be changed. When this option is selected, network configuration sites and regions will be used to determine when media bypass is possible. If you select this option, you can choose to enable bypass for sites that are not mapped. Click the **Enable bypass for non-mapped sites** check box only if you have one or more large sites associated with the same region that do not have bandwidth constraints (for example, a large central site) and you also have some branch sites associated with the same region that do have bandwidth constraints. When you enable bypass for non-mapped sites, configuration is streamlined because you specify only the subnets associated with the branch sites rather than needing to specify all subnets associated with all sites. We recommend that you do not select the **Enable bypass for non-mapped sites** check box if CAC is enabled.
 
 8.  Click **Commit** to save your changes.
 

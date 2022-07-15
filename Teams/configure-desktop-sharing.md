@@ -1,7 +1,7 @@
 ---
 title: Configure desktop sharing in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
@@ -65,7 +65,7 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 ## Use PowerShell to configure shared desktop
 
-You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing. Set the following parameters:
+You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to control desktop sharing. Set the following parameters:
 
 - Description
 - ScreenSharingMode
@@ -76,4 +76,4 @@ You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-cst
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy).

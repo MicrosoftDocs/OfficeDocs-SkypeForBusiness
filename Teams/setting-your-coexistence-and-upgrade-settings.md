@@ -35,7 +35,7 @@ You can get a better understanding of the modes that are available to you by rea
 
  **Using the Microsoft Teams admin center**
 
-1. In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), in the left navigation, go to **Org-wide settings** > **Teams upgrade**. 
+1. In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), in the left navigation, go to **Teams** > **Teams upgrade settings**. 
 
 2. At the top of the **Teams upgrade** page, modify the following options as desired.
 
@@ -47,7 +47,7 @@ You can get a better understanding of the modes that are available to you by rea
         - **Teams only** - Use this setting if you want your users to use only Teams. Note that even with this setting, users can still join meetings hosted in Skype for Business.
 
           > [!IMPORTANT]
-          > You can only assign TeamsOnly mode to the entire tenant after both of the following steps ahve been completed:
+          > You can only assign TeamsOnly mode to the entire tenant after both of the following steps have been completed:
           >  - All on-premises users have been moved to Teams Only using Move-CsUser in the Skype for Business Server on-premises toolset.
           >  - You have updated any Skype for Business DNS records to point to Microsoft 365. 
           >
@@ -59,7 +59,7 @@ You can get a better understanding of the modes that are available to you by rea
       - **Skype Meetings app**
       - **Skype for Business with limited features**
 
-    - Set whether to **Download the Teams app in the background for Skype for Business users**.  This setting silently downloads the Teams app for users running Skype for Business on Windows. It is honored only if coexistence mode for the user is Teams only or if notifications of pending upgrade are enabled in Skype for Business.
+    - Set whether to **Download the Teams app in the background for Skype for Business users**. This setting silently downloads the Teams app for users running Skype for Business on Windows. It is honored only if coexistence mode for the user is Teams only or if notifications of pending upgrade are enabled in Skype for Business.
 
 3. Click **Save** after you make your changes.
 
@@ -67,7 +67,7 @@ You can get a better understanding of the modes that are available to you by rea
 
  **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Users**, and then select the user from the list. 
+1. In the left navigation, go to **Users** > **Manage users**, and then select the user from the list. 
 2. On the **Account** tab for the user, under **Teams upgrade**, click **Edit**.
 3. You can set the **Coexistence mode**. Modes other than Teams Only can only be applied to users homed in Skype for Business Server on-premises, and conversely only users homed in the cloud can have TeamsOnly mode.  Choose from the following options:
      - **Use Org-wide settings** - Use this setting if you want the user to use the settings in the **Org-wide** settings. 

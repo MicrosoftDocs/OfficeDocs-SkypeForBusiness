@@ -32,15 +32,15 @@ ms.custom:
 
 Microsoft Teams offers a number of telemedicine features useful for hospitals and other Healthcare organizations. Teams features are under development to aid hospitals with:
 
-- Virtual visits and Electronic Healthcare Record (EHR) integration
+- Virtual appointments and Electronic Healthcare Record (EHR) integration
 - Teams policy packages
 - Secure messaging
 - Teams templates
 - Care coordination and collaboration
 
-This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](/industry/healthcare).
+This functionality is part of Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](/industry/healthcare).
 
-Watch the following video to learn more about using the healthcare collection to enhance health team collaboration in Microsoft Teams.
+Watch the following video to learn more about using the healthcare collection to enhance health team collaboration in Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
@@ -51,8 +51,8 @@ The following scenarios are available for healthcare organizations:
 
 | Scenario | Description | Requirements |
 | -------- | -------- | -------- |
-| [Virtual visits with Electronic Healthcare Record (EHR) integration](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario connects Microsoft Teams and the Epic platform to support virtual visits. | Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer. <br> Users must have an appropriate Microsoft 365 or Office 365 license that includes Microsoft Teams meetings*. <br> Organizations must have with Epic version November 2018 or later. <br>[Details for EHR requirements](ehr-admin.md#before-you-begin) |
-| [Virtual visits with Microsoft Bookings and the Bookings app](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario relies on Microsoft Bookings to support virtual visits. | Microsoft Bookings must be turned on for the organization. <br> All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling*. <br>[Details for Bookings requirements](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [Virtual appointments with Electronic Healthcare Record (EHR) integration](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual appointments with patients. This scenario connects Teams and the Cerner or Epic platform to support virtual appointments. | Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR connector standalone offer. <br> Users must have an appropriate Microsoft 365 or Office 365 license that includes Teams meetings*. <br> Organizations must have Cerner version November 2018 or later or Epic version November 2018 or later. <br>Details for [Cerner EHR](ehr-admin-cerner.md#before-you-begin) and [Epic EHR](ehr-admin.md#before-you-begin) requirements |
+| [Virtual appointments with Microsoft Bookings and the Bookings app](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual appointments with patients. This scenario relies on Microsoft Bookings to support virtual appointments. | Microsoft Bookings must be turned on for the organization. <br> All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling*. <br>[Details for Bookings requirements](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
 | [Teams policy packages](#teams-policy-packages)| Ensure that clinical workers, information workers, and patient room devices have the appropriate access to Teams functionality.| Users must have an appropriate license*. |
 | [Secure messaging](#secure-messaging) | Get quicker attention to urgent messages and have confidence that the message was received and read. | Users must have an appropriate license*.  |
 | [Teams templates](#teams-templates-for-healthcare-organizations) | Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within a ward, pod, or department, or between multiple wards, pods, and departments within a hospital. | Users must have an appropriate license*.  |
@@ -60,14 +60,14 @@ The following scenarios are available for healthcare organizations:
 
 *Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, and E5, Business Standard are supported. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md).
 
-## Virtual visits and Electronic Healthcare Record (EHR) integration
+## Virtual appointments and Electronic Healthcare Record (EHR) integration
 
-Use the complete meetings platform in Microsoft Teams to schedule, manage, and conduct virtual visits with patients.
+Use the complete meetings platform in Teams to schedule, manage, and conduct virtual appointments with patients.
 
-- If your organization already uses Electronic Health Records, or EHR, you can integrate Microsoft Teams for a more seamless experience. Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual visits with Teams - Integration into EHR](ehr-admin.md).
-- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Virtual visits with Teams and the Bookings app](../bookings-virtual-visits.md).
+- If your organization already uses Electronic Health Records, or EHR, you can integrate Teams for a more seamless experience. Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient appointment or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual appointments with Teams - Integration into Cerner EHR](ehr-admin-cerner.md) and [Virtual appointments with Teams - Integration into Epic EHR](ehr-admin.md).
+- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Virtual appointments with Teams and the Bookings app](../bookings-virtual-visits.md).
 
-![Virtual visits with Microsoft Teams.](../../media/virtual-visits-teams.png)
+![Virtual appointments with Microsoft Teams.](../../media/virtual-visits-teams.png)
 
 ## Teams policy packages
 
@@ -98,11 +98,11 @@ New templates for creating Teams were developed to apply to a Hospital setting, 
 
 ## Care coordination and collaboration
 
-Bring your health team together to coordinate care and collaborate with Microsoft Teams.
+Bring your health team together to coordinate care and collaborate with Teams.
 
 ![Healthcare: Collaborate with your health team in Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Microsoft Teams enables physicians, clinicians, nurses, and other staff to collaborate efficiently with included collaboration features in Microsoft Teams, such as:
+Teams enables physicians, clinicians, nurses, and other staff to collaborate efficiently with included collaboration features in Teams, such as:
 
 - Set up teams and channels for your health teams and information workers. Use channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources.
 - Chat, post messages, and communicate. Your team can have persistent conversations about different patients needing attention.
@@ -147,7 +147,7 @@ You can allow the Approvals app for your organization and add it to your teams. 
 
 ### Create, manage, and share schedules with the Shifts app and Frontline Worker integration
 
-Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, Nurse managers can set up and coordinate schedules for their staff, and nurses can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
+Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, Nurse managers can set up and coordinate schedules for their staff, and nurses can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
 
 To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
@@ -157,4 +157,4 @@ There are many resources available to help all of the users in your organization
 
 - Visit the [Teams adoption center](https://adoption.microsoft.com/microsoft-teams/) for advice on rolling out Teams if you are just starting your organization's journey with Teams, or expanding Teams into more areas of your organization.
 - Consider setting up custom [learning pathways](https://adoption.microsoft.com/microsoft-365-learning-pathways/) for your users to cover just the tasks they need to do.
-- Get help and training for your users on how to perform basic tasks in Microsoft Teams on the [Teams support site](https://support.microsoft.com/teams), including [quick training videos](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). This site also has help and training for the Teams apps, including [Lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db), [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070), [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3), [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b), and [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).
+- Get help and training for your users on how to perform basic tasks in Teams on the [Teams support site](https://support.microsoft.com/teams), including [quick training videos](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). This site also has help and training for the Teams apps, including [Lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db), [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070), [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3), [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b), and [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).

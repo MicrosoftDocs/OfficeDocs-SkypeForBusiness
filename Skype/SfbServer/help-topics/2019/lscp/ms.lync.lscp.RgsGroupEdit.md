@@ -1,8 +1,8 @@
 ---
 title: "Response Groups Create New or Edit Existing Agent Group"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

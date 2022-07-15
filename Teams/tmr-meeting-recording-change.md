@@ -1,7 +1,7 @@
 ---
 title: Use OneDrive for Business and SharePoint for meeting recordings
-author: cichur
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -65,7 +65,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
 > [!Note]
 > Teams meeting policy changes take a while to propagate. Check back after a few hours of setting it, then sign out and sign in to the Teams Desktop app again or simply restart your computer.
 
-1. Install Teams PowerShell PowerShell.
+1. Install Teams PowerShell.
 
    > [!NOTE]
    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector. See [Manage Skype for Business Online with PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
@@ -93,13 +93,6 @@ The meeting recording option is a setting at the Teams policy level. The followi
 > [!Note]
 > If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-overview.md).
 
-## Opt out of OneDrive for Business and SharePoint to continue using Stream
-
-Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive for Business, then you must reset the policy to **Stream** to ensure that **Stream** is the default.
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
-```
 
 ## Permissions or role-based access
 
@@ -174,7 +167,7 @@ Your video will play on the video player of OneDrive for Business or SharePoint 
 
 **If you plan on deprecating adding to Stream, will existing videos stay as is and for how long?**
 
-Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [Stream classic migration](/stream/streamnew/classic-migration) for more information.
+Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [Migration details](/stream/streamnew/migration-details) for more information.
 
 **How do I apply a retention label to Microsoft Teams meeting recordings?**
 

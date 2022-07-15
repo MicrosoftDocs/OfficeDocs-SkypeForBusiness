@@ -27,6 +27,25 @@ The Microsoft Teams Rooms managed service is for organizations looking to improv
 
 The Microsoft Teams Rooms managed service is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, machine learning, and intelligent automation. The Microsoft Teams Rooms managed service helps organizations deliver a high-quality experience across multiple remote sites and can accommodate any pace of growth an organization might require.
 
+These are three key aspects of the service:  
+
+- Intelligent operations  
+
+   Software and machine learning that automates updates, problem detection, problem resolution for Microsoft Teams Rooms.  
+
+
+
+- Dedicated experts  
+
+   A team of experts who provide 24x7 service operations, tiered support, and incident resolution assistance.  
+
+
+
+- Enhanced insights  
+
+   Rich analytics, reporting and proven learnings at scale across many customers.  
+
+
 ## Service capabilities
 
 Here's an overview of the capabilities of the Microsoft Teams Rooms managed service.
@@ -86,7 +105,13 @@ For more details on the Microsoft Teams Rooms managed service support coverage, 
 
 ## Supported regions
 
-The Microsoft Teams Rooms Premium license is available in all countries and regions where Microsoft 365 is available. For a complete list of countries and regions, see [Microsoft 365 international availability](https://www.microsoft.com/microsoft-365/business/international-availability).
+The Microsoft Teams Rooms Premium license is available in the following countries with audio-conferencing:
+
+- Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hong Kong SAR, Hungary, Ireland, Italy, Japan, Latvia, Lithuania, Luxembourg, Malta, Mexico, Monaco, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Russia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, United Kingdom, United States.
+
+The Microsoft Teams Rooms Premium license is available in the following countries without audio-conferencing:
+
+- Andorra, Bouvet Island, Christmas Island, Cocos (Keeling) Islands, Cook Islands, Faroe Islands, Fiji, Gibraltar, Greenland, Heard Island and McDonald Islands, Iceland, India, Kiribati, Lesotho, Liechtenstein, Macao SAR, Marshall Islands, Micronesia, Nauru, Niue, Norfolk Island, Northern Mariana Islands, Palau, Papua New Guinea, Pitcairn Islands, Saint Pierre and Miquelon, Samoa, San Marino, Solomon Islands, Swaziland, Tokelau, Tonga, Tuvalu, Vanuatu, Vatican City, Wallis and Futuna.
 
 ## Support inclusions and exclusions
 

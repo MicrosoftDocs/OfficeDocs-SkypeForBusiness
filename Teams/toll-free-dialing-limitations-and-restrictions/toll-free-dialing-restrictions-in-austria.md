@@ -1,7 +1,7 @@
 ---
 title: "Toll-free dialing restrictions in Austria"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference

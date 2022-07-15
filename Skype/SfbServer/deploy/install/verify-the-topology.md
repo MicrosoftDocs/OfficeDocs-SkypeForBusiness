@@ -1,8 +1,8 @@
 ---
 title: "Verify the topology in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: "Summary: Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected."
 ---
 
 # Verify the topology in Skype for Business Server
  
-**Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected.
   
 After you have the topology published and the Skype for Business Server system components installed on each of the servers in the topology, you are ready to verify that the topology is working as expected. This includes verifying that the configuration has propagated out to all of the Active Directory servers so that the entire domain knows Skype for Business is available in the domain. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Verifying the topology is step 8 of 8.
   
@@ -85,7 +85,7 @@ The final step is to test the Front End pool and confirm that Skype for Business
     
      ![Enable users in Control Panel.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
-11. A summary page is displayed that shows a check mark in the **Enabled** column to indicate that the users are setup. The **SIP address** column displays the address you need for the user sign-in configuration.
+11. A summary page is displayed that shows a check mark in the **Enabled** column to indicate that the users are set up. The **SIP address** column displays the address you need for the user sign-in configuration.
     
      ![Users added to Skype for Business Server Control Panel.](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   

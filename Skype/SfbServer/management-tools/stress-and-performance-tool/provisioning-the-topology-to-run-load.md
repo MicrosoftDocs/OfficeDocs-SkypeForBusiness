@@ -1,8 +1,8 @@
 ---
 title: "Provisioning the topology to run load in Stress and Performance scenarios"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro

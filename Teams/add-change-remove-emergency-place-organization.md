@@ -16,13 +16,19 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: "Learn how to add, change, or remove a place for an emergency location for your organization in the Microsoft Teams admin center."
+description: "Learn how to add, change, or remove a place for an emergency location for your organization."
 ms.custom: seo-marvel-mar2020
 ---
 
 # Add, change, or remove a place for an emergency location in your organization
 
-Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location. See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) for more information.
+Depending on the number of physical locations in your organization, you can add *places* for buildings, floors, and offices to create a more specific emergency location.
+
+Depending on your PSTN connectivity option, however, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
+This article describes how to add, change, or remove a *place* for an emergency location for your organization.
+
+This article applies to Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
@@ -66,6 +72,7 @@ See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelisloca
     
 ## Related topics
 
-- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)

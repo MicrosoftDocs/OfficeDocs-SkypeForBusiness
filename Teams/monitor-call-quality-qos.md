@@ -1,7 +1,7 @@
 ---
 title: Monitor and improve call quality for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-# Microsoft Teams: Monitor and improve call quality
+# Monitor and improve call quality for Microsoft Teams
 
 This article introduces three key tools you can use to monitor, troubleshoot, manage, and improve call quality in Microsoft Teams. 
 

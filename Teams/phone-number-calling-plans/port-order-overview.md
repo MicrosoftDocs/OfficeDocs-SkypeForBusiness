@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: v-cichur
-author: cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -52,7 +52,8 @@ In general, you can transfer any phone number that's from a supported provider, 
 - Toll-free phone numbers.
 
     > [!NOTE]
-    > Universal International Freephone Number (UIFN) can't be transferred to us. 
+    > Universal International Freephone Number (UIFN) can't be transferred to us.
+    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service. 
   
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
 
@@ -60,12 +61,12 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
 
-- Skype for Business hybrid phone numbers. If you want to transfer these numbers, email us at <ptn@microsoft.com>.
+- If you are porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans) please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), make sure you include a note stating those are hybrid phone numbers.
 
-  **You can't transfer:**
+**You can't transfer:**
   
-    > [!NOTE]
-    > At this time, you can't transfer any phone number or numbers that aren't from a supported country or region, including phone numbers from a VoIP phone provider. For a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> At this time, you can't transfer any phone number or numbers that aren't from a supported country or region, including phone numbers from a VoIP phone provider. For a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Phone numbers used for data connections like for DSL lines or broadband Internet connections.
 
@@ -75,8 +76,8 @@ In general, you can transfer any phone number that's from a supported provider, 
 
     If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.
 
-    > [!NOTE]
-    > At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.
+> [!NOTE]
+> At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.
   
 ## What information do I need to provide?
 
@@ -131,7 +132,7 @@ To check the status of your port order, in the left navigation of the Microsoft 
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## Can I port out my numbers from Teams to a different phone service provider or carrier?
 
@@ -140,6 +141,8 @@ To port out your numbers from Teams to a different carrier, you must submit a re
 To define your porting PIN, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, on the upper-right corner of the page, select **Manage porting PIN**, and then enter a 10-digit PIN.
 
 When your new carrier contacts us with the porting request, we'll ask them to provide the PIN you defined.
+
+If you need further assitance setting up a PIN please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>

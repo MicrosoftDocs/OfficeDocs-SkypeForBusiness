@@ -1,7 +1,7 @@
 ---
 title: Manually submit a port order
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -28,11 +28,11 @@ Use the steps in this article to manually submit a port order if your country or
 
 ## Manually submit a new port order request
 
-To manually submit a new port order, send your completed Letter of Authorization (LOA) form directly to the PSTN service desk for your region.
+To manually submit a new port order, send your completed Letter of Authorization (LOA) form directly to the TNS service desk for your region.
 
 1. Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for your country or region.
 2. Complete the form.
-3. Send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region.
+3. Send it to the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for your region.
 
 ## What else should you know about number porting
 

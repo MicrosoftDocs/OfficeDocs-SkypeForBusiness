@@ -22,9 +22,13 @@ ms.custom: seo-marvel-apr2020
 
 # Assign or change an emergency location for a user
 
-An emergency location needs to be assigned to each phone number or user. For more information about emergency addresses and locations, see [What are emergency locations, places, and call routing?](./what-are-emergency-locations-addresses-and-call-routing.md).
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, or Direct Routing&mdash;an emergency location needs to be assigned to each phone number or user.
 
-For Microsoft Calling Plans, in European countries, the emergency location is associated with the phone number when you get it from Microsoft 365 or when you transfer a phone number over to Microsoft 365. In the United States, the emergency location is associated with the phone number when it's assigned to the user. The emergency address can be changed if the user that it's assigned to moves to a new location.
+Depending on your PSTN connectivity option, however, how you manage and assign emergency locations for a user may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
+This article describes how to assign or change an emergency location for a user. 
+
+This article applies to Calling Plans and Operator Connect.
   
 You can assign or change an emergency location for a user in the Microsoft Teams admin center or by using PowerShell.
 
@@ -46,15 +50,14 @@ You can assign or change an emergency location for a user in the Microsoft Teams
 
 ## Using PowerShell
 
-See [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser). 
+See [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). 
 
     
 ## Related topics
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
-- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Assign or change a place for an emergency location for a user](assign-change-emergency-place-user.md)
+- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)

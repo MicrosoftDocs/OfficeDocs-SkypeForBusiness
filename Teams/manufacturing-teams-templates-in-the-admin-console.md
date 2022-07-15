@@ -1,8 +1,8 @@
 ---
 title: Get started with manufacturing team templates in the admin center
-author: cichur
-ms.author: v-cichur
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams

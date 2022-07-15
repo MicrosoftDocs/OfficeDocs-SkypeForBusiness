@@ -1,7 +1,7 @@
 ---
 title: Mask phone numbers in Microsoft Teams meetings 
-author: cichur
-ms.author: v-cichur
+author: heidip
+ms.author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: moakram 
 ms.topic: article

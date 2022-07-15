@@ -31,9 +31,9 @@ This article describes the following meeting policy settings related to content 
 - [Screen sharing mode](#screen-sharing-mode)
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
 - [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
-- [Allow PowerPoint sharing](#allow-powerpoint-sharing)
-- [Allow whiteboard](#allow-whiteboard)
-- [Allow shared notes](#allow-shared-notes)
+- [PowerPoint Live](#powerpoint-live)
+- [Whiteboard](#whiteboard)
+- [Shared notes](#shared-notes)
 
 ## Screen sharing mode
 
@@ -95,39 +95,45 @@ Whether federated users can give control to external users while sharing is cont
 
 To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
-### Allow PowerPoint sharing
+### PowerPoint Live
 
 This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow PowerPoint sharing |
+|User |Meeting policy  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
 
 Amanda can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Daniela can share PowerPoint slide decks even if the meeting is organized by Amanda. Amanda can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
 
-## Allow whiteboard
+## Whiteboard
 
 This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow whiteboard|
+|User |Meeting policy  |Whiteboard|
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
 
-Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.  
+Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.
 
-## Allow shared notes
+To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
+
+### Annotation
+
+When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If whiteboard is disabled, users will not have access to annotation.
+
+## Shared notes
 
 This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow shared notes |
+|User |Meeting policy  |Shared notes |
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy | Off |
