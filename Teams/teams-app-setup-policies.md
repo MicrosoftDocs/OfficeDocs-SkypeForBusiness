@@ -83,7 +83,6 @@ Using an app setup policy, an admin can achieve the following tasks:
 
 * Install apps for end-users in their personal Teams environment, by default.
 * Install apps for end-users as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
-* Install apps in meetings for meeting organizers.
 
 The end-users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) allows it.
 
