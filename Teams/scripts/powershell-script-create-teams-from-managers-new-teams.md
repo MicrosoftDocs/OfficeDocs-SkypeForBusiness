@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Create new people manager teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
