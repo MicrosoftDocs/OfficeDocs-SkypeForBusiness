@@ -67,7 +67,7 @@ This template is meant for communication and collaboration between multiple ward
 &sup1;App added to the channel as a tab
 ## Use team templates with Microsoft Graph
 
-Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 Here are the pre-built healthcare team templates.
 ### Ward
@@ -208,4 +208,4 @@ To use these templates, change the 'template@odata.bind' property in the request
 - [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md)
-- [Get started with Teams for Healthcare organizations](teams-in-hc.md)
+- [Get started with Teams for Healthcare organizations](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
