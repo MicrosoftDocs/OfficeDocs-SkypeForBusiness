@@ -46,7 +46,7 @@ Teams includes the **Frontline manager** and **Frontline worker** policy package
 |**Frontline manager** |Creates a set of policies and applies those settings to frontline managers in your organization. |
 |**Frontline worker**  |Creates a set of policies and applies those settings to frontline workers in your organization.|
 
-:::image type="content" source="media/policy-packages-flw.png" alt-text="Screenshot of frontline policy packages" lightbox="media/policy-packages-flw.png":::
+:::image type="content" source="media/policy-packages-flw.png" alt-text="Screenshot of frontline policy packages." lightbox="media/policy-packages-flw.png":::
 
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Frontline manager policy package to store managers in your organization, a policy named Frontline_Manager is created for each policy in the package.
 
@@ -83,7 +83,7 @@ To learn more, see [Assign policy packages to users](assign-policy-packages.md#a
 
 #### Assign a policy package to a group
 
-Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
+Policy package assignment to groups lets you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
 To learn more, see [Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
