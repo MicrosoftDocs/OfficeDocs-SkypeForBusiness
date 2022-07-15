@@ -1,7 +1,7 @@
 ---
 title: "Prepare your Environment"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -27,8 +27,8 @@ This section contains an overview of the steps required to prepare your environm
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
-   - Telemetry client endpoint: https://vortex.data.microsoft.com/
-   - Telemetry settings endpoint: https://settings.data.microsoft.com/
+   - Telemetry client endpoint: `https://vortex.data.microsoft.com/`
+   - Telemetry settings endpoint:` https://settings.data.microsoft.com/`
     
 ### Create and test a resource account
 
@@ -139,7 +139,7 @@ You can read more about the Admin account in the [Microsoft Teams Rooms Security
 
 Much like any Windows device, the machine name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
   
-If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), a PowerShell command, followed by the computer's new name.
+If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), a PowerShell command, followed by the computer's new name.
   
 ## Related topics
 

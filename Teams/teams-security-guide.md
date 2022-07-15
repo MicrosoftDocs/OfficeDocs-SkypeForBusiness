@@ -74,7 +74,7 @@ TLS authenticates all parties and encrypts all traffic. Using TLS prevents an at
 
 ### Man-in-the-middle attack
 
-A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This scenario can happen if an attacker can modify Active Directory Domain Services to add their server as a trusted server, or modify DNS configuration or use other means to  to get clients to connect through the attacker on their way to the server.
+A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This scenario can happen if an attacker can modify Active Directory Domain Services to add their server as a trusted server, or modify DNS configuration or use other means to get clients to connect through the attacker on their way to the server.
 
 Man-in-the-middle attacks on media traffic between two endpoints participating in Teams audio, video, and application sharing, is prevented by using *Secure Real-Time Transport Protocol* (SRTP) to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a proprietary signaling protocol (Teams Call Signaling protocol) which uses TLS 1.2 and AES-256 (in GCM mode) encrypted UDP or TCP channel.
 
@@ -287,7 +287,7 @@ Meeting organizers control whether participants can join a meeting without waiti
 The defaults are:
 
 - *People in my Organization* - Everyone external to the organization will wait in the lobby until admitted.
-- *People from my organization and trusted organizations* - Authenticated users and external users from Teams and Skype for Business domains that are in the external access allowlist can bypass the lobby. All other users will wait in the lobby until admitted.
+- *People in my organization, trusted organizations, and guests* - Authenticated users within the organization, including guest users and users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.
 - *Everyone* - All meeting participants bypass the lobby once an authenticated user has joined the meeting.
 
 ### Presenter capabilities

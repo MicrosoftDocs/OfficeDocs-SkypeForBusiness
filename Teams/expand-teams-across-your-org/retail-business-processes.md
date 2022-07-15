@@ -12,6 +12,9 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - microsoftcloud-retail
+  - m365solution-retail
+  - m365solution-scenario
 ms.localizationpriority: high
 search.appverid: MET150
 searchScope:

@@ -1,7 +1,7 @@
 ---
 title: Prepare your organization's network for Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,24 +10,24 @@ audience: admin
 description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
 ms.localizationpriority: high
 search.appverid: MET150
-ms.collection: 
+ms.collection:
   - M365-collaboration
   - m365initiative-deployteams
 f1.keywords:
 - NOCSH
-appliesto: 
+appliesto:
   - Microsoft Teams
-ms.custom: 
+ms.custom:
   - seo-marvel-mar2020
 ---
 
-# Prepare your organization's network for Microsoft Teams 
+# Prepare your organization's network for Microsoft Teams
 
 ## Network requirements
 
 If you've already [optimized your network for Microsoft 365 or Office 365](/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case - and especially if you're rolling out Teams quickly as your first Microsoft 365 or Office 365 workload to support **remote workers** - check the following before you begin your Teams rollout:
 
-1.  Do all your locations have internet access (so they can connect to Microsoft 365 or Office 365)? In addition to normal web traffic, make sure you've opened the TCP ports and IP addresses listed for Teams in [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
+1. Do all your locations have internet access (so they can connect to Microsoft 365 or Office 365)? In addition to normal web traffic, make sure you've opened the TCP ports and IP addresses listed for Teams in [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
     > [!IMPORTANT]
     > If you need to federate with Skype for Business, either on-premises or online, you will need to configure an additional DNS record.
@@ -35,14 +35,14 @@ If you've already [optimized your network for Microsoft 365 or Office 365](/Offi
     >|DNS record  |Service  |Protocol  |Priority  |Weight  |Port  |Target  |
     >|---------|---------|---------|---------|---------|---------|---------|
     >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
-    
-2.  Do you have a verified domain for Microsoft 365 or Office 365 (for example, contoso.com)?
-    
+
+2. Do you have a verified domain for Microsoft 365 or Office 365 (for example, contoso.com)?
+
     - If your organization hasn't rolled out Microsoft 365 or Office 365, see [Get started](/microsoft-365/admin/admin-overview/get-started-with-office-365).
     - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see the [Domains FAQ](/microsoft-365/admin/setup/domains-faq).
 
-3.  Has your organization deployed Exchange Online and SharePoint Online?
-    
+3. Has your organization deployed Exchange Online and SharePoint Online?
+
     - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
     - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
@@ -50,12 +50,12 @@ Once you've verified that you meet these network requirements, you may be ready 
 
 > [!IMPORTANT]
 > **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](/schooldatasync/) before you roll out Teams.
->  
+>
 > **Running on-premises Skype for Business Server**: If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Microsoft 365 or Office 365.
 
-### Best practice: Monitor your network using CQD and call analytics 
+### Best practice: Monitor your network using CQD and call analytics
 
-Use the [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls and meetings in Teams. CQD can help you optimize your network by keeping a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, which lets you identify problems and plan remediation. Additionally, CQD provides rich metrics reports that provide insight into overall quality, reliability, and user experience. 
+Use the [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls and meetings in Teams. CQD can help you optimize your network by keeping a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, which lets you identify problems and plan remediation. Additionally, CQD provides rich metrics reports that provide insight into overall quality, reliability, and user experience.
 
 You'll use [call analytics](set-up-call-analytics.md) to investigate call and meeting problems for an individual user.
 
@@ -65,9 +65,9 @@ The following tasks are optional and aren't required for rolling out Teams, espe
 
 You might want to do additional network optimization if:
 
-  - Teams runs slowly (maybe you have insufficient bandwidth)
-  - Calls keep dropping (might be due to firewall or proxy blockers)
-  - Calls have static and cut out, or voices sound like robots (could be jitter or packet loss)
+- Teams runs slowly (maybe you have insufficient bandwidth)
+- Calls keep dropping (might be due to firewall or proxy blockers)
+- Calls have static and cut out, or voices sound like robots (could be jitter or packet loss)
 
 For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Microsoft 365 and Office 365 Network Connectivity Principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles).
 
@@ -110,11 +110,11 @@ For an in-depth discussion of network optimization, including guidance for ident
 <tr class="even">
 <td>Configure split-tunnel VPN</td>
 <td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as <a href="/windows/security/identity-protection/vpn/vpn-routing">split-tunnel VPN</a>. Split tunneling means that traffic for Microsoft 365 or Office 365 doesn't go through the VPN but instead goes directly to Microsoft 365 or Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization's network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
-<p>Other reasons why we recommend bypassing the VPN: 
+<p>Other reasons why we recommend bypassing the VPN:
 <ul>
-<li><p>VPNs are typically not designed or configured to support real-time media.</p></li> 
-<li><p>Some VPNs might also not support UDP (which is required for Teams).</p></li> 
-<li><p>VPNs also introduce an extra layer of encryption on top of media traffic that's already encrypted.</p></li> 
+<li><p>VPNs are typically not designed or configured to support real-time media.</p></li>
+<li><p>Some VPNs might also not support UDP (which is required for Teams).</p></li>
+<li><p>VPNs also introduce an extra layer of encryption on top of media traffic that's already encrypted.</p></li>
 <li><p>Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></li></td>
 </tr>
 <tr class="odd">
@@ -139,7 +139,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 
 Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
-Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30fps (frames per second) for video and content.
+Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30fps (frames per second) for video and content.
 
 This table describes how Teams uses bandwidth. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.5Mbps. The actual bandwidth consumption in each audio/video call or meeting will vary based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available, quality and usage will increase to deliver the best experience.
 
@@ -148,7 +148,7 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
       **Modality**
    :::column-end:::
    :::column span="3":::
-      **Bandwidth requirements (bitrate kB/s up/down)**    
+      **Bandwidth requirements (bitrate kilobit/s up/down)**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -299,13 +299,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
 
 **Minimum**, **Recommended**, and **Best performance** bandwidth requirements are based on per-endpoint usage. Typically, there's one endpoint per user, such as a computer or mobile device. However, if a user joins a Teams meeting on *both* a computer *and* a mobile device, two endpoints are associated with that user.
 
-- **Minimum** Bandwidth requirements for video calls are up to 240p resolution, screen sharing content frame rates adaptive 1.875 to 7.5fps, and Together Mode/Large Gallery video up to 540p resolution.  
+- **Minimum** Bandwidth requirements for video calls are up to 240p resolution, screen sharing content frame rates adaptive 1.875 to 7.5fps, and Together Mode/Large Gallery video up to 540p resolution.
 
-- **Recommended** Bandwidth requirements for video calls are up to 1080p resolution<sup>\*</sup>, screen sharing content frame rates adaptive 7.5 to 30fps, and Together Mode/Large Gallery video up to 1080p resolution<sup>\*</sup>.  
+- **Recommended** Bandwidth requirements for video calls are up to 1080p resolution<sup>\*</sup>, screen sharing content frame rates adaptive 7.5 to 30fps, and Together Mode/Large Gallery video up to 1080p resolution<sup>\*</sup>.
 
 - **Best Performance** Guidance allows higher fidelity video for larger attendee meetings, high loss environments, and higher motion content with screen sharing content frame rates adaptive 15 to 30fps.
 
-<sup>\*</sup>Expect up to 1080p quality but depending on your network conditions, video resolution and quality will be optimized accordingly.  
+<sup>\*</sup>Expect up to 1080p quality but depending on your network conditions, video resolution and quality will be optimized accordingly.
 
 ## Related Topics
 
