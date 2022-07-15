@@ -1,5 +1,5 @@
 ---
-title: PowerShell script sample - Export managers and their directs
+title: PowerShell script sample - Export managers and their direct reports
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,9 +18,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# PowerShell script sample - Export managers and their directs
+# PowerShell script sample - Export managers and their direct reports
 
-Use this PowerShell script to export a list of managers and their directs for your organization. Use this script in preparation for creating a people manager team for each manager with their direct reports as team members.
+Use this PowerShell script to export a list of managers and their direct reports for your organization. Use this script in preparation for creating a people manager team for each manager with their direct reports as team members.
 
 To learn about this PowerShell script, see [Create people manager teams](../create-manager-directs-teams.md).
 
