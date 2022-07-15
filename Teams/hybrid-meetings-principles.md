@@ -23,7 +23,7 @@ keywords:
 
 No matter what technology you use, meeting principles are at the core of inclusive meetings. These principles define how participants of a meeting interact with each other, how information is shared, and how to enable effective collaboration. Use the following principles as the basis for the principles you define for your organization. Review your principles with leaders and individual contributors, in-person and remote, with and without disabilities, across your organization.
 
-Each of these principles helps define the meeting best practices outlined in [Step 2 - Evangelize meeting best practices](hybrid-meetings-educate-remote.md).
+Each of these principles helps define the meeting best practices outlined in [Step 2 - Evangelize meeting best practices](hybrid-meetings-educate-participants.md).
 
 ## Equality and inclusivity
 
