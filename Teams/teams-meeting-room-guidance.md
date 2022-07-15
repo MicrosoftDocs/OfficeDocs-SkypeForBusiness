@@ -325,7 +325,7 @@ A room of this type requires the use of an intelligent, ultrawide-angle front-of
 
 #### Camera placement
 
-The camera should be placed at the front of the room below the front-of-room projection but above the top of the table to capture all the meeting room participants at as close to eye level as possible.
+The camera should be placed at the front of the room below the front-of-room projection but above the top of the table to capture all the meeting room participants at as close to eye level as possible. In most scenarios the ideal height is at  3'-7" or 1090mm
 
 ### Microphones
 
@@ -380,6 +380,8 @@ An enhanced room requires that the display is placed in front of all the in-room
 The horizontal center line of the display must be centered on the same center line as the table.
 
 The vertical center line of the display must be no more than +/- 15 degrees offset from the eye line of a typical in-room meeting participant seated at the table.
+
+The bottom of the display should be placed at 3'8" or 1110mm. 
 
 #### Display count
 
