@@ -1,7 +1,7 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -132,10 +132,10 @@ User signals identify when a user is actively participating in the call, is not 
 
 ## Teams devices with support for real-time telemetry
 
-- MTR - Surface Hub
-- MTR - Teams Display
-- MTR - Collaboration bar
-- IP Phone devices
+- Teams display
+- Teams phone
+- Teams Rooms
+- Teams Rooms on Surface Hub
 
 > [!NOTE]
 > Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
@@ -150,7 +150,7 @@ User signals identify when a user is actively participating in the call, is not 
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
 
 > [!NOTE]
-> As part of a limited-time public preview, real-time telemetry data is currently available for **7 days** after a meeting has ended. The above limits will apply once the public preview has concluded.
+> As part of a limited-time public preview, real-time telemetry data is currently available for **7 days** after a meeting has ended. After the preview ends, only tenants with Advanced Communications add-on licensing will have telemetry available for the extended 7 day period. All other tenants will be subject to the aforementioned limits.
 
 ## Related topics
 
