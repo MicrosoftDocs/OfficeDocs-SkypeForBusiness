@@ -114,6 +114,14 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 In most cases, after you complete an app update the new version automatically appears for end users. For more information, see [end-user update experience](apps-update-experience.md).
 
+## Remove
+
+To remove an app:
+
+1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
+2. Click the app name to go to the app details page, and then select the three dots **...** > **Actions** > **Delete**.
+3. In the **Delete app box**, confirm you want to delete the app.
+
 ## Related topics
 
 * [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
