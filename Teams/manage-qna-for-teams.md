@@ -26,7 +26,6 @@ This article describes how to manage Q&A and user-level policies, which dictate 
 > [!NOTE]
 > This feature is currently in private preview and is not publicly accessible. If you'd like to participate in the private preview program, sign up [here.](https://m365crmedu.powerappsportals.com/LMSSignup/)
 
-
 ## Prerequisites
 
 - Verify that you haven’t blocked access to [Yammer’s IPs and URLs.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
@@ -42,6 +41,9 @@ Q&A can be used by the following user types:
 - Regular user—A user with Microsoft 365 credentials in your tenant.
 - Federated user—A user with Microsoft 365 credentials to a different tenant.
 - Guest user—Any guests you add to your Microsoft Teams, SharePoint, or Azure Active Directory.
+
+> [!NOTE]
+> Q&A will not be available to View Only Attendees who join past the meeting capacity.
 
 When admins enable Q&A, users with the organizer role can turn on Q&A when creating or updating meetings. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to stop attendees from using the feature.
 
