@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams analytics and reporting
-author: serdarsoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
