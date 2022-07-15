@@ -1,16 +1,16 @@
 ---
-title: Approvals application availability in Teams
-author: mkbond007
-ms.author: mabond
+title: Manage the Approvals app in Microsoft Teams
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: farhazk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
   - Microsoft Teams
 search.appverid: MET150
-description: Learn about the Approvals application availability in Microsoft Teams.
+description: Learn how to manage the Approvals app for your organization in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams Approvals app availability
+# Manage the Approvals app in Microsoft Teams
 
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
@@ -125,7 +125,7 @@ The tailored frontline app experience in Teams pins the most relevant apps in Te
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ### Use an app setup policy to pin Approvals to Teams
 
