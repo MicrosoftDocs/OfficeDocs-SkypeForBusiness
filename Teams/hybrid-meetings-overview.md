@@ -82,6 +82,7 @@ Open and honest communication between meeting organizers and participants, both 
 
 * Meeting chats to make organizers and participants aware of issues in-meeting
 * "Raise hands" action to get the attention of organizers or presenters
+* Meeting polls to let presenters and organizers ask questions of participants
 * Post-meeting surveys to send detailed feedback after the meeting has ended
 
 ## Step 1 - Get familiar with Teams meeting features
