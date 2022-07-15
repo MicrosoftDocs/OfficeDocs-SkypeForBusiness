@@ -686,16 +686,12 @@ items:
           items:
           - name: "Overview"
             href: hybrid-meetings-overview
+          - name: "Hybrid meeting principles"
+            href: hybrid-meetings-principles
           - name: "Step 1 - Get familiar with Teams meeting features"
             href: hybrid-meetings-features
           - name: "Step 2 - Evangelize meeting best practices"
-            items:
-            - name: "Meeting organizers"
-              href: hybrid-meetings-educate-organizer
-            - name: "Remote attendees"
-              href: hybrid-meetings-educate-remote
-            - name: "In-room attendees"
-              href: hybrid-meetings-educate-inroom
+            href: hybrid-meetings-educate-participants
           - name: "Step 3 - Design a meeting space"
             href: hybrid-meetings-room-design
           - name: "Step 4 - Select room devices"
