@@ -121,7 +121,7 @@ The auto-expiration feature behaves just like a user deletion. See the following
 
 - If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a Teams meeting recording is 30 days, then the recording will be retained for the full 100 days.
 - If you have a deletion policy that says all Teams meeting recordings will be deleted after five days and you have an expiration setting for a Teams meeting recording of 30 days, then the recording will be deleted after five days.
-- If you have a deletion policy that says all Teams meeting recordings will be deleted after 60 days and yyou have an expiration setting for a Teams meeting recroding of 30 days, then the auto-expiration feature will delete it after 30 days.
+- If you have a deletion policy that says all Teams meeting recordings will be deleted after 60 days and you have an expiration setting for a Teams meeting recording of 30 days, then the auto-expiration feature will delete it after 30 days.
 
 ### Will this feature enforce file retention?
 
