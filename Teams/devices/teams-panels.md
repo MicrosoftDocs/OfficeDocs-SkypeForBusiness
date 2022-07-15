@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams panels"
-ms.author: serdars
-author: ManikaDhiman
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference

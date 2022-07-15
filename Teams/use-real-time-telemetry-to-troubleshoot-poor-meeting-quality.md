@@ -1,7 +1,7 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -58,15 +58,44 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 
 :::image type="content" alt-text="Screenshot of call analytics user session data." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
-## Measures available in Real-Time Analytics
+## Details and measures available in Real-Time Analytics
+
+### Device information
+| Name | Description | Possible reasons for blank values|
+|:---|:---|:---|
+| Audio capture device | Name of the audio capture device (eg: microphone) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Audio render device | Name of the audio render device (eg: speakers or headphones) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Video capture device | Name of the video capture device in use | User is not sending video from the endpoint being monitored |
+
+### Connectivity information
+| Metric | Units / Possible values | Description | Possible reasons for blank values|
+|:---|:---|:---|:---|
+| Network type | &bull; Ethernet <br/> &bull; Wi-Fi | Type of network connection in use | |
+| Wi-Fi strength | &bull; Excellent : -50dBm or greater <br/> &bull; Good : -51 dBm to -64 dBm<br/> &bull; Poor : -65 dBm or lower | Strength of the user's current Wi-Fi connection | User is not connected to Wi-Fi |
+| Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User is not connected to Wi-Fi |
+| Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User is not connected to Wi-Fi |
+| Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User is not connected to Wi-Fi |
+| Location | String | Country in which the user is located | User's location information is blocked or unavailable |
+| Local IP address | String (IP:Port) | Local IP address of the user's endpoint and the media port | |
+| Server reflexive IP address | String (IP:Port) | Public IP address of the user's endpoint and the media port | |
+| Connectivity type | UDP or TCP | Transport layer protocol in use; UDP is preferred for real-time media | |
+
+### User signals
+User signals identify when a user is actively participating in the call, is not speaking but unmuted, or is muted. Currently, user signals is only available for audio.
+
+| Modality | Possible values | Description |
+|:---|:---|:---|
+| Audio | &bull; Unmuted, participant speaking <br/> &bull; Unmuted, not speaking <br/> &bull; Muted | Indicates the behavior of the user for the audio portion of the call  |
+
 
 ### Audio
 |Measure Name |Units |Good Threshold |Description |
 |:---|:---|:---|:---|
 |Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When this is too high, audio can become choppy. | 
 |Packet Loss |Percentage |Less than 5% |Packet loss occurs when data packets fail to reach their destination. The percentage of packets lost is based on the total number of packets sent. |
-|Round Trip Time |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of this is when two people in a meeting are unintentionally speaking over each other due to the delay. |
+|Round Trip Time |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of this is when two people in a meeting are unintentionally speaking over each other due to the delay. Shown for outbound audio only. |
 |Bitrate |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
+| Codec | String <br/> &bull; Example: SATIN | Information only | Displays the audio codec being sent and received. A different codec can be received than the one being sent. |
 
 
 ### Video
@@ -114,11 +143,14 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 
 ## Limitations
 
-- Real-time telemetry is only available for scheduled meetings. For ad hoc meetings like Meet Now, PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
+- Real-time telemetry is only available for scheduled meetings and Meet Now. For PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
 - Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
 - Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 - Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
+
+> [!NOTE]
+> As part of a limited-time public preview, real-time telemetry data is currently available for **7 days** after a meeting has ended. After the preview ends, only tenants with Advanced Communications add-on licensing will have telemetry available for the extended 7 day period. All other tenants will be subject to the aforementioned limits.
 
 ## Related topics
 

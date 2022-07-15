@@ -1,7 +1,7 @@
 ---
 title: Manage messaging policies in Teams
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article

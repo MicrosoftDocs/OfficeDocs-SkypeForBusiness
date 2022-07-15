@@ -1,9 +1,9 @@
 ---
 title: Create a new template from an existing team template in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: aaglick
-manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,7 +24,7 @@ appliesto:
 
 Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.
 
-1. Sign in to the Teams admin center.
+1. Sign in to the Teams admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 

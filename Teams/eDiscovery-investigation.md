@@ -6,7 +6,7 @@ manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: 
+ms.collection:
   - M365-collaboration
   - SPO_Content
 ms.reviewer: anwara
@@ -14,7 +14,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Learn what to do when you need to perform eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
-appliesto: 
+appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 ---
@@ -31,27 +31,25 @@ eDiscovery of messages and files in [private channels](private-channels.md) work
 
 Not all Teams content is eDiscoverable. The following table shows the content types that you can search for using Microsoft eDiscovery tools:
 
-| Content type | eDiscoverable | Notes |
-|:--- | :--- |:--- |
-|Audio recordings | No | |
+|Content type|eDiscoverable|Notes|
+|---|---|---|
+|Audio recordings|Yes||
 |Card content|Yes|See [Search for card content](#search-for-card-content) for more information.|
-|Chat links | Yes | |
-|Chat messages | Yes |This includes content in standard Teams channels, 1:1 chats, 1:N group chats, and chats with guest user participants.  |
-|Code snippets | No | |
-|Edited messages | Yes | If the user is on hold, previous versions of edited messages are also preserved. |
-|Emojis, GIFs, and stickers | Yes | |
-|Feed notifications | No | |
-|Inline images | Yes | |
-|Loop components| Yes|Content in a loop component is saved in a .fluid file that's stored in the OneDrive for Business account of the user who sends the loop component. That means you have to include OneDrive as a data source when searching for content in loop components. |
-|Meeting IM conversations | Yes | |
-|Meeting metadata<sup>1</sup> | Yes |  |
-|Name of channel | Yes | |
-|Private and shared channel chat messages | Yes | |
-|Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
-|Reactions (such as likes, hearts, and other reactions) | No | |
-|Subject | Yes | |
-|Tables | Yes | |
-||||
+|Chat links|Yes||
+|Chat messages|Yes|This includes content in standard Teams channels, 1:1 chats, 1:N group chats, and chats with guest user participants.|
+|Code snippets|No||
+|Edited messages|Yes|If the user is on hold, previous versions of edited messages are also preserved.|
+|Emojis, GIFs, and stickers|Yes||
+|Feed notifications|No||
+|Inline images|Yes||
+|Loop components|Yes|Content in a loop component is saved in a .fluid file that's stored in the OneDrive for Business account of the user who sends the loop component. That means you have to include OneDrive as a data source when searching for content in loop components.|
+|Meeting IM conversations|Yes||
+|Meeting metadata<sup>1</sup>|Yes||
+|Name of channel|Yes||
+|Quotes|Yes|Quoted content is searchable. However, search results don't indicate that the content was quoted.|
+|Reactions (such as likes, hearts, and other reactions)|Yes|Reactions are supported for all commercial customers after June 1, 2022. Reactions before this date are not available for eDiscovery. Government cloud support is planned. There is no legal hold support for reactions.|
+|Subject|Yes||
+|Tables|Yes||
 
 <sup>1</sup> Meeting (and call) metadata includes the following:
 
@@ -229,11 +227,11 @@ When viewing card content in Content search results, the content appears as an a
 ![Card content in Teams channel message.](media/CardContentTeams.png)
 
 ### Card content in search results
-  
+
 ![Same card content in the results of a Content search.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> To display images from card content in search results at this time (such as the checkmarks in the previous screenshot), you have to be signed into Teams (at https://teams.microsoft.com) in a different tab in the same browser session that you use to view the search results. Otherwise, image placeholders are displayed.
+> To display images from card content in search results at this time (such as the checkmarks in the previous screenshot), you have to be signed into Teams (at <https://teams.microsoft.com>) in a different tab in the same browser session that you use to view the search results. Otherwise, image placeholders are displayed.
 
 ## eDiscovery in federated and non-federated environments
 
