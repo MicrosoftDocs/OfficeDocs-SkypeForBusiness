@@ -24,7 +24,7 @@ These resources build on the standard Teams deployment guidance and are designed
 Find out what you can do with Teams for:
 
 - [Education](teams-for-education-landing-page.md)
-- [Frontline Workers](/microsoft-365/frontline)
+- [Frontline Workers](../flw-landing-page.md)
 - [Government](teams-for-government-landing-page.md)
 - [Healthcare](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
 - [Nonprofit](teams-for-nonprofit-landing-page.md)
