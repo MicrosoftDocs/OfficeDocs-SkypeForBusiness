@@ -72,10 +72,11 @@ To help guide you as to what features are available on different platforms, you 
 ||Connected peripheral health monitoring |Available  |Coming soon |
 ||Remote configuration (restart, settings, Log collection) |Available  |Available |
 ||Automatic Teams app updates |Available  |Available |
-||Device auto-enrollment |Available |Coming soon |
+||Device auto-enrollment |Available |Available |
 ||Call quality analytics |Available  |Available |
 |**Good for / Space**|Focus (2-4 people) |Available  |Available |
 ||Small (4-6 people) |Available  |Available |
 ||Medium (6-12 people) |Available  |Available |
 ||Large (12-16 people) |Available  |Available |
 ||Multi-purpose room (16+ people) |Available  |Not available |
+
