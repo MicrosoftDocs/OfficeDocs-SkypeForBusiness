@@ -1,7 +1,7 @@
 ---
 title: "View Microsoft Teams utilization in Power BI using CQD data"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
