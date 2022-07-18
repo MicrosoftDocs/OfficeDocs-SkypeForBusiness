@@ -153,4 +153,22 @@ Retention of content follows the retention policies set for Yammer – regardles
 
 **Q: What is the difference between setting up Q&A through the Teams App store versus using Meeting Options?**
 
-**A:** While there's no difference to the attendee and moderator user experience, going forward Q&A must be set up only using Meeting Options. The Q&A app in the Teams app store will be deprecated by the end of 2022, so it's best to use Meeting Options to set up Q&A in your meetings.
+**A:** We've simplified enabling Q&A through Meeting Options.Beginning August 2022, the Q&A app in the Teams app store will no longer be supported, so Q&A must only be enabled through Meeting Options. If you are the organizer for meetings where Q&A was enabled through the Teams app store, please remove the Q&A app, and instead only enable through Meeting Options.
+
+**Q: Why am I seeing two Q&A icons in my meeting?**
+
+**A:** You’re seeing two Q&A icons in your meeting because Q&A was also enabled through Meeting Options. Please remove the Q&A app that was added through the Teams App Store using the instructions below. Please do this for all your meetings where you had previously added Q&A through the Teams app store.
+
+**How to remove the Q&A app that was added from the Teams app store.**
+
+1. On Teams Desktop, join the meeting where you previously added Q&A.
+
+2. From the left, select the second occurrence of the Q&A icon in the Teams Meeting window – this is the Q&A experience that was added through the Teams App Store.
+
+3. With the selected Q&A tab open, click on the ellipses and click “Remove”. This will remove the Q&A experience that was added through the Teams app store.
+
+> [!NOTE] Only the Q&A app added added via the Teams app store will have an ellipsis to remove the Q&A app. The Q&A experience enabled via Meeting Options will not have an ellipsis and can’t be removed from here.
+
+4. Click “Remove” to permanently remove the Q&A experience that was added via the Teams app store.
+
+That’s it! Now there’s only one Q&A experience – powered by Meeting Options. The Q&A app added via the Teams app store is removed.
