@@ -45,7 +45,7 @@ Admins can quickly check for Published attested apps in three different ways.
 
 * When gathering more information about an app, see the details of a specific app at its link at [Microsoft Teams apps security and compliance](/microsoft-365-app-certification/teams/teams-apps). Alternately, select the `Publisher attestation` link in [Teams admin center](https://admin.teams.microsoft.com/).
 
-  :::image type="content" source="media/attested-app-tac3.png" alt-text="In Teams admin center, select Publisher attestation link to view details of the attestation of an app.":::
+  :::image type="content" source="media/attested-app-tac3.png" alt-text="In Teams admin center, select the Publisher attestation link to view details of the attestation of an app.":::
 
 * In Teams admin center, when checking the details of an app from the **[Manage App](https://admin.teams.microsoft.com/policies/manage-apps)** page, see the publisher attested icon on the banner in the app's detail page.
 
