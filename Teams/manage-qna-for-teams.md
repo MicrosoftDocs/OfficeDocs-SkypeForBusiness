@@ -163,7 +163,7 @@ Retention of content follows the retention policies set for Yammer – regardles
 
 1. On Teams Desktop, join the meeting where you previously added Q&A.
 
-2. Within the top panel, select the second occurrence from the left of the Q&A icon in the Teams Meeting window – this is the Q&A experience that was added through the Teams App Store.
+2. Within the top panel, select the second occurrence of the Q&A icon in the Teams Meeting window – this is the Q&A experience that was added through the Teams App Store.
 
 3. With the selected Q&A tab open, click on the ellipses and click “Remove”. This will remove the Q&A experience that was added through the Teams app store.
 
