@@ -162,6 +162,7 @@ The data belongs to the institution, and Microsoft only collects the data and st
 > - Visit [Microsoft compliance offerings](/compliance/regulatory/offering-home) to learn how Microsoft 365 helps your institution meet regulatory compliance standards.
 
 ### Performance and reliability
+
 Insights is designed to handle a high volume of data collected from Teams with optimal performance and reliability. We can't guarantee 100% availability, but we endeavor to be available as close as possible to that target.
 
 The data collection process takes place on separate servers to the installation of the Insights tab in Teams. The Insights tab or personal app doesn't affect application performance or network bandwidth for educators and students using the rest of the Teams functionality.
@@ -251,6 +252,8 @@ There are two places where you can control *Education Insights*. Both options ha
 1. Go to **Settings** > **Manage Education Insights**.
 1. Adjust the **Collect activity data for Insights** toggle to on or off.
 
+![Screenshot of the SDS admin center toggles to turn Insights off and on](media/manage-insight-toggle.png)
+
 #### Turn on and off Insights from the Teams client
 
 1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
@@ -294,6 +297,7 @@ The use of Insights *doesn't* require the use of SDS. However, you may choose to
 - To turn it back on, follow the instructions in [How to deploy SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### How to delete user data from Education insights
+
 Insights stores student and educator activities performed in Microsoft Teams for Education.
 
 There are two types of data collected by insights:
