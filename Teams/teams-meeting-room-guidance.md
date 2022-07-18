@@ -381,7 +381,7 @@ The horizontal center line of the display must be centered on the same center li
 
 The vertical center line of the display must be no more than +/- 15 degrees offset from the eye line of a typical in-room meeting participant seated at the table.
 
-The bottom of the display should be placed at 3'8" or 1110mm. 
+The bottom of the display should be placed at 3 feet, 8 inches, or 1110mm. 
 
 #### Display count
 
