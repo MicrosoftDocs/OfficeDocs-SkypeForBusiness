@@ -461,9 +461,9 @@ items:
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Teams Virtual Visits usage report
-          href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          href: /microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams EHR connector Virtual Appointments report
-          href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
+          href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
               
     - name: Log files, service health, and support
       items:
@@ -650,6 +650,8 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
+            - name: Manage Q&A in Teams Meetings
+              href: manage-qna-for-teams.md
             - name: Manage the Whiteboard in Teams
               href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
@@ -801,10 +803,12 @@ items:
           href: set-up-common-area-phones.md
         - name: Voicemail
           items: 
-            - name: Set up Cloud Voicemail
+            - name: Manage Cloud Voicemail
               href: set-up-phone-system-voicemail.md
             - name: Manage Voicemail policies
               href: manage-voicemail-policies.md
+            - name: Manage Voicemail settings
+              href: manage-voicemail-settings.md
             - name: Change the default language for voicemail
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
@@ -821,11 +825,13 @@ items:
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: Auto attendants and call queues
           items: 
-            - name: Planning
+            - name: Plan auto attendants and call queues
               href: plan-auto-attendant-call-queue.md
-            - name: Auto attendant setup
+            - name: Plan call routing flow
+              href: plan-your-call-routing-flow.md
+            - name: Set up auto attendants
               href: create-a-phone-system-auto-attendant.md
-            - name: Call queue setup
+            - name: Set up call queues
               href: create-a-phone-system-call-queue.md
             - name: Manage Teams resource accounts
               href: manage-resource-accounts.md
@@ -835,6 +841,8 @@ items:
               href: answer-auto-attendant-and-call-queue-calls.md
             - name: Reports
               href: aa-cq-cqd-historical-reports.md
+            - name: PowerShell cmdlet reference for auto attendants and call queues
+              href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
         - name: Block inbound calls
@@ -1058,6 +1066,8 @@ items:
       items: 
       - name: Phone System guidance
         href: business-voice/whats-business-voice.md
+      - name: Move from Business Voice to Teams Phone licenses
+        href: business-voice-to-teams-phone-licenses.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
       - name: Check your internet connection
@@ -1079,7 +1089,7 @@ items:
           - name: "Step 5: Assign phone numbers to users"
             href: business-voice/set-up-assign-numbers.md
           - name: "Step 6: Set up an auto attendant"
-            href: business-voice/set-up-auto-attendant.md
+            href: create-a-phone-system-auto-attendant.md
           - name: "Step 7: Port phone numbers (optional)"
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
@@ -1095,13 +1105,9 @@ items:
           - name: Create more users
             href: business-voice/create-users.md
           - name: Set up a call queue
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: Set up an auto attendant
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+            href: create-a-phone-system-call-queue.md
       - name: Manage your Phone System setup
         items: 
-          - name: Create one or more users
-            href: business-voice/create-users.md
           - name: Manage devices
             href: business-voice/manage-devices.md
           - name: Monitor call quality
@@ -1434,6 +1440,9 @@ items:
           href: rooms/standards-and-room-planner.md
         - name: Customer-reported incidents 
           href: rooms/customer-reported-incidents.md
+        - name: Data and privacy information
+          href: rooms/data-and-privacy-info.md
+
         - name: Using the Teams Rooms mobile application
           href: rooms/extended-mobile-app.md
           
@@ -1493,7 +1502,9 @@ items:
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: USB audio and video devices
-              href: devices/usb-devices.md  
+              href: devices/usb-devices.md
+            - name: RealWear for Teams
+              href: flw-realwear.md 
             - name: Monitoring
               items: 
                   - name: Teams alerting and monitoring
@@ -1513,9 +1524,9 @@ items:
         - name: Resource accounts for Skype for Business Server
           href: rooms/with-skype-for-business-server-2015.md           
               
-- name: Manage apps
+- name: Manage apps in Teams
   items: 
-    - name: Overview
+    - name: Understand apps in Teams
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Manage apps provided by Microsoft
       items:
@@ -1527,10 +1538,12 @@ items:
           href: manage-tasks-app.md
         - name: Manage the Praise app
           href: manage-praise-app.md
-        - name: Manage the Teams Approvals app
+        - name: Manage the Approvals app
           href: approval-admin.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+        - name: Shifts data FAQ       
+          href: expand-teams-across-your-org/shifts/shifts-data-faq.md
         - name: Manage the Updates app
           href: manage-updates-app.md
           
@@ -1542,12 +1555,10 @@ items:
           href: overview-of-app-validation.md
         - name: Security, compliance, and privacy of third-party apps
           href: overview-of-app-certification.md
-        - name: Use Microsoft 365 or Office 365 and custom connectors
-          href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
-    - name: App templates for Teams
-      href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
+        - name: Manage Microsoft 365 and custom connectors
+          href: Office-365-custom-connectors.md
 
     - name: Manage custom line-of-business apps
       items:
@@ -1557,81 +1568,48 @@ items:
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
-        - name: Customize apps in Teams
+        - name: Customize appearance and metadata of apps
           href: customize-apps.md
-        - name: Brand your organization's app store
+        - name: Brand your org app store
           href: customize-your-app-store.md
 
     - name: Admin controls to govern apps
       items:
-        - name: Overview of app management for admins
+        - name: Overview of app management
           href: manage-apps.md
         - name: App policies
           items: 
-          - name: Manage app policies in Teams
+          - name: Understand app policies
             href: app-policies.md
-          - name: Manage app permission policies in Teams
+          - name: Manage app permission policies
             href: teams-app-permission-policies.md
-          - name: Manage app setup policies in Teams
+          - name: Manage app setup policies
             href: teams-app-setup-policies.md
-          - name: Manage custom app policies and settings in Teams
+          - name: Manage custom app policies and settings
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
-          href: pin-teams-apps-based-on-license.md
-        - name: About Azure AD permissions and admin consent
+          href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Graph permissions and admin consent in Azure AD
           href: app-permissions-admin-center.md
-        - name: Manage resource-specific consent for your organization
+        - name: Manage resource-specific consent for your org
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
+        - name: Manage access to apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
+        - name: Audit app management activities
+          href: audit-app-management-activities.md
+        - name: App usage report and analytics
+          href: teams-analytics-and-reports/app-usage-report.md
         - name: App behavior based on types of users
           href: non-standard-users.md
-        - name: Update apps to newer versions as end-users
+        - name: App updates and admin role
           href: apps-update-experience.md
-        - name: Manage access to Teams apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
-    - name: App usage report
-      href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 
     - name: Overview
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
-    - name: All industries
-      items: 
-        - name: Bookings in Teams
-          items: 
-            - name: Virtual appointments with Teams and Bookings
-              href: expand-teams-across-your-org/bookings-virtual-visits.md
-            - name: Manage the Bookings app
-              href: bookings-app-admin.md
-            - name: Manage the join experience on browsers
-              href: expand-teams-across-your-org/browser-join.md
-            - name: Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md 
-            - name: Help your clients and customers use virtual appointments
-              href: expand-teams-across-your-org/virtual-appointments-toolkit.md            
-            
-        - name: Shifts for Teams
-          items: 
-            - name: Get started with Shifts
-              href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Manage the Shifts app
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-            - name: Manage schedule owners for shift management       
-              href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
-            - name: Shifts connectors
-              items: 
-              - name: Overview       
-                href: expand-teams-across-your-org/shifts/shifts-connectors.md
-              - name: Use the Shifts connector wizard to set up a connection to Blue Yonder WFM
-                href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
-              - name: Use PowerShell to set up a connection to Blue Yonder WFM
-                href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
-              - name: Use PowerShell to manage your Shifts to Blue Yonder WFM connection
-                href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
-            - name: Shifts data FAQ       
-              href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items: 
@@ -1651,7 +1629,7 @@ items:
           href: easy-policy-setup-edu.md
         - name: Parent Connection in Teams for Education
           href: edu-parents-app.md
-        - name: Career Coach app in Teams for Education
+        - name: Career Coach in Teams for Education
           href: career-coach.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
@@ -1683,28 +1661,8 @@ items:
       items: 
         - name: Get started with Teams for frontline workers
           href: flw-landing-page.md
-        - name: Start with a Frontline Trial
-          href: flw-trial.md
-        - name: Licensing options for frontline workers
-          href: flw-licensing-options.md
-        - name: Frontline Worker quick start guide
-          href: flw-quickstart.yml
-        - name: Frontline Worker onboarding wizard
-          href: flw-onboarding-wizard.md  
-        - name: Frontline Workers scripted deployment
-          href: flw-scripted-deployment.md
-        - name: Tailor Teams apps for your frontline workers
-          href: pin-teams-apps-based-on-license.md
-        - name: Manage the Shifts app
-          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-        - name: Manage shift-based access for frontline workers
-          href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: Manage schedule owners for shift management
-          href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
-        - name: RealWear for Teams
-          href: flw-realwear.md
-        - name: Walkie Talkie
-          href: walkie-talkie.md
+        - name: Policy packages for frontline workers
+          href: policy-packages-flw.md
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items: 
@@ -1727,78 +1685,22 @@ items:
     - name: Teams for Healthcare
       items: 
         - name: Get started with Teams for healthcare organizations
-          href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Virtual appointments
-          items: 
-            - name: Virtual appointments with Teams - Integration into Cerner EHR
-              href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-            - name: Virtual appointments with Teams - Integration into Epic EHR
-              href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Teams EHR connector Virtual Appointments report
-              href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual appointments with Teams and Bookings
-              href: expand-teams-across-your-org/bookings-virtual-visits.md
-            - name: Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md  
-            - name: Manage the join experience on browsers
-              href: expand-teams-across-your-org/browser-join.md              
-        - name: View and assign policy packages
+          href: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json            
+        - name: Policy packages for healthcare
           href: policy-packages-healthcare.md
-        - name: Secure messaging
-          items: 
-            - name: Secure Messaging
-              href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-            - name: Message delegation
-              href: expand-teams-across-your-org/healthcare/hc-delegates.md
         - name: Use healthcare team templates
           href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-        - name: Manage the Approvals app
-          href: approval-admin.md
-        - name: Manage the Lists app
-          href: manage-lists-app.md
-        - name: Manage the Shifts app
-          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-        - name: Manage the Tasks app
-          href: manage-tasks-app.md
     - name: Teams for Nonprofit
       href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
       items:
         - name: Use nonprofit team templates
           href: team-templates-nonprofit.md
     - name: Teams for Retail
-      href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Retail team collaboration
-          href: expand-teams-across-your-org/retail-team-collaboration.md
-        - name: Simplify business processes in Retail
-          href: expand-teams-across-your-org/retail-business-processes.md
+        - name: Get started with Teams for Retail
+          href: /microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Use retail team templates
           href: get-started-with-retail-teams-templates.md
-        - name: Frontline Worker onboarding wizard
-          href: flw-onboarding-wizard.md  
-        - name: Frontline Workers scripted deployment
-          href: flw-scripted-deployment.md
-        - name: Shifts for Teams
-          items: 
-            - name: Shifts for Teams
-              href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Manage the Shifts app
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-            - name: Manage shift-based access
-              href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: Walkie Talkie
-          href: walkie-talkie.md
-        - name: RealWear
-          href: flw-realwear.md
-        - name: Manage the Praise app
-          href: manage-praise-app.md
-        - name: Manage the Tasks app
-          href: manage-tasks-app.md
-        - name: Manage the Lists app
-          href: manage-lists-app.md
-        - name: Manage the Approvals app
-          href: approval-admin.md
-          
 - name: Reference
   items: 
     - name: Limits and specifications for Teams
@@ -1827,7 +1729,7 @@ items:
           href: teams-add-on-licensing/advanced-communications.md
         - name: Messaging policies licensing
           href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft 365 Phone System – Virtual User license
+        - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md

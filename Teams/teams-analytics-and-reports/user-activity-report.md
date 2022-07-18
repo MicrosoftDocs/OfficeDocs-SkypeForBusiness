@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams user activity report
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article

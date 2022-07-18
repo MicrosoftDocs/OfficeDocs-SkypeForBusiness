@@ -92,7 +92,7 @@ For more information about ways to use the pre-built templates in your industry,
 - [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
 - [Nonprofit team templates](team-templates-nonprofit.md)
-- [Retail team templates](retail-teams-templates-in-the-admin-console.md)
+- [Retail team templates](get-started-with-retail-teams-templates.md)
 
 ## Team template size limits
 

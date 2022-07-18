@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams add-on licenses"
-ms.author: serdars
-author: SerdarSoysal
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -37,7 +37,7 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 |**Microsoft 365 Business Voice** <br/> |Business Voice was Microsoft's voice capability bundle for small and medium businesses but will no longer be available to purchase starting on March 1, 2022. Current Business Voice subscribers can renew their Business Voice licenses until June 30, 2022. <br/> <br/> If you're a small or medium-sized business, we recommend purchasing the [Teams Phone with Calling Plan license](../business-voice/whats-business-voice.md), if it's available in your region. <br/> <br/> Alternatively, you can purchase a Teams Phone Standard license that will allow you to connect to your preferred third-party PSTN provider. |
 |**Teams Phone with Calling Plan bundle** <br/> |The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. <br/> |
 |**Teams Phone Standard** <br/> |[Teams Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone System capabilities like cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Phone System, see [Here's what you get with Teams Phone System](../here-s-what-you-get-with-phone-system.md). <br/> |
-|**Microsoft Teams Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Domestic and International Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+|**Microsoft Teams Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans and International Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**Communication Credits** | Communication Credits provide a monthly pool of minutes that can also be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of their computer. [Set up Audio Conferencing](../set-up-audio-conferencing-in-teams.md) for users who schedule or lead meetings with attendees who need to call in using a phone. <br/> <br/>To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organizations can now use a third-party operator for their Audio Conferencing numbers. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md). <br/>|
 |**Microsoft Teams Rooms** <br/> | Microsoft Teams Room is an additional Microsoft Teams product that brings video, audio, and content sharing to conference rooms. Organizations can purchase Microsoft Teams Rooms standalone licenses for these capabilities. For more information, see [Teams Meeting Room Licensing](../rooms/rooms-licensing.md). <br/>|
@@ -76,12 +76,12 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 <tbody>
 <tr>
 <td>Teams Essentials (AAD identity) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
-<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan, International Calling Plan, or Domestic and International Calling Plan licenses <br/> </td>
+<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan or International Calling Plan licenses <br/> </td>
 <td>Teams Phone Standard licenses <br/> </td>
 </tr>
 <tr>
 <td>Microsoft 365 E5/A5/G5 plans</td>
-<td>Domestic Calling Plan, International Calling Plan, or Domestic and International Calling Plan licenses <br/> </td>
+<td>Domestic Calling Plan or International Calling Plan licenses <br/> </td>
 <td></td>
 </tr>
 </tbody>

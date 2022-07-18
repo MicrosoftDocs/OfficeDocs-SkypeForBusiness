@@ -56,27 +56,27 @@ The delivery of a voicemail to an Exchange mailbox is done using Simple Mail Tra
 
 ## Manage Cloud Voicemail for users
 
-To manage Cloud Voicemail features for your users, use the Teams PowerShell module as follows.
+You can manage Cloud Voicemail for users by specifying voicemail policies and configuring voicemail settings.  
 
-To manage Cloud Voicemail features for groups of users, use the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy) cmdlet.
-You can configure and assign existing or new voicemail policies for features such as call answering rules, voicemail transcription, transcription profanity masking, transcription translation, and system prompt language. For more information, see [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy).
+- **Voicemail policies** allow you to manage features for groups of users. You can configure and assign existing or new voicemail policies for features such as call answering rules, voicemail transcription, transcription profanity masking, transcription translation, and system prompt language. For information about managing voicemail policies, see [Manage voicemail policies](manage-voicemail-policies.md).
 
-To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet. Cloud Voicemail settings that you can apply to individual users include call answering rules, prompt language, text to speech default, and vacation greetings. For more information, see [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
-(Note that your end users can also configure these settings in the Teams client by going to **Settings** -> **Calls** -> **Configure Voicemail**.)
-
-You can also disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false. This setting will ensure that Cloud Voicemail can no longer record a voicemail for the user.
+- **Voicemail settings** allow you to configure settings for individual users. You can configure settings such as call answering rules, prompt language, text to speech default, and vacation greetings. For information about configuring settings for individual users, see [Manage voicemail settings](manage-voicemail-settings.md). Note that your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail**.
 
 ## Control routing of calls to Cloud Voicemail
 
 The default setting for all users provisioned for Cloud Voicemail is to allow routing of calls to Cloud Voicemail, and to allow users to forward calls to Cloud Voicemail.
 
-You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Teams admin center or by using PowerShell. 
 
-- If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
+- To use the Teams admin center, go to **Voice** -> **Calling Policies** -> add new or edit existing policy -> **Voicemail is available for routing inbound calls**.  
 
-- If you set AllowVoicemail to AlwaysEnabled, calls are always forwarded to voicemail on unanswered after ringing for thirty seconds--regardless of the unanswered call forward setting for a user.
+- In PowerShell, use the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-- If you set AllowVoicemail to UserOverride, calls are forwarded to voicemail based on the call forwarding and/or unanswered settings for a user.
+  - If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
+
+  - If you set AllowVoicemail to AlwaysEnabled, calls are always forwarded to voicemail on unanswered after ringing for thirty seconds--regardless of the unanswered call forward setting for a user.
+
+  - If you set AllowVoicemail to UserOverride, calls are forwarded to voicemail based on the call forwarding and/or unanswered settings for a user.
 
 ## Set up Cloud Voicemail to work with on-premises users
 
@@ -100,7 +100,7 @@ Using Microsoft Purview Information Protection, you can encrypt the voicemail me
 
 To encrypt the voicemail message, you can create a sensitivity label. With the auto-labeling feature, you can ensure that the label will be applied automatically to incoming voicemail messages.
 
-When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Business.
+When you enable protected voicemail, users can listen to protected voicemail messages by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Business.
 
 To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). In the **Encryption** section, choose **Let users assign permissions when they apply the label**. Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
 
