@@ -325,7 +325,7 @@ A room of this type requires the use of an intelligent, ultrawide-angle front-of
 
 #### Camera placement
 
-The camera should be placed at the front of the room below the front-of-room projection but above the top of the table to capture all the meeting room participants at as close to eye level as possible. In most scenarios the ideal height is at  3'-7" or 1090mm
+The camera should be placed at the front of the room below the front-of-room projection but above the top of the table to capture all the meeting room participants at as close to eye level as possible. In most scenarios, the ideal height is 3 feet, 7 inches, or 1090mm.
 
 ### Microphones
 
