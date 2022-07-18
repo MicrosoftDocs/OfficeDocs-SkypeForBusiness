@@ -163,12 +163,12 @@ Retention of content follows the retention policies set for Yammer – regardles
 
 1. On Teams Desktop, join the meeting where you previously added Q&A.
 
-2. From the left, select the second occurrence of the Q&A icon in the Teams Meeting window – this is the Q&A experience that was added through the Teams App Store.
+2. Within the top panel, select the second occurrence from the left of the Q&A icon in the Teams Meeting window – this is the Q&A experience that was added through the Teams App Store.
 
 3. With the selected Q&A tab open, click on the ellipses and click “Remove”. This will remove the Q&A experience that was added through the Teams app store.
 
-> [!NOTE] Only the Q&A app added added via the Teams app store will have an ellipsis to remove the Q&A app. The Q&A experience enabled via Meeting Options will not have an ellipsis and can’t be removed from here.
-
 4. Click “Remove” to permanently remove the Q&A experience that was added via the Teams app store.
+
+> [!NOTE] Only the Q&A app added added via the Teams app store will have an ellipsis to remove the Q&A app. The Q&A experience enabled via Meeting Options will not have an ellipsis and can’t be removed from here.
 
 That’s it! Now there’s only one Q&A experience – powered by Meeting Options. The Q&A app added via the Teams app store is removed.
