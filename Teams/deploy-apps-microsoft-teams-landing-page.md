@@ -77,9 +77,15 @@ Developers can sideload an app to make it available to the members of a specific
 
 If you disallow sideloading, the developers can still test their apps in a [test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the end-users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you can allow or disallow the use a custom app for specific users.
 
-### About App Templates
+## About App Templates
 
-App templates for Teams are functional, production-ready sample apps created by Microsoft to illustrate popular use cases, showcase app development best practices, and provide open-source apps that developers can extend to create custom apps. Your organization developers customize App Templates for your organization needs with simple changes to the code available in GitHub. As an admin, you provide these apps as custom apps for your end-users.
+App templates for Teams are functional and production-ready sample apps created by Microsoft to achieve the following:
+
+* Illustrate the popular use cases
+* Showcase app development best practices
+* Provide open-source apps that developers can extend to create custom apps
+
+Your organization developers customize App Templates with simple changes to the code available in GitHub. You provide these apps as custom apps for your end-users, to meet any organization needs.
 
 To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
