@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams meetings on unsupported browsers
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
