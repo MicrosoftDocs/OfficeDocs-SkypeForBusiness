@@ -49,7 +49,7 @@ To enable NDI® and SDI broadcast features for a user:
 
 To enable the end user, you can use the Teams Admin center or Teams PowerShell as follows.
 
-In the Teams admin center, go to **Meeting policies > Audio & video** and select **Allow NDI Streaming**.
+In the Teams admin center, go to **Meeting policies > Audio & video** and select **Local Broadcasting**.
 
 To use PowerShell, use the Set-CsTeamsMeetingPolicy cmdlet as follows:
 

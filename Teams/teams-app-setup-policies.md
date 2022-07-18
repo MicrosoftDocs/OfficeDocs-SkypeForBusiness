@@ -75,7 +75,7 @@ To create an app setup policy to pin apps, follow these steps:
 > In Teams for Education, the Assignments app is pinned by default in the global policy even though you don't see it listed in the global policy.
 
 > [!NOTE]
-> For the frontline workers in your organization, we recommend using the tailored frontline app experience. This feature pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). To learn more, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
+> For the frontline workers in your organization, we recommend using the tailored frontline app experience. This feature pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). To learn more, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ## Install apps
 
@@ -105,6 +105,9 @@ To create an app setup policy to install apps, follow these steps:
 
 > [!IMPORTANT]
 > Users can't uninstall apps that are installed by admins.
+
+>[!NOTE]
+> Using this procedure, you cannot install custom apps with configurable tabs.
 
 ## Upload custom apps
 
