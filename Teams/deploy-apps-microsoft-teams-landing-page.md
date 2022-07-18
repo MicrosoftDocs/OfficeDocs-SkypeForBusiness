@@ -83,7 +83,7 @@ App templates for Teams are functional and production-ready sample apps created 
 
 * Illustrate the popular use cases
 * Showcase app development best practices
-* Provide open-source apps that developers can extend to create custom apps.
+* Provide open-source apps that developers can extend to create custom apps
 
 Your organization developers customize App Templates with simple changes to the code available in GitHub. You provide these apps as custom apps for your end-users, to meet any organization needs.
 
