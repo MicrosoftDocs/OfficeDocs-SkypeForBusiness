@@ -1,8 +1,8 @@
 ---
 title: Manage the Praise app in the Teams admin center
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: rjam
 audience: admin 
 ms.topic: article 
