@@ -1,7 +1,7 @@
 ---
 title: "Dimensions and measurements - Call Quality Dashboard (CQD)"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
 ms.topic: article

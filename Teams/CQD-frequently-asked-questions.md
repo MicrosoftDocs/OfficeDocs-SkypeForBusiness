@@ -1,7 +1,7 @@
 ---
 title: Call Quality Dashboard (CQD) Frequently asked questions (FAQ)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
