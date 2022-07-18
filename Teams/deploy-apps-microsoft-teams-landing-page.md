@@ -22,9 +22,9 @@ ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # About apps in Microsoft Teams
 
-Apps are a great way to bring together your workplace tools and services and collaborate with others. Apps help end-users be more productive, collaborative, and effective in their day-to-day tasks. Organizations use apps to connect with their customers, provide services, and share information. Apps let users be more effective in Teams chats, meetings, and channels. Examples are end-users using a pinned Calendar in Teams to quickly collaborate with others, an app with bots functionality informing users of QoS of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel.
+Apps are a great way to bring together your workplace tools and services and collaborate with others. Apps help end-users be more productive, collaborative, and effective in their day-to-day tasks. Organizations use apps to connect with their customers, provide services, and share information. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel.
 
-Our extensive selection of validated and secure apps in the store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that do not need to be deployed. End-users can use apps in Teams based only on the [permissions](https://admin.teams.microsoft.com/policies/app-permission) provided by you. As an admin, you just approve or block the use of any app for your organization’s users. You control the availability of apps for all users across meetings, chats, and channels.
+Our extensive selection of validated and secure apps in the store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed. End-users can use apps in Teams based only on the [permissions](https://admin.teams.microsoft.com/policies/app-permission) provided by you. As an admin, you just approve or block the use of any app for your organization’s users. You control the availability of apps for all users across meetings, chats, and channels.
 
 To provide your end-users with apps that they need, read on to understand the types of apps and where your users access those apps. To learn more about use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
 
@@ -51,7 +51,7 @@ Some default functionality such as activity feed, Teams channels, chat, calendar
 
 Microsoft provides many apps to improve productivity and collaboration. You and end-users can find these apps by looking for Microsoft listed as the Publisher in admin center or listed as Provider in the Team store.
 
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps—such as Planner—in your initial Teams rollout.
+Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Microsoft apps in Teams admin center" lightbox="media/microsoft-apps-in-tac2.png":::
 
@@ -71,11 +71,11 @@ After an admin allows the use of custom apps, end-users find such apps by clicki
 
 ### Understand sideloading of custom apps
 
-When developing custom apps and before distributing those to the end-users, developers test the apps by adding it to the store to test on their own or test with a team in which they sideload the app. This method is called sideloading of apps and applies only to custom apps.
+When developing custom apps and before distributing those apps to the end-users, developers test the apps by adding it to the store to test on their own or test with a team in which they sideload the app. This method is called sideloading of apps and applies only to custom apps.
 
-Developers can sideload an app to make it available to the members of a specific team, typically for testing an under-development app. This doesn't require admin approval if sideloading is allowed. As an admin, you can disallow sideloading for any developer.
+Developers can sideload an app to make it available to the members of a specific team, typically to test an under-development app. Using an app in this way limits its usage to the app developers and doesn't require admin approval as long as admin allows sideloading in Teams. As an admin, you can disallow sideloading of app for all developers.
 
-If you disallow sideloading, the developers can still test their apps in a [test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the end-users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you can allow or disallow the use a custom app for specific users.
+If you disallow sideloading, the developers can still test their apps by [creating a separate test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the end-users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you can allow or disallow the use a custom app for specific users.
 
 ### About App Templates
 
@@ -85,7 +85,7 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 ## Understand app capabilities
 
-To provide rich experiences that allow end-users to work inside Teams, app developers leverage the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to the Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
+To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to the Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
 
 Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can chat with a bit one-on-one or in a channel. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
 
