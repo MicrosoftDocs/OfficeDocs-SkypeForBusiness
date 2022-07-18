@@ -23,17 +23,17 @@ ms.custom:
 
 # Manage app setup policies in Microsoft Teams
 
-As an admin, you use app setup policies to install and pin apps and allow users to upload custom apps. Pinning helps promote adoption of relevant apps in your organization.
+As an admin, you use app setup policies to install and pin apps, and allow users to upload custom apps. Pinning helps promote adoption of relevant apps in your organization.
 
 * **Pin apps:** App setup policies let you choose apps to pin, set the order the apps show up for your users in the Teams app bar or the compose message area. Admins can also control whether the end-users can pin their own apps or not. See [Pin apps](#pin-apps).
-* **Install apps:** App setup policies let you install apps on behalf of users when they start Teams and during meetings. For more information, see [Install apps](#install-apps).
+* **Install apps:** App setup policies let you install the allowed apps on behalf of users when they start Teams and during meetings. For more information, see [Install apps](#install-apps).
 * **Upload custom apps:** App setup policies let you allow users to upload custom apps to Teams. For more information, see [Upload custom apps](#upload-custom-apps).
 
 ## Pin apps
 
-Pinning apps lets you highlight apps that users in your organization need the most. Pinning works for apps provided by Microsoft, by ISV firms, and by developers within your organization. Pinning an app via an app setup policy also installs it. Using an app setup policy, you can do the following tasks:
+Pinning apps lets you highlight apps that users in your organization need the most. Pinning works for apps provided by Microsoft, by ISV firms, and by developers within your organization. Pinning an app via an app setup policy also installs it, if the app is allowed for the user. Using an app setup policy, you can do the following tasks:
 
-* Customize Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear.
+* Customize Microsoft Teams for end-users to highlight the most important apps for them. You choose the apps to pin and the order that the apps display in.
 * Control whether users can pin apps or not.
 
 Apps are pinned to the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile clients.
@@ -46,7 +46,7 @@ The messaging extensions are available at the bottom of the compose message area
 
 To create an app setup policy to pin apps, follow these steps:
 
-1. Log in to [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+1. Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
 1. In the left pane, go to **Teams apps** > **Setup policies**.
 
@@ -83,13 +83,12 @@ Using an app setup policy, an admin can achieve the following tasks:
 
 * Install apps for end-users in their personal Teams environment, by default.
 * Install apps for end-users as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
-* Install apps in meetings for meeting organizers.
 
 The end-users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) allows it.
 
 To create an app setup policy to install apps, follow these steps:
 
-1. Log in to Teams admin center and access **Teams apps** > **Setup policies**.
+1. Sign in to Teams admin center and access **Teams apps** > **Setup policies**.
 
 2. Select **Add**.
 
@@ -113,7 +112,7 @@ To create an app setup policy to install apps, follow these steps:
 
 To create a custom policy to allow users to upload custom apps, follow these steps:
 
-1. Log in to Teams admin center and access **Teams apps** > **Setup policies**.
+1. Sign in to Teams admin center and access **Teams apps** > **Setup policies**.
 
 2. Select **Add**.
 
@@ -173,7 +172,7 @@ The Calling app isn't available in Teams for Education. When you create a new cu
 
 #### How many pinned apps can be added to a policy
 
-A minimum of two apps must be pinned to the Teams mobile clients (iOS and Android). If a policy has fewer than two apps, the mobile clients won't reflect the policy settings and instead will continue to use the existing configuration.
+A minimum of two apps must be pinned to the Teams mobile clients (iOS and Android). If a policy has fewer than two apps, the mobile clients won't reflect the policy settings, and instead will continue to use the existing configuration.
 
 There's no limit on the number of pinned apps you can add to a policy.
 
@@ -196,7 +195,7 @@ To view all apps that are pinned for a user, users might have to do the followin
 
 The Teams mobile clients (iOS and Android) support personal apps with static tabs. Apps pinned to the Teams desktop client will appear in the Teams mobile clients. Personal bots will appear in Chat on mobile clients.
 
-Third-party apps (which can be downloaded from Teams Store) need to be approved before they show up on mobile. If an admin pins an app, which is unapproved by Microsoft for Mobile, it will show up on the Teams Desktop, but not show up on mobile. See [Mobile clients](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) for more information.
+Third-party apps (which can be downloaded from Teams Store) need to be approved before they show up on mobile. If an admin pins an app, which is unapproved by Microsoft for Mobile, it will show up on the Teams Desktop, but not show up on mobile. For more information, see [Mobile clients](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients).
 
 With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts.
 
