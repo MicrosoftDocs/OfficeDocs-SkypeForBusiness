@@ -23,7 +23,7 @@ ms.custom:
 description: Reference this article for PowerShell cmdlets to create and manage auto attendants and call queues in Microsoft Teams.
 ---
 
-# PowerShell cmdlet reference for call queues and auto attendants
+# PowerShell cmdlet reference for auto attendants and call queues
 
 The following cmdlet references are for Microsoft Teams auto attendants and call queues.
 
@@ -52,49 +52,6 @@ The following cmdlets allow you to manage auto attendants:
 - [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
 - [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
 
-The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with auto attendants:
-
-### Users/Teams
-
-- Users
-  - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-
-- Teams:
-  - [Get-Team](/powershell/module/teams/Get-Team)
-
-### Resource accounts
-
-- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
-- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
-- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
-- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
-
-### Virtual Teams Phone licenses
-
-- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
-- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
-### Phone number assignment
-
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
-
-### Audio Files
-
-- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
-- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
-- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
-
-### Support Languages and Time zones
-
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-
 For a step-by-step guide to creating auto attendants with PowerShell, see [Creating auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
 ## Call queue cmdlets
@@ -106,7 +63,11 @@ The following cmdlets allow you to manage a call queue:
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with call queues:
+For a step-by-step guide to creating call queues with PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
+
+## Common cmdlets used by both auto attendants and call queues
+
+The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with auto attendants:
 
 ### Users and Teams
 
@@ -128,25 +89,24 @@ The following cmdlets are also required to manage the users, resource accounts, 
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-### Virtual Teams Phone Standard licenses
+### Teams Phone Resource Account licenses
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
-### Assign phone numbers
+### Phone number assignment
 
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
 
-### Audio files
+### Audio Files
 
 - [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
 - [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-### Support language lists
+### Support Languages and Time zones
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-
-For a step-by-step guide to creating call queues with PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)

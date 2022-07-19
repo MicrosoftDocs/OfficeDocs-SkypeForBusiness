@@ -1,7 +1,7 @@
 ---
 title: FAQ - Support your remote workforce
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article

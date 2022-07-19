@@ -1,7 +1,7 @@
 ---
 title: Onboarding checklist - Configure Direct Routing - Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
