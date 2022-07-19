@@ -40,6 +40,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX505                            | `7.3.1.0811 `                            | August 5, 2023          | 9   |
 | AudioCodes C450HD                      | `1.17.443`                                                  | 	August 5, 2023              | 9 |
 | AudioCodes C448HD(Cap Mode Only)       |  `1.17.443`                                                   | August 5, 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | September 3, 2025     | 11 |
