@@ -23,9 +23,6 @@ Q&A allows presenters to take questions from attendees and answer them in real t
 
 This article describes how to manage Q&A and user-level policies, which dictate whether an organizer can enable Teams Q&A in their meetings.
 
-> [!NOTE]
-> This feature is currently in private preview and is not publicly accessible. If you'd like to participate in the private preview program, sign up [here.](https://m365crmedu.powerappsportals.com/LMSSignup/)
-
 ## Prerequisites
 
 - Verify that you haven’t blocked access to [Yammer’s IPs and URLs.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
@@ -48,9 +45,6 @@ Q&A can be used by the following user types:
 When admins enable Q&A, users with the organizer role can turn on Q&A when creating or updating meetings. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to stop attendees from using the feature.
 
 ## Use the Teams admin center to manage Q&A
-
-> [!NOTE]
-> Managing Q&A in the admin center is not available in Public Preview. Use PowerShell to set up and manage Q&A for your users.
 
 Your organization might have requirements to limit which organizers can turn on Q&A. You can use the Teams admin center to manage which organizers can turn on Q&A in large meetings.
 Follow these steps to control which organizers can use Q&A:
