@@ -107,7 +107,7 @@ If you need more details, see [Assign Microsoft as the audio conferencing provid
 > You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
 
 > [!IMPORTANT]
-> Updating numbers using this policy can take up to 24 hours. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
 
 ## Step 8: Set up meeting invitations (optional)
 

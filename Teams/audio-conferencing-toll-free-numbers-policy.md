@@ -112,7 +112,7 @@ To learn about the different ways that you can assign policies to users, see [As
 > A user can be assigned only one audio conferencing policy at a time.
 
 > [!IMPORTANT]
-> Updating numbers using this policy can take up to 24 hours. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
 
 ### Known issue
 
