@@ -53,13 +53,13 @@ Microsoft provides many apps to improve productivity and collaboration. You and 
 
 Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Microsoft apps in Teams admin center" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## Third-party apps validated by Microsoft
 
 In addition to Microsoft-provided apps, you can use Microsoft-validated third-party apps. Microsoft validates the functionality and security of these apps before making these apps available in Teams store. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md).
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="An example of third-party apps in Teams store":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams' store.":::
 
 ## Custom apps
 
@@ -67,7 +67,7 @@ Apps created by developers in your organization are called custom apps. Developm
 
 After an admin allows the use of custom apps, end-users find such apps by clicking **Built for your org** in the left navigation of Teams store.
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Custom apps in Teams store in Teams desktop app" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams' store in the Teams' desktop app." lightbox="media/built-for-your-org2.png":::
 
 ### Understand sideloading of custom apps
 
@@ -81,9 +81,9 @@ If you disallow sideloading, the developers can still test their apps by [creati
 
 App templates for Teams are functional and production-ready sample apps created by Microsoft to achieve the following:
 
-* Illustrate the popular use cases
-* Showcase app development best practices
-* Provide open-source apps that developers can extend to create custom apps
+* Illustrate the popular use cases.
+* Showcase app development best practices.
+* Provide open-source apps that developers can extend to create custom apps.
 
 Your organization developers customize App Templates with simple changes to the code available in GitHub. You provide these apps as custom apps for your end-users, to meet any organization needs.
 
