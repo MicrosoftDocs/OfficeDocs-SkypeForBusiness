@@ -1,7 +1,7 @@
 ---
 title: Raise hand in Teams meetings
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: raramaia
 ms.topic: article

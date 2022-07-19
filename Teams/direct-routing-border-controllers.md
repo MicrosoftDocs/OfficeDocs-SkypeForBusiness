@@ -173,3 +173,6 @@ The following table lists devices that are verified for interoperability between
 Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.
 
 To provide feedback about Teams, such as ideas for new features, see the [Microsoft feedback portal](https://feedbackportal.microsoft.com/).
+
+> [!NOTE]
+> Media re-targeting is not supported. During a Direct Routing call, if the SBC sends a new media IP to Teams Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from Teams Direct Routing.

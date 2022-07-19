@@ -46,7 +46,7 @@ Here are some of the capabilities you have on the mobile app for managing incide
 
 The Incidents page shows the types of open incidents.
 
-![MTMS mobile application incidents page screen](../media/mtms-extended-app-001.png)<!--Microsoft approved image per author.>
+![MTMS mobile application incidents page screen](../media/mtms-extended-app-001.png)
 
 ## Managing tickets
 Here are some of the capabilities you have on the mobile app for managing tickets.
