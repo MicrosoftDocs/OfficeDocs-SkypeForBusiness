@@ -35,7 +35,7 @@ To know the detailed validation guidelines that app developers adhere to, see [V
 We execute 400+ test cases for every app before it's made available on the Teams Store. The tests ensure appropriate functionality, user experience, and security, and ensure that all apps comply with the publicly listed CMO policies. Following are some of the tests carried out by Microsoft App Validation team for every app before it's published:
 
 * Ensure that Graph permissions requested by the app are really the ones that the app functionality needs and not any extra permissions. Graph permissions for existing apps are regularly checked to ensure no extra permissions are required by an app.
-* Apps that require users to sign in have a sign out option.
+* Apps that require users to sign in have a sign-out option.
 * All app publishers undergo a detailed verification process on Microsoft Partner Center. The verification includes email verification, business verification and more. To know more about app publishing, see [How developers create a Partner Center account](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Submission guide for developers](/office/dev/store/add-in-submission-guide), and [How developers publish apps](https://aka.ms/PublishToTeamsStore).
 * Only apps from verified publishers can seek Graph permissions from end users.
 * No app can download an executable file.
