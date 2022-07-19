@@ -42,7 +42,7 @@ Q&A can be used by the following user types:
 > [!NOTE]
 > Q&A will not be available to View Only Attendees who join past the meeting capacity.
 
-When admins enable Q&A, users with the organizer role can turn on Q&A when creating or updating meetings. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to stop attendees from using the feature.
+When admins enable Q&A, users with the [organizer role](https://aka.ms/GetQnA) can turn on Q&A when creating or updating meetings. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to stop attendees from using the feature.
 
 ## Use the Teams admin center to manage Q&A
 
