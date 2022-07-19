@@ -50,7 +50,7 @@ Delete this section after customer migration to new Webhook URL is complete.
 
 ## Publish connectors for your organization
 
-If you want a custom connector to be available only to the users in your organization, you can upload a custom connector app to your organization's app catalog. After you upload the app package, the end-users can install the connector from the organization's app catalog,, and can configure and use the connector in a team.
+If you want a custom connector to be available only to the users in your organization, you can upload a custom connector app to your organization's app catalog. After you upload the app package, the end-users can install the connector from the organization's app catalog, and can configure and use the connector in a team.
 
 <!---TBD: Check if these instructions are for admins or end-users. I cannot find these options either in Teams or in TAC.
 
