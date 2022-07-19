@@ -39,7 +39,7 @@ To assign a policy to a user:
 ![Assign a policy to a user in the Teams admin center.](media/assign-policy-user.png)
 
 > [!NOTE]
-> To unassign a specialized policy from a user, you can set each policy to **Global (Org-wide default)**. You can also remove policy assignments in bulk for all assigned users directly assigned to a custom policy. To learn more, read [Unassign policies in bulk](#unassign-policies-in-bulk).
+> To unassign a specialized policy from a user, you can set each policy to **Global (Org-wide default)**. You can also remove policy assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](#unassign-policies-in-bulk).
 
 You can also do the following to assign a policy to a user:
 
@@ -342,7 +342,7 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](/powershell/module/tea
 
 ## Unassign policies in bulk
 
-When you unassign policies in bulk, you're removing custom policy assignments that were assigned to groups or individual users through direct assignment. This is useful in the following scenarios:
+When you unassign policies in bulk, you're removing policy assignments that were assigned to groups or individual users through direct assignment. This is useful in the following scenarios:
 
 1. **For Global (Org-wide default) or group policy assignments to take effect:** Due to [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence), Global (Org-wide default) or group policy assignments won't take effect for uses who have a direct policy assignment. As an admin, you can unassign policies in bulk to remove individual assignments so Global (Org-wide default) or group policy assignments take effect.
 1. **Clean up policy assignments from the Teams Education wizard:** The Teams Education policy wizard applies the global policy defaults for students and assigns a custom policy set for a group of staff using group policy assignment. Admins need to clean up student and staff individual policies for Global (Org-wide default) and group assignments to be effective.
@@ -359,6 +359,9 @@ When you unassign policies in bulk, you're removing custom policy assignments th
     > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
 
 3. Select a policy type.
+
+    ![Unassign policies in bulk page in the Teams admin center.](media/unassign-policies-page.png)
+
 4. Choose the policy that you want to reassign and select **Load data** to get the number of users who are currently assigned to that policy.
 
     > [!IMPORTANT]
