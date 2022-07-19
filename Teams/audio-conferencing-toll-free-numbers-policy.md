@@ -111,6 +111,9 @@ To learn about the different ways that you can assign policies to users, see [As
 > [!NOTE]
 > A user can be assigned only one audio conferencing policy at a time.
 
+> [!IMPORTANT]
+> Updating numbers using this policy can take up to 24 hours. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+
 ### Known issue
 
 When you start a meeting using the **Meet now** option from Microsoft Teams > Calendar > Meet Mow, if you then select the ellipsis ... menu option, and then Meeting Info, there will be an issue with the lower portion of the section under **Or call in (audio only)**. All phone numbers defined in the policy will be shown, but the alignment of the numbers makes it difficult to read.
