@@ -277,7 +277,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 **Other endpoints - audio notice**
 - SIP phones
 - Skype for Business
-- Audio conferencing (audio notice in dial-in number's default or user selected language)
+- Audio conferencing (audio notice in dial-in number's default or user-selected language)
 - PSTN callers (audio notice in Teams user's default language)
 
 > [!NOTE]
