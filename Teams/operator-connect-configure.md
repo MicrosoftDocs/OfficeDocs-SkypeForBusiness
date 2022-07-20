@@ -108,16 +108,15 @@ How you remove your existing Direct Routing numbers depends whether the number i
     
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
+```
 
 If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Microsoft 365.
 
-```
-<br> **To remove existing Direct Routing numbers assigned online,** 
+**To migrate existing Direct Routing numbers assigned online,**
 
 Contact your operator to migrate your numbers to Operator Connect. See [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) to find your operator's website. On the agreed date and time, your operator will migrate your numbers from Direct Routing to Operator Connect.
-=======
-    
-**To remove Direct Routing numbers assigned on-premises,** run the following Skype for Business Server PowerShell command:
+
+**To migrate Direct Routing numbers assigned on-premises,** run the following Skype for Business Server PowerShell command:
 >[!IMPORTANT]
 > The phone number will be out of service during the migration, so coordinate with your Operator Connect operator before you begin.
 
