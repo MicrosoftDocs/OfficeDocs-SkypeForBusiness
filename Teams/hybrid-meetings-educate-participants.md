@@ -25,6 +25,8 @@ Share these best practices with your users to help them make the most out of the
 
 ## Meeting organizer and presenters
 
+Meeting organizers and presenters set the tone of a meeting and can significantly influence the experience for both in-room and remote participants. By following these best practices, they'll make meetings more inclusive and improve information sharing between all recipients.
+
 | Tasks                                                         | Notes                                                                                                                                                                                                                                                           |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Room preparation**                                          |                                                                                                                                                                                                                                                                 |
@@ -48,6 +50,8 @@ Share these best practices with your users to help them make the most out of the
 
 ## Remote participants
 
+Remote users need to be treated as equal participants in meetings so they can contribute to discussions in a meaningful way. Best practices they can apply before and during the meeting can significantly increase their impact.
+
 | Tasks                                      | Notes                                                                                                                                                                                                                                                                                           |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Set up a meeting space**                 |                                                                                                                                                                                                                                                                                                 |
@@ -68,18 +72,19 @@ Share these best practices with your users to help them make the most out of the
 
 ## In-room participants
 
-| Tasks                                             | Notes |
-|---------------------------------------------------|-------|
-| **Meeting preparation**                           |       |
-| Join the meeting from your device                 |       |
-| Turn on your camera                               |       |
-| Keep camera feeds open                            |       |
-| Mute your microphone and speakers                 |       |
-| **In-meeting tasks**                              |       |
-| Be mindful of remote participants                 |       |
-| Monitor and participate in chat                   |       |
-| Watch for the "raise hand" reaction               |       |
-| Use reactions to react to content and discussions |       |
-| Avoid in-room side discussions                    |       |
-| **Post-meeting tasks**                            |       |
-| Provide feedback to the organizer                 |       |
+In-room participants might feel that it's more natural to discuss matters with those next to them. However, by applying these best practices, they can easily increase the scope of their discussions to include someone working from home or across the country.
+
+| Tasks                                             | Notes                                                                                                                                                                                                                                                                                                      |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Meeting preparation**                           |                                                                                                                                                                                                                                                                                                            |
+| Join the meeting from your device                 | Join the meeting from your device even though you're in the room. Joining the meeting lets you turn on your camera, use reactions, and follow along with meeting chat.                                                                                                                                     |
+| Turn on your camera                               | Turn on your camera so remote participants can more easily tell who's talking. Turning on your camera also helps you make a better connection when everyone can see you when you're talking.                                                                                                               |
+| Keep camera feeds open                            | Keep Teams open so you can see remote participants' cameras. Keeping their camera feeds open lets you see their reactions and body language, and helps you maintain a connection with them.                                                                                                                |
+| Mute your microphone and speakers                 | Teams should automatically mute your microphone and microphone when you join in a Teams room, but double check when you join. Muting your microphone and speakers prevents audio echos from happening.                                                                                                     |
+| **In-meeting tasks**                              |                                                                                                                                                                                                                                                                                                            |
+| Be mindful of remote participants                 | Remember that remote participants might be present in the meeting. Keep noise and in-room side discussions to a minimum because they can easily drown out the presenter. Speaker clearly so that remote participants can hear you. Give remote participants opportunities to contribute to the discussion. |
+| Monitor and participate in chat                   | Rather than hold in-room side conversations, add them to meeting chat. This way, all meeting participants can join in the discussion and in-room noise is kept to a minimum.                                                                                                                               |
+| Watch for the "raise hand" reaction               | Let the organizer or presenter know if someone is using the "raise hand" reaction. This means they have a question or want to contribute to the discussion.                                                                                                                                                |
+| Use reactions to react to content and discussions | Use reactions so that everyone can see how you feel about a presentation or discussion. Others might agree with you and join in!                                                                                                                                                                           |
+| **Post-meeting tasks**                            |                                                                                                                                                                                                                                                                                                            |
+| Provide feedback to the organizer                 | Let the organizer know how the meeting went for you. It's important to let them know any issues you encountered so they can be resolved.                                                                                                                                                                   |
