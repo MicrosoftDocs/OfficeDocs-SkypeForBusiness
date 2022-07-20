@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Monitoring and Alerting 
-author: vaibhav
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
