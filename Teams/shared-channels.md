@@ -153,6 +153,8 @@ The following limitations also apply:
 
 - Notifications from shared channels are not included in missed activity emails.
 
+- Shared channels are not supported in class teams.
+
 ## Supported apps in shared channels
 
 For information about how to prepare your app for shared channels, see [How to open your app to cross-organizational collaboration with Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
