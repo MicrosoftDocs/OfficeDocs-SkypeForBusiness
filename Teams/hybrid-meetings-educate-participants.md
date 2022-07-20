@@ -21,6 +21,8 @@ keywords:
 
 # Teams meeting participant best practices
 
+Share these best practices with your users to help them make the most out of their meetings.
+
 ## Meeting organizer and presenters
 
 | Tasks                                                         | Notes                                                                                                                                                                                                                                                           |
@@ -46,23 +48,23 @@ keywords:
 
 ## Remote participants
 
-| Tasks                                      | Notes |
-|--------------------------------------------|-------|
-| **Set up a meeting space**                 |       |
-| Find a quiet room with a door              |       |
-| Use a good-quality camera                  |       |
-| Use a good-quality microphone or headset   |       |
-| Check your lighting                        |       |
-| Check what's behind you or use backgrounds |       |
-| Mute home assistants                       |       |
-| **In-meeting tasks**                       |       |
-| Turn on your camera                        |       |
-| Monitor and participate in chat            |       |
-| Use "raise hand" and other reactions       |       |
-| Participate in discussions                 |       |
-| Report call quality issues                 |       |
-| **Post-meeting tasks**                     |       |
-| Provide feedback to the organizer          |       |
+| Tasks                                      | Notes                                                                                                                                                                                                                                                                                           |
+|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Set up a meeting space**                 |                                                                                                                                                                                                                                                                                                 |
+| Find a quiet room with a door              | Working from home can mean distractions. Try to find a quiet space free of distractions like pets or other household members. If you can't find a space with a door, let others know that you're in a meeting and need some quiet time.                                                         |
+| Use a good-quality camera                  | A good quality camera can not only give a crisp, professional, image but also significantly improve lighting if you're in a darker space. Place the camera above your eye line to avoid unflattering angles.                                                                                    |
+| Use a good-quality microphone or headset   | Most external cameras have a good quality microphone and, when combined with Teams' noise suppression, capture your voice loud and clear. However, in some loud environments like a coffee shop, a headset might make more sense, particularly if you're having difficulty hearing the meeting. |
+| Check your lighting                        | Open your blinds and turn on a light to help your camera pick up your image. To avoid shadows on your face, sit facing a window, buy a ring light, or point a light at a wall in front of you. Pointing the light at the wall will provide lighting that isn't as harsh as direct lighting.     |
+| Check what's behind you or use backgrounds | Remember that your camera will capture not only you but what's behind you. If you have a messy room, or have confidential information you don't want to share, use Teams meeting backgrounds or background blurring. You can turn these on and check your background before joining a meeting.  |
+| Mute home assistants                       | It's always a good idea to remove or mute home assistant devices before joining a meeting. While manufacturers say these devices don't listen all the time, you could accidentally use the "wake word" and cause the device to capture part of your conversation.                               |
+| **In-meeting tasks**                       |                                                                                                                                                                                                                                                                                                 |
+| Turn on your camera                        | Let people see you! Turn on your camera so people can see you when you're talking and so they can see your reactions and expressions.                                                                                                                                                           |
+| Monitor and participate in chat            | Use meeting chat to participate in side discussions or to raise questions if the meeting organizer or monitor is gathering them for the presenter.                                                                                                                                              |
+| Use "raise hand" and other reactions       | If you have a question or add to the discussion on the call, use the "raise hand" reaction. This notifies the organizer or presenter that someone wants to speak up.                                                                                                                            |
+| Participate in discussions                 | Whether you use meeting chat or the "raise hand" reaction, make sure to participate! Remote participants have an equal say in meeting discussions and should have the opportunity to contribute to them.                                                                                        |
+| Report call quality issues                 | If you're having trouble hearing the meeting, if you can't see in-room video, or if you can't see the material being presented, let the organizer or presenter know. Use the "raise hand" reaction, send a message in chat, or interrupt the discussion to make them aware.                     |
+| **Post-meeting tasks**                     |                                                                                                                                                                                                                                                                                                 |
+| Provide feedback to the organizer          | Let the organizer know how the meeting went for you. It's important to let them know any issues you encountered so they can be resolved. In-room organizers and presenters may not be aware of issues experienced by remote participants.                                                       |
 
 ## In-room participants
 
