@@ -32,9 +32,9 @@ In most cases, after app developers publish an app update, the new version autom
 * A new connector was added.
 * Permissions inside "Authorization" were added or changed.
 
-:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available.":::
+:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
 
-:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app.":::
+:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
 
 > [!NOTE]
 > The update process applies to all app updates for Microsoft apps, custom apps, and third-party apps.
