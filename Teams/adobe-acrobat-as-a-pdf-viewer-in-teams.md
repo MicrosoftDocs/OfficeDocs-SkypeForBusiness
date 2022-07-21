@@ -1,5 +1,5 @@
 ---
-title: Adobe Acrobat experience in Teams
+title: Adobe Acrobat as a default PDF viewer in Teams
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -21,9 +21,11 @@ ms.localizationpriority: medium
 # Adobe Acrobat as a default PDF viewer in Teams
 
 > [!NOTE]
-> Adobe Acrobat as a default PDF experience in Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature.
+> Adobe Acrobat as a default PDF experience in Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature. Ensure that you change your Teams client version to public to experience Adobe Acrobat as PDF viewer in Teams.
 
-As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Your end-users don't need an Adobe Acrobat subscription or an Adobe ID to use the Adobe Acrobat app.
+As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Your end-users don't need an Adobe Acrobat subscription or an Adobe ID to view, search, comment and annotate PDFs.
+
+## Set up Adobe Acrobat app
 
 To set up Adobe Acrobat as the default app to view PDF files, follow these steps:
 
@@ -64,7 +66,10 @@ If you want to selectively allow the Adobe Acrobat app for a few specific indivi
 
 Know the following information about this functionality:
 
-* After the policy is set up, it typically takes few hours for users to view the installed app.
-* Currently, Adobe Acrobat doesn't allow users to pin PDF files as a tab in a channel.
+* After the policy is set up, it typically takes [few hours](teams-app-setup-policies.md) for users to view the installed app.
+* Pinning PDFs in channels is powered by native Teams experience.
 * PDF viewing experience in the Assignments app continues to remain the same.
-* On Teams mobile, you can't set Adobe Acrobat as the default PDF viewer.
+* Adobe Acrobat as PDF experience in Teams works only on desktop and web clients. It is not supported on mobile apps.
+
+> [!NOTE]
+> From Teams desktop client, If you face any issues while signing to Adobe Acrobat app, you can open Teams in browser and sign in. This is a know issues and will be resolved by September, 2022.
