@@ -1,7 +1,7 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -132,10 +132,10 @@ User signals identify when a user is actively participating in the call, is not 
 
 ## Teams devices with support for real-time telemetry
 
-- MTR - Surface Hub
-- MTR - Teams Display
-- MTR - Collaboration bar
-- IP Phone devices
+- Teams display
+- Teams phone
+- Teams Rooms
+- Teams Rooms on Surface Hub
 
 > [!NOTE]
 > Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
