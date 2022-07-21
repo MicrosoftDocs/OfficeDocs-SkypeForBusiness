@@ -48,7 +48,7 @@ The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-pub
 
 Here's an example of what this app submission step looks like in Visual Studio Code:
 
-![submitting an app in Visual Studio Code.](media/custom-app-lifecycle-submit-app.png)
+:::image type="content" source="media/custom-app-lifecycle-submit-app.png" alt-text="submitting an app in Visual Studio Code.":::
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Teams admin center where you can approve it for publishing to your organization's app store.
 
