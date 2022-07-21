@@ -87,10 +87,10 @@ Global admins can add more licenses, remove licenses, and cancel subscriptions f
 In Teams admins center, you can manage the app subscriptions and licenses you purchased. You can view the list of app subscriptions and their details and also perform the following actions:
 
 * Change a plan
-* Buy or remove licenses
+* Buy or remove license
 * Update a payment method
 * Cancel a subscription
-* View your invoices
+* View your invoice
 
 To manage subscriptions, follow these steps:
 
