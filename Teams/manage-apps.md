@@ -109,7 +109,7 @@ If an admin dismisses a request, it doesn't inform the end-user that their reque
 
 ## Allow the apps that are blocked by the developers
 
-When a developer publishes an app to the Teams app store, they might need admins to configure or customize the app experience. The admin make the experience available to tge end-users when the app is set up.
+When a developer publishes an app to the Teams app store, they might need admins to configure or customize the app experience. The admins make the experience available to the end-users when the app is set up.
 
 For example, Contoso Electronics is an ISV that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and is hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**.
 
