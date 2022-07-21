@@ -75,7 +75,7 @@ After you turn on this setting, you'll get notifications in the **Admin Alerts a
 
 You can also set up notifications to an external webhook by specifying a public webhook URL after you select the **Webhook** checkbox. A JSON notification payload will be sent to your webhook URL.
 
-:::image type="content" source="media/app-submission-notification.png" alt-text="App submission notification. lightbox="media/app-submission-notification.png":::
+:::image type="content" source="media/app-submission-notification.png" alt-text="App submission notification." lightbox="media/app-submission-notification.png":::
 
 After you set up the app submissions rule, you can review notification cards in the specified channel to see app details and select **View details** to open apps in the Teams admin center.
 
@@ -89,7 +89,7 @@ In the table, a newly submitted app automatically shows a **Publishing status** 
 
 Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
-:::image type="content" source="media/custom-app-lifecycle-app-details.png" alt-text="App details page for a submitted app. lightbox="media/custom-app-lifecycle-app-details.png":::
+:::image type="content" source="media/custom-app-lifecycle-app-details.png" alt-text="App details page for a submitted app." lightbox="media/custom-app-lifecycle-app-details.png":::
 
 For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id&preserve-view=true).
 
@@ -141,7 +141,7 @@ To review and publish an app update:
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 1. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
 
-   :::image type="content" source="media/custom-app-lifecycle-update-app.png alt-text="App details page." lightbox="media/custom-app-lifecycle-update-app.png":::
+   :::image type="content" source="media/custom-app-lifecycle-update-app.png" alt-text="App details page." lightbox="media/custom-app-lifecycle-update-app.png":::
 
 1. When you're ready, select **Publish** to publish the update. Doing this replaces the existing app, updates the version number, and changes the **Publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
 
