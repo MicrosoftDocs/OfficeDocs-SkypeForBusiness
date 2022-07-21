@@ -149,6 +149,9 @@ User signals identify when a user is actively participating in the call, is not 
 - Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
 
+> [!NOTE]
+> As part of a limited-time public preview, real-time telemetry data is currently available for **7 days** after a meeting has ended. The above limits will apply once the public preview has concluded.
+
 ## Related topics
 
 [Set up per-user call analytics](set-up-call-analytics.md)
