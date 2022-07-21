@@ -72,4 +72,4 @@ Know the following information about this functionality:
 * Adobe Acrobat as PDF experience in Teams works only on desktop and web clients. It is not supported on mobile apps.
 
 > [!NOTE]
-> From Teams desktop client, If you face any issues while signing to Adobe Acrobat app, you can open Teams in browser and sign in. This is a know issues and will be resolved by September, 2022.
+> From Teams desktop client, if you face any issues while signing to Adobe Acrobat app, you can open Teams in browser and sign in. This is a known issues and will be resolved by September 2022.
