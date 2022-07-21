@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Customer-reported incidents
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome 
 ms.topic: article
@@ -26,6 +26,11 @@ For any type of incident that Microsoft did not flag, or for questions about the
 ![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)
 
 In the Description field, describe as best as possible the issue that you need help with from Microsoft. You can add one or more rooms.
+
+Check  **High Impact** if the incident is causing significant health degradation for the service or for a critical room. To help Microsoft properly prioritize your request, describe in detail the reason this is high impact.
+
+> [!NOTE]
+> Do not use this field for general questions, rooms, and/or issues that do not have available mitigation.
 
 ![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)
 
