@@ -66,16 +66,16 @@ After you turn on this setting, you'll get notifications in the **Admin Alerts a
 1. Search for a channel to add.
 1. Select **Apply**.
 
-    ![Custom channel alert notification checkbox.](media/channel-alert.png)
+   :::image type="content" source="media/channel-alert.png" alt-text="Custom channel alert notification checkbox." lightbox="media/channel-alert.png":::
 
 > [!NOTE]
 > Select the **Default channel alert** checkbox to receive notifications to the **Admin Alerts and Notifications** team in the **App Submissions** channel.
 
-![Default channel alert notification checkbox.](media/default-channel-alert.png)
+:::image type="content" source="media/default-channel-alert.png" alt-text="Default channel alert notification checkbox." lightbox="media/default-channel-alert.png":::
 
 You can also set up notifications to an external webhook by specifying a public webhook URL after you select the **Webhook** checkbox. A JSON notification payload will be sent to your webhook URL.
 
-![App submission notification.](media/app-submission-notification.png)
+:::image type="content" source="media/app-submission-notification.png" alt-text="App submission notification. lightbox="media/app-submission-notification.png":::
 
 After you set up the app submissions rule, you can review notification cards in the specified channel to see app details and select **View details** to open apps in the Teams admin center.
 
@@ -85,11 +85,11 @@ The [Manage apps](/microsoftteams/manage-apps) page in the Teams admin center (i
 
 In the table, a newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked**. You can sort the **Publishing status** column in descending order to quickly find the app.
 
-![publishing status.](media/custom-app-lifecycle-validate-app.png)
+:::image type="content" source="media/custom-app-lifecycle-validate-app.png" alt-text="Publishing status." lightbox="media/custom-app-lifecycle-validate-app.png":::
 
 Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
-![app details page for a submitted app.](media/custom-app-lifecycle-app-details.png)
+:::image type="content" source="media/custom-app-lifecycle-app-details.png" alt-text="App details page for a submitted app. lightbox="media/custom-app-lifecycle-app-details.png":::
 
 For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id&preserve-view=true).
 
@@ -124,7 +124,7 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
-:::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Apps page showing published app.":::
+:::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Apps page showing published app." lightbox="media/custom-app-lifecycle-discovery.png":::
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
@@ -134,14 +134,15 @@ To update an app, developers should continue to follow the steps in the [Develop
 
 When the developer submits an update to a published custom app, you'll get notified in the **Pending approval** widget of the [Manage apps](/microsoftteams/manage-apps) page. In the table, the **Publishing status** of the app will be set to **Update submitted**. You'll also be notified in the **Admin Alerts and Notifications** team under the **App submission** channel if you turned on app submission notifications. The notification card will have a link to take you directly to the app in the Teams admin center. For more information on how to turn on app submission notifications, see [Notify](#notify).
 
-:::image type="content" source="media/custom-app-lifecycle-update-submitted.png" alt-text="Manage apps page showing pending requests and app status.":::
+:::image type="content" source="media/custom-app-lifecycle-update-submitted.png" alt-text="Manage apps page showing pending requests and app status." lightbox="media/custom-app-lifecycle-update-submitted.png":::
 
 To review and publish an app update:
 
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 1. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
 
-    ![app details page.](media/custom-app-lifecycle-update-app.png)
+   :::image type="content" source="media/custom-app-lifecycle-update-app.png alt-text="App details page." lightbox="media/custom-app-lifecycle-update-app.png":::
+
 1. When you're ready, select **Publish** to publish the update. Doing this replaces the existing app, updates the version number, and changes the **Publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
 
     If you reject the update, the earlier version of the app remains published.
