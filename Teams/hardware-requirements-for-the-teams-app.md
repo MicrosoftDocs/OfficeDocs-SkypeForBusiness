@@ -1,8 +1,8 @@
 ---
 title: Hardware requirements for Microsoft Teams
 ms.reviewer: microthk, sthurlow
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: reference
@@ -35,7 +35,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Windows OS: Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update)
-|Operating system  |    Windows 11, Windows 10 (excluding Windows 10 LTSC), Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Note: We recommend using the latest Windows version and security patches available.|
+|Operating system  |    Windows 11, Windows 10 (excluding Windows 10 LTSC for Teams desktop app), Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Note: We recommend using the latest Windows version and security patches available.|
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    |

@@ -1,7 +1,7 @@
 ---
 title: Set up and manage channel moderation
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article

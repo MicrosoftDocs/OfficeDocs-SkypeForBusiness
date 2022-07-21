@@ -4,26 +4,26 @@ This article covers how to create resource accounts and ready them for use with 
 
 Before you start the procedures in this article, ensure you've done the following:
 
-- [Obtain virtual user licenses](#obtain-virtual-user-licenses)
+- [Obtain Microsoft Teams Phone Resource Account licenses](#obtain-microsoft-teams-phone-resource-account-licenses)
 - [Obtain service numbers](#obtain-service-numbers)
 
 > [!NOTE]
 > Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
-### Obtain virtual user licenses
+### Obtain Microsoft Teams Phone Resource Account licenses
 
-Each resource account requires a license in order to work with auto attendants and call queues. You can use a free *Microsoft Teams Phone Standard - Virtual User* license. To obtain these licenses, see [Virtual User license](../teams-add-on-licensing/virtual-user.md).
+Each resource account requires a license in order to work with auto attendants and call queues. You can use a free *Microsoft Teams Phone Resource Account* license. To obtain these licenses, see [Microsoft Teams Phone Resource Account licenses](../teams-add-on-licensing/virtual-user.md).
 
 We cover how to [assign the license to a resource account later in this article](#assign-a-license).
 
-If you purchased **Teams Phone Standard** or **Teams Phone with Calling Plan** bundle licenses, virtual licenses are already in your account.
+If you purchased **Teams Phone Standard** or **Teams Phone with Calling Plan** bundle licenses, *Teams Phone Resource Account* licenses are already in your account.
 
-To see if you already have virtual licenses, log into Microsoft 365 using an account with Global admin permissions. Then, go to [Billing > Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have virtual licenses, they'll appear as **Microsoft Teams Phone Standard - Virtual User**.
+To see if you already have Resource Account licenses, log into Microsoft 365 using an account with Global admin permissions. Then, go to [Billing > Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have Resource Account licenses, they'll appear as **Microsoft Teams Phone Resource Account**.
 
 1. Open the Microsoft 365 admin center and log in with a user that is a Global admin. This is usually the account you used to sign up for Microsoft 365.
 2. In the left navigation pane, go to [**Billing** > **Purchase services**](https://admin.microsoft.com/Adminportal/Home#/catalog) > **Add-ons** > **See all Add-ons products**.
-3. Scroll to the end to find the **Microsoft Teams Phone Standard – Virtual User** license. Select **Details**, then **Buy**.
-4. On the license purchase page, select the number of virtual user licenses you want. You need one virtual license for each auto attendant and call queue you plan to set up. We recommend selecting at least five licenses so you can easily set up more auto attendants and call queues in the future without having to purchase more licenses right away.
+3. Scroll to the end to find the **Microsoft Teams Phone Resource Account** license. Select **Details**, then **Buy**.
+4. On the license purchase page, select the number of Resource Account licenses you want. You need one Resource Account license for each auto attendant and call queue you plan to set up. We recommend selecting at least five licenses so you can easily set up more auto attendants and call queues in the future without having to purchase more licenses right away.
 5. Uncheck **Automatically assign to all of your users with no licenses**.
 6. Select **Check out now**.
 7. Confirm your order, select **Next**, and then **Place order**.
@@ -51,11 +51,11 @@ You can create a resource account in the Teams admin center.
 
 ## Assign a license
 
-For each resource account, you must assign a *Microsoft Teams Phone Standard - Virtual User* license or *Teams Phone Standard* license.
+For each resource account, you must assign a *Microsoft Teams Phone Resource Account* license or *Teams Phone Standard* license.
 
 1. In the Microsoft 365 admin center, expand **Users**, then select **Active users**.
 2. Select the resource account to which you want to assign a license. The resource account's user pane will appear.
-3. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Standard - Virtual User**.
+3. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Resource Account**.
 4. Select **Save changes**.
 
 ## Assign a service number

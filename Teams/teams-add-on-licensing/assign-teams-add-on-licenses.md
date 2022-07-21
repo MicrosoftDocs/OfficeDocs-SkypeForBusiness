@@ -1,7 +1,7 @@
 ---
 title: Assign Teams add-on licenses to users
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -140,7 +140,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Audio Conferencing Pay Per Minute (pay as you go) Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
 | Teams Phone Standard | MCOEV |
 | Teams Phone with Calling Plan | MCOTEAMS_ESSENTIALS |
-| Domestic and International Calling Plan | MCOPSTN2 |
+| International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
 | Domestic Calling Plan (120 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN5 |
 | Domestic Calling Plan (240 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN6 |

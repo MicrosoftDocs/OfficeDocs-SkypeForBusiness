@@ -1,7 +1,7 @@
 ---
 title: Onboarding checklist - Configure cloud voice workloads - Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
