@@ -67,6 +67,7 @@ After searching the audit sign in the compliance portal, you can export the audi
 
 ## See also
 
+* [Use audit logs to investigate Microsoft Power Platform installation activity](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Search the audit sign in the compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Overview of Microsoft Purview Audit Premium](/microsoft-365/compliance/advanced-audit).
 * [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).

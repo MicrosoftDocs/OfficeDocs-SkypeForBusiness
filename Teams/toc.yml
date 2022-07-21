@@ -1559,8 +1559,6 @@ items:
           href: purchase-third-party-apps.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
-    - name: App templates for Teams
-      href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
     - name: Manage custom line-of-business apps
       items:
