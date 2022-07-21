@@ -1,12 +1,10 @@
 ---
-title: "Manage phone numbers for your organization"
+title: "Phone numbers and licensing changes"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: davlick, roykuntz, jastark
+ms.reviewer: jenstr
 ms.topic: conceptual
-ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
-ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
@@ -20,67 +18,57 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.voice.phonenumbers.overview
-  - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
-  - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
-  - ms.lync.lac.VASAMissingGeoCodes
-  - Calling Plans
-  - seo-marvel-apr2020
-description: Learn how to get and manage user (subscriber) and service (toll and toll-free) telephone numbers for Microsoft Teams for your organization.
+
+description: Learn how licensing changes can affect phone number management.
 ---
 
-# Manage telephone numbers for your organization
+# How licensing affects phone number management
 
-Currently, Microsoft supports two telephone number types: 
+This article describes how licensing changes can affect phone number management. 
 
-- [**User numbers**](#user-telephone-numbers), also called subscriber numbers, which can be assigned to users in your organization.
+For general information on managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
 
-- [**Service numbers**](#service-telephone-numbers), which are assigned to services such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
+For general information on Teams add-on liensing, see [Microsoft Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Microsoft is working to simplify number types, but for now you will need to decide:
+Removing and assigning licenses can affect phone number assignment and impact a user's ability to make and receive Public Switched Telephone Network (PSTN) calls in Microsoft Teams.
 
-- Which user locations need new telephone numbers from Microsoft?
-- Which type of telephone number (subscriber or service) do I need?
-- How do I port existing telephone numbers to Teams?
+## Remove a license
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option.
+If you have a user with an assigned phone number and you remove one or more of the prerequisites licenses, removing the license will also unassign the phone number from the user. Without an assigned phone number, the user's ability to make and receive PSTN calls in Microsoft Teams is impacted.
 
-- For information about managing telephone numbers for Microsoft Calling Plan, see [Manage telephone numbers for Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Depending on the user's PSTN connectivity option, removing a license has different impacts on the telephony parameters:
 
-- For information about managing telephone numbers for Operator Connect, see [Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
-
-- For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
-
-If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
-
-## User telephone numbers
-
-There are two types of user telephone numbers, which can be assigned to users in your organization:  
-    
-- **Geographic numbers** have a relationship to a geographic area and are the most common. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
-    
-- **Non-geographic numbers** are known as national numbers or sometimes VoIP numbers. These numbers don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
+- **Removing a Microsoft 365 Calling Plan license from a user with a Calling Plan phone number** will:
+  - Copy any value in OnPremLineUri to LineUri
+  - Set EnterpriseVoiceEnabled to False
+  - Set phone number assignment status to Unassigned in the phone number database
 
 
-## Service telephone numbers  
-
-This section describes service numbers available from Microsoft that are included in your licensing. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider. 
-
-There are two types of service telephone numbers provided by Microsoft--toll and toll-free--which can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number). Microsoft’s telephony licenses in each country/region dictate what the number can be used for.
-    
- - **Toll service numbers** - There are two types of toll service numbers, which may incur a toll cost to the caller:
-    
-   - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
-        
-   - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
-   
-- **Toll-free service numbers** - These service numbers don't typically incur a toll cost to the caller. Teams provides national toll-free numbers in over 60 countries/regions.
-    
-    > [!CAUTION]
-    > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
+- **Removing a Microsoft 365 Phone System license from a user with an Operator Connect phone number** will:
+  - Clear LineUri
+  - Set EnterpriseVoiceEnabled to False
+  - Set the phone number’s assignment status to Unassigned in the phone number database
 
 
-    
-  
-> [!NOTE]
-> If you need to get more telephone numbers than this, contact the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+- **Removing a Microsoft 365 Phone System license from a user with a Direct Routing phone number** will:
+  - Clear LineUri
+  - Set EnterpriseVoiceEnabled to False
+  - Remove the phone number from the phone number database
+
+
+
+## Change a license
+
+If you need to change a license for a user, you need to ensure that the licensing changes are done at the same time. 
+
+If you first remove the old license and save the change, and then add the new license and save that change, the phone number will be unassigned, and the user might lose the ability to make and receive PSTN calls in Microsoft Teams. After the new license has been assigned, you’ll have to assign the phone number again to the user.
+
+For example, assume you want to assign Microsoft 365 E5 license to a user who currently has a Microsoft 365 E3 license. Using the Microsoft 365 admin center, you must add the new license and remove the old license at the same time, and then save the changes once. This method will ensure that the user keeps their assigned phone number and can continue making and receiving PSTN calls in Microsoft Teams. 
+
+If you use PowerShell cmdlets, Set-MsolUserLicense or Set-MgUserLicense, you should  execute the cmdlet once and use both the -AddLicenses and the -RemoveLicenses parameters
+
+
+
+
+
+
