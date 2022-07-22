@@ -70,7 +70,7 @@ Know the following information about this functionality:
 
 * After the policy is set up, it typically takes a [few hours](teams-app-setup-policies.md) for the app to be available for users.
 After the policy is set up, installed app is available for users after a few hours.
-* Viewing of PDF files that are pinned in channels as a tab continues to be powered by the native Teams experience and also assignments app continues to remain the same.
+* Viewing of PDF files that are pinned in channels as a tab and viewing of PDF files in assignments app continues to be powered by the native Teams experience.
 * Adobe Acrobat as a default PDF viewer in Teams works only on desktop and web clients. It is not supported on mobile client.
 * Users need an Adobe Acrobat plan to use premium tools such as Export PDF, Organize Pages, Combine Files, Compress PDF, and Protect PDF.
 
