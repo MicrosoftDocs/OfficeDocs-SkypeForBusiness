@@ -34,6 +34,8 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI Template provid
 These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. The reports allow organizations
 to report on the number of calls being processed by auto attendants and call queues.  The reports also provide insight to agent performance in the call queues.
 
+### V1.60 published on July 22, 2022
+
 ## Prerequisites
 
 ### Power BI Desktop
@@ -304,3 +306,12 @@ Perform the following steps:
 - In some scenarios, the agent answered call count on the Cloud Call Queue Agent Timeline report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there is no estimated time to repair available at this time.
 
 - <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
+
+## Version History
+|Version  |Date Published     |Filename                                                           |Description                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Numerous updates - please refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changeschanges                                                |
+|1.00     |November 5, 2020   |CQ and AA combined Analytics 20201105.pbit                         |Initial release                                     |
+
+
+
