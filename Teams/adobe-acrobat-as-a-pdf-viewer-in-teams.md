@@ -77,10 +77,12 @@ After the policy is set up, installed app is available for users after a few hou
 > [!NOTE]
 > From Teams desktop client, if you face any issues while signing to Adobe Acrobat app, you can open Teams in browser and sign in. This is a known issues and will be resolved by September 2022.
 
-## FAQ
+## FAQs
 
 * How to remove Adobe Acrobat app from Teams client?
+  
   End-users can uninstall the app from the Teams client and admin can remove the Adobe Acrobat app from the setup policy.
 
 * Can admins block the Adobe Acrobat app once it's set as a default handler?
+  
   Yes, but before admin block the app, remove the setup policy to ensure that the end-users are safely brought back to Teams default experience.
