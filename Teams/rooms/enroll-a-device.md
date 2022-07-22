@@ -167,40 +167,41 @@ The following components are pre-requisites for successful installation:
 
 1. Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Select **Apps** > **All apps** > **Add**.
-1. In the **Select app type** pane, under the **Other** app types, select **Line-of-business app**.
-1. Click **Select**. The **Add app** steps are displayed. In the **Add app** pane, click **Select app package file**.
-   1. In the **App package file** pane, select the **browse** button. Then, select the **ManagedRoomsInstaller.msi** file downloaded previously (refer to the pre-requisites section);
+1. In the **Select app type** pane, under **Other** app types, select **Line-of-business app**.
+1. Click **Select**. The **Add app** steps are displayed. 
+1. In the **Add app** pane, click **Select app package file**.
+   1. In the **App package file** pane, select  **Browse**. Then, select the **ManagedRoomsInstaller.msi** file downloaded previously (refer to the pre-requisites section).
    1. When you're finished, select **OK** on the **App package file** pane to add the app.
-1. In the **App information** page, you are required to perform the following changes:
-   1. Publisher: type **Microsoft Corporation**
-   1. Ignore app version: select **Yes**
+1. In the **App information** page, perform the following changes:
+   1. Publisher: enter **Microsoft Corporation**.
+   1. Ignore app version: select **Yes**.
       
    > [!NOTE]
-   > The MTRP agent is self-updating, hence we should explicitly ignore the app version (any baseline version will have the ability to update automatically).
+   > The MTRP agent is self updating; hence, you should explicitly ignore the app version (any baseline version can update automatically).
 
-   1. (optional) Category: select **Computer Management** 
-1. Click **Next** to display the **Assignments** page:
+   1. (Optional) Category: Select **Computer Management**.
+1. Click **Next** to display the **Assignments** page.
    1. Under the **Required** section, click **+ add group** to target a group of devices for installation of the agent.
-   1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click the **Select** button.
+   1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click **Select**.
       For more information, see [Add groups to organize users and devices](https://go.microsoft.com/fwlink/?linkid=2202166) and [Assign apps to groups with Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
-1. Click **Next** to display the **Review + create** page. 
+1. Click **Next** to display the **Review + create** page.
 1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
 
 Once the process is completed, your devices will start installing the MTRP agent after a few minutes.
 
 > [!NOTE]
-> After installed, the MTRP agent may take up to 8h to execute a self-update to the latest version and become listed in the MTRP portal.
-To expedite the automatic enrollment in the MTRP portal, you may consider restarting the MTR device after the agent deployment.
+> Following installation, the MTRP agent may take up to eight hours to execute a self-update to the latest version and become listed in the MTRP portal.
+To expedite the automatic enrollment in the MTRP portal, consider restarting the MTR device following the agent deployment.
 
 ## Completing enrollment
 
-After the install is complete, wait 5-10 minutes and refresh the portal and the device will be listed, reported as *Onboarding* state.
+When the installation is complete, wait 5-10 minutes, then refresh the portal to view the device in the list, reported as *Onboarding* state.
 
 In *Onboarding* state, the status of the room is displayed and updated but it won't raise any alerts or create investigation tickets.
 
-Choose the room and select **Enroll**  to start getting incident alerts, investigation tickets, or to report an incident.
+Choose the room and select **Enroll**  to start receiving incident alerts, investigation tickets, or to report an incident.
 
-For any questions or issues, please open a customer reported incident in the portal or contact managedroomsupport@microsoft.com.
+For any questions or issues, please open a customer-reported incident in the portal, or contact managedroomsupport@microsoft.com.
 
 ### Unenrolling and uninstalling monitoring software
 
