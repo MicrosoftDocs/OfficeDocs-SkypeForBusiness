@@ -36,7 +36,7 @@ To set up Adobe Acrobat as the default app to view PDF files, follow these steps
    > [!NOTE]
    >
    > * Ensure the Adobe Acrobat app status is set to **Allowed**. Else, enable the **Allowed** toggle.
-   > * If there is any existing admin setting in the app Permission policy or Org-wide app settings that has blocked the app, ensure that you allow the app in the [app Permission policy](teams-app-permission-policies.md) or [Org-wide app settings](teams-app-permission-policies.md).
+   > * If there is any existing admin setting in the app Permission policy or Org-wide app settings which has blocked the app, ensure you allow the app in [app Permission policy](teams-app-permission-policies.md) or [Org-wide app settings](teams-app-permission-policies.md).
 
 1. In the **Permissions** tab, select **Review permission**.
 
