@@ -21,15 +21,15 @@ ms.localizationpriority: medium
 # Adobe Acrobat as a default PDF viewer in Teams
 
 > [!NOTE]
-> Adobe Acrobat as a default PDF experience in Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature. Ensure that you change your Teams client version to public to experience Adobe Acrobat as PDF viewer in Teams.
+> Adobe Acrobat as a default PDF experience in Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature. Ensure that you change your Teams client version to public preview to experience Adobe Acrobat as PDF viewer in Teams.
 
-As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Your end-users don't need an Adobe Acrobat subscription or an Adobe ID to view, search, comment and annotate PDFs.
+As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Your end-users don't need an Adobe Acrobat subscription or an Adobe ID to view, search, comment and annotate PDF files.
 
 ## Set up Adobe Acrobat app
 
 To set up Adobe Acrobat as the default app to view PDF files, follow these steps:
 
-1. Log in to Teams admin center and go to **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Sign in to Teams admin center and go to **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Search for the Adobe Acrobat app and select **Adobe Acrobat** app.
 
@@ -66,10 +66,10 @@ If you want to selectively allow the Adobe Acrobat app for a few specific indivi
 
 Know the following information about this functionality:
 
-* After the policy is set up, it typically takes [few hours](teams-app-setup-policies.md) for users to view the installed app.
-* Pinning PDFs in channels is powered by native Teams experience.
+* After the policy is set up, it typically takes a [few hours](teams-app-setup-policies.md) for Teams to view the installed app.
+* Pinning PDF files in channels is powered by native Teams experience.
 * PDF viewing experience in the Assignments app continues to remain the same.
-* Adobe Acrobat as PDF experience in Teams works only on desktop and web clients. It is not supported on mobile apps.
+* Adobe Acrobat as PDF experience in Teams works only on desktop and web clients. It is not supported on mobile client.
 
 > [!NOTE]
 > From Teams desktop client, if you face any issues while signing to Adobe Acrobat app, you can open Teams in browser and sign in. This is a known issues and will be resolved by September 2022.
