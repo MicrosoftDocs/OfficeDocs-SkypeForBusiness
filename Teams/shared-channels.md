@@ -145,6 +145,8 @@ The following table describes the maximum number of channels and members.
 
 The following limitations also apply:
 
+- Only Azure AD work or school accounts are supported for external participants.
+
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
 - LOB apps, bots, connectors, and message extensions are not supported.
