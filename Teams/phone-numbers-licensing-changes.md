@@ -26,17 +26,15 @@ description: Learn how licensing changes can affect phone number management.
 
 This article describes how licensing changes can affect phone number management. 
 
-For general information on managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
+For general information on managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md). For general information on Teams add-on licensing, see [Microsoft Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-For general information on Teams add-on liensing, see [Microsoft Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-
-Removing and assigning licenses can affect phone number assignment and impact a user's ability to make and receive Public Switched Telephone Network (PSTN) calls in Microsoft Teams.
+How you remove and assign licenses to users can impact a user's ability to make and receive Public Switched Telephone Network (PSTN) calls in Microsoft Teams.
 
 ## Remove a license
 
 If you have a user with an assigned phone number and you remove one or more of the prerequisites licenses, removing the license will also unassign the phone number from the user. Without an assigned phone number, the user's ability to make and receive PSTN calls in Microsoft Teams is impacted.
 
-Depending on the user's PSTN connectivity option, removing a license has different impacts on the telephony parameters:
+Depending on the user's [PSTN connectivity option](pstn-connectivity.md), removing a license has the following impact on telephony parameters:
 
 - **Removing a Microsoft 365 Calling Plan license from a user with a Calling Plan phone number** will:
   - Copy any value in OnPremLineUri to LineUri
@@ -59,13 +57,13 @@ Depending on the user's PSTN connectivity option, removing a license has differe
 
 ## Change a license
 
-If you need to change a license for a user, you need to ensure that the licensing changes are done at the same time. 
+If you need to change a license for a user, you should ensure that the licensing changes are done at the same time. 
 
-If you first remove the old license and save the change, and then add the new license and save that change, the phone number will be unassigned, and the user might lose the ability to make and receive PSTN calls in Microsoft Teams. After the new license has been assigned, you’ll have to assign the phone number again to the user.
+If you remove the old license and save the change, and then add the new license and save the change, the phone number will be unassigned and the user might lose the ability to make and receive PSTN calls in Microsoft Teams. After assigning the new license, you’ll need to re-assign the phone number to the user.
 
-For example, assume you want to assign Microsoft 365 E5 license to a user who currently has a Microsoft 365 E3 license. Using the Microsoft 365 admin center, you must add the new license and remove the old license at the same time, and then save the changes once. This method will ensure that the user keeps their assigned phone number and can continue making and receiving PSTN calls in Microsoft Teams. 
+For example, assume you want to assign a Microsoft 365 E5 license to a user who currently has a Microsoft 365 E3 license. Using the Microsoft 365 admin center, you must add the new license and remove the old license at the same time, and then save the changes once. This method will ensure that the user keeps their assigned phone number and can continue making and receiving PSTN calls in Microsoft Teams. 
 
-If you use PowerShell cmdlets, Set-MsolUserLicense or Set-MgUserLicense, you should  execute the cmdlet once and use both the -AddLicenses and the -RemoveLicenses parameters
+If you use the PowerShell cmdlets, [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) or [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense), you should execute the cmdlet once and use both the -AddLicenses and the -RemoveLicenses parameters.
 
 
 
