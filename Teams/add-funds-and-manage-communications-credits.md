@@ -46,6 +46,8 @@ Communications Credits are a convenient way to pay for Phone System and Calling 
 
 - Dial out and pay per minute once you have exhausted your monthly minute allotment.
 
+- Dial out and pay per minute for all outgoing calls, if you have a Pay-As-You-Go Calling Plan.
+
 > [!NOTE]
 > If you're wondering how much it is and the rates, see the rates table on the [Calling Plans](https://go.microsoft.com/fwlink/p/?LinkId=799523) page.
   

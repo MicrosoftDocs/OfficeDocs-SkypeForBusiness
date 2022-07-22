@@ -37,9 +37,10 @@ There are three ways to get user numbers:
   
 > [!NOTE]
 > If you need help setting up phone numbers for your organization, please [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
+
 ## Get new phone numbers for your users
 
- **Using the Microsoft Teams admin center**
+**Using the Microsoft Teams admin center**
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
@@ -61,7 +62,9 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 6. When you're ready to place your order, click **Place order**.
 
     > [!IMPORTANT]
-    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
+    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. Note that if you have a Pay-As-You-Go Calling Plan, you can only acquire 1 phone number per license assigned.
+    >
+    > For details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md). If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
   
 ## Port or transfer phone numbers from your service provider or phone carrier
   
@@ -71,7 +74,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 ## View the phone numbers for your organization
 
- **Using the Microsoft Teams admin center**
+**Using the Microsoft Teams admin center**
 
 In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
   

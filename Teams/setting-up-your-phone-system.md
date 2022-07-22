@@ -108,6 +108,8 @@ Communications Credits are a convenient way to add toll-free numbers to use as f
 
 - To dial out and pay per minute once you've exhausted your monthly minute allotment.
 
+- To dial out and pay per minute for all outgoing calls, if you have a Pay-As-You-Go Calling Plan.
+
 For more information, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
 ## Related topics
