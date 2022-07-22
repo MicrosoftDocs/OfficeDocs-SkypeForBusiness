@@ -3,7 +3,7 @@ title: Enroll a Teams Room device into Managed Services
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.date: 07/19/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -177,7 +177,7 @@ The following components are pre-requisites for successful installation:
 1. Click **Next** to display the **Assignments** page:
    1. Under the **Required** section, click **+ add group** to target a group of devices for installation of the agent.
    1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click the **Select** button.
-      For more information, see [Add groups to organize users and devices](https://docs.microsoft.com/en-us/mem/intune/fundamentals/groups-add) and [Assign apps to groups with Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/apps/apps-deploy).
+      For more information, see [Add groups to organize users and devices](https://go.microsoft.com/fwlink/?linkid=2202166) and [Assign apps to groups with Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
 1. Click **Next** to display the **Review + create** page. 
 1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
 
