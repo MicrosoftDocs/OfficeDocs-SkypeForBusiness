@@ -49,7 +49,7 @@ The account you use to view the historical report needs to have permissions to a
 
 ## Installation 
 
-The following steps assume you have already installed Power BI Desktop on the computer, and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume you've already installed Power BI Desktop on your computer, and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
@@ -57,9 +57,9 @@ Perform the following steps:
 
 - Double-click on the zip file to open it.
 
-- Double-click on the "CQ and AA combined Analytics 20201105.pbit" template file. The Power BI Desktop should launch.
+- Double-click on the "CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit" template file. The Power BI Desktop should launch.
 
-- You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
+- You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
@@ -80,7 +80,7 @@ Perform the following steps:
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option.":::
 
-- You will then be prompted to sign in. Select **Organization account** and then select **Sign in**.
+- You'll be prompted to sign in. Select **Organizational account** and then select **Sign in**.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login.":::
 
@@ -88,15 +88,15 @@ Perform the following steps:
 
 ## Data latency and AA & CQ analytics
 
-Data will be available in the CQD data pipeline within 30 minutes.
+Data is typically available within 30 minutes of the call completing however there are occasions where it may take several hours for data to appear. 
 
-You will have to refresh the data to see the new analytics data. 
+You will have to refresh the data to see any new data.
 
 ## Customization 
 
 You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and so on.
 
-You cannot add more data fields to the report.
+The report contains all the data metrics currently available.
 
 ### Change color schema 
 
@@ -222,7 +222,7 @@ Perform the following steps:
 |Name                                    |Data Type                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
-|Call Queue Call Result                  |Text                     |Call queue call final state -- possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered tranfer mode calls {default}) |
+|Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered tranfer mode calls {default}) |
 |Call Queue Identity                     |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Call Queue Target Type                  |Text                     |***Call redirection target type--possible values:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
 |Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal           |
@@ -310,7 +310,7 @@ Perform the following steps:
 ## Version History
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Numerous updates - please refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changeschanges                                                |
+|1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Numerous updates - please refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                       |
 |1.00     |November 5, 2020   |CQ and AA combined Analytics 20201105.pbit                         |Initial release                                     |
 
 
