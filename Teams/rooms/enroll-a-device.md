@@ -158,7 +158,9 @@ The following components are pre-requisites for successful installation:
 - **Intune enrollment**: Teams Rooms on Windows devices must be already enrolled in Intune.
   For more information about how to enroll Teams Rooms on Windows devices in Intune, see [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - **Azure AD group with all Teams Rooms on Windows devices as members** – a group created in Azure AD that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTRP agent.
-  NOTE: you may consider using Dynamic groups in Azure AD for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+  
+> [!NOTE]
+> You may consider using Dynamic groups in Azure AD for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - **Download MTRP agent** **installer** – Download the Agent’s zip file from <https://aka.ms/serviceportalagentmsi> and extract the contents of the zip (ManagedRoomsInstaller.msi) to a local temporary folder.
 
 **To install using Intune**
@@ -172,7 +174,10 @@ The following components are pre-requisites for successful installation:
 1. In the **App information** page, you are required to perform the following changes:
    1. Publisher: type **Microsoft Corporation**
    1. Ignore app version: select **Yes**
-      NOTE: the MTRP agent is self-updating, hence we should explicitly ignore the app version (any baseline version will have the ability to update automatically).
+      
+   > [!NOTE]
+   > The MTRP agent is self-updating, hence we should explicitly ignore the app version (any baseline version will have the ability to update automatically).
+
    1. (optional) Category: select **Computer Management** 
 1. Click **Next** to display the **Assignments** page:
    1. Under the **Required** section, click **+ add group** to target a group of devices for installation of the agent.
@@ -183,7 +188,8 @@ The following components are pre-requisites for successful installation:
 
 Once the process is completed, your devices will start installing the MTRP agent after a few minutes.
 
-NOTE: After installed, the MTRP agent may take up to 8h to execute a self-update to the latest version and become listed in the MTRP portal.
+> [!NOTE]
+> After installed, the MTRP agent may take up to 8h to execute a self-update to the latest version and become listed in the MTRP portal.
 To expedite the automatic enrollment in the MTRP portal, you may consider restarting the MTR device after the agent deployment.
 
 ## Completing enrollment
