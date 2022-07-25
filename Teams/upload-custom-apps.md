@@ -52,20 +52,20 @@ To allow trusted users to upload custom apps, follow these steps:
 1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
 
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
-    
-    2. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
-    
+
+    1. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
+
 1. Turn off the **Upload custom apps** setting in the global app setup policy. To do this:
 
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
-    
-    2. Turn off **Upload custom apps**, and then click **Save**.
-    
+
+    1. Turn off **Upload custom apps**, and then click **Save**.
+
 1. Create a new app setup policy that allows uploading custom apps and assign it to your set of trusted users. To do this:
 
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Add**. Give the new policy a name and description, turn on **Upload custom apps**, and then click **Save**.
-    
-    2. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
+
+    1. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
 
        ![Screenshot of the "Add app setup policy" page](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -114,7 +114,17 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 In most cases, after you complete an app update the new version automatically appears for end users. For more information, see [end-user update experience](apps-update-experience.md).
 
-## Related topics
+## Remove
+
+To remove an app, follow these steps:
+
+1. Sign in to the Teams admin center.
+1. Access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
+1. Click on the name of the app to open the app details page.
+1. Adjacent to the app banner, select **Actions** > **Delete**.
+1. On the dialog, select **Delete**.
+
+## Related articles
 
 * [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
