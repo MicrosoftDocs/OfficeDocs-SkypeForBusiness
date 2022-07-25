@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Learn more about how to configure Operator Connect.
+description: Learn more about how to configure Operator Connect Mobile.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
@@ -25,7 +25,7 @@ appliesto:
 
 # Configure Operator Connect
 
-This article describes how to configure Operator Connect. Before configuring Operator Connect, be sure to read [Plan for Operator Connect](operator-connect-plan.md) for information about prerequisites and licensing.
+This article describes how to configure Operator Connect Mobile. Before configuring Operator Connect Mobile, be sure to read [Plan for Operator Connect Mobile](operator-connect-mobile-plan.md) for information about prerequisites and licensing.
 
 ## Enable an operator
 
