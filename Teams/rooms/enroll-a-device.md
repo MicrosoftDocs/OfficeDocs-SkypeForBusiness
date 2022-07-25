@@ -175,11 +175,12 @@ The following components are pre-requisites for successful installation:
 1. In the **App information** page, perform the following changes:
    1. Publisher: enter **Microsoft Corporation**.
    1. Ignore app version: select **Yes**.
-      
-   > [!NOTE]
-   > The MTRP agent is self updating; hence, you should explicitly ignore the app version (any baseline version can update automatically).
+
+      > [!NOTE]
+      > The MTRP agent is self updating; hence, you should explicitly ignore the app version (any baseline version can update automatically).
 
    1. (Optional) Category: Select **Computer Management**.
+   
 1. Click **Next** to display the **Assignments** page.
    1. Under the **Required** section, click **+ add group** to target a group of devices for installation of the agent.
    1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click **Select**.
