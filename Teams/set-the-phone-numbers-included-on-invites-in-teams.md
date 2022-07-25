@@ -45,6 +45,9 @@ The phone numbers included in the meeting invites of users enabled for Audio Con
 
 As noted above, In addition to phone numbers, each meeting invite contains a link that opens the full list of all dial-in phone numbers that can be used to join a given meeting.
 
+> [!IMPORTANT]
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+
 ### New users
 
 The toll and toll-free phone numbers included in meeting invites for new users are also defined by the *TeamsAudioconferencingPolicy* that's assigned to those users. By default, all new users are assigned the Global *TeamsAudioconferencingPolicy*. The Global policy doesn't have any phone numbers added (Unless this is changed by the Tenant Administrator). In this case the phone numbers that get included in the meeting invites of users enabled for Audio Conferencing are defined by the default conferencing toll phone number and the default conferencing toll-free phone number found in each user's settings.
