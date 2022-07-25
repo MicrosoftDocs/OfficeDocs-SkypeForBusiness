@@ -1,5 +1,5 @@
 ---
-title: Adobe Acrobat as a default PDF viewer in Teams
+title: Adobe Acrobat as default PDF viewer in Teams
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -18,7 +18,7 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Adobe Acrobat as a default PDF viewer in Teams
+# Adobe Acrobat as default PDF viewer in Teams
 
 > [!NOTE]
 > Adobe Acrobat as a default PDF experience in Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature. Ensure that the end-users change Teams client version to public preview to experience Adobe Acrobat as PDF viewer in Teams.
@@ -85,4 +85,4 @@ After the policy is set up, installed app is available for users after a few hou
 
 * Can admins block the Adobe Acrobat app once it's set as a default handler?
   
-  Yes, but before admin block the app, remove the setup policy to ensure that the end-users are safely brought back to Teams default experience.
+  Yes, but before the admin blocks the app, remove the setup policy to ensure that the end-users are safely brought back to Teams default experience.
