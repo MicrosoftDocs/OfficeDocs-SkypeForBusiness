@@ -999,7 +999,8 @@ items:
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-
+        - name: Licensing and phone number management
+          href: phone-numbers-licensing-changes.md
     - name: Dial plans and routing
       items: 
         - name: Overview
@@ -1559,6 +1560,8 @@ items:
           href: overview-of-app-certification.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
+        - name: Adobe Acrobat as default PDF viewer in Teams
+          href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
 
