@@ -3,7 +3,7 @@ title: "Manage phone numbers for your organization"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: davlick, roykuntz, jastark
+ms.reviewer: davlick, roykuntz, jenstr
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -51,7 +51,9 @@ How you acquire and manage telephone numbers differs depending on your PSTN conn
 
 - For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
-If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+
+> [!NOTE]
+> If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
 
 ## User telephone numbers
 
@@ -79,8 +81,53 @@ There are two types of service telephone numbers provided by Microsoft--toll and
     > [!CAUTION]
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
 
+## Where phone numbers are managed
 
+Where and how numbers are managed depend on the PSTN connectivity option:
+
+- Direct Routing phone numbers can be managed in the on-premises Active Directory or in Microsoft 365.
+
+- Microsoft Calling Plan and Operator Connect phone numbers can be managed only in Microsoft 365.
+
+### On-premises Active Directory
+
+If you have or had a Skype for Business Server hybrid deployment,
+your on-premises Active Directory is most likely synchronizing with Microsoft 365. This means that directory attributes on users and resource accounts are also managed in the on-premises Active Directory and synchronized into Microsoft 365.
+
+If the Direct Routing phone number is managed on the user or resource account in the on-premises Active Directory, the msRTCSIP-Line attribute on the user object will have a value. This value is automatically synchronized to the user in Microsoft 365 through the directory synchronization process (Azure AD Connect). The value for the user is visible in the OnPremLineUri parameter output from the PowerShell cmdlet Get-CsOnlineUser.
+
+An example showing the msRTCSIP-Line parameter for a user that has a Direct Routing phone number assigned in on-premises Active Directory is shown below. You can see this attribute using a tool like ADSI Edit.
+
+msRTCSIP-Line	  tel:+14255551234
+
+After this parameter is synchronized to Microsoft 365, you can use the Get-CsOnlineUser cmdlet with the OnPremmLineURi parameter to view the user's number:
+
+OnPremLineUri	tel:+14255551234
+
+Active Directory parameter
+
+| Parameter  | Value |
+| :------------|:-------|
+| Active Directory on premises <br> msRTCSIP-Line | tel:+14255551234 |
+| OnPremLineUri
+
+| [**Phone System**](#phone-system) | Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams. |
+| [**Public Switched Telephone Network (PSTN) connectivity options**](#public-switched-telephone-network-connectivity-options) | Choose Microsoft as your telephony carrier or connect your own telephony carrier to Microsoft Teams by using Operator Connect or Direct Routing. Combined with Phone System, PSTN connectivity options enable your users to make phone calls all over the world.|
     
   
-> [!NOTE]
-> If you need to get more telephone numbers than this, contact the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+### Microsoft 365
+
+If you are not managing Direct Routing phone numbers on the users or resource accounts in the on-premises Active Directory, they are managed in Microsoft 365. It means that the phone numbers are not synching to Microsoft 365 and are not visible in the OnPremLineUri parameter output from the cmdlet Get-CsOnlineUser run for the user or resource account.
+
+### Combination of on-premises Active Directory and Microsoft 365
+
+It is entirely possible to manage Direct Routing phone numbers of some users in the on-premises Active Directory and Direct Routing phone numbers from other users in Microsoft 365. It only depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.
+
+### Change management of Direct Routing phone numbers
+
+To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the object in the on-premises Active Directory. 
+
+For more information, see /skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md. Note that the phone number needs to be re-assigned to the user or resource account in Microsoft 365.
+
+After the removal has been synchronized to Microsoft 365, the OnPremLineUri attribute in the output from Get-CsOnlineUser on the user or resource account will be empty. 
+
