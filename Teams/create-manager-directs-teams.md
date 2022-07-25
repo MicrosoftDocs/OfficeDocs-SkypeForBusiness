@@ -1,8 +1,8 @@
 ---
 title: Create people manager teams in Microsoft Teams
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

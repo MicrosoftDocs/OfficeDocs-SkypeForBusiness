@@ -1,7 +1,7 @@
 ---
 title: Monitor and improve call quality for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams

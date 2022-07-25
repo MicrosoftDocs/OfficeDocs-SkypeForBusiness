@@ -36,7 +36,7 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 ### Get the app package
 
-When the app is ready for use in production, the developer produces an app package. They can use [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) for that. They'll send you the file in .zip format.
+When the app is ready for use in production, the developer should produce an app package. They can use [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). They'll send you the file in .zip format.
 
 All apps in Teams store pass a mandatory [app validation](overview-of-app-validation.md) to comply with the quality and security standards of the global Teams apps store. In addition, Microsoft strongly encourages app developers to participate in an optional [app compliance program](overview-of-app-certification.md) that indicates enhanced compliance, security, and privacy controls. For more information, see [Teams app validation guidelines](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
@@ -52,20 +52,20 @@ To allow trusted users to upload custom apps, follow these steps:
 1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
 
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
-    
-    2. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
-    
+
+    1. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
+
 1. Turn off the **Upload custom apps** setting in the global app setup policy. To do this:
 
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
-    
-    2. Turn off **Upload custom apps**, and then click **Save**.
-    
+
+    1. Turn off **Upload custom apps**, and then click **Save**.
+
 1. Create a new app setup policy that allows uploading custom apps and assign it to your set of trusted users. To do this:
 
     1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Add**. Give the new policy a name and description, turn on **Upload custom apps**, and then click **Save**.
-    
-    2. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
+
+    1. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
 
        ![Screenshot of the "Add app setup policy" page](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -92,7 +92,7 @@ By default, for users to find the app they have to go to your organization's app
 
 ### Search the audit log for Teams app events
 
-You can search the audit log to view Teams apps activity in your organization. To learn more about how to search the audit log and to see a list of Teams activities that are logged in the audit log, see [Search the audit log for events in Teams](audit-log-events.md).
+You can search the audit log to view Teams apps activity in your organization. To learn more about auditing Teams activities, see [search the audit log for events in Teams](audit-app-management-activities.md).
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/homepage). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
@@ -114,7 +114,17 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 In most cases, after you complete an app update the new version automatically appears for end users. For more information, see [end-user update experience](apps-update-experience.md).
 
-## Related topics
+## Remove
+
+To remove an app, follow these steps:
+
+1. Sign in to the Teams admin center.
+1. Access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
+1. Click on the name of the app to open the app details page.
+1. Adjacent to the app banner, select **Actions** > **Delete**.
+1. On the dialog, select **Delete**.
+
+## Related articles
 
 * [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
