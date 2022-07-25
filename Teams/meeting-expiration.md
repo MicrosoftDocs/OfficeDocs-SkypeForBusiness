@@ -96,8 +96,8 @@ Admins can edit the default expiration setting in PowerShell or the Teams admin 
 The expiration date value can be set as follows:
 
 - Minimum value: **1 day**
-- Maximum value: **99,999 days**
-- You can also set the expiration date to **-1** so the recordings never expire.
+- Maximum value: **99999 days**
+- You can also set the expiration date to **-1** in PowerShell so the recordings never expire.
 
 Example PowerShell command:
 
@@ -109,23 +109,19 @@ You can set the expiration date in the Teams admin center under **Meeting polici
 
 ![Admin center screenshot of meeting expiration policy.](media/meeting-expiration-policy.jpg)
 
-### Security and compliance
+### Compliance
 
-#### Should I rely on this feature for strict security and compliance adherence?
+You shouldn't rely on TMR expiration settings for legal protection since end users can modify the expiration date of any recordings they control.
 
-No, you shouldn't rely on this for legal protection since end users can modify the expiration date of any recordings they control.
+#### Teams meeting recording expiration settings and Microsoft 365 retention policies in Microsoft Purview
 
-#### Will a retention and/or deletion policy I've set in the Security & Compliance center override the Teams meeting recording expiration setting?
+File retention takes precedence over file deletion. A meeting recording with a Purview retention policy cannot be deleted by a TMR expiration policy until after the retention period is completed. For example, if you have a Purview rentention policy that says a file will be kept for five years and a TMR expiration policy set for 60 days, the TMR expiration policy will delete the recording after five years.  
 
-The auto-expiration feature behaves just like a user deletion. See the following examples for further clarification:
+If you have a TMR expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a TMR expiration set for 120 days, the TMR expiration setting will delete the file after 120 days.
 
-- If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a Teams meeting recording is 30 days, then the recording will be retained for the full 100 days.
-- If you have a deletion policy that says all Teams meeting recordings will be deleted after five days and you have an expiration setting for a Teams meeting recording of 30 days, then the recording will be deleted after five days.
-- If you have a deletion policy that says all Teams meeting recordings will be deleted after 60 days and you have an expiration setting for a Teams meeting recording of 30 days, then the auto-expiration feature will delete it after 30 days.
+### Enforcement of file retention with the Teams meeting recording expiration setting
 
-### Will this feature enforce file retention?
-
-No, files won't be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user's delete action will be executed.
+Files won't be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user's delete action will be executed.
 
 ### What SKUs are required for this feature?
 
