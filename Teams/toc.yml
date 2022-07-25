@@ -1546,6 +1546,8 @@ items:
           href: expand-teams-across-your-org/shifts/shifts-data-faq.md
         - name: Manage the Updates app
           href: manage-updates-app.md
+        - name: Manage the Walkie Talkie app
+          href: walkie-talkie.md
           
     - name: Manage third-party apps
       items:
@@ -1559,8 +1561,6 @@ items:
           href: purchase-third-party-apps.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
-    - name: App templates for Teams
-      href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
     - name: Manage custom line-of-business apps
       items:
@@ -1570,10 +1570,6 @@ items:
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
-        - name: Customize appearance and metadata of apps
-          href: customize-apps.md
-        - name: Brand your org app store
-          href: customize-your-app-store.md
 
     - name: Admin controls to govern apps
       items:
@@ -1597,16 +1593,20 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
+        - name: Customize appearance and metadata of apps
+          href: customize-apps.md
+        - name: Brand your org app store
+          href: customize-your-app-store.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: Audit app management activities
-          href: audit-app-management-activities.md
-        - name: App usage report and analytics
-          href: teams-analytics-and-reports/app-usage-report.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: App updates and admin role
           href: apps-update-experience.md
+        - name: Audit app management activities
+          href: audit-app-management-activities.md
+        - name: App usage report and analytics
+          href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 

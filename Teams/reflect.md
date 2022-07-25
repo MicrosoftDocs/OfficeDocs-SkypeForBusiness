@@ -24,15 +24,15 @@ This document provides information concerning [Reflect](https://aka.ms/reflect) 
 
 This check-in app uses emojis and research-backed emotional granularity to support educators in adding social and emotional learning into their already busy routine.
 
-
 ## Privacy and Security
+
 Reflect follows the same privacy and security standards as [Education Insights](class-insights.md) to protect students' sensitive information.
 
 Reflect, as part of Microsoft 365, meets national, regional, and industry-specific regulations for data collection and use, including [GDPR](/compliance/regulatory/gdpr) and the [Family Educational Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) that protects the privacy of students' education records.
 
 The data belongs to the institution, and Microsoft only collects the data and stores it. Microsoft personnel cannot access the data or see it, except as allowed by compliance in an audited way to maintain the service, such as data recovery.
 
-Students *never* see the names of other students, only how they responded. While they can see the distribution of responses, they *cannot* see names associated with each reflection. 
+Students *never* see the names of other students, only how they responded. While they can see the distribution of responses, they *cannot* see names associated with each reflection.
 
 > [!NOTE]
 > If less than five students respond, no data is shown to the students. This is to minimize the possibility of students identifying each other's responses.
@@ -46,9 +46,9 @@ The data belongs to the educational institution, and Microsoft only collects the
 
 The data is stored in Education Insights. By default, Education Insights is turned on. When you opt-out, we **delete all the data collected for Reflect**. Turn Education Insights back on, and we start collecting data from the time it's re-enabled.
 
-In the [IT Admin Guide to Education Insights](class-insights.md), you can read how Education Insights works (including storage locations) and [how to turn Education Insights off or on](class-insights.md#turn-insights-on-or-off) when you want to delete the data or enable the service.
+In the [IT Admin Guide to Education Insights](class-insights.md), you can read how Education Insights works (including storage locations) and [how to turn Education Insights off or on](class-insights.md#turn-on-and-off-insights) when you want to delete the data or enable the service.
 
-Data is collected from student in Reflect, though guest data is not collected. **If a student is defined as a guest, their data is not collected.** 
+Data is collected from student in Reflect, though guest data is not collected. **If a student is defined as a guest, their data is not collected.**
 
 ## Enable Reflect
 If you manage the app setup policy for your institution, ensure that Reflect is *allowed* in your tenant. You can also add Reflect to the relevant class teams from the Teams admin center.
