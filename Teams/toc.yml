@@ -1560,7 +1560,7 @@ items:
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
         - name: Adobe Acrobat as default PDF viewer in Teams
-          href: adobe-acrobat-as-pdf-viewer-in-teams.md
+          href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
 
