@@ -49,7 +49,7 @@ You assign licenses on the **Licenses** page (for up to 20 users at a time) or t
 
 For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
+If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use PowerShell or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ## Using PowerShell
 

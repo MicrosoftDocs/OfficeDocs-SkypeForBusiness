@@ -24,7 +24,7 @@ appliesto:
 
 You've completed the [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use Microsoft Phone System with Calling Plan to connect to the Public Switched Telephone Network (PSTN).
 
-This article describes core deployment decisions for Calling Plans as well as additional considerations you may want to configure, based on your organization's needs. You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
+This article describes core deployment decisions for Calling Plans and other considerations you may want to configure, based on your organization's needs. You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
 
 ## Learn more about Calling Plans
 

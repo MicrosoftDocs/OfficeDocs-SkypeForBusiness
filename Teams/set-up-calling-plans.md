@@ -34,7 +34,7 @@ Calls to other Teams users are free, but if you want your users to be able to ca
 
 Go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Calling Plans, as well as information about Audio Conferencing, Teams Phone, toll and toll-free numbers, and Communications Credits.
 
-If Calling Plans are not available for your country or region, see [PSTN connectivity options](pstn-connectivity.md) for all available options.
+If Calling Plans aren't available for your country or region, see [PSTN connectivity options](pstn-connectivity.md) for all available options.
   
 ## Step 2: Buy and assign licenses
 
@@ -53,19 +53,19 @@ There are three ways to get new user numbers:
 
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
-- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Teams admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## Step 4: Add emergency addresses and locations for your organization
 <a name="bkmk_add_addresses"> </a>
 
-An emergency address must be associated with a phone number. When this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Microsoft 365, or when transferring phone numbers from your current service provider.
+An emergency address must be associated with a phone number. When this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you're getting the phone numbers from Microsoft 365, or when transferring phone numbers from your current service provider.
 
 For information about emergency calling and managing emergency addresses, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
 
 ## Step 5: Assign an emergency address and a phone number to a user
 <a name="bkmk_add_addresses"> </a>
 
-When you are setting up Calling Plans in Microsoft 365, you must assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. For more information, see [Assign or change an emergency address](assign-change-emergency-location-user.md).
+When you're setting up Calling Plans in Microsoft 365, you must assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. For more information, see [Assign or change an emergency address](assign-change-emergency-location-user.md).
 
 > [!TIP]
 > If you add more people to your business right before doing this step, it may take **several hours** for them to appear on the **Voice users** page.
@@ -102,7 +102,7 @@ If you know Windows PowerShell, you can use the following cmdlets to automate as
 
 To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
   
-## Related topics
+## Related articles
 
 [Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 

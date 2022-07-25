@@ -34,7 +34,7 @@ Calls to other Skype for Business and Microsoft Teams users are free, but if you
   
 Here are the Calling Plans options:
   
-- **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+- **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they're assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
 - **International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
@@ -86,7 +86,7 @@ Here are more articles that explain how to set up your Calling Plans:
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Here's what you get with Phone System in Microsoft 365 or Office 365](./here-s-what-you-get-with-phone-system.md)
 
-## Related topics
+## Related articles
 
 - [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 - [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)

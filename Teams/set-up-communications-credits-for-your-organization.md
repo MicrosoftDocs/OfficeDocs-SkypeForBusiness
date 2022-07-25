@@ -77,7 +77,7 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
 
    - **Auto-recharge** Enabling auto-recharge will automatically refill your account when the balance falls below the threshold that you set.
 
-     Microsoft recommends that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach zero. You will be sent an email when recharge transactions succeed, when recharge transactions fail (such as an expired credit card), and when your Communications Credits balance reaches zero.
+     Microsoft recommends that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach zero. You'll be sent an email when recharge transactions succeed, when recharge transactions fail (such as an expired credit card), and when your Communications Credits balance reaches zero.
 
    - **Recharge amount** Enter the amount in the **Recharge with** box that you want added to your account once it reaches the trigger amount below.
 
@@ -95,7 +95,7 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
 
 Each organization will have a different usage of Calling Plan volume and rates to consider. You need to get this type of usage data from your current service provider. Organizations already using Microsoft Teams as their service provider can get usage data by reviewing it in the **Microsoft Teams admin center** > **Analytics & reports** > **Usage reports** > **PSTN and SMS (preview) usage** report.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts you need. You can get call usage information by reviewing the **PSTN and SMS (preview) usage** report. This report lets you export the call data records to Excel if you need to store the data or create custom reports. To learn how to see usage, read [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
+When you're setting up Communications Credits, you'll need to investigate call usage for your organization to determine the amounts you need. You can get call usage information by reviewing the **PSTN and SMS (preview) usage** report. This report lets you export the call data records to Excel if you need to store the data or create custom reports. To learn how to see usage, read [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
   
 ## Step 3: Assign a Communications Credits license to users
 
