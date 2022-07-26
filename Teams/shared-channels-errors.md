@@ -26,7 +26,7 @@ If your users see error messages when trying to add people from outside your org
 
 ## Due to admin policy, you can't add external people to the channel. For more info, talk to your admin.
 
-Teams uses Microsoft 365 Groups for team membership. The Microsoft 365 Groups guest settings must be turned on in order for people outside the organization to be added to a shared channel. If your users see this error, check the Microsoft 
+Teams uses Microsoft 365 Groups for team membership. The Microsoft 365 Groups guest settings must be turned on in order for people outside the organization to be added to a shared channel. If your users see this error, check the Microsoft 365 Groups settings for people outside the organization.
 
 To set Microsoft 365 Groups settings for people outside the organization
 1. In the Microsoft 365 admin center, in the left navigation pane, expand **Settings**.
