@@ -22,7 +22,6 @@ f1keywords:
 
 # Partner management for customers
 
-
 Partner management in the Teams Rooms Managed (TRM) service enables customers to seamlessly delegate access and responsibilities to one or many partner organizations. Partners can only manage rooms that they are assigned to manage.
 
 ## On-boarding partners
@@ -30,7 +29,7 @@ Partner management in the Teams Rooms Managed (TRM) service enables customers to
 
 ### Invitation to partner
 
-   In this method, you should know the domain name of the partner (ex. Contoso.com).
+   In this method, you should know the domain name of the partner (such as Contoso.com).
 
 **To initiate the invite** 
 
@@ -57,17 +56,16 @@ The invitation is sent to the Tenant managers in the partner instance for review
 
 To manage users in the primary admin role, see [Multi-tenant Management for Partners](multi-tenant-management-partner.md).
 
-
 ## Off-boarding partners
 
 **To remove a partner**
 
-1. Login to the TRM-MTM portal as an MMR administrator.
+1. Log in to the TRM-MTM portal as an MMR administrator.
 1. Navigate Go to **Settings > Partners.**
 1. Select the partner you wish to remove.
 1. In the customer detail pane, select **Remove partner.**
 1. Select **Delete**. 
-1. At the confirmation prompt to terminate the association between your and the customer tenant, select **Delete**.
+1. At the confirmation prompt to terminate the association between you and the customer tenant, select **Delete**.
 
 ## Managing partner roles
 
@@ -92,9 +90,6 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 1. Search for the rooms you wish to add and select the desired room.
 1. To confirm the changes, select **Save**.
 
-
-
-
 ### Table 1
 
 |Feature|Permission|**MMR Admin**|**Site Lead**|**Site Tech**|**Partner admin**|
@@ -118,10 +113,6 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 ||Modify|&#10004;||||
 |Role management|View |&#10004;|||&#10004;|
 ||Modify|&#10004;|||&#10004;|
-
-
-
-
 
 ## Security
 
