@@ -88,7 +88,7 @@ Perform the following steps:
 
 ## Data latency and AA & CQ analytics
 
-Data is typically available within 30 minutes of the call completing however there are occasions where it may take several hours for data to appear. 
+Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
 
 You will have to refresh the data to see any new data.
 
