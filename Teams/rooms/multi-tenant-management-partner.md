@@ -177,7 +177,7 @@ The MTM portal has two interactive models to navigate between customer data:
 
   > [!Note]
   > This view is only supported in the **Incidents** page when **Enable all tickets view** is toggled on.
-
-  ![Figure 1](../media/multi-tenant-management-partner-001.png)
+  >
+  > ![Figure 1](../media/multi-tenant-management-partner-001.png)
 
  - Tenant switching where only data from the **Customer** selected in the drop-down list is displayed.
