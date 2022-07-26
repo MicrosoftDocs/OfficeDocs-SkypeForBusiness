@@ -692,15 +692,13 @@ items:
             href: hybrid-meetings-features
           - name: "Step 2 - Evangelize meeting best practices"
             href: hybrid-meetings-educate-participants
-          - name: "Step 3 - Design a meeting space"
+          - name: "Step 3 - Design and build a meeting space"
             href: hybrid-meetings-room-design
           - name: "Step 4 - Select room devices"
             href: hybrid-meetings-device-select
-          - name: "Step 5 - Build out your room"
-            href: hybrid-meetings-room-build
-          - name: "Step 6 - Set up your devices"
+          - name: "Step 5 - Set up your devices"
             href: hybrid-meetings-device-config
-          - name: "Step 7 - Manage and monitor rooms and meetings"
+          - name: "Step 6 - Manage and monitor rooms and meetings"
             href: hybrid-meetings-manage
     - name: Audio conferencing
       items: 

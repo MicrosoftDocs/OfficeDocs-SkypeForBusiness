@@ -1,5 +1,5 @@
 ---
-title: "Step 3 - Design a new meeting space or enhance an existing space"
+title: "Step 3 - Design and build a new meeting space or update an existing space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,17 +19,21 @@ ms.custom:
 keywords: 
 ---
 
-# Step 3 - Design a new meeting space or enhance an existing space
+# Step 3 - Design a new meeting space or update an existing space
+
+This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
+
+Select whether you want to design and build a new meeting space from scratch or if you want to update an existing space that already has some components, such as a conference table, displays, and so on.
 
 # [Design a new space](#tab/new-room)
 
+![Rendering of an enhanced meeting room.](media/emr1.png)
+
+## Room size and capacity
+
+To comfortably fit six to eight people, you'll need a space that's approximately 25 feet wide by 14 feet deep.
+
 ![Blueprint of an enhanced meeting room design.](media/emr10.png)
-
-25 ft x 14 ft
-
-## Room capacity
-
-This enhanced Microsoft Teams Room is optimized for between 6 - 8 people.
 
 ## Room furniture
 
@@ -65,3 +69,4 @@ Though many participants may choose to share content within this type of meeting
 | Lighting          | Overhead lights should be provided to illuminate the space evenly, with meeting room participants not appearing to be washed out or sitting in a dark space. Efforts to minimize direct lighting on front-of-room displays, co-create devices, or other reflective surfaces within the space should be taken to avoid introducing glare. |
 
 # [Update an existing space](#tab/updated-room)
+
