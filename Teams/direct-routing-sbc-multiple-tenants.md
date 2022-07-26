@@ -241,7 +241,7 @@ Two new entities were introduced:
 Examples:
 - Customers.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
 
-- Sbc1.customers.adatum.biz – the derived trunk in a customer tenant. You can add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it.
+- Sbc1.customers.adatum.biz – the derived trunk in a customer tenant. You can add the name of the derived trunk in the customer tenant in the voice routes without creating it.
 
 - Carrier will need to set up DNS record resolving derived trunk FQDN to carrier SBC IP address.
 
