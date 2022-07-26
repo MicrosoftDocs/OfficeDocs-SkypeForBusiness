@@ -55,7 +55,7 @@ Guests are added to your organization's Azure Active Directory as B2B users and 
 
 Guest access is available to the following tenants:
 
-- Across and between Commercial, and GCC
+- Across and between Commercial and GCC
 - Between GCC High only
 - Between DOD only
 
