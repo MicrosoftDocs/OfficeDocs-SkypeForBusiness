@@ -158,7 +158,7 @@ End customers retain control over access to their data and can completely remove
 
 With the delegated access feature, a partner does not gain any other privileges outside of the TRM service portal. For example, by using this feature to invite a partner to manage rooms in the TRM service, no permissions are granted to AAD or the Teams Admin Center or any other Microsoft product. In addition, partners do not have any access to view  or modify rooms not defined in the invitation scope.
 
-Once the partner-customer relationship is established – as described in the “Onboarding customers” of this doc – the partner can view room data in the TRM service. This includes any data present in the TRM service but derived from other Microsoft products. For example, call quality reports in the TRM portal are derived from Teams call quality data.
+Once the partner—customer relationship is established—as described in the “Onboarding customers” of this doc – the partner can view room data in the TRM service. This includes any data present in the TRM service but derived from other Microsoft products. For example, call quality reports in the TRM portal are derived from Teams call quality data.
 
 Data resides in the customer’s tenant and is not copied to the partner’s tenant. 
 
