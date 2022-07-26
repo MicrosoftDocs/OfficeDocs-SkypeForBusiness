@@ -51,9 +51,9 @@ Here are some of the measures taken to build this feature:
 
 - Inappropriate words are filtered out from the **Correlated words** recommendation lists. This is done through a combination of data science techniques and blocking of known problematic words. However, this process isn't error proof. Educators should review the recommendations.
 
-## What are the limitations of Insights for Reading Progress?
+## What are the limitations of Insights' word recommendations?
 
-- Insights for Reading Progress currently supports English words only.
+- Word recommendations for Reading Progress currently supports English words only.
 
 - Correlated words are only presented in classes with at least five students who have submitted Reading Progress assignments.
 
