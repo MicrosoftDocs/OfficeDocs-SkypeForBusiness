@@ -21,12 +21,14 @@ appliesto:
 
 Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. With Career Coach, educational institutions can help students discover their career path, grow real-world skills, and build their network all in one place.
 
-This article is for higher education IT admins to learn how to get started with Career Coach.
+This article is for higher education IT admins to get started with configuring Career Coach for their institution.
 
 Here are Career Coach resources for education leaders, educators, and students:
 
 - [Overview of Career Coach capabilities](https://aka.ms/career-coach).
 - [Best practices and helpful tips for students, faculty, and staff](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4).
+- [Career Coach quick start guide for students](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708).
+- [Engage students with Career Coach lesson plans](https://support.microsoft.com/topic/engage-students-with-career-coach-lesson-plans-086ce412-05de-4259-a9fd-c96471cef1b0).
 
 ## Career Coach supported languages
 
@@ -46,7 +48,7 @@ Career Coach is localized in the following languages:
 
 ## Career Coach requirements
 
-To turn on Career Coach for your educational institution, review the requirements to get Career Coach up and running below.
+Review the requirements below to get Career Coach set up for your institution.
 
 ### Technical requirements
 
@@ -60,7 +62,7 @@ To turn on Career Coach for your educational institution, review the requirement
 - Course catalog data. [View sample file](https://aka.ms/career-coach/docs/it-admins/sample-catalog) and [document format](career-coach-set-up-steps.md#course-catalog-document-format-and-schema).
 - List of fields of study offered. [View sample file](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy).
 - Educational institution’s [LinkedIn School Page URL](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
-- Educational institution's privacy policy URL.
+- Educational institution's privacy policy URL (optional).
 - Educational institution links to career-related resources such as a career services website and student job postings (optional).
 
 ## Accessibility in Career Coach

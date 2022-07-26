@@ -26,14 +26,14 @@ This article is for higher education IT admins to learn how to set up Career Coa
 
 The primary steps to set up, configure, and release Career Coach are:
 
-1. [Review the setup checklist](#review-the-setup-checklist).
+1. [Identify roles and permissions](#identify-roles-and-permissions).
 1. [Step 1: Prepare your tenant for Career Coach](#step-1-prepare-your-microsoft-365-tenant-for-career-coach).
 1. [Step 2: Purchase Career Coach licenses](#step-2-purchase-career-coach-licenses).
 1. [Step 3: Access Career Coach settings](#step-3-access-the-career-coach-app-settings).
 1. [Step 4: Set up and configure Career Coach settings](#step-4-configure-career-coach-settings).
 1. [Step 5: Make Career Coach available to your institution](#step-5-making-career-coach-available-to-your-institution).
 
-## Review the setup checklist
+## Identify roles and permissions
 
 Setting up Career Coach requires several types of admin roles. These roles and permissions may be assigned to one individual or may require collaboration with IT professionals in your educational institution. Use the checklist below to identify the individuals necessary to complete the referenced tasks.
 
@@ -159,11 +159,11 @@ There are two license types available.
 
 Career Coach is available worldwide (except China and Russia) for qualified higher education institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
 
-As a Microsoft Teams app, the tenant must have Microsoft 365 A3/A5 to purchase add-on Career Coach licenses.
+As a Microsoft Teams app, the tenant must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5 to purchase the add-on Career Coach license. Separate licenses are offered for students and faculty users.
 
 #### Sign up for a free trial
 
-A standard 90-day free trial is available for 25 students and 25 faculty/staff licenses. One trial is available per qualifying tenant. Trial licenses can be activated from Microsoft 365 admin center by tenants who are qualified to purchase Career Coach.
+A standard 90-day free trial is available for 25 students and 25 faculty licenses. One trial is available per qualifying tenant. Trial licenses can be activated from Microsoft 365 admin center by tenants who are qualified to purchase Career Coach licenses.
 
 For trial activation, sign into [Microsoft 365 admin center > Billing > Purchase services > search for Career Coach](https://go.microsoft.com/fwlink/p/?linkid=868433) to find the [student license trial](https://signup.microsoft.com/signup?OfferId=b3a40ff2-3d0d-481e-a0ed-f4de1069f201) and [faculty license trial](https://signup.microsoft.com/signup?OfferId=6f6e7db5-b9ab-4baa-86be-f13d0ae6a2c8).
 
@@ -225,7 +225,7 @@ Customize Career Coach to match your educational institution’s brand. You're r
     - Aspect ratio of 16:9
     - Maximum size of 360 px x 200 px
 
-6. Add the **Organization privacy policy URL**. If added, the institution's privacy policy will be available for students to review in Career Coach.
+6. This is an optional step. Add the **Organization privacy policy URL**. If added, the institution's privacy policy will be available for students to review in Career Coach.
 
 7. Select **Submit**.
 
@@ -467,7 +467,7 @@ Next, follow these steps to ensure Career Coach is available to your institution
 
 For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-### Setup policies and pin the app
+### Set up policies and pin the app
 
 Pinning Career Coach will add it to the left rail of the Microsoft Teams window to make it more accessible and visible for students. If you prefer to pin Career Coach for a subset of your users, then you'll need to implement a [Setup policy](teams-app-setup-policies.md) with that group included.
 

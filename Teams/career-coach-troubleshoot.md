@@ -65,6 +65,6 @@ However, Career Coach can be installed directly from the Microsoft Teams app sto
 
 You may encounter the following error: “We can't retrieve the app's settings. Try again. If you continue to have problems, contact Microsoft customer support.”
 
-Check the **Service Provisioning status** on the Career Coach settings page.
+Check the **Service Provisioning status** on the [Career Coach settings page](career-coach-set-up-steps.md#career-coach-settings-status).
 
 If your tenant is still being initialized, wait 15 minutes and try again. Open a support ticket if you still receive the error.
