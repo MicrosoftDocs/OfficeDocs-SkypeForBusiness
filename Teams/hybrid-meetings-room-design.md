@@ -1,5 +1,5 @@
 ---
-title: "Step 3 - Design and build a new meeting space or update an existing space"
+title: "Step 3 - Design and build an enhanced meeting space or update an existing space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -23,23 +23,37 @@ keywords:
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
 
-Select whether you want to design and build a new meeting space from scratch or if you want to update an existing space that already has some components, such as a conference table, displays, and so on.
+Select whether you want to design and build an enhanced meeting space optimized for hybrid meetings or if you want to update an existing, standard, space that already has some components, such as a conference table, displays, and so on.
 
-# [Design a new space](#tab/new-room)
+# [Enhanced](#tab/enhanced)
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 
-## Room size and capacity
+## Enhanced room size and capacity
 
-To comfortably fit six to eight people, you'll need a space that's approximately 25 feet wide by 14 feet deep.
+This space will comfortably fit six to eight people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
-![Blueprint of an enhanced meeting room design.](media/emr10.png)
-
-## Room furniture
+## Enhanced room furniture
 
 This room features a curved table with participants seated on one side, allowing in-room participants to retain visibility of each other and be positioned face to face with remote participants.
 
 This room features a standard meeting room table with a height of 30 in or 76 cm.
+
+![Blueprint of an enhanced meeting room design.](media/emr10.png)
+
+# [Standard](#tab/standard)
+
+## Standard room furniture
+
+This room incorporates a rectangle conference table that's standard in many meeting spaces. Participants can sit on either side of the table with a clear view of the front-of-room display.
+
+## Standard room size and capacity
+
+This space will comfortably fit up to 10 people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
+
+:::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of standard meeting room design":::
+
+---
 
 ## Equipment mounting
 
@@ -67,6 +81,3 @@ Though many participants may choose to share content within this type of meeting
 | Window treatments | Light from windows in a room of this type may negatively affect the lighting and introduce glare and shadows to both the camera image and the front-of-room display. Any space featuring windows should also feature window treatments that allow for external light to be blocked during meetings.                                      |
 | Floor treatments  | The floor in a room of this type should be carpeted or otherwise acoustically treated to prevent echo and ambient noise issues during meetings.                                                                                                                                                                                          |
 | Lighting          | Overhead lights should be provided to illuminate the space evenly, with meeting room participants not appearing to be washed out or sitting in a dark space. Efforts to minimize direct lighting on front-of-room displays, co-create devices, or other reflective surfaces within the space should be taken to avoid introducing glare. |
-
-# [Update an existing space](#tab/updated-room)
-
