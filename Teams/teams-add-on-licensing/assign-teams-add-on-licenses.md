@@ -59,7 +59,7 @@ Use PowerShell to assign licenses to users in bulk. To learn more, see [Assign l
 
 Here's an example of how to use a script to assign licenses to your users.
 
-1. (Install the Microsoft Azure Active Directory Module for Windows PowerShell)[/powershell/azure/active-directory/install-msonlinev1].
+1. [Install the Microsoft Azure Active Directory Module for Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
 2. At the Windows PowerShell command prompt, run the following script to assign licenses to your users, where \<CompanyName:License> is your organization name and the identifier for the license that you want to assign. For example, litwareinc:MCOMEETADV.
 
     The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is MCOMEETADV. To learn more, see [Product names and SKU identifiers for licensing](#product-names-and-sku-identifiers-for-licensing).
