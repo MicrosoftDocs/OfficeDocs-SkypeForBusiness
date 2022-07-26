@@ -3,7 +3,7 @@ title: Enroll a Teams Room device into Managed Services
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.reviewer:
+ms.date: 07/22/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -82,10 +82,10 @@ To log in to the device as Administrator (local administrator):
 > [!NOTE]
 > If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.
 
-To return to the Microsoft Teams Room app after performing the necessary administrative tasks:
+To return to the Microsoft Teams Rooms app after performing the necessary administrative tasks:
 
 1. From the Windows ***Start menu***, sign out from the Admin account.
-1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
+1. Return to Microsoft Teams Rooms by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
 
 > [!NOTE]
 > If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in.
@@ -128,11 +128,11 @@ The Enrollment process involves these steps:
 
 After downloading the installer from Microsoft (either from the portal or by using the AKA.ms URL provided above), unzip its contents to access the file **ManagedRoomsInstaller.msi**.
 
-There are two modes of installation: 1) individual local machine install and 2) mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.
+There are two modes of installation: 1) individual local machine install and 2) mass deploy mode (usually via Intune of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.
 
-Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document walks through only installation in individual mode.
+Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document walks through only installation in individual mode as well in bulk on Intune-enrolled devices.
 
-## Individual Device&mdash;Domain-joined walkthrough
+### Individual device installation
 
 1. Log in to the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed.
 
@@ -151,15 +151,58 @@ Due to the many varied ways in which customers can run MSI applications in mass 
     > [!NOTE]
     > Do not close the window. Once the installation is complete, the wizard displays a "Finish" button.
 
+### Intune-enrolled device bulk deployment
+
+The following components are pre-requisites for successful installation: 
+
+- **Intune enrollment**: Teams Rooms on Windows devices must be already enrolled in Intune.
+  For more information about how to enroll Teams Rooms on Windows devices in Intune, see [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- **Azure AD group with all Teams Rooms on Windows devices as members** – a group created in Azure AD that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTRP agent.
+  
+> [!NOTE]
+> You may consider using Dynamic groups in Azure AD for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- **Download MTRP agent** **installer** – Download the Agent’s zip file from <https://aka.ms/serviceportalagentmsi> and extract the contents of the zip (ManagedRoomsInstaller.msi) to a local temporary folder.
+
+**To install using Intune**
+
+1. Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Select **Apps** > **All apps** > **Add**.
+1. In the **Select app type** pane, under **Other** app types, select **Line-of-business app**.
+1. Click **Select**. The **Add app** steps are displayed. 
+1. In the **Add app** pane, click **Select app package file**.
+   1. In the **App package file** pane, select  **Browse**. Then, select the **ManagedRoomsInstaller.msi** file downloaded previously (refer to the pre-requisites section).
+   1. When you're finished, select **OK** on the **App package file** pane to add the app.
+1. In the **App information** page, perform the following changes:
+   1. Publisher: enter **Microsoft Corporation**.
+   1. Ignore app version: select **Yes**.
+
+      > [!NOTE]
+      > The MTRP agent is self updating; hence, you should explicitly ignore the app version (any baseline version can update automatically).
+
+   1. (Optional) Category: Select **Computer Management**.
+   
+1. Click **Next** to display the **Assignments** page.
+   1. Under the **Required** section, click **+ add group** to target a group of devices for installation of the agent.
+   1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click **Select**.
+      For more information, see [Add groups to organize users and devices](https://go.microsoft.com/fwlink/?linkid=2202166) and [Assign apps to groups with Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
+1. Click **Next** to display the **Review + create** page.
+1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
+
+Once the process is completed, your devices will start installing the MTRP agent after a few minutes.
+
+> [!NOTE]
+> Following installation, the MTRP agent may take up to eight hours to execute a self-update to the latest version and become listed in the MTRP portal.
+To expedite the automatic enrollment in the MTRP portal, consider restarting the MTR device following the agent deployment.
+
 ## Completing enrollment
 
-After the install is complete, wait 5-10 minutes and refresh the portal and the device will be listed, reported as *Onboarding* state.
+When the installation is complete, wait 5-10 minutes, then refresh the portal to view the device in the list, reported as *Onboarding* state.
 
 In *Onboarding* state, the status of the room is displayed and updated but it won't raise any alerts or create investigation tickets.
 
-Choose the room and select **Enroll**  to start getting incident alerts, investigation tickets, or to report an incident.
+Choose the room and select **Enroll**  to start receiving incident alerts, investigation tickets, or to report an incident.
 
-For any questions or issues, please open a customer reported incident in the portal or contact managedroomsupport@microsoft.com.
+For any questions or issues, please open a customer-reported incident in the portal, or contact managedroomsupport@microsoft.com.
 
 ### Unenrolling and uninstalling monitoring software
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams PSTN usage report
-author: SerdarSoysal    
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -52,7 +52,8 @@ In general, you can transfer any phone number that's from a supported provider, 
 - Toll-free phone numbers.
 
     > [!NOTE]
-    > Universal International Freephone Number (UIFN) can't be transferred to us. 
+    > Universal International Freephone Number (UIFN) can't be transferred to us.
+    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service. 
   
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
 
@@ -60,7 +61,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
 
-- Skype for Business hybrid phone numbers. If you want to transfer these numbers, email us at <ptn@microsoft.com>.
+- If you are porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans) please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), make sure you include a note stating those are hybrid phone numbers.
 
 **You can't transfer:**
   

@@ -1,7 +1,7 @@
 ---
 title: Overview of dynamic membership for teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual

@@ -48,6 +48,9 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 
 Teams users must have a phone number with PSTN calling enabled to use SIP Gateway.
 
+> [!NOTE]
+> SIP Gateway is not available for government environments (GCC, GCC High and DoD).
+
 ### Hardware, software, and licenses
 
 If you have a 3PIP or SIP device, you must have:
@@ -74,7 +77,6 @@ If you have a 3PIP or SIP device, you must have:
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
-|          |CCX 500    |7.0.3.0515  |7.2.1.1826 |   |   |
 |          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
@@ -133,6 +135,27 @@ If you have a 3PIP or SIP device, you must have:
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |Handset |   |
+|          |7212        |PCS22B     |PCS22B     |Handset |   |
+|          |7502        |PCS22B     |PCS22B     |Handset |   |
+|          |7522        |PCS22B     |PCS22B     |Handset |   |
+|          |7532        |PCS22B     |PCS22B     |Handset |   |
+|          |7622        |PCS22B     |PCS22B     |Handset |   |
+|          |7642        |PCS22B     |PCS22B     |Handset |   |
+|          |7722        |PCS22B     |PCS22B     |Handset |   |
+|          |7742        |PCS22B     |PCS22B     |Handset |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |Virtual IP-DECT Server One |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Base Station |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+
+> [!NOTE]
+> Spectralink Handsets receive firmware updates over the air from Spectralink IP-DECT servers.
+
+> [!NOTE]
+> For support queries, customers using IP-DECT systems with Teams SIP Gateway should reach out to their DECT manufacturer or their implementation channel partners.
 
 > [!NOTE]
 > For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.

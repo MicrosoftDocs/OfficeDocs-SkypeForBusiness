@@ -283,7 +283,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### Get list of unassigned service numbers
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### Assign available phone number
