@@ -128,7 +128,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
 
 These devices are available at the [Room System Accessories product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) and [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
-|Microsoft Teams Rooms peripheral|Certified firmware version | Camera supports content camera use|Intelligent camera|
+|Microsoft Teams Rooms peripheral|Certified firmware version | Supports content camera|Intelligent camera|
 |:--- |:--- | :--- |:--- |
 |[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
