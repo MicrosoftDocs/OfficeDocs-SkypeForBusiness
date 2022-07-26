@@ -25,7 +25,31 @@ This article is intended to guide users on how to optimize meeting spaces with M
 
 Select whether you want to design and build an enhanced meeting space optimized for hybrid meetings or if you want to update an existing, standard, space that already has some components, such as a conference table, displays, and so on.
 
+# [Standard](#tab/standard)
+
+Microsoft Teams Rooms can be deployed to any existing meeting space. These spaces typically have a conference table, whiteboard, corkboard, and a projection system to present content from a device. By integrating with your existing furniture and audio-visual hardware, Teams Rooms can simplify the pre-meeting setup for presenters and make remote users equal participants in the meeting.
+
+## Standard room size and capacity
+
+This space will comfortably fit up to 10 people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
+
+:::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of standard meeting room design":::
+
+## Standard room furniture
+
+This room incorporates a rectangle conference table that's common in many meeting spaces. Participants can sit on either side of the table with a clear view of the front-of-room display.
+
+## Standard equipment mounting
+
+Selecting a location for hardware is typically driven by the selection of Teams Room-certified hardware used within a given meeting space.
+
+We recommend that you mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left and right-channel audio for spatial audio) mounted below the front-of-room display. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents.
+
+Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
+
 # [Enhanced](#tab/enhanced)
+
+Enhanced Microsoft Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 
@@ -41,27 +65,17 @@ This room features a standard meeting room table with a height of 30 in or 76 cm
 
 ![Blueprint of an enhanced meeting room design.](media/emr10.png)
 
-# [Standard](#tab/standard)
-
-## Standard room furniture
-
-This room incorporates a rectangle conference table that's standard in many meeting spaces. Participants can sit on either side of the table with a clear view of the front-of-room display.
-
-## Standard room size and capacity
-
-This space will comfortably fit up to 10 people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
-
-:::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of standard meeting room design":::
-
----
-
-## Equipment mounting
+## Enhanced equipment mounting
 
 Selecting a location for hardware is typically driven by the selection of Teams Room-certified hardware used within a given meeting space.
 
-For the initial deployments of enhanced rooms within our Microsoft facilities, we have chosen to mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left- and right-channel audio for spatial audio) mounted on specialized furniture, located below the displayed image as well as between the front-of-room projection and the table. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents. For the display, a short-throw high-resolution projector is used.
+We recommend that you mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left and right-channel audio for spatial audio) mounted on specialized furniture, located below the displayed image as well as between the front-of-room projection and the table. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents. For the display, a short-throw high-resolution projector is used.
 
 Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
+
+---
+
+
 
 ## Touch console placement
 
