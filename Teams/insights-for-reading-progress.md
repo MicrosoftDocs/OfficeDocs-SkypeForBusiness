@@ -1,5 +1,5 @@
 ---
-title: Use Insights for Reading Progress
+title: Understand Insights for Reading Progress
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use Insights for Reading Progress
+# Understand Insights for Reading Progress
 
 This article is for education IT admins who want to understand how Insights data is used for Reading Progress recommendations.
 
@@ -33,7 +33,7 @@ For educator guidance on using Insights for Reading Progress, see [Create Readin
 
 Correlated words are personalized, recommended words that Insights for Education identified as challenging for other students who share similar reading patterns.
 
-Correlated words are based on a machine learning technique called **Collaborative Filtering**.
+Correlated words are based on a machine learning technique called **Collaborative filtering**.
 
 - Insights analyzes students’ reading data across classes that share your geographical area and language to identify clusters of words that are challenging to students.
 
@@ -47,7 +47,7 @@ Here are some of the measures taken to build this feature:
 
 - Student data analyses are built in an eyes-off manner, meaning Microsoft doesn't have access to students’ reading data, only to the analysis results.
 
-- Tenant admins can opt out from the data analysis process by turning off the [Advanced Inferences toggle](/class-insights#turn-on-and-off-advanced-inferences-in-insights).
+- Tenant admins can opt out from the data analysis process by turning off the [Advanced inferences toggle](/class-insights#turn-on-and-off-advanced-inferences-in-insights).
 
 - Inappropriate words are filtered out from the **Correlated words** recommendation lists. This is done through a combination of data science techniques and blocking of known problematic words. However, this process isn't error proof. Educators should review the recommendations.
 
