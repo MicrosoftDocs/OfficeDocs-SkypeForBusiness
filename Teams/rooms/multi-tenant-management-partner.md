@@ -99,7 +99,7 @@ To off-board a customer, you must remove them from the **Tenants** list.
 
 Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](microsoft-teams-rooms-premium-rbac.md), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
 
-The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions —– in context of the customer —– for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the customer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
+The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions—in context of the customer—for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the customer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
 
 **To manage users in the **Partner** role for a customer**
 
