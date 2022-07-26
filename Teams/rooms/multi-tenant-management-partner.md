@@ -20,7 +20,6 @@ description: Mult-tenant customer management for partners.
 f1keywords: 
 ---
 
-
 # Multi-tenant customer management for partners
 
 Multi-tenant management (MTM) in the Teams Rooms Managed (TRM) service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM tenant, giving partner organizations granular control of permissions to the customer’s resources. 
@@ -33,7 +32,6 @@ The MTM portal can be accessed through this [link](https://partner.rooms.microso
 ## Pre-requisites for managing your customers through the MTM experience
 
 To gain access to the MTM portal, your organization must be onboarded as an Elite Partner for the TRM service. To become an Elite partner contact askelite@microsoft.com.
-
 
 ## On-boarding customers
 
@@ -51,7 +49,6 @@ This built-in role is only configurable in the TRM-MTM portal. This role allows 
 4.	In the detail pane, search for the users or security groups.
 5.	Select the user or group.
 6.	Select **Add**.
-
 
 ### Invitation from the customer
 
@@ -92,19 +89,17 @@ To off-board a customer, you must remove them from the **Tenants** list.
 
 **To remove a customer** 
 
-1. Login to the TRM-MTM portal as a Primary admin for the customer you wish to remove.
+1. Log in to the TRM-MTM portal as a Primary admin for the customer you wish to remove.
 1. Go to **Tenants**.
 1. Select the customer you wish to remove.
 1. In the customer detail pane, select **Remove customer**.
-1. Select **Delete** in the confirmation prompt to terminate the association between your and the customer tenant.
-
+1. Select **Delete** in the confirmation prompt to terminate the association between you and the customer tenant.
 
 ## Managing partner roles
 
 Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](microsoft-teams-rooms-premium-rbac.md), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
 
 The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions —– in context of the customer —– for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the customer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
-
 
 **To manage users in the **Partner** role for a customer**
 
@@ -116,7 +111,7 @@ The **Primary admins** role is the only built-in role for each on-boarded custom
 1. Select **Members.**
 1. Click Select **Edit.** 
 1. Search for the user or security group you wish to add in the search bar.
-1. Select the user or group .
+1. Select the user or group.
 1. Click Select **Save** to confirm the changes.
 
 ### Managing custom partner roles for a customer
@@ -126,7 +121,7 @@ As a partner, you can create custom roles to suit your operational requirements.
 **To manage roles**
 
 1. Go to **Settings > Roles**. 
-1. Select the customer from the drop down for which you want to edit the partner role.
+1. Select the customer from the dropdown menu for which you want to edit the partner role.
 1. Create a [custom role](microsoft-teams-rooms-premium-rbac.md#built-in-roles).
 
 
