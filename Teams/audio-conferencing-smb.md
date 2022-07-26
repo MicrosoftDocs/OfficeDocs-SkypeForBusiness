@@ -73,6 +73,9 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 3. In the **Manage product licenses** pane, select **Assign more**.
 4. Select the **Microsoft 365 Audio Conferencing** check box, and then select **Save changes**.  
 
+> [!IMPORTANT]
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+
 ## Schedule Teams meetings in Outlook
 
 Your meeting organizers can now schedule meetings in Outlook. In Outlook, go to **Calendar**, and then select the **New Teams meeting** button. The meeting dial-in numbers and the conference ID are automatically added to the meeting invitation that's sent to meeting attendees. To learn more, see [Schedule a Teams meeting in Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f).
