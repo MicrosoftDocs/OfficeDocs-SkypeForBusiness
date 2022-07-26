@@ -90,7 +90,7 @@ Perform the following steps:
 
 Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
 
-You will have to refresh the data to see any new data.
+You'll have to refresh the data to see any new data.
 
 ## Customization 
 
