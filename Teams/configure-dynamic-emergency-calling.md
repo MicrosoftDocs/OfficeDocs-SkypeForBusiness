@@ -151,7 +151,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 - If dynamic enablement of emergency calling or dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.
 
-- If only dynamic locations are required, you must configure only trusted IP addresses; configuring metwork settings isn't required.
+- If only dynamic locations are required, you must configure only trusted IP addresses; configuring network settings isn't required.
 
 - If neither are required, configuring network settings isn't required.
 
