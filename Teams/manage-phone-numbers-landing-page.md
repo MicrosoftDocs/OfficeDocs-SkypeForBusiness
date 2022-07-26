@@ -87,7 +87,7 @@ Where and how numbers are managed depend on the PSTN connectivity option:
 
 - Microsoft Calling Plan and Operator Connect phone numbers can be managed only in Microsoft 365.
 
-- Direct Routing phone numbers can be managed in the on-premises Active Directory or in Microsoft 365 as described in the following sections:
+- Direct Routing phone numbers can be managed in the on-premises Active Directory or in Microsoft 365 as described in the following sections.
 
 ### Direct Routing numbers managed in an on-premises Active Directory
 
@@ -107,7 +107,7 @@ After this parameter is automatically synchronized to the user or resource accou
 
 If you're not managing Direct Routing phone numbers in the on-premises Active Directory, then they're managed in Microsoft 365. Because the phone numbers are not synching to Microsoft 365, they're not visible in the OnPremLineUri parameter in the output from the Get-CsOnlineUser cmdlet  run for the user or resource account.
 
-### Direct Routing numbers in both an on-premises Active Directory and Microsoft 365
+### Direct Routing numbers managed in both an on-premises Active Directory and Microsoft 365
 
 It's possible to manage Direct Routing phone numbers of some users in an on-premises Active Directory and Direct Routing phone numbers of other users in Microsoft 365. This capability depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.    
 
