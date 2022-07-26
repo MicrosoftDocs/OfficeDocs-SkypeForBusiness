@@ -66,8 +66,8 @@ Career Coach tasks:
 
 - [Add Career Coach as an installed app](#add-career-coach-as-an-installed-app).
 - [Configure the Career Coach app settings](#step-4-configure-career-coach-settings).
-- [Setup policies](#setup-policies-and-pin-the-app).
-- [Pin the app](#setup-policies-and-pin-the-app).
+- [Set up policies](#identify-roles-and-permissions).
+- [Pin the app](#identify-roles-and-permissions).
 
 ### LinkedIn developer portal tasks
 
@@ -95,7 +95,7 @@ There are two ways LinkedIn account connections are used by Career Coach:
 
 To turn on LinkedIn account connections:
 
-1. Sign into the [Azure AD admin center](https://go.microsoft.com/fwlink/p/?linkid=2067268) with a [global admin account](#review-the-setup-checklist) for the Azure AD organization.
+1. Sign into the [Azure AD admin center](https://go.microsoft.com/fwlink/p/?linkid=2067268) with a [global admin account](#identify-roles-and-permissions) for the Azure AD organization.
 
 2. Select **Users**.
 
