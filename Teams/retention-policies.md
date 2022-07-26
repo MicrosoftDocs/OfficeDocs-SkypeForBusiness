@@ -33,7 +33,7 @@ Retention policies and retention labels from Microsoft 365 help you to more effe
 Teams supports retention policies for chat and channel messages so that as an admin, you can decide proactively whether to retain this data, delete it, or retain it for a specific period of time and then delete it. The start of the retention period for these actions is always based on when a message is created. You can apply a Teams retention policy to your entire organization or to specific users and teams. Retention labels aren't supported for Teams.
 
 > [!NOTE]
-> [Shared channels](shared-channels.md), currently in preview, are now supported by retention policies.
+> [Shared channels](shared-channels.md) are supported by retention policies.
 
 To learn more about retention solutions in Microsoft 365, see [Learn about retention policies and retention labels](/microsoft-365/compliance/retention).
 
