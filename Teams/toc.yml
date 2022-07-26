@@ -2034,6 +2034,8 @@ items:
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
         - name: Emergency calling terms and conditions
           href: emergency-calling-terms-and-conditions.md
+    - name: Shared channels errors
+      href: shared-channels-errors.md
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
