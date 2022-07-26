@@ -467,8 +467,10 @@ items:
               
     - name: Log files, service health, and support
       items:
-        - name: Use log files to monitor and troubleshoot Teams
+        - name: Configure log files for monitoring and troubleshooting in Teams
           href: log-files.md
+        - name: Browser logs and tracing for Teams
+          href: browser-logs-and-tracing-for-teams.md
         - name: Verify service health for Teams
           href: service-health.md
         - name: How to look up your support PIN
@@ -1018,7 +1020,8 @@ items:
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-
+        - name: Licensing and phone number management
+          href: phone-numbers-licensing-changes.md
     - name: Dial plans and routing
       items: 
         - name: Overview
@@ -1565,6 +1568,8 @@ items:
           href: expand-teams-across-your-org/shifts/shifts-data-faq.md
         - name: Manage the Updates app
           href: manage-updates-app.md
+        - name: Manage the Walkie Talkie app
+          href: walkie-talkie.md
           
     - name: Manage third-party apps
       items:
@@ -1576,6 +1581,8 @@ items:
           href: overview-of-app-certification.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
+        - name: Adobe Acrobat as default PDF viewer in Teams
+          href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
 
@@ -1587,10 +1594,6 @@ items:
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
-        - name: Customize appearance and metadata of apps
-          href: customize-apps.md
-        - name: Brand your org app store
-          href: customize-your-app-store.md
 
     - name: Admin controls to govern apps
       items:
@@ -1614,16 +1617,20 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
+        - name: Customize appearance and metadata of apps
+          href: customize-apps.md
+        - name: Brand your org app store
+          href: customize-your-app-store.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: Audit app management activities
-          href: audit-app-management-activities.md
-        - name: App usage report and analytics
-          href: teams-analytics-and-reports/app-usage-report.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: App updates and admin role
           href: apps-update-experience.md
+        - name: Audit app management activities
+          href: audit-app-management-activities.md
+        - name: App usage report and analytics
+          href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 
@@ -1648,8 +1655,16 @@ items:
           href: easy-policy-setup-edu.md
         - name: Parent Connection in Teams for Education
           href: edu-parents-app.md
-        - name: Career Coach in Teams for Education
-          href: career-coach.md
+        - name: Career Coach
+          items:
+          - name: Get started with Career Coach
+            href: career-coach.md
+          - name: Set up and configure Career Coach
+            href: career-coach-set-up-steps.md
+          - name: Troubleshoot Career Coach
+            href: career-coach-troubleshoot.md
+          - name: Resources for Career Coach
+            href: career-coach-resources.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
         - name: Education Insights
@@ -2046,6 +2061,8 @@ items:
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
         - name: Emergency calling terms and conditions
           href: emergency-calling-terms-and-conditions.md
+    - name: Shared channels errors
+      href: shared-channels-errors.md
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
