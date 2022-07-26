@@ -2,7 +2,7 @@
 title: Multi-tenant customer management for partners
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/09/2022
+ms.date: 07/25/2022
 manager: serdars
 ms.reviewer: dstrome 
 ms.topic: article
