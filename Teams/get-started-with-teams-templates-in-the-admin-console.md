@@ -82,7 +82,7 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 |Manage volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<li>Announcements</li><li>Reporting</li><li>Volunteer Management</li><li>Engagement Opportunities</li><li>Volunteer Onboarding</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
 ||||
 
-&sup1;This is a Microsoft 365 connected template. When users create a team using this team template, the connected SharePoint template is automatically applied to the SharePoint site that’s created. SharePoint resources that are part of the template, such as lists and pages, are added as tabs to the General channel in the team. To learn more, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+&sup1;This is a Microsoft 365 connected template. When users create a team using this team template, the connected SharePoint template is automatically applied to the SharePoint site that’s created. SharePoint resources that are part of the template, such as lists and pages, are added as tabs to the General channel in the team. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
 
 ### Team templates by category and industry
 
