@@ -229,7 +229,7 @@ If `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` is set to Block:
 
 - Channel owners will have full edit and download rights on the recordings in this folder.
 
-- Channel members will have view only access without ability to download.
+- Channel members will have view-only access without ability to download.
 
 For more info on specific meeting types, see the following table:
 
