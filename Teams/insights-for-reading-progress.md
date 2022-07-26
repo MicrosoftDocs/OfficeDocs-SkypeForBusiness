@@ -1,5 +1,5 @@
 ---
-title: Understand Insights for Reading Progress
+title: Understand Insights for Reading Progress recommendations
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Understand Insights for Reading Progress
+# Understand Insights for Reading Progress recommendations
 
 This article is for education IT admins who want to understand how Insights data is used for Reading Progress recommendations.
 
