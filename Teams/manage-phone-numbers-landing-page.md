@@ -35,7 +35,7 @@ Currently, Microsoft supports two telephone number types:
 
 - [**User numbers**](#user-telephone-numbers), also called subscriber numbers, which can be assigned to users in your organization.
 
-- [**Service numbers**](#service-telephone-numbers), which are assigned to services such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
+- [**Service numbers**](#service-telephone-numbers), which are assigned to services, such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
 
 Microsoft is working to simplify number types, but for now you will need to decide:
 
@@ -87,18 +87,18 @@ Where and how numbers are managed depend on the PSTN connectivity option:
 
 - Microsoft Calling Plan and Operator Connect phone numbers can be managed only in Microsoft 365.
 
-- Direct Routing phone numbers can be managed in the on-premises Active Directory or in Microsoft 365 as describe in the following sections:
+- Direct Routing phone numbers can be managed in the on-premises Active Directory or in Microsoft 365 as describeD in the following sections:
 
 ### Direct Ruting numbers managed in an on-premises Active Directory
 
 If you have or had a Skype for Business Server hybrid deployment,
 your on-premises Active Directory is most likely synchronizing with Microsoft 365. This means that directory attributes on users and resource accounts are managed in the on-premises Active Directory and synchronized into Microsoft 365.
 
-If the Direct Routing phone number is managed on the user or resource account in the on-premises Active Directory, the msRTCSIP-Line parameter on the user object contains a value. You can use a tool such as ADSI Edit to view the msRTCSIP-Line parameter for a user that has a Direct Routing phone number assigned in on-premises Active Directory.
+If the Direct Routing phone number is managed on the user or resource account in the on-premises Active Directory, the msRTCSIP-Line parameter on the user object contains a value. You can use a tool such as ADSI Edit to view the msRTCSIP-Line parameter for a user that has a Direct Routing phone number assigned in on-premises Active Directory.   **JUST USERS? OR RESOURCE ACCOUNTS TOO?**
 
-After this parameter is automatically synchronized to the user in Microsoft 365 through the directory synchronization process (Azure AD Connect), you can use the Get-CsOnlineUser cmdlet with the OnPremmLineURi parameter to view the user's number.
+After this parameter is automatically synchronized to the user in Microsoft 365 through the directory synchronization process (Azure AD Connect), you can use the Get-CsOnlineUser cmdlet with the OnPremmLineURi parameter to view the user number.
 
-| Where managed | Parameter | Value |
+| Where | Parameter | Value |
 | :------------| :-------| :---------|
 | On-premises AD | msRTCSIP-Line | tel:+14255551234 |
 | Microsoft 365 | OnPremLineURi | tel:+14255551234 |
@@ -109,11 +109,11 @@ If you are not managing Direct Routing phone numbers in the on-premises Active D
 
 ### Direct Routing numbers in both an on-premises Active Directory and Microsoft 365
 
-It is possible to manage Direct Routing phone numbers of some users in an on-premises Active Directory and Direct Routing phone numbers of other users in Microsoft 365. It  depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.
+It is possible to manage Direct Routing phone numbers of some users in an on-premises Active Directory and Direct Routing phone numbers of other users in Microsoft 365. It  depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.    **ARE WE USING USER HERE TO MEAN BOTH USERS AND RESOURCE ACCOUNTS?**
 
 ### Change where Direct Routing phone numbers are managed
 
-To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the object in the on-premises Active Directory. 
+To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the object in the on-premises Active Directory.   **WHY USING OBJECT HERE?  WHY NOT SAY FOR THE USER OR RESOURCE ACCOUNT?**
 
 For more information, see [Clear Skype for Business attributes for all on-premises users in Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Note that the phone number needs to be re-assigned to the user or resource account in Microsoft 365.
 
