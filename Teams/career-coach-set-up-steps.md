@@ -26,12 +26,11 @@ This article is for higher education IT admins to learn how to set up Career Coa
 
 The primary steps to set up, configure, and release Career Coach are:
 
-1. [Identify roles and permissions](#identify-roles-and-permissions).
 1. [Step 1: Prepare your tenant for Career Coach](#step-1-prepare-your-microsoft-365-tenant-for-career-coach).
 1. [Step 2: Purchase Career Coach licenses](#step-2-purchase-career-coach-licenses).
 1. [Step 3: Access Career Coach settings](#step-3-access-the-career-coach-app-settings).
-1. [Step 4: Set up and configure Career Coach settings](#step-4-configure-career-coach-settings).
-1. [Step 5: Make Career Coach available to your institution](#step-5-making-career-coach-available-to-your-institution).
+1. [Step 4: Configure Career Coach settings](#step-4-configure-career-coach-settings).
+1. [Step 5: Make Career Coach available to your institution](#step-5-make-career-coach-available-to-your-institution).
 
 ## Identify roles and permissions
 
@@ -457,7 +456,7 @@ The configuration status section of the app settings page will display the real-
 
 Once all required steps are marked as complete, Career Coach can be successfully released to your tenant.
 
-## Step 5: Making Career Coach available to your institution
+## Step 5: Make Career Coach available to your institution
 
 At this point, Career Coach has been configured for your institution.
 
