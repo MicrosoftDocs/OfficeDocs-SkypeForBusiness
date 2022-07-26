@@ -104,7 +104,7 @@ The **Primary admins** role is the only built-in role for each on-boarded custom
 **To manage users in the **Partner** role for a customer**
 
 1. Go to **Settings > Roles**. 
-1. Select the customer from the drop-down list for which you want to edit the partner role.
+1. Select the customer from the dropdown list for which you want to edit the partner role.
 1. Select the **Primary admins** built-in role from the list.
 1. Select **Assignments.**
 1. From the list, select **Assigned Admins.**
@@ -180,4 +180,4 @@ The MTM portal has two interactive models to navigate between customer data:
   >
   > ![Figure 1](../media/multi-tenant-management-partner-001.png)
 
- - Tenant switching where only data from the **Customer** selected in the drop-down list is displayed.
+ - Tenant switching where only data from the **Customer** selected in the dropdown list is displayed.
