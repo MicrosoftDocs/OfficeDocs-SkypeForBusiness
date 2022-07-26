@@ -109,10 +109,10 @@ The **Primary admins** role is the only built-in role for each on-boarded custom
 1. Select **Assignments.**
 1. From the list, select **Assigned Admins.**
 1. Select **Members.**
-1. Click Select **Edit.** 
+1. Select **Edit.** 
 1. Search for the user or security group you wish to add in the search bar.
 1. Select the user or group.
-1. Click Select **Save** to confirm the changes.
+1. Select **Save** to confirm the changes.
 
 ### Managing custom partner roles for a customer
 
