@@ -39,7 +39,7 @@ A policy package in Teams is a collection of predefined policies and policy sett
 
 3. In the **Assign policy package** pane, select the package you want to assign, and then select **Save**.
 
-![Teams admin center screenshot for policy package assignment to a user.](media/assign-policypackages-user.png)
+:::image type="content" source="media/assign-policy-package-one-user.png" alt-text="Teams admin center screenshot for policy package assignment to a user." lightbox="media/assign-policy-package-one-user-expanded.png":::
 
 ### Assign a policy package to multiple users
 
@@ -51,9 +51,7 @@ A policy package in Teams is a collection of predefined policies and policy sett
 
 4. When you're finished adding users, select **Save**.
 
-
 ![Teams admin center screenshot for policy package assignment to multiple users.](media/assign-policypackages-multipleusers.png)
-
 
 ## Assign a policy package to a group
 
