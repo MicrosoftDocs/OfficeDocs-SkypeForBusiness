@@ -43,6 +43,16 @@ This room incorporates a rectangle conference table that's common in many meetin
 
 Selecting a location for hardware is typically driven by the selection of Teams Room-certified hardware used within a given meeting space.
 
+| Component      | Recommendations                                                                                                                                                                                                                                                                                                                                                             |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Console        | Place the touch console in the center of the conference table. If participants on both sides of the table need to operate the console, consider a console that will swivel. Make sure the console doesn't impede the use of personal devices and documents.                                                                                                                 |
+| Compute        | Some Teams Rooms devices have separate touch console and compute components. If yours has a separate compute component, locate the component in a location where cabling from the console and all room peripherals (display, microphones, speakers, and so on) can reach the component.                                                                                     |
+| Primary camera | Mount the camera in a location that allows it to view the entire room. Below the display and centered horizontally is often a good location to get a view of all participants. If you choose a soundbar with integrated camera, your placement options may be limited to beneath the display. Keep camera field of view in mind when placing the camera.                    |
+| Content camera | If you have a whiteboard and plan to use a content camera, make sure the camera is placed where it doesn't interfere with your display. The camera needs to be placed at least a couple feet out from the wall so it can see the whiteboard. If you're using a projector, make sure the camera doesn't cast a shadow on the projector screen.                               |
+| Microphones    | Place at least two microphones on the conference table so that no participants are more than a few feet from one (exact distances depend on the microphone you use). Make sure microphone coverage overlaps so that all participants can be heard. Placing microphones in the ceiling can be an alternative depending on how the room is constructed.                       |
+| Display        | Mount your display so that all participants can easy see it. Make sure the wall it's located on has enough strength to support the weight of the display and that you can run cabling from the display to the Teams Rooms console or compute device.                                                                                                                        |
+| Speakers       | If you didn't choose a soundbar with integrated camera, place speakers to either side of the display to get the most benefit out of spacial audio. You can also place speakers in the ceiling but keep left and right channel placement in mind for spatial audio. Also try to maintain separation between speakers and microphones that also may be placed in the ceiling. |
+
 We recommend that you mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left and right-channel audio for spatial audio) mounted below the front-of-room display. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents.
 
 Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
@@ -67,19 +77,20 @@ This room features a standard meeting room table with a height of 30 in or 76 cm
 
 ## Enhanced equipment mounting
 
-Selecting a location for hardware is typically driven by the selection of Teams Room-certified hardware used within a given meeting space.
+The enhanced meeting room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
 
-We recommend that you mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left and right-channel audio for spatial audio) mounted on specialized furniture, located below the displayed image as well as between the front-of-room projection and the table. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents. For the display, a short-throw high-resolution projector is used.
+| Component      | Recommendations                                                                                                                                                                                                                                                                                                                                                             |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Console        | Place the touch console in the center of the conference table. Make sure the console doesn't impede the use of personal devices and documents.                                                                                                                 |
+| Compute        | Some Teams Rooms devices have separate touch console and compute components. If yours has a separate compute component, locate the component in a location where cabling from the console and all room peripherals (display, microphones, speakers, and so on) can reach the component.                                                                                     |
+| Primary camera | We recommend that you use a soundbar with an integrated camera mounted on specialized furniture. Place the sound bar and furniture between the front edges of the curved table and the display at a height that doesn't interfere with participants' view of the display. Take the camera's field of view into account when determining the correct location for the soundbar and furniture.                    |
+| Content camera | If you have a whiteboard and plan to use a content camera, make sure the camera is placed where it doesn't interfere with your display. The camera needs to be placed at least a couple feet out from the wall so it can see the whiteboard. If you're using a projector, make sure the camera doesn't cast a shadow on the projector screen.                               |
+| Microphones    | The microphones in the soundbar should provide adequate coverage for all participants seated at the conference table.                        |
+| Display        | Mount your display so that all participants can easy see it. Make sure the wall it's located on has enough strength to support the weight of the display and that you can run cabling from the display to the Teams Rooms console or compute device.                                                                                                                        |
+| Speakers       | If you didn't choose a soundbar with integrated camera, place speakers to either side of the display to get the most benefit out of spacial audio. You can also place speakers in the ceiling but keep left and right channel placement in mind for spatial audio. Also try to maintain separation between speakers and microphones that also may be placed in the ceiling. |
 
-Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
 
 ---
-
-
-
-## Touch console placement
-
-The Microsoft Teams Rooms touch console should be mounted in the center of the table within easy reach of meeting participants without blocking usage of the table for personal devices or documents.
 
 ## Local video presentation
 
