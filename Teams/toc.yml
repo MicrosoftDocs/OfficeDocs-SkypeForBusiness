@@ -467,8 +467,10 @@ items:
               
     - name: Log files, service health, and support
       items:
-        - name: Use log files to monitor and troubleshoot Teams
+        - name: Configure log files for monitoring and troubleshooting in Teams
           href: log-files.md
+        - name: Browser logs and tracing for Teams
+          href: browser-logs-and-tracing-for-teams.md
         - name: Verify service health for Teams
           href: service-health.md
         - name: How to look up your support PIN
@@ -999,7 +1001,8 @@ items:
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-
+        - name: Licensing and phone number management
+          href: phone-numbers-licensing-changes.md
     - name: Dial plans and routing
       items: 
         - name: Overview
@@ -1559,6 +1562,8 @@ items:
           href: overview-of-app-certification.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
+        - name: Adobe Acrobat as default PDF viewer in Teams
+          href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
 
@@ -1631,8 +1636,16 @@ items:
           href: easy-policy-setup-edu.md
         - name: Parent Connection in Teams for Education
           href: edu-parents-app.md
-        - name: Career Coach in Teams for Education
-          href: career-coach.md
+        - name: Career Coach
+          items:
+          - name: Get started with Career Coach
+            href: career-coach.md
+          - name: Set up and configure Career Coach
+            href: career-coach-set-up-steps.md
+          - name: Troubleshoot Career Coach
+            href: career-coach-troubleshoot.md
+          - name: Resources for Career Coach
+            href: career-coach-resources.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
         - name: Education Insights
@@ -2029,6 +2042,8 @@ items:
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
         - name: Emergency calling terms and conditions
           href: emergency-calling-terms-and-conditions.md
+    - name: Shared channels errors
+      href: shared-channels-errors.md
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
