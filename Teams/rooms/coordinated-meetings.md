@@ -114,7 +114,7 @@ After you select **Save and exit**, the device will restart and it'll be ready t
 
 ### Use the Teams Rooms XML configuration file
 
-Coordinated Meetings can be set up using the Teams Rooms device's `SkypeSettings.xml` XML configuration file. The `SkypeSettings.xml` file isn't a static file. When the Teams Rooms device start, it checks in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` for a file named `SkypeSettings.xml`. If the file exists, the device reads and applies the configuration specified in the file. After it's done applying the configuration, the file is deleted. For more information about the `SkypeSettings.xml` file, see [Manage console settings with an XML configuration file](../rooms/xml-config-file.md#manage-console-settings-with-an-xml-configuration-file).
+Coordinated Meetings can be set up using the Teams Rooms device's `SkypeSettings.xml` XML configuration file. The `SkypeSettings.xml` file isn't a static file. When the Teams Rooms device starts, it checks in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` for a file named `SkypeSettings.xml`. If the file exists, the device reads and applies the configuration specified in the file. After it's done applying the configuration, the file is deleted. For more information about the `SkypeSettings.xml` file, see [Manage console settings with an XML configuration file](../rooms/xml-config-file.md#manage-console-settings-with-an-xml-configuration-file).
 
 The following is the syntax of the Coordinated Meetings settings in the configuration file:
 
