@@ -13,7 +13,7 @@ searchScope:
   - Microsoft Cloud for Retail
 audience: admin
 description: Learn how to manage the Tasks app for users in your organization.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help
   - M365-collaboration

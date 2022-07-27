@@ -15,7 +15,7 @@ searchScope:
 description: Learn how to manage the Lists app in Teams for users in your organization.
 f1.keywords:
   - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare

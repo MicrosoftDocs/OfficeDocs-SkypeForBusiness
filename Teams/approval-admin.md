@@ -11,7 +11,7 @@ searchScope:
   - Microsoft Teams
 search.appverid: MET150
 description: Learn about the Approvals application availability in Microsoft Teams.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
