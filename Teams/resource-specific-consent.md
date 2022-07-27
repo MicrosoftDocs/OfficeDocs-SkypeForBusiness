@@ -8,8 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn about the settings that you need to configure to control whether teams owners in your organization can give consent to apps. 
-ms.localizationpriority: high
+description: Learn about the settings you need to configure to control whether teams owners in your organization can give consent to apps. 
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams

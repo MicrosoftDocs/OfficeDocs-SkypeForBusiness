@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams IT architecture and voice solutions posters
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.topic: landing-page

@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Manage access to Teams apps across Microsoft 365. 
+description: Learn how to manage access to Teams apps across Microsoft 365. 
 ---
 
 # Manage access to Teams apps across Microsoft 365
@@ -28,11 +28,12 @@ For use in Outlook and Office.com, an enhanced app continues to use the existing
 
 The following is a list of the enhanced apps:
 
-* [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d?source=app-details-dialog)
-* [Power BI](https://teams.microsoft.com/l/app/1c4340de-2a85-40e5-8eb0-4f295368978b?source=app-details-dialog)
-* [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9?source=app-details-dialog)
-* [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d?source=app-details-dialog)
-* [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube?source=app-details-dialog)
+* [Monday.com](https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f)
+* [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d)
+* [Power BI](https://teams.microsoft.com/l/app/1c4340de-2a85-40e5-8eb0-4f295368978b)
+* [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9)
+* [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d)
+* [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube)
 
 You can control end-user access to the Teams apps using the following methods. If you're an Office Apps admin, contact your Global admin or Teams admin to manage app access.
 

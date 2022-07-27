@@ -1,8 +1,8 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: guptaashish
-ms.author: guptaashish
-manager: prkosh
+author: mkbond007
+ms.author: mabond
+manager: serdars
 audience: ITPro
 ms.topic: article 
 ms.service: msteams 
@@ -36,7 +36,7 @@ Schedulers can manage multiple department and staff calendars and communications
 
 * The Exchange mailbox is in Exchange Online. On-premises Exchange Server mailboxes aren't supported.
 * Microsoft Bookings is available for the organization.
-* Users have an appropriate license. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3, and Business Standard are supported.
+* Users have an appropriate license. Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3, and Business Standard are supported.
 * All users of the Bookings app and all staff participating in meetings have a license that supports Teams meeting scheduling.
 * [Software and browser prerequisites](hardware-requirements-for-the-teams-app.md).
 
@@ -53,6 +53,8 @@ You can also [create a Teams app setup policy to pin the Bookings app for select
 ## Recommended meeting policy settings
 
 To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **Everyone in your organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [how to automatically admit people to meetings](meeting-policies-participants-and-guests.md#automatically-admit-people).
+
+For more information about meeting policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md) and [Meeting policies and meeting expiration in Teams](meeting-expiration.md).
 
 ## Optional staff approvals setting
 

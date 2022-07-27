@@ -74,13 +74,13 @@ The global, organization-wide, default policy specifies that end-to-end encrypti
 
 1. Using a work or school account that has been assigned the Teams or global administrator role, sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
 
-2. Go to **Other settings** > **Enhanced encryption policies**.
+2. Go to **Enhanced encryption policies**.
 
 3. Either choose the default policy or choose **Add** to add a new policy and then name the new policy.
 
-4. To enable end-to-end encryption for your users, for **End-to-end call encryption**, choose **users can turn it on**, and then choose **Save**.
+4. To enable end-to-end encryption for your users, for **End-to-end call encryption**, choose **Disabled user override**, and then choose **Save**.
 
-   To disable end-to-end encryption, choose **Turn it off for everyone**.
+   To disable end-to-end encryption, choose **Disabled**.
 
 Once you’ve finished setting up the policy, assign the policy to users, groups, or your entire tenant the same way you manage other Teams policies. For information about using policies in Teams, see [Manage Teams with policies](manage-teams-with-policies.md).
 
