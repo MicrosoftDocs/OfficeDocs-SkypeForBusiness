@@ -42,7 +42,7 @@ Manage tasks, share documents, conduct project meetings and document risks and d
 
 ## Manage an Event
 
-Manage tasks, documents, and collaborate on everything you need to deliver a compelling event. Invite guests users to have secure collaboration inside and outside of your company.
+Manage tasks, documents, and collaborate on everything you need to deliver a compelling event. Invite guest users to have a secure collaboration inside and outside of your company.
 
 You might not have access to certain apps based on your app permission policy.
 
@@ -71,7 +71,7 @@ Help build, grow, and sustain your Champions community rollout by evangelizing a
 
 ## Organize Help Desk
 
-Collaborate on documentation, policy, and processes that support your helpdesk. Integrate your existing ticketing system or use our template to manage requests.
+Collaborate on documentation, policy, and processes that support your help desk. Integrate your existing ticketing system or use our template to manage requests.
 
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
@@ -80,7 +80,7 @@ Collaborate on documentation, policy, and processes that support your helpdesk. 
 
 ## Crisis Communications
 
-Centralize collaboration for your crisis team across business units and help create business continuity plans, share remote working tips, track customer communications, and keep everyone in the loop with announcements and news.
+Centralize communication and critical crisis resources for your crisis management or incident response team. Use online meetings to improve information flow and situational awareness.
 
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
