@@ -95,10 +95,4 @@ Centralize communication and critical crisis resources for your crisis managemen
 ## Related articles
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Financial team templates](financial-teams-templates-in-the-admin-console.md)
-- [Government team templates](government-teams-templates-in-the-admin-console.md)
-- [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-- [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
-- [Nonprofit team templates](team-templates-nonprofit.md)
-- [Retail team templates](get-started-with-retail-teams-templates.md)
 - [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
