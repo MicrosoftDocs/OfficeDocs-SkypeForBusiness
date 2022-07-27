@@ -22,16 +22,13 @@ ms.localizationpriority: medium
 ---
 # Manage Teams apps in the Microsoft Teams admin center
 
-You manage apps for your organization in **Teams apps** page in the Teams admin center portal. Use the Manage apps page to view and manage all Teams apps in your organization's app catalog.
+You manage apps for your organization in **Teams apps** page in the Teams admin center portal. Use the Manage apps page to view and manage all Teams apps in your organization's app catalog, cater to prominent use cases for app management, define access to apps using policies, and more.
 
 :::image type="content" source="media/manage-apps.png" alt-text="Screenshot of the Manage apps page." lightbox="media/manage-apps.png":::
 
-To use Teams admin center, you must have a Global Admin or Teams Administrator role. For details, see the following help articles:
-
-* [Teams administrator roles](./using-admin-roles.md).
-* [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles)
-
 To manage apps, you use policies to control permissions for users, installation of apps, and upload of custom apps created within your organization. To understand policies, see [Overview of app policies](app-policies.md).
+
+To use Teams admin center, you must have a Global Admin or Teams Administrator role. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
 > The Manage apps page isn't available in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
@@ -40,7 +37,7 @@ During the creation of an app, the developers create and add an app ID to the ma
 
 ## App management use cases and the available interfaces
 
-The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are available in other portals.
+The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are available in other portals or different admin center pages in the same portal.
 
 | App management use cases | Link to the interface | Documentation |
 |:----|:----|:----|
@@ -63,45 +60,20 @@ The options to accomplish most of app management use cases are available in Team
 | xxx | [Manage users](https://admin.teams.microsoft.com/users) | [Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide) |  
 --->
 
-## Publish a custom app to your organization's app store
-
-Use the Manage apps page to publish apps that are built specifically for your organization. After you publish a custom app, it's available to users in your organization's app store. There are two ways to publish a custom app to your organization's app store. The way that you use depends on how you get the app.
-
-* [Approve a custom app](#approve-a-custom-app): Use this method if the developer submits the app directly to the Manage apps page using the Teams App Submission API. You can then review and publish (or reject) the app directly from the app details page.
-* [Upload an app package](#upload-an-app-package): Use this method if the developer sends you the app package in .zip format. You publish the app by uploading the app package.
-
-### Approve a custom app
-
-The **Pending approvals** widget on the Manage apps page notifies you when a developer submits an app by using the Teams App Submission API. A newly submitted app is listed with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish it, set **Publishing status** to **Publish**.
-
-You're also notified when a developer submits an update to a custom app. You can then review and publish (or reject) the update on the app details page. All app permission policies and app setup policies remain enforced for the updated app.
-
-To learn more, see [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md).
-
-### Upload an app package
-
-The developer creates a Teams app package using [Teams App Studio](/microsoftteams/platform/get-started/get-started-app-studio), and then sends it to you in .zip format. When you have the app package, you can upload it to your organization's app store.
-
-To upload a new custom app, select **Upload** to upload the app package. The app isn't highlighted after it's uploaded so you'll need to search the list of apps on the Manage apps page to find it.
-
-To update an app after it's uploaded, in the list of apps on the Manage apps page, select the app name, and then select **Update**. Doing an update replaces the existing app and all app permission policies and app setup policies remain enforced for the updated app.
-
-To learn more, see [Publish a custom app by uploading an app package](upload-custom-apps.md).
-
 ## Allow and block apps
 
-The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status.
+The Manage apps page is where you allow or block individual apps at the org level. The page displays all the available app and their current org-level app status. The list of apps include apps provided by Microsoft, by third-party developers, and by developers within your organization.
 
 To allow or block an app:
 
-1. Go to Teams admin center > Teams apps > Manage apps.
-1. Select an app from the app list.
-1. Select **Allow** or **Block**.
+1. Sign in to Teams admin center.
+1. Access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
+1. Select an app from the list of apps. You can search by the name of the app and then select it.
+1. Select **Allow** or **Block** option.
 
-When you block or allow an app on the Manage apps page, that app is blocked or allowed for all users in your organization.  When you block or allow an app in a Teams app permission policy, it's blocked or allowed for users who are assigned that policy. For a user to be able to install and interact with any app, you must allow the app at the org level on the Manage apps page and in the app permission policy that's assigned to the user.
+When you allow (or block) an app on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center, the particular app is allowed (or blocked) for all users in your organization. This method differs from the app permission policy in the context that allowing (or blocking) an app via permission policy, impacts only the specific users who are assigned the policy.
 
- > [!NOTE]
- > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
+A user can install and use an app only when the app is allowed via the tenant-wide setting and allowed for the user via permission policy.
 
 ## Manage user requests to unblock apps
 
@@ -135,42 +107,13 @@ You can view requests to make a blocked app available for use. The request is se
 
 If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
 
-## Apps blocked by publishers
+## Allow the apps that are blocked by the developers
 
-When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is set up.
+When a developer publishes an app to the Teams app store, they might need admins to configure or customize the app experience. The admins make the experience available to the end-users when the app is set up.
 
-For example, Contoso Electronics is an ISV that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and will be hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**, or block users from using the app by changing the status to **Blocked**.
+For example, Contoso Electronics is an ISV that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and is hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**.
 
-<!--- 
-![Screenshot of blocked by publisher status in teams admin center.](media/blocked-by-publisher.png)
---->
-
-## Add an app to a team
-
-You use the **Add to team** button to install an app to a team. This option is available only for the apps that can be installed in a team scope. The option isn't available for apps that can only be installed in the personal scope.
-
-1. Search for an app by its name and select the app. Don't open the app details page.
-1. Select **Add to team**.
-
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot of Add to team option for app that can be added to the team scope.":::
-
-1. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
-
-## Customize an app
-
-You can now customize an app to include a specific look and feel according to your organization's needs. See [Customize apps in Teams](customize-apps.md).
-
-## Purchase services for third-party apps
-
-You can search for and purchase licenses for services offered by third-party apps for users in your organization directly from the Manage apps page. The **Licenses** column in the table indicates whether an app offers a paid SaaS subscription. Select **Purchase now** to view plans and pricing information and buy licenses for your users. To learn more, see [Purchase services for Teams third-party apps in the Microsoft Teams admin center](purchase-third-party-apps.md).
-
-## Grant permissions and consent to apps to use end-user information
-
-You can review and grant consent to apps that request permissions on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. To learn more, see [View app permissions and grant admin consent in the Microsoft Teams admin center](app-permissions-admin-center.md).
-
-## View resource-specific consent permissions
-
-Resource-specific consent (RSC) permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular, Teams-specific permissions that define what an app can do in a specific team. You can view RSC permissions on the **Permissions** tab of the app details page for an app. To learn more, see [View app permissions and grant admin consent in the Microsoft Teams admin center](app-permissions-admin-center.md).
+:::image type="content" source="media/blocked-by-publisher.png" alt-text="Screenshot of blocked by publisher status in Teams admin center.":::
 
 ## Manage org-wide app settings
 
@@ -201,6 +144,6 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 1. Select **Save** for org-wide app settings to take effect.
 
-## See also
+## Related article
 
 * [Manage Teams during the transition from Skype for Business admin center](manage-teams-skypeforbusiness-admin-center.md)

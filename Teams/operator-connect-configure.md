@@ -1,7 +1,7 @@
 ---
 title: Configure Operator Connect
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -86,18 +86,15 @@ For more information on emergency calling, see [Manage emergency calling](what-a
 
 1. Contact your operator to port your numbers to Operator Connect. See [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) to find your operator's website.
 
-2. After your operator completes the porting order, you can unassign your users' Calling Plan phone numbers, and remove the Calling Plan License. Then, your operator can upload the numbers to your tenant.
+2. After your operator completes the porting order, your operator will upload the numbers to your tenant.
 
 3. Assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
 ### Move numbers from Direct Routing to Operator Connect
 
-To move numbers from Direct Routing to Operator Connect, the existing Direct Routing number that was uploaded to your tenant by your operator must be removed from the user it's assigned to. Then, after the number is migrated to Operator Connect, you can re-assign the number to the user. To move from Direct Routing to Operator Connect with on-premises or online phone numbers, follow the steps below:
+To move from Direct Routing to Operator Connect with on-premises or online phone numbers, follow the steps below:
 
->[!IMPORTANT]
-> The phone number will be out of service during the migration, so coordinate with your Operator Connect operator before you begin.
-
-#### Step 1 - Remove existing Direct Routing numbers.
+#### Step 1 - Identify if the existing Direct Routing numbers are assigned online or on-premises.
 
 Check that the user is assigned a Direct Routing number by running the Teams PowerShell Module command:
 
@@ -114,9 +111,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Microsoft 365.
-    
-**To remove Direct Routing numbers assigned on-premises,** run the following Skype for Business Server PowerShell command:
-    
+
+**To migrate existing Direct Routing numbers assigned online to Operator Connect**, contact your operator. To find your operator's website, see [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). On the agreed date and time, your operator will migrate your numbers from Direct Routing to Operator Connect.
+
+**To migrate Direct Routing numbers assigned on-premises to Operator Connect**, run the following Skype for Business Server PowerShell command:
+>[!IMPORTANT]
+> The phone number will be out of service during the migration, so coordinate with your Operator Connect operator before you begin.
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -135,7 +136,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **To remove existing online Direct Routing numbers assigned online,** run the following Teams PowerShell Module command:
+
 
 
 ```PowerShell
