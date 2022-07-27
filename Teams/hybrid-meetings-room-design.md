@@ -31,15 +31,38 @@ Microsoft Teams Rooms can be deployed to any existing meeting space. These space
 
 ## Standard room size and capacity
 
+:::row:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+:::row-end:::
+
 This space will comfortably fit up to 10 people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
 :::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of standard meeting room design":::
 
 ## Standard room furniture
 
+:::row:::
+    :::column:::
+                :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+:::row-end:::
+
 This room incorporates a rectangle conference table that's common in many meeting spaces. Participants can sit on either side of the table with a clear view of the front-of-room display.
 
 ## Standard equipment mounting
+
+:::row:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-audiovisual.png" alt-text="Audio visual audience":::
+    :::column-end:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
 Selecting a location for hardware is typically driven by the selection of Teams Room-certified hardware used within a given meeting space.
 
@@ -65,9 +88,21 @@ Enhanced Microsoft Teams Rooms are not meant to be a replacement for all other m
 
 ## Enhanced room size and capacity
 
+:::row:::
+    :::column:::
+                :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+:::row-end:::
+
 This space will comfortably fit six to eight people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
 ## Enhanced room furniture
+
+:::row:::
+    :::column:::
+                :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+:::row-end:::
 
 This room features a curved table with participants seated on one side, allowing in-room participants to retain visibility of each other and be positioned face to face with remote participants.
 
@@ -76,6 +111,17 @@ This room features a standard meeting room table with a height of 30 in or 76 cm
 ![Blueprint of an enhanced meeting room design.](media/emr10.png)
 
 ## Enhanced equipment mounting
+
+:::row:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-audiovisual.png" alt-text="Audio visual audience":::
+    :::column-end:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
 The enhanced meeting room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
 
@@ -94,9 +140,21 @@ The enhanced meeting room shown in the images above requires specific placement 
 
 ## Local video presentation
 
+:::row:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-audiovisual.png" alt-text="Audio visual audience":::
+    :::column-end:::
+:::row-end:::
+
 Though many participants may choose to share content within this type of meeting room by joining the Teams meeting via a personal device to the Teams call, in-room local video presentation should also be made available at the table in an easily accessible manner.
 
 ## Infrastructure
+
+:::row:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+:::row-end:::
 
 | Component         | Recommendations                                                                                                                                                                                                                                                                                                                          |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,3 +164,15 @@ Though many participants may choose to share content within this type of meeting
 | Window treatments | Light from windows in a room of this type may negatively affect the lighting and introduce glare and shadows to both the camera image and the front-of-room display. Any space featuring windows should also feature window treatments that allow for external light to be blocked during meetings.                                      |
 | Floor treatments  | The floor in a room of this type should be carpeted or otherwise acoustically treated to prevent echo and ambient noise issues during meetings.                                                                                                                                                                                          |
 | Lighting          | Overhead lights should be provided to illuminate the space evenly, with meeting room participants not appearing to be washed out or sitting in a dark space. Efforts to minimize direct lighting on front-of-room displays, co-create devices, or other reflective surfaces within the space should be taken to avoid introducing glare. |
+
+:::row:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-audiovisual.png" alt-text="Audio visual audience":::
+    :::column-end:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-itpro.png" alt-text="IT Pro audience":::
+    :::column-end:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience":::
+    :::column-end:::
+:::row-end:::
