@@ -107,7 +107,7 @@ To set up Coordinated Meetings on a device, do the following:
 8. If **Video enabled** in your worksheet is `true`, select **Let people enable when joining a meeting** under **Turn on this device's camera**. This option can't be turned off if **Turn on this device's camera** is set to _on_.
 9. If **Whiteboard default** in your worksheet is `true`, set **Turn on whiteboarding on this device** to _on_, otherwise leave it _off_.
 10. Under **Trusted device accounts**, type each UPN listed in **Trusted accounts** in your worksheet. Separate multiple UPNs with commas.
-11. On the trusted device, turn off proximty and room remote. 
+11. On the trusted device, turn off proximity and room remote. 
 12. Select **Save and exit**.
 
 After you select **Save and exit**, the device will restart and it'll be ready to participate in Coordinated Meetings.
