@@ -69,9 +69,12 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 Here are the pre-built retail team templates.
 
+> [!NOTE]
+> If you're using Microsoft Graph to create a team from an existing Microsoft 365 group or team using a Microsoft 365 connected template, the connected SharePoint template isn't automatically applied. You'll need to manually apply the SharePoint site template after the team is created. In Teams, go to the team, select **More options** in the upper-right corner > **Open in SharePoint**. Then choose **Settings** > **Apply a site template** and select the  the corresponding site template.
+
 ### Store
 
-The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
+Use this template to create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
 | Template type | TemplateId | Template channels |
 | ------------------ | -------------- | ----------------------------------------------------- |
