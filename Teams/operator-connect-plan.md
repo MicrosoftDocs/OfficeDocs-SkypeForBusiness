@@ -1,7 +1,7 @@
 ---
 title: Operator Connect
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
