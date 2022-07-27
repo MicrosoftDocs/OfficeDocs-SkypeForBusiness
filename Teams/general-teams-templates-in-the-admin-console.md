@@ -92,8 +92,6 @@ Centralize communication and critical crisis resources for your crisis managemen
 > | ------------------ |--|----------------------------------------------------------|
 > | Crisis Communications |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>Executive Update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Approvals</li><li>Issue reporting</li><li>Lists<ul><li>Content scheduler</li><li>Project plan</li></ul></li><li>OneNote</li><li>Power Automate</li><li>Tasks by Planner and To Do</li><li>SharePoint Pages<ul><li>Our site</li><li>Latest update</li></ul>|
 
-&sup1;This is a Microsoft 365 connected template. When users create a team using this template, the connected SharePoint template is automatically applied to the site that's created and SharePoint components that are part of the template are added to the team. Pages, lists, and Power Platform integrations are automatically pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
-
 ## Related articles
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)

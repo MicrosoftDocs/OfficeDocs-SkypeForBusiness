@@ -44,26 +44,24 @@ To learn more about team templates in general, see [Get started with team templa
 
 We currently offer the following pre-built retail team templates. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-### Organize a store
+> [!NOTE]
+> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using this template, the connected SharePoint template is automatically applied to the site that's created and SharePoint components that are part of the template are added to the team. Pages, lists, and Power Platform integrations are automatically pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
 
-Bring your retail employees together in one central experience to manage tasks, share documents, and resolve customer issues. Integrate additional apps to streamline shift start and end processes.
+### Manage a Store*
+
+Bring your retail employees together in one central experience to manage tasks, share documents, and resolve customer issues. Integrate additional applications to streamline shift start and end processes.
 
 | Template type |TemplateId | Properties that come with this template |
 | ------------------|-- |----------------------------------------------------- |
-|Organize a store| `retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
+| &sup1;Manage a Store| `com.microsoft.teams.template.retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists<ul><li>Inventory list</li></ul></li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
-&sup1;App added to the channel as a tab
+### Retail for Managers*
 
-### Manager Collaboration
-
-The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Use this template to create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
 | Template type| TemplateId | Properties that come with this template |
 | ------------------|- |----------------------------------------------------- |
-|Retail for managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations<ul><li>Tasks (Operations Tasks)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
-||||
-
-&sup1;App added to the channel as a tab
+&sup1;Retail for Managers| `com.microsoft.teams.template.retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 
