@@ -70,7 +70,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 Here are the pre-built retail team templates.
 
 > [!NOTE]
-> If you're using Microsoft Graph to create a team from an existing Microsoft 365 group or team using a Microsoft 365 connected template, the connected SharePoint template isn't automatically applied. You'll need to manually apply the SharePoint site template after the team is created. In Teams, go to the team, select **More options** in the upper-right corner > **Open in SharePoint**. Then choose **Settings** > **Apply a site template** and select the  the corresponding site template.
+> If you're using Microsoft Graph to create a team from an existing Microsoft 365 group or team using a Microsoft 365 connected template, the connected SharePoint template isn't automatically applied. You'll need to manually apply the SharePoint site template after the team is created. In Teams, go to the team, select **More options** in the upper-right corner > **Open in SharePoint**. Then choose **Settings** > **Apply a site template** and select the corresponding site template.
 
 ### Store
 
