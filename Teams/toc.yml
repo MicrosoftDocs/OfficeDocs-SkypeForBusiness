@@ -891,7 +891,7 @@ items:
             - name: Plan for Operator Connect Mobile
               href: operator-connect-mobile-plan.md
             - name: Configure Operator Connect Mobile
-              href: opertor-connect-mobile-configure.md
+              href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
             - name: What's new
