@@ -23,6 +23,8 @@ appliesto:
 
 # Use retail team templates
 
+## Overview
+
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
 For retailers, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
