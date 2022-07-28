@@ -47,7 +47,7 @@ To learn more about team templates in general, see [Get started with team templa
 We currently offer the following pre-built retail team templates. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
 > [!NOTE]
-> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using this template, the connected SharePoint template is automatically applied to the site that's created and SharePoint components that are part of the template are added to the team. Pages, lists, and Power Platform integrations are automatically pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
 
 ### Manage a Store*
 
@@ -72,11 +72,13 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 Here are the pre-built retail team templates.
 
 > [!NOTE]
+> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When a team is created from the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+>
 > If you're using Microsoft Graph to create a team from an existing Microsoft 365 group or team using a Microsoft 365 connected template, the connected SharePoint template isn't automatically applied. You'll need to manually apply the SharePoint site template after the team is created. In Teams, go to the team, select **More options** in the upper-right corner > **Open in SharePoint**. Then choose **Settings** > **Apply a site template** and select the corresponding site template.
 
-### Store
+### Store*
 
-Use this template to create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Use this template to create a team for each retail store location in your organization.
 
 | Template type | TemplateId | Template channels |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -88,9 +90,9 @@ Recommended ways to customize the Store template for your organization:
 
 - If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel.
 
-### Manager Collaboration
+### Manager Collaboration*
 
-The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Use this template to create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
 | Template type | TemplateId | Template channels |
 | ------------------ | -------------- | ----------------------------------------------------- |
