@@ -25,7 +25,7 @@ This article describes what's new in Operator Connect. Check back often for upda
 
 On July 1, 2022, Microsoft published an API for operators where they can migrate the numbers from Direct Routing to Operator Connect. 
 
-For more information, see Operator Connect Swagger https://operatorconnect.microsoft.com/api/swagger#tag/TnMigration-(New).
+For more information, see [Operator Connect Swagger](https://operatorconnect.microsoft.com/api/swagger#tag/TnMigration-(New)).
 
 ## Number Status
 
