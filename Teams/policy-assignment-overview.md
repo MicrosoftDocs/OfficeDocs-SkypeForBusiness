@@ -117,7 +117,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the [Activity log](https://admin.teams.microsoft.com/activitylog). The activity log shows network record upload information, group policy operations from Teams admin center and PowerShell, and batch policy operations (for more than 20 users) from the Teams admin center, for the last 30 days.
 
-:::image type="content" source="media/Activity_Log.png" alt-text="Screenshot of the Activity log page." lightbox="media/Activity_Log.png":::
+:::image type="content" source="media/teams-activity-log.png" alt-text="Screenshot of the Activity log page." lightbox="media/Activity_Log.png":::
 
 To view your policy operations in the Activity log:
 
