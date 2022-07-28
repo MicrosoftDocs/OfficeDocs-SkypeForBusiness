@@ -3,7 +3,7 @@ title: "Manage phone numbers for your organization"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: davlick, roykuntz, jastark
+ms.reviewer: davlick, roykuntz, jenstr
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -35,7 +35,7 @@ Currently, Microsoft supports two telephone number types:
 
 - [**User numbers**](#user-telephone-numbers), also called subscriber numbers, which can be assigned to users in your organization.
 
-- [**Service numbers**](#service-telephone-numbers), which are assigned to services such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
+- [**Service numbers**](#service-telephone-numbers), which are assigned to services, such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
 
 Microsoft is working to simplify number types, but for now you will need to decide:
 
@@ -43,7 +43,7 @@ Microsoft is working to simplify number types, but for now you will need to deci
 - Which type of telephone number (subscriber or service) do I need?
 - How do I port existing telephone numbers to Teams?
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option.
+How you acquire and manage telephone numbers differs depending on your Public Switched Telephone Network (PSTN) connectivity option.
 
 - For information about managing telephone numbers for Microsoft Calling Plan, see [Manage telephone numbers for Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -51,7 +51,9 @@ How you acquire and manage telephone numbers differs depending on your PSTN conn
 
 - For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
-If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+
+> [!NOTE]
+> If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
 
 ## User telephone numbers
 
@@ -79,8 +81,41 @@ There are two types of service telephone numbers provided by Microsoft--toll and
     > [!CAUTION]
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
 
+## Where phone numbers are managed
 
-    
-  
-> [!NOTE]
-> If you need to get more telephone numbers than this, contact the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+Where and how numbers are managed depend on the PSTN connectivity option:
+
+- Microsoft Calling Plan and Operator Connect phone numbers can be managed only in Microsoft 365.
+
+- Direct Routing phone numbers can be managed in the on-premises Active Directory or in Microsoft 365 as described in the following sections.
+
+### Direct Routing numbers managed in an on-premises Active Directory
+
+If you have or had a Skype for Business Server hybrid deployment,
+your on-premises Active Directory is most likely synchronizing with Microsoft 365. This means that directory attributes on user and resource accounts are managed in the on-premises Active Directory and synchronized into Microsoft 365.
+
+If the Direct Routing phone number is managed on the user or resource account in the on-premises Active Directory, the msRTCSIP-Line parameter on the account contains a value. You can use a tool such as ADSI Edit to view the msRTCSIP-Line parameter for a user or resource account that has a Direct Routing phone number assigned in on-premises Active Directory.   
+
+After this parameter is automatically synchronized to the user or resource account in Microsoft 365 through the directory synchronization process (Azure AD Connect), you can view the phone number by looking at the OnPremLineURi parameter in the output from the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet.
+
+| Where | Parameter | Value |
+| :------------| :-------| :---------|
+| On-premises AD | msRTCSIP-Line | tel:+14255551234 |
+| Microsoft 365 | OnPremLineURi | tel:+14255551234 |
+
+### Direct Routing numbers managed in Microsoft 365
+
+If you're not managing Direct Routing phone numbers in the on-premises Active Directory, then they're managed in Microsoft 365. Because the phone numbers are not synching to Microsoft 365, they're not visible in the OnPremLineUri parameter in the output from the Get-CsOnlineUser cmdlet  run for the user or resource account.
+
+### Direct Routing numbers managed in both an on-premises Active Directory and Microsoft 365
+
+It's possible to manage Direct Routing phone numbers of some user and resource accounts in an on-premises Active Directory and Direct Routing phone numbers of other accounts in Microsoft 365. This capability depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.    
+
+### Change where Direct Routing phone numbers are managed
+
+To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the user or resouce account in the on-premises Active Directory.   
+
+For more information, see [Clear Skype for Business attributes for all on-premises users in Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Note that the phone number needs to be re-assigned to the user or resource account in Microsoft 365.
+
+After the removal has been synchronized to Microsoft 365, the OnPremLineUri attribute in the output from Get-CsOnlineUser on the user or resource account will be empty. 
+
