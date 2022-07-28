@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# What's new for Operator Connect
+# What's new for Operator Connect Operators
 
 This article describes what's new in Operator Connect. Check back often for updates.
 
