@@ -27,10 +27,9 @@ On-network Conferencing allows organizations to send inbound and outbound Audio 
 
 Specifically, this solution can be used to allow the following on-premise calls to route via Direct Routing:
 
-Dial-in calls to the Audio Conferencing service
-Dial-out calls from within a meeting in your organization to on-network PSTN numbers in your organisation devices including:
-Call-me-at calls
-Calls to bring new participants to a meeting
+- Dial-in calls to the Audio Conferencing service.
+
+- Dial-out calls from within a meeting in your organization to on-network PSTN numbers in your organization's devices, including call-me-at calls and calls to bring new participants to a meeting.
 
 ![dial in](https://user-images.githubusercontent.com/45355412/181000295-292ffc18-6143-4336-9a88-68dac8d0b598.png)
 
