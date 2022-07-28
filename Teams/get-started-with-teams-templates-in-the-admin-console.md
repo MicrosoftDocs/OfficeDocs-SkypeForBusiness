@@ -65,7 +65,14 @@ Here are the pre-built team templates that are available in the Teams admin cent
 You can duplicate pre-built templates but you can't edit them. If you want to change the properties in a pre-built template, you can create a new template from an existing one, and then add or remove the properties that you want. Keep in mind that certain properties in some templates can't be changed.
 
 > [!NOTE]
-> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using this template, the connected SharePoint template is automatically applied to the site that's created and SharePoint components that are part of the template are added to the team. Pages, lists, and Power Platform integrations are automatically pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using the template, the connected SharePoint template is applied to the site and the team. SharePoint component such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+
+> [!NOTE]
+> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using the template, the connected SharePoint template is automatically applied to the site that's created and SharePoint components that are part of the template are added to the team. Pages, lists, and Power Platform integrations are automatically pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+
+> [!NOTE]
+> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using the template, SharePoint components that are part of the connected SharePoint template are automatically added to the team. Pages, lists, and Power Platform integrations are pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+
 
 | Template type | TemplateId | Properties that come with this template |
 | ------------------ | -------------- | ----------------------------------------------------- |
