@@ -127,7 +127,7 @@ The required format to enter the extension in the user phone number field can be
 You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
 
 > [!NOTE]
->  If using the TelephoneNumber field to define the extension it's recommended that the format of +<phone number>;ext=<extension> is used and if the user is also assigned a Teams Phone Number, that both numbers are defined the same way.
+>  If using the TelephoneNumber field to define the extension it's recommended that the format of *+\<phone number>;ext=\<extension>* is used and if the user is also assigned a Teams Phone Number, that both numbers are defined the same way.
 
 
 ## Language support
