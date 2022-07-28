@@ -352,6 +352,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
 |Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
