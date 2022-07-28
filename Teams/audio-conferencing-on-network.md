@@ -23,7 +23,7 @@ description: "The following describes On-network for Audio Conferencing."
 
 # On-network Conferencing for Audio Conferencing
 
-On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing to an On-network Device. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers or outbound calls to the PSTN from Microsoft Audio Conferencing Bridge. 
+On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing to an on-network device. This capability is not intended to extend the support of Audio Conferencing to third-party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third-party dial-in phone numbers or outbound calls to the PSTN from the Microsoft Audio Conferencing bridge. 
 
 Specifically, this solution can be used to allow the following on-premise calls to route via Direct Routing:
 
