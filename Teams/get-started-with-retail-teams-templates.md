@@ -73,8 +73,6 @@ Here are the pre-built retail team templates.
 
 > [!NOTE]
 > An asterisk (*) indicates that the template is a Microsoft 365 connected template. When a team is created from the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
->
-> If you're using Microsoft Graph to create a team from an existing Microsoft 365 group or team using a Microsoft 365 connected template, the connected SharePoint template isn't automatically applied. You'll need to manually apply the SharePoint site template after the team is created. In Teams, go to the team, select **More options** in the upper-right corner > **Open in SharePoint**. Then choose **Settings** > **Apply a site template** and select the corresponding site template.
 
 ### Store*
 
@@ -124,6 +122,9 @@ To use these templates, change the 'template@odata.bind' property in the request
   ]
 }
 ```
+
+> [!NOTE]
+> If you're using Microsoft Graph to create a team from an existing Microsoft 365 group or team using a Microsoft 365 connected template, the connected SharePoint template isn't automatically applied. You'll need to manually apply the SharePoint site template after the team is created. In Teams, go to the team, select **More options** in the upper-right corner > **Open in SharePoint**. Then choose **Settings** > **Apply a site template** and select the corresponding site template.
 
 ## Related articles
 
