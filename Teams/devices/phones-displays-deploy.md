@@ -41,6 +41,8 @@ Teams Android-based devices are managed by Intune via Android Device Administrat
 > - If tenant admins want common area phones to be enrolled into Intune, they need to add an Intune license to the account and follow the steps for Intune enrollment.
 > - If the user account used to sign into a Teams device isn't licensed for Intune,
 > Intune compliance policies and enrollment restrictions need to be disabled for the account.
+> - If the user account used to sign into a Teams device is licensed for Intune, 
+> the Teams device will be automatically enrolled in Intune.
 
 
 
