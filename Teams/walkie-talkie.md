@@ -29,11 +29,20 @@ With Walkie Talkie in Teams, frontline workers can securely communicate with a f
 > [!NOTE]
 > Walkie Talkie is currently not available in China.
 
-## Getting started
-
-### Deploying Walkie Talkie
+## Deploying Walkie Talkie
 
 Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
+
+### Enable or disable Walkie Talkie in your organization
+
+Walkie Talkie is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
+
+1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
+2. In the list of apps, search for the Walkie Talkie app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
+
+### Enable or disable Walkie Talkie for specific users in your organization
+
+To allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### Pin Walkie Talkie to Teams
 
@@ -102,7 +111,7 @@ Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subsc
 
 ## More information
 
-- IT admins can maintain control over who is using Walkie Talkie through app policies.
+- As an adnin, you can maintain control over who in your organization is using Walkie Talkie through app policies.
 - If your frontline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
