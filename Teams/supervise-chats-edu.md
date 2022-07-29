@@ -1,7 +1,7 @@
 ---
 title: Use supervised chats
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: angch
 ms.topic: article

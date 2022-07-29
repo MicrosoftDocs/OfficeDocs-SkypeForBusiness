@@ -1,7 +1,7 @@
 ---
 title: Steering committee for cloud voice deployment
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article

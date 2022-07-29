@@ -1,7 +1,7 @@
 ---
 title: Meeting First - Microsoft Teams 
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
