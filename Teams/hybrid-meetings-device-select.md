@@ -21,13 +21,61 @@ keywords:
 
 # Step 4 - Select devices that enable your space for hybrid meetings
 
-# [Design a new space](#tab/new-room)
+Here are some things to consider when selecting equipment for your meeting spaces:
+
+- The **microphone array** is important in picking up the voices of the attendees. You can decide if you want the microphones to be on a table or in the ceiling. One advantage of ceiling-based microphones is they don't pick up vibrations as people bump into the table.
+- **Speakers** are crucial so everyone can hear what's going on. On the left is a sound bar that hangs below the front of room display. The sound bar includes both the speakers and the microphone. On the right is a speaker-only sound bar. There are also microphones that can be placed throughout the room.
+- **Displays** bring your content to life and can be a large flat screen TV or a projector that projects onto a screen. Make sure that the displays are sized properly for the space. 4K displays are supported, but Teams will only show up to a 1080p image.
+When should you use a single monitor versus dual monitors? A single monitor is good primarily for small rooms, while dual monitors are great for large rooms. Note that in either single or dual monitor scenarios, a monitor can be touch-enabled to support interactive inking.
+- **Cable management** shouldn't be overlooked. You don't want people to move the table console and pull cables loose. You also need to be able to run cables discreetly in walls or through floor covers, underneath tables, and to various other locations in the room where you need to put Teams Rooms equipment.
+
+# [Standard](#tab/standard)
+
+## Touchscreen console and compute module
+
+The touchscreen console is the device that users interact with when joining and managing a meeting. The compute module is the brains of the Teams Room and runs Windows 10 Enterprise IoT.
+
+Most consoles and compute modules are bundled into a single product. Some manufacturers combine the console and compute module into a single unit that sits on the conference table. Other manufacturers have a smaller console that sits on the conference table while the compute module is hidden away.
+
+:::image type="content" source="media/touchscreen-consoles.png" alt-text="Combined console & module vs standalone console.":::
+
+Whether you choose a single unit or split console and compute units up depends on your room design. For example, where do you want to route power and audio-visual cables? Are there network ports accessible from the conference table or only in a nearby wall? It's also important to think about what peripherals you need to connect to the compute module. Does it have enough USB, HDMI, and other ports? 
+
+Review the design requirements list for your space and which devices and peripherals you want to add to the room (cameras, microphone arrays, and so on). Then select a console and compute module that meet all the needs of your space.
+
+## Primary camera
+
+The primary camera brings together in-room and remote participants. This is the camera that captures the room and who's in it. It's important for remote participants to see who's talking, reactions of those in the room, their body language, and so on.
+
+When deciding on a camera, you need to consider a few factors:
+
+- How well the camera you choose can handle the lighting in the room.  
+- Do you need pan, tilt, and zoom, or can it be a static camera?
+- What the camera's field of view should be.
+
+:::image type="content" source="media/cameras.png" alt-text="Static camera and pan/tilt/zoom camera.":::
+
+The camera's field of view particularly is important. The wider the field of view, the less depth the camera can focus on accurately.  The narrower the field of view, the deeper into the room the camera can look. You need to choose a camera that will capture all the attendees in the room while ensuring the camera's field of view isn't so wide that participants become nothing more than tiny specks. For this reason, we recommend placing cameras as near to eye-level as possible and as centered as possible under the display.
+
+## Content camera
+
+Content cameras make it easier for remote participants to see what's on an analog whiteboard. When pointed at a whiteboard, the content camera superimposes the whiteboard drawings over the person using the whiteboard so the drawings are never obscured.
+
+:::image type="content" source="media/content-cameras.png" alt-text="Photo of two types of cameras that support the content camera feature." border="false":::
+
+The recommended whiteboard width for use with a content camera is between 6 and 9 feet (1.7 to 2.7 meters). Whiteboards as small as 3 feet (0.9 meters) wide and as wide as 12 feet (3.6 meters) are also supported. Drawings outside the 12 foot area aren't captured by the camera.
+
+If your whiteboard is wider than 12 feet, we recommend using colored tape to mark out a 12 foot area. This helps meeting participants stay within the capture area of the camera and helps the camera see where participants will place their drawings.
+
+For more information about content camera placement, see [Content cameras](rooms/content-camera.md).
+
+# [Enhanced](#tab/enhanced)
 
 ## Technology
 
 ### Cameras
 
-A room of this type requires the use of an intelligent, ultrawide-angle front-of-room camera that is appropriately rated for the width and depth of space.
+A room of this type requires the use of an intelligent, ultra wide-angle front-of-room camera that is appropriately rated for the width and depth of space.
 
 The camera should be placed at the front of the room below the front-of-room projection but above the top of the table to capture all the meeting room participants at as close to eye level as possible.
 
@@ -203,4 +251,3 @@ Other options:
 
 For the ideal scenario other display options (alternate projectors, LED walls, and flat panel displays) should be able to create a table spanning image, support a 4k image, and a 21:9 aspect ratio.
 
-# [Update an existing space](#tab/updated-room)

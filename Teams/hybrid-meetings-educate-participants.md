@@ -21,6 +21,12 @@ keywords:
 
 # Teams meeting participant best practices
 
+:::row:::
+    :::column:::
+        :::image type="content" source="media/hybrid-audience-itpro.png" alt-text="IT Pro audience":::
+    :::column-end:::
+:::row-end:::
+
 Share these best practices with your users to help them make the most out of their meetings.
 
 ## Meeting organizer and presenters
