@@ -53,7 +53,7 @@ To pin the Walkie Talkie app for your users, you can edit the global (Org-wide d
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
 
-### Network documentation
+## Network documentation
 
 Walkie Talkie in Teams requires Internet connectivity and below the network conditions are required for optimal experience.
 
@@ -71,7 +71,7 @@ As noted above, the quality of real-time media over an IP network is greatly imp
 
 Expected data usage from Walkie Talkie is around 20 Kb/s when sending or receiving audio. When idle, expected data usage from Walkie Talkie is negligible.
 
-### Walkie Talkie devices
+## Walkie Talkie devices
 
 Frontline workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
 
@@ -96,17 +96,17 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Teams Walkie Talkie.
 
-### License requirements
+## License requirements
 
 Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
-## Further information
+## More information
 
 - IT admins can maintain control over who is using Walkie Talkie through app policies.
 - If your frontline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
-For further reading on the end-user experience, see:
+To learn more about the end-user experience, see:
 
 - [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
 - [Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
