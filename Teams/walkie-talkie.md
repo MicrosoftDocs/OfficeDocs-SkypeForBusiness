@@ -55,7 +55,7 @@ To pin the Walkie Talkie app for your users, you can edit the global (Org-wide d
 
 ## Network documentation
 
-Walkie Talkie in Teams requires Internet connectivity and below the network conditions are required for optimal experience.
+Walkie Talkie in Teams requires internet connectivity. The following network conditions are required for an optimal experience.
 
 |Metric | Required |
 |---|---|
