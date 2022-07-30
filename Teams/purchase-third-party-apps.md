@@ -7,14 +7,13 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: 
 description: Learn how to purchase third-party apps from Teams store using a credit card, a debit card, or via invoice billing.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 ---
 # Purchase third-party apps for Teams

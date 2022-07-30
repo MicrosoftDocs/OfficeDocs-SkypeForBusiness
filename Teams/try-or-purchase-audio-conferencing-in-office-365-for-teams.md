@@ -1,5 +1,5 @@
 ---
-title: "Try or purchase Audio Conferencing in Microsoft 365 for Teams"
+title: Try or purchase Audio Conferencing in Microsoft 365 for Teams
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -23,7 +22,7 @@ ms.custom:
   - Audio Conferencing
   - ms.lync.lac.CpcGettingStarted
   - seo-marvel-mar2020
-description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Microsoft 365 or Office 365 to set up conference calls that people can dial in to. "
+description: See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Microsoft 365 or Office 365 to set up conference calls that people can dial in to. 
 ---
 
 # Try or purchase Audio Conferencing in Microsoft 365 for Microsoft Teams

@@ -1,5 +1,5 @@
 ---
-title: "Set up Calling Plans"
+title: Set up Calling Plans
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,13 +13,14 @@ ms.collection:
   - M365-voice
   - m365solution-voice
   - m365solution-scenario
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Calling Plans
   - LIL_Placement

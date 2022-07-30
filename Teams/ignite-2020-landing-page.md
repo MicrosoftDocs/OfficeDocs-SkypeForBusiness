@@ -8,6 +8,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 manager: serdars
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Teams sessions at Ignite 2020

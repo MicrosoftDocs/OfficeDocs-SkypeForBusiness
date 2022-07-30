@@ -6,15 +6,14 @@ manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:
+ms.collection: 
   - M365-collaboration
-  - SPO_Content
 ms.reviewer: anwara
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: Learn what to do when you need to perform eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
-appliesto:
+appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 ---

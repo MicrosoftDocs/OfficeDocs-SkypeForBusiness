@@ -1,5 +1,5 @@
 ---
-title: "Meeting room guidance for Teams"
+title: Meeting room guidance for Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,17 +8,15 @@ ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer:
+ms.reviewer: 
 description: A lookbook and guide for meeting room optimization with Teams Room solutions and devices.
-ms.collection:
+ms.collection: 
   - M365-voice
   - M365-collaboration
-  - skype-for-business-itpro
-  - skype-for-business-online
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 localization_priority: Normal
-appliesto:
+appliesto: 
   - Microsoft Teams
 ---
 # Meeting room guidance for Teams

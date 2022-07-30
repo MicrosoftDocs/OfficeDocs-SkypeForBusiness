@@ -1,6 +1,6 @@
-﻿---
+---
 title: Mobile App extension
-author: donnah007 
+author: donnah007
 ms.author: v-donnahill
 manager: serdars
 ms.date: 06/02/2022
@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-  - MTMR-collaboration
-  - MTMRinitiative-meetings
+  - M365-collaboration
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
