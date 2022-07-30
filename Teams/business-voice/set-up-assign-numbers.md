@@ -20,7 +20,7 @@ ms.collection:
 
 # Step 5: Assign Teams Phone System phone numbers to your users
 
-Before users can use Teams to make or receive phone calls to or from regular phone lines, you need to assign phone numbers to them. In Microsoft Teams clients, the phone number that you assign to a user is listed in the dial pad when the user clicks **Calls**. Do the following for each user who needs a phone number.
+Before users can use Teams to make or receive phone calls to or from regular phone lines, you need to assign phone numbers to them. In Microsoft Teams clients, the phone number that you assign to a user is listed in the dial pad when the user clicks **Calls**. Do the following steps for each user who needs a phone number.
 
 > [!NOTE]
 > If you don't see any phone numbers, please wait. It may take several hours for your new phone numbers to become available in Teams.
