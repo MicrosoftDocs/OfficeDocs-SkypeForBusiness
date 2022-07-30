@@ -20,7 +20,7 @@ ms.collection:
 
 # Get help from a Microsoft reseller or partner
 
-To set up Teams Phone System, you have the option to set it up yourself or to use a Microsoft partner or seller.
+You can set up Teams Phone System yourself or use a Microsoft partner or seller.
 
 You can find a Microsoft reseller or partner by visiting the [Connect with partners](https://appsource.microsoft.com/marketplace/partner-dir) page.
 
