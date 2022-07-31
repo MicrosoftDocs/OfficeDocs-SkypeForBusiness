@@ -128,6 +128,9 @@ See [Manage telephone numbers for your organization](manage-phone-numbers-landin
 
 ## Step 5 - Sign in
 
+>[!NOTE]
+>This process will only work for [Teams Certified Phones](https://docs.microsoft.com/en-us/microsoftteams/devices/teams-ip-phones). If your phone is not Teams certified, you may try to [manually provision as a SIP device common area phone](https://docs.microsoft.com/en-us/microsoftteams/sip-gateway-configure#provision-and-enroll-sip-devices-as-common-area-phones) . Just because your phone has a Teams profile option or the manufacturer's website indicates so, it does not mean it's currently Teams certified.
+
 Once you create and configure a user account, you can sign into a phone. Depending on how many phones you're deploying, you have three sign-in options:
 
 - [Local sign-in](#local-sign-in)
