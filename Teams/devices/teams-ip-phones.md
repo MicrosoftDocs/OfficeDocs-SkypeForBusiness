@@ -38,6 +38,9 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
+>![NOTE]
+>If your phone it not listed below, manually provisioning the phone may be possible via the device's Generic profile and as a SIP device. See [SIP Gateway Configure](https://docs.microsoft.com/en-us/microsoftteams/sip-gateway-configure).
+
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Poly CCX505                            | `7.3.1.0811`                                                  | 	August 5, 2023              | 9 |
