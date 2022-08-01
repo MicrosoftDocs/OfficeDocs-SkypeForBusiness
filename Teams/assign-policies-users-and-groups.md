@@ -111,9 +111,9 @@ A user's effective policy is updated according to these rules:
 > [!NOTE]
 > A given policy type can be assigned to a maximum of 64 groups across policy instances for that type.
 
-When you assign a policy to a group, you specify a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
+When you assign a policy to a group, you specify a ranking for the group assignment. This ranking is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 
-The group assignment ranking is relative to other group assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships with regard to inheritance.
+The group assignment ranking is relative to other group assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships regarding inheritance.
 
 Say, for example, you have two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should have a higher ranking.
 
@@ -275,7 +275,7 @@ To view the status of your policy assignment, in the banner that appears at the 
 
 With batch policy assignment, you can assign a policy to large sets of users at a time without using a script. You use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
 
-Specify users by their object ID or Session Initiation Protocol (SIP) address. A user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this isn't required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing and status will only be provided for the unique users remaining in the batch.
+Specify users by their object ID or Session Initiation Protocol (SIP) address. A user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this isn't required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing, and status will only be provided for the unique users remaining in the batch.
 
 A batch can contain up to 5,000 users. For best results, don't submit more than a few batches at a time. Allow batches to complete processing before submitting more batches.
 
@@ -344,7 +344,7 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](/powershell/module/tea
 
 When you unassign policies in bulk, you're removing policy assignments that were assigned to individual users through direct assignment. This is useful in the following scenarios:
 
-1. **For Global (Org-wide default) or group policy assignments to take effect:** Due to [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence), Global (Org-wide default) or group policy assignments won't take effect for uses who have a direct policy assignment. As an admin, you can unassign policies in bulk to remove individual assignments so Global (Org-wide default) or group policy assignments take effect.
+1. **For Global (Org-wide default) or group policy assignments to take effect:** Due to [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence), Global (Org-wide default) or group policy assignments won't take effect for uses who have a direct policy assignment. As an admin, you can unassign policies in bulk to remove direct assignments so Global (Org-wide default) or group policy assignments take effect.
 1. **Clean up policy assignments from the Teams Education wizard:** The Teams Education policy wizard applies the global policy defaults for students and assigns a custom policy set for a group of staff using group policy assignment. Admins need to clean up student and staff individual policies for Global (Org-wide default) and group assignments to be effective.
 1. **Remove incorrect policy assignments:** If there's a large group of individual users who were assigned the wrong policy through direct assignment, you can use unassign policies in bulk to remove these assignments.
 
