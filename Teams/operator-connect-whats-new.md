@@ -1,5 +1,5 @@
 ---
-title: "What's New Operator Connect"
+title: "What's new - Operator Connect"
 ms.reviewer: CarolynRowe 
 author: mreddy
 ms.author: mreddy
