@@ -47,7 +47,7 @@ To configure and enable Call Data Connector, you will use the following cmdlets:
 
 ### Configure your environment 
 
-To configure your environment to enable an online data collector, you must first log in to Microsoft Teams PowerShell module as an administrator. For more information, see [Manage Skype for Business Online with Office 365 PowerShell](/microsoftteams/teams-powershell-overview).
+To configure your environment to enable an online data collector, you must first log in to Microsoft Teams PowerShell module as an administrator. For more information, see [Microsoft Teams PowerShell Overview](/microsoftteams/teams-powershell-overview).
 
 There are two methods for logging in to Microsoft Teams PowerShell module:
 
