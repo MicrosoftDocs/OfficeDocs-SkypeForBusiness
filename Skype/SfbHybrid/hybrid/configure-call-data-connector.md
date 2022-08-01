@@ -19,7 +19,7 @@ description: "Instructions for configuring Call Data Connector, which allows tel
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 
-This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools.
+This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Microsoft Call Quality Dashboard (CQD) and Call Analytics (CA) tools.
 
 For more information about Call Data Connector benefits and pre-requisites, such as role requirements and setting up hybrid connectivity, see [Plan Call Data Connector](plan-call-data-connector.md).
 
@@ -47,14 +47,14 @@ To configure and enable Call Data Connector, you will use the following cmdlets:
 
 ### Configure your environment 
 
-To configure your environment to enable an online data collector, you must first log in to Skype for Business Online PowerShell as an administrator. For more information, see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+To configure your environment to enable an online data collector, you must first log in to Microsoft Teams PowerShell module as an administrator. For more information, see [Manage Skype for Business Online with Office 365 PowerShell](/microsoftteams/teams-powershell-overview).
 
-There are two methods for logging in to Skype for Business Online PowerShell:
+There are two methods for logging in to Microsoft Teams PowerShell module:
 
 - From the Skype for Business Server 2019 management shell (recommended method)
 - From another PowerShell session
 
-#### Log in to Skype for Business Online PowerShell from the Skype for Business Server management shell (recommended method)
+#### Log in to Microsoft Teams PowerShell module from the Skype for Business Server management shell (recommended method)
 
 1. If enabling the connector for the first time, run the following command:
 
@@ -69,7 +69,7 @@ There are two methods for logging in to Skype for Business Online PowerShell:
    ```
 
 
-#### Log in to Skype for Business Online PowerShell from another PowerShell session (optional method)
+#### Log in to Microsoft Teams PowerShell module from another PowerShell session (optional method)
 
 1.  If enabling the connector for the first time, run the following command: 
 
