@@ -25,7 +25,7 @@ For more information about Call Data Connector benefits and pre-requisites, such
 
 ## Enable Monitoring
  
-You must configure Call Data Recording (CDR) and Quality of Experience (QoE) data collection in your front end pool Monitoring,with local LCSCdr and QoEMetrics databases; otherwise, the Call Analytics and Call Quality Dashboards won’t get data to work with. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE as well as basic Monitoring.
+You must configure Call Data Recording (CDR) and Quality of Experience (QoE) data collection in your front end pool Monitoring with local LCSCdr and QoEMetrics databases; otherwise, the Call Analytics and Call Quality Dashboards won’t get data to work with. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE as well as basic Monitoring.
 
 > [!IMPORTANT]
 > Call Data Connector will not function if Monitoring is not enabled on the front end pool.
