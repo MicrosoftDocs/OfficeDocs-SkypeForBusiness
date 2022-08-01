@@ -39,7 +39,7 @@ Users don’t need to replace previously certified devices when upgrading to Tea
 
 - **Native Bluetooth Certified Audio Peripherals**  Most Bluetooth headsets and speakerphones that are certified for Microsoft Teams are designed to be used with a USB dongle for connectivity to PCs and Mac hosts. Many users have been asking for the option to directly pair their device with the host, because they don't have enough USB ports, or they don't want to have to remember to bring the USB dongle with them when they work in different locations.
 
-    Native Bluetooth-certified devices, including headsets and speakerphones, are supported on Windows PCs (MacOS may be supported in the future). Devices are tested for audio performance, call control, and Teams button integration, both with and without the use of a USB dongle.
+    Native Bluetooth-certified devices, including headsets and speakerphones, are supported on Windows PCs (macOS may be supported in the future). Devices are tested for audio performance, call control, and Teams button integration, both with and without the use of a USB dongle.
 
     The performance in native Bluetooth mode is impacted by the Bluetooth radio on the host PC, so we recommend installing the latest firmware updates for both devices and Bluetooth radio. A small portion of users may need to continue to use the USB dongle, such as when working in a high-density radio environment, if their PC Bluetooth is heavily used by multiple paired devices, or with certain PCs that have poor-performing Bluetooth radios.
 
