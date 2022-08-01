@@ -40,7 +40,6 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Code snippets||
 |Edited messages|If the user is on hold, previous versions of edited messages are also preserved.|
 |Emojis, GIFs, and stickers||
-|Feed notifications|No||
 |Inline images||
 |Loop components|Content in a loop component is saved in a .fluid file that's stored in the OneDrive for Business account of the user who sends the loop component. That means you have to include OneDrive as a data source when searching for content in loop components.|
 |Meeting IM conversations||
