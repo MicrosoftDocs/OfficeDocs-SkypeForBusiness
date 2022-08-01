@@ -47,7 +47,7 @@ Here are some of the measures taken to build this feature:
 
 - Student data analyses are built in an eyes-off manner, meaning Microsoft doesn't have access to students’ reading data, only to the analysis results.
 
-- Tenant admins can opt out from the data analysis process by turning off the [Advanced inferences toggle](/class-insights#turn-on-and-off-advanced-inferences-in-insights).
+- Tenant admins can opt out from the data analysis process by turning off the [Advanced inferences toggle](class-insights.md#turn-on-and-off-advanced-inferences-in-insights).
 
 - Inappropriate words are filtered out from the **Correlated words** recommendation lists. This is done through a combination of data science techniques and blocking of known problematic words. However, this process isn't error proof. Educators should review the recommendations.
 
