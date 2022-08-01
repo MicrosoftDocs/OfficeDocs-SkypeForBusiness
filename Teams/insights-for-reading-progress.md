@@ -24,8 +24,8 @@ Insights allows educators to track their students' reading fluency using Reading
 
 Reading Progress provides the following types of reading challenge assignments:
 
-- **Contextual words** recommends practice words based on the words students mispronounced in past assignments.
-- **Correlated words** recommends practice words based on mistakes common to students with the same type of reading challenges.
+- **Contextual words**: practice words recommended based on the words students mispronounced in past Reading Progress assignments.
+- **Correlated words**: practice words recommended based on mistakes common to students with the same type of reading challenges.
 
 For educator guidance on using Insights for Reading Progress, see [Create Reading Progress challenge assignments with Insights](https://support.microsoft.com/topic/c2f8f4c0-69d5-4302-b3a5-ee4dfb7a8ffe).
 
@@ -53,7 +53,7 @@ Here are some of the measures taken to build this feature:
 
 ## What are the limitations of Insights' word recommendations?
 
-- Word recommendations for Reading Progress currently supports English words only.
+- Word recommendations for Reading Progress are currently supported in [these languages](https://support.microsoft.com/topic/getting-started-with-reading-progress-in-teams-7617c11c-d685-4cb7-8b75-3917b297c407#ID0EDD=Supported_Languages).
 
 - Correlated words are only presented in classes with at least five students who have submitted Reading Progress assignments.
 
