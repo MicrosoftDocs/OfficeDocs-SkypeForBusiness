@@ -1657,7 +1657,9 @@ items:
             - name: Manage user access to Insights
               href: education-insights-manage-access.md              
             - name: Get started with Reflect
-              href: reflect.md      
+              href: reflect.md   
+            - name: Understand Insights for Reading Progress
+              href: insights-for-reading-progress.md
         - name: Assignments in Teams for Education
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams resources for Education admins
