@@ -18,10 +18,10 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Adobe Acrobat as a default PDF viewer in Teams
+# Adobe Acrobat as a default PDF viewer in Microsoft Teams
 
 > [!NOTE]
-> Adobe Acrobat as a default PDF experience in Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature. Ensure that the end-users change Teams client version to public preview to experience Adobe Acrobat as PDF viewer in Teams.
+> Adobe Acrobat as a default PDF experience in Microsoft Teams is currently available only in public preview. [Enable public preview](public-preview-doc-updates.md#enable-public-preview) for your tenant, before you use this feature. Ensure that the end-users change Teams client version to public preview to experience Adobe Acrobat as PDF viewer in Teams.
 
 As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in the Microsoft Teams. Your end-users don't need an Adobe Acrobat subscription or an Adobe ID to view, search, comment and annotate PDF files.
 
@@ -62,7 +62,7 @@ You can use the Global (Org-wide default) policy to assign and make the Adobe Ac
 
 1. Select **Save**.
 
-After you select save, the Adobe Acrobat app is configured with Teams to open any PDF files in the Adobe Acrobat app from the chat, channel, or files app.
+After you select save, Teams uses Adobe Acrobat app as the default viewer for PDF files.
 
 If you want to selectively allow the Adobe Acrobat app for a few specific individuals or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
 
@@ -73,16 +73,12 @@ After the policy is set up, installed app is available for users after a few hou
 * Viewing of PDF files that are pinned in channels as a tab and viewing of PDF files in assignments app continues to be powered by the native Teams experience.
 * Adobe Acrobat as a default PDF viewer in Teams works only on desktop and web clients. It is not supported on mobile client.
 * Users need an Adobe Acrobat plan to use premium tools such as Export PDF, Organize Pages, Combine Files, Compress PDF, and Protect PDF.
+* To uninstall the app, end-users can remove the app from the Teams client. Admin can remove the Adobe Acrobat app by using setup policy.
+* If you block Adobe Acrobat app, then remove it from the setup policy. It ensures that end-user experience reverts to the native PDF file viewer.
 
 > [!NOTE]
-> From Teams desktop client, if you face any issues while signing to Adobe Acrobat app, you can open Teams in browser and sign in. This is a known issues and will be resolved by September 2022.
+> From Teams desktop client, if you face any issues while signing in to Adobe Acrobat app, use Teams in browser to sign in.
 
-## FAQs
-
-* How to remove Adobe Acrobat app from Teams client?
-  
-  End-users can uninstall the app from the Teams client and admin can remove the Adobe Acrobat app from the setup policy.
-
-* Can admins block the Adobe Acrobat app once it's set as a default handler?
-  
-  Yes, but before the admin blocks the app, remove the setup policy to ensure that the end-users are safely brought back to Teams default experience.
+<!---
+Admins can block the Adobe Acrobat app once it's set as a default handler. Before the admin blocks the app, remove the setup policy to ensure that the end-users are safely brought back to Teams default experience.
+--->
