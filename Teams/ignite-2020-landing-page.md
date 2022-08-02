@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 manager: serdars
+ROBOTS: NOINDEX
 ---
 
 # Teams sessions at Ignite 2020
