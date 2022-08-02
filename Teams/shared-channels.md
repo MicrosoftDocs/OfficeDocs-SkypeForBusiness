@@ -145,6 +145,8 @@ The following table describes the maximum number of channels and members.
 
 The following limitations also apply:
 
+- Only Azure AD work or school accounts are supported for external participants.
+
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
 - LOB apps, bots, connectors, and message extensions are not supported.
@@ -152,6 +154,8 @@ The following limitations also apply:
 - When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 
 - Notifications from shared channels are not included in missed activity emails.
+
+- Shared channels are not supported in class teams.
 
 ## Supported apps in shared channels
 
@@ -202,7 +206,6 @@ The following apps are supported for use in shared channels.
 - Smartsheet
 - SurveyMonkey
 - Tasks in a Box
-- Teams
 - Teams Manager
 - TeamViewer
 - Teamwork

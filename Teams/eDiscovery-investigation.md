@@ -64,16 +64,13 @@ Here's an example of a chat conversation between participants during a meeting.
 
 ![Conversation between participants in Teams.](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 Here's an example of the compliance copy of the same chat conversation viewed in an eDiscovery tool.
 
 ![Conversation between participants in eDiscovery search results.](media/MeetingImConversation2.png)
 
 Here's an example of the meeting metadata.
 
-  > [!div class="mx-imgBorder"]
-  > ![The meeting metadata from the compliance copy.](media/conversationOption3.png)
+![The meeting metadata from the compliance copy.](media/conversationOption3.png)
 
 For more information about conducting an eDiscovery investigation, see [Get started with eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
 

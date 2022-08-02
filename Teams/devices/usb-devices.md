@@ -37,7 +37,13 @@ Users don’t need to replace previously certified devices when upgrading to Tea
 
 ### Special usage designations
 
-- **Premium Microphone for Open Office** All headsets are tested to provide clear audio, but open office and other noisy environments pose a greater challenge. Headsets with this designation pick up the voice of the headset user but not transmit the sound of their neighbors.
+- **Native Bluetooth Certified Audio Peripherals**  Most Bluetooth headsets and speakerphones that are certified for Microsoft Teams are designed to be used with a USB dongle for connectivity to PCs and Mac hosts. Many users have been asking for the option to directly pair their device with the host, because they don't have enough USB ports, or they don't want to have to remember to bring the USB dongle with them when they work in different locations.
+
+    Native Bluetooth-certified devices, including headsets and speakerphones, are supported on Windows PCs (macOS may be supported in the future). Devices are tested for audio performance, call control, and Teams button integration, both with and without the use of a USB dongle.
+
+    The performance in native Bluetooth mode is impacted by the Bluetooth radio on the host PC, so we recommend installing the latest firmware updates for both devices and Bluetooth radio. A small portion of users may need to continue to use the USB dongle, such as when working in a high-density radio environment, if their PC Bluetooth is heavily used by multiple paired devices, or with certain PCs that have poor-performing Bluetooth radios.
+
+- **Premium Microphone for Open Office** All headsets are tested to provide clear audio, but open office and other noisy environments pose a greater challenge. Headsets with this designation pick up the voice of the headset user but do not transmit the sound of their neighbors.
 - **Meeting room size** Shared devices such as speakerphones and cameras have a supported usage distance. Recommended distances may be different depending on the manufacturer. To give customers clear guidance, all shared devices are tested at certification against well-defined rooms sizes and noise environments.
 
 Browse [devices certified for Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
@@ -69,13 +75,15 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated July 2022*
+*Table Updated August 2022*
 
 > [!NOTE]
 > The date format is MMDDYYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Engage 50 II                                               |7/29/2022       |Certified for Microsoft Teams                           | 
+|Jabra                |Engage 40                                                  |7/29/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certified for Microsoft Teams                           |
 |Dell                 |WB5023 camera                                              |6/29/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |
@@ -92,7 +100,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 361                                                  |3/11/2022       |Certified for Microsoft Teams                           |
 |Dell                 |Speakerphone SP3022                                        |2/7/2022        |Certified for Microsoft Teams                           |
-|Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certified for Microsoft Teams                           | 
+|Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certified for Microsoft Teams                           |
+|Poly                 |Sync 10                                                    |1/18/2022       |Certified for Microsoft Teams                           |
 |Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Certified for Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |Certified for Microsoft Teams                           |
