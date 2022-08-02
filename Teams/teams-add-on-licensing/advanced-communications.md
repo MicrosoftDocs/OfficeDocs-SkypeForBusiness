@@ -1,7 +1,7 @@
 ---
 title: Advanced Communications add-on for Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: reference
 audience: Admin

@@ -44,7 +44,9 @@ Communications Credits are a convenient way to pay for Phone System and Calling 
 
 - Dial any international phone number when you have a **Domestic Calling Plan**.
 
-- Dial out and pay per minute once you have exhausted your monthly minute allotment.
+- Dial out and pay per minute once you've exhausted your monthly minute allotment.
+
+- Dial out and pay per minute for all outgoing calls, if you have a Pay-As-You-Go Calling Plan.
 
 > [!NOTE]
 > If you're wondering how much it is and the rates, see the rates table on the [Calling Plans](https://go.microsoft.com/fwlink/p/?LinkId=799523) page.
@@ -76,7 +78,7 @@ You can also see information by signing in to the Microsoft 365 admin center and
   
 To see a table with the license or licenses you'll need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## Related topics
+## Related articles
 
 - [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
