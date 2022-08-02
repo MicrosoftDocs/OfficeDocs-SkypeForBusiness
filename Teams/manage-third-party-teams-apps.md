@@ -13,8 +13,8 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 appliesto: 
-  - Microsoft Teams
-ms.localizationpriority: medium
+- Microsoft Teams
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to manage access to Teams apps across Microsoft 365.
 ---

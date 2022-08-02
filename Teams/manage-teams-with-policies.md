@@ -32,6 +32,9 @@ Policies can be assigned in several different ways depending on what your organi
 
 Learn more about assigning policies [here](policy-assignment-overview.md).
 
+> [!NOTE]
+> To unassign policies, you can remove assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](assign-policies-users-and-groups.md#unassign-policies-in-bulk).
+
 ## How to manage policies
 
 Policies are managed with the Microsoft Teams admin center or [using PowerShell](./teams-powershell-managing-teams.md#manage-policies-via-powershell).

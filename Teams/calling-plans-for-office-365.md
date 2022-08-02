@@ -35,16 +35,18 @@ Calls to other Skype for Business and Microsoft Teams users are free, but if you
   
 Here are the Calling Plans options:
   
-- **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Microsoft 365 or Office 365.
+- **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they're assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
-- **International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 or Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+
+- **Pay-As-You-Go Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. No outgoing minutes are included. All outgoing calls are charged based on the minutes used, either with Communication Credits or Post Pay billing.
 
 All users in the same country/region (this is the user country location defined in the licensing area of the Microsoft 365 admin center) with the same Calling Plan share a pool of minutes. For example, if you have 100 users located in the same country/region with a 120 minutes Domestic Calling Plan assigned, they share a pool of 12,000 minutes. All calls exceeding these minutes are billed per minute.
 
 Visit [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to find out about monthly minutes available for each organization in each country/region.
   
 > [!IMPORTANT]
-> The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**. 
+> The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
 
 > [!NOTE]
 > Pooling is only available on identical calling plans.
@@ -55,14 +57,14 @@ For detailed information about usage limits and terms of use, see [Audio Confere
   
 ## How to buy a Calling Plan
 
-1. <strong>You must first purchase a **Phone System</strong> add-on license<strong>. To do that, [sign in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing</strong> > **Purchase services** > **Add-on subscriptions** > **Buy now**.
+1. You must first purchase a **Phone System add-on license**. To do that, [sign in to the Microsoft 365 admin center and choose **Billing**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Purchase services** > **Add-on subscriptions** > **Buy now**.
 
-    ![Screen shot showing option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![Screenshot showing option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Microsoft 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
+2. After you buy Phone System licenses, you can buy the Calling Plan by [signing in to the Microsoft 365 admin center and choose **Billing**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Purchase services** > **Add-on subscriptions**, and then selecting **Buy now**. You'll see the Calling Plans there.
 
 You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -85,7 +87,7 @@ Here are more articles that explain how to set up your Calling Plans:
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Here's what you get with Phone System in Microsoft 365 or Office 365](./here-s-what-you-get-with-phone-system.md)
 
-## Related topics
+## Related articles
 
 - [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 - [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)

@@ -35,6 +35,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
@@ -88,6 +89,30 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.13.132.0 (8/2/2022)
+
+Introduced in this update:
+
+- Join Teams meeting using meeting ID
+- End-to-end encryption for one-to-one Teams calls<sup>1</sup> 
+- Noise suppression in Teams meetings<sup>2</sup>
+- Share tray experience update
+- Mute and unmute status on your room video
+- Admin setting for content only layout default  
+- Modern authentication is on by default
+
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Room device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+
+ <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
+
+> [!IMPORTANT]
+> With this update, new Teams Rooms devices now default to using modern authentication when connecting to Microsoft Teams and Exchange Online.
+>
+> We strongly recommend that you test your Teams Rooms devices prior to end of August by turning on Modern authentication for their room accounts.
+>
+> This change helps prepare for the upcoming update in Exchange Online to turn off basic authentication starting October 1, 2022. For more information, see [Basic Authentication Deprecation in Exchange Online – May 2022 Update
+](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
 
 ### 4.12.139.0 (7/14/2022)
 
