@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to customize your organization's Teams app store by adding logo, custom backgrounds, and custom text colors.
 ---

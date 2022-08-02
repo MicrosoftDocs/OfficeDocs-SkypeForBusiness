@@ -18,7 +18,7 @@ f1keywords:
 description: Learn how to manage Teams apps. Learn to allow or block apps, check org-level status and app properties, upload custom apps, and manage app settings.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ---
 # Manage Teams apps in the Microsoft Teams admin center
 
