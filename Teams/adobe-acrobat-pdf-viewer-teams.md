@@ -15,7 +15,7 @@ f1keywords:
 description: Learn how to set Adobe Acrobat as a default PDF viewer to view and edit PDF files in Microsoft Teams.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ---
 
 # Adobe Acrobat as a default PDF viewer in Microsoft Teams
