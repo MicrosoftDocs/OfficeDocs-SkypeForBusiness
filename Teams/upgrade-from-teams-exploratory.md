@@ -9,12 +9,11 @@ ms.reviewer:
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: "Upgrade users from a Teams Exploratory trial to a paid license."
-f1.keywords:
-- NOCSH
+description: Upgrade users from a Teams Exploratory trial to a paid license.
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams

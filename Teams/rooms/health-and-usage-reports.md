@@ -1,17 +1,17 @@
-﻿---
+---
 title: Health and Usage Reports
-author: donnah007 
+author: donnah007
 ms.author: v-donnahill
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer:  
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
