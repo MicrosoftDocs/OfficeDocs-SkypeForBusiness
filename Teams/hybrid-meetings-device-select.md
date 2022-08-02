@@ -23,11 +23,6 @@ keywords:
 
 Here are some things to consider when selecting equipment for your meeting spaces:
 
-- The **microphone array** is important in picking up the voices of the attendees. You can decide if you want the microphones to be on a table or in the ceiling. One advantage of ceiling-based microphones is they don't pick up vibrations as people bump into the table.
-- **Speakers** are crucial so everyone can hear what's going on. On the left is a sound bar that hangs below the front of room display. The sound bar includes both the speakers and the microphone. On the right is a speaker-only sound bar. There are also microphones that can be placed throughout the room.
-
-- **Cable management** shouldn't be overlooked. You don't want people to move the table console and pull cables loose. You also need to be able to run cables discreetly in walls or through floor covers, underneath tables, and to various other locations in the room where you need to put Teams Rooms equipment.
-
 # [Standard](#tab/standard)
 
 ## Touchscreen console and compute module
@@ -97,7 +92,19 @@ If your whiteboard is wider than 12 feet, we recommend using colored tape to mar
 
 For more information about content camera placement, see [Content cameras](rooms/content-camera.md).
 
+## Microphones and speakers
 
+### Microphone array
+
+The microphone array and its placement is critical to ensuring remote participants can hear what's happening in the room. You can decide if you want the microphones to be on a table or in the ceiling. Table-top microphones are simple to install and provide great coverage for all participants. However, they can sometimes get in the way and can pick up vibrations on the table. A great alternative to table-top microphones is to use in-ceiling microphones. In-ceiling microphones require more planning but are out of the way and provide excellent coverage for the room.
+
+Whether you choose in-ceiling or table-top microphones, make sure they're placed within approximately 7.5 feet (2.3 meters) of any participants in the space. If you have a large conference table, you might need two or more microphones to provide adequate coverages to all participants. If you do need to or more microphones, make sure their coverage areas overlap so that all participants are properly covered.
+
+:::image type="content" source="media/hybrid-mic-coverage.png" alt-text="Image showing microphone coverage overlap.":::
+
+### Speakers
+
+Along with microphones, speakers are critical to ensuring participants in the room can hear remote participants and meeting content clearly. Stereo speakers should be place at the front of the room either below the display or on either side. It's important to use stereo speakers so you can get the benefit of Teams spacial audio. Spacial audio makes it seem like audio is coming from the specific person on screen that's talking.
 
 # [Enhanced](#tab/enhanced)
 
@@ -116,41 +123,29 @@ As shown:
 Other options:
 
 :::row:::
+
     :::column:::
         [Jabra PanaCast](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
-    :::column-end:::
-    :::column:::
+
         [Yealink UVC30](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
+
         [Yealink UVC40](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
-    :::column-end:::
-    :::column:::
+
         [Bose Videobar VB1](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
+
         [Poly Studio](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio/206)
     :::column-end:::
+
     :::column:::
         Poly Studio E70
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
+
         [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
-    :::column-end:::
-    :::column:::
+
         [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
+
         [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
     :::column-end:::
+
 :::row-end:::
 
 ## Microphones
@@ -172,70 +167,54 @@ As shown:
 Other options:
 
 :::row:::
+
     :::column:::
         [Yealink UVC40](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
-    :::column-end:::
-    :::column:::
+
         [Bose Videobar VB1](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
-    :::column-end:::
-    :::column:::
+
         [Poly Studio](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio/206)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
+
         [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
-    :::column-end:::
-    :::column:::
+
         [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
-    :::column-end:::
-    :::column:::
+
         [Biamp Devio conference room hub with Parle Ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+
     :::column-end:::
-:::row-end:::
-:::row:::
+
     :::column:::
+
         [Biamp Devio conference room hub with Parle table mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
-    :::column-end:::
-    :::column:::
+
         [Shure MXA710-4FT wall-mount audio system](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
-    :::column-end:::
-    :::column:::
+
         [Nureva HDL300 audio conferencing system](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
+
         [QSC Meeting room audio: in-ceiling speakers](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
-    :::column-end:::
-    :::column:::
+
         [QSC Directional audio - ceiling audio](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
-    :::column-end:::
-    :::column:::
+
         [QSC Meeting room audio: pendant speakers](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+
     :::column-end:::
-:::row-end:::
-:::row:::
+
     :::column:::
+
         [Biamp audio with Parlé ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
-    :::column-end:::
-    :::column:::
+
         [Biamp audio with Parlé tabletop mics](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
-    :::column-end:::
-    :::column:::
+
         [Bose DS4 ceiling audio solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
+
         [Bose ES1 ceiling audio solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
-    :::column-end:::
-    :::column:::
+
         [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
-    :::column-end:::
-    :::column:::
+
         [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+
     :::column-end:::
+
 :::row-end:::
 
 ## Front of room display
@@ -281,3 +260,14 @@ Other options:
 
 For the ideal scenario other display options (alternate projectors, LED walls, and flat panel displays) should be able to create a table spanning image, support a 4k image, and a 21:9 aspect ratio.
 
+---
+
+## Cables
+
+Keep the following in mind when selecting cables to use with your Teams Rooms devices:
+
+- If the room already has displays, make note of the make and model and make sure the connectors on the existing displays will work with Teams Rooms.
+- Use cables and extenders that work to the vendor's specifications. If the vendor dictates a category 6 cable should be used to connect components, use only category 6 cabling. If you use something like category 5 or 5E, you can expect that there will be issues with the system. The OEM manufacturers have specified the cabling requirements, and it is in your best interest to match the requirements.
+- Make sure that the cable lengths needed for a room are within specifications of a given cable type. If not, you'll have to use an extender. Not all technologies support extenders, such as USB 3.0.
+- When buying cables, make sure that the connector will fit into the compute module or the console display. Some cables have large connectors and putting two connectors next to each other won't physically fit.
+- Connection locking capabilities are a nice feature. First, it can help prevent cable theft. But more importantly, it'll help cables from accidentally being pulled loose. Some HDMI cables have been engineered to require extra force to pull the cable loose.
