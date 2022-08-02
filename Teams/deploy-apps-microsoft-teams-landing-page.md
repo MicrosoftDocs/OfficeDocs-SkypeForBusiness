@@ -20,19 +20,13 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
-# About apps in Microsoft Teams
+# Understand Microsoft Teams apps
 
 Apps are a great way to bring together your workplace tools and services and collaborate with others. Apps help end-users be more productive, collaborative, and effective in their day-to-day tasks. Organizations use apps to connect with their customers, provide services, and share information. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel.
 
-Our extensive selection of validated and secure apps in the store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed. End-users can use apps in Teams based only on the [permissions](https://admin.teams.microsoft.com/policies/app-permission) provided by you. As an admin, you just approve or block the use of any app for your organization’s users. You control the availability of apps for all users across meetings, chats, and channels.
+Our extensive catalog of validated and secure apps in Teams Store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed. End-users can use apps in Teams based only on the [permissions provided by you](app-policies.md). As an admin, you use enterprise-grade policies to allow or block any app for your organization's users. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
 
-To provide your end-users with apps that they need, read on to understand the types of apps and where your users access those apps. To learn more about use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
-
-<!--- Commenting the previous content as part of this article revamp.
-
-Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
-
---->
+This article helps you understand the types of apps and where from your users access those apps. To learn more about the use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 The different types of apps that your end-users can use in Teams are:
 
@@ -43,7 +37,7 @@ The different types of apps that your end-users can use in Teams are:
 
 ## Core apps
 
-Some default functionality such as activity feed, Teams channels, chat, calendar, and calls are available and pinned by default for ease of access for end-users. As an admin you can modify the default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
+Some Teams functionality such as activity feed, channels, chat, calendar, and calls are available by default and pinned by default for ease of access for end-users. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
@@ -63,15 +57,17 @@ In addition to Microsoft-provided apps, you can use Microsoft-validated third-pa
 
 ## Custom apps
 
-Apps created by developers in your organization are called custom apps. Development of such an app is commissioned for specific requirements of your organization and you have controls to allow or disallow such apps. Developers in your organization can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
+Apps created by developers in your organization are called custom apps (or Line of Business apps). Your organization may commission the creation of custom apps for org-specific requirements. You have the control to allow or block such apps for entire organization or for specific users. Developers in your organization can build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
 After an admin allows the use of custom apps, end-users find such apps by clicking **Built for your org** in the left navigation of Teams store.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams' store in the Teams' desktop app." lightbox="media/built-for-your-org2.png":::
 
+<!--- TBD - new article on custom app overview and sideloading. --->
+
 ### Understand sideloading of custom apps
 
-When developing custom apps and before distributing those apps to the end-users, developers test the apps by adding it to the store to test on their own or test with a team in which they sideload the app. This method is called sideloading of apps and applies only to custom apps.
+When developing custom apps and before distributing those apps to the end-users, developers test the apps by adding it to the Teams Store to test. The developers can test on their own or with a specified group of users, but the app is not available to other end-users in the organization. This method is called sideloading of apps and applies only to custom apps.
 
 Developers can sideload an app to make it available to the members of a specific team, typically to test an under-development app. Using an app in this way limits its usage to the app developers and doesn't require admin approval as long as admin allows sideloading in Teams. As an admin, you can disallow sideloading of app for all developers.
 
