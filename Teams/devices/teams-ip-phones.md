@@ -38,8 +38,8 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
->![NOTE]
->If your phone it not listed below, manually provisioning the phone may be possible via the device's Generic profile and as a SIP device. See [SIP Gateway Configure](https://docs.microsoft.com/en-us/microsoftteams/sip-gateway-configure).
+> [!NOTE]
+> If your phone is not listed below, manually provisioning the phone may be possible via the device's generic profile and as a SIP device. For more information, see [Configure SIP Gateway](/microsoftteams/sip-gateway-configure).
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
