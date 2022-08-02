@@ -1,13 +1,13 @@
 ---
 title: PowerShell script sample - Create new people manager teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to create a team for each manager with their directs as team members.
+description: Use this PowerShell script to create a team for each manager with their direct reports as team members.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -20,11 +20,11 @@ appliesto:
 
 # PowerShell script sample - Create new people manager teams
 
-Use this PowerShell script to create a team for each manager with their directs as team members. Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.
+Use this PowerShell script to create a team for each manager with their direct reports as team members. Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their direct reports for your organization.
 
 To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).
 
-If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview).
+If you're new to PowerShell and need help with getting started, see [Overview of Azure PowerShell](/powershell/azure/overview).
 
 ## Create new people manager teams
 

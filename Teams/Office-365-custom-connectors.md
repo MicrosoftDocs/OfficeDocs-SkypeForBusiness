@@ -46,7 +46,7 @@ To enable or disable a connector, execute the following commands in Exchange Onl
   * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
   * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
-For more information on PowerShell module exchange, see [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). To enable or disable Outlook connectors, [connect apps to your groups in Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
+For more information on PowerShell module exchange, see [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). To enable or disable Outlook connectors, [connect apps to your groups in Microsoft Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
 
 <!--- TBD: Find out how can we get to know about completion of customer migration.
 Delete this section after customer migration to new Webhook URL is complete.
@@ -54,7 +54,7 @@ Delete this section after customer migration to new Webhook URL is complete.
 
 ## Publish connectors for your organization
 
-If you want a custom connector to be available only to the users in your organization, you can upload a custom connector app to your organization's app catalog. After you upload the app package, the end-users can install the connector from the organization's app catalog and can configure and use the connector in a team.
+If you want a custom connector to be available only to the users in your organization, you can upload a custom connector app to your organization's app catalog. After you upload the app package, the end-users can install the connector from the organization's app catalog, and can configure and use the connector in a team.
 
 <!---TBD: Check if these instructions are for admins or end-users. I cannot find these options either in Teams or in TAC.
 
@@ -69,9 +69,9 @@ To set up a connector:
 --->
 
 > [!IMPORTANT]
-> Custom connectors are not available in Government Community Cloud (GCC), GCC-High, and Department of Defense (DOD).
+> Custom connectors are not available in Government Community Cloud (GCC), Government Community Cloud-High (GCCH), and Department of Defense (DOD).
 
-To use connectors in a team or a channel, open the More Options menu from the upper right corner of a channel. From the menu select **Connectors** and then locate or search for the required connector app. Configure the selected connector if required.
+To use connectors in a team or a channel, open the More Options menu from the upper right corner of a channel. From the menu, select **Connectors** and then locate or search for the required connector. Configure the selected connector if necessary.
 
 :::image type="content" source="media/connectors-selection-ui.png" alt-text="Add connectors to your channel in Teams from the More options in the upper right corner of the channel.":::
 
@@ -91,7 +91,7 @@ The Teams connectors are transitioning to a new URL to enhance security. During 
 
    :::image type="content" source="media/Teams_URL_up_to_date.png" alt-text="Screenshot of the URL is up-to-date message.":::
 
-## See also
+## Related articles
 
 * [Custom connectors and webhooks overview](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
 * [Create Office 365 connectors](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)
