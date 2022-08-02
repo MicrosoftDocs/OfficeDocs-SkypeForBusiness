@@ -31,7 +31,7 @@ Loop components in Teams chat offer a new way to ideate, create, and make decisi
 
 **Share components.** In this release, you can share Loop components into different Teams chats. Recipients can edit from wherever they are and see updates instantly no matter where the changes were made.
 
-**Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file on office.com, where you have a larger visual space for editing and can add as many components as you like.
+**Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file on Office.com, where you have a larger visual space for editing and can add as many components as you like.
 
 For information on admin settings for Loop components in Teams, see [Manage Loop components in SharePoint](/sharepoint/manage-loop-components).
 
@@ -61,7 +61,7 @@ Opening components from Teams chat in Office.com offers share functionality at t
 
 ## What if a .fluid file becomes corrupted or damaged?
 
-Version History allows you to review, restore or copy from previous versions of the file.
+Version History allows you to review, restore, or copy from previous versions of the file.
 
 ## What apps can open and edit .fluid files?
 
