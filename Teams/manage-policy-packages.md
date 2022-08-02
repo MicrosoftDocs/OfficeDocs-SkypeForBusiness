@@ -63,10 +63,10 @@ Teams currently includes the following policy packages.
 |Frontline worker |Creates a set of policies and applies those settings to Frontline workers in your organization. |
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
-|Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
-|Small and medium business user (Teams Phone System with Calling Plan bundle) |Creates an app setup policy that includes the apps for a Teams Phone System with Calling Plan bundle experience.|
-|Small and medium business user (without Teams Phone System with Calling Plan bundle) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Teams Phone System with Calling Plan bundle experience).
+|Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization. |
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
+|Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience for users.|
+|Small and medium business user (without Business Voice) |Creates an app setup policy relevant to small and medium sized business Teams users without any business voice features.
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
@@ -74,7 +74,7 @@ Teams currently includes the following policy packages.
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
 For example, when you assign the Education (Teacher) policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
-:::image type="content" source="media/policy-packages-education_teacher.png" alt-text="Screenshot of the Education (Teacher) policy package." lightbox="media/policy-packages-education_teacher.png":::
+:::image type="content" source="media/teams-policy-packages-education.png" alt-text="Screenshot of the Education (Teacher) policy package." lightbox="media/teams-policy-packages-education.png":::
 
 ## Custom policy packages
 
