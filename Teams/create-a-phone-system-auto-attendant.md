@@ -40,7 +40,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
 
 > [!NOTE]
-> When redirecting calls to a **Person in the organization**, that person must be voice enabled. See [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md)
+> When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 The steps to add an auto attendant are:
 
