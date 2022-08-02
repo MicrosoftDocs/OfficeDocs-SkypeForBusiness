@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: In this article, learn how Microsoft apps, custom apps, and third-party apps in Microsoft Teams are updated.
 ---
