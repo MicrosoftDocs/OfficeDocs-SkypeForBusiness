@@ -31,7 +31,7 @@ Loop components in Teams chat offer a new way to ideate, create, and make decisi
 
 **Share components.** In this release, you can share Loop components into different Teams chats. Recipients can edit from wherever they are and see updates instantly no matter where the changes were made.
 
-**Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file, where you have a larger visual space for editing and can add as many components as you like.
+**Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file on office.com, where you have a larger visual space for editing and can add as many components as you like.
 
 For information on admin settings for Loop components in Teams, see [Manage Loop components in SharePoint](/sharepoint/manage-loop-components).
 
@@ -41,9 +41,9 @@ Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
 
 ## Loop components and .fluid files
 
-Loop components created in Teams are backed by a .fluid file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage Loop components (.fluid files) as easily as any Office document. 
+Loop components created in Teams are backed by a .fluid (will be changed to .loop in near future) file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage Loop components (.fluid files) as easily as any Office document. 
 
-## How are .fluid  files stored?
+## How are .fluid files stored?
 
 .fluid files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Users can search for content in .fluid files from Office.com and OneDrive. .fluid files can be restored to previous versions from OneDrive. To create Loop components chat participants must have a OneDrive account. Without a valid OneDrive account, chat participants might still be able to collaborate on a component created by other users who have a valid OneDrive account, but cannot create their own. 
 
@@ -61,7 +61,7 @@ Opening components from Teams chat in Office.com offers share functionality at t
 
 ## What if a .fluid file becomes corrupted or damaged?
 
-Version History allows you to review and copy from previous versions of the file.
+Version History allows you to review, restore or copy from previous versions of the file.
 
 ## What apps can open and edit .fluid files?
 
@@ -81,8 +81,6 @@ If you disable these experiences as outlined in the [Settings management](/share
 
 ## Known issues
 
-- Loop components in chat cannot be edited via Office app when using Teams on Android.
-- If tenant default file permissions are set to *Specific people* (only the people the user specifies), and the sender removes some users from the *Specific people* list in the permissions dialog when creating a component, those users may still have access to the content.
 - With tenant default file permissions set to *Specific people* (only the people the user specifies), copying link to live component and pasting in another chat requires the sender to use permissions dialog and add the recipients in the Specific people option to grant access properly.
 - With tenant default file permissions set to *Specific people* (only the people the user specifies), creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
 - Searching for Loop components in Teams search will return a link to the component in office.com, not the chat message itself.
