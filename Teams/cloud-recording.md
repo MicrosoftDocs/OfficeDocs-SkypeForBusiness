@@ -1,7 +1,7 @@
 ---
 title: Teams cloud meeting recording
-author: tonysmit
-ms.author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
