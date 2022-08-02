@@ -33,7 +33,7 @@ GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If y
 
 ## URL Preview service
 
-The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message. If the service URL doesn't have any schema.org data, it'll send a request to Bing search to get the data it needs to generate the preview snippet.
+The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message. If the service URL doesn't have any schema.org data, it'll send a request to Bing search to get the data it needs to generate the preview snippet. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement). Any URLs you provide to the Microsoft Teams while using these services can be sent to Microsoft Bing. They are not linked to you by the Bing organization.
 
 :::image type="content" source="media/url-preview.png" alt-text="A screen showing a sample of a URL preview for the Microsoft home page in a text box.":::
 
