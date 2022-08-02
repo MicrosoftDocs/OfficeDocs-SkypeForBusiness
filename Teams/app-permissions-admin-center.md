@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to view permissions requested by apps and grant admin consent to apps on the Manage apps page of the Microsoft Teams admin center. 
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams
