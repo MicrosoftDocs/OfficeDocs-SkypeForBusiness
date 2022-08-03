@@ -41,7 +41,7 @@ Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
 
 ## Loop components and .fluid files
 
-Loop components created in Teams are backed by a .fluid (will be changed to .loop in near future) file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage Loop components (.fluid files) as easily as any Office document. 
+Loop components created in Teams are backed by a .fluid (will be changed to .loop in the near future) file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage Loop components (.fluid files) as easily as any Office document. 
 
 ## How are .fluid files stored?
 
