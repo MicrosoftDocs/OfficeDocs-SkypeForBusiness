@@ -10,11 +10,10 @@ ms.reviewer: jesegher
 description: Microsoft Teams for EDU article to help with meeting and video issues relating to low bandwidth. Whether you are a parent, an educator, or an IT Admin, you have options to improve the experience with Teams.
 ms.localizationpriority: high
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - remotework
 appliesto: 
   - Microsoft Teams

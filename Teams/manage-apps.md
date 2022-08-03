@@ -9,16 +9,15 @@ ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
-- ms.teamsadmincenter.manageapps.overview
+  - ms.teamsadmincenter.manageapps.overview
 description: Learn how to manage Teams apps. Learn to allow or block apps, check org-level status and app properties, upload custom apps, and manage app settings.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ---
 # Manage Teams apps in the Microsoft Teams admin center
 
