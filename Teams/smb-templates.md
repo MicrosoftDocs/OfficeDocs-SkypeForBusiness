@@ -28,7 +28,7 @@ For small and medium businesses, templates can be especially powerful, as they h
 We currently offer three pre-built templates for small and medium businesses that you can use for various situations. All templates create *private* teams. After you create the teams and are ready to roll out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate.
 
 > [!NOTE]
-> You can also use Graph to create your own custom templates. To learn more, see [teamTemplate resource type](/graph/api/resources/teamtemplate).
+> You can also use Microsoft Graph to create your own custom templates. To learn more, see [teamTemplate resource type](/graph/api/resources/teamtemplate).
 
 To learn more about team templates in general, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
