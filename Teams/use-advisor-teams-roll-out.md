@@ -7,20 +7,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- remotework
-- m365initiative-deployteams
+  - M365-collaboration
+  - remotework
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: high
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
-- ms.teamsadmincenter.deploymentadvisor.overview
-description: "Use Advisor for Teams to help you plan and complete your Microsoft Teams deployment."
+  - ms.teamsadmincenter.deploymentadvisor.overview
+description: Use Advisor for Teams to help you plan and complete your Microsoft Teams deployment.
 ---
 
 # Use Advisor for Teams to help you roll out Microsoft Teams

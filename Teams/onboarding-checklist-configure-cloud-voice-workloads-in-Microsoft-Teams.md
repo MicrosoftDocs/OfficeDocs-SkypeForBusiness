@@ -9,13 +9,15 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rowille
 description: Follow the core, to-do tasks and activities in this checklist when you configure cloud voice workloads in Teams.
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-voice
 ---
 
 # Configure cloud voice workloads in Microsoft Teams

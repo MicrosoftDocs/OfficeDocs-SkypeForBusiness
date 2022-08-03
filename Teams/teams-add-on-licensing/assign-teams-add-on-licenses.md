@@ -8,10 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.reviewer: mikedav
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 

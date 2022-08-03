@@ -1,5 +1,5 @@
 ---
-title: "Manage Q&A in Teams Meetings"
+title: Manage Q&A in Teams Meetings
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
@@ -10,11 +10,9 @@ search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Microsoft Teams
-
 description: Learn about how IT Admins can set up, use, and manage Q&A in Teams Q&A for a structured approach to gathering questions, organizing discussions, deleting individual messages, using available languages, and understanding the data lifecycle as well as data retention and deletion policies.
 ---
 # Manage Q&A in Teams Meetings

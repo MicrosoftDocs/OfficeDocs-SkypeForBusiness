@@ -1,5 +1,5 @@
 ---
-title: "Teams device store"
+title: Teams device store
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -8,13 +8,14 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 description: Learn how to browse and purchase devices in the Teams admin center device store
 ---
 

@@ -10,15 +10,14 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 search.appverid: MET150
-f1.keywords:
-- NOCSH
-- ms.teamsadmincenter.directrouting.overview
+f1.keywords: 
+  - NOCSH
+  - ms.teamsadmincenter.directrouting.overview
 description: Learn about Teams Phone System with Direct Routing.
 ms.custom: 
- - seo-marvel-apr2020
- - seo-marvel-jun2020
+  - seo-marvel-apr2020
+  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---

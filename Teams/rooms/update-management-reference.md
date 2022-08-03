@@ -1,23 +1,21 @@
 ---
 title: Microsoft Teams Rooms Reference
-author: donnah007 
+author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.reviewer:  
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Reference material
 f1keywords: 
-
 ---
 # Managing Room software stack  
 In every room, different parts of the software stack all work together to deliver the experience. At a high level, they can be summarized as follows: 
