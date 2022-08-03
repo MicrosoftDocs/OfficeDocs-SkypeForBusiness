@@ -36,7 +36,7 @@ To assign a policy to a user:
 2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
 3. Select the policy you want to assign, and then select **Apply**.
 
-    :::image type="content" source="media\assign-policies-user-example.png" alt-text="Screenshot of Edit settings pane under Manage users." lightbox="media\assign-policies-user-example-expanded.png":::
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="Screenshot of Edit settings pane under Manage users." lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > To unassign a specialized policy from a user, you can set each policy to **Global (Org-wide default)**. You can also remove policy assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](#unassign-policies-in-bulk).
