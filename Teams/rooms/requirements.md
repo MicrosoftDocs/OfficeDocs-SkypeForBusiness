@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams Rooms requirements"
+title: Microsoft Teams Rooms requirements
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -7,12 +7,13 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn about the requirements for supporting Microsoft Teams Rooms, including choosing the appropriate device, microphones, speakers, cameras, and displays.
 ms.custom: seo-marvel-apr2020
 ---

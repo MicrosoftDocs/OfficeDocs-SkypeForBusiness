@@ -1,5 +1,5 @@
 ---
-title: "Devices for Teams"
+title: Devices for Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,13 +9,14 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Skype for Business Certification
   - dn947482
@@ -248,6 +249,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |

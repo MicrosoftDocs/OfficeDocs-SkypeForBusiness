@@ -1,5 +1,5 @@
 ---
-title: "Calling Plans for Microsoft 365"
+title: Calling Plans for Microsoft 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,13 +11,14 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - O365E_E5Voiceplandetails
   - O365M_E5Voiceplandetails
@@ -25,7 +26,7 @@ ms.custom:
   - Licensing
   - LIL_Placement
   - seo-marvel-apr2020
-description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
+description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. 
 ---
 
 # Calling Plans for Microsoft 365

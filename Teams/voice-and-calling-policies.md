@@ -10,11 +10,8 @@ search.appverid:
 description: Learn about Teams voice and calling policies.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto: 
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 # Manage voice and calling policies in Microsoft Teams

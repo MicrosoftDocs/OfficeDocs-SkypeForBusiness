@@ -1,5 +1,5 @@
 ---
-title: "Update Microsoft Teams devices remotely"
+title: Update Microsoft Teams devices remotely
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
@@ -9,10 +9,11 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Devices
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "Update Microsoft Teams phones, Teams panels, and collaboration bars remotely using the Teams admin center"
+description: Update Microsoft Teams phones, Teams panels, and collaboration bars remotely using the Teams admin center
 ---
 
 # Update Microsoft Teams devices remotely

@@ -1,5 +1,5 @@
 ---
-title: "Manage Voicemail Policies"
+title: Manage Voicemail Policies
 author: crowe
 ms.author: crowe
 manager: serdars
@@ -11,17 +11,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Phone System
-description: "Manage Voicemail Policies for your users."
+description: Manage Voicemail Policies for your users.
 ---
 
 # Manage Cloud Voicemail policies for your users

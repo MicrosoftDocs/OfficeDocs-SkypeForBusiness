@@ -1,5 +1,5 @@
 ---
-title: "Manage Microsoft Teams configuration on Surface Hub"
+title: Manage Microsoft Teams configuration on Surface Hub
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
@@ -9,10 +9,11 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "Manage Microsoft Teams settings on Surface Hub using Microsoft Intune and Windows Configuration Designer"
+description: Manage Microsoft Teams settings on Surface Hub using Microsoft Intune and Windows Configuration Designer
 ---
 
 # Manage Microsoft Teams settings on Surface Hub
