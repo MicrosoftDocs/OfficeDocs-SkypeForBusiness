@@ -37,6 +37,11 @@ Whether you choose a single unit or split console and compute units up depends o
 
 Review the design requirements list for your space and which devices and peripherals you want to add to the room (cameras, microphone arrays, and so on). Then select a console and compute module that meet all the needs of your space.
 
+The following are examples of touchscreen console and compute module bundles for Teams Rooms:
+
+- [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
+- [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
+
 ## Displays
 
 Displays bring your content to life and can be a large flat screen TV or a projector that projects onto a screen. You can have a single display that has your content and video feeds combined, or you can set up dual displays with content on one display and video feeds on the other. One of the displays can even be touch-enabled for interactive inking.
@@ -46,6 +51,11 @@ Displays bring your content to life and can be a large flat screen TV or a proje
 Make sure the display you choose is sized properly for the space it's in. A 55-inch display can seem large but when used to display content such as Word documents or Excel spreadsheets, on-screen text can end up being too small for those furthest from the display. 
 
 When considering a display, look at its specifications to find out what size room it's best suited for. Also keep in mind that while 4K displays are supported, Teams provides a maximum resolution of 1080p.
+
+The following are examples of displays for Teams Rooms:
+
+- [Epson EB-PU1007B projector](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Samsung QM85R-B 85" display](https://displaysolutions.samsung.com/digital-signage/detail/1944/QM85R-B)
 
 ## Sound bars
 
@@ -63,6 +73,13 @@ Keep in mind that the same considerations for cameras, speakers, and microphones
 - The speakers need to be loud enough for all participants to hear conversations and media.
 - In-room participants need to be within the microphones' pickup distance.
 
+The following are examples of sound bars for Teams Rooms:
+
+- [Jabra PanaCast 50 series](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/950)
+
+To see all the available options for Teams Rooms soundbars, see [Teams Rooms soundbars](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?filterIds=9&page=1).
+
 If you choose to use a soundbar, the remaining sections in the article are optional and for information only.
 
 ## Primary camera
@@ -78,6 +95,13 @@ When deciding on a camera, you need to consider a few factors:
 
 The camera's field of view particularly is important. The wider the field of view, the less depth the camera can focus on accurately.  The narrower the field of view, the deeper into the room the camera can look. You need to choose a camera that will capture all the attendees in the room while ensuring the camera's field of view isn't so wide that participants become nothing more than tiny specks. For this reason, we recommend placing cameras as near to eye-level as possible and as centered as possible under the display.
 
+The following are examples of primary cameras for Teams Rooms:
+
+- [Yealink UVC84 Camera](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc84-camera/835)
+- [Logitech Rally Camera](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-rally-camera/87)
+
+To see all the available options for Teams Rooms cameras, see [Teams Rooms cameras](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/web-cameras/3?filterIds=9&page=1&rtc=1).
+
 :::image type="content" source="media/cameras.png" alt-text="Static camera sound bar and pan/tilt/zoom camera.":::
 
 ## Content camera
@@ -89,6 +113,13 @@ Content cameras make it easier for remote participants to see what's on an analo
 The recommended whiteboard width for use with a content camera is between 6 and 9 feet (1.7 to 2.7 meters). Whiteboards as small as 3 feet (0.9 meters) wide and as wide as 12 feet (3.6 meters) are also supported. Drawings outside the 12 foot area aren't captured by the camera.
 
 If your whiteboard is wider than 12 feet, we recommend using colored tape to mark out a 12 foot area. This helps meeting participants stay within the capture area of the camera and helps the camera see where participants will place their drawings.
+
+The following are examples of content cameras for Teams Rooms:
+
+- [Logitech Scribe](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-scribe/966)
+- [Huddly Canvas](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
+
+To see all the available options for Teams Rooms content cameras, see [Teams Rooms content cameras](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/web-cameras/3?filterIds=78&page=1&rtc=1).
 
 For more information about content camera placement, see [Content cameras](rooms/content-camera.md).
 
