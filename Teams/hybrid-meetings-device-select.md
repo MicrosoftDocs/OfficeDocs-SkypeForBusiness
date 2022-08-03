@@ -23,6 +23,9 @@ keywords:
 
 Here are some things to consider when selecting equipment for your meeting spaces:
 
+> [!NOTE]
+> The devices and manufacturers listed in this article are examples of available products only and don't represent specific recommendations. To see a broader list of available devices and manufacturers, see <https://aka.ms/teamsdevices>.
+
 # [Standard](#tab/standard)
 
 ## Touchscreen console and compute module
