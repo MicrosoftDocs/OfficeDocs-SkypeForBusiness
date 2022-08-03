@@ -7,13 +7,12 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 f1keywords: 
 description: Learn how to audit Teams app activities of users and administrators in your organization.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 ---
 

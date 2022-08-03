@@ -1,5 +1,5 @@
 ---
-title: "Configure call settings for users"
+title: Configure call settings for users
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,19 +9,16 @@ ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
+ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
-appliesto:
-  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
+f1.keywords: 
   - CSH
-ms.custom:
-  - ms.teamsadmincenter.callqueues.overview"
+ms.custom: 
+  - ms.teamsadmincenter.callqueues.overview
   - Phone System
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
 description: Learn how to configure user settings for call forwarding and delegation.
 ---
 # Configure call settings for your users

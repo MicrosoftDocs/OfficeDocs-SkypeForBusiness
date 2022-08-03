@@ -10,11 +10,10 @@ search.appverid:
 description: Learn about app permission policies, app setup policies, and custom app policies used to manage apps in Microsoft Teams.
 audience: admin
 ms.localizationpriority: high
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Overview of app policies used to manage apps

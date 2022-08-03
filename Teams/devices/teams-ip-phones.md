@@ -1,5 +1,5 @@
 ---
-title: "Devices for Teams"
+title: Devices for Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,13 +9,14 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Skype for Business Certification
   - dn947482

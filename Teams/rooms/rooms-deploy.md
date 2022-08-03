@@ -1,5 +1,5 @@
 ---
-title: "Deploy Microsoft Teams Rooms"
+title: Deploy Microsoft Teams Rooms
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -7,11 +7,12 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Read this article to learn about how to deploy Microsoft Teams Rooms, including the deployment phases.

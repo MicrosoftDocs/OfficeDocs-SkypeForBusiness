@@ -1,5 +1,5 @@
 ---
-title: "Add, change, remove emergency locations"
+title: Add, change, remove emergency locations
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,14 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- M365-voice
+  - M365-voice
+  - m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-description: "Learn how to add, change, or remove an emergency location for your organization. "
+f1.keywords: 
+  - NOCSH
+description: Learn how to add, change, or remove an emergency location for your organization.
 ms.custom: seo-marvel-mar2020
 ---
 

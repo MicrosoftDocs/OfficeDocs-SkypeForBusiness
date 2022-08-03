@@ -7,8 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: 

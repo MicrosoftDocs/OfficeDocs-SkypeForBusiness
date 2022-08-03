@@ -8,11 +8,10 @@ audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - SPO_Content
 ms.reviewer: anwara
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Learn about using Content search in the Microsoft Purview compliance portal to search for Microsoft Teams content that's stored in Exchange Online, SharePoint Online, OneDrive for Business, and OneNote.
 appliesto: 

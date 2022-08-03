@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing toll-free number policies"
+title: Audio Conferencing toll-free number policies
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -10,14 +10,13 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
-- CSH
+  - CSH
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
