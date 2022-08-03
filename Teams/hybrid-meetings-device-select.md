@@ -21,7 +21,15 @@ keywords:
 
 # Step 4 - Select devices that enable your space for hybrid meetings
 
-Here are some things to consider when selecting equipment for your meeting spaces:
+The devices you choose for your Teams Rooms space depend on your room's design and budget. This article helps you understand what devices you need to create your Teams Rooms space, considerations to help you choose what's right for you, and example devices so you can see what options are available.
+
+At minimum, you need each of the following:
+
+- **A touchscreen console and compute module** - These devices lets you and participants control the Teams Room.
+- **A display** - The display shows participant and meeting content to in-room participants.
+- **A sound bar with integrated camera and microphone** - A sound bar is an all-in-one solution to get your space up and running with little effort.
+
+If you want more flexibility than a sound bar provides, you can choose cameras, microphones, and speakers, independently.
 
 > [!NOTE]
 > The devices and manufacturers listed in this article are examples of available products only and don't represent specific recommendations. To see a broader list of available devices and manufacturers, see <https://aka.ms/teamsdevices>.
@@ -128,17 +136,27 @@ For more information about content camera placement, see [Content cameras](rooms
 
 ## Microphones and speakers
 
-### Microphone array
+Most manufacturers have created solutions that bundle microphones and speakers together into an audio system. These audio systems include everything you need to integrate with the Teams Rooms compute module, ensure high quality audio for in-room and remote participants, and reduce noise interference.
 
-The microphone array and its placement is critical to ensuring remote participants can hear what's happening in the room. You can decide if you want the microphones to be on a table or in the ceiling. Table-top microphones are simple to install and provide great coverage for all participants. However, they can sometimes get in the way and can pick up vibrations on the table. A great alternative to table-top microphones is to use in-ceiling microphones. In-ceiling microphones require more planning but are out of the way and provide excellent coverage for the room.
+There are a wide variety of audio systems available. When choosing an audio system, consider the various aspects of your space's use and design. For example:
 
-Whether you choose in-ceiling or table-top microphones, make sure they're placed within approximately 7.5 feet (2.3 meters) of any participants in the space. If you have a large conference table, you might need two or more microphones to provide adequate coverages to all participants. If you do need to or more microphones, make sure their coverage areas overlap so that all participants are properly covered.
+- **Size and design of the room** - A larger room will require more microphones and speakers. Rooms with glass walls or other similar materials might require in-ceiling speakers.
+- **Seating locations** - All participants need to be within range of at least one microphone. A room with a central conference table and secondary seating might require microphones both at on the table and in-ceiling for those not at the table.
+- **Conference table size** - A large conference table might require two or more microphones to provide proper coverage to everyone seated at it.
+
+In addition to space use and design, keep the following technical considerations in mind:
+
+- **Microphone spacing** - At least one microphone should be within 7.5 feet (2.3 meters) of each participant (some microphones may have more specific requirements; see manufacturer's documentation for details).
+- **Microphone coverage** - If multiple microphones are needed to cover all participants, make sure their coverage areas overlap to ensure complete coverage.
+- **In-ceiling devices** - In-ceiling microphones and speakers are a great option to remove clutter from the table and provide better room coverage.
+- **Spacial audio** - Use stereo speakers to benefit from spacial audio. Spacial audio makes it sound like the voice you're hearing is coming from the person on screen who's speaking.
 
 :::image type="content" source="media/hybrid-mic-coverage.png" alt-text="Image showing microphone coverage overlap.":::
 
-### Speakers
+The following are examples of audio systems for Teams Rooms:
 
-Along with microphones, speakers are critical to ensuring participants in the room can hear remote participants and meeting content clearly. Stereo speakers should be place at the front of the room either below the display or on either side. It's important to use stereo speakers so you can get the benefit of Teams spacial audio. Spacial audio makes it seem like audio is coming from the specific person on screen that's talking.
+- [Yamaha ADECIA wired tabletop solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
+- [Biamp medium room audio with Parlé ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
 # [Enhanced](#tab/enhanced)
 
