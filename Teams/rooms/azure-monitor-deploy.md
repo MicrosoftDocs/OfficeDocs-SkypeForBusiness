@@ -7,13 +7,14 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: "This article discusses how to deploy monitoring of Microsoft Teams Rooms in an integrated, end-to-end manner using Azure Monitor."
+description: This article discusses how to deploy monitoring of Microsoft Teams Rooms in an integrated, end-to-end manner using Azure Monitor.
 ms.custom: seo-marvel-mar2020
 ---
 

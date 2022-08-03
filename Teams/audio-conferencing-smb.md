@@ -1,5 +1,5 @@
 ---
-title: "Set up Audio Conferencing for small and medium businesses"
+title: Set up Audio Conferencing for small and medium businesses
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,16 +11,15 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn how to set Audio Conferencing in your small or medium business for people who need to use a phone to call in to meetings. "
+description: Learn how to set Audio Conferencing in your small or medium business for people who need to use a phone to call in to meetings. 
 ---
 
 # Set up Audio Conferencing for small and medium businesses

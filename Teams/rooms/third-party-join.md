@@ -1,5 +1,5 @@
 ---
-title: "Enable Teams Rooms devices to join third-party meetings"
+title: Enable Teams Rooms devices to join third-party meetings
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,10 +9,11 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "This article discusses how to configure your organization and Teams Rooms devices to support third-party meeting joining to Cisco Webex and Zoom."
+description: This article discusses how to configure your organization and Teams Rooms devices to support third-party meeting joining to Cisco Webex and Zoom.
 ---
 
 # Enable Teams Rooms devices to join third-party meetings

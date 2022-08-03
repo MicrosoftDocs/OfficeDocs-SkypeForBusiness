@@ -1,25 +1,24 @@
 ---
 title: Teams Phone System guidance for small and medium businesses
-author: dstrome 
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: The Microsoft Teams Phone System with Calling Plan bundle is an inexpensive option for voice calling, enabling small and medium businesses to communicate better.
 appliesto: 
-- Microsoft Teams
-ms.custom:
-- seo-marvel-may2020
-- intro-overview
+  - Microsoft Teams
+ms.custom: 
+  - seo-marvel-may2020
+  - intro-overview
+ms.collection: 
+  - M365-voice
+  - M365initiative-voice
 ---
 
 # Teams Phone System guidance for small and medium businesses

@@ -1,5 +1,5 @@
 ---
-title: "Teams devices for Shared Spaces feature comparison between Windows and Android"
+title: Teams devices for Shared Spaces feature comparison between Windows and Android
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
@@ -7,16 +7,14 @@ ms.date: 06/03/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
-search.appverid: MET150 
+search.appverid: MET150
 ms.reviewer: 
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
-  - skype-for-business-itpro
-  - skype-for-business-online
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
