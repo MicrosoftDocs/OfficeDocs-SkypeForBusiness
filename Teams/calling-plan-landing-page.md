@@ -9,9 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
 description: Determine which Microsoft Phone System Calling Plan will best serve your organization on Cloud Voice in Teams.

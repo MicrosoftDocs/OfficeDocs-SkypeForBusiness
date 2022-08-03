@@ -8,11 +8,10 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn to manage how tags are used in your organization in Microsoft Teams.

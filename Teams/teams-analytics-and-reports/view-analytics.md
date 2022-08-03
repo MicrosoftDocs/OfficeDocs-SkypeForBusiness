@@ -7,15 +7,15 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rahulmi
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection: 
-- M365-collaboration
 description: Learn about cross-team analytics, per-team analytics, and per-channel analytics in Teams, which let users see usage data for teams or channels that they are part of.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 # View analytics in Teams
 
