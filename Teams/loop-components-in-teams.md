@@ -81,7 +81,7 @@ If you disable these experiences as outlined in the [Settings management](/share
 
 ## Known issues
 
-- With tenant default file permissions set to *Specific people* (only the people the user specifies), copying link to Loop component and pasting in another chat requires the sender to use permissions dialog and add the recipients in the Specific people option to grant access properly.
+- With tenant default file permissions set to *Specific people* (only the people the user specifies), copying the link to the Loop component and pasting it in another chat requires the sender to use the permissions dialog and add the recipients in the Specific people option to grant access properly.
 - With tenant default file permissions set to *Specific people* (only the people the user specifies), creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
 - Searching for Loop components in Teams search will return a link to the component in office.com, not the chat message itself.
 - Loop components are disabled in federated chats.
