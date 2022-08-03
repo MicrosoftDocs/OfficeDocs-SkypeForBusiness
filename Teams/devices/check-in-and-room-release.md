@@ -1,5 +1,5 @@
 ---
-title: "Check-in and room release on Microsoft Teams panels"
+title: Check-in and room release on Microsoft Teams panels
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -8,13 +8,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 ms.topic: reference
 search.appverid: MET150
-description: "This article provides guidance on how to enable check-in and room release Teams panels devices."
+description: This article provides guidance on how to enable check-in and room release Teams panels devices.
 ---
 
 # Check-in and room release on Microsoft Teams panels

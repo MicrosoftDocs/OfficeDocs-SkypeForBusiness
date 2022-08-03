@@ -1,19 +1,18 @@
 ---
 title: Move from Business Voice to Teams Phone licenses
-author: dstrome 
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
 description: Learn how to change your Business Voice licenses to Teams Phone licenses.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 # Move from Business Voice to Teams Phone licenses

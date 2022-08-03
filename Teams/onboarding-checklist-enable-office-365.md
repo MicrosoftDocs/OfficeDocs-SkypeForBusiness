@@ -10,12 +10,14 @@ ms.reviewer: rowille
 audience: admin
 description: Follow the core, to-do tasks and activities in this checklist when you configure Microsoft 365 or Office 365 for Teams.
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-collaboration
 ---
 
 

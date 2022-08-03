@@ -10,11 +10,10 @@ search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Set up your team targeting hierarchy

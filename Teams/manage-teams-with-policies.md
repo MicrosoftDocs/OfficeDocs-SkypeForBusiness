@@ -10,11 +10,10 @@ search.appverid:
 description: Lean about Teams policies.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Manage Teams with policies

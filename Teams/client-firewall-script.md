@@ -8,13 +8,12 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: medium
 search.appverid: MET150
 description: A sample script that can be used to configure Windows to allow Teams connections through Windows Firewall.
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
   - Microsoft Teams
 ---
