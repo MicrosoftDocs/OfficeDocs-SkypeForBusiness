@@ -41,7 +41,7 @@ Policies are managed with the Microsoft Teams admin center or [using PowerShell]
 
 For example, an app setup policy can allow you to enable users to upload custom apps, install apps on behalf of your users, and pin apps to the Teams app bar. These policies are configured in the Teams admin center.
 
-:::image type="content" source="media/app-setup-policy.png" alt-text="Screenshot of app setup policy." lightbox="Screenshot of app setup policy.":::
+:::image type="content" source="media/app-setup-policy.png" alt-text="Screenshot of app setup policy." lightbox="media/app-setup-policy.png":::
 
 Additionally, a meeting policy can be used to control audio and video settings in Teams meetings such as transcriptions, cloud recordings, and IP audio/video.
 
