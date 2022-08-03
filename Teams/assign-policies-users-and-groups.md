@@ -36,7 +36,7 @@ To assign a policy to a user:
 2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
 3. Select the policy you want to assign, and then select **Apply**.
 
-    :::image type="content" source="media/teams-assign-policies-users-groups-edit-settings.png" alt-text="Screenshot of Edit settings pane under Manage users." lightbox="media/assign-policy-user.png":::
+    :::image type="content" source="media\assign-policies-user-example.png" alt-text="Screenshot of Edit settings pane under Manage users." lightbox="media\assign-policies-user-example-expanded.png":::
 
 > [!NOTE]
 > To unassign a specialized policy from a user, you can set each policy to **Global (Org-wide default)**. You can also remove policy assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](#unassign-policies-in-bulk).
@@ -45,11 +45,11 @@ You can also do the following to assign a policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy page.
 2. Select the policy you want to assign by clicking to the left of the policy name.
-3. Select **Manage users**.
+3. Select **Assign users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, select **Apply**.
 
-![Assign a policy to a user in the Teams admin center via second method.](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="Assign a policy to a user in the Teams admin center via second method." lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### Use PowerShell
 
@@ -137,7 +137,7 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
     3. Select the policy that you want to assign.
     4. Select **Apply**.
 
-![Assign a policy to a group in the Teams admin center.](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Assign a policy to a group in the Teams admin center." lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
 
