@@ -86,7 +86,7 @@ User configured states have default expiration settings in Teams, in order to pr
 
 The following admin settings Skype for Business are different in Teams:
 
-- In Teams, presence sharing is always enabled for users in the organization. Unless Privacy mode is enabled, where presence will not be visible to external users.
+- In Teams, presence sharing is always enabled for users in the organization unless Privacy mode is enabled. In Privacy mode, presence is not visible to external users.
 - Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in Skype for Business) is visible under **Chat > Contacts** or under **Calls > Contacts**.
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
 - Calendar (includes out of office and other calendar information) integration  is always enabled for users when Teams is integrated with Outlook.
