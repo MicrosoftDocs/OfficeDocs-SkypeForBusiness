@@ -1,5 +1,5 @@
 ---
-title: "View Microsoft Teams utilization in Power BI using CQD data"
+title: View Microsoft Teams utilization in Power BI using CQD data
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,13 +9,12 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
-  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-description: "Use the Teams Utilization Power BI reports to access Microsoft Teams Call Quality Dashboard (CQD) data to track Microsoft Teams usage in your organization."
+description: Use the Teams Utilization Power BI reports to access Microsoft Teams Call Quality Dashboard (CQD) data to track Microsoft Teams usage in your organization.
 ---
 
 # View Microsoft Teams utilization in Power BI using CQD data

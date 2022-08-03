@@ -1,17 +1,17 @@
-﻿---
+---
 title: Multi-tenant customer management for partners
 author: donnah007
 ms.author: v-donnahill
 ms.date: 07/25/2022
 manager: serdars
-ms.reviewer: dstrome 
+ms.reviewer: dstrome
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

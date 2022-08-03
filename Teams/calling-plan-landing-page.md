@@ -9,9 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
 description: Determine which Microsoft Phone System Calling Plan will best serve your organization on Cloud Voice in Teams.
@@ -24,7 +23,7 @@ appliesto:
 
 You've completed the [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use Microsoft Phone System with Calling Plan to connect to the Public Switched Telephone Network (PSTN).
 
-This article describes core deployment decisions for Calling Plans as well as additional considerations you may want to configure, based on your organization's needs. You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
+This article describes core deployment decisions for Calling Plans and other considerations you may want to configure, based on your organization's needs. You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
 
 ## Learn more about Calling Plans
 
@@ -38,18 +37,19 @@ The following articles provide more information about deploying and using Micros
 
 To use Microsoft as your telephony carrier, you need to obtain Calling Plan licenses and assign them to your Phone System users.
 
-There are two types of Calling Plans available:
+There are three types of Calling Plans available:
 
 - Domestic Calling Plans
 - International Calling Plans
+- Pay-As-You-Go Calling Plans
 
-|Ask yourself|Action |
-|------------|-------|
-|Are Calling Plans available in my area? Which user locations will have Calling Plan service? | For more information, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
-Do my users need international calling? | For more information, see [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). |
-Do my users have Calling Plans licenses? | To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
-Do my users each have a direct inward dial (DID) phone number? | To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). |
-|||
+| Ask yourself | Action |
+|--------------|--------|
+| Are Calling Plans available in my area? Which user locations will have Calling Plan service? | For more information, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+| Do my users need international calling? | For more information, see [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). |
+| If some of my users don't make a significant number of outgoing calls, is the Pay-As-You-Go Calling Plan the most economical option for them? | For more information, see [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). |
+| Do my users have Calling Plans licenses? | To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
+| Do my users each have a direct inward dial (DID) phone number? | To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). |
 
 ### Transfer phone numbers to Microsoft 365 or Office 365
 

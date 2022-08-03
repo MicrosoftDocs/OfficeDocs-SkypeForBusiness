@@ -7,12 +7,13 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: This article describes how to drive and optimize adoption in Microsoft Teams for frontline workers.  
-f1.keywords:
+description: This article describes how to drive and optimize adoption in Microsoft Teams for frontline workers.
+f1.keywords: 
 ms.localizationpriority: medium
-search.appverid:
-ms.collection:
-ms.custom:
+search.appverid: 
+ms.collection: 
+  - M365-collaboration
+ms.custom: 
 ---
 
 # Microsoft Teams for Frontline

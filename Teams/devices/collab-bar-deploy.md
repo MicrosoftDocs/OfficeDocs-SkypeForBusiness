@@ -1,5 +1,5 @@
 ---
-title: "Deploy Microsoft Teams Rooms on Android"
+title: Deploy Microsoft Teams Rooms on Android
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -7,14 +7,15 @@ audience: ITPro
 ms.reviewer: payurevi
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Devices
 ms.custom: 
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: "Read this article to learn about deploying Microsoft Teams Rooms on Android."
+description: Read this article to learn about deploying Microsoft Teams Rooms on Android.
 ---
 
 # Deploy Microsoft Teams Rooms on Android

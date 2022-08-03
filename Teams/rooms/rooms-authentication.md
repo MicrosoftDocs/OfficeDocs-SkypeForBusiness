@@ -1,5 +1,5 @@
 ---
-title: "Authentication in Microsoft Teams Rooms"
+title: Authentication in Microsoft Teams Rooms
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -7,13 +7,14 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-ms.assetid:
+ms.assetid: 
 ms.collection: 
   - M365-collaboration
-description: "Learn how to configure modern authentication for Microsoft Teams Rooms"
+  - Teams_ITAdmin_Rooms
+description: Learn how to configure modern authentication for Microsoft Teams Rooms
 ---
 
 # Authentication in Microsoft Teams Rooms
