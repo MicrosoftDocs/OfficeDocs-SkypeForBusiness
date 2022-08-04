@@ -1,5 +1,5 @@
 ---
-title: "Devices for Teams"
+title: Devices for Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,13 +9,14 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Skype for Business Certification
   - dn947482
@@ -40,6 +41,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX505                            | `7.3.1.0811`                                                  | 	August 5, 2023              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  | 	August 5, 2023              | 9 |
 | AudioCodes C448HD(Cap Mode Only)       |  `1.17.443`                                                   | August 5, 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | September 3, 2025     | 11 |
@@ -67,6 +69,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.6 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | September 3, 2024 | Small meeting room(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
@@ -94,6 +97,8 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Crestron UC-P8-TD |`1.0.0.42`| August 5, 2023 |  9  |
+| Crestron UC-P10-TD |`1.0.0.42`| August 5, 2023 |  9  |
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| December 5, 2022 |  8.1  |
 
 ## Certified Teams panels
@@ -115,12 +120,14 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #3A  | July 13,2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | 2022 Update #3  | July 6,2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
 | 2022 Update #2A  | April 13,2022   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | 2022 Update #2   | March 21,2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | 2022 Update #1C  | March 3,2022  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | 2022 Update #1B  | Feb 7 ,2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
 | 2022 Update #1   | Feb 7 ,2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| 2021 Update #3C | Dec 16, 2021   | `1449/1.0.94.2021121302` | `5.0.5304.0` | `298` |
 | 2021 Update #3B | Dec 6, 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3A | Nov 22, 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3  | Nov 03, 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
@@ -140,6 +147,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly Trio C60 | `7.3.1.0813` | 2022 Update #1C |
+|Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | 2022 Update #1C
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 Update #2A  |
 |Yealink VP59             | `91.15.0.90`      | 2022 Update #2A  |
 |Yealink CP960            | `73.15.0.153`     | 2022 Update #2A  |
@@ -170,9 +179,7 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink CP960  | `73.15.0.150`  | 2022 Update #1B      |
 | Yealink MP52 | `145.15.0.25`  | 2022 Update #1B         |
 | Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
-| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX400/CCX500/CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `1.14.449` | 2021 Update #3  |
@@ -244,6 +251,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
@@ -338,6 +346,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 Update #3  | July 12, 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |2022 Update #2  | April 25, 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |2022 Update #1A | February 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |2022 Update #1  | February 22, 2022 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |
@@ -349,6 +358,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
 |Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |

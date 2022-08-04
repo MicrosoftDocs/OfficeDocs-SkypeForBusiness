@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams Rooms Security"
+title: Microsoft Teams Rooms Security
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,11 +9,12 @@ appliesto:
 ms.reviewer: sohailta
 ms.topic: article
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-ms.collection:
+ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn how to secure your Microsoft Teams Rooms devices.
 ---
 

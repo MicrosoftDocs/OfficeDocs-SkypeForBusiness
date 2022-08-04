@@ -6,15 +6,14 @@ manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:
+ms.collection: 
   - M365-collaboration
-  - SPO_Content
 ms.reviewer: anwara
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: Learn what to do when you need to perform eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
-appliesto:
+appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 ---
@@ -64,16 +63,13 @@ Here's an example of a chat conversation between participants during a meeting.
 
 ![Conversation between participants in Teams.](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 Here's an example of the compliance copy of the same chat conversation viewed in an eDiscovery tool.
 
 ![Conversation between participants in eDiscovery search results.](media/MeetingImConversation2.png)
 
 Here's an example of the meeting metadata.
 
-  > [!div class="mx-imgBorder"]
-  > ![The meeting metadata from the compliance copy.](media/conversationOption3.png)
+![The meeting metadata from the compliance copy.](media/conversationOption3.png)
 
 For more information about conducting an eDiscovery investigation, see [Get started with eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
 

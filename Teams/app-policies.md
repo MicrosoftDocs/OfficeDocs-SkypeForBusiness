@@ -9,17 +9,16 @@ ms.reviewer:
 search.appverid: 
 description: Learn about app permission policies, app setup policies, and custom app policies used to manage apps in Microsoft Teams.
 audience: admin
-ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+ms.localizationpriority: high
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
-# Overview of app policies used to manage apps in Microsoft Teams
+# Overview of app policies used to manage apps
 
-App policies are used to control applications in Microsoft Teams.
+App policies are used to control app access and installation behavior in Microsoft Teams.
 
 ## App permission policies
 
@@ -39,7 +38,7 @@ You can control who can upload custom apps to Teams with **custom app policies**
 
 ![Screenshot of custom app policy.](media/custom-app-policy.png)
 
-## Related topics
+## Related articles
 
 * [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 * [Manage app setup policies in Teams](teams-app-setup-policies.md)

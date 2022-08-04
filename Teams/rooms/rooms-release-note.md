@@ -7,11 +7,12 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
@@ -22,18 +23,20 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web-client. 
 
-Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). This updates the Universal Windows Platform (UWP) application that is installed locally on the device.
+Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
-Teams Web-client updates happen via the Teams web app delivery services. This is a cloud-based service that does not require an update to the local UWP application installed on the device.
+Teams Web client updates happen via the Teams web app delivery services. The Teams web client is a cloud-based service that doesn't require an update to the local UWP application installed on the device.
 
 For more information on how Teams updates, see [Teams update process](../teams-client-update.md)
 
-Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update process](../teams-client-update.md#servicing-agreement) for more information.
+Teams Rooms is governed by the Modern Lifecycle Policy. For more information, see [Teams update process](../teams-client-update.md#servicing-agreement).
 
 ## Version history
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
+|4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
@@ -86,6 +89,39 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.13.132.0 (8/2/2022)
+
+Introduced in this update:
+
+- Join Teams meeting using meeting ID
+- End-to-end encryption for one-to-one Teams calls<sup>1</sup> 
+- Noise suppression in Teams meetings<sup>2</sup>
+- Share tray experience update
+- Mute and unmute status on your room video
+- Admin setting for content only layout default  
+- Modern authentication is on by default
+
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Room device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+
+ <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
+
+> [!IMPORTANT]
+> With this update, new Teams Rooms devices now default to using modern authentication when connecting to Microsoft Teams and Exchange Online.
+>
+> We strongly recommend that you test your Teams Rooms devices prior to end of August by turning on Modern authentication for their room accounts.
+>
+> This change helps prepare for the upcoming update in Exchange Online to turn off basic authentication starting October 1, 2022. For more information, see [Basic Authentication Deprecation in Exchange Online – May 2022 Update
+](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
+
+### 4.12.139.0 (7/14/2022)
+
+Introduced in this update:
+
+- Changes the version number to allow systems impacted by Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) to re-register the app so it can launch. There are no functional changes in this app version from 4.1.2.138.0.
+
+> [!NOTE]
+> For more information, see "⁠Teams Rooms app fails to start after update" in [Known issues in Teams Rooms and devices](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues).
 
 ### 4.12.138.0 (5/26/2022)
 

@@ -69,7 +69,7 @@ Describes the two types of [user phone numbers](manage-phone-numbers-landing-pag
 
 - [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the phone numbers you've acquired.
 
-- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get depending on the types of telephone numbers and types of licenses you've bought and assigned.
+- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get, depending on the types of telephone numbers and types of licenses you've bought and assigned.
 
 ## Step 4: Get phone numbers for services (call queues, auto attendants)
 
@@ -82,7 +82,7 @@ For more information, see:
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types with links to specific articles for acquiring and managing numbers depending on your PSTN connectivity option.
 Describes [service phone numbers](manage-phone-numbers-landing-page.md#service-telephone-numbers) available from Microsoft that are included in your licensing. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.
 
-- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get depending on the types of telephone numbers and types of licenses you've bought and assigned.
+- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get, depending on the types of telephone numbers and types of licenses you've bought and assigned.
 
 ## Step 5: If you want to set up a call queue
 
@@ -108,9 +108,11 @@ Communications Credits are a convenient way to add toll-free numbers to use as f
 
 - To dial out and pay per minute once you've exhausted your monthly minute allotment.
 
+- To dial out and pay per minute for all outgoing calls, if you have a Pay-As-You-Go Calling Plan.
+
 For more information, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
-## Related topics
+## Related articles
 
 - [What is Phone System](what-is-phone-system-in-office-365.md)
 

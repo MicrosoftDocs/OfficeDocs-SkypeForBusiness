@@ -1,23 +1,22 @@
 ---
 title: Set up Microsoft Teams Phone System with Calling Plan for small to medium businesses
-author: dstrome 
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 ms.custom: intro-get-started
 search.appverid: MET150
 description: Learn how to set up Microsoft Teams Phone System with Calling Plan in your small to medium business or organization.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
+  - M365initiative-voice
 ---
 
 # Set up the Teams Phone System with Calling Plan bundle for small to medium businesses

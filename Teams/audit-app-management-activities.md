@@ -7,13 +7,12 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 f1keywords: 
 description: Learn how to audit Teams app activities of users and administrators in your organization.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 ---
 
@@ -67,6 +66,7 @@ After searching the audit sign in the compliance portal, you can export the audi
 
 ## See also
 
+* [Use audit logs to investigate Microsoft Power Platform installation activity](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Search the audit sign in the compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Overview of Microsoft Purview Audit Premium](/microsoft-365/compliance/advanced-audit).
 * [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).

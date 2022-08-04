@@ -1,5 +1,5 @@
 ---
-title: "Routing calls to unassigned numbers"
+title: Routing calls to unassigned numbers
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to route calls to unassigned numbers in your organization."
+description: Learn how to route calls to unassigned numbers in your organization.
 ---
 
 # Routing calls to unassigned numbers

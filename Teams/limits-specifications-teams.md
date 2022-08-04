@@ -9,11 +9,10 @@ audience: admin
 ms.reviewer: siunies
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
 ms.localizationpriority: high
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - SPO_Content
   - m365initiative-deployteams
 search.appverid: MET150
 appliesto: 
@@ -223,7 +222,7 @@ A class team can support more than 300 members. However, if you plan to use eith
 |---------|---------|
 |Number of tags per team    | 100        |
 |Number of suggested default tags per team    | 25        |
-|Number of team members assign to a tag    |100         |
+|Number of team members assigned to a tag    |200         |
 |Number of tags assigned to a user per team    |25         |
 
 ## Contacts

@@ -1,7 +1,7 @@
 ---
-title: "Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune"
-ms.author: serdars
-author: SerdarSoysal
+title: Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article provides an overview of and features supported by Microsoft Teams Android devices."
+description: This article provides an overview of and features supported by Microsoft Teams Android devices.
 ---
 
 # Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune

@@ -1,7 +1,7 @@
 ---
 title: Steering committee for cloud voice deployment
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -9,13 +9,15 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers.
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-voice
 ---
 
 # Steering committee

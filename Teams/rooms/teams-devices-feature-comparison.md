@@ -1,5 +1,5 @@
 ---
-title: "Teams devices for Shared Spaces feature comparison between Windows and Android"
+title: Teams devices for Shared Spaces feature comparison between Windows and Android
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
@@ -7,16 +7,14 @@ ms.date: 06/03/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
-search.appverid: MET150 
+search.appverid: MET150
 ms.reviewer: 
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
-  - skype-for-business-itpro
-  - skype-for-business-online
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
@@ -72,10 +70,11 @@ To help guide you as to what features are available on different platforms, you 
 ||Connected peripheral health monitoring |Available  |Coming soon |
 ||Remote configuration (restart, settings, Log collection) |Available  |Available |
 ||Automatic Teams app updates |Available  |Available |
-||Device auto-enrollment |Available |Coming soon |
+||Device auto-enrollment |Available |Available |
 ||Call quality analytics |Available  |Available |
 |**Good for / Space**|Focus (2-4 people) |Available  |Available |
 ||Small (4-6 people) |Available  |Available |
 ||Medium (6-12 people) |Available  |Available |
 ||Large (12-16 people) |Available  |Available |
 ||Multi-purpose room (16+ people) |Available  |Not available |
+
