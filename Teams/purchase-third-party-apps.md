@@ -29,12 +29,12 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 ## Purchase apps in the Teams admin center
 
 > [!IMPORTANT]
-> When you enable app purchasing, it will also turn on in-app purchasing. Users may see in-app purchase offers which are controlled by the ISV for their app. If you want to block your users from purchasing an app, you have to block the app. For more information on how to block an app, see [Manage app policies](app-policies.md) or [learn how to block an app at the org-level](manage-apps.md#allow-and-block-apps).
+> When you enable app purchasing, it will also turn on in-app purchasing. Users may see in-app purchase offers which are controlled by the ISV for their app. If you want to block your users from purchasing an app, you must block the app. For more information on how to block an app, see [Manage app policies](app-policies.md) or [learn how to block an app at the org-level](manage-apps.md#allow-and-block-apps).
 
 1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**. You must be a Global admin or Teams service admin to access the page.
 
 1. Search for the app that you want by its name. To identify apps that have a paid SaaS subscription, look in the **Licenses** column. Each app has one of the following values:
-    * **Purchase**: The app offers a SaaS subscription and is available to purchase.  
+    * **Purchase**: The app offers a SaaS subscription and is available to purchase.
     * **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     * **- -**: The app doesn't offer a SaaS subscription.
 
@@ -83,7 +83,7 @@ Global admins can add more licenses, remove licenses, and cancel subscriptions f
 
 ## Manage subscriptions in Teams admin center
 
-In Teams admins center, you can manage the app subscriptions and licenses you purchased. You can view the list of app subscriptions and their details and also perform the following actions:
+In Teams admins center, you can manage the app subscriptions and licenses you purchased. You can view the list of app subscriptions and their details and perform the following actions:
 
 * Change a plan
 * Buy or remove license
