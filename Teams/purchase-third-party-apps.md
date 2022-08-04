@@ -92,6 +92,8 @@ In Teams admins center, you can manage the app subscriptions and licenses you pu
 * Cancel a subscription
 * View your invoice
 
+  :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Screenshot of subscription option for an app in the manage apps page."lightbox="media/manage-app-subscriptions-manage-apps.png":::
+
 To manage subscriptions, follow these steps:
 
 1. Sign in to Teams admin center.
