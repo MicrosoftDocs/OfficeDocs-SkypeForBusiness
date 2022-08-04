@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft Teams resources for Education admins: Assign Teams licenses for EDU'
+title: "'Microsoft Teams resources for Education admins: Assign Teams licenses for EDU'"
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -10,11 +10,10 @@ ms.reviewer: karsmith
 description: Licensing walkthrough for Microsoft Teams for EDU.
 ms.localizationpriority: high
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
 appliesto: 
   - Microsoft Teams
 ---

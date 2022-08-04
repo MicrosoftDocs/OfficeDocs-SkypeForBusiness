@@ -9,15 +9,14 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+f1.keywords: 
+  - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to change the appearance of the app and rebrand an app by editing app details and metadata. 
+description: Learn how to change the appearance of the app and rebrand an app by editing app details and metadata.
 ---
 
 # Customize appearance of apps in your organization's Teams store

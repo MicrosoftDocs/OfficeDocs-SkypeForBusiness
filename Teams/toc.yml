@@ -117,8 +117,6 @@ items:
       items: 
         - name: Admin training for Teams
           href: itadmin-readiness.md
-        - name: Teams sessions at Ignite
-          href: ignite-2020-landing-page.md
         - name: End user training for Teams
           href: instructor-led-training-teams-landing-page.yml
 - name: Upgrade from Skype for Business
@@ -882,6 +880,8 @@ items:
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Operator Connect
           items: 
+            - name: What's new
+              href: operator-connect-whats-new.md
             - name: Plan for Operator Connect
               href: operator-connect-plan.md
             - name: Configure Operator Connect
@@ -1657,7 +1657,9 @@ items:
             - name: Manage user access to Insights
               href: education-insights-manage-access.md              
             - name: Get started with Reflect
-              href: reflect.md      
+              href: reflect.md   
+            - name: Understand Insights for Reading Progress
+              href: insights-for-reading-progress.md
         - name: Assignments in Teams for Education
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams resources for Education admins

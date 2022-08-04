@@ -10,11 +10,10 @@ ms.reviewer: karsmith, lakuan
 description: Remote learning startup guidance for Microsoft Teams for EDU.
 ms.localizationpriority: high
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - remotework
 appliesto: 
   - Microsoft Teams
