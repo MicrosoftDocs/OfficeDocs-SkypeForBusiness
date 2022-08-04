@@ -49,7 +49,7 @@ You can also do the following to assign a policy to a user:
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, select **Apply**.
 
-    :::image type="content" source="media/assign-policies-user-example.png" alt-text="Assign a policy to a user in the Teams admin center via second method." lightbox="media/assign-policies-user-example-expanded.png":::
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="Screenshot that shows how to assign a policy to a user in the Teams admin center via second method." lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### Use PowerShell
 
@@ -137,7 +137,7 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
     3. Select the policy that you want to assign.
     4. Select **Apply**.
 
-        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Assign a policy to a group in the Teams admin center." lightbox="media/assign-policies-groups-messaging-expanded.png":::
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Screenshot that shows how to assign a policy to a group in the Teams admin center." lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
 

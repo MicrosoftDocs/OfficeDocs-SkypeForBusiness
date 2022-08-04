@@ -88,7 +88,7 @@ To create a new custom policy package:
 
 2. Enter a name and description for your package.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Screenshot of adding a  new custom policy package." lightbox="media/policy-packages-add-custom.png":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Screenshot of adding a new custom policy package." lightbox="media/policy-packages-add-custom.png":::
 
 3. Select the policy types and policy names to include in the package.
 

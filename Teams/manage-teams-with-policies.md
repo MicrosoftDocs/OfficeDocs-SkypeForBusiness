@@ -28,7 +28,7 @@ Policies are used to accomplish many tasks in your organization across different
 
 Policies can be assigned in several different ways depending on what your organization is trying to accomplish. You can make and view assignments in the Teams admin center.
 
-:::image type="content" source="media/group-policy-assignment.png" alt-text="Screenshot of group policy assignment." lightbox="media/group-policy-assignment.png":::
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Screenshot of Teams group policy assignment." lightbox="media/group-policy-assignment.png":::
 
 Learn more about assigning policies [here](policy-assignment-overview.md).
 
