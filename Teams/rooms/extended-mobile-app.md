@@ -38,7 +38,7 @@ The mobile client offers both creating tickets and managing incidents capabiliti
 
 **To use the Teams Rooms mobile app**
 
-1. Download the app from either  to either the [Apple App Store]() or the [Google Play Store]().
+1. Download the app from either the [Apple App Store]() or the [Google Play Store]().
 1. Ensure that you have a valid Microsoft 365 subscription.
 1. Use your work credentials that you use to access the Teams Rooms desktop app.
 
