@@ -96,5 +96,5 @@ The app displays ticket details, messages, and files under separate tabs.
 
 You can try some common mobile app troubleshooting steps:
 - Close and reopen the app.
-- Uninstall and reinstall the app.Ensure that you are on the latest version of the app.
+- Uninstall and reinstall the app. Ensure that you are on the latest version of the app.
 - If you have Microsoft Authenticator or Company portal app installed on your device, try reinstalling it or updating to the latest version. If that doesn't work, you can email us at feedback365@microsoft.com to let us know.
