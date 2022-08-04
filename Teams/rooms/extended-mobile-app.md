@@ -38,7 +38,7 @@ The mobile client offers both creating tickets and managing incidents capabiliti
 
 **To use the Teams Rooms mobile app**
 
-1. Download the app from either  to either the [Apple App Store]() or the [Google Play Store]()
+1. Download the app from either  to either the [Apple App Store]() or the [Google Play Store]().
 1. Ensure that you have a valid Microsoft 365 subscription.
 1. Use your work credentials that you use to access the Teams Rooms desktop app.
 
@@ -60,10 +60,10 @@ The Incidents page shows the types of open incidents.
 
 ### Report an incident
 
-![MTMS mobile application report incident](../media/mtms-extended-app-012.png)
+![Screenshot that shows the MTMS mobile application report incident.](../media/mtms-extended-app-012.png)
 ### View an incident by category
 
-![MTMS mobile application  Rooms problems screen](../media/mtms-extended-app-001.png)
+![Screenshot that shows the MTMS mobile application Rooms problems screen.](../media/mtms-extended-app-001.png)
 
 ### Managing tickets
 Here are some of the capabilities you have on the mobile app for managing tickets.
@@ -79,18 +79,18 @@ The app displays ticket details, messages, and files under separate tabs.
 
 ![MTMS mobile application ticket details 01 ](../media/mtms-extended-app-002.png)
 
-![MTMS mobile application ticket messages](../media/mtms-extended-app-003.png)
+![Screenshot that shows MTMS mobile application ticket messages.](../media/mtms-extended-app-003.png)
 
 
-<!--![MTMS mobile application ticket details 02](../media/mtms-extended-app-004.png)
+<!--![Screenshot that shows MTMS mobile application ticket details 02.](../media/mtms-extended-app-004.png)
 
-![MTMS mobile application ticket details 03](../media/mtms-extended-app-009.png)
+![Screenshot that shows MTMS mobile application ticket details 03.](../media/mtms-extended-app-009.png)
 
 ![MTMS mobile application managed security screen](../media/mtms-extended-app-009.png)
 ![MTMS mobile application Messages screen](../media/mtms-extended-app-008.png)
 ### Sign out
 
-![MTMS mobile application signout page page](../media/mtms-extended-app-011.png)-->
+![Screenshot that shows the MTMS mobile application signout page.](../media/mtms-extended-app-011.png)-->
 
 ## Troubleshooting
 
