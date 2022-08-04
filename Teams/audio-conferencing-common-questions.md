@@ -82,7 +82,7 @@ The maximum length of time depends on who is in the meeting and the type of auth
 
 See [Limits and Specifications](limits-specifications-teams.md) for total number of attendees allowed in meetings.
   
-To find out about meeting limits, see [Skype for Business Online Limits](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#bkmk_Meeting_LyncOnlineLimits).
+To find out about meeting limits, see [Skype for Business Online Limits](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#meeting-limits).
   
 ## Why did users start receiving emails with their Audio Conferencing information?
 

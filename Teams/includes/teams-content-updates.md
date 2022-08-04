@@ -2,6 +2,51 @@
 
 
 
+## Week of July 25, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/25/2022 | [Phone numbers and licensing changes](/MicrosoftTeams/phone-numbers-licensing-changes) | added |
+| 7/25/2022 | [Meeting policies and meeting expiration in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modified |
+| 7/25/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | modified |
+| 7/25/2022 | [Browser logs and tracing for Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | added |
+| 7/25/2022 | [Configure log files for monitoring and troubleshooting in Teams](/MicrosoftTeams/log-files) | modified |
+| 7/26/2022 | [Resources for Career Coach integration in Microsoft Teams](/MicrosoftTeams/career-coach-resources) | added |
+| 7/26/2022 | [Set up and configure Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | added |
+| 7/26/2022 | [Troubleshoot Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | added |
+| 7/26/2022 | [Shared channels errors in Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | added |
+| 7/26/2022 | [Get started with Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach) | modified |
+| 7/26/2022 | [Get started with Career Coach for Microsoft Teams](/MicrosoftTeams/cloud-recording) | modified |
+| 7/26/2022 | [Use guest access and external access to collaborate with people outside your organization](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modified |
+| 7/26/2022 | [Partner management for customers](/MicrosoftTeams/rooms/multi-tenant-management-customer) | modified |
+| 7/26/2022 | [Multi-tenant customer management for partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modified |
+| 7/26/2022 | [Assign Teams add-on licenses to users](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modified |
+| 7/29/2022 | [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-landing-page) | modified |
+
+
+## Week of July 18, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/18/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 7/18/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 7/18/2022 | Provisioning Microsoft Teams at scale for Frontline Workers | removed |
+| 7/19/2022 | [Manage Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 7/19/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 7/19/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
+| 7/19/2022 | [Manage Q&A in Teams Meetings](/MicrosoftTeams/manage-qna-for-teams) | modified |
+| 7/19/2022 | [Overview of app certification by Microsoft](/MicrosoftTeams/overview-of-app-certification) | modified |
+| 7/19/2022 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
+| 7/20/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
+| 7/21/2022 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 7/21/2022 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
+| 7/21/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 7/21/2022 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
+| 7/21/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
+
+
 ## Week of July 11, 2022
 
 
@@ -85,52 +130,3 @@
 | 6/27/2022 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
 | 6/28/2022 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
 | 6/29/2022 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
-
-
-## Week of June 20, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/20/2022 | [Configure ServiceNow for Teams Rooms](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | modified |
-| 6/21/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
-| 6/21/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
-| 6/21/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 6/21/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 6/22/2022 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
-| 6/23/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 6/23/2022 | [Purchase, configure, and enable Career Coach for Microsoft Teams for Education](/MicrosoftTeams/career-coach) | modified |
-| 6/23/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
-| 6/24/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-
-
-## Week of June 13, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/13/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 6/13/2022 | [Use Power BI to analyze CQD data for Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modified |
-| 6/13/2022 | [Move from Business Voice to Teams Phone licenses](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | modified |
-| 6/13/2022 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
-| 6/13/2022 | [Data and Privacy Information](/MicrosoftTeams/rooms/data-and-privacy-info) | modified |
-| 6/13/2022 | [Microsoft Teams Rooms update management](/MicrosoftTeams/rooms/update-management) | modified |
-| 6/15/2022 | [Teams PowerShell Module - Supported Versions](/MicrosoftTeams/teams-powershell-supported-versions) | modified |
-| 6/16/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | added |
-| 6/16/2022 | [Plan your call routing flow for Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | added |
-| 6/16/2022 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
-| 6/16/2022 | [Assign, change, or remove a phone number for a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modified |
-| 6/16/2022 | Set up an auto attendant for Microsoft Teams - small business tutorial | removed |
-| 6/16/2022 | Create a call queue in Microsoft Teams Phone System - small business tutorial | removed |
-| 6/16/2022 | [Assign Teams Phone System phone numbers to your users](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modified |
-| 6/16/2022 | Set up an auto attendant for your company's main phone number | removed |
-| 6/16/2022 | [Set up a Microsoft Teams Phone System resource account](/MicrosoftTeams/business-voice/set-up-resource-account) | modified |
-| 6/16/2022 | [Teams Phone System guidance for small and medium businesses](/MicrosoftTeams/business-voice/whats-business-voice) | modified |
-| 6/16/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 6/16/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 6/16/2022 | [Modify the appearance of apps in your organization's Teams store](/MicrosoftTeams/customize-apps) | modified |
-| 6/16/2022 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
-| 6/16/2022 | [Manage resource accounts in Teams](/MicrosoftTeams/manage-resource-accounts) | modified |
-| 6/16/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 6/16/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
-| 6/16/2022 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |

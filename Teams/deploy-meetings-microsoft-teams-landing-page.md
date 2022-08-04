@@ -9,11 +9,10 @@ manager: serdars
 ms.service: msteams
 ms.subservice: meetings
 audience: admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - remotework
   - m365initiative-meetings
 ms.localizationpriority: high

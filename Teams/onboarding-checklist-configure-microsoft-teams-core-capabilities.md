@@ -11,11 +11,13 @@ audience: admin
 description: Follow the core, to-do tasks and activities in this checklist when you configure Teams for your organization.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Configure Microsoft Teams core capabilities

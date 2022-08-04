@@ -10,10 +10,11 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to use administrative units in Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Devices
 appliesto: 
   - Microsoft Teams
 ---

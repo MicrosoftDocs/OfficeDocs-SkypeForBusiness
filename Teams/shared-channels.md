@@ -9,15 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+  - m365initiative-securecollab
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage shared channels in Microsoft Teams. 
+description: Learn how to use and manage shared channels in Microsoft Teams.
 ---
 
 # Shared channels in Microsoft Teams
@@ -145,6 +145,8 @@ The following table describes the maximum number of channels and members.
 
 The following limitations also apply:
 
+- Only Azure AD work or school accounts are supported for external participants.
+
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
 - LOB apps, bots, connectors, and message extensions are not supported.
@@ -204,7 +206,6 @@ The following apps are supported for use in shared channels.
 - Smartsheet
 - SurveyMonkey
 - Tasks in a Box
-- Teams
 - Teams Manager
 - TeamViewer
 - Teamwork

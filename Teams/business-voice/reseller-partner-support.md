@@ -1,28 +1,26 @@
 ---
 title: Get help from a Microsoft reseller or partner
-author: dstrome 
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: Learn how to get support from a Microsoft reseller or partner to help you set up Microsoft Teams Phone System without a Calling Plan.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]
+ms.collection: 
+  - M365-voice
 ---
 
 # Get help from a Microsoft reseller or partner
 
-To set up Teams Phone System, you have the option to set it up yourself or to use a Microsoft partner or seller.
+You can set up Teams Phone System yourself or use a Microsoft partner or seller.
 
 You can find a Microsoft reseller or partner by visiting the [Connect with partners](https://appsource.microsoft.com/marketplace/partner-dir) page.
 
