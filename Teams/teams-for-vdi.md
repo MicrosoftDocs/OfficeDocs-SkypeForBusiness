@@ -400,7 +400,7 @@ Teams VDI policies are available in the Teams module. These policies are active 
 
 ### Connect to Microsoft Teams PowerShell
 
-Follow the instructions in [Install Microsoft Teams PowerShell Module](/Teams/teams-powershell-install.md) to install and connect to the Microsoft Teams PowerShell module. Then run the following command to confirm that all VDI cmdlets are available:
+Follow the instructions in [Install Microsoft Teams PowerShell Module](/Teams/teams-powershell-install.md) to connect to the Microsoft Teams PowerShell module. Then run the following command to confirm that all VDI cmdlets are available:
 
 ```PowerShell
 Get-Command -Noun *VDI*
