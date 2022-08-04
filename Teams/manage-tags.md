@@ -26,7 +26,6 @@ Tags in Microsoft Teams let users quickly and easily connect with a subset of pe
 As mentioned earlier, there are two kinds of tags in Teams.
 
 - **Custom tags**: Team owners and team members (if the feature is enabled for them) can manually create and assign tags to people. For example, a “Designer” or “Radiologist” tag will reach those sets of people on a team without having to type their names.
-
 - **Tagging by shift**: With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Teams. For example, the “EngineerOnCall” tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information.
 
 > [!NOTE] Tags are not supported in private or shared channels.
@@ -36,13 +35,9 @@ As mentioned earlier, there are two kinds of tags in Teams.
 A tag can be manually added or automatically assigned to a person on a specific team. It can then be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team. Here’s some examples of how tags can be used in Teams:
 
 - A store manager posts an announcement to a channel to notify all cashiers.
-
 - A hospital administrator sends a message to all radiologists in a channel.
-
 - A marketing manager starts a group chat with all designers.
-
 - A nurse sends a message to all on-call cardiologists (with the Shifts app).
-
 - A system engineer posts an announcement to a channel to notify all on-shift field engineers (with the Shifts app).
 
 When a tag is @mentioned in a channel conversation, team members associated with the tag will get notified, just like any other @mention.
@@ -51,22 +46,20 @@ When a tag is @mentioned in a channel conversation, team members associated with
 
 As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center; (you can’t use PowerShell to manage tags).
 
-![Screenshot of tagging settings in the Microsoft Teams admin center.](media/manage-tags-admin-settings.png)
+:::image type="content" source="media/manage-tags-admin-settings.png" alt-text="Screenshot of tagging settings in the Microsoft Teams admin center.":::
 
 A team can have up to 100 tags, up to 100 team members can be assigned to a tag, and up to 25 tags can be assigned to a single user.
 
 ### Set who can add custom tags
 
-By default, team owners can add custom tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags or you can turn off tags for your organization.
+By default, team owners can add custom tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags, or you can turn off tags for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
 
 2. Under **Tagging**, next to **Tags are managed by**, select one of the following options:
 
     - **Team owners and members**: Allow team owners and members to manage tags.
-
     - **Team owners**: Allow team owners to manage tags.
-
     - **Disabled**: Turn off tags.
 
 ### Configure custom tags settings
@@ -78,24 +71,22 @@ You can configure the following tags settings to control how custom tags are use
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
     - **Let team owners override who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Tags are managed by** setting is the default value for each team. If you turn off this setting, the **Tags are managed by** setting can’t be changed per team.
-
     - **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
-
     - **Let custom tags be created**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this is turned off, people can only use the suggested default tags. If you turn this off, make sure that you add one or more default tags.
 
 ## Manage custom tags settings for a team
 
 If you turned on the **Let team owners override who can manage tags** setting in the Microsoft Teams admin center, team owners can set whether members can add tags at the team level. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose who can add tags.
 
-![Screenshot of the tags setting at the team level.](media/manage-tags-team-settings.png)
+:::image type="content" source="media/manage-tags-team-settings.png" alt-text="Screenshot of the tags setting at the team level.":::
 
 ## Create and assign custom tags
 
 To create and assign custom tags, select **Teams** on the left side of the app, and then find your team in the list. Select **˙˙˙ More options**, and then choose **Manage tags**. Here, you can create tags and assign them to people on your team.
 
-To delete a tag, select ˙˙˙ More options next to the tag, and then select Delete tag.
+:::image type="content" source="media/manage-tags-teams.png" alt-text="Screenshot of how to apply tags in the Teams client.":::
 
-![Screenshot of how to apply tags in the Teams client .](media/manage-tags-teams.png)
+To delete a tag, select **˙˙˙ More options** next to the tag, and then select **Delete tag**.
 
 ## Related topics
 
