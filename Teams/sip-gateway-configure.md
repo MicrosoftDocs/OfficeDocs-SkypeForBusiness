@@ -55,7 +55,6 @@ Before you can configure SIP Gateway, do the following:
   - https://httpblobsdgnoam.blob.core.windows.net
 
 
-
 The following sections describe what you must do as an administrator to configure SIP Gateway.
 
 - [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-organization).
@@ -67,7 +66,6 @@ The following sections describe what you must do as an administrator to configur
 This article also describes how to:
 
 - [Enroll SIP devices either individually or in batches for your convenience](#provision-and-enroll-sip-devices-as-common-area-phones).  
-
 
 - [View and monitor your SIP devices.](#view-and-monitor-sip-devices)
 
@@ -155,8 +153,8 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
 
 For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-
 ## Provision and enroll SIP devices as common area phones
+
 > [!NOTE]
 > A SIP device must be onboarded to SIP Gateway before it can be enrolled.
 
@@ -309,7 +307,7 @@ SIP Gateway only supports IPv4. Microsoft Teams service and client support both 
 
 ## Emergency calling
 
-SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP devices that share network attributes, provisioned for their tenant in Teams Admin Center, over the wire. These attributes could either be a combination of local IP and subnet length, or chassis ID and network port number. For devices that do not share location attributes, or if location is not resolved dynamically for any reason, SIP Gateway will continue to support emergency calling based on registered addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP devices that share network attributes over the wire. These attributes are provisioned in the Teams admin center and can be a combination of local IP and subnet length, or chassis ID and network port number. For devices that do not share location attributes, or if the location is not resolved dynamically for any reason, SIP Gateway will continue to support emergency calling based on registered addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## Report problems to Microsoft
 
