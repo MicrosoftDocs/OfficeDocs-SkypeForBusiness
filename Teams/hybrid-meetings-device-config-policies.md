@@ -1,5 +1,5 @@
 ---
-title: "Step 6 - Set up devices in your Teams meeting space"
+title: "Step 6 - Configure meeting policies"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,4 +19,6 @@ ms.custom:
 keywords: 
 ---
 
-# Step 6 - Set up devices in your Teams meeting space
+# Step 6 - Configure meeting policies
+
+[!INCLUDE [mtr-device-config-policies-include](includes/mtr-device-config-policies-include.md)]

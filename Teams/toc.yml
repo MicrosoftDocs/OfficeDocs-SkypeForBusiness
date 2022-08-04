@@ -697,7 +697,21 @@ items:
           - name: "Step 4 - Select room devices"
             href: hybrid-meetings-device-select
           - name: "Step 5 - Set up your devices"
-            href: hybrid-meetings-device-config
+            items:
+              - name: Step 1 - Purchase a Teams Rooms license
+                href: hybrid-meetings-device-config-license
+              - name: Step 2 - Create a resource account
+                href: hybrid-meetings-device-config-account
+              - name: Step 3 - Configure mailbox properties
+                href: hybrid-meetings-device-config-mailbox
+              - name: Step 4 - Turn off password expiration
+                href: hybrid-meetings-device-config-password
+              - name: Step 5 - Assign a meeting room license
+                href: hybrid-meetings-device-config-assign
+              - name: Step 6 - Configure meeting policies
+                href: hybrid-meetings-device-config-policies
+              - name: Step 7 - Configure calendar options
+                href: hybrid-meetings-device-config-calendar
           - name: "Step 6 - Manage and monitor rooms and meetings"
             href: hybrid-meetings-manage
     - name: Audio conferencing
