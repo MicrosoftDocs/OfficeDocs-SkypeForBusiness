@@ -2,6 +2,29 @@
 
 
 
+## Week of July 25, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/25/2022 | [Phone numbers and licensing changes](/MicrosoftTeams/phone-numbers-licensing-changes) | added |
+| 7/25/2022 | [Meeting policies and meeting expiration in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modified |
+| 7/25/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | modified |
+| 7/25/2022 | [Browser logs and tracing for Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | added |
+| 7/25/2022 | [Configure log files for monitoring and troubleshooting in Teams](/MicrosoftTeams/log-files) | modified |
+| 7/26/2022 | [Resources for Career Coach integration in Microsoft Teams](/MicrosoftTeams/career-coach-resources) | added |
+| 7/26/2022 | [Set up and configure Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | added |
+| 7/26/2022 | [Troubleshoot Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | added |
+| 7/26/2022 | [Shared channels errors in Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | added |
+| 7/26/2022 | [Get started with Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach) | modified |
+| 7/26/2022 | [Get started with Career Coach for Microsoft Teams](/MicrosoftTeams/cloud-recording) | modified |
+| 7/26/2022 | [Use guest access and external access to collaborate with people outside your organization](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modified |
+| 7/26/2022 | [Partner management for customers](/MicrosoftTeams/rooms/multi-tenant-management-customer) | modified |
+| 7/26/2022 | [Multi-tenant customer management for partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modified |
+| 7/26/2022 | [Assign Teams add-on licenses to users](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modified |
+| 7/29/2022 | [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-landing-page) | modified |
+
+
 ## Week of July 18, 2022
 
 
@@ -107,20 +130,3 @@
 | 6/27/2022 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
 | 6/28/2022 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
 | 6/29/2022 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
-
-
-## Week of June 20, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/20/2022 | [Configure ServiceNow for Teams Rooms](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | modified |
-| 6/21/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
-| 6/21/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
-| 6/21/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 6/21/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 6/22/2022 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
-| 6/23/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 6/23/2022 | [Purchase, configure, and enable Career Coach for Microsoft Teams for Education](/MicrosoftTeams/career-coach) | modified |
-| 6/23/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
-| 6/24/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |

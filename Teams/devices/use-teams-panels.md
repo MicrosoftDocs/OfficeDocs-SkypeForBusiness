@@ -1,5 +1,5 @@
 ---
-title: "How to use Microsoft Teams panels devices"
+title: How to use Microsoft Teams panels devices
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article provides guidance on how to use Teams panels devices."
+description: This article provides guidance on how to use Teams panels devices.
 ---
 
 # How to use Microsoft Teams panels

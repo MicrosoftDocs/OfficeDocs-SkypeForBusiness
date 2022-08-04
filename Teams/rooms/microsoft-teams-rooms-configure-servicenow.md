@@ -10,8 +10,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-description: Learn about configuring ServiceNow in the Teams Rooms Premium portal 
+description: Learn about configuring ServiceNow in the Teams Rooms Premium portal
 f1keywords: 
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_MTRP
 ---
 
 # Configure ServiceNow for Teams Rooms

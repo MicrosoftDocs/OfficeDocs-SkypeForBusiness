@@ -11,15 +11,14 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom:
+ms.custom: 
   - Phone System
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
 description: Reference this article for PowerShell cmdlets to create and manage auto attendants and call queues in Microsoft Teams.
 ---
 

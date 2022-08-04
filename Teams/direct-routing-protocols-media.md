@@ -1,5 +1,5 @@
 ---
-title:  Phone system direct routing overview
+title: Phone system direct routing overview
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,16 +7,15 @@ ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: hHw Direct Routing supports media bypass with a Session Border Controller enabled for ICE Lite.
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Overview
