@@ -28,7 +28,8 @@ As mentioned earlier, there are two kinds of tags in Teams.
 - **Custom tags**: Team owners and team members (if the feature is enabled for them) can manually create and assign tags to people. For example, a “Designer” or “Radiologist” tag will reach those sets of people on a team without having to type their names.
 - **Tagging by shift**: With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Teams. For example, the “EngineerOnCall” tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information.
 
-> [!NOTE] Tags are not supported in private or shared channels.
+> [!NOTE]
+> Tags are not supported in private or shared channels.
 
 ## How tags work
 
