@@ -398,20 +398,12 @@ Teams VDI policies are available in the Teams module. These policies are active 
 > [!NOTE]
 > This is only for non-optimized environments.
 
-### Update a module name
+### Connect to Microsoft Teams PowerShell
+
+Follow the instructions in (Install Microsoft Teams PowerShell Module)[/Teams/teams-powershell-install.md] to install and connect to the Microsoft Teams PowerShell module. Then run the following command to confirm that all VDI cmdlets are available:
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### Set policies to limit calling features
