@@ -9,18 +9,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- Teams_ITAdmin_RemoteWorkers
-- remotework
+  - M365-collaboration
+  - remotework
 appliesto: 
-- Microsoft Teams
-f1.keywords:
-- CSH
+  - Microsoft Teams
+f1.keywords: 
+  - CSH
 ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn about policies in a educational or EDU setting, and how to use and manage policy packages in Microsoft Teams. 
+description: Learn about policies in a educational or EDU setting, and how to use and manage policy packages in Microsoft Teams.
 ---
 
 # Teams policies and policy packages for Education

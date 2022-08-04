@@ -1,5 +1,5 @@
 ---
-title: "Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub"
+title: Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
@@ -9,10 +9,11 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "Configure Teams Rooms devices and Surface Hub to join meetings when one device or the other joins a meeting."
+description: Configure Teams Rooms devices and Surface Hub to join meetings when one device or the other joins a meeting.
 ---
 
 # Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub

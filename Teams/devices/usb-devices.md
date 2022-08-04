@@ -1,5 +1,5 @@
 ---
-title: "Phones and Devices for Microsoft Teams"
+title: Phones and Devices for Microsoft Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -8,13 +8,14 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-description: "See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams."
+f1.keywords: 
+  - NOCSH
+description: See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams.
 ---
 
 # USB audio and video devices certified for Microsoft Teams

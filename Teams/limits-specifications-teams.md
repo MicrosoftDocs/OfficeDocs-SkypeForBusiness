@@ -9,11 +9,10 @@ audience: admin
 ms.reviewer: siunies
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
 ms.localizationpriority: high
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - SPO_Content
   - m365initiative-deployteams
 search.appverid: MET150
 appliesto: 
