@@ -43,6 +43,7 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Meeting participants can add a SIP device user to the meeting by dialing out to user's phone number or simply adding a participant by clicking on 'Request to Join' will also alert the user's SIP device. Guest users from another organization can be added to a Teams meeting by a participant who dials out to a guest user's number to include that guest.
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
 - **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
+- **Offboard stale devices:** SIP Gateway supports auto offboarding of stale devices provisioned for a tenant. Paired (signed-in) devices will be offboarded if not connected for 30 days, and unpaired (signed-out) devices after 14 days. An offboarded device may be re-onboarded after a factory reset.
 
 ## Requirements to use SIP Gateway
 
@@ -79,23 +80,27 @@ If you have a 3PIP or SIP device, you must have:
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
 |          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
-|          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX201     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX250     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX150*    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX201*    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX250*    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX300     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX301     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX301*    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX310     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX311     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX350     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX311*    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX350*    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX400     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX401     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX401*    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX410     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX411     |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX450     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX411*    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX450*    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX500     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX501     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX501*    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX600     |5.9.5       |5.9.6.2327 |   |   |
-|          |VVX601     |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX601*    |5.9.5       |6.3.1.8427 |   |   |
+|          |Rove B2    |8.0.3.0009  |8.0.3.0009 |   |   |
+|          |Rove B4    |8.0.3.0009  |8.0.3.0009 |   |   |
+|          |Rove 30    |8.0.3.0009  |8.0.3.0009 |   |   |
+|          |Rove 40    |8.0.3.0009  |8.0.3.0009 |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
 |          |T40P       |83          |54.84.0.125|   |   |
 |          |T41S       |83          |66.85.0.5  |   |   |
@@ -103,13 +108,13 @@ If you have a 3PIP or SIP device, you must have:
 |          |T41S       |83          |66.85.0.5  |   |   |
 |          |T42G       |83          |29.83.0.130|   |   |
 |          |T42S       |83          |66.85.0.5  |   |   |
-|          |T42U       |83          |108.86.0.20|   |   |
-|          |T43U       |83          |108.86.0.20|   |   |
+|          |T42U*      |83          |108.86.0.20|   |   |
+|          |T43U*      |83          |108.86.0.20|   |   |
 |          |T46S       |83          |66.85.0.5  |   |   |
-|          |T46U       |83          |108.86.0.20|   |   |
+|          |T46U*      |83          |108.86.0.20|   |   |
 |          |T48S       |83          |66.85.0.5  |   |   |
 |          |T48G       |83          |35.83.0.130|   |   |
-|          |T48U       |83          |108.86.0.20|   |   |
+|          |T48U*      |83          |108.86.0.20|   |   |
 |          |T53        |83          |96.85.0.5  |   |   |
 |          |T53W       |83          |96.85.0.5  |   |   |
 |          |T54W       |83          |96.85.0.5  |   |   |
@@ -126,15 +131,15 @@ If you have a 3PIP or SIP device, you must have:
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
 |**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
-|          |405         |2.2.8      |2.2.16.570 |   |   |
-|          |405HD       |3.2.1      |2.2.16.570 |   |   |
-|          |420HD       |3.2.1      |2.2.16.570 |   |   |
-|          |430HD       |3.2.1      |2.2.16.570 |   |   |
-|          |440HD       |3.2.1      |2.2.16.570 |   |   |
-|          |450HD       |3.2.1      |3.4.6.687  |   |   |
-|          |C450HD      |3.2.1      |3.4.6.687  |   |   |
-|          |445HD       |3.2.1      |3.4.6.687  |   |   |
-|          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|          |405*        |2.2.8      |2.2.16.570 |   |   |
+|          |405HD*      |3.2.1      |2.2.16.570 |   |   |
+|          |420HD*      |3.2.1      |2.2.16.570 |   |   |
+|          |430HD*      |3.2.1      |2.2.16.570 |   |   |
+|          |440HD*      |3.2.1      |2.2.16.570 |   |   |
+|          |450HD*      |3.2.1      |3.4.6.687  |   |   |
+|          |C450HD*     |3.2.1      |3.4.6.687  |   |   |
+|          |445HD*      |3.2.1      |3.4.6.687  |   |   |
+|          |RX50*       |3.2.1      |3.4.6.687  |   |   |
 |**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
 |          |7202        |PCS22B     |PCS22B     |Handset |   |
 |          |7212        |PCS22B     |PCS22B     |Handset |   |
@@ -150,6 +155,12 @@ If you have a 3PIP or SIP device, you must have:
 |          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |Virtual IP-DECT Server One |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Base Station |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+
+> [!NOTE]
+> \* Device supports dynamic emergency calling (E911) with SIP Gateway.
+
+> [!NOTE]
+> Customers can use AudioCodes OVOC and Poly Lens to manage device side configuration of their AudioCodes 400 series and Poly VVX/Trio devices respectively.
 
 > [!NOTE]
 > Spectralink Handsets receive firmware updates over the air from Spectralink IP-DECT servers.
