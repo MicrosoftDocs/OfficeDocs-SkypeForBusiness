@@ -28,7 +28,7 @@ As an admin, you can set Adobe Acrobat as the default app to view and edit PDF
 To configure Adobe Acrobat app as the default handler for PDF files in your tenant, complete the following steps as prerequisites:
 
 * [Allow Adobe Acrobat app](#allow-adobe-acrobat-app-in-your-tenant).
-* [Install Adobe Acrobat app](#install-adobe-acrobat-app-for-all-users)
+* [Install Adobe Acrobat app](#install-adobe-acrobat-app-for-all-users).
 
 ## Allow Adobe Acrobat app in your tenant
 
