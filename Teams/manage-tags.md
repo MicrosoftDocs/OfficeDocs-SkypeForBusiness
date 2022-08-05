@@ -43,7 +43,7 @@ When a tag is @mentioned in a channel conversation, team members associated with
 
 ## Manage custom tags for your organization
 
-As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center; (you can’t use PowerShell to manage tags).
+As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center. Note that you can’t use PowerShell to manage tags.
 
 :::image type="content" source="media/manage-tags-admin-settings.png" alt-text="Screenshot of tagging settings in the Microsoft Teams admin center.":::
 
