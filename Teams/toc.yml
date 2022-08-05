@@ -1567,7 +1567,7 @@ items:
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
 
-    - name: Manage custom line-of-business apps
+    - name: Manage custom apps
       items:
         - name: Manage Power Platform apps in Teams admin center
           href: manage-power-platform-apps.md
