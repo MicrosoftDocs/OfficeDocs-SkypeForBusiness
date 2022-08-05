@@ -37,7 +37,7 @@ The different types of apps that your end-users can use in Teams are:
 
 ## Core apps
 
-Some Teams functionality such as activity feed, channels, chat, calendar, and calls are available by default and pinned by default for ease of access for end-users. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
+Some Teams functionalities such as activity feed, teams, chat, calendar, calls, files, and assignments (education tenants) are available by default and pinned by default for ease of access for end-users. For frontline workers, only activity, shifts, chat, and calling are available and pinned. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
