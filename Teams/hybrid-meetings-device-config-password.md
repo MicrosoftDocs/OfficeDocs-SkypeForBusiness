@@ -1,5 +1,5 @@
 ---
-title: "Step 4 - Turn off password expiration"
+title: "Step 5 - Turn off password expiration"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,6 +19,6 @@ ms.custom:
 keywords: 
 ---
 
-# Step 4 - Turn off password expiration
+# Step 5 - Turn off password expiration
 
 [!INCLUDE [mtr-device-config-password-include](includes/mtr-device-config-password-include.md)]

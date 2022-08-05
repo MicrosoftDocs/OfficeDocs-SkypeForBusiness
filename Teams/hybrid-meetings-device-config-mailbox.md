@@ -1,5 +1,5 @@
 ---
-title: "Step 3 - Configure mailbox properties"
+title: "Step 4 - Configure mailbox properties"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,6 +19,6 @@ ms.custom:
 keywords: 
 ---
 
-# Step 3 - Configure mailbox properties
+# Step 4 - Configure mailbox properties
 
 [!INCLUDE [mtr-device-config-mailbox-include](includes/mtr-device-config-mailbox-include.md)]

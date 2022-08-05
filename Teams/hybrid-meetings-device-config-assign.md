@@ -1,5 +1,5 @@
 ---
-title: "Step 5 - Assign a meeting room license"
+title: "Step 3 - Assign a meeting room license"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,6 +19,6 @@ ms.custom:
 keywords: 
 ---
 
-# Step 5 - Assign a meeting room license
+# Step 3 - Assign a meeting room license
 
 [!INCLUDE [mtr-device-config-assign-include](includes/mtr-device-config-assign-include.md)]

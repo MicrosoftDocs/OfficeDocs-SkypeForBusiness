@@ -1,5 +1,5 @@
 ---
-title: "Step 1 - Purchase a Teams Rooms license"
+title: "Step 1 - Purchase a license for the Teams Rooms console"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -19,6 +19,6 @@ ms.custom:
 keywords: 
 ---
 
-# Step 1 - Purchase a Teams Rooms license
+# Step 1 - Purchase a license for the Teams Rooms console
 
 [!INCLUDE [mtr-device-config-license-include](includes/mtr-device-config-license-include.md)]
