@@ -69,7 +69,9 @@ In a spreadsheet app, add rows for the following in the first column:
 | **Whiteboard default** | Determines whether the Teams Rooms device will display a whiteboard shared by one of the meeting participants. We recommend that you set this to `false` if you have a Surface Hub and `true` if you don't have one. This setting has no effect on Surface Hubs. Surface Hubs will always display a whiteboard shared by meeting participants.         |
 | **Whiteboard enabled** | Determines whether participants in a meeting can toggle the whiteboard on or off. If you don't want participants to turn the whiteboard on or off on a device, set this to `false`. <p>If **Whiteboard default** is set to `true`, this setting is ignored and participants can turn the whiteboard on or off.
 | **Trusted accounts**   | This is a comma-separated list of UPNs for each Teams Room device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent. |
-
+| **Resources Account consideration**   | Determine how the secondary device's resource account settings should be set up to avoid it to be booked separately from the main Room System. |
+  
+  
 In subsequent columns, add each of your Teams Rooms devices and Surface Hubs. In each column, fill out the values that correspond to the experience you want for the meeting room. Here's an example with one Teams Rooms device and one Surface Hub:
 
 - Teams device
