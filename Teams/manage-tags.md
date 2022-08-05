@@ -33,7 +33,7 @@ As mentioned earlier, there are two kinds of tags in Teams.
 
 ## How tags work
 
-A tag can be manually added or automatically assigned to a person on a specific team. It can then be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team. Here’s some examples of how tags can be used in Teams:
+A tag can be manually added or automatically assigned to a person on a specific team. It can then be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team. Here are some examples of how tags can be used in Teams:
 
 - A store manager posts an announcement to a channel to notify all cashiers.
 - A hospital administrator sends a message to all radiologists in a channel.
