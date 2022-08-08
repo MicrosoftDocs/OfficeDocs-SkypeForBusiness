@@ -237,7 +237,7 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 ![Diagram showing Teams on VDI architecture.](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
-> If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set virtualization provider policies to turn off Teams redirection. This means that Teams media sessions won't be optimized. For steps on how to set policies to turn off Teams redirection, contact your virtualization provider.
+> If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization, you have to set virtualization provider policies to turn off Teams redirection. This means that Teams media sessions won't be optimized. For steps on how to set policies to turn off Teams redirection, contact your virtualization provider.
 
 ### Network requirements
 
