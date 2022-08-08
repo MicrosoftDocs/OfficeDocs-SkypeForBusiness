@@ -1,22 +1,20 @@
 ---
 title: Customize Microsoft Teams Phone System with Calling Plan in Microsoft Teams
-author: dstrome 
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: Learn how to customize Teams Phone System with Calling Plan to meet the specific needs of your organization.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 # Customize Teams Phone System with Calling Plan

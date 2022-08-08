@@ -6,6 +6,7 @@ ms.reviewer:
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
@@ -18,6 +19,7 @@ ms.custom:
   - ms.teamsadmincenter.teamschannel.overview
   - ms.teamsadmincenter.teamssettings.overview
   - okr_smb
+  - intro-overview
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -91,6 +93,9 @@ The following table shows a comparison of Teams features for each channel type.
 |Channel can be shared directly with its parent team.|N/A|No|Yes|
 |Guests can participate in the channel.|Yes|Yes|No|
 |External participants (B2B Direct Connect) can participate in the channel.|No|No|Yes|
+|Moderation|Yes|No|No|
+|Breakout rooms|Yes|No|No|
+|Copy link to channel|Yes|No|No|
 |Each channel has a dedicated SharePoint site.|No|Yes|Yes|
 |Scheduled meetings|Yes|No|Yes|
 |Planner|Yes|No|No|

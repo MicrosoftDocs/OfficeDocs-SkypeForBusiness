@@ -1,7 +1,7 @@
 ---
 title: Set up for live events in Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -65,7 +65,7 @@ Live events policies are used to control who in your organization can hold live 
 |**Who can join scheduled live events**    |Choose one of the following.<br><br>**Everyone** Users can create live events that everyone, including people outside your organization, can attend. This setting enables the **Public** permission type in Teams when a user schedules a live event.<br> **Everyone in the organization** Users can create live events that people in your organization, including [guest users](../add-guests.md) added to your organization, can attend. Users can't create live events that are attended by anonymous users. This setting enables the **Org-wide** permission type in Teams when a user schedules a live event.<br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. Users can't create live events that are attended by everyone in your organization or by anonymous users. This setting enables the **People and groups** permission type in Teams when a user schedules a live event.       |
 |**Recording setting**  <br>     | This setting can only be applied to events produced in Teams. Choose one of the following. <br><br> **Always record** Live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** Live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it's recorded, after the event is over, event team members can download the recording and attendees can watch the event.
 
-You can also do this by using Windows PowerShell. For more information, see [Use PowerShell to set live events policies in Teams](set-teams-live-events-policies-using-powershell.md).
+You can also do this by using Windows PowerShell, and, currently, GCC High and DoD customers must use this method. For more information, see [Use PowerShell to set live events policies in Teams](set-teams-live-events-policies-using-powershell.md).
 
 ### Assign a live events policy to users
 
@@ -95,7 +95,7 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 
 - **Hive Streaming** provides a simple and powerful solution for live and on-demand enterprise video distribution. Hive is a software-based solution that requires no additional hardware or bandwidth and provides a secure way to enable thousands of simultaneous video viewers without impact to your network. For customers looking to understand the impact video is having on their network prior to purchasing an SDN/eCDN solution, Hive Streaming also provides a browser-based analytics solution for Microsoft customers. [Learn more](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
-- **Kollective** is a cloud-based, smart peering distribution platform that leverages your existing network infrastructure to deliver content, in many forms, (live streaming video, on-demand video, software updates, security patches, etc.) faster, more reliably and with less bandwidth. Our secure platform is trusted by the world's largest financial institutions and with no additional hardware, setup and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
+- **Kollective** is a cloud-based, smart-peering distribution platform that leverages your existing network infrastructure to deliver content in many forms (live streaming video, on-demand video, software updates, security patches, and more) faster, more reliably, and with less bandwidth. Our secure platform is trusted by the world's largest financial institutions and with no additional hardware, setup and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
 
 - **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for live events produced in Teams is coming soon. [Learn more](https://rampecdn.com).
 

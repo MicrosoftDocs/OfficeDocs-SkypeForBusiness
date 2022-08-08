@@ -1,7 +1,7 @@
 ---
 title: Onboarding checklist - Configure core capabilities - Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -11,11 +11,13 @@ audience: admin
 description: Follow the core, to-do tasks and activities in this checklist when you configure Teams for your organization.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Configure Microsoft Teams core capabilities

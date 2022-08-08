@@ -1,7 +1,7 @@
 ---
 title: "Stream classification in Call Quality Dashboard (CQD)"
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -32,7 +32,7 @@ Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the 
 
 ### Audio Classifier
 
-If one or more of the following conditions are met, an audio stream is marked as _Poor_:
+If one or more of the following conditions are met and Packet Utilization is > 500 packets, an audio stream is marked as _Poor_:
 
 |Metric|Scenario|Condition|Explanation|
 |:-----|:-----|:-----|:-----|

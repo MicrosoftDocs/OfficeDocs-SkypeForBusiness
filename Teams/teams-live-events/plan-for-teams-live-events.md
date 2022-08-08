@@ -1,7 +1,7 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -101,7 +101,7 @@ The following table highlights core capabilities and features offered in live ev
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2022, including**:
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through December 31, 2022, including**:
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
@@ -173,18 +173,9 @@ You can use Teams live events in multiple regions across the world. The followin
 - UAE
 - United Kingdom
 
-**These countries/regions and clouds aren't supported**
-
-- Government Community Cloud (GCC)-H
-- Department of Defense (DOD)
-
 **Exclusions and considerations**
 
 - **Data location:** Teams data locations, outside of the ones listed above, aren't currently supported.
-
->[!Note]
-> Live events relies on Azure CDN services, which may be unavailable in some countries. As an administrator, you might need to set up a VPN in compliance with all applicable laws and regulations to connect to your corporate network for these apps to work seamlessly. Once that's complete, people in your organization can schedule and attend live events.
-
 
 ## Next steps
 

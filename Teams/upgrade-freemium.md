@@ -1,7 +1,7 @@
 ---
 title: Upgrade Microsoft Teams Free (classic) to subscription
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -50,7 +50,7 @@ The full version of Teams included with a Microsoft 365 or Office 365 subscripti
 - 1 TB of storage per user
 - Scheduled meetings
 - Audio conferencing
-- Enhanced security and compliance features, including multi-factor authentication, single sign-on, and advanced auditing and reporting
+- Enhanced security and compliance features, including multi-factor authentication, single sign-on, and Audit (Premium)ing and reporting
 - Administrative controls and support features, including 24 x 7 phone and web support, admin tools for managing users and apps, usage reporting for Microsoft 365 or Office 365 services, service-level agreement, and configurable user settings and policies
 
 For a detailed comparison of Teams Free (classic) and Teams features, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).

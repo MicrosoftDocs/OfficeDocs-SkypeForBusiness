@@ -1,16 +1,16 @@
 ---
 title: Microsoft Teams Rooms Premium-managed service
-author: v-smandalika
-ms.author: v-smandalika
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer:  
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

@@ -1,5 +1,5 @@
 ---
-title: Manage external access (federation)
+title: Manage external meetings and chat
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,15 +17,15 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
-description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains find, call, chat, and set up meetings with your users. 
+description: Your Teams or IT admin can configure external meetings and chat for other domains to let users from those domains find, call, chat, and set up meetings with your users. 
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# Manage external access in Microsoft Teams
+# Manage external meetings and chat in Microsoft Teams
 
-External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype.
+You can configure external meetings and chat in Teams using the *external access* feature. External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype.
 
 If you want people from other organizations to have access to your teams and channels, use guest access instead. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -37,9 +37,9 @@ Use external access when:
 
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. 
 
-## Plan for external access
+## Plan for external meetings and chat
 
-External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
+External access policies include controls for both the organization and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
 The Teams admin center controls external access at the organization level. Most options (except domain restrictions) are available at the user level by using PowerShell. See [Using PowerShell](#using-powershell) below for more information.
 
@@ -105,21 +105,24 @@ To communicate with another tenant, they must either enable **Allow all external
 > [!NOTE]
 > The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
-Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
+Admins can choose to enable or disable communications with external Teams users that are not managed by an organization ("unmanaged"). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
 In the Teams admin center, go to **Users** > **External access**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
 To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
+
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
 To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact:
+
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
-To let Teams users In your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
+To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
+
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
@@ -129,7 +132,7 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 ![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
 
-**Using the Microsoft Teams admin center**
+### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Users** > **External access**.
 
@@ -137,7 +140,7 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 
-## Using PowerShell
+### Using PowerShell
 
 Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
@@ -214,7 +217,7 @@ To enable users in your organization to communicate with users in another organi
 
 | If your organization is | Enable federation as follows |
 |:---------|:-----------------------|
-|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the domains that you want to communicate with are allowed for external access.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user's effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
+|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>- Make sure the domains that you want to communicate with are allowed for external access.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user's effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
 |On-premises only| In on-premises tools: <br>- Ensure federation is enabled in `CsAccessEdgeConfiguration`.<br>- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in `AllowedDomains`.|
 |Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both online and on-premises organizations. |
 

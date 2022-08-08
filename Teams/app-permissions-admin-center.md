@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to view permissions requested by apps and grant admin consent to apps on the Manage apps page of the Microsoft Teams admin center. 
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams
@@ -27,30 +27,30 @@ If you're a global admin, you can review and grant consent to apps that request 
 
 Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
 
-The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps. You won't see this link or need to grant admin consent for apps published by Microsoft.
-
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot of Permissions column on Manage apps page.":::
+The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps. The link is not available for apps provided by Microsoft. Also, admins do not have to grant consent for such apps.
 
 To grant org-wide consent to an app, follow these steps:
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Do one of the following:
-    - Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
-    - Sort the **Permissions** column in descending order to find the app, and then select **View details**. Doing this takes you to the **Permissions** tab of the app details page.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-3. Under **Org-wide permissions**, select **Review permissions and consent**.
+1. Do one of the following:
+    * Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
+    * Sort the **Permissions** column in descending order to find the app, and then select **View details**. Doing this takes you to the **Permissions** tab of the app details page.
+
+1. Under **Org-wide permissions**, select **Review permissions and consent**.
 
     :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app.":::
 
     You must be a global admin to do this. This option isn't available to Teams service admins.
 
-4. On the **Permissions** tab, review the permissions requested by the app.
+1. On the **Permissions** tab, review the permissions requested by the app.
 
     :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app.":::
 
     > [!IMPORTANT]
     > Granting org-wide consent to an app allows the app to access your organization's data. Carefully review the permissions requested by the app before you grant consent.
-5. If you agree with the permissions requested by the app, click **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
+
+1. If you agree with the permissions requested by the app, click **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
 
 After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, click the **Azure Active Directory** link to go to the app's page in the Azure AD portal.
 
@@ -72,8 +72,8 @@ Global admins and Teams service admin can view RSC permissions for an app on the
 To view RSC permissions for an app, follow these steps:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
-3. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
+1. Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
+1. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
     :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Screenshot of RSC permissions for an app.":::
 
@@ -85,8 +85,8 @@ Currently, the ability to review permissions and grant consent isn't available f
 
 ## Related topics
 
-- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-- [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent)
-- [Resource-specific consent in Teams](resource-specific-consent.md)
-- [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
-- [Navigating the Teams app lifecycle](https://aka.ms/PR132) (Ignite 2020 session)
+* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+* [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent)
+* [Resource-specific consent in Teams](resource-specific-consent.md)
+* [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [Navigate the Teams app lifecycle](https://aka.ms/PR132) (Ignite 2020 session)

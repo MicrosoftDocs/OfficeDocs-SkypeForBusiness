@@ -9,15 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+  - m365initiative-securecollab
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage private channels in Microsoft Teams. 
+description: Learn how to use and manage private channels in Microsoft Teams.
 ---
 
 # Private channels in Microsoft Teams
@@ -34,6 +34,8 @@ For example, a private channel is useful in these scenarios:
 A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
+
+[Compare private channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ![Screenshot of private channels in a team.](media/private-channels-in-teams.png)
 

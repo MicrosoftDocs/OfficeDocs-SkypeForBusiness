@@ -2,264 +2,214 @@
 
 
 
-## Week of March 21, 2022
+## Week of August 01, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/21/2022 | [Shared channels in Microsoft Teams (Preview)](/MicrosoftTeams/shared-channels) | added |
-| 3/21/2022 | [Assign team owners and members in Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | modified |
-| 3/21/2022 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
-| 3/21/2022 | [Best practices for organizing teams](/MicrosoftTeams/best-practices-organizing) | modified |
-| 3/21/2022 | [Chat, teams, channels, & apps in Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modified |
-| 3/21/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 3/21/2022 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
-| 3/21/2022 | [Teams for Education Policy Wizard to easily apply policies for safe learning](/MicrosoftTeams/easy-policy-setup-edu) | modified |
-| 3/21/2022 | [Virtual Visits with Teams - Integration into Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | modified |
-| 3/21/2022 | [Get started with team templates in the Teams admin center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
-| 3/21/2022 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
-| 3/21/2022 | [Place a Microsoft Teams user or team on legal hold](/MicrosoftTeams/legal-hold) | modified |
-| 3/21/2022 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 3/21/2022 | [Set up and manage channel moderation](/MicrosoftTeams/manage-channel-moderation-in-teams) | modified |
-| 3/21/2022 | [Manage tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | modified |
-| 3/21/2022 | [Manage messaging policies in Teams](/MicrosoftTeams/messaging-policies-in-teams) | modified |
-| 3/21/2022 | [Migrate from Slack to Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modified |
-| 3/21/2022 | [Teams apps behavior based on types of users](/MicrosoftTeams/non-standard-users) | modified |
-| 3/21/2022 | [Plan for governance in Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modified |
-| 3/21/2022 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
-| 3/21/2022 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
-| 3/21/2022 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
-| 3/21/2022 | [Manage channel policies in Microsoft Teams](/MicrosoftTeams/teams-policies) | modified |
-| 3/21/2022 | [Teams integration with Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | modified |
-| 3/21/2022 | [Information barriers and shared channels (preview)](/MicrosoftTeams/information-barriers-shared-channels) | added |
-| 3/21/2022 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
-| 3/21/2022 | [Using CQD Power BI report to view Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modified |
-| 3/21/2022 | [Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
-| 3/21/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 3/21/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 3/21/2022 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
-| 3/21/2022 | [Manage retention policies for Microsoft Teams](/MicrosoftTeams/retention-policies) | modified |
-| 3/21/2022 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 3/21/2022 | [Meeting room guidance for Teams](/MicrosoftTeams/teams-meeting-room-guidance) | modified |
-| 3/22/2022 | [Microsoft Teams Rooms Standards and Room planning](/MicrosoftTeams/rooms/standards-and-room-planner) | modified |
-| 3/22/2022 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
-| 3/22/2022 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
-| 3/22/2022 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-| 3/22/2022 | [Manage tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | modified |
-| 3/23/2022 | [Assign policies to users and groups](/MicrosoftTeams/assign-policies-users-and-groups) | modified |
-| 3/23/2022 | [Microsoft Teams admin documentation # < 60 chars](/MicrosoftTeams/index) | modified |
-| 3/23/2022 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
-| 3/23/2022 | [Monitor Microsoft Teams Rooms devices with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-manage) | modified |
-| 3/23/2022 | [Teams PowerShell Module - Supported Versions](/MicrosoftTeams/teams-powershell-supported-versions) | modified |
-| 3/23/2022 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
-| 3/23/2022 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 3/23/2022 | [Enable users for Direct Routing](/MicrosoftTeams/direct-routing-enable-users) | modified |
-| 3/23/2022 | [Phone System Direct Routing](/MicrosoftTeams/direct-routing-protocols-sip) | modified |
-| 3/23/2022 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
-| 3/23/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 3/23/2022 | [Tailor Teams apps for your frontline workers](/MicrosoftTeams/pin-teams-apps-based-on-license) | modified |
-| 3/23/2022 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
-| 3/23/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 3/24/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 3/24/2022 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
-| 3/24/2022 | [Teams PowerShell Module - Supported Versions](/MicrosoftTeams/teams-powershell-supported-versions) | modified |
-| 3/24/2022 | [Assisted upgrades \| Skype Business Online to Teams Upgrade](/MicrosoftTeams/upgrade-assisted) | modified |
-| 3/24/2022 | [Apps, bots, & connectors in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
-| 3/24/2022 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
-| 3/24/2022 | [Teams for Retail](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | modified |
-| 3/24/2022 | [Manage meeting policies for content sharing](/MicrosoftTeams/meeting-policies-content-sharing) | modified |
-| 3/24/2022 | Teams integration with Microsoft Power Platform | removed |
-| 3/25/2022 | [Assign, change, or remove a phone number for a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modified |
-| 3/25/2022 | [Customize apps in Microsoft Teams](/MicrosoftTeams/customize-apps) | modified |
-| 3/25/2022 | [Teams device store](/MicrosoftTeams/devices/device-store) | modified |
-| 3/25/2022 | [Manage teams in the Microsoft Teams admin center](/MicrosoftTeams/manage-teams-in-modern-portal) | modified |
-| 3/25/2022 | [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network) | modified |
-| 3/25/2022 | [Set up the Common Area Phone license](/MicrosoftTeams/set-up-common-area-phones) | modified |
-| 3/25/2022 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
-| 3/25/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
-| 3/25/2022 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
-| 3/25/2022 | [Assisted upgrades \| Skype Business Online to Teams Upgrade](/MicrosoftTeams/upgrade-assisted) | modified |
-| 3/25/2022 | [Use Microsoft Teams administrator roles to manage Teams](/MicrosoftTeams/using-admin-roles) | modified |
+| 8/1/2022 | [Adobe Acrobat as a default PDF viewer in Teams](/MicrosoftTeams/adobe-acrobat-pdf-viewer-teams) | modified |
+| 8/1/2022 | [Assign policies to users and groups](/MicrosoftTeams/assign-policies-users-and-groups) | modified |
+| 8/1/2022 | [Calling Plans in Microsoft Teams](/MicrosoftTeams/calling-plan-landing-page) | modified |
+| 8/1/2022 | [Calling Plans for Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modified |
+| 8/1/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 8/1/2022 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
+| 8/1/2022 | [Set up Calling Plans](/MicrosoftTeams/set-up-calling-plans) | modified |
+| 8/1/2022 | [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modified |
+| 8/1/2022 | [Microsoft Teams app usage report](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | modified |
+| 8/1/2022 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
+| 8/1/2022 | [Understand Insights for Reading Progress recommendations](/MicrosoftTeams/insights-for-reading-progress) | added |
+| 8/1/2022 | [What's new - Operator Connect](/MicrosoftTeams/operator-connect-whats-new) | added |
+| 8/2/2022 | [Release notes for Microsoft Teams Rooms (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 8/3/2022 | [Add, change, remove emergency locations](/MicrosoftTeams/add-change-remove-emergency-location-organization) | modified |
+| 8/3/2022 | [Add, change, remove places for emergency locations](/MicrosoftTeams/add-change-remove-emergency-place-organization) | modified |
+| 8/3/2022 | [Microsoft Teams apps/Line of Business (LOB) app support on Teams panels](/MicrosoftTeams/app-support-on-teams-panels) | modified |
+| 8/3/2022 | [On-network Conferencing for Audio Conferencing](/MicrosoftTeams/audio-conferencing-on-network) | modified |
+| 8/3/2022 | [Call Quality Dashboard](/MicrosoftTeams/business-voice/analytics-dashboard) | modified |
+| 8/3/2022 | [What's the difference between Business Voice and Enterprise Voice?](/MicrosoftTeams/business-voice/business-enterprise-comparison) | modified |
+| 8/3/2022 | [Create Microsoft 365 users, add Teams Phone with Calling Plan bundle licenses, and assign phone numbers](/MicrosoftTeams/business-voice/create-users) | modified |
+| 8/3/2022 | [Customize Microsoft Teams Phone System with Calling Plan in Microsoft Teams](/MicrosoftTeams/business-voice/customize-business-voice) | modified |
+| 8/3/2022 | [Check your Internet connection for Teams Phone System](/MicrosoftTeams/business-voice/get-ready-internet) | modified |
+| 8/3/2022 | [Manage devices](/MicrosoftTeams/business-voice/manage-devices) | modified |
+| 8/3/2022 | [Monitor call quality](/MicrosoftTeams/business-voice/monitor-quality) | modified |
+| 8/3/2022 | [Manage policy packages](/MicrosoftTeams/business-voice/policy-packages) | modified |
+| 8/3/2022 | [Port phone numbers to Teams Phone System with Calling Plan](/MicrosoftTeams/business-voice/port-phone-numbers) | modified |
+| 8/3/2022 | [Get help from a Microsoft reseller or partner](/MicrosoftTeams/business-voice/reseller-partner-support) | modified |
+| 8/3/2022 | [Assign Teams Phone System phone numbers to your users](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modified |
+| 8/3/2022 | [Set up Microsoft Teams Phone System with Calling Plan emergency locations](/MicrosoftTeams/business-voice/set-up-emergency-locations) | modified |
+| 8/3/2022 | [Finished Teams Phone System with Calling Plan setup](/MicrosoftTeams/business-voice/set-up-finish) | modified |
+| 8/3/2022 | [Assign Microsoft Teams Phone with Calling Plan bundle licenses](/MicrosoftTeams/business-voice/set-up-licenses) | modified |
+| 8/3/2022 | [Set up Microsoft Teams Phone System with Calling Plan for small to medium businesses](/MicrosoftTeams/business-voice/set-up-overview) | modified |
+| 8/3/2022 | [Set up Microsoft Teams Phone System with Calling Plan phone numbers](/MicrosoftTeams/business-voice/set-up-phone-numbers) | modified |
+| 8/3/2022 | [Set up policies](/MicrosoftTeams/business-voice/set-up-policies) | modified |
+| 8/3/2022 | [Set up a Microsoft Teams Phone System resource account](/MicrosoftTeams/business-voice/set-up-resource-account) | modified |
+| 8/3/2022 | [Things to try after setting up Business Voice](/MicrosoftTeams/business-voice/things-to-try) | modified |
+| 8/3/2022 | [Admin permissions needed to buy Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | modified |
+| 8/3/2022 | [Teams Phone System guidance for small and medium businesses](/MicrosoftTeams/business-voice/whats-business-voice) | modified |
+| 8/3/2022 | [Create an auto attendant via cmdlets](/MicrosoftTeams/create-a-phone-system-auto-attendant-via-cmdlets) | modified |
+| 8/3/2022 | [Teams devices for Education](/MicrosoftTeams/devices-for-education) | modified |
+| 8/3/2022 | [Authentication best practices for Microsoft Teams shared device management of Android devices.](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | modified |
+| 8/3/2022 | [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login) | modified |
+| 8/3/2022 | [Remote sign in and sign out for Teams Android devices](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | modified |
+| 8/3/2022 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 8/3/2022 | [Manage call notifications for Direct Routing](/MicrosoftTeams/direct-routing-call-notifications) | modified |
+| 8/3/2022 | [Direct Routing](/MicrosoftTeams/direct-routing-landing-page) | modified |
+| 8/3/2022 | [Phone system direct routing overview](/MicrosoftTeams/direct-routing-protocols-media) | modified |
+| 8/3/2022 | [Phone System Direct Routing](/MicrosoftTeams/direct-routing-protocols-sip) | modified |
+| 8/3/2022 | [Teams phone system direct routing: Definitions and RFC standards](/MicrosoftTeams/direct-routing-protocols) | modified |
+| 8/3/2022 | [Direct Routing SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | modified |
+| 8/3/2022 | [What's New Direct Routing](/MicrosoftTeams/direct-routing-whats-new) | modified |
+| 8/3/2022 | [Drive adoption from Kaizala to Microsoft Teams for frontline workers](/MicrosoftTeams/drive-adoption-optimize-kaizala) | modified |
+| 8/3/2022 | [Emergency addresses for remote locations](/MicrosoftTeams/emergency-calling-dispatchable-location) | modified |
+| 8/3/2022 | [Use healthcare team templates](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modified |
+| 8/3/2022 | [Kaizala and Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | modified |
+| 8/3/2022 | [Migrate from Slack to Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modified |
+| 8/3/2022 | [Navigate through Microsoft Teams](/MicrosoftTeams/navigate-teams) | modified |
+| 8/3/2022 | [What's a port order?](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | modified |
+| 8/3/2022 | [What's the status of your port orders?](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | modified |
+| 8/3/2022 | [Supported rate centers and coverage for Calling Plans](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | modified |
+| 8/3/2022 | [Plan for a successful move from Kaizala to Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala) | modified |
+| 8/3/2022 | [Microsoft Teams policies and policy packages for EDU admins](/MicrosoftTeams/policy-packages-edu) | modified |
+| 8/3/2022 | [Charting your Kaizala to Teams journey](/MicrosoftTeams/prepare-for-teams-kaizala) | modified |
+| 8/3/2022 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
+| 8/3/2022 | [Mask phone numbers in Microsoft Teams meetings](/MicrosoftTeams/ptsn-mask-phone-numbers) | modified |
+| 8/3/2022 | [Raise hand in Teams meetings](/MicrosoftTeams/raise-hand-meetings) | modified |
+| 8/3/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | modified |
+| 8/3/2022 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
+| 8/3/2022 | [Authentication in Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-authentication) | modified |
+| 8/3/2022 | [Plan for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-plan) | modified |
+| 8/3/2022 | [Teams devices for Shared Spaces feature comparison between Windows and Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
+| 8/3/2022 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
+| 8/3/2022 | [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings) | modified |
+| 8/3/2022 | [Use supervised chats](/MicrosoftTeams/supervise-chats-edu) | modified |
+| 8/3/2022 | [Use supervised chats for non-educational tenants](/MicrosoftTeams/supervised-chat-non-edu) | modified |
+| 8/3/2022 | [Microsoft Teams PSTN blocked users report](/MicrosoftTeams/teams-analytics-and-reports/pstn-blocked-users-report) | modified |
+| 8/3/2022 | [Microsoft Teams PSTN minute pools report](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | modified |
+| 8/3/2022 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
+| 8/3/2022 | [View analytics in Teams](/MicrosoftTeams/teams-analytics-and-reports/view-analytics) | modified |
+| 8/3/2022 | [Meeting room guidance for Teams](/MicrosoftTeams/teams-meeting-room-guidance) | modified |
+| 8/3/2022 | [Microsoft Teams meetings on unsupported browsers](/MicrosoftTeams/unsupported-browsers) | modified |
+| 8/3/2022 | [Use Advisor for Teams to help you roll out Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modified |
+| 8/3/2022 | [Configure call settings for users](/MicrosoftTeams/user-call-settings) | modified |
+| 8/3/2022 | [Overview of Loop components in Teams](/MicrosoftTeams/loop-components-in-teams) | modified |
+| 8/4/2022 | [Assign policy packages to users and groups](/MicrosoftTeams/assign-policy-packages) | modified |
+| 8/4/2022 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 8/4/2022 | [IT Admin Guide to Reflect in Microsoft Teams](/MicrosoftTeams/reflect) | modified |
+| 8/4/2022 | [Use Power BI to analyze CQD data for Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modified |
+| 8/4/2022 | [Manage Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 8/4/2022 | [Mobile App extension](/MicrosoftTeams/rooms/extended-mobile-app) | modified |
+| 8/5/2022 | [Manage tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | modified |
+| 8/5/2022 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
 
 
-## Week of March 14, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/14/2022 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
-| 3/14/2022 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
-| 3/14/2022 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 3/14/2022 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
-| 3/15/2022 | [Set Microsoft Teams Android devices user interface](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modified |
-| 3/15/2022 | [Deploy Microsoft Teams Rooms on Android](/MicrosoftTeams/devices/collab-bar-deploy) | modified |
-| 3/15/2022 | [Manage your devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
-| 3/15/2022 | [Manage and filter Microsoft Teams device tags](/MicrosoftTeams/devices/manage-device-tags) | modified |
-| 3/15/2022 | [Phones for Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams) | modified |
-| 3/15/2022 | [Update Microsoft Teams devices remotely](/MicrosoftTeams/devices/remote-update) | modified |
-| 3/15/2022 | [Creating Microsoft Teams Resource Accounts for collaboration bars for Microsoft Teams using PowerShell](/MicrosoftTeams/devices/resource-account-ps) | modified |
-| 3/15/2022 | [Create a resource account using the Microsoft 365 admin center](/MicrosoftTeams/devices/resource-account-ui) | modified |
-| 3/15/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 3/15/2022 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 3/15/2022 | [Deploy Microsoft Teams Rooms monitoring with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-deploy) | modified |
-| 3/15/2022 | [Monitor Microsoft Teams Rooms devices with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-manage) | modified |
-| 3/15/2022 | [Plan Microsoft Teams Rooms monitoring with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-plan) | modified |
-| 3/15/2022 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
-| 3/15/2022 | [Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | modified |
-| 3/15/2022 | [Skype Room System domain joining considerations](/MicrosoftTeams/rooms/domain-joining-considerations) | modified |
-| 3/15/2022 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
-| 3/15/2022 | [Migrate Lync Room System devices to Microsoft Teams Rooms](/MicrosoftTeams/rooms/lrs-migration) | modified |
-| 3/15/2022 | [Manually update a Microsoft Teams Rooms device](/MicrosoftTeams/rooms/manual-update) | modified |
-| 3/15/2022 | [Use the Microsoft Teams Rooms recovery tool](/MicrosoftTeams/rooms/recovery-tool) | modified |
-| 3/15/2022 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 3/15/2022 | [Authentication in Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-authentication) | modified |
-| 3/15/2022 | [Configure accounts for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-configure-accounts) | modified |
-| 3/15/2022 | [Deploy Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-deploy) | modified |
-| 3/15/2022 | [Microsoft Teams Rooms licenses](/MicrosoftTeams/rooms/rooms-licensing) | modified |
-| 3/15/2022 | [Microsoft Teams Rooms app version support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
-| 3/15/2022 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
-| 3/15/2022 | [Plan for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-plan) | modified |
-| 3/15/2022 | [Prepare your Environment](/MicrosoftTeams/rooms/rooms-prep) | modified |
-| 3/15/2022 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
-| 3/15/2022 | [Manage Microsoft Teams configuration on Surface Hub](/MicrosoftTeams/rooms/surface-hub-manage-config) | modified |
-| 3/15/2022 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
-| 3/15/2022 | [Manage Windows Updates for Microsoft Teams Rooms](/MicrosoftTeams/rooms/updates) | modified |
-| 3/15/2022 | [Deploy Microsoft Teams Rooms with Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | modified |
-| 3/15/2022 | [Deploy Microsoft Teams Rooms with Office 365](/MicrosoftTeams/rooms/with-office-365) | modified |
-| 3/15/2022 | [Deploy Microsoft Teams Rooms with Skype for Business Server](/MicrosoftTeams/rooms/with-skype-for-business-server-2015) | modified |
-| 3/15/2022 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
-| 3/15/2022 | [Teams PowerShell Module - Supported Versions](/MicrosoftTeams/teams-powershell-supported-versions) | modified |
-| 3/15/2022 | Creating Microsoft Teams Resource Accounts for collaboration bars for Microsoft Teams using PowerShell | removed |
-| 3/15/2022 | Create a resource account using the Microsoft 365 admin center | removed |
-| 3/15/2022 | [Microsoft Teams displays](/MicrosoftTeams/devices/teams-displays) | modified |
-| 3/15/2022 | [Microsoft Teams panels](/MicrosoftTeams/devices/teams-panels) | modified |
-| 3/15/2022 | [Meeting policies and meeting expiration in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modified |
-| 3/15/2022 | [Music on Hold](/MicrosoftTeams/music-on-hold) | modified |
-| 3/15/2022 | [Conditional Access and compliance best practices for Microsoft Teams Rooms](/MicrosoftTeams/rooms/conditional-access-and-compliance-for-devices) | modified |
-| 3/15/2022 | [Microsoft Teams Rooms Premium-managed service](/MicrosoftTeams/rooms/obtaining-assigning-license) | modified |
-| 3/15/2022 | [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modified |
-| 3/15/2022 | Deploy Microsoft Teams Rooms with Exchange on-premises (Hybrid) | removed |
-| 3/15/2022 | Deploy Microsoft Teams Rooms with Exchange Online | removed |
-| 3/15/2022 | [Create resource accounts for rooms and shared Teams devices](/MicrosoftTeams/rooms/with-office-365) | modified |
-| 3/15/2022 | [Sign in to Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modified |
-| 3/15/2022 | [Sign out of Microsoft Teams](/MicrosoftTeams/sign-out-of-teams) | modified |
-| 3/15/2022 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
-| 3/16/2022 | [Configure dynamic emergency calling](/MicrosoftTeams/configure-dynamic-emergency-calling) | modified |
-| 3/16/2022 | [Create resource accounts for rooms and shared Teams devices](/MicrosoftTeams/rooms/with-office-365) | modified |
-| 3/16/2022 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 3/16/2022 | [What is Phone System](/MicrosoftTeams/what-is-phone-system-in-office-365) | modified |
-| 3/16/2022 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
-| 3/16/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | modified |
-| 3/17/2022 | [Guest experience in Microsoft Teams](/MicrosoftTeams/guest-experience) | modified |
-| 3/17/2022 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
-| 3/17/2022 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
-| 3/17/2022 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
-| 3/17/2022 | [Manage messaging policies in Teams](/MicrosoftTeams/messaging-policies-in-teams) | modified |
-| 3/17/2022 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
-| 3/17/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | modified |
-| 3/17/2022 | [Teams devices for Shared Spaces feature comparison between Windows and Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
-| 3/17/2022 | [Microsoft Teams IT architecture and voice solutions posters](/MicrosoftTeams/teams-architecture-solutions-posters) | modified |
-| 3/18/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 3/18/2022 | [Emergency addresses for remote locations](/MicrosoftTeams/emergency-calling-dispatchable-location) | modified |
-| 3/18/2022 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
-| 3/18/2022 | [Plan for lifecycle management](/MicrosoftTeams/plan-teams-lifecycle) | modified |
-| 3/18/2022 | Known issues | removed |
-| 3/18/2022 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
-
-
-## Week of March 07, 2022
+## Week of July 25, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/7/2022 | [Use Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
-| 3/7/2022 | [Admin settings for apps in Microsoft Teams](/MicrosoftTeams/admin-settings) | modified |
-| 3/7/2022 | [View app permissions and grant admin consent in the Microsoft Teams admin center](/MicrosoftTeams/app-permissions-admin-center) | modified |
-| 3/7/2022 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
-| 3/7/2022 | [Manage app policies in Teams](/MicrosoftTeams/app-policies) | modified |
-| 3/7/2022 | [Approvals application availability in Teams](/MicrosoftTeams/approval-admin) | modified |
-| 3/7/2022 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
-| 3/7/2022 | [Manage the Bookings app in Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modified |
-| 3/7/2022 | [Use built-in and custom tabs in Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | modified |
-| 3/7/2022 | [Availability in South Africa](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa) | modified |
-| 3/7/2022 | [Customize apps in Microsoft Teams](/MicrosoftTeams/customize-apps) | modified |
-| 3/7/2022 | [Custom apps store](/MicrosoftTeams/customize-your-app-store) | modified |
-| 3/7/2022 | [Apps, bots, & connectors in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
-| 3/7/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 3/7/2022 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
-| 3/7/2022 | [Phone number management for South Africa](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa) | added |
-| 3/7/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 3/7/2022 | [Manage the Praise app in the Teams admin center](/MicrosoftTeams/manage-praise-app) | modified |
-| 3/7/2022 | [Manage the Tasks app for your organization in Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modified |
-| 3/7/2022 | [Teams apps behavior for non-standard users](/MicrosoftTeams/non-standard-users) | modified |
-| 3/7/2022 | [Tailor your Teams apps based on license](/MicrosoftTeams/pin-teams-apps-based-on-license) | modified |
-| 3/7/2022 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
-| 3/7/2022 | [Resource-specific consent in Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | modified |
-| 3/7/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | renamed |
-| 3/7/2022 | [Enroll a Teams Rooms device in the Microsoft Teams Rooms Premium managed service](/MicrosoftTeams/rooms/enrolling-mtrp-managed-service) | modified |
-| 3/7/2022 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
-| 3/7/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
-| 3/7/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 3/7/2022 | [Manage custom app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
-| 3/7/2022 | [Teams integration with Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | modified |
-| 3/7/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
-| 3/7/2022 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 3/7/2022 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
-| 3/8/2022 | [Manage external access (federation)](/MicrosoftTeams/manage-external-access) | modified |
-| 3/8/2022 | [Microsoft Teams Rooms Security](/MicrosoftTeams/rooms/security) | modified |
-| 3/8/2022 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-| 3/8/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 3/8/2022 | [Get started with Teams for frontline workers](/MicrosoftTeams/flw-landing-page) | modified |
-| 3/8/2022 | [End-user training for Microsoft Teams # < 60 chars](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modified |
-| 3/8/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | modified |
-| 3/8/2022 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
-| 3/8/2022 | [End-to-end encryption for Microsoft Teams](/MicrosoftTeams/teams-end-to-end-encryption) | modified |
-| 3/9/2022 | [Use the Microsoft Teams Meeting add-in in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modified |
-| 3/9/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 3/9/2022 | [Manage external access (federation)](/MicrosoftTeams/manage-external-access) | modified |
-| 3/9/2022 | [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modified |
-| 3/9/2022 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
-| 3/9/2022 | [Teams in 30](/MicrosoftTeams/teams-in-30-workshops) | modified |
-| 3/9/2022 | [Chat, teams, channels, & apps in Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modified |
-| 3/9/2022 | [Microsoft Teams Rooms Premium-managed service](/MicrosoftTeams/rooms/obtaining-assigning-license) | modified |
-| 3/10/2022 | [Manage access to third-party Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | added |
-| 3/10/2022 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-| 3/10/2022 | [Configure call settings for users](/MicrosoftTeams/user-call-settings) | added |
-| 3/10/2022 | [Virtual Visits with Microsoft Teams and the Bookings app](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modified |
-| 3/10/2022 | [Virtual Visits with Teams - Integration into Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | modified |
-| 3/10/2022 | [Virtual Visits with Teams - Integration into Epic EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
-| 3/10/2022 | [Assign Teams add-on licenses to users](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modified |
-| 3/10/2022 | [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modified |
-| 3/10/2022 | [Microsoft Teams Phone Standard – Virtual User licenses](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modified |
-| 3/10/2022 | [Microsoft Teams information protection license report](/MicrosoftTeams/teams-analytics-and-reports/information-protection-license-report) | modified |
-| 3/10/2022 | [Microsoft Teams Virtual Visits usage report](/MicrosoftTeams/teams-analytics-and-reports/virtual-visits-usage-report) | modified |
-| 3/10/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
-| 3/11/2022 | [Teams PowerShell Module - Supported Versions](/MicrosoftTeams/teams-powershell-supported-versions) | added |
-| 3/11/2022 | [Use Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
-| 3/11/2022 | [Admin settings for apps in Microsoft Teams](/MicrosoftTeams/admin-settings) | modified |
-| 3/11/2022 | [View app permissions and grant admin consent in the Microsoft Teams admin center](/MicrosoftTeams/app-permissions-admin-center) | modified |
-| 3/11/2022 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
-| 3/11/2022 | [Approvals application availability in Teams](/MicrosoftTeams/approval-admin) | modified |
-| 3/11/2022 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
-| 3/11/2022 | [Customize apps in Microsoft Teams](/MicrosoftTeams/customize-apps) | modified |
-| 3/11/2022 | [Apps, bots, & connectors in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
-| 3/11/2022 | [Get started with team templates in the Teams admin center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
-| 3/11/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 3/11/2022 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
-| 3/11/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 3/11/2022 | [Manage the Praise app in the Teams admin center](/MicrosoftTeams/manage-praise-app) | modified |
-| 3/11/2022 | [Manage the Tasks app for your organization in Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modified |
-| 3/11/2022 | [Manage access to third-party Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
-| 3/11/2022 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
-| 3/11/2022 | [Resource-specific consent in Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | modified |
-| 3/11/2022 | [Routing calls to unassigned numbers](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | modified |
-| 3/11/2022 | [Sensitivity labels for Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modified |
-| 3/11/2022 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
-| 3/11/2022 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
-| 3/11/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
-| 3/11/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 3/11/2022 | [Manage custom app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
-| 3/11/2022 | [Teams integration with Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | modified |
-| 3/11/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
-| 3/11/2022 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 3/11/2022 | [Manage meeting policies for audio and video](/MicrosoftTeams/meeting-policies-audio-and-video) | modified |
+| 7/25/2022 | [Phone numbers and licensing changes](/MicrosoftTeams/phone-numbers-licensing-changes) | added |
+| 7/25/2022 | [Meeting policies and meeting expiration in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modified |
+| 7/25/2022 | [Enroll a Teams Room device into Managed Services](/MicrosoftTeams/rooms/enroll-a-device) | modified |
+| 7/25/2022 | [Browser logs and tracing for Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | added |
+| 7/25/2022 | [Configure log files for monitoring and troubleshooting in Teams](/MicrosoftTeams/log-files) | modified |
+| 7/26/2022 | [Resources for Career Coach integration in Microsoft Teams](/MicrosoftTeams/career-coach-resources) | added |
+| 7/26/2022 | [Set up and configure Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | added |
+| 7/26/2022 | [Troubleshoot Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | added |
+| 7/26/2022 | [Shared channels errors in Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | added |
+| 7/26/2022 | [Get started with Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach) | modified |
+| 7/26/2022 | [Get started with Career Coach for Microsoft Teams](/MicrosoftTeams/cloud-recording) | modified |
+| 7/26/2022 | [Use guest access and external access to collaborate with people outside your organization](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modified |
+| 7/26/2022 | [Partner management for customers](/MicrosoftTeams/rooms/multi-tenant-management-customer) | modified |
+| 7/26/2022 | [Multi-tenant customer management for partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modified |
+| 7/26/2022 | [Assign Teams add-on licenses to users](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modified |
+| 7/29/2022 | [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-landing-page) | modified |
+
+
+## Week of July 18, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/18/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 7/18/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 7/18/2022 | Provisioning Microsoft Teams at scale for Frontline Workers | removed |
+| 7/19/2022 | [Manage Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 7/19/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 7/19/2022 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
+| 7/19/2022 | [Manage Q&A in Teams Meetings](/MicrosoftTeams/manage-qna-for-teams) | modified |
+| 7/19/2022 | [Overview of app certification by Microsoft](/MicrosoftTeams/overview-of-app-certification) | modified |
+| 7/19/2022 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
+| 7/20/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
+| 7/21/2022 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 7/21/2022 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
+| 7/21/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 7/21/2022 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
+| 7/21/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
+
+
+## Week of July 11, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/13/2022 | [Music on Hold](/MicrosoftTeams/music-on-hold) | modified |
+| 7/14/2022 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
+| 7/15/2022 | [Release notes for Microsoft Teams Rooms (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 7/15/2022 | [Teams policy packages for frontline workers](/MicrosoftTeams/policy-packages-flw) | added |
+| 7/15/2022 | [Manage the Approvals app in Microsoft Teams](/MicrosoftTeams/approval-admin) | modified |
+| 7/15/2022 | [Manage the Bookings app in Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modified |
+| 7/15/2022 | Deploy teams at scale for frontline workers in Microsoft Teams | removed |
+| 7/15/2022 | Virtual appointments with Microsoft Teams and the Bookings app | removed |
+| 7/15/2022 | Manage the join experience for Teams virtual appointments on browsers | removed |
+| 7/15/2022 | [Expand Microsoft Teams across your organization](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | modified |
+| 7/15/2022 | Virtual appointments with Teams - Integration into Cerner EHR | removed |
+| 7/15/2022 | Microsoft Teams EHR connector Virtual Appointments report | removed |
+| 7/15/2022 | Virtual appointments with Teams - Integration into Epic EHR | removed |
+| 7/15/2022 | Message delegation | removed |
+| 7/15/2022 | Secure Messaging for healthcare organizations using Microsoft Teams | removed |
+| 7/15/2022 | Get started with Teams for healthcare organizations | removed |
+| 7/15/2022 | Simplify business processes in Retail environments | removed |
+| 7/15/2022 | Retail team collaboration | removed |
+| 7/15/2022 | Shifts for Teams | removed |
+| 7/15/2022 | Manage shift-based access for frontline workers in Teams | removed |
+| 7/15/2022 | [Manage the Shifts app for your organization](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modified |
+| 7/15/2022 | Manage schedule owners for shift management | removed |
+| 7/15/2022 | Use PowerShell to connect Shifts to Blue Yonder Workforce Management | removed |
+| 7/15/2022 | Use PowerShell to manage your Shifts connection to Blue Yonder Workforce Management | removed |
+| 7/15/2022 | Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management | removed |
+| 7/15/2022 | Shifts connectors | removed |
+| 7/15/2022 | Teams for Retail | removed |
+| 7/15/2022 | Help your clients and customers use virtual appointments | removed |
+| 7/15/2022 | [Get started with Teams for frontline workers](/MicrosoftTeams/flw-landing-page) | modified |
+| 7/15/2022 | Understand frontline worker user types and licensing | removed |
+| 7/15/2022 | Use the Frontline Worker onboarding wizard to get your frontline workforce up and running | removed |
+| 7/15/2022 | Frontline Worker quick start guide | removed |
+| 7/15/2022 | Manage the Frontline Trial in Teams | removed |
+| 7/15/2022 | Tailor Teams apps for your frontline workers | removed |
+| 7/15/2022 | [Teams policy packages for healthcare](/MicrosoftTeams/policy-packages-healthcare) | modified |
+| 7/15/2022 | Microsoft Teams Virtual Visits usage report | removed |
+| 7/15/2022 | [PowerShell script sample - Export managers and their direct reports](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | modified |
+| 7/15/2022 | [PowerShell script sample - Create new people manager teams](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | modified |
+
+
+## Week of July 04, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/5/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
+| 7/5/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 7/5/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 7/5/2022 | [Meetings and conferencing in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modified |
+| 7/5/2022 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
+| 7/5/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 7/5/2022 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
+| 7/5/2022 | [Microsoft Teams Phone Resource Account licenses](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modified |
+| 7/5/2022 | [Teams voice Contoso case study: Auto attendants and call queues](/MicrosoftTeams/voice-case-study-call-queues) | modified |
+| 7/5/2022 | [Search the audit logs for app management events](/MicrosoftTeams/audit-app-management-activities) | added |
+| 7/6/2022 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 7/6/2022 | [Use PowerShell to connect Shifts to Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modified |
+| 7/6/2022 | [Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | modified |
+| 7/6/2022 | [How can caller ID be used in your organization](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modified |
+| 7/7/2022 | Understand calling in Microsoft Teams | removed |
+| 7/7/2022 | [Calling Plans for Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modified |
+| 7/8/2022 | [Virtual appointments with Microsoft Teams and the Bookings app](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modified |

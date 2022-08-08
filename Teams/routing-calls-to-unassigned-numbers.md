@@ -1,5 +1,5 @@
 ---
-title: "Routing calls to unassigned numbers"
+title: Routing calls to unassigned numbers
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to route calls to unassigned numbers in your organization."
+description: Learn how to route calls to unassigned numbers in your organization.
 ---
 
 # Routing calls to unassigned numbers
@@ -29,7 +28,7 @@ As an administrator, you can route calls to unassigned numbers in your organizat
 
 - Route all calls to a given unassigned number to a custom announcement.
 
-- Route all calls to a given unassigned number to the the main switchboard.
+- Route all calls to a given unassigned number to the main switchboard.
 
 You can route calls to unassigned numbers to a user, to a resource account associated with an Auto Attendant or a Call Queue, or to an announcement service that will play a custom audio file to the caller.
 
@@ -64,9 +63,15 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - To route calls to unassigned Microsoft Calling Plan subscriber numbers, your tenant needs to have available [Communications Credits](what-are-communications-credits.md).
 
-- To route calls to unassigned Microsoft Calling Plan service numbers, your tenant needs to have at least one Phone System – Virtual User license.
+- To route calls to unassigned Microsoft Calling Plan service numbers, your tenant needs to have at least one **Microsoft Teams Phone Resource Account** license.
 
 - The custom audio file supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. The audio file content cannot be more than 5 MB.
+
+- Both inbound calls to Microsoft Teams and outbound calls from Microsoft Teams will have the called number checked against the unassigned number range.
+
+- If a specified pattern/range contains phone numbers that are assigned to a user or resource account in the tenant, calls to these phone numbers will be routed to 
+the appropriate target and not routed to the specified unassigned number treatment. There are no other checks of the numbers in the range. If the range contains
+a valid external phone number, outbound calls from Microsoft Teams to that phone number will be routed according to the treatment.
 
 ## Related topics
 

@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies for recording and transcription
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -68,3 +68,4 @@ This policy controls whether meeting records can be permanently stored in anothe
 
 - [Assign policies to users in Teams](policy-assignment-overview.md)
 - [Cloud meeting recording](cloud-recording.md)
+- [Meeting policies and meeting expiration in Microsoft Teams](meeting-expiration.md)

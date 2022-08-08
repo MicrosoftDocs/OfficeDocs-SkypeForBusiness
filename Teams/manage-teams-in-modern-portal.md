@@ -1,7 +1,7 @@
 ---
 title: Manage teams in the Microsoft Teams admin center
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -53,7 +53,7 @@ The grid displays the following properties:
 - **Privacy** - the Visibility/AccessType of the backing Microsoft 365 group.
 - **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Description** - the description of the backing Microsoft 365 group.
-- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Microsoft 365 Groups in your organization](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization).
 - **GroupID** - the unique GroupID of the backing Microsoft 365 group.
 
 > [!NOTE]

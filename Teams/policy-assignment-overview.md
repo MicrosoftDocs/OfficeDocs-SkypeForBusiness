@@ -1,7 +1,7 @@
 ---
 title: Assign policies in Teams
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -64,8 +64,11 @@ Before assigning policies to individual users or groups, start by [setting the g
 |[Assign a policy to a group](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Assign policies based on a user's group membership. For example, assign a policy to all users in a security group or distribution list.| The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy to a batch of users](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | Assign policies to large sets of users. For example, assign a policy to hundreds or thousands of users in your organization at a time. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy package to users](assign-policy-packages.md#assign-a-policy-package-to-users)  |Assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to teachers in your school to give them full access to chats, calling, and meetings. Assign the Education (Secondary school student) policy package to secondary students to limit certain capabilities such as private calling.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
-|[Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group) (in private preview)   |Assign multiple policies to a group of users in your organization who have the same or similar roles. For example, assign a policy package to all users in a security group or distribution list. |The Microsoft Teams admin center (coming soon) or PowerShell cmdlets in the Teams PowerShell module|
+|[Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group)  |Assign multiple policies to a group of users in your organization who have the same or similar roles. For example, assign a policy package to all users in a security group or distribution list. |The Microsoft Teams admin center (coming soon) or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy package to a batch of users](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|Assign multiple policies to a batch of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to all teachers in your school using batch assignment to give them full access to chats, calling, and meetings. Assign the Education (Secondary school student) policy package to a batch of secondary students to limit certain capabilities such as private calling.|PowerShell cmdlets in the Teams PowerShell module|
+
+> [!NOTE]
+> To unassign policies, you can remove assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](assign-policies-users-and-groups.md#unassign-policies-in-bulk).
 
 ## Set the global policies
 
@@ -75,9 +78,9 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy page for the policy type you want to update. For example, **Teams** > **Teams policies**, **Meetings** > **Meetings policies**, **Messaging policies**, or **Voice** > **Calling policies**.
 2. Select the **Global (Org-wide default)** policy to view the current settings.
-3. Update the policy as needed, and then select **Apply**.
+3. Update the policy as needed, and then select **Save**.
 
-![Update global policy in Teams admin center.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot that shows the update global policy in Teams admin center." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### Using PowerShell
 
@@ -115,27 +118,31 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## View your policy assignments in the Activity log
 
-When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the Activity log. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. Keep in mind that the Activity log doesn't show policy package assignments, policy assignments to batches of less than 20 users through the Microsoft Teams admin center, or policy assignments through PowerShell.
+When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the [Activity log](https://admin.teams.microsoft.com/activitylog). The activity log shows network record upload information, group policy operations from Teams admin center and PowerShell, and batch policy operations (for more than 20 users) from the Teams admin center, for the last 30 days.
 
-![Screenshot of the Activity log page.](media/activity-log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="Screenshot of the Activity log page." lightbox="media/Activity_Log.png":::
 
-## View your policy assignment activities in the Activity log
-
-To view your policy assignments in the Activity log:
+To view your policy operations in the Activity log:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity Log**, select **View details**.
-2. You can view all policy assignments or filter the list by status to show only assignments that are **Not started**, **In progress**, or **Completed**. You'll see the following information about each assignment:
-    - **Name**: The name of the policy assignment. Click the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user. Here's an example:
-
-        ![Screenshot of the.](media/activity-log-policy-assignment-detail.png)
-
-    - **Submitted**: Date and time the policy assignment was submitted.
-    - **Completion time**: Date and time the policy assignment was completed.
-    - **Impact on**: Number of users in the batch.
-    - **Overall status**: Status of the policy assignment.
+2. You'll see the following information about each policy operation:
+    - **Activity**: The name of the policy operation. For example: **Group policy assignment**
+    - **Group name**: The name of the group the policy operation was completed on.
+    - **Policy type**: The type of policy.
+    - **Policy name**: The name of the policy operation. For batch policy assignments, you can select the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user.
+    - **Submitted by**: The name of the user who submitted the policy operation.
+    - **Submitted on**: Date and time the policy operation was submitted.
+    - **Completed on**: Date and time the policy operation was completed.
+    - **Impacted**: Number of users in the batch or group.
+    - **Overall status**: Status of the policy operation. A policy can have one of the following statuses:
+        - **Not started**: The policy operation was submitted by the admin.
+        - **In progress**: The policy operation has started processing.
+        - **Rolling out to users**: The system has started applying the policy update to users.
+        - **Completed**: The policy update has been applied all users.
+        - **Completed with 'x' errors**: The policy operation is complete, but there are errors.
 
 > [!NOTE]
-> You can also get to the Activity log from the **Users** page. After you click **Apply** to submit a bulk policy assignment, you'll see a banner at the top of the page. Click the **Activity log** link in the banner.
+> You can also get to the Activity log from the **Users** page. After you select **Apply** to submit a bulk policy assignment, you'll see a banner at the top of the page. Select the **Activity log** link in the banner.
 
 ## Related topics
 

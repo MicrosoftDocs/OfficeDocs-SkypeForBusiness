@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Teams Rooms Security"
-ms.author: czawideh
-author: cazawideh
+title: Microsoft Teams Rooms Security
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto: 
@@ -9,11 +9,12 @@ appliesto:
 ms.reviewer: sohailta
 ms.topic: article
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-ms.collection:
+ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn how to secure your Microsoft Teams Rooms devices.
 ---
 
@@ -105,8 +106,6 @@ If you're using the Microsoft Teams Rooms managed services component of Microsof
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
 - gj3ftstorage.blob.core.windows.net
-- iothubsgagwt5wgvwg6.azure-devices.net
-- blobssgagwt5wgvwg6.blob.core.windows.net
 - mmrstgnoamiot.azure-devices.net
 - mmrstgnoamstor.blob.core.windows.net
 - mmrprodapaciot.azure-devices.net

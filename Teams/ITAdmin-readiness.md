@@ -1,18 +1,17 @@
 ---
-title: Admin training resources - Microsoft Teams
+title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
   - seo-marvel-mar2020
@@ -90,7 +89,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identity, Access management & Threat Protection for Teams                   | Learn how to use Microsoft admin centers and PowerShell to configure access and identity policies and Enable Office 365 Advanced Threat Protection for Teams                                                            | [Teams security guide](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Data Loss Prevention (DLP) Policies for Microsoft Teams                     | Learn how to add Microsoft Teams to an existing DLP policy, and how create a new policy, whether based on a template or fully customized to your organization's data protection needs.                        | [Teams DLP guide](https://aka.ms/teamsdlpguide)         |
+| Microsoft Purview Data loss prevention (DLP) Policies for Microsoft Teams                     | Learn how to add Microsoft Teams to an existing DLP policy, and how create a new policy, whether based on a template or fully customized to your organization's data protection needs.                        | [Teams DLP guide](https://aka.ms/teamsdlpguide)         |
 | Managing Compliance in Teams                                                | Use the Microsoft 365 Security, Microsoft 365 Compliance, and Microsoft Teams admin centers, as well as Windows PowerShell to manage and configure an Office 365 organization's Microsoft Teams policies and settings. | [Managing compliance in Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Advisor: Deploying chats, teams, channels and apps in Microsoft Teams | Learn how to use Teams advisor to assess your environment and build a plan for deploying chats, teams, channels, and apps.                                                                                         |  [Teams Advisor guide](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Streamlining Teams administration with PowerShell and dynamic groups        | Convert an Office 365 group from static membership to dynamic and use Windows PowerShell to assign a new App permission policy to all members.                                                                         |  [Streamlining Teams administration guide](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |

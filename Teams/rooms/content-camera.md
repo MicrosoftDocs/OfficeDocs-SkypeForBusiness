@@ -1,18 +1,19 @@
 ---
 title: Learn how to setup content cameras - Microsoft Teams
-ms.author: serdars
-author: serdarsoysal
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-ms.custom:
+  - Teams_ITAdmin_Rooms
+ms.custom: 
   - seo-marvel-mar2020
 description: Use a content camera in a Microsoft Teams Room, which interacts with image-processing software to allow presenters to draw on an analog whiteboard.
 ---

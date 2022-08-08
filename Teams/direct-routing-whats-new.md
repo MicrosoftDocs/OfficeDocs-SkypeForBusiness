@@ -1,6 +1,6 @@
 ---
-title: "What's New Direct Routing"
-ms.reviewer: CarolynRowe 
+title: What's New Direct Routing
+ms.reviewer: CarolynRowe
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
@@ -10,11 +10,10 @@ ms.service: msteams
 search.appverid: MET150
 description: This article describes what's new in Direct Routing. Check back often for updates.
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 # What's new for Direct Routing
