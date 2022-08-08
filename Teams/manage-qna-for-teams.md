@@ -28,6 +28,7 @@ This article describes how to manage Q&A and user-level policies, which dictate 
 Follow the steps below to confirm that sign-ins are enabled:
   - Go to the **Azure AD admin center** > **All services** > **Enterprise Applications** > **Office 365 Yammer** > **Properties**.
   - For the **Enabled for users to sign-in?** option, select **Yes** if necessary.
+- Verify that you haven’t blocked the Q&A (Native) app in [Teams apps](/MicrosoftTeams/manage-apps)
 
 ## Who can use Q&A
 
