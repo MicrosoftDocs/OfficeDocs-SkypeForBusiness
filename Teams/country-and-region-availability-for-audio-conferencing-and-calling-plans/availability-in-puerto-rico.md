@@ -54,8 +54,8 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans  <br/> |3000 domestic minutes or 600 international minutes (whichever is reached first per calendar month). United States domestic calling includes calls to all 50 U.S. states and Puerto Rico. Users assigned with the license usage location of U.S. and/or Puerto Rico share the same pool of minutes.  <br/> |
+|Calling Plans are available to purchase?  |Yes          |   
+|Minutes available for Calling Plans.    |There are five plan options available per calendar month: <ul><li>Pay-As-You-Go Calling Plan </li><li> 120 minutes Domestic Calling Plan </li><li> 240 minutes Domestic Calling Plan </li><li> 1200 minutes Domestic Calling Plan </li><li> International Calling Plan: 1200 minutes of domestic or 600 minutes of international calling (whichever is reached first in the calendar month)</li></ul>|
 |Can make outbound calls to premium numbers? <br/> | Not supported at this time. <br/> |
 |Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
