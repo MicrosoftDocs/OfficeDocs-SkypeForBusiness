@@ -3,7 +3,6 @@ title: Modify the appearance of apps in your organization's Teams store
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,7 +13,7 @@ f1.keywords:
   - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to change the appearance of the app and rebrand an app by editing app details and metadata.
 ---
