@@ -68,3 +68,4 @@ This policy controls whether meeting records can be permanently stored in anothe
 
 - [Assign policies to users in Teams](policy-assignment-overview.md)
 - [Cloud meeting recording](cloud-recording.md)
+- [Meeting policies and meeting expiration in Microsoft Teams](meeting-expiration.md)
