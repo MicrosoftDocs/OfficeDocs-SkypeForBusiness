@@ -28,7 +28,7 @@ appliesto:
 
 A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. With team templates, you can quickly and easily create rich collaboration spaces with predefined settings, channels, and apps. Team templates can help you to deploy consistent teams across your organization.
 
-With Microsoft Graph, you use the pre-built team templates that are included with Teams to create teams. In this article, you'll learn about the properties that can be defined in templates and the templates that are available only with Microsoft Graph.
+With Microsoft Graph, you can [create your own templates](/graph/api/resources/teamtemplate?view=graph-rest-beta) or use the pre-built team templates that are included with Teams to create teams. In this article, you'll learn about the properties that can be defined in templates and the pre-built templates that are available only with Microsoft Graph.
 
 This article is for you if you're:
 
