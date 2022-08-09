@@ -2853,7 +2853,7 @@
      {
       "source_path": "Teams/envision-steering-committee-complete-guide.md",
       "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-      "redirect_document_id": true
+      "redirect_document_id": false
      },
      {
       "source_path": "Teams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md",
