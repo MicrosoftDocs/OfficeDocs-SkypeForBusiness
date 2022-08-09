@@ -87,7 +87,7 @@ In a Microsoft 365 Government - GCC, GCCH and DoD deployment of Teams, all third
 
 :::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Screenshot of app permission policy in GCCH and DoD.":::
 
-Use org-wide app settings to control whether users can install third-party apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
+Use org-wide app settings to control whether users can install third-party apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users.
 
 <!---
 1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel. --->
