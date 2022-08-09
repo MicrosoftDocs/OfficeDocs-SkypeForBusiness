@@ -3,7 +3,6 @@ title: Manage Microsoft 365 and custom connectors
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,7 +15,7 @@ f1.keywords:
 description: Learn how Connectors keep your team updated by frequently delivering content and updates directly into a Teams channel for services you use.
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 ---
 
