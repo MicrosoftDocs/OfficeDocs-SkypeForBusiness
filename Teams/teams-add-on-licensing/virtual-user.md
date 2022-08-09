@@ -29,7 +29,7 @@ Organizations with Teams Phone Standard or Teams Phone with Calling Plan license
 All auto attendants and call queues require an associated resource account. Resource accounts that require a phone number need either a free *Microsoft Teams Phone Resource Account* license or a paid *Teams Phone Standard* user license before a phone number can be applied to the resource account.
 
 > [!TIP]
-> No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. See the following diagram for reference.
+> No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned.
 
 ## Resource Account license allocation
 
