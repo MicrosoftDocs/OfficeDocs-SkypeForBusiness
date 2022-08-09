@@ -25,7 +25,7 @@ App developers can enhance their Microsoft Teams apps to work in Outlook and on 
 
 For use in Outlook and Office.com, an enhanced app continues to use the existing permissions granted in Teams. There's [no change in the permissions of the enhanced app](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs).
 
-The following is a list of the enhanced apps:
+The enhanced apps are listed below:
 
 * [Monday.com](https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f)
 * [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d)

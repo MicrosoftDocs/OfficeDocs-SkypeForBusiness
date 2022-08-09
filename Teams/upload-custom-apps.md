@@ -88,7 +88,7 @@ By default, all users in your organization can access the app in your organizati
 
 ### Pin and install the app for users to discover
 
-By default, for users to find the app they have to go to your organization's app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+By default, for users to find the app they have to go to your organization's app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To pin the app, create an app setup policy and assign it to users. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ### Search the audit log for Teams app events
 
@@ -108,7 +108,7 @@ If you created and assigned an app setup policy, the app is pinned to the app ba
 
 To update an app, developers follow the steps in the [Create your app](#create-your-app) and [Validate](#validate) sections.
 
-You can update the app on the Manage apps page in the Microsoft Teams admin center. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. select the app name, and then select **Update**. Doing this replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
+You can update the app on the Manage apps page in the Microsoft Teams admin center. To update the app, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. select the app name, and then select **Update**. Updating the app replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
 
 ### End-user update experience
 
