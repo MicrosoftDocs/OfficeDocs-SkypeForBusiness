@@ -1,11 +1,10 @@
 ---
 title: Overview of app policies to manage apps in Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: 
 search.appverid: 
 description: Learn about app permission policies, app setup policies, and custom app policies used to manage apps in Microsoft Teams.
 audience: admin

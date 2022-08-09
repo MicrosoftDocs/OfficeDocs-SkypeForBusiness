@@ -1,6 +1,6 @@
 ---
 title: Use the Teams App Submission API to submit and approve your custom apps
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
 ---

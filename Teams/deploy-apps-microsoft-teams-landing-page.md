@@ -3,7 +3,7 @@ title: Know about apps in Microsoft Teams
 ms.reviewer: 
 description: Learn about apps and decide what apps to allow in Teams based on your organization's profile and business requirements.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -43,7 +43,7 @@ Some Teams functionalities such as activity feed, teams, chat, calendar, calls, 
 
 ## Microsoft-provided apps
 
-Microsoft provides many apps to improve productivity and collaboration. You and end-users can find these apps by looking for Microsoft listed as the Publisher in admin center or listed as Provider in the Team store.
+Microsoft provides many apps to improve productivity and collaboration. You and end-users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
 
 Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 

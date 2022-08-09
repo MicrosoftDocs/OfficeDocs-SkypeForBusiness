@@ -1,9 +1,8 @@
 ---
 title: Manage custom app policies and settings
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

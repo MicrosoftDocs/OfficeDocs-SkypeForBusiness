@@ -1,9 +1,8 @@
 ---
 title: Microsoft Teams apps permissions and considerations
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,7 +14,7 @@ ms.reviewer: rowille
 description: Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
