@@ -51,7 +51,7 @@ To know more, see [how to manage app setup policies](teams-app-setup-policies.md
 
 Teams allows developers within your organization to build, test, and deploy custom apps for organization's internal users. Developers can submit their custom apps via Teams for approval from Teams admins. You can use app setup policies to control who in your organization can upload custom apps. Admins can allow their organization's end-users to use custom app and developers to upload custom apps, using the Org-wide app settings.
 
-:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Allow custom apps in your organization in the org-wide settings panel." lightbox="media/custom-app-policy.png":::
+:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Screenshot that shows how to allow custom apps in your organization in the org-wide settings panel." lightbox="media/custom-app-policy.png":::
 
 To know more, see [how to manage custom app policies and settings](teams-custom-app-policies-and-settings.md).
 
