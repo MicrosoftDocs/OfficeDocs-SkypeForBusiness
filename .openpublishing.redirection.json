@@ -2876,6 +2876,11 @@
       "redirect_document_id": false
      },
      {
+      "source_path": "Teams/direct-routing-landing-page.md",
+      "redirect_url": "/microsoftteams/direct-routing-plan",
+      "redirect_document_id": true
+     },
+     {
       "source_path": "Teams/rooms/update-management-reference.md",
       "redirect_url": "/microsoftteams/rooms/",
       "redirect_document_id": false
