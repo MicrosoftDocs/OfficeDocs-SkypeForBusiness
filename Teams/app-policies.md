@@ -27,11 +27,11 @@ Microsoft Teams uses policies to govern access and installation behavior. Polici
 
 With app permission policies, Teams admin can control what apps are available to which specific users in their organization. You can define exact access mapping between app and user or any combination of both. For example, you can allow a few apps for all users, you can allow a few apps for a specific group of users, or you can allow a specific app for a specific user.
 
-The app permission policies apply to all the types of apps available in Teams. For example, you can use app permission policies to gradually roll-out a third-party app or a custom app, by allowing it for specific users. To learn more, read [how to manage app permission policies](teams-app-permission-policies.md).
+The app permission policies apply to all the types of apps available in Teams. For example, you can use app permission policies to gradually roll-out a third-party app or a custom app, by allowing it for specific users.
 
 :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot of app permission policy." lightbox="media/app-permission-policy.png":::
 
-To learn more, see [how to manage custom app policies and settings](teams-custom-app-policies-and-settings.md).
+To learn more, see [how to manage custom app policies and settings](teams-app-permission-policies.md).
 
 ## App setup policies
 
@@ -39,7 +39,7 @@ App setup policies let you customize the app experience for your users. You choo
 
 Here's some examples of how you can use app setup policies:
 
-* Drive awareness and adoption of apps. For example, pin a custom recruiting and talent management app for users on your HR team.
+* Install apps for end-users in their personal Teams environment. It helps drive awareness and adoption of the desired apps. For example, pin a custom recruiting and talent management app for members of your HR team.
 * Selectively pin core apps, such as Chat, Teams, and Calling.
 
 :::image type="content" source="media/app-setup-policy-trimmed.png" alt-text="Screenshot of app setup policy in Teams admin center." lightbox="media/app-setup-policy.png":::

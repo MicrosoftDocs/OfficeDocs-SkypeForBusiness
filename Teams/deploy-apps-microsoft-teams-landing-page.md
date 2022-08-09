@@ -63,15 +63,7 @@ After an admin allows the use of custom apps, end-users can find such apps by se
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams' store in the Teams' desktop app." lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### Understand sideloading of custom apps
-
-When developing custom apps and before distributing those apps to the end-users, developers test the apps by adding it to the Teams Store to test. The developers can test on their own or with a specified group of users, but the app is not available to other end-users in the organization. This method is called sideloading of apps and applies only to custom apps.
-
-Developers can sideload an app to make it available to the members of a specific team, typically to test an under-development app. Using an app in this way limits its usage to the app developers and doesn't require admin approval as long as admin allows sideloading in Teams. As an admin, you can disallow sideloading of app for all developers.
-
-If you disallow sideloading, the developers can still test their apps by [creating a separate test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the end-users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you can allow or disallow the use a custom app for specific users.
+For more information, see [Understand and manage custom and sideloaded apps](custom-sideloaded-app-overview.md).
 
 ## About App Templates
 

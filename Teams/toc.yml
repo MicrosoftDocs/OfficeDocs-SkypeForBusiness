@@ -1569,12 +1569,16 @@ items:
 
     - name: Manage custom apps
       items:
-        - name: Manage Power Platform apps in Teams admin center
-          href: manage-power-platform-apps.md
+        - name: Manage custom and sideloaded apps
+          href: custom-app-overview.md
+        - name: Manage custom app policies and settings
+          href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps on your organization store
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
+        - name: Manage Power Platform apps in Teams admin center
+          href: manage-power-platform-apps.md
 
     - name: Admin controls to govern apps
       items:
