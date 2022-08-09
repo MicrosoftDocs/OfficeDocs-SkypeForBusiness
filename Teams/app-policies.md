@@ -18,7 +18,7 @@ ms.collection:
 
 # Overview of app policies used to manage access to apps
 
-Microsoft Teams uses policies to govern access and installation behavior. Policies help Teams administrators control the following:
+Microsoft Teams uses policies to govern access and installation behavior. Policies help Teams administrators control the following app behavior:
 
 * Configure access of apps to the users at a granular level. It helps each end-user use only those apps that an admin has allowed for their use.
 
@@ -26,13 +26,13 @@ Microsoft Teams uses policies to govern access and installation behavior. Polici
 
 ## App permission policies
 
-To learn more, go to [Manage custom app policies and settings in Teams.](teams-custom-app-policies-and-settings.md)
-
 With app permission policies, Teams admin can control what apps are available to which specific users in their organization. You can define exact access mapping between app and user or any combination of both. For example, you can allow a few apps for all users, you can allow a few apps for a specific group of users, or you can allow a specific app for a specific user.
 
 The app permission policies apply to all the types of apps available in Teams. For example, you can use app permission policies to gradually roll-out a third-party app or a custom app, by allowing it for specific users. To learn more, read [how to manage app permission policies](teams-app-permission-policies.md).
 
 :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot of app permission policy." lightbox="media/app-permission-policy.png":::
+
+To learn more, see [how to manage custom app policies and settings](teams-custom-app-policies-and-settings.md).
 
 ## App setup policies
 
@@ -43,11 +43,9 @@ Here's some examples of how you can use app setup policies:
 * Drive awareness and adoption of apps. For example, pin a custom recruiting and talent management app for users on your HR team.
 * Selectively pin core apps, such as Chat, Teams, and Calling.
 
-To learn more, see [how to manage app setup policies in Teams.](teams-app-setup-policies.md).
+:::image type="content" source="media/app-setup-policy-trimmed.png" alt-text="Screenshot of app setup policy in Teams admin center." lightbox="media/app-setup-policy.png":::
 
-:::image type="content" source="media/app-setup-policy.png" alt-text="Screenshot of app setup policy in Teams admin center." lightbox="media/app-setup-policy.png":::
-
-To know more, see [how to manage app setup policies in Teams](teams-app-setup-policies.md).
+To know more, see [how to manage app setup policies](teams-app-setup-policies.md).
 
 ## Custom app policies
 
@@ -55,9 +53,8 @@ Teams allows developers within your organization to build, test, and deploy cust
 
 :::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Allow custom apps in your organization in the org-wide settings panel." lightbox="media/custom-app-policy.png":::
 
+To know more, see [how to manage custom app policies and settings](teams-custom-app-policies-and-settings.md).
+
 ## Related articles
 
-* [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
-* [Manage app setup policies in Teams](teams-app-setup-policies.md)
-* [Manage app permission policies in Teams](teams-app-permission-policies.md)
 * [Manage Teams with policies](manage-teams-with-policies.md)
