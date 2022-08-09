@@ -20,9 +20,9 @@ ms.collection:
 
 Microsoft Teams uses policies to govern access and installation behavior. Policies help Teams administrators control the following app behavior:
 
-* Configure access of apps to the users at a granular level. It helps each end-user use only those apps that an admin has allowed for their use.
+* Configure access of apps for the users at a granular level. It helps each end-user use only those apps that an admin has allowed for them.
 
-* Pin relevant apps for users that auto-install. It helps end-users get started easily and access the relevant apps quickly.
+* Pin the relevant apps for specific user. It helps end-users get started easily and access the relevant apps quickly, since pinned apps auto-install without intervention.
 
 ## App permission policies
 
