@@ -26,7 +26,7 @@ As an admin, you use app setup policies to install and pin apps, and allow users
 
 * **Pin apps:** App setup policies let you choose apps to pin, set the order the apps show up for your users in the Teams app bar or the compose message area. Admins can also control whether the end-users can pin their own apps or not. See [Pin apps](#pin-apps).
 * **Install apps:** App setup policies let you install the allowed apps on behalf of users when they start Teams and during meetings. For more information, see [Install apps](#install-apps).
-* **Upload custom apps:** App setup policies let you allow users to upload custom apps to Teams. For more information, see [Upload custom apps](#upload-custom-apps).
+* **Upload custom apps:** App setup policies let you allow users to upload custom apps to Teams. For more information, see [Upload custom apps](teams-custom-app-policies-and-settings.md).
 
 The following built-in app setup policies are available in the Microsoft Teams admin center, by default:
 
@@ -182,8 +182,7 @@ Admin pins always take precedence. If the **User pinning** option is turned on, 
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 
-## See also
+## Related articles
 
 * [Admin settings for apps in Teams](admin-settings.md)
 * [Assign policies to end-users in Teams](assign-policies-users-and-groups.md)
-* []()
