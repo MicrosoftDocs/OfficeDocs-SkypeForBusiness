@@ -32,7 +32,7 @@ This guidance focuses on the Teams aspects of the app and is intended for admins
 > When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. This article focuses on how to approve and publish a custom app that a developer submits through the Teams App Submission API. The other method, uploading a custom app, is used when a developer sends you an app package in .zip format. To learn more about that method, see [Publish a custom app by uploading an app package](/microsoftteams/upload-custom-apps). The approve app widget isn't available in GCC tenants.
 
 > [!IMPORTANT]
-> This method is not available in GCC environments. [Upload a custom apps](upload-custom-apps.md) to publish it in GCC environments.
+> This method is not available in GCC environments. [Upload a custom app](upload-custom-apps.md) to publish it in GCC environments.
 
 ## Develop
 
