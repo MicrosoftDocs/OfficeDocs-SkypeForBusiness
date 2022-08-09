@@ -37,7 +37,7 @@ For organizations who want to streamline task management for Frontline Workers, 
 
 Tasks is available as an app and as a tab in a channel. The app shows both individual tasks from To Do and team tasks from Planner. The tab shows only team tasks.
 
-With Tasks, users get a desktop, web, and mobile experience. If Tasks is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guests. It's important to know that guests can only access Tasks as an app from the Teams mobile client. Guests will see Tasks tabs on both Teams desktop and web clients.
+With Tasks, users get a desktop, web, and mobile experience. If Tasks is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guests. It's important to know that the guests can only access Tasks as an app from the Teams mobile client. Guests will see Tasks tabs on both Teams desktop and web clients.
 
 **My tasks** shows a user's individual tasks. **Shared plans** show tasks that the whole team is working on and includes any task list that's added as a Tasks tab to a channel. Note the following relationships between tasks in Tasks, To Do, and Planner:
 

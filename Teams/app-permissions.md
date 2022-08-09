@@ -93,7 +93,7 @@ None
 
 * When a user converses with a bot, if the bot stores the user's ID, it can send the user direct messages at any time.
 
-* Theoretically it's possible for bot messages to contain links to phishing or malware sites. However, bots can be blocked by the user, the tenant admin, or globally by Microsoft. [App verification and validation checks](overview-of-app-validation.md) ensures that any spurious apps are not available in Teams store.
+* Theoretically it's possible for bot messages to contain links to phishing or malware sites. However, bots can be blocked by the user, the tenant admin, or globally by Microsoft. [App verification and validation checks](overview-of-app-validation.md) ensures that any spurious apps aren't available in Teams store.
 
 * A bot can retrieve (and might store) basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory (Azure AD).
 
