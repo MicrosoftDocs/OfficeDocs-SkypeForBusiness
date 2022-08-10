@@ -1,7 +1,8 @@
-The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams.
+
+After you create the resource account, you need to assign a license to it. The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams.
 
 > [!NOTE]
-> Microsoft Teams Rooms Standard and Microsoft Teams Rooms Premium are the two available SKUs for shared meeting room devices, including Teams Rooms. A meeting room license is required for Teams displays with hot-desking. For more information, see [Teams meeting room licensing](rooms-licensing.md).
+> Microsoft Teams Rooms Basic and Microsoft Teams Rooms Pro are the two available SKUs for shared meeting room devices, including Teams Rooms. A meeting room license is required for Teams displays with hot-desking. For more information, see [Teams meeting room licensing](rooms-licensing.md).
 
 To assign licenses using the Microsoft 365 admin center, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users). To assign licenses using Azure AD, see one of the following tabs:
 
