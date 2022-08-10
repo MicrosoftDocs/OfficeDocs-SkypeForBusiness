@@ -20,7 +20,7 @@ description: "Use Power BI to analyze CQD data for Microsoft Teams."
 
 # Use Power BI to analyze CQD data for Microsoft Teams
 
-New in July 2022: The new Quality of Experience (QER) template has been added to the [Power BI query templates for CQD download](https://www.microsoft.com/download/details.aspx?id=102291). The QER is a powerful reporting template that supercedes the original CQD Power BI query templates released in 2020. While the original templates will remain available for demonstration purposes, they are no longer supported and we recommend customers switch to the QER template which will continue to receive updates. Note that this does not apply to the CQD Teams Auto Attendant & Call Queue Historical Report.
+New in July 2022: The new Quality of Experience (QER) template has been added to the [Power BI query templates for CQD download](https://www.microsoft.com/download/details.aspx?id=102291). The QER is a powerful reporting template that supercedes the original CQD Power BI query templates released in 2020. While the original templates will remain available for demonstration purposes, they are no longer supported. Note that this does not apply to the CQD Teams Auto Attendant & Call Queue Historical Report.
 
 For Call Quality Dashboard (CQD) reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
