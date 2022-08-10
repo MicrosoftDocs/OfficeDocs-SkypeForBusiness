@@ -28,7 +28,7 @@ Microsoft compliance program checks and audits an app against controls that are 
 
 ## Publisher verification
 
-Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A publisher verifies their identity using their Microsoft Partner Network (MPN) account and associates this MPN account with their app registration. Publisher verification helps admins and end users understand the authenticity of application developers. Publisher verification provides the following benefits:
+Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A developer verifies their identity using their Microsoft Partner Network (MPN) account and associates this MPN account with their app registration. Publisher verification helps admins and end users understand the authenticity of application developers. Publisher verification provides the following benefits:
 
 * Increased transparency and risk reduction for customers - this capability helps customers understand which apps being used in their organizations are published by developers they trust.
 * Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by end-users and admins.
