@@ -1,6 +1,6 @@
 ---
 title: Use the Teams App Submission API to submit and approve your custom apps
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
 ---
@@ -32,7 +32,7 @@ This guidance focuses on the Teams aspects of the app and is intended for admins
 > When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. This article focuses on how to approve and publish a custom app that a developer submits through the Teams App Submission API. The other method, uploading a custom app, is used when a developer sends you an app package in .zip format. To learn more about that method, see [Publish a custom app by uploading an app package](/microsoftteams/upload-custom-apps). The approve app widget isn't available in GCC tenants.
 
 > [!IMPORTANT]
-> This method is not currently available for GCC environments. In GCC, use the *upload a custom app* method.
+> This method is not available in GCC environments. [Upload a custom app](upload-custom-apps.md) to publish it in GCC environments.
 
 ## Develop
 
@@ -48,7 +48,7 @@ The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-pub
 
 Here's an example of what this app submission step looks like in Visual Studio Code:
 
-:::image type="content" source="media/custom-app-lifecycle-submit-app.png" alt-text="submitting an app in Visual Studio Code.":::
+:::image type="content" source="media/custom-app-lifecycle-submit-app.png" alt-text="Screenshot of app submission in Visual Studio Code.":::
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Teams admin center where you can approve it for publishing to your organization's app store.
 

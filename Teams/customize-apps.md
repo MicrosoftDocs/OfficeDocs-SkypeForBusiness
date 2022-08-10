@@ -3,7 +3,6 @@ title: Modify the appearance of apps in your organization's Teams store
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,7 +13,7 @@ f1.keywords:
   - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to change the appearance of the app and rebrand an app by editing app details and metadata.
 ---
@@ -97,13 +96,13 @@ Now your Teams end-users can see the customized app in their client.
 
 Note the following details about customizing an app:
 
-* When you customize apps, and any description related to an app, ensure that you follow any customization guidelines if provided by the app publisher in their documentation or terms of use. You're also responsible for respecting the rights of others regarding any third-party images you might use.
+* When you customize apps, and any description related to an app, ensure that you follow any customization guidelines if provided by the app developer in their documentation or terms of use. You're also responsible for respecting the rights of others regarding any third-party images you might use.
 
 * Admin-provided customization data is stored in the nearest region.
 
 * You are responsible to ensure that links to terms of use or privacy policy are valid.
 
-* In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
+* In case the app developer no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
 
 * We recommend testing app customization changes in a Teams test tenant before making these changes in your production environment.
 
