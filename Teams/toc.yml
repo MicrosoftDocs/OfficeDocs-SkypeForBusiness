@@ -1614,7 +1614,7 @@ items:
           href: apps-update-experience.md
         - name: Audit app management activities
           href: audit-app-management-activities.md
-        - name: App usage report and analytics
+        - name: View app usage report and analytics
           href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
