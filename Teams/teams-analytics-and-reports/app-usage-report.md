@@ -57,7 +57,7 @@ The table at the bottom of the report (6) shows active users and teams by app na
    - **Version** is the software version of the app, from the app developer.
 
    > [!NOTE]
-   > **Active users** and **Active teams** are only calculated for apps used in channels only.
+   > **Active users** and **Active teams** are calculated for apps used in channels only.
 
 To add or remove columns in the table, at the upper right, select the **Edit columns** icon (7), on the **Edit columns** tab, select new criteria, and then select **Apply**.
 
