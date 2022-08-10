@@ -114,7 +114,6 @@ Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subsc
 
 ## More information
 
-- As an adnin, you can maintain control over who in your organization is using Walkie Talkie through app policies.
 - If your frontline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
