@@ -1,5 +1,5 @@
 ---
-title: "On-network Conferencing for Audio Conferencing"
+title: On-network Conferencing for Audio Conferencing
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,16 +9,15 @@ ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
+ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-ms.custom:
+f1.keywords: 
+  - NOCSH
+ms.custom: 
   - Audio Conferencing
-description: "The following describes On-network for Audio Conferencing."
+description: The following describes On-network for Audio Conferencing.
 ---
 
 # On-network Conferencing for Audio Conferencing

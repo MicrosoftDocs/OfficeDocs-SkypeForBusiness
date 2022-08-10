@@ -38,7 +38,7 @@ You can manage team templates in the Microsoft Teams admin center or by using Po
 This article gives you an overview of working with team templates in the Teams admin center. You'll learn about the properties that are supported in templates, the pre-built templates that we provide, template size limits, how to create and manage templates, and more.
 
 > [!NOTE]
-> Your users can [create teams from pre-built or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from pre-built team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
+> Your users can [create teams from pre-built or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from pre-built or custom team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
 ## Team template capabilities
 
@@ -92,7 +92,7 @@ For more information about ways to use the pre-built templates in your industry,
 - [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
 - [Nonprofit team templates](team-templates-nonprofit.md)
-- [Retail team templates](retail-teams-templates-in-the-admin-console.md)
+- [Retail team templates](get-started-with-retail-teams-templates.md)
 
 ## Team template size limits
 

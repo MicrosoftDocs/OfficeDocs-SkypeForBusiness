@@ -1,7 +1,7 @@
 ---
-title: "View Microsoft Teams utilization in Power BI using CQD data"
-ms.author: serdars
-author: SerdarSoysal
+title: View Microsoft Teams utilization in Power BI using CQD data
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
-  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-description: "Use the Teams Utilization Power BI reports to access Microsoft Teams Call Quality Dashboard (CQD) data to track Microsoft Teams usage in your organization."
+description: Use the Teams Utilization Power BI reports to access Microsoft Teams Call Quality Dashboard (CQD) data to track Microsoft Teams usage in your organization.
 ---
 
 # View Microsoft Teams utilization in Power BI using CQD data
 
-New in March 2020, we've added a Teams Utilization report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+The Teams Utilization report is available as part of our downloadable [Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
-This new Teams Utilization reports lets you see how (and how much) your users are using Microsoft Teams by accessing Teams Call Quality Dashboard (CQD) data. These reports are intended to be a centralized location that both administrators and business leaders can quickly go to for this data.
+This report lets you see how (and how much) your users are using Microsoft Teams by accessing Teams Call Quality Dashboard (CQD) data. These reports are intended to be a centralized location that both administrators and business leaders can quickly go to for this data. Note that we advise [not relying on this data for concrete numbers due to the nature of call quality telemetry](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that).
 
 The Teams Utilization Power BI report consists of two primary reports: **[Call Count Summary](#call-count-summary-report)** and **[Audio Minutes Summary](#audio-minutes-summary-report)**. The [Daily Usage](#daily-usage), [Regional Audio Details](#regional-audio-details), [Conference Details](#conference-details) and [User List](#user-list) reports come into play when a user takes advantage of the drill-down reports, noted in the descriptions below.
 

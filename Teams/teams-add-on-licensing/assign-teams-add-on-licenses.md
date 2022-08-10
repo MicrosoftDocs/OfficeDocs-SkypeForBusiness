@@ -1,17 +1,16 @@
 ---
 title: Assign Teams add-on licenses to users
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.reviewer: mikedav
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
@@ -49,7 +48,7 @@ You assign licenses on the **Licenses** page (for up to 20 users at a time) or t
 
 For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
+If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use PowerShell or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ## Using PowerShell
 
@@ -59,18 +58,10 @@ Use PowerShell to assign licenses to users in bulk. To learn more, see [Assign l
 
 Here's an example of how to use a script to assign licenses to your users.
 
-1. Install the 64-bit version of the [Microsoft Online Services Sign-in Assistant for IT Professionals RTW](/collaborate/connect-redirect?DownloadID=59185).
-2. Install the Microsoft Azure Active Directory Module for Windows PowerShell:
-    1. Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an admin).
-    2. Run the following command:
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. If you're prompted to install the NuGet provider, type **Y**, and then press Enter.
-    4. If you're prompted to install the module from PSGallery, type **Y**, and then press Enter.
-3. At the Windows PowerShell command prompt, run the following script to assign licenses to your users, where \<CompanyName:License> is your organization name and the identifier for the license that you want to assign. For example, litwareinc:MCOMEETADV.
+1. [Install the Microsoft Azure Active Directory Module for Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
+2. At the Windows PowerShell command prompt, run the following script to assign licenses to your users, where `CompanyName:License` is your organization name and the identifier for the license that you want to assign. For example, `litwareinc:MCOMEETADV`.
 
-    The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is MCOMEETADV. To learn more, see [Product names and SKU identifiers for licensing](#product-names-and-sku-identifiers-for-licensing).
+    The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is `MCOMEETADV`. To learn more, see [Product names and SKU identifiers for licensing](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
@@ -145,6 +136,8 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Domestic Calling Plan (120 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN5 |
 | Domestic Calling Plan (240 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP |
+| Pay-As-You-Go Calling Plans (Zone-1 Countries) | MCOPSTN_PAYG_1 |
+| Pay-As-You-Go Calling Plans (Zone-2 Countries) | MCOPSTN_PAYG_2 |
 
 ## Related content
 

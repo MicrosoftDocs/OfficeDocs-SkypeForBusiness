@@ -1,5 +1,5 @@
 ---
-title: "Plan your deployment for Teams phone devices and Displays"
+title: Plan your deployment for Teams phone devices and Displays
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -9,10 +9,13 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 search.appverid: MET150
-description: "This article provides and overview the tasks and steps to deploy Teams phones and displays in your organization."
+description: This article provides and overview the tasks and steps to deploy Teams phones and displays in your organization.
+ms.collection: 
+  - M365-voice
+  - Teams_ITAdmin_Devices
 ---
 
 # Plan your deployment for Teams phone devices and Displays

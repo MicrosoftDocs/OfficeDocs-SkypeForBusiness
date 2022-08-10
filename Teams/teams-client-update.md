@@ -8,11 +8,10 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-deployteams
 ms.reviewer: annaray
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: In this article, you'll learn about the process behind updating the Microsoft Teams desktop client.
 ms.localizationpriority: high
 appliesto: 

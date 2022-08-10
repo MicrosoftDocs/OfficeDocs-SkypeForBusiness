@@ -1,20 +1,19 @@
 ---
 title: Search the audit logs for app management events
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 f1keywords: 
 description: Learn how to audit Teams app activities of users and administrators in your organization.
 appliesto: 
-- Microsoft Teams
-ms.localizationpriority: high
+  - Microsoft Teams
+ms.localizationpriority: medium
 ---
 
 # Audit for app management activities and events
@@ -65,8 +64,9 @@ After searching the audit sign in the compliance portal, you can export the audi
 > [!NOTE]
 > When one of the above activities is performed by a user or admin, Teams generates and stores an audit record. In Audit (Standard), records are retained for 90 days, which means you can search for activities that occurred within the past three months.
 
-## See also
+## Related articles
 
+* [Use audit logs to investigate Microsoft Power Platform installation activity](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Search the audit sign in the compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Overview of Microsoft Purview Audit Premium](/microsoft-365/compliance/advanced-audit).
 * [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
