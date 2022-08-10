@@ -1,22 +1,20 @@
 ---
 title: Finished Teams Phone System with Calling Plan setup
-author: dstrome 
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: Learn about resources to help adoption of Teams Phone System with Calling Plan after setup is complete.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 # Finished Teams Phone System with Calling Plan setup

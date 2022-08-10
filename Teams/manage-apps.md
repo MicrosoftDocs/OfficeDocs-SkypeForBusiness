@@ -9,12 +9,11 @@ ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
-- ms.teamsadmincenter.manageapps.overview
+  - ms.teamsadmincenter.manageapps.overview
 description: Learn how to manage Teams apps. Learn to allow or block apps, check org-level status and app properties, upload custom apps, and manage app settings.
 appliesto: 
 - Microsoft Teams
@@ -37,7 +36,7 @@ During the creation of an app, the developers create and add an app ID to the ma
 
 ## App management use cases and the available interfaces
 
-The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are available in other portals or different admin center pages in the same portal.
+The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are available in other portals or different pages in the Teams admin center.
 
 | App management use cases | Link to the interface | Documentation |
 |:----|:----|:----|
@@ -50,7 +49,7 @@ The options to accomplish most of app management use cases are available in Team
 | The Teams app usage report provides information about which apps in use, active users, and other app usage information. | [Usage reports](https://admin.teams.microsoft.com/analytics/reports) | [Teams app usage report](teams-analytics-and-reports/app-usage-report.md) |
 | Your users can add apps when they host meetings or chats with guests. They can also use apps shared by guests when they join meetings or chats hosted externally. The data policies of the hosting user's organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](non-standard-users.md) |
 | With guest access, you can provide access to applications and other Teams functionality to people outside your organization, while maintaining control over your corporate data. | [Guest access](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Guest access in Teams](guest-access.md) |
-| Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app.  | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
+| Update policies are used to manage Teams and Office preview users, that will see pre-release or preview features in the Teams app. | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
 | **Outside Teams admin center** | | |
 | Manage licenses and subscriptions of third-party apps in Microsoft 365 admin center | [Microsoft 365 admin center](https://admin.microsoft.com/#/licenses) | [Manage third-party app subscriptions](/microsoft-365/commerce/manage-saas-apps) |
 | Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
@@ -62,7 +61,7 @@ The options to accomplish most of app management use cases are available in Team
 
 ## Allow and block apps
 
-The Manage apps page is where you allow or block individual apps at the org level. The page displays all the available app and their current org-level app status. The list of apps include apps provided by Microsoft, by third-party developers, and by developers within your organization.
+The Manage apps page is where you allow or block individual apps at the org level. The page displays all the available app and their current org-level app status. The list of apps includes apps provided by Microsoft, by third-party developers, and by developers within your organization.
 
 To allow or block an app:
 
@@ -75,27 +74,27 @@ When you allow (or block) an app on the [Manage apps](https://admin.teams.micros
 
 A user can install and use an app only when the app is allowed via the tenant-wide setting and allowed for the user via permission policy.
 
-## Manage user requests to unblock apps
+## Manage user requests to allow apps
 
-You can view requests to make a blocked app available for use. The request is sent to the IT admin, who can view and manage user requests in the Teams admin center.
+End-users can view, but not use, the blocked apps in Teams Store. For the blocked apps, an option is available to request admin approval. These requests are collated in Teams admin center and admins can view and manage the requests when they want to. We strongly recommend having a regular triage to check for end-user requests.
 
-  :::image type="content" source="media/user-request.png" alt-text="Place a request for blocked apps approval":::
+  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Request an admin to approve a blocked app by selecting the request approval option in Teams Store.":::
 
 ### View a request
 
- 1. Sign in to the Teams admin center and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
+ 1. Sign in to the Teams admin center and select **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
     :::image type="content" source="media/requested-apps1.png" alt-text="End-user requests for blocked apps are displayed in the Teams admin center in the column titled Requests by users." lightbox="media/requested-apps.png":::​
 
- 1. To view and check the number of requests for each app, sort the requests in the **Requests by user** column.
- 1. Select the name of the app that you want to unblock and it opens the app details page.
- 1. Select **Manage requests** and complete the steps displayed in the popup dialog. The steps to approve an app vary based on the method used to block it.
+ 1. To view and check the number of requests for each app, sort the requests in the **Requests by user** column. You can't view the name of the users who requested an app.
+ 1. To allow an app, select the name of the app and it opens the app details page.
+ 1. Select **Manage requests** and complete the steps displayed in the popup dialog. Based on the method used to block an app, one or more of the following steps are required to unblock it:
 
     * If the app is blocked using permission policies, allow the app by modifying [permission policies](teams-app-permission-policies.md).
     * If the app is blocked for all users, [allow the app](#allow-and-block-apps).
     * If all apps are blocked for all users, modify [org-wide settings](#manage-org-wide-app-settings).
 
- If an admin allows an app, then it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+ If an admin allows an app, then Teams doesn't inform the end-user that their request is acted upon. The user can view the app in the Teams Store to check if they can add the app to their Teams client or not. If the app is approved by an admin, users can add it. Alternatively, if and admin doesn't approve the request and dismisses it, then end-users can request it again.
 
 ### Dismiss a user request
 
@@ -103,21 +102,23 @@ You can view requests to make a blocked app available for use. The request is se
  1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
  1. When a request is dismissed, it resets the user requests to zero.
 
-  :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
+  :::image type="content" source="media/reject.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::​
 
-If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. After an admin dismisses a request, the end-user can request the app again.
 
 ## Allow the apps that are blocked by the developers
 
-When a developer publishes an app to the Teams app store, they might need admins to configure or customize the app experience. The admins make the experience available to the end-users when the app is set up.
+When a developer publishes an app to the Teams store, some apps might need an admin to configure the app. The admins make the app available to the end-users when the app is set up.
 
-For example, Contoso Electronics is an ISV that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and is hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**.
+For example, Contoso Electronics is an app developer that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin allows the application, it will show as **Blocked by publisher** in the Teams admin center and is hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**.
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Screenshot of blocked by publisher status in Teams admin center.":::
 
+For information on how developers block an app by default, see [Hide app until admin approves](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
+
 ## Manage org-wide app settings
 
-Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
+Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users.
 
 > [!NOTE]
 > To learn how to use org-wide app settings in Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).

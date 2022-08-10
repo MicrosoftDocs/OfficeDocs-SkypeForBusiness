@@ -117,8 +117,6 @@ items:
       items: 
         - name: Admin training for Teams
           href: itadmin-readiness.md
-        - name: Teams sessions at Ignite
-          href: ignite-2020-landing-page.md
         - name: End user training for Teams
           href: instructor-led-training-teams-landing-page.yml
 - name: Upgrade from Skype for Business
@@ -1569,14 +1567,18 @@ items:
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
 
-    - name: Manage custom line-of-business apps
+    - name: Manage custom apps
       items:
+        - name: Manage custom and sideloaded apps
+          href: custom-app-overview.md
+        - name: Manage custom app policies and settings
+          href: teams-custom-app-policies-and-settings.md
+        - name: Publish custom apps submitted using API
+          href: submit-approve-custom-apps.md
+        - name: Publish a custom app submitted as package
+          href: upload-custom-apps.md
         - name: Manage Power Platform apps in Teams admin center
           href: manage-power-platform-apps.md
-        - name: Publish custom apps on your organization store
-          href: submit-approve-custom-apps.md
-        - name: Publish a custom app by uploading an app package
-          href: upload-custom-apps.md
 
     - name: Admin controls to govern apps
       items:
@@ -1594,7 +1596,7 @@ items:
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Graph permissions and admin consent in Azure AD
+        - name: Review Azure AD permissions and grant admin consent
           href: app-permissions-admin-center.md
         - name: Manage resource-specific consent for your org
           href: resource-specific-consent.md

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams panels"
+title: Microsoft Teams panels
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article provides an overview of and features supported by Microsoft Teams panels."
+description: This article provides an overview of and features supported by Microsoft Teams panels.
 ---
 
 # Microsoft Teams panels

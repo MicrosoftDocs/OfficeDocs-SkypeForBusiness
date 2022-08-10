@@ -1,5 +1,5 @@
 ---
-title: "Phones and Devices for Microsoft Teams"
+title: Phones and Devices for Microsoft Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -8,13 +8,14 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-description: "See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams."
+f1.keywords: 
+  - NOCSH
+description: See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams.
 ---
 
 # USB audio and video devices certified for Microsoft Teams
@@ -82,8 +83,6 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Jabra                |Engage 50 II                                               |7/29/2022       |Certified for Microsoft Teams                           | 
-|Jabra                |Engage 40                                                  |7/29/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certified for Microsoft Teams                           |
 |Dell                 |WB5023 camera                                              |6/29/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |

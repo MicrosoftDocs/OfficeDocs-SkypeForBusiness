@@ -20,9 +20,9 @@ appliesto:
 
 # IT Admin Guide to Reflect in Microsoft Teams
 
-This document provides information concerning [Reflect](https://aka.ms/reflect) – an integral part of [Education Insights in Microsoft Teams](class-insights.md). Reflect helps students recognize and navigate their emotions by providing regular opportunities to share and be heard. Reflect can help broaden learners' emotional vocabulary and deepen empathy for their peers while also providing valuable feedback to educators for a healthy classroom community.
+This document provides information concerning [Microsoft Reflect](https://aka.ms/reflect) – an integral part of [Education Insights in Microsoft Teams](class-insights.md). Reflect helps students recognize and navigate their emotions by providing regular opportunities to share and be heard. Reflect can help broaden learners' emotional vocabulary and deepen empathy for their peers while also providing valuable feedback to educators for a healthy classroom community.
 
-This check-in app uses emojis and research-backed emotional granularity to support educators in adding social and emotional learning into their already busy routine.
+This free check-in app uses emojis and characters to help students develop emotional granularity. Research demonstrates that explicit teaching of social and emotional skills improves student academic and behavioral performance and has life-long positive impacts.
 
 ## Privacy and Security
 
@@ -64,16 +64,7 @@ If you have previously defined that each app needs to be allowed, please go to t
 > For more details, read [how to allow an app or to add it to a class team](manage-apps.md#allow-and-block-apps).
 
 ## Where do educators find Reflect?
-Once you have enabled Reflect, educators go to the class and select **New Conversation**. They then select '**...**' to bring up messaging extensions and enter **Reflect** in the search bar. The dialog box guides them through defining the question and who can see what.
-
-:::image type="content" source="media/reflect-add-app.png" alt-text="Add Reflect to class team.":::
-
-They can right-click on the Reflect icon and select **Pin** for easy access.
-
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Pin the Reflect app.":::
-
-> [!TIP]
-> You can also locate the Reflect app through this link: [https://aka.ms/getReflect](https://aka.ms/getReflect)
+Reflect is available by default in any Class or Staff team. To access the app, navigate to your desired team, then select the Reflect tab.
 
 > [!TIP]
 > For more details, visit [Reflect support page](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). This page provides guidelines for both educators and students and helps with how to create their first Reflect check-in.

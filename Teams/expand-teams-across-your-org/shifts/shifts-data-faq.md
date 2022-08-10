@@ -8,16 +8,15 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-searchScope:
+searchScope: 
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
-description: Get answers to frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption. 
-f1.keywords:
-- NOCSH
+description: Get answers to frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption.
+f1.keywords: 
+  - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams

@@ -1,5 +1,5 @@
 ---
-title: "Devices for Teams"
+title: Devices for Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,13 +9,14 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Skype for Business Certification
   - dn947482
@@ -96,6 +97,8 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Crestron UC-P8-TD |`1.0.0.42`| August 5, 2023 |  9  |
+| Crestron UC-P10-TD |`1.0.0.42`| August 5, 2023 |  9  |
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| December 5, 2022 |  8.1  |
 
 ## Certified Teams panels
@@ -144,6 +147,12 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.168`     | 2022 Update #3A  |
+|Yealink VP59  | `91.15.0.102`     | 2022 Update #3A  |
+|Yealink CP960  | `73.15.0.163`     | 2022 Update #3A  |
+|Yealink CP965  | `143.15.0.12`     | 2022 Update #3A  |
+|Yealink MP54/MP56/MP58  | `122.15.0.91`     | 2022 Update #3A  |
+|Yealink MP52  | `145.15.0.42`     | 2022 Update #3A  |
 |Poly Trio C60 | `7.3.1.0813` | 2022 Update #1C |
 |Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | 2022 Update #1C
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 Update #2A  |
@@ -232,8 +241,9 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 2022 Update #2  | May 25,2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
-| 2022 Update #1  | February 24,2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
+| 2022 Update #2A  | August 8, 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
+| 2022 Update #2  | May 25, 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
+| 2022 Update #1  | February 24, 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2021 Update #2A | July 15, 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 Update #2 | June 28, 2021  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 Update #1A  |May 12, 2021  |`1449/1.0.96.2021042903` |`5.0.4927.0`     |`1.0.0.202010121132.product version code: 223` |
@@ -248,6 +258,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
