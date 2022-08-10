@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-quhur
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -41,9 +41,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-hour latency from the time an app was opened.
 
-The Y axis on the chart is the number of users who for the date you selected by hovering over the chart are considered active users. Users who open an app at least once are considered active users.
-
-The X axis on the chart is the date range that you selected for the report.
+Admin center provides a chart of the active users and the dates. Active users is the number of users who opened an app at least once during the selected time period.
 
 Hover over the dot (4) representing an app's usage on any date to see the total number of that app’s active users on that date.
 
@@ -59,7 +57,7 @@ The table at the bottom of the report (6) shows active users and teams by app na
    - **Version** is the software version of the app, from the app developer.
 
    > [!NOTE]
-   > **Active users** and **Active teams** are only calculated for apps used in channels.
+   > **Active users** and **Active teams** are only calculated for apps used in channels only.
 
 To add or remove columns in the table, at the upper right, select the **Edit columns** icon (7), on the **Edit columns** tab, select new criteria, and then select **Apply**.
 

@@ -7,7 +7,6 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection: 
@@ -67,13 +66,13 @@ For more information, see [Understand and manage custom and sideloaded apps](cus
 
 ## About App Templates
 
-App templates for Teams are functional and production-ready sample apps created by Microsoft to achieve the following:
+Using the app development methods, Microsoft creates and provides functional and production-ready sample apps. Collectively, these apps are called App templates for Teams and are provided to:
 
-* Illustrate the popular use cases.
-* Showcase app development best practices.
-* Provide open-source apps that developers can extend to create custom apps.
+* Illustrate a few collaboration use cases in Teams.
+* Showcase app development best practices and methods.
+* Provide open-source apps that developers can extend to create their own apps.
 
-Your organization developers customize App Templates with simple changes to the code available in GitHub. You provide these apps as custom apps for your end-users, to meet any organization needs.
+Your organization developers customize App Templates with simple changes to the provided source code. You provide these apps as custom apps for your end-users, to meet any organization needs.
 
 To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
@@ -161,3 +160,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## Related articles
+
+* [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).
