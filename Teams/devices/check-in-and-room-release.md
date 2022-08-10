@@ -24,7 +24,9 @@ When check-in and room release are enabled, users check in on Teams panels at th
 
 ## Requirements 
 
-This feature can be used in a standalone Teams panel deployment. You can also pair Teams panels with Teams Rooms on Android with app version 1449/1.0.96.2022011305 or later for additional functionalities like check-in notifications.  
+This feature can be used in a standalone Teams panel deployment. You can also pair Teams panels with Teams Rooms on Android with app version 1449/1.0.96.2022011305 or later for additional functionalities like check-in notifications.
+
+The shared mailbox associated with the Teams panel needs to have the correct time zone set for this feature to work correctly. For information about how to set the time zone for shared mailboxes, see [Time zone settings for shared mailboxes in Outlook on the web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
 ## Enable check-in and room release 
 
