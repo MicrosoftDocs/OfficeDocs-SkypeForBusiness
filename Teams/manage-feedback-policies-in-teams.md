@@ -63,6 +63,7 @@ To turn off and turn on the features, set the following parameters:
 
  - **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
 
+ - **Screenshots**: Use the **AllowScreenshotCollection** to flag to add screenshot collection opt-in for users.
  - **Email**: Use the **AllowEmailCollection** flag to add an email field.
  - **Log collection**: Use the **AllowLogCollection** flag to add log collection opt-in for users. Log collection is currently enabled only on mobile. For more details on what data is shared via logs, [learn more](https://go.microsoft.com/fwlink/?linkid=2168178).
 
