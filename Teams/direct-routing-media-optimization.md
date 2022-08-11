@@ -227,7 +227,7 @@ The diagram below shows the high-level traffic flow for the internal user in Ger
 
 Diagram 5.  Traffic flow with "Always Bypass" mode and the user is in the "home" site
 
-![A diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-5.png "Traffic flow with 'Always Bypass' mode and user is in the "home" site")
+![A diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-5.png "Traffic flow with 'Always Bypass' mode and user is in the 'home' site")
 
 
 #### Scenario 2: The user and gateways are in different sites
