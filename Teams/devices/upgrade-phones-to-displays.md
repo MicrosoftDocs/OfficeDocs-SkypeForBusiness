@@ -1,5 +1,5 @@
 ---
-title: "Upgrade Teams phones to Teams displays"
+title: Upgrade Teams phones to Teams displays
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "Learn how to upgrade Teams phones to Teams displays in the Microsoft Teams admin center."
+description: Learn how to upgrade Teams phones to Teams displays in the Microsoft Teams admin center.
 ---
 
 # Upgrade Teams phones to Teams displays

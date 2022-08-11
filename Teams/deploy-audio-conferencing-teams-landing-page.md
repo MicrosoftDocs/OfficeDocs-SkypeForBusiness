@@ -12,11 +12,10 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
-ms.custom:
+ms.custom: 
   - seo-marvel-mar2020
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 

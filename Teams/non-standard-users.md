@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work differently for guests, federated users, and anonymous users.
-ms.localizationpriority: medium
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -19,16 +19,16 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Microsoft Teams apps behavior based on types of users
+# Behavior of Microsoft Teams apps based on types of in-meeting users
 
 Teams apps behave when guest, external (federated), and anonymous users are present in a Teams context.
 
 * A **guest user** is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization.
 
-* An **external (federated) user** belongs to another domain and has no access to your organization's teams or team resources.
+* An **external (federated) user** is from another domain and does not have access to your organization's Teams resources.
 
   > [!Note]
-  > For a more detailed comparison of guest versus external users, [see communicate with users from other organizations](./communicate-with-users-from-other-organizations.md).
+  > For a more detailed comparison between guest and external users, see [communicate with users from other organizations](./communicate-with-users-from-other-organizations.md).
 
 * An **anonymous user** is a user who joins a meeting via a link. The user isn't logged in with their Microsoft account or their organization’s account.
 

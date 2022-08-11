@@ -1,5 +1,5 @@
 ---
-title: "Create a call queue via cmdlets"
+title: Create a call queue via cmdlets
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -20,7 +19,7 @@ ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
-  - ms.teamsadmincenter.callqueues.overview"
+  - ms.teamsadmincenter.callqueues.overview
   - Phone System
   - seo-marvel-apr2020
 description: Learn how to configure call queues via cmdlets
