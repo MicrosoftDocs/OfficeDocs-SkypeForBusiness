@@ -138,6 +138,8 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Communications Credits | MCOPSTNPP |
 | Pay-As-You-Go Calling Plans (Zone-1 Countries) | MCOPSTN_PAYG_1 |
 | Pay-As-You-Go Calling Plans (Zone-2 Countries) | MCOPSTN_PAYG_2 |
+| Teams Room Basic | ?|
+| Teams Room Pro | ? |
 
 ## Related content
 
