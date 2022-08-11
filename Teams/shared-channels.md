@@ -67,7 +67,7 @@ A shared channel owner can't be removed through the Teams client if they are the
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel is automatically promoted to be the shared channel owner. Consider adding more than one owner to avoid this situation.
 
 > [!NOTE]
-> External members should be added using their UPN, rather than their email address if the two don't match within Azure Active Directory.
+> External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
 
 ## Channel owner settings
 
