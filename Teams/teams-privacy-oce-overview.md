@@ -41,6 +41,12 @@ The URL Preview service automatically generates a preview snippet and attaches u
 
 The Teams app link previews service generates a preview snippet of the app's adaptive card and attaches it under the URL when a user sends a URL string that maps to the app in the Teams store. This service will make a request to the service URL as the user is typing the message.
 
+## Teams device store checkout  
+
+Teams device store is in the Teams admin center and it enables discovery and purchase of Teams certified devices. To enable checkout, the Teams device store shares basic user and company information, including user email address, user GUIDs and tenant GUIDs, with UnifiedCommunications.com. This experience, if allowed by the **Allow the use of additional optional connected experiences in Office** policy setting, is subject to the terms of service and privacy statement of UnifiedCommunications.com.
+
+To learn more about Teams device store, check out: [Purchase devices in the Teams device store](devices/device-store.md)
+
 ## Related articles
 
 - [Overview of policy controls for Teams](policy-control-overview.md)
