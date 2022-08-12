@@ -245,7 +245,7 @@ First, Connect to Active Directory PowerShell:
    Connect-AzureAD
 ```
 
-Then, see [Set a password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
+Then, see [Set a password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire).
 
 This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
@@ -283,7 +283,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    For details about Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+    For details about Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory/).
 
 2. Set the password to never expire by using the following syntax:
 
