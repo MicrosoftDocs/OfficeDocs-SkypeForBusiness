@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing in Microsoft 365"
+title: Audio Conferencing in Microsoft 365
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto: 
@@ -19,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
-- CSH
+  - CSH
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview

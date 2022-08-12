@@ -8,11 +8,13 @@ ms.service: msteams
 audience: admin
 ms.reviewer: anblak
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: An overview of the integrated contact center as a service (CCaaS) solution for Microsoft Teams
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 

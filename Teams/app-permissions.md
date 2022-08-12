@@ -1,9 +1,8 @@
 ---
 title: Microsoft Teams apps permissions and considerations
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -187,7 +186,7 @@ None
 
 * Outgoing webhooks are similar to bots but have fewer privileges. They must be explicitly mentioned, just like bots.
 
-* When an outgoing webhook is registered, a secret is generated, which allows the outgoing webhook to verify that the sender is Microsoft Teams as opposed to a malicious attacker. This secret should remain a secret; anyone who has access to it can impersonate Microsoft Teams. If the secret is compromised, the outgoing webhook can be deleted and re-created, and a new secret will be generated.
+* When an outgoing webhook is registered, a secret is generated, which allows the outgoing webhook to verify that the sender is Microsoft Teams as opposed to a malicious attacker. This secret should remain a secret; anyone who has access to it can impersonate Microsoft Teams. If the secret is compromised, delete and re-create the outgoing webhook to generate a new secret.
 
 * Although it's possible to create an outgoing webhook that doesn't validate the secret, we recommend against it.
 

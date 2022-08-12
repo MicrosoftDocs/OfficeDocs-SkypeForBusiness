@@ -9,15 +9,18 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
-- CSH
-ms.custom:
-- ms.teamsadmincenter.voice.phonenumbers.porting.overview
-- Calling Plans
-description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams. 
+  - CSH
+ms.custom: 
+  - ms.teamsadmincenter.voice.phonenumbers.porting.overview
+  - Calling Plans
+description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams.
+ms.collection: 
+  - M365-voice
+  - m365initiative-voice
 ---
 
 # What's a port order?

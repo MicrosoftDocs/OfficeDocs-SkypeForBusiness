@@ -7,12 +7,13 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: This article describes how Kaizala users can navigate through Microsoft Teams.  
-f1.keywords:
+description: This article describes how Kaizala users can navigate through Microsoft Teams.
+f1.keywords: 
 ms.localizationpriority: medium
-search.appverid:
-ms.collection:
-ms.custom:
+search.appverid: 
+ms.collection: 
+  - M365-collaboration
+ms.custom: 
 ---
 
 
