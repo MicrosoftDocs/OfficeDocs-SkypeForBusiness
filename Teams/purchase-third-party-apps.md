@@ -67,7 +67,7 @@ After you've purchased the SaaS offer associated with the Teams app, you can vie
 * **License activation date**: Date on which your license was activated.
 * **Licenses**: Number of licenses you purchased.
 
-  :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab on the app details page in Teams admin center." lightbox="media/purchase-third-party-apps-details-page.png":::
+  :::image type="content" source="media/manage-apps-plans-and-subscription.png" alt-text="Screenshot of Plans and pricing tab on the app details page in Teams admin center." lightbox="media/purchase-third-party-apps-details-page.png":::
 
 Select **Manage subscriptions** to view and manage the licenses you purchased.
 
