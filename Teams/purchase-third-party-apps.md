@@ -40,7 +40,7 @@ To purchase apps in Teams admin center, follow these steps:
     * **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     * **- -**: The app doesn't offer a SaaS subscription.
 
-1. When you find the app, select **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select **Learn more** to go to the app's page on [AppSource](https://appsource.microsoft.com/).
+1. When you find the app, select **Purchase** to go to the **Plans and subscriptions** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select **Learn more** to go to the app's page on [AppSource](https://appsource.microsoft.com/).
 
    > [!NOTE]
    > Private plans may also be listed for purchase, which include special pricing that your organization can separately negotiate with an app developer. Such plans have the label **Private plan** under the plan name.
@@ -62,9 +62,9 @@ To purchase apps in Teams admin center, follow these steps:
 
 1. Select **Set up** to activate your subscription on the app developer's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage subscriptions**.
 
-After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
+After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and subscriptions** tab of the app details page.
 
-* **License activation date**: Date on which your license was activated. If your account isn't yet set up, this field shows **Subscription pending activation**.
+* **License activation date**: Date on which your license was activated.
 * **Licenses**: Number of licenses you purchased.
 
   :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab on the app details page in Teams admin center." lightbox="media/purchase-third-party-apps-details-page.png":::
