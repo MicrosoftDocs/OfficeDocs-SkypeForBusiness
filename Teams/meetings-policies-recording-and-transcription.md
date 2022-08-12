@@ -26,6 +26,7 @@ This article describes the meeting policy settings specific to recording and tra
 
 - [Allow transcription](#allow-transcription)
 - [Allow cloud recording](#allow-cloud-recording)
+- [Allow automatic expiration of meeting recordings](#allow-automatic-expiration-of-meeting-recordings)
 - [Store recordings outside of your country or region](#store-recordings-outside-of-your-country-or-region)
 
 ## Allow transcription
@@ -59,6 +60,79 @@ Let's look at the following example.
 - John can't record meetings organized by Amanda.
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
+
+## Allow automatic expiration of meeting recordings
+
+This setting controls whether or not meeting recordings automatically expire. After turning on this setting, you'll get the option to set a default expiration time, measured in days.
+
+:::image type="content" source="media/meeting-expiration-policy.jpg" alt-text="Screenshot from Teams admin center of automatic meeting expiration setting.":::
+
+This setting provides you with a simple tool that reduces the amount of storage older recordings use. The OneDrive and SharePoint system will monitor the expiration set on all meeting recordings and will automatically move recordings to the recycle bin on their expiration date.
+
+### Default expiration
+
+All newly created meeting recordings will have a default expiration of 120 days; all recordings created after this feature was turned on will be deleted 120 days after their creation date.
+
+> [!NOTE]
+> The maximum default expiration date for A1 users is 30 days.
+
+#### Changing default expiration
+
+Admins can edit the default expiration setting in PowerShell or the Teams admin center. Any changes will only affect newly created meeting recordings from that point forward; they won’t impact any recordings created before that date.
+
+Admins can’t change the expiration date on existing meeting recordings. This is done to protect the decision of the user that owns the recording. Both meetings and calls can be controlled by this setting.
+
+The expiration value is an integer for days.  This can be set as follows:
+
+- Minimum value: 1
+- Maximum value: 99999
+- You can also set the expiration date to -1 in PowerShell so the recordings never expire.
+
+Example PowerShell command:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
+```
+
+### Compliance
+
+You shouldn’t rely on meeting expiration settings for legal protection since end users can modify the expiration date of any recordings they control.
+
+#### Recording expiration settings and Microsoft 365 retention policies in Microsoft Purview
+
+File retention takes precedence over file deletion. A meeting recording with a Purview retention policy cannot be deleted by a recording expiration policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a recording expiration policy set for 60 days, the recording expiration policy will delete the recording after five years.
+
+If you have a recording expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a recording expiration set for 120 days, the recording expiration setting will delete the file after 120 days.
+
+#### Enforcement of file retention
+
+Files won’t be retained due to this feature or its settings. If a user with delete permissions attempts to delete a meeting recording that has an expiration setting, that user’s delete action will be executed.
+
+### Deletion of recordings
+
+The recording is usually deleted within a day after the expiration date but in rare instances could take as long as five days. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
+
+> [!NOTE]
+> On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won’t be deleted by this feature again because the expiration date has been cleared.
+
+### Expiration of migrated recordings from Stream (Classic)
+
+Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain. More details will be can be found in [the Stream (Classic) migration documentation](/stream/streamnew/stream-classic-to-new-migration-overview).
+
+### Recording file statistics
+
+These statistics may help you determine what the optimal default auto-expiration should be for your organization.
+
+1. Find the video in the library.
+2. Select … > Details
+3. Select the number of views at the top of the details pane.
+
+You’ll see file statistics that show:
+
+- The number of unique viewers
+- The number of total views
+- The trend of viewers and views day-by-day for the last 90 days
+- Viewership retention (which part of the video was viewed or not viewed)
 
 ## Store recordings outside of your country or region
 
