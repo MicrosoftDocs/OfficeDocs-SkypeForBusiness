@@ -28,7 +28,6 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 
 ## Purchase apps in the Teams admin center
 
-
 > [!IMPORTANT]
 > When you enable app purchasing, it will also turn on in-app purchasing. Users may see in-app purchase offers which are controlled by the ISV for their app. If you want to block your users from purchasing an app, you must block the app. For more information on how to block an app, see [Manage app policies](app-policies.md) or [learn how to block an app at the org-level](manage-apps.md#allow-and-block-apps).
 
@@ -61,16 +60,16 @@ To purchase apps in Teams admin center, follow these steps:
 
 1. Select **Place order**.
 
-1. Select **Set up** to activate your subscription on the app developer's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage licenses**.
+1. Select **Set up** to activate your subscription on the app developer's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage subscriptions**.
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
 
-- **License activation date**: Date on which your license was activated. If your account isn't yet set up, this field shows **Subscription pending activation**.
-- **Licenses**: Number of licenses you purchased.
+* **License activation date**: Date on which your license was activated. If your account isn't yet set up, this field shows **Subscription pending activation**.
+* **Licenses**: Number of licenses you purchased.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab on the app details page in Teams admin center.":::
+  :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab on the app details page in Teams admin center." lightbox="media/purchase-third-party-apps-details-page.png":::
 
-Select **Manage licenses** to view and manage the licenses you purchased.
+Select **Manage subscriptions** to view and manage the licenses you purchased.
 
 Global admins can add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in the organization. Teams service admins can perform the same actions for purchases made by themselves. However, if a Teams service admin also has the Billing admin role, they can manage purchases made by anyone in the organization.
 
