@@ -146,7 +146,7 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 - [**Phone System with Calling Plan**](pstn-connectivity.md#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Phone System with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md). With Operator Connect, if your existing operator is a participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. 
+- [**Phone System with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md). With Operator Connect, if your existing operator participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. 
 
 - [**Phone System with your own PSTN mobile carrier by using Operator Connect Mobile**](operator-connect-mobile-plan.md). With Operator Connect Mobile, if your existing operator participates in the Microsoft Operator Connect Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams. 
 
