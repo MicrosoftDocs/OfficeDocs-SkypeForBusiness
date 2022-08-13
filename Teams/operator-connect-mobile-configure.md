@@ -47,11 +47,11 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 
 - If you need to acquire phone numbers for new users, see [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).  
 
-- If you want to move existing numbers from Calling Plans to Operator Connect Mobile, see [Move numbers from Calling Plans to Operator Connect Mobile](#move-numbers-from-calling-plans-to-operator-connect).  
+- If you want to move existing numbers from Calling Plans to Operator Connect Mobile, see [Move numbers from Calling Plans to Operator Connect Mobile](#move-numbers-from-calling-plans-to-operator-connect-mobile).  
 
-- If you want to move existing numbers from Operator Connect to Operator Connect Mobile, see [Move numbers from Calling Plans to Operator Connect Mobile](#move-numbers-from-calling-plans-to-operator-connect).  
+- If you want to move existing numbers from Operator Connect to Operator Connect Mobile, see [Move numbers from Calling Plans to Operator Connect Mobile](#move-numbers-from-operator-connect-to-operator-connect-mobile).  
 
-- If you want to move existing numbers from Direct Routing to Operator Connect Mobile, see [Move numbers from Direct Routing to Operator Connect Mobile](#move-numbers-from-direct-routing-to-operator-connect).  
+- If you want to move existing numbers from Direct Routing to Operator Connect Mobile, see [Move numbers from Direct Routing to Operator Connect Mobile](#move-numbers-from-direct-routing-to-operator-connect-mobile).  
 
 - If you want to add your existing company paid SIM-enabled phone number to Teams, contact your operator to ensure you have the eligible OCM subscription and they can upload your numbers to Teams. Once your operator completes the order, you can [assign those numbers to users](assign-change-or-remove-a-phone-number-for-a-user.md). 
 
@@ -69,7 +69,7 @@ To assign numbers to emergency addresses being used by Microsoft Teams endpoints
 
 When calls are made through the native dialer of the SIM-enabled smartphone, your operator may use the geographic coordinates or cell tower handling the call to approximate emergency location for assistance.
 
-For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling).
+For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 ### Acquire numbers for new Teams users
 
@@ -81,7 +81,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 3. **Acquire numbers.** Go to your operator's website or contact them to order and acquire mobile SIM-enabled phone numbers with OCM service enabled. For a list of operator websites, go to the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
 
-4. **Assign numbers.** Once your operator completes the order, they'll upload SIM-enabled mobile numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
+4. **Assign numbers.** Once your operator completes the order, they'll upload SIM-enabled mobile numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ### Move numbers from Calling Plans to Operator Connect Mobile
 
@@ -103,8 +103,9 @@ To acquire numbers for new Teams users, follow these steps:
 
 4. Assign Operator Connect Mobile numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-### Move numbers from Direct Routing to Operator Connect Mobile   **TBD**
+### Move numbers from Direct Routing to Operator Connect Mobile   
 
+**TBD**
 **NEED TO ADD SECTION**
 
 ## Manage your operators
