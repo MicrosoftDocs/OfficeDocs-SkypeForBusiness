@@ -31,9 +31,9 @@ Before you can assign Microsoft-supplied telephone numbers to your users, you mu
 
 If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you will need for your users. The page will automatically limit the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you will be directed to the landing page of your selected operator to complete the number order.
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, or Direct Routing.
+How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Operator Connect Mobile, or Direct Routing.
 
-This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans) and [Operator Connect](#search-for-telephone-numbers-for-operator-connect). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile), and [Operator Connect Mobile] (#search-for-telephone-numbers-for-operator-connect-or-oerator-connect-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## Search for telephone numbers for Microsoft Calling Plans
 
@@ -66,7 +66,7 @@ To search for telephone numbers for your users:
 
 9. When you return to the **Phone numbers** page, select the telephone number or numbers that you want to assign and then click **Edit** to assign it to a user.
 
-## Search for telephone numbers for Operator Connect
+## Search for telephone numbers for Operator Connect or Operator Connect Mobile
 
 1. Go to the **Microsoft Teams admin center**.
 
