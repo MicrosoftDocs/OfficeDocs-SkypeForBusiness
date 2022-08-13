@@ -120,7 +120,7 @@ The right tile on the Home screen now appears in purple and displays the **Reser
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting.":::
 
     > [!NOTE]
-    > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Room or Surface Hub devices.
+    > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Rooms or Surface Hub devices.
 
 ### Report a problem
 
@@ -188,9 +188,9 @@ To access the **Panels App Settings** option:
     - [Wallpaper](#update-the-wallpaper)
     - [LED indicator](#change-the-busy-state-led-color)
 
-#### Pair a Teams panel with a Microsoft Teams Room on Android
+#### Pair a Teams panel with a Microsoft Teams Rooms on Android
 
-To pair a Teams panel and Teams Room on Android, both devices must be signed into the same resource account.
+To pair a Teams panel and Teams Rooms on Android, both devices must be signed into the same resource account.
 
 On the Teams panel, sign in using your admin credentials.
 
@@ -202,15 +202,15 @@ On the Teams panel, sign in using your admin credentials.
 
 Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
 
-When Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
+When Teams Panels is paired with a Microsoft Teams Rooms on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
 
 To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
 
 #### Room capacity warning
 
-Teams panels that are paired with a Teams Room on Android can display a warning message when a meeting room is at or over capacity. To use this feature, the Teams Room must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
+Teams panels that are paired with a Teams Rooms on Android can display a warning message when a meeting room is at or over capacity. To use this feature, the Teams Rooms must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
 
-Room capacity warnings are turned off by default. To turn the setting on from the Teams panel, first [pair a Teams panel with a Microsoft Teams Room on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Room must be signed into the same resource account.
+Room capacity warnings are turned off by default. To turn the setting on from the Teams panel, first [pair a Teams panel with a Microsoft Teams Rooms on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Rooms must be signed into the same resource account.
 
  Then, go to **Settings > Device settings > Admin settings > Panel app settings**. Then, under **Meetings**, turn on **Max room occupancy notification**.
 
