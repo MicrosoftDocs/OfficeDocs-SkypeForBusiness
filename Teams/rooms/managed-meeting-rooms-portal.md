@@ -33,11 +33,11 @@ The scope of the monitoring is
   - Top issues affecting your rooms
   - Actions required to restore rooms to healthy status
   - Issues that are under investigation by Microsoft
-- View of Microsoft Teams Room devices
+- View of Microsoft Teams Rooms devices
   - Snapshot of status at Microsoft Teams Rooms (MTR) device level
   - Basic history and details for every device
 
-**View of Microsoft Teams Room devices**
+**View of Microsoft Teams Rooms devices**
 
 - Snapshot of status at Microsoft Teams Rooms (MTR) device level
 - Basic history and details for every device
@@ -51,9 +51,9 @@ Here are frequently used terms in the portal.
 
 |Term |Meaning |
 | :- | :- |
-|**Monitoring Software** |Monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
-|**App** |Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
-|**Room/Device** |The certified Microsoft Teams Room system device. |
+|**Monitoring Software** |Monitoring agent that is deployed in each of the Microsoft Teams Rooms devices. |
+|**App** |Microsoft Teams Rooms system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
+|**Room/Device** |The certified Microsoft Teams Rooms system device. |
 |**Unmonitored** | Microsoft monitoring software deployed as part of managed services is not able to connect to the cloud services. We are not receiving telemetry about the device. |
 |<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device / peripheral. |
 |**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device can be suppressed deliberately. |
@@ -117,16 +117,16 @@ Following are some of the types of incidents that you might see and the explanat
 |**Conference microphone, Conference speaker** |The audio devices (microphone / speaker) seem to be misconfigured. |
 |**Camera** |The camera connected to the device does not appear to be healthy. |
 |**HDMI Ingest** |HDMI Ingest is not healthy. |
-|**Sign-In** (Exchange) |Microsoft Teams Room app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
-|**Sign-In** (Teams) |Microsoft Teams Room app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
-|**Sign-In** (Skype for Business) |Microsoft Teams Room app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business) |
-|**Proximity Sensor** |Microsoft Teams Room app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
+|**Sign-In** (Exchange) |Microsoft Teams Rooms app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
+|**Sign-In** (Teams) |Microsoft Teams Rooms app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
+|**Sign-In** (Skype for Business) |Microsoft Teams Rooms app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business) |
+|**Proximity Sensor** |Microsoft Teams Rooms app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
 
 **Table 2: Incidents with “Warning” severity**
 
 |Type |Explanation |
 | :- | :- |
-|**App version** |The version of the Microsoft Teams Room App running on the device is not current. Stale versions are known causes to problems experienced by users. |
+|**App version** |The version of the Microsoft Teams Rooms App running on the device is not current. Stale versions are known causes to problems experienced by users. |
 |**OS version** |The version of Windows operating system running in the meeting room is no longer recommended. |
 |**Network** |This will be removed as a type of warning in the near term due to additional work required after evaluation. |
 
