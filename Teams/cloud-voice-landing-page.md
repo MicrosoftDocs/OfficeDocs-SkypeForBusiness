@@ -44,8 +44,8 @@ However, your situation might be more complex. For example, you might have offic
 
 - Phone System with Calling Plan
 - Phone System with your own PSTN carrier with Operator Connect
-- Phone System  with your own PSTN carrier with Direct Routing
 - Phone System with your own PSTN mobile carrier with Operator Connect Mobile
+- Phone System  with your own PSTN carrier with Direct Routing
 - A combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, and/or Phone System with Direct Routing
 
 For a visual summary of all the voice solution options, see the voice solutions poster.
@@ -146,9 +146,9 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 - [**Phone System with Calling Plan**](pstn-connectivity.md#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Phone System with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md). With Operator Connect, if your existing operator is a participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. For information on the benefits and requirements of Operator Connect, see [Plan Operator Connect](operator-connect-plan.md).
+- [**Phone System with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md). With Operator Connect, if your existing operator is a participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. 
 
-- [**Phone System with your own PSTN mobile carrier by using Operator Connect Mobile**](operator-connect-mobile-plan.md). With Operator Connect Mobile, if your existing operator participates in the Microsoft Operator Connect Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams. For information on the benefits and requirements of Operator Connect, see [Plan Operator Connect Mobile](operator-connect-mobile-plan.md).
+- [**Phone System with your own PSTN mobile carrier by using Operator Connect Mobile**](operator-connect-mobile-plan.md). With Operator Connect Mobile, if your existing operator participates in the Microsoft Operator Connect Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams. 
 
 - [**Phone System with your own PSTN carrier by using Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) to connect your on-premises environment to Teams.
 

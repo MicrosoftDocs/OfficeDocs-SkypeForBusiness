@@ -26,7 +26,7 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 When you set up Calling Plans, Operator Connect, or Operator Connect Mobile, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
 
-This article applies to Calling Plans and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Calling Plans, Operator Connect, and Operator Connect Mobile. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
 Before you assign a number for a Calling Plan, Operator Connect, or Operator Connect Mobile user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md), [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers), or [Set up numbers for Operator Connect Mobile users](operator-connect-mobile-configure.md).
 
@@ -44,8 +44,6 @@ To assign a number by using the Teams admin center:
 
 [!INCLUDE [assign-phone-numbers-to-users-steps](./includes/assign-phone-numbers-to-users-steps.md)]
 
-> [!NOTE]
-> For step 4, if you're assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
@@ -105,7 +103,7 @@ To change a phone number for a user by using the Teams admin center:
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
       > [!NOTE]
-      > If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
+      > If you are changing numbers for Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 9. Click **Save**.
 

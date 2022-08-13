@@ -23,7 +23,7 @@ appliesto:
 
 # Configure Operator Connect Mobile
 
-This article describes how to configure Operator Connect Mobile. Before configuring Operator Connect Mobile, be sure to read [Plan for Operator Connect Mobile](operator-connect-mobile-plan.md) for information about prerequisites and licensing.
+This article describes how to configure Operator Connect Mobile. Before configuring Operator Connect Mobile, be sure to read [Plan for Operator Connect Mobile](operator-connect-mobile-plan.md) for information about benefits, prerequisites, and licensing.
 
 ## Enable an operator
 
@@ -33,13 +33,13 @@ To enable an operator:
 
 1. Choose an operator that supports Operator Connect Mobile. Under the **All operators** tab, filter available operators by region or service to find the right operator supporting Operator Connect Mobile. Then select the operator you want to enable.
 
-2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
+2. Under **Operator settings**, select the countries you want to enable with your selected operator.
 
 3. **Provide contact information** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Operator Connect Mobile.
 
 4. Accept the data transfer notice.
 
-5. **Add your operator.** Select **Add as my operator** to save.
+5. Select **Add as my operator** to save.
 
 ## Set up phone numbers
 
@@ -127,6 +127,54 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 
 - If the phone number is assigned to a user, you'll need to unassign the number. Select **Edit**, then **Remove user**. After you save your changes, select **Release**.
 
-## Related topics
+## Manage user incoming calling policies
+
+You can manage a user's incoming calling policies by using the Teams admin center or by using PowerShell. By default, incoming calls for Operator Connect Mobile users will ring the Teams app first on the user's SIM-enabled mobile device. 
+
+- If a user's incoming calling preference is set to the Teams app, all incoming calls will ring the Teams app on the SIM-enabled smartphone and any other Teams endpoints on other devices simultaneously. 
+
+- If a user's incoming calling preference is set to the native dialer, all incoming calls ring the native dialer on the SIM-enabled smartphone and simultaneously rings all other Teams endpoints on other devices. 
+
+### Use the Teams admin center
+
+**NEED TO ADD TAC STEPS**
+
+### Use PowerShell
+
+1. Connect to your tenant: Connect-MicrosoftTeams 
+ 
+2. Create policies for incoming calls for Native dialer or Teams first. (You can name choose the policy name; this example uses TeamsFirst and NativeFirst): 
+
+   ```PowerShell
+   New-CsTeamsMobilityPolicy -identity TeamsFirst -MobileDialerPreference Teams 
+   New-CsTeamsMobilityPolicy -identity NativeFirst -MobileDialerPreference Native 
+   ```
+
+3. Grant policies to users (Either Native or Mobile): 
+
+   ```PowerShell
+   Grant-CsTeamsMobilityPolicy NativeFirst -Identity user@xyz.onmicrosoft.com
+   Grant-CsTeamsMobilityPolicy TeamsFirst -Identity user@xyz.onmicrosoft.com
+   ```
+
+4. Check user policies: 
+
+   ```PowerShell
+   get-CsUserpolicyassignment -identity user@xyz.onmicrosoft.com
+   ```
+ 
+ 5.	Check all mobility policy options: 
+    
+    ```PowerShell
+    Get-CsTeamsMobilityPolicy
+    ```  
+
+ 
+
+
+
+
+
+
 
 

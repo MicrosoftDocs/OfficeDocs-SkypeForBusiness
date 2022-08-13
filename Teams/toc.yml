@@ -1004,6 +1004,9 @@ items:
         
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
+
+        - name: Manage phone numbers for Operator Connect Mobile
+          href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice

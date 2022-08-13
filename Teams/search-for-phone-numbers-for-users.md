@@ -33,7 +33,7 @@ If you select Microsoft as your operator, you can acquire the numbers from the T
 
 How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Operator Connect Mobile, or Direct Routing.
 
-This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile), and [Operator Connect Mobile] (#search-for-telephone-numbers-for-operator-connect-or-oerator-connect-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile), and [Operator Connect Mobile](#search-for-telephone-numbers-for-operator-connect-or-oerator-connect-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## Search for telephone numbers for Microsoft Calling Plans
 
