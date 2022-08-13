@@ -25,11 +25,11 @@ appliesto:
 
 Operator Connect Mobile is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number. Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.
 
-You might consider a combination of services. For example, you might choose Operator Connect Mobile for your sales and field organizations who require mobile support, but another solution for your onsite call center organization who rely on desk phones. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md). 
+You might consider a combination of voice services. For example, you might choose Operator Connect Mobile for your sales and field organizations who require mobile support, but another solution for your onsite call center organization that relies on desk phones. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md). 
 
-This article describes benefits and requirements, and provides a link to the operators participating in the Microsoft Operator Connect Mobie program. If you decide Operator Connect Mobile is the right solution for your organization, after reading this article, see [Configure Operator Connect Mobile](operator-connect-mobile-configure.md).  
+This article describes Operator Connect Mobile benefits and requirements. If you decide Operator Connect Mobile is the right solution for your organization, after reading this article, see [Configure Operator Connect Mobile](operator-connect-mobile-configure.md).  
 
-For a list of operators participating in the Microsoft Operator Connect Mobile program and the countries or regions where their service is available, see the [Microsoft 365 Operator Connect Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+For a list of operators participating in the Microsoft Operator Connect Mobile program and the countries or regions where their service is available, see [Microsoft 365 Operator Connect Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
 ## Benefits
 
@@ -85,7 +85,7 @@ To enable phone number assignments with Operator Connect Mobile, make sure your 
 
 - Have Teams Phone and Operator Connect Mobile licenses. To learn more, see [What is Phone System?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-- Have an eligible mobile subscription with your preferred operator which supports their SIM-enabled phone number to be used for Teams Phone. Your operator will upload the phone numbers to your Microsoft 365 tenant.
+- Have an eligible mobile subscription with your preferred operator that supports their SIM-enabled phone number to be used for Teams Phone. Your operator will upload the phone numbers to your Microsoft 365 tenant.
 
 - Are in TeamsOnly mode. Users must be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 

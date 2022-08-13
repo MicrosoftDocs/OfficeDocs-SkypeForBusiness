@@ -148,11 +148,12 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 - [**Phone System with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md). With Operator Connect, if your existing operator is a participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. For information on the benefits and requirements of Operator Connect, see [Plan Operator Connect](operator-connect-plan.md).
 
+- [**Phone System with your own PSTN mobile carrier by using Operator Connect Mobile**](operator-connect-mobile-plan.md). With Operator Connect Mobile, if your existing operator participates in the Microsoft Operator Connect Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams. For information on the benefits and requirements of Operator Connect, see [Plan Operator Connect Mobile](operator-connect-mobile-plan.md).
+
 - [**Phone System with your own PSTN carrier by using Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) to connect your on-premises environment to Teams.
 
-You can choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration. You'll read more about migration later.
 
-- **Phone System with your own PSTN mobile carrier by using Operator Connect Mobile**. With Operator Connect Mobile, if your existing operator participates in the Microsoft Operator Connect Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams. For information on the benefits and requirements of Operator Connect, see [Plan Operator Connect Mobile](operator-connect-mobile-plan.md).
+You can choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration. You'll read more about migration later.
 
 Most Phone System features are the same regardless of the PSTN connectivity option you choose. There are some differences in functionality, however, that affect how you configure certain Phone System features, such as call routing and emergency calling. For more information about PSTN connectivity options and configuration considerations, see [PSTN connectivity options](pstn-connectivity.md).
 

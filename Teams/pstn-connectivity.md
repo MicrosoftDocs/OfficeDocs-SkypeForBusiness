@@ -39,6 +39,8 @@ To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Operator Connect**](#phone-system-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
 
+- [Operator Connect Mobile**](#phone-system-with-operator-connect-mobile). With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Operator Connect Mobile program, they can manage the service for bringing PSTN calling to Teams.
+
 - [**Direct Routing**](#phone-system-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System.
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration.
@@ -85,6 +87,22 @@ Operator Connect might be the right solution for your organization if:
 - You want to find a new carrier to enable calling in Teams.
 
 For information on the benefits and requirements of Operator Connect, and for a list of carriers participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
+
+## Phone System with Operator Connect Mobile
+
+If your existing carrier participates in the Microsoft Operator Connect Mobile program, they can manage the service for bringing PSTN calling to Teams. With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number.  Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.  
+
+You might consider a combination of services. For example, you might choose Operator Connect Mobile for your sales and field organizations who require mobile support, but another solution for your onsite call center organization who rely on desk phones. 
+
+Operator Connect Mobile might be the right solution for your organization if:
+
+- You want to use a primary company-owned, SIM-enabled mobile number for Teams Phone as a single number solution.
+
+- Your preferred operator is a participant in the Microsoft Operator Connect Mobile program.
+
+- You want to find a new operator to enable calling in Teams.
+
+For information on the benefits and requirements of Operator Connect Mobile, and for links to carriers participating in this program, see [Plan Operator Connect Mobile](operator-connect-mobile-plan.md). For information on how to configure Operator Connect Mobile, see [Configure Operator Connect Mobile](operator-connect-mobile-configure.md).
 
 ## Phone System with Direct Routing
 
