@@ -1,5 +1,5 @@
 ---
-title: Operator Connect
+title: Plan for Operator Connect
 author: CarolynRowe
 ms.author: crowe
 manager: serdars

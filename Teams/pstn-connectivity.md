@@ -33,7 +33,7 @@ Microsoft provides complete Private Branch Exchange (PBX) capabilities for your 
 
 This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, including details about Phone System features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-To connect Phone System to the PSTN, you can choose from the following options/..:
+To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 

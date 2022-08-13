@@ -1,5 +1,5 @@
 ---
-title: Operator Connect Mobile
+title: Plan for Operator Connect Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
