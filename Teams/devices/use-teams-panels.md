@@ -208,7 +208,7 @@ To enable check-in and room release, see [Check-in and room release on Microsoft
 
 #### Room capacity warning
 
-Teams panels that are paired with a Teams Rooms on Android can display a warning message when a meeting room is at or over capacity. To use this feature, the Teams Rooms must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
+Teams panels that are paired with Teams Rooms on Android can display a warning message when a meeting room is at or over capacity. To use this feature, Teams Rooms must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
 
 Room capacity warnings are turned off by default. To turn the setting on from the Teams panel, first [pair a Teams panel with a Microsoft Teams Rooms on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Rooms must be signed into the same resource account.
 
