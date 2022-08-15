@@ -107,8 +107,8 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Neat Pad Panel    | `NFA1.20220211.1400` | August 5, 2023 | 9 |
-|Crestron TSS-770 | `1.003.0082` |December 5, 2022  | 8.1 |
-|Crestron TSS-1070 | `1.003.0082`|December 5, 2022 | 8.1 |
+|Crestron TSS-770 | `2.001.0058` |September 3, 2024  | 10 |
+|Crestron TSS-1070 | `2.001.0058`|September 3, 2024 | 10 |
 |Yealink RoomPanel | `147.15.0.1`|August 5, 2023   | 9 |
 |Logitech TAP Scheduler | `1.3.111` |September 3, 2024 | 10 |
 
@@ -147,6 +147,12 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.168`     | 2022 Update #3A  |
+|Yealink VP59  | `91.15.0.102`     | 2022 Update #3A  |
+|Yealink CP960  | `73.15.0.163`     | 2022 Update #3A  |
+|Yealink CP965  | `143.15.0.12`     | 2022 Update #3A  |
+|Yealink MP54/MP56/MP58  | `122.15.0.91`     | 2022 Update #3A  |
+|Yealink MP52  | `145.15.0.42`     | 2022 Update #3A  |
 |Poly Trio C60 | `7.3.1.0813` | 2022 Update #1C |
 |Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | 2022 Update #1C
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 Update #2A  |
