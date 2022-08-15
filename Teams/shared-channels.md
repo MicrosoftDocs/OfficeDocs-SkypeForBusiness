@@ -9,15 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+  - m365initiative-securecollab
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage shared channels in Microsoft Teams. 
+description: Learn how to use and manage shared channels in Microsoft Teams.
 ---
 
 # Shared channels in Microsoft Teams
@@ -65,6 +65,9 @@ When a team is archived, individual sharing will remain intact, but sharing with
 A shared channel owner can't be removed through the Teams client if they are the last owner of one or more shared channels.
 
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel is automatically promoted to be the shared channel owner. Consider adding more than one owner to avoid this situation.
+
+> [!NOTE]
+> External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
 
 ## Channel owner settings
 
@@ -206,7 +209,6 @@ The following apps are supported for use in shared channels.
 - Smartsheet
 - SurveyMonkey
 - Tasks in a Box
-- Teams
 - Teams Manager
 - TeamViewer
 - Teamwork

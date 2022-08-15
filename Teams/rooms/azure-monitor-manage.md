@@ -7,13 +7,14 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection: 
   - M365-collaboration
-description: "This article discusses how to monitor Microsoft Teams Rooms devices in an integrated manner using Azure Monitor."
+  - Teams_ITAdmin_Rooms
+description: This article discusses how to monitor Microsoft Teams Rooms devices in an integrated manner using Azure Monitor.
 ms.custom: seo-marvel-apr2020
 ---
 

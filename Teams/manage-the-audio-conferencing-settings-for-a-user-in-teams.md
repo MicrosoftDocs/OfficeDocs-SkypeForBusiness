@@ -1,5 +1,5 @@
 ---
-title: "Manage Audio Conferencing settings for users"
+title: Manage Audio Conferencing settings for users
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -12,13 +12,12 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020

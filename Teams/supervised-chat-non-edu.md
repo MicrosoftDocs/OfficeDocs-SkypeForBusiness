@@ -8,13 +8,15 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about supervised chats for non-educational tenants in Microsoft Teams meetings. 
+description: Learn about supervised chats for non-educational tenants in Microsoft Teams meetings.
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Supervised chats for non-educational tenants
