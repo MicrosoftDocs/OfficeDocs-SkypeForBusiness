@@ -120,7 +120,7 @@ The right tile on the Home screen now appears in purple and displays the **Reser
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting.":::
 
     > [!NOTE]
-    > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Rooms or Surface Hub devices.
+    > If the meeting space is Microsoft Teams Rooms, you can _join_ this Teams meeting with the in-room Microsoft Teams Rooms or Surface Hub devices.
 
 ### Report a problem
 
