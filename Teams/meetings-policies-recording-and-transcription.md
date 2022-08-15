@@ -110,6 +110,10 @@ If you have a Teams meeting recording expiration policy and Purview deletion pol
 
 Files won’t be retained due to this feature or its settings. If a user with delete permissions attempts to delete a Teams meeting recording that has an expiration setting, that user’s delete action will be executed.
 
+#### Configure full control of recording lifecycle
+
+We recommend using the Security and Compliance Center to create retention and/or deletion policies. This offering is targeted to solve complex policy and SLA-driven administrative legal concerns.
+
 ### Deletion of recordings
 
 The recording is usually deleted within a day after the expiration date but in rare instances could take as long as five days. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
@@ -120,6 +124,10 @@ The recording is usually deleted within a day after the expiration date but in r
 ### Expiration of migrated recordings from Stream (Classic)
 
 Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain. More details will be can be found in [the Stream (Classic) migration documentation](/stream/streamnew/stream-classic-to-new-migration-overview).
+
+### Recording upload failure
+
+If a recording fails to upload to OneDrive or SharePoint, the Teams application will display a message in the associated chat that users have up to 21 days to download the Teams meeting recording before it’s permanently deleted from the Teams server. This existing expiration experience due to failed meeting recording uploads is *not* related to the OneDrive and SharePoint auto-expiration feature being discussed in this article.
 
 ## Store recordings outside of your country or region
 
