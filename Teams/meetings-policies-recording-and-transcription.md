@@ -47,11 +47,11 @@ People outside your organization, such as federated and anonymous users, can't s
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow cloud recording |
-|---------|---------|---------|
-|Daniela | Global   | Off |
-|Amanda | Location1MeetingPolicy | On|
-|John (external user) | Not applicable | Not applicable|
+| User                 | Meeting policy         | Allow cloud recording |
+|----------------------|------------------------|-----------------------|
+| Daniela              | Global                 | Off                   |
+| Amanda               | Location1MeetingPolicy | On                    |
+| John (external user) | Not applicable         | Not applicable        |
 
 - Meetings organized by Daniela can't be recorded.
 - Amanda can't record meetings organized by Daniela.
@@ -75,6 +75,8 @@ All newly created meeting recordings will have a default expiration of 120 days;
 
 > [!NOTE]
 > The maximum default expiration date for A1 users is 30 days.
+
+Meeting recording details may help you determine what the optimal default auto-expiration should be for your organization. After finding the video in the library, go to **...** and then choose **Details**. You can then see data on the trends of viewers, day-to-day views from the last 90 days, and viewership retention.
 
 #### Changing default expiration
 
@@ -100,13 +102,13 @@ You shouldn’t rely on meeting expiration settings for legal protection since e
 
 #### Recording expiration settings and Microsoft 365 retention policies in Microsoft Purview
 
-File retention takes precedence over file deletion. A meeting recording with a Purview retention policy cannot be deleted by a recording expiration policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a recording expiration policy set for 60 days, the recording expiration policy will delete the recording after five years.
+File retention takes precedence over file deletion. A Teams meeting recording with a Purview retention policy cannot be deleted by a Teams meeting recording expiration policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy will delete the recording after five years.
 
-If you have a recording expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a recording expiration set for 120 days, the recording expiration setting will delete the file after 120 days.
+If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
 
 #### Enforcement of file retention
 
-Files won’t be retained due to this feature or its settings. If a user with delete permissions attempts to delete a meeting recording that has an expiration setting, that user’s delete action will be executed.
+Files won’t be retained due to this feature or its settings. If a user with delete permissions attempts to delete a Teams meeting recording that has an expiration setting, that user’s delete action will be executed.
 
 ### Deletion of recordings
 
@@ -118,21 +120,6 @@ The recording is usually deleted within a day after the expiration date but in r
 ### Expiration of migrated recordings from Stream (Classic)
 
 Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain. More details will be can be found in [the Stream (Classic) migration documentation](/stream/streamnew/stream-classic-to-new-migration-overview).
-
-### Recording file statistics
-
-These statistics may help you determine what the optimal default auto-expiration should be for your organization.
-
-1. Find the video in the library.
-2. Select … > Details
-3. Select the number of views at the top of the details pane.
-
-You’ll see file statistics that show:
-
-- The number of unique viewers
-- The number of total views
-- The trend of viewers and views day-by-day for the last 90 days
-- Viewership retention (which part of the video was viewed or not viewed)
 
 ## Store recordings outside of your country or region
 
