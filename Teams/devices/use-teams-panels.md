@@ -188,7 +188,7 @@ To access the **Panels App Settings** option:
     - [Wallpaper](#update-the-wallpaper)
     - [LED indicator](#change-the-busy-state-led-color)
 
-#### Pair a Teams panel with a Microsoft Teams Rooms on Android
+#### Pair a Teams panel with Microsoft Teams Rooms on Android
 
 To pair a Teams panel and Teams Rooms on Android, both devices must be signed into the same resource account.
 
