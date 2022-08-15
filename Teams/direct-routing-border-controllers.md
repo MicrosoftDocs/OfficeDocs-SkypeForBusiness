@@ -60,11 +60,11 @@ Note that we are not accepting new nominations for certification until further n
 ||Mediant 9000  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.100 or 7.40A.250)|&#10004;|&#10004;|
 ||Virtual Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.100 or 7.40A.250)|&#10004;|&#10004;|
 ||Mediant Cloud Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.100 or 7.40A.250)|&#10004;|&#10004;|
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Supported 9.2, 8.2 and 7.2 (Recommended 10.1)|&#10004;||
-||SBC 5200/5210|&#10004;|&#10004;|Supported 9.2, 8.2 and 7.2 (Recommended 10.1)|&#10004;||
-||SBC 5400|&#10004;|&#10004;|Supported 9.2, 8.2 and 7.2 (Recommended 10.1)|&#10004;||
-||SBC 7000|&#10004;|&#10004;|Supported 9.2, 8.2 and 7.2 (Recommended 10.1)|&#10004;||
-||SBC SWe|&#10004;|&#10004;|Supported 9.2, 8.2 and 7.2 (Recommended 10.1)|&#10004;||
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
+||SBC 5200/5210|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
+||SBC 5400|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1))|&#10004;||
+||SBC 7000|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
+||All SBC SWe variants, including hosted offers|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
 ||SBC 1000|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
 ||SBC 2000|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
 ||SBC SWe Lite|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
