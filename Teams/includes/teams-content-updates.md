@@ -2,6 +2,38 @@
 
 
 
+## Week of August 08, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/8/2022 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
+| 8/8/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 8/8/2022 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
+| 8/9/2022 | [Overview of app policies to manage apps in Teams](/MicrosoftTeams/app-policies) | modified |
+| 8/9/2022 | Steering committee for cloud voice deployment | removed |
+| 8/9/2022 | Onboarding checklist - Configure cloud voice workloads - Microsoft Teams | removed |
+| 8/9/2022 | Onboarding checklist - Configure Direct Routing - Microsoft Teams | removed |
+| 8/9/2022 | Onboarding checklist - Configure core capabilities - Microsoft Teams | removed |
+| 8/9/2022 | Onboarding checklist - Enable the Microsoft 365 or Office 365 service | removed |
+| 8/9/2022 | Microsoft Teams Rooms Reference | removed |
+| 8/9/2022 | [Manage custom and sideloaded apps](/MicrosoftTeams/custom-app-overview) | added |
+| 8/9/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 8/9/2022 | [Overview of app validation and app testing by Microsoft](/MicrosoftTeams/overview-of-app-validation) | modified |
+| 8/9/2022 | [Understand third-party apps in Microsoft Teams](/MicrosoftTeams/overview-third-party-apps) | modified |
+| 8/9/2022 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
+| 8/9/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
+| 8/9/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 8/9/2022 | [Manage custom app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
+| 8/10/2022 | Direct Routing | removed |
+| 8/11/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 8/11/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 8/11/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 8/12/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | added |
+| 8/12/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | added |
+| 8/12/2022 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
+
+
 ## Week of August 01, 2022
 
 
@@ -189,27 +221,3 @@
 | 7/15/2022 | Microsoft Teams Virtual Visits usage report | removed |
 | 7/15/2022 | [PowerShell script sample - Export managers and their direct reports](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | modified |
 | 7/15/2022 | [PowerShell script sample - Create new people manager teams](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | modified |
-
-
-## Week of July 04, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/5/2022 | [PowerShell cmdlet reference for auto attendants and call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
-| 7/5/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 7/5/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 7/5/2022 | [Meetings and conferencing in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modified |
-| 7/5/2022 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
-| 7/5/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 7/5/2022 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
-| 7/5/2022 | [Microsoft Teams Phone Resource Account licenses](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modified |
-| 7/5/2022 | [Teams voice Contoso case study: Auto attendants and call queues](/MicrosoftTeams/voice-case-study-call-queues) | modified |
-| 7/5/2022 | [Search the audit logs for app management events](/MicrosoftTeams/audit-app-management-activities) | added |
-| 7/6/2022 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
-| 7/6/2022 | [Use PowerShell to connect Shifts to Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modified |
-| 7/6/2022 | [Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | modified |
-| 7/6/2022 | [How can caller ID be used in your organization](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modified |
-| 7/7/2022 | Understand calling in Microsoft Teams | removed |
-| 7/7/2022 | [Calling Plans for Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modified |
-| 7/8/2022 | [Virtual appointments with Microsoft Teams and the Bookings app](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modified |
