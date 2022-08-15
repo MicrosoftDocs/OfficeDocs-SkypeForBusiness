@@ -30,7 +30,7 @@ Use the following resources for IT admins to get started with Microsoft Teams.
 | [Welcome to Microsoft Teams](Teams-overview.md) | An introduction to Teams with links to common admin tasks for Teams. |
 | [Microsoft Teams essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) | A YouTube video explaining the configuration options and considerations for planning and deploying of Teams. |
 | [Getting started with admin training for Microsoft Teams](ITAdmin-readiness.md) | A collection of training materials for IT admins who are new to Teams. |
-| [Microsoft Teams for Education](Teams-quick-start-edu.yml) | A quick start guide to Teams for Educations for IT admins. |
+| [Microsoft Teams for Education](Teams-quick-start-edu.yml) | A quick start guide to Teams for Education for IT admins. |
 | [Managing apps in Microsoft Teams admin center](manage-apps.md) | A guide on app use cases and how to manage apps using the Teams admin center. |
 | [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md) | An article on how to create, edit, assign, and manage app permission policies for Teams. |
 | [Teams troubleshooting](/troubleshoot/teams-welcome) | A library of articles that provide troubleshooting guidance on common Teams issues. |
