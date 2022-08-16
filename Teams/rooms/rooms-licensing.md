@@ -13,7 +13,6 @@ ms.collection:
   - Teams_ITAdmin_Rooms
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
@@ -22,7 +21,7 @@ ms.custom:
   - Licensing
   - LIL_Placement
   - seo-marvel-apr2020
-description: Learn about the available licenses for different types of calling and meeting features in Microsoft Teams Rooms.
+description: Learn about and compare the available licenses for different types of calling and meeting features in Microsoft Teams Rooms.
 ---
 
 # Microsoft Teams Rooms licenses
@@ -31,7 +30,7 @@ description: Learn about the available licenses for different types of calling a
 
 Microsoft has two dedicated SKUs for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and collaboration bars for Microsoft Teams).
 
-You can assign up to 20 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 20 devices, you need to purchase Microsoft Teams Rooms Pro licenses.
+You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 25 devices, you need to purchase Microsoft Teams Rooms Pro licenses.
 
 |                                           | Microsoft Teams Rooms Basic                                          | Microsoft Teams Rooms Pro                                              |
 |:------------------------------------------|:--------------------------------------------------------------------:|:----------------------------------------------------------------------:|
@@ -50,7 +49,9 @@ You can assign up to 20 Microsoft Teams Rooms Basic licenses to Teams Rooms devi
 
 <sup>3</sup> At launch, you'll need to add and assign a $0 Teams Rooms Basic license for each device via their admin portal. In the future (timing TBD) licenses will be automatically assigned to new devices at initial log-in.
 
-## Teams Rooms console and Teams client feature availability
+## Teams Rooms console and Teams client feature comparison
+
+The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses and show what features are available with each. If a feature isn't available for a license, that feature can't be used on Teams Rooms devices that have been assigned that license. To use a feature on a Teams Rooms device, assign the license in which that feature is available to that device.
 
 ### Meeting join
 
