@@ -22,7 +22,7 @@ description: Learn how to change the appearance of the app and rebrand an app by
 
 Microsoft Teams admins can modify the appearance of some Teams apps. Such modifications can enhance Teams store experience for end-users and help adhere to organization's branding. For example, admins can modify the description and icon of an app that makes it easier for their organizations end-users to identify the app, to understand its use, and for added prominence. Admins make these changes by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
 
-Admins can only customize apps if the app developer allows their app to be customized. While Teams provides an option to customize a few properties, app developers control which of these properties can be customized.
+Admins can only customize apps if the app developer allows their app to be customized. While Teams provides an option to customize a few properties, app developers control the properties that can actually be customized by any admin.
 
 As an admin, you can customize the following properties.
 
@@ -128,7 +128,7 @@ You might want to see the app details to review the information.
 
 1. View the app details, including the original app name **Short name from publisher**.
 
-   :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app .":::
+   :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
 
    The **Short name from publisher** field is only visible if you've changed the app's short name.
 
