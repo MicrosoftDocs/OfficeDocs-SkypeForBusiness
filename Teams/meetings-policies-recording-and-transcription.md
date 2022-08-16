@@ -76,8 +76,6 @@ All newly created meeting recordings will have a default expiration of 120 days;
 > [!NOTE]
 > The maximum default expiration date for A1 users is 30 days.
 
-Meeting recording details may help you determine what the optimal default auto-expiration should be for your organization. After finding the video in the library, go to **...** and then choose **Details**. You can then see data on the trends of viewers, day-to-day views from the last 90 days, and viewership retention.
-
 #### Changing default expiration
 
 Admins can edit the default expiration setting in PowerShell or the Teams admin center. Any changes will only affect newly created meeting recordings from that point forward; they won’t impact any recordings created before that date.
@@ -86,9 +84,9 @@ Admins can’t change the expiration date on existing meeting recordings. This i
 
 The expiration value is an integer for days.  This can be set as follows:
 
-- Minimum value: 1
-- Maximum value: 99999
-- You can also set the expiration date to -1 in PowerShell so the recordings never expire.
+- Minimum value: **1**
+- Maximum value: **99999**
+- You can also set the expiration date to **-1** in PowerShell so the recordings never expire.
 
 Example PowerShell command:
 
@@ -106,13 +104,7 @@ File retention takes precedence over file deletion. A Teams meeting recording wi
 
 If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
 
-#### Enforcement of file retention
-
-Files won’t be retained due to this feature or its settings. If a user with delete permissions attempts to delete a Teams meeting recording that has an expiration setting, that user’s delete action will be executed.
-
-#### Configure full control of recording lifecycle
-
-We recommend using the Security and Compliance Center to create retention and/or deletion policies. This offering is targeted to solve complex policy and SLA-driven administrative legal concerns.
+If a user with delete permissions attempts to delete a Teams meeting recording that has an expiration setting, that user’s delete action will be executed.
 
 ### Deletion of recordings
 
@@ -124,10 +116,6 @@ The recording is usually deleted within a day after the expiration date but in r
 ### Expiration of migrated recordings from Stream (Classic)
 
 Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain. More details will be can be found in [the Stream (Classic) migration documentation](/stream/streamnew/stream-classic-to-new-migration-overview).
-
-### Recording upload failure
-
-If a recording fails to upload to OneDrive or SharePoint, the Teams application will display a message in the associated chat that users have up to 21 days to download the Teams meeting recording before it’s permanently deleted from the Teams server. This existing expiration experience due to failed meeting recording uploads is *not* related to the OneDrive and SharePoint auto-expiration feature being discussed in this article.
 
 ## Store recordings outside of your country or region
 
