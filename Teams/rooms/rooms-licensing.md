@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -49,22 +49,6 @@ You can assign up to 20 Microsoft Teams Rooms Basic licenses to Teams Rooms devi
 <sup>2</sup> Included to enable certain legacy authentication methods.
 
 <sup>3</sup> At launch, you'll need to add and assign a $0 Teams Rooms Basic license for each device via their admin portal. In the future (timing TBD) licenses will be automatically assigned to new devices at initial log-in.
-
-The following table lists the features that are available in Microsoft Teams Rooms and what licenses you need to buy to get them.
-  
-> [!NOTE]
-> The room that is being set up needs to be a user object and have these licenses assigned to it.
-
-| &nbsp; | You have Microsoft Teams. <br/> Here's what you need to buy:   |You have Skype for Business Server 2015/2019 (on-premises). <br/> Here's what you need to buy:|
-|:-----|:-----|:-----|
-|Join a scheduled meeting  | Microsoft Teams Rooms Standard or Premium  |Skype for Business Server Standard CAL  |
-|Initiate an ad hoc meeting | Microsoft Teams Rooms Standard or Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Initiate an ad hoc meeting and dial out from a meeting to phone numbers |  Microsoft Teams Rooms Standard or Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Give the room a phone number and make or receive a call from the room or join an audio conference using a phone number  | With Direct Routing and/or Operator Connect: Microsoft Teams Rooms Standard or Premium<br/>Without Direct Routing or Operator Connect: Domestic or International Calling Plan<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Manage your room device with Microsoft Intune |Microsoft Teams Rooms Standard or Premium  |Microsoft Intune subscription with [on-premises MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
-|Microsoft Teams Rooms Managed Services | Microsoft Teams Rooms Premium ||
-
-You can read [Set up the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing Common Area Phones.
 
 ## Teams Rooms console and Teams client feature availability
 
@@ -133,27 +117,3 @@ You can read [Set up the Common Area Phone license for Microsoft Teams](../set-u
 | **ITSM integration**                              |                             | &#x2714;                  |
 | **Custom health alerts**                          |                             | &#x2714;                  |
 | **Device analytics**                              |                             | &#x2714;                  |
-
-## Teams admin center feature availability
-
-|                                               | Microsoft Teams Rooms Basic | Microsoft Teams Rooms Pro |
-|:----------------------------------------------|:---------------------------:|:-------------------------:|
-| **Automatic device updates**                  | &#x2714;                    | &#x2714;                  |
-| **Basic device analytics**                    | &#x2714;                    | &#x2714;                  |
-| **Basic device health**                       | &#x2714;                    | &#x2714;                  |
-| **Call quality dashboard**                    | &#x2714;                    | &#x2714;                  |
-| **Create and view workspaces**                | &#x2714;                    | &#x2714;                  |
-| **Real-time telemetry**                       | &#x2714;                    | &#x2714;                  |
-| **Regular feature updates**                   | &#x2714;                    | &#x2714;                  |
-| **Remote sign-in and sign-out**               | &#x2714;                    | &#x2714;                  |
-| **Android device configurations**             |                             | &#x2714;                  |
-| **Device alerts**                             |                             | &#x2714;                  |
-| **Device analytics - health and utilization** |                             | &#x2714;                  |
-| **Device detail view**                        |                             | &#x2714;                  |
-| **Device health details**                     |                             | &#x2714;                  |
-| **Device tags**                               |                             | &#x2714;                  |
-| **Graph APIs**                                |                             | &#x2714;                  |
-| **Manual device updates**                     |                             | &#x2714;                  |
-| **Remote restart**                            |                             | &#x2714;                  |
-| **Windows device peripherals management**     |                             | &#x2714;                  |
-| **Windows device settings**                   |                             | &#x2714;                  |
