@@ -111,19 +111,15 @@ Consider the following details about app customization functionality:
 
 ## Review app details
 
-You might want to see the app details to review the information.
+To view the changes after saving those, view the app details page.
 
-1. Sign in to the Teams admin center.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Expand **Teams apps** and select **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. To open the app details page, select the app name.
 
-1. Select the app name.
-
-1. View the app details, including the original app name **Short name from publisher**.
+1. View the app details, including the original app name in the field **Short name from publisher**. The **Short name from publisher** field is only visible if you've changed the app's short name.
 
    :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
-
-   The **Short name from publisher** field is only visible if you've changed the app's short name.
 
 ## Reset app details to default values
 
