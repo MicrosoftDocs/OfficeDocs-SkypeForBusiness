@@ -50,19 +50,19 @@ To allow trusted users to upload custom apps, follow these steps:
 
 1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
 
-    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
+    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**, and then click **Org-wide app settings**.
 
     1. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
 
 1. Turn off the **Upload custom apps** setting in the global app setup policy. To do this:
 
-    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
+    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**, and then click the **Global (Org-wide default)** policy.
 
     1. Turn off **Upload custom apps**, and then click **Save**.
 
 1. Create a new app setup policy that allows uploading custom apps and assign it to your set of trusted users. To do this:
 
-    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Add**. Give the new policy a name and description, turn on **Upload custom apps**, and then click **Save**.
+    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**, and then click the **Add**. Give the new policy a name and description, turn on **Upload custom apps**, and then click **Save**.
 
     1. Select the new policy you created, and then click **Manage users**. Search for a user, click **Add**, and then click **Apply**. Repeat this step to assign the policy to all your trusted users.
 
@@ -103,17 +103,17 @@ End-users who have permissions to the app can find it in your organization's app
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
-## Update
+## Update a custom app
 
 To update an app, developers follow the steps in the [Create your app](#create-your-app) and [Validate](#validate) sections.
 
-You can update the app on the Manage apps page in the Microsoft Teams admin center. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. Click the app name, and then click **Update**. Doing this replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
+You can update the app on the Manage apps page in the Microsoft Teams admin center. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**. Click the app name, and then click **Update**. Doing this replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
 
 ### End-user update experience
 
 In most cases, after you complete an app update the new version automatically appears for end users. For more information, see [end-user update experience](apps-update-experience.md).
 
-## Remove
+## Remove a custom app from your organization's store
 
 To remove an app, follow these steps:
 

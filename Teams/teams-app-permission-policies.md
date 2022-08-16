@@ -45,8 +45,7 @@ Say, for example, you want to allow only a few specific apps for the HR team in 
 
 Use one or more custom app permission policies, if you want to control the apps that are available for different groups of users. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. After you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings.
 
-1. Sign in to [Teams admin center](https://admin.teams.microsoft.com/dashboard)
-1. In the left panel, go to **Teams apps** > **Permission policies**.
+1. Sign in to Teams admin center and access **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/app-permission)**.
 1. Select **Add**.
 
    ![Screenshot of new app permission policy.](media/app-permission-policies-new-policy.png)
@@ -72,7 +71,7 @@ Use one or more custom app permission policies, if you want to control the apps 
 
 You can use the Teams admin center to edit a policy, including the global policy and custom policies that you create.
 
-1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/app-permission)**.
 1. Select the policy by clicking to the left of the policy name, and then select **Edit**.
 1. From here, make the changes that you want. You can manage settings based on the app developer and add and remove apps based on the allow/block setting.
 1. Select **Save**.
@@ -111,11 +110,12 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 ### For GCCH and DoD clouds
 
-1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
+1. Sign in to the Teams admin center and access **Teams Apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/app-permission)**.
 
-   ![Screenshot of org-wide app settings in GCCH and DoD.](media/app-permission-policies-gcch-dod-org-wide.png)
+1. Select **Org-wide app settings**. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies.
 
-1. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies.
+   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Screenshot of org-wide app settings in GCCH and DoD.":::
+
 1. Select **Save** for org-wide app settings to take effect.
 
 ## FAQ
