@@ -93,7 +93,7 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 ### For GCC clouds
 
-1. On the **Manage Apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
+1. On the **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
    ![Screenshot of org-wide app settings in GCC.](media/app-permission-policies-gcc-org-wide.png)
 
