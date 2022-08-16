@@ -78,9 +78,9 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy page for the policy type you want to update. For example, **Teams** > **Teams policies**, **Meetings** > **Meetings policies**, **Messaging policies**, or **Voice** > **Calling policies**.
 2. Select the **Global (Org-wide default)** policy to view the current settings.
-3. Update the policy as needed, and then select **Apply**.
+3. Update the policy as needed, and then select **Save**.
 
-![Update global policy in Teams admin center.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot that shows the update global policy in Teams admin center." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### Using PowerShell
 
@@ -120,7 +120,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the [Activity log](https://admin.teams.microsoft.com/activitylog). The activity log shows network record upload information, group policy operations from Teams admin center and PowerShell, and batch policy operations (for more than 20 users) from the Teams admin center, for the last 30 days.
 
-![Screenshot of the Activity log page.](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="Screenshot of the Activity log page." lightbox="media/Activity_Log.png":::
 
 To view your policy operations in the Activity log:
 

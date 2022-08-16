@@ -47,8 +47,10 @@ To configure Phone System and enable users to use Direct Routing, follow these s
 - **Step 3.** [Configure call routing](direct-routing-voice-routing.md)
 - **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
-If you are configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
+If you're configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
 
+## Support Boundaries
+Microsoft only supports Phone System with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Phone System through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
 
 ## Related topics
 
