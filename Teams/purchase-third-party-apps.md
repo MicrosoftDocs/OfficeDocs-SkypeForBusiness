@@ -71,7 +71,7 @@ After you've purchased the SaaS offer associated with the Teams app, you can vie
 
 Select **Manage subscriptions** to view and manage the licenses you purchased.
 
-Global admins can add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in the organization. Teams service admins can perform the same actions for purchases made by themselves. However, if a Teams service admin also has the Billing admin role, they can manage purchases made by anyone in the organization.
+Global admins can view the subscriptions purchased by anyone in the organization, but they can only add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in their billing account. Teams service admins can perform the same actions for purchases made by themselves. However, if a Teams service admin also has the Billing admin role, they can manage purchases made by anyone in the organization.
 
 > [!NOTE]
 > If a Global Admin wants to manage a subscription purchased by another Global Admin, they need to be in the same billing account. You can give another Global Admin access to a subscription you purchased by selecting the app in the [Microsoft 365 admin center](https://admin.microsoft.com). In admin center, access **View billing profile** > **Select billing account** > **Assign roles** > **Add other Global admins**.
@@ -96,7 +96,7 @@ In Teams admins center, you can manage the app subscriptions and licenses you pu
 * Cancel a subscription
 * View your invoice
 
-  :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Screenshot of subscription option for an app in the manage apps page."lightbox="media/manage-app-subscriptions-manage-apps.png":::
+  :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Screenshot of subscription details of an app" lightbox="media/manage-existing-subscriptions-all.png" border="true":::
 
 To manage subscriptions, follow these steps:
 
@@ -104,7 +104,7 @@ To manage subscriptions, follow these steps:
 1. In the left pane, go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
 1. Select the **Subscriptions** tab to view the subscriptions you purchased.
 
-   :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Screenshot of subscription details of an app" lightbox="media/manage-existing-subscriptions-all.png" border="true":::
+   :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Screenshot of subscription option for an app in the manage apps page."lightbox="media/manage-app-subscriptions-manage-apps.png":::
 
 > [!NOTE]
 > In Teams admin center, you can manage the app subscriptions purchased by you or other admins who are part of the same billing account. To view all the app subscriptions purchased for the same tenant by other admins or purchased using different billing accounts, visit the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
