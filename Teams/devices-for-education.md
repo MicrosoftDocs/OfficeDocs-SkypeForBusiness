@@ -312,4 +312,4 @@ View the following pages to learn more about Teams devices and partners:
 
 [Learn More about Microsoft Teams Rooms](/microsoftteams/rooms) – A guide to Microsoft Teams Rooms covering planning, deployment, and usage
 
-[Teams Meeting RoomsPartner Program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Rooms systems
+[Teams Meeting Rooms Partner Program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Rooms systems
