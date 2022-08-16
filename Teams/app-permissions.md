@@ -102,8 +102,6 @@ None
 
 * When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
-* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at [Application Registration Portal](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) and can have its own set of permissions.
-
 * Bots are informed whenever users are added to or deleted from a team.
 
 * Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There's one exception: if a bot implements its own sign-in experience, the sign-in UI will see users' IP addresses and referrer information.)

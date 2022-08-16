@@ -59,11 +59,11 @@ You can edit the settings in the global app setup policy to include the apps tha
 
 #### Set a user custom app policy
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Click **Add**.
-3. Turn on or turn off **Upload custom apps**.
-4. Choose any other settings that you want to for the policy.
-5. Click **Save**.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**.
+1. Select **Add**.
+1. Turn on or turn off **Upload custom apps**.
+1. Choose any other settings that you want to for the policy.
+1. Select **Save**.
 
 ### Team custom app setting
 
@@ -81,8 +81,8 @@ If this setting is turned on:
 
 #### Configure the team custom app setting
 
-1. In Teams, go to the team, click **More options ...** > **Manage team**.
-2. Click **Settings**, and then expand **Member permissions**.
+1. In Teams, go to a team, and select **More options ...** > **Manage team**.
+2. Select **Settings** and expand **Member permissions**.
 3. Select or clear the **Allow members to upload custom apps** check box.
 
     ![Screenshot showing the team custom app setting.](media/teams-custom-app-policy-and-settings-team.png)
@@ -93,9 +93,9 @@ The **Allow interaction with custom apps** org-wide custom app setting on the [M
 
 #### Configure the org-wide custom app setting
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Click **Org-wide app settings**.
-3. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Select **Org-wide app settings**.
+1. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
 
     ![Screenshot showing the org-wide custom app settings.](media/teams-custom-app-policy-and-settings-org-wide.png)
 
@@ -120,8 +120,7 @@ Say, for example, you want to allow only team owners to upload custom apps to sp
 | On     | On     | Off         | The user can't upload custom apps.       |
 | On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context.       |
 
-## Related topics
+## Related articles
 
-[Admin settings for apps in Teams](admin-settings.md)
-
-[Assign policies to your users in Teams](assign-policies-users-and-groups.md)
+- [Admin settings for apps in Teams](admin-settings.md).
+- [Assign policies to your users in Teams](assign-policies-users-and-groups.md).
