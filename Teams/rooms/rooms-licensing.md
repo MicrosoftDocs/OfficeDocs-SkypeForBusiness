@@ -24,13 +24,30 @@ ms.custom:
 description: Learn about and compare the available licenses for different types of calling and meeting features in Microsoft Teams Rooms.
 ---
 
+
+EA transition
+user license
+
 # Microsoft Teams Rooms licenses
 
-## Service plan availability
+Microsoft offers two licenses for meeting room devices that participate in Teams meetings and calls:
 
-Microsoft has two dedicated SKUs for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and collaboration bars for Microsoft Teams).
+- **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
-You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 25 devices, you need to purchase Microsoft Teams Rooms Pro licenses.
+    Teams Rooms Pro is a great fit for medium and enterprise organizations, as well as smaller organizations with larger room counts or more advanced needs.
+
+- **Microsoft Teams Rooms Basic** provides core meeting experiences to organizations that purchase a certified Microsoft Teams Rooms device, at no additional cost. The Teams Rooms Basic license includes scheduling, joining meetings, content sharing, and collaborative white boarding, as well as basic security and management capabilities out-of-the-box.
+
+    You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 25 devices, you need to purchase Microsoft Teams Rooms Pro licenses.
+
+The Teams Rooms Basic and Teams Rooms Pro licenses can be used with meeting devices such as Microsoft Teams Rooms and Microsoft Surface Hub. Each meeting device needs its own Teams Rooms license.
+
+> [!IMPORTANT]
+> User licenses aren't supported for use with meeting devices. User licenses that have been assigned to teams meeting devices need to be replaced by a Teams Rooms Basic or Teams Rooms Pro license prior to July 1, 2023. Meeting devices that have a user license after July 1, 2023 will be blocked from signing in until a Teams Rooms license is assigned.
+
+## Teams Rooms license service plan comparison
+
+The following table shows the services available to each Teams Rooms license.
 
 |                                           | Microsoft Teams Rooms Basic                                          | Microsoft Teams Rooms Pro                                              |
 |:------------------------------------------|:--------------------------------------------------------------------:|:----------------------------------------------------------------------:|
@@ -47,7 +64,13 @@ You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devi
 
 <sup>2</sup> Included to enable certain legacy authentication methods.
 
-<sup>3</sup> At launch, you'll need to add and assign a $0 Teams Rooms Basic license for each device via their admin portal. In the future (timing TBD) licenses will be automatically assigned to new devices at initial log-in.
+<sup>3</sup> You to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
+
+## Switching from Teams Rooms Standard and Teams Rooms Premium
+
+If your organization has meeting devices that use the Teams Rooms Standard or Teams Rooms Premium legacy licenses, you can continue using those licenses until their expiration date. Upon the expiration date of your existing legacy licenses, you need to purchase a Teams Rooms Basic or Teams Rooms Pro license for your devices. If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until the expiration of your agreement.
+
+The features that are available to you with the Teams Rooms Standard and Teams Rooms Premium licenses won't change while you still have those licenses assigned to your devices. However, feature investment and updates added to Teams and Teams Rooms devices won't be available to devices using these legacy licenses.
 
 ## Teams Rooms console and Teams client feature comparison
 
