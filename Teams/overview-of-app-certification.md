@@ -106,7 +106,7 @@ When evaluating an app, you can use independent Cloud Access Security Brokers (C
 
 To access MCAS information for an app:
 
-1. In the Teams admin center, select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
 
