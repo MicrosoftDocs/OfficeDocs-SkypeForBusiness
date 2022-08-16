@@ -89,7 +89,7 @@ We recommend using the Frontline Worker and Frontline Manager policy packages as
 
 [Tags](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) in Teams let users easily connect with a subset of people on a team. With shift-based tags, people are automatically assigned tags that match their schedule and shift group name in Shifts. The tag can be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team.
 
-Shift-based tags let your users reach people who are on-shift in real time. Notifications are sent only to those people who are on shift at the time the tag is used in a chat or channel post. For example:
+Shift-based tags let your users reach people who are on-shift in real time. Notifications are sent only to those people who are on-shift at the time the tag is used in a chat or channel post. For example:
 
 - A systems engineer uses the @FieldEngineers tag to post an announcement to a channel for all on-shift field engineers.
 - A nurse uses the @CardiologistsOnCall tag to start a chat with all on-call cardiologists.
