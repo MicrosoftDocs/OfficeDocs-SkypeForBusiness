@@ -252,7 +252,7 @@ There are two places where you can control *Education Insights*. Both options ha
 1. Go to **Settings** > **Manage Education Insights**.
 1. Adjust the **Collect activity data for Insights** toggle to on or off.
 
-![Screenshot of the SDS admin center toggles to turn Insights off and on](media/manage-insights-toggles.png)
+![Screenshot of the SDS admin center toggles to turn Insights off and on.](media/admin-settings-main-screen.png)
 
 #### Turn on and off Insights from the Teams client
 
