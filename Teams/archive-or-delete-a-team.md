@@ -31,6 +31,8 @@ When you delete a team, team activity in standard and private channels (and asso
 
 > [!IMPORTANT]
 > Archived teams can be reactivated, but you can't directly restore a team that has been deleted. Consider archiving the team first, and postpone the deletion until you're sure that you no longer need the team.
+> 
+> A team can also be archived or restored by the team owner, for more information, see [Archive or restore a team](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
 ## Archive a team
 
