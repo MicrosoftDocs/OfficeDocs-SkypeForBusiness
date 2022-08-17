@@ -1,9 +1,8 @@
 ---
 title: Upload your custom apps in the Microsoft Teams admin center
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -67,7 +66,7 @@ To allow trusted users to upload custom apps, follow these steps:
 
     1. Select the new policy you created, and then select **Manage users**. Search for a user, select **Add**, and then select **Apply**. Repeat this step to assign the policy to all your trusted users.
 
-       ![Screenshot of the "Add app setup policy" page](media/manage-your-lob-apps-new-app-setup-policy.png)
+       :::image type="content" source="media/manage-your-lob-apps-new-app-setup-policy.png" alt-text="Screenshot of the Add app setup policy page.":::
 
 These users can now upload the app manifest to validate that the app is working correctly in the production tenant.
 
@@ -76,9 +75,10 @@ These users can now upload the app manifest to validate that the app is working 
 To make the app available to users in your organization's app store, upload the app.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+
 1. Select **Upload**, select **Upload**, select the app package that you received from the developer, and select **Open**.
 
-   ![Screenshot of uploading an app in the admin center.](media/manage-your-lob-apps-upload-new-app.png)
+   ![Screenshot of custom app upload in the admin center.](media/manage-your-lob-apps-upload-new-app.png)
 
 ## Set up and manage
 
@@ -104,7 +104,7 @@ End-users who have permissions to the app can find it in your organization's app
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
-## Update
+## Update a custom app
 
 To update an app, developers follow the steps in the [Create your app](#create-your-app) and [Validate](#validate) sections.
 
@@ -114,7 +114,7 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 In most cases, after you complete an app update the new version automatically appears for end users. For more information, see [end-user update experience](apps-update-experience.md).
 
-## Remove
+## Remove a custom app from your organization's store
 
 To remove an app, follow these steps:
 

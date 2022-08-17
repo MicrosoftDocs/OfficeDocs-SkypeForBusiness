@@ -1,15 +1,14 @@
 ---
 title: View app permissions and grant admin consent in the Microsoft Teams admin center
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to view permissions requested by apps and grant admin consent to apps on the Manage apps page of the Microsoft Teams admin center. 
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams
@@ -17,7 +16,7 @@ appliesto:
 
 # View app permissions and grant admin consent in the Microsoft Teams admin center
 
-The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, and manage org-wide app settings.
+Admins view and manage all Teams apps from the Manage apps page in the Teams admin center. You can manage custom apps created within your organization and available only to your end-users and manage the third-party available on Teams app store. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, allow apps either at the organization's level or for individual end-users.
 
 Here, you can also grant org-wide admin consent to apps that request permissions to access data and view resource-specific consent (RSC) permissions for apps.
 
@@ -81,9 +80,9 @@ To view RSC permissions for an app, follow these steps:
 
 ### The "View details" link isn't displayed in the Permissions column for some third-party apps that request permissions
 
-Currently, the ability to review permissions and grant consent isn't available for all third-party apps registered in Azure AD that request permissions. Instead of the **View details** link, you'll see **--** in the **Permissions** column. We're working with ISVs to enable this feature for their apps.
+The ability to review permissions and grant consent isn't available for all third-party apps. Typically, the third-party apps are registered in Azure Active Directory when the apps request permissions. Instead of the **View details** link, you'll see `--` in the **Permissions** column.
 
-## Related topics
+## Related articles
 
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 * [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent)

@@ -1,6 +1,6 @@
 ---
 title: Apps update experience in Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
