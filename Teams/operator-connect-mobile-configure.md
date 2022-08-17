@@ -105,8 +105,89 @@ To acquire numbers for new Teams users, follow these steps:
 
 ### Move numbers from Direct Routing to Operator Connect Mobile   
 
-**TBD**
-**NEED TO ADD SECTION**
+To move numbers from Direct Routing to Operator Connect Mobile, you'll need to complete the following steps:
+
+1. [Determine if the existing Direct Routing numbers are assigned online or on-premises](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on---premises).
+
+2. [Migrate the numbers from Direct Routing to Operator Connect Mobile](#migrate-the-numbers-from-direct-routing-to-operator-connect-mobile).
+
+2. [Remove the online voice routing policy associated with your user](#remove-the-online-voice-routing-policy-associated-with-your-user).
+
+3. [Acquire phone numbers](#acquire-phone-numbers).
+
+4. [Assign phone numbers](#assign-phone-numbers).
+
+These steps are described in greater detail in the following sections.
+
+#### Determine if the existing Direct Routing numbers are assigned online or on-premises.
+
+How you remove your existing Direct Routing numbers depends on whether the number is assigned on-premises or online.
+
+1. First, check that the user is assigned a Direct Routing number by running the following Teams PowerShell command. NumberType should be DirectRouting:
+
+   ```PowerShell
+   Get-CsPhoneNumberAssignment -AssignedPstnTargetId <user> 
+   ```
+
+2. Determine if the number is assigned online or on-premises by running the following Teams PowerShell command:
+
+   ```PowerShell
+   Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
+   ```
+
+   If OnPremLineUri is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Microsoft 365.
+
+#### Migrate the numbers from Direct Routing to Operator Connect Mobile
+
+To migrate numbers, follow the steps below.  
+
+> [!Important]
+> During migration, the phone number will be out of service. Coordinate with your Operator Connect operator before you begin the migration.
+
+- **To migrate existing Direct Routing numbers assigned online to Operator Connect Mobile**, contact your operator. To find your operator's website, see Microsoft 365 Operator Connect directory. On the agreed date and time, your operator will migrate your numbers from Direct Routing to Operator Connect Mobile. This may involve removing the phone number being migrated from your tenant and add it again as a new phone number associated with Operator Connect Mobile.
+
+- **To migrate Direct Routing numbers assigned on-premises to Operator Connect Mobile**, run the following Skype for Business Server PowerShell command:
+
+   ```PowerShell
+   Set-CsUser -Identity <user> -LineURI $null 
+   ```
+  To check if the on-premises number was removed and the changes have been synced from on-premises to Microsoft 365, run the following Teams PowerShell command:
+
+   ```PowerShell
+   Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
+   ```
+
+
+
+After the changes have synced to Microsoft 365 online directory, the expected output is:
+
+```PowerShell
+ConsoleCopy
+RegistrarPool                        : pool.infra.lync.com
+OnPremLineURI                        : 
+LineURI                              
+```
+
+The amount of time it takes for the removal to take effect depends on your configuration. Removing the phone number may take up to 10 minutes, in rare cases, it can take up to 24 hours. To check if the phone number was removed, run the following Teams PowerShell Module command:
+
+```PowerShell
+Get-CsOnlineUser -Identity <user> | fl LineUri
+```
+#### Remove the online voice routing policy associated with your user
+
+Once the number is unassigned, remove the online voice routing policy associated with your user by running the following Teams PowerShell command:
+
+```PowerShell
+Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
+```
+
+#### Acquire phone numbers
+
+Go to your operator's website to order and acquire phone numbers. To find your operators website, see the Microsoft 365 Operator Connect directory. You'll need to provide your tenant ID. If you don't know your tenant ID, see Find your Microsoft 365 tenant ID for more information. You may be porting an existing desk phone number or wireline number to a wireless voice subscription if its supported in your region and by your operator. 
+
+#### Assign phone numbers
+Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](assign-change-or-remove-a-phone-number-for-a-user.md).
+
 
 ## Manage your operators
 
