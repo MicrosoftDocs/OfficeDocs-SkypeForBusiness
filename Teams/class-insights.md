@@ -252,13 +252,15 @@ There are two places where you can control *Education Insights*. Both options ha
 1. Go to **Settings** > **Manage Education Insights**.
 1. Adjust the **Collect activity data for Insights** toggle to on or off.
 
-![Screenshot of the SDS admin center toggles to turn Insights off and on.](media/admin-settings-main-screen.png)
+![Screenshot of the SDS admin center toggles to turn Insights off and on.](media/manage-insights-toggles.png)
 
 #### Turn on and off Insights from the Teams client
 
 1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
 1. With a Microsoft 365 administrator account, open the **Admin settings** page using the ellipsis icon located in the top right corner of *Education Insights*.
 1. Adjust the **Collect activity data for Insights** toggle to on or off.
+
+![Screenshot of the Teams client toggles to turn Insights off and on.](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > If you've turned Insights off, the data that's been collected is deleted. The deleted data on opt-out cannot be restored at a later time, even if Insights is re-enabled.
