@@ -39,6 +39,10 @@ This article lists Education Faculty and Student licensing plans (SKUs) and SKU 
 |Microsoft 365 A5 without Audio Conferencing for Faculty     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
 |Office 365 Education for Homeschool for Faculty     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
 |Office 365 A1 for Faculty (for Device)     |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
+|Microsoft Teams Rooms Basic for faculty | Microsoft_Teams_Rooms_Basic_FAC | a4e376bd-c61e-4618-9901-3fc0cb1b88bb |
+|Microsoft Teams Rooms Basic without Audio Conferencing for faculty | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing_FAC | 7da0ac23-26f8-4d04-8731-9016d9883340 |
+|Microsoft Teams Rooms Pro for faculty | Microsoft_Teams_Rooms_Pro_FAC | 4cde982a-ede4-4409-9ae6-b003453c8ea6 |
+|Microsoft Teams Rooms Pro without Audio Conferencing for faculty | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing_FAC | 271f6b1a-de32-4849-bcf4-b79b8a7c2cfe |
 
 ## Student licenses
 
