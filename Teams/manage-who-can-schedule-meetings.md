@@ -23,11 +23,11 @@ description: Learn how to use meeting policy settings to control who can start a
 
 The following meeting policy settings determine whether users can start and schedule meetings in Teams.
 
-- [Meet now in channels](meeting-policies-in-teams-general.md#meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
-- [Channel meeting scheduling](meeting-policies-in-teams-general.md#channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
-- [Private meeting scheduling](meeting-policies-in-teams-general.md#private-meeting-scheduling): Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
-- [Outlook add in](meeting-policies-in-teams-general.md#outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
-- [Meet now in private meetings](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
+- **Meet now in channels**: Controls whether a user can start an impromptu meeting in a channel.
+- **Channel meeting scheduling**: Controls whether a user can schedule a meeting in a channel.
+- **Private meeting scheduling**: Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
+- **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
+- **Meet now in private meetings**: Controls whether a user can start an impromptu private meeting.
 
 By default, these settings are on. When any of these settings are turned off, any user who's assigned the policy will not be able to start or schedule new meetings of that type. The meeting join links and conference IDs of all existing meetings of that type that the user had previously started or scheduled will not be functional. When a user tries to join the meeting through an inactive join link or by phone, they'll get a message that says the meeting is no longer available.
 
@@ -39,6 +39,10 @@ For example, if a user is assigned a meeting policy in which these meeting polic
 Even if a meeting policy is turned off, the conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
 
 If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user become active and people can join them using the meeting join link or by phone.  
+
+## Meet now
+
+## Private
 
 ## Related topics
 
