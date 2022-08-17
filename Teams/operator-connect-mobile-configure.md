@@ -107,7 +107,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 To move numbers from Direct Routing to Operator Connect Mobile, you'll need to complete the following steps:
 
-1. [Determine if the existing Direct Routing numbers are assigned online or on-premises](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on---premises).
+1. [Determine if the existing Direct Routing numbers are assigned online or on-premises](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises).
 
 2. [Migrate the numbers from Direct Routing to Operator Connect Mobile](#migrate-the-numbers-from-direct-routing-to-operator-connect-mobile).
 
@@ -218,7 +218,20 @@ You can manage a user's incoming calling policies by using the Teams admin cente
 
 ### Use the Teams admin center
 
-**NEED TO ADD TAC STEPS**
+To manage a user's incoming calling policies using the Teams admin center:
+
+1. Under the voice tab, select **Mobility Policies**. By default, all users are set to Teams app incoming call dialer preference.
+
+2. To add a new mobile policy, click **Add**.
+
+3. Select a name, add a description of the policy, and choose one of the following from the **Select a mobile dialer** dropdown option:
+
+   -  **Microsoft Teams** to indicate an incoming calls preference to ring the Teams app on the SIM-enabled smartphone. 
+
+   - **Native Dialer** to indicate an incoming calls preference to ring the Native Dialer on the SIM-enabled smartphone.
+
+4. Assign the policies to users. See [Assign policies](assign-policies-users-and-groups.md).
+
 
 ### Use PowerShell
 
