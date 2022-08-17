@@ -45,6 +45,12 @@ To enable an operator:
 
 ## Set up phone numbers
 
+If you want to add your existing company paid SIM-enabled phone number to Teams, contact your operator to ensure you have the eligible Operator Connect Mobile subscription and they can upload your numbers to Teams. Once your operator completes the order, you can [assign those numbers to users](assign-change-or-remove-a-phone-number-for-a-user.md). 
+
+To find your operator's website, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+
+You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id.md). You may be porting an existing desk phone number or wireline number to a wireless voice subscription if it's supported in your region and by your operator. 
+
 How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans, Operator Connect, or Direct Routing.
 
 - [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).  
@@ -54,12 +60,6 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 - [Move numbers from Operator Connect to Operator Connect Mobile](#move-numbers-from-operator-connect-to-operator-connect-mobile).  
 
 - [Move numbers from Direct Routing to Operator Connect Mobile](#move-numbers-from-direct-routing-to-operator-connect-mobile).  
-
-If you want to add your existing company paid SIM-enabled phone number to Teams, contact your operator to ensure you have the eligible Operator Connect Mobile subscription and they can upload your numbers to Teams. Once your operator completes the order, you can [assign those numbers to users](assign-change-or-remove-a-phone-number-for-a-user.md). 
-
-To find your operator's website, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
-
-You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id.md). You may be porting an existing desk phone number or wireline number to a wireless voice subscription if it's supported in your region and by your operator. 
 
 
 ### Emergency addresses
