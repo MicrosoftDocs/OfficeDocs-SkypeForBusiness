@@ -45,7 +45,7 @@ To enable an operator:
 
 ## Set up phone numbers
 
-If you want to add your existing company paid SIM-enabled phone number to Teams, contact your operator to ensure you have the eligible Operator Connect Mobile subscription and they can upload your numbers to Teams. Once your operator completes the order, you can [assign those numbers to users](assign-change-or-remove-a-phone-number-for-a-user.md). 
+If you want to add your existing company paid SIM-enabled phone numbers to Teams, contact your operator to ensure you have the eligible Operator Connect Mobile subscription, and they can upload your numbers to Teams. After your operator completes the order, you can assign those numbers to users. 
 
 To find your operator's website, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 

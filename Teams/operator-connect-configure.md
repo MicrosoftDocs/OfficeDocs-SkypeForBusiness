@@ -53,7 +53,7 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
-### Emergency addresses
+### Assign numberes to emergency addresses
 
 The emergency address is a static location associated with a number. Once you create emergency addresses in the Teams admin center, how you assign the addresses, or change them later, will depend on your operator.
 
