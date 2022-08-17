@@ -74,12 +74,6 @@ None
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
   * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
-* The following aren't explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
-
-  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
-
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
 
 ### Considerations
