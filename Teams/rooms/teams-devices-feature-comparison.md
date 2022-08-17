@@ -41,6 +41,7 @@ To help guide you as to what features are available on different platforms, you 
 ||Direct guest join |Available  |Available |
 |**Meeting engagement and collaboration**|Intuitive, purpose-built app experience |Available  |Available |
 ||Video and content layouts (for example, Together Mode, large gallery, gallery only, and gallery and content) |Available  |Available |
+||Front row layout|Available|Not Available|
 ||Chat bubbles|Available |Coming soon |
 ||Raise hand, lower all hands |Available  |Available |
 ||Pin multiple participants |Available  |Coming soon |
@@ -72,6 +73,7 @@ To help guide you as to what features are available on different platforms, you 
 ||Automatic Teams app updates |Available  |Available |
 ||Device auto-enrollment |Available |Available |
 ||Call quality analytics |Available  |Available |
+||Microsoft Teams Rooms managed service |Available  |Coming soon |
 |**Good for / Space**|Focus (2-4 people) |Available  |Available |
 ||Small (4-6 people) |Available  |Available |
 ||Medium (6-12 people) |Available  |Available |
