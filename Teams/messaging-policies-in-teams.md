@@ -107,6 +107,7 @@ Here are the messaging policy settings that you can configure.
 - **Suggested replies**  Turn this setting on to enable suggested replies for chat messages.
 - **Chat permission role** Use this setting to define the supervised chat role of the user. Learn more about [supervised chat](supervise-chats-edu.md).
 - **Users with full chat permissions can delete any message** Use this setting to let users with full permissions delete any group or meeting chat message.
+- **Video messages** Turn this setting on if you want users in your organization to be able to use the Teams app to send video messages to other people in Chat.
 
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
