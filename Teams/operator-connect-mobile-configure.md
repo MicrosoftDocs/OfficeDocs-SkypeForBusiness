@@ -35,7 +35,7 @@ To enable an operator:
 
 2. Under **Operator settings**, select the countries you want to enable with your selected operator.
 
-3. **Provide contact information** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Operator Connect Mobile.
+3. **Provide contact information.** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Operator Connect Mobile.
 
 4. Accept the data transfer notice.
 
@@ -45,15 +45,15 @@ To enable an operator:
 
 How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans, Operator Connect, or Direct Routing.
 
-- If you need to acquire phone numbers for new users, see [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).  
+- [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).  
 
-- If you want to move existing numbers from Calling Plans to Operator Connect Mobile, see [Move numbers from Calling Plans to Operator Connect Mobile](#move-numbers-from-calling-plans-to-operator-connect-mobile).  
+- [Move numbers from Calling Plans to Operator Connect Mobile](#move-numbers-from-calling-plans-to-operator-connect-mobile).  
 
-- If you want to move existing numbers from Operator Connect to Operator Connect Mobile, see [Move numbers from Operator Connect to Operator Connect Mobile](#move-numbers-from-operator-connect-to-operator-connect-mobile).  
+- [Move numbers from Operator Connect to Operator Connect Mobile](#move-numbers-from-operator-connect-to-operator-connect-mobile).  
 
-- If you want to move existing numbers from Direct Routing to Operator Connect Mobile, see [Move numbers from Direct Routing to Operator Connect Mobile](#move-numbers-from-direct-routing-to-operator-connect-mobile).  
+- [Move numbers from Direct Routing to Operator Connect Mobile](#move-numbers-from-direct-routing-to-operator-connect-mobile).  
 
-- If you want to add your existing company paid SIM-enabled phone number to Teams, contact your operator to ensure you have the eligible Operator Connect Mobile subscription and they can upload your numbers to Teams. Once your operator completes the order, you can [assign those numbers to users](assign-change-or-remove-a-phone-number-for-a-user.md). 
+If you want to add your existing company paid SIM-enabled phone number to Teams, contact your operator to ensure you have the eligible Operator Connect Mobile subscription and they can upload your numbers to Teams. Once your operator completes the order, you can [assign those numbers to users](assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 ### Emergency addresses
 
@@ -77,7 +77,9 @@ To acquire numbers for new Teams users, follow these steps:
 
 1. **Assign a Phone System license and an Operator Connect Mobile add-on license.** You can assign a Phone System license and an Operator Connect Mobile add-on license to your users from the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. **Users that will be assigned phone numbers acquired with Operator Connect Mobile need to be in TeamsOnly mode.** If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. To check this, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
+2. **Users who will be assigned phone numbers acquired with Operator Connect Mobile need to be in TeamsOnly mode.** If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. 
+
+   To check, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
 
 3. **Acquire numbers.** Go to your operator's website or contact them to order and acquire mobile SIM-enabled phone numbers with the Operator Connect Mobile service enabled. For a list of operator websites, go to the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
 
