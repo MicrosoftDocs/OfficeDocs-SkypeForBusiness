@@ -39,7 +39,7 @@ To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Operator Connect**](#phone-system-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
 
-- [**Operator Connect Mobile**](#phone-system-with-operator-connect-mobile). With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Operator Connect Mobile program, they can manage the service for bringing PSTN calling to Teams.
+- [**Operator Connect Mobile**](#phone-system-with-operator-connect-mobile). With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Operator Connect Mobile program, they can manage the service for bringing PSTN calling to Teams.  **Operator Connect Mobile is a public preview release.**
 
 - [**Direct Routing**](#phone-system-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System.
 
@@ -89,6 +89,8 @@ Operator Connect might be the right solution for your organization if:
 For information on the benefits and requirements of Operator Connect, and for a list of carriers participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
 
 ## Phone System with Operator Connect Mobile
+
+**Operator Connect Mobile is a public preview release.**
 
 If your existing carrier participates in the Microsoft Operator Connect Mobile program, they can manage the service for bringing PSTN calling to Teams. With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number.  Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines.  
 

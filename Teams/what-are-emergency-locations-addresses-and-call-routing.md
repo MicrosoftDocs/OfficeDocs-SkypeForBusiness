@@ -46,7 +46,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 - **Registered address** - An emergency address that is assigned to each user. A registered address is sometimes referred to as a static emergency address or address of record. (Currently, registered addresses are not supported for Direct Routing. Check back soon for updates.)
 
 >[!Note]
->There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, Operator Connect Mobile, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md). These considerations are described throughout this article.
+>There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), or Direct Routing for your [PSTN connectivity](pstn-connectivity.md). These considerations are described throughout this article.
 
 ## Emergency address validation
 
@@ -177,6 +177,8 @@ When a Teams Operator Connect user dials an emergency number, how the call is ro
 ## Considerations for Operator Connect Mobile
 
 The following sections describe how to manage emergency calling for Operator Connect Mobile users. To find out whether Operator Connect Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+
+**Operator Connect Mobile is a Public preview release.**
 
 ### Emergency call enablement for Operator Connect Mobile
 

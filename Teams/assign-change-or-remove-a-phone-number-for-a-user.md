@@ -24,9 +24,9 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 # Assign, change, or remove a phone number for a user
 
-When you set up Calling Plans, Operator Connect, or Operator Connect Mobile, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
+When you set up Calling Plans, Operator Connect, or Operator Connect Mobile (Public preview release), you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
 
-This article applies to Calling Plans, Operator Connect, and Operator Connect Mobile. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Calling Plans, Operator Connect, and Operator Connect Mobile (Public preview release). For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
 Before you assign a number for a Calling Plan, Operator Connect, or Operator Connect Mobile user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md), [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers), or [Set up numbers for Operator Connect Mobile users](operator-connect-mobile-configure.md).
 

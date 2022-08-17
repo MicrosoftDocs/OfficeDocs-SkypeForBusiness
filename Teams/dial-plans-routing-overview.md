@@ -30,7 +30,7 @@ The articles in this section describe dial plans and call routing in Microsoft T
 - [Create and manage dial plans](create-and-manage-dial-plans.md)
 - [Route calls to unassigned numbes](routing-calls-to-unassigned-numbers.md)
 
-The articles in this section apply to all options for connecting to the Public Switched Telephone Network (PSTN): Calling Plan, Operator Connect, Opertor Connect Mobile, and Direct Routing. For more information about all PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
+The articles in this section apply to all options for connecting to the Public Switched Telephone Network (PSTN): Calling Plan, Operator Connect, Operator Connect Mobile (Public preview release), and Direct Routing. For more information about all PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
 If you choose Calling Plan, Operator Connect, or Operator Connect Mobile, most call routing is handled by either Microsoft or your provider. Direct Routing, however, requires additional steps to configure call routing. 
 

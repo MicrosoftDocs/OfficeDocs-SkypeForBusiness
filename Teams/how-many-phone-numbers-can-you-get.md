@@ -29,9 +29,9 @@ description: Learn about how many telephone numbers you can get in Microsoft Tea
 
 When you're looking for and getting Microsoft-supplied telephone numbers for your organization, you can get more telephone numbers than you have assigned licenses. But this depends on the types of telephone numbers and types of licenses you've bought and assigned.
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Operator Connect Mobile, or Direct Routing. For more information, see [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
+How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), or Direct Routing. For more information, see [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
 
-The following table applies to Microsoft Calling Plans, [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), and voice apps, such as [Call Queues and Auto Attendants](plan-auto-attendant-call-queue.md). For information about Operator Connect and Direct Routing, contact your service provider.
+The following table applies to Microsoft Calling Plans, [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), and voice apps, such as [Call Queues and Auto Attendants](plan-auto-attendant-call-queue.md). For information about Operator Connect, Operator Connect Mobile, or Direct Routing, contact your service provider.
 
 You can see the quantity of telephone numbers you can get from Microsoft during the search and acquire process in the Microsoft Teams admin center (**Get phone numbers**).
 

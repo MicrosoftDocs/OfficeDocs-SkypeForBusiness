@@ -31,7 +31,7 @@ Before you can assign Microsoft-supplied telephone numbers to your users, you mu
 
 If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you will need for your users. The page will automatically limit the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you will be directed to the landing page of your selected operator to complete the number order.
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Operator Connect Mobile, or Direct Routing.
+How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), or Direct Routing.
 
 This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile), and [Operator Connect Mobile](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 

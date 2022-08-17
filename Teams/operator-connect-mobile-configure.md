@@ -23,6 +23,8 @@ appliesto:
 
 # Configure Operator Connect Mobile
 
+**Operator Connect Mobile is a public preview release.**
+
 This article describes how to configure Operator Connect Mobile. Before configuring Operator Connect Mobile, be sure to read [Plan for Operator Connect Mobile](operator-connect-mobile-plan.md) for information about benefits, prerequisites, and licensing.
 
 ## Enable an operator
@@ -159,11 +161,9 @@ To migrate numbers, follow the steps below.
    Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
    ```
 
-
-
 After the changes have synced to Microsoft 365 online directory, the expected output is:
 
-```PowerShell
+```
 ConsoleCopy
 RegistrarPool                        : pool.infra.lync.com
 OnPremLineURI                        : 

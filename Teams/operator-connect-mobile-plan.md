@@ -23,6 +23,8 @@ appliesto:
 
 # Plan for Operator Connect Mobile
 
+**Operator Connect Mobile is a public preview release.**
+
 Operator Connect Mobile is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number. Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.
 
 Operator Connect Mobile can play a key role in your organization's strategy to enable a truly mobile workforce, providing more flexible and efficient mobile-centric user experiences along with enterprise-grade security and compliance settings.

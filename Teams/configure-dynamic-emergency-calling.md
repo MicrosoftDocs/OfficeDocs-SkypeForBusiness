@@ -22,7 +22,7 @@ appliesto:
 
 # Plan and configure dynamic emergency calling 
 
-Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Operator Connect Mobile, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
+Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
 Based on the network topology (network elements associated with emergency addresses) that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client.
 
