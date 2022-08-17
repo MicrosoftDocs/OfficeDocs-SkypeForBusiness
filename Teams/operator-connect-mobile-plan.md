@@ -23,13 +23,13 @@ appliesto:
 
 # Plan for Operator Connect Mobile
 
-**Operator Connect Mobile is a public preview release.**
+**Operator Connect Mobile is a public preview release.** For a list of operators participating in the Microsoft Operator Connect Mobile program and the countries or regions where their service is available, see [Microsoft 365 Operator Connect Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
 Operator Connect Mobile is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. With Operator Connect Mobile, a user’s SIM-enabled phone number is also their Teams phone number. Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.
 
 Operator Connect Mobile can play a key role in your organization's strategy to enable a truly mobile workforce, providing more flexible and efficient mobile-centric user experiences along with enterprise-grade security and compliance settings.
 
-You might consider a combination of voice services. For example, you might choose Operator Connect Mobile for your sales and field organizations who require mobile support, but another solution for your onsite call center organization that relies on desk phones. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md). 
+You might consider a combination of voice services. For example, you might choose Operator Connect Mobile for your sales and field organizations that require mobile support, but another solution for your onsite call center organization that relies on desk phones. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md). 
 
 This article describes Operator Connect Mobile benefits and requirements. Operator Connect Mobile might be the right solution for your organization if:
 
@@ -41,11 +41,11 @@ This article describes Operator Connect Mobile benefits and requirements. Operat
 
 If you decide Operator Connect Mobile is the right solution for your organization, after reading this article, see [Configure Operator Connect Mobile](operator-connect-mobile-configure.md).
 
-For a list of operators participating in the Microsoft Operator Connect Mobile program and the countries or regions where their service is available, see [Microsoft 365 Operator Connect Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+
 
 ## Benefits
 
-With Operator Connect Mobile, if your existing operator is a participant in the Operator Connect Mobile program, they can manage the service for bringing PSTN calling to Teams. The Operator Connect Mobile program provides the following benefits:
+If your existing operator is a participant in the Operator Connect Mobile program, they can manage the service for bringing PSTN calling to Teams. The Operator Connect Mobile program provides the following benefits for your organization:
 
 - **Users have one business-provided number for mobile, desk, and Microsoft Teams**. Users can work flexibly and securely from any location, device, or network.  
 

@@ -23,7 +23,7 @@ appliesto:
 
 # Configure Operator Connect Mobile
 
-**Operator Connect Mobile is a public preview release.**
+**Operator Connect Mobile is a public preview release.** For a list of operators participating in the Microsoft Operator Connect Mobile program and the countries or regions where their service is available, see [Microsoft 365 Operator Connect Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
 This article describes how to configure Operator Connect Mobile. Before configuring Operator Connect Mobile, be sure to read [Plan for Operator Connect Mobile](operator-connect-mobile-plan.md) for information about benefits, prerequisites, and licensing.
 
@@ -83,9 +83,13 @@ To acquire numbers for new Teams users, follow these steps:
 
    To check, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
 
-3. **Acquire numbers.** Go to your operator's website or contact them to order and acquire mobile SIM-enabled phone numbers with the Operator Connect Mobile service enabled. For a list of operator websites, go to the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
+3. **Acquire numbers.** Go to your operator's website or contact them to order and acquire mobile SIM-enabled phone numbers with the Operator Connect Mobile service enabled. 
 
-4. **Assign numbers.** Once your operator completes the order, they'll upload SIM-enabled mobile numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](assign-change-or-remove-a-phone-number-for-a-user.md).
+   For a list of operator websites, go to the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
+
+4. **Assign numbers.** Once your operator completes the order, they'll upload SIM-enabled mobile numbers to your tenant. 
+
+   You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ### Move numbers from Calling Plans to Operator Connect Mobile
 
@@ -148,7 +152,7 @@ To migrate numbers, follow the steps below.
 > [!Important]
 > During migration, the phone number will be out of service. Coordinate with your Operator Connect operator before you begin the migration.
 
-- **To migrate existing Direct Routing numbers assigned online to Operator Connect Mobile**, contact your operator. To find your operator's website, see Microsoft 365 Operator Connect directory. On the agreed date and time, your operator will migrate your numbers from Direct Routing to Operator Connect Mobile. This may involve removing the phone number being migrated from your tenant and add it again as a new phone number associated with Operator Connect Mobile.
+- **To migrate existing Direct Routing numbers assigned online to Operator Connect Mobile**, contact your operator. To find your operator's website, see [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). On the agreed date and time, your operator will migrate your numbers from Direct Routing to Operator Connect Mobile. This may involve removing the phone number being migrated from your tenant and add it again as a new phone number associated with Operator Connect Mobile.
 
 - **To migrate Direct Routing numbers assigned on-premises to Operator Connect Mobile**, run the following Skype for Business Server PowerShell command:
 
@@ -170,14 +174,18 @@ OnPremLineURI                        :
 LineURI                              
 ```
 
-The amount of time it takes for the removal to take effect depends on your configuration. Removing the phone number may take up to 10 minutes, in rare cases, it can take up to 24 hours. To check if the phone number was removed, run the following Teams PowerShell Module command:
+To check if the phone number was removed, run the following Teams PowerShell command:
 
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
+
+> [!NOTE]
+> The amount of time it takes for the removal to take effect depends on your configuration. Removing the phone number may take up to 10 minutes, in rare cases, it can take up to 24 hours. 
+
 #### Remove the online voice routing policy associated with your user
 
-Once the number is unassigned, remove the online voice routing policy associated with your user by running the following Teams PowerShell command:
+After the number is unassigned, remove the online voice routing policy associated with your user by running the following Teams PowerShell command:
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
@@ -185,15 +193,20 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 #### Acquire phone numbers
 
-Go to your operator's website to order and acquire phone numbers. To find your operators website, see the Microsoft 365 Operator Connect directory. You'll need to provide your tenant ID. If you don't know your tenant ID, see Find your Microsoft 365 tenant ID for more information. You may be porting an existing desk phone number or wireline number to a wireless voice subscription if its supported in your region and by your operator. 
+To order and acquire phone numbers, go to your operator's website. To find your operator's website, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). 
+
+You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id.md). You may be porting an existing desk phone number or wireline number to a wireless voice subscription if it's supported in your region and by your operator. 
 
 #### Assign phone numbers
-Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](assign-change-or-remove-a-phone-number-for-a-user.md).
+
+After your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. 
+
+You can assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 
 ## Manage your operators
 
-From the **My operators** tab, you can view your operators and their status and make the following changes to your selections:  
+From the **My operators** tab, you can view your operators and their status, and make the following changes to your selections:  
 
 - Manage operator services by country
 - Suspend an operator
@@ -220,26 +233,26 @@ You can manage a user's incoming calling policies by using the Teams admin cente
 
 ### Use the Teams admin center
 
-To manage a user's incoming calling policies using the Teams admin center:
+To manage a user's incoming calling policies by using the Teams admin center:
 
-1. Under the voice tab, select **Mobility Policies**. By default, all users are set to Teams app incoming call dialer preference.
+1. Under the voice tab, select **Mobility Policies**. 
 
 2. To add a new mobile policy, click **Add**.
 
 3. Select a name, add a description of the policy, and choose one of the following from the **Select a mobile dialer** dropdown option:
 
-   -  **Microsoft Teams** to indicate an incoming calls preference to ring the Teams app on the SIM-enabled smartphone. 
+   -  **Microsoft Teams** to ring the Teams app on the SIM-enabled smartphone first. 
 
-   - **Native Dialer** to indicate an incoming calls preference to ring the Native Dialer on the SIM-enabled smartphone.
+   - **Native Dialer** to ring the Native Dialer on the SIM-enabled smartphone first.
 
 4. Assign the policies to users. See [Assign policies](assign-policies-users-and-groups.md).
 
 
 ### Use PowerShell
 
-1. Connect to your tenant: Connect-MicrosoftTeams 
+1. Connect to your tenant: Connect-MicrosoftTeams.
  
-2. Create policies for incoming calls for Native dialer or Teams first. (You can name choose the policy name; this example uses TeamsFirst and NativeFirst): 
+2. Create policies for incoming calls to ring either the Native dialer or the Teams app first. (You can choose the policy name; this example uses TeamsFirst and NativeFirst.) 
 
    ```PowerShell
    New-CsTeamsMobilityPolicy -identity TeamsFirst -MobileDialerPreference Teams 
