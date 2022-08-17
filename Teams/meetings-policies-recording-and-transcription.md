@@ -104,7 +104,7 @@ File retention takes precedence over file deletion. A Teams meeting recording wi
 
 If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
 
-If a user with delete permissions attempts to delete a Teams meeting recording that has an expiration setting, that user’s delete action will be executed.
+Users can manually delete their recordings prior to the expiration date unless there is a Purview retention policy that prevents it.
 
 ### Deletion of recordings
 
@@ -115,7 +115,7 @@ The recording is usually deleted within a day after the expiration date but in r
 
 ### Expiration of migrated recordings from Stream (Classic)
 
-Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain. More details will be can be found in [the Stream (Classic) migration documentation](/stream/streamnew/stream-classic-to-new-migration-overview).
+Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain. More details can be found in [the Stream (Classic) migration documentation](/stream/streamnew/stream-classic-to-new-migration-overview).
 
 ## Store recordings outside of your country or region
 

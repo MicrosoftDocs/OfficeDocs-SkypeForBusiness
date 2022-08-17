@@ -2881,6 +2881,11 @@
       "redirect_document_id": true
      },
      {
+      "source_path": "Teams/meeting-expiration.md",
+      "redirect_url": "/microsoftteams/manage-who-can-schedule-meetings",
+      "redirect_document_id": true
+     },
+     {
       "source_path": "Teams/rooms/update-management-reference.md",
       "redirect_url": "/microsoftteams/rooms/",
       "redirect_document_id": false
