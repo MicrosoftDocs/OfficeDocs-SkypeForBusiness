@@ -37,7 +37,7 @@ These settings control which meeting participants wait in the lobby before they'
 - [Chat in meetings](#chat-in-meetings)
 
 > [!NOTE]
->Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+> Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## Let anonymous people join a meeting
 
@@ -95,15 +95,20 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 ## Chat in meetings
 
-This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
-
-This setting doesn't apply to channel meetings. Once this meeting chat policy is applied to users, an organizer can't override this policy through meeting options.
+This is a per-user and per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. This setting doesn't apply to channel meetings.
 
 |Setting value |Behavior  |
 |---------|---------|
 |**Turn it on for everyone**     | All participants can write and view chat messages. |
 |**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
 |**Turn it on for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
+
+Once this meeting chat policy is applied to users, an organizer can't override this policy through meeting options.
+
+The most restrictive chat policy applies, for example:
+
+- If an organizer has Chat in meetings set to *Turn it off for everyone*, the per-organizer policy applies and no one will be able to chat.
+- If an organizer has Chat in meeting set to *Turn it on for everyone* or *Turn it on for everyone but anonymous users*, then the per-user policy applies and any users with *Turn it off for everyone* set will not be able to chat.
 
 <a name="bkparticipantsandguests"> </a>
 
