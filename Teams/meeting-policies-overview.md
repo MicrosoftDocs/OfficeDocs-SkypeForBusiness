@@ -69,6 +69,10 @@ Under **Content sharing**:
 
 Then assign the policy to the users.
 
+The following video shows the steps described in this section.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ## Edit a meeting policy
 
 You can edit the global policy and any custom policies that you create.
