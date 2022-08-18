@@ -46,7 +46,7 @@ External access is available to the following tenants:
 - Native federation with unmanaged (Personal) accounts
      - Between Commercial and Personal accounts only
 - Skype for Business interop
-     - Between and across Commercial, GCC, GCC High and DoD
+     - Between and across Commercial, GCC, GCC High, and DoD
 - Skype interop
      - Between Commercial and Skype only
 
