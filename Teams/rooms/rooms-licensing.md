@@ -24,10 +24,6 @@ ms.custom:
 description: Learn about and compare the available licenses for different types of calling and meeting features in Microsoft Teams Rooms.
 ---
 
-
-EA transition
-user license
-
 # Microsoft Teams Rooms licenses
 
 Microsoft offers two licenses for meeting room devices that participate in Teams meetings and calls:
