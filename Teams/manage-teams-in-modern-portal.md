@@ -107,6 +107,10 @@ On the team's profile page, you can change the following elements of a team:
 
 The changes that you make to a team are logged. If you're modifying group settings (changing the name, description, photo, privacy, classification, or team members), the changes are attributed to you through the audit pipeline. If you're performing actions against Teams-specific settings, your changes are tracked and attributed to you in the General channel of the team.
 
+This video shows how you create a new team and a channel for them.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ## Troubleshooting
 
 **Issue: Teams missing from the Team overview grid**
