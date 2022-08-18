@@ -70,6 +70,10 @@ To add a new team, click **Add**. In the **Add a new team** pane, give the team 
 
 To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.
 
+This video shows how you view and edit the details of an existing team.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
+
 ### Archive
 
 You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
