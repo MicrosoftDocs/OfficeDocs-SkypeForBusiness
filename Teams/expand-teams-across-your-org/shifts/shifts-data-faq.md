@@ -18,6 +18,7 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
