@@ -47,10 +47,11 @@ The Teams Rooms Basic and Teams Rooms Pro licenses can be used with meeting devi
 
 ## Teams Rooms license service plan comparison
 
-The following table shows the services available to each Teams Rooms license.
+The following table shows the services included in each Teams Rooms license.
 
 |                                           | Microsoft Teams Rooms Basic                                          | Microsoft Teams Rooms Pro                                              |
 |:------------------------------------------|:--------------------------------------------------------------------:|:----------------------------------------------------------------------:|
+| **Maximum number of licenses**            | 25                                                                   | Unlimited                                                              |
 | **Microsoft Teams**                       | &#x2714;                                                             | &#x2714;                                                               |
 | **Audio Conferencing<sup>1</sup>**        | &#x2714;                                                             | &#x2714;                                                               |
 | **Whiteboard**                            | &#x2714;                                                             | &#x2714;                                                               |
@@ -68,7 +69,7 @@ The following table shows the services available to each Teams Rooms license.
 
 ## Switching from Teams Rooms Standard and Teams Rooms Premium
 
-If your organization has meeting devices that use the Teams Rooms Standard or Teams Rooms Premium legacy licenses, you can continue using those licenses until their expiration date. Upon the expiration date of your existing legacy licenses, you need to purchase a Teams Rooms Basic or Teams Rooms Pro license for your devices. If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until the expiration of your agreement.
+If your organization has meeting devices that use the Teams Rooms Standard or Teams Rooms Premium legacy licenses, you can continue using those licenses until their expiration date. Upon the expiration date of your existing legacy licenses, you need to purchase a Teams Rooms Basic or Teams Rooms Pro license for your devices. If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period.
 
 The features that are available to you with the Teams Rooms Standard and Teams Rooms Premium licenses won't change while you still have those licenses assigned to your devices. However, feature investment and updates added to Teams and Teams Rooms devices won't be available to devices using these legacy licenses.
 
