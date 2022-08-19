@@ -10,6 +10,7 @@ ms.custom: intro-get-started
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
@@ -70,9 +71,8 @@ The Manage apps page is where you allow or block individual apps at the org leve
 
 To allow or block an app:
 
-1. Sign in to Teams admin center.
-1. Access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
-1. Select an app from the list of apps. You can search by the name of the app and then select it.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Select an app from the list of apps. You can search by the name of the app.
 1. Select **Allow** or **Block** option.
 
 When you allow (or block) an app on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center, the particular app is allowed (or blocked) for all users in your organization. This method differs from the app permission policy in the context that allowing (or blocking) an app via permission policy, impacts only the specific users who are assigned the policy.
@@ -87,7 +87,7 @@ End-users can view, but not use, the blocked apps in Teams Store. For the blocke
 
 ### View a request
 
- 1. Sign in to the Teams admin center and select **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+ 1. Sign in to the Teams admin center and access **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
     :::image type="content" source="media/requested-apps1.png" alt-text="End-user requests for blocked apps are displayed in the Teams admin center in the column titled Requests by users." lightbox="media/requested-apps.png":::​
 
@@ -128,7 +128,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 > [!NOTE]
 > To learn how to use org-wide app settings in Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the pane.
+1. On **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page, select **Org-wide app settings**. You can then configure the settings you want in the pane.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Screenshot of the Org-wide app settings pane on the Manage apps page":::
 
