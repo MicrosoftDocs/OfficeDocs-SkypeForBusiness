@@ -11,6 +11,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
