@@ -16,6 +16,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: 
