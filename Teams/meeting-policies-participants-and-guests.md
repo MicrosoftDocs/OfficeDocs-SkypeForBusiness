@@ -103,12 +103,12 @@ This is a per-user and per-organizer policy. This setting controls whether meeti
 |**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
 |**Turn it on for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
 
-Once this meeting chat policy is applied to users, an organizer can't override this policy through meeting options.
+Once this **Chat in meetings** policy is applied to users, an organizer can't override this policy through **Meeting options**.
 
-The most restrictive chat policy applies, for example:
+The policy applied to the meeting organizer can affect other users in the meeting. For example:
 
-- If an organizer has Chat in meetings set to *Turn it off for everyone*, the per-organizer policy applies and no one will be able to chat.
-- If an organizer has Chat in meeting set to *Turn it on for everyone* or *Turn it on for everyone but anonymous users*, then the per-user policy applies and any users with *Turn it off for everyone* set will not be able to chat.
+- If the organizer has **Chat in meetings** set to **Turn it on for everyone** or **Turn it on for everyone but anonymous users**, then a user's individual policy will apply and any users with **Turn it off for everyone** set will not be able to chat in the meeting.
+- If the organizer has **Chat in meetings** set to **Turn it off for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
 
 <a name="bkparticipantsandguests"> </a>
 
