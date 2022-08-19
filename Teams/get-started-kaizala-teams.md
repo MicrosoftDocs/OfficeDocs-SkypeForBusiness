@@ -18,6 +18,9 @@ ms.custom:
 
 # Kaizala and Microsoft Teams 
 
+>[!Important]
+> Microsoft Kaizala will retire on August 31, 2023. We recommend upgrading to Microsoft Teams for continued connection, sharing, and collaboration. After the retirement date, access and support for Kaizala will be discontinued.
+
 In April of 2019, we [announced](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) plans to bring Kaizala together with Microsoft Teams. The capabilities of Kaizala complement the robust communication and collaboration capabilities of Teams, the hub for teamwork in Microsoft 365.
 
 Open the door to an entirely new way of doing business with Microsoft Teams. Teams extends the capabilities of Kaizala - bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. Teams helps customers realize more value from their investments and improves the frontline worker’s day-to-day experience.
