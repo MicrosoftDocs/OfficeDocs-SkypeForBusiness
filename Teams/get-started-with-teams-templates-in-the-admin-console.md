@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 description: Learn about team templates and how to manage them in the Microsoft Teams admin center.
 f1.keywords:
 - CSH
