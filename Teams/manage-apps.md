@@ -10,6 +10,7 @@ ms.custom: intro-get-started
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 

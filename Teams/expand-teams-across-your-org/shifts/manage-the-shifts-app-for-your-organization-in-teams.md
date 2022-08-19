@@ -20,6 +20,7 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - microsoftcloud-retail
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
