@@ -92,7 +92,7 @@ The following table tells you what per-user information is available for each co
 
    In the session details for each call or meeting, minor issues appear in yellow. If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session.
 
-In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by the a dropped call or when the connection with the client terminates. When this occurs, the session rating is **unavailable**.
+In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by a dropped call or when the connection with the client terminates. When this occurs, the session rating is **unavailable**.
 
 For audio sessions that do have Quality of Experience (QoE) data, the following table describes major issues that qualify a session as **poor**.
 
