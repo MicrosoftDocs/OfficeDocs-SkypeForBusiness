@@ -66,7 +66,7 @@ To add a new team, click **Add**. In the **Add a new team** pane, give the team 
 > [!NOTE]
 > Newly created teams can be managed right away in the Teams Admin Center, unlike the experience in other clients like, Outlook.
 
-This video shows how you create a new team and a channel for them.
+This video shows the steps to create a new team and a channel for them.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
 
@@ -74,7 +74,7 @@ This video shows how you create a new team and a channel for them.
 
 To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.
 
-This video shows how you view and edit the details of an existing team.
+This video shows the steps to view and edit the details of an existing team.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 

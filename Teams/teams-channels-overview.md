@@ -81,7 +81,7 @@ One key early planning activity to engage users with Teams is to help people thi
 >
 > Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
 
-This video shows how to view and manage a user's team membership.
+This video shows the steps to view and manage a user's team membership.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
 

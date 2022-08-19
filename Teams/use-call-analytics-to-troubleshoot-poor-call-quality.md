@@ -50,7 +50,7 @@ To get additional information about a given session, including detailed media an
 
 ![Screenshot of call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
-This video shows the steps required to view a user's meetings and call information.
+This video shows the steps to view a user's meetings and call information.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
 
