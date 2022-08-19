@@ -51,6 +51,10 @@ To configure unanswered settings, on the same page select the appropriate settin
 
 The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
 
+This video shows the steps to view and edit the voice settings for a user.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
+
 ## Use PowerShell
 
 You can use PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
