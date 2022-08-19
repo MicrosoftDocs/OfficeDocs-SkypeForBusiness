@@ -38,14 +38,14 @@ You can see what license your devices have by going to **Teams devices** in the 
 
 Devices that have the **Pro** or **Pro (Trial)** licenses can access all the features of the Teams admin center. Devices with other licenses can access a subset of those features. You can see which features are available to each license in [Comparison of Teams Rooms feature availability by license](#comparison-of-teams-rooms-feature-availability-by-license).
 
+> [!IMPORTANT]
+> If you select multiple devices that include both Microsoft Teams Rooms Basic and Microsoft Teams Rooms Pro licenses, actions that require a Microsoft Teams Rooms Pro license will be performed only on devices that have been assigned that license. The action won't be performed on devices assigned the Microsoft Teams Rooms Basic license.
+
 ## See which features require a Microsoft Teams Rooms Pro license
 
 Features that require a Microsoft Teams Rooms Pro license can be identified by looking for the :::image type="icon" source="../media/mtr-pro-icon.png" border="false"::: icon on a device's details page. If the device that's currently selected isn't assigned a Microsoft Teams Rooms Pro license, you won't be able to perform the action and will see a prompt to upgrade.
 
 :::image type="content" source="../media/mtr-restart-device-dialog.png" alt-text="Teams Rooms device restart dialog showing Pro icon.":::
-
-> [!IMPORTANT]
-> If you select multiple devices that include both Microsoft Teams Rooms Basic and Microsoft Teams Rooms Pro licenses, actions that require a Microsoft Teams Rooms Pro license will be performed only on devices that have been assigned that license. The action won't be performed on devices assigned the Microsoft Teams Rooms Basic license.
 
 ## Comparison of Teams Rooms feature availability by license
 
