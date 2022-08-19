@@ -18,6 +18,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 ---
 
 # Manage the Tasks app for your organization in Microsoft Teams
