@@ -39,7 +39,7 @@ You can learn more about admin roles in Teams in [Use Microsoft Teams admin role
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 ![Screenshot of the Teams overview grid.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -49,7 +49,7 @@ The grid displays the following properties:
 - **Channels** - a count of all channels in the team, including the default General channel.
 - **Team members** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
-- **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
+- **Guests** - a count of Azure Active Directory B2B guests who are members of this team.
 - **Privacy** - the Visibility/AccessType of the backing Microsoft 365 group.
 - **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Description** - the description of the backing Microsoft 365 group.
