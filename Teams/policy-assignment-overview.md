@@ -144,6 +144,10 @@ To view your policy operations in the Activity log:
 > [!NOTE]
 > You can also get to the Activity log from the **Users** page. After you select **Apply** to submit a bulk policy assignment, you'll see a banner at the top of the page. Select the **Activity log** link in the banner.
 
+This video shows the steps to view and manage the assigned and effective policies for a user.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
+
 ## Related topics
 
 - [Assign policies to users and groups](assign-policies-users-and-groups.md)
