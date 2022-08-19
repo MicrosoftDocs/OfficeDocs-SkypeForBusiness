@@ -66,6 +66,10 @@ To add a new team, click **Add**. In the **Add a new team** pane, give the team 
 > [!NOTE]
 > Newly created teams can be managed right away in the Teams Admin Center, unlike the experience in other clients like, Outlook.
 
+This video shows how you create a new team and a channel for them.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### Edit
 
 To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.
@@ -110,10 +114,6 @@ On the team's profile page, you can change the following elements of a team:
 - **Channels settings** - set whether members can create new channels and edit existing ones, and add, edit, and remove tabs, connectors, and apps.
 
 The changes that you make to a team are logged. If you're modifying group settings (changing the name, description, photo, privacy, classification, or team members), the changes are attributed to you through the audit pipeline. If you're performing actions against Teams-specific settings, your changes are tracked and attributed to you in the General channel of the team.
-
-This video shows how you create a new team and a channel for them.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
 
 ## Troubleshooting
 
