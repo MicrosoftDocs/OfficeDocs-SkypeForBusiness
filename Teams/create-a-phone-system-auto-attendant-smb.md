@@ -1,7 +1,7 @@
 ---
 title: Set up an auto attendant for Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -94,7 +94,10 @@ Once you've set your auto attendant's general info, select **Next**.
 
 #### Play menu options
 
-For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
+For dialing options, assign the 0-9 keys on the telephone keypad to one of the call routing destinations. The keys \* (asterisk) and \# (pound) are reserved by the system and can't be reassigned. Pressing either of these keys will repeat the current menu.
+
+> [!NOTE]
+> The # key only backs up to the most recent auto attendant. Once the boundary is crossed to a new auto attendant, the # key will not be able to take you to the previous one.
 
 Key mappings don't have to be continuous. It's possible to create a menu with keys 0, 1, and 3 mapped to options, while the number 2 key isn't used.
 

@@ -34,11 +34,11 @@ To configure Adobe Acrobat app as the default handler for PDF files in your tena
 
 Before you set up the app, ensure that you allow apps to be used in your tenant, that you've specifically allowed Adobe Acrobat app, and the app permission policies allow it. To set up Adobe Acrobat as the default app for PDF files, follow these steps:
 
-1. Sign in to Teams admin center and go to **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Sign in to Teams admin center and access **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Search for the Adobe Acrobat app and select it.
+1. Search for the Adobe Acrobat app and select it. It opens the app details page.
 
-1. In the **Permissions** tab, select **Review permission**.
+1. Select the **Permissions** tab and then select **Review permission**.
 
    :::image type="content" source="media/permission-policy.png" alt-text="Screenshot of app permission in Teams admin center." lightbox="media/teams-app-adobe-acrobat-permission.png":::
 
