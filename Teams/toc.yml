@@ -1602,7 +1602,7 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
-        - name: Customize appearance and metadata of apps
+        - name: Use app customization to modify app branding
           href: customize-apps.md
         - name: Brand your org app store
           href: customize-your-app-store.md
