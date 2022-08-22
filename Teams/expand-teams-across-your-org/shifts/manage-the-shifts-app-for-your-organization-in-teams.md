@@ -92,7 +92,7 @@ We recommend using the Frontline Worker and Frontline Manager policy packages as
 
 Shift-based tags let your users reach people who are on-shift in real time. Notifications are sent only to those people who are on-shift at the time the tag is used in a chat or channel post. For example:
 
-- A systems engineer uses the @FieldEngineers tag to post an announcement to a channel for all on-shift field engineers.
+- A store manager uses the @Cashiers tag to post an announcement to a channel for all on-shift cashiers.
 - A nurse uses the @CardiologistsOnCall tag to start a chat with all on-call cardiologists.
 
 You can turn the feature on or off in the Microsoft Teams admin center. To learn more, see [Manage tags in Teams](../../manage-tags.md).
