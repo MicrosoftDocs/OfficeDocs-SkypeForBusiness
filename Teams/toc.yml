@@ -969,6 +969,8 @@ items:
           href: search-for-phone-numbers-for-users.md
         - name: Assign, change, or remove a phone number for a user
           href: assign-change-or-remove-a-phone-number-for-a-user.md
+        - name: Manage the usage of a phone number
+          href: manage-the-usage-of-a-phone-number.md
         - name: See a list of phone numbers in your organization
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
