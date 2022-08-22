@@ -43,7 +43,9 @@ This article describes the following general policy settings for Teams meetings:
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click the **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
 
-[ ![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+
+To turn this setting off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Meet now in channels** setting to **Off**.
 
 ## Outlook add-in
 
@@ -51,13 +53,15 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ![Screenshot showing the ability to schedule a new meeting.](media/meeting-policies-outlook-add-in.png)
 
-If you turn this off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
+To turn this setting off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Outlook add-in** setting to **Off**. If you turn this off, users will be unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
 ## Channel meeting scheduling
 
-Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
 
-If this policy is turned off, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
+If this policy is turned off, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event. To turn this setting off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Channel meeting scheduling** setting to **Off**.
+
+In PowerShell, use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars.
 
 Schedule a meeting will be disabled.
 
@@ -92,7 +96,7 @@ The channel calendar app will show up in the **Microsoft apps** section on the a
 
 ## Private meeting scheduling
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team. To turn this setting off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Private meeting scheduling** setting to **Off**.
 
 Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. By default, this setting is turned on.
 
@@ -120,7 +124,7 @@ Keep in mind that after you set the default value, meeting organizers can still 
 
 This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
 
-This policy is on by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Off**.
+This policy is on by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Turn off**.
 
 You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
@@ -148,6 +152,8 @@ To turn off meeting registration and prevent users from scheduling webinars, set
 ## Who can register
 
 This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Meeting registration** is turned on.
+
+In the Teams admin center, go to **Meetings** > **Meeting policies**.
 
 - Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization set up.
 - Set **Who can register** to **Everyone in the organization** if you want to allow only the users in your organization to register and attend webinars.
