@@ -74,12 +74,12 @@ You can configure the following tags settings to control how custom tags are use
     - **Team owners can change who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Tags are managed by** setting is the default value for each team. If you turn off this setting, the **Tags are managed by** setting can’t be changed per team.
     - **Suggested tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
     - **Custom tags**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this is turned off, people can only use the suggested default tags. If you turn this off, make sure that you add one or more default tags.
-    - **Shifts app can apply tags**: Turn on this setting to let the Shifts app apply tags. Shift-based tags let your users reach people who are on-shift in real time.
+    - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags will match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.
 
 ## Related topics
 
 [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 
-[Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+[Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 [Shifts Help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
