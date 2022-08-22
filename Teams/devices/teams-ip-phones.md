@@ -148,6 +148,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly Trio C60 | `7.3.2.0174` | 2022 Update #3A |
+|Poly CCX 400/500/600/505 | `7.3.2.0182` | 2022 Update #3A |
 |Yealink T55A/T56A/T58A   | `58.15.0.168`     | 2022 Update #3A  |
 |Yealink VP59  | `91.15.0.102`     | 2022 Update #3A  |
 |Yealink CP960  | `73.15.0.163`     | 2022 Update #3A  |
@@ -366,6 +368,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
 |Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
