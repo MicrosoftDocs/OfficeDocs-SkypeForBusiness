@@ -41,10 +41,6 @@ Keep reading for frequently asked questions about Kaizala and Teams.
 
 We encourage all Microsoft 365 and Office 365 customers to start using [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9) today to take advantage of the rich capabilities that Teams provides. These capabilities include a simple and powerful experience for mobile users in 46 languages and 181 markets. Empower your frontline worker staff with capabilities such as shift management, guest access, and support for custom workflows and apps with Microsoft Flow and PowerApps. For specific Kaizala functionality that isn't yet available in Teams, we'll be posting an updated timeline in the future.
 
-## How can I continue to use Kaizala Pro if I had purchased the standalone offering?
-
-As of July 1, 2020, Microsoft has ended sales of the Kaizala Pro standalone service. Kaizala and Teams will continue to be accessible as [part of the Microsoft 365 and Office 365 plans](/Office365/Kaizala/migrate-kaizala-pro).
-
 ## How can I get started with Teams?
 
 Download [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software) from the app store, and access training and resources in our [help center](https://support.microsoft.com/teams?ui=en-us&rs=en-us&ad=us) to get started. You can also join the [Teams Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams/ct-p/MicrosoftTeams) to give feedback, vote on feature requests, and engage with an awesome community.
