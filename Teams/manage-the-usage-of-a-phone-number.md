@@ -45,3 +45,13 @@ To change the usage of a phone number by using the Teams admin center:
       > The list will only display usages that are  available for the telephone number, depending on its number type (geographic, non-geographic, or toll-free) and supplier. You can quickly review the available usages for each phone number by setting visible the **Available usages** column in the Phone numbers table.
 
 5. Click **Apply** to set the Licensed usage.
+
+## Still need assistance?
+
+If you need assistance, please contact the [TNS Service Desk](./contact-tns-service-desk.md).
+
+## Related topics
+
+[Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
