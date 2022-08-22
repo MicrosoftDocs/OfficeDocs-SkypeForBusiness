@@ -19,7 +19,7 @@ Create a resource account using a method from one of the following tabs:
 
 3. Go to **Resources** in the left panel, and then select **Rooms & equipment**. If these options aren't available in the left panel, you may need to select **Show all** first.
 
-4. Select **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, select **Add**, and then select **Close**.
+4. Select **Add resource** to create a new resource account. Enter a display name and email address for the account and then select **Save**.
 
 5. By default, resource accounts are configured with the following settings:
 
@@ -29,7 +29,7 @@ Create a resource account using a method from one of the following tabs:
       - Maximum duration (hours): 24
     - Auto accept meeting requests
 
-    If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, go to **Resources** > **Rooms & equipment**, select the resource account. Then  under **Booking options**, select **Edit**.
+    If you want to change them, select **Edit booking options** before you select **Close**. If you want to change them later, go to **Resources** > **Rooms & equipment**, select the resource account. Then  under **Booking options**, select **Edit**.
 
 6. Go to **Users** > **Active users**, and select the room you created to open the properties panel.
 
