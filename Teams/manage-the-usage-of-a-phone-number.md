@@ -37,7 +37,7 @@ To change the usage of a phone number by using the Teams admin center:
 3. On the **Phone numbers** page, select an unassigned number in the list, and then click **Change usage**. 
 
       > [!NOTE]
-      > Make sure you're selecting an **unassigned** number before trying to change the usage of it, otherwise the option won't be visible. If the number is currently assigned, you need to [remove the phone number from a user](MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) or resource account first.
+      > Make sure you're selecting an **unassigned** number before trying to change the usage of it, otherwise the option won't be visible. If the number is currently assigned, you need to [remove the phone number from a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) or resource account first.
 
 4. In the **Change usage** pane, open the list of Available usages for the phone number, and then click on the intended option to select it.
 
