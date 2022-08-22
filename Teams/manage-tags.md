@@ -51,9 +51,9 @@ As an admin, you can control how tags are used across your organization in the M
 
 A team can have up to 100 tags, up to 200 team members can be assigned to a tag, and up to 25 tags in the same team be assigned to a single user.
 
-### Set who can add tags
+### Set who can manage tags
 
-By default, team owners can add tags. You can change the **Who can manage tags** setting to allow team owners and team members to create, edit, delete, and manage tags, or you can turn off tags for your organization.
+By default, team owners can create, edit, and delete tags. You can change the **Who can manage tags** setting to allow team owners and team members to manage tags, or you can turn off tags for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
 
