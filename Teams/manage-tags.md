@@ -43,7 +43,7 @@ A tag can be manually added or automatically assigned to a person on a specific 
 
 When a tag is @mentioned in a channel conversation, team members associated with the tag will get notified, just like any other @mention.
 
-## Manage custom tags for your organization
+## Manage tags for your organization
 
 As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center. Note that you can’t use PowerShell to manage tags.
 
@@ -51,27 +51,27 @@ As an admin, you can control how tags are used across your organization in the M
 
 A team can have up to 100 tags, up to 100 team members can be assigned to a tag, and up to 25 tags can be assigned to a single user.
 
-### Set who can add custom tags
+### Set who can add tags
 
-By default, team owners can add custom tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags, or you can turn off tags for your organization.
+By default, team owners can add tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags, or you can turn off tags for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
 
-2. Under **Tagging**, next to **Tags are managed by**, select one of the following options:
+2. Under **Tagging**, next to **Who can manage tags**, select one of the following options:
 
     - **Team owners and members**: Allow team owners and members to manage tags.
     - **Team owners**: Allow team owners to manage tags.
     - **Not enabled**: Turn off tags.
 
-### Configure custom tags settings
+### Configure tagging settings
 
-You can configure the following tags settings to control how custom tags are used across your organization.
+You can configure the following tags settings to control how tags are used across your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
 
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
-    - **Team owners can change who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Tags are managed by** setting is the default value for each team. If you turn off this setting, the **Tags are managed by** setting can’t be changed per team.
+    - **Team owners can change who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Who can manage tags** setting is the default value for each team. If you turn off this setting, the **Who can manage tags** setting can’t be changed per team.
     - **Suggested tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
     - **Custom tags**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this is turned off, people can only use the suggested default tags. If you turn this off, make sure that you add one or more default tags.
     - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags will match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.
