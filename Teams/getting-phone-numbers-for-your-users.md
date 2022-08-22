@@ -85,6 +85,10 @@ After you get your phone numbers, you'll need to assign a number to each of your
 > [!NOTE]
 > If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
 
+This video shows the steps to assign a phone number to a user.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
+
 ## Related articles
 
 [Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
