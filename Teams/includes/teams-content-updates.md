@@ -2,6 +2,45 @@
 
 
 
+## Week of August 15, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/15/2022 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 8/16/2022 | [Calling Plans for Microsoft Teams](/MicrosoftTeams/calling-plans-for-office-365) | modified |
+| 8/17/2022 | [Customize your app store in Teams](/MicrosoftTeams/customize-your-app-store) | modified |
+| 8/17/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 8/17/2022 | [Resource-specific consent in Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | modified |
+| 8/17/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
+| 8/17/2022 | [Manage custom app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
+| 8/17/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
+| 8/18/2022 | [View app permissions and grant admin consent in the Microsoft Teams admin center](/MicrosoftTeams/app-permissions-admin-center) | modified |
+| 8/18/2022 | What's new - Operator Connect | removed |
+| 8/18/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
+| 8/19/2022 | [Manage teams in the Microsoft Teams admin center](/MicrosoftTeams/manage-teams-in-modern-portal) | modified |
+| 8/19/2022 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+| 8/19/2022 | [Teams Optional Connected Experiences](/MicrosoftTeams/teams-privacy-oce-overview) | modified |
+| 8/20/2022 | [Plan for media bypass with Direct Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | modified |
+| 8/20/2022 | [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network) | modified |
+| 8/20/2022 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 8/20/2022 | [Use Teams templates in the admin center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
+| 8/20/2022 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
+| 8/20/2022 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
+| 8/20/2022 | [Upgrade Skype for Business on-premises to Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modified |
+| 8/20/2022 | [Manage Voicemail Policies](/MicrosoftTeams/manage-voicemail-policies) | added |
+| 8/20/2022 | [Assign, change, or remove a phone number for a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modified |
+| 8/20/2022 | [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login) | modified |
+| 8/20/2022 | [Manage the Shifts app for your organization](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modified |
+| 8/20/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
+| 8/20/2022 | [Data transfers between carriers and Microsoft for Operator Connect](/MicrosoftTeams/operator-connect-data-transfer) | modified |
+| 8/20/2022 | [Operator Connect](/MicrosoftTeams/operator-connect-plan) | modified |
+| 8/20/2022 | [Search for telephone numbers for users](/MicrosoftTeams/search-for-phone-numbers-for-users) | modified |
+| 8/20/2022 | [Configure live event settings in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modified |
+| 8/20/2022 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
+| 8/20/2022 | [Set up meeting dial-out-confirmation for your users in Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modified |
+
+
 ## Week of August 08, 2022
 
 
@@ -176,48 +215,3 @@
 | 7/21/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
 | 7/21/2022 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
 | 7/21/2022 | [Upload your custom apps in the Microsoft Teams admin center](/MicrosoftTeams/upload-custom-apps) | modified |
-
-
-## Week of July 11, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/13/2022 | [Music on Hold](/MicrosoftTeams/music-on-hold) | modified |
-| 7/14/2022 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
-| 7/15/2022 | [Release notes for Microsoft Teams Rooms (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modified |
-| 7/15/2022 | [Teams policy packages for frontline workers](/MicrosoftTeams/policy-packages-flw) | added |
-| 7/15/2022 | [Manage the Approvals app in Microsoft Teams](/MicrosoftTeams/approval-admin) | modified |
-| 7/15/2022 | [Manage the Bookings app in Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modified |
-| 7/15/2022 | Deploy teams at scale for frontline workers in Microsoft Teams | removed |
-| 7/15/2022 | Virtual appointments with Microsoft Teams and the Bookings app | removed |
-| 7/15/2022 | Manage the join experience for Teams virtual appointments on browsers | removed |
-| 7/15/2022 | [Expand Microsoft Teams across your organization](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | modified |
-| 7/15/2022 | Virtual appointments with Teams - Integration into Cerner EHR | removed |
-| 7/15/2022 | Microsoft Teams EHR connector Virtual Appointments report | removed |
-| 7/15/2022 | Virtual appointments with Teams - Integration into Epic EHR | removed |
-| 7/15/2022 | Message delegation | removed |
-| 7/15/2022 | Secure Messaging for healthcare organizations using Microsoft Teams | removed |
-| 7/15/2022 | Get started with Teams for healthcare organizations | removed |
-| 7/15/2022 | Simplify business processes in Retail environments | removed |
-| 7/15/2022 | Retail team collaboration | removed |
-| 7/15/2022 | Shifts for Teams | removed |
-| 7/15/2022 | Manage shift-based access for frontline workers in Teams | removed |
-| 7/15/2022 | [Manage the Shifts app for your organization](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modified |
-| 7/15/2022 | Manage schedule owners for shift management | removed |
-| 7/15/2022 | Use PowerShell to connect Shifts to Blue Yonder Workforce Management | removed |
-| 7/15/2022 | Use PowerShell to manage your Shifts connection to Blue Yonder Workforce Management | removed |
-| 7/15/2022 | Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management | removed |
-| 7/15/2022 | Shifts connectors | removed |
-| 7/15/2022 | Teams for Retail | removed |
-| 7/15/2022 | Help your clients and customers use virtual appointments | removed |
-| 7/15/2022 | [Get started with Teams for frontline workers](/MicrosoftTeams/flw-landing-page) | modified |
-| 7/15/2022 | Understand frontline worker user types and licensing | removed |
-| 7/15/2022 | Use the Frontline Worker onboarding wizard to get your frontline workforce up and running | removed |
-| 7/15/2022 | Frontline Worker quick start guide | removed |
-| 7/15/2022 | Manage the Frontline Trial in Teams | removed |
-| 7/15/2022 | Tailor Teams apps for your frontline workers | removed |
-| 7/15/2022 | [Teams policy packages for healthcare](/MicrosoftTeams/policy-packages-healthcare) | modified |
-| 7/15/2022 | Microsoft Teams Virtual Visits usage report | removed |
-| 7/15/2022 | [PowerShell script sample - Export managers and their direct reports](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | modified |
-| 7/15/2022 | [PowerShell script sample - Create new people manager teams](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | modified |
