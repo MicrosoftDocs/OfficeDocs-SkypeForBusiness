@@ -148,6 +148,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022 Update #3A    |
 |Poly Trio C60 | `7.3.2.0174` | 2022 Update #3A |
 |Poly CCX 400/500/600/505 | `7.3.2.0182` | 2022 Update #3A |
 |Yealink T55A/T56A/T58A   | `58.15.0.168`     | 2022 Update #3A  |
