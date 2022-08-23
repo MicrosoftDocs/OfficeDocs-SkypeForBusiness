@@ -21,7 +21,15 @@ keywords:
 
 # Create a great Teams meeting experience for all participants
 
-Meetings are a place where people come together to exchange ideas and work on hard problems. In a time when workplace environments are undergoing significant change, it can be challenging to bring people together and enable effective meetings. This solution shows you how can bring together Microsoft Teams, Teams Rooms devices, room design, meeting principles, and business practices, to create an inclusive meeting environment. An inclusive environment enables communication and collaboration between all recipients, regardless of whether they're in the room, remote, or have a disability.
+Microsoft Teams meetings are a place where people come together to exchange ideas and work on hard problems. In a time when workplace environments are undergoing significant change, it can be challenging to bring people together and enable effective meetings. This solution shows you how can bring together Microsoft Teams, Teams Rooms devices, room design, meeting principles, and business practices, to create an inclusive meeting environment. An inclusive environment enables communication and collaboration between all recipients, regardless of whether they're in the room, remote, or have a disability.
+
+This short video shares Microsoft's vision for hybrid meetings with Teams Rooms. Many of the features, such as front row and spacial audio, are available today and are discussed in this solution.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEB5U]
+
+Microsoft Teams is the center of hybrid work across Microsoft. To see how to incorporate the hybrid work mindset across your organization with Teams, Microsoft 365, Azure, and other Microsoft products, visit the [Microsoft Hybrid Work Center](https://www.microsoft.com/hybridwork/).
+
+For information about how to get your infrastructure ready to support a hybrid work environment, see [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely).
 
 Before you start designing and setting up your Teams meeting experience, check out [Teams hybrid meeting principles](hybrid-meetings-principles.md). Use these principles to help create an inclusive meeting environment where all participants, regardless of presence or location, can participate equally.
 
