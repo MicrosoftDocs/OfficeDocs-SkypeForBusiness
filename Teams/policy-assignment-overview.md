@@ -82,6 +82,9 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot that shows the update global policy in Teams admin center." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> After you submit any policy operation, you'll be prompted with a pop-up dialog box to confirm it. This includes policy assignments, changing an existing policy, and creating new custom policies. You must confirm to start the policy operation, or you can cancel and go back later.
+
 ### Using PowerShell
 
 To set the global policies using PowerShell, use the Global identifier.  Start by reviewing the current Global policy to determine which setting you want to change.
