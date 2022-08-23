@@ -23,7 +23,7 @@ keywords:
 
 :::row:::
     :::column:::
-        :::image type="content" source="media/hybrid-audience-itpro.png" alt-text="IT Pro audience":::
+        :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
     :::column-end:::
 :::row-end:::
 
