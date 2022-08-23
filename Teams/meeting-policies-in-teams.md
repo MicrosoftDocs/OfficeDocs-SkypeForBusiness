@@ -317,7 +317,7 @@ For meetings that need the highest-quality video experience, such as CEO board m
 
 - [Screen sharing mode](#screen-sharing-mode)
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
-- [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
+- [External participants can give or request control](#external-participants-can-give-or-request-control)
 - [Allow PowerPoint sharing](#allow-powerpoint-sharing)
 - [Allow whiteboard](#allow-whiteboard)
 - [Allow shared notes](#allow-shared-notes)

@@ -30,7 +30,7 @@ This article describes the following meeting policy settings related to content 
 
 - [Screen sharing mode](#screen-sharing-mode)
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
-- [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
+- [External participants can give or request control](#external-participants-can-give-or-request-control)
 - [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
 - [Shared notes](#shared-notes)
