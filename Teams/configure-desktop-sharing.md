@@ -21,11 +21,11 @@ appliesto:
 
 # Configure desktop sharing in Microsoft Teams
 
-Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen. External participants in Teams meetings can be categorized as follows:
+Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external participants can request control of the shared screen. External participants in Teams meetings can be categorized as follows:
 
 - Anonymous participant
 - Guests
-- [External meetings and chat](/microsoftteams/manage-external-access) participant
+- External access users
 
 To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.
 

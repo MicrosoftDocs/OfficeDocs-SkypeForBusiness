@@ -88,15 +88,15 @@ This setting is a per-user policy. Whether an organization has set this policy f
 
 - Anonymous participant
 - Guests
-- [External meetings and chat](/microsoftteams/manage-external-access) participant
+- External access users
 
-Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
+Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization.
 
 To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
 ### PowerPoint Live
 
-This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer.
+This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -109,7 +109,7 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ## Whiteboard
 
-This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
+This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
