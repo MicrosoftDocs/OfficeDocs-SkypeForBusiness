@@ -38,12 +38,12 @@ By default, external access is enabled for all domains. You can restrict externa
 ![Screenshot of external access settings.](media/external-access-federation-settings.png)
 
 External access is available to the following tenants:
-- Native federation between managed enterprise accounts
+- Managed enterprise accounts
      - Between Commercial only
      - Between GCC only
      - Between GCC High only
      - Between DOD only
-- Native federation with unmanaged (Personal) accounts
+- Unmanaged (Personal) accounts
      - Between Commercial and Personal accounts only
 - Skype for Business interop
      - Between and across Commercial, GCC, GCC High, and DoD
