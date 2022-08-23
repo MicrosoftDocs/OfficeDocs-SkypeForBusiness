@@ -37,7 +37,7 @@ This article describes the following meeting policy settings related to content 
 
 ## Screen sharing mode
 
-This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
+This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, external participants) inherit the policy of the meeting organizer.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -82,14 +82,13 @@ To use PowerShell to control who can give control or accept requests for control
 > [!NOTE]
 > To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
 
-## Allow an external participant to give or request control
+## External participants can give or request control
 
 This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
 
-- Anonymous user
-- Guest users  
-- B2B user
-- Federated user  
+- Anonymous participant
+- Guests
+- [External meetings and chat](/microsoftteams/manage-external-access) participant
 
 Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
 
@@ -129,7 +128,7 @@ When whiteboard is enabled, your users will have the option to use [annotation](
 
 ## Shared notes
 
-This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
+This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External participants, including anonymous, guests, and external access, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
 
 Let's look at the following example.
 

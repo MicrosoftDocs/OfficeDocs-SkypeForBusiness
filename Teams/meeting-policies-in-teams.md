@@ -327,7 +327,7 @@ For meetings that need the highest-quality video experience, such as CEO board m
 > [!NOTE]
 > This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
-This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
+This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, external participants) inherit the policy of the meeting organizer.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -400,7 +400,7 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ### Allow whiteboard
 
-This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
+This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -413,7 +413,7 @@ Amanda can't share the whiteboard in a meeting even if she's the meeting organiz
 
 ### Allow shared notes
 
-This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is supported in meetings with up to 100 participants.
+This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is supported in meetings with up to 100 participants.
 
 Let's look at the following example.
 
