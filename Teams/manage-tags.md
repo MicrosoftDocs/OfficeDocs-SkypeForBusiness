@@ -19,8 +19,6 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
-## Overview
-
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. You can create and assign custom tags to categorize people based on attributes, such as role, project, skill, or location. Or, tags can be automatically assigned to people based on their schedule and shift information in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts). After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post to notify only those people who are assigned that tag of a conversation.
 
 As mentioned earlier, there are two kinds of tags in Teams.
