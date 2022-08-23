@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams apps/Line of Business (LOB) app support on Teams panels"
+title: Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,17 +8,15 @@ ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer:
+ms.reviewer: 
 description: Describes the support for Teams apps/LOB apps.
-ms.collection:
+ms.collection: 
   - M365-voice
   - M365-collaboration
-  - skype-for-business-itpro
-  - skype-for-business-online
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-appliesto:
+appliesto: 
   - Microsoft Teams
 ---
 # Microsoft Teams apps/Line of Business (LOB) app support on Teams panels

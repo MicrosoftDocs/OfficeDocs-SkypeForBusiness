@@ -9,29 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+f1.keywords: 
+  - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to customize your organization's Teams app store by adding logo, custom backgrounds, and custom text colors.
 ---
 
 # Customize your organization's app store in Microsoft Teams
 
-Now you can customize your organization's apps store in Teams with your company branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users.
+You can customize your organization's app store to reflect your company branding. You can add your logo, a custom background, and custom text colors to make it more inviting for end users.
 
-> [!NOTE]
-> Changes to branding can take up to 24 hours to take effect.
-
-You can access the customized store in the admin center by selecting **Teams apps** > **Customize store**.
-
-  ![Admin console customize store feature highlighted.](media/customize-app-store.png)
-
-This article describes the Custom apps store features and how to use them.
+You can access the customized store in the Teams admin center by selecting **Teams apps** > **[Customize store](https://admin.teams.microsoft.com/policies/customize-appstore)**. Follow the below instructions for the details of the changes.
 
 ## Customize your organization logo
 
@@ -83,14 +75,14 @@ Provide enough contrast to the text color as compared to the background so that 
 
 When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
- ![the color chooser.](media/choose-a-custom-color.png)
+:::image type="content" source="media/choose-a-custom-color.png" alt-text="Screenshot of the dialog to choose a color.":::
 
 ## Complete the customization of your team apps store
 
 When you've finished customizing your apps store, be sure to select **Save** to save your changes.
 To preview your changes, select **Preview apps store** to see a representation of your customized apps store.
 
-![preview of the custom apps store.](media/PowerAppsInStore650w.png)
+:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="Screenshot showing an example of a customized apps store.":::
 
 > [!NOTE]
 > The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.

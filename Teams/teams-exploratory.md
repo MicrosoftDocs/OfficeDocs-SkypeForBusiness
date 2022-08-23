@@ -9,12 +9,11 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: "Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
-f1.keywords:
-- NOCSH
+description: Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license.
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams

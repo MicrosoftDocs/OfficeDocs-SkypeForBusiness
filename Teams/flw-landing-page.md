@@ -11,7 +11,8 @@ search.appverid: MET150
 description: Learn how you can use Teams to empower the frontline workers in your organization.
 ms.localizationpriority: high
 ms.collection: 
-  - Teams_ITAdmin_FLW
+  - M365-collaboration
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ---

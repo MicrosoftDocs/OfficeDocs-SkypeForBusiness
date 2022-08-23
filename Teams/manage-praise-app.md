@@ -4,12 +4,14 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 ms.reviewer: rjam
-audience: admin 
-ms.topic: article 
+audience: admin
+ms.topic: article
 ms.service: msteams
-ms.localizationpriority: medium 
+ms.localizationpriority: medium
 description: Learn how to manage the Praise app in the Microsoft Teams admin center.
-
+ms.collection: 
+  - M365-collaboration
+  - m365-frontline
 ---
 
 # Manage the Praise app in the Microsoft Teams admin center

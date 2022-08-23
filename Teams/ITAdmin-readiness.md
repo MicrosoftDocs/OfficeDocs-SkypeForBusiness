@@ -9,10 +9,9 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
   - seo-marvel-mar2020

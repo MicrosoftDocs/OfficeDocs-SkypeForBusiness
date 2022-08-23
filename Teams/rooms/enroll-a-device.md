@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enroll a Teams Room device into Managed Services
 author: donnah007
 ms.author: v-donnahill
@@ -8,15 +8,15 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-ms.collection:
+ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
-appliesto:
+  - Teams_ITAdmin_MTRP
+appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Onboarding Teams Rooms devices to managed services
-f1keywords:
+f1keywords: 
 ---
 
 
