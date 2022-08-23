@@ -880,8 +880,6 @@ items:
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Operator Connect
           items: 
-            - name: What's new
-              href: operator-connect-whats-new.md
             - name: Plan for Operator Connect
               href: operator-connect-plan.md
             - name: Configure Operator Connect

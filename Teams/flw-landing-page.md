@@ -12,6 +12,7 @@ description: Learn how you can use Teams to empower the frontline workers in you
 ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ---
