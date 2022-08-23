@@ -133,7 +133,7 @@ The following table indicates which features on which clients and devices suppor
 
 - Music on Hold is only available when the user is in TeamsOnly mode.
 
-- If the called Teams user is enabled for Location-Based Routing, Music on Hold cannot be played to the caller.
+- If the called Teams user is enabled for Location-Based Routing, only the standard Music on Hold is played to the caller.
 
 - Custom Music on Hold is not available for users configured for Shared Line Appearance (delegation) and when Call Park is used. The standard Music on Hold will be played.
 
