@@ -21,4 +21,6 @@ keywords:
 
 # Step 2 - Create a resource account
 
+border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+
 [!INCLUDE [mtr-device-config-account-include](includes/mtr-device-config-account-include.md)]

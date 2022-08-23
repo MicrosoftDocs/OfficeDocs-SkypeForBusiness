@@ -21,6 +21,8 @@ keywords:
 
 # Step 4 - Select devices that enable your space for hybrid meetings
 
+:::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
+
 The devices you choose for your Teams Rooms space depend on your room's design and budget. This article helps you understand what devices you need to create your Teams Rooms space, considerations to help you choose what's right for you, and example devices so you can see what options are available.
 
 At minimum, you need each of the following:

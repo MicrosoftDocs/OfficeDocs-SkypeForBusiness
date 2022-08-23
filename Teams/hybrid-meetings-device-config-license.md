@@ -21,4 +21,6 @@ keywords:
 
 # Step 1 - Purchase a license for the Teams Rooms console
 
+border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+
 [!INCLUDE [mtr-device-config-license-include](includes/mtr-device-config-license-include.md)]

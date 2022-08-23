@@ -21,6 +21,8 @@ keywords:
 
 # Step 5 - Overview
 
+border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+
 After you've installed and connected all of your devices, it's time to configure the Teams Rooms console.
 
 In order for Teams Rooms to work with your organization, you need to complete a few steps. These steps set up an account and license for your Teams Room, tell it how to handle meeting requests, and tell it when it and participants can and can't do in a meeting.

@@ -39,7 +39,7 @@ This space will comfortably fit up to 10 people. You'll need a space that's appr
 
 ## Standard room furniture
 
-:::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false"::::
+:::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
 This room incorporates a rectangle conference table that's common in many meeting spaces. Participants can sit on either side of the table with a clear view of the front-of-room display.
 
@@ -88,18 +88,7 @@ This room features a standard meeting room table with a height of 30 in or 76 cm
 
 ## Enhanced equipment mounting
 
-:::row:::
-    :::column:::
-    :::column-end:::
-    :::column:::
-    :::column-end:::
-    :::column:::
-    :::column-end:::
-:::row-end:::
-
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
-
-
 
 The enhanced meeting room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
 
@@ -112,7 +101,6 @@ The enhanced meeting room shown in the images above requires specific placement 
 | Microphones    | The microphones in the soundbar should provide adequate coverage for all participants seated at the conference table.                        |
 | Display        | Mount your display so that all participants can easy see it. Make sure the wall it's located on has enough strength to support the weight of the display and that you can run cabling from the display to the Teams Rooms console or compute device.                                                                                                                        |
 | Speakers       | If you didn't choose a soundbar with integrated camera, place speakers to either side of the display to get the most benefit out of spacial audio. You can also place speakers in the ceiling but keep left and right channel placement in mind for spatial audio. Also try to maintain separation between speakers and microphones that also may be placed in the ceiling. |
-
 
 ---
 
@@ -134,5 +122,3 @@ Though many participants may choose to share content within this type of meeting
 | Window treatments | Light from windows in a room of this type may negatively affect the lighting and introduce glare and shadows to both the camera image and the front-of-room display. Any space featuring windows should also feature window treatments that allow for external light to be blocked during meetings.                                      |
 | Floor treatments  | The floor in a room of this type should be carpeted or otherwise acoustically treated to prevent echo and ambient noise issues during meetings.                                                                                                                                                                                          |
 | Lighting          | Overhead lights should be provided to illuminate the space evenly, with meeting room participants not appearing to be washed out or sitting in a dark space. Efforts to minimize direct lighting on front-of-room displays, co-create devices, or other reflective surfaces within the space should be taken to avoid introducing glare. |
-
-:::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::

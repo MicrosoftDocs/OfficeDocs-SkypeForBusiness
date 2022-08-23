@@ -21,4 +21,6 @@ keywords:
 
 # Step 5 - Turn off password expiration
 
+border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+
 [!INCLUDE [mtr-device-config-password-include](includes/mtr-device-config-password-include.md)]
