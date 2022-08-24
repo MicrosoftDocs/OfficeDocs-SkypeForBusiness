@@ -131,15 +131,9 @@ Perform the following steps:
 
 #### Report to CQD table and field mapping
 
-|Report Tab            |Report Table Name     |Global Filter                          |
-|:---------------------|:---------------------|:--------------------------------------|
-|Auto Attendant        |fAutoAttendant        |None                                   |
-
-
-|Report Table Name            |Source Table Name            |Processing       |
-|:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |AutoAttendant                |Put Link Here - aa-cq-cqd-historical-reports-processing-fAutoattendant |
-
+|Report Tab            |Report Table Name     |Source Table Name            |Global Filter                          |
+|:---------------------|:---------------------|:----------------------------|:--------------------------------------|
+|Auto Attendant        |fAutoAttendant        |AutoAttendant                |None                                   |
 
 |Report Section                                  |Field(s) Used                              |Filters Applied     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
@@ -202,14 +196,9 @@ Perform the following steps:
 
 #### Report to CQD table and field mapping
 
-|Report Tab         |Report Table Names                                                          |Global Filter |
-|:------------------|:---------------------------------------------------------------------------|:-------------|
-|Call Queue         |fCallQueueAnalytics<br>fCallQueueFinalStateAction                           |None          |
- 
-|Report Table Name            |Source Table Name            |Processing       |
-|:----------------------------|:----------------------------|:----------------|
-|fCallQueueAnalytics          |CallQueueAnalytics           |Put Link Here - aa-cq-cqd-historical-reports-processing-fCallQueueAnalytics |
-|fCallQueueFinalStateAction   |CallQueueFinalStateAction    |Put Link Here - aa-cq-cqd-historical-reports-processing-fCallQueueFinalStateAction |
+|Report Tab            |Report Table Name                                   |Source Table Name                               |Global Filter       |
+|:---------------------|:---------------------------------------------------|:-----------------------------------------------|:-------------------|
+|Call Queue            |fCallQueueAnalytics<br>fCallQueueFinalStateAction   |CallQueueAnalytics<br>CallQueueFinalStateAction |None                |
 
 |Report Section                      |Table -> Field(s) Used                |Filters Applied       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
@@ -239,13 +228,6 @@ Perform the following steps:
 |PSTN Connectivity Type                  |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall   |
 |PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                       |
 
-#### fCallQueueAnalytics measures description
-
-|Name                                    |Data Type                |Description                              |
-|:---------------------------------------|:------------------------|:----------------------------------------|
-|***% Abandoned Calls***                 |Percentage               |Measure: Number of abandoned calls  / Total Calls    |
-|Total Calls                             |Whole number             |Measure: Sum agent answered calls        |
-|TotalCallCount                          |Whole number             |Measure: Sum(Call Count)                 |
 
 #### fCallQueueFinalStateAction  CQD fields description
 
