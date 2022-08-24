@@ -41,6 +41,15 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+>
+> While defining an **Operator** is optional, it is highly recommended.  Auto Attendants direct calls to the operator if the caller doesn't make a selection on menus or repeated selects invalid options.  If an operator isn't defined the call will be dropped.
+
+## What's new in auto attendant in the past 6 months
+ 
+ - August 99 - \* (asterisk) and \# (pound) are now supported in menu options
+ - July 99 - Holiday Menu Options - description
+ 
+# Steps to create an auto attendant
 
 The steps to add an auto attendant are:
 
@@ -93,6 +102,8 @@ Once you've set your auto attendant's general info, select **Next**.
 - If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
 #### Play menu options
+
+*New - \* (asterisk) and \# (pound) keys can now be used in menu options *
 
 For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
 
@@ -159,7 +170,9 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 1. Choose the type of greeting that you want to use.
 
-1. Choose if you want to **Disconnect** or **Redirect** the call.
+1. Choose if you want to **Disconnect**, **Redirect** or **Play menu options** the call.
+
+*New - Play menu options is now available in Holiday call flows *
 
     1. If you chose to redirect, choose the call routing destination for the call.
     1. If you choose to play menu options, configure the **Play menu options**.
