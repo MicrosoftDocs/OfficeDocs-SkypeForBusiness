@@ -39,6 +39,13 @@ Call queues provide:
 
 Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
+## What's new in call queue in the past 6 months
+
+- August 99 - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting
+- August 99 - **Skip voicemail system message** controls are now exposed when routing to shared voicemail and now also apply to **Add a greeting message** prompts
+
+## Steps to create a call queue
+
 The steps to set up a call queue includes:
 
 1. Set up general information
@@ -132,6 +139,8 @@ Once you've selected a language, select the **Next** button at the bottom of the
 # [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
+
+*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting*
 
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
@@ -297,14 +306,14 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail and now also apply to **Add a greeting message** prompts*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
->
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
-Once you've selected your call timeout options, select the **Next** button at the bottom of the **Add a call queue** page.
+Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
 # [Step 6: Call timeout](#tab/call-timeout)
 
@@ -318,12 +327,11 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail and now also apply to **Add a greeting message** prompts*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
-> [!NOTE]
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
-
-Once you've selected your agent call routing options, select the **Submit** button at the bottom of the **Add a call queue** page.
+Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
 ---
 
