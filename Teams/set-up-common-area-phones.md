@@ -136,7 +136,7 @@ Once you create and configure a user account, you can sign into a phone. Dependi
 
 ### Local sign-in
 
-To sign in locally with a username and password: 
+To sign in locally with a username and password:
 
 1. Turn on the common area phone
 
@@ -145,7 +145,7 @@ To sign in locally with a username and password:
 3. Follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
 
 > [!NOTE]
-> If you are using a custom setup policy that unpins the calling app, the dial pad doesn't appear on the Common Area Phone. For more information about Teams setup policies, see [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
+> If you are using a custom setup policy that unpins the calling app, the dial pad doesn't appear on the Common Area Phone. For more information about Teams setup policies, see [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
 
 ### Sign in from another device
 
@@ -153,13 +153,28 @@ You can also sign into to a common area phone from another device using a code. 
 
 1. First, on your common area phone, look for the code displayed on the sign-in screen.
 
-2. On another device, go to https://www.microsoft.com/devicelogin.
+2. On another device, go to [https://www.microsoft.com/devicelogin](https://www.microsoft.com/devicelogin).
 
 3. Enter the code and following the instructions to complete the sign in.
 
 ### Sign in using the Teams admin center
 
 As an admin, you can remotely provision and sign into common area phones from the Teams admin center. This is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android devices](devices/remote-provision-remote-login.md) to learn more.
+
+## Step 6 - Set up Advanced calling on common area phones (optional)
+
+The following calling features are available for supported Teams phone device models with a **Common Area Phone** license and the latest Teams updates (minimum version: `1449/1.0.94.2022061702`):
+
+- [Call park and retrieve](call-park-and-retrieve.md)
+- [Cloud-based voicemail through Exchange Online Plan 2](set-up-phone-system-voicemail.md)
+- [Call queues](create-a-phone-system-call-queue.md)
+- [Auto attendants](create-a-phone-system-auto-attendant.md)
+- [Group call pick-up](call-sharing-and-group-call-pickup.md)
+- [Forwarding rules](teams-calling-policy.md)
+
+To use these advanced calling features, turn on the **Advanced calling** toggle in the Teams admin center or on your Teams phone device that is signed into your Common Area Phone account. You'll need hardware phone models that support all advanced capabilities.
+
+To disable cloud-based voicemail from your devices, see [Voicemail user settings using PowerShell](/powershell/module/skype/set-csonlinevoicemailusersettings).
 
 ## Next steps
 
