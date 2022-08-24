@@ -42,7 +42,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> While defining an **Operator** is optional, it is highly recommended.  Auto Attendants direct calls to the operator if the caller doesn't make a selection on menus or repeated selects invalid options.  If an operator isn't defined the call will be dropped.
+> While defining an **Operator** is optional, it is highly recommended.  Auto attendants redirect calls to the operator if the caller doesn't make a selection on menus or repeatedly selects invalid options and when dial by name/number searches repeatedly fail.  If an operator isn't defined the auto attendant will will drop the call.
 
 ## What's new in auto attendant in the past 6 months
  
