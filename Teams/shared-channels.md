@@ -66,6 +66,9 @@ A shared channel owner can't be removed through the Teams client if they are the
 
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel is automatically promoted to be the shared channel owner. Consider adding more than one owner to avoid this situation.
 
+> [!NOTE]
+> External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
+
 ## Channel owner settings
 
 Each shared channel has its own settings that the channel owner can manage, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a shared channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
@@ -149,7 +152,7 @@ The following limitations also apply:
 
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
-- LOB apps, bots, connectors, and message extensions are not supported.
+- Bots, connectors, and message extensions are not supported.
 
 - When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 

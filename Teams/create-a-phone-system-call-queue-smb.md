@@ -1,7 +1,7 @@
 ---
 title: Create a call queue in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -135,9 +135,7 @@ Once you've selected a language, select the **Next** button at the bottom of the
 
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
-- If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
-
-- If you select **Type a greeting message**, the system will read the text that you type (up to 1000 characters) when the call queue answers a call.
+If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
 
 Teams provides default music to callers while they are *on hold in a queue*.
 

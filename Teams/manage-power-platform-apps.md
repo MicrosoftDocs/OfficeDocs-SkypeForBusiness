@@ -3,7 +3,6 @@ title: Manage Microsoft Power Platform apps in the Microsoft Teams admin center
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: joglocke
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,7 +13,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to manage access to custom apps built using Microsoft Power Platform in the Teams admin center.
 ---
@@ -28,7 +27,7 @@ This article gives you an overview of how to manage [Microsoft Power Platform](h
 > [!NOTE]
 > This article applies to custom apps created by developers in your organization using Power Apps or Power Virtual Agents. This article doesn't apply to the Power Apps app or Power Virtual Agents app that are installed from the Apps page or pinned to Teams through an app setup policy. You can manage the Store apps using [app permission policies](teams-app-permission-policies.md) and [app setup policies](teams-app-setup-policies.md).
 
-[Power Apps](https://powerapps.microsoft.com) is a low-code or no-code application development environment that app creators in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for app makers to create powerful bots. With the integration of Microsoft Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.  
+[Power Apps](https://powerapps.microsoft.com) is a low-code or no-code application development environment that app creators in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for app developers to create powerful bots. With the integration of Microsoft Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.  
 
 Microsoft Power Platform apps created by developers in your organization are automatically added to Teams. Developers can control who can access their app by using the [sharing feature in Power Apps](/powerapps/maker/canvas-apps/share-app) and the [sharing feature in Power Virtual Agents](/power-virtual-agents/admin-share-bots).
 
@@ -61,15 +60,15 @@ If a user is allowed to access apps from Power Apps or Power Virtual Agents, and
 
 By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are allowed for all Teams users in your organization. You can block or allow them at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
 
-1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
-2. In the list of apps, do one of the following.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** You must be a Global admin or Teams service admin to access the page.
+1. In the list of apps, do one of the following.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot of Manage apps page, showing shared Microsoft Power Platform apps.":::
 
     * To block apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then select **Block**.
     * To allow apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then select **Allow**.
 
-### Allow or block Microsoft Power Platform apps for specific users
+### Allow Microsoft Power Platform apps for specific users
 
 To allow or block specific users in your organization from accessing apps created in Power Apps or Power Virtual Agents, create and assign one or more custom [app permission policies](teams-app-permission-policies.md).
 

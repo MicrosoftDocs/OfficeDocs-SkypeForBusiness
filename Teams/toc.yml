@@ -880,8 +880,6 @@ items:
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Operator Connect
           items: 
-            - name: What's new
-              href: operator-connect-whats-new.md
             - name: Plan for Operator Connect
               href: operator-connect-plan.md
             - name: Configure Operator Connect
@@ -1092,7 +1090,7 @@ items:
           - name: "Step 5: Assign phone numbers to users"
             href: business-voice/set-up-assign-numbers.md
           - name: "Step 6: Set up an auto attendant"
-            href: create-a-phone-system-auto-attendant.md
+            href: create-a-phone-system-auto-attendant-smb.md
           - name: "Step 7: Port phone numbers (optional)"
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
@@ -1108,7 +1106,7 @@ items:
           - name: Create more users
             href: business-voice/create-users.md
           - name: Set up a call queue
-            href: create-a-phone-system-call-queue.md
+            href: create-a-phone-system-call-queue-smb.md
       - name: Manage your Phone System setup
         items: 
           - name: Manage devices
@@ -1569,12 +1567,16 @@ items:
 
     - name: Manage custom apps
       items:
+        - name: Manage custom and sideloaded apps
+          href: custom-app-overview.md
+        - name: Manage custom app policies and settings
+          href: teams-custom-app-policies-and-settings.md
+        - name: Publish custom apps submitted using API
+          href: submit-approve-custom-apps.md
+        - name: Publish a custom app submitted as package
+          href: upload-custom-apps.md
         - name: Manage Power Platform apps in Teams admin center
           href: manage-power-platform-apps.md
-        - name: Publish custom apps on your organization store
-          href: submit-approve-custom-apps.md
-        - name: Publish a custom app by uploading an app package
-          href: upload-custom-apps.md
 
     - name: Admin controls to govern apps
       items:
@@ -1592,7 +1594,7 @@ items:
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Graph permissions and admin consent in Azure AD
+        - name: Review Azure AD permissions and grant admin consent
           href: app-permissions-admin-center.md
         - name: Manage resource-specific consent for your org
           href: resource-specific-consent.md
@@ -1610,7 +1612,7 @@ items:
           href: apps-update-experience.md
         - name: Audit app management activities
           href: audit-app-management-activities.md
-        - name: App usage report and analytics
+        - name: View app usage report and analytics
           href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance

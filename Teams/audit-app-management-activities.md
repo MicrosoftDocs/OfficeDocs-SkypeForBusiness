@@ -1,6 +1,6 @@
 ---
 title: Search the audit logs for app management events
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,7 +13,7 @@ f1keywords:
 description: Learn how to audit Teams app activities of users and administrators in your organization.
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 
 # Audit for app management activities and events
