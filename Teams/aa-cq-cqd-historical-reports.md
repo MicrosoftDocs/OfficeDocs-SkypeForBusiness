@@ -191,46 +191,40 @@ Perform the following steps:
 
 |Report Section                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Incoming call source<sup>1</sup>        |Distribution of call by Internal/External call source              |
-|Call volume                             |Distribution of call by call queues                                |
-|Caller result                           |Distribution of call by call result                                |
-|Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result       |
-|Transfer/Forward target totals          |Distribution of call forwarded by call result                      |
-|Abandoned calls ratio                   |Ratio of successful to abandoned call count                        |
-|Average session length (seconds)        |Call length in seconds grouped by abandoned/successful calls       |
+|Incoming Call Source<sup>1</sup>        |Distribution of calls by Internal/External call source             |
+|Average Wait Time (seconds)             |Wait time for answered and abanoned calls                          |
+|Call Volume and Agent Opt-in Count      |Distribution of calls by call queues / Maximum agent opt-in count  |
+|Call Results                            |Distribution of calls by call result                               |
+|Abandoned Calls                         |Distribtuion of abandoned calls by call queues                     |
+|Average Session Length (seconds)        |Call length in seconds grouped by call result                      |
+|Call Overflow/Timeout Destinations      |Distribution of calls that timed out or overflowed                 |
+
 
 #### Report to CQD table and field mapping
 
 |Report Tab         |Report Table Names                                                          |Global Filter |
 |:------------------|:---------------------------------------------------------------------------|:-------------|
-|Call Queue         |Dates<br>dCQ-CQIdenity<br>fCallQueueAnalytics<br>fCallQueueFinalStateAction |None          |
+|Call Queue         |fCallQueueAnalytics<br>fCallQueueFinalStateAction                           |None          |
  
 |Report Table Name            |Source Table Name            |Processing       |
 |:----------------------------|:----------------------------|:----------------|
-|Dates                        |Dates                        |None             |
-|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics, <br>#"Removed Columns" = Table.RemoveColumns(Source,{"Call Count", "Call Queue Call Result", "Date", "PSTN Connectivity Type", "Call Queue Target Type", "PSTN Total Minutes"}),<br>Distinct = Table.Distinct(#"Removed Columns") |
-|fCallQueueAnalytics          |CallQueueAnalytics           |None             |
-|fCallQueueFinalStateAction   |CallQueueFinalStateAction    |None             |
+|fCallQueueAnalytics          |CallQueueAnalytics           |Put Link Here - aa-cq-cqd-historical-reports-processing-fCallQueueAnalytics |
+|fCallQueueFinalStateAction   |CallQueueFinalStateAction    |Put Link Here - aa-cq-cqd-historical-reports-processing-fCallQueueFinalStateAction |
 
 |Report Section                      |Table -> Field(s) Used                |Filters Applied       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
-|Date selector                       |Dates -> DateTime                     |None                  |
-|Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
-|Incoming call source<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
-|Avg Waiting Time                    |fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
-|Call Result                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | None |
-|Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
-|Transfer/Forard target totals       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |None |
-|Call volumes                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |None |
-|Abandoned Calls                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
-|Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Duration<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |None |
+|Date selector                       |fCallQueueAnalytics -> Date           |None                  |
+|Time Range selector                 |fCallQueueAnalytics -> CQHour         |None                  |
+|Call Queue Resource Account         |fCallQueueAnalytics -> CQ Name        |None                  |
+|Incoming call source<sup>1</sup>    |fCallQueueAnalytics -> Sum of Call Count (Measure)<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Avg Wait Time (seconds)-Before Answered |fCallQueueFinalStateAction -> Avg of Average CQ Duration (Measure) |Call Queue Call Result is agent_joined_conference or transferred_to_agent||
+|Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result is not agent_joined_conference, transferred_to_agent, overflown, timed_out |
+|Call Volume and Agent Opt-In Count   |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Agent Opt In Count<br>fCallQueueAnalytics -> CQ Name<br>fCallQueueAnalytics -> Date |None |
+|Abandoned Calls                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | Call Queue Call Result Legend is Abandoned |
+|Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
+|Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend does not contain Abandoned and Agent Answered |
 
-#### dCQ-CQIdenity CQD fields description
-
-|Name                                    |Data Type                |Description                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|Call Queue Identity                     |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
-
+### COLIN
 #### fCallQueueAnalytics CQD fields description
 
 |Name                                    |Data Type                |Description                                                                |
