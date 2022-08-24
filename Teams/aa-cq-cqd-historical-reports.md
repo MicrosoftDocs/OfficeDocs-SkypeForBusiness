@@ -152,7 +152,7 @@ Perform the following steps:
 |Average Seconds in AA                           |AAChainDuration (Measure)                  |None                                                             |
 |Average Caller Actions                          |AACallerActionCount (Measure)              |None                                                             |
 |Call Results                                    |AACallResult<br>AACallResultLegend<br>TotalCallCount             |None                                                             |
-|Lower section of report                         |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |None                |
+|Lower section of report                         |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>MM-DD<br>TotalCallCount |None                |
 
 #### fAutoAttendant CQD fields description
 
