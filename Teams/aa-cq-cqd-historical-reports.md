@@ -213,35 +213,54 @@ Perform the following steps:
 |Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
 |Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend does not contain Abandoned and Agent Answered |
 
-### COLIN
+
 #### fCallQueueAnalytics CQD fields description
 
 |Name                                    |Data Type                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
+|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue            |
+|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue              |
+
 |Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered tranfer mode calls {default}) |
-|Call Queue Identity                     |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
+|Call Queue Call Result Legend           |Text                     |                                                                           |
+
 |Call Queue Target Type                  |Text                     |***Call redirection target type--possible values:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
-|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal           |
-|Date                                    |Date/time                |Call Queue call start date and time (hour) (UTC)                           | 
-|IsAbandoned                             |True/false               |True if call is not answered by an agent                                   |
-|PSTN Connectivity Type                  |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall   |
+|Call Queue Target Type Legend           |Text                     |                                                                           |
+
+|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal             |
+|CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
+|CQ Hour                                 |Whole Number             |Call queue call start hour                                                 |
+|Date                                    |Date/time                |Call queue call start date and time (hour)                                 | 
+|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
+|PSTN Connectivity Type                  |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall     |
 |PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                       |
+|Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                          |
+|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                |
 
 
 #### fCallQueueFinalStateAction  CQD fields description
 
 |Name                                    |Data Type                |Description                                        |
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
-|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>Average call duration in seconds |
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                  |
+|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>Average call duration in seconds for abandoned calls    |
+|Average Call Queue Duration (Sec)       |Decimal number           |Summarize: Sum<br>Average waiting in seconds for answered calls           |
+|Avg of Average Call Duration (Measure)  |Whole number             |Same as Average Call Duration (Seconds) however will be 0 when no calls   |
+|Avg of Average CQ Duration (Measure)    |Whole number             |Same as Average Call Queue Duration (Sec) however will be 0 when no calls |
+|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                         |
+
 |Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered transfer mode calls {default} |
-|Call Queue Final State Action           |Text                     |Call queue final action--possible values:<br><br>§ disconnect (timed_out calls)<br>§ disconnect_with_busy (overflown calls)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
-|Call Queue Identity                     |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
-|Date                                    |Date/time                |Call Queue call start date and time (hour) (UTC)   |
-|IsAbandoned                             |True/false               |True if call is not answered by an agent           |
+|Call Queue Call Result Legend           |Text                     |                                                                          |
 
 
+|Call Queue Final State Action           |Text                     |Call queue final action--possible values:<br><br>§ disconnect (timed_out calls)<br>§ disconnect_with_busy (overflown calls)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail                |
+
+|CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
+|Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
+|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
+|IsAbandoned                             |True/false               |True if call is not answered by an agent                                   |
+
+COLIN
 ### Cloud Call Queue Agent Timeline
 
 #### Report description
@@ -284,8 +303,7 @@ Perform the following steps:
 
 
 > [!NOTE]
-> 1) This report shows the call counts from the agents' perspective and therefore the call count total on this report will typically be higher than the total number of calls on the **Cloud Call Queue Analytics** report. Each call in the queue may be presented to one or more agents at least once before it is answered. Every call queue call presented to an agent is counted on this report, even if it wasn't answered by the agent. The difference in the call counts between these two reports is more pronounced with the **Attendant routing** option which rings every agent for every call. 
-> 2) When a call first arrives at the first call queue, if the number of calls already waiting in that queue exceeds the **Call overflow handling** limit and if the redirect option sends calls to a second call queue then the agents in the second call queue will be shown as being in the first call queue on this report. 
+> When a call first arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
 ## Known Issues
 
@@ -300,6 +318,7 @@ Perform the following steps:
 ## Version History
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.63     |August 24, 2022    |CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
 |1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
 |1.00     |November 5, 2020   |CQ and AA combined Analytics 20201105.pbit                         |Initial release                                     |
 
