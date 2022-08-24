@@ -162,6 +162,8 @@ Once you've added your after hours call flow, select **Next**.
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
+*New - Play menu options is now available in Holiday call flows*
+
 1. On the Holiday call settings page, select **Add**.
 
 1. Type a name for this holiday setting.
@@ -171,8 +173,6 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 1. Choose the type of greeting that you want to use.
 
 1. Choose if you want to **Disconnect**, **Redirect** or **Play menu options** the call.
-
-*New - Play menu options is now available in Holiday call flows*
 
     1. If you chose to redirect, choose the call routing destination for the call.
     1. If you choose to play menu options, configure the **Play menu options**.
