@@ -20,7 +20,6 @@ keywords:
 ---
 
 # Step 3 - Assign a meeting room license
-
-border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+:::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 [!INCLUDE [mtr-device-config-assign-include](includes/mtr-device-config-assign-include.md)]

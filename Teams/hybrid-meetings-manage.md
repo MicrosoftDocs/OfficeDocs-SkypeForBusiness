@@ -21,7 +21,7 @@ keywords:
 
 # Step 7 - Manage and monitor your Teams meeting space
 
-border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+:::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 Once you've completed setup of your Teams Rooms space, you can switch to management and monitoring of the devices in that space. You can make configuration updates remotely, push updates to Teams Rooms consoles, monitor call quality, and more. Use the information in this article to manage and monitor your Teams Rooms consoles and their peripherals.
 

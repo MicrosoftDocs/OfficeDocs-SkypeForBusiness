@@ -21,6 +21,6 @@ keywords:
 
 # Step 7 - Configure calendar options
 
-border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+:::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 [!INCLUDE [mtr-device-config-calendar-include](includes/mtr-device-config-calendar-include.md)]

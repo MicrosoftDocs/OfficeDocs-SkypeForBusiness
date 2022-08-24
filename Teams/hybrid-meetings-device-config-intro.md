@@ -21,7 +21,7 @@ keywords:
 
 # Step 5 - Overview
 
-border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+:::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 After you've installed and connected all of your devices, it's time to configure the Teams Rooms console.
 

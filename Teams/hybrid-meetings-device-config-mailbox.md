@@ -21,6 +21,6 @@ keywords:
 
 # Step 4 - Configure mailbox properties
 
-border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
+:::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 [!INCLUDE [mtr-device-config-mailbox-include](includes/mtr-device-config-mailbox-include.md)]
