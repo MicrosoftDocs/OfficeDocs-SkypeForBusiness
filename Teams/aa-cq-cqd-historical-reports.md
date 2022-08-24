@@ -34,7 +34,7 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI Template provid
 These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. The reports allow organizations
 to report on the number of calls being processed by auto attendants and call queues.  The reports also provide insight to agent performance in the call queues.
 
-### V1.60 published on July 22, 2022
+### V1.63 published on August 24, 2022
 
 ## Prerequisites
 
@@ -119,35 +119,39 @@ Perform the following steps:
 
 |Report Section                          |Description                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Incoming call source<sup>1</sup>        |Distribution of calls by Internal/External call source             |
-|Directory search method totals          |Distribution of calls by search type                               |
-|Caller action                           |Distribution of calls by call receiver                             |
-|Call result                             |Distribution of calls by final call state                          |
-|Caller action count                     |Distribution of calls by number action used during the call        |
+|Incoming Call Source<sup>1</sup>        |Distribution of calls by Internal/External call source            |
+|Directory Search Method                 |Distribution of calls by search type                              |
+|Caller Action Count                     |Distribution of calls by number action used during the call       |
+|Average Seconds in AA                   |Average number of seconds callers spend in the AA                 |
+|Average Caller Actions                  |Average number of actions callers perform in the AA               |
+|Call Results                            |Distribution of calls by final call state                         |
+|Lower section of report                 |Call flow breakdown                                               |
+
 
 
 #### Report to CQD table and field mapping
 
 |Report Tab            |Report Table Name     |Global Filter                          |
 |:---------------------|:---------------------|:--------------------------------------|
-|Auto Attendant        |fAutoAttendant        |AAStartTime is within the last 28 days |
+|Auto Attendant        |fAutoAttendant        |None                                   |
 
 
 |Report Table Name            |Source Table Name            |Processing       |
 |:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant, <br>#"Filtered Rows" = Table.SelectRows(Source, each true), <br>#"Auto Attendant" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@"))), <br>#"Changed Type" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", type datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
+|fAutoAttendant               |AutoAttendant                |Put Link Here - aa-cq-cqd-historical-reports-processing-fAutoattendant |
 
 
 |Report Section                                  |Field(s) Used                              |Filters Applied     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Date selector                                   |AAStartTime                                |None                |
+|Time Range selector                             |AAStartHour                                |None                |
 |Auto Attendant                                  |AA Name                                    |None                |
-|Incoming call source<sup>1</sup>                |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
-|Directory search method totals                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
-|Caller actions                                  |AATransferAction<br>TotalCallCount         |None                                                             |
-|Average Seconds in AA<br>Average Caller Actions |AAChainDuration<br>AACallerActionCount     |None                                                             |
-|Call results                                    |AACallResult<br>TotalCallCount             |None                                                             |
-|Caller actions count                            |AACallerActionCount<br>TotalCallCount      |None                                                             |
+|Incoming Call Source<sup>1</sup>                |Call Type<br>Sum of TotalCallCount (Measure) |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Directory Search Method                         |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
+|Caller Action Count                             |AACallerActionCount<br>TotalCallCount      |None                                                             |
+|Average Seconds in AA                           |AAChainDuration (Measure)                  |None                                                             |
+|Average Caller Actions                          |AACallerActionCount (Measure)              |None                                                             |
+|Call Results                                    |AACallResult<br>AACallResultLegend<br>TotalCallCount             |None                                                             |
 |Lower section of report                         |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |None                |
 
 #### fAutoAttendant CQD fields description
@@ -156,19 +160,29 @@ Perform the following steps:
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
+|AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
+
 |AACallFlow                              |Text                     |Encapsulates the different states of Auto Attendant Call--possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+
 |AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call could not be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA did not accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up before AA action)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to expernal number)<br>§ transfer_in_progress (AA->AA transfer)<br>***§ transferred_to_operator*** (call was transferred to operator - typically due to user input error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown error has occurred)<br>§ user_terminated (caller hung up) |
+
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                     |
+|AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank              |
 |AAChainIndex                            |Text                     |                                                                         |
 |AAConnectivityType                      |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall |
 |AACount                                 |Text                     |Number of Auto Attendants involved in call                               |
 |AADirectorySearchMethod                 |Text                     |Last address book search method--possible values:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AAStartHour                             |Decimal number           |Auto Attendant call start hour                                           |
 |AAStartTime                             |Date/time                |Auto Attendant call start time                                           |
+
 |AATransferAction                        |Text                     |Call transfer target type--possible values:<br><br>***§ application - voice application entity***<br>§ external_pstn<br>***§ hunt_group - Call Queue entity***<br>***§ orgaa - Organizational Auto Attendant entity***<br>§ shared_voicemail<br>§ unknown<br>§ user |
-|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal         |
+
+|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal           |
 |IsAAInvolved                            |Text                     |Always 1                                                                 |
+|MM-DD                                   |Text                     |Auto Attendant call month-day                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls            |
+|Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank              |
 
 
 ### Cloud Call Queue Analytics
