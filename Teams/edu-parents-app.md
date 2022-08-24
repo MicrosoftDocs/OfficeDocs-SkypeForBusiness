@@ -37,7 +37,7 @@ Here are some resources IT admins can share with guardians and educators on how 
 The Parents Connection allows educators and guardians to chat, email, and call using Teams.
 
 - Educators can initiate chats with guardians.
-  - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
+  - If the guardian doesn't have a Teams consumer account or hasn't yet joined Teams, they'll receive the message from the educator along with an email invite to go to Teams. This only applies in cases where the invite limits haven't been reached, and the chat is a new chat or an existing chat that has been re-entered from the Parent Connection.
 - It works with Supervised chat. For more information, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
   - By default, guardians have restricted permissions, so they can't chat with students or remove users from chats.
   - This setting can be changed by the tenant admin.
@@ -176,7 +176,7 @@ Once the user-level external access policies are set correctly for the users in 
 
 ## Turn on the Parents app in the Teams admin center
 
-The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
+The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
 
 At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
 

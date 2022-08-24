@@ -1,20 +1,18 @@
 ---
 title: What's the difference between Business Voice and Enterprise Voice?
-author: dstrome 
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: high
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: Learn what the differences are between Microsoft 365 Enterprise Voice and Business Voice.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 # What's the difference between Business Voice and Enterprise Voice?

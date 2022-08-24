@@ -10,11 +10,10 @@ ms.reviewer: karsmith
 description: Learn how to assign licenses for Microsoft Teams for Education.
 ms.localizationpriority: high
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
 appliesto: 
   - Microsoft Teams
 ms.custom: 

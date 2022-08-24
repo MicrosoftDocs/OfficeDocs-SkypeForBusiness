@@ -10,11 +10,10 @@ search.appverid:
 description: Learn how to create, set, assign, and adjust the Teams Files Policy using PowerShell.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Turn off Teams Native File Upload policy

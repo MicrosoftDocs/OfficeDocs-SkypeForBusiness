@@ -11,11 +11,10 @@ ms.service: msteams
 ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - remotework
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-may2020

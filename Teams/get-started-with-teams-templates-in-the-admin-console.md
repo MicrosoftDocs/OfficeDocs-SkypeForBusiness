@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 description: Learn about team templates and how to manage them in the Microsoft Teams admin center.
 f1.keywords:
 - CSH
@@ -38,7 +39,7 @@ You can manage team templates in the Microsoft Teams admin center or by using Po
 This article gives you an overview of working with team templates in the Teams admin center. You'll learn about the properties that are supported in templates, the pre-built templates that we provide, template size limits, how to create and manage templates, and more.
 
 > [!NOTE]
-> Your users can [create teams from pre-built or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from pre-built team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
+> Your users can [create teams from pre-built or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from pre-built or custom team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
 ## Team template capabilities
 

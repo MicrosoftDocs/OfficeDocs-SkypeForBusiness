@@ -9,11 +9,9 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- Teams_ITAdmin_RemoteWorkers
-- remotework
-appliesto: 
+  - M365-collaboration
+  - remotework
+appliesto:
 - Microsoft Teams
 f1.keywords:
 - CSH

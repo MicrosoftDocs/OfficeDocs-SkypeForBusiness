@@ -1,5 +1,5 @@
 ---
-title: Role-based access control with the Microsoft Teams Room Premium service 
+title: Role-based access control with the Microsoft Teams Room Premium service
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

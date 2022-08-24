@@ -8,6 +8,9 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 manager: serdars
+ms.collection: 
+  - M365-collaboration
+ROBOTS: NOINDEX
 ---
 
 # Teams sessions at Ignite 2020

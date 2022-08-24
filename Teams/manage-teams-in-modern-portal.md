@@ -39,7 +39,7 @@ You can learn more about admin roles in Teams in [Use Microsoft Teams admin role
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 ![Screenshot of the Teams overview grid.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -49,11 +49,11 @@ The grid displays the following properties:
 - **Channels** - a count of all channels in the team, including the default General channel.
 - **Team members** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
-- **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
+- **Guests** - a count of Azure Active Directory B2B guests who are members of this team.
 - **Privacy** - the Visibility/AccessType of the backing Microsoft 365 group.
 - **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Description** - the description of the backing Microsoft 365 group.
-- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Microsoft 365 Groups in your organization](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization).
 - **GroupID** - the unique GroupID of the backing Microsoft 365 group.
 
 > [!NOTE]
@@ -66,9 +66,17 @@ To add a new team, click **Add**. In the **Add a new team** pane, give the team 
 > [!NOTE]
 > Newly created teams can be managed right away in the Teams Admin Center, unlike the experience in other clients like, Outlook.
 
+This video shows the steps to create a new team and a channel for them.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### Edit
 
 To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.
+
+This video shows the steps to view and edit the details of an existing team.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 
 ### Archive
 

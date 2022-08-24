@@ -10,11 +10,10 @@ ms.reviewer: jesegher
 description: Get help with meeting and video issues relating to low bandwidth problems in Teams. Whether you're a parent, an educator, or an IT Admin, you have options to improve the experience with Teams.
 ms.localizationpriority: high
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - remotework
 appliesto: 
   - Microsoft Teams

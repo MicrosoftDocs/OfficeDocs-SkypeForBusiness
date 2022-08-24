@@ -10,12 +10,12 @@ ms.reviewer:
 description: IT admin walkthrough of the Microsoft Teams for RealWear client.
 ms.localizationpriority: high
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - remotework
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ---
