@@ -145,8 +145,8 @@ Perform the following steps:
 |Caller Action Count                             |AACallerActionCount<br>TotalCallCount      |None                                                             |
 |Average Seconds in AA                           |AAChainDuration (Measure)                  |None                                                             |
 |Average Caller Actions                          |AACallerActionCount (Measure)              |None                                                             |
-|Call Results                                    |AACallResult<br>AACallResultLegend<br>TotalCallCount             |None                                                             |
-|Lower section of report                         |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>MM-DD<br>TotalCallCount |None                |
+|Call Results                                    |AACallResult<br>AACallResultLegend<br>TotalCallCount             |None                                       |
+|Lower section of report                         |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>MM-DD<br>TotalCallCount |None       |
 
 #### fAutoAttendant CQD fields description
 
@@ -157,9 +157,8 @@ Perform the following steps:
 |AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 
 |AACallFlow                              |Text                     |Encapsulates the different states of Auto Attendant Call--possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-
-|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call could not be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA did not accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up before AA action)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to expernal number)<br>§ transfer_in_progress (AA->AA transfer)<br>***§ transferred_to_operator*** (call was transferred to operator - typically due to user input error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown error has occurred)<br>§ user_terminated (caller hung up) |
-
+|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call could not be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA did not accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to expernal number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
+|AA Call Legend                          |Text                     |Sets up legend items based on AACallResult                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                     |
 |AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank              |
 |AAChainIndex                            |Text                     |                                                                         |
@@ -168,9 +167,7 @@ Perform the following steps:
 |AADirectorySearchMethod                 |Text                     |Last address book search method--possible values:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartHour                             |Decimal number           |Auto Attendant call start hour                                           |
 |AAStartTime                             |Date/time                |Auto Attendant call start time                                           |
-
-|AATransferAction                        |Text                     |Call transfer target type--possible values:<br><br>***§ application - voice application entity***<br>§ external_pstn<br>***§ hunt_group - Call Queue entity***<br>***§ orgaa - Organizational Auto Attendant entity***<br>§ shared_voicemail<br>§ unknown<br>§ user |
-
+|AATransferAction                        |Text                     |Call transfer target type--possible values:<br><br>§ application - voice application entity<br>§ external_pstn<br>§ hunt_group - Call Queue entity<br>§ orgaa - Auto Attendant entity<br>§ shared_voicemail<br>§ unknown<br>§ user |
 |Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal           |
 |IsAAInvolved                            |Text                     |Always 1                                                                 |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                            |
@@ -221,13 +218,10 @@ Perform the following steps:
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue            |
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue              |
-
 |Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered tranfer mode calls {default}) |
-|Call Queue Call Result Legend           |Text                     |                                                                           |
-
+|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                             |
 |Call Queue Target Type                  |Text                     |***Call redirection target type--possible values:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
-|Call Queue Target Type Legend           |Text                     |                                                                           |
-
+|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                        |
 |Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal             |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Whole Number             |Call queue call start hour                                                 |
@@ -248,13 +242,9 @@ Perform the following steps:
 |Avg of Average Call Duration (Measure)  |Whole number             |Same as Average Call Duration (Seconds) however will be 0 when no calls   |
 |Avg of Average CQ Duration (Measure)    |Whole number             |Same as Average Call Queue Duration (Sec) however will be 0 when no calls |
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                         |
-
 |Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered transfer mode calls {default} |
-|Call Queue Call Result Legend           |Text                     |                                                                          |
-
-
+|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                      |
 |Call Queue Final State Action           |Text                     |Call queue final action--possible values:<br><br>§ disconnect (timed_out calls)<br>§ disconnect_with_busy (overflown calls)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail                |
-
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
