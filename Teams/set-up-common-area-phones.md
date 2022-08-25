@@ -86,10 +86,10 @@ If you're deploying one device:
 
 4. Enter a username like `MainReception` or `Mainlobby`.
 
-5. Set the password for your common area phone manually to prevent. To do this, uncheck **Automatically create a password** and **require this user to change their password when they first sign in**.  
+5. Manually set the password for your common area phone. To set the password, uncheck **Automatically create a password** and **require this user to change their password when they first sign in**.  
 
     > [!IMPORTANT]
-    > Setting a password manually for common area phones is highly recommended to prevent sign-in issues for your end users.
+    > Manually setting a password for common area phones is highly recommended to prevent sign-in issues for your end users.
 
 6. Select the usage location of the device and assign the **Common Area Phone** license to the account. If any other licenses are needed, like Callings Plans, assign them.
 
@@ -158,7 +158,7 @@ You can also sign into to a common area phone from another device using a code. 
 
 ### Sign in using the Teams admin center
 
-As an admin, you can remotely provision and sign into common area phones from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android devices](devices/remote-provision-remote-login.md) to learn more.
+As an admin, you can remotely provision and sign into common area phones from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android devices](devices/remote-provision-remote-login.md) to learn more.
 
 ## Step 6 - Set up Advanced calling on common area phones (optional)
 
@@ -179,7 +179,7 @@ To disable cloud-based voicemail from your devices, see [Voicemail user settings
 
 Now that you've set up and signed in common area phones for your organization, you can manage them in the Teams admin center. See [Microsoft Teams: Managing your devices](devices/device-management.md) to learn more.
 
-## Related topics
+## Related articles
 
 - [Update Microsoft Teams devices remotely](devices/remote-update.md).
 - [Manage Microsoft Teams device tags](devices/manage-device-tags.md).
