@@ -260,46 +260,48 @@ Perform the following steps:
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
 |IsAbandoned                             |True/false               |True if call is not answered by an agent                                   |
 
-COLIN
+
 ### Cloud Call Queue Agent Timeline
 
 #### Report description
 
 |Report Section                                          |Description                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
-|# calls by agent                                        |Distribution of call by call queue and agent                 |
-|Total call duration (seconds) by agent and Call Queue   |Total duration (seconds) of call by agent and call queue     |
-|Average call duration (seconds) by agent name           |Average duration (seconds) of call by agent                  |
+|Number of Calls by Agent                                |Distribution of calls by call queue and agent                |
+|Distribution by Agent and all Queue                     |Distribution of calls by agent and call queue                |
+|Table (bottom right)                                    |Distribution of calls by agent with average and total call duration |
+|Average Call Duration (seconds) by Agent                |Average duration (seconds) of call by agent                  |
 
 #### Report to CQD table and field mapping
 
-|Report Tab         |Report Table Names        |Global Filter |
-|:------------------|:-------------------------|:-------------|
-|Agent Timeline     |fAgentTimelineAnalytics   |None          |
- 
-|Report Table Name            |Source Table Name            |Processing       |
-|:----------------------------|:----------------------------|:----------------|
-|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Changed Type" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
+|Report Tab            |Report Table Name           |Source Table Name         |Global Filter       |
+|:---------------------|:---------------------------|:-------------------------|:-------------------|
+|Agent Timeline        |fAgentTimelineAnalytics     |fAgentTimelineAnalytics   |None                |
+
 
 |Report Section                                |Field(s) Used                         |Filters Applied       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
-|Agent Name                                    |Agent Name                            |None                  |
-|Call Queue Name                               |Call Queue Name                       |None                  |
-|#Calls By Agent                               |Agent Name<br>Call Count<br>Date      |None                  |
-|Distribution by Agent and Call Queue          |Agent Name<br>Call Count<br>Call Duration (Minutes)<br>Call Queue Name |None                      |
-|Bottom Left                                   |Agent Name<br>Average Call Duration (Second)<br>Call Count<br>Call Duration (Minute)<br>Call Queue Name | None |
-|Average Call Duration (Seconds) by Agent Name |Agent Name<br>Average Call Duration (Second)<br>Call Count<br>Call Duration (Minute)<br>Call Queue Name | None |
+|Date selector                                 |DateTime                              |None                  |
+|Agent Username selector                       |Agent Name                            |None                  |
+|Call Queue Resoure Accounts selector          |CQ Name                               |None                  |
+|Number of Calls by Agent                      |Agent Name<br>Call Count<br>Hour      |None                  |
+|Distribution by Agent and Call Queue          |Agent Name<br>Average Calls Duration (Seconds)<br>Call Count<br>CQ Name |None                      |
+|Bottom Left                                   |Agent Name<br>Average Call Duration (Seconds)<br>Call Count<br>Call Duration (Minute)<br>CQ Name<br>Hour<br>MM-DD | None |
+|Average Call Duration (Seconds) by Agent      |Agent Name<br>Average Call Duration (Seconds) | None |
 
 #### fAgentTimelineAnalytics CQD fields description
 
 |Name                                    |Data Type                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
-|Average Call Duration (Second)          |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls presented to the agent     |
-|Call Duration (Minute)                  |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
-|Call Queue Name                         |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
-|Date                                    |Date                     |                                                    |
+|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
+|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls answered by the agent     |
+|Call Duration (Minutes)                 |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
+|CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
+|Date                                    |Date                     |Date of call                                             |
+|DateTime                                |DateTime                 |Date of call                                             |
+|Hour                                    |Whole number             |Hour of call                                             |
+|MM-DD                                   |Text                     |Month and day of call                                    |
 
 
 > [!NOTE]
