@@ -37,7 +37,7 @@ Here are some resources IT admins can share with guardians and educators on how 
 The Parents Connection allows educators and guardians to chat, email, and call using Teams.
 
 - Educators can initiate chats with guardians.
-  - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
+  - If the guardian doesn't have a Teams consumer account or hasn't yet joined Teams, they'll receive the message from the educator along with an email invite to go to Teams. This only applies in cases where the invite limits haven't been reached, and the chat is a new chat or an existing chat that has been re-entered from the Parent Connection.
 - It works with Supervised chat. For more information, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
   - By default, guardians have restricted permissions, so they can't chat with students or remove users from chats.
   - This setting can be changed by the tenant admin.
