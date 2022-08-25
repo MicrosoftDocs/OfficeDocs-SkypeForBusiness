@@ -44,27 +44,27 @@ To learn more about team templates in general, see [Get started with team templa
 
 We currently offer the following pre-built team templates for financial services organizations. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-### Collaborate within a bank branch
+### Bank Branch
 
 Centralize collaboration for your bank branch employees across huddles, customer meetings, business processes such as mortgage collaboration, and keep everyone in the loop with announcements and kudos.
 
-| Template type |TemplateId| Properties that come with this template |
-| ------------------ |--|----------------------------------------------------- |
-|Bank branch| `CollaborateWithinABankBranch`|Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Approvals request </li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>Apps:<ul><li>Praise </li><li>Issue Reporter</li><li>Wiki</li><li>Calendar</li><li>Approvals</li><li>Bulletins</li><li>Ideas</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Template type |TemplateId| Properties that come with this template |
+>| ------------------ |--|----------------------------------------------------- |
+>|Bank Branch| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer Meetings</li><li>Approvals Request </li><li>Coaching</li><li>Skills Development</li><li>Loan Processing</li><li>Customer Complaints</li><li>Kudos</li><li>Fun Stuff</li><li>Compliance</li></ul>Apps:<ul><li>Approvals</li><li>Bulletins</li><li>Channel calendar</li><li>Employee ideas</li><li>Issue reporting</li><li>Praise</li><li>Shifts</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
-### Bank branch
+### Bank Branch
 
 Centralize collaboration for your bank branch employees across huddles, customer meetings, business processes such as mortgage collaboration, and keep everyone in the loop with announcements and kudos.
 
-| Template type |TemplateId| Template channels |
-| ------------------ |--|----------------------------------------------------- |
-|Bank branch|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|General<br>Announcements<br>Huddles<br>Customer meetings<br>Approvals request<br>Coaching<br>Skills development<br>Loan processing<br>Customer complaints<br>Kudos<br>Fun stuff<br>Compliance|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Template type |TemplateId| Template channels |
+>| ------------------ |--|----------------------------------------------------- |
+>|Bank Branch|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|General<br>Announcements<br>Huddles<br>Customer Meetings<br>Approvals Request<br>Coaching<br>Skills Development<br>Loan Processing<br>Customer Complaints<br>Kudos<br>Fun Stuff<br>Compliance|
 
 > [!NOTE]
 > For additional team templates that apply to financial services organizations, see [Team templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
