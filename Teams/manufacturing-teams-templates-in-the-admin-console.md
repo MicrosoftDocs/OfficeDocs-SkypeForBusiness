@@ -35,6 +35,7 @@ To learn more about team templates in general, see [Get started with team templa
 
 Centralize communication, access to resources, and plant operations with a Manufacturing Plant team. Include policy and procedure documents, training videos, safety notices, shift handover processes.
 
-|Template type|TemplateId| Properties that come with this template |
-| ------------------|-- |----------------------------------------------------- |
-|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Issue reporting</li><li>Shifts</li> <li>Tasks by Planner and To Do</li> <li>Wiki</li> </ul>|
+>[!div class="mx-tdBreakAll"]
+>|Template type|TemplateId| Properties that come with this template |
+>| ------------------|-- |----------------------------------------------------- |
+>|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Issue reporting</li><li>Shifts</li> <li>Tasks by Planner and To Do</li> <li>Wiki</li> </ul>|
