@@ -6,7 +6,7 @@ manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: 
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium
@@ -23,21 +23,18 @@ appliesto:
 
 # Use manufacturing team templates in the admin center
 
-Team templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
-Team templates have pre-built definitions of team structures designed around manufacturing needs. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
+Use team templates to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-In this article, we introduce each of the team templates and recommend how to use them.
+Teams includes pre-built templates designed for manufacturing needs. In this article, we introduce you to these templates.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your manufacturing organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
+To learn more about team templates in general, see [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
-To learn more about team templates in general, refer to [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
-
-## Quality and safety
+## Quality and Safety
 
 Centralize communication, access to resources, and plant operations with a Manufacturing Plant team. Include policy and procedure documents, training videos, safety notices, shift handover processes.
 
-| Base template type|baseTemplateId| Properties that come with this base template |
+|Template type|TemplateId| Properties that come with this template |
 | ------------------|-- |----------------------------------------------------- |
-|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General<li>Announcements</li><li>Line 1</li><li>Line 2</li><li>Line 3</li><li>Safety</li><li>Training</li><li>Maintenance</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
-||||
+|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Issue reporting</li><li>Shifts</li> <li>Tasks by Planner and To Do</li> <li>Wiki</li> </ul>|
