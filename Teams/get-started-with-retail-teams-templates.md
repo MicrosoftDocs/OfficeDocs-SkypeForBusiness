@@ -77,9 +77,10 @@ Here are the pre-built retail team templates.
 
 Use this template to create a team to represent an individual retail store location. With this template, you can create a team for each retail store location in your organization.
 
-| Template type | TemplateId | Template channels |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift Handoff&sup2;</li><li>Store Readiness</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
+>[!div class="mx-tdBreakAll"]
+>| Template type | TemplateId | Template channels |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift Handoff&sup2;</li><li>Store Readiness</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
 ||||
 
 &sup2;Auto-favorited channels
@@ -94,9 +95,10 @@ Recommended ways to customize the Store template for your organization:
 
 Use this template to create a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
-| Template type | TemplateId | Template channels |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
+>[!div class="mx-tdBreakAll"]
+>| Template type | TemplateId | Template channels |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
 ||||
 
 &sup2;Auto-favorited channels
