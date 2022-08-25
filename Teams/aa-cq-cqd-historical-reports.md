@@ -156,7 +156,7 @@ Perform the following steps:
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
 |AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 |AACallFlow                              |Text                     |Encapsulates the different states of Auto Attendant Call--possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call could not be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA did not accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to expernal number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
+|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call could not be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA did not accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
 |AA Call Legend                          |Text                     |Sets up legend items based on AACallResult                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                     |
 |AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank              |
@@ -182,10 +182,10 @@ Perform the following steps:
 |Report Section                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
 |Incoming Call Source<sup>1</sup>        |Distribution of calls by Internal/External call source             |
-|Average Wait Time (seconds)             |Wait time for answered and abanoned calls                          |
+|Average Wait Time (seconds)             |Wait time for answered and abandoned calls                          |
 |Call Volume and Agent Opt-in Count      |Distribution of calls by call queues / Maximum agent opt-in count  |
 |Call Results                            |Distribution of calls by call result                               |
-|Abandoned Calls                         |Distribtuion of abandoned calls by call queues                     |
+|Abandoned Calls                         |Distribution of abandoned calls by call queues                     |
 |Average Session Length (seconds)        |Call length in seconds grouped by call result                      |
 |Call Overflow/Timeout Destinations      |Distribution of calls that timed out or overflowed                 |
 
@@ -217,7 +217,7 @@ Perform the following steps:
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue            |
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue              |
-|Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered tranfer mode calls {default}) |
+|Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered transfer mode calls {default}) |
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                             |
 |Call Queue Target Type                  |Text                     |***Call redirection target type--possible values:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
 |Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                        |
@@ -272,7 +272,7 @@ Perform the following steps:
 |:---------------------------------------------|:-------------------------------------|:---------------------|
 |Date selector                                 |DateTime                              |None                  |
 |Agent Username selector                       |Agent Name                            |None                  |
-|Call Queue Resoure Accounts selector          |CQ Name                               |None                  |
+|Call Queue Resource Accounts selector          |CQ Name                               |None                  |
 |Number of Calls by Agent                      |Agent Name<br>Call Count<br>Hour      |None                  |
 |Distribution by Agent and Call Queue          |Agent Name<br>Average Calls Duration (Seconds)<br>Call Count<br>CQ Name |None                      |
 |Bottom Left                                   |Agent Name<br>Average Call Duration (Seconds)<br>Call Count<br>Call Duration (Minute)<br>CQ Name<br>Hour<br>MM-DD | None |
