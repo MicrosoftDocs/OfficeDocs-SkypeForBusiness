@@ -41,7 +41,7 @@ Built with small businesses in mind, the Admin app creates a central hub for adm
 
 :::image type="content" source="media/admin-app-dashboard.png" alt-text="Image displaying the dashboard tab in the Admin app":::
 
-## Availability of the Admin app
+## Who can access the Admin app in Teams?
 
 The Admin app in Teams is accessible to users with the following admin roles: Global administrator, Teams administrator, Users administrator, and Billings administrator. [Learn more about admin roles in the Microsoft 365 admin center.](/microsoft-365/admin/add-users/about-admin-roles)
 
