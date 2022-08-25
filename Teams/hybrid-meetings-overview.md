@@ -19,7 +19,7 @@ ms.custom:
 keywords: 
 ---
 
-# Create a great Teams meeting experience for all participants
+# Create an inclusive Teams meeting experience for all participants
 
 Microsoft Teams meetings are a place where people come together to exchange ideas and work on hard problems. In a time when workplace environments are undergoing significant change, it can be challenging to bring people together and enable effective meetings. This solution shows you how can bring together Microsoft Teams, Teams Rooms devices, room design, meeting principles, and business practices, to create an inclusive meeting environment. An inclusive environment enables communication and collaboration between all recipients, regardless of whether they're in the room, remote, or have a disability.
 
