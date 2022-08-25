@@ -29,6 +29,8 @@ Select whether you want to design and build an enhanced meeting space optimized 
 
 Microsoft Teams Rooms can be deployed to any existing meeting space. These spaces typically have a conference table, whiteboard, corkboard, and a projection system to present content from a device. By integrating with your existing furniture and audio-visual hardware, Teams Rooms can simplify the pre-meeting setup for presenters and make remote users equal participants in the meeting.
 
+![Rendering of an standard meeting room.](media/hybrid-standard-room.png)
+
 ## Standard room size and capacity
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
@@ -67,7 +69,7 @@ Most participants will choose to share content within this type of meeting room 
 
 Enhanced Microsoft Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
-![Rendering of an enhanced meeting room.](media/emr1.png)
+![Rendering of an enhanced meeting room.](media/hybrid-enhanced-room.png)
 
 ## Enhanced room size and capacity
 
