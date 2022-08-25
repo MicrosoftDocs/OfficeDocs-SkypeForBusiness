@@ -65,9 +65,10 @@ Here are the pre-built team templates that are available in the Teams admin cent
 
 You can duplicate pre-built templates but you can't edit them. If you want to change the properties in a pre-built template, you can create a new template from an existing one, and then add or remove the properties that you want. Keep in mind that certain properties in some templates can't be changed.
 
-| Template type | TemplateId | Properties that come with this template |
-| ------------------ | -------------- | ----------------------------------------------------- |
-|Manage a Project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li><li>Lists</li><li>Milestones</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
+>[!div class="mx-tdBreakAll"]
+> Template type | TemplateId | Properties that come with this template |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>|Manage a Project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li><li>Lists</li><li>Milestones</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
 |Manage an Event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li> <li>Employee ideas</li> <li>Lists</li> <li>Milestones</li> <li>OneNote</li> <li>Power Automate</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
 |Onboard Employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee Chat</li> <li>Training</li></ul>Apps:<ul><li>Bulletins</li><li>Communities</li><li>Employee ideas</li><li>Lists</li><li>Milestones</li><li>Power Automate</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 |Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions Corner</li> <li>Team Forms</li><li>Calendar</li></ul> Apps: <ul><li>Bulletins</li>  <li>Channel calendar</li> <li>Milestones</li><li>Wiki</li></ul>|
