@@ -1,5 +1,5 @@
 ---
-title: "Step 3 - Design and build an enhanced meeting space or update an existing space"
+title: "Step 3 - Design and build a hybrid-optimized meeting space or update an existing space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -23,29 +23,29 @@ keywords:
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
 
-Select whether you want to design and build an enhanced meeting space optimized for hybrid meetings or if you want to update an existing, standard, space that already has some components, such as a conference table, displays, and so on.
+Select whether you want to design and build a hybrid-optimized meeting space optimized for hybrid meetings or if you want to update an existing, traditional, space that already has some components, such as a conference table, displays, and so on.
 
-# [Standard](#tab/standard)
+# [Traditional](#tab/traditional)
 
 Microsoft Teams Rooms can be deployed to any existing meeting space. These spaces typically have a conference table, whiteboard, corkboard, and a projection system to present content from a device. By integrating with your existing furniture and audio-visual hardware, Teams Rooms can simplify the pre-meeting setup for presenters and make remote users equal participants in the meeting.
 
-![Rendering of an standard meeting room.](media/hybrid-standard-room.png)
+![Rendering of a traditional meeting room.](media/hybrid-standard-room.png)
 
-## Standard room size and capacity
+## Traditional room size and capacity
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
 This space will comfortably fit up to 10 people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
-:::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of standard meeting room design":::
+:::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of traditional meeting room design":::
 
-## Standard room furniture
+## Traditional room furniture
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
 This room incorporates a rectangle conference table that's common in many meeting spaces. Participants can sit on either side of the table with a clear view of the front-of-room display.
 
-## Standard equipment mounting
+## Traditional equipment mounting
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
@@ -59,40 +59,40 @@ Selecting a location for hardware is typically driven by the selection of Teams 
 | Content camera | If you have a whiteboard and plan to use a content camera, make sure the camera is placed where it doesn't interfere with your display. The camera needs to be placed at least a couple feet out from the wall so it can see the whiteboard. If you're using a projector, make sure the camera doesn't cast a shadow on the projector screen.                               |
 | Microphones    | Place at least two microphones on the conference table so that no participants are more than a few feet from one (exact distances depend on the microphone you use). Make sure microphone coverage overlaps so that all participants can be heard. Placing microphones in the ceiling can be an alternative depending on how the room is constructed.                       |
 | Display        | Mount your display so that all participants can easy see it. Make sure the wall it's located on has enough strength to support the weight of the display and that you can run cabling from the display to the Teams Rooms console or compute device.                                                                                                                        |
-| Speakers       | If you didn't choose a soundbar with integrated camera, place speakers to either side of the display to get the most benefit out of spacial audio. You can also place speakers in the ceiling but keep left and right channel placement in mind for spatial audio. Also try to maintain separation between speakers and microphones that also may be placed in the ceiling. |
+| Speakers       | If you didn't choose a soundbar with integrated camera, place speakers to either side of the display to get the most benefit out of stereo audio. You can also place speakers in the ceiling but keep left and right channel placement in mind for spatial audio. Also try to maintain separation between speakers and microphones that also may be placed in the ceiling. |
 
 We recommend that you mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left and right-channel audio for spatial audio) mounted below the front-of-room display. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents.
 
 Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
 
-# [Enhanced](#tab/enhanced)
+# [Hybrid-optimized](#tab/hybrid)
 
-Enhanced Microsoft Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
+Hybrid-optimized Microsoft Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
-![Rendering of an enhanced meeting room.](media/hybrid-enhanced-room.png)
+![Rendering of a hybrid-optimized meeting room.](media/hybrid-enhanced-room.png)
 
-## Enhanced room size and capacity
+## Hybrid-optimized room size and capacity
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
 This space will comfortably fit six to eight people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
-## Enhanced room furniture
+## Hybrid-optimized room furniture
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
 
 This room features a curved table with participants seated on one side, allowing in-room participants to retain visibility of each other and be positioned face to face with remote participants.
 
-This room features a standard meeting room table with a height of 30 in or 76 cm.
+This room features a traditional meeting room table with a height of 30 in or 76 cm.
 
-![Blueprint of an enhanced meeting room design.](media/emr10.png)
+![Blueprint of a hybrid-optimized meeting room design.](media/emr10.png)
 
-## Enhanced equipment mounting
+## Hybrid-optimized equipment mounting
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
-The enhanced meeting room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
+The hybrid-optimized meeting room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
 
 | Component      | Recommendations                                                                                                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ The enhanced meeting room shown in the images above requires specific placement 
 | Content camera | If you have a whiteboard and plan to use a content camera, make sure the camera is placed where it doesn't interfere with your display. The camera needs to be placed at least a couple feet out from the wall so it can see the whiteboard. If you're using a projector, make sure the camera doesn't cast a shadow on the projector screen.                               |
 | Microphones    | The microphones in the soundbar should provide adequate coverage for all participants seated at the conference table.                        |
 | Display        | Mount your display so that all participants can easy see it. Make sure the wall it's located on has enough strength to support the weight of the display and that you can run cabling from the display to the Teams Rooms console or compute device.                                                                                                                        |
-| Speakers       | If you didn't choose a soundbar with integrated camera, place speakers to either side of the display to get the most benefit out of spacial audio. You can also place speakers in the ceiling but keep left and right channel placement in mind for spatial audio. Also try to maintain separation between speakers and microphones that also may be placed in the ceiling. |
+| Speakers       | If you didn't choose a soundbar with integrated camera, place speakers to either side of the display to get the most benefit out of stereo audio. You can also place speakers in the ceiling but keep left and right channel placement in mind for spatial audio. Also try to maintain separation between speakers and microphones that also may be placed in the ceiling. |
 
 ---
 

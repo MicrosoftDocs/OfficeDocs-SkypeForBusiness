@@ -25,7 +25,7 @@ Microsoft Teams meetings are a place where people come together to exchange idea
 
 Microsoft Teams is the center of hybrid work across Microsoft. To see how to incorporate the hybrid work mindset across your organization with Teams, Microsoft 365, Azure, and other Microsoft products, visit the [Microsoft Hybrid Work Center](https://www.microsoft.com/hybridwork/).
 
-This short video shares Microsoft's vision for hybrid meetings with Teams Rooms. Many of the features, such as front row and spacial audio, are available today and are discussed in this solution.
+This short video shares Microsoft's vision for hybrid meetings with Teams Rooms. Many of the features, such as front row, are available today and are discussed in this solution.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEB5U]
 >

@@ -36,7 +36,7 @@ If you want more flexibility than a sound bar provides, you can choose cameras, 
 > [!NOTE]
 > The devices and manufacturers listed in this article are examples of available products only and don't represent specific recommendations. To see a broader list of available devices and manufacturers, see <https://aka.ms/teamsdevices>.
 
-# [Standard](#tab/standard)
+# [Traditional](#tab/traditional)
 
 ## Touchscreen console and compute module
 
@@ -151,7 +151,6 @@ In addition to space use and design, keep the following technical considerations
 - **Microphone spacing** - At least one microphone should be within 7.5 feet (2.3 meters) of each participant (some microphones may have more specific requirements; see manufacturer's documentation for details).
 - **Microphone coverage** - If multiple microphones are needed to cover all participants, make sure their coverage areas overlap to ensure complete coverage.
 - **In-ceiling devices** - In-ceiling microphones and speakers are a great option to remove clutter from the table and provide better room coverage.
-- **Spacial audio** - Use stereo speakers to benefit from spacial audio. Spacial audio makes it sound like the voice you're hearing is coming from the person on screen who's speaking.
 
 :::image type="content" source="media/hybrid-mic-coverage.png" alt-text="Image showing microphone coverage overlap.":::
 
@@ -160,7 +159,7 @@ The following are examples of audio systems for Teams Rooms:
 - [Yamaha ADECIA wired tabletop solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [Biamp medium room audio with Parlé ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# [Enhanced](#tab/enhanced)
+# [Hybrid-optimized](#tab/hybrid)
 
 ## Technology
 
@@ -285,7 +284,7 @@ Example display types include:
 
 ### Display functions
 
-Enhanced Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
+Hybrid-optimized Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
 
 - Sleep and Quick Wake Up from sleep based on HDMI sync.
   - For projectors, automatic warm-up and cooldown periods must be supported without required user intervention.
@@ -293,7 +292,7 @@ Enhanced Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solution
 
 ### Display placement
 
-An enhanced room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
+A hybrid-optimmized room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
 
 The horizontal center line of the display must be centered on the same center line as the table.
 
@@ -301,7 +300,7 @@ The vertical center line of the display must be no more than +/- 15 degrees offs
 
 ### Display count
 
-An enhanced room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
+A hybrid-optimized room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
 
 ### Display options
 
