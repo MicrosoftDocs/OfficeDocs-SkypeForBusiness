@@ -52,7 +52,7 @@ Bring your retail employees together in one central experience to manage tasks, 
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId | Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Organize a Store| `retailStore` |Channels: <ul><li>General<li>Shift handoff<ul><li>Shifts&sup1;</li></ul></li><li>Store readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks by Planner and To Do (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists</li><li>SharePoint Pages</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+>|Organize a Store| `retailStore` |Channels: <ul><li>General<li>Shift Handoff<ul><li>Shifts&sup1;</li></ul></li><li>Store Readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks by Planner and To Do (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists</li><li>SharePoint Pages</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 &sup1;App added to the channel as a tab
 
@@ -79,7 +79,7 @@ Use this template to create a team to represent an individual retail store locat
 
 | Template type | TemplateId | Template channels |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift handoff&sup2;</li><li>Store readiness</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
+| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift Handoff&sup2;</li><li>Store Readiness</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
 ||||
 
 &sup2;Auto-favorited channels
