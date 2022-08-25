@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Find out how to use Teams to create an inclusive meeting experience for your hybrid work force.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high
@@ -41,9 +41,9 @@ There are three different groups of people who need to perform steps in this sol
 
 |Identifier  |Group responsibilities  |
 |---------|---------|
-|:::image type="content" source="media/hybrid-audience-audiovisual.png" alt-text="Audio visual audience" border="false":::    | The audio visual group: <ul><li> Obtains, sets up, and configures cameras, speakers, microphones, and displays, in the meeting space.</li><li>Responds to support requests from meeting participants post-deployment.        |
-|:::image type="content" source="media/hybrid-audience-facilities.png" alt-text="Facilities audience" border="false":::     | The facilities group: <ul><li> Selects and, if necessary, constructs or modifies the meeting space to the specifications determined in consultation with the audio visual group.</li><li> Obtains and sets up furniture such as tables, chairs, whiteboards, and projection screens.</li><li>Runs cabling between the various Teams Rooms components and installs network and audio visual ports.</li><li>Installs power points for all Teams Rooms components.</li></ul>       |
-|:::image type="content" source="media/hybrid-audience-itpro.png" alt-text="IT Pro audience" border="false":::     | The IT Pro group: <ul><li>Determines, in consultation with company or department leaders, the type of meeting space to create along with its functional requirements.</li><li>In consultation with the audio visual group, selects and obtains the Teams Rooms components that will be used in the meeting space.</li><li>Evangelizes Teams and Teams Rooms features, principles, and best practicies.</li><li>Configures Teams and Teams Rooms functionality and policies.</li><li>Manages and monitors Teams and Teams Rooms health post-deployment.</ul>        | 
+|:::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false":::    | The audio visual group: <ul><li> Obtains, sets up, and configures cameras, speakers, microphones, and displays, in the meeting space.</li><li>Responds to support requests from meeting participants post-deployment.        |
+|:::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::     | The facilities group: <ul><li> Selects and, if necessary, constructs or modifies the meeting space to the specifications determined in consultation with the audio visual group.</li><li> Obtains and sets up furniture such as tables, chairs, whiteboards, and projection screens.</li><li>Runs cabling between the various Teams Rooms components and installs network and audio visual ports.</li><li>Installs power points for all Teams Rooms components.</li></ul>       |
+|:::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::     | The IT Pro group: <ul><li>Determines, in consultation with company or department leaders, the type of meeting space to create along with its functional requirements.</li><li>In consultation with the audio visual group, selects and obtains the Teams Rooms components that will be used in the meeting space.</li><li>Evangelizes Teams and Teams Rooms features, principles, and best practicies.</li><li>Configures Teams and Teams Rooms functionality and policies.</li><li>Manages and monitors Teams and Teams Rooms health post-deployment.</ul>        | 
 
 The following sections outline the key steps in this scenario.
 
