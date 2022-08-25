@@ -46,7 +46,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new in auto attendant in the past 6 months
  
- - August - **Play menu options** in Call flow, Call flow for after hours and Call flows during hoildays now support \* (asterisk) and \# (pound) keys
+ - August - **Play menu options** in Call flow, Call flow for after hours and Call flows during holidays now support \* (asterisk) and \# (pound) keys
  - July - Call flows during holidays now support **Play menu options**
  
 ## Steps to create an auto attendant
