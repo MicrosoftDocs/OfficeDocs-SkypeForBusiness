@@ -45,24 +45,25 @@ To learn more about team templates in general, see [Get started with team templa
 
 We currently offer the following pre-built retail team templates. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-### Organize a store
+### Manage a Store
 
 Bring your retail employees together in one central experience to manage tasks, share documents, and resolve customer issues. Integrate additional apps to streamline shift start and end processes.
 
-| Template type |TemplateId | Properties that come with this template |
-| ------------------|-- |----------------------------------------------------- |
-|Organize a store| `retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| Template type |TemplateId | Properties that come with this template |
+>| ------------------|-- |----------------------------------------------------- |
+>|Organize a Store| `retailStore` |Channels: <ul><li>General<li>Shift handoff<ul><li>Shifts&sup1;</li></ul></li><li>Store readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks by Planner and To Do (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists</li><li>SharePoint Pages</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 &sup1;App added to the channel as a tab
 
-### Manager Collaboration
+### Retail for Managers
 
-The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Create a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
-| Template type| TemplateId | Properties that come with this template |
-| ------------------|- |----------------------------------------------------- |
-|Retail for managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations<ul><li>Tasks (Operations Tasks)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Template type| TemplateId | Properties that come with this template |
+>| ------------------|- |----------------------------------------------------- |
+>|Retail for Managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations<ul><li>Tasks by Planner and To Do (Operations Tasks)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks by Planner and To Do (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 &sup1;App added to the channel as a tab
 
@@ -74,7 +75,7 @@ Here are the pre-built retail team templates.
 
 ### Store
 
-The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
+Use this template to create a team to represent an individual retail store location. With this template, you can create a team for each retail store location in your organization.
 
 | Template type | TemplateId | Template channels |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -91,7 +92,7 @@ Recommended ways to customize the Store template for your organization:
 
 ### Manager Collaboration
 
-The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Use this template to create a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
 | Template type | TemplateId | Template channels |
 | ------------------ | -------------- | ----------------------------------------------------- |

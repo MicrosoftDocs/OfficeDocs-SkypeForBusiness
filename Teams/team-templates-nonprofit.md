@@ -31,7 +31,7 @@ Teams includes a Manage Volunteers team template designed to streamline voluntee
 
 In this article, you'll learn about the Manage Volunteers team template and how to use it to create a team. This article also gives you an overview of how to manage team templates in the Teams admin center.
 
-## Manage volunteers team template
+## Manage Volunteers team template
 
 Bring your staff together to communicate and collaborate on volunteer management tasks and activities.
 
