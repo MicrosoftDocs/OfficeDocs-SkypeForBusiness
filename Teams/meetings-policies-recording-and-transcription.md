@@ -22,12 +22,7 @@ description: Learn to manage meeting policy settings in Teams for recording and 
 
 # Meeting policy settings for recording & transcription
 
-This article describes the meeting policy settings specific to recording and transcription including the following:
-
-- [Allow transcription](#allow-transcription)
-- [Allow cloud recording](#allow-cloud-recording)
-- [Allow automatic expiration of meeting recordings](#allow-automatic-expiration-of-meeting-recordings)
-- [Store recordings outside of your country or region](#store-recordings-outside-of-your-country-or-region)
+This article describes the meeting policy settings specific to recording and transcription in a Teams meeting. These settings can be found in the Team admin center under **Meetings** > **Meeting policies**.
 
 ## Allow transcription
 
@@ -123,6 +118,7 @@ This policy controls whether meeting records can be permanently stored in anothe
 
 ## Related topics
 
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Assign policies to users in Teams](policy-assignment-overview.md)
 - [Cloud meeting recording](cloud-recording.md)
-- [Meeting policies and meeting expiration in Microsoft Teams](meeting-expiration.md)
+- [Manage who can schedule meetings](manage-who-can-schedule-meetings.md)
