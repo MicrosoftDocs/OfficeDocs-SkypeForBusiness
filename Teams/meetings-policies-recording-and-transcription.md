@@ -24,7 +24,7 @@ description: Learn to manage meeting policy settings in Teams for recording and 
 
 This article describes the meeting policy settings specific to recording and transcription in a Teams meeting. These settings can be found in the Team admin center under **Meetings** > **Meeting policies**.
 
-## Allow transcription
+## Transcription
 
 This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.
 
@@ -32,7 +32,7 @@ Turning this setting on creates a copy of the transcript that is stored with the
 
 Transcription for recorded meetings is currently only supported for users who set their language to or speak English in Teams meetings.
 
-## Allow cloud recording
+## Cloud recording
 
 This setting is a combination of a per-organizer and per-user policy and controls whether the meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
 
@@ -56,7 +56,7 @@ Let's look at the following example.
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
-## Allow automatic expiration of meeting recordings
+## Meetings automatically expire
 
 This setting controls whether or not meeting recordings automatically expire. After turning on this setting, you'll get the option to set a default expiration time, measured in days.
 
@@ -64,24 +64,24 @@ This setting controls whether or not meeting recordings automatically expire. Af
 
 This setting provides you with a simple tool that reduces the amount of storage older recordings use. The OneDrive and SharePoint system will monitor the expiration set on all meeting recordings and will automatically move recordings to the recycle bin on their expiration date.
 
-### Default expiration
+### Default expiration time
 
 All newly created meeting recordings will have a default expiration of 120 days; all recordings created after this feature was turned on will be deleted 120 days after their creation date.
 
 > [!NOTE]
-> The maximum default expiration date for A1 users is 30 days.
+> The maximum default expiration time for A1 users is 30 days.
 
-#### Changing default expiration
+#### Changing default expiration time
 
-Admins can edit the default expiration setting in PowerShell or the Teams admin center. Any changes will only affect newly created meeting recordings from that point forward; they won’t impact any recordings created before that date.
+Admins can edit the Default expiration time setting in PowerShell or the Teams admin center. Any changes will only affect newly created meeting recordings from that point forward; they won’t impact any recordings created before that date.
 
-Admins can’t change the expiration date on existing meeting recordings. This is done to protect the decision of the user that owns the recording. Both meetings and calls can be controlled by this setting.
+Admins can’t change the expiration time on existing meeting recordings. This is done to protect the decision of the user that owns the recording. Both meetings and calls can be controlled by this setting.
 
 The expiration value is an integer for days.  This can be set as follows:
 
 - Minimum value: **1**
 - Maximum value: **99999**
-- You can also set the expiration date to **-1** in PowerShell so the recordings never expire.
+- You can also set the expiration time to **-1** in PowerShell so the recordings never expire.
 
 Example PowerShell command:
 
