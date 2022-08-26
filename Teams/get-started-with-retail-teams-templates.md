@@ -54,17 +54,19 @@ We currently offer the following pre-built retail team templates. To view them, 
 
 Bring your retail employees together in one central experience to manage tasks, share documents, and resolve customer issues. Integrate additional applications to streamline shift start and end processes.
 
-| Template type |TemplateId | Properties that come with this template |
-| ------------------|-- |----------------------------------------------------- |
-| Manage a Store| `com.microsoft.teams.template.retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists<ul><li>Inventory list</li></ul></li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+> [!div class="mx-tdBreakAll"]
+>| Template type |TemplateId | Properties that come with this template |
+>| ------------------|-- |----------------------------------------------------- |
+>| Manage a Store| `retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists<ul><li>Inventory list</li></ul></li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 ### Retail for Managers*
 
-Use this template to create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
-| Template type| TemplateId | Properties that come with this template |
-| ------------------|- |----------------------------------------------------- |
-| Retail for Managers| `com.microsoft.teams.template.retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+> [!div class="mx-tdBreakAll"]
+>| Template type| TemplateId | Properties that come with this template |
+>| ------------------|- |----------------------------------------------------- |
+>| Retail for Managers| `retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 
@@ -79,9 +81,10 @@ Here are the pre-built retail team templates.
 
 Use this template to create a team for each retail store location in your organization.
 
-| Template type | TemplateId | Template channels |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
+> [!div class="mx-tdBreakAll"]
+>| Template type | TemplateId | Template channels |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
 
 Recommended ways to customize the Store template for your organization:
 
@@ -93,9 +96,10 @@ Recommended ways to customize the Store template for your organization:
 
 Use this template to create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
-| Template type | TemplateId | Template channels |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations</li><li>Learning</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
+> [!div class="mx-tdBreakAll"]
+>| Template type | TemplateId | Template channels |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Retail - <br>Manager Collaboration | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations</li><li>Learning</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
 
 Recommended ways to customize the Manager Collaboration template for your organization:
 

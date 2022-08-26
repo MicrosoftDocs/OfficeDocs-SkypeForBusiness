@@ -54,7 +54,7 @@ You might not have access to certain apps based on your app permission policy.
 > [!div class="mx-tdBreakAll"]
 > | Template type | TemplateId| Properties that come with this template |
 > | ------------------ |--|-----------------------------------------------------------|
-> | Manage an Event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li> <li>Employee ideas</li><li>Milestones</li> <li>Lists<ul><li>Content scheduler</li></ul></li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>Our site</li><li>About our event</li></ul><li>Tasks by Planner and To Do</li><li>Wiki</li> |
+> | Manage an Event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li> <li>Employee ideas</li> <li>Lists<ul><li>Content scheduler</li></ul><li>Milestones</li></li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>Our site</li><li>About our event</li></ul><li>Tasks by Planner and To Do</li><li>Wiki</li> |
 
 ## Onboard Employees*
 
@@ -72,7 +72,7 @@ Help build, grow, and sustain your Champions community rollout by evangelizing a
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------|--|-----------------------------------------------------------|
-> | Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li><li>Calendar</li></ul> Apps: <ul><li>Wiki</li>  <li>Channel calendar</li> <li>Milestones</li><li>Bulletins</li></ul>|
+> | Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions Corner</li> <li>Team Forms</li><li>Calendar</li></ul> Apps: <ul><li>Wiki</li>  <li>Channel calendar</li> <li>Milestones</li><li>Bulletins</li></ul>|
 
 ## Organize Help Desk*
 
@@ -90,7 +90,7 @@ Centralize communication and critical crisis resources for your crisis managemen
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------ |--|----------------------------------------------------------|
-> | Crisis Communications |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>Executive Update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Approvals</li><li>Issue reporting</li><li>Lists<ul><li>Content scheduler</li><li>Project plan</li></ul></li><li>OneNote</li><li>Power Automate</li><li>Tasks by Planner and To Do</li><li>SharePoint Pages<ul><li>Our site</li><li>Latest update</li></ul>|
+> | Crisis Communications |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>Executive Update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Approvals</li><li>Issue reporting</li><li>Lists<ul><li>Content scheduler</li><li>Project plan</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li><li>Latest update</li></ul><li>Tasks by Planner and To Do</li></ul>|
 
 ## Related articles
 
