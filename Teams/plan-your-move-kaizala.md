@@ -18,6 +18,9 @@ ms.custom:
 
 # Planning for a successful transition from Kaizala to Microsoft Teams
 
+> [!Important]
+> Microsoft Kaizala will retire on August 31, 2023. We recommend upgrading to Microsoft Teams for continued connection, sharing, and collaboration. After the retirement date, access and support for Kaizala will be discontinued.
+
 As you embark on your move from Kaizala to Microsoft Teams, it's important to take the time to [plan](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) for a successful transition. A solid transition plan gives you structure for your move and ensures that all stakeholders are working towards a common goal. Using a proven framework to implement the change can help you get started on your transition today.
 
 ## Transition framework
