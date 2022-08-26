@@ -40,7 +40,27 @@ For example, if a user is assigned a meeting policy in which these meeting polic
 
 Even if a meeting policy is turned off, the conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
 
-If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user become active and people can join them using the meeting join link or by phone.  
+If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user become active and people can join them using the meeting join link or by phone.
+
+## Channel meetings
+
+If you have compliance requirements that mandate only specific people start and schedule channel meetings, then you can update your meeting policy to restrict these settings.
+
+1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to change.
+1. Under **General**, toggle the following:
+    1. If you want to restrict who can start instant meetings in a channel, toggle **Meet now in channels** to **Off**.
+    1. If you want to restrict who can schedule meetings in a channel, toggle **Channel meeting scheduling** to **Off**.
+1. Hit **Save** at the bottom of the page.
+
+## Private meetings
+
+If you have compliance requirements that mandate only specific people start and schedule private meetings, then you can update your meeting policies to restrict these settings.
+
+1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to change.
+1. Under **General**, toggle the following:
+    1. If you want to restrict who can start instant private meetings, toggle **Meet now in private meetings** to **Off**.
+    1. If you want to restrict who can schedule private meetings in a channel, toggle **Private meeting scheduling** to **Off**.
+1. Hit **Save** at the bottom of the page.
 
 ## Related topics
 
