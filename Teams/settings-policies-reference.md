@@ -34,7 +34,7 @@ description: This reference describes each of the settings and policies availabl
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="teams-policies-meetings-general.png" alt-text="Screenshot of Teams meetings general policies.":::
+:::image type="content" source="media/teams-policies-meetings-general.png" alt-text="Screenshot of Teams meetings general policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
