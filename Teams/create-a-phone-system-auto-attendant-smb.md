@@ -42,12 +42,12 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> While defining an **Operator** is optional, it is highly recommended.  Auto attendants redirect calls to the operator if the caller doesn't make a selection on menus or repeatedly selects invalid options and when dial by name/number searches repeatedly fail.  If an operator isn't defined the auto attendant will will drop the call.
+> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if the caller doesn't make a selection on menus, repeatedly selects invalid options, or dials by name or number repeatedly fail.  If an operator isn't defined, the auto attendant will drop the call.
 
-## What's new in auto attendant in the past 6 months
+## What's new for auto attendants in the past 6 months
  
- - August - **Play menu options** in Call flow, Call flow for after hours and Call flows during holidays now support \* (asterisk) and \# (pound) keys
- - July - Call flows during holidays now support **Play menu options**
+ - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys
+ - July - Call flow during holidays now supports **Play menu options**
  
 ## Steps to create an auto attendant
 The steps to add an auto attendant are:
