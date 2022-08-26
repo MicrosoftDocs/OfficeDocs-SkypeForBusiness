@@ -103,7 +103,7 @@ Once you've set your auto attendant's general info, select **Next**.
 
 #### Play menu options
 
-*New - \* (asterisk) and \# (pound) keys can now be used in menu options*
+*New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
 
 For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
 
@@ -162,7 +162,7 @@ Once you've added your after hours call flow, select **Next**.
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
-*New - Play menu options is now available in Holiday call flows*
+*New - **Play menu options** is now available in Holiday call flows.*
 
 1. On the Holiday call settings page, select **Add**.
 
