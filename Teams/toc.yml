@@ -1,6 +1,8 @@
 items:
 - name: Welcome to Teams
   href: teams-overview.md
+- name: Teams policies reference
+  href: settings-policies-reference.md
 - name: Get started
   items:
     - name: Deployment overview
