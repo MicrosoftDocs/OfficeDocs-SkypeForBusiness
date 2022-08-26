@@ -161,9 +161,73 @@ The following are examples of audio systems for Teams Rooms:
 
 # [Hybrid-optimized](#tab/hybrid)
 
-## Technology
+## Touchscreen console and compute module
 
-### Cameras
+The touchscreen console is the device that users interact with when joining and managing a meeting. The compute module is the brains of the Teams Room and runs Windows 10 Enterprise IoT.
+
+Most consoles and compute modules are bundled into a single product. Some manufacturers combine the console and compute module into a single unit that sits on the conference table. Other manufacturers have a smaller console that sits on the conference table while the compute module is hidden away.
+
+:::image type="content" source="media/touchscreen-consoles.png" alt-text="Combined console & module vs standalone console.":::
+
+Whether you choose a single unit or split console and compute units up depends on your room design. For example, where do you want to route power and audio-visual cables? Are there network ports accessible from the conference table or only in a nearby wall? It's also important to think about what peripherals you need to connect to the compute module. Does it have enough USB, HDMI, and other ports? 
+
+Review the design requirements list for your space and which devices and peripherals you want to add to the room (cameras, microphone arrays, and so on). Then select a console and compute module that meet all the needs of your space.
+
+The following are examples of touchscreen console and compute module bundles for Teams Rooms:
+
+- [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
+- [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
+
+## Hybrid-optimized displays
+
+Displays bring your content to life and can be a large flat screen TV or a projector that projects onto a screen. You can have a single display that has your content and video feeds combined, or you can set up dual displays with content on one display and video feeds on the other. One of the displays can even be touch-enabled for interactive inking.
+
+:::image type="content" source="media/hybrid-optimized-display.png" alt-text="Teams Rooms display showing front row, chat, and notes.":::
+
+
+### Display type
+
+A room of this type requires the use of an ultra-wide aspect ratio, high-resolution front-of-room display that is appropriately sized for the width and depth of space to ensure maximum visibility and clarity.
+
+Example display types include:
+
+- Laser projectors
+- LED video walls
+- Specialty LCD or OLED flat panel displays
+
+### Display functions
+
+Hybrid-optimized Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
+
+- Sleep and Quick Wake Up from sleep based on HDMI sync.
+  - For projectors, automatic warm-up and cooldown periods must be supported without required user intervention.
+- Displays must support the appropriate EDID and resolutions required by the Microsoft Teams Rooms design.
+
+### Display placement
+
+A hybrid-optimized room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
+
+The horizontal center line of the display must be centered on the same center line as the table.
+
+The vertical center line of the display must be no more than +/- 15 degrees offset from the eye line of a typical in-room meeting participant seated at the table.
+
+### Display count
+
+A hybrid-optimized room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
+
+### Display options
+
+As shown:
+
+- [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
+
+Other options:
+
+For the ideal scenario other display options (alternate projectors, LED walls, and flat panel displays) should be able to create a table spanning image, support a 4k image, and a 21:9 aspect ratio.
+
+
+## Cameras
 
 A room of this type requires the use of an intelligent, ultra wide-angle front-of-room camera that is appropriately rated for the width and depth of space.
 
@@ -270,48 +334,6 @@ Other options:
 
 :::row-end:::
 
-## Front of room display
-
-### Display type
-
-A room of this type requires the use of an ultra-wide aspect ratio, high-resolution front-of-room display that is appropriately sized for the width and depth of space to ensure maximum visibility and clarity.
-
-Example display types include:
-
-- Laser projectors
-- LED video walls
-- Specialty LCD or OLED flat panel displays
-
-### Display functions
-
-Hybrid-optimized Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
-
-- Sleep and Quick Wake Up from sleep based on HDMI sync.
-  - For projectors, automatic warm-up and cooldown periods must be supported without required user intervention.
-- Displays must support the appropriate EDID and resolutions required by the Microsoft Teams Rooms design.
-
-### Display placement
-
-A hybrid-optimmized room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
-
-The horizontal center line of the display must be centered on the same center line as the table.
-
-The vertical center line of the display must be no more than +/- 15 degrees offset from the eye line of a typical in-room meeting participant seated at the table.
-
-### Display count
-
-A hybrid-optimized room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
-
-### Display options
-
-As shown:
-
-- [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
-- [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
-
-Other options:
-
-For the ideal scenario other display options (alternate projectors, LED walls, and flat panel displays) should be able to create a table spanning image, support a 4k image, and a 21:9 aspect ratio.
 
 ---
 
