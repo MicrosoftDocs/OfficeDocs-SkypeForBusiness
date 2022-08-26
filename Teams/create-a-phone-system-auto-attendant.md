@@ -44,7 +44,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 >
 > While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if the caller doesn't make a selection on menus, repeatedly selects invalid options, or dials by name or number repeatedly fail.  If an operator isn't defined, the auto attendant will drop the call.
 
-## What's new in auto attendant in the past 6 months
+## What's new for auto attendants in the past 6 months
  
  - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
  - July - Call flow during holidays now supports **Play menu options**.
