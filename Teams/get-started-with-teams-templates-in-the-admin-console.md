@@ -68,9 +68,6 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 > [!NOTE]
 > An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
 
-> [!NOTE]
-> An asterisk (*) indicates that the template is a Microsoft 365 connected template. When users create a team using the template, the connected SharePoint template is automatically applied to the site that's created and SharePoint components that are part of the template are added to the team. Pages, lists, and Power Platform integrations are automatically pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams. To learn more about how Teams and SharePoint work together, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
-
 >[!div class="mx-tdBreakAll"]
 >| Template type | TemplateId | Properties that come with this template |
 >| ------------------ | -------------- | ----------------------------------------------------- |
