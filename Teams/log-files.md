@@ -30,9 +30,7 @@ There are three types of log files automatically produced by the client, which c
 
 This article describes these logs and how they are used. For information about troubleshooting specific issues, see: [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams). 
 
-For information on collecting logs from Microsoft Teams Room Devices, please see this article:
-[Manage Microsoft Teams Rooms > Download device logs]([url](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-manage#download-device-logs))
-
+For information on collecting logs from Microsoft Teams Rooms devices, see [Download device logs](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 For information about how to contact support, see [Get support](/microsoft-365/business-video/get-help-support).
 
