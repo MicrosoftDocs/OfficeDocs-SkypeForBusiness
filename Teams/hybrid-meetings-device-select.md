@@ -222,7 +222,7 @@ The following are examples of displays for hybrid-optimized Teams Rooms:
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
-## Primary camera optimized for hybrid rooms
+## Primary cameras
 
 A room of this type requires the use of an intelligent, ultra wide-angle front-of-room camera that is appropriately rated for the width and depth of space.
 
@@ -232,6 +232,27 @@ The following are examples of primary cameras for hybrid-optimized Teams Rooms:
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+
+:::image type="content" source="media/cameras.png" alt-text="Static camera sound bar and pan/tilt/zoom camera.":::
+
+## Content cameras
+
+Content cameras make it easier for remote participants to see what's on an analog whiteboard. When pointed at a whiteboard, the content camera superimposes the whiteboard drawings over the person using the whiteboard so the drawings are never obscured.
+
+:::image type="content" source="media/content-cameras.png" alt-text="Photo of two types of cameras that support the content camera feature." border="false":::
+
+The recommended whiteboard width for use with a content camera is between 6 and 9 feet (1.7 to 2.7 meters). Whiteboards as small as 3 feet (0.9 meters) wide and as wide as 12 feet (3.6 meters) are also supported. Drawings outside the 12 foot area aren't captured by the camera.
+
+If your whiteboard is wider than 12 feet, we recommend using colored tape to mark out a 12 foot area. This helps meeting participants stay within the capture area of the camera and helps the camera see where participants will place their drawings.
+
+The following are examples of content cameras for Teams Rooms:
+
+- [Logitech Scribe](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-scribe/966)
+- [Huddly Canvas](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
+
+To see all the available options for Teams Rooms content cameras, see [Teams Rooms content cameras](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/web-cameras/3?filterIds=78&page=1&rtc=1).
+
+For more information about content camera placement, see [Content cameras](rooms/content-camera.md).
 
 ## Microphones and speakers
 
