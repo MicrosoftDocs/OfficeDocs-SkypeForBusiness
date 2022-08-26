@@ -187,7 +187,7 @@ Displays bring your content to life and can be a large flat screen TV or a proje
 
 ### Display type
 
-A room of this type requires the use of an ultra-wide aspect ratio, high-resolution front-of-room display that is appropriately sized for the width and depth of space to ensure maximum visibility and clarity.
+A room of this type requires the use of an ultra-wide aspect ratio (such as 21:9), high-resolution, front-of-room table-spanning display that is appropriately sized for the width and depth of space to ensure maximum visibility and clarity.
 
 Example display types include:
 
@@ -217,123 +217,36 @@ A hybrid-optimized room requires that the display is either a single wide-aspect
 
 ### Display options
 
-As shown:
+The following are examples of displays for hybrid-optimized Teams Rooms:
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
-Other options:
-
-For the ideal scenario other display options (alternate projectors, LED walls, and flat panel displays) should be able to create a table spanning image, support a 4k image, and a 21:9 aspect ratio.
-
-
-## Cameras
+## Primary camera optimized for hybrid rooms
 
 A room of this type requires the use of an intelligent, ultra wide-angle front-of-room camera that is appropriately rated for the width and depth of space.
 
 The camera should be placed at the front of the room below the front-of-room projection but above the top of the table to capture all the meeting room participants at as close to eye level as possible.
 
-As shown:
+The following are examples of primary cameras for hybrid-optimized Teams Rooms:
 
-[Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
+- [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
+- [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
 
-Other options:
-
-:::row:::
-
-    :::column:::
-        [Jabra PanaCast](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
-
-        [Yealink UVC30](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
-
-        [Yealink UVC40](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
-
-        [Bose Videobar VB1](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
-
-        [Poly Studio](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio/206)
-    :::column-end:::
-
-    :::column:::
-        Poly Studio E70
-
-        [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
-
-        [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
-
-        [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
-    :::column-end:::
-
-:::row-end:::
-
-## Microphones
+## Microphones and speakers
 
 Front-of-room microphone arrays and tabletop and overhead microphones will work for this type of space.
 
 Microphone arrays need to be positioned to provide coverage for all meeting room participants within the certified range of the device.
 
-## Speakers
-
 Front-of-room speaker arrays and overhead speakers will work for this type of space.
 
 Speakers need to be positioned to provide coverage for all meeting room participants within the certified range of the device or devices used.
 
-As shown:
+The following are examples of microphones and speakers for hybrid-optimized Teams Rooms:
 
-[Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
-
-Other options:
-
-:::row:::
-
-    :::column:::
-        [Yealink UVC40](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
-
-        [Bose Videobar VB1](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
-
-        [Poly Studio](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio/206)
-
-        [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
-
-        [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
-
-        [Biamp Devio conference room hub with Parle Ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
-
-    :::column-end:::
-
-    :::column:::
-
-        [Biamp Devio conference room hub with Parle table mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
-
-        [Shure MXA710-4FT wall-mount audio system](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
-
-        [Nureva HDL300 audio conferencing system](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
-
-        [QSC Meeting room audio: in-ceiling speakers](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
-
-        [QSC Directional audio - ceiling audio](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
-
-        [QSC Meeting room audio: pendant speakers](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
-
-    :::column-end:::
-
-    :::column:::
-
-        [Biamp audio with Parlé ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
-
-        [Biamp audio with Parlé tabletop mics](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
-
-        [Bose DS4 ceiling audio solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
-
-        [Bose ES1 ceiling audio solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
-
-        [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
-
-        [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
-
-    :::column-end:::
-
-:::row-end:::
-
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Biamp Devio conference room hub with Parle Ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
 ---
 
