@@ -50,12 +50,18 @@ description: This reference describes each of the settings and policies availabl
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
+:::image type="content" source="media/teams-policies-meetings-audio-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
+
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 
 ### Meeting policies - Recording and transcription
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
+
+:::image type="content" source="media/teams-policies-meetings-recording-transcription.png" alt-text="Screenshot of Teams meetings recording and transcription policies.":::
+
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -64,12 +70,18 @@ description: This reference describes each of the settings and policies availabl
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
+:::image type="content" source="media/teams-policies-meetings-content-sharing.png" alt-text="Screenshot of Teams meetings content sharing policies.":::
+
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 
 ### Meeting policies - Participants and guests
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
+
+:::image type="content" source="media/teams-policies-meetings-participants-guests.png" alt-text="Screenshot of Teams meetings participants and guests policies.":::
+
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
