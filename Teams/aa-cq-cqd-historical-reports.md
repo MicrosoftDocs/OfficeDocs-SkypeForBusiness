@@ -294,7 +294,7 @@ Perform the following steps:
 
 
 > [!NOTE]
-> When a call first arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue then the agents in the second call queue will be shown as being in the first call queue on this report. 
+> When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
 ## Known Issues
 
