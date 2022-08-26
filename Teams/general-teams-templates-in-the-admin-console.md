@@ -68,7 +68,6 @@ Help build, grow, and sustain your Champions community rollout by evangelizing a
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------|--|-----------------------------------------------------------|
 > |Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions Corner</li> <li>Team Forms</li><li>Calendar</li></ul> Apps: <ul><li>Bulletins</li>  <li>Channel calendar</li> <li>Milestones</li><li>Wiki</li></ul>|
-|Organize Help Desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Issue reporting</li><li>Lists</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
 
 ## Organize Help Desk
 

@@ -75,7 +75,7 @@ Here are the pre-built retail team templates.
 
 ### Store
 
-Use this template to create a team to represent an individual retail store location. With this template, you can create a team for each retail store location in your organization.
+Use this template to create a team for each retail store location in your organization.
 
 >[!div class="mx-tdBreakAll"]
 >| Template type | TemplateId | Template channels |
