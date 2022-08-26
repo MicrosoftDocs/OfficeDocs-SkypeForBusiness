@@ -46,8 +46,8 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for auto attendants in the past 6 months
  
- - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys
- - July - Call flow during holidays now supports **Play menu options**
+ - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
+ - July - Call flow during holidays now supports **Play menu options**.
  
 ## Steps to create an auto attendant
 The steps to add an auto attendant are:
@@ -102,7 +102,7 @@ Once you've set your auto attendant's general info, select **Next**.
 
 #### Play menu options
 
-*New - \* (asterisk) and \# (pound) keys can now be used in menu options*
+*New - \* (asterisk) and \# (pound) keys can now be used in menu options*.
 
 For dialing options, assign the 0-9 keys on the telephone keypad to one of the call routing destinations. The keys \* (asterisk) and \# (pound) are reserved by the system and can't be reassigned. Pressing either of these keys will repeat the current menu.
 
@@ -164,7 +164,7 @@ Once you've added your after hours call flow, select **Next**.
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
-*New - Play menu options is now available in Holiday call flows*
+*New - **Play menu options** is now available in Holiday call flows*.
 
 1. On the Holiday call settings page, select **Add**.
 
