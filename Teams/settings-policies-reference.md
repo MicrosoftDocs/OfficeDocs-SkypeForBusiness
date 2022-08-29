@@ -42,9 +42,9 @@ description: This reference describes each of the settings and policies availabl
 |Outlook add-in|On|Description|
 |Channel meeting scheduling|On|Description|
 |Private meeting scheduling|On|Description|
-|Engagement report|Turn on|Description|
-|Meeting registration|On|Description|
-|Who can register|Everyone|Description|
+|Engagement report|Turn on| When On, meeting organizers can see who registered and attended the meetings and webinars they set up.|
+|Meeting registration|On|When On, meeting organizers can require registration to join a meeting.|
+|Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
 
 ### Meeting policies - Audio and video
 
@@ -55,6 +55,12 @@ description: This reference describes each of the settings and policies availabl
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Mode for IP audio|Outgoing and incoming audio enabled|Description|
+|Mode for IP video|Outgoing and incoming video enabled|Description|
+|IP video|On|Description|
+|Local broadcasting|Off|Use NDI technology to capture and deliver broadcast-quality audio and video over your network.|
+|Media bit rate (Kbs)|50000|Determines the media bit rate for audio, video, and video-based app sharing in meetings.|
+|Network configuration lookup|Off|When On, roaming policies in Network topology will be checked.|
 
 ### Meeting policies - Recording and transcription
 
@@ -65,6 +71,11 @@ description: This reference describes each of the settings and policies availabl
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Transcription|On|Description|
+|Cloud recording|On|Description|
+|Meetings automatically expire|On|Description|
+|Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days.|
+|Store recordings outside your country or region|Off|Description|
 
 ### Meeting policies - Content sharing
 
@@ -75,6 +86,13 @@ description: This reference describes each of the settings and policies availabl
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Screen sharing mode|Entire screen|Description|
+|Participants can give or request control|On|Description|
+|External participants can give or request control||Description|
+|PowerPoint Live|On|Description|
+|Whiteboard|On|Description|
+|Shared notes|On|When On, attendees can create shared meeting notes through the meeting details.|
+|Select video filters|All filters|Description|
 
 ### Meeting policies - Participants and guests
 
@@ -85,19 +103,73 @@ description: This reference describes each of the settings and policies availabl
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Let anonymous people join a meeting|On|Description|
+|Let anonymous people start a meeting|Off|Description|
+|Who can present in meetings|Everyone, but user can override|Description|
+|Automatically admit people|People in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
+|Dial-in users can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly without waiting in the lobby.|
+|Meet now in private meetings|On|Description|
+|Live captions|Not enabled but the user can override|Description|
+|Chat in meetings|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages.|
+|Teams Q&A|On|When On, organizers can enable a question and answer experience for their meetings.|
+|Meeting reactions|On|Description|
 
 ## Messaging
 
+**Navigation:** Teams admin center > Messaging policies
+
+:::image type="content" source="media/teams-policies-messaging.png" alt-text="Screenshot of Teams messaging policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Owners can delete sent messages|Off|Description|
+|Delete sent messages|On|Description|
+|Edit sent messages|On|Description|
+|Read receipts|User controlled|Description|
+|Chat|On|Description|
+|Giphy in conversations|On|Description|
+|Giphy content rating|Moderate|Description|
+|Memes in conversations|On|Description|
+|Stickers in conversations|On|Description|
+|URL previews|On|Description|
+|Translate messages|On|Description|
+|Immersive reader for messages|On|Description|
+|Send urgent messages using priority notifications|On|Description|
+|Create voice messages|Allowed in chats and channels|Description|
+|On mobile devices, display favorite channels above recent chats|Not enabled|Description|
+|Remove users from group chats|On|Description|
+|Suggested replies|On|Description|
+|Chat permissions role|Restricted permissions|Description|
+|Users with full chat permissions can delete any message|Off|Description|
+
 
 ## Voice
 
 ### Calling policies
 
+**Navigation:** Teams admin center > Voice > Calling policies
+
+:::image type="content" source="media/teams-policies-calling.png" alt-text="Screenshot of Teams calling policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
 
 ### Call hold policies
 
