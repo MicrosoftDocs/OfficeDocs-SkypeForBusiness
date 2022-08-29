@@ -62,7 +62,7 @@ Watch "What's New for Microsoft Teams Meeting Recordings" for more information.
 
 The meeting recording option is a setting at the Teams policy level. The following example shows how to set the Global policy. Make sure that you set the meeting recording option for the policy or policies that you've assigned to your users.
 
-> [!Note]
+> [!NOTE]
 > Teams meeting policy changes take a while to propagate. Check back after a few hours of setting it, then sign out and sign in to the Teams Desktop app again or simply restart your computer.
 
 1. Install Teams PowerShell.
@@ -90,13 +90,12 @@ The meeting recording option is a setting at the Teams policy level. The followi
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
-> [!Note]
+> [!NOTE]
 > If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-overview.md).
-
 
 ## Permissions or role-based access
 
-> [!Note]
+> [!NOTE]
 > We recommend that the recipient is required to be a logged-in user when sharing Teams Meeting Recordings. Select the **People in (Your Organization)** option when you share the file as documented in [Share SharePoint files or folders](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). External sharing isn't designed for the distribution of large files or a large number of files. In order to prevent fraud and abuse scenarios, you might experience issues when sharing a large amount of data to external users.
 
 |Meeting type                               | Who clicked on Record?| Where does the recording land?                               |Who has access? R/W, R, or sharing                                                                                                                                                                                                                                                     |
@@ -118,11 +117,11 @@ The meeting recording option is a setting at the Teams policy level. The followi
 
 - For non-Channel meetings, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive for Business that belongs to the person who started the meeting recording. Example:
 
-  <i>recorder's OneDrive for Business</i>/**Recordings**
+  *recorder's OneDrive for Business*/**Recordings**
 
 - For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
 
-  <i>Teams name - Channel name</i>/**Documents**/**Recordings**
+  *Teams name - Channel name*/**Documents**/**Recordings**
 
 **When Stream files (such as recordings) are stored in SharePoint/OneDrive, how is it decided where they go? Does the admin have the ability to change where it goes?**
 
@@ -143,7 +142,7 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 **How can I manage captions?**
 
-Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription](meetings-policies-recording-and-transcription.md#allow-transcription) to ensure their users have the option to record meetings with transcription.
+Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription](meetings-policies-recording-and-transcription.md#transcription) to ensure their users have the option to record meetings with transcription.
 
 Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 

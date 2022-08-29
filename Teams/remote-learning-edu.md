@@ -83,7 +83,7 @@ For a walk-through of how to create Teams, see [Create a class team in Microsoft
 
 Teams policies control the capabilities available for specific users or groups. Policies can define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
-**Higher education staff, educators, and students** can use the default (global) policies. You can adjust policies to add more functionality to Teams, including [translation capabilities](messaging-policies-in-teams.md#messaging-policy-settings) and [automatic meeting transcription](meetings-policies-recording-and-transcription.md#allow-transcription).
+**Higher education staff, educators, and students** can use the default (global) policies. You can adjust policies to add more functionality to Teams, including [translation capabilities](messaging-policies-in-teams.md#messaging-policy-settings) and [automatic meeting transcription](meetings-policies-recording-and-transcription.md#transcription).
 
 **Primary-secondary school students** may need restricted capabilities. It's recommended that student policy changes be made to the 'Global (Org-wide default)' policy.
 
