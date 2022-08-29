@@ -107,6 +107,7 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams.
 
 ## Next steps
+!!
 
 Go to [Configure live events settings in Teams](configure-teams-live-events.md).
 
