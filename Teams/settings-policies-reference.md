@@ -25,8 +25,38 @@ description: This reference describes each of the settings and policies availabl
 
 ## Teams
 
+### Teams policies
 
+**Navigation:** Teams admin center > Teams > Teams policies
 
+:::image type="content" source="media/teams-policies-teams.png" alt-text="Screenshot of Teams team policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Create private channels|On|When On, team owners and members can create private channels which contain a subset of team members.|
+|Create shared channels|On|When On, team owners can create shared channels for people within and outside the organization.|
+|Invite external users to shared channels|On|When On, owners of a shared channel can invite external people in other Azure AD organizations to join the channel, if Azure AD cross-tenant access settings are configured. |
+|Join external shared channels|On|When On, users and teams can be invited to external shared channels, if Azure AD cross-tenant access settings are configured.|
+
+### Template policies
+
+**Navigation:** Teams admin center > Teams > Template policies
+
+Template policies control what team templates users see when they create a new team. The following templates are available to users by default:
+
+- Manage a Project
+- Manage an Event
+- Onboard Employees
+- Adopt Office 365
+- Organize Help Desk
+- Incident Response
+- Crisis Communications
+- Manage a Store
+- Bank Branch
+- Patient Care
+- Hospital
+- Quality and Safety
+- Retail for Managers
 
 ## Meetings
 
@@ -153,37 +183,54 @@ description: This reference describes each of the settings and policies availabl
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
-|||Description|
+|Make private calls|On|Description|
+|Cloud recording for calling|Off|Description|
+|Transcription|Off|Description|
+|Call forwarding and simultaneous ringing to people in your organization|On|Description|
+|Call forwarding and simultaneous ringing to external phone numbers|On|Description|
+|Voicemail is available for routing inbound calls|User controlled|Description|
+|Inbound calls can be routed to call groups|On|Description|
+|Delegation for inbound and outbound calls|On|Description|
+|Prevent toll bypass and send calls through the PSTN|Off|Description|
+|Music on hold|Enabled|Description|
+|Busy on busy when in a call|Not enabled|Description|
+|Web PSTN calling|On|Description|
+|Real-time captions in Teams calls|On|Description|
+|Automatically answer incoming meeting invites|Off|Description|
+|Spam filtering|Turn on|Description|
+|SIP devices can be used for calls||Description|
+|Open apps in browser for incoming PSTN calls|Off|Description|
 
 ### Call hold policies
 
-| Setting | Default | Description |
-|:-----|:-----|:-----|
+**Navigation:** Teams admin center > Voice > Call hold policies
+
+Call hold policies allow you to specify an audio file to play while calls are on hold.
 
 ### Call park policies
 
+**Navigation:** Teams admin center > Voice > Call park policies
+
+:::image type="content" source="media/teams-policies-call-park.png" alt-text="Screenshot of Teams call park policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Call park|Off|Description|
+|Call pickup start of range|10|Description|
+|Call pickup end of range|99|Description|
+|Park timeout (seconds)|300|Description|
 
 ### Caller ID policies
 
+**Navigation:** Teams admin center > Voice > Caller ID policies
+
+:::image type="content" source="media/teams-policies-caller-id.png" alt-text="Screenshot of Teams caller ID policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-
+|Block incoming caller ID|Off|Description|
+|Override the caller ID policy|Off|Description|
+|Calling Party Name|(Blank)|Description|
+|Replace the caller ID with|User's number|Description|
+|Replace the caller ID with this service number|(Choose a service number)|Description|
 
