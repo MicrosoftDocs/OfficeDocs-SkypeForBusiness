@@ -1767,13 +1767,13 @@ items:
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
           href: connect-teams-essentials-to-email.md 
-    - name: Upgrade from Kaizala
+    - name: Move from Kaizala
       items: 
         - name: Get started
           href: get-started-kaizala-teams.md
-        - name: Prepare for upgrade
+        - name: Prepare to move
           href: prepare-for-teams-kaizala.md
-        - name: Plan your upgrade journey
+        - name: Plan your move to Kaizala 
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
