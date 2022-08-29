@@ -23,7 +23,7 @@ appliesto:
 
 # Archive or delete a team in Microsoft Teams
 
-Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project. If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed. (If you're a team owner, you can also [also archive a team](https://support.microsoft.com/office/dc161cfd-b328-440f-974b-5da5bd98b5a7).)
+Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project. If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed. (If you're a team owner, you can also [archive a team](https://support.microsoft.com/office/dc161cfd-b328-440f-974b-5da5bd98b5a7).)
 
 When you archive a team, all activity for that team ceases. Archiving a team also archives private channels in the team and their associated site collections.  However, you can still add or remove members and update roles and you can still view all the team activity in standard and private channels, files, and chats.
 
