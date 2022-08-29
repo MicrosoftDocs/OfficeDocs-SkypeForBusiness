@@ -111,7 +111,8 @@ After you set up the SDN or eCDN solution, you're ready to configure the provide
 Go to [Configure live events settings in Teams](configure-teams-live-events.md).
 
 ### Related topics
-
+ 
 - [What is Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
+- [Microsoft Technical Documentation] (https://docs.microsoft.com/)
