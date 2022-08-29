@@ -2846,6 +2846,11 @@
       "redirect_document_id": false
      },
      {
+      "source_path": "Teams/Teams-quick-start-edu.yml",
+      "redirect_url": "/microsoftteams/teams-quick-start-guide-edu",
+      "redirect_document_id": true
+     },
+     {
       "source_path": "Teams/tutorial-calling-in-teams.yml",
       "redirect_url": "/microsoftteams/cloud-voice-landing-page",
       "redirect_document_id": false
