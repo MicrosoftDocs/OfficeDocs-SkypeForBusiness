@@ -24,7 +24,7 @@ This topic describes how to avoid trunk failovers on outbound calls--from Teams 
 
 ## Failover on network errors
 
-If a trunk cannot be connected for any reason, the connection to the same trunk will be tried from a different Microsoft Datacenter. A trunk might not be connected, for example, if a connection is refused, if there is a TLS timeout, or if there are any other network level issues.
+If a trunk cannot be connected for any reason, the connection to the same trunk will be tried from a different Microsoft Datacenter (please note, that the Datacenter might be located in different geographical region, outside of your current one (e.g. outside of North America)). A trunk might not be connected, for example, if a connection is refused, if there is a TLS timeout, or if there are any other network level issues.
 For example, a connection might fail if an administrator limits access to the SBC only from well-known IP addresses, but forgets to put the IP addresses of all Microsoft Direct Routing datacenters on the Access Control List (ACL) of the SBC. 
 
 ## Failover of specific SIP codes received from the Session Border Controller (SBC)
