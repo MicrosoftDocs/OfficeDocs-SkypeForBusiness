@@ -1,5 +1,5 @@
 ---
-title: Manage who can start and schedule meetings
+title: Manage who can start instant meetings and schedule meetings
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: 
-description: Learn how to use meeting policy settings to control who can start and schedule Teams meetings.
+description: Learn how to use Teams meeting policy settings to control who can start instant meetings and schedule meetings.
 ---
 
-# Manage who can start and schedule meetings
+# Manage who can start instant meetings and schedule meetings
 
-As an admin, you can restrict which users can start and schedule Teams meetings. This can be especially useful for privacy and security reasons, where you may not want particular users setting up meetings.
+As an admin, you can restrict which users can start instant meetings and schedule meetings in Teams. This can be especially useful for privacy and security reasons, where you may not want particular users setting up meetings.
 
 The meeting policy settings are turned on by default. These settings can be found in the Teams admin center under **Meetings** > **Meeting policies**.
 
@@ -44,9 +44,9 @@ If a meeting policy setting is turned off and then turned on again for a user, a
 
 ## Channel meetings
 
-If you have compliance requirements that mandate only specific people start and schedule channel meetings, then you can update your meeting policy to restrict these settings.
+If you have compliance requirements that mandate only specific people start instant channel meetings and schedule channel meetings, then you can create or update your meeting policy to restrict these settings. You can then create a separate policy attributed to users who you want to start instant channel meetings and schedule channel meetings.
 
-1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to change.
+1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to update. To create a new policy, click **Add**.
 1. Under **General**, toggle the following:
     1. If you want to restrict who can start instant meetings in a channel, toggle **Meet now in channels** to **Off**.
     1. If you want to restrict who can schedule meetings in a channel, toggle **Channel meeting scheduling** to **Off**.
@@ -54,9 +54,9 @@ If you have compliance requirements that mandate only specific people start and 
 
 ## Private meetings
 
-If you have compliance requirements that mandate only specific people start and schedule private meetings, then you can update your meeting policies to restrict these settings.
+If you have compliance requirements that mandate only specific people start instant private meetings and schedule private meetings, then you can create or update your meeting policies to restrict these settings. You can then create a separate policy attributed to users who you want to start instant meetings and schedule private meetings.
 
-1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to change.
+1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to update. To create a new policy, click **Add**.
 1. Under **General**, toggle the following:
     1. If you want to restrict who can start instant private meetings, toggle **Meet now in private meetings** to **Off**.
     1. If you want to restrict who can schedule private meetings in a channel, toggle **Private meeting scheduling** to **Off**.
