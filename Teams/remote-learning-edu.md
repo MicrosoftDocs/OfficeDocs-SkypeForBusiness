@@ -142,7 +142,7 @@ SDS can import data from any system of record and has built-in connectors to man
 
 SDS creates teams in two steps:
 
-1. SDS creates a Microsoft 365 group in Azure Active Directory (AAD).
+1. SDS creates a Microsoft 365 group in Azure Active Directory (Azure AD).
 2. SDS automatically turns that group into a team.
 
 The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. Instead, see the [Educator-led team creation method](#educator-led-team-creation-from-microsoft-365-class-groups).  
@@ -198,7 +198,7 @@ You can also use the [Microsoft Graph API to create, configure, clone, and archi
 
 - Gives IT admins control over class creation.
 - Option to create early educator access teams or immediate student access to teams.
-- [Syncs student membership changes to AAD group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
+- [Syncs student membership changes to Azure AD group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 #### Considerations for PowerShell scripts
 

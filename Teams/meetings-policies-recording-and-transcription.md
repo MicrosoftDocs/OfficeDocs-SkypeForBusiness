@@ -36,7 +36,7 @@ Transcription for recorded meetings is currently only supported for users who se
 
 This setting is a combination of a per-organizer and per-user policy and controls whether the meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
 
-People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
+People outside your organization, such as federated and anonymous users, can't start the recording. Guests can't start or stop the recording.
 
 ![Screenshot showing recording options](media/meeting-policies-recording.png)
 
@@ -46,7 +46,7 @@ Let's look at the following example.
 |----------------------|------------------------|-----------------------|
 | Daniela              | Global                 | Off                   |
 | Amanda               | Location1MeetingPolicy | On                    |
-| John (external user) | Not applicable         | Not applicable        |
+| John (external) | Not applicable         | Not applicable        |
 
 - Meetings organized by Daniela can't be recorded.
 - Amanda can't record meetings organized by Daniela.
