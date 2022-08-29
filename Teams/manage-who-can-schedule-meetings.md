@@ -51,16 +51,12 @@ If you have compliance requirements that mandate only specific people start inst
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to update. To create a new policy, click **Add**.
 1. Under **General**, toggle the following:
     1. If you want to restrict who can start instant private meetings, toggle **Meet now in private meetings** to **Off**.
-    1. If you want to restrict who can schedule private meetings in a channel, toggle **Private meeting scheduling** to **Off**.
+    1. If you want to restrict who can schedule private meetings in a channel, toggle both **Private meeting scheduling** and **Outlook add-in** to **Off**.
 1. Hit **Save** at the bottom of the page.
 
 ## Turning off meeting policy settings
 
-After any of these meeting policy settings are turned off, any user assigned to the policy will not be able to start or schedule meetings of that type. The meeting join links and conference IDs of all existing meetings of that type that the user had previously started or scheduled will not work. When a user tries to join the meeting through an inactive join link or by phone, they'll get a message that says the meeting is no longer available.
-
-For example, if a user is assigned a meeting policy in which these meeting policy settings are set to **On**, and then you turn off the **Allow Meet now in channels** setting, that user can no longer start instant meetings in channels, and the Meet now join links that the user previously created won't work. However, the user can still start and schedule other meeting types and join meetings organized by other people.
-
-Even if a meeting policy is turned off, the conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
+After any of these meeting policy settings are turned off, any user assigned to the policy will not be able to start or schedule meetings of that type. The meeting join links and conference IDs of all existing meetings of that type that the user had previously started or scheduled will not work. (The conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.)
 
 If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user become active and people can join them using the meeting join link or by phone.
 
