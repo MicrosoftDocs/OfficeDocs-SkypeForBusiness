@@ -27,9 +27,22 @@ description: This reference describes each of the settings and policies availabl
 
 ### Teams policies
 
+**Navigation:** Teams admin center > Teams > Teams policies
 
+:::image type="content" source="media/teams-policies-teams.png" alt-text="Screenshot of Teams team policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Create private channels|On|When On, team owners and members can create private channels which contain a subset of team members.|
+|Create shared channels|On|When On, team owners can create shared channels for people within and outside the organization.|
+|Invite external users to shared channels|On|When On, owners of a shared channel can invite external people in other Azure AD organizations to join the channel, if Azure AD cross-tenant access settings are configured. |
+|Join external shared channels|On|When On, users and teams can be invited to external shared channels, if Azure AD cross-tenant access settings are configured.|
 
 ### Template policies
+
+**Navigation:** Teams admin center > Teams > Template policies
+
+Template policies control what team templates users see when they create a new team. The following templates are available to users by default:
 
 - Manage a Project
 - Manage an Event
