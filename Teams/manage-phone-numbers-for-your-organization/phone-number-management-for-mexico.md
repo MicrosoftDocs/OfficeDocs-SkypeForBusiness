@@ -31,7 +31,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Get phone numbers transferred to us.  <br/> | Download this form. <br/>[Letter of Authorization (LOA) for Mexico (es-mx)](https://download.microsoft.com/download/a/7/b/a7bc578f-218b-46f6-a192-0df5b6abc653/LOA-MX-GEO-ES.pdf) <br/> <br/>Fill it out and [contact the TNS Service Desk for instructions](contact-tns-service-desk.md). <br/><br/> You must also fill out a tri-party agreement, sign it, and [contact the TNS Service Desk for instructions](contact-tns-service-desk.md). This form will be sent to you by our TNS service desk team after you place an order to transfer phone numbers.<br/><br/>|
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Contact the TNS Service Desk for instructions](contact-tns-service-desk.md) regarding the list of phone numbers you want to publish/unpublish.      <br/> |
 |Change a user's number to a service number.  <br/> |[Contact the TNS Service Desk for instructions](contact-tns-service-desk.md) regarding the list of user numbers you want to convert to service numbers. <br/> |
-|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the TNS Service Desk for instructions](contact-tns-service-desk.md). |
+|Make directory service updates to call queue or auto attendant numbers. |To add or change call queue or auto attendant numbers, contact [the TNS Service Desk for instructions](contact-tns-service-desk.md). |
 
 ## Related topics
 
