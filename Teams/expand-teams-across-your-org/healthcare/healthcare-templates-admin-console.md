@@ -53,9 +53,8 @@ Streamline healthcare communication and collaboration within a ward, pod, or dep
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId| Properties that come with this template |
 >| ------------------ |---|----------------------------------------------------- |
->| Patient Care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements<ul><li>Bulletins&sup1;</li></ul></li><li>Huddles<ul><li>Lists (Patient list)&sup1;</li></ul></li><li>Rounds<ul><li>Inspection&sup1;</li></ul></li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+>| Patient Care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
-&sup1;App added to the channel as a tab
 ### Hospital
 
 Streamline communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of channels for hospital operations, and can be extended for further customization.
@@ -63,9 +62,7 @@ Streamline communication and collaboration between multiple wards, pods, and dep
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId | Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Hospital|`healthcareHospital`|Channels: <ul><li>General<ul><li>Lists&sup1;</li></ul></li><li>Announcements<ul><li>Bulletins&sup1;</li></ul></li><li>Compliance</li><ul><li>Inspection&sup1;</li></ul></li><li>Custodial</li><li>Human Resources<ul><li>Employee ideas&sup1;</li></ul></li><li>Pharmacy</li></ul>  Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Employee ideas</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
-
-&sup1;App added to the channel as a tab
+>|Hospital|`healthcareHospital`|Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li></li><li>Custodial</li><li>Human Resources</li><li>Pharmacy</li></ul>  Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Employee ideas</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 
@@ -73,7 +70,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 Here are the pre-built healthcare team templates.
 
-### Ward
+### Patient Care
 
 This template is meant for communication and collaboration within a ward, pod, or department. Use this template to facilitate patient management and the operational needs of a ward. For example, ward announcements can be posted in the *Announcements* channel and shifts can be managed in *Staffing*. If you're looking to streamline your ward operations, then this template is for you.
 

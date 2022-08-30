@@ -52,9 +52,7 @@ Bring your retail employees together in one central experience to manage tasks, 
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId | Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Organize a Store| `retailStore` |Channels: <ul><li>General<li>Shift Handoff<ul><li>Shifts&sup1;</li></ul></li><li>Store Readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks by Planner and To Do (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists</li><li>SharePoint Pages</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
-
-&sup1;App added to the channel as a tab
+>|Organize a Store| `retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists</li><li>SharePoint Pages</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 ### Retail for Managers
 
@@ -63,9 +61,7 @@ Create a team for a set of managers to collaborate across stores, regions, and s
 >[!div class="mx-tdBreakAll"]
 >| Template type| TemplateId | Properties that come with this template |
 >| ------------------|- |----------------------------------------------------- |
->|Retail for Managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations<ul><li>Tasks by Planner and To Do (Operations Tasks)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks by Planner and To Do (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
-
-&sup1;App added to the channel as a tab
+>|Retail for Managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 
@@ -73,7 +69,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 Here are the pre-built retail team templates.
 
-### Store
+### Manage a Store
 
 Use this template to create a team for each retail store location in your organization.
 
@@ -81,7 +77,6 @@ Use this template to create a team for each retail store location in your organi
 >| Template type | TemplateId | Template channels |
 >| ------------------ | -------------- | ----------------------------------------------------- |
 >| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift Handoff&sup2;</li><li>Store Readiness</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
-||||
 
 &sup2;Auto-favorited channels
 
@@ -91,15 +86,14 @@ Recommended ways to customize the Store template for your organization:
 
 - If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel.
 
-### Manager Collaboration
+### Retail for Managers
 
 Use this template to create a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
 >[!div class="mx-tdBreakAll"]
 >| Template type | TemplateId | Template channels |
 >| ------------------ | -------------- | ----------------------------------------------------- |
->| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
-||||
+>| Retail - <br>Manager Collaboration | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
 
 &sup2;Auto-favorited channels
 
