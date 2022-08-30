@@ -54,7 +54,7 @@ To manage your Teams display devices, in the left navigation of the Microsoft Te
 
 Hot desking allows people in your organization to reserve temporary workspaces in advance through Teams and Outlook, or from the device itself. When hot desking is enabled, users sign into Teams displays with their Microsoft 365 credentials to access their meetings, chats, and files. When they sign out, all their personal information is removed from the device.
 
-To get started, you'll need to acquire Microsoft Teams Rooms Standard licenses and create resource accounts for each Teams display. See [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md) to create resource accounts.
+To get started, you'll need to acquire [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md) and create resource accounts for each Teams display. See [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md) to create resource accounts.
 
 After you create resource accounts, you can create and assign a policy to enable hot desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) to learn more.
 

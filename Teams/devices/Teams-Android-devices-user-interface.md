@@ -43,7 +43,7 @@ In this image, the user account has been assigned a [Common Area Phone license](
 
 ## Meeting interface
 
-This image shows a user account with a [Microsoft Teams Rooms Standard license](/MicrosoftTeams/rooms/rooms-licensing) assigned. Teams Rooms licenses are meant to be used in meeting rooms or shared spaces, so the user interface changes to make it easy to join a meeting by showing the calendar view:
+This image shows a user account with a [Microsoft Teams Rooms license](/MicrosoftTeams/rooms/rooms-licensing) assigned. Teams Rooms licenses are meant to be used in meeting rooms or shared spaces, so the user interface changes to make it easy to join a meeting by showing the calendar view:
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Meeting interface.":::
 
