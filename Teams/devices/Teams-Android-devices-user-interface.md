@@ -55,7 +55,7 @@ This image shows a user account with a [Microsoft Teams Rooms license](/Microsof
 
 ## Override automatic user interface detection
 
-In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) and apply to it to that account.
+In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/skype/new-csteamsipphonepolicy) and apply to it to that account.
 
 > [!NOTE]
 > The license assigned to the user account must have at least the same license entitlements as the desired user interface. The Common Area Phone license only allows the Common Area phone user interface. The meeting room license allows meeting room and common area phone user interfaces. An E3 or E5 license supports all sign-in modes.

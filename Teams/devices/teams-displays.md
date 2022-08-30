@@ -56,7 +56,7 @@ Hot desking allows people in your organization to reserve temporary workspaces i
 
 To get started, you'll need to acquire [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md) and create resource accounts for each Teams display. See [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md) to create resource accounts.
 
-After you create resource accounts, you can create and assign a policy to enable hot desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) to learn more.
+After you create resource accounts, you can create and assign a policy to enable hot desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) to learn more.
 
 > [!IMPORTANT]
 > Because Teams displays with hot desking are used in shared workspaces by multiple people, Conditional Access rules and other identity configurations in your environment, like Multi-Factor Authentication, can impact these devices and cause sign-in issues. For guidance on securing shared devices, see [Authentication best practices for shared Teams Android devices](authentication-best-practices-for-android-devices.md).
