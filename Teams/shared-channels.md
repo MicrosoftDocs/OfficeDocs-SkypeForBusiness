@@ -9,15 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+  - m365initiative-securecollab
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage shared channels in Microsoft Teams. 
+description: Learn how to use and manage shared channels in Microsoft Teams.
 ---
 
 # Shared channels in Microsoft Teams
@@ -66,6 +66,9 @@ A shared channel owner can't be removed through the Teams client if they are the
 
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel is automatically promoted to be the shared channel owner. Consider adding more than one owner to avoid this situation.
 
+> [!NOTE]
+> External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
+
 ## Channel owner settings
 
 Each shared channel has its own settings that the channel owner can manage, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a shared channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
@@ -89,7 +92,7 @@ The following table outlines what actions owners, members, and guests can do in 
 
 ## Shared channel SharePoint sites
 
-Each shared channel has [its own SharePoint site](/SharePoint/teams-connected-sites). The separate site is to ensure access to shared channel files is restricted to only members of the shared channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API. 
+Each shared channel has [its own SharePoint site](/SharePoint/teams-connected-sites). The separate site is to ensure access to shared channel files is restricted to only members of the shared channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#1", for easier management through PowerShell and Graph API. 
 
 A shared channel site inherits the sensitivity label of the parent team. This remains true even if the channel is shared directly with another team.
 
@@ -145,13 +148,17 @@ The following table describes the maximum number of channels and members.
 
 The following limitations also apply:
 
+- Only Azure AD work or school accounts are supported for external participants.
+
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
-- LOB apps, bots, connectors, and message extensions are not supported.
+- Bots, connectors, and message extensions are not supported.
 
 - When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 
 - Notifications from shared channels are not included in missed activity emails.
+
+- Shared channels are not supported in class teams.
 
 ## Supported apps in shared channels
 
@@ -202,7 +209,6 @@ The following apps are supported for use in shared channels.
 - Smartsheet
 - SurveyMonkey
 - Tasks in a Box
-- Teams
 - Teams Manager
 - TeamViewer
 - Teamwork

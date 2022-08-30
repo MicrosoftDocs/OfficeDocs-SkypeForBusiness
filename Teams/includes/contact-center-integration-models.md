@@ -60,6 +60,9 @@ While these features aren't a comprehensive list of feature capabilities for thi
 
 - Preserve performance and quality of Teams client experiences in all apps
 
+> [!NOTE]
+> The agent bot does not need a phone system license. The Teams user does need a phone system license and a phone number.
+
 ### [**The Power model**](#tab/power)
 
 The Power model enables solution providers to create native Azure-based voice applications using the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection. The goal of the Power model is to provide a one-app, one-screen contact center experience.

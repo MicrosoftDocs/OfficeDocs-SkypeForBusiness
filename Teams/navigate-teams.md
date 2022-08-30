@@ -7,18 +7,22 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: This article describes how Kaizala users can navigate through Microsoft Teams.  
-f1.keywords:
+description: This article describes how Kaizala users can navigate through Microsoft Teams.
+f1.keywords: 
 ms.localizationpriority: medium
-search.appverid:
-ms.collection:
-ms.custom:
+search.appverid: 
+ms.collection: 
+  - M365-collaboration
+ms.custom: 
 ---
 
 
 # Navigate Microsoft Teams
 
 Now that you have a clear understanding of your organization's unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaizala's capabilities complimented within Teams.
+
+> [!Important]
+> Microsoft Kaizala will retire on August 31, 2023. We recommend moving to Microsoft Teams for continued connection, sharing, and collaboration. After the retirement date, access and support for Kaizala will be discontinued.
 
 | From Kaizala | To Teams |
 |---------|-----------------------|

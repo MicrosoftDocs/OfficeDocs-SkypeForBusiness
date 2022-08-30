@@ -1,5 +1,5 @@
 ---
-title: "Configure call settings for users"
+title: Configure call settings for users
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,19 +9,16 @@ ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
+ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
-appliesto:
-  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
+f1.keywords: 
   - CSH
-ms.custom:
-  - ms.teamsadmincenter.callqueues.overview"
+ms.custom: 
+  - ms.teamsadmincenter.callqueues.overview
   - Phone System
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
 description: Learn how to configure user settings for call forwarding and delegation.
 ---
 # Configure call settings for your users
@@ -53,6 +50,10 @@ To configure simultaneous ringing, on the same page select **Ring the user's dev
 To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
 The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
+
+This video shows the steps to view and edit the voice settings for a user.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## Use PowerShell
 

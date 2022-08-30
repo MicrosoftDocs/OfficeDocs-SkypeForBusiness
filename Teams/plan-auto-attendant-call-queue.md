@@ -64,10 +64,10 @@ You can assign a phone number to a call queue, however call queues do not provid
 
 To configure auto attendants and call queues, you need the following resources:
 
-- A resource account for each auto attendant and each call queue
-- A free Microsoft Phone System - Virtual User license for each resource account that will be directly dialable from Teams users or external phone numbers
+- A [Resource Account](manage-resource-accounts.md) for each auto attendant and each call queue
+- A free Microsoft Teams Phone Resource Account license for each resource account that will be directly dialable from Teams users or external phone numbers
 - At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable from external phone numbers
- - The service number may be a toll or toll-free number
+  - The service number may be a toll or toll-free number
 
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
@@ -79,13 +79,13 @@ Agents who receive calls from the call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-When using a resource account for calling line ID purposes in call queues, the resource account must have a Phone System Virtual User license and one of the following assigned:
+When using a resource account for calling line ID purposes in call queues, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
-When an auto attendant or call queue is transferring calls to an external number, specific resource accounts as outlined below must have a Phone System Virtual User license and one of the following assigned:
+When an auto attendant or call queue is transferring calls to an external number, specific resource accounts as outlined below must have a Teams Phone Resource Account license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
@@ -152,9 +152,9 @@ Once you've completed the planning tasks in this article, follow these steps to 
 
 1. Get the service numbers that you need for the auto attendants and call queues that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](getting-service-phone-numbers.md).
 
-2. Get a [Phone System - Virtual User license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
+2. Get a [Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 
-3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign each account a Phone System - Virtual User license and, optionally, a service number.
+3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign each account a Teams Phone Resource Account license and, optionally, a service number.
 
 4. [Create the holidays](set-up-holidays-in-teams.md) for which you want to have separate call routing in your auto attendants.
 
@@ -170,6 +170,18 @@ See the following articles for information on how to create auto attendants and 
 
 - [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
 - [Create a call queue](create-a-phone-system-call-queue.md)
+
+> [!IMPORTANT]
+> A user's Azure Active Directory (AAD) GUID token is stored as part of the auto attendant or call queue configuration when the user is configured as:
+>
+>  - an auto attendant or call queue **Authorized user**.
+>  - an auto attendant **Operator**.
+>  - a **Person in Organization** transfer point.
+>  - an individual member of a call queue.
+> 
+> The auto attendant and call queue configurations aren't synchronized with AAD lifecycle events.  Teams administrators need to manually update auto attendant and call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
+>
+> This doesn't apply to call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of auto attendants.
 
 If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
 

@@ -1,7 +1,7 @@
 ---
 title: Manage Skype for Business settings in the Microsoft Teams admin center
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -9,19 +9,20 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-f1.keywords:
-- CSH
-- ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
-- ms.teamsadmincenter.org-widesettings.skypeforbusiness.presence
-- ms.teamsadmincenter.org-widesettings.skypeforbusiness.skypemeetingbroadcast
-- ms.teamsadmincenter.users.skypeforbusiness.settings
+  - M365-collaboration
+f1.keywords: 
+  - CSH
+  - ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
+  - ms.teamsadmincenter.org-widesettings.skypeforbusiness.presence
+  - ms.teamsadmincenter.org-widesettings.skypeforbusiness.skypemeetingbroadcast
+  - ms.teamsadmincenter.users.skypeforbusiness.settings
 ms.custom: 
 appliesto: 
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to manage settings for Skype for Business features in the Microsoft Teams admin center. 
+description: Learn how to manage settings for Skype for Business features in the Microsoft Teams admin center.
 ---
 
 # Manage Skype for Business settings in the Microsoft Teams admin center

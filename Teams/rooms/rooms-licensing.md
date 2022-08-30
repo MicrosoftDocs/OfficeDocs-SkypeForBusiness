@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams Rooms licenses"
+title: Microsoft Teams Rooms licenses
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -10,18 +10,19 @@ ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.custom: 
   - Licensing
   - LIL_Placement
   - seo-marvel-apr2020
-description: Learn about the available licenses for different types of calling and meeting features in Microsoft Teams Rooms. 
+description: Learn about the available licenses for different types of calling and meeting features in Microsoft Teams Rooms.
 ---
 
 # Teams Meeting Room Licensing Update

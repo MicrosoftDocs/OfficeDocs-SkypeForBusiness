@@ -8,17 +8,17 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-searchScope:
+searchScope: 
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
-description: Get answers to frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption. 
-f1.keywords:
-- NOCSH
+description: Get answers to frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption.
+f1.keywords: 
+  - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -93,7 +93,7 @@ To see which what fields have been changed, you can search the Microsoft 365 aud
 
 Shifts Graph APIs let you integrate Shifts data with external workforce management (WFM) systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift).
 
-We also offer managed Shifts connectors and open-source Shifts connectors. With these connectors, you can integrate your WFM system directly with Shifts. To learn more about Shifts connectors and supported WFM systems, see [Shifts connectors](shifts-connectors.md).
+We also offer managed Shifts connectors. With these connectors, you can integrate your WFM system directly with Shifts. To learn more about Shifts connectors and supported WFM systems, see [Shifts connectors](/microsoft-365/frontline/shifts-connectors).
 
 ## Can Shifts data be deleted permanently after a specified period of time?
 

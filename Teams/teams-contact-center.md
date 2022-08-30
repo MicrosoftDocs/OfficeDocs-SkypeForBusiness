@@ -8,11 +8,13 @@ ms.service: msteams
 audience: admin
 ms.reviewer: anblak
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: An overview of the integrated contact center as a service (CCaaS) solution for Microsoft Teams
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 
@@ -81,6 +83,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Roger365` | https://www.roger365.io/contact-center-teams                         |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |

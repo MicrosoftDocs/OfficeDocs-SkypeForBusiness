@@ -23,7 +23,6 @@ appliesto:
 - Microsoft Teams
 ---
 
-
 # Introduction to Teams policy-based recording for callings & meetings
 
 Policy-based recording enables organizations that adopt Microsoft Teams for calling
@@ -278,8 +277,8 @@ Support for notifications is enabled using the Teams client experiences. The exp
 **Other endpoints - audio notice**
 - SIP phones
 - Skype for Business
-- Audio conferencing
-- PSTN callers
+- Audio conferencing (audio notice in dial-in number's default or user-selected language)
+- PSTN callers (audio notice in Teams user's default language)
 
 > [!NOTE]
 > Compliance Recording is not supported with Conference mode call queues. Please use Transfer mode call queues.
@@ -315,10 +314,13 @@ The following partners are in the process of certifying their solution for Micro
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
+|Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
+|Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/) |
 
 
 This list will be updated as more partners join and meet the certification criteria.
 
+
 ## Next steps
 
-If you are a vendor seeking to join the certification program, send mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
+If you are a vendor seeking to join the certification program, fill out [this form](https://aka.ms/CallingPlatformIntake) as the next step. If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).

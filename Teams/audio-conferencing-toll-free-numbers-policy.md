@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing toll-free number policies"
+title: Audio Conferencing toll-free number policies
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -10,14 +10,13 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
-- CSH
+  - CSH
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
@@ -110,6 +109,9 @@ To learn about the different ways that you can assign policies to users, see [As
 
 > [!NOTE]
 > A user can be assigned only one audio conferencing policy at a time.
+
+> [!IMPORTANT]
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
 
 ### Known issue
 

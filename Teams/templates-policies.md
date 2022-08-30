@@ -1,7 +1,7 @@
 ---
 title: Manage team templates in the admin center
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -9,12 +9,11 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to manage team templates in the admin center

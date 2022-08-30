@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -9,15 +9,18 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
-- CSH
-ms.custom:
-- ms.teamsadmincenter.voice.phonenumbers.porting.overview
-- Calling Plans
-description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams. 
+  - CSH
+ms.custom: 
+  - ms.teamsadmincenter.voice.phonenumbers.porting.overview
+  - Calling Plans
+description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams.
+ms.collection: 
+  - M365-voice
+  - m365initiative-voice
 ---
 
 # What's a port order?
@@ -61,7 +64,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
 
-- Skype for Business hybrid phone numbers. If you want to transfer these numbers, email us at <ptn@microsoft.com>.
+- If you are porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans) please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), make sure you include a note stating those are hybrid phone numbers.
 
 **You can't transfer:**
   

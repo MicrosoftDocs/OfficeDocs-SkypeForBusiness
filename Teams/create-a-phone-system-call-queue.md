@@ -39,6 +39,14 @@ Call queues provide:
 
 Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
+## What's new for call queues in the past 6 months
+
+- August
+  - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
+  - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
+
+## Steps to create a call queue
+
 The steps to set up a call queue includes:
 
 1. Set up general information
@@ -92,7 +100,7 @@ For more information, see [Manage Teams resource accounts](manage-resource-accou
 You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
 
 > [!NOTE]
-> The resource account used for calling ID purposes must have a **Microsoft Teams Phone System - Virtual User** license and one of the following assigned:
+> The resource account used for calling ID purposes must have a **Microsoft Teams Phone Resource Account** license and one of the following assigned:
 >
 > - A Calling Plan license and a phone number assigned
 > - An Operator Connect phone number assigned
@@ -117,7 +125,7 @@ If you don't have a resource account with an assigned phone number:
 
 After you've created this new resource account for calling ID, you'll still need to:
 
-- Assign a [Teams Phone Standard - Virtual User license](manage-resource-accounts.md#assign-a-license)
+- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license)
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
 - Assign the [service phone number to the resource account](manage-resource-accounts.md#assign-a-service-number), if you're using Microsoft Calling Plan
 
@@ -129,13 +137,17 @@ This language will be used for system-generated voice prompts and voicemail tran
 
 Once you've selected a language, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 2 - Greeting and music](#tab/greeting-music)
+# [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
 
+*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.*
+
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
-If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
+- If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
+
+- If you select **Type a greeting message**, the system will read the text that you type (up to 1000 characters) when the call queue answers a call.
 
 Teams provides default music to callers while they are *on hold in a queue*.
 
@@ -147,7 +159,7 @@ Teams provides default music to callers while they are *on hold in a queue*.
 
 Once you've selected a greeting and on-hold music, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 3 - Call answering](#tab/call-answering)
+# [Step 3: Call answering](#tab/call-answering)
 
 ## Step 3: Set up who will answer incoming calls
 
@@ -219,7 +231,7 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 4 - Agent routing](#tab/agent-routing)
+# [Step 4: Agent routing](#tab/agent-routing)
 
 ## Step 4: Select your agent routing options
 
@@ -281,7 +293,7 @@ We recommend setting the **Agent alert time** to **20 seconds**.
 
 Once you've selected your agent call routing options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 5 - Call overflow](#tab/call-overflow)
+# [Step 5: Call overflow](#tab/call-overflow)
 
 ## Step 5: Set how to handle call overflow
 
@@ -295,16 +307,16 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
->
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
-Once you've selected your call timeout options, select the **Next** button at the bottom of the **Add a call queue** page.
+Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 6 - Call timeout](#tab/call-timeout)
+# [Step 6: Call timeout](#tab/call-timeout)
 
 ## Step 6: Set how to handle call timeouts
 
@@ -316,16 +328,17 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
-> [!NOTE]
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
+Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
-Once you've selected your agent call routing options, select the **Submit** button at the bottom of the **Add a call queue** page.
+---
 
-# [Additional resources](#tab/additional-resources)
+## Resources for complex scenarios
 
-## Summary of recommended call queue settings
+### Summary of recommended call queue settings
 
 The following settings are recommended:
 
@@ -334,7 +347,7 @@ The following settings are recommended:
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
 
-## Call queue feature compatibility
+### Call queue feature compatibility
 
 |Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -352,7 +365,7 @@ The following settings are recommended:
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |N         |Y               |N    |N         |Y                     |n/a                       |   |
+|`Standard call queue`            |Y                         |Y         |Y               |N    |N         |Y                     |n/a                       |   |
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -361,7 +374,7 @@ The following settings are recommended:
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
-### Notes
+#### Notes
 
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
@@ -373,7 +386,7 @@ The following settings are recommended:
 8. Only public channels are supported.
 9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
 
-## Supported clients
+### Supported clients
 
 The following clients are supported for call agents in a call queue:
 
@@ -393,7 +406,7 @@ The following clients are supported for call agents in a call queue:
   > [!NOTE]
   > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
-## Call Queue Diagnostic Tool
+### Call Queue Diagnostic Tool
 
 If you're an administrator, you can use the following diagnostic tool to validate that a call queue is able to receive calls:
 
@@ -406,9 +419,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
 
----
-
-## Related topics
+### Related topics
 
 [Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
 

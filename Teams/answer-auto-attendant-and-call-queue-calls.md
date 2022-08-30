@@ -43,7 +43,9 @@ Once an auto attendant or call queue call is answered, the user can process the 
 
 > [!NOTE] 
 > Call queue calls are not forwarded based on the user's call answering rules configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
-
+>
+> Users receiving calls from call queues will only be presented with the name of the caller if it's provided from the PSTN or if the caller's number matches the target user's local Team's client contacts.
+>
 > Agents are not notified of any missed calls or voicemails for call queue calls.
 
 ## Supported clients

@@ -1,20 +1,22 @@
 ---
 title: Use supervised chats for non-educational tenants
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about supervised chats for non-educational tenants in Microsoft Teams meetings. 
+description: Learn about supervised chats for non-educational tenants in Microsoft Teams meetings.
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Supervised chats for non-educational tenants
@@ -49,7 +51,7 @@ Roles can't be assigned to guests in your tenant. Guests are assigned the limite
 
 ## Allow supervised chat
 
-Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users, you can enable supervised chat within your tenant by going to **Org-wide settings** \> **Teams Settings** and setting **Role-based chat permissions** policy to **On**. You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This cmdlet is under [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
+Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users, you can enable supervised chat within your tenant by going to **Teams** \> **Teams Settings** and setting **Role-based chat permissions** policy to **On**. You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This cmdlet is under [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
 
 Supervised chat must be enabled for all users in the tenant and cannot be enabled for only a portion of your users.
 

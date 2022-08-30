@@ -1,8 +1,8 @@
 ---
 title: Hardware requirements for Microsoft Teams
 ms.reviewer: microthk, sthurlow
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: reference
@@ -35,11 +35,11 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Windows OS: Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update)
-|Operating system  |    Windows 11, Windows 10 (excluding Windows 10 LTSC), Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Note: We recommend using the latest Windows version and security patches available.|
+|Operating system  |    Windows 11, Windows 10 (excluding Windows 10 LTSC for Teams desktop app), Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Note: We recommend using the latest Windows version and security patches available.|
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    |
-|Video calls and meetings|<ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended.</li> <li>Background video effects require Windows 10 or a processor with AVX2 instruction set.</li> <li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room requires Bluetooth LE, which requires Bluetooth to be enabled on the client device, and for Windows clients it also requires the 64-bit Teams client. This feature is not available on 32-bit Teams clients.</li></ul> |
+|Video calls and meetings|<ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended.</li> <li>Background video effects require Windows 10 or a processor with AVX2 instruction set.</li> <li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room requires Bluetooth LE. Bluetooth LE on Windows requires Bluetooth to be enabled on the client device and requires the 64-bit version of the Teams client. This feature is not available on 32-bit Teams clients.</li></ul> |
 |Teams live events | If you are producing a Teams live event, we recommend using a computer that has a Core i5 Kaby Lake processor, 4.0-GB RAM (or higher), and hardware encoder. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of **unsupported** decoders and encoders. |
 
 ## Hardware requirements for Teams on a Mac
@@ -53,7 +53,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Operating system  |    One of the three most recent versions of macOS. You can find information about the latest macOS versions, and how to upgrade your version of macOS, [here](https://support.apple.com/en-us/HT201260). For example, when a new version of macOS is released, the new version and the two immediately preceding it become the supported versions.      |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | <ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended. </li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on macOS.</li></ul>
+|Video calls and meetings | <ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended. </li><li>Joining a meeting using proximity detection in a Microsoft Teams Room requires Bluetooth LE. Bluetooth LE requires Bluetooth to be enabled on the client device.</li></ul>
 |
 
 ## Hardware requirements for Teams on Linux

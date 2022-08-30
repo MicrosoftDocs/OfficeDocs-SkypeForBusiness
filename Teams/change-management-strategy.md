@@ -1,20 +1,22 @@
 ---
 title: Create a change management strategy
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: Create a change management strategy for Microsoft Teams by identifying key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Create a change management strategy for Microsoft Teams
