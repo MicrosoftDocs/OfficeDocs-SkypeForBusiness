@@ -71,9 +71,9 @@ Now that you've identified your device personas, you need to determine which cer
 
 Now you know how many devices you need, the next step is to determine how many licenses are needed. Teams phones and displays require licenses to access Microsoft Teams and Microsoft 365.
 
-Shared and personal devices will need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable licenses are [the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) and [the Microsoft Teams Rooms Standard license](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices).
+Shared and personal devices will need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable licenses are [the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) and a [Microsoft Teams Rooms license](../rooms/rooms-licensing.md).
 
-For more information and to compare your licensing options, see [Microsoft 365 licensing plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1). 
+For more information and to compare your licensing options, see [Microsoft 365 licensing plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 
 ## Task 3: What are your dependencies? 
 

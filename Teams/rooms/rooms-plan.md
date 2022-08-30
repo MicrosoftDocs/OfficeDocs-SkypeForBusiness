@@ -44,7 +44,17 @@ Microsoft Teams Rooms includes the following key components to deliver a great u
 
 You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](requirements.md).
 
-You can deploy Microsoft Teams Rooms with Microsoft Teams or Skype for Business on-premises deployments.  See the [Teams Meeting Room Licensing Update](rooms-licensing.md) for information on the needed licenses.
+## Teams Rooms licensing
+
+Each meeting room device, such as a Teams Rooms console, Surface Hub, and Teams panel, needs a Teams Rooms license. Teams provides two licenses for Teams Rooms: Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic.
+
+Microsoft Teams Rooms Pro is great for organizations that have 25 or more meeting room devices or who want the most comprehensive meeting and device management experiences. Hybrid Teams meetings become more immersive with features like Front row, Content camera, AI-powered noise suppression, and other features available with Microsoft Teams Rooms Pro. Teams Rooms admins can centrally manage all their certified Teams Rooms devices from the Teams admin center from configuring conditional access policies to analyzing rich telemetry about device health and meeting quality.
+
+Microsoft Teams Rooms Basic is available for organizations that only have a few meeting room devices and who only need basic meeting and management functionality. Microsoft Teams Rooms Basic lets you join meetings, share content and live video, join Zoom and Webex meetings with Direct Guest Join, and perform basic device inventory and monitoring in the Teams admin center.
+
+Before you can use a meeting room device, you need to assign a license to it. For more information, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
+
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
