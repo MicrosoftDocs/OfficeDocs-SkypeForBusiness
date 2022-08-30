@@ -147,7 +147,7 @@ Depending on your deployment scale and approach, you might decide to have the Mi
 
 Your organization must execute monitoring, administration, and management tasks on an ongoing basis, and it's key to agree who will undertake these tasks early in your deployment.
 
-Many organizations have an AV team or partner who manages their conference rooms and devices. Or you can have Microsoft help manage Teams Rooms by leveraging Microsoft Teams Rooms Premium. Decide who will manage the Microsoft Teams Rooms devices going forward to monitor performance as well as deploy software updates and hotfixes.
+Many organizations have an AV team or partner who manages their conference rooms and devices. Or you can have Microsoft help manage Teams Rooms by leveraging Microsoft Teams Rooms Pro. Decide who will manage the Microsoft Teams Rooms devices going forward to monitor performance as well as deploy software updates and hotfixes.
 
 Consider which helpdesk queue you'll route Microsoft Teams Rooms-related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
 

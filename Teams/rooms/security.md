@@ -101,7 +101,7 @@ Generally, Teams Rooms has the same network requirements as any Microsoft Teams 
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the following URLs:
+If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Pro, you also need to make sure that Teams Rooms can access the following URLs:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net

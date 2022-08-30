@@ -25,7 +25,7 @@ The Microsoft Teams Rooms Premium managed services reduces complexity for Teams 
 
 ## Obtain and assign a license
 
-Microsoft Teams Rooms resource accounts require a Microsoft Teams Rooms Premium license to work with the Microsoft Teams Rooms Premium-managed service.
+Microsoft Teams Rooms resource accounts require a Microsoft Teams Rooms Pro license to work with the Microsoft Teams Rooms Premium-managed service.
 
 To assign a license, perform the following steps:
 

@@ -68,7 +68,7 @@ Join Teams meetings friction-free to engage in inclusive, collaborative meetings
 
 **Easily managed from one place**:
 
-Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Premium
+Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Pro
 
 ## Space considerations
 
