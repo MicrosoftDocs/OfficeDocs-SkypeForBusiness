@@ -22,7 +22,7 @@ Teams apps are free to install and some may require purchasing service subscript
 
 The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. For example, you can see the org-level status and properties of apps, upload new custom apps to your organization's app store, block or allow apps at the org level, and manage org-wide app settings.
 
-Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase. Users can also use credit card to purchase licenses offered by third-party apps.
+Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase. End-users can purchase apps using a credit card, debit card, or with invoice billing.
 
 ![Screenshot of purchase licenses manage apps page.](media/manage-apps-new-page.png)
 
