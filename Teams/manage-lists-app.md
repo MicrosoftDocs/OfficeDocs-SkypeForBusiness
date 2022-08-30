@@ -21,6 +21,7 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365initiative-lists
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: 

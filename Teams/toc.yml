@@ -880,8 +880,6 @@ items:
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Operator Connect
           items: 
-            - name: What's new
-              href: operator-connect-whats-new.md
             - name: Plan for Operator Connect
               href: operator-connect-plan.md
             - name: Configure Operator Connect
@@ -971,6 +969,8 @@ items:
           href: search-for-phone-numbers-for-users.md
         - name: Assign, change, or remove a phone number for a user
           href: assign-change-or-remove-a-phone-number-for-a-user.md
+        - name: Manage the usage of a phone number
+          href: manage-the-usage-of-a-phone-number.md
         - name: See a list of phone numbers in your organization
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
@@ -1160,6 +1160,8 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+            - name: Phone number management for Mexico
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
             - name: Phone number management for New Zealand
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
             - name: Phone number management for Norway
@@ -1622,61 +1624,70 @@ items:
     - name: Overview
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
     - name: Teams for Education
-      href: expand-teams-across-your-org/teams-for-education-landing-page.md
-      items: 
-        - name: Quick start - Teams for Education admins
-          href: teams-quick-start-edu.yml
-        - name: Get Started with remote learning
-          href: remote-learning-edu.md
-        - name: Teams EDU policies and policy packages
-          href: policy-packages-edu.md
-        - name: Assign policies to large sets of users
-          href: batch-group-policy-assignment-edu.md
-        - name: PowerShell script to create security groups for educators and students
-          href: scripts/powershell-script-security-groups-edu.md
-        - name: Low-bandwidth guidance for Education admins
-          href: edu-remote-low-bandwidth.md
-        - name: Teams for education policy wizard
-          href: easy-policy-setup-edu.md
-        - name: Parent Connection in Teams for Education
-          href: edu-parents-app.md
-        - name: Career Coach
+      items:
+        - name: Overview of Teams for Education
+          href: expand-teams-across-your-org/teams-for-education-landing-page.md
+        - name: Get started with Teams for Education
           items:
-          - name: Get started with Career Coach
-            href: career-coach.md
-          - name: Set up and configure Career Coach
-            href: career-coach-set-up-steps.md
-          - name: Troubleshoot Career Coach
-            href: career-coach-troubleshoot.md
-          - name: Resources for Career Coach
-            href: career-coach-resources.md
-        - name: Supervise chats in Teams
-          href: supervise-chats-edu.md
-        - name: Education Insights
+            - name: Quick start - Set up Teams for Education
+              href: teams-quick-start-guide-edu.md
+            - name: Get started with remote learning
+              href: remote-learning-edu.md
+            - name: Troubleshoot low-bandwidth scenarios
+              href: edu-remote-low-bandwidth.md
+            - name: Assign Teams licenses for education
+              href: teams-edu-licensing.md
+            - name: Microsoft Education FAQ for IT admins
+              href: plan-teams-governance-edu.md
+            - name: Share Teams adoption resources
+              href: resources-teams-edu.md
+            - name: Education SKU reference
+              href: sku-reference-edu.md
+        - name: Teams policies for education
+          items:
+            - name: Manage Teams policies and policy packages
+              href: policy-packages-edu.md
+            - name: Quickly set up policies for users
+              href: easy-policy-setup-edu.md
+            - name: Assign policies to large sets of users
+              href: batch-group-policy-assignment-edu.md
+            - name: Create security groups for educators and students
+              href: scripts/powershell-script-security-groups-edu.md
+        - name: Set up features for educators
+          items:
+            - name: Set up Supervised chats in Teams
+              href: supervise-chats-edu.md
+            - name: Set up Assignments in Teams
+              href: expand-teams-across-your-org/assignments-in-teams.md
+            - name: Set up Parent Connection in Teams
+              href: edu-parents-app.md
+            - name: Career Coach
+              items:
+                - name: Get started with Career Coach
+                  href: career-coach.md
+                - name: Set up and configure Career Coach
+                  href: career-coach-set-up-steps.md
+                - name: Troubleshoot Career Coach
+                  href: career-coach-troubleshoot.md
+                - name: Resources for Career Coach
+                  href: career-coach-resources.md
+        - name: LMS and LTI integrations
+          items:
+            - name: Install Moodle LMS integration
+              href: install-moodle-integration.md
+        - name: Learn about students with Education Insights
           items:           
             - name: Get started with Insights
               href: class-insights.md
             - name: Sync SIS data with Insights
               href: education-insights-sis-data-sync.md
             - name: Manage user access to Insights
-              href: education-insights-manage-access.md              
-            - name: Get started with Reflect
-              href: reflect.md   
+              href: education-insights-manage-access.md           
+            - name: Set up Reflect for emotional insights
+              href: reflect.md
             - name: Understand Insights for Reading Progress
               href: insights-for-reading-progress.md
-        - name: Assignments in Teams for Education
-          href: expand-teams-across-your-org/assignments-in-teams.md
-        - name: Teams resources for Education admins
-          href: resources-teams-edu.md
-        - name: Microsoft Education governance FAQ for admins
-          href: plan-teams-governance-edu.md
-        - name: Install Moodle integration
-          href: install-moodle-integration.md
-        - name: Teams Licensing for Education
-          href: teams-edu-licensing.md
-        - name: Education SKU reference
-          href: sku-reference-edu.md
-        - name: Teams devices for Education
+        - name: Find Teams devices for education
           href: devices-for-education.md
     - name: Teams for Frontline Workers
       items: 
@@ -1756,13 +1767,13 @@ items:
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
           href: connect-teams-essentials-to-email.md 
-    - name: Upgrade from Kaizala
+    - name: Move from Kaizala
       items: 
         - name: Get started
           href: get-started-kaizala-teams.md
-        - name: Prepare for upgrade
+        - name: Prepare to move
           href: prepare-for-teams-kaizala.md
-        - name: Plan your upgrade journey
+        - name: Plan your move to Kaizala 
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
