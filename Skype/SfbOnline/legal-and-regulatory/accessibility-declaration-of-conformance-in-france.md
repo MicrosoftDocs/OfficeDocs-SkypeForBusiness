@@ -41,39 +41,39 @@ description: "This content must be published to meet requirements for accessibil
     
 ## Section 1: Champ d'application
 
-La présente attestation de conformité à la norme [EN 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) relative à l’accessibilité des produits [précise les exigences fonctionnelles en matière d’accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services TIC de Microsoft.
+La présente attestation de conformité à la norme [EN 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) relative à l’accessibilité des produits [précise les exigences fonctionnelles en matière d’accessibilité](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) applicables aux produits et services TIC de Microsoft.
   
 ## Section 2: Références
 
-Références: [EN 301 549](http://mandate376.standards.eu/standard/references)
+Références: [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
 ## Section 3: Définitions et abréviations
 
-Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/standard/definitions-and-abbreviations)
+Définitions et abréviations: [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
 ## Section 4: Déclarations de conformité aux exigences fonctionnelles
 
-[Déclarations de conformité aux exigences fonctionnelles](http://mandate376.standards.eu/standard/functional-statements) de la norme EN 301 549
+[Déclarations de conformité aux exigences fonctionnelles](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) de la norme EN 301 549
   
-[4.2.1 Utilisation sans vision](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=22&amp;functional_statements_submitted=true)
+[4.2.1 Utilisation sans vision](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.2 Utilisation avec vision limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=20&amp;functional_statements_submitted=true)
+[4.2.2 Utilisation avec vision limitée](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.3 Utilisation sans perception des couleurs](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=34&amp;functional_statements_submitted=true)
+[4.2.3 Utilisation sans perception des couleurs](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.4 Utilisation sans audition](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=36&amp;functional_statements_submitted=true)
+[4.2.4 Utilisation sans audition](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.5 Utilisation avec audition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=38&amp;functional_statements_submitted=true)
+[4.2.5 Utilisation avec audition limitée](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.6 Utilisation sans capacité vocale](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=40&amp;functional_statements_submitted=true)
+[4.2.6 Utilisation sans capacité vocale](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.7 Utilisation avec manipulation ou force limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&amp;functional_statements_submitted=true)
+[4.2.7 Utilisation avec manipulation ou force limitée](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.8 Utilisation avec une portée limitée](<http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&amp;functional_statements_submitted=true>)
+[4.2.8 Utilisation avec une portée limitée](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.9 Minimiser les déclencheurs de crises photosensibles](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&amp;functional_statements_submitted=true)
+[4.2.9 Minimiser les déclencheurs de crises photosensibles](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
-[4.2.10 Utilisation avec cognition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&amp;functional_statements_submitted=true)
+[4.2.10 Utilisation avec cognition limitée](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
 [4.2.11 Respect de la vie privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
