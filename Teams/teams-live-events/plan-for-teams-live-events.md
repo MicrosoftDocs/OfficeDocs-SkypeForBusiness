@@ -134,6 +134,7 @@ The following table highlights core capabilities and features offered in live ev
 |Live captions and subtitles |&#x2714; |&#x2714; |&#x274C; |
 |Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
+|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
 |Partner eCDN Support |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |&#x274C; |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
