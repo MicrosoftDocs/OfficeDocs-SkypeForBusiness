@@ -124,7 +124,7 @@ Allow the management of communication routes for Lync real-time communications s
 * * *
 Allow people with visual challenges to use Lync services with particular attention to voice.
 
-## [NTeam Lync Extender](http://www.nteam.de/de/communications/Seiten/Loesung.aspx?Loesung=004&Titel=nteam%20Lync%20Extender)
+## [NTeam Lync Extender](https://www.nteam.de/)
 * * *
 See location, address, previous activities, opportunity, and company data about the person you're communicating with. Update tasks and activities during the conversation.
 
@@ -136,11 +136,11 @@ Enable remote workers to more efficiently learn and collaborate in an always-on,
 * * *
 Manage inbound communications to enhance relations and call experience with customers. Integrate into existing Information Systems and applications with caller identification, and call distribution.
 
-## [Quarta AllTalk](http://www.quarta-embedded.ru/products/28.html)
+## [Quarta AllTalk](https://www.quarta-embedded.ru/)
 * * *
 Integrate Lync quickly and easily into any existing Windows application along with support for .NET, RT, and web. Ideally suited for kiosks in helpdesk scenarios.
 
-## [Ronco Verannounce](http://www.verapresence.com/verannounce)
+## Ronco Verannounce
 * * *
 Page audible messages to Lync Clients and zoned overhead paging systems anywhere in the enterprise. Audible messages may be delivered on demand or on schedule.
 
@@ -156,7 +156,7 @@ Collect and process call records to support enterprise business decisions regard
 * * *
 Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing, and call handling.
 
-## [UMojo GRM System](http://www.umojo.com/?page_id=3901)
+## [UMojo GRM System](https://www.umojo.com/)
 * * *
 Automate facilities management with Lync, including license plate recognition, real-time inventory tracking, and customer services for drivers at the gate.
 
@@ -168,7 +168,7 @@ Provide a scalable web services platform for communications, integrated with vir
 * * *
 Securely identify, welcome, and connect visitors via a touchscreen kiosk. Offer a consistent and professional experience to visitors.
 
-## [Verapresence Proximity Pickup](http://www.verapresence.com/lync-products/proximity-pickup/)
+## Verapresence Proximity Pickup
 * * *
 Enable many alerting and call pickup use cases. Improve responsiveness by efficiently connecting callers to available resources.
 
@@ -184,6 +184,6 @@ Serve guests anywhere via touch kiosks fitted with cameras and microphones by co
 * * *
 Conduct video conferences on Lync through a single device that can be controlled using your voice commands, hand gestures, mouse, keyboard, and touch enabled screens.
 
-## [Yaguti Lync Agent](http://www.yaguti.eu/en/products/microsoft/uc/Pages/yaguti_lync_agent.aspx)
+## Yaguti Lync Agent
 * * *
 Show planning information, request grades / timetables for students and teachers, get sales data from your CRM/ERP all with Lync.
