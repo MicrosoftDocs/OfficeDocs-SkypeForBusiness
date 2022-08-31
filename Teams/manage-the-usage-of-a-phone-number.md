@@ -26,6 +26,8 @@ description: "Learn how to change the usage of a phone number to be used as eith
 
 You may need to change the usage of a phone number after it was acquired for or ported in to your organization. Phone number usage can be changed using the Teams admin center, whether it's a service or user number.
 
+## How to manage the usage of a phone number
+
 To change the usage of a phone number by using the Teams admin center:
 
 1. Open the Microsoft Teams admin center and log in with a Global admin or a Teams administrator account. This is usually the account you used to sign up for Microsoft 365.
