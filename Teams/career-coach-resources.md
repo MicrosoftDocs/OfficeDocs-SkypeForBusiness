@@ -46,7 +46,7 @@ Use the following resources for higher education faculty and staff to get starte
 | [Career Coach Customer FAQ](https://edudownloads.azureedge.net/msdownloads/Customer_FAQ-Career_Coach.pdf) | A PDF answering common customer questions about Career Coach. |
 | [Career Coach eBook](https://msp1151126154693.blob.core.windows.net/msdownloads/Microsoft_Career_Coach_Personalized_Career_Guidance_eBook.pdf) | A PDF booklet explaining the value of using Career Coach in your institution. |
 | [Microsoft Teams overview](https://support.microsoft.com/teams) | A Microsoft Teams quick start guide for educators and students. |
-| [Microsoft Teams getting started one-pager](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf) | A one-page, easy-to-share document summarizing the Microsoft Teams quick start guide. |
+| [Microsoft Teams getting started one-pager](https://download.microsoft.com/download/8/f/1/8f187ed2-a4b8-4269-b756-744c2e81a423/teams-for-education-getting-started-1-pager.pdf) | A one-page, easy-to-share document summarizing the Microsoft Teams quick start guide. |
 | [Microsoft Teams resources for Education admins](resources-teams-edu.md) | A library of Teams for Education marketing and communication resources. |
 | [Download the Teams for Education Quick Guide](https://support.microsoft.com/topic/downloadable-guides-6bd3eb82-0a0f-43cc-a4d2-c9f4e7ebdf39) | Downloadable PDF guides on quickly getting started with Teams. |
 
