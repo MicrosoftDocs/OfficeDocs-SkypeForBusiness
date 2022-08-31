@@ -69,8 +69,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 6: Managing Microsoft Teams Rooms, Part 1  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
 | Module 7: Managing Microsoft Teams Rooms, Part 2  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
 | Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Introduction to Microsoft Teams Rooms Managed Services |  | [Deck](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
+| One-touch Join Instructions |  [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Introduction to Microsoft Teams Rooms Managed Services | [Deck](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android devices</h2>
 
