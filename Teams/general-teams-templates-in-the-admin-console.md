@@ -65,7 +65,7 @@ Improve your culture and streamline your employee onboarding with this central t
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------|--|-----------------------------------------------------------|
-> | Onboard Employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee Chat</li> <li>Training</li></ul>Apps:<ul><li>Bulletins</li><li>Communities</li><li>Employee ideas</li><li>Lists<ul><li>Onboarding checklist</li></ul></li><li>Milestones</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>Get started</li><li>Training</li></ul><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+> | Onboard Employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee Chat</li> <li>Training</li></ul>Apps:<ul><li>Bulletins</li><li>Employee ideas</li><li>Lists<ul><li>Onboarding checklist</li></ul></li><li>Milestones</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>Get started</li><li>Training</li></ul><li>Tasks by Planner and To Do</li><li>Viva Engage</li><li>Wiki</li></ul>|
 
 ## Adopt Office 365
 
