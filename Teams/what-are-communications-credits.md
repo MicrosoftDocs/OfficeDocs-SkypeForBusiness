@@ -81,11 +81,11 @@ Important notifications related to the Communication Credits balance of your org
 
 - Billing Administrator
 - Skype for Business Administrator
-- Company Administrator
-- User Account Administrator
+- Global Administrator
+- User Administrator
 - Helpdesk Administrator
 - Service Support Administrator
-- Device Administrators
+- Azure AD Joined Device Local Administrator
 - Application Administrator
 - License Administrator
 - Cloud Device Administrator
