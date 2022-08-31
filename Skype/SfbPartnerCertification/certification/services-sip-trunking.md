@@ -49,18 +49,18 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Comscentre](http://www.comscentre.com/microsoft-lync-certified-sip) |Comscentre Sip Connect for Microsoft Lync|         |
 |[DIDforSale](http://www.didforsale.com/microsoft-skype-business-sip-trunks) |Business SIP Trunk / Cloud PBX |         |
 |[Elisa](https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365) |SIP Trunking|&#x2714;|
-|[Fujitsu](http://www.fujitsu.com/fi/services/infrastructure-services/network/)     |SIP Trunk|         |
+|[Fujitsu](https://www.fujitsu.com/fi/services/infrastructure/network/managed-network/index.html)     |SIP Trunk|         |
 |[G12 Communications](https://www.g12com.com/) |Lync SIP Trunks|    |
 |[Gamma](http://www.gamma.co.uk/partners/products/voice/sip-trunks/) |SIP Trunking|  |
 |[GlobalConnect](http://www.globalconnect.dk/produkter/telefoni/lync) |GlobalConnect SIP Trunking|         |
 |[Globalgig](https://www.globalgig.com/)| Globalgig SIP Trunking |&#x2714;|
 |[IntelePeer](http://www.intelepeer.com/)     |IntelePeer SIP Trunking |&#x2714;|
 |[Internet Solutions](https://www.is.co.za/OurSolutions/Communication/Voice/Pages/default.aspx) |Internet Solutions SIP Trunk |  |
-|[Interoute](http://www.interoute.com/product/interoute-one) |Interoute One| |
+|Interoute |Interoute One| |
 |[ipvision a/s](http://www.ipvision.dk/microsoft-lync/) |VIP Trunk |&#x2714;|
 |[Kordia](http://www.kordia.co.nz/) |Onkor Voice|&#x2714;|
-|[Level 3](http://level3.com/lync) |Level 3 Communications SIP Trunking| |
-|[Magna5](https://www.magna5global.com/sip-trunking/) |Business SIP Trunk| |
+|Level 3 |Level 3 Communications SIP Trunking| |
+|[Magna5](https://www.magna5global.com/skype-sip-trunking-certification/) |Business SIP Trunk| |
 |[agnetic North |Cloud PBX| |
 |[Netstream](http://www.netstream.ch/index.php?id=506) |Lync Connect|&#x2714;|
 |[Nuwave Communications, Inc.](https://www.nuwave.com/) |NuWave Connect|&#x2714;|
@@ -70,21 +70,21 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Peerless Network](http://www.peerlessnetwork.com/) |Enterprise SIP Trunking| |
 |[Phonero](http://www.phonero.no/) |Phonero SIP-trunk| |
 |[PrimeTel](http://primetel.com.cy/business/lync) |PrimeTel SIP Trunk| |
-|[Pure-IP](http://pure-ip.com/microsoft-Lync-voice-trunks) |OneLync SIP Trunks|&#x2714;|
-|[QSC AG](http://www.qsc.de/ipfonie-extended-link/) |IPfonie extended link| |
+|[Pure-IP](https://www.pure-ip.com/) |OneLync SIP Trunks|&#x2714;|
+|[QSC AG](https://www.qsys.com/) |IPfonie extended link| |
 |[Redwood Technologies](http://www.redwoodtech.com/products/microsoft-lync/) |SIP Trunk| |
 |[Red Sky Technologies](http://www.redskye911.com/e911-for-lync) |E911 Anywhere|&#x2714;|
 |[Rogers Business Solutions](http://business.rogers.com/) |Rogers Business Solutions (RBS) SIP Trunking| |
 |[SaskTel](https://www.sasktel.com/business/products-and-solutions/networks/trunking/ip-trunking/ip-trunking) |SaskTel IP Trunking Services| |
-|[SBC Europe](https://www.sbc-europe.com/sip-trunking) |SIP Trunking for Microsoft Lync (2013)| |
+|SBC Europe |SIP Trunking for Microsoft Lync (2013)| |
 |[SoTel Systems, LLC](http://www.sotelsystems.com/) |SIP Trunking| |
 |[Sprint](https://www.sprint.com/business/solutions/sprint_enablers/sip_trunking/index.html?INTNAV=ATG:HE:SIPTrunking#.U6LRQnlOVaQ) |Global SIP Trunking| |
-|[Swisscom (Switzerland)](http://www.swisscom.ch/solutions/de/start/loesungen/telefonie-ucc/enterprise-telephony/hosted-enterprise-telephony.html) |VoIP Gate| |
+|[Swisscom (Switzerland)](https://www.swisscom.ch/en/residential/help/fixed-network/enterprise-telephony.html) |VoIP Gate| |
 |[TalkTalk Business](https://www.talktalkbusiness.co.uk/products/voice/sip-trunking/sip-trunks/) |TalkTalk Business SIP Trunking|&#x2714;|
 |[Tata Communications](http://www.tatacommunications.com/) |Global SIP Connect|&#x2714;|
 |[TDC Erhverv](https://erhverv.tdc.dk/loesninger/skype-for-business) |Skype for Business Trunk|&#x2714; |
 |[Tele2 Sweden](https://www.tele2.com/) |Tele2 Business Trunk| |
-|[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview) |talkAssure SIP Trunking for Microsoft Lync| |
+|[Telappliant](https://telappliant.com/products/communications/sip-trunking/) |talkAssure SIP Trunking for Microsoft Lync| |
 |[Telavox](https://telavox.com/) |SIP Trunk|&#x2714;|
 |[Tele2](https://www.tele2.se/) |VoIP Connect| |
 |[Telecom New Zealand / Gen-I](http://www.gen-i.co.nz/solutions/collaboration/voice-connect/) |Voice Connect| |
