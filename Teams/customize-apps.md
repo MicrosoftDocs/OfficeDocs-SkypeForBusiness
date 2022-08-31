@@ -1,6 +1,6 @@
 ---
 title: Modify the appearance of apps in your organization's Teams store
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
