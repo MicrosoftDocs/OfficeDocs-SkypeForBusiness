@@ -68,10 +68,10 @@ Template policies control what team templates users see when they create a new t
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Meet now in channels|On|Description|
-|Outlook add-in|On|Description|
-|Channel meeting scheduling|On|Description|
-|Private meeting scheduling|On|Description|
+|Meet now in channels|On|When on, meeting organizers allow users to start instant meetings within channels that the users belong to.|
+|Outlook add-in|On|When On, meeting organizers allow users to schedule private meetings from Outlook.|
+|Channel meeting scheduling|On|When on, meeting organizers allow users to schedule channel meetings within channels that the users belong to.|
+|Private meeting scheduling|On|When on, meeting organizers allow users to schedule private meetings.|
 |Engagement report|Turn on| When On, meeting organizers can see who registered and attended the meetings and webinars they set up.|
 |Meeting registration|On|When On, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
@@ -102,9 +102,9 @@ Template policies control what team templates users see when they create a new t
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Transcription|On|Description|
-|Cloud recording|On|Description|
-|Meetings automatically expire|On|Description|
-|Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days.|
+|Cloud recording|On|When On, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to recording permissions to record the meeting.|
+|Meetings automatically expire|On|When On, meeting recordings will automatically expire in the number of days shown in the Default expiration time setting.|
+|Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. Meetings automatically expire must also be turned On.|
 |Store recordings outside your country or region|Off|Description|
 
 ### Meeting policies - Content sharing
@@ -152,15 +152,15 @@ Template policies control what team templates users see when they create a new t
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Owners can delete sent messages|Off|Description|
-|Delete sent messages|On|Description|
-|Edit sent messages|On|Description|
-|Read receipts|User controlled|Description|
-|Chat|On|Description|
-|Giphy in conversations|On|Description|
+|Owners can delete sent messages|Off|When On, team owners can delete channel messages or posts that users have sent.|
+|Delete sent messages|On|When On, users can delete messages they've sent in chat.|
+|Edit sent messages|On|When On, users can edit messages they've sent in chat.|
+|Read receipts|User controlled|When set as User controlled or Turned on for everyone, the sender of a chat message can be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer.|
+|Chat|On|When On, users in your organization can use the Teams app to chat with other people.|
+|Giphy in conversations|On|When On, users can include Giphys in chat conversations with other people.|
 |Giphy content rating|Moderate|Description|
-|Memes in conversations|On|Description|
-|Stickers in conversations|On|Description|
+|Memes in conversations|On|When On, users can include Memes in chat conversations with other people.|
+|Stickers in conversations|On|When On, users can include Stickers in chat conversations with other people.|
 |URL previews|On|Description|
 |Translate messages|On|Description|
 |Immersive reader for messages|On|Description|
@@ -168,7 +168,7 @@ Template policies control what team templates users see when they create a new t
 |Create voice messages|Allowed in chats and channels|Description|
 |On mobile devices, display favorite channels above recent chats|Not enabled|Description|
 |Remove users from group chats|On|Description|
-|Suggested replies|On|Description|
+|Suggested replies|On|When On, users get text predictions for chat messages.|
 |Chat permissions role|Restricted permissions|Description|
 |Users with full chat permissions can delete any message|Off|Description|
 
