@@ -161,15 +161,15 @@ Template policies control what team templates users see when they create a new t
 |Giphy content rating|Moderate|Description|
 |Memes in conversations|On|When On, users can include Memes in chat conversations with other people.|
 |Stickers in conversations|On|When On, users can include Stickers in chat conversations with other people.|
-|URL previews|On|Description|
+|URL previews|On|Controls automatic URL previewing in messages.|
 |Translate messages|On|Description|
-|Immersive reader for messages|On|Description|
+|Immersive reader for messages|On|When On, users can view messages in Microsoft Immersive Reader.|
 |Send urgent messages using priority notifications|On|Description|
 |Create voice messages|Allowed in chats and channels|Description|
 |On mobile devices, display favorite channels above recent chats|Not enabled|Description|
 |Remove users from group chats|On|Description|
 |Suggested replies|On|When On, users get text predictions for chat messages.|
-|Chat permissions role|Restricted permissions|Description|
+|Chat permissions role|Restricted permissions|Defines the supervised chat role of a user.|
 |Users with full chat permissions can delete any message|Off|Description|
 
 
@@ -186,14 +186,14 @@ Template policies control what team templates users see when they create a new t
 |Make private calls|On|Description|
 |Cloud recording for calling|Off|Description|
 |Transcription|Off|Description|
-|Call forwarding and simultaneous ringing to people in your organization|On|Description|
-|Call forwarding and simultaneous ringing to external phone numbers|On|Description|
-|Voicemail is available for routing inbound calls|User controlled|Description|
+|Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
+|Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|
+|Voicemail is available for routing inbound calls|User controlled|When Enabled or User controlled, inbound calls can be sent to voicemail.|
 |Inbound calls can be routed to call groups|On|Description|
 |Delegation for inbound and outbound calls|On|Description|
 |Prevent toll bypass and send calls through the PSTN|Off|Description|
 |Music on hold|Enabled|Description|
-|Busy on busy when in a call|Not enabled|Description|
+|Busy on busy when in a call|Not enabled|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
 |Web PSTN calling|On|Description|
 |Real-time captions in Teams calls|On|Description|
 |Automatically answer incoming meeting invites|Off|Description|
