@@ -1,7 +1,7 @@
 ---
 title: Plan your deployment for Teams phone devices and Displays
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
 ms.topic: reference
@@ -12,7 +12,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 search.appverid: MET150
-description: This article provides and overview the tasks and steps to deploy Teams phones and displays in your organization.
+description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
@@ -36,7 +36,7 @@ Teams phones and Displays will fit one of two personas:
 - Personal devices
 - Shared space devices
 
-Personal and shared devices have different roles and usages. 
+Personal and shared devices have different roles and uses. 
 
 **Personal devices:** 
 
@@ -63,15 +63,15 @@ Now that you've identified your device personas, you need to determine which cer
 - How many rooms or spaces require shared devices? Will every space have the same type of device? 
 - Will your devices need to meet specific requirements?
     - Examples include screen size, form factor, and manufacturer or model? For a list of certified phones and displays, see [Microsoft Teams certified devices](teams-ip-phones.md).
--  Do you need Teams phones or Teams displays? For a list of features supported by Teams phones, see [Phones for Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones) and for a list of features supported by Teams displays, see [Microsoft Teams displays](teams-displays.md#features-supported-by-teams-displays).
+-  Do you need Teams phones or Teams displays? For a list of features supported by Teams phones, see [Phones for Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). For a list of features supported by Teams displays, see [Microsoft Teams displays](teams-displays.md#features-supported-by-teams-displays).
 - Do you have enough devices for new users, or a process for new orders and delivery?
-- Will you have spare devices available for maintenance or in case of hardware issues? Being able to swap a device quickly prevents disruptions in user experience.
+- Will you have spare devices available for maintenance or if a device experiences hardware issues? Being able to swap a device quickly prevents disruptions in user experience.
 
 ## Task 2: What are your licensing requirements? 
 
 Now you know how many devices you need, the next step is to determine how many licenses are needed. Teams phones and displays require licenses to access Microsoft Teams and Microsoft 365.
 
-Shared and personal devices will need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable licenses are [the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) and a [Microsoft Teams Rooms license](../rooms/rooms-licensing.md).
+Shared and personal devices need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable licenses are [the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) and a [Microsoft Teams Rooms license](../rooms/rooms-licensing.md).
 
 For more information and to compare your licensing options, see [Microsoft 365 licensing plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 
