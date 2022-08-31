@@ -54,7 +54,7 @@ The live event details page gives you a summary of the details of a live event a
 
 :::image type="content" alt-text="Screenshot showing details of a live event." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
+If your organization uses Microsoft eCDN, advanced analytics can be viewed and exported from the [eCDN Dashboard](https://admin.ecdn.microsoft.com).  If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
 
 ## Related topics
 
