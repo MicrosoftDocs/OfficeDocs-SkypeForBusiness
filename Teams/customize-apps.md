@@ -20,7 +20,7 @@ description: Learn how to change the appearance of the app and rebrand an app by
 
 # Customize appearance of apps in your organization's Teams store
 
-Microsoft Teams lets admins customize Teams app to enhance store experience and adhere to their organization's branding. An app developer can allow their app to be customized by a Teams admin. You can then update the app properties based on the organizational needs, in the Manage apps page in Teams admin center. The details you can customize are:
+Microsoft Teams lets admins customize the Teams app to enhance the store experience and adhere to their organization's branding. An app developer can allow their app to be customized by a Teams admin. You can then update the app properties based on the organizational needs, in the Manage apps page in Teams admin center. The details you can customize are:
 
 * Short name
 * Short description
