@@ -29,6 +29,7 @@ You'll find planning information below covering the recommended approach and key
 Microsoft Teams Rooms provides a complete meeting experience that brings HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms.
 
 ![A user taps a Teams Rooms console, with a display in the background.](../media/room-systems-image1.jpg "A user taps a Teams Rooms console, with a display in the background")
+
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Microsoft Teams Rooms and how it can add value as part of your deployment.
 
 ## Microsoft Teams Rooms components
