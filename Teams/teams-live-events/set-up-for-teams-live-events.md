@@ -86,10 +86,13 @@ For users to schedule events produced with an external app or device, you must a
 
 ## Step 4: Set up a video distribution solution for live events in Teams
 
-Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
+Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, Microsoft offers a first-party solution, [Microsoft eCDN](/ecdn) (enterprise content delivery network). Live events solutions are also integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or eCDNs. These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end-user viewing experiences. These solutions can help enable a more scalable and efficient video distribution across your enterprise network.
 
-**Purchase and set up your solution outside of Teams**
-Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams, you must purchase and set up the SDN/eCDN solution outside and separate from Teams.
+- **Microsoft eCDN**
+Microsoft eCDN is integrated into Teams and is also compatible with Stream and Yammer. It employs peer-to-peer technology within a corporate network to offload bandwidth from the WAN connection.
+
+- **Purchase and set up your solution outside of Teams**
+Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. 
 
 The following SDN/eCDN solutions are pre-integrated and can be set up to be used with Stream.
 
@@ -102,7 +105,7 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 - **Riverbed**, the industry standard in network optimization, is extending its acceleration solutions to Microsoft Teams and Stream.  Now Microsoft 365 customers can confidently accelerate 365 traffic including Teams and Stream along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams and Stream acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
 
 > [!NOTE]
-> Your chosen SDN or eCDN solution is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams.
+> If you choose a 3rd-party SDN or eCDN solution, it is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams.
 
 After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams.
 
