@@ -72,4 +72,60 @@ Captions and transcription are helpful in a wide variety of situations, but is e
 
 - People with learning disabilities
 
-[Web Content Accessibility Guidelines (WCAG) 1.2.4.: Captions (Live)](https://www.w3.org/WAI/WCAG21/Understanding/captions-live)
+For more information, see [Web Content Accessibility Guidelines (WCAG) 1.2.4.: Captions (Live)](https://www.w3.org/WAI/WCAG21/Understanding/captions-live).
+
+## Give meeting access to sign language interpreters and CART captioners
+
+Give sign language interpreters and CART (communication access real-time translation) captioners access to Microsoft Teams meetings so they can work more effectively together with users who are deaf or hard of hearing.
+
+### Admit sign language interpreters and CART captioners to meetings
+
+Sign language interpreters and CART captioners likely don't work for your organization, but you can invite them to Microsoft Teams meetings by [by giving them guest access](/MicrosoftTeams/guest-access).
+
+After guest access has been given, to admit sign language interpreters and CART captioners to meetings:
+
+1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
+
+2. Select the policy you want to modify.
+
+3. Go to the **Participants & guests** section.
+
+4. Choose the option under **Automatically admit people** that best fits your organization's compliance and security requirements. You can select one of the following options:
+
+   - Everyone (not recommended)
+
+   - People in my organization and guests (recommended)
+ 
+   - People in my organization, trusted organizations, and guests
+
+   - People in my organization
+
+   - Organizer only
+
+   - Invited users only
+
+5. Select **Save**.
+
+> [!NOTE]
+> The setting **Automatically admit people** doesn't apply to dial-in users.
+
+### Turn on IP video feed for your users
+
+Give sign language interpreters the ability to share IP video feed during Microsoft Teams meetings so they can communicate with users who are deaf or hard of hearing.
+
+To check if IP video feed is turned on:
+
+1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
+
+2. Select the policy you want to modify.
+
+3. Go to the **Audio & video** section.
+
+4. Check that **IP video** is turned **On**, then select **Save**.
+
+> [!TIP]
+> Share the following links with users so they can adjust how they use Teams to maximize their ability to participate, focus, and collaborate in meetings:
+> - [Customize your meeting view](https://support.microsoft.com/office/customize-your-meeting-view-95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
+> - [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
+
+For more information, see [Web Content Accessiblity Guide (WCAG) 1.2.6.: Sign language interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded).
