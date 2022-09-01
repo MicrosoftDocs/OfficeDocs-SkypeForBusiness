@@ -1,7 +1,7 @@
 ---
 title: Manage your devices in Microsoft Teams
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,8 +10,9 @@ ms.reviewer: kelsawi
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
-f1.keywords:
-- CSH
+  - Teams_ITAdmin_Devices
+f1.keywords: 
+  - CSH
 ms.custom: 
   - ms.teamsadmincenter.managedevices.overview
   - ms.teamsadmincenter.devicemanagement.overview

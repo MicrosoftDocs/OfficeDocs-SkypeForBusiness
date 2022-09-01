@@ -1,7 +1,7 @@
 ---
-title: "Set Microsoft Teams Android devices user interface"
-ms.author: czawideh
-author: cazawideh
+title: Set Microsoft Teams Android devices user interface
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto: 
@@ -10,8 +10,9 @@ ms.reviewer:
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-ms.collection:
+ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Devices
 description: Learn how to set the user interface on Teams Android devices.
 ---
 # Set Microsoft Teams Android devices user interface

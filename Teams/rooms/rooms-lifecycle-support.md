@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Teams Rooms app version support"
-ms.author: czawideh
-author: cazawideh
+title: Microsoft Teams Rooms app version support
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -9,8 +9,9 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 description: Learn about lifecycle support for Microsoft Teams Rooms, including the dynamic support structure and its phases.
 ms.custom: seo-marvel-apr2020

@@ -1,19 +1,20 @@
 ---
-title: "Authentication in Microsoft Teams Rooms"
-ms.author: czawideh
-author: cazawideh
+title: Authentication in Microsoft Teams Rooms
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-ms.assetid:
+ms.assetid: 
 ms.collection: 
   - M365-collaboration
-description: "Learn how to configure modern authentication for Microsoft Teams Rooms"
+  - Teams_ITAdmin_Rooms
+description: Learn how to configure modern authentication for Microsoft Teams Rooms
 ---
 
 # Authentication in Microsoft Teams Rooms
@@ -105,4 +106,4 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 
 You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
-No other conditional access policies are supported. For more information about device compliance, see [Supported Conditional Access and Intune compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md).
+For more information about device compliance, see [Supported Conditional Access and Intune compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md).

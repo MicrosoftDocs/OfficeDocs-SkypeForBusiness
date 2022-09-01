@@ -1,17 +1,18 @@
 ---
-title: "Build a Microsoft Teams Rooms image"
-ms.author: czawideh
-author: cazawideh
+title: Build a Microsoft Teams Rooms image
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: This article describes how to set up and configure the Microsoft Teams Rooms console and its peripherals.
@@ -207,7 +208,7 @@ You can join Microsoft Teams Rooms to your domain. Microsoft Teams Rooms should 
 3. Enter the following command in Powershell:
     
    ```PowerShell
-   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, ... ,OU=<Top level OU>,DC=<child domain>,...,DC=<top level domain>"
    ```
 
 For example, if your fully qualified domain is redmond.corp.microsoft.com and you want your Microsoft Teams Rooms consoles to be in a "Microsoft Teams Rooms" OU that is a child of a "Resources" OU, the command will be:

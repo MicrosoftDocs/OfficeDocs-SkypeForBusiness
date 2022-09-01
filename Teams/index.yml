@@ -49,7 +49,7 @@ productDirectory:
       summary: Plan your rollout and pilot your solutions, so that you can have a smooth experience.
       url: ./get-started-with-teams-quick-start.md
     # Card
-    - title: Prepare for end user adoption 
+    - title: Prepare for end user adoption 
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
       summary: Get your users on board and share scenarios for success.
@@ -174,11 +174,11 @@ additionalContent:
             - text: Microsoft Teams for Education
               url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
             - text: Healthcare
-              url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
+              url: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
             - text: Frontline workers
               url: ./flw-landing-page.md
             - text: Retail
-              url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
+              url: /microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         # Card
         - title: Government
           links:

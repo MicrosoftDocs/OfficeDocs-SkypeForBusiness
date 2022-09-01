@@ -33,11 +33,11 @@ Retention policies and retention labels from Microsoft 365 help you to more effe
 Teams supports retention policies for chat and channel messages so that as an admin, you can decide proactively whether to retain this data, delete it, or retain it for a specific period of time and then delete it. The start of the retention period for these actions is always based on when a message is created. You can apply a Teams retention policy to your entire organization or to specific users and teams. Retention labels aren't supported for Teams.
 
 > [!NOTE]
-> [Shared channels](shared-channels.md), currently in preview, are now supported by retention policies.
+> [Shared channels](shared-channels.md) are supported by retention policies.
 
 To learn more about retention solutions in Microsoft 365, see [Learn about retention policies and retention labels](/microsoft-365/compliance/retention).
 
-Users who are subject to a retention policy for Teams must have an appropriate license, such as Office 365 E3 or Office 365 A3. For other licensing options for these retention policies, see the [Information Governance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) section from [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). To learn more about licensing for Teams, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
+Users who are subject to a retention policy for Teams must have an appropriate license, such as Office 365 E3 or Office 365 A3. For other licensing options for these retention policies, see the [Microsoft Purview Data Lifecycle Management](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) section from [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). To learn more about licensing for Teams, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 ## How Teams retention policies support retain and delete actions
 
@@ -100,3 +100,4 @@ The links in these displayed messages go to [Teams messages about retention poli
 - [Get started with retention policies and retention labels](/microsoft-365/compliance/get-started-with-retention)
 - [Learn about retention for Microsoft Teams](/microsoft-365/compliance/retention-policies-teams)
 - [Create and configure retention policies](/microsoft-365/compliance/create-retention-policies)
+- Troubleshooting: [Messages in the Teams and Yammer apps are unexpectedly deleted by retention policies](/microsoftteams/troubleshoot/teams-im-presence/messages-unexpectedly-deleted-retention-policy)

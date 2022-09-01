@@ -1,7 +1,7 @@
 ---
 title: How Microsoft Teams uses memory
-author: msdmaguire
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: Learn about Microsoft Teams system memory usage, and why memory usa
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-jun2020
 ---
 

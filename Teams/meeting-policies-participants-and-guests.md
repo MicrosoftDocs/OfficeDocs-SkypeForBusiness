@@ -27,7 +27,7 @@ description: Learn to manage meeting policy settings in Teams for participants a
 
 <a name="bkmeetingparticipants"> </a>
 
-These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
+These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
 
 - [Let anonymous people join a meeting](#let-anonymous-people-join-a-meeting)
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
@@ -37,7 +37,7 @@ These settings control which meeting participants wait in the lobby before they 
 - [Chat in meetings](#chat-in-meetings)
 
 > [!NOTE]
->Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+> Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## Let anonymous people join a meeting
 
@@ -52,7 +52,7 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 ## Automatically admit people
 
-This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
+This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.
 
 ![Screenshot showing a meeting with a user in the lobby.](media/meeting-policies-lobby.png)
 
@@ -63,12 +63,12 @@ This is a per-organizer policy. This setting controls whether people join a meet
   
 |Setting value  |Join behavior |
 |---------|---------|
-|**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, external users from trusted organizations (federated), guests, and anonymous users.     |
-|**People in my organization and guests**     |Authenticated users within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations, and anonymous users wait in the lobby. This is the default setting.    |
-|**People in my organization, trusted organizations, and guests**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
-|**People in my organization**    |Authenticated users from within the organization join the meeting directly without waiting in the lobby.  Users from trusted organizations, guest users, and anonymous users wait in the lobby.          |
-|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations, and anonymous users must wait in the lobby. On the Teams client meeting options page, it appears as "Only me".          |
-|**Invited users only**    |Only invited users and meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations, and anonymous users must wait in the lobby. On the Teams client meeting options page, it appears as "People I invite". Users added as a part of a distribution group will have to go through the lobby.      |
+|**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, users from trusted organizations, guests, and anonymous users.     |
+|**People in my organization and guests**     |Authenticated users within the organization, including guests, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.    |
+|**People in my organization, trusted organizations, and guests**     |Authenticated users within the organization, including guests and the users from trusted organizations, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
+|**People in my organization**    |Authenticated users from within the organization join the meeting directly without waiting in the lobby.  Users from trusted organizations, guests, and anonymous users wait in the lobby.          |
+|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guests, users from trusted organizations, and anonymous users must wait in the lobby. On the Teams client meeting options page, it appears as "Only me".          |
+|**Invited users only**    |Only invited users and meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guests, users from trusted organizations, and anonymous users must wait in the lobby. On the Teams client meeting options page, it appears as "People I invite". Users added as a part of a distribution group will have to go through the lobby.      |
 
  > [!NOTE]
 > Trusted organizations are domains that you allow federated communications with in Teams. If you enable **Allow all external domains** for external access in the Teams admin center, any authenticated user within any Teams organization will be trusted. If you choose to specify external domains that are allowed and block all others, the allowed domains become trusted organizations. Any blocked domain is considered to not be a trusted organization.
@@ -95,14 +95,35 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 ## Chat in meetings
 
-This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
+This is a per-user and per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. This setting doesn't apply to channel meetings.
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Enabled**     | All participants can write and view chat messages. |
-|**Not enabled**     | Meeting chat is turned off for all participants.  |
+|**Turn it on for everyone**     | All participants can write and view chat messages. |
+|**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
+|**Turn it on for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
+
+Once this **Chat in meetings** policy is applied to users, an organizer can't override this policy through **Meeting options**.
+
+The policy applied to the meeting organizer can affect other users in the meeting. For example:
+
+- If the organizer has **Chat in meetings** set to **Turn it on for everyone** or **Turn it on for everyone but anonymous users**, then a user's individual policy will apply and any users with **Turn it off for everyone** set will not be able to chat in the meeting.
+- If the organizer has **Chat in meetings** set to **Turn it off for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
 
 <a name="bkparticipantsandguests"> </a>
+
+## Q&A in meetings
+
+This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
+
+The setting is enforced when a meeting is created or is updated by Organizers. By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings).
+
+The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the admin portal.
+
+|Setting value |Behavior  |
+|---------|---------|
+|**Enabled**     | Organizers can add Q&A when creating meetings. |
+|**Disabled**     | Organizers won't have the option to add Q&A when creating meetings.  |
 
 ## Enable meeting policy settings
 

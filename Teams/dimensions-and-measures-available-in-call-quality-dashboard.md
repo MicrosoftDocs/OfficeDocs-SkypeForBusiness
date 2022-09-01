@@ -1,7 +1,7 @@
 ---
 title: "Dimensions and measurements - Call Quality Dashboard (CQD)"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
 ms.topic: article
@@ -144,6 +144,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Endpoint Label 3|String|A customizable label, information is read from an Endpoint Data file.| <br/>&bull; No data file for the endpoint |
 | First ASN|String|Autonomous system number for the first endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | Second ASN|String|Autonomous system number for the second endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
+| First ASN ISP Name|String|Name of the ASN holder -- usually an internet service provider or ISP -- for the autonomous system number of the first endpoint. <br/> **Example value** Microsoft Corporation  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
+| Second ASN ISP Name|String|Name of the ASN holder -- usually an internet service provider or ISP -- for the autonomous system number of the second endpoint. <br/> **Example value:** Microsoft Corporation  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | First ASN Country Code|String|Country code for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** US  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | Second ASN Country Code|String|Country code for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** US  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
 | First ASN Country|String|Country name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** United States  | <br/>&bull; Network data wasn't available to determine endpoint ASN |
@@ -462,7 +464,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |**Call Diagnostic**||||
 | Error Report Sender  | String  | Indicates which endpoint sent the call error report for the stream. This report contains additional telemetry and may indicate call setup or call drop issue with the call. <br/> **Example value:** First | &bull; Indicates no call error report was received.  |
 | Is Media Error  | String  | Indicates if the call error report for the stream was a media level error or not. This report contains additional telemetry and may indicate call setup or call drop issue with the call.    | &bull; Indicates no call error report was received. |
-| Media Failure Type  | Enumeration <br/>**Possible values:** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull;  NotMediaFailure. | The type of media failure associated with the stream. <br/> Note: "NotMediaFailure" doesn't indicate a non-media failure occurred, only that no media failures occurred.   | &bull; Indicates no call error report was received.   |
+| Media Failure Type  | Enumeration <br/>**Possible values:** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull; MediaFailureUnknownType <br/>&bull;  NotMediaFailure | The type of media failure associated with the stream. <br/> Note: "NotMediaFailure" doesn't indicate a non-media failure occurred, only that no media failures occurred. MediaFailureUnknownType indicates a media failure was detected, but did not fall under the MidCall or CallSetup classifications due to either being an edge case scenario, or missing telemetry.   | &bull; Indicates no call error report was received.   |
 | Call Classification| Enumeration |Reliability Classification assigned to the call. <br/> **Possible values**: Success, Failure, ClassificationUnavailable | |
 | Classification Reason|String|Reason the classification was assigned to the stream.| |
 | Test Call Type|Enumeration|Indicates whether this call is a regular call or a test call. If it's a test call, this indicates the type of test call. <br/>**Possible Values:** NonTest, Silent, UserInitiated, Synthetic <br/>**Meanings:** <br/> NonTest – Regular Call <br/> Silent – Silent Test Call <br/> UserInitiated – User initiated test call <br/>Synthetic – ST endpoint-initiated call||
@@ -474,7 +476,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Has Media Diagnostic Blob  | Boolean  | True if session had media diagnostics data, False otherwise.   | &bull; Some signaling data wasn't collected for this stream   |
 | Call Setup Failure Reason  | Enumeration  | Classification of why media connection could not be established for a call. <br/>**Possible values:** <br/> **Missing FW Deep Packet Inspection Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established due to deep packet inspection rules. This may be due to proxy or firewall rules not being correctly configured. <br/> **Missing FW IP Block Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established to the Office 365 network. This may be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Skype for Business traffic. <br/> **Other** - indicates the media path for the call could not be established but the root cause could not be classified. <br/> Not Media Failure - indicates no issue was detected with the establishment of the media path.  | &bull; Call set up failed due to an unknown media issue  |
 | Session Type  | Enumeration <br/>**Possible values:** <br/> Conf, P2P  | Indicates if the call session type was a meeting (Conf) or peer-to-peer call (P2P) scenario. <br/> **Example value:** Conf | |
-| CDR Response Reason  | Enumeration <br/>**Possible values:** <br/> 0 or 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" <br/> All other CDR codes = "Other" | Provides the reason for a call session concluding, whether the call was successful or not, and allows for differentiation between incomplete calls (no answer, busy, declined) and failed calls (media establishment). <br/> **Example value:** OK | <br/>&bull; A value of "Other" implies response code isn't diagnostically useful outside of Microsoft's engineering teams |
+| CDR Response Reason  | Enumeration <br/>**Possible values:** <br/> 0 or 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" <br/> All other CDR codes = "Other" | Provides the reason for a call session concluding, whether the call was successful or not, and allows for differentiation between incomplete calls (no answer, busy, declined) and failed calls (media establishment). Note that 410 errors may not always correlate with a 'Failure' classification; this is due to identified exclusions and so is not considered an impacting media failure. <br/> **Example value:** OK | <br/>&bull; A value of "Other" implies response code isn't diagnostically useful outside of Microsoft's engineering teams |
 |**DNS**||||
 | Used DNS Resolve Cache  | Boolean  | True if endpoint used DNS cache to resolve media relay address, False otherwise.    | <br/>&bull; This data wasn't reported by the endpoint    |
 |**UserData**| |||
@@ -544,6 +546,9 @@ The following table lists the dimensions currently available in CQD, in the orde
 |Is Call Queue Involved|Boolean|If True, a Call Queue was involved in a given call or stream. ||
 |**Meeting**||||
 |Scheduling Source App Id|String |The AppID of the first or third-party scheduling client that booked the meeting.|The scheduling client has not provided this parameter through its telemetry.|
+|**Common**||||
+| First ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the first endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint is not using Azure Communication Services APIs|
+| Second ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the second endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint is not using Azure Communication Services APIs|
 |**Datapair**||||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This may happen if the call could not be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent wasn't a known type  |
@@ -748,7 +753,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |P50 Packet Loss Rate | Percentage | 50% of the requests should have lower than the given Packet Loss Rate.|
 |PSTN Outgoing Post Dial Delay| Milliseconds | The delay that occurs on outgoing calls measured from the time a number has been dialed until the caller or called party hears ringing.|
 |PSTN Incoming Post Dial Delay | Milliseconds | The time or delay that occurs on incoming calls measured from the time a number has been dialed until the caller or called party hears ringing.|
-|PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures）/ Total Attempt Calls x 100.There's an up to 0.2% error for this measure. See note below for details.|
+|PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures) / Total Attempt Calls x 100. There's an up to 0.2% error for this measure. See note below for details.|
 | Avg Auto Attendant Chain Duration Seconds | Integer | The average duration that users spend in the Auto Attendant, measured in seconds. |
 | Avg Call Queue Duration Seconds | Integer | The average duration that users are waiting for a Call Queue to be answered by an agent, measured in seconds. |
 

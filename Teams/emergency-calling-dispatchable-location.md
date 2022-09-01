@@ -1,5 +1,5 @@
 ---
-title: "Emergency addresses for remote locations"
+title: Emergency addresses for remote locations
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,14 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- M365-voice
+  - M365-voice
+  - m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-description: "Learn how Microsoft supports dispatchable location information to support emergency calling."
+f1.keywords: 
+  - NOCSH
+description: Learn how Microsoft supports dispatchable location information to support emergency calling.
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -74,6 +75,20 @@ The following table shows the types of emergency addresses and associated routin
 
 
 ## Enable end users to configure their emergency address
+
+### Using the Microsoft Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**.
+2. Select **Add**.
+3. Enter a name for the emergency calling policy, for example, "E911WFH".
+4. Turn on **External location lookup mode**.
+5. Select **Apply**.
+
+#### Assign a custom emergency calling policy to users
+
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
+
+### Using PowerShell
 
 To enable this feature for your end users, use the New-CsTeamsEmergencyCallingPolicy PowerShell cmdlet, and set the ExternalLocationLookupMode parameter to Enabled. See the following example: 
 
