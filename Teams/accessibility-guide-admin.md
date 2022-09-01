@@ -163,7 +163,7 @@ To turn on video filters:
 
 ### Why it's helpful to reduce distractions
 
-Some users in your organization might find it difficult to focus during video meetings and calls because of movement, light, and other distractions in participants' backgrounds. Using video filters helps users control distractions and participate fully.
+Some people in your organization might find it difficult to focus during video meetings and calls because of movement, light, and other distractions in participants' backgrounds. Using video filters helps users control distractions and participate fully.
 
 *Background effects* can help people focus on the speaker rather than on the speaker's background. Microsoft Teams has a library of backgrounds, and users can also upload their own.
 
@@ -176,3 +176,94 @@ Video filters are helpful in a wide variety of situations, but are especially he
 - People who are deaf or hard of hearing
 
 For more information, see [Web Content Accessibility Guideline (WCAG) 1.4.8.: Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html).
+
+## Improve participation in Microsoft Teams meetings
+
+Encourage user participation with more options for controla nd flexibility by turning on **Chat in meetings**, and messaging policies like chat editing, **Immersive Reader**, and emojis.
+
+### Turn on chat in meetings.
+
+Chat makes it easier for many users to ask questions or add info in Teams meetings.
+
+To check if in-meeting chat is turned on:
+
+1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
+
+2. Select the policy you want to modify.
+
+3. Go to the **Participants & guests** section.
+
+4. Choose the option under **Chat in meetings** that best fits your organization's compliance and security requirements. You can select one of the following options:
+
+   - Turn it on for everyone (recommended)
+   
+   - Turn it off for everyone (not recommended)
+   
+   - Turn it on for everyone but anonymous users
+
+5. Select **Save**.
+
+### Use messaging policies for increased flexibility and control
+
+Flexible chat options make it easier for many users to understand others’ messages, revise their own messages, and express themselves.
+
+To check if these flexible chat options are turned on:
+
+In the **Microsoft Teams admin center**:
+
+1. In the Microsoft Teams admin center, go to **Messaging policies**.
+
+2. Select the policy you want to modify.
+
+3. Check that the following items are turned **On**:
+
+   - **Delete sent messages**
+   
+   - **Edit sent messages**
+   
+   - **Chat**
+
+   - **Giphys in conversations**
+
+   - **Memes in conversations**
+
+   - **Stickers in conversations**
+
+   - **URL previews**
+
+   - **Translate messages**
+
+   - **Immersive reader for messages**
+
+4. Select **Save**.
+
+> [!TIP]
+> Share the link [everything you need to know to write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2) with your organization to help users understand non-text messages shared in chat.
+
+### Why alternate participation options matter
+
+Flexible chat options give people greater flexibility in how they use in-meeting chat content and more control over how they participate in a meeting with chat.
+
+*In-meeting chat* gives people another way to participate in the meeting discussion. For some people with disabilities, chat might be preferable to voice or sign language as a way to contribute to meeting discussions.
+
+*Immersive Reader*, a tool designed for people who have dyslexia and dysgraphia, helps make text easier to understand. It also includes in-line translation for people who prefer to communicate in a different language. Some of the key features of Immersive Reader are:
+
+- Adding the option to have content read aloud
+
+- Changing text size and background color
+
+- Breaking words into syllables
+
+- Increasing the space between letters
+
+- Highlighting one or more lines of text
+
+- Highlight parts of speech
+
+Flexible chat options are helpful in a wide variety of situations, but are especially helpful for:
+
+- People who are blind or have low vision
+
+- People who are neurodiverse (i.e. have dyslexia or dysgraphia)
+
+For more information, see [Web Content Accessibility Guidelines (WCAG) 1.1.1.: Text Alternatives](https://www.w3.org/TR/WCAG21/#text-alternatives).
