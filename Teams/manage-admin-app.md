@@ -39,8 +39,6 @@ In this article, you’ll learn how to successfully navigate and get started wit
 
 Built with small businesses in mind, the Admin app creates a central hub for administrators to manage Microsoft 365 for their organization within Microsoft Teams.  The app is a simplified view of commonly used and requested settings from the [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339) and [Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339) admin centers.  The app’s convenient location allows admins to focus on core management tasks without the frustration of having to switch between multiple windows. Now you can easily manage users, subscriptions and grant access to services in Microsoft 365 subscriptions, find support resources, and change settings for Teams meetings, messages, files, and webinars  all from the comfort of Teams.
 
-:::image type="content" source="media/admin-app-dashboard.png" alt-text="Image displaying the dashboard tab in the Admin app":::
-
 ## Who can access the Admin app in Teams?
 
 The Admin app in Teams is meant for administrative use. The Admin app is only accessible to users with the following admin roles: Global administrator, Teams administrator, Users administrator, and Billings administrator. [Learn more about admin roles in the Microsoft 365 admin center.](/microsoft-365/admin/add-users/about-admin-roles) 
