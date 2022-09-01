@@ -1,19 +1,19 @@
 ---
 title: Remote provisioning and sign in for Teams Android devices
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+  - Teams_ITAdmin_Devices
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to remote provision and sign in for Teams Android devices
@@ -28,16 +28,16 @@ IT admins can remotely provision and sign in to a Teams Android device. To provi
 The following list shows the Android device firmware requirements.
 
 |Device category|Device model|Firmware version|
-|-|-|-|
+|---|---|---|
 |Teams phones|Yealink T55/T56/T58|58.15.0.124|
 |Teams phones|Yealink VP59|91.15.0.58|
 |Teams phones|Yealink CP960|73.15.0.117|
 |Teams phones|Yealink MP56/MP54/MP58|122.15.0.36|
 |Teams phones|Crestron UC-2|1.0.3.52|
-|Teams phones|	Poly Trio C60|	7.0.2.1071|
-|Teams phones|	CCX400/CCX500/CCX600	|7.0.2.1072|
-|Teams phones|	Audio Codes C448HD/C450HD/C470HD|	1.10.120|
-|Teams panels|	Crestron 770/1070|	1.004.0115|
+|Teams phones|Poly Trio C60|7.0.2.1071|
+|Teams phones|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Teams phones|Audio Codes C448HD/C450HD/C470HD|1.10.120|
+|Teams panels|Crestron 770/1070|1.004.0115|
 |Teams Rooms on Android|Logitech Rally Bar Mini|1.2.982|
 |Teams Rooms on Android|Logitech Rally Bar|1.2.982|
 |Teams Rooms on Android|AudioCodes RXV80|1.13.361|
@@ -94,7 +94,7 @@ When the device is powered on and connected to the network, the technician provi
 
    ![Provision new device option from the Actions tab.](../media/provision-device1.png)
   
-2. The technician enters the device-specific verification code in the provided input field.
+2. The technician enters the device-specific verification code in the provided input field.
 
    ![Provision new device verification.](../media/provision-device-verification1.png)
 

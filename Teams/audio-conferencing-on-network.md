@@ -1,5 +1,5 @@
 ---
-title: "On-network Conferencing for Audio Conferencing"
+title: On-network Conferencing for Audio Conferencing
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -12,13 +12,12 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.custom: 
   - Audio Conferencing
-description: "The following describes On-network for Audio Conferencing."
+description: The following describes On-network for Audio Conferencing.
 ---
 
 # On-network Conferencing for Audio Conferencing
@@ -29,7 +28,7 @@ This article describes the prerequisites and configuration steps required to ena
 
 > [!IMPORTANT]
 > On-network Conferencing must NOT be deployed with any telephony equipment in India.
-  
+
 ## Prerequisites
 
 Before configuring On-network Conferencing, make sure your organization meets the following prerequisites:
@@ -42,8 +41,8 @@ Before configuring On-network Conferencing, make sure your organization meets th
 
 - Set up your Session Border Controller (SBC) for Direct Routing. For additional information, see [Plan Direct Routing](direct-routing-plan.md) and [Configure Direct Routing](direct-routing-configure.md).
 
-  If you are setting up Direct Routing only for the purposes of Audio Conferencing, then you need only complete “Step 1: Connect your SBC” for On-network Conferencing.
-  
+  If you are setting up Direct Routing only for the purposes of Audio Conferencing, then you need only complete "Step 1: Connect your SBC" for On-network Conferencing.
+
 ## Enable the routing of dial-in calls to Microsoft Audio Conferencing through Direct Routing
 
 To route dial-in calls made by your on-premises users to the Audio Conferencing service through Direct Routing, you need to configure appropriate routing rules for your SBCs and Private Branch Exchange(s) (PBXs).
@@ -59,11 +58,11 @@ You can find the service numbers in Teams admin center under **Meetings -> Confe
 
 Teams meeting dial-out calls are initiated from within a meeting in your organization to PSTN numbers, including call-me-at calls and calls to bring new participants to a meeting.
 
-To enable Teams meeting dial-out routing through Direct Routing to on-network users, you need to create and assign an Audio Conferencing routing policy called “OnlineAudioConferencingRoutingPolicy”.
+To enable Teams meeting dial-out routing through Direct Routing to on-network users, you need to create and assign an Audio Conferencing routing policy called "OnlineAudioConferencingRoutingPolicy".
 
 The OnlineAudioConferencingRoutingPolicy policy is equivalent to the CsOnlineVoiceRoutingPolicy for 1:1 PSTN calls via Direct Routing. The OnlineAudioConferencingRoutingPolicy policy can be managed by using the following cmdlets:
 
--	New-CsOnlineAudioConferencingRoutingPolicy
+- New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
 - Get-CsOnlineAudioConferencingRoutingPolicy
 - Grant-CsOnlineAudioConferencingRoutingPolicy
@@ -92,9 +91,9 @@ The following steps are needed to set up Audio Conferencing routing policies:
 
 #### Create PSTN usages
 
-PSTN usages are collections of voice routes. When a dial-out call is initiated from the meeting of a given organizer, voice routes will be used to determine the routing path of the call based on the PSTN usages that are associated to the user via the user’s voice routing policy.
+PSTN usages are collections of voice routes. When a dial-out call is initiated from the meeting of a given organizer, voice routes will be used to determine the routing path of the call based on the PSTN usages that are associated to the user via the user's voice routing policy.
 
-You can create a PSTN usage by using the “Set-CsOnlinePstnUsage” cmdlet. For Example:
+You can create a PSTN usage by using the "Set-CsOnlinePstnUsage" cmdlet. For Example:
 
 ```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
@@ -104,7 +103,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 Voice routes determine the PSTN gateway that should be used to route a call based on the phone number that is dialed from a Teams meeting. Voice routes determine the PSTN gateway that should be used to route a given call by matching the phone number dialed from a Teams meeting with a regex pattern. When creating a voice route, the route must be associated to one or more PSTN usages.
 
-You can create a voice route and define the regex and gateways to be associated with the voice route by using the “New-CsOnlineVoiceRoute” cmdlet. For Example:
+You can create a voice route and define the regex and gateways to be associated with the voice route by using the "New-CsOnlineVoiceRoute" cmdlet. For Example:
 
 ```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -114,7 +113,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7}
 
 Audio Conferencing voice routing policies determine the possible routes that can be used to route a call originating from the meetings of an organizer based on the target phone number of the meeting dial-out call. Audio Conferencing voice routing policies are associated to one or more PSTN usages, which in turn, determine the possible routes that will be attempted to be used for the meeting dial-out calls of the organizers associated to the policy.
 
-You can create an Audio Conferencing voice routing policy by using the “New- CsOnlineAudioConferencingRoutingPolicy” cmdlet. For Example:
+You can create an Audio Conferencing voice routing policy by using the "New- CsOnlineAudioConferencingRoutingPolicy" cmdlet. For Example:
 
 ```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
@@ -126,10 +125,10 @@ After the policy is assigned to a user, and when a meeting dial-out call is init
 
 After the Audio Conferencing routing policies are defined, you can now assign them to users. After policies are assigned to them, the meeting dial-out calls will be evaluated against it to determine their routing path. Audio Conferencing routing policies are always evaluated based on the organizer of the meeting, independently from the user in the meeting that initiates a meeting dial-out call.
 
-You can assign an Audio Conferencing voice routing policy to a user by using the “Grant-CsOnlineAudioConferencingRoutingPolicy” cmdlet. For example:
+You can assign an Audio Conferencing voice routing policy to a user by using the "Grant-CsOnlineAudioConferencingRoutingPolicy" cmdlet. For example:
 
 ```powershell
-Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
+Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1"
 ```
 
 ### Configure routing on the telephony equipment of your organization

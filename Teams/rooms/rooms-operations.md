@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Teams Rooms maintenance and operations"
-ms.author: czawideh
-author: cazawideh
+title: Microsoft Teams Rooms maintenance and operations
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -9,10 +9,11 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "Learn about managing Microsoft Teams Rooms."
+description: Learn about managing Microsoft Teams Rooms.
 ---
 
 # Microsoft Teams Rooms maintenance and operations

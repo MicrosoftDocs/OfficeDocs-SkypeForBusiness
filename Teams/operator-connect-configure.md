@@ -1,11 +1,11 @@
 ---
 title: Configure Operator Connect
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
-ms.service: msteams
+ms.service: msteams 
 audience: admin
 ms.collection: 
   - M365-voice
@@ -66,7 +66,7 @@ To acquire numbers for new Teams users, follow these steps:
 4. **Assign numbers.** Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
 > [!NOTE]
-> In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers, contact your operator.
+> In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers, contact your operator.
 
 ### Emergency addresses
 
@@ -86,18 +86,23 @@ For more information on emergency calling, see [Manage emergency calling](what-a
 
 1. Contact your operator to port your numbers to Operator Connect. See [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) to find your operator's website.
 
-2. After your operator completes the porting order, you can unassign your users' Calling Plan phone numbers, and remove the Calling Plan License. Then, your operator can upload the numbers to your tenant.
+2. After your operator completes the porting order, your operator will upload the numbers to your tenant.
 
 3. Assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
 ### Move numbers from Direct Routing to Operator Connect
 
-To move numbers from Direct Routing to Operator Connect, the existing Direct Routing number that was uploaded to your tenant by your operator must be removed from the user it's assigned to. Then, after the number is migrated to Operator Connect, you can re-assign the number to the user. To move from Direct Routing to Operator Connect with on-premises or online phone numbers, follow the steps below:
+To move from Direct Routing to Operator Connect with on-premises or online phone numbers, follow the steps below:
 
->[!IMPORTANT]
-> The phone number will be out of service during the migration, so coordinate with your Operator Connect operator before you begin.
+#### Step 1 - Identify if the existing Direct Routing numbers are assigned online or on-premises.
 
-#### Step 1 - Remove existing Direct Routing numbers.
+Check that the user is assigned a Direct Routing number by running the Teams PowerShell Module command:
+
+```PowerShell
+Get-CsPhoneNumberAssignment -AssignedPstnTargetId <user> 
+```
+
+Check that `NumberType` is DirectRouting.
 
 How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following Teams PowerShell Module command:
     
@@ -105,21 +110,25 @@ How you remove your existing Direct Routing numbers depends whether the number i
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
-    
-**To remove Direct Routing numbers assigned on-premises,** run the following Skype for Business Server PowerShell command:
-    
+If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Microsoft 365.
+
+**To migrate existing Direct Routing numbers assigned online to Operator Connect**, contact your operator. To find your operator's website, see [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). On the agreed date and time, your operator will migrate your numbers from Direct Routing to Operator Connect.
+
+**To migrate Direct Routing numbers assigned on-premises to Operator Connect**, run the following Skype for Business Server PowerShell command:
+>[!IMPORTANT]
+> The phone number will be out of service during the migration, so coordinate with your Operator Connect operator before you begin.
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following Teams PowerShell Module command: 
+The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced from on-premises to Microsoft 365, run the following Teams PowerShell Module command: 
     
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
-After the changes have synced to Office 365 online directory, the expected output is: 
+After the changes have synced to Microsoft 365 online directory, the expected output is: 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
@@ -127,7 +136,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **To remove existing online Direct Routing numbers assigned online,** run the following Teams PowerShell Module command:
+
 
 
 ```PowerShell

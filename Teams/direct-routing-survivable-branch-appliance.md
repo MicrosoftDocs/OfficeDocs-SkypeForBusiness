@@ -1,5 +1,5 @@
 ---
-title:  Direct Routing SBA
+title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,16 +9,15 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1.keywords:
-- NOCSH
-- ms.teamsadmincenter.directrouting.overview
+f1.keywords: 
+  - NOCSH
+  - ms.teamsadmincenter.directrouting.overview
 description: Learn more about Direct Routing, such as configuration, necessary core deployment decisions, and voice routing considerations.
 ms.custom: 
- - seo-marvel-apr2020
- - seo-marvel-jun2020
+  - seo-marvel-apr2020
+  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -191,7 +190,7 @@ Then follow these steps:
 
 For step-by-step guidance on how to configure your Session Border Controller with the embedded Survivable Branch Appliance, see the documentation provided by your SBC vendor: 
 
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/library/technical-documents?query=sba)
 
 - [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 

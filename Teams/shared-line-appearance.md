@@ -1,7 +1,7 @@
 ---
 title: "Shared line appearance in Microsoft Teams"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc

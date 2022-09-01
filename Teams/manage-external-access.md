@@ -105,21 +105,24 @@ To communicate with another tenant, they must either enable **Allow all external
 > [!NOTE]
 > The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
-Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
+Admins can choose to enable or disable communications with external Teams users that are not managed by an organization ("unmanaged"). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
 In the Teams admin center, go to **Users** > **External access**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
 To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
+
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
 To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact:
+
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
 To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
+
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
@@ -129,7 +132,7 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 ![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
 
-**Using the Microsoft Teams admin center**
+### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Users** > **External access**.
 
@@ -137,7 +140,7 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 
-## Using PowerShell
+### Using PowerShell
 
 Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
@@ -214,7 +217,7 @@ To enable users in your organization to communicate with users in another organi
 
 | If your organization is | Enable federation as follows |
 |:---------|:-----------------------|
-|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the domains that you want to communicate with are allowed for external access.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user's effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
+|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>- Make sure the domains that you want to communicate with are allowed for external access.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user's effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
 |On-premises only| In on-premises tools: <br>- Ensure federation is enabled in `CsAccessEdgeConfiguration`.<br>- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in `AllowedDomains`.|
 |Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both online and on-premises organizations. |
 
@@ -266,6 +269,13 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant or policy configurations that are preventing communication with the federated user.
 
+## User-level controls
+
+When users receive 1:1 chats from someone outside the organization they are presented with a full-screen experience in which they can choose to **Preview** the message, **Accept** the chat, or **Block** the person sending the chat.
+
+Blocking external people is available in multiple places within Teams, including the more (**...**) menu on the chat list and the more (**...**) menu on the people card. Users can also unblock external people via the more (**...**) menu on the chat list, the more (**...**) menu on the people card, or by visiting **Settings** > **Blocked contacts** > **Edit blocked contacts**. Blocking is available prior to or after messages are sent.
+
+Blocking external people prevents them from sending messages in 1:1 chats, adding the user to new group chats, and viewing their presence. While group chat invitations are blocked, blocked users can be in the same chats with users that blocked them either because the chat was initiated prior to the block or the group chat invitation was sent by another member.
 
 ## Related topics
 

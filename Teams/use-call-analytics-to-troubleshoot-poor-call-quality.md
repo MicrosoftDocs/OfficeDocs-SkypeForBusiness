@@ -1,7 +1,7 @@
 ---
 title: "Use Call Analytics to troubleshoot poor call quality"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -50,6 +50,10 @@ To get additional information about a given session, including detailed media an
 
 ![Screenshot of call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
+This video shows the steps to view a user's meetings and call information.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
+
 ## What does each Teams Support role do?
 
 The **Teams communications support specialist** (Tier 1 support) handles basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a Teams communications support engineer.
@@ -88,7 +92,7 @@ The following table tells you what per-user information is available for each co
 
    In the session details for each call or meeting, minor issues appear in yellow. If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session.
 
-In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by the a dropped call or when the connection with the client terminates. When this occurs, the session rating is **unavailable**.
+In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by a dropped call or when the connection with the client terminates. When this occurs, the session rating is **unavailable**.
 
 For audio sessions that do have Quality of Experience (QoE) data, the following table describes major issues that qualify a session as **poor**.
 

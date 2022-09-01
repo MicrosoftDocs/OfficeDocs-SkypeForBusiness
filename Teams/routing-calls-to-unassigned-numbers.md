@@ -1,5 +1,5 @@
 ---
-title: "Routing calls to unassigned numbers"
+title: Routing calls to unassigned numbers
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to route calls to unassigned numbers in your organization."
+description: Learn how to route calls to unassigned numbers in your organization.
 ---
 
 # Routing calls to unassigned numbers
@@ -64,7 +63,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - To route calls to unassigned Microsoft Calling Plan subscriber numbers, your tenant needs to have available [Communications Credits](what-are-communications-credits.md).
 
-- To route calls to unassigned Microsoft Calling Plan service numbers, your tenant needs to have at least one Phone System – Virtual User license.
+- To route calls to unassigned Microsoft Calling Plan service numbers, your tenant needs to have at least one **Microsoft Teams Phone Resource Account** license.
 
 - The custom audio file supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. The audio file content cannot be more than 5 MB.
 

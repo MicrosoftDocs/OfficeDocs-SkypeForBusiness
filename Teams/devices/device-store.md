@@ -1,27 +1,25 @@
 ---
-title: "Teams device store"
-ms.author: czawideh
-author: cazawideh
+title: Teams device store
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
 ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 description: Learn how to browse and purchase devices in the Teams admin center device store
 ---
 
 # Purchase devices in the Teams device store
-
->[!NOTE]
->The Teams device store is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Cloud.
 
 The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams.  
 
@@ -29,7 +27,7 @@ The device store in the Teams admin center lets you browse, purchase, and provis
 
 ## Requirements
 
-To use the device store, you must be a Global admin, Teams admin, or a Teams device admin.
+To use the device store, you must be a Global admin, a Teams admin or a Teams device admin.
 
 ## Browse the store
 
@@ -42,14 +40,6 @@ When you purchase devices from the device store, the payment and fulfillment, in
 You can pay with a credit card or a purchase order. Purchase order payment requires one-time setup with the fulfillment provider.
 
 All orders can be returned up to 30 days after they’re delivered.
-
-## Data handling and sharing
-
-The Teams device store needs to share basic user and company information, including user and tenant GUIDs, with UnifiedCommunications.com to enable purchasing in the Teams admin center.
-
-Data sharing is turned off by default. To enable it, go to the Teams devices store, select the settings icon, and turn the setting on.  
-
-When this setting is off, data will not be shared, and you can browse the Teams devices store, but you can't make purchases. The data that was collected and shared with the fulfillment provider while the setting was on is processed as specified in their privacy statement.
 
 ## Order tracking and history
 

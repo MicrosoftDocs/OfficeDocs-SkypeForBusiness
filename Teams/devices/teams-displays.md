@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Teams displays"
-ms.author: czawideh
-author: cazawideh
+title: Microsoft Teams displays
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article provides an overview of and features supported by Microsoft Teams displays."
+description: This article provides an overview of and features supported by Microsoft Teams displays.
 ---
 
 # Microsoft Teams displays

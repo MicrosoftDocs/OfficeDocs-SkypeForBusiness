@@ -151,7 +151,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 - If dynamic enablement of emergency calling or dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.
 
-- If only dynamic locations are required, you must configure only trusted IP addresses; configuring metwork settings isn't required.
+- If only dynamic locations are required, you must configure only trusted IP addresses; configuring network settings isn't required.
 
 - If neither are required, configuring network settings isn't required.
 
@@ -243,7 +243,7 @@ The following table shows support for dynamic emergency calling in the governmen
 | :------------|:-------|
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
-| GCCH | -Available on Teams desktop <br> -Available on Teams mobile clients <br> -Pending availability on Teams phones |
+| GCCH | -Available on Teams desktop <br> -Available on Teams mobile clients <br> -Available on Teams phones, app version: 1449/1.0.94.2022061702 |
 | DoD | Pending |
 
  ## Related topics

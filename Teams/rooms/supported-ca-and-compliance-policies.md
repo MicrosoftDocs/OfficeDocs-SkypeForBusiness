@@ -1,16 +1,17 @@
 ---
-title: "Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms"
-ms.author: czawideh
-author: cazawideh
+title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
+ms.author: dstrome
+author: dstrome
 ms.reviewer: kspiess
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 
@@ -20,19 +21,19 @@ This article provides supported Conditional Access and Intune device compliance 
 
 > [!NOTE]
 > Teams Rooms must already be deployed on the devices you want to assign
-Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
+Conditional Access policies to. If you haven't deployed Teams Rooms yet,
 see [Create resource accounts for rooms and shared Teams devices](with-office-365.md)
 and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
-## Supported Conditional Access policies  
+## Supported Conditional Access policies  
 
 The following list includes the supported Conditional Access policies for Teams Rooms on Windows and Android, and for policies on Teams panels, phones, and displays.
 
 | Assignment                               | Teams Rooms on Windows                                                                                                                                                                              | Teams Rooms on Android and panels                                                                                                                                                                              | Teams phones and displays                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | User or workload identities              | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Cloud apps or actions                    | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported<br><br>Teams Android devices needs to access the following three Cloud apps: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams |
+| Cloud apps or actions                    | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported<br><br>Teams Android devices needs to access the following three Cloud apps: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams |
 | **Conditions**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | User risk                                | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Sign-in risk                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
@@ -70,7 +71,7 @@ different device compliance policies.
 #### [Teams Rooms on Windows](#tab/mtr-w)
 
 Below is a table of device compliance settings and recommendations for
-their use with Teams Rooms.  
+their use with Teams Rooms.  
 
 | Policy                                                                                                                      | Availability   | Notes                                                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
@@ -92,7 +93,7 @@ their use with Teams Rooms.  
 | Antivirus                                                                                                                   | Supported      | Antivirus (Windows Defender) is already a requirement for Teams Rooms.                                                                      |
 | Antispyware                                                                                                                 | Supported      | Antispyware (Windows Defender) is already a requirement for Teams Rooms.                                                                    |
 | Microsoft Defender Antimalware                                                                                              | Supported      | Microsoft Defender Antimalware is already a requirement for Teams Rooms.                                                                    |
-| Microsoft Defender Antimalware minimum version                                                                              | Not supported. | Teams Rooms automatically updates this component so there’s no need to set compliance policies.                                             |
+| Microsoft Defender Antimalware minimum version                                                                              | Not supported. | Teams Rooms automatically updates this component so there's no need to set compliance policies.                                             |
 | Microsoft Defender Antimalware security intelligence up-to-date                                                             | Supported      | Validate that Microsoft Defender Antimalware is already a requirement for Teams Rooms.                                                      |
 | Real-time protection                                                                                                        | Supported      | Real-time protections are already a requirement for Teams Rooms.                                                                            |
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-windows#microsoft-defender-for-endpoint) | --             | --                                                                                                                                          |
@@ -101,7 +102,7 @@ their use with Teams Rooms.  
 #### [Teams Rooms on Android](#tab/mtr-a)
 
 Below is a table of device compliance settings and recommendations for
-their use with Teams Rooms.  
+their use with Teams Rooms.  
 
 | Policy                                                                                                                                  | Availability  | Notes                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
@@ -134,7 +135,7 @@ their use with Teams Rooms.  
 
 #### [Teams phones and displays](#tab/phones)
 
-Below is a table of device compliance settings and recommendations for their use with Teams phones and displays.  
+Below is a table of device compliance settings and recommendations for their use with Teams phones and displays.  
 
 | Policy                                                                                                                                  | Availability  | Notes                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
@@ -152,7 +153,7 @@ Below is a table of device compliance settings and recommendations for their use
 | [**Device properties**](/mem/intune/protect/compliance-policy-create-android#device-properties)                                         | --            | --                                                                            |
 | Operating System Version (minimum, maximum)                                                                                             | Supported     |                                                                               |
 | [**System security**](/mem/intune/protect/compliance-policy-create-android#system-security)                                             | --            | --                                                                            |
-| Require encryption of data storage on device.                                                                                           | Supported     | Manufacturers might configure encryption attributes on their devices in a way that Intune doesn’t recognize. If this happens, Intune marks the device as noncompliant.<br><br>How manufacturers configure these encryption attributes can vary depending on the model of the device. For more information a specific model, contact the device manufacturer. |
+| Require encryption of data storage on device.                                                                                           | Supported     | Manufacturers might configure encryption attributes on their devices in a way that Intune doesn't recognize. If this happens, Intune marks the device as noncompliant.<br><br>How manufacturers configure these encryption attributes can vary depending on the model of the device. For more information a specific model, contact the device manufacturer. |
 | [**Device security**](/mem/intune/protect/compliance-policy-create-android#device-security)                                             | --            | --                                                                            |
 | Block apps from unknown sources                                                                                                         | Not supported | Only Teams admins install apps or OEM tools                                   |
 | Company Portal app runtime integrity                                                                                                    | Supported     |                                                                               |
@@ -169,7 +170,7 @@ Below is a table of device compliance settings and recommendations for their use
 
 #### [Teams panels](#tab/panels)
 
-Below is a table of device compliance settings and recommendations for their use with Teams panels.  
+Below is a table of device compliance settings and recommendations for their use with Teams panels.  
 
 | Policy                                                                                                                                  | Availability  | Notes                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
