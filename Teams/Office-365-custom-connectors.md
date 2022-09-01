@@ -1,6 +1,6 @@
 ---
 title: Manage Microsoft 365 and custom connectors
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
