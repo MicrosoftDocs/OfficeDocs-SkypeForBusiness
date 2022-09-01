@@ -49,10 +49,10 @@ The Admin app in Teams is meant for administrative use. The Admin app is only ac
 
 The Admin app is available to download from the [Microsoft Teams app store](https://aka.ms/TeamsClientAdminApp). Global administrators should use the search bar within the store to find the Admin app. With Admin, users get a desktop, web, and mobile experience. If the Admin app is installed on the Teams desktop client, users will also see it in their Teams web and mobile clients.
 
-The Admin app will be pre-pinned in the left navigation bar of Teams for organizations with 25 seats or less using Microsoft 365 Business Premium and Teams Essentials AAD. If it hasn't been pre-pinned for you already, you can install it from the Teams app store today or wait until the feature is rolled out to your environment over the next few weeks.
+The Admin app will be pre-pinned in the left navigation bar of Teams for organizations with 25 seats or less. If it hasn't been pre-pinned for you already, you can install it from the Teams app store today or wait until the feature is rolled out to your environment.
 
 > [!NOTE]
-> Organizations with 25 seats or less will begin to see the app automatically pre-pinned. This experience is being rolled out gradually over time to users of Microsoft 365 Business Premium, Teams Essentials AAD, Microsoft 365 Business Basic, and Microsoft 365 Business Standard.
+> Organizations with 25 seats or less will begin to see the app automatically pre-pinned. This experience is being rolled out gradually over time to users.
 
 If you have over 25 seats in your organization, get started with the Admin app by downloading it from the Teams app store today. Once downloaded, easily pin the app by locating it in the left app menu, right-clicking on it and selecting "Pin".
   
