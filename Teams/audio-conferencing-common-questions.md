@@ -137,7 +137,7 @@ For meeting organizers only:
 | Command Name                   | Command Keys | Description                                                 |
 |--------------------------------|--------------|-------------------------------------------------------------|
 | Admit all                      | \*21         | Press \*21 to admit all participants waiting in the lobby.  |
-| Mute all                       | \*22         | Press \*21 to mute all participants (except the organizer). |
+| Mute all                       | \*22         | Press \*22 to mute all participants (except the organizer). |
 | Toggle Enter/Exit Announcement | \*23         | Press \*23 to enable or disable Enter/Exit Announcement.    |
 
 ## Can attendees dial out to international phone numbers when they are in a Skype for Business or Microsoft Teams meeting?
