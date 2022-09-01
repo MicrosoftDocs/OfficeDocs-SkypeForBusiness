@@ -66,7 +66,7 @@ To turn on transcription for users:
 
 Captions and transcripts are text versions of the words someone is speaking. They give people the option to see text in addition to, or instead of, audio alone. Captions also benefit people who are deaf or hard of hearing by giving additional information on top of what some users receive from the sign language interpreter or CART captioner they might work with.
 
-Captions and transcription are helpful in a wide variety of situations, but is especially helpful for:
+Captions and transcription are helpful in a wide variety of situations, but are especially helpful for:
 
 - People who are deaf or hard of hearing
 
@@ -129,3 +129,50 @@ To check if IP video feed is turned on:
 > - [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
 
 For more information, see [Web Content Accessiblity Guide (WCAG) 1.2.6.: Sign language interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded).
+
+## Reduce distractions in meetings
+
+Encourage user participation by turning on video filters to reduce distractions in Teams meetings.
+
+### Turn on video filters
+
+Video filters help reduce distractions during meetings.
+
+To turn on video filters:
+
+1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
+
+2. Select the policy you want to modify.
+
+3. Go to the **Content sharing** section.
+
+4. Choose the option under **Select video filters** that best fits your organization's compliance and security requirements. Select one of the following options:
+
+   - Background blur only
+   
+   - Backgorund blur and default images
+
+   - All filters
+
+5. Select **Save**.
+
+> [!TIP]
+> Share the following links so users can adjust their Teams meeting preferences to reduce distractions:
+> - [Change background effects in Teams meetings](https://support.microsoft.com/office/change-your-background-for-a-teams-meeting-f77a2381-443a-499d-825e-509a140f4780#ID0EDD=Desktop)
+> - [Reduce background noise in Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
+
+### Why it's helpful to reduce distractions
+
+Some users in your organization might find it difficult to focus during video meetings and calls because of movement, light, and other distractions in participants' backgrounds. Using video filters helps users control distractions and participate fully.
+
+*Background effects* can help people focus on the speaker rather than on the speaker's background. Microsoft Teams has a library of backgrounds, and users can also upload their own.
+
+*Background blur* helps to improve visibility and focus when in meetings or calls because it reduces distractions in the background but keeps users in focus.
+
+Video filters are helpful in a wide variety of situations, but are especially helpful for:
+
+- People who are neurodiverse
+
+- People who are deaf or hard of hearing
+
+For more information, see [Web Content Accessibility Guideline (WCAG) 1.4.8.: Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html).
