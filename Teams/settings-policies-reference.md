@@ -104,7 +104,7 @@ Template policies control what team templates users see when they create a new t
 |Transcription|On|Description|
 |Cloud recording|On|When On, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to recording permissions to record the meeting.|
 |Meetings automatically expire|On|When On, meeting recordings will automatically expire in the number of days shown in the Default expiration time setting.|
-|Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. Meetings automatically expire must also be turned On.|
+|Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. **Meetings automatically expire** must also be turned **On**.|
 |Store recordings outside your country or region|Off|Description|
 
 ### Meeting policies - Content sharing
@@ -116,9 +116,9 @@ Template policies control what team templates users see when they create a new t
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Screen sharing mode|Entire screen|Description|
-|Participants can give or request control|On|Description|
-|External participants can give or request control||Description|
+|Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting.|
+|Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants.|
+|External participants can give or request control|Off|Controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.|
 |PowerPoint Live|On|Description|
 |Whiteboard|On|Description|
 |Shared notes|On|When On, attendees can create shared meeting notes through the meeting details.|
@@ -192,7 +192,7 @@ Template policies control what team templates users see when they create a new t
 |Inbound calls can be routed to call groups|On|Description|
 |Delegation for inbound and outbound calls|On|Description|
 |Prevent toll bypass and send calls through the PSTN|Off|Description|
-|Music on hold|Enabled|Description|
+|Music on hold|Enabled|Controls whether music is played when a PSTN caller is placed on hold.|
 |Busy on busy when in a call|Not enabled|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
 |Web PSTN calling|On|Description|
 |Real-time captions in Teams calls|On|Description|
