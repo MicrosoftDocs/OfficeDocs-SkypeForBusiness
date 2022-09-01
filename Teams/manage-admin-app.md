@@ -37,7 +37,7 @@ In this article, you’ll learn how to successfully navigate and get started wit
 
 ## Overview of the Admin app
 
-Built with small businesses in mind, the Admin app creates a central hub for administrators to manage Microsoft 365 for their organization within Microsoft Teams.  The app is a simplified view of commonly used and requested settings from the [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339) and [Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339) admin centers.  The app’s convenient location allows admins to focus on core management tasks without the frustration of having to switch between multiple windows. Now you can easily manage subscriptions, find support resources, add and remove people from teams, and change settings for Teams meetings, messages, files, and webinars  all from the comfort of Teams.
+Built with small businesses in mind, the Admin app creates a central hub for administrators to manage Microsoft 365 for their organization within Microsoft Teams.  The app is a simplified view of commonly used and requested settings from the [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339) and [Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339) admin centers.  The app’s convenient location allows admins to focus on core management tasks without the frustration of having to switch between multiple windows. Now you can easily manage users, subscriptions and grant access to services in Microsoft 365 subscriptions, find support resources, and change settings for Teams meetings, messages, files, and webinars  all from the comfort of Teams.
 
 :::image type="content" source="media/admin-app-dashboard.png" alt-text="Image displaying the dashboard tab in the Admin app":::
 
@@ -47,16 +47,16 @@ The Admin app in Teams is accessible to users with the following admin roles: Gl
 
 ## Get started with the Admin app
 
-The Admin app is available to download from the [Microsoft Teams app store](https://aka.ms/MSTeamsStore). Global administrators should use the search bar within the store to find the Admin app. With Admin, users get a desktop, web, and mobile experience. If the Admin app is installed on the Teams desktop client, users will also see it in their Teams web and mobile clients. Once downloaded, Admin can be found pinned on the left navigation bar in Microsoft Teams.
+The Admin app is available to download from the [Microsoft Teams app store](https://aka.ms/TeamsClientAdminApp). Global administrators should use the search bar within the store to find the Admin app. With Admin, users get a desktop, web, and mobile experience. If the Admin app is installed on the Teams desktop client, users will also see it in their Teams web and mobile clients.
 
-If you have over 25 seats in your organization, you can get started with the Admin app by downloading it from the Teams app store today.
-
-The app will be pre-pinned in the left navigation bar of Teams for organizations with 25 seats or less. If it hasn't been pre pinned for you already, you can install it from the Teams app store today or wait until we roll it out to your environment within the next few weeks.
-  
-If your organization has fewer than 25 seats and you don't want to have the app pre-pinned to the left navigation bar in Microsoft Teams, you can easily unpin the app by right-clicking on it and selecting "Unpin".
+The Admin app will be pre-pinned in the left navigation bar of Teams for organizations with 25 seats or less using Microsoft 365 Business Premium and Teams Essentials AAD. If it hasn't been pre-pinned for you already, you can install it from the Teams app store today or wait until the feature is rolled out to your environment over the next few weeks.
 
 > [!NOTE]
-> Organizations with 25 seats or less will begin to see the app automatically pre-pinned. This experience is being rolled out gradually over time.
+> Organizations with 25 seats or less will begin to see the app automatically pre-pinned. This experience is being rolled out gradually over time to users of Microsoft 365 Business Premium, Teams Essentials AAD, Microsoft 365 Business Basic, and Microsoft 365 Business Standard.
+
+If you have over 25 seats in your organization, get started with the Admin app by downloading it from the Teams app store today. Once downloaded, easily pin the app by locating it in the left app menu, right-clicking on it and selecting "Pin".
+  
+If you don't want to have the app pre-pinned to the left navigation bar in Microsoft Teams, you can easily unpin the app by right-clicking on it and selecting "Unpin".
 
 ## Navigate the Admin app
 
@@ -64,18 +64,18 @@ This section introduces you to the controls, resources, and support channels ava
 
 The Admin app has two tabs, **Dashboard** and **About**. Visit the **About** tab to find more information about Admin. You’ll likely spend most of your time under the tailored **Dashboard** tab. It’s filled with resources and tools to help you manage and customize your organization’s experience in Teams and Microsoft 365.
 
-From the Dashboard tab, you’ll find a navigation menu consisting of the **Home**, **Users**, **Teams**, **Subscriptions**, **Settings**, and **Help** pages.
+From the Dashboard tab, you’ll find a navigation menu consisting of the **Home**, **Users**, **Teams**, **Subscriptions**, **Settings**, and **Support** pages.
 
-**Home**: Browse through a curated list of top actions recommended for your organization, like Add a user, Set up meeting preferences, and Manage privacy permissions. Selecting a top action tile will open its corresponding management settings window. You can quickly customize preferences and permissions, find training, and explore resources to best meet your organization’s needs.  
+**Home**: Browse through a curated list of top actions for your organization, like Add a user, Set up meeting preferences, and Manage messaging permissions. Selecting a top action tile will open its corresponding management settings window. You can quickly customize preferences and permissions, find training, and explore resources to best meet your organization’s needs.  
 
-**Users**: Use the Users page to manage who can access apps and services. Quickly add or remove users, manage licenses, and reset passwords. You can select a user from the list to find more details about their account. You can view a history of the user’s sign-in attempts, manage their groups and roles, and control their access to Microsoft 365 sessions.
+**Users**: Use the Users page to manage who can access apps and services. Quickly add or remove users, manage licenses, and reset passwords. You can select a user from the list to find more details about their account. You can view a history of the user’s sign-in attempts, manage their groups and roles, and control their access to Microsoft 365 subscriptions.
 
 **Teams**: Use the **Teams** page to oversee your organization’s teams for collaboration, chat, and meetings in Microsoft Teams. This page allows you to manage team members, owners, guests, and emails. When you add a new user here, they’ll always be added to the org-wide team.
 **Subscriptions**: Use the **Subscriptions** management page to change your payment method, view invoices, and track license usage for subscriptions. You can view available licenses, add more products, monitor subscription status, and assign licenses. A license gives a user access to a set of Microsoft services.
 
-**Settings**: Select **Settings** from the menu will open an expanded list of Microsoft Teams settings for managing **messaging**, **files**, **webinars**, and **apps**. Any changes to settings are applied on an org-wide level. Use Meetings to manage meeting access and related features like auto-admit or allowing transcriptions. Use Files to add an external cloud storage service to Teams. Use **Webinars** to manage access for live events and webinars.
+**Settings**: Selecting **Settings** from the menu will open an expanded list of Microsoft Teams settings for managing **messaging**,**meetings**, **files**, **webinars**, and **apps**. Any changes to settings are applied on an org-wide level. Use Meetings to manage meeting access and related features like auto-admit or allowing transcriptions. Use Files to add an external cloud storage service to Teams. Use Webinars to manage registration access to webinars for your organization and external guests.
 
-**Help**: Use the **Help** page to submit support tickets and find common solutions. Under the **Search** tab, you can use the search bar to discover recommended solutions and resources. After entering a phrase, the Search tab will generate suggested actions and related how-to articles, videos, and training resources for the subject. The **Contact support** tab allows you to create a new ticket with Microsoft Support. To get started, select **Contact support** and follow the instructions to submit your new ticket. You can view a log of your submitted support requests under **Request history**.
+**Support**: Use the **Support** page to submit support tickets and find common solutions. Under the **Search** tab, you can use the search bar to discover recommended solutions and resources. After entering a phrase, the Search tab will generate suggested actions and related how-to articles, videos, and training resources for the subject. The **Contact support** tab allows you to create a new ticket with Microsoft Support. To get started, select **Contact support** and follow the instructions to submit your new ticket. You can view a log of your submitted support requests under **Request history**.
 
 ## Give feedback on the Admin app
 
