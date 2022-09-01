@@ -128,7 +128,7 @@ To check if IP video feed is turned on:
 > - [Customize your meeting view](https://support.microsoft.com/office/customize-your-meeting-view-95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
 > - [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
 
-For more information, see [Web Content Accessiblity Guide (WCAG) 1.2.6.: Sign language interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded).
+For more information, see [Web Content Accessiblity Guide (WCAG) 1.2.6.: Sign Language Interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded).
 
 ## Reduce distractions in meetings
 
@@ -267,3 +267,37 @@ Flexible chat options are helpful in a wide variety of situations, but are espec
 - People who are neurodiverse (i.e. have dyslexia or dysgraphia)
 
 For more information, see [Web Content Accessibility Guidelines (WCAG) 1.1.1.: Text Alternatives](https://www.w3.org/TR/WCAG21/#text-alternatives).
+
+## Share resources with users to further accessibility awareness
+
+There are additional steps end-users can take to improve their experience in accessibility. Share the links below with your organization and guest users.
+
+### Reference links
+
+Microsoft’s Disability Answer Desk has end-user guides to customize their experience to meet their accessibility needs:
+
+- [Turn on live captions during meetings](https://support.microsoft.com/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260#ID0EBD=Desktop)
+
+- [Customize your meeting view](https://support.microsoft.com/office/customize-your-meeting-view-95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
+
+- [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
+
+- [Change background effects in Teams meetings](https://support.microsoft.com/office/change-your-background-for-a-teams-meeting-f77a2381-443a-499d-825e-509a140f4780#ID0EDD=Desktop)
+
+- [Reduce background noise in Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
+
+- [Everything you need to know to write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2)
+
+- [Accessibility tools for Microsoft Teams](https://support.microsoft.com/office/accessibility-tools-for-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=en-us&rs=en-us&ad=us)
+
+### Reference Web Content Accessibility Guidelines (WCAG)
+
+WCAG are a series of international standards designed to improve web accessibility. The success criterion referenced in this guide include:
+
+- [WCAG 1.2.4.: Captions (Live)](https://www.w3.org/WAI/WCAG21/Understanding/captions-live)
+
+- [WCAG 1.2.6.: Sign Language Interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded)
+
+- [WCAG 1.4.8.: Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)
+
+- [WCAG 1.1.1.: Text Alternatives](https://www.w3.org/TR/WCAG21/#text-alternatives)
