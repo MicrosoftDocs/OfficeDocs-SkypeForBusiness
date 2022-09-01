@@ -234,3 +234,48 @@ Call hold policies allow you to specify an audio file to play while calls are on
 |Replace the caller ID with|User's number|Description|
 |Replace the caller ID with this service number|(Choose a service number)|Description|
 
+### Emergency policies
+
+**Navigation:** Teams admin center > Voice > Emergency policies
+
+:::image type="content" source="media/teams-policies-emergency-calling.png" alt-text="Screenshot of Teams emergency calling policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|External location lookup mode|Off|Description|
+|Notification mode|(Blank)|Description|
+|Emergency service disclaimer|(Blank)|Description|
+|Numbers to dial for emergency calls notifications|(Blank)|Description|
+|Users and groups for emergency calls notifications|(Blank)|Description|
+
+### Voice routing policies
+
+**Navigation:** Teams admin center > Voice > Voice routing policies
+
+:::image type="content" source="media/" alt-text="Screenshot of Teams voice routing policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+|||Description|
+
+### Voicemail policies
+
+**Navigation:** Teams admin center > Voice > Voicemail policies
+
+:::image type="content" source="media/meetings-policies-voicemail.png" alt-text="Screenshot of Teams voicemail policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Users can edit call answering rules|On|Description|
+|Maximum voicemail recording length (seconds)|300|Description|
+|Primary prompt language|(Blank)|Description|
+|Secondary prompt language|(Blank)|Description|
+|Voicemail transcription|On|Description|
+|Translation for transcriptions|On|Description|
+|Mask profanity in voicemail transcription|Off|Description|
+|Users can share data for service improvement|On|Description|
