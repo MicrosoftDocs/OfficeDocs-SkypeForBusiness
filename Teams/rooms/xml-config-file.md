@@ -172,8 +172,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<ExtendedFoRDisplay>` | Container |First &#x2776;| In dual display mode, Extended Front of Room (FoR) is a screen where you see shared content (in meeting).  `<ExtendedFoRDisplayResolution>` and `<ExtendedFoRDisplayScaling>` have to be set together at a time. If you only use either `<ExtendedFoRDisplayResolution>` or `<ExtendedFoRDisplayScaling>`, it will be ignored. |
 | `<ExtendedFoRDisplayResolution>` | String | |Input numeric value of Width, Height (for example: 1920,1080). A value will be ignored if your FoR does not support it. |
 | `<ExtendedFoRDisplayScaling>` | Number | | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you input 500 and your FoR supports up to 300, it will be set to 300. |
-| `<EnableDeviceEndToEndEncryption>` | Boolean &#x2777; | | Default is false. Specify true to enable end-to-end encryption for one-to-one Teams calls. Both caller and callee should have end-to-end encryption enabled for this to work. |
-| `<SplitVideoLayoutsDisabled>` |  Boolean &#x2777; | | Default is false. This setting is only applicable to dual display rooms. Specify true to disable splitting video gallery across both screens. This will also disable Front row layout, and any settings associated with Front row layout. |
+| `<EnableDeviceEndToEndEncryption>` | Boolean &#x2777; | | Default is `false`. Specify `true` to enable end-to-end encryption for one-to-one Teams calls. Both caller and recipient need to have end-to-end encryption enabled for this to work. |
+| `<SplitVideoLayoutsDisabled>` |  Boolean &#x2777; | | Default is `false`. This setting is only applicable to dual-display rooms. Specify `true` to disable splitting video gallery across both screens. This will also disable Front row layout, and any settings associated with Front row layout. |
 
 &#x2776; All of the first-level elements are optional. If a first-level element is omitted, all of its child parameters remain unchanged on the device.
   
