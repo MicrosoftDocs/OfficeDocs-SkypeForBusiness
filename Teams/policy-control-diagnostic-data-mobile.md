@@ -1307,7 +1307,7 @@ action.
 - **fetch_me_profile** - The users profile creation status.
 - **getProfilePicture**- Necessary service call to get user profile picture. 
 - **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
-- **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
+- **get_resource_token_sync**: Required service call to acquire tokens for Azure Active Directory resources synchronously.
 - **get_sender_sub_scenario** - Get sender sub scenario in activity.
 - **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication.
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
