@@ -1,6 +1,6 @@
 ---
 title: Manage access to Teams apps across Microsoft 365
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: v-tbasra
@@ -33,6 +33,11 @@ The enhanced apps are listed below:
 * [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9)
 * [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d)
 * [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube)
+* [PDF Tools](https://teams.microsoft.com/l/app/ca4b5141-5c46-47bc-a05e-2733d9bd69aa?source=app-details-dialog)
+* [Bigger Brains eLearning](https://teams.microsoft.com/l/app/12345514-afee-abcd-acde-c5b34109abcd?source=app-details-dialog)
+* [Waldo](https://teams.microsoft.com/l/app/1d041f16-ab49-4627-bfda-6b60ad2cab6a?source=app-details-dialog)
+* [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=app-details-dialog)
+* [Adobe Acrobat Sign](https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b?source=app-details-dialog)
 
 You can control end-user access to the Teams apps using the following methods. If you're an Office Apps admin, contact your Global admin or Teams admin to manage app access.
 
