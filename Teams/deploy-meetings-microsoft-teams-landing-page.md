@@ -48,7 +48,6 @@ Teams provides a great out-of-the-box experience for your organization, and most
 > [!TIP]
 > Watch the following session to learn more about Meetings: [Introduction to Meetings in Microsoft Teams for IT Pros](https://aka.ms/teams-meetings-intro).
 
-
 ## Meetings and conferencing prerequisites
 
 Before scaling your meetings deployment across your organization, take time to review and confirm that your environment is ready to provide users with the best
@@ -147,7 +146,7 @@ To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meetings-policies-recording-and-transcription.md#allow-transcription)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meetings-policies-recording-and-transcription.md#transcription)|
 
 ### Live events policies
 
@@ -200,6 +199,7 @@ It's important that you understand the overall health of the Teams service so th
 |Who in my organization will be responsible for managing the meetings service? | Make sure this person has the Teams admin permissions they need in order to manage your meetings service. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
 
 ## Next steps
+
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of meetings & conferencing throughout your organization.
 - [Add audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)

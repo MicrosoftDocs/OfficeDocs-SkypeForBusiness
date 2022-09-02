@@ -34,7 +34,7 @@ When a meeting is recorded, it's automatically:
 - Added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Indexed for Microsoft 365 Search
 
-Related: [Teams meeting recording end user documentation](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
+Related: [Teams meeting recording end user documentation](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > The change from using Microsoft Stream (classic) to OneDrive and SharePoint for meeting recordings will automatically happen in August 2021. For detailed information, see [Use OneDrive and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md).
@@ -74,7 +74,7 @@ This section explains how you can set up and plan for recording Teams meetings v
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether user's meetings can be recorded.
 
-In the Microsoft Teams admin center, turn on or turn off the **Cloud recording** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+In the Microsoft Teams admin center, turn on or turn off the **Cloud recording** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#cloud-recording).
 
 Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -102,8 +102,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | I want recording to be 100% disabled. | <ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False.<li>All users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False. |
 | I want recording to be turned off for the majority of the users but selectively enable specific users who are allowed to record. | <ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False.<li>Most of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False.<li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True. <ol> |
 
-
 <a name="bd-channel"></a>
+
 ### Block or allow download of channel meeting recordings
 
 This setting controls if channel meetings are saved to a "Recordings" folder or a "Recordings\View only" folder in the channel. The setting applies to the policy of the user who selects record for the channel meeting.
@@ -138,17 +138,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### Turn on or turn off recording transcription
+
 This setting controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.
   
 Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
-
 
 > [!NOTE]
 > That transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates) , Arabic (Saudi Arabia) , Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia) , Danish (Denmark), Dutch (Belgium) , Dutch (Netherlands), French (Canada), French (France), Finnish (Finland) , German (Germany), Greek (Greece), Hebrew (Israel) , Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea) , Norwegian (Norway), Polish (Poland) , Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand) , Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam). They are stored together with the meeting recordings in OneDrive and SharePoint cloud storage.
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
-In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#allow-transcription).
+In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#transcription).
 
 Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -166,9 +166,6 @@ To change value of AllowCloudRecording in the Global policy, use the following c
 Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ```
 
-</br>
-</br>
-
 |Scenario|Steps |
 |---|---|
 |I want all users in my company to be able to transcribe when initiating recording of a meeting. |<ol><li>Confirm Global CsTeamsMeetingPolicy has AllowTranscription = True. <li>All users have the Global csTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowTranscription = True. </ol>|
@@ -177,6 +174,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |I want transcription to be disabled for the majority of the users but selectively enable specific users who are allowed to transcribe. |<ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False. <li>Majority of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False. <li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True. </ol>|
 
 ### Terms of use acceptance
+
 If your organization has a meeting recording policy that you would like your users to accept before recording a meeting, use the [Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use) feature. This feature allows your users to accept your organization's terms of user policy before getting access to Microsoft Teams. This feature is not specific to clicking the record button, but is related to using Teams or other Microsoft 365 apps overall. Our suggestion is to add your meeting recording information to your overall terms of use for using Teams or Microsoft 365.
 
 ### Set a custom privacy policy URL
@@ -203,7 +201,7 @@ Meeting recordings are stored in OneDrive and SharePoint cloud storage. The loca
 
 - The recording is stored in a folder named **Recordings** in the OneDrive of the user who clicked record. 
 
-  Example:  <i>recorder's OneDrive</i>/**Recordings**
+  Example: *recorder's OneDrive*/**Recordings**
 
 - People invited to the meeting, except external participants, will automatically be granted permission to the recording file with view access without ability to download.
 
@@ -215,7 +213,7 @@ If `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` is set to Allow (default
 
 - The recording is stored in the Teams site documentation library in a folder named **Recordings**.
 
-  Example:  <i>Teams name - Channel name</i>/**Documents**/**Recordings**
+  Example: *Teams name - Channel name*/**Documents**/**Recordings**
 
 - The member who clicked record has edit rights to the recording.
 
@@ -225,7 +223,7 @@ If `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` is set to Block:
 
 - The recording is stored in the Teams site documentation library in a folder named **Recordings/View only**. 
 
-  Example:  <i>Teams name - Channel name</i>/**Documents/Recordings/View only**
+  Example: *Teams name - Channel name*/**Documents/Recordings/View only**
 
 - Channel owners will have full edit and download rights on the recordings in this folder.
 
@@ -247,6 +245,7 @@ For more info on specific meeting types, see the following table:
 |Channel meeting                            |Channel Member         |Teams' SharePoint location for that channel                   |If Set-CsTeamsMeetingPolicy -ChannelRecordingDownload is set to Allow (default) the member who clicked on Record has edit rights to the recording. Every other member’s permissions are based on the Channel SharePoint permissions.<Br><Br>If Set-CsTeamsMeetingPolicy -ChannelRecordingDownload is set to Block channel owners will have full rights on the recording, but channel members will have read access without ability to download.|
 
 <a name="temp-storage"></a>
+
 ### Temporary storage when unable to upload to OneDrive and SharePoint
 
 If a meeting recording isn't able to be uploaded to OneDrive and SharePoint, it will temporarily be available for download from Teams for 21 days before it is deleted. This is not something at this point that an admin can control or manage to include the ability to delete it.
@@ -266,21 +265,14 @@ The recording retention for this is temporary storage is affected by the chat me
 ### Planning for storage
 
 The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in OneDrive and SharePoint.  Read [Set the default storage space for OneDrive](/onedrive/set-default-storage-space) and [Manage SharePoint site storage limits](/sharepoint/manage-site-collection-storage-limits) to understand the base storage included in the subscription and how to purchase additional storage.
-
- <a name="auto-expiration"></a>
-### Auto-expiration of Teams meeting recordings
-
-See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches.
-  
-Learn more about the admin-specific changes [here](meeting-expiration.md#changes-to-meeting-expiration).
-
-Learn more about how end users can manage meeting expiration [here](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 ## Manage meeting recordings
 
 Meeting recordings are stored as video files in OneDrive and SharePoint and follow management and governance options available in those platforms. Read [SharePoint governance overview](/sharepoint/governance-overview) for more information.
 
 For non-channel meetings, the recordings are stored in the recorder's OneDrive, thus handling ownership and retention after an employee leaves will follow the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+
+Meeting recordings have a Default expiration time of 120 days. You can turn off the Meetings automatically expire setting or change the Default expiration time. Learn more about [meeting recordings automatically expiring](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
 
 ## Closed captions for recordings
 
@@ -319,11 +311,12 @@ You can apply DLP policies to meeting recording files also by the ProgID propert
 To learn more about DLP see the article [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 ## Meeting Recording Diagnostic Tools
-  ### User cannot record meetings
+
+### User cannot record meetings
 
 If you're an administrator, you can use the following diagnostic tool to validate that the user is properly configured to record a meeting in Teams:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
@@ -332,16 +325,16 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to record a meeting in Teams.
   
-  ### Meeting record is missing
+### Meeting record is missing
 
 If you're an administrator, you can use the following diagnostic tool to validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive, based on the meeting ID and recording start time:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
 
-2. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded? ** field and then select **Run Tests**.
+2. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
 
 3. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
 
