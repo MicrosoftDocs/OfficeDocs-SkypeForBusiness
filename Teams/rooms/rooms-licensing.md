@@ -36,7 +36,7 @@ Microsoft offers two licenses for meeting room devices that participate in Teams
 
     You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 25 devices, those additional licenses need to be Teams Rooms Pro licenses.
 
-A Teams Rooms Basic license can be used to license a single Teams Rooms device in a room. If you want to log into more than one device in a room using the same resource account (for example, a Teams Rooms console, a Surface Hub, and a Teams panel), you need to use a Teams Rooms Pro license.
+A Teams Rooms Basic license can be used to license a single certified Teams Rooms device in a room. If you want to log into more than one device in a room using the same resource account (for example, a Teams Rooms console, a Surface Hub, and a Teams panel), you need to use a Teams Rooms Pro license.
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
@@ -52,21 +52,28 @@ The following table shows the services included in each Teams Rooms license.
 | **Whiteboard**                            | &#x2714;                                                             | &#x2714;                                                               |
 | **Teams Phone**                           |                                                                      | &#x2714;                                                               |
 | **Microsoft Intune**                      |                                                                      | &#x2714;                                                               |
+| **Azure Active Directory Premium Plan 1** |                                                                      | &#x2714;                                                               |
 | **Skype for Business Plan 2<sup>2</sup>** |                                                                      | &#x2714;                                                               |
-| **Segment availability**                  | Commercial, WorldWide Public Sector, Education, Charity, GCC         | Commercial, WorldWide Public Sector, Education, Charity, GCC, GCC-High |
+| **Geographic availability**               | Worldwide                                                            | Worldwide                                                              |
+| **Segment availability**                  | Commercial, Worldwide Public Sector, Education, Charity, GCC         | Commercial, Worldwide Public Sector, Education, Charity, GCC, GCC-High |
 | **Channel availability**                  | Web Direct, New commerce experience (NCE) - Customer led<sup>3</sup> | EA, EAS, EES, CSP, Web Direct, NCE - Customer led, NCE - Partner led   |
 
 <sup>1</sup> To verify service availability, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). [Communication Credits](../what-are-communications-credits.md) may apply for additional services, such as toll-free, international minutes for domestic plans, and so on. You can disable these features to avoid additional billing.
 
 <sup>2</sup> Included to enable certain legacy authentication methods.
 
-<sup>3</sup> You to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
+<sup>3</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
 
 ## Switching from Teams Rooms Standard and Teams Rooms Premium
 
-If your organization has meeting devices that use the Teams Rooms Standard or Teams Rooms Premium legacy licenses, you can continue using those licenses until their expiration date. Upon the expiration date of your existing legacy licenses, you need to purchase a Teams Rooms Basic or Teams Rooms Pro license for your devices. If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period.
+If your organization has meeting devices that use the Teams Rooms Standard or Teams Rooms Premium legacy licenses, you can continue using those licenses until their expiration date. Upon the expiration date of your existing legacy licenses, we recommend that you transition to the Teams Rooms Pro license. The meeting and management features<sup>*</sup> available in both of the legacy licenses have been combined in the Teams Rooms Pro license.
 
-The features that are available to you with the Teams Rooms Standard and Teams Rooms Premium licenses won't change while you still have those licenses assigned to your devices. However, not all feature investments and updates added to Teams and Teams Rooms devices will be available to devices using these legacy licenses.
+> [!IMPORTANT]
+> Legacy licenses won't automatically transition to the new licenses. Upon expiration of a legacy license, you'll need to purchase a new Teams Rooms Pro (recommended) or Teams Rooms Basic license. Teams Rooms Pro licenses can be purchased through the Microsoft admin center or your preferred sales channel. Teams Rooms Basic licenses can only be purchased through the Microsoft admin center.
+
+If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period. Starting on December 1, 2022, you'll no longer be able to reserve or purchase Teams Rooms Premium legacy licenses. After December 1, 2022, you should replace your Teams Rooms Premium legacy licenses with Teams Rooms Pro licenses to maintain the same functionality. If you have a Teams Rooms Standard legacy license, you can continue to reserve additional licenses until your next renewal period. For more information, contact your Microsoft representative.
+
+<sup>*</sup>Microsoft Service engineers will no loner service as intermediaries to incident response starting October 1, 2022.
 
 ## Teams Rooms console and Teams client feature comparison
 
