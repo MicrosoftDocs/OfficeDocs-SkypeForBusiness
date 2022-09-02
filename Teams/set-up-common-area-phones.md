@@ -138,9 +138,7 @@ Once you create and configure a user account, you can sign into a phone. Dependi
 To sign in locally with a username and password:
 
 1. Turn on the common area phone.
-
 2. Select **Sign in on this device**.
-
 3. Follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
 
 > [!NOTE]
@@ -151,9 +149,7 @@ To sign in locally with a username and password:
 You can also sign into to a common area phone from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the phone itself.
 
 1. On your common area phone, find the code displayed on the sign-in screen.
-
 2. On another device, go to [https://www.microsoft.com/devicelogin](https://www.microsoft.com/devicelogin).
-
 3. Enter the code and follow the instructions to complete signing in.
 
 ### Sign in using the Teams admin center
@@ -162,18 +158,34 @@ As an admin, you can remotely provision and sign into common area phones from th
 
 ## Step 6 - Set up Advanced calling on common area phones (optional)
 
-The following calling features are available for supported Teams phone device models with a **Common Area Phone** license and the latest Teams updates (minimum version: `1449/1.0.94.2022061702`):
+By default, the basic calling experience will be on the common area phone's home screen, but you can turn on an advanced calling experience.
+
+The following advanced calling features are available for supported Teams phone device models with a **Common Area Phone** license and the latest Teams updates (minimum version: 1449/1.0.94.2022061702):
 
 - [Call park and retrieve](call-park-and-retrieve.md).
 - [Cloud-based voicemail through Exchange Online Plan 2](set-up-phone-system-voicemail.md).
+  - To disable cloud-based voicemail, see [Voicemail user settings using PowerShell](/powershell/module/skype/set-csonlinevoicemailusersettings).
 - [Call queues](create-a-phone-system-call-queue.md).
 - [Auto attendants](create-a-phone-system-auto-attendant.md).
 - [Group call pick-up](call-sharing-and-group-call-pickup.md).
 - [Forwarding rules](teams-calling-policy.md).
 
-To use these advanced calling features, turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your common area phone's account. You'll need hardware phone models that support all advanced capabilities.
+To use these advanced calling features on supported Teams phone device models, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Common Area Phone account.
 
-To disable cloud-based voicemail from your devices, see [Voicemail user settings using PowerShell](/powershell/module/skype/set-csonlinevoicemailusersettings).
+Turning on advanced calling capabilities requires you to purchase hardware models that can support all required capabilities.
+
+### Turn on Advanced calling in Teams admin center
+
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/dashboard) with a Microsoft 365 admin account.
+1. From the left-side menu, navigate to **Teams devices** > **Phones** > and select the **Configuration profiles** tab.
+1. From the list, select the configuration profile assigned to your common area phone.
+1. Under the **Calling settings** section, find the **Advanced calling** toggle.
+1. Turn the toggle on.
+1. At the bottom of the page, select the **Save** button.
+
+### Turn on Advanced calling from a Teams phone device
+
+1. After signing into your Teams phone device, ?
 
 ## Next steps
 
