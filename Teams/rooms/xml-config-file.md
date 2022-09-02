@@ -27,7 +27,7 @@ It is possible for you to change default settings of Teams Rooms by updating a m
   
 ## Create an XML configuration file
 
-Any text editor can be used to create a settings file. The **XML Elements** table explains the elements shown in this sample SkypeSettings.xml (required file name) configuration file. Please note that the XML elements are case-sensitive.
+Any text editor can be used to create a settings file. The **XML Elements** table explains the elements shown in this sample SkypeSettings.xml (required file name) configuration file. Note that the XML elements are case-sensitive.
   
 ```XML
 <SkypeSettings>
