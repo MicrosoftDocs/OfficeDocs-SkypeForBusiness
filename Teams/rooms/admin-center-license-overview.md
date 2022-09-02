@@ -26,7 +26,7 @@ description: Learn about and compare Teams Rooms licensing and feature availabil
 
 # Microsoft Teams Rooms license overview in Teams admin center
 
-The Teams admin center lets you view and manage Teams Rooms devices and their peripheral from a central location. This article shows you [what management capabilities](#comparison-of-teams-rooms-feature-availability-by-license) you have depending on whether a Teams Rooms device is assigned a Microsoft Teams Rooms Basic or Microsoft Teams Rooms Pro license.
+The Teams admin center lets you view and manage Teams Rooms devices and their peripherals from a central location. This article shows you [what management capabilities](#comparison-of-teams-rooms-feature-availability-by-license) you have, depending on whether a Teams Rooms device is assigned a Microsoft Teams Rooms Basic or Microsoft Teams Rooms Pro license.
 
 For more information about Microsoft Teams Rooms licenses, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
 

@@ -73,7 +73,7 @@ If your organization has meeting devices that use the Teams Rooms Standard or Te
 
 If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period. Starting on December 1, 2022, you'll no longer be able to reserve or purchase Teams Rooms Premium legacy licenses. After December 1, 2022, you should replace your Teams Rooms Premium legacy licenses with Teams Rooms Pro licenses to maintain the same functionality. If you have a Teams Rooms Standard legacy license, you can continue to reserve additional licenses until your next renewal period. For more information, contact your Microsoft representative.
 
-<sup>*</sup>Microsoft Service engineers will no loner service as intermediaries to incident response starting October 1, 2022.
+<sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
 
 ## Teams Rooms console and Teams client feature comparison
 
