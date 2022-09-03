@@ -34,7 +34,7 @@ If app developers make one or more the following changes to their apps, then the
 * Add or remove a bot. Change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot, that may change the bot's notifications.
 * Change `SupportsCalling`, `SupportsVideo`, and `SupportsFiles` properties of an existing bot to add capability to call, play video, and upload or download files.
-* Permissions inside Authorization are added or changed.
+* Add or remove permissions in authorization.
 * Add or remove a messaging extension, add a group tab, add a connector, or add a channel.
 * Change parameters in the [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) in the manifest file.
 
