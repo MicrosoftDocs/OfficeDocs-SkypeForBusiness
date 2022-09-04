@@ -22,8 +22,8 @@ description: In this article, learn how Microsoft apps, custom apps, and third-p
 
 Teams admins can help their end-users get the latest version of the apps. To do so they have the following the following roles:
 
-* [Updates to third-party apps](#updates-to-third-party-apps) that are available in Teams store when a new version is provided by the app developer or vendor.
-* [Updates to custom apps](#updates-to-custom-apps) that are available only in your organization when your developer submits a new version.
+* [Update third-party apps](#updates-to-third-party-apps) that are available in Teams store when a new version is provided by the app developer or vendor.
+* [Update custom apps](#updates-to-custom-apps) that are available only in your organization when your developer submits a new version.
 
 ## Updates to third-party apps
 
