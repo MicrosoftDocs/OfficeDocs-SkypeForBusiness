@@ -43,11 +43,11 @@ For detailed information about each of these metadata fields, see the [Teams man
 
 ## Verify if an app is customizable
 
-All apps are not customizable. If an app developer allows you to customize their app, only then can you use the app customization functionality to modify the appearance of the app. To verify if the app of your choice is customizable or not, follow these steps:
+All apps aren't customizable. If an app developer allows you to customize their app, only then can you use the app customization functionality to modify the appearance of the app. To verify if the app of your choice is customizable or not, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Search the app that you want to customize using the app name. Verify in the **Customizable** column if the app developer allows the app to be customized or not. If the column is not visible, select Edit Columns :::image type="icon" source="media/settings-icon-16px.svg"::: and toggle **Customizable** option to **On**.
+1. Search the app that you want to customize using the app name. Verify in the **Customizable** column if the app developer allows the app to be customized or not. If the column isn't visible, select Edit Columns :::image type="icon" source="media/settings-icon-16px.svg"::: and toggle **Customizable** option to **On**.
 
    :::image type="content" source="media/customizable-apps-in-tac.png" alt-text="The screenshot shows that customizable column in admin center helps you verify if an app is customizable or not.":::
 
@@ -61,7 +61,7 @@ To change the look and feel of an app as it appears in your organization's Teams
 
 1. Search the app that you want to customize using the app name and ensure that it can be customized.
 
-1. Do one of the following:
+1. Follow one of these steps:
 
    * Select the row of an app and then select **Customize** :::image type="icon" source="media/edit-pen-icon.png"::: in the toolbar in the Manage apps page.
 
@@ -115,11 +115,11 @@ The limitations on the customizable fields are below:
 | Short description | The short description must be under 80 characters and not repeat what's in the full description. |
 | Icon | Transparent outline icon in PNG format that is 32x32 pixel in resolution. |
 | Color icon | Full-color icon in PNG format that is 192x192 pixel in resolution. |
-| Accent color | Color must matches your icon background. |
+| Accent color | Color must match your icon background. |
 
 ## Review app details
 
-To view the changes after saving those, view the app details page.
+To view the changes after saving the customization, view the app details page.
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
