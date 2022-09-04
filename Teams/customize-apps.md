@@ -69,7 +69,7 @@ To change the look and feel of an app as it appears in your organization's Teams
 
    * Select the app name, select **Actions**, and select **Customize**.
 
-     :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page.":::
+     :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page." lightbox="media/customize-action-menu-expanded.png":::
 
 1. Customize one or more of the available fields. An app developer may allow only a few of the metadata fields to be customized. See [considerations and limitations of customizable fields](#know-the-considerations-and-limitations-for-customizable-metadata).
 
