@@ -83,6 +83,8 @@ To change the look and feel of an app as it appears in your organization's Teams
    :::image type="content" source="media/customize-app-colors.png" alt-text="Screenshot showing the icon color options that can be customized.":::
 --->
 
+## Considerations and limitations of app customization
+
 Consider the following details about app customization functionality:
 
 * You'll have only one version of the app, since customizing the app features doesn't create a copy of the app.
@@ -104,8 +106,6 @@ Consider the following details about app customization functionality:
 * The [app usage report](teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that is provided by the publisher.
 
 * The Microsoft Graph permission consent dialog displays the original name of the app that is provided by the publisher. It helps you to accurately identify an app while providing permissions to it.
-
-## Know the considerations and limitations for customizable metadata
 
 The limitations on the customizable fields are below:
 
