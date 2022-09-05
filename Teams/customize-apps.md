@@ -61,7 +61,7 @@ To change the look and feel of an app as it appears in your organization's Teams
 
 1. Search the app that you want to customize using the app name and ensure that it can be customized.
 
-1. Follow one of these steps:
+1. To open the UI to customize individual metadata fields, follow one of these steps:
 
    * Select the row of an app and then select **Customize** :::image type="icon" source="media/edit-pen-icon.png"::: in the toolbar in the Manage apps page.
 
@@ -75,13 +75,29 @@ To change the look and feel of an app as it appears in your organization's Teams
 
    :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the customize user interface.":::
 
-1. After customizing the app, select **Apply**.
+1. After customizing the app, select **Apply**. To verify the changes that you've made, see [preview app details](#preview-app-details). To undo the changes, see [reset app details to default values](#reset-app-details-to-default-values).
 
 1. Select **Publish** to publish the customized app and see it listed in the **Manage apps** page.
 
 <!---
    :::image type="content" source="media/customize-app-colors.png" alt-text="Screenshot showing the icon color options that can be customized.":::
 --->
+
+## Preview app details
+
+To view the changes after saving the customization, view the app details page.
+
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+
+1. To open the app details page, select the app name.
+
+1. View the app details, including the original app name in the field **Short name from publisher**. The field is only visible if you've changed the app's short name.
+
+   :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
+
+Your Teams users can see the customized app in the Teams store in their client.
+
+   :::image type="content" source="media/contoso-app.png" alt-text="The screenshot shows a customized app in Teams client.":::
 
 ## Considerations and limitations of app customization
 
@@ -116,22 +132,6 @@ The limitations on the customizable fields are below:
 | Icon | Transparent outline icon in PNG format that is 32x32 pixel in resolution. |
 | Color icon | Full-color icon in PNG format that is 192x192 pixel in resolution. |
 | Accent color | Color must match your icon background. |
-
-## Review app details
-
-To view the changes after saving the customization, view the app details page.
-
-1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
-
-1. To open the app details page, select the app name.
-
-1. View the app details, including the original app name in the field **Short name from publisher**. The **Short name from publisher** field is only visible if you've changed the app's short name.
-
-   :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
-
-Your Teams users can see the customized app in the Teams store in their client.
-
-   :::image type="content" source="media/contoso-app.png" alt-text="The screenshot shows a customized app in Teams client.":::
 
 ## Reset app details to default values
 
