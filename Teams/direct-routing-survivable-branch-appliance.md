@@ -45,7 +45,7 @@ To get the latest Session Border Controller firmware with the embedded Survivabl
 - UDP Port 123 is used by Microsoft SBA Server to communicate with NTP server and should be allowed on the firewall.
 - Port 443 is used by Microsoft SBA Server to communicate with Microsoft 365 and should be allowed on the firewall.
 - Azure IP Ranges and Service Tags for the Public Cloud should be defined according to the guidelines described at: https://www.microsoft.com/download/details.aspx?id=56519
--  ICMP to www.microsoft.com is used by Microsoft SBA Server to determine the current status of the Internet Connection and should allowed on the firewall. 
+-  ICMP to www.microsoft.com is used by Microsoft SBA Server to determine the current status of the Internet connection and should be allowed on the firewall. 
 
 ## Supported Teams clients
 
