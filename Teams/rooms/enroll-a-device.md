@@ -112,7 +112,7 @@ mmrprodnoamiot.azure-devices.net<br>
 mmrprodnoamstor.blob.core.windows.net
   
   
-The first 3 URLs are required on all devices and are used in initial enrollment and host updates and remediations used by devices. The remaining URLs are based on tenant region. You can identify your tenants region by clickin the '?' in the top right of the portal and looking under 'Region'. These regional URLs are used for telemetry and log collection from the devices. 
+The first three URLs are required on all devices and are used in initial enrollment, host updates, and remediations used by devices. The remaining URLs are based on tenant region. You can identify your tenant's region by selecting the '?' in the top right of the portal and looking under _Region_. These regional URLs are used for telemetry and log collection from the devices. 
 
 ## Enrollment process
 
