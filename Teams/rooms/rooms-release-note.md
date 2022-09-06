@@ -97,12 +97,13 @@ Introduced in this update:
 
 - Front row layout experience update <sup>1</sup> 
 - Pin and hide room video <sup>1</sup> 
-- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>1</sup>
-- Dual-display Teams Rooms can now display up to 18 participant video streams <sup>2</sup>
+- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>2</sup>
+- Dual-display Teams Rooms can now display up to 18 participant video streams <sup>1</sup>
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses <sup>1</sup>
 
-<sup>1</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
+<sup>1</sup> This feature is rolling out to the Teams web client and will take about two weeks from the date this update was released to complete. For more information, see [Teams updates](../teams-client-update.md).
 
-<sup>2</sup> This feature is rolling out to the Teams web client and will take about two weeks to complete. For more information, see [Teams updates](../teams-client-update.md).
+<sup>2</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
 
 ### 4.13.132.0 (8/2/2022)
 
