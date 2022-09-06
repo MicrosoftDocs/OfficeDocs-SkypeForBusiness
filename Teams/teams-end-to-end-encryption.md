@@ -30,6 +30,8 @@ End-to-end encryption, or E2EE, happens when content is encrypted before it's se
 
 With E2EE for unscheduled one-to-one calls, only the real-time media flow, that is, video and voice data, for one-to-one Teams calls are end-to-end encrypted. Both parties must turn on this setting to enable end-to-end encryption. [Encryption in Microsoft 365](/microsoft-365/compliance/encryption) protects chat, file sharing, presence, and other content in the call.
 
+End-to-end encrypted calls can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac, they are on a mobile device with the latest update for iOS and Android, or they are on a Teams Rooms on Windows device using the latest update.
+
 If you don't enable end-to-end encryption, Teams still secures a call or meeting using encryption based on industry standards. Data exchanged during calls is always secure while in transit and at rest. For more information, see [Media encryption for Teams](teams-security-guide.md#media-encryption).
 
 During an end-to-end encrypted call, Teams secures the following features:
