@@ -252,7 +252,7 @@ Call hold policies allow you to specify an audio file to play while calls are on
 
 **Navigation:** Teams admin center > Voice > Voice routing policies
 
-:::image type="content" source="media/" alt-text="Screenshot of Teams voice routing policies.":::
+:::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
