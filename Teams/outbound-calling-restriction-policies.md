@@ -6,13 +6,11 @@ author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
   - M365-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
