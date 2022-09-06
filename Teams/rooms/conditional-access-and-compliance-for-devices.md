@@ -19,6 +19,8 @@ description: Learn about recommended Conditional Access and Intune device compli
 
 This article provides requirements and best practices for Conditional Access and Intune device compliance policies for Microsoft Teams Rooms that are used in shared spaces.
 
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
+
 ## Requirements
 
 Teams Rooms must already be deployed on the devices you want to assign
