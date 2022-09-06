@@ -271,11 +271,11 @@ Call hold policies allow you to specify an audio file to play while calls are on
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Users can edit call answering rules|On|Description|
-|Maximum voicemail recording length (seconds)|300|Description|
-|Primary prompt language|(Blank)|Description|
-|Secondary prompt language|(Blank)|Description|
-|Voicemail transcription|On|Description|
-|Translation for transcriptions|On|Description|
-|Mask profanity in voicemail transcription|Off|Description|
-|Users can share data for service improvement|On|Description|
+|Users can edit call answering rules|On|This setting controls whether the user is allowed to configure voicemail call answering rules in Microsoft Teams.|
+|Maximum voicemail recording length (seconds)|300|The maximum length of a voicemail. This must be between 30 and 600 seconds.|
+|Primary prompt language|(Blank)|The first language used to play system prompts to callers and the first option on the language selection menu.|
+|Secondary prompt language|(Blank)|The second language used to play system prompts to callers and the second option on the language selection menu.|
+|Voicemail transcription|On|Turn this on to enable transcription for voicemails.|
+|Translation for transcriptions|On|Turn this on to enable translation for voicemail transcriptions.|
+|Mask profanity in voicemail transcription|Off|If you turn this on, profanity will be masked in voicemail transcriptions.|
+|Users can share data for service improvement|On|If you turn this on, users can share voicemail and transcription data for training and improving accuracy. If you turn this off, voicemail data won't be shared.|
