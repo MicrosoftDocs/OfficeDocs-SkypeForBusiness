@@ -52,8 +52,8 @@ To configure a custom message and redirect users to aden org-specific URL to req
 
 1. To provide an org-specific URL to collect user requests, do the following:
 
-   * Change Redirect requests to external tool option to On.
-   * Provide your org-specific, custom URL.
+   1. Change Redirect requests to external tool option to On.
+   1. Provide your org-specific, custom URL.
 
       :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Screenshot to toggle the customization of URL for the user request to unblock app in the org-wide settings UI.":::
 
@@ -92,9 +92,9 @@ To reset the number of app requests to zero, dismiss the requests. Just allowing
 To dismiss the requests to allow app, follow these steps:
 
 1. Select the name of the app for which you want to dismiss the user requests.
-1. Select Manage requests and select Dismiss all requests on the dialog box.
+1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
 
-  :::image type="content" source="media/reject.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::​
+   :::image type="content" source="media/reject.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::​
 
 If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. When you dismiss a request to allow an app, the requests count in the admin center resets to zero. Also, after you dismiss a request, after a few hours, the users can again request the same app to be allowed.
 
