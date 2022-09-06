@@ -260,7 +260,7 @@ To manage a user's incoming calling policies by using the Teams admin center:
    New-CsTeamsMobilityPolicy -identity NativeFirst -MobileDialerPreference Native 
    ```
 
-3. Grant policies to users (Either Native or Mobile): 
+3. Grant policies to users: 
 
    ```PowerShell
    Grant-CsTeamsMobilityPolicy NativeFirst -Identity user@xyz.onmicrosoft.com
