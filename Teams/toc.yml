@@ -1169,8 +1169,6 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
-            - name: Phone number management for Mexico
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
             - name: Phone number management for New Zealand
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
             - name: Phone number management for Norway
@@ -1544,6 +1542,8 @@ items:
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Manage apps provided by Microsoft
       items:
+        - name: Manage the Admin app
+          href: manage-admin-app.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
