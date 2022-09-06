@@ -71,7 +71,7 @@ If your organization has meeting devices that use the Teams Rooms Standard or Te
 > [!IMPORTANT]
 > Legacy licenses won't automatically transition to the new licenses. Upon expiration of a legacy license, you'll need to purchase a new Teams Rooms Pro (recommended) or Teams Rooms Basic license. Teams Rooms Pro licenses can be purchased through the Microsoft 365 admin center or your preferred sales channel. Teams Rooms Basic licenses can only be purchased through the Microsoft 365 admin center.
 
-If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period. Starting on December 1, 2022, you'll no longer be able to reserve or purchase Teams Rooms Premium legacy licenses. After December 1, 2022, you should replace your Teams Rooms Premium legacy licenses with Teams Rooms Pro licenses to maintain the same functionality. If you have a Teams Rooms Standard legacy license, you can continue to reserve additional licenses until your next renewal period. For more information, contact your Microsoft representative.
+If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period. You can also continue to reserve additional legacy licenses until your next renewal period. For more information, contact your Microsoft representative.
 
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
 
