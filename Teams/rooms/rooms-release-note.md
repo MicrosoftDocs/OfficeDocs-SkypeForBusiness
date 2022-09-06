@@ -35,6 +35,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -89,6 +90,19 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.14.24.0 (9/2/2022)
+
+Introduced in this update:
+
+- Front row layout experience update <sup>1</sup> 
+- Pin and hide room video <sup>1</sup> 
+- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>1</sup>
+- Dual-display Teams Rooms can now display up to 18 participant video streams <sup>2</sup>
+
+<sup>1</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
+
+<sup>2</sup> This feature is rolling out to the Teams web client and will take about two weeks to complete. For more information, see [Teams updates](../teams-client-update.md).
 
 ### 4.13.132.0 (8/2/2022)
 
