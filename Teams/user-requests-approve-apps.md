@@ -27,7 +27,7 @@ This functionality provides a signal to IT admins about the demand for an app wi
 
 Admins retain complete control of which apps are allowed or blocked for users, using the familiar admin center controls to manage apps.
 
-The default option sends the user requests in Teams admin center where admins can [view user requests and allow the requested apps](#view-a-request).
+The default option sends the user requests in Teams admin center where admins can [view user requests and allow the requested apps](#view-user-requests-and-allow-the-requested-apps).
 
 <!--- These requests are collated in Teams admin center and admins can view and manage the requests when they want to. We strongly recommend having a regular triage to check for end-user requests.
 --->
