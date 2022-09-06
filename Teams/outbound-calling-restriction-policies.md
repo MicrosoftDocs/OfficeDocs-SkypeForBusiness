@@ -5,6 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
