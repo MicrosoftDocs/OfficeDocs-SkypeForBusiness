@@ -218,7 +218,7 @@ Call hold policies allow you to specify an audio file to play while calls are on
 |Call park|Off|Description|
 |Call pickup start of range|10|Description|
 |Call pickup end of range|99|Description|
-|Park timeout (seconds)|300|Description|
+|Park timeout (seconds)|300|The number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds.|
 
 ### Caller ID policies
 
