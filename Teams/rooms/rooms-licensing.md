@@ -28,7 +28,7 @@ description: Learn about and compare the available licenses for different types 
 
 Microsoft offers two licenses for meeting room devices that participate in Teams meetings and calls:
 
-- **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
+- **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and dual-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
     Teams Rooms Pro is a great fit for medium and enterprise organizations, as well as smaller organizations with larger room counts or more advanced needs.
 
@@ -87,7 +87,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Start ad hoc meetings from the room**                         | &#x2714;                    | &#x2714;                  |
 | **Direct Guest Join for Zoom and Webex meetings**               | &#x2714;                    | &#x2714;                  |
 | **Join meetings across Teams clouds**                           |                             | &#x2714;                  |
-| **Room checking with Teams Panel**                              |                             | &#x2714;                  |
+| **Room check-in with Teams Panel**                              |                             | &#x2714;                  |
 
 ### Share and collaborate
 
@@ -104,7 +104,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Front row**                                        |                             | &#x2714;                  |
 | **Together mode**                                    |                             | &#x2714;                  |
 | **Large gallery (up to 50 videos)**                  |                             | &#x2714;                  |
-| **Split gallery across two screen**                  |                             | &#x2714;                  |
+| **Dual screen support**                  |                             | &#x2714;                  |
 
 ### Calling
 
