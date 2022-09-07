@@ -12,7 +12,7 @@ ms.reviewer: asteele
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This article will discuss encoder-based RTMP setup and configuration for Microsoft Teams streaming events.
+description: This article will discuss encoder-based RTMP setup for Microsoft Teams streaming events.
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
