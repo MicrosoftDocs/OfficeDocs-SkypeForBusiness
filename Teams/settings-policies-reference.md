@@ -228,11 +228,11 @@ Call hold policies allow you to specify an audio file to play while calls are on
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Block incoming caller ID|Off|Description|
-|Override the caller ID policy|Off|Description|
+|Block incoming caller ID|Off|Turn on this setting to block the caller ID of incoming calls from being displayed.|
+|Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID.|
 |Calling Party Name|(Blank)|Description|
-|Replace the caller ID with|User's number|Description|
-|Replace the caller ID with this service number|(Choose a service number)|Description|
+|Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
+|Replace the caller ID with this service number|(Choose a service number)|Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace the caller ID with**.|
 
 ### Emergency policies
 
@@ -242,11 +242,11 @@ Call hold policies allow you to specify an audio file to play while calls are on
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|External location lookup mode|Off|Description|
-|Notification mode|(Blank)|Description|
-|Emergency service disclaimer|(Blank)|Description|
-|Numbers to dial for emergency calls notifications|(Blank)|Description|
-|Users and groups for emergency calls notifications|(Blank)|Description|
+|External location lookup mode|Off|Turn this onto allow your end users to configure their emergency address when they are working from a network location outside of the corporate network.|
+|Notification mode|(Blank)|This sets the type of notification sent to a security desk or team when someone calls emergency services. You can set it to just send a notification to them, or if they can, join an emergency call muted or unmuted.|
+|Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location.|
+|Numbers to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.
+|Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
 
 ### Voice routing policies
 
