@@ -69,6 +69,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Tap IP (VR0029) with RoomMate (VR0030) | `1.6.565`  |   September 3, 2024  | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | September 3, 2024 | Small meeting room(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
@@ -262,6 +263,12 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.13.0.368067` | 2022 Update #2A   |
+| Poly Studio X50 | `3.13.0.368067` | 2022 Update #2A |
+| Poly TC8        | `3.13.0.210799`          | 2022 Update #2A   |
+| Yealink MeetingBar A20 | `133.310.0.25 `   | 2022 Update #2A  |
+| Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
+| Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |

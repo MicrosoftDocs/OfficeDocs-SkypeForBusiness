@@ -884,6 +884,12 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect Mobile
+          items:
+            - name: Plan for Operator Connect Mobile
+              href: operator-connect-mobile-plan.md
+            - name: Configure Operator Connect Mobile
+              href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
             - name: What's new
@@ -998,6 +1004,9 @@ items:
         
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
+
+        - name: Manage phone numbers for Operator Connect Mobile
+          href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1160,8 +1169,6 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
-            - name: Phone number management for Mexico
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
             - name: Phone number management for New Zealand
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
             - name: Phone number management for Norway
@@ -1350,6 +1357,10 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
+            - name: Overview of Teams Rooms licensing
+              href: rooms/rooms-licensing.md
+            - name: Teams Rooms admin center licensing
+              href: rooms/admin-center-license-overview.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1364,8 +1375,6 @@ items:
               href: rooms/requirements.md
             - name: Security
               href: rooms/security.md
-            - name: Online Licensing
-              href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy

@@ -98,7 +98,7 @@ Note that we are not accepting new nominations for certification until further n
 |[M5 Technologies (previously known as Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel Series|&#10004;||DGW 48.0.2340 (Recommended DGW 48.1.2503)|||
 |[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Supported 6.6.1m5ha1 (Recommended 6.8.x)|||
 ||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Supported 6.6.1m5ha1 (Recommended 6.8.x)|||
-|[46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|Hyperconverged Voice|&#10004;|&#10004;|HCVoice 1.0.6|||
+|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Hyperconverged Voice|&#10004;|&#10004;|HCVoice 1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
 <br/>
