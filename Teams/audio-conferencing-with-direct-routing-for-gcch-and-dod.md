@@ -13,7 +13,6 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 f1.keywords:
 - NOCSH
@@ -100,7 +99,7 @@ A global voice routing policy can be defined by defining a PSTN usage, a voice r
 
 The following steps describe how to define a new global voice routing policy for an organization without one. If your organization already has voice routing policies defined, verify that the following configuration doesn’t conflict with the existing voice routing policies of your organization.
 
-To create a new PSTN usage in a remote PowerShell session in Skype for Business Online, use the following command:
+To create a new PSTN usage in a remote PowerShell session in Teams, use the following command:
 
   ```PowerShell
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}

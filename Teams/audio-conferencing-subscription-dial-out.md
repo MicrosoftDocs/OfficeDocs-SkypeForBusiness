@@ -13,7 +13,6 @@ ms.collection:
   - M365-collaboration
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -26,7 +25,7 @@ description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 eac
 
 # Audio Conferencing subscription "Dial-Out"/"Call Me At" minutes benefit
 
-## Microsoft Teams and Skype for Business PSTN Audio Conferencing
+## Microsoft Teams and PSTN Audio Conferencing
 
 Each Audio Conferencing standard subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the Zone A countries as described in this document. This benefit applies to Audio Conferencing *monthly subscription* licenses and doesn't extend to Audio Conferencing pay-per-minute licenses.
 
@@ -73,7 +72,6 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
 - Email notifications will be sent to the following admins when the utilization of your organization's dial-out minutes pool has reached 80 percent and 100 percent:
 
   - Billing Administrator
-  - Skype for Business Administrator
   - Global Administrator
   - User Administrator
   - Helpdesk Administrator
