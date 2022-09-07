@@ -16,7 +16,7 @@ appliesto:
 
 # Teams PowerShell Module - Supported Versions
 
-Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series or later are the only versions supported now. All earlier versions are fully retired since June 15, 2022 & will stop working (Message center post for reference - MC350371). 
+Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series or later are the only versions supported now. All earlier versions are fully retired in commercial environments since June 15, 2022 & will stop working (Message center post for reference - MC350371). 
 
 It’s recommended to update to the latest Teams PowerShell Module version.
 
