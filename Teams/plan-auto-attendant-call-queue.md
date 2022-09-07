@@ -171,6 +171,18 @@ See the following articles for information on how to create auto attendants and 
 - [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
 - [Create a call queue](create-a-phone-system-call-queue.md)
 
+> [!IMPORTANT]
+> A user's Azure Active Directory (AAD) GUID token is stored as part of the auto attendant or call queue configuration when the user is configured as:
+>
+>  - an auto attendant or call queue **Authorized user**.
+>  - an auto attendant **Operator**.
+>  - a **Person in Organization** transfer point.
+>  - an individual member of a call queue.
+> 
+> The auto attendant and call queue configurations aren't synchronized with AAD lifecycle events.  Teams administrators need to manually update auto attendant and call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
+>
+> This doesn't apply to call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of auto attendants.
+
 If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
 
 ## Related topics

@@ -620,8 +620,8 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
-        - name: Meeting policies and meeting expiration
-          href: meeting-expiration.md
+        - name: Manage who can start and schedule meetings
+          href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
@@ -884,6 +884,12 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect Mobile
+          items:
+            - name: Plan for Operator Connect Mobile
+              href: operator-connect-mobile-plan.md
+            - name: Configure Operator Connect Mobile
+              href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
             - name: What's new
@@ -998,6 +1004,9 @@ items:
         
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
+
+        - name: Manage phone numbers for Operator Connect Mobile
+          href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1348,6 +1357,10 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
+            - name: Overview of Teams Rooms licensing
+              href: rooms/rooms-licensing.md
+            - name: Teams Rooms admin center licensing
+              href: rooms/admin-center-license-overview.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1362,8 +1375,6 @@ items:
               href: rooms/requirements.md
             - name: Security
               href: rooms/security.md
-            - name: Online Licensing
-              href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1533,6 +1544,8 @@ items:
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Manage apps provided by Microsoft
       items:
+        - name: Manage the Admin app
+          href: manage-admin-app.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1765,13 +1778,13 @@ items:
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
           href: connect-teams-essentials-to-email.md 
-    - name: Upgrade from Kaizala
+    - name: Move from Kaizala
       items: 
         - name: Get started
           href: get-started-kaizala-teams.md
-        - name: Prepare for upgrade
+        - name: Prepare to move
           href: prepare-for-teams-kaizala.md
-        - name: Plan your upgrade journey
+        - name: Plan your move to Kaizala 
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
