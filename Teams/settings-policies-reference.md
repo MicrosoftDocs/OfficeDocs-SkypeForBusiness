@@ -183,23 +183,23 @@ Template policies control what team templates users see when they create a new t
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Make private calls|On|Description|
-|Cloud recording for calling|Off|Description|
-|Transcription|Off|Description|
+|Make private calls|On|This setting controls all calling capabilities in Teams. Turn this off to turn off all calling functionality in Teams.|
+|Cloud recording for calling|Off|This settings allow you to control whether call recording is available for your users.|
+|Transcription|Off|This settings allow you to control whether transcription is available for your users.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
 |Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|
 |Voicemail is available for routing inbound calls|User controlled|When Enabled or User controlled, inbound calls can be sent to voicemail.|
-|Inbound calls can be routed to call groups|On|Description|
-|Delegation for inbound and outbound calls|On|Description|
-|Prevent toll bypass and send calls through the PSTN|Off|Description|
+|Inbound calls can be routed to call groups|On|This setting controls whether incoming calls can be forwarded to a call group.|
+|Delegation for inbound and outbound calls|On|This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.|
+|Prevent toll bypass and send calls through the PSTN|Off|Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
 |Music on hold|Enabled|Controls whether music is played when a PSTN caller is placed on hold.|
 |Busy on busy when in a call|Not enabled|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
-|Web PSTN calling|On|Description|
-|Real-time captions in Teams calls|On|Description|
-|Automatically answer incoming meeting invites|Off|Description|
-|Spam filtering|Turn on|Description|
-|SIP devices can be used for calls||Description|
-|Open apps in browser for incoming PSTN calls|Off|Description|
+|Web PSTN calling|On|This setting enables users to call PSTN numbers using the Teams web client.|
+|Real-time captions in Teams calls|On|This settings allow you to control whether real-time captions in Teams calls are available for your users.|
+|Automatically answer incoming meeting invites|Off|This setting controls whether incoming meeting invites are automatically answered. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.|
+|Spam filtering|Turn on|This setting allows you to control the type of Spam filtering available on incoming calls.|
+|SIP devices can be used for calls|Off|This setting enables users to use a SIP device to make and receive calls.|
+|Open apps in browser for incoming PSTN calls (Preview)|Off|Description|
 
 ### Call hold policies
 
