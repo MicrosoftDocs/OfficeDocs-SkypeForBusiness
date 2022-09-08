@@ -125,13 +125,29 @@ End-users can enroll their voices for recognition in the following locales:
 
 |**Language**|**Country/Region**|**Culture ID**|
 |:-----|:-----|:-----|
+|Arabic  <br/> |Saudi Arabia <br/> |ar-SA  <br/> |
+|Chinese  <br/> |China <br/> |zh-CN  <br/> |
+|Chinese  <br/> |Taiwan <br/> |zh-TW  <br/> |
+|Danish  <br/> |Denmark <br/> |da-DK  <br/> |
+|Dutch  <br/> |Netherlands <br/> |nl-NL  <br/> |
 |English  <br/> |Australia <br/> |en-AU  <br/> |
 |English  <br/> |Canada  <br/> |en-CA <br/> |
 |English  <br/> |India  <br/> |en-IN  <br/> |
 |English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
 |English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
 |English  <br/> |United States  <br/> |en-US  <br/> |
-
+|Finnish  <br/> |Finland  <br/> |fi-FI  <br/> |
+|French  <br/> |Canada <br/> |fr-CA  <br/> |
+|French  <br/> |France <br/> |fr-FR  <br/> |
+|Italian  <br/> |Italy <br/> |it-IT  <br/> |
+|Japanese  <br/> |Japan <br/> |ja-JP  <br/> |
+|Norwegian  <br/> |Norway <br/> |nb-NO  <br/> |
+|Polish  <br/> |Poland <br/> |pl-PL  <br/> |
+|Portuguese      <br/> |Brazil <br/> |pt-BR  <br/> |
+|Russian  <br/> |Russia <br/> |ru-RU  <br/> |
+|Swedish  <br/> |Sweden <br/> |sv-SE  <br/> |
+|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
+|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
 
 ### In-meeting transcription locales
 
