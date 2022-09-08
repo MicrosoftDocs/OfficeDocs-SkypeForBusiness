@@ -85,11 +85,11 @@ Template policies control what team templates users see when they create a new t
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Mode for IP audio|Outgoing and incoming audio enabled|Description|
-|Mode for IP video|Outgoing and incoming video enabled|Description|
-|IP video|On|Description|
-|Local broadcasting|Off|Use NDI technology to capture and deliver broadcast-quality audio and video over your network.|
-|Media bit rate (Kbs)|50000|Determines the media bit rate for audio, video, and video-based app sharing in meetings.|
+|Mode for IP audio|Outgoing and incoming audio enabled|This setting controls whether incoming and outgoing audio can be turned on in meetings and group calls.|
+|Mode for IP video|Outgoing and incoming video enabled|This setting controls whether incoming and outgoing video can be turned on in meetings and group calls.|
+|IP video|On|This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.|
+|Local broadcasting|Off|Description|
+|Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
 |Network configuration lookup|Off|When On, roaming policies in Network topology will be checked.|
 
 ### Meeting policies - Recording and transcription
@@ -188,7 +188,7 @@ Template policies control what team templates users see when they create a new t
 |Transcription|Off|This settings allow you to control whether transcription is available for your users.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
 |Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|
-|Voicemail is available for routing inbound calls|User controlled|When Enabled or User controlled, inbound calls can be sent to voicemail.|
+|Voicemail is available for routing inbound calls|User controlled|When set to **Enabled** or **User controlled**, inbound calls can be sent to voicemail.|
 |Inbound calls can be routed to call groups|On|This setting controls whether incoming calls can be forwarded to a call group.|
 |Delegation for inbound and outbound calls|On|This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.|
 |Prevent toll bypass and send calls through the PSTN|Off|Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
