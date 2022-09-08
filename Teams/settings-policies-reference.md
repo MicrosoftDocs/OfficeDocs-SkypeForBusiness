@@ -215,9 +215,9 @@ Call hold policies allow you to specify an audio file to play while calls are on
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Call park|Off|Description|
-|Call pickup start of range|10|Description|
-|Call pickup end of range|99|Description|
+|Call park|Off|Turn on this setting to let your users place a call on hold on one device and pick it up from another device.|
+|Call pickup start of range|10|The first parked call will be rendered a pickup code of the start of range (for instance 10). The next parked call will be rendered a pickup code incremented by 1; that is, 11, and so on, until the end of the range is rendered as a pickup code.|
+|Call pickup end of range|99|The pickup code of the last parked call within in the range. After which, the rendered pickup codes start over from the start of the range once again.|
 |Park timeout (seconds)|300|The number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds.|
 
 ### Caller ID policies
