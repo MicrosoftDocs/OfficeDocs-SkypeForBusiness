@@ -158,19 +158,19 @@ Template policies control what team templates users see when they create a new t
 |Read receipts|User controlled|When set as User controlled or Turned on for everyone, the sender of a chat message can be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer.|
 |Chat|On|When On, users in your organization can use the Teams app to chat with other people.|
 |Giphy in conversations|On|When On, users can include Giphys in chat conversations with other people.|
-|Giphy content rating|Moderate|Description|
+|Giphy content rating|Moderate|This setting controls the amount of adult content allowed with Giphys in chat.|
 |Memes in conversations|On|When On, users can include Memes in chat conversations with other people.|
 |Stickers in conversations|On|When On, users can include Stickers in chat conversations with other people.|
 |URL previews|On|Controls automatic URL previewing in messages.|
-|Translate messages|On|Description|
+|Translate messages|On|Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.|
 |Immersive reader for messages|On|When On, users can view messages in Microsoft Immersive Reader.|
-|Send urgent messages using priority notifications|On|Description|
-|Create voice messages|Allowed in chats and channels|Description|
-|On mobile devices, display favorite channels above recent chats|Not enabled|Description|
-|Remove users from group chats|On|Description|
+|Send urgent messages using priority notifications|On|If you turn this on, users can send messages using priority notifications. Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as urgent are picked up and read by the recipient.|
+|Create voice messages|Allowed in chats and channels|This setting controls whether users can leave audio messages in chats and channels.|
+|On mobile devices, display favorite channels above recent chats|Not enabled|When **Enabled**, this setting moves favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.|
+|Remove users from group chats|On|Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.|
 |Suggested replies|On|When On, users get text predictions for chat messages.|
 |Chat permissions role|Restricted permissions|Defines the supervised chat role of a user.|
-|Users with full chat permissions can delete any message|Off|Description|
+|Users with full chat permissions can delete any message|Off|Use this setting to let users with full chat permissions delete any group or meeting chat message.|
 
 
 ## Voice
