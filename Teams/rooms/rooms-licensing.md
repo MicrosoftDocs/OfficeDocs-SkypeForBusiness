@@ -87,7 +87,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Start ad hoc meetings from the room**                         | &#x2714;                    | &#x2714;                  |
 | **Direct Guest Join for Zoom and Webex meetings**               | &#x2714;                    | &#x2714;                  |
 | **Join meetings across Teams clouds**                           |                             | &#x2714;                  |
-| **Room checking with Teams Panel**                              |                             | &#x2714;                  |
+| **Room check-in with Teams Panel**                              |                             | &#x2714;                  |
 
 ### Share and collaborate
 
