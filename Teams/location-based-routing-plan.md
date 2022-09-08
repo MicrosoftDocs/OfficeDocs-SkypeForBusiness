@@ -383,9 +383,9 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 ### Location-Based Routing for conferencing
 
-A Location-Based Routing enabled user on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
+A Location-Based Routing enabled user without an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
 
-If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.
+If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call. If the user is already on a PSTN call, it is allowed to add another user or PSTN number to the call via escalating the call to the conferencing bridge.
 
 In a conference call started by a user without an audio conferencing license, adding PSTN participants is not allowed if there is or has been at least one Location-Based Routing enabled user in the conference call. If at least one PSTN participant is or was part of such a conference call before any Location-Based Routing enabled participants was invited to join the call, such Location-Based Routing enabled participants can't be added to the call.
 
@@ -393,6 +393,7 @@ If the Location-Based Routing enabled user is joining the conference call from a
 
 On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
 
+A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call.
 
 ### Media bypass requirement for Location-Based Routing
 
