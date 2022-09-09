@@ -16,12 +16,12 @@ appliesto:
 
 # Application based authentication in Teams PowerShell Module
 
-Application based authentication is now supported in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this is only supported in commercial environments. It is not supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
+Application based authentication is now supported in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments. It isn't supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
 
 
 ## Cmdlets Supported
 
-All Non \*-Cs cmdlets (e.g., Get-Team), Get-CsOnlineUser & Get-CsTenant are already supported. Other cmdlets will be gradually rolled out. 
+All Non \*-Cs cmdlets (for example, Get-Team), Get-CsOnlineUser & Get-CsTenant are already supported. Other cmdlets will be gradually rolled out. 
 
 
 ## Examples
@@ -33,7 +33,7 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   ```powershell
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
-  When you use the CertificateThumbprint parameter, the certificate needs to be installed on the computer where you are running the command. The certificate should be installed in the user certificate store.
+  When you use the CertificateThumbprint parameter, the certificate needs to be installed on the computer where you're running the command. The certificate should be installed in the user certificate store.
   
 - Connect using Access Tokens:
   
@@ -72,9 +72,9 @@ Teams PowerShell Module fetches the app-based token using the application id, te
 
 ## Setup Application based authentication
 
-An initial onboarding is required for authentication using application objects. Application and service principal are used interchangeably, but an application is like a class object while a service principal is like an instance of the class. You can learn more about this at [Application and service principal objects in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
+An initial onboarding is required for authentication using application objects. Application and service principal are used interchangeably, but an application is like a class object while a service principal is like an instance of the class. You can learn more about these objects at [Application and service principal objects in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
-High level steps for creating applications in Azure Ad are mentioned below, for detailed steps please refer this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
+High level steps for creating applications in Azure Ad are mentioned below, for detailed steps refer this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
   1. Register the application in Azure AD
   2. Generate a self-signed certificate
   3. Attach the certificate to the Azure AD application
