@@ -1,0 +1,84 @@
+---
+title: Application based authentication in Teams PowerShell Module
+author: pbafna03
+ms.author: pbafna
+ms.reviewer: pbafna
+manager: sshastri
+ms.topic: conceptual
+audience: admin
+ms.service: msteams
+ms.collection: 
+  - M365-collaboration
+description: Learn about application based authentication in Teams PowerShell Module, used for administration of Microsoft Teams.
+appliesto: 
+  - Microsoft Teams
+---
+
+# Application based authentication in Teams PowerShell Module
+
+Application based authentication is now supported in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this is only supported in commercial environments. It is not supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
+
+
+## Cmdlets Supported
+
+All Non \*-Cs cmdlets (e.g., Get-Team), Get-CsOnlineUser & Get-CsTenant are already supported. Other cmdlets will be gradually rolled out. 
+
+
+## Examples
+
+The following examples show how to use Teams PowerShell Module with the Azure AD app-based authentication: 
+
+- Connect using a certificate thumbprint:
+
+  ```powershell
+  Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  When you use the CertificateThumbprint parameter, the certificate needs to be installed on the computer where you are running the command. The certificate should be installed in the user certificate store.
+  
+- Connect using Access Tokens:
+  
+  Access Tokens can be retrieved via the login.microsoftonline.com endpoint. It requires two tokens - MS Graph Access Token and Teams Resource token.
+
+  ```powershell
+  $ClientSecret   = <configured secret for your App> 
+  $ApplicationID = <your App id> 
+  $TenantID = <your Tenant id> 
+
+  $graphtokenBody = @{   
+     Grant_Type    = "client_credentials"   
+     Scope         = "https://graph.microsoft.com/.default"   
+     Client_Id     = $ApplicationID   
+     Client_Secret = $ClientSecret   
+  }  
+
+  $graphToken = Invoke-RestMethod -Uri "https://login.microsoftonline.com/$TenantID/oauth2/v2.0/token" -Method POST -Body $graphtokenBody | Select-Object -ExpandProperty Access_Token 
+
+  $teamstokenBody = @{   
+     Grant_Type    = "client_credentials"   
+     Scope         = "48ac35b8-9aa8-4d74-927d-1f4a14a0b239/.default"   
+     Client_Id     = $ApplicationID   
+     Client_Secret = $ClientSecret 
+  } 
+
+  $teamsToken = Invoke-RestMethod -Uri "https://login.microsoftonline.com/$TenantID/oauth2/v2.0/token" -Method POST -Body $teamstokenBody | Select-Object -ExpandProperty Access_Token 
+
+  Connect-MicrosoftTeams -AccessTokens @("$graphToken", "$teamsToken")
+  ```
+  
+## How does it work?
+
+Teams PowerShell Module fetches the app-based token using the application id, tenant id and certificate thumbprint. The application object provisioned inside Azure AD has a Directory Role assigned to it, which is returned in the access token. The session's role based access control (RBAC) is configured using the directory role information that's available in the token.
+
+
+## Setup Application based authentication
+
+An initial onboarding is required for authentication using application objects. Application and service principal are used interchangeably, but an application is like a class object while a service principal is like an instance of the class. You can learn more about this at [Application and service principal objects in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
+
+High level steps for creating applications in Azure Ad are mentioned below, for detailed steps please refer this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
+  1. Register the application in Azure AD
+  2. Generate a self-signed certificate
+  3. Attach the certificate to the Azure AD application
+  4. Assign Azure AD roles to the application
+
+The application needs to have the appropriate RBAC roles assigned. Because the apps are provisioned in Azure AD, you can use any of the supported built-in roles.
+ 
