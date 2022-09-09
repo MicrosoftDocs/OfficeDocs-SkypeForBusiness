@@ -1,5 +1,5 @@
 ---
-title: "Monitor and troubleshoot Direct Routing"
+title: "Monitor Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -19,7 +19,7 @@ description: Learn how to monitor and troubleshoot Direct Routing configuration,
 ms.custom: seo-marvel-apr2020
 ---
 
-# Monitor and troubleshoot Direct Routing
+# Monitor Direct Routing
 
 This article describes how to monitor and troubleshoot your Direct Routing configuration. 
 
@@ -33,18 +33,9 @@ If you have difficulties troubleshooting issues, you can open a support case wit
 
 Microsoft is working on providing more tools for troubleshooting and monitoring. Please check the documentation periodically for updates. 
 
-## Direct Routing Diagnostic Tool
+## Troubleshoot Direct Routing
 
-If you're an administrator, you can use the following diagnostic tool to validate that a user is correctly configured for Direct Routing:
-
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
-
-   > [!div class="nextstepaction"]
-   > [Run Tests: Direct Routing](https://aka.ms/TeamsDirectRoutingDiag)
-
-2. In the Run diagnostic pane, enter the email of the user you want to test in the **Username or Email** field, and then select **Run Tests**.
-
-3. The tests will return the best next steps to address any tenant, user, or policy configurations to validate that the user is properly configured for Direct Routing in Microsoft Teams.
+To troubleshoot direct routing, see [Diagnose issues with Direct Routing](/MicrosoftTeams/troubleshoot/phone-system/direct-routing/diagnose-direct-routing-issues).
 
 ## Monitoring availability of Session Border Controllers using Session Initiation Protocol (SIP) options messages
 
