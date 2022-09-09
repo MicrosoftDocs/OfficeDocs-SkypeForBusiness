@@ -1,5 +1,5 @@
 ---
-title: Application based authentication in Teams PowerShell Module
+title: Application-based authentication in Teams PowerShell Module
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
@@ -9,14 +9,14 @@ audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-description: Learn about application based authentication in Teams PowerShell Module, used for administration of Microsoft Teams.
+description: Learn about application-based authentication in Teams PowerShell Module, used for administration of Microsoft Teams.
 appliesto: 
   - Microsoft Teams
 ---
 
-# Application based authentication in Teams PowerShell Module
+# Application-based authentication in Teams PowerShell Module
 
-Application based authentication is now supported in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments. It isn't supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
+Application-based authentication is now supported in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments. It isn't supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
 
 
 ## Cmdlets Supported
@@ -67,10 +67,10 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   
 ## How does it work?
 
-Teams PowerShell Module fetches the app-based token using the application ID, tenant ID and certificate thumbprint. The application object provisioned inside Azure AD has a Directory Role assigned to it, which is returned in the access token. The session's role based access control (RBAC) is configured using the directory role information that's available in the token.
+Teams PowerShell Module fetches the app-based token using the application ID, tenant ID and certificate thumbprint. The application object provisioned inside Azure AD has a Directory Role assigned to it, which is returned in the access token. The session's role-based access control (RBAC) is configured using the directory role information that's available in the token.
 
 
-## Setup Application based authentication
+## Setup Application-based authentication
 
 An initial onboarding is required for authentication using application objects. Application and service principal are used interchangeably, but an application is like a class object while a service principal is like an instance of the class. You can learn more about these objects at [Application and service principal objects in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
