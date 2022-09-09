@@ -37,7 +37,7 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   
 - Connect using Access Tokens:
   
-  Access Tokens can be retrieved via the login.microsoftonline.com endpoint. It requires two tokens - MS Graph Access Token and Teams Resource token.
+  Access Tokens can be retrieved via the login.microsoftonline.com endpoint. It requires two Access Tokens – “MS Graph” and “Skype and Teams Tenant Admin API” resources.
 
   ```powershell
   $ClientSecret   = "…"
