@@ -40,9 +40,9 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   Access Tokens can be retrieved via the login.microsoftonline.com endpoint. It requires two tokens - MS Graph Access Token and Teams Resource token.
 
   ```powershell
-  $ClientSecret   = <configured secret with your App> 
-  $ApplicationID = <your App id> 
-  $TenantID = <your Tenant id> 
+  $ClientSecret   = "…"
+  $ApplicationID = "00000000-0000-0000-0000-000000000000"
+  $TenantID = "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
 
   $graphtokenBody = @{   
      Grant_Type    = "client_credentials"   
