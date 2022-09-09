@@ -29,7 +29,7 @@ description: Learn how to set up Common Area Phones for lobbies, reception areas
 
 A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call: a reception area, lobby, or conference phone. Common area phones are signed in with accounts tied to a **Common Area Phone** license.
 
-This article provides an overview of how to deploy and configure Teams phones as common area phones for shared spaces. For a more complete meeting room experience, including audio conferencing, consider purchasing a dedicated **Teams Rooms** license with a Teams Rooms device.
+This article provides an overview of how to deploy and configure Teams phone devices as common area phones for shared spaces. For a more complete meeting room experience, including audio conferencing, consider purchasing a dedicated **Teams Rooms** license with a Teams Rooms device.
 
 ## Overview
 
@@ -100,7 +100,7 @@ If you're deploying one device:
 
 ### Using PowerShell
 
-Use PowerShell when you want to create and assign licenses for more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) for more information.
+Use PowerShell when you want to create and assign licenses for more than one user account at once. For more information, see [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
 ## Step 3 - Set policies for common area phones
 
@@ -180,12 +180,13 @@ Turning on advanced calling capabilities requires you to purchase hardware model
 1. From the left-side menu, navigate to **Teams devices** > **Phones** > and select the **Configuration profiles** tab.
 1. From the list, select the configuration profile assigned to your common area phone.
 1. Under the **Calling settings** section, find the **Advanced calling** toggle.
-1. Turn the toggle on.
+1. Turn on the toggle.
 1. At the bottom of the page, select the **Save** button.
 
 ### Turn on Advanced calling from a Teams phone device
 
-1. After signing into your Teams phone device, ?
+1. After signing into your Teams phone device, navigate to **Settings** > **Device settings** > **Admin only** > **Calling**.
+1. Find the **Advanced calling** toggle and turn it on.
 
 ## Next steps
 
