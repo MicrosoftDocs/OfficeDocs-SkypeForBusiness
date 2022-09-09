@@ -19,11 +19,11 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Manage user requests to allow apps that are blocked by admins
+# Manage user requests
 
-The apps that you block in your organization may reduce end-user productivity and collaboration. Apps that are available in Teams store but are blocked in your organization can't be used by the end-users. However, to stay informed, the end-users can view blocked apps, view app's information, and the use cases it servers. Users can request admin approval so that they can use these apps in Teams, after you choose to allow the app.
+The apps that you block in your organization may affect end-user productivity and collaboration. Apps that are available in Teams store but are blocked in your organization can't be used by the end-users. However, to stay informed, the end-users can view blocked apps, view app's information, and the use cases it servers. Users can request admin approval so that they can use these apps in Teams, after you evaluate the request.
 
-This functionality provides you a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for apps and make informed decisions about which apps to consider allowing in your organization.
+This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for apps and make informed decisions about which apps to consider allowing in your organization.
 
 You retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
 
@@ -31,11 +31,11 @@ You retain complete control of the apps that are allowed or blocked for users. I
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
-* A customization lets you [configure end-user experience](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) by redirecting the user to a custom app request method. You can provide a custom text message to inform users and direct the users to your organization’s internal URL to collect requests to allow apps.
+* A customization lets you [configure end-user experience](#modify-the-default-setting-to-receive-end-user-requests) that is best suited for your organization. You can provide a custom instruction that is displayed to the end-users on blocked apps in the Teams app store and direct the users to an internal site to collect their requests.
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the end-user experience for apps in store when an admin redirects the allow app request URL to a custom URL.":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the end-user experience for apps in store when an admin redirects the allow app request URL to a internal site.":::
 
-## Modify the default setting to receive end-user requests to allow an app
+## Modify the default setting to receive end-user requests
 
 To configure a custom message and redirect users to an org-specific URL to request app approval, follow these steps:
 
@@ -54,9 +54,9 @@ To configure a custom message and redirect users to an org-specific URL to reque
 
 1. Select **Save**.
 
-## View user requests and allow the requested apps
+## View user requests
 
-The end-user requests received by the default method are displayed in Teams admin center. You can easily view and manage the requests. We strongly recommend having a regular triage to check for end-user requests. To view and allow the apps, follow these steps:
+The end-user requests received by the default method are displayed in Teams admin center. You can easily view and manage the requests. We recommend having a regular triage to check for end-user requests. To view and allow the apps, follow these steps:
 
 1. Sign into the Teams admin center and access the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
 
