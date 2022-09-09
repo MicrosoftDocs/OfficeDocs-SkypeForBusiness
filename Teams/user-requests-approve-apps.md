@@ -27,7 +27,7 @@ This functionality provides you with a signal about the demand for an app within
 
 You retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
 
-* The default option sends the user requests in Teams admin center where you can [view user requests and allow the requested apps](#view-user-requests-and-allow-the-requested-apps).
+* The default option sends the user requests in Teams admin center where you can [view user requests and allow the requested apps](#view-user-requests).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
@@ -76,7 +76,7 @@ The end-user requests received by the default method are displayed in Teams admi
    * If the app is blocked for all users, [allow the app](manage-apps.md#allow-and-block-apps).
    * If all apps are blocked for all users, [modify org-wide settings](manage-apps.md#manage-org-wide-app-settings).
 
-1. Optionally, to switch to a custom configuration to your org-specific URL, select Configure user requests link on the Manage user requests dialog. It opens the Org-wide app settings pane in which you can [configure the end-user request experience](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app).
+1. Optionally, to switch to a custom configuration to your org-specific URL, select Configure user requests link on the Manage user requests dialog. It opens the Org-wide app settings pane in which you can [configure the end-user request experience](#modify-the-default-setting-to-receive-end-user-requests).
 
 If you allow an app after receiving requests in Teams admin center, then Teams doesn't inform the end-user that their request is acted upon. The user can check the app in the Teams Store to check if the app is allowed. The option to Add the app is available for the user after you allow it. If you allow an app after receiving requests via your org-specific method, your internal mechanisms to provide status update to the end-user applies.
 
