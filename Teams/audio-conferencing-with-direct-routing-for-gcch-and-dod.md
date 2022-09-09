@@ -88,10 +88,10 @@ You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInCon
 
 ### Step 4: Define a global voice routing policy to enable the routing of outbound calls from meetings
 
-The routing of outbound calls that are made to the PSTN from meetings organized by users in your organization is defined by the global voice routing policy of your organization. If your organization has a global voice routing policy defined, please verify that the global voice routing policy allows the outbound calls to the PSTN that are expected to be initiated from meetings organized by users in your organization. If your organization doesn’t have a global voice routing policy defined, you will need to define one to enable the routing of outbound calls to the PSTN from meetings organized by users in your organization. Please note that the global voice routing policy of your organization also applies to one-to-one calls made to the PSTN by users in your organization. If one-to-one calls to the PSTN are enabled for users in your organization, make sure that the global voice routing policy meets the needs of your organization for both types of calls.
+The routing of outbound calls that are made to the PSTN from meetings organized by users in your organization is defined by the global voice routing policy of your organization. If your organization has a global voice routing policy defined, verify that the global voice routing policy allows the outbound calls to the PSTN that are expected to be initiated from meetings organized by users in your organization. If your organization doesn’t have a global voice routing policy defined, you will need to define one to enable the routing of outbound calls to the PSTN from meetings organized by users in your organization. Note that the global voice routing policy of your organization also applies to one-to-one calls made to the PSTN by users in your organization. If one-to-one calls to the PSTN are enabled for users in your organization, make sure that the global voice routing policy meets the needs of your organization for both types of calls.
 
 > [!NOTE]
-> Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments. When enabling Audio Conferencing, please verify that no Audio Conferencing users in the GCC High or the DoD environments are enabled for Location-Based Routing.
+> Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments. When enabling Audio Conferencing, verify that no Audio Conferencing users in the GCC High or the DoD environments are enabled for Location-Based Routing.
 
 #### Defining a global voice routing policy
 
@@ -113,9 +113,9 @@ To create a new voice route, use the following command:
   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
   ```
 
-When defining a new voice route for your organization, please specify one or multiple of the PSTN online PSTN gateways that have been defined for your organization during the configuration of Direct Routing.
+When defining a new voice route for your organization, specify one or multiple of the PSTN online PSTN gateways that have been defined for your organization during the configuration of Direct Routing.
 
-The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you would like to restrict the phone numbers that can be dialed from the meetings of users in your organization, you can change the number pattern to have the voice route match only the number patterns of the destinations allowed. Please note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
+The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you would like to restrict the phone numbers that can be dialed from the meetings of users in your organization, you can change the number pattern to have the voice route match only the number patterns of the destinations allowed. Note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
 
 For additional information, see [New-CsOnlineVoiceRoute](/powershell/module/skype/new-csonlinevoiceroute).
 
