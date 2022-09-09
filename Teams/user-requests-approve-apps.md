@@ -21,9 +21,9 @@ ms.localizationpriority: high
 ---
 # Manage user requests
 
-The apps that you block in your organization may affect end-user productivity and collaboration. Apps that are available in Teams store but are blocked in your organization can't be used by the end-users. However, to stay informed, the end-users can view blocked apps, view app's information, and the use cases it servers. Users can request admin approval so that they can use these apps in Teams, after you evaluate the request.
+The apps that you block in your organization may affect end-user productivity and collaboration. Apps that are available in Teams store but are blocked in your organization can't be used by the end-users. However, to stay informed, the end-users can view blocked apps, view app's information, and the use cases it servers. Users request admin approval so that they use these apps in Teams, after you evaluate the request.
 
-This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for apps and make informed decisions about which apps to consider allowing in your organization.
+This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for apps. It helps you make an informed decision about which apps to evaluate to allow in your organization.
 
 You retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
 
@@ -33,7 +33,7 @@ You retain complete control of the apps that are allowed or blocked for users. I
 
 * A customization lets you [configure end-user experience](#modify-the-default-setting-to-receive-end-user-requests) that is best suited for your organization. You can provide a custom instruction that is displayed to the end-users on blocked apps in the Teams app store and direct the users to an internal site to collect their requests.
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the end-user experience for apps in store when an admin redirects the allow app request URL to a internal site.":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the end-user experience for apps in store when an admin redirects the allow app request URL to an internal site.":::
 
 ## Modify the default setting to receive end-user requests
 
