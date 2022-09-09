@@ -84,9 +84,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar      | `1.2.788`     |   September 3, 2024  |    Medium size room (4.5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | August 5, 2023   | Medium size room (4.5 m x 6 m) | 9 |
 | Yealink CTP18 touch console  | `137.15.0.28`    | August 5, 2023   | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | December 5, 2022  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | December 5, 2022   | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
@@ -376,6 +374,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
 |Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
