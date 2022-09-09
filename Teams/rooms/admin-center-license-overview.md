@@ -32,11 +32,11 @@ For more information about Microsoft Teams Rooms licenses, see [Microsoft Teams 
 
 ## See which licenses are assigned to Teams Rooms devices
 
-You can see what license your devices have by going to **Teams devices** in the Teams admin center, and then selecting the device category you want to see. For example, if you select **Teams devices** > **Teams Rooms on Windows**, you'll see something similar to the following image. The **License** column shows the Teams Rooms license assigned to each device.
+You can see what license your devices have by going to Teams devices in the Teams admin center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see. For example, if you select **Teams devices** > **Teams Rooms on Windows**, you'll see something similar to the following image. The **License** column shows the Teams Rooms license assigned to each device.
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams Rooms inventory list with focus on Standard, Pro, and Pro (Trial) licenses.":::
 
-Devices that have the **Pro** or **Pro (Trial)** licenses can access all the features of the Teams admin center. Devices with other licenses can access a subset of those features. You can see which features are available to each license in [Comparison of Teams Rooms feature availability by license](#comparison-of-teams-rooms-feature-availability-by-license).
+Devices that have the **Pro** license can access all the features of the Teams admin center. Devices with other licenses can access a subset of those features. You can see which features are available to each license in [Comparison of Teams Rooms feature availability by license](#comparison-of-teams-rooms-feature-availability-by-license).
 
 > [!IMPORTANT]
 > If you select multiple devices that include both Microsoft Teams Rooms Basic and Microsoft Teams Rooms Pro licenses, actions that require a Microsoft Teams Rooms Pro license will be performed only on devices that have been assigned that license. The action won't be performed on devices assigned the Microsoft Teams Rooms Basic license.
