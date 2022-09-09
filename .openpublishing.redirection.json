@@ -2898,7 +2898,7 @@
     {
      "source_path": "Teams/using-breakout-rooms.md",
      "redirect_url": "https://support.microsoft.com/office/use-breakout-rooms-in-teams-meetings",
-     "redirect_document_id": false
+     "redirect_document_id": true
     }
   ] 
 }
