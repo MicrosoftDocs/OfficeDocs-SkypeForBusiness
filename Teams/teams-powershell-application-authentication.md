@@ -40,7 +40,7 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   Access Tokens can be retrieved via the login.microsoftonline.com endpoint. It requires two tokens - MS Graph Access Token and Teams Resource token.
 
   ```powershell
-  $ClientSecret   = <configured secret for your App> 
+  $ClientSecret   = <configured secret with your App> 
   $ApplicationID = <your App id> 
   $TenantID = <your Tenant id> 
 
@@ -67,7 +67,7 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   
 ## How does it work?
 
-Teams PowerShell Module fetches the app-based token using the application id, tenant id and certificate thumbprint. The application object provisioned inside Azure AD has a Directory Role assigned to it, which is returned in the access token. The session's role based access control (RBAC) is configured using the directory role information that's available in the token.
+Teams PowerShell Module fetches the app-based token using the application ID, tenant ID and certificate thumbprint. The application object provisioned inside Azure AD has a Directory Role assigned to it, which is returned in the access token. The session's role based access control (RBAC) is configured using the directory role information that's available in the token.
 
 
 ## Setup Application based authentication
