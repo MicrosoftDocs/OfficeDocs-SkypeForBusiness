@@ -1621,8 +1621,12 @@ items:
           href: app-permissions.md
         - name: Brand your org app store
           href: customize-your-app-store.md
-        - name: App behavior based on types of users
+        - name: Manage access to apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
+        - name: Use apps as external or guest users
           href: non-standard-users.md
+        - name: Manage user requests to allow apps
+          href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
         - name: Audit app management activities
