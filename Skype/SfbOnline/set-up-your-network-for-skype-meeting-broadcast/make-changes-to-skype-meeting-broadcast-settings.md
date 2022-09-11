@@ -33,7 +33,7 @@ You can enable Skype Meeting Broadcast and make changes to settings and policies
   
 - **Enable Skype Meeting Broadcast** Enables Skype Meeting Broadcast. After you enable Skype Meeting Broadcast, you need to [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md). Do this step if you want to hold webinars and other broadcasts for people outside of your business. 
     
-- **Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features. This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.<br/>Skype for Business preview
+- **Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features. This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.
     
 - **Allow organizers to schedule anonymous meetings** This lets organizers create broadcast events that allow anyone outside their organization to join without a requirement to sign in.
     
