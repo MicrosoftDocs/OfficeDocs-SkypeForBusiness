@@ -95,8 +95,6 @@ One of the prerequisites for using PowerShell to manage Skype for Business Onlin
 
 - **Error**: *Get-CsWebTicket : Can not load Live Id module. Make sure correct version of Live Id Sign-in assistant is installed.*
 
-- **Resolution**: The Microsoft Online Services Sign-in Assistant is available in the Microsoft Download Center at Microsoft Online Services Sign-In Assistant for IT Professionals RTW.
-
 ## Logon failed for the user
 <a name="BKMKLogonFailed"> </a>
 
