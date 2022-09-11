@@ -1579,7 +1579,7 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
-        - name: Customize appearance and metadata of apps
+        - name: Customize app branding using app customization
           href: customize-apps.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md

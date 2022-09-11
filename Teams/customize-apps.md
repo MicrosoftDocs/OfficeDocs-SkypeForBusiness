@@ -1,5 +1,5 @@
 ---
-title: Modify the appearance of apps in your organization's Teams store
+title: Use app customization to brand the apps for your organization's needs
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -15,10 +15,10 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to change the appearance of the app and rebrand an app by editing app details and metadata.
+description: Learn how to change the metadata and appearance of an app to rebrand it for better adoption in your organization.
 ---
 
-# Customize appearance of apps in your organization's Teams store
+# Use app customization to update branding of apps in your organization's Teams store
 
 Microsoft Teams admins can modify the appearance of some Teams apps to provide a personalized branded experience to their organization's end-users. Such modifications can enhance Teams store experience for end-users and help adhere to organization's branding. For example, admins can modify the description and icon of an app that makes it easier for their organizations end-users to identify the app, to understand its use, and for added prominence. Admins make these changes by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
 
