@@ -48,7 +48,7 @@ To change the usage of a phone number by using the Teams admin center:
 
 ## Still need assistance?
 
-If you need assistance, please contact the [TNS Service Desk](/contact-tns-service-desk.md).
+If you need assistance, please contact the [TNS Service Desk](./contact-tns-service-desk.md).
 
 ## Related topics
 
