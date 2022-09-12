@@ -133,7 +133,7 @@ We recommend that you visit the vendor's web site for the latest information.
             </td>
         </tr>
         <tr align="left" valign="top">
-            <td rowspan="2"><a href=" https://ipecs.com/site/lgericsson/menu/">Ericsson-LG Enterprise</a></td>
+            <td rowspan="2"><a href=" https://ipecs.com">Ericsson-LG Enterprise</a></td>
             <td>IPECS IP-PBX</td>
             <td>IP-PBX</td>
             <td>5.5Bd</td>
@@ -195,7 +195,7 @@ We recommend that you visit the vendor's web site for the latest information.
             <td align ="center" valign="middle">&#x2714;+S; with IPv6</td>
         </tr>
         <tr align="left" valign="top">
-            <td rowspan="2"><a href="http://h17007.www1.hp.com/us/en/networking/solutions/unified-communications-and-collaboration/index.aspx#survivablebm">HP</a></td>
+            <td rowspan="2"><a href="https://www.hp.com/">HP</a></td>
             <td>FlexBranch Multi-Service Router (MSR) Series</td>
             <td>Comware, version 5.2, Release 2317</td>
             <td>Enhanced Gateway</td>
@@ -208,7 +208,7 @@ We recommend that you visit the vendor's web site for the latest information.
             <td align ="center" valign="middle">&#x2714;+S</td>
         </tr>
         <tr align="left" valign="top">
-            <td><a href="http://www.itibia.com/product_content.php?id=7&amp;productclassid=8&amp;productid=5">Itibia Technologies</a></td>
+            <td><a href="https://www.itibia.com/">Itibia Technologies</a></td>
             <td>OfficeTen IPPBX 2800</td>
             <td>1.3.1.1</td>
             <td>IP-PBX</td>
