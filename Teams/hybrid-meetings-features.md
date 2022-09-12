@@ -21,11 +21,7 @@ keywords:
 
 # Step 1 - Get familiar with Teams meeting features
 
-:::row:::
-    :::column:::
-        :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
-    :::column-end:::
-:::row-end:::
+:::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 Teams has several meeting features that can help make them more inclusive and dynamic. Rather than having a single presenter present information to an audience or a group in a room have discussions while remote participants observe, these features can give all participants an equal voice. Where possible, links are included to more detailed information about each feature.
 
