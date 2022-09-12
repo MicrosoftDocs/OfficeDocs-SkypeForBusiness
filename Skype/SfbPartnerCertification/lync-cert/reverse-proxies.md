@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788945
-description: "This lists the server reverse proxy products that have completed solution testing with Lync Server. While any reverse proxy is expected to work with Lync Server, the reverse proxies listed below have completed extensive testing and are posted with detailed deployment white papers to assist in configuration.."
+description: "This lists the server reverse proxy products that have completed solution testing with Lync Server. While any reverse proxy is expected to work with Lync Server, the reverse proxies listed below have completed extensive testing and are posted with detailed deployment white papers to assist in configuration."
 ---
 
 # Reverse proxies
@@ -41,7 +41,7 @@ Please contact the vendor for more information on these products.
 |Microsoft| Internet Information Services Application Request Routing  (IIS ARR) |  v2.5       | [Using IIS ARR as a Reverse Proxy for Lync Server 2013](https://blogs.technet.com/b/nexthop/archive/2013/02/19/using-iis-arr-as-a-reverse-proxy-for-lync-server-2013.aspx)  |
 |Microsoft| Forefront Threat Management Gateway (TMG) &Dagger;| 2010 |[Setting up Reverse Proxy Servers with TMG](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) |
 |Microsoft| Web Application Proxy |Windows Server 2012 R2 | [Configuring the Windows Server 2012 Web Application Proxy as a Reverse Proxy for Lync Server](https://www.microsoft.com/download/details.aspx?id=44940) |
-|PointSharp | Mobile Gateway | 4.4 | [PointSharp Mobile Gateway for Lync](https://www.pointsharp.com/products/pointsharp-mobile-gateway-for-lync) |
+|PointSharp | Mobile Gateway | 4.4 | [PointSharp Mobile Gateway for Lync](https://www.pointsharp.com) |
 |     |         |         |         |
 
 &Dagger; In November, 2012, Microsoft ceased license sales of Forefront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties.
