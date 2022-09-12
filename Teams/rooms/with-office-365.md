@@ -26,10 +26,10 @@ Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicate
 
 Every resource account is unique to a single Microsoft Teams Rooms installation or Teams display hot-desking implementation.
 
+[!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
+
 > [!NOTE]
 > If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
-
-[!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 > [!NOTE]
 > **Skype for Business** <br><br>
