@@ -211,10 +211,10 @@ Limits for class teams are listed in the following table:
 |Feature  |Maximum limit  |
 |---------|---------|
 |Number of members in a team    | See the [Teams and channels](#teams-and-channels) section of this article        |
-|Number of members to use Assignments in a class team    | 300        |
+|Number of members to use Assignments in a class team    | 1000        |
 |Number of members to use a OneNote Class Notebook in a class team     |300         |
 
-A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
+A class team can support more members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## Tags
 
