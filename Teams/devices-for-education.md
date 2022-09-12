@@ -56,19 +56,19 @@ Non-native and self-built systems that rely on external services, or a bring-you
 
 **Purpose-built for Teams**:
 
-Advanced audio and video and sharing
+Advanced audio and video and sharing.
 
 **Expansive device portfolio for any room**:
 
-Select from fully modularized or integrated form factors across Android or Windows operating systems
+Select from fully modularized or integrated form factors across Android or Windows operating systems.
 
 **Reimagined room experiences**:
 
-Join Teams meetings friction-free to engage in inclusive, collaborative meetings for students and educators alike
+Join Teams meetings friction-free to engage in inclusive, collaborative meetings for students and educators alike.
 
 **Easily managed from one place**:
 
-Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Premium
+Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Pro.
 
 ## Space considerations
 
