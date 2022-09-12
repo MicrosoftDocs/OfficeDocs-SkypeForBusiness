@@ -113,10 +113,7 @@ For more information about performing an eDiscovery search for shared channel me
 
 ## Considerations around file access in shared channels
 
-Files, folders, and OneNote notebooks in a shared channel can be shared with people outside the channel by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
-
-> [!NOTE]
-> Sharing with people outside the organization who are not channel members is not supported.
+Files, folders, and OneNote notebooks in a shared channel can be shared with people outside the channel (but not outside the organization) by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
 If a user is granted access to a file, folder, or notebook in a shared channel through SharePoint, removing the user from the team or shared channel won't remove the user's access to the file, folder, or notebook.
 
