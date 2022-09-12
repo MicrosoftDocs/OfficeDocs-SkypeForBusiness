@@ -620,8 +620,8 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
-        - name: Meeting policies and meeting expiration
-          href: meeting-expiration.md
+        - name: Manage who can start and schedule meetings
+          href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
@@ -919,6 +919,12 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect Mobile
+          items:
+            - name: Plan for Operator Connect Mobile
+              href: operator-connect-mobile-plan.md
+            - name: Configure Operator Connect Mobile
+              href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
             - name: What's new
@@ -1033,6 +1039,9 @@ items:
         
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
+
+        - name: Manage phone numbers for Operator Connect Mobile
+          href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1383,6 +1392,10 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
+            - name: Overview of Teams Rooms licensing
+              href: rooms/rooms-licensing.md
+            - name: Teams Rooms admin center licensing
+              href: rooms/admin-center-license-overview.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1397,8 +1410,6 @@ items:
               href: rooms/requirements.md
             - name: Security
               href: rooms/security.md
-            - name: Online Licensing
-              href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1568,6 +1579,8 @@ items:
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Manage apps provided by Microsoft
       items:
+        - name: Manage the Admin app
+          href: manage-admin-app.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1601,6 +1614,10 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Customize app branding using app customization
+          href: customize-apps.md
+        - name: Manage access to apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
 
     - name: Manage custom apps
       items:
@@ -1637,14 +1654,14 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
-        - name: Customize appearance and metadata of apps
-          href: customize-apps.md
         - name: Brand your org app store
           href: customize-your-app-store.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: App behavior based on types of users
+        - name: Use apps as external or guest users
           href: non-standard-users.md
+        - name: Manage user requests to allow apps
+          href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
         - name: Audit app management activities

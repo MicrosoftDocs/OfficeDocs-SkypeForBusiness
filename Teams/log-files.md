@@ -115,7 +115,7 @@ Read [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmed
 
 ### End user configuration
 
-For your end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. They will go to **Settings** > **General**, select the **Enable logging for meeting diagnostics** (requires restarting Teams) check box, restart Teams, and reproduce the issue. The Teams client must be restarted for logging to begin. Users can restart it by right clicking the icon in their dock (Mac) or taskbar (Windows) and selecting Quit. After they quit, they can click the app icon to open Teams again.
+For your end users to log diagnostic data for Teams meetings, they must turn on the option in the Teams client. They will go to **Settings** > **General**, select the **Enable media logs (diagnostic data for audio, video, and screen sharing)** check box, and reproduce the issue.
 
 > [!NOTE]
 > When your users sign out of Teams, Media logging resets to its default.
