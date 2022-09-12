@@ -168,7 +168,7 @@ For more information about live events and a comparison of Teams live events to 
 >- 50 events can be hosted simultaneously across a tenant
 >- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program (not available for GCC, GCCH, and DoD). The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## Presence in Outlook
 
