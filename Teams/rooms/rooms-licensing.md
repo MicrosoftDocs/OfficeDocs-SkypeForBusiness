@@ -28,7 +28,7 @@ description: Learn about and compare the available licenses for different types 
 
 Microsoft offers two licenses for meeting room devices that participate in Teams meetings and calls:
 
-- **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and dual-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
+- **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and dual screen support. The Teams Rooms Pro licenses also provide advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
     Teams Rooms Pro is a great fit for medium and enterprise organizations, as well as smaller organizations with larger room counts or more advanced needs.
 
