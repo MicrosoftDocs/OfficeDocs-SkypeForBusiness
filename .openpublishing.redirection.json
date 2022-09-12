@@ -2894,6 +2894,11 @@
       "source_path": "Teams/rooms/update-management-reference.md",
       "redirect_url": "/microsoftteams/rooms/",
       "redirect_document_id": false
-     }
+     },
+    {
+     "source_path": "Teams/using-breakout-rooms.md",
+     "redirect_url": "https://support.microsoft.com/office/use-breakout-rooms-in-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461",
+     "redirect_document_id": false
+    }
   ] 
 }

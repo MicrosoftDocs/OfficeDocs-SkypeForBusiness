@@ -44,33 +44,33 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Columbus Business Solutions](http://www.columbus-business.com/)  | CBS Cloud Voice | &#x2714; |
 |[Comscentre](http://www.comscentre.com/microsoft-lync-certified-sip)  |Comscentre Sip Connect for Microsoft Lync |  |
 |[Elisa](https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365)  |SIP Trunking  |&#x2714;  |
-|[Fujitsu](http://www.fujitsu.com/fi/services/infrastructure-services/network/)  |SIP Trunk  |  |
+|[Fujitsu](http://www.fujitsu.com)  |SIP Trunk  |  |
 |[G12 Communications](https://www.g12com.com/)  | Lync SIP Trunks |  |
 |[Gamma](http://www.gamma.co.uk/partners/products/voice/sip-trunks/)  | SIP Trunking |  |
 |[GlobalConnect](http://www.globalconnect.dk/produkter/telefoni/lync)  |GlobalConnect SIP Trunking  |  |
 |[IntelePeer](http://www.intelepeer.com/)  | IntelePeer SIP Trunking< | &#x2714; |
 |[Internet Solutions](https://www.is.co.za/OurSolutions/Communication/Voice/Pages/default.aspx)  |Internet Solutions SIP Trunk |  |
-|[Interoute](http://www.interoute.com/product/interoute-one)  | Interoute One |  |
+|[Interoute](https://www.uni-tel.co.uk/product-type/sip-trunks)  | Interoute One |  |
 |[ipvision a/s](http://www.ipvision.dk/microsoft-lync/)  | VIP Trunk |&#x2714;  |
 |[Kordia](http://www.kordia.co.nz/)  | Onkor Voice | &#x2714; |
-|[Level 3](http://level3.com/lync)  |Level 3 Communications SIP Trunking  |  |
+|[Level 3](https://www.lumen.com/en-us/communications/sip-trunking.html)  |Level 3 Communications SIP Trunking  |  |
 |Magnetic North  |Cloud PBX  |  |
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications)  | Intelligent SIP Trunk |  |
 |[One Source Networks](http://www.onesourcenetworks.com/lync-trunking/)  | Lync Trunking | &#x2714; |
 |[Orange Business Services](http://www.orange-business.com/en/products/business-talk)  | Business Talk (SIP Trunking) |  |
 |[Peerless Network](http://www.peerlessnetwork.com/)  |Enterprise SIP Trunking |  |
 |[Phonero](http://www.phonero.no/)  | Phonero SIP-trunk |  |
-|[Pure-IP](http://pure-ip.com/microsoft-Lync-voice-trunks)  |OneLync SIP Trunks  | &#x2714; |
-|[QSC AG](http://www.qsc.de/ipfonie-extended-link/)  |IPfonie extended link  |  |
+|[Pure-IP](http://pure-ip.com)  |OneLync SIP Trunks  | &#x2714; |
+|[QSC AG](https://www.qsc.com)  |IPfonie extended link  |  |
 |[Redwood Technologies](http://www.redwoodtech.com/products/microsoft-lync/)  | SIP Trunk |  |
 |[Rogers Business Solutions](http://business.rogers.com/)  | Rogers Business Solutions (RBS) SIP Trunking |  |
-|[SBC Europe](https://www.sbc-europe.com/sip-trunking)  | SIP Trunking for Microsoft Lync (2013) |  |
+|SBC Europe  | SIP Trunking for Microsoft Lync (2013) |  |
 |[SoTel Systems, LLC](http://www.sotelsystems.com/)  | SIP Trunking |  |
 |[Sprint](https://www.sprint.com/business/solutions/sprint_enablers/sip_trunking/index.html?INTNAV=ATG:HE:SIPTrunking#.U6LRQnlOVaQ)  |Global SIP Trunking  |  |
 |[Swisscom (Switzerland)](https://www.swisscom.ch/en/business.html)  |VoIP Gate  |  |
 |[Tata Communications](https://www.tatacommunications.com/)  | Global SIP Connect | &#x2714; |
-|[TDC](http://tdc.se/element.php?dogtag=tdcs_erb_fas_but)  | TDC Business Trunk |  |
-|[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview)  | talkAssure SIP Trunking for Microsoft Lync |  |
+|[TDC](https://tdc.dk/produkter/sip-trunk)  | TDC Business Trunk |  |
+|[Telappliant](https://telappliant.com/products/communications/sip-trunking/)  | talkAssure SIP Trunking for Microsoft Lync |  |
 |[Telavox](https://telavox.com/)  | SIP Trunk | &#x2714; |
 |[Tele2](https://www.tele2.nl/)  |VoIP Connect  |  |
 |[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/)  | SIP Trunking |  |
@@ -105,9 +105,9 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Cirque A/S](http://www.cirque.dk/)     |LYNC Trunk|&#x2714;|
 |[Colt](https://www.colt.net/uk/en/products-services/telephony/index.htm#tabArea)|Colt VoIP Access|         |
 |[Elisa](https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365)     |SIP Trunking|         |
-|[Fujitsu](http://www.fujitsu.com/fi/services/infrastructure-services/network/)     |SIP Trunk|         |
+|[Fujitsu](http://www.fujitsu.com)     |SIP Trunk|         |
 |[Gamma](http://www.gamma.co.uk/partners/products/voice/sip-trunks/) |SIP Trunking|         |
-|[Global Crossing](http://www.level3.com/en/products-and-services/voice/enterprise-voice/sip-services/sip-provider-trunking/) |SIP Trunking Services|         |
+|[Global Crossing](https://www.lumen.com/en-us/communications/sip-trunking.html) |SIP Trunking Services|         |
 |[GlobalConnect](http://www.globalconnect.dk/produkter/telefoni/microsoft-lync.aspx) |GlobalConnect SIP Trunking|         |
 |[HIPCOM](https://netfore.com/featured-work/hipcom/)     |SIP Trunking|         |
 |[IECI](http://www.ieci.es/)     |IECI|         |
@@ -117,21 +117,21 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Kordia](http://www.kordia.co.nz/)     |Onkor Voice|&#x2714;|
 |[KPN](http://www.kpn.com/zakelijk/vast-bellen/zakelijk-vast-bellen.htm)     |VoIP Connect| |
 |[Kvantel](http://kvantel.no/wggdmstmp/tjenester/telefoni/sip_connect_lync/) |Kvantel SIP Connect Lync | |
-|[Level 3](http://your.level3.com/2013DCLEADGSIPOSOLP1_SIPVoicePgFromOSRP_20130703?WT.tsrc=08202013SIPVoiceLPNomad911SIPVocCompPgFullWidthBanner) |Level 3 Communications SIP Trunking| |
+|[Level 3](https://www.lumen.com/en-us/communications/sip-trunking.html) |Level 3 Communications SIP Trunking| |
 |[MyNetFone](https://www.mynetfone.com.au/Business/SIP-Trunking/Approved-Equipment/microsoft) |MyNetFone SIP Trunking| |
 |[OneXS](http://www.onexs.com)     |OneConnect SIP Trunk| |
 |[Optimus](http://www.nos.pt/particulares/Pages/home.aspx) |SIP Trunk| |
 |[Orange Business Services](http://www.orange-business.com/en/voice-and-telephony) |SIP Trunking| |
 |[Phonect](http://www.phonect.no) |Phonect SIP| |
 |[Phonero](http://www.phonero.no/) |Phonero SIP-trunk| |
-|[Pure IP](http://pure-ip.com/microsoft-Lync-voice-trunks)     |OneLync SIP Trunks|&#x2714;|
-|[QSC AG](http://www.qsc.de/ipfonie-extended-link/)|IPfonie extended link| |
+|[Pure IP](http://pure-ip.com) |OneLync SIP Trunks|&#x2714;|
+|[QSC AG](https://www.qsc.com)|IPfonie extended link| |
 |[Rogers Business Solutions](http://business.rogers.com/) |Rogers Business Solutions (RBS) SIP Trunking| |
 |[SpeakUp](http://www.speakup.nl/speakup/) |speakup trunk| |
 |[Sprint](https://www.sprint.com/business/solutions/sprint_enablers/sip_trunking/index.html?INTNAV=ATG:HE:SIPTrunking#.U6LRQnlOVaQ) |Global SIP Trunking| |
 |[Swisscom](http://www.swisscom.ch/en/residential.html) |Swisscom VoIP Gate| |
 |[Tata Communications](https://www.tatacommunications.com/) |Global SIP Connect|&#x2714;|
-|[TDC](http://tdc.se/element.php?dogtag=tdcs_erb_fas_but)     |TDC Business Trunk| |
+|[TDC](https://tdc.dk/produkter/sip-trunk)     |TDC Business Trunk| |
 |[Telavox](https://telavox.com/)     |SIP Trunk|&#x2714;|
 |[Tele2](https://www.tele2.nl/) |VOIP Connect| |
 |[Telenet](http://business.telenet.be/nl/telefonie-isdn/overzicht) |Telenet SIP Trunking| |
@@ -141,14 +141,14 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[TeliaSonera Finland Oyj](http://www.sonera.fi/) |Sonera Business Voice Access| |
 |[Telus](http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking) |IP Trunking| |
 |[ThinkTel](http://www.thinktel.ca/en/sip-for-lync) |SIP Trunking| |
-|[Uni-tel](http://uni-tel.dk/doc/menu/46/microsoft-lync) |SIP Trunk| |
+|[Uni-tel](https://www.uni-tel.co.uk/product-type/sip-trunks) |SIP Trunk| |
 |[Ventelo AS](http://www.ventelo.no/bedrift/fasttelefoni/) |SIP Trunk| |
 |[Verizon Business](http://www.verizonbusiness.com/products/advanced-communications/) |IP Trunking Services| |
 |[Vodacom Business](http://www.vodacombusiness.co.za/) |One Net Connect| |
 |[Vodafone Netherlands](https://www.vodafone.nl/zakelijk/midden-groot-bedrijf/) |Office Voice / OneVoice| |
 |[Voiceworks](http://www.voiceworks.com/nl) |Voice Connect| |
 |VoIPunlimited   |Lync Trunk| |
-|[West IP Communications](https://stage.westuc.com/en-us) |MaxxConnect| |
+|West IP Communications |MaxxConnect| |
 |[Windstream](http://www.windstreambusiness.com/) |Dynamic IP| |
 |[XO Communications](http://www.xo.com/unified-communications/sip/) |SIP Trunk| |
 |     |         |         |

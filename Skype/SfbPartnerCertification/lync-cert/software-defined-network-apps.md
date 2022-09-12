@@ -49,7 +49,7 @@ With the Lync SDN API and Aruba Wi-Fi, you can deliver the quality, jitter-free 
 
   **Comprehensive view of Lync sessions, trends, and server infrastructure**
 
-[Arrow Systems Integration](https://arrowavgroup.com/systems-integration/)
+[Arrow Systems Integration](https://arrowavgroup.com)
 
 ***Arrow Systems Integration*** PRISM OneView for Lync simplifies the job of the Lync administrator, providing the tools needed to maintain and improve the Lync UC environment. By applying the power of Microsoft’s SDN API, the user sees call sessions in real time with complete call quality metrics. Key values are easily pulled into dashboard widgets for ease of daily tracking, or graphed over time to identify performance trends. The health of all Lync servers is displayed graphically, with key performance indicators thresholded against the recommendations of Microsoft.
 
