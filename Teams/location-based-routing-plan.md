@@ -1,7 +1,7 @@
 ---
 title: Plan Location-Based Routing for Direct Routing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
