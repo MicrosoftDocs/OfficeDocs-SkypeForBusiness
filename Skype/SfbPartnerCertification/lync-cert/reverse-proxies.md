@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788945
-description: "This lists the server reverse proxy products that have completed solution testing with Lync Server. While any reverse proxy is expected to work with Lync Server, the reverse proxies listed below have completed extensive testing and are posted with detailed deployment white papers to assist in configuration.."
+description: "This lists the server reverse proxy products that have completed solution testing with Lync Server. While any reverse proxy is expected to work with Lync Server, the reverse proxies listed below have completed extensive testing and are posted with detailed deployment white papers to assist in configuration."
 ---
 
 # Reverse proxies
