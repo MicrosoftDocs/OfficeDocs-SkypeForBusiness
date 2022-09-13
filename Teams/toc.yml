@@ -1650,6 +1650,8 @@ items:
             href: career-coach-set-up-steps.md
           - name: Troubleshoot Career Coach
             href: career-coach-troubleshoot.md
+          - name: Career Coach data compliance
+            href: privacy-career-coach-data-compliance.md
           - name: Resources for Career Coach
             href: career-coach-resources.md
         - name: Supervise chats in Teams
