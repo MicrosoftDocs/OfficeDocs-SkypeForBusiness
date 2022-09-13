@@ -67,7 +67,7 @@ To configure a custom message and redirect users to an org-specific URL, follow 
 
 1. Sign into the Teams admin center and go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
-1. At the upper-right, select **Org-wide app settings**.
+1. At the upper-right corner, select **Org-wide app settings**.
 
 1. To display a custom message or instruction in Teams store, enter a text message in text field under **User requests configuration**.
 
