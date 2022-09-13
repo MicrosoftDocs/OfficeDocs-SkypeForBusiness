@@ -25,7 +25,7 @@ The apps that are blocked in your organization may affect end-user productivity 
 
 This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for each requested app. It helps you make an informed decision about which apps to evaluate for allowing.
 
-You retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
+You can retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
 
 * The default option sends the user requests in Teams admin center where you can [view user requests and allow the requested apps](#view-user-requests).
 
@@ -37,13 +37,13 @@ You retain complete control of the apps that are allowed or blocked for users. I
 
 ## Modify the default setting to receive end-user requests
 
-To configure a custom message and redirect users to an org-specific URL, follow these steps:
+To configure a custom message and redirect users to an org-specific URL, follow the steps:
 
-1. Sign into the Teams admin center and access the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
+1. Sign into the Teams admin center and go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
-1. Select Org-wide app settings.
+1. At the upper-right, select **Org-wide app settings**.
 
-1. To display a custom message or instruction in Teams client store, provide a text message in User requests configuration.
+1. To display a custom message or instruction in Teams client store, enter a text message in text field under **User requests configuration**.
 
 1. To provide an org-specific URL to collect user requests, follow the steps:
 
@@ -56,9 +56,9 @@ To configure a custom message and redirect users to an org-specific URL, follow 
 
 ## View user requests
 
-The end-user requests received by the default method are displayed in Teams admin center. You can easily view and manage the requests. We recommend having a regular triage to check for end-user requests. To view and allow the apps, follow these steps:
+The end-user requests received by the default method are displayed in Teams admin center. You can easily view and manage the requests. We recommend a regular triage to check for end-user requests. To view and allow the apps, follow these steps:
 
-1. Sign into the Teams admin center and access the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
+1. Sign into the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Choose to display the **Requests by users** column. You can sort the column, as well.
 
@@ -70,7 +70,7 @@ The end-user requests received by the default method are displayed in Teams admi
 
    :::image type="content" source="media/apps-manage-user-requests.png" alt-text="Screenshot showing the manage requests option on the app details page." lightbox="media/apps-manage-user-requests-expanded.png":::
 
-1. Follow one or more of the following steps as displayed in the popup dialog. The steps to approve an app vary based on the method used to block it.
+1. Follow one or more of the following steps as displayed in the pop-up dialog. The steps to approve an app vary based on the method used to block it.
 
    * If the app is blocked using permission policies, [modify the permission policies](teams-app-permission-policies.md).
    * If the app is blocked for all users, [allow the app](manage-apps.md#allow-and-block-apps).
@@ -82,14 +82,15 @@ End-users can view the **Add** option for an app in the Teams store to check if 
 
 ## Dismiss user requests
 
-To dismiss the requests to allow app, follow these steps:
+To dismiss the requests to an allow app, follow the steps:
 
 1. Select the name of the app for which you want to dismiss the user requests.
-1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
+1. Select **Manage requests**.
+1. In the Manage user requests dialog, select **Dismiss all requests**.
 
    :::image type="content" source="media/dismiss-user-requests-apps.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::​
 
-If you dismiss a request, it doesn't inform the end-user that their request is acted upon. When you dismiss a request to allow an app, the requests count in the admin center resets to zero. Also, after a few hours of you dismissing a request, end-users can again request the same app to be allowed.
+If you dismiss a request, it doesn't inform the end-user that their request is acted upon. When you dismiss a request to allow an app, the requests count in the admin center resets to zero. Also, after a few hours of dismissing a request, end-users can again request the same app to be allowed.
 
 ## Related article
 
