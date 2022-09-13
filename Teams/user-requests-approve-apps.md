@@ -37,13 +37,15 @@ You can retain complete control of the apps that are allowed or blocked for user
 
 ## Modify the default setting to receive end-user requests
 
+Teams provides a default message or instruction for users to request access to a blocked app in Teams store. You can customize the message or instructions for an app in the Teams admin center.
+
 To configure a custom message and redirect users to an org-specific URL, follow the steps:
 
 1. Sign into the Teams admin center and go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
 1. At the upper-right, select **Org-wide app settings**.
 
-1. To display a custom message or instruction in Teams client store, enter a text message in text field under **User requests configuration**.
+1. To display a custom message or instruction in Teams store, enter a text message in text field under **User requests configuration**.
 
 1. To provide an org-specific URL to collect user requests, follow the steps:
 
