@@ -65,10 +65,10 @@ As of July 31, 2022, to move users between an on-premises deployment and the clo
 When a user is moved from on-premises to the cloud:
 
 - The user becomes a TeamsOnly user, which means the user:
-   -  receives and initiates all chats and calls in the Teams client.
-   -  schedules all meetings in Teams
-   -  can't initiate chats or calls, or schedule meetings in Skype for Business
-   -  can join Skype for Business meetings they already have or receive in the future. However, after Microsoft removes the Skype for Business Online infrastructure for a given TeamsOnly user, TeamsOnly users may only join Skype for Business meetings anonymously. Beginning October, 2022, users moved from on-premises to Teams Only in hybrid organizations will no longer be provisioned with the Skype for Business Online infrastructure so if they are invited to a Skype for Business meeting, they would need to join anonymously.
+   -  Receives and initiates all chats and calls in the Teams client.
+   -  Schedules all meetings in Teams.
+   -  Can't initiate chats or calls, or schedule meetings in Skype for Business.
+   -  Can join Skype for Business meetings they already have or receive in the future. However, after Microsoft removes the Skype for Business Online infrastructure for a given TeamsOnly user, TeamsOnly users may only join Skype for Business meetings anonymously. Beginning October, 2022, users moved from on-premises to Teams Only in hybrid organizations will no longer be provisioned with the Skype for Business Online infrastructure. If these users are invited to a Skype for Business meeting, they would need to join anonymously.
 
 - Users become enabled for interoperability with Skype for Business users, and can also federate with other organizations.
 - Contacts from on premises are moved to Teams.
