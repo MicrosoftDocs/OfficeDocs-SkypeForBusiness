@@ -70,7 +70,7 @@ To change the look and feel of an app as it appears in your organization's Teams
 
      :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page.":::
 
-1. Expand the **Details** section and customize one or more of the following fields. Only those fields that are marked as customizable by the app developer are available for editing.
+1. Expand the **Details** section and customize one or more of the available fields. Only the fields marked as customizable by the app developer are available for editing.
 
    :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the customize user interface.":::
 
