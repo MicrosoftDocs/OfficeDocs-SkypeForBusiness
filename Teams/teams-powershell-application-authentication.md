@@ -16,7 +16,7 @@ appliesto:
 
 # Application-based authentication in Teams PowerShell Module
 
-Application-based authentication is now supported in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments. It isn't supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
+Application-based authentication is supported now in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments. It isn't supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
 
 
 ## Cmdlets Supported
