@@ -1,5 +1,5 @@
 ---
-title: Modify the appearance of apps in your organization's Teams store
+title: Modify branding and appearance of apps in your organization's Teams store
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -38,8 +38,13 @@ As an admin, you can customize the following properties.
 
 For detailed information about each of these metadata fields, see the [Teams manifest schema](/microsoftteams/platform/resources/schema/manifest-schema) in the Teams developer documentation.
 
-> [!NOTE]
-> Admins cannot customize any custom apps. Admins cannot customize any app in Government Community Cloud High (GCCH) and Department of Defense (DoD) environments.
+A few considerations before you use the feature are:
+
+* You must have Teams license to customize app information.
+* You can only customize [third-party apps](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-validated-by-microsoft) and not [custom apps](deploy-apps-microsoft-teams-landing-page.md#custom-apps).
+* You can't customize any app in Government Community Cloud High (GCCH) and Department of Defense (DoD) environments.
+* An app can be customized only if the app developer allows it.
+* Modifications to any apps are available only within your organization.
 
 ## Customize the details of an app
 
@@ -133,7 +138,7 @@ You can reset the app details to the original values provided by the app develop
 
    :::image type="content" source="media/reset-app-customization.png" alt-text="The screenshot shows the reset to default option for a customized app.":::
 
-## Related article
+## Related articles
 
 * [Customize your organization's app store](customize-your-app-store.md)
-* [Rebrand your apps](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
+* [Rebrand your apps community post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
