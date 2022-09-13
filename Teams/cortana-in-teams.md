@@ -120,7 +120,7 @@ To enable Cortana _voice activation_ during a meeting, move the toggle **On** or
 Cortana _Voice Activation_ can be enabled if you are using a Lenovo Hub 500 or if you have any of these devices connected to your room:
 
 - Jabra Panacast 50
-- Logi Rally Plus Conferencing System
+- Logitech Rally & Rally Plus conferencing systems
 - Bose Video Bar VB1
 - EPOS EXPAND Capture 5
 - Yealink MSpeech
