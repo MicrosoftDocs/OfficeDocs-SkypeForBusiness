@@ -60,6 +60,10 @@ The following advanced features aren't available during an E2EE call:
 
 - Recording
 
+- Forward to Voicemail
+
+- Simultaneanous ring
+
 Also, if your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Configure end-to-end encryption for Microsoft Teams
