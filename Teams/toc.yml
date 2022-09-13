@@ -322,8 +322,6 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
-        - name: Career Coach data compliance
-          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -622,8 +620,8 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
-        - name: Meeting policies and meeting expiration
-          href: meeting-expiration.md
+        - name: Manage who can start and schedule meetings
+          href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
@@ -882,12 +880,16 @@ items:
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Operator Connect
           items: 
-            - name: What's new
-              href: operator-connect-whats-new.md
             - name: Plan for Operator Connect
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect Mobile
+          items:
+            - name: Plan for Operator Connect Mobile
+              href: operator-connect-mobile-plan.md
+            - name: Configure Operator Connect Mobile
+              href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
             - name: What's new
@@ -938,7 +940,7 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
-            - name: Monitor and troubleshoot Direct Routing
+            - name: Monitor Direct Routing
               items: 
                 - name: Overview
                   href: direct-routing-monitor-and-troubleshoot.md
@@ -973,6 +975,8 @@ items:
           href: search-for-phone-numbers-for-users.md
         - name: Assign, change, or remove a phone number for a user
           href: assign-change-or-remove-a-phone-number-for-a-user.md
+        - name: Manage the usage of a phone number
+          href: manage-the-usage-of-a-phone-number.md
         - name: See a list of phone numbers in your organization
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
@@ -1000,6 +1004,9 @@ items:
         
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
+
+        - name: Manage phone numbers for Operator Connect Mobile
+          href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1350,6 +1357,10 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
+            - name: Overview of Teams Rooms licensing
+              href: rooms/rooms-licensing.md
+            - name: Teams Rooms admin center licensing
+              href: rooms/admin-center-license-overview.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1364,8 +1375,6 @@ items:
               href: rooms/requirements.md
             - name: Security
               href: rooms/security.md
-            - name: Online Licensing
-              href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1535,6 +1544,8 @@ items:
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Manage apps provided by Microsoft
       items:
+        - name: Manage the Admin app
+          href: manage-admin-app.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1568,6 +1579,10 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Customize app branding using app customization
+          href: customize-apps.md
+        - name: Manage access to apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
 
     - name: Manage custom apps
       items:
@@ -1604,14 +1619,14 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
-        - name: Customize appearance and metadata of apps
-          href: customize-apps.md
         - name: Brand your org app store
           href: customize-your-app-store.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: App behavior based on types of users
+        - name: Use apps as external or guest users
           href: non-standard-users.md
+        - name: Manage user requests
+          href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
         - name: Audit app management activities
@@ -1624,63 +1639,70 @@ items:
     - name: Overview
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
     - name: Teams for Education
-      href: expand-teams-across-your-org/teams-for-education-landing-page.md
-      items: 
-        - name: Quick start - Teams for Education admins
-          href: teams-quick-start-edu.yml
-        - name: Get Started with remote learning
-          href: remote-learning-edu.md
-        - name: Teams EDU policies and policy packages
-          href: policy-packages-edu.md
-        - name: Assign policies to large sets of users
-          href: batch-group-policy-assignment-edu.md
-        - name: PowerShell script to create security groups for educators and students
-          href: scripts/powershell-script-security-groups-edu.md
-        - name: Low-bandwidth guidance for Education admins
-          href: edu-remote-low-bandwidth.md
-        - name: Teams for education policy wizard
-          href: easy-policy-setup-edu.md
-        - name: Parent Connection in Teams for Education
-          href: edu-parents-app.md
-        - name: Career Coach
+      items:
+        - name: Overview of Teams for Education
+          href: expand-teams-across-your-org/teams-for-education-landing-page.md
+        - name: Get started with Teams for Education
           items:
-          - name: Get started with Career Coach
-            href: career-coach.md
-          - name: Set up and configure Career Coach
-            href: career-coach-set-up-steps.md
-          - name: Troubleshoot Career Coach
-            href: career-coach-troubleshoot.md
-          - name: Career Coach data compliance
-            href: privacy-career-coach-data-compliance.md
-          - name: Resources for Career Coach
-            href: career-coach-resources.md
-        - name: Supervise chats in Teams
-          href: supervise-chats-edu.md
-        - name: Education Insights
+            - name: Quick start - Set up Teams for Education
+              href: teams-quick-start-guide-edu.md
+            - name: Get started with remote learning
+              href: remote-learning-edu.md
+            - name: Troubleshoot low-bandwidth scenarios
+              href: edu-remote-low-bandwidth.md
+            - name: Assign Teams licenses for education
+              href: teams-edu-licensing.md
+            - name: Microsoft Education FAQ for IT admins
+              href: plan-teams-governance-edu.md
+            - name: Share Teams adoption resources
+              href: resources-teams-edu.md
+            - name: Education SKU reference
+              href: sku-reference-edu.md
+        - name: Teams policies for education
+          items:
+            - name: Manage Teams policies and policy packages
+              href: policy-packages-edu.md
+            - name: Quickly set up policies for users
+              href: easy-policy-setup-edu.md
+            - name: Assign policies to large sets of users
+              href: batch-group-policy-assignment-edu.md
+            - name: Create security groups for educators and students
+              href: scripts/powershell-script-security-groups-edu.md
+        - name: Set up features for educators
+          items:
+            - name: Set up Supervised chats in Teams
+              href: supervise-chats-edu.md
+            - name: Set up Assignments in Teams
+              href: expand-teams-across-your-org/assignments-in-teams.md
+            - name: Set up Parent Connection in Teams
+              href: edu-parents-app.md
+            - name: Career Coach
+              items:
+                - name: Get started with Career Coach
+                  href: career-coach.md
+                - name: Set up and configure Career Coach
+                  href: career-coach-set-up-steps.md
+                - name: Troubleshoot Career Coach
+                  href: career-coach-troubleshoot.md
+                - name: Resources for Career Coach
+                  href: career-coach-resources.md
+        - name: LMS and LTI integrations
+          items:
+            - name: Install Moodle LMS integration
+              href: install-moodle-integration.md
+        - name: Learn about students with Education Insights
           items:           
             - name: Get started with Insights
               href: class-insights.md
             - name: Sync SIS data with Insights
               href: education-insights-sis-data-sync.md
             - name: Manage user access to Insights
-              href: education-insights-manage-access.md              
-            - name: Get started with Reflect
-              href: reflect.md   
+              href: education-insights-manage-access.md           
+            - name: Set up Reflect for emotional insights
+              href: reflect.md
             - name: Understand Insights for Reading Progress
               href: insights-for-reading-progress.md
-        - name: Assignments in Teams for Education
-          href: expand-teams-across-your-org/assignments-in-teams.md
-        - name: Teams resources for Education admins
-          href: resources-teams-edu.md
-        - name: Microsoft Education governance FAQ for admins
-          href: plan-teams-governance-edu.md
-        - name: Install Moodle integration
-          href: install-moodle-integration.md
-        - name: Teams Licensing for Education
-          href: teams-edu-licensing.md
-        - name: Education SKU reference
-          href: sku-reference-edu.md
-        - name: Teams devices for Education
+        - name: Find Teams devices for education
           href: devices-for-education.md
     - name: Teams for Frontline Workers
       items: 
@@ -1760,13 +1782,13 @@ items:
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
           href: connect-teams-essentials-to-email.md 
-    - name: Upgrade from Kaizala
+    - name: Move from Kaizala
       items: 
         - name: Get started
           href: get-started-kaizala-teams.md
-        - name: Prepare for upgrade
+        - name: Prepare to move
           href: prepare-for-teams-kaizala.md
-        - name: Plan your upgrade journey
+        - name: Plan your move to Kaizala 
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md

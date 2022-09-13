@@ -1,6 +1,6 @@
 ---
 title: Teams apps behavior based on types of users
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 ms.reviewer: joglocke
 manager: serdars

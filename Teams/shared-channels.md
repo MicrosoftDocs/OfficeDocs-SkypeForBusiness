@@ -64,7 +64,7 @@ When a team is archived, individual sharing will remain intact, but sharing with
 
 A shared channel owner can't be removed through the Teams client if they are the last owner of one or more shared channels.
 
-If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel is automatically promoted to be the shared channel owner. Consider adding more than one owner to avoid this situation.
+If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel from your organization is automatically promoted to be the shared channel owner. If there are no members from your organization to promote, the shared channel will remain ownerless. A Teams admin will have to manually assign a channel owner. Consider adding more than one owner to avoid this situation.
 
 > [!NOTE]
 > External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
@@ -113,7 +113,7 @@ For more information about performing an eDiscovery search for shared channel me
 
 ## Considerations around file access in shared channels
 
-Files, folders, and OneNote notebooks in a shared channel can be shared with people outside the channel by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
+Files, folders, and OneNote notebooks in a shared channel can be shared with people outside the channel (but not outside the organization) by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
 If a user is granted access to a file, folder, or notebook in a shared channel through SharePoint, removing the user from the team or shared channel won't remove the user's access to the file, folder, or notebook.
 
@@ -152,7 +152,7 @@ The following limitations also apply:
 
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
-- LOB apps, bots, connectors, and message extensions are not supported.
+- Bots, connectors, and message extensions are not supported.
 
 - When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 
@@ -169,8 +169,6 @@ The following apps are supported for use in shared channels.
 - Activity
 - Adobe Acrobat Sign
 - Asana
-- Calendar
-- Calendar Pro
 - Calling
 - Chat
 - Code by Vivani

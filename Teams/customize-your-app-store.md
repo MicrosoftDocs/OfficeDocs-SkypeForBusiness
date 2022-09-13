@@ -1,6 +1,6 @@
 ---
 title: Customize your app store in Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
@@ -21,16 +21,9 @@ description: Learn how to customize your organization's Teams app store by addin
 
 # Customize your organization's app store in Microsoft Teams
 
-Now you can customize your organization's apps store in Teams with your company branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users.
+You can customize your organization's app store to reflect your company branding. You can add your logo, a custom background, and custom text colors to make it more inviting for end users.
 
-> [!NOTE]
-> Changes to branding can take up to 24 hours to take effect.
-
-You can access the customized store in the admin center by selecting **Teams apps** > **Customize store**.
-
-  ![Admin console customize store feature highlighted.](media/customize-app-store.png)
-
-This article describes the Custom apps store features and how to use them.
+You can access the customized store in the Teams admin center by selecting **Teams apps** > **[Customize store](https://admin.teams.microsoft.com/policies/customize-appstore)**. Follow the below instructions for the details of the changes.
 
 ## Customize your organization logo
 
@@ -38,23 +31,11 @@ This article describes the Custom apps store features and how to use them.
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Here you can upload your organization logo. The logo selected will appear in the Teams client in **Apps** > **Built for your tenant** page.
+Here you can upload your organization logo. The logo selected will appear in the Teams client in **Apps** > **Built for your org** page.
 
 When you select the **Choose a picture** option, you can upload the file of your choice. The logo should be 240x60, or it will be scaled to that size. It should be no larger than 5 MB. The supported formats are .svg, .png, and .jpg.
 
 The logo is shown in the top, right corner of the tenant app catalog in the Teams store.
-
-## Customize your small logo
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-Your organization logo mark or small logo is an image or symbol that represents your organization brand and doesn't include your company name. The lovemark helps team members identify the Apps store. The logo selected will appear in the Teams client in Apps page.
-
-Select the **Choose a picture** option and upload a file of your choice. Keep the logo mark resolution up to 32x32 pixels or it's downsampled to this resolution. Keep the file size less than 5 MB. The supported formats are .svg, .png, and .jpg.
-
-Teams Store displays the logo next to the **Built for your tenant** section.
 
 ## Customize the background color
 
@@ -62,7 +43,7 @@ Teams Store displays the logo next to the **Built for your tenant** section.
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Make sure that the background has enough contrast with the text so the users can read the text clearly. The background will appear in the Teams client in **Apps** > **Built for your tenant** header.
+Make sure that the background has enough contrast with the text so the users can read the text clearly. The background will appear in the Teams client in **Apps** > **Built for your org** header.
 
 Your options are:
 
@@ -78,18 +59,18 @@ The background image or color is used as the background for the top banner in th
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Provide enough contrast to the text color as compared to the background so that the end-users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your tenant** header.
+Provide enough contrast to the text color as compared to the background so that the end-users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your org** header.
 
 When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
- ![the color chooser.](media/choose-a-custom-color.png)
+:::image type="content" source="media/choose-a-custom-color.png" alt-text="Screenshot of the dialog to choose a color.":::
 
 ## Complete the customization of your team apps store
 
 When you've finished customizing your apps store, be sure to select **Save** to save your changes.
 To preview your changes, select **Preview apps store** to see a representation of your customized apps store.
 
-![preview of the custom apps store.](media/PowerAppsInStore650w.png)
+:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="Screenshot showing an example of a customized apps store.":::
 
 > [!NOTE]
 > The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.

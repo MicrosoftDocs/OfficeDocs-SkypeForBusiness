@@ -11,6 +11,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -23,7 +24,7 @@ ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 
 Apps are a great way to bring together your workplace tools and services and collaborate with others. Apps help end-users be more productive, collaborative, and effective in their day-to-day tasks. Organizations use apps to connect with their customers, provide services, and share information. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel.
 
-Our extensive catalog of validated and secure apps in Teams Store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed. End-users can use apps in Teams based only on the [permissions provided by you](app-policies.md). As an admin, you use enterprise-grade policies to allow or block any app for your organization's users. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
+Our extensive [catalog](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) of validated and secure apps in Teams Store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed. End-users can use apps in Teams based only on the [permissions provided by you](app-policies.md). As an admin, you use enterprise-grade policies to allow or block any app for your organization's users. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
 
 This article helps you understand the types of apps and where from your users access those apps. To learn more about the use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 

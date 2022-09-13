@@ -87,9 +87,9 @@ Using an app setup policy, an admin can achieve the following tasks:
 * Install apps for end-users in their personal Teams environment.
 * Install apps for end-users as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-The end-users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them and the app is allowed by the Teams admin. Instead, if an app is blocked for a user or for an organization, then end-users can [request admin approval](manage-apps.md#manage-user-requests-to-allow-apps).
+The end-users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them and the app is allowed by the Teams admin. Instead, if an app is blocked for a user or for an organization, then end-users can [request admin approval](user-requests-approve-apps.md).
 
-To create an app setup policy to install apps, follow these steps:
+To install apps using an app setup policy, follow these steps:
 
 1. Sign in to Teams admin center and access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**.
 1. Select **Add**.
@@ -110,7 +110,7 @@ You edit the settings in the global policy to include the apps that you want. To
 
 ### Edit an app setup policy
 
-You can use the Microsoft Teams admin center to edit a policy, including the global (Org-wide default) policy and custom policies that you create.
+You can use the Microsoft Teams admin center to edit a policy, including the global (Org-wide default) policy and custom policies that you create. After you edit or assign a policy, it can take a few hours for changes to take effect.
 
 1. Sign in to Teams admin center and access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**.
 1. Choose the policy you want to edit and then select **Edit**.
@@ -171,7 +171,7 @@ Users can change the order of their pinned apps on Teams desktop and mobile clie
 
 #### Does user pinning take precedence
 
-Admin pins always take precedence. If the **User pinning** option is turned on, then users will retain their pinned apps below admin pinned apps. If the **User pinning** option is turned off, then users will lose their pre-existing pins, and only admin-pinned apps will be present in the app bar.
+Admin pins always take precedence. If the **User pinning** option is turned on, then apps pinned by users display below the apps pinned by admins. If **User pinning** option is turned off, then users lose existing pins and only the apps pinned by admins are available in the app bar.
 
 ### Custom Teams apps
 

@@ -82,6 +82,9 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot that shows the update global policy in Teams admin center." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> After you submit any policy operation, you'll be prompted with a pop-up dialog box to confirm it. This includes policy assignments, changing an existing policy, and creating new custom policies. You must confirm to start the policy operation, or you can cancel and go back later.
+
 ### Using PowerShell
 
 To set the global policies using PowerShell, use the Global identifier.  Start by reviewing the current Global policy to determine which setting you want to change.
@@ -143,6 +146,10 @@ To view your policy operations in the Activity log:
 
 > [!NOTE]
 > You can also get to the Activity log from the **Users** page. After you select **Apply** to submit a bulk policy assignment, you'll see a banner at the top of the page. Select the **Activity log** link in the banner.
+
+This video shows the steps to view and manage the assigned and effective policies for a user.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
 ## Related topics
 

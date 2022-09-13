@@ -1,6 +1,6 @@
 ---
 title: Manage your apps in the Microsoft Teams admin center
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -10,6 +10,7 @@ ms.custom: intro-get-started
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
@@ -70,46 +71,13 @@ The Manage apps page is where you allow or block individual apps at the org leve
 
 To allow or block an app:
 
-1. Sign in to Teams admin center.
-1. Access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
-1. Select an app from the list of apps. You can search by the name of the app and then select it.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Select an app from the list of apps. You can search by the name of the app.
 1. Select **Allow** or **Block** option.
 
 When you allow (or block) an app on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center, the particular app is allowed (or blocked) for all users in your organization. This method differs from the app permission policy in the context that allowing (or blocking) an app via permission policy, impacts only the specific users who are assigned the policy.
 
 A user can install and use an app only when the app is allowed via the tenant-wide setting and allowed for the user via permission policy.
-
-## Manage user requests to allow apps
-
-End-users can view, but not use, the blocked apps in Teams Store. For the blocked apps, an option is available to request admin approval. These requests are collated in Teams admin center and admins can view and manage the requests when they want to. We strongly recommend having a regular triage to check for end-user requests.
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Request an admin to approve a blocked app by selecting the request approval option in Teams Store.":::
-
-### View a request
-
- 1. Sign in to the Teams admin center and select **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="End-user requests for blocked apps are displayed in the Teams admin center in the column titled Requests by users." lightbox="media/requested-apps.png":::​
-
- 1. To view and check the number of requests for each app, sort the requests in the **Requests by user** column. You can't view the name of the users who requested an app.
- 1. To allow an app, select the name of the app and it opens the app details page.
- 1. Select **Manage requests** and complete the steps displayed in the popup dialog. Based on the method used to block an app, one or more of the following steps are required to unblock it:
-
-    * If the app is blocked using permission policies, allow the app by modifying [permission policies](teams-app-permission-policies.md).
-    * If the app is blocked for all users, [allow the app](#allow-and-block-apps).
-    * If all apps are blocked for all users, modify [org-wide settings](#manage-org-wide-app-settings).
-
- If an admin allows an app, then Teams doesn't inform the end-user that their request is acted upon. The user can view the app in the Teams Store to check if they can add the app to their Teams client or not. If the app is approved by an admin, users can add it. Alternatively, if and admin doesn't approve the request and dismisses it, then end-users can request it again.
-
-### Dismiss a user request
-
- 1. Select the name of the app for which you want to dismiss the user requests.
- 1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
- 1. When a request is dismissed, it resets the user requests to zero.
-
-  :::image type="content" source="media/reject.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::​
-
-If an admin dismisses a request, it doesn't inform the end-user that their request is acted upon. After an admin dismisses a request, the end-user can request the app again.
 
 ## Allow the apps that are blocked by the developers
 
@@ -128,7 +96,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 > [!NOTE]
 > To learn how to use org-wide app settings in Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the pane.
+1. On **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page, select **Org-wide app settings**. You can then configure the settings you want in the pane.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Screenshot of the Org-wide app settings pane on the Manage apps page":::
 
@@ -153,3 +121,4 @@ Use org-wide app settings to control whether users with an [F license](https://w
 ## Related article
 
 * [Manage Teams during the transition from Skype for Business admin center](manage-teams-skypeforbusiness-admin-center.md)
+* [Manage user requests to allow apps](user-requests-approve-apps.md).

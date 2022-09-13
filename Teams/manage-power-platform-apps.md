@@ -1,6 +1,6 @@
 ---
 title: Manage Microsoft Power Platform apps in the Microsoft Teams admin center
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -47,7 +47,7 @@ Users install Microsoft Power Platform apps in the same way they install any oth
 
 As an admin, you can control whether Microsoft Power Platform apps are listed in **Built with Power Platform** on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).
 
-The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your organization's app store represent all apps created on that particular platform. If you block one or both these apps for entire org or for specific users, the users can view such apps as blocked apps, but can't install them in Teams. The users can [request admin approval to allow apps](manage-apps.md#manage-user-requests-to-allow-apps).
+The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your organization's app store represent all apps created on that particular platform. If you block one or both these apps for entire org or for specific users, the users can view such apps as blocked apps, but can't install them in Teams. The users can [request admin approval to allow apps](user-requests-approve-apps.md).
 
 Keep in mind that you can control access to all apps created in Power Apps and Power Virtual Agents but you can't allow or block individual apps. The app creator decides who can access the apps they create through the sharing feature from within Power Apps and Power Virtual Agents. If a maker shared an app they created in Power Virtual Agents with a user and you blocked **Shared Power Virtual Agents Apps** for that user, the user won't be able to see or install any apps from that platform in Teams.
 
@@ -60,15 +60,15 @@ If a user is allowed to access apps from Power Apps or Power Virtual Agents, and
 
 By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are allowed for all Teams users in your organization. You can block or allow them at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
 
-1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
-2. In the list of apps, do one of the following.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** You must be a Global admin or Teams service admin to access the page.
+1. In the list of apps, do one of the following.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot of Manage apps page, showing shared Microsoft Power Platform apps.":::
 
     * To block apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then select **Block**.
     * To allow apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then select **Allow**.
 
-### Allow or block Microsoft Power Platform apps for specific users
+### Allow Microsoft Power Platform apps for specific users
 
 To allow or block specific users in your organization from accessing apps created in Power Apps or Power Virtual Agents, create and assign one or more custom [app permission policies](teams-app-permission-policies.md).
 
