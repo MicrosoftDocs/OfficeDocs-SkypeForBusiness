@@ -23,3 +23,6 @@ keywords:
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 [!INCLUDE [mtr-device-config-assign-include](includes/mtr-device-config-assign-include.md)]
+
+> [!div class="nextstepaction"]
+> [Next step](hybrid-meetings-device-config-mailbox.md)

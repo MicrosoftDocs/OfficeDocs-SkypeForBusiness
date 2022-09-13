@@ -60,3 +60,6 @@ Calendar options let you organize Teams Rooms locations so you can, for example,
 [Step 6 - Configure meeting policies](hybrid-meetings-device-config-policies.md)
 
 [Step 7 - Configure calendar options](hybrid-meetings-device-config-calendar.md)
+
+> [!div class="nextstepaction"]
+> [Next step](hybrid-meetings-device-config-license.md)

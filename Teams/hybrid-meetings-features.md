@@ -42,3 +42,6 @@ Teams has several meeting features that can help make them more inclusive and dy
 | [Raise hands](https://support.microsoft.com/office/bb2dd8e1-e6bd-43a6-85cf-30822667b372)                        | Raise your hand virtually to let people know you want to contribute without interrupting the conversation.                                                                       |
 | [Reactions](https://support.microsoft.com/office/a8323a40-3d07-4129-934b-305370a36e21)                          | Use reactions to express yourself in meetings in a way that's inclusive and engaging.                                                                                            |
 | [Whiteboard](https://support.microsoft.com/whiteboard)                                                          | Brainstorm, plan, and share with others on a digital canvas in real time.                                                                                                        |
+
+> [!div class="nextstepaction"]
+> [Next step](hybrid-meetings-educate-participants.md)

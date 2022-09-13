@@ -280,3 +280,6 @@ Keep the following in mind when selecting cables to use with your Teams Rooms de
 - Make sure that the cable lengths needed for a room are within specifications of a given cable type. If not, you'll have to use an extender. Not all technologies support extenders, such as USB 3.0.
 - When buying cables, make sure that the connector will fit into the compute module or the console display. Some cables have large connectors and putting two connectors next to each other won't physically fit.
 - Connection locking capabilities are a nice feature. First, it can help prevent cable theft. But more importantly, it'll help cables from accidentally being pulled loose. Some HDMI cables have been engineered to require extra force to pull the cable loose.
+
+> [!div class="nextstepaction"]
+> [Next step](hybrid-meetings-device-config-intro.md)

@@ -76,3 +76,6 @@ After you've built out your space, you need to set up your devices. This step he
 ## Step 7 - Manage and monitor your space and its devices
 
 After everything's set up, you need to set up policies for how the meeting space and its devices should be used, and set up monitoring so that you can stay on top of device health and meeting experiences. This step helps you configure meeting and device policies and shows you how to use Teams monitoring tools to monitor call quality.
+
+> [!div class="nextstepaction"]
+> [Next step](hybrid-meetings-principles.md)

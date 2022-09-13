@@ -90,3 +90,6 @@ In-room participants might feel that it's more natural to discuss matters with t
 | Use reactions to react to content and discussions | Use reactions so that everyone can see how you feel about a presentation or discussion. Others might agree with you and join in!                                                                                                                                                                           |
 | **Post-meeting tasks**                            |                                                                                                                                                                                                                                                                                                            |
 | Provide feedback to the organizer                 | Let the organizer know how the meeting went for you. It's important to let them know any issues you encountered so they can be resolved.                                                                                                                                                                   |
+
+> [!div class="nextstepaction"]
+> [Next step](hybrid-meetings-room-design.md)

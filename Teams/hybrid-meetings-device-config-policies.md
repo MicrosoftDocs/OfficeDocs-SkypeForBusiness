@@ -24,3 +24,6 @@ keywords:
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 [!INCLUDE [mtr-device-config-policies-include](includes/mtr-device-config-policies-include.md)]
+
+> [!div class="nextstepaction"]
+> [Next step](hybrid-meetings-device-config-calendar.md)
