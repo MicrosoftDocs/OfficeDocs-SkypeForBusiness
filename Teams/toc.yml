@@ -1625,7 +1625,7 @@ items:
           href: manage-third-party-teams-apps.md
         - name: Use apps as external or guest users
           href: non-standard-users.md
-        - name: Manage user requests to allow apps
+        - name: Manage user requests
           href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
