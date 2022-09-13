@@ -43,7 +43,7 @@ Prerequisites to move a user to TeamsOnly mode:
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
 - The user must be assigned a license for Teams and Skype for Business Online (Plan 2). Even after retirement of Skype for Business Online, the Skype for Business Online license is still required.  In addition:
     - If the user is enabled for dial-in conferencing in on premises, the user must also have an Audio Conferencing license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. 
-    - If the user is enabled for Enterprise Voice in on premises, the user must have a Teams Phone license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for Teams Phone in the cloud. 
+    - If the user is enabled for Enterprise Voice in on premises, the user must have a Teams Phone license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for Phone System in the cloud. 
   
 As of July 31, 2022, to move users between an on-premises deployment and the cloud, you must be using the following minimum version of either Skype for Business Server or Lync Server:
 
