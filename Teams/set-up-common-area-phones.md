@@ -113,7 +113,7 @@ Use policies to control which features are available to users on common area pho
 
 Phones signed in with accounts that have been assigned a **Common Area Phone** license will display the common area user experience.
 
-If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps&preserve-view=true). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See [Set Teams Android devices user interface](/devices/Teams-Android-devices-user-interface) to learn more.
+If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps&preserve-view=true). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See [Set Teams Android devices user interface](../devices/Teams-Android-devices-user-interface) to learn more.
 
 ### Calling policies
 
