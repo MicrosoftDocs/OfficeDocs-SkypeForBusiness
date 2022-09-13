@@ -194,6 +194,9 @@ If you're in China, you can install Teams from the following app stores:
 - **Oppo** Search for "Teams" in the Oppo store
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
 
+>[!NOTE]
+>When users install Teams from one of the China-based app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
+
 ## Browser client
 
 The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The browser client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a browser. The browser must be configured to allow third-party cookies.
