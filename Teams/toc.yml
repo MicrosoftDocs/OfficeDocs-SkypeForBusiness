@@ -940,7 +940,7 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
-            - name: Monitor and troubleshoot Direct Routing
+            - name: Monitor Direct Routing
               items: 
                 - name: Overview
                   href: direct-routing-monitor-and-troubleshoot.md
