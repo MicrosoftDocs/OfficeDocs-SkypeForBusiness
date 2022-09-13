@@ -57,8 +57,6 @@ The end-user requests received by the default method are displayed in Teams admi
    * If the app is blocked for all users, [allow the app](manage-apps.md#allow-and-block-apps).
    * If all apps are blocked for all users, [modify org-wide settings](manage-apps.md#manage-org-wide-app-settings).
 
-1. Optionally, to switch to a custom configuration to your org-specific URL, select Configure user requests link on the Manage user requests dialog. It opens the Org-wide app settings pane in which you can [configure the end-user request experience](#modify-the-default-setting-to-receive-end-user-requests).
-
 End-users can view the **Add** option for an app in the Teams store to check if the app is allowed. When you allow an app after receiving requests in Teams admin center, then Teams doesn't inform the end-users that their request is acted upon. When you allow an app, the request counter isn't reset to zero.
 
 ## Modify the default setting to receive end-user requests
