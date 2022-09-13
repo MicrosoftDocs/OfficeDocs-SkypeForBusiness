@@ -76,7 +76,7 @@ Programs that are not listed below are currently closed.
             <td>Available on admission to program</td>
             <td>
                 <p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
-                [Wipro](https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs)
+                <p><a href="https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs">Wipro</a></p>
             </td>
         </tr>
         <tr align="left" valign="middle">
@@ -105,7 +105,7 @@ Programs that are not listed below are currently closed.
             <td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SBC Specs (download)</a></td>
             <td>
                 <p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
-                [Wipro](https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs)
+                <p><a href="https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs">Wipro</a></p>
             </td>
         </tr>
         <tr align="left" valign="top">
@@ -135,7 +135,7 @@ Programs that are not listed below are currently closed.
             <td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SIP Trunk Specs (download)</a></td>
             <td>
                 <p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
-                [Wipro](https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs)
+               <p><a href="https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs">Wipro</a></p>
             </td>
         </tr>
         <tr align="left" valign="top">
@@ -152,7 +152,7 @@ Programs that are not listed below are currently closed.
             <td>Not seeking partners</td>
             <td>
                 <p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
-                [Wipro](https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs)
+                <p><a href="https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs">Wipro</a></p>
             </td>
         </tr>
         <tr align="left" valign="top">
@@ -171,7 +171,7 @@ Programs that are not listed below are currently closed.
             </td>
             <td rowspan="3">
                <p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
-               [Wipro](https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs)
+               <p><a href="https://www.wipro.com/engineering/tarang-product-compliance-and-certification-labs">Wipro</a></p>
             </td>
         </tr>
         <tr align="left" valign="top">
