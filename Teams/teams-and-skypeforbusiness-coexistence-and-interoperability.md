@@ -240,7 +240,9 @@ Regardless of their mode, users can always join any type of meeting they are inv
 
 - If the meeting is a Teams meeting, all participants (whether they are TeamsOnly, Islands, or Skype for Business users) use the Teams client to join the meeting. If Teams is not installed, the user will be directed to the web, upon attempting to join a meeting.
 
-- If the meeting is a Skype for Business meeting, all participants (whether they are TeamsOnly, Islands, or Skype for Business users) use the Skype for Business client to join the meeting. If the Skype for Business client is not installed, the user will be directed to the web to join via the Skype Meeting App.
+- If the meeting is a Skype for Business meeting, all participants (whether they are TeamsOnly, Islands, or Skype for Business users) use the Skype for Business client to join the meeting. If the Skype for Business client is not installed, the user will be directed to the web to join via the Skype Meeting App. 
+
+  In some cases, participants in TeamsOnly mode will only be able to join Skype for Business meetings using Skype for Business Web App or Skype Meetings App as an anonymous user. Eventually, this case will be true for all users in TeamsOnly mode. For more information, see [Skype for Business Online retirement](skype-for-business-online-retirement.md#what-to-expect-post-retirement).
 
 When organizing meetings, the meeting type that gets scheduled is based on the mode of the organizer, as shown in the following table:
 
