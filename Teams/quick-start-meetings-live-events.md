@@ -88,12 +88,12 @@ The following table lists training available to the end users in your organizati
 
 **Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support registration and provide attendee engagement data. 
 
-If your organization is already using webinars, you're familiar with the  following webinar policies that allow you to support registration and track engagement data:
+If your organization is already using webinars, you're familiar with the Teams Meeting policy and the following settings that allow you to support meeting registration and track engagement data:
 
 - AllowMeetingRegistration (enabled or disabled)
 - WhoCanRegister (everyone in the company excluding guests or everyone)
 
-As of October 2023, there will be a new policy for the next version of webinars:
+As of October 2023, for the next version of webinars, there will be a new Teams Events policy with the following settings:
 
 - AllowWebinars  (enabled or disabled)
 - EventAccessType (everyone in the company excluding guests or everyone)
