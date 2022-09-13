@@ -322,6 +322,8 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
+        - name: Career Coach data compliance
+          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -1684,6 +1686,8 @@ items:
                   href: career-coach-set-up-steps.md
                 - name: Troubleshoot Career Coach
                   href: career-coach-troubleshoot.md
+                - name: Career Coach data compliance
+                  href: privacy-career-coach-data-compliance.md
                 - name: Resources for Career Coach
                   href: career-coach-resources.md
         - name: LMS and LTI integrations
