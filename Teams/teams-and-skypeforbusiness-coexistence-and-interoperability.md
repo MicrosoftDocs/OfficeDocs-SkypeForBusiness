@@ -42,14 +42,30 @@ If your organization uses Skype for Business today and you are starting to use T
 
 ## Coexistence of Teams and Skype for Business overview
 
-The following sections describe the coexistence modes that are available when you decide to upgrades to Teams, and the capabilities each mode offers. In addition, we describe the interoperability (interop) that occurs between users on Skype-for-Business clients and users on Teams clients, and how interop is affected by the chosen coexistence mode.
+Since the retirement of Skype for Business Online, all users in a pure-online organization (i.e., an org that does not have an on-premises deployment of Skype for Business) have a co-existence mode of TeamsOnly which ensures the users have full functionality of Teams.  However, organizations with an on-premises deployment of Skype for Business Server may have users that are still homed on-premise and such users cannot be TeamsOnly. Users with an on-premises Skype for Business Server account may have any coexistence mode *other than TeamsOnly.*  The following sections describe the coexistence modes that are available before you decide to upgrade on-premises Skype for Business Users to TeamsOnly, and the capabilities each mode offers. In addition, we describe the interoperability (interop) that occurs between users on Skype-for-Business clients and users on Teams clients, and how interop is affected by the chosen coexistence mode.
 
-Teams delivers collaboration capabilities, chat, calling, and meeting capabilities. Depending on how you choose to deploy Teams, these capabilities might overlap with the capabilities delivered by Skype for Business for a given user. The default mode is to run Teams alongside Skype for Business with the capabilities overlap. However, a user can be assigned one of several coexistence modes (also known as upgrade modes) that were designed to ensure that these capabilities don't overlap for that user (in which case interoperability between Teams and Skype for Business is available). For example, if you have significant Skype for Business Server on-premises assets with a complex Enterprise Voice deployment, but want your users to enjoy modern meetings as quickly as possible, you might want to evaluate [Meetings First](meetings-first.md) as an alternative path.
+Teams delivers collaboration capabilities, chat, calling, and meeting capabilities. Depending on how you choose to deploy Teams, these capabilities might overlap with the capabilities delivered by Skype for Business for a given user. The default coexistence mode for on-premises users is known as Islands, which allows the user to run Teams alongside Skype for Business with the capabilities overlap. However, a user can be assigned other coexistence modes to prevent this capability overlap for the user, in which case interoperability between Teams and Skype for Business is available. For example, if you have significant Skype for Business Server on-premises assets with a complex Enterprise Voice deployment, but want your users to enjoy modern meetings as quickly as possible, you might want to evaluate using the Skype for Business with Teams Collaboration and Meetings mode, also known as [Meetings First](meetings-first.md) as an alternative path.
 
 We recommend that you review the following coexistence modes to help determine which path is right for your organization.
 
 > [!Important]
 > Coexistence modes continue to exist after retirement of Skype for Business Online, however users homed online can only have a mode of TeamsOnly. It is no longer possible to assign any mode other than TeamsOnly to a user homed online.  As was the case prior to retirement of Skype for Business Online, users homed on-premises can be assigned any mode *other than TeamsOnly*.
+
+
+### Teams Only
+
+**Teams Only** is default mode, and only mode available for pure online user users.  A **Teams Only** user (in the past, sometimes called an *upgraded* user) has access to all the capabilities in Teams and can continue to communicate with any other users (whether in the same or external organization) who still use Skype for Business (provided the Skype for Business users are not in **Islands** mode).  **Teams Only** users receive incoming chats and calls in Teams, and also schedule meetings in Teams. They can't initiate chats or calls or schedule meetings in Skype for Business. 
+
+**Teams Only** users may retain the Skype for Business client to join any Skype for Business meetings they already have or may receive in the future (e.g., from external parties, or possibly from on-premises Skype for Business Server users in their own organization).  *However, after Microsoft removes the Skype for Business Online infrastructure for a given Teams Only user, Teams Only users may only join Skype for Business meetings anonymously.* Beginning after June 30, 2022, newly created TeamsOnly users will no longer be provisioned with the Skype for Business Online infrastructure so if they are invited to a Skype for Business meeting, they would need to join anonymously. Similarly beginning after October 16, 2022, users moved from on-premises to the cloud will no longer be provisioned with the Skype for Business Online infrastructure so if they are invited to a Skype for Business meeting, they would also need to join anonymously.
+
+As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, upgrade those users to **Teams Only** mode. If you're upgrading from **Islands** mode, we advise that you first saturate Teams adoption throughout your organization before beginning the upgrade process. This adoption avoids broken communication scenarios due to **Islands** mode not providing interoperability.
+
+When in **Teams Only** mode, Teams is the default app for the SIP/Tel protocol. Links in a user's contact card in Outlook for calling or chat will be handled by Teams.
+
+For extra considerations about moving to **Teams Only** mode, see [Teams Only mode considerations](teams-only-mode-considerations.md).
+
+![Screen shot of Teams confirmation message.](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business client running in a special mode after the user is upgraded as a Teams-only user")
+
 
 ### Islands mode
 
@@ -64,22 +80,12 @@ To avoid a confusing or regressed Skype for Business experience, the Skype for B
 - HID controls for USB devices.
 - Several other integrations.
 
-Phone System isn't supported in Teams in **Islands** mode. **Islands** mode doesn't support Enterprise Voice client is Skype for Business.
+Teams Phone isn't supported in Teams in **Islands** mode. 
 
 > [!Important]
-> In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
+>  - In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
+>  - You may want to require that Islands users always schedule meetings in Teams by assigning them an instance of TeamsMeetingPolicy with the PreferredMeetingProviderForIslandsMode=Teams. This ensures that all users meetings are scheduled as Teams meetings which supports all users in the organization (whether TeamsOnly or still using Skype for Business Server) to authenticate and join the meeting. In contrast, after Microsoft retires the legacy Skype for Business Online infrastructure for hybrid organizations beginning in October 2022, TeamsOnly users will only be able to join Skype for Business meetings anonymnously.
 
-### Teams Only
-
-A **Teams Only** user (also called an *upgraded* user) has access to all the capabilities in Teams. They may retain the Skype for Business client to join meetings on Skype for Business that have been organized by non-upgraded users or external parties. An upgraded user can continue to communicate with other users in the organization who are still using Skype for Business by using the interoperability capabilities between Teams and Skype for Business (provided the Skype for Business users are not in **Islands** mode). However, an upgraded user can't initiate a Skype for Business chat, call, or meeting.
-
-As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, upgrade those users to **Teams Only** mode. If you're upgrading from **Islands** mode, we advise that you first saturate Teams adoption throughout your organization before beginning the upgrade process. This adoption avoids broken communication scenarios due to **Islands** mode not providing interoperability.
-
-When in **Teams Only** mode, Teams is the default app for the SIP/Tel protocol. Links in a user's contact card in Outlook for calling or chat will be handled by Teams.
-
-For extra considerations about moving to **Teams Only** mode, see [Teams Only mode considerations](teams-only-mode-considerations.md).
-
-![Screen shot of Teams confirmation message.](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business client running in a special mode after the user is upgraded as a Teams-only user")
 
 ### Skype for Business only
 
@@ -101,16 +107,19 @@ Organizations with a starting point of Skype for Business Server on premises or 
 
 ### Skype for Business with Teams Collaboration and Meetings, also known as Meetings First
 
-Use this coexistence mode to accelerate the availability of Teams meeting and collaboration capabilities in your organization. The coexistence mode lets your users take advantage of the superior Teams meetings experience:
+In this mode, private chat and calling functionality remain on Skype for Business, but Teams is used for scheduling and conducting meetings, as well as for collaboration using channels–based conversations.  This coexistence mode helps accelerate the availability of Teams meeting and collaboration capabilities in your organizaiton and lets your users take advantage of the superior Teams meetings experience:
 
 - Great quality.
 - Transcription and translation.
 - Background blurring.
 - Superior user experience across all platforms, including mobile devices and browsers.
 
-Along with using Teams for teams and channels–based conversations in this mode, users will use Teams to schedule and conduct their meetings. Private chat and calling remain on Skype for Business. Teams and Skype for Business benefit from a range of "better together" capabilities, such as presence reconciliation, automatic hold/unhold, and HID device support across both applications. It's possible to hide teams and channels, if desired, using the App Setup policy.
+Teams and Skype for Business benefit from a range of "better together" capabilities, such as presence reconciliation, automatic hold/unhold, and HID device support across both applications. It's possible to hide teams and channels, if desired, using the App Setup policy.
 
 This coexistence mode is especially useful for organizations with Skype for Business on-premises deployments with Enterprise Voice. These organizations are likely to take some time to upgrade to Teams and want to benefit from the superior Teams meetings as soon as possible.
+
+> [!NOTE]
+> As of October 2022, this mode is recommended for all on-premises users that previously were assigned either Skype for Business Only or Skype for Business with Teams Collaboration modes. This mode offers the same functionality as the other two, except new meetings scheduled by the user will be Teams meetings instead of Skype for Business meetings. This ensures meetings scheduled by users in the organization are Teams meetings, which enables authenticated meeting join for any user in the organization (but subject to policy configuration). In contrast, as Microsoft retires the legacy Skype for Business Online infrastructure, TeamsOnly users will no longer be able to authenticate when joining Skype for Business meetings, however, they can still join anonymously.  For details, see [What To Expect Post Retirement](microsoftteams/skype-for-business-online-retirement#what-to-expect-post-retirement).
 
 > [!TIP]
 > To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, leverage the [Skype to Teams Upgrade Wizard](https://aka.ms/SkypeToTeamsWizard).
@@ -249,7 +258,7 @@ When organizing meetings, the meeting type that gets scheduled is based on the m
 | Mode of organizer    |      Behavior |
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings | All meetings scheduled in Teams. Skype for Business add-in is not available in Outlook. |
-| SfbWithTeamsCollab, SfbOnly | All meetings scheduled in Skype for Business. Teams add-in is not available in Outlook. |
+| SfbWithTeamsCollab, SfbOnly | All meetings scheduled in Skype for Business. Teams add-in is not available in Outlook. Consider using SfbWithTeamsCollabAndMeetings instead, which allows all users whether on-premise or TeamsOnly to use Teams for meetings.|
 | Islands | By default, meetings can be scheduled in either Skype for Business or Teams. Both add-ins are available in Outlook. However, you can optionally require that users in Islands always schedule meetings in Teams by assigning them an instance of TeamsMeetingPolicy with the PreferredMeetingProviderForIslandsMode=Teams.|
 
 ### Interoperability
