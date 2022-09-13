@@ -23,7 +23,7 @@ ms.localizationpriority: high
 
 The apps that are blocked in your organization may affect end-user productivity and collaboration. End-users can't use blocked apps but view such apps and their information in the Teams store, and request approval from admins. After you evaluate the request, you may choose to allow an app or dismiss the request.
 
-This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for each requested apps. It helps you make an informed decision about which apps to evaluate for allowing in your organization.
+This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for each requested app. It helps you make an informed decision about which apps to evaluate for allowing.
 
 You retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
 
@@ -37,7 +37,7 @@ You retain complete control of the apps that are allowed or blocked for users. I
 
 ## Modify the default setting to receive end-user requests
 
-To configure a custom message and redirect users to an org-specific URL to request app approval, follow these steps:
+To configure a custom message and redirect users to an org-specific URL, follow these steps:
 
 1. Sign into the Teams admin center and access the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
 
@@ -45,7 +45,7 @@ To configure a custom message and redirect users to an org-specific URL to reque
 
 1. To display a custom message or instruction in Teams client store, provide a text message in User requests configuration.
 
-1. To provide an org-specific URL to collect user requests, do the following:
+1. To provide an org-specific URL to collect user requests, follow the steps:
 
    1. Turn on the **Redirect requests to external link** toggle.
    1. Provide your org-specific URL.
@@ -78,9 +78,7 @@ The end-user requests received by the default method are displayed in Teams admi
 
 1. Optionally, to switch to a custom configuration to your org-specific URL, select Configure user requests link on the Manage user requests dialog. It opens the Org-wide app settings pane in which you can [configure the end-user request experience](#modify-the-default-setting-to-receive-end-user-requests).
 
-If you allow an app after receiving requests in Teams admin center, then Teams doesn't inform the end-user that their request is acted upon. End-users can view the app in the Teams Store to check if the app is allowed. The option to Add the app is available for the users after you allow it. If you allow an app after receiving requests via your org-specific method, your internal mechanisms to provide status update to the end-user applies.
-
-To reset the number of app requests to zero, dismiss the requests. Just allowing an app doesn't reset its request counter to zero.
+End-users can view the **Add** option for an app in the Teams store to check if the app is allowed. When you allow an app after receiving requests in Teams admin center, then Teams doesn't inform the end-users that their request is acted upon. When you allow an app, the request counter isn't reset to zero.
 
 ## Dismiss user requests
 
