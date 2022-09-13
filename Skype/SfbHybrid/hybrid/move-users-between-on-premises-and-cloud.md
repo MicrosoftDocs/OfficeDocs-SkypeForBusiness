@@ -29,7 +29,7 @@ In an on-premises deployment of Skype for Business Server, users of Skype for Bu
 - Interop communication via the user's Teams client with other users in the organization who use Skype for Business client.
 - PSTN calling functionality (if the user is assigned a Phone System license).
 
-To gain full Teams functionality, these users must be moved from Skype for Business on-premises to the cloud, at which point the user becomes TeamsOnly. The act of moving a user from on-premises to the cloud will set the user's co-existence mode to TeamsOnly. Once users are moved to the cloud and TeamsOnly, all incoming chats and calls lands in their Teams client. For more information, see [Teams coexistence with Skype for Business](/microsoftteams/coexistence-chat-calls-presence) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+To gain full Teams functionality, these users must be moved from Skype for Business on-premises to the cloud, at which point the user becomes TeamsOnly. The act of moving a user from on-premises to the cloud will set the user's co-existence mode to TeamsOnly. Once users are moved to the cloud, they are TeamsOnly, which means all incoming chats and calls lands in their Teams client. For more information, see [Teams coexistence with Skype for Business](/microsoftteams/coexistence-chat-calls-presence) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
 To move users from the on-premises Skype for Business Server deployment to the cloud requires the [configuration of Skype for Business hybrid](/skypeforbusiness/hybrid/plan-hybrid-connectivity).  Once the deployment is enabled for hybrid, you can move users from the on-premises environment to the cloud to make them TeamsOnly as described below. If necessary, you can also move TeamsOnly users back to the on-premises Skype for Bsuiness deployment. 
 
@@ -55,7 +55,7 @@ As of July 31, 2022, to move users between an on-premises deployment and the clo
 |Skype for Business Server 2019| CU6 |7.0.2046.385|
 |Skype for Business Server 2015| CU12|6.0.9319.619|
 |Lync Server 2013| CU10 with Hotfix 7|5.0.8308.1182|
-||||
+|||
 
 </br>
 </br>
@@ -68,7 +68,7 @@ When a user is moved from on-premises to the cloud:
    -  Receives and initiates all chats and calls in the Teams client.
    -  Schedules all meetings in Teams.
    -  Can't initiate chats or calls, or schedule meetings in Skype for Business.
-   -  Can join Skype for Business meetings they already have or receive in the future. However, after Microsoft removes the Skype for Business Online infrastructure for a given TeamsOnly user, TeamsOnly users may only join Skype for Business meetings anonymously. Beginning October, 2022, users moved from on-premises to Teams Only in hybrid organizations will no longer be provisioned with the Skype for Business Online infrastructure. If these users are invited to a Skype for Business meeting, they would need to join anonymously.
+   -  Can join Skype for Business meetings they already have or receive in the future. However, after Microsoft removes the Skype for Business Online infrastructure for a given TeamsOnly user, TeamsOnly users may only join Skype for Business meetings anonymously. Beginning October 2022, users moved from on-premises to Teams Only in hybrid organizations will no longer be provisioned with the Skype for Business Online infrastructure. If these users are invited to a Skype for Business meeting, they would need to join anonymously. For details, see [Guidance for Organizations with on-premises deployments of Skype for Business Server](/MicrosoftTeams/update-skype-for-business-online-retirement.md#guidance-for-organizations-with-on-premises-deployments-of-skype-for-business-server).
 
 - Users become enabled for interoperability with Skype for Business users, and can also federate with other organizations.
 - Contacts from on premises are moved to Teams.
