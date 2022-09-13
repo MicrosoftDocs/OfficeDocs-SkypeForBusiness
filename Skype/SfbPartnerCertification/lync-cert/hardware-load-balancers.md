@@ -44,7 +44,7 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 |[BarracudaNetworks](https://www.barracuda.com/products)|Barracuda Load Balancer ADC Model 340, 440 or 640|3.3.1.005, 3.5.0.008| [Barracuda Load Balancer Deployment Guide](https://techlib.barracuda.com/ADC/MSLyncDeployOverview)|
 |Brocade |ServerIron XL,4G,GTC,GTE,350,450 &amp; 850<br/><hr> ServerIron ADX 1000, 4000, 10000|SI V10.0.0a<br/><hr>V12.1, V12.2|[Brocade Communications' Microsoft Unified Communications Solutions](https://www.brocade.com/partnerships/technology-alliance-partners/partner-details/microsoft/microsoft-office-communications-server/index.page)|
 |[CitrixSystems](https://www.citrix.com/global-partners/microsoft/) |Netscaler|8.1, 9.x, 10.5|[Netscaler Developer Network](https://www.citrix.com/community.html)|
-|[F5](http://www.f5.com/products/technology/microsoft/lync-server/) |BIG-IP Local Traffic Manager|11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
+|[F5](https://www.f5.com/partners/technology-alliances/microsoft) |BIG-IP Local Traffic Manager|11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
 |[Fortinet](http://www.fortinet.com/) |FortiADC-1500D|4.2.3|[Fortinet ADC Deployment Guide for Lync Server 2013](http://docs.fortinet.com/d/fortiadc-load-balancing-lync)|
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/) |ALOHA Load Balancer|5.5|[Aloha Deployment Guide for Lync 2010](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|
 |[jetNEXUS](http://www.jetnexus.com/support/applications/microsoft-lync/) |Accelerating Load Balancer (ALB)<br/><hr>Accelerating Load Balancer Extreme (ALB-X) |ALB 2.0 <br/><hr>3.42.1 (Build 1475) |[Advanced Load Balancing for Microsoft Lync 2010](http://www.jetnexus.com/support/applications/microsoft-lync/)|
@@ -67,13 +67,13 @@ Software load balancers listed in the table that follows  have been tested by th
 
 |Vendor|Qualified Product |Software Version Tested|Vendor's Lync Page|
 |:--- |:--- |:--- |:--- |
-|[A10Networks](https://www.a10networks.com/solutions/application_solutions_microsoft.php) |64-bit AX Series: SoftAX|2.6|[AX Series for Lync 2010 Overview and Deployment Guide](https://www.a10networks.com/solutions/application_solutions_microsoft.php)|
+|[A10Networks](https://www.a10networks.com) |64-bit AX Series: SoftAX|2.6|AX Series for Lync 2010 Overview and Deployment Guide|
 |[Citrix Systems](https://www.citrix.com/)     |Netscaler VPX|9.1.102.8|[Netscaler Developer Network](https://www.citrix.com/community.html)|
 |[F5](https://f5.com/) |BIG-IP Local Traffic Manager Virtual Edition|10.x, 11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/)|ALOHA Load-Balancer Virtual Appliance|5.5|[Deployment guide](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|
 |[jetNEXUS](http://www.jetnexus.com/support/applications/microsoft-lync/) |  Accelerating Load Balancer (ALB)  <br/><hr>  Accelerating Load Balancer Extreme (ALB-X)    |  ALB 2.0   <br/><hr>3.42.1 (Build 1475)|[Advanced Load Balancing for Microsoft Lync 2010](http://www.jetnexus.com/support/applications/microsoft-lync/)|
 |[KEMP](http://www.kemptechnologies.com/) |LoadMaster VLM-100, VLM-1000|V5.1|[LoadMaster Deployment Guide for Microsoft Lync 2010](https://kemptechnologies.com/files/downloads/documentation/Lync/KEMP_Lync_2010_Deployment_Guide.pdf)|
-|[Loadbalancer.org](http://loadbalancer.org/)|Enterprise VA|v6.18, v7.4.1|[Microsoft Lync 2010 Deployment Guide](http://pdfs.loadbalancer.org/Microsoft_Lync_2010_Deployment_Guide.pdf)|
+|[Loadbalancer.org](http://loadbalancer.org/)|Enterprise VA|v6.18, v7.4.1|[Microsoft Lync 2010 Deployment Guide](https://pdfs.loadbalancer.org/Microsoft_Lync_Deployment_Guide.pdf)|
 |[Riverbed Technology](http://www.riverbed.com/) |Stingray Traffic Manager|8.x and up|[Riverbed Stingray and Microsoft Lync 2010: Deployment Guide](https://splash.riverbed.com/docs/DOC-1335)|
 |     |         |         | |
 
