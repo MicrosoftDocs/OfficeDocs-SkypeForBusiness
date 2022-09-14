@@ -14,7 +14,7 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage and configure end-user request to allow the apps that are blocked in an organization.
+description: Learn how to manage and configure end-user request for approval of the apps that are blocked in an organization.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -69,18 +69,18 @@ To configure a custom message and redirect users to an org-specific URL, follow 
 
 1. At the upper-right corner, select **Org-wide app settings**.
 
-1. To display a custom message or instruction in Teams store, enter a text message in text field under **User requests configuration**.
+1. To display a custom message or instruction in Teams store, enter a text message in text field under **User requests configuration**. The field has a limit of 300 characters.
 
 1. To provide an org-specific URL to collect user requests, follow the steps:
 
    1. Turn on the **Redirect requests to external link** toggle.
    1. Provide your org-specific URL.
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Screenshot to toggle the customization of URL for the user request to unblock app in the org-wide settings UI.":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Screenshot to toggle the customization of URL for the user requests in the org-wide settings UI.":::
 
 1. Select **Save**.
 
-The methods to evaluate and allow the requested apps remain the same.
+If you choose to do so, the methods to evaluate third-party apps and allow the requested apps remain the same.
 
 ## Dismiss user requests
 
