@@ -56,7 +56,7 @@ To get Teams Rooms designed experience, your Front of Room displays need to meet
 
 To set the scale and resolution of your Front of Rooms displays remotely, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-front-of-room-scale-and-resolution).
 
-To set the scale and resolution manually in the Teams Room admin settings:
+To set the scale and resolution manually in the Teams Rooms admin settings:
 
 1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
@@ -79,7 +79,7 @@ To set the scale and resolution manually in the Teams Room admin settings:
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
 
-If Microsoft Teams Rooms isn't running well, performing a factory reset might help. To do this, use the [Microsoft Teams Room recovery tool](recovery-tool.md) and follow the factory restore instructions.
+If Microsoft Teams Rooms isn't running well, performing a factory reset might help. To do this, use the [Microsoft Teams Rooms recovery tool](recovery-tool.md) and follow the factory restore instructions.
 
 > [!NOTE]
 > There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do *not* use this option.
