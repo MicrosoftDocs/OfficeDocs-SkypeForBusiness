@@ -165,7 +165,6 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 ### Deploy the Teams desktop app to the VM
 
 ⁠1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
-
     - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
