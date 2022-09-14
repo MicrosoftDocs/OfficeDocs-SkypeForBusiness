@@ -197,7 +197,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        This process installs Teams to the `%ProgramFiles(x86)%` folder on a 64-bit operating system and to the `%ProgramFiles%` folder on a 32-bit operating system. At this point, the golden image setup is complete.
+        This process installs Teams to the `%ProgramFiles(x86)%` folder on a 32-bit operating system and to the `%ProgramFiles%` folder on a 64-bit operating system. At this point, the golden image setup is complete.
 
         > [!IMPORTANT]
         >  Installing Teams per-machine is required for non-persistent setups.
