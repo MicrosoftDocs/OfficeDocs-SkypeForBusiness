@@ -125,7 +125,7 @@ The following table indicates which features on which clients and devices suppor
 | Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on Transfer on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | | |
-| Hold on Transfer on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold| -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
+| Hold on Transfer on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold| | | |
 | Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on Consultative Transfer on 1:1 Teams call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 
