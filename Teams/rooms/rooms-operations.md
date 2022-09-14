@@ -217,11 +217,13 @@ Copy-Item $movefile $targetDevice
 ## Software updates
 <a name="SWupdate"> </a>
 
-By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
+By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the **Settings** app.
   
-Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. It also connects to the Microsoft Store to retrieve application updates.
+If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire and run the latest MTR-Update script from [Manually update a Microsoft Teams Rooms device](/microsoftteams/rooms/manual-update).
 
-If you need to manage application updates manually but can't follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire Teams Rooms update packages to perform app updates on supported operating systems. The update release may lag behind the store release, and it might not always match the latest available build. See [Manually Update a Microsoft Teams Rooms device](manual-update.md) to learn more.
+By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
+
+
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
