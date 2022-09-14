@@ -54,12 +54,12 @@ Here are frequently used terms in the portal.
 |**Monitoring Software** |Monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
 |**App** |Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
 |**Room/Device** |The certified Microsoft Teams Room system device. |
-|**Unmonitored** | Microsoft monitoring software deployed as part of managed services is not able to connect to the cloud services. We are not receiving telemetry about the device. |
+|**Unmonitored** | Microsoft monitoring software deployed as part of managed services isn't able to connect to the cloud services. We aren't receiving telemetry about the device. |
 |<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device / peripheral. |
 |**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device can be suppressed deliberately. |
-|**Onboarding** |The state of a room device while it is getting setup added, but is not ready as a regularly supported room. |
+|**Onboarding** |The state of a room device while it's getting setup added, but isn't ready as a regularly supported room. |
 |**Incident** |An issue affecting meeting experiences of end users that need action. |
-|**Misconfigured** |Configuration detected is not  correct / commonly used. |
+|**Misconfigured** |Configuration detected isn't  correct / commonly used. |
 |**Support Ticket** |Internal Microsoft tracking identifier that tracks all communications / actions regarding an incident. |
 
 ## Incidents view
@@ -94,14 +94,14 @@ Clicking  any of items that have status “**Needs action**” shows additional 
 
 Incidents are classified into two broad severity types:
 
-- **Important**: Incidents that are are likely causing problems in meetings and should be prioritized.
-- **Warning** – Incidents that are notifications to plan maintenance actions. If these are not taken care of, then over time the rooms are more likely to hit an issue. Warnings are intended to give you time to plan and orchestrate support.
+- **Important**: Incidents that are likely causing problems in meetings and should be prioritized.
+- **Warning** – Incidents that are notifications to plan maintenance actions. If these aren't taken care of, then over time the rooms are more likely to hit an issue. Warnings are intended to give you time to plan and orchestrate support.
 
 A warning might transition to “**Important**” if not attended to for a while.
 
 ## Health status of device and incidents
 
-Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it is classified as ***unhealthy*** device.
+Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it's classified as ***unhealthy*** device.
 
 Incidents classified as **“Warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device as follows.
 
@@ -113,20 +113,20 @@ Following are some of the types of incidents that you might see and the explanat
 
 |Type |Explanation |
 | :- | :- |
-|**Display** |The display connected to the device does not appear to be healthy.|
+|**Display** |The display connected to the device doesn't appear to be healthy.|
 |**Conference microphone, Conference speaker** |The audio devices (microphone / speaker) seem to be misconfigured. |
-|**Camera** |The camera connected to the device does not appear to be healthy. |
-|**HDMI Ingest** |HDMI Ingest is not healthy. |
-|**Sign-In** (Exchange) |Microsoft Teams Room app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
-|**Sign-In** (Teams) |Microsoft Teams Room app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
-|**Sign-In** (Skype for Business) |Microsoft Teams Room app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business) |
-|**Proximity Sensor** |Microsoft Teams Room app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
+|**Camera** |The camera connected to the device doesn't appear to be healthy. |
+|**HDMI Ingest** |HDMI Ingest isn't healthy. |
+|**Sign-In** (Exchange) |Microsoft Teams Rooms app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
+|**Sign-In** (Teams) |Microsoft Teams Rooms app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
+|**Sign-In** (Skype for Business) |Microsoft Teams Rooms app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business). |
+|**Proximity Sensor** |Microsoft Teams Rooms app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
 
 **Table 2: Incidents with “Warning” severity**
 
 |Type |Explanation |
 | :- | :- |
-|**App version** |The version of the Microsoft Teams Room App running on the device is not current. Stale versions are known causes to problems experienced by users. |
+|**App version** |The version of the Microsoft Teams Room App running on the device isn't current. Stale versions are known causes to problems experienced by users. |
 |**OS version** |The version of Windows operating system running in the meeting room is no longer recommended. |
 |**Network** |This will be removed as a type of warning in the near term due to additional work required after evaluation. |
 
@@ -143,7 +143,7 @@ Each such incident will have an action field with a recommended action from Micr
 ![Screenshot showing recommended incident action](../media/rooms-monitor-005.jpg)
 
 - If you have taken the action, you can respond to the incident with your notes in the Respond box, then choose “Assign to Microsoft” before posting.
-- It is also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft.
+- It's also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft.
 - Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, post the message without turning on “Assign to Microsoft“.
 
 >[!NOTE]
@@ -166,15 +166,15 @@ Each device is a proxy for a room and its connected peripherals. A healthy devic
 ![Screenshot showing a room's health overview](../media/rooms-monitor-007.jpg)
 
 **Healthy, Unhealthy, Disconnected**
-The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues (“Unhealthy”), how many are not providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). Rooms are monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable.
+The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues (“Unhealthy”), how many aren't providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). Rooms are monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable.
 
 **Healthy / Unhealthy rooms**:
 
-Devices/peripherals which do not have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it does not imply that there is a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
+Devices/peripherals which do not have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it doesn't imply that there is a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
 
 **Disconnected device:**
 
-The Microsoft monitoring agent deployed as part of Managed Rooms pilot is disconnected from Managed Room cloud services. We are not receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
+The Microsoft monitoring agent deployed as part of Managed Rooms pilot is disconnected from Managed Room cloud services. We aren't receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
 
 ## Room Detail: Status and Changes
 
@@ -208,8 +208,8 @@ Each incident that is created identifies the issue that has been detected and th
 ![Screenshot showing active ticket overview](../media/rooms-monitor-012.png)
 
 Active Ticket: Messages
-The messages UI is the primary communication tool to interact with Microsoft service engineers working to remediate the issue identified. It is important to acknowledge communications from Microsoft to ensure that we are providing you with the best possible service. If you have taken the actions recommended, respond to this incident with your notes in the Respond box and assign back to Microsoft by clicking on “Assign to Microsoft” before posting.
-It is also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft.
+The messages UI is the primary communication tool to interact with Microsoft service engineers working to remediate the issue identified. It's important to acknowledge communications from Microsoft to ensure that we are providing you with the best possible service. If you have taken the actions recommended, respond to this incident with your notes in the Respond box and assign back to Microsoft by clicking on “Assign to Microsoft” before posting.
+It's also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft.
  Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, simply post the message without turning on “Assign to Microsoft
 
 ![Screenshot showing active ticket messages](../media/rooms-monitor-013.png)
