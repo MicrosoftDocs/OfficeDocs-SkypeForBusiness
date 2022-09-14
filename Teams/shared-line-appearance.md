@@ -1,7 +1,7 @@
 ---
 title: "Shared line appearance in Microsoft Teams"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -33,7 +33,7 @@ Shared line appearance is part of the delegation feature that lets a user choose
 
 ## License required
 
-A user must be have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
+A user must have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
 
 Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
@@ -58,16 +58,18 @@ Shared line appearance is currently supported by the following apps and devices.
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
-| See the admin view of shared lines | Yes | Yes | Yes | No | No |
-| See the admin view of manager's call activities | Yes | Yes | Yes | No | No |
-| See the manager view of delegates | Yes | Yes | Yes | No | No |
-| Admin or manager can hold or resume | Yes | Yes | Yes | No | No |
+| See the delegate view of shared lines | Yes | Yes | Yes | No | Yes |
+| See the delegate view of manager's call activities | Yes | Yes | Yes | No | Yes |
+| See the manager view of delegates | Yes | Yes | Yes | No | Yes |
+| Delegate or manager can hold or resume | Yes | Yes | Yes | No | Yes |
 
 ## Limitations
 
 Managers can add up to 25 delegates, and delegates can have up to 25 managers. There is no limit to the number of delegation relationships that can be created in a tenant. 
  
 If the delegator and delegate are not in the same geographic location, it is up to the PSTN provider to allow caller ID to show up from a different geographic location for a delegated (on behalf of) call. 
+
+Circular delegation configuration is not permitted. If the delegated users also have delegations between them, they will only be able to see their delegation and not the initial delegation.
  
 ## More information
 

@@ -1,8 +1,8 @@
 ---
 title: "Planning to turn off Legacy authentication methods internally and externally to your network"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

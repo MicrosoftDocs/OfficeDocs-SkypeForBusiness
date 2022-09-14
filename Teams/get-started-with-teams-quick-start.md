@@ -1,7 +1,7 @@
 ---
 title: Get started with Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
@@ -18,7 +18,9 @@ ms.collection:
   - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: 
+- seo-marvel-mar2020
+- intro-get-started
 ---
 
 # Get started with Microsoft Teams

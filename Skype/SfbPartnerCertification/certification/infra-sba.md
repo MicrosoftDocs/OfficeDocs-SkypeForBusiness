@@ -22,60 +22,17 @@ description: "List of Survivable Branch Appliances that have been independently 
 ---
  
 # Survivable branch appliances (SBAs)
-The survivable branch appliances along with the relevant firmware shown in the table that follows have been independently qualified with Skype for Business Server. We recommend you visit the vendor's web site for the latest information about protocol, capacity, country support and documentation, including a quick start guide, release notes, and any known issues.
+
+The following survivable branch appliances and relevant firmware have been independently qualified with Skype for Business Server. We recommend that you visit the vendor's web site for the latest information.
 
 ## Qualified for Skype for Business Server 2015
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="69%" xmlns="http://www.w3.org/1999/xhtml">
-	<tr bgcolor="#DEDEDE">
-		<td valign="top"><strong>Vendor</strong></td>
-		<td valign="top"><strong>Qualified Device</strong></td>
-		<td valign="top"><strong>Qualified Firmware</strong></td>
-	</tr>
-	<tr align="left" valign="top">
-		<td rowspan="2"> <a href="https://www.audiocodes.com/survivable-branch-appliance-sba">Audiocodes</a></td>
-		<td valign="top">Mediant 800B SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.12.40880</p>
-			<p>SBA Config Version: 7.2.12.40982</p>
-		</td>
-	</tr>
-	<tr>
-		<td valign="top">Mediant 1000 SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.10.40880</p>
-			<p>SBA Config Version: 7.2.11.40972</p>
-		</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td rowspan="2"> <a href="https://www.nuera.com/">Nuera</a></td>
-		<td valign="top">GX-800 SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.12.40880</p>
-			<p>SBA Config Version: 7.2.12.40982</p>
-		</td>
-	</tr>
-	<tr>
-		<td valign="top">GX 1K SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.10.40880</p>
-			<p>SBA Config Version: 7.2.11.40972</p>
-		</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business">Ribbon Communications</a></td>
-		<td>SBC 1000</td>
-		<td>
-			<p>SBA V5.0.4 build 412</p>
-			<p>SBA V6.1.0 build 457</p>
-		</td>
-	</tr>
-</table>
+|Vendor|Qualified Device|Qualified Firmware|
+|---|---|---|
+|[Audiocodes](https://www.audiocodes.com/survivable-branch-appliance-sba)|Mediant 800B SBA|SBA/OS Version: 6.3.9600 <br> Web Admin Version: 7.2.12.40880 <br> SBA Config Version: 7.2.12.40982|
+|[Audiocodes](https://www.audiocodes.com/survivable-branch-appliance-sba)|Mediant 1000 SBA|SBA/OS Version: 6.3.9600 <br> Web Admin Version: 7.2.10.40880 <br> SBA Config Version: 7.2.11.40972|
+|[Nuera](https://www.nuera.com/)|GX-800 SBA|SBA/OS Version: 6.3.9600 <br> Web Admin Version: 7.2.12.40880 <br> SBA Config Version: 7.2.12.40982|
+|[Nuera](https://www.nuera.com/)|GX 1K SBA|SBA/OS Version: 6.3.9600 <br> Web Admin Version: 7.2.10.40880 <br> SBA Config Version: 7.2.11.40972|
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 1000|SBA V5.0.4 build 412 <br> SBA V6.1.0 build 457|
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available program details.
-
-

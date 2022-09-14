@@ -1,8 +1,8 @@
 ---
 title: "Certificate Request (Certificate Authority)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

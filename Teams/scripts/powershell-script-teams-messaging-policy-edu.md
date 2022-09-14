@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Create & assign messaging policy
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -30,7 +30,7 @@ This script uses the [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/gra
 
 ## Before you start
 
-Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.
+Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=54616), and then restart your computer if prompted.
 
 To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
@@ -56,4 +56,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> You can also assign a messaging policy directly to users at scale through a batch policy assignment or to a group that the users are members of. For more information see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md) and [Assign policies to your users in Teams](../assign-policies.md).
+> You can also assign a messaging policy directly to users at scale through a batch policy assignment or to a group that the users are members of. For more information see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md) and [Assign policies to your users in Teams](../policy-assignment-overview.md).

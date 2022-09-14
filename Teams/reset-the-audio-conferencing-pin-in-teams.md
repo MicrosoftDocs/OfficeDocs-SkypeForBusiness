@@ -1,7 +1,7 @@
 ---
 title: "Reset the Audio Conferencing PIN in Microsoft Teams"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -32,7 +32,7 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 
 ## Reset a user's PIN
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+Using the Microsoft Teams admin center:
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -41,45 +41,43 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 3. Under **Audio Conferencing**, click **Reset PIN**.
 
 4. Click **Reset**.
- 
+
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-   
+
 ## Have a user reset their own PIN
 
 1. Have the user go to [https://dialin.teams.microsoft.com/usp](https://dialin.teams.microsoft.com/usp).
-2. Click **Reset PIN**. 
+2. Click **Reset PIN**.
 
 > [!NOTE]
-> For GCCH go to: https://dialin.cpc.gov.teams.microsoft.us/usp.
-> For DoD go to: https://dialin.cpc.dod.teams.microsoft.us/usp.
+> For GCCH go to: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp).
+> For DoD go to: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp).
 
 ## What else should you know about PINs?
 
 - For security purposes, the PIN is only shown to an administrator one time, when the PIN is reset. After the PIN is reset by an administrator, the PIN will be listed as ***********.
-    
-- Automatically sending emails to users is enabled by default, and users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you will have to manually send the PIN information to the user.
-    
-- When a meeting starts, the organizer needs to admit all PSTN users in the lobby to join the meeting. For example, if two PSTN participants try to join a meeting before it has started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using their PIN via phone, the meeting will start and the organizer can use the in-meeting command (press *21) to admit all PSTN users in the lobby.
-    
-- The default setting is to not allow a meeting to be started by anonymous callers.
-    
-- When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have a Microsoft 365 or Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
-    
-- When you set up audio conferencing, you set the digits that are required for the PINs in your organization. PINs can be from 4 to 12 digits - the default is 5. If you change the PIN length setting, the setting is only applied on newly generated PINs and isn't applied to the PIN setting for existing users that are enabled for audio conferencing. See [Set the length of the PIN for Audio Conferencing meetings](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
-    
-- The email by default will be set to the Microsoft 365 or Office 365 primary SMTP address of the user. You can send an email to a non-Microsoft 365 or non-Office 365 address such as a Hotmail or MSN email address. You can override the default email address by using Windows PowerShell. This is useful if the users don't have an Exchange mailbox in Microsoft 365 or Office 365.
 
-    
+- Automatically sending emails to users is enabled by default, and users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you will have to manually send the PIN information to the user.
+
+- When a meeting starts, the organizer needs to admit all PSTN users in the lobby to join the meeting. For example, if two PSTN participants try to join a meeting before it has started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using their PIN via phone, the meeting will start and the organizer can use the in-meeting command (press *21) to admit all PSTN users in the lobby.
+
+- The default setting is to not allow a meeting to be started by anonymous callers.
+
+- When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have a Microsoft 365 or Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
+
+- When you set up audio conferencing, you set the digits that are required for the PINs in your organization. PINs can be from 4 to 12 digits - the default is 5. If you change the PIN length setting, the setting is only applied on newly generated PINs and isn't applied to the PIN setting for existing users that are enabled for audio conferencing. See [Set the length of the PIN for Audio Conferencing meetings](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
+
+- The email by default will be set to the Microsoft 365 or Office 365 primary SMTP address of the user. You can send an email to a non-Microsoft 365 or non-Office 365 address such as a Hotmail or MSN email address. You can override the default email address by using Windows PowerShell. This is useful if the users don't have an Exchange mailbox in Microsoft 365 or Office 365.
 
 ## Want to know more about Windows PowerShell?
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-    
-  - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Related topics

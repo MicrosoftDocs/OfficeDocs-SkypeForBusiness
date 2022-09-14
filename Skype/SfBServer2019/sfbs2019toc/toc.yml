@@ -8,7 +8,7 @@
     - name: Virtualization guidance
       href: ../virtualization-guidance.md
     - name: Microsoft telephony solutions
-      href: /cloud-voice-landing-page.md
+      href: /Teams/cloud-voice-landing-page.md
     - name: Skype for Business downloads and updates
       href: ../../SfbServer/software-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
       items: 
@@ -981,6 +981,21 @@
               href: ../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Management Shell
           href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Control Panel
+          href: ../../SfbServer2019/control-panel-overview.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items: 
+            - name: Client
+              href: ../../SfbServer2019/use-powershell-client-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Security
+              href: ../../SfbServer2019/use-powershell-security-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: IM and Presence
+              href: ../../SfbServer2019/use-powershell-im-and-presence-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Monitoring and Archiving
+              href: ../../SfbServer2019/use-powershell-monitoring-and-archiving-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Network Configuration
+              href: ../../SfbServer2019/use-powershell-network-configuration-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Topology
+              href: ../../SfbServer2019/use-powershell-topology-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Authentication
           href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 

@@ -1,8 +1,8 @@
 ---
 title: "Manage services for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -72,7 +72,7 @@ This command returns information similar to the following:
 |{ConferencingServer}  <br/> |Running  <br/> |
 |{MediationServer}  <br/> |Running  <br/> |
    
-For details, see [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps).
+For details, see [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice).
   
 ## View details about a service
 <a name="view_details"> </a>

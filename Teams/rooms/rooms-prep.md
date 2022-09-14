@@ -1,5 +1,5 @@
 ---
-title: "Prepare your Environment"
+title: Prepare your Environment
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -7,12 +7,13 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
 ms.custom: seo-marvel-apr2020
 ---
@@ -21,41 +22,35 @@ ms.custom: seo-marvel-apr2020
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
   
-1. Prepare a device account for each Microsoft Teams Rooms console. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
+1. Prepare a resource account for each Microsoft Teams Rooms console. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
     
-2. Ensure that there is a working network/Internet connection for the device to use. 
-    
-   It must be able to receive an IP address by using DHCP. (Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup, but afterwards, a static IP address for the device could be configured on the device or on the upstream switch or router.)
-
-   It must have these ports open (in addition to opening the normal ports for media):
-   - HTTPS: 443
-   - HTTP: 80
-
-   If your network runs through a proxy, you'll need the proxy address or script information as well.
-    
-   > [!IMPORTANT]
-   > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
+2. Ensure that there is a working network/Internet connection for the device to use.
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
-   - Telemetry client endpoint: https://vortex.data.microsoft.com/
-   - Telemetry settings endpoint: https://settings.data.microsoft.com/
+   - Telemetry client endpoint: `https://vortex.data.microsoft.com/`
+   - Telemetry settings endpoint:` https://settings.data.microsoft.com/`
     
-### Create and test a device account
+### Create and test a resource account
 
-A  *device account*  is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
+A  *resource account*  is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to connect to Microsoft Teams. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
   
 ### Check network availability
 
-In order to function properly, the Microsoft Teams Rooms device must have access to a wired network that meets these requirements:
+In order to function properly, Microsoft Teams Rooms  must have access to a wired network that meets these requirements:
   
-- Access to your Active Directory or Azure Active Directory (Azure AD) instance, as well as your Microsoft Exchange and Skype for Business servers.
+- Access to your Active Directory or Azure Active Directory (Azure AD) instance, as well as Microsoft Exchange and Microsoft Teams.
 
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup.
 
 - Access to HTTP ports 80 and 443.
 
-- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business Server implementations, or [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams or Skype for Business online implementations.
+- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business Server implementations, or [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams.
+
+If your network runs through a proxy, you'll need the proxy address or script information as well.
+    
+> [!IMPORTANT]
+> Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
 
 > [!IMPORTANT]
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
@@ -65,9 +60,12 @@ In order to function properly, the Microsoft Teams Rooms device must have access
   
 ### Certificates
 
-Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Microsoft Teams or Skype for Business, network usage, and authentication. If the related servers use public certificates, which is the case for Online and some On-Premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA (typical for On-Premises deployments) then the device needs to trust that CA which means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
+Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Microsoft Teams or Skype for Business, network usage, and authentication. If the related servers use public certificates, which is the case for online and some on-premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA then the device needs to trust that CA. This means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
   
-You will install certificates the same way you would for any other Windows client. 
+You will install certificates the same way you would for any other Windows client.
+
+> [!IMPORTANT]
+> If your proxy server utilizes internally signed certificates, you must install the internal certificate chain, including the root CA, on the Microsoft Teams Rooms device.
   
 > [!NOTE]
 > Certificates may be required in order to have Microsoft Teams Rooms use Skype for Business Server.
@@ -114,14 +112,9 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
 See the [Network Security](./security.md#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
   
-  
-### Create provisioning packages
-
-You will use provisioning packages to authenticate to Exchange Server, Microsoft 365, or Office 365.
-  
 ### Admin group management
 
-After domain joining, you can use Group Policy or the Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
+If you choose to join a domain (Azure Active Directory or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
   
 > [!NOTE]
 > If your Microsoft Teams Rooms device loses trust with the domain (for example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 
@@ -130,24 +123,24 @@ After domain joining, you can use Group Policy or the Local Computer Management 
 
 ### Microsoft Teams Rooms Local User Account
 
-The Device Account does not typically use a password. It is possible to give it a password, but there are consequences, including a possibility that users might get locked out of the console application when that password expires. Consequently, the administrator should take are to ensure that the password is not allowed to expire.
+Teams Rooms includes a passwordless local account named "Skype". This account is used to sign in to Windows to launch the Teams Rooms app. It is not supported to apply a password to this account. See [Microsoft Teams Rooms Security](security.md) for more information.
   
 ### "Admin" - Local Administrator Account
 
-Microsoft Teams Rooms default password is set to "sfb". The Password can be changed locally by going to Windows Settings \> Go to Windows or in the AutoUnattend.xml file (use the Windows System Image manager from ADK to make the change to the xml file).
+Microsoft Teams Rooms default password is set to "sfb". The Password can be changed locally via Admin mode or in the AutoUnattend.xml file (use the Windows System Image manager from ADK to make the change to the xml file).
   
 > [!CAUTION]
 > Be sure to change the Microsoft Teams Rooms password as soon as possible. 
   
-You can also manage the Local Administrator password by setting up a group policy where domain admins are made local admins.
-  
 The Local admin password is not included as a choice during Setup.
+
+You can read more about the Admin account in the [Microsoft Teams Rooms Security](security.md) article.
   
 ### Machine Account
 
-Much like any Windows device, the Machine Name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
+Much like any Windows device, the machine name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
   
-If you would like to rename the computer after joining it to a domain, use **Rename-Computer**, a PowerShell command, followed by the computer's new name.
+If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), a PowerShell command, followed by the computer's new name.
   
 ## Related topics
 

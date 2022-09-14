@@ -1,23 +1,22 @@
 ---
 title: Migrate from Slack to Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- m365initiative-migratetom365
+  - M365-collaboration
+  - m365initiative-migratetom365
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: high
-f1.keywords:
-- NOCSH
-description: "Complete guidance for migrating from Slack to Microsoft Teams."
+f1.keywords: 
+  - NOCSH
+description: Complete guidance for migrating from Slack to Microsoft Teams.
 ---
 
 # Migrate from Slack to Microsoft Teams

@@ -1,8 +1,8 @@
 ---
 title: "Manage locations for SIP trunk service providers in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -28,7 +28,7 @@ You populate the Location Information service database with an Emergency Respons
 
 - An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address. This location name may include a building number, floor number, wing designator, room number, and so on. Avoid nicknames known only to employees, which might cause emergency responders to go to the wrong location.
 
-- A location identifier that helps users to easily see that their Skype for Business client picked up the correct location. The Skype for Business client automatically concatenates and displays the discovered **Location** and **City** fields in its header. A good practice is to add the street address of the building to each location identifier (for example, "1st Floor <street number>"). Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.
+- A location identifier that helps users to easily see that their Skype for Business client picked up the correct location. The Skype for Business client automatically concatenates and displays the discovered **Location** and **City** fields in its header. A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number>"). Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.
 
 - If the location is approximate because it's determined by a wireless access point, you can add the word **[Near]** (for example, "Near 1st Floor 1234").
 

@@ -1,8 +1,8 @@
 ---
 title: "Deploy a Mediation Server in Topology Builder in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro

@@ -1,11 +1,11 @@
 ### YamlMime:Hub
 
-title: Microsoft 365 Business Voice documentation # < 60 chars
-summary: Learn how to plan, set up, and use Microsoft 365 Business Voice in your organization. Business Voice makes it easy for small and medium organizations to set up a powerful and flexible telephone system without the expense and complexity of in-house solutions.
+title: Microsoft 365 Teams Phone System with Calling Plan documentation # < 60 chars
+summary: Learn how to plan, set up, and use Microsoft Teams Phone System with Calling Plan in your organization. Teams Phone System with Calling Plan makes it easy for small and medium organizations to set up a powerful and flexible telephone system without the expense and complexity of in-house solutions.
 
 metadata:
-  title: Microsoft 365 Business Voice documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to plan, deploy, and use Microsoft 365 Business Voice. # Required; article description that is displayed in search results. < 160 chars.
+  title: Microsoft Teams Phone System with Calling Plan documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to plan, deploy, and use Microsoft Teams Phone System with Calling Plan. # Required; article description that is displayed in search results. < 160 chars.
   ms.topic: hub-page # Required
   author: dstrome #Required; your GitHub user alias, with correct capitalization.
   ms.author: dstrome #Required; microsoft alias of author; optional team alias.
@@ -20,30 +20,30 @@ productDirectory:
       imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
       links:
         - url: whats-business-voice.md
-          text: What's Business Voice
-        - url: https://www.microsoft.com/microsoft-365/business-voice
-          text: Microsoft 365 Business Voice          
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: Service description
+          text: Teams Phone System with Calling Plan guidance for small and medium businesses
+        - url: https://www.microsoft.com/microsoft-teams/microsoft-teams-phone
+          text: Microsoft Teams Phone        
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams Service description
     # Card
     - title: Set up
       imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
       links:
-        - url: ./what-to-buy.md
-          text: How to get Business Voice
+        - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
+          text: How to get Teams Phone System with Calling Plan
         - url: get-ready-internet.md
           text: Check your Internet connection
         - url: prepare-users.md
           text: Get your users ready
         - url: set-up-overview.md
-          text: Set up Business Voice
+          text: Set up Teams Phone System with Calling Plan
     # Card
     - title: Customize your setup
       imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
       links:
         - url: port-phone-numbers.md
           text: Port existing phone numbers
-        - url: ./create-a-phone-system-auto-attendant-smb.md
+        - url: ./set-up-auto-attendant.md
           text: Set up auto attendants
         - url: set-up-policies.md
           text: Set up policies
@@ -69,10 +69,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: Get Microsoft 365 Business from Partner Center
-        - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
-          text: Microsoft 365 Business Voice for Partners
-        - url: partner-resources.md
-          text: Microsoft 365 Business Voice Partner support resources
+        - url: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
+          text: Microsoft 365 Teams Phone System with Calling Plan Partner Playbook
 
     # Card
     - title: Need help?
@@ -88,8 +86,8 @@ productDirectory:
       links:
         - url: ../cloud-voice-landing-page.md
           text: Microsoft Teams admin docs
-        - url: https://microsoftteams.uservoice.com/
-          text: Microsoft Teams UserVoice feedback
+        - url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
+          text: Microsoft Teams feedback portal
         - url: https://support.office.com/teams
           text: Microsoft Teams client docs
         - url: /office365/admin/

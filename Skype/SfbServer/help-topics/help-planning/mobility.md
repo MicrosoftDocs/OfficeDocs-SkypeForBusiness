@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server: Mobility planning tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro

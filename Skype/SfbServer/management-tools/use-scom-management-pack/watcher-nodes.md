@@ -1,8 +1,8 @@
 ---
 title: How to install and configure watcher nodes
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -13,10 +13,10 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: "How to install and configure watcher nodes for Skype for Business Server synthetic transactions."
+description: "Describes the process to install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-# Learn how to install and configure watcher nodes
+# Learn to install, configure watcher nodes
  
 **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   

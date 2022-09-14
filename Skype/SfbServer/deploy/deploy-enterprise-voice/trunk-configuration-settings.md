@@ -1,8 +1,8 @@
 ---
-title: "Skype for Business Server: Create a new collection of trunk configuration settings"
+title: "Create a new collection of trunk configuration settings in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -18,7 +18,7 @@ ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: "Summary: Learn how to create a new collection of trunk configuration settings by using the Skype for Business Server Control Panel."
 ---
 
-# Skype for Business Server: Create a new collection of trunk configuration settings
+# Create a new collection of trunk configuration settings in Skype for Business Server
 
 **Summary:** Learn how to create a new collection of trunk configuration settings by using the Skype for Business Server Control Panel.
   

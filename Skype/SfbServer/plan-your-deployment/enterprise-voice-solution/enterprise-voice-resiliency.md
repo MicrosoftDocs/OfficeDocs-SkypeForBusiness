@@ -1,8 +1,8 @@
 ---
 title: "Plan for Enterprise Voice resiliency in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -205,7 +205,7 @@ There are obvious advantages to providing branch-site resiliency to your organiz
 
 If you decide to provide branch-site resiliency, you have three options. The following table can help you determine the best option for your organization.
 
-|**If you…**|**We recommend that you use a…**|
+|**If you...**|**We recommend that you use a...**|
 |:-----|:-----|
 |Host between 25 and 1000 users at your branch site, and if the return on investment does not support a full deployment or where local administrative support is unavailable  <br/> |Survivable Branch Appliance  <br/> The Survivable Branch Appliance is an industry-standard blade server with a Skype for Business Server Registrar and Mediation Server running on Windows Server 2008 R2. The Survivable Branch Appliance also contains a public switched telephone network (PSTN) gateway. Qualified third-party devices (developed by Microsoft partners in the Survivable Branch Appliance (SBA) qualification/certification program) provide a continuous PSTN connection in the event of WAN failure, but this approach does not provide resilient presence and conferencing because these features depend on Front End Servers at the central site.  <br/> For details about Survivable Branch Appliances, see "Survivable Branch Appliance Details," later in this topic.  <br/> **Note:** If you decide to also use a SIP trunk with your Survivable Branch Appliance, contact your Survivable Branch Appliance vendor to learn about which service provider is best for your organization. <br/> |
 |Host between 1000 and 2000 users at your branch site, lack a resilient WAN connection, and have trained Skype for Business Server administrators available  <br/> |Survivable Branch Server or two Survivable Branch Appliances.  <br/> The Survivable Branch Server is a Windows Server meeting specified hardware requirements that has Skype for Business Server Registrar and Mediation Server software installed on it. It must connect to either a PSTN gateway or a SIP trunk to a telephone service provider.  <br/> For details about Survivable Branch Servers, see "Survivable Branch Server Details," later in this topic.  <br/> |

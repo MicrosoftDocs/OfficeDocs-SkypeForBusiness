@@ -1,7 +1,7 @@
 ---
 title: Supported rate centers and coverage for Calling Plans
-ms.author: v-cichur
-author: cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, julienp
 ms.topic: article
@@ -9,14 +9,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
-- CSH
-ms.custom:
-- Calling Plans
+  - CSH
+ms.custom: 
+  - Calling Plans
 description: Lists the supported rate centers and coverage for Calling Plans.
+ms.collection: 
+  - M365-voice
 ---
 
 # Supported rate centers and coverage for Calling Plans

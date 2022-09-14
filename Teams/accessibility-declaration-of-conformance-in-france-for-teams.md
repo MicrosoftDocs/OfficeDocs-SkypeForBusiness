@@ -24,11 +24,15 @@ description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui 
 
 # Microsoft Teams: EN 301 549 Déclaration de conformité en matière d'accessibilité
 
-Date : 2 octobre 2018
+Date : 23 juin 2021
 
 Nom du produit : Microsoft Teams
 
-Description du produit : Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace.
+Description du produit : Microsoft Teams, Teams for Work et Teams for Education sont des plateformes qui permettent à toutes les personnes de chatter, de créer des canaux, de suivre les activités, de partager des calendriers et de passer des appels/ faire des réunions, ainsi que d'utiliser une console d'administrateur.
+
+Cette déclaration de conformité ne couvre pas les extensions de fonctionnalités qui peuvent être installées et déployées au sein de la plateforme Teams (par exemple, les applications Office 365 telles que Word, PowerPoint, Excel, OneNote, les listes de fichiers de SharePoint, et autres), dont beaucoup font l’objet de déclarations de conformité distinctes dans les rapports de conformité des produits Microsoft.
+
+Remarque : Teams ne prend pas en charge tous les paramètres de Windows, mais prend en charge un zoom intégré jusqu'à 200 %.
 
 Plate-forme : Win32
 
@@ -38,10 +42,9 @@ Site web en matière d'accessibilité : [Microsoft Accessibility](https://www.mi
 
 Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
-
 ## Section 1 Champ d'application
 
-La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d'accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services TIC de Microsoft.
+La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d'accessibilité](https://www.levelaccess.com/accessibility-regulations/m376/#:~:text=The%20European%20Commission%E2%80%99s%20%28EC%29%20Mandate%20M%20376%20directs,procurement%20of%20accessible%20information%20and%20communication%20technologies%20%28ICT%29.) applicables aux produits et services TIC de Microsoft.
 
 ## Section 2 Références
 
@@ -191,14 +194,13 @@ Cette section ne s'applique pas à Microsoft Teams.
 
 Cette section ne s'applique pas à Microsoft Teams.
 
+&copy; 2021 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l’opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l’exactitude d’une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l’accessibilité de ses produits dès qu’elles sont disponibles.
 
-&copy; 2019 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
+La personnalisation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s’ils ont contrôlé avec toute la diligence raisonnable nécessaire que les mesures de personnalisation qu’ils ont prises remplissent toutes les exigences.
 
-La personnalisation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s'ils ont contrôlé avec toute la diligence raisonnable nécessaire que les mesures de personnalisation qu'ils ont prises remplissent toutes les exigences.
+Pour en savoir plus sur les spécifications de compatibilité de produits de technologie d’assistance spécifiques, consultez vos fournisseurs de technologies d’assistance. 
 
-Pour en savoir plus sur les spécifications de compatibilité de produits de technologie d'assistance spécifiques, consultez vos fournisseurs de technologies d'assistance. 
-
-Le présent document n'est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 2.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. Un exemplaire complet de la norme EN 301 549 v 2.1.2 (2018-08) est disponible émanant de l'European Telecommunications Standards Institute (ETSI), du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
+Le présent document n’est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 2.1.2 qu’il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. Un exemplaire complet de la norme EN 301 549 v 2.1.2 (2018-08) est disponible émanant de l’European Telecommunications Standards Institute (ETSI), du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
 
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
 

@@ -1,7 +1,7 @@
 ---
 title: View-only meeting experience
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -114,6 +114,7 @@ The view-only attendee won't be able to experience the following options in meet
 - Raise their hand in the meeting.
 - Send or see reactions.
 - Interact with any 3P App integrating into the Teams Meeting, including Polls.
+- Access to meeting recording.
 
 ## View-only feature limitations
 
@@ -123,7 +124,7 @@ The view-only attendee won't be able to experience the following options in meet
 - View-only attendees won't be included in the attendance report.
 - View-only attendees will have a single video experience. They can see either the active speaker or the content being shared, but not both.
 - We don't currently support **Gallery**, **Large gallery**, or **Together mode** layouts for view-only attendees.
-- View-only attendees are only supported by the following lobby policies: 'Only You,' 'People in my organization and guests,' 'People in my organization and trusted organizations, and guests,' and 'Everyone.' If you use a lobby policy that does not support View-only attendees, View-only attendees will be rejected from the meeting. 
+- View-only attendees are only supported by the following lobby policies: 'People in my organization,' 'People in my organization and guests,' 'People in my organization, trusted organizations, and guests,' and 'Everyone.' If you use a lobby policy that does not support View-only attendees, View-only attendees will be rejected from the meeting. 
 - View-only attendees won't have the same latency as a regular attendee. <sup>1</sup>
 
   <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.  

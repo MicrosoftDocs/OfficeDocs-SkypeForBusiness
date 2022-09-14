@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams requirements | Enhance Service
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

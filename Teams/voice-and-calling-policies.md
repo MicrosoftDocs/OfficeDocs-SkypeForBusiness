@@ -1,7 +1,7 @@
 ---
 title: Manage voice and calling policies in Teams
-author: karlistites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,11 +10,8 @@ search.appverid:
 description: Learn about Teams voice and calling policies.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto: 
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
 ---
 
 # Manage voice and calling policies in Microsoft Teams

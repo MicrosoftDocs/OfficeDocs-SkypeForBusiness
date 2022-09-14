@@ -1,7 +1,7 @@
 ---
 title: Set up for webinars in Microsoft Teams 
-author: KarliStites
-ms.author: kastites
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -31,16 +31,19 @@ Webinars are structured meetings where presenters and participants have clear ro
 
 After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
+> [!IMPORTANT]
+> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
+
 ## Allow users to schedule webinars in the Teams admin center
 
 You can use the Teams admin center to set up webinars for your organization. You'll find the policies to set up webinars in the Teams admin center under **Meetings** > **Meeting policies**.
 
-### Allow meeting registration
+### Meeting registration
 
 If you turn this on, users can schedule webinars. By default, this is turned on. If you want to turn off meeting registration, set this policy to **Off**.
 
 > [!IMPORTANT]
-> **Allow scheduling private meetings** must be on for meeting registration to work. By default, this policy is turned on in the Teams admin center. For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
+> **Private meeting scheduling** must be on for meeting registration to work. By default, this policy is turned on in the Teams admin center. For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
 
 ### Who can register
 
@@ -49,9 +52,9 @@ If you select **Everyone**, all users, including anonymous users, can register f
 > [!NOTE]
 > The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
-### Allow engagement report
+### Engagement report
 
-If you turn this on, organizers can see reports of who registered and attended the webinars they set up. This policy is off by default. For more information, see [Meeting policies in Teams - Allow engagement report](meeting-policies-in-teams-general.md#allow-engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
+When this is on, organizers can see reports of who registered and attended the webinars they set up. This policy is on by default. For more information, see [Meeting policies in Teams - Engagement report](meeting-policies-in-teams-general.md#engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## Allow users to schedule webinars using PowerShell
 
@@ -71,7 +74,7 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone** for the **Global (Org-wide default)** policy. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work. Additionally, Microsoft Lists needs to be set up in SharePoint. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
+> **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work.
 
 1. Turn on meeting registration
 
@@ -104,10 +107,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### Collect meeting attendance
 
-If you want organizers to analyze who registered and attended webinars, you'll need to turn on the **AllowEngagementReport** policy. To do this, run the following command in PowerShell.
+The **AllowEngagementReport** parameter lets you see who registered and attended webinars. This policy is turned on by default. To turn it off, run the following command in PowerShell:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## Configure webinar settings

@@ -1,8 +1,8 @@
 ---
 title: "DNS requirements for simple URLs in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -118,7 +118,7 @@ When you use this method, you can configure each GeoDNS address to use either a 
 
 You can set up the same configuration for the Dial-In simple URL. To do so, create additional records like those in the previous example, substituting  `dialin` for `meet` in the DNS records. For the Admin simple URL, use one of the three options listed earlier in this section.
 
-Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures. For external access, monitor to make sure that HTTPS GET lyncdiscover.<sipdomain> requests to the external web FQDN or load balancer IP address for the two pools are successful. For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.
+Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures. For external access, monitor to make sure that HTTPS GET lyncdiscover.\<sipdomain> requests to the external web FQDN or load balancer IP address for the two pools are successful. For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

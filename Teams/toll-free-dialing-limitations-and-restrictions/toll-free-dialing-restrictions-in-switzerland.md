@@ -1,7 +1,7 @@
 ---
 title: "Toll-free dialing restrictions in Switzerland"
-ms.author: v-cichur
-author: cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference

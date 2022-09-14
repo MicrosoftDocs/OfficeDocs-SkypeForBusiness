@@ -1,7 +1,7 @@
 ---
 title: Welcome to Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.allteamsdocuments
+  - intro-overview
 appliesto: 
   - Microsoft Teams
 ---

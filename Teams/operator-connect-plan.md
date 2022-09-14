@@ -1,9 +1,9 @@
 ---
-title: Operator Connect
-author: cazawideh
-ms.author: czawideh
+title: Plan for Operator Connect
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 04/12/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -27,7 +27,17 @@ appliesto:
 
 Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
 
-This article describes benefits and requirements, and provides a link to the operators participating in the Microsoft Operator Connect Program.  If you decide Operator Connect is the right solution for your organization, after reading this article, see [Configure Operator Connect](operator-connect-configure.md).  
+This article describes benefits and requirements, and provides a link to the operators participating in the Microsoft Operator Connect Program.  
+
+Operator Connect might be the right solution for your organization if:
+
+- Microsoft Calling Plan isn't available in your geographic location.
+
+- Your preferred operator is a participant in the Microsoft Operator Connect Program.
+
+- You want to find a new operator to enable calling in Teams.
+
+If you decide Operator Connect is the right solution for your organization, after reading this article, see [Configure Operator Connect](operator-connect-configure.md).  
 
 ## Benefits
 
@@ -43,11 +53,7 @@ With Operator Connect, if your existing operator is a participant in the Microso
 
 ## Requirements
 
- Operator Connect might be the right solution for your organization if:
-
-- Microsoft Calling Plan isn't available in your geographic location.
-- Your preferred operator is a participant in the Microsoft Operator Connect Program.
-- You want to find a new operator to enable calling in Teams.
+ 
 
 To enable phone number assignments with Operator Connect, make sure your users are:
 

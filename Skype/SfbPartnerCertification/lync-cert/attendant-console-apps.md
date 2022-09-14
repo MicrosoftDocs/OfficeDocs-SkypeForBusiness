@@ -115,7 +115,7 @@ Select features include:
 
 **Streamline workflow and increase productivity with instant information about who is where.**
 
-[Trio Enterprise Attendant](http://www.trio.com)
+[Trio Enterprise Attendant](https://logickeyboard.com/shop/trio-enterprise-attendant-3234p.html)
 
 Developed on a Scandinavian model, ***Trio Enterprise Attendant Console*** brings you a high-end switchboard solution that integrates fully with the voice telephony and collaboration capabilities of Lync. When using the attendant console, you can, for example, camp on busy Lync users or transfer calls to mobile phones. You will also get returning calls if the destination doesn't answer so that you may transfer to someone else in the same department.
 Additional Functions:
@@ -188,5 +188,5 @@ Zylinc Attendant Console is used with Lync by major companies in several industr
 ### Related resources
 
 Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
+- [Microsoft Premier](https://partner.microsoft.com/support/microsoft-services-premier-support)
 - [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

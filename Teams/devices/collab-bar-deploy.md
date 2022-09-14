@@ -1,20 +1,21 @@
 ---
-title: "Deploy Microsoft Teams Rooms on Android"
-ms.author: mitressl
-author: flinchbot
+title: Deploy Microsoft Teams Rooms on Android
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Devices
 ms.custom: 
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: "Read this article to learn about deploying Microsoft Teams Rooms on Android."
+description: Read this article to learn about deploying Microsoft Teams Rooms on Android.
 ---
 
 # Deploy Microsoft Teams Rooms on Android
@@ -117,6 +118,4 @@ As part of the deployment, you'll want to update your asset register with the ro
 
 ## Related topics
 
-[Configure accounts for Microsoft Teams Rooms using Microsoft Teams admin center](resource-account-ui.md)
-
-<!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
+[Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md)

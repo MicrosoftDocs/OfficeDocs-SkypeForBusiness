@@ -1,7 +1,7 @@
 ---
 title: "Set up holidays in Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -32,7 +32,7 @@ The holidays you create here are available when you [set up an auto attendant](c
 
 To create a holiday
 
-1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
+1. In the Microsoft Teams admin center, go to **Voice** > **Holidays**.
 
 2. Select **New holiday**.
 
@@ -61,7 +61,7 @@ To create a holiday
 
 To change a holiday
 
-1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
+1. In the Microsoft Teams admin center, go to **Voice** > **Holidays**.
 
 2. Select the holiday from the list.
 

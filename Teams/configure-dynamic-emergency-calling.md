@@ -22,17 +22,15 @@ appliesto:
 
 # Plan and configure dynamic emergency calling 
 
-Dynamic emergency calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
+Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
-Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
+Based on the network topology (network elements associated with emergency addresses) that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client.
 
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.  
 
 For dynamic emergency calling, the following must occur:
 
 1. The network administrator configures network settings and the LIS to create a network/emergency location map.
-
-   For Direct Routing, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application.
 
 2. During startup and periodically afterwards, or when a network connection is changed, the Teams client sends a location request that contains its network connectivity information to the network settings and the LIS.
 
@@ -46,18 +44,20 @@ For dynamic emergency calling, the following must occur:
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
-   For Direct Routing, the administrator must configure the SBC to send emergency calls to the ERS provider or configure the SBC ELIN application.
+The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
+
+Microsoft Calling Plans, Operator Connect partners, and Operator Connect Mobile partners include dynamic emergency routing services for users in the United States and Canada.
+
+For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must ensure that the PSTN gateway routing the emergency call has been configured to add location information to the outgoing INVITE (by setting the parameter PidfloSupported to True on the online PSTN gateway object. In addition the administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 This article contains the following sections.
 
-- [Configure emergency addresses](#assign-emergency-addresses)
+- [Assign emergency addresses](#assign-emergency-addresses)
 - [Configure network settings](#configure-network-settings)
 - [Configure Location Information Service](#configure-location-information-service)
 - [Configure emergency policies](#configure-emergency-policies)
 - [Enable users and sites](#enable-users-and-sites)
 - [Test emergency calling](#test-emergency-calling)
-
-The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
 
 For more information about emergency calling, including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology, see the following:
 
@@ -80,30 +80,40 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> 3PIP phones do not support dynamic emergency calling. 
+> Subnet and WiFi-based locations are supported on all supported Teams clients. <br><br>
+> Ethernet/Switch (LLDP) is supported on:
+> - Windows versions 10.0 and later at this time.<br>
+> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
+> - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
 
 > [!NOTE]
 > Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all Teams clients. <br>
-> Ethernet/Switch (LLDP) is supported on:
-> - Windows versions 8.1 and later at this time.<br>
-> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).
+> 3PIP phones do not support dynamic emergency calling. 
+
+
 
 ## Assign emergency addresses
 
-You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time).
+You can assign emergency addresses as follows:
+
+- To Calling Plan users.
+
+- To Operator Connect and Operator Connect Mobile users&mdash;depending on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
+
+- To the network identifiers that are required for dynamically obtaining a location. 
 
 To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations.)
 
-Azure Maps is used for location-based services.  When you enter an emergency address by using the Microsoft Teams admin center, Teams checks Azure Maps for the address:
+Azure Maps is used for location-based services. When you enter an emergency address by using the Microsoft Teams admin center, Teams checks Azure Maps for the address:
 
 - If a match is found, the geo codes are automatically included.
 
 - If a match isn't found, you will have the opportunity to manually create an emergency address. You can use the PIN drop feature to do this. 
 
-This means that if an existing emergency location that is created for assigning to Calling Plan users is intended for a dynamic location, the same address needs to be re-created to include the geo codes. To distinguish between the two locations, you should include a different description. The new emergency location can be assigned to the users who have the old location. When fully migrated, the old location can be deleted.
+> [!NOTE]
+> Emergency addresses that are more than a couple of years old cannot be assigned to network identifiers. You will need to re-create older addresses.
 
 You add and assign emergency addresses in the Microsoft Teams admin center or by using PowerShell. For more information, see [Add an emergency location for your organization](add-change-remove-emergency-location-organization.md) and [Assign an emergency location for a user](assign-change-emergency-location-user.md).
 
@@ -113,31 +123,27 @@ Network settings are used to determine the location of a Teams client, and to dy
 
 Network settings include sites that include a collection of subnets and these are used exclusively for dynamic policy assignment to users. For example, an emergency calling policy and an emergency call routing policy might be assigned to the "Redmond site" so that any user that roams from home or another Microsoft location is configured with emergency numbers, routing, and security desk specific to Redmond.  
 
-> [!Note]
-> Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is **10.10.10.128**. For more information, see [Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+Trusted IP addresses contain a collection of the internet external IP addresses of the enterprise network and are used to determine if the user's endpoint is inside the corporate network. An attempt to obtain a dynamic policy or location will only be made if the user's external IP address matches an IP address in the trusted IP address.
 
-> [!Important]
-> Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.
-
-Keep the following definitions in mind. For more information, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
-
-- Trusted IP addresses contain a collection of the internet external IP addresses of the enterprise network and are used to determine if the user's endpoint is inside the corporate network. An attempt to obtain a dynamic policy or location will only be made if the user's external IP address matches an IP address in the trusted IP address. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings.  (If a public IP address has both IPv4 and IPv6, you need to add both as trusted IP addresses.)
-
-- A network region contains a collection of network sites. 
-
-- A network site represents a location where your organization has a physical value, such as an office, a set of buildings, or a campus. These sites are defined as a collection of IP subnets.
-
-- A network subnet must be associated with a specific network site. A client's location is determined based on the network subnet and the associated network site.  
+For more information about IP addresses, network regions, sites, and subnet addresses,  see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 You configure network settings in the Microsoft Teams admin center or by using PowerShell. To learn more, see [Manage your network topology for cloud voice features](manage-your-network-topology.md).
 
 Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.  
 
-**For Calling Plan users:**
+> [!Note]
+> Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is 10.10.10.128. For more information, see [Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+
+> [!Important]
+> Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.
+
+
+
+**For Calling Plan, Operator Connect, and Operator Connect Mobile users:**
 
 - If dynamic configuration of security desk notification is required, you must configure both trusted IP addresses and network sites.
 
-- If only dynamic locations are required, you must configure only trusted IP addresses.
+- If only dynamic locations are required, you must configure only trusted IP addresses; configuring network settings isn't required.
 
 - If neither are required, configuring network settings isn't required. 
 
@@ -145,14 +151,14 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 - If dynamic enablement of emergency calling or dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.
 
-- If only dynamic locations are required, you must configure only trusted IP addresses.
+- If only dynamic locations are required, you must configure only trusted IP addresses; configuring network settings isn't required.
 
 - If neither are required, configuring network settings isn't required.
 
 
 ## Configure Location Information Service
 
-A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and wireless access points (WAPs) are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time.
+A Teams client obtains emergency addresses from the locations associated with different network identifiers. 
 
 For a client to obtain a location, you must populate the LIS with network identifiers (subnets, WAPs, switches, ports) and emergency locations. You can do this in the Microsoft Teams admin center or by using PowerShell.
 
@@ -178,20 +184,22 @@ Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
 Use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
-- **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)  To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
+- **Emergency call routing policy – Applies only to Direct Routing**. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  
 
-- **Emergency calling policy** - Applies to Calling Plans and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
+   (Calling Plan, Operator Connect, and Operator Connect Mobile users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)
+
+- **Emergency calling policy - Applies to Calling Plans, Operator Connect, Operator Connect Mobile, and Direct Routing.** This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
 ## Enable users and sites
 
-You can assign emergency call routing policies and emergency calling policies to users and to sites. Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
+You can assign emergency call routing policies and emergency calling policies to users and to sites. Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan, Operator Connect, or Operator Connect Mobile user, the policy will have no effect.)
 
 You assign policies in the Microsoft Teams admin center or by using PowerShell. To learn more, see:
 
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
 - [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md)
 
-Here's some PowerShell examples.
+The following are PowerShell examples:
 
 To enable a specific user for security desk notification, use the following command:
 
@@ -223,7 +231,7 @@ If you assigned an emergency calling policy to a network site and to a user, and
 
 Some Emergency Routing Service Providers (ERSPs) in the United States offer an emergency calling test bot.
 
-- **Calling Plan users in the United States** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
+- **Calling Plan, Operator Connect, and Operator Connect Mobile users in the United States or Canada** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
 
 - **Direct Routing customers in the United States** should coordinate with their ERSP for a test service.
 
@@ -235,7 +243,7 @@ The following table shows support for dynamic emergency calling in the governmen
 | :------------|:-------|
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
-| GCCH | Available on Teams desktop |
+| GCCH | -Available on Teams desktop <br> -Available on Teams mobile clients <br> -Available on Teams phones, app version: 1449/1.0.94.2022061702 |
 | DoD | Pending |
 
  ## Related topics

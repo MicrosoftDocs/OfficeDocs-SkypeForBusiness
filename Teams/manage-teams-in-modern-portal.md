@@ -1,7 +1,7 @@
 ---
-title: Manage Microsoft Teams in the Microsoft Teams admin center
-author: SerdarSoysal
-ms.author: serdars
+title: Manage teams in the Microsoft Teams admin center
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -27,18 +27,19 @@ appliesto:
 
 This article provides an overview of the management tools for Teams in the Microsoft Teams admin center.
 
-As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
+As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you're assigned one of the following roles:
 
 - Global Administrator
 - Teams Administrator
 
 You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/).
 
-
+> [!NOTE]
+> Skype for Business Online Admins can manage both **Teams** and **Skype for Business Online** app policies through PowerShell.
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 ![Screenshot of the Teams overview grid.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -48,11 +49,11 @@ The grid displays the following properties:
 - **Channels** - a count of all channels in the team, including the default General channel.
 - **Team members** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
-- **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
+- **Guests** - a count of Azure Active Directory B2B guests who are members of this team.
 - **Privacy** - the Visibility/AccessType of the backing Microsoft 365 group.
 - **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Description** - the description of the backing Microsoft 365 group.
-- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Microsoft 365 Groups in your organization](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization).
 - **GroupID** - the unique GroupID of the backing Microsoft 365 group.
 
 > [!NOTE]
@@ -65,13 +66,21 @@ To add a new team, click **Add**. In the **Add a new team** pane, give the team 
 > [!NOTE]
 > Newly created teams can be managed right away in the Teams Admin Center, unlike the experience in other clients like, Outlook.
 
+This video shows the steps to create a new team and a channel for them.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### Edit
 
 To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.
 
+This video shows the steps to view and edit the details of an existing team.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
+
 ### Archive
 
-You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and un-archive teams on behalf of your organization in the admin center. 
+You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
 
 ### Delete
 
@@ -112,7 +121,7 @@ The changes that you make to a team are logged. If you're modifying group settin
 
 Some of your teams are missing from the list of teams in the Teams overview grid.
 
-**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
+**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system, which can lead to a missing property for it to be recognized.
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 

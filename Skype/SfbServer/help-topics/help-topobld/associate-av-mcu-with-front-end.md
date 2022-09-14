@@ -1,8 +1,8 @@
 ---
 title: "Associate AV MCU With Front End"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
