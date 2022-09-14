@@ -73,7 +73,6 @@ To help guide you as to what features are available on different platforms, you 
 ||Automatic Teams app updates |Available  |Available |
 ||Device auto-enrollment |Available |Available |
 ||Call quality analytics |Available  |Available |
-||Microsoft Teams Rooms managed service |Available  |Coming soon |
 |**Good for / Space**|Focus (2-4 people) |Available  |Available |
 ||Small (4-6 people) |Available  |Available |
 ||Medium (6-12 people) |Available  |Available |
