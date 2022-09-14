@@ -106,20 +106,20 @@ Use PowerShell when you want to create and assign licenses for more than one use
 
 Use policies to control which features are available to users on common area phones.
 
-> [!NOTE]
-> After you assign a policy, sign out of the phone and sign back in. It may take up to an hour for a policy assignment to take effect.
-
 ### IP phone policies
 
-Phones signed in with accounts that have been assigned a **Common Area Phone** license will display the common area user experience.
+Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/skype/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
 
-If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps&preserve-view=true). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See [Set Teams Android devices user interface](/microsoftteams/devices/Teams-Android-devices-user-interface) to learn more.
+To configure other parameters, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. To learn more, see [Set Teams Android devices user interface](/microsoftteams/devices/Teams-Android-devices-user-interface).
 
 ### Calling policies
 
-Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. See [Calling and call-forwarding in Teams](teams-calling-policy.md) to learn more.
+Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. To learn more, see [Calling and call-forwarding in Teams](teams-calling-policy.md).
 
-By default, call park isn't enabled for common area phones. You'll need to create a policy to enable it. See [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md) to learn more.
+By default, call park isn't enabled for common area phones. You'll need to create a policy to enable it. To learn more, see [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md).
+
+> [!NOTE]
+> After you assign a policy, sign out of the phone and sign back in. It may take up to an hour for a policy assignment to take effect.
 
 ## Step 4 - Acquire and assign phone numbers
 
