@@ -233,8 +233,8 @@ A large display gives remote participants a physical presence within the room, a
 
 *Devices shown:*
 
-- Rooms System - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - Note that the Surface Hub solution represents a premium experience for collaboration and interactive usage. The [Microsoft Teams Roomz solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) paired with a large display can be used as an alternative in this same scenario.
+- Teams Rooms system - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - Note that the Surface Hub solution represents a premium experience for collaboration and interactive usage. The [Microsoft Teams Rooms solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) paired with a large display can be used as an alternative in this same scenario.
 
 - Analog Whiteboard capture – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
@@ -262,7 +262,7 @@ Remote participants can see the same field of view that in-person participants h
 
 *Devices shown:*
 
-- Rooms System – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with both an installed projector and a cart-based display
+- Teams Rooms system – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with both an installed projector and a cart-based display
 
 - Optional Digital Whiteboard - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -286,7 +286,7 @@ A room system with a large, projector-based front-of-room display, multiple touc
 
 *Devices shown:*
 
-- Rooms System – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with installed projector
+- Teams Rooms system – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with installed projector
 
 - Optional Dual Digital Whiteboards - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -312,4 +312,4 @@ View the following pages to learn more about Teams devices and partners:
 
 [Learn More about Microsoft Teams Rooms](/microsoftteams/rooms) – A guide to Microsoft Teams Rooms covering planning, deployment, and usage
 
-[Teams Meeting Rooms Partner Program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Rooms systems
+[Microsoft Teams Rooms Partner program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Rooms systems
