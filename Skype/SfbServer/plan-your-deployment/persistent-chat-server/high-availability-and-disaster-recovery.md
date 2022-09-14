@@ -1,8 +1,8 @@
 ---
 title: "Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro

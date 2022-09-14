@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server: Test SIP trunk configuration settings"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

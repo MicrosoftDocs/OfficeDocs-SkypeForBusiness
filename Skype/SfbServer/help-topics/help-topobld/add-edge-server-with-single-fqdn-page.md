@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server With Single FQDN Page"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro

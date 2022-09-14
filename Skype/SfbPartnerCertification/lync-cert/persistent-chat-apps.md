@@ -21,7 +21,8 @@ ms.custom:
 description: "The Lync qualification program helps ensure that qualified applications for persistent chat meet customer expectations for specific scenarios"
 ---
 
-# Qualified Lync applications for persistent chat
+# Persistent chat: qualified Lync applications
+
 Collaborate with a group in topic-based persistent discussion rooms. Share ideas and information by posting messages. Find ideas and information by browsing or searching the chat history. Search for content within and across rooms. Create notifications and filters to track conversations in particular rooms and about specific topics.
 
 ## MindLink anywhere

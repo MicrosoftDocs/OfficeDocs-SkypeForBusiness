@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams device usage report
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: "Office Web Apps Servers Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro

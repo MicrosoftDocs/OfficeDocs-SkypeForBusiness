@@ -1,7 +1,7 @@
 ---
 title: What is Call Quality Dashboard (CQD)?
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -46,12 +46,6 @@ In CQD, we encourage you to upload building and endpoint information, which lets
 
 Don't miss our [Manage call and meeting quality](quality-of-experience-review-guide.md) article, which offers in-depth guidance for the Teams admin or support engineer responsible for managing service quality in Teams.
 
-## Legacy version of CQD (CQD.lync.com)
-
-The current version of CQD (https://CQD.Teams.microsoft.com) has replaced the legacy version of CQD (https://CQD.lync.com). You can still use CQD.lync.com (available from the Skype for Business admin center), but as of July 1, 2020, it's using the data from CQD.Teams.microsoft.com and you can no longer view or modify your building or query data from the old CQD (CQD.lync.com). If you haven't already migrated this data from CQD.lync.com and still need it, log a support ticket.
-
-> [!IMPORTANT]
-> As of July 31, 2021, we are retiring the legacy version of CQD (CQD.lync.com). After that date, you will be automatically redirected to CQD.Teams.microsoft.com when attempting to access CQD.lync.com, and any unmigrated building or query data will be lost.
 
 ## Use Power BI to analyze CQD data
 

@@ -1,7 +1,7 @@
 ---
 title: User notification email templates for online phone system rollout
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -11,11 +11,13 @@ audience: admin
 description: Use templates to send emails to users as you implement cloud voice capabilities in Teams or Skype for Business.
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-voice
 ---
 
 

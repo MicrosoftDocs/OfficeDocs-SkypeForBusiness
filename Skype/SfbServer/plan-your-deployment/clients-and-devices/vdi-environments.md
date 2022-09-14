@@ -1,7 +1,7 @@
 ---
 title: "Plan for Skype for Business in VDI environments"
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -57,9 +57,9 @@ VMWare's VDI environment solution is compatible with Skype for Business 2015 and
   
 A full discussion of features and supported technologies can be found on the VMWare website at the following links:
   
-- [What's New in VMware Horizon 7.4 &amp; Horizon Client 4.7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [What's New in VMware Horizon 7.4 &amp; Horizon Client 4.7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.html)
     
-- [Horizon Virtualization Pack for Skype for Business](https://www.vmware.com/products/horizon/skype-for-business.mdl)
+- [Horizon Virtualization Pack for Skype for Business](https://www.vmware.com/products/horizon/skype-for-business.html)
     
 - [Microsoft Skype for Business With VMWare Horizon](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/horizon/vmware-skype-for-business-solution-brief.pdf)
     

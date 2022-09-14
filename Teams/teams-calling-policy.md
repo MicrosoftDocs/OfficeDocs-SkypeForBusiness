@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-#  Calling and call-forwarding in Teams
+# Calling and call-forwarding in Teams
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
 
@@ -52,7 +52,7 @@ Follow these steps to edit an existing calling policy.
 
 ## Calling policy settings
 
-Here's the settings that you can configure for calling policies.
+Here are the settings that you can configure for calling policies.
 
 ### Make private calls
 
@@ -60,7 +60,7 @@ This setting controls all calling capabilities in Teams. Turn this off to turn o
 
 ### Call forwarding and simultaneous ringing to people in your organization
 
-This setting controls whether incoming calls can be forwarded to other users or can ring another person at the same time. 
+This setting controls whether incoming calls can be forwarded to other users or can ring another person at the same time.
 
 ### Call forwarding and simultaneous ringing to external phone numbers
 
@@ -82,7 +82,7 @@ This setting controls whether incoming calls can be forwarded to a call group.
 
 This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions. For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
-### Prevent toll bypass and send calls through the PSTN 
+### Prevent toll bypass and send calls through the PSTN
 
 Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.
 
@@ -94,16 +94,36 @@ Busy on Busy (Busy Options) lets you configure how incoming calls are handled wh
 
 This setting enables users to call PSTN numbers using the Teams web client.
 
-### Incoming meeting invites are automatically answered
+### Automatically answer incoming meeting invites
 
 This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
 
 ### Allow music on hold
 
-This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
+This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features.
+
+### Allow SIP devices calling
+
+This setting enables users to use a SIP device to make and receive calls.
+
+### Spam filtering
+
+This setting allows you to control the type of Spam filtering available on incoming calls.
+
+### Call recording, live captions and transcription
+
+These settings allow you to control whether call recording, live captions and transcription are available for the users.
 
 ## Related articles
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+
+[Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+
+[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+
+[Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
+
+[Assign policies to your users in Teams](policy-assignment-overview.md)

@@ -58,7 +58,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
 |Can make outbound calls to?  <br/> |Not applicable  <br/> |
 
-If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
+If Calling Plans are not available to purchase, see [PSTN connectivity options](../pstn-connectivity.md) for all available options.
    
 ## Toll and toll-free numbers for services
 
@@ -66,7 +66,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |Beijing  <br/> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
-|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), except for customers who purchase the service from China. Toll-free numbers are not available for customers who purchase the service from China. <br/> |
+|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)), except for customers who purchase the service from China. Toll-free numbers are not available for customers who purchase the service from China. <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).
   

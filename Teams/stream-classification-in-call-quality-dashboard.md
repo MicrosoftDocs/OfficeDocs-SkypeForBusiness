@@ -1,7 +1,7 @@
 ---
 title: "Stream classification in Call Quality Dashboard (CQD)"
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -32,7 +32,7 @@ Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the 
 
 ### Audio Classifier
 
-If one or more of the following conditions are met, an audio stream is marked as _Poor_:
+If one or more of the following conditions are met and Packet Utilization is > 500 packets, an audio stream is marked as _Poor_:
 
 |Metric|Scenario|Condition|Explanation|
 |:-----|:-----|:-----|:-----|
@@ -67,10 +67,10 @@ A VBSS stream is marked as _Good_ or _Poor_ based on the value of the first avai
 
 |Step # |Metric |Condition |Classification if Condition is True |Classification if Condition is False |Classification if Metric is Unavailable |Explanation |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Proceed to step 2|Average percentage of video frames lost as displayed to the user. The average includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|< 2|_Poor_|_Good_|Proceed to step 3|Average frames per second received for a video stream, computed over the duration of the session.|
-|3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|Packet loss rate after FEC has been applied aggregated across all video streams and codecs.|
+|1|Video Local Frame Loss Percentage Avg|Codec is NOT H264S</br>And</br>StreamDirection is Inbound</br></br>If FrameLoss > 50%|_Poor_|_Good_|_Unclassified_|Average percentage of video frames lost as displayed to the user. The average includes frames recovered from network losses. FrameLoss is only used for classifying inbound non-H264S streams.|
+|2|Video Frame Rate Avg|< 1|_Poor_|_Good_|_Unclassified_|Average frames per second received for a video stream, computed over the duration of the session. Applies to all outbound streams and either StreamDirection for H264S.|
 | |  | | | |  ||
+
 
 ### Application Sharing Classifier
 

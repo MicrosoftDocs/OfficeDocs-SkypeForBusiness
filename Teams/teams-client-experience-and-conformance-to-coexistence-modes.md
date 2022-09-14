@@ -1,7 +1,7 @@
 ---
 title: Teams client experience and conformance to coexistence modes
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

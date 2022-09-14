@@ -317,7 +317,7 @@ For meetings that need the highest-quality video experience, such as CEO board m
 
 - [Screen sharing mode](#screen-sharing-mode)
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
-- [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
+- [External participants can give or request control](#external-participants-can-give-or-request-control)
 - [Allow PowerPoint sharing](#allow-powerpoint-sharing)
 - [Allow whiteboard](#allow-whiteboard)
 - [Allow shared notes](#allow-shared-notes)
@@ -327,7 +327,7 @@ For meetings that need the highest-quality video experience, such as CEO board m
 > [!NOTE]
 > This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
-This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
+This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, external participants) inherit the policy of the meeting organizer.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -372,22 +372,21 @@ To use PowerShell to control who can give control or accept requests for control
 > [!NOTE]
 > To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
 
-### Allow an external participant to give or request control
+### External participants can give or request control
 
 This is a per-user policy. Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
 
-- Anonymous user
-- Guest users  
-- B2B user
-- Federated user  
+- Anonymous participant
+- Guests
+- External access user  
 
-Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
+Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization.
 
 To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
 ### Allow PowerPoint sharing
 
-This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer.
+This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -400,7 +399,7 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ### Allow whiteboard
 
-This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
+This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -413,7 +412,7 @@ Amanda can't share the whiteboard in a meeting even if she's the meeting organiz
 
 ### Allow shared notes
 
-This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is supported in meetings with up to 100 participants.
+This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is supported in meetings with up to 100 participants.
 
 Let's look at the following example.
 
@@ -462,7 +461,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
   
 |Setting value  |Join behavior |
 |---------|---------|
-|**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, external users from trusted organizations (federated), guests, and anonymous users.     |
+|**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, external access users, guests, and anonymous users.     |
 |**People in my organization, trusted organizations, and guests**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.   |
 |**People in my organization and guests**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
 |**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations and anonymous users must wait in the lobby.           |
@@ -573,6 +572,6 @@ Meeting reactions are Off by default. Turning off reactions for a user doesn't m
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
 - [Set up for webinars in Microsoft Teams](set-up-webinars.md)

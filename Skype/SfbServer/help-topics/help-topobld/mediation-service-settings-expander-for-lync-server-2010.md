@@ -1,8 +1,8 @@
 ---
 title: "Mediation Service Settings Expander for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro

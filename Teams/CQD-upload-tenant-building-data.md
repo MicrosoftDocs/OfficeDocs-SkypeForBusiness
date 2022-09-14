@@ -1,7 +1,7 @@
 ---
 title: Upload tenant and building data in Call Quality Dashboard (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -159,6 +159,8 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
 
 - All seven columns use the String data type only. The maximum allowed length is 64 characters.
+
+- Entries are case-sensitive; EndpointName **ABC123** will be treated as unique from EndpointName **abc123**.
 
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 

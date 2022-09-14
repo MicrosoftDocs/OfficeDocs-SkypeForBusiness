@@ -48,7 +48,7 @@ Use the steps in this article when:
 
 You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365 or Office 365 in both organizations to do this communication.
 
-![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Teams admin center**
+ **Using the Teams admin center**
   
 1. Sign in with your Microsoft 365 or Office 365 admin account.
 

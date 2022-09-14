@@ -1,7 +1,7 @@
 ---
 title: Set up your team targeting hierarchy
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,11 +10,10 @@ search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Set up your team targeting hierarchy

@@ -1,7 +1,7 @@
 ---
 title: Configure live event settings in Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -36,7 +36,7 @@ You can easily manage these settings in the Microsoft Teams admin center. In the
 
 This URL is shown to live event attendees. Add the support URL for your organization to give attendees a way to contact support during a live event.
 
-### ![An icon showing the Microsoft Teams logo.](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Support URL**, enter your organization's support URL.
@@ -55,14 +55,14 @@ For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell
 
 If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams. 
 
-### ![An icon showing the Microsoft Teams logo.](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center,
+### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Third-party video distribution providers**, complete the following: 
 
     ![Third-party video distribution provider settings in the admin center.](../media/teams-live-events-settings-distribution-provider-new.png "Screen shot of the third-party video distribution provider settings for live events")
 
-    - **Use a third-party distribution provider** Turn this ON to enable the third-party video distribution provider.
+    - **Third-party distribution provider** Turn this ON to enable the third-party video distribution provider.
     - **SDN provider name** Choose the provider you're using.
     - **SDN Configuration** Enter SDN Configuration details.
         

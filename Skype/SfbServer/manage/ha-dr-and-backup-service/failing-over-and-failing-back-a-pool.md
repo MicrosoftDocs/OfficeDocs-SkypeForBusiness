@@ -1,8 +1,8 @@
 ---
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -173,7 +173,7 @@ If a Front-End pool fails, but the Edge pool at that site is still running, you 
 
 After the pool that experienced the disaster is back online (that is, Pool1 in this example), take the following steps to restore your deployment to regular working status.
 
-The failback process takes several minute to complete. For reference, it's expected to take up to 60 minutes for a pool of 20,000 users.
+The failback process takes several minute to complete. For reference, it's expected to take up to 60 minutes for a pool of 20,000 users.
 
 Fail back the users who were originally homed in Pool1 and have been failed over to Pool2 by typing the following cmdlet:
 

@@ -1,5 +1,5 @@
 ---
-title:  Direct Routing SBA
+title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,16 +9,15 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1.keywords:
-- NOCSH
-- ms.teamsadmincenter.directrouting.overview
+f1.keywords: 
+  - NOCSH
+  - ms.teamsadmincenter.directrouting.overview
 description: Learn more about Direct Routing, such as configuration, necessary core deployment decisions, and voice routing considerations.
 ms.custom: 
- - seo-marvel-apr2020
- - seo-marvel-jun2020
+  - seo-marvel-apr2020
+  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -41,6 +40,11 @@ To get the latest Session Border Controller firmware with the embedded Survivabl
 - The SBC needs to be configured for Media Bypass to ensure that the Microsoft Teams client in the branch site can have media flowing directly with the SBC. 
 
 - TLS1.2 should be enabled on the SBA VM OS.
+- Ports 3443, 4444 and 8443 are used by Microsoft SBA Server to communicate with the Teams client and should be allowed on the firewall. 
+- Port 5061 (or the one configured on the SBC) is used by Microsoft SBA Server to communicate with the SBC and should be allowed on the firewall. 
+- UDP Port 123 is used by Microsoft SBA Server to communicate with NTP server and should be allowed on the firewall.
+- Port 443 is used by Microsoft SBA Server to communicate with Microsoft 365 and should be allowed on the firewall.
+- Azure IP Ranges and Service Tags for the Public Cloud should be defined according to the guidelines described at: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## Supported Teams clients
 
@@ -48,7 +52,9 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 - Microsoft Teams Windows desktop 
 
-- Microsoft Teams macOS desktop 
+- Microsoft Teams macOS desktop
+- Teams for Mobile 
+- Teams Phones
 
 ## How it works
 
@@ -184,7 +190,7 @@ Then follow these steps:
 
 For step-by-step guidance on how to configure your Session Border Controller with the embedded Survivable Branch Appliance, see the documentation provided by your SBC vendor: 
 
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/library/technical-documents?query=sba)
 
 - [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 

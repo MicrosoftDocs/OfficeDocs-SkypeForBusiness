@@ -1,7 +1,7 @@
 ---
 title: Define outcomes and success for adopting Microsoft Teams - Microsoft Teams
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin

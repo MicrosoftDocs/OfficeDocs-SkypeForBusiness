@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams call queue supported languages"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -29,7 +29,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Language                                |
 |:---------------------------------------|
 |Arabic (Egypt)                          |
-|Catalan (Catalan)	                     |
+|Catalan (Catalan)                       |
 |Chinese (Simplified, PRC)               |
 |Chinese (Traditional, Hong Kong)        |
 |Chinese (Traditional, Taiwan)           |

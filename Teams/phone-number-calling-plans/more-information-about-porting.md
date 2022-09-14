@@ -1,7 +1,7 @@
 ---
 title: More information about porting
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article
@@ -27,7 +27,7 @@ Here you'll find more information about porting your phone numbers to Microsoft 
 
 For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-If you need help or if you need to get more phone numbers, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+If you need help or if you need to get more phone numbers, contact the [TNS Service Desk help](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## Port order account information
 

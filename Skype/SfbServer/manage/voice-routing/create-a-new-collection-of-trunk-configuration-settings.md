@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server: Create a new collection of trunk configuration settings"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

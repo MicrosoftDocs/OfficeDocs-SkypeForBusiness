@@ -1,8 +1,8 @@
 ---
 title: "Plan to integrate Skype for Business and Exchange"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -84,7 +84,7 @@ If you are integrating Skype for Business Server with Exchange Online, your next
 <a name="feature_support"> </a>
 
 >[!Important]
-> Skype for Business Online will be retired on July 31, 2021 after the Exchange integrations listed below that include the service will no longer be supported.
+> Skype for Business Online was retired on July 31, 2021. The Exchange integrations listed below that include the service are no longer supported.
 
 The following table details the features supported under various combinations of online or on premises for Exchange and Skype for Business.
   

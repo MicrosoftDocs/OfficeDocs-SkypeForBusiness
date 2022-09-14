@@ -23,7 +23,7 @@ appliesto:
 
 ## Windows users
 
-Microsoft recommends that organizations use recent versions of Windows 10 with either Hybrid Domain Join or Azure AD Join configuration. Using recent versions ensures that users’ accounts are primed in Windows’ Web Account Manager, which in turn enables single sign-on to Teams and other Microsoft applications. Single sign-on provides a better user experience (silent sign-in) and a better security posture.
+Microsoft recommends that organizations use recent versions of Windows 10 with either Hybrid Domain Join or Azure AD Join configuration. Using recent versions ensures that users' accounts are primed in Windows' Web Account Manager, which in turn enables single sign-on to Teams and other Microsoft applications. Single sign-on provides a better user experience (silent sign-in) and a better security posture.
 
 Microsoft Teams uses modern authentication to keep the sign-in experience simple and secure. To see how users sign in to Teams, read [Sign in to Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
@@ -79,11 +79,11 @@ The following images show how users can add multiple accounts in Teams mobile ap
 
 ## Restrict sign in to Teams
 
-Organization may want to restrict how corporate-approved apps are used on managed devices, for example to restrict students' or employees’ ability to access data from other organizations or use corporate-approved apps for personal scenarios. These restrictions can be enforced by setting Devices Policies that Teams applications recognize.
+Organization may want to restrict how corporate-approved apps are used on managed devices, for example to restrict students' or employees' ability to access data from other organizations or use corporate-approved apps for personal scenarios. These restrictions can be enforced by setting Devices Policies that Teams applications recognize.
 
 ### How to restrict sign in on mobile devices
 
-Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any Mobile Device Management (MDM) provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
+Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any Mobile Device Management (MDM) provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
 
 For users enrolled in Microsoft Intune, you can deploy the account configuration settings using Intune in the Azure portal.
 
@@ -99,15 +99,15 @@ Set the following configuration parameters in the Azure Intune portal for manage
 
 Once the account setup configuration has been set, Teams will restrict the ability to sign in, so that only allowed accounts on enrolled devices will be granted access.
 
-To create an app configuration policy for managed iOS/iPadOS devices, see [Add app configuration policies for managed iOS/iPadOS devices](/mem/intune/apps/app-configuration-policies-use-ios).
+To create an app configuration policy for managed iOS/iPadOS devices, see [Add app configuration policies for managed iOS/iPadOS devices](/mem/intune/apps/app-configuration-policies-use-ios).
 
-To create an app configuration policy for managed Android devices, see [Add app configuration policies for managed Android devices](/mem/intune/apps/app-configuration-policies-use-android).
+To create an app configuration policy for managed Android devices, see [Add app configuration policies for managed Android devices](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### How to restrict sign in on desktop devices
 
 Teams apps on Windows and macOS are gaining support for device policies that restrict sign in to your organization. The policies can be set via usual Device Management solutions such as MDM (Mobile Device Management) or GPO (Group Policy Object). 
 
-When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but they won't be operable.
+When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the "Tenant Allow List" defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but they won't be operable.
 
 > [!NOTE]
 > 
@@ -141,7 +141,7 @@ For macOS managed devices, use .plist to deploy sign-in restrictions. The config
 
 ### Global sign in
 
-The Teams Android app now supports Global sign-in, to provide a hassle free sign-in experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](sign-out-of-teams.md) to learn more. This with remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+The Teams Android app now supports Global sign-in, to provide a hassle free sign-in experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](sign-out-of-teams.md) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. Make sure to end any active meeting or call on the device before signing out. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 The sign-in experience looks similar to our standard Teams sign-in experience.
 
@@ -149,8 +149,6 @@ The sign-in experience looks similar to our standard Teams sign-in experience.
 
 Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government, and other clouds, read [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
 
-> [!IMPORTANT]
-> Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020), and we'll update this article accordingly at that time.
 
 ## Related topics
 

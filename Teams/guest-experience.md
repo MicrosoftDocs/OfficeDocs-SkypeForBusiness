@@ -24,6 +24,9 @@ description: This article describes the Microsoft Teams functionality available 
 # Guest experience in Teams
 
 When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation by selecting **Open Microsoft Teams** in the email message before they can access the team and its channels.
+
+> [!NOTE]
+> After a guest is added to a team, it may take a few hours before they have access.
     
 ![Screenshot showing an example of a welcome email message.](media/guest-experience-image1.png)
     
@@ -32,8 +35,8 @@ All team members see a message in the channel thread announcing that the team ow
 ![Screenshot showing tag that indicates number of guests on the team.](media/guest-experience-image2.png)
 
 Check out these videos about the guest experience in Teams:
-- [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Join a Teams meeting with guests](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [Join a Teams meeting as a guest](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Work with external guests in a Teams meeting](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## Comparison of team member and guest capabilities
 
@@ -105,3 +108,5 @@ The following table shows the calling and meeting features available to guests, 
 ## Related topics
 
 [Leave an organization as a guest](/azure/active-directory/b2b/leave-the-organization)
+
+[Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)

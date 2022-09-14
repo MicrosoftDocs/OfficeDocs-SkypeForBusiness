@@ -1,78 +1,78 @@
 ---
-title: What is Microsoft 365 Business Voice?
-author: dstrome 
+title: Teams Phone System guidance for small and medium businesses
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
-ms.localizationpriority: high
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
-- m365initiative-voice
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft 365 Business Voice is an inexpensive option for voice calling, enabling small and medium businesses to communicate more effectively.
+description: The Microsoft Teams Phone System with Calling Plan bundle is an inexpensive option for voice calling, enabling small and medium businesses to communicate better.
 appliesto: 
-- Microsoft Teams
-ms.custom: seo-marvel-may2020
+  - Microsoft Teams
+ms.custom: 
+  - seo-marvel-may2020
+  - intro-overview
+ms.collection: 
+  - M365-voice
+  - M365initiative-voice
 ---
 
-# What is Microsoft 365 Business Voice?
+# Teams Phone System guidance for small and medium businesses
 
-Microsoft 365 Business Voice makes it easy for small and medium organizations to turn Microsoft Teams into a powerful and flexible telephone system. It's a replacement for traditional telephony providers and in-house phone systems that can be difficult and costly to manage. You can set up both toll and toll-free numbers, call menus to help callers get to the right department, audio conferencing so you can host meetings with anyone, and more. You can even give people their own phone numbers so they can get calls directly.
+The Microsoft Teams Phone System with Calling Plan bundle is Microsoft’s all-in-the-cloud solution that makes it easy for organizations to turn Teams into a powerful and flexible telephone system. The Phone System with Calling Plan bundle provides Private Branch Exchange (PBX) capabilities and calls to the Public Switched Telephone Network (PSTN).
 
-Business Voice does all of this by wrapping Microsoft 365 Phone System features into an easy-to-manage bundle. You don't need to worry about choosing the right plan or feature; they're all there and set up for you. Because Phone System is a part of Teams, you can turn any PC, Mac, or mobile device into a phone that can use your Business Voice phone number.
+The Teams Phone System with Calling Plan bundle allows your business to have:
 
-Here's a short video that gives you an overview of Business Voice (2:13 minutes):
+- Toll and toll-free numbers.
+- Auto attendants to help callers get to the right department.
+- Call queues for high-traffic phone numbers.
+- Users with their own phone numbers so they can receive calls.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
+This article will help you get started with the Teams Phone System with Calling Plan bundle.
 
-Business Voice is right for you if your organization has 300 or fewer people and you have one the following Microsoft 365 subscriptions:
+## Which articles should I read?
 
-- Microsoft 365 Business Basic
-- Microsoft 365 Business Standard
-- Microsoft 365 Business Premium
-- Microsoft 365 F1
-- Microsoft 365 F3
-- Office 365 F3
-- Microsoft and Office 365 Enterprise E1 or E3
-- Microsoft 365 and Office 365 Education A1 or A3
-- Microsoft 365 and Office 365 Government G1 or G3
-- Microsoft 365 Nonprofit Business Basic
-- Microsoft 365 Nonprofit Business Standard
-- Microsoft 365 and Office 365 Nonprofit E1 or E3
+These articles will help your business plan, set up, and manage the Phone System with Calling Plan bundle.
 
-Business Voice is available in over 70 countries and regions. Whether you can set up Business Voice on your own, transfer phone numbers to Microsoft 365, and manage your phone numbers in Microsoft 365, depends on the country or region in which your Microsoft 365 tenant is located. For more information, check out [Country and region availability for Business Voice](country-region-availability.md).
+| Article | Description |
+|---------|-------------|
+| [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See if Phone System and Calling Plans are available in your country and region. If they're not available, [get help from a reseller or partner](../business-voice/reseller-partner-support.md) to find the right voice solution. |
+| [Check your internet connection](../business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for the Phone System with Calling Plan bundle. |
+| [Set up the Phone System with Calling Plan bundle](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic setup of Phone System with Calling Plan. |
+| [Customize your Phone System with Calling Plan setup](../business-voice/customize-business-voice.md) | Learn how to customize the Phone System with Calling Plan bundle for your unique needs. |
+| [Manage your Phone System setup](../business-voice/create-users.md) | Learn how to manage Phone System with Calling Plan bundle users, devices, and call quality. |
 
-> [!IMPORTANT]
->
-> Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes located on on-premises Exchange Server.
+## Who in my organization needs to be assigned Teams Phone with Calling Plan bundle licenses?
 
-When you buy Business Voice, you get the following features and more:
+You need to assign Teams Phone with Calling Plan bundle license to any user who needs to make or receive phone calls to external phone numbers.
 
-<table>
-    <tr>
-        <td><b><a href="/microsoftteams/what-is-phone-system-in-office-365">Phone System</a></b>
-        </td>
-        <td>Standard phone features include Voice Mail, Caller ID, call menus, shared phone lines, and emergency calling.
-        </td>
-    </tr>
-<tr>
-        <td><b><a href="/microsoftteams/calling-plan-landing-page">Domestic Calling</a></b>
-        </td>
-        <td>Calls within your country or region are free. International plans and toll-free dialing are also available.
-        </td>
-    </tr>
-    <tr>
-        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audio Conferencing</a></b>
-        </td>
-        <td>Lets you host conference calls with people who don't have Teams or don't have an internet connection.
-        </td>
-    </tr>
-</table>
+Users who don't need to make or receive phone calls to or from external phone numbers just need a Teams license.
 
-You can see everything that's included with Business Voice by visiting [Microsoft 365 Business Voice service description](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need Teams Phone with Calling Plan bundle licenses.
+
+## How do I purchase Teams Phone with Calling Plan bundle licenses?
+
+To buy **Teams Phone with Calling Plan** bundle licenses:
+
+1. Sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
+2. Go to **Billing** > **Purchase services**.
+3. Under **Purchase from Microsoft**, select **View Products**.
+4. Select the **Add-ons** category filter to view all available add-on licenses.
+5. Find the **Teams Phone with Calling Plan** add-on and select **Details** to go to the product page.
+6. Select the **Buy** button to choose the number of licenses you need and to complete the purchasing process. If you run out of licenses, you can purchase more later.
+
+After you've purchased Teams Phone with Calling Plan bundle licenses, read [Set up Phone System with Calling Plan](../business-voice/set-up-overview.md).
+
+## What if my calling setup is more complex?
+
+Perhaps your business has multiple locations, but Teams Phone isn't available in one of those locations. Or, maybe your business wants to manage its own calling hardware.
+
+If your business requires a more complex PSTN calling setup, see these articles.
+
+- Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](../cloud-voice-landing-page.md).
+- To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
+- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).

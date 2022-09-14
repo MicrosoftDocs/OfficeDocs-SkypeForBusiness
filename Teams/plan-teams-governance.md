@@ -137,7 +137,8 @@ For detailed lists of all settings, including technical guidance on how to imple
 - [Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
 - [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 - [Private channels in Microsoft Teams](private-channels.md)
-- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Shared channels in Microsoft Teams](shared-channels.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 

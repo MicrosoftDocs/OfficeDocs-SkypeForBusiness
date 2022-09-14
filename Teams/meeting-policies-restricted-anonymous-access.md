@@ -1,7 +1,7 @@
 ---
 title: Remove the RestrictedAnonymousAccess Teams meeting policy from users 
-author: cichur
-ms.author: v-cichur
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,7 +19,7 @@ description: Learn how to remove the RestrictedAnonymousAccess Teams meeting pol
 ---
 # Remove the RestrictedAnonymousAccess Teams meeting policy from users
 
-[Meeting policies](meeting-policies-in-teams.md) in Microsoft Teams are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. 
+[Meeting policies](meeting-policies-overview.md) in Microsoft Teams are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. 
 
 Teams includes a built-in policy named RestrictedAnonymousAccess, which contains pre-defined settings that include restricting anonymous users from starting a meeting. (Anonymous users are users who haven't been authenticated.) The predefined settings in the meeting policy can't be edited or changed by admins.
 
@@ -49,7 +49,7 @@ Count  Name                               Group
 
 ## Unassign the RestrictedAnonymous meeting policy from users
 
-To remove the the RestrictedAnonymous meeting policy from users, you can use the [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet if you have a small number of users (for example, less than 100 users). If you have a large number of users (for example, more than 100 users), it's more efficient to use the  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet to submit a batch operation.
+To remove the the RestrictedAnonymous meeting policy from users, you can use the [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet if you have a small number of users (for example, less than 100 users). If you have a large number of users (for example, more than 100 users), it's more efficient to use the  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch operation.
 
 ### Use the Grant-CsTeamsMeeting Policy cmdlet
 
@@ -61,10 +61,10 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### Use the New-CsBatchPolicyAssignmentOperation cmdlet
 
-With [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users), the maximum number of users for which you can remove or update policies is 5,000 at a time. For example, if you have more than 5,000 users, you'll need to submit multiple batches. For best results, do not submit multiple batches at a time. Allow batches to complete processing before submitting more batches.
+With [batch policy assignment](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users), the maximum number of users for which you can remove or update policies is 5,000 at a time. For example, if you have more than 5,000 users, you'll need to submit multiple batches. For best results, do not submit multiple batches at a time. Allow batches to complete processing before submitting more batches.
 
 > [!NOTE]
-> The [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet is in the Teams PowerShell module. Before you follow these steps, install and connect to the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).
+> The [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet is in the Teams PowerShell module. Before you follow these steps, install and connect to the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).
 
 Run the following commands to remove the RestrictedAnonymousAccess meeting policy from a batch of users.
 
@@ -88,6 +88,6 @@ Make sure the **ErrorCount** is **0** (zero) and **OverallStatus** is **Complete
 
 ## Related topics
 
-- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)

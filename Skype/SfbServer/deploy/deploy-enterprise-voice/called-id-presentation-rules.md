@@ -1,8 +1,8 @@
 ---
 title: "Create or modify a translation rule for called ID presentation in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
