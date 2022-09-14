@@ -46,7 +46,7 @@ Before moving any users, be sure to review the [prerequisites](move-users-betwee
 > [!IMPORTANT]
 >
 > - When moving a user from on-premises to the cloud with Move-CsUser, users are automatically assigned TeamsOnly mode and their meetings from on-premises are automatically converted to Teams meetings, regardless of whether the `-MoveToTeams` switch is actually specified. (This includes migrations from Lync Server 2013, which never had the `-MoveToTeams` switch.)  Previously if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. This was changed in preparation for retirement of Skype for Business Online.
-> - Moving users between your on-premises deployment and Teams now *requires* updated minimum versions of the on-premises components either Skype for Business Server or Lync Server that no longer relies on the Skype for Business Online legacy infrastructure. For details see [Prerequisites](/move-users-between-on-premises-and-cloud#prerequisites).
+> - Moving users between your on-premises deployment and Teams now *requires* updated minimum versions of the on-premises components either Skype for Business Server or Lync Server that no longer relies on the Skype for Business Online legacy infrastructure. For details see [Prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites).
 
 ## Move a user directly from Skype for Business on premises to Teams Only
 
