@@ -38,11 +38,11 @@ Refer to:
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
 ## Hardware requirements
-A hardware deployment includes a selection of a Microsoft Teams Room system, combined with certified audio and video peripherals, and a cabling solution to integrate these devices together.  These options are described here.
+A hardware deployment includes a selection of a Microsoft Teams Rooms system, combined with certified audio and video peripherals, and a cabling solution to integrate these devices together.  These options are described here.
 
-**Supported Microsoft Teams Room systems**
+**Supported Microsoft Teams Rooms systems**
 
-All current Microsoft Teams Room devices and bundles are available in the [Room Systems product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
+All current Microsoft Teams Rooms devices and bundles are available in the [Teams Rooms product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
   |Console|Processor|RAM|Disk|
   |:-----|:-----|:-----|:-----|
