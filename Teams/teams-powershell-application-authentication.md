@@ -21,7 +21,7 @@ Application-based authentication is supported now in Teams PowerShell Module for
 
 ## Cmdlets Supported
 
-All Non \*-Cs cmdlets (for example, Get-Team), Get-CsOnlineUser & Get-CsTenant are already supported. Other cmdlets will be gradually rolled out. 
+All Non \*-Cs cmdlets (for example, Get-Team), Get-CsTenant, Get-CsOnlineUser & Get-CsOnlineVoiceUser are already supported. Other cmdlets will be gradually rolled out. 
 
 
 ## Examples
