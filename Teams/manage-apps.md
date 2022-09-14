@@ -87,7 +87,7 @@ For example, Contoso Electronics is an app developer that created a help desk ap
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Screenshot of blocked by publisher status in Teams admin center.":::
 
-For information on how developers block an app by default, see [Hide app until admin approves](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
+For information about how developers block an app by default, see [enable apps to be blocked until an admin allows it](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## Manage org-wide app settings
 
