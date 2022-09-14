@@ -393,7 +393,7 @@ If the Location-Based Routing enabled user is joining the conference call from a
 
 On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
 
-A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call.
+A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call, it is not supported to record the PSTN call and compliance recording of the PSTN call is not supported.
 
 ### Media bypass requirement for Location-Based Routing
 
