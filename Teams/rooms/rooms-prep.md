@@ -1,18 +1,19 @@
 ---
-title: "Prepare your Environment"
-ms.author: czawideh
-author: cazawideh
+title: Prepare your Environment
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
 ms.custom: seo-marvel-apr2020
 ---
@@ -27,8 +28,8 @@ This section contains an overview of the steps required to prepare your environm
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
-   - Telemetry client endpoint: https://vortex.data.microsoft.com/
-   - Telemetry settings endpoint: https://settings.data.microsoft.com/
+   - Telemetry client endpoint: `https://vortex.data.microsoft.com/`
+   - Telemetry settings endpoint:` https://settings.data.microsoft.com/`
     
 ### Create and test a resource account
 
@@ -139,7 +140,7 @@ You can read more about the Admin account in the [Microsoft Teams Rooms Security
 
 Much like any Windows device, the machine name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
   
-If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), a PowerShell command, followed by the computer's new name.
+If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), a PowerShell command, followed by the computer's new name.
   
 ## Related topics
 

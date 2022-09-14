@@ -1,7 +1,7 @@
 ---
 title: Manage messaging policies in Teams
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -75,9 +75,8 @@ Here are the messaging policy settings that you can configure.
 
 - **Owners can delete sent messages**  Use this setting to let owners delete channel messages or posts that users sent.
 - **Delete sent messages** Use this setting to let users delete messages that they sent in chat.
-- **Delete chat** Use this setting to let users delete messages that they sent in chat.
 - **Edit sent messages** Use this setting to let users edit the messages that they sent in chat.
-- **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainly about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
+- **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainty about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
     - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
     - **Turned on for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. When using the **On for everyone** setting, the only way to set receipts for the whole tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts. The read receipts feature is most effective when the feature is enabled to **On for everyone**.
     - **Turned off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
@@ -107,6 +106,7 @@ Here are the messaging policy settings that you can configure.
 - **Suggested replies**  Turn this setting on to enable suggested replies for chat messages.
 - **Chat permission role** Use this setting to define the supervised chat role of the user. Learn more about [supervised chat](supervise-chats-edu.md).
 - **Users with full chat permissions can delete any message** Use this setting to let users with full permissions delete any group or meeting chat message.
+- **Video messages** Turn this setting on if you want users in your organization to be able to use the Teams app to send video messages to other people in Chat.
 
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.

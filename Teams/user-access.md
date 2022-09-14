@@ -1,8 +1,8 @@
 ---
 title: Manage user access to Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+manager: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -35,7 +35,7 @@ You manage Teams licenses in the Microsoft 365 admin center or by using PowerShe
 
 ## Using the Microsoft 365 admin center
 
-Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. 
+Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts.
 
 > [!IMPORTANT]
 > The administrator must have Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.

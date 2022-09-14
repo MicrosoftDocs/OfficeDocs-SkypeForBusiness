@@ -1,17 +1,17 @@
-﻿---
+---
 title: Health and Usage Reports
-author: donnah007 
+author: donnah007
 ms.author: v-donnahill
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer:  
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -21,9 +21,8 @@ f1keywords:
 ---
 # Health and Usage Reports
 
-The reporting node contains data for the health and usage of your Microsoft Managed Rooms and service insights. **The 
+The reporting node contains data for the health and usage of your Microsoft Managed Rooms and service insights. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
 
-**Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
 ## Navigating reports
 
 <!--![A screenshot of active tickets bar graph](../media/health-and-usage-002new.png)-->
@@ -52,6 +51,7 @@ In the flyout, it is possible to filter the list of tickets by the subcategory b
 To navigate back, either click on the donut or click on the breadcrumb at the top left.
 
 To navigate to a specific ticket in this list view, click on the link under the **Support ticket colum**.
+
 ### Ticket history
 
 The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
@@ -60,17 +60,21 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 > If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
+
 ### Health history
 
 This graph shows the average health (definition in Health section) for all the rooms in the tenant as well as the average health for all MMR customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
-### Most reliable/least reliable rooms:
+
+### Most reliable/least reliable rooms
 
 Two tables show the most reliable and least reliable rooms based on health. For the full list view, select Health, then sort the list by the Health column.
 
-### Rooms history: 
+### Rooms history
+
 Provides a historical view of rooms enrolled in the service and provides a comparative view of rooms that were healthy or unmonitored in the same time period.
+
 ## Health
 
 To navigate to the Health report for all rooms, select Reports, then select  **Health**.
@@ -93,9 +97,9 @@ Categorization of tickets are represented in the donut chart. Interacting with t
 
 <!--!![A screenshot of a Reports health bar graph](../media/health-and-usage-014.png)-->
 
-The meeting impact view shows scheduled meetings during which a ticket with a severity of “Important” or “Critical” was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
+The meeting impact view shows scheduled meetings during which a ticket with a severity of "Important" or "Critical" was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
 
-The meeting impact view shows scheduled meetings during which a ticket with a severity of “Important” or “Critical” was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
+The meeting impact view shows scheduled meetings during which a ticket with a severity of "Important" or "Critical" was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
 
 <!--![A screenshot of a Reports meeting impact](../media/health-and-usage-015.png)-->
 
@@ -115,26 +119,27 @@ The headlines provide a few insights:
 - Total number of booked meetings through exchange
 - Percentage of booked meetings that included a Skype or Teams link
 - Total calls with room participation
--	Aggregate call performance score from all calls classified with “Good” quality to all calls. 
+- Aggregate call performance score from all calls classified with "Good" quality to all calls. 
 
 Below the headline metrics is a table of rooms with corresponding metrics. Select a room to view more usage details. The metrics in the table are described in the following table.
 
-| Column | 	Description |
-|--------| -------------------|
-| Utilization	| Percentage of time the room was booked during business hours in the selected period. Ex. Time period set to 7 days. 80% utilization over the means the room was booked for 32/40 hours |
-| Booked online |	Of the booked meetings, the percentage of which were enabled with Teams. Ex. 10 meetings were booked. Of that, 8 had a Teams link. Booked Online = 80% |
-| Scheduled meetings | Absolute number of meetings scheduled in the room |
-| Total calls |	Absolute number of calls with the room as a participant. |
-Call performance |	Percentage of calls with a “Good” rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls |
+|Column|Description|
+|---|---|
+|Utilization|Percentage of time the room was booked during business hours in the selected period. Ex. Time period set to 7 days. 80% utilization over the means the room was booked for 32/40 hours|
+|Booked online|Of the booked meetings, the percentage of which were enabled with Teams. Ex. 10 meetings were booked. Of that, 8 had a Teams link. Booked Online = 80%|
+|Scheduled meetings|Absolute number of meetings scheduled in the room|
+|Total calls|Absolute number of calls with the room as a participant.|
+Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
 
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
+
 ## Usage details of a room
- 
+
 Clicking on a room in the list view prompts a flyout with more in-depth information. Under the Utilization tab of the flyout is a graph showing hours of usage of the last five business days. For each day there are two bars: blue represents booked meeting time; purple represents scheduled time of Teams/Skype enabled meetings. At the bottom, the average meeting bookings and duration for the past five business days are calculated.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-The **Calls** table shows meetings in which the room participated in a Teams call. The Room Audio Quality is evaluated for only the room, not all participants. To view call quality for all participants of a specific call, select a call by clicking on the Start Time. 
+The **Calls** table shows meetings in which the room participated in a Teams call. The Room Audio Quality is evaluated for only the room, not all participants. To view call quality for all participants of a specific call, select a call by clicking on the Start Time.
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

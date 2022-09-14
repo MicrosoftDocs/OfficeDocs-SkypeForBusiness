@@ -1,7 +1,7 @@
 ---
-title: "Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune"
-ms.author: serdars
-author: SerdarSoysal
+title: Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article provides an overview of and features supported by Microsoft Teams Android devices."
+description: This article provides an overview of and features supported by Microsoft Teams Android devices.
 ---
 
 # Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune
@@ -35,18 +36,20 @@ If you use Conditional Access, which requires Intune enrollment to be enforced, 
 
 ## Configure Intune to enroll Teams Android-based devices
 
-Teams Android-based devices are managed by Intune via Android Device Administrator (DA) management. Before devices can be enrolled into Intune, there are a few basic steps to perform.  If you are already managing devices with Intune today, you probably have already done all these things.  If not, here’s what to do:
+Teams Android-based devices are managed by Intune via Android Device Administrator (DA) management. Before devices can be enrolled into Intune, there are a few basic steps to perform.  If you are already managing devices with Intune today, you probably have already done all these things.  If not, here's what to do:
 
 > [!NOTE]
 > - If tenant admins want common area phones to be enrolled into Intune, they need to add an Intune license to the account and follow the steps for Intune enrollment.
-> - If the user account used to sign into a Teams device isn't licensed for Intune,
-> Intune compliance policies and enrollment restrictions need to be disabled for the account.
+> - If the user account used to sign into a Teams device isn't licensed for Intune,
+> Intune compliance policies and enrollment restrictions need to be disabled for the account.
+> - If the user account used to sign into a Teams device is licensed for Intune, 
+> the Teams device will be automatically enrolled in Intune.
 
 
 
 1. Set Intune MDM (mobile device management) Authority.  
 
-   If you’ve never used Intune before, you need to set the MDM authority before you can enroll devices. For more information, see [Set the mobile device management authority](/intune/fundamentals/mdm-authority-set).  This is a one-time step that has to be done upon creating a new Intune tenant.
+   If you've never used Intune before, you need to set the MDM authority before you can enroll devices. For more information, see [Set the mobile device management authority](/intune/fundamentals/mdm-authority-set).  This is a one-time step that has to be done upon creating a new Intune tenant.
 1. Enable Android device administrator enrollment.
   
    Android-based Teams devices are managed as device administrator devices with Intune.  Device administrator enrollment is off by default for newly created tenants. See [Android device administrator enrollment](/intune/enrollment/android-enroll-device-administrator).

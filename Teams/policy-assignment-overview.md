@@ -67,6 +67,9 @@ Before assigning policies to individual users or groups, start by [setting the g
 |[Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group)  |Assign multiple policies to a group of users in your organization who have the same or similar roles. For example, assign a policy package to all users in a security group or distribution list. |The Microsoft Teams admin center (coming soon) or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy package to a batch of users](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|Assign multiple policies to a batch of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to all teachers in your school using batch assignment to give them full access to chats, calling, and meetings. Assign the Education (Secondary school student) policy package to a batch of secondary students to limit certain capabilities such as private calling.|PowerShell cmdlets in the Teams PowerShell module|
 
+> [!NOTE]
+> To unassign policies, you can remove assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](assign-policies-users-and-groups.md#unassign-policies-in-bulk).
+
 ## Set the global policies
 
 Follow these steps to set the global (Org-wide default) policies for each policy type.
@@ -75,9 +78,12 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy page for the policy type you want to update. For example, **Teams** > **Teams policies**, **Meetings** > **Meetings policies**, **Messaging policies**, or **Voice** > **Calling policies**.
 2. Select the **Global (Org-wide default)** policy to view the current settings.
-3. Update the policy as needed, and then select **Apply**.
+3. Update the policy as needed, and then select **Save**.
 
-![Update global policy in Teams admin center.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot that shows the update global policy in Teams admin center." lightbox="media/teams-meetings-policies-global-expanded.png":::
+
+> [!NOTE]
+> After you submit any policy operation, you'll be prompted with a pop-up dialog box to confirm it. This includes policy assignments, changing an existing policy, and creating new custom policies. You must confirm to start the policy operation, or you can cancel and go back later.
 
 ### Using PowerShell
 
@@ -117,7 +123,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the [Activity log](https://admin.teams.microsoft.com/activitylog). The activity log shows network record upload information, group policy operations from Teams admin center and PowerShell, and batch policy operations (for more than 20 users) from the Teams admin center, for the last 30 days.
 
-![Screenshot of the Activity log page.](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="Screenshot of the Activity log page." lightbox="media/Activity_Log.png":::
 
 To view your policy operations in the Activity log:
 
@@ -140,6 +146,10 @@ To view your policy operations in the Activity log:
 
 > [!NOTE]
 > You can also get to the Activity log from the **Users** page. After you select **Apply** to submit a bulk policy assignment, you'll see a banner at the top of the page. Select the **Activity log** link in the banner.
+
+This video shows the steps to view and manage the assigned and effective policies for a user.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
 ## Related topics
 

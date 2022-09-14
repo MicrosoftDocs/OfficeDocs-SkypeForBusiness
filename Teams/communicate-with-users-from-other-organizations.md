@@ -37,6 +37,19 @@ By default, external access is enabled for all domains. You can restrict externa
 
 ![Screenshot of external access settings.](media/external-access-federation-settings.png)
 
+External access is available to the following tenants:
+- Managed enterprise accounts
+     - Between Commercial only
+     - Between GCC only
+     - Between GCC High only
+     - Between DOD only
+- Unmanaged (Personal) accounts
+     - Between Commercial and Personal accounts only
+- Skype for Business interop
+     - Between and across Commercial, GCC, GCC High, and DoD
+- Skype interop
+     - Between Commercial and Skype only
+
 To configure external access, see [Manage external access](manage-external-access.md). 
 
 >[!NOTE]
@@ -46,7 +59,13 @@ To configure external access, see [Manage external access](manage-external-acces
 
 Use guest access to add a person from outside your organization to a team, where they can chat, call, meet, and collaborate on files. A guest can be given nearly all the same Teams capabilities as a native team member. For more information, see [Guest experience in Teams](guest-experience.md).
 
-Guests are added to your organization's Azure Active Directory as B2B users and must sign in to Teams using their guest account. This means that they may have to sign out of their own organization to sign in to your organization.
+Guests are added to your organization's Azure Active Directory as B2B collaboration users and must sign in to Teams using their guest account. This means that they may have to sign out of their own organization to sign in to your organization.
+
+Guest access is available to the following tenants:
+
+- Across and between Commercial and GCC
+- Between GCC High only
+- Between DOD only
 
 To configure guest access for Teams, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 

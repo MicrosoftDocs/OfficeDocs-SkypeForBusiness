@@ -14,7 +14,6 @@ ms.collection:
   - M365-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -155,7 +154,7 @@ You can select a country or region to see what cloud voice features are availabl
 
 ***
 
-After you've verified if one of the Skype for Business or Microsoft Teams services are available, you can see [Skype for Business and Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to help you buy licenses and assign them to your users.
+After you've verified if one of the Teams services is available, you can see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to help you buy licenses and assign them to your users.
 
 > [!NOTE]
 >
@@ -165,12 +164,12 @@ After you've verified if one of the Skype for Business or Microsoft Teams servic
 
 ### Audio Conferencing
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams includes the Audio Conferencing feature for just this situation! People can call in to meetings using a phone instead of using the Skype for Business and Microsoft Teams apps on a mobile device or PC. When you've decided that you want Audio Conferencing for your organization, buy one **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
+Sometimes people in your organization will need to use a phone to call in to a meeting. Teams includes the Audio Conferencing feature for just this situation! People can call in to meetings using a phone instead of using the Teams apps on a mobile device or PC. When you've decided that you want Audio Conferencing for your organization, buy one **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
   
 With Audio Conferencing, there are toll and toll free phone numbers that can be used by your users to dial in to meetings. Toll numbers from the following countries or regions are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll free numbers can be assigned to your organization from additional cities.
 
 > [!IMPORTANT]
-> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. To find out if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. If you are looking for toll free service numbers, select **toll free** from the **State/Region** list.
+> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. To find out if there are dial-in phone numbers available in your area or country/region, go to **Teams admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. If you are looking for toll free service numbers, select **toll free** from the **State/Region** list.
 
 To see more about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-common-questions.md)
 
@@ -184,10 +183,10 @@ In Audio Conferencing, the "*Call Me*" feature is used to let other people join 
 > Dialing out to toll free or free phone numbers may not be possible, because some toll free numbers only function from within a certain country or area within a country. For example, if you dial out from the United States to a toll free number in Brazil, the call may not be successful because the call didn't originate from within Brazil or from a specific region within Brazil. The ability to dial out to toll free numbers varies widely depending on the restrictions of the toll free number dialed. Unfortunately, we can't control this behavior, and as a result, your experience may vary depending on the toll free number dialed and the restrictions of the toll free number.
   
 Dialing out from a meeting to another country/region in the world that isn't listed below is available using [Communication Credits](../what-are-communications-credits.md). For those users, you'll need to [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
-  
+
 ### Phone System
 
-With Phone System, you create auto attendants and call queues (with a toll or toll free number) to answer incoming calls for your organization. When you add a Calling Plan for users, they can use Skype for Business to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users click a name in their address book, and Skype for Business will place a call to that person. To place and receive calls, **Phone System** users use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business.
+With Phone System, you create auto attendants and call queues (with a toll or toll free number) to answer incoming calls for your organization. When you add a Calling Plan for users, they can use Teams to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users click a name in their address book, and Teams will place a call to that person. To place and receive calls, **Phone System** users use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams.
 
 The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. In addition to getting phone numbers for individual users, it's also possible to search and acquire toll or toll free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](../getting-service-phone-numbers.md) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](../getting-phone-numbers-for-your-users.md). You can also see [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
@@ -200,7 +199,12 @@ Use the drop-down list at the top of the page to search for a country or region 
 
 ### Calling Plans
 
-Along with Phone System, a Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are three types of Calling Plans available: **Domestic**, **International** and **Domestic and International**. See [Phone System and Calling Plans](../calling-plan-landing-page.md) for more details.
+|Feature     |Details  |
+|----------|-----------|
+|Calling Plans are available to purchase?  |Yes          |   
+|Minutes available for Calling Plans.    |There are five plan options available per calendar month: <ul><li>Pay-As-You-Go Calling Plan </li><li> 120 minutes Domestic Calling Plan </li><li> 240 minutes Domestic Calling Plan </li><li> 1200 minutes Domestic Calling Plan </li><li> International Calling Plan: 1200 minutes of domestic or 600 minutes of international calling (whichever is reached first in the calendar month)</li></ul>|
+
+Along with Phone System, a Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **International**. See [Phone System and Calling Plans](../calling-plan-landing-page.md) for more details.
 
 You can also see [Phone System and Calling Plans licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
 
@@ -211,7 +215,7 @@ You can also see [Phone System and Calling Plans licensing](../teams-add-on-lice
 
 In addition to getting phone numbers for individual users, it's also possible to search and acquire toll or toll free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants, and call queues. These are called service numbers.
   
-The following is a list of capitals and major cities from where you can get toll service numbers to use with Audio Conferencing and Calling Plans. You get toll service numbers from these locations using the **Skype for Business admin center**.
+The following is a list of capitals and major cities from where you can get toll service numbers to use with Audio Conferencing and Calling Plans. You get toll service numbers from these locations using the **Teams admin center**.
   
 If you want to get a toll or toll free service number, you can see [Getting service phone numbers](../getting-service-phone-numbers.md). If you already have a toll or toll free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -225,4 +229,4 @@ If you don't set up Communications Credits and assign a license to users, and yo
 
 ## Related topics
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
+[Getting service phone numbers for Microsoft Teams](../getting-service-phone-numbers.md)

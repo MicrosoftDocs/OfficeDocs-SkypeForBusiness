@@ -1,5 +1,5 @@
 ---
-title: "Set up Audio Conferencing for small and medium businesses"
+title: Set up Audio Conferencing for small and medium businesses
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,16 +11,15 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn how to set Audio Conferencing in your small or medium business for people who need to use a phone to call in to meetings. "
+description: Learn how to set Audio Conferencing in your small or medium business for people who need to use a phone to call in to meetings. 
 ---
 
 # Set up Audio Conferencing for small and medium businesses
@@ -72,6 +71,9 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 2. Select the circles next to the users you want to assign the license to, and then select **Manage product licenses**.
 3. In the **Manage product licenses** pane, select **Assign more**.
 4. Select the **Microsoft 365 Audio Conferencing** check box, and then select **Save changes**.  
+
+> [!IMPORTANT]
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
 
 ## Schedule Teams meetings in Outlook
 

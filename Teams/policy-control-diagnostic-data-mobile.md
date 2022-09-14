@@ -218,7 +218,7 @@ For more information about diagnostic data, including how to control what diagno
   - Switch Video off.
   - Video button selected while in live meeting or call.
 - **callPark** - Triggered when:
-  - **Park Call** is selected in the **…** menu.
+  - **Park Call** is selected in the **...** menu.
   - **Retrieve** button is selected.
   - **Pickup** is selected in the retrieve dialog.
   - **Cancel** is selected in the retrieve dialog.
@@ -460,7 +460,7 @@ For more information about diagnostic data, including how to control what diagno
 - **dialOutCallAAD** - When any number is selected from **My numbers** in the action sheet
 - **dialOutCallRecent** - When any number is selected from previous recent numbers in the action sheet.
 - **dialOutCancel** - **Cancel** is selected on the **Call me back** pop-up.
-- **dialOutDialog** - **New number** is selected in the action sheet.
+- **dialOutDialog** - **New number** is selected in the action sheet.
 - **dialOutFailRetry** - **Retry** is selected from a failure banner.
 - **DialPad** - The **DialPad** button is selected from the call list.
 - **directShare** - Shared an invite link to a Sms/Email native app.
@@ -596,7 +596,7 @@ For more information about diagnostic data, including how to control what diagno
 - **inAppNotification**- Triggered when a notification is tapped while the user is active in the app.
 - **immediateCallForward** - Immediate call forward target is set, or enabling immediate call forwarding (Calls ring me is disabled).
 - **importanceToggleClicked** - Triggers when the **!** field is toggled inside task item details.
-- **importantMessage_select** - A user selects an important message from the priority context menu.
+- **importantMessage_select** - A user selects an important message from the priority context menu.
 - **importantMessageSend** - A user sends an important message.
 - **inCallDialOut** - A user selects the **Call me back** button from in-call more options.
 - **initiatePhotoShare** - Initiate photo share.
@@ -625,7 +625,7 @@ For more information about diagnostic data, including how to control what diagno
 - **labelSelected** - Confirms that a label has been successfully selected.
 - **labelUnselected** - Confirms that a label has been successfully unselected.
 - **launchLinksGallery** - When a user enters the links gallery from the dashboard.
-- **launchSlideshow** - User Launches Slideshow full screen image viewer from one of three possible app feature locations. 
+- **launchSlideshow** - User Launches Slideshow full screen image viewer from one of three possible app feature locations. 
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
 - **lastSearchableAliasTurnedOff** - The user has disabled all searchable aliases for account.
 - **leaveChat** - Confirm leaving chat.
@@ -687,7 +687,7 @@ For more information about diagnostic data, including how to control what diagno
 - **meetingDetailDeleteMeetingforSelf** - Delete a Meeting from Meeting Detail page for oneself.
 - **meetingDetailJoin** - The **Meeting Join** button is selected from Meeting Detail page.
 - **meetingDetailParticipants** - See all participants from the Meeting Detail page.
-- **meetingDetailScheduledMeeting** - Meeting details page selected from scheduled meeting object (**…**), or select the **Details** tab of a scheduled meeting.
+- **meetingDetailScheduledMeeting** - Meeting details page selected from scheduled meeting object (**...**), or select the **Details** tab of a scheduled meeting.
 - **meetingDetailSearchParticipants** - Selected **Search** in meeting participants on the meeting schedule.
 - **meetingInsightFileClick** - A meeting related file item is clicked.
 - **meetingInsightFileLocatorClick** - A meeting related content locator tip button is clicked.
@@ -722,7 +722,7 @@ For more information about diagnostic data, including how to control what diagno
 - **meetingUserFreemium** - A freemium user joined the meeting.
 - **meetingUserGuest** - A guest user joined the meeting.
 - **meetingUserTenant** - An in-tenant user joined the meeting.
-- **memeGenerated** - When a meme is generated given a user input of image and text data. 
+- **memeGenerated** - When a meme is generated given a user input of image and text data. 
 - **meProfileFetch** - Indicates a successful profile fetch and creation.
 - **messageCopyMessage** - Copy Message.
 - **messageDelete** - Message delete.
@@ -1038,7 +1038,7 @@ For more information about diagnostic data, including how to control what diagno
 - **shareScreen** - Start or stop a screen share.
 - **shareShift** - The information that is given when a shift is shared.
 - **shareShiftsClicked** - The details of an open shift.
-- **shareTray** - **Share…** is selected in the action sheet.
+- **shareTray** - **Share...** is selected in the action sheet.
 - **shiftAssigneeClicked** - The Shifts Calendar view showing the particular shifts details.
 - **shiftDetails** - This allows you to see the details of a shift.
 - **shiftDetailsCalendar** - User goes to shift details.
@@ -1307,7 +1307,7 @@ action.
 - **fetch_me_profile** - The users profile creation status.
 - **getProfilePicture**- Necessary service call to get user profile picture. 
 - **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
-- **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
+- **get_resource_token_sync**: Required service call to acquire tokens for Azure Active Directory resources synchronously.
 - **get_sender_sub_scenario** - Get sender sub scenario in activity.
 - **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication.
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.

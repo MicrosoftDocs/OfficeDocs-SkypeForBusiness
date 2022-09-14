@@ -29,7 +29,7 @@ landingContent:
         links:
           - text: System requirements
             url: ./plan/system-requirements.md
-          - text: Network requirements	
+          - text: Network requirements
             url: ../SfbServer/plan-your-deployment/network-requirements/network-requirements.md
 
   # Card (optional)

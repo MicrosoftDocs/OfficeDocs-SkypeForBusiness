@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -9,15 +9,18 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
-- CSH
-ms.custom:
-- ms.teamsadmincenter.voice.phonenumbers.porting.overview
-- Calling Plans
-description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams. 
+  - CSH
+ms.custom: 
+  - ms.teamsadmincenter.voice.phonenumbers.porting.overview
+  - Calling Plans
+description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams.
+ms.collection: 
+  - M365-voice
+  - m365initiative-voice
 ---
 
 # What's a port order?
@@ -52,7 +55,8 @@ In general, you can transfer any phone number that's from a supported provider, 
 - Toll-free phone numbers.
 
     > [!NOTE]
-    > Universal International Freephone Number (UIFN) can't be transferred to us. 
+    > Universal International Freephone Number (UIFN) can't be transferred to us.
+    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service. 
   
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
 
@@ -60,7 +64,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
 
-- Skype for Business hybrid phone numbers. If you want to transfer these numbers, email us at <ptn@microsoft.com>.
+- If you are porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans) please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), make sure you include a note stating those are hybrid phone numbers.
 
 **You can't transfer:**
   
@@ -131,7 +135,7 @@ To check the status of your port order, in the left navigation of the Microsoft 
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Yes, they can. To do this, see [Manage the usage of a phone number](../manage-the-usage-of-a-phone-number.md).
 
 ## Can I port out my numbers from Teams to a different phone service provider or carrier?
 

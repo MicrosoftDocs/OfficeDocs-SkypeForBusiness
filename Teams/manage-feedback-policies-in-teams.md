@@ -1,7 +1,7 @@
 ---
 title: Manage feedback policies in Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: heprecel
 ms.topic: article
@@ -20,8 +20,6 @@ description: Learn how to use feedback policies to control whether Teams users i
 ---
 
 # Manage feedback policies in Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Users in your organization can send feedback about Microsoft Teams to let us know how we're doing directly from within the Teams desktop, web clients, and mobile. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
@@ -57,7 +55,7 @@ You can edit the global policy or create and assign a custom policy. After you e
 
 Say, for example, you want to allow all users in your organization to send feedback and receive surveys except for new hires in training. In this scenario, you create a custom policy to turn off both features and assign it to new hires. All other users in your organization get the global policy with the features turned on.  
 
-You manage feedback policies by using PowerShell. Use the [**New-CsTeamsFeedbackPolicy** cmdlet](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) to create a custom policy. Use the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group. Use **Set-CsTeamsFeedbackPolicy** to set specific flags.
+You manage feedback policies by using PowerShell. Use the [**New-CsTeamsFeedbackPolicy** cmdlet](/powershell/module/skype/new-csteamsfeedbackpolicy) to create a custom policy. Use the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group. Use **Set-CsTeamsFeedbackPolicy** to set specific flags.
 
 To turn off and turn on the features, set the following parameters:
 
@@ -65,6 +63,7 @@ To turn off and turn on the features, set the following parameters:
 
  - **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
 
+ - **Screenshots**: Use the **AllowScreenshotCollection** flag to add screenshot collection opt-in for users.
  - **Email**: Use the **AllowEmailCollection** flag to add an email field.
  - **Log collection**: Use the **AllowLogCollection** flag to add log collection opt-in for users. Log collection is currently enabled only on mobile. For more details on what data is shared via logs, [learn more](https://go.microsoft.com/fwlink/?linkid=2168178).
 

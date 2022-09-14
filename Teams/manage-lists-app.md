@@ -1,9 +1,9 @@
 ---
 title: Manage the Lists app for your organization
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -21,6 +21,7 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365initiative-lists
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: 

@@ -12,11 +12,10 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
-ms.custom:
+ms.custom: 
   - seo-marvel-mar2020
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
@@ -30,7 +29,7 @@ Audio Conferencing is the ability to join a Teams meeting from a regular phone a
 
 This article helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or any other setup. Dialing in (calling in) to meetings is very useful for users who are on the road and can't attend a meeting using the Skype for Business or Teams app on their laptops or mobile devices. 
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or any other setup. Dialing in (calling in) to meetings is very useful for users who are on the road and can't attend a meeting using the Teams app on their laptops or mobile devices.
 
 ## Audio Conferencing prerequisites
 
@@ -39,7 +38,7 @@ Before you can roll out Audio Conferencing for Teams, consider the following:
 |Ask yourself|Action |
 |------------|-------|
 |Is Audio Conferencing available for my country/region?|To find out if Audio Conferencing is available for your country/region, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 subscription or as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <ul><li>To get and assign licenses, see [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) and [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>To see what cloud features are included in each plan, see the [License options based on your plan](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) articles.</li></ul>|
+|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 subscription or as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <ul><li>To get and assign licenses, see [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>To see what cloud features are included in each plan, see the [License options based on your plan](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) articles.</li></ul>|
 |Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?|To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section below.|
 |||
 
@@ -77,7 +76,7 @@ Teams Audio Conferencing lets you set up default and alternate languages for a c
 
 |Ask yourself|Action |
 |------------|-------|
-| Which languages should I choose for auto attendant greetings? | To choose languages, see [Set auto attendant languages for Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
+| Which languages should I choose for auto attendant greetings? | To choose languages, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).|
 |||
 
 ### Conferencing bridge settings

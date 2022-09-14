@@ -1,26 +1,27 @@
 ---
-title: Approvals application availability in Teams
-author: mkbond007
-ms.author: mabond
+title: Manage the Approvals app in Microsoft Teams
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: farhazk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
   - Microsoft Teams
 search.appverid: MET150
-description: Learn about the Approvals application availability in Microsoft Teams.
+description: Learn how to manage the Approvals app for your organization in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ---
 
-# Teams Approvals app availability
+# Manage the Approvals app in Microsoft Teams
 
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
@@ -60,7 +61,7 @@ The Common Data Model (CDM) is the shared data language used by business and ana
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
-Approvals that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Responses that are submitted on the approval request are stored in Forms. Learn more about  [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Approvals that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Responses that are submitted on the approval request are stored in Forms. Learn more about [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >If you delete the Form template on the Microsoft Forms site, it'll break your Approval template and users are unable to start the request. Users get an error "CDB TableNotFound" when trying to open an Approval template that is deleted on Microsoft Forms.
@@ -121,11 +122,11 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
 ### Use the Tailored frontline app experience to pin Approvals and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that's tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ### Use an app setup policy to pin Approvals to Teams
 
@@ -135,7 +136,7 @@ To pin the Approvals app for your users, you can edit the global (Org-wide defau
 
 ## Retention policy
 
-Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn't support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
@@ -212,7 +213,7 @@ From the Teams Approvals app, users have access to create new Approvals and view
 
 ## Approvals e-signature integration
 
-To use the Approvals app e-signature feature, you need a license for the specific e-signature provider that you want to use. To obtain a license for your organization, you'll need to go to the provider’s site.
+To use the Approvals app e-signature feature, you need a license for the specific e-signature provider that you want to use. To obtain a license for your organization, you'll need to go to the provider's site.
 
 ### Enable or disable e-signature providers
 

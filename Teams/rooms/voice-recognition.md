@@ -1,7 +1,7 @@
 ---
-title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms 
-author: cazawideh
-ms.author: czawideh
+title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
+author: dstrome
+ms.author: dstrome
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -10,10 +10,11 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 appliesto: 
   - Microsoft Teams
 ---
@@ -65,12 +66,12 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
    ![The Intelligent Speaker setup with the speaker connecting directly to the console.](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
 
 ## Enable an Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#allow-transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
 
 The voice profile data of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile data is dismissed at the end of the meeting.
 
@@ -157,4 +158,4 @@ Once an end-user enrolls, their voice can be recognized during meetings and iden
 
 ## Related topics
 
-[Support article: Use Intelligent Speakers to Identify in-room participants ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[Support article: Use Intelligent Speakers to Identify in-room participants](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

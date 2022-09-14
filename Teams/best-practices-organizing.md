@@ -1,8 +1,8 @@
 ---
 title: Best practices for organizing teams
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

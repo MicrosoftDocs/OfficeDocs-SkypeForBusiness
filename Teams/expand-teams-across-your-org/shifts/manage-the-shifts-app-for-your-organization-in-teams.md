@@ -1,26 +1,26 @@
 ---
 title: Manage the Shifts app for your organization
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: aaku
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-searchScope:
+searchScope: 
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
   - Microsoft Cloud for Retail
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
   - microsoftcloud-retail
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -74,7 +74,7 @@ The tailored frontline app experience in Teams pins the most relevant apps in Te
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](../../pin-teams-apps-based-on-license.md).  
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).  
 
 #### Use an app setup policy to pin Shifts to Teams
 
@@ -86,6 +86,17 @@ A [policy package](../../manage-policy-packages.md) in Teams is a collection of 
 
 We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce.
 
+### Enable shift-based tags in Teams
+
+[Tags](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) in Teams let users easily connect with a subset of people on a team. With shift-based tags, people are automatically assigned tags that match their schedule and shift group name in Shifts. The tag can be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team.
+
+Shift-based tags let your users reach people who are on-shift in real time. Notifications are sent only to those people who are on-shift at the time the tag is used in a chat or channel post. For example:
+
+- A store manager uses the @Cashiers tag to post an announcement to a channel for all on-shift cashiers.
+- A nurse uses the @CardiologistsOnCall tag to start a chat with all on-call cardiologists.
+
+You can turn the feature on or off in the Microsoft Teams admin center. To learn more, see [Manage tags in Teams](../../manage-tags.md).
+
 ## Search the audit log for Shifts events
 
 **(In preview)**
@@ -96,8 +107,8 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Related articles
 
-- [Shifts for Teams](../shifts-for-teams-landing-page.md)
+- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
 - [Shifts data FAQ](shifts-data-faq.md)
-- [Shifts connectors](shifts-connectors.md)
+- [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)

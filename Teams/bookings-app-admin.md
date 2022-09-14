@@ -1,8 +1,8 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: article 
 ms.service: msteams 
@@ -19,13 +19,14 @@ ms.collection:
   - microsoftcloud-retail
   - m365solution-healthcare
   - m365solution-scenario
+  - m365-frontline
 ms.reviewer: 
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
 
 # Manage the Bookings app in Microsoft Teams
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-visits).
 
 Schedulers can manage multiple department and staff calendars and communications with internal and external attendees, from a single experience. Virtual appointments are held via Microsoft Teams meetings that offer robust videoconferencing capabilities.
 
@@ -54,6 +55,8 @@ You can also [create a Teams app setup policy to pin the Bookings app for select
 
 To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **Everyone in your organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [how to automatically admit people to meetings](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
+For more information about meeting policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md) and [Meeting policies and meeting expiration in Teams](meeting-expiration.md).
+
 ## Optional staff approvals setting
 
 You can require staff to opt in before Bookings shares their schedule availability information and before others can schedule an appointment with them.
@@ -68,7 +71,7 @@ This feature is gradually being rolled out worldwide to Microsoft 365 and Office
 
 When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, the default domain may cause problems when sending meeting invites to external recipients. For example, your invite may get flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
 
-We recommend that you change the default domain before you create your Bookings mailbox. See the [Domains FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+We recommend that you change the default domain before you create your Bookings mailbox. See the [Domains FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
 If you need to change the default domain after creating your Bookings mailbox, use PowerShell.
 
@@ -93,6 +96,6 @@ To send feedback, select the **Help** option at bottom of the Teams left navigat
 
 ## Related articles
 
-[Manage the join experience for Teams virtual appointments on browsers](expand-teams-across-your-org/browser-join.md)
+[Manage the join experience for Teams virtual appointments on browsers](/microsoft-365/frontline/browser-join)
 
 [Bookings documentation for end users](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

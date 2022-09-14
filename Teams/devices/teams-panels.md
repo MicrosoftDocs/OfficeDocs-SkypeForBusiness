@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Teams panels"
-ms.author: serdars
-author: ManikaDhiman
+title: Microsoft Teams panels
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article provides an overview of and features supported by Microsoft Teams panels."
+description: This article provides an overview of and features supported by Microsoft Teams panels.
 ---
 
 # Microsoft Teams panels
@@ -48,7 +49,7 @@ The hardware, software, and network requirements to deploy panels devices may di
 
 ## License requirement
 
-To use Teams panels, you need [Microsoft Teams Rooms Standard License](../rooms/rooms-licensing.md).
+To use Teams panels, you need a [Microsoft Teams Rooms License](../rooms/rooms-licensing.md).
 
 > [!Note]
 > If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need an additional license to use Teams panels.
@@ -97,12 +98,12 @@ Planning for configuration and deployment covers the following key areas:
 
 Every Teams panels device requires a Microsoft 365 room resource account. You use the resource account credentials to sign in to Microsoft Teams app on the panels device.
 
-To set up a Microsoft 365 resource account for Teams panels, we recommended that you purchase a [Microsoft Teams Rooms Standard license](#license-requirement). 
+To set up a Microsoft 365 resource account for Teams panels, you need to purchase a [Microsoft Teams Rooms license](#license-requirement).
 For information on how to create a resource account and assign a license to it, see [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
->- If you already have a room resource account set up for the meeting space where you're installing panels, use the same room resource account to sign in to the panels device. However, make sure that the room resource account has the Microsoft Teams Rooms Standard license assigned to it in order to use it as panels resource account.
+>- If you already have a room resource account set up for the meeting space where you're installing panels, use the same room resource account to sign in to the panels device. However, make sure that the room resource account has a Microsoft Teams Rooms license assigned to it in order to use it as panels resource account.
 >
 >- If you already have a Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, you don't need to purchase a separate license for deploying panels. The admin signs in to the panels device with the same credentials as the Microsoft Teams Rooms for the same space.
 >
