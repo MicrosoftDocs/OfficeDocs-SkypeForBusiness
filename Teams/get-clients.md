@@ -194,8 +194,8 @@ If you're in China, you can install Teams from the following app stores:
 - **Oppo** Search for "Teams" in the Oppo store
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
 
->[!NOTE]
->When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
+> [!NOTE]
+> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
 
 ## Browser client
 
