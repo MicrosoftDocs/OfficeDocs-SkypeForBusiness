@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
-description: Learn about how Audio Conferencing in Microsoft 365 or Office 365 allows users call in to meetings from their phones.
+description: Learn about how Audio Conferencing in Microsoft 365 or Office 365 allows users to call in to meetings from their phones.
 ---
 
 # Audio Conferencing policy settings for toll and toll-free numbers
