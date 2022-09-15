@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Learn how to view your policy assignment activities in the Activity log in the Microsoft Teams admin center.
+description: Improve accessibility in Microsoft Teams by turning on captions and transcription, giving meeting access to sign language interpreters and CART captioners, reducing distractions, improving participation, and sharing resources.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -22,11 +22,11 @@ ms.collection:
 As the Microsoft Teams administrator for your organization, you can help make your Teams environment as inclusive and accessible as possible for all your users. Follow the guides and resources below to configure Microsoft Teams for optimal accessibility.
 
 > [!NOTE]
-> Many of the accessibility options are turned on by default but you can check that they weren’t turned off by following the guides below.
+> Many of the accessibility options are turned on by default but you can check that they weren’t turned off by following the steps in this guide.
 
 ## Turn on captions and transcription for meetings and calls
 
-Create inclusive meetings and calls for users with disabilities so everyone can participate and contribute. 
+Create inclusive meetings and calls for users with disabilities so everyone can participate and contribute.
 
 ### Turn on live captions for meetings
 
@@ -37,7 +37,7 @@ To turn on live captions for users:
 1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
 
 2. Select the policy you want to modify.
- 
+
 3. Go to the **Participants & guests** section.
 
 4. Switch **Live captions** to **Not enabled but the user can override**.
@@ -66,15 +66,21 @@ To turn on transcription for users:
 
 Captions and transcripts are text versions of the words someone is speaking. They give people the option to see text in addition to, or instead of, audio alone. Captions also benefit people who are deaf or hard of hearing by giving additional information on top of what some users receive from the sign language interpreter or CART captioner they might work with.
 
-Captions and transcription are helpful in a wide variety of situations, but are especially helpful for:
+Captions and transcription are helpful in a wide variety of situations, but can be especially helpful for:
 
 - People who are deaf or hard of hearing
 
 - People with learning disabilities
 
-For more information, see [Web Content Accessibility Guidelines (WCAG) 1.2.4.: Captions (Live)](https://www.w3.org/WAI/WCAG21/Understanding/captions-live).
+- People who are in a noisy or distracted environment and need to review info shared after a meeting has ended
 
-## Give meeting access to sign language interpreters and CART captioners
+For more information, see the following links:
+
+- [Meeting policy settings for recording and transcription](/Microsoftteams/meetings-policies-recording-and-transcription)
+
+- [Web Content Accessibility Guidelines (WCAG) 1.2.4.: Captions (Live)](https://www.w3.org/WAI/WCAG21/Understanding/captions-live)
+
+## Give meeting access to sign language interpreters and CART (Communication Access Real-time Translation) captioners
 
 Give sign language interpreters and CART (communication access real-time translation) captioners access to Microsoft Teams meetings so they can work more effectively together with users who are deaf or hard of hearing.
 
@@ -95,7 +101,7 @@ After guest access has been given, to admit sign language interpreters and CART 
    - Everyone (not recommended)
 
    - People in my organization and guests (recommended)
- 
+
    - People in my organization, trusted organizations, and guests
 
    - People in my organization
@@ -128,7 +134,7 @@ To check if IP video feed is turned on:
 > - [Customize your meeting view](https://support.microsoft.com/office/customize-your-meeting-view-95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
 > - [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
 
-For more information, see [Web Content Accessiblity Guide (WCAG) 1.2.6.: Sign Language Interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded).
+For more information, see [Web Content Accessibility Guide (WCAG) 1.2.6.: Sign Language Interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded).
 
 ## Reduce distractions in meetings
 
@@ -149,8 +155,8 @@ To turn on video filters:
 4. Choose the option under **Select video filters** that best fits your organization's compliance and security requirements. Select one of the following options:
 
    - Background blur only
-   
-   - Backgorund blur and default images
+
+   - Background blur and default images
 
    - All filters
 
@@ -169,7 +175,7 @@ Some people in your organization might find it difficult to focus during video m
 
 *Background blur* helps to improve visibility and focus when in meetings or calls because it reduces distractions in the background but keeps users in focus.
 
-Video filters are helpful in a wide variety of situations, but are especially helpful for:
+Video filters are helpful in a wide variety of situations, but can be especially helpful for:
 
 - People who are neurodiverse
 
@@ -179,9 +185,9 @@ For more information, see [Web Content Accessibility Guideline (WCAG) 1.4.8.: Vi
 
 ## Improve participation in Microsoft Teams meetings
 
-Encourage user participation with more options for controla nd flexibility by turning on **Chat in meetings**, and messaging policies like chat editing, **Immersive Reader**, and emojis.
+Encourage user participation with more options for control and flexibility by turning on **Chat in meetings**, and messaging policies like chat editing, **Immersive Reader**, and emojis.
 
-### Turn on chat in meetings.
+### Turn on chat in meetings
 
 Chat makes it easier for many users to ask questions or add info in Teams meetings.
 
@@ -196,9 +202,9 @@ To check if in-meeting chat is turned on:
 4. Choose the option under **Chat in meetings** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
    - Turn it on for everyone (recommended)
-   
+
    - Turn it off for everyone (not recommended)
-   
+
    - Turn it on for everyone but anonymous users
 
 5. Select **Save**.
@@ -218,9 +224,9 @@ In the **Microsoft Teams admin center**:
 3. Check that the following items are turned **On**:
 
    - **Delete sent messages**
-   
+
    - **Edit sent messages**
-   
+
    - **Chat**
 
    - **Giphys in conversations**
@@ -238,7 +244,7 @@ In the **Microsoft Teams admin center**:
 4. Select **Save**.
 
 > [!TIP]
-> Share the link [everything you need to know to write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2) with your organization to help users understand non-text messages shared in chat.
+> Share the link [how to write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2) with your organization to help users understand non-text messages shared in chat.
 
 ### Why alternate participation options matter
 
@@ -260,7 +266,7 @@ Flexible chat options give people greater flexibility in how they use in-meeting
 
 - Highlight parts of speech
 
-Flexible chat options are helpful in a wide variety of situations, but are especially helpful for:
+Flexible chat options are helpful in a wide variety of situations, but can be especially helpful for:
 
 - People who are blind or have low vision
 
@@ -270,7 +276,7 @@ For more information, see [Web Content Accessibility Guidelines (WCAG) 1.1.1.: T
 
 ## Share resources with users to further accessibility awareness
 
-There are additional steps end-users can take to improve their experience in accessibility. Share the links below with your organization and guest users.
+There are additional steps users can take to improve their experience in accessibility. Share the links below with your organization and guest users.
 
 ### Reference links
 
@@ -286,7 +292,7 @@ Microsoft’s Disability Answer Desk has end-user guides to customize their expe
 
 - [Reduce background noise in Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
 
-- [Everything you need to know to write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2)
+- [Write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2)
 
 - [Accessibility tools for Microsoft Teams](https://support.microsoft.com/office/accessibility-tools-for-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=en-us&rs=en-us&ad=us)
 
