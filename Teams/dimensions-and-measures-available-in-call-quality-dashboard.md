@@ -394,6 +394,14 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Good  | Boolean  | True if the stream has sufficient data to be classified as good or poor and stream is classified as good. False otherwise.   |   |
 | Unclassified  | Boolean  | False if the stream has sufficient data to be classified as good or poor. True otherwise. <br/>**Example value:** 1 |   |
 | OnePercent PacketLoss  | Boolean  | True if packet loss exceeded 1%, False otherwise.  |   |
+| Detected Inbound Network Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the inbound network. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
+| Detected Uplink Problem| Boolean | If true, indicates high confidence that a media stream may have been impacted due to the network uplink. | &bull; This dimension does not apply to P2P calls. |
+| Detected Remote Input Device Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the remote capture device. |
+| Detected Local Input Device Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the render device on the first endpoint. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
+| Detected Echo| Boolean | If true, indicates high confidence that a media stream may have been impacted due to echo.|
+| Detected Remote Compute Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to compute resources on the remote side. |
+| Detected Local Compute Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to local compute resources. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
+| Detected Media Modality Problem | Boolean | If true, indicates high confidence that the user's experience of the inbound media stream was poor. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
 |**Rating**||||
 | First Feedback Rating  | User rating (1-5)  | Rating of the call associated with the stream by the first endpoint on 1-5 scale (5 = excellent). 0 indicates the user was shown the call rating survey but did not rate their experience.  <br/> **Example value:** 5 | &bull; No survey was shown to the first endpoint  |
 | Second Feedback Rating  | User rating (1-5)  | Rating of the call associated with the stream by the second endpoint on 1-5 scale (5 = excellent). 0 indicates the user was shown the call rating survey but did not rate their experience. <br/> **Example value:** 5 | &bull; No survey was shown to the second endpoint   |
