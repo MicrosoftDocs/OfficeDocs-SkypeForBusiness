@@ -32,7 +32,7 @@ This article describes the prerequisites and steps to configure your ServiceNow 
 
 ### ServiceNow prerequisites
 
-- A Basic Authorization sign-in, OR an [OAuth](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) sign-in. For more information, see [Creating Credentials](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) in ServiceNow.
+- A Basic Authorization sign-in, OR an [OAuth](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) sign-in. For more information, see [Creating Credentials](https://developer.servicenow.com/dev.do#!/training/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) in ServiceNow.
 - A ServiceNow instance and its instance host name and API URI
 - A role of incident_manager or higher
 - A software version of ServiceNow that supports Table API
