@@ -22,9 +22,9 @@ ms.custom: seo-marvel-apr2020
 
 Microsoft compliance program checks and audits an app against controls that are derived from leading industry-standard frameworks. The program demonstrates that strong security and compliance practices are in place to protect customer data. The program has the following phases:
 
-* Publisher verification.
-* Publisher attestation.
-* Microsoft 365 certification.
+* [Publisher verification](#publisher-verification).
+* [Publisher attestation](#publisher-attestation).
+* [Microsoft 365 certification](#microsoft-365-certification).
 
 ## Publisher verification
 
