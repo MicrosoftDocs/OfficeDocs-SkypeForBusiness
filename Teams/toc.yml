@@ -940,7 +940,7 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
-            - name: Monitor and troubleshoot Direct Routing
+            - name: Monitor Direct Routing
               items: 
                 - name: Overview
                   href: direct-routing-monitor-and-troubleshoot.md
@@ -1625,7 +1625,7 @@ items:
           href: manage-third-party-teams-apps.md
         - name: Use apps as external or guest users
           href: non-standard-users.md
-        - name: Manage user requests to allow apps
+        - name: Manage user requests
           href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
@@ -1825,7 +1825,9 @@ items:
         - name: Teams PowerShell release notes
           href: teams-powershell-release-notes.md
         - name: Teams PowerShell supported versions
-          href: teams-powershell-supported-versions.md
+          href: teams-powershell-supported-versions.md 
+        - name: Application-based authentication in Teams PowerShell Module
+          href: teams-powershell-application-authentication.md
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams
