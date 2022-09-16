@@ -25,7 +25,7 @@ This article discusses how to use the recovery tool for Microsoft Teams Rooms, w
 Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to Microsoft Teams Rooms.
 
 > [!NOTE]
-> Extracting the files from the MSI can be accomplished by many means. Any mechanism that extracts all the files and preserves their directory structure is acceptable. One such way is to use the command `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` represents the full path to the Microsoft Teams Room installation package, and `PathToTarget` represents the full path to the folder you would like the files extracted to.
+> Extracting the files from the MSI can be accomplished by many means. Any mechanism that extracts all the files and preserves their directory structure is acceptable. One such way is to use the command `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` represents the full path to the Microsoft Teams Rooms installation package, and `PathToTarget` represents the full path to the folder you would like the files extracted to.
 
 ## Running the tool
 
