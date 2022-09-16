@@ -1,7 +1,7 @@
 ---
 title: Manage general meeting policies
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
