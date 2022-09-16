@@ -169,6 +169,7 @@ The following apps are supported for use in shared channels.
 - Activity
 - Adobe Acrobat Sign
 - Asana
+- Calendar Pro
 - Calling
 - Chat
 - Code by Vivani
