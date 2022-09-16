@@ -86,7 +86,7 @@ If you're deploying one device:
 
 4. Enter a username like "MainReception" or "Mainlobby."
 
-5. Set the password for your common area phone manually to prevent. To do this, uncheck **Automatically create a password** and **require this user to change their password when they first sign in**.  
+5. Set the password for your common area phone manually. To do this, uncheck **Automatically create a password** and **require this user to change their password when they first sign in**.  
 
     >[!Important]
     > Setting a password manually for common area phones is highly recommended to prevent sign-in issues for your end users.

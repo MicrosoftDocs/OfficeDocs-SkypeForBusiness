@@ -940,7 +940,7 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
-            - name: Monitor and troubleshoot Direct Routing
+            - name: Monitor Direct Routing
               items: 
                 - name: Overview
                   href: direct-routing-monitor-and-troubleshoot.md
@@ -1579,6 +1579,10 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Customize app branding using app customization
+          href: customize-apps.md
+        - name: Manage access to apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
 
     - name: Manage custom apps
       items:
@@ -1615,15 +1619,13 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
-        - name: Customize appearance and metadata of apps
-          href: customize-apps.md
         - name: Brand your org app store
           href: customize-your-app-store.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: App behavior for external users
+        - name: Use apps as external or guest users
           href: non-standard-users.md
-        - name: Manage user requests to allow apps
+        - name: Manage user requests
           href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
@@ -1823,7 +1825,9 @@ items:
         - name: Teams PowerShell release notes
           href: teams-powershell-release-notes.md
         - name: Teams PowerShell supported versions
-          href: teams-powershell-supported-versions.md
+          href: teams-powershell-supported-versions.md 
+        - name: Application-based authentication in Teams PowerShell Module
+          href: teams-powershell-application-authentication.md
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams
