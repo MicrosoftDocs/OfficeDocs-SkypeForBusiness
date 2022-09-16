@@ -75,7 +75,7 @@ If your organization has an Enterprise Agreement, you can continue using your ex
 
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
 
-## Teams Rooms console and Teams client feature comparison
+## Teams Rooms Basic and Teams Rooms Pro feature comparison
 
 The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses and show what features are available with each. If a feature isn't available for a license, that feature can't be used on Teams Rooms devices that have been assigned that license. To use a feature on a Teams Rooms device, assign the license in which that feature is available to that device.
 
