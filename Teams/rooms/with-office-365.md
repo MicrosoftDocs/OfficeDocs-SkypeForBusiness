@@ -266,7 +266,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 2. Set the password to never expire by using the following syntax:
 
     ```PowerShell
-    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <userPrincipalName> -PasswordNeverExpires $true
     ```
 
     This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
