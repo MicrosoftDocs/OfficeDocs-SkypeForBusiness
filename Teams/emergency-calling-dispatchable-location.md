@@ -1,5 +1,5 @@
 ---
-title: "Emergency addresses for remote locations"
+title: Emergency addresses for remote locations
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,14 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- M365-voice
+  - M365-voice
+  - m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-description: "Learn how Microsoft supports dispatchable location information to support emergency calling."
+f1.keywords: 
+  - NOCSH
+description: Learn how Microsoft supports dispatchable location information to support emergency calling.
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -75,6 +76,20 @@ The following table shows the types of emergency addresses and associated routin
 
 ## Enable end users to configure their emergency address
 
+### Using the Microsoft Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**.
+2. Select **Add**.
+3. Enter a name for the emergency calling policy, for example, "E911WFH".
+4. Turn on **External location lookup mode**.
+5. Select **Apply**.
+
+#### Assign a custom emergency calling policy to users
+
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
+
+### Using PowerShell
+
 To enable this feature for your end users, use the New-CsTeamsEmergencyCallingPolicy PowerShell cmdlet, and set the ExternalLocationLookupMode parameter to Enabled. See the following example: 
 
 
@@ -86,9 +101,9 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it is set. 
+After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it is set. For more information on how end users can set location services, see [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-On Windows, you can manage the Windows location service, and whether applications have access to the location, by using group policy or by using [mobile device management (MDM)](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
+On Windows, you can manage the Windows location service, and whether applications have access to the location, by using group policy or by using [mobile device management (MDM)](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
 
 For more information about Windows location service, see [Windows location service and privacy](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
@@ -109,5 +124,7 @@ Keep the following in mind:
 
 ## Related topics
 
-[Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 

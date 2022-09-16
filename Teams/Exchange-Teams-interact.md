@@ -40,12 +40,12 @@ The following table provides a helpful quick reference to feature availability b
 
 **Actions supported:**
 
-| User's mailbox is hosted in:                                       | eDiscovery         | Legal&nbsp;Hold    | Retention        | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail        | Add and configure connectors | Add and configure tabs | Add and configure bots |
-|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    |
-| **Exchange Online Dedicated vNext**                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    |
-| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    |
-| **Exchange On-premises** (Sync to Azure AD)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    |
+| User's mailbox is hosted in:                                       | eDiscovery         | Legal&nbsp;Hold    | Retention        | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail        | Add and configure connectors | Add and configure tabs | Add and configure bots | Modify Out of Office settings |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
+| **Exchange Online Dedicated vNext**                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
+| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | Yes                    
+| **Exchange On-premises** (Sync to Azure AD)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | No                      
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -55,7 +55,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
-<sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, even if their mailboxes are homed on-premises.
+<sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, irrespective of whether their mailbox is homed on-premises or online.
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
@@ -66,7 +66,8 @@ The following table provides a helpful quick reference to feature availability b
 <sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required. For more information, see [Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
 <sup>10</sup> On-premises users can use Teams to update their profile picture even if the `SetPhotoEnabled` Outlook on the Web mailbox policy is set to `false`.
-
+ > [!NOTE]
+ > Setting Out of Office (OOF) via the Teams client is currently not supported for users whose mailboxes are hosted on-premises; these users should perform this action via the Outlook client.
 ## Requirements to get the most out of Microsoft Teams
 
 Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with rich experience. To support this experience, you need to enable certain features or services and assign licenses.
@@ -80,9 +81,12 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 - Users must be enabled for Microsoft 365 group creation to create teams in Microsoft Teams.
 
   > [!IMPORTANT]
-  > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
+  > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select the ellipses button at the left of your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
 
 ## Requirements to create and view meetings for mailboxes hosted on-premises
+
+  > [!NOTE]
+  > Create and view meetings for mailboxes hosted on-premises is currently only supported within commerical, GCC, and GCC High environments.
 
 If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be met:
 
@@ -92,7 +96,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
-- Autodiscover and Exchange Web Services is published externally.
+- Autodiscover and Exchange Web Services are published externally. For information about which Microsoft 365 services need access to on-premises Autodiscover and Exchange Web Services endpoints, see [Other endpoints not included in the Office 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
@@ -122,7 +126,7 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Private meeting scheduling](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft Purview compliance portal](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](/exchange/hybrid-deployment/deploy-hybrid).
 

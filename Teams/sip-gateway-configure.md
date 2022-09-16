@@ -31,13 +31,13 @@ Before you can configure SIP Gateway, do the following:
 
 - **Reset SIP devices to factory default settings.** You or your organization's users must reset each SIP device used with SIP Gateway to its factory default settings. To find out how to do that, see the manufacturer’s instructions.
 
-- **Open your firewall to Microsoft 365 and Teams.** Open your network's firewall to Microsoft 365 and Teams traffic as described in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+- **Open your firewall to Microsoft 365 and Teams.** Open your network's firewall to Microsoft 365 and Teams traffic as described in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). Firewall rules are needed for outbound traffic only.
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
-- **Open the UDP port.** Open UDP port in the range 49152 to 53247 for IP ranges 52.112.0.0/14 to 52.120.0.0/14.
+- **Open the UDP port.** Open UDP port in the range 49152 to 53247 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
 
-- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 to 52.120.0.0/14.
+- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
 
 - **Open the following https endpoints (IP addresses and URLs):**
 
@@ -55,7 +55,6 @@ Before you can configure SIP Gateway, do the following:
   - https://httpblobsdgnoam.blob.core.windows.net
 
 
-
 The following sections describe what you must do as an administrator to configure SIP Gateway.
 
 - [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-organization).
@@ -68,14 +67,13 @@ This article also describes how to:
 
 - [Enroll SIP devices either individually or in batches for your convenience](#provision-and-enroll-sip-devices-as-common-area-phones).  
 
-
 - [View and monitor your SIP devices.](#view-and-monitor-sip-devices)
 
 - [Enable support for a multi-language user interface.](#set-a-sip-devices-ui-language)
 
 ## Verify that SIP Gateway is available for your organization
 
-1. Sign in to the [Teams admin center](https://admin-teams.microsoft.com/).
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
 
 2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your organization.
 
@@ -101,7 +99,6 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 ### By using PowerShell
 
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
-
 
 > [!NOTE]
 > - Policy propagation may take up to 24 hours.
@@ -156,8 +153,8 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
 
 For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-
 ## Provision and enroll SIP devices as common area phones
+
 > [!NOTE]
 > A SIP device must be onboarded to SIP Gateway before it can be enrolled.
 
@@ -247,7 +244,6 @@ To sign out a device on the Teams admin center:
 
 4. On the device's **Details pane**, select the **Details** tab, and at the upper right on the **Actions** menu, select **Sign out**. 
 
-
 ## View and monitor SIP devices
 
 You can view and monitor your SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
@@ -263,6 +259,11 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 2. Select **Teams devices** > **SIP devices**. 
 
 3. On the right, select the SIP device that you want to restart, and then select **Restart**.
+
+
+> [!NOTE]
+> - Removing a SIP device from your tenant is currently unavailable in the Teams admin center. 
+> - Command execution depends on device availability, and it may not match the execution status shown in the Teams admin center. If you try to enable SIP gateway on a device that doesn't support it, the command won't be executed.
 
 ## Sync policy changes to SIP devices to enforce policies
 
@@ -306,7 +307,7 @@ SIP Gateway only supports IPv4. Microsoft Teams service and client support both 
 
 ## Emergency calling
 
-SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP devices that share network attributes over the wire. These attributes are provisioned in the Teams admin center and can be a combination of local IP and subnet length, or chassis ID and network port number. For devices that do not share location attributes, or if the location is not resolved dynamically for any reason, SIP Gateway will continue to support emergency calling based on registered addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## Report problems to Microsoft
 

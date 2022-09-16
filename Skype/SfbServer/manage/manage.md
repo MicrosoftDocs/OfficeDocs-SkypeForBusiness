@@ -1,8 +1,8 @@
 ---
 title: "Manage Skype for Business Server"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -52,5 +52,5 @@ The following resources about how to plan for Skype for Business Server are avai
 |:-----|:-----|:-----|
 |![Icon for Docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](../../Hub/index.yml)  |Visit the  resource center to access videos, community sites, documentation, downloads, and more. |
 |![Icon for developer content.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server for developers   |Find developer resources for Skype for Business Server, including code samples, training, and SDKs. |
-|![Icon for news, blogs, and so on.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change management and adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Keep up with news from the teams that create and document Skype for Business Server.  |
+|![Icon for news, blogs, and so on.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change management and adoption](https://adoption.microsoft.com/virtual-hub/adoption-governance/adoption-change-management/) <br/> [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Keep up with news from the teams that create and document Skype for Business Server.  |
 

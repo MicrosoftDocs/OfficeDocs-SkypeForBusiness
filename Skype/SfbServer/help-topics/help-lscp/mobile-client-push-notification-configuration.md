@@ -1,8 +1,8 @@
 ---
 title: "Mobile Client Push Notification Configuration"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -32,7 +32,7 @@ Two selections are available for policy creation and editing:
     
 2. **Edit**: Select a policy and click Edit to select an action from a drop-down. You can only edit sites that you have already created or edit the Global policy:
     
-   - **Show details…**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
+   - **Show details...**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
     
    - **Select all**: If you have a number of policies and need to select all policies, click Select all
     

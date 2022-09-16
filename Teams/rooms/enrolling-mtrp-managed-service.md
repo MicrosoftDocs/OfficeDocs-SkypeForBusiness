@@ -1,16 +1,16 @@
 ---
 title: Enroll a Teams Rooms device in the Microsoft Teams Rooms Premium managed service
-author: v-smandalika
-ms.author: v-smandalika
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer:  
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -21,7 +21,7 @@ f1keywords:
 
 # Enroll a device in the Microsoft Teams Rooms Premium managed service
 
-To enroll a Microsoft Teams Rooms device in the Teams Rooms Premium managed service, you need to assign one more users to the Managed Service Administrator and then complete the enrollment steps using that user.
+To enroll a Microsoft Teams Rooms device in the Teams Rooms Premium managed service, you need to assign one or more users to the Managed Service Administrator and then complete the enrollment steps using that user.
 
 ## Assign users to the Managed Service Administrator role
 
@@ -35,13 +35,13 @@ Complete the following steps to assign users to the Managed Service Administrato
 
 Users who are assigned the Managed Service Administrator role are responsible for the day-to-day management and monitoring of the Teams Rooms Premium managed service portal.
 
-After you've assigned users to the Managed Service Administrator role, continue to the [Enroll a device](#enroll-a-teams-rooms-device) section to add a Teams Rooms device to the managed service portal.
+After you've assigned users to the Managed Service Administrator role, continue to the [Enroll a Teams Rooms device](enroll-a-device.md) to add a Teams Rooms device to the managed service portal.
 
-## Enroll a Teams Rooms device
+<!-- ## Enroll a Teams Rooms device
 
  To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitor-software-installation-guide.md).
 
-<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
+2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 
     1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
     2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.

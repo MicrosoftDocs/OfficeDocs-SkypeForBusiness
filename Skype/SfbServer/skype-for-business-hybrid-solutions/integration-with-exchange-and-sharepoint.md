@@ -1,8 +1,8 @@
 ---
 title: "Integration with Exchange and SharePoint"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -69,7 +69,7 @@ The following tables list the features supported in a hybrid deployment when int
 |Publish status based on Outlook calendar free/busy information  <br/> ||
 |Contact List (via Unified Contact Store).  <br/> |Lync Server 2013 only. A Lync 2013 or Skype for Business desktop client is required.  <br/> For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> For photos on the Skype for Business app for MAC and Mobile, integration between Skype for Business Server 2015 and Exchange Server must be set up as described in [Configure integration between on-premises Skype for Business Server and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](/SkypeForBusiness/hybrid/plan-hybrid-connectivity). <br/> |
 |Missed Conversations history and Call Logs are written to user's Exchange mailbox  <br/> ||
 |Archiving Content (IM and Meeting) in Exchange  <br/> |For more information, see [Deployment Checklist for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving).  <br/> |
 |Search archived content  <br/> |For more information, see at [Configure Exchange for SharePoint eDiscovery Center](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |

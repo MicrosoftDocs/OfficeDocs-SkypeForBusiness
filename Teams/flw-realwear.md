@@ -10,12 +10,12 @@ ms.reviewer:
 description: IT admin walkthrough of the Microsoft Teams for RealWear client.
 ms.localizationpriority: high
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - remotework
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ---
@@ -30,7 +30,7 @@ This article covers the Microsoft Teams client for RealWear head-mounted wearabl
 
 ## Required Licenses
 
-Microsoft Teams licenses are part of Microsoft 365 and Office 365 subscriptions. No additional licensing is required to use Teams for RealWear. For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
+Microsoft Teams licenses are part of Microsoft 365 and Office 365 subscriptions. No additional licensing is required to use Teams for RealWear. For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
 
 ## Managing RealWear devices
 

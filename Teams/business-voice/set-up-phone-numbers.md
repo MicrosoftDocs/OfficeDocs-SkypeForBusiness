@@ -1,25 +1,24 @@
 ---
-title: Set up Microsoft 365 Teams Phone with Calling Plan with phone numbers
-author: dstrome 
+title: Set up Microsoft Teams Phone System with Calling Plan phone numbers
+author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: Learn how to set up Microsoft 365 Teams Phone with Calling Plan phone numbers for users and services in your organization.
+description: Learn how to set up Microsoft Teams Phone System with Calling Plan phone numbers for users and services in your organization.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
+  - M365initiative-voice
 ---
 
-# Step 2: Set up Teams Phone phone numbers
+# Step 2: Set up Teams Phone System phone numbers
 
 Before you can set up users or auto attendants in your organization, you need to get phone numbers for them. There are several different types of phone numbers, however the following are the two types of numbers that you need to add in this step:
 
@@ -48,7 +47,7 @@ The service number you set up now will be used in a later step for your company'
 
     3. Under **Quantity**, select **1**.
         > [!NOTE]
-        > If you get the message **You don't have enough licenses to request more numbers of this type**, make sure you've purchased Teams Phone with Calling Plan licenses. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md).
+        > If you get the message **You don't have enough licenses to request more numbers of this type**, make sure you've purchased Teams Phone with Calling Plan bundle licenses. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md).
     4. Choose either **Location** or **Area code**, depending on whether you want to search for phone numbers using a location's city, or if you want to search for numbers in a specific area code.
     5. If you select **Location**:
 

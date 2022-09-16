@@ -1,9 +1,9 @@
 ---
 title: Manage the Lists app for your organization
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to manage the Lists app in Teams for users in your organization.
 f1.keywords:
   - NOCSH
@@ -18,7 +19,9 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
   - m365initiative-lists
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: 
@@ -30,7 +33,7 @@ ms.custom:
 
 The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
 
-In Teams, users access Lists as a tab in a channel. Click **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
+In Teams, users access Lists as a tab in a channel. Select **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
 
 ![Lists app in tab gallery.](media/lists-tab.png)
 
@@ -53,7 +56,7 @@ A local post office is responsible for sorting and delivering mail in their dist
 
 After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along a route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. Everyone on the team, including mail carriers in the field, can see this information and stay informed.
 
-Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field as they happen, share incident details with team members, have conversations about them on the channel, and drive incidents to resolution.
+Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident, which was then entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field as they happen, share incident details with team members, have conversations about them on the channel, and drive incidents to resolution.
 
 ## What you need to know about Lists
 
@@ -67,7 +70,7 @@ Lists data is stored in the SharePoint Online team site. To learn more about how
 
 Permissions set in SharePoint apply to lists created in the Lists app. By default, lists inherit permissions from the site to which they belong. These permissions govern the types of actions that users can do, such as whether they can create or edit lists. To learn more, see [Permission levels in SharePoint](/sharepoint/understanding-permission-levels) and [User permissions and permission levels in SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
-In certain scenarios, you may want restrict what actions users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
+In certain scenarios, you may want to restrict what actions users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
 > [!NOTE]
 > At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration of the product.  
@@ -88,11 +91,11 @@ If users in your organization created lists using the SharePoint app, those list
 
 Lists is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
+1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Do one of the following:
 
-    - To turn off Lists for your organization, search for the Lists app, select it, and then click **Block**.
-    - To turn on Lists for your organization, search for the Lists app, select it, and then click **Allow**.
+    - To turn off Lists for your organization, search for the Lists app, select it, and then select **Block**.
+    - To turn on Lists for your organization, search for the Lists app, select it, and then select **Allow**.
 
 ### Enable or disable Lists for specific users in your organization
 
@@ -100,7 +103,7 @@ To allow or block specific users in your organization from using Lists, make sur
 
 ## Search the audit log for list events
 
-Lists are enabled with enterprise-level auditing so you can search for lists and list item events in the audit log in the Security & Compliance Center. To learn more, see [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Lists are enabled with enterprise level auditing so you can search for lists and list item events in the audit log in the Security & Compliance Center. To learn more, see [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
@@ -112,8 +115,8 @@ Lists supports [Power Automate](/power-automate/flow-types) for workflows and [P
 
 ## Give feedback or report an issue
   
-To send us feedback or report an issue, click **Help** near the bottom of the left navigation in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
 
-## Related topics
+## Related articles
 
 - [Lists help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

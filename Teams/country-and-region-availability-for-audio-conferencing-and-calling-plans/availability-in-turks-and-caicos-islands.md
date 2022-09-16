@@ -1,7 +1,7 @@
 ---
 title: "Availability in Turks and Caicos Islands"
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference

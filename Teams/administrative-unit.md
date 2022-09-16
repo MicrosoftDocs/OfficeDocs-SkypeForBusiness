@@ -1,7 +1,7 @@
 ---
 title: Manage devices with administrative units
-author: mahoffman
-ms.author: v-mahoffman
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: prasad.ghlove
 manager: serdars
 ms.topic: article
@@ -10,10 +10,11 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to use administrative units in Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Devices
 appliesto: 
   - Microsoft Teams
 ---
@@ -62,3 +63,7 @@ If you're a Teams devices admin, you can switch between administrative units if 
     - Select **All devices** if you have permission to manage all devices for your organization.
 
 5. Select **Save**.
+
+## Related topics
+
+- [Add users or groups to an administrative unit](/azure/active-directory/roles/admin-units-members-add)

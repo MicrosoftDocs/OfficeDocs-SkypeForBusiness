@@ -1,5 +1,5 @@
 ---
-title: "Prepare your Environment"
+title: Prepare your Environment
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -7,12 +7,13 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
 ms.custom: seo-marvel-apr2020
 ---
@@ -27,8 +28,8 @@ This section contains an overview of the steps required to prepare your environm
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
-   - Telemetry client endpoint: https://vortex.data.microsoft.com/
-   - Telemetry settings endpoint: https://settings.data.microsoft.com/
+   - Telemetry client endpoint: `https://vortex.data.microsoft.com/`
+   - Telemetry settings endpoint:` https://settings.data.microsoft.com/`
     
 ### Create and test a resource account
 
@@ -61,7 +62,10 @@ If your network runs through a proxy, you'll need the proxy address or script in
 
 Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Microsoft Teams or Skype for Business, network usage, and authentication. If the related servers use public certificates, which is the case for online and some on-premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA then the device needs to trust that CA. This means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
   
-You will install certificates the same way you would for any other Windows client. 
+You will install certificates the same way you would for any other Windows client.
+
+> [!IMPORTANT]
+> If your proxy server utilizes internally signed certificates, you must install the internal certificate chain, including the root CA, on the Microsoft Teams Rooms device.
   
 > [!NOTE]
 > Certificates may be required in order to have Microsoft Teams Rooms use Skype for Business Server.
@@ -136,7 +140,7 @@ You can read more about the Admin account in the [Microsoft Teams Rooms Security
 
 Much like any Windows device, the machine name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
   
-If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), a PowerShell command, followed by the computer's new name.
+If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), a PowerShell command, followed by the computer's new name.
   
 ## Related topics
 

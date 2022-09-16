@@ -31,26 +31,27 @@ This article provides an overview of how to deploy and configure Teams phones as
 
 ## Overview
 
-The Common Area Phone license supports: 
+The Common Area Phone license supports:
 
+|                                           | Common Area Phone                                 |
+|-------------------------------------------|---------------------------------------------------|
+| **Microsoft Teams**                       | &#x2714;                                          |
+| **Teams Phone**  &sup1;                   | &#x2714;                                          |
+| **Audio Conferencing**                    | &#x2718; &sup2;                                   |
+| **Microsoft Intune**                      | &#x2714;                                          |
+| **Azure Active Directory Premium Plan 1** | &#x2714;                                          |
+| **Exchange Online Plan 2**                | &#x2714;  &sup3;                                  |
+| **Worldwide Availability**                | &#x2714;                                          |
+| **Channel Availability**                  | EA, EAS, EES, CSP, Web Direct, GCC, GCC-High, DoD |
 
-| &nbsp;  |  Common Area Phone  |
-|---------|---------|
-|Skype for Business |   &#x2714; |
-|Microsoft Teams |   &#x2714; |
-|Phone System |    &#x2714; |
-|Audio Conferencing |       &#x2718; &sup1;  |
-|Microsoft Intune |    &#x2718; |
-|Worldwide Availability |       &#x2718; &sup2;  |
-|Channel Availability |    EA, EAS, CSP, GCC, EES, Web Direct  |
-|      |         |
+&sup1; Previously known as Phone System.
 
-&sup1; Common Area Phones can join audio conferences via dial-in number provided by the meeting organizer
+&sup2; Common Area Phones can join audio conferences via a dial-in number provided by the meeting organizer.  
 
-&sup2; Not available in sovereign clouds  
+&sup3; Cloud-based voicemail capabilities only.
 
 >[!NOTE]
-> Accounts for common area phones from the Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
+> Accounts for common area phones objects created in Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
 
 ## Step 1 - Buy the licenses
 
@@ -85,7 +86,7 @@ If you're deploying one device:
 
 4. Enter a username like "MainReception" or "Mainlobby."
 
-5. Set the password for your common area phone manually to prevent. To do this, uncheck **Automatically create a password** and **require this user to change their password when they first sign in**.  
+5. Set the password for your common area phone manually. To do this, uncheck **Automatically create a password** and **require this user to change their password when they first sign in**.  
 
     >[!Important]
     > Setting a password manually for common area phones is highly recommended to prevent sign-in issues for your end users.
@@ -99,7 +100,7 @@ If you're deploying one device:
 
 ### Using PowerShell
 
-Use PowerShell when you want to create and assign licenses for more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) for more information.
+Use PowerShell when you want to create and assign licenses for more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) for more information.
 
 ## Step 3 - Set policies for common area phones
 
@@ -112,7 +113,7 @@ Use policies to control what features are available to users on common area phon
 
 Phones signed in with accounts that have been assigned a Common Area Phone license will display the common area user experience.
 
-If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See 
+If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps&preserve-view=true). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See 
 [Set Teams Android devices user interface](devices/Teams-Android-devices-user-interface.md) to learn more.
 
 ### Calling policies
@@ -142,6 +143,9 @@ To sign in locally with a username and password:
 2. Select **Sign in on this device**
 
 3. Follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
+
+> [!NOTE]
+> If you are using a custom setup policy that unpins the calling app, the dial pad doesn't appear on the Common Area Phone. For more information about Teams setup policies, see [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 
 ### Sign in from another device
 

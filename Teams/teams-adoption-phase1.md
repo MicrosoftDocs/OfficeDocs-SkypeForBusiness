@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 1 - Start
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin

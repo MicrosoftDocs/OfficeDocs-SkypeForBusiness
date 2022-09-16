@@ -1,10 +1,10 @@
 ---
 title: "Integration between Skype for Business Online and Exchange server"
 ms.reviewer: cbland
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
-ms.date: 4/2/2019
+ms.date: 02/17/2022
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
@@ -82,9 +82,8 @@ Save the following text to a PowerShell script file named, for example, ExportAu
 
 ```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
-if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
-{
-md $env:SYSTEMDRIVE\OAuthConfig
+if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false) {
+    md $env:SYSTEMDRIVE\OAuthConfig
 }
 cd $env:SYSTEMDRIVE\OAuthConfig
 $oAuthCert = (dir Cert:\LocalMachine\My) | where {$_.Thumbprint -match $thumbprint}
@@ -105,16 +104,16 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
 
    ```powershell
-   Connect-MsolService;
-   Import-Module msonlineextended;
+   Connect-MsolService
+   Import-Module MSOnline
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
-   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject
    $CertFile = $objFSO.GetAbsolutePathName($CertFile);
    $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
-   $cer.Import($CertFile);
+   $cer.Import($CertFile)
    $binCert = $cer.GetRawCertData();
-   $credValue = [System.Convert]::ToBase64String($binCert);
-   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
+   $credValue = [System.Convert]::ToBase64String($binCert)
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000"
    $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
@@ -125,9 +124,10 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
 ### Step 6: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
 1. In the PowerShell opened and authenticated to Azure Active Directory, run the following
-```powershell
-Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
-```
+
+   ```powershell
+   Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+   ```
 2. Press Enter when prompted for ReturnKeyValues
 3. Confirm you see a key listed with start date and end data that matches your Exchange Oauth certificate start and end dates
 

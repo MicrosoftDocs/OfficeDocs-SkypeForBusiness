@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Monitoring and Alerting 
-author: vaibhav
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -28,6 +28,9 @@ Your organization can use Teams monitoring and alerting to do the following item
 - Be alerted if they show something unexpected.
 - Take corrective actions to get things back on-track.
 
+> [!NOTE]
+> The alert functionality within the Teams admin center is not available in GCC/GCC-High environments.
+
 ## How to manage monitoring and alerting
 
  You must be a global admin in Microsoft 365 or a Teams service admin to configure alerting rules. See [Use Teams administrator roles to manage Teams](../using-admin-roles.md) to learn more about Teams admin roles and which reports each admin role can access.
@@ -43,4 +46,5 @@ We continue adding to and improving the Teams monitoring experience by adding va
 
 |Rule  |Monitoring capability|What's monitored? |
 |---------|---------|---------|
-|[Device health status](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.|
+|App submissions  |Teams Apps | Pro-actively monitor Teams apps if they are submitted for approval.|
+|[Device state rule](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.|

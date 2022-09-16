@@ -1,7 +1,7 @@
 ---
 title: Live events recording policies
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams

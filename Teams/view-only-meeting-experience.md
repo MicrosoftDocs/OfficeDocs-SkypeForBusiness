@@ -1,7 +1,7 @@
 ---
 title: View-only meeting experience
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mabond
+author: mkbond007
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -114,6 +114,7 @@ The view-only attendee won't be able to experience the following options in meet
 - Raise their hand in the meeting.
 - Send or see reactions.
 - Interact with any 3P App integrating into the Teams Meeting, including Polls.
+- Access to meeting recording.
 
 ## View-only feature limitations
 

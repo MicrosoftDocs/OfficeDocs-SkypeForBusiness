@@ -53,12 +53,12 @@ Follow these steps to upgrade all of your users to Teams at one time.
 
 ### Step 1: Notify the users of the change (optional)
 
-1. In the Microsoft Teams admin center, select **Org-wide settings** > **Teams upgrade**.
+1. In the Microsoft Teams admin center, select **Teams** > **Teams upgrade settings**.
 2. Under **Coexistence mode**, change the **Notify Skype for Business users that an upgrade to Teams is available** switch to **On**.
 
 ### Step 2: Set the coexistence mode to TeamsOnly for the organization
 
-1. In the Microsoft Teams admin center, select **Org-wide settings**.
+1. In the Microsoft Teams admin center, select **Teams** > **Teams upgrade settings**.
 2. Select **Teams Only** mode from the **Coexistence mode** drop-down list.
 
 ## Upgrade users in stages
@@ -76,7 +76,7 @@ If using the Microsoft Teams admin center, you can configure TeamsUpgradePolicy 
 2. Select **Edit settings** in the upper left corner of the listview. 
 3. In the **Edit settings** pane on the right, under **Teams upgrade**, change **Notify the Skype for Business user** switch to **On**. Note: If the value of coexistence mode is "Use Org-wide settings", you won't see this switch, so you'll need to first explicitly set the Coexistence mode for these users to whatever the default value is for the org.
 
-Alternatively, you may find it easier to enable notifications for groups of users at once using PowerShell. 
+Alternatively, you may find it easier to enable notifications for groups of users at once using PowerShell. For more information, see [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
 
 ### Step 3: Set the coexistence mode for users to Teams Only
 
@@ -87,7 +87,7 @@ If using the Microsoft Teams admin center, you can configure TeamsUpgradePolicy 
 2. Select **Edit settings** in the upper left corner of the listview.
 3. In the **Edit settings** pane on the right, under **Teams upgrade** section, set the coexistence mode to **Teams Only** in the drop-down list.
 
-Alternatively, you may find it easier to upgrade groups of users at once using PowerShell. 
+Alternatively, you may find it easier to upgrade groups of users at once using PowerShell. For more information, see [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
 
 ### Step 4: Repeat steps 1-3 for successive waves of users
 

@@ -9,11 +9,10 @@ ms.service: msteams
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
-  - m365initiative-externalcollab
 search.appverid: MET150
 ms.reviewer: rafarhi
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 appliesto: 

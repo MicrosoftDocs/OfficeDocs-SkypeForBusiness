@@ -9,12 +9,11 @@ ms.reviewer:
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: "Upgrade users from a Teams Exploratory trial to a paid license."
-f1.keywords:
-- NOCSH
+description: Upgrade users from a Teams Exploratory trial to a paid license.
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
   - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
@@ -40,6 +39,9 @@ To check when your organization’s Teams Exploratory trial is expiring and how 
 > Users will lose access to Teams 30 days after the trial's expiration date. As long as users are assigned a paid license within 60 days of the expiration date, they can regain access to Teams and all content still exists. However, after 60 days, the users’ data is deleted. After a new license is assigned to the users to enable Teams functionality, if they are added within the grace period time frame, all content remains. For more information, see <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">What happens to my data and access when my subscription ends?</a>
 
 ## Step 2: Choose an upgrade path
+
+> [!TIP]
+> We recommend Teams Essentials as the primary option for customers looking to upgrade their expiring Teams Exploratory trials. For more information, see [Compare Microsoft Teams Essentials to other plans](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
 Depending on the subscriptions your organization currently has, there are three ways to upgrade from a Microsoft Teams Exploratory trial to a paid license:
 

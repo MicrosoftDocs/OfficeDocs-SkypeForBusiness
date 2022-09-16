@@ -24,7 +24,7 @@ ms.custom:
 
 # Manage emergency calling policies in Microsoft Teams
 
-If your organization uses Microsoft Calling Plans, Operator Connect, or Direct Routing as your [PSTN connectivity option](pstn-connectivity.md), you can use emergency calling policies in Microsoft Teams to define what happens when a Teams user in your organization makes an emergency call.
+If your organization uses Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), or Direct Routing as your [PSTN connectivity option](pstn-connectivity.md), you can use emergency calling policies in Microsoft Teams to define what happens when a Teams user in your organization makes an emergency call.
 
 You can set who to notify and how they are notified when a user who is assigned the policy calls emergency services. For example, you can configure policy settings to automatically notify your organization's security desk and have them listen in emergency calls.  
 
@@ -39,15 +39,26 @@ If you assigned an emergency calling policy to a network site and to a user and 
 ### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**, and then click the **Calling policies** tab.
+
 2. Click **Add**.
+
 3. Enter a name and description for the policy.
-4. Set how you want to notify people in your organization, typically the security desk, when an emergency call is made. To do this, under **Notification mode**, select one of the following:
+
+4. Set the **External location lookup mode** to on to allow your end users to configure their emergency address when they are working from a network location outside the corporate network.
+
+5. Set how you want to notify people in your organization, typically the security desk, when an emergency call is made. To do this, under **Notification mode**, select one of the following:
+
     - **Send notification only**: A Teams chat message is sent to the users and groups that you specify.
     - **Conferenced in muted and unable to unmute**: A Teams chat message is sent to the users and groups that you specify and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
     - **Conferenced in muted but are able to unmute**: A Teams chat message is sent to the users and groups that you specify and they can unmute to listen and participate in the conversation between the caller and the PSAP operator.
-5.  If you selected either of the **Conference in muted** notification modes, in the **Numbers to dial for emergency calls notifications** box, you can enter a PSTN phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in on the call. The PSTN phone cannot be unmuted even when the mode is set to **Conferenced in muted but are able to unmute**.
-6. Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made.  The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.
-7. Click **Apply**.
+
+6.  Set the **Emergency service disclaimer** to show a banner to remind your end users to confirm their emergency location.
+
+7.  If you selected either of the **Conference in muted** notification modes, in the **Numbers to dial for emergency calls notifications** box, you can enter a PSTN phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in on the call. The PSTN phone cannot be unmuted even when the mode is set to **Conferenced in muted but are able to unmute**.
+
+8. Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made.  The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.
+
+9. Click **Apply**.
 
 ### Using PowerShell
 
@@ -75,6 +86,15 @@ See also [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-cs
 
 ## Assign a custom emergency calling policy to a network site
 
+### Using the Microsoft Teams admin center
+
+You can assign the global policy or any custom policies that you create.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and click the **Network sites** tab.
+2. Select the site by clicking to the left of the name, and then click **Edit**.
+3. Under **Emergency calling policy**, select the policy, and then click **Save**.
+
+### Using PowerShell
 Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling policy to a network site.
 
 The following example shows how to assign a policy called Contoso Emergency Calling Policy 1 to the Site1 site.

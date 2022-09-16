@@ -1,5 +1,5 @@
 ---
-title: "Set up Audio Conferencing for small and medium businesses"
+title: Set up Audio Conferencing for small and medium businesses
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,16 +11,15 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn how to set Audio Conferencing in your small or medium business for people who need to use a phone to call in to meetings. "
+description: Learn how to set Audio Conferencing in your small or medium business for people who need to use a phone to call in to meetings. 
 ---
 
 # Set up Audio Conferencing for small and medium businesses
@@ -73,6 +72,9 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 3. In the **Manage product licenses** pane, select **Assign more**.
 4. Select the **Microsoft 365 Audio Conferencing** check box, and then select **Save changes**.  
 
+> [!IMPORTANT]
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+
 ## Schedule Teams meetings in Outlook
 
 Your meeting organizers can now schedule meetings in Outlook. In Outlook, go to **Calendar**, and then select the **New Teams meeting** button. The meeting dial-in numbers and the conference ID are automatically added to the meeting invitation that's sent to meeting attendees. To learn more, see [Schedule a Teams meeting in Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f).
@@ -104,10 +106,12 @@ After you have your number, assign it to your conference bridge. Use the Microso
 2. Select **Add**, and then select **Toll number** or **Toll-free number**.
 3. In the **Add phone number** pane, select the number, and then select **Apply**.
 
-Then, assign the number to each person who will lead meetings. Use the Microsoft Teams admin center to do this.
+#### Assign dial-in phone numbers for users who lead meetings
 
-1. In the left navigation of the Microsoft Teams admin center, select **Users**, click the display name of the user, and select **Edit**.
-2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, select a number in the **Toll number** or **Toll-free** number lists, and then select **Apply**.
+Refer to [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
+
+> [!NOTE]
+> You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
 
 ## Related topics
 

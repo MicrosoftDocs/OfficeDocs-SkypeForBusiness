@@ -25,7 +25,7 @@ description: "Applications that have been validated as using Lync 2013 APIs."
 The following applications have been validated as using Lync 2013 APIs. The independent software vendors have validated their solutions and sent results to Microsoft. They haven't necessarily been tested by third parties.
 
 
-## [Active Communications - ACS for Lync](http://www.activecommunications.nl/en_nl/unified-communications)
+## Active Communications - ACS for Lync
 * * *
 Shorten Lync install and implementation times. Administer Lync in single and multi-forest environments without Active Directory schema changes. Centralize call-forwarding and automate user management.
 
@@ -39,11 +39,11 @@ Streamline organization-wide group email communications making them more meaning
 
 Share live video and data between primary care physicians, specialists, and medical teams anywhere, at any time.
 
-## [BluePosition Lync Search](http://go.blueposition.com/)
+## BluePosition Lync Search
 * * *
 Extend Lync toast, by displaying other relevant information about the incoming caller, including location data, maps, and directory and CRM lookups.
 
-## [BluePosition UC Mobile Status](http://go.blueposition.com/)
+## BluePosition UC Mobile Status
 * * *
 Integrate mobile device presence with Lync. See when a mobile contact is busy on the phone. Extend the devices that can provide presence data.
 
@@ -60,7 +60,7 @@ Provide Manager/Admins and Team members with rich Presence information and one-c
 * * *
 Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and allowlists, offline instant message, and expanded presence alerts.
 
-## [DC Stockade Ethical Wall & Content Filter](http://www.devcentrics.com/Home/DCF)
+## DC Stockade Ethical Wall & Content Filter
 * * *
 Implement communications barriers between groups or partners. Block or mask usage of certain words.
 
@@ -112,11 +112,11 @@ Handle Lync calls with a single click.
 * * *
 Streamline cloud hosting of Lync along with Exchange, SharePoint, CRM, BlackBerry, Hyper V, and Web Hosting with this control panel.
 
-## [Modality Systems Wallboard](http://www.modalitydev.net/2013/01/modality-wallboard-demo-video/)
+## Modality Systems Wallboard
 * * *
 Bring remote locations closer by providing an on-demand "portal" window between offices. Kinect integration allows calls to be started using gestures, rather than touch.
 
-## [MultiUX Ethical Wall for Lync](http://www.multiux.com/)
+## MultiUX Ethical Wall for Lync
 * * *
 Allow the management of communication routes for Lync real-time communications services. Manage security of information exchange, avoiding improper use, and improving effectiveness of real-time collaboration.
 
@@ -124,7 +124,7 @@ Allow the management of communication routes for Lync real-time communications s
 * * *
 Allow people with visual challenges to use Lync services with particular attention to voice.
 
-## [NTeam Lync Extender](http://www.nteam.de/de/communications/Seiten/Loesung.aspx?Loesung=004&Titel=nteam%20Lync%20Extender)
+## [NTeam Lync Extender](https://www.nteam.de/)
 * * *
 See location, address, previous activities, opportunity, and company data about the person you're communicating with. Update tasks and activities during the conversation.
 
@@ -136,11 +136,11 @@ Enable remote workers to more efficiently learn and collaborate in an always-on,
 * * *
 Manage inbound communications to enhance relations and call experience with customers. Integrate into existing Information Systems and applications with caller identification, and call distribution.
 
-## [Quarta AllTalk](http://www.quarta-embedded.ru/products/28.html)
+## [Quarta AllTalk](https://www.quarta-embedded.ru/)
 * * *
 Integrate Lync quickly and easily into any existing Windows application along with support for .NET, RT, and web. Ideally suited for kiosks in helpdesk scenarios.
 
-## [Ronco Verannounce](http://www.verapresence.com/verannounce)
+## Ronco Verannounce
 * * *
 Page audible messages to Lync Clients and zoned overhead paging systems anywhere in the enterprise. Audible messages may be delivered on demand or on schedule.
 
@@ -148,7 +148,7 @@ Page audible messages to Lync Clients and zoned overhead paging systems anywhere
 * * *
 Bring situational awareness with complete integrated communication, resource management to mission critical operations. Saab SAFE includes automatic dispatch and incident management.
 
-## [Sierra Gold VTS](http://call-accounting-management-software.com/sai-announces-compatibility-and-support-for-microsoft-lync-server-2013/)
+## [Sierra Gold VTS](https://www.sierragold.com/)
 * * *
 Collect and process call records to support enterprise business decisions regarding security accountability and productivity.
 
@@ -156,7 +156,7 @@ Collect and process call records to support enterprise business decisions regard
 * * *
 Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing, and call handling.
 
-## [UMojo GRM System](http://www.umojo.com/?page_id=3901)
+## [UMojo GRM System](https://www.umojo.com/)
 * * *
 Automate facilities management with Lync, including license plate recognition, real-time inventory tracking, and customer services for drivers at the gate.
 
@@ -168,7 +168,7 @@ Provide a scalable web services platform for communications, integrated with vir
 * * *
 Securely identify, welcome, and connect visitors via a touchscreen kiosk. Offer a consistent and professional experience to visitors.
 
-## [Verapresence Proximity Pickup](http://www.verapresence.com/lync-products/proximity-pickup/)
+## Verapresence Proximity Pickup
 * * *
 Enable many alerting and call pickup use cases. Improve responsiveness by efficiently connecting callers to available resources.
 
@@ -184,6 +184,6 @@ Serve guests anywhere via touch kiosks fitted with cameras and microphones by co
 * * *
 Conduct video conferences on Lync through a single device that can be controlled using your voice commands, hand gestures, mouse, keyboard, and touch enabled screens.
 
-## [Yaguti Lync Agent](http://www.yaguti.eu/en/products/microsoft/uc/Pages/yaguti_lync_agent.aspx)
+## Yaguti Lync Agent
 * * *
 Show planning information, request grades / timetables for students and teachers, get sales data from your CRM/ERP all with Lync.

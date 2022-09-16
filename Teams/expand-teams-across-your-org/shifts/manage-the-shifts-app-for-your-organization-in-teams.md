@@ -8,17 +8,19 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-searchScope:
+searchScope: 
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -42,9 +44,14 @@ It's important to know that Shifts currently don't support guests. This means th
 
 Shifts is available in all Enterprise SKUs where Teams is available.
 
+> [!NOTE]
+> Shifts is available in Government Community Cloud (GCC) environments, but not in GCC High or DoD environments.
+
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in North America, Western Europe, and Asia Pacific. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+
+To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
 ## Set up Shifts
 
@@ -59,9 +66,19 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](../../manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
 
-### Use an app setup policy to pin Shifts to Teams
+### Pin Shifts to Teams
 
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
+#### Use the Tailored frontline app experience to pin Shifts and other apps to Teams
+
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Shifts, Walkie Talkie, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+
+The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
+
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).  
+
+#### Use an app setup policy to pin Shifts to Teams
+
+App setup policies let you customize Teams to pin the apps that are most important for your users.
 
 You can create a [custom app setup policy](../../teams-app-setup-policies.md) by adding the Shifts app, and then [assign the policy](../../assign-policies-users-and-groups.md) to your users. Or, you can use the app setup policy that's part of the Frontline Worker and Frontline Manager policy packages.
 
@@ -69,16 +86,29 @@ A [policy package](../../manage-policy-packages.md) in Teams is a collection of 
 
 We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce.
 
+### Enable shift-based tags in Teams
+
+[Tags](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) in Teams let users easily connect with a subset of people on a team. With shift-based tags, people are automatically assigned tags that match their schedule and shift group name in Shifts. The tag can be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team.
+
+Shift-based tags let your users reach people who are on-shift in real time. Notifications are sent only to those people who are on-shift at the time the tag is used in a chat or channel post. For example:
+
+- A store manager uses the @Cashiers tag to post an announcement to a channel for all on-shift cashiers.
+- A nurse uses the @CardiologistsOnCall tag to start a chat with all on-call cardiologists.
+
+You can turn the feature on or off in the Microsoft Teams admin center. To learn more, see [Manage tags in Teams](../../manage-tags.md).
+
 ## Search the audit log for Shifts events
 
-**(in preview)**
+**(In preview)**
 
 You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
-## Related topics
+## Related articles
 
+- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
+- [Shifts data FAQ](shifts-data-faq.md)
+- [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)
-- [Shifts connectors](shifts-connectors.md)

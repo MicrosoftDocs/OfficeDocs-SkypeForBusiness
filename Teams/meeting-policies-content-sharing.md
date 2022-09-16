@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies for content sharing
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -30,14 +30,14 @@ This article describes the following meeting policy settings related to content 
 
 - [Screen sharing mode](#screen-sharing-mode)
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
-- [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint sharing](#powerpoint-sharing)
+- [External participants can give or request control](#external-participants-can-give-or-request-control)
+- [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
 - [Shared notes](#shared-notes)
 
 ## Screen sharing mode
 
-This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
+This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, external participants) inherit the policy of the meeting organizer.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -82,26 +82,25 @@ To use PowerShell to control who can give control or accept requests for control
 > [!NOTE]
 > To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
 
-## Allow an external participant to give or request control
+## External participants can give or request control
 
 This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
 
-- Anonymous user
-- Guest users  
-- B2B user
-- Federated user  
+- Anonymous participant
+- Guests
+- External access users
 
-Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
+Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization.
 
 To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
-### PowerPoint sharing
+### PowerPoint Live
 
-This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer.
+This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
-|User |Meeting policy  |PowerPoint sharing |
+|User |Meeting policy  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
@@ -110,7 +109,7 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ## Whiteboard
 
-This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
+This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -119,11 +118,17 @@ Let's look at the following example.
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
 
-Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.  
+Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.
+
+To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
+
+### Annotation
+
+When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If whiteboard is disabled, users will not have access to annotation.
 
 ## Shared notes
 
-This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
+This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External participants, including anonymous, guests, and external access, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
 
 Let's look at the following example.
 

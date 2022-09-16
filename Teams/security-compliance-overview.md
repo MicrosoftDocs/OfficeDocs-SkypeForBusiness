@@ -1,8 +1,9 @@
 ---
 title: Overview of security and compliance
-author: laurawi
-ms.author: laurawi
+author: MSFTTracyP
+ms.author: tracyp
 manager: laurawi
+ms.date: 04/12/2022
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
@@ -54,19 +55,21 @@ Because Teams works in partnership with SharePoint, OneNote, Exchange, and more,
 > [!NOTE]
 > Currently, [private channels](private-channels.md) supports limited security and compliance features. Support for the full set of security and compliance features in private channels is coming soon.
 
-### Advanced Threat Protection (ATP)
+### Microsoft Defender for Office 365
 
-Advanced Threat protection (ATP) is available for Microsoft Teams, along with SharePoint and OneDrive, applications that integrate with Teams for content management. ATP allows you to determine if content in these applications is malicious in nature, and block this content from user access.
+Microsoft Defender for Office 365 is available for Microsoft Teams, along with SharePoint and OneDrive, applications that integrate with Teams for content management. Defender for Office 365 allows you to determine if content in these applications is malicious in nature, and block this content from user access.
 
-How the affected content is managed after detection is up to the settings you've selected in Microsoft 365 or Office 365. We strongly recommend you consider all applications when it comes to configuring ATP, and for further reading, [ATP for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) will have detailed information on how to get started.
+How the affected content is managed after detection is up to the settings you've selected in Microsoft 365 or Office 365. We strongly recommend you consider all applications when it comes to configuring Defender for Office 365, and for further reading, [an overview of how safe links works, and steps to set it up are here](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide) for detailed information to get started.
 
-### Safe Links
+### Safe Links in Microsoft Teams
 
-While, at this time, Advanced Threat Protection (ATP) safe links are not available in Microsoft Teams, they are now in [public preview](/microsoft-365/security/office-365-security/atp-safe-links-for-teams) through our Technology Adoption Program (TAP), and while a release date for general availability isn't set, we'll update this article when that time arrives. Meanwhile, for information on Microsoft 365 or Office 365 Safe Links, please review [ATP Safe Links](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). ATP Safe links is available in both [ATP Plan 1 and ATP Plan 2](/microsoft-365/security/office-365-security/office-365-atp).
+Defender for Office 365 safe links are available in Microsoft Teams. To get more information on what safe links are and what to do with this feature, read [safe Links settings for Teams](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide). Safe links is available in both [Defender for Office 365 Plan 1 and Plan 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide).
 
 ### Safe Attachments
 
-Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators create [policies](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 [Advanced Threat Protection Plan 1 and 2](/microsoft-365/security/office-365-security/office-365-atp) have this capability. Read more about Safe Attachments and how they can help protect your organization in [Safe Attachments in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/atp-safe-attachments).
+Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators [turn the feature on](/microsoft-365/security/office-365-security/turn-on-mdo-for-spo-odb-and-teams?view=o365-worldwide) and [create policies](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon.
+
+Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 in [Microsoft Defender for Office 365 Plan 1 and Plan 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide). Read more about Safe Attachments and how they can help protect your organization in [this article](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide).
 
 ### Secure Score
 
@@ -89,31 +92,31 @@ Microsoft Teams desktop application supports AppLocker.  For more information ab
 
 ## Compliance
 
-Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) to manage these settings.
+Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, data loss prevention (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com) to manage these settings.
 
 ### Information Barriers
 
-Information barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level. The Information Barrier feature is available in the public cloud and starting January 2021 it has been rolled out to the GCC cloud.
+Microsoft Purview Information Barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level. The Information Barrier feature is available in the public cloud and starting January 2021 it has been rolled out to the GCC cloud.
 
 For further reading on this topic, go to [Information barriers in Microsoft Teams](information-barriers-in-teams.md).
 
 ### Communication compliance
 
-Communication compliance in Microsoft 365 allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance).
+Microsoft Purview Communication Compliance allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Learn about communication compliance](/microsoft-365/compliance/communication-compliance).
 
 ### Sensitivity labels
 
 Apply [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to protect and regulate access to sensitive organizational content created during collaboration within teams. For example, apply labels that configure the privacy (public or private) of teams, control guest access and external sharing, and manage access from unmanaged devices. For further information, review [Sensitivity labels in Microsoft Teams](sensitivity-labels.md).
 
-### Data Loss Prevention (DLP)
+### Microsoft Purview Data Loss Prevention (DLP)
 
-Data Loss Prevention (DLP) in Microsoft Teams, as well as the larger DLP story for Microsoft 365 or Office 365, revolves around business readiness when it comes to protecting sensitive documents and data. Whether you have concerns around sensitive information in messages or documents, DLP policies will be able to help ensure your users don't share this sensitive data with the wrong people.
+Data loss prevention (DLP) in Microsoft Teams, as well as the larger DLP story for Microsoft Purview, revolves around business readiness when it comes to protecting sensitive documents and data. Whether you have concerns around sensitive information in messages or documents, DLP policies will be able to help ensure your users don't share this sensitive data with the wrong people.
 
-For information on Data Loss Prevention in Teams, please review [DLP for Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). A good article for O365 DLP concerns is [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies).
+For information on Data Loss Prevention in Teams, please review [DLP for Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). A good article for DLP concerns is [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
 
 ### Customer Key
 
-Microsoft 365 offers an additional layer of encryption on top of service encryption for your content. Using keys you provide, Customer Key encrypts several different types of data in Microsoft Teams. Using Customer Key at the application level, Customer Key encrypts Teams files stored in SharePoint Online. For information, see [Service encryption with Customer Key](/microsoft-365/compliance/customer-key-overview). 
+Microsoft 365 offers an additional layer of encryption on top of service encryption for your content. Using keys you provide, Customer Key encrypts several different types of data in Microsoft Teams. Using Customer Key at the application level, Customer Key encrypts Teams files stored in SharePoint Online. For information, see [Service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview).
 
 Using Customer Key at the tenant level, Customer Key encrypts:
 - Teams chat messages (1:1 chats, group chats, meeting chats, and channel conversations)
@@ -122,7 +125,8 @@ Using Customer Key at the tenant level, Customer Key encrypts:
 - Teams chat notifications
 - Teams chat suggestions by Cortana
 - Teams status messages
-For more information, see [Overview of Customer Key for Microsoft 365 at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). For information about the Microsoft Information Protection release that included Customer Key at the tenant level, read [Announcing new Microsoft Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
+
+For more information, see [Overview of Customer Key at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). For information about the Microsoft Purview Information Protection release that included Customer Key at the tenant level, read [Announcing new Microsoft Purview Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
 
 ### Retention policies
 
@@ -132,7 +136,7 @@ Retention policies in Microsoft Teams allows you to both retain data that's impo
 
 Electronic discovery, or eDiscovery, is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery.
 
-For more details about how to use eDiscovery tools in the Microsoft 365 compliance center to search for Teams content, please go to the links below:
+For more details about how to use eDiscovery tools in the Microsoft Purview compliance portal to search for Teams content, please go to the links below:
 
 - [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
 
@@ -140,9 +144,9 @@ For more details about how to use eDiscovery tools in the Microsoft 365 complian
 
 We have a Teams-specific article for more information at [Conduct an eDiscovery investigation of content in Microsoft Teams](eDiscovery-investigation.md).
 
-Customers can leverage eDiscovery or [Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
+Customers can leverage eDiscovery or [eDiscovery (Premium)](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
 
-|&nbsp; |eDiscovery  |Advanced eDiscovery  |
+|&nbsp; |eDiscovery  |eDiscovery (Premium)  |
 |---------|---------|---------|
 |Case Management     |X        |X         |
 |Access Control  |X         |X         |
@@ -162,11 +166,11 @@ During litigation, you may need all data associated with a user (custodian) or a
 
 In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
 
-Please see [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Microsoft 365 compliance center. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](legal-hold.md) for you to learn more.
+Please see [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](legal-hold.md) for you to learn more.
 
 ### Content search
 
-Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to [Content Search](/microsoft-365/compliance/content-search) to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in the Microsoft 365 compliance center.
+Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to [Content Search](/microsoft-365/compliance/content-search) to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in the Microsoft Purview compliance portal.
 
 > [!TIP]
 > Using content search, you can filter down to Microsoft Teams only content, such as Chat and Channel Messages, Meetings, and Calls, if necessary.
@@ -175,7 +179,7 @@ If you'd like further Teams-specific information on configuring content search, 
 
 ### Auditing
 
-Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
+Audit log search plugs right into the Microsoft Purview compliance portal and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft Purview compliance portal, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
 
 ## Privacy
 
@@ -207,7 +211,7 @@ When it comes to information protection capabilities, Microsoft 365 subscription
 For information on determining the licensing needs to implement features for security and compliance, please review the [licensing requirements](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) for security and compliance features.
 
 > [!NOTE]
-> Content search, Core eDiscovery, and Advanced eDiscovery don't need to be enabled in the Microsoft 365 compliance center to work. For more information, see [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery).
+> Content search, eDiscovery (Standard), and eDiscovery (Premium) don't need to be enabled in the Microsoft Purview compliance portal to work. For more information, see [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery).
 
 ## Location of data in Teams
 

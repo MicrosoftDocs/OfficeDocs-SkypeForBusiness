@@ -1,20 +1,22 @@
 ---
 title: Create a change management strategy
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: Create a change management strategy for Microsoft Teams by identifying key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Create a change management strategy for Microsoft Teams
@@ -135,7 +137,7 @@ As with any communications & adoption campaign you will want to identify your su
 
 On your project team should be IT administrators from your organization. These individuals will have access to the Microsoft 365 or Office 365 Microsoft Teams usage reports that are built into the Microsoft 365 admin center experience. This information can show the usage of Microsoft Teams in your company. We also recommend getting feedback directly from your users about their experience of Teams and additional ideas they have for use. Sharing these real world examples from within your own company is extremely valuable to landing sustained change over time with your user community.  
 
-Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin center [here](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin center [Microsoft Teams usage reports in the Microsoft 365 admin center](/microsoftteams/teams-analytics-and-reports/user-activity-report).
 
 > [!TIP]
 > Use your public team or Yammer community to gather usage insights. Share them using a #TeamsStories tag for easy retrieval.  Share a #TeamsStory per month on your intranet to highlight employees who are embracing the change to increase productivity and collaboration in your environment.  

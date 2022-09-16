@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
 description: Learn about team templates and how to manage them in the Microsoft Teams admin center.
 f1.keywords:
 - CSH
@@ -25,7 +26,9 @@ appliesto:
 **The ability to create custom templates is not yet supported for EDU customers.**
 
 > [!NOTE]
-> Private channels and sensitivity labels are currently not supported in team templates. Private channel creation is not included in template definitions. The sensitivity label option in **Create team from template** flow will not be applied to the team.
+> - Private and shared channels are currently not supported in team templates. Private and shared channel creation is not included in  template definitions.
+>
+> - Sensitivity labels are not supported in team templates in GCC environments. The sensitivity label option in the Create team from template flow will not be applied to the team.
 
 ## Overview
 
@@ -36,7 +39,7 @@ You can manage team templates in the Microsoft Teams admin center or by using Po
 This article gives you an overview of working with team templates in the Teams admin center. You'll learn about the properties that are supported in templates, the pre-built templates that we provide, template size limits, how to create and manage templates, and more.
 
 > [!NOTE]
-> Your users can [create teams from pre-built or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from pre-built team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
+> Your users can [create teams from pre-built or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from pre-built or custom team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
 ## Team template capabilities
 
@@ -69,7 +72,7 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 | Manage an event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Tasks</li> <li>OneNote</li> <li>Employee ideas</li> <li>Issue Reporter</li><li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul> |
 |Onboard employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee chat</li> <li>Training</li></ul>Apps:<ul><li>Wiki</li><li>Communities</li><li>Tasks</li><li>Employee ideas</li><li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul>|
 |Organize help desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks </li><li>Praise</li><li>Issue Reporter</li><li>Power Automate</li><li>Bulletins</li></ul> |
-| Patient care| `com.microsoft.teams.template.healthcareWard`| Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists  </li><li>Approvals</li><li>Bulletins</li><li>Inspection</li></ul>|
+| Patient care| `com.microsoft.teams.template.healthcareWard`| Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists  </li><li>Approvals</li><li>Bulletins</li><li>Inspection</li></ul>|
 | Crisis communication |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Internal comms</li><li>External comms</li><li>Approvals request</li><li>Customer escalations</li><li>Executive update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Website</li><li>Tasks</li><li>Issue Reporter</li><li>Approvals</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 |Bank branch| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Approvals Request </li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>Apps:<ul><li>Praise </li><li>Issue Reporter</li><li>Wiki</li><li>Calendar</li><li>Approvals</li><li>Bulletins</li><li>Ideas</li></ul>|
 |Incident response| `com.microsoft.teams.template.CoordinateIncidentResponse`|Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Tasks</li> <li>Approvals</li> <li>Inspection</li> <li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul>|
@@ -79,9 +82,6 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 |Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
 |Manage volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<li>Announcements</li><li>Reporting</li><li>Volunteer Management</li><li>Engagement Opportunities</li><li>Volunteer Onboarding</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
 ||||
-
-&sup1;App added to the channel as a tab.
-
 
 ### Team templates by category and industry
 
@@ -93,7 +93,7 @@ For more information about ways to use the pre-built templates in your industry,
 - [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
 - [Nonprofit team templates](team-templates-nonprofit.md)
-- [Retail team templates](retail-teams-templates-in-the-admin-console.md)
+- [Retail team templates](get-started-with-retail-teams-templates.md)
 
 ## Team template size limits
 
@@ -135,14 +135,14 @@ To control the templates that users see in Teams for [creating teams](https://su
 
 Use the following cmdlets to manage your templates in PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
-- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
-- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate)
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate)
 
 ## Related articles
 
 - [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
-- [Clone a team](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
+- [Clone a team](/graph/api/team-clone)
