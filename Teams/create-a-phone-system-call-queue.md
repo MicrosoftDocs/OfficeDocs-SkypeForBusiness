@@ -39,6 +39,14 @@ Call queues provide:
 
 Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
+## What's new for call queues in the past 6 months
+
+- August
+  - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
+  - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
+
+## Steps to create a call queue
+
 The steps to set up a call queue includes:
 
 1. Set up general information
@@ -132,6 +140,8 @@ Once you've selected a language, select the **Next** button at the bottom of the
 # [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
+
+*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.*
 
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
@@ -297,14 +307,14 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
->
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
-Once you've selected your call timeout options, select the **Next** button at the bottom of the **Add a call queue** page.
+Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
 # [Step 6: Call timeout](#tab/call-timeout)
 
@@ -318,12 +328,11 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
-> [!NOTE]
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
-
-Once you've selected your agent call routing options, select the **Submit** button at the bottom of the **Add a call queue** page.
+Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
 ---
 
@@ -348,11 +357,11 @@ The following settings are recommended:
 |`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
 |`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Recommended* |
-|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |

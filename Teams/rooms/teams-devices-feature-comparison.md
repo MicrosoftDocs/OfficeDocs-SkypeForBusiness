@@ -41,6 +41,7 @@ To help guide you as to what features are available on different platforms, you 
 ||Direct guest join |Available  |Available |
 |**Meeting engagement and collaboration**|Intuitive, purpose-built app experience |Available  |Available |
 ||Video and content layouts (for example, Together Mode, large gallery, gallery only, and gallery and content) |Available  |Available |
+||Front row layout|Available|Not available|
 ||Chat bubbles|Available |Coming soon |
 ||Raise hand, lower all hands |Available  |Available |
 ||Pin multiple participants |Available  |Coming soon |

@@ -105,11 +105,11 @@ For more details on the Microsoft Teams Rooms managed service support coverage, 
 
 ## Supported regions
 
-The Microsoft Teams Rooms Premium license is available in the following countries with audio-conferencing:
+The Microsoft Teams Rooms Pro license is available in the following countries with audio-conferencing:
 
 - Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hong Kong SAR, Hungary, Ireland, Italy, Japan, Latvia, Lithuania, Luxembourg, Malta, Mexico, Monaco, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Russia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, United Kingdom, United States.
 
-The Microsoft Teams Rooms Premium license is available in the following countries without audio-conferencing:
+The Microsoft Teams Rooms Pro license is available in the following countries without audio-conferencing:
 
 - Andorra, Bouvet Island, Christmas Island, Cocos (Keeling) Islands, Cook Islands, Faroe Islands, Fiji, Gibraltar, Greenland, Heard Island and McDonald Islands, Iceland, India, Kiribati, Lesotho, Liechtenstein, Macao SAR, Marshall Islands, Micronesia, Nauru, Niue, Norfolk Island, Northern Mariana Islands, Palau, Papua New Guinea, Pitcairn Islands, Saint Pierre and Miquelon, Samoa, San Marino, Solomon Islands, Swaziland, Tokelau, Tonga, Tuvalu, Vanuatu, Vatican City, Wallis and Futuna.
 
@@ -119,7 +119,7 @@ The Microsoft Teams Rooms Premium license is available in the following countrie
 |What's included |What's excluded |Support channels for excluded items  |
 |---------|---------|---------|
 |**Service configuration**   |         |         |
-|Investigation and guidance for Microsoft Teams Rooms Windows configuration including Microsoft Teams Rooms app settings, first-party network configuration, first-party software setup, and recommended power settings and configuration.     |Any third-party software configurations and investigations that aren't directly part of the Microsoft Teams Room app. Also, any OEM-specific configurations that require configuration outside of first-party windows, or Microsoft Teams Room app settings.         |Third-party standard support channels         |
+|Investigation and guidance for Microsoft Teams Rooms Windows configuration including Microsoft Teams Rooms app settings, first-party network configuration, first-party software setup, and recommended power settings and configuration.     |Any third-party software configurations and investigations that aren't directly part of the Microsoft Teams Rooms app. Also, any OEM-specific configurations that require configuration outside of first-party windows, or Microsoft Teams Rooms app settings.         |Third-party standard support channels         |
 |**Room account setup**    |         |         |
 |Direction to available documentation for room account setup at request. For sign-in or account configuration issues, initial investigation is performed.     |Execution of recommended remediation or issues with executing recommended remediation, configuration of third-party authentication providers, and configuration of individual-account features.        |Microsoft mainstream support and third-party authentication provider support         |
 |**Peripheral support**    |         |         |
