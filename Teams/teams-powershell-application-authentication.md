@@ -78,9 +78,8 @@ High level steps for creating applications in Azure Ad are mentioned below, for 
 
 1. Register the application in Azure AD
 2. Assign API permissions to the application
-  - For \*-Cs cmdlets - no API permissions are needed.
-  - For Non \*-Cs cmdlets – the Microsoft Graph API permissions needed are "AppCatalog.ReadWrite.All", "Group.ReadWrite.All", "User.Read.All", “TeamSettings.ReadWrite.All”, “Channel.Delete.All”, “ChannelSettings.ReadWrite.All”, “ChannelMember.ReadWrite.All”.
-  
+   - For \*-Cs cmdlets - no API permissions are needed.
+   - For Non \*-Cs cmdlets – the Microsoft Graph API permissions needed are `AppCatalog.ReadWrite.All`, `Group.ReadWrite.All`, `User.Read.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`.  
 3. Generate a self-signed certificate
 4. Attach the certificate to the Azure AD application
 5. Assign Azure AD roles to the application
