@@ -77,7 +77,7 @@ An initial onboarding is required for authentication using application objects. 
 High level steps for creating applications in Azure Ad are mentioned below, for detailed steps refer this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
   1. Register the application in Azure AD
   2. Assign API permissions to the application
-    * For \*-Cs cmdlets - no extra permissions are needed.
+    * For \*-Cs cmdlets - no API permissions are needed.
     * For Non \*-Cs cmdlets – the Microsoft Graph API permissions needed are "AppCatalog.ReadWrite.All", "Group.ReadWrite.All", "User.Read.All", “TeamSettings.ReadWrite.All”, “Channel.Delete.All”, “ChannelSettings.ReadWrite.All”, “ChannelMember.ReadWrite.All”.
   3. Generate a self-signed certificate
   4. Attach the certificate to the Azure AD application
