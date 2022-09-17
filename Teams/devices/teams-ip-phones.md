@@ -262,6 +262,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar  | `1.7.300`     | 2022 Update #2B  |
+| Logi Rallybar Mini  | `1.7.300`     | 2022 Update #2B  |
+| Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
+| Logi Console  | `1.7.200`    | 2022 Update #2B  |
 | Yealink MeetingBoard 65" | `155.15.0.10 `   | 2022 Update #2A  |
 | Poly Studio X30 | `3.13.0.368067` | 2022 Update #2A   |
 | Poly Studio X50 | `3.13.0.368067` | 2022 Update #2A |
@@ -364,6 +368,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 Update #3A  | Sep 16, 2022 |`11449/1.0.97.2022739908`| `5.0.5304.0` | `322` |
 |2022 Update #3  | July 12, 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |2022 Update #2  | April 25, 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |2022 Update #1A | February 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
@@ -376,6 +381,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.7.200` |2022 Update #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
 |Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
