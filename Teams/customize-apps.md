@@ -1,6 +1,6 @@
 ---
-title: Modify branding and appearance of apps in your organization's Teams store
-author: guptaashish
+title: Use app customization to brand the apps for your organization's needs
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to change the appearance of the app and rebrand an app by editing app details and metadata.
+description: Learn how to change the metadata and appearance of an app to rebrand it for better adoption in your organization.
 ---
 
-# Customize apps and their branding in your organization's Teams store
+# Use app customization to update branding of apps in your organization's Teams store
 
-Microsoft Teams admins can modify the appearance of some Teams apps. Such modifications can enhance Teams store experience for end-users and help adhere to organization's branding. For example, admins can modify the description and icon of an app that makes it easier for their organizations end-users to identify the app, to understand its use, and for added prominence. Admins make these changes by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
+Microsoft Teams admins can modify the appearance of some Teams apps to provide a personalized branded experience to their organization's end-users. Such modifications can enhance Teams store experience for end-users and help adhere to organization's branding. For example, admins can modify the description and icon of an app that makes it easier for their organizations end-users to identify the app, to understand its use, and for added prominence. Admins make these changes by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
 
 Admins can only customize apps if the app developer allows their app to be customized. While Teams provides an option to customize a few properties, app developers control the properties that can actually be customized by any admin.
 
@@ -46,55 +46,67 @@ A few considerations before you use the feature are:
 * An app can be customized only if the app developer allows it.
 * Modifications to any apps are available only within your organization.
 
+## Verify if an app is customizable
+
+All apps aren't customizable. If an app developer allows you to customize their app, only then can you use the app customization functionality to modify the appearance of the app. To verify if the app of your choice is customizable or not, follow these steps:
+
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+
+1. Search the app that you want to customize using the app name. Verify in the **Customizable** column if the app developer allows the app to be customized or not. If the column isn't visible, select Edit Columns :::image type="icon" source="media/settings-icon-16px.svg"::: and toggle **Customizable** option to **On**.
+
+   :::image type="content" source="media/customizable-apps-in-tac.png" alt-text="The screenshot shows that customizable column in admin center helps you verify if an app is customizable or not.":::
+
+To find out all customizable apps in the Teams store, sort the Customizable column.
+
 ## Customize the details of an app
 
 To change the look and feel of an app as it appears in your organization's Teams store, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Search the app that you want to customize using its name. Verify in the **Customizable** column if the app developer allows the app to be customized or not.
+1. Search the app that you want to customize using the app name and ensure that it can be customized.
 
-   :::image type="content" source="media/customizable-apps-in-tac.png" alt-text="The screenshot shows that customizable column in admin center helps you to sort the app catalog based on which apps are customizable.":::
+1. To open the UI to customize individual metadata fields, follow one of these steps:
 
-   There are three entry points to access the customize feature:
+   * Select the row of an app and then select **Customize** :::image type="icon" source="media/edit-pen-icon.png"::: in the toolbar in the Manage apps page.
 
-   * Select next to the app that you want to customize, and then select **Customize**.
-
-     :::image type="content" source="media/select-app-to-customize-trimmed.png" alt-text="The screenshot shows an option to customize an app by selecting the app from Manage Apps page and selecting Customize from the options." lightbox="media/select-app-to-customize.png":::
-
-   * Select the app name and then select the edit icon in **Customizable**.
-
-     :::image type="content" source="media/communities-microsoft.png" alt-text="The screenshot shows an option to customize an app by selecting the edit option under Customizable mention on the app details page.":::
+   * Select the app name to open the app details page and then select the edit icon :::image type="icon" source="media/edit-pen-icon.png"::: under **Customizable**.
 
    * Select the app name, select **Actions**, and select **Customize**.
 
-     :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page.":::
+     :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page." lightbox="media/customize-action-menu-expanded.png":::
 
-1. Expand the **Details** section and customize one or more of the available fields. Only the fields marked as customizable by the app developer are available for editing.
+1. Customize one or more of the available fields. An app developer may allow only a few of the metadata fields to be customized. See [considerations and limitations of customizable fields](#considerations-and-limitations-of-app-customization).
 
    :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the customize user interface.":::
 
-1. Expand the **Icon** section.
+1. After customizing the app, select **Apply**. To verify the changes that you've made, see [preview app details](#preview-app-details). To undo the changes, see [reset app details to default values](#reset-app-details-to-default-values).
 
-1. Upload an icon. Use one icon (192 x 192) pixel in PNG format.
-
-1. Choose an icon outline color. Use one transparent outline (32 x 32) pixel in PNG format.
-
-1. Select an app accent color that matches the icon.
-
-   :::image type="content" source="media/customize-app-colors.png" alt-text="Screenshot showing the icon color options that can be customized.":::
-
-1. After customizing the app, select **Apply**.
-
-1. Select **Publish** to publish the customized app.
+1. Select **Publish** to publish the customized app and see it listed in the **Manage apps** page.
 
    The customized app is now listed in your **Manage apps** page. You'll have only one version of the app, since customizing the app features doesn't create a copy of the app.
 
-Now your Teams end-users can see the customized app in their client.
+## Preview app details
+
+To view the changes after saving the customization, view the app details page.
+
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+
+1. To open the app details page, select the app name.
+
+1. View the app details, including the original app name in the field **Short name from publisher**. The field is only visible if you've changed the app's short name.
+
+   :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
+
+Your Teams users can see the customized app in the Teams store in their client.
 
    :::image type="content" source="media/contoso-app.png" alt-text="The screenshot shows a customized app in Teams client.":::
 
+## Considerations and limitations of app customization
+
 Consider the following details about app customization functionality:
+
+* You'll have only one version of the app, since customizing the app features doesn't create a copy of the app.
 
 * When you customize apps and any description related to an app, ensure that you follow the guidelines that app developer provide in their documentation or terms of use. Adhere to the copyright laws when using any third-party images.
 
@@ -104,9 +116,9 @@ Consider the following details about app customization functionality:
 
 * In case the app developer no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
 
-* We recommend testing app customization changes in a Teams test tenant before making these changes in your production environment.
+* We recommend testing app customization changes in a Teams test tenant before making these changes in your production environment. To get a test tenant, follow the instructions at [create your test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
-* Changes to the branding may require up to 24 hours to propagate to all the users.
+* Changes take up to 24 hours to propagate to all the users.
 
 * For an app to become customizable, the developers can provide a new version of the app. You upload the new version and remove the previous version of the app. If you've customized an app and published it, the new app customized using the app customization feature won't replace the current app.
 
@@ -114,17 +126,15 @@ Consider the following details about app customization functionality:
 
 * The Microsoft Graph permission consent dialog displays the original name of the app that is provided by the publisher. It helps you to accurately identify an app while providing permissions to it.
 
-## Review app details
+The limitations on the customizable fields are below:
 
-To view the changes after saving those, view the app details page.
-
-1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
-
-1. To open the app details page, select the app name.
-
-1. View the app details, including the original app name in the field **Short name from publisher**. The **Short name from publisher** field is only visible if you've changed the app's short name.
-
-   :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
+| Customizable field | Consideration |
+|:---|:---|
+| Any URL fields | Ensure valid and secure URLs using `https`. |
+| Short description | The short description must be under 80 characters and not repeat what's in the full description. |
+| Icon | Transparent outline icon in PNG format that is 32x32 pixel in resolution. |
+| Color icon | Full-color icon in PNG format that is 192x192 pixel in resolution. |
+| Accent color | Color must match your icon background. |
 
 ## Reset app details to default values
 
