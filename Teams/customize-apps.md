@@ -38,8 +38,6 @@ As an admin, you can customize the following properties.
 
 For detailed information about each of these metadata fields, see the [Teams manifest schema](/microsoftteams/platform/resources/schema/manifest-schema) in the Teams developer documentation.
 
-A few considerations before you use the feature are:
-
 * You must have Teams license to customize app information.
 * You can only customize [third-party apps](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-validated-by-microsoft) and not [custom apps](deploy-apps-microsoft-teams-landing-page.md#custom-apps).
 * You can't customize any app in Government Community Cloud High (GCCH) and Department of Defense (DoD) environments.
@@ -84,7 +82,7 @@ To change the look and feel of an app as it appears in your organization's Teams
 
 1. Select **Publish** to publish the customized app and see it listed in the **Manage apps** page.
 
-   The customized app is now listed in your **Manage apps** page. You'll have only one version of the app, since customizing the app features doesn't create a copy of the app.
+The customized app is now listed in your **Manage apps** page. You'll have only one version of the app, since customizing the app features doesn't create a copy of the app.
 
 ## Preview app details
 

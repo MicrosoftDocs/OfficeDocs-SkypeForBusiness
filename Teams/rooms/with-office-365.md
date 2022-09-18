@@ -261,12 +261,12 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       For details about Active Directory, see [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+       For details about Active Directory, see [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
 
 2. Set the password to never expire by using the following syntax:
 
     ```PowerShell
-    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <userPrincipalName> -PasswordNeverExpires $true
     ```
 
     This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
@@ -304,7 +304,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams.
 
 > [!NOTE]
-> Microsoft Teams Rooms Standard and Microsoft Teams Rooms Premium are the two available SKUs for shared meeting room devices, including Teams Rooms. A meeting room license is required for Teams displays with hot-desking. For more information, see [Teams meeting room licensing](rooms-licensing.md).
+> Microsoft Teams Rooms Basic and Microsoft Teams Rooms Pro are the two available SKUs for shared meeting room devices, including Teams Rooms. A meeting room license is required for Teams displays with hot-desking. For more information, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
 
 To assign licenses using the Microsoft 365 admin center, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users). To assign licenses using Azure AD, see one of the following tabs:
 
@@ -317,7 +317,7 @@ To assign licenses using the Microsoft 365 admin center, see [Assign licenses to
     Connect-AzureAD
     ```
 
-     For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0&preserve-view=true).
     
 2. Assign a usage location to your resource account using the `Set-AzureADUser` cmdlet. This determines what license SKUs are available.
 
@@ -358,7 +358,7 @@ To assign licenses using the Microsoft 365 admin center, see [Assign licenses to
    Connect-MsolService
    ```
 
-    For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
 
 2.  Assign a usage location to your resource account using the `Set-MsolUser` cmdlet. This determines what license SKUs are available.
 
@@ -397,7 +397,7 @@ There are no unique requirements to enable calling with resource accounts. You e
 
 ### Configure distribution groups for Teams Calendar
 
-To organize your meeting room locations, you can add your device resource accounts to Exchange distribution groups. For example, if you have offices in three different geographic locations, you can create three distribution groups and add the appropriate resource accounts to each location. For more information, see [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+To organize your meeting room locations, you can add your device resource accounts to Exchange distribution groups. For example, if you have offices in three different geographic locations, you can create three distribution groups and add the appropriate resource accounts to each location. For more information, see [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list).
 
 ### Configure places for Outlook Calendar
 In order for meeting room locations to appear in the Outlook Room Finder, you need to use the Set-Place Exchange PowerShell cmdlet. Not only does Set-Place populate the Room Finder in Outlook, it also allows you to add additional metadata such as the capacity of the room or the floor of building the room is in. For more information, see [Set-Place](/powershell/module/exchange/set-place).
