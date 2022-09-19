@@ -122,7 +122,7 @@ Consider the following details about app customization functionality:
 
 * We recommend testing app customization changes in a Teams test tenant before making these changes in your production environment. To get a test tenant, follow the instructions at [create your test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
-* Changes take up to 24 hours to propagate to all the users.
+* Updates take up to 24 hours to show in the client for all the users and admin accounts.
 
 * For an existing app to become customizable, the developer can provide a new version of the app on the Teams store.
 
