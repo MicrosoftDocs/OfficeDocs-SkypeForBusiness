@@ -1592,9 +1592,9 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish a custom app submitted as package
+        - name: Publish a custom app submitted as a package
           href: upload-custom-apps.md
-        - name: Manage Power Platform apps in Teams admin center
+        - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 
     - name: Admin controls to govern apps

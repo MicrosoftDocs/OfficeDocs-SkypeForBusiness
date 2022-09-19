@@ -1,5 +1,5 @@
 ---
-title: Teams apps behavior based on types of users
+title: Availability and behavior of Teams apps for different types of users
 author: ashishguptaiitb
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Behavior of Microsoft Teams apps based on types of in-meeting users
+# Use Teams apps as external or guest user
 
 Teams apps behave when guest, external (federated), and anonymous users are present in a Teams context.
 
