@@ -17,7 +17,7 @@ productDirectory:
     # Card
     - title: Explore
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/blocks-blue.svg
       links:
         - url: whats-business-voice.md
           text: Teams Phone System with Calling Plan guidance for small and medium businesses
@@ -27,7 +27,7 @@ productDirectory:
           text: Teams Service description
     # Card
     - title: Set up
-      imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/deploy-blue.svg
       links:
         - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
           text: How to get Teams Phone System with Calling Plan
@@ -39,7 +39,7 @@ productDirectory:
           text: Set up Teams Phone System with Calling Plan
     # Card
     - title: Customize your setup
-      imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/migration-blue.svg
       links:
         - url: port-phone-numbers.md
           text: Port existing phone numbers
@@ -53,7 +53,7 @@ productDirectory:
    # Card
     - title: Use
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/get-started-blue.svg
       links:
         - url: create-users.md
           text: Create more users
@@ -65,7 +65,7 @@ productDirectory:
           text: Call Analytics quality dashboard
     # Card
     - title: Resources for partners
-      imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/success-blue.svg
       links:
         - url: /partner-center/
           text: Get Microsoft 365 Business from Partner Center
@@ -74,7 +74,7 @@ productDirectory:
 
     # Card
     - title: Need help?
-      imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
       links:
         - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
           text: Contact support for Microsoft 365 or Office 365
@@ -82,7 +82,7 @@ productDirectory:
           text: Small and medium business tech community
     # Card
     - title: Help documentation
-      imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
       links:
         - url: ../cloud-voice-landing-page.md
           text: Microsoft Teams admin docs

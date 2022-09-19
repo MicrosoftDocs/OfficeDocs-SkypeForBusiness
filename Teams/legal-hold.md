@@ -1,7 +1,7 @@
 ---
 title: Place a Microsoft Teams user or team on legal hold
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 ms.service: msteams
