@@ -22,12 +22,15 @@ Microsoft Teams Rooms devices support a one-touch experience for joining third-p
 
 Supported devices and services:
 
-- MTR on Windows, all certified models – Zoom, Cisco Webex
+- Teams Rooms on Windows, all certified models – Zoom, Cisco Webex
 
-- MTR on Android, Poly, Yealink, and Logitech certified models – Zoom
+- Teams Rooms on Android, all certified models – Zoom, Cisco Webex
+
+    > [!NOTE]
+    > Microsoft releases new features for Teams Rooms on Android on a regular basis. However, there can be a delay between when features are released and when they become available on a device. If a feature isn't available on your device, check with your device's manufacturer for information on when it might become available.
 
 > [!NOTE]
-> To join a Cisco Webex meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in Webex Meetings Pro using Cisco Webex web application version WBS 40.7 or later. 
+> To join a Cisco Webex meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in Webex Meetings Pro using Cisco Webex web application version WBS 40.7 or later.
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
