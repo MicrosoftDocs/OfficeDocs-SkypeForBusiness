@@ -27,7 +27,7 @@ This functionality provides you with a signal about the demand for an app within
 
 You retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
 
-* The default option sends the user requests to Teams admin center where you can [view user requests and allow the requested apps](#view-user-requests-in-teams-admin-center).
+* The default option sends the user requests to Teams admin center where you can [view user requests and allow the requested apps](#view-and-act-on-user-requests-in-teams-admin-center).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
