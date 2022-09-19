@@ -66,6 +66,7 @@ To turn off and turn on the features, set the following parameters:
  - **Screenshots**: Use the **AllowScreenshotCollection** flag to add screenshot collection opt-in for users.
  - **Email**: Use the **AllowEmailCollection** flag to add an email field.
  - **Log collection**: Use the **AllowLogCollection** flag to add log collection opt-in for users. Log collection is currently enabled only on mobile. For more details on what data is shared via logs, [learn more](https://go.microsoft.com/fwlink/?linkid=2168178).
+ - **Suggest a feature**: Set the allowTeamsFeedbackPortal parameter to enabled to allow users who are assigned the policy to suggest a feature. Setting the parameter to disabled turns off the feature and users who are assigned the policy dont have the option to give feedback. The default setting is taken from your M365 Optional Connected Experiences policy setting. To learn more about that setting, see [Overview of optional connected experiences in Office](https://learn.microsoft.com/deployoffice/privacy/optional-connected-experiences).
 
 ## Create a custom feedback policy
 
