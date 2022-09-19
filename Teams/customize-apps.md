@@ -148,6 +148,7 @@ The limitations on some of the customizable fields are below:
 | My updates aren't available to my end-users. | Wait a few hours for changes to propagate. |
 | I can't customize an app. | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).|
 | I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization) |
+| Manage apps page not loading properly. List of apps is not displayed. | Admin account in use must have the Teams license assigned. |
 
 <!--- Check ICM for error string. --->
 
