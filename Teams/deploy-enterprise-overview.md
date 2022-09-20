@@ -70,7 +70,7 @@ To see an example of how Network planner can plan your network, see [Using Netwo
 The Teams advisor is a solution within Teams that brings together teams, channels, file sharing, and Planner, to create a deployment project for your organization. Teams advisor creates project plan, specific to the workload you select (such as chat, teams, and channels), that includes the recommended tasks you should perform during your deployment. Each task contains instructions, suggestions, and links to relevant articles, to guide you through the process. You can easily assign tasks to one or more individuals, and specify start and end dates for each task.
 
 > [!TIP]
-> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](/learn/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
+> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](/training/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
 
 > [!div class="nextstepaction"]
 > [Go to Teams advisor](https://admin.teams.microsoft.com/teams-deployment)

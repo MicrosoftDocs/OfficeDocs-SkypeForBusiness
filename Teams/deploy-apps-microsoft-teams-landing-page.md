@@ -89,7 +89,7 @@ Webhooks and connectors deliver content and updates from services that end-users
 
 Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to navigate away from the conversation. Messaging extensions can have search commands for end-users to quickly find external content and insert it in a message or action commands.
 
-To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app features](/microsoftteams/platform/concepts/design/map-use-cases).
+To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
