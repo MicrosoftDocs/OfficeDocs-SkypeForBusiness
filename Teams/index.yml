@@ -45,37 +45,37 @@ productDirectory:
     # Card
     - title: Pilot
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/list-123-teams.svg
       summary: Plan your rollout and pilot your solutions, so that you can have a smooth experience.
       url: ./get-started-with-teams-quick-start.md
     # Card
     - title: Prepare for end user adoption 
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
       summary: Get your users on board and share scenarios for success.
       url: ./adopt-microsoft-teams-landing-page.md
     # Card
     - title: Plan for enterprise deployment 
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
       summary: Get your environment and infrastructure ready to deploy.
       url: ./deploy-enterprise-overview.md
     # Card
     - title: Deploy
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/deploy-teams.svg
       summary: Deploy Microsoft Teams across your organization.
       url: ./deploy-overview.md
     # Card
     - title: Secure
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/security-teams.svg
       summary: Follow these best practices to secure your data, files, and identities in Microsoft Teams.
       url: ./security-compliance-overview.md
     # Card
     - title: Manage
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/settings-teams.svg
       summary: Perform day to day management tasks for Microsoft Teams.
       url: ./manage-teams-overview.md
 
@@ -87,27 +87,27 @@ tools:
     # Card
     - title: Learn for IT Pros and admins
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
-      url: /learn/teams/
+      imageSrc: https://learn.microsoft.com/office/media/icons/administrator.svg
+      url: /training/teams/
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform
-      imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/developer-teams.svg
       url: /microsoftteams/platform/
     # Card
     - title: End user help and learning
-      imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/help.svg
       url: https://support.office.com/Teams
     # Card
     - title: Teams blogs and Tech Community
-      imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/blog-site-teams.svg
       url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
     # Card
     - title: Teams product feedback
-      imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/user.svg
       url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
     # Card
     - title: Download Microsoft Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/download-teams.svg
       url: https://www.microsoft.com/microsoft-teams/download-app
 
 # additionalContent section (optional)
