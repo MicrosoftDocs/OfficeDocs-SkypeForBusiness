@@ -1427,7 +1427,7 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 | **Prerequisite**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
-| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=30438>  <br/> |
 | Windows PowerShell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
 | Visual C++ 2010 Redistributable  <br/>          | <https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0>  <br/>  |
 | Internet Information Server Updates  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
