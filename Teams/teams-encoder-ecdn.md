@@ -91,6 +91,45 @@ After purchasing and setting up your eCDN solution, you can enable it for use wi
 
 After you configure Teams for an eCDN solution, any video or live event that is played in Teams will take advantage of that solution automatically.
 
-## Configure "Microsoft Teams" production type events through Microsoft Teams and Yammer for your eCDN solution
+## Configure Teams production type events through Teams and Yammer for your eCDN solution
 
-If you plan to create Teams live events through Microsoft Teams or Yammer, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
+If you plan to create Teams live events through Teams or Yammer, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
+
+### Get to video analytics reports for your eCDN solution
+
+As noted above, some eCDN solutions also provide analytics reports that give deeper information about playback sessions, viewers, and quality of service. If your provider gave you an analytics report URL template to configure when you set up the provider in the Teams admin center, then owners of videos or events can easily get to the analytics report for a specific video or event.
+
+Owners of videos will see an Analytics tab directly under the video. On this tab, there will be a link for owners to access the analytics report for this specific video in the eCDN provider's system.
+
+If you're a Teams admin, you can also elevate your access to see the Analytics tab and get to the eCDN analytics report link, even if you aren't an owner of the live event or video.
+
+1. As a Teams admin, go to the video player page.
+1. Select **Settings**.
+1. Select **View in admin mode**.
+1. Select the **Analytics** tab.
+
+## Troubleshooting issues
+
+Make sure that your eCDN solution is set up correctly in your network and that you've properly configured Teams to enable the provider per their instructions and specific configuration strings. If you're still having issues, some of the information below might help.
+
+### Verify setup tool
+
+If you're having issues with your eCDN solution, you can always come back and run the **Verify setup** tool. The eCDN provider event messages shown for your test video can give you and your eCDN provider more information on what's not working.
+
+- Go to **Settings** > **Admin Settings** > **eCDN provider** > **Verify setup**
+
+### Disable eCDN for a specific session via URL query string
+
+To determine if an issue you're seeing is with the eCDN solution or with Teams, you can easily disable the eCDN solution for a specific playback session via query string.
+
+- If your playback URL already has a question mark, **?**, in it, then add **&disableSDN=true**.
+- If your playback URL doesn't have a question mark, **?**, in it then add **?disableSDN=true**.
+
+### View eCDN info in browser console
+
+If your eCDN solution provider supports it, they may print debug information during initialization of playback through their solution. This extra info may be helpful in determining what is going wrong. You can enable extra console debug messages via the query string.
+
+- If your playback URL already has a question mark, **?**, in it, then add **&isSDNDebug=true**.
+- If your playback URL doesn't have a question mark, **?**, in it then add **?isSDNDebug=true**.
+
+Select **F12** on your keyboard when your browser is active and switch to the **Console** tab to see all the information printed during the loading of the page with the isSDNDebug=true query string set on the playback URL.
