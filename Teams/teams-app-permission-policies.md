@@ -27,6 +27,9 @@ ms.custom:
 
 As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users who have the policy are unable to install it from the Teams app store. You must be a global admin or Teams service admin to manage these policies.
 
+> [!NOTE]
+> If you are not a global admin or Teams service admin, you will not be able to see the app permission policies in the admin portal. Even if you do have the global reader role assigned.
+
 You manage app permission policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy. After you edit or assign a policy, it can take a few hours for changes to take effect.
 
 ![Screenshot of app permission policy.](media/app-permission-policies.png)
