@@ -64,8 +64,8 @@ After you've completed these steps, you're ready to run Teams PowerShell command
 ## Manage policies via PowerShell
 
 > [!NOTE]
-> - Skype for Business Online Connector is being consolidated into Teams PowerShell. It is currently available in public preview. In time, Skype for Business Online cmdlets that apply to Teams will be natively available in the Teams PowerShell module. Installation steps are available in the [Install Teams PowerShell](teams-powershell-install.md) article.
-> - The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> - Skype for Business Online Connector is consolidated into Teams PowerShell. Skype for Business Online cmdlets that apply to Teams are natively available in the Teams PowerShell module. Installation steps are available in the [Install Teams PowerShell](teams-powershell-install.md) article.
+> - The cmdlets will be available in your PowerShell session once you connect to Teams. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Find the cmdlets for managing policies in the [Skype for Business cmdlet module](/powershell/module/teams).
 
