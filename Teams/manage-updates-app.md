@@ -50,7 +50,7 @@ At the store's manufacturing facilities, employees perform safety checks with Up
 
 Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
 
-[Download the Updates lookbook](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) to see more examples of what you can do with Updates.
+[Download the Updates lookbook](https://go.microsoft.com/fwlink/?linkid=2197649) to see more examples of what you can do with Updates.
 
 ## Required permissions and licenses
 

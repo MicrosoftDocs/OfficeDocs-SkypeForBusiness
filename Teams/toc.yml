@@ -1860,7 +1860,9 @@ items:
         - name: Teams PowerShell release notes
           href: teams-powershell-release-notes.md
         - name: Teams PowerShell supported versions
-          href: teams-powershell-supported-versions.md
+          href: teams-powershell-supported-versions.md 
+        - name: Application-based authentication in Teams PowerShell Module
+          href: teams-powershell-application-authentication.md
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams

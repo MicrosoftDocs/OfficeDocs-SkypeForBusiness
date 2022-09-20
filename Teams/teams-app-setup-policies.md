@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
+ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
 ms.collection: 
