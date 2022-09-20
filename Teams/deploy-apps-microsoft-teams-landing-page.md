@@ -79,15 +79,46 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 ## Understand app capabilities
 
-To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to the Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
+The Microsoft Teams platform offers a large variety of features. Each feature is a way of interacting with users that makes the Teams app capability relevant to the users need. Capabilities are the core functionalities that can be built in an app to enable integration and interaction.
 
-Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can chat with a bit one-on-one or in a channel. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. You can add tabs as part of a channel inside a team, group chat, or personal app for an individual user.
+To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities.
 
-Webhooks and connectors deliver content and updates from services that end-users frequently use (such as Jira Cloud and Bitbucket) directly into a channel conversation. Apps that use this capability can communicate with external apps and can send or receive notifications and messages from an external service.
+* Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see Bots in Microsoft Teams - Teams | Microsoft Learn.
 
-Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to navigate away from the conversation. Messaging extensions can have search commands for end-users to quickly find external content and insert it in a message or action commands.
+* Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. They're simple HTML <iframe\> tags that point to domains declared in the app manifest and can be added as part of a channel inside a team, group chat, or personal app for an individual user. For more information, see Microsoft Teams tabs - Teams | Microsoft Learn.
+
+* Webhooks and connectors help to connect the web services to channels and teams in Microsoft Teams. Webhooks are user defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It is a way for an app to get real time data. Connectors allow users to subscribe to receive notifications and messages from your web services. For more information, see Webhooks and connectors - Teams | Microsoft Learn.
+
+* Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to navigate away from the conversation.   Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see Message extensions - Teams | Microsoft Learn.
+
+* Meeting extensions: Users can enhance the meeting experience by integrating tabs, bots, and message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see Apps for Teams meetings - Teams | Microsoft Learn
+
+* Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see Cards and task modules - Teams | Microsoft Learn.
+
+There are several ways you can interact with apps and services in Teams:
+
+* Chat with a bot. Bots provide answers, updates, and assistance in a channel. Users can chat with bots in a one-on-one chat, group chat, or in a channel. They can help with task management, scheduling, and more.
+
+  :::image type="content" source="media/chat-bot.gif" alt-text="Gif that shows a sample chat bot in Microsoft Teams.":::
+
+* Share content on a tab. Tabs help you share content and functionality from your favorite services in a channel. They can connect you to Microsoft services (like Excel or SharePoint), other services (like Asana, YouTube, and Zendesk), or to a website of your choice.
+
+> [!NOTE]
+> Tabs in channels can be seen by everyone on the team. Tabs in chats can only be seen by the people in that chat.
+
+* Get updates from a connector. Connectors send updates and information directly to a channel. Get automatic updates from your favorite services like Trello, JIRA, Twitter, RSS feeds, GitHub, and more.
+
+* Add rich content to your messages. These apps find content from different services and send it straight to a message. You can share things like weather reports, daily news, images, and videos with anyone you're talking to. Messages sometimes include buttons for interacting with the app. For example, a daily weather report could include an option to download the forecast for the entire week.
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app features](/microsoftteams/platform/concepts/design/map-use-cases).
 
