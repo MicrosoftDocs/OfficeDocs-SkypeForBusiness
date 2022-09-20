@@ -116,7 +116,7 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
 
-The setting is enforced when a meeting is created or is updated by Organizers. By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings).
+The setting is enforced when a meeting is created or is updated by Organizers. By default, this setting is turned off. Learn more about Q&A [here](https://learn.microsoft.com/en-US/microsoftteams/meeting-policies-participants-and-guests?WT.mc_id=TeamsAdminCenterCSH).
 
 The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the admin portal.
 
