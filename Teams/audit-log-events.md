@@ -1,7 +1,7 @@
 ---
 title: Search the audit log for events in Microsoft Teams
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
