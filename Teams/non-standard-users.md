@@ -7,6 +7,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work differently for guests, federated users, and anonymous users.
 ms.localizationpriority: high
