@@ -83,7 +83,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Logi                 |Brio 500/505 Cameras                                       |9/14/2022       |Certified for Microsoft Teams                           | 
+|Logi                 |Brio 500/505 Cameras                                       |9/14/2022       |Certified for Microsoft Teams                           |
+|Jabra                |Engage 50 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
+|Jabra                |Engage 40 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certified for Microsoft Teams                           |
 |Dell                 |WB5023 camera                                              |6/29/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |
