@@ -29,7 +29,7 @@ Select whether you want to design and build a hybrid-optimized meeting space opt
 
 Microsoft Teams Rooms can be deployed to any existing meeting space. These spaces typically have a conference table, whiteboard, corkboard, and a projection system to present content from a device. By integrating with your existing furniture and audio-visual hardware, Teams Rooms can simplify the pre-meeting setup for presenters and make remote users equal participants in the meeting.
 
-![Rendering of a traditional meeting room.](media/hybrid-standard-room.png)
+:::image type="content" source="media/hybrid-standard-room.png" alt-text="An image of a standard meeting room with rectangular table and chairs and a projector screen.":::
 
 ## Traditional room size and capacity
 
@@ -37,7 +37,7 @@ Microsoft Teams Rooms can be deployed to any existing meeting space. These space
 
 This space will comfortably fit up to 10 people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
-:::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of traditional meeting room design":::
+:::image type="content" source="media/hybrid-standard-room-blueprint.png" alt-text="Blueprint of traditional meeting room design.":::
 
 ## Traditional room furniture
 
@@ -69,7 +69,7 @@ Most participants will choose to share content within this type of meeting room 
 
 Hybrid-optimized Microsoft Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
-![Rendering of a hybrid-optimized meeting room.](media/hybrid-enhanced-room.png)
+:::image type="content" source="media/hybrid-enhanced-room.png" alt-text="An image of an enhanced meeting room with curved table in front of a dual screen display.":::
 
 ## Hybrid-optimized room size and capacity
 
@@ -81,12 +81,11 @@ This space will comfortably fit six to eight people. You'll need a space that's 
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
-
 This room features a curved table with participants seated on one side, allowing in-room participants to retain visibility of each other and be positioned face to face with remote participants.
 
 This room features a traditional meeting room table with a height of 30 in or 76 cm.
 
-![Blueprint of a hybrid-optimized meeting room design.](media/emr10.png)
+:::image type="content" source="media/emr10.png" alt-text="[Blueprint of a hybrid-optimized meeting room design.":::
 
 ## Hybrid-optimized equipment mounting
 
