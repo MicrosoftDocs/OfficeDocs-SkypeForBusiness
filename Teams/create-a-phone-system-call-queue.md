@@ -369,8 +369,8 @@ The following settings are recommended:
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|`Direct Routing`                 |Y                         |Y         |Y               |N    |N         |Y                     |Y                         |   |
-|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y                     |Y                         |   |
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
