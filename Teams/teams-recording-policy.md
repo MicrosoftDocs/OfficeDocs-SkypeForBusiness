@@ -19,6 +19,7 @@ ms.custom:
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- tier3
 appliesto: 
 - Microsoft Teams
 ---

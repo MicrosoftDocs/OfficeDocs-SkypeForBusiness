@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 ms.collection: 
   - M365-voice
   - M365-collaboration
