@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Assign a Teams Rooms Basic or Teams Rooms Pro license to a resource account.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high
@@ -20,6 +20,7 @@ keywords:
 ---
 
 # Step 3 - Assign a meeting room license
+
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
 [!INCLUDE [mtr-device-config-assign-include](includes/mtr-device-config-assign-include.md)]

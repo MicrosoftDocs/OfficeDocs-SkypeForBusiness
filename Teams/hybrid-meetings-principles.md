@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Learn about the guiding principles you should apply to create an inclusive Teams Rooms meeting experience.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high
@@ -22,7 +22,6 @@ keywords:
 # Teams hybrid meeting principles
 
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
-
 
 No matter what technology you use, meeting principles are at the core of inclusive meetings. These principles define how participants of a meeting interact with each other, how information is shared, and how to enable effective collaboration. Use the following principles as the basis for the principles you define for your organization. Review your principles with leaders and individual contributors, in-person and remote, with and without disabilities, across your organization.
 

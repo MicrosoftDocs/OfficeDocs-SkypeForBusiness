@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Purchase a Teams Rooms Basic or Teams Rooms Pro license for use with Teams Rooms devices.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

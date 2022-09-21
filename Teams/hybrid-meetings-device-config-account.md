@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Create a resource account for use with Teams Rooms devices.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

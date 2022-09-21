@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Configure mailbox properties of a resource account mailbox for use with Teams Rooms.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

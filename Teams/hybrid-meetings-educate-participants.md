@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Learn about what meeting organizers, presenters, and participants, can do to create an inclusive meeting experience.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

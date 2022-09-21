@@ -18,6 +18,6 @@ Using a combination of room lists and place attributes selected by a user, Room 
 > [!IMPORTANT]
 > Each resource account needs to have its place attributes set. If these attributes, especially city, building, and capacity, aren't set, those rooms won't show up as available options for reservation even if a room list contains them.
 
-To create a room list, follow the instructions in [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+To create a room list, follow the instructions in [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list).
 
 To configure the place attributes for a resource account, see [Set-Place](/powershell/module/exchange/set-place).

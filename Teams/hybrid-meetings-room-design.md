@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Learn about the different types of meeting spaces you can set up for Teams Rooms meetings.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

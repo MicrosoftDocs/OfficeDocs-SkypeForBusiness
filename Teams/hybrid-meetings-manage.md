@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Maintain your Teams Room space and devices post-deployment.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

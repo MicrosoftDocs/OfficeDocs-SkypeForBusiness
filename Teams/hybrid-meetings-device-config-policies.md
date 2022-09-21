@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Define meeting policies to control what meeting organizers and participants can do in a meeting.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

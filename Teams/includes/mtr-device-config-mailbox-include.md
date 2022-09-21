@@ -17,7 +17,7 @@ You can improve your Teams Rooms meeting experience by customizing how the resou
 
 - **AdditionalResponse: "This is a Microsoft Teams Meeting room!"** The additional text to add to the meeting acceptance response.
 
-To configure these properties, you need to connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps). 
+To configure these properties, you need to connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
 After you've connected to Exchange Online PowerShell, you can configure the mailbox properties on a resource account by using the [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing) cmdlet.
 

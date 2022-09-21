@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Step through the complete process of setting up a new Teams Rooms device in your organization.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

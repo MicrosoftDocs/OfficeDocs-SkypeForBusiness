@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Learn which features can help you create an immersive and inclusive Teams Rooms meeting experience.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high

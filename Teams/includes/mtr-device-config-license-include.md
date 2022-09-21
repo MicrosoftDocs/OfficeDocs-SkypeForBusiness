@@ -16,4 +16,4 @@ Follow the steps below to purchase a Teams Room Basic or Teams Rooms Pro license
 > [!NOTE]
 > You can purchase up to 25 Teams Rooms Basic licenses. Any additional licenses you purchase beyond 25 must be Teams Rooms Pro licenses.
 >
-> You can purchase a Teams Rooms Basic license for a Teams Room console and later change the license for that console to Teams Rooms Pro. First make sure you have an available Teams Rooms Pro license and then follow the instructions in [Change the apps and services a user has access to](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide#change-the-apps-and-services-a-user-has-access-to).
+> You can purchase a Teams Rooms Basic license for a Teams Room console and later change the license for that console to Teams Rooms Pro. First make sure you have an available Teams Rooms Pro license and then follow the instructions in [Change the apps and services a user has access to](/microsoft-365/admin/manage/assign-licenses-to-users#change-the-apps-and-services-a-user-has-access-to).

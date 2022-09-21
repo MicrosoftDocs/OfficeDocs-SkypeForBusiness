@@ -8,7 +8,7 @@ f1.keywords:
 - Teams meetings
 manager: serdars
 audience: ITPro
-description: 
+description: Configure how a resource account responds to meeting invites.
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: high
