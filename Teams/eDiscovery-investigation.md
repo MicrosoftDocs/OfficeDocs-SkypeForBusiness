@@ -1,18 +1,21 @@
 ---
 title: Conduct an eDiscovery investigation of content
-author: v-tophillips
-ms.author: v-tophillips
+description: Learn what to do when you need to perform eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: 
-  - M365-collaboration
+ms.collection:
+- tier1
+- M365-security-compliance
+- M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-description: Learn what to do when you need to perform eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
