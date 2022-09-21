@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-collaboration
+- tier1
 appliesto: 
 - Microsoft Teams
 f1.keywords:
