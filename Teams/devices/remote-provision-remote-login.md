@@ -54,11 +54,12 @@ The following list shows the Android device firmware requirements.
 
 Complete the following steps to provision a new device.
 
-1. Sign in to the Teams admin center.
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
 2. Expand **Teams Devices**.
-3. Select **Provision new device** from the **Actions** tab.
+3. Go to **Teams Rooms on Android**.
+4. Select **Actions** and then **Provision devices**.
 
-In the **Provision new devices** window, you can either add the MAC address manually or upload a file.
+In the **Provision devices** window, you can either add the MAC address manually or upload a file.
 
 ### Manually add a device MAC address
 
