@@ -38,12 +38,12 @@ The default settings for Cloud Voicemail are:
 - The out-of-office greeting, when the calendar in Outlook shows out-of-office, is disabled.
 - Sharing of voicemail and transcription data with the service for training and improving accuracy purposes is disabled.
 - The call answering rule is set to Regular Voicemail.
-- The default greeting prompt overwrite is not set.
-- The default out-of-office greeting prompt overwrite is not set.
-- The transfer target is not set.
+- The default greeting prompt overwrite isn't set.
+- The default out-of-office greeting prompt overwrite isn't set.
+- The transfer target isn't set.
 
 
-To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell. Note that your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
+To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell. Your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
 
 ## Use Teams admin center
 
@@ -70,13 +70,13 @@ You can also use PowerShell to manage voicemail settings as follows:
 
 ## Voicemail settings
 
-- **Voicemail enabled** - This setting controls whether Cloud Voicemail is enabled for the user. If the settings is false, Cloud Voicemail service will not be available for the user and will not record a voicemail for the user.
+- **Voicemail enabled** - This setting controls whether Cloud Voicemail is enabled for the user. If the setting is false, Cloud Voicemail service won't be available for the user, and won't record a voicemail for the user.
 
-- **Prompt language** - This setting specifies the language used for the prompts in the Cloud Voicemail. For more information see [Change the default language for greetings and emails](change-the-default-language-for-greetings-and-emails.md).
+- **Prompt language** - This setting specifies the language used for the prompts in the Cloud Voicemail. For more information, see [Change the default language for greetings and emails](change-the-default-language-for-greetings-and-emails.md).
 
 - **Greeting settings** - Cloud Voicemail is able to play a specific greeting for when the user is in the office and for when the user is out-of-office. Both greetings can be recorded by the user or a text-to-speech greeting can be used.
 
-  - **Default Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that will be played in case the user has not recorded a greeting.
+  - **Default Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that will be played in case the user hasn't recorded a greeting.
 
   - **Oof Greeting Enabled** - specifies whether the out-of-office greeting is played in voicemail deposit scenario, no matter Outlook settings.
 
@@ -84,7 +84,7 @@ You can also use PowerShell to manage voicemail settings as follows:
 
   - **Oof Greeting Follow Calendar Enabled** - specifies whether to play out-of-office greeting in voicemail deposit scenario when user set out-of-office in calendar.
 
-  - **Default Oof Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that will be played in case the user is out-of-office and has not recorded an out-of-office  greeting.
+  - **Default Oof Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that will be played in case the user is out-of-office and hasn't recorded an out-of-office  greeting.
 
 - **Call answering rule** - This setting specifies the call answering rule. The rule can be:
   - The service declines the call with no message.
