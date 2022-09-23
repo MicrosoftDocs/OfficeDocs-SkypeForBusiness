@@ -1604,7 +1604,7 @@ items:
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
-        - name: Understand app validation by Microsoft
+        - name: App checks, testing, and validation done by Microsoft
           href: overview-of-app-validation.md
         - name: Security, compliance, and privacy of third-party apps
           href: overview-of-app-certification.md
