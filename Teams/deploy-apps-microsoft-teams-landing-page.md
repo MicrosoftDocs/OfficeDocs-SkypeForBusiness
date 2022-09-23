@@ -91,7 +91,7 @@ The Microsoft Teams platform offers a large variety of features. Each feature is
     :::column-end:::
 :::row-end:::
 
-To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities.
+To provide rich experience that allows end-users to work inside Teams, app developers use the following app capabilities.
 
 * **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
@@ -105,26 +105,13 @@ To provide rich experiences that allow end-users to work inside Teams, app devel
 
   To allow users to use custom connectors in Teams, see [Use custom connectors in Teams](office-365-custom-connectors.md).
 
-* **Messaging extensions**: Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to navigate away from the conversation. Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
+* **Messaging extensions**: Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to move away from the conversation. Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
 
 * **Meeting extensions**: Users can enhance the meeting experience by integrating tabs, bots, and message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
 * **Cards**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
 
-There are several ways you can interact with apps and services in Teams:
-
-* Chat with a bot: Bots provide answers, updates, and assistance in a channel. Users can chat with bots in a one-on-one chat, group chat, or in a channel. They can help with task management, scheduling, and more.
-
-  :::image type="content" source="media/chat-bot.gif" alt-text="Gif that shows a sample chat bot in Microsoft Teams.":::
-
-* Share content on a tab: Tabs help users share content and functionality from your favorite services in a channel. They can connect users to Microsoft services (like Excel or SharePoint), other services (like Asana, YouTube, and Zendesk), or to a website of your choice.
-
-  > [!NOTE]
-  > Tabs in channels can be seen by everyone on the team. Tabs in chats can only be seen by the people in that chat.
-
-* Get updates from a connector: Connectors send updates and information directly to a channel. Get automatic updates from your favorite services like Trello, JIRA, Twitter, RSS feeds, GitHub, and more.
-
-* Add rich content to your messages: Find content from different services and send it straight to a message. Users can share weather reports, daily news, images, and videos with anyone they're talking to. Messages sometimes include buttons for interacting with the app. For example, a daily weather report could include an option to download the forecast for the entire week.
+* **Microsoft Power Platform apps**: Power Apps is a low-code or no-code application development environment that app creators in your organization can use to build custom apps. Low-code custom apps save time, provide speedy solutions, and meet the same demand as apps created from scratch. They allow the developers without experience, to build custom apps easily with little or no coding, and professional developers to develop and deploy the app quickly. As an admin, you can control whether Microsoft Power Platform apps are listed in **Built with Power Platform** on the Apps page in Teams. For more information, see [Manage Microsoft Power Platform apps in the Teams admin center](manage-power-platform-apps.md).
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
 
