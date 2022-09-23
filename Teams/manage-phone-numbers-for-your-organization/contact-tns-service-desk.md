@@ -27,25 +27,11 @@ description: "When you get phone numbers or port (transfer) numbers for your org
 
 # Telephone Number Services (TNS) - Service Desk
 
-There is a new process to interact with the Telephone Number Services (TNS) service desk. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. This article describes everything you need to know to contact the service desk.
-
 > [!NOTE]
-> As of July 22, 2021, the current email system has been retired.
+> As of July 22, 2021, the previous email system to reach out to the TNS service desk has been retired.
 
-To contact the service desk:
+There is a new process to interact with the Telephone Number Services (TNS) service desk from our new **[Phone Number Service Center](https://pstnsd.powerappsportals.com)**. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. These tasks are described in more detail in the following sections.
 
-1. Log in to [Teams admin center](https://admin.teams.microsoft.com).
-
-2. In the left-hand pane, select **Voice**, and then **Phone numbers**.
-
-3. In the upper right corner of the page, click **Actions**, then select **Get phone number support**. You will be transfered to the [Telephone Number Service Center](https://pstnsd.powerappsportals.com/)
-
-> [!NOTE]
-> Only someone from the same tenant is allowed to create a case. For example, someone from @fabrikam.com can't create a case on behalf of @contoso.com.
-
-From the Phone Number Service Center, you can create new cases, view existing cases, communicate with the service desk, and manage your user profile. These tasks are described in more detail in the following sections.
-
-- **Phone Number Service Center** – Navigate to Portal home page.
 
 - **[Create a new case](#create-a-new-case)** – Submit a new request or general enquiry.
 
@@ -55,15 +41,16 @@ From the Phone Number Service Center, you can create new cases, view existing ca
 
 - **[Give feedback](#view-and-manage-existing-cases)**– Share your feedback with us.
 
-- **[Your Name]** – Update your profile page.
-
 ## Create a new case
 
-To creat a new case, follow these steps:
+> [!NOTE]
+> Only someone from the same tenant is allowed to create a case. For example, someone from @fabrikam.com can't create a case on behalf of @contoso.com.
+
+To create a new case, follow these steps:
 
 1. Select **Create a new case** from one of the following places:
 
-   - From the **Phone Number Service Center** page, at the top of the page or at the bottom tile.
+   - From the **Phone Number Service Center** home page, at the top of the page or at the bottom tile.
 
    - From  the **View my existing cases**  page.
 
@@ -163,7 +150,7 @@ Case type can be one of the following:
 
   - **List of phone numbers** - The list of phone numbers for which you want to change the emergency address (enter your desired address in the Description field). Upload a csv file with the list of phone numbers.
 
-***Date and Time.** If you select Country = France, date = 8/14/2021 and time = 10am, then the request will be executed on 8/14/2021 at 10 a.m. French time.
+**Date and Time.** If you select Country = France, date = 8/14/2021 and time = 10am, then the request will be executed on 8/14/2021 at 10 a.m. French time.
 
 #### Case title
 

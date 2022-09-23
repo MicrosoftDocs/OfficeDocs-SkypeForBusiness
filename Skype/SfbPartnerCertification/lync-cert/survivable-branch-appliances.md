@@ -45,7 +45,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
         <td>SBA 1.1.11.40 / GW 6.60A.022.003</td>
     </tr>
     <tr align="left" bgcolor="#F8F8F8" valign="top">
-        <td><a href="http://h17007.www1.hp.com/us/en/networking/solutions/allianceone/lync.aspx#.U6LA-HlOVaQ">HP</a></td>
+        <td><a href="https://www.hp.com">HP</a></td>
         <td>HP MSR Small Survivable Branch Communication MIM Module powered by Microsoft Lync (JG587A) <br />HP MSR Medium Survivable Branch Communication MIM Module powered by Microsoft Lync (JG588A) <br />HP MSR Large Survivable Branch Communication FIC Module powered by Microsoft Lync (JG589A)</td>
         <td>HP MSR OAP SBA Version 1.0.2217.0<br />HP MSR OAP SBA Version 2.0</td>
     </tr>
@@ -127,7 +127,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
         <td>SBA: 1.0.5,<br />Gateway: 3.0.3</td>
     </tr>
     <tr align="left" bgcolor="#F8F8F8" valign="top">
-        <td rowspan="2"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+        <td rowspan="2"><a href="https://ribboncommunications.com/">Sonus</a></td>
         <td>SBC1000</td>
         <td>SBA: 4.0.7577.0, <br />Gateway: 2.0.1v118, 2.0.2v132</td>
     </tr>

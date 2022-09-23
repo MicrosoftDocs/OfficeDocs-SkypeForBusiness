@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-collaboration
+- tier2
+- M365-security-compliance
+- M365-collaboration
 search.appverid: MET150
 f1.keywords:
 - NOCSH

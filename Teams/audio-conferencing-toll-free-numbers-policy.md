@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
-description: Learn about how Audio Conferencing in Microsoft 365 or Office 365 allows users call in to meetings from their phones.
+description: Learn about how Audio Conferencing in Microsoft 365 or Office 365 allows users to call in to meetings from their phones.
 ---
 
 # Audio Conferencing policy settings for toll and toll-free numbers
@@ -31,6 +31,9 @@ Use Audio conferencing policies to manage audio conferencing toll and toll-free 
 
 - The setting for AllowTollFreeDialin can no longer be managed for an individual user through Teams admin center or PowerShell. Tenant admins will only be able to manage this setting through the new audio conferencing policy.
 - The Global policy can't be modified from the Teams admin center.
+
+> [!NOTE]
+> Custom Audio Conferencing policies are not supported for customers enabled for Skype for Business Regionally Hosted Meetings. Customers enabled for Regionally Hosted Meetings can manage the Audio Conferencing settings of users via their default settings. The Audio Conferencing default settings of users can be changed in the Teams Admin Center by navigating to **Users** -> **Manage Users** -> **Select User** -> **Account**.
 
 When a Teams audio conferencing policy is enabled in the tenant, there will be two automatically created policies available in the tenant. The two automatically created policies and their default settings are:
 
