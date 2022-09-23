@@ -13,6 +13,7 @@ ms.collection:
   - m365initiative-voice
   - m365solution-voice
   - m365solution-scenario
+  - highpri
 ms.reviewer: crowe
 f1.keywords:
 - CSH
