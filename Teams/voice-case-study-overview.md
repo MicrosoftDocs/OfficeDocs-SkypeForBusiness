@@ -10,6 +10,7 @@ audience: admin
 ms.collection: 
   - M365-voice
   - m365solution-voice
+  - highpri
 
 ms.reviewer: jowrig
 search.appverid: MET150
