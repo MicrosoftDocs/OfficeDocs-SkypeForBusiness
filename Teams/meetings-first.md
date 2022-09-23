@@ -1,5 +1,5 @@
 ---
-title: Meeting First - Microsoft Teams 
+title: Meetings First - Microsoft Teams 
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
