@@ -3,10 +3,10 @@ title: Manage access to Teams apps across Microsoft 365
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection: 
   - M365-collaboration

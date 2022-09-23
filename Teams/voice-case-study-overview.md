@@ -10,6 +10,7 @@ audience: admin
 ms.collection: 
   - M365-voice
   - m365solution-voice
+  - highpri
 
 ms.reviewer: jowrig
 search.appverid: MET150
@@ -28,7 +29,7 @@ Contoso has deployed Microsoft 365 Enterprise and addressed major design decisio
 
 This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso case study overview](/microsoft-365/enterprise/contoso-case-study).
 
-[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
+[https://learn.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 In the core articles, you'll find information on the following:  
 

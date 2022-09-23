@@ -16,12 +16,12 @@ appliesto:
 
 # Application-based authentication in Teams PowerShell Module
 
-Application-based authentication is supported now in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments. It isn't supported for customers that are or have previously been enabled for Regionally Hosted Meetings in Skype for Business Online.
+Application-based authentication is supported now in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments.
 
 
 ## Cmdlets Supported
 
-All Non \*-Cs cmdlets (for example, Get-Team), Get-CsTenant, Get-CsOnlineUser & Get-CsOnlineVoiceUser are already supported. Other cmdlets will be gradually rolled out. 
+All Non \*-Cs cmdlets (for example, Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlets are already supported. Other cmdlets will be gradually rolled out. 
 
 
 ## Examples
@@ -75,10 +75,14 @@ Teams PowerShell Module fetches the app-based token using the application ID, te
 An initial onboarding is required for authentication using application objects. Application and service principal are used interchangeably, but an application is like a class object while a service principal is like an instance of the class. You can learn more about these objects at [Application and service principal objects in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
 High level steps for creating applications in Azure Ad are mentioned below, for detailed steps refer this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
-  1. Register the application in Azure AD
-  2. Generate a self-signed certificate
-  3. Attach the certificate to the Azure AD application
-  4. Assign Azure AD roles to the application
+
+1. Register the application in Azure AD
+2. Assign API permissions to the application
+   - For \*-Cs cmdlets - no API permissions are needed.
+   - For Non \*-Cs cmdlets - the Microsoft Graph API permissions needed are `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`.  
+3. Generate a self-signed certificate
+4. Attach the certificate to the Azure AD application
+5. Assign Azure AD roles to the application
 
 The application needs to have the appropriate RBAC roles assigned. Because the apps are provisioned in Azure AD, you can use any of the supported built-in roles.
  
