@@ -65,6 +65,49 @@ After an admin allows the use of custom apps, end-users can find such apps by se
 
 For more information, see [Understand and manage custom and sideloaded apps](custom-app-overview.md).
 
+## User app experience in Teams
+
+Users can  view all the apps available in Teams from the Teams apps store in Teams desktop or web client. Every organization can customize their Teams experience; the apps shown may vary between companies, teams, and individuals. Users can browse the apps in Teams in the following ways:
+
+  1. Search by name
+  1. Browse by category
+  1. Browse apps Built for your org: Apps approved by the organization’s Admin.
+  1. Browse apps Built with Power Platform: Custom apps created by developers using Power platform.
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshots shows the five places where the suers can find apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+
+### Add an app to Microsoft Teams
+
+Users can add an app to teams from the Teams app store. They can also add apps directly from the context they're working in, such as:
+
+* Chat or channel Tab.
+
+* Meeting.
+
+* Messaging area.
+
+For more information, see [add an app to Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+### Access apps in Teams
+
+Users can view all the apps installed in their Teams client by going to Teams > In the left menu, select the More added apps icon (**…**). You can view:
+
+* **Personal apps**: Any apps the user has added.
+
+* **Team apps**:  Apps that have been added by your IT admin or a coworker.
+
+* **Custom apps**: If you're a developer, any custom apps that you've added.
+
+To view apps for a particular team, go to Teams > Select a team  > select the More icon (**...**) > **Manage team** > **Members**.
+
+### Update apps in Teams
+
+Users can update apps from the **Manage your apps** page in teams and also from all the contexts where the app is installed. When an app is updated in one context, the app is automatically updated in all other installed contexts.
+
+:::image type="content" source="media/user-app-experience-update-app.png" alt-text="Screenshot shows the option to update an app  in the manage apps page in Teams.":::
+
+When a new version of an installed app is available in the Teams store, the app is automatically updated for all users. However, a few specific changes in the new version of the app require a user permission again. In such scenarios, teams admins govern the control to provide updates to an app for the users. For more information, see [Teams app updates and admin role](apps-update-experience.md).
+
 ## About App Templates
 
 Using the app development methods, Microsoft creates and provides functional and production-ready sample apps. Collectively, these apps are called App templates for Teams and are provided to:
