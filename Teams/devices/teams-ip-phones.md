@@ -125,7 +125,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 2022 Update #4  | September 22, 2022| `1449/1.0.94.2022090705` |`5.0.5304.0` | `322` |
+| 2022 Update #4  | September 22, 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
 | 2022 Update #3A| July 13,2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | 2022 Update #3  | July 6,2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
 | 2022 Update #2A  | April 13,2022   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
@@ -251,6 +251,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #2B  | September 15, 2022 |`1449/1.0.96.2022090606`| `5.0.5484.0` | `361` |
 | 2022 Update #2A  | August 8, 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #2  | May 25, 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #1  | February 24, 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
