@@ -2,6 +2,29 @@
 
 
 
+## Week of September 12, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/12/2022 | [Use app customization to brand the apps for your organization's needs](/MicrosoftTeams/customize-apps) | modified |
+| 9/12/2022 | [User requests for admins to allow apps](/MicrosoftTeams/user-requests-approve-apps) | modified |
+| 9/13/2022 | [Monitor Direct Routing](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modified |
+| 9/13/2022 | [User requests for admins](/MicrosoftTeams/user-requests-approve-apps) | modified |
+| 9/13/2022 | [Port phone numbers to Teams Phone System with Calling Plan](/MicrosoftTeams/business-voice/port-phone-numbers) | modified |
+| 9/13/2022 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
+| 9/14/2022 | [Teams devices for Education](/MicrosoftTeams/devices-for-education) | modified |
+| 9/14/2022 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
+| 9/14/2022 | [Understand Microsoft Teams and Skype for Business coexistence and interoperability](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modified |
+| 9/14/2022 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
+| 9/14/2022 | [Microsoft Teams Rooms Portal](/MicrosoftTeams/rooms/managed-meeting-rooms-portal) | modified |
+| 9/14/2022 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
+| 9/14/2022 | [Microsoft Teams Rooms maintenance and operations](/MicrosoftTeams/rooms/rooms-operations) | modified |
+| 9/15/2022 | [Application-based authentication in Teams PowerShell Module](/MicrosoftTeams/teams-powershell-application-authentication) | added |
+| 9/15/2022 | [How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviours.](/MicrosoftTeams/sign-in-teams) | modified |
+| 9/16/2022 | [Application-based authentication in Teams PowerShell Module](/MicrosoftTeams/teams-powershell-application-authentication) | modified |
+
+
 ## Week of September 05, 2022
 
 
@@ -127,35 +150,3 @@
 | 8/20/2022 | [Configure live event settings in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modified |
 | 8/20/2022 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
 | 8/20/2022 | [Set up meeting dial-out-confirmation for your users in Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modified |
-
-
-## Week of August 08, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/8/2022 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
-| 8/8/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 8/8/2022 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
-| 8/9/2022 | [Overview of app policies to manage apps in Teams](/MicrosoftTeams/app-policies) | modified |
-| 8/9/2022 | Steering committee for cloud voice deployment | removed |
-| 8/9/2022 | Onboarding checklist - Configure cloud voice workloads - Microsoft Teams | removed |
-| 8/9/2022 | Onboarding checklist - Configure Direct Routing - Microsoft Teams | removed |
-| 8/9/2022 | Onboarding checklist - Configure core capabilities - Microsoft Teams | removed |
-| 8/9/2022 | Onboarding checklist - Enable the Microsoft 365 or Office 365 service | removed |
-| 8/9/2022 | Microsoft Teams Rooms Reference | removed |
-| 8/9/2022 | [Manage custom and sideloaded apps](/MicrosoftTeams/custom-app-overview) | added |
-| 8/9/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
-| 8/9/2022 | [Overview of app validation and app testing by Microsoft](/MicrosoftTeams/overview-of-app-validation) | modified |
-| 8/9/2022 | [Understand third-party apps in Microsoft Teams](/MicrosoftTeams/overview-third-party-apps) | modified |
-| 8/9/2022 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
-| 8/9/2022 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
-| 8/9/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 8/9/2022 | [Manage custom app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
-| 8/10/2022 | Direct Routing | removed |
-| 8/11/2022 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
-| 8/11/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 8/11/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 8/12/2022 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | added |
-| 8/12/2022 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | added |
-| 8/12/2022 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |

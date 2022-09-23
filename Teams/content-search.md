@@ -1,19 +1,22 @@
 ---
 title: Use Content Search in Microsoft Teams
-author: v-tophillips
-ms.author: v-tophillips
+description: Learn about using Content search in the Microsoft Purview compliance portal to search for Microsoft Teams content that's stored in Exchange Online, SharePoint Online, OneDrive for Business, and OneNote.
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.collection: 
-  - M365-collaboration
+ms.collection:
+- tier1
+- M365-security-compliance
+- M365-collaboration
+- content-search
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Learn about using Content search in the Microsoft Purview compliance portal to search for Microsoft Teams content that's stored in Exchange Online, SharePoint Online, OneDrive for Business, and OneNote.
 appliesto: 
   - Microsoft Teams
 ---

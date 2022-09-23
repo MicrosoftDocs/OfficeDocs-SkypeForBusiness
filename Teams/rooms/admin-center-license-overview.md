@@ -30,6 +30,9 @@ The Teams admin center lets you view and manage Teams Rooms devices and their pe
 
 For more information about Microsoft Teams Rooms licenses, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
 
+> [!NOTE]
+> If you have existing Teams Rooms Standard or Teams Rooms Premium legacy licenses, you'll need to switch to Teams Rooms Pro when your legacy licenses expire. If you have an Enterprise Agreement, you'll need to switch to Teams Rooms Pro licenses at your next renewal period. For more information, see [Switching from Teams Rooms Standard and Teams Rooms Premium](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium).
+
 ## See which licenses are assigned to Teams Rooms devices
 
 You can see what license your devices have by going to Teams devices in the Teams admin center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see. For example, if you select **Teams devices** > **Teams Rooms on Windows**, you'll see something similar to the following image. The **License** column shows the Teams Rooms license assigned to each device.
@@ -68,7 +71,6 @@ The following table shows the management capabilities available in the Teams adm
 | **Device health details**                     |                             | &#x2714;                  |
 | **Device tags**                               |                             | &#x2714;                  |
 | **Graph APIs**                                |                             | &#x2714;                  |
-| **Manual device updates**                     |                             | &#x2714;                  |
 | **Remote restart**                            |                             | &#x2714;                  |
 | **Windows device peripherals management**     |                             | &#x2714;                  |
 | **Windows device settings**                   |                             | &#x2714;                  |
