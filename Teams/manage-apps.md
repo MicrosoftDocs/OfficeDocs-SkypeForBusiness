@@ -11,7 +11,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - m365-frontline
-ms.reviewer: vaibhava
+ms.reviewer: kojika
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
@@ -118,7 +118,6 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 1. Select **Save** for org-wide app settings to take effect.
 
-## Related articles
+## Related article
 
-* [Manage Teams during the transition from Skype for Business admin center](manage-teams-skypeforbusiness-admin-center.md)
 * [Manage user requests to allow apps](user-requests-approve-apps.md).
