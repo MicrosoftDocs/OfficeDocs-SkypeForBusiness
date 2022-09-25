@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Manage Teams apps in the Microsoft Teams admin center
+# Overview of app management and governance in Teams admin center
 
 You manage apps for your organization in **Teams apps** page in the Teams admin center portal. Use the Manage apps page to view and manage all Teams apps in your organization's app catalog, cater to prominent use cases for app management, define access to apps using policies, and more.
 
@@ -118,7 +118,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 1. Select **Save** for org-wide app settings to take effect.
 
-## Related article
+## Related articles
 
 * [Manage Teams during the transition from Skype for Business admin center](manage-teams-skypeforbusiness-admin-center.md)
 * [Manage user requests to allow apps](user-requests-approve-apps.md).
