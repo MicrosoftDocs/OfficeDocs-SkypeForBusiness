@@ -144,3 +144,5 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **ITSM integration**                              |                             | &#x2714;                  |
 | **Custom health alerts**                          |                             | &#x2714;                  |
 | **Device analytics**                              |                             | &#x2714;                  |
+
+See [Microsoft Teams Rooms license overview in Teams admin center](../admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license.md).
