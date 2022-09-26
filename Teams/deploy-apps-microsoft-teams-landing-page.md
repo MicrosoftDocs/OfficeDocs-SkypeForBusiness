@@ -74,7 +74,7 @@ Users can  view all the apps available in Teams from the Teams apps store in Tea
   1. Browse apps Built for your org: Apps approved by the organization’s Admin.
   1. Browse apps Built with Power Platform: Custom apps created by developers using Power platform.
 
-:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshots shows the five places where the suers can find apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshots shows the five places where the users can find apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 
 ### Add an app to Microsoft Teams
 
@@ -88,21 +88,27 @@ Users can add an app to teams from the Teams app store. They can also add apps d
 
 For more information, see [add an app to Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
 
-Users can find and add apps available in the Teams store which include apps provided by Microsoft, by third-party developers, and by developers within your organization. A user can add and use an app only when an admin allows the app via the org-wide setting and for the user via app permission policy. An organization's IT admin has complete control over who can install which apps in which context.
+:::image type="content" source="media/user-experience-add-app-options.png" alt-text="Screenshot that shows the add app to Team, channel, and meeting options for an app." lightbox="media/user-experience-add-app-details.png":::
+
+Users can find and add apps available in the Teams store, which include apps provided by Microsoft, by third-party developers, and by developers within your organization. A user can add and use an app only when an admin allows the app via the org-wide setting and for the user via app permission policy. An organization's IT admin has complete control over who can install which apps in which context.
 
 Users can't add apps that are blocked, any app that has a lock icon in the Teams store is blocked for the user. However, users can [request their org’s IT admin for their approval](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). After the app is approved, users can add the app from the Teams store.
 
 >[!NOTE]
 > Only individuals can request approval to add an app.
 
-Developers can also hide an apps from users. Such apps are hidden by default and are available to users only after the admin allows it. For more information, see [allow apps that are blocked by developers](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
+:::image type="content" source="media/user-app-experience-blocked-apps.png" alt-text="Screenshot that shows the request approval option for a blocked app in Teams desktop.":::
+
+Developers can also hide apps from users. Such apps are hidden by default and are available to users only after the admin allows it. For more information, see [allow apps that are blocked by developers](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
 
 > [!CAUTION]
 > Blocked apps may still have access to data from the teams they're installed in. To turn off app data access, ask your Global Admin, Application Admin, or Cloud Application Admin to turn off user sign-in in the Azure Active Directory admin center.
 
-Apps can be pinned in Teams to provide users with easy access to the apps. Apps are pinned to the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile clients. Admins can pin apps and set the order the apps show up for your users in the Teams app bar or the compose message area using app setup policy (https://learn.microsoft.com/en-us/microsoftteams/teams-app-setup-policies). 
+Apps can be pinned in Teams to provide users with easy access to the apps. Apps are pinned to the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile clients. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and the app is allowed by Teams admin.
 
-Users can [pin apps on their own](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and the app is allowed by Teams admin.
+:::image type="content" source="media/user-app-experience-pin-apps-option.png" alt-text="Screenshot that shows the pin app option for an app in the Teams desktop client." lightbox="media/user-app-experience-pin-apps.png":::
+
+Admins can pin apps and set the order the apps show up for your users in the Teams app bar or the compose message area using [app setup policies](/teams-app-setup-policies).
 
 ### Access apps in Teams
 
