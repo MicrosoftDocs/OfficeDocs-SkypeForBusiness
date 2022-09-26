@@ -145,4 +145,4 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Custom health alerts**                          |                             | &#x2714;                  |
 | **Device analytics**                              |                             | &#x2714;                  |
 
-See [Microsoft Teams Rooms license overview in Teams admin center](../admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license.md).
+See [Microsoft Teams Rooms license overview in Teams admin center](/admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license.md).
