@@ -227,7 +227,7 @@ The diagram below shows the high-level traffic flow for the internal user in Ger
 
 Diagram 5.  Traffic flow with "Always Bypass" mode and the user is in the "home" site
 
-![A diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-5.png "Traffic flow with "Always Bypass" mode and user is in the "home" site")
+![A diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-5.png "Traffic flow with 'Always Bypass' mode and user is in the 'home' site")
 
 
 #### Scenario 2: The user and gateways are in different sites
@@ -250,7 +250,7 @@ The following diagram shows the high-level traffic flow when the internal German
 
 Diagram 6.  Traffic flow with "Always Bypass" mode and the user is not in "home" site but in the internal network
 
-![A diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-6.png "Traffic flow with "Always Bypass" mode and user is not in "home" site but in internal network")
+![A diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-6.png "Traffic flow with 'Always Bypass' mode and user is not in 'home' site but in internal network")
 
 ### Mode 2: Only for local users
 
@@ -290,7 +290,7 @@ In the following diagram, a user assigned to the local branch office in Vietnam,
 
 Diagram 7. Traffic flow with "Only For Local Users" mode and the user is in "home" site
 
-![Another diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-7.png "Traffic flow with "Only For Local Users" mode and user is in "home" site")
+![Another diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-7.png "Traffic flow with 'Only For Local Users' mode and user is in 'home' site")
 
 
 #### Scenario 2. The user and gateways are in different sites
@@ -320,7 +320,7 @@ In the following diagram, the internal user, while on premises in the Indonesian
 
 Diagram 8.  Traffic flow with "Only For Local Users" mode, and the user is not in "home" site but in the internal network
 
-![Another diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-8.png "Traffic flow with "Only For Local Users" mode, user is not in "home" site but in internal network")
+![Another diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-8.png "Traffic flow with 'Only For Local Users' mode, user is not in 'home' site but in internal network")
 
 ## Known issues
 
