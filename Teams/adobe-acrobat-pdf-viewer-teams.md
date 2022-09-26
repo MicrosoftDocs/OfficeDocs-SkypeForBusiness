@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.subservice: teams-apps
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
