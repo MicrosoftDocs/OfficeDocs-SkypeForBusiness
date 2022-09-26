@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: 
 description: Learn about app permission policies, app setup policies, and custom app policies used to manage apps in Microsoft Teams.
 audience: admin
