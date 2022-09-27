@@ -149,7 +149,7 @@ To turn off meeting registration and prevent users from scheduling webinars, set
 
 This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Meeting registration** is turned on.
 
-- Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization set up.
+- Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization setup.
 - Set **Who can register** to **Everyone in the organization** if you want to allow only the users in your organization to register and attend webinars.
 
 By default, **Who can register** is set to **Everyone**. To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**.
