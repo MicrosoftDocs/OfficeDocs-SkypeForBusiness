@@ -45,7 +45,7 @@ You must be either a global admin, global reader, or Teams service admin to view
 |**6**   |Select **Edit columns** to add or remove columns in the table.|
 |**7**   |Export the report to a CSV file for offline analysis. Select the **Export to Excel** icon, and the report will be downloaded within your browser.|
 |**8** |Time series data represented in the top graph show different usage metrics aggregated for the entire tenant|
-|**9** |Tabular data represented in the botton half shows different usage metrics aggregated per team|
+|**9** |Tabular data represented in the bottom half shows different usage metrics aggregated per team|
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
