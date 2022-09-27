@@ -11,6 +11,7 @@ audience: Admin
 ms.collection: 
 - M365-collaboration
 - tier1
+- purview-compliance
 appliesto: 
 - Microsoft Teams
 f1.keywords:
