@@ -54,7 +54,7 @@ You must be either a global admin, global reader, or Teams service admin to view
 
 To make the data in Teams user activity report anonymous, you have to be a global administrator. The global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and AAD ID in the report and its export.
 
-1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
+1. In Microsoft 365 admin center, go to **Settings** > **Org Settings**, and under the **Services** tab, choose **Reports**.
     
 2. Select **Reports**, and then choose to **Display concealed user, group, and site names in all reports**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
   
