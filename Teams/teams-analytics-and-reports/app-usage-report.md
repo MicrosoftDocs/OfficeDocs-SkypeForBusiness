@@ -31,7 +31,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 1. On the **View reports** tab, under **Report**, select **Apps Usage**.
 
-1. Under **Date range**, select a range, and then select **Run report**. You can view the Teams Apps Usage report for trends over the last 7, 30, 90 and 180 days.
+1. Under **Date range**, select a range, and then select **Run report**. You can view the Teams Apps Usage report for trends over the last 7, 30, 90, and 180 days.
 
    :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="Screenshot of the Apps Usage report interface." lightbox="media/app-usage-report2.png":::
 
