@@ -112,7 +112,7 @@ Admins can pin apps and set the order the apps show up for the users in the Team
 
 ### Access apps in Teams
 
-Users can view all the apps installed in their Teams client,  go to Teams > In the left menu, select the More added apps icon (**…**). The type of apps available are:
+Users can view all the apps installed in their Teams client,  go to Teams > In the left menu, select the More added apps icon (**…**). The types of apps available are:
 
 * **Personal apps**: Any apps the user has added.
 
