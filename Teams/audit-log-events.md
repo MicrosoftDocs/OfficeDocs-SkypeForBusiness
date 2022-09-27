@@ -1,18 +1,21 @@
 ---
 title: Search the audit log for events in Microsoft Teams
+description: "Learn how to retrieve Microsoft Teams data from the audit log in the Microsoft Purview compliance portal."
 author: robmazz
 ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.collection: 
-  - M365-collaboration
+ms.collection:
+- tier1
+- M365-security-compliance
+- M365-collaboration
+- audit
 f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: "Learn how to retrieve Microsoft Teams data from the audit log in the Microsoft Purview compliance portal."
 appliesto: 
   - Microsoft Teams
 ---
