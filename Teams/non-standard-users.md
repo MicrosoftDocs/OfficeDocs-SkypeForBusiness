@@ -2,14 +2,14 @@
 title: Availability and behavior of Teams apps for different types of users
 author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: joglocke
+ms.reviewer: kojika
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
 search.appverid: MET150
-description: Learn how apps in Microsoft Teams work differently for guests, federated users, and anonymous users.
+description: Learn how apps in Microsoft Teams work for guests, federated users, and anonymous users.
 ms.localizationpriority: high
 f1.keywords:
 - NOCSH
@@ -22,26 +22,27 @@ appliesto:
 
 # Use Teams apps as external or guest user
 
-Teams apps behave when guest, external (federated), and anonymous users are present in a Teams context.
+Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external users](manage-external-access.md) and [what can guest users do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
+
+The following types of users can be present in a Teams chat or meeting and if you allow it, they can use apps in Teams.
 
 * A **guest user** is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization.
 
 * An **external (federated) user** is from another domain and does not have access to your organization's Teams resources.
 
-  > [!Note]
-  > For a more detailed comparison between guest and external users, see [communicate with users from other organizations](./communicate-with-users-from-other-organizations.md).
-
 * An **anonymous user** is a user who joins a meeting via a link. The user isn't logged in with their Microsoft account or their organization’s account.
+
+For a more detailed comparison between guest and external users, see [communicate with users from other organizations](communicate-with-users-from-other-organizations.md).
 
 ## Guests
 
-### Install, update, and delete for guests
+### Install, update, and delete apps for guests
 
 Guests can't install, update, or delete apps into a shared context, such as a chat, channel, or meeting. Guests can do so in their personal scope using message extensions and direct links. Guests can't access the Teams app store from the Teams desktop app, but can access the store with a direct link.
 
 ### Usage behavior and policy for guests
 
-Guests can use an app if the app was installed by a native user.
+Guests can use an app if the app was installed by an organization's user.
 
 #### Bots installed to a channel
 
@@ -57,7 +58,7 @@ Guests can mention the bot and interact with adaptive cards.
 
 ## Federated users
 
-### Install, update, and delete for federated users
+### Install, update, and delete apps for federated users
 
 Federated users can't install, update, or delete apps into any context, such as a personal, chat, channel, or meeting. They don't have access to the Teams app store of the hosting organization.
 
@@ -71,7 +72,7 @@ Federated users can't install, update, or delete apps into any context, such as 
 
 ## Anonymous users
 
-### Install, update, and delete for anonymous users
+### Install, update, and delete apps for anonymous users
 
 Anonymous users can't install, update, or delete apps in meetings.
 
@@ -81,7 +82,9 @@ Anonymous users can't directly use apps in meetings. If an app sends an adaptive
 
 Anonymous users can interact only with the apps that are already available in a meeting but can't acquire and manage such apps. The native users can continue to use meetings apps even when the anonymous users are attending a meeting.
 
-## See also
+## Related articles
 
 * [Allow anonymous users to join meetings](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 * [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
+* [How to allow collaboration with external users](manage-external-access.md).
+* [What can guest users do in Teams](guest-access.md)
