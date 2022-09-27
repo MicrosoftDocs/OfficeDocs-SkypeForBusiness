@@ -37,7 +37,7 @@ You must be either a global admin, global reader, or Teams service admin to view
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |The Teams usage activity report can be viewed for trends over the last 7, 30, 90 and 180 days. |
+|**1**   |The Teams usage activity report can be viewed for trends over the last 7, 30, 90, and 180 days. |
 |**2**   |Each report has a date for when this report was generated. The reports usually reflect a 24-48 hour latency from time of activity. |
 |**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the count of active items or activity.</li> </ul>Hover over the dot representing an item or activity on a given date to see the number of instances of that item or activity on that given date.|
 |**4**   |You can filter what you see on the chart by clicking an item in the legend. For example, click  **Internal active users**, **Active guests**,  **Active channels**, **Posts** etc. to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
