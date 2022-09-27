@@ -108,11 +108,11 @@ Apps can be pinned in Teams to provide users with easy access to the apps. Apps 
 
 :::image type="content" source="media/user-app-experience-pin-apps-option.png" alt-text="Screenshot that shows the pin app option for an app in the Teams desktop client." lightbox="media/user-app-experience-pin-apps.png":::
 
-Admins can pin apps and set the order the apps show up for your users in the Teams app bar or the compose message area using [app setup policies](/teams-app-setup-policies).
+Admins can pin apps and set the order the apps show up for the users in the Teams app bar or the compose message area using [app setup policies](/teams-app-setup-policies).
 
 ### Access apps in Teams
 
-Users can view all the apps installed in their Teams client by going to Teams > In the left menu, select the More added apps icon (**…**). You can view:
+Users can view all the apps installed in their Teams client,  go to Teams > In the left menu, select the More added apps icon (**…**). The type of apps available are:
 
 * **Personal apps**: Any apps the user has added.
 
