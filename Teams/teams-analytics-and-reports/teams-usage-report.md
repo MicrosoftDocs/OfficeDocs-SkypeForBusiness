@@ -61,8 +61,9 @@ To make the data in Teams user activity report anonymous, you have to be a globa
 3. Select **Save changes**.
 
 > [!NOTE]
-> Enabling this setting will de-identify user, group & sitename information in [Teams user activity report](user-activity-report.md), [Teams device usage report](device-usage-report.md) and [Teams usage report](teams-usage-report.md) reports. Starting September 1, 2021, this setting is by default enabled for everyone as part of our ongoing commitment to help protect important information and enable companies support their local privacy laws. 
->This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph and Power BI.
+> Enabling this setting will de-identify user, group, and site name information in [Teams user activity report](user-activity-report.md), [Teams device usage report](device-usage-report.md), and [Teams usage report](teams-usage-report.md). Starting September 1, 2021, this setting is enabled by default for everyone as part of our ongoing commitment to help protect important information and enable companies to support their local privacy laws. 
+>
+>This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI.
 
 ## Related topics
 
