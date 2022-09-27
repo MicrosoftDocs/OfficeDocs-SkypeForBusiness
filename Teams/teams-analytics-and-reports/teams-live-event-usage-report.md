@@ -31,7 +31,7 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 
    :::image type="content" alt-text="Screenshot of the Teams live event usage report in the Teams admin center with callouts." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
-## Interpret the report
+## Interpret the report  
 
 |Callout |Description  |
 |--------|-------------|
