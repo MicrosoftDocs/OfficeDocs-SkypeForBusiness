@@ -46,7 +46,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for auto attendants in the past 6 months
  
- - September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays
+ - September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
  - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
  - July - Call flow during holidays now supports **Play menu options**.
  
@@ -104,7 +104,7 @@ Once you've set your auto attendant's general info, select **Next**.
 
 #### Play menu options
 
-*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection *
+*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 *New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
 
 For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
@@ -164,7 +164,7 @@ Once you've added your after hours call flow, select **Next**.
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
-*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection *
+*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 *New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
 *New - **Play menu options** is now available in Holiday call flows.*
 
