@@ -3,7 +3,7 @@ title: Availability and behavior of Teams apps for different types of users
 author: ashishguptaiitb
 ms.author: guptaashish
 ms.reviewer: kojika
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -20,15 +20,15 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use Teams apps as external or guest user
+# Use Teams apps as external user or guest
 
-Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external users](manage-external-access.md) and [what can guest users do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
+Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external users](manage-external-access.md) and [what can guests do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
 
 The following types of users can be present in a Teams chat or meeting and if you allow it, they can use apps in Teams.
 
 * A **guest user** is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization.
 
-* An **external (federated) user** is from another domain and does not have access to your organization's Teams resources.
+* An **external (federated) user** is from another domain and doesn't have access to your organization's Teams resources.
 
 * An **anonymous user** is a user who joins a meeting via a link. The user isn't logged in with their Microsoft account or their organization’s account.
 
@@ -52,7 +52,7 @@ Guests can mention the bot and interact with adaptive cards.
 
 * For any app, guests adhere to global and org-wide permission policies set for the host organization. If an app is blocked for the whole host organization, then guests can't use the app either.
 * Any bot included in the global default app setup policy will also be installed for guests.
-* After a bot is installed, bots can proactively communicate with guests and guests can communicate back with bots.
+* After a bot is installed, bots and guests can proactively communicate with each other.
 * You can't remove a guest from the global default app setup policy.
 * To avoid guest from accessing bots, you can create more app setup policies, assign them to internal users, and install bots with the custom policies.
 
@@ -66,7 +66,7 @@ Federated users can't install, update, or delete apps into any context, such as 
 
 * People from other organizations adhere to the hosting organization's global (org-wide default) policy
 * Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations can't add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
-* After a bot is installed in a meeting chat, it can proactively communicate with people from other organizations in that chat and those people can communicate with bot.
+* After a bot is installed in a meeting chat, it can proactively communicate with people from other organizations in that chat, and those people can communicate with bot.
 * The data policies of the hosting organization are applied.
 * The data sharing practices of any third-party apps shared by that user's organization are applied.
 
@@ -90,11 +90,11 @@ By default, anonymous users can interact with the existing apps in a meeting. Yo
 
 1. Under **Participants**, change the toggle for **Anonymous users can interact with apps in meetings** to **Off**.
 
-1. Click **Save**.
+1. Select **Save**.
 
 ## Related articles
 
 * [Allow anonymous users to join meetings](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 * [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
 * [How to allow collaboration with external users](manage-external-access.md).
-* [What can guest users do in Teams](guest-access.md)
+* [What can guests do in Teams](guest-access.md)
