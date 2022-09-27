@@ -26,7 +26,7 @@ The Teams device usage report in the Microsoft Teams admin center provides you w
 ## View the device usage report
 
 
-You must be either global admin, global reader or Teams service admin to view the report to view the reports in Teams admin center.. See [Use Teams administrator roles to manage Teams](../using-admin-roles.md) to read about getting admin roles and permissions.
+You must be either a global admin, global reader, or Teams service admin to view reports in Teams admin center. See [Use Teams administrator roles to manage Teams](../using-admin-roles.md) to read about getting admin roles and permissions.
 
 
 1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams device usage**.
