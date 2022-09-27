@@ -57,7 +57,7 @@ We're continually improving the Teams reporting experience and adding features a
 
 ## Make the user specific data anonymous
 
-To make the data in Teams user activity report anonymous, you have to be a global administrator. Global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and AAD ID in report and their export.
+To make the data in Teams user activity report anonymous, you have to be a global administrator. The global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and AAD ID in the report and its export.
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
     
