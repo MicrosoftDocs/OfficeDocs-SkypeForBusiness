@@ -49,9 +49,6 @@ Use one or more custom app permission policies, if you want to control the apps 
 
 1. Sign in to Teams admin center and access **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/app-permission)**.
 1. Select **Add**.
-
-    :::image type="content" source="media/app-permission-policies-new-policy.png" alt-text="Screenshot showing a new app permission policy being created.":::
-
 1. Provide a name and description for the policy.
 1. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following:
 
