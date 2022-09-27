@@ -22,7 +22,7 @@ ms.custom: seo-marvel-apr2020
 
 The Teams usage report in the Microsoft Teams admin center gives you an overview of the usage activity in Teams, including the number of active users and channels, so you can quickly see how many users across your organization are using Teams to communicate and collaborate. You can view usage information for  teams, including the number of active users and channels, guests, and messages in each team.
 
-With more added information about internal and external users, you can now measure collaboration within internal and external [shared channels](/Teams/shared-channels.md) in a team. for example metrics like Active shared channels, External external active users in a team will help admin measure collaboration across shared channels within a team.
+With more added information about internal and external users, you can now measure collaboration within internal and external [shared channels](/Teams/shared-channels.md) in a team. For example, metrics like active shared channels and external active users in a team will help the admin measure collaboration across shared channels within a team.
 
 ## View the usage report
 
