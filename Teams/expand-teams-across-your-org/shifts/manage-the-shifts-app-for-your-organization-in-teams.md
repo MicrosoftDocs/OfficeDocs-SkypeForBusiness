@@ -20,6 +20,8 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - microsoftcloud-retail
+  - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -84,6 +86,17 @@ You can create a [custom app setup policy](../../teams-app-setup-policies.md) by
 A [policy package](../../manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. The set of policies in the Frontline Worker and Frontline Manager policy packages include an app setup policy that pins the Shifts app and other apps that support communication and collaboration activities for that role.
 
 We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce.
+
+### Enable shift-based tags in Teams
+
+[Tags](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) in Teams let users easily connect with a subset of people on a team. With shift-based tags, people are automatically assigned tags that match their schedule and shift group name in Shifts. The tag can be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team.
+
+Shift-based tags let your users reach people who are on-shift in real time. Notifications are sent only to those people who are on-shift at the time the tag is used in a chat or channel post. For example:
+
+- A store manager uses the @Cashiers tag to post an announcement to a channel for all on-shift cashiers.
+- A nurse uses the @CardiologistsOnCall tag to start a chat with all on-call cardiologists.
+
+You can turn the feature on or off in the Microsoft Teams admin center. To learn more, see [Manage tags in Teams](../../manage-tags.md).
 
 ## Search the audit log for Shifts events
 

@@ -11,6 +11,8 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:

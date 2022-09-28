@@ -21,6 +21,8 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365initiative-lists
+  - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: 

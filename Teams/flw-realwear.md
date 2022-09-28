@@ -15,6 +15,8 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - remotework
+  - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---

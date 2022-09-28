@@ -16,6 +16,8 @@ ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.reviewer: yinchang

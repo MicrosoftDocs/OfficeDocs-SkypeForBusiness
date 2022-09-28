@@ -1,5 +1,6 @@
 ---
 title: Change information barriers modes with a PowerShell script
+description: Use this PowerShell script after you deploy information barriers to update the mode from open to implicit for all groups in your tenant.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,13 +8,15 @@ ms.topic: article
 ms.reviewer: smahadevan
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script after you deploy information barriers to update the mode from open to implicit for all groups in your tenant.
+
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
-  - M365-collaboration
+- tier2
+- purview-compliance
+- M365-collaboration
 appliesto: 
   - Microsoft Teams
 ---

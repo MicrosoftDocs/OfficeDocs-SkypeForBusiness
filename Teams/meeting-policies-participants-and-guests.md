@@ -1,7 +1,7 @@
 --- 
 title: Manage meeting policies for participants and guests
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -37,7 +37,7 @@ These settings control which meeting participants wait in the lobby before they'
 - [Chat in meetings](#chat-in-meetings)
 
 > [!NOTE]
->Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+> Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## Let anonymous people join a meeting
 
@@ -88,22 +88,27 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Disabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Not enabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
 |**Not enabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
 
 <a name="bkcontentsharing"> </a>
 
 ## Chat in meetings
 
-This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
-
-This setting doesn't apply to channel meetings. Once this meeting chat policy is applied to users, an organizer can't override this policy through meeting options.
+This is a per-user and per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. This setting doesn't apply to channel meetings.
 
 |Setting value |Behavior  |
 |---------|---------|
 |**Turn it on for everyone**     | All participants can write and view chat messages. |
 |**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
 |**Turn it on for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
+
+Once this **Chat in meetings** policy is applied to users, an organizer can't override this policy through **Meeting options**.
+
+The policy applied to the meeting organizer can affect other users in the meeting. For example:
+
+- If the organizer has **Chat in meetings** set to **Turn it on for everyone** or **Turn it on for everyone but anonymous users**, then a user's individual policy will apply and any users with **Turn it off for everyone** set will not be able to chat in the meeting.
+- If the organizer has **Chat in meetings** set to **Turn it off for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
 
 <a name="bkparticipantsandguests"> </a>
 

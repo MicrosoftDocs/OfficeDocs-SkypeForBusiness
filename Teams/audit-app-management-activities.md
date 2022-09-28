@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
 audience: admin
 ms.collection: 
   - M365-collaboration
@@ -63,6 +64,9 @@ After searching the audit sign in the compliance portal, you can export the audi
 
 > [!NOTE]
 > When one of the above activities is performed by a user or admin, Teams generates and stores an audit record. In Audit (Standard), records are retained for 90 days, which means you can search for activities that occurred within the past three months.
+
+> [!TIP]
+> As an admin, if you want to create a per-user report to know if a user has blocked or muted a bot, see [Understand who blocked, muted or uninstalled a bot](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot).
 
 ## Related articles
 

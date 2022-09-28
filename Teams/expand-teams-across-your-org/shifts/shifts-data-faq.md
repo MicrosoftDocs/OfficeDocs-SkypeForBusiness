@@ -18,6 +18,8 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -92,7 +94,7 @@ To see which what fields have been changed, you can search the Microsoft 365 aud
 
 Shifts Graph APIs let you integrate Shifts data with external workforce management (WFM) systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift).
 
-We also offer managed Shifts connectors and open-source Shifts connectors. With these connectors, you can integrate your WFM system directly with Shifts. To learn more about Shifts connectors and supported WFM systems, see [Shifts connectors](shifts-connectors.md).
+We also offer managed Shifts connectors. With these connectors, you can integrate your WFM system directly with Shifts. To learn more about Shifts connectors and supported WFM systems, see [Shifts connectors](/microsoft-365/frontline/shifts-connectors).
 
 ## Can Shifts data be deleted permanently after a specified period of time?
 

@@ -26,7 +26,12 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 # Microsoft Teams certified Android devices
 
-The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
+The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
+
+> [!IMPORTANT]
+> The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
+>
+> For information about what features are supported on Teams Rooms for Windows and Teams Rooms for Android, including cloud environment support, see [Teams Rooms for Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
 
 Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification end dates are based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and recertifying, or by releasing new models that are state-of-the-art.
 
@@ -69,6 +74,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Tap IP (VR0029) with RoomMate (VR0030) | `1.6.565`  |   September 3, 2024  | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | September 3, 2024 | Small meeting room(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
@@ -83,9 +89,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar      | `1.2.788`     |   September 3, 2024  |    Medium size room (4.5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | August 5, 2023   | Medium size room (4.5 m x 6 m) | 9 |
 | Yealink CTP18 touch console  | `137.15.0.28`    | August 5, 2023   | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | December 5, 2022  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | December 5, 2022   | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
@@ -106,6 +110,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2024 | 10 |
 |Neat Pad Panel    | `NFA1.20220211.1400` | August 5, 2023 | 9 |
 |Crestron TSS-770 | `2.001.0058` |September 3, 2024  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|September 3, 2024 | 10 |
@@ -120,13 +125,15 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 2022 Update #3A  | July 13,2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
+| 2022 Update #4  | September 22, 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
+| 2022 Update #3A| July 13,2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | 2022 Update #3  | July 6,2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
 | 2022 Update #2A  | April 13,2022   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | 2022 Update #2   | March 21,2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | 2022 Update #1C  | March 3,2022  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | 2022 Update #1B  | Feb 7 ,2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
-| 2022 Update #1   | Feb 7 ,2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| 2022 Update #1A  | Feb 7 ,2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| 2022 Update #1   | Feb 6,2022   | `1449/1.0.94.2021724504` |`5.0.5304.0` | `322` |
 | 2021 Update #3C | Dec 16, 2021   | `1449/1.0.94.2021121302` | `5.0.5304.0` | `298` |
 | 2021 Update #3B | Dec 6, 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3A | Nov 22, 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
@@ -147,6 +154,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022 Update #3A    |
+|Poly Trio C60 | `7.3.2.0174` | 2022 Update #3A |
+|Poly CCX 400/500/600/505 | `7.3.2.0182` | 2022 Update #3A |
 |Yealink T55A/T56A/T58A   | `58.15.0.168`     | 2022 Update #3A  |
 |Yealink VP59  | `91.15.0.102`     | 2022 Update #3A  |
 |Yealink CP960  | `73.15.0.163`     | 2022 Update #3A  |
@@ -169,21 +179,21 @@ When you install a new firmware version on your device, you can determine the co
 |Audiocodes C435HD  | `1.14.524` | 2022 Update #1C  |
 | Poly Trio C60   | `7.2.1.1975`  | 2022 Update #1C                        |
 | Poly CCX400/CCX500/CCX600   | `7.2.1.1971`  | 2022 Update #1C            |
-| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | 2022 Update #1 |
-| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | 2022 Update #1 |
-| Poly Trio C60   | `7.2.1.1831`  | 2022 Update #1                        |
-| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 Update #1                 |
-|Crestron UC-2     | `1.0.4.75`    | 2022 Update #1 |
-|Audiocodes C455HD | `1.15.271`    | 2022 Update #1
-|Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
-|Audiocodes C450HD  | `1.14.500` | 2022 Update #1  |
-|Audiocodes C470HD  | `1.14.500` | 2022 Update #1   |
-|Audiocodes C435HD  | `1.14.500` | 2022 Update #1  |
-|Yealink T55/T56/T58   | `58.15.0.153`  | 2022 Update #1B |
-|Yealink MP54/MP56/MP58   | `122.15.0.77`     | 2022 Update #1B  |
-| Yealink VP59   | `91.15.0.87`  | 2022 Update #1B     |
-| Yealink CP960  | `73.15.0.150`  | 2022 Update #1B      |
-| Yealink MP52 | `145.15.0.25`  | 2022 Update #1B         |
+| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | 2022 Update #1A |
+| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | 2022 Update #1A |
+| Poly Trio C60   | `7.2.1.1831`  | 2022 Update #1B                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 Update #1B                 |
+|Crestron UC-2     | `1.0.4.75`    | 2022 Update #1A |
+|Audiocodes C455HD | `1.15.271`    | 2022 Update #1A |
+|Audiocodes C448HD  | `1.14.500` | 2022 Update #1A |
+|Audiocodes C450HD  | `1.14.500` | 2022 Update #1A  |
+|Audiocodes C470HD  | `1.14.500` | 2022 Update #1A   |
+|Audiocodes C435HD  | `1.14.500` | 2022 Update #1A  |
+|Yealink T55/T56/T58   | `58.15.0.153`  | 2022 Update #1 |
+|Yealink MP54/MP56/MP58   | `122.15.0.77`     | 2022 Update #1  |
+| Yealink VP59   | `91.15.0.87`  | 2022 Update #1     |
+| Yealink CP960  | `73.15.0.150`  | 2022 Update #1      |
+| Yealink MP52 | `145.15.0.25`  | 2022 Update #1         |
 | Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
 | Poly CCX400/CCX500/CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
@@ -241,6 +251,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #2B  | Sep 15, 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #2A  | August 8, 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #2  | May 25, 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #1  | February 24, 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -258,6 +269,18 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar  | `1.7.300`     | 2022 Update #2B  |
+| Logi Rallybar Mini  | `1.7.300`     | 2022 Update #2B  |
+| Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
+| Logi Console  | `1.7.200`    | 2022 Update #2B  |
+| EPOS EXPAND Vision 3T |`1.5.22242.02`   | 2022 Update U2A |
+| Yealink MeetingBoard 65" | `155.15.0.10 `   | 2022 Update #2A  |
+| Poly Studio X30 | `3.13.0.368067` | 2022 Update #2A   |
+| Poly Studio X50 | `3.13.0.368067` | 2022 Update #2A |
+| Poly TC8        | `3.13.0.210799`          | 2022 Update #2A   |
+| Yealink MeetingBar A20 | `133.310.0.25 `   | 2022 Update #2A  |
+| Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
+| Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
@@ -353,6 +376,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 Update #3A  | September 16th, 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |2022 Update #3  | July 12, 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |2022 Update #2  | April 25, 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |2022 Update #1A | February 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
@@ -365,6 +389,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.7.200` |2022 Update #2B  |
+|Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
+|Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
 |Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
