@@ -27,25 +27,39 @@ Branding in Teams meetings allows organizations to extend their visual identitie
 
 By default, Teams premium licensed users who have been assigned a meeting customization policy can create branding-enabled meetings. These meetings are branded by default, and anyone who joins the meetings can see the branding (this includes unlicensed internal, external, and anonymous users).
 
+> [!NOTE]
+> Attendees joining Teams through the Web experience won't be able to see branding
+
+## Pre-requisites
+
+Before setting up Branding in Teams Meetings, check to make sure you have the following items:
+
+- Access to the Advanced Communications SKU
+- You’re an admin with access to the Teams admin center
+- You’re a premium licensed user or you’ve been assigned a customization policy
+- Your [custom logo](#adding-a-custom-logo-image), [image](#adding-a-custom-image), and [color](#adding-a-custom-color) meet the required specifications
+
 ## Setting up meeting branding
 
 Tenant admins can set up and manage organizational, custom branding for Teams meetings in the Teams admin center.
 
 ### Creating a customization policy
 
-Meeting Branding lives on the Meeting Customization Policies page in the Teams admin center. To begin setup, admins first needs to create a new meeting customization policy or modify the organizational global default policy.
+Meeting Branding lives on the Meeting Customization Policies page in the Teams admin center. To begin set up, Admins will first need to create a new meeting customization policy or modify the organizational global default policy.  
 
-Within the meeting customization policy, admins can begin defining their branding by creating a meeting theme. To create a new theme, click **Add meeting theme**
+Within the meeting customization policy, admins can begin defining their branding by creating a meeting theme.
 
 Meeting themes house the brand assets for your theme. These include the following:
 
 - Logo - your organization's logo image.
-- Custom image - a brand image from your organization (this is not the same as a virtual background image).
+- Custom image - a brand image from your organization (this isn't the same as a virtual background image).
 - Custom color - your organization's primary or secondary brand color.
+
+To create a new theme, select **Add meeting theme**.
 
 ### Adding a custom logo image
 
-Teams Meetings can support square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1).
+Teams Meetings supports square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1).
 
 Uploads must adhere to the following parameters. An admin can only upload:
 
@@ -59,7 +73,7 @@ Uploads must adhere to the following parameters. An admin can only upload:
 Teams meetings can support brand images that skin the meetings screen and provide a colorful backdrop to your meetings.
 
 > [!NOTE]
-> These images are not the same as virtual background images.
+> These images aren't the same as virtual background images.
 
 Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and uploads must follow these parameters:
 
@@ -72,7 +86,7 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
 
 ### Adding a custom color
 
-Teams meetings can support an organization's primary or secondary brand color in the meeting experience. Admins can enter the hex code value of your organization's brand color, which will appear on key surfaces of the meeting experience.
+Teams meetings supports an organization's primary or secondary brand color in the meeting experience. Admins can enter the hex code value of your organization's brand color, which will appear on key surfaces of the meeting experience.
 
 > [!NOTE]
 > The final color generated may not match your brand color. This is to support Microsoft accessibility standards.
@@ -83,7 +97,7 @@ Once you've added your meeting assets, you can preview how your theme will look 
 
 ### Save meeting theme
 
-By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** will save the meeting theme but will not apply it to any of your meetings. To apply this theme, click **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
+By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** will save the meeting theme but won't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
 
 ### Assigning a Meeting customization policy to Users
 
@@ -150,12 +164,12 @@ Meeting organizers can turn off meeting themes by:
 
 > [!NOTE]
 > - For recurring meetings or series, the meeting option is sticky and will apply for every instance of the meeting.
-> - Meeting themes will not be disabled for meetings that in-progress. To apply changes, you must end the call and restart the meeting.
+> - Meeting themes won't be disabled for meetings that in-progress. To apply changes, you must end the call and restart the meeting.
 
 ### Things to Keep in mind for branding
 
-- Only use your organization's official image assets. Do not use image content that you do not own.
+- Only use your organization's official image assets. Don't use image content that you don't own.
 - Work with your brand and marketing team to ensure that your image assets and colors together follow your organization's brand guidelines.
 - Ensure high-quality logo images, which are visible on small and large screen devices.
 - Colors generated in the Teams App may differ from your brand colors. This is to ensure Microsoft Accessibility Standards are met.
-- Users with high-contrast device settings will not see meeting themes.
+- Users with high-contrast device settings won't see meeting themes.
