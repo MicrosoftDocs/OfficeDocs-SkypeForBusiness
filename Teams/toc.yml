@@ -620,6 +620,28 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
+        - name: Compliant meetings
+          items: 
+            - name: Three tiers of protection overview
+              href: 01-configure-meetings-three-tiers-protection.md
+            - name: Configure baseline protection
+              href: 02-configure-meetings-baseline-protection.md
+            - name: Configure sensitive protection
+              href: 03-configure-meetings-sensitive-protection.md
+            - name: Configure highly sensitive protection
+              href: 04-configure-meetings-highly-sensitive-protection.md
+            - name: Manage who can record meetings
+              href: 05-manage-who-can-record-meetings.md
+            - name: Manage meeting lobby
+              href: 06-configure-lobby-sensitive-meetings.md
+            - name: Limit who can present
+              href: 07-limit-presenters-sensitive-meetings.md
+            - name: Manage chat
+              href: 08-manage-chat-sensitive-meetings.md
+            - name: Encrypt meetings
+              href: 09-end-to-end-encrypted-meetings.md
+            - name: Watermark meetings
+              href: 10-watermark-meeting-content-video.md
         - name: Manage who can start and schedule meetings
           href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
