@@ -28,7 +28,7 @@ This functionality provides you with a signal about the demand for an app within
 
 You retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and UI to manage apps remain the same.
 
-* The default option sends the user requests to Teams admin center where you can [view user requests and allow the requested apps](#view-user-requests-in-teams-admin-center).
+* The default option sends the user requests to Teams admin center where you can [view user requests and allow the requested apps](#view-and-act-on-user-requests-in-teams-admin-center).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
@@ -36,7 +36,7 @@ You retain complete control of the apps that are allowed or blocked for users. I
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the end-user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
 
-## View user requests in Teams admin center
+## View and act on user requests in Teams admin center
 
 The end-user requests received by the default method are displayed in Teams admin center. You can easily view and manage the requests. We recommend a regular triage to check for end-user requests. To view and allow the apps, follow the steps:
 
@@ -85,7 +85,7 @@ If you choose to do so, the methods to evaluate third-party apps and allow the r
 
 ## Dismiss user requests
 
-To dismiss the requests to an allow app, follow the steps:
+To dismiss the requests, follow the steps:
 
 1. Select the name of the app for which you want to dismiss the user requests.
 1. Select **Manage requests**.
