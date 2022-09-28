@@ -1,9 +1,9 @@
 ---
 title: Mobile App extension
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.date: 07/25/2022
+ms.date: 09/28/2022
 ms.reviewer: dstrome
 ms.topic: article
 ms.tgt.pltfrm: cloud
