@@ -1,7 +1,7 @@
 ---
 title: Assign Microsoft Teams Phone with Calling Plan bundle licenses
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

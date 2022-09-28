@@ -1,7 +1,7 @@
 ---
 title: Admin permissions needed to buy Microsoft 365 Business Voice
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

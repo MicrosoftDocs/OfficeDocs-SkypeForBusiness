@@ -1,7 +1,7 @@
 ---
 title: Create Microsoft 365 users, add Teams Phone with Calling Plan bundle licenses, and assign phone numbers
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

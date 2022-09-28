@@ -1,7 +1,7 @@
 ---
 title: Call Quality Dashboard
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

@@ -1,7 +1,7 @@
 ---
 title: Set up a Microsoft Teams Phone System resource account
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

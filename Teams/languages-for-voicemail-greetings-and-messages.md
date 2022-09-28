@@ -1,7 +1,7 @@
 ---
 title: "Teams languages for voicemail greetings and messages"
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe 
+ms.author: crowe 
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article

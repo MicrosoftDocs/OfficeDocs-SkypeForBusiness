@@ -7,8 +7,8 @@ metadata:
   title: Microsoft Teams Phone System with Calling Plan documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to plan, deploy, and use Microsoft Teams Phone System with Calling Plan. # Required; article description that is displayed in search results. < 160 chars.
   ms.topic: hub-page # Required
-  author: dstrome #Required; your GitHub user alias, with correct capitalization.
-  ms.author: dstrome #Required; microsoft alias of author; optional team alias.
+  author: DaniEASmith #Required; your GitHub user alias, with correct capitalization.
+  ms.author: danismith #Required; microsoft alias of author; optional team alias.
   ms.date: 06/17/2020 #Required; mm/dd/yyyy format.
 
 # productDirectory section (optional)
