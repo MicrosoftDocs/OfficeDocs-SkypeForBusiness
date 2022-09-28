@@ -54,7 +54,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 ### Enabling TPM settings
 
 > [!NOTE]
-> TPM must be enabled to enroll in the managed service.
+> TPM must be enabled to enroll in Pro Management.
 
 If TPM on an Intel NUC device is disabled, enable TPM on these devices as follows:
 
