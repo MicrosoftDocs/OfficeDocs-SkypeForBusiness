@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ms.custom: 
 - Security
 appliesto: 
@@ -43,7 +44,7 @@ Walkie Talkie is enabled by default for all Teams users in your organization. Yo
 
 ### Enable or disable Walkie Talkie for specific users in your organization
 
-To allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy, add it to an app setup policy, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md) and [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
 
 ### Pin Walkie Talkie to Teams
 

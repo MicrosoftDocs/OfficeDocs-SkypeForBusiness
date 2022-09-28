@@ -137,7 +137,7 @@ We want to follow the usual order of operations of "inside out" for upgrading Sk
 Extensive dependency updating is required before you begin to disable TLS 1.0 and 1.1 at the operating system level in your Skype for Business Server 2015 deployments. The following are the minimum versions that can support TLS 1.2. Deploy all prerequisite updates across every Skype for Business server in your environment before you begin disabling TLS 1.0 and 1.1.
 
 - Skype for Business Server 2015 CU9 6.0.9319.548 (May 2019) or higher
-- [.NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) or higher with SchUseStrongCrypto enabled in the registry (provided below)
+- [.NET Framework 4.7](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net47) or higher with SchUseStrongCrypto enabled in the registry (provided below)
 - SQL must be updated on all Skype for Business 2015 servers and backends. Update Enterprise Edition Pool SQL Backends first, then their respective FEs. 
     - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926), or higher / SQL Server 2012 SP2 + CU16 or higher / [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014), or higher / SQL Server 2014 SP2
      - [SQL Server Native Client for SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=50402)
@@ -152,7 +152,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
     2. Update databases according to documented procedures. For Skype for Business Server 2015, see KB [3061064](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
     3. Validate product functionality in the deployment prior to moving forward with any other changes.
 2. Download .NET 4.7 Offline Installer. 
-    1. Reference: [https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
+    1. Reference: [.NET Framework 4.7](https://dotnet.microsoft.com/download/dotnet-framework/net47)
     2. Ensure that Skype for Business Server 2015 services are stopped on the Front End server.
     3. Reference: [https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
     4. Ex (Standard Edition): ```Stop-CsWindowsService```
@@ -234,7 +234,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-For SQL back ends for Enterprise Edition Pools, prerequisites and TLS disable should be treated as any SQL or OS updates would; refer to: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
+For SQL back ends for Enterprise Edition Pools, prerequisites and TLS disable should be treated as any SQL or OS updates would; refer to: [https://learn.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 While both the prerequisite application and TLS disabling steps can be combined, we strongly recommend all prerequisites be applied before proceeding with disabling of TLS 1.0 and 1.1 at the operating system level. The best practice approach would be to prepare the environment by deploying all prerequisites, validating that workloads all function correctly and as expected, and then proceeding with TLS 1.0/1.1 disable at a later time.
 
@@ -485,7 +485,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
 1. [Install prerequisites for Skype for Business Server](../../deploy/install/install-prerequisites.md)  
 2. Install .NET 4.7: 
       - **Note:** We first introduced support for .NET 4.7 in Skype for Business Server 2015 CU5 (6.0.9319.281). Therefore, in later steps below we will be updating Core Components prior to the main install.
-      - Download: https://www.microsoft.com/download/details.aspx?id=55167. 
+      - Download: https://dotnet.microsoft.com/download/dotnet-framework/net47. 
       - Reference: [Software that should be installed before a Skype for Business Server 2015 deployment](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. Copy ISO Files/Folders: 
     - With the Skype for Business Server 2015 ISO attached, open the root directory of the drive it is attached as (Ex: D:\) in File Explorer.

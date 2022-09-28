@@ -61,7 +61,7 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
 If you're new to Teams, the best way to get familiar with it is to start using it right away. The great thing about Teams is that what you set up now won't get in the way of any upgrades or migrations you might need to do later.
 
 > [!TIP]
-> Check out the learning paths and modules available in [Microsoft Learn for Teams](/learn/teams/). You can get a tour of the [Teams admin center](/learn/modules/m365-teams-navigate-admin-portal/), learn how to [configure your network for Teams](/learn/modules/m365-teams-connectivity/), get ideas on how to best [onboard your users to Teams](/learn/modules/m365-teams-onboard-users/), and more!
+> Check out the learning paths and modules available in [Microsoft Learn for Teams](/training/teams/). You can get a tour of the [Teams admin center](/training/modules/m365-teams-navigate-admin-portal/), learn how to [configure your network for Teams](/training/modules/m365-teams-connectivity/), get ideas on how to best [onboard your users to Teams](/training/modules/m365-teams-onboard-users/), and more!
 
 Use the steps below to set up a couple teams and onboard a few early adopters to help you get familiar with Teams.
 

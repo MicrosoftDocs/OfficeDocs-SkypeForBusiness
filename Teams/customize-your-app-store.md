@@ -1,12 +1,13 @@
 ---
 title: Customize your app store in Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection: 
   - M365-collaboration
@@ -31,23 +32,11 @@ You can access the customized store in the Teams admin center by selecting **Tea
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Here you can upload your organization logo. The logo selected will appear in the Teams client in **Apps** > **Built for your tenant** page.
+Here you can upload your organization logo. The logo selected will appear in the Teams client in **Apps** > **Built for your org** page.
 
 When you select the **Choose a picture** option, you can upload the file of your choice. The logo should be 240x60, or it will be scaled to that size. It should be no larger than 5 MB. The supported formats are .svg, .png, and .jpg.
 
 The logo is shown in the top, right corner of the tenant app catalog in the Teams store.
-
-## Customize your small logo
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-Your organization logo mark or small logo is an image or symbol that represents your organization brand and doesn't include your company name. The lovemark helps team members identify the Apps store. The logo selected will appear in the Teams client in Apps page.
-
-Select the **Choose a picture** option and upload a file of your choice. Keep the logo mark resolution up to 32x32 pixels or it's downsampled to this resolution. Keep the file size less than 5 MB. The supported formats are .svg, .png, and .jpg.
-
-Teams Store displays the logo next to the **Built for your tenant** section.
 
 ## Customize the background color
 
@@ -55,7 +44,7 @@ Teams Store displays the logo next to the **Built for your tenant** section.
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Make sure that the background has enough contrast with the text so the users can read the text clearly. The background will appear in the Teams client in **Apps** > **Built for your tenant** header.
+Make sure that the background has enough contrast with the text so the users can read the text clearly. The background will appear in the Teams client in **Apps** > **Built for your org** header.
 
 Your options are:
 
@@ -71,7 +60,7 @@ The background image or color is used as the background for the top banner in th
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Provide enough contrast to the text color as compared to the background so that the end-users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your tenant** header.
+Provide enough contrast to the text color as compared to the background so that the end-users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your org** header.
 
 When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 

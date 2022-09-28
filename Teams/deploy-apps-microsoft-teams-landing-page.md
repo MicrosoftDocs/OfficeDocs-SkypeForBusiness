@@ -12,6 +12,7 @@ ms.subservice: teams-apps
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -22,9 +23,11 @@ ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # Understand Microsoft Teams apps
 
-Apps are a great way to bring together your workplace tools and services and collaborate with others. Apps help end-users be more productive, collaborative, and effective in their day-to-day tasks. Organizations use apps to connect with their customers, provide services, and share information. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel.
+Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed locally.
 
-Our extensive catalog of validated and secure apps in Teams Store provides end-users access to the tools and services that your organization needs every day. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed. End-users can use apps in Teams based only on the [permissions provided by you](app-policies.md). As an admin, you use enterprise-grade policies to allow or block any app for your organization's users. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
+As an admin, you set an app governance process that balances wide-ranging requirements of end-users along with your organization's IT policies, standards, and risk-profiles.
+
+Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides end-users access to the tools and services that your organization needs every day. Teams admin center provides admins enterprise-grade controls and configurations to govern the apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
 
 This article helps you understand the types of apps and where from your users access those apps. To learn more about the use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -47,7 +50,7 @@ Microsoft provides many apps to improve productivity and collaboration. You and 
 
 Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot showing a list of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## Third-party apps validated by Microsoft
 
@@ -89,7 +92,7 @@ Webhooks and connectors deliver content and updates from services that end-users
 
 Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to navigate away from the conversation. Messaging extensions can have search commands for end-users to quickly find external content and insert it in a message or action commands.
 
-To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app features](/microsoftteams/platform/concepts/design/map-use-cases).
+To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
@@ -162,6 +165,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## Related articles
+## Related article
 
 * [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).

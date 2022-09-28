@@ -1,7 +1,7 @@
 ---
 title: Manage general meeting policies
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -149,7 +149,7 @@ To turn off meeting registration and prevent users from scheduling webinars, set
 
 This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Meeting registration** is turned on.
 
-- Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization set up.
+- Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization setup.
 - Set **Who can register** to **Everyone in the organization** if you want to allow only the users in your organization to register and attend webinars.
 
 By default, **Who can register** is set to **Everyone**. To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**.
@@ -176,8 +176,9 @@ To specify which meeting add-in you want to be available to users, set the **Pre
   If you set the parameter to **Teams**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. However, note that existing Teams meeting join links won't be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
 
 ## Meeting reactions
+The availability of meeting reactions can be configured through either the Teams admin center interface or using PowerShell. Meeting reactions can be enabled or disabled under the **Participants & guests** section of a meeting policy.
 
-The AllowMeetingReactions setting can only be applied using PowerShell. There is no option to toggle AllowMeetingReactions on or off from the Teams admin center.
+To configure the setting, use the Set-CsTeamsMeetingPolicy cmdlet. This setting is enabled by default. To turn it off, set **AllowMeetingReactions** to **False**.
 
 Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 

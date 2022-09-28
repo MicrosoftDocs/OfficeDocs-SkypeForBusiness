@@ -216,6 +216,9 @@ To **add a group** to the queue:
   
 Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are using compatible clients.
 
+> [!TIP]
+> Setting **Conference mode** to **On** is the recommended setting.
+
 > [!NOTE]
 > Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 >
@@ -225,13 +228,9 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
 
-
-> [!TIP]
-> Setting **Conference mode** to **On** is the recommended setting.
-
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 4: Agent routing](#tab/agent-routing)
+# [Step 4: Agent selection](#tab/agent-selection)
 
 ## Step 4: Select your agent routing options
 
@@ -247,7 +246,8 @@ Choose from these options:
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose presence state isn't Available won't be eligible to receive calls until they change their presence to Available.
 
-We recommend setting your **Routing Method** to either **Round robin** or **Longest idle**.
+> [!TIP]
+> Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
 
 > [!NOTE]
 > If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** isn't supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
@@ -268,7 +268,8 @@ You can enable **presence-based call routing** with any of the routing methods.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
 
-We recommend turning on **Presence-based routing**.
+> [!TIP]
+> Setting the **Presence-based routing** to **on** is the recommended setting.
 
 > [!NOTE]
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
@@ -289,7 +290,8 @@ We recommend turning on **Call agents can opt out of taking calls**.
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-We recommend setting the **Agent alert time** to **20 seconds**.
+> [!TIP]
+> Setting the **Agent alert time** to a minimum **20 seconds** is the recommended setting.
 
 Once you've selected your agent call routing options, select the **Next** button at the bottom of the **Add a call queue** page.
 
@@ -345,11 +347,11 @@ The following settings are recommended:
 - **Conference mode** to **On**
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
-- **Agent alert time:** to **20 seconds**
+- **Agent alert time:** to a minimum of **20 seconds**
 
 ### Call queue feature compatibility
 
-|Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
+|Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Agent Routing Methods**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
@@ -357,11 +359,11 @@ The following settings are recommended:
 |`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
 |`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Recommended* |
-|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |
@@ -369,8 +371,8 @@ The following settings are recommended:
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|`Direct Routing`                 |Y                         |Y         |Y               |N    |N         |Y                     |Y                         |   |
-|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
@@ -383,6 +385,10 @@ The following settings are recommended:
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+8. Only public channels are supported.
+9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
 8. Only public channels are supported.
 9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
 

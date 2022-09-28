@@ -620,8 +620,8 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
-        - name: Meeting policies and meeting expiration
-          href: meeting-expiration.md
+        - name: Manage who can start and schedule meetings
+          href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
@@ -681,6 +681,41 @@ items:
               href: teams-live-events/configure-teams-live-events.md
             - name: Live events recording policies
               href: teams-live-events/live-events-recording-policies.md
+
+        - name: Create a Teams hybrid meeting experience
+          items:
+          - name: "Overview"
+            href: hybrid-meetings-overview.md
+          - name: "Hybrid meeting principles"
+            href: hybrid-meetings-principles.md
+          - name: "Step 1 - Get familiar with Teams meeting features"
+            href: hybrid-meetings-features.md
+          - name: "Step 2 - Evangelize meeting best practices"
+            href: hybrid-meetings-educate-participants.md
+          - name: "Step 3 - Design and build a meeting space"
+            href: hybrid-meetings-room-design.md
+          - name: "Step 4 - Select room devices"
+            href: hybrid-meetings-device-select.md
+          - name: "Step 5 - Set up your devices"
+            items:
+              - name: Overview
+                href: hybrid-meetings-device-config-intro.md
+              - name: Step 1 - Purchase a Teams Rooms license
+                href: hybrid-meetings-device-config-license.md
+              - name: Step 2 - Create a resource account
+                href: hybrid-meetings-device-config-account.md
+              - name: Step 3 - Assign a meeting room license
+                href: hybrid-meetings-device-config-assign.md
+              - name: Step 4 - Configure mailbox properties
+                href: hybrid-meetings-device-config-mailbox.md
+              - name: Step 5 - Turn off password expiration
+                href: hybrid-meetings-device-config-password.md
+              - name: Step 6 - Configure meeting policies
+                href: hybrid-meetings-device-config-policies.md
+              - name: Step 7 - Configure calendar options
+                href: hybrid-meetings-device-config-calendar.md
+          - name: "Step 6 - Manage and monitor rooms and meetings"
+            href: hybrid-meetings-manage.md
     - name: Audio conferencing
       items: 
         - name: Audio Conferencing in M365
@@ -884,6 +919,12 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect Mobile
+          items:
+            - name: Plan for Operator Connect Mobile
+              href: operator-connect-mobile-plan.md
+            - name: Configure Operator Connect Mobile
+              href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
             - name: What's new
@@ -934,7 +975,7 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
-            - name: Monitor and troubleshoot Direct Routing
+            - name: Monitor Direct Routing
               items: 
                 - name: Overview
                   href: direct-routing-monitor-and-troubleshoot.md
@@ -998,6 +1039,9 @@ items:
         
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
+
+        - name: Manage phone numbers for Operator Connect Mobile
+          href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1160,8 +1204,6 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
-            - name: Phone number management for Mexico
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
             - name: Phone number management for New Zealand
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
             - name: Phone number management for Norway
@@ -1350,6 +1392,10 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
+            - name: Overview of Teams Rooms licensing
+              href: rooms/rooms-licensing.md
+            - name: Teams Rooms admin center licensing
+              href: rooms/admin-center-license-overview.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1364,8 +1410,6 @@ items:
               href: rooms/requirements.md
             - name: Security
               href: rooms/security.md
-            - name: Online Licensing
-              href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1535,6 +1579,8 @@ items:
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Manage apps provided by Microsoft
       items:
+        - name: Manage the Admin app
+          href: manage-admin-app.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1558,7 +1604,7 @@ items:
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
-        - name: Understand app validation by Microsoft
+        - name: App checks, testing, and validation done by Microsoft
           href: overview-of-app-validation.md
         - name: Security, compliance, and privacy of third-party apps
           href: overview-of-app-certification.md
@@ -1568,6 +1614,10 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Customize app branding using app customization
+          href: customize-apps.md
+        - name: Manage access to apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
 
     - name: Manage custom apps
       items:
@@ -1577,9 +1627,9 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish a custom app submitted as package
+        - name: Publish a custom app submitted as a package
           href: upload-custom-apps.md
-        - name: Manage Power Platform apps in Teams admin center
+        - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 
     - name: Admin controls to govern apps
@@ -1604,14 +1654,14 @@ items:
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
-        - name: Customize appearance and metadata of apps
-          href: customize-apps.md
         - name: Brand your org app store
           href: customize-your-app-store.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: App behavior based on types of users
+        - name: Use apps as external or guest users
           href: non-standard-users.md
+        - name: Manage user requests
+          href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
         - name: Audit app management activities
@@ -1810,7 +1860,9 @@ items:
         - name: Teams PowerShell release notes
           href: teams-powershell-release-notes.md
         - name: Teams PowerShell supported versions
-          href: teams-powershell-supported-versions.md
+          href: teams-powershell-supported-versions.md 
+        - name: Application-based authentication in Teams PowerShell Module
+          href: teams-powershell-application-authentication.md
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams
