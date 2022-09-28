@@ -11,6 +11,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ms.reviewer: kojika
 search.appverid: MET150
 f1keywords: 
