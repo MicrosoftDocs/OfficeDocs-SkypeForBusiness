@@ -38,6 +38,8 @@ Microsoft offers two licenses for meeting room devices that participate in Teams
 
 A Teams Rooms Basic license can be used to license a single certified Teams Rooms device in a room. If you want to log into more than one device in a room using the same resource account (for example, a Teams Rooms console, a Surface Hub, and a Teams panel), you need to use a Teams Rooms Pro license.
 
+The remote administration tasks you perform on a Teams Rooms device in the Teams admin center depend on the license that's assigned the device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](https://learn.microsoft.com/microsoftteams/rooms/admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license).
+
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 ## Teams Rooms license service plan comparison
