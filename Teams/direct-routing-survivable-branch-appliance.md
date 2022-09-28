@@ -204,7 +204,7 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 
 ## Known issues
 
-- As SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, presently SBA can support up to 24 hours outages, counting from last authentication. This means that if outage occurs 20 hours after last authentication token renewal, SBA will be operational only for 4 remaining hours.
+- As SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, presently SBA can support outages for up to 24 hours from the last authentication. This means that if an outage occurs 20 hours after the last authentication token renewal, SBA will be operational only for the remaining 4 hours.
 
 - When you add new Survivable Branch Appliances, it might take some time before you can use them in Survivable Branch Appliance policies.
 
