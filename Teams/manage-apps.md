@@ -86,7 +86,7 @@ To allow an app for specific users, see [app permission policies](teams-app-perm
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users.
+Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization.
 
 > [!NOTE]
 > To learn how to use org-wide app settings in Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
@@ -111,7 +111,8 @@ Use org-wide app settings to control whether users with an [F license](https://w
     * **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
-1. Select **Save** for org-wide app settings to take effect.
+
+1. Select **Save**. The settings take effect after a few hours.
 
 ## Manage org-wide app settings for Microsoft 365 Government  
 
@@ -128,7 +129,7 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 1. On the **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-   :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="Screenshot of org-wide app settings in GCC.":::
+   :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="Screenshot that shows the Org-wide app settings in GCC.":::
 
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
@@ -139,7 +140,7 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 1. Select **Save** for org-wide app settings to take effect.
 
-To allow third-party apps, either edit and use the global (Org-wide default) policy or create and assign custom policies.
+To allow third-party apps, either edit and use the global (Org-wide default) policy or create and assign an admin-created policy.
 
 ### For GCCH and DoD clouds
 
