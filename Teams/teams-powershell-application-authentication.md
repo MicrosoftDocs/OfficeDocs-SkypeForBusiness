@@ -21,7 +21,29 @@ Application-based authentication is supported now in Teams PowerShell Module for
 
 ## Cmdlets Supported
 
-All Non \*-Cs cmdlets (for example, Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlets are already supported. Other cmdlets will be gradually rolled out. 
+Cmdlets below are already supported, other cmdlets will be gradually rolled out. 
+
+  - Non \*-Cs cmdlets (for example, Get-Team)
+  - Get-CsTenant
+  - Get-CsOnlineUser 
+  - Get-CsOnlineVoiceUser
+  - \*-CsOnlineSipDomain 
+  - \*-CsPhoneNumberAssignment
+  - \*-CsOnlineTelephoneNumberOrder
+  - Get-CsOnlineTelephoneNumberType
+  - Get-CsOnlineTelephoneNumberCountry
+  - \*-CsCallQueue
+  - \*-CsAutoAttendant
+  - \*-CsAutoAttendant\*
+  - \*-CsOnlineVoicemailUserSettings
+  - Find-CsOnlineApplicationInstance
+  - \*-CsOnlineApplicationInstanceAssociation
+  - \*-CsOnlineSchedule
+  - \*-CsOnlineAudioFile
+  - New-CsOnlineTimeRange
+  - New-CsOnlineDateTimeRange
+  - Find-CsGroup
+  - Get-CsOnlineApplicationInstanceAssociationStatus
 
 
 ## Examples
