@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms Premium-managed service
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: 
 ms.topic: article
