@@ -26,7 +26,7 @@ description: Learn how to upload your custom apps to your organization's app sto
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see the [Teams developer documentation](/microsoftteams/platform/).
 
-![Overview of your app from development to deployment.](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="Overview of your app from development to deployment.":::
 
 ## Create your app
 
@@ -79,7 +79,7 @@ To make the app available to users in your organization's app store, upload the 
 
 1. Select **Upload**, select **Upload**, select the app package that you received from the developer, and select **Open**.
 
-   ![Screenshot of custom app upload in the admin center.](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="Screenshot of custom app upload in the admin center.":::
 
 ## Set up and manage
 

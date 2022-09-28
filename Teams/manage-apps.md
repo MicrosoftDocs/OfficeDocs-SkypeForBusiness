@@ -11,7 +11,8 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - m365-frontline
-ms.reviewer: vaibhava
+  - highpri
+ms.reviewer: kojika
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
@@ -20,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Manage Teams apps in the Microsoft Teams admin center
+# Overview of app management and governance in Teams admin center
 
 You manage apps for your organization in **Teams apps** page in the Teams admin center portal. Use the Manage apps page to view and manage all Teams apps in your organization's app catalog, cater to prominent use cases for app management, define access to apps using policies, and more.
 
@@ -67,17 +68,21 @@ App management tasks that are supported on other portals are in the table below.
 
 ## Allow and block apps
 
-The Manage apps page is where you allow or block individual apps at the org level. The page displays all the available app and their current org-level app status. The list of apps includes apps provided by Microsoft, by third-party developers, and by developers within your organization.
+As an admin, you control access to all types of apps that are used across all context by all your users. Teams provides granular controls to configure access for each app and for each user.
 
-To allow or block an app:
+To allow an app, all the following settings must be done. To block an app, block it via any one of the following settings.
+
+* [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings): Use this setting to allow use of apps in your org. You decide which specific apps are used.
+* [Allow an individual app](manage-apps.md#allow-and-block-apps): Use this setting to allow a specific app in your org. You decide which users can use the app.
+* [App permission policy](teams-app-permission-policies.md): Use policies to allow all or allow specific users to use an app. You decide access on a per-user and per-app basis.
+
+The Manage apps page is where you allow or block individual apps at the org level. The page displays all the available app and their current org-level app status. To allow or block an app, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**
-1. Select an app from the list of apps. You can search by the name of the app.
+1. Locate an app and select it.
 1. Select **Allow** or **Block** option.
 
-When you allow (or block) an app on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center, the particular app is allowed (or blocked) for all users in your organization. This method differs from the app permission policy in the context that allowing (or blocking) an app via permission policy, impacts only the specific users who are assigned the policy.
-
-A user can install and use an app only when the app is allowed via the tenant-wide setting and allowed for the user via permission policy.
+To allow an app for specific users, see [app permission policies](teams-app-permission-policies.md).
 
 ## Allow the apps that are blocked by the developers
 
@@ -120,5 +125,4 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
 ## Related article
 
-* [Manage Teams during the transition from Skype for Business admin center](manage-teams-skypeforbusiness-admin-center.md)
 * [Manage user requests to allow apps](user-requests-approve-apps.md).

@@ -15,6 +15,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - tier1
+  - purview-compliance
 f1.keywords:
 - NOCSH
 appliesto: 
