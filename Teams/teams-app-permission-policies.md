@@ -91,7 +91,7 @@ The following are a few considerations when using app permissions policies to gr
 
 * Users can search for blocked apps and request admin approval. Admins retain complete control to [approve or ignore user requests](user-requests-approve-apps.md).
 
-* You can use app setup policies together with app permission policies. Pre-pinned apps are selected from the set of enabled apps for a user. Additionally, if a user has an app permission policy that blocks an app in their app setup policy, that app won't appear in Teams.
+* App setup policies work together with app permission policies. You select apps to pin in setup policy from a set of allowed apps. However, if a user has an app permission policy that blocks the use of a pinned app, then the user cannot use the app.
 
 * App policies apply to users using any Teams on web, mobile, or desktop.
 
