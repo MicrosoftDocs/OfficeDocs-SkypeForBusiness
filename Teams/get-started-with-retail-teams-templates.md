@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to manage and use the retail team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your retail organization. 
