@@ -20,4 +20,4 @@ description:
 
 # Configure Teams meetings with three tiers of protection
 
-[!INCLUDE[Teams Enterprise ECM](/includes/teams-enterprise-ecm.md)]
+[!INCLUDE[Teams Enterprise ECM](includes/teams-enterprise-ecm.md)]
