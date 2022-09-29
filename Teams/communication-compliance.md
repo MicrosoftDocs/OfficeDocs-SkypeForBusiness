@@ -1,5 +1,6 @@
 ---
 title: Communication compliance with Microsoft Teams
+description: Learning about communication compliance, part of the insider risk solution set, from the Microsoft Teams perspective (this is part of the M365 communication compliance functionality).
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,13 +8,14 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: Learning about communication compliance, part of the insider risk solution set, from the Microsoft Teams perspective (this is part of the M365 communication compliance functionality).
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-ms.collection: 
-  - M365-collaboration
+ms.collection:
+- tier1
+- purview-compliance
+- M365-collaboration
 appliesto: 
   - Microsoft Teams
 ---
