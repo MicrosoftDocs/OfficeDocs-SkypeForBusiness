@@ -2901,12 +2901,12 @@
      "redirect_document_id": false
     },
     {
-      "source_path": "Teams/rooms/extended-mobile-app.md",
+      "source_path": "MicrosoftTeams/rooms/extended-mobile-app.md",
       "redirect_url": "/microsoftteams/rooms/microsoft-teams-rooms-premium",
       "redirect_document_id": false
      },
     {
-      "source_path": "Teams/rooms/obtaining-assigning-license.md",
+      "source_path": "MicrosoftTeams/rooms/obtaining-assigning-license.md",
       "redirect_url": "/microsoftteams/rooms/microsoft-teams-rooms-premium",
       "redirect_document_id": false
      },
