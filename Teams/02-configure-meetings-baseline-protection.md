@@ -18,3 +18,5 @@ description:
 ---
 
 # Configure Teams meetings with baseline protection
+
+[!INCLUDE[Teams Enterprise ECM](../includes/teams-enterprise-ecm.md)]
