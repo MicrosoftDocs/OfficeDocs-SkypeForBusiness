@@ -125,8 +125,6 @@ Incidents that have status set to **“Needs Action”** are assigned to you to 
 
 Each such incident will have an action field with a recommended action from Microsoft as follows:
 
-![Screenshot showing recommended incident action](../media/rooms-monitor-005.jpg)
-
 - If you have taken the action, you can respond to the incident with your notes to provide additional context in the Respond box.
 
 ### “System Investigating” incidents
