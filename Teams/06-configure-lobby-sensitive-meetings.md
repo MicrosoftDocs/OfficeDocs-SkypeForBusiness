@@ -18,3 +18,5 @@ description:
 ---
 
 # Configure the lobby for sensitive Teams meetings
+
+[!INCLUDE[Teams Enterprise ECM](includes/teams-enterprise-ecm.md)]

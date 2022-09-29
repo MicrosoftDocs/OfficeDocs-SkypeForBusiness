@@ -19,3 +19,4 @@ description:
 
 # Configure Teams meetings with protection for sensitive data
 
+[!INCLUDE[Teams Enterprise ECM](includes/teams-enterprise-ecm.md)]
