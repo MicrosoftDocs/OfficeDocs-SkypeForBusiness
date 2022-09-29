@@ -53,7 +53,7 @@ You can control end-user access to the Teams apps using the following methods. I
 > [!NOTE]
 > Users who have installed an existing in-market add-ins of the same app in Outlook and Office will continue to use that app. The add-ins are not Teams apps and Teams administrators can not govern the access.
 
-## See also
+## Related articles
 
 * [Microsoft Teams apps designed for Microsoft 365 coming in Preview to Outlook and Office.com](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [Understand admin roles in Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  
