@@ -36,7 +36,7 @@ When a room is (or rooms are) selected as part of the Record an issue, each room
 
 Recorded issues can be closed by either the customer or partners managing rooms on behalf of customers.
 
-**To close an recorded issue ticket**
+**To close a recorded issue ticket**
 
 1. Select **Close ticket**.
 
