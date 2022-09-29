@@ -25,12 +25,12 @@ ms.custom:
   - seo-marvel-mar2020
 ---
 
-# Manage custom app policies and settings in Microsoft Teams
+# Manage custom apps and settings in Teams admin center
 
 <!--- TBD: Describe custom apps
 --->
 
-As a Teams admin, you use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them. After you edit or apply a custom app policy, it takes a few hours for changes to take effect. You must be a Global Admin or Teams service admin to manage these policies.
+As a Teams admin, you use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them. After you edit the custom app policy, it can take a few hours for changes to take effect. You must be a Global Admin or Teams service admin to manage these policies.
 
 Developers within your organization can add a custom app to Teams by uploading an app package (in a .zip file) directly to a team or in the personal context. This is different from how apps are added through the Teams app store. Adding a custom app by uploading an app package, also known as sideloading, lets specific users within your organization to test an app, before it's ready to be widely distributed.
 
@@ -46,7 +46,7 @@ These settings don't affect the ability to block third-party apps.
 
 ### User custom app policy
 
-As part of [app setup policies](teams-app-setup-policies.md), admins can use a policy setting, **Upload custom apps**, to control whether a user can upload custom apps to Teams.
+As part of [app setup policies](teams-app-setup-policies.md), admins can use the setting **Upload custom apps**, to control whether a user can upload custom apps to Teams.
 
 If this setting is turned off:
 

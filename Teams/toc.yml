@@ -1644,8 +1644,6 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-          - name: Manage custom app policies and settings
-            href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Review Azure AD permissions and grant admin consent
@@ -1656,8 +1654,6 @@ items:
           href: app-permissions.md
         - name: Brand your org app store
           href: customize-your-app-store.md
-        - name: Manage access to apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
         - name: Use apps as external or guest users
           href: non-standard-users.md
         - name: Manage user requests
