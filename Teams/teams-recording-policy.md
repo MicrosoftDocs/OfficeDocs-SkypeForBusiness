@@ -20,6 +20,7 @@ ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 - tier3
+- purview-compliance
 appliesto: 
 - Microsoft Teams
 ---
@@ -205,7 +206,7 @@ policies when a communication interaction takes place. Compliance
 recording policies are managed using [Microsoft
 PowerShell](./teams-powershell-overview.md)
 and can be applied at the tenant, per-user, and security group level for each
-organization. You can find more information on Microsoft Docs for
+organization. You can find more information on Microsoft Learn for
 [Meeting
 policies](./meeting-policies-overview.md),
  [calling

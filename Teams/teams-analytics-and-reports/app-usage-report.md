@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams app usage report
 
-The Teams app usage report in the Microsoft Teams admin center provides you with information about which apps users are using in Teams.  
+The Teams app usage report in the Microsoft Teams admin center provides you with insights about which apps users are using in Teams. You can gain insights into the Teams apps activity in your organization. This article explains how to access the report and view and interpret the various metrics within the report. 
 
 ## View the App Usage report
 
@@ -31,7 +31,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 1. On the **View reports** tab, under **Report**, select **Apps Usage**.
 
-1. Under **Date range**, select a range, and then select **Run report**. You can view the Teams Apps Usage report for trends over the last 7, 30 or 90 days.
+1. Under **Date range**, select a range, and then select **Run report**. You can view the Teams Apps Usage report for trends over the last 7, 30, 90, and 180 days.
 
    :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="Screenshot of the Apps Usage report interface." lightbox="media/app-usage-report2.png":::
 
@@ -39,7 +39,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 :::image type="content" alt-text="Screenshot of the Teams app usage report in the Teams admin center with callouts." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
-Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-hour latency from the time an app was opened.
+Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-48 hour latency from the time an app was opened.
 
 Admin center provides a chart of the active users and the dates. Active users is the number of users who opened an app at least once during the selected time period.
 
