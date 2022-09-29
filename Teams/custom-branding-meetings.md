@@ -23,9 +23,9 @@ description: Using approved corporate assets like images and logos to create a c
 > [!NOTE]
 > Custom organizational meeting branding is part of the Teams premium Offering. To create a branding-enabled meeting, meeting organizers must have a Teams premium license.
 
-Branding in Teams meetings allows organizations to extend their visual identities across the meeting experience. Brand images and colors help foster internal corporate culture building and increase overall brand awareness with external meeting participants. With the help of an organization's brand management and corporate communications teams, tenant admins can easily set up and create branded meeting themes for a variety of business units and departments within a single tenant.
+Branding in Teams meetings allows organizations to extend their visual identities across the meeting experience. Brand images and colors help foster internal corporate culture building and increase overall brand awareness with external meeting participants. With the help of an organization's brand management and corporate communications teams, tenant admins can easily set up and create branded meeting themes for various business units and departments within a single tenant.
 
-By default, Teams premium licensed users who have been assigned a meeting customization policy can create branding-enabled meetings. These meetings are branded by default, and anyone who joins the meetings can see the branding (this includes unlicensed internal, external, and anonymous users).
+By default, Teams premium licensed users who have been assigned a meeting customization policy can create branding-enabled meetings. These meetings are branded by default, and anyone who joins the meetings can see the branding (including unlicensed internal, external, and anonymous users).
 
 > [!NOTE]
 > Attendees joining Teams through the Web experience won't be able to see branding
@@ -49,10 +49,10 @@ Meeting Branding lives on the Meeting Customization Policies page in the Teams a
 
 Within the meeting customization policy, admins can begin defining their branding by creating a meeting theme.
 
-Meeting themes house the brand assets for your theme. These include the following:
+Meeting themes house the brand assets for your theme. These include the following assets:
 
 - Logo - your organization's logo image.
-- Custom image - a brand image from your organization (this isn't the same as a virtual background image).
+- Custom image - a brand image from your organization (custom images aren't the same as virtual background images).
 - Custom color - your organization's primary or secondary brand color.
 
 To create a new theme, select **Add meeting theme**.
@@ -89,7 +89,7 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
 Teams meetings supports an organization's primary or secondary brand color in the meeting experience. Admins can enter the hex code value of your organization's brand color, which will appear on key surfaces of the meeting experience.
 
 > [!NOTE]
-> The final color generated may not match your brand color. This is to support Microsoft accessibility standards.
+> To support Microsoft accessibility standards, the final color generated may not match your brand color.
 
 ### Previewing a meeting theme
 
@@ -105,11 +105,11 @@ Meeting customization policies can be assigned to one, many, or a pre-defined us
 
 ### Use Cases for Multiple Departments or Business Units in One Tenant
 
-For organizations with more than one business unit or department under a different brand identity within the same tenant, admins can create meeting customization policies dedicated to each brand, and assign a department or business unit user group to a specific policy.
+Some organizations have more than one business unit or department under a different brand identity which live within the same tenant. In these cases, admins can create meeting customization policies that are dedicated to each brand, and assign a department or business unit user group to a specific policy.
 
 #### A use case
 
-Contoso Ltd. has a single Tenant in Microsoft Teams, which has the user profiles of all of their employees across their different business organizations. To continue increasing their brand presence with their clients, as well as encourage an internal corporate culture, the company is looking to adopt custom branded meetings in Teams.
+Contoso Ltd. has a single Tenant in Microsoft Teams, which has the user profiles of all of their employees across their different business organizations. To continue increasing their brand presence with their clients, and encourage an internal corporate culture, the company is looking to adopt custom branded meetings in Teams.
 
 Contoso has two business units (BUs) under their organization: Contoso Technical Services and Contoso Education. Both BUs have their own distinct brand imagery, and want to display their branding during their internal and external meetings.
 
@@ -140,7 +140,7 @@ Supported clients:
 
 ### Who can view a meeting theme
 
-While only licensed users who are assigned a meeting customization policy can create branding-enabled meeting, anyone can view the branding that's applied to a meeting. This includes:
+While only licensed users who are assigned a meeting customization policy can create branding-enabled meeting, anyone can view the branding that's applied to a meeting. These users include:
 
 - In-tenant, Teams Premium licensed users
 - In-tenant, non-licensed users
