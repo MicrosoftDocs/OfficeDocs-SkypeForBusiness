@@ -12,6 +12,7 @@ description: Learn how to manage the Praise app in the Microsoft Teams admin cen
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ---
 
 # Manage the Praise app in the Microsoft Teams admin center

@@ -10,6 +10,7 @@ ms.collection:
   - m365initiative-meetings
   - m365solution-spcomms
   - m365solution-scenario
+  - highpri
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
