@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams Rooms Portal
-author: donnah007
-ms.author: v-donnahill
+title: Microsoft Teams Rooms Pro Management Portal
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -21,18 +21,17 @@ f1keywords:
 
 
 
-# Microsoft Managed Meeting Rooms Portal
+# Microsoft Teams Rooms Pro Management Portal
 
 ## Overview
 
-The Managed Meeting Rooms Portal (“Rooms Portal”) provides a view of the health of your meeting rooms. A customer view of this portal is for your visibility and feedback, and to facilitate your existing monitoring tools/practices.
+The MTR Pro Management portal provides a view of the health of your meeting rooms and helps to facilitate your existing monitoring tools/practices.
 
 The scope of the monitoring is
 
 - View of incidents
   - Top issues affecting your rooms
   - Actions required to restore rooms to healthy status
-  - Issues that are under investigation by Microsoft
 - View of Microsoft Teams Room devices
   - Snapshot of status at Microsoft Teams Rooms (MTR) device level
   - Basic history and details for every device
@@ -54,39 +53,26 @@ Here are frequently used terms in the portal.
 |**Monitoring Software** |Monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
 |**App** |Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
 |**Room/Device** |The certified Microsoft Teams Room system device. |
-|**Unmonitored** | Microsoft monitoring software deployed as part of managed services isn't able to connect to the cloud services. We aren't receiving telemetry about the device. |
+|**Unmonitored** | Microsoft monitoring software deployed as part of management services isn't able to connect to the cloud services. We aren't receiving telemetry about the device. |
 |<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device / peripheral. |
 |**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device can be suppressed deliberately. |
 |**Onboarding** |The state of a room device while it's getting setup added, but isn't ready as a regularly supported room. |
 |**Incident** |An issue affecting meeting experiences of end users that need action. |
 |**Misconfigured** |Configuration detected isn't  correct / commonly used. |
-|**Support Ticket** |Internal Microsoft tracking identifier that tracks all communications / actions regarding an incident. |
 
 ## Incidents view
 
-This view is an overview of the Incidents tab in your Managed Rooms Portal. This page is the default home page of the portal.
+This view is an overview of the Incidents tab in your Pro Management Portal. This page is the default home page of the portal.
 
 ### Top-level summary 
-The top-level summary shows at a glance the issues affecting your rooms, what you need to do, and what Microsoft is doing about them:
+The top-level summary shows at a glance the issues affecting your rooms, what you need to do.
 
-![Screenshot showing top-level summary of issues](../media/rooms-monitor-001new.png)
+Incidents are expected to be in one of two states:
 
-|# |Explanation |
-| :- | :- |
-|1 |Types of incidents affecting your rooms |
-|2 |**NEED ACTION**: Items that require your intervention to resolve. |
-|3 |**ASSIGNED TO MICROSOFT**: Items currently investigated by Microsoft personnel. |
-|4 |**PENDING INVESTIGATION**: Items in the queue to be investigated by Microsoft personnel. |
-
-Incidents are expected to be in one of three states:
-
-- **Need Action**: Assigned to you for action
-- **Assigned to Microsoft**: Assigned to Microsoft for the next action
-- **Pending Investigation**: Under investigation for next steps
+- **Need Action**: Action required by you to resolve the incident.
+- **System Investigating**: Under automatic investigation by the monitoring platform. Next steps will be provided if it cannot be automatically resolved.
 
 ### Reviewing incidents
-
-The following image lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene.
 
 Clicking  any of items that have status “**Needs action**” shows additional details about the incident.
 
@@ -103,9 +89,8 @@ A warning might transition to “**Important**” if not attended to for a while
 
 Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it's classified as ***unhealthy*** device.
 
-Incidents classified as **“Warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device as follows.
+Incidents classified as **“Warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device.
 
-![Screenshot showing health status of a room](../media/rooms-monitor-004.jpg)
 
 Following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue.
 
@@ -132,7 +117,7 @@ Following are some of the types of incidents that you might see and the explanat
 
 ## Responding to Incidents
 
-Incidents fall into three categories: Needs Action, Pending Investigation, or Assigned to Microsoft.
+Incidents fall into two categories: Needs Action, or System Investigating.
 
 ### “Needs Action” Incidents
 
@@ -142,31 +127,18 @@ Each such incident will have an action field with a recommended action from Micr
 
 ![Screenshot showing recommended incident action](../media/rooms-monitor-005.jpg)
 
-- If you have taken the action, you can respond to the incident with your notes in the Respond box, then choose “Assign to Microsoft” before posting.
-- It's also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft.
-- Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, post the message without turning on “Assign to Microsoft“.
+- If you have taken the action, you can respond to the incident with your notes to provide additional context in the Respond box.
 
->[!NOTE]
->Your corrective action may address the issue, and that Managed Rooms monitoring clears that incident from your list. In the above situation, you might not get a chance to resolve the issue and assign it back to Microsoft. This issue will be addressed in a future release.
+### “System Investigating” incidents
 
-### “Pending Investigation” incidents
-
-For the incidents under investigation, the description field holds information about the incident, typical causes, and resolutions that may be useful to resolve certain issues so that you can act without delay.
-
-### “Assigned to Microsoft” incidents
-
-For the incidents assigned to Microsoft, the “Action” field will contain brief details about corrective steps either planned or progressed. These steps might need collaboration with your team and extended collaboration will be done through email/calls as needed. Once these issues are resolved, they will disappear from the portal and in future, there will be history to track such incidents and their resolution.
-
-![Screenshot showing MS corrective steps](../media/rooms-monitor-006.jpg)
+For the incidents under investigation, the description field holds information about the incident, typical causes, and resolutions that may be useful to resolve certain issues so that you can act without delay. 
 
 ## Rooms View
 
-Each device is a proxy for a room and its connected peripherals. A healthy device represents a healthy room and an unhealthy device represents a room likely causing problems during meetings. In addition to the Incidents view, Managed Rooms Portal also provides a room health overview, and helps you to troubleshoot device details, and to understand repeated failures with incident history.
-
-![Screenshot showing a room's health overview](../media/rooms-monitor-007.jpg)
+Each device is a proxy for a room and its connected peripherals. A healthy device represents a healthy room and an unhealthy device represents a room likely causing problems during meetings. In addition to the Incidents view, the Pro Management Portal also provides a room health overview, and helps you to troubleshoot device details, and to understand repeated failures with incident history.
 
 **Healthy, Unhealthy, Disconnected**
-The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues (“Unhealthy”), how many aren't providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). Rooms are monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable.
+The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state (“Healthy”), how many are affected by issues (“Unhealthy”), how many aren't providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). Rooms are monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable.
 
 **Healthy / Unhealthy rooms**:
 
@@ -174,24 +146,18 @@ Devices/peripherals which do not have any incidents of severity “Important” 
 
 **Disconnected device:**
 
-The Microsoft monitoring agent deployed as part of Managed Rooms pilot is disconnected from Managed Room cloud services. We aren't receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
+The Microsoft monitoring agent deployed is disconnected from Pro Management cloud services. We aren't receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
 
 ## Room Detail: Status and Changes
 
 **Room Details: Status**
 The device *Status* tab provides a consolidated view of status of a device, all the issues active for the device, the actions that are needed to resolve them, or that are ongoing. The Status tab also contains the breakdown of different components of health for the device under *Incidents tab*. If a device is disconnected, Status details will not be available.
 
-![Screenshot showing consolidated status view](../media/rooms-monitor-008.png)
-
 **Show all signals:**
 To view all signals contained within a signal category, enable the Show all signals toggle button. Expansion arrows will appear next to category headings which can be clicked on to expand the accordion view.
 
-![Screenshot showing signals within a category](../media/rooms-monitor-009.png)
-
 **Suppress/Unsuppress Ticket**
 When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you do not want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
-
-![Screenshot showing room's suppressed tickets](../media/rooms-monitor-010.png)
 
 **Active Ticket Category Expansion**
 Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By clicking on the expansion arrow, all tickets will appear with an active link to the ticket information.
@@ -199,31 +165,18 @@ Under each ticket category, any active or latest resolved ticket will be display
 Active Ticket Category Expansion:
 Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By clicking on the expansion arrow, all tickets will appear with an active link to the ticket information.
 
-![Screenshot showing resolved ticket category](../media/rooms-monitor-011.png)
-
 ## Active Ticket: Overview
 
-Each incident that is created identifies the issue that has been detected and the corrective action that needs to be taken to restore the room to a healthy state. The ticket generated will convey incident overview with any messages generated by the managed services AI as well as the Microsoft service engineering team investigating the issue. All attachments that have been collected for incident troubleshooting will be listed. The history tab provides the dates that issues have been identified.
-
-![Screenshot showing active ticket overview](../media/rooms-monitor-012.png)
+Each incident that is created identifies the issue that has been detected and the corrective action that needs to be taken to restore the room to a healthy state. The ticket generated will convey incident overview with any messages generated by the Pro Management service. All attachments that have been collected for incident troubleshooting will be listed. The history tab provides the dates that issues have been identified.
 
 Active Ticket: Messages
-The messages UI is the primary communication tool to interact with Microsoft service engineers working to remediate the issue identified. It's important to acknowledge communications from Microsoft to ensure that we are providing you with the best possible service. If you have taken the actions recommended, respond to this incident with your notes in the Respond box and assign back to Microsoft by clicking on “Assign to Microsoft” before posting.
-It's also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft.
- Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, simply post the message without turning on “Assign to Microsoft
-
-![Screenshot showing active ticket messages](../media/rooms-monitor-013.png)
-
+The messages UI is the primary communication tool to interact with your own team and monitor messages from the Pro Management bot.
 
 Active Ticket: Attachments
-There are occasions where Microsoft service engineers need additional information to augment their investigation of the issue. The attachment tab provides you with the ability to upload pictures, videos or logs that are requested.
-
-![Screenshot showing active ticket attachmments](../media/rooms-monitor-014.png)
+There are occasions where your team will need additional information to augment their investigation of the issue. The attachment tab provides you with the ability to upload pictures, videos or logs that are requested.
 
 Active Ticket: History
 Each room signal has only one ticket number that is assigned to it on purpose. A room device or peripheral persists in a room and may have issues over time. By maintaining this information under a specific unique ticket id, all historic information is maintained and can be analyzed for patterns of behavior. The History UI provides a view of all tickets actions created and resolved for this signal.
-
-![Screenshot showing active ticket history](../media/rooms-monitor-015.png)
 
 FAQ
 How does dynamic tickets affect me and the operations of my rooms?  
