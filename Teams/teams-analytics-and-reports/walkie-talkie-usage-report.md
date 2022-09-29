@@ -23,17 +23,18 @@ The Walkie Talkie usage report in the Microsoft Teams admin center gives you an 
 
 Use this report to gain insight into Walkie Talkie usage trends in your organization. The information can help you optimize usage to deliver better business outcomes.
 
-## Download the report
+## View the Walkie Talkie usage report
 
 1. In the left navigation of the Microsoft Teams admin center, choose **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Walkie Talkie usage**.
-2. Under **Date range**, choose a date range of 7 days, 30 days, or 90 days, and then select **Run report**.
-3. Select **Generate report**. You'll be taken to the **Downloads** tab where you can download the report in CSV format.
+2. Under **Date range**, select a date range of 7 days, 30 days, or 90 days. Then, choose **Run report**.
+
+      [placeholder for screenshot]
 
 ## Interpret the report
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |The Teams usage activity report can be viewed for trends over the last 7 days, 30 or 90 days. |
+|**1**   |The report can be viewed for trends over the last 7 days, 30 or 90 days. |
 |**2**   |Each report has a date for when this report was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
 |**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the count of active items or activity.</li> </ul>Hover over the dot representing an item or activity on a given date to see the number of instances of that item or activity on that given date.|
 |**4**   |You can filter what you see on the chart by clicking an item in the legend. For example, select  **Total active users**, **Teams & Channels active users**,  **Active channels**, or **Messages** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
