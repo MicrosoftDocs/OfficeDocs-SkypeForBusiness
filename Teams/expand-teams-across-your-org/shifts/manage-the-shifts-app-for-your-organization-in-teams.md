@@ -21,6 +21,7 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

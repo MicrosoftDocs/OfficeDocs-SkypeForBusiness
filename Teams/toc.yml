@@ -681,6 +681,41 @@ items:
               href: teams-live-events/configure-teams-live-events.md
             - name: Live events recording policies
               href: teams-live-events/live-events-recording-policies.md
+
+        - name: Create a Teams hybrid meeting experience
+          items:
+          - name: "Overview"
+            href: hybrid-meetings-overview.md
+          - name: "Hybrid meeting principles"
+            href: hybrid-meetings-principles.md
+          - name: "Step 1 - Get familiar with Teams meeting features"
+            href: hybrid-meetings-features.md
+          - name: "Step 2 - Evangelize meeting best practices"
+            href: hybrid-meetings-educate-participants.md
+          - name: "Step 3 - Design and build a meeting space"
+            href: hybrid-meetings-room-design.md
+          - name: "Step 4 - Select room devices"
+            href: hybrid-meetings-device-select.md
+          - name: "Step 5 - Set up your devices"
+            items:
+              - name: Overview
+                href: hybrid-meetings-device-config-intro.md
+              - name: Step 1 - Purchase a Teams Rooms license
+                href: hybrid-meetings-device-config-license.md
+              - name: Step 2 - Create a resource account
+                href: hybrid-meetings-device-config-account.md
+              - name: Step 3 - Assign a meeting room license
+                href: hybrid-meetings-device-config-assign.md
+              - name: Step 4 - Configure mailbox properties
+                href: hybrid-meetings-device-config-mailbox.md
+              - name: Step 5 - Turn off password expiration
+                href: hybrid-meetings-device-config-password.md
+              - name: Step 6 - Configure meeting policies
+                href: hybrid-meetings-device-config-policies.md
+              - name: Step 7 - Configure calendar options
+                href: hybrid-meetings-device-config-calendar.md
+          - name: "Step 6 - Manage and monitor rooms and meetings"
+            href: hybrid-meetings-manage.md
     - name: Audio conferencing
       items: 
         - name: Audio Conferencing in M365
@@ -1569,7 +1604,7 @@ items:
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
-        - name: Understand app validation by Microsoft
+        - name: App checks, testing, and validation done by Microsoft
           href: overview-of-app-validation.md
         - name: Security, compliance, and privacy of third-party apps
           href: overview-of-app-certification.md
@@ -1592,9 +1627,9 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish a custom app submitted as package
+        - name: Publish a custom app submitted as a package
           href: upload-custom-apps.md
-        - name: Manage Power Platform apps in Teams admin center
+        - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 
     - name: Admin controls to govern apps
