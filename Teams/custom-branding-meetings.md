@@ -25,7 +25,7 @@ description: Using approved corporate assets like images and logos to create a c
 
 Branding in Teams meetings allows organizations to extend their visual identities across the meeting experience. Brand images and colors help foster internal corporate culture building and increase overall brand awareness with external meeting participants. With the help of an organization's brand management and corporate communications teams, tenant admins can easily set up and create branded meeting themes for various business units and departments within a single tenant.
 
-By default, Teams premium licensed users who have been assigned a meeting customization policy can create branding-enabled meetings. These meetings are branded by default, and anyone who joins the meetings can see the branding (including unlicensed internal, external, and anonymous users).
+By default, Teams premium licensed users who have been assigned a meeting customization policy can create branding-enabled meetings. These meetings are branded by default, and anyone who joins the meetings can see the branding (including guests, unlicensed internal, and anonymous users).
 
 > [!NOTE]
 > Attendees joining Teams through the Web experience won't be able to see branding
@@ -64,8 +64,8 @@ Teams Meetings supports square logos that appear on key surfaces during your mee
 Uploads must adhere to the following parameters. An admin can only upload:
 
 - PNG and JPEG image formats for their logo.
-- a logo image with a maximum size of 5MB.
-- logo images with a minimum dimensions of 576px X 576px.
+- a logo image with a maximum size of 5 MB.
+- logo images with a minimum dimension of 576 px X 576 px.
 - only one image per theme from their device.
 
 ### Adding a custom image
@@ -80,20 +80,20 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
 - Admin can only upload PNG and JPEG image formats for brand image
 - Admin can only upload brand image with max size
 - Admin can upload brand image with following dimensions:
-  - Minimum dimensions: 360px X 360px
-  - Maximum dimensions: 2048px X2048 px
-- Admin can upload a minimum of 0 and a maximum of 1 image per theme from their device
+  - Minimum dimensions: 360 px X 360 px
+  - Maximum dimensions: 2048 px X 2048 px
+- Admin can upload a minimum of 0 and a maximum of one image per theme from their device
 
 ### Adding a custom color
 
-Teams meetings supports an organization's primary or secondary brand color in the meeting experience. Admins can enter the hex code value of your organization's brand color, which will appear on key surfaces of the meeting experience.
+Teams meetings support an organization's primary or secondary brand color in the meeting experience. Admins can enter the hex code value of your organization's brand color, which will appear on key surfaces of the meeting experience.
 
 > [!NOTE]
 > To support Microsoft accessibility standards, the final color generated may not match your brand color.
 
 ### Previewing a meeting theme
 
-Once you've added your meeting assets, you can preview how your theme will look before saving.  Selecting **Preview** will open the preview dialog and show the newly-defined theme for both desktop and mobile.
+Once you've added your meeting assets, you can preview how your theme will look before saving.  Selecting **Preview** will open the preview dialog and show the newly defined theme for both desktop and mobile.
 
 ### Save meeting theme
 
@@ -109,7 +109,7 @@ Some organizations have more than one business unit or department under a differ
 
 #### A use case
 
-Contoso Ltd. has a single Tenant in Microsoft Teams, which has the user profiles of all of their employees across their different business organizations. To continue increasing their brand presence with their clients, and encourage an internal corporate culture, the company is looking to adopt custom branded meetings in Teams.
+Contoso Ltd. has a single Tenant in Microsoft Teams, containing the user profiles of all their employees across different business organizations. The company is looking to adopt custom branded meetings in Teams to increase their brand presence with their clients and encourage an internal corporate culture.
 
 Contoso has two business units (BUs) under their organization: Contoso Technical Services and Contoso Education. Both BUs have their own distinct brand imagery, and want to display their branding during their internal and external meetings.
 
@@ -118,7 +118,7 @@ To support this use case, Tenant Admins can create two distinct customization po
 - Policy A - Contoso Technical Services – houses Contoso Technical Service’s brand logo, image, and color
 - Policy B - Contoso Education – houses Contoso Education’s brand logo, image, and color
 
-They can the proceed to assign the licensed employees in Contoso Technical Services to Policy A, and licensed employees of Contoso Education to Policy B.
+They can proceed to assign the licensed employees in Contoso Technical Services to Policy A, and licensed employees of Contoso Education to Policy B.
 
 ## Where are Meeting Themes visible
 
