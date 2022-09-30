@@ -40,7 +40,7 @@ A Teams Rooms Basic license can be used to license a single certified Teams Room
 
 - One Teams Rooms compute module and attached touch console
 - One Teams Rooms for Android device and touch console connected via either an IP-based or USB connection
-- One Surface Hub 2 Touch Surface
+- One Surface Hub Touch Surface
 
 The remote administration tasks you perform on a Teams Rooms system or device in the Teams admin center depend on the license that's assigned the system or device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](https://learn.microsoft.com/microsoftteams/rooms/admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license).
 
