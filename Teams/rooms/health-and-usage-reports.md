@@ -1,10 +1,10 @@
 ---
 title: Health and Usage Reports
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer: 
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,7 +21,7 @@ f1keywords:
 ---
 # Health and Usage Reports
 
-The reporting node contains data for the health and usage of your Microsoft Teams Rooms. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
+The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
 
 ## Navigating reports
 
