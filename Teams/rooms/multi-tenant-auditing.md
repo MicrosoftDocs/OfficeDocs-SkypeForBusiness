@@ -22,7 +22,7 @@ f1keywords:
 
 # Audit logging in the MTR Pro Portal
 
-Audit logs from the MTR Pro Portal lets you search for audit records for activities performed by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
+Audit logs from the MTR Pro Portal let you search for audit records for activities performed by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
 
 > [!NOTE]
 > Actions performed in the MTR Pro Portal are not logged in Microsoft 365 or Office 365 auditing 
