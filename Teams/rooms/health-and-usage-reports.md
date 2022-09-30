@@ -50,7 +50,7 @@ In the flyout, it is possible to filter the list of tickets by the subcategory b
 
 To navigate back, either click on the donut or click on the breadcrumb at the top left.
 
-To navigate to a specific ticket in this list view, click on the link under the **Support ticket colum**.
+To navigate to a specific ticket in this list view, click on the link under the **Support ticket column**.
 
 <!--### Ticket history
 
