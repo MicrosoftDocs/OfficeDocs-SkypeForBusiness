@@ -69,6 +69,10 @@ For compliance reasons, end-user identifiable information (EUII) data (also know
 - User Verbatim Feedback
 - Object ID (the Active Directory object ID of the endpoint's user)
 - Phone Number
+- Auto Attendant Identity
+- Call Queue Identity
+- Video Teleconferencing (VTC) Device Name
+- Video Teleconferencing (VTC) Device Detail
 
 ### Admin roles with and without EUII access
 
