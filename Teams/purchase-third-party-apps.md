@@ -52,7 +52,7 @@ To purchase apps in Teams admin center, follow these steps:
    > [!NOTE]
    > Only a Global Admin can add a new billing account.
 
-1. Verify that the correct billing profile is selected. If you don't already have one, select **Add new**. You have the option to pay with a credit card, debit card, or with [invoice billing](#invoice-billing). The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Verify that the correct billing profile is selected. If you don't already have one, select **Add new**. You can pay with a credit card, debit card, or with [invoice billing](#invoice-billing). The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 
 1. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You can pay with a credit card, debit card, or with [invoice billing](#invoice-billing). The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 
@@ -94,15 +94,15 @@ In Teams admins center, you can manage the app subscriptions and licenses you pu
 * Cancel a subscription
 * View your invoice
 
-  :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Screenshot of subscription details of an app" lightbox="media/manage-existing-subscriptions-all.png" border="true":::
+  :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Screenshot of subscription details of an app." lightbox="media/manage-existing-subscriptions-all.png":::
 
 To manage subscriptions, follow these steps:
 
-1. Sign in to Teams admin center.
-1. In the left pane, go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
+1. Sign in to Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
+
 1. Select the **Subscriptions** tab to view the subscriptions you purchased.
 
-   :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Screenshot of subscription option for an app in the manage apps page."lightbox="media/manage-app-subscriptions-manage-apps.png":::
+   :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Screenshot of subscription option for an app in the manage apps page." lightbox="media/manage-app-subscriptions-manage-apps.png":::
 
 > [!NOTE]
 > In Teams admin center, you can manage the app subscriptions purchased by you or other admins who are part of the same billing account. To view all the app subscriptions purchased for the same tenant by other admins or purchased using different billing accounts, visit the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
@@ -113,7 +113,7 @@ Developers can create SaaS offers associated with their Teams apps. These offers
 
 For more information for third-party app developers, see [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer).
 
-## See also
+## Related articles
 
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 * [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer)
