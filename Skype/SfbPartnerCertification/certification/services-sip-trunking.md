@@ -117,7 +117,7 @@ The following table lists the SIP trunking services that are certified for Skype
 
 
 ## SIP Trunk Service Qualification Process
-The SIP trunk service provider interoperability program qualifies services offered by providers connecting enterprise, on-premise Skype for Business voice networks to a service provider offering PSTN origination, termination and emergency services by making use of the SIP protocol.
+The SIP trunk service provider interoperability program qualifies services offered by providers that connect enterprise, on-premise Skype for Business voice networks to a service provider that offers PSTN origination, termination, and emergency services by using the SIP protocol.
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
