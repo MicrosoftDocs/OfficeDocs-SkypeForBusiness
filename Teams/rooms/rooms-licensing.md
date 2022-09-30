@@ -75,6 +75,8 @@ If your organization has meeting devices that use the Teams Rooms Standard or Te
 
 If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period. You can also continue to reserve additional legacy licenses until your next renewal period. For more information, contact your Microsoft representative.
 
+For information about legacy licenses, see [Microsoft Teams Rooms legacy licenses](rooms-legacy-licensing.md).
+
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
 
 ## Teams Rooms Basic and Teams Rooms Pro feature comparison
