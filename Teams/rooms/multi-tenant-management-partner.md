@@ -31,7 +31,7 @@ The MTM portal can be accessed through this [link](https://partner.rooms.microso
 
 ## Pre-requisites for managing your customers through the MTM experience
 
-To gain access to the MTM portal, your organization must be onboarded as Microsoft Partner. 
+To gain access to the MTM portal, your organization must be onboarded as an Elite Partner for MTR Pro Management. To become an Elite partner contact askelite@microsoft.com.
 
 ## On-boarding customers
 
