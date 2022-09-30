@@ -91,7 +91,7 @@ The Microsoft Teams platform offers a large variety of features. Each feature is
     :::column-end:::
 :::row-end:::
 
-To provide rich experience that allows end-users to work inside Teams, app developers use the following app capabilities.
+To provide rich experience that allows end-users to work inside Teams, app developers create apps using the following capabilities:
 
 * **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
@@ -109,7 +109,7 @@ To provide rich experience that allows end-users to work inside Teams, app devel
 
 * **Meeting extensions**: Users can enhance the meeting experience by integrating tabs, bots, and message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
-* **Cards**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
+* **Cards and task modules**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
 
 * **Microsoft Power Platform apps**: Power Apps is a low-code or no-code application development environment that app creators in your organization can use to build custom apps. Low-code custom apps save time, provide speedy solutions, and meet the same demand as apps created from scratch. They allow the developers without experience, to build custom apps easily with little or no coding, and professional developers to develop and deploy the app quickly. As an admin, you can control whether Microsoft Power Platform apps are listed in **Built with Power Platform** on the Apps page in Teams. For more information, see [Manage Microsoft Power Platform apps in the Teams admin center](manage-power-platform-apps.md).
 
