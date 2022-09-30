@@ -10,7 +10,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
 - tier2
-- M365-security-compliance
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
