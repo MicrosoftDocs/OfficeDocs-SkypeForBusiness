@@ -30,6 +30,9 @@ description: Learn about dialing toll-free numbers in US, including availability
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
+> [!IMPORTANT]
+> **North America Numbering Plan Toll Free Numbers**: Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates. For additional information on toll-free number rates, please refer to [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) or [Microsoft Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
+
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
@@ -50,8 +53,7 @@ description: Learn about dialing toll-free numbers in US, including availability
 > - 800-271 are special and for Trinidad
 > - 800-555 is the deaf line range
 
-> [!IMPORTANT]
-> **North America Numbering Plan Toll Free Numbers**: Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
+
 
 ## Related topics
 
