@@ -34,7 +34,7 @@ The following two settings determine whether team owners can give consent to app
 > [!IMPORTANT]
 > Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you configure these settings to prevent team owners from giving consent, these changes don't remove data access that's already been granted.
 
-#### The "Users can consent to apps accessing company data on their behalf" setting
+#### The Users can consent to apps accessing company data on their behalf setting
 
 This setting controls whether users in your organization can consent to apps on their behalf. To enable team owners to give consent, this setting must be set to **Yes**. To manage this setting, do the following:
 
@@ -54,16 +54,16 @@ In addition to settings in Azure AD, [org-wide app settings](manage-apps.md#mana
 > [!IMPORTANT]
 > Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you disable third-party apps org-wide or if you block specific apps to prevent team owners from giving consent, these changes don't remove data access that's already been granted.  
 
-#### The "Allow third party apps" setting in org-wide app settings
+#### The Allow third party apps option in org-wide app settings
 
 This org-wide app setting controls whether users in your organization can use third-party apps. This setting must be on to enable team owners to give consent. To manage this setting, do the following:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Select **Org-wide app settings** and under **Third party apps**, turn off or turn on **Allow third party apps**.
 
-    ![Screenshot of the "Allow third party apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
+   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="Screenshot showing the allow third party apps in Teams setting.":::
 
-You may have to wait up to 24 hours for your changes to take effect.
+It may take up to 24 hours for your changes to take effect.
 
 #### Allow or block the app at the org level
 
@@ -72,8 +72,6 @@ When you block or allow an app on the [Manage apps](manage-apps.md#allow-and-blo
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. On the Manage apps page, select the app, and then select **Block** to block it or select **Allow** to allow it.
 
-    ![Screenshot of the blocked apps in org-wide settings.](media/resource-specific-consent-allow-block-apps.png)
-
 #### App permission policy assigned to the team owner
 
 Team owners can only give consent to apps that their app permission policy allows them to run. To view and manage the app permission policy that's assigned to a team owner, do the following:
@@ -81,8 +79,9 @@ Team owners can only give consent to apps that their app permission policy allow
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 1. Double-click the display name of the team owner, and then select **Policies**.
 1. The policy assigned to the team owner is listed under **App permission policy**.
-    - To assign a different policy, select **Edit**, and then select the policy that you want to assign.
-    - To edit the settings of the policy that's assigned to the team owner, select the policy name, and then make the changes that you want.  
+
+    * To assign a different policy, select **Edit**, and then select the policy that you want to assign.
+    * To edit the settings of the policy that's assigned to the team owner, select the policy name, and then make the changes that you want.  
 
 ## Upload custom apps
 
@@ -90,7 +89,7 @@ When uploading a custom app (also known sideloading) that uses resource-specific
 
 ## Related articles
 
-- [Available RSC permissions](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
-- [Microsoft Graph](https://developer.microsoft.com/graph)
-- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-- [Manage app permission policies in Teams](teams-app-permission-policies.md)
+* [Available RSC permissions](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [Microsoft Graph](https://developer.microsoft.com/graph)
+* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+* [Manage app permission policies in Teams](teams-app-permission-policies.md)

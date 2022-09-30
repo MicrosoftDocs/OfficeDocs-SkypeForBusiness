@@ -14,6 +14,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - remotework
+  - purview-compliance
 f1.keywords:
   - CSH
 ms.custom: 
