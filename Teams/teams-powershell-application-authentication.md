@@ -25,25 +25,19 @@ Cmdlets below are already supported, other cmdlets will be gradually rolled out.
 
   - Non \*-Cs cmdlets (for example, Get-Team)
   - Get-CsTenant
-  - Get-CsOnlineUser 
-  - Get-CsOnlineVoiceUser
+  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
   - \*-CsOnlineSipDomain 
   - \*-CsPhoneNumberAssignment
-  - \*-CsOnlineTelephoneNumberOrder
-  - Get-CsOnlineTelephoneNumberType
-  - Get-CsOnlineTelephoneNumberCountry
+  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
   - \*-CsCallQueue
-  - \*-CsAutoAttendant
-  - \*-CsAutoAttendant\*
+  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
   - \*-CsOnlineVoicemailUserSettings
-  - Find-CsOnlineApplicationInstance
-  - \*-CsOnlineApplicationInstanceAssociation
-  - \*-CsOnlineSchedule
+  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
+  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
   - \*-CsOnlineAudioFile
-  - New-CsOnlineTimeRange
-  - New-CsOnlineDateTimeRange
   - Find-CsGroup
-  - Get-CsOnlineApplicationInstanceAssociationStatus
+  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
+  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
 
 
 ## Examples
