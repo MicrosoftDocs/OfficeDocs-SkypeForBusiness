@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams Rooms Standards and Room planning
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
