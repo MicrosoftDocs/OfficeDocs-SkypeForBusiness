@@ -65,7 +65,7 @@ If you have a 3PIP or SIP device, you must have:
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832       |11.3.5MPP   |11.3.7MPP  |   |   |
+|          |8832       |11.3.5MPP   |11-3-7MPP  |   |   |
 |          |6821       |11.1.1MPP   |11-3-7MPP  |   |   |
 |          |7811       |11.1.1MPP   |11-3-7MPP  |   |   |
 |          |7821       |11.1.1MPP   |11-3-7MPP  |   |   |
@@ -97,10 +97,10 @@ If you have a 3PIP or SIP device, you must have:
 |          |VVX501<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX600     |5.9.5       |5.9.7.3480 |   |   |
 |          |VVX601<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |Rove B2    |8.0.3.0009  |8.0.3.0010 |   |   |
-|          |Rove B4    |8.0.3.0009  |8.0.3.0010 |   |   |
-|          |Rove 30    |8.0.3.0009  |8.0.3.0010 |   |   |
-|          |Rove 40    |8.0.3.0009  |8.0.3.0010 |   |   |
+|          |Rove B2    |8.0.3.0010  |8.0.3.0010 |   |   |
+|          |Rove B4    |8.0.3.0010  |8.0.3.0010 |   |   |
+|          |Rove 30    |8.0.3.0010  |8.0.3.0010 |   |   |
+|          |Rove 40    |8.0.3.0010  |8.0.3.0010 |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
 |          |T21P       |83          |34.72.0.75 |   |   |
 |          |T21P_E2    |83          |52.84.0.125|   |   |
