@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - tier1
-- M365-security-compliance
+- purview-compliance
 - M365-collaboration
 - ediscovery
 ms.reviewer: anwara
@@ -23,7 +23,7 @@ ms.custom: seo-marvel-mar2020
 
 # Conduct an eDiscovery investigation of content in Microsoft Teams
 
-Large Enterprises are often exposed to high penalty legal proceedings that demand submission of all Electronically Stored Information (ESI). Microsoft Teams content can be searched and used during eDiscovery investigations.
+Large enterprises are often exposed to high penalty legal proceedings that demand submission of all Electronically Stored Information (ESI). Microsoft Teams content can be searched and used during eDiscovery investigations.
 
 ## Overview
 
@@ -33,8 +33,8 @@ eDiscovery of messages and files in [private channels](private-channels.md) work
 
 Not all Teams content is eDiscoverable. The following table shows the content types that you can search for using Microsoft eDiscovery tools:
 
-|Content type|Notes|
-|---|---|
+|**Content type**|**Notes**|
+|:---------------|:--------|
 |Audio recordings||
 |Card content|See [Search for card content](#search-for-card-content) for more information.|
 |Chat links||
@@ -51,6 +51,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Reactions (such as likes, hearts, and other reactions)|Reactions are supported for all commercial customers after June 1, 2022. Reactions before this date are not available for eDiscovery. Government cloud support is planned. There is no legal hold support for reactions.|
 |Subject||
 |Tables||
+|Teams Video Clip (TVC)|Search TVC with "Video-Clip" keyword and "save as" a .mp4 file for each TVC attachment by right-clicking the preview (search by keyword will be available in October 2022). TVC data is discoverable in eDiscovery [review sets](/microsoft-365/compliance/add-data-to-review-set).
 
 <sup>1</sup> Meeting (and call) metadata includes the following:
 
