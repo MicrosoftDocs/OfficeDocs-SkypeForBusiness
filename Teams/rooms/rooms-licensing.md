@@ -26,21 +26,23 @@ description: Learn about and compare the available licenses for different types 
 
 # Microsoft Teams Rooms licenses
 
-Microsoft offers two licenses for Teams Rooms systems or device that participate in Teams meetings and calls:
+Microsoft offers two licenses for Teams Rooms systems that participate in Teams meetings and calls:
 
 - **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and dual screen support. The Teams Rooms Pro license also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
-    Teams Rooms Pro is a great fit for medium and enterprise organizations, as well as smaller organizations with larger room counts or more advanced needs.
+    Teams Rooms Pro is a great fit for medium and enterprise organizations, as well as smaller organizations with larger room counts or more advanced needs. Teams Rooms Pro licenses can be used to license both certified Teams Rooms systems and Teams Panels.
 
-- **Microsoft Teams Rooms Basic** provides core meeting experiences to organizations that purchase a certified Microsoft Teams Rooms system or device, at no additional cost. The Teams Rooms Basic license includes scheduling, joining meetings, content sharing, and collaborative white boarding, as well as basic security and management capabilities out-of-the-box.
+- **Microsoft Teams Rooms Basic** provides core meeting experiences to organizations that purchase a certified Microsoft Teams Rooms system, at no additional cost. The Teams Rooms Basic license includes scheduling, joining meetings, content sharing, and collaborative white boarding, as well as basic security and management capabilities out-of-the-box.
 
-    You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms systems or devices in your organization. If you need to license more than 25 Teams Rooms systems or devices, those additional licenses need to be Teams Rooms Pro licenses.
+    A Teams Rooms Basic license can be used to license a single certified Teams Rooms system in a room. If you want to log into more than one Teams Rooms system in a room using the same resource account, you need to use a Teams Rooms Pro license.
 
-A Teams Rooms Basic license can be used to license a single certified Teams Rooms system or device in a room. If you want to log into more than one Teams Rooms system or device in a room using the same resource account, you need to use a Teams Rooms Pro license. A Teams Room system can be one of the following:
+    You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms systems in your organization. If you need to license more than 25 Teams Rooms systems, those additional licenses need to be Teams Rooms Pro licenses. Teams Rooms Basic licenses used to license Teams Rooms systems only and not Teams Panels.
 
-- One Teams Rooms compute module and attached touch console
+A Teams Room system can be one of the following:
+
+- One Teams Rooms for Windows compute module and attached touch console
 - One Teams Rooms for Android device and touch console connected via either an IP-based or USB connection
-- One Surface Hub Touch Surface
+- One Surface Hub
 
 The remote administration tasks you perform on a Teams Rooms system or device in the Teams admin center depend on the license that's assigned the system or device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](https://learn.microsoft.com/microsoftteams/rooms/admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license).
 
