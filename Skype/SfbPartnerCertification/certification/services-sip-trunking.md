@@ -61,7 +61,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Kordia](http://www.kordia.co.nz/) |Onkor Voice|&#x2714;|
 |Level 3 |Level 3 Communications SIP Trunking| |
 |[Magna5](https://www.magna5global.com/skype-sip-trunking-certification/) |Business SIP Trunk| |
-|[agnetic North |Cloud PBX| |
+|[Magnetic North |Cloud PBX| |
 |[Netstream](http://www.netstream.ch/index.php?id=506) |Lync Connect|&#x2714;|
 |[Nuwave Communications, Inc.](https://www.nuwave.com/) |NuWave Connect|&#x2714;|
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications) |Intelligent SIP Trunk| |
@@ -95,7 +95,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Telnyx, LLC](https://telnyx.com/) |Telnyx Mission Control Self-Service Portal and API| |
 |[Telus](http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking) |IP Trunking| |
 |[T-Mobile Netherlands B.V](https://www.t-mobile.nl/zakelijk/oplossingen/vast-op-mobiel) |Interoperability T-Mobile SIP Trunk| |
-|[Thinktel](http://www.thinktel.ca/en/sip-for-lync) |SIP Trunking| |
+|[ThinkTel](http://www.thinktel.ca/en/sip-for-lync) |SIP Trunking| |
 |[toplink GmbH](http://www.toplink.de/) |tpl_sip.business LC|&#x2714;|
 |[T-Systems International GmbH](http://www.t-systems.com/) |Corporate SIP Germany| |
 |[tw telecom](https://telavox.com/) |Managed SIP Services| |
