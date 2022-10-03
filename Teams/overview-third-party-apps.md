@@ -6,6 +6,7 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
+ms.subservice: teams-apps
 ms.service: msteams
 ms.collection: 
   - M365-collaboration

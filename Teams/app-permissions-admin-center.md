@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how to view permissions requested by apps and grant admin consent to apps on the Manage apps page of the Microsoft Teams admin center. 
 ms.localizationpriority: medium
