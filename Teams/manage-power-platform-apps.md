@@ -21,12 +21,12 @@ description: Learn how to manage access to custom apps built using Microsoft Pow
 
 # Manage Microsoft Power Platform apps in the Teams admin center
 
-## Microsoft Power Platform apps in Teams
+## Manage custom apps created using Microsoft Power Platform apps
 
-This article gives you an overview of how to manage [Microsoft Power Platform](https://powerplatform.microsoft.com/) apps in the Microsoft Teams admin center.
+This article gives you an overview of how to manage custom apps created using the [Microsoft Power Platform](https://powerplatform.microsoft.com/) apps in the Microsoft Teams admin center. Custom apps are created by developers within your organization for internal users.
 
 > [!NOTE]
-> This article applies to custom apps created by developers in your organization using Power Apps or Power Virtual Agents. This article doesn't apply to the Power Apps app or Power Virtual Agents app that are installed from the Apps page or pinned to Teams through an app setup policy. You can manage the Store apps using [app permission policies](teams-app-permission-policies.md) and [app setup policies](teams-app-setup-policies.md).
+> This article doesn't apply to the Power Apps app or Power Virtual Agents app that are installed from the Apps page or pinned to Teams through an app setup policy. You can manage the Store apps using [app permission policies](teams-app-permission-policies.md) and [app setup policies](teams-app-setup-policies.md).
 
 [Power Apps](https://powerapps.microsoft.com) is a low-code or no-code application development environment that app creators in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for app developers to create powerful bots. With the integration of Microsoft Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.  
 

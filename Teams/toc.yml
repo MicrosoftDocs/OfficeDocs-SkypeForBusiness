@@ -1461,15 +1461,13 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-    - name: Microsoft Teams Rooms managed service
+    - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
           href: rooms/microsoft-teams-rooms-premium.md
-        - name: Obtain and assign a license
-          href: rooms/obtaining-assigning-license.md
-        - name: Enroll in MTRP managed service
+        - name: Accessing the Pro Management portal
           href: rooms/enrolling-mtrp-managed-service.md
-        - name: Enroll a device into managed service
+        - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
         - name: Role-based access control
           href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1477,7 +1475,7 @@ items:
           href: rooms/managed-meeting-rooms-portal.md
         - name: Managed updates
           href: rooms/update-management.md 
-        - name: Configure ServiceNow for Teams Rooms
+        - name: Configure ServiceNow
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
@@ -1489,13 +1487,10 @@ items:
           href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
-        - name: Customer-reported incidents 
+        - name: Record an issue 
           href: rooms/customer-reported-incidents.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
-
-        - name: Using the Teams Rooms mobile application
-          href: rooms/extended-mobile-app.md
           
     - name: Devices
       items:
@@ -1606,7 +1601,7 @@ items:
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
-        - name: Understand app validation by Microsoft
+        - name: App checks, testing, and validation done by Microsoft
           href: overview-of-app-validation.md
         - name: Security, compliance, and privacy of third-party apps
           href: overview-of-app-certification.md
@@ -1629,9 +1624,9 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish a custom app submitted as package
+        - name: Publish a custom app submitted as a package
           href: upload-custom-apps.md
-        - name: Manage Power Platform apps in Teams admin center
+        - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 
     - name: Admin controls to govern apps

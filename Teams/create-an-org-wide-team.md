@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection:
   - M365-collaboration
+  - EngageScoreOct2022
 appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
