@@ -11,6 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, federated users, and anonymous users.
 ms.localizationpriority: high
+ms.date: 09/28/2022
 f1.keywords:
 - NOCSH
 ms.collection: 
