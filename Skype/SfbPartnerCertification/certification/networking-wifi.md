@@ -151,7 +151,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
             <td>6.1.2</td>
         </tr>
         <tr>
-            <td><a href="https://atgsupportcentral.motorolasolutions.com/content/emb/docs/manuals/Lync_AP_Test_Results.pdf">Motorola Solutions</a></td>
+            <td><a href="https://www.motorolasolutions.com">Motorola Solutions</a></td>
             <td>802.11n</td>
             <td>NX9510</td>
             <td>WiNG 5.5.0.0</td>
