@@ -117,7 +117,7 @@ The Enrollment process involves these steps:
 1. Under *Enroll a room*, select **Download installer**  to download the monitoring agent software.
 1. **Optional:** Set up proxy settings for the agent; see [Adding proxy settings (optional)](#adding-proxy-settings-optional).
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)
-1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.
+1. The room appears in the portal within 5-10 minutes.
 
    ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
 
@@ -157,11 +157,11 @@ The following components are pre-requisites for successful installation:
 
 - **Intune enrollment**: Teams Rooms on Windows devices must be already enrolled in Intune.
   For more information about how to enroll Teams Rooms on Windows devices in Intune, see [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Azure AD group with all Teams Rooms on Windows devices as members** – a group created in Azure AD that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTRP agent.
+- **Azure AD group with all Teams Rooms on Windows devices as members** – a group created in Azure AD that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTR Pro agent.
   
 > [!NOTE]
 > You may consider using Dynamic groups in Azure AD for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Download MTRP agent** **installer** – Download the Agent’s zip file from <https://aka.ms/serviceportalagentmsi> and extract the contents of the zip (ManagedRoomsInstaller.msi) to a local temporary folder.
+- **Download MTR Pro agent** **installer** – Download the Agent’s zip file from <https://aka.ms/serviceportalagentmsi> and extract the contents of the zip (ManagedRoomsInstaller.msi) to a local temporary folder.
 
 **To install using Intune**
 
@@ -177,7 +177,7 @@ The following components are pre-requisites for successful installation:
    1. Ignore app version: select **Yes**.
 
       > [!NOTE]
-      > The MTRP agent is self updating; hence, you should explicitly ignore the app version (any baseline version can update automatically).
+      > The MTR Pro agent is self updating; hence, you should explicitly ignore the app version (any baseline version can update automatically).
 
    1. (Optional) Category: Select **Computer Management**.
    
@@ -188,11 +188,11 @@ The following components are pre-requisites for successful installation:
 1. Click **Next** to display the **Review + create** page.
 1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
 
-Once the process is completed, your devices will start installing the MTRP agent after a few minutes.
+Once the process is completed, your devices will start installing the MTR Pro agent after a few minutes.
 
 > [!NOTE]
-> Following installation, the MTRP agent may take up to eight hours to execute a self-update to the latest version and become listed in the MTRP portal.
-To expedite the automatic enrollment in the MTRP portal, consider restarting the MTR device following the agent deployment.
+> Following installation, the MTR Pro agent may take up to eight hours to execute a self-update to the latest version and become listed in the MTR Pro portal.
+To expedite the automatic enrollment in the MTR Pro portal, consider restarting the MTR device following the agent deployment.
 
 ## Completing enrollment
 
@@ -200,9 +200,7 @@ When the installation is complete, wait 5-10 minutes, then refresh the portal to
 
 In *Onboarding* state, the status of the room is displayed and updated but it won't raise any alerts or create investigation tickets.
 
-Choose the room and select **Enroll**  to start receiving incident alerts, investigation tickets, or to report an incident.
-
-For any questions or issues, please open a customer-reported incident in the portal, or contact managedroomsupport@microsoft.com.
+Choose the room and select **Enroll**  to start receiving incident alerts.
 
 ### Unenrolling and uninstalling monitoring software
 
@@ -222,7 +220,7 @@ To unenroll the device, remove the monitoring agent from the MTR device as follo
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   This command resets the device to user standard MTR updates and removes the MTRP monitoring agent and files.
+   This command resets the device to user standard MTR updates and removes the MTR Pro monitoring agent and files.
 
 1. From the left-hand menu in the Microsoft Teams Rooms Pro Management portal, select **Rooms**.
 1. In the list of rooms provided, choose the room you want to unenroll and select **Unenroll** to stop getting incident alerts or investigation tickets, or to report an incident for the room.
