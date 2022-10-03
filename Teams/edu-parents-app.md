@@ -84,6 +84,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
   - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1 files empty (just the headers).
     - User.csv
     - Guardianrelationship.csv
+      - The *Role* value needs to be completed for each parent and guardian to indicate if they are a *Parent* or a *Guardian*.
   - To view a sample set of the v1 CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
