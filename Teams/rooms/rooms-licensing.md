@@ -28,7 +28,7 @@ description: Learn about and compare the available licenses for different types 
 
 Microsoft offers two licenses for meeting room devices that participate in Teams meetings and calls:
 
-- **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and multi-screen support. The Teams Rooms Pro licenses also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
+- **Microsoft Teams Rooms Pro** delivers enhanced in-room meeting experiences like intelligent audio and video, front row and large galleries, and dual screen support. The Teams Rooms Pro license also provides advanced management features like remote device management, conditional access policies, and detailed device analytics.
 
     Teams Rooms Pro is a great fit for medium and enterprise organizations, as well as smaller organizations with larger room counts or more advanced needs.
 
@@ -37,6 +37,8 @@ Microsoft offers two licenses for meeting room devices that participate in Teams
     You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms devices in your organization. If you need to license more than 25 devices, those additional licenses need to be Teams Rooms Pro licenses.
 
 A Teams Rooms Basic license can be used to license a single certified Teams Rooms device in a room. If you want to log into more than one device in a room using the same resource account (for example, a Teams Rooms console, a Surface Hub, and a Teams panel), you need to use a Teams Rooms Pro license.
+
+The remote administration tasks you perform on a Teams Rooms device in the Teams admin center depend on the license that's assigned the device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](https://learn.microsoft.com/microsoftteams/rooms/admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license).
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
@@ -75,7 +77,7 @@ If your organization has an Enterprise Agreement, you can continue using your ex
 
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
 
-## Teams Rooms console and Teams client feature comparison
+## Teams Rooms Basic and Teams Rooms Pro feature comparison
 
 The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses and show what features are available with each. If a feature isn't available for a license, that feature can't be used on Teams Rooms devices that have been assigned that license. To use a feature on a Teams Rooms device, assign the license in which that feature is available to that device.
 
@@ -87,7 +89,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Start ad hoc meetings from the room**                         | &#x2714;                    | &#x2714;                  |
 | **Direct Guest Join for Zoom and Webex meetings**               | &#x2714;                    | &#x2714;                  |
 | **Join meetings across Teams clouds**                           |                             | &#x2714;                  |
-| **Room checking with Teams Panel**                              |                             | &#x2714;                  |
+| **Room check-in with Teams Panel**                              |                             | &#x2714;                  |
 
 ### Share and collaborate
 
@@ -104,7 +106,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Front row**                                        |                             | &#x2714;                  |
 | **Together mode**                                    |                             | &#x2714;                  |
 | **Large gallery (up to 50 videos)**                  |                             | &#x2714;                  |
-| **Split gallery across two screen**                  |                             | &#x2714;                  |
+| **Dual screen support**                              |                             | &#x2714;                  |
 
 ### Calling
 

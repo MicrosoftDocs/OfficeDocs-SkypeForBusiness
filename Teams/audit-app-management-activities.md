@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
 audience: admin
 ms.collection: 
   - M365-collaboration

@@ -32,6 +32,9 @@ While these features aren't a comprehensive list of feature capabilities for thi
 
 - Solution providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](../direct-routing-border-controllers.md)
 
+> [!NOTE]
+> The agent used contact solution does not need a phone system license. The Teams user does need a phone system license and a phone number to agent's call transfer.
+
 ### [**The Extend model**](#tab/extend)
 
 The Extend model integrates with the Teams client using the [Teams client platform](/microsoftteams/platform/overview), [Teams Graph APIs](/graph/api/resources/teams-api-overview) and [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview). The Extend model also uses the Teams phone system for all contact center calls and call control experiences, and the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
@@ -60,8 +63,7 @@ While these features aren't a comprehensive list of feature capabilities for thi
 
 - Preserve performance and quality of Teams client experiences in all apps
 
-> [!NOTE]
-> The agent bot does not need a phone system license. The Teams user does need a phone system license and a phone number.
+
 
 ### [**The Power model**](#tab/power)
 

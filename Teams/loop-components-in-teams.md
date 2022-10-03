@@ -77,7 +77,7 @@ If you disable these experiences as outlined in the [Settings management](/share
 
 - The create/insert entry point within Teams messaging will be hidden. Users will not be able to create new .fluid files.
 - Existing messages that would have formerly rendered as an interactive Loop component will instead render as a hyperlink "Loop component." No interactive content will be displayed within Teams.
-- When an end-user clicks on the "Loop component" hyperlink or browses to a .fluid file in OneDrive for Business and clicks to open, it will open the file in a separate browser tab, but end-users will not be able to edit the file.
+- When an end-user clicks on the "Loop component" hyperlink or browses to a .fluid file in OneDrive for Business and clicks to open, it will open the file in a separate browser tab. End-users will still be able to edit the file.
 
 ## Known issues
 

@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
+ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
 ms.collection: 
@@ -45,7 +46,7 @@ Apps are pinned to the app bar on the left side of the Teams desktop client and 
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|![App bar in Teams desktop client.](media/app-setup-policies-desktop-app-bar.png).  |   ![App bar in Teams mobile client.](media/mobile-app-ui.png)      |
+|![Screenshot showing the app bar in Teams desktop client.](media/app-setup-policies-desktop-app-bar.png).  |   ![Screenshot showing the app bar in Teams mobile client.](media/mobile-app-ui.png)      |
 
 The messaging extensions are available at the bottom of the compose message area.
 
@@ -87,7 +88,7 @@ Using an app setup policy, an admin can achieve the following tasks:
 * Install apps for end-users in their personal Teams environment.
 * Install apps for end-users as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-The end-users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them and the app is allowed by the Teams admin. Instead, if an app is blocked for a user or for an organization, then end-users can [request admin approval](manage-apps.md#manage-user-requests-to-allow-apps).
+The end-users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them and the app is allowed by the Teams admin. Instead, if an app is blocked for a user or for an organization, then end-users can [request admin approval](user-requests-approve-apps.md).
 
 To install apps using an app setup policy, follow these steps:
 
@@ -106,7 +107,7 @@ You manage app setup policies in the Microsoft Teams admin center. Use the globa
 
 You edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
-![App setup policies page to manage policies or add new policies.](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="Screenshot showing the app setup policies page with options to manage policies or add new policies.":::
 
 ### Edit an app setup policy
 
@@ -155,7 +156,7 @@ To view all apps that are pinned for a user, users might have to do the followin
 |Teams desktop client |Teams mobile client |
 |---------|---------|
 |In the app bar on the side of Teams, select **... More apps**.| In the app bar near the bottom of Teams, swipe up.|
-|![More apps in the Teams desktop client.](media/app-setup-policies-desktop-more-apps.png)   |![more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
+|![Screenshot showing more pinned apps in the Teams desktop client.](media/app-setup-policies-desktop-more-apps.png)   |![Screenshot showing more pinned apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
 
 #### What do I need to know about the Teams mobile experience
 

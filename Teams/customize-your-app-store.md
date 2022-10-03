@@ -7,6 +7,7 @@ ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection: 
   - M365-collaboration

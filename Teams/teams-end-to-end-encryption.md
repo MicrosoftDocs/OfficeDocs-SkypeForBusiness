@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - purview-compliance
 ms.custom: 
 - Security
 appliesto: 

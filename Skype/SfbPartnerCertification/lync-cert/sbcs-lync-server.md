@@ -85,7 +85,7 @@ We that recommend you visit the vendor's web site for the latest information.
         <td>v2.0</td>
     </tr>
     <tr align="left" valign="top">
-        <td rowspan="4"><a href="http://www.oracle.com/us/products/applications/communications/acme-packet-1100/index.html">Oracle</a></td>
+        <td rowspan="4"><a href="https://www.oracle.com/a/ocom/docs/industries/communications/acme-packet-1100-ds.pdf">Oracle</a></td>
         <td>Acme Packet Virtual Machine Edition</td>
         <td>ECZ6.4.0 MR-2</td>
     </tr>
@@ -173,7 +173,7 @@ We that recommend you visit the vendor's web site for the latest information.
         <td>E3.6</td>
     </tr>
     <tr align="left" bgcolor="#F8F8F8" valign="top">
-        <td rowspan="4"><a href="https://www.audiocodes.com/solutions/microsoft/lync-sbc">Audiocodes</a></td>
+        <td rowspan="4"><a href="https://www.audiocodes.com">Audiocodes</a></td>
         <td width="344px">Mediant 1000 E-SBC</td>
         <td width="396px">6.20A.037.007</td>
     </tr>

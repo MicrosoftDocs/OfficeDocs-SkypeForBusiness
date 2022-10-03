@@ -71,15 +71,15 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
 
-When you assign an **Audio Conferencing** license to people in your organization who don't have Skype for Business integrated with a 3rd party audio conferencing provider, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+When you assign an **Audio Conferencing** license to people in your organization who don't have Teams integrated with a 3rd party audio conferencing provider, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
 
-If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Microsoft as the audio conferencing provider](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ## Step 3: Other admin tasks
 
 The following steps are **optional**, but a lot of admins like to do them:
 
-1. [Customize meeting invitations](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
+1. [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
 
 2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md). This is the phone number that will show up in the meeting that is scheduled by a user.
 

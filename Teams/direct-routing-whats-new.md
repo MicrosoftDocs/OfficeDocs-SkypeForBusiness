@@ -20,6 +20,12 @@ ms.collection:
 
 This article describes what's new in Direct Routing. Check back often for updates.
 
+## Trunk demoting logic based on SIP Options
+
+A new feature based on SIP Options is introduced for trunk health. When enabled in the gateway configuration (see Set-CsOnlinePSTNGateway cmdlet and SendSipOptions parameter), the routing logic for outbound calls demotes trunks that do not send SIP Options periodically (expected period is one SIP Option sent by the SBC per minute) to the Microsoft backend. These demoted trunks are put to the end of trunks list available for the outbound call and are tried as the last ones; thereby potentially decreasing the call setup time.
+Any trunk enabled for that feature that does not send at least one SIP Option within five minutes to any of the Microsoft regional (NOAM, EMEA, APAC, OCEA) SIP Proxies is considered demoted. If a trunk sends SIP Options to only a subset of Microsoft regional SIP Proxies, then these routes are tried first and the rest are demoted.
+
+
 ## SIP support
 
 On June 1, 2022, Microsoft will remove support for sip-all.pstnhub.microsoft.com and sip-all.pstnhub.gov.teams.microsoft.us FQDNs from Direct Routing configuration.

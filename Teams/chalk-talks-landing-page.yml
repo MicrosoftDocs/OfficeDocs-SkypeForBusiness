@@ -37,31 +37,31 @@ productDirectory:
     # Card
     # Card
     - title: Taking charge of audio/video quality in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/health-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/health-teams.svg
       summary: Looking to ensure users have optimal experiences with meetings and voice capabilities? We'll discuss tools, reporting, and best practices to help you manage service quality -- from establishing a proactive strategy to resolving common issues.
       url: https://aka.ms/ChalkTalkAVQuality
     - title: So...you want to make calls with Teams?
-      imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/headset-teams.svg
       summary: Join us for an in-depth look at adding PSTN calling capabilities to your Teams deployment. Together, we'll walk through calling terminology, key concepts, and configurations.
       url: https://aka.ms/ChalkTalkCalling
     # Card
     - title: Energize your Live Events with Microsoft Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/presenter-teams.svg
       summary: Engage and energize your audience with large, online virtual events using Microsoft Teams. Learn best practices to ensure your event is successful.
       url: https://aka.ms/ChalkTalksVirtualEvents
     # Card
     - title: Apps in Teams Fundamentals
-      imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
       summary: This foundational session covers basic capabilities including app management and security. Learn how to integrate your workflows, productivity apps, and the services you use every day into a single, unified experience.
       url: https://aka.ms/ChalkTalkApps
     # Card
     - title: Supercharge key workflows with apps in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
       summary: Connect your systems, increase automation, and deliver improved experiences for users by bringing the apps your organization relies on into Teams.
       url: https://aka.ms/ChalkTalkKeyApps
     # Card
     - title: Empower your Frontline workforce to do more with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/devices-2-teams.svg
       summary: Explore best practices to plan and implement streamlined experiences for productive conversations, information sharing, and schedule management for your Frontline workers.
       url: https://aka.ms/TeamsFLW
     

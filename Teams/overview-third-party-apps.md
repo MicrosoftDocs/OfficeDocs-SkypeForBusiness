@@ -6,6 +6,7 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
+ms.subservice: teams-apps
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
@@ -21,9 +22,9 @@ ms.custom: seo-marvel-apr2020
 
 Teams Store provides many useful apps created by third-party software developers, in addition to apps provided by Microsoft. To use these, as an admin, you set an app governance process that balances wide-ranging requirements of end-users along with your organization's IT policies, standards, and risk-profiles. While these apps are created by third-party providers, Microsoft does rigorous validation of the functionality, usability, and security of these apps. Only after the validation, Microsoft makes the apps available in Teams store. For end-users to benefit from the rich app ecosystem, app governance by admins is a key step.
 
-Third-party apps in Microsoft Teams aren't controlled or owned by Microsoft and aren't governed by the Microsoft Online Subscription Agreement. Your organization's use of each third-party app is subject to that app's terms and conditions and privacy statement. Teams admin center allows you to verify all permissions of an app, privacy statements, and terms of use before you allow its use. As always, you can allow use of an app for a few specific users or all users. For third-party apps, as for custom apps, Microsoft Teams allows admins to allow, disallow, govern, and analyze the use of the apps.
+Third-party apps in Microsoft Teams aren't controlled or owned by Microsoft and aren't governed by the Microsoft Online Subscription Agreement. Your organization's use of each third-party app is subject to that app's terms and conditions and privacy statement. Teams admin center allows you to verify all permissions of an app, privacy statements, and terms of use before you allow its use. As always, you can allow use of an app for a few specific users or all users. For third-party apps, as for custom apps, Teams let admins to allow, block, govern, and analyze the use of the apps.
 
-Microsoft ensures that admins have control over third-party apps and only high quality apps are available in the Teams Store. All apps go through a mandatory round of validation that checks for functionality of app, identify of developer, permissions sought by the app, and checks related to compliance, privacy, and data security. We encourage apps to be a part of an optional program to demonstrate an extra focus on security and compliance with industry standards. Know about these programs in the following articles:
+Microsoft ensures that admins have control over third-party apps and only high quality apps are available in the Teams Store. All apps go through a mandatory round of validation that checks for the functionality of app, the identity of developer, permissions sought by the app, and checks related to compliance, privacy, data handling, and data security. We encourage apps to be a part of an optional program to demonstrate an extra focus on compliance with industry standards, data handling, and security. Know about these programs in the following articles:
 
 1. [App validation](overview-of-app-validation.md#app-validation-and-testing)
 
