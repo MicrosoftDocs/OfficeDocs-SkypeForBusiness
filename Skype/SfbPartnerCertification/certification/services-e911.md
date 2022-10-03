@@ -30,7 +30,7 @@ Microsoft Lync supports two methods of placing E-911 calls: Using a qualified se
 |Company|Service Name|
 |:----|:----|
 |[West](https://www.west.com/safety-services/enterprise/microsoft) |       V9-1-1 for Enterprise/ Emergency Routing Service  |
-|[Level 3](http://your.level3.com/2013DCLEADGSIPOSOLP1_SIPVoicePgFromOSRP_20130703?WT.tsrc=08202013SIPVoiceLPNomad911SIPVocCompPgFullWidthBanner)|Level 3 SIP Trunking for Lync|
+|[Level 3](https://www.lumen.com/en-us/communications/sip-trunking.html)|Level 3 SIP Trunking for Lync|
 |[Red Sky Technologies](http://www.redskye911.com/e911-for-lync)      | E911 Anywhere |
 |      |         |
 
