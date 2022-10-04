@@ -154,6 +154,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 Update #3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022 Update #3A    |
 |Poly Trio C60 | `7.3.2.0174` | 2022 Update #3A |
 |Poly CCX 400/500/600/505 | `7.3.2.0182` | 2022 Update #3A |
@@ -389,6 +390,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Pad Panel | `NFA1.20220914.1206` | 2022 Update #3A  |
 |Logitech Tap Scheduler | `1.7.200` |2022 Update #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
 |Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |

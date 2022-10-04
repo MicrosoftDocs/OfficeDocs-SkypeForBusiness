@@ -1,8 +1,8 @@
 ---
 title: Manage user access to Microsoft Teams
 manager: SerdarSoysal
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 ms.topic: article
 ms.service: msteams
 audience: admin
