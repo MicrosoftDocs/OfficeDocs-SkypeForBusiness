@@ -1,7 +1,7 @@
 ---
 title: Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
-author: adjoseph
-ms.author: adjoseph
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: jimmyw
 manager: serdars
 ms.topic: article

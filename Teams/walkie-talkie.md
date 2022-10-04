@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
-description: How to configure the Walkie Talkie app in Microsoft Teams, from an ITAdmin perspective.
+description: How to configure the Walkie Talkie app in Microsoft Teams, from an IT admin perspective.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -31,9 +31,16 @@ With Walkie Talkie in Teams, frontline workers can securely communicate with a f
 > [!NOTE]
 > Walkie Talkie is currently not available in China.
 
+## License requirements
+
+Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+
 ## Deploying Walkie Talkie
 
 Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
+
+> [!NOTE]
+> If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
 
 ### Enable or disable Walkie Talkie in your organization
 
@@ -109,10 +116,6 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Teams Walkie Talkie.
-
-## License requirements
-
-Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## More information
 
