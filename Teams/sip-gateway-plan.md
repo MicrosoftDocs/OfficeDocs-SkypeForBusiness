@@ -170,6 +170,7 @@ If you have a 3PIP or SIP device, you must have:
 |          |IP-DECT Gateway IPBL     |11.8.8     |11.8.8     |IP-DECT Gateway |   |
 |          |TDM Base Station        |R3N     |R3N     |IP-DECT Base Station |   |
 |          |IP-DECT Virtual Appliance IPVM        |11.8.8     |11.8.8     |IP-DECT Server |   |
+
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
 > [!NOTE]
