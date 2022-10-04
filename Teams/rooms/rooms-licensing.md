@@ -44,7 +44,7 @@ A Teams Room system can be one of the following:
 - One Teams Rooms for Android device and touch console connected via either an IP-based or USB connection
 - One Surface Hub
 
-The remote administration tasks you perform on a Teams Rooms system or device in the Teams admin center depend on the license that's assigned the system or device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license).
+The remote administration tasks you perform on a Teams Rooms system or device in the Teams admin center depend on the license that's assigned the system or device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](admin-center-license-overview).
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
