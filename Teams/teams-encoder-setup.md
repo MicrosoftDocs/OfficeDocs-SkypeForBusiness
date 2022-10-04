@@ -40,11 +40,24 @@ The encoders in the following two lists have been tested by Microsoft for live s
 
 #### Stream-ready encoders
 
-TABLETABLETABLE XXX
+|Encoder         |Website  |Details  |
+|----------------|---------|---------|
+|Haivision       |[Haivision Makito X](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
+|Haivision       |[Haivision KB](https://www.haivision.com/microsoft/stream) |H.264 and HEV video encoders deliver high-quality ABR video cascades for resolutions up to 4K. |
+|Switcher Studio |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit. |
+|Wirecast        |[Wirecast](https://www.telestream.net/wirecast) |Webcasting software that covers all the basics + multi-camera production. |
+|Wirecast        |[Wirecast S](https://www.telestream.net/WirecastS) |Multimedia production software with chroma key filters, advanced audio channel mixing, and local Wi-Fi camera apps for your phone. |
 
 #### Additional encoders
 
-TABLETABLETABLE XXX
+|Encoder                   |Website  |Details  |
+|--------------------------|---------|---------|
+|AWS Elemental Live        |[AWS Elemental Live](https://www.elemental.com/products/aws-elemental-appliances-software/#elemental-live) |Real-time video and audio recording for live streaming to internet-connected devices |
+|vMix                      |[vMix](https://www.vmix.com/) |Software vision mixer that controls recording, mixing, and live streaming of cameras, videos, audio, and more. |
+|XSplit Broadcaster        |[XSplit Broadcaster](https://www.xsplit.com/) |Produces, mixes, and delivers rich video content, including gameplay for live streaming. |
+|FFmpeg                    |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
+|Open Broadcaster Software |[Open Broadcaster Software](https://obsproject.com/) |High-performance real-time video/audio capturing and mixing—supporting all streaming platforms, and more. |
+|Production Truck          |[Production Truck](https://www.blueframetech.com/productiontruck) |Films and streams events on location from a mobile van or truck. |
 
 ##### Our encoder is not on either list
 

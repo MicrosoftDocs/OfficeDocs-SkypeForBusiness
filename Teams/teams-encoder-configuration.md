@@ -19,7 +19,7 @@ appliesto:
 ms.custom:
 ---
 
-# Manually configure encoders for live event streaming in Microsoft Stream
+# Manually configure encoders for live event streaming in Microsoft Teams
 
 If you have an encoder that's not directly integrated into Teams, learn how to setup and configure the encoder manually for Live streaming with Teams.
 
@@ -71,13 +71,13 @@ After you save the live event (read Creating live events for details), you can s
 
 ### Playback requirements
 
-- Both an audio and video stream must be present in order to playback content in Microsoft Stream.
+- Both an audio and video stream must be present in order to playback content in Teams.
 
 ### Configuration tips
 
 - Whenever possible, use a hardwired internet connection.
 - When determining bandwidth requirements is to double the streaming bitrates. While this is not a mandatory requirement, it will help mitigate the impact of network congestion.
 - When using software-based encoders, close any unnecessary programs.
-- Don't change your encoder configuration after it has started pushing. It has negative effects on the event and can cause the event to be unstable. If you want to do this before the event has started, you must disconnect using the producer controls in Microsoft Stream (Classic) and start setup again.
+- Don't change your encoder configuration after it has started pushing. It has negative effects on the event and can cause the event to be unstable. If you want to do this before the event has started, you must disconnect using the producer controls in Teams and start setup again.
 - If the encoder is disconnected during the live event, reconnect it keeping the same timestamps of continuing process. Any discontinuity may cause audio or video issues on certain browsers and devices.
 - Give yourself ample time to setup your event. For high scale events, it's recommended to start the setup an hour before your event.
