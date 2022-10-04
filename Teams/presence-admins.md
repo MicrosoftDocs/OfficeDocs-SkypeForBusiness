@@ -65,11 +65,11 @@ Users can add people to their priority access list by going to **Settings** > **
 
 Normally, users' presence is determined by their activity on devices where they're logged in and by their Outlook calendar. However, users may also set themselves as less available by manually setting their presence in Microsoft Teams. This is known as "forced availability".
 
-When a user selects a specific presence state, it takes precedence over presence that would be calculated automatically as long as the manually selected state is "less available". For example, if a user sets herself as "Appear away", her presence will be Away even if she enters a call or a meeting begins for her. However, if she sets herself as "Available" and then leaves the computer idle, her presence will still be Away because a user can only manually set her presence to be less available.
+When a user selects a specific presence state, it takes precedence over presence that would be calculated automatically as long as the manually selected state is "less available". For example, if a user sets herself as **Appear away**, her presence will be Away even if she enters a call or a meeting begins for her. However, if she sets herself as **Available** and then leaves the computer idle, her presence will still be Away because a user can only manually set her presence to be less available.
 
 The order of statuses, from least available to most available, is Away, Be right back, Do not disturb, In a call, In a meeting, Busy, Available.
 
-It is normally not possible for a user to set herself manually as more available than she normally would be, but as an exception, if a user sets her status manually after a meeting begins, the manual status will take precedence even if it's more available than "In a meeting".
+It is not possible for a user to use forced availability to set herself as more available than she would be normally, but as an exception, if a user sets her status manually after a meeting begins, the manual status will take precedence during that meeting even if it's more available than "In a meeting".
 
 Users may set a duration for the presence that they set manually. If a user doesn't set a duration, her presence will be manually set for 1 day if it's Busy or Do not disturb, and for 7 days if it's any other status.
 
