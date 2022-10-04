@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Phone Resource Account licenses
-ms.author: dstrome
-author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
