@@ -54,6 +54,9 @@ Using the Microsoft Teams admin center:
 > For GCCH go to: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp).
 > For DoD go to: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp).
 
+> [!NOTE]
+> A PIN reset email won't be sent to the user if using this method.
+
 ## What else should you know about PINs?
 
 - For security purposes, the PIN is only shown to an administrator one time, when the PIN is reset. After the PIN is reset by an administrator, the PIN will be listed as ***********.
