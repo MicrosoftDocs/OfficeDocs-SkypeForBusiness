@@ -1396,6 +1396,8 @@ items:
               href: rooms/rooms-licensing.md
             - name: Teams Rooms admin center licensing
               href: rooms/admin-center-license-overview.md
+            - name: Teams Rooms legacy licensing
+              href: rooms/rooms-legacy-licensing.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
