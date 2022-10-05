@@ -88,14 +88,22 @@ To configure Teams Rooms on Windows using the touchscreen console, do the follow
 
 1. On the Microsoft Teams Rooms console, select **More**.
 2. Select **Settings**, and then enter the device administrator username and password.
-3. Go to the **Meetings** tab and select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
-4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
-5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
-6. Select **Save and exit**. Your device will restart.
+3. Go to the **Account** tab and under **Supported meeting mode** choose **Microsoft Teams only**. 
+4. Go to the **Meetings** tab and select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
+5. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
+6. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
+7. Select **Save and exit**. Your device will restart.
 
 ### Use the SkypeSettings.xml configuration file
 
-The following settings can be added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
+The following settings can be changed and added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
+
+Set these three XML attributes with the following values to ensure **Microsoft Teams only mode** is set up on the device:
+```xml
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <SfbMeetingEnabled>false</SfbMeetingEnabled>
+  <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
+```
 
 To enable Cisco Webex meetings, set the `WebexMeetingsEnabled` XML element to **True**, as follows.
 
