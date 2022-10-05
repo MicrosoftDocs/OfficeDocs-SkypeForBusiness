@@ -22,11 +22,11 @@ description:
 
 [!INCLUDE[Teams Enterprise ECM](includes/teams-enterprise-ecm.md)]
 
-The articles in this series provide recommendations for configuring teams in Microsoft Teams and their associated SharePoint sites for file protection that balances security with ease of collaboration.
+The articles in this series provide recommendations for using the compliance features available in Teams and Microsoft 365 to create a meeting environment that meets your compliance requirements. We'll look at the options available with sensitivity labels and how you can use them together with other Teams admin settings.
 
-This article defines four different configurations, starting with a public team with the most open sharing policies. Each additional configuration represents a meaningful step up in protection, while the ability to access and collaborate on files stored within teams is reduced to the relevant set of team members. 
+This article defines four different configurations, starting with a baseline configuration for meetings that don't have specific compliance requirements. Each additional configuration represents a meaningful step up in protection as meeting options become more restricted. The configurations in this article align with Microsoft's recommendations for three tiers of protection for data, identities, and devices.
 
-The configurations in this article align with Microsoft's recommendations for three tiers of protection for data, identities, and devices:
+We'll discuss these three configurations:
 
 - Baseline protection
 
@@ -34,9 +34,7 @@ The configurations in this article align with Microsoft's recommendations for th
 
 - Highly sensitive protection
 
-- Highly sensitive protection for presentations
-
-For more information about these tiers and capabilities recommended for each tier, see [Microsoft cloud for enterprise architects illustrations](./cloud-architecture-models.md)
+Additionally, we'll discuss a variation of the highly sensitive configuration for presentations that have minimal interaction from attendees.
 
 ## Three tiers at a glance
 
@@ -66,4 +64,10 @@ The following table summarizes the configurations for each tier. Use these confi
 
 ## Lobby options
 
+## Anonymous participants
+
 ## The attendee experience
+
+## Related topics
+
+[Microsoft cloud for enterprise architects illustrations](./cloud-architecture-models.md)
