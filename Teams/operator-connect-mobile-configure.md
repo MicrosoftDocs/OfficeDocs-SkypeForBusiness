@@ -55,11 +55,11 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 
 - [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).  
 
-- [Move numbers from Calling Plans to Teams Phone Mobile](#move-numbers-from-calling-plans-to-operator-connect-mobile).  
+- [Move numbers from Calling Plans to Teams Phone Mobile](#move-numbers-from-calling-plans-to-teams-phone-mobile).  
 
-- [Move numbers from Operator Connect to Teams Phone Mobile](#move-numbers-from-operator-connect-to-operator-connect-mobile).  
+- [Move numbers from Operator Connect to Teams Phone Mobile](#move-numbers-from-operator-connect-to-teams-phone-mobile).  
 
-- [Move numbers from Direct Routing to Teams Phone Mobile](#move-numbers-from-direct-routing-to-operator-connect-mobile).  
+- [Move numbers from Direct Routing to Teams Phone Mobile](#move-numbers-from-direct-routing-to-teams-phone-mobile).  
 
 
 ### Assign numbers to emergency addresses
@@ -120,7 +120,7 @@ To move numbers from Direct Routing to Teams Phone Mobile, you'll need to comple
 
 1. [Determine if the existing Direct Routing numbers are assigned online or on-premises](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises).
 
-2. [Migrate the numbers from Direct Routing to Teams Phone Mobile](#migrate-the-numbers-from-direct-routing-to-operator-connect-mobile).
+2. [Migrate the numbers from Direct Routing to Teams Phone Mobile](#migrate-the-numbers-from-direct-routing-to-teams-phone-mobile).
 
 2. [Remove the online voice routing policy associated with your user](#remove-the-online-voice-routing-policy-associated-with-your-user).
 

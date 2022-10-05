@@ -40,7 +40,7 @@ To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Operator Connect**](#phone-system-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
 
-- [**Teams Phone Mobile**](#phone-system-with-operator-connect-mobile). With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams.  
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile). With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams.  
 
 - [**Direct Routing**](#phone-system-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System.
 
