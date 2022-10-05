@@ -34,6 +34,8 @@ The configurations in this article align with Microsoft's recommendations for th
 
 - Highly sensitive protection
 
+- Highly sensitive protection for presentations
+
 For more information about these tiers and capabilities recommended for each tier, see [Microsoft cloud for enterprise architects illustrations](./cloud-architecture-models.md)
 
 ## Three tiers at a glance
@@ -43,16 +45,25 @@ The following table summarizes the configurations for each tier. Use these confi
 |&nbsp;|Baseline|Sensitive|Highly sensitive|Highly sensitive presentation|
 |:-----|:-----|:-----|:-----|:-----|
 |Allow guest one-time passcode|Yes|Yes|No|No|
-|Allow meeting chat|Enabled|Enabled|In-meeting only|No|
+|Allow meeting chat|**Enabled**|**Enabled**|**In-meeting only**|**No**|
 |Always let callers bypass the lobby|Yes|No|No|No|
 |End-to-end encryption|No|No|Yes|Yes|
 |Prevent copy & paste of meeting chat|No|No|Yes|Yes|
 |Prevent screen capture|No|No|Yes|Yes|
 |Record automatically|No|No|No|No|
 |Watermark meeting content|No|No|No|Yes|
-|Who can bypass the lobby|People in my organization, people in trusted domains, and guests|People I invite|Only me and co-organizers|Only me and co-organizers|
-|Who can present|People in my organization and guests|People in my organization and guests|Only me and co-organizers|Specific people|
-|Who can record|Organizers and presenters|Organizer and co-organizers|Organizer and co-organizers|Disabled|
-|Who can transcribe|Organizers and presenters|Organizer and co-organizers|Organizer and co-organizers|Disabled|
+|Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People I invite**|**Only me and co-organizers**|**Only me and co-organizers**|
+|Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only me and co-organizers**|**Specific people**|
+|Who can record|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|Disabled due to watermarking|
+|Who can transcribe|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|**Organizer and co-organizers**|
 
 
+## Meeting chat
+
+## Meeting recordings
+
+## Meeting with guests and external participants
+
+## Lobby options
+
+## The attendee experience
