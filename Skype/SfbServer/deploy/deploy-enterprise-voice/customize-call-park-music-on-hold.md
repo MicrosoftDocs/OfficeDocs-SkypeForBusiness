@@ -46,6 +46,7 @@ You can specify your own music file to use for music on hold, instead of the def
 
    ```powershell
    $a = [System.IO.File]::ReadAllBytes('C:\MoHFiles\soothingmusic.wma')
+
    Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
    ```
 
