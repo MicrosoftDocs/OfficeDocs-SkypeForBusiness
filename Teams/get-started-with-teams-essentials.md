@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Essentials QuickStart guide for small businesses 
-author: adeejoseph
-ms.author: adjoseph
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

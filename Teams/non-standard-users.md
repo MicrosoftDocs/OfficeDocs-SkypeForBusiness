@@ -11,6 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, federated users, and anonymous users.
 ms.localizationpriority: high
+ms.date: 09/28/2022
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -20,9 +21,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use Teams apps as external user or guest
+# Use Teams apps as external attendees or guest
 
-Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external users](manage-external-access.md) and [what can guests do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
+Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external attendees](manage-external-access.md) and [what can guests do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
 
 The following types of users can be present in a Teams chat or meeting and if you allow it, they can use apps in Teams.
 
@@ -96,5 +97,5 @@ By default, anonymous users can interact with the existing apps in a meeting. Yo
 
 * [Allow anonymous users to join meetings](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 * [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
-* [How to allow collaboration with external users](manage-external-access.md).
+* [How to allow collaboration with guests and external participants](manage-external-access.md).
 * [What can guests do in Teams](guest-access.md)
