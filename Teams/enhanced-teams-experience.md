@@ -17,8 +17,6 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - Licensing
-  - LIL_Placement
-  - seo-marvel-mar2020
 description: Learn how to enhance your Microsoft Teams experience with the Microsoft Teams Premium add-on license.
 ---
 
