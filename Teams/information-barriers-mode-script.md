@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
 - tier2
-- M365-security-compliance
+- purview-compliance
 - M365-collaboration
 appliesto: 
   - Microsoft Teams

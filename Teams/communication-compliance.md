@@ -14,7 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - tier1
-- M365-security-compliance
+- purview-compliance
 - M365-collaboration
 appliesto: 
   - Microsoft Teams
