@@ -1,7 +1,7 @@
 ---
 title: Manage the free version of Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
