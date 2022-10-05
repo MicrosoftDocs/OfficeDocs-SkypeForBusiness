@@ -68,7 +68,7 @@ To create a new announcement, you need to perform the following steps:
     For example, to specify an audio prompt:
 
    ```powershell
-   $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
+   $a = [System.IO.File]::ReadAllBytes('.\PromptFile.wav')
    Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
