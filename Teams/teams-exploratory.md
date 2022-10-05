@@ -1,7 +1,7 @@
 ---
 title: Manage the Microsoft Teams Exploratory experience
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin

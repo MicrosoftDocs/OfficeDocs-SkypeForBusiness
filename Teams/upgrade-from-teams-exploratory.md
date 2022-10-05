@@ -1,7 +1,7 @@
 ---
 title: Upgrade from the Teams Exploratory trial
-author: cazawideh
-ms.author: czawideh
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin

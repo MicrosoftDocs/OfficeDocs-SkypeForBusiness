@@ -1396,6 +1396,8 @@ items:
               href: rooms/rooms-licensing.md
             - name: Teams Rooms admin center licensing
               href: rooms/admin-center-license-overview.md
+            - name: Teams Rooms legacy licensing
+              href: rooms/rooms-legacy-licensing.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1459,15 +1461,13 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-    - name: Microsoft Teams Rooms managed service
+    - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
           href: rooms/microsoft-teams-rooms-premium.md
-        - name: Obtain and assign a license
-          href: rooms/obtaining-assigning-license.md
-        - name: Enroll in MTRP managed service
+        - name: Accessing the Pro Management portal
           href: rooms/enrolling-mtrp-managed-service.md
-        - name: Enroll a device into managed service
+        - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
         - name: Role-based access control
           href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1475,7 +1475,7 @@ items:
           href: rooms/managed-meeting-rooms-portal.md
         - name: Managed updates
           href: rooms/update-management.md 
-        - name: Configure ServiceNow for Teams Rooms
+        - name: Configure ServiceNow
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
@@ -1487,13 +1487,10 @@ items:
           href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
-        - name: Customer-reported incidents 
+        - name: Record an issue 
           href: rooms/customer-reported-incidents.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
-
-        - name: Using the Teams Rooms mobile application
-          href: rooms/extended-mobile-app.md
           
     - name: Devices
       items:
@@ -1612,7 +1609,7 @@ items:
           href: purchase-third-party-apps.md
         - name: Adobe Acrobat as default PDF viewer in Teams
           href: adobe-acrobat-pdf-viewer-teams.md
-        - name: Manage Microsoft 365 and custom connectors
+        - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
         - name: Customize app branding using app customization
           href: customize-apps.md
@@ -1644,8 +1641,6 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-          - name: Manage custom app policies and settings
-            href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Review Azure AD permissions and grant admin consent
@@ -1656,8 +1651,6 @@ items:
           href: app-permissions.md
         - name: Brand your org app store
           href: customize-your-app-store.md
-        - name: Manage access to apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
         - name: Use apps as external or guest users
           href: non-standard-users.md
         - name: Manage user requests
