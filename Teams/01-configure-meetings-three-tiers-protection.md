@@ -40,19 +40,19 @@ For more information about these tiers and capabilities recommended for each tie
 
 The following table summarizes the configurations for each tier. Use these configurations as starting point recommendations and adjust the configurations to meet the needs of your organization. You may not need every tier.
 
-|&nbsp;|Baseline||Sensitive|Highly sensitive|
-|:-----|:-----|:-----|:-----|
-|Allow guest one-time passcode||||
-|Allow meeting chat||||
-|Always let callers bypass the lobby||||
-|End-to-end encryption||||
-|Prevent copy & paste of meeting chat||||
-|Prevent screen capture||||
-|Record automatically||||
-|Watermark meeting content||||
-|Who can bypass the lobby||||
-|Who can present||||
-|Who can record||||
-|Who can transcribe||||
+|&nbsp;|Baseline||Sensitive|Highly sensitive|Highly sensitive presentation|
+|:-----|:-----|:-----|:-----|:-----|
+|Allow guest one-time passcode|Yes|Yes|No|No|
+|Allow meeting chat|Enabled|Enabled|In-meeting only|No|
+|Always let callers bypass the lobby|Yes|No|No|No|
+|End-to-end encryption|No|No|Yes|Yes|
+|Prevent copy & paste of meeting chat|No|No|Yes|Yes|
+|Prevent screen capture|No|No|Yes|Yes|
+|Record automatically|No|No|No|No|
+|Watermark meeting content|No|No|No|Yes|
+|Who can bypass the lobby|||||
+|Who can present|||||
+|Who can record|||||
+|Who can transcribe|||||
 
 
