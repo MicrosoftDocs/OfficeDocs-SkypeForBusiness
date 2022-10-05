@@ -1,1 +1,1 @@
-![Green checkmark icon](../media/yes.png) **Uses Teams Enterprise Enhanced Control & Management**
+![Information icon](../media/info.png) **Uses Teams Enterprise Enhanced Control & Management**
