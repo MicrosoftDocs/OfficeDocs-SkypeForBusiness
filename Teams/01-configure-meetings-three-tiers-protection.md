@@ -21,3 +21,38 @@ description:
 # Configure Teams meetings with three tiers of protection
 
 [!INCLUDE[Teams Enterprise ECM](includes/teams-enterprise-ecm.md)]
+
+The articles in this series provide recommendations for configuring teams in Microsoft Teams and their associated SharePoint sites for file protection that balances security with ease of collaboration.
+
+This article defines four different configurations, starting with a public team with the most open sharing policies. Each additional configuration represents a meaningful step up in protection, while the ability to access and collaborate on files stored within teams is reduced to the relevant set of team members. 
+
+The configurations in this article align with Microsoft's recommendations for three tiers of protection for data, identities, and devices:
+
+- Baseline protection
+
+- sensitive protection
+
+- Highly sensitive protection
+
+For more information about these tiers and capabilities recommended for each tier, see [Microsoft cloud for enterprise architects illustrations](./cloud-architecture-models.md)
+
+## Three tiers at a glance
+
+The following table summarizes the configurations for each tier. Use these configurations as starting point recommendations and adjust the configurations to meet the needs of your organization. You may not need every tier.
+
+|&nbsp;|Baseline||Sensitive|Highly sensitive|
+|:-----|:-----|:-----|:-----|
+|Allow guest one-time passcode||||
+|Allow meeting chat||||
+|Always let callers bypass the lobby||||
+|End-to-end encryption||||
+|Prevent copy & paste of meeting chat||||
+|Prevent screen capture||||
+|Record automatically||||
+|Watermark meeting content||||
+|Who can bypass the lobby||||
+|Who can present||||
+|Who can record||||
+|Who can transcribe||||
+
+
