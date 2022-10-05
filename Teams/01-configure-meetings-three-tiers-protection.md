@@ -40,7 +40,7 @@ For more information about these tiers and capabilities recommended for each tie
 
 The following table summarizes the configurations for each tier. Use these configurations as starting point recommendations and adjust the configurations to meet the needs of your organization. You may not need every tier.
 
-|&nbsp;|Baseline||Sensitive|Highly sensitive|Highly sensitive presentation|
+|&nbsp;|Baseline|Sensitive|Highly sensitive|Highly sensitive presentation|
 |:-----|:-----|:-----|:-----|:-----|
 |Allow guest one-time passcode|Yes|Yes|No|No|
 |Allow meeting chat|Enabled|Enabled|In-meeting only|No|
