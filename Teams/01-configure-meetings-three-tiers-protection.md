@@ -50,9 +50,9 @@ The following table summarizes the configurations for each tier. Use these confi
 |Prevent screen capture|No|No|Yes|Yes|
 |Record automatically|No|No|No|No|
 |Watermark meeting content|No|No|No|Yes|
-|Who can bypass the lobby|||||
-|Who can present|||||
-|Who can record|||||
-|Who can transcribe|||||
+|Who can bypass the lobby|People in my organization, people in trusted domains, and guests|People I invite|Only me and co-organizers|Only me and co-organizers|
+|Who can present|People in my organization and guests|People in my organization and guests|Only me and co-organizers|Specific people|
+|Who can record|Organizers and presenters|Organizer and co-organizers|Organizer and co-organizers|Disabled|
+|Who can transcribe|Organizers and presenters|Organizer and co-organizers|Organizer and co-organizers|Disabled|
 
 
