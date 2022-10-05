@@ -40,9 +40,9 @@ Microsoft offers two licenses for Teams Rooms systems that participate in Teams 
 
 A Teams Room system can be one of the following:
 
-- One Teams Rooms for Windows compute module and attached touch console
-- One Teams Rooms for Android device and touch console connected via either an IP-based or USB connection
-- One Surface Hub
+- A Teams Rooms for Windows compute module and attached touch console
+- A Teams Rooms for Android device and touch console connected via either an IP-based or USB connection
+- A Surface Hub
 
 The remote administration tasks you perform on a Teams Rooms system or device in the Teams admin center depend on the license that's assigned the system or device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](admin-center-license-overview).
 
@@ -80,6 +80,8 @@ If your organization has meeting devices that use the Teams Rooms Standard or Te
 > Legacy licenses won't automatically transition to the new licenses. Upon expiration of a legacy license, you'll need to purchase a new Teams Rooms Pro (recommended) or Teams Rooms Basic license. Teams Rooms Pro licenses can be purchased through the Microsoft 365 admin center or your preferred sales channel. Teams Rooms Basic licenses can only be purchased through the Microsoft 365 admin center.
 
 If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period. You can also continue to reserve additional legacy licenses until your next renewal period. For more information, contact your Microsoft representative.
+
+For information about legacy licenses, see [Microsoft Teams Rooms legacy licenses](rooms-legacy-licensing.md).
 
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
 
