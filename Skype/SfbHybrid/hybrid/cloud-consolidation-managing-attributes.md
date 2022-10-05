@@ -139,7 +139,7 @@ This option requires more effort and proper planning because users who were move
 7. Wait for user provisioning to complete. You can monitor user provisioning progress by running the following Teams PowerShell command. The following Teams PowerShell command returns an empty result as soon process is completed.
 
    ```PowerShell
-   Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | Where UserValidationErrors -ne $null | Select SipAddress,InterpretedUserType,UserValidationErrors
+   Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | Where {$_.UserValidationErrors -ne $null} | Select SipAddress,InterpretedUserType,UserValidationErrors
    ```
 
 8. To assign phone numbers and enable users for Phone System, execute the following Teams PowerShell command:

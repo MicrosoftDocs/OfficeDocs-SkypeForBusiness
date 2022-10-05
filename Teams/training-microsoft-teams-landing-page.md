@@ -45,7 +45,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
    :::column-end:::
 
    :::column:::
-   **[Manage Team Collaboration for IT](/learn/paths/m365-manage-team-collaboration)** </br>
+   **[Manage Team Collaboration for IT](/training/paths/m365-manage-team-collaboration)** </br>
    Course: Learn how to use Teams to facilitate teamwork and communication within your org across applications and devices.
 
    :::column-end:::
@@ -54,13 +54,13 @@ Check back frequently - we'll keep updating this list so you'll always know abou
 
 :::row:::
    :::column:::
-   **[Adoption specialist certification](/learn/paths/m365-service-adoption/)** </br>
+   **[Adoption specialist certification](/training/paths/m365-service-adoption/)** </br>
    The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.
 
    :::column-end:::
 
    :::column:::
-   **[Introduction to teamwork in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Introduction to teamwork in Microsoft 365](/training/modules/intro-to-teamwork-in-m365/index)** </br>
    Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your org.
 
    :::column-end:::

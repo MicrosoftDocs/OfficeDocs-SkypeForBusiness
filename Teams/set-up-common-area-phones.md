@@ -1,7 +1,7 @@
 ---
-title: Set up common area phones for Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+title: Set up the Common Area Phone license
+ms.author: danismith
+author: DaniEASmith
 manager: serdars
 ms.date: 1/28/2022
 ms.reviewer: kponnus

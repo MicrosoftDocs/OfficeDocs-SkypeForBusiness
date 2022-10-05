@@ -52,7 +52,7 @@ sections:
 
       - question: Do on-premises Skype for Business Server customers need to upgrade to Microsoft Teams when Skype for Business Online retires? 
         answer: |
-          No. The retirement of Skype for Business Online doesn't impact users homed on-premises. Though we encourage all customer to take advantage of the expanded functionality and performance Microsoft Teams offers, some Skype for Business Server customers may need to use the product stand-alone or as part of a hybrid configuration with Microsoft Teams. Refer to the [Microsoft Lifecycle Policy](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) site for support dates for versions of Skype for Business Server. 
+          No. The retirement of Skype for Business Online doesn't impact users homed on-premises. Though we encourage all customer to take advantage of the expanded functionality and performance Microsoft Teams offers, some Skype for Business Server customers may need to use the product stand-alone or as part of a hybrid configuration with Microsoft Teams. Refer to the [Microsoft Lifecycle Policy](https://learn.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) site for support dates for versions of Skype for Business Server. 
           
       - question: What happens after Skype for Business Online retires?
         answer: |

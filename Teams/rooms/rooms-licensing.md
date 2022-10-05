@@ -38,6 +38,8 @@ Microsoft offers two licenses for meeting room devices that participate in Teams
 
 A Teams Rooms Basic license can be used to license a single certified Teams Rooms device in a room. If you want to log into more than one device in a room using the same resource account (for example, a Teams Rooms console, a Surface Hub, and a Teams panel), you need to use a Teams Rooms Pro license.
 
+The remote administration tasks you perform on a Teams Rooms device in the Teams admin center depend on the license that's assigned the device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](/microsoftteams/rooms/admin-center-license-overview#comparison-of-teams-rooms-feature-availability-by-license).
+
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 ## Teams Rooms license service plan comparison
@@ -72,6 +74,8 @@ If your organization has meeting devices that use the Teams Rooms Standard or Te
 > Legacy licenses won't automatically transition to the new licenses. Upon expiration of a legacy license, you'll need to purchase a new Teams Rooms Pro (recommended) or Teams Rooms Basic license. Teams Rooms Pro licenses can be purchased through the Microsoft 365 admin center or your preferred sales channel. Teams Rooms Basic licenses can only be purchased through the Microsoft 365 admin center.
 
 If your organization has an Enterprise Agreement, you can continue using your existing legacy licenses until your next renewal period. You can also continue to reserve additional legacy licenses until your next renewal period. For more information, contact your Microsoft representative.
+
+For information about legacy licenses, see [Microsoft Teams Rooms legacy licenses](rooms-legacy-licensing.md).
 
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
 
