@@ -86,7 +86,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 2. **Users who will be assigned phone numbers acquired with Teams Phone Mobile need to be in TeamsOnly mode.** If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. 
 
-   To check, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
+   To check, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to TeamsOnly.
 
 3. **Acquire numbers.** Go to your operator's website or contact them to order and acquire mobile SIM-enabled phone numbers with the Teams Phone Mobile service enabled. 
 
