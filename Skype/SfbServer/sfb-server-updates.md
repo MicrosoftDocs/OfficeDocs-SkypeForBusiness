@@ -37,7 +37,6 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |Skype for Business Server 2019 Cumulative Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| December 2019 |
 |Skype for Business Server 2019 Cumulative Update 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
 |Skype for Business Server 2019 Cumulative Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2019 |
-| | | |
 
 ### Skype for Business Server 2019 tools
 
@@ -46,8 +45,6 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  June 2019       |
 |[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | June 2018        |
 | Skype for Business Server 2019, Management Pack    | June 2018        |
-|||
-
 
 ## Skype for Business Server 2015 update history
 
@@ -76,7 +73,6 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |Cumulative update 1 for Skype for Business Server 2015, Front End server and Edge server |[KB 3097645](https://support.microsoft.com/kb/3097645) |November 2015 |
 |Cumulative update for Skype for Business Server 2015, Core Components |[KB 3098601](https://support.microsoft.com/kb/3098601) |September 2015 |
 |Cumulative update for Skype for Business Server 2015, Front End server and Edge server|[KB 3061059](https://support.microsoft.com/kb/3061059) |June 2015 |
-||||
 
 ### Skype for Business Server 2015 tools
 
@@ -85,7 +81,6 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  May 2015       |
 |[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)     |   May 2015      |
 | Skype for Business Server 2015, Management Pack     |  June 2019       |
-|||
 
 ## Lync Server 2013 update history
 
@@ -124,7 +119,6 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |Lync Server 2013 Cumulative Update 3 | KB 881682 |October 2013 |
 |Lync Server 2013 Cumulative Update 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|July 2013 |
 |Lync Server 2013 Cumulative Update 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|February 2013 |
-||||
 
 ### </a>Lync Server 2013 Dev tools
 
@@ -201,7 +195,6 @@ Package name |Release date|
 |Lync Server 2010 Cumulative Update 3| KB 2571546 |July 2011|
 |Lync Server 2010 Cumulative Update 2| KB 2500442 |April 2011|
 |Lync Server 2010 Cumulative Update 1| KB 2467775 |January 2011|
-||||
 
 ### Group Chat 2010 updates
 
