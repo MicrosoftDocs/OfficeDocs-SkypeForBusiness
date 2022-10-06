@@ -1,7 +1,7 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -40,7 +40,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 - **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license. 
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
-- A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](/stream/license-overview).
+- A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](/stream/license-overview). A Stream license is not required if you are using the newer Teams Encoder services to produce the event. 
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
@@ -52,7 +52,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 
 It's important to know that a Microsoft 365 or Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
-- **For events produced in Teams**  The user must be assigned a Teams license.
+- **For events produced in Teams or using a Teams Powered Encoder**  The user must be assigned a Teams license.
 - **For events produced with an external app or device** The user must be assigned a Stream license.
 
 > [!NOTE]
@@ -84,19 +84,19 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## Who can watch live events
 
-| Attendee visibility | Teams production | External app or device production |
-|------------------------------|-----------------|----------------------|
-|Public (anonymous users)      |  Yes            |  No                  |
-|Guest users                   |  Yes<sup>1</sup>            |  No                  |
-|Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  |
-|Everyone in company           |  Yes            |  Yes                 |
-|Specific groups / people      |  Yes            |  Yes                 |
+| Attendee visibility | Teams production | External app or device production | Teams Powered Encoder
+|------------------------------|-----------------|----------------------|----------------|
+|Public (anonymous users)      |  Yes            |  No                  | Yes
+|Guest users                   |  Yes<sup>1</sup>            |  No                  |  yes            |
+|Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  | Yes            |
+|Everyone in company           |  Yes            |  Yes                 | Yes                |
+|Specific groups / people      |  Yes            |  Yes                 | Yes                |
 
 <sup>1</sup> Can only be invited through People & Group <br>
 
-## Teams live events and Skype Meeting Broadcast
+## Teams live events
 
-The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast.
+The following table highlights core capabilities and features offered in live events
 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**

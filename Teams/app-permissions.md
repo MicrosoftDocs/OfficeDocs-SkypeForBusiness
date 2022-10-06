@@ -21,10 +21,9 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
+# Information accessed and actions performed by Teams apps and admin considerations
 
-# Microsoft Teams apps permissions and considerations
-
-Microsoft Teams apps are a way to aggregate one or more capabilities into apps that can be installed, upgraded, and uninstalled. Capabilities of apps include:
+Microsoft Teams apps aggregate one or more capabilities into apps that can be installed, upgraded, and uninstalled. Capabilities of apps include:
 
 * Bots
 * Messaging extensions
