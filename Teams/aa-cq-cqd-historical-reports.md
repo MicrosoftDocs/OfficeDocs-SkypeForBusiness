@@ -61,7 +61,7 @@ Perform the following steps:
 
 - Double-click on the "Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit" template file. The Power BI Desktop should launch.
 
-- You'll be prompted to select the Data Source.  Select the [https://api.interfaces.records.teams.microsoft.com]() entry.
+- You'll be prompted to select the Data Source.  Select the *api.interfaces.records.teams.microsoft.com* entry.
 
   :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
