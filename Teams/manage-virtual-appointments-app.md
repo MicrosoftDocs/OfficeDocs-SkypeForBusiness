@@ -53,7 +53,7 @@ Access your Bookings calendar to schedule virtual appointments such as healthcar
 
 ### Queue
 
-View and monitor all virtual appointments in the Bookings calendar that you pinned, with updates in real time. From here, you can add a new booking, view relevant appointment details, see appointment statuses throughout the day, and send appointment reminders to staff and attendees. Staff can even join appointments directly from the queue. To learn more, see [Monitor appointments and get real-time status updates](expand-teams-across-your-org/bookings-virtual-visits.md#monitor-appointments-and-get-real-time-status-updates).
+View and monitor all virtual appointments in the Bookings calendar that you pinned, with updates in real time. From here, you can add a new booking, view relevant appointment details, see appointment statuses throughout the day, and send email reminders to assigned staff and attendees. Staff can even join appointments directly from the queue. To learn more, see [Monitor appointments and get real-time status updates](expand-teams-across-your-org/bookings-virtual-visits.md#monitor-appointments-and-get-real-time-status-updates).
 
 :::image type="content" source="media/manage-virtual-appointments-app-queue.png" alt-text="Screenshot of the Queue page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-queue.png":::
 
