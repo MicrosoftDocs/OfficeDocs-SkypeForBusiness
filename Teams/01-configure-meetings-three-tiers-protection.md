@@ -70,4 +70,4 @@ The following table summarizes the configurations for each tier. Use these confi
 
 ## Related topics
 
-[Microsoft cloud for enterprise architects illustrations](./cloud-architecture-models.md)
+[Microsoft cloud for enterprise architects illustrations](/microsoft-365/solutions/cloud-architecture-models)
