@@ -60,7 +60,7 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 ## Configure mailbox properties
 
-[!INCLUDE [mtr-device-config-mailbox-include](../includes/mtr-device-config-password-include.md)]
+[!INCLUDE [mtr-device-config-mailbox-include](../includes/mtr-device-config-mailbox-include.md)]
 
 ## Turn off password expiration
 

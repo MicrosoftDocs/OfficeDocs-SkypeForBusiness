@@ -1,7 +1,7 @@
 ---
 title: Customize Microsoft Teams Phone System with Calling Plan in Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
