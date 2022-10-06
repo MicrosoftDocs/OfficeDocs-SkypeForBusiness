@@ -1,7 +1,7 @@
 ---
 title: Check your Internet connection for Teams Phone System
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
