@@ -27,7 +27,7 @@ appliesto:
 
 The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. The app brings a cohesive schedule management experience to Teams, integrating virtual appointments from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) and analytics, all in one place.
 
-You can manage virtual appointments from Bookings, Teams, and Outlook, view reports to gain insight into virtual appointment activity, get real-time status updates in a queue view, send appointment reminders, and manage calendar settings.
+You can manage virtual appointments from Bookings, Teams, and Outlook, view reports to gain insight into virtual appointment activity, get real-time status updates in a queue view, send appointment reminders, and configure calendar and staff settings.
 
 ## Overview of the Virtual appointments app
 
