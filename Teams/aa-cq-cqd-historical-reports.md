@@ -63,11 +63,11 @@ Perform the following steps:
 
 - You'll be prompted to select the Data Source.  Select the *https://api.interfaces.records.teams.microsoft.com* entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v3.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
 - You'll be prompted to sign in with an account. Select **Organizational account** and then select **Sign in**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v3.png" alt-text="Screenshot showing login.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login.":::
 
 - Select **Connect** and watch the data refresh.
 
@@ -155,11 +155,11 @@ The following steps assume you have already completed the installation steps.
 Perform the following steps:
 - Select **View tab** on the ribbon.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
+  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
 
 - Select the color schema from the drop-down list.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
+  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
 ## Auto Attendant and Call Queue Historical Reports Definitions
 
