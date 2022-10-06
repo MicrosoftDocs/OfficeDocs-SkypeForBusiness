@@ -1,5 +1,5 @@
 ---
-title: "Manage phone numbers for youserdarsr organization"
+title: "Manage phone numbers for your organization"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
