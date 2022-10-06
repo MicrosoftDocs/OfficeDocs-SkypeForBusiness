@@ -75,14 +75,14 @@ Manage your Bookings calendar settings. You can update your business details, cu
 
 ## Set up the Virtual appointments app
 
-### Enable or disable Virtual appointments in your organization
+### Enable or disable the Virtual appointments app in your organization
 
 Virtual appointments is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
 2. In the list of apps, search for the Virtual appointments app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
 
-### Enable or disable Virtual appointments for specific users in your organization
+### Enable or disable the Virtual appointments app for specific users in your organization
 
 To allow or block specific users in your organization from using Virtual appointments, make sure Virtual appointments is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
