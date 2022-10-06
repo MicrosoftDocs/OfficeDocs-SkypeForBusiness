@@ -1620,7 +1620,7 @@ items:
       items:
         - name: Manage custom and sideloaded apps
           href: custom-app-overview.md
-        - name: Manage custom app policies and settings
+        - name: Manage policies and settings for custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
