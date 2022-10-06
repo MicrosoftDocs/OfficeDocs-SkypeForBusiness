@@ -130,6 +130,6 @@ To remove an app, follow these steps:
 
 * [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-* [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
+* [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md)
 * [Manage app permission policies in Teams](teams-app-permission-policies.md)
 * [Manage app setup policies in Teams](teams-app-setup-policies.md)
