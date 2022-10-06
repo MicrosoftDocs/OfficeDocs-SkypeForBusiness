@@ -1,7 +1,7 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -94,7 +94,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 <sup>1</sup> Can only be invited through People & Group <br>
 
-## Teams live events and Skype Meeting Broadcast
+## Teams live events
 
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast.
 
