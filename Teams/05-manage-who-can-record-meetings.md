@@ -20,3 +20,23 @@ description:
 # Manage who can record Teams meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
+
+
+Recording and transcription settings let you control how these features are used in a Teams meeting. Learn more
+Transcription
+
+Cloud recording
+
+Meetings automatically expire
+
+Default expiration time
+120
+Store recordings outside of your country or region
+
+
+
+label
+record automatically
+who can record
+
