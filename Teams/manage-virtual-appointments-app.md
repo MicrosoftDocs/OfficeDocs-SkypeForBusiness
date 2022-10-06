@@ -41,7 +41,7 @@ The Virtual appointments app has the following tabs:
 
 ### Home
 
-Get quick access to key information, actions, and updates.
+Get quick access to key actions and information, such as what's new.
 
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
