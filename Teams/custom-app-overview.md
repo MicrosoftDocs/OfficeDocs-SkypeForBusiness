@@ -57,6 +57,6 @@ In app setup policy, you can create a custom policy or edit the global policy to
 
 ## Related articles
 
-* [Manage custom app policies and settings](teams-custom-app-policies-and-settings.md)
+* [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md)
 * [Understand policies to govern apps](app-policies.md)
 * [Understand third-party apps](overview-third-party-apps.md)
