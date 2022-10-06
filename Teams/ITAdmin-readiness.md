@@ -33,8 +33,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**Teams essentials for IT**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" video series shows you – the admin – how to roll out, configure, and manage Teams.     |[**Support remote workers using Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Get the guidance you need – including links to training – to support your users who are working from home.         |[**Manage Team collaboration for IT**](/learn/paths/m365-manage-team-collaboration) - Learn how to use Teams to facilitate teamwork and communication within your org across applications and devices.         |
-|[**Service Adoption Specialist certification**](/learn/paths/m365-service-adoption) - The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your org.     |[**Introduction to teamwork in Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.        |
+|[**Teams essentials for IT**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" video series shows you – the admin – how to roll out, configure, and manage Teams.     |[**Support remote workers using Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Get the guidance you need – including links to training – to support your users who are working from home.         |[**Manage Team collaboration for IT**](/training/paths/m365-manage-team-collaboration) - Learn how to use Teams to facilitate teamwork and communication within your org across applications and devices.         |
+|[**Service Adoption Specialist certification**](/training/paths/m365-service-adoption) - The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your org.     |[**Introduction to teamwork in Microsoft 365**](/training/modules/intro-to-teamwork-in-m365/index) - The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.        |
 
 <h2>Technical training</h2>
 
@@ -59,18 +59,18 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on  Microsoft Teams Rooms.  
 
-| Module | Video | PowerPoint deck (PDF)  |
-| ------------ | -------------------- | -------------------- |
-| Module 1: Introduction to Microsoft Teams Rooms (18:29 min) | [Video](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Module 2: Microsoft Teams Networking (34:10 min) | [Video](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Module 3: Choosing the right device for the right space (18:45 min) | [Video](https://www.youtube.com/watch?v=jUac7mT7xP4) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Module 4: Deploying Microsoft Teams Rooms (56:36 min) | [Video](https://www.youtube.com/watch?v=IJZPczMAsEM) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Module 5: Configuring and starting Microsoft Teams Rooms (32:27 min) | [Video](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Module 6: Managing Microsoft Teams Rooms, Part 1 (18:31 min) | [Video](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Module 7: Managing Microsoft Teams Rooms, Part 2 (41:06 min) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Introduction to Microsoft Teams Rooms Managed Services |  | [Deck](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
+| Module | PowerPoint deck (PDF)  |
+| ------------ | -------------------- |
+| Module 1: Introduction to Microsoft Teams Rooms  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Module 2: Microsoft Teams Networking  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Module 3: Choosing the right device for the right space  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Module 4: Deploying Microsoft Teams Rooms  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Module 5: Configuring and starting Microsoft Teams Rooms  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Module 6: Managing Microsoft Teams Rooms, Part 1  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Module 7: Managing Microsoft Teams Rooms, Part 2  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| One-touch Join Instructions |  [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Introduction to Microsoft Teams Rooms Managed Services | [Deck](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android devices</h2>
 

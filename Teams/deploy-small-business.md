@@ -44,7 +44,7 @@ Jump to the section you're interested in:
 Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or more users talk to each other, share files, and meet privately. **Teams**, which can be visible to everyone in your organization or only to those in the team, let the right people collaborate whatever the task or occasion, whether it's a long-running project or planning for a birthday party. **Channels** within teams can segment topics, projects, departments, or anything else make sense for your team. For details about chat, teams, and channels, check out [Overview of teams and channels](teams-channels-overview.md).
 
 > [!TIP]
-> See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
+> See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](/training/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
 
 As you think about rolling out teams and channels, you need to decide who should be able to create them, whether guests from outside your organization can access them, and so on. The article [Chat, teams, channels, & apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) has lots of information about planning for chat, teams, and channels, however, here are some key things from that article you should think about. Select on a decision if you want more information about it.
 
@@ -66,7 +66,7 @@ Meetings and conferencing lets people in your organization meet with each other 
 **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
 
 > [!TIP]
-> Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
+> Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](/training/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
 
 Meetings are enabled by default in Teams, however, you can control the meeting experience for organizers and participants. You can also set policies for what people are, and aren't, allowed to do before and during meetings. For more information, check out the following articles:
 
@@ -86,7 +86,7 @@ When you're ready for your users to start using Teams, they can install the Team
 Make sure everyone who'll be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
-> Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/learn/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
+> Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/training/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
 
 If your organization uses Microsoft Endpoint Configuration Manager, Group Policy, or a third-party distribution mechanism, to deploy software to your user's computers, see [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](msi-deployment.md).
 
