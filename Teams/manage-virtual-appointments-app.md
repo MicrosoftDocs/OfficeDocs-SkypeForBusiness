@@ -25,7 +25,7 @@ appliesto:
 
 # Manage the Virtual appointments app for your organization in Microsoft Teams
 
-The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. The app brings a cohesive schedule management experience to Teams, integrating virtual appointments from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) and analytics, all in one place.
+The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. The app brings a cohesive schedule management experience to Teams, integrating virtual appointments from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), the [Teams Electronic Health Record (EHR) connector](expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-appointments-and-electronic-healthcare-record-ehr-integration), and analytics, all in one place.
 
 You can manage virtual appointments from Bookings, Teams, and Outlook, view reports to gain insight into virtual appointment activity, get real-time status updates in a queue view, send appointment reminders, and configure calendar and staff settings.
 
@@ -41,13 +41,13 @@ The Virtual appointments app has the following tabs:
 
 ### Home
 
-Get quick access to key information, actions, and updates. From here, you can...
+Get quick access to key information, actions, and updates.
 
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
 ### Bookings schedule
 
-Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
+Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one. To learn more about Bookings, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
 
 :::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Bookings schedule page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
