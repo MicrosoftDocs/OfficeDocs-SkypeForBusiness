@@ -20,7 +20,7 @@ description:
 
 # Configure Teams meetings with three tiers of protection
 
-[!INCLUDE[Teams Enterprise ECM](includes/teams-enterprise-ecm.md)]
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 The articles in this series provide recommendations for using the compliance features available in Teams and Microsoft 365 to create a meeting environment that meets your compliance requirements. We'll look at the options available with sensitivity labels and how you can use them together with other Teams admin settings.
 

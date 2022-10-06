@@ -1,1 +1,0 @@
-![Information icon](../media/info.png) **Uses Teams Enterprise Enhanced Control & Management**

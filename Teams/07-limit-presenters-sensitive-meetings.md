@@ -19,4 +19,4 @@ description:
 
 # Limit sho can present in sensitive Teams meetings
 
-[!INCLUDE[Teams Enterprise ECM](includes/teams-enterprise-ecm.md)]
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
