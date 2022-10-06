@@ -25,15 +25,15 @@ description: Learn about how to use Call Quality Dashboard Power BI report to vi
 ---
 # Auto Attendant & Call Queue Historical Report
 
-These reports allow organizations to report on the number of calls being processed by auto attendands and call queues and also provide agent performance insites.
+This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendands and call queues.  It also provides agent performance insites.
 
 ## V3.0.0 published on October 25, 2022
 
-The Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
+The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- [Auto Attendant](media/cqd-teams-aa-cq-historical-report-sample-aa-v300.png) – showing analytics for calls coming into your Auto Attendants.
-- [Call Queue](media/cqd-teams-aa-cq-historical-report-sample-cq-v300.png) – showing analytics for calls coming into your Call Queues.
-- [Agent Timeline](media/cqd-teams-aa-cq-historical-report-sample-at-v300.png) – showing a timeline view of agents being active in Call Queue calls.
+- [Auto Attendant](media/aa-cq-historical-report-sample-aa-v300.png) – showing analytics for calls coming into your Auto Attendants.
+- [Call Queue](media/aa-cq-historical-report-sample-cq-v300.png) – showing analytics for calls coming into your Call Queues.
+- [Agent Timeline](media/aa-cq-historical-report-sample-at-v300.png) – showing a timeline view of agents being active in Call Queue calls.
 
 These reports use data from the Voice Applications Analytics Collector service.
 
@@ -63,11 +63,11 @@ Perform the following steps:
 
 - You'll be prompted to select the Data Source.  Select the *https://api.interfaces.records.teams.microsoft.com* entry.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01-v3.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v3.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
 - You'll be prompted to sign in with an account. Select **Organizational account** and then select **Sign in**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03-v3.png" alt-text="Screenshot showing login.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v3.png" alt-text="Screenshot showing login.":::
 
 - Select **Connect** and watch the data refresh.
 
@@ -79,9 +79,9 @@ Perform the following steps:
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
 
-- [Auto Attendant](media/cqd-teams-aa-cq-historical-report-sample-aa-v163.png) – showing analytics for calls coming into your Auto Attendants.
-- [Call Queue](media/cqd-teams-aa-cq-historical-report-sample-cq-v163.png) – showing analytics for calls coming into your Call Queues.
-- [Agent Timeline](media/cqd-teams-aa-cq-historical-report-sample-at-v163.png) – showing a timeline view of agents being active in Call Queue calls.
+- [Auto Attendant](media/aa-cq-historical-report-sample-aa-v163.png) – showing analytics for calls coming into your Auto Attendants.
+- [Call Queue](media/aa-cq-historical-report-sample-cq-v163.png) – showing analytics for calls coming into your Call Queues.
+- [Agent Timeline](media/aa-cq-historical-report-sample-at-v163.png) – showing a timeline view of agents being active in Call Queue calls.
 
 These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. 
 
@@ -110,7 +110,7 @@ Perform the following steps:
 
 - You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
 - The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
@@ -127,11 +127,11 @@ Perform the following steps:
  
  - To see your own data, select **Refresh** in the Home tab under Queries in Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option.":::
+   :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Screenshot selecting the refresh option.":::
 
 - You'll be prompted to sign in. Select **Organizational account** and then select **Sign in**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login.":::
 
 - Select **Connect** and watch the data refresh.
 
