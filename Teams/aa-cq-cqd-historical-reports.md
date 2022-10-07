@@ -23,7 +23,7 @@ ms.custom:
   - ms.lync.lac.ToolsCallQualityDashboard
 description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
 ---
-# Auto Attendant & Call Queue Historical Report
+# Auto Attendant & Call Queue Historical Report (2)
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendands and call queues.  It also provides agent performance insites.
 
