@@ -42,3 +42,13 @@ Participants can give or request control (Policy)
 External participants can give or request control (Policy)
 
 
+PowerPoint Live (Policy)
+Whiteboard (Policy)
+Shared notes (Policy)
+
+
+Allow attendee video (Template)
+Allow camera for attendees (Meeting organizer)
+Allow mic for attendees (Meeting organizer)
+Attendees can unmute (Microphone) (Template)
+
