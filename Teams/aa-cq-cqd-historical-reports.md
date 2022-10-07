@@ -21,7 +21,7 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
-description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
+description: Learn about how to use Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 # Auto Attendant & Call Queue Historical Report (2)
 
@@ -67,7 +67,7 @@ Perform the following steps:
 
 - You'll be prompted to sign in with an account. Select **Organizational account** and then select **Sign in**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
 
 - Select **Connect** and watch the data refresh.
 
@@ -131,7 +131,7 @@ Perform the following steps:
 
 - You'll be prompted to sign in. Select **Organizational account** and then select **Sign in**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login foe V1.63.":::
 
 - Select **Connect** and watch the data refresh.
 
