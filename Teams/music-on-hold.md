@@ -88,7 +88,7 @@ The configuration of custom Music on Hold starts with uploading the audio file. 
 An example of uploading an MP3 audio file using Windows PowerShell 5.1 is shown below. For other examples, see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
-C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
+C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
 C:\> $AudioFile = Import-CsOnlineAudioFile -FileName "customMoH1.mp3" -Content $content
 C:\> $AudioFile
 Id            : 56a56961f2794f098a359885ec1454a1
@@ -124,6 +124,8 @@ The following table indicates which features on which clients and devices suppor
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
+| Hold on Transfer on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | | |
+| Hold on Transfer on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold| | | |
 | Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on Consultative Transfer on 1:1 Teams call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 
@@ -133,7 +135,7 @@ The following table indicates which features on which clients and devices suppor
 
 - Music on Hold is only available when the user is in TeamsOnly mode.
 
-- If the called Teams user is enabled for Location-Based Routing, Music on Hold cannot be played to the caller.
+- If the called Teams user is enabled for Location-Based Routing, only the standard Music on Hold is played to the caller.
 
 - Custom Music on Hold is not available for users configured for Shared Line Appearance (delegation) and when Call Park is used. The standard Music on Hold will be played.
 

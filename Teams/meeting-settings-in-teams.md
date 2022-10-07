@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article

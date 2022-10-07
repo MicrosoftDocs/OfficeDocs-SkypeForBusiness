@@ -74,7 +74,7 @@ Teams Rooms devices include an administrative account named "Admin" with a defau
 The Admin account isn't required for proper operation of Teams Rooms devices and can be renamed or even deleted. However, before you delete the Admin account, make sure that you set up an alternate local administrator account configured before removing the one that ships with Teams Rooms devices. For more information on how to change a password for a local Windows account using built-in Windows tools or PowerShell, see the following:
 
 - [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 You can also import domain accounts into the local Windows Administrator group. You can do this for Azure AD accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
@@ -96,12 +96,12 @@ We recommend that you create the resource account in Azure AD, if possible. Whil
 
 Generally, Teams Rooms has the same network requirements as any Microsoft Teams client. Access through firewalls and other security devices is the same for Teams Rooms as for any other Microsoft Teams client. Specific to Teams Rooms, the categories listed as "required" for Teams must be open on your firewall. Teams Rooms also needs access to Windows Update, Microsoft Store, and Microsoft Intune (if you use Microsoft Intune to manage your devices). For the full list of IPs and URLs required for Microsoft Teams Rooms, see:
 
-- **Microsoft Teams** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
+- **Microsoft Teams** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the following URLs:
+If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Pro, you also need to make sure that Teams Rooms can access the following URLs:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -115,11 +115,13 @@ If you're using the Microsoft Teams Rooms managed services component of Microsof
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning at 2:00am using a pre-set local policy. There is no need to use additional tools to deploy and apply Windows Updates. Using additional tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store. If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan.
+Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning at 2:00am using a pre-set local policy. There is no need to use additional tools to deploy and apply Windows Updates. Using additional tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store.
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Teams Rooms devices work with most 802.1X or other network-based security protocols. However, we're not able to test Teams Rooms against all possible network security configurations. Therefore, if performance issues arise that can be traced to network performance issues, you may need to disable these protocols if they're configured in your organization.
 
-For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is very latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there's no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) which discusses network recommendations to improve the performance of media with Microsoft Teams and Microsoft Teams Rooms.
+For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is very latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there's no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles) which discusses network recommendations to improve the performance of media with Microsoft Teams and Microsoft Teams Rooms.
 
 > [!IMPORTANT]
 > Teams Rooms doesn't support authenticated proxy servers.

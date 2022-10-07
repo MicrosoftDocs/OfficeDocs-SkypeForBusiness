@@ -169,7 +169,7 @@ Write-Host "ADFS application group and native client application for Admin Contr
 $version = [System.Environment]::OSVersion.Version.Major
 
 # Version reference for Windows Server here:
-# https://docs.microsoft.com/windows/win32/sysinfo/operating-system-version
+# https://learn.microsoft.com/windows/win32/sysinfo/operating-system-version
 if ($version -lt 10)
 {
     Write-Host "`n`rInvalid Window Server version. Please run this script on ADFS farm servers running on Windows Server 2016 or above." -ForeGroundColor Red

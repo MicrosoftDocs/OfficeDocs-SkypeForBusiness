@@ -14,6 +14,7 @@ ms.collection:
   - m365solution-voice
   - m365solution-scenario
   - m365initiative-voice
+  - highpri
 audience: Admin
 appliesto: 
   - Skype for Business
