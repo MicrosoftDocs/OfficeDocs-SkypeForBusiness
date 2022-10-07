@@ -98,7 +98,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 - Autodiscover and Exchange Web Services are published externally. For information about which Microsoft 365 services need access to on-premises Autodiscover and Exchange Web Services endpoints, see [Other endpoints not included in the Office 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
   > [!NOTE]
-  > Autodiscover endpoint is required for all primary email domains. The Autodiscover Domain feature in the Exchange Hybrid Configuration Wizard to force to use the Autodiscover information from a specific domain is not supported by Teams.
+  > Autodiscover endpoint is required for all hybrid domains. The Autodiscover Domain feature in the Exchange Hybrid Configuration Wizard to force to use the Autodiscover information from a specific domain is not supported by this integration.
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
