@@ -134,6 +134,12 @@ To check if IP video feed is turned on:
 > - [Customize your meeting view](https://support.microsoft.com/office/customize-your-meeting-view-95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
 > - [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
 
+### Why it's important to include sign language interpreters and CART captioners
+
+Some users might prefer to use CART captioners because they can be more accurate for specific jargon, accents, and more, than auto-generated captions.
+
+Users whose primary communication method is sign language, require sign language interpretation, which requires a human interpreter to be present.
+
 For more information, see [Web Content Accessibility Guide (WCAG) 1.2.6.: Sign Language Interpretation](https://www.w3.org/TR/WCAG21/#sign-language-prerecorded).
 
 ## Reduce distractions in meetings
