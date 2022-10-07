@@ -21,34 +21,57 @@ description:
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Who can present
-
-|Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only me and co-organizers**|**Specific people**|
-
-
+[!INCLUDE[Teams Premium COE](includes/teams-premium-coe.md)]
 
 Choose co-organizers (Meeting organizer)
-Enable green room (Meeting organizer)
+Enable green room (Meeting organizer) on/off
 
 
-Manage what attendees see (Meeting organizer)
-Manage what attendees see (Template)
-Screen sharing mode (Policy)
+
+## Manage who can present
+
+People in my organization and guests
+Only me and co-organizers
+Specific people
+Everyone
 
 Who can present in meetings (Policy)
 Who can present? (Meeting organizer)
 Who can present? (Sensitivity label)
-Participants can give or request control (Policy)
-External participants can give or request control (Policy)
 
 
-PowerPoint Live (Policy)
-Whiteboard (Policy)
-Shared notes (Policy)
+Participants can give or request control (Policy) on/off
+
+External participants can give or request control (Policy) on/off
 
 
-Allow attendee video (Template)
-Allow camera for attendees (Meeting organizer)
-Allow mic for attendees (Meeting organizer)
-Attendees can unmute (Microphone) (Template)
+## Manage what attendees can see
+
+Manage what attendees see (Meeting organizer) on/off
+Manage what attendees see (Template) on/off
+
+Screen sharing mode (Policy) entire screen/single application/not enabled
+
+
+## Manage presentation tools
+
+PowerPoint Live (Policy) on/off
+Whiteboard (Policy) on/off
+Shared notes (Policy) on/off
+
+
+## Manage how meeting attendees interact
+
+Allow attendee video (Template) on/off
+Allow camera for attendees (Meeting organizer) on/off
+
+Allow mic for attendees (Meeting organizer) on/off
+Attendees can unmute (Microphone) (Template) on/off
+
+
+Allow reactions (Meeting organizer)
+Meeting reactions (Policy)
+Reactions (Template)
+
+
 
