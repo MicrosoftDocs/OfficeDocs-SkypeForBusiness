@@ -20,3 +20,9 @@ description:
 # Require a watermark for sensitive Teams meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
+
+
+Watermark meeting content (Policy)
+Watermarking (Sensitivity label)
+

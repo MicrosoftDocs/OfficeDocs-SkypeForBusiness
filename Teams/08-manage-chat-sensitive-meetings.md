@@ -20,3 +20,16 @@ description:
 # Manage chat for sensitive Teams meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
+
+
+Chat in meetings on/off/NoAnonymous (Policy)
+Meeting chat on/off/meeting-only (Template)
+Allow meeting chat on/off/meeting-only (Meeting organizer)
+Allow meeting chat on/off/meeting-only (Sensitivity label)
+Prevent copy & paste of meeting chat (Sensitivity label)
+Shared notes (Policy)
+Enable Q&A (Meeting organizer)
+Teams Q&A (Policy)
+Chat retention (Purview)
+

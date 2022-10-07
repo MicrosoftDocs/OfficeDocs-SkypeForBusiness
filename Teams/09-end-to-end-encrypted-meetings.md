@@ -20,3 +20,8 @@ description:
 # Require end-to-end encryption for sensitive Teams meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
+
+
+End-to-end encryption (Sensitivity label)
+

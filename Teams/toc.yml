@@ -635,7 +635,7 @@ items:
             - name: Manage meeting lobby
               href: 06-configure-lobby-sensitive-meetings.md
             - name: Limit who can present
-              href: 07-limit-presenters-sensitive-meetings.md
+              href: 07-manage-meeting-presentation-experience.md
             - name: Manage chat
               href: 08-manage-chat-sensitive-meetings.md
             - name: Encrypt meetings
