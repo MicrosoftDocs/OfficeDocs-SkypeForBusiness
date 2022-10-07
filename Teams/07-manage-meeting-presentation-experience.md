@@ -30,10 +30,16 @@ Enable green room (Meeting organizer) on/off
 
 ## Manage who can present
 
+Template, label, and organizer:
 People in my organization and guests
 Only me and co-organizers
 Specific people
 Everyone
+
+Policy:
+Organizers, but user can override
+Everyone in the organizaition, , but user can override
+Everyone, but user can override
 
 Who can present in meetings (Policy)
 Who can present? (Meeting organizer)
