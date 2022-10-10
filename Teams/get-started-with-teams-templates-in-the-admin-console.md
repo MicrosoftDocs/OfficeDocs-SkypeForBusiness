@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 description: Learn about team templates and how to manage them in the Microsoft Teams admin center.
 f1.keywords:
 - CSH
@@ -65,30 +66,35 @@ Here are the pre-built team templates that are available in the Teams admin cent
 
 You can duplicate pre-built templates but you can't edit them. If you want to change the properties in a pre-built template, you can create a new template from an existing one, and then add or remove the properties that you want. Keep in mind that certain properties in some templates can't be changed.
 
-| Template type | TemplateId | Properties that come with this template |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li><li>Calendar</li></ul> Apps: <ul><li>Wiki</li>  <li>Channel calendar</li> <li>Milestones</li><li>Bulletins</li></ul>|
-| Manage a project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks</li><li>Lists</li><li>Power Automate</li></ul> |
-| Manage an event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Tasks</li> <li>OneNote</li> <li>Employee ideas</li> <li>Issue Reporter</li><li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul> |
-|Onboard employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee chat</li> <li>Training</li></ul>Apps:<ul><li>Wiki</li><li>Communities</li><li>Tasks</li><li>Employee ideas</li><li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul>|
-|Organize help desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks </li><li>Praise</li><li>Issue Reporter</li><li>Power Automate</li><li>Bulletins</li></ul> |
-| Patient care| `com.microsoft.teams.template.healthcareWard`| Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists  </li><li>Approvals</li><li>Bulletins</li><li>Inspection</li></ul>|
-| Crisis communication |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Internal comms</li><li>External comms</li><li>Approvals request</li><li>Customer escalations</li><li>Executive update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Website</li><li>Tasks</li><li>Issue Reporter</li><li>Approvals</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|Bank branch| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Approvals Request </li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>Apps:<ul><li>Praise </li><li>Issue Reporter</li><li>Wiki</li><li>Calendar</li><li>Approvals</li><li>Bulletins</li><li>Ideas</li></ul>|
-|Incident response| `com.microsoft.teams.template.CoordinateIncidentResponse`|Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Tasks</li> <li>Approvals</li> <li>Inspection</li> <li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul>|
-|Hospital| `com.microsoft.teams.template.healthcareHospital` |Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li><li>Tasks</li><li>Approvals</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li><li>Ideas</li></ul>|
-|Organize a store| `com.microsoft.teams.template.retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
-|Retail for managers| `com.microsoft.teams.template.retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
-|Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
-|Manage volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<li>Announcements</li><li>Reporting</li><li>Volunteer Management</li><li>Engagement Opportunities</li><li>Volunteer Onboarding</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
-||||
+> [!NOTE]
+> An asterisk (*) indicates that the template is a *Microsoft 365 connected template*. When users create a team using the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams.
+>
+> To learn more about SharePoint templates, see [Apply and customize SharePoint site templates](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+
+>[!div class="mx-tdBreakAll"]
+>| Template type | TemplateId | Properties that come with this template |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Manage a Project* |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li><li>Lists<ul><li>Project tracker</li><li>Issue tracker</li></ul></li><li>Milestones</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
+| Manage an Event*|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li> <li>Employee ideas</li><li>Lists<ul><li>Content scheduler</li></ul></li><li>Milestones</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>Our site</li><li>About our event</li></ul><li>Tasks by Planner and To Do</li><li>Wiki</li> |
+|Onboard Employees*|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee Chat</li> <li>Training</li></ul>Apps:<ul><li>Bulletins</li><li>Employee ideas</li><li>Lists<ul><li>Onboarding checklist</li></ul></li><li>Milestones</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>Get started</li><li>Training</li></ul><li>Tasks by Planner and To Do</li><li>Viva Engage</li><li>Wiki</li></ul>|
+| Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions Corner</li> <li>Team Forms</li><li>Calendar</li></ul> Apps: <ul><li>Wiki</li>  <li>Channel calendar</li> <li>Milestones</li><li>Bulletins</li></ul>
+|Organize Help Desk*| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Issue reporting</li><li>Lists<ul><li>Devices</li><li>Tickets</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li><li>FAQs</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
+|Incident Response| `com.microsoft.teams.template.CoordinateIncidentResponse`|Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Tasks</li> <li>Approvals</li> <li>Inspection</li> <li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul>|
+| Crisis Communications* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>Executive Update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Approvals</li><li>Issue reporting</li><li>Lists<ul><li>Content scheduler</li><li>Project plan</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li><li>Latest update</li></ul><li>Tasks by Planner and To Do</li>|
+| Manage a Store*| `com.microsoft.teams.template.retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists<ul><li>Inventory list</li></ul></li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+|Bank Branch| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Approvals Request </li><li>Coaching</li><li>Skills Development</li><li>Loan Processing</li><li>Customer Complaints</li><li>Kudos</li><li>Fun Stuff</li><li>Compliance</li></ul>Apps:<ul><li>Praise </li><li>Issue Reporter</li><li>Wiki</li><li>Calendar</li><li>Approvals</li><li>Bulletins</li><li>Ideas</li></ul>|
+| Patient Care| `com.microsoft.teams.template.healthcareWard`| Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists  </li><li>Approvals</li><li>Bulletins</li><li>Inspection</li></ul>|
+|Hospital| `com.microsoft.teams.template.healthcareHospital` |Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human Resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li><li>Tasks</li><li>Approvals</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li><li>Ideas</li></ul>|
+|Quality and Safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
+|Retail for Managers*| `com.microsoft.teams.template.retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+|Manage Volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<li>Announcements</li><li>Reporting</li><li>Volunteer Management</li><li>Engagement Opportunities</li><li>Volunteer Onboarding</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
 
 ### Team templates by category and industry
 
 For more information about ways to use the pre-built templates in your industry, see:
 
-- [Financial team templates](financial-teams-templates-in-the-admin-console.md)
 - [General team templates](general-teams-templates-in-the-admin-console.md)
+- [Financial team templates](financial-teams-templates-in-the-admin-console.md)
 - [Government team templates](government-teams-templates-in-the-admin-console.md)
 - [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
@@ -107,7 +113,6 @@ Templates are limited to a specific number of channels, tabs, and apps.
 |Channels per template | 15 |
 |Tabs per channel in a template | 20 |
 |Apps per template | 50|
-|||
 
 For more information, see [Limits and specifications of Teams](limits-specifications-teams.md).
 
@@ -146,3 +151,4 @@ Use the following cmdlets to manage your templates in PowerShell.
 - [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
 - [Clone a team](/graph/api/team-clone)
+- [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites)
