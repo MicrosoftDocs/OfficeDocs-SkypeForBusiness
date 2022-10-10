@@ -1,7 +1,7 @@
 ---
 title: Monitor call quality
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

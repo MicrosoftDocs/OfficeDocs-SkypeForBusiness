@@ -1,7 +1,7 @@
 ---
 title: Things to try after setting up Business Voice
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
