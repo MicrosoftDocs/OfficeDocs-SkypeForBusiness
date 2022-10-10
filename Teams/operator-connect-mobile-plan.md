@@ -25,7 +25,7 @@ appliesto:
 
 For a list of operators participating in the Microsoft Teams Phone Mobile program and the countries or regions where their service is available, see [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
-Teams Phone Mobile is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. With Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.
+Teams Phone Mobile is another option for providing Public Switched Telephone Network (PSTN) connectivity with Microsoft Teams and Phone System. With Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.
 
 Teams Phone Mobile can play a key role in your organization's strategy to enable a truly mobile workforce, providing more flexible and efficient mobile-centric user experiences along with enterprise-grade security and compliance settings.
 
