@@ -77,7 +77,7 @@ Teams meetings can support brand images that skin the meetings screen and provid
 Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and uploads must follow these parameters:
 
 - Admin can only upload PNG and JPEG image formats for brand image
-- Admin can only upload brand image with max size
+- Admin can only upload brand image with max size of 5 MB
 - Admin can upload brand image with following dimensions:
   - Minimum dimensions: 360 px X 360 px
   - Maximum dimensions: 2048 px X 2048 px
@@ -168,7 +168,7 @@ Meeting organizers can turn off meeting themes by:
 > - For recurring meetings or series, the meeting option is sticky and will apply for every instance of the meeting.
 > - Meeting themes won't be disabled for meetings that in-progress. To apply changes, you must end the call and restart the meeting.
 
-### Things to Keep in mind for branding
+### Things to keep in mind for branding
 
 - Only use your organization's official image assets. Don't use image content that you don't own.
 - Work with your brand and marketing team to ensure that your image assets and colors together follow your organization's brand guidelines.
