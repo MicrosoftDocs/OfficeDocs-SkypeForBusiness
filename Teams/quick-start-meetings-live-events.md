@@ -93,7 +93,7 @@ If your organization is already using webinars, you're familiar with the Teams M
 - AllowMeetingRegistration (enabled or disabled)
 - WhoCanRegister (everyone in the company excluding guests or everyone)
 
-As of October 2023, for the next version of webinars, there will be a new Teams Events policy with the following settings:
+As of Decembeer 1, 2022, for the next version of webinars, there will be a new Teams Events policy with the following settings:
 
 - AllowWebinars  (enabled or disabled)
 - EventAccessType (everyone in the company excluding guests or everyone)
@@ -104,9 +104,9 @@ The new policy will continue to support registration and tracking, and it will p
 - Presenter bio
 - Banner logo and predefined color
 
-While both versions of webinars will continue to be available, you'll want to start using the new policy to take advantage of new functionality as it becomes avilable.
+While both versions of webinars will continue to be available, you'll want to start using the new policy to take advantage of new functionality as it becomes available.
 
-For more information about how to set up webinars, see [Set up webinars](set-up-webinars.md).
+For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
 
 
 ### Key training for end users
