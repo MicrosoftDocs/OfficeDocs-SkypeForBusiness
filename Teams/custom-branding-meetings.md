@@ -34,9 +34,8 @@ By default, Teams premium licensed users who have been assigned a meeting custom
 
 Before setting up Branding in Teams Meetings, check to make sure you have the following items:
 
-- Access to the Advanced Communications SKU
-- You’re an admin with access to the Teams admin center
-- You’re a premium licensed user or you’ve been assigned a customization policy
+- Access to Teams Premium SKU
+- You’re an admin with access to the Teams admin center or you’ve been assigned a customization policy
 - Your [custom logo](#adding-a-custom-logo-image), [image](#adding-a-custom-image), and [color](#adding-a-custom-color) meet the required specifications
 
 ## Setting up meeting branding
@@ -53,7 +52,7 @@ Meeting themes house the brand assets for your theme. These include the followin
 
 - Logo - your organization's logo image.
 - Custom image - a brand image from your organization (custom images aren't the same as virtual background images).
-- Custom color - your organization's primary or secondary brand color.
+- Custom color - it's recommended to use either your brand's primary or secondary color - whichever one best complements your brand image and logo.
 
 To create a new theme, select **Add meeting theme**.
 
@@ -103,6 +102,10 @@ By selecting **Save**, the meeting theme is automatically saved and applied to y
 
 Meeting customization policies can be assigned to one, many, or a pre-defined user group your Tenant. Make sure that these users have a Teams premium license to use these features.
 
+- By default, all licensed users will get the Global Default policy assigned to them.
+- Custom Customization Policies will override the global default
+- A licensed user can only be assigned one customization policy
+
 ### Use Cases for Multiple Departments or Business Units in One Tenant
 
 Some organizations have more than one business unit or department under a different brand identity which live within the same tenant. In these cases, admins can create meeting customization policies that are dedicated to each brand, and assign a department or business unit user group to a specific policy.
@@ -124,7 +127,6 @@ They can proceed to assign the licensed employees in Contoso Technical Services 
 
 Supported clients:
 
-- Web client
 - Desktop client
 - Android (Versions 11+ only)
 - iOS
@@ -155,7 +157,7 @@ Tenant Admins can allow meeting organizers to disable meeting themes for a speci
 To give meeting organizers the ability to disable Meeting Themes:
 
 1. Navigate to the **Meeting customization policy**.
-1. Toggle the setting **Meeting organizers can turn off the meeting theme for specific meetings**.
+1. Toggle the setting **"Meeting Theme" that allows organizers to turn off the meeting theme for specific meetings**.
 
 Meeting organizers can turn off meeting themes by:
 
