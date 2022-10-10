@@ -98,7 +98,7 @@ Once you've added your meeting assets, you can preview how your theme will look 
 
 By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** will save the meeting theme but won't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
 
-### Assigning a Meeting customization policy to Users
+### Assigning a meeting customization policy to users
 
 Meeting customization policies can be assigned to one, many, or a pre-defined user group your Tenant. Make sure that these users have a Teams premium license to use these features.
 
@@ -106,7 +106,7 @@ Meeting customization policies can be assigned to one, many, or a pre-defined us
 - Custom Customization Policies will override the global default
 - A licensed user can only be assigned one customization policy
 
-### Use Cases for Multiple Departments or Business Units in One Tenant
+### Use cases for multiple departments or business units in one tenant
 
 Some organizations have more than one business unit or department under a different brand identity which live within the same tenant. In these cases, admins can create meeting customization policies that are dedicated to each brand, and assign a department or business unit user group to a specific policy.
 
@@ -123,7 +123,7 @@ To support this use case, Tenant Admins can create two distinct customization po
 
 They can proceed to assign the licensed employees in Contoso Technical Services to Policy A, and licensed employees of Contoso Education to Policy B.
 
-## Where are Meeting Themes visible
+## Where are meeting themes visible
 
 Supported clients:
 
