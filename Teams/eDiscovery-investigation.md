@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - tier1
-- M365-security-compliance
+- purview-compliance
 - M365-collaboration
 - ediscovery
 ms.reviewer: anwara

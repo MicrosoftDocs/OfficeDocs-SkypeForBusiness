@@ -20,6 +20,7 @@ ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 - tier3
+- purview-compliance
 appliesto: 
 - Microsoft Teams
 ---
