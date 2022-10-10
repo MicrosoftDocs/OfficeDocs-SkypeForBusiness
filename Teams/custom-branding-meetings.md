@@ -152,7 +152,7 @@ Meeting organizers can turn off meeting themes by:
 > - For recurring meetings or series, the meeting option is sticky and will apply for every instance of the meeting.
 > - Meeting themes will not be disabled for meetings that in-progress. To apply changes, you must end the call and restart the meeting.
 
-### Things to Keep in mind for branding
+### Things to keep in mind for branding
 
 - Only use your organization's official image assets. Do not use image content that you do not own.
 - Work with your brand and marketing team to ensure that your image assets and colors together follow your organization's brand guidelines.
