@@ -103,13 +103,13 @@ Teams Android devices are configured to download updates from Teams admin center
 
 Teams Android devices have the same network requirements as any Microsoft Teams client. Access through firewalls and other security devices is the same for Teams Android devices as for any other Microsoft Teams client. Specifically, the categories listed as "required" for Teams must be open on your firewall, along with other supporting services as listed below. For the full list of IPs and URLs required for Teams Android devices, see:
 
-- Microsoft Teams, Exchange Online, SharePoint Online, Microsoft 365 Common, and Office Online [Office 365 URLs and IP address range](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
+- Microsoft Teams, Exchange Online, SharePoint Online, Microsoft 365 Common, and Office Online [Office 365 URLs and IP address range](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 - Microsoft Intune [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
 Teams Android devices work with most 802.1X or other network-based security protocols. However, we are not able to test Teams Android devices against all network security configurations. Therefore, if performance issues arise that can be traced to network performance issues, you may need to disable these protocols if they are configured in your organization, or contact your chosen OEM partner for assistance.
 
-For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there is no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) which discusses network recommendations to improve the performance of media with Microsoft Teams.
+For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there is no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles) which discusses network recommendations to improve the performance of media with Microsoft Teams.
 
 Teams Android devices use encrypted communications and endpoint authentication on the internet. By design, Teams Android devices use TLS 1.2+.  
 
