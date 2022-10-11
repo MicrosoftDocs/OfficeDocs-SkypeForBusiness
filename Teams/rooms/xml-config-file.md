@@ -23,7 +23,10 @@ description: Remote management of the default settings used by a Microsoft Teams
 
 This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file and links to discussions of how to place them as needed on Teams Rooms.
   
-It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices. 
+It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices.
+
+> [!NOTE]
+> Some features are available only on Teams Rooms devices that have been assigned a Microsoft Teams Rooms Pro license. To see which features require Microsoft Teams Rooms Pro, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
   
 ## Create an XML configuration file
 
