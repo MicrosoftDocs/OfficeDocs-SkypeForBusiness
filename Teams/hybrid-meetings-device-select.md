@@ -146,7 +146,7 @@ There are a wide variety of audio systems available. When choosing an audio syst
 - **Seating locations** - All participants need to be within range of at least one microphone. A room with a central conference table and secondary seating might require microphones both at on the table and in-ceiling for those not at the table.
 - **Conference table size** - A large conference table might require two or more microphones to provide proper coverage to everyone seated at it.
 
-In addition to space us and design, keep the following technical considerations in mind:
+In addition to space use and design, keep the following technical considerations in mind:
 
 - **Microphone spacing** - At least one microphone should be within 7.5 feet (2.3 meters) of each participant (some microphones may have more specific requirements; see manufacturer's documentation for details).
 - **Microphone coverage** - If multiple microphones are needed to cover all participants, make sure their coverage areas overlap to ensure complete coverage.
