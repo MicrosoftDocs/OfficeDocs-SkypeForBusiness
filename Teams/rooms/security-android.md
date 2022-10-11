@@ -33,7 +33,7 @@ For information about security on Teams Rooms for Windows devices, see [Microsof
 
 ### Android kiosk mode
 
-Teams Android devices are locked down to run only approved applications by running the device in Android Kiosk mode. Kiosk mode disables access to any launcher capabilities and secures the device so it only allows authorized applications to launch on the device.  
+Teams Android devices are locked down to run only approved applications by running the device in Android Kiosk mode. Kiosk mode disables access to any launcher capabilities and helps to secure the device so authorized applications launch on the device.  
 
 | Application Name            | Application Description                   |
 |-----------------------------|-------------------------------------------|
@@ -46,11 +46,11 @@ By design, the Microsoft Teams Android app will launch on start-up in Android Ki
 
 ### Application code signing
 
-All Microsoft and OEM applications are code signed. Code signing validates and ensures that the software running on a device is genuine from Microsoft and our hardware partners. Code signing also validates the integrity of the software being run on the device, ensuring that only genuine software can launch and run.  
+All Microsoft and OEM applications are code signed. Code signing assists in validating that the software running on a device is genuine from Microsoft and our hardware partners. Code signing also attempts to validate the integrity of the software being run on the device, such that only genuine software can launch and run.  
 
 ### Third party applications
 
-Teams certified devices don't have the Google Play Store, Amazon App Store, or Google Play Services, installed by design. This ensures no third-party applications can be installed from the store onto a device.  
+Teams certified devices don't have the Google Play Store, Amazon App Store, or Google Play Services, installed by design. This helps to ensure that no third-party applications can be installed from the store onto a device.  
 
 ### Android debug bridge
 
@@ -66,7 +66,7 @@ Teams Android devices run supported versions of Android. The Android operating s
 
 ### Android security updates
 
-OEM vendors, as part of the firmware update process, incorporate the appropriate Android security update baselines to ensure the base operating system is kept secure. Keeping your devices updated regularly is important to ensure the appropriate Android security updates are running on your devices. For more information, please refer to your device manufacturer.
+OEM vendors, as part of the firmware update process, incorporate the appropriate Android security update baselines to help ensure the base operating system is kept secure. Keeping your devices updated regularly is important to ensure the appropriate Android security updates are running on your devices. For more information, please refer to your device manufacturer.
 
 ### Account security
 
@@ -92,7 +92,7 @@ Initial device setup and configuration items such as the default username and pa
 
 ### User or resource account
 
-Teams Android devices require the use of a user, or dedicated resource account, to sign into Microsoft 365. These accounts are secured in specific ways, depending on if it's a normal user account for a personal device or a resource account for a shared device. For more information, see [Create and configure resource accounts for rooms and shared devices](/microsoftteams/rooms/with-office-365).
+Teams Android devices require the use of a user, or dedicated resource account, to sign into Microsoft 365. We attempt to secure these accounts in specific ways, depending on if it's a normal user account for a personal device or a resource account for a shared device. For more information, see [Create and configure resource accounts for rooms and shared devices](/microsoftteams/rooms/with-office-365).
 
 ### Device updates
 
@@ -111,7 +111,7 @@ Teams Android devices have the same network requirements as any Microsoft Teams 
 
 Teams Android devices work with most 802.1X and other network-based security protocols. However, we can't test Teams Android devices against all network security configurations. Therefore, if performance issues arise that can be traced to network performance issues, you may need to disable these protocols if they are configured in your organization, or contact your OEM partner for assistance.
 
-For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is sensitive to network latency, which can be caused by proxy servers and other network security devices. Network latency can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there's no benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) which discusses network recommendations to improve the performance of media with Microsoft Teams.
+For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is sensitive to network latency, which can be caused by proxy servers and other network security devices. Network latency can significantly degrade users' video and audio quality. For more information, see [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) which discusses network recommendations to improve the performance of media with Microsoft Teams.
 
 Teams Android devices use encrypted communications and endpoint authentication on the internet. Teams Android devices use TLS 1.2+.  
 
