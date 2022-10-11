@@ -213,4 +213,3 @@ Your organizers and presenters should implement the below recommendations:
 
 [Limits and specifications for Teams](limits-specifications-teams.md)
 
-[Microsoft Technical Community: Live events in Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)
