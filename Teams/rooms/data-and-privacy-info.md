@@ -94,8 +94,8 @@ Managed Services provides regional data residency support through the data cente
 
 ## More resources
 
-Microsoft Teams Rooms for Windows security:/microsoftteams/rooms/security-windows
-Microsoft Teams Rooms for Android security:/microsoftteams/rooms/security-android
-Microsoft Privacy Statement: https://aka.ms/privacy
-Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management
-Managed Services service description: [Microsoft Teams Room managed service](microsoft-teams-rooms-premium.md)
+Microsoft Teams Rooms for Windows security:/microsoftteams/rooms/security-windows \
+Microsoft Teams Rooms for Android security:/microsoftteams/rooms/security-android \
+Microsoft Privacy Statement: https://aka.ms/privacy \
+Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
+Managed Services service description: [Microsoft Teams Room managed service](microsoft-teams-rooms-premium.md) \
