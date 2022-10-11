@@ -1410,8 +1410,10 @@ items:
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
-            - name: Security
-              href: rooms/security.md
+            - name: Windows security
+              href: rooms/security-windows.md
+            - name: Android security
+              href: rooms/security-android.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
