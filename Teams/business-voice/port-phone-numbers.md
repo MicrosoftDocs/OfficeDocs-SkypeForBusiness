@@ -1,7 +1,7 @@
 ---
 title: Port phone numbers to Teams Phone System with Calling Plan
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

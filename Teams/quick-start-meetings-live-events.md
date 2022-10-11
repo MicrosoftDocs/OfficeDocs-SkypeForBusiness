@@ -30,9 +30,6 @@ There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live
 
 This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
 
-> [!NOTE]
-> For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
-
 [Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
 The different types of meetings also have different participant limits and participant capabilities. 
@@ -50,6 +47,12 @@ The following table summarizes the three types of meetings, the number of recomm
 **The usual 10,000 is increased to 20,000 through December 31, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
+> [!NOTE]
+> For additional information and to get guidance by role for delivering online events using Microsoft Teams, see the [Virtual Event Playbook](https://adoption.microsoft.com/virtual-event-guidance/). You can also join the [Virtual Event Forum](https://aka.ms/VirtualEventForum) on the Microsoft Tech Community.
+
+> [!NOTE]
+> For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Meetings
 
@@ -210,4 +213,3 @@ Your organizers and presenters should implement the below recommendations:
 
 [Limits and specifications for Teams](limits-specifications-teams.md)
 
-[Microsoft Technical Community: Live events in Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)
