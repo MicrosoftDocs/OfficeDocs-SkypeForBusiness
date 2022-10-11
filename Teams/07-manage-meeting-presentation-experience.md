@@ -102,8 +102,8 @@ To configure who can give control of a shared screen
 
 1. Under **Content sharing**:
 
-  1. To prevent participants from giving control of a screen share to others, set **Participants can give or request control** to **Off**.
-  1. To prevent external participants from being given control of a screen share, set **External participants can give or request control** to **Off**.
+  a. To prevent participants from giving control of a screen share to others, set **Participants can give or request control** to **Off**.
+  a. To prevent external participants from being given control of a screen share, set **External participants can give or request control** to **Off**.
 
 1. Select **Save**.
 
