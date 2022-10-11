@@ -30,11 +30,13 @@ In the table below, learn about the enhanced features and capabilities in Teams 
 
 | Feature enhancements | Capabilities | Description |
 | -------------------- | ------------ | ----------- |
-| **Protected meetings** | Watermark <br/> Prevent copy\paste <br/> Sensitivity labels <br/> Who can record <br/> End-to-end encryption (EE2E) | Teams Premium allows admins to make meetings more secure... |
+| **Protected meetings** | Meetings watermarks <br/> Prevent copy\paste <br/> Sensitivity labels <br/> Who can record <br/> End-to-end encryption (EE2E) | Teams Premium allows admins to make meetings more secure... |
 | **Custom meetings** | Meeting templates <br/> Branded meetings <br/> Organization-defined backgrounds <br/> Custom together mode | With Teams Premium, organizations can customize their meetings to include... |
 | **Advanced management** | Monitoring and alerting <br/> Custom user policy packages <br/> Real-time data storage <br/> eCDN for Live Events | Teams Premium includes advanced management capabilities... |
 | **Premium events** | Webinar wait lists, manual registration approvals, and registration date/time limits <br/> Green rooms <br/> Manage mode <br/> RTMP-In <br/> Lobby Policy for registered users <br/> Event success metrics | Premium events in Teams Premium expands event organizers'... |
-| **Advanced virtual appointments** | There's a lot, so I need some consolidated language. | Teams Premium includes more advanced virtual appointments... |
+| **Advanced virtual appointments** | Custom waiting rooms <br/> SMS text reminders <br/> Post-appointment surveys <br/> Advanced appointment queue management <br/> Moderated waiting room chats <br/> Advanced analytics and reports | Teams Premium includes more advanced virtual appointments... |
+
+*<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
 
 **Dani's Notes for PMs and writers:**
 
