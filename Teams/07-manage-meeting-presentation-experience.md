@@ -76,23 +76,19 @@ Meeting organizers can choose from the following options for who can present in 
 - Specific people
 - Everyone
 
-The default value is specified by the **Who can present in meetings** policy mentioned above.
+The default value shown when a user creates a meeting is specified by the **Who can present in meetings** policy mentioned above.
 
-You can restrict this setting by using either a template or a sensitivity label. If values are specified in both, the sensitivity label setting is used.
-
-
-
-
+You can restrict this setting by using using a sensitivity label. For sensitive or highly sensitive meetings, consider restricting this setting to **Only me and co-organizers** or **Specific people** by using a sensitivity label.
 
 ### Teams admin policy: Participants can give or request control
 
-By default, meeting participants can give control of their shared screen to another participant in the meeting. 
+By default, meeting participants can give control of their shared screen to another participant in the meeting. This is controlled by two Teams admin meeting policies:
 
-Participants can give or request control (Policy) on/off
+- **Participants can give or request control** - This setting determines if meeting participants can give control of their shared screen to another participant or request control from another participant. It is **On** by default.
 
-External participants can give or request control (Policy) on/off
-This parameter controls whether external participants can be given control or request control of the sharer's screen,
+- **External participants can give or request control** - This setting determines an external participant can be given control of a shared screen. It is **Off** by default.
 
+Depending on the compliance requirements of your organization, you can change these settings for some or all of your users.
 
 To configure who can give control of a shared screen
 
