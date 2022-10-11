@@ -57,6 +57,16 @@ This setting specifies the default for new meetings created by users. Users can 
 
 The default value of **Everyone, but user can override** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **Everyone in the organization** or **Organizers** to provide a more secure default for users.
 
+To set the **Who can present in meetings** policy
+
+1. In the Teams admin center, expand **Meetings**, and then select **Meeting policies**.
+
+1. Select the policy that you want to modify.
+
+1. Under **Participants & Guests**, select a value for **Who can present in meetings**.
+
+1. Select **Save**.
+
 ### Sensitivity labels and templates: Who can present in meetings
 
 Meeting organizers can choose from the following options for who can present in a meeting:
@@ -76,9 +86,26 @@ You can restrict this setting by using either a template or a sensitivity label.
 
 ### Teams admin policy: Participants can give or request control
 
+By default, meeting participants can give control of their shared screen to another participant in the meeting. 
+
 Participants can give or request control (Policy) on/off
 
 External participants can give or request control (Policy) on/off
+This parameter controls whether external participants can be given control or request control of the sharer's screen,
+
+
+To configure who can give control of a shared screen
+
+1. In the Teams admin center, expand **Meetings**, and then select **Meeting policies**.
+
+1. Select the policy that you want to modify.
+
+1. Under **Content sharing**:
+
+  1. To prevent participants from giving control of a screen share to others, set **Participants can give or request control** to **Off**.
+  1. To prevent external participants from being given control of a screen share, set **External participants can give or request control** to **Off**.
+
+1. Select **Save**.
 
 
 ## Manage what attendees can see
