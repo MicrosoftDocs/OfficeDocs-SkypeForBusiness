@@ -642,6 +642,12 @@ items:
               href: 09-end-to-end-encrypted-meetings.md
             - name: Watermark meetings
               href: 10-watermark-meeting-content-video.md
+            -name: Custom meeting templates
+              items:
+                - name: Custom meeting templates overview
+                  href: 12-custom-meeting-templates-overview.md
+                - name: Use templates with sensitivity labels
+                  href: 11-meeting-templates-with-sensitivity-labels.md
         - name: Manage who can start and schedule meetings
           href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings

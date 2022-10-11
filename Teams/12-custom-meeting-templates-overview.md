@@ -1,5 +1,5 @@
 ---
-title: Use Teams meeting templates with sensitivity labels
+title: Overview of custom meeting templates in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,11 +17,10 @@ appliesto:
 description: 
 ---
 
-# Use Teams meeting templates with sensitivity labels
-
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+# Overview of custom meeting templates in Microsoft Teams
 
 [!INCLUDE[Teams Premium COE](includes/teams-premium-coe.md)]
+
 
 
 
