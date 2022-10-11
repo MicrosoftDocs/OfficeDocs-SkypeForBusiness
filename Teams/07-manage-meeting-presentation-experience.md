@@ -97,10 +97,15 @@ This parameter controls whether external participants can be given control or re
 To configure who can give control of a shared screen
 
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting policies**.
+
 1. Select the policy that you want to modify.
+
 1. Under **Content sharing**:
-  1. To prevent participants from giving control of a screen share to others, set **Participants can give or request control** to **Off**.
-  1. To prevent external participants from being given control of a screen share, set **External participants can give or request control** to **Off**.
+
+    1. To prevent participants from giving control of a screen share to others, set **Participants can give or request control** to **Off**.
+
+    1. To prevent external participants from being given control of a screen share, set **External participants can give or request control** to **Off**.
+
 1. Select **Save**.
 
 
