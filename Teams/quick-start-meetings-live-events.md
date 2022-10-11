@@ -104,7 +104,7 @@ The new policy will continue to support registration and tracking, and it will p
 - Presenter bio
 - Banner logo and predefined color
 - Registration overview and management.
-  For each event, a summary of the event registration state with a list of attendees and their states--depending on which registration features have been enabled.
+  For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
 While both versions of webinars will continue to be available, you'll want to start using the new policy to take advantage of new functionality as it becomes available.
 
