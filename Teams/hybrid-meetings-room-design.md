@@ -1,5 +1,5 @@
 ---
-title: "Step 3 - Design and build a hybrid-optimized meeting space or update an existing space"
+title: "Step 3 - Design and build a Signature Teams Rooms meeting space or update an existing space"
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -23,7 +23,7 @@ keywords:
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
 
-Select whether you want to design and build a hybrid-optimized meeting space optimized for hybrid meetings or if you want to update an existing, traditional, space that already has some components, such as a conference table, displays, and so on.
+Select whether you want to design and build a Signature Microsoft Teams Rooms meeting space or if you want to update an existing, traditional, space that already has some components, such as a conference table, displays, and so on.
 
 # [Traditional](#tab/traditional)
 
@@ -65,19 +65,19 @@ We recommend that you mount the Microsoft Teams Rooms compute and touch console 
 
 Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
 
-# [Hybrid-optimized](#tab/hybrid)
+# [Signature Teams Rooms](#tab/signature)
 
-Hybrid-optimized Microsoft Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
+Signature Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
 :::image type="content" source="media/hybrid-enhanced-room.png" alt-text="An image of an enhanced meeting room with curved table in front of a dual screen display.":::
 
-## Hybrid-optimized room size and capacity
+## Signature Teams Room size and capacity
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
 This space will comfortably fit six to eight people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
-## Hybrid-optimized room furniture
+## Signature Teams Room furniture
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
@@ -85,13 +85,13 @@ This room features a curved table with participants seated on one side, allowing
 
 This room features a traditional meeting room table with a height of 30 in or 76 cm.
 
-:::image type="content" source="media/emr10.png" alt-text="[Blueprint of a hybrid-optimized meeting room design.":::
+:::image type="content" source="media/emr10.png" alt-text="[Blueprint of a Signature Teams Room design.":::
 
-## Hybrid-optimized equipment mounting
+## Signature Teams Room equipment mounting
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
-The hybrid-optimized meeting room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
+The Signature Teams Room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
 
 | Component      | Recommendations                                                                                                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
