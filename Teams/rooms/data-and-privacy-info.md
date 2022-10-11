@@ -45,8 +45,6 @@ Managed Services mitigates risks associated with accounts with privileged access
 
 Microsoft is governed by strict standards for data transmission, storage, use, and retention. Microsoft has data handling standard policies that regulate how data should be handled based on data classification.
 
-
-
 ## Technology description
 
 Managed Services sends data to Microsoft for the purposes of monitoring, diagnosing, and mitigating any issues in the deployment. Examples include
