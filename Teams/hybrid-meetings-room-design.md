@@ -71,13 +71,13 @@ Signature Teams Rooms are not meant to be a replacement for all other meeting sp
 
 :::image type="content" source="media/hybrid-enhanced-room.png" alt-text="An image of an enhanced meeting room with curved table in front of a dual screen display.":::
 
-## Signature Teams Room size and capacity
+## Signature Teams Rooms size and capacity
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
 This space will comfortably fit six to eight people. You'll need a space that's approximately 25 feet wide by 14 feet deep.
 
-## Signature Teams Room furniture
+## Signature Teams Rooms furniture
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
@@ -87,7 +87,7 @@ This room features a traditional meeting room table with a height of 30 in or 76
 
 :::image type="content" source="media/emr10.png" alt-text="[Blueprint of a Signature Teams Room design.":::
 
-## Signature Teams Room equipment mounting
+## Signature Teams Rooms equipment mounting
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
