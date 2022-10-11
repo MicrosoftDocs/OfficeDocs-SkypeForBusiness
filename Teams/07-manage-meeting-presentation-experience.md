@@ -30,6 +30,14 @@ Enable green room (Meeting organizer) on/off
 
 ## Manage who can present
 
+
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+|Who can present|X||X|X|
+|Participants can give or request control||||X|
+|External participants can give or request control||||X|
+
+
 Template, label, and organizer:
 People in my organization and guests
 Only me and co-organizers
