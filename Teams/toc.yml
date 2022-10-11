@@ -642,7 +642,7 @@ items:
               href: 09-end-to-end-encrypted-meetings.md
             - name: Watermark meetings
               href: 10-watermark-meeting-content-video.md
-            -name: Custom meeting templates
+            - name: Custom meeting templates
               items:
                 - name: Custom meeting templates overview
                   href: 12-custom-meeting-templates-overview.md
