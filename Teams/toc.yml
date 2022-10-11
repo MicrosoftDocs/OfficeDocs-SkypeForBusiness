@@ -1622,7 +1622,7 @@ items:
       items:
         - name: Manage custom and sideloaded apps
           href: custom-app-overview.md
-        - name: Manage custom app policies and settings
+        - name: Manage policies and settings for custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
@@ -1653,7 +1653,7 @@ items:
           href: app-permissions.md
         - name: Brand your org app store
           href: customize-your-app-store.md
-        - name: Use apps as external or guest users
+        - name: Use apps as external user or guest
           href: non-standard-users.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
