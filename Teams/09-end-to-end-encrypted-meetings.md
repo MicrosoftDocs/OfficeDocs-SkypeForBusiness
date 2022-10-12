@@ -24,9 +24,7 @@ description:
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-||||||
-||||||
-||||||
+|End-to-end encryption|Yes|No|Yes|No|
 ||||||
 
 

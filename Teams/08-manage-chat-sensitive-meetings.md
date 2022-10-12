@@ -25,10 +25,10 @@ description:
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-||||||
-||||||
-||||||
-||||||
+|Attendees can chat|Yes|Yes|Yes|Yes|
+|Prevent copy & paste of meeting chat|No|No|Yes|No|
+|Enable Q&A|Yes|No|No|Yes|
+|Shared notes|No|No|No|Yes|
 
 
 
@@ -36,9 +36,12 @@ Chat in meetings on/off/NoAnonymous (Policy)
 Meeting chat on/off/meeting-only (Template)
 Allow meeting chat on/off/meeting-only (Meeting organizer)
 Allow meeting chat on/off/meeting-only (Sensitivity label)
+
 Prevent copy & paste of meeting chat (Sensitivity label)
+
 Shared notes (Policy)
 Enable Q&A (Meeting organizer)
 Teams Q&A (Policy)
+
 Chat retention (Purview)
 

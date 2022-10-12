@@ -24,12 +24,12 @@ description:
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-||||||
-||||||
-||||||
+|Watermark shared content|Yes|No|Yes|Yes|
+|Watermark attendee video|Yes|No|Yes|Yes|
 ||||||
 
-
+Enable Watermark to shared content
+Enable Watermark to everyone's video feed
 
 Watermark meeting content (Policy)
 Watermarking (Sensitivity label)

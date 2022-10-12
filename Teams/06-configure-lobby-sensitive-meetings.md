@@ -25,26 +25,49 @@ description:
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-||||||
-||||||
-||||||
+|Who can bypass the lobby|Yes|Yes|Yes|Yes|
+|People calling in by phone can bypass the lobby|Yes|Yes|Yes|Yes|
+|Notify when callers join and leave|Yes|Yes|No|No|
+|Let anonymous people join a meeting|No|No|No|Yes|
+|Let anonymous people start a meeting|No|No|No|Yes|
+|Anonymous users can interact with apps in meetings|No|No|No|Yes|
 ||||||
 
-
+Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People I invite**|**Only me and co-organizers**|
 
 Who can bypass the lobby (Template)
 Who can bypass the lobby? (Meeting organizer)
 Who can bypass the lobby? (Sensitivity label)
-Let anonymous people join a meeting (Policy)
+Automatically admit people (Policy)
+
+Everyone
+People in my organization
+People in my organization, trusted organizations, and guests
+People in my organization and guests
+Organizers
+Invited people
+
+
+
+
+Let anonymous people join a meeting (Policy & Setting)
 Let anonymous people start a meeting (Policy)
+
 Always let callers bypass the lobby (Meeting organizer)
 Always let callers bypass the lobby (Sensitivity label)
-Notify when callers joing and leave (Template)
+
+Notify when callers join and leave (Template)
+
 People calling in by phone can bypass the lobby (Template)
-Automatically admit people (Policy)
+
+
 Dial-in users can bypass the lobby (Policy)
+
 Who can register (meetings) (Policy)
+
 Announce when callers join or leave (Meeting organizer)
 
-
 Guest OTP
+
+
+## Meeting with anonymous participants
