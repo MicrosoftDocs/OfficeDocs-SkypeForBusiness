@@ -31,17 +31,15 @@ ms.localizationpriority: high
 
 With Teams lives events, users in your organization can broadcast video and meeting content to large online audiences.
 
-Microsoft 365 live events bring live video streaming to a new level. Live events encourage connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Teams, or Yammer.  
+Microsoft 365 live events bring live video streaming to a new level. Live events encourage connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides using Teams or Yammer.  
 
 Teams delivers chat-based collaboration, calling, meetings, and live events, so you can expand the audience of your meetings. Teams live events is an extension of Teams meetings, enabling users to broadcast video and meeting content to a large online audience. Live events are meant for one-to-many communications where the host of the event is leading the interactions and audience participation is primarily to view the content shared by host. The attendees can watch the live or recorded event in Yammer, Teams, or Stream and can interact with the presenters using moderated Q & A or a Yammer conversation.
-
-Teams live events are considered the next version of Skype Meeting Broadcast and will eventually replace the capabilities provided in Skype Meeting Broadcast. At this point, Microsoft will continue to support Skype Meeting Broadcast for users who are using Skype for Business in their organizations, with no disruption in service for new or future events. However, we encourage you to try out Teams live events to use all the new and exciting features including screen sharing and support for external hardware/software encoders.
 
 So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
 ![The key components of live events.](../media/live-events-flow-diagram.png  "Key components of live events, scheduling, production, Stream platform, certified third-party eCDN providers")
 
-> [!Note]
+> [!NOTE]
 > We would like to emphasize that Teams Live Events, given the nature of broadcast technology, often exceed normal (internal) meeting populations.
 >
 > As is the case with other larger reaching media broadcasting services, we rely on Content Delivery Networks to deliver the content for your live event to recipients. This content is protected by encryption methods and subject to authorization by access tokens that are only issued to recipients based on your live event meeting configuration.

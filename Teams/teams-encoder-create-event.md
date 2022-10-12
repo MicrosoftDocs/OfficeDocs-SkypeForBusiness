@@ -31,18 +31,10 @@ ms.custom:
 
 ## Schedule the live event
 
-1. In Teams, go to **Create** > **Live event**
-2. Fill in the details pane with a name, description, and event time. You can also upload a thumbnail as a poster image for users to see.
-
-  > [!NOTE]
-  > As you fill in information, an automatic slate will generate to let your users know information about the event before it starts.
-
-3. Select the permissions pane and set who you want to have access to the video and which groups for it to be displayed in for increased discoverability.
-4. Optionally, you can set additional options in the Options pane. Most options will take effect when the event is complete after the transition from live to on demand.
-5. Select **Save**. By selecting **Publish now**, users you've given access to will be able to see the event page in the attendee view, but will be shown the automatically generated slate before you go live.
-
-> [!NOTE]
-> You must publish in order to share the URL. If you didn't publish, the system will automatically publish your event when you're ready to go live and manually start your event. When the event is published, users can find the event throughout Teams in browse, search and on group pages XXX.
+1. In Teams, go to the calendar
+2. Use the **New meeting** dropdown.
+3. Select the **Live event** option.
+4. Enter your event details and save.
 
 ## Stream the live event
 

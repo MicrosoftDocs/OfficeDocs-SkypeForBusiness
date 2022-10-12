@@ -26,7 +26,7 @@ ms.custom: seo-marvel-apr2020
 
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting the setup.
 
-> [!Note]
+> [!NOTE]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## Who can attend, create, and schedule live events
@@ -37,10 +37,10 @@ The following prerequisites are required for the user to schedule a Teams live e
 
 Here are the licenses that must be assigned to organize, produce or present a Teams live event:  
 
-- **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license. 
+- **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license.
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
-- A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](/stream/license-overview). A Stream license is not required if you are using the newer Teams Encoder services to produce the event. 
+- A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](/stream/license-overview). A Stream license is not required if you are using the newer Teams Encoder services to produce the event.
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
@@ -107,7 +107,7 @@ The following table highlights core capabilities and features offered in live ev
 >- 50 events can be hosted simultaneously across a tenant
 >- Event duration of 16 hours per broadcast
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 | Capability | Skype Meeting Broadcast | Events produced in Teams | Events produced in external app or device |
 |---------|---------|---------|---------|
