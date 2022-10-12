@@ -22,18 +22,11 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 
 # Enhance Microsoft Teams with Microsoft Teams Premium
 
-Introduction to Teams Premium. This is what Teams Premium is. It's a Teams add-on license that does these things to enhance your organization's Teams experience.
+This is what Teams Premium is. It's a Teams add-on license that does these things to enhance your organization's Teams experience.
 
 ## What enhancements are available with Teams Premium?
 
-In the table below, learn about the enhanced features and capabilities in Teams Premium.
-
-| Feature enhancements | Capabilities | Description |
-| -------------------- | ------------ | ----------- |
-| **Premium events** | Webinar wait lists, manual registration approvals, and registration date/time limits <br/> Green rooms <br/> Manage mode <br/> RTMP-In <br/> Lobby Policy for registered users <br/> Event success metrics | Premium events in Teams Premium expands event organizers'... |
-| **Advanced virtual appointments** | Custom waiting rooms <br/> SMS text reminders <br/> Post-appointment surveys <br/> Advanced appointment queue management <br/> Moderated waiting room chats <br/> Advanced analytics and reports | Teams Premium includes more advanced virtual appointments... |
-
-*<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
+In the sections below, learn about the enhanced features in Teams Premium.
 
 ### Protected Meetings
 
@@ -88,15 +81,20 @@ In the table below, learn about the enhanced features and capabilities in Teams 
 
 | Feature enhancements | Description |
 | -------------------- | ----------- |
-| 
+| Custom waiting rooms | This does... |
+| SMS text reminders | This does...|
+| Post-appointment surveys | This does...|
+| Advanced appointment queue management | This does...|
+| Moderated waiting room chats | This does...|
+| Advanced analytics and reports | This does...|
 
 *<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
 
 **Dani's Notes for PMs and writers:**
 
 - The features and capabilities in the table will link out to their respective detail docs.
-- The capabilities need to be more descriptive than how we label them internally.
-- The descriptions should focus on the enhancements' benefits.
+- The capabilities need to be more descriptive/helpful than how we label them internally.
+- The descriptions should focus on what admins need to know.
 - The order of the enhancements in the table can be changed. I ordered features as they appear in the T-Pre rollout timeline spreadsheet.
 
 ## Who can purchase Teams Premium add-on licenses?
