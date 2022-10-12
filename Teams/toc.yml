@@ -919,11 +919,11 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
-        - name: Operator Connect Mobile
+        - name: Teams Phone Mobile
           items:
-            - name: Plan for Operator Connect Mobile
+            - name: Plan for Teams Phone Mobile
               href: operator-connect-mobile-plan.md
-            - name: Configure Operator Connect Mobile
+            - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
@@ -1040,7 +1040,7 @@ items:
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
 
-        - name: Manage phone numbers for Operator Connect Mobile
+        - name: Manage phone numbers for Teams Phone Mobile
           href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
