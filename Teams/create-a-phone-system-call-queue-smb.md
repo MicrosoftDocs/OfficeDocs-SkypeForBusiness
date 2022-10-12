@@ -318,6 +318,8 @@ For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
+> 
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
 Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
