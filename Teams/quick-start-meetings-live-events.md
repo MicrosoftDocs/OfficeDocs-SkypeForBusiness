@@ -49,7 +49,7 @@ The following table summarizes the three types of meetings, the number of recomm
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> For additional information and to get guidance by role for delivering online events using Microsoft Teams, see the [Virtual Event Playbook](https://adoption.microsoft.com/virtual-event-guidance/). You can also join the [Virtual Event Forum](https://aka.ms/VirtualEventForum) on the Microsoft Tech Community.
+> For additional information and to get guidance by role for delivering online events using Microsoft Teams, see the [Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook). You can also join the [Virtual Event Forum](https://aka.ms/VirtualEventForum) on the Microsoft Tech Community.
 
 > [!NOTE]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
