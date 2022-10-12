@@ -339,6 +339,9 @@ For example, you might have the caller leave a voicemail for the agents in the q
 
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
+> [!NOTE]
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
+
 Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
 ---
