@@ -20,3 +20,9 @@ description:
 # Configure Teams meetings with protection for highly sensitive data
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
+
+
+## Highly sensitive presentations
+
+
