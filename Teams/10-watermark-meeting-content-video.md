@@ -21,11 +21,11 @@ description:
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-You can enable a watermark to be displayed in Teams meetings both for content shared on screen in the meeting and for attendee video. The watermark displays the email address of the meeting participant. Meeting participants can't turn the watermark off.
-
-Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer or enforced by a sensitivity label.
+You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Meeting participants can't turn the watermark off.
 
 Anonymous participants and overflow participants have an audio-only experience when a watermark is in use.
+
+Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer or enforced by a sensitivity label.
 
 The following table shows where watermarks are configured:
 
@@ -50,7 +50,11 @@ When a watermark is being used in a meeting, the following features are turned o
 
 ## Watermarks for sensitive and highly sensitive meetings
 
+Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. For example, a member of the finance organization might use watermarks when sharing quarterly estimates with managers from different divisions.
 
+Since watermarks are designed to reduce the chances that confidential information will be exfiltrated, using them in meetings where all the participants have direct access to the content being shared, may not add to security. Because using watermarks disables several features, including collaboration features like Whiteboard and PowerPoint Live, as well as recording, they may make collaboration more difficult in such meetings.
+
+For information about using watermarks with other meeting features to help protect confidential information in meetings, see [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
 
 ## Enable watermarks
  
