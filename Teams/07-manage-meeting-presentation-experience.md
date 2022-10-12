@@ -107,6 +107,14 @@ To configure who can give control of a shared screen
 
 ## Manage what attendees can see
 
+
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
+
 Manage what attendees see (Meeting organizer) on/off
 Manage what attendees see (Template) on/off
 
@@ -115,12 +123,29 @@ Screen sharing mode (Policy) entire screen/single application/not enabled
 
 ## Manage presentation tools
 
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
+
+
 PowerPoint Live (Policy) on/off
 Whiteboard (Policy) on/off
 Shared notes (Policy) on/off
 
 
 ## Manage how meeting attendees interact
+
+
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
+
 
 Allow attendee video (Template) on/off
 Allow camera for attendees (Meeting organizer) on/off

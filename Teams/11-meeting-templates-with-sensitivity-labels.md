@@ -25,3 +25,7 @@ description:
 
 
 
+Pivots
+
+presentation meetings vs. interactive
+

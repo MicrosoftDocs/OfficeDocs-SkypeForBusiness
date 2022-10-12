@@ -55,6 +55,8 @@ The following table summarizes the configurations for each tier. Use these confi
 |Who can record|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|Disabled due to watermarking|
 |Who can transcribe|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|**Organizer and co-organizers**|
 
+## Managing compliance with sensitivity labels and meeting templates
+
 
 ## Meeting chat
 

@@ -40,6 +40,12 @@ label
 record automatically
 who can record
 
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
 
 
 
@@ -47,7 +53,9 @@ who can record
 Record automatically (Meeting organizer)
 Record automatically (Sensitivity label)
 Record automatically (Template)
+
 Store recordings outside of your country or region (Policy)
+
 Who can record? (Sensitivity label)
 Meetings automatically expire (Policy)
 Cloud recording (Policy)

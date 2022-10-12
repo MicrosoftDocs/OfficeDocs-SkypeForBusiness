@@ -23,6 +23,15 @@ description:
 
 
 
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
+
+
+
 Who can bypass the lobby (Template)
 Who can bypass the lobby? (Meeting organizer)
 Who can bypass the lobby? (Sensitivity label)

@@ -23,6 +23,15 @@ description:
 
 
 
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
+
+
+
 Chat in meetings on/off/NoAnonymous (Policy)
 Meeting chat on/off/meeting-only (Template)
 Allow meeting chat on/off/meeting-only (Meeting organizer)

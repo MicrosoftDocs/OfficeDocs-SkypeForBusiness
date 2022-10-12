@@ -22,6 +22,13 @@ description:
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
+
 
 End-to-end encryption (Sensitivity label)
 

@@ -22,6 +22,14 @@ description:
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 
+|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
+|:------|:----------------|:-------|:----------------|:----------|
+||||||
+||||||
+||||||
+||||||
+
+
 
 Watermark meeting content (Policy)
 Watermarking (Sensitivity label)
