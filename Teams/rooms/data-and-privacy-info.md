@@ -20,7 +20,6 @@ description: Data and Privacy Information
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
 ---
 
-
 # Approach
 
 Customers using Microsoft Teams Rooms Managed Services entrust Microsoft with their most valuable asset—data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
@@ -44,8 +43,6 @@ Managed Services mitigates risks associated with accounts with privileged access
 ## Data handling
 
 Microsoft is governed by strict standards for data transmission, storage, use, and retention. Microsoft has data handling standard policies that regulate how data should be handled based on data classification.
-
-
 
 ## Technology description
 
@@ -96,7 +93,8 @@ Managed Services provides regional data residency support through the data cente
 
 ## More resources
 
-Microsoft Teams Rooms Security:/microsoftteams/rooms/security
-Microsoft Privacy Statement: https://aka.ms/privacy
-Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management
+Microsoft Teams Rooms for Windows security: [[Microsoft Teams for Windows security](/microsoftteams/rooms/security-windows) \
+Microsoft Teams Rooms for Android security: [Microsoft Teams for Android security](/microsoftteams/rooms/security-android) \
+Microsoft Privacy Statement: https://aka.ms/privacy \
+Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
 Managed Services service description: [Microsoft Teams Room managed service](microsoft-teams-rooms-premium.md)
