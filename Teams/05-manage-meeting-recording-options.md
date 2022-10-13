@@ -1,5 +1,5 @@
 ---
-title: Manage Teams meeting recording options
+title: Manage Microsoft Teams meeting recording options
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,20 +17,15 @@ appliesto:
 description: Learn how to manage who can record Teams meetings, automatic recording, and the recording lifecycle.
 ---
 
-# Manage Teams meeting recording options
+# Manage Microsoft Teams meeting recording options
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-
-
-Recording and transcription settings let you control how these features are used in a Teams meeting. Learn more
-Transcription
+Teams is designed to allow easy recording for meeting participants. 
 
 
 
-Cloud recording (Policy)
-
-
+The following table shows the features available to help you manage meeting recordings and where they're configured.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
@@ -39,36 +34,36 @@ Cloud recording (Policy)
 |Record automatically|Yes|Yes|Yes|No|
 |Recording expiration|No|No|No|Yes|
 
+For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](/configure-meetings-sensitive-protection) and [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
 
 ## Manage who can record meetings
 
-Who can record? (Sensitivity label)
-Organizer and co-organizers
-Organizers and presenters
+There are two options for who can record a meeting:
 
+- Organizers
+- Organizers and presenters
+
+This choice is normally made by the meeting organizer when they create the meeting. If have meetings where sensitive information is being shared and you want to limit the ability to record to organizers only, you can enforce this setting by using a sensitivity label. 
+
+If you need to prevent meetings from being recorded entirely, you must configure the **Cloud recording** meetings policy in the Teams admin center. This setting applies to the people or groups that you specify and can't be applied via a meeting template or sensitivity label. For more information, see [Teams cloud meeting recording](/microsoftteams/cloud-recording).
 
 ## Automatic recording
 
-Record automatically (Meeting organizer)
-Record automatically (Sensitivity label)
-Record automatically (Template)
+Meetings can be set to record automatically when they start. Normally, the meeting organizer makes this choice when they create the meeting.
 
+If there are certain types of meetings that should always be recorded, you can enforce this option by using a meeting template or a sensitivity label.
 
-
-
+If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this by using a sensitivity label. If only certain sensitive meeting need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the *sensitive* label, one which automatically records and another which doesn't.
 
 ## Recording lifecycle
 
+By default, meeting recordings are deleted after 120 days. This is configure by using two policies in the Teams admin center:
 
-Meetings automatically expire (Policy)
-Default expiration time (Policy)
+- **Meetings automatically expire** determines if meeting recordings are automatically deleted after a specified time.
+- **Default expiration time** specifies the number of days after which recordings are deleted. The default is 120.
 
-Store recordings outside of your country or region (Policy)
+When a meeting participant records a meeting, the recording is stored in their OneDrive. Channel meetings are stored in the SharePoint site associated with the channel. Because meeting recordings are .mp4 files, they can be moved or deleted like any other file. If a meeting recording is moved from its original location, the expiration setting will no longer affect it.
 
-Meetings automatically expire
+The expiration feature is meant for removing old recordings to save storage space. It's not meant for enforcing compliance requirements. If you have compliance requirements around how long meeting recordings are retained or when they're deleted, consider storing them in a SharePoint library where you can apply [Microsoft Purview retention policies](/microsoft-365/compliance/retention).
 
-Default expiration time
-120
-Store recordings outside of your country or region
-
-Channel meeting can use retention policies.
+## Related topics
