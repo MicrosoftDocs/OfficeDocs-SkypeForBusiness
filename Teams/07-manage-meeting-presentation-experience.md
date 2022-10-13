@@ -21,8 +21,6 @@ description:
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-[!INCLUDE[Teams Premium COE](includes/teams-premium-coe.md)]
-
 Choose co-organizers (Meeting organizer)
 Enable green room (Meeting organizer) on/off
 

@@ -19,7 +19,7 @@ description:
 
 # Overview of custom meeting templates in Microsoft Teams
 
-[!INCLUDE[Teams Premium COE](includes/teams-premium-coe.md)]
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 
 
