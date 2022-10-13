@@ -23,7 +23,7 @@ Application-based authentication is supported now in Teams PowerShell Module for
 
 Cmdlets below are already supported, other cmdlets will be gradually rolled out. 
 
-  - Non \*-Cs cmdlets (for example, Get-Team)
+  - Non \*-Cs cmdlets (except New-Team)
   - Get-CsTenant
   - Get-CsOnlineUser, Get-CsOnlineVoiceUser
   - \*-CsOnlineSipDomain 
@@ -38,6 +38,7 @@ Cmdlets below are already supported, other cmdlets will be gradually rolled out.
   - Find-CsGroup
   - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
   - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
+  - \*-CsCloudCallDataConnection
 
 
 ## Examples
