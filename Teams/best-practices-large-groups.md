@@ -71,7 +71,7 @@ To prevent addition of distracting applications or bots, team owners can disable
 
 ![Screen image that shows the Member permissions section of the Settings pane.](media/disable-bots-connectors.png "Screen image that shows the Member permission section of the Settings pane. The options for allow members to add apps or connectors are unchecked.")
 
-See [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md).
+See [overview of Teams apps](deploy-apps-microsoft-teams-landing-page.md).
 
 ## Regulate team and channel mentions
 
