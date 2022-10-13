@@ -1,1 +1,1 @@
-![Information icon](../media/info.png) **Some features require [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing))**
+![Information icon](../media/info.png) **Some features described in this article require [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing)**
