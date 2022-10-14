@@ -630,7 +630,7 @@ items:
               href: 03-configure-meetings-sensitive-protection.md
             - name: Configure highly sensitive protection
               href: 04-configure-meetings-highly-sensitive-protection.md
-            - name: Manage who can record meetings
+            - name: Manage recording options
               href: 05-manage-meeting-recording-options.md
             - name: Manage meeting lobby
               href: 06-configure-lobby-sensitive-meetings.md
