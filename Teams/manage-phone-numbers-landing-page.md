@@ -118,7 +118,7 @@ It's possible to manage Direct Routing phone numbers of some user and resource a
 
 ### Change where Direct Routing phone numbers are managed
 
-To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the user or resouce account in the on-premises Active Directory.   
+To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the user or resource account in the on-premises Active Directory.   
 
 For more information, see [Clear Skype for Business attributes for all on-premises users in Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Note that the phone number needs to be re-assigned to the user or resource account in Microsoft 365.
 
