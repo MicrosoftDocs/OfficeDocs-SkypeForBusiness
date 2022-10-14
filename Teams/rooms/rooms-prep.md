@@ -110,7 +110,7 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
 11. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
     
-See the [Network Security](./security.md#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
+See the [Network Security](./security-windows.md#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
   
 ### Admin group management
 
@@ -123,7 +123,7 @@ If you choose to join a domain (Azure Active Directory or Active Directory), you
 
 ### Microsoft Teams Rooms Local User Account
 
-Teams Rooms includes a passwordless local account named "Skype". This account is used to sign in to Windows to launch the Teams Rooms app. It is not supported to apply a password to this account. See [Microsoft Teams Rooms Security](security.md) for more information.
+Teams Rooms includes a passwordless local account named "Skype". This account is used to sign in to Windows to launch the Teams Rooms app. It is not supported to apply a password to this account. See [Microsoft Teams Rooms Security](security-windows.md) for more information.
   
 ### "Admin" - Local Administrator Account
 
@@ -134,7 +134,7 @@ Microsoft Teams Rooms default password is set to "sfb". The Password can be chan
   
 The Local admin password is not included as a choice during Setup.
 
-You can read more about the Admin account in the [Microsoft Teams Rooms Security](security.md) article.
+You can read more about the Admin account in the [Microsoft Teams Rooms Security](security-windows.md) article.
   
 ### Machine Account
 

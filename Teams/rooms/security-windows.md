@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms Security
+title: Microsoft Teams Rooms for Windows security
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,12 +15,14 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-description: Learn how to secure your Microsoft Teams Rooms devices.
+description: Learn how to secure your Microsoft Teams Rooms for Windows devices.
 ---
 
-# Microsoft Teams Rooms Security
+# Microsoft Teams Rooms for Windows security
 
-Microsoft works with our partners to deliver a solution that is secure and doesn't require additional actions to secure Microsoft Teams Rooms. This article discusses many of the security features found in Teams Rooms.
+Microsoft works with our partners to deliver a solution that is secure and doesn't require additional actions to secure Microsoft Teams Rooms for Windows. This article discusses many of the security features found in Teams Rooms for Windows.
+
+For information about security on Teams Rooms for Android devices, see [Microsoft Teams Rooms for Android security](security-android.md).
 
 > [!NOTE]
 > Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different.
