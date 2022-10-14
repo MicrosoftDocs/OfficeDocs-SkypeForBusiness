@@ -166,27 +166,17 @@ Your panels devices provide two types of admin settings. You must be a device ad
 
 ### Access Panels App settings
 
-You can access **Panels App**-specific settings by using the **Panels App Settings** option under the admin settings. The steps to access **Panels App Settings** may differ based on the OEM of your device.
+You can access **Panels App**-specific settings by using the **Teams admin settings** option under the admin settings. The steps to access **Teams admin settings** may differ based on the OEM of your device.
 
-To access the **Panels App Settings** option:
+To access the **Teams admin settings** option:
 
 1. Tap the **Settings** icon on the Home screen.
 2. On the **Settings** screen, tap **Device settings**.
-3. Tap the **Admin Settings**.
 
     > [!NOTE]
     > Depending on the OEM of your device, you may need to enter the device admin password now or after the next step.
 
-4. Scroll down to find the **Panels App Settings** option. Tap it.
-5. Tap the **Panels App Settings** button on the right screen.
-    The screen with the available **Panels App** settings is displayed.
-
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="This screenshot displays the screen with the available Panels app settings.":::
-
-    Use this screen to update the following **Panels App** settings for your device:
-
-    - [Wallpaper](#update-the-wallpaper)
-    - [LED indicator](#change-the-busy-state-led-color)
+3. Scroll down to find the **Teams admin settings** option. Tap it.
 
 #### Pair a Teams panel with a Microsoft Teams Room on Android
 
@@ -194,7 +184,7 @@ To pair a Teams panel and Teams Room on Android, both devices must be signed int
 
 On the Teams panel, sign in using your admin credentials.
 
-1. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings > Device Pairing.**
+1. Go to **Settings > Device settings > Teams admin settings > Device pairing.**
 
 2. A six-digit code will appear on the Teams Rooms on Android front of room display. Enter the code on the Teams Panel.  
 
@@ -206,13 +196,19 @@ When Teams Panels is paired with a Microsoft Teams Room on Android, check-in not
 
 To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
 
+#### Extend room reservation
+
+When this feature is turned on, end users can use a Teams panel to extend a meeting's room reservation if the room is available after the meeting's original end time. Reservations can be extended in 15 minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
+
+This feature is off by default, and it can be enabled per device. To turn it on, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Extend meeting reservation**.
+
 #### Room capacity warning
 
 Teams panels that are paired with a Teams Room on Android can display a warning message when a meeting room is at or over capacity. To use this feature, the Teams Room must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
 
 Room capacity warnings are turned off by default. To turn the setting on from the Teams panel, first [pair a Teams panel with a Microsoft Teams Room on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Room must be signed into the same resource account.
 
- Then, go to **Settings > Device settings > Admin settings > Panel app settings**. Then, under **Meetings**, turn on **Max room occupancy notification**.
+ Then, go to **Settings > Device settings > Teams admin settings > Meetings**. Then, under **Meetings**, turn on **Max room occupancy notification**.
 
 #### View room equipment
 
@@ -228,7 +224,7 @@ Or, you can enable this feature in the Exchange admin center. See [Edit a resour
 
 Change the Home screen wallpaper image.
 
-1. [Access **Panels App Settings**](#access-panels-app-settings).
+1. [Access **Teams admin settings**](#access-panels-app-settings).
 2. Tap **Wallpapers**.
 3. From **Choose your image**, select an image to set as the Home screen background image. Preview the selected image under **Background**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="This screenshot displays the wallpaper settings screen.":::
@@ -238,7 +234,7 @@ Change the Home screen wallpaper image.
 
 Admins can choose either red or purple as the LED color to indicate that the meeting space is busy or reserved. The LED color to indicate an available space is always green and can't be changed.
 
-1. [Access **Panels App Settings**](#access-panels-app-settings).
+1. [Access **Teams admin settings**](#access-panels-app-settings).
 2. Tap **LED Settings**.
 3. From **Choose your LED color**, select the desired color.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings.":::
