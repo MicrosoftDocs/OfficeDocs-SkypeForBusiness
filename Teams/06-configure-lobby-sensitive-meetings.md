@@ -31,12 +31,12 @@ The following table lists features that you can use to help manage the lobby exp
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-|Who can bypass the lobby|![Yes](media/yes.png)|![Yes](media/yes.png)|![Yes](media/yes.png)|![Yes](media/yes.png)|
-|People calling in by phone can bypass the lobby|![Yes](media/yes.png)|![Yes](media/yes.png)|![Yes](media/yes.png)|![Yes](media/yes.png)|
-|Notify when callers join and leave|![Yes](media/yes.png)|![Yes](media/yes.png)|||
-|Let anonymous people join a meeting||||![Yes](media/yes.png)|
-|Let anonymous people start a meeting||||![Yes](media/yes.png)|
-|Let anonymous people start a meeting||||![Yes](media/yes.png)|
+|Who can bypass the lobby|&check;|&check;|&check;|&check;|
+|People calling in by phone can bypass the lobby|&check;|&check;|&check;|&check;|
+|Notify when callers join and leave|&check;|&check;|||
+|Let anonymous people join a meeting||||&check;|
+|Let anonymous people start a meeting||||&check;|
+|Let anonymous people start a meeting||||&check;|
 
 
 ## Lobby settings for different types of meetings
@@ -78,23 +78,20 @@ This setting controls whether people who dial in by phone join the meeting direc
 
 
 
-Let anonymous people join a meeting (Policy & Setting)
-Let anonymous people start a meeting (Policy)
 
 
-
-
-
-Dial-in users can bypass the lobby (Policy)
 
 Who can register (meetings) (Policy)
 
-Announce when callers join or leave (Meeting organizer)
-
-Guest OTP
 
 
 ## Meeting with anonymous participants
+
+
+
+Let anonymous people join a meeting (Policy & Setting)
+Let anonymous people start a meeting (Policy)
+
 
 Let anonymous people join a meeting
 This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation. To learn more, see Join a meeting without a Teams account. Anonymous users' ability to join meetings are also controlled at your organization level, the more restrictive setting will be effective. To learn more, see Using the Microsoft Teams admin center to configure organization-wide policy.
