@@ -25,14 +25,20 @@ description: Learn how to manage webinar policies for Teams meetings.
 
 This article describes how to set up webinars. Microsoft now offers two webinar experiences; this article describes how to configure both.
 
-By enabling webinars 2.0, your end users can use these new features:
+Microsoft will be investing in webinars 2.0 going forward. We recommend that you use 2.0 if you plan to use webinars.
+
+Webinars 1.0 allows basic features like registration and an attendance report. By enabling webinars 2.0, your end users can use these new features:
 
 - Event promo image, theme color, and company logo for event and registration pages
 - Co-organizers
 - Present bios on the event page
 - Advanced registration configurability
 
-Read more about the [webinar end user documentation]().
+Read more about the new features available in the [webinar end user documentation]().
+
+If you are currently using webinars 1.0, you'll be moved to webinars 2.0 automatically. If you currently have webinars 1.0 turned off, they will remain off as webinars 2.0 rolls out. If you want to keep webinars 1.0, see [how to turn off webinars 2.0]().
+
+Note that while webinars 1.0 can be configured in Teams admin center or PowerShell, webinars 2.0 can only be configured in PowerShell. See examples on [how to set up webinars 2.0 using PowerShell]().
 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
@@ -47,10 +53,10 @@ You must use PowerShell to set up webinars 2.0 for your organization, as the abi
 
 You can use the following attributes within the Windows PowerShell **Set-CsTeamsEventsPolicy** cmdlet to set up webinars 2.0 in Teams.
 
-|Parameter|Description|Default Setting|
+|Parameter|Default Setting|Description|
 |---------|-----------|---------------|
-|AllowWebinars|This setting determines if a user can create webinars. |Enabled|
-|EventAccessType|This setting determines which users can access the event registration page or the event site to register, as well as which user type is allowed to join the session(s) in the event.|Everyone|
+|AllowWebinars|Enabled|This setting determines if a user can create webinars.|
+|EventAccessType|Everyone|This setting determines which users can access the event registration page or the event site to register, as well as which user type is allowed to join the session(s) in the event.|
 
 Meeting registration must be turned on to use webinars 2.0.
 
@@ -59,17 +65,17 @@ Meeting registration must be turned on to use webinars 2.0.
 1. Turn on meeting registration
 1. Turn on webinars 2.0
 1. Configure who can register for webinars
-  **Allow ***only*** users in your organization to register for webinars**
+    - **Allow ***only*** users in your organization to register for webinars**
 
-```powershell
-Set-CsTeamsEventsPolicy -EventAccessType EveryoneInCompanyExcludingGuests
-```
+        ```powershell
+        Set-CsTeamsEventsPolicy -EventAccessType EveryoneInCompanyExcludingGuests
+        ```
 
-  **Allow everyone, including anonymous users, to register for webinars**
+    - **Allow everyone, including anonymous users, to register for webinars**
 
-```powershell
-Set-CsTeamsEventsPolicy -EventAccessType Everyone
-```
+        ```powershell
+        Set-CsTeamsEventsPolicy -EventAccessType Everyone
+        ```
 
 ## Set up webinars 1.0
 
@@ -101,13 +107,11 @@ When this is on, organizers can see reports of who registered and attended the w
 
 You can use the following attributes within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet to set up webinars 1.0 in Teams.
 
-|Parameter|Description|Default Setting|
+|Parameter|Default Setting|Description|
 |---------|-----------|---------------|
-|AllowMeetingRegistration|This setting determines whether a user can create webinars.|True|
-|WhoCanRegister|This setting controls who can attend a webinar.|Everyone|
-|AllowPrivateMeetingScheduling|This setting determines whether a user can schedule private meetings.|True|
-
-Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) for more information on the cmdlet.
+|AllowMeetingRegistration|True|This setting determines whether a user can create webinars.|
+|WhoCanRegister|Everyone|This setting controls who can attend a webinar.|
+|AllowPrivateMeetingScheduling|True|This setting determines whether a user can schedule private meetings.|
 
 > [!NOTE]
 > Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
@@ -133,17 +137,17 @@ Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 
 1. Configure who can register for webinars
 
-  **Allow *only* users in your organization to register for webinars**
+    - **Allow *only* users in your organization to register for webinars**
 
-  ```powershell
-Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
-  ```
+      ```powershell
+      Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
+      ```
 
-  **Allow anyone, including anonymous users, to register for webinars**
+    - **Allow anyone, including anonymous users, to register for webinars**
 
-  ```powershell
-   Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
-  ```
+      ```powershell
+       Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
+      ```
 
 > [!CAUTION]
 > If anonymous join is turned off in meeting settings, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
@@ -155,6 +159,12 @@ The **AllowEngagementReport** parameter lets you see who registered and attended
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
+
+Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) for more information on the cmdlet.
+
+## Turn off webinars
+
+
 
 ## Related topics
 
