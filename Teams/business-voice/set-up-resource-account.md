@@ -16,6 +16,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Step 4: Set up a Teams Phone System resource account
