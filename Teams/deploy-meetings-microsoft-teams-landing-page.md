@@ -204,4 +204,4 @@ It's important that you understand the overall health of the Teams service so th
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of meetings & conferencing throughout your organization.
 - [Add audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
