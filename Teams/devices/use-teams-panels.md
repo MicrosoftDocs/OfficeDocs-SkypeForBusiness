@@ -214,7 +214,7 @@ Room capacity warnings are turned off by default. To turn the setting on from th
 
 When this feature is turned on, end-users can view what equipment is available in a space on a Teams panel.
 
-This feature is off by default, and it can be enabled per device. To turn it on, use [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) in PowerShell to configure the display names for `AudioDeviceName`, `DisplayDeviceName`, `VideoDeviceName`, `Tags`, and `IsWheelChairAccessible`.
+This feature is off by default, and it can be enabled per device. To turn it on, use [Set-Place](/powershell/module/exchange/set-place) in PowerShell to configure the display names for `AudioDeviceName`, `DisplayDeviceName`, `VideoDeviceName`, `Tags`, and `IsWheelChairAccessible`.
 
 Or, you can enable this feature in the Exchange admin center. See [Edit a resource](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) for more information.
 
