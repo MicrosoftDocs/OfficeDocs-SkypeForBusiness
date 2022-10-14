@@ -31,13 +31,11 @@ The following table lists features that you can use to help manage the lobby exp
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-|Who can bypass the lobby|&check;|&check;|&check;|&check;|
-|People calling in by phone can bypass the lobby|&check;|&check;|&check;|&check;|
-|Notify when callers join and leave|&check;|&check;|||
-|Let anonymous people join a meeting||||&check;|
-|Let anonymous people start a meeting||||&check;|
-|Let anonymous people start a meeting||||&check;|
-
+|Who can bypass the lobby|Yes|Yes|Yes|Yes|
+|People calling in by phone can bypass the lobby|Yes|Yes|Yes|Yes|
+|Notify when callers join and leave|Yes|Yes|No|No|
+|Let anonymous people join a meeting|No|No|No|Yes|
+|Let anonymous people start a meeting|No|No|No|Yes|
 
 ## Lobby settings for different types of meetings
 
@@ -56,50 +54,26 @@ If your organization requires that certain types of meetings not be attended by 
 
 If your organization has meetings where highly sensitive information is shared and you need to be sure that only certain people attend, consider using a meeting template or sensitivity label that only allows meeting organizers to bypass the lobby. This ensures that organizers can vet each incoming participant to make sure they should be in the meeting.
 
+For sensitive meetings in general, consider using the invited people option. This ensures that people who were not directly invited by the meeting organizer go through the lobby.
+
 For information about using meeting templates and sensitivity labels together, see [Use Teams custom meeting templates with sensitivity labels](/microsoftteams/meeting-templates-with-sensitivity-labels).
 
+### Attendees calling in by phone
 
-Allow dial-in users to bypass the lobby
+By default, attendees who are dialing in by phone go through the lobby. If there area circumstances where you want to allow callers to bypass the lobby, you can turn on the **Dial-in users can bypass the lobby** admin meeting policy. When the policy is on, meeting organizers can control this setting, or you can enforce it through a meeting template or sensitivity label.
 
-Notify when callers join and leave (Template)
+### Join and leave notifications
 
-People calling in by phone can bypass the lobby (Template)
-
-
-
-Set up trusted domains. [Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access).
-
-Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People I invite**|**Only me and co-organizers**|
-
-
-
-
-This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the Automatically admit people setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting with a Teams client.
-
-
-
-
-
-
-Who can register (meetings) (Policy)
-
-
+Meeting organizers have the option of having attendees announced when they join or leave a meeting. This can be useful for meetings where sensitive information is being shared and it's important to track who is in the meeting. If you want to ensure that attendees are announced for certain types of meetings, you can enforce this setting with a meeting template.
 
 ## Meeting with anonymous participants
 
+Unless you allow everyone to bypass the lobby, anonymous participants must go through the lobby to attend the meeting. Meeting organizers can then decide if the participants should be admitted.
 
+If your organization does not allow anonymous participants to join meetings at all, you can turn off the **Anonymous users can join a meeting** setting in the Teams admin center. For more information, see [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams).
 
-Let anonymous people join a meeting (Policy & Setting)
-Let anonymous people start a meeting (Policy)
+If you have certain groups in your organization - such as marketing - who need to organize meetings with anonymous participants and others - such as research - who should not, you can use Teams meeting policies to configure anonymous meeting join for different groups. (You'll need to turn the **Anonymous users can join a meeting** setting mentioned above on for this to work.) For details, see [Meeting policy settings - Participants & guests](/microsoftteams/meeting-policies-participants-and-guests).
 
+## Related topics
 
-Let anonymous people join a meeting
-This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation. To learn more, see Join a meeting without a Teams account. Anonymous users' ability to join meetings are also controlled at your organization level, the more restrictive setting will be effective. To learn more, see Using the Microsoft Teams admin center to configure organization-wide policy.
-
-Let anonymous people start a meeting
-This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.
-
- Note
-
-If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
-
+[Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access)
