@@ -23,7 +23,7 @@ keywords:
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
-The devices you choose for your Teams Rooms space depend on your room's design and budget. This article helps you understand what devices you need to create your Teams Rooms space, considerations to help you choose what's right for you, and example devices so you can see what options are available.
+The devices you choose for your traditional Microsoft Teams Rooms or Signature Microsoft Teams Rooms space depend on your room's design and budget. This article helps you understand what devices you need to create your Teams Rooms space, considerations to help you choose what's right for you, and example devices so you can see what options are available.
 
 At minimum, you need each of the following:
 
@@ -159,9 +159,9 @@ The following are examples of audio systems for Teams Rooms:
 - [Yamaha ADECIA wired tabletop solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [Biamp medium room audio with Parlé ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# [Hybrid-optimized](#tab/hybrid)
+# [Signature Teams Rooms](#tab/signature)
 
-## Touchscreen console and compute module
+## Signature Teams Rooms touchscreen consoles and compute modules
 
 The touchscreen console is the device that users interact with when joining and managing a meeting. The compute module is the brains of the Teams Room and runs Windows 10 Enterprise IoT.
 
@@ -178,11 +178,11 @@ The following are examples of touchscreen console and compute module bundles for
 - [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## Hybrid-optimized displays
+## Signature Teams Rooms displays
 
 Displays bring your content to life and can be a large flat screen TV or a projector that projects onto a screen. You can have a single display that has your content and video feeds combined, or you can set up dual displays with content on one display and video feeds on the other. One of the displays can even be touch-enabled for interactive inking.
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="Teams Rooms display showing front row, chat, and notes.":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="Signature Teams Rooms display showing front row, chat, and notes.":::
 
 
 ### Display type
@@ -197,15 +197,15 @@ Example display types include:
 
 ### Display functions
 
-Hybrid-optimized Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
+Signature Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
 
 - Sleep and Quick Wake Up from sleep based on HDMI sync.
-  - For projectors, automatic warm-up and cooldown periods must be supported without required user intervention.
+  - For projectors, automatic warm-up and cool down periods must be supported without required user intervention.
 - Displays must support the appropriate EDID and resolutions required by the Microsoft Teams Rooms design.
 
 ### Display placement
 
-A hybrid-optimized room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
+Signature Teams Rooms require that the display is placed in front of all the in-room meeting participants, directly opposite the table.
 
 The horizontal center line of the display must be centered on the same center line as the table.
 
@@ -213,11 +213,11 @@ The vertical center line of the display must be no more than +/- 15 degrees offs
 
 ### Display count
 
-A hybrid-optimized room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
+Signature Teams Rooms require that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
 
 ### Display options
 
-The following are examples of displays for hybrid-optimized Teams Rooms:
+The following are examples of displays for Signature Teams Rooms:
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -228,7 +228,7 @@ A room of this type requires the use of an intelligent, ultra wide-angle front-o
 
 The camera should be placed at the front of the room below the front-of-room projection but above the top of the table to capture all the meeting room participants at as close to eye level as possible.
 
-The following are examples of primary cameras for hybrid-optimized Teams Rooms:
+The following are examples of primary cameras for Signature Teams Rooms:
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -264,7 +264,7 @@ Front-of-room speaker arrays and overhead speakers will work for this type of sp
 
 Speakers need to be positioned to provide coverage for all meeting room participants within the certified range of the device or devices used.
 
-The following are examples of microphones and speakers for hybrid-optimized Teams Rooms:
+The following are examples of microphones and speakers for Signature Teams Rooms:
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Biamp Devio conference room hub with Parle Ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
