@@ -17,6 +17,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---
