@@ -156,7 +156,7 @@ additionalContent:
         # Card
         - title: Extend Teams functionality
           links:
-            - text: Apps, bots, & connectors in Microsoft Teams
+            - text: Apps in Microsoft Teams
               url: ./deploy-apps-microsoft-teams-landing-page.md
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
