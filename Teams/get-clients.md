@@ -75,7 +75,9 @@ When users initiate a call using the Teams client for the first time, they might
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.
+> Windows Firewall configuration will be altered. Two inbound rules for teams.exe for both TCP and UDP protocols will be created with 
+> - Allow action in case the user is a local administrator and clicks 'Allow access' only.
+> - Block action if the user is not a local administrator and, in any case, when the prompt is dismissed by selecting “Cancel”.
 
 If you want to prevent Teams from prompting users to create firewall rules when the users make their first call from Teams, use the PowerShell script in [Sample script - Microsoft Teams firewall PowerShell script](client-firewall-script.md).
 
