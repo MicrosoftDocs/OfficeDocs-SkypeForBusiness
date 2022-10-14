@@ -36,6 +36,8 @@ The following table lists features that you can use to help manage the lobby exp
 |Notify when callers join and leave|Yes|Yes|No|No|
 |Let anonymous people join a meeting|No|No|No|Yes|
 |Let anonymous people start a meeting|No|No|No|Yes|
+|Let anonymous people start a meeting|No|No|No|![Yes](media/yes.png)|
+
 
 ## Lobby settings for different types of meetings
 
@@ -55,6 +57,9 @@ If your organization requires that certain types of meetings not be attended by 
 If your organization has meetings where highly sensitive information is shared and you need to be sure that only certain people attend, consider using a meeting template or sensitivity label that only allows meeting organizers to bypass the lobby. This ensures that organizers can vet each incoming participant to make sure they should be in the meeting.
 
 For information about using meeting templates and sensitivity labels together, see [Use Teams custom meeting templates with sensitivity labels](/microsoftteams/meeting-templates-with-sensitivity-labels).
+
+
+
 
 
 Set up trusted domains. [Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access).
