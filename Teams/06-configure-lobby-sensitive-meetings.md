@@ -60,7 +60,9 @@ For information about using meeting templates and sensitivity labels together, s
 
 ### Attendees calling in by phone
 
-By default, attendees who are dialing in by phone go through the lobby. If there area circumstances where you want to allow callers to bypass the lobby, you can turn on the **Dial-in users can bypass the lobby** admin meeting policy. When the policy is on, meeting organizers can control this setting, or you can enforce it through a meeting template or sensitivity label.
+By default, attendees who are dialing in by phone go through the lobby. Administrators can change this default with the **Dial-in users can bypass the lobby** admin meeting policy.
+
+If there area circumstances where you want to allow callers to bypass the lobby, meeting organizers can control this setting, or you can enforce it through a meeting template or sensitivity label.
 
 ### Join and leave notifications
 
