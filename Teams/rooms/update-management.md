@@ -50,7 +50,7 @@ There are a few pre-requisites for receiving updates through the Pro Management 
 |Logitech Sync Services  |Should be installed and running on the Logitech meeting room devices. Required Sync services will be installed automatically from Windows Updates unless blocked. The full Sync package can also be installed. |
 |Windows OS updates |Should be kept enabled and not redirected to WSUS, nor blocked from a networking perspective. Neither GPO nor MDM policies should be used to manage OS updates. |
 |Microsoft Store updates   |Should be turned off. Managed Services will turn off Store updates if found on. |
-|Anti-Virus Software |If you are running AV software on these devices, you should ensure that AV has exclusions in place for Teams and Skype dlls. See here for more details. |
+|Anti-Virus Software |If you are running AV software on these devices, you should ensure that AV has exclusions in place for Teams and Skype dlls. See [here](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp) for more details. |
 |Additional Software |Additional software such as third-party remote desktop viewing, etc. should be reviewed with Managed Services to rule out side-effects. |
 |Additional Change Management|Can interfere with covered updates, and` should not be introduced. |
 
