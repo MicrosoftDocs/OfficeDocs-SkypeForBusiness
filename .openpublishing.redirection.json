@@ -2914,6 +2914,11 @@
       "source_path": "Teams/rooms/security.md",
       "redirect_url": "/microsoftteams/rooms/security-windows",
       "redirect_document_id": true
+     },
+     {
+      "source_path": "Teams/audio-conferencing-smb.md",
+      "redirect_url": "/microsoftteams/set-up-audio-conferencing-in-teams",
+      "redirect_document_id": false
      }
   ] 
 }
