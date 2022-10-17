@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 audience: admin
-ms.localizationpriority: high
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
