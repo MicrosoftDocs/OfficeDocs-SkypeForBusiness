@@ -82,6 +82,40 @@ You can use PowerShell to configure and assign existing or new call park policie
 
 - [Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)
 
+### Examples
+
+#### New custom call park policy
+
+In the following example, the tenant administrator creates a custom call park policy that generates pickup numbers starting from 500 and up until 1500 and which will ring back the parker after 600 seconds if the parked call is unanswered.
+
+```powershell
+PS C:\> New-CsTeamsCallParkPolicy -Identity "SalesPolicy" -AllowCallPark $true -PickupRangeStart 500 -PickupRangeEnd 1500 -ParkTimeoutSeconds 600
+```
+
+#### Change a call park policy
+
+In the following example, the tenant administrator disables the call park policy.
+
+```powershell
+PS C:\> Set-CsTeamsCallParkPolicy -Identity "SalesPolicy" -AllowCallPark $false
+```
+
+#### Grant a call park policy to a user
+
+In the following example, the tenant administrator grant the call park policy to a user
+
+```powershell
+PS C:\> Grant-CsTeamsCallParkPolicy -PolicyName "SalesPolicy" -Identity Ken.Myer@contoso.com
+```
+
+#### Remove a call park policy
+
+In the following example, the tenant administrator removes the call park policy.
+
+```powershell
+PS C:\> Remove-CsTeamsCallParkPolicy -Identity "SalesPolicy"
+```
+
 
 ## Related topics
 
