@@ -75,7 +75,7 @@ When enabled by policy, the end user can configure their delegation relationship
 Administrators can configure delegation and shared line appearance for users via Teams admin center as described in [Configure call settings for your users](/MicrosoftTeams/user-call-settings).
 
 ## Configure delegation and shared line appearance using PowerShell
-You can use PowerShell to configure delegation and shared line appearance for users using the following Teams PowerShell Module cmdlets:
+Administrators can use PowerShell to configure delegation and shared line appearance for users using the following Teams PowerShell Module cmdlets:
 
 - [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate)
 
