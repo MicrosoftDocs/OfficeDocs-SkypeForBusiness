@@ -57,7 +57,7 @@ Important: When admins turn off call groups for users (after it has been turned 
 Administrators can configure group call pickup for users via Teams admin center as described in [Configure call settings for your users](/MicrosoftTeams/user-call-settings).
 
 ## Configure group call pickup using PowerShell
-You can use PowerShell to configure call groups for users using the following Teams PowerShell Module cmdlets:
+Administrators can use PowerShell to configure call groups for users using the following Teams PowerShell Module cmdlets:
 
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)
 
