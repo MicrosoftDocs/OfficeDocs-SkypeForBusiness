@@ -32,29 +32,36 @@ It is currently not possible to manage call blocking by using Teams admin center
 
 ## Call blocking administration using PowerShell
 
-Managing call blocking involved defining one or more number patterns to block calls from, defining any exceptions to the number patterns and enabling the call blocking feature.
+Managing call blocking involves defining one or more number patterns to block calls from, defining any exceptions to the number patterns, and enabling the call blocking feature.
 
-Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant – the first pattern matched in the list results in the call being blocked. A new number or pattern that's added or removed in the blocked callers list may take up to 24 hours for the pattern to become active.
+Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant--the first pattern matched in the list results in the call being blocked. A new number or pattern that's added or removed in the blocked callers list may take up to 24 hours for the pattern to become active.
 
-### Activating call blocking feature
-Viewing and activating the entire call blocking feature is managed through the **Get-** and **Set-CsTenantBlockingCallingNumbers** Teams PowerShell Module cmdlets.
+### Activating the call blocking feature
+
+To viewing and activate the call blocking feature, use the **Get-** and **Set-CsTenantBlockingCallingNumbers** Teams PowerShell Module cmdlets.
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) returns the inbound block number patterns and the inbound exempt number patterns parameters for the global blocked number list. This cmdlet also returns whether blocking has been Enabled (True or False). There's a single global tenant policy that can't be modified manually other than to turn the feature on or off.
-- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) allows modifying the global tenant blocked calls to be turned on and off at the tenant level.
+
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) allows you to specify whether the global tenant blocked calls are turned on or off at the tenant level.
 
 ### Managing block number patterns
-You manage number patterns by using the **New-**, **Get-**, **Set-**, **Test-**, and **Remove-CsInboundBlockedNumberPattern** Teams PowerShell Module cmdlets. You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern.
+
+You manage number patterns by using the **New-**, **Get-**, **Set-**, **Test-**, and **Remove-CsInboundBlockedNumberPattern** Teams PowerShell Module cmdlets. 
 
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern)
-returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern for each.
+returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern.
+
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern)
 adds a blocked number pattern to the tenant list.
+
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern)
 removes a blocked number pattern from the tenant list.
+
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern)
 modifies one or more parameters of a blocked number pattern in the tenant list.
+
 - [Test-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern)
-test whether calls from a given phone number will be blocked.
+tests whether calls from a given phone number will be blocked.
 
 
 ### Examples
@@ -95,7 +102,7 @@ Allow time for replication before you test and validate.
 
 #### View all number patterns
 
-Running this cmdlet returns a list of all blocked numbers that are entered for a tenant:
+The following cmdlet returns a list of all blocked numbers that are entered for a tenant:
 
 ```powershell
 Get-CsInboundBlockedNumberPattern
