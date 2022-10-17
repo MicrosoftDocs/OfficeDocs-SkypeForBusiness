@@ -33,8 +33,7 @@ End-to-end encryption for meeting video and audio
 Record meetings with this label automatically
 Video watermark
     Apply to screenshare
-    Applu to camera streams
-Display meeting protection message (UFD)
+    Apply to camera streams
 Allow chat
 Prevent copying chat content to clipboard
 
