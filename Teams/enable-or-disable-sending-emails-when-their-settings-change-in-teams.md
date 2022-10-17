@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: "Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes in Microsoft Teams. "
+description: "Learn how to enable or disable Microsoft Teams from sending emails to users when settings such as pin changes or the default conferencing number changes in Teams. "
 ---
 
 # Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams

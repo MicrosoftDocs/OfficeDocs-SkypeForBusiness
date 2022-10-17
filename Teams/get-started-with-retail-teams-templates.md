@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to manage and use the retail team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your retail organization. 
@@ -23,6 +24,8 @@ appliesto:
 ---
 
 # Use retail team templates
+
+## Overview
 
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
@@ -45,26 +48,28 @@ To learn more about team templates in general, see [Get started with team templa
 
 We currently offer the following pre-built retail team templates. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-### Organize a store
+> [!NOTE]
+> An asterisk (*) indicates that the template is a *Microsoft 365 connected template*. When users create a team using the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams.
+>
+> To learn more about SharePoint templates, see [Apply and customize SharePoint site templates](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-Bring your retail employees together in one central experience to manage tasks, share documents, and resolve customer issues. Integrate additional apps to streamline shift start and end processes.
+### Manage a Store*
 
-| Template type |TemplateId | Properties that come with this template |
-| ------------------|-- |----------------------------------------------------- |
-|Organize a store| `retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
+Bring your retail employees together in one central experience to manage tasks, share documents, and resolve customer issues. Integrate additional applications to streamline shift start and end processes.
 
-&sup1;App added to the channel as a tab
+> [!div class="mx-tdBreakAll"]
+>| Template type |TemplateId | Properties that come with this template |
+>| ------------------|-- |----------------------------------------------------- |
+>| Manage a Store| `retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists<ul><li>Inventory list</li></ul></li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
-### Manager Collaboration
+### Retail for Managers*
 
-The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
-| Template type| TemplateId | Properties that come with this template |
-| ------------------|- |----------------------------------------------------- |
-|Retail for managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations<ul><li>Tasks (Operations Tasks)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
-||||
-
-&sup1;App added to the channel as a tab
+> [!div class="mx-tdBreakAll"]
+>| Template type| TemplateId | Properties that come with this template |
+>| ------------------|- |----------------------------------------------------- |
+>| Retail for Managers| `retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 
@@ -72,16 +77,19 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 Here are the pre-built retail team templates.
 
-### Store
+> [!NOTE]
+> An asterisk (*) indicates that the template is a *Microsoft 365 connected template*. When users create a team using the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams.
+>
+> To learn more about SharePoint templates, see [Apply and customize SharePoint site templates](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
+### Manage a Store*
 
-| Template type | TemplateId | Template channels |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift handoff&sup2;</li><li>Store readiness</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
-||||
+Use this template to create a team for each retail store location in your organization.
 
-&sup2;Auto-favorited channels
+> [!div class="mx-tdBreakAll"]
+>| Template type | TemplateId | Template channels |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Channels <ul><li>General</li><li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create, update, or delete channels </li><li>Can't add or remove apps </li><li>Can't create, update, or remove tabs</li><li>Can't create, update, or remove connectors</li><ul>|
 
 Recommended ways to customize the Store template for your organization:
 
@@ -89,16 +97,14 @@ Recommended ways to customize the Store template for your organization:
 
 - If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel.
 
-### Manager Collaboration
+### Retail for Managers*
 
-The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
+Use this template to create a team for a set of managers to collaborate across stores or regions. For example, if your organization has regions, you might create a team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
-| Template type | TemplateId | Template channels |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
-||||
-
-&sup2;Auto-favorited channels
+> [!div class="mx-tdBreakAll"]
+>| Template type | TemplateId | Template channels |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Retail - <br>Manager Collaboration | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>General</li><li>Operations</li><li>Learning</li></ul>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create, update, and delete channels </li><li>Can add and remove apps </li><li>Can create, update, and remove tabs</li><li>Can create, update, and remove connectors</li><ul>|
 
 Recommended ways to customize the Manager Collaboration template for your organization:
 
@@ -126,6 +132,9 @@ To use these templates, change the 'template@odata.bind' property in the request
   ]
 }
 ```
+
+> [!NOTE]
+> If you're using Microsoft Graph to create a team from an existing Microsoft 365 group or team using a Microsoft 365 connected template, the connected SharePoint template isn't automatically applied to the site or team. You'll need to manually apply the SharePoint site template after the team is created. In Teams, go to the team, select **More options** in the upper-right corner > **Open in SharePoint**. Then choose **Settings** > **Apply a site template** and select the corresponding site template.
 
 ## Related articles
 

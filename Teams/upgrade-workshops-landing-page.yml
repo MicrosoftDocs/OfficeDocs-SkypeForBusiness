@@ -35,12 +35,12 @@ productDirectory:
     # Card
     - title: Plan your upgrade (Start here!)
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/get-started-teams.svg
       summary: Whether you're upgrading to Teams ahead of the retirement of Skype for Business Online (July 31, 2021) or moving scenarios from your Skype for Business on-premises environment to Teams, a successful transition addresses both technical and user readiness. Discover our proven framework, best practices, and resources designed to help you facilitate a successful transition to Teams from Skype for Business Online, Skype for Business Server, or a hybrid environment. Audience – All (Business sponsors, IT admins, user readiness/change manager, project lead)
       url: https://aka.ms/SfBtoTeamsPlan
     # Card
     - title: Implement your Teams upgrade
-      imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
       summary: Join us to identify and prepare to execute the best technical approach for moving all workloads to Teams, based on your goals and your current Skype for Business environment. Most customers who have completed successful transitions have enabled Teams alongside their current Skype for Business Online, Skype for Business Server, or hybrid implementation. This session will share key considerations and valuable resources to help you define the best migration strategy for your organization. Audience - IT admins
       url: https://aka.ms/SfBtoTeamsImplement
 

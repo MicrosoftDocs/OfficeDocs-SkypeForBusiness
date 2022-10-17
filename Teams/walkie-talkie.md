@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
-description: How to configure the Walkie Talkie app in Microsoft Teams, from an ITAdmin perspective.
+description: How to configure the Walkie Talkie app in Microsoft Teams, from an IT admin perspective.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ms.custom: 
 - Security
 appliesto: 
@@ -30,9 +31,16 @@ With Walkie Talkie in Teams, frontline workers can securely communicate with a f
 > [!NOTE]
 > Walkie Talkie is currently not available in China.
 
+## License requirements
+
+Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+
 ## Deploying Walkie Talkie
 
 Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
+
+> [!NOTE]
+> If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
 
 ### Enable or disable Walkie Talkie in your organization
 
@@ -98,6 +106,8 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
   - Manual setup: With Teams installed, go to **Settings** > **Buttons**. On the Dedicated button (1 or 2), select **Long press**, and then choose **PTT App**. Select the blue wheel next to **Custom**, and select **Teams**.
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) and [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - Manual setup: With Teams installed, go to **Settings** > **Programmable keys**. Choose **PTT key** or **Press and hold** (depending on the device), and select **Teams**.
+- Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer), 
+  - Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app** and select **Teams**.
   - [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
@@ -108,10 +118,6 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Teams Walkie Talkie.
-
-## License requirements
-
-Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## More information
 

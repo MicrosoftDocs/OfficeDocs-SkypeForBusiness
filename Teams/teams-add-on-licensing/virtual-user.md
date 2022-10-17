@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Phone Resource Account licenses
-ms.author: dstrome
-author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
@@ -38,7 +38,7 @@ For every 10 user licenses of **Teams Phone Standard** or **Teams Phone with Cal
 
 ### License allocation example
 
-Contoso, Inc. purchased 600 licenses that include Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses. 
+Contoso, Inc. purchased 600 licenses that include Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses. 
 
 ## How to obtain Microsoft Teams Phone Resource Account licenses
 

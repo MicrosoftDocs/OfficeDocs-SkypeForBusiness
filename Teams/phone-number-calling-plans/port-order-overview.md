@@ -21,6 +21,7 @@ description: Get an overview of what port orders are and how to transfer phone n
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 ---
 
 # What's a port order?
@@ -135,7 +136,7 @@ To check the status of your port order, in the left navigation of the Microsoft 
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Yes, they can. To do this, see [Manage the usage of a phone number](../manage-the-usage-of-a-phone-number.md).
 
 ## Can I port out my numbers from Teams to a different phone service provider or carrier?
 

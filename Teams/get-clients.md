@@ -133,9 +133,9 @@ You can launch Teams via Activities or via Terminal by typing `teams`.
 Install manually on Debian and Ubuntu distributions:
 
 ```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
 
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
 
 sudo apt update
 sudo apt install teams
@@ -193,6 +193,9 @@ If you're in China, you can install Teams from the following app stores:
 - **Huawei** <https://aka.ms/TeamsHuawei>
 - **Oppo** Search for "Teams" in the Oppo store
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+
+> [!NOTE]
+> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
 
 ## Browser client
 

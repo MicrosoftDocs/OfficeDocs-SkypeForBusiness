@@ -56,19 +56,19 @@ Non-native and self-built systems that rely on external services, or a bring-you
 
 **Purpose-built for Teams**:
 
-Advanced audio and video and sharing
+Advanced audio and video and sharing.
 
 **Expansive device portfolio for any room**:
 
-Select from fully modularized or integrated form factors across Android or Windows operating systems
+Select from fully modularized or integrated form factors across Android or Windows operating systems.
 
 **Reimagined room experiences**:
 
-Join Teams meetings friction-free to engage in inclusive, collaborative meetings for students and educators alike
+Join Teams meetings friction-free to engage in inclusive, collaborative meetings for students and educators alike.
 
 **Easily managed from one place**:
 
-Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Premium
+Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Pro.
 
 ## Space considerations
 
@@ -137,7 +137,7 @@ Teams meetings go beyond just audio and video calling for participants. There ar
 
 A common scenario is sharing content directly from a participant's device. Individual users can share the full audio and visual experience from individual applications or the entire contents of their screen directly to the meeting for everyone to view. This extends to all shared spaces with installed devices. Microsoft Teams Rooms also have the option to use a wired monitor connection to allow participants to share even if they lack the ability to join the meeting individually.
 
-For content from the physical world, spaces with Microsoft Teams Room systems can handle a whiteboard or document camera that allows for the coordinated review and discussion of content from the space.
+For content from the physical world, spaces with Microsoft Teams Rooms systems can handle a whiteboard or document camera that allows for the coordinated review and discussion of content from the space.
 
 For a fully interactive experience, interactive displays (such as the Surface Hub family of products and the Microsoft digital Whiteboard) make it easy to interactively create content for in-person students as well as with remote students.
 
@@ -233,8 +233,8 @@ A large display gives remote participants a physical presence within the room, a
 
 *Devices shown:*
 
-- Room System - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - Note that the Surface Hub solution represents a premium experience for collaboration and interactive usage. A [Microsoft Teams Room solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) paired with a large display can be used as an alternative in this same scenario.
+- Teams Rooms system - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - Note that the Surface Hub solution represents a premium experience for collaboration and interactive usage. The [Microsoft Teams Rooms solution](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) paired with a large display can be used as an alternative in this same scenario.
 
 - Analog Whiteboard capture – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
@@ -262,7 +262,7 @@ Remote participants can see the same field of view that in-person participants h
 
 *Devices shown:*
 
-- Room System – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with both an installed projector and a cart-based display
+- Teams Rooms system – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with both an installed projector and a cart-based display
 
 - Optional Digital Whiteboard - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -272,7 +272,7 @@ Remote participants can see the same field of view that in-person participants h
 
 *Installing or setting up this solution is:*
 
-Highly complex. This room features a physical installation that will require a knowledgeable AV deployment partner to properly plan for and deploy the camera and audio solutions so that they work seamlessly for the end users in the space. The installation requires expertise as it relates to wiring, audio configuration, and correct configuration of both the Microsoft Teams Room system and the associated Surface Hub 2 device.
+Highly complex. This room features a physical installation that will require a knowledgeable AV deployment partner to properly plan for and deploy the camera and audio solutions so that they work seamlessly for the end users in the space. The installation requires expertise as it relates to wiring, audio configuration, and correct configuration of both the Microsoft Teams Rooms system and the associated Surface Hub 2 device.
 
 ### Multi-purpose spaces
 
@@ -286,7 +286,7 @@ A room system with a large, projector-based front-of-room display, multiple touc
 
 *Devices shown:*
 
-- Room System – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with installed projector
+- Teams Rooms system – [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) with installed projector
 
 - Optional Dual Digital Whiteboards - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -296,7 +296,7 @@ A room system with a large, projector-based front-of-room display, multiple touc
 
 *Installing or setting up this solution is:*
 
-Highly complex. A multi-purpose space as described requires a knowledgeable AV deployment partner to properly plan for and deploy the projector-based display and camera and audio solutions, as well as to correctly configure both the Microsoft Teams Room system and the associated Surface Hub 2 devices so that they work seamlessly for the end users in the space.
+Highly complex. A multi-purpose space as described requires a knowledgeable AV deployment partner to properly plan for and deploy the projector-based display and camera and audio solutions, as well as to correctly configure both the Microsoft Teams Rooms system and the associated Surface Hub 2 devices so that they work seamlessly for the end users in the space.
 
 ## Don't forget security
 
@@ -312,4 +312,4 @@ View the following pages to learn more about Teams devices and partners:
 
 [Learn More about Microsoft Teams Rooms](/microsoftteams/rooms) – A guide to Microsoft Teams Rooms covering planning, deployment, and usage
 
-[Teams Meeting Room Partner Program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Room systems
+[Microsoft Teams Rooms Partner program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Rooms systems

@@ -36,47 +36,47 @@ productDirectory:
   items:
     # Card
     - title: Calling and meetings in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
       summary: 'Use calling and meetings to collaborate in real time, stay connected, and access shared content any time to learn, plan, and innovate. (Level: Teams Basics; Audience: Everyone)'
       url: https://aka.ms/CallingMeetingsTraining
     # Card
     - title: Explore teams and channels in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/users-group.svg
       summary: 'Understand the value of teams and channels and how they can help you collaborate in virtual workspaces or with an entire group. (Level: Teams Basics; Audience: Everyone)'
       url: https://aka.ms/TeamsChannelsTraining
     # Card
     - title: Tips, shortcuts, and what's new with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
       summary: 'Learn tips and shortcuts to become a power user. Discover what’s new and find expert direction on the latest features. (Level: Teams Basics; Audience: Everyone)'
       url: https://aka.ms/TeamsProTips
     # Card
     - title: Go further together with Teams meetings
-      imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/calendar-teams.svg
       summary: 'Learn key features of Teams meetings and webinars, including collaboration tools, breakout rooms and access to meeting resources. (Level: Teams Go Further; Audience: Everyone)'
       url: https://aka.ms/MeetingsGoFurther
     # Card
     - title: Customize Teams with apps
-      imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
       summary: 'See how app integrations in Teams show up in a single user interface and allow employees to work better together. (Level: Teams Go Further; Audience: Everyone)'
       url: https://aka.ms/Teamsappstraining
     # Card
     - title: Hybrid work solutions
-      imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
       summary: 'Stay connected, secure, and productive as you adapt to new ways of working. Learn to be productive in one place: meetings, calls, chat, apps, and more. (Level: Teams Go Further; Audience: Everyone)'
       url: https://aka.ms/HybridWorkTraining
     # Card
     - title: Increase collaboration with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/structure-teams.svg
       summary: 'Learn how to make the most of channels, chat, and connected apps to improve communication and deepen collaboration across teams of all sizes. (Level: Teams Basics; Audience: Everyone)'
       url: https://aka.ms/CollaborateInTeams
     # Card
     - title: Teams for Education - Webinars
-      imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/education-tutorial-teams.svg
       summary: 'Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)'
       url: https://aka.ms/TeamsEduWebinars
     # Card
     - title: Upgrade planning workshops
-      imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
       summary: 'Plan and implement a successful upgrade to Teams. (Audience: IT professionals, adoption change managers)'
       url: https://aka.ms/upgradeworkshops
 
@@ -88,13 +88,13 @@ additionalContent:
     - title: Additional training
       items:
         # Card
-        - title: Teamwork Specialist Learning Path
+        - title: Teamwork Specialist learning path
           summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team.
-          url: /learn/paths/teamwork-specialist
+          url: /training/paths/teamwork-specialist
         # Card
-        - title: Service Adoption Specialist Learning Path
-          summary: The Microsoft Service Adoption Specialist Learning Path features Teams and other Microsoft 365 services. Learn how to drive the adoption of Microsoft services in your organization.
-          url: /learn/paths/m365-service-adoption
+        - title: Service Adoption Specialist learning path
+          summary: The Microsoft Service Adoption Specialist learning path features Teams and other Microsoft 365 services. Learn how to drive the adoption of Microsoft services in your organization.
+          url: /training/paths/m365-service-adoption
         # Card
         - title: On-demand training videos
           summary: 'No time for a class? Explore our catalog of videos from Microsoft Support for on-demand training.'
