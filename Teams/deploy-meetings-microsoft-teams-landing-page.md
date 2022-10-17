@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - remotework
   - m365initiative-meetings
+  - highpri
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 

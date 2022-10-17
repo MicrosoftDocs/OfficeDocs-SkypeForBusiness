@@ -18,7 +18,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
-description: Learn how to manage webinar policies for Teams meetings.
+description: Learn how to manage Webinar policies for Teams meetings.
 ---
 
 # Set up for webinars in Microsoft Teams
