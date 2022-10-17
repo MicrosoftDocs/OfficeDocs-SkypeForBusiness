@@ -34,6 +34,7 @@ For each option in the template, you can define the following:
 
 |Setting|Description|
 |:------|:----------|
+|Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain settings in the template.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People calling in by phone can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
 |Notify when callers join and leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
@@ -67,7 +68,7 @@ For each option in the template, you can define the following:
 |Attendees can chat|Specifies if the meeting chat is available. Can also be used to prevent chat before and after the meeting.|
 |Attendees can use reactions|Specifies if attendees can use reactions in the meeting. This must be **On** for the raise hand feature to work.|
 |Enable Q&A|Specifies if attendees can use the Q&A feature to ask questions during the meeting.|
-|Manage what attendees see||
+|Manage what attendees see|When **On**, meeting organizers can preview and approve content being shared on screen before other meeting participants can see it.|
 
 
 
