@@ -35,9 +35,9 @@ A delegate can be configured to allow making calls or receiving calls on behalf 
 
 ## License required
 
-A user must have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
+A user must have Phone System with PSTN connectivity (either Calling Plan, Operator Connect or Direct Routing) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
 
-Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
+Both managers and delegates need to have Phone System with PSTN connectivity (Calling Plan, Operator Connect or Direct Routing). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 ## Shared line appearance feature availability
 
