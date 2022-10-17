@@ -28,7 +28,7 @@ This inbound call blocking feature only works on inbound calls that originate fr
 
 
 ## Call blocking administration using Teams admin center
-It is currently not possible to manage call blocking via Teams admin center.
+It is currently not possible to manage call blocking by using Teams admin center.
 
 ## Call blocking administration using PowerShell
 
