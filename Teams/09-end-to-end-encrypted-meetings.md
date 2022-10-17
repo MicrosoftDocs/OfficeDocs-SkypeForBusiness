@@ -21,12 +21,54 @@ description:
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
+End-to-end encryption is the encryption of information at its origin and decryption at its intended destination without the ability for intermediate nodes to decrypt. When meetings in Teams are end-to-end encrypted, nobody except for the participants in the meeting can hear or see the communication. No other party, including Microsoft, has access to the decrypted conversation.
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:----------------|:-------|:----------------|:----------|
-|End-to-end encryption|Yes|No|Yes|No|
-||||||
+End-to-end encrypted meetings can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac, they are on a mobile device with the latest update for iOS and Android, or they are on a Teams Rooms on Windows device using the latest update. End-to-end encryption for meeting attended via the browser are not supported.
 
+If you don't enable end-to-end encryption, Teams still secures meetings using encryption based on industry standards. Data exchanged during meetings is always secure while in transit and at rest. For more information, see [Media encryption for Teams](teams-security-guide.md#media-encryption).
+
+During an end-to-end encrypted meeting, Teams secures the following features:
+
+- Audio
+
+- Video
+
+- Screen sharing
+
+[Encryption in Microsoft 365](/microsoft-365/compliance/encryption) protects chat, file sharing, presence, and other content in the meeting.
+
+The following features aren't available during an end-to-end encrypted meeting:
+
+- Live captions and transcription
+
+- Recording
+
+- Together mode, companion mode, large gallery
+
+- Breakout rooms
+
+If your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 End-to-end encryption (Sensitivity label)
 
+## Enable end-to-end encryption for meetings
+
+By default, end-to-end encryption for meetings is not enabled. You can enable it by using a Teams admin enhanced encryption policy.
+
+Once end-to-end encryption is enabled, meeting organizers have the option of choosing the option then they create a meeting.
+
+You can also enforce end-to-end encryption by using a sensitivity label.
+ 
+To enable watermarking for meetings
+
+1. In the Teams admin center, select **Enhanced encryption policy**.
+
+1. Select the policy you want to update.
+
+1. Set **End-to-end meeting encryption**, to **Disabled user override**.
+
+1. Select **Save**.
+
+## Related topics
+
+[Use end-to-end encryption for one-to-one Microsoft Teams calls](/MicrosoftTeams/teams-end-to-end-encryption)

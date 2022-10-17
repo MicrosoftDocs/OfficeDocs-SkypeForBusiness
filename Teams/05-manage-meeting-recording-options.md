@@ -72,4 +72,6 @@ For information about configuring admin meeting policies for meeting recordings,
 
 ## Related topics
 
+[Introduction to Teams policy-based recording for callings & meetings](/MicrosoftTeams/teams-recording-policy)
+
 [Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection)
