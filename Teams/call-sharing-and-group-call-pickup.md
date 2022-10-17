@@ -47,7 +47,7 @@ Each configured call group can have a maximum of 25 users or 32,768 characters. 
 Note that mobile devices will only get notified if they're set for banner and ringtone.
 
 ## Enabling the use of group call pickup
-Admins should enable call groups via the **TeamsCallingPolicy AllowCallGroups** setting for a user either via Teams admin center or via PowerShell.
+Admins should enable call groups via the **TeamsCallingPolicy AllowCallGroups** setting for a user either via Teams admin center or via PowerShell for this feature to work.
 
 When enabled by policy, the configured user can configure their call groups via the client directly. Admin or end users cannot block the configuration by each other, but Teams admin center and Teams client should show this relationship accurately in both places. 
 
