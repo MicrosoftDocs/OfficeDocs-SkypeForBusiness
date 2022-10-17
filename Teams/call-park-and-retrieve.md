@@ -70,7 +70,7 @@ To assign a call park policy to a group
 5. Select **Apply**.
 
 ## Configure call park and retrieve using PowerShell
-You can use PowerShell to configure and assign existing or new call park policies. To manage policies by using PowerShell, use the following cmdlets:
+You can use PowerShell to configure and assign existing or new call park policies. To manage policies by using PowerShell, use the following Teams PowerShell Module cmdlets:
 
 - [New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 
