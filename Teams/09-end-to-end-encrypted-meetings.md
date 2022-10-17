@@ -43,6 +43,8 @@ The following features aren't available during an end-to-end encrypted meeting:
 
 - Recording
 
+- Video watermarks
+
 - Together mode, companion mode, large gallery
 
 - Breakout rooms
