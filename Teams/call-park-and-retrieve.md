@@ -35,18 +35,18 @@ Some of the common scenarios for using call park are:
 
 To park and retrieve calls, a user must be an Enterprise Voice user and must be included in a call park policy.
 
-> [!NOTE]
-> Call park and retrieve is only available in [Teams Only deployment mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and is not supported on Skype for Business IP phones.
-
-## Configure call park and retrieve
-
-You must be a Teams admin to configure call park and retrieve. It is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves.
-
 By default, the range of call pickup numbers is from 10-99. You can also create your own custom range between 10-9999. The first parked call will be rendered a pickup code of the start of range (for instance 10). The next parked call will be rendered a pickup code incremented by 1; that is, 11, and so on, until the end of the range is rendered as a pickup code. After which, the rendered pickup codes start over from the start of the range once again. 
 
 You can specify a timeout as the number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds, and the default value is 300 seconds.
 
-To enable a call park policy:
+You must be a Teams admin to configure call park and retrieve. It is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves.
+
+> [!NOTE]
+> Call park and retrieve is only available in [Teams Only deployment mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and is not supported on Skype for Business IP phones.
+
+## Configure call park and retrieve using Teams admin center
+
+To create a new call park policy instance:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
 2. On the **Manage policies** tab, click **Add**.
@@ -69,14 +69,23 @@ To assign a call park policy to a group
 
 5. Select **Apply**.
 
+## Configure call park and retrieve using PowerShell
+You can use PowerShell to configure and assign existing or new call park policies. To manage policies by using PowerShell, use the following cmdlets:
+
+- [New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
+
+- [Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
+
+- [Get-CsTeamsCallParkPolicy](/powershell/module/skype/get-csteamscallparkpolicy)
+
+- [Remove-CsTeamsCallParkPolicy](/powershell/module/skype/remove-csteamscallparkpolicy)
+
+- [Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)
+
+
 ## Related topics
 
 [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
-
-[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
-
-[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)
