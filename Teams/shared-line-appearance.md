@@ -114,6 +114,8 @@ For additional information and examples see the PS cmdlet pages above.
 
 [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
+[Teams calling policy](/MicrosoftTeams/teams-calling-policy)
+
 [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
 
 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
