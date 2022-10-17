@@ -20,3 +20,24 @@ description:
 # Configure Teams meetings with protection for sensitive data
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
+
+
+Label settings
+
+Who can bypass the lobby?
+Allow dial-in users to bypass the lobby
+Who can present
+Who can record
+End-to-end encryption for meeting video and audio
+Record meetings with this label automatically
+Video watermark
+    Apply to screenshare
+    Applu to camera streams
+Display meeting protection message (UFD)
+Allow chat
+Prevent copying chat content to clipboard
+
+
+
+
