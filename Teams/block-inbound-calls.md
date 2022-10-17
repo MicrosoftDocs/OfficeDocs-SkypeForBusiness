@@ -19,32 +19,30 @@ description: Learn how to use PowerShell to manage inbound call blocking.
 
 # Block inbound calls
 
-Microsoft Calling Plans, Direct Routing, and Operator Connect all support blocking inbound calls from the Public Switched Telephone Network (PSTN). This feature allows an administrator to define a  list of number patterns and exceptions at the tenant global level so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
+Microsoft Calling Plans, Direct Routing, and Operator Connect all support blocking inbound calls from the Public Switched Telephone Network (PSTN). This feature allows an administrator to define a list of number patterns and exceptions at the tenant global level so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
 
 This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant global level. Individual Teams users can't manipulate this list. The Teams client does allow individual users to block PSTN calls. For information about how your end users can implement call blocking, see [Manage call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 > [!NOTE]
 > Blocked callers may experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller's carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
 
+Note that it is currently not possible to manage call blocking by using Teams admin center.
 
-## Call blocking administration using Teams admin center
-It is currently not possible to manage call blocking by using Teams admin center.
+## Manage call blocking by using PowerShell
 
-## Call blocking administration using PowerShell
-
-Managing call blocking involves defining one or more number patterns to block calls from, defining any exceptions to the number patterns, and enabling the call blocking feature.
+To manage call blocking, you'll need to define one or more number patterns to block calls from, define exceptions to the number patterns, and enable the call blocking feature.
 
 Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant--the first pattern matched in the list results in the call being blocked. A new number or pattern that's added or removed in the blocked callers list may take up to 24 hours for the pattern to become active.
 
-### Activating the call blocking feature
+### Activate the call blocking feature
 
-To viewing and activate the call blocking feature, use the **Get-** and **Set-CsTenantBlockingCallingNumbers** Teams PowerShell Module cmdlets.
+To view and activate the call blocking feature, use the **Get-** and **Set-CsTenantBlockingCallingNumbers** Teams PowerShell Module cmdlets.
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) returns the inbound block number patterns and the inbound exempt number patterns parameters for the global blocked number list. This cmdlet also returns whether blocking has been Enabled (True or False). There's a single global tenant policy that can't be modified manually other than to turn the feature on or off.
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) returns the inbound block number patterns and the inbound exempt number patterns parameters for the global blocked number list. This cmdlet also returns whether blocking has been Enabled (True or False). 
 
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) allows you to specify whether the global tenant blocked calls are turned on or off at the tenant level.
 
-### Managing block number patterns
+### Manage block number patterns
 
 You manage number patterns by using the **New-**, **Get-**, **Set-**, **Test-**, and **Remove-CsInboundBlockedNumberPattern** Teams PowerShell Module cmdlets. 
 
@@ -68,7 +66,7 @@ tests whether calls from a given phone number will be blocked.
 
 #### Block a number
 
-In the following example, the tenant administrator wants to block all calls coming from the number range 1 (312) 555-0000 to 1 (312) 555-9999. The number pattern is created so that both numbers in range with + prefixed and numbers in the range without + prefixed are matched. You don't need to include the symbols – and () in the phone numbers because the system strips these symbols before matching.  To turn on the number pattern, the **Enabled** parameter is set to True. To disable this specific number pattern, set the parameter to False.
+In the following example, the tenant administrator wants to block all calls coming from the number range 1 (312) 555-0000 to 1 (312) 555-9999. The number pattern is created so that both numbers in range with + prefixed and numbers in the range without + prefixed are matched. You don't need to include the symbols – and () in the phone numbers because the system strips these symbols before matching.  To turn on the number pattern, set the **Enabled** parameter to True. To disable this specific number pattern, set the parameter to False.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
@@ -82,7 +80,7 @@ New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Descripti
 
 Creating a new pattern adds the pattern as enabled by default. The description is an optional field to provide more information.
 
-We recommend that you provide a meaningful name to easily understand why the pattern was added. In the case of simply blocking spam numbers, consider naming the rule the same as the number pattern that's being matched and add additional information in the description as required.
+We recommend that you provide a meaningful name to easily understand why the pattern was added. To block spam numbers, consider naming the rule the same as the number pattern that's being matched, and then add additional information in the description as required.
 
 Patterns are matched using Regular Expressions (Regex). For more information, see [Using Regex](#using-regex).
 
@@ -112,11 +110,11 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 
 #### Test whether a number is blocked
 
-Use the **Test-CsInboundBlockedNumberPattern** cmdlet to verify whether a number is blocked in the tenant.
+To verify whether a number is blocked in the tenant, use the **Test-CsInboundBlockedNumberPattern** cmdlet .
 
 The **PhoneNumber** parameter is required, and should be a numeric string without any additional characters, such as +, - or (). The resulting **IsNumberBlocked** parameter returns a value of True if the number is blocked in the tenant; the parameter returns False if it's not blocked.
 
-In these examples you can see that the phone number 1 (312) 555-8884 is blocked as it should be due to it being in the blocked range above, while the phone number 1 (312) 555-8883 is allowed to call as it should be based on the exemption created below.
+In the following examples, you can see that the phone number 1 (312) 555-8884 is blocked because it is in the blocked range above. The phone number 1 (312) 555-8883 is allowed based on the exemption created below.
 
 ```PowerShell
 Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558884
@@ -134,13 +132,16 @@ IsNumberBlocked : False
 errorMessage    :
 ```
 
-### Managing number exceptions
+### Manage number exceptions
 
 You can add exceptions to blocked number patterns by using the **New-**, **Get-**, **Set-**, and **Remove-CsInboundExemptNumberPattern** cmdlets.
 
 - [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) adds a number exception pattern to the tenant list.
+
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) returns a list of all number exception patterns added to the tenant list.
+
 - [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) modifies one or more parameters to a number exception pattern in the tenant list.
+
 - [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) removes a number exception pattern from the tenant list.
 
 ### Examples
