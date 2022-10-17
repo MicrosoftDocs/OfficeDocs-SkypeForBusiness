@@ -42,7 +42,7 @@ Users must be assigned a Microsoft Teams Phone System license to set up and use 
 
 ## Limitations
 
-Each configured call group can have a maximum of 25 users or 32,768 characters. A given user can be a member of maximum 25 call groups.
+A given user can only be the owner of one call group. Each configured call group can have a maximum of 25 users or 32,768 characters. A given user can be a member of maximum 25 call groups.
 
 Note that mobile devices will only get notified if they're set for banner and ringtone.
 
@@ -65,7 +65,7 @@ Administrators can use PowerShell to configure call groups for users using the f
 
 ### Examples
 
-#### Set members of a call group
+#### Set the members of a call group for a user
 
 In the following example, the tenant administrator creates a call group for user1@contoso.com with the members user2@contoso.com and user3@contoso.com and
 sets immediate call forwarding to the call group for user1@contoso.com.
@@ -76,7 +76,7 @@ Set-CsUserCallingSettings -Identity user1@contoso.com -CallGroupOrder InOrder -C
 Set-CsUserCallingSettings -Identity user1@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType Group
 ```
 
-#### Change membership of the call group
+#### Change membership of the call group of a user
 This example shows how to update the call group of user1@contoso.com to add user5@contoso.com and remove user6@contoso.com.
 
 ```powershell
