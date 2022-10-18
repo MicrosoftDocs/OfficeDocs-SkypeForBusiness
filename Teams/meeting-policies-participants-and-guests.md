@@ -56,7 +56,17 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 ## Who can present in meetings
 
+This is a per-user policy. This setting lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. This policy setting affects all meetings, including Meet Now meetings.
 
+The **Who can present?** setting lets meeting organizers choose who can be presenters in a meeting. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the policy:
+
+- **Organizers, but users can override**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only me** setting in Teams.
+- **Everyone in the organization, but user can override**: Authenticated users in the organization, including guest users, can be presenters. This setting corresponds to the **People in my organization** setting in Teams.
+- **Everyone, but user can override**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
+
+Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
 
 ## Automatically admit people
 
@@ -90,7 +100,7 @@ This is a per-organizer policy. This setting controls whether people who dial in
 
 ## Meet now in private meetings
 
-
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting. By default, this setting is turned on.
 
 ## Live captions
 
@@ -139,7 +149,7 @@ The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also
 
 ## Meeting reactions
 
-
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Enable meeting policy settings
 
