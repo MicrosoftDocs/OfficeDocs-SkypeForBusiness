@@ -1,5 +1,5 @@
 ---
-title: Availability and behavior of Teams apps for different types of users
+title: Availability and use of Teams apps by different types of users
 author: ashishguptaiitb
 ms.author: guptaashish
 ms.reviewer: kojika
@@ -17,11 +17,12 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---
 
-# Use Teams apps as external attendees or guest
+# Use Teams apps as an external attendees or guest
 
 Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external attendees](manage-external-access.md) and [what can guests do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
 

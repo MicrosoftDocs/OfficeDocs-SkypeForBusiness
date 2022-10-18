@@ -734,8 +734,6 @@ items:
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
-            - name: Set up Audio Conferencing - quickstart for small and medium businesses
-              href: audio-conferencing-smb.md
         - name: Manage
           items:
             - name: Manage your audio conferencing service
@@ -919,11 +917,11 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
-        - name: Operator Connect Mobile
+        - name: Teams Phone Mobile
           items:
-            - name: Plan for Operator Connect Mobile
+            - name: Plan for Teams Phone Mobile
               href: operator-connect-mobile-plan.md
-            - name: Configure Operator Connect Mobile
+            - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
@@ -1040,7 +1038,7 @@ items:
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
 
-        - name: Manage phone numbers for Operator Connect Mobile
+        - name: Manage phone numbers for Teams Phone Mobile
           href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
@@ -1410,8 +1408,10 @@ items:
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
-            - name: Security
-              href: rooms/security.md
+            - name: Windows security
+              href: rooms/security-windows.md
+            - name: Android security
+              href: rooms/security-android.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1620,7 +1620,7 @@ items:
       items:
         - name: Manage custom and sideloaded apps
           href: custom-app-overview.md
-        - name: Manage custom app policies and settings
+        - name: Manage policies and settings for custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
@@ -1651,7 +1651,7 @@ items:
           href: app-permissions.md
         - name: Brand your org app store
           href: customize-your-app-store.md
-        - name: Use apps as external or guest users
+        - name: Use apps as external user or guest
           href: non-standard-users.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
