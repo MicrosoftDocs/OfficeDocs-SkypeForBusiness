@@ -1580,6 +1580,8 @@ items:
           href: manage-admin-app.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
+        - name: Manage the Virtual appointments app
+          href: manage-virtual-appointments-app.md
         - name: Manage the Lists app 
           href: manage-lists-app.md
         - name: Manage the Tasks app
