@@ -121,9 +121,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 > [!NOTE]
 > If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
 
-On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions are no longer required. When a user pairs a Bluetooth accessory, such as a headset, to Walkie Talkie on their device for the first time, they'll receive a prompt for Bluetooth permissions. Tap **Allow** to connect Walkie Talkie to the Bluetooth accessory.
-
-This prompt is displayed to the user even when a Bluetooth accessory isn't connected to the Android device.
+On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions are no longer required. A user will receive a prompt for Bluetooth permissions. This prompt is displayed, whether or not a Bluetooth accessory, such as a headset, is connected to their device. If a Bluetooth accessory is connected, tapping **Allow** connects Walkie Talkie to the Bluetooth accessory.
 
 ## More information
 
