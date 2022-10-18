@@ -73,7 +73,7 @@ Perform the following steps:
 
 > [!NOTE]
 > If you were using v1.63 or earlier, you may encounter an error when v3.0.0 tries to retrieve the data from VAAC.  To resolve this error it is necessary to clear any previous credentials from Power BI.
-> -
+> 
 > - Open the v3.0.0 template and clear/cancel the error 
 > - Select File -> Options & Settings -> Data source settings
 > - Select the drop down for Clear Permissions and then select Clear All Permissions.
@@ -367,7 +367,7 @@ Perform the following steps:
 ## Version History
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-!3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source.
+|3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source.
 |1.63     |August 24, 2022    |CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
 |1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
 |1.00     |November 5, 2020   |CQ and AA combined Analytics 20201105.pbit                         |Initial release                                     |
