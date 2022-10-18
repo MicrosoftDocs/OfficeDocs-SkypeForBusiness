@@ -64,7 +64,7 @@ Access your Bookings calendar to schedule virtual appointments such as healthcar
 ### Queue
 
 > [!NOTE]
-> Add take-back (scheduled) and Premium messaging (on-demand)
+> Add take-back (scheduled), Premium (on-demand), and promo (SMS) messaging
 
 View and monitor all scheduled and on-demand virtual appointments in the Bookings calendar that you pinned, with updates in real time.
 
