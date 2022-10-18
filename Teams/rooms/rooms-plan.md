@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - Teams_ITAdmin_Rooms
+  - highpri
 description: This article explains the relevant planning considerations for deploying Microsoft Teams Rooms, the next generation of Skype Room Systems.
 ---
 

@@ -32,11 +32,9 @@ These are three key aspects of the service:
 
    Software and machine learning that automates updates, problem detection, problem resolution for Microsoft Teams Rooms.  
 
-- Dedicated experts  
+- Update management  
 
-   A team of experts who provide 24x7 service operations, tiered support, and incident resolution assistance.  
-
-
+   Automated meeting application and windows update orchestration based on customer configurable deployment rings.
 
 - Enhanced insights  
 
