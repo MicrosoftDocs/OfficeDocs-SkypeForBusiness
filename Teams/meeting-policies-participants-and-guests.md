@@ -149,7 +149,7 @@ The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also
 
 ## Meeting reactions
 
-Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
+Meeting reactions are on by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Enable meeting policy settings
 
