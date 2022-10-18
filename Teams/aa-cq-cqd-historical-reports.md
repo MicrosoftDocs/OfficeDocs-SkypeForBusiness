@@ -35,7 +35,7 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 - [Call Queue](media/aa-cq-historical-report-sample-cq-v300.png) – showing analytics for calls coming into your Call Queues.
 - [Agent Timeline](media/aa-cq-historical-report-sample-at-v300.png) – showing a timeline view of agents being active in Call Queue calls.
 
-These reports use data from the Voice Applications Analytics Collector service.
+These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
 ## V3.0.0 Prerequisites
 
