@@ -69,7 +69,15 @@ Perform the following steps:
 
   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
 
-- Select **Connect** and watch the data refresh.
+- Select **Connect** and the data will refresh.
+
+> [!NOTE]
+> If you were using v1.63 or earlier, you may encounter an error when v3.0.0 tries to retrieve the data from VAAC.  To resolve this error it is necessary to clear any previous credentials from Power BI.
+> -
+> - Open the v3.0.0 template and clear/cancel the error 
+> - Select File -> Options & Settings -> Data source settings
+> - Select the drop down for Clear Permissions and then select Clear All Permissions.
+> - Close the template after they're cleared and restart - you'll be asked to authorize again. 
 
 
 ## V1.63 published on August 24, 2022
@@ -133,7 +141,7 @@ Perform the following steps:
 
   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login foe V1.63.":::
 
-- Select **Connect** and watch the data refresh.
+- Select **Connect** and the data will refresh.
 
 
 ## Data latency and AA & CQ analytics
