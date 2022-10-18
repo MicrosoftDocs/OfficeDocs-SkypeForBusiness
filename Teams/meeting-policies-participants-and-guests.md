@@ -31,10 +31,14 @@ These settings control which meeting participants wait in the lobby before they'
 
 - [Let anonymous people join a meeting](#let-anonymous-people-join-a-meeting)
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
+- [Who can present in meetings](#who-can-present-in-meetings)
 - [Automatically admit people](#automatically-admit-people)
-- [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [Dial-in users can bypass the lobby](#dial-in-users-can-bypass-the-lobby)
+- [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Live captions](#live-captions)
 - [Chat in meetings](#chat-in-meetings)
+- [Teams Q&A](#teams-Q&A)
+- [Meeting reactions](#meeting-reactions)
 
 > [!NOTE]
 > Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -49,6 +53,10 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 > [!NOTE]
 > If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
+
+## Who can present in meetings
+
+
 
 ## Automatically admit people
 
@@ -73,12 +81,16 @@ This is a per-organizer policy. This setting controls whether people join a meet
  > [!NOTE]
 > Trusted organizations are domains that you allow federated communications with in Teams. If you enable **Allow all external domains** for external access in the Teams admin center, any authenticated user within any Teams organization will be trusted. If you choose to specify external domains that are allowed and block all others, the allowed domains become trusted organizations. Any blocked domain is considered to not be a trusted organization.
 
-## Allow dial-in users to bypass the lobby
+## Dial-in users can bypass the lobby
 
 This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting with a Teams client.
 
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
+
+## Meet now in private meetings
+
+
 
 ## Live captions
 
@@ -112,7 +124,7 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 <a name="bkparticipantsandguests"> </a>
 
-## Q&A in meetings
+## Teams Q&A
 
 This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
 
@@ -124,6 +136,10 @@ The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also
 |---------|---------|
 |**Enabled**     | Organizers can add Q&A when creating meetings. |
 |**Disabled**     | Organizers won't have the option to add Q&A when creating meetings.  |
+
+## Meeting reactions
+
+
 
 ## Enable meeting policy settings
 
