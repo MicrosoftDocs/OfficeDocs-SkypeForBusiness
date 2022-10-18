@@ -26,19 +26,19 @@ description:
 
 
 
-|Feature|Setting|Location|
-|:------|:------|:-------|
-|Allow chat|**Enabled**|Label|
-|Allow dial-in users to bypass the lobby|**Off**|Label|
-|Disable camera for attendees|**Off**|Template|
-|Disable mic for attendees|**Off**|Template|
-|End-to-end encryption|**Off**|Label|
-|Manage what attendees see|**Off**|Template|
-|Prevent copying chat content to clipboard|**Off**|Label|
-|Record automatically|**Off**|Label|
-|Watermark camera streams|**Off**|Label|
-|Watermark screenshare|**Off**|Label|
-|Who can bypass the lobby|**People I invite**|Label|
-|Who can present|**Only me and co-organizers**|Label|
-|Who can record|**Organizer and co-organizers**|Label|
+|Feature|Setting|Location|Enforced|
+|:------|:------|:-------|:-------|
+|Allow chat|**Enabled**|Label|No|
+|Allow dial-in users to bypass the lobby|**Off**|Label|No|
+|Disable camera for attendees|**Off**|Template|No|
+|Disable mic for attendees|**Off**|Template|No|
+|End-to-end encryption|**Off**|Label|No|
+|Manage what attendees see|**Off**|Template|No|
+|Prevent copying chat content to clipboard|**Off**|Label|No|
+|Record automatically|**Off**|Label|No|
+|Watermark camera streams|**Off**|Label|No|
+|Watermark screenshare|**Off**|Label|No|
+|Who can bypass the lobby|**People I invite**|Label|Yes|
+|Who can present|**Only me and co-organizers**|Label|Yes|
+|Who can record|**Organizer and co-organizers**|Label|Yes|
 
