@@ -1,7 +1,7 @@
 ---
 title: Auto attendant and call queue dialing and voice recognition reference
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
