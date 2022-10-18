@@ -39,9 +39,6 @@ Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Of
 
 Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
-> [!NOTE]
-> If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
-
 ### Enable or disable Walkie Talkie in your organization
 
 Walkie Talkie is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
@@ -118,6 +115,15 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Teams Walkie Talkie.
+
+## Bluetooth devices
+
+> [!NOTE]
+> If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
+
+On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions are no longer required. When a user pairs a Bluetooth accessory, such as a headset, to Walkie Talkie on their device for the first time, they'll receive a prompt for Bluetooth permissions. Tap **Allow** to connect Walkie Talkie to the Bluetooth accessory.
+
+Keep in mind that the prompt is displayed even when a Bluetooth accessory isn't connected to the Android device.
 
 ## More information
 
