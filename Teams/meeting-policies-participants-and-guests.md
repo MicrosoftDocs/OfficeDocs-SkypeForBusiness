@@ -37,7 +37,7 @@ These settings control which meeting participants wait in the lobby before they'
 - [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Live captions](#live-captions)
 - [Chat in meetings](#chat-in-meetings)
-- [Teams Q&amp;A](#teams-Q&amp;A)
+- [Teams Q&A](#teams-qa)
 - [Meeting reactions](#meeting-reactions)
 
 > [!NOTE]
@@ -124,7 +124,7 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 <a name="bkparticipantsandguests"> </a>
 
-## Teams Q&amp;A
+## Teams QA
 
 This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
 
