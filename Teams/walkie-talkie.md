@@ -123,7 +123,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions are no longer required. When a user pairs a Bluetooth accessory, such as a headset, to Walkie Talkie on their device for the first time, they'll receive a prompt for Bluetooth permissions. Tap **Allow** to connect Walkie Talkie to the Bluetooth accessory.
 
-Keep in mind that the prompt is displayed even when a Bluetooth accessory isn't connected to the Android device.
+This prompt is displayed to the user even when a Bluetooth accessory isn't connected to the Android device.
 
 ## More information
 
