@@ -42,16 +42,18 @@ The following table summarizes the configurations for each tier. Use these confi
 
 |&nbsp;|Baseline|Sensitive|Highly sensitive|Highly sensitive presentation|
 |:-----|:-----|:-----|:-----|:-----|
-|Allow guest one-time passcode|Yes|Yes|No|No|
-|Allow meeting chat|**Enabled**|**Enabled**|**In-meeting only**|**No**|
-|Always let callers bypass the lobby|Yes|No|No|No|
-|End-to-end encryption|No|No|Yes|Yes|
-|Prevent copy & paste of meeting chat|No|No|Yes|Yes|
-|Prevent screen capture|No|No|Yes|Yes|
+|Disable mic for attendees|**Off**|**Off**|**Off**|**On**|
+|Disable camera for attendees|**Off**|**Off**|**Off**|**On**|
+|Allow chat|**Enabled**|**Enabled**|**In-meeting only**|**No**|
+|End-to-end encryption|**Off**|**Off**|**On**|**On**|
+|Prevent copying chat content to clipboard|No|No|Yes|Yes|
 |Record automatically|No|No|No|No|
-|Watermark meeting content|No|No|No|Yes|
+|Watermark screenshare|No|No|No|Yes|
+|Watermark camera streams|No|No|No|No|
 |Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People I invite**|**Only me and co-organizers**|**Only me and co-organizers**|
+|Allow dial-in users to bypass the lobby|No|No|No|No|
 |Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only me and co-organizers**|**Specific people**|
+|Manage what attendees see|No|No|Yes|Yes|
 |Who can record|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|Disabled due to watermarking|
 |Who can transcribe|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|**Organizer and co-organizers**|
 

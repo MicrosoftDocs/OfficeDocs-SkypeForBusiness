@@ -23,20 +23,22 @@ description:
 
 
 
-Label settings
-
-Who can bypass the lobby?
-Allow dial-in users to bypass the lobby
-Who can present
-Who can record
-End-to-end encryption for meeting video and audio
-Record meetings with this label automatically
-Video watermark
-    Apply to screenshare
-    Apply to camera streams
-Allow chat
-Prevent copying chat content to clipboard
 
 
 
+|Feature|Setting|Location|
+|:------|:------|:-------|
+|Allow chat|**Enabled**|Label|
+|Allow dial-in users to bypass the lobby|**Off**|Label|
+|Disable camera for attendees|**Off**|Template|
+|Disable mic for attendees|**Off**|Template|
+|End-to-end encryption|**Off**|Label|
+|Manage what attendees see|**Off**|Template|
+|Prevent copying chat content to clipboard|**Off**|Label|
+|Record automatically|**Off**|Label|
+|Watermark camera streams|**Off**|Label|
+|Watermark screenshare|**Off**|Label|
+|Who can bypass the lobby|**People I invite**|Label|
+|Who can present|**Only me and co-organizers**|Label|
+|Who can record|**Organizer and co-organizers**|Label|
 
