@@ -69,43 +69,30 @@ Template policies control what team templates users see when they create a new t
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meet now in channels|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
-|Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook.|
+|Meet now in private meetings|On|Controls whether a user can start an instant private meeting.|
 |Channel meeting scheduling|On|When **On**, meeting organizers allow users to schedule channel meetings within channels that the users belong to.|
 |Private meeting scheduling|On|When **On**, meeting organizers allow users to schedule private meetings.|
 |Engagement report|Turn on|When **On**, meeting organizers can see who registered and attended the meetings they set up.|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
+|Who can chat in meetings|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages.|
+|Teams Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings.|
+|Meeting reactions|On|Description|
+|Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook.|
 
-### Meeting policies - Audio and video
+### Meeting policies - Meeting join & lobby
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-policies-meetings-audio-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
+:::image type="content" source="media/teams-policies-meetings-participants-guests.png" alt-text="Screenshot of Teams meetings participants and guests policies.":::
 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Mode for IP audio|Outgoing and incoming audio enabled|This setting controls whether incoming and outgoing audio can be turned on in meetings and group calls.|
-|Mode for IP video|Outgoing and incoming video enabled|This setting controls whether incoming and outgoing video can be turned on in meetings and group calls.|
-|IP video|On|This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.|
-|Local broadcasting|Off|Description|
-|Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
-|Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
-
-### Meeting policies - Recording and transcription
-
-**Navigation:** Teams admin center > Meetings > Meeting policies
-
-:::image type="content" source="media/teams-policies-meetings-recording-transcription.png" alt-text="Screenshot of Teams meetings recording and transcription policies.":::
-
-
-| Setting | Default | Description |
-|:-----|:-----|:-----|
-|Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
-|Cloud recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
-|Meetings automatically expire|On|When **On**, meeting recordings will automatically expire in the number of days shown in the Default expiration time setting.|
-|Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. **Meetings automatically expire** must also be turned **On**.|
-|Store recordings outside your country or region|Off|Controls whether meeting records can be permanently stored in another country or region.|
+|Who can bypass the lobby|Everyone in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
+|Dial-in users can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly without waiting in the lobby.|
+|Anonymous users can join a meeting|On|This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation.|
+|Anonymous and dial-in users can start a meeting|Off|This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance.|
 
 ### Meeting policies - Content sharing
 
@@ -117,32 +104,43 @@ Template policies control what team templates users see when they create a new t
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting.|
-|Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants.|
-|External participants can give or request control|Off|Controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.|
+|Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
+|External participants can give or request control|Off|Controls whether external users can be given or request control of the shared desktop or window. This must be turned on in both organizations for an external user to take control in Teams meetings hosted by people in your organization.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
-|Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
+|Who can present in meetings|Everyone, but user can override|Controls what the default value is for **Who can  present?** in **Meeting options** for the Teams client.|
 
-### Meeting policies - Participants and guests
+### Meeting policies - Recording & transcription
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-policies-meetings-participants-guests.png" alt-text="Screenshot of Teams meetings participants and guests policies.":::
-
+:::image type="content" source="media/teams-policies-meetings-recording-transcription.png" alt-text="Screenshot of Teams meetings recording and transcription policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Let anonymous people join a meeting|On|This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation.|
-|Let anonymous people start a meeting|Off|This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance.|
-|Who can present in meetings|Everyone, but user can override|Controls what the default value is for **Who can  present?** in **Meeting options** for the Teams client.|
-|Automatically admit people|People in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
-|Dial-in users can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly without waiting in the lobby.|
-|Meet now in private meetings|On|Controls whether a user can start an instant private meeting.|
+|Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
+|Cloud recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
+|Meetings automatically expire|On|When **On**, meeting recordings will automatically expire in the number of days shown in the Default expiration time setting.|
+|Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. **Meetings automatically expire** must also be turned **On**.|
+|Store recordings outside your country or region|Off|Controls whether meeting records can be permanently stored in another country or region.|
 |Live captions|Not enabled but the user can override|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Chat in meetings|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages.|
-|Teams Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings.|
-|Meeting reactions|On|Description|
+
+### Meeting policies - Audio & video
+
+**Navigation:** Teams admin center > Meetings > Meeting policies
+
+:::image type="content" source="media/teams-policies-meetings-audio-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Mode for IP audio|Outgoing and incoming audio enabled|This setting controls whether incoming and outgoing audio can be turned on in meetings and group calls.|
+|Mode for IP video|Outgoing and incoming video enabled|This setting controls whether incoming and outgoing video can be turned on in meetings and group calls.|
+|IP video|On|This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.|
+|Local broadcasting|Off|Description|
+|Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
+|Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
+|Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
 
 ### Live events policies
 
@@ -154,7 +152,6 @@ Template policies control what team templates users see when they create a new t
 |Transcription for attendees|Off|Turning this on enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
 |Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection.|
 |Record an event|Organizer can record|This controls whether the event is recorded.|
-
 
 ## Messaging policies
 
@@ -183,7 +180,6 @@ Template policies control what team templates users see when they create a new t
 |Suggested replies|On|When **On**, users get text predictions for chat messages.|
 |Chat permissions role|Restricted permissions|Defines the supervised chat role of a user.|
 |Users with full chat permissions can delete any message|Off|Use this setting to let users with full chat permissions delete any group or meeting chat message.|
-
 
 ## Voice
 
