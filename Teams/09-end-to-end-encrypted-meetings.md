@@ -73,4 +73,4 @@ To enable watermarking for meetings
 
 ## Related topics
 
-[Use end-to-end encryption for one-to-one Microsoft Teams calls](/MicrosoftTeams/teams-end-to-end-encryption)
+[Use end-to-end encryption for one-to-one Microsoft Teams calls](teams-end-to-end-encryption.md)

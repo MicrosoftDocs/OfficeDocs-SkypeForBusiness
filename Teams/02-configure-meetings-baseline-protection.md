@@ -104,9 +104,9 @@ To create a custom meeting template
 
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](01-configure-meetings-three-tiers-protection.md)
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
-[Overview of custom meeting templates in Microsoft Teams](12-custom-meeting-templates-overview.md)
+[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
-[Use Teams meeting templates with sensitivity labels](11-meeting-templates-with-sensitivity-labels.md)
+[Use Teams meeting templates with sensitivity labels](meeting-templates-with-sensitivity-labels.md)
 
