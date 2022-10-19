@@ -83,7 +83,7 @@ Perform the following steps:
 ## V1.63 published on August 24, 2022
 
 > [!IMPORTANT]
-> Support for the V1.63 template will end on November 30, 2022.
+> Support for the V1.63 template will end on November 21, 2022.
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
 
