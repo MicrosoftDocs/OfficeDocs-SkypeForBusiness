@@ -25,13 +25,15 @@ appliesto:
 
 # Manage the Virtual Appointments app for your organization in Microsoft Teams
 
-The Virtual Appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. The app brings a cohesive schedule management experience to Teams, integrating virtual appointments from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), analytics, and management options, all in one place.
+The Virtual Appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), analytics, and management options, all in one place.
 
-You can view and manage virtual appointments from Bookings, Teams, and Outlook, view reports to gain insight into virtual appointment activity, get real-time status updates in a queue view, send appointment reminders, and configure calendar, staff, and booking page settings.
+You can schedule, view, and manage virtual appointments from Bookings, Teams, and Outlook, get real-time status updates in a queue view, send appointment reminders, view reports to gain insight into virtual appointment activity, and configure calendar, staff, and booking page settings.
+
+With any Microsoft 365 or Office 365 license, you can use basic Virtual Appointments capabilities in the app to schedule and join business-to-customer meetings. With [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing), your organization gets advanced Virtual Appointments capabilities to help drive operational excellence and personalize customer experiences. These include a queue view of scheduled and on-demand appointments, SMS notifications, a custom waiting room, waiting room chat, and departmental and organizational analytics.
+
+[EMBED VIDEO?]
 
 ## Overview of the Virtual Appointments app
-
-+++++++++++++++++++++++++++++++++++++++++++++++
 
 The Virtual Appointments app has the following tabs:
 
@@ -41,40 +43,21 @@ The Virtual Appointments app has the following tabs:
 - [Analytics](#analytics)
 - [Manage](#manage)
 
-> [!NOTE]
-> Add take-back and Premium messaging
-
-+++++++++++++++++++++++++++++++++++++++++++++++
-
-The Virtual Appointments app has the following tabs.
-
-
-|Column1  |Column2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-|Row2     |         |
-|Row2     |         |
-
-+++++++++++++++++++++++++++++++++++++++++++++++
-
 Here's an overview of what's on each tab.
 
 ### Home
 
 > [!NOTE]
-> Add take-back and Premium messaging
+> Add take-back and Premium messaging (queue/analytics)
 
-Get quick access to key actions and information, including what's new.
+Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
-[need new screenshot]<br>
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
 ### Bookings schedule
 
 Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing Bookings calendar or create a new one. To learn more about Bookings, see [Virtual Appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
 
-[need new screenshot]<br>
 :::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Bookings schedule page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
 ### Queue
@@ -88,25 +71,22 @@ From here, schedulers can add a new booking, view relevant appointment details, 
 
 To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/bookings-virtual-visits.md#monitor-appointments-and-get-real-time-status-updates).
 
-[need new screenshot]<br>
 :::image type="content" source="media/manage-virtual-appointments-app-queue.png" alt-text="Screenshot of the Queue page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-queue.png":::
 
 ### Analytics
 
 > [!NOTE]
-> Add take-back (VA usage) and Premium messaging (calendar analytics)
+> Add calendar analytics content (when available), add take-back (VA usage) and Premium messaging (calendar analytics)
 
 Get insight into usage activity and trends in your organization to help optimize virtual appointments to deliver better business outcomes. You can view key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows. To learn more, see [Teams Virtual Appointments usage report](teams-analytics-and-reports/virtual-visits-usage-report.md)
 
-[need new screenshot]<br>
-:::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual 
-Appointments app" lightbox="media/manage-virtual-appointments-app-analytics.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
 
 ### Manage
 
 Manage your Bookings calendar settings. You can update your business details, customize appointment types, add staff and assign roles, and configure your booking page settings.
 
-[need new screenshot]<br>
+[NEED NEW SCREENSHOT]<br>
 :::image type="content" source="media/manage-virtual-appointments-app-manage.png" alt-text="Screenshot of the Manage page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-manage.png":::
 
 ## Set up the Virtual Appointments app
