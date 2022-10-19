@@ -25,15 +25,11 @@ For the *highly sensitive* level of protection, we'll look at two different scen
 - Highly sensitive meetings where attendees participate and interact with the presenters
 - Highly sensitive presentations where attendees don't interact and are just viewing the presentation
 
+#### Highly sensitive meetings
 
-restrict who can bypass the lobby, who can present, and who can record. You can restrict additional actions as well if your organization requires it.
+For highly sensitive meetings, we'll restrict who can bypass the lobby, who can present, when participants can chat, and we'll block copying from the meeting chat. We'll also enable end-to-end encryption and watermarking for shared video and content. Because we're using watermarks, meeting recording will be disabled.
 
-
-
-
-The following table describes which actions we'll restrict for sensitive meetings and where those settings are configured.
-
-Highly sensitive meetings
+The following table describes which actions we'll restrict for highly sensitive meetings and where those settings are configured.
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
@@ -51,8 +47,15 @@ Highly sensitive meetings
 |Who can present|**Only me and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking)|N/A|N/A|
 
+Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
-Highly sensitive presentations
+#### Highly sensitive presentations
+
+For highly sensitive presentations - where we don't expect interaction with the meeting attendees - we'll turn off attendees' mics and cameras, and turn off the meeting chat.
+
+If you want to allow attendees to ask questions of the presenter, meeting organizers can turn on the Q&A feature. (Be sure it's enabled in Teams admin meeting policies.)
+
+The following table describes which actions we'll restrict for highly sensitive presentations and where those settings are configured.
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
@@ -112,6 +115,8 @@ In the *sensitive* level of protection, we're not enforcing any settings by usin
 
 An advantage of using templates is that you can create multiple templates that use the same sensitivity label which lock different settings. For example, if some of your sensitive meetings are presentations where there is minimal interaction from attendees, you can create a template that turns off attendee video and even chat, and another template that leaves those options to the meeting organizer. Both templates would use the *Sensitive* label.
 
+#### Highly sensitive meetings template
+
 To create a meeting template for highly sensitive meetings
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
@@ -119,14 +124,14 @@ To create a meeting template for highly sensitive meetings
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. In the **Meeting engagement** sections, set **Attendees can chat** to **Enabled only in meeting**.
-1. Select **Attendees can chat**, and then select **Lock**.
+1. In the **Meeting engagement** sections, set **Attendees can chat** to **Enabled only in meeting** and **Manage what attendees see** to **On**.
+1. Select **Attendees can chat** and **Manage what attendees see** in turn and then select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
 1. Select **Save**.
 
-
+#### Highly sensitive presentations template
 
 To create a meeting template for highly sensitive presentations
 
@@ -137,29 +142,17 @@ To create a meeting template for highly sensitive presentations
 1. Select **Apply sensitivity label**, and then select **Lock**.
 1. In the **Audio and video** section, set **Disable mic for attendees** and **Disable camera for attendees** to **On**.
 1. Select **Disable mic for attendees** and **Disable camera for attendees** in turn and then select **Lock**.
-1. In the **Meeting engagement** sections, set **Attendees can chat** to **Enabled only in meeting**.
-1. Select **Attendees can chat**, and then select **Lock**.
+1. In the **Meeting engagement** sections, set **Attendees can chat** to **Disabled** and **Manage what attendees see** to **On**.
+1. Select **Attendees can chat** and **Manage what attendees see** in turn and then select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
 1. Select **Save**.
 
-
-
-
-**Attendees can chat**
-**Manage what attendees see**
-
-
-
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](01-configure-meetings-three-tiers-protection.md)
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
-[Overview of custom meeting templates in Microsoft Teams](12-custom-meeting-templates-overview.md)
+[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
-[Use Teams meeting templates with sensitivity labels](11-meeting-templates-with-sensitivity-labels.md)
-
-## Highly sensitive presentations
-
-
+[Use Teams meeting templates with sensitivity labels](meeting-templates-with-sensitivity-labels.md)
