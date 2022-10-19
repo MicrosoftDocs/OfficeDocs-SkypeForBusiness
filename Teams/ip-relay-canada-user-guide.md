@@ -54,13 +54,13 @@ To initiate a text to voice call, go to the above URL and log in with your IP Me
 
 Once logged in, you will see instructions displayed on the left side of your screen.
 
-### How to make a Text to Voice call:
+### How to make a Text to Voice call
 
 1. In the lower-right corner of screen, click Chat.
 2. Click the IPRelay user.
 3. In the bottom of the new box that pops up, type your message.
 
-### How to receive a Voice to Text call:
+### How to receive a Voice to Text call
 
 - Voice users will need to know your IP Message Relay Username in order to place a voice to text call.
 
@@ -68,7 +68,7 @@ Once logged in, you will see instructions displayed on the left side of your scr
 
 - You must be logged in to the IP Message Relay portal to receive calls or chats.
 
-### How to place a 911 call:
+### How to place a 911 call
 
 If you experience an emergency, you may select the appropriate emergency button located at the bottom of your screen: 911 – Police / 911 – Fire / 911 – Ambulance
 
@@ -77,7 +77,7 @@ The IP Message Relay Operator will contact 911, confirm your address, and transl
 > [!Warning]
 > Please do not test this service, as the appropriate agency will be contacted and possibly dispatched even if you indicate it is simply a test, and you may be charged a false dispatch fee from the emergency agency.
 
-## Customer Support:
+## Customer Support
 Please contact Special Projects at specialprojects@northern911.com or (705) 222-1733.
 
 > [!Important]
