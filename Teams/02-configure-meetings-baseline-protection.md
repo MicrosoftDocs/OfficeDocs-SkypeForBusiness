@@ -21,15 +21,14 @@ description:
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-
-For the *baseline* level of protection, we'll restrict who can bypass the lobby and who can present. You can restrict additional actions as well if your organization requires it.
+For the *baseline* level of protection, we'll restrict who can bypass the lobby and set a default value for who can present. You can restrict additional actions as well if your organization requires it.
 
 The following table describes which actions we'll restrict for baseline meetings and where those settings are configured.
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
 |Allow chat|**Enabled**|Label|No|
-|Allow dial-in users to bypass the lobby|**Off**|Label|No|
+|Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
 |Disable camera for attendees|**Off**|Template|No|
 |Disable mic for attendees|**Off**|Template|No|
 |End-to-end encryption|**Off**|Label|No|
@@ -39,10 +38,22 @@ The following table describes which actions we'll restrict for baseline meetings
 |Watermark camera streams|**Off**|Label|No|
 |Watermark screenshare|**Off**|Label|No|
 |Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|Label|Yes|
-|Who can present|**People in my organization and guests**|Template|No|
+|Who can present|**Everyone in the organization, but user can override**|Teams admin center|No|
 |Who can record|**Organizers and presenters**|Label|No|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
+
+## Default values for **Who can present**
+
+The default value for **Who can present** is **Everyone**. For the baseline protection tier, we'll set a more secure default of **Everyone in the organization** which meeting organizers can change if they want.
+
+We can set this value with a sensitivity label, but the value will be enforced for any meetings with that label. This setting isn't available in meeting templates, so we'll set it in the Teams admin center.
+
+To configure who can present in meetings
+1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
+1. Select the policy that you want to update.
+1. Under **Participants & guests**, set **Who can present in meetings** to **Everyone in the organization, but user can override**.
+1. Select **Save**.
 
 ## Sensitivity labels
 
@@ -61,8 +72,8 @@ To create a sensitivity label
 1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
     1. **Who can bypass the lobby** - People in my organization, people in trusted domains, and guests
     1. **Allow dial-in users to bypass the lobby** - Unchecked
-    1. **Who can present** - People in my organization and guests
-    1. **Who can record** - Organizers and co-organizers
+    1. **Who can present** - Let the meeting organizer select from meeting options
+    1. **Who can record** - Organizers and presenters
     1. **End-to-end encryption for meeting video and audio** - Off
     1. **Record meetings with this label automatically** - Off
     1. **Video watermark - Apply to screenshare** - Off
@@ -73,13 +84,11 @@ To create a sensitivity label
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 
-Once you've created the label, you need to publish it to the users who will use it. For sensitive protection, we'll make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** tab of the **Information protection** page. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
+Once you've created the label, you need to publish it to the users who will use it. For baseline protection, we'll make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** tab of the **Information protection** page. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
 
 ## Meeting templates
 
-In the *sensitive* level of protection, we're not enforcing any settings by using a meeting template. You can use the label only for sensitive meetings if you want.
-
-An advantage of using templates is that you can create multiple templates that use the same sensitivity label which lock different settings. For example, if some of your sensitive meetings are presentations where there is minimal interaction from attendees, you can create a template that turns off attendee video and even chat, and another template that leaves those options to the meeting organizer. Both templates would use the *Sensitive* label.
+In the *baseline* level of protection, there aren't any values that need to be restricted with a meeting template. You can still create a template if there are values that you need to set for your organization or if you want your users to always use a template when creating a meeting.
 
 To create a custom meeting template
 

@@ -28,7 +28,7 @@ The following table describes which actions we'll restrict for sensitive meeting
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
 |Allow chat|**Enabled**|Label|No|
-|Allow dial-in users to bypass the lobby|**Off**|Label|No|
+|Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
 |Disable camera for attendees|**Off**|Template|No|
 |Disable mic for attendees|**Off**|Template|No|
 |End-to-end encryption|**Off**|Label|No|
