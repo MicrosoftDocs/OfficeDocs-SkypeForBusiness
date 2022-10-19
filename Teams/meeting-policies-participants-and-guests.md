@@ -134,7 +134,7 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 <a name="bkparticipantsandguests"> </a>
 
-## Teams QA
+## Teams Q&A
 
 This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
 
