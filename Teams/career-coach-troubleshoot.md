@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Career Coach for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -27,12 +27,7 @@ Below are the common issues and resolution steps IT admins may take with Career 
 
 If you see "Career Coach is currently being set up for you to use soon" in the Career Coach experience, **all required configuration data hasn't been added**.
 
-The following **sections must be completed** before Career Coach can be used:
-
-- [Brand and preferences](career-coach-set-up-steps.md#brand-and-preferences)
-- [LinkedIn connection](career-coach-set-up-steps.md#linkedin-connection)
-- [Course catalog](career-coach-set-up-steps.md#course-catalog)
-- [Fields of study](career-coach-set-up-steps.md#fields-of-study)
+Your institution must have the [LinkedIn connection](career-coach-set-up-steps.md#linkedin-connection-required) fully configured.
 
 Reference the [Career Coach configuration status](career-coach-set-up-steps.md#configuration-status) to see which settings need to be completed.
 

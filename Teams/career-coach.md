@@ -1,7 +1,7 @@
 ---
 title: Get started with Career Coach for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -58,9 +58,9 @@ Review the requirements below to get Career Coach set up for your institution.
 
 ### Data and files from your educational institution
 
-- Educational institution's logo and graphical assets [in the required format](career-coach-set-up-steps.md#brand-and-preferences).
-- Course catalog data. [View sample file](https://aka.ms/career-coach/docs/it-admins/sample-catalog) and [document format](career-coach-set-up-steps.md#course-catalog-document-format-and-schema).
-- List of fields of study offered. [View sample file](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy).
+- Educational institution's logo and graphical assets [in the required format](career-coach-set-up-steps.md#brand-and-preferences-optional) (optional).
+- Course catalog data. [View sample file](https://aka.ms/career-coach/docs/it-admins/sample-catalog) and [document format](career-coach-set-up-steps.md#course-catalog-document-format-and-schema) (optional).
+- List of fields of study offered. [View sample file](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) (optional).
 - Educational institution’s [LinkedIn School Page URL](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 - Educational institution's privacy policy URL (optional).
 - Educational institution links to career-related resources such as a career services website and student job postings (optional).

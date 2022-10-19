@@ -1,7 +1,7 @@
 ---
 title: Set up and configure Career Coach for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
