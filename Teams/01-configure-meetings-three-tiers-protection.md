@@ -62,7 +62,7 @@ Both meeting templates and sensitivity labels have the ability to enforce certai
 
 - Chat
 - Lobby settings
-- Automatic recording
+- Meeting recording
 
 If you have different requirements for these settings within a tier (for example, some sensitive meetings should allow chat and others shouldn't), we recommend configuring these settings by using templates instead of sensitivity labels. That way you don't have to create additional labels - you can use a single label with multiple templates.
 
@@ -82,11 +82,34 @@ For the three tiers of protection, we restrict meeting chat in highly sensitive 
 
 ## Meeting recordings
 
+As an admin, you can control meeting recordings in the following ways:
 
+- The **Cloud recording** admin meeting policy (per user or group)
+- The **Meetings automatically expire** (recording deletion) admin meeting policy (per user or group)
+- The **Who can record** setting in sensitivity labels and meeting templates (per meeting)
+- The **Record automatically** setting in sensitivity labels and meeting templates (per meeting)
 
-In highly sensitive meetings, recording is disabled because we're using watermarks on screensharing and camera streams. If you need to be able to record highly sensitive meetings, make sure you don't enforce watermarks with the sensitivity label. Meeting organizers can still apply watermarks if a given meeting isn't being recorded.
+If your organization or certain people or groups within it should never be able to record meetings, you can turn off the feature by using the **Cloud recording** admin meeting policy.
+
+If there are certain types of meetings that must always be recorded, you can enforce the **Record automatically** setting using either a meeting template or a sensitivity label.
+
+Within the three tiers discussed here, recording is disabled in highly sensitive meetings because we're using watermarks on screensharing and camera streams. If you need to be able to record highly sensitive meetings, make sure you don't enforce watermarks with the sensitivity label. Meeting organizers can still apply watermarks if a given meeting isn't being recorded.
+
+For more information about managing meeting recording options, see [Manage Microsoft Teams meeting recording options for compliance](05-manage-meeting-recording-options.md).
+
+For information about policy-based recording of meetings for compliance, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Meeting with guests and external participants
+
+There are three kinds of external participants who can join meetings:
+
+- Participants from trusted domains
+- Guests
+- Anonymous participants
+
+
+restricting guests must use lobby controls
+
 
 ### Anonymous participants
 

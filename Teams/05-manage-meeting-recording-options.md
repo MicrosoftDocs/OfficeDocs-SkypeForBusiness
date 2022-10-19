@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Teams meeting recording options
+title: Manage Microsoft Teams meeting recording options for compliance
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,22 +17,22 @@ appliesto:
 description: Learn how to manage who can record Teams meetings, automatic recording, and the recording lifecycle.
 ---
 
-# Manage Microsoft Teams meeting recording options
+# Manage Microsoft Teams meeting recording options for compliance
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Teams is designed to allow easy recording for meeting participants. If you have compliance requirements around how meeting recordings are used, there are several options availble for administrators and meeting organizers to help you use meeting recordings in a compmliant way.
+Teams is designed to allow easy recording for meeting participants. If you have compliance requirements around how meeting recordings are used, there are several options available for administrators and meeting organizers to help you use meeting recordings in a compliant way.
 
 The following table shows the features available to help you manage meeting recordings and where they're configured.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
 |Meeting recording overall|No|No|No|Yes|
-|Who can record|Yes|No|Yes|No|
-|Recording automatically|Yes|Yes|Yes|No|
+|Who can record|Yes|Yes|Yes|No|
+|Record automatically|Yes|Yes|Yes|No|
 |Recording expiration|No|No|No|Yes|
 
-The Teams administrator has overall control over whether meeting recording is enabled, both meeting organizers and administrators can configure who can record and whether meetings are automatically recorded by using sensitivity labels, meeting templates, and meetin organizer settings.
+The Teams administrator has overall control over whether meeting recording is enabled, both meeting organizers and administrators can configure who can record and whether meetings are automatically recorded by using sensitivity labels, meeting templates, and meeting organizer settings.
 
 ## Manage who can record meetings
 
