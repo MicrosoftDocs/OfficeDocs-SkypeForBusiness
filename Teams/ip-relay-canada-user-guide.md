@@ -68,7 +68,7 @@ Once logged in, you will see instructions displayed on the left side of your scr
 
 - You must be logged in to the IP Message Relay portal to receive calls or chats.
 
-How to place a 911 call:
+### How to place a 911 call:
 
 If you experience an emergency, you may select the appropriate emergency button located at the bottom of your screen: 911 – Police / 911 – Fire / 911 – Ambulance
 
