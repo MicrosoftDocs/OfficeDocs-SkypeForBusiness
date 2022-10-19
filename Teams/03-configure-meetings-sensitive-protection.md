@@ -42,3 +42,48 @@ description:
 |Who can present|**Only me and co-organizers**|Label|Yes|
 |Who can record|**Organizer and co-organizers**|Label|Yes|
 
+
+
+## Sensitivity labels
+
+For the sensitive level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
+
+If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings if needed to meet the needs of your organization. If you already have a label that you use for sensitive information, you can edit the label and add Teams meetings to it.
+
+To create a sensitivity label
+1. Open the [Microsoft Purview compliance portal](https://compliance.microsoft.com).
+1. Under **Solutions**, click **Information protection**.
+1. Click **Create a label**.
+1. Give the label a name. We suggest **Sensitive**, but you can choose a different name if that one is already in use.
+1. Add a display name and description, and then click **Next**.
+1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
+1. Select **Next**.
+1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
+    1. **Who can bypass the lobby** - People I invite
+    1. **Allow dial-in users to bypass the lobby** - Unchecked
+    1. **Who can present** - Only me and co-organizers
+    1. **Who can record** - Organizers and co-organizers
+    1. **End-to-end encryption for meeting video and audio** - Off
+    1. **Record meetings with this label automatically** - Off
+    1. **Video watermark - Apply to screenshare** - Off
+    1. **Video watermark - Apply to camera streams** - Off
+    1. **Allow chat** - Enabled
+    1. **Prevent copying chat content to clipboard** - Unchecked
+1. Select **Next**.
+1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
+
+Once you've created the label, you need to publish it to the users who will use it. For sensitive protection, we'll make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** tab of the **Information protection** page. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
+
+## Meeting templates
+
+
+To create a custom meeting template
+
+1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
+1. Select **Add**
+1. Type a description for the template
+1. Choose the settings that you want to use for this template.
+1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
+1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
+1. Select **Save**.
+
