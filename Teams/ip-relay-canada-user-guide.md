@@ -74,13 +74,13 @@ If you experience an emergency, you may select the appropriate emergency button 
 
 The IP Message Relay Operator will contact 911, confirm your address, and translate with various emergency centers until he or she is no longer required, and the appropriate department has been dispatched to your location.
 
-> [Warning!]
+> [!Warning]
 > Please do not test this service, as the appropriate agency will be contacted and possibly dispatched even if you indicate it is simply a test, and you may be charged a false dispatch fee from the emergency agency.
 
 ## Customer Support:
 Please contact Special Projects at specialprojects@northern911.com or (705) 222-1733.
 
-> [Important!]
+> [!Important]
 > Northern911 manages the IP relay service on behalf of Microsoft.
 
 ## Related topics
