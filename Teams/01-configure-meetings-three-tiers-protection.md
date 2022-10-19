@@ -80,6 +80,8 @@ If all of these settings allow chat, the meeting organizer can still restrict it
 
 For the three tiers of protection, we restrict meeting chat in highly sensitive meetings to in-meeting only and in highly sensitive presentations, we turn it off. We recommend using separate meeting templates for this so that you can have a single sensitivity label for highly sensitive meetings.
 
+For more information, see [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md).
+
 ## Meeting recordings
 
 As an admin, you can control meeting recordings in the following ways:
@@ -95,7 +97,7 @@ If there are certain types of meetings that must always be recorded, you can enf
 
 Within the three tiers discussed here, recording is disabled in highly sensitive meetings because we're using watermarks on screensharing and camera streams. If you need to be able to record highly sensitive meetings, make sure you don't enforce watermarks with the sensitivity label. Meeting organizers can still apply watermarks if a given meeting isn't being recorded.
 
-For more information about managing meeting recording options, see [Manage Microsoft Teams meeting recording options for compliance](05-manage-meeting-recording-options.md).
+For more information about managing meeting recording options, see [Manage Microsoft Teams meeting recording options for sensitive meetings](manage-meeting-recording-options.md).
 
 For information about policy-based recording of meetings for compliance, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
@@ -107,15 +109,17 @@ There are three kinds of external participants who can join meetings:
 - Guests
 - Anonymous participants
 
+Participants from trusted domains join meetings via the [external access](manage-external-access.md) feature. You can control what domains, if any, your organization wants to trust. (This setting also affects 1:1 and group chat with people in those domains.)
 
-restricting guests must use lobby controls
+If [Teams guest access](guest-access.md) is enabled for your organization, then guests will be able to join meetings. (Guest access is also used for inviting guests to teams.)
 
+If the **Anonymous users can join a meeting** Teams admin setting is turned on, anonymous participants will be able to join meetings.
 
-### Anonymous participants
+While you can turn anonymous join off completely without affecting features other than meetings, both guest access and trusted domains are used in scenarios outside of meetings. If you want to restrict meeting access to these participants but need to leave the features turned on for other reasons, you must use the lobby.
 
 ## Lobby options
 
-The meeting lobby allows meeting organizers to vet attendees before allowing them into the meeting. Depending on the type of meeting and your compliance requirements, you may want to allow all attendees to bypass the lobby and join the meeting directly, or hold certain types of users in the lobby until they're admitted by a meeting organizer.
+The meeting lobby allows meeting organizers to vet attendees before allowing them into the meeting. Depending on the type of meeting and your compliance requirements, you may want to allow all attendees to bypass the lobby and join the meeting directly, or hold certain types of users in the lobby until they're admitted by a meeting organizer. If you wish to prevent certain types of people - such as guests - from attending meetings, you can have them go through the lobby and then the meeting organizer can deny them admittance.
 
 For the baseline tier, we allow everyone except anonymous attendees to bypass the lobby. For sensitive meetings, we allow only people with a meeting invitation to bypass the lobby. For highly sensitive meetings, we require organizers to admit each attendee.
 
@@ -130,7 +134,7 @@ These settings are also available to the meeting organizer unless they've been l
 
 If you're in a highly regulated industry and you need to manually admit each attendee to all meetings in your organization, you can configure the lobby by using admin meeting policies in the Teams admin center. If your organization has different types of meetings that have different lobby requirements, then we recommend using meeting templates or sensitivity labels to configure these settings.
 
-## The attendee experience
+For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md)
 
 ## Related topics
 

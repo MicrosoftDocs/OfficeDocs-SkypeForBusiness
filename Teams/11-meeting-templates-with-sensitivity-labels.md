@@ -27,3 +27,4 @@ Pivots
 
 presentation meetings vs. interactive
 
+templates for setting defaults even if they can be changed

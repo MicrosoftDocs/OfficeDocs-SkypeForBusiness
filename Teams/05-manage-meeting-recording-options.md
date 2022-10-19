@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Teams meeting recording options for compliance
+title: Manage Microsoft Teams meeting recording options for sensitive meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 description: Learn how to manage who can record Teams meetings, automatic recording, and the recording lifecycle.
 ---
 
-# Manage Microsoft Teams meeting recording options for compliance
+# Manage Microsoft Teams meeting recording options for sensitive meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
