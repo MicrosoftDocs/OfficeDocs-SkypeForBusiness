@@ -42,33 +42,70 @@ The following table summarizes the configurations for each tier. Use these confi
 
 |&nbsp;|Baseline|Sensitive|Highly sensitive|Highly sensitive presentation|
 |:-----|:-----|:-----|:-----|:-----|
-|Disable mic for attendees|**Off**|**Off**|**Off**|**On**|
-|Disable camera for attendees|**Off**|**Off**|**Off**|**On**|
 |Allow chat|**Enabled**|**Enabled**|**In-meeting only**|**Disabled**|
+|Allow dial-in users to bypass the lobby|**Off**|**Off**|**Off**|**Off**|
+|Disable camera for attendees|**Off**|**Off**|**Off**|**On**|
+|Disable mic for attendees|**Off**|**Off**|**Off**|**On**|
 |End-to-end encryption|**Off**|**Off**|**On**|**On**|
-|Prevent copying chat content to clipboard|No|No|Yes|Yes|
-|Record automatically|No|No|No|No|
-|Watermark screenshare|No|No|No|Yes|
-|Watermark camera streams|No|No|No|No|
+|Manage what attendees see|**Off**|**Off**|**On**|**On**|
+|Prevent copying chat content to clipboard|**Off**|**Off**|**On**|**On**|
+|Record automatically|**Off**|**Off**|**Off**|**Off**|
+|Watermark camera streams|**Off**|**Off**|**On**|**On**|
+|Watermark screenshare|**Off**|**Off**|**On**|**On**|
 |Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People I invite**|**Only me and co-organizers**|**Only me and co-organizers**|
-|Allow dial-in users to bypass the lobby|No|No|No|No|
-|Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only me and co-organizers**|**Specific people**|
-|Manage what attendees see|No|No|Yes|Yes|
-|Who can record|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|Disabled due to watermarking|
-|Who can transcribe|**Organizers and presenters**|**Organizer and co-organizers**|**Organizer and co-organizers**|**Organizer and co-organizers**|
+|Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only me and co-organizers**|**Only me and co-organizers**|
+|Who can record|**Organizers and presenters**|**Organizer and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
 
 ## Managing compliance with sensitivity labels and meeting templates
 
+Both meeting templates and sensitivity labels have the ability to enforce certain meeting settings. Some settings are only available in sensitivity labels and some are only available in templates. Three are available in both:
+
+- Chat
+- Lobby settings
+- Automatic recording
+
+If you have different requirements for these settings within a tier (for example, some sensitive meetings should allow chat and others shouldn't), we recommend configuring these settings by using templates instead of sensitivity labels. That way you don't have to create additional labels - you can use a single label with multiple templates.
 
 ## Meeting chat
 
+Meeting chat can be an important part of collaboration during a meeting. However, you may want to restrict meeting chat in certain types of meetings to avoid sensitive information being shared there.
+
+As an admin, you can control meeting chat in the following ways:
+
+- The **Chat in meetings** admin meeting policy (per user or group)
+- The **Allow chat** sensitivity label setting (per meeting)
+- The **Attendees can chat** meeting template setting (per meeting)
+
+If all of these settings allow chat, the meeting organizer can still restrict it.
+
+For the three tiers of protection, we restrict meeting chat in highly sensitive meetings to in-meeting only and in highly sensitive presentations, we turn it off. We recommend using separate meeting templates for this so that you can have a single sensitivity label for highly sensitive meetings.
+
 ## Meeting recordings
+
+
+
+In highly sensitive meetings, recording is disabled because we're using watermarks on screensharing and camera streams. If you need to be able to record highly sensitive meetings, make sure you don't enforce watermarks with the sensitivity label. Meeting organizers can still apply watermarks if a given meeting isn't being recorded.
 
 ## Meeting with guests and external participants
 
+### Anonymous participants
+
 ## Lobby options
 
-## Anonymous participants
+The meeting lobby allows meeting organizers to vet attendees before allowing them into the meeting. Depending on the type of meeting and your compliance requirements, you may want to allow all attendees to bypass the lobby and join the meeting directly, or hold certain types of users in the lobby until they're admitted by a meeting organizer.
+
+For the baseline tier, we allow everyone except anonymous attendees to bypass the lobby. For sensitive meetings, we allow only people with a meeting invitation to bypass the lobby. For highly sensitive meetings, we require organizers to admit each attendee.
+
+As an admin, you can control the lobby in the following ways:
+
+- The **Automatically admit people** admin meeting policy (per user or group)
+- The **Dial-in users can bypass the lobby** admin meeting policy (per user or group)
+- The **Who can bypass the lobby** setting in sensitivity labels and meeting templates (per meeting)
+- The **People calling in by phone can bypass the lobby** setting in sensitivity labels and meeting templates (per meeting)
+
+These settings are also available to the meeting organizer unless they've been locked by a template.
+
+If you're in a highly regulated industry and you need to manually admit each attendee to all meetings in your organization, you can configure the lobby by using admin meeting policies in the Teams admin center. If your organization has different types of meetings that have different lobby requirements, then we recommend using meeting templates or sensitivity labels to configure these settings.
 
 ## The attendee experience
 
