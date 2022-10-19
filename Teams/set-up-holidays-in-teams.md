@@ -1,7 +1,7 @@
 ---
 title: "Set up holidays in Microsoft Teams"
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article

@@ -16,6 +16,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Step 5: Assign Teams Phone System phone numbers to your users

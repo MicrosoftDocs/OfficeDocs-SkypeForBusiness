@@ -2094,6 +2094,8 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
     - name: Accessibility and conformance
       items: 
+        - name: Accessibility guidance for Teams
+          href: accessibility-guide-admin.md
         - name: Accessibility declaration of conformance in France for Microsoft Teams
           href: accessibility-declaration-of-conformance-in-france-for-teams.md
         - name: Accessibility solutions for Skype for Business Online and Microsoft Teams
