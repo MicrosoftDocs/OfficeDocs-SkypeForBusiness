@@ -78,7 +78,7 @@ To learn more, see [Monitor appointments and get real-time status updates](/micr
 > [!NOTE]
 > ADD calendar analytics content (when available), ADD take-back (VA usage) and Premium messaging (calendar analytics)
 
-The analytics experience that's shown on this tab is based on user role. Use the information in these reports to gain insight into usage trends to help optimize Virtual Appointments to deliver better business outcomes.
+Get insight into usage activity and trends in your organization to help optimize Virtual Appointments to deliver better business outcomes. The analytics experience that's shown on this tab is based on user role.
 
 Admins will see the following reports, showing aggregated analytics across the organization:
 
