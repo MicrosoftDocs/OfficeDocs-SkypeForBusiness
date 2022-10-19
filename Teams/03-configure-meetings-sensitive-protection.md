@@ -69,6 +69,7 @@ To create a sensitivity label
     1. **Video watermark - Apply to camera streams** - Off
     1. **Allow chat** - Enabled
     1. **Prevent copying chat content to clipboard** - Unchecked
+    :::image type="content" source="media/teams-meeting-sensitivity-label-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-sensitive-large.png":::    
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 
@@ -87,3 +88,8 @@ To create a custom meeting template
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
 1. Select **Save**.
 
+teams-meeting-sensitivity-label-sensitive-small.png
+
+teams-meeting-sensitivity-label-sensitive-large.png
+
+:::image type="content" source="media/teams-meeting-sensitivity-label-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-sensitive-large.png":::
