@@ -35,7 +35,7 @@ With any Microsoft 365 or Office 365 license, you can use basic Virtual Appointm
 
 ## Overview of the Virtual Appointments app
 
-The Virtual Appointments app has the following tabs:
+The Virtual Appointments app has the following tabs.
 
 - [Home](#home)
 - [Bookings schedule](#bookings-schedule)
@@ -48,7 +48,7 @@ Here's an overview of what's on each tab.
 ### Home
 
 > [!NOTE]
-> Add take-back and Premium messaging (queue/analytics)
+> ADD take-back and Premium messaging (queue/analytics)<br>A Teams Premium license is required to access the Queue and Analytics tiles.
 
 Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
@@ -63,7 +63,7 @@ Access your Bookings calendar to schedule virtual appointments such as healthcar
 ### Queue
 
 > [!NOTE]
-> Add take-back (scheduled), Premium (on-demand), and promo (SMS) messaging
+> ADD take-back (scheduled), Premium (on-demand), and promo (SMS) messaging<br>Access to scheduled appointments in the queue and sending SMS notifications will soon require a Teams Premium license. A Teams Premium license is needed to access on-demand appointments.
 
 View and monitor all scheduled and on-demand virtual appointments in the Bookings calendar that you pinned, with updates in real time.
 
@@ -76,11 +76,19 @@ To learn more, see [Monitor appointments and get real-time status updates](/micr
 ### Analytics
 
 > [!NOTE]
-> Add calendar analytics content (when available), add take-back (VA usage) and Premium messaging (calendar analytics)
+> ADD calendar analytics content (when available), ADD take-back (VA usage) and Premium messaging (calendar analytics)
 
-Get insight into usage activity and trends in your organization to help optimize virtual appointments to deliver better business outcomes. You can view key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows. To learn more, see [Teams Virtual Appointments usage report](teams-analytics-and-reports/virtual-visits-usage-report.md)
+The analytics experience that's shown on this tab is based on user role. Use the information in these reports to gain insight into usage trends to help optimize Virtual Appointments to deliver better business outcomes.
 
-:::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
+Admins will see the following reports, showing aggregated analytics across the organization:
+
+- The [Teams Virtual Appointments usage report](teams-analytics-and-reports/virtual-visits-usage-report.md) gives admins an overview of Teams Virtual Appointments activity in your organization. This report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows for appointments created and conducted through multiple scheduling entry points.
+
+  :::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
+
+- The [Teams Virtual Appointments active user report]() provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium. Admins can see how many users are actively using advanced Virtual Appointments capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
+
+Non-admins, such as schedules, will see the departmental analytics
 
 ### Manage
 
