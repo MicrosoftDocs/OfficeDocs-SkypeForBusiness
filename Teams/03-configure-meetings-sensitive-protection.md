@@ -21,10 +21,9 @@ description:
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
+For the *sensitive* level of protection, we'll restrict who can bypass the lobby, who can present, and who can record. You can restrict additional actions as well if your organization requires it.
 
-
-
-
+The following table describes which actions we'll restrict for sensitive meetings and where those settings are configured.
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
@@ -42,7 +41,7 @@ description:
 |Who can present|**Only me and co-organizers**|Label|Yes|
 |Who can record|**Organizer and co-organizers**|Label|Yes|
 
-
+Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
 ## Sensitivity labels
 
@@ -77,19 +76,26 @@ Once you've created the label, you need to publish it to the users who will use 
 
 ## Meeting templates
 
+In the *sensitive* level of protection, we're not enforcing any settings by using a meeting template. You can use the label only for sensitive meetings if you want.
+
+An advantage of using templates is that you can create multiple templates that use the same sensitivity label which lock different settings. For example, if some of your sensitive meetings are presentations where there is minimal interaction from attendees, you can create a template that turns off attendee video and even chat, and another template that leaves those options to the meeting organizer. Both templates would use the *Sensitive* label.
 
 To create a custom meeting template
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
 1. Select **Add**
-1. Type a description for the template
-1. Choose the settings that you want to use for this template.
+1. Type a name and description for the template.
+1. In the **Apply sensitivity label** section, choose the label you created above.
+1. Select **Apply sensitivity label**, and then select **Lock**.
+1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
 1. Select **Save**.
 
-teams-meeting-sensitivity-label-sensitive-small.png
+## Related topics
 
-teams-meeting-sensitivity-label-sensitive-large.png
+[Configure Teams meetings with three tiers of protection](01-configure-meetings-three-tiers-protection.md)
 
-:::image type="content" source="media/teams-meeting-sensitivity-label-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-sensitive-large.png":::
+[Overview of custom meeting templates in Microsoft Teams](12-custom-meeting-templates-overview.md)
+
+[Use Teams meeting templates with sensitivity labels](11-meeting-templates-with-sensitivity-labels.md)
