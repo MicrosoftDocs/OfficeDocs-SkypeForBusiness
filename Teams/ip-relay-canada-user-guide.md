@@ -85,4 +85,4 @@ Please contact Special Projects at specialprojects@northern911.com or (705) 222-
 
 ## Related topics
 
-[IP Relay Canada - sign up](-ip-relay-canada-email-signup.d)
+[IP Relay Canada - sign up](ip-relay-canada-email-signup.md)
