@@ -44,7 +44,7 @@ The following table summarizes the configurations for each tier. Use these confi
 |:-----|:-----|:-----|:-----|:-----|
 |Disable mic for attendees|**Off**|**Off**|**Off**|**On**|
 |Disable camera for attendees|**Off**|**Off**|**Off**|**On**|
-|Allow chat|**Enabled**|**Enabled**|**In-meeting only**|**No**|
+|Allow chat|**Enabled**|**Enabled**|**In-meeting only**|**Disabled**|
 |End-to-end encryption|**Off**|**Off**|**On**|**On**|
 |Prevent copying chat content to clipboard|No|No|Yes|Yes|
 |Record automatically|No|No|No|No|
