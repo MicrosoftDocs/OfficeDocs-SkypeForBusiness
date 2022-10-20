@@ -61,7 +61,7 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 ## SMS text notifications
 
 > [!NOTE]
-> ADD promo and Premium messaging<br>Unlimited SMS notifications are available through to November 30, 2022. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.<br>Unlimited SMS notifications are available through to November 30, 2022. After this promotion period, a Teams Premium license is required. [Learn more about Teams Premium]().
+> ADD promo and Premium messaging<br>Unlimited SMS notifications are available through to November 30, 2022. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.<br>Unlimited SMS notifications are available through to <>. After this promotion period, a [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) license is required..
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
