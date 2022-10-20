@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use the Teams app usage report in the Microsoft Teams admin center.
+description: Learn how to use the Teams app usage report in Teams admin center to know the active teams and users of an app.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
