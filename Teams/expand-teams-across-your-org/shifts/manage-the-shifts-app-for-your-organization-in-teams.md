@@ -81,7 +81,7 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin the apps that are most important for your users.
 
-You can create a [custom app setup policy](../../teams-app-setup-policies.md) by adding the Shifts app, and then [assign the policy](../../assign-policies-users-and-groups.md) to your users. Or, you can use the app setup policy that's part of the Frontline Worker and Frontline Manager policy packages.
+You can create a [custom policy in app setup policy](../../teams-app-setup-policies.md) by adding the Shifts app, and then [assign the policy](../../assign-policies-users-and-groups.md) to your users. Or, you can use the app setup policy that's part of the Frontline Worker and Frontline Manager policy packages.
 
 A [policy package](../../manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. The set of policies in the Frontline Worker and Frontline Manager policy packages include an app setup policy that pins the Shifts app and other apps that support communication and collaboration activities for that role.
 
