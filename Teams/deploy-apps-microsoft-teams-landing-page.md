@@ -83,9 +83,9 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 ## Understand app capabilities
 
-To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to the Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
+To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
 
-Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can chat with a bit one-on-one or in a channel. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
+Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can chat with a bot one-on-one or in a channel. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
 
 Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. You can add tabs as part of a channel inside a team, group chat, or personal app for an individual user.
 

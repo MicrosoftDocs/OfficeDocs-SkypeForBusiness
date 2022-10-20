@@ -35,15 +35,15 @@ As a Teams admin, you use custom app policies and settings to control who in you
 
 Developers within your organization can add a custom app to Teams by uploading an app package (in a .zip file) directly to a team or in the personal context. This is different from how apps are added through the Teams app store. Adding a custom app by uploading an app package, also known as sideloading, lets specific users within your organization to test an app, before it's ready to be widely distributed.
 
+During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only.
+
 ## Custom app policy and settings
 
-Three settings determine whether a user can upload a custom app to a team. It gives admins granular control over who can add custom apps to a team and which teams custom apps can be added to.
+Three settings determine whether a user can upload a custom app to a team. It gives admins granular control over who can add custom apps to a team and which teams custom apps can be added to. These settings don't affect the ability to block third-party apps.
 
 * [User custom app policy](#user-custom-app-policy)
 * [Team custom app setting](#team-custom-app-setting)
 * [Org-wide custom app setting](#org-wide-custom-app-setting)
-
-These settings don't affect the ability to block third-party apps.  
 
 ### User custom app policy
 

@@ -67,7 +67,7 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Tasks for specific users in your organization
 
-To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### Pin Tasks to Teams
 
