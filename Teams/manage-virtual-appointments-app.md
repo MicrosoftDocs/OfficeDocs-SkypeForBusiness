@@ -63,7 +63,7 @@ Access your Bookings calendar to schedule virtual appointments such as healthcar
 ### Queue
 
 > [!NOTE]
-> ADD take-back (scheduled), Premium (on-demand), and promo (SMS) messaging<br>Access to scheduled appointments in the queue and sending SMS notifications will soon require a Teams Premium license. A Teams Premium license is needed to access on-demand appointments.
+> ADD take-back (scheduled), Premium (on-demand), and promo (SMS) messaging<br>Access to scheduled appointments in the queue and SMS notifications will soon require a Teams Premium license. A Teams Premium license is needed to access on-demand appointments.
 
 View and monitor all scheduled and on-demand virtual appointments in the Bookings calendar that you pinned, with updates in real time.
 
@@ -86,9 +86,11 @@ Admins will see the following reports, showing aggregated analytics across the o
 
   :::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
 
-- The [Teams Virtual Appointments active user report]() provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium. Admins can see how many users are actively using advanced Virtual Appointments capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
+- The [Teams Virtual Appointments active user report]() provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium. Admins can see how many users are actively using advanced capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
 
-Non-admins, such as schedules, will see the departmental analytics
+    [placeholder for screenshot]
+
+Non-admins, such as schedulers, will see the departmental analytics???
 
 ### Manage
 
