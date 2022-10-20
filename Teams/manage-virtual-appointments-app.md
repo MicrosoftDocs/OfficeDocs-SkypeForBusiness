@@ -78,7 +78,7 @@ To learn more, see [Monitor appointments and get real-time status updates](/micr
 > [!NOTE]
 > ADD calendar analytics content (when available), ADD take-back (VA usage) and Premium messaging (calendar analytics)
 
-Get insight into usage activity and trends in your organization to help optimize Virtual Appointments to deliver better business outcomes. The analytics experience that's shown on this tab is based on user role.
+Get insight into usage activity and trends in your organization to help optimize Virtual Appointments to deliver better business outcomes. The analytics experience here is based on user role.
 
 Admins will see the following reports, showing aggregated analytics across the organization:
 
@@ -90,7 +90,7 @@ Admins will see the following reports, showing aggregated analytics across the o
 
     [placeholder for screenshot]
 
-Non-admins, such as schedulers, will see the departmental analytics???
+Non-admins, such as schedulers, will see departmental analytics???
 
 ### Manage
 
@@ -119,3 +119,5 @@ App setup policies let you customize Teams to highlight the apps that are most i
 To pin the Virtual Appointments app for your users, you can edit the global (Org-wide default) policy. Or, you can create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ## Related articles
+
+- [Virtual Appointments guided tour](https://guidedtour.microsoft.com/guidedtour/industry-longform/virtual-appointments/1/1)
