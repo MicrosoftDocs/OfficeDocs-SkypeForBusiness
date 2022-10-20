@@ -92,7 +92,7 @@ Admins will see the following reports, showing aggregated analytics across the o
 
 Non-admins, such as schedulers, will see departmental analytics???
 
-    [placeholder for screenshot]
+[placeholder for screenshot]
 
 ### Manage
 
