@@ -48,7 +48,7 @@ Here's an overview of what's on each tab.
 ### Home
 
 > [!NOTE]
-> ADD take-back and Premium messaging (queue/analytics)<br>A Teams Premium license is required to access the Queue and Analytics tiles.
+> ADD take-back and Premium messaging (queue/analytics)
 
 Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
