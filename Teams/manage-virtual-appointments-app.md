@@ -69,7 +69,7 @@ View and monitor all scheduled and on-demand virtual appointments in the Booking
 
 From here, schedulers can add a new booking, view relevant appointment details, and see appointment statuses throughout the day. They can also send email reminders to assigned staff and attendees, and send SMS text notifications to attendees for scheduled appointments. Staff can even join appointments directly from the queue.
 
-To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/bookings-virtual-visits.md#monitor-appointments-and-get-real-time-status-updates).
+To learn more, see [Monitor appointments and get real-time status updates](https://review.learn.microsoft.com/microsoft-365/frontline/bookings-virtual-appointments?branch=v-lanachin-bookings-prem#monitor-appointments-and-get-real-time-status-updates-in-the-queue-view).
 
 :::image type="content" source="media/manage-virtual-appointments-app-queue.png" alt-text="Screenshot of the Queue page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-queue.png":::
 
@@ -82,15 +82,17 @@ Get insight into usage activity and trends in your organization to help optimize
 
 Admins will see the following reports, showing aggregated analytics across the organization:
 
-- The [Teams Virtual Appointments usage report](teams-analytics-and-reports/virtual-visits-usage-report.md) gives admins an overview of Teams Virtual Appointments activity in your organization. This report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows for appointments created and conducted through multiple scheduling entry points.
+- The [Teams Virtual Appointments usage report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) gives admins an overview of Teams Virtual Appointments activity in your organization. This report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows for appointments created and conducted through multiple scheduling entry points.
 
   :::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
 
-- The [Teams Virtual Appointments active user report]() provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium. Admins can see how many users are actively using advanced capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
+- The [Teams Virtual Appointments active user report](https://review.learn.microsoft.com/microsoft-365/frontline/virtual-appointments-active-user-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium. Admins can see how many users are actively using advanced capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
 
     [placeholder for screenshot]
 
 Non-admins, such as schedulers, will see departmental analytics???
+
+    [placeholder for screenshot]
 
 ### Manage
 
