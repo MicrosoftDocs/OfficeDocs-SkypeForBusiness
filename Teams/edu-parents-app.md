@@ -86,7 +86,9 @@ If guardian is removed from a *Student's* records, any existing chats involving 
   - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1 files empty (just the headers).
     - User.csv
     - Guardianrelationship.csv
-      - The *Role* value needs to be completed for each parent and guardian to indicate if they're a *Parent* or a *Guardian*.
+      - The *Role* value needs to be completed for each parent and guardian to indicate if they're a `parent` or `guardian`.
+        - Only the values of `parent` or `guardian` are supported in the app. Other values will result in errors.
+        - For the SDS v1 format, it'll be labeled as **Role**, but for the SDS v2.1 format, it'll be labeled as **relationshipRole**.
   - To view a sample set of the v1 CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
@@ -130,7 +132,7 @@ To allow educators to communicate with parents and guardians in Teams, the educa
 
 Here are the steps to turn on external access for parents and guardians.
 
-1. Install the latest Microsoft Teams PowerShell module preview.
+1. Install the latest Microsoft Teams PowerShell module here [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -203,14 +205,14 @@ Messages sent to parents and guardians will be in plain text, without HTML, form
 
 ### Set a preferred invite channel in the Teams admin center
 
-1. Sign in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 1. Go to **Education** > **Parent and guardian settings**.
 1. In the **Preferred contact method** field, select either **Email** or **Mobile phone - SMS**.
 1. Save your changes.
 
 ### Set a preferred invite channel using PowerShell
 
-1. Install the *4.9.0 version* of the Teams PowerShell Module at [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+1. Install the *4.9.0 version or greater* of the Teams PowerShell module at [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 1. Run the command below and sign in with admin credentials.
 
