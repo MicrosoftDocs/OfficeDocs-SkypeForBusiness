@@ -82,14 +82,14 @@ If guardian is removed from a *Student's* records, any existing chats involving 
   - Opening a ticket at [Support](https://aka.ms/sdssupport).
 
 - Currently, SDS only supports CSV-based data ingestion for Parent Contacts; however, you can use [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) or [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) for all roster data, and just add Parent Contacts using CSV.
-  - Create a second sync profile using the [SDS v1 CSV Sync format](/schooldatasync/school-data-sync-format-csv-files-for-sds).
-  - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1 files empty (just the headers).
+  - Create a second sync profile using the [SDS v1 CSV format](/schooldatasync/school-data-sync-format-csv-files-for-sds) or [SDS v2.1 CSV format](/schooldatasync/sds-v2.1-csv-file-format-classic).
+  - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1/v2.1 files empty (just the headers).
     - User.csv
     - Guardianrelationship.csv
       - The *Role* value needs to be completed for each parent and guardian to indicate if they're a `parent` or `guardian`.
         - Only the values of `parent` or `guardian` are supported in the app. Other values will result in errors.
         - For the SDS v1 format, it'll be labeled as **Role**, but for the SDS v2.1 format, it'll be labeled as **relationshipRole**.
-  - To view a sample set of the v1 CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+  - To view a sample set of the CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
 
