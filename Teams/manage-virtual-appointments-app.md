@@ -25,11 +25,13 @@ appliesto:
 
 # Manage the Virtual Appointments app for your organization in Microsoft Teams
 
-The Virtual Appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), analytics, and management options, all in one place.
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-You can schedule, view, and manage virtual appointments from Bookings, Teams, and Outlook, get real-time status updates in a queue view, send appointment reminders, view reports to gain insight into virtual appointment activity, and configure calendar, staff, and booking page settings.
+The Virtual Appointments app provides a central hub for all your virtual appointments needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), analytics, and management options, all in one place.
 
-With any Microsoft 365 or Office 365 license, you can use basic Virtual Appointments capabilities in the app to schedule and join business-to-customer meetings. With [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing), your organization gets advanced Virtual Appointments capabilities to help drive operational excellence and personalize customer experiences. These include a queue of scheduled and on-demand appointments, SMS notifications, lobby chat, and departmental and organizational analytics.
+You can schedule, view, and manage virtual appointments from Bookings, Teams, and Outlook, get real-time status updates in a queue view, send appointment reminders, view reports to gain insight into virtual appointments activity, and configure calendar, staff, and booking page settings.
+
+With any Microsoft 365 or Office 365 license, you can use basic Virtual Appointments capabilities in the app to schedule and join business-to-customer meetings. With [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing), your organization gets advanced Virtual Appointments capabilities. These include a queue of scheduled and on-demand appointments, SMS notifications, lobby chat, and departmental and organizational analytics.
 
 [EMBED VIDEO?]
 
