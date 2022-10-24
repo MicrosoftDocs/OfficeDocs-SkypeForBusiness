@@ -102,6 +102,12 @@ To install apps using an app setup policy, follow these steps:
 
 :::image type="content" source="media/install-apps-in-meeting.png" alt-text="A screenshot of installation of apps via app policy.":::
 
+> [!IMPORTANT]
+> Users can't uninstall apps that are installed by admins.
+
+>[!NOTE]
+> Using this procedure, you cannot install custom apps with configurable tabs.
+
 ## Manage app setup policies
 
 You manage app setup policies in the Microsoft Teams admin center. Use the global (Org-wide default) policy or create and assign custom policies. End-users get the global policy. If you create a custom policy, it overrides the global policy. Global admin or Teams service admin can manage these policies.
