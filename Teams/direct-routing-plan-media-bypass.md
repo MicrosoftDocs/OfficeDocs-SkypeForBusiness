@@ -120,7 +120,7 @@ There are two components in the Microsoft Cloud that can be in the path of media
 
 - The Transport Relay is used to connect to the closest Transport Service to send real time traffic.
 
-   Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured .
+   Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured.
 
 The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled.
 
