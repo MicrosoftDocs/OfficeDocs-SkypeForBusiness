@@ -10,6 +10,7 @@ ms.collection:
   - M365-voice
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 ms.reviewer: nakulm
 search.appverid: MET150
 ms.localizationpriority: high

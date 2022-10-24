@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
   - M365-voice
   - m365initiative-voice
+  - highpri
 audience: Admin
 appliesto:
   - Microsoft Teams

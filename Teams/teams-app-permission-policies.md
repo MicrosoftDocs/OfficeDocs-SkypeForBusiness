@@ -76,7 +76,7 @@ You can use the Teams admin center to edit the global policy or any custom polic
 1. Make the changes to allow or block specific apps in each of the three categories.
 1. Select **Save**.
 
-## Assign a custom app permission policy to users
+## Assign a custom policy for app permissions to users
 
 App permission policies take effect only when you apply a policy to a user or a group of users. See the different ways to [assign the policy to users](policy-assignment-overview.md#ways-to-assign-policies).
 
