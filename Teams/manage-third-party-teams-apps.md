@@ -28,7 +28,7 @@ App developers can enhance their Microsoft Teams apps to work in Outlook and on 
 
 The existing Teams admin experience applies to govern access to these apps. Teams admins use the Teams admin center to manage app access. As a Teams administrator, you can allow specific end-users to use the enhanced apps or manage their access to the enhanced apps in Teams, in Outlook, and on Office.com.
 
-For use in Outlook and Office.com, an enhanced app continues to use the existing permissions granted in Teams. There's no change in the permissions of the enhanced app. Users who have installed an existing in-market add-ins of the same app in Outlook and Office will continue to use that app. The add-ins are not Teams apps and Teams admins can not govern the access.
+For use in Outlook and Office.com, an enhanced app continues to use the existing permissions granted in Teams. There's no change in the permissions of the enhanced app. Users who have installed existing in-market add-ins of the same app in Outlook and Office will continue to use that app. The add-ins are not Teams apps and Teams admins cannot govern the access.
 
 Office Apps admins can contact the Global admin or the Teams admin to manage access of the enhanced apps. For more information, see [admin roles in Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
 
