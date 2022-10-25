@@ -40,7 +40,7 @@ Call queues provide:
 
 Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
-## What's new for call queues in the past 6 months
+## What's new for call queues in the past six months
 
 - August
   - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
