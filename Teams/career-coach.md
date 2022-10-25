@@ -19,9 +19,9 @@ appliesto:
 
 # Get started with Career Coach for Microsoft Teams
 
-Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. With Career Coach, educational institutions can help students discover their career path, grow real-world skills, and build their network all in one place.
+Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for students to navigate their career journey. With Career Coach, educational institutions can help students discover their career path, grow real-world skills, and build their network all in one place.
 
-This article is for higher education IT admins to get started with configuring Career Coach for their institution.
+This article is for education IT admins to get started with configuring Career Coach for their institution.
 
 Here are Career Coach resources for education leaders, educators, and students:
 

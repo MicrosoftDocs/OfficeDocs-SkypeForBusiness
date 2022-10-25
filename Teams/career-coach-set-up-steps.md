@@ -22,7 +22,7 @@ appliesto:
 
 # Set up and configure Career Coach for Microsoft Teams
 
-This article is for higher education IT admins to learn how to set up Career Coach for Microsoft Teams.
+This article is for education IT admins to learn how to set up Career Coach for Microsoft Teams.
 
 The primary steps to set up, configure, and release Career Coach are:
 
@@ -156,7 +156,7 @@ There are two license types available.
 
 #### Purchase licenses
 
-Career Coach is available worldwide (except China and Russia) for qualified higher education institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
+Career Coach is available worldwide (except China and Russia) for qualified educational institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
 
 As a Microsoft Teams app, the tenant must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5 to purchase the add-on Career Coach license. Separate licenses are offered for students and faculty users.
 
@@ -202,6 +202,8 @@ This step can only be completed if [LinkedIn account connections are enabled in 
 
 > [!IMPORTANT]
 > This is a required section. Career Coach can't be turned on without the LinkedIn School Page connection verified.
+>
+> The LinkedIn connection supports multiple tenants.
 
 ##### Add the LinkedIn School Page URL
 
@@ -239,7 +241,7 @@ You can check your LinkedIn account’s admin roles by signing into LinkedIn and
 
 1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
-   ![Screnshot that shows the LinkedIn connections for the career coach app.](media/career-coach-linkedin-updated.png)  
+   ![Screenshot that shows the LinkedIn connections for the career coach app.](media/career-coach-linkedin-updated.png)  
 
 2. Copy the verification link and share it with your LinkedIn School Page Super admin.
 

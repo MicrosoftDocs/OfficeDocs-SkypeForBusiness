@@ -19,7 +19,7 @@ appliesto:
 
 # Troubleshoot Career Coach for Microsoft Teams
 
-This article is for higher education IT admins who need to troubleshoot Career Coach for Microsoft Teams.
+This article is for education IT admins who need to troubleshoot Career Coach for Microsoft Teams.
 
 Below are the common issues and resolution steps IT admins may take with Career Coach.
 
