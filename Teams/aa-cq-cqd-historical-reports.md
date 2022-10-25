@@ -25,63 +25,62 @@ description: Learn about how to use Teams Auto Attendant & Call Queue Historical
 ---
 # Auto Attendant & Call Queue Historical Report
 
-This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendands and call queues.  It also provides agent performance insites.
+This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendands and call queues.  It also provides agent performance insights.
 
 ## V3.0.0 published on October 25, 2022
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- [Auto Attendant](media/aa-cq-historical-report-sample-aa-v163.png) – showing analytics for calls coming into your Auto Attendants.
-- [Call Queue](media/aa-cq-historical-report-sample-cq-v163.png) – showing analytics for calls coming into your Call Queues.
-- [Agent Timeline](media/aa-cq-historical-report-sample-at-v163.png) – showing a timeline view of agents being active in Call Queue calls.
+- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your Auto Attendants.
+- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your Call Queues.
+- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in Call Queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
 >[!NOTE]
-> Historical data collection is in progress across all regions.  Thirty days of historical data will be available at different times, with all regions have a full 30 days of data no later than November 25, 2022.
+> Historical data collection is in progress across all regions.  Thirty days of historical data will be available at different times, with all regions having a full 30 days of data no later than November 25, 2022.
 
 ## V3.0.0 Prerequisites
 
 ### Power BI Desktop
-You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-You can use the free version of Power BI Desktop. The minimum compatible version is 2.85.681.0 (September 2020).
+The minimum compatible version is 2.85.681.0 (September 2020).
 
 ### Permissions to access the CQD pipeline
 
-While this version of the reports does not use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 - This requirement will be removed in a future release.
 
 ## V3.0.0 Installation 
 
-The following steps assume you've already installed Power BI Desktop on your computer, and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
-- Download the [Teams Auto Attendant & Call Queue Historical Reports V3.0.0.zip](https://www.microsoft.com/download/details.aspx?id=104623) file and save it to a directory on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.0.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
-- Double-click on the zip file to open it.
+1. Open the zip file.
 
-- Double-click on the "Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit" template file. The Power BI Desktop should launch.
+1. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` template file. Power BI Desktop should launch.
 
-- You'll be prompted to select the Data Source.  Select the *api.interfaces.records.teams.microsoft.com* entry.
+1. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
   :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
-- You'll be prompted to sign in with an account. Select **Organizational account** and then select **Sign in**.
+1. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
 
-- Select **Connect** and the data will refresh.
+1. Select **Connect**, and the data will refresh.
 
 > [!NOTE]
-> If you were using v1.63 or earlier, you may encounter an error when v3.0.0 tries to retrieve the data from VAAC.  To resolve this error it is necessary to clear any previous credentials from Power BI.
+> If you're using v1.63 or earlier, you may encounter an error when v3.0.0 tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
 > 
-> - Open the v3.0.0 template and clear/cancel the error 
-> - Select File -> Options & Settings -> Data source settings
-> - Select the drop down for Clear Permissions and then select Clear All Permissions.
-> - Close the template after they're cleared and restart - you'll be asked to authorize again. 
-
+> 1. Open the v3.0.0 template to clear the error. 
+> 1. Select **File** > **Options & Settings** > **Data source settings**.
+> 1. Select the drop down for **Clear Permissions**, and then select **Clear All Permissions**.
+> 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
 
 ## V1.63 published on August 24, 2022
 
@@ -90,18 +89,18 @@ Perform the following steps:
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
 
-- [Auto Attendant](media/aa-cq-historical-report-sample-aa-v163.png) – showing analytics for calls coming into your Auto Attendants.
-- [Call Queue](media/aa-cq-historical-report-sample-cq-v163.png) – showing analytics for calls coming into your Call Queues.
-- [Agent Timeline](media/aa-cq-historical-report-sample-at-v163.png) – showing a timeline view of agents being active in Call Queue calls.
+- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your Auto Attendants.
+- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your Call Queues.
+- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in Call Queue calls.
 
 These reports use data from the [Call Quality Dashboard (CQD)](CQD-Power-BI-query-templates.md) data store. 
 
 ## V1.63 Prerequisites
 
 ### Power BI Desktop
-You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-You can use the free version of Power BI Desktop. The minimum compatible version is 2.85.681.0 (September 2020).
+The minimum compatible version is 2.85.681.0 (September 2020).
 
 ### Permissions to access the CQD pipeline
 
@@ -109,49 +108,48 @@ The account you use to view the historical report needs to have permissions to a
 
 ## V1.63 Installation 
 
-The following steps assume you've already installed Power BI Desktop on your computer, and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
-- Download the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) and save the zip file to a directory on your computer.
+1. Download and save the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) zip file on your computer.
 
-- Double-click on the zip file to open it.
+1. Open the zip file.
 
-- Double-click on the "CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit" template file. The Power BI Desktop should launch.
+1. Open the `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` template file. Power BI Desktop should launch.
 
-- You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
+1. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
   :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
-- The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
+1. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
-    ```PowerShell
+    ```powershell
     (Get-CsTenant).ServiceInstance
 
 
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - The region will be displayed after the **/** as in the above example where the region is: noam
+    1. The region will be displayed after the **/** as in the above example where the region is `noam`.
 
- - The report will launch with sample data.
+ 1. The report will launch with sample data.
  
- - To see your own data, select **Refresh** in the Home tab under Queries in Power BI Desktop.
+ 1. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Screenshot selecting the refresh option.":::
 
-- You'll be prompted to sign in. Select **Organizational account** and then select **Sign in**.
+1. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
 
   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login foe V1.63.":::
 
-- Select **Connect** and the data will refresh.
-
+1. Select **Connect**, and the data will refresh.
 
 ## Data latency and AA & CQ analytics
 
 Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
 
-You will have to refresh the data to see any new data.
+You'll have to refresh the data to see any new data.
 
 ## Customization 
 
@@ -164,6 +162,7 @@ The report contains all the data metrics currently available.
 The following steps assume you have already completed the installation steps.
 
 Perform the following steps:
+
 - Select **View tab** on the ribbon.
 
   :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
