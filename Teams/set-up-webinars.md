@@ -61,6 +61,9 @@ You can use the following attributes within the Windows PowerShell **Set-CsTeams
 
 Meeting registration must be turned on to use webinars 2.0.
 
+> [!NOTE]
+> Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
+
 #### Turn on webinars 2.0
 
 1. Turn on meeting registration
@@ -92,15 +95,13 @@ Meeting registration must be turned on to use webinars 2.0.
 
 This will only turn off webinars 2.0. See [Turn off webinars](#turn-off-webinars-completely) if you would like to completely turn off all webinar functionality.
 
-##### PowerShell
-
 ```powershell
 Set-CsTeamsEventsPolicy -AllowWebinars Disabled
 ```
 
 ## Set up webinars 1.0
 
-### Using Teams admin center
+### Teams admin center
 
 You can use the Teams admin center to set up webinars 1.0 for your organization. You'll find the policies to set up webinars in the Teams admin center under **Meetings** > **Meeting policies**.
 
@@ -132,12 +133,7 @@ You can use the following attributes within the Windows PowerShell **Set-CsTeams
 |WhoCanRegister|Everyone|This setting controls who can attend a webinar.|
 |AllowPrivateMeetingScheduling|True|This setting determines whether a user can schedule private meetings.|
 
-> [!NOTE]
-> Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
-
 #### Turn on webinars 1.0
-
-You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone** for the **Global (Org-wide default)** policy. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
 
 > [!IMPORTANT]
 > **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work.
