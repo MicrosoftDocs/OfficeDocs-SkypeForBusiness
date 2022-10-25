@@ -52,7 +52,7 @@ After setting up apps, you can use [app permission policies](/microsoftteams/tea
 
 ## Pin apps on Teams panels with app setup policies
 
-Since Teams offers the capability to display a wide range of apps, admins can decide on which apps are most essential for the organization and pin only these for the Teams panels **Home** screen for quick access. If there are more than five pinned apps or any unpinned apps, they will appear under the **More** screen. Microsoft recommends creating a custom app setup policy specifically for Teams panels.
+Since Teams offers the capability to display a wide range of apps, admins can decide on which apps are most essential for the organization and pin only these for the Teams panels **Home** screen for quick access. If there are more than five pinned apps or any unpinned apps, they will appear under the **More** screen. Microsoft recommends creating a custom policy in app setup policy specifically for Teams panels.
 
 ![User interface screenshot of the app setup policies page.](media/appsetup1.png)
 

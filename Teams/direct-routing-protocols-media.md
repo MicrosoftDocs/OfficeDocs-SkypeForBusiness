@@ -50,7 +50,7 @@ This section briefly captures the requirements for ICE Lite.
 
 ### Candidate gathering
 
-The SBC must offer only one candidate that is publicly reachable. Currently, only IPV4 candidates are supported.
+The SBC must offer only one candidate. Currently, only IPV4 candidates are supported.
 
 
 #### Connectivity checks

@@ -1,5 +1,5 @@
 ---
-title: Set up for webinars in Microsoft Teams 
+title: Set up webinars
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -22,7 +22,7 @@ ms.collection:
 description: Learn how to manage Webinar policies for Teams meetings.
 ---
 
-# Set up for webinars in Microsoft Teams
+# Set up webinars in Microsoft Teams
 
 This article describes how to set up webinars. Microsoft now offers two webinar experiences; this article describes how to configure both.
 

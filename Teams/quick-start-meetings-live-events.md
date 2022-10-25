@@ -97,7 +97,7 @@ If your organization is already using webinars, you're familiar with the Teams M
 - AllowMeetingRegistration (enabled or disabled)
 - WhoCanRegister (everyone in the company excluding guests or everyone)
 
-As of Decembeer 1, 2022, for the next version of webinars, there will be a new Teams Events policy with the following settings:
+With the preview release of Teams Premium, for the next version of webinars, there will be a new Teams Events policy with the following settings:
 
 - AllowWebinars  (enabled or disabled)
 - EventAccessType (everyone in the company excluding guests or everyone)

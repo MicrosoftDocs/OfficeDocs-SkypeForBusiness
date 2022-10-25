@@ -121,7 +121,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 1. Select **Save**.
 
-### Assign a custom app setup policy to users and groups
+### Assign a custom policy in app setup policy to users and groups
 
 To know how to assign policies to your end-users and to groups, see [how to assign policies to users and groups](assign-policies-users-and-groups.md).
 
@@ -146,7 +146,7 @@ Keep in mind that the Teams app store lists all Teams apps. The **Add pinned app
 
 #### I'm a Teams for Education admin. What do I need to know about app setup policies in Teams for Education
 
-The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams.
+The Calling app isn't available in Teams for Education. When you create a new custom policy in app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams.
 
 ### User experience
 
