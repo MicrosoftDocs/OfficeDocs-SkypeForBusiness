@@ -31,9 +31,9 @@ This Power BI template provides three reports that allow organizations to report
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your auto attendants.
-- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your call queues.
-- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in call queue calls.
+- The Auto Attendant report shows analytics for calls coming into your auto attendants.
+- The Call Queue report shows analytics for calls coming into your call queues.
+- The Agent Timeline report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -89,9 +89,9 @@ Perform the following steps:
 
 The **Teams Auto Attendant & Call Queue Historical Report Power BI Template** provides the following three reports:
 
-- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your auto attendants.
-- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your call queues.
-- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in call queue calls.
+- The Auto Attendant report shows analytics for calls coming into your auto attendants.
+- The Call Queue report shows analytics for calls coming into your call queues.
+- The Agent Timeline report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the [Call Quality Dashboard (CQD)](CQD-Power-BI-query-templates.md) data store. 
 
@@ -141,7 +141,7 @@ Perform the following steps:
 
 1. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login foe V1.63.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login for V1.63.":::
 
 1. Select **Connect**, and the data will refresh.
 
