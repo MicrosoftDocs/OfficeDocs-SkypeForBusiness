@@ -1,7 +1,7 @@
 ---
 title: Live events recording policies
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams

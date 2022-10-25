@@ -6,7 +6,9 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection: 
 - M365-collaboration
 appliesto: 
@@ -15,7 +17,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to upload your custom apps to your organization's app store in the Microsoft Teams admin center.
+description: Learn how to upload custom apps to your organization's Teams app store.
 ---
 
 # Publish a custom app by uploading an app package
@@ -25,7 +27,7 @@ description: Learn how to upload your custom apps to your organization's app sto
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see the [Teams developer documentation](/microsoftteams/platform/).
 
-![Overview of your app from development to deployment.](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="Overview of your app from development to deployment.":::
 
 ## Create your app
 
@@ -33,11 +35,11 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 ## Validate
 
-### Get the app package
+### Receive the app package
 
-When the app is ready for use in production, the developer should produce an app package. They can use [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). They'll send you the file in .zip format.
+When the app is ready for use in production, the developer produces an app package using [Developer Portal](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal). The developer shares the app package in .zip format with you.
 
-All apps in Teams store pass a mandatory [app validation](overview-of-app-validation.md) to comply with the quality and security standards of the global Teams apps store. In addition, Microsoft strongly encourages app developers to participate in an optional [app compliance program](overview-of-app-certification.md) that indicates enhanced compliance, security, and privacy controls. For more information, see [Teams app validation guidelines](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+All apps in Teams store pass a mandatory [app validation](overview-of-app-validation.md) to comply with the app quality and security standards of the Teams apps store. In addition, Microsoft strongly encourages app developers to participate in an optional [app compliance program](overview-of-app-certification.md) that indicates enhanced compliance, security, and privacy controls. For more information, see [Teams app validation guidelines](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### Allow trusted users to upload custom apps
 
@@ -78,7 +80,7 @@ To make the app available to users in your organization's app store, upload the 
 
 1. Select **Upload**, select **Upload**, select the app package that you received from the developer, and select **Open**.
 
-   ![Screenshot of custom app upload in the admin center.](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="Screenshot of custom app upload in the admin center.":::
 
 ## Set up and manage
 
@@ -112,7 +114,7 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 ### End-user update experience
 
-In most cases, after you complete an app update the new version automatically appears for end users. For more information, see [end-user update experience](apps-update-experience.md).
+In most cases, after you publish a new version of an app, it is automatically updated for end users. For more information, see [end-user app update experience](apps-update-experience.md).
 
 ## Remove a custom app from your organization's store
 
@@ -128,6 +130,6 @@ To remove an app, follow these steps:
 
 * [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-* [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
+* [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md)
 * [Manage app permission policies in Teams](teams-app-permission-policies.md)
 * [Manage app setup policies in Teams](teams-app-setup-policies.md)

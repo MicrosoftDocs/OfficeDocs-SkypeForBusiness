@@ -12,6 +12,7 @@ description: Learn how to manage the Praise app in the Microsoft Teams admin cen
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ---
 
 # Manage the Praise app in the Microsoft Teams admin center
@@ -38,7 +39,7 @@ If you set the Status to Blocked, the Praise app is blocked within a few minutes
 
 ## Enable or disable Praise for specific users in your organization
 
-To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ## Badges
 
