@@ -440,7 +440,7 @@ The configuration status section of the app settings page will display the real-
 | Course catalog upload       | Not started                                   | Course catalog not submitted. This is an optional step and won't prevent completing the configuration. |
 | Course catalog upload       | Missing: a successful course catalog upload   | Check the course catalog status for details on course catalog processing. |
 | Course catalog upload       | Complete                                      | Setting is complete. |
-| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL not submitted. This is an optional step and won't prevent completing the configuration. |
+| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL not submitted. |
 | LinkedIn school connection  | Missing: an approved LinkedIn School Page URL | Awaiting LinkedIn School Page Super admin verification approval. |
 | LinkedIn school connection  | Complete                                      | No further action needed. Setting is complete. |
 | Fields of study upload      | Not started                                   | Field of study CSV not submitted. This is an optional step and won't prevent completing the configuration. |
