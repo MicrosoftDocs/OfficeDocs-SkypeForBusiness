@@ -23,7 +23,7 @@ ms.custom:
   - ms.lync.lac.ToolsCallQualityDashboard
 description: Learn about how to use Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
-# Auto Attendant & Call Queue Historical Report (2)
+# Auto Attendant & Call Queue Historical Report
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendands and call queues.  It also provides agent performance insites.
 
@@ -31,11 +31,14 @@ This Power BI template provides three reports that allow organizations to report
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- [Auto Attendant](media/aa-cq-historical-report-sample-aa-v300.png) – showing analytics for calls coming into your Auto Attendants.
-- [Call Queue](media/aa-cq-historical-report-sample-cq-v300.png) – showing analytics for calls coming into your Call Queues.
-- [Agent Timeline](media/aa-cq-historical-report-sample-at-v300.png) – showing a timeline view of agents being active in Call Queue calls.
+- [Auto Attendant](media/aa-cq-historical-report-sample-aa-v163.png) – showing analytics for calls coming into your Auto Attendants.
+- [Call Queue](media/aa-cq-historical-report-sample-cq-v163.png) – showing analytics for calls coming into your Call Queues.
+- [Agent Timeline](media/aa-cq-historical-report-sample-at-v163.png) – showing a timeline view of agents being active in Call Queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
+
+>[!NOTE]
+> Historical data collection is in progress across all regions.  Thirty days of historical data will be available at different times, with all regions have a full 30 days of data no later than November 25, 2022.
 
 ## V3.0.0 Prerequisites
 
