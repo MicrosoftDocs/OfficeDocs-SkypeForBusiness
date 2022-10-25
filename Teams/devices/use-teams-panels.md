@@ -188,7 +188,7 @@ On the Teams panel, sign in using your admin credentials.
 
 2. A six-digit code will appear on the Teams Rooms on Android front of room display. Enter the code on the Teams Panel.  
 
-#### Meeting check-in and room release
+#### Enable or disable meeting check-in and room release
 
 Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
 
@@ -196,29 +196,33 @@ When Teams Panels is paired with a Microsoft Teams Room on Android, check-in not
 
 To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
 
-#### Extend room reservation
+#### Enable or disable room reservations
 
-When this feature is turned on, end users can use a Teams panel to extend a meeting's room reservation if the room is available after the meeting's original end time. Reservations can be extended in 15 minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
+When this feature is turned on, end users can use a Teams panel to reserve a room for their use at a time, and for a duration, that it's available. Reservations can be set to start every quarter hour and their duration can be increased in 15-minute increments up to the start time of the next reservation, or to a maximum of 24 hours.
 
-This feature is off by default, and it can be enabled per device. To turn it on, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Extend meeting reservation**.
+This feature is on by default, and it can be disabled per device. To turn it off, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Disable room reservations**.
 
-#### Room capacity warning
+#### Enable or disable extension of existing room reservations
 
-Teams panels that are paired with a Teams Room on Android can display a warning message when a meeting room is at or over capacity. To use this feature, the Teams Room must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
+When this feature is turned on, end users can use a Teams panel to extend a room's existing reservation if the room is available after the reservation's original end time. Reservations can be extended in 15 minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
+
+This feature is off by default, and it can be enabled per device. To turn it on, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Extend room reservation**.
+
+#### Enable or disable room capacity warnings
+
+Teams panels that are paired with a Teams Room on Android can display a warning message when a  room is at or over capacity. To use this feature, the Teams Room must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
 
 Room capacity warnings are turned off by default. To turn the setting on from the Teams panel, first [pair a Teams panel with a Microsoft Teams Room on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Room must be signed into the same resource account.
 
  Then, go to **Settings > Device settings > Teams admin settings > Meetings**. Then, under **Meetings**, turn on **Max room occupancy notification**.
 
-#### View room equipment
+#### Enable or disable viewing of room equipment
 
 When this feature is turned on, end-users can view what equipment is available in a space on a Teams panel.
 
 This feature is off by default, and it can be enabled per device. To turn it on, use [Set-Place](/powershell/module/exchange/set-place) in PowerShell to configure the display names for `AudioDeviceName`, `DisplayDeviceName`, `VideoDeviceName`, `Tags`, and `IsWheelChairAccessible`.
 
 Or, you can enable this feature in the Exchange admin center. See [Edit a resource](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) for more information.
-
-
 
 #### Update the wallpaper
 
