@@ -432,20 +432,20 @@ The configuration status section of the app settings page will display the real-
 | --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
 | Service provisioning status | Career Coach is initializing your tenant.     | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes won't be accepted until initial setup is complete. Estimated time for service provisioning is up to 15 minutes. |
 | Service provisioning status | Career Coach is ready to be configured.       | Career Coach settings page is ready for IT admin to submit settings. |
-| Brand and preferences       | Not started                                   | Settings need to be submitted. |
-| Brand and preferences       | Missing: Learning icon                        | Upload the missing learning content thumbnail image. |
-| Brand and preferences       | Missing: Logo                                 | Upload the missing institution icon. |
-| Brand and preferences       | Missing: Institution name                     | Upload the missing institution name. |
-| Brand and preferences       | Complete                                      | No further action needed. Setting is complete. |
-| Course catalog upload       | Not started                                   | Course catalog CSV needs to be submitted. |
+| Brand and preferences       | Not started                                   | Settings not submitted. This is an optional step and won't prevent completing the configuration. |
+| Brand and preferences       | Missing: Learning icon                        | Upload a learning content thumbnail image. |
+| Brand and preferences       | Missing: Logo                                 | Upload an institution icon. |
+| Brand and preferences       | Missing: Institution name                     | Upload an institution name. |
+| Brand and preferences       | Complete                                      | Setting is complete. |
+| Course catalog upload       | Not started                                   | Course catalog not submitted. This is an optional step and won't prevent completing the configuration. |
 | Course catalog upload       | Missing: a successful course catalog upload   | Check the course catalog status for details on course catalog processing. |
-| Course catalog upload       | Complete                                      | No further action needed. Setting is complete. |
-| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL needs to be submitted. |
+| Course catalog upload       | Complete                                      | Setting is complete. |
+| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL not submitted. This is an optional step and won't prevent completing the configuration. |
 | LinkedIn school connection  | Missing: an approved LinkedIn School Page URL | Awaiting LinkedIn School Page Super admin verification approval. |
 | LinkedIn school connection  | Complete                                      | No further action needed. Setting is complete. |
-| Fields of study upload      | Not started                                   | Field of study CSV needs to be submitted. |
+| Fields of study upload      | Not started                                   | Field of study CSV not submitted. This is an optional step and won't prevent completing the configuration. |
 | Fields of study upload      | Missing: areas of interest                    | Check whether the field of study upload is successful. |
-| Fields of study upload      | Complete                                      | No further action needed. Setting is complete. |
+| Fields of study upload      | Complete                                      | Setting is complete. |
 
 Once all required steps are marked as complete, Career Coach can be successfully released to your tenant.
 
