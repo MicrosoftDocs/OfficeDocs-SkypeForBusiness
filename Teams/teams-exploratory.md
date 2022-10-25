@@ -137,7 +137,9 @@ You can manage users who have the Teams Exploratory license just like you manage
 You must have admin privileges to upgrade users from Teams Exploratory. For more information see [Upgrade users from the Teams Exploratory trial](upgrade-from-teams-exploratory.md).
 
 > [!NOTE]
-> If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams after a 30-days grace period. Another 30 days after which, the data is deleted. The user still exists in Azure Active Directory. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist if the user is added within the grace period time frame.
+> If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams, OneDrive, and Sharepoint after a 30-day grace period. After another 30 days, the associated Teams, OneDrive, and SharePoint data is deleted. The user still exists in Azure Active Directory.
+> 
+> Once a new license is assigned to the user to enable Teams functionality again, all content will still exist if the user is added within the grace period time frame.
 
 ### Remove a Teams Exploratory license
 
