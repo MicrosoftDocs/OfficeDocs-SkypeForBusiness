@@ -21,6 +21,7 @@ description: Get an overview of what port orders are and how to transfer phone n
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 ---
 
 # What's a port order?

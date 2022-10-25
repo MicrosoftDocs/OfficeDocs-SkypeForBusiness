@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
   - M365-voice
   - m365initiative-voice
+  - highpri
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
