@@ -49,7 +49,7 @@ Communications Credits are a convenient way to pay for Calling Plans and Audio C
 >
 > The new commerce experience (NCE) allows customers to pay for services after the services have been consumed, also known as post-usage billing.
 >
-> Because Communication Credits are a pool of outgoing minutes purchased before they're used, customers with NCE calling subscriptions won't be able to purchase Communication Credits.
+> Because Communication Credits is a pre-paid budget to support outgoing minutes, it’s not available to purchase for customers with NCE calling subscriptions.
 >
 > Instead, NCE customers will pay for overage outgoing minutes after they've used them. There's no need for a pool of Communication Credits.
 >
