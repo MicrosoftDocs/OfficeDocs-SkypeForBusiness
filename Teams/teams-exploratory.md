@@ -151,7 +151,7 @@ You must have admin privileges to upgrade users from Teams Exploratory. For more
 
 ## What is the data retention policy
 
-See [Microsoft 365 subscription information](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
+See [Microsoft 365 subscription information](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires).
 
 ## How long does the Teams Exploratory experience last
 
