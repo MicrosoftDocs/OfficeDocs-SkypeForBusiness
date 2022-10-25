@@ -25,15 +25,15 @@ description: Learn about how to use Teams Auto Attendant & Call Queue Historical
 ---
 # Auto Attendant & Call Queue Historical Report
 
-This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendands and call queues.  It also provides agent performance insights.
+This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
 ## V3.0.0 published on October 25, 2022
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your Auto Attendants.
-- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your Call Queues.
-- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in Call Queue calls.
+- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your auto attendants.
+- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your call queues.
+- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -87,11 +87,11 @@ Perform the following steps:
 > [!IMPORTANT]
 > Support for the V1.63 template will end on November 21, 2022.
 
-The Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
+The **Teams Auto Attendant & Call Queue Historical Report Power BI Template** provides the following three reports:
 
-- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your Auto Attendants.
-- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your Call Queues.
-- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in Call Queue calls.
+- [The Auto Attendant report](media/aa-cq-historical-report-sample-aa-v163.png) shows analytics for calls coming into your auto attendants.
+- [The Call Queue report](media/aa-cq-historical-report-sample-cq-v163.png) shows analytics for calls coming into your call queues.
+- [The Agent Timeline report](media/aa-cq-historical-report-sample-at-v163.png) shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the [Call Quality Dashboard (CQD)](CQD-Power-BI-query-templates.md) data store. 
 
@@ -159,7 +159,7 @@ The report contains all the data metrics currently available.
 
 ### Change color schema 
 
-The following steps assume you have already completed the installation steps.
+The following steps assume you've already completed the installation steps.
 
 Perform the following steps:
 
@@ -171,9 +171,9 @@ Perform the following steps:
 
   :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
-## Auto Attendant and Call Queue Historical Reports Definitions
+## Auto attendant and call queue historical reports definitions
 
-### Cloud Auto Attendant Analytics
+### Cloud Auto Attendant Analytics report
 
 #### Report description
 
@@ -216,7 +216,7 @@ Perform the following steps:
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
 |AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 |AACallFlow                              |Text                     |Encapsulates the different states of Auto Attendant Call--possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call could not be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA did not accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
+|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call couldn't be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA didn't accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
 |AA Call Legend                          |Text                     |Sets up legend items based on AACallResult                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                     |
 |AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank              |
@@ -235,7 +235,7 @@ Perform the following steps:
 |Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank              |
 
 
-### Cloud Call Queue Analytics
+### Cloud Call Queue Analytics report
 
 #### Report description
 
@@ -263,11 +263,11 @@ Perform the following steps:
 |Call Queue Resource Account         |fCallQueueAnalytics -> CQ Name        |None                  |
 |Incoming call source<sup>1</sup>    |fCallQueueAnalytics -> Sum of Call Count (Measure)<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Avg Wait Time (seconds)-Before Answered |fCallQueueFinalStateAction -> Avg of Average CQ Duration (Measure) |Call Queue Call Result is agent_joined_conference or transferred_to_agent|
-|Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result is not agent_joined_conference, transferred_to_agent, overflown, timed_out |
+|Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result isn't agent_joined_conference, transferred_to_agent, overflown, timed_out |
 |Call Volume and Agent Opt-In Count   |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Agent Opt In Count<br>fCallQueueAnalytics -> CQ Name<br>fCallQueueAnalytics -> Date |None |
 |Abandoned Calls                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | Call Queue Call Result Legend is Abandoned |
 |Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
-|Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend does not contain Abandoned and Agent Answered |
+|Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
 
 
 #### fCallQueueAnalytics CQD fields description
@@ -307,10 +307,10 @@ Perform the following steps:
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
-|IsAbandoned                             |True/false               |True if call is not answered by an agent                                   |
+|IsAbandoned                             |True/false               |True if call isn't answered by an agent                                   |
 
 
-### Cloud Call Queue Agent Timeline
+### Cloud Call Queue Agent Timeline report
 
 #### Report description
 
@@ -356,17 +356,18 @@ Perform the following steps:
 > [!NOTE]
 > When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
-## Known Issues
+## Known issues
 
 - Call queue and auto attendants are shown by resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
 - Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
-- In some scenarios, the agent answered call count on the Cloud Call Queue Agent Timeline report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there is no estimated time to repair available at this time.
+- In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there's no estimated time to repair available at this time.
 
 - <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
 
-## Version History
+## Version history
+
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
 |3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source.
