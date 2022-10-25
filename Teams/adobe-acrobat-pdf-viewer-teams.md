@@ -66,7 +66,7 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 After you select save, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 
-If you want to selectively allow the Adobe Acrobat app for a few individuals or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
+If you want to selectively allow the Adobe Acrobat app for a few individuals or for a group, you can assign a [custom policy for app permissions](teams-app-permission-policies.md).
 
 Know the following information about this functionality:
 

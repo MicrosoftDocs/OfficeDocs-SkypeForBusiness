@@ -51,7 +51,7 @@ Walkie Talkie is enabled by default for all Teams users in your organization. Yo
 
 ### Enable or disable Walkie Talkie for specific users in your organization
 
-To allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy, add it to an app setup policy, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md) and [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
+To allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions, add it to an app setup policy, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md) and [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
 
 ### Pin Walkie Talkie to Teams
 
@@ -67,7 +67,7 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Walkie Talkie app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Walkie Talkie app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
 
