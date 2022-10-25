@@ -229,8 +229,7 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
 >  
-> If  [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select Serial Routing, Round robin, or Longest idle as the Routing method. If you need to use Attendant routing, set Conference mode to Off.
-
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use Attendant routing, set Conference mode to **Off**.
 
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
