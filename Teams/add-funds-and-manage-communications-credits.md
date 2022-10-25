@@ -13,7 +13,8 @@ search.appverid: MET150
 ms.collection:
   - M365-voice
   - m365initiative-voice
-appliesto:
+  - highpri
+appliesto: 
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium

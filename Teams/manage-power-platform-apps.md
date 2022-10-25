@@ -74,9 +74,9 @@ By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are al
 
 To allow or block specific users in your organization from accessing apps created in Power Apps or Power Virtual Agents, create and assign one or more custom [app permission policies](teams-app-permission-policies.md).
 
-For example, to block specific users from accessing apps created in Power Apps, create a custom app permission policy to block **Shared Power Apps**, and then assign the policy to those users.
+For example, to block specific users from accessing apps created in Power Apps, create a custom policy for app permissions to block **Shared Power Apps**, and then assign the policy to those users.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot of example custom app permission policy with Shared Power Apps blocked.":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot of example custom policy for app permissions with Shared Power Apps blocked.":::
 
 ### Use audit logs to investigate Microsoft Power Platform installation activity
 

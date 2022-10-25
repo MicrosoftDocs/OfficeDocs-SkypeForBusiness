@@ -734,8 +734,6 @@ items:
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
-            - name: Set up Audio Conferencing - quickstart for small and medium businesses
-              href: audio-conferencing-smb.md
         - name: Manage
           items:
             - name: Manage your audio conferencing service
@@ -919,11 +917,11 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
-        - name: Operator Connect Mobile
+        - name: Teams Phone Mobile
           items:
-            - name: Plan for Operator Connect Mobile
+            - name: Plan for Teams Phone Mobile
               href: operator-connect-mobile-plan.md
-            - name: Configure Operator Connect Mobile
+            - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
@@ -1040,7 +1038,7 @@ items:
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
 
-        - name: Manage phone numbers for Operator Connect Mobile
+        - name: Manage phone numbers for Teams Phone Mobile
           href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
@@ -1410,8 +1408,10 @@ items:
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
-            - name: Security
-              href: rooms/security.md
+            - name: Windows security
+              href: rooms/security-windows.md
+            - name: Android security
+              href: rooms/security-android.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -2094,6 +2094,8 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
     - name: Accessibility and conformance
       items: 
+        - name: Accessibility guidance for Teams
+          href: accessibility-guide-admin.md
         - name: Accessibility declaration of conformance in France for Microsoft Teams
           href: accessibility-declaration-of-conformance-in-france-for-teams.md
         - name: Accessibility solutions for Skype for Business Online and Microsoft Teams
@@ -2102,6 +2104,10 @@ items:
           href: code-of-practice-for-the-united-kingdom-u-k.md
         - name: Calling plans in Microsoft 365 - Complaint handling of code for the U.K.
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
+        - name: IP Relay in Canada - sign up
+          href: ip-relay-canada-email-signup.md
+        - name: IP Relay in Canada - user guide
+          href: ip-relay-canada-user-guide.md
         - name: Emergency calling terms and conditions
           href: emergency-calling-terms-and-conditions.md
     - name: Shared channels errors
