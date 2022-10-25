@@ -35,9 +35,9 @@ This article helps you understand the types of apps and where from your users ac
 The different types of apps that your end-users can use in Teams are:
 
 * [Core apps that are part of Teams](#core-apps).
-* Other [apps created by Microsoft](#microsoft-provided-apps).
-* [Third-party apps](#third-party-apps-validated-by-microsoft) by partners (validated by Microsoft).
-* [Custom apps](#custom-apps) created by your own organization.
+* Other [apps created by Microsoft](#apps-created-by-microsoft).
+* [Third-party apps](#third-party-apps-created-by-independent-app-developers) created by partners (validated by Microsoft).
+* [Custom apps](#custom-apps-created-within-an-organization-for-internal-use) created by your own organization.
 
 ## Core apps
 
@@ -53,13 +53,13 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot showing a list of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
-## Apps created by third-party app developers
+## Third-party apps created by independent app developers
 
 In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams' store.":::
 
-## Apps created within an organization for internal use
+## Custom apps created within an organization for internal use
 
 Apps created by developers in your organization are called custom apps (or Line of Business apps). Your organization may commission the creation of custom apps for org-specific requirements. You have the control to allow or block such apps for entire organization or for specific users. Developers in your organization can build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
