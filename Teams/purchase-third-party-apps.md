@@ -1,5 +1,5 @@
 ---
-title: Purchase third-party apps for Teams
+title: Purchase licenses for third-party Teams apps
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -13,12 +13,12 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: 
-description: Learn how to purchase third-party apps from Teams store using a credit card, a debit card, or via invoice billing.
+description: Learn how to purchase licenses third-party apps from Teams store using a credit card, a debit card, or via invoice billing.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Purchase third-party apps for Teams
+# Purchase licenses for third-party Teams apps
 
 Some Teams apps may require purchasing a service subscription to experience the app's full functionality and scope. These service subscriptions are called Software as a Service (SaaS) offers. A license is available for purchase through [AppSource](https://appsource.microsoft.com/) and through the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
