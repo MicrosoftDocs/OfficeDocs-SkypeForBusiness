@@ -114,7 +114,7 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 ### End-user update experience
 
-In most cases, after you publish a new version of an app, it is automatically updated for end users. For more information, see [end-user app update experience](apps-update-experience.md).
+In most cases, after you publish a new version of an app, it is automatically updated for end users who have added the app to their Teams client. For more information, see [end-user app update experience](apps-update-experience.md).
 
 ## Remove a custom app from your organization's store
 
