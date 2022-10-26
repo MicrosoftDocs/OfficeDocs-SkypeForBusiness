@@ -27,7 +27,7 @@ description: Learn about how to use Teams Auto Attendant & Call Queue Historical
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
-## V3.0.0 published on October 25, 2022
+## V3.0.1 published on October 26, 2022
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -40,7 +40,7 @@ These reports use data from the Voice Applications Analytics Collector (VAAC) se
 >[!NOTE]
 > Historical data collection is in progress across all regions.  Thirty days of historical data will be available at different times, with all regions having a full 30 days of data no later than November 25, 2022.
 
-## V3.0.0 Prerequisites
+## V3.x.x Prerequisites
 
 ### Power BI Desktop
 You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
@@ -52,7 +52,7 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 - This requirement will be removed in a future release.
 
-## V3.0.0 Installation 
+## V3.x.x Installation 
 
 The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
@@ -370,7 +370,8 @@ Perform the following steps:
 
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source.
+|3.0.1    |October 26, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |Removed testing data source entry                   |
+|3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source                             |
 |1.63     |August 24, 2022    |CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
 |1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
 |1.00     |November 5, 2020   |CQ and AA combined Analytics 20201105.pbit                         |Initial release                                     |
