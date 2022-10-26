@@ -62,7 +62,7 @@ Perform the following steps:
 
 1. Open the zip file.
 
-1. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` template file. Power BI Desktop should launch.
+1. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.1.pbit` template file. Power BI Desktop should launch.
 
 1. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
@@ -75,9 +75,9 @@ Perform the following steps:
 1. Select **Connect**, and the data will refresh.
 
 > [!NOTE]
-> If you're using v1.63 or earlier, you may encounter an error when v3.0.0 tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
+> If you're using v1.63 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
 > 
-> 1. Open the v3.0.0 template to clear the error. 
+> 1. Open the v3.x.x template to clear the error. 
 > 1. Select **File** > **Options & Settings** > **Data source settings**.
 > 1. Select the drop down for **Clear Permissions**, and then select **Clear All Permissions**.
 > 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
