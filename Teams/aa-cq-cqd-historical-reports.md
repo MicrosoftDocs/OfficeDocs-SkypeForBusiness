@@ -58,7 +58,7 @@ The following steps assume you've already installed Power BI Desktop on your com
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.0.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 1. Open the zip file.
 
