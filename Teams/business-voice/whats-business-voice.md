@@ -19,6 +19,7 @@ ms.custom:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Teams Phone System guidance for small and medium businesses

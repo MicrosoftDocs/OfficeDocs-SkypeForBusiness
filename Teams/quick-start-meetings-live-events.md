@@ -18,6 +18,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
