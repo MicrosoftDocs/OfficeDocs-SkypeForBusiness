@@ -133,12 +133,6 @@ To set up webinars 1.0, use the following attributes within the Windows PowerShe
 |WhoCanRegister|Everyone|This setting controls who can attend a webinar.|
 |AllowPrivateMeetingScheduling|True|This setting determines whether a user can schedule private meetings.|
 
-<<<<<<< Updated upstream
-=======
-> [!NOTE]
-> Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
-
->>>>>>> Stashed changes
 #### Turn on webinars 1.0
 
 > [!IMPORTANT]
@@ -183,7 +177,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 
 Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) for more information on the cmdlet.
 
-## Turn off webinars completely
+## Turn off webinars
 
 ### Teams admin center
 
