@@ -47,23 +47,23 @@ The following table shows a list of Teams features that may be useful for managi
 |Who can present|Yes|No|Yes|No|
 |Who can record|Yes|Yes|Yes|No|
 
-
+Can disable chat or restrict anonymous participants.
 
 |Feature|Teams admin policy|Sensitivity label|Meeting template|Meeting organizer|
 |:------|:-----------------|:----------------|:---------------|:----------------|
-|Allow chat|Can disable chat or restrict anonymous participants.|Can disable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|
+|Allow chat|Can be set to On, Off, or On for everyone except anonymous participants. If set to Off, then not available in labels, templates, or meeting settings.|Can disable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|
 |Allow dial-in users to bypass the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|
 |Disable camera for attendees|No setting|No setting|Can prevent or allow camera for attendees|Can prevent or allow camera for attendees if not locked by a template|
 |Disable mic for attendees|No setting|No setting|Can prevent or allow mic for attendees|Can prevent or allow mic for attendees if not locked by a template|
-|End-to-end encryption|||||
-|Manage what attendees see|||||
-|Prevent copying chat content to clipboard|||||
-|Record automatically|||||
-|Watermark camera streams|||||
-|Watermark screenshare|||||
+|End-to-end encryption|When On, end-to-end encryption can be turned on by a sensitivity label or the meeting organizer.||No setting|Meeting organizer can turn on or off unless the setting is disabled by admin policy or enforced on or off by a sensitivity label.|
+|Manage what attendees see|No setting|No setting|Can be set to On or Off and can enforce the setting or allow the meeting organizer to change it.|Can be set to On or Off unless enforced by a template.|
+|Prevent copying chat content to clipboard|No setting|Can prevent the meeting chat from being copied. (Does not apply to anonymous participants.)|No setting|No setting|
+|Record automatically|No setting|Can enforce or prevent automatic meeting recording.|Can be set to On or Off and can enforce the setting or allow the meeting organizer to change it. Sensitivity label overrides if used.|Can be set to On or Off unless enforced by a template or sensitivity label.|
+|Watermark camera streams|Can be set to On or Off. If set to off, then not available in sensitivity labels or meeting settings.|Can enforce or prevent watermarks on camera streams.|No setting|Meeting organizer can turn on or off unless the setting is disabled by admin policy or enforced on or off by a sensitivity label.|
+|Watermark screenshare|Can be set to On or Off. If set to off, then not available in sensitivity labels or meeting settings.|Can enforce or prevent watermarks on screenshared content.|No setting|Meeting organizer can turn on or off unless the setting is disabled by admin policy or enforced on or off by a sensitivity label.|
 |Who can bypass the lobby|||||
-|Who can present|||||
-|Who can record|||||
+|Who can present|No setting||No setting||
+|Who can record|No setting||||
 
 
 Templates can enforce settings
