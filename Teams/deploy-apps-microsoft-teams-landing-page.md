@@ -83,7 +83,7 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 ## Understand app capabilities
 
-The Microsoft Teams platform offers a large variety of features. Each feature is a way of interacting with users that makes the Teams app capability relevant to the users need. Capabilities are the core functionalities that can be built in an app to enable integration and interaction.
+Teams app Capabilities are the core functionalities that can be built in an app to enable integration and interaction.
 
 :::row:::
     :::column span="":::
@@ -99,11 +99,11 @@ To provide rich experience that allows end-users to work inside Teams, app devel
 
 * **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
-  Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization. For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).
+  Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization. For information about turning custom bots on or off, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 
 * **Tabs**: Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. They're simple HTML <iframe\> tags that point to domains declared in the app manifest and can be added as part of a channel inside a team, group chat, or personal app for an individual user. For more information, see [Microsoft Teams tabs](/microsoftteams/platform/tabs/what-are-tabs).
 
-  In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, developers can design and add custom tabs. To learn about turning Teams apps on or off for your organization, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).
+  In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, developers can design and add custom tabs. For more information, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks and connectors**: Webhooks and connectors help to connect the web services to channels and teams in Microsoft Teams. Webhooks are user defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It's a way for an app to get real time data. Connectors allow users to subscribe to receive notifications and messages from your web services. For more information, see [Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 
@@ -114,8 +114,6 @@ To provide rich experience that allows end-users to work inside Teams, app devel
 * **Meeting extensions**: Users can enhance the meeting experience by integrating tabs, bots, and message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
 * **Cards and task modules**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
-
-* **Microsoft Power Platform apps**: Power Apps is a low-code or no-code application development environment that app creators in your organization can use to build custom apps. Low-code custom apps save time, provide speedy solutions, and meet the same demand as apps created from scratch. They allow the developers without experience, to build custom apps easily with little or no coding, and professional developers to develop and deploy the app quickly. As an admin, you can control whether Microsoft Power Platform apps are listed in **Built with Power Platform** on the Apps page in Teams. For more information, see [Manage Microsoft Power Platform apps in the Teams admin center](manage-power-platform-apps.md).
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
 
@@ -190,10 +188,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## Related article
+## Related articles
 
 * [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).
 
-* [Admin settings for apps in Teams](admin-settings.md)
+* [Overview of app management and governance in Teams admin center](manage-apps.md)
 
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
