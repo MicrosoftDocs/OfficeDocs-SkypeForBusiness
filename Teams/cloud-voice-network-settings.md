@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

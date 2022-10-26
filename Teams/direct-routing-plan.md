@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -309,7 +310,6 @@ The media traffic flows via components called media processors. Media processors
 - Japan (JP East and West datacenters)
 - Australia (AU East and Southeast datacenters)
 - LATAM (Brazil South)
-- Africa (South Africa North)
 
 ## Media traffic: Codecs
 

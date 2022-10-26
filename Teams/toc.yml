@@ -734,8 +734,6 @@ items:
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
-            - name: Set up Audio Conferencing - quickstart for small and medium businesses
-              href: audio-conferencing-smb.md
         - name: Manage
           items:
             - name: Manage your audio conferencing service
@@ -919,11 +917,11 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
-        - name: Operator Connect Mobile
+        - name: Teams Phone Mobile
           items:
-            - name: Plan for Operator Connect Mobile
+            - name: Plan for Teams Phone Mobile
               href: operator-connect-mobile-plan.md
-            - name: Configure Operator Connect Mobile
+            - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
@@ -1040,7 +1038,7 @@ items:
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
 
-        - name: Manage phone numbers for Operator Connect Mobile
+        - name: Manage phone numbers for Teams Phone Mobile
           href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
@@ -1396,6 +1394,8 @@ items:
               href: rooms/rooms-licensing.md
             - name: Teams Rooms admin center licensing
               href: rooms/admin-center-license-overview.md
+            - name: Teams Rooms legacy licensing
+              href: rooms/rooms-legacy-licensing.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1408,8 +1408,10 @@ items:
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
-            - name: Security
-              href: rooms/security.md
+            - name: Windows security
+              href: rooms/security-windows.md
+            - name: Android security
+              href: rooms/security-android.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1607,7 +1609,7 @@ items:
           href: purchase-third-party-apps.md
         - name: Adobe Acrobat as default PDF viewer in Teams
           href: adobe-acrobat-pdf-viewer-teams.md
-        - name: Manage Microsoft 365 and custom connectors
+        - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
         - name: Customize app branding using app customization
           href: customize-apps.md
@@ -1618,7 +1620,7 @@ items:
       items:
         - name: Manage custom and sideloaded apps
           href: custom-app-overview.md
-        - name: Manage custom app policies and settings
+        - name: Manage policies and settings for custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
@@ -1639,8 +1641,6 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-          - name: Manage custom app policies and settings
-            href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Review Azure AD permissions and grant admin consent
@@ -1651,9 +1651,7 @@ items:
           href: app-permissions.md
         - name: Brand your org app store
           href: customize-your-app-store.md
-        - name: Manage access to apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
-        - name: Use apps as external or guest users
+        - name: Use apps as external user or guest
           href: non-standard-users.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
@@ -2096,6 +2094,8 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
     - name: Accessibility and conformance
       items: 
+        - name: Accessibility guidance for Teams
+          href: accessibility-guide-admin.md
         - name: Accessibility declaration of conformance in France for Microsoft Teams
           href: accessibility-declaration-of-conformance-in-france-for-teams.md
         - name: Accessibility solutions for Skype for Business Online and Microsoft Teams
@@ -2104,6 +2104,10 @@ items:
           href: code-of-practice-for-the-united-kingdom-u-k.md
         - name: Calling plans in Microsoft 365 - Complaint handling of code for the U.K.
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
+        - name: IP Relay in Canada - sign up
+          href: ip-relay-canada-email-signup.md
+        - name: IP Relay in Canada - user guide
+          href: ip-relay-canada-user-guide.md
         - name: Emergency calling terms and conditions
           href: emergency-calling-terms-and-conditions.md
     - name: Shared channels errors

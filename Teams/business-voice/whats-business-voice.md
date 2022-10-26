@@ -1,7 +1,7 @@
 ---
 title: Teams Phone System guidance for small and medium businesses
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,6 +19,7 @@ ms.custom:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Teams Phone System guidance for small and medium businesses
