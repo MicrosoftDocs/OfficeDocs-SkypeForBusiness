@@ -49,23 +49,21 @@ The following table shows a list of Teams features that may be useful for managi
 
 
 
-
-
-|Feature|Meeting organizer|Meeting template|Sensitivity label|Teams admin policy|
-|:------|:----------------|:---------------|:----------------|:-----------------|
-|Allow chat|Yes|Yes|Yes|When enabled, can be controlled by label, template, or organizer.|
-|Allow dial-in users to bypass the lobby|Yes|Yes|Yes|Yes|
-|Disable camera for attendees|Yes|Yes|No|No|
-|Disable mic for attendees|Yes|Yes|No|No|
-|End-to-end encryption|Yes|No|Yes|Yes|
-|Manage what attendees see|Yes|Yes|No|No|
-|Prevent copying chat content to clipboard|No|No|Yes|No|
-|Record automatically|Yes|Yes|Yes|No|
-|Watermark camera streams|Yes|No|Yes|Yes|
-|Watermark screenshare|Yes|No|Yes|Yes|
-|Who can bypass the lobby|Yes|Yes|Yes|Yes|
-|Who can present|Yes|No|Yes|No|
-|Who can record|Yes|Yes|Yes|No|
+|Feature|Teams admin policy|Sensitivity label|Meeting template|Meeting organizer|
+|:------|:-----------------|:----------------|:---------------|:----------------|
+|Allow chat|Can disable chat or restrict anonymous participants.|Can disable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|
+|Allow dial-in users to bypass the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|
+|Disable camera for attendees|No setting|No setting|Can prevent or allow camera for attendees|Can prevent or allow camera for attendees if not locked by a template|
+|Disable mic for attendees|No setting|No setting|Can prevent or allow mic for attendees|Can prevent or allow mic for attendees if not locked by a template|
+|End-to-end encryption|||||
+|Manage what attendees see|||||
+|Prevent copying chat content to clipboard|||||
+|Record automatically|||||
+|Watermark camera streams|||||
+|Watermark screenshare|||||
+|Who can bypass the lobby|||||
+|Who can present|||||
+|Who can record|||||
 
 
 Templates can enforce settings
