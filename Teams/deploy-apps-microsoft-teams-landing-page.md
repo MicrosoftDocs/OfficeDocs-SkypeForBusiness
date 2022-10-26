@@ -9,6 +9,7 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 10/01/2022
 ms.collection: 
   - M365-collaboration
   - m365-frontline
@@ -34,9 +35,9 @@ This article helps you understand the types of apps and where from your users ac
 The different types of apps that your end-users can use in Teams are:
 
 * [Core apps that are part of Teams](#core-apps).
-* Other [apps created by Microsoft](#microsoft-provided-apps).
-* [Third-party apps](#third-party-apps-validated-by-microsoft) by partners (validated by Microsoft).
-* [Custom apps](#custom-apps) created by your own organization.
+* Other [apps created by Microsoft](#apps-created-by-microsoft).
+* [Third-party apps](#third-party-apps-created-by-independent-app-developers) created by partners (validated by Microsoft).
+* [Custom apps](#custom-apps-created-within-an-organization-for-internal-use) created by your own organization.
 
 ## Core apps
 
@@ -44,7 +45,7 @@ Some Teams functionalities such as activity feed, teams, chat, calendar, calls, 
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
-## Microsoft-provided apps
+## Apps created by Microsoft
 
 Microsoft provides many apps to improve productivity and collaboration. You and end-users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
 
@@ -52,13 +53,13 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot showing a list of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
-## Third-party apps validated by Microsoft
+## Third-party apps created by independent app developers
 
-In addition to Microsoft-provided apps, you can use Microsoft-validated third-party apps. Microsoft validates the functionality and security of these apps before making these apps available in Teams store. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md).
+In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams' store.":::
 
-## Custom apps
+## Custom apps created within an organization for internal use
 
 Apps created by developers in your organization are called custom apps (or Line of Business apps). Your organization may commission the creation of custom apps for org-specific requirements. You have the control to allow or block such apps for entire organization or for specific users. Developers in your organization can build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
@@ -124,9 +125,9 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 ## Understand app capabilities
 
-To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to the Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
+To provide rich experiences that allow end-users to work inside Teams, app developers use the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
 
-Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can chat with a bit one-on-one or in a channel. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
+Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can chat with a bot one-on-one or in a channel. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
 
 Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. You can add tabs as part of a channel inside a team, group chat, or personal app for an individual user.
 
