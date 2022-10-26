@@ -117,9 +117,9 @@ Here's an overview of the steps to migrate your Shifts data to another tenant.
     1. Select a date range.
     1. Turn on **Export in a format that can be imported**, and then select **Export**. Shifts schedule data is exported to an Excel file.
 1. As part of the migration, if any team members are switching their email domain, manually update the Excel file to change the user principal name (UPN) of those users to the destination tenant domain.
-1. In the destination tenant, import the schedule data for each team.
+1. In the destination tenant, import the schedule to each team.
     1. In Shifts, on the **Schedule** page, go to **More options (...)** > **Import schedule**.
-    1. Select **Upload file**, go to the Excel file that you exported, and then select **Open**.
+    1. Select **Upload file**, go to the Excel file for that team, and then select **Open**.
 
 To learn more, see [The Excel template for Shifts](https://support.microsoft.com/office/the-excel-template-for-shifts-6fc6a206-e7cc-4907-87b8-a296bae84ce3).
 
