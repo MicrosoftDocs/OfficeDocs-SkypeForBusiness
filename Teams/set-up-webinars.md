@@ -24,7 +24,7 @@ description: Learn how to manage Webinar policies for Teams meetings.
 
 # Set up webinars in Microsoft Teams
 
-This article describes how to set up webinars. Microsoft now offers two webinar experiences; this article describes how to configure both.
+Microsoft now offers two webinar experiences; this article describes how to configure both.
 
 Microsoft will be investing in webinars 2.0 going forward. We recommend that you use 2.0 if you plan to use webinars.
 
@@ -48,11 +48,11 @@ For more information about the differences between meetings, webinars, and live 
 
 ## Set up webinars 2.0
 
-You must use PowerShell to set up webinars 2.0 for your organization, as the ability to configure this in the Teams admin center is not available yet.
+You must use PowerShell to set up webinars 2.0 for your organization. (The ability to configure webinars 2.0 in the Teams admin center is not available yet.)
 
 ### Using PowerShell
 
-You can use the following attributes within the Windows PowerShell **Set-CsTeamsEventsPolicy** cmdlet to set up webinars 2.0 in Teams.
+To set up webinars 2.0, use the following attributes within the Windows PowerShell **Set-CsTeamsEventsPolicy** cmdlet.
 
 |Parameter|Default Setting|Description|
 |---------|-----------|---------------|
@@ -93,7 +93,7 @@ Meeting registration must be turned on to use webinars 2.0.
 
 #### Turn off webinars 2.0
 
-This will only turn off webinars 2.0. See [Turn off webinars](#turn-off-webinars-completely) if you would like to completely turn off all webinar functionality.
+This will turn off webinars 2.0. To turn off all webinar functionality, see [Turn off webinars](#turn-off-webinars-completely).
 
 ```powershell
 Set-CsTeamsEventsPolicy -AllowWebinars Disabled
@@ -125,7 +125,7 @@ When this is on, organizers can see reports of who registered and attended the w
 
 ### Using PowerShell
 
-You can use the following attributes within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet to set up webinars 1.0 in Teams.
+To set up webinars 1.0, use the following attributes within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet.
 
 |Parameter|Default Setting|Description|
 |---------|-----------|---------------|
@@ -133,24 +133,30 @@ You can use the following attributes within the Windows PowerShell **Set-CsTeams
 |WhoCanRegister|Everyone|This setting controls who can attend a webinar.|
 |AllowPrivateMeetingScheduling|True|This setting determines whether a user can schedule private meetings.|
 
+<<<<<<< Updated upstream
+=======
+> [!NOTE]
+> Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
+
+>>>>>>> Stashed changes
 #### Turn on webinars 1.0
 
 > [!IMPORTANT]
 > **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work.
 
-1. Turn on meeting registration
+1. Turn on meeting registration:
 
     ```powershell
     Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
     ```
 
-1. Turn on private meeting scheduling
+1. Turn on private meeting scheduling:
 
     ```powershell
     Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
     ```
 
-1. Configure who can register for webinars
+1. Configure who can register for webinars:
 
     - **Allow *only* users in your organization to register for webinars**
 
