@@ -27,6 +27,10 @@ appliesto:
 
 # Meetings, webinars, and live events
 
+**ADD FINAL PREVIEW RELEASE DISCLAIMER**
+
+**This article describes some features, webinar 2.0, that are in preview release.**
+
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
 This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
@@ -39,7 +43,7 @@ The following table summarizes the three types of meetings, the number of recomm
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | No |
+| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes, with Meetings with registration (webinars 1.0) |
 | Webinars | - Up to 1,000<br>- Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |- Participants up to 1,000 have fully interactive capabilities.<br> - Audience interaction configurable.<br> - Can specify presenters. | Yes |
 | Live events | Up to 20,000** |- Broadcast to large audiences. <br>- Moderated Q&A for audience interaction. <br> - Can specify producers and presenters, including external presenters.<br>- Supports more advanced production capabilities. | No |
 
@@ -97,7 +101,7 @@ If your organization is already using webinars, you're familiar with the Teams M
 - AllowMeetingRegistration (enabled or disabled)
 - WhoCanRegister (everyone in the company excluding guests or everyone)
 
-With the preview release of Teams Premium, for the next version of webinars, there will be a new Teams Events policy with the following settings:
+With the release of webinar 2.0, there will be a new Teams Events policy with the following settings:
 
 - AllowWebinars  (enabled or disabled)
 - EventAccessType (everyone in the company excluding guests or everyone)
@@ -109,6 +113,8 @@ The new policy will continue to support registration and tracking, and it will p
 - Banner logo and predefined color
 - Registration overview and management.
   For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
+
+Note that some webinar 2.0 features will only be available with a Teams Premium license.  For more information, see **INCLUDE LINK TO ROADMAP AND/OR LICENSING DOC.**
 
 While both versions of webinars will continue to be available, you'll want to start using the new policy to take advantage of new functionality as it becomes available.
 

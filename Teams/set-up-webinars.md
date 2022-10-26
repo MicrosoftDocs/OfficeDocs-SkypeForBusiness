@@ -24,6 +24,10 @@ description: Learn how to manage Webinar policies for Teams meetings.
 
 # Set up webinars in Microsoft Teams
 
+**ADD PREVIEW RELEASE DISCLAIMER**
+
+**This article describes some features, webinar 2.0, that are in preview release.**
+
 Microsoft now offers two webinar experiences; this article describes how to configure both.
 
 Microsoft will be investing in webinars 2.0 going forward. We recommend that you use 2.0 if you plan to use webinars.
