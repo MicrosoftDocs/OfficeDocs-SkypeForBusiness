@@ -113,7 +113,7 @@ Consider the following details about app customization functionality:
 
 * You'll have only one version of the app, since customizing the app details doesn't create a copy of the app.
 
-* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developer provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
+* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
 
 * Admin-provided customization data is stored in the nearest data storage region.
 
