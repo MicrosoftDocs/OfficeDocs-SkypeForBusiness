@@ -76,13 +76,15 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated September 2022*
+*Table Updated October 2022*
 
 > [!NOTE]
 > The date format is MMDDYYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Cisco                |Desk Camera 4K                                             |10/15/2022      |Certified for Microsoft Teams                           |
+|EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Brio 500/505 Cameras                                       |9/14/2022       |Certified for Microsoft Teams                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
