@@ -83,7 +83,7 @@ The tenant global administrator is the only person within your organization who 
 
 ## More information
 
-[Get started with Career Coach for Microsoft Teams](career-coach.md)
-[Privacy Frequently Asked Questions](https://privacy.microsoft.com/faq)
-[Microsoft products and your data - Microsoft Privacy](https://privacy.microsoft.com/privacy-in-our-products)
-[Microsoft Account Privacy Settings](https://account.microsoft.com/account/privacy?refd=privacy.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2F%3Frefd%3Dprivacy.microsoft.com&destrt=privacy-dashboard)
+- [Get started with Career Coach for Microsoft Teams](career-coach.md)
+- [Privacy Frequently Asked Questions](https://privacy.microsoft.com/faq)
+- [Microsoft products and your data - Microsoft Privacy](https://privacy.microsoft.com/privacy-in-our-products)
+- [Microsoft Account Privacy Settings](https://account.microsoft.com/account/privacy?refd=privacy.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2F%3Frefd%3Dprivacy.microsoft.com&destrt=privacy-dashboard)
