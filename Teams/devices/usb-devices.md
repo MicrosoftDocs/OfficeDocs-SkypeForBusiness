@@ -79,7 +79,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 *Table Updated October 2022*
 
 > [!NOTE]
-> The date format is MMDDYYYY.
+> The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
