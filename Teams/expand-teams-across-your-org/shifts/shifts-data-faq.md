@@ -108,7 +108,7 @@ Before you migrate your Shifts data, make sure the following requirements are me
 
 - The destination tenant domain, teams, and team members must already exist. The migration doesn't create teams or change team membership or ownership.
 - The Shifts app must be set up in teams in the destination tenant and have an empty schedule. Keep in mind that the migration doesn't replace or delete existing data. This means that if a team has an existing schedule, users may see duplicate or conflicting shifts, which need to be manually resolved.
-- Open requests (such as swap and time off requests) that are pending approval aren't migrated. We recommend closing any open requests before you start the migration process.
+- Open requests (such as swap and time off requests) that are pending approval aren't migrated. We recommend closing any open requests before you start migrating data.
 
 Here's an overview of the steps to migrate your Shifts data to another tenant.
 
