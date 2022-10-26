@@ -93,7 +93,7 @@ Meeting registration must be turned on to use webinars 2.0.
 
 #### Turn off webinars 2.0
 
-This will turn off webinars 2.0. To turn off all webinar functionality, see [Turn off webinars](#turn-off-webinars-completely).
+This will turn off webinars 2.0. To turn off all webinar functionality, see [Turn off webinars](#turn-off-webinars).
 
 ```powershell
 Set-CsTeamsEventsPolicy -AllowWebinars Disabled
