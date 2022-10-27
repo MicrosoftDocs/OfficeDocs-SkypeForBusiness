@@ -600,7 +600,7 @@ items:
           href: quick-start-meetings-live-events.md
         - name: Manage meeting policies
           items: 
-            - name: Overvieww
+            - name: Overview
               href: meeting-policies-overview.md
             - name: General policies
               href: meeting-policies-in-teams-general.md
