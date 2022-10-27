@@ -76,7 +76,7 @@ The previews of your uploaded images can be found in a new table under the **Cus
 
 ### Saving org wide background images
 
-The previews of your uploaded images are in a new table under the **Custom meeting backgrounds** section that displays the name and resolution of your images. Once you confirm your choice of uploaded images, select the **Save** button, below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your end users with a Teams Premium license.
+You'll previews of your uploaded images in a new table under the **Custom meeting backgrounds** section. This table also displays the name and resolution of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your end users with a Teams Premium license.
 
 ## Where are Meeting Themes visible
 
