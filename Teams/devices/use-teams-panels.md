@@ -178,6 +178,9 @@ To access the **Teams admin settings** option:
 
 3. Scroll down to find the **Teams admin settings** option. Tap it.
 
+> [!NOTE]
+> Some OEMs may replace the **Teams admin settings** option with their own custom option. If you don't see the **Teams admin settings** option, check your device documentation for instructions on how to access your panel's admin settings.
+
 #### Pair a Teams panel with a Microsoft Teams Room on Android
 
 To pair a Teams panel and Teams Room on Android, both devices must be signed into the same resource account.
@@ -198,7 +201,7 @@ To enable check-in and room release, see [Check-in and room release on Microsoft
 
 #### Enable or disable room reservations
 
-When room reservations are enabled, end users can use a Teams panel to reserve a room for their use at a time, and for a duration, that it's available. Reservations can be set to start every quarter hour and their duration can be increased in 15-minute increments up to the start time of the next reservation, or to a maximum of 24 hours.
+When room reservations are enabled, end users can use a Teams panel to reserve a room that's currently available. Reservations start at the time the **Reserve** button is tapped and their duration can be increased in 15-minute increments up to the start time of the next reservation, or to a maximum of 24 hours.
 
 This feature is enabled by default, but it can be disabled per device. To disable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Disable room reservations**.
 
