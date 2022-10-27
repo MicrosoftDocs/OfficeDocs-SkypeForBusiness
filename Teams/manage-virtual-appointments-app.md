@@ -81,7 +81,7 @@ To learn more, see [Monitor appointments and get real-time status updates](https
 
 Get insight into usage activity and trends in your organization to help optimize Virtual Appointments to deliver better business outcomes. The analytics experience depends on user role.
 
-Admins see the following reports, showing aggregated analytics across the organization:
+Admins see the following reports (which are also in the Teams admin center), showing aggregated analytics across the organization:
 
 - The [Teams Virtual Appointments usage report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) gives admins an overview of Teams Virtual Appointments activity in your organization. This report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows for appointments created and conducted through multiple scheduling entry points.
 
