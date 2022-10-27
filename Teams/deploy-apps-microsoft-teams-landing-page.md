@@ -71,7 +71,7 @@ For more information, see [Understand and manage custom and sideloaded apps](cus
 
 ## User app experience in Teams
 
-Users can view all the apps available in Teams from the Teams apps store in Teams desktop or web client. Every organization can customize their Teams experience; the apps shown may vary between companies, teams, and individuals. Users can browse the apps in Teams in the following ways:
+Users can view all the apps available in Teams from the Teams apps store in Teams desktop or web client. Every organization can customize their Teams experience. Users can browse the apps in Teams in the following ways:
 
   1. Search by name
   1. Browse by featured, categories, and Industries.
@@ -86,30 +86,10 @@ Users can view all the apps available in Teams from the Teams apps store in Team
 
 Users can find and add apps to Teams from the Teams app store. They can also add apps directly from the context they're working in, such as chat or channel tab, Teams meeting, or messaging area. For more information, see [add an app to Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
 
-A user can add and use an app only when an admin allows the app via the org-wide setting and for the user via app permission policy. An organization's IT admin has complete control over who can install which apps in which context. Users can't add apps that are blocked, any app that has a lock icon in the Teams store is blocked for the user. However, [users can request their org’s IT admin for their approval](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). After the app is approved, users can add the app from the Teams store.
+A user can add and use an app only when an admin allows the app via the org-wide setting and for the user via app permission policy. An organization's IT admin has complete control over who can install which apps in which context. Users can't add apps that are blocked, any app with a lock icon in the Teams store is blocked for the user. However, [users can request their org’s IT admin for their approval](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). After the app is approved, users can add the app from the Teams store.
 
 > [!NOTE]
 > Only individuals can request approval to add an app.
-
-### Access apps in Teams
-
-Users can view all the apps installed in their Teams client, Sign in to Teams, in the left menu, select the More added apps icon (**…**). The types of apps available are:
-
-* **Personal apps**: Any apps the user has added.
-
-* **Team apps**: Apps that have been added by your IT admin or a coworker.
-
-* **Custom apps**: Custom apps that are installed in your Teams client.
-
-To view apps for a particular team, Sign in to Teams, search for a team you want to view apps for and then select the More icon (**...**) > **Manage team**. In the manage teams page, select the **Apps** tab.
-
-### Update apps in Teams
-
-Users can update apps from the **Manage your apps** page in teams and also from all the contexts where the app is installed.
-
-:::image type="content" source="media/user-app-experience-update-app.png" alt-text="Screenshot shows the option to update an app in the manage apps page in Teams.":::
-
-When a new version of an installed app is available in the Teams store, the app is automatically updated for all users. However, a few specific changes in the new version of the app require a user permission again. In such scenarios, Teams admins can provide permissions to an app on behalf of the users. For more information, see [Teams app updates and admin role](apps-update-experience.md).
 
 ## About App Templates
 
@@ -208,6 +188,8 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## Related article
+## Related articles
 
 * [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).
+
+* [Teams app updates and admin role](apps-update-experience.md).
