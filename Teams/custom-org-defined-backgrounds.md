@@ -46,7 +46,7 @@ Admins can upload and manage customized org defined backgrounds for Teams meetin
 ### Enabling the custom background policy
 
 Meeting Branding lives on the Customization Policies page in the Teams admin center. As an admin, to create custom backgrounds, you'll need to create a new meeting customization policy or modify the organizational global default policy.
-To enable the custom background policy, admins will perform the following:
+To enable the custom background policy, admins will perform the following steps:
 
 1. Open the Teams admin center
 2. Select **Meetings** from the navigation pane
@@ -76,7 +76,7 @@ The previews of your uploaded images can be found in a new table under the **Cus
 
 ### Saving org wide background images
 
-You'll previews of your uploaded images in a new table under the **Custom meeting backgrounds** section. This table also displays the name and resolution of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your end users with a Teams Premium license.
+You'll find previews of your uploaded images in a new table under the **Custom meeting backgrounds** section. This table also displays the name and resolution of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your end users with a Teams Premium license.
 
 ## Where are Meeting Themes visible
 
