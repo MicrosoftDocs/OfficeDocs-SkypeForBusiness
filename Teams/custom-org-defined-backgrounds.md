@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Using approved corporate assets like backgrounds to create custom backgrounds for Teams meetings within your organization.
 ---
 
-# Custom organization branding for Teams meetings
+# Custom org defined backgrounds for Teams Meetings
 
 > [!NOTE]
 > Custom Org Defined Backgrounds is part of the Teams Premium Offering. To allow users to apply org wide backgrounds during a meeting, users must be assigned a Teams Premium license.  
