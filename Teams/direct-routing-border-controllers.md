@@ -65,9 +65,9 @@ Note that we are not accepting new nominations for certification until further n
 ||SBC 5400|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1))|&#10004;||
 ||SBC 7000|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
 ||All SBC SWe variants, including hosted offers|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
-||SBC 1000|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
-||SBC SWe Lite|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
+||SBC 1000|&#10004;|&#10004;|8.x, 9.x or 11.x|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|8.x, 9.x or 11.x|&#10004;|&#10004;|
+||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|8.x, 9.x or 11.x|&#10004;|&#10004;|
 ||EdgeMarc Series|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
