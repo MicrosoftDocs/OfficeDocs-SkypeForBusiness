@@ -30,7 +30,7 @@ Branding in Teams meetings allows organizations to extend their visual identitie
 
 By default, Teams premium licensed users who are either admins or have been assigned a meeting customization policy can create meetings that feature custom organizational defined backgrounds. These custom backgrounds can be selected by your end users with a premium license within your organization.
 
-## Pre-requisites
+## Prerequisites
 
 Before setting up Org Defined Backgrounds for your Teams Meetings, check to make sure you have the following items:
 
