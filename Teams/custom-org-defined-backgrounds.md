@@ -15,7 +15,7 @@ f1.keywords:
   - CSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Using approved corporate assets like backgrounds to create a custom backgrounds for Teams meetings within your organization.
+description: Using approved corporate assets like backgrounds to create custom backgrounds for Teams meetings within your organization.
 ---
 
 # Custom organization branding for Teams meetings
@@ -63,8 +63,8 @@ Now that you’ve enabled the custom background policy, you can upload your cust
 Uploads must adhere to the following parameters. Admins can upload:
 
 - PNG and JPEG image formats for their images
-- Images with minimum dimensions of 360px X 360px
-- Images with minimum dimensions of 3840px X 2160px
+- Images with minimum dimensions of 360 px X 360 px
+- Images with minimum dimensions of 3840 px X 2160 px
 - A maximum of 50 custom background images
 
 To upload your images, navigate to **Meetings** > **Customization Policies** and select your policy from the previous step. Scroll down to the **Custom meeting backgrounds** section, and under the table with the custom background’s toggle, select +Add. Once you select +Add, a pane called **Managing Backgrounds** will open, allowing you to add your images.
@@ -92,7 +92,7 @@ The following list displays supported clients where meeting themes are visible:
 Org wide backgrounds will only be visible to Teams Premium licensed users in their Background Settings panel.  
 
 > [!NOTE]
-> Org wide backgrounds will not be available for guest or anonymous users.
+> Org wide backgrounds will not be available for external or anonymous users.
 
 ### Who can view org wide backgrounds
 
@@ -100,6 +100,5 @@ While only licensed end users can select their choice of uploaded backgrounds, a
 
 - In-tenant, Teams Premium licensed users
 - In-tenant, non-licensed users
-- Guest of Tenant users
 - External Users
 - Anonymous users
