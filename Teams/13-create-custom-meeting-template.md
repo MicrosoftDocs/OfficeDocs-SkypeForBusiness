@@ -85,10 +85,8 @@ To create a custom meeting template
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
 1. Select **Save**.
 
+## Related topics
 
+[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
-
-
-
-
-
+[Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
