@@ -67,7 +67,7 @@ Uploads must adhere to the following parameters. Admins can upload:
 - Images with minimum dimensions of 3840 px X 2160 px
 - A maximum of 50 custom background images
 
-To upload your images, navigate to **Meetings** > **Customization Policies** and select your policy from the previous step. Scroll down to the **Custom meeting backgrounds** section, and under the table with the custom background’s toggle, select +Add. Once you select +Add, a pane called **Managing Backgrounds** will open, allowing you to add your images.
+To upload your images, navigate to **Meetings** > **Customization Policies** and select your policy from the previous step. Scroll down to the **Custom meeting backgrounds** section, and under the table with the custom background’s toggle, select **+Add**. Once you select +Add, a pane called **Managing Backgrounds** will open, allowing you to add your images.
 
 The previews of your uploaded images can be found in a new table under the **Custom meeting backgrounds** section.
 
