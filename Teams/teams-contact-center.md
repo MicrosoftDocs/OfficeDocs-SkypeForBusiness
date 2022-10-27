@@ -87,6 +87,7 @@ The following providers offer contact center solutions that are integrated into 
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
+| `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.
