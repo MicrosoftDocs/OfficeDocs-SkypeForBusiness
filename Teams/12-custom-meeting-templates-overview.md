@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: ralphmaamari
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -14,29 +14,25 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn about custom meeting templates in Microsoft Teams Premium
 ---
 
 # Overview of custom meeting templates in Microsoft Teams
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
+Microsoft Teams Premium includes the ability to create custom meeting templates. Meeting templates can be used to control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
 
-Templates can enforce settings or be used for defaults
-
-
-
-
+Meeting templates can be used to enforce settings or to set defaults defaults. Each template setting can be locked so the meeting organizer can't change it, or can be left unlocked for the meeting organizer to change if needed.
 
 The following meeting settings can be controlled by using a meeting template:
 
 |Setting|Description|
 |:------|:----------|
 |Chat|Specifies if the meeting chat is available. Can also be used to prevent chat before and after the meeting.|
-|End-to-end encrpytion|Specifies if the meeting should use end-to-end encryption.|
 |Lobby|Specifies who can bypass the lobby and join the meeting directly.|
 |Manage what attendees see|Specifies if meeting organizers can preview and approve content being shared on screen before other meeting participants can see it.|
-|Mic and camera for attendees?|Specifies if attendees can unmute and use their camera.|
+|Mic and camera for attendees|Specifies if attendees can unmute and use their camera.|
 |Notify when callers join and leave|Specifies if a sound plays when people calling in by phone join or leave the meeting.|
 |Q&A|Specifies if attendees can use the Q&A feature to ask questions during the meeting.|
 |Reactions|Specifies if attendees can use reactions or raise their hand in the meeting.|
@@ -44,11 +40,28 @@ The following meeting settings can be controlled by using a meeting template:
 |Sensitivity label|Specifies the sensitivity label to be used for the meeting.|
 |Watermarks|Specifies if watermarks are used for camera feeds and content that is shared on screen in the meeting.|
 
+Some examples of when a template can help are:
 
-Note that the sensitivity label may override certain settings in the template.
+- Enforcing encryption and watermarks for sensitive meetings
 
 
+- Enforcing automatic meeting recording for certain types of meetings
+- Restricting chat and attendee camera and audio and using the Q&A feature for presentation-style meetings
+- Using a stricter default for who can bypass the lobby, but allowing the meeting organizer to change the setting if needed
 
+## Templates with sensitivity labels
+
+Templates have the option of specifying a sensitivity label. Sensitivity labels can be used to control some of the same settings as templates. 
+
+The following template settings can also be set in a sensitivity label:
+
+- Allow chat
+- Who can bypass the lobby
+- Who can present
+- Who can record
+- Record automatically
+
+If any of these settings are configured in the label, they will override these settings in the template.
 
 ## Related topics
 
