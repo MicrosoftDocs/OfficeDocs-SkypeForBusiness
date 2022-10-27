@@ -22,5 +22,11 @@ description:
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 
+Templates can enforce settings or be used for defaults
 
 
+
+
+## Related topics
+
+[Use Teams meeting templates with sensitivity labels](meeting-templates-with-sensitivity-labels.md)
