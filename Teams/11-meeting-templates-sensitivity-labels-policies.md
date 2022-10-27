@@ -85,7 +85,7 @@ Both templates could use the *Sensitive* label which would control additional se
 
 While labels generally enforce a particular setting, templates can either enforce a setting or allow the meeting organizer to change it. This allows you to implement default settings that meet your compliance needs while giving meeting organizers the option to override the setting if appropriate.
 
-For example, for a baseline level of protection, you might want to use a sensitivity label to enforce who can bypass the lobby. At the same time, you can use a template to set the default for **Who can record** to **Organizers** but allow the meeting organizer to change the setting to **Organizers and presenters** if they need to.
+For example, for a baseline level of protection, you might want to use a sensitivity label to turn off watermarking. At the same time, you can use a template to set the default for who can bypass the lobby, but allow the meeting organizer to change the setting if they need to.
 
 You can assign your baseline protection label to the template so that both are used when a meeting organizer chooses that template.
 
