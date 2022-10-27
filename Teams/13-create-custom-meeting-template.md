@@ -19,7 +19,7 @@ description: Learn how Microsoft Teams administrators can create a custom meetin
 
 # Create a custom meeting template in Microsoft Teams
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 
 
