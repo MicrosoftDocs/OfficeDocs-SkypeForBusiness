@@ -68,6 +68,29 @@ Can disable chat or restrict anonymous participants.
 
 Templates can enforce settings
 
+
+The following label settings are always controlled by the sensitivity label if used:
+
+
+The following label settings can left unconfigured and controlled by a template or the meeting organizer:
+- Lobby restrictions
+- 
+
+## Sensitivity label settings take precedence
+
+Whenever a sensitivity label is used, the settings configured in the label take precedence over any template or meeting organizer setting.
+
+While lobby restrictions can be disabled in the label - allowing either a template or the meeting organizer to control them - the remaining label settings always enforce a condition and override any template or meeting organizer settings. These settings are:
+
+- Who can present
+- Who can record
+- Automatic recording
+- End-to-end encryption
+- Watermarks
+- Chat settings
+
+While chat and recording settings are available in templates, the label settings will always take precedence if a label is used.
+
 ## User-based policies and meeting-based policies
 
 
@@ -75,8 +98,8 @@ Templates can enforce settings
 ## Different meeting types with the same sensitivity
 
 Using templates and labels together can be useful if you have different types of meetings that have the same sensitivity. For example, if some of your sensitive meetings are interactive and some are presentations where there is minimal interaction from attendees, you can create two templates:
-- One that turns off attendee video, audio, and even chat to use for presentations
-- One that leaves video, audio, and chat at the discretion of the meeting organizer
+- One that turns off attendee video and audio to use for presentations
+- One that leaves video and audio at the discretion of the meeting organizer
 
 Both templates could use the *Sensitive* label which would control additional settings such as who can bypass the lobby and who can present.
 
