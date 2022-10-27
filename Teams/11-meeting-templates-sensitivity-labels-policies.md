@@ -21,10 +21,13 @@ description:
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
+In Teams meetings, meeting organizers can configure [a variety of settings](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) that determine which features are available in the meeting. As an administrator, you can disable or enforce specific values for these settings by using a combination of admin policies, sensitivity labels, and meeting templates.
 
+[Meeting templates](custom-meeting-templates-overview.md) are created and managed in the Teams admin center. Sensitivity labels are created and manged in the Microsoft Purview compliance portal. Both are part of Teams Premium.
 
-The following table shows a list of Teams features that may be useful for managing sensitive meetings in your organization and where they can be configured.
+By using admin policies, templates, and labels together you can make possible a variety of meeting scenarios to help meet the compliance and business needs for the different departments in your organization.
 
+The following table shows a list of Teams features that may be useful for managing meetings with different compliance needs in your organization and where they can be configured.
 
 |Feature|Teams admin policy|Sensitivity label|Meeting template|Meeting organizer|
 |:------|:-----------------|:----------------|:---------------|:----------------|
@@ -80,7 +83,7 @@ Both templates could use the *Sensitive* label which would control additional se
 
 ## Specify default values that meeting organizers can change
 
-While labels enforce a particular setting, templates can either enforce a setting or allow the meeting organizer to change it. This allows you to implement default settings that meet your compliance needs while giving meeting organizers the option to override the setting if appropriate.
+While labels generally enforce a particular setting, templates can either enforce a setting or allow the meeting organizer to change it. This allows you to implement default settings that meet your compliance needs while giving meeting organizers the option to override the setting if appropriate.
 
 For example, for a baseline level of protection, you might want to use a sensitivity label to enforce who can bypass the lobby. At the same time, you can use a template to set the default for **Who can record** to **Organizers** but allow the meeting organizer to change the setting to **Organizers and presenters** if they need to.
 
