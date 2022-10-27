@@ -40,20 +40,17 @@ The following meeting settings can be controlled by using a meeting template:
 |Sensitivity label|Specifies the sensitivity label to be used for the meeting.|
 |Watermarks|Specifies if watermarks are used for camera feeds and content that is shared on screen in the meeting.|
 
-Some examples of when a template can help are:
-
-- Enforcing encryption and watermarks for sensitive meetings
-
+Some examples of when a template can be useful are:
 
 - Enforcing automatic meeting recording for certain types of meetings
 - Restricting chat and attendee camera and audio and using the Q&A feature for presentation-style meetings
 - Using a stricter default for who can bypass the lobby, but allowing the meeting organizer to change the setting if needed
 
+To learn how to create meeting templates, see [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
+
 ## Templates with sensitivity labels
 
-Templates have the option of specifying a sensitivity label. Sensitivity labels can be used to control some of the same settings as templates. 
-
-The following template settings can also be set in a sensitivity label:
+Templates have the option of specifying a sensitivity label. Labels can also be applied directly to meetings, independent of templates. Sensitivity labels can control some of the same settings as templates:
 
 - Allow chat
 - Who can bypass the lobby
@@ -65,4 +62,4 @@ If any of these settings are configured in the label, they will override these s
 
 ## Related topics
 
-[Use Teams meeting templates with sensitivity labels](meeting-templates-with-sensitivity-labels.md)
+[Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
