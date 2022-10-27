@@ -103,7 +103,7 @@ After a few hours, your Teams users can see the customized app in the Teams stor
 
 Consider the following details about app customization functionality:
 
-* You can only customize [third-party apps](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-validated-by-microsoft) and not [custom apps](deploy-apps-microsoft-teams-landing-page.md#custom-apps).
+* You can only customize [third-party apps](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-created-by-independent-app-developers) and not [custom apps](deploy-apps-microsoft-teams-landing-page.md#custom-apps-created-within-an-organization-for-internal-use).
 
 * You can't customize any app in Government Community Cloud High (GCCH) and Department of Defense (DoD) environments.
 
@@ -113,7 +113,7 @@ Consider the following details about app customization functionality:
 
 * You'll have only one version of the app, since customizing the app details doesn't create a copy of the app.
 
-* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developer provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
+* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
 
 * Admin-provided customization data is stored in the nearest data storage region.
 
