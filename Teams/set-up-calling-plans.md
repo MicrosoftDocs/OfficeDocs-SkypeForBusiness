@@ -45,7 +45,8 @@ If Calling Plans aren't available for your country or region, see [PSTN connecti
     > [!TIP]
     > **Phone System** licenses and Calling Plans in Microsoft 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
   
-2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/assign-teams-add-on-licenses.md).
+2. First assign the licenses, and then assign a Calling Plan license to the people in your organization. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/assign-teams-add-on-licenses.md).
+    1. If you purchase a Pay-As-You-Go Calling Plan, you may need to purchase Communication Credits. To determine if you need to purchase Communication Credits, see [How to fund a Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#how-to-fund-a-pay-as-you-go-calling-plan).
 
 ## Step 3: Get phone numbers
 

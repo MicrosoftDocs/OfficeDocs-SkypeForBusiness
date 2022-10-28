@@ -42,6 +42,8 @@ Here are the Calling Plans options:
 
 - **Pay-As-You-Go Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. No outgoing minutes are included. All outgoing calls are charged based on the minutes used, either with Communication Credits or post-usage billing (for new commerce experience calling subscriptions only). Licenses are assigned to users based on their location.
 
+  To learn how to fund and use minutes for a Pay-As-You-Go Calling Plan, see [How to fund a Pay-As-You-Go Calling Plan](#how-to-fund-a-pay-as-you-go-calling-plan).
+
   There are two **Pay-As-You-Go Calling Plan** options to choose from:
 
   - **Pay-As-You-Go Calling Plan Zone-1**: Buy this for users in the United States, including Puerto Rico, Canada, and the United Kingdom.
@@ -68,14 +70,26 @@ For detailed information about usage limits and terms of use, see [Audio Confere
 
 1. You must first purchase a **Phone System add-on license**. To do that, [sign in to the Microsoft 365 admin center and choose **Billing**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Purchase services** > **Add-on subscriptions** > **Buy now**.
 
-    ![Screenshot showing option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
-
     > [!NOTE]
     > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 2. After you buy Phone System licenses, you can buy the Calling Plan by [signing in to the Microsoft 365 admin center and choose **Billing**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Purchase services** > **Add-on subscriptions**, and then selecting **Buy now**. You'll see the Calling Plans there.
 
 You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+## How to fund a Pay-As-You-Go Calling Plan
+
+Pay-As-You-Go Calling Plans don't have a set number of outgoing call minutes like the Domestic or International Calling Plans. Instead, some admins may need to take additional steps to fund their Pay-As-You-Go Calling Plan. Until the Pay-As-You-Go Calling Plan is properly funded, users won't be able to make outgoing calls.
+
+There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Plan:
+
+- **Purchase Communication Credits**
+  - This option is for customers who didn't purchase their calling plan through the new commerce experience (NCE). These customers need to purchase Communication Credits to fund their Pay-As-You-Go Calling Plan.
+  - For instructions on how to purchase and assign Communication Credits, see [Set up Communication Credits for your organization](set-up-communications-credits-for-your-organization.md).
+
+- **Purchase the Pay-As-You-Go Calling Plan through the new commerce experience (NCE)**
+  - Customers who purchased their calling plan through the new commerce experience are able to pay for the outgoing call minutes they used in the previous month. This is also called post-usage or post-consumption billing.
+  - For instructions on purchasing a calling plan through the new commerce experience, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?
 
