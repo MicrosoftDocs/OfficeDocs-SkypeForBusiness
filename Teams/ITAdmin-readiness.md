@@ -78,10 +78,10 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 | Module | PowerPoint deck (PDF)  |
 | ------------| -------------------- |
-| Module 1: Introduction to Microsoft Teams Android devices  |[Deck](aka.ms/TeamsAndroidModule1) |
+| Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://aka.ms/TeamsAndroidModule1) |
 | Module 2: Planning Microsoft Teams Android devices|[Deck](https://aka.ms/TeamsAndroidModule2) |
-| Module 3: Managing Microsoft Teams Android Devices |[Deck](aka.ms/TeamsAndroidModule3)|
-| Module 4: Microsoft Teams phones and Microsoft Teams displays |[Deck](aka.ms/TeamsAndroidModule4)|
+| Module 3: Managing Microsoft Teams Android Devices |[Deck](https://aka.ms/TeamsAndroidModule3)|
+| Module 4: Microsoft Teams phones and Microsoft Teams displays |[Deck](https://aka.ms/TeamsAndroidModule4)|
 | Module 5: Microsoft Teams Rooms and Microsoft Teams Panels |[Deck](https://aka.ms/TeamsAndroidModule5)|
 | Module 6: Adoption and troubleshooting |[Deck](https://aka.ms/TeamsAndroidModule6)|
 
