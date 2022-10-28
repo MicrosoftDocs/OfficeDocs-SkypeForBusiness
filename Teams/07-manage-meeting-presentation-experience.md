@@ -45,13 +45,13 @@ Everyone
 
 ### Teams admin policy: Who can present in meetings
 
-The Teams admin meeting policys **Who can present in meetings** has the following options:
+The Teams admin meeting policy **Who can present in meetings** has the following options:
 
 - Organizers, but user can override
 - Everyone in the organizaition, but user can override
 - Everyone, but user can override
 
-This setting specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is locked in by a template or sensitivity label.
+This setting specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is locked in by a sensitivity label.
 
 The default value of **Everyone, but user can override** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **Everyone in the organization** or **Organizers** to provide a more secure default for users.
 
@@ -105,19 +105,22 @@ To configure who can give control of a shared screen
 
 ## Manage what attendees can see
 
+In meetings where sensitive information is being shared, it can be important to minimize the risk of sharing inappropriate information.
+
+The following table shows settings that can help manage what attendees see in a meetings.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-|Manage what attendees see|Yes|Yes|No|No|
 |Screen sharing mode|No|No|No|Yes|
+|Manage what attendees see|Yes|Yes|No|No|
 
-Manage what attendees see (Meeting organizer) on/off
-Manage what attendees see (Template) on/off
+**Screen sharing mode** is a teams admin policy. With this policy, you can control if meeting attendees can share their entire screen or only a single application. Sharing the entire screen can be convenient, but it can increase the chances of accidentally sharing inappropriate information such as an email or open document. Consider if you want to restrict sharing to a single application for users or departments that often present sensitive information. You can also turn off screen sharing entirely with this policy. For more information, see [Configure desktop sharing in Microsoft Teams](/microsoftteams/configure-desktop-sharing).
 
-Screen sharing mode (Policy) entire screen/single application/not enabled
-
+**Manage what attendees see** is an option available to meeting organizers that can also be set by using a template. When this option is enabled, meeting organizers can control what content is shared on screen and who's video is visible. Organizers must intentionally bring shared content and video on screen before attendees can see it. This can help minimize the risk of sharing inappropriate content in a meeting. Consider if you want to enable or enforce this experience for sensitive meetings by using a meeting template.
 
 ## Manage presentation tools
+
+Teams offers several presentation tools that allow for interactive participation of meeting attendees. The following table shows features that can help manage these tools.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
@@ -125,14 +128,17 @@ Screen sharing mode (Policy) entire screen/single application/not enabled
 |Whiteboard|No|No|No|Yes|
 |Shared notes|No|No|No|Yes|
 
+Each of these features can be managed through admin policies, but not through templates or sensitivity labels, nor by the meeting organizer. As such, they can be applied to users or groups, but not to specific meetings. For more information, see [Meeting policy settings - Content sharing](/microsoftteams/meeting-policies-content-sharing).
 
-PowerPoint Live (Policy) on/off
-Whiteboard (Policy) on/off
-Shared notes (Policy) on/off
+If you have meetings where sensitive information is being shared, you may want to disable Whiteboard and shared notes to avoid having sensitive information added to them.
 
+PowerPoint Live allows attendees to navigate forward and back in a PowerPoint presentation being shared on screen. This may allow attendees to see sensitive information before it's is presented by the organizer.
+
+Consider if there are users or groups in your organization who should not use these features to avoid sharing sensitive information with them.
 
 ## Manage how meeting attendees interact
 
+The following table shows features that can help manage how meeting attendees interact during a meeting.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
@@ -140,17 +146,15 @@ Shared notes (Policy) on/off
 |Attendees can unmute|Yes|Yes|No|No|
 |Meeting reactions|Yes|Yes|No|Yes|
 
+Attendee audio and video can make it easy for attendees to communicate during a meeting. These can both be controlled by the meeting organizer or by a meeting template. Depending on the type of meeting, you may want to allow or restrict these capabilities.
 
-Allow attendee video (Template) on/off
-Allow camera for attendees (Meeting organizer) on/off
+For meetings that are presentations with minimal interaction from attendees, turning video and audio off can minimize distractions.
 
-Allow mic for attendees (Meeting organizer) on/off
-Attendees can unmute (Microphone) (Template) on/off
+When recording meetings, video from participants might be considered personally identifiable information (PII) and infer regulatory requirements.
 
+If you choose to turn off meeting reactions, remember that this will disable the hand-raise feature. (For presentation-style meetings, the Q&A feature may allow the needed interaction for attendees to ask questions.)
 
-Allow reactions (Meeting organizer)
-Meeting reactions (Policy)
-Reactions (Template)
+## Related topics
 
-
+[Manage access to Microsoft Whiteboard for your organization](/microsoft-365/whiteboard/manage-whiteboard-access-organizations)
 

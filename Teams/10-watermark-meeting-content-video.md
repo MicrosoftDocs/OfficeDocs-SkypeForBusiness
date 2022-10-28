@@ -31,8 +31,8 @@ The following table shows where watermarks are configured:
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
-|Watermark shared content|Yes|No|Yes|Yes|
-|Watermark videos|Yes|No|Yes|Yes|
+|Watermark shared content|Yes|Yes|Yes|Yes|
+|Watermark videos|Yes|Yes|Yes|Yes|
 
 When a watermark is being used in a meeting, the following features are turned off:
 
