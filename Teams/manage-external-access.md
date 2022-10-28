@@ -277,6 +277,9 @@ Blocking external people is available in multiple places within Teams, including
 
 Blocking external people prevents them from sending messages in 1:1 chats, adding the user to new group chats, and viewing their presence. While group chat invitations are blocked, blocked users can be in the same chats with users that blocked them either because the chat was initiated prior to the block or the group chat invitation was sent by another member.
 
+> [!NOTE]
+> There are no Teams admin settings or policies that control a user's ability to block chats with external people.
+
 ## Related topics
 
 [Native chat experience for external (federated) users](native-chat-for-external-users.md)

@@ -24,7 +24,7 @@ description: Learn how to manage access to Teams apps across Microsoft 365.
 
 App developers can enhance their Microsoft Teams apps to work in Outlook and on Office.com, in addition to the app working in Teams. The end-users can use the enhanced apps on Teams, in Microsoft Outlook and Microsoft Office.com after the enhancement. Currently, only the end-users in [Targeted release](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) can view and use these specific apps in Teams, Outlook, and Office.com. A notification about this change is available in the [message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280).
 
-## Manage the enhanced apps access Microsoft 365
+## Manage user's access to the enhanced apps
 
 The existing Teams admin experience applies to govern access to these apps. Teams admins use the Teams admin center to manage app access. As a Teams administrator, you can allow specific end-users to use the enhanced apps or manage their access to the enhanced apps in Teams, in Outlook, and on Office.com.
 
