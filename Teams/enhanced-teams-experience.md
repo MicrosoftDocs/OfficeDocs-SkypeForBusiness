@@ -17,98 +17,133 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - Licensing
-description: Learn how to enhance your Microsoft Teams experience with the Microsoft Teams Premium add-on license.
+description: Learn about Microsoft Teams Premium for administators and IT Professionals.
 ---
 
 # Enhance Microsoft Teams with Microsoft Teams Premium
 
-This is what Teams Premium is. It's a Teams add-on license that does these things to enhance your organization's Teams experience.
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-## What enhancements are available with Teams Premium?
+Teams Premium is an add-on license that provides the following enhancements to Teams:  
 
-In the sections below, learn about the enhanced features in Teams Premium.
+-	Enhanced meeting experiences for your end users
+-	Enhanced security and protection for meetings 
+-	Enhanced administrative and telemetry support
 
-### Protected Meetings
+These enhancements are described in more detail in the sections that follow.  For information about purchasing the Teams Premium add-on license, see **ADD LICENSING LINK HERE**.
 
-| Feature enhancements | Description |
+> [!IMPORTANT]
+> Because Teams Premium is a public preview release, at general availability, some features currently available with Teams will only be available with a Teams Premium license. We will continue to update this article. Check back often for links to new content.
+
+The following sections describe the Teams Premium enhancements for:
+
+•	[Protected meetings](protected-meetings)
+•	[Custom meetings](custom-meetings)
+•	[Premium events](premium-events)
+•	[Advanced management](advanced-meetings)
+•	[Virtual Appointments](virtual-appointments)
+
+## Protected meetings
+
+Teams Premium provides additional ways to safeguard meetings with the following features:
+
+- **Sensitiviy labels** - Enhanced sensitivity labels to automatically add meeting options that help protect information.
+
+- **Watermarking** - Display the email address of a meeting participant, which is useful for protecting confidential information shared in meetings. Meeting watermarks can be enforced with a sensitivity label. 
+
+- **End-to-end encryption** - Increased security for meetings that require a higher level of protection.
+
+- **Restricting who can record** - Ability to restrcit who can record meetings.
+
+- **Restricting who can copy/paste material** - Ability to restrict who can copy/paste meeting material.
+
+
+
+| Feature  | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- |
-| Meetings watermarks | This does... |
-| Prevent copy\paste | This does...|
-| Sensitivity labels | This does...|
-| Restrict who can record | This does..|
-| End-to-end encryption (EE2E) | This does...|
+| Sensitivity labels | LINK HERE | LINK HERE |
+| Watermarks | [Require a watermark for meetings](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
+| End-to-end encryption (EE2E) | LINK HERE | LINK HERE |
+| Prevent copy\paste | LINK HERE | LINK HERE |
+| Restrict who can record | LINK HERE | LINK HERE |
 
-*<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
 
-### Custom Meetings
 
-| Feature enhancements | Description |
+
+## Custom Meetings
+
+Teams Premium provides the following additional features for customizing meetings:
+
+- **Meeting templates** - Used to control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
+
+- **Branded meetings** - Allows your organization to extend their visual identities across the meeting experience. You can set up and create branded meeting themes for a variety of business units and departments within a single tenant.
+
+- **Organization defined backgrounds** - You can create and define organization-wide meeting backgrounds that are then available to end users. 
+
+- **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
+
+| Feature enhancements | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- |
-| Meeting templates | This does...|
-| Branded meetings | This does... |
-| Organization-defined backgrounds | This does..|
-| Custom together mode | This does... |
+| Meeting templates | [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)|
+| Branded meetings | LINK HERE | LINK HERE |
+| Organization-defined backgrounds | LINK HERE | LINK HERE |
+| Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | LINK HERE |
 
-*<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
 
-### Advanced management
 
-| Feature enhancements | Description |
+
+
+
+## Premium events
+
+With Teams Premium, there will be a new Teams Events policy that provides additional functionality to the webinar experience. The new policy will continue to support registration and tracking. It will provide new functionality for meeting hosters and organizers, such as:
+
+-	Logo customization
+-	Theme colors
+-	Ability to manage attendee views
+-	Ability to send reminder emails
+-	Enable waitlists 
+-	Approve registrations
+-	Limit registration date and time
+-	Implement lobby bypass for registered users
+
+In addition, Teams Premium will provide RTMP-In enhancements for streaming meetings and additional metrics to determine event success.
+
+
+| Feature | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- |
-| Monitoring and alerting | This does...|
-| Custom user policy packages | This does...|
-| Real-time data storage | This does...|
-| eCDN for Live Events | This does...|
+| Webinar enhancemments | [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates) <br>
+[Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates)|
+| Real Time Messaging Protocol (RTMP-In) | LINK HERE | LINK HERE |
+| Lobby Policy for registered users | LINK HERE | LINK HERE |
+| Event success metrics | LINK HERE | LINK HERE |
 
-*<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
 
-### Premium events
+## Advanced management
 
-| Feature enhancements | Description |
+Teams Premium provided advanced management features ...
+
+| Feature  | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- |
-| Webinar wait lists | This does...|
-| Webinar manual registration approvals | This does...|
-| Webinar registration date/time limits | This does...|
-| Green rooms | This does...|
-| Manage mode | This does..|
-| RTMP-In | This does...|
-| Lobby Policy for registered users | This does...|
-| Event success metrics | This does...|
+| Monitoring and alerting | LINK HERE | LINK HERE |
+| Custom user policy packages | LINK HERE | LINK HERE |
+| Real-time data storage | LINK HERE | LINK HERE |
+| eCDN for Live Events | LINK HERE | LINK HERE |
 
-*<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
+## Advanced virtual appointments
 
-### Advanced virtual appointments
+The Virtual Appointments app provides a central hub for all your organizaiton's virtual appointment needs. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the Bookings app, analytics, and management options, all in one place. For more information about Virtual Appointments and links to related content, see [Manage the Virtual Appointments app](https://review.learn.microsoft.com/en-us/microsoftteams/manage-virtual-appointments-app?branch=v-lanachin-va-app).
 
-| Feature enhancements | Description |
-| -------------------- | ----------- |
-| Custom waiting rooms | This does... |
-| SMS text reminders | This does...|
-| Post-appointment surveys | This does...|
-| Advanced appointment queue management | This does...|
-| Moderated waiting room chats | This does...|
-| Advanced analytics and reports | This does...|
 
-*<sup>1</sup> With the release of Teams Premium, this feature will no longer be free. To keep using this feature, you'll need to purchase Teams Premium licenses.*
 
-**Dani's Notes for PMs and writers:**
 
-- The features and capabilities in the table will link out to their respective detail docs.
-- The capabilities need to be more descriptive/helpful than how we label them internally.
-- The descriptions should focus on what admins need to know.
-- The order of the enhancements in the table can be changed. I ordered features as they appear in the T-Pre rollout timeline spreadsheet.
 
-## Who can purchase Teams Premium add-on licenses?
-
-Information on geographies, segments, and channels that can purchase the Teams Premium add-on SKU.
-
-Pertinent service plan details.
-
-This section may include Teams Premium availability road map information.
-
-## How do I upgrade to Teams Premium?
-
-Instructions for IT admins on how they can upgrade from Teams to Teams Premium.
 
 ## Additional resources
 
-In this section, we'll list other resources we wish to point admins to, including partner information, road maps, marketing/sales pages, etc.
+You can find additional resources by going to:
+
+- [Microsoft Teams Premium blog](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
+- [Microsoft Teams Premium launch site](https://www.microsoft.com/en-us/microsoft-teams/premium)
+
+
