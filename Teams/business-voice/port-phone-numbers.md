@@ -16,6 +16,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Step 7: Port phone numbers to Teams Phone System with Calling Plan (optional)

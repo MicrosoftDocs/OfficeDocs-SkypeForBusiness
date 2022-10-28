@@ -17,6 +17,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Set up the Teams Phone System with Calling Plan bundle for small to medium businesses
