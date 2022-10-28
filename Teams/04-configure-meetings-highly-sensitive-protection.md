@@ -33,7 +33,7 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Allow chat|**In-meeting only**|Template|Yes|
+|Allow chat|**In-meeting only**|Label|Yes|
 |Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
 |Disable camera for attendees|**Off**|Template|No|
 |Disable mic for attendees|**Off**|Template|No|
@@ -59,7 +59,7 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Allow chat|**Disabled**|Template|Yes|
+|Allow chat|**In-meeting only**|Label|Yes|
 |Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
 |Disable camera for attendees|**On**|Template|Yes|
 |Disable mic for attendees|**On**|Template|Yes|
@@ -101,8 +101,8 @@ To create a sensitivity label
     1. **Record meetings with this label automatically** - Off
     1. **Video watermark - Apply to screenshare** - On
     1. **Video watermark - Apply to camera streams** - On
-    1. **Allow chat** - Let the meeting organizer select from meeting options
-    1. **Prevent copying chat content to clipboard** - Unchecked
+    1. **Allow chat** - In-meeting only
+    1. **Prevent copying chat content to clipboard** - Checked
     :::image type="content" source="media/teams-meeting-sensitivity-label-highly-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-highly-sensitive-large.png":::    
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
@@ -125,7 +125,7 @@ To create a meeting template for highly sensitive meetings
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
 1. In the **Meeting engagement** sections, set **Attendees can chat** to **Enabled only in meeting** and **Manage what attendees see** to **On**.
-1. Select **Attendees can chat** and **Manage what attendees see** in turn and then select **Lock**.
+1. Select **Manage what attendees see** and then select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
@@ -143,7 +143,7 @@ To create a meeting template for highly sensitive presentations
 1. In the **Audio and video** section, set **Disable mic for attendees** and **Disable camera for attendees** to **On**.
 1. Select **Disable mic for attendees** and **Disable camera for attendees** in turn and then select **Lock**.
 1. In the **Meeting engagement** sections, set **Attendees can chat** to **Disabled** and **Manage what attendees see** to **On**.
-1. Select **Attendees can chat** and **Manage what attendees see** in turn and then select **Lock**.
+1. **Manage what attendees see** and then select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
