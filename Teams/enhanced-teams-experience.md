@@ -76,7 +76,7 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 
 
-## Custom Meetings
+## Custom meetings
 
 Teams Premium provides the following additional features for customizing meetings:
 
@@ -135,7 +135,7 @@ Teams Premium provided advanced management features ...
 | Real-time data storage | LINK HERE | LINK HERE |
 | eCDN for Live Events | LINK HERE | LINK HERE |
 
-## Advanced virtual appointments
+## Advanced Virtual Appointments
 
 The Virtual Appointments app provides a central hub for all your organizaiton's virtual appointment needs. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the Bookings app, analytics, and management options, all in one place. For more information about Virtual Appointments and links to related content, see [Manage the Virtual Appointments app](https://review.learn.microsoft.com/en-us/microsoftteams/manage-virtual-appointments-app?branch=v-lanachin-va-app).
 
