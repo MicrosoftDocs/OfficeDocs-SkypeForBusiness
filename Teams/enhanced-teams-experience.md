@@ -1,5 +1,5 @@
 ---
-title: Enhance Microsoft Teams with Microsoft Teams Premium
+title: Microsoft Teams Premium - Overiew for administrators
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,7 +20,7 @@ ms.custom:
 description: Learn about Microsoft Teams Premium for administators and IT Professionals.
 ---
 
-# Enhance Microsoft Teams with Microsoft Teams Premium
+# Microsoft Teams Premium - Overview for administrators
 
 ![Information icon](media/info.png) **Features described in this article require Teams Premium, which is a preview release.**
 
