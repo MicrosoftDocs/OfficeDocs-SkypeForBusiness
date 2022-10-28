@@ -1,5 +1,5 @@
 ---
-title: Manage meeting presentation experience
+title: Manage the meeting presentation experience for sensitive Teams meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -14,17 +14,20 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn about admin options for managing who can present, how content is shared, and how attendees collaborate in Teams meetings.
 ---
 
-# Manage meeting presentation experience
+# Manage the meeting presentation experience for sensitive Teams meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Choose co-organizers (Meeting organizer)
-Enable green room (Meeting organizer) on/off
+Using Teams admin policies, sensitivity labels, and templates, you can control a wide variety of settings that determine the in-meeting experience for attendees, including:
 
+- Who can present and who can give or request control
+- How content is shared and what collaboration tools are available
+- Attendee video, audio, and reactions
 
+Meeting organizers can specify many of theses settings when they create the meeting, but you can enforce specific options for different users and groups in your organization by using admin policies, or different types or meetings by using sensitivity labels and templates. This can help you meet your compliance needs for different types of meetings and meetings where sensitive information is being shared.
 
 ## Manage who can present
 
@@ -36,19 +39,14 @@ The following table shows where settings are available to manage who can present
 |Participants can give or request control|No|No|No|Yes|
 |External participants can give or request control|No|No|No|Yes|
 
+By using these controls, you can limit who is able to share content on screen in meetings.
 
-Template, label, and organizer:
-People in my organization and guests
-Only me and co-organizers
-Specific people
-Everyone
-
-### Teams admin policy: Who can present in meetings
+### Default value for who can present in meetings
 
 The Teams admin meeting policy **Who can present in meetings** has the following options:
 
 - Organizers, but user can override
-- Everyone in the organizaition, but user can override
+- Everyone in the organization, but user can override
 - Everyone, but user can override
 
 This setting specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is locked in by a sensitivity label.
@@ -65,7 +63,7 @@ To set the **Who can present in meetings** policy
 
 1. Select **Save**.
 
-### Sensitivity labels and templates: Who can present in meetings
+### Manage who can present in meetings with templates and sensitivity labels
 
 Meeting organizers can choose from the following options for who can present in a meeting:
 
@@ -102,12 +100,11 @@ To configure who can give control of a shared screen
 
 1. Select **Save**.
 
-
-## Manage what attendees can see
+## Manage which content and video is shared with attendees
 
 In meetings where sensitive information is being shared, it can be important to minimize the risk of sharing inappropriate information.
 
-The following table shows settings that can help manage what attendees see in a meetings.
+The following table shows settings that can help manage what content and video is shared on screen in meetings.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
