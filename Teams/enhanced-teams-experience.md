@@ -22,8 +22,6 @@ description: Learn about Microsoft Teams Premium for administators and IT Profes
 
 # Enhance Microsoft Teams with Microsoft Teams Premium
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
-
 ![Information icon](../media/info.png) **Features described in this article require Teams Premium, which is a preview release.**
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
