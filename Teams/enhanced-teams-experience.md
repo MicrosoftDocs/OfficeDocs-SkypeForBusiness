@@ -66,7 +66,7 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 
 | Feature  | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- |
+| -------------------- | ----------- | --------------- |
 | Sensitivity labels | LINK HERE | LINK HERE |
 | Watermarks | [Require a watermark for meetings](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
 | End-to-end encryption (EE2E) | LINK HERE | LINK HERE |
@@ -89,7 +89,7 @@ Teams Premium provides the following additional features for customizing meeting
 - **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
 
 | Feature enhancements | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- |
+| -------------------- | ----------- | --------------- |
 | Meeting templates | [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)|
 | Branded meetings | LINK HERE | LINK HERE |
 | Organization-defined backgrounds | LINK HERE | LINK HERE |
@@ -117,9 +117,8 @@ In addition, Teams Premium will provide RTMP-In enhancements for streaming meeti
 
 
 | Feature | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- |
-| Webinar enhancemments | [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates) <br>
-[Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates)|
+| -------------------- | ----------- | --------------- |
+| Webinar enhancements | - [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates)<br>- [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | LINK HERE |
 | Real Time Messaging Protocol (RTMP-In) | LINK HERE | LINK HERE |
 | Lobby Policy for registered users | LINK HERE | LINK HERE |
 | Event success metrics | LINK HERE | LINK HERE |
@@ -130,7 +129,7 @@ In addition, Teams Premium will provide RTMP-In enhancements for streaming meeti
 Teams Premium provided advanced management features ...
 
 | Feature  | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- |
+| -------------------- | ----------- | --------------- |
 | Monitoring and alerting | LINK HERE | LINK HERE |
 | Custom user policy packages | LINK HERE | LINK HERE |
 | Real-time data storage | LINK HERE | LINK HERE |
@@ -147,7 +146,7 @@ The Virtual Appointments app provides a central hub for all your organizaiton's 
 
 ## Additional resources
 
-You can find additional resources by going to:
+You can find additional resources here:
 
 - [Microsoft Teams Premium blog](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
 - [Microsoft Teams Premium launch site](https://www.microsoft.com/en-us/microsoft-teams/premium)
