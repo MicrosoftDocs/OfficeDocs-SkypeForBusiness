@@ -102,7 +102,7 @@ Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
-To migrate your existing Shifts data to another tenant, you'll need to export Shifts schedules for a date range, modify user names (if necessary), and then import the schedules to the destination tenant. You can export up to 100 days of Shifts data at a time. The date range can be in the past or future. If you need to export data for a longer time frame than 100 days, repeat the process.
+To migrate your existing Shifts data to another tenant, you'll need to export Shifts schedules for a date range, modify user names (if necessary), and then import the schedules to the destination tenant. You can export up to 100 days of Shifts data at a time. The date range can be in the past or future. If you need to export data for a longer timeframe than 100 days, repeat the process.
 
 Before you migrate your Shifts data, make sure the following requirements are met:
 
