@@ -111,7 +111,7 @@ With Teams Premium, there will be a new Teams Events policy that provides additi
 -	Limit registration date and time
 -	Implement lobby bypass for registered users
 
-In addition, Teams Premium will provide RTMP-In enhancements for streaming meetings and additional metrics to determine event success.
+In addition, Teams Premium will provide Real Time Messaging Protocol (RTMP)-In enhancements for streaming meetings. Teams Premium will also provide additional metrics to help determine event success.
 
 
 | Feature | Documentation for administrators | Documentation for your end users |
