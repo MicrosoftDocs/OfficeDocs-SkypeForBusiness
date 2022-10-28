@@ -39,11 +39,11 @@ For information about purchasing the Teams Premium add-on license, see **ADD LIC
 
 The following sections describe the Teams Premium enhancements for:
 
-•	[Protected meetings](protected-meetings)
-•	[Custom meetings](custom-meetings)
-•	[Premium events](premium-events)
-•	[Advanced management](advanced-meetings)
-•	[Virtual Appointments](virtual-appointments)
+•	[Protected meetings](#protected-meetings)
+•	[Custom meetings](#custom-meetings)
+•	[Premium events](#premium-events)
+•	[Advanced management](#advanced-meetings)
+•	[Virtual Appointments](#virtual-appointments)
 
 
 
