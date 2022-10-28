@@ -60,7 +60,7 @@ This setting controls all calling capabilities in Teams. Turn this off to turn o
 
 ### Cloud recording for calling
 
-This setting controls whether cloud recording for calling is available to your users. This is off by default.
+This setting controls whether users can record calls. This is off by default.
 
 ### Transcription
 
@@ -100,7 +100,12 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ### Busy on busy when in a call
 
-Busy on Busy (Busy Options) lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is **Not enabled** by default.
+Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
+
+- **Not enabled** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
+- **Enabled** New or incoming calls will be rejected with a busy signal.
+- **Unanswered** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
+- **User controlled**
 
 ### Web PSTN calling
 
@@ -116,7 +121,7 @@ This setting controls whether incoming meeting invites are automatically answere
 
 ### Spam filtering
 
-This setting allows you to control the type of Spam filtering available on incoming calls. Both Basic and Captcha Interactive Voice (IVR) checks can be performed. This is turned on by default.
+This setting allows you to control the type of spam filtering available on incoming calls. Both Basic and Captcha Interactive Voice (IVR) checks can be performed. This is turned on by default.
 
 ### SIP devices can be used for calls
 
@@ -124,16 +129,16 @@ This setting enables users to use a SIP device to make and receive calls. This i
 
 ### Open apps in browser for incoming PSTN calls
 
-This setting controls whether apps are automatically opened in the browser for incoming PSTN calls by your users. This can be used to pass details about the inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
+This setting controls whether apps are automatically opened in the browser for incoming PSTN calls tp your users. This can be used to pass details about the inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
 
-If turned on, a link to the app will need to be given in the **URL to open apps in browser for incoming PSTN calls** field.
+If turned on, a link to the app will need to be given in the **URL to open apps in browser for incoming PSTN calls** box.
 
 ## Related articles
+
+[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
 [PSTN connectivity options](pstn-connectivity.md)
-
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Configure call settings for your users](user-call-settings.md)
