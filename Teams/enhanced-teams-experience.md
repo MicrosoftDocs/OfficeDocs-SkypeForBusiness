@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Premium - Overiew for administrators
+title: Microsoft Teams Premium - Overview for administrators
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
