@@ -24,13 +24,15 @@ description: Learn about Microsoft Teams Premium for administators and IT Profes
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
+This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
+
 Teams Premium is an add-on license that provides the following enhancements to Teams:  
 
 -	Enhanced meeting experiences for your end users
 -	Enhanced security and protection for meetings 
 -	Enhanced administrative and telemetry support
 
-These enhancements are described in more detail in the sections that follow.  For information about purchasing the Teams Premium add-on license, see **ADD LICENSING LINK HERE**.
+For information about purchasing the Teams Premium add-on license, see **ADD LICENSING LINK HERE**.
 
 > [!IMPORTANT]
 > Because Teams Premium is a public preview release, at general availability, some features currently available with Teams will only be available with a Teams Premium license. We will continue to update this article. Check back often for links to new content.
@@ -42,6 +44,8 @@ The following sections describe the Teams Premium enhancements for:
 •	[Premium events](premium-events)
 •	[Advanced management](advanced-meetings)
 •	[Virtual Appointments](virtual-appointments)
+
+
 
 ## Protected meetings
 
