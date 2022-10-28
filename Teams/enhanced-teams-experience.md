@@ -22,7 +22,7 @@ description: Learn about Microsoft Teams Premium for administators and IT Profes
 
 # Enhance Microsoft Teams with Microsoft Teams Premium
 
-![Information icon](../media/info.png) **Features described in this article require Teams Premium, which is a preview release.**
+![Information icon](media/info.png) **Features described in this article require Teams Premium, which is a preview release.**
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
 
@@ -42,7 +42,7 @@ The following sections describe the Teams Premium enhancements for:
 - [Protected meetings](#protected-meetings)
 - [Custom meetings](#custom-meetings)
 - [Premium events](#premium-events)
-- [Advanced management](#advanced-meetings)
+- [Advanced management](#advanced-management)
 - [Virtual Appointments](#virtual-appointments)
 
 
@@ -133,7 +133,7 @@ Teams Premium provided advanced management features ...
 | Real-time data storage | LINK HERE | LINK HERE |
 | eCDN for Live Events | LINK HERE | LINK HERE |
 
-## Advanced Virtual Appointments
+## Virtual Appointments
 
 The Virtual Appointments app provides a central hub for all your organizaiton's virtual appointment needs. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the Bookings app, analytics, and management options, all in one place. For more information about Virtual Appointments and links to related content, see [Manage the Virtual Appointments app](https://review.learn.microsoft.com/en-us/microsoftteams/manage-virtual-appointments-app?branch=v-lanachin-va-app).
 
