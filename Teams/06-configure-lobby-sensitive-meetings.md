@@ -64,9 +64,9 @@ By default, attendees who are dialing in by phone go through the lobby. Administ
 
 If there area circumstances where you want to allow callers to bypass the lobby, meeting organizers can control this setting, or you can enforce it through a meeting template or sensitivity label.
 
-### Join and leave notifications
+#### Join and leave notifications
 
-Meeting organizers have the option of having attendees announced when they join or leave a meeting. This can be useful for meetings where sensitive information is being shared and it's important to track who is in the meeting. If you want to ensure that attendees are announced for certain types of meetings, you can enforce this setting with a meeting template.
+Meeting organizers have the option of having attendees calling in by phone announced when they join or leave a meeting. If you want to ensure that phone attendees are announced for certain types of meetings, you can enforce this setting with a meeting template.
 
 ## Meeting with anonymous participants
 
