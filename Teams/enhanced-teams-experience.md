@@ -35,7 +35,7 @@ Teams Premium is an add-on license that provides the following enhancements to T
 For information about purchasing the Teams Premium add-on license, see **ADD LICENSING LINK HERE**.
 
 > [!IMPORTANT]
-> Because Teams Premium is a public preview release, at general availability, some features currently available with Teams will only be available with a Teams Premium license. We will continue to update this article. Check back often for links to new content.
+> Because Teams Premium is a public preview release, at general availability, some features currently available with Teams will only be available with a Teams Premium license. 
 
 The following sections describe the Teams Premium enhancements for:
 
@@ -45,7 +45,7 @@ The following sections describe the Teams Premium enhancements for:
 - [Advanced management](#advanced-management)
 - [Virtual Appointments](#virtual-appointments)
 
-
+We will continue to update this article. Check back often for links to new content.
 
 ## Protected meetings
 
@@ -53,11 +53,11 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 - **Sensitiviy labels** - Enhanced sensitivity labels to automatically add meeting options that help protect information.
 
-- **Watermarking** - Display the email address of a meeting participant, which is useful for protecting confidential information shared in meetings. Meeting watermarks can be enforced with a sensitivity label. 
+- **Watermarking** - Displays the email address of a meeting participant, which is useful for protecting confidential information shared in meetings. Meeting watermarks can be enforced with a sensitivity label. 
 
 - **End-to-end encryption** - Increased security for meetings that require a higher level of protection.
 
-- **Restricting who can record** - Ability to restrcit who can record meetings.
+- **Restricting who can record** - Ability to restrict who can record meetings.
 
 - **Restricting who can copy/paste material** - Ability to restrict who can copy/paste meeting material.
 
@@ -82,15 +82,15 @@ Teams Premium provides the following additional features for customizing meeting
 
 - **Branded meetings** - Allows your organization to extend their visual identities across the meeting experience. You can set up and create branded meeting themes for a variety of business units and departments within a single tenant.
 
-- **Organization defined backgrounds** - You can create and define organization-wide meeting backgrounds that are then available to end users. 
+- **Organization defined backgrounds** - You can create and define organization-wide meeting backgrounds that are then available to your end users. 
 
 - **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
 
 | Feature enhancements | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- | --------------- |
 | Meeting templates | [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)|
-| Branded meetings | LINK HERE | LINK HERE |
-| Organization-defined backgrounds | LINK HERE | LINK HERE |
+| Branded meetings | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | LINK HERE |
+| Organization-defined backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-org-defined-backgrounds?branch=pr-en-us-10519) | LINK HERE |
 | Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | LINK HERE |
 
 
