@@ -51,7 +51,7 @@ We will continue to update this article. Check back often for links to new conte
 
 Teams Premium provides additional ways to safeguard meetings with the following features:
 
-- **Sensitiviy labels** - Enhanced sensitivity labels to automatically add meeting options that help protect information.
+- **Sensitivity labels** - Enhanced sensitivity labels to automatically add meeting options that help protect information.
 
 - **Watermarking** - Displays the email address of a meeting participant, which is useful for protecting confidential information shared in meetings. Meeting watermarks can be enforced with a sensitivity label. 
 
