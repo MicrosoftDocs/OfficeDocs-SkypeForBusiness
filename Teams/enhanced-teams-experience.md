@@ -67,9 +67,9 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 | -------------------- | ----------- | --------------- |
 | Sensitivity labels | LINK HERE | LINK HERE |
 | Watermarks | [Require a watermark for meetings](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
-| End-to-end encryption (EE2E) | LINK HERE | LINK HERE |
+| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/09-end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | LINK HERE |
+| Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/05-manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | LINK HERE |
 | Prevent copy\paste | LINK HERE | LINK HERE |
-| Restrict who can record | LINK HERE | LINK HERE |
 
 
 
