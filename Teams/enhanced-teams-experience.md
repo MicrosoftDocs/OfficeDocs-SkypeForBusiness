@@ -100,7 +100,7 @@ Teams Premium provides the following additional features for customizing meeting
 
 ## Premium events
 
-Teams Premium provides an advanced webinar experience for your users with the new Teams Events policy. While continuing to support registration and tracking, the new policy will also provide new functionality for meeting hosters and organizers, such as:
+Teams Premium provides an advanced webinar experience for your users with the new Teams Events policy. While continuing to support registration and tracking, the new policy will also provide functionality for meeting hosters and organizers, such as:
 
 -	Logo customization
 -	Theme colors
