@@ -100,7 +100,7 @@ Teams Premium provides the following additional features for customizing meeting
 
 ## Premium events
 
-With Teams Premium, there will be a new Teams Events policy that provides additional functionality to the webinar experience. The new policy will continue to support registration and tracking. It will provide new functionality for meeting hosters and organizers, such as:
+Teams Premium provides an advanced webinar experience for your users with the new Teams Events policy. While continuing to support registration and tracking, the new policy will also provide new functionality for meeting hosters and organizers, such as:
 
 -	Logo customization
 -	Theme colors
@@ -124,7 +124,14 @@ In addition, Teams Premium will provide Real Time Messaging Protocol (RTMP)-In e
 
 ## Advanced management
 
-Teams Premium provided advanced management features ...
+Teams Premium provides advanced management features, such as:
+
+- Monitoring and alerting
+- Custom user policy packages
+- Real-time data storage
+- eCDN for Live Events
+
+**NEED TO ADD MORE DETAILS FOR THESE FEATURES**
 
 | Feature  | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- | --------------- |
