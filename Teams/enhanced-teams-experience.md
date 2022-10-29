@@ -65,7 +65,7 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 | Feature  | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- | --------------- |
-| Sensitivity labels | LINK HERE | LINK HERE |
+| Sensitivity labels | [Manage compliance with sensitivity labels](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings#managing-compliance-with-sensitivity-labels-and-meeting-templates) | LINK HERE |
 | Watermarks | [Require a watermark for meetings](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
 | End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/09-end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | LINK HERE |
 | Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/05-manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | LINK HERE |
@@ -86,7 +86,7 @@ Teams Premium provides the following additional features for customizing meeting
 
 - **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
 
-| Feature | Documentation for administrators | Documentation for your end users |
+| Feature enhancements | Documentation for administrators | Documentation for your end users |
 | -------------------- | ----------- | --------------- |
 | Meeting templates | [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)|
 | Branded meetings | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | LINK HERE |
