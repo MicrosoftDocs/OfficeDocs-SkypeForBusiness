@@ -61,9 +61,6 @@ The end-user requests received by the default method are displayed in Teams admi
 
 End-users can view the **Add** option for an app in the Teams store to check if the app is allowed. When you allow an app after receiving requests in Teams admin center, then Teams doesn't inform the end-users that their request is acted upon. When you allow an app, the request counter isn't reset to zero.
 
-> [!CAUTION]
-> Blocked apps may still have access to data from the teams they're installed in. To turn off app data access, ask your Global Admin, Application Admin, or Cloud Application Admin to [turn off user sign-in](/azure/active-directory/manage-apps/disable-user-sign-in-portal) in the [Azure Active Directory admin center](https://aad.portal.azure.com/).
-
 ## Modify the default setting to receive end-user requests
 
 Teams provides a default message for users to request approval to an app. You can modify the default setting to add a custom message with instructions, org-specific URL, or both. The modifications are displayed for each app in Teams store.
