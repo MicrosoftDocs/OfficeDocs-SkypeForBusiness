@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
 ms.collection: 
