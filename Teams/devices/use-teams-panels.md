@@ -205,6 +205,9 @@ When check out is enabled, end users can use a Teams panel to manually release a
 
 This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Check out**.
 
+> [!NOTE]
+> A Teams panel can't be used to release a room if the Teams Rooms device it's paired with is in an active call.
+
 #### Enable or disable room reservations
 
 When room reservations are enabled, end users can use a Teams panel to reserve a room that's currently available. Reservations start at the time the **Reserve** button is tapped and their duration can be increased in 15-minute increments up to the start time of the next reservation, or to a maximum of 24 hours.
