@@ -24,8 +24,6 @@ description: Learn how to manage Webinar policies for Teams meetings.
 
 # Set up webinars in Microsoft Teams
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
-
 > [!NOTE]
 > This article describes some features in webinars 2.0 that are in preview and will require a Teams Premium license.
 

@@ -35,8 +35,8 @@ This article describes the following general policy settings for Teams meetings:
 - [Designated presenter role mode](#designated-presenter-role-mode)
 - [Engagement report](#engagement-report)
 - [Meeting registration](#meeting-registration)
-- [Who can register](#who-can-register)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
+- [Meeting reactions](#meeting-reactions)
 - [Speaker Coach](#speaker-coach)
 
 ## Meet now in channels
@@ -65,7 +65,7 @@ Schedule a meeting will be disabled.
 
 Channel selection is disabled.
 
-[ ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 In the channel posts page, the following will be disabled:
 
@@ -136,10 +136,6 @@ For more information, including limits of the engagement report, see [viewing an
 ## Meeting registration
 
 This is a per-user policy. If you turn this on, users in your organization can set up webinars. This policy is enabled by default. To find out more webinars, read [Set up webinars](set-up-webinars.md).
-
-## Who can register
-
-This policy controls which users can register and attend webinars 1.0. This policy is only available if **Meeting registration** is turned on. Read more about how to [Set up webinars](set-up-webinars.md).
 
 ## Meeting provider for Islands mode
 
