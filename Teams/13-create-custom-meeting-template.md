@@ -51,8 +51,8 @@ To create a custom meeting template
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
 |Notify when callers join and leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
 |Enable meeting end-to-end encryption|Specify if you want the meeting to use end-to-end encryption. Recording and transcription won't work if this is on.|
-|Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
-|Enable watermark for video|Specifies if a watermark is overlaid on attendees video feeds in the meeting.|
+|Apply a watermark to shared content|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
+|Apply a watermark to everyone's video feed|Specifies if a watermark is overlaid on attendees video feeds in the meeting.|
 
 #### Audio and video
 

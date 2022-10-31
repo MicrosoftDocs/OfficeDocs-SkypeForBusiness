@@ -35,8 +35,8 @@ The following table describes which actions we'll restrict for sensitive meeting
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|No|
 |Record automatically|**Off**|Label|No|
-|Watermark camera streams|**Off**|Label|No|
-|Watermark screenshare|**Off**|Label|No|
+|Apply a watermark to everyone's video feed|**Off**|Label|No|
+|Apply a watermark to shared content|**Off**|Label|No|
 |Who can bypass the lobby|**People I invite**|Label|Yes|
 |Who can present|**Only me and co-organizers**|Label|Yes|
 |Who can record|**Organizer and co-organizers**|Label|Yes|

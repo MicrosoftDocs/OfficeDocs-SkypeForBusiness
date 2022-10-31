@@ -38,8 +38,8 @@ The following table describes which actions we'll restrict for baseline meetings
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|Yes|
 |Record automatically|**Off**|Label|Yes|
-|Watermark camera streams|**Off**|Label|Yes|
-|Watermark screenshare|**Off**|Label|Yes|
+|Apply a watermark to everyone's video feed|**Off**|Label|Yes|
+|Apply a watermark to shared content|**Off**|Label|Yes|
 |Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|Label|Yes|
 |Who can present|**Everyone in the organization, but user can override**|Teams admin center|No|
 |Who can record|**Organizers and presenters**|Label|Yes|

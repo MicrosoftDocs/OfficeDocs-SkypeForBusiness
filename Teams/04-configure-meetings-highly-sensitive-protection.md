@@ -44,8 +44,8 @@ The following table describes which actions we'll restrict for highly sensitive 
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
 |Record automatically|**Off**|Label|No|
-|Watermark camera streams|**On**|Label|Yes|
-|Watermark screenshare|**On**|Label|Yes|
+|Apply a watermark to everyone's video feed|**On**|Label|Yes|
+|Apply a watermark to shared content|**On**|Label|Yes|
 |Who can bypass the lobby|**Only me and co-organizers**|Label|Yes|
 |Who can present|**Only me and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking)|N/A|N/A|
@@ -70,8 +70,8 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Manage what attendees see|**On**|Template|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
 |Record automatically|**Off**|Label|No|
-|Watermark camera streams|**On**|Label|Yes|
-|Watermark screenshare|**On**|Label|Yes|
+|Apply a watermark to everyone's video feed|**On**|Label|Yes|
+|Apply a watermark to shared content|**On**|Label|Yes|
 |Who can bypass the lobby|**Only me and co-organizers**|Label|Yes|
 |Who can present|**Only me and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking)|N/A|N/A|
