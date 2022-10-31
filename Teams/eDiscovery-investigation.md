@@ -53,7 +53,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Tables||
 |Teams Video Clip (TVC)|Search TVC with "Video-Clip" keyword and "save as" a .mp4 file for each TVC attachment by right-clicking the preview (search by keyword will be available in October 2022). TVC data is discoverable in eDiscovery [review sets](/microsoft-365/compliance/add-data-to-review-set).
 
-<sup>1</sup> Meeting (and call) metadata includes the following:
+<a name="teams-metadata"></a><sup>1</sup> Meeting (and call) metadata includes the following:
 
 - Meeting start and end time, and duration
 - Meeting join and leave events for each participant
