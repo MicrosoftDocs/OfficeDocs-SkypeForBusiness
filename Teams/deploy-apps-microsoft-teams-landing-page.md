@@ -69,6 +69,18 @@ After an admin allows the use of custom apps, end-users can find such apps by se
 
 For more information, see [Understand and manage custom and sideloaded apps](custom-app-overview.md).
 
+## About App Templates
+
+Using the app development methods, Microsoft creates and provides functional and production-ready sample apps. Collectively, these apps are called App templates for Teams and are provided to:
+
+* Illustrate a few collaboration use cases in Teams.
+* Showcase app development best practices and methods.
+* Provide open-source apps that developers can extend to create their own apps.
+
+Your organization developers customize App Templates with simple changes to the provided source code. You provide these apps as custom apps for your end-users, to meet any organization needs.
+
+To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com/microsoft-teams/app-templates/).
+
 ## Discover and use apps in Teams
 
 Users can view all the apps available in Teams from the Teams apps store in a Teams desktop or web client. Users can search by name, browse by category, and browse by apps built for your org and built with Power Platform to discover and install apps in Teams.
@@ -82,19 +94,7 @@ Users can find and add apps to Teams from the Teams app store. They can also add
 A user can add and use an app only when an admin allows the app and the app is made available to the user via [permission policies](teams-app-permission-policies.md). An organization's IT admin has complete control over who can install which apps in which context. Users can't add apps that are blocked, any app with a lock icon in the Teams store is blocked for the user. However, [users can request their org’s IT admin for their approval](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). After the app is approved, users can add the app from the Teams store.
 
 > [!NOTE]
-> Only individuals can request approval to add an app.
-
-## About App Templates
-
-Using the app development methods, Microsoft creates and provides functional and production-ready sample apps. Collectively, these apps are called App templates for Teams and are provided to:
-
-* Illustrate a few collaboration use cases in Teams.
-* Showcase app development best practices and methods.
-* Provide open-source apps that developers can extend to create their own apps.
-
-Your organization developers customize App Templates with simple changes to the provided source code. You provide these apps as custom apps for your end-users, to meet any organization needs.
-
-To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com/microsoft-teams/app-templates/).
+> Only individuals can request for an approval to add an app in Teams.
 
 ## Understand app capabilities
 
