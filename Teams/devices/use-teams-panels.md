@@ -203,7 +203,7 @@ To enable check-in and room release, see [Check-in and room release on Microsoft
 
 When check out is enabled, end users can use a Teams panel to manually release a room. Releasing a room ends the current reservation and makes the room available for others to schedule.
 
-This feature is enabled by default, but it can be disabled per device. To disable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn off **Check out**.
+This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Check out**.
 
 #### Enable or disable room reservations
 
