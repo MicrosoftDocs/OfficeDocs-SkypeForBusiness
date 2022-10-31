@@ -31,7 +31,7 @@ The Virtual Appointments app provides a central hub for all your virtual appoint
 
 You can schedule, view, and manage virtual appointments, get real-time status updates in a queue view, send appointment reminders, view analytics and reports to gain insight into virtual appointments activity, and configure calendar, staff, and booking page settings.
 
-With any Microsoft 365 or Office 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. With [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing), your organization gets advanced Virtual Appointments capabilities to manage and personalize the experience. These include a queue view of scheduled and on-demand appointments, SMS text notifications, waiting room chat, and analytics.
+With any Microsoft 365 or Office 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. With [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview), your organization gets advanced Virtual Appointments capabilities to manage and personalize the experience. These include a queue view of scheduled and on-demand appointments, SMS text notifications, waiting room chat, and analytics.
 
 ## Overview of the Virtual Appointments app
 
@@ -87,7 +87,7 @@ Admins see the following reports (which are also in the Teams admin center), sho
 
   :::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
 
-- The [Teams Virtual Appointments active user report](https://review.learn.microsoft.com/microsoft-365/frontline/virtual-appointments-active-user-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium. Admins can see how many users are actively using advanced capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
+- The [Teams Virtual Appointments active user report](https://review.learn.microsoft.com/microsoft-365/frontline/virtual-appointments-active-user-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium (preview). Admins can see how many users are actively using advanced capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
 
     [placeholder for screenshot]
 
