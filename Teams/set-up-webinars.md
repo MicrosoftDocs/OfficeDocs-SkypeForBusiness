@@ -95,14 +95,6 @@ Meeting registration must be turned on to use webinars 2.0.
         Set-CsTeamsEventsPolicy -EventAccessType Everyone
         ```
 
-#### Turn off webinars 2.0
-
-This will turn off webinars 2.0. To turn off all webinar functionality, see [Turn off webinars](#turn-off-webinars).
-
-```powershell
-Set-CsTeamsEventsPolicy -AllowWebinars Disabled
-```
-
 ## Set up webinars 1.0
 
 ### Teams admin center
@@ -111,14 +103,16 @@ You can use the Teams admin center to set up webinars 1.0 for your organization.
 
 #### Meeting registration
 
-If you turn this on, users can schedule webinars. By default, this is turned on. If you want to turn off meeting registration, set this policy to **Off**.
+If you turn this on, users in your organization can schedule webinars. By default, this is turned on. If you want to turn off meeting registration and webinars, set this policy to **Off**.
 
 > [!IMPORTANT]
 > **Private meeting scheduling** must be on for meeting registration to work. By default, this policy is turned on in the Teams admin center. For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
 
 #### Who can register
 
-If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **Everyone in the organization**, only users in your organization can register for webinars. If meeting registration is turned off, this option will not be available and no one can register for webinars.
+This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Meeting registration** is turned on. By default, **Who can register** is set to **Everyone**.
+
+If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **Everyone in the organization**, only users in your organization can register for and attend webinars. If meeting registration is turned off, this option will not be available and no one can register for webinars. Note that this policy is only for webinars 1.0.
 
 > [!NOTE]
 > The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
@@ -183,14 +177,29 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ## Turn off webinars
 
-### Teams admin center
+### Turn off Webinars 2.0
+
+If you want to revert to webinars 1.0, run the following command in PowerShell:
+
+```powershell
+Set-CSTeamsEventsPolicy -AllowWebinars $False
+```
+
+You can update your webinar 1.0 settings using [Set-CsTeamsMeetingPolicy](#set-up-webinars-10).
+
+### Completely turn off webinars
+
+You can completely turn off webinars from the Teams admin center or by using PowerShell.
+
+#### Teams admin center
 
 Under **Meetings**> **Meeting policies** in the Teams admin center, turn off **Meeting registration**.
 
-### PowerShell
+#### PowerShell
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $False
+Set-CSTeamsEventsPolicy -AllowWebinars $False
 ```
 
 ## Related topics
