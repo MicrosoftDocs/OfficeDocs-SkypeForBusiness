@@ -23,6 +23,9 @@ description: Learn how Microsoft Teams administrators can create a custom meetin
 
 Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting settings available to meeting organizers. Templates can configure settings that meeting organizers can change or can lock settings so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
 
+> [!Note]
+> Custom meeting templates are in preview and will require a Teams Premium license.
+
 For each option in the template, you can define the following:
 
 - **Default value** - This is the value that is applied to a meeting when the template is used.
@@ -48,6 +51,8 @@ To create a custom meeting template
 |People calling in by phone can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
 |Notify when callers join and leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
 |Enable meeting end-to-end encryption|Specify if you want the meeting to use end-to-end encryption. Recording and transcription won't work if this is on.|
+|Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
+|Enable watermark for video|Specifies if a watermark is overlaid on attendees video feeds in the meeting.|
 
 #### Audio and video
 
@@ -62,8 +67,6 @@ To create a custom meeting template
 |:------|:----------|
 |Record meetings automatically|When **On** meetings are recorded automatically.|
 |Who can record meetings?|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
-|Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
-|Enable watermark for video|Specifies if a watermark is overlaid on attendees video feeds in the meeting.|
 
 #### Meeting Engagement
 

@@ -34,6 +34,9 @@ The following table show what chat-related controls are available and where they
 |Meeting Q&A|Yes|No|No|Yes|
 |Shared notes|No|No|No|Yes|
 
+> [!Note]
+> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+
 By default, chat is turned on for meeting participants. There are several ways you can mange chat:
 
 - Prevent anonymous meeting participants from using chat

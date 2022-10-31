@@ -23,6 +23,9 @@ description: Learn how to configure Teams meetings for protection for sensitive 
 
 For the *sensitive* level of protection, we'll restrict who can bypass the lobby, who can present, and who can record. You can restrict additional actions as well if your organization requires it.
 
+> [!Note]
+> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+
 The following table describes which actions we'll restrict for sensitive meetings and where those settings are configured.
 
 |Feature|Setting|Location|Enforced|

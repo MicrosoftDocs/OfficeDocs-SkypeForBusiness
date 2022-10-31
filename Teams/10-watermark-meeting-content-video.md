@@ -23,6 +23,9 @@ description: Learn how to enable or require watermarks on attendee video and sha
 
 You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Meeting participants can't turn the watermark off.
 
+> [!Note]
+> Meeting settings in sensitivity labels, custom meeting templates, and watermarks are in preview and will require a Teams Premium license.
+
 Anonymous participants and overflow participants have an audio-only experience when a watermark is in use.
 
 Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer or enforced by a sensitivity label.

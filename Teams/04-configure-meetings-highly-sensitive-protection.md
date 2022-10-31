@@ -25,6 +25,9 @@ For the *highly sensitive* level of protection, we'll look at two different scen
 - Highly sensitive meetings where attendees participate and interact with the presenters
 - Highly sensitive presentations where attendees don't interact and are just viewing the presentation
 
+> [!Note]
+> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+
 #### Highly sensitive meetings
 
 For highly sensitive meetings, we'll restrict who can bypass the lobby, who can present, when participants can chat, and we'll block copying from the meeting chat. We'll also enable end-to-end encryption and watermarking for shared video and content. Because we're using watermarks, meeting recording will be disabled.
