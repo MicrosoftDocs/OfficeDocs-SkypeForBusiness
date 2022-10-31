@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaku
 manager: samanro
-ms.topic: article
+ms.topic: conceptual
 audience: admin
 ms.service: msteams
 search.appverid: MET150
