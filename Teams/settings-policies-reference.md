@@ -77,7 +77,7 @@ Template policies control what team templates users see when they create a new t
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
 |Who can chat in meetings|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages.|
 |Teams Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings.|
-|Meeting reactions|On|Description|
+|Meeting reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook.|
 
 ### Meeting policies - Meeting join & lobby
@@ -137,7 +137,7 @@ Template policies control what team templates users see when they create a new t
 |Mode for IP audio|Outgoing and incoming audio enabled|This setting controls whether incoming and outgoing audio can be turned on in meetings and group calls.|
 |Mode for IP video|Outgoing and incoming video enabled|This setting controls whether incoming and outgoing video can be turned on in meetings and group calls.|
 |IP video|On|This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.|
-|Local broadcasting|Off|Description|
+|Local broadcasting|Off|Use NDI or SDI technology to capture and deliver broadcast-quality audio and video over your network.|
 |Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
 |Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
@@ -207,7 +207,7 @@ Template policies control what team templates users see when they create a new t
 |Automatically answer incoming meeting invites|Off|This setting controls whether incoming meeting invites are automatically answered. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.|
 |Spam filtering|Turn on|This setting allows you to control the type of Spam filtering available on incoming calls.|
 |SIP devices can be used for calls|Off|This setting enables users to use a SIP device to make and receive calls.|
-|Open apps in browser for incoming PSTN calls (Preview)|Off|Description|
+|Open apps in browser for incoming PSTN calls (Preview)|Off|This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This can be used to pass  the phone of an inbound caller to an app to find the associated customer record while the call is taking place.|
 
 ### Call hold policies
 
@@ -238,7 +238,7 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 |:-----|:-----|:-----|
 |Block incoming caller ID|Off|Turn on this setting to block the caller ID of incoming calls from being displayed.|
 |Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID.|
-|Calling Party Name|(Blank)|Description|
+|Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call.|
 |Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
 |Replace the caller ID with this service number|(Choose a service number)|Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace the caller ID with**.|
 
