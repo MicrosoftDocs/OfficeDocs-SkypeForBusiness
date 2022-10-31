@@ -32,7 +32,21 @@ As an administrator, you can route calls to unassigned numbers in your organizat
 
 You can route calls to unassigned numbers to a user, to a resource account associated with an Auto Attendant or a Call Queue, or to an announcement service that will play a custom audio file to the caller.
 
-## Configuration
+You can configure routing of unassigned numbers by using the Teams admin center or by using PowerShell.
+
+## Use Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
+
+2. On the **Manage policies** tab, click **Add**.
+
+3. Give the policy a name, and then switch **Allow call park** to **On**.
+
+4. Change the range and park timeout as required.
+
+5. Select **Save**.
+
+## Use PowerShell
 
 To route calls to an unassigned number, use the New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment cmdlet available in Teams PowerShell module 2.5.1 or later.
 
