@@ -186,9 +186,9 @@ Set-CSTeamsEventsPolicy -AllowWebinars $False
 
 You can update your webinar 1.0 settings using [Set-CsTeamsMeetingPolicy](#set-up-webinars-10).
 
-### Completely turn off webinars
+### Turn off webinars 1.0 and 2.0
 
-You can completely turn off webinars from the Teams admin center or by using PowerShell.
+You can turn off webinars 1.0 and 2.0 from the Teams admin center or by using PowerShell.
 
 #### Teams admin center
 
