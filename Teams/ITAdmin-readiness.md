@@ -74,9 +74,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Teams Android devices</h2>
 
-<p>The following table contains links to comprehensive training, with PowerPoint decks (in PDF format), on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
+<p>The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
 
-| Module | PowerPoint deck (PDF)  |
+| Module | PowerPoint deck  |
 | ------------| -------------------- |
 | Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://aka.ms/TeamsAndroidModule1) |
 | Module 2: Planning Microsoft Teams Android devices|[Deck](https://aka.ms/TeamsAndroidModule2) |
