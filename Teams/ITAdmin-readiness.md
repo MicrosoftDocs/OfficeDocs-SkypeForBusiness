@@ -57,9 +57,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Teams Rooms Foundations for IT & AV Pros</h2>
 
-<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on  Microsoft Teams Rooms.  
+<p>The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Rooms.  
 
-| Module | PowerPoint deck (PDF)  |
+| Module | PowerPoint deck  |
 | ------------ | -------------------- |
 | Module 1: Introduction to Microsoft Teams Rooms  | [Deck](https://aka.ms/TeamsRoomsModule1) |
 | Module 2: Network readiness  | [Deck](https://aka.ms/TeamsRoomsModule2) |
