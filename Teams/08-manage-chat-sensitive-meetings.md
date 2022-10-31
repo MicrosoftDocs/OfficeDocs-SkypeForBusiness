@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn how to manage Teams meeting chat options for sensitive meetings by using admin policies, sensitivity labels, and meeting templates.
 ---
 
 # Manage chat for sensitive Teams meetings

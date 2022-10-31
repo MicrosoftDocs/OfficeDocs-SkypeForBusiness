@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn how to enable or require watermarks on attendee video and shared content in sensitive Teams meetings.
 ---
 
 # Require a watermark for sensitive Teams meetings

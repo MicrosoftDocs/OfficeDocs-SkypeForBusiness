@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn how to enable end-to-end encryption for Teams meetings.
 ---
 
 # Require end-to-end encryption for sensitive Teams meetings

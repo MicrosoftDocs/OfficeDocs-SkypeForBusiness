@@ -15,7 +15,7 @@ ms.collection:
   - m365solution-overview
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn how to configure Teams meetings for better security using three tiers of protection, balancing security with ease of collaboration.
 ---
 
 # Configure Teams meetings with three tiers of protection

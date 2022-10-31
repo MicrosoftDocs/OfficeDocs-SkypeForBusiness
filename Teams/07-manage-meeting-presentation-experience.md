@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: Learn about admin options for managing who can present, how content is shared, and how attendees collaborate in Teams meetings.
+description: Learn about admin options for managing who can present, how content is shared, and how attendees collaborate in sensitive Teams meetings.
 ---
 
 # Manage the meeting presentation experience for sensitive Teams meetings

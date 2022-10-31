@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn how to use Teams admin policies together with sensitivity labels and meeting templates to enhance security and compliance for sensitive meetings.
 ---
 
 # Use Teams meeting templates, sensitivity labels, and admin policies together

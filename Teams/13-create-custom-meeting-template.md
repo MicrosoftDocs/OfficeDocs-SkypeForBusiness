@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: Learn how Microsoft Teams administrators can create a custom meeting template to set or enforce meeting organizer settings.
+description: Learn how Microsoft Teams administrators can create a custom meeting template to set or enforce meeting organizer settings for enhanced meeting security and compliance.
 ---
 
 # Create a custom meeting template in Microsoft Teams

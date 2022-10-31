@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: Learn about custom meeting templates in Microsoft Teams Premium
+description: Learn about custom meeting templates in Microsoft Teams Premium.
 ---
 
 # Overview of custom meeting templates in Microsoft Teams

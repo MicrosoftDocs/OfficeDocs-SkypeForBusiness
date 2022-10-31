@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: 
+description: Learn how to configure Teams meetings for a baseline level of protection by using templates and sensitivity labels.
 ---
 
 # Configure Teams meetings with baseline protection
