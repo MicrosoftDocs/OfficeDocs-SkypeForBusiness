@@ -24,9 +24,10 @@ description: Learn how to manage Webinar policies for Teams meetings.
 
 # Set up webinars in Microsoft Teams
 
-**ADD PREVIEW RELEASE DISCLAIMER**
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-**This article describes some features, webinar 2.0, that are in preview release.**
+> [!NOTE]
+> This article describes some features in webinars 2.0 that are in preview and will require a Teams Premium license.
 
 Microsoft now offers two webinar experiences; this article describes how to configure both.
 
@@ -39,7 +40,7 @@ Webinars 1.0 allows basic features like registration and an attendance report. B
 - Present bios on the event page
 - Advanced registration configurability
 
-Read more about the new features available in the [webinar end user documentation]().
+Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
 
 If you are currently using webinars 1.0, you'll be moved to webinars 2.0 automatically. If you currently have webinars 1.0 turned off, they will remain off as webinars 2.0 rolls out. If you want to keep webinars 1.0, see [how to turn off webinars 2.0](#turn-off-webinars-20).
 
@@ -52,7 +53,7 @@ For more information about the differences between meetings, webinars, and live 
 
 ## Set up webinars 2.0
 
-You must use PowerShell to set up webinars 2.0 for your organization. (The ability to configure webinars 2.0 in the Teams admin center is not available yet.)
+You must use PowerShell to set up webinars 2.0 for your organization. The ability to configure webinars 2.0 in the Teams admin center is not available yet.
 
 ### Using PowerShell
 
