@@ -36,15 +36,38 @@ You can configure routing of unassigned numbers by using the Teams admin center 
 
 ## Use Teams admin center
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone Numbers**.
 
-2. On the **Manage policies** tab, click **Add**.
+2. On the **Routing rules** tab, click **Add**.
 
-3. Give the policy a name, and then switch **Allow call park** to **On**.
+3. Give the rule a name, a description and specify the evaluation order for the rule.
 
-4. Change the range and park timeout as required.
+4. Decide which kind of rule you want to add. You can select rules where the type of phone number pattern is preconfigured and you complete the pattern and the routing option. You can also select advanced setup, where you directly enter the regular expression for the phone number pattern and the routing option.
 
 5. Select **Save**.
+
+You can also create a routing rule directly for an unassigned phone number.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone Numbers**.
+
+2. On the **Numbers** tab, select an unassigned phone number and click **Route** at the top of the view
+
+4. Give the rule a name, a description and specify the evaluation order for the rule.
+
+4. Select the routing option.
+
+5. Select **Save**.
+
+You can test your routing rules by using the Test number feature.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone Numbers**.
+
+2. On the **Routing rules** tab, click **Test number**.
+
+3. Enter a phone number directly or click **Select a number** and select one of your unassigned phone numbers from the drop-down.
+
+4. Select **Test**.
+
 
 ## Use PowerShell
 
@@ -54,7 +77,6 @@ You need to specify the called number or range of numbers and the associated rou
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
-
 
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
