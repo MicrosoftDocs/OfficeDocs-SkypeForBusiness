@@ -5,7 +5,7 @@ ms.author: v-lanachin
 manager: samanro
 ms.reviewer: rjam
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.localizationpriority: medium
 description: Learn how to manage the Praise app in the Microsoft Teams admin center.
