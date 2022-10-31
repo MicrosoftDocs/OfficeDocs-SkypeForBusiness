@@ -46,11 +46,11 @@ The following table summarizes the configurations for each tier. Use these confi
 |&nbsp;|Baseline|Sensitive|Highly sensitive|Highly sensitive presentation|
 |:-----|:-----|:-----|:-----|:-----|
 |Allow chat|**Enabled**|**Enabled**|**In-meeting only**|**In-meeting only**|
-|Allow dial-in users to bypass the lobby|**Off**|**Off**|**Off**|**Off**|
 |Disable camera for attendees|**Off**|**Off**|**Off**|**On**|
 |Disable mic for attendees|**Off**|**Off**|**Off**|**On**|
 |End-to-end encryption|**Off**|**Off**|**On**|**On**|
 |Manage what attendees see|**Off**|**Off**|**On**|**On**|
+|People dialing in can bypass the lobby|**Off**|**Off**|**Off**|**Off**|
 |Prevent copying chat content to clipboard|**Off**|**Off**|**On**|**On**|
 |Record automatically|**Off**|**Off**|**Off**|**Off**|
 |Watermark camera streams|**Off**|**Off**|**On**|**On**|

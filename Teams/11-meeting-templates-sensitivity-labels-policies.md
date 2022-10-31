@@ -35,7 +35,7 @@ The following table shows a list of Teams features that may be useful for managi
 |Feature|Teams admin policy|Sensitivity label|Meeting template|Meeting organizer|
 |:------|:-----------------|:----------------|:---------------|:----------------|
 |Allow chat|Can be set to On, Off, or On for everyone except anonymous participants. If set to Off, then not available in labels, templates, or meeting settings.|Can disable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|Can disable or enable chat or restrict it to meeting-only.|
-|Allow dial-in users to bypass the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|
+|People dialing in can bypass the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|Can prevent dial-in attendees from bypassing the lobby|
 |Disable camera for attendees|No setting|No setting|Can prevent or allow camera for attendees|Can prevent or allow camera for attendees if not locked by a template|
 |Disable mic for attendees|No setting|No setting|Can prevent or allow mic for attendees|Can prevent or allow mic for attendees if not locked by a template|
 |End-to-end encryption|When On, end-to-end encryption can be turned on by a sensitivity label or the meeting organizer.|No setting|No setting|Meeting organizer can turn on or off unless the setting is disabled by admin policy or enforced on or off by a sensitivity label.|

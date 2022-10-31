@@ -21,7 +21,7 @@ description: Learn how to configure Teams meetings for a baseline level of prote
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-For the *baseline* level of protection, we'll restrict who can bypass the lobby using a sensitivity label and set a default value for who can present with a Teams admin policy. You can restrict additional actions as well if your organization requires it.
+For the *baseline* level of protection, we'll restrict who can bypass the lobby by using a sensitivity label and set a default value for who can present with a Teams admin policy. You can restrict additional actions as well if your organization requires it.
 
 > [!Note]
 > Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
@@ -30,19 +30,19 @@ The following table describes which actions we'll restrict for baseline meetings
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Allow chat|**Enabled**|Label|No|
-|Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
+|Allow chat|**Enabled**|Label|Yes|
 |Disable camera for attendees|**Off**|Template|No|
 |Disable mic for attendees|**Off**|Template|No|
-|End-to-end encryption|**Off**|Label|No|
+|End-to-end encryption|**Off**|Label|Yes|
 |Manage what attendees see|**Off**|Template|No|
-|Prevent copying chat content to clipboard|**Off**|Label|No|
-|Record automatically|**Off**|Label|No|
-|Watermark camera streams|**Off**|Label|No|
-|Watermark screenshare|**Off**|Label|No|
+|People dialing in can bypass the lobby|**Off**|Label|Yes|
+|Prevent copying chat content to clipboard|**Off**|Label|Yes|
+|Record automatically|**Off**|Label|Yes|
+|Watermark camera streams|**Off**|Label|Yes|
+|Watermark screenshare|**Off**|Label|Yes|
 |Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|Label|Yes|
 |Who can present|**Everyone in the organization, but user can override**|Teams admin center|No|
-|Who can record|**Organizers and presenters**|Label|No|
+|Who can record|**Organizers and presenters**|Label|Yes|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
@@ -62,7 +62,7 @@ To configure who can present in meetings
 
 For the baseline level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
 
-If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings if needed to meet the needs of your organization. If you already have a label that you use for baseline or general protection, you can edit the label and add Teams meetings to it.
+If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings show below if needed to meet the needs of your organization. If you already have a label that you use for baseline or general protection, you can edit the label and add Teams meetings to it.
 
 To create a sensitivity label
 1. Open the [Microsoft Purview compliance portal](https://compliance.microsoft.com).

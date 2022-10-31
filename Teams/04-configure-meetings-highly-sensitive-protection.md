@@ -37,11 +37,11 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
 |Allow chat|**In-meeting only**|Label|Yes|
-|Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
 |Disable camera for attendees|**Off**|Template|No|
 |Disable mic for attendees|**Off**|Template|No|
 |End-to-end encryption|**On**|Label|Yes|
 |Manage what attendees see|**On**|Template|Yes|
+|People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
 |Record automatically|**Off**|Label|No|
 |Watermark camera streams|**On**|Label|Yes|

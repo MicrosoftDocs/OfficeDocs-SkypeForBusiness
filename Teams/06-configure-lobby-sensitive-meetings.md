@@ -32,7 +32,7 @@ The following table lists features that you can use to help manage the lobby exp
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
 |:------|:----------------|:-------|:----------------|:----------|
 |Who can bypass the lobby|Yes|Yes|Yes|Yes|
-|People calling in by phone can bypass the lobby|Yes|Yes|Yes|Yes|
+|People dialing in can bypass the lobby|Yes|Yes|Yes|Yes|
 |Notify when callers join and leave|Yes|Yes|No|No|
 |Let anonymous people join a meeting|No|No|No|Yes|
 |Let anonymous people start a meeting|No|No|No|Yes|
