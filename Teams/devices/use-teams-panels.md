@@ -191,13 +191,19 @@ On the Teams panel, sign in using your admin credentials.
 
 2. A six-digit code will appear on the Teams Rooms on Android front of room display. Enter the code on the Teams Panel.  
 
-#### Enable or disable meeting check-in and room release
+#### Enable or disable meeting check-in and automatic room release
 
 Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
 
 When Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
 
 To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
+
+#### Enable or disable check out (manual room release)
+
+When check out is enabled, end users can use a Teams panel to manually release a room. Releasing a room ends the current reservation and makes the room available for others to schedule.
+
+This feature is enabled by default, but it can be disabled per device. To disable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn off **Check out**.
 
 #### Enable or disable room reservations
 
