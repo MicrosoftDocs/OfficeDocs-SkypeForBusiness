@@ -33,7 +33,7 @@ You can use the [policy packages included in Teams](#policy-packages-included-in
 You can customize the settings of the policies in a policy package to suit the needs of your users. When you change the settings of policies in a package, all users who are assigned to that package get the updated settings. You manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
 > [!NOTE]
-> The custom policy packages feature is temporarily available in GA for all Microsoft Teams customers. To get this feature in the future, each user will need the Teams Premium license. For more information, see [Teams Premium add-on for Microsoft Teams](/MicrosoftTeams/enhanced-teams-experience).
+> The custom policy packages feature is available in preview. To use this feature after the preview, each user will need the Teams Premium license.
 
 ## What is a policy package?
 
