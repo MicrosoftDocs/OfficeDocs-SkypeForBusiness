@@ -27,7 +27,7 @@ description: Learn how to manage the Bookings app in Teams for users in your org
 
 # Manage the Bookings app in Microsoft Teams
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments).
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For example, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments).
 
 Schedulers can manage multiple department and staff calendars and communications with internal and external attendees, from a single experience. Virtual appointments are held via Teams meetings that offer robust videoconferencing capabilities.
 
@@ -78,13 +78,13 @@ To enable this setting, go to the Microsoft 365 admin center \> **Settings** \> 
 
 With this setting turned on, staff receive an email in which they're requested to approve membership to a booking calendar.  
 
-To learn more, see ???[Turn Microsoft Bookings on or off](/microsoft-365/bookings/turn-bookings-on-or-off).
+Learn more about [how to configure the staff approvals setting](/microsoft-365/bookings/turn-bookings-on-or-off).
 
 ## Changing your default domain when setting up a Bookings mailbox
 
 When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, the default domain may cause problems when sending meeting invites to external recipients. For example, your invite may get flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
 
-We recommend that you change the default domain before you create your Bookings mailbox. See the [Domains FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
+We recommend that you change the default domain before you create your Bookings mailbox. See [Domains FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
 If you need to change the default domain after creating your Bookings mailbox, use PowerShell.
 
@@ -109,6 +109,6 @@ To send feedback, select the **Help** option at bottom of the Teams left navigat
 
 ## Related articles
 
-[Manage the join experience for Teams virtual appointments on browsers](/microsoft-365/frontline/browser-join)
+[Manage the join experience for Teams Virtual Appointments on browsers](/microsoft-365/frontline/browser-join)
 
 [Bookings documentation for end users](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
