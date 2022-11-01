@@ -88,14 +88,14 @@ Admins see the following reports (which are pinned from the Teams admin center),
 - The [Teams Virtual Appointments usage report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) gives admins an overview of Teams Virtual Appointments activity in your organization. This report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows for appointments created and conducted through multiple scheduling entry points.
 
   > [!NOTE]
-  > This feature is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). The report is available during the preview period. After the preview, a Teams Premium license is needed.
+  > This feature is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). The report is available during the preview period. To access the report after the preview, at least one user in your organization must have a Teams Premium license.
 
   :::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
 
 - The [Teams Virtual Appointments active user report](https://review.learn.microsoft.com/microsoft-365/frontline/virtual-appointments-active-user-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium (preview). Admins can see how many users are actively using advanced capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
 
   > [!NOTE]
-  > To access this feature during the preview period, a [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) trial license is needed.
+  > To access this feature during the preview period, at least one user in your organization must have a [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) trial license.
 
     [placeholder for screenshot]
 
