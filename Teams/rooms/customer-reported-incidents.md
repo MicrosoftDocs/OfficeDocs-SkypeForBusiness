@@ -28,7 +28,7 @@ For any type of issue that MTR Pro did not flag, customers or partners on behalf
 
 In the Description field, describe as best as possible the issue. You can add one or more rooms.
 
-Check  **High Impact** to elevate importance to your support if the incident is causing significant health degradation for a critical room.
+Check **High Impact** to elevate importance to your support if the incident is causing significant health degradation for a critical room.
 
 When a room is (or rooms are) selected as part of the Record an issue, each room will be marked as **Unhealthy** until the recorded issue is closed.
 
