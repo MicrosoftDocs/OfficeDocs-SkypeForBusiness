@@ -31,7 +31,7 @@ User data collected by Career Coach includes profile information such as goals a
 
 Follow these steps to delete user data from Career Coach:
 
-1. A global administrator must open a support ticket that clearly states the request for a GDPR Delete DSR (data subject requests) operation. **There is no ability to limit the data set or time window of the deletion**.
+1. A global administrator must [open a support ticket](https://edusupport.microsoft.com/support?product_id=career_coach) that clearly states the request for a GDPR Delete DSR (data subject requests) operation. **There is no ability to limit the data set or time window of the deletion**.
 2. The request should clearly state the type of data that needs to be deleted:
     1. All user data for the tenant.
     2. User data for a specific user. Please include the user’s OID (object identifiers) as part of the delete request.
@@ -42,7 +42,7 @@ Follow these steps to delete user data from Career Coach:
 
 Follow these steps to export user data from Career Coach:
 
-1. Open Career Coach and view your profile.
+1. [Open Career Coach](https://aka.ms/Career_Coach_App) and view your profile.
 1. Scroll to the privacy and security section.
 1. Select “Download” to export all customer data for your account.
 
@@ -54,7 +54,7 @@ Tenant data includes information uploaded or generated as part of Career Coach a
 
 Follow these steps to delete tenant configuration data from Career Coach:
 
-1. A global administrator must open a support ticket clearly stating the request to delete the configuration data for your tenant. **There is no ability to limit the data set or time window of the deletion**.
+1. A global administrator must [open a support ticket](https://edusupport.microsoft.com/support?product_id=career_coach) clearly stating the request to delete the configuration data for your tenant. **There is no ability to limit the data set or time window of the deletion**.
 1. Once filed, the support ticket will be addressed after one week to meet compliance's minimal retention policy. You can cancel the operation during this time.
 1. After one week, the Career Coach team deletes all data related to the tenant. Microsoft support monitors the ticket and will notify you once the deletion process is complete, **in no more than 30 days**.
 
