@@ -24,6 +24,8 @@ description: Learn how to use, manage, and customize policy packages in Microsof
 
 # Manage policy packages for Microsoft Teams
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
 You can use the [policy packages included in Teams](#policy-packages-included-in-teams) or [create your own custom policy packages](#custom-policy-packages).
@@ -31,9 +33,6 @@ You can use the [policy packages included in Teams](#policy-packages-included-in
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot of the Policy packages page in the admin center." lightbox="media/policy-packages-admin-center.png":::
 
 You can customize the settings of the policies in a policy package to suit the needs of your users. When you change the settings of policies in a package, all users who are assigned to that package get the updated settings. You manage policy packages by using the Microsoft Teams admin center or PowerShell.
-
-> [!NOTE]
-> The custom policy packages feature is available in preview. To use this feature after the preview, each user will need the Teams Premium license.
 
 ## What is a policy package?
 
@@ -77,6 +76,9 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 :::image type="content" source="media/teams-policy-packages-education.png" alt-text="Screenshot of the Education (Teacher) policy package." lightbox="media/teams-policy-packages-education.png":::
 
 ## Custom policy packages
+
+> [!NOTE]
+> The custom policy packages feature is available in preview. To use this feature after the preview, each user will need the Teams Premium license.
 
 Custom policy packages let you bundle your own set of policies for users with similar roles in your organization. Create your own policy packages by adding the policy types and policies that you need.
 
