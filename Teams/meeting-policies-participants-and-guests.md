@@ -40,12 +40,14 @@ These settings control which meeting participants wait in the lobby before they'
 - [Teams Q&A](#teams-qa)
 - [Meeting reactions](#meeting-reactions)
 
+These settings are found in the Teams admin center under **Meetings** > **Meeting policies** in the **Participants & guests** section.
+
 > [!NOTE]
 > Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## Let anonymous people join a meeting
 
-This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Anonymous users' ability to join meetings are also controlled at your organization level, the more restrictive setting will be effective. To learn more, see [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). Anonymous users' ability to join meetings are also controlled at your organization level, the more restrictive setting will be effective. To learn more, see [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## Let anonymous people start a meeting
 
@@ -58,7 +60,7 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 This is a per-user policy. This setting lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. This policy setting affects all meetings, including Meet Now meetings.
 
-The **Who can present?** setting lets meeting organizers choose who can be presenters in a meeting. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+The **Who can present?** setting lets meeting organizers choose who can be presenters in a meeting. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
 To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the policy:
 
@@ -136,16 +138,16 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 ## Teams Q&A
 
-This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
+This is a per-organizer policy. This setting turns the Questions & Answers experience (Q&A) on or off.
 
-The setting is enforced when a meeting is created or is updated by Organizers. By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings).
+The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](/manage-qna-for-teams).
 
-The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the admin portal.
+The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the Teams admin center.
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Enabled**     | Organizers can add Q&A when creating meetings. |
-|**Disabled**     | Organizers won't have the option to add Q&A when creating meetings.  |
+|**On**     | Organizers can add Q&A when creating meetings. |
+|**Off**     | Organizers won't have the option to add Q&A when creating meetings.  |
 
 ## Meeting reactions
 
