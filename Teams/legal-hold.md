@@ -1,18 +1,22 @@
 ---
 title: Place a Microsoft Teams user or team on legal hold
-author: v-tophillips
-ms.author: v-tophillips
+description: "Learn to place a Microsoft Teams user or team on legal hold using the Microsoft Purview compliance portal and learn what needs a legal hold based on data requirements."
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: 
-  - M365-collaboration
+ms.collection:
+- tier1
+- purview-compliance
+- M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: "Learn to place a Microsoft Teams user or team on legal hold using the Microsoft Purview compliance portal and learn what needs a legal hold based on data requirements."
+
 appliesto: 
   - Microsoft Teams
 ---

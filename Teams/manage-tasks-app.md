@@ -19,6 +19,7 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 ---
 
 # Manage the Tasks app for your organization in Microsoft Teams
@@ -66,7 +67,7 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Tasks for specific users in your organization
 
-To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### Pin Tasks to Teams
 
@@ -82,7 +83,7 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ### A user's My tasks is visible if the user is licensed for Exchange Online
 

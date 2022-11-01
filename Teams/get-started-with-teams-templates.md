@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 description: Learn about the team templates that are available only with Microsoft Graph. 
 f1.keywords:
 - CSH

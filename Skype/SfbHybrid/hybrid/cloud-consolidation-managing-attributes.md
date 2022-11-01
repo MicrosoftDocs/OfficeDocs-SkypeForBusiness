@@ -139,7 +139,7 @@ This option requires more effort and proper planning because users who were move
 7. Wait for user provisioning to complete. You can monitor user provisioning progress by running the following Teams PowerShell command. The following Teams PowerShell command returns an empty result as soon process is completed.
 
    ```PowerShell
-   Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | Where UserValidationErrors -ne $null | Select SipAddress,InterpretedUserType,UserValidationErrors
+   Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | Where {$_.UserValidationErrors -ne $null} | Select SipAddress,InterpretedUserType,UserValidationErrors
    ```
 
 8. To assign phone numbers and enable users for Phone System, execute the following Teams PowerShell command:
@@ -188,7 +188,7 @@ This option requires more effort and proper planning because users who were move
     Teams PowerShell command:
 
     ```PowerShell
-    Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | where {UserValidationErrors -ne $null} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, UserValidationErrors
+    Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | where {$_.UserValidationErrors -ne $null} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, UserValidationErrors
     ``` 
 
 12. After you have completed all steps in Method 2, see [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) and [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.

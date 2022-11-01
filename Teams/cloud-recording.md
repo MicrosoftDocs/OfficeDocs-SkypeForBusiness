@@ -1,7 +1,7 @@
 ---
 title: Teams cloud meeting recording
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,6 +10,7 @@ ms.collection:
   - M365-voice
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 ms.reviewer: nakulm
 search.appverid: MET150
 ms.localizationpriority: high
