@@ -1,7 +1,7 @@
 ---
 title: Get help from a Microsoft reseller or partner
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams

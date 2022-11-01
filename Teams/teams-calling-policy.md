@@ -1,7 +1,7 @@
 ---
 title: 'Calling policies in Microsoft Teams: Calling and call-forwarding features'
-author: SerdarSoysal
-ms.author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

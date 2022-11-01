@@ -14,7 +14,6 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: null
 f1.keywords:
@@ -22,15 +21,15 @@ f1.keywords:
 ms.custom: 
   - Legal
   - seo-marvel-mar2020
-description: Learn about the complimentary dial-out period for Microsoft 365 or Office 365 Calling Plan and Office 365 Audio Conferencing in Microsoft Teams.
+description: Learn about the complimentary dial-out period for a Microsoft 365 calling plan and Audio Conferencing in Microsoft Teams.
 ---
 
 # Audio Conferencing complimentary dial-out period
 
-## Skype for Business PSTN Services
+## Teams PSTN Services
 
-Customers may use Microsoft 365 or Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
-  
+Customers may use a Microsoft 365 or Calling Plan and Teams Audio Conferencing as permitted in the Teams PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Resources and Documents](https://www.microsoft.com/licensing/docs).
+
 ### End of complimentary dial out period
 
 The complimentary dial-out capability ended on December 1, 2019. For more information, see [Audio Conferencing subscription dial out and call me at benefit](audio-conferencing-subscription-dial-out.md).
@@ -39,7 +38,7 @@ This change did not take place for countries where the Audio Conferencing subscr
 
 ### Complimentary dial out period details
 
-For customers who are adopting our Microsoft 365 or Office 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings that are organized by users who are assigned a Microsoft 365 or Office 365 Audio Conferencing subscription license through November 2019. During this complimentary period, Microsoft allows meeting organizers or authorized attendees, as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 [Zone A countries and regions](audio-conferencing-zones.md). This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.
+For customers who are adopting our Microsoft 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings that are organized by users who are assigned a Microsoft 365 Audio Conferencing subscription license through November 2019. During this complimentary period, Microsoft allows meeting organizers or authorized attendees, as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 [Zone A countries and regions](audio-conferencing-zones.md). This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.
 
 In addition, there is a 900-minute limit during the complimentary dial out period as such:
 
@@ -52,7 +51,7 @@ Users with a license usage location (the location is the user country location t
 - All outbound calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list are billed per minute using Communications Credits at our published rates to that destination (provided tenant has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
 > [!NOTE]
-> You can monitor the usage against dial-out minute pool in the Skype for Business Admin Center. In the Microsoft Teams & Skype Admin Center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**. This complimentary minute pool will be labeled in the report as "Outbound Calls to Zone A countries and regions."
+> You can monitor the usage against dial-out minute pool in the Teams admin center. In the Microsoft Teams admin center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**. This complimentary minute pool will be labeled in the report as "Outbound Calls to Zone A countries and regions."
 
 Email notifications will be sent to all tenant administrators of a given customer when the utilization of the tenant's dial-out minutes pool has reached 80% and 100%.
 

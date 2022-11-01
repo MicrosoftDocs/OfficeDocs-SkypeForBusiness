@@ -17,6 +17,7 @@ ms.localizationpriority: medium
 ms.custom: 
   - Calling Plans
 description: "Use this table to find information on getting and managing phone numbers in Mexico for Microsoft Teams."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Phone number management for Mexico

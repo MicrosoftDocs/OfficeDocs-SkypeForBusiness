@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -21,6 +21,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 description: Learn how to manage settings for Teams meetings that users schedule in your organization.
 ---
 

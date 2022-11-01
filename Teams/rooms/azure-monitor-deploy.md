@@ -22,6 +22,8 @@ ms.custom: seo-marvel-mar2020
 
 This article discusses how to set up and deploy integrated, end-to-end monitoring of :::no-loc text="Microsoft Teams Rooms"::: devices by using :::no-loc text="Azure Monitor":::.
 
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
+
 You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure Monitor"::: to provide basic telemetry and alerts that will help you manage :::no-loc text="Microsoft Teams Rooms":::. As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and :::no-loc text="Microsoft Teams Rooms"::: application and operating system version distribution.

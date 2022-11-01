@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -29,7 +30,7 @@ Depending on your PSTN connectivity option, however, how you manage emergency lo
 
 This article describes how to add, change, or remove a *place* for an emergency location for your organization.
 
-This article applies to Microsoft Calling Plans, Operator Connect, and Direct Routing.
+This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
