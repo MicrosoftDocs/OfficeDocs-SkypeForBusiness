@@ -1,5 +1,5 @@
 ---
-title: Use Teams meeting templates, sensitivity labels, and admin policies together
+title: Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 description: Learn how to use Teams admin policies together with sensitivity labels and meeting templates to enhance security and compliance for sensitive meetings.
 ---
 
-# Use Teams meeting templates, sensitivity labels, and admin policies together
+# Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
