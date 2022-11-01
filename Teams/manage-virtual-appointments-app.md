@@ -47,9 +47,9 @@ Here's an overview of what's on each tab.
 
 ### Home
 
-Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
-
 ![Information icon](media/info.png) **The Queue and Analytics tiles and features are part of [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview).**
+
+Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
 [NEED NEW SCREENSHOT]<br>
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
@@ -74,25 +74,27 @@ To learn more, see [Monitor appointments and get real-time status updates](https
 
 ### Analytics
 
-Get insight into usage activity and trends to help optimize Virtual Appointments to deliver better business outcomes. The analytics experience depends on user role.
+Get insight into usage activity and trends to help optimize Virtual Appointments to deliver better business outcomes. The analytics experience depends on user role. Admins get [organizational analytics](#organizational-analytics) and non-admins get [departmental analytics](#departmental-analytics).
 
-Admins see the following reports (which are pinned from the Teams admin center), showing aggregated organizational analytics:
+#### Organizational analytics
+
+![Information icon](media/info.png) **The Virtual Appointments usage report is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). The report will continue to be available during the preview period. To access the report after the preview, a Teams Premium license is required. To access the Virtual Appointments active user report during the preview period, a Teams Premium trial license is required.**
+
+Admins see the following reports (which are pinned from the Teams admin center), showing aggregated analytics across the organization:
 
 - The [Teams Virtual Appointments usage report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) gives admins an overview of Teams Virtual Appointments activity in your organization. This report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows for appointments created and conducted through multiple scheduling entry points.
-
-  ![Information icon](media/info.png) **This feature is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). The report is available during the preview period. To access the report after the preview, a Teams Premium license is required.**
 
   :::image type="content" source="media/manage-virtual-appointments-app-analytics.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report" lightbox="media/manage-virtual-appointments-app-analytics.png":::
 
 - The [Teams Virtual Appointments active user report](https://review.learn.microsoft.com/microsoft-365/frontline/virtual-appointments-active-user-report?branch=v-lanachin-va-report#the-virtual-appointments-usage-report) provides active user information for advanced Virtual Appointments capabilities that are available with Teams Premium (preview). Admins can see how many users are actively using advanced capabilities, which capabilities they're using, and a detailed breakdown for individual appointments.
 
-  ![Information icon](media/info.png) **To access this feature during the preview period, a [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) trial license is required.**
+  [PLACEHOLDER FOR SCREENSHOT]
 
-    [PLACEHOLDER FOR SCREENSHOT]
-
-Non-admins, such as schedulers, see departmental analytics???
+#### Departmental analytics
 
 ![Information icon](media/info.png) **To access this feature during the preview period, users need a [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) trial license.**
+
+Non-admins, such as schedulers, see ???
 
 [PLACEHOLDER FOR SCREENSHOT]
 
