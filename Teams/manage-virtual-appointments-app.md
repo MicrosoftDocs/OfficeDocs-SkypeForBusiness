@@ -78,7 +78,7 @@ Get insight into usage activity and trends to help optimize Virtual Appointments
 
 #### Organizational analytics
 
-![Information icon](media/info.png) **The Virtual Appointments usage report is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). The report will continue to be available during the preview period. To access the report after the preview, a Teams Premium license is required. To access the Virtual Appointments active user report during the preview period, a Teams Premium trial license is required.**
+![Information icon](media/info.png) **The Virtual Appointments usage report is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). The report will continue to be available during the preview period. After the preview, a Teams Premium license is required. To access the Virtual Appointments active user report during the preview period, a Teams Premium trial license is required.**
 
 Admins see the following reports (which are pinned from the Teams admin center), showing aggregated analytics across the organization:
 
