@@ -27,7 +27,7 @@ description: Learn how to manage the Bookings app in Teams for users in your org
 
 # Manage the Bookings app in Microsoft Teams
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-visits).
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments).
 
 Schedulers can manage multiple department and staff calendars and communications with internal and external attendees, from a single experience. Virtual appointments are held via Teams meetings that offer robust videoconferencing capabilities.
 
@@ -44,7 +44,7 @@ Schedulers can manage multiple department and staff calendars and communications
 
 ## Availability of Bookings in Teams
 
-Microsoft Bookings app for Teams is available on the desktop and web. It can be found under [Apps in Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) and under **Manage Apps** in the Teams admin center.
+The Bookings app for Teams is available on the desktop and web. It can be found under [Apps in Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) and under **Manage Apps** in the Teams admin center.
 
 ## Control access to Bookings within your organization
 
@@ -60,14 +60,13 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ## SMS text notifications
 
-> [!NOTE]
-> ADD promo and Premium messaging<br>Unlimited SMS notifications are available through to November 30, 2022. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.<br>Unlimited SMS notifications are available through to <>. After this promotion period, a [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) license is required..
+![Information icon](media/info.png) SMS text notifications is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
 By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in [appointment types](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/bookings-virtual-appointments?view=o365-worldwide&branch=v-lanachin-bookings-prem#create-appointment-types) and in individual appointments.
 
-To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the ??? check box.
+To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the **Allow Microsoft to send SMS text message notifications** check box.
 
 Learn more about how to [configure SMS text notifications for your organization](/microsoft-365/bookings/turn-bookings-on-or-off).
 
