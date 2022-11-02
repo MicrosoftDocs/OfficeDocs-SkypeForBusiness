@@ -108,6 +108,8 @@ Use policies to control which features are available to users on common area pho
 
 ### IP phone policies
 
+The Teams IP Phone policy can only be modified if the account signing into the phone is licensed with something other than a Common Area Phone license.  If licensed with a E5/E3/E1 you can modifiy the IP Phone policy.  If using a Meeting Room license on your Common Area Phone account, it will only let you use the MeetingRoomSignIn mode which will not work on most Common Area Phones. See here for more information about acceptable overrides for teh user interface on the phone. https://docs.microsoft.com/en-us/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection 
+
 Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/skype/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
 
 To configure other parameters, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. To learn more, see [Set Teams Android devices user interface](/microsoftteams/devices/Teams-Android-devices-user-interface).
