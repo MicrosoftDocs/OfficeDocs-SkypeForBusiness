@@ -9,6 +9,7 @@ audience: admin
 ms.collection:  
   - M365-voice
   - m365initiative-voice
+  - highpri
 ms.reviewer: roykuntz
 ms.localizationpriority: medium
 search.appverid: MET150

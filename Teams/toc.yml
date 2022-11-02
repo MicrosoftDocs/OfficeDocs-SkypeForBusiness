@@ -322,6 +322,8 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
+        - name: Career Coach data compliance
+          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -734,8 +736,6 @@ items:
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
-            - name: Set up Audio Conferencing - quickstart for small and medium businesses
-              href: audio-conferencing-smb.md
         - name: Manage
           items:
             - name: Manage your audio conferencing service
@@ -743,7 +743,7 @@ items:
                 - name: Extended dial-out minutes for US and Canada
                   href: dial-out-minutes-canada-us.md
                 - name: Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit
-                  href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  href: audio-conferencing-subscription-dial-out.md
                 - name: Audio Conferencing pay-per-minute
                   href: audio-conferencing-pay-per-minute.md
             - name: Manage your audio conferencing bridge
@@ -1714,6 +1714,8 @@ items:
                   href: career-coach-set-up-steps.md
                 - name: Troubleshoot Career Coach
                   href: career-coach-troubleshoot.md
+                - name: Career Coach data compliance
+                  href: privacy-career-coach-data-compliance.md
                 - name: Resources for Career Coach
                   href: career-coach-resources.md
         - name: LMS and LTI integrations
@@ -2096,6 +2098,8 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
     - name: Accessibility and conformance
       items: 
+        - name: Accessibility guidance for Teams
+          href: accessibility-guide-admin.md
         - name: Accessibility declaration of conformance in France for Microsoft Teams
           href: accessibility-declaration-of-conformance-in-france-for-teams.md
         - name: Accessibility solutions for Skype for Business Online and Microsoft Teams
@@ -2104,6 +2108,10 @@ items:
           href: code-of-practice-for-the-united-kingdom-u-k.md
         - name: Calling plans in Microsoft 365 - Complaint handling of code for the U.K.
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
+        - name: IP Relay in Canada - sign up
+          href: ip-relay-canada-email-signup.md
+        - name: IP Relay in Canada - user guide
+          href: ip-relay-canada-user-guide.md
         - name: Emergency calling terms and conditions
           href: emergency-calling-terms-and-conditions.md
     - name: Shared channels errors

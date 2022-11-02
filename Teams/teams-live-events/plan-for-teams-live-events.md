@@ -15,6 +15,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 search.appverid: MET150
 description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
