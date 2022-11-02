@@ -31,7 +31,7 @@ The Virtual Appointments app provides a central hub for all your virtual appoint
 
 You can schedule, view, and manage virtual appointments, get real-time status updates in a queue view, send appointment reminders, view analytics and reports to gain insight into virtual appointments activity, and configure calendar, staff, and booking page settings.
 
-With any Microsoft 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview) unlocks advanced Virtual Appointments capabilities that your organization can use to manage and personalize the experience. These capabilities include a queue view of scheduled and on-demand appointments, SMS text notifications, waiting room chat, and analytics.
+With any Microsoft 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview) (preview) unlocks advanced Virtual Appointments capabilities that your organization can use to manage and personalize the experience. These capabilities include a queue view of scheduled and on-demand appointments, SMS text notifications, waiting room chat, and analytics.
 
 ## Overview of the Virtual Appointments app
 
@@ -47,7 +47,7 @@ Here's an overview of what's on each tab.
 
 ### Home
 
-![Information icon](media/info.png) **The Queue and Analytics tiles and features are part of [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview).**
+![Information icon](media/info.png) **The Queue and Analytics tiles and features are part of [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview).**
 
 Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
@@ -62,7 +62,7 @@ Access your Bookings calendar to schedule virtual appointments such as healthcar
 
 ### Queue
 
-![Information icon](media/info.png) **The scheduled queue view and SMS notifications are moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). Users can continue using these features during the preview period. After the preview, users need a Teams Premium license. To access the on-demand queue during the preview period, users need a Teams Premium trial license.**
+![Information icon](media/info.png) **The scheduled queue view and SMS notifications are moving to [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview) (preview). Users can continue using these features during the preview period. After the preview, users need a Teams Premium license. To access the on-demand queue during the preview period, users need a Teams Premium trial license.**
 
 View and monitor all scheduled and on-demand virtual appointments in the Bookings calendar that you pinned, with updates in real time.
 
@@ -78,7 +78,7 @@ Get insight into usage activity and trends to help optimize Virtual Appointments
 
 #### Organizational analytics
 
-![Information icon](media/info.png) **The Virtual Appointments usage report is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). The report will continue to be available during the preview period. After the preview, a Teams Premium license is required. To access the Virtual Appointments active user report during the preview period, a Teams Premium trial license is required.**
+![Information icon](media/info.png) **The Virtual Appointments usage report is moving to [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview) (preview). The report will continue to be available during the preview period. After the preview, a Teams Premium license is required. To access the Virtual Appointments active user report during the preview period, a Teams Premium trial license is required.**
 
 Admins see the following reports (which are pinned from the Teams admin center), showing aggregated analytics across the organization:
 
@@ -92,7 +92,7 @@ Admins see the following reports (which are pinned from the Teams admin center),
 
 #### Departmental analytics
 
-![Information icon](media/info.png) **To access this feature during the preview period, users need a [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) trial license.**
+![Information icon](media/info.png) **To access this feature during the preview period, users need a [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview) trial license.**
 
 Non-admins, such as schedulers, see ???
 

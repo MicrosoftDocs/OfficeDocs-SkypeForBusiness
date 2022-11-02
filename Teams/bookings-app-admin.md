@@ -60,7 +60,7 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ## SMS text notifications
 
-![Information icon](media/info.png) **This feature is moving to [Teams Premium](https://review.learn.microsoft.com/MicrosoftTeams/enhanced-teams-experience?branch=danismith-t-pre-licensing) (preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
+![Information icon](media/info.png) **This feature is moving to [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview) (preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
