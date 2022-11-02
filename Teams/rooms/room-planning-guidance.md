@@ -143,7 +143,7 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 
 ## Signature Teams Room
 
-![Rendering of an Signature Teams Room.](media/emr1.png)
+![Rendering of an Signature Teams Room.](../media/emr1.png)
 
 This section explores how Microsoft is transforming standard conference rooms into Signature Microsoft Teams Rooms that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, and Microsoft Corporate Facilities reference specifications.
 
@@ -227,7 +227,7 @@ An ultrawide-angle camera is positioned at the front of the room below the displ
 
 The ultrawide-angle camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
 
-![Rendering of a Signature Teams Room from an overhead view.](media/emr5.png)
+![Rendering of a Signature Teams Room from an overhead view.](../media/emr5.png)
 
 ### How do the front-of-room displays work?
 
@@ -253,7 +253,7 @@ This section is intended to cover building a room from scratch.
 
 #### Room size
 
-![Blueprint of a Signature Teams Room design.](media/emr10.png)
+![Blueprint of a Signature Teams Room design.](../media/emr10.png)
 
 25 ft x 14 ft
 
