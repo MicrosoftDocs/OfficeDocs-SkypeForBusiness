@@ -95,7 +95,7 @@ During live events many people will be joining to watch your event live. This co
 
 There are permissions across Microsoft Teams and Yammer that a user needs to be able to create a live event depending on which service you are using for the live event.
 
-1. Check that the Teams admin has enabled you to create live events. See [Administration controls for Microsoft Teams live events](teams-encoder-administration.md) for more information.
+1. Check that the Teams admin has enabled you to create live events.
 1. Check with your administrator that you have a valid Teams license that allows the creation of live events.
 
 ### Microsoft 365
@@ -103,7 +103,7 @@ There are permissions across Microsoft Teams and Yammer that a user needs to be 
 - You can only create live events from Yammer groups that are M365 group connected. If you have a Yammer group that's not connected to an M365 group, you won't be able to use live events in that group.
 - The user needs to be an admin of the Yammer group.
 - [The user needs to be enabled for "live event scheduling" in Teams](teams-live-events/what-are-teams-live-events.md).
-- If the user is going to create "external app or device" events they need to have [permission to create live events in Teams](teams-encoder-administration.md).
+- If the user is going to create "external app or device" events they need to have permission to create live events in Teams.
 - Ensure you have a valid M365 license that allows the creation of live events in M365.
 
 ### How do I get my live event to show up in Microsoft Teams?
@@ -128,7 +128,7 @@ See [Microsoft Teams event group roles](https://support.office.com/article/micro
 
 ### I don't know how to set up my encoder
 
-The easiest way to get started is to follow the instructions outlined from the [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md) article.
+The easiest way to get started is to follow the instructions outlined from the [Using an encoder for live streaming in Microsoft Teams](teams-stream-setup.md) article.
 
 ### My encoder isn't connecting to the server ingest URL
 
@@ -137,11 +137,11 @@ The easiest way to get started is to follow the instructions outlined from the [
 - If a stream key is required for your encoder, you can fill this in with any string, for example "stream".
 - Check the status of your internet connection to ensure that your encoder is correctly connected and online.
 - You may have network security or firewall-related settings that may be blocking the output of your connection.
-- Your encoder may not be supported with Teams. Check out the list of tested encoders in [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md).
+- Your encoder may not be supported with Teams. Check out the list of tested encoders in [Using an encoder for live streaming in Microsoft Teams](teams-stream-setup.md).
 
 ### I can't get RTMPs to work
 
-- Some encoders may support a different implementation that is not supported by Teams. Check out the list of tested encoders that work with Teams in [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md).
+- Some encoders may support a different implementation that is not supported by Teams. Check out the list of tested encoders that work with Teams in [Using an encoder for live streaming in Microsoft Teams](teams-stream-setup.md).
 - Not all encoders or versions support RTMPs. Check with the manufacturer or software creator to see what they support.
 
 ### I tried to start setup and it's taking a long time
@@ -150,7 +150,7 @@ In general, it can take a few minutes to get the setup going before you can star
 
 ### I tried to start setup but there are too many events happening
 
-If the maximum number of concurrent active events is reached, a Teams admin has the ability to stop other events to make room for a higher priority event. Check out [Administration controls for Microsoft Teams live events](teams-encoder-administration.md) for more information.
+If the maximum number of concurrent active events is reached, a Teams admin has the ability to stop other events to make room for a higher priority event.
 
 ### I can't see producer view
 
@@ -162,7 +162,7 @@ If the maximum number of concurrent active events is reached, a Teams admin has 
 ### My feed looks bad, has poor quality, or is glitchy
 
 1. Check your upload bandwidth from the machine you're pushing the live stream from. Low bandwidth can cause dropped frames, poor quality, or a glitchy looking video stream. You need an upload bandwidth that is higher than the bitrate you're streaming at.
-1. Ensure that you're using the recommended encoder settings for Teams. See [Manually configure encoders for live event streaming in Microsoft Teams](teams-encoder-configuration.md) for more info.
+1. Ensure that you're using the recommended encoder settings for Teams. See [Manually configure encoders for live event streaming in Microsoft Teams](teams-stream-configuration.md) for more info.
 1. Check that the audio/video coming into the encoder doesn't have any issues. The source audio or video feeds routed to the encoder could have issues itself, which would result in a bad experience sent out to viewers.
 1. Check the CPU load on your encoder. You may be maxing out your CPU with the source content and/or with the bitrate you are trying to push. If the CPU load is too high, try reducing the complexity of your live feed overlays/content or reduce the bitrate you are streaming at.
 1. Ensure that your encoder is up to date. If it's a hardware encoder, ensure you have the latest firmware updates. If it's a software encoder, make sure you are running the latest version.
@@ -179,7 +179,7 @@ Select **Stop event** before disconnecting your encoder. If you've already disco
 ### My viewers are seeing issues
 
 - If a single viewer is reporting an issue, ensure that viewer has enough bandwidth and is on a good internet connection to watch the event.
-- If multiple people within the same network are having issues, you may be experiencing network congestion related issues. Review [Scale video delivery and monitor network traffic by using eCDNs with Microsoft Teams](teams-encoder-ecdn.md) to see if you can identify a solution to your issue.
+- If multiple people within the same network are having issues, you may be experiencing network congestion related issues. Review [Scale video delivery and monitor network traffic by using eCDNs with Microsoft Teams](teams-stream-ecdn.md) to see if you can identify a solution to your issue.
 - Many times, when multiple viewers are seeing an issue, it actually related to the encoder feed.
   - Check that the encoder is properly set to the specifications outlined in the encoder setup, and configured correctly.
   - Ensure that you have enough upload bandwidth to stream. You can try reducing the bandwidth from the encoder output.

@@ -683,6 +683,20 @@ items:
               href: teams-live-events/configure-teams-live-events.md
             - name: Live events recording policies
               href: teams-live-events/live-events-recording-policies.md
+        - name: Streaming
+          items: 
+            - name: Streaming overview
+              href: teams-stream-overview.md
+            - name: Set up streaming
+              href: teams-stream-setup.md
+            - name: Configuration
+              href: teams-steam-configuration.md
+            - name: Creating an event
+              href: teams-stream-create-event.md
+            - name: Setting up an ecdn encoder
+              href: teams-stream-ecdn.md
+            - name: Troubleshooting
+              href: teams-stream-troubleshooting.md
 
         - name: Create a Teams hybrid meeting experience
           items:
