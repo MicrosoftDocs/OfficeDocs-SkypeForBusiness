@@ -47,7 +47,7 @@ Here's an overview of what's on each tab.
 
 ### Home
 
-![Information icon](media/info.png) **The Queue and Analytics tiles and features are part of [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview).**
+![Information icon](media/info.png) **The Queue and Analytics tiles and features are part of [Teams Premium](https://review.learn.microsoft.com/en-us/MicrosoftTeams/enhanced-teams-experience?branch=cmd-teams-premium-overview) (preview).**
 
 Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
