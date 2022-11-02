@@ -89,7 +89,7 @@ Teams Premium provides the following additional features for customizing meeting
 | -------------------- | ----------- | 
 | Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](create-custom-meeting-template.md)|
 | Branded meetings | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | 
-| Organization-defined backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-org-defined-backgrounds?branch=pr-en-us-10519) | LINK HERE |
+| Organization-defined backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-org-defined-backgrounds?branch=pr-en-us-10519) | 
 | Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | 
 
 
@@ -112,7 +112,7 @@ In addition, Teams Premium will also provide additional metrics to help determin
 
 | Feature/Task | Documentation for administrators | 
 | -------------------- | ----------- | 
-| Webinar enhancements | - [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates)<br>- [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | LINK HERE |
+| Webinar enhancements | - [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates)<br>- [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | 
 | Lobby Policy for registered users | LINK HERE | 
 | Event success metrics | LINK HERE | 
 
