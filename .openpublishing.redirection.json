@@ -2919,6 +2919,11 @@
       "source_path": "Teams/audio-conferencing-smb.md",
       "redirect_url": "/microsoftteams/set-up-audio-conferencing-in-teams",
       "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/teams-meeting-room-guidance.md",
+      "redirect_url": "/microsoftteams/rooms/room-planning-guidance",
+      "redirect_document_id": true
      }
   ] 
 }
