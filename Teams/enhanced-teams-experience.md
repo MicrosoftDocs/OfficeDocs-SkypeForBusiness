@@ -49,27 +49,26 @@ We will continue to update this article. Check back often for links to new conte
 
 ## Protected meetings
 
-Teams Premium provides additional ways to safeguard meetings with the following features:
+Teams Premium provides additional ways to safeguard meetings with the following key features: 
 
-- **Sensitivity labels** - Enhanced sensitivity labels to automatically add meeting options that help protect information.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting settings normally controlled by the meeting organizer. These capabiities include new settings to control lobby, chat, presentation, copy and paste, and recording functions.
 
-- **Watermarking** - Displays the email address of a meeting participant, which is useful for protecting confidential information shared in meetings. Meeting watermarks can be enforced with a sensitivity label. 
+- **Watermarking** - Enforced through a sensitivity label. Watermarks display the email address of a meeting participant, which is useful for protecting confidential information shared in meetings. 
 
-- **End-to-end encryption** - Increased security for meetings that require a higher level of protection.
-
-- **Restricting who can record** - Ability to restrict who can record meetings.
-
-- **Restricting who can copy and paste material** - Ability to restrict who can copy and paste meeting material.
+- **End-to-end encryption** - Enforced through a sensitivity label. End-to-end encryption provides increased security for meetings that require a higher level of protection.
 
 
 
-| Feature  | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- | --------------- |
-| Sensitivity labels | [Manage compliance with sensitivity labels](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings#managing-compliance-with-sensitivity-labels-and-meeting-templates) | LINK HERE |
-| Watermarks | [Require a watermark for meetings](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
-| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/09-end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | LINK HERE |
-| Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/05-manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | LINK HERE |
-| Prevent copy and paste | LINK HERE | LINK HERE |
+
+| Feature/Task  | Documentation for administrators |
+| -------------------- | ----------- | 
+| Three tiers of protection | [Configure Teams meetings with three tiers of protection](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings) | 
+| Sensitivity labels | [Manage compliance with sensitivity labels](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings#managing-compliance-with-sensitivity-labels-and-meeting-templates) | 
+| Watermarks | - [Require a watermark for meetings (article)](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) <br> - [Watermarks (video)](watermark-meeting-content-video.md) |
+| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/09-end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | 
+| Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)
+| Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/05-manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | 
+| Prevent copy and paste | LINK HERE | 
 
 
 
@@ -86,15 +85,12 @@ Teams Premium provides the following additional features for customizing meeting
 
 - **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
 
-| Feature enhancements | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- | --------------- |
-| Meeting templates | [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)|
-| Branded meetings | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | LINK HERE |
+| Feature/Task | Documentation for administrators |
+| -------------------- | ----------- | 
+| Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](create-custom-meeting-template.md)|
+| Branded meetings | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | 
 | Organization-defined backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-org-defined-backgrounds?branch=pr-en-us-10519) | LINK HERE |
-| Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | LINK HERE |
-
-
-
+| Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | 
 
 
 
@@ -111,34 +107,36 @@ Teams Premium provides an advanced webinar experience for your users with the ne
 -	Limit registration date and time
 -	Implement lobby bypass for registered users
 
-In addition, Teams Premium will provide Real Time Messaging Protocol (RTMP)-In enhancements for streaming meetings. Teams Premium will also provide additional metrics to help determine event success.
+In addition, Teams Premium will also provide additional metrics to help determine event success.
 
 
-| Feature | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- | --------------- |
+| Feature/Task | Documentation for administrators | 
+| -------------------- | ----------- | 
 | Webinar enhancements | - [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates)<br>- [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | LINK HERE |
-| Real Time Messaging Protocol (RTMP-In) | LINK HERE | LINK HERE |
-| Lobby Policy for registered users | LINK HERE | LINK HERE |
-| Event success metrics | LINK HERE | LINK HERE |
+| Lobby Policy for registered users | LINK HERE | 
+| Event success metrics | LINK HERE | 
 
 
 ## Advanced management
 
 Teams Premium provides advanced management features, such as:
 
-- Monitoring and alerting
-- Custom user policy packages
-- Real-time data storage
-- eCDN for Live Events
+- **Monitoring and alerting** - 
+
+- **Custom user policy packages** - Lets you bundle and customize your own set of policies for users with similar roles in your organization.
+
+- **Real-time data storage** - 
+
+- **eCDN for Live Events** - 
 
 **NEED TO ADD MORE DETAILS FOR THESE FEATURES**
 
-| Feature  | Documentation for administrators | Documentation for your end users |
-| -------------------- | ----------- | --------------- |
-| Monitoring and alerting | LINK HERE | LINK HERE |
-| Custom user policy packages | LINK HERE | LINK HERE |
-| Real-time data storage | LINK HERE | LINK HERE |
-| eCDN for Live Events | LINK HERE | LINK HERE |
+| Feature/Task  | Documentation for administrators | 
+| -------------------- | ----------- | 
+| Monitoring and alerting | LINK HERE | 
+| Custom user policy packages | [Manage policy packages](https://review.learn.microsoft.com/en-us/microsoftteams/manage-policy-packages?branch=mabond-custom-policy-packages-premium) | 
+| Real-time data storage | LINK HERE | 
+| eCDN for Live Events | LINK HERE | 
 
 ## Virtual Appointments
 
