@@ -82,7 +82,7 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 
 **To add new rooms to an existing partner**
 
-1. Log in to the Pro Management-MTM portal as an Managed Service administrator.
+1. Log in to the Pro Management-MTM portal as a Managed Service administrator.
 1. Go to **Settings > Roles.**
 1. Select  **Partner roles.** 
 1. Select the **Primary admin** role for the corresponding partner name.
