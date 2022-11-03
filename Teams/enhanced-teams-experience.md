@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Premium - Overview for administrators
-author: DaniEASmith
-ms.author: danismith
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: 
 ms.topic: conceptual
@@ -135,13 +135,22 @@ Teams Premium provides advanced management features, such as:
 | Real-time data storage | LINK HERE | 
 | eCDN for Live Events | LINK HERE | 
 
-## Virtual Appointments
+## Advanced Virtual Appointments
 
-The Virtual Appointments app provides a central hub for all your organizaiton's virtual appointment needs. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the Bookings app, analytics, and management options, all in one place. For more information about Virtual Appointments and links to related content, see [Manage the Virtual Appointments app](https://review.learn.microsoft.com/en-us/microsoftteams/manage-virtual-appointments-app?branch=v-lanachin-va-app).
+With any Microsoft 365 license, your end users can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, users can schedule appointments in the Bookings calendar and external attendees can join through a browser without having to download Teams. 
 
+Teams Premium provides advanced Virtual Appointment capabilities, such as:
 
+- SMS notifications
+- Custom waiting room
+- A queue of scheduled and on-demand appointments
+- Analytics
 
-
+| Feature/Task  | Documentation for administrators | 
+| -------------------- | ----------- | 
+|  | LINK HERE | 
+| | LINK HERE | 
+|  | LINK HERE | 
 
 
 ## Additional resources
