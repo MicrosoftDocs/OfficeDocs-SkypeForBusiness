@@ -43,7 +43,7 @@ The following sections describe the Teams Premium enhancements for:
 - [Custom meetings](#custom-meetings)
 - [Premium events](#premium-events)
 - [Advanced management](#advanced-management)
-- [Virtual Appointments](#virtual-appointments)
+- [Virtual Appointments](#advanced-virtual-appointments)
 
 We will continue to update this article. Check back often for links to new content.
 
@@ -85,7 +85,7 @@ Teams Premium provides the following additional features for customizing meeting
 
 | Feature/Task | Documentation for administrators |
 | -------------------- | ----------- | 
-| Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](create-custom-meeting-template.md)|
+| Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](https://review.learn.microsoft.com/en-us/microsoftteams/13-create-custom-meeting-template?branch=mikeplum-compliant-meetings)|
 | Branded meetings | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | 
 | Organization-defined backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-org-defined-backgrounds?branch=pr-en-us-10519) | 
 | Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | 
