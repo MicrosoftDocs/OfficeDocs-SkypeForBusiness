@@ -62,13 +62,11 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 | Feature/Task  | Documentation for administrators |
 | -------------------- | ----------- | 
-| Three tiers of protection | [Configure Teams meetings with three tiers of protection](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings) | 
-| Sensitivity labels | [Manage compliance with sensitivity labels](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings#managing-compliance-with-sensitivity-labels-and-meeting-templates) | 
-| Watermarks | - [Require a watermark for meetings (article)](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) <br> - [Watermarks (video)](watermark-meeting-content-video.md) |
+| Sensitivity labels | [Configure Teams meetings with three tiers of protection](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings) | 
+| Watermarks | - [Require a watermark for meetings (article)](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
 | End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/09-end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | 
 | Templates, labels, and policies | [Templates, sensitivity labels, and policies](https://review.learn.microsoft.com/en-us/microsoftteams/11-meeting-templates-sensitivity-labels-policies?branch=mikeplum-compliant-meetings)
 | Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/05-manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | 
-| Prevent copy and paste | LINK HERE | 
 
 
 
