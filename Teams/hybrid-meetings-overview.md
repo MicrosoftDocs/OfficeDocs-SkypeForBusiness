@@ -1,5 +1,5 @@
 ---
-title: "Create a great Teams meeting experience for all participants"
+title: "Create an inclusive Teams meeting experience for all participants"
 ms.author: dstrome
 author: dstrome
 f1.keywords:

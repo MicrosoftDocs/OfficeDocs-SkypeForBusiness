@@ -1,10 +1,10 @@
 ---
 title: Health and Usage Reports
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer: 
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,7 +21,7 @@ f1keywords:
 ---
 # Health and Usage Reports
 
-The reporting node contains data for the health and usage of your Microsoft Managed Rooms and service insights. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
+The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
 
 ## Navigating reports
 
@@ -36,7 +36,7 @@ To change the group, click the group selection drop-down menu in the banner.
 <!--!![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)-->
 ### Tickets by category
 
-The donut displays the total tickets raised for the selected time span and group (default is seven days, all groups). Tickets are represented in their major categories: Audio, Display, Peripherals, Connectivity, Versioning, and Customer reported.
+The donut displays the total tickets raised for the selected time span and group (default is seven days, all groups). Tickets are represented in their major categories: Audio, Display, Peripherals, Connectivity, Versioning, and Recorded issues.
 
 <!--!![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)-->
 
@@ -50,9 +50,9 @@ In the flyout, it is possible to filter the list of tickets by the subcategory b
 
 To navigate back, either click on the donut or click on the breadcrumb at the top left.
 
-To navigate to a specific ticket in this list view, click on the link under the **Support ticket colum**.
+To navigate to a specific ticket in this list view, click on the link under the **Support ticket column**.
 
-### Ticket history
+<!--### Ticket history
 
 The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
 
@@ -63,7 +63,7 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 
 ### Health history
 
-This graph shows the average health (definition in Health section) for all the rooms in the tenant as well as the average health for all MMR customers on a day-to-day basis. You can view the average health for up to 90 days.
+This graph shows the average health (definition in Health section) for all the rooms in the tenant as well as the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 

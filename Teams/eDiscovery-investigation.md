@@ -48,12 +48,12 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Meeting metadata<sup>1</sup>||
 |Name of channel||
 |Quotes|Quoted content is searchable. However, search results don't indicate that the content was quoted.|
-|Reactions (such as likes, hearts, and other reactions)|Reactions are supported for all commercial customers after June 1, 2022. Reactions before this date are not available for eDiscovery. Government cloud support is planned. There is no legal hold support for reactions.|
+|Reactions (such as likes, hearts, and other reactions)|Reactions are supported for all commercial customers after June 1, 2022. Reactions before this date aren't available for eDiscovery. Expanded reactions are now supported. To understand reaction history, the content must be on legal hold.|
 |Subject||
 |Tables||
 |Teams Video Clip (TVC)|Search TVC with "Video-Clip" keyword and "save as" a .mp4 file for each TVC attachment by right-clicking the preview (search by keyword will be available in October 2022). TVC data is discoverable in eDiscovery [review sets](/microsoft-365/compliance/add-data-to-review-set).
 
-<sup>1</sup> Meeting (and call) metadata includes the following:
+<a name="teams-metadata"></a><sup>1</sup> Meeting (and call) metadata includes the following:
 
 - Meeting start and end time, and duration
 - Meeting join and leave events for each participant
@@ -102,7 +102,7 @@ Use the procedure in this section to identify members of a private channel so th
 
 Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.
 
-1. Run the following command to get the group Id of the team that contains the shared channels you want to search.
+1. Run the following command to get the group ID of the team that contains the shared channels you want to search.
 
    ```powershell
    Get-Team -DisplayName <display name of the the parent team>
@@ -111,7 +111,7 @@ Before you perform these steps, make sure you have the [latest version of the Te
    > [!TIP]
    > Run the **Get-Team** cmdlet without any parameters to display a list of all Teams in your organization. The list contains the group Id and DisplayName for every team.
 
-2. Run the following command to get a list of private channels in the parent team. Use the group Id for the team that you obtained in step 1.
+2. Run the following command to get a list of private channels in the parent team. Use the group ID for the team that you obtained in step 1.
 
    ```PowerShell
     Get-TeamChannel -GroupId <parent team GroupId> -MembershipType Private
@@ -199,17 +199,17 @@ To search for content for guest users:
    Start-ComplianceSearch <search name>
    ```
 
-6. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and then click **Show all** > **Content search**.
+6. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and then select **Show all** > **Content search**.
 
 7. In the list of searches, select the search that you created in step 4 to display the flyout page.
 
 8. On the flyout page, you can do the following things:
 
-   - Click **View results** to view the search results and preview the content.
+   - Select **View results** to view the search results and preview the content.
 
-   - Next to the **Query** field, click **Edit** to edit and then rerun the search. For example, you can add a search query to narrow the results.
+   - Next to the **Query** field, select **Edit** to edit and then rerun the search. For example, you can add a search query to narrow the results.
 
-   - Click **Export results** to export and download the search results.
+   - Select **Export results** to export and download the search results.
 
 ## Search for card content
 
@@ -240,7 +240,7 @@ Admins can use eDiscovery to search for content in chats messages in a Teams mee
 
 - **Non-federated**: In a Teams meeting with users from your organization and guest users, only admins in the organization who hosts the Teams meeting can search for content in chat messages from the meeting.
 
-## Related topics
+## Related articles
 
 - [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery)
 - [Get started with eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)

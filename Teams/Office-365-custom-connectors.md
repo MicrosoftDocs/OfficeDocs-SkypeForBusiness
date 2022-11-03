@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft 365 and custom connectors
+title: Manage Microsoft 365 connectors and custom connectors
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -7,20 +7,21 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/01/2022
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how Connectors keep your team updated by frequently delivering content and updates directly into a Teams channel for services you use.
+description: Learn how connectors keep your team updated by frequently delivering content and updates directly into a Teams channel for services you use.
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 ---
 
-# Manage Microsoft 365 and custom connectors
+# Manage Microsoft 365 connectors and custom connectors
 
 To keep your team updated, the connectors deliver frequently used content and service updates directly into a Teams channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services. The updates are posted directly into the chat stream in their team.
 

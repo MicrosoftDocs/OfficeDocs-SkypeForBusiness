@@ -79,7 +79,10 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBar A20 | `133.15.0.108  `   | September 3, 2024 | Small meeting room(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
+| Neat Bar Pro   | `NFD1.20220914.1210 ` | September 3, 2024  |  Medium size room (4.5 m x 6 m) | 10|
+| Neat Bar | `NFF1.20220914.1210` |September 3, 2024|    Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFB1.20220211.1400` |September 3, 2024|    Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar only | 9 |
 | Neat Pad touch console | `NFA1.20220211.1400`  | August 5, 2023 |  Compatible with Neat Bar only | 9 |
 | Neat Board | `NFC1.20220211.1400 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
@@ -101,6 +104,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Neat Frame nf21f1 | `NFF1.20220914.1210` | September 3, 2024 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| August 5, 2023 |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| August 5, 2023 |  9  |
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| December 5, 2022 |  8.1  |
@@ -154,6 +158,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I/C/CI     | `1.0.5.20`    | 2022 Update #3A |
+|Crestron UC-P10/I/C/CI | `1.0.5.20`    | 2022 Update #3A |
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 Update #3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022 Update #3A    |
 |Poly Trio C60 | `7.3.2.0174` | 2022 Update #3A |
 |Poly CCX 400/500/600/505 | `7.3.2.0182` | 2022 Update #3A |
@@ -269,6 +276,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar  | `1.7.300`     | 2022 Update #2B  |
+| Logi Rallybar Mini  | `1.7.300`     | 2022 Update #2B  |
+| Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
+| Logi Console  | `1.7.200`    | 2022 Update #2B  |
 | EPOS EXPAND Vision 3T |`1.5.22242.02`   | 2022 Update U2A |
 | Yealink MeetingBoard 65" | `155.15.0.10 `   | 2022 Update #2A  |
 | Poly Studio X30 | `3.13.0.368067` | 2022 Update #2A   |
@@ -360,6 +371,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron UC-P10-TD     |1.0.0.57 |2022 Update #3A|
+|Crestron UC-P8-TD     |1.0.0.57 |2022 Update #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 Update #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 Update #1 |
@@ -372,6 +385,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 Update #3A  | September 16th, 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |2022 Update #3  | July 12, 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |2022 Update #2  | April 25, 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |2022 Update #1A | February 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
@@ -384,9 +398,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Pad Panel | `NFA1.20220914.1206` | 2022 Update #3A  |
+|Logitech Tap Scheduler | `1.7.200` |2022 Update #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
 |Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |
-|Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
 |Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
