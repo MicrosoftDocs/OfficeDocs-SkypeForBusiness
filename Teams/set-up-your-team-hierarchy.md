@@ -145,7 +145,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ## Apply your hierarchy
 
 > [!NOTE]
-> To perform this step, you must use Microsoft Teams PowerShell cmdlets. You should use version 4.6.0 or later of the Microsoft Teams cmdlets. This also applies to Government Community Cloud (GCC) customers.
+> To perform this step, you must use Microsoft Teams PowerShell cmdlets. You should use version 4.6.0 or later of the Microsoft Teams cmdlets. This requirement also applies to Government Community Cloud (GCC) customers.
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
 
