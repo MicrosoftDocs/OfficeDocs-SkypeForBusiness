@@ -148,9 +148,9 @@ Teams Premium provides advanced Virtual Appointment capabilities, such as:
 
 | Feature/Task  | Documentation for administrators | 
 | -------------------- | ----------- | 
-|  | LINK HERE | 
-| | LINK HERE | 
-|  | LINK HERE | 
+| SMS notifications  | [SMS text notifications](https://review.learn.microsoft.com/en-us/microsoftteams/bookings-app-admin?branch=v-lanachin-va-app#sms-text-notifications) | 
+| Reporting | [Virtual Appointments usage report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-bookings-prem&view=o365-worldwide)<br>[Active user report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-bookings-prem&view=o365-worldwide) | 
+
 
 
 ## Additional resources
