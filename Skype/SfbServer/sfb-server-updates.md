@@ -54,6 +54,8 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
+| Description of the security update for Skype for Business Server and Lync Server: July 12, 2022 | [KB 5016714](https://support.microsoft.com/help/5016714) | July 2022 |
+| Description of the security update for Skype for Business Server: April 12, 2022 | [KB 5012686](https://support.microsoft.com/topic/5012686) | April 2022 |
 |Skype for Business Server 2015 Cumulative Update 12 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|February 2022 |
 |Skype for Business Server 2015 Cumulative Update 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2021 |
 |Skype for Business Server 2015 Cumulative Update 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|November 2020 |
@@ -90,6 +92,8 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
+| Description of the security update for Skype for Business Server and Lync Server: July 12, 2022 | [KB 5016714](https://support.microsoft.com/help/5016714) | July 2022 |
+| Description of the security update for Skype for Business Lync Server 2013: April 12, 2022 | [KB 5012681](https://support.microsoft.com/help/5012681) | April 2022 |
 |Lync Server 2013 Cumulative Update 10 Hotfix 7 |[KB 5010850](https://support.microsoft.com/kb/5010850)|February 2022|
 |Lync Server 2013 Cumulative Update 10 Hotfix 6 |[KB 5003729](https://support.microsoft.com/kb/5003729)|May 11, 2021|
 |Lync Server 2013 Cumulative Update 10 Hotfix 5 |[KB 5000675](https://support.microsoft.com/kb/5000675), [KB 5000688](https://support.microsoft.com/kb/5000688)|February 9, 2021|
@@ -184,7 +188,7 @@ Package name |Release date|
 |Lync Server 2010 Cumulative Update 17| KB 3148801 |April 2016 |
 |Lync Server 2010 Cumulative Update 16| KB 3057803 |May 2015 |
 |Lync Server 2010 Cumulative Update 15 | KB 3030726 |February 2015|
-|Lync Server 2010 Cumulative Update 13| KB 2982385 </br> KB 2982388 |September 2014|
+|Lync Server 2010 Cumulative Update 13| KB 2982385 | KB 2982388 |September 2014|
 |Lync Server 2010 Cumulative Update 12 | KB 2957044 |April 2014 |
 |Lync Server 2010 Cumulative Update 11 | KB 2909888 |January 2014|
 |Lync Server 2010 Cumulative Update 10 | KB 2889610 |October 2013|
