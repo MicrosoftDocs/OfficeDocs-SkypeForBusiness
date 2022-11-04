@@ -8,9 +8,41 @@ To avoid having to reset the resource account's password and then logging into e
 
 Follow the steps in one of the following tabs to turn off password expiration:
 
+#### [**Microsoft Graph PowerShell**](#tab/microsoft-graph-powershell/)
+
+1. Connect to Microsoft Graph:
+
+   ```PowerShell
+   Connect-MgGraph -Scopes "User.ReadWrite.All"
+   ```
+   
+   For details about Microsoft Graph PowerShell, see [Get started with the Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/get-started).
+
+2. Set the password to never expire by using the following syntax:
+
+   ```PowerShell
+   Update-MgUser -UserId <id> -PasswordPolicies DisablePasswordExpiration
+   ```
+   
+   For details about Update-MgUser, see [Update-MgUser](/powershell/module/microsoft.graph.users/update-mguser).
+    
+   This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+   
+   ```PowerShell
+   Update-MgUser -UserId <a66eacc0-7c3b-4e02-b58a-39014552d08e> -PasswordPolicies DisablePasswordExpiration
+   ```
+   
+   To get the user id for ConferenceRoom01@contoso.com use the following syntax:
+   
+   ```PowerShell
+   Get-MgUser -ConsistencyLevel eventual -Search '"UserPrincipalName:ConferenceRoom01@contoso.com"'
+   ```
+    
+   For details about Get-MgUser, see [Get-MgUser](/powershell/module/microsoft.graph.users/get-mguser).
+
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-First, Connect to Active Directory PowerShell:
+First, connect to Active Directory PowerShell:
 
 ```PowerShell
    Connect-AzureAD
@@ -28,11 +60,11 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
  1. Connect to MSOnline PowerShell:
 
-       ```PowerShell
-       Connect-MsolService
-       ```
+    ```PowerShell
+    Connect-MsolService
+    ```
 
-       For details about Active Directory, see [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
+    For details about Active Directory, see [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
 
 2. Set the password to never expire by using the following syntax:
 
