@@ -27,9 +27,7 @@ appliesto:
 
 # Meetings, webinars, and live events
 
-**ADD FINAL PREVIEW RELEASE DISCLAIMER**
-
-**This article describes some features, webinar 2.0, that are in preview release.**
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
@@ -101,7 +99,7 @@ If your organization is already using webinars, you're familiar with the Teams M
 - AllowMeetingRegistration (enabled or disabled)
 - WhoCanRegister (everyone in the company excluding guests or everyone)
 
-With the release of webinar 2.0, there will be a new Teams Events policy with the following settings:
+With the release of the new webinar experience, there will be a new Teams Events policy with the following settings:
 
 - AllowWebinars  (enabled or disabled)
 - EventAccessType (everyone in the company excluding guests or everyone)
@@ -111,12 +109,12 @@ The new policy will continue to support registration and tracking, and it will p
 - Terms and conditions custom question
 - Presenter bio
 - Banner logo and predefined color
-- Registration overview and management.
-  For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
+- Advanced registration capabilities: manual approval, waitlist, registration date and time limit 
+- Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
-Note that some webinar 2.0 features will only be available with a Teams Premium license.  For more information, see **INCLUDE LINK TO ROADMAP AND/OR LICENSING DOC.**
+For more information about feature availability and licensing, see **INCLUDE LINK TO  LICENSING DOC.**
 
-While both versions of webinars will continue to be available, you'll want to start using the new policy to take advantage of new functionality as it becomes available.
+You'll want to start using the new policy to take advantage of new functionality as it becomes available.
 
 For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
 
