@@ -72,26 +72,26 @@ Meeting registration must be turned on to use webinars 2.0.
 1. Turn on meeting registration
 
     ```powershell
-    Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
     ```
 
 1. Turn on webinars 2.0
 
     ```powershell
-    Set-CsTeamsEventsPolicy -AllowWebinars Enabled
+    Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
     ```
 
 1. Configure who can register for webinars
     - **Allow ***only*** users in your organization to register for webinars**
 
         ```powershell
-        Set-CsTeamsEventsPolicy -EventAccessType EveryoneInCompanyExcludingGuests
+        Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
         ```
 
     - **Allow everyone, including anonymous users, to register for webinars**
 
         ```powershell
-        Set-CsTeamsEventsPolicy -EventAccessType Everyone
+        Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
         ```
 
 ## Set up webinars 1.0
@@ -138,13 +138,13 @@ To set up webinars 1.0, use the following attributes within the Windows PowerShe
 1. Turn on meeting registration:
 
     ```powershell
-    Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
     ```
 
 1. Turn on private meeting scheduling:
 
     ```powershell
-    Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
+    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowPrivateMeetingScheduling $True
     ```
 
 1. Configure who can register for webinars:
@@ -152,13 +152,13 @@ To set up webinars 1.0, use the following attributes within the Windows PowerShe
     - **Allow *only* users in your organization to register for webinars**
 
       ```powershell
-      Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
+      Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister EveryoneInCompany
       ```
 
     - **Allow anyone, including anonymous users, to register for webinars**
 
       ```powershell
-       Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
+       Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister Everyone
       ```
 
 > [!CAUTION]
@@ -169,7 +169,7 @@ To set up webinars 1.0, use the following attributes within the Windows PowerShe
 The **AllowEngagementReport** parameter lets you see who registered and attended webinars. This policy is turned on by default. To turn it off, run the following command in PowerShell:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
 ```
 
 Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) for more information on the cmdlet.
@@ -181,7 +181,7 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 If you want to revert to webinars 1.0, run the following command in PowerShell:
 
 ```powershell
-Set-CSTeamsEventsPolicy -AllowWebinars $False
+Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
 
 You can update your webinar 1.0 settings using [Set-CsTeamsMeetingPolicy](#set-up-webinars-10).
@@ -197,8 +197,8 @@ Under **Meetings**> **Meeting policies** in the Teams admin center, turn off **M
 #### PowerShell
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $False
-Set-CSTeamsEventsPolicy -AllowWebinars $False
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False
+Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
 
 ## Related topics
