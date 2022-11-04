@@ -46,7 +46,7 @@ The following sections describe the Teams Premium enhancements for:
 - [Virtual Appointments](#advanced-virtual-appointments)
 
 > [!Note]
-> We will continue to update this article. Check back often for links to new content.
+>We will continue to update this article. Check back often for links to new content.
 
 ## Protected meetings
 
@@ -97,13 +97,11 @@ Teams Premium provides the following additional features for customizing meeting
 
 Teams Premium provides an advanced webinar experience for your users with the new Teams Events policy. While continuing to support registration and tracking, the new policy will also provide functionality for meeting hosters and organizers, such as:
 
--	Logo customization
--	Theme colors
--	Ability to manage attendee views
--	Ability to send reminder emails
--	Enable waitlists 
--	Approve registrations
--	Limit registration date and time
+- Terms and conditions custom question
+- Presenter bio
+- Banner logo and predefined color
+- Advanced registration capabilities: manual approval, waitlist, registration date and time limit 
+- Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
 
 In addition, Teams Premium will also provide additional metrics to help determine event success.
