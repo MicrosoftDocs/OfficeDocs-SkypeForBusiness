@@ -22,7 +22,7 @@ description: Learn about Microsoft Teams Premium for administators and IT Profes
 
 # Microsoft Teams Premium - Overview for administrators
 
-![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** A few features, for example, some webinar features, may be avalable with other licenses as well. For details about feature availability and licensing, see **link to licensing doc here.**
+![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see **link to licensing doc here.**
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
 
