@@ -115,6 +115,17 @@ This setting is a per-user policy and applies during a meeting. This setting con
 |**Not enabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
 |**Not enabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
 
+For more information on how your end users can turn on **Live captions**, see [Use live captions in a Teams meeting](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
+
+### Live translated captions
+
+> [!NOTE]
+> This feature is temporarily available in public preview. After the preview period, a Teams Premium add-on license will be required to use this feature. If a meeting organizer is a Teams Premium user, each meeting attendee will have the option to turn on Live translated captions. If a meeting organizer is does not have a Teams Premium license, no meeting attendees will be able to use this feature.
+
+By default, **Live captions** are displayed in the language that’s spoken during a meeting. **Live translated captions** allow your users to see captions translated into the language they’re most comfortable with.
+
+To enable **Live translated captions**, **Live captions** must be set to **Not enabled but the user can override** in the Teams admin center. To turn off **Live translated captions**, set this to **Not enabled**.
+
 <a name="bkcontentsharing"> </a>
 
 ## Chat in meetings
