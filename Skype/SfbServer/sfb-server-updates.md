@@ -188,7 +188,7 @@ The complete topology consists of seven virtual machines that enable you to full
 |Lync Server 2010 Cumulative Update 17| KB 3148801 |April 2016 |
 |Lync Server 2010 Cumulative Update 16| KB 3057803 |May 2015 |
 |Lync Server 2010 Cumulative Update 15 | KB 3030726 |February 2015|
-|Lync Server 2010 Cumulative Update 13| KB 2982385 | KB 2982388 |September 2014|
+|Lync Server 2010 Cumulative Update 13| KB 2982385 |September 2014|
 |Lync Server 2010 Cumulative Update 12 | KB 2957044 |April 2014 |
 |Lync Server 2010 Cumulative Update 11 | KB 2909888 |January 2014|
 |Lync Server 2010 Cumulative Update 10 | KB 2889610 |October 2013|
