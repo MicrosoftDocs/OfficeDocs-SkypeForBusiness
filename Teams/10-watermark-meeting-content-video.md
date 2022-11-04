@@ -23,12 +23,17 @@ description: Learn how to enable or require watermarks on attendee video and sha
 
 You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Meeting participants can't turn the watermark off.
 
+The following participants have an audio-only experience when a watermark is in use:
+
+- Anonymous participants
+- Overflow participants
+- Virtual Desktop Infrastructure (VDI) participants
+- Participants using the Teams web client
+
 > [!Note]
-> Meeting settings in sensitivity labels, custom meeting templates, and watermarks are in preview and will require a Teams Premium license.
+> Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
 
-Anonymous participants and overflow participants have an audio-only experience when a watermark is in use.
-
-Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer or enforced by a sensitivity label.
+Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer or enforced by a template or sensitivity label.
 
 The following table shows where watermarks are configured:
 
@@ -43,11 +48,11 @@ When a watermark is being used in a meeting, the following features are turned o
 
 - Large gallery
 
-- Together mode 
+- Together mode
 
 - PowerPoint Live
 
-- Whiteboard 
+- Whiteboard
 
 - Content from camera
 
@@ -55,12 +60,14 @@ When a watermark is being used in a meeting, the following features are turned o
 
 Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. For example, a member of the finance organization might use watermarks when sharing quarterly estimates with managers from different divisions.
 
-Since watermarks are designed to reduce the chances that confidential information will be exfiltrated, using them in meetings where all the participants have direct access to the content being shared, may not add to security. Because using watermarks disables several features, including collaboration features like Whiteboard and PowerPoint Live, as well as recording, they may make collaboration more difficult in such meetings.
+Since watermarks are designed to reduce the chances that confidential information will be exfiltrated, using them in meetings where all the participants have direct access to the content being shared, may not add to security.
 
 For information about using watermarks with other meeting features to help protect confidential information in meetings, see [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
 
 ## Enable watermarks
- 
+
+For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled in the Teams admin center.
+
 To enable watermarking for meetings
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
@@ -75,6 +82,18 @@ To enable watermarking for meetings
 
 1. Select **Save**.
 
+You can also enable or disable watermarks by using PowerShell. Use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet with the `-AllowWatermarkForCameraVideo` and `-AllowWatermarkForScreenSharing` parameters.
+
+For example:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowWatermarkForCameraVideo $True 
+
+Set-CsTeamsMeetingPolicy -Identity Global -AllowWatermarkForScreenSharing $True 
+```
+
 ## Related topics
 
-Link to sensitivity label article
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
+[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
