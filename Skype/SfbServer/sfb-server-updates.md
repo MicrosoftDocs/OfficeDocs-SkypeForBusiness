@@ -143,7 +143,7 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 The complete topology consists of seven virtual machines that enable you to fully evaluate the Microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013, and UC developer platform APIs (including Microsoft Lync 2013 SDK, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK, and Microsoft Unified Communications Managed API 4.0).
 
-Package name |Release date|
+| Package name | Release date |
 |:--- |:--- |
 |[Test Drive - Lync Server 2013 - Part 1 of 3](https://www.microsoft.com/download/details.aspx?id=40266) |September 2013 |
 |[Test Drive - Lync Server 2013 - Part 2 of 3](https://www.microsoft.com/download/details.aspx?id=40267) |September 2013 |
@@ -151,7 +151,7 @@ Package name |Release date|
 
 ### <a id="lync-2013-tools"></a>Lync Server 2013 tools
 
-|Package name |Release date|
+| Package name | Release date |
 |:--- |:--- |
 | Lync Server 2013 Meeting Migration Tool (MMT) |September 2021 |
 | Lync Connectivity Analyzer (32-bit) RETIRED |June 2017 |
@@ -171,7 +171,7 @@ Package name |Release date|
 
 ### <a id="lync-2013-downloadable-documentation"></a>Lync Server 2013 downloadable documentation
 
-Package name |Release date|
+|Package name |Release date|
 |:--- |:--- |
 |[Lync Server 2013 Documentation Help File](https://www.microsoft.com/download/details.aspx?id=35405)|August 2015 |
 
@@ -236,7 +236,7 @@ Package name |Release date|
 
 ### <a id="lync-2010-downloadable-documentation"></a>Lync Server 2010 downloadable documentation
 
-Package name |Release date|
+| Package name |Release date|
 |:--- |:--- |
 |[Lync Server 2010 Documentation Help File](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|March 2012 |
 |[Lync Server 2010 Welcome page](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|October 2012 |
@@ -252,7 +252,7 @@ Visit the [Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/do
 
 ### Group Chat
 
-Package name |Release date|
+| Package name |Release date|
 |:--- |:--- |
 | Lync Server 2010 Group Chat |November 2010 |
 | Lync Server 2010 Group Chat Admin Tool |November 2010 |
@@ -260,7 +260,7 @@ Package name |Release date|
 
 ### Trial software
 
-Package name/Link|Release date|
+| Package name/Link|Release date|
 |:--- |:--- |
 |[VHD Test Drive - Lync Server 2010 (Eval) - Part 1 of 2](https://www.microsoft.com/download/details.aspx?id=26217) |September 2012 |
 |[VHD Test Drive - Lync Server 2010 (Eval) - Part 2 of 2](https://www.microsoft.com/download/details.aspx?id=34602) |September 2012 |
