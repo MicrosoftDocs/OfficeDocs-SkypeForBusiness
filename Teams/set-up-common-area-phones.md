@@ -29,7 +29,7 @@ description: Learn how to set up Common Area Phones for lobbies, reception areas
 
 A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call: a reception area, lobby, or conference phone. Common area phones are signed in with accounts tied to a **Common Area Phone** license.
 
-This article provides an overview of how to deploy and configure Teams phone devices as common area phones for shared spaces. For a more complete meeting room experience, including audio conferencing, consider purchasing a dedicated **Teams Rooms** license with a Teams Rooms device.
+This article provides an overview of how to deploy and configure Teams phone devices as common area phones for shared spaces. For a more complete meeting room experience, including audio conferencing, consider purchasing a dedicated **Teams Rooms** license with a Teams Rooms device instead. For more information about Teams Rooms, see [Microsoft Teams Rooms](rooms/index.md).
 
 ## Overview
 
@@ -107,6 +107,8 @@ Use PowerShell when you want to create and assign licenses for more than one use
 Use policies to control which features are available to users on common area phones.
 
 ### IP phone policies
+
+The Teams IP Phone policy can only be modified if the account signing into the phone is licensed with something other than a Common Area Phone license.  If licensed with a Microsoft 365 E3 or E5 subscription, or an Office 365 Enterprise E1, E3, or E5 subscription, you can modify the IP Phone policy.  If you're using a Meeting Room license on your common area phone account, it will only let you use `MeetingRoomSignIn` mode. `MeetingRoomSignIn` mode isn't available on most common area phones. For more information about supported overrides for the phone interface, see [Set Microsoft Teams Android devices user interface](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection). 
 
 Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/skype/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
 
