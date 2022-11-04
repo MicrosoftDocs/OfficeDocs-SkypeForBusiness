@@ -36,7 +36,7 @@ Check-in and room release is off by default. To turn it on,
 
 2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
-3. Turn on Release room if no one checks in.
+3. Turn on **Release room if no one checks in**.
 
 4. To adjust the amount of time users have to check in before the room is released, go to **Release after:** and select an option from the dropdown.  
 
