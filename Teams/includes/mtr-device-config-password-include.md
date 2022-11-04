@@ -32,7 +32,7 @@ Follow the steps in one of the following tabs to turn off password expiration:
    Update-MgUser -UserId <a66eacc0-7c3b-4e02-b58a-39014552d08e> -PasswordPolicies DisablePasswordExpiration
    ```
    
-   To get the user id for ConferenceRoom01@contoso.com use the following syntax:
+   To get the user ID for ConferenceRoom01@contoso.com, use the following syntax:
    
    ```PowerShell
    Get-MgUser -ConsistencyLevel eventual -Search '"UserPrincipalName:ConferenceRoom01@contoso.com"'
