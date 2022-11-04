@@ -96,10 +96,10 @@ Teams Premium provides the following additional features for customizing meeting
 
 Teams Premium provides an advanced webinar experience for your users with the new Teams Events policy. While continuing to support registration and tracking, the new policy will also provide functionality for meeting hosters and organizers, such as:
 
-- **Terms and conditions custom question**
-- **Presenter bio**
-- **Banner logo and predefined color**
-- **Advanced registration capabilities** - manual approval, waitlist, registration date and time limit 
+- **Terms and conditions custom question** - To present to attendees.
+- **Presenter bio** - To include information about presenters.
+- **Banner logo and predefined color** - To present a customized visual webinar experience.
+- **Advanced registration capabilities** - Including manual approval, waitlist, registration date and time limit.
 - **Registration overview and management** - For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
 In addition, Teams Premium will also provide additional metrics to help determine event success.
