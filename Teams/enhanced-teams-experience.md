@@ -45,7 +45,8 @@ The following sections describe the Teams Premium enhancements for:
 - [Advanced management](#advanced-management)
 - [Virtual Appointments](#advanced-virtual-appointments)
 
-We will continue to update this article. Check back often for links to new content.
+> [!Note]
+> We will continue to update this article. Check back often for links to new content.
 
 ## Protected meetings
 
