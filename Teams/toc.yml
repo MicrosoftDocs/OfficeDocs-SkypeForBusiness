@@ -19,8 +19,6 @@ items:
           href: get-started-with-teams-monitor-usage-and-feedback.md
         - name: "Step 4: Plan your org-wide rollout"
           href: get-started-with-teams-resources-for-org-wide-rollout.md
-        - name: Support remote workers (WFH)
-          href: support-remote-work-with-teams.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
@@ -324,6 +322,8 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
+        - name: Career Coach data compliance
+          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -433,8 +433,6 @@ items:
       href: inline-message-translation-teams.md
     - name: Use Microsoft Teams scoped directory search
       href: teams-scoped-directory-search.md
-    - name: "FAQ: Support your remote workforce"
-      href: FAQ-support-remote-workforce.md
               
     - name: Reports
       items:
@@ -743,7 +741,7 @@ items:
                 - name: Extended dial-out minutes for US and Canada
                   href: dial-out-minutes-canada-us.md
                 - name: Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit
-                  href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  href: audio-conferencing-subscription-dial-out.md
                 - name: Audio Conferencing pay-per-minute
                   href: audio-conferencing-pay-per-minute.md
             - name: Manage your audio conferencing bridge
@@ -1714,6 +1712,8 @@ items:
                   href: career-coach-set-up-steps.md
                 - name: Troubleshoot Career Coach
                   href: career-coach-troubleshoot.md
+                - name: Career Coach data compliance
+                  href: privacy-career-coach-data-compliance.md
                 - name: Resources for Career Coach
                   href: career-coach-resources.md
         - name: LMS and LTI integrations
