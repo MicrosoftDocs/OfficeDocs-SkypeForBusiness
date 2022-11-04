@@ -22,7 +22,7 @@ description: Learn about Microsoft Teams Premium for administators and IT Profes
 
 # Microsoft Teams Premium - Overview for administrators
 
-![Information icon](media/info.png) **Features described in this article require Teams Premium, which is a preview release.**
+![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** For details about feature availability and licensing, see **LINK TO LICENSING DOC HERE.**
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
 
@@ -32,7 +32,6 @@ Teams Premium is an add-on license that provides the following enhancements to T
 -	Enhanced security and protection for meetings 
 -	Enhanced administrative and telemetry support
 
-For information about purchasing the Teams Premium add-on license, see **ADD LICENSING LINK HERE**.
 
 > [!IMPORTANT]
 > Because Teams Premium is a public preview release, at general availability, some features currently available with Teams will only be available with a Teams Premium license. 
