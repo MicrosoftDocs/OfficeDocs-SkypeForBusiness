@@ -17,8 +17,6 @@ items:
           href: get-started-with-teams-monitor-usage-and-feedback.md
         - name: "Step 4: Plan your org-wide rollout"
           href: get-started-with-teams-resources-for-org-wide-rollout.md
-        - name: Support remote workers (WFH)
-          href: support-remote-work-with-teams.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
@@ -433,8 +431,6 @@ items:
       href: inline-message-translation-teams.md
     - name: Use Microsoft Teams scoped directory search
       href: teams-scoped-directory-search.md
-    - name: "FAQ: Support your remote workforce"
-      href: FAQ-support-remote-workforce.md
               
     - name: Reports
       items:
