@@ -102,7 +102,6 @@ Non-admins, such as schedulers, see ???
 
 Manage your Bookings calendar settings. You can update your business details, customize appointment types, add staff and assign roles, and configure your booking page settings.
 
-[NEED NEW SCREENSHOT]<br>
 :::image type="content" source="media/manage-virtual-appointments-app-manage.png" alt-text="Screenshot of the Manage page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-manage.png":::
 
 ## Set up the Virtual Appointments app
