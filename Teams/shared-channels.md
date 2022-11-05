@@ -61,8 +61,9 @@ Deleted teams can be restored within 30 days after deletion. When a team is dele
 When a team is archived, individual sharing will remain intact, but sharing with teams other than the parent team will be removed. When archived team is unarchived, all shared channels will be restored with individual sharing only.
 
 ## Adding and removing owners and members
->[!NOTE] 
->Externally Authenticated users such as Guest or Guest users converted to members (in their usertype property) are not supported to be added in a shared channel.
+> [!NOTE] 
+> Externally authenticated users such as guests or guest users converted to members (in their user type property) cannot be added to a shared channel.
+
 A shared channel owner can't be removed through the Teams client if they are the last owner of one or more shared channels.
 
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel from your organization is automatically promoted to be the shared channel owner. If there are no members from your organization to promote, the shared channel will remain ownerless. A Teams admin will have to manually assign a channel owner. Consider adding more than one owner to avoid this situation.
