@@ -118,15 +118,15 @@ Keep in mind that after you set the default value, meeting organizers can still 
 
 ## Engagement report
 
-This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
+This is a per-user policy. This setting controls whether meeting organizers can download the [meeting engagement report](teams-analytics-and-reports/meeting-attendance-report.md).
 
 This policy is on by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Off**.
 
 You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-By default, the **AllowEngagementReport** parameter is set to **Enabled** in PowerShell. To prevent a meeting organizer from downloading the meeting attendance report, set the **AllowEngagementReport** parameter to **Disabled**.
+By default, the **AllowEngagementReport** parameter is set to **Enabled** in PowerShell. To prevent a meeting organizer from downloading the meeting engagement report, set the **AllowEngagementReport** parameter to **Disabled**.
 
-When this policy is enabled, the option to download the meeting attendance report is displayed in the **Participants** pane.
+When this policy is enabled, the option to download the meeting engagement report is displayed in the **Participants** pane.
 
 > [!NOTE]
 > As an administrator, you can’t view the attendance report for meetings that you don’t organize. However, you can view participant details for a given meeting within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
@@ -135,7 +135,17 @@ For more information, including limits of the engagement report, see [viewing an
 
 ## Meeting registration
 
-This is a per-user policy. If you turn this on, users in your organization can set up webinars. This policy is enabled by default. To find out more webinars, read [Set up webinars](set-up-webinars.md).
+This is a per-user policy. If you turn this on, users in your organization can add registration to a meeting. This policy is enabled by default.
+
+To find out more about meeting registration, read [Configure meeting registration](set-up-webinars.md#configure-meeting-registration).
+
+## Webinars
+
+This is a per-user policy. If you enable webinars, users in your organization can create webinars with robust registration management, customizable event and registration sites, and event-oriented default meeting options. This policy is enabled by default.
+
+Read more about webinars in [Set up webinars](set-up-webinars.md). 
+
+For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 ## Meeting provider for Islands mode
 
@@ -154,7 +164,7 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
 ## Meeting reactions
 
-The availability of meeting reactions can be configured through either the Teams admin center interface or using PowerShell. Meeting reactions are enabled by default. 
+The availability of meeting reactions can be configured through either the Teams admin center interface or using PowerShell. Meeting reactions are enabled by default.
 
 In the Teams admin center, Meeting reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Participants & guests** section of a meeting policy.
 
