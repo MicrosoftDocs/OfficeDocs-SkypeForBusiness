@@ -50,7 +50,7 @@ The new webinar experience is configured in PowerShell. See examples on [how to 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 > [!IMPORTANT]
-> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
+> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists for eDiscovery purposes. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
 
 ## Set up new webinar experience
 
@@ -95,33 +95,33 @@ To set up the new webinar experience, use the following attributes within the Wi
         Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
         ```
 
+> [!IMPORTANT]
+> If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
+
 ## Configure meeting registration
 
 If you want to use webinars, meeting registration must be turned on.
 
 You can use the Teams admin center under **Meetings** > **Meeting policies** to set up meeting registration and webinars.
 
-> [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work.
-
 ### Meeting registration
 
 If you turn on **Meeting registration**, users in your organization can schedule webinars and meetings requiring registration. By default, this is turned on. If you want to turn off meeting registration and webinars, set this policy to **Off**.
 
-> [!IMPORTANT]
-> **Private meeting scheduling** must be on for meeting registration to work. By default, this policy is turned on in the Teams admin center. For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
+**Private meeting scheduling** must be on for meeting registration to work. Find out more about [private meeting scheduling](meeting-policies-in-teams-general.md).
+
+For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
 
 #### Who can register
 
 > [!NOTE]
-> This policy does not apply to the new webinar experience. To configure who can register for the new webinar experience, use Set-CsTeamsEventsPolicy -EventAccessType, as shown in [configure the new webinar experience with PowerShell](#configure-the-new-webinar-experience-with-powershell).
+> This policy does not apply to the new webinar experience. To configure who can register for the new webinar experience, use `Set-CsTeamsEventsPolicy -EventAccessType`, as shown in [configure the new webinar experience with PowerShell](#configure-the-new-webinar-experience-with-powershell).
 
 This policy controls which users can register and attend webinars with meeting registration only. This policy has two options, which are only available if **Meeting registration** is turned on. By default, **Who can register** is set to **Everyone**.
 
 If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **Everyone in the organization**, only users in your organization can register for and attend webinars. If meeting registration is turned off, the **Who can register** setting will not be available and no one can register for webinars.
 
-> [!NOTE]
-> The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
+The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
 ## Collect webinar and meeting registration attendance
 
@@ -170,7 +170,7 @@ To use to webinars with basic functionality and not the new webinar experience, 
     Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
     ```
 
-1. Turn on private meeting scheduling:
+1. Turn on private meeting scheduling
 
     ```powershell
     Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowPrivateMeetingScheduling $True
@@ -182,7 +182,7 @@ To use to webinars with basic functionality and not the new webinar experience, 
     Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
     ```
 
-1. Configure who can register for webinars with meeting registration only:
+1. Configure who can register for webinars with meeting registration only
 
     - **Allow *only* users in your organization to register for webinars**
 
@@ -195,9 +195,6 @@ To use to webinars with basic functionality and not the new webinar experience, 
       ```powershell
        Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister Everyone
       ```
-
-> [!IMPORTANT]
-> If anonymous join is turned off in meeting settings, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
 
 ## Related topics
 
