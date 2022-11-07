@@ -20,8 +20,7 @@ description: Using approved corporate assets like backgrounds to create custom b
 
 # Custom org defined backgrounds for Teams Meetings
 
-> [!NOTE]
-> Custom Org Defined Backgrounds is part of the Teams Premium Offering. To allow users to apply org wide backgrounds during a meeting, users must be assigned a Teams Premium license.  
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 ## Overview
 
