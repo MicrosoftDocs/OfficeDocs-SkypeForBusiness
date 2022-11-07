@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: ITPro
-ms.topic: article 
+ms.topic: how-to 
 ms.service: msteams 
 search.appverid: 
 searchScope:

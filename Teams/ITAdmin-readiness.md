@@ -57,32 +57,33 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Teams Rooms Foundations for IT & AV Pros</h2>
 
-<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on  Microsoft Teams Rooms.  
+<p>The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Rooms.  
 
-| Module | PowerPoint deck (PDF)  |
+| Module | PowerPoint deck  |
 | ------------ | -------------------- |
-| Module 1: Introduction to Microsoft Teams Rooms  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Module 2: Microsoft Teams Networking  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Module 3: Choosing the right device for the right space  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Module 4: Deploying Microsoft Teams Rooms  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Module 5: Configuring and starting Microsoft Teams Rooms  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Module 6: Managing Microsoft Teams Rooms, Part 1  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Module 7: Managing Microsoft Teams Rooms, Part 2  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Module 1: Introduction to Microsoft Teams Rooms  | [Deck](https://aka.ms/TeamsRoomsModule1) |
+| Module 2: Network readiness  | [Deck](https://aka.ms/TeamsRoomsModule2) |
+| Module 3: Room design and components  | [Deck](https://aka.ms/TeamsRoomsModule3) |
+| Module 4: The resource account  | [Deck](https://aka.ms/TeamsRoomsModule4) |
+| Module 5: Starting and configuring Microsoft Teams Rooms  | [Deck](https://aka.ms/TeamsRoomsModule5) |
+| Module 6: Managing Microsoft Teams Rooms, Part 1  | [Deck](https://aka.ms/TeamsRoomsModule6) |
+| Module 7: Managing Microsoft Teams Rooms, Part 2  | [Deck](https://aka.ms/TeamsRoomsModule7) |
+| Module 8: Features, adoption, and troubleshooting | [Deck](https://aka.ms/TeamsRoomsModule8)|
 | One-touch Join Instructions |  [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Introduction to Microsoft Teams Rooms Managed Services | [Deck](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android devices</h2>
 
-<p>The following table contains links to comprehensive training, with PowerPoint decks (in PDF format), on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
+<p>The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
 
-| Module | PowerPoint deck (PDF)  |
+| Module | PowerPoint deck  |
 | ------------| -------------------- |
-| Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| Module 2: Planning Microsoft Teams Android devices|[Deck](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|Module 3: Features of Microsoft Teams Android Devices |[Deck](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|Module 4: Managing Microsoft Teams Android Devices|[Deck](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|Module 5: Microsoft Teams Android Devices - Troubleshooting |[Deck](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+| Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://aka.ms/TeamsAndroidModule1) |
+| Module 2: Planning Microsoft Teams Android devices|[Deck](https://aka.ms/TeamsAndroidModule2) |
+| Module 3: Managing Microsoft Teams Android Devices |[Deck](https://aka.ms/TeamsAndroidModule3)|
+| Module 4: Microsoft Teams phones and Microsoft Teams displays |[Deck](https://aka.ms/TeamsAndroidModule4)|
+| Module 5: Microsoft Teams Rooms and Microsoft Teams Panels |[Deck](https://aka.ms/TeamsAndroidModule5)|
+| Module 6: Adoption and troubleshooting |[Deck](https://aka.ms/TeamsAndroidModule6)|
 
 <h2>Interactive guides</h2>
 

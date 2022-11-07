@@ -4,7 +4,7 @@ author: lanachin
 ms.author: samanro
 ms.reviewer: aaglick
 manager: pamgreen
-ms.topic: article
+ms.topic: landing-page
 audience: admin
 ms.service: msteams
 search.appverid: MET150
