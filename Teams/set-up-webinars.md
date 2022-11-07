@@ -43,7 +43,7 @@ Currently, meeting registration includes basic webinar functionality, the abilit
 
 Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
 
-If you are currently using webinars with meeting registration, you'll be moved to the new experience automatically. This will affect newly created webinars only; previously scheduled webinars will use the previous webinar experience. The new experience uses the TeamsEventsPolicy. If you currently have webinars turned off, they will remain off as the new experience rolls out.
+If you are currently using webinars with meeting registration only, you'll be moved to the new webinar experience automatically. This will affect newly created webinars only; previously scheduled webinars will use the previous webinar experience. The new experience uses the TeamsEventsPolicy. If you currently have webinars turned off, they will remain off as the new experience rolls out.
 
 The new webinar experience is configured in PowerShell. See examples on [how to set up the new webinar experience](#set-up-new-webinar-experience).
 
@@ -67,8 +67,7 @@ To set up the new webinar experience, use the following attributes within the Wi
 |AllowWebinars|Enabled|This setting determines if a user can create webinars.|
 |EventAccessType|Everyone|This setting determines which users can access the event registration page or the event site to register, as well as which user type is allowed to join the session(s) in the event.|
 
-> [!NOTE]
-> Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
+Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 1. Turn on meeting registration
 
