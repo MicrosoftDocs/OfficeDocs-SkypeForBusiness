@@ -19,7 +19,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
-description: Learn how to manage Webinar policies for Teams meetings.
+description: Learn how to manage webinar and meeting registration policies in Teams.
 ---
 
 # Set up webinars in Microsoft Teams
