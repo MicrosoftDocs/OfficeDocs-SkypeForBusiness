@@ -25,8 +25,7 @@ description: Using approved corporate assets like backgrounds to create custom b
 
 ## Overview
 
-Branding in Teams meetings allows organizations to extend their visual identities across the meeting experience. Brand images and colors help foster internal corporate culture building and increase overall brand awareness with external meeting participants. With the help of an organization's brand management and corporate communications teams, admins can easily set up and create branded meeting themes for various business units and departments within a single tenant.
-
+Branding in Teams meetings allows organizations to extend their visual identities across the meeting experience. Branding through customized org wide backgrounds helps foster internal corporate culture building and increase overall brand awareness with both internal and external meeting participants. With the help of an organization's brand management and corporate communications teams, admins can easily set up and create custom org defined backgrounds for various business units and departments within a single tenant.
 
 By default, Teams premium licensed users who are either admins or have been assigned a meeting customization policy can create meetings that feature custom organizational defined backgrounds. These custom backgrounds can be selected by your end users with a premium license within your organization.
 
@@ -50,11 +49,10 @@ To enable the custom background policy, admins will perform the following steps:
 
 1. Open the Teams admin center
 2. Select **Meetings** from the navigation pane
-3. Under Meetings, select **Customization Policies**
-4. Either select an existing policy or create a new one
-5. Within your chosen policy, navigate to the **Custom Meeting Backgrounds** section
-6. Toggle the setting **Custom backgrounds** from off to on to enable the setting
-7. Select **Save**
+3. Under Meetings, there are two ways to access the custom background policy. You can select **Customization Policies** to select an existing policy or create a new one. Alternatively, you could select **Meeting Policies** and select **Custom meeting images** in the upper right hand corner.
+4. Within your chosen policy, navigate to the **Custom Meeting Backgrounds** section
+5. Toggle the setting **Custom backgrounds** from off to on to enable the setting
+6. Select **Save**
 
 ### Adding org wide background images
 
@@ -78,9 +76,9 @@ The previews of your uploaded images can be found in a new table under the **Cus
 
 You'll find previews of your uploaded images in a new table under the **Custom meeting backgrounds** section. This table also displays the name and resolution of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your end users with a Teams Premium license.
 
-## Where are Meeting Themes visible
+## Where are custom backgrounds visible
 
-The following list displays supported clients where meeting themes are visible:
+The following list displays supported clients where custom backgrounds are visible:
 
 - Web client
 - Desktop client
@@ -89,10 +87,10 @@ The following list displays supported clients where meeting themes are visible:
 
 ### Who can select and apply org wide backgrounds
 
-Org wide backgrounds will only be visible to Teams Premium licensed users in their Background Settings panel.  
+Only Teams Premium licensed users can use the org defined backgrounds in their Background Settings panel.
 
 > [!NOTE]
-> Org wide backgrounds will not be available for external or anonymous users.
+> External or anonymous users can't use org wide backgrounds.
 
 ### Who can view org wide backgrounds
 
