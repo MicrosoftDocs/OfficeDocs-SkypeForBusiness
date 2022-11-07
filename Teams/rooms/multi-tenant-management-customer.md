@@ -26,6 +26,9 @@ Partner management in the Teams Rooms Pro Management service enables customers t
 
 ## On-boarding partners
    Invite partners through the Pro Management portal to establish the relationship between your organization and the partner organization’s tenant.
+   
+> [!NOTE]
+> The partner needs to satisfy the pre-requisites in [Multi-tenant Management for Partners](multi-tenant-management-partner.md).
 
 ### Invitation to partner
 
@@ -79,7 +82,7 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 
 **To add new rooms to an existing partner**
 
-1. Log in to the Pro Management-MTM portal as an Managed Service administrator.
+1. Log in to the Pro Management-MTM portal as a Managed Service administrator.
 1. Go to **Settings > Roles.**
 1. Select  **Partner roles.** 
 1. Select the **Primary admin** role for the corresponding partner name.
