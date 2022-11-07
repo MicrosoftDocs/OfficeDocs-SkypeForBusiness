@@ -120,7 +120,7 @@ For more information on how your end users can turn on **Live captions**, see [U
 ### Live translated captions
 
 > [!NOTE]
-> This feature is temporarily available in public preview. After the preview period, a Teams Premium add-on license will be required to use this feature. If a meeting organizer is a Teams Premium user, each meeting attendee will have the option to turn on Live translated captions. If a meeting organizer is does not have a Teams Premium license, no meeting attendees will be able to use this feature.
+> This feature is temporarily available in public preview. After the preview period, a Teams Premium add-on license will be required to use this feature. If a meeting organizer is a Teams Premium user, each meeting attendee will have the option to turn on **Live translated captions**. If a meeting organizer does not have a Teams Premium license, no meeting attendees will be able to use this feature.
 
 By default, **Live captions** are displayed in the language that’s spoken during a meeting. **Live translated captions** allow your users to see captions translated into the language they’re most comfortable with.
 
