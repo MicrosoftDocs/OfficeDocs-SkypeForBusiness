@@ -80,9 +80,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | September 3, 2024  |  Medium size room (4.5 m x 6 m) | 10|
-| Neat Bar | `NFB1.20220211.1400` |September 3, 2024|    Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Neat Pad touch console | `NFA1.20220211.1400`  | August 5, 2023 |  Compatible with Neat Bar only | 9 |
-| Neat Board | `NFC1.20220211.1400 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Neat Bar | `NFF1.20220914.1210` |September 3, 2024|    Medium size room (4.5 m x 6 m) | 10 |
+| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar only | 9 |
+| Neat Board | `NFC1.20220914.1210 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
