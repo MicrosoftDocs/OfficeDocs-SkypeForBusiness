@@ -17,7 +17,7 @@ ms.collection:
   - M365-collaboration
 ---
 
-# App policies used to manage access to and installation of apps
+# Manage access to apps using app policies
 
 Microsoft Teams uses app policies to govern access and installation behavior of apps. App policies help Teams administrators control the following app behavior:
 
@@ -34,7 +34,7 @@ With app permission policies, Teams admin control what apps are available to eac
 The app permission policies apply to all the [types of apps available in Teams](deploy-apps-microsoft-teams-landing-page.md). Some example scenarios in which you use app permission policies are:
 
 * Gradually roll out an app to some users initially and to all users eventually.
-* Allow a custom recruiting and talent management app for only members of your HR department and block it for all other organization users.
+* Allow a custom app for recruiting and talent management for only members of your HR department and block it for all other organization users.
 
 :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot of app permission policy." lightbox="media/app-permission-policy.png":::
 
@@ -49,7 +49,7 @@ Pinning or installing apps helps drive awareness and adoption of the desired app
 Some example scenarios in which you use app setup policies are:
 
 * Pin a custom recruiting and talent management app for members of your HR team.
-* Change the order of the pre-pinned core apps for your organization's users.
+* Change the order of the [Core apps](deploy-apps-microsoft-teams-landing-page.md#core-apps) using pinning for your organization's users.
 
 :::image type="content" source="media/app-setup-policy-trimmed.png" alt-text="Screenshot of app setup policy in Teams admin center." lightbox="media/app-setup-policy.png":::
 
