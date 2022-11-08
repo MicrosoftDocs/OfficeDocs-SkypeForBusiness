@@ -43,7 +43,7 @@ Currently, meeting registration includes basic webinar functionality, the abilit
 
 Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
 
-If you are currently using webinars with meeting registration only, you'll be moved to the new webinar experience automatically. This will affect newly created webinars only; previously scheduled webinars will use the previous webinar experience. The new experience uses the TeamsEventsPolicy. If you currently have webinars turned off, they will remain off as the new experience rolls out.
+If your organization is currently using webinars with meeting registration only, all newly created webinars will have the new experience. Previously-scheduled webinars will use the previous webinar experience.The new experience uses the TeamsEventsPolicy. If you currently have webinars turned off, they will remain off as the new experience rolls out.
 
 The new webinar experience is configured in PowerShell. See examples on [how to set up the new webinar experience](#set-up-new-webinar-experience).
 
@@ -69,19 +69,20 @@ To set up the new webinar experience, use the following attributes within the Wi
 
 Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
-1. Turn on meeting registration
+1. Turn on meeting registration.
 
     ```powershell
     Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
     ```
 
-1. Activate the new webinar experience
+1. Activate the new webinar experience.
 
     ```powershell
     Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
     ```
 
-1. Configure who can register for webinars and meetings
+1. Configure who can register for webinars and meetings.
+
     - **Allow ***only*** users in your organization to register for webinars and meetings**
 
         ```powershell
@@ -96,6 +97,48 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
 
 > [!IMPORTANT]
 > If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
+
+### Turn off new webinar experience
+
+To use to webinars with basic functionality and not the new webinar experience, use the following attributes within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet.
+
+|Parameter|Default Setting|Description|
+|---------|-----------|---------------|
+|AllowMeetingRegistration|True|This setting determines whether a user can create webinars.|
+|WhoCanRegister|Everyone|This setting controls who can attend a webinar.|
+|AllowPrivateMeetingScheduling|True|This setting determines whether a user can schedule private meetings.|
+
+1. Turn on meeting registration to enable the webinar functionality.
+
+    ```powershell
+    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
+    ```
+
+1. Turn on private meeting scheduling.
+
+    ```powershell
+    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowPrivateMeetingScheduling $True
+    ```
+
+1. Turn off the new webinar experience.
+
+    ```powershell
+    Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
+    ```
+
+1. Configure who can register for webinars with meeting registration only.
+
+    - **Allow *only* users in your organization to register for webinars**
+
+      ```powershell
+      Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister EveryoneInCompany
+      ```
+
+    - **Allow anyone, including anonymous users, to register for webinars**
+
+      ```powershell
+       Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister Everyone
+      ```
 
 ## Configure meeting registration
 
@@ -138,7 +181,7 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ## Turn off webinars
 
-You can turn off webinars from the Teams admin center or by using PowerShell.
+You can turn off webinars from the Teams admin center or by using PowerShell. This applies to both the new experience as well as webinars with meeting registration only.
 
 ### Turn off webinars in Teams admin center
 
@@ -152,48 +195,6 @@ Use the following PowerShell script to turn off webinars:
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False
 Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
-
-## Turn off new webinar experience
-
-To use to webinars with basic functionality and not the new webinar experience, use the following attributes within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet.
-
-|Parameter|Default Setting|Description|
-|---------|-----------|---------------|
-|AllowMeetingRegistration|True|This setting determines whether a user can create webinars.|
-|WhoCanRegister|Everyone|This setting controls who can attend a webinar.|
-|AllowPrivateMeetingScheduling|True|This setting determines whether a user can schedule private meetings.|
-
-1. Turn on meeting registration to enable webinars:
-
-    ```powershell
-    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
-    ```
-
-1. Turn on private meeting scheduling
-
-    ```powershell
-    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowPrivateMeetingScheduling $True
-    ```
-
-1. Turn off the new webinar experience
-
-    ```powershell
-    Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
-    ```
-
-1. Configure who can register for webinars with meeting registration only
-
-    - **Allow *only* users in your organization to register for webinars**
-
-      ```powershell
-      Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister EveryoneInCompany
-      ```
-
-    - **Allow anyone, including anonymous users, to register for webinars**
-
-      ```powershell
-       Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister Everyone
-      ```
 
 ## Related topics
 
