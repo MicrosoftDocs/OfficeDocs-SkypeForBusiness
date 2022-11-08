@@ -151,16 +151,6 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 1. Select **Save** for org-wide app settings to take effect.
 
-## Allow the apps that are blocked by the developers
-
-When a developer publishes an app to the Teams store, some apps might need an admin to configure the app. The admins make the app available to the end-users when the app is set up.
-
-For example, Contoso Electronics is an app developer that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin allows the application, it will show as **Blocked by publisher** in the Teams admin center and is hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**.
-
-:::image type="content" source="media/blocked-by-publisher.png" alt-text="Screenshot of blocked by publisher status in Teams admin center.":::
-
-For information about how developers block an app by default, see [enable apps to be blocked until an admin allows it](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
-
 ## Related article
 
 * [Manage user requests to allow apps](user-requests-approve-apps.md).
