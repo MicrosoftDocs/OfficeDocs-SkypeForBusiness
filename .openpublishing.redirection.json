@@ -2938,7 +2938,7 @@
      {
       "source_path": "Teams/custom-org-defined-backgrounds.md",
       "redirect_url": "/microsoftteams/teams-overview",
-      "redirect_document_id": true
+      "redirect_document_id": false
      }
   ] 
 }
