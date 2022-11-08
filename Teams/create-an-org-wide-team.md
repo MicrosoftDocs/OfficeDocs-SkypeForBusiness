@@ -22,9 +22,9 @@ ms.custom: seo-marvel-apr2020
 
 # Use organization-wide teams in Microsoft Teams to help everyone collaborate
 
-Global Administrators can create organization-wide teams that provide an way for everyone in a small-to-medium-sized organization to be part of a single and collaborative team. Organization-wide teams automatically include every user in the organization and keep the membership up to date as users join and leave the organization.
+Global Administrators can create organization-wide teams that provide a way for everyone in a small-to-medium-sized organization to be part of a single and collaborative team. Organization-wide teams automatically include every user in the organization and keep the membership up to date as users join and leave the organization.
 
-If your organization is new to Teams and has no more than 5,000 users, an organization-wide team is created automatically. Organization-wide teams are limited to organizations with no more than 10,000 users. You can have up to five organization-wide teams per tenant. 
+If your organization is new to Teams and has no more than 5,000 users, an organization-wide team is created automatically. Organization-wide teams are limited to organizations with no more than 10,000 users. You can have up to five organization-wide teams. 
 
 ## Create an organization-wide team
 
@@ -38,9 +38,9 @@ There are two ways to create an organization-wide team:
 
 ## Types of users in an organization-wide team
 
-When an organization-wide team is created, all Global Administrators and Teams Administrators are added as team owners and all active users are added as team members. Team members can't leave an organization-wide team, but team owners can manually add or remove users if needed. All actions by the system to add or remove members are posted in the General channel.
+When an organization-wide team is created, all Global Administrators and Teams Administrators are added as team owners and all active users are added as team members. Team members can't leave an organization-wide team, but team owners can manually add or remove users if needed. When Teams automatically adds or removes someone, a notification is sent to the General channel.
 
-Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Exploratory license. To learn more about the Exploratory license, check out [Manage the Microsoft Teams Exploratory license](teams-exploratory.md).
+Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, they're assigned a Microsoft Teams Exploratory license. To learn more about the Exploratory license, check out [Manage the Microsoft Teams Exploratory license](teams-exploratory.md).
 
 The following types of accounts won't be added to your organization-wide team:
 
@@ -90,6 +90,6 @@ For more information, see [Set up and manage channel moderation in Microsoft Tea
 
 Even though members can't leave an organization-wide team, as a team owner, you can manage the team roster by removing accounts that don't belong. **Make sure you use Teams to remove users from your org-wide team**. If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the organization-wide team.
 
-## See also
+## Related topics
 
 Watch a video about [How to create an org-wide team in Microsoft Teams](https://www.youtube.com/watch?v=x3qGlwwCz_w).
