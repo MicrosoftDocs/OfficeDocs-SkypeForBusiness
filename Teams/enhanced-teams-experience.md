@@ -115,7 +115,7 @@ In addition, Teams Premium will also provide additional metrics to help determin
 
 Teams Premium provides advanced management features, such as:
 
-- **Monitoring and alerting** - 
+- **Monitoring and alerting** - Instead of reactive monitoring, you can be proactively notified when participants are experiencing network quality issues during their in-progress meetings/live events.
 
 - **Custom user policy packages** - Lets you bundle and customize your own set of policies for users with similar roles in your organization.
 
