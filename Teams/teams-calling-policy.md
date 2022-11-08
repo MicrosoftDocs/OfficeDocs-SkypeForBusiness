@@ -132,7 +132,7 @@ This setting controls whether apps are automatically opened in the browser for i
 
 If turned on, a link to the app will need to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This will simply launch the listed URL.
 
-![Screenshot of Open apps in browser for incoming PSTN calls policy setting](media/teams-open-apps-in-browser-pstn.png)
+![Screenshot of Open apps in browser for incoming PSTN calls policy setting.](media/teams-open-apps-in-browser-pstn.png)
 
 ## Related articles
 
