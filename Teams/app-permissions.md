@@ -48,7 +48,7 @@ As an admin, you only manage apps. However, the article focuses on permissions a
 
 ### Required permissions for bots and messaging extensions
 
-* A bot can receive messages from users and reply to them. Some bots only send messages. They're called notification-only bots, but the term doesn't refer to what a bot is allowed or not allowed to do. It means that the bot doesn't offer a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled. The bot isn't restricted in what it's allowed to do compared to bots that expose a conversational experience.
+* A bot can receive messages from users and reply to them. Some bots only send messages. They're called notification-only bots, but the term doesn't refer to what a bot is allowed or not allowed to do. It means that the bot doesn't offer a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled. The bot isn't restricted in what it's allowed to do as compared to the bots that expose a conversational experience.
 * After a user has sent a message to a bot, the bot can send the user direct or proactive messages at any time.
 * A bot added to teams can get a list of names and IDs of the channels in a team.
 
@@ -56,11 +56,11 @@ As an admin, you only manage apps. However, the article focuses on permissions a
 
 * When it's used in a channel, the app's bot can access basic identity information of team members (first name, last name, user principal name [UPN], email address). When it's used in a personal or group chat, the bot can access the same information for those users.
 
-* An app's bot can send direct or proactive messages to team members even if they have not interacted with the bot.
+* An app's bot can send direct or proactive messages to team members even if they haven't interacted with the bot.
 
 * The following aren't explicit permissions, but are implied by ability to receive and reply to messages and also the scopes into which the bots can be used.
 
-  * Receive a peronsal message and reply to it.
+  * Receive a personal message and reply to it.
   * Receive a group chat and reply to it.
   * Receive a channel message and reply to it.
 
@@ -88,7 +88,7 @@ As an admin, you only manage apps. However, the article focuses on permissions a
 
 * Bots can retrieve (and might store) the list of channels in a team; this data leaves the corporate network.
 
-* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those other things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
+* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do other things. Exactly what those other things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at `https://apps.dev.microsoft.com/` and can have its own set of permissions.
 
 * When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
