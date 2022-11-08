@@ -128,7 +128,7 @@ This setting enables users to use a SIP device to make and receive calls. This i
 
 ### Open apps in browser for incoming PSTN calls
 
-This setting controls whether apps are automatically opened in the browser for incoming PSTN calls tp your users. This can be used to pass the phone number of an inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
+This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This can be used to pass the phone number of an inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
 
 If turned on, a link to the app will need to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This will simply launch the listed URL.
 
