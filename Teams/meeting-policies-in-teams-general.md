@@ -35,6 +35,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Designated presenter role mode](#designated-presenter-role-mode)
 - [Engagement report](#engagement-report)
 - [Meeting registration](#meeting-registration)
+- [Webinars](#webinars)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
 - [Meeting reactions](#meeting-reactions)
 - [Speaker Coach](#speaker-coach)
@@ -143,7 +144,7 @@ To find out more about meeting registration, read [Configure meeting registratio
 
 This is a per-user policy. If you enable webinars, users in your organization can create webinars with robust registration management, customizable event and registration sites, and event-oriented default meeting options. This policy is enabled by default.
 
-Read more about webinars in [Set up webinars](set-up-webinars.md). 
+Read more about webinars in [Set up webinars](set-up-webinars.md).
 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
