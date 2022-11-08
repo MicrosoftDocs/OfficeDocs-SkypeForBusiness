@@ -2934,6 +2934,11 @@
       "source_path": "Teams/teams-meeting-room-guidance.md",
       "redirect_url": "/microsoftteams/rooms/room-planning-guidance",
       "redirect_document_id": true
+     },
+     {
+      "source_path": "Teams/custom-org-defined-backgrounds.md",
+      "redirect_url": "/microsoftteams/teams-overview",
+      "redirect_document_id": false
      }
   ] 
 }
