@@ -47,14 +47,15 @@ Here's an overview of what's on each tab.
 
 ### Home
 
-![Information icon](media/info.png) **The Queue and Analytics tiles and features are part of [Teams Premium]() (preview).**
+![Information icon](media/info.png) **The Queue and Analytics tiles are part of [Teams Premium]() (preview).**
 
-Get easy access to key actions and information. The dashboard provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
+Get easy access to key actions and information. The Home page provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
-[NEED NEW SCREENSHOT]<br>
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
 ### Bookings schedule
+
+![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium]() (preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
 
 Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual Appointments with Teams and the Bookings app](https://review.learn.microsoft.com/microsoft-365/frontline/bookings-virtual-appointments?branch=v-lanachin-bookings-prem) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
 
@@ -62,7 +63,7 @@ Access your Bookings calendar to schedule virtual appointments such as healthcar
 
 ### Queue
 
-![Information icon](media/info.png) **The scheduled queue view and SMS notifications are moving to [Teams Premium]() (preview). Users can continue using these features during the preview period. After the preview, users need a Teams Premium license. To access the on-demand queue during the preview period, users need a Teams Premium trial license.**
+![Information icon](media/info.png) **The scheduled queue view and SMS notifications are now part of [Teams Premium]() (preview). Users can continue using these features during the preview period. After the preview, users need a Teams Premium license. To access the on-demand queue during the preview period, users need a Teams Premium trial license.**
 
 View and monitor all scheduled and on-demand virtual appointments in the Bookings calendar that you pinned, with updates in real time.
 
@@ -78,7 +79,7 @@ Get insight into usage activity and trends to help optimize Virtual Appointments
 
 #### Organizational analytics
 
-![Information icon](media/info.png) **The Virtual Appointments usage report is moving to [Teams Premium]() (preview). The report will continue to be available during the preview period. After the preview, a Teams Premium license is required. To access the Virtual Appointments active user report during the preview period, a Teams Premium trial license is required.**
+![Information icon](media/info.png) **The Virtual Appointments usage report is available as part of the preview release of Teams Premium. After the preview period, a Teams Premium license is required. To access the Virtual Appointments active user report during the preview period, a Teams Premium trial license is required.**
 
 Admins see the following reports (which are pinned from the Teams admin center), showing aggregated analytics across the organization:
 
