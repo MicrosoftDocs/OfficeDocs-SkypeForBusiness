@@ -121,7 +121,9 @@ Teams Premium provides advanced management features, such as:
 
 - **Real-time data storage** - **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
 
-- **eCDN for Live Events** - Microsoft eCDN helps you ensure high quality live broadcast events without breaking the bandwidth bank. With Teams Premium, ....  **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
+- **eCDN for Live Events** - Microsoft eCDN (Enterprise Content Delivery Network) optimizes network performance for live video streaming and distribution within an enterprise. As organizations continue to deliver virtual and hybrid large scale events, an eCDN network reduces the load on the corporate network. With Teams Premium, ....  **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
+
+
 
 **NEED TO ADD MORE DETAILS FOR THESE FEATURES**
 
