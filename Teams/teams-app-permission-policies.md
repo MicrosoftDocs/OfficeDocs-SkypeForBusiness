@@ -52,10 +52,10 @@ Use one or more custom app permission policies, if you want to control the apps 
 1. Provide a name and description for the policy.
 1. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following options:
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * Allow all apps
+    * Allow specific apps and block all others
+    * Block specific apps and allow all others
+    * Block all apps
 
 1. If you selected **Allow specific apps and block all others**, add the apps that you want to allow:
 
