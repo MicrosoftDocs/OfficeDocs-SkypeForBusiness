@@ -83,6 +83,8 @@ The Manage apps page is where you allow or block individual apps at the org leve
 
 To allow an app for specific users, see [app permission policies](teams-app-permission-policies.md).
 
+When a developer publishes an app to the Teams store, some apps may need an admin to configure the app. Before an admin allows such an app, it shows as `Blocked by publisher` in the admin center. After following the publisher's guidance to set up the app, you can make it available to users by allowing it.
+
 ## Manage org-wide app settings
 
 Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization.
