@@ -17,8 +17,6 @@ items:
           href: get-started-with-teams-monitor-usage-and-feedback.md
         - name: "Step 4: Plan your org-wide rollout"
           href: get-started-with-teams-resources-for-org-wide-rollout.md
-        - name: Support remote workers (WFH)
-          href: support-remote-work-with-teams.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
@@ -322,6 +320,8 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
+        - name: Career Coach data compliance
+          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -431,8 +431,6 @@ items:
       href: inline-message-translation-teams.md
     - name: Use Microsoft Teams scoped directory search
       href: teams-scoped-directory-search.md
-    - name: "FAQ: Support your remote workforce"
-      href: FAQ-support-remote-workforce.md
               
     - name: Reports
       items:
@@ -734,8 +732,6 @@ items:
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
-            - name: Set up Audio Conferencing - quickstart for small and medium businesses
-              href: audio-conferencing-smb.md
         - name: Manage
           items:
             - name: Manage your audio conferencing service
@@ -743,7 +739,7 @@ items:
                 - name: Extended dial-out minutes for US and Canada
                   href: dial-out-minutes-canada-us.md
                 - name: Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit
-                  href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  href: audio-conferencing-subscription-dial-out.md
                 - name: Audio Conferencing pay-per-minute
                   href: audio-conferencing-pay-per-minute.md
             - name: Manage your audio conferencing bridge
@@ -919,11 +915,11 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
-        - name: Operator Connect Mobile
+        - name: Teams Phone Mobile
           items:
-            - name: Plan for Operator Connect Mobile
+            - name: Plan for Teams Phone Mobile
               href: operator-connect-mobile-plan.md
-            - name: Configure Operator Connect Mobile
+            - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
         - name: Direct Routing
           items: 
@@ -1040,7 +1036,7 @@ items:
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
 
-        - name: Manage phone numbers for Operator Connect Mobile
+        - name: Manage phone numbers for Teams Phone Mobile
           href: operator-connect-mobile-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
@@ -1396,6 +1392,8 @@ items:
               href: rooms/rooms-licensing.md
             - name: Teams Rooms admin center licensing
               href: rooms/admin-center-license-overview.md
+            - name: Teams Rooms legacy licensing
+              href: rooms/rooms-legacy-licensing.md
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
@@ -1408,8 +1406,10 @@ items:
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
-            - name: Security
-              href: rooms/security.md
+            - name: Windows security
+              href: rooms/security-windows.md
+            - name: Android security
+              href: rooms/security-android.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1459,15 +1459,13 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-    - name: Microsoft Teams Rooms managed service
+    - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
           href: rooms/microsoft-teams-rooms-premium.md
-        - name: Obtain and assign a license
-          href: rooms/obtaining-assigning-license.md
-        - name: Enroll in MTRP managed service
+        - name: Accessing the Pro Management portal
           href: rooms/enrolling-mtrp-managed-service.md
-        - name: Enroll a device into managed service
+        - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
         - name: Role-based access control
           href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1475,7 +1473,7 @@ items:
           href: rooms/managed-meeting-rooms-portal.md
         - name: Managed updates
           href: rooms/update-management.md 
-        - name: Configure ServiceNow for Teams Rooms
+        - name: Configure ServiceNow
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
@@ -1487,13 +1485,10 @@ items:
           href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
-        - name: Customer-reported incidents 
+        - name: Record an issue 
           href: rooms/customer-reported-incidents.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
-
-        - name: Using the Teams Rooms mobile application
-          href: rooms/extended-mobile-app.md
           
     - name: Devices
       items:
@@ -1612,7 +1607,7 @@ items:
           href: purchase-third-party-apps.md
         - name: Adobe Acrobat as default PDF viewer in Teams
           href: adobe-acrobat-pdf-viewer-teams.md
-        - name: Manage Microsoft 365 and custom connectors
+        - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
         - name: Customize app branding using app customization
           href: customize-apps.md
@@ -1623,7 +1618,7 @@ items:
       items:
         - name: Manage custom and sideloaded apps
           href: custom-app-overview.md
-        - name: Manage custom app policies and settings
+        - name: Manage policies and settings for custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
@@ -1644,8 +1639,6 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-          - name: Manage custom app policies and settings
-            href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Review Azure AD permissions and grant admin consent
@@ -1656,9 +1649,7 @@ items:
           href: app-permissions.md
         - name: Brand your org app store
           href: customize-your-app-store.md
-        - name: Manage access to apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
-        - name: Use apps as external or guest users
+        - name: Use apps as external user or guest
           href: non-standard-users.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
@@ -1719,6 +1710,8 @@ items:
                   href: career-coach-set-up-steps.md
                 - name: Troubleshoot Career Coach
                   href: career-coach-troubleshoot.md
+                - name: Career Coach data compliance
+                  href: privacy-career-coach-data-compliance.md
                 - name: Resources for Career Coach
                   href: career-coach-resources.md
         - name: LMS and LTI integrations
@@ -2101,6 +2094,8 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
     - name: Accessibility and conformance
       items: 
+        - name: Accessibility guidance for Teams
+          href: accessibility-guide-admin.md
         - name: Accessibility declaration of conformance in France for Microsoft Teams
           href: accessibility-declaration-of-conformance-in-france-for-teams.md
         - name: Accessibility solutions for Skype for Business Online and Microsoft Teams
@@ -2109,6 +2104,10 @@ items:
           href: code-of-practice-for-the-united-kingdom-u-k.md
         - name: Calling plans in Microsoft 365 - Complaint handling of code for the U.K.
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
+        - name: IP Relay in Canada - sign up
+          href: ip-relay-canada-email-signup.md
+        - name: IP Relay in Canada - user guide
+          href: ip-relay-canada-user-guide.md
         - name: Emergency calling terms and conditions
           href: emergency-calling-terms-and-conditions.md
     - name: Shared channels errors

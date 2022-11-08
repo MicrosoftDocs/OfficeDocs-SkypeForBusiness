@@ -3,10 +3,11 @@ title: User requests for admins
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection: 
   - M365-collaboration
   - m365-frontline
