@@ -119,9 +119,9 @@ Teams Premium provides advanced management features, such as:
 
 - **Custom user policy packages** - Lets you bundle and customize your own set of policies for users with similar roles in your organization.
 
-- **Real-time data storage** - 
+- **Real-time data storage** - **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
 
-- **eCDN for Live Events** - 
+- **eCDN for Live Events** - Microsoft eCDN helps you ensure high quality live broadcast events without breaking the bandwidth bank. With Teams Premium, ....  **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
 
 **NEED TO ADD MORE DETAILS FOR THESE FEATURES**
 
