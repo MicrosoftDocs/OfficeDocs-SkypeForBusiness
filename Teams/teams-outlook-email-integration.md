@@ -30,7 +30,7 @@ While this feature is set to enable by default, you can turn off actionability i
 Set-OrganizationConfig -SmtpActionableMessagesEnabled $false
 ```
 
-Once the feature is disabled, the **Reply** option is replaced by **Reply in Teams** making the missed activity emails no longer considered actionable. Users will no longer be able to respond directly from Outlook and are directed to continue the conversation on Teams.
+Once the feature is disabled, the **Reply** option is replaced by **Reply in Teams** making the missed activity emails no longer considered actionable. Users are no longer be able to respond directly from Outlook and are directed to continue the conversation on Teams.
 
 > [!NOTE]
 > This feature isn't supported in Outlook for Mac or some older versions of Outlook for Windows. For more information, see [Actionable messages in Outlook and Office 365 Groups](/outlook/actionable-messages/).
