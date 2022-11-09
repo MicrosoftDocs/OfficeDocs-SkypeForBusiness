@@ -18,7 +18,7 @@ appliesto:
 
 # Manage actionable activity emails
 
-Actionable activity emails are enabled by default and notifies users in your organization of missed conversations on Microsoft Teams.
+Actionable activity emails are enabled by default and notify users in your organization of missed conversations on Microsoft Teams.
 
 A missed activity email shows the latest replies to a conversation, including messages sent after the missed message. This feature lets users reply directly from Outlook by selecting **Reply**.
 
@@ -35,7 +35,7 @@ Once the feature is disabled, the **Reply** option is replaced by **Reply in Tea
 > [!NOTE]
 > This feature isn't supported in Outlook for Mac or some older versions of Outlook for Windows. For more information, see [Actionable messages in Outlook and Office 365 Groups](/outlook/actionable-messages/).
 
- ## Related topics
+## Related topics
 
 [Reply to missed activity emails from Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).
 
