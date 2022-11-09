@@ -209,9 +209,9 @@ To specify who can use far end camera control in a meeting, create and assign a 
 
 |Setting value|Behavior|
 |---|---|
-|Disabled|This is the default setting. When set to `Disabled`, no one can use PTZ camera controls.|
-|AutoAcceptAll|PTZ camera controls are automatically available to any meeting participant.|
-|AutoAcceptInTenant|PTZ camera controls are automatically available only to participants in the same organization as the Teams Room.|
+|`Disabled`|This is the default setting. When set to `Disabled`, no one can use PTZ camera controls.|
+|`AutoAcceptAll`|PTZ camera controls are automatically available to any meeting participant.|
+|`AutoAcceptInTenant`|PTZ camera controls are automatically available only to participants in the same organization as the Teams Room.|
 
 When `TeamsCameraFarEndPTZMode` is set to `AutoAcceptAll` or `AutoAcceptInTenant`, camera control can still be manually turned off from the Teams Room at any point during a meeting. Camera control is also unavailable when the camera is turned off.
 
