@@ -14,7 +14,7 @@ ms.collection:
   - m365solution-compliantmeetings
 appliesto: 
   - Microsoft Teams
-description: Learn how Microsoft Teams administrators can specify which meeting templates are available to their users.
+description: Learn how Microsoft Teams Administrators can specify which meeting templates are available to their users.
 ---
 
 # Manage meeting templates in Microsoft Teams
