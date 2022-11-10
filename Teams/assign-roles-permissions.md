@@ -1,5 +1,5 @@
 ---
-title: Assign team owners and members in Microsoft Teams
+title: Manage user roles in Microsoft Teams 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,12 +18,56 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Assign team owners and members in Microsoft Teams
+# Manage user roles in Microsoft Teams
 
-Within Microsoft Teams there are two user roles: **owner** and **member**. By default, a user who creates a new team is granted the owner status. In addition, owners and members can have moderator capabilities for a channel (provided that moderation has been set up). If a team is created from an existing Microsoft 365 group, permissions are inherited.
+**Owner** and **member** are the two user roles within Microsoft Teams. The user who creates a new team is granted owner status by default. Owners and members have different types of permissions and capabilities when interacting with a team and its channels. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md) to learn more about roles in Teams.
+
+> [!NOTE]
+> If a team is created from an existing Microsoft 365 group, permissions are inherited.
+
+## Assign user roles in Teams
+
+1. Under the team you want to manage, select **More options** and then select **Manage team**.
+2. In the Members tab, you can add members and assign owner and moderator roles to members.
+
+To learn more about team settings, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+
+> [!TIP]
+> The **Manage team** option won't appear for pinned channels so be sure to select the team name under **Your teams**.
+
+## Restrict permission to create teams
+
+All users with a mailbox in Exchange Online have permissions to create Microsoft 365 groups and a team within Microsoft Teams. Restrict members from creating new teams and Microsoft 365 groups by delegating group creation and management rights to a set of users. For more information, see [Manage who can create Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 The table below shows the difference in permissions between an owner and a member.
 
+### Teams
+
+|Task |Team Owner |Team Member  |
+|---------|---------|---------|
+|Create/Delete team   |    Yes     |     No    |
+|Edit team name/description   |     Yes    |     No     |
+|Add members     |     Yes    |     No     |
+|Request to add new member   |     Yes    |     No     |
+
+### Channels
+
+|Task |Team Owner |Team Member  |
+|---------|---------|---------|
+|**Standard channel**
+|Create/Delete standard channel     |         |         |
+|Edit standard channel name/description    |         |         |
+|**Private channel**
+|Create/Delete private channel    |         |         |
+|Create/Delete shared channel |         |         |
+|**Shared channel**
+|Edit shared channel name/description    |    No     |     No    |
+
+### Apps
+
+|Task |Team Owner |Team Member  |
+|---------|---------|---------|
+|Add/Remove apps   |     Yes    |     Yes    |
 
 |    Task                               | Team Owner | Team Member |
 |-----------------------------------|------------|-------------|
@@ -63,14 +107,3 @@ In addition to other capabilities, team owners and members can have moderator ca
 Moderator capabilities are assigned at the channel level. Team owners have moderator capabilities by default. Team members have moderator capabilities turned off by default, but a team owner can give moderator capabilities for a channel to a team member. Moderators within a channel can add and remove other moderators within that channel.
 
 For more information about moderator capabilities, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
-
-## Assign a user role
-
-To assign a user role, in Teams, select the team name and then select **More options** (**...**) > **Manage team**. On the **Members** tab, you can add members and choose owners and moderators (if you have sufficient permissions). For more information, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
-
-> [!NOTE]
-> The **Manage team** option will not appear for pinned channels. Select the team name under *Your teams* further below and then select **More options** (**...**) to the right of the name.
-
-## Permissions to create teams
-
-By default, all users with a mailbox in Exchange Online have permissions to create Microsoft 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Microsoft 365 groups by delegating group creation and management rights to a set of users. For instructions, see [Manage who can create Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
