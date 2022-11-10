@@ -59,25 +59,15 @@ For Operator Connect numbers:
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
-For Teams Phone Mobile numbers:
-
-```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
-```
+> [!NOTE]
+> For Teams Phone Mobile numbers, you should also use -PhoneNumberType OperatorConnect.
 
 For example:
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
 Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
-Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550103" -PhoneNumberType OCMobile
 ```
-
-
-
-
-
-
 
 > [!NOTE]
 > Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
