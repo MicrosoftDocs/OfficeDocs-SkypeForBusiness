@@ -23,6 +23,8 @@ description: Learn how Microsoft Teams administrators can specify which meeting 
 
 You can use meeting template policies in Microsoft Teams to determine which meeting templates are available to users in your organization.
 
+## Specify which meeting templates are available to users
+
 By default, the **Global** policy allows users to see all available templates, including default templates and any custom templates that you've created. If you want to limit which templates are available for different people or groups, you can create policies specifying this.
 
 To create a meeting template policy
