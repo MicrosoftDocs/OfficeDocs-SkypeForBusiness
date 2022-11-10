@@ -1616,9 +1616,7 @@ items:
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
-          href: custom-app-overview.md
-        - name: Manage policies and settings for custom apps
+        - name: Manage custom and sideloaded apps and settings
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
