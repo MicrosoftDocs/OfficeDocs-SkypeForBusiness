@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Adobe Acrobat as a default PDF viewer in Microsoft Teams
+# Set Adobe Acrobat as the default PDF viewer in Microsoft Teams
 
 > [!NOTE]
 > Adobe Acrobat as a default PDF experience in Microsoft Teams is currently available only in public preview. To use this functionality, admins must [enable public preview](public-preview-doc-updates.md#enable-public-preview) for their tenant and ensure that the end-users change Teams client version to public preview.
