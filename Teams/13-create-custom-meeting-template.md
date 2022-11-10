@@ -23,8 +23,7 @@ description: Learn how Microsoft Teams administrators can create a custom meetin
 
 Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting settings available to meeting organizers. Templates can configure settings that meeting organizers can change or can lock settings so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
 
-> [!Note]
-> Custom meeting templates are in preview and will require a Teams Premium license.
+You can create up to 50 custom templates. See [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md) for information on how to manage which templates are available to your users.
 
 For each option in the template, you can define the following:
 
@@ -41,6 +40,8 @@ To create a custom meeting template
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
 1. Select **Save**.
+
+Once the template has been created, it may take up to 24 hours to be available to your users.
 
 #### Security
 
