@@ -63,6 +63,31 @@ Templates have the option of specifying a sensitivity label. Labels can also be 
 
 If any of these settings are configured in the label, they will override these settings in the template.
 
+## Templates included with Teams
+
+
+|New Meeting|IT Admin Custom Templates|Large Meeting|Webinar v1|Webinar v2 E*|Webinar v2 TP|Townhall|Protected Meeting|Virtual Appointment|Class|Lecture|Discussion Group|Parent-Teacher Conference|
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
+|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
+|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
+|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
+|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
+|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Related topics
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
