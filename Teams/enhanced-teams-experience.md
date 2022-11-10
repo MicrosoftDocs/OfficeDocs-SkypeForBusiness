@@ -22,7 +22,7 @@ description: Learn about Microsoft Teams Premium for administators and IT Profes
 
 # Microsoft Teams Premium - Overview for administrators
 
-![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see **link to licensing doc here.**
+![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see [Teams Premium licensing](https://review.learn.microsoft.com/en-us/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams?branch=danismith-t-pre-licensing).
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
 
@@ -67,8 +67,6 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 | End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/09-end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | 
 | Templates, labels, and policies | [Templates, sensitivity labels, and policies](https://review.learn.microsoft.com/en-us/microsoftteams/11-meeting-templates-sensitivity-labels-policies?branch=mikeplum-compliant-meetings)
 | Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/05-manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | 
-
-
 
 
 ## Custom meetings
@@ -119,8 +117,6 @@ Teams Premium provides advanced management features, such as:
 
 - **Custom user policy packages** - Lets you bundle and customize your own set of policies for users with similar roles in your organization.
 
-- **Real-time data storage** - **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
-
 - **eCDN for Live Events** - Microsoft eCDN (Enterprise Content Delivery Network) optimizes network performance for live video streaming and distribution within an enterprise. As organizations continue to deliver virtual and hybrid large scale events, an eCDN network reduces the load on the corporate network. With Teams Premium, ....  **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
 
 
@@ -131,7 +127,6 @@ Teams Premium provides advanced management features, such as:
 | -------------------- | ----------- | 
 | Monitoring and alerting | LINK HERE | 
 | Custom user policy packages | [Manage policy packages](https://review.learn.microsoft.com/en-us/microsoftteams/manage-policy-packages?branch=mabond-custom-policy-packages-premium) | 
-| Real-time data storage | LINK HERE | 
 | eCDN for Live Events | LINK HERE | 
 
 ## Advanced Virtual Appointments
