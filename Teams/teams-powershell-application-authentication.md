@@ -25,8 +25,7 @@ All cmdlets are supported now, except for the cmdlets mentioned below.
 
   - New-Team
   - [Get|Set|New|Sync]-CsOnlineApplicationInstance
-  - \*-CsUserCallingSettings
-  - \*-CsUserCallingDelegate
+  - \*-CsUserCallingSettings, \*-CsUserCallingDelegate
   - \*PolicyPackage\*
   - \*-CsTeamsShiftsConnection\*
   - \*-CsBatchTeamsDeployment\*
