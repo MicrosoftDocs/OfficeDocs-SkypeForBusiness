@@ -35,6 +35,18 @@ To create a meeting template policy
 
 Once you've created the policy, you need to assign it to users or groups. See [Assign policies to users and groups](assign-policies-users-and-groups.md) for more information.
 
+## Change which meeting templates are visible to users
+
+You can update a meeting template policy if you want to change which templates are available to the users with that policy.
+
+To edit a meeting template policy
+
+1. In the Teams admin center, expand **Meetings** and select **Meeting template policies**.
+1. Select the policy you want to change, and then select **Edit**.
+1. To make a viewable template hidden, select the template in the **Viewable templates** list and then select **Hide**.
+1. To make a hidden template viewable, select the template in the **Hidden templates** list and then select **Show**.
+1. Select **Save**.
+
 ## Related topics
 
 [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
