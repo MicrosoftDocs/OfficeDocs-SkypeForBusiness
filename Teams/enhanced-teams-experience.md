@@ -105,7 +105,9 @@ In addition, Teams Premium will also provide additional metrics to help determin
 
 | Feature/Task | Documentation for administrators | 
 | -------------------- | ----------- | 
-| Webinar enhancements | - [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates)<br>- [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | 
+| Understand meetings, webinars, and live events | [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates) | 
+| Set up webinars | [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | 
+| Meeting policy for webinars | [Meeting policies](https://review.learn.microsoft.com/en-us/microsoftteams/meeting-policies-in-teams-general?branch=mabond-webinar-v2-updates#webinars)
 | Event success metrics | LINK HERE | 
 
 
