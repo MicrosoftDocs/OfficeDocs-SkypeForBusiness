@@ -34,7 +34,7 @@ To purchase apps in Teams admin center, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**. You must be a Global admin or Teams service admin to access the page.
 
-1. Search for the app that you want by its name. To check if the apps offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
+1. Search for the app that you want by its name. To check if the app offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
     * **Purchase**: The app offers a SaaS subscription and is available to purchase.
     * **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     * **- -**: The app doesn't offer a SaaS subscription.
