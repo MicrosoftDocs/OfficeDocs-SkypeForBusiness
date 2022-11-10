@@ -21,17 +21,20 @@ description: Learn how Microsoft Teams administrators can specify which meeting 
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting settings available to meeting organizers. Templates can configure settings that meeting organizers can change or can lock settings so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
+You can use meeting template policies in Microsoft Teams to determine which meeting templates are available to users in your organization.
 
+By default, the **Global** policy allows users to see all available templates, including default templates and any custom templates that you've created. If you want to limit which templates are available for different people or groups, you can create policies specifying this.
 
-
-To create a custom meeting template
+To create a meeting template policy
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting template policies**.
+1. Select **Add**.
+1. Type a name and description for the policy.
+1. In the **Viewable templates** list, select any templates that you don't want users with this policy to see, and then select **Hide**.
 1. Select **Save**.
 
-
+Once you've created the policy, you need to assign it to users or groups. See [Assign policies to users and groups](assign-policies-users-and-groups.md) for more information.
 
 ## Related topics
 
-[Assign policies to users and groups](assign-policies-users-and-groups.md)
+[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
