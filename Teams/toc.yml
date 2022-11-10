@@ -1597,19 +1597,19 @@ items:
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
-        - name: App checks, testing, and validation done by Microsoft
+        - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md
-        - name: Security, compliance, and privacy of third-party apps
+        - name: Know about security, compliance, and privacy of apps
           href: overview-of-app-certification.md
-        - name: Purchase third-party apps for Teams
+        - name: Purchase and manage app subscriptions
           href: purchase-third-party-apps.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
-        - name: Customize app branding using app customization
+        - name: Change app branding using app customization
           href: customize-apps.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: Adobe Acrobat as default PDF viewer in Teams
+        - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
@@ -1643,7 +1643,7 @@ items:
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Grant admin consent after reviewing its permissions
           href: app-permissions-admin-center.md
-        - name: Manage resource-specific consent for your org
+        - name: Manage resource-specific consent to access team's data
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
