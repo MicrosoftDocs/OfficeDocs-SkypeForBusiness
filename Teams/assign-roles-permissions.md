@@ -69,6 +69,8 @@ The table below shows the difference in permissions between an owner and a membe
 |---------|---------|---------|
 |Add/Remove apps   |     Yes    |     Yes    |
 
+## OLD ARTICLE BELOW FOR REFERENCE
+
 |    Task                               | Team Owner | Team Member |
 |-----------------------------------|------------|-------------|
 |          **Create team**          |    Yes<sup>1</sup>     |     No      |
