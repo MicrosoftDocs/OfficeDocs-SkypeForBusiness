@@ -75,17 +75,17 @@ Teams Premium provides the following additional features for customizing meeting
 
 - **Meeting templates** - Used to control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
 
-- **Branded meetings** - Allows your organization to extend their visual identities across the meeting experience. You can set up and create branded meeting themes for a variety of business units and departments within a single tenant.
+- **Meeting themes** - Allows your organization to extend their visual identities across the meeting experience. You can set up and create meeting themes for a variety of business units and departments within a single tenant.
 
-- **Organization defined backgrounds** - You can create and define organization-wide meeting backgrounds that are then available to your end users. 
+- **Custom meeting backgrounds** - You can create and define custom meeting backgrounds that are then available to your end users. 
 
 - **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
 
 | Feature/Task | Documentation for administrators |
 | -------------------- | ----------- | 
 | Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](https://review.learn.microsoft.com/en-us/microsoftteams/13-create-custom-meeting-template?branch=mikeplum-compliant-meetings)|
-| Branded meetings | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | 
-| Organization-defined backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-org-defined-backgrounds?branch=pr-en-us-10519) | 
+| Meeting themes | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-branding-meetings?branch=heidip-branded-meetings-2022) | 
+| Custom meeting backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-org-defined-backgrounds?branch=pr-en-us-10519) | 
 | Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | 
 
 
@@ -96,7 +96,7 @@ Teams Premium provides an advanced webinar experience for your users with the ne
 
 - **Terms and conditions custom question** - To present to attendees.
 - **Presenter bio** - To include information about presenters.
-- **Banner logo and predefined color** - To present a customized visual webinar experience.
+- **Banner, logo, and predefined color** - To present a customized visual webinar experience.
 - **Advanced registration capabilities** - Including manual approval, waitlist, registration date and time limit.
 - **Registration overview and management** - For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
