@@ -26,7 +26,7 @@ ms.custom:
   - seo-marvel-mar2020
 ---
 
-# Manage custom apps settings in Teams admin center
+# Manage custom and sideloaded apps in Teams admin center
 
 Microsoft Teams allows developers within your organization to build, test, and deploy custom apps for organization's internal users. Such apps are called custom apps or Line of Business (LOB) apps. Your organization may commission the creation of custom apps for org-specific requirements. Admins control the rollout of and permissions for custom apps using various settings and policies.
 

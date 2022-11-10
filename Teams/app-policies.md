@@ -17,7 +17,7 @@ ms.collection:
   - M365-collaboration
 ---
 
-# Manage access to apps using app policies
+# Know about policies to manage access and installation of Teams apps
 
 Microsoft Teams uses app policies to govern access and installation behavior of apps. App policies help Teams administrators control the following app behavior:
 
