@@ -140,7 +140,7 @@ To know how to assign policies to your end-users and to groups, see [how to assi
 
 * End-users can unpin an app that is pinned via app setup policy if user pinning is allowed in the policy.
 
-* Users can change the order of their pinned apps on Teams desktop and mobile clients if the the user pinning option is turned on. Users can't change the order of their pinned apps on Teams web clients.
+* Users can change the order of their pinned apps on Teams desktop and mobile clients if the user pinning option is turned on. Users can't change the order of their pinned apps on Teams web clients.
 
 * Admin pins always take precedence. If the User pinning option is turned on, then apps pinned by users display below the apps pinned by admins. If User pinning option is turned off, then users lose existing pins and only the apps pinned by admins are available in the app bar.
 
