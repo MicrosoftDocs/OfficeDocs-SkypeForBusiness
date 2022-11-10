@@ -644,6 +644,8 @@ items:
                   href: 12-custom-meeting-templates-overview.md
                 - name: Create a meeting template
                   href: 13-create-custom-meeting-template.md
+                - name: Manage meeting templates
+                  href: 14-manage-meeting-templates.md
             - name: Use templates, labels, and policies together
               href: 11-meeting-templates-sensitivity-labels-policies.md
         - name: Manage who can start and schedule meetings
