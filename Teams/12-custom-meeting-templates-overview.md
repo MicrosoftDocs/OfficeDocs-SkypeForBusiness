@@ -65,28 +65,19 @@ If any of these settings are configured in the label, they will override these s
 
 ## Templates included with Teams
 
+Teams Premium includes several default meeting templates that you can make available to your users:
 
-|New Meeting|IT Admin Custom Templates|Large Meeting|Webinar v1|Webinar v2 E*|Webinar v2 TP|Townhall|Protected Meeting|Virtual Appointment|Class|Lecture|Discussion Group|Parent-Teacher Conference|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
-|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
-|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
-|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
-|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
-|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|Blah|
+- Large Meeting
+- Webinar
+- Town hall
+- Protected meeting
+- Virtual appointment
+- Class
+- Lecture
+- Discussion group
+- Parent-teacher conference
 
-
-
-
-
-
-
-
-
-
-
-
-
+These templates are read-only and can't be updated.
 
 ## Related topics
 
