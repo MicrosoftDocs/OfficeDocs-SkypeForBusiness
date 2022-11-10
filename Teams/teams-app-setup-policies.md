@@ -22,12 +22,14 @@ ms.custom:
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
-# Manage app setup policies in Microsoft Teams
+# Use app setup policies to pin and auto-install apps in Teams
 
-As an admin, you use app setup policies to install and pin apps, and control which specific users upload custom apps. Pinning helps promote adoption of and provide quick access to the relevant apps in your organization.
+As an admin, you use app setup policies to install and pin apps, and control which specific users can upload custom apps. Pinning helps promote adoption of and provide quick access to the relevant apps in your organization.
 
 * **[Pin apps](#pin-apps):** App setup policies let you choose apps to pin, set the order the apps show up for your users in the Teams app bar or the compose message area. Admins can also control whether the end-users can pin their own apps or not.
+
 * **[Install apps](#install-apps):** App setup policies let you install the allowed apps on behalf of users when they start Teams and during meetings.
+
 * **Upload custom apps:** App setup policies let you control which users can upload custom apps to Teams. See [Upload custom apps](teams-custom-app-policies-and-settings.md) article.
 
 The following built-in app setup policies are available in the Microsoft Teams admin center, by default:
@@ -38,20 +40,18 @@ The following built-in app setup policies are available in the Microsoft Teams a
 
 ## Pin apps
 
-Pinning an app displays the app in the app bar in Teams client. Admins can pin app and they can allow users to pin. Pinning is a used to highlight apps that are needed the most by users. Pinning works for all types of apps in Teams — Core apps, Microsoft-provided apps, third-party apps, and custom apps developed within your organization.
+Pinning an app displays the app in the app bar in Teams client. Admins can pin app and they can allow users to pin. Pinning is a used to highlight apps that are needed the most by users and promote ease of access. Pinning works for all [types of apps in Teams](deploy-apps-microsoft-teams-landing-page.md) — Core apps, Microsoft-provided apps, third-party apps, and custom apps developed within your organization.
 
-Admins can pin an app via an app setup policy. Apps pinned by admins get installed automatically if the app is allowed for the user and it can't be uninstalled. Using an app setup policy, you can do the following tasks:
+Admins can pin an app via an app setup policy. Apps that are pinned by admins get automatically installed for the users for whom the app is allowed. Such an app can't be uninstalled by end-users. Using an app setup policy, you can do the following tasks:
 
 * Customize Teams for end-users to highlight the most important apps for them. You choose the apps to pin and the order that the apps display in.
 * Control whether users can pin apps or not.
 
-Apps are pinned to the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile clients.
+Apps are pinned to the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile clients. The messaging extensions are available at the bottom of the compose message area.
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
 |![Screenshot showing the app bar in Teams desktop client.](media/app-setup-policies-desktop-app-bar.png).  |   ![Screenshot showing the app bar in Teams mobile client.](media/mobile-app-ui.png)      |
-
-The messaging extensions are available at the bottom of the compose message area.
 
 To pin apps using an app setup policy, follow these steps:
 
@@ -65,13 +65,15 @@ To pin apps using an app setup policy, follow these steps:
 
 1. Under **Pinned apps**, select **Add apps**.
 
-1. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**. You can also filter apps by app permission policy.
+1. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**.
+
+    :::image type="content" source="media/add-pinned-apps-trimmed.png" alt-text="Screenshots shows how to add pinned apps in app setup policy." lightbox="media/add-pinned-apps-large.png":::
 
 1. Select **Add**.
 
 1. Under the **App bar** or **Messaging extensions**, arrange the apps in the order that you want the apps to appear in Teams client.
 
-   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="A screenshot of the pinned apps and pinned messaging extensions in Setup policy.":::
+   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="A screenshot of the pinned apps and pinned Messaging Extensions in Setup policy.":::
 
 1. Select **Save**.
 
