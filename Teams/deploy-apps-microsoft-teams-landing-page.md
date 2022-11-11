@@ -81,6 +81,21 @@ Your organization developers customize App Templates with simple changes to the 
 
 To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
+## Discover and use apps in Teams
+
+Users can view all the apps available in Teams from the Teams apps store in a Teams desktop or web client. Users can search by name, browse by category, and browse by apps built for your org and built with Power Platform to discover and install apps in Teams.
+
+Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and if the app is allowed by Teams admin. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/teams-app-setup-policies).
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshot that shows all the places where the users can browse apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+
+Users can find and add apps to Teams from the Teams app store. They can also add apps directly from the context they're working in, such as chat or channel tab, Teams meeting, or messaging area. For more information, see [add an app to Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+A user can add and use an app only when an admin allows the app and the app is made available to the user via [permission policies](teams-app-permission-policies.md). An organization's IT admin has complete control over who can install which apps in which context. Users can't add apps that are blocked, any app with a lock icon in the Teams store is blocked for the user. However, [users can request their org’s IT admin for their approval](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). After the app is approved, users can add the app from the Teams store.
+
+> [!NOTE]
+> Only individuals can request for an approval to add an app in Teams.
+
 ## Understand app capabilities
 
 Teams app Capabilities are the core functionalities that can be built in an app to enable integration and interaction.
@@ -102,7 +117,6 @@ To provide rich experience that allows end-users to work inside Teams, app devel
   Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization. For information about turning custom bots on or off, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 
 * **Tabs**: Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. They're simple HTML <iframe\> tags that point to domains declared in the app manifest and can be added as part of a channel inside a team, group chat, or personal app for an individual user. For more information, see [Microsoft Teams tabs](/microsoftteams/platform/tabs/what-are-tabs).
-
   In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, developers can design and add custom tabs. For more information, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks and connectors**: Webhooks and connectors help to connect the web services to channels and teams in Microsoft Teams. Webhooks are user defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It's a way for an app to get real time data. Connectors allow users to subscribe to receive notifications and messages from your web services. For more information, see [Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
@@ -119,5 +133,7 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 
 ## Related articles
 
-* [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates)
+* [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).
+* [Teams app updates and admin role](apps-update-experience.md)
 * [Overview of app management and governance in Teams admin center](manage-apps.md)
+
