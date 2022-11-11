@@ -98,3 +98,4 @@ You can assign your baseline protection label to the template so that both are u
 
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
+[Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
