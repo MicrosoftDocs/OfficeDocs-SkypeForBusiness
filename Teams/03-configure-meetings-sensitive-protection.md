@@ -33,7 +33,7 @@ The following table describes which actions we'll restrict for sensitive meeting
 |Apply a watermark to shared content|**Off**|Template|No|
 |End-to-end encryption|**Off**|Template|No|
 |Manage what attendees see|**On**|Template|No|
-|Meeting chat|**On**|Label|No|
+|Meeting chat|**On**|Template|No|
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|No|
 |Record automatically|**Off**|Template|No|
@@ -76,16 +76,10 @@ To create a sensitivity label
 1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
 1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
-    1. **Who can bypass the lobby** - People I invite
-    1. **Allow dial-in users to bypass the lobby** - Unchecked
-    1. **Who can present** - Only me and co-organizers
-    1. **Who can record** - Organizers and co-organizers
-    1. **End-to-end encryption for meeting video and audio** - Off
-    1. **Record meetings with this label automatically** - Off
-    1. **Video watermark - Apply to screenshare** - Off
-    1. **Video watermark - Apply to camera streams** - Off
-    1. **Allow chat** - Enabled
-    1. **Prevent copying chat content to clipboard** - Unchecked
+    1. Select **Control who can bypass the lobby** and choose **Only people who were invited** from the dropdown list.
+    1. Select **Control who can present** and choose **People in my organization and guests** from the dropdown list.
+    1. Select **Who can record** and choose **Organizers and co-organizers** from the dropdown list.
+    1. Configure any other settings that you need for your organization.
     :::image type="content" source="media/teams-meeting-sensitivity-label-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-sensitive-large.png":::    
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
@@ -96,9 +90,9 @@ For additional information about using sensitivity labels with meetings, see [Us
 
 ## Meeting templates
 
-In the *sensitive* level of protection, we're not enforcing any settings by using a meeting template. You can use the label only for sensitive meetings if you want.
-
 An advantage of using templates is that you can create multiple templates that use the same sensitivity label which lock different settings. For example, if some of your sensitive meetings are presentations where there is minimal interaction from attendees, you can create a template that turns off attendee video and even chat, and another template that leaves those options to the meeting organizer. Both templates would use the *Sensitive* label.
+
+In the *sensitive* level of protection, we'll use the template to prevent people dialing in by phone from bypassing the lobby. If there are certain types of meetings where you want to allow people calling in by phone to bypass the lobby, consider using a separate template with the same label for those meetings.
 
 To create a custom meeting template
 
@@ -107,6 +101,7 @@ To create a custom meeting template
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
+1. Make sure **People calling in my phone can bypass the lobby** is set to **Off**, then select it and select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
