@@ -20,10 +20,7 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-adobe-target: true
-adobe-target-activity: 
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
 --- 
 
@@ -70,9 +67,7 @@ The steps outlined in the article create auto attendants using the Teams admin c
 
 ## Follow these steps to set up your auto attendant
 
-## [Step 1: General info](#tab/general-info)
-
-## Step 1: Set the auto attendant's general information
+### Step 1: Set the auto attendant's general information
 
 To set up an auto attendant, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Auto attendants**, and then select **Add**.
 
@@ -91,23 +86,21 @@ To set up an auto attendant, in the [Teams admin center](https://go.microsoft.co
 
 Once you've set your auto attendant's general info, select **Next**.
 
-## [Step 2: Basic call flow](#tab/call-flow)
+### Step 2: Set up the basic call flow
 
-## Step 2: Set up the basic call flow
-
-### Set a greeting
+#### Set a greeting
 
 - If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
 - If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-### Route the call
+#### Route the call
 
 - If you select **Disconnect**, the auto attendant will hang up the call.
 - If you select **Redirect call**, you can choose one of the call routing destinations.
 - If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
-#### Play menu options
+##### Play menu options
 
 *New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 *New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
@@ -126,7 +119,7 @@ For each menu option, specify the following settings:
 
 - **Redirect to** - the call routing destination used when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
-##### Directory search
+###### Directory search
 
 If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they might be unexpectedly routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
 
@@ -143,9 +136,7 @@ For more information, refer to the [Dial and voice reference](dial-voice-referen
 
 Once you've set your basic call flow options, select **Next**.
 
-## [Step 3: After hours call flow](#tab/after-hours)
-
-## Step 3: Set up call flow for after hours (optional)
+### Step 3: Set up call flow for after hours (optional)
 
 Business hours can be set for each auto attendant.
 
@@ -163,9 +154,7 @@ If you want separate call routing for after-hours callers, then specify your bus
 
 Once you've added your after hours call flow, select **Next**.
 
-## [Step 4: Holiday call flow](#tab/holidays)
-
-## Step 4: Set up call flows for holidays (optional)
+### Step 4: Set up call flows for holidays (optional)
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
@@ -192,9 +181,7 @@ Repeat the procedure as needed for each additional holiday.
 
 Once you've added all your holiday hours, select **Next**.
 
-## [Step 5: Dial scope](#tab/dial-scope)
-
-## Step 5: Set up dial scope (optional)
+### Step 5: Set up dial scope (optional)
 
 The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users or hosted on-premises using Skype for Business Server.
 
@@ -207,9 +194,7 @@ If a user is in both lists, they will be excluded from the directory.
 
 Once you've selected your **Dial scope** options, select **Next**.
 
-## [Step 6: Resource accounts](#tab/resource-accounts)
-
-## Step 6: Set up resource accounts (optional)
+### Step 6: Set up resource accounts (optional)
 
 All auto attendants must have an associated resource account.  First-level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
@@ -218,8 +203,6 @@ To add a resource account, select **Add account** and search for the account tha
 Once you've added resource accounts, select **Next**.
 
 See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
-
----
 
 ## Resources for complex scenarios
 
