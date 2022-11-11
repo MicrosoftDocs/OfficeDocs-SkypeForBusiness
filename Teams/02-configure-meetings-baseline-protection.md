@@ -81,17 +81,10 @@ To create a sensitivity label
 1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
 1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
-    1. **Who can bypass the lobby** - People in my organization, people in trusted domains, and guests
-    1. **Allow dial-in users to bypass the lobby** - Unchecked
-    1. **Who can present** - Let the meeting organizer select from meeting options
-    1. **Who can record** - Organizers and presenters
-    1. **End-to-end encryption for meeting video and audio** - Off
-    1. **Record meetings with this label automatically** - Off
-    1. **Video watermark - Apply to screenshare** - Off
-    1. **Video watermark - Apply to camera streams** - Off
-    1. **Allow chat** - Enabled
-    1. **Prevent copying chat content to clipboard** - Unchecked
-    :::image type="content" source="media/teams-meeting-sensitivity-label-baseline-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-baseline-large.png":::    
+    1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Off**.
+    1. Select **Control watermarks** and set **Apply watermarks to shared content** and **Apply watermarks to everyone's video feed** to **Off**.
+    1. Configure any other settings that you need for your organization.
+    :::image type="content" source="media/teams-meeting-sensitivity-label-baseline-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-baseline-large.png":::
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 
