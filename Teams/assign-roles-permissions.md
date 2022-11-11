@@ -17,22 +17,20 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# Manage user roles in Microsoft Teams
+# Assign team owners and members in Microsoft Teams admin center
 
 **Owner** and **member** are the two user roles within Microsoft Teams. The user who creates a new team is granted owner status by default. Owners and members have different types of permissions and capabilities when interacting with a team and its channels. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md) to learn more about roles in Teams.
 
 > [!NOTE]
 > If a team is created from an existing Microsoft 365 group, permissions are inherited.
 
-## Assign a user role
+## Assign a user role in Teams admin center
 
-1. Under the team you want to manage, select **More options** and then select **Manage team**.
-2. In the Members tab, you can add members and assign owner and moderator roles to members.
+1. In the Teams admin center, expand **Teams** and select **Manage teams**.
+2. Select the team name under the display name column.
+3. In the Members tab, you can add or remove members and assign owner and moderator roles to members.
 
-To learn more about team settings, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
-
-> [!TIP]
-> The **Manage team** option won't appear for pinned channels so be sure to select the team name under **Your teams**.
+Team owners without admin capabilities can assign team settings and permissions in Teams, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
 
 ## Restrict permission to create teams
 
@@ -53,22 +51,19 @@ The table below shows the difference in permissions between an owner and a membe
 |Request to add new member   |     N/A    |    Yes   |
 |Promote/Demote user status | Yes | No |
 |Leave team  |    Yes     |     Yes    |
-|Add/Remove apps   |     Yes    |     Yes*    |
+|Add/Remove apps   |     Yes    |     Yes, if enabled by team owner     |
 
 ### Channels
 
 |***Standard channel tasks*** | **Team Owner** | **Team Member**|
 |----|----|----|
-|Create/Delete channel  |     Yes    |    Yes*     |
-|Edit channel name/description    |    Yes     |     Yes*    |
+|Create/Delete channel  |     Yes    |    Yes, if enabled by team owner      |
+|Edit channel name/description    |    Yes     |     Yes, if enabled by team owner    |
 |***Private channel tasks***|
-|Create channel    |    Yes     |    Yes*     |
+|Create channel    |    Yes     |    Yes, if enabled by team owner      |
 |Delete channel    |    Yes     |    No     |
 |Edit channel name/description |     No    |    N/A     |
 |***Shared channel tasks***
 |Create channel    |    Yes     |     No    |
 |Delete channel | Yes | No |
 |Edit channel name/description    |    No     |     No    |
-
-> [!NOTE]
-> *Team owners can restrict these tasks at the team level and prevent team members from accessing them.
