@@ -60,15 +60,15 @@ To configure who can present in meetings
 
 ## Watermarks and end-to-end encryption
 
-In the baseline tier, we'll disable watermarks and end-to-end encryption by using a sensitivity label. This will prevent meeting organizers from using these features. Watermarks and end-to-end encryption are more applicable to sensitive meetings.
+In the *baseline* level of protection, we'll disable watermarks and end-to-end encryption by using a sensitivity label. This will prevent meeting organizers from using these features. Watermarks and end-to-end encryption are more applicable to sensitive meetings.
 
-End-to-end encryption and watermarks disable some other features such as meeting recording. Turning them off for the baseline tier can avert instances where meeting organizers use these features without realizing the limits they impose.
+End-to-end encryption and watermarks disable some other features such as meeting recording. Turning them off for the *baseline* level of protection can avert instances where meeting organizers use these features without realizing the limits they impose.
 
-If you work in a highly regulated industry, you may want to keep these features available even in the baseline tier.
+If you work in a highly regulated industry, you may want to keep these features available even in the *baseline* level of protection.
 
 ## Sensitivity labels
 
-For the baseline level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
+For the *baseline* level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
 
 If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings show below if needed to meet the needs of your organization. If you already have a label that you use for baseline or general protection, you can edit the label and add Teams meetings to it.
 
