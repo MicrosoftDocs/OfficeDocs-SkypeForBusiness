@@ -94,7 +94,11 @@ For additional information about using sensitivity labels with meetings, see [Us
 
 ## Meeting templates
 
-In the *baseline* level of protection, there aren't any values that need to be restricted with a meeting template, but we're setting a default value for who can bypass the lobby. You can set any additional values that you need for your organization.
+In the *baseline* level of protection, we'll use the template to set a default value for who can bypass the lobby that includes external participants from trusted domains.
+
+We'll also prevent people dialing in by phone from bypassing the lobby. You can omit this setting if your organization frequently holds meetings where dial-in participants should be able to join directly. If there are certain types of meetings where this is true, consider using a separate template for those meetings.
+
+If you've chosen to disable watermarks and end-to-end encryption in the sensitivity, you can also use the template to hide those settings from the meeting organizer.
 
 To create a custom meeting template
 
@@ -104,6 +108,7 @@ To create a custom meeting template
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
 1. In the **Lobby** dropdown, select **Everyone in my organization, trusted organizations, and guests**.
+1. Make sure **People calling in my phone can bypass the lobby** is set to **Off**, then select it and select **Lock**.
 1. If you've disabled watermarks and end-to-end encryption with the sensitivity label, consider selecting those settings here and selecting **Hide** so meeting organizers won't see them.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
