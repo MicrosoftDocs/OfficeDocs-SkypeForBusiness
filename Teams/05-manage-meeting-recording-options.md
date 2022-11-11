@@ -32,16 +32,16 @@ The following table shows the features available to help you manage meeting reco
 |Record automatically|Yes|Yes|Yes|No|
 |Recording expiration|No|No|No|Yes|
 
-The Teams administrator has overall control over whether meeting recording is enabled, both meeting organizers and administrators can configure who can record and whether meetings are automatically recorded by using sensitivity labels, meeting templates, and meeting organizer settings.
+The Teams Administrator has overall control over whether meeting recording is enabled. Both meeting organizers and administrators can configure who can record and whether meetings are automatically recorded by using sensitivity labels, meeting templates, and meeting organizer settings.
 
 ## Manage who can record meetings
 
 There are two options for who can record a meeting:
 
-- Organizers
+- Organizers and co-organizers
 - Organizers and presenters
 
-This choice is normally made by the meeting organizer when they create the meeting. If have meetings where sensitive information is being shared and you want to limit the ability to record to organizers only, you can enforce this setting by using a sensitivity label. 
+This choice is normally made by the meeting organizer when they create the meeting. If you have meetings where sensitive information is being shared and you want to limit the ability to record to organizers only, you can enforce this setting by using a meeting template or sensitivity label. 
 
 If you need to prevent meetings from being recorded entirely, you must configure the **Cloud recording** meetings policy in the Teams admin center. This setting applies to the people or groups that you specify and can't be applied via a meeting template or sensitivity label.
 
@@ -66,9 +66,9 @@ The expiration feature is meant for removing old recordings to save storage spac
 
 ## Configure recording options for your organization
 
-For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](/configure-meetings-sensitive-protection) and [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
-
 For information about configuring admin meeting policies for meeting recordings, see [Teams cloud meeting recording](/microsoftteams/cloud-recording).
+
+For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](/configure-meetings-sensitive-protection) and [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
 
 ## Related topics
 
