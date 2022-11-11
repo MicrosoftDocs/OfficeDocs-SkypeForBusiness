@@ -108,8 +108,8 @@ The new policy will continue to support registration and tracking, and it will p
 
 - Terms and conditions custom question
 - Presenter bio
-- Banner logo and predefined color
-- Advanced registration capabilities: manual approval, waitlist, registration date and time limit 
+- Banner, logo, and predefined color
+- Advanced registration capabilities: manual approval, waitlist, registration date and time limit
 - Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
 For more information about feature availability and licensing, see **INCLUDE LINK TO  LICENSING DOC.**

@@ -31,19 +31,18 @@ Microsoft now offers a new webinar experience; this article describes how to upd
 
 We recommend that you use the new webinar experience if you plan to use webinars.
 
-Currently, meeting registration includes basic webinar functionality, the ability to require registration for meetings, and an attendance report. By enabling the new webinar experience, you have the ability to use meeting registration and many new webinar features, such as:
+Meeting registration includes basic webinar functionality, the ability to require registration for meetings, and an attendance report. By enabling the new webinar experience, you have the ability to use meeting registration and many new webinar features, such as:
 
-- Event promo image, theme color, and company logo for event and registration pages
+- Dedicated event and registration page for your webinar
 - Co-organizers
-- Present bios on the event page
-- Advanced registration capabilities
-  - Manual approvals
-  - Waitlists
-  - Registration date/time limits
+- Presenter bios on the event page
+- Registration status overview and management
 
 Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
 
-If your organization is currently using webinars with meeting registration only, all newly created webinars will have the new experience. Previously-scheduled webinars will use the previous webinar experience.The new experience uses the TeamsEventsPolicy. If you currently have webinars turned off, they will remain off as the new experience rolls out.
+If your organization has meeting registration enabled, all newly created webinars will have the new experience. Previously-scheduled webinars will use the previous webinar experience. The new experience uses the TeamsEventsPolicy. If you have webinars turned off, they will remain off as the new experience rolls out.
+
+Currently, the basic webinar experience is controlled by meeting registration using the Teams Meeting policy (Set-CsTeamsMeetingPolicy). In the future, the meeting registration setting will not control webinars; webinars are transitioning over to being controlled by the Teams Events policy (Set-CsTeamsEventsPolicy).
 
 The new webinar experience is configured in PowerShell. See examples on [how to set up the new webinar experience](#set-up-new-webinar-experience).
 
@@ -181,13 +180,7 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ## Turn off webinars
 
-You can turn off webinars from the Teams admin center or by using PowerShell. This applies to both the new experience as well as webinars with meeting registration only.
-
-### Turn off webinars in Teams admin center
-
-Under **Meetings**> **Meeting policies** in the Teams admin center, turn off **Meeting registration**.
-
-### Turn off webinars using PowerShell
+You can turn off webinars using PowerShell. This will turn off the new webinar experience as well as webinars with meeting registration only.
 
 Use the following PowerShell script to turn off webinars:
 
