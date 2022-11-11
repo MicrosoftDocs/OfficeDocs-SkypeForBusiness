@@ -46,12 +46,12 @@ The following table summarizes the configurations for each tier. Use these confi
 |&nbsp;|Baseline|Sensitive|Highly sensitive|Highly sensitive presentation|
 |:-----|:-----|:-----|:-----|:-----|
 |Allow camera for attendees|**On**|**On**|**On**|**Off**|
-|Allow chat|**On**|**On**|**In-meeting only**|**Off**|
 |Allow mic for attendees|**On**|**On**|**On**|**Off**|
 |Apply a watermark to everyone's video feed|**Off**|**Off**|**On**|**On**|
 |Apply a watermark to shared content|**Off**|**Off**|**On**|**On**|
 |End-to-end encryption|**Off**|**Off**|**On**|**On**|
 |Manage what attendees see|**Off**|**On**|**On**|**On**|
+|Meeting chat|**On**|**On**|**In-meeting only**|**Off**|
 |People dialing in can bypass the lobby|**Off**|**Off**|**Off**|**Off**|
 |Prevent copying chat content to clipboard|**Off**|**Off**|**On**|**On**|
 |Record automatically|**Off**|**Off**|**Off**|**Off**|

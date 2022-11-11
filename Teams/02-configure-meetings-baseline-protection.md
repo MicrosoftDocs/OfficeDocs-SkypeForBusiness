@@ -30,19 +30,19 @@ The following table describes which actions we'll restrict for baseline meetings
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Allow chat|**Enabled**|Label|Yes|
-|Disable camera for attendees|**Off**|Template|No|
-|Disable mic for attendees|**Off**|Template|No|
-|End-to-end encryption|**Off**|Label|Yes|
-|Manage what attendees see|**Off**|Template|No|
-|People dialing in can bypass the lobby|**Off**|Label|Yes|
-|Prevent copying chat content to clipboard|**Off**|Label|Yes|
-|Record automatically|**Off**|Label|Yes|
+|Allow camera for attendees|**On**|Template|No|
+|Allow mic for attendees|**On**|Template|No|
 |Apply a watermark to everyone's video feed|**Off**|Label|Yes|
 |Apply a watermark to shared content|**Off**|Label|Yes|
-|Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|Label|Yes|
+|End-to-end encryption|**Off**|Label|Yes|
+|Manage what attendees see|**Off**|Template|No|
+|Meeting chat|**On**|Template|No|
+|People dialing in can bypass the lobby|**Off**|Template|Yes|
+|Prevent copying chat content to clipboard|**Off**|Label|Yes|
+|Record automatically|**Off**|Template|No|
+|Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|Template|No|
 |Who can present|**Everyone in the organization, but user can override**|Teams admin center|No|
-|Who can record|**Organizers and presenters**|Label|Yes|
+|Who can record|**Organizers and presenters**|Template|No|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
@@ -57,6 +57,14 @@ To configure who can present in meetings
 1. Select the policy that you want to update.
 1. Under **Participants & guests**, set **Who can present in meetings** to **Everyone in the organization, but user can override**.
 1. Select **Save**.
+
+## Watermarks and end-to-end encryption
+
+In the baseline tier, we'll disable watermarks and end-to-end encryption by using a sensitivity label. This will prevent meeting organizers from using these features. Watermarks and end-to-end encryption are more applicable to sensitive meetings.
+
+End-to-end encryption and watermarks disable some other features such as meeting recording. Turning them off for the baseline tier can avert instances where meeting organizers use these features without realizing the limits they impose.
+
+If you work in a highly regulated industry, you may want to keep these features available even in the baseline tier.
 
 ## Sensitivity labels
 
@@ -89,6 +97,8 @@ To create a sensitivity label
 
 Once you've created the label, you need to publish it to the users who will use it. For baseline protection, we'll make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** tab of the **Information protection** page. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
 
+For additional information about using sensitivity labels with meetings, see [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
+
 ## Meeting templates
 
 In the *baseline* level of protection, there aren't any values that need to be restricted with a meeting template. You can still create a template if there are values that you need to set for your organization or if you want your users to always use a template when creating a meeting.
@@ -112,5 +122,3 @@ To create a custom meeting template
 [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
 [Use Teams meeting templates with sensitivity labels](meeting-templates-with-sensitivity-labels.md)
-
-[Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
