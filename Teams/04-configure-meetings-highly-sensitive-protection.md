@@ -36,9 +36,9 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Allow chat|**In-meeting only**|Label|Yes|
-|Disable camera for attendees|**Off**|Template|No|
-|Disable mic for attendees|**Off**|Template|No|
+|Meeting chat|**In-meeting only**|Label|Yes|
+|Allow camera for attendees|**On**|Template|No|
+|Allow mic for attendees|**On**|Template|No|
 |End-to-end encryption|**On**|Label|Yes|
 |Manage what attendees see|**On**|Template|Yes|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
@@ -62,10 +62,10 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Allow chat|**In-meeting only**|Label|Yes|
+|Meeting chat|**In-meeting only**|Label|Yes|
 |Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
-|Disable camera for attendees|**On**|Template|Yes|
-|Disable mic for attendees|**On**|Template|Yes|
+|Allow camera for attendees|**Off**|Template|Yes|
+|Allow mic for attendees|**Off**|Template|Yes|
 |End-to-end encryption|**On**|Label|Yes|
 |Manage what attendees see|**On**|Template|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
@@ -111,6 +111,8 @@ To create a sensitivity label
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 
 Once you've created the label, you need to publish it to the users who will use it. For highly sensitive protection, we'll make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** tab of the **Information protection** page. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
+
+For additional information about using sensitivity labels with meetings, see [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
 
 ## Meeting templates
 
