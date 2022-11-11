@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection:
   - M365-collaboration
   - EngageScoreOct2022
+  - ContentEnagagementFY23
 appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020

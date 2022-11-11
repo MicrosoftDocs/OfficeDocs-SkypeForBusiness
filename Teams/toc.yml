@@ -503,11 +503,9 @@ items:
       href: teams-policies.md
     - name: Turn off Teams Native File Upload policy
       href: turn-off-teams-native-file-upload-policy.md
-    - name: Set up channel moderation in Teams
-      href: manage-channel-moderation-in-teams.md
     - name: Manage Loop components
       href: loop-components-in-teams.md
-    - name: Teams and Outlook email integration
+    - name: Manage actionable activity emails
       href: teams-outlook-email-integration.md
     - name: Share to Teams from Outlook
       href: teams-outlook-share-teams.md
@@ -1601,30 +1599,30 @@ items:
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
-        - name: App checks, testing, and validation done by Microsoft
+        - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md
-        - name: Security, compliance, and privacy of third-party apps
+        - name: Know about security, compliance, and privacy of apps
           href: overview-of-app-certification.md
-        - name: Purchase third-party apps for Teams
+        - name: Purchase and manage app subscriptions
           href: purchase-third-party-apps.md
-        - name: Adobe Acrobat as default PDF viewer in Teams
-          href: adobe-acrobat-pdf-viewer-teams.md
-        - name: Manage M365 connectors and custom connectors
-          href: Office-365-custom-connectors.md
-        - name: Customize app branding using app customization
+        - name: Manage user requests
+          href: user-requests-approve-apps.md
+        - name: Change app branding using app customization
           href: customize-apps.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
+        - name: Set Adobe Acrobat as default PDF viewer
+          href: adobe-acrobat-pdf-viewer-teams.md
+        - name: Manage M365 connectors and custom connectors
+          href: Office-365-custom-connectors.md
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
-          href: custom-app-overview.md
-        - name: Manage policies and settings for custom apps
+        - name: Manage custom and sideloaded apps and settings
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish a custom app submitted as a package
+        - name: Publish custom apps submitted as a package
           href: upload-custom-apps.md
         - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
@@ -1643,9 +1641,9 @@ items:
             href: teams-app-setup-policies.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Review Azure AD permissions and grant admin consent
+        - name: Grant admin consent after reviewing its permissions
           href: app-permissions-admin-center.md
-        - name: Manage resource-specific consent for your org
+        - name: Manage resource-specific consent to access team's data
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
@@ -1653,8 +1651,6 @@ items:
           href: customize-your-app-store.md
         - name: Use apps as external user or guest
           href: non-standard-users.md
-        - name: Manage user requests
-          href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
         - name: Audit app management activities
