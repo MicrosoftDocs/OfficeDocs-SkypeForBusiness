@@ -42,10 +42,11 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT) | [Video: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: Deploy & Configure Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Foundations - Core components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
+| Audio Conferencing |  | [Deck](https://aka.ms/teams-audio-conferencing-deck) |
+| Call quality overview | | [Deck](https://aka.ms/teams-quality-deck) |
 | Windows desktop client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Governance, management, and lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
 | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
-| Call quality overview | | [Deck](https://aka.ms/teams-quality-deck) |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
 | Media - Why meetings are simple|[Video](https://aka.ms/media-in-teams)  | [Deck](https://aka.ms/media-in-teams-deck)|
 | Media - Media flow | [Video](https://aka.ms/teams-media-flows) | [Deck](https://aka.ms/teams-media-flows-deck)  |
@@ -74,9 +75,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Teams Android devices</h2>
 
-<p>The following table contains links to comprehensive training, with PowerPoint decks (in PDF format), on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
+<p>The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
 
-| Module | PowerPoint deck (PDF)  |
+| Module | PowerPoint deck  |
 | ------------| -------------------- |
 | Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://aka.ms/TeamsAndroidModule1) |
 | Module 2: Planning Microsoft Teams Android devices|[Deck](https://aka.ms/TeamsAndroidModule2) |
