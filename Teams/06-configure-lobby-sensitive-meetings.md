@@ -21,16 +21,16 @@ description: Learn how to configure the Teams meeting lobby to enhance security 
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-The meeting lobby is a tool that you can use to ensure that inappropriate people are not admitted to meetings. By holding different types of participants in the lobby, meeting organizers can vet incoming participants and make sure it's appropriate for them to attend the meeting.
+The meeting lobby is a tool that you can use to ensure that inappropriate people are not admitted to meetings. By holding different types of participants in the lobby, meeting organizers can vet them and make sure it's appropriate for them to attend the meeting.
 
 By default, people in your organization and guests are admitted to meetings directly and participants from trusted domains and anonymous participants must wait in the lobby to be admitted by a meeting organizer. Meeting organizers can change this setting for each meeting they create.
 
-The lobby and other related settings can be controlled by the Teams administrator by using meeting policies, meeting templates, and sensitivity labels to customize the experience for different users and different types of meetings.
+The lobby and other related settings can be controlled by the Teams Administrator by using meeting policies, meeting templates, and sensitivity labels to customize the experience for different users and different types of meetings.
 
 The following table lists features that you can use to help manage the lobby experience for your organization and where to configure them.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:----------------|:-------|:----------------|:----------|
+|:------|:---------------:|:------:|:---------------:|:---------:|
 |Who can bypass the lobby|Yes|Yes|Yes|Yes|
 |People dialing in can bypass the lobby|Yes|Yes|Yes|Yes|
 |Notify when callers join and leave|Yes|Yes|No|No|
@@ -48,7 +48,7 @@ The following settings are available for who can bypass the lobby:
 - People in my organization, trusted organizations, and guests
 - People in my organization and guests
 - People in my organization
-- Invited people
+- People who were invited
 - Organizers
 
 While the meeting organizer normally chooses which setting to use for each meeting, you can enforce a particular setting using either a meeting template or a sensitivity label.
@@ -57,13 +57,13 @@ If your organization requires that certain types of meetings not be attended by 
 
 If your organization has meetings where highly sensitive information is shared and you need to be sure that only certain people attend, consider using a meeting template or sensitivity label that only allows meeting organizers to bypass the lobby. This ensures that organizers can vet each incoming participant to make sure they should be in the meeting.
 
-For sensitive meetings in general, consider using the invited people option. This ensures that people who were not directly invited by the meeting organizer go through the lobby.
+For sensitive meetings in general, consider using the **People who were invited** option. This ensures that people who were not directly invited by the meeting organizer go through the lobby.
 
 For information about using meeting templates and sensitivity labels together, see [Use Teams custom meeting templates with sensitivity labels](/microsoftteams/meeting-templates-with-sensitivity-labels).
 
 ### Attendees calling in by phone
 
-By default, attendees who are dialing in by phone go through the lobby. Administrators can change this default with the **Dial-in users can bypass the lobby** admin meeting policy.
+By default, attendees who are dialing in by phone go through the lobby. Administrators can change this default with the **Dial-in users can bypass the lobby** admin meeting policy. If you want to disable this setting completely, you must use a meeting template or sensitivity label.
 
 If there area circumstances where you want to allow callers to bypass the lobby, meeting organizers can control this setting, or you can enforce it through a meeting template or sensitivity label.
 
@@ -73,7 +73,7 @@ Meeting organizers have the option of having attendees calling in by phone annou
 
 ## Meeting with anonymous participants
 
-Unless you allow everyone to bypass the lobby, anonymous participants must go through the lobby to attend the meeting. Meeting organizers can then decide if the participants should be admitted.
+Unless you allow everyone to bypass the lobby, anonymous participants must go through the lobby to attend the meeting. Meeting organizers can then decide if these participants should be admitted.
 
 If your organization does not allow anonymous participants to join meetings at all, you can turn off the **Anonymous users can join a meeting** setting in the Teams admin center. For more information, see [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams).
 

@@ -37,7 +37,7 @@ Meeting organizers can specify many of theses settings when they create the meet
 The following table shows where settings are available to manage who can present in meetings:
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:----------------|:-------|:----------------|:----------|
+|:------|:---------------:|:------:|:---------------:|:---------:|
 |Who can present|Yes|No|Yes|Yes|
 |Participants can give or request control|No|No|No|Yes|
 |External participants can give or request control|No|No|No|Yes|
@@ -110,7 +110,7 @@ In meetings where sensitive information is being shared, it can be important to 
 The following table shows settings that can help manage what content and video is shared on screen in meetings.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:----------------|:-------|:----------------|:----------|
+|:------|:---------------:|:------:|:---------------:|:---------:|
 |Screen sharing mode|No|No|No|Yes|
 |Manage what attendees see|Yes|Yes|No|No|
 
@@ -123,7 +123,7 @@ The following table shows settings that can help manage what content and video i
 Teams offers several presentation tools that allow for interactive participation of meeting attendees. The following table shows features that can help manage these tools.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:----------------|:-------|:----------------|:----------|
+|:------|:---------------:|:------:|:---------------:|:---------:|
 |PowerPoint Live|No|No|No|Yes|
 |Whiteboard|No|No|No|Yes|
 |Shared notes|No|No|No|Yes|
@@ -141,7 +141,7 @@ Consider if there are users or groups in your organization who should not use th
 The following table shows features that can help manage how meeting attendees interact during a meeting.
 
 |Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:----------------|:-------|:----------------|:----------|
+|:------|:---------------:|:------:|:---------------:|:---------:|
 |Allow attendee video|Yes|Yes|No|No|
 |Attendees can unmute|Yes|Yes|No|No|
 |Meeting reactions|Yes|Yes|No|Yes|
