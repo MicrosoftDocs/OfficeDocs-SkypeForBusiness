@@ -36,18 +36,18 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Meeting chat|**In-meeting only**|Label|Yes|
 |Allow camera for attendees|**On**|Template|No|
 |Allow mic for attendees|**On**|Template|No|
-|End-to-end encryption|**On**|Label|Yes|
-|Manage what attendees see|**On**|Template|Yes|
-|People dialing in can bypass the lobby|**Off**|Label|Yes|
-|Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record automatically|**Off**|Label|No|
 |Apply a watermark to everyone's video feed|**On**|Label|Yes|
 |Apply a watermark to shared content|**On**|Label|Yes|
-|Who can bypass the lobby|**Only me and co-organizers**|Label|Yes|
-|Who can present|**Only me and co-organizers**|Label|Yes|
+|End-to-end encryption|**On**|Label|Yes|
+|Manage what attendees see|**On**|Template|Yes|
+|Meeting chat|**In-meeting only**|Template|Yes|
+|People dialing in can bypass the lobby|**Off**|Label|Yes|
+|Prevent copying chat content to clipboard|**On**|Label|Yes|
+|Record automatically|(Disabled due to watermarking)|N/A|N/A|
+|Who can bypass the lobby|**Only organizers and co-organizers**|Label|Yes|
+|Who can present|**Only organizers and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking)|N/A|N/A|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
@@ -62,18 +62,18 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 |Feature|Setting|Location|Enforced|
 |:------|:------|:-------|:-------|
-|Meeting chat|**In-meeting only**|Label|Yes|
-|Allow dial-in users to bypass the lobby|**Off**|Label|Yes|
 |Allow camera for attendees|**Off**|Template|Yes|
 |Allow mic for attendees|**Off**|Template|Yes|
-|End-to-end encryption|**On**|Label|Yes|
-|Manage what attendees see|**On**|Template|Yes|
-|Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record automatically|**Off**|Label|No|
 |Apply a watermark to everyone's video feed|**On**|Label|Yes|
 |Apply a watermark to shared content|**On**|Label|Yes|
-|Who can bypass the lobby|**Only me and co-organizers**|Label|Yes|
-|Who can present|**Only me and co-organizers**|Label|Yes|
+|End-to-end encryption|**On**|Label|Yes|
+|Manage what attendees see|**On**|Template|Yes|
+|Meeting chat|**Off**|Template|Yes|
+|People dialing in can bypass the lobby|**Off**|Label|Yes|
+|Prevent copying chat content to clipboard|**On**|Label|Yes|
+|Record automatically|(Disabled due to watermarking)|N/A|N/A|
+|Who can bypass the lobby|**Only organizers and co-organizers**|Label|Yes|
+|Who can present|**Only organizers and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking)|N/A|N/A|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
