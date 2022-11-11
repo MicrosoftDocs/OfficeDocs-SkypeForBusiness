@@ -26,7 +26,7 @@ For the *highly sensitive* level of protection, we'll look at two different scen
 - Highly sensitive presentations where attendees don't interact and are just viewing the presentation
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 #### Highly sensitive meetings
 

@@ -29,22 +29,37 @@ The following table describes which actions we'll restrict for sensitive meeting
 |:------|:------|:-------|:-------|
 |Allow camera for attendees|**On**|Template|No|
 |Allow mic for attendees|**On**|Template|No|
-|Apply a watermark to everyone's video feed|**Off**|Label|No|
-|Apply a watermark to shared content|**Off**|Label|No|
+|Apply a watermark to everyone's video feed|**Off**|Template|No|
+|Apply a watermark to shared content|**Off**|Template|No|
 |End-to-end encryption|**Off**|Template|No|
 |Manage what attendees see|**On**|Template|No|
 |Meeting chat|**On**|Label|No|
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|No|
-|Record automatically|**Off**|Label|No|
-|Who can bypass the lobby|**People I invite**|Label|Yes|
+|Record automatically|**Off**|Template|No|
+|Who can bypass the lobby|**Only people who were invited**|Label|Yes|
 |Who can present|**People in my organization and guests**|Label|Yes|
 |Who can record|**Organizer and co-organizers**|Label|Yes|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
+
+## Presentation options for sensitive meetings
+
+For the *sensitive* level of protection we're enforcing specific settings for who can present, as well as how content is shared.
+
+By turning on **Manage what attendees can see**, we ensure that meeting organizers can vet shared content before it's brought on screen for participants. In this example, we're using a template to turn this on by default, but you can also enforce it on in the template if you need to.
+
+By setting **Who can present** to **People in my organization and guests** in the sensitivity label, we remove the chance of anonymous participants presenting in the meeting. You can further restrict this to **Only organizers and co-organizers** if you need to. (We'll do that for the *highly sensitive* level of protection.)
+
+We'll also restrict recording to organizer and co-organizers by using the sensitivity label.
+
+## Lobby options for sensitive meetings
+
+We'll use the sensitivity label to prevent anyone other than invited attendees (people directly invited by the organizer, or to whom an invitation was forwarded) from bypassing the lobby. This gives an extra level of protection by letting the organizer vet anyone not directly sent an invite before admitting them to the meeting. You can further restrict this setting by choosing **Only organizers and co-organizers**. (We'll do that for the *highly sensitive* level of protection.)
+
 
 ## Sensitivity labels
 

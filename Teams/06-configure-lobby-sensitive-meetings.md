@@ -38,7 +38,7 @@ The following table lists features that you can use to help manage the lobby exp
 |Let anonymous people start a meeting|No|No|No|Yes|
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 ## Lobby settings for different types of meetings
 

@@ -24,7 +24,7 @@ description: Learn how to configure Teams meetings for a baseline level of prote
 For the *baseline* level of protection, we'll restrict who can bypass the lobby by using a sensitivity label and set a default value for who can present with a Teams admin policy. You can restrict additional actions as well if your organization requires it.
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 The following table describes which actions we'll restrict for baseline meetings and where those settings are configured.
 

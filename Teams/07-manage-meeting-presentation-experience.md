@@ -30,7 +30,7 @@ Using Teams admin policies, sensitivity labels, and templates, you can control a
 Meeting organizers can specify many of theses settings when they create the meeting, but you can enforce specific options for different users and groups in your organization by using admin policies, or different types or meetings by using sensitivity labels and templates. This can help you meet your compliance needs for different types of meetings and meetings where sensitive information is being shared.
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 ## Manage who can present
 
