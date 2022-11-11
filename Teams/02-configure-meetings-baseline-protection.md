@@ -101,7 +101,7 @@ For additional information about using sensitivity labels with meetings, see [Us
 
 ## Meeting templates
 
-In the *baseline* level of protection, there aren't any values that need to be restricted with a meeting template. You can still create a template if there are values that you need to set for your organization or if you want your users to always use a template when creating a meeting.
+In the *baseline* level of protection, there aren't any values that need to be restricted with a meeting template, but we're setting a default value for who can bypass the lobby. You can set any additional values that you need for your organization.
 
 To create a custom meeting template
 
@@ -110,6 +110,8 @@ To create a custom meeting template
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
+1. In the **Lobby** dropdown, select **Everyone in my organization, trusted organizations, and guests**.
+1. If you've disabled watermarks and end-to-end encryption with the sensitivity label, consider selecting those settings here and selecting **Hide** so meeting organizers won't see them.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
