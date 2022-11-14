@@ -59,8 +59,8 @@ Once the template has been created, it may take up to 24 hours to be available t
 
 |Setting|Description|
 |:------|:----------|
-|Disable mic for attendees?|When **Off**, attendees can unmute.|
-|Disable camera for attendees?|When **Off**, attendees can turn on their cameras.|
+|Allow mic for attendees|When **On**, attendees can unmute.|
+|Allow camera for attendees|When **On**, attendees can turn on their cameras.|
 
 #### Recording and transcription
 

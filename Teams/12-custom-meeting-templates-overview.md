@@ -53,8 +53,8 @@ To learn how to create meeting templates, see [Create a custom meeting template 
 
 Templates have the option of specifying a sensitivity label. Labels can also be applied directly to meetings, independent of templates. Sensitivity labels can control some of the same settings as templates:
 
-- Allow chat
 - End-to-end encryption
+- Meeting chat
 - Record automatically
 - Who can bypass the lobby
 - Who can present
@@ -80,5 +80,7 @@ Teams Premium includes several default meeting templates that you can make avail
 These templates are read-only and can't be updated.
 
 ## Related topics
+
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)

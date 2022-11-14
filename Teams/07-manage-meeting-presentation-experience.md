@@ -48,13 +48,13 @@ By using these controls, you can limit who is able to share content on screen in
 
 The Teams admin meeting policy **Who can present in meetings** has the following options:
 
-- Organizers, but user can override
-- Everyone in the organization, but user can override
-- Everyone, but user can override
+- Organizers
+- Everyone in the organization
+- Everyone
 
-This setting specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is locked in by a sensitivity label.
+This setting does not enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
 
-The default value of **Everyone, but user can override** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **Everyone in the organization** or **Organizers** to provide a more secure default for users.
+The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **Everyone in the organization** or **Organizers** to provide a more secure default for users.
 
 To set the **Who can present in meetings** policy
 
@@ -66,7 +66,7 @@ To set the **Who can present in meetings** policy
 
 1. Select **Save**.
 
-### Manage who can present in meetings with templates and sensitivity labels
+### Manage who can present in meetings with sensitivity labels
 
 Meeting organizers can choose from the following options for who can present in a meeting:
 
@@ -134,7 +134,7 @@ If you have meetings where sensitive information is being shared, you may want t
 
 PowerPoint Live allows attendees to navigate forward and back in a PowerPoint presentation being shared on screen. This may allow attendees to see sensitive information before it's is presented by the organizer.
 
-Consider if there are users or groups in your organization who should not use these features to avoid sharing sensitive information with them.
+Consider if there are users or groups in your organization who should not use these features to avoid sharing sensitive information.
 
 ## Manage how meeting attendees interact
 
@@ -142,9 +142,9 @@ The following table shows features that can help manage how meeting attendees in
 
 |Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
 |:------|:---------:|:---------------:|:------:|:---------------:|
-|Allow attendee video|No|No|Yes|Yes|
-|Attendees can unmute|No|No|Yes|Yes|
-|Meeting reactions|Yes|No|Yes|Yes|
+|Allow camera for attendees|No|No|Yes|Yes|
+|Allow mic for attendees|No|No|Yes|Yes|
+|Reactions|Yes|No|Yes|Yes|
 
 Attendee audio and video can make it easy for attendees to communicate during a meeting. These can both be controlled by the meeting organizer or by a meeting template. Depending on the type of meeting, you may want to allow or restrict these capabilities.
 

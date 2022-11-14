@@ -29,13 +29,13 @@ The following table show what chat-related controls are available and where they
 
 |Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
 |:------|:---------:|:---------------:|:------:|:---------------:|
-|Attendees can chat|Yes|Yes|Yes|Yes|
+|Meeting chat|Yes|Yes|Yes|Yes|
 |Meeting chat copy and paste|No|Yes|No|No|
-|Meeting Q&A|Yes|No|No|Yes|
+|Q&A|Yes|No|No|Yes|
 |Shared notes|Yes|No|No|No|
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.
+> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 By default, chat is turned on for meeting participants. There are several ways you can mange chat:
 
@@ -60,3 +60,10 @@ By default, Teams also allows meeting attendees to [create shared meeting notes]
 
 ## Related topics
 
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
+[Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
+
+[Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
+
+[Manage retention policies for Microsoft Teams](retention-policies.md)
