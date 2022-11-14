@@ -17,8 +17,6 @@ items:
           href: get-started-with-teams-monitor-usage-and-feedback.md
         - name: "Step 4: Plan your org-wide rollout"
           href: get-started-with-teams-resources-for-org-wide-rollout.md
-        - name: Support remote workers (WFH)
-          href: support-remote-work-with-teams.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
@@ -322,6 +320,8 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
+        - name: Career Coach data compliance
+          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -431,8 +431,6 @@ items:
       href: inline-message-translation-teams.md
     - name: Use Microsoft Teams scoped directory search
       href: teams-scoped-directory-search.md
-    - name: "FAQ: Support your remote workforce"
-      href: FAQ-support-remote-workforce.md
               
     - name: Reports
       items:
@@ -503,11 +501,9 @@ items:
       href: teams-policies.md
     - name: Turn off Teams Native File Upload policy
       href: turn-off-teams-native-file-upload-policy.md
-    - name: Set up channel moderation in Teams
-      href: manage-channel-moderation-in-teams.md
     - name: Manage Loop components
       href: loop-components-in-teams.md
-    - name: Teams and Outlook email integration
+    - name: Manage actionable activity emails
       href: teams-outlook-email-integration.md
     - name: Share to Teams from Outlook
       href: teams-outlook-share-teams.md
@@ -741,7 +737,7 @@ items:
                 - name: Extended dial-out minutes for US and Canada
                   href: dial-out-minutes-canada-us.md
                 - name: Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit
-                  href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  href: audio-conferencing-subscription-dial-out.md
                 - name: Audio Conferencing pay-per-minute
                   href: audio-conferencing-pay-per-minute.md
             - name: Manage your audio conferencing bridge
@@ -1601,30 +1597,30 @@ items:
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
-        - name: App checks, testing, and validation done by Microsoft
+        - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md
-        - name: Security, compliance, and privacy of third-party apps
+        - name: Know about security, compliance, and privacy of apps
           href: overview-of-app-certification.md
-        - name: Purchase third-party apps for Teams
+        - name: Purchase and manage app subscriptions
           href: purchase-third-party-apps.md
-        - name: Adobe Acrobat as default PDF viewer in Teams
-          href: adobe-acrobat-pdf-viewer-teams.md
-        - name: Manage M365 connectors and custom connectors
-          href: Office-365-custom-connectors.md
-        - name: Customize app branding using app customization
+        - name: Manage user requests
+          href: user-requests-approve-apps.md
+        - name: Change app branding using app customization
           href: customize-apps.md
         - name: Manage access to apps across Microsoft 365
           href: manage-third-party-teams-apps.md
+        - name: Set Adobe Acrobat as default PDF viewer
+          href: adobe-acrobat-pdf-viewer-teams.md
+        - name: Manage M365 connectors and custom connectors
+          href: Office-365-custom-connectors.md
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
-          href: custom-app-overview.md
-        - name: Manage policies and settings for custom apps
+        - name: Manage custom and sideloaded apps and settings
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish a custom app submitted as a package
+        - name: Publish custom apps submitted as a package
           href: upload-custom-apps.md
         - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
@@ -1643,9 +1639,9 @@ items:
             href: teams-app-setup-policies.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Review Azure AD permissions and grant admin consent
+        - name: Grant admin consent after reviewing its permissions
           href: app-permissions-admin-center.md
-        - name: Manage resource-specific consent for your org
+        - name: Manage resource-specific consent to access team's data
           href: resource-specific-consent.md
         - name: Understand app permissions and access to resources
           href: app-permissions.md
@@ -1653,8 +1649,6 @@ items:
           href: customize-your-app-store.md
         - name: Use apps as external user or guest
           href: non-standard-users.md
-        - name: Manage user requests
-          href: user-requests-approve-apps.md
         - name: App updates and admin role
           href: apps-update-experience.md
         - name: Audit app management activities
@@ -1712,6 +1706,8 @@ items:
                   href: career-coach-set-up-steps.md
                 - name: Troubleshoot Career Coach
                   href: career-coach-troubleshoot.md
+                - name: Career Coach data compliance
+                  href: privacy-career-coach-data-compliance.md
                 - name: Resources for Career Coach
                   href: career-coach-resources.md
         - name: LMS and LTI integrations

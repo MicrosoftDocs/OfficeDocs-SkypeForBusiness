@@ -80,9 +80,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | September 3, 2024  |  Medium size room (4.5 m x 6 m) | 10|
-| Neat Bar | `NFB1.20220211.1400` |September 3, 2024|    Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Neat Pad touch console | `NFA1.20220211.1400`  | August 5, 2023 |  Compatible with Neat Bar only | 9 |
-| Neat Board | `NFC1.20220211.1400 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Neat Bar | `NFF1.20220914.1210` |September 3, 2024|    Medium size room (4.5 m x 6 m) | 10 |
+| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar only | 9 |
+| Neat Board | `NFC1.20220914.1210 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
@@ -287,6 +287,10 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
+
+| Poly Studio X30 | `3.14.1.374010` | 2022 Update #2B   |
+| Poly Studio X50 | `3.14.1.374010` | 2022 Update #2B  |
+
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
@@ -357,7 +361,8 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 Update #4  |January 5, 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
+|2022 Update #1  |November 14, 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
+|2021 Update #4  |January 5, 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
 |2021 Update #3  |December 8, 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |2021 Update #2  |June 9, 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |2021 Update #1  |March 18, 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|

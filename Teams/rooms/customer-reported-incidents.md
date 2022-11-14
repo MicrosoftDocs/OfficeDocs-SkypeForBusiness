@@ -21,14 +21,14 @@ description: Partners or Customers can manually open an incident through "Record
 
 # Record an issue ticket
 
-For any type of incident that MTR Pro did not flag, or to simply keep track of issues on an MTR or space, customers or partners on behalf of customers can use the Record an issue feature.
-
-In the Description field, describe as best as possible the issue that you need help with from Microsoft. You can add one or more rooms.
-
-Check  **High Impact** if the incident is causing significant health degradation for the service or for a critical room. To help Microsoft properly prioritize your request, describe in detail the reason this is high impact.
+For any type of issue that MTR Pro did not flag, customers or partners on behalf of customers can use the Record an issue feature. This is intended to facilitate tracking of issues with your **internal or partner** support. 
 
 > [!NOTE]
-> Do not use this field for general questions, rooms, and/or issues that do not have available mitigation.
+> Microsoft does not monitor Record an issue tickets. If the issue requires further assistance, see this article on how to [Get support for Microsoft Teams Rooms Pro Management](https://aka.ms/mtrp/openingTickets).
+
+In the Description field, describe as best as possible the issue. You can add one or more rooms.
+
+Check **High Impact** to elevate importance to your support if the incident is causing significant health degradation for a critical room.
 
 When a room is (or rooms are) selected as part of the Record an issue, each room will be marked as **Unhealthy** until the recorded issue is closed.
 
@@ -44,7 +44,7 @@ Recorded issues can be closed by either the customer or partners managing rooms 
 
    Once you've confirmed the reason for closure, the ticket is closed and moved to **Resolved**.
 
-The ticket's Details Overview section displays that the ticket was closed by the Managed Rooms Service (Microsoft) or the name of the customer/partner.  
+The ticket's Details Overview section displays that the ticket was closed by the name of the customer/partner.  
 
 ## FAQ
 
