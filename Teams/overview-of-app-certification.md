@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Microsoft 365 app compliance program for security, compliance, and privacy of third-party apps
+# Find Teams apps that undergo Microsoft 365 app compliance program for security, compliance, and privacy
 
 Microsoft compliance program checks and audits an app against controls that are derived from leading industry-standard frameworks. The program demonstrates that strong security and compliance practices are in place to protect customer data. The program has the following phases:
 
