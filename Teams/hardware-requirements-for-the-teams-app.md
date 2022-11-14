@@ -58,6 +58,9 @@ All of the requirements in the following sections apply to both the Microsoft Te
 
 ## Hardware requirements for Teams on Linux
 
+> [!NOTE]
+> Teams Desktop on Linux will be retired in December 2022.
+
 | Component | Requirement |
 |---------|---------|
 |Computer and processor    | 1.6 GHz (or higher) (32-bit or 64-bit), 2 core        |
