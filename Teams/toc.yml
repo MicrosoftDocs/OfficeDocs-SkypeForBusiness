@@ -619,35 +619,35 @@ items:
         - name: Compliant meetings
           items: 
             - name: Three tiers of protection overview
-              href: 01-configure-meetings-three-tiers-protection.md
+              href: configure-meetings-three-tiers-protection.md
             - name: Configure baseline protection
-              href: 02-configure-meetings-baseline-protection.md
+              href: configure-meetings-baseline-protection.md
             - name: Configure sensitive protection
-              href: 03-configure-meetings-sensitive-protection.md
+              href: configure-meetings-sensitive-protection.md
             - name: Configure highly sensitive protection
-              href: 04-configure-meetings-highly-sensitive-protection.md
+              href: configure-meetings-highly-sensitive-protection.md
             - name: Manage recording options
-              href: 05-manage-meeting-recording-options.md
+              href: manage-meeting-recording-options.md
             - name: Manage meeting lobby
-              href: 06-configure-lobby-sensitive-meetings.md
+              href: configure-lobby-sensitive-meetings.md
             - name: Manage presentation experience
-              href: 07-manage-meeting-presentation-experience.md
+              href: manage-meeting-presentation-experience.md
             - name: Manage chat
-              href: 08-manage-chat-sensitive-meetings.md
+              href: manage-chat-sensitive-meetings.md
             - name: Encrypt meetings
-              href: 09-end-to-end-encrypted-meetings.md
+              href: end-to-end-encrypted-meetings.md
             - name: Watermark meetings
-              href: 10-watermark-meeting-content-video.md
+              href: watermark-meeting-content-video.md
             - name: Custom meeting templates
               items:
                 - name: Custom meeting templates overview
-                  href: 12-custom-meeting-templates-overview.md
+                  href: custom-meeting-templates-overview.md
                 - name: Create a meeting template
-                  href: 13-create-custom-meeting-template.md
+                  href: create-custom-meeting-template.md
                 - name: Manage meeting templates
-                  href: 14-manage-meeting-templates.md
+                  href: manage-meeting-templates.md
             - name: Use templates, labels, and policies together
-              href: 11-meeting-templates-sensitivity-labels-policies.md
+              href: meeting-templates-sensitivity-labels-policies.md
         - name: Manage who can start and schedule meetings
           href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
