@@ -163,7 +163,7 @@ Skype for Business users can make one-on-one voice and video calls to Teams user
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Interop experiences with an on-premises deployment of Skype for Business require that the on-premises environment is in hybrid mode with Teams. For details, [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
+> Interop experiences with on-premises users in an organization with a mix of on-premises and Teams users require that the on-premises environment is in hybrid mode with Teams. For details, [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
 
 These interop experiences are available to and between users who have one of the following coexistence modes assigned: **Skype for Business with Teams Collaboration**, **Skype for Business with Teams Collaboration and meetings**, **Skype for Business Only**, or **Teams Only**. There's no interoperability to users in **Islands** mode.
 
