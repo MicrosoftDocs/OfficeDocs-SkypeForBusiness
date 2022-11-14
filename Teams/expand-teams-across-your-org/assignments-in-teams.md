@@ -169,9 +169,9 @@ For more information, see [Configure assignments for Teams](/microsoft-365/educa
 
 You can also use Teams policies to remove Assignments and Grades for a specific user or for your entire tenant.
 
-To remove Assignments and Grades for an individual user, go to **Teams Admin Center** and navigate to **Teams apps > Permission policies** to create a new app permission policy definition.  When creating the new policy definition, set the **Microsoft apps** policy to _Block specific apps and allow all others_ and add **Assignments** to the list of blocked applications. Once your new policy definition is saved, assign it to the appropriate users.
+To remove Assignments and Grades for an individual user, go to **Teams Admin Center** and navigate to **Teams apps > Permission policies** to create a new app permission policy definition.  When creating the new policy definition, set the **Microsoft apps** policy to _Block specific apps and allow all others_ and add **Assignments** and **Grades** to the list of blocked applications. Once your new policy definition is saved, assign it to the appropriate users.
 
-To remove Assignments and Grades for your entire tenant, go to **Teams Admin Center**, navigate to **Teams apps > Manage apps**, and search for and select **Assignments** from the application list. Change the status setting within the Assignment application settings page to _Blocked_.
+To remove Assignments and Grades for your entire tenant, go to **Teams Admin Center**, navigate to **Teams apps > Manage apps**, and search for and select **Assignments** and **Grades** from the application list. Change the status setting within the applications' settings page to _Blocked_.
 
 ## Assignments diagnostic tool for users
 

@@ -14,6 +14,7 @@ ms.collection:
   - m365initiative-voice
   - m365solution-voice
   - m365solution-scenario
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:

@@ -13,6 +13,7 @@ ms.collection:
   - M365-voice
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -100,8 +101,6 @@ For more details, see [Change the settings for an Audio Conferencing bridge](cha
 ## Step 7: Assign dial-in phone numbers for users who lead meetings
 
 Refer to [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
-
-If you need more details, see [Assign Microsoft as the audio conferencing provider](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 > [!NOTE]
 > You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.

@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Teams Phone System with Calling Plan for small to medium businesses
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,6 +17,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Set up the Teams Phone System with Calling Plan bundle for small to medium businesses

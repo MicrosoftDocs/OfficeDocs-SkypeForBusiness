@@ -1,7 +1,7 @@
 ---
 title: Broadcast meeting content
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 ms.reviewer: aalinne
 manager: serdars
 ms.topic: article

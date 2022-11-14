@@ -29,7 +29,7 @@ You might want to use a private channel if you want to limit collaboration to th
 For example, a private channel is useful in these scenarios:
 
 - A group of people in a team want a focused space to collaborate without having to create a separate team.
-- A subset of people in a team want a private channel to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
+- A subset of people in a team wants a private channel to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
 
 A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 

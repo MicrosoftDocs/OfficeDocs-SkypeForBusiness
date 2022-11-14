@@ -1,7 +1,7 @@
 ---
 title: Manage the free Office 365 E1 Trial
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 audience: Admin

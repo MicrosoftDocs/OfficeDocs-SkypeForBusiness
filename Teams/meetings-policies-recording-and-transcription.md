@@ -30,8 +30,6 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
 
-Transcription for recorded meetings is currently only supported for users who set their language to or speak English in Teams meetings.
-
 ## Cloud recording
 
 This setting is a combination of a per-organizer and per-user policy and controls whether the meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
