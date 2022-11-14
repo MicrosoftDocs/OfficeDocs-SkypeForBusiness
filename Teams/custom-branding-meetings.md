@@ -20,8 +20,7 @@ description: Using approved corporate assets like images and logos to create a c
 
 # Meeting themes for Teams meetings
 
-> [!NOTE]
-> Custom organizational meeting branding is part of the Teams premium Offering. To create a branding-enabled meeting, meeting organizers must have a Teams premium license.
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Branding in Teams meetings allows organizations to extend their visual identities across the meeting experience. Brand images and colors help foster internal corporate culture building and increase overall brand awareness with external meeting participants. With the help of an organization's brand management and corporate communications teams, tenant admins can easily set up and create branded meeting themes for various business units and departments within a single tenant.
 
