@@ -21,7 +21,7 @@ description: Learn about admin options for managing who can present, how content
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Using Teams admin policies, sensitivity labels, and templates, you can control a wide variety of settings that determine the in-meeting experience for attendees, including:
+Using Teams admin policies, sensitivity labels, and templates, you can control a wide variety of settings that determine the in-meeting experience for participants, including:
 
 - Who can present and who can give or request control
 - How content is shared and what collaboration tools are available
@@ -36,11 +36,11 @@ Meeting organizers can specify many of theses settings when they create the meet
 
 The following table shows where settings are available to manage who can present in meetings:
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:---------------:|:------:|:---------------:|:---------:|
-|Who can present|Yes|No|Yes|Yes|
-|Participants can give or request control|No|No|No|Yes|
-|External participants can give or request control|No|No|No|Yes|
+|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
+|:------|:---------:|:---------------:|:------:|:---------------:|
+|Who can present|Yes|Yes|No|Yes|
+|Participants can give or request control|Yes|No|No|No|
+|External participants can give or request control|Yes|No|No|No|
 
 By using these controls, you can limit who is able to share content on screen in meetings.
 
@@ -109,10 +109,10 @@ In meetings where sensitive information is being shared, it can be important to 
 
 The following table shows settings that can help manage what content and video is shared on screen in meetings.
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:---------------:|:------:|:---------------:|:---------:|
-|Screen sharing mode|No|No|No|Yes|
-|Manage what attendees see|Yes|Yes|No|No|
+|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
+|:------|:---------:|:---------------:|:------:|:---------------:|
+|Screen sharing mode|Yes|No|No|No|
+|Manage what attendees see|No|No|Yes|Yes|
 
 **Screen sharing mode** is a teams admin policy. With this policy, you can control if meeting attendees can share their entire screen or only a single application. Sharing the entire screen can be convenient, but it can increase the chances of accidentally sharing inappropriate information such as an email or open document. Consider if you want to restrict sharing to a single application for users or departments that often present sensitive information. You can also turn off screen sharing entirely with this policy. For more information, see [Configure desktop sharing in Microsoft Teams](/microsoftteams/configure-desktop-sharing).
 
@@ -122,11 +122,11 @@ The following table shows settings that can help manage what content and video i
 
 Teams offers several presentation tools that allow for interactive participation of meeting attendees. The following table shows features that can help manage these tools.
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:---------------:|:------:|:---------------:|:---------:|
-|PowerPoint Live|No|No|No|Yes|
-|Whiteboard|No|No|No|Yes|
-|Shared notes|No|No|No|Yes|
+|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
+|:------|:---------:|:---------------:|:------:|:---------------:|
+|PowerPoint Live|Yes|No|No|No|
+|Whiteboard|Yes|No|No|No|
+|Shared notes|Yes|No|No|No|
 
 Each of these features can be managed through admin policies, but not through templates or sensitivity labels, nor by the meeting organizer. As such, they can be applied to users or groups, but not to specific meetings. For more information, see [Meeting policy settings - Content sharing](/microsoftteams/meeting-policies-content-sharing).
 
@@ -140,11 +140,11 @@ Consider if there are users or groups in your organization who should not use th
 
 The following table shows features that can help manage how meeting attendees interact during a meeting.
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:---------------:|:------:|:---------------:|:---------:|
-|Allow attendee video|Yes|Yes|No|No|
-|Attendees can unmute|Yes|Yes|No|No|
-|Meeting reactions|Yes|Yes|No|Yes|
+|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
+|:------|:---------:|:---------------:|:------:|:---------------:|
+|Allow attendee video|No|No|Yes|Yes|
+|Attendees can unmute|No|No|Yes|Yes|
+|Meeting reactions|Yes|No|Yes|Yes|
 
 Attendee audio and video can make it easy for attendees to communicate during a meeting. These can both be controlled by the meeting organizer or by a meeting template. Depending on the type of meeting, you may want to allow or restrict these capabilities.
 

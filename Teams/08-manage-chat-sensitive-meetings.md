@@ -27,12 +27,12 @@ If you have compliance requirements for certain types of meetings, you can manag
 
 The following table show what chat-related controls are available and where they can be managed.
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:---------------:|:------:|:---------------:|:---------:|
+|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
+|:------|:---------:|:---------------:|:------:|:---------------:|
 |Attendees can chat|Yes|Yes|Yes|Yes|
-|Meeting chat copy and paste|No|No|Yes|No|
+|Meeting chat copy and paste|No|Yes|No|No|
 |Meeting Q&A|Yes|No|No|Yes|
-|Shared notes|No|No|No|Yes|
+|Shared notes|Yes|No|No|No|
 
 > [!Note]
 > Meeting settings in sensitivity labels and custom meeting templates are in preview and will require a Teams Premium license.

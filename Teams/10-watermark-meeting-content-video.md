@@ -37,8 +37,8 @@ Meeting watermarks are enabled in the Teams admin center. They can then be added
 
 The following table shows where watermarks are configured:
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:---------------:|:------:|:---------------:|:---------:|
+|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
+|:------|:---------:|:---------------:|:------:|:---------------:|
 |Apply a watermark to shared content|Yes|Yes|Yes|Yes|
 |Apply a watermark to everyone's video feed|Yes|Yes|Yes|Yes|
 

@@ -29,13 +29,13 @@ The lobby and other related settings can be controlled by the Teams Administrato
 
 The following table lists features that you can use to help manage the lobby experience for your organization and where to configure them.
 
-|Setting|Meeting organizer|Template|Sensitivity label|Teams admin|
-|:------|:---------------:|:------:|:---------------:|:---------:|
+|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
+|:------|:---------:|:---------------:|:------:|:---------------:|
 |Who can bypass the lobby|Yes|Yes|Yes|Yes|
 |People dialing in can bypass the lobby|Yes|Yes|Yes|Yes|
-|Notify when callers join and leave|Yes|Yes|No|No|
-|Let anonymous people join a meeting|No|No|No|Yes|
-|Let anonymous people start a meeting|No|No|No|Yes|
+|Notify when callers join and leave|No|No|Yes|Yes|
+|Let anonymous people join a meeting|Yes|No|No|No|
+|Let anonymous people start a meeting|Yes|No|No|No|
 
 > [!Note]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
