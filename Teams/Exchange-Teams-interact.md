@@ -130,7 +130,7 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 - For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](/exchange/hybrid-deployment/deploy-hybrid).
 
 >[!Important]
->**GCC-H customers:** *Delegated meeting scheduling* is not supported for GCC-High environments. 
+>**GCC-H customers:** *Delegated Teams meeting scheduling* is not supported for GCC-High environments. 
 
 ## Troubleshooting
 
