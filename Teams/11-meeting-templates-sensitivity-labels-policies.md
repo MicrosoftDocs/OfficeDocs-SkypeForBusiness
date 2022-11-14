@@ -30,6 +30,8 @@ In Teams meetings, meeting organizers can configure [a variety of settings](http
 
 By using admin policies, templates, and labels together you can make possible a variety of meeting scenarios to help meet the compliance and business needs for the different departments in your organization.
 
+## Policies, labels, templates, and meetings settings
+
 The following table shows a list of Teams features that may be useful for managing meetings with different compliance needs in your organization and where they can be configured.
 
 |Feature|Teams admin policy|Sensitivity label|Meeting template|Meeting organizer|
@@ -48,20 +50,31 @@ The following table shows a list of Teams features that may be useful for managi
 |Who can present|Sets the default setting for new meetings. Available values are Organizers, Everyone in the organization, and Everyone.|Can enforce settings of everyone, authenticated attendees, organizers, or specific people, or can be left uncontrolled.|No setting|Meeting organizer can select who can present unless enforced by a sensitivity label.|
 |Who can record|No setting|Can enforce settings of organizers or organizers and presenters, or can be left uncontrolled.|If not controlled by a sensitivity label, selects a setting of organizers or organizers and presenters.  Setting can be enforced or meeting organizer can be allowed to change.|Meeting organizer can choose who can record - organizers or organizers and presenters - unless the setting is enforced by a label or template.|
 
-## Sensitivity label settings take precedence
+## Admin policies' effect on sensitivity labels and meeting templates
+
+While some admin policies - such as lobby settings and who can present - specify defaults that the meeting organizer can change, most admin policies determine if a given feature is available to users at all.
+
+If a feature is not available to a given user because the admin policy has turned it off for them, that feature can't be enforced by a sensitivity label or meeting template.
+
+For example, if you create a *highly sensitive* label and configure it to enforce watermarking and end-to-end encryption, that enforcement will only take place if watermarking and end-to-end encryption are enabled for the meeting organizer in the admin policy.
+
+## Sensitivity labels and templates together
+
+Some settings are only available in sensitivity labels and some are only available in templates. Several are available in both:
+
+- Chat
+- End-to-end encryption
+- Lobby settings
+- Meeting recording
+- Watermarking
 
 Whenever a sensitivity label is used, the settings configured in the label take precedence over any template or meeting organizer settings.
 
-While lobby restrictions can be disabled in the label - allowing either a template or the meeting organizer to control them - the remaining label settings always enforce a condition and override any template or meeting organizer settings. These settings are:
+The settings in a sensitivity label can be left uncontrolled when the label is created, allowing a template or the meeting organizer to control these settings.
 
-- Who can present
-- Who can record
-- Automatic recording
-- End-to-end encryption
-- Watermarks
-- Chat settings
+Sensitivity labels are often used for multiple purposes - labelling documents, sites, and emails, as well as meetings. You can avoid creating additional labels that are just for meetings by using templates along with the labels to account for variations within a particular type of meeting.
 
-While chat and recording settings are available in templates, the label settings will always take precedence if a label is used.
+For example your marketing department might have different requirements for sensitive meetings than the research department. You can configure the settings that are common to both in a sensitivity label and then make separate templates available to the two groups which further refine the meeting settings for that group. Both templates could use the same label.
 
 ## User-based policies and meeting-based policies
 
@@ -88,6 +101,8 @@ While labels generally enforce a particular setting, templates can either enforc
 For example, for a baseline level of protection, you might want to use a sensitivity label to turn off watermarking. At the same time, you can use a template to set the default for who can bypass the lobby, but allow the meeting organizer to change the setting if they need to.
 
 You can assign your baseline protection label to the template so that both are used when a meeting organizer chooses that template.
+
+Some admin policies can also be used to set a default value that can be changed by a meeting organizer. These include lobby controls and who can present.
 
 ## Related topics
 
