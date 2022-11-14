@@ -81,6 +81,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Heedify` | https://heedify.io/call-center/                                                 |
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
+| `IPDynamics` | https://www.ipdynamics.de  |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
