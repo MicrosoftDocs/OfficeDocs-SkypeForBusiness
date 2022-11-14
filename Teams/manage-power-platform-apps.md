@@ -22,8 +22,6 @@ description: Learn how to manage access to custom apps built using Microsoft Pow
 
 # Manage Microsoft Power Platform apps in the Teams admin center
 
-## Manage custom apps created using Microsoft Power Platform apps
-
 This article gives you an overview of how to manage custom apps created using the [Microsoft Power Platform](https://powerplatform.microsoft.com/) apps in the Microsoft Teams admin center. Custom apps are created by developers within your organization for internal users.
 
 > [!NOTE]
