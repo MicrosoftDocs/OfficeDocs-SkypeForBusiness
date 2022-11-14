@@ -197,7 +197,7 @@ The availability of toll phone numbers from some of these locations might vary a
 
 Use the drop-down list at the top of the page to search for a country or region and what services are available.
 
-### Calling Plans
+### Microsoft Teams Calling Plans
 
 Along with Phone System, Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are three types of Calling Plans available: **Domestic**, **International**, and **Pay-As-You-Go**. See [Calling Plans for Microsoft Teams](../calling-plans-for-office-365.md) for more details.
 

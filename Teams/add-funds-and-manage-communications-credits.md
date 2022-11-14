@@ -27,7 +27,7 @@ description: Learn how to pay for Communication credits (PSTN Consumption) for S
 
 # Add funds and manage Communications Credits
 
-Communications Credits are a convenient way to pay for Calling Plans and Audio Conferencing in Microsoft 365. Communication Credits helps ensure that you and your users are never caught without being able to:
+Communications Credits are a convenient way to pay for Microsoft Teams Calling Plans and Audio Conferencing in Microsoft 365. Communication Credits helps ensure that you and your users are never caught without being able to:
   
 - Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.
 
@@ -53,7 +53,7 @@ Communications Credits are a convenient way to pay for Calling Plans and Audio C
 >
 > Instead, NCE customers will pay for overage outgoing minutes after they've used them. There's no need for a pool of Communication Credits.
 >
-> For more information about the new commerce experience for calling subscriptions, see [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
+> For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
 As admin, you can add funds manually or you can set up auto-recharge, which we **recommend**.
 

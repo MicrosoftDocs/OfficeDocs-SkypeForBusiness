@@ -1,5 +1,5 @@
 ---
-title: Set up Calling Plans
+title: Set up Microsoft Teams Calling Plans
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,9 +28,9 @@ ms.custom:
   - seo-marvel-mar2020
 description: Learn to set up Calling Plans, including view plans available in your region, buy & assign licenses, get phone numbers, and add emergency addresses & locations.
 ---
-# Set up Calling Plans
+# Set up Microsoft Teams Calling Plans
 
-Calls to other Teams users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan, an International Calling Plan, or a Pay-As-You-Go Calling Plan in Microsoft 365 based on your needs. It's easy to set up Calling Plans for your business.  For more information about Calling Plans, see [Which Calling Plan is right for you?](calling-plan-landing-page.md).
+Calls to other Teams users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan, an International Calling Plan, or a Pay-As-You-Go Calling Plan in Microsoft 365 based on your needs. It's easy to set up Microsoft Teams Calling Plans for your business.  For more information about Calling Plans, see [Which Calling Plan is right for you?](calling-plan-landing-page.md).
 
 ## Step 1: Find out if Calling Plans are available in your country/region
 

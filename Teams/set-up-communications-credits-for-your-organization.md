@@ -28,7 +28,7 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
 
 # Set up Communications Credits for your organization
 
-If you want to use toll-free numbers with Microsoft Teams, you need to set up Communications Credits. Microsoft recommends that you set up Communications Credits for your Calling Plan (Domestic, International, or Pay-As-You-Go) and Audio Conferencing users who need to dial out to **any destination**. Some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions.
+If you want to use toll-free numbers with Microsoft Teams, you need to set up Communications Credits. Microsoft recommends that you set up Communications Credits for your Microsoft Teams Calling Plan (Domestic, International, or Pay-As-You-Go) and Audio Conferencing users who need to dial out to **any destination**. Some destinations may not be included in your Calling Plans or Audio Conferencing subscriptions.
 
 When you sign up for Calling Plans and/or Audio Conferencing, you get some minutes depending on your country/region. For more information, see [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization).
 
@@ -45,7 +45,7 @@ For more information about plans and pricing, [see the rates here](https://go.mi
 >
 > Instead, NCE customers will pay for overage outgoing minutes after they've used them. There's no need for a pool of Communication Credits.
 >
-> For more information about the new commerce experience for calling subscriptions, see [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
+> For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
 To set up Communication Credits for your organization, follow these steps:
 

@@ -32,7 +32,7 @@ description: Learn about Calling Plan (PSTN Calling plan) for Skype for business
 
 # Calling Plans for Microsoft Teams
 
-Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy a Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
+Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy Microsoft Teams Calling Plans. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
 
 Here are the Calling Plans options:
   
@@ -60,13 +60,13 @@ Visit [Country and region availability](country-and-region-availability-for-audi
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
 
 > [!NOTE]
-> Pooling is only available on identical calling plans.
+> Pooling is only available on identical Calling Plans.
 
 ![Screen shot of user's license location.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
 
 For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md).
 
-## How to buy a Calling Plan
+## How to buy Calling Plans
 
 1. You must first purchase a **Phone System add-on license**. To do that, [sign in to the Microsoft 365 admin center and choose **Billing**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Purchase services** > **Add-on subscriptions** > **Buy now**.
 
@@ -89,7 +89,7 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 
 - **Purchase the Pay-As-You-Go Calling Plan through the new commerce experience (NCE)**
   - Customers who purchased their calling plan through the new commerce experience are able to pay for the outgoing call minutes they used in the previous month. This is also called post-usage or post-consumption billing.
-  - For instructions on purchasing a calling plan through the new commerce experience, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services).
+  - For instructions on purchasing a calling plan through the new commerce experience, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?
 

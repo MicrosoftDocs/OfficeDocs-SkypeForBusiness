@@ -66,11 +66,11 @@ Because Communication Credits is a pre-paid budget to support outgoing minutes, 
 
 Instead, NCE customers will pay for overage outgoing minutes after they've used them. There's no need for a pool of Communication Credits.
 
-For more information about the new commerce experience for calling subscriptions, see [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
+For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
 ## What are the Communications Credits rates?
 
-If you're wondering what the cost of the calls are for Calling Plans, see [Cloud-Based Phone System for Voice Calling](https://go.microsoft.com/fwlink/p/?LinkId=799523) (scroll down to "See rates for where you want to call").
+If you're wondering what the cost of the calls are for Microsoft Teams Calling Plans, see [Cloud-Based Phone System for Voice Calling](https://go.microsoft.com/fwlink/p/?LinkId=799523) (scroll down to "See rates for where you want to call").
   
 ## What is it?
 
