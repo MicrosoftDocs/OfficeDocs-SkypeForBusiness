@@ -25,7 +25,7 @@ ms.custom:
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
-# Manage access to Teams apps using app permission policies
+# Use app permission policies to control user access to apps
 
 As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](deploy-apps-microsoft-teams-landing-page.md). You must be a Global Admin or Teams service admin to manage these policies.
 
@@ -52,10 +52,10 @@ Use one or more custom app permission policies, if you want to control the apps 
 1. Provide a name and description for the policy.
 1. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following options:
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * Allow all apps
+    * Allow specific apps and block all others
+    * Block specific apps and allow all others
+    * Block all apps
 
 1. If you selected **Allow specific apps and block all others**, add the apps that you want to allow:
 
