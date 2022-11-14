@@ -58,6 +58,8 @@ If a feature is not available to a given user because the admin policy has turne
 
 For example, if you create a *highly sensitive* label and configure it to enforce watermarking and end-to-end encryption, that enforcement will only take place if watermarking and end-to-end encryption are enabled for the meeting organizer in the admin policy.
 
+As you plan for your meeting templates and sensitivity labels, ensure that the settings that you want to control with them are enabled in admin policies where required.
+
 ## Sensitivity labels and templates together
 
 Some settings are only available in sensitivity labels and some are only available in templates. Several are available in both:

@@ -69,6 +69,9 @@ Details on how to configure each tier are covered in:
 
 Both meeting templates and sensitivity labels have the ability to enforce certain meeting settings. Most settings can be enforced as either on or off or can be left unconfigured so the meeting organizer can set them.
 
+> [!Important]
+> Some features are [controlled by admin policies](meeting-templates-sensitivity-labels-policies.md#policies-labels-templates-and-meetings-settings) and must be enabled there before they can be controlled by meeting templates and sensitivity labels.
+
 Some settings are only available in sensitivity labels and some are only available in templates. Several are available in both:
 
 - Chat
