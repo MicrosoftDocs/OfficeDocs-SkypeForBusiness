@@ -60,11 +60,11 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ## SMS text notifications
 
-![Information icon](media/info.png) **This feature is moving to [Teams Premium]() (preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
+![Information icon](media/info.png) **This feature is moving to [Teams Premium](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams) (preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
-By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in [scheduled appointment types](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/bookings-virtual-appointments?view=o365-worldwide&branch=v-lanachin-bookings-prem#scheduled-appointment-type) and scheduled individual appointments.
+By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in [scheduled appointment types](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) and scheduled individual appointments.
 
 To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the **Allow Microsoft to send SMS text message notifications** check box.
 
