@@ -1,5 +1,5 @@
 ---
-title: Custom organization branding for Teams meetings
+title: Meeting themes for Teams meetings
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Using approved corporate assets like images and logos to create a custom branded experience for Teams meetings within your organization.
 ---
 
-# Custom organization branding for Teams meetings
+# Meeting themes for Teams meetings
 
 > [!NOTE]
 > Custom organizational meeting branding is part of the Teams premium Offering. To create a branding-enabled meeting, meeting organizers must have a Teams premium license.
