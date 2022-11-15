@@ -15,7 +15,7 @@ f1.keywords:
   - CSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Using approved corporate assets like images and logos to create a custom branded experience for Teams meetings within your organization.
+description: Using approved corporate assets like images and logos to create a custom meeting themes for Teams meetings within your organization.
 ---
 
 # Meeting themes for Teams meetings
