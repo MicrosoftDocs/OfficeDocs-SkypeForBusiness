@@ -159,7 +159,7 @@ Supported clients:
 
 Logos and images will be available for Join Launcher in future updates.
 > [!NOTE]
-> Webinars will use premium meeting branding for the in-meeting branding experience and continue to use webinar branding for the registration webpage and email. Meeting organizers will have the ability to turn off meeting branding for a webinar instance using the opt-out meeting option.
+> Webinars will use meeting themes for the in-meeting experience. However, the webinar registration webpage and email will continue using the current branding configurations. Meeting organizers can turn off meeting themes for a webinar experience by using the opt-out meeting option.
 
 ### Who can view a meeting theme
 
