@@ -55,6 +55,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Phone system introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direct routing | [Video 1: Planning for Direct Routing in Teams](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
+| Teams Devices Deployment playbook | | [Deck](https://aka.ms/teams-devices-deployment-playbook) |
+| Teams Phone Deployment playbook | | [Deck](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>Teams Rooms Foundations for IT & AV Pros</h2>
 
