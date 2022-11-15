@@ -28,7 +28,7 @@ By default, Teams premium licensed users who have been assigned a meeting custom
 > [!NOTE]
 > Attendees joining Teams through the Web experience won't be able to see meeting themes.
 
-## Pre-requisites
+## Prerequisites
 
 Before setting up meeting themes in Teams Meetings, check to make sure you have the following items:
 
