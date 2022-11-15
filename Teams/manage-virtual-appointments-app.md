@@ -17,8 +17,6 @@ ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help
   - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
 appliesto: 
   - Microsoft Teams
 ---
@@ -124,11 +122,9 @@ App setup policies let you customize Teams to highlight the apps that are most i
 
 To pin the Virtual Appointments app for your users, you can edit the global (Org-wide default) policy. Or, you can create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-## Terms of Service
+## Terms of service
 
-This application is powered by Microsoft 365 services. Use of this application requires a subscription to Microsoft 365 services ("Application Services"). Your access to this application and corresponding Application Services is governed by existing Product Terms that apply to you through your organization's subscription agreement with Microsoft at [https://www.microsoft.com/licensing/terms](https://www.microsoft.com/licensing/terms).  
-
-You may lose access to this application if:  i) your organization’s subscription expires, or ii) your organization decides to terminate your access to their subscription, the application, or the Application Services.  The application may include third-party components licensed to you under separate terms. Any third-party notices for such third-party components may be accessible online at [https://www.microsoft.com/en-us/legal/products/notices](https://www.microsoft.com/licensing/terms) or in an accompanying third-party notice.  
+See [Virtual Appointments app in Microsoft Teams: Terms of service](virtual-appointments-app-terms-of-service.md).
 
 ## Related articles
 
