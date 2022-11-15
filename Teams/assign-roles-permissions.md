@@ -1,5 +1,5 @@
 ---
-title: Manage user roles in Microsoft Teams 
+title: Assign team owners and members in Microsoft Teams admin center
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -29,8 +29,6 @@ appliesto:
 1. In the Teams admin center, expand **Teams** and select **Manage teams**.
 2. Select the team name under the display name column.
 3. In the Members tab, you can add or remove members and assign owner and moderator roles to members.
-
-Team owners without admin capabilities can assign team settings and permissions in Teams, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
 
 ## Restrict permission to create teams
 
