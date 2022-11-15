@@ -124,7 +124,7 @@ To pin the Virtual Appointments app for your users, you can edit the global (Org
 
 ## Terms of service
 
-See [Virtual Appointments app in Microsoft Teams: Terms of service](virtual-appointments-app-terms-of-service.md).
+See [Terms of service](virtual-appointments-app-terms-of-service.md).
 
 ## Related articles
 
