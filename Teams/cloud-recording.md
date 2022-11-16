@@ -104,6 +104,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | I want recording to be turned off for the majority of the users but selectively enable specific users who are allowed to record. | <ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False.<li>Most of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False.<li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True. <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> If a Teams user from an external tenant that is enabled for Teams policy-based compliance recording joins a meeting or call on your tenant, that meeting/call will be recorded by the other tenant for compliance purposes regardless of cloud based recording turned on or off on your tenant. Presenters that are part of the meeting in your tenant are advised to remove the user from the meeting if recordings should not be captured by users from another tenant. For more information about policy based compliance recording on Teams, see [Introduction to Teams policy-based recording for calling & meetings](teams-recording-policy.md).
 
 ### Block or allow download of channel meeting recordings
 
