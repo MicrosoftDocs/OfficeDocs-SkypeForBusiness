@@ -1,7 +1,7 @@
 ---
 title: Meeting themes for Teams meetings
-author: MicrosoftHeidi, wlibebe
-ms.author: heidip, wlibebe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
