@@ -1,7 +1,7 @@
 ---
 title: Data and Privacy Information
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 06/01/2022
 ms.reviewer: 
