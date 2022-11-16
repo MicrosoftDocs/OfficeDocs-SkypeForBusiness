@@ -20,7 +20,7 @@ search.appverid: MET150
 description: Learn how to change the metadata and appearance of an app to rebrand it for better adoption in your organization.
 ---
 
-# Use app customization to update branding of apps in your organization's Teams store
+# Use app customization to update branding of apps in your org store
 
 Microsoft Teams admins can modify the appearance of some Teams apps to provide a personalized branded experience to their organization's end-users. Such modifications can enhance Teams store experience for end-users and help adhere to organization's branding. For example, admins can modify the description and icon of an app. The customization makes it easy for end-users to identify the app as internal tooling, to understand its org-specific use case, and to use it with confidence. Admins make these updates by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
 
@@ -103,7 +103,7 @@ After a few hours, your Teams users can see the customized app in the Teams stor
 
 Consider the following details about app customization functionality:
 
-* You can only customize [third-party apps](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-validated-by-microsoft) and not [custom apps](deploy-apps-microsoft-teams-landing-page.md#custom-apps).
+* You can only customize [third-party apps](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-created-by-independent-app-developers) and not [custom apps](deploy-apps-microsoft-teams-landing-page.md#custom-apps-created-within-an-organization-for-internal-use).
 
 * You can't customize any app in Government Community Cloud High (GCCH) and Department of Defense (DoD) environments.
 
@@ -113,7 +113,7 @@ Consider the following details about app customization functionality:
 
 * You'll have only one version of the app, since customizing the app details doesn't create a copy of the app.
 
-* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developer provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
+* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
 
 * Admin-provided customization data is stored in the nearest data storage region.
 
@@ -149,7 +149,7 @@ The limitations on some of the customizable fields are below:
 | --- | --- |
 | My updates aren't available to my end-users. | Wait a few hours for changes to propagate. |
 | I can't customize an app. | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).|
-| I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization) |
+| I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
 | Manage apps page not loading properly. List of apps is not displayed. | Admin account in use must have the Teams license assigned. |
 
 <!--- Check ICM for error string. --->

@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Adobe Acrobat as a default PDF viewer in Microsoft Teams
+# Set Adobe Acrobat as the default PDF viewer in Microsoft Teams
 
 > [!NOTE]
 > Adobe Acrobat as a default PDF experience in Microsoft Teams is currently available only in public preview. To use this functionality, admins must [enable public preview](public-preview-doc-updates.md#enable-public-preview) for their tenant and ensure that the end-users change Teams client version to public preview.
@@ -66,7 +66,9 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 After you select save, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 
-If you want to selectively allow the Adobe Acrobat app for a few individuals or for a group, you can assign a [custom app permission policy](teams-app-permission-policies.md).
+If you want to selectively allow the Adobe Acrobat app for a few individuals or for a group, you can assign a [custom policy for app permissions](teams-app-permission-policies.md).
+
+## Considerations and limitations
 
 Know the following information about this functionality:
 
@@ -75,5 +77,5 @@ Know the following information about this functionality:
 * Adobe Acrobat as a default PDF viewer in Teams works only on desktop and web clients. It isn't supported on mobile client.
 * Users need an Adobe Acrobat plan to use the premium tools such as Export PDF, Organize Pages, Combine Files, Compress PDF, and Protect PDF.
 * To uninstall the app, end-users can remove the app from the Teams client. Admin can remove the Adobe Acrobat app by using setup policy.
-* If you block Adobe Acrobat app, then remove it from the setup policy. It ensures that the end-user experience reverts to using the native PDF file viewer.
+* If you block Adobe Acrobat app, then remove the app from the setup policy. It ensures that the end-user experience reverts to using the native PDF file viewer.
 * If you face any issues while signing in to Adobe Acrobat app in the Teams desktop client, then use [Teams in browser](https://teams.microsoft.com/) to sign in.
