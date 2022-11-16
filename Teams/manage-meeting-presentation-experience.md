@@ -36,8 +36,8 @@ Meeting organizers can specify many of theses settings when they create the meet
 
 The following table shows where settings are available to manage who can present in meetings:
 
-|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
-|:------|:---------:|:---------------:|:------:|:---------------:|
+|Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
+|:------|:----------:|:---------------:|:------:|:---------------:|
 |Who can present|Yes|Yes|No|Yes|
 |Participants can give or request control|Yes|No|No|No|
 |External participants can give or request control|Yes|No|No|No|
@@ -109,8 +109,8 @@ In meetings where sensitive information is being shared, it can be important to 
 
 The following table shows settings that can help manage what content and video is shared on screen in meetings.
 
-|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
-|:------|:---------:|:---------------:|:------:|:---------------:|
+|Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
+|:------|:----------:|:---------------:|:------:|:---------------:|
 |Screen sharing mode|Yes|No|No|No|
 |Manage what attendees see|No|No|Yes|Yes|
 
@@ -122,8 +122,8 @@ The following table shows settings that can help manage what content and video i
 
 Teams offers several presentation tools that allow for interactive participation of meeting attendees. The following table shows features that can help manage these tools.
 
-|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
-|:------|:---------:|:---------------:|:------:|:---------------:|
+|Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
+|:------|:----------:|:---------------:|:------:|:---------------:|
 |PowerPoint Live|Yes|No|No|No|
 |Whiteboard|Yes|No|No|No|
 |Shared notes|Yes|No|No|No|
@@ -140,8 +140,8 @@ Consider if there are users or groups in your organization who should not use th
 
 The following table shows features that can help manage how meeting attendees interact during a meeting.
 
-|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
-|:------|:---------:|:---------------:|:------:|:---------------:|
+|Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
+|:------|:----------:|:---------------:|:------:|:---------------:|
 |Allow camera for attendees|No|No|Yes|Yes|
 |Allow mic for attendees|No|No|Yes|Yes|
 |Reactions|Yes|No|Yes|Yes|

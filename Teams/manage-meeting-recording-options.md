@@ -25,8 +25,8 @@ Teams is designed to allow easy recording for meeting participants. If you have 
 
 The following table shows the features available to help you manage meeting recordings and where they're configured.
 
-|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
-|:------|:---------:|:---------------:|:------:|:---------------:|
+|Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
+|:------|:----------:|:---------------:|:------:|:---------------:|
 |Meeting recording overall|Yes|No|No|No|
 |Who can record|No|Yes|Yes|Yes|
 |Record automatically|No|Yes|Yes|Yes|

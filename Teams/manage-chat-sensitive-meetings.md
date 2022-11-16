@@ -27,8 +27,8 @@ If you have compliance requirements for certain types of meetings, you can manag
 
 The following table show what chat-related controls are available and where they can be managed.
 
-|Setting|Teams admin|Sensitivity label|Template|Meeting organizer|
-|:------|:---------:|:---------------:|:------:|:---------------:|
+|Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
+|:------|:----------:|:---------------:|:------:|:---------------:|
 |Meeting chat|Yes|Yes|Yes|Yes|
 |Meeting chat copy and paste|No|Yes|No|No|
 |Q&A|Yes|No|No|Yes|
