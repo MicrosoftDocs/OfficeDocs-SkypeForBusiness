@@ -97,4 +97,4 @@ Microsoft Teams Rooms for Windows security: [[Microsoft Teams for Windows securi
 Microsoft Teams Rooms for Android security: [Microsoft Teams for Android security](/microsoftteams/rooms/security-android) \
 Microsoft Privacy Statement: https://aka.ms/privacy \
 Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
-Managed Services service description: [Microsoft Teams Room managed service](microsoft-teams-rooms-premium.md)
+Managed Services service description: [Microsoft Teams Room managed service](rooms-pro-management.md)
