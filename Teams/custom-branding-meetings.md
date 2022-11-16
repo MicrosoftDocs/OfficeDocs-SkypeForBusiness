@@ -80,7 +80,7 @@ Uploads must adhere to the following parameters. An admin can only upload:
 Admins will upload 2 variations of the logo images that will appear on the Pre-Join and Lobby UI:
   
 - Dark Theme Brand Logo
-- Light Theme Brand Logo 
+- Light Theme Brand Logo
 
 > [!NOTE]
 > Light Theme Brand Logos will be available in future updates.
@@ -115,8 +115,6 @@ Once you've added your meeting assets, you can preview how your theme will look 
 ### Save meeting theme
 
 By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** will save the meeting theme, but won't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
-
-
 
 ### Assigning a meeting customization policy to users
 
@@ -206,6 +204,6 @@ Here are a few points to ensure accessibility requirements are met:
 - Image Contrast Ratio – Image assets are required to meet the 4:5:1 color contrast ratio.  
 - Accessible Color Generation Support – We calculate the accessible color output that is the closest match to the brand color input while maintain Microsoft Accessibility standards  
 - High Contrast support – For users with high contrast settings enabled, branding does not apply. They will continue to see the default Teams meeting experience.
-- IT Admin Controls – IT Admins can prevent users with accessibility concerns from seeing the branding by: 
+- IT Admin Controls – IT Admins can prevent users with accessibility concerns from seeing the branding by:
   - Policy control – ensuring they are not added to a customization policy. This will prevent them from creating branding-enabled meetings.
   - Meeting Options – meeting organizers can turn off branding for a meeting if a user with accessibility concerns will be joining the meeting.
