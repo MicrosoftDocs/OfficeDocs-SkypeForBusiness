@@ -29,11 +29,33 @@ Teams improves workplace collaboration by helping organizations move from an arr
 
 Microsoft Teams will be replacing Kaizala as the primary communication client in Microsoft 365 for both internal employees and people in your extended networks.
 
-Kaizala Pro capabilities are now available in Teams and include Kaizala actions that are now available as Teams [app templates](/microsoftteams/platform/samples/app-templates), such as [polls](/microsoftteams/platform/samples/app-templates#poll), [surveys](/microsoftteams/platform/samples/app-templates#survey), [checklists](/microsoftteams/platform/samples/app-templates#checklist), [quizzes](/microsoftteams/platform/samples/app-templates#quiz--), and [training](/microsoftteams/platform/samples/app-templates#training--). We have recently released the capability for any Teams users to interact with external users through their phone numbers. View the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) and [article](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) to learn more.
+Kaizala Pro capabilities are now available in Teams and include Kaizala actions that are now available as Teams [app templates](/microsoftteams/platform/samples/app-templates), such as [polls](/microsoftteams/platform/samples/app-templates#poll), [surveys](/microsoftteams/platform/samples/app-templates#survey), [checklists](/microsoftteams/platform/samples/app-templates#checklist), [quizzes](/microsoftteams/platform/samples/app-templates#quiz--), and [training](/microsoftteams/platform/samples/app-templates#training--). We've recently released the capability for any Teams users to interact with external users through their phone numbers. View the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) and [article](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) to learn more.
 
 Enabling every member of an organization’s network with digital communication and collaboration tools can transform the way work gets done. This overview will help you start your transition from Kaizala to Microsoft Teams today.
 
-Keep reading for frequently asked questions about Kaizala and Teams.
+## Transition from Kaizala to Microsoft Teams
+
+This section provides information regarding the migration from Kaizala to Microsoft Teams, for the following entities:
+
+- [SMB users](#smb-users)
+- [Commercial users](#commercial-users)
+- Consumers
+
+### SMB users
+
+SMB users can move from Kaizala to Teams Essentials, a component of Microsoft Teams, by subscribing to [Microsoft Teams Essentials](https://www.microsoft.com/microsoft-teams/essentials).
+
+Teams Essentials is an affordable and professional meeting solution designed with small business in mind. This solution enables the SMB users to communicate and collaborate in an easy and reliable way.
+
+### Commercial users
+
+Commercial users can move from Kaizala to Microsoft Team by subscribing to [Microsoft Teams Built for hybrid work](https://www.microsoft.com/microsoft-teams/teams-for-work).
+
+Microsoft Teams is a collaboration application built for hybrid work. This application - on a single platform - enables communication, organization, collaboration between you and your team.
+
+### Consumers
+
+Consumers can move from Kaizala to Microsoft Teams application, a free application that fulfills your collaboration and communication needs, by subscribing to [Microsoft Teams (free)](https://www.microsoft.com/microsoft-teams/free).
 
 ## FAQ
 
