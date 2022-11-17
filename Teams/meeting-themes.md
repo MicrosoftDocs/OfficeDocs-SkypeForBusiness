@@ -61,7 +61,7 @@ Within the meeting customization policy, admins can begin defining their brandin
 Meeting themes houses the following assets for your theme:
 
 - Logo - your organization's logo image.
-- Custom image - a brand image from your organization (custom images aren't the same as [custom meeting backgrounds](custom-org-defined-backgrounds.md)).
+- Custom image - a brand image from your organization (custom images aren't the same as [custom meeting backgrounds](custom-meeting-backgrounds.md)).
 - Custom color - it's recommended to use either your brand's primary or secondary color - whichever one best complements your brand image and logo.
 
 To create a new theme, select **Add meeting theme**.
@@ -90,7 +90,7 @@ Admins will upload two variations of the logo images that will appear on the Pre
 Teams meetings support an organization's images that skin the meetings screen and provide a colorful backdrop to your meetings.
 
 > [!NOTE]
-> These images aren't the same as [custom meeting backgrounds](custom-org-defined-backgrounds.md)
+> These images aren't the same as [custom meeting backgrounds](custom-meeting-backgrounds.md)
 
 Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and uploads must follow these parameters:
 
