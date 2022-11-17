@@ -287,10 +287,8 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
-
 | Poly Studio X30 | `3.14.1.374010` | 2022 Update #2B   |
 | Poly Studio X50 | `3.14.1.374010` | 2022 Update #2B  |
-
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
