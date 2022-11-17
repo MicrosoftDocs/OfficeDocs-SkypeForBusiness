@@ -24,7 +24,7 @@ appliesto:
 
 # Walkie Talkie app in Microsoft Teams
 
-The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using push-to-talk, one at a time.
+The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT, one at a time.
 
 With Walkie Talkie in Teams, frontline workers can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
@@ -39,18 +39,18 @@ Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Of
 
 Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
-### Enable or disable Walkie Talkie in your organization
+### Step 1: Make sure Walkie Talkie is enabled in your organization
 
-Walkie Talkie is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
+By default, the Walkie Talkie app is enabled for all Teams users in your organization.
+
+You control whether the app is available at org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center. To confirm that the app is enabled in your organization:
 
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
-2. In the list of apps, search for the Walkie Talkie app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
+2. In the list of apps, search for the Walkie Talkie app, select it, and then make sure the **Status** toggle is set to **Allowed**.
 
-### Enable or disable Walkie Talkie for specific users in your organization
+If you want to allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie enabled for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-To allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions, add it to an app setup policy, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md) and [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
-
-### Pin Walkie Talkie to Teams
+### Step 2: Pin Walkie Talkie to Teams
 
 #### Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
@@ -125,7 +125,8 @@ On devices running Android OS version 12 or later, Bluetooth permissions are req
 
 ## More information
 
-- If your frontline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
+- Let your users know that after they're finished using Walkie Talkie, they must tap **Disconnect** to disconnect from the channel and stop receiving transmissions. Otherwise, users will continue to receive transmissions on the channel they're connected to.
+- If users are using mobile data to communicate via Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
 To learn more about the end-user experience, see:
