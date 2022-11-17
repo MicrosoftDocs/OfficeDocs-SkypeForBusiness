@@ -59,7 +59,7 @@ If you want to allow or block specific users in your organization from using Wal
 
 The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that's tailored to their needs.
 
-The apps are pinned to the app tray at the bottom of the Teams mobile clients where users can quickly and easily access them.
+The apps are pinned to the app tray at the bottom of Teams mobile clients where users can quickly and easily access them.
 
 To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
