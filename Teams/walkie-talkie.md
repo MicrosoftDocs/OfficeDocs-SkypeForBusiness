@@ -45,12 +45,12 @@ Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) 
 
 By default, the Walkie Talkie app is enabled for all Teams users in your organization.
 
-You control whether the app is available at organization level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center. To confirm that the app is enabled in your organization:
+You control whether the app is available at the organization level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center. To confirm that the app is enabled in your organization:
 
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, search for the Walkie Talkie app, select it, and then make sure the **Status** toggle is set to **Allowed**.
 
-If you want to allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie enabled for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+If you want to allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is enabled for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### Step 2: Pin Walkie Talkie to Teams
 
