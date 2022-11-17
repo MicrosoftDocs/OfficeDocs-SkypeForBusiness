@@ -20,6 +20,7 @@ ms.custom:
 - Security
 appliesto: 
   - Microsoft Teams
+ms.date: 11/17/2022
 ---
 
 # Walkie Talkie app in Microsoft Teams
