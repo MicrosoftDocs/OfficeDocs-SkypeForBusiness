@@ -32,7 +32,7 @@ Only users who connect to Walkie Talkie in a channel become participants and can
 With Walkie Talkie in Teams, users can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
 > [!NOTE]
-> Walkie Talkie is currently not available in China.
+> Walkie Talkie currently is not available in China.
 
 ## License requirements
 
