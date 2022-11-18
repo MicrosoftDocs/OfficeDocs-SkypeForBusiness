@@ -666,9 +666,9 @@ items:
               href: unsupported-browsers.md
             - name: Configure desktop sharing in Teams
               href: configure-desktop-sharing.md
-            - name: Teams cloud meeting recording
+            - name: Teams meeting recording
               href: cloud-recording.md
-            - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
+            - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
             - name: Use the Teams Meeting add-in in Outlook
               href: teams-add-in-for-outlook.md
