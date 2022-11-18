@@ -52,7 +52,7 @@ If you have 64-bit computers, we recommend installing the 64-bit Teams MSI even 
 
 ### PC installation
 
-The Teams MSI places an installer in `%SystemDrive%\Program Files\Teams Installer` on 64-bit Windows and `%SystemDrive%\Program Files (x86)\Teams Installer` on 32-bit Windows. Whenever a user signs into a new Windows user profile, the installer is launched and a copy of the Teams app is installed in that user's `%LocalAppData%\Microsoft\Teams` folder. If a user already has the Teams app installed in the `%LocalAppData%\Microsoft\Teams` folder, the MSI installer skips the process for that user.
+The Teams MSI places an installer in `%SystemDrive%\Program Files (x86)\Teams Installer` on 32-bit and 64-bit Windows. Whenever a user signs into a new Windows user profile, the installer is launched and a copy of the Teams app is installed in that user's `%LocalAppData%\Microsoft\Teams` folder. If a user already has the Teams app installed in the `%LocalAppData%\Microsoft\Teams` folder, the MSI installer skips the process for that user.
 
 MSI files can't be used to deploy updates. The Teams client will auto-update when it detects a new version is available from the service. To re-deploy the latest installer, use the process of redeploying MSI described below. If you deploy an older version of the MSI file, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
 
