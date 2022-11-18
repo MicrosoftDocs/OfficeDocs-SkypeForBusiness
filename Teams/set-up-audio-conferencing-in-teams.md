@@ -13,6 +13,7 @@ ms.collection:
   - M365-voice
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 audience: Admin
 appliesto: 
   - Microsoft Teams

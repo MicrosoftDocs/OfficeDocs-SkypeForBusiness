@@ -4,12 +4,13 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: 
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers

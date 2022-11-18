@@ -7,7 +7,6 @@ ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dstrome
 description: Learn about the reporting options available to see how users are using Microsoft Teams and gather feedback on user experiences.
 ms.localizationpriority: high
 search.appverid: MET150

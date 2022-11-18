@@ -31,17 +31,23 @@ These settings control which meeting participants wait in the lobby before they'
 
 - [Let anonymous people join a meeting](#let-anonymous-people-join-a-meeting)
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
+- [Who can present in meetings](#who-can-present-in-meetings)
 - [Automatically admit people](#automatically-admit-people)
-- [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [Dial-in users can bypass the lobby](#dial-in-users-can-bypass-the-lobby)
+- [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Live captions](#live-captions)
 - [Chat in meetings](#chat-in-meetings)
+- [Teams Q&A](#teams-qa)
+- [Meeting reactions](#meeting-reactions)
+
+These settings are found in the Teams admin center under **Meetings** > **Meeting policies** in the **Participants & guests** section.
 
 > [!NOTE]
 > Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## Let anonymous people join a meeting
 
-This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Anonymous users' ability to join meetings are also controlled at your organization level, the more restrictive setting will be effective. To learn more, see [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). Anonymous users' ability to join meetings are also controlled at your organization level, the more restrictive setting will be effective. To learn more, see [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## Let anonymous people start a meeting
 
@@ -49,6 +55,20 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 > [!NOTE]
 > If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
+
+## Who can present in meetings
+
+This is a per-user policy. This setting lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. This policy setting affects all meetings, including Meet Now meetings.
+
+The **Who can present?** setting lets meeting organizers choose who can be presenters in a meeting. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the policy:
+
+- **Organizers, but users can override**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only me** setting in Teams.
+- **Everyone in the organization, but user can override**: Authenticated users in the organization, including guest users, can be presenters. This setting corresponds to the **People in my organization** setting in Teams.
+- **Everyone, but user can override**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
+
+Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
 
 ## Automatically admit people
 
@@ -73,12 +93,16 @@ This is a per-organizer policy. This setting controls whether people join a meet
  > [!NOTE]
 > Trusted organizations are domains that you allow federated communications with in Teams. If you enable **Allow all external domains** for external access in the Teams admin center, any authenticated user within any Teams organization will be trusted. If you choose to specify external domains that are allowed and block all others, the allowed domains become trusted organizations. Any blocked domain is considered to not be a trusted organization.
 
-## Allow dial-in users to bypass the lobby
+## Dial-in users can bypass the lobby
 
 This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting with a Teams client.
 
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
+
+## Meet now in private meetings
+
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting. By default, this setting is turned on.
 
 ## Live captions
 
@@ -88,8 +112,19 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Disabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Not enabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
 |**Not enabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
+
+For more information on how your end users can turn on **Live captions**, see [Use live captions in a Teams meeting](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
+
+### Live translated captions
+
+> [!NOTE]
+> This feature is temporarily available in public preview. After the preview, the meeting organizer must have a Teams Premium license for attendees to use live translated captions.
+
+By default, **Live captions** are displayed in the language that’s spoken during a meeting. **Live translated captions** allow your users to see captions translated into the language they’re most comfortable with.
+
+To enable **Live translated captions**, **Live captions** must be set to **Not enabled but the user can override** in the Teams admin center. To turn off **Live translated captions**, set this to **Not enabled**.
 
 <a name="bkcontentsharing"> </a>
 
@@ -112,18 +147,22 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 <a name="bkparticipantsandguests"> </a>
 
-## Q&A in meetings
+## Teams Q&A
 
-This is a per-organizer policy. This setting enables Microsoft 365 Tenant Admins to Enable or Disable the Questions & Answers experience (Q&A).
+This is a per-organizer policy. This setting turns the Questions & Answers experience (Q&A) on or off.
 
-The setting is enforced when a meeting is created or is updated by Organizers. By default, this setting is turned off. Learn more about Q&A [here](/manage-qna-for-meetings).
+The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](/manage-qna-for-teams).
 
-The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the admin portal.
+The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the Teams admin center.
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Enabled**     | Organizers can add Q&A when creating meetings. |
-|**Disabled**     | Organizers won't have the option to add Q&A when creating meetings.  |
+|**On**     | Organizers can add Q&A when creating meetings. |
+|**Off**     | Organizers won't have the option to add Q&A when creating meetings.  |
+
+## Meeting reactions
+
+Meeting reactions are on by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Enable meeting policy settings
 

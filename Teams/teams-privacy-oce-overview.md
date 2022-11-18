@@ -49,6 +49,10 @@ Teams device store is in the Teams admin center and it enables discovery and pur
 
 To learn more about Teams device store, check out: [Purchase devices in the Teams device store](devices/device-store.md)
 
+## Search Coach Tab App
+
+The Search Coach Teams tab app available in Microsoft EDU Class Teams makes search requests to Bing search through the Bing API when a user sends a query, returning ad-free SafeSearch results. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement).
+
 ## Related articles
 
 - [Overview of policy controls for Teams](policy-control-overview.md)

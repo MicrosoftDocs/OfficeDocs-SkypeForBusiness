@@ -22,7 +22,7 @@ Skype for Business Server 2015 supports integration with Exchange Unified Messag
 
 For details, see:
   
-- "Plan for Exchange Unified Messaging integration in Skype for Business" at [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)
+- "Plan for Exchange Unified Messaging integration in Skype for Business" at [https://learn.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)
     
 - "Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
     
