@@ -679,8 +679,8 @@ items:
               href: teams-live-events/live-events-recording-policies.md
             - name: Streaming overview
               href: teams-stream-overview.md
-            - name: Set up streaming
-              href: teams-stream-setup.md
+            - name: Teams encoder
+              href: teams-encoder-setup.md
             - name: Configuration
               href: teams-stream-configuration.md
             - name: Creating an event
