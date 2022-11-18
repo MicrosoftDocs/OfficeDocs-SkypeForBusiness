@@ -55,7 +55,7 @@ Get easy access to key actions and information. The Home page provides a quick v
 
 ![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams) (Preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
 
-Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual Appointments with Teams and the Bookings app](https://review.learn.microsoft.com/microsoft-365/frontline/bookings-virtual-appointments?branch=v-lanachin-bookings-prem) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
+Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
 
 :::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Bookings schedule page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
