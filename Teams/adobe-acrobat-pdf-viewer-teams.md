@@ -79,3 +79,4 @@ Know the following information about this functionality:
 * To uninstall the app, end-users can remove the app from the Teams client. Admin can remove the Adobe Acrobat app by using setup policy.
 * If you block Adobe Acrobat app, then remove the app from the setup policy. It ensures that the end-user experience reverts to using the native PDF file viewer.
 * If you face any issues while signing in to Adobe Acrobat app in the Teams desktop client, then use [Teams in browser](https://teams.microsoft.com/) to sign in.
+* Sign-in, to a free [Adobe account](https://acrobat.adobe.com/us/en/), is required for the end-uers to comment or annotate PDF files.
