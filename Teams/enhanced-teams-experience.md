@@ -62,11 +62,11 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 | Feature/Task  | Documentation for administrators |
 | -------------------- | ----------- | 
-| Sensitivity labels | [Configure Teams meetings with three tiers of protection](https://review.learn.microsoft.com/en-us/MicrosoftTeams/01-configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings) | 
-| Watermarks | [Require a watermark for meetings (article)](https://review.learn.microsoft.com/en-us/microsoftteams/10-watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
-| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/09-end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | 
-| Templates, labels, and policies | [Templates, sensitivity labels, and policies](https://review.learn.microsoft.com/en-us/microsoftteams/11-meeting-templates-sensitivity-labels-policies?branch=mikeplum-compliant-meetings)
-| Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/05-manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | 
+| Sensitivity labels | [Configure Teams meetings with three tiers of protection](https://review.learn.microsoft.com/en-us/MicrosoftTeams/configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings) | 
+| Watermarks | [Require a watermark for meetings (article)](https://review.learn.microsoft.com/en-us/microsoftteams/watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
+| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | 
+| Templates, labels, and policies | [Templates, sensitivity labels, and policies](https://review.learn.microsoft.com/en-us/microsoftteams/meeting-templates-sensitivity-labels-policies?branch=mikeplum-compliant-meetings)
+| Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | 
 
 
 ## Custom meetings
@@ -83,7 +83,7 @@ Teams Premium provides the following additional features for customizing meeting
 
 | Feature/Task | Documentation for administrators |
 | -------------------- | ----------- | 
-| Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/12-custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](https://review.learn.microsoft.com/en-us/microsoftteams/13-create-custom-meeting-template?branch=mikeplum-compliant-meetings)|
+| Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](https://review.learn.microsoft.com/en-us/microsoftteams/create-custom-meeting-template?branch=mikeplum-compliant-meetings)|
 | Meeting themes | [Custom organization branding](https://review.learn.microsoft.com/en-us/MicrosoftTeams/meeting-themes?branch=heidip-branded-meetings-2022) | 
 | Custom meeting backgrounds | [Organization-defined backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-meeting-backgrounds?branch=wlibebe-custom-org-backgrounds)| 
 | Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | 
