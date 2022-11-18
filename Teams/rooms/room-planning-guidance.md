@@ -139,27 +139,27 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 
 - In **larger rooms**, cameras feature the technology needed to capture participants in a variety of locations at varying distances away. These cameras can capture groups or focus on specific individuals while maintaining great visual clarity. Devices that can track and feature only active speakers are regularly used in larger spaces so that many participants may be featured individually throughout a meeting as they contribute their thoughts.
 
-# [Enhanced Microsoft Teams Room](#tab/emtr)
+# [Signature Teams Room](#tab/emtr)
 
-## Enhanced Microsoft Teams Room
+## Signature Teams Room
 
-![Rendering of an enhanced meeting room.](media/emr1.png)
+![Rendering of an Signature Teams Room.](../media/emr1.png)
 
-This section explores how Microsoft is transforming standard conference rooms into enhanced Microsoft Teams Rooms that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, and Microsoft Corporate Facilities reference specifications.
+This section explores how Microsoft is transforming standard conference rooms into Signature Microsoft Teams Rooms that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, and Microsoft Corporate Facilities reference specifications.
 
 ## Microsoft's vision for the future of meeting rooms
 
-The future of work will be fluid, dynamic, and powered by the cloud. Microsoft enables meeting experiences that allow people to be there, from anywhere, at any time. These meetings are hybrid, which means you can join them seamlessly. Meetings enhanced with Microsoft devices are inclusive; every voice is heard, and everyone is clearly represented.
+The future of work will be fluid, dynamic, and powered by the cloud. Microsoft enables meeting experiences that allow people to be there, from anywhere, at any time. These meetings are hybrid, which means you can join them seamlessly. Meetings that use devices that are optimized for Signature Teams Rooms are inclusive; every voice is heard, and everyone is clearly represented.
 
 Microsoft sees a future where meetings are immersive and spaces are designed around people. Our dynamic meeting views keep everyone connected to the content and each other: Formal presentations are paired with collaborative chats. Digital canvases unleash group creativity. Everyone can connect face to face wherever they are.
 
 The vision for the future of meetings is grounded in a simple belief: meetings should offer so much more than just a one-time transaction. Meetings will be designed for everyone, whether they're in the room or across the world.
 
-## What is an enhanced Microsoft Teams Room?
+## What is a Signature Teams Room?
 
-In Microsoft's hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced room is a Microsoft Teams Room designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
+In Microsoft's hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. A Signature Teams Room is designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
-The concept for the enhanced Microsoft Teams Room is designed around two key goals that are supported by a set of experience principles.
+The concept for the Signature Teams Room is designed around two key goals that are supported by a set of experience principles.
 
 **Goal 1: Everyone in the meeting feels included, represented, and productive.**
 
@@ -177,7 +177,7 @@ Design principles:
 
 - Experiences are scaled for human connection, enabling interactions that feel like everyone is in the same room.
 
-An enhanced room experience is all those components and ideas put together with no single feature defining the experience. The individual features and concepts found in our enhanced Microsoft Teams Rooms may also be deployed on their own.
+A Signature Teams Room experience is all those components and ideas put together with no single feature defining the experience. The individual features and concepts found in our Signature Teams Rooms may also be deployed on their own.
 
 Examples of specific feature deployment:
 
@@ -187,13 +187,13 @@ Examples of specific feature deployment:
 
 ## When should you deploy this room type?
 
-Enhanced Microsoft Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
+Signature Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
-Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting experiences made available through software updates. However, there are hardware technologies and room configuration guidance that play a key role in optimizing some of the enhanced experiences. It's the combination of these components that comprise an enhanced Microsoft Teams Room. When evaluating how many Microsoft Teams Rooms you want to evolve to an enhanced Microsoft Teams Room, consider the following:
+Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting experiences made available through software updates. However, there are hardware technologies and room configuration guidance that play a key role in optimizing some of the Signature Teams Room experiences. It's the combination of these components that comprise a Signature Teams Room. When evaluating how many Microsoft Teams Rooms you want to evolve to a Signature Teams Room, consider the following:
 
 - What hardware upgrades and/or investments would need to be made.
 
-- Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. An enhanced Microsoft Teams Room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
+- Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. A Signature Teams Room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
 
 ### Understanding this space
 
@@ -227,7 +227,7 @@ An ultrawide-angle camera is positioned at the front of the room below the displ
 
 The ultrawide-angle camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
 
-![Rendering of an enhanced meeting room from an overhead view.](media/emr5.png)
+![Rendering of a Signature Teams Room from an overhead view.](../media/emr5.png)
 
 ### How do the front-of-room displays work?
 
@@ -237,15 +237,15 @@ This room is optimized for the Microsoft Teams Rooms layout called front row and
 
 To give people in the room a greater sense of connection to remote participants and support collaboration before, during, and after meetings, Microsoft introduced a new content layout for Microsoft Teams Rooms called front row. Visually, this new layout moves the video gallery to the bottom of the screen and is fixed at a specific ratio to keep faces lifelike in size. With this layout, in-room participants can see remote colleagues face to face across a horizontal plane—similar to if they were in the same room.
 
-Meeting content is surrounded by contextual fluid components like the agenda, tasks, and notes, which can be updated in real time, helping participants stay engaged and productive. Additionally, the meeting chat is brought clearly into view so that when joining a Teams meeting from a Teams Room, you can easily see and engage in the conversation in real time. In an enhanced Microsoft Teams Room, this content is displayed on a wide-aspect-ratio screen to maximize the size of meeting content and the number of participants that can be viewed simultaneously.
+Meeting content is surrounded by contextual fluid components like the agenda, tasks, and notes, which can be updated in real time, helping participants stay engaged and productive. Additionally, the meeting chat is brought clearly into view so that when joining a Teams meeting from a Teams Room, you can easily see and engage in the conversation in real time. In a Signature Teams Room, this content is displayed on a wide-aspect-ratio screen to maximize the size of meeting content and the number of participants that can be viewed simultaneously.
 
-This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in an enhanced room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
+This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in a Signature Teams Room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
 
 ### How do you co-create content?
 
 In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteboarding by using the intelligent capture feature. For a modernized experience where all participants can draw and ink together, Microsoft Whiteboard can be accessed using a touchscreen front-of-room display, companion devices like a PC, phone, or tablet, and through Microsoft Surface Hub.
 
-## Enhanced Microsoft Teams Room design guidance
+## Signature Teams Room design guidance
 
 This section is intended to cover building a room from scratch.
 
@@ -253,13 +253,13 @@ This section is intended to cover building a room from scratch.
 
 #### Room size
 
-![Blueprint of an enhanced meeting room design.](media/emr10.png)
+![Blueprint of a Signature Teams Room design.](../media/emr10.png)
 
 25 ft x 14 ft
 
 #### Room capacity
 
-This enhanced Microsoft Teams Room is optimized for between 6 - 8 people.
+This Signature Teams Room is optimized for between 6 - 8 people.
 
 #### Room furniture
 
@@ -271,7 +271,7 @@ This room features a standard meeting room table with a height of 30 in or 76 cm
 
 Selecting a location for hardware is typically driven by the selection of Teams Room-certified hardware used within a given meeting space.
 
-For the initial deployments of enhanced rooms within our Microsoft facilities, we have chosen to mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left- and right-channel audio for spatial audio) mounted on specialized furniture, located below the displayed image as well as between the front-of-room projection and the table. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents. For the display, a short-throw high-resolution projector is used.
+For the initial deployments of Signature Teams Rooms within our Microsoft facilities, we have chosen to mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left- and right-channel audio for spatial audio) mounted on specialized furniture, located below the displayed image as well as between the front-of-room projection and the table. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents. For the display, a short-throw high-resolution projector is used.
 
 Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
 
@@ -313,7 +313,7 @@ Overhead lights should be provided to illuminate the space evenly, with meeting 
 
 ### Microsoft Teams Rooms solution
 
-Enhanced rooms for Microsoft Teams require the use of Microsoft Teams Rooms on Microsoft Windows.
+Signature Teams Rooms require the use of Microsoft Teams Rooms on Microsoft Windows.
 
 ### Cameras
 
@@ -363,7 +363,7 @@ Example display types include:
 
 #### Display functions
 
-Enhanced Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
+Signature Teams Rooms, as with all other Microsoft Teams Rooms solutions, require the use of displays that can accommodate the following features for proper operation:
 
 - Sleep and Quick Wake Up from sleep based on HDMI sync.
 
@@ -373,7 +373,7 @@ Enhanced Microsoft Teams Rooms, as with all other Microsoft Teams Rooms solution
 
 #### Display placement
 
-An enhanced room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
+A Signature Teams Room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
 
 The horizontal center line of the display must be centered on the same center line as the table.
 
@@ -381,7 +381,7 @@ The vertical center line of the display must be no more than +/- 15 degrees offs
 
 #### Display count
 
-An enhanced room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
+A Signature Teams Room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
 
 ### Co-create options
 

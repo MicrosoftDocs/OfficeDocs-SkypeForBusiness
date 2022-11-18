@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
-# Understand Microsoft Teams apps
+# Understand Microsoft Teams apps and their capabilities
 
 Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed locally.
 
@@ -81,6 +81,21 @@ Your organization developers customize App Templates with simple changes to the 
 
 To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
+## Discover and use apps in Teams
+
+Users can view all the apps available in Teams from the Teams apps store in a Teams desktop or web client. Users can search by name, browse by category, and browse by apps built for your org and built with Power Platform to discover and install apps in Teams.
+
+Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and if the app is allowed by Teams admin. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/teams-app-setup-policies).
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshot that shows all the places where the users can browse apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+
+Users can find and add apps to Teams from the Teams app store. They can also add apps directly from the context they're working in, such as chat or channel tab, Teams meeting, or messaging area. For more information, see [add an app to Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+A user can add and use an app only when an admin allows the app and the app is made available to the user via [permission policies](teams-app-permission-policies.md). An organization's IT admin has complete control over who can install which apps in which context. Users can't add apps that are blocked, any app with a lock icon in the Teams store is blocked for the user. However, [users can request their org’s IT admin for their approval](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). After the app is approved, users can add the app from the Teams store.
+
+> [!NOTE]
+> Only individuals can request for an approval to add an app in Teams.
+
 ## Understand app capabilities
 
 Teams app Capabilities are the core functionalities that can be built in an app to enable integration and interaction.
@@ -102,7 +117,6 @@ To provide rich experience that allows end-users to work inside Teams, app devel
   Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization. For information about turning custom bots on or off, see [Overview of app management and governance in Teams admin center](manage-apps.md).
 
 * **Tabs**: Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. They're simple HTML <iframe\> tags that point to domains declared in the app manifest and can be added as part of a channel inside a team, group chat, or personal app for an individual user. For more information, see [Microsoft Teams tabs](/microsoftteams/platform/tabs/what-are-tabs).
-
   In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, developers can design and add custom tabs. For more information, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks and connectors**: Webhooks and connectors help to connect the web services to channels and teams in Microsoft Teams. Webhooks are user defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It's a way for an app to get real time data. Connectors allow users to subscribe to receive notifications and messages from your web services. For more information, see [Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
@@ -117,81 +131,9 @@ To provide rich experience that allows end-users to work inside Teams, app devel
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
 
-<!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
-
-## Apps deployment decisions
-
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
-
-## Core deployment decisions
-
-These are the apps settings that most organizations want to change (if the Teams default settings don't work for them).
-
-### App availability settings
-
-Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams.
-Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
-
-By default, all Microsoft-provided, third-party, and custom apps are available, and you can turn individual apps on or off. There are org-wide settings that let you turn all third-party and/or custom apps on or off for your entire organization.
-
-| Ask yourself | Action |
-|--------------|--------|
-|Will you change the default Teams apps settings? | For more information about policies and settings that you can use to manage apps in your organization, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
-
-### App permissions and other considerations
-
-Apps are consented to by users and managed by the admin or IT pro through policies. However, app permissions and risk profile are defined in the app itself.
-
-| Ask yourself | Action |
-|--------------|--------|
-|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Manage your apps in the Microsoft Teams admin center](manage-apps.md) for information about making an app available to users in your organization.</li></ul>|
-
---->
-
-<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
-
-### Bots for private chats and channels
-
-Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
-
-| Ask yourself | Action |
-|--------------|--------|
-|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
-
-### Built-in and custom tabs
-
-Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
-
-| Ask yourself | Action |
-|--------------|--------|
-|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).|
-
-### Custom connectors
-
-Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
-
-| Ask yourself | Action |
-|--------------|--------|
-|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
-
---->
-
-<!--- TBD: Activity reports is not part of app overview. Commenting for now. To be reused in a different article later.
-
-### Activity reports
-
-You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin.
-
-| Ask yourself | Action |
-|--------------|--------|
-| Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
-
---->
-
 ## Related articles
 
 * [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).
-
+* [Teams app updates and admin role](apps-update-experience.md)
 * [Overview of app management and governance in Teams admin center](manage-apps.md)
 
-* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)

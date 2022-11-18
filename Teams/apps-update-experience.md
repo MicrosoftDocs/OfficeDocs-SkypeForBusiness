@@ -20,7 +20,7 @@ search.appverid: MET150
 description: In this article, learn how Microsoft apps, custom apps, and third-party apps in Microsoft Teams are updated and how admins facilitate it.
 ---
 
-# Teams app updates and admin role
+# Role of an admin in upgrading Teams apps
 
 Teams admins can help their end-users get the latest version of the apps. To do so, they accomplish one or both of the following tasks:
 
@@ -48,9 +48,9 @@ If app developers make one or more the following changes to their apps, then the
 
 ## Updates to custom apps
 
-Custom apps that are created and deployed within your organization are available to the users on your tenant or organization. Teams admin update the custom apps to new versions as provided by developers within the organization. For more information, see [how admins manage custom apps](custom-app-overview.md).
+Custom apps that are created and deployed within your organization are available to the users on your tenant or organization. Teams admin updates a custom app to its new version when a new version is provided by their organization's developers. For more information, see [how admins manage custom apps](custom-app-overview.md).
 
-## Related article
+## Related articles
 
 * [Understand manifest schema for updates done in apps](/microsoftteams/platform/resources/schema/manifest-schema).
 * [Know about custom app management](custom-app-overview.md).
