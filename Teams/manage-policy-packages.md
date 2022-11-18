@@ -24,6 +24,8 @@ description: Learn how to use and manage policy packages in Microsoft Teams to s
 
 # Manage policy packages for Microsoft Teams
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
 You can use the [policy packages included in Teams](#policy-packages-included-in-teams) or [create your own custom policy packages](#custom-policy-packages).
@@ -79,7 +81,7 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 ## Custom policy packages
 
 > [!NOTE]
-> The custom policy packages feature is available in preview. To use this feature after the preview, each user will need the Teams Premium license.
+> Custom policy packages requires Teams Premium.
 
 Custom policy packages let you bundle your own set of policies for users with similar roles in your organization. Create your own policy packages by adding the policy types and policies that you need.
 
