@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to manage policies and settings to control who in your organization can sideload apps and upload custom apps.
 f1.keywords:
