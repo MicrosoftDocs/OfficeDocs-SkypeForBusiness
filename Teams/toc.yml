@@ -1427,7 +1427,7 @@ items:
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
-              href: teams-meeting-room-guidance.md
+              href: rooms/room-planning-guidance.md
             - name: Version support
               href: rooms/rooms-lifecycle-support.md
             - name: Release notes
@@ -1492,13 +1492,13 @@ items:
     - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
-          href: rooms/microsoft-teams-rooms-premium.md
+          href: rooms/rooms-pro-management.md
         - name: Accessing the Pro Management portal
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
         - name: Role-based access control
-          href: rooms/microsoft-teams-rooms-premium-rbac.md
+          href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
         - name: Managed updates
