@@ -21,7 +21,7 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 # Microsoft Teams Premium licensing
 
 > [!NOTE]
-> Teams Premium is currently available as a preview release, allowing organizations to experience and plan for the generally available release of Teams Premium. Not all Teams Premium features are available in this preview release, but more features will be released throughout the preview period. To experience Teams Premium preview features, see [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses).
+> Teams Premium is currently available as a preview release, allowing organizations to experience and plan for the generally available release of Teams Premium. Not all Teams Premium features are available in this preview release, but more features will be released throughout the preview period. To experience Teams Premium preview features, see [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
 
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
@@ -32,7 +32,7 @@ Microsoft Teams Premium is a Teams add-on license that allows organizations with
 This article is for IT admins who wish to understand Teams Premium licensing and purchase Teams Premium licenses for their users. This article will provide answers to questions like:
 
 - [How does Teams Premium compare to Teams?](#how-does-teams-premium-compare-to-teams)
-- [Are there current Teams features that will be only available with Teams Premium?](#are-there-current-teams-features-that-will-be-only-available-with-teams-premium)
+- [Are there current Teams features that will move to Teams Premium?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
 - [How does Teams enforce access to Teams Premium features?](#how-does-teams-enforce-access-to-teams-premium-features)
 - [How does Teams Premium differ from Teams Rooms Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
@@ -132,11 +132,11 @@ The following table compares key features between Teams and Teams Premium.
 | View and manage on-demand appointments in the queue |  | x |
 | Send post-appointment follow-ups (*coming soon*) |  | x |
 
-## Are there current Teams features that will be only available with Teams Premium?
+## Are there current Teams features that will move to Teams Premium?
 
-With the general release of Teams Premium, some Teams features will be moved from Teams licenses to Teams Premium licenses. To allow your users to keep using these features, you'll need to purchase and assign Teams Premium licenses to your users.
+With the general release of Teams Premium, some Teams features will move from Teams licenses to Teams Premium licenses. To allow your users to keep using these features, you'll need to purchase and assign Teams Premium licenses.
 
-The features that will be moved to Teams Premium are:
+The features that are moving to Teams Premium are:
 
 - Live translated captions.
 - Timeline markers in Teams meeting recordings for when a user left or joined meetings.
@@ -175,7 +175,7 @@ The **user requirement** is:
 
 Some Teams Premium features may have other licensing requirements. These features and extra requirements are:
 
-- **Sensitivity label features:** requires an Office 365 E5 or Microsoft 365 E5 subscription.
+- **Sensitivity labels:** requires an Office 365 E5 or Microsoft 365 E5 subscription.
 
 ## How does Teams enforce access to Teams Premium features?
 
@@ -218,7 +218,7 @@ For this reason, we recommend organizations plan their Teams Premium trial perio
 
 When the trial licenses expire, the tenant's uploaded Teams Premium assets like custom templates and meeting backgrounds will remain in the tenant but will be grayed out and unusable.
 
-If your organization wishes to keep Teams Premium features after the trial period, you'll need to purchase paid Teams Premium licenses when they become available and reassign the licenses to your users.
+If your organization wishes to keep Teams Premium features after the trial period, you'll need to purchase Teams Premium licenses when they become available and reassign the licenses to your users.
 
 ## How do I purchase Teams Premium licenses?
 
