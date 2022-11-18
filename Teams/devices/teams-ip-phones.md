@@ -46,6 +46,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX350                            | `8.0.1.4670`                                                  | 	August 5, 2023              | 9 |
 | Poly CCX505                            | `7.3.1.0811`                                                  | 	August 5, 2023              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  | 	August 5, 2023              | 9 |
 | AudioCodes C448HD(Cap Mode Only)       |  `1.17.443`                                                   | August 5, 2023            | 9 |
@@ -288,10 +289,8 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
-
 | Poly Studio X30 | `3.14.1.374010` | 2022 Update #2B   |
 | Poly Studio X50 | `3.14.1.374010` | 2022 Update #2B  |
-
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
