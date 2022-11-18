@@ -79,7 +79,7 @@ The Teams Virtual Appointments usage report gives admins, decision makers, and u
 
 You can view detailed activity for virtual appointments scheduled and conducted through multiple scheduling entry points and drill down into individual appointment data.
 
-The analytics experience depends on user role. Admins get [organizational analytics](#organizational-analytics) and non-admins get [departmental or inividual analytics](#departmental-and-individual-analytics).
+The analytics experience depends on user role. Admins get [organizational analytics](#organizational-analytics) and non-admins get [departmental or individual analytics](#departmental-and-individual-analytics).
 
 #### Organizational analytics
 
