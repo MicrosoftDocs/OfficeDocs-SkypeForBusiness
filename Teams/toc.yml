@@ -677,8 +677,6 @@ items:
               href: teams-live-events/configure-teams-live-events.md
             - name: Live events recording policies
               href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming
-          items: 
             - name: Streaming overview
               href: teams-stream-overview.md
             - name: Set up streaming
