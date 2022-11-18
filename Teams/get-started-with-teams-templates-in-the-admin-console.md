@@ -18,6 +18,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
 ---

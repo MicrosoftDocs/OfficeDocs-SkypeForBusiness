@@ -16,7 +16,9 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: lavenkat
 description: Use Microsoft Teams predefined templates built in Microsoft Graph to quickly and easily create teams for small and medium businesses.
-ms.custom: seo-marvel-mar2020
+ms.custom: 
+  - seo-marvel-mar2020
+  - chat-teams-channels-revamp
 ---
 
 # Team templates built in Microsoft Graph for small and medium businesses
