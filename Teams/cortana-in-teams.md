@@ -12,6 +12,7 @@ description: Learn how to use Cortana voice assistance with Teams
 ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
+- chat-teams-channels-revamp
 f1.keywords:
 - NOCSH
 ms.collection:
