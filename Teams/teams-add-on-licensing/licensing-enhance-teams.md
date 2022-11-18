@@ -171,7 +171,7 @@ The **user requirement** is:
 
 - An Office 365 or Microsoft 365 subscription with Teams.
 
-### Are there other requirements to use Teams Premium features?
+### Do any Teams Premium features have extra license requirements?
 
 Some Teams Premium features may have other licensing requirements. These features and extra requirements are:
 
