@@ -50,7 +50,7 @@ The following table compares key features between Teams and Teams Premium.
 ### Meetings
 
 | Feature | Teams | Teams Premium |
-|---------|-------|---------------|
+|---------|:-----:|:-------------:|
 | Host and attend Teams Meetings | x | x |
 | Experience Teams’ standard look and feel | x | x |
 | Use standard Teams Meetings backgrounds | x | x |
@@ -66,7 +66,7 @@ The following table compares key features between Teams and Teams Premium.
 ### Webinars
 
 | Feature | Teams | Teams Premium |
-|---------|-------|---------------|
+|---------|:-----:|:-------------:|
 | Require attendees to register | x | x |
 | Assign a co-organizer | x | x |
 | Limit the number of people who can register | x | x |
@@ -85,7 +85,7 @@ The following table compares key features between Teams and Teams Premium.
 ### Meetings security
 
 | Feature | Teams | Teams Premium |
-|---------|-------|---------------|
+|---------|:-----:|:-------------:|
 | Manage meeting lobbies | x | x |
 | End-to-end encryption for one-to-one calls | x | x |
 | Moderate meeting chats | x | x |
@@ -103,7 +103,7 @@ The following table compares key features between Teams and Teams Premium.
 ### Meetings reporting
 
 | Feature | Teams | Teams Premium |
-|---------|-------|---------------|
+|---------|:-----:|:-------------:|
 | Record meetings | x | x |
 | View meeting transcripts | x | x |
 | View and use files added to meetings | x | x |
@@ -117,7 +117,7 @@ The following table compares key features between Teams and Teams Premium.
 ### Virtual Appointments
 
 | Feature | Teams | Teams Premium |
-|---------|-------|---------------|
+|---------|:-----:|:-------------:|
 | Access Virtual Appointments with the Bookings app for scheduling, appointment management, and email notifications | x | x |
 | Integrate Virtual Appointments using APIs | x | x |
 | Join appointments from a browser | x | x |
