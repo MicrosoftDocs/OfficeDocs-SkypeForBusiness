@@ -99,7 +99,7 @@ Non-admins see a department-level report that provides data for the given depart
 
 :::image type="content" source="media/manage-virtual-appointments-app-analytics-dept.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for non-admins" lightbox="media/manage-virtual-appointments-app-analytics-dept.png":::
 
-If a staff member isn’t associated with a department, they’ll see a report showing data for the appointments that they conducted.
+If a staff member isn’t associated with a department, the report shows data for the appointments that they conducted.
 
 ### Manage
 
