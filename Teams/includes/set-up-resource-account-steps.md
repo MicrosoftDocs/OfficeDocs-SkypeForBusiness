@@ -12,7 +12,7 @@ Before you start the procedures in this article, ensure you've done the followin
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
-Each resource account requires a license in order to work with auto attendants and call queues, known as a *Microsoft Teams Phone Resource Account* license. Subscriptions with Teams Phone automatically get a free allocation of  *Microsoft Teams Phone Resource Account* licenses and if more are needed, additional *Microsoft Teams Phone Resource Account* licenses can be purchased. For detaisl on how to obtain these licenses, see [Microsoft Teams Phone Resource Account licenses](../teams-add-on-licensing/virtual-user.md).
+Each resource account requires a license in order to work with auto attendants and call queues, known as a *Microsoft Teams Phone Resource Account* license. Subscriptions with Teams Phone automatically get a free allocation of  *Microsoft Teams Phone Resource Account* licenses and if more are needed, additional *Microsoft Teams Phone Resource Account* licenses can be purchased. For details on how to obtain these licenses, see [Microsoft Teams Phone Resource Account licenses](../teams-add-on-licensing/virtual-user.md).
 
 We cover how to [assign the license to a resource account later in this article](#assign-a-license).
 
