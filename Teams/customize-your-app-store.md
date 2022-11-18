@@ -73,5 +73,7 @@ To preview your changes, select **Preview apps store** to see a representation o
 
 :::image type="content" source="media/PowerAppsInStore650w.png" alt-text="Screenshot showing an example of a customized apps store.":::
 
+<!--- confirm:
 > [!NOTE]
 > The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.
+--->
