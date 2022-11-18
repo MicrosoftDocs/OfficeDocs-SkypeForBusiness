@@ -1,5 +1,5 @@
 ---
-title: Purchase licenses for third-party Teams apps
+title: Purchase third-party apps and manage subscriptions
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -10,15 +10,15 @@ audience: admin
 ms.date: 10/04/2022
 ms.collection: 
   - M365-collaboration
-ms.reviewer: chhavib, vaibhava, nsuter
+ms.reviewer: chhavib, nsuter
 search.appverid: MET150
 f1keywords: 
-description: Learn how to purchase licenses third-party apps from Teams store using a credit card, a debit card, or via invoice billing.
+description: Learn how to purchase paid app licenses in Teams store using a credit card, a debit card, or via invoice billing.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Purchase licenses for third-party Teams apps
+# Purchase third-party Teams apps and manage subscriptions
 
 Some Teams apps may require purchasing a service subscription to experience the app's full functionality and scope. These service subscriptions are called Software as a Service (SaaS) offers. A license is available for purchase through [AppSource](https://appsource.microsoft.com/) and through the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
@@ -34,7 +34,7 @@ To purchase apps in Teams admin center, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**. You must be a Global admin or Teams service admin to access the page.
 
-1. Search for the app that you want by its name. To check if the apps offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
+1. Search for the app that you want by its name. To check if the app offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
     * **Purchase**: The app offers a SaaS subscription and is available to purchase.
     * **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     * **- -**: The app doesn't offer a SaaS subscription.
