@@ -634,9 +634,9 @@ items:
               href: unsupported-browsers.md
             - name: Configure desktop sharing in Teams
               href: configure-desktop-sharing.md
-            - name: Teams cloud meeting recording
+            - name: Teams meeting recording
               href: cloud-recording.md
-            - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
+            - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
             - name: Use the Teams Meeting add-in in Outlook
               href: teams-add-in-for-outlook.md
@@ -1395,7 +1395,7 @@ items:
             - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
-              href: teams-meeting-room-guidance.md
+              href: rooms/room-planning-guidance.md
             - name: Version support
               href: rooms/rooms-lifecycle-support.md
             - name: Release notes
@@ -1460,13 +1460,13 @@ items:
     - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
-          href: rooms/microsoft-teams-rooms-premium.md
+          href: rooms/rooms-pro-management.md
         - name: Accessing the Pro Management portal
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
         - name: Role-based access control
-          href: rooms/microsoft-teams-rooms-premium-rbac.md
+          href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
         - name: Managed updates
@@ -1616,9 +1616,7 @@ items:
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
-          href: custom-app-overview.md
-        - name: Manage policies and settings for custom apps
+        - name: Manage custom and sideloaded apps and settings
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
