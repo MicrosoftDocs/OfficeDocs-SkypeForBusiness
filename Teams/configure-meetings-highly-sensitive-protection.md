@@ -183,6 +183,6 @@ To create a meeting template for highly sensitive presentations
 
 [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
-[Use Teams meeting templates with sensitivity labels](meeting-templates-with-sensitivity-labels.md)
+[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
