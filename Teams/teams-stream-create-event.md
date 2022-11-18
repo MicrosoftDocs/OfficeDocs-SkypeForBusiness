@@ -38,9 +38,9 @@ ms.custom:
 
 ## Stream the live event
 
-1. When you save your live event, you'll get the RTMP server ingest URL located in the encoder setup tab. Select an encoder from the drop down list, or choose to configure manually. Check out the list of [encoders](teams-stream-setup.md) for easy setup instructions.
+1. When you save your live event, you'll get the RTMP server ingest URL located in the encoder setup tab. Select an encoder from the drop down list, or choose to configure manually. Check out the list of [encoders](teams-encoder-setup.md) for easy setup instructions.
 2. To set up your encoder, select **Start setup** on the producer controls. It may take some time to start the setup process.
-3. When the setup is ready, copy the server ingest URL into your encoder to start sending the live encoder feed to Teams. [Using an encoder for live streaming in Microsoft Teams](teams-stream-setup.md) has more information.
+3. When the setup is ready, copy the server ingest URL into your encoder to start sending the live encoder feed to Teams. [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md) has more information.
 
 > [!NOTE]
 > It's important to set up your encoder with the correct configuration, and specify both audio and video for playback. Check out the [configuration requirements](teams-stream-configuration.md) to make sure you set up the encoder correctly.
