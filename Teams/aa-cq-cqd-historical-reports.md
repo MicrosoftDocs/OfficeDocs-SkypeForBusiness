@@ -31,9 +31,9 @@ This Power BI template provides three reports that allow organizations to report
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v300.png) report shows analytics for calls coming into your auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v300.png) report shows analytics for calls coming into your call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v300.png) report shows a timeline view of agents being active in call queue calls.
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v304.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v304.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v304.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -68,7 +68,7 @@ Perform the following steps:
 
 1. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
 1. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
