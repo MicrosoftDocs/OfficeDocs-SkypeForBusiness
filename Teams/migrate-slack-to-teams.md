@@ -6,6 +6,7 @@ ms.reviewer: brandber
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
   - m365initiative-migratetom365

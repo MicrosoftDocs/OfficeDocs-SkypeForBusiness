@@ -19,6 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
   - intro-get-started
+  - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
   - seo-marvel-apr2020
