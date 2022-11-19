@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 ms.localizationpriority: high
 search.appverid: MET150
