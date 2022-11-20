@@ -36,9 +36,9 @@ To configure Adobe Acrobat app as the default handler for PDF files in your tena
 
 To set up the app as a default PDF viewer, ensure the following.
 
-* You allow third-party apps to be used in your tenant.
-* You allow Adobe Acrobat app.
-* You allow all or a few selected users to use the app via app permission policies.
+* You [allow any third-party app to be used](manage-apps.md#manage-org-wide-app-settings) in your tenant.
+* You [allow Adobe Acrobat app](manage-apps.md#allow-and-block-apps).
+* You allow all or a few selected users to use the app via [app permission policies](teams-app-permission-policies.md).
 
 To set up Adobe Acrobat as the default app for PDF files, follow these steps:
 
