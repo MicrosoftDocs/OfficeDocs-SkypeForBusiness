@@ -46,6 +46,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX350                            | `8.0.1.4670`                                                  | 	August 5, 2023              | 9 |
 | Poly CCX505                            | `7.3.1.0811`                                                  | 	August 5, 2023              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  | 	August 5, 2023              | 9 |
 | AudioCodes C448HD(Cap Mode Only)       |  `1.17.443`                                                   | August 5, 2023            | 9 |
@@ -91,8 +92,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Yealink CTP18 touch console  | `137.15.0.28`    | August 5, 2023   | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 9 |
-| Poly Studio X30         | `3.1.1.216109`     | December 5, 2022  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
-| Poly Studio X50         | `3.1.1.216109`     | December 5, 2022   | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
+| Poly Studio X30         | `4.0.0.100885`     | September 4, 2024  | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Poly Studio X50         | `4.0.0.100885`     | September 4, 2024   | Medium size room (4.5 m x 6 m) | 10 |
+| Poly G7500              | `4.0.0.1009138`    | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) |  9  |
 
@@ -156,6 +158,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|AudioCodes C448HD/C450HD  | `1.17.769`    | 2022 Update #3A|
 |Crestron UC-P8/I/C/CI     | `1.0.5.20`    | 2022 Update #3A |
 |Crestron UC-P10/I/C/CI | `1.0.5.20`    | 2022 Update #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 Update #3A    |
@@ -287,10 +290,8 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
-
 | Poly Studio X30 | `3.14.1.374010` | 2022 Update #2B   |
 | Poly Studio X50 | `3.14.1.374010` | 2022 Update #2B  |
-
 | Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
@@ -361,7 +362,8 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 Update #4  |January 5, 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
+|2022 Update #1  |November 14, 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
+|2021 Update #4  |January 5, 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
 |2021 Update #3  |December 8, 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |2021 Update #2  |June 9, 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |2021 Update #1  |March 18, 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
