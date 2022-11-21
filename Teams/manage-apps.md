@@ -12,6 +12,7 @@ ms.date: 09/29/2022
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 ms.reviewer: kojika
 search.appverid: MET150
