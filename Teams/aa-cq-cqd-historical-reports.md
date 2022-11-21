@@ -377,7 +377,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
 |3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4        |Corrected error, improved call classification, added legend |
-|3.0.3    |November 8, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.3        |Corrected error, added documentation link, optimzed queries |
+|3.0.3    |November 8, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.3        |Corrected error, added documentation link, optimized queries |
 |3.0.1    |October 26, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.1        |Removed testing data source entry                   |
 |3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source                             |
 
