@@ -41,7 +41,6 @@ The following sections describe the Teams Premium enhancements for:
 - [Protected meetings](#protected-meetings)
 - [Custom meetings](#custom-meetings)
 - [Premium events](#premium-events)
-- [Advanced management](#advanced-management)
 - [Virtual Appointments](#advanced-virtual-appointments)
 
 > [!Note]
@@ -100,36 +99,15 @@ Teams Premium provides an advanced webinar experience for your users with the ne
 - **Advanced registration capabilities** - Including manual approval, waitlist, registration date and time limit.
 - **Registration overview and management** - For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
-In addition, Teams Premium will also provide additional metrics to help determine event success.
-
 
 | Feature/Task | Documentation for administrators | 
 | -------------------- | ----------- | 
 | Understand meetings, webinars, and live events | [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates) | 
 | Set up webinars | [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | 
 | Meeting policy for webinars | [Meeting policies](https://review.learn.microsoft.com/en-us/microsoftteams/meeting-policies-in-teams-general?branch=mabond-webinar-v2-updates#webinars)
-| Event success metrics | LINK HERE | 
-
-
-## Advanced management
-
-Teams Premium provides advanced management features, such as:
-
-- **Monitoring and alerting** - Instead of reactive monitoring, you can be proactively notified when participants are experiencing network quality issues during their in-progress meetings/live events.
-
-- **Custom user policy packages** - Lets you bundle and customize your own set of policies for users with similar roles in your organization.
-
-- **eCDN for Live Events** - Microsoft eCDN (Enterprise Content Delivery Network) optimizes network performance for live video streaming and distribution within an enterprise. As organizations continue to deliver virtual and hybrid large scale events, an eCDN network reduces the load on the corporate network. With Teams Premium, ....  **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
 
 
 
-**NEED TO ADD MORE DETAILS FOR THESE FEATURES**
-
-| Feature/Task  | Documentation for administrators | 
-| -------------------- | ----------- | 
-| Monitoring and alerting | LINK HERE | 
-| Custom user policy packages | [Manage policy packages](https://review.learn.microsoft.com/en-us/microsoftteams/manage-policy-packages?branch=mabond-custom-policy-packages-premium) | 
-| eCDN for Live Events | LINK HERE | 
 
 ## Advanced Virtual Appointments
 
