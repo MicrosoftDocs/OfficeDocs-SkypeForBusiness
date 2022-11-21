@@ -13,6 +13,7 @@ ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
