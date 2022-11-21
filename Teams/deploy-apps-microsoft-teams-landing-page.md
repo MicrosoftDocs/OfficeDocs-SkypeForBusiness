@@ -13,6 +13,7 @@ ms.date: 10/01/2022
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 f1.keywords:
 - NOCSH
