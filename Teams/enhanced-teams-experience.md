@@ -83,9 +83,9 @@ Teams Premium provides the following additional features for customizing meeting
 | Feature/Task | Documentation for administrators |
 | -------------------- | ----------- | 
 | Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](https://review.learn.microsoft.com/en-us/microsoftteams/create-custom-meeting-template?branch=mikeplum-compliant-meetings)|
-| Meeting themes | [Themes for Teams meetings](https://review.learn.microsoft.com/en-us/MicrosoftTeams/meeting-themes?branch=heidip-branded-meetings-2022) | 
-| Custom meeting backgrounds | [Meeting backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-meeting-backgrounds?branch=wlibebe-custom-org-backgrounds)| 
-| Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | 
+| Meeting themes | [Themes for Teams meetings](meeting-themes.md) | 
+| Custom meeting backgrounds | [Meeting backgrounds](custom-meeting-backgrounds.md)| 
+| Custom together mode scenes | [Content for you and your developers](platform/apps-in-teams-meetings/teams-together-mode) | 
 
 
 
