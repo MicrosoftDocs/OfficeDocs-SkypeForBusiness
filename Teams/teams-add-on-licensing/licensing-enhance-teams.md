@@ -25,9 +25,9 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
-- Personalized and intelligent meetings.
-- Secured and protected meetings.
-- Advanced management and reporting capabilities.
+- More personalized and intelligent meetings.
+- Advanced protection for meetings.
+- Advanced management and reporting capabilities for IT.
 
 This article is for IT admins who wish to understand Teams Premium licensing and purchase Teams Premium licenses for their users. This article will provide answers to questions like:
 
@@ -82,7 +82,7 @@ The following table compares key features between Teams and Teams Premium.
 | Allow registered users to bypass the lobby |  | x |
 | Use RTMP-In for Webinars (*coming soon*) |  | x |
 
-### Meetings security
+### Meetings protection
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
@@ -186,7 +186,7 @@ The following table shows the license checks for each Teams Premium feature.
 |--|-------------------------------|------------------------------|
 | **Meetings** | &#10004; Use custom meeting templates </br> &#10004; Use custom themed meetings </br> &#10004; Use Microsoft eCDN for Live Events | &#10004; Use custom Together mode scenes </br> &#10004; Use custom backgrounds and lobbies |
 | **Webinars** | &#10004; Set up Webinar green rooms </br> &#10004; Manage Webinar mode </br> &#10004; Use RTMP-In </br> &#10004; Manually approve Webinar registrations </br> &#10004; Create a registration wait list </br> &#10004; Limit registration date and time |  |
-| **Meetings security** | &#10004; Use end-to-end encryption for meetings up to 50 participants </br> &#10004; Add watermarks to meetings </br> &#10004; Apply sensitivity labels to meetings </br> &#10004; Prevent copy/paste in meeting chats </br> &#10004; Control who can record a meeting </br> &#10004; Custom user policy packages |  |
+| **Meetings protection** | &#10004; Use end-to-end encryption for meetings up to 50 participants </br> &#10004; Add watermarks to meetings </br> &#10004; Apply sensitivity labels to meetings </br> &#10004; Prevent copy/paste in meeting chats </br> &#10004; Control who can record a meeting </br> &#10004; Custom user policy packages |  |
 | **Intelligent Meetings** | &#10004; Read translated captions live </br> &#10004; Navigate meetings with auto-generated chapters | &#10004; Translate post-meeting transcriptions </br></br> *Meeting recap AI features:* </br> &#10004; See timestamps for when you joined and left a meeting </br> &#10004; Receive suggested tasks after a meeting </br> &#10004; Search with suggested speaker </br> &#10004; View @mentions to you |
 | **Virtual Appointments** | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; Use custom backgrounds for appointments and lobbies | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; View and manage scheduled and on-demand appointment queue </br> &#10004; View Advanced Virtual Appointments analytics </br> &#10004; Send post-appointment follow ups |
 
