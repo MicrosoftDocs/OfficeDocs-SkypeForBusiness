@@ -46,7 +46,7 @@ Here are the Calling Plans options:
 
   There are two **Pay-As-You-Go Calling Plan** options to choose from:
 
-  - **Pay-As-You-Go Calling Plan Zone-1**: Buy this for users in the United States, including Puerto Rico, Canada, and the United Kingdom.
+  - **Pay-As-You-Go Calling Plan Zone-1**: Buy this for users in the United States and Puerto Rico, Canada, and the United Kingdom.
     - Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to US and Puerto Rico users if bought in other countries.
 
   - **Pay-As-You-Go Calling Plan Zone-2**: Buy this for users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
