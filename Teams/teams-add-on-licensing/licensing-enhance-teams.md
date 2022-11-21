@@ -128,7 +128,7 @@ The following table compares key features between Teams and Teams Premium.
 | Send SMS notifications |  | x |
 | Chat back and forth with attendees in the lobby waiting room (*coming soon*) |  | x |
 | Organizational and departmental analytics |  | x |
-| View and manage scheduled appointments in the queues |  | x |
+| View and manage scheduled appointments in the queue |  | x |
 | View and manage on-demand appointments in the queue |  | x |
 | Send post-appointment follow-ups (*coming soon*) |  | x |
 
@@ -188,7 +188,7 @@ The following table shows the license checks for each Teams Premium feature.
 | **Webinars** | &#10004; Set up Webinar green rooms </br> &#10004; Manage Webinar mode </br> &#10004; Use RTMP-In </br> &#10004; Manually approve Webinar registrations </br> &#10004; Create a registration wait list </br> &#10004; Limit registration date and time |  |
 | **Meetings security** | &#10004; Use end-to-end encryption for meetings up to 50 participants </br> &#10004; Add watermarks to meetings </br> &#10004; Apply sensitivity labels to meetings </br> &#10004; Prevent copy/paste in meeting chats </br> &#10004; Control who can record a meeting </br> &#10004; Custom user policy packages |  |
 | **Intelligent Meetings** | &#10004; Read translated captions live </br> &#10004; Navigate meetings with auto-generated chapters | &#10004; Translate post-meeting transcriptions </br></br> *Meeting recap AI features:* </br> &#10004; See timestamps for when you joined and left a meeting </br> &#10004; Receive suggested tasks after a meeting </br> &#10004; Search with suggested speaker </br> &#10004; View @mentions to you |
-| **Virtual Appointments** | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; Use custom backgrounds for appointments and lobbies | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; View and manage scheduled and on-demand appointment queues </br> &#10004; View Advanced Virtual Appointments analytics </br> &#10004; Send post-appointment follow ups |
+| **Virtual Appointments** | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; Use custom backgrounds for appointments and lobbies | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; View and manage scheduled and on-demand appointment queue </br> &#10004; View Advanced Virtual Appointments analytics </br> &#10004; Send post-appointment follow ups |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
