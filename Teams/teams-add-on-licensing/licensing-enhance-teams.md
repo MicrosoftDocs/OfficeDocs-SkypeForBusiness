@@ -171,12 +171,6 @@ The **user requirement** is:
 
 - An Office 365 or Microsoft 365 subscription with Teams.
 
-### Do any Teams Premium features have extra license requirements?
-
-Some Teams Premium features may have other licensing requirements. These features and extra requirements are:
-
-- **Sensitivity labels:** requires an Office 365 E5 or Microsoft 365 E5 subscription.
-
 ## How does Teams enforce access to Teams Premium features?
 
 Which Teams experience a user has depends on their Teams license and their Teams role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
