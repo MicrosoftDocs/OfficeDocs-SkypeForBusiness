@@ -33,39 +33,42 @@ After the event, the video will be available on demand with intelligent features
 
 ## Live events in Microsoft 365
 
-You can create a live steaming event in Teams or Yammer — wherever your audience, team, or community resides. Attendees can participate in real time, with high-definition (HD) video and interactive discussion, or catch up later with powerful AI features that unlock the content of the event recording. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
+You can create a live steaming event in Teams or Yammer — wherever your audience, team, or community resides. Attendees can watch the event in high-definition (HD) video and submit questions through a moderated Q&A experience. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
 
 ## Get started
 
 Ensure that users you want to be able to create live events have the granted permissions required to create a live event. By default, everyone in your organization can create a live event, however a Teams admin can restrict access. Learn more about live event administration.
 
-- Go to **Admin settings** > **Live events**.
-- Select **Create** > **Live event**. Follow the instructions in **Create a live event** in Teams
+1. In the left navigation of the Teams admin center, go to **Meetings** > **Live events policies** > the **Manage Policies** tab.
+1. If you want to:
+    1. edit the existing default policy, choose **Global (Org-wide default)**.
+    1. create a new custom policy, choose **+Add**.
+    1. edit a custom policy, select the policy, and then choose **Edit**.
 
 ## Monitor your event
 
-As an organizer or producer you can monitor the audience engagement in real-time. Quickly toggle between audience and producer views to see different screens and monitor analytics like current viewers, likes, and total views for your event.
+As a producer you can use the Teams client to see the audience feed (visible on the right side) as well as the number of attendees currently viewing the event.
 
 ## Capabilities
 
 The following are capabilities of live streaming events:
 
-|Operation  |Limits  |
-|---------|---------|
+|Operation                                            |Limits                                                               |
+|-----------------------------------------------------|---------------------------------------------------------------------|
 |Create live events in Teams (with external encoder)  |Enterprise (E1, E3, E5), Education (A3, A5)                          |
-|Watch live event                                     |Viewers with permissions to view the event and a valid Teams license |
+|Watch live event                                     |Viewers with permissions to view the event and a valid Teams license (unless the event is public, then a license to view is not required) |
 |Maximum resolution                                   |720p                                                                 |
 |Maximum concurrent live events (in pre-live or live) |15                                                                   |
 |Active concurrent viewers                            |10000                                                                |
 |Maximum length of live event                         |4 hours                                                              |
-|Partner network caching support                      |Hive, Kollective, Ramp                                               |
+|Partner network caching support                      |Hive, Kollective, Riverbed, Ramp, Microsoft                          |
 |Other network caching support                        |May work, but isn't supported                                        |
 |Attendee DVR controls                                |Pause, playback speed (2x catch up, 1x at live), seek                |
 |Real-time captions                                   |708 caption pass-through from encoder                                |
-|Automatic speech-to-text and captions                |Processed after event                                                |
-|Interactive discussions                              |Supported via Yammer when event is created from Yammer               |
+|Automatic speech-to-text and captions                |Processed after the event                                            |
+|Interactive discussions                              |Supported via Yammer when the event is created from Yammer           |
 |Teams comments                                       |Available after the event ends                                       |
 |On-demand viewing on live event (after event)        |Automatic transition for live to on-demand for immediate viewing and indexing in Teams |
-|Downloadable recording                               |Processed and available after live event by owners                   |
+|Downloadable recording                               |Processed and available after the live event by owners               |
 
 Live events in Teams is a highly available service and you can expect good performance at scale. In the very unlikely scenario that results in failover being required, live events using external encoding will not have redundancy and are not recoverable.
