@@ -99,7 +99,7 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 ## Understand app capabilities
 
-Teams app capabilities are the core functionalities that developers build in an app to fulfil various use cases of Teams apps. App developers can create apps using one or more of the following capabilities:
+Teams app capabilities are the core functionalities that developers build in an app to fulfil various use cases of Teams apps. Apps contain one or more of the following capabilities. All these are different capabilities of Teams apps and admins govern these apps using the common [app governance methods](manage-apps.md).
 
 <!---
 :::row:::
@@ -115,18 +115,15 @@ Teams app capabilities are the core functionalities that developers build in an 
 
 * **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
-  Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization. For information about turning custom bots on or off, see [Overview of app management and governance in Teams admin center](manage-apps.md).
+* **Tabs**: Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. They're simple HTML `iframe` tags that can be added as part of a channel inside a team, group chat, or personal app for an individual user. For more information, see [Microsoft Teams tabs](/microsoftteams/platform/tabs/what-are-tabs).
 
-* **Tabs**: Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. They're simple HTML <iframe\> tags that point to domains declared in the app manifest and can be added as part of a channel inside a team, group chat, or personal app for an individual user. For more information, see [Microsoft Teams tabs](/microsoftteams/platform/tabs/what-are-tabs).
-  In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, developers can design and add custom tabs. For more information, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).
-
-* **Webhooks and connectors**: Webhooks and connectors help to connect the web services to channels and teams in Microsoft Teams. Webhooks are user defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It's a way for an app to get real time data. Connectors allow users to subscribe to receive notifications and messages from your web services. For more information, see [Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+* **Webhooks and connectors**: Webhooks and connectors help to connect various web services to channels and teams in Microsoft Teams. Webhooks are user-defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It's a way for an app to get real-time data. Connectors allow users to subscribe to receive notifications and messages from web services. For more information, see [Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 
   To allow users to use custom connectors in Teams, see [Use custom connectors in Teams](office-365-custom-connectors.md).
 
 * **Messaging extensions**: Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to move away from the conversation. Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
 
-* **Meeting extensions**: Users can enhance the meeting experience by integrating tabs, bots, and message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+* **Meeting extensions**: Users can enhance the meeting experience by integrating message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
 <!---
 * **Cards and task modules**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
