@@ -22,8 +22,7 @@ description: Learn how to upload custom apps to your organization's Teams app st
 
 # Publish a custom app by uploading an app package
 
-> [!NOTE]
-> When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. **This article focuses on how to publish a custom app by uploading an app package (in .zip format) that a developer sends you**. The other method, approving a custom app, is used when a developer submits an app directly to the [Manage apps](manage-apps.md) page through the Teams App Submission API. To learn more about that method, see [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md).
+When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. This article focuses on how to publish a custom app by uploading an app package (in .zip format) that a developer sends you. The other method, approving a custom app, is used when a developer submits an app directly to the [Manage apps](manage-apps.md) page through the Teams App Submission API. To learn more about that method, see [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md).
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see the [Teams developer documentation](/microsoftteams/platform/).
 
@@ -114,7 +113,7 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 ### End-user update experience
 
-In most cases, after you publish a new version of an app, it is automatically updated for end users. For more information, see [end-user app update experience](apps-update-experience.md).
+In most cases, after you publish a new version of an app, it is automatically updated for end users who have added the app to their Teams client. For more information, see [end-user app update experience](apps-update-experience.md).
 
 ## Remove a custom app from your organization's store
 

@@ -96,6 +96,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 i.e. ECDHE-RSA-AES128-GCM-SHA256
   > TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 i.e. ECDHE-RSA-AES256-SHA384
   > TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 i.e. ECDHE-RSA-AES128-SHA256
+  > 5. SIP OPTIONS pings MUST NOT exceed a frequency of one transaction every 60 seconds and MUST NOT be more or less frequent than one transaction every 180 seconds for each configured trunk for each endpoint.
 
 Here's an example:
 

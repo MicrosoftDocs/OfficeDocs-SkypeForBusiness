@@ -127,8 +127,6 @@ Notifications from private channels are not included in missed activity emails.
 
 Channel meetings can't be scheduled.
 
-Channel meetings can't be customized with a meeting title.
-
 ## Related topics
 
 [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels)

@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 09/04/2022
+ms.date: 10/22/2022
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -20,7 +20,7 @@ search.appverid: MET150
 description: In this article, learn how Microsoft apps, custom apps, and third-party apps in Microsoft Teams are updated and how admins facilitate it.
 ---
 
-# Teams app updates and admin role
+# Role of an admin in upgrading Teams apps
 
 Teams admins can help their end-users get the latest version of the apps. To do so, they accomplish one or both of the following tasks:
 
@@ -33,7 +33,7 @@ For users to install and use an app, they must give permissions to the app to ac
 
 If app developers make one or more the following changes to their apps, then the end-users must approve the update of app.
 
-* Add or remove a bot. Change the ID of the bot using the `botId` property.
+* Add a bot. Change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that may change the bot's notifications.
 * Change `SupportsCalling`, `SupportsVideo`, and `SupportsFiles` properties of an existing bot to add capability to call, play video, and upload or download files.
 * Add or remove permissions in authorization.
@@ -48,9 +48,9 @@ If app developers make one or more the following changes to their apps, then the
 
 ## Updates to custom apps
 
-Custom apps that are created and deployed within your organization are available to the users on your tenant or organization. Teams admin update the custom apps to new versions as provided by developers within the organization. For more information, see [how admins manage custom apps](custom-app-overview.md).
+Custom apps that are created and deployed within your organization are available to the users on your tenant or organization. Teams admin updates a custom app to its new version when a new version is provided by their organization's developers. For more information, see [how admins manage custom apps](custom-app-overview.md).
 
-## Related article
+## Related articles
 
 * [Understand manifest schema for updates done in apps](/microsoftteams/platform/resources/schema/manifest-schema).
 * [Know about custom app management](custom-app-overview.md).

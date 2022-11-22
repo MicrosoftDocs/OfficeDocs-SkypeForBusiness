@@ -40,7 +40,7 @@ Call queues provide:
 
 Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
-## What's new for call queues in the past 6 months
+## What's new for call queues in the past six months
 
 - August
   - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
@@ -228,7 +228,8 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > Conference mode is required if Teams users need to consult/transfer calls with call queues.
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
-
+> 
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use Attendant routing, set Conference mode to **Off**.
 
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
@@ -317,6 +318,8 @@ For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
+>  
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
 Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
@@ -335,6 +338,9 @@ For example, you might have the caller leave a voicemail for the agents in the q
 *New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
 
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
+
+> [!NOTE]
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
 Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
@@ -383,7 +389,7 @@ The following settings are recommended:
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
-4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
+4. It's not possible to set the order the agents will be called in.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).

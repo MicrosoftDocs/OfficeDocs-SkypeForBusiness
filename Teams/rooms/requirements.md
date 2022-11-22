@@ -103,6 +103,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   |[Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
   |[Yealink MVC840](https://www.yealink.com/product/microsoft-teams-room-system-mvc840) |Core i5|8 GB | 128 GB|
   |[Yealink MVC940](https://www.yealink.com/product/microsoft-teams-room-system-mvc940) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC940 Bundle with AV Hub](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc940-avhub) |Core i5|8 GB | 128 GB|
   |Yealink MVC660|Core i5|8 GB | 128 GB|
   |Yealink MVC640|Core i5|8 GB | 128 GB|
   |Yealink MVC320|Core i5|8 GB | 128 GB|
@@ -136,6 +137,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ Camera Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
+|[Aver VB342 pro Video bar](https://www.averusa.com/products/video-collaboration-bar/vb342pro) | 0.0.7800.61 |
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) |0.0.8000.51 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: ITPro
-ms.topic: article 
+ms.topic: how-to 
 ms.service: msteams 
 search.appverid: 
 searchScope:
@@ -20,6 +20,7 @@ ms.collection:
   - m365solution-healthcare
   - m365solution-scenario
   - m365-frontline
+  - tier2
   - highpri
 ms.reviewer: 
 description: Learn how to manage the Bookings app in Teams for users in your organization.

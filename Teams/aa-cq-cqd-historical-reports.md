@@ -21,76 +21,139 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
-description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
+description: Learn about how to use Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 # Auto Attendant & Call Queue Historical Report
 
-The Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
+This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
-- [Auto Attendant](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – showing analytics for calls coming into your Auto Attendants.
-- [Call Queue](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – showing analytics for calls coming into your Call Queues.
-- [Agent Timeline](media/cqd-teams-aa-cq-historical-report-sample-at.png) – showing a timeline view of agents being active in Call Queue calls.
+## V3.0.4 published on November 18, 2022
 
-These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. The reports allow organizations
-to report on the number of calls being processed by auto attendants and call queues.  The reports also provide insight to agent performance in the call queues.
+The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-### V1.63 published on August 24, 2022
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v304.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v304.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v304.png) report shows a timeline view of agents being active in call queue calls.
 
-## Prerequisites
+These reports use data from the Voice Applications Analytics Collector (VAAC) service.
+
+>[!NOTE]
+> Historical data collection is in progress across all regions.  Thirty days of historical data will be available at different times, with all regions having a full 30 days of data no later than November 25, 2022.
+>
+> GCCH/DOD customers should continue to use V1.63.
+
+## V3.x.x Prerequisites
 
 ### Power BI Desktop
-You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-You can use the free version of Power BI Desktop. The minimum compatible version is 2.85.681.0 (September 2020).
+The minimum compatible version is 2.85.681.0 (September 2020).
+
+### Permissions to access the CQD pipeline
+
+While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+- This requirement will be removed in a future release.
+
+## V3.x.x Installation 
+
+The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
+
+Perform the following steps:
+
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+
+1. Open the zip file.
+
+1. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` template file. Power BI Desktop should launch.
+
+1. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
+
+  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+
+1. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
+
+  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
+
+1. Select **Connect**, and the data will refresh.
+
+> [!NOTE]
+> If you're using v1.63 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
+> 
+> 1. Open the v3.x.x template to clear the error. 
+> 1. Select **File** > **Options & Settings** > **Data source settings**.
+> 1. Select the drop down for **Clear Permissions**, and then select **Clear All Permissions**.
+> 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
+
+## V1.63 published on August 24, 2022
+
+> [!IMPORTANT]
+> Public cloud support for the V1.63 template will end on November 25, 2022.
+> 
+> GCCH/DOD customers should continue to use V1.63.
+
+The **Teams Auto Attendant & Call Queue Historical Report Power BI Template** provides the following three reports:
+
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v163.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v163.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v163.png) report shows a timeline view of agents being active in call queue calls.
+
+These reports use data from the [Call Quality Dashboard (CQD)](CQD-Power-BI-query-templates.md) data store. 
+
+## V1.63 Prerequisites
+
+### Power BI Desktop
+You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+
+The minimum compatible version is 2.85.681.0 (September 2020).
 
 ### Permissions to access the CQD pipeline
 
 The account you use to view the historical report needs to have permissions to access the CQD data pipeline. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
-## Installation 
+## V1.63 Installation 
 
-The following steps assume you've already installed Power BI Desktop on your computer, and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
-- Download the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) and save the zip file to a directory on your computer.
+1. Download and save the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) zip file on your computer.
 
-- Double-click on the zip file to open it.
+1. Open the zip file.
 
-- Double-click on the "CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit" template file. The Power BI Desktop should launch.
+1. Open the `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` template file. Power BI Desktop should launch.
 
-- You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
+1. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
-- The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
+1. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
-    ```PowerShell
+    ```powershell
     (Get-CsTenant).ServiceInstance
 
 
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - The region will be displayed after the **/** as in the above example where the region is: noam
+    1. The region will be displayed after the **/** as in the above example where the region is `noam`.
 
- - The report will launch with sample data.
+ 1. The report will launch with sample data.
  
- - To see your own data, select **Refresh** in the Home tab under Queries in Power BI Desktop.
+ 1. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option.":::
+   :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Screenshot selecting the refresh option.":::
 
-- You'll be prompted to sign in. Select **Organizational account** and then select **Sign in**.
+1. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login for V1.63.":::
 
-- Select **Connect** and watch the data refresh.
+1. Select **Connect**, and the data will refresh.
 
 ## Data latency and AA & CQ analytics
 
 Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
 
-You will have to refresh the data to see any new data.
+You'll have to refresh the data to see any new data.
 
 ## Customization 
 
@@ -100,20 +163,21 @@ The report contains all the data metrics currently available.
 
 ### Change color schema 
 
-The following steps assume you have already completed the installation steps.
+The following steps assume you've already completed the installation steps.
 
 Perform the following steps:
+
 - Select **View tab** on the ribbon.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
+  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
 
 - Select the color schema from the drop-down list.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
+  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
-## Auto Attendant and Call Queue Historical Reports Definitions
+## Auto attendant and call queue historical reports definitions
 
-### Cloud Auto Attendant Analytics
+### Cloud Auto Attendant Analytics report
 
 #### Report description
 
@@ -156,7 +220,7 @@ Perform the following steps:
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
 |AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 |AACallFlow                              |Text                     |Encapsulates the different states of Auto Attendant Call--possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call could not be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA did not accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
+|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call couldn't be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA didn't accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
 |AA Call Legend                          |Text                     |Sets up legend items based on AACallResult                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                     |
 |AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank              |
@@ -175,7 +239,7 @@ Perform the following steps:
 |Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank              |
 
 
-### Cloud Call Queue Analytics
+### Cloud Call Queue Analytics report
 
 #### Report description
 
@@ -203,11 +267,11 @@ Perform the following steps:
 |Call Queue Resource Account         |fCallQueueAnalytics -> CQ Name        |None                  |
 |Incoming call source<sup>1</sup>    |fCallQueueAnalytics -> Sum of Call Count (Measure)<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Avg Wait Time (seconds)-Before Answered |fCallQueueFinalStateAction -> Avg of Average CQ Duration (Measure) |Call Queue Call Result is agent_joined_conference or transferred_to_agent|
-|Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result is not agent_joined_conference, transferred_to_agent, overflown, timed_out |
+|Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result isn't agent_joined_conference, transferred_to_agent, overflown, timed_out |
 |Call Volume and Agent Opt-In Count   |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Agent Opt In Count<br>fCallQueueAnalytics -> CQ Name<br>fCallQueueAnalytics -> Date |None |
 |Abandoned Calls                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | Call Queue Call Result Legend is Abandoned |
 |Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
-|Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend does not contain Abandoned and Agent Answered |
+|Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
 
 
 #### fCallQueueAnalytics CQD fields description
@@ -247,10 +311,10 @@ Perform the following steps:
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
-|IsAbandoned                             |True/false               |True if call is not answered by an agent                                   |
+|IsAbandoned                             |True/false               |True if call isn't answered by an agent                                   |
 
 
-### Cloud Call Queue Agent Timeline
+### Cloud Call Queue Agent Timeline report
 
 #### Report description
 
@@ -296,22 +360,35 @@ Perform the following steps:
 > [!NOTE]
 > When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
-## Known Issues
+## Known issues
 
 - Call queue and auto attendants are shown by resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
 - Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
-- In some scenarios, the agent answered call count on the Cloud Call Queue Agent Timeline report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there is no estimated time to repair available at this time.
+- In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there's no estimated time to repair available at this time.
 
 - <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
 
-## Version History
+## Version 3.x.x history
+
+Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes 
+
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|1.63     |August 24, 2022    |CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
-|1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Refer to:<br>CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a list of changes                                                                             |
+|3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4        |Corrected error, improved call classification, added legend |
+|3.0.3    |November 8, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.3        |Corrected error, added documentation link, optimized queries |
+|3.0.1    |October 26, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.1        |Removed testing data source entry                   |
+|3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source                             |
+
+
+## Version 1.xx history
+
+Refer to: CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes                         
+
+|Version  |Date Published     |Filename                                                           |Description                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------
+|1.63     |August 24, 2022    |CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit |                                                    |
+|1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |                                                    |
 |1.00     |November 5, 2020   |CQ and AA combined Analytics 20201105.pbit                         |Initial release                                     |
-
-
 
