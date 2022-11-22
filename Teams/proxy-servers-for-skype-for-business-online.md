@@ -32,7 +32,21 @@ This article provides guidance about using a proxy server with Teams or Skype fo
 
 When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams or Skype for Business more secure because the traffic is already encrypted.
   
-And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
+And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
+
+We recommend that Teams traffic bypasses proxy server infrastructure.
+
+## Teams Phones
+
+Teams Phones don't support proxy servers.
+
+Our recommendation is to ensure that both signalling (TCP 443) and media (UDP 3478-3481) traffic bypasses proxy server infrastucture.
+
+## Teams Meeting Rooms and Panels
+
+Our recommendation is to ensure your Teams Meeting Rooms bypass proxy infrastructure.
+
+Windows-based Teams Meeting Rooms support proxy servers, but do not support proxy servers that require authentication. Android-based Teams Meeting Rooms do not support proxy servers.
   
 ## If you need to use a proxy server
 
@@ -40,11 +54,13 @@ Some organizations have no option to bypass a proxy for Teams or Skype for Busin
   
 Microsoft also strongly recommends:
   
-- Using external DNS resolution
+- Using local, external DNS resolution (some cloud-based proxy solutions can cause DNS resolution to occur in another location).
     
-- Using direct UDP based routing
+- Using direct UDP based routing rather than relying on TCP based routing for media
     
-- Allowing UDP traffic
+- Allowing UDP traffic (3478-3481)
+
+- Whitelisting all required URLs and IPs, including those for Azure, Office 365, Intune and Teams Room Pro (where used)
     
 - Following the other recommendations in our networking guidelines:
   [Prepare your organization's network for Teams](prepare-network.md)
