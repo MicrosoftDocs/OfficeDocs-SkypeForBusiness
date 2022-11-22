@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
   - seo-marvel-apr2020
-description: In this article, you will learn how to create, edit, and manage resource accounts in Microsoft Teams.
+description: In this article, you'll learn how to create, edit, and manage resource accounts in Microsoft Teams.
 ---
 
 # Manage resource accounts in Microsoft Teams
@@ -37,9 +37,10 @@ See the following references to learn more:
 - [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 - [Cloud call queue](create-a-phone-system-call-queue.md)
 
-You can edit the resource account **Display name** and **Resource account** type using the **Edit** option. Click **Save** when you are done.
+You can edit the resource account **Display name** and **Resource account** type using the **Edit** option. Select **Save** when you're done.
 
 ## Change an existing resource account to use a Microsoft Teams Phone Resource Account license
+
 To switch the licenses on your existing resource account from a **Teams Phone Standard** license to a **Microsoft Teams Phone Resource Account** license, you'll need to acquire the **Microsoft Teams Phone Resource Account** license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
@@ -63,7 +64,7 @@ For implementations that are hybrid with Skype for Business Server:
 
    [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue)
 
-   [Configure on-prem resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra)
+   [Configure on-premises resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 ## Delete a resource account
 
@@ -71,7 +72,7 @@ Make sure you dissociate the telephone number from the resource account before d
 
 After you do that, you can delete the resource account in the Microsoft 365 admin center, under the **Users** tab.
 
-To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
+To disassociate a Direct Routing telephone number from the resource account, use the following cmdlet:
 
 ```powershell
 Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
