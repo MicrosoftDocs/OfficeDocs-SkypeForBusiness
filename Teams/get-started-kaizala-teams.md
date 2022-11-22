@@ -39,7 +39,7 @@ This section provides information regarding the migration from Kaizala to Micros
 
 - [SMB users](#smb-users)
 - [Commercial users](#commercial-users)
-- Consumers
+- [Consumers](#consumers)
 
 ### SMB users
 
@@ -66,19 +66,19 @@ Get started with Microsoft Teams (Free), which includes:
 
 ## FAQ
 
-## When should my organization move from Kaizala to Teams?
+### When should my organization move from Kaizala to Teams?
 
 We encourage all Microsoft 365 and Office 365 customers to start using [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9) today to take advantage of the rich capabilities that Teams provides. These capabilities include a simple and powerful experience for mobile users in 46 languages and 181 markets. Empower your frontline worker staff with capabilities such as shift management, guest access, and support for custom workflows and apps with Microsoft Flow and PowerApps. For specific Kaizala functionality that isn't yet available in Teams, we'll be posting an updated timeline in the future.
 
-## How can I get started with Teams?
+### How can I get started with Teams?
 
 Download [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software) from the app store, and access training and resources in our [help center](https://support.microsoft.com/teams?ui=en-us&rs=en-us&ad=us) to get started. You can also join the [Teams Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams/ct-p/MicrosoftTeams) to give feedback, vote on feature requests, and engage with an awesome community.
 
-## What can I do to prepare for the transition of Kaizala to Teams?
+### What can I do to prepare for the transition of Kaizala to Teams?
 
 Start using Teams today for solutions that can empower communication across your organization. Teams isn’t just an upgrade for Kaizala, it’s a powerful tool that opens the door to an entirely new way of doing business. Teams is uniquely positioned for various frontline worker user scenarios, thanks to the introduction of [Teams Essentials designed for small and mid-size businesses (SMB)](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/) and [the ability to collaborate with external users by entering the phone number or full email address with Teams for personal use](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
 
-## Will I be able to use Teams to collaborate with customers and partners outside my organization using a phone number?
+### Will I be able to use Teams to collaborate with customers and partners outside my organization using a phone number?
 
 Yes, with Teams Connect, you can invite any Teams user to chat by entering the full email address or phone number you want to reach and start a one-to-one or group chat with anyone with a Microsoft personal account. No tenant switching is required. A range of controls and tools are provided to the IT admins and Microsoft personal account Teams users, to ensure security. View the [support page](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57). For more information, see the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
 
