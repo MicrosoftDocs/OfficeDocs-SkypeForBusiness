@@ -56,7 +56,7 @@ As an admin, you can disallow sideloading of app for all developers. If you disa
 
 Three settings determine whether a user can upload a custom app to a team. It gives admins granular control over who can add custom apps to a team and which teams custom apps can be added to. These settings don't affect the ability to block third-party apps.
 
-* [User app setup policy settings for custom apps](#user-custom-app-policy)
+* [User app setup policy settings for custom apps](#user-app-setup-policy-settings-for-custom-apps)
 * [Team custom app setting](#team-custom-app-setting)
 * [Org-wide custom app setting](#org-wide-custom-app-setting)
 
