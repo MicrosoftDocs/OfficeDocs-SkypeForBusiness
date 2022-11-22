@@ -141,8 +141,6 @@ The features that are moving to Teams Premium are:
 - Live translated captions.
 - Timeline markers in Teams meeting recordings for when a user left or joined meetings.
 - Custom Together mode scenes.
-- Custom meeting backgrounds.
-- Custom user policy packages.
 - Virtual Appointments: SMS notifications.
 - Virtual Appointments: Organizational analytics in the Teams admin center.
 - Virtual Appointments: Scheduled queue view.
