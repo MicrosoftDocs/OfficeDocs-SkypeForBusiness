@@ -21,7 +21,7 @@ ms.custom:
 
 # Using an encoder for live streaming in Microsoft Teams
 
-To start live streaming a large event using Microsoft Teams, you need an encoder. An encoder (sometimes called a live streaming or media encoder) can be either software or hardware that's used together with recording equipment when live streaming content to a large group of viewers.
+Teams encoders allow users to produce live events directly from an external hardware or software-based encoder with Microsoft Teams.
 
 ## Overview
 

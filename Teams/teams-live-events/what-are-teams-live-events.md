@@ -74,7 +74,7 @@ The video input is the foundation of the live event and it can vary from a singl
 
 - **Teams**: This production method allows users to produce their live events in Teams using their webcam or using A/V input from Teams room systems. This option is the best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters to participate in the event. This option allows users to easily use their webcams and share their screen as input in the event.
 
-- **External app or device**: External encoders allow users to produce their live events directly from an external hardware or software-based encoder with [Teams](../teams-stream-overview.md). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to a Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large-scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience.
+- **Teams Encoder**: Allows users to produce their live events directly from an external hardware or software-based encoder with [Teams](../teams-stream-overview.md). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to a Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large-scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience.
 
     ![a live event produced using an external app or device.](../media/teams-live-events-external-encoder.png "Screen shot showing a live event that's produced by using the external app or device production method")
 

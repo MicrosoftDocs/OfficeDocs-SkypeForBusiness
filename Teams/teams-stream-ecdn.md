@@ -74,9 +74,9 @@ To learn more about these options, check out [this link](https://kollective.com/
 > [!NOTE]
 > Your chosen eCDN solution is subject to the selected partner eCDN provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.
 
-## Configure Yammer and Microsoft Teams "External app or device" production type events for your eCDN solution
+## Configure Stream encoder type events for your eCDN solution
 
-After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including "External encoder" live events that are created through Microsoft Teams or Yammer.
+After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Yammer.
 
 1. Sign in to Teams as an Microsoft 365 Global Admin or a Teams admin.
 1. Go to the **Settings** icon > **Admin settings** > **eCDN provider**.
