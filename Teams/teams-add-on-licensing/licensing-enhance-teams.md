@@ -25,9 +25,10 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
-- More personalized and intelligent meetings.
-- Advanced protection for meetings.
+- More personalized and intelligent meetings and webinars.
+- Enhanced protection for meetings.
 - Advanced management and reporting capabilities for IT.
+- Advanced Virtual Appointments.
 
 This article is for IT admins who wish to understand Teams Premium licensing and purchase Teams Premium licenses for their users. This article will provide answers to questions like:
 
@@ -56,8 +57,9 @@ The following table compares key features between Teams and Teams Premium.
 | Use standard Teams Meetings backgrounds | x | x |
 | Read live captions during meetings | x | x |
 | Customize meeting templates for your organization |  | x |
-| Customize meeting lobbies and backgrounds |  | x |
-| Customize Together mode scenes |  | x |
+| Add organization branding to meeting lobbies |  | x |
+| Customize meeting backgrounds for your organization | | x |
+| Customize Together mode scenes for your organization |  | x |
 | Read live translated captions during meetings (*coming soon*) |  | x |
 | Translate post-meeting transcriptions (*coming soon*) |  | x |
 | Turn on real-time data storage |  | x |
@@ -104,7 +106,7 @@ The following table compares key features between Teams and Teams Premium.
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Record meetings | x | x |
+| View recordings of meetings | x | x |
 | View meeting transcripts | x | x |
 | View and use files added to meetings | x | x |
 | View and use apps added to meetings | x | x |
@@ -140,7 +142,7 @@ The features that are moving to Teams Premium are:
 
 - Live translated captions.
 - Timeline markers in Teams meeting recordings for when a user left or joined meetings.
-- Custom Together mode scenes.
+- Custom organization Together mode scenes.
 - Virtual Appointments: SMS notifications.
 - Virtual Appointments: Organizational analytics in the Teams admin center.
 - Virtual Appointments: Scheduled queue view.
@@ -214,7 +216,7 @@ If your organization wishes to keep Teams Premium features after the trial perio
 
 ## How do I purchase Teams Premium licenses?
 
-If your tenant and users meet the requirements for Teams Premium, you can purchase Teams Premium add-on licenses through your preferred purchasing channel.
+If your tenant and users meet the requirements for Teams Premium, you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
 
 After you purchase your Teams Premium licenses, you’ll assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
 
