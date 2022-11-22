@@ -11,6 +11,7 @@ ms.date: 09/20/2022
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
