@@ -1,6 +1,8 @@
 items:
 - name: Welcome to Teams
   href: teams-overview.md
+- name: Teams Premium overview
+  href: enhanced-teams-experience.md
 - name: Get started
   items:
     - name: Deployment overview
@@ -456,8 +458,10 @@ items:
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
-        - name: Teams Virtual Visits usage report
-          href: /microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Teams Virtual Appointments usage report
+          href: /microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Teams Virtual Appointments active user report
+          href: /microsoft-365/frontline/virtual-appointments-active-user-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams EHR connector Virtual Appointments report
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
               
@@ -1590,6 +1594,8 @@ items:
           href: expand-teams-across-your-org/shifts/shifts-data-faq.md
         - name: Manage the Updates app
           href: manage-updates-app.md
+        - name: Manage the Virtual Appointments app
+          href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
           
@@ -1780,6 +1786,8 @@ items:
       items: 
         - name: Manage user access to Teams
           href: user-access.md
+        - name: Microsoft Teams Premium licensing
+          href: teams-add-on-licensing/licensing-enhance-teams.md
         - name: Teams add-on license options
           href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
         - name: Assign Teams add-on licenses
