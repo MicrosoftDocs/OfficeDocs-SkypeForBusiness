@@ -99,8 +99,9 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 ## Understand app capabilities
 
-Teams app Capabilities are the core functionalities that can be built in an app to enable integration and interaction.
+Teams app capabilities are the core functionalities that developers build in an app to fulfil various use cases of Teams apps. App developers can create apps using one or more of the following capabilities:
 
+<!---
 :::row:::
     :::column span="":::
     :::column-end:::
@@ -110,8 +111,7 @@ Teams app Capabilities are the core functionalities that can be built in an app 
     :::column:::
     :::column-end:::
 :::row-end:::
-
-To provide rich experience that allows end-users to work inside Teams, app developers create apps using the following capabilities:
+--->
 
 * **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
@@ -128,7 +128,11 @@ To provide rich experience that allows end-users to work inside Teams, app devel
 
 * **Meeting extensions**: Users can enhance the meeting experience by integrating tabs, bots, and message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
+<!---
 * **Cards and task modules**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
+--->
+
+* **Activity feeds**: Activity Feed in Teams contains a notification of all the activity in various scopes like channels and chats. Apps can broadcast a message to all the members of say a team or a channel to notify of any updates. Users can customize what notifications they view.
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
 
@@ -137,4 +141,3 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 * [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).
 * [Teams app updates and admin role](apps-update-experience.md)
 * [Overview of app management and governance in Teams admin center](manage-apps.md)
-
