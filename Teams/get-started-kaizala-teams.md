@@ -45,17 +45,24 @@ This section provides information regarding the migration from Kaizala to Micros
 
 SMB users can move from Kaizala to Teams Essentials, a component of Microsoft Teams, by subscribing to [Microsoft Teams Essentials](https://www.microsoft.com/microsoft-teams/essentials).
 
-Teams Essentials is an affordable and professional meeting solution designed with small business in mind. This solution enables the SMB users to communicate and collaborate in an easy and reliable way.
+Teams Essentials is an affordable and professional meeting solution designed with small business, for example, from restaurants to retailers to professional services, in mind. This solution enables communication and collaboration in an easy and reliable way.
 
 ### Commercial users
 
-Commercial users can move from Kaizala to Microsoft Team by subscribing to [Microsoft Teams Built for hybrid work](https://www.microsoft.com/microsoft-teams/teams-for-work).
+Commercial users can move from Kaizala to Microsoft Teams for Work by subscribing to [Microsoft Teams Built for hybrid work](https://www.microsoft.com/microsoft-teams/teams-for-work).
 
-Microsoft Teams is a collaboration application built for hybrid work. This application - on a single platform - enables communication, organization, collaboration between you and your team.
+Microsoft Teams for Work provides the most productive and secure experience, allowing your teams to work together seamlessly from anywhere and anytime; and to stay in the flow of your work.
 
 ### Consumers
 
-Consumers can move from Kaizala to Microsoft Teams application, a free application that fulfills your collaboration and communication needs, by subscribing to [Microsoft Teams (free)](https://www.microsoft.com/microsoft-teams/free).
+Consumers can move from Kaizala to the free app, namely [Microsoft Teams (free)](https://www.microsoft.com/microsoft-teams/free).
+
+Get started with Microsoft Teams (Free), which includes:
+
+- Built-in online meetings 
+- Built-in audio and video calling
+- Seamless file sharing
+- The ability to communicate and collaborate inside and outside your organization
 
 ## FAQ
 
