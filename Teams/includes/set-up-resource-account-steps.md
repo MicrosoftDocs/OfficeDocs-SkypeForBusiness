@@ -2,7 +2,7 @@ In Microsoft Teams, a resource account is required for each auto attendant or ca
 
 This article covers how to create resource accounts and ready them for use with auto attendants and call queues.
 
-Before you start the procedures in this article, ensure you've done the following:
+Before you start the procedures in this article, ensure you've done the following steps:
 
 - [Obtain Microsoft Teams Phone Resource Account licenses](#obtain-microsoft-teams-phone-resource-account-licenses)
 - [Obtain service numbers](#obtain-service-numbers)
@@ -12,7 +12,7 @@ Before you start the procedures in this article, ensure you've done the followin
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
-Each resource account requires a license in order to work with auto attendants and call queues, known as a **Microsoft Teams Phone Resource Account** license. Subscriptions with Teams Phone automatically get a free allocation of **Microsoft Teams Phone Resource Account** licenses, and if more are needed, additional **Microsoft Teams Phone Resource Account** licenses can be purchased. For details on how to obtain these licenses, see [Microsoft Teams Phone Resource Account licenses](../teams-add-on-licensing/virtual-user.md).
+Each resource account requires a license in order to work with auto attendants and call queues, known as a **Microsoft Teams Phone Resource Account** license. Subscriptions with Teams Phone automatically get a free allocation of **Microsoft Teams Phone Resource Account** licenses, and if more are needed, extra **Microsoft Teams Phone Resource Account** licenses can be purchased. For details on how to obtain these licenses, see [Microsoft Teams Phone Resource Account licenses](../teams-add-on-licensing/virtual-user.md).
 
 We cover how to [assign the license to a resource account later in this article](#assign-a-license).
 
@@ -28,7 +28,7 @@ To see if you already have **Teams Phone Resource Account** licenses, sign into 
 6. Select **Check out now**.
 7. Confirm your order, select **Next**, and then **Place order**.
 
-There is a zero cost, but you still need to follow these steps to acquire the license.
+There's zero cost, but you still need to follow these steps to acquire the license.
 
 ### Obtain service numbers
 
@@ -71,7 +71,7 @@ If you're planning to use the resource account with an auto attendant or call qu
 5. In the **Assigned phone number** box, search for the number you want to use and select **Add**. Be sure to include the country code (for example, +1 250 555 0012).
 6. Select **Save**.
 
-To assign a direct routing or hybrid number to a resource account you need to use PowerShell:
+To assign a Direct Routing or hybrid number to a resource account, you need to use PowerShell:
 
 ```powershell
 Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
