@@ -682,7 +682,7 @@ items:
             - name: Teams encoder
               href: teams-encoder-setup.md
             - name: Configuration
-              href: teams-stream-configuration.md
+              href: teams-encoder-configuration.md
             - name: Creating an event
               href: teams-stream-create-event.md
             - name: Setting up an ecdn encoder
