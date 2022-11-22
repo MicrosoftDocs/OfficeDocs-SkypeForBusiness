@@ -25,49 +25,44 @@ Teams encoders allow users to produce live events directly from an external hard
 
 ## Overview
 
-An encoder takes audio and video content from various sources you use during a live event such as a camera, a microphone, a desktop screen capture, and so on. It compresses and converts that media into a suitable digital format, then sends it to Teams for live streaming to your audience.
+An encoder takes audio and video content from various sources you use during a live event such as a camera, a microphone, a desktop screen capture, and so on. It compresses and converts that media into a suitable digital format, then sends it to Teams for live streaming to your audience. Consult our [Custom Production playbook](https://aka.ms/CustomProductionVEP) to learn more about how you can use Teams production technologies (such as NDI) with external encoders.
 
-## How to choose an encoder
+## Production workflow when using an encoder
 
-If you're not sure if your software or hardware encoder will work seamlessly with Teams, read on to see which ones we've already tested that work best.
+The workflow for producing a Teams Live Event is as follows:
+
+
+
+A live event is scheduled in Teams or Yammer, and the **Teams Encoder** option is selected. This provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding key. The URL and key are used by the encoder to connect to the RTMP endpoint for the scheduled live event.
+
+
+If you're not sure if your hardware or software encoder will work seamlessly with Teams, read on to see which ones we've already tested that work best.
 
 > [!TIP]
 > We recommend you select and set up an encoder well before you begin your live event.
 
-### List of encoders tested by Microsoft
+### Common encoders user with live events
 
 The encoders in the following two lists have been tested by Microsoft for live streaming with Teams. The first list is a subset of these encoders, which have been tested with the product for ease of use and quick setup.
 
 #### Stream-ready encoders
 
-|Encoder         |Website  |Details  |
-|----------------|---------|---------|
-|Haivision       |[Haivision Makito X](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
-|Haivision       |[Haivision KB](https://www.haivision.com/microsoft/stream) |H.264 and HEV video encoders deliver high-quality ABR video cascades for resolutions up to 4K. |
-|Switcher Studio |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit. |
-|Wirecast        |[Wirecast](https://www.telestream.net/wirecast) |Webcasting software that covers all the basics + multi-camera production. |
-|Wirecast        |[Wirecast S](https://www.telestream.net/WirecastS) |Multimedia production software with chroma key filters, advanced audio channel mixing, and local Wi-Fi camera apps for your phone. |
-
-#### Additional encoders
-
-|Encoder                   |Website  |Details  |
-|--------------------------|---------|---------|
-|AWS Elemental Live        |[AWS Elemental Live](https://www.elemental.com/products/aws-elemental-appliances-software/#elemental-live) |Real-time video and audio recording for live streaming to internet-connected devices |
-|vMix                      |[vMix](https://www.vmix.com/) |Software vision mixer that controls recording, mixing, and live streaming of cameras, videos, audio, and more. |
-|XSplit Broadcaster        |[XSplit Broadcaster](https://www.xsplit.com/) |Produces, mixes, and delivers rich video content, including gameplay for live streaming. |
-|FFmpeg                    |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
-|Open Broadcaster Software |[Open Broadcaster Software](https://obsproject.com/) |High-performance real-time video/audio capturing and mixing—supporting all streaming platforms, and more. |
+|Encoder                                |Website  |Details  |
+|---------------------------------------|---------|---------|
+|Haivision                              |[Haivision Makito X](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
+|Haivision                              |[Haivision KB](https://www.haivision.com/microsoft/stream) |H.264 and HEV video encoders deliver high-quality ABR video cascades for resolutions up to 4K. |
+|Open Broadcaster Software (OBS Studio) |[Open Broadcaster Software](https://obsproject.com/) |High-performance real-time video/audio capturing and mixing—supporting all streaming platforms, and more. |
+|vMix                                   |[vMix](https://www.vmix.com/) |Software vision mixer that controls recording, mixing, and live streaming of cameras, videos, audio, and more. |
+|Wirecast                               |[Wirecast](https://www.telestream.net/wirecast) |Webcasting software that covers all the basics + multi-camera production. |
+|Switcher Studio                        |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit. |
+|AWS Elemental Live                     |[AWS Elemental Live](https://www.elemental.com/products/aws-elemental-appliances-software/#elemental-live) |Real-time video and audio recording for live streaming to internet-connected devices |
+|XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Produces, mixes, and delivers rich video content, including gameplay for live streaming. |
+|FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
 |Production Truck          |[Production Truck](https://www.blueframetech.com/productiontruck) |Films and streams events on location from a mobile van or truck. |
-
-##### Our encoder is not on either list
-
-Not a problem! Sometimes your team or organization has a designated encoder they want you to use and you want to ensure it's ready to stream live with Teams. If so, you can learn how to manually configure your own encoder to stream live events to Teams.
-
-## Set up a Teams-ready encoder
-
-XXX After you schedule your live event you can see the list of available encoders in the **Select encoder drop-down** list on the **Encoder setup** tab.
-
-Each encoder mentioned in the respective tables above has a slightly different setup described below.
+|Live Arena AI Producer	                |AI Producer |Production studio integrated in Microsoft Teams as a meeting app.|
+|StreamYard	                            |StreamYard |Live streaming studio in the browser.|
+|Socialive	                            |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
+|Brandlive                              |BrandLive |Cloud based production platform.|
 
 ### Haivision Makito X Encoder and Makito KB Encoder
 
@@ -106,14 +101,3 @@ If you're an existing user of Wirecast, you can choose this option from the drop
 
 > [!NOTE]
 > The Wirecast app is launched with the RTMPS ingest URL pre-configured.
-
-### Wirecast S
-
-If you're new to streaming, you can try Wirecast S by choosing it from the drop-down list. Wirecast S is built specifically for Teams.
-
-1. Select **Start setup** to create a channel for live streaming. Wait for the setup to complete. You'll see a **Ready to connect** message on the screen.
-1. The encoder will launch the Wirecast S app on your machine pre-configured with the correct encoding parameters and ingest URL for that live event. You can choose to automatically start streaming to Teams by selecting that option in the Wirecast S setup screen.
-1. Go back to Teams. After you're able to see the preview from the encoder, select **Start event** to go live so your audience can see the live event.
-
-> [!NOTE]
-> The Wirecast S app is launched with the RTMPS ingest URL pre-configured.

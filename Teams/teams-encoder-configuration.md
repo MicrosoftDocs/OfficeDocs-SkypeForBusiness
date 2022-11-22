@@ -19,30 +19,44 @@ appliesto:
 ms.custom:
 ---
 
-# Manually configure encoders for live event streaming in Microsoft Teams
+# Configuring encoders for live event streaming in Microsoft Teams
 
-If you have an encoder that's not directly integrated into Teams, learn how to setup and configure the encoder manually for Live streaming with Teams.
-
-Teams accepts live feeds from a variety of different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams. Check out the list of tested encoders with easy setup to get started.
+Teams accepts live feeds from a variety of different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams.
 
 To learn how to set up a Live event in Teams, read about creating live events. If you're already using an encoder that's integrated with Teams, read about [configuring encoders for live streaming](teams-encoder-setup.md).
 
-## Configure manually
+## Configuration Steps
 
-After you save the live event (read Creating live events for details), you can see the list of integrated encoders in the **Select encoder** drop-down list on the **Encoder setup** tab. The ingest URLs are also generated at this time. Select **Configure manually** to set up an encoder if it's not in the list of integrated encoders.
+After you've scheduled the live event using Teams or Yammer, and selected the **Teams Encoder** option, you'll be able to retrieve the RTMP URL and key from the meeting invite and use them to send the feed into the Teams producer UI.
 
-## Setup
+### Gather the RTMP information
 
-1. Select Start setup to create an ingest channel for live streaming. Wait for the setup to be complete. You will see a **Ready to connect** message on the screen.
-1. Copy and paste the following settings into the encoder of your choice:
-    1. **Server ingest URL**: In your encoder, this may be called URL or Address. Teams doesn't require a stream key or name, so you can fill this in with any non-empty value, such as TeamStream.
-    2. **Secondary server ingest URL**: If supported by your encoder, use this URL to double push to improve durability and resiliency. Since this is outputting a redundant stream from your encoder, it will require double bandwidth. So, make sure that you have the required bandwidth capacity to support this. This is listed under the advanced section.
-    3. Use the **Secure Connection (SSL)** toggle to switch between RMTP or RTMPS protocols for the ingest URLs. Your encoder must support RTMPS to use it here.
-1. Teams doesn't require a stream key or name, so you can fill this in with any non-empty value such as, TeamsStream. Depending on the encoder, this may be entered on a separate field or appended to the end of the ingest URL, for example, /TeamsStream.
-1. Make sure your encoder's configured with the correct settings as per our recommended encoder settings below.
+#### Scheduled in Teams
+
+1. Open the Teams client and navigate to the **Calendar**.
+1. Select the scheduled live event and select the double arrow button to see the invite details.
+1. Go down to the **RTMP in details** section.
+1. Select the **Get RTMP** link to copy the RTMP ingest URL to the clipboard.
+1. Select the **Get RTMP key** to copy the RTMP key to the clipboard.
+
+#### Scheduled in Yammer
+
+1. Navigate to the Yammer community where the event was scheduled.
+1. Select the **Events** tab to see upcoming scheduled events.
+1. Select the desired event to bring up the details page.
+1. On the right side, under **Produce**, Select the **RTMP information** link to expose the RTMP URL and key.
+
+## Encoder Setup
+
+1. Once you've collected the RTMP information, ensure your encoder is configured with the correct settings as per the recommended encoder settings below.
+1. Enter the RTMP URL and Key into your encoder's streaming settings (refer to the manufacturer's documentation for specifics).
 1. Configure your encoder with the desired audio and video sources.
-1. Start streaming from your encoder to the Teams ingest endpoints.
-1. Go back to Teams. After you're able to see the preview from the encoder, select Start event to go live so your audience can see the live event.
+1. Open the Teams client and join the live vent as a Producer.
+1. Start streaming from the encoder to the Teams RTMP ingest URL.
+1. In the Teams Producer window, after a few seconds, the encoder's RTMP feed will appear in the presenter area.
+1. Click on the RTMP feed in the presenter area to place it into the queue on the left side.
+1. Once you're satisfied with the feed select **Send Live** - the feed will then also appear on right side of the Producer window.
+1. Select **Start** to begin the stream.
 
 ## Recommended encoder settings
 
@@ -61,7 +75,6 @@ After you save the live event (read Creating live events for details), you can s
   - Frame Rate: 29.97 fps or 30 fps
   - Resolution: 1280 x 720 (720P)
   - Interlace Mode: Progressive
-- Pixel Aspect Ratio (PAR): Square
 
 ### Audio format
 
