@@ -88,7 +88,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
     - Guardianrelationship.csv
       - The *Role* value needs to be completed for each parent and guardian to indicate if they're a `parent` or `guardian`.
         - Only the values of `parent` or `guardian` are supported in the app. Other values will result in errors.
-        - For the SDS v1 format, it'll be labeled as **Role**, but for the SDS v2.1 format, it'll be labeled as **relationshipRole**.
+        - For the SDS v1 format, it will be labeled as **Role**, but for the SDS v2.1 format, it will be labeled as **relationshipRole**.
   - To view a sample set of the CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
@@ -104,7 +104,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 #### Parent and guardian restrictions
 
-Parents and guardians are classified as *External users* in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're a part of and the files, images, and other content shared in the chat.
+Parents and guardians are classified as *external users* in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're a part of and the files, images, and other content shared in the chat.
 
 For external chats, both internal and external users can add users to the chat. To learn more about the external chat experience, see [Manage external meetings and chat in Microsoft Teams](manage-external-access.md).
 
