@@ -99,18 +99,10 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 ## Understand app capabilities
 
-Teams app capabilities are the core functionalities that developers build in an app to fulfil various use cases of Teams apps. Apps contain one or more of the following capabilities. All these are different capabilities of Teams apps and admins govern these apps using the common [app governance methods](manage-apps.md).
+Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. Apps contain one or more of the following capabilities. All these are different capabilities of Teams apps and admins govern these apps using the common [app governance methods](manage-apps.md).
 
 <!---
-:::row:::
-    :::column span="":::
-    :::column-end:::
-    :::column span="3":::
         :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
-    :::column-end:::
-    :::column:::
-    :::column-end:::
-:::row-end:::
 --->
 
 * **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
