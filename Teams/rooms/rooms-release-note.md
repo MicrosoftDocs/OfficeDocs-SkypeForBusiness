@@ -99,7 +99,7 @@ Introduced in this update:
 - Pin and hide room video <sup>1</sup> 
 - Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>2</sup>
 - Dual-display Teams Rooms can now display up to 18 participant video streams <sup>1</sup>
-- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses <sup>1</sup>
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic room licenses <sup>1</sup>
 
 <sup>1</sup> This feature is rolling out to the Teams web client and will take about two weeks from the date this update was released to complete. For more information, see [Teams updates](../teams-client-update.md).
 
@@ -117,7 +117,7 @@ Introduced in this update:
 - Admin setting for content only layout default  
 - Modern authentication is on by default
 
- <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Rooms user account.](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
 
@@ -286,7 +286,7 @@ Introduced in this update:
 - Share HDMI audio to meeting participants in Teams meeting
 - Cortana voice skills (Preview)
 - Prevent unmuting based on audio permissions when Teams Rooms joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
-- Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
+- Spotlight someone's video from Teams Rooms console and consume spotlighted video on room displays
 
 > [!NOTE]
 > Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)
