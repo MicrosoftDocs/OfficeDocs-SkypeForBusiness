@@ -37,15 +37,15 @@ Enabling every member of an organization’s network with digital communication 
 
 This section provides information regarding the migration from Kaizala to Microsoft Teams, for the following entities:
 
-- [SMB users](#smb-users)
+- [Small and mid-size businesses (SMB) users](#small-and-mid-size-businesses-smb-users)
 - [Commercial users](#commercial-users)
 - [Consumers](#consumers)
 
-### SMB users
+### Small and mid-size businesses (SMB) users
 
 SMB users can move from Kaizala to Teams Essentials, a component of Microsoft Teams, by subscribing to [Microsoft Teams Essentials](https://www.microsoft.com/microsoft-teams/essentials).
 
-Teams Essentials is an affordable and professional meeting solution designed with small business, for example, from restaurants to retailers to professional services, in mind. This solution enables communication and collaboration in an easy and reliable way.
+Teams Essentials is an affordable and professional meeting solution designed with small businesses, such as restaurants, retailers, professional services, in mind. This solution enables communication and collaboration in an easy and reliable way.
 
 ### Commercial users
 
@@ -76,7 +76,7 @@ Download [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software) 
 
 ### What can I do to prepare for the transition of Kaizala to Teams?
 
-Start using Teams today for solutions that can empower communication across your organization. Teams isn’t just an upgrade for Kaizala, it’s a powerful tool that opens the door to an entirely new way of doing business. Teams is uniquely positioned for various frontline worker user scenarios, thanks to the introduction of [Teams Essentials designed for small and mid-size businesses (SMB)](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/) and [the ability to collaborate with external users by entering the phone number or full email address with Teams for personal use](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
+Start using Teams today for solutions that can empower communication across your organization. Teams isn’t just an upgrade for Kaizala, it’s a powerful tool that opens the door to an entirely new way of doing business. Teams is uniquely positioned for various frontline worker user scenarios, thanks to the introduction of [Teams Essentials designed for SMB](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/) and [the ability to collaborate with external users by entering the phone number or full email address with Teams for personal use](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
 
 ### Will I be able to use Teams to collaborate with customers and partners outside my organization using a phone number?
 
