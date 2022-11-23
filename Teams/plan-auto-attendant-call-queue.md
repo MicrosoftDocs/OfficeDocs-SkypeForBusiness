@@ -65,39 +65,42 @@ You can assign a phone number to a call queue, however call queues do not provid
 
 To configure auto attendants and call queues, you need the following resources:
 
-- A [Resource Account](manage-resource-accounts.md) for each auto attendant and each call queue
-- A free [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that will be directly dialable from Teams users or external phone numbers
-- At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers
-  - The service number may be a toll or toll-free number
+- A [Resource Account](manage-resource-accounts.md) for each auto attendant and each call queue.
+- A free [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that will be directly dialable from Teams users or external phone numbers.
+- At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers.
+  - The service number may be a toll or toll-free number.
 
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
 Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
 
-- An [online voice routing policy](manage-voice-routing-policies.md) assigned if the call queue uses transfer mode
-- An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the call queue uses conference mode
+- An [online voice routing policy](manage-voice-routing-policies.md) assigned if the call queue uses transfer mode.
+- An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the call queue uses conference mode.
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
 When using a resource account for calling line ID purposes in call queues, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
 
-- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
-- An [Operator Connect](operator-connect-plan.md) phone number assigned
-- An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
+- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
+- An [Operator Connect](operator-connect-plan.md) phone number assigned.
+- An [online voice routing policy](manage-voice-routing-policies.md).
+  - Phone number assignment is optional when using Direct Routing.
 
 When an auto attendant or call queue is transferring calls to an external number, specific resource accounts as outlined below must have a Teams Phone Resource Account license and one of the following assigned:
 
-- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
-- An [Operator Connect](operator-connect-plan.md) phone number assigned
-- An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
+- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
+- An [Operator Connect](operator-connect-plan.md) phone number assigned.
+- An [online voice routing policy](manage-voice-routing-policies.md).
+  - Phone number assignment is optional when using Direct Routing.
 
-Which Resource Account to license:
-- License the resource account on the first auto attendant receiving the call when that auto attendant transfers to other auto attendants or call queues that transfer calls externally
-- In all other calling scenarios, license the resource account of the auto attendant or call queue performing the external transfer
+Which resource account to license:
+
+- License the resource account on the first auto attendant receiving the call when that auto attendant transfers to other auto attendants or call queues that transfer calls externally.
+- In all other calling scenarios, license the resource account of the auto attendant or call queue performing the external transfer.
 
 > [!NOTE]
-> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits then the call will fail.
+> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
 >
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
 > 
@@ -117,7 +120,8 @@ Document your answers to these questions and provide the information to the admi
 - Do you want to allow agents in a call queue to opt out of taking calls?
 - Do you want agents in your call queues or your operator to have a specific caller ID if they dial out?
 - Do you want to enable [call parking and retrieval](call-park-and-retrieve.md) in your organization to help with call handoffs between people or departments?
-- For the voice prompts, do you want to record your own or use the system-generated voice? (The system-generated voice is easy to update.)
+- For the voice prompts, do you want to record your own or use the system-generated voice?
+  - The system-generated voice is easy to update.
 
 ## Technical decisions
 
@@ -138,8 +142,8 @@ If you have an existing auto attendant and call queue infrastructure and you're 
 
 **Conference mode** is an option in call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the call queue must use one of the following clients:
 
-- The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Phone System version 1449/1.0.94.2020051601 or later
+- The latest version of the Microsoft Teams desktop client, Android app, or iOS app.
+- Microsoft Phone System version 1449/1.0.94.2020051601 or later.
   
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 
@@ -163,7 +167,7 @@ Once you've completed the planning tasks in this article, follow these steps to 
 
 6. Create the groups that you want to use to contain the call agents for the call queues.
 
-7. If you plan to allow dial by extension, ensure that you've added your users' extension number to their Azure Active Directory profile.
+7. If you plan to allow dial by extension, ensure that you've added your users' extension number to their Azure Active Directory (Azure AD) profile.
 
 Once you've completed the steps above, you're ready to create your auto attendants and call queues. Because auto attendants and call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which auto attendant or call queue should be created first. In the example in the diagram above, you would create the sales and support call queues before you create the Contoso main auto attendant because the main auto attendant needs to direct callers to the sales and support call queues.
 
@@ -173,14 +177,14 @@ See the following articles for information on how to create auto attendants and 
 - [Create a call queue](create-a-phone-system-call-queue.md)
 
 > [!IMPORTANT]
-> A user's Azure Active Directory (AAD) GUID token is stored as part of the auto attendant or call queue configuration when the user is configured as:
+> A user's Azure AD GUID token is stored as part of the auto attendant or call queue configuration when the user is configured as:
 >
 >  - an auto attendant or call queue **Authorized user**.
 >  - an auto attendant **Operator**.
 >  - a **Person in Organization** transfer point.
 >  - an individual member of a call queue.
 > 
-> The auto attendant and call queue configurations aren't synchronized with AAD lifecycle events.  Teams administrators need to manually update auto attendant and call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
+> The auto attendant and call queue configurations aren't synchronized with Azure AD lifecycle events.  Teams administrators need to manually update auto attendant and call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
 >
 > This doesn't apply to call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of auto attendants.
 
