@@ -66,8 +66,8 @@ You can assign a phone number to a call queue, however call queues do not provid
 To configure auto attendants and call queues, you need the following resources:
 
 - A [Resource Account](manage-resource-accounts.md) for each auto attendant and each call queue
-- A free Microsoft Teams Phone Resource Account license for each resource account that will be directly dialable from Teams users or external phone numbers
-- At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable from external phone numbers
+- A free [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that will be directly dialable from Teams users or external phone numbers
+- At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers
   - The service number may be a toll or toll-free number
 
 > [!NOTE]
@@ -155,7 +155,7 @@ Once you've completed the planning tasks in this article, follow these steps to 
 
 2. Get a [Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 
-3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign each account a Teams Phone Resource Account license and, optionally, a service number.
+3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign a Teams Phone Resource Account license to each resource account that will be directly callable and, optionally, a service number.
 
 4. [Create the holidays](set-up-holidays-in-teams.md) for which you want to have separate call routing in your auto attendants.
 
