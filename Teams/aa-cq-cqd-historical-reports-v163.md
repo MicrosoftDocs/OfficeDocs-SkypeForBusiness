@@ -28,7 +28,7 @@ description: Learn about how to use Teams Auto Attendant & Call Queue Historical
 > [!IMPORTANT]
 > Public cloud support for the V1.63 template will end on November 25, 2022.
 >
-> Public cloud customers should use [V3.x.x](aa-cq-cqd-historical-reports.md)
+> Public cloud customers should use V3.x.x of [Auto Attendant & Call Queue Historical Reports](aa-cq-cqd-historical-reports.md)
 
 ## V1.63 published on August 24, 2022
 
