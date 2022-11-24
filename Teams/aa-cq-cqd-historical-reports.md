@@ -26,7 +26,7 @@ description: Learn about how to use Teams Auto Attendant & Call Queue Historical
 # Auto Attendant & Call Queue Historical Reports
 
 >[!NOTE]
-> GCCH/DOD customers should continue to use [V1.63](aa-cq-cqd-historical-reports-v163.md).
+> GCCH/DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
@@ -112,19 +112,70 @@ Perform the following steps:
 
 ### Common Dimensions
 
-insert here
+These dimensions are common to both Auto Attendant and Call Queue:
+
+|Name                                 |Type                   |Description                                                       |
+|:------------------------------------|:----------------------|:-----------------------------------------------------------------|
+|EndTime                              |DateTime               |Time call ended (UTC)                                             |
+|UserStartTimeUTC                     |DateTime               |Time call started (UTC)                                           |
+|Date                                 |DateTime               |Date of call (UTC)                                                |
+|Hour                                 |Text                   |Hour call started (UTC)                                           |
+|Minute                               |Text                   |Minute call started (UTC)                                         |
+|Second                               |Text                   |Second call started (UTC)                                         |
+|Duration                             |Whole Number           |Duration of call, in seconds                                      |
+|Timestamp                            |DateTime               |Time record was written                                           |
+|FirstIsCaller                        |Boolean                |                                                                  |
+|FirstUPN                             |Text                   |                                                                  |
+|SecondUPN                            |Text                   |                                                                  |
+|PSTNCallType                         |Text                   |                                                                  |
+|PSTNConnectivityType                 |Text                   |                                                                  |
+|PSTNCallDuration                     |Whole Number           |                                                                  |
+|TenantId                             |Text                   |Tenant ID                                                         |
+|ConferenceId                         |Text                   |Call identifier                                                   |
+|DocumentId                           |Text                   |Call identifier                                                   |
+|DialogId                             |Text                   |Call identifier                                                   |
 
 ### Auto Attendant Dimensions
 
-insert here
+|Name                                 |Type                   |Description                                                       |
+|:------------------------------------|:----------------------|:-----------------------------------------------------------------|
+|HasAA                                |Boolean                |Is AA involved in call                                            |
+|AutoAttendantIdentity                |Text                   |Resource account URI call arrived on                              |
+|AutoAttendantChainStartTime          |DateTime               |                                                                  |
+|AutoAttendantDirectorySearchMethod   |Text                   |                                                                  |
+|AutoAttendantTransferAction          |Text                   |                                                                  |
+|AutoAttendantCallResult              |Text                   |                                                                  |
+|AutoAttendantCallFlow                |Text                   |                                                                  |
+|AutoAttendantCallerActionCounts      |Whole Number           |                                                                  |
+|AutoAttendantChairDurationInSecs     |Real Number            |                                                                  |
+|AutoAttendantChainIndex              |Whole Number           |                                                                  |
+|AutoAttendantCount                   |                       |                                                                  |
+
 
 ### Call Queue Dimensions
 
-insert here
+|Name                                 |Type                   |Description                                                       |
+|:------------------------------------|:----------------------|:-----------------------------------------------------------------|
+|HasCQ                                |Boolean                |Is CQ involved in call                                            |
+|CallQueueIdentity                    |Text                   |Resource account URI call arrived on                              |
+|TransferredFromCallQueueIdentity     |Text                   |                                                                  |
+|CallQueueCallResult                  |Text                   |                                                                  |
+|CallQueueTargetType                  |Text                   |                                                                  |
+|CallQueueFinaleStateAction           |Text                   |                                                                  |
+|CallQueueAgentCount                  |Whole Number           |Number of agents in call queue                                    |
+|CallQueueAgentOptInCount             |Whole Number           |Number of agents opted-in to call queue                           |
+|CallQueueDurationSeconds             |Real Number            |                                                                  |
 
 ### Measurements
 
-insert here
+|Name                                 |Type                   |Description                                                       |
+|:------------------------------------|:----------------------|:-----------------------------------------------------------------|
+|TotalCallCount                       |Whole Number           |                                                                  |
+|AvgCallDuration                      |Real Number            |                                                                  |
+|PSTNTotalMinutes                     |Real Number            |                                                                  |
+|TotalAudioStreamDuration             |Real Number            |                                                                  |
+|AvgAutoAttendantChainDurationSeconds |Real Number            |                                                                  |
+|AvgCallQueueDurationSeconds          |Real Number            |                                                                  |
 
 ## Auto attendant and call queue historical reports definitions
 
