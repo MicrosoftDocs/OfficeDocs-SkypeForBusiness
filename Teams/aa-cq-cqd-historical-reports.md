@@ -25,6 +25,10 @@ description: Learn about how to use Teams Auto Attendant & Call Queue Historical
 ---
 # Auto Attendant & Call Queue Historical Report
 
+>[!NOTE]
+> GCCH/DOD customers should continue to use [V1.63](aa-cq-cqd-historical-reports-v163.md).
+
+
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
 ## V3.0.4 published on November 18, 2022
@@ -36,11 +40,6 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 - The [Agent Timeline](media/aa-cq-historical-report-sample-at-v304.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
-
->[!NOTE]
-> Historical data collection is in progress across all regions.  Thirty days of historical data will be available at different times, with all regions having a full 30 days of data no later than November 25, 2022.
->
-> GCCH/DOD customers should continue to use V1.63.
 
 ## V3.x.x Prerequisites
 
