@@ -59,7 +59,7 @@ Consumers can move from Kaizala to the free app, namely [Microsoft Teams (free)]
 
 Get started with Microsoft Teams (Free), which includes:
 
-- Built-in online meetings, and audio and video calling
+- Built-in online meetings and audio and video calling
 - Seamless file sharing
 - The ability to communicate and collaborate inside and outside your organization
 
