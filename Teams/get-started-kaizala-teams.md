@@ -33,7 +33,7 @@ Kaizala Pro capabilities are now available in Teams and include Kaizala actions 
 
 Enabling every member of an organization’s network with digital communication and collaboration tools can transform the way work gets done. This overview will help you start your transition from Kaizala to Microsoft Teams today.
 
-## Transition from Kaizala to Microsoft Teams
+## Move from Kaizala to Microsoft Teams
 
 This section provides information regarding the migration from Kaizala to Microsoft Teams, for the following entities:
 
@@ -59,8 +59,7 @@ Consumers can move from Kaizala to the free app, namely [Microsoft Teams (free)]
 
 Get started with Microsoft Teams (Free), which includes:
 
-- Built-in online meetings 
-- Built-in audio and video calling
+- Built-in online meetings, and audio and video calling
 - Seamless file sharing
 - The ability to communicate and collaborate inside and outside your organization
 
