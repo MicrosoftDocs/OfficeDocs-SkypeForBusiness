@@ -116,66 +116,66 @@ These dimensions are common to both Auto Attendant and Call Queue:
 
 |Name                                 |Type                   |Description                                                       |
 |:------------------------------------|:----------------------|:-----------------------------------------------------------------|
-|EndTime                              |DateTime               |Time call ended (UTC)                                             |
-|UserStartTimeUTC                     |DateTime               |Time call started (UTC)                                           |
+|ConferenceId                         |Text                   |Call identifier                                                   |
 |Date                                 |DateTime               |Date of call (UTC)                                                |
-|Hour                                 |Text                   |Hour call started (UTC)                                           |
-|Minute                               |Text                   |Minute call started (UTC)                                         |
-|Second                               |Text                   |Second call started (UTC)                                         |
+|DialogId                             |Text                   |Call identifier                                                   |
+|DocumentId                           |Text                   |Call identifier                                                   |
 |Duration                             |Whole Number           |Duration of call, in seconds                                      |
-|Timestamp                            |DateTime               |Time record was written                                           |
+|EndTime                              |DateTime               |Time call ended (UTC)                                             |
 |FirstIsCaller                        |Boolean                |                                                                  |
 |FirstUPN                             |Text                   |                                                                  |
-|SecondUPN                            |Text                   |                                                                  |
+|Hour                                 |Text                   |Hour call started (UTC)                                           |
+|Minute                               |Text                   |Minute call started (UTC)                                         |
+|PSTNCallDuration                     |Whole Number           |                                                                  |
 |PSTNCallType                         |Text                   |                                                                  |
 |PSTNConnectivityType                 |Text                   |                                                                  |
-|PSTNCallDuration                     |Whole Number           |                                                                  |
+|Second                               |Text                   |Second call started (UTC)                                         |
+|SecondUPN                            |Text                   |                                                                  |
 |TenantId                             |Text                   |Tenant ID                                                         |
-|ConferenceId                         |Text                   |Call identifier                                                   |
-|DocumentId                           |Text                   |Call identifier                                                   |
-|DialogId                             |Text                   |Call identifier                                                   |
+|Timestamp                            |DateTime               |Time record was written                                           |
+|UserStartTimeUTC                     |DateTime               |Time call started (UTC)                                           |
 
 ### Auto Attendant Dimensions
 
 |Name                                 |Type                   |Description                                                       |
 |:------------------------------------|:----------------------|:-----------------------------------------------------------------|
-|HasAA                                |Boolean                |Is AA involved in call                                            |
-|AutoAttendantIdentity                |Text                   |Resource account URI call arrived on                              |
-|AutoAttendantChainStartTime          |DateTime               |                                                                  |
-|AutoAttendantDirectorySearchMethod   |Text                   |                                                                  |
-|AutoAttendantTransferAction          |Text                   |                                                                  |
-|AutoAttendantCallResult              |Text                   |                                                                  |
 |AutoAttendantCallFlow                |Text                   |                                                                  |
+|AutoAttendantCallResult              |Text                   |                                                                  |
 |AutoAttendantCallerActionCounts      |Whole Number           |                                                                  |
 |AutoAttendantChairDurationInSecs     |Real Number            |                                                                  |
 |AutoAttendantChainIndex              |Whole Number           |                                                                  |
+|AutoAttendantChainStartTime          |DateTime               |                                                                  |
 |AutoAttendantCount                   |                       |                                                                  |
+|AutoAttendantDirectorySearchMethod   |Text                   |                                                                  |
+|AutoAttendantIdentity                |Text                   |Resource account URI call arrived on                              |
+|AutoAttendantTransferAction          |Text                   |                                                                  |
+|HasAA                                |Boolean                |Is AA involved in call                                            |
 
 
 ### Call Queue Dimensions
 
 |Name                                 |Type                   |Description                                                       |
 |:------------------------------------|:----------------------|:-----------------------------------------------------------------|
-|HasCQ                                |Boolean                |Is CQ involved in call                                            |
-|CallQueueIdentity                    |Text                   |Resource account URI call arrived on                              |
-|TransferredFromCallQueueIdentity     |Text                   |                                                                  |
-|CallQueueCallResult                  |Text                   |                                                                  |
-|CallQueueTargetType                  |Text                   |                                                                  |
-|CallQueueFinaleStateAction           |Text                   |                                                                  |
 |CallQueueAgentCount                  |Whole Number           |Number of agents in call queue                                    |
 |CallQueueAgentOptInCount             |Whole Number           |Number of agents opted-in to call queue                           |
+|CallQueueCallResult                  |Text                   |                                                                  |
 |CallQueueDurationSeconds             |Real Number            |                                                                  |
+|CallQueueFinaleStateAction           |Text                   |                                                                  |
+|CallQueueIdentity                    |Text                   |Resource account URI call arrived on                              |
+|CallQueueTargetType                  |Text                   |                                                                  |
+|HasCQ                                |Boolean                |Is CQ involved in call                                            |
+|TransferredFromCallQueueIdentity     |Text                   |                                                                  |
 
 ### Measurements
 
 |Name                                 |Type                   |Description                                                       |
 |:------------------------------------|:----------------------|:-----------------------------------------------------------------|
-|TotalCallCount                       |Whole Number           |                                                                  |
+|AvgAutoAttendantChainDurationSeconds |Real Number            |                                                                  |
 |AvgCallDuration                      |Real Number            |                                                                  |
+|AvgCallQueueDurationSeconds          |Real Number            |                                                                  |
 |PSTNTotalMinutes                     |Real Number            |                                                                  |
 |TotalAudioStreamDuration             |Real Number            |                                                                  |
-|AvgAutoAttendantChainDurationSeconds |Real Number            |                                                                  |
-|AvgCallQueueDurationSeconds          |Real Number            |                                                                  |
+|TotalCallCount                       |Whole Number           |                                                                  |
 
 ## Auto attendant and call queue historical reports definitions
 
