@@ -38,7 +38,7 @@ Enabling every member of an organization’s network with digital communication 
 This section provides information regarding the migration from Kaizala to Microsoft Teams, for the following entities:
 
 - [Small and mid-size businesses (SMB) users](#small-and-mid-size-businesses-smb-users)
-- [Commercial users](#commercial-users)
+- [Enterprise users](#enterprise-users)
 - [Consumers](#consumers)
 
 ### Small and mid-size businesses (SMB) users
@@ -47,9 +47,9 @@ SMB users can move from Kaizala to Teams Essentials, a component of Microsoft Te
 
 Teams Essentials is an affordable and professional meeting solution designed with small businesses, such as restaurants, retailers, professional services, in mind. This solution enables communication and collaboration in an easy and reliable way.
 
-### Commercial users
+### Enterprise users
 
-Commercial users can move from Kaizala to Microsoft Teams for Work by subscribing to [Microsoft Teams Built for hybrid work](https://www.microsoft.com/microsoft-teams/teams-for-work).
+Enterprise users can move from Kaizala to Microsoft Teams for Work by subscribing to [Microsoft Teams Built for hybrid work](https://www.microsoft.com/microsoft-teams/teams-for-work).
 
 Microsoft Teams for Work provides the most productive and secure experience, allowing your teams to work together seamlessly from anywhere and anytime; and to stay in the flow of your work.
 
@@ -57,11 +57,7 @@ Microsoft Teams for Work provides the most productive and secure experience, all
 
 Consumers can move from Kaizala to the free app, namely [Microsoft Teams (free)](https://www.microsoft.com/microsoft-teams/free).
 
-Get started with Microsoft Teams (Free), which includes:
-
-- Built-in online meetings and audio and video calling
-- Seamless file sharing
-- The ability to communicate and collaborate inside and outside your organization
+Get started with Microsoft Teams (Free), which includes built-in online meetings and audio and video calling, seamless file sharing, and the ability to communicate and collaborate inside and outside your organization.
 
 ## FAQ
 
