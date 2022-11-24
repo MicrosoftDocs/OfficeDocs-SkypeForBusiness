@@ -1,5 +1,5 @@
 ---
-title: Auto Attendant & Call Queue Historical Report (CQD)
+title: Auto Attendant & Call Queue Historical Reports (CQD)
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
   - ms.lync.lac.ToolsCallQualityDashboard
 description: Learn about how to use Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
-# Auto Attendant & Call Queue Historical Report (CQD)
+# Auto Attendant & Call Queue Historical Reports (CQD)
 
 > [!IMPORTANT]
 > Public cloud support for the V1.63 template will end on November 25, 2022.
 >
-> Public cloud customers should use [alsdjfaldjf](aa-cq-cqd-historical-reports.md)
+> Public cloud customers should use [V3.x.x](aa-cq-cqd-historical-reports.md)
 
 ## V1.63 published on August 24, 2022
 
@@ -310,10 +310,6 @@ Perform the following steps:
 - In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there's no estimated time to repair available at this time.
 
 - <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
-
-## Version 3.x.x history
-
-Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes 
 
 ## Version 1.xx history
 
