@@ -60,19 +60,19 @@ Perform the following steps:
 
 1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
-1. Open the zip file.
+2. Open the zip file.
 
-2. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` template file. Power BI Desktop should launch.
 
-3. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
+4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
   :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
-4. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
+5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
 
-5. Select **Connect**, and the data will refresh.
+6. Select **Connect**, and the data will refresh.
 
 > [!NOTE]
 > If you were using v1.63 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
