@@ -114,26 +114,26 @@ Perform the following steps:
 
 These dimensions are common to both Auto Attendant and Call Queue:
 
-|Name                                 |Type                   |Description                                                       |
-|:------------------------------------|:----------------------|:-----------------------------------------------------------------|
-|ConferenceId                         |Text                   |Call identifier                                                   |
-|Date                                 |DateTime               |Date of call (UTC)                                                |
-|DialogId                             |Text                   |Call identifier                                                   |
-|DocumentId                           |Text                   |Call identifier                                                   |
-|Duration                             |Whole Number           |Duration of call, in seconds                                      |
-|EndTime                              |DateTime               |Time call ended (UTC)                                             |
-|FirstIsCaller                        |Boolean                |                                                                  |
-|FirstUPN                             |Text                   |                                                                  |
-|Hour                                 |Text                   |Hour call started (UTC)                                           |
-|Minute                               |Text                   |Minute call started (UTC)                                         |
-|PSTNCallDuration                     |Whole Number           |                                                                  |
-|PSTNCallType                         |Text                   |                                                                  |
-|PSTNConnectivityType                 |Text                   |                                                                  |
-|Second                               |Text                   |Second call started (UTC)                                         |
-|SecondUPN                            |Text                   |                                                                  |
-|TenantId                             |Text                   |Tenant ID                                                         |
-|Timestamp                            |DateTime               |Time record was written (UTC)                                     |
-|UserStartTimeUTC                     |DateTime               |Time call started (UTC)                                           |
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|ConferenceId<br>(Text)                                 |GUID                           |Call identifier                                                   |
+|Date<br>(DateTime)                                     |                               |Date of call (UTC)                                                |
+|DialogId<br>(Text)                                     |GUID                           |Call identifier                                                   |
+|DocumentId<br>(Text)                                   |GUID                           |Call identifier                                                   |
+|Duration<br>(Whole Number)                             |                               |Duration of call, in seconds                                      |
+|EndTime<br>(DateTime)                                  |                               |Time call ended (UTC)                                             |
+|FirstIsCaller<br>(Boolean)                             |                               |                                                                  |
+|FirstUPN<br>(Text)                                     |                               |                                                                  |
+|Hour<br>(Text)                                         |                               |Hour call started (UTC)                                           |
+|Minute<br>(Text)                                       |                               |Minute call started (UTC)                                         |
+|PSTNCallDuration<br>(Whole Number)                     |                               |                                                                  |
+|PSTNCallType<br>(Text)                                 |                               |                                                                  |
+|PSTNConnectivityType<br>(Text)                         |                               |                                                                  |
+|Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
+|SecondUPN<br>(Text)                                    |                               |                                                                  |
+|TenantId<br>(Text)                                     |                               |Tenant ID                                                         |
+|Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
+|UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
 
 ### Auto Attendant Dimensions
 
@@ -188,28 +188,28 @@ These dimensions are common to both Auto Attendant and Call Queue:
 
 ### Call Queue Dimensions
 
-|Name                                 |Type                   |Description                                                       |
-|:------------------------------------|:----------------------|:-----------------------------------------------------------------|
-|CallQueueAgentCount                  |Whole Number           |Number of agents in call queue                                    |
-|CallQueueAgentOptInCount             |Whole Number           |Number of agents opted-in to call queue                           |
-|CallQueueCallResult                  |Text                   |                                                                  |
-|CallQueueDurationSeconds             |Real Number            |                                                                  |
-|CallQueueFinaleStateAction           |Text                   |                                                                  |
-|CallQueueIdentity                    |Text                   |Resource account URI call arrived on                              |
-|CallQueueTargetType                  |Text                   |                                                                  |
-|HasCQ                                |Boolean                |Is CQ involved in call                                            |
-|TransferredFromCallQueueIdentity     |Text                   |                                                                  |
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|CallQueueAgentCount<br>(Whole Number)                  |                               |Number of agents in call queue                                    |
+|CallQueueAgentOptInCount<br>(Whole Number)             |                               |Number of agents opted-in to call queue                           |
+|CallQueueCallResult<br>(Text)                          |                               |                                                                  |
+|CallQueueDurationSeconds<br>(Real Number)              |                               |                                                                  |
+|CallQueueFinaleStateAction<br>(Text)                   |                               |                                                                  |
+|CallQueueIdentity<br>(Text)                            |                               |Resource account URI call arrived on                              |
+|CallQueueTargetType<br>(Text)                          |                               |                                                                  |
+|HasCQ<br>(Boolean)                                     |                               |Is CQ involved in call                                            |
+|TransferredFromCallQueueIdentity<br>(Text)             |                               |                                                                  |
 
 ### Measurements
 
-|Name                                 |Type                   |Description                                                       |
-|:------------------------------------|:----------------------|:-----------------------------------------------------------------|
-|AvgAutoAttendantChainDurationSeconds |Real Number            |                                                                  |
-|AvgCallDuration                      |Real Number            |                                                                  |
-|AvgCallQueueDurationSeconds          |Real Number            |                                                                  |
-|PSTNTotalMinutes                     |Real Number            |                                                                  |
-|TotalAudioStreamDuration             |Real Number            |                                                                  |
-|TotalCallCount                       |Whole Number           |                                                                  |
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|AvgAutoAttendantChainDurationSeconds<br>(Real Number)  |                               |                                                                  |
+|AvgCallDuration<br>(Real Number)                       |                               |                                                                  |
+|AvgCallQueueDurationSeconds<br>(Real Number)           |                               |                                                                  |
+|PSTNTotalMinutes<br>(Real Number)                      |                               |                                                                  |
+|TotalAudioStreamDuration<br>(Real Number)              |                               |                                                                  |
+|TotalCallCount<br>(Whole Number)                       |                               |                                                                  |
 
 ## Auto attendant and call queue historical reports definitions
 
