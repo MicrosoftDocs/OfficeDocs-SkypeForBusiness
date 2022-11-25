@@ -138,38 +138,38 @@ These dimensions are common to both Auto Attendant and Call Queue:
 ### Auto Attendant Dimensions
 
 |Name                                 |Type                   |Possible Values                |Description                                                       |
-|:------------------------------------|:----------------------|:------------------------------|:-----------------------------------------------------------------|
-|AutoAttendantCallFlow                |Text                   |                               |                                                                  |
-|AutoAttendantCallResult              |Text                   |                               |Final call result                                                 |
-|                                     |                       |§ failed_to_establish_media    |the media portion of the call couldn't be established             |
-|                                     |                       |§ failover_to_operator         |call transferred to operator typically due to a system error      |
-|                                     |                       |§ oaa_chain_too_long           |too many legs in the AA                                           |
-|                                     |                       |§ oaa_session_too_long         |AA session has lasted too long                                    |
-|                                     |                       |§ service_declined             |AA didn't accept the call                                         |
-|                                     |                       |§ service_terminated           |AA configuration disconnects the call or call hung up             |
-|                                     |                       |§ terminated_automatic_selection |(AA configuration disconnects the calls                          |
-|                                     |                       |§ terminated_no_operator       |all terminated due to error no operator defined                   |
-|                                     |                       |§ terminated_transfer_failed   |call terminated as transfer failed - typically to external number |
-|                                     |                       |§ transfer_in_progress         |AA->AA transfer                                                   |
-|                                     |                       |§ transferred_to_operator      |call was transferred to operator                                  |
-|                                     |                       |§ transferred_to_cq            |call was transferred to call queue                                |
-|                                     |                       |§ transferred_to_receptionist  |same as transferred_to_operator                                   |
-|                                     |                       |§ transferred_to_self          |call was returned to the start of the AA                          |
-|                                     |                       |§ transferred_to_shared_voicemail |call was transferred to shared voicemail                       |
-|                                     |                       |§ transferred_to_user          |call was transferred to a user                                    |
-|                                     |                       |§ unknown                      |an unknown condition has occurred                                 |
-|                                     |                       |§ user_terminated              |caller hung up                                                    |
-|AutoAttendantCallerActionCounts      |Whole Number           |                               |                                                                  |
-|AutoAttendantChairDurationInSecs     |Real Number            |                               |                                                                  |
-|AutoAttendantChainIndex              |Whole Number           |                               |                                                                  |
-|AutoAttendantChainStartTime          |DateTime               |                               |                                                                  |
-|AutoAttendantCount                   |                       |                               |                                                                  |
-|AutoAttendantDirectorySearchMethod   |Text                   |                               |                                                                  |
-|                                     |                       |§ abs_search_dtmf              |Touch tone                                                        |
-|                                     |                       |§ abs_search_voice             |Voice                                                             |
-|AutoAttendantIdentity                |Text                   |                               |Resource account URI call arrived on                              |
-|AutoAttendantTransferAction          |Text                   |                               |                                                                  |
-|HasAA                                |Boolean                |                               |Is AA involved in call                                            |
+|:------------------------------------|:----------------------|:------------------------------|:------------------------------------|
+|AutoAttendantCallFlow                |Text                   |                               |                                     |
+|AutoAttendantCallResult              |Text                   |                               |Final call result                    |
+|                                     |                       |failed_to_establish_media      |the media portion of the call couldn't be established       |
+|                                     |                       |failover_to_operator           |call transferred to operator typically due to a system error      |
+|                                     |                       |oaa_chain_too_long             |too many legs in the AA               |
+|                                     |                       |oaa_session_too_long           |AA session has lasted too long        |
+|                                     |                       |service_declined               |AA didn't accept the call             |
+|                                     |                       |service_terminated             |AA configuration disconnects the call or call hung up             |
+|                                     |                       |terminated_automatic_selection |(AA configuration disconnects the calls   |
+|                                     |                       |terminated_no_operator         |all terminated due to error no operator defined  |
+|                                     |                       |terminated_transfer_failed     |call terminated as transfer failed - typically to external number |
+|                                     |                       |transfer_in_progress           |AA->AA transfer                       |
+|                                     |                       |transferred_to_operator        |call was transferred to operator      |
+|                                     |                       |transferred_to_cq              |call was transferred to call queue    |
+|                                     |                       |transferred_to_receptionist    |same as transferred_to_operator       |
+|                                     |                       |transferred_to_self            |call was returned to the start of the AA   |
+|                                     |                       |transferred_to_shared_voicemail |call was transferred to shared voicemail  |
+|                                     |                       |transferred_to_user            |call was transferred to a user        |
+|                                     |                       |unknown                        |an unknown condition has occurred     |
+|                                     |                       |user_terminated                |caller hung up                        |
+|AutoAttendantCallerActionCounts      |Whole Number           |                               |                                      |
+|AutoAttendantChairDurationInSecs     |Real Number            |                               |                                      |
+|AutoAttendantChainIndex              |Whole Number           |                               |                                      |
+|AutoAttendantChainStartTime          |DateTime               |                               |                                      |
+|AutoAttendantCount                   |                       |                               |                                      |
+|AutoAttendantDirectorySearchMethod   |Text                   |                               |                                      |
+|                                     |                       |abs_search_dtmf                |Touch tone                            |
+|                                     |                       |abs_search_voice               |Voice                                 |
+|AutoAttendantIdentity                |Text                   |                               |Resource account URI call arrived on  |
+|AutoAttendantTransferAction          |Text                   |                               |                                      |
+|HasAA                                |Boolean                |                               |Is AA involved in call                |
 
 ### Call Queue Dimensions
 
