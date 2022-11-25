@@ -62,17 +62,17 @@ Perform the following steps:
 
 1. Open the zip file.
 
-1. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` template file. Power BI Desktop should launch.
+2. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` template file. Power BI Desktop should launch.
 
-1. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
+3. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
   :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
-1. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
+4. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
 
-1. Select **Connect**, and the data will refresh.
+5. Select **Connect**, and the data will refresh.
 
 > [!NOTE]
 > If you were using v1.63 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
@@ -137,7 +137,56 @@ These dimensions are common to both Auto Attendant and Call Queue:
 
 ### Auto Attendant Dimensions
 
-|Name                                 |Type                   |Possible Values                |Description                                                       |
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|AutoAttendantCallFlow<br>(Text)                        |                               |Encapsulates the different states of Auto Attendant Call          |
+|                                                       |abs_search                     |                                                                  |
+|                                                       |announcement                   |                                                                  |
+|                                                       |automatic_menu                 |                                                                  |
+|                                                       |call_termination               |                                                                  |
+|                                                       |call_transfer                  |                                                                  |
+|                                                       |first_level_menu               |                                                                  |
+|                                                       |main_menu                      |                                                                  |
+|                                                       |speech_input_confirmation      |                                                                  |
+|                                                       |user_selection                 |                                                                  |
+|AutoAttendantCallResult<br>(Text)                      |                               |Final call result                                                 |
+|                                                       |failed_to_establish_media      |the media portion of the call couldn't be established             |
+|                                                       |failover_to_operator           |call transferred to operator typically due to a system error      |
+|                                                       |oaa_chain_too_long             |too many legs in the AA                                           |
+|                                                       |oaa_session_too_long           |AA session has lasted too long                                    |
+|                                                       |service_declined               |AA didn't accept the call                                         |
+|                                                       |service_terminated             |AA configuration disconnects the call or call hung up             |
+|                                                       |terminated_automatic_selection |(AA configuration disconnects the calls                           |
+|                                                       |terminated_no_operator         |all terminated due to error no operator defined                   |
+|                                                       |terminated_transfer_failed     |call terminated as transfer failed - typically to external number |
+|                                                       |transfer_in_progress           |AA->AA transfer                                                   |
+|                                                       |transferred_to_operator        |call was transferred to operator                                  |
+|                                                       |transferred_to_cq              |call was transferred to call queue                                |
+|                                                       |transferred_to_receptionist    |same as transferred_to_operator                                   |
+|                                                       |transferred_to_self            |call was returned to the start of the AA                          |
+|                                                       |transferred_to_shared_voicemail |call was transferred to shared voicemail                         |
+|                                                       |transferred_to_user            |call was transferred to a user                                    |
+|                                                       |unknown                        |an unknown condition has occurred                                 |
+|                                                       |user_terminated                |caller hung up                                                    |
+|AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |                                                                  |
+|AutoAttendantChairDurationInSecs<br>(Real Number)      |                               |                                                                  |
+|AutoAttendantChainIndex<br>(Whole Number)              |                               |                                                                  |
+|AutoAttendantChainStartTime<br>(DateTime)              |                               |                                                                  |
+|AutoAttendantCount                                     |                               |                                                                  |
+|AutoAttendantDirectorySearchMethod<br>Text             |                               |Directory search method                                           |
+|                                                       |abs_search_dtmf                |Touch tone                                                        |
+|                                                       |abs_search_voice               |Voice                                                             |
+|AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI call arrived on                              |
+|AutoAttendantTransferAction<br>(Text)                  |                               |Call transfer target type                                         |
+|                                                       |AA                             |Transferred to an AA                                              |
+|                                                       |CQ                             |Transferred to a CQ                                               |
+|                                                       |external_pstn                  |Transferred to an external number                                 |
+|                                                       |shared voicemail               |Transferred to shared voicemail                                   |
+|                                                       |Unknown                        |Unknown action                                                    |
+|HasAA<br>Boolean                                       |                               |Is AA involved in call                                            |
+
+
+|Name (Type)                          |Type                   |Possible Values                |Description                                                       |
 |:------------------------------------|:----------------------|:------------------------------|:-----------------------------------------------------------------|
 |AutoAttendantCallFlow                |Text                   |                               |Encapsulates the different states of Auto Attendant Call          |
 |                                     |                       |abs_search                     |                                                                  |
