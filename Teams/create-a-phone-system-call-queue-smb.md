@@ -389,7 +389,7 @@ The following settings are recommended:
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
-4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
+4. It's not possible to set the order the agents will be called in.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
