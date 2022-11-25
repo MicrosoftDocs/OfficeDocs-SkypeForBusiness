@@ -138,38 +138,53 @@ These dimensions are common to both Auto Attendant and Call Queue:
 ### Auto Attendant Dimensions
 
 |Name                                 |Type                   |Possible Values                |Description                                                       |
-|:------------------------------------|:----------------------|:------------------------------|:------------------------------------|
-|AutoAttendantCallFlow                |Text                   |                               |                                     |
-|AutoAttendantCallResult              |Text                   |                               |Final call result                    |
-|                                     |                       |failed_to_establish_media      |the media portion of the call couldn't be established       |
+|:------------------------------------|:----------------------|:------------------------------|:-----------------------------------------------------------------|
+|AutoAttendantCallFlow                |Text                   |                               |Encapsulates the different states of Auto Attendant Call          |
+|                                     |                       |abs_search                     |                                                                  |
+|                                     |                       |announcement                   |                                                                  |
+|                                     |                       |automatic_menu                 |                                                                  |
+|                                     |                       |call_termination               |                                                                  |
+|                                     |                       |call_transfer                  |                                                                  |
+|                                     |                       |first_level_menu               |                                                                  |
+|                                     |                       |main_menu                      |                                                                  |
+|                                     |                       |speech_input_confirmation      |                                                                  |
+|                                     |                       |user_selection                 |                                                                  |
+|AutoAttendantCallResult              |Text                   |                               |Final call result                                                 |
+|                                     |                       |failed_to_establish_media      |the media portion of the call couldn't be established             |
 |                                     |                       |failover_to_operator           |call transferred to operator typically due to a system error      |
-|                                     |                       |oaa_chain_too_long             |too many legs in the AA               |
-|                                     |                       |oaa_session_too_long           |AA session has lasted too long        |
-|                                     |                       |service_declined               |AA didn't accept the call             |
+|                                     |                       |oaa_chain_too_long             |too many legs in the AA                                           |
+|                                     |                       |oaa_session_too_long           |AA session has lasted too long                                    |
+|                                     |                       |service_declined               |AA didn't accept the call                                         |
 |                                     |                       |service_terminated             |AA configuration disconnects the call or call hung up             |
-|                                     |                       |terminated_automatic_selection |(AA configuration disconnects the calls   |
-|                                     |                       |terminated_no_operator         |all terminated due to error no operator defined  |
+|                                     |                       |terminated_automatic_selection |(AA configuration disconnects the calls                           |
+|                                     |                       |terminated_no_operator         |all terminated due to error no operator defined                   |
 |                                     |                       |terminated_transfer_failed     |call terminated as transfer failed - typically to external number |
-|                                     |                       |transfer_in_progress           |AA->AA transfer                       |
-|                                     |                       |transferred_to_operator        |call was transferred to operator      |
-|                                     |                       |transferred_to_cq              |call was transferred to call queue    |
-|                                     |                       |transferred_to_receptionist    |same as transferred_to_operator       |
-|                                     |                       |transferred_to_self            |call was returned to the start of the AA   |
-|                                     |                       |transferred_to_shared_voicemail |call was transferred to shared voicemail  |
-|                                     |                       |transferred_to_user            |call was transferred to a user        |
-|                                     |                       |unknown                        |an unknown condition has occurred     |
-|                                     |                       |user_terminated                |caller hung up                        |
-|AutoAttendantCallerActionCounts      |Whole Number           |                               |                                      |
-|AutoAttendantChairDurationInSecs     |Real Number            |                               |                                      |
-|AutoAttendantChainIndex              |Whole Number           |                               |                                      |
-|AutoAttendantChainStartTime          |DateTime               |                               |                                      |
-|AutoAttendantCount                   |                       |                               |                                      |
-|AutoAttendantDirectorySearchMethod   |Text                   |                               |                                      |
-|                                     |                       |abs_search_dtmf                |Touch tone                            |
-|                                     |                       |abs_search_voice               |Voice                                 |
-|AutoAttendantIdentity                |Text                   |                               |Resource account URI call arrived on  |
-|AutoAttendantTransferAction          |Text                   |                               |                                      |
+|                                     |                       |transfer_in_progress           |AA->AA transfer                                                   |
+|                                     |                       |transferred_to_operator        |call was transferred to operator                                  |
+|                                     |                       |transferred_to_cq              |call was transferred to call queue                                |
+|                                     |                       |transferred_to_receptionist    |same as transferred_to_operator                                   |
+|                                     |                       |transferred_to_self            |call was returned to the start of the AA                          |
+|                                     |                       |transferred_to_shared_voicemail |call was transferred to shared voicemail                         |
+|                                     |                       |transferred_to_user            |call was transferred to a user                                    |
+|                                     |                       |unknown                        |an unknown condition has occurred                                 |
+|                                     |                       |user_terminated                |caller hung up                                                    |
+|AutoAttendantCallerActionCounts      |Whole Number           |                               |                                                                  |
+|AutoAttendantChairDurationInSecs     |Real Number            |                               |                                                                  |
+|AutoAttendantChainIndex              |Whole Number           |                               |                                                                  |
+|AutoAttendantChainStartTime          |DateTime               |                               |                                                                  |
+|AutoAttendantCount                   |                       |                               |                                                                  |
+|AutoAttendantDirectorySearchMethod   |Text                   |                               |Directory search method                                           |
+|                                     |                       |abs_search_dtmf                |Touch tone                                                        |
+|                                     |                       |abs_search_voice               |Voice                                                             |
+|AutoAttendantIdentity                |Text                   |                               |Resource account URI call arrived on                              |
+|AutoAttendantTransferAction          |Text                   |                               |Call transfer target type                                         |
+|                                     |                       |AA                             |Transferred to an AA                                              |
+|                                     |                       |CQ                             |Transferred to a CQ                                               |
+|                                     |                       |external_pstn                  |Transferred to an external number                                 |
+|                                     |                       |shared voicemail               |Transferred to shared voicemail                                   |
+|                                     |                       |Unknown                        |Unknown action                                                    |
 |HasAA                                |Boolean                |                               |Is AA involved in call                |
+
 
 ### Call Queue Dimensions
 
@@ -218,18 +233,18 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |:---------------------|:---------------------|:--------------------------------------|
 |Auto Attendant        |fAutoAttendant        |None                                   |
 
-|Report Section                                  |Field(s) Used                              |Filters Applied     |
-|:-----------------------------------------------|:------------------------------------------|:-------------------|
-|Date selector                                   |AAStartTime                                |None                |
-|Time Range selector                             |AAStartHour                                |None                |
-|Auto Attendant Resource Accounts                |AA Name                                    |None                |
-|Incoming Call Source<sup>1</sup>                |Call Type<br>Sum of TotalCallCount         |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
-|Directory Search Method                         |AADirectorySearchMethod<br>AADirectorySearchMethodLegend<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
-|Caller Action Count                             |AACallerActionCount<br>TotalCallCount      |None                                                             |
-|Average Seconds in AA                           |AAChainDuration                            |None                                                             |
-|Average Caller Actions                          |AACallerActionCount                        |None                                                             |
-|Call Results                                    |AACallResult<br>AACallResultLegend<br>TotalCallCount             |None                                       |
-|Lower section of report                         |MM-DD<br>AA Name<br>AACallFlow<br>Call Type<br>AACallResult<br>TotalCallCount<br>AAChainDuration |None       |
+|Report Section                               |Field(s) Used                                                                                    |Filters Applied |
+|:--------------------------------------------|:------------------------------------------------------------------------------------------------|:----------|
+|Date selector                                |AAStartTime                                                                                      |None       |
+|Time Range selector                          |AAStartHour                                                                                      |None       |
+|Auto Attendant Resource Accounts             |AA Name                                                                                          |None       |
+|Incoming Call Source<sup>1</sup>             |Call Type<br>Sum of TotalCallCount         |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Directory Search Method                      |AADirectorySearchMethod<br>AADirectorySearchMethodLegend<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
+|Caller Action Count                          |AACallerActionCount<br>TotalCallCount                                                            |None       |
+|Average Seconds in AA                        |AAChainDuration                                                                                  |None       |
+|Average Caller Actions                       |AACallerActionCount                                                                              |None       |
+|Call Results                                 |AACallResult<br>AACallResultLegend<br>TotalCallCount                                             |None       |
+|Lower section of report                      |MM-DD<br>AA Name<br>AACallFlow<br>Call Type<br>AACallResult<br>TotalCallCount<br>AAChainDuration |None       |
 
 #### fAutoAttendant field description
 
@@ -238,24 +253,24 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
 |AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
-|AACallFlow                              |Text                     |Encapsulates the different states of Auto Attendant Call--possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Text                     |Final call result--possible values:<br><br>§ failed_to_establish_media (the media portion of the call couldn't be established)<br>§ failover_to_operator (call transferred to operator typically due to a system error)<br>§ oaa_chain_too_long (too many legs in the AA)<br>§ oaa_session_too_long (AA session has lasted too long)<br>§ service_declined (AA didn't accept the call)<br>§ service_terminated (AA configuration disconnects the call or call hung up)<br>§ terminated_automatic_selection (AA configuration disconnects the calls)<br>§ terminated_no_operator (call terminated due to error no operator defined) <br>§ terminated_transfer_failed (call terminated as transfer failed - typically to external number)<br>§ transfer_in_progress (AA->AA transfer)<br>§ transferred_to_operator (call was transferred to operator - typically due to user error)<br>§ transferred_to_receptionist (same as transferred_to_operator)<br>§ transferred_to_self (call was returned to the start of the AA - typically from a menu announcement option)<br>§ transferred_to_shared_voicemail (call was transferred to shared voicemail)<br>§ transferred_to_user (call was transferred to a user - includes call queues)<br>§ unknown (an unknown condition has occurred)<br>§ user_terminated (caller hung up) |
-|AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                               |
-|AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                     |
-|AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank              |
-|AAChainIndex                            |Text                     |                                                                         |
-|AAConnectivityType                      |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall |
-|AACount                                 |Text                     |Number of Auto Attendants involved in call                               |
-|AADirectorySearchMethod                 |Text                     |Last address book search method--possible values:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
-|AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                    |
-|AAStartHour                             |Decimal number           |Auto Attendant call start hour                                           |
-|AAStartTime                             |Date/time                |Auto Attendant call start time                                           |
-|AATransferAction                        |Text                     |Call transfer target type--possible values:<br><br>§ application - voice application entity<br>§ external_pstn<br>§ hunt_group - Call Queue entity<br>§ orgaa - Auto Attendant entity<br>§ shared_voicemail<br>§ unknown<br>§ user |
-|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal           |
-|MM-DD                                   |Text                     |Auto Attendant call month-day                                            |
-|PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                     |
-|TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls            |
-|Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank              |
+|AACallFlow                              |Text                     |See Auto Attendant Dimensions -> AutoAttendantCallFlow                                   |
+|AACallResult                            |Text                     |See Auto Attendant Dimensions -> AutoAttendantCallResult                                 |
+|AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
+|AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
+|AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank                              |
+|AAChainIndex                            |Text                     |                                                                                         |
+|AAConnectivityType                      |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall                   |
+|AACount                                 |Text                     |Number of Auto Attendants involved in call                                               |
+|AADirectorySearchMethod                 |Text                     |See Auto Attendant Dimensions -> AutoAttendantDirectorySearchMethod                      |
+|AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                                    |
+|AAStartHour                             |Decimal number           |Auto Attendant call start hour                                                           |
+|AAStartTime                             |Date/time                |Auto Attendant call start time                                                           |
+|AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
+|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal                           |
+|MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
+|PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
+|TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
+|Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 
 
 ### Cloud Call Queue Analytics report
