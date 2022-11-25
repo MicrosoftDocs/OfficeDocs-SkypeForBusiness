@@ -132,12 +132,12 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |Second                               |Text                   |Second call started (UTC)                                         |
 |SecondUPN                            |Text                   |                                                                  |
 |TenantId                             |Text                   |Tenant ID                                                         |
-|Timestamp                            |DateTime               |Time record was written                                           |
+|Timestamp                            |DateTime               |Time record was written (UTC)                                     |
 |UserStartTimeUTC                     |DateTime               |Time call started (UTC)                                           |
 
 ### Auto Attendant Dimensions
 
-|Name                                 |Type                   |Values                         |Description                                                       |
+|Name                                 |Type                   |Possible Values                |Description                                                       |
 |:------------------------------------|:----------------------|:------------------------------|:-----------------------------------------------------------------|
 |AutoAttendantCallFlow                |Text                   |                               |                                                                  |
 |AutoAttendantCallResult              |Text                   |                               |Final call result                                                 |
@@ -152,6 +152,7 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |                                     |                       |§ terminated_transfer_failed   |call terminated as transfer failed - typically to external number |
 |                                     |                       |§ transfer_in_progress         |AA->AA transfer                                                   |
 |                                     |                       |§ transferred_to_operator      |call was transferred to operator                                  |
+|                                     |                       |§ transferred_to_cq            |call was transferred to call queue                                |
 |                                     |                       |§ transferred_to_receptionist  |same as transferred_to_operator                                   |
 |                                     |                       |§ transferred_to_self          |call was returned to the start of the AA                          |
 |                                     |                       |§ transferred_to_shared_voicemail |call was transferred to shared voicemail                       |
@@ -164,6 +165,8 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |AutoAttendantChainStartTime          |DateTime               |                               |                                                                  |
 |AutoAttendantCount                   |                       |                               |                                                                  |
 |AutoAttendantDirectorySearchMethod   |Text                   |                               |                                                                  |
+|                                     |                       |§ abs_search_dtmf              |Touch tone                                                        |
+|                                     |                       |§ abs_search_voice             |Voice                                                             |
 |AutoAttendantIdentity                |Text                   |                               |Resource account URI call arrived on                              |
 |AutoAttendantTransferAction          |Text                   |                               |                                                                  |
 |HasAA                                |Boolean                |                               |Is AA involved in call                                            |
