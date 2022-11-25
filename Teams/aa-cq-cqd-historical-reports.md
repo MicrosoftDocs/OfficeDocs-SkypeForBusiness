@@ -172,8 +172,8 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |AutoAttendantChairDurationInSecs<br>(Real Number)      |                               |                                                                  |
 |AutoAttendantChainIndex<br>(Whole Number)              |                               |                                                                  |
 |AutoAttendantChainStartTime<br>(DateTime)              |                               |                                                                  |
-|AutoAttendantCount                                     |                               |                                                                  |
-|AutoAttendantDirectorySearchMethod<br>Text             |                               |Directory search method                                           |
+|AutoAttendantCount<br>(Whole Number)                   |                               |                                                                  |
+|AutoAttendantDirectorySearchMethod<br>(Text)           |                               |Directory search method                                           |
 |                                                       |abs_search_dtmf                |Touch tone                                                        |
 |                                                       |abs_search_voice               |Voice                                                             |
 |AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI call arrived on                              |
@@ -183,56 +183,7 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |                                                       |external_pstn                  |Transferred to an external number                                 |
 |                                                       |shared voicemail               |Transferred to shared voicemail                                   |
 |                                                       |Unknown                        |Unknown action                                                    |
-|HasAA<br>Boolean                                       |                               |Is AA involved in call                                            |
-
-
-|Name (Type)                          |Type                   |Possible Values                |Description                                                       |
-|:------------------------------------|:----------------------|:------------------------------|:-----------------------------------------------------------------|
-|AutoAttendantCallFlow                |Text                   |                               |Encapsulates the different states of Auto Attendant Call          |
-|                                     |                       |abs_search                     |                                                                  |
-|                                     |                       |announcement                   |                                                                  |
-|                                     |                       |automatic_menu                 |                                                                  |
-|                                     |                       |call_termination               |                                                                  |
-|                                     |                       |call_transfer                  |                                                                  |
-|                                     |                       |first_level_menu               |                                                                  |
-|                                     |                       |main_menu                      |                                                                  |
-|                                     |                       |speech_input_confirmation      |                                                                  |
-|                                     |                       |user_selection                 |                                                                  |
-|AutoAttendantCallResult              |Text                   |                               |Final call result                                                 |
-|                                     |                       |failed_to_establish_media      |the media portion of the call couldn't be established             |
-|                                     |                       |failover_to_operator           |call transferred to operator typically due to a system error      |
-|                                     |                       |oaa_chain_too_long             |too many legs in the AA                                           |
-|                                     |                       |oaa_session_too_long           |AA session has lasted too long                                    |
-|                                     |                       |service_declined               |AA didn't accept the call                                         |
-|                                     |                       |service_terminated             |AA configuration disconnects the call or call hung up             |
-|                                     |                       |terminated_automatic_selection |(AA configuration disconnects the calls                           |
-|                                     |                       |terminated_no_operator         |all terminated due to error no operator defined                   |
-|                                     |                       |terminated_transfer_failed     |call terminated as transfer failed - typically to external number |
-|                                     |                       |transfer_in_progress           |AA->AA transfer                                                   |
-|                                     |                       |transferred_to_operator        |call was transferred to operator                                  |
-|                                     |                       |transferred_to_cq              |call was transferred to call queue                                |
-|                                     |                       |transferred_to_receptionist    |same as transferred_to_operator                                   |
-|                                     |                       |transferred_to_self            |call was returned to the start of the AA                          |
-|                                     |                       |transferred_to_shared_voicemail |call was transferred to shared voicemail                         |
-|                                     |                       |transferred_to_user            |call was transferred to a user                                    |
-|                                     |                       |unknown                        |an unknown condition has occurred                                 |
-|                                     |                       |user_terminated                |caller hung up                                                    |
-|AutoAttendantCallerActionCounts      |Whole Number           |                               |                                                                  |
-|AutoAttendantChairDurationInSecs     |Real Number            |                               |                                                                  |
-|AutoAttendantChainIndex              |Whole Number           |                               |                                                                  |
-|AutoAttendantChainStartTime          |DateTime               |                               |                                                                  |
-|AutoAttendantCount                   |                       |                               |                                                                  |
-|AutoAttendantDirectorySearchMethod   |Text                   |                               |Directory search method                                           |
-|                                     |                       |abs_search_dtmf                |Touch tone                                                        |
-|                                     |                       |abs_search_voice               |Voice                                                             |
-|AutoAttendantIdentity                |Text                   |                               |Resource account URI call arrived on                              |
-|AutoAttendantTransferAction          |Text                   |                               |Call transfer target type                                         |
-|                                     |                       |AA                             |Transferred to an AA                                              |
-|                                     |                       |CQ                             |Transferred to a CQ                                               |
-|                                     |                       |external_pstn                  |Transferred to an external number                                 |
-|                                     |                       |shared voicemail               |Transferred to shared voicemail                                   |
-|                                     |                       |Unknown                        |Unknown action                                                    |
-|HasAA                                |Boolean                |                               |Is AA involved in call                |
+|HasAA<br>(Boolean)                                     |                               |Is AA involved in call                                            |
 
 
 ### Call Queue Dimensions
