@@ -128,12 +128,19 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |Minute<br>(Text)                                       |                               |Minute call started (UTC)                                         |
 |PSTNCallDuration<br>(Whole Number)                     |                               |                                                                  |
 |PSTNCallType<br>(Text)                                 |                               |                                                                  |
-|PSTNConnectivityType<br>(Text)                         |                               |                                                                  |
+|                                                       |External                       |                                                                  |
+|                                                       |Internal                       |                                                                  |
+|PSTNConnectivityType<sup>1</sup><br>(Text)             |                               |                                                                  |
+|                                                       |CallingPlan                    |                                                                  |
+|                                                       |DirectRouting                  |                                                                  |
 |Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
 |SecondUPN<br>(Text)                                    |                               |                                                                  |
 |TenantId<br>(Text)                                     |                               |Tenant ID                                                         |
 |Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
 |UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
+
+- <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
+
 
 ### Auto Attendant Dimensions
 
@@ -240,7 +247,7 @@ These dimensions are common to both Auto Attendant and Call Queue:
 
 |Report Section                          |Description                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Incoming Call Source<sup>1</sup>        |Distribution of calls by Internal/External call source            |
+|Incoming Call Source                    |Distribution of calls by Internal/External call source            |
 |Directory Search Method                 |Distribution of calls by search type                              |
 |Caller Action Count                     |Distribution of calls by number action used during the call       |
 |Average Seconds in AA                   |Average number of seconds callers spend in the AA                 |
@@ -259,7 +266,7 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |Date selector                                |AAStartTime                                                                                      |None       |
 |Time Range selector                          |AAStartHour                                                                                      |None       |
 |Auto Attendant Resource Accounts             |AA Name                                                                                          |None       |
-|Incoming Call Source<sup>1</sup>             |Call Type<br>Sum of TotalCallCount         |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Incoming Call Source                         |Call Type<br>Sum of TotalCallCount         |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Directory Search Method                      |AADirectorySearchMethod<br>AADirectorySearchMethodLegend<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
 |Caller Action Count                          |AACallerActionCount<br>TotalCallCount                                                            |None       |
 |Average Seconds in AA                        |AAChainDuration                                                                                  |None       |
@@ -273,21 +280,21 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount  (Measure)          |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
+|AACallerActionCount (Measure)           |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 |AACallFlow                              |Text                     |See Auto Attendant Dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant Dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
 |AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank                              |
 |AAChainIndex                            |Text                     |                                                                                         |
-|AAConnectivityType                      |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall                   |
+|AAConnectivityType                      |Text                     |                                                                                         |
 |AACount                                 |Text                     |Number of Auto Attendants involved in call                                               |
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant Dimensions -> AutoAttendantDirectorySearchMethod                      |
 |AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                                    |
 |AAStartHour                             |Decimal number           |Auto Attendant call start hour                                                           |
 |AAStartTime                             |Date/time                |Auto Attendant call start time                                                           |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
-|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal                           |
+|Call Type<sup>1</sup>                   |Text                     |See Common Dimensions -> PSTNCallType                                                    |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
@@ -300,7 +307,7 @@ These dimensions are common to both Auto Attendant and Call Queue:
 
 |Report Section                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Incoming Call Source<sup>1</sup>        |Distribution of calls by Internal/External call source             |
+|Incoming Call Source                    |Distribution of calls by Internal/External call source             |
 |Average Wait Time (seconds)             |Wait time for answered and abandoned calls                          |
 |Call Volume and Agent Opt-in Count      |Distribution of calls by call queues / Maximum agent opt-in count  |
 |Call Results                            |Distribution of calls by call result                               |
@@ -320,7 +327,7 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |Date selector                       |fCallQueueAnalytics -> Date           |None                  |
 |Time Range selector                 |fCallQueueAnalytics -> CQHour         |None                  |
 |Call Queue Resource Account         |fCallQueueAnalytics -> CQ Name        |None                  |
-|Incoming call source<sup>1</sup>    |fCallQueueAnalytics -> Sum of Call Count (Measure)  |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Incoming call source                |fCallQueueAnalytics -> Sum of Call Count (Measure)  |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Avg Wait Time (seconds)-Before Answered |fCallQueueFinalStateAction -> Avg of Average CQ Duration (Measure) |Call Queue Call Result is agent_joined_conference or transferred_to_agent|
 |Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result isn't agent_joined_conference, transferred_to_agent, overflown, timed_out |
 |Call Volume and Agent Opt-In Count   |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Agent Opt In Count<br>fCallQueueAnalytics -> CQ Name<br>fCallQueueAnalytics -> Date |None |
@@ -340,15 +347,15 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                            |
 |Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                           |
 |Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                       |
-|Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal             |
+|Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                              |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Whole Number             |Call queue call start hour                                                 |
 |Date                                    |Date/time                |Call queue call start date and time (hour)                                 | 
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
-|PSTN Connectivity Type                  |Text                     |Type of call--possible values:<br><br>§ ExternalCall<br>§ InternalCall     |
+|PSTN Connectivity Type                  |Text                     |See Common Dimensions -> PSTNConnectivityType                              |
 |PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                       |
 |Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                          |
-|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                |
+|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                               |
 
 
 #### fCallQueueFinalStateAction field description
@@ -423,8 +430,6 @@ These dimensions are common to both Auto Attendant and Call Queue:
 - Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
 - In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there's no estimated time to repair available at this time.
-
-- <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
 
 ## Version 3.x.x history
 
