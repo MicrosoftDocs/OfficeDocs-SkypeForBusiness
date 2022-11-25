@@ -192,11 +192,32 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
 |CallQueueAgentCount<br>(Whole Number)                  |                               |Number of agents in call queue                                    |
 |CallQueueAgentOptInCount<br>(Whole Number)             |                               |Number of agents opted-in to call queue                           |
-|CallQueueCallResult<br>(Text)                          |                               |                                                                  |
+|CallQueueCallResult<br>(Text)                          |                               |Call queue call final state                                       |
+|                                                       |agent_joined_conference        |Call answered - conference mode CQ                                |
+|                                                       |declined                       |                                                                  |
+|                                                       |disconnected                   |                                                                  |
+|                                                       |error                          |                                                                  |
+|                                                       |failed                         |                                                                  |
+|                                                       |invalid                        |                                                                  |
+|                                                       |overflown                      |Overflow condition met                                            |
+|                                                       |timed_out                      |Timeout condition met                                             |
+|                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
 |CallQueueDurationSeconds<br>(Real Number)              |                               |                                                                  |
-|CallQueueFinaleStateAction<br>(Text)                   |                               |                                                                  |
+|CallQueueFinaleStateAction<br>(Text)                   |                               |Call queue final action                                           |
+|                                                       |disconnect                     |time_out calls                                                    |
+|                                                       |disconnect_with_busy           |overflown calls                                                   |
+|                                                       |failed_to_accept_call          |                                                                  |
+|                                                       |forward                        |                                                                  |
+|                                                       |shared_voicemail               |                                                                  |
+|                                                       |other                          |                                                                  |
+|                                                       |voicemail                      |                                                                  |
 |CallQueueIdentity<br>(Text)                            |                               |Resource account URI call arrived on                              |
-|CallQueueTargetType<br>(Text)                          |                               |                                                                  |
+|CallQueueTargetType<br>(Text)                          |                               |Call redirection target                                           |
+|                                                       |ApplicationEndpoint            |                                                                  |
+|                                                       |Mailbox                        |                                                                  |
+|                                                       |Other                          |                                                                  |
+|                                                       |Phone                          |                                                                  |
+|                                                       |User                           |                                                                  |
 |HasCQ<br>(Boolean)                                     |                               |Is CQ involved in call                                            |
 |TransferredFromCallQueueIdentity<br>(Text)             |                               |                                                                  |
 
@@ -315,10 +336,10 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue            |
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue              |
-|Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered transfer mode calls {default}) |
-|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                             |
-|Call Queue Target Type                  |Text                     |Call redirection target type--possible values:<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
-|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                        |
+|Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
+|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                            |
+|Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                           |
+|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                       |
 |Call Type<sup>1</sup>                   |Text                     |Type of call--possible values:<br><br>§ External<br>§ Internal             |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Whole Number             |Call queue call start hour                                                 |
@@ -332,33 +353,33 @@ These dimensions are common to both Auto Attendant and Call Queue:
 
 #### fCallQueueFinalStateAction field description
 
-|Name                                    |Data Type                |Description                                        |
-|:---------------------------------------|:------------------------|:--------------------------------------------------|
-|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>Average call duration in seconds for abandoned calls    |
-|Average Call Queue Duration (Sec)       |Decimal number           |Summarize: Sum<br>Average waiting time in seconds for answered calls           |
-|Avg of Average Call Duration (Measure)  |Whole number             |Same as Average Call Duration (Seconds) however will be 0 when no calls   |
-|Avg of Average CQ Duration (Measure)    |Whole number             |Same as Average Call Queue Duration (Sec) however will be 0 when no calls |
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                         |
-|Call Queue Call Result                  |Text                     |Call queue call final state--possible values:<br><br>§ agent_joined_conference (answered conference mode calls)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (overflow condition met)<br>§ timed_out (timeout condition met)<br>§ transferred_to_agent (answered transfer mode calls {default} |
-|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                      |
-|Call Queue Final State Action           |Text                     |Call queue final action--possible values:<br><br>§ disconnect (timed_out calls)<br>§ disconnect_with_busy (overflown calls)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail                |
+|Name                                    |Data Type                |Description                                                                |
+|:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
+|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>Average call duration in seconds for abandoned calls     |
+|Average Call Queue Duration (Sec)       |Decimal number           |Summarize: Sum<br>Average waiting time in seconds for answered calls       |
+|Avg of Average Call Duration (Measure)  |Whole number             |Same as Average Call Duration (Seconds) however will be 0 when no calls    |
+|Avg of Average CQ Duration (Measure)    |Whole number             |Same as Average Call Queue Duration (Sec) however will be 0 when no calls  |
+|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
+|Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
+|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                       |
+|Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinaleStateAction                    |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Number                   |Hour that the call took place in
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
-|IsAbandoned                             |True/false               |True if call isn't answered by an agent                                   |
+|IsAbandoned                             |True/false               |True if call isn't answered by an agent                                    |
 
 
 ### Cloud Call Queue Agent Timeline report
 
 #### Report description
 
-|Report Section                                          |Description                                                  |
-|:-------------------------------------------------------|:------------------------------------------------------------|
-|Number of Calls by Agent                                |Distribution of calls by call queue and agent                |
-|Distribution by Agent and all Queue                     |Distribution of calls by agent and call queue                |
+|Report Section                                          |Description                                                         |
+|:-------------------------------------------------------|:-------------------------------------------------------------------|
+|Number of Calls by Agent                                |Distribution of calls by call queue and agent                       |
+|Distribution by Agent and all Queue                     |Distribution of calls by agent and call queue                       |
 |Table (bottom left)                                     |Distribution of calls by agent with average and total call duration |
-|Average Call Duration (seconds) by Agent (bottom right) |Average duration (seconds) of call by agent                  |
+|Average Call Duration (seconds) by Agent (bottom right) |Average duration (seconds) of call by agent                         |
 
 #### Report visual field mapping
 
