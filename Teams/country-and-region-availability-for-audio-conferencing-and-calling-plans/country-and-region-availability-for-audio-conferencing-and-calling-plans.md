@@ -197,16 +197,11 @@ The availability of toll phone numbers from some of these locations might vary a
 
 Use the drop-down list at the top of the page to search for a country or region and what services are available.
 
-### Calling Plans
+### Microsoft Teams Calling Plans
 
-|Feature     |Details  |
-|----------|-----------|
-|Calling Plans are available to purchase?  |Yes          |   
-|Minutes available for Calling Plans.    |There are five plan options available per calendar month: <ul><li>Pay-As-You-Go Calling Plan </li><li> 120 minutes Domestic Calling Plan </li><li> 240 minutes Domestic Calling Plan </li><li> 1200 minutes Domestic Calling Plan </li><li> International Calling Plan: 1200 minutes of domestic or 600 minutes of international calling (whichever is reached first in the calendar month)</li></ul>|
+Along with Phone System, Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are three types of Calling Plans available: **Domestic**, **International**, and **Pay-As-You-Go**. See [Calling Plans for Microsoft Teams](../calling-plans-for-office-365.md) for more details.
 
-Along with Phone System, a Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **International**. See [Phone System and Calling Plans](../calling-plan-landing-page.md) for more details.
-
-You can also see [Phone System and Calling Plans licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
+You can also see [Microsoft Teams add-on licensing options](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
 
 > [!NOTE]
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active Users** and **not** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
