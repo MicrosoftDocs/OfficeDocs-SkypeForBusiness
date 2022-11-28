@@ -620,6 +620,38 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
+        - name: Compliant meetings
+          items: 
+            - name: Three tiers of protection overview
+              href: configure-meetings-three-tiers-protection.md
+            - name: Configure baseline protection
+              href: configure-meetings-baseline-protection.md
+            - name: Configure sensitive protection
+              href: configure-meetings-sensitive-protection.md
+            - name: Configure highly sensitive protection
+              href: configure-meetings-highly-sensitive-protection.md
+            - name: Manage recording options
+              href: manage-meeting-recording-options.md
+            - name: Manage meeting lobby
+              href: configure-lobby-sensitive-meetings.md
+            - name: Manage presentation experience
+              href: manage-meeting-presentation-experience.md
+            - name: Manage chat
+              href: manage-chat-sensitive-meetings.md
+            - name: Encrypt meetings
+              href: end-to-end-encrypted-meetings.md
+            - name: Watermark meetings
+              href: watermark-meeting-content-video.md
+            - name: Custom meeting templates
+              items:
+                - name: Custom meeting templates overview
+                  href: custom-meeting-templates-overview.md
+                - name: Create a meeting template
+                  href: create-custom-meeting-template.md
+                - name: Manage meeting templates
+                  href: manage-meeting-templates.md
+            - name: Use templates, labels, and policies together
+              href: meeting-templates-sensitivity-labels-policies.md
         - name: Manage who can start and schedule meetings
           href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
