@@ -21,6 +21,7 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
+ROBOTS: NOINDEX, NOFOLLOW
 description: Learn about how to use the Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data for GCC High and DoD customers.
 ---
 
