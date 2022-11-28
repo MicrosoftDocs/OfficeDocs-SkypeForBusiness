@@ -40,7 +40,7 @@ We recommend that Teams traffic bypasses proxy server infrastructure.
 
 Teams Phones don't support proxy servers.
 
-Our recommendation is to ensure that both signalling (TCP 443) and media (UDP 3478-3481) traffic bypasses proxy server infrastucture.
+Our recommendation is to ensure that both signaling (TCP 443) and media (UDP 3478-3481) traffic bypasses proxy server infrastructure.
 
 ## Teams Meeting Rooms and Panels
 
