@@ -60,7 +60,7 @@ Microsoft also strongly recommends:
     
 - Allowing UDP traffic (3478-3481)
 
-- Whitelisting all required URLs and IPs, including those for Azure, Office 365, Intune and Teams Room Pro (where used)
+- Allowing all required URLs and IPs, including those for Azure, Office 365, Intune and Teams Room Pro (where used)
     
 - Following the other recommendations in our networking guidelines:
   [Prepare your organization's network for Teams](prepare-network.md)
