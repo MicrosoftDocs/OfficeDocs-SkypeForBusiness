@@ -23,10 +23,11 @@ ms.custom:
   - ms.lync.lac.ToolsCallQualityDashboard
 description: Learn about how to use Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
+
 # Auto Attendant & Call Queue Historical Reports
 
 >[!NOTE]
-> GCCH/DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
+> GCC HIgh and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
@@ -40,9 +41,10 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
-## V3.x.x Prerequisites
+## V3.x.x prerequisites
 
 ### Power BI Desktop
+
 You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 The minimum compatible version is 2.85.681.0 (September 2020).
@@ -50,9 +52,10 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 ### Permissions to access the CQD pipeline
 
 While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+
 - This requirement will be removed in a future release.
 
-## V3.x.x Installation 
+## V3.x.x installation 
 
 The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
@@ -82,7 +85,7 @@ Perform the following steps:
 > 1. Select the drop down for **Clear Permissions**, and then select **Clear All Permissions**.
 > 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
 
-## Data latency and AA & CQ analytics
+## Data latency for Auto Attendant and Call Queue analytics
 
 Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
 
@@ -90,7 +93,7 @@ You'll have to refresh the data to see any new data.
 
 ## Customization 
 
-You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and so on.
+You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and more.
 
 The report contains all the data metrics currently available.
 
@@ -100,19 +103,19 @@ The following steps assume you've already completed the installation steps.
 
 Perform the following steps:
 
-- Select **View tab** on the ribbon.
+1. Select **View tab** on the ribbon.
 
   :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
 
-- Select the color schema from the drop-down list.
+2. Select the color schema from the drop-down list.
 
   :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
 ## Dimensions and measurements
 
-### Common Dimensions
+### Common dimensions
 
-These dimensions are common to both Auto Attendant and Call Queue:
+These dimensions are common to both Auto Attendants and Call Queues:
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
@@ -139,14 +142,14 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
 |UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
 
-- <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
+- <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as **Internal**.
 
 
-### Auto Attendant Dimensions
+### Auto Attendant dimensions
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|AutoAttendantCallFlow<br>(Text)                        |                               |Encapsulates the different states of Auto Attendant Call          |
+|AutoAttendantCallFlow<br>(Text)                        |                               |Encapsulates the different states of Auto Attendant call          |
 |                                                       |abs_search                     |                                                                  |
 |                                                       |announcement                   |                                                                  |
 |                                                       |automatic_menu                 |                                                                  |
@@ -157,24 +160,24 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |                                                       |speech_input_confirmation      |                                                                  |
 |                                                       |user_selection                 |                                                                  |
 |AutoAttendantCallResult<br>(Text)                      |                               |Final call result                                                 |
-|                                                       |failed_to_establish_media      |the media portion of the call couldn't be established             |
-|                                                       |failover_to_operator           |call transferred to operator typically due to a system error      |
-|                                                       |oaa_chain_too_long             |too many legs in the AA                                           |
+|                                                       |failed_to_establish_media      |The media portion of the call couldn't be established             |
+|                                                       |failover_to_operator           |Call transferred to operator typically due to a system error      |
+|                                                       |oaa_chain_too_long             |Too many legs in the AA                                           |
 |                                                       |oaa_session_too_long           |AA session has lasted too long                                    |
 |                                                       |service_declined               |AA didn't accept the call                                         |
 |                                                       |service_terminated             |AA configuration disconnects the call or call hung up             |
-|                                                       |terminated_automatic_selection |(AA configuration disconnects the calls                           |
-|                                                       |terminated_no_operator         |all terminated due to error no operator defined                   |
-|                                                       |terminated_transfer_failed     |call terminated as transfer failed - typically to external number |
+|                                                       |terminated_automatic_selection |AA configuration disconnects the calls                           |
+|                                                       |terminated_no_operator         |All terminated due to error no operator defined                   |
+|                                                       |terminated_transfer_failed     |Call terminated as transfer failed - typically to external number |
 |                                                       |transfer_in_progress           |AA->AA transfer                                                   |
-|                                                       |transferred_to_operator        |call was transferred to operator                                  |
-|                                                       |transferred_to_cq              |call was transferred to call queue                                |
-|                                                       |transferred_to_receptionist    |same as transferred_to_operator                                   |
-|                                                       |transferred_to_self            |call was returned to the start of the AA                          |
-|                                                       |transferred_to_shared_voicemail |call was transferred to shared voicemail                         |
-|                                                       |transferred_to_user            |call was transferred to a user                                    |
-|                                                       |unknown                        |an unknown condition has occurred                                 |
-|                                                       |user_terminated                |caller hung up                                                    |
+|                                                       |transferred_to_operator        |Call was transferred to operator                                  |
+|                                                       |transferred_to_cq              |Call was transferred to call queue                                |
+|                                                       |transferred_to_receptionist    |Same as transferred_to_operator                                   |
+|                                                       |transferred_to_self            |Call was returned to the start of the AA                          |
+|                                                       |transferred_to_shared_voicemail |Call was transferred to shared voicemail                         |
+|                                                       |transferred_to_user            |Call was transferred to a user                                    |
+|                                                       |unknown                        |An unknown condition has occurred                                 |
+|                                                       |user_terminated                |Caller hung up                                                    |
 |AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |                                                                  |
 |AutoAttendantChairDurationInSecs<br>(Real Number)      |                               |                                                                  |
 |AutoAttendantChainIndex<br>(Whole Number)              |                               |                                                                  |
@@ -193,7 +196,7 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |HasAA<br>(Boolean)                                     |                               |Is AA involved in call                                            |
 
 
-### Call Queue Dimensions
+### Call Queue dimensions
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
@@ -281,15 +284,15 @@ These dimensions are common to both Auto Attendant and Call Queue:
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
 |AACallerActionCount (Measure)           |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
-|AACallFlow                              |Text                     |See Auto Attendant Dimensions -> AutoAttendantCallFlow                                   |
-|AACallResult                            |Text                     |See Auto Attendant Dimensions -> AutoAttendantCallResult                                 |
+|AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
+|AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
 |AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank                              |
 |AAChainIndex                            |Text                     |                                                                                         |
 |AAConnectivityType                      |Text                     |                                                                                         |
 |AACount                                 |Text                     |Number of Auto Attendants involved in call                                               |
-|AADirectorySearchMethod                 |Text                     |See Auto Attendant Dimensions -> AutoAttendantDirectorySearchMethod                      |
+|AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
 |AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                                    |
 |AAStartHour                             |Decimal number           |Auto Attendant call start hour                                                           |
 |AAStartTime                             |Date/time                |Auto Attendant call start time                                                           |
@@ -425,11 +428,11 @@ These dimensions are common to both Auto Attendant and Call Queue:
 
 ## Known issues
 
-- Call queue and auto attendants are shown by resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
+- Call queues and auto attendants are shown by the resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
 - Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
-- In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there's no estimated time to repair available at this time.
+- In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
 ## Version 3.x.x history
 
