@@ -1,5 +1,5 @@
 ---
-title: Auto Attendant & Call Queue Historical Reports
+title: Updated auto attendant and call queue historical reports
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -21,10 +21,10 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
-description: Learn about how to use Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
+description: Learn about how to use the updated Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
-# Auto Attendant & Call Queue Historical Reports
+# Updated auto attendant and call queue historical reports
 
 >[!NOTE]
 > GCC HIgh and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
@@ -85,7 +85,7 @@ Perform the following steps:
 > 1. Select the drop down for **Clear Permissions**, and then select **Clear All Permissions**.
 > 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
 
-## Data latency for Auto Attendant and Call Queue analytics
+## Data latency for auto attendant and call queue analytics
 
 Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
 
@@ -115,7 +115,7 @@ Perform the following steps:
 
 ### Common dimensions
 
-These dimensions are common to both Auto Attendants and Call Queues:
+These dimensions are common to both auto attendants and call queues:
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
@@ -145,7 +145,7 @@ These dimensions are common to both Auto Attendants and Call Queues:
 - <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as **Internal**.
 
 
-### Auto Attendant dimensions
+### Auto attendant dimensions
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
@@ -196,7 +196,7 @@ These dimensions are common to both Auto Attendants and Call Queues:
 |HasAA<br>(Boolean)                                     |                               |Is AA involved in call                                            |
 
 
-### Call Queue dimensions
+### Call queue dimensions
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
