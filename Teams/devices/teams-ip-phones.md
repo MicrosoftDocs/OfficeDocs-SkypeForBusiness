@@ -158,6 +158,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|AudioCodes C448HD/C450HD  | `1.17.769`    | 2022 Update #3A|
 |Crestron UC-P8/I/C/CI     | `1.0.5.20`    | 2022 Update #3A |
 |Crestron UC-P10/I/C/CI | `1.0.5.20`    | 2022 Update #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 Update #3A    |
@@ -401,6 +402,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Pad Panel | `NFA1.20220914.1215` | 2022 Update #3A  |
 |Neat Pad Panel | `NFA1.20220914.1206` | 2022 Update #3A  |
 |Logitech Tap Scheduler | `1.7.200` |2022 Update #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
