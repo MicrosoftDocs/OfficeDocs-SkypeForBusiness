@@ -84,7 +84,7 @@ To create a sensitivity label
     1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Off**.
     1. Select **Control watermarks** and set **Apply watermarks to shared content** and **Apply watermarks to everyone's video feed** to **Off**.
     1. Configure any other settings that you need for your organization.
-    :::image type="content" source="media/teams-meeting-sensitivity-label-baseline-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-baseline-large.png":::
+    <!--:::image type="content" source="media/teams-meeting-sensitivity-label-baseline-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-baseline-large.png":::-->
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 

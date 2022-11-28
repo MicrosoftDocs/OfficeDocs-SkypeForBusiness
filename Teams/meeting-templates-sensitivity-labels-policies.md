@@ -74,7 +74,7 @@ Whenever a sensitivity label is used, the settings configured in the label take 
 
 The settings in a sensitivity label can be left uncontrolled when the label is created, allowing a template or the meeting organizer to control these settings.
 
-Sensitivity labels are often used for multiple purposes - labelling documents, sites, and emails, as well as meetings. You can avoid creating additional labels that are just for meetings by using templates along with the labels to account for variations within a particular type of meeting.
+Sensitivity labels are often used for multiple purposes - labeling documents, sites, and emails, as well as meetings. You can avoid creating additional labels that are just for meetings by using templates along with the labels to account for variations within a particular type of meeting.
 
 For example your marketing department might have different requirements for sensitive meetings than the research department. You can configure the settings that are common to both in a sensitivity label and then make separate templates available to the two groups which further refine the meeting settings for that group. Both templates could use the same label.
 

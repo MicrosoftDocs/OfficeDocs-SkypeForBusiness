@@ -77,7 +77,7 @@ Meeting organizers can choose from the following options for who can present in 
 
 The default value shown when a user creates a meeting is specified by the **Who can present in meetings** policy mentioned above.
 
-You can restrict this setting by using using a sensitivity label. For sensitive or highly sensitive meetings, consider restricting this setting to **Only me and co-organizers** or **Specific people** by using a sensitivity label.
+You can restrict this setting by using a sensitivity label. For sensitive or highly sensitive meetings, consider restricting this setting to **Only me and co-organizers** or **Specific people** by using a sensitivity label.
 
 ### Teams admin policy: Participants can give or request control
 
@@ -132,7 +132,7 @@ Each of these features can be managed through admin policies, but not through te
 
 If you have meetings where sensitive information is being shared, you may want to disable Whiteboard and shared notes to avoid having sensitive information added to them.
 
-PowerPoint Live allows attendees to navigate forward and back in a PowerPoint presentation being shared on screen. This may allow attendees to see sensitive information before it's is presented by the organizer.
+PowerPoint Live allows attendees to navigate forward and back in a PowerPoint presentation being shared on screen. This may allow attendees to see sensitive information before it's presented by the organizer.
 
 Consider if there are users or groups in your organization who should not use these features to avoid sharing sensitive information.
 
@@ -150,7 +150,7 @@ Attendee audio and video can make it easy for attendees to communicate during a 
 
 For meetings that are presentations with minimal interaction from attendees, turning video and audio off can minimize distractions.
 
-When recording meetings, video from participants might be considered personally identifiable information (PII) and infer regulatory requirements.
+When recording meetings, video from participants might be considered personal data and infer regulatory requirements.
 
 If you choose to turn off meeting reactions, remember that this will disable the hand-raise feature. (For presentation-style meetings, the Q&A feature may allow the needed interaction for attendees to ask questions.)
 

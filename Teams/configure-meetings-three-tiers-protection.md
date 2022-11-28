@@ -41,7 +41,7 @@ Additionally, we'll discuss a variation of the highly sensitive configuration th
 
 ## Three tiers at a glance
 
-The following table summarizes the configurations for each tier. Use these configurations as starting point recommendations and adjust the configurations to meet the needs of your organization. Depending your compliance needs, you may not need every tier.
+The following table summarizes the configurations for each tier. Use these configurations as starting point recommendations and adjust the configurations to meet the needs of your organization. Depending on your compliance needs, you may not need every tier.
 
 |&nbsp;|Baseline|Sensitive|Highly sensitive|Highly sensitive presentation|
 |:-----|:-----|:-----|:-----|:-----|

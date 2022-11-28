@@ -80,7 +80,7 @@ To create a sensitivity label
     1. Select **Control who can present** and choose **People in my organization and guests** from the dropdown list.
     1. Select **Who can record** and choose **Organizers and co-organizers** from the dropdown list.
     1. Configure any other settings that you need for your organization.
-    :::image type="content" source="media/teams-meeting-sensitivity-label-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-sensitive-large.png":::    
+    <!--:::image type="content" source="media/teams-meeting-sensitivity-label-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-sensitive-large.png":::-->
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 

@@ -37,7 +37,7 @@ The following table show what chat-related controls are available and where they
 > [!Note]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
-By default, chat is turned on for meeting participants. There are several ways you can mange chat:
+By default, chat is turned on for meeting participants. There are several ways you can manage chat:
 
 - Prevent anonymous meeting participants from using chat
 - Prevent the meeting chat from being used before or after the meeting
@@ -50,7 +50,7 @@ Meeting organizers can specify that the chat only be available while the meeting
 
 ## Options for meetings without chat
 
-Some organizations require that meeting chat be turned off entirely for certain types of meetings. For example, an organization that holds meetings where personally identifiable information (PII) is discussed might want to turn off the meeting chat because of the regulatory requirements around storing this information.
+Some organizations require that meeting chat be turned off entirely for certain types of meetings. For example, an organization that holds meetings where personal data is discussed might want to turn off the meeting chat because of the regulatory requirements around storing this information.
 
 For meetings where sensitive or highly sensitive information is shared and you want to turn off the meeting chat, you can enforce this by using a meeting template or sensitivity label.
 

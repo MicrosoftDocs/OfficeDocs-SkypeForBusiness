@@ -67,17 +67,20 @@ If any of these settings are configured in the label, they will override these s
 
 Teams Premium includes several default meeting templates that you can make available to your users:
 
-- Class
-- Discussion group
 - Large Meeting
-- Lecture
-- Parent-teacher conference
 - Protected meeting
 - Town hall
 - Virtual appointment
 - Webinar
 
-These templates are read-only and can't be updated.
+Additionally, these templates are available in Teams for Education:
+
+- Class
+- Discussion group
+- Lecture
+- Parent teacher conference
+
+You can update the settings on these templates if you need to.
 
 ## Related topics
 

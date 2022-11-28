@@ -55,7 +55,7 @@ If all of a particular type of meeting must be recorded (for example, all sensit
 
 ## Recording lifecycle
 
-By default, meeting recordings are deleted after 120 days. This is configure by using two policies in the Teams admin center:
+By default, meeting recordings are deleted after 120 days. This is configured by using two policies in the Teams admin center:
 
 - **Meetings automatically expire** determines if meeting recordings are automatically deleted after a specified time.
 - **Default expiration time** specifies the number of days after which recordings are deleted. The default is 120.
