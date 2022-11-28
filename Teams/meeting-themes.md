@@ -73,17 +73,9 @@ Teams Meetings supports square logos that appear on key surfaces during your mee
 Uploads must adhere to the following parameters. An admin can only upload:
 
 - PNG and JPEG image formats for their logo.
-- a logo image with a maximum size of 5 MB.
-- logo images with a minimum dimension of 576 px X 576 px.
-- only one image per theme from their device.
-
-Admins will upload two variations of the logo images that will appear on the Pre-Join and Lobby UI:
-  
-- Dark Theme Brand Logo
-- Light Theme Brand Logo 
-
-> [!NOTE]
-> Light Theme Brand Logos will be available in future updates.
+- A logo image with a maximum size of 5 MB.
+- Logo images with a minimum dimension of 576 px X 576 px.
+- Only one image per theme from their device.
 
 ### Adding a custom image
 
@@ -159,7 +151,7 @@ Supported clients:
 
 Logos and images will be available for Join Launcher in future updates.
 > [!NOTE]
-> Webinars will use meeting themes for the in-meeting experience. However, the webinar registration webpage and email will continue using the current branding configurations. Meeting organizers can turn off meeting themes for a webinar experience by using the opt-out meeting option.
+> The new webinar experience will use these theme features in meetings. The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails. Meeting organizers can turn off meeting themes for a webinar by opting-out in Meeting options. Learn more about [the new webinar experience](set-up-webinars.md)
 
 ### Who can view a meeting theme
 
