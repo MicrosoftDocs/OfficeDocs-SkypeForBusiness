@@ -1,5 +1,5 @@
 ---
-title: Auto Attendant & Call Queue Historical Reports (CQD)
+title: Auto attendant and call queue historical reports for GCC High and DoD
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -21,9 +21,10 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
-description: Learn about how to use Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
+description: Learn about how to use the Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data for GCC High and DoD customers.
 ---
-# Auto Attendant & Call Queue Historical Reports (CQD)
+
+# Auto attendant and call queue historical reports for GCC High and DoD
 
 > [!IMPORTANT]
 > Public cloud support for the V1.63 template will end on November 25, 2022.
@@ -72,7 +73,6 @@ Perform the following steps:
     ```powershell
     (Get-CsTenant).ServiceInstance
 
-
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
@@ -90,29 +90,29 @@ Perform the following steps:
 
 1. Select **Connect**, and the data will refresh.
 
-## Data latency and AA & CQ analytics
+## Data latency for AA and CQ analytics
 
-Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
+Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear.
 
 You'll have to refresh the data to see any new data.
 
-## Customization 
+## Customization
 
 You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and so on.
 
 The report contains all the data metrics currently available.
 
-### Change color schema 
+### Change color schema
 
 The following steps assume you've already completed the installation steps.
 
 Perform the following steps:
 
-- Select **View tab** on the ribbon.
+1. Select **View tab** on the ribbon.
 
   :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
 
-- Select the color schema from the drop-down list.
+2. Select the color schema from the drop-down list.
 
   :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
@@ -237,7 +237,7 @@ Perform the following steps:
 |TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                |
 
 
-#### fCallQueueFinalStateAction  CQD fields description
+#### fCallQueueFinalStateAction CQD fields description
 
 |Name                                    |Data Type                |Description                                        |
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
@@ -303,11 +303,11 @@ Perform the following steps:
 
 ## Known issues
 
-- Call queue and auto attendants are shown by resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
+- Call queue and auto attendants are shown by the resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
 - Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
-- In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there's no estimated time to repair available at this time.
+- In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
 - <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
 
