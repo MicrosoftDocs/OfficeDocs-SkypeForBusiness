@@ -76,7 +76,7 @@ The following providers offer contact center solutions that are integrated into 
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `EvoloveIP` | https://www.evolveip.net/contact-center   |
+| `Evolve IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Heedify` | https://heedify.io/call-center/                                                 |
