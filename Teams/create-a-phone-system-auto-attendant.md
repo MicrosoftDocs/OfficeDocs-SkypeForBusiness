@@ -23,7 +23,7 @@ ms.custom:
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
 --- 
 
-# Set up an auto attendant
+# Set up an auto attendant for Microsoft Teams
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
 
