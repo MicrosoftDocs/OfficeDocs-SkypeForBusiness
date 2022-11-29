@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-description: Learn how to set up and manage auto attendants in Microsoft Teams.
+description: Learn how to set up a Microsoft Teams auto attendant.
 --- 
 
 # Set up a Microsoft Teams auto attendant

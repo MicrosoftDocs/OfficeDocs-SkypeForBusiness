@@ -16,7 +16,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.managedevices.overview
   - ms.teamsadmincenter.devicemanagement.overview
-description: Learn how to manage devices used with Teams in your organization.
+description: Manage devices used with Microsoft Teams in your organization.
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
