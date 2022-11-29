@@ -49,7 +49,7 @@ Here's an overview of what's on each tab.
 
 Get easy access to key actions and information. The Home page provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
-:::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-home.png":::
 
 ### Bookings schedule
 
@@ -57,7 +57,7 @@ Get easy access to key actions and information. The Home page provides a quick v
 
 Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
 
-:::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Bookings schedule page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Bookings schedule page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
 ### Queue
 
@@ -69,7 +69,7 @@ From here, schedulers can add a new booking, view relevant appointment details, 
 
 To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/bookings-virtual-appointments#monitor-appointments-and-get-real-time-status-updates-in-the-queue-view).
 
-:::image type="content" source="media/manage-virtual-appointments-app-queue.png" alt-text="Screenshot of the Queue page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-queue.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-queue.png" alt-text="Screenshot of the Queue page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-queue.png":::
 
 ### Analytics
 
@@ -87,7 +87,7 @@ The analytics experience depends on user role. Admins get [organizational analyt
 
 Admins see an org-level report that shows aggregated analytics across all departments within your organization.
 
-:::image type="content" source="media/manage-virtual-appointments-app-analytics-org.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for admins" lightbox="media/manage-virtual-appointments-app-analytics-org.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-analytics-org.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for admins." lightbox="media/manage-virtual-appointments-app-analytics-org.png":::
 
 To learn more, see [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
@@ -97,7 +97,7 @@ To learn more, see [Virtual Appointments usage report](/microsoft-365/frontline/
 
 Non-admins see a department-level report that provides data for the given department.
 
-:::image type="content" source="media/manage-virtual-appointments-app-analytics-dept.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for non-admins" lightbox="media/manage-virtual-appointments-app-analytics-dept.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-analytics-dept.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for non-admins." lightbox="media/manage-virtual-appointments-app-analytics-dept.png":::
 
 If a staff member isn’t associated with a department, the report shows data for the appointments that they conducted.
 
@@ -105,7 +105,7 @@ If a staff member isn’t associated with a department, the report shows data fo
 
 Manage your Bookings calendar settings. You can update your business details, customize appointment types, add staff and assign roles, and configure your booking page settings.
 
-:::image type="content" source="media/manage-virtual-appointments-app-manage.png" alt-text="Screenshot of the Manage page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-manage.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-manage.png" alt-text="Screenshot of the Manage page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-manage.png":::
 
 ## Set up the Virtual Appointments app
 
