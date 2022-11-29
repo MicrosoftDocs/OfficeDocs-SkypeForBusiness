@@ -282,10 +282,14 @@ When you install a new firmware version on your device, you can determine the co
 | Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
 | Logi Console  | `1.7.200`    | 2022 Update #2B  |
 | EPOS EXPAND Vision 3T |`1.5.22242.02`   | 2022 Update U2A |
+| Yealink MeetingBoard 65" | `155.15.0.17 `   | 2022 Update #2B  |
 | Yealink MeetingBoard 65" | `155.15.0.10 `   | 2022 Update #2A  |
 | Poly Studio X30 | `3.13.0.368067` | 2022 Update #2A   |
 | Poly Studio X50 | `3.13.0.368067` | 2022 Update #2A |
 | Poly TC8        | `3.13.0.210799`          | 2022 Update #2A   |
+| Yealink MeetingBar A20 | `133.310.0.44 `   | 2022 Update #2B  |
+| Yealink MeetingBar A30 | `133.310.0.44 `   | 2022 Update #2B  |
+| Yealink CTP18 | `137.310.0.12`   | 2022 Update #2B  |
 | Yealink MeetingBar A20 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
