@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 ms.custom: 
 - Security
