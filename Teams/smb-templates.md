@@ -44,7 +44,7 @@ The Company-Wide template is meant for communication and collaboration for the e
 
 *Auto-favorited channels 
 
-To create the Company-Wide team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Company-Wide team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true).
 
 #### Request 
 ```http 
@@ -68,7 +68,7 @@ The Executive Team template is ideal for creating a team for company executives 
 
 *Auto-favorited channels<br>
 
-To create the Executives team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Executives team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true).
 
 #### Request 
 ```http 
@@ -94,7 +94,7 @@ We also provide the script below for the Finance team that can be used to extend
 
 *Auto-favorited channels
 
-To create the Finance team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Finance team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true).
 
 #### Request 
 ```http 
@@ -183,4 +183,4 @@ Content-Type: application/json
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
-- [Create team](/graph/api/team-post?view=graph-rest-beta) (in preview)
+- [Create team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) (in preview)
