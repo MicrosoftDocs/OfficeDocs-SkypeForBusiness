@@ -206,6 +206,9 @@ When check out is enabled, end users can use a Teams panel to manually release a
 This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Check out**.
 
 > [!NOTE]
+> If a room is released before the end of a scheduled reservation, the organizer will receive an email message from the room declining it. This happens because the room removes the reservation from its schedule so it can be booked by other users. The message declining the reservation can be ignored.
+
+> [!NOTE]
 > A Teams panel can't be used to release a room if the Teams Rooms device it's paired with is in an active call.
 
 #### Enable or disable room reservations
