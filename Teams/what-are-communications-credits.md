@@ -22,6 +22,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Licensing
+  - admindeeplinkMAC
 description: "Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. "
 ---
 
@@ -43,15 +44,33 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
 
 - Dial out and pay per minute for all outgoing calls, if you have a Pay-As-You-Go Calling Plan.
 
-> [!NOTE]
-> Outbound calls to some destinations may be included in your Audio Conferencing subscription. Please check your subscription information for details.
+## Can I use Communication Credits?
+
+Not all customers can or should use Communication Credits. Below are a few reasons why you can't or shouldn't use Communication Credits.
+
+### Call destinations may be included in your subscription
+
+Outbound calls to some destinations may be included in your Audio Conferencing or Calling Plan subscription. Check your subscription information for details before purchasing Communication Credits you don't need.
   
-> [!NOTE]
-> If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits. If you are unable to acquire Communications Credits, open a support incident from the portal and we will work with you to mitigate this issue until a permanent solution is in place.
-  
+### Conflicting organization addresses
+
+If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits.
+
+If you're unable to purchase Communications Credits, open a support incident from the portal, and we'll work with you to mitigate this issue until a permanent solution is in place.
+
+### Customers with new commerce experience calling subscriptions
+
+The new commerce experience (NCE) allows customers to pay for services after the services have been consumed, also known as post-usage billing.
+
+Because Communication Credits is a pre-paid budget to support outgoing minutes, it’s not available to purchase for customers with NCE calling subscriptions.
+
+Instead, NCE customers will pay for overage outgoing minutes after they've used them. There's no need for a pool of Communication Credits.
+
+For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
+
 ## What are the Communications Credits rates?
 
-If you're wondering what the cost of the calls are for Calling Plans, see [Cloud-Based Phone System for Voice Calling](https://go.microsoft.com/fwlink/p/?LinkId=799523) (scroll down to "See rates for where you want to call").
+If you're wondering what the cost of the calls are for Microsoft Teams Calling Plans, see [Cloud-Based Phone System for Voice Calling](https://go.microsoft.com/fwlink/p/?LinkId=799523) (scroll down to "See rates for where you want to call").
   
 ## What is it?
 
@@ -67,7 +86,7 @@ You can set up consumption billing using a **one-time funding** of the pre-paid 
 > [!NOTE]
 > You can see the plans and pricing by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-In the **Microsoft 365 admin center** > **Billing** > **Purchase Services** > **Add Ons** you can select Communication Credits to add the credits, and you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the other calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You may view your current Communication Credits balance by going to  **Billing** > **Your products** > **Communications Credits**.
+In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to **Billing** > **Purchase Services** > **Add Ons** you can select Communication Credits to add the credits, and you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the other calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You may view your current Communication Credits balance by going to  **Billing** > **Your products** > **Communications Credits**.
 
 > [!NOTE]
 >You will be sent emails to **all users** with Lync Service Administrator, Company Administrator, Billing Administrator, Company Administrator, User Account Administrator, Helpdesk Administrator, Service Support Administrator, Billing Administrator, Lync Service Administrator, Device Administrators, Application Administrator, License Administrator, Cloud Device Administrator, Authentication Administrator, Privileged Authentication Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Administrator admin roles, when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
@@ -104,7 +123,7 @@ Important notifications related to the Communication Credits balance of your org
 
 We recommended that you begin by using a small funding amount, which for smaller organizations could be even the minimum of $50. After you gather a month or two of PSTN usage using the PSTN usage details report, you'll be able to adjust the amounts to meet the normal usage in your organization.
   
-If you're ready to set this all up, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
+If you're ready to set up Communication Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
   
 ## Want to know about plans and pricing?
 
