@@ -670,9 +670,9 @@ items:
               href: unsupported-browsers.md
             - name: Configure desktop sharing in Teams
               href: configure-desktop-sharing.md
-            - name: Custom Meeting Backgrounds
+            - name: Custom meeting backgrounds
               href: custom-meeting-backgrounds.md
-            - name: Meeting Themes
+            - name: Meeting themes
               href: meeting-themes.md
             - name: Teams meeting recording
               href: cloud-recording.md
