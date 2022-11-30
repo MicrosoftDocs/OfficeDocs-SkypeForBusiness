@@ -34,7 +34,6 @@ To access the reports, you must be assigned one of the following roles:
 
 To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-
 Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **View Reports**, choose the report you want to run.
 
 > [!NOTE]
