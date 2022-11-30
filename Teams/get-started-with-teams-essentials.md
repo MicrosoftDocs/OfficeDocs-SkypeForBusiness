@@ -42,7 +42,7 @@ If you purchased Teams Essentials through a Microsoft Certified Partner, you own
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. For more information, see the footnotes. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams Plan | [**Microsoft Teams Free (Classic)** ](manage-freemium.md) | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams Plan | **TFL** | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Feature***     |         |         |         |         |
 | **Meeting and Calling** | Yes| Yes| Yes |   Yes    |
@@ -118,18 +118,27 @@ To do that, complete these three steps:
 
 3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
 
-3.  **Manage Microsoft Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
+4.  **Manage Microsoft Teams Essentials.** As a TFL user, if you're the person who has purchased Teams Essentials, you have the administrator privileges to do the following task after signing in:
+    - (If you've also purchased Teams Essentials for someone other than you) Assign the Teams Essentials to other users in the intended proportions with which you've purchased it, by using the Microsoft Teams admin center.
 
 ## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
 
-If your organization is using a free version of Microsoft Teams, you can easily upgrade to the Teams Essentials version by purchasing a plan for your users directly in Teams.
+If you are a TFL user, you can easily upgrade to the Teams Essentials (TFL)/Teams Essentials (TFW) by purchasing a plan for your users directly in Teams.
 
 #### Upgrade Requirements
 
-You can upgrade to Microsoft Teams Essentials if you're the person who signed up for the existing Teams free subscription. In the free version of Microsoft Teams, the first person who signed up for Teams in your organization has a limited admin role.
+As a TFL user, you must have signed up for the existing Teams free subscription to become eligible to upgrade to Microsoft Teams Essentials. You'll have a limited administrator role once you sign in to Microsoft Teams Essentials, but this role enables you to manager other users in Microsoft Teams Essentials.
 
 > [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section. Upgrading to Teams Essentials is not currently supported for Teams free (classic) users. You can upgrade to the full version of Teams by following the steps in this article: **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
+> To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section.
+> Upgrading to Teams Essentials is not currently supported for Teams free (classic) users. In other words, a user of Microsoft Teams Free (classic) cannot directly upgrade to Microsoft Teams Essentials. For more information, see [Upgrading from Microsoft Teams Free (classic) to Teams](#upgrading-from-microsoft-teams-free-classic-to-teams).
+
+##### Upgrading from Microsoft Teams Free (classic) to Teams
+
+You can't directly upgrade to Microsoft Teams Essentials from Microsoft Teams Free (classic). You can upgrade to the full version of Teams by following the steps in this article: **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
+
+> [!NOTE]
+> The user of Microsoft Teams Free (classic) upgrades to TFW (Teams for Work) that may include Microsoft Teams Essentials or any other TWF business license.
 
 #### Limitations
 

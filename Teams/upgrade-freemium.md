@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: 
 audience: admin
 search.appverid: MET150
-description: Learn how to easily upgrade from the free version of Microsoft Teams to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users.
+description: Learn how to easily upgrade from Microsoft Teams Free (classic) to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -24,7 +24,7 @@ appliesto:
 
 # Upgrade Microsoft Teams Free (classic) to subscription version
 
-If your organization is using the free version of Microsoft Teams, you can easily upgrade to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users. The full version provides additional Teams features — like scheduling, audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from virtually anywhere through the internet. When you upgrade Teams, your existing Teams data will not be lost; all your teams, channels, chats, files, and permissions come with you.
+If your organization is using Microsoft Teams Free (classic), you can easily upgrade to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users. The full version provides additional Teams features — like audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from virtually anywhere through the internet. When you upgrade Teams, your existing Teams data will not be lost; all your teams, channels, chats, files, and permissions come with you.
 
 > [!NOTE]
 > If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides the full version of Teams for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).

@@ -1,5 +1,5 @@
 ---
-title: Manage the free version of Microsoft Teams
+title: Manage Microsoft Teams Free (classic)
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
 description: Learn about who can manage users in Teams Free (classic) and learn about the differences between the various Teams plans.
-ms.localizationpriority: medium
+ms.localizationpriority: mediums
 f1.keywords:
 - CSH
 ms.custom: 
@@ -22,15 +22,13 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Manage the free version of Microsoft Teams
+# Manage Microsoft Teams Free (classic)
 
-In Microsoft Teams Free (Classic), the first person who signs up in your organization has a limited admin role. The person who has this limited role can add and remove team members and specify whether anyone can invite more members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center. To learn more, read [Invite people to Teams Free (classic)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).
+In the classic free version of Microsoft Teams, the first person who signs up in your organization has a limited admin role. The person who has this limited role can add and remove team members and specify whether anyone can invite more members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center. To learn more, read [Invite people to Teams Free (classic)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).
 
 To get the full set of Teams features, including enhanced administration, you'll need to [upgrade to the full version of Teams](upgrade-freemium.md) by purchasing an appropriate Microsoft 365 or Office 365 subscription plan for your users.
 
 To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).
-
-
 
 ## More information
 
