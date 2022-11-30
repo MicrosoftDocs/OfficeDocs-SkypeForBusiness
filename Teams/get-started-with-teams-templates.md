@@ -20,6 +20,7 @@ f1.keywords:
 ms.custom: 
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
 ---
@@ -31,7 +32,7 @@ appliesto:
 
 A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. With team templates, you can quickly and easily create rich collaboration spaces with predefined settings, channels, and apps. Team templates can help you to deploy consistent teams across your organization.
 
-With Microsoft Graph, you can [create your own templates](/graph/api/resources/teamtemplate?view=graph-rest-beta) or use the pre-built team templates that are included with Teams to create teams. In this article, you'll learn about the properties that can be defined in templates and the pre-built templates that are available only with Microsoft Graph.
+With Microsoft Graph, you can [create your own templates](/graph/api/resources/teamtemplate?view=graph-rest-beta&preserve-view=true) or use the pre-built team templates that are included with Teams to create teams. In this article, you'll learn about the properties that can be defined in templates and the pre-built templates that are available only with Microsoft Graph.
 
 This article is for you if you're:
 
@@ -73,5 +74,5 @@ Pre-built team templates are templates that we created for specific industries. 
 ## Related articles
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create a team](/graph/api/team-post?view=graph-rest-beta) (in preview)
-- [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
+- [Create a team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) (in preview)
+- [New-Team](/powershell/module/teams/New-Team?view=teams-ps&preserve-view=true)
