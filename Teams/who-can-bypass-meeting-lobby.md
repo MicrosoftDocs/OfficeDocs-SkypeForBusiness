@@ -98,11 +98,23 @@ Trusted organizations are domains that you allow federated communications with i
 
 ## Control access to meetings by unauthenticated participants
 
+anonymous and dial-in
+
+prevent anonymous from starting
+
 ## Control access to meetings by guests and people from trusted organizations
+
+[external access](manage-external-access.md) feature
+
+allowed domains
+
+## Control access to meetings by people without invitations
+
+**Only people who were invited** setting for **Who can bypass the lobby**
 
 ## Control access to meetings by non-organizers
 
-
+**Only organizers and co-organizers** setting for **Who can bypass the lobby**
 
 ## Let anonymous people join a meeting
 
