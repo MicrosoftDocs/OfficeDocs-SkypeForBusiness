@@ -22,7 +22,7 @@ description: Learn about Microsoft Teams Premium for administators and IT Profes
 
 # Microsoft Teams Premium - Overview for administrators
 
-![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see [Teams Premium licensing](https://review.learn.microsoft.com/en-us/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams?branch=danismith-t-pre-licensing).
+![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
 
@@ -41,7 +41,6 @@ The following sections describe the Teams Premium enhancements for:
 - [Protected meetings](#protected-meetings)
 - [Custom meetings](#custom-meetings)
 - [Premium events](#premium-events)
-- [Advanced management](#advanced-management)
 - [Virtual Appointments](#advanced-virtual-appointments)
 
 > [!Note]
@@ -62,11 +61,11 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 | Feature/Task  | Documentation for administrators |
 | -------------------- | ----------- | 
-| Sensitivity labels | [Configure Teams meetings with three tiers of protection](https://review.learn.microsoft.com/en-us/MicrosoftTeams/configure-meetings-three-tiers-protection?branch=mikeplum-compliant-meetings) | 
-| Watermarks | [Require a watermark for meetings (article)](https://review.learn.microsoft.com/en-us/microsoftteams/watermark-meeting-content-video?branch=mikeplum-compliant-meetings) |
-| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/end-to-end-encrypted-meetings?branch=mikeplum-compliant-meetings) | 
-| Templates, labels, and policies | [Templates, sensitivity labels, and policies](https://review.learn.microsoft.com/en-us/microsoftteams/meeting-templates-sensitivity-labels-policies?branch=mikeplum-compliant-meetings)
-| Restrict who can record | [Manage recordings for sensitive meetings](https://review.learn.microsoft.com/en-us/microsoftteams/manage-meeting-recording-options?branch=mikeplum-compliant-meetings) | 
+| Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | 
+| Watermarks | [Require a watermark for meetings (article)](watermark-meeting-content-video.md) |
+| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | 
+| Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)
+| Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | 
 
 
 ## Custom meetings
@@ -83,10 +82,12 @@ Teams Premium provides the following additional features for customizing meeting
 
 | Feature/Task | Documentation for administrators |
 | -------------------- | ----------- | 
-| Meeting templates | - [Overview](https://review.learn.microsoft.com/en-us/microsoftteams/custom-meeting-templates-overview?branch=mikeplum-compliant-meetings)<br>- [Create a custom meeting template](https://review.learn.microsoft.com/en-us/microsoftteams/create-custom-meeting-template?branch=mikeplum-compliant-meetings)|
-| Meeting themes | [Themes for Teams meetings](https://review.learn.microsoft.com/en-us/MicrosoftTeams/meeting-themes?branch=heidip-branded-meetings-2022) | 
-| Custom meeting backgrounds | [Meeting backgrounds](https://review.learn.microsoft.com/en-us/MicrosoftTeams/custom-meeting-backgrounds?branch=wlibebe-custom-org-backgrounds)| 
-| Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) | 
+| Meeting templates | - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)|
+| Meeting themes | [Themes for Teams meetings](meeting-themes.md) | 
+| Custom meeting backgrounds | [Meeting backgrounds](custom-meeting-backgrounds.md)| 
+| Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+
+
 
 
 
@@ -100,36 +101,15 @@ Teams Premium provides an advanced webinar experience for your users with the ne
 - **Advanced registration capabilities** - Including manual approval, waitlist, registration date and time limit.
 - **Registration overview and management** - For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
-In addition, Teams Premium will also provide additional metrics to help determine event success.
-
 
 | Feature/Task | Documentation for administrators | 
 | -------------------- | ----------- | 
-| Understand meetings, webinars, and live events | [Quick start](https://review.learn.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events?branch=mabond-webinar-v2-updates) | 
-| Set up webinars | [Set up webinars](https://review.learn.microsoft.com/en-us/microsoftteams/set-up-webinars?branch=mabond-webinar-v2-updates) | 
-| Meeting policy for webinars | [Meeting policies](https://review.learn.microsoft.com/en-us/microsoftteams/meeting-policies-in-teams-general?branch=mabond-webinar-v2-updates#webinars)
-| Event success metrics | LINK HERE | 
-
-
-## Advanced management
-
-Teams Premium provides advanced management features, such as:
-
-- **Monitoring and alerting** - Instead of reactive monitoring, you can be proactively notified when participants are experiencing network quality issues during their in-progress meetings/live events.
-
-- **Custom user policy packages** - Lets you bundle and customize your own set of policies for users with similar roles in your organization.
-
-- **eCDN for Live Events** - Microsoft eCDN (Enterprise Content Delivery Network) optimizes network performance for live video streaming and distribution within an enterprise. As organizations continue to deliver virtual and hybrid large scale events, an eCDN network reduces the load on the corporate network. With Teams Premium, ....  **WHAT DO WE SAY HERE? WHAT ARE THE PREMIUM BENEFITS?**
+| Understand meetings, webinars, and live events | [Quick start](quick-start-meetings-live-events.md) | 
+| Set up webinars | [Set up webinars](set-up-webinars.md) | 
+| Meeting policy for webinars | [Meeting policies](meeting-policies-in-teams-general.md)
 
 
 
-**NEED TO ADD MORE DETAILS FOR THESE FEATURES**
-
-| Feature/Task  | Documentation for administrators | 
-| -------------------- | ----------- | 
-| Monitoring and alerting | LINK HERE | 
-| Custom user policy packages | [Manage policy packages](https://review.learn.microsoft.com/en-us/microsoftteams/manage-policy-packages?branch=mabond-custom-policy-packages-premium) | 
-| eCDN for Live Events | LINK HERE | 
 
 ## Advanced Virtual Appointments
 
@@ -144,8 +124,8 @@ Teams Premium provides advanced Virtual Appointment capabilities, such as:
 
 | Feature/Task  | Documentation for administrators | 
 | -------------------- | ----------- | 
-| SMS notifications  | [SMS text notifications](https://review.learn.microsoft.com/en-us/microsoftteams/bookings-app-admin?branch=v-lanachin-va-app#sms-text-notifications) | 
-| Reporting | [Virtual Appointments usage report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-bookings-prem&view=o365-worldwide)<br>[Active user report](https://review.learn.microsoft.com/en-us/microsoft-365/frontline/virtual-appointments-usage-report?branch=v-lanachin-bookings-prem&view=o365-worldwide) | 
+| SMS notifications  | [SMS text notifications](bookings-app-admin.md#sms-text-notifications) | 
+| Reporting | [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)<br>[Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | 
 
 
 

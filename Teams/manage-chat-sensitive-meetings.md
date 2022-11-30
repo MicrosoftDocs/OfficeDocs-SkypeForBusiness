@@ -30,7 +30,7 @@ The following table show what chat-related controls are available and where they
 |Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
 |:------|:----------:|:---------------:|:------:|:---------------:|
 |Meeting chat|Yes|Yes|Yes|Yes|
-|Meeting chat copy and paste|No|Yes|No|No|
+|Prevent copying chat content to clipboard|No|Yes|No|No|
 |Q&A|Yes|No|No|Yes|
 |Shared notes|Yes|No|No|No|
 
@@ -41,12 +41,14 @@ By default, chat is turned on for meeting participants. There are several ways y
 
 - Prevent anonymous meeting participants from using chat
 - Prevent the meeting chat from being used before or after the meeting
-- Preventing copy and paste of chat contents
+- Preventing copying of chat contents
 - Turn the chat off entirely
 
 If you want to prevent anonymous meeting participants from using chat, you can configure the **Chat in meetings** Teams admin policy to exclude them. This setting can't be configured by meeting organizers or by using a meeting template or sensitivity label.
 
 Meeting organizers can specify that the chat only be available while the meeting is in progress. This can also be configured by using a meeting template or sensitivity label if you require this for certain types of meetings.
+
+You can preventing copying of chat contents by using a sensitivity label. Note that if a sensitivity label that restricts copying from the chat is specified as the default channel label in a container label, then teams with that container label will restrict copying from the chat for all channels in the team, both in and out of channel meetings.
 
 ## Options for meetings without chat
 
