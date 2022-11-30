@@ -63,7 +63,7 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 | -------------------- | ----------- | 
 | Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | 
 | Watermarks | [Require a watermark for meetings (article)](watermark-meeting-content-video.md) |
-| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | 
+| End-to-end encryption (E2EE) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | 
 | Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)
 | Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | 
 
