@@ -31,7 +31,7 @@ The Microsoft Teams Devices Certification Program ensures certified devices meet
 > [!IMPORTANT]
 > The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
 >
-> For information about what features are supported on Teams Rooms for Windows and Teams Rooms for Android, including cloud environment support, see [Teams Rooms for Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
+> For information about what features are supported on Teams Rooms on Windows and Teams Rooms on Android, including cloud environment support, see [Teams Rooms on Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
 
 Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification end dates are based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and recertifying, or by releasing new models that are state-of-the-art.
 
