@@ -37,6 +37,8 @@ The following table lists features that you can use to help manage the lobby exp
 |People dialing in can bypass the lobby|Yes|Yes|Yes|Yes|
 |Who can bypass the lobby|Yes|Yes|Yes|Yes|
 
+For information about how to use templates and sensitivity labels to configure meeting settings, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md) and [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
+
 > [!Note]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
@@ -59,7 +61,7 @@ If your organization has meetings where highly sensitive information is shared a
 
 For sensitive meetings in general, consider using the **People who were invited** option. This ensures that people who don't have a meeting invite (included forwarded invites) go through the lobby. (The meeting organizer can also prevent forwarding when they create the meeting.)
 
-For information about using meeting templates and sensitivity labels together, see [Use Teams custom meeting templates with sensitivity labels](/microsoftteams/meeting-templates-with-sensitivity-labels).
+For information about using meeting templates and sensitivity labels together, see [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md).
 
 ### Attendees calling in by phone
 
