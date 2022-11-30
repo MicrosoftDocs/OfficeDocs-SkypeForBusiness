@@ -20,6 +20,7 @@ ms.custom:
   - ms.teamsadmincenter.teamssettings.overview
   - okr_smb
   - intro-overview
+  - chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 

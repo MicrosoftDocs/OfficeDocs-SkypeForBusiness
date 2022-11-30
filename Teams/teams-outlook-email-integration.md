@@ -12,6 +12,7 @@ search.appverid: MET150
 description: Learn about enabling and disabling actionable activity emails of Microsoft Teams conversations  
 ms.collection: 
   - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
   - Microsoft Teams
 ---
