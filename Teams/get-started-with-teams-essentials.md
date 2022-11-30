@@ -123,7 +123,7 @@ To do that, complete these three steps:
 
 ## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
 
-If you are a TFL user, you can easily upgrade to the Teams Essentials (TFL)/Teams Essentials (TFW) by purchasing a plan for your users directly in Teams.
+If you're a TFL user, you can easily upgrade to the Teams Essentials (TFL)/Teams Essentials (TFW) by purchasing a plan for your users directly in Teams.
 
 #### Upgrade Requirements
 
