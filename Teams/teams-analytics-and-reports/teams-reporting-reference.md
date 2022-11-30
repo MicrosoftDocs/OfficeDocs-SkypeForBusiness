@@ -26,7 +26,7 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 ## How to access the reports
 
-To access the reports, you must be one of the following role
+To access the reports, you must be assigned one of the following roles:
 
 - Global administrator
 - Teams/SFB administrator
