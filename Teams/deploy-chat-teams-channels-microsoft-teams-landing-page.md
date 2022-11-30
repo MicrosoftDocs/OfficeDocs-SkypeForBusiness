@@ -21,7 +21,8 @@ ms.custom:
   - intro-get-started
   - seo-marvel-apr2020
   - seo-marvel-may2020
-appliesto: Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Chat, teams, channels, & apps in Microsoft Teams
