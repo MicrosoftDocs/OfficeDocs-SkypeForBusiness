@@ -20,6 +20,44 @@ description: Learn to use the meeting lobby in Microsoft Teams to allow only cer
 
 # Control who can bypass the meeting lobby in Microsoft Teams
 
+
+	• Catching anonymous participants
+	• Catching people outside the org
+	• Catching people without invites
+	• Catching people dialing in by phone
+	• Catching non-organizers
+	• Catching everyone from blocked domains
+Prevent anonymous users from starting the meeting
+
+
+People in the org
+
+external users
+guests
+anonymous participants
+
+people inside
+people outside
+anonymous people
+
+
+Everyone
+People in my organization, trusted organizations, and guests
+People in my organization and guests
+People in my organization
+Only people who were invited
+Only organizers and co-organziers
+
+
+|Who can bypass the lobby?|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organziers|
+|:------------------------|:------:|:----------------------------------------------------------:|:-----------------------------------|:------------------------|:---------------------------|:--------------------------------|
+|Organizers|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
+|People in the organization|Bypass|Bypass|Bypass|Bypass|People in the org who were sent or forwarded invites bypass; others go to the lobby|Lobby|
+|Guests|Bypass|Bypass|Bypass|Lobby|Lobby|Lobby|
+|People in trusted organizations|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
+|Anonymous participants|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
+
+
 ## Automatically admit people
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.
@@ -30,7 +68,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 > [!NOTE]
 > In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
-  
+
 |Setting value  |Join behavior |
 |---------|---------|
 |**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, users from trusted organizations, guests, and anonymous users.     |
