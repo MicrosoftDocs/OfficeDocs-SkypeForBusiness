@@ -76,11 +76,13 @@ The following providers offer contact center solutions that are integrated into 
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
+| `Evolve IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Heedify` | https://heedify.io/call-center/                                                 |
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
+| `IPDynamics` | https://www.ipdynamics.de/en/dynamic-flow/  |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
@@ -88,6 +90,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
+| `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.

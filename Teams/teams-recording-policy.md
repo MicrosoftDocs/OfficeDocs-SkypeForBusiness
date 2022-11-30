@@ -49,7 +49,10 @@ storing, and analyzing Teams communications. Enhancements include communications
     integration with existing Teams administrative calling and
     meeting tools and policies
 
-Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium and Office 365 A3/A5/E3/E5 users. 
+Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 users or Teams Room/Common Area Phone license. 
+
+> [!NOTE]
+> Compliance recording is currently not supported for E911 emergency calling services.
 
 The compliance recording solution integration capabilities were also
 reviewed at Ignite 2019 in the [Compliance
@@ -299,6 +302,7 @@ The following partners have certified their solution for Microsoft Teams.<br/><b
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
+|Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
 |NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
@@ -316,7 +320,6 @@ The following partners are in the process of certifying their solution for Micro
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/) |
 
 

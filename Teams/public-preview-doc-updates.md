@@ -27,7 +27,7 @@ ms.localizationpriority: high
 
 Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
 
-For a list of what's available in the Teams public preview, visit [Microsoft Teams Public Preview tech notes](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Release Notes for Teams Admin Features](/OfficeUpdates/teams-admin), and [What's new in Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+For a list of what's available in the Teams public preview, visit [Microsoft Teams Public Preview tech notes](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Release Notes for Teams Admin Features](/OfficeUpdates/teams-admin), and [Release Notes for Office Current Channel (Preview)](/officeupdates/current-channel-preview).
 
 ## Set the Update policy
 

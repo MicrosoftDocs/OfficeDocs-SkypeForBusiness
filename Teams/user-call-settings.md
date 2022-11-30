@@ -147,6 +147,10 @@ To remove user2 as a delegate for user1, use the Remove-CsUserCallingDelegate cm
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
+## Additional notes
+
+- The default behavior for a user that has never had the call answering rules modified, either by the user or a Tenant admin, are that unanswered calls will be forwarded to voicemail after 30 seconds. The settings displayed for the user in Team Admin Center or Teams PowerShell will show unanswered target as none and delay of 20 seconds.
+
 ## Related topics
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)

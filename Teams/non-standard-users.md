@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use Teams apps as an external attendees or guest
+# Use of Teams apps for external attendees or guest from outside an organization
 
 Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external attendees](manage-external-access.md) and [what can guests do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
 
@@ -84,9 +84,9 @@ Anonymous users can't directly use apps in meetings. If an app sends an adaptive
 
 Anonymous users can interact only with the apps that are already available in a meeting but can't acquire and manage such apps. The native users can continue to use meetings apps even when the anonymous users are attending a meeting.
 
-### Disallow anonymous users to use apps in meetings
+### Allow anonymous users to use apps in meetings
 
-By default, anonymous users can interact with the existing apps in a meeting. You can disallow anonymous users for interacting with apps.
+By default, anonymous users can interact with the existing apps in a meeting. Anonymous users cannot add new apps to a meeting. You can disallow anonymous users for interacting with apps.
 
 1. Sign in to the Teams admin center and access **Meetings** > **[Meeting settings](https://admin.teams.microsoft.com/meetings/settings)**.
 
