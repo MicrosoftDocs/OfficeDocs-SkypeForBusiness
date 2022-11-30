@@ -21,6 +21,7 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365-frontline
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
