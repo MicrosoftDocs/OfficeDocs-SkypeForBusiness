@@ -39,9 +39,11 @@ Q&A can be used by the following user types:
 - Guest user—Any guests you add to your Microsoft Teams, SharePoint, or Azure Active Directory.
 
 > [!NOTE]
-> Q&A will not be available to View Only Attendees who join past the meeting capacity.
+> Q&A is not available in GCC.
 
 When admins enable Q&A, users with the [organizer role](https://aka.ms/GetQnA) can turn on Q&A when creating or updating meetings. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to stop attendees from using the feature.
+> [!NOTE]
+> Q&A will not be available to View Only Attendees who join past the meeting capacity.
 
 ## Use the Teams admin center to manage Q&A
 
