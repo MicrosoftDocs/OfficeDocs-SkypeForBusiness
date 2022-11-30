@@ -17,6 +17,7 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
+- chat-teams-channels-revamp
 description: Your Teams or IT admin can configure external meetings and chat for other domains to let users from those domains find, call, chat, and set up meetings with your users. 
 appliesto: 
   - Microsoft Teams
