@@ -55,7 +55,7 @@ Android-based Teams Meeting Rooms including panels and touch screen displays don
 Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
 
 > [!Note]
-> If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones is not supported.
+> If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones and Android-based Teams devices is not supported.
   
 Microsoft also strongly recommends:
   
