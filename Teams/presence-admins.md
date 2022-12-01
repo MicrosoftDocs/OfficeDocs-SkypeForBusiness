@@ -24,7 +24,8 @@ appliesto:
 # User presence in Teams
 
 Presence is part of a user's profile in Microsoft Teams (and throughout Microsoft 365 or Office 365). Presence indicates the user's current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online. Presence is updated in real time on the web and desktop versions when you refresh the page on mobile.
-
+ > [!NOTE]
+ > When user presence is changed in graph api, teams client will take few minutes to update the presence, due it is using poll mode.
  > [!NOTE]
  > For details about Teams user profiles on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
