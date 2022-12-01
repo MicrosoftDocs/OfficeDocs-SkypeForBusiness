@@ -11,7 +11,7 @@ searchScope:
   - Microsoft Teams
 audience: admin
 description: Terms of service for the Virtual Appointments app in Microsoft Teams.
-ms.localizationpriority: medium
+ms.localizationpriority: null
 MS.collection: 
   - Teams_ITAdmin_Help
   - M365-collaboration
