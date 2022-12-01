@@ -37,6 +37,8 @@ The following table lists features that you can use to help manage the lobby exp
 |People dialing in can bypass the lobby|Yes|Yes|Yes|Yes|
 |Who can bypass the lobby|Yes|Yes|Yes|Yes|
 
+For information about how to use templates and sensitivity labels to configure meeting settings, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md) and [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
+
 > [!Note]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
@@ -59,7 +61,7 @@ If your organization has meetings where highly sensitive information is shared a
 
 For sensitive meetings in general, consider using the **People who were invited** option. This ensures that people who don't have a meeting invite (included forwarded invites) go through the lobby. (The meeting organizer can also prevent forwarding when they create the meeting.)
 
-For information about using meeting templates and sensitivity labels together, see [Use Teams custom meeting templates with sensitivity labels](/microsoftteams/meeting-templates-with-sensitivity-labels).
+For information about using meeting templates and sensitivity labels together, see [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md).
 
 ### Attendees calling in by phone
 
@@ -80,5 +82,7 @@ If your organization does not allow anonymous participants to join meetings at a
 If you have certain groups in your organization - such as marketing - who need to organize meetings with anonymous participants and others - such as research - who should not, you can use Teams meeting policies to configure anonymous meeting join for different groups. (You'll need to turn the **Anonymous users can join a meeting** setting mentioned above on for this to work.) For details, see [Meeting policy settings - Participants & guests](/microsoftteams/meeting-policies-participants-and-guests).
 
 ## Related topics
+
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access)

@@ -83,3 +83,5 @@ Once the template has been created, it may take up to 24 hours to be available t
 [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
+
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)

@@ -52,3 +52,5 @@ To edit a meeting template policy
 ## Related topics
 
 [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
+
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)

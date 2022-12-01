@@ -156,5 +156,7 @@ If you choose to turn off meeting reactions, remember that this will disable the
 
 ## Related topics
 
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
 [Manage access to Microsoft Whiteboard for your organization](/microsoft-365/whiteboard/manage-whiteboard-access-organizations)
 
