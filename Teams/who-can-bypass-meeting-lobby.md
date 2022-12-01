@@ -66,14 +66,14 @@ Who can start the meeting
 
 ## Overview of lobby settings and policies
 
-The following table shows the Teams meeting settings and policies affect how meeting participants interact with the lobby.
+The following table shows the Teams meeting settings and policies that affect how meeting participants interact with the lobby.
 
 |Setting|Description|
 |:------|:----------|
 |**Anonymous users can join a meeting** (organization setting)|This global setting allows anyone with a meeting link to join the meeting anonymously if they are not signed in to a work or school account or as a guest. (The **Anonymous users can join a meeting** meeting policy must also be **On** for the meeting organizer.)|
 |**Anonymous users can join a meeting** (meeting policy)|This per-organizer setting allows anyone with a meeting link to join the meeting anonymously if they are not signed in to a work or school account or as a guest. (The **Anonymous users can join a meeting** organization setting must also be **On**.)|
-|**Anonymous users and dial-in callers can start a meeting**|This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.|
-|**People dialing in can bypass the lobby**|This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby. When this setting is **Off**, dial-in users will wait in the lobby until an organization user joins the meeting and admits them. When this setting is **On**, dial-in users will automatically join the meeting once an organization user joins the meeting.|
+|**Anonymous users and dial-in callers can start a meeting**|This is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.|
+|**People dialing in can bypass the lobby**|This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby. When this setting is **Off**, dial-in users will wait in the lobby until an organization user joins the meeting and admits them. When this setting is **On**, dial-in users will automatically join the meeting without going through the lobby, or after an organization user joins the meeting if **Anonymous users and dial-in callers can start a meeting** is **Off**.|
 |**Who can bypass the lobby**|This is a per-organizer policy. This setting controls which types of participants join a meeting directly and which wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
 
 The following table shows how each option for the **Who can bypass the lobby** control affects each type of meeting participant.
@@ -112,7 +112,7 @@ To set the organization-wide setting for anonymous meeting join
 
 There are two types of unauthenticated (anonymous) people that can participate in a meeting:
 
-- People who access a meeting link while they're not logged in to a work or school account or as a guest in your organization
+- People who access a meeting link while they're not logged in with a work or school account to some other organization or as a guest in your organization
 - People who dial in by phone
 
 ### Anonymous participants
