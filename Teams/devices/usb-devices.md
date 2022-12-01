@@ -79,10 +79,12 @@ If you're a manufacturer and want to join the certification program, see [How to
 *Table Updated October 2022*
 
 > [!NOTE]
-> The date format is MMDDYYYY.
+> The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |ADAPT 561 II headset                                       |10/20/2022      |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 Buds                                               |10/17/2022      |Certified for Microsoft Teams                           |
 |Cisco                |Desk Camera 4K                                             |10/15/2022      |Certified for Microsoft Teams                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certified for Microsoft Teams                           |

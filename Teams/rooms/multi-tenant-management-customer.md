@@ -26,6 +26,9 @@ Partner management in the Teams Rooms Pro Management service enables customers t
 
 ## On-boarding partners
    Invite partners through the Pro Management portal to establish the relationship between your organization and the partner organization’s tenant.
+   
+> [!NOTE]
+> The partner needs to satisfy the pre-requisites in [Multi-tenant Management for Partners](multi-tenant-management-partner.md).
 
 ### Invitation to partner
 
@@ -69,7 +72,7 @@ To manage users in the primary admin role, see [Multi-tenant Management for Part
 
 ## Managing partner roles
 
-Partner roles allow for your partner to more granularly delegate responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](microsoft-teams-rooms-premium-rbac.md). It is important to note that partner roles are distinct from your custom roles. 
+Partner roles allow for your partner to more granularly delegate responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](rooms-pro-rbac.md). It is important to note that partner roles are distinct from your custom roles. 
 
 The **Primary admin** role is the only built-in role for each partner you add. This role has almost all permissions to the rooms you assigned that partner for the TRM service (see [Table 1](#table-1)). For example, if you have rooms across the globe and assign a partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. In this case, the primary admins for this Partner have no visibility to any rooms outside of the US. 
 
@@ -79,7 +82,7 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 
 **To add new rooms to an existing partner**
 
-1. Log in to the Pro Management-MTM portal as an Managed Service administrator.
+1. Log in to the Pro Management-MTM portal as a Managed Service administrator.
 1. Go to **Settings > Roles.**
 1. Select  **Partner roles.** 
 1. Select the **Primary admin** role for the corresponding partner name.

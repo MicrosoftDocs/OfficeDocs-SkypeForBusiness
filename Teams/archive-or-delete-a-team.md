@@ -15,6 +15,7 @@ f1.keywords:
 ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 ms.collection:
   - M365-collaboration
 appliesto:
@@ -43,7 +44,7 @@ Follow these steps to archive a team. You must be a Teams service admin to make 
     ![Screenshot of Teams archive message.](media/teams-archive-message.png)
 
 4. To prevent people from editing the content in the SharePoint site and Wiki tab associated with the team, select **Make the SharePoint site read-only for team members**. (Teams owners will still be able to edit this content.)
-5. Select **Archive** to archive the team. The team's status will change to **Archived**, it will be moved inside **Hidden teams** located at the bottom of the teams list, and a small icon representing the archived state will be added next to it.
+5. Select **Archive** to archive the team. The team's status will change to **Archived**, it will be temporarily available inside **Hidden teams** located at the bottom of the teams list, and a small icon representing the archived state will be added next to it. Once it is removed from **Hidden teams** it will be available in the **Manage teams** view under **Archived**. To view and search through the content of the archived team, select its name in the **Archived** list.
 
 ## Make an archived team active
 

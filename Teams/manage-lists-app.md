@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -22,6 +22,7 @@ ms.collection:
   - microsoftcloud-retail
   - m365initiative-lists
   - m365-frontline
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
