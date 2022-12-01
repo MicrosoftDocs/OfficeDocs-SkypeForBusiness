@@ -40,11 +40,11 @@ We recommend that Teams traffic bypasses proxy server infrastructure.
 
 We don't support proxy servers for Teams Phones. 
 
-Our recommendation is to ensure that both signaling (TCP 443) and media (UDP 3478-3481) traffic bypasses proxy server infrastructure.
+Our recommendation is to ensure that both signalling (TCP 443) and media (UDP 3478-3481) traffic bypasses proxy server infrastructure.
 
 ## Teams Meeting Rooms and Panels
 
-We recommend you bypass proxy server infractructure for Teams Meeting Room and panel devices. This includes android-based touch screen displays.
+We recommend you bypass proxy server infrastructure for Teams Meeting Room and panel devices. This includes android-based touch screen displays.
 
 Windows-based Teams Meeting Rooms, including the surface hub support proxy servers, but do not support proxy servers that require authentication.
 
@@ -55,7 +55,7 @@ Android-based Teams Meeting Rooms including panels and touch screen displays don
 Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
 
 > [!Note]
-> If you use a privatly signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones is not supported.
+> If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones is not supported.
   
 Microsoft also strongly recommends:
   
