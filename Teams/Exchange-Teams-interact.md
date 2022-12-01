@@ -85,7 +85,7 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 ## Requirements to create and view meetings for mailboxes hosted on-premises
 
   > [!NOTE]
-  > Create and view meetings for mailboxes hosted on-premises is currently only supported within commerical, GCC, and GCC High environments.
+  > The **Create and view meetings for mailboxes hosted on-premises** feature is only supported within commercial, GCC, and GCC High environments.
 
 If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be met:
 
@@ -128,6 +128,9 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft Purview compliance portal](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](/exchange/hybrid-deployment/deploy-hybrid).
+
+>[!Important]
+>**GCC-H customers:** *Delegated Teams meeting scheduling* is not supported for GCC-High environments when the user's mailbox is hosted in on-premises Exchange Server.
 
 ## Troubleshooting
 
