@@ -20,49 +20,15 @@ description: Learn to use the meeting lobby in Microsoft Teams to allow only cer
 
 # Control who can bypass the meeting lobby in Microsoft Teams
 
+The Teams meeting lobby is a way of preventing certain types of meeting attendees from joining a meeting until a meeting organizer or other authorized person admits them. When an attendee goes to the lobby, meeting organizers are notified and can choose to admit them to the meeting or not.
 
-	• Catching anonymous participants
-	• Catching people outside the org
-	• Catching people without invites
-	• Catching people dialing in by phone
-	• Catching non-organizers
-	• Catching everyone from blocked domains
-Prevent anonymous users from starting the meeting
+Using the lobby settings in Teams, you can control which of the following types of meeting attendees are able to bypass the lobby and which must wait there until admitted to the meeting:
 
-
-People in the org
-
-external users
-guests
-anonymous participants
-
-people inside
-people outside
-anonymous people
-
-
-Everyone
-People in my organization, trusted organizations, and guests
-People in my organization and guests
-People in my organization
-Only people who were invited
-Only organizers and co-organizers
-
-Final Lobby experience and outcome is result of interplay between 4 different user groups:
-1.	IT Admins set the default Lobby policy in Teams admin center (TAC) for specific groups of users (organizers). 
-a.	Their goal is Meeting security, preventing specific types of users from joining the meeting without additional verification
-2.	Meeting Organizers can change default Lobby policy before or during the meeting. Their goals are any combination (a, b, ab) of:
-a.	Hold on user from joining/starting the meeting before Organizer decides to start the meeting
-b.	Verify identity of people joining the call
-3.	In-meeting participants with capability to admit or deny people from Lobby to meeting can take an action either from the Lobby notification or Roster/People tab
-a.	Their (imposed) goal is to prevent unauthorized people from joining the call by individual admit/deny (sometimes in the form of no action - ignoration). Capability to admit is role-based (Organizer, Co-organizer, Presenters).
-4.	Participants waiting in Lobby
-a.	Their goal is to end up in the right call and don’t waste time waiting
-
-
-Who can join the meeting directly
-Who can start the meeting
-
+- Meeting organizers
+- People in your organization
+- Guests
+- People in trusted organizations
+- Anonymous participants
 
 ## Overview of lobby settings and policies
 
@@ -93,7 +59,7 @@ The following table shows how each option for the **Who can bypass the lobby** c
 
 ## Choose defaults for who can bypass the lobby in your organization
 
-You can configure the settings and policies described above in the Teams admin center.
+You can configure the settings and policies described above in the Teams admin center. See the sections below for guidance on which setting to choose for different circumstances.
 
 To set meeting join and lobby policies
 1. In the Teams admin center, expand **Meetings** and then select **Meeting policies**.
@@ -117,7 +83,7 @@ There are two types of unauthenticated (anonymous) people that can participate i
 
 ### Anonymous participants
 
-Anonymous participants are anonymous because they are not logged in to an account that Microsoft 365 can recognize. This could include people from domains that you have blocked using [external access](manage-external-access.md) who are not currently logged in to the domain that you blocked. It could also include people from your organization who are not logged in.
+Anonymous participants are anonymous because they are not logged in to an account that Microsoft 365 can recognize. This could include people from domains that you have blocked using [external access](manage-external-access.md) who are not currently logged in to that domain. It could also include people from your organization who are not logged in.
 
 If you want to prevent anonymous participants from joining meeting completely, you can turn off the **Anonymous users can join a meeting** organization setting.
 
@@ -140,7 +106,7 @@ If you want all authenticated meeting participants from outside your organizatio
 
 ## Control access to meetings by people without invitations
 
-If you want to allow only people who have invitations to join meetings directly and have all other participants go through the lobby, set **Who can bypass the lobby** to **Only people who were invited**.
+If you want to allow only people from your organization who have invitations to join meetings directly and have all other participants go through the lobby, set **Who can bypass the lobby** to **Only people who were invited**.
 
 The **Only people who were invited** setting:
 
@@ -152,18 +118,6 @@ The **Only people who were invited** setting:
 If you have meetings where sensitive information is shared or that are subject to regulatory requirements, you might want to have all attendees wait in the lobby until they are admitted by a meeting organizer. In this case, you can set **Who can bypass the lobby** to **Only organizers and co-organizers**.
 
 Since **Who can bypass the lobby** only sets a default that meeting organizers can change, consider enforcing the value with a sensitivity label or meeting template if you have compliance requirements in this area. For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
-
-## Let anonymous people start a meeting
-
-This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.
-
-If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby.
-
-## Dial-in users can bypass the lobby
-
-When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting with a Teams client.
-
-If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them.
 
 ## Related topics
 
