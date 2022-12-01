@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
   - M365-collaboration
 ms.reviewer: vinbel

@@ -76,6 +76,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | Logitech Tap IP (VR0029) with RoomMate (VR0030) | `1.6.565`  |   September 3, 2024  | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Yealink MeetingBoard 86" | `155.15.0.10 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Yealink MeetingBoard 65" | `155.15.0.6 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | September 3, 2024 | Small meeting room(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
@@ -129,6 +130,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #4A | November 30, 2022 | `1449/1.0.94.2022110803` | `5.0.5484.0` | `382`|
 | 2022 Update #4  | September 22, 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
 | 2022 Update #3A| July 13,2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | 2022 Update #3  | July 6,2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
@@ -158,6 +160,12 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink CP965  | `143.15.0.27`     | 2022 Update #4A  |
+|Yealink MP54/MP56/MP58  | `122.15.0.107`     | 2022 Update #4A  |
+|Yealink MP52  | `145.15.0.59`     | 2022 Update #4A  |
+|Yealink VP59  | `91.15.0.118`     | 2022 Update #4A  |
+|Poly CCX 400/500/600/505 | `8.0.2.2337` | 2022 Update #4A |
+|Poly Trio C60 | `8.0.2.2344` | 2022 Update #4A |
 |AudioCodes C448HD/C450HD  | `1.17.769`    | 2022 Update #3A|
 |Crestron UC-P8/I/C/CI     | `1.0.5.20`    | 2022 Update #3A |
 |Crestron UC-P10/I/C/CI | `1.0.5.20`    | 2022 Update #3A |
@@ -282,10 +290,14 @@ When you install a new firmware version on your device, you can determine the co
 | Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
 | Logi Console  | `1.7.200`    | 2022 Update #2B  |
 | EPOS EXPAND Vision 3T |`1.5.22242.02`   | 2022 Update U2A |
+| Yealink MeetingBoard 65" | `155.15.0.17 `   | 2022 Update #2B  |
 | Yealink MeetingBoard 65" | `155.15.0.10 `   | 2022 Update #2A  |
 | Poly Studio X30 | `3.13.0.368067` | 2022 Update #2A   |
 | Poly Studio X50 | `3.13.0.368067` | 2022 Update #2A |
 | Poly TC8        | `3.13.0.210799`          | 2022 Update #2A   |
+| Yealink MeetingBar A20 | `133.310.0.44 `   | 2022 Update #2B  |
+| Yealink MeetingBar A30 | `133.310.0.44 `   | 2022 Update #2B  |
+| Yealink CTP18 | `137.310.0.12`   | 2022 Update #2B  |
 | Yealink MeetingBar A20 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 Update #2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
@@ -375,6 +387,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Frame nf21f1 | `NFF1.20220914.1215` | November 30, 2022 |
 |Crestron UC-P10-TD     |1.0.0.57 |2022 Update #3A|
 |Crestron UC-P8-TD     |1.0.0.57 |2022 Update #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |

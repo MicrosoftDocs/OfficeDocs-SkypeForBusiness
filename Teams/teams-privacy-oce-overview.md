@@ -39,7 +39,7 @@ The URL Preview service automatically generates a preview snippet and attaches u
 
 ## Teams apps link previews
 
-The Teams app link previews service generates a preview snippet of the app's adaptive card and attaches it under the URL when a user sends a URL string that maps to the app in the Teams store. This service will make a request to the service URL as the user is typing the message.
+The Teams app link previews service generates a preview snippet of the app's adaptive card and attaches it under the URL when a user sends a URL string that maps to the app in the Teams store. If the URLP setting is turned on, this service will make a request to the service URL as the user is typing the message to unfurl a card preview. Tenant admin and user settings for apps would be honored.
 
 ## Teams device store checkout  
 
@@ -48,10 +48,6 @@ Teams device store is in the Teams admin center and it enables discovery and pur
 :::image type="content" source="media/teams-device-store-buttons.png" alt-text="A screenshot of a portion of the Teams device store page with Checkout options provided by UnifiedCommunications.com, a third-party company that enables device purchasing from the Teams admin center.":::
 
 To learn more about Teams device store, check out: [Purchase devices in the Teams device store](devices/device-store.md)
-
-## Search Coach Tab App
-
-The Search Coach Teams tab app available in Microsoft EDU Class Teams makes search requests to Bing search through the Bing API when a user sends a query, returning ad-free SafeSearch results. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement).
 
 ## Related articles
 
