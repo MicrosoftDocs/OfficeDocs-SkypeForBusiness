@@ -63,7 +63,7 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 | -------------------- | ----------- | 
 | Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | 
 | Watermarks | [Require a watermark for meetings (article)](watermark-meeting-content-video.md) |
-| End-to-end encryption (EE2E) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | 
+| End-to-end encryption (E2EE) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | 
 | Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)
 | Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | 
 
@@ -133,7 +133,8 @@ Teams Premium provides advanced Virtual Appointment capabilities, such as:
 
 You can find additional resources here:
 
+- [Microsoft Teams Premium product site](https://www.microsoft.com/microsoft-teams/premium)
 - [Microsoft Teams Premium blog](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
-- [Microsoft Teams Premium launch site](https://www.microsoft.com/en-us/microsoft-teams/premium)
+
 
 
