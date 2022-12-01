@@ -87,26 +87,44 @@ The following table shows how each option for the **Who can bypass the lobby** c
 |People in trusted organizations|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
 |Anonymous participants|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
 
-Both the **People dialing in can bypass the lobby** and **Who can bypass the lobby** settings set defaults that the meeting organizer can change. If you need to enforce these settings to a particular value, you can use a meeting template or sensitivity label (Teams Premium required). For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
+> [!Important]
+> Both the **People dialing in can bypass the lobby** and **Who can bypass the lobby** settings set defaults that the meeting organizer can change. If you need to enforce these settings to a particular value, you can use a meeting template or sensitivity label (Teams Premium required). For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
-
-**Only people who were invited** Users added as a part of a distribution group will have to go through the lobby.
-
-Trusted organizations are domains that you allow federated communications with in Teams. If you enable **Allow all external domains** for external access in the Teams admin center, any authenticated user within any Teams organization will be trusted. If you choose to specify external domains that are allowed and block all others, the allowed domains become trusted organizations. Any blocked domain is considered to not be a trusted organization.
-
-
+**Only people who were invited** applies only to individual users who were sent an invite or to whom an invite was forwarded. Users added as a part of a distribution group will have to go through the lobby.
 
 ## Control access to meetings by unauthenticated participants
 
-anonymous and dial-in
+There are two types of unauthenticated (anonymous) people that can participate in a meeting:
 
-prevent anonymous from starting
+- People who access a meeting link while they're not logged in to a work or school account or as a guest in your organization
+- People who dial in by phone
+
+### Anonymous participants
+
+Anonymous participants are anonymous because they are not logged in to an account that Microsoft 365 can recognize. This could include people from domains that you have blocked using [external access](manage-external-access.md) who are not currently logged in to the domain that you blocked. It could also include people from your organization who are not logged in.
+
+If you want to prevent anonymous participants from joining meeting completely, you can turn off the **Anonymous users can join a meeting** organization setting.
+
+If you want people joining anonymously to go through the lobby, you can set the **Who can bypass the lobby** meeting policy to any setting except **Everyone**. Keep in mind that meeting organizers can change this setting unless you enforce it with a meeting template or sensitivity label.
+
+By default, the **Anonymous users and dial-in callers can start a meeting** policy is **Off**. This means that anonymous participants and people calling in by phone will always go to the lobby if an authenticated user has not yet started the meeting. If there are circumstances where you want to allow anonymous participants and people calling in by phone to start meetings, you can change this setting for your organization or for individual organizers.
+
+### People dialing in by phone
+
+People who dial in by phone are always anonymous because there is no account associated with them. By default, the **People dialing in can bypass the lobby** policy is **Off**, but meeting organizers can change this when they set up the meeting. You can change the default by updating the **People dialing in can bypass the lobby** policy or you can enforce a particular value by using a meeting template.
 
 ## Control access to meetings by guests and people from trusted organizations
 
-[external access](manage-external-access.md) feature
+There are two types of people outside your organization who can join meetings as authenticated participants:
 
-allowed domains
+- Guests - people who have an [Azure Active Directory (Azure AD) B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
+- External access users - people who have Azure AD accounts in a trusted organization defined in Teams [external access](manage-external-access.md)
+
+If you want all authenticated meeting participants from outside your organization to go through the lobby, you can set the **Who can bypass the lobby** policy to 
+
+
+
+
 
 ## Control access to meetings by people without invitations
 
