@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 f1.keywords: 
   - NOCSH
 appliesto: 
