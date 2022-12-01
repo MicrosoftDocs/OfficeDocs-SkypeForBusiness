@@ -22,6 +22,7 @@ ms.collection:
   - m365-frontline
   - tier2
   - highpri
+  - m365initiative-meetings
 ms.reviewer: 
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
