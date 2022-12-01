@@ -1,5 +1,5 @@
 ---
-title: Manage your devices in Microsoft Teams
+title: Manage devices in Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -23,7 +23,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Manage your devices in Microsoft Teams 
+# Manage devices in Microsoft Teams 
 
 You can manage devices used with Microsoft Teams in your organization from the Microsoft Teams admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices.
 
