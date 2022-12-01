@@ -83,7 +83,10 @@ There are two types of unauthenticated (anonymous) people that can participate i
 
 ### Anonymous participants
 
-Anonymous participants are anonymous because they are not logged in to an account that Microsoft 365 can recognize. This could include people from domains that you have blocked using [external access](manage-external-access.md) who are not currently logged in to that domain. It could also include people from your organization who are not logged in.
+Anonymous participants are anonymous because they are not logged in to an account that Microsoft 365 can recognize. This could include:
+- People from domains that you have blocked using [external access](manage-external-access.md) who are not currently logged in to that domain
+- People from domains that you allow but which do not allow your domain
+- People from your organization who are not logged in
 
 If you want to prevent anonymous participants from joining meeting completely, you can turn off the **Anonymous users can join a meeting** organization setting.
 
