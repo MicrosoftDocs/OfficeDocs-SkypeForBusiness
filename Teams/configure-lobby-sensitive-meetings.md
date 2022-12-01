@@ -83,4 +83,6 @@ If you have certain groups in your organization - such as marketing - who need t
 
 ## Related topics
 
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
 [Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access)
