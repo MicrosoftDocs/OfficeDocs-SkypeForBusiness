@@ -63,7 +63,6 @@ a.	Their goal is to end up in the right call and don’t waste time waiting
 Who can join the meeting directly
 Who can start the meeting
 
-![Screenshot showing a meeting with a user in the lobby.](media/meeting-policies-lobby.png)
 
 ## Overview of lobby settings and policies
 
@@ -90,7 +89,24 @@ The following table shows how each option for the **Who can bypass the lobby** c
 > [!Important]
 > Both the **People dialing in can bypass the lobby** and **Who can bypass the lobby** settings set defaults that the meeting organizer can change. If you need to enforce these settings to a particular value, you can use a meeting template or sensitivity label (Teams Premium required). For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
-**Only people who were invited** applies only to individual users who were sent an invite or to whom an invite was forwarded. Users added as a part of a distribution group will have to go through the lobby.
+**Only people who were invited** applies only to individual users who were sent an invite or to whom an invite was forwarded. Users added as a part of a distribution group will go through the lobby.
+
+## Choose defaults for who can bypass the lobby in your organization
+
+You can configure the settings and policies described above in the Teams admin center.
+
+To set meeting join and lobby policies
+1. In the Teams admin center, expand **Meetings** and then select **Meeting policies**.
+1. Select the policy that you want to update.
+1. In the **Meeting join & lobby** sections, update the settings that you want to change.
+    ![Screenshot showing the meeting join and lobby settings in the Teams admin center.](media/meeting-join-and-lobby-tac-settings.png)
+1. Select **Save**.
+
+To set the organization-wide setting for anonymous meeting join
+1. In the Teams admin center, expand **Meetings** and then select **Meeting settings**.
+1. In the **Participants** section, set **Anonymous users can join a meeting** to **On** or **Off**.
+    ![Screenshot showing the meeting join and lobby settings in the Teams admin center.](media/anonymous-users-can-join-meetings-org-setting.png)
+1. Select **Save**.
 
 ## Control access to meetings by unauthenticated participants
 
@@ -129,12 +145,13 @@ If you want to allow only people who have invitations to join meetings directly 
 The **Only people who were invited** setting:
 
 - Includes people to whom the invite was forwarded, not just those invited by the organizer
-- Does not include people outside the organization - they will go to the lobby
+- Does not include people outside the organization - they will go through the lobby
 
 ## Control access to meetings by non-organizers
 
-**Only organizers and co-organizers** setting for **Who can bypass the lobby**
+If you have meetings where sensitive information is shared or that are subject to regulatory requirements, you might want to have all attendees wait in the lobby until they are admitted by a meeting organizer. In this case, you can set **Who can bypass the lobby** to **Only organizers and co-organizers**.
 
+Since **Who can bypass the lobby** only sets a default that meeting organizers can change, consider enforcing the value with a sensitivity label or meeting template if you have compliance requirements in this area. For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
 ## Let anonymous people start a meeting
 
