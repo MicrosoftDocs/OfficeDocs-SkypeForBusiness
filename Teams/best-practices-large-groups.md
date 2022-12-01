@@ -16,7 +16,9 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: 
+  - seo-marvel-mar2020
+  - chat-teams-channels-revamp
 ---
 
 # Manage large teams in Microsoft Teams - Best practices

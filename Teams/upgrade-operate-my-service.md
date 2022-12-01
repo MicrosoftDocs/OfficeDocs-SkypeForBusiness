@@ -704,7 +704,7 @@ duties. The following tasks are commonly required to support users in Teams.
 
 By default, all users with a mailbox in Exchange Online have permissions to
 create Microsoft 365 groups and, therefore, a team in Microsoft Teams. If you want
-to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md#permissions-to-create-teams)
+to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md)
 (and thus the creation of new Microsoft 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
