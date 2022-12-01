@@ -65,6 +65,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Latvia](phone-number-management-for-latvia.md)
 > - [Lithuania](phone-number-management-for-lithuania.md)
 > - [Luxembourg](phone-number-management-for-luxembourg.md)
+> - [Mexico](phone-number-management-for-mexico.md)
 > - [New Zealand](phone-number-management-for-new-zealand.md)
 > - [Norway](phone-number-management-for-norway.md)
 > - [Poland](phone-number-management-for-poland.md)
