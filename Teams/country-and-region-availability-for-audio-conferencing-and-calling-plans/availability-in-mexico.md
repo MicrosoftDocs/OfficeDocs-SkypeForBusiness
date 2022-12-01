@@ -3,7 +3,7 @@ title: "Availability in Mexico"
 ms.author: danismith
 author: DaniEASmith
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: krkilaru
 ms.topic: reference
 ms.assetid: 4f3430a6-141f-4842-817d-ca4355ae8fda
 ms.tgt.pltfrm: cloud
@@ -54,13 +54,13 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |Yes. Mexico has specific Calling Plan offers that need to be purchased as shown below. The generic Calling Plan offer cannot be used to obtain numbers in Mexico. <br/><ul><li>Microsoft Teams Domestic Calling Plan (Mexico)</li><ul><li>**SKU Part Name:** `Microsoft_Teams_Domestic_Calling_Plan_(Mexico)`</li></ul><li>Microsoft Teams Domestic and International Calling Plan (Mexico)</li><ul><li>**SKU Part Name:** `Microsoft_Teams_Domestic_and_International_Calling_Plan_(Mexico)`</li></ul><li>Microsoft Teams Calling Plan pay-as-you-go (Mexico)</li><ul><li>**SKU Part Name:** `Microsoft_Teams_Calling_Plan_pay_as_you_go_(Mexico)`</li></ul></ul> |
-|Minutes available for Calling Plans  <br/> |<ul><li>Pay-As-You-Go Calling Plan</li><li>1200 minute Domestic Calling Plan </li><li>Domestic and International Calling Plan: 1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></ul><br/> |
+|Calling Plans are available to purchase?  <br/> |Yes. Mexico has specific Calling Plan offers that need to be purchased as shown below. The generic Calling Plan offer can't be used to obtain numbers in Mexico. <br/><ul><li>Microsoft Teams Domestic Calling Plan (Mexico)</li><ul><li>**SKU Part Name:** `Microsoft_Teams_Domestic_Calling_Plan_(Mexico)`</li></ul><li>Microsoft Teams Domestic and International Calling Plan (Mexico)</li><ul><li>**SKU Part Name:** `Microsoft_Teams_Domestic_and_International_Calling_Plan_(Mexico)`</li></ul><li>Microsoft Teams Calling Plan pay-as-you-go (Mexico)</li><ul><li>**SKU Part Name:** `Microsoft_Teams_Calling_Plan_pay_as_you_go_(Mexico)`</li></ul></ul> |
+|Minutes available for Calling Plans  <br/> |<ul><li>Pay-As-You-Go Calling Plan</li><li>1200-minute Domestic Calling Plan</li><li>Domestic and International Calling Plan: 1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></ul><br/> |
 |Can make outbound calls to premium numbers? <br/> |Not supported at this time <br/> |
 |Can make outbound call to? <br/> |To 196 countries, including [these countries and regions](country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> |
 |Important links <br/> |<ul><li>[Microsoft Communications Services Use Terms](https://www.microsoft.com/licensing/docs/view/Communications-Services-Tax-Rates-and-Terms)</li><li>Rate sheets</li><ul><li>[Domestic Calling Plan](https://sert.ift.org.mx/tarifasVE/publish/pdfs/FormatoSimplificado_574096.pdf)</li><li>[Domestic & International Calling Plan](https://sert.ift.org.mx/tarifasVE/publish/pdfs/FormatoSimplificado_574100.pdf)</li><li>[Pay-As-You-Go Calling Plan](https://sert.ift.org.mx/tarifasVE/publish/pdfs/FormatoSimplificado_574109.pdf)</li></ul><li>[Phone Number Management for Mexico (Number Portability and Ordering)](/manage-phone-numbers-for-your-organization/phone-number-management-for-mexico)</li><li>[Emergency Call Management](../what-are-emergency-locations-addresses-and-call-routing.md)</li><li>[Reach Customer Support](https://www.microsoft.com/microsoft-365/support)</li><li>[The Letter of Minimum Rights](https://www.ift.org.mx/usuarios-y-audiencias/carta-de-derechos)</li> <br/> |
 
-If Calling Plans are not available to purchase, see [PSTN connectivity options](../pstn-connectivity.md) for all available options.
+If Calling Plans aren't available to purchase, see [PSTN connectivity options](../pstn-connectivity.md) for all available options.
 
 ## Toll and toll-free numbers for services
 
