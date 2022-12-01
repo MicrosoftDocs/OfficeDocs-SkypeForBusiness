@@ -38,27 +38,34 @@ We recommend that Teams traffic bypasses proxy server infrastructure.
 
 ## Teams Phones
 
-Teams Phones don't support proxy servers.
+We don't support proxy servers for Teams Phones. 
 
 Our recommendation is to ensure that both signaling (TCP 443) and media (UDP 3478-3481) traffic bypasses proxy server infrastructure.
 
 ## Teams Meeting Rooms and Panels
 
-Our recommendation is to ensure your Teams Meeting Rooms bypass proxy infrastructure.
+We recommend you bypass proxy server infractructure for Teams Meeting Room and panel devices. This includes android-based touch screen displays.
 
-Windows-based Teams Meeting Rooms support proxy servers, but do not support proxy servers that require authentication. Android-based Teams Meeting Rooms do not support proxy servers.
-  
+Windows-based Teams Meeting Rooms, including the surface hub support proxy servers, but do not support proxy servers that require authentication.
+
+Android-based Teams Meeting Rooms including panels and touch screen displays don't support proxy servers.
+
 ## If you need to use a proxy server
 
 Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
+
+> [!Note]
+> If you use a privatly signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones is not supported.
   
 Microsoft also strongly recommends:
   
-- Using local, external DNS resolution (some cloud-based proxy solutions can cause DNS resolution to occur in another location).
+- Using local, external DNS resolution (some cloud-based proxy solutions can cause DNS resolution to occur in another location)
+
+- Ensuring the path between the Teams device and our service is as short and direct as possible
     
 - Using direct UDP based routing rather than relying on TCP based routing for media
     
-- Allowing UDP traffic (3478-3481)
+- Allowing UDP traffic for Teams Media (3478-3481)
 
 - Allowing all required URLs and IPs, including those for Azure, Office 365, Intune and Teams Room Pro (where used)
     
