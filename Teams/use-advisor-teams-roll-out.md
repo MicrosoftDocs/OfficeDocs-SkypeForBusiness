@@ -18,6 +18,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - ms.teamsadmincenter.deploymentadvisor.overview
+  - chat-teams-channels-revamp
 description: Use Advisor for Teams to help you plan and complete your Microsoft Teams deployment.
 ---
 
