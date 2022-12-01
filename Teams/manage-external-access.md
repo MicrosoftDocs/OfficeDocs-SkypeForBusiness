@@ -52,7 +52,7 @@ The Teams admin center controls external access at the organization level. Most 
 
 ## Specify trusted organizations
 
-You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat.
+You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat. (Note that the other organizations will need to allow your organization's domain as well.)
 
 If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are four scenarios for setting up external access in the Teams admin center (**Users** > **External access**):
 
