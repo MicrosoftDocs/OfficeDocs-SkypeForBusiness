@@ -1851,7 +1851,9 @@ items:
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
-          href: connect-teams-essentials-to-email.md 
+          href: connect-teams-essentials-to-email.md
+        - name: Virtual Appointments app - Terms of service
+          href: virtual-appointments-app-terms-of-service.md 
     - name: Move from Kaizala
       items: 
         - name: Get started
