@@ -18,8 +18,6 @@ appliesto:
 
 # Resource-specific consent in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 Resource-specific consent (RSC) is a Microsoft Teams and Microsoft Graph API integration that enables apps to use API endpoints to manage specific resources of a team within your organization. The RSC permissions enable team owners to grant consent for an application to access and modify a team's data. Resource-specific consent in Microsoft Teams lets team owners give consent to apps to access team data. Examples of such access include the ability to read channel messages, create and delete channels, and create and remove channel tabs.
 
 As an admin, you control whether team owners in your organization can give consent through settings that you configure by using the Azure Active Directory (Azure AD) PowerShell module or the Azure portal and the Microsoft Teams admin center.  
@@ -44,7 +42,7 @@ This setting controls whether users in your organization can consent to apps on 
 
 You can also manage this setting using PowerShell. To learn more, see [Configure user content to applications](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
-#### The "EnableGroupSpecificConsent" setting
+#### Control to let group owners consent to apps that access company data
 
 This setting controls whether users in your organization can consent to apps accessing company data for the groups that they own. This setting must be enabled for team owners to give consent. For steps on how to manage this setting by using PowerShell, see [Configure group owner consent to apps accessing group data](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 

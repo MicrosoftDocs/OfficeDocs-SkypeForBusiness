@@ -18,7 +18,9 @@ ms.collection:
   - ContentEnagagementFY23
 appliesto:
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+  - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 ---
 
 # Use organization-wide teams in Microsoft Teams to help everyone collaborate

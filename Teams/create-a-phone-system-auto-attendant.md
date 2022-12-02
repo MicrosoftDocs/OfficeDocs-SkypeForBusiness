@@ -1,5 +1,5 @@
 ---
-title: Set up an auto attendant for Microsoft Teams
+title: Set up a Microsoft Teams auto attendant
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,10 +20,10 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-description: Learn how to set up and manage auto attendants in Microsoft Teams.
+description: Learn how to set up a Microsoft Teams auto attendant.
 --- 
 
-# Set up an auto attendant
+# Set up a Microsoft Teams auto attendant
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
 
@@ -43,7 +43,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if the caller doesn't make a selection on menus, repeatedly selects invalid options, or dials by name or number repeatedly fail.  If an operator isn't defined, the auto attendant will drop the call.
+> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted.  If an operator isn't defined, the auto attendant will drop the call.
 
 ## What's new for auto attendants in the past 6 months
  

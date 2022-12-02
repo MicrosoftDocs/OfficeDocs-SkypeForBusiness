@@ -1,5 +1,5 @@
 ---
-title: Manage policy packages in Microsoft Teams
+title: Manage policy packages in Teams
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -19,10 +19,10 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
+description: Learn how to use, manage, and customize policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---
 
-# Manage policy packages for Microsoft Teams
+# Managing policy packages in Teams
 
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
@@ -31,9 +31,6 @@ You can use the [policy packages included in Teams](#policy-packages-included-in
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot of the Policy packages page in the admin center." lightbox="media/policy-packages-admin-center.png":::
 
 You can customize the settings of the policies in a policy package to suit the needs of your users. When you change the settings of policies in a package, all users who are assigned to that package get the updated settings. You manage policy packages by using the Microsoft Teams admin center or PowerShell.
-
-> [!NOTE]
-> This feature is temporarily available in public preview for all Microsoft Teams customers. To get this feature after the preview, each user will need the Advanced Communications add-on license. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## What is a policy package?
 

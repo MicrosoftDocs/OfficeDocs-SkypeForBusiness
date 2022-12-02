@@ -95,7 +95,7 @@ Get-MsolAccountSku
 Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
-$acctSKU="<CompanyName:License>
+$acctSKU="<CompanyName:License>"
 $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 
