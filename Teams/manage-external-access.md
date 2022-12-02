@@ -50,7 +50,9 @@ The Teams admin center controls external access at the organization level. Most 
 > [!NOTE]
 > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
-## Allow or block domains
+## Specify trusted organizations
+
+You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat. (Note that the other organizations will need to allow your organization's domain as well.)
 
 If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are four scenarios for setting up external access in the Teams admin center (**Users** > **External access**):
 
@@ -65,7 +67,7 @@ If you add blocked domains, all other domains will be allowed; and if you add al
 - **Block all external domains** - Prevents people in your organization from finding, calling, chatting, and setting up meetings with people external to your organization in any domain.
 
 > [!NOTE]
-> The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
+> People from blocked domains can still join meeting anonymously if anonymous access is allowed.
 
 ![Screenshot of external domains settings](./media/external-access-domain-settings.png)
 
