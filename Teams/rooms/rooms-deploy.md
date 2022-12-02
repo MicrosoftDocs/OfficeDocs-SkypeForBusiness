@@ -167,7 +167,7 @@ You can use [remote PowerShell](rooms-operations.md#remote-management-using-powe
 
 ### Testing
 
-After Teams Rooms has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms](https://www.microsoft.com/en-ww/microsoft-teams/microsoft-teams-rooms) are working on the deployed device. We highly recommend that the deployment team verify that Microsoft Teams Rooms is appearing in Teams admin center. It's also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist).
+After Teams Rooms has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms](https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms) are working on the deployed device. We highly recommend that the deployment team verify that Microsoft Teams Rooms is appearing in Teams admin center. It's also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist).
 
 We recommend that as part of the general Teams or Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see [Improve and monitor call quality for Teams](../monitor-call-quality-qos.md). 
 
