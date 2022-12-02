@@ -20,11 +20,15 @@ description: Learn how to turn off the meeting lobby in Microsoft Teams and allo
 
 # Turn off the meeting lobby in Microsoft Teams
 
-## Automatically admit people
+
+Who can bypass = everyone
+dial-in can bypass = on
+anonymous / dial-in can start a meeting
+
+===========================
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.
 
-![Screenshot showing a meeting with a user in the lobby.](media/meeting-policies-lobby.png)
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
