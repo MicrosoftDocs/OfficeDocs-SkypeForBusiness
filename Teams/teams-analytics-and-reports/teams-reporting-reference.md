@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: In this article, you will learn about the Teams reports that are available in the Microsoft Teams admin center.
 appliesto: 
   - Microsoft Teams

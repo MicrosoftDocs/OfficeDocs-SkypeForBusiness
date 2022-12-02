@@ -1238,6 +1238,8 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+            - name: Phone number management for Mexico
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
             - name: Phone number management for New Zealand
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
             - name: Phone number management for Norway
@@ -1632,6 +1634,8 @@ items:
           href: manage-updates-app.md
         - name: Manage the Virtual Appointments app
           href: manage-virtual-appointments-app.md
+        - name: Virtual Appointments app - Terms of service
+          href: virtual-appointments-app-terms-of-service.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
           

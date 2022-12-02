@@ -13,6 +13,7 @@ f1.keywords:
 ms.collection: 
   - m365solution-compliantmeetings
   - m365solution-overview
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for better security using three tiers of protection, balancing security with ease of collaboration.

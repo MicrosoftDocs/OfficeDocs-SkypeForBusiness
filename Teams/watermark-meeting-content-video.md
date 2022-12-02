@@ -12,6 +12,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how to enable or require watermarks on attendee video and shared content in sensitive Teams meetings.
