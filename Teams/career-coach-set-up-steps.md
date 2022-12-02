@@ -1,7 +1,7 @@
 ---
 title: Set up and configure Career Coach for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -22,7 +22,7 @@ appliesto:
 
 # Set up and configure Career Coach for Microsoft Teams
 
-This article is for higher education IT admins to learn how to set up Career Coach for Microsoft Teams.
+This article is for education IT admins to learn how to set up Career Coach for Microsoft Teams.
 
 The primary steps to set up, configure, and release Career Coach are:
 
@@ -156,7 +156,7 @@ There are two license types available.
 
 #### Purchase licenses
 
-Career Coach is available worldwide (except China and Russia) for qualified higher education institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
+Career Coach is available worldwide (except China and Russia) for qualified educational institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
 
 As a Microsoft Teams app, the tenant must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5 to purchase the add-on Career Coach license. Separate licenses are offered for students and faculty users.
 
@@ -186,53 +186,15 @@ To configure Career Coach settings and allow it for users, you must be a global 
 
 ### Step 4: Configure Career Coach settings
 
-To set up Career Coach for students, faculty, and staff, the following settings are required.
+The following Career Coach settings can be configured for students, faculty, and staff.
 
-- [Brand and preferences](#brand-and-preferences)
-- [LinkedIn connection](#linkedin-connection)
-- [Course catalog](#course-catalog)
-- [Fields of study](#fields-of-study)
+- [LinkedIn connection](#linkedin-connection-required) (required)
+- [Brand and preferences](#brand-and-preferences-optional) (optional)
+- [Course catalog](#course-catalog-optional) (optional)
+- [Fields of study](#fields-of-study-optional) (optional)
+- [Customization options](#customization-options-optional) (optional)
 
-You can also set optional [Customization](#customization-options) settings.
-
-#### Brand and preferences
-
-Customize Career Coach to match your educational institution’s brand. You're responsible for respecting others' rights, including copyright and trademark rights.
-
-> [!IMPORTANT]
-> This is a required section. Career Coach can't be turned on without **Brand and preferences** submitted.
-
-1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
-
-2. Select **Teams apps** > **Manage apps** > **Career Coach** > **Settings** > **Edit brand and preferences**.
-
-3. Under **Branding**, add **Organization name**.
-
-4. Upload the **Organization icon**. The icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard.
-
-    The icon is best formatted as:
-
-    - A transparent PNG
-    - Aspect ratio of 1:1
-    - Maximum size of 64 px x 64 px
-
-5. Upload the **Learning content thumbnail image**. The thumbnail will be used for course catalog learning resources throughout the app when a specific image isn't specified for a course offered by your educational institution.
-
-    The thumbnail is best formatted as:
-
-    - A PNG
-    - Aspect ratio of 16:9
-    - Maximum size of 360 px x 200 px
-
-6. This is an optional step. Add the **Organization privacy policy URL**. If added, the institution's privacy policy will be available for students to review in Career Coach.
-
-7. Select **Submit**.
-
-8. To confirm settings were submitted successfully, check [Career Coach configuration status](#configuration-status) for **Complete**.
-
-![Screenshot that shows the Career Coach branding section of the admin center.](media/career-coach-brand-updated.png)
-
-#### LinkedIn connection
+#### LinkedIn connection (required)
 
 The LinkedIn connection setting connects Career Coach with public alumni data from your institution’s LinkedIn School Page.
 
@@ -240,6 +202,8 @@ This step can only be completed if [LinkedIn account connections are enabled in 
 
 > [!IMPORTANT]
 > This is a required section. Career Coach can't be turned on without the LinkedIn School Page connection verified.
+>
+> The LinkedIn connection supports multiple tenants.
 
 ##### Add the LinkedIn School Page URL
 
@@ -277,7 +241,7 @@ You can check your LinkedIn account’s admin roles by signing into LinkedIn and
 
 1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
-   ![Screnshot that shows the LinkedIn connections for the career coach app.](media/career-coach-linkedin-updated.png)  
+   ![Screenshot that shows the LinkedIn connections for the career coach app.](media/career-coach-linkedin-updated.png)  
 
 2. Copy the verification link and share it with your LinkedIn School Page Super admin.
 
@@ -287,14 +251,45 @@ You can check your LinkedIn account’s admin roles by signing into LinkedIn and
 
    ![Screenshot that shows the LinkedIn page verification in the LinkedIn developer portal.](media/career-coach-linkedin-verification-updated.png)
 
-#### Course catalog
+#### Brand and preferences (optional)
+
+Customize Career Coach to match your educational institution’s brand. You're responsible for respecting others' rights, including copyright and trademark rights.
+
+1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Select **Teams apps** > **Manage apps** > **Career Coach** > **Settings** > **Edit brand and preferences**.
+
+3. Under **Branding**, add **Organization name**.
+
+4. Upload the **Organization icon**. The icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard.
+
+    The icon is best formatted as:
+
+    - A transparent PNG
+    - Aspect ratio of 1:1
+    - Maximum size of 64 px x 64 px
+
+5. Upload the **Learning content thumbnail image**. The thumbnail will be used for course catalog learning resources throughout the app when a specific image isn't specified for a course offered by your educational institution.
+
+    The thumbnail is best formatted as:
+
+    - A PNG
+    - Aspect ratio of 16:9
+    - Maximum size of 360 px x 200 px
+
+6. This is an optional step. Add the **Organization privacy policy URL**. If added, the institution's privacy policy will be available for students to review in Career Coach.
+
+7. Select **Submit**.
+
+8. To confirm settings were submitted successfully, check [Career Coach configuration status](#configuration-status) for **Complete**.
+
+![Screenshot that shows the Career Coach branding section of the admin center.](media/career-coach-brand-updated.png)
+
+#### Course catalog (optional)
 
 The course catalog records the courses and classes offered by your educational institution.
 
 Career Coach uses course catalog data to identify a student’s skills from their transcript and to suggest courses to take.
-
-> [!IMPORTANT]
-> This is a required section. Career Coach can't be turned on without a course catalog.
 
 These courses are used within Career Coach in two areas:
 
@@ -324,7 +319,7 @@ Start with the [sample course catalog](https://aka.ms/career-coach/docs/it-adm
 
 7. To confirm settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
 
-To upload a new file, ensure the last file is cleared by selecting (X) to close the document preview. This action will allow the **Upload** button to display again.
+To upload a new file, ensure the last file is cleared by selecting (**X**) to close the document preview. This action will allow the **Upload** button to display again.
 
 ![Screenshot that shows the course catalog section of the career coach app.](media/course-catalog-updated.png)
 
@@ -372,16 +367,14 @@ During processing, Career Coach will analyze your document for duplicates, norma
 
 If a column in the course catalog status is blank, the document is currently being processed, and those values aren't available. This process can take up to 6 hours depending on the size of your catalog. Once the document has been processed, the values will be populated. You can refresh the page to check for updates.
 
-#### Fields of study
+#### Fields of study (optional)
 
 The fields of study are synonymous with major areas of interest, academic major, and degree programs. These fields of study are referenced by students when they start using Career Coach and begin setting up their personalized profile.
 
 The list of fields lets students discover fields of study that may interest them and add their planned academic focus to their profile in Career Coach.
 
 > [!IMPORTANT]
-> This is a required section. Career Coach can't be turned on without a list of fields of study.
->
-> Add all fields of study available to students such as Engineering, English, Business, and so on
+> If you're configuring fields of study for Career Coach, add all fields of study available to students such as Engineering, English, Business, and so on.
 
 ##### Add the fields of study
 
@@ -405,7 +398,7 @@ The following table shows the items to include in the fields of study:
 |---------------|----------|--------|--------------------------------|
 | fieldsOfStudy | Required | string | The name of the field of study |
 
-#### Customization options
+#### Customization options (optional)
 
 The Customization setting supports adding opportunities to gain real-world experiences to the dashboard that your educational institution offers to students.
 
@@ -439,20 +432,20 @@ The configuration status section of the app settings page will display the real-
 | --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
 | Service provisioning status | Career Coach is initializing your tenant.     | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes won't be accepted until initial setup is complete. Estimated time for service provisioning is up to 15 minutes. |
 | Service provisioning status | Career Coach is ready to be configured.       | Career Coach settings page is ready for IT admin to submit settings. |
-| Brand and preferences       | Not started                                   | Settings need to be submitted. |
-| Brand and preferences       | Missing: Learning icon                        | Upload the missing learning content thumbnail image. |
-| Brand and preferences       | Missing: Logo                                 | Upload the missing institution icon. |
-| Brand and preferences       | Missing: Institution name                     | Upload the missing institution name. |
-| Brand and preferences       | Complete                                      | No further action needed. Setting is complete. |
-| Course catalog upload       | Not started                                   | Course catalog CSV needs to be submitted. |
+| Brand and preferences       | Not started                                   | Settings not submitted. This is an optional step and won't prevent completing the configuration. |
+| Brand and preferences       | Missing: Learning icon                        | Upload a learning content thumbnail image. |
+| Brand and preferences       | Missing: Logo                                 | Upload an institution icon. |
+| Brand and preferences       | Missing: Institution name                     | Upload an institution name. |
+| Brand and preferences       | Complete                                      | Setting is complete. |
+| Course catalog upload       | Not started                                   | Course catalog not submitted. This is an optional step and won't prevent completing the configuration. |
 | Course catalog upload       | Missing: a successful course catalog upload   | Check the course catalog status for details on course catalog processing. |
-| Course catalog upload       | Complete                                      | No further action needed. Setting is complete. |
-| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL needs to be submitted. |
+| Course catalog upload       | Complete                                      | Setting is complete. |
+| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL not submitted. |
 | LinkedIn school connection  | Missing: an approved LinkedIn School Page URL | Awaiting LinkedIn School Page Super admin verification approval. |
 | LinkedIn school connection  | Complete                                      | No further action needed. Setting is complete. |
-| Fields of study upload      | Not started                                   | Field of study CSV needs to be submitted. |
+| Fields of study upload      | Not started                                   | Field of study CSV not submitted. This is an optional step and won't prevent completing the configuration. |
 | Fields of study upload      | Missing: areas of interest                    | Check whether the field of study upload is successful. |
-| Fields of study upload      | Complete                                      | No further action needed. Setting is complete. |
+| Fields of study upload      | Complete                                      | Setting is complete. |
 
 Once all required steps are marked as complete, Career Coach can be successfully released to your tenant.
 
