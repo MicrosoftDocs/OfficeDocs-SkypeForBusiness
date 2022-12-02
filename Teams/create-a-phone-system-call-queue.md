@@ -24,10 +24,10 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
     - seo-marvel-apr2020
-description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
+description: Set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
 ---
 
-# Create a call queue
+# Create a call queue in Microsoft Teams
 
 Call queues route callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
 
