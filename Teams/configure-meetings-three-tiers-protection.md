@@ -88,7 +88,7 @@ Meeting chat can be an important part of collaboration during a meeting. However
 
 As an admin, you can control meeting chat in the following ways:
 
-- **Teams admin meeting policy** (per user or group) can be use to allow chat, allow chat for everyone except anonymous participants, or turn chat off.
+- **Teams admin meeting policy** (per user or group) can be used to allow chat, allow chat for everyone except anonymous participants, or turn chat off.
 - **Sensitivity label setting** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This setting can be left unconfigured to be controlled by a template or the meeting organizer.
 - **Meeting template setting** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This setting can be left unconfigured to be controlled by the meeting organizer.
 
@@ -125,7 +125,7 @@ There are three kinds of external participants who can join meetings:
 
 Participants from trusted domains join meetings via the [external access](manage-external-access.md) feature. You can control what domains, if any, your organization wants to trust. (This setting also affects 1:1 and group chat with people in those domains.)
 
-If [Teams guest access](guest-access.md) is enabled for your organization, then guests will be able to join meetings. Guest access settings can also be used to control guests' screen shaing mode, including disabling screen sharing. (Guest access is also used for inviting guests to teams.)
+If [Teams guest access](guest-access.md) is enabled for your organization, then guests will be able to join meetings. Guest access settings can also be used to control guests' screen sharing mode, including disabling screen sharing. (Guest access is also used for inviting guests to teams.)
 
 If the **Anonymous users can join a meeting** Teams admin setting is turned on, anonymous participants will be able to join meetings.
 

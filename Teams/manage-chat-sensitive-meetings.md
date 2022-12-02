@@ -48,7 +48,7 @@ If you want to prevent anonymous meeting participants from using chat, you can c
 
 Meeting organizers can specify that the chat only be available while the meeting is in progress. This can also be configured by using a meeting template or sensitivity label if you require this for certain types of meetings.
 
-You can preventing copying of chat contents by using a sensitivity label. Note that if a sensitivity label that restricts copying from the chat is specified as the default channel label in a container label, then teams with that container label will restrict copying from the chat for all channels in the team, both in and out of channel meetings.
+You can prevent copying of chat contents by using a sensitivity label. Note that if a sensitivity label that restricts copying from the chat is specified as the default channel label in a container label, then teams with that container label will restrict copying from the chat for all channels in the team, both in and out of channel meetings.
 
 ## Options for meetings without chat
 
