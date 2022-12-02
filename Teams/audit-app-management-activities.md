@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 08/24/2022
+ms.date: 12/02/2022
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
@@ -18,41 +18,43 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Audit logs of app management activities and events
+# Search audit logs for app management activities and events
 
 Microsoft Purview Audit (Standard) in Microsoft 365 lets you search for audit records of activities performed in the various Microsoft 365 services by end-users and administrators.
 
-Before you can search the audit, ensure you complete the following pre-requisites:
+Before you can search the audit records, ensure that you complete the following prerequisites:
 
-* [Obtain organization subscription and user licensing](/microsoft-365/compliance/set-up-basic-audit).
+* [Obtain organization's subscription and user licensing](/microsoft-365/compliance/set-up-basic-audit).
 * [Turn on auditing in the Microsoft Purview compliance portal](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 * [Assign permissions to search the audit log](/microsoft-365/compliance/set-up-basic-audit).
 
 ## Search the audit logs for app events in Teams
 
-The audit logs for app events in Teams help you investigate specific actions. While you can search the logs for a wide-range of actions, the following table lists some of the Teams app actions that are logged. In addition, you can search activities related to Connectors, bots, tabs, and so on.
+The audit logs for app events in Teams help you investigate specific actions related to app management by admins. While you can search the logs for a wide-range of actions, the following table lists some such actions that are logged.
 
-| Teams app action                  | Activity name                | Description                                              |
-|-----------------------------------|------------------------------|:---------------------------------------------------------|
-| **Installed app**                 | `AppInstalled`               | An app is installed.                                     |
+| Teams app action | Activity name in the Portal | Description  |
+|-------|-------|:-------|
+| **Installed app**                 | `AppInstalled`               | An app is installed or added to a Teams client. |
 | **Upgraded app**                  | `AppUpgraded`                | An app is upgraded to its latest version in the catalog. |
-| **Uninstalled app**               | `AppUninstalled`             | An app is uninstalled.                                   |
+| **Uninstalled app**               | `AppUninstalled`             | An app is uninstalled or removed from a Teams client.                                   |
 | **Published app**                 | `AppPublishedToCatalog`      | An app is added to the catalog.                          |
 | **Updated app**                   | `AppUpdatedInCatalog`        | An app is updated in the catalog.                        |
 | **Deleted app**                   | `AppDeletedFromCatalog`      | An app is deleted from the catalog.                      |
 | **Deleted all organization apps** | `DeletedAllOrganizationApps` | Deleted all organization apps from the catalog.          |
 
+<!--- organization apps = custom or 3p --->
+
 For a complete list of Teams activities that are audited, see [Teams activities](audit-log-events.md#teams-activities) and [Shifts in Teams activities](audit-log-events.md#shifts-in-teams-activities).
 
 > [!NOTE]
-> App events from private channels are also logged as those events are for Teams and standard channels.
+> App events from private channels are also logged as those events are accomplished in Teams and in the standard channels.
 
-Use the Audit log search tool in the compliance portal to search for audit records. To search for app event audit logs, follow these steps:
+To search the audit logs of Teams app activities, follow these steps:
 
 1. Sign in to Microsoft Purview compliance portal and go to **Solutions** > **[Audit](https://compliance.microsoft.com/auditlogsearch)**.
-1. On the audit page, update the following fields as per your requirement:
+1. On the **Audit** page, update the following fields as required:
 
-   * **Date and time range**: Select the Start and End date.
+   * **Date and time range**: Select the start and end dates of the time period for which you want to check the audit logs.
    * **Activities**: Enter Microsoft Teams activities. From the list, select one or more app activities. To quickly find the Teams activities, you can search for the word `Teams activities` in the **Activities** search field.
    * **File, folder, or site**: Enter file name or a URL or a part of it.
    * **Users**: Add the users whose audit log you want to search.
@@ -61,7 +63,7 @@ Use the Audit log search tool in the compliance portal to search for audit recor
 
    :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Search for Teams activities in the Microsoft Purview compliance portal to audit for Teams events." lightbox="media/compliance-search-teams-activities.png":::
 
-After searching the audit sign in the compliance portal, you can export the audit records as a CSV file. For more information, see [Export, configure, and view audit logs](/microsoft-365/compliance/export-view-audit-log-records).
+You can export the searched audit records as a CSV file. For more information, see [Export, configure, and view audit logs](/microsoft-365/compliance/export-view-audit-log-records).
 
 > [!NOTE]
 > When one of the above activities is performed by a user or admin, Teams generates and stores an audit record. In Audit (Standard), records are retained for 90 days, which means you can search for activities that occurred within the past three months.
