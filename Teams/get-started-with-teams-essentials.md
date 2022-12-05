@@ -124,15 +124,15 @@ To do that, complete these three steps:
 
 A Teams Free (classic) user can upgrade to TFW, that is, to a subscription such as Microsoft Microsoft 365 Business (Standard). For more information, see https://support.microsoft.com/en-us/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39.
 
-TWF contains features which may all not be needed; hence, from TWF, the classic user can then find a way to navigate to Teams Essentials through TFL.
+TWF contains features which may all not be needed; hence, from TWF, the classic user can then find a way to navigate to Teams Essentials through Microsoft Teams (free).
 
-#### Upgrade Requirements
+##### Upgrade from Teams (free) to Microsoft Teams Essentials
 
-As a TFL user, you must have signed up for the existing Teams free subscription to become eligible to upgrade to Microsoft Teams Essentials. You'll have a limited administrator role once you sign in to Microsoft Teams Essentials, but this role enables you to manager other users in Microsoft Teams Essentials.
+To upgrade to the Microsoft Teams Essentials version of Teams, select  **...** in the top navigation menu. Next, select the **Upgrade** button at the bottom of the dropdown menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
 
-> [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section.
-> Upgrading to Teams Essentials is not currently supported for Teams free (classic) users. In other words, a user of Microsoft Teams Free (classic) cannot directly upgrade to Microsoft Teams Essentials. For more information, see [Upgrading from Microsoft Teams Free (classic) to Teams](#upgrading-from-microsoft-teams-free-classic-to-teams).
+After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
+
+Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan. 
 
 ##### Upgrading from Microsoft Teams Free (classic) to Teams
 
