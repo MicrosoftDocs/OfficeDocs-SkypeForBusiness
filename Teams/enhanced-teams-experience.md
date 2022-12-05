@@ -86,7 +86,7 @@ Teams Premium provides the following additional features for customizing meeting
 | Meeting templates | - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)|
 | Meeting themes | [Themes for Teams meetings](meeting-themes.md) | 
 | Custom meeting backgrounds | [Meeting backgrounds](custom-meeting-backgrounds.md)| 
-| Custom together mode scenes | [Content for you and your developers](https://learn.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+| Custom together mode scenes | [Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
 
 
 
