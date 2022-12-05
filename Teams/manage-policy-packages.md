@@ -1,5 +1,5 @@
 ---
-title: Manage policy packages in Microsoft Teams
+title: Manage policy packages in Teams
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -23,7 +23,7 @@ search.appverid: MET150
 description: Learn how to use, manage, and customize policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---
 
-# Manage policy packages for Microsoft Teams
+# Managing policy packages in Teams
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
