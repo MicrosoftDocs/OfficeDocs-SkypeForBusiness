@@ -18,7 +18,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - Licensing
-description: Learn about Microsoft Teams Premium for administators and IT Professionals.
+description: Learn about Microsoft Teams Premium for administrators and IT Professionals.
 ---
 
 # Microsoft Teams Premium - Overview for administrators
@@ -51,7 +51,7 @@ The following sections describe the Teams Premium enhancements for:
 
 Teams Premium provides additional ways to safeguard meetings with the following key features: 
 
-- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting settings normally controlled by the meeting organizer. These capabiities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting settings normally controlled by the meeting organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
 
 - **Watermarking** - Enforced through a sensitivity label. Watermarks display the email address of a meeting participant, which is useful for protecting confidential information shared in meetings. 
 
