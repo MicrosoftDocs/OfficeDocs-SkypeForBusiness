@@ -24,7 +24,7 @@ Microsoft Teams Essentials is a standalone Teams subscription that provides an a
 
 ### Before you continue
 
-Microsoft Teams Essentials is available for purchase through Microsoft's direct website and select Microsoft Cloud Partners. Subscriptions through direct and partner differ in some ways because they use different identity systems. For more information, see [ Microsoft Teams Essentials plans](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
+Microsoft Teams Essentials is available for purchase through Microsoft's direct website and select Microsoft Cloud Partners. Subscriptions through direct and partner differ in some ways because they use different identity systems. For more information, see [Microsoft Teams Essentials plans](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
 A subscription purchased through Microsoft's direct website uses Microsoft account identity, which allows you to use your existing email address like TomislavK@outlook.com, TomislavK@gmail.com, or TomislavK@ContosoLandscaping.com to sign up.
 
@@ -42,7 +42,7 @@ If you purchased Teams Essentials through a Microsoft Certified Partner, you own
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. For more information, see the footnotes. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams Plan | **TFL** | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams Plan | **Microsoft Teams (free)** | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Feature***     |         |         |         |         |
 | **Meeting and Calling** | Yes| Yes| Yes |   Yes    |
@@ -66,16 +66,15 @@ The following table lists the major Microsoft Teams features available across pl
 | Whiteboard |         |         |  Yes       |     Yes    |
 | Host webinars that include attendee registration pages, email confirmations, and reporting. |     |     |      | Available in Business Standard|
 | **Chat and collaboration**     |         |         |         |         |
-| Unlimited chat (private & group) |     Yes    |   Yes      |   Yes      |    Yes      |
+| Unlimited chat (one-to-one & group) |     Yes    |   Yes      |   Yes      |    Yes      |
 | Real-time collaboration in Office apps |     Yes    |   Yes      |   Yes      |  Yes      |
 | Guest access: Chat w/anyone inside & outside your company|     Yes    |   Yes      |   Yes      |  Yes      |
 | Polls |     Yes    |   Yes      |   Yes      |  Yes      |
-| Group chat templates |     Yes    |   Yes      |   | | 
 | Teams and Channels |     |   |   Yes      |  Yes      |
 | **Productivity apps and services** |         |         |         ||
 | File & document cloud storage (per user) |     5 GB    |   10 GB      |   10 GB     | 1 TB | 
 | Word, Excel, PowerPoint web & mobile apps |     Yes   |   Yes      |   Yes      | Yes | 
-| Google calendar sync |     Coming soon    |   Coming soon      |   Yes&sup1;      | Yes&sup1; | 
+| Google calendar sync |     Yes    |   Coming soon      |   Yes&sup1;      | Yes&sup1; | 
 | App Extensibility (250+ integrated apps & services) |     |        |   Yes      | Yes | 
 | Exchange email hosting with customer email domain address |    |   | 2 GB&sup2; |    50 GB|
 |**Security and compliance**     |         |         |         | | 
@@ -112,18 +111,20 @@ When you've completed these tasks, you're ready to plan, deploy, and use the Tea
 
 To do that, complete these three steps:
 
-1.  **Install the Teams app.** Install the Teams client on your PC or mobile device by going to [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app) and selecting an option under **Teams for home.** Ensure that you've downloaded a Teams for home option as Teams for work and school aren't compatible with Teams Essentials. :::image type="content" source="media/essentials-downloa.png" alt-text="Screenshot of Teams for home download option":::
+1.  **Install the Teams app.** Install the Teams client on your PC or mobile device by going to [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
 2. **Get Familiar with Teams.** The best way to become familiar with Teams is to start using it right away. Take some time to explore the application so you have a better understanding of its capabilities.
 
 3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
 
-4.  **Manage Microsoft Teams Essentials.** As a TFL user, if you're the person who has purchased Teams Essentials, you have the administrator privileges to do the following task after signing in:
+4.  **Manage Microsoft Teams Essentials.** If you're the Teams user who has purchased Teams Essentials, you have the administrator privileges to do the following task after signing in:
     - (If you've also purchased Teams Essentials for someone other than you) Assign the Teams Essentials to other users in the intended proportions with which you've purchased it, by using the Microsoft Teams admin center.
 
-## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
+## Upgrade from a Microsoft Teams Free (classic) to TFW
 
-If you're a TFL user, you can easily upgrade to the Teams Essentials (TFL)/Teams Essentials (TFW) by purchasing a plan for your users directly in Teams.
+A Teams Free (classic) user can upgrade to TFW, that is, to a subscription such as Microsoft Microsoft 365 Business (Standard). For more information, see https://support.microsoft.com/en-us/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39.
+
+TWF contains features which may all not be needed; hence, from TWF, the classic user can then find a way to navigate to Teams Essentials through TFL.
 
 #### Upgrade Requirements
 
@@ -154,15 +155,6 @@ Keep the following limitations in mind:
 
 >[!IMPORTANT]
 > If you're currently using Microsoft Teams free (classic), you go here to upgrade to Microsoft 365 **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
-
-#### How do I upgrade my organization?
-
-To upgrade to the Microsoft Teams Essentials version of Teams, select  **...** in the top navigation menu. Next, select the **Upgrade** button at the bottom of the dropdown menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
-
-After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
-
-Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan.
-
 
 ### Can I purchase Teams Essentials using AAD identity through Microsoft's website?  
 
