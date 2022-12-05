@@ -39,7 +39,7 @@ During an end-to-end encrypted meeting, Teams secures the following features:
 
 - Screen sharing
 
-[Encryption in Microsoft 365](/microsoft-365/compliance/encryption) protects chat, file sharing, presence, and other content in the meeting. Apps, filters, avatars, reactions, chat, and Q&A are not end-to-end encrypted.
+[Encryption in Microsoft 365](/microsoft-365/compliance/encryption) protects chat, file sharing, presence, and other content in the meeting. Apps, avatars, reactions, chat, and Q&A are not end-to-end encrypted.
 
 The following features aren't available during an end-to-end encrypted meeting:
 
