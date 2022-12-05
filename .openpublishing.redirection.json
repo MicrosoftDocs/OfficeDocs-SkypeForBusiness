@@ -7,7 +7,7 @@
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/bookings-virtual-visits.md",
-      "redirect_url": "/microsoft-365/frontline/bookings-virtual-visits",
+      "redirect_url": "/microsoft-365/frontline/bookings-virtual-appointments",
       "redirect_document_id": false
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "source_path": "Teams/teams-analytics-and-reports/virtual-visits-usage-report.md",
-      "redirect_url": "/microsoft-365/frontline/virtual-visits-usage-report",
+      "redirect_url": "/microsoft-365/frontline/virtual-appointments-usage-report",
       "redirect_document_id": false
     },
     {
