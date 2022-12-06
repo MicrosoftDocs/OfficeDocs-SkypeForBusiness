@@ -73,7 +73,7 @@ To configure auto attendants and call queues, you need the following resources:
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
-Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
+Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
 
 - An [online voice routing policy](manage-voice-routing-policies.md) assigned if the call queue uses transfer mode.
 - An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the call queue uses conference mode.
