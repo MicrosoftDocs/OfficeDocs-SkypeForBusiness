@@ -26,9 +26,17 @@ Using the lobby settings in Teams, you can control which of the following types 
 
 - Meeting organizer and co-organizers
 - People in your organization
-- [Guests](guest-access.md)
-- [People in trusted organizations](manage-external-access.md)
+- Guests
+- People in trusted organizations
 - Anonymous participants
+
+## Prerequisites for meeting with people outside your organization
+
+There are several settings in Teams that control whether people outside the organization can interact with Teams. The following settings must be enabled for people outside the organization to join meetings:
+
+- [Guest access in Teams](guest-access.md) must be enabled in order for guests to be able to join meetings.
+- [External access](manage-external-access.md) must be enabled in order for people in trusted organizations to join meetings. A mutual trust between your organization and the external organization must also be configured.
+- Both the **Anonymous users can join a meeting** meeting setting (organization level) and meeting policy (for the organizer who is creating the meeting) must be **On** in order for anonymous participants to join meetings
 
 ## Overview of lobby settings and policies
 
@@ -36,8 +44,6 @@ The following table shows the Teams meeting settings and policies that affect ho
 
 |Setting|Description|
 |:------|:----------|
-|**Anonymous users can join a meeting** (organization setting)|This global setting allows anyone with a meeting link to join the meeting anonymously if they are not signed in to a work or school account or as a guest. (The **Anonymous users can join a meeting** meeting policy must also be **On** for the meeting organizer.)|
-|**Anonymous users can join a meeting** (meeting policy)|This per-organizer setting allows anyone with a meeting link to join the meeting anonymously if they are not signed in to a work or school account or as a guest. (The **Anonymous users can join a meeting** organization setting must also be **On**.)|
 |**Anonymous users and dial-in callers can start a meeting**|This is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.|
 |**People dialing in can bypass the lobby**|This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby. When this setting is **Off**, dial-in users will wait in the lobby until an organization user joins the meeting and admits them. When this setting is **On**, dial-in users will automatically join the meeting without going through the lobby, or after an organization user joins the meeting if **Anonymous users and dial-in callers can start a meeting** is **Off**.|
 |**Who can bypass the lobby**|This is a per-organizer policy. This setting controls which types of participants join a meeting directly and which wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
@@ -53,14 +59,14 @@ The following table shows how each option for the **Who can bypass the lobby** c
 |People in trusted organizations|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
 |Anonymous participants|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
 
-> [!Important]
-> Both the **People dialing in can bypass the lobby** and **Who can bypass the lobby** settings set defaults that the meeting organizer can change. If you need to enforce these settings to a particular value, you can use a meeting template or sensitivity label (Teams Premium required). For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
-
 **Only people who were invited** applies only to individual users who were sent an invite or to whom an invite was forwarded. Users added as a part of a distribution group will go through the lobby.
 
-## Choose defaults for who can bypass the lobby in your organization
+## Choose who can bypass the lobby in meetings hosted by your organization
 
 You can configure the settings and policies described above in the Teams admin center. See the sections below for guidance on which setting to choose for different circumstances.
+
+> [!Important]
+> Both the **People dialing in can bypass the lobby** and **Who can bypass the lobby** settings set defaults that the meeting organizer can change. If you need to enforce these settings to a particular value, you can use a meeting template or sensitivity label (Teams Premium required). For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
 To set meeting join and lobby policies
 1. In the Teams admin center, expand **Meetings** and then select **Meeting policies**.
