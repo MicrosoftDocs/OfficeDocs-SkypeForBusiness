@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
@@ -142,6 +143,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft Teams Rooms Basic without Audio Conferencing | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Microsoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro |
 | Microsoft Teams Rooms Pro without Audio Conferencing | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## Related content
 
