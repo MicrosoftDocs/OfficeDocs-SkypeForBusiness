@@ -117,44 +117,34 @@ To do that, complete these three steps:
 
 3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
 
-4.  **Manage Microsoft Teams Essentials.** If you're the Teams user who has purchased Teams Essentials, you have the administrator privileges to do the following task after signing in:
-    - (If you've also purchased Teams Essentials for someone other than you) Assign the Teams Essentials to other users in the intended proportions with which you've purchased it, by using the Microsoft Teams admin center.
-
-## Upgrade from a Teams Free (classic) to Teams (full version)
-
-A Teams Free (classic) user can upgrade to the Teams full version, that is, to a subscription such as Microsoft Microsoft 365 Business (Standard).
+4.  **Manage Microsoft Teams Essentials.** Any Teams (free) users who have upgraded to Microsoft Teams Essentials can manage it.
 
 > [!NOTE]
-> Direct upgrade from Microsoft Teams Free (classic) isn't supported.
+> For information on how to to upgrade from Teams (free) to Microsoft Teams Essentials, see [Upgrade from Teams (free) to Microsoft Teams Essentials](#upgrade-from-teams-free-to-microsoft-teams-essentials).
 
-For more information about upgrading from Teams Free (classic) to Teams full version, see https://support.microsoft.com/en-us/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39.
+Managing Microsoft Teams Essentials refers to assigning Microsoft Teams Essentials seats to other users - on whose behalf you purchased - in the intended proprotions. You can manage Microsoft Teams Essentials through the Microsoft Admin center.
 
-## Upgrade from Teams (free) to Microsoft Teams Essentials
+### Upgrade from Teams (free) to Microsoft Teams Essentials
 
-To upgrade to the Microsoft Teams Essentials version of Teams, select  **...** in the top navigation menu. Next, select the **Upgrade** button at the bottom of the dropdown menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
+If your organization is using a free version of Microsoft Teams, you can easily upgrade to the Teams Essentials version by purchasing a plan for your users directly in Teams from [Find the right Microsoft Teams for your needs](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options).
 
-After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
+## Upgrade from Teams Free (classic) to Teams
 
-Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan. 
+A Teams Free (classic) user can upgrade to the full version of Teams, that is, to subscriptions such as Microsoft 365 Business (Basic) and Microsoft 365 Business (Standard).
 
-
-> [!NOTE]
-> The user of Microsoft Teams Free (classic) upgrades to TFW (Teams for Work) that may include Microsoft Teams Essentials or any other TWF business license.
+The upgrade can be done by following the steps specified in [Upgrade from Teams (free) to Teams](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 
 #### Limitations
 
 Keep the following limitations in mind:
 
-- You can't switch back to Teams (free) after you upgrade.
+- You can't switch back to Teams Free (classic) after you upgrade.
 
-- You can't merge multiple Teams (free) tenants into a single paid tenant.
+- You can't merge multiple Teams Free (classic) tenants into a single paid tenant.
 
 - All users must be in the same domain. (All users will get a sign-in email in the format *username*@*domain.com*.)
 
 - All users must be upgraded: a mix of Teams (free) and paid subscription users in the same tenant isn't supported.
-
->[!IMPORTANT]
-> If you're currently using Microsoft Teams free (classic), you go here to upgrade to Microsoft 365 **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
 
 ### Can I purchase Teams Essentials using AAD identity through Microsoft's website?  
 
