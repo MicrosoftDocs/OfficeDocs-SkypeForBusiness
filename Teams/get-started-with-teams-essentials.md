@@ -134,7 +134,7 @@ A Teams Free (classic) user can upgrade to the full version of Teams, that is, t
 
 The upgrade can be done by following the steps specified in [Upgrade from Teams (free) to Teams](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 
-#### Limitations
+### Limitations
 
 Keep the following limitations in mind:
 
@@ -146,25 +146,25 @@ Keep the following limitations in mind:
 
 - All users must be upgraded: a mix of Teams (free) and paid subscription users in the same tenant isn't supported.
 
-### Can I purchase Teams Essentials using AAD identity through Microsoft's website?  
+#### Can I purchase Teams Essentials using AAD identity through Microsoft's website?  
 
 No. Teams Essentials with AAD identity is only available through select Microsoft Cloud Partners. If you're interested in working with a Partner, visit [Find a Microsoft Partner Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
-### Can I use an existing email system with Microsoft Teams Essentials?  
+#### Can I use an existing email system with Microsoft Teams Essentials?  
 
 Yes. You can keep your existing email system and use Teams Essentials to meet, chat and collaborate.  
 
-### Can I connect my existing calendar solution with Teams Essentials?
+#### Can I connect my existing calendar solution with Teams Essentials?
 
 Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 To connect an existing calendar solution with Teams Essentials (AAD Identity), follow the instructions later in this article.
 
-### How do I connect my current email and calendar with Teams Essentials (AAD Identity)?
+#### How do I connect my current email and calendar with Teams Essentials (AAD Identity)?
 
 To get started, visit [**Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar**](connect-teams-essentials-to-email.md) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (AAD Identity) to stay connected across platforms with integrated calendars and sign in.
 
-### Can I upgrade Teams Essentials bought directly through Microsoft's website to Microsoft 365?
+#### Can I upgrade Teams Essentials bought directly through Microsoft's website to Microsoft 365?
 
 Upgrades from Teams Essentials to Microsoft 365 will be available soon.
 
