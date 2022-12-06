@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/virtual-appointments-app-terms-of-service.md",
+      "redirect_url": "/legal/microsoft-365/virtual-appointments-app-terms-of-service",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/custom-app-overview.md",
       "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": false
