@@ -122,7 +122,7 @@ To do that, complete these three steps:
 > [!NOTE]
 > For information on how to to upgrade from Teams (free) to Microsoft Teams Essentials, see [Upgrade from Teams (free) to Microsoft Teams Essentials](#upgrade-from-teams-free-to-microsoft-teams-essentials).
 
-Managing Microsoft Teams Essentials refers to assigning Microsoft Teams Essentials seats to other users - on whose behalf you purchased - in the intended proprotions. You can manage Microsoft Teams Essentials through the Microsoft Admin center.
+Managing Microsoft Teams Essentials refers to assigning Microsoft Teams Essentials seats to other users - on whose behalf you purchased - in the intended proportions. You can manage Microsoft Teams Essentials through the Microsoft Admin center.
 
 ### Upgrade from Teams (free) to Microsoft Teams Essentials
 
@@ -132,7 +132,7 @@ If your organization is using a free version of Microsoft Teams, you can easily 
 
 A Teams Free (classic) user can upgrade to the full version of Teams, that is, to subscriptions such as Microsoft 365 Business (Basic) and Microsoft 365 Business (Standard).
 
-The upgrade can be done by following the steps specified in [Upgrade from Teams (free) to Teams](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+The upgrade can be done by following the steps specified in [Upgrade from Teams Free (classic) to Teams](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 
 ### Limitations
 
