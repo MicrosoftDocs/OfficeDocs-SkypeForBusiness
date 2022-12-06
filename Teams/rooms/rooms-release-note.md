@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 
 This article discusses cumulative improvements in Microsoft Teams Rooms.
 
-There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web-client. 
+There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web client.
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
@@ -35,6 +35,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.15.51.0 | 12/9/2022 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -42,8 +43,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
-|Teams Web-Client release | December 2021 |
-|Teams Web-Client release | October 2021 |
+|Teams Web client release | December 2021 |
+|Teams Web client release | October 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -91,19 +92,32 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.15.51.0 (12/9/2022)
+
+Introduced in this update:
+
+- In-meeting notification improvement
+- Meeting chat in Gallery, Large gallery, and Together mode <sup>1</sup>
+- Start whiteboard in Teams meetings
+- Fit-to-frame room video roster control
+- Overflow meeting support
+- Join Zoom meeting by ID (Direct guest join)
+- Quality fixes for third-party meetings (Direct guest join)
+- Fix for license information in settings showing no license when Teams is not signed in
+
+<sup>1</sup> Administrator configuration for hiding meeting chat from all meeting layouts through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
+
 ### 4.14.24.0 (9/2/2022)
 
 Introduced in this update:
 
-- Front row layout experience update <sup>1</sup> 
-- Pin and hide room video <sup>1</sup> 
-- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>2</sup>
-- Dual-display Teams Rooms can now display up to 18 participant video streams <sup>1</sup>
-- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses <sup>1</sup>
+- Front row layout experience update
+- Pin and hide room video
+- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>1</sup>
+- Dual-display Teams Rooms can now display up to 18 participant video streams
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses
 
-<sup>1</sup> This feature is rolling out to the Teams web client and will take about two weeks from the date this update was released to complete. For more information, see [Teams updates](../teams-client-update.md).
-
-<sup>2</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
+<sup>1</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
 
 ### 4.13.132.0 (8/2/2022)
 
