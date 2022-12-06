@@ -36,7 +36,9 @@ There are several settings in Teams that control whether people outside the orga
 
 - [Guest access in Teams](guest-access.md) must be enabled in order for guests to be able to join meetings.
 - [External access](manage-external-access.md) must be enabled in order for people in trusted organizations to join meetings. A mutual trust between your organization and the external organization must also be configured.
-- Both the **Anonymous users can join a meeting** meeting setting (organization level) and meeting policy (for the organizer who is creating the meeting) must be **On** in order for anonymous participants to join meetings
+- Both the **Anonymous users can join a meeting** meeting setting (organization level) and meeting policy (for the organizer who is creating the meeting) must be **On** in order for anonymous participants to join meetings.
+
+If any of these settings are turned off, that type of external participant won't be able to join meetings regardless of lobby settings.
 
 ## Overview of lobby settings and policies
 
