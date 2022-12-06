@@ -144,7 +144,7 @@ Keep the following limitations in mind:
 
 - All users must be in the same domain. (All users will get a sign-in email in the format *username*@*domain.com*.)
 
-- All users must be upgraded: a mix of Teams (free) and paid subscription users in the same tenant isn't supported.
+- All users must be upgraded: a mix of Teams Free (classic) and paid subscription users in the same tenant isn't supported.
 
 #### Can I purchase Teams Essentials using AAD identity through Microsoft's website?  
 
