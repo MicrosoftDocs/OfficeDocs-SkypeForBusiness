@@ -24,10 +24,10 @@ The Teams meeting lobby is a way of preventing certain types of meeting attendee
 
 Using the lobby settings in Teams, you can control which of the following types of meeting attendees are able to bypass the lobby and which must wait there until admitted to the meeting:
 
-- Meeting organizers
+- Meeting organizer and co-organizers
 - People in your organization
-- Guests
-- People in trusted organizations
+- [Guests](guest-access.md)
+- [People in trusted organizations](manage-external-access.md)
 - Anonymous participants
 
 ## Overview of lobby settings and policies
@@ -46,7 +46,8 @@ The following table shows how each option for the **Who can bypass the lobby** c
 
 |Who can bypass the lobby?|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
 |:------------------------|:------:|:----------------------------------------------------------:|:-----------------------------------|:------------------------|:---------------------------|:--------------------------------|
-|Organizers|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
+|*Participant*|||*Lobby behavior*||||
+|Organizer and co-organizers|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
 |People in the organization|Bypass|Bypass|Bypass|Bypass|People in the org who were sent or forwarded an invite will bypass; others go to the lobby|Lobby|
 |Guests|Bypass|Bypass|Bypass|Lobby|Lobby|Lobby|
 |People in trusted organizations|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
