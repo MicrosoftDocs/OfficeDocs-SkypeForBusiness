@@ -56,7 +56,7 @@ The following table shows how each option for the **Who can bypass the lobby** c
 |:------------------------|:------:|:----------------------------------------------------------:|:-----------------------------------|:------------------------|:---------------------------|:--------------------------------|
 |*Participant type*|||*Lobby behavior*||||
 |Organizer and co-organizers|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
-|People in the organization|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others go to the lobby|Lobby|
+|People in the organization|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |Guests|Bypass|Bypass|Bypass|Lobby|Lobby|Lobby|
 |People in trusted organizations|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
 |Anonymous participants|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
