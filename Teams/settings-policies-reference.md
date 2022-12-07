@@ -1,5 +1,5 @@
 ---
-title: Teams settings and policies reference
+title: Teams policies reference
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,10 +17,10 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: This reference describes each of the settings and policies available in Microsoft Teams
+description: This reference describes each of the policies available in Microsoft Teams
 ---
 
-# Teams settings and policies reference
+# Teams policies reference
 
 ## Teams
 
@@ -139,6 +139,16 @@ Template policies control what team templates users see when they create a new t
 |Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
 |Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
+
+##### PowerShell-only audio & video meeting policies
+
+| Parameter | Default | Description |
+|:-----|:-----|:-----|
+
+##### Related topics
+
+- 
+-  
 
 ### Live events policies
 
