@@ -127,10 +127,6 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions to connect using the BLE stack are no longer required. If "nearby permissions" aren't granted at the Teams level, a user will receive a prompt for Bluetooth permissions. This prompt is displayed, whether or not a Bluetooth accessory, such as a headset, is connected to their device. If a Bluetooth accessory is connected, tapping **Allow** connects Walkie Talkie to the Bluetooth accessory.
 
-## Get insight into Walkie Talkie usage
-
-The [Walkie Talkie usage and performance report](microsoft-365/frontline/walkie-talkie-usage-report) in the Teams admin center gives you and overview of Walkie Talkie activity and performance in your organization. The report provides information such as the number of PTT transmissions made and received, channel activity, transmission duration, device and participant details, and network quality.
-
 ## More information
 
 - If users are using mobile data to communicate via Teams, Walkie Talkie will use the same method.
