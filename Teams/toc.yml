@@ -1,6 +1,8 @@
 items:
 - name: Welcome to Teams
   href: teams-overview.md
+- name: Teams Premium overview
+  href: enhanced-teams-experience.md
 - name: Get started
   items:
     - name: Deployment overview
@@ -456,8 +458,10 @@ items:
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
-        - name: Teams Virtual Visits usage report
-          href: /microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Teams Virtual Appointments usage report
+          href: /microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Teams Advanced Virtual Appointments activity report
+          href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams EHR connector Virtual Appointments report
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
               
@@ -616,6 +620,38 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
+        - name: Compliant meetings
+          items: 
+            - name: Three tiers of protection overview
+              href: configure-meetings-three-tiers-protection.md
+            - name: Configure baseline protection
+              href: configure-meetings-baseline-protection.md
+            - name: Configure sensitive protection
+              href: configure-meetings-sensitive-protection.md
+            - name: Configure highly sensitive protection
+              href: configure-meetings-highly-sensitive-protection.md
+            - name: Manage recording options
+              href: manage-meeting-recording-options.md
+            - name: Manage meeting lobby
+              href: configure-lobby-sensitive-meetings.md
+            - name: Manage presentation experience
+              href: manage-meeting-presentation-experience.md
+            - name: Manage chat
+              href: manage-chat-sensitive-meetings.md
+            - name: Encrypt meetings
+              href: end-to-end-encrypted-meetings.md
+            - name: Watermark meetings
+              href: watermark-meeting-content-video.md
+            - name: Custom meeting templates
+              items:
+                - name: Custom meeting templates overview
+                  href: custom-meeting-templates-overview.md
+                - name: Create a meeting template
+                  href: create-custom-meeting-template.md
+                - name: Manage meeting templates
+                  href: manage-meeting-templates.md
+            - name: Use templates, labels, and policies together
+              href: meeting-templates-sensitivity-labels-policies.md
         - name: Manage who can start and schedule meetings
           href: manage-who-can-schedule-meetings.md
         - name: Manage meetings settings
@@ -634,6 +670,10 @@ items:
               href: unsupported-browsers.md
             - name: Configure desktop sharing in Teams
               href: configure-desktop-sharing.md
+            - name: Custom meeting backgrounds
+              href: custom-meeting-backgrounds.md
+            - name: Meeting themes
+              href: meeting-themes.md
             - name: Teams meeting recording
               href: cloud-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
@@ -660,7 +700,7 @@ items:
               href: stream-teams-meetings.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Set up for webinars in Microsoft Teams
+        - name: Set up webinars
           href: set-up-webinars.md
 
         - name: Live events
@@ -1198,6 +1238,8 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+            - name: Phone number management for Mexico
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
             - name: Phone number management for New Zealand
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
             - name: Phone number management for Norway
@@ -1590,6 +1632,10 @@ items:
           href: expand-teams-across-your-org/shifts/shifts-data-faq.md
         - name: Manage the Updates app
           href: manage-updates-app.md
+        - name: Manage the Virtual Appointments app
+          href: manage-virtual-appointments-app.md
+        - name: Virtual Appointments app - Terms of service
+          href: virtual-appointments-app-terms-of-service.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
           
@@ -1780,6 +1826,8 @@ items:
       items: 
         - name: Manage user access to Teams
           href: user-access.md
+        - name: Microsoft Teams Premium licensing
+          href: teams-add-on-licensing/licensing-enhance-teams.md
         - name: Teams add-on license options
           href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
         - name: Assign Teams add-on licenses
