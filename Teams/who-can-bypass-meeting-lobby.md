@@ -109,7 +109,7 @@ There are two types of people outside your organization who can join meetings as
 - Guests - people who have an [Azure Active Directory (Azure AD) B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
 - External access users - people who have Azure AD accounts in a trusted organization defined in Teams [external access](manage-external-access.md)
 
-If you want all verified meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my organization** or **Only organizers and co-organizers**. If you want only external access users to wait in the lobby, you can choose **People in my organization and guests**.
+If you want all verified meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my organization** or **Only organizers and co-organizers** (as long as a guest isn't the organizer or co-organizer). If you want only external access users to wait in the lobby, you can choose **People in my organization and guests**.
 
 ## Control access to meetings by people without invitations
 
