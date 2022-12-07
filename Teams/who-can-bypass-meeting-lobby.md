@@ -52,7 +52,7 @@ The following table shows the Teams meeting settings and policies that affect ho
 
 The following table shows how each option for the **Who can bypass the lobby** control affects each type of meeting participant.
 
-|*Who can bypass the lobby?* policy vlaue|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
+|*Who can bypass the lobby?* policy value|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
 |:------------------------|:------:|:----------------------------------------------------------:|:-----------------------------------|:------------------------|:---------------------------|:--------------------------------|
 |*Participant type*|||*Lobby behavior*||||
 |Organizer and co-organizers|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
