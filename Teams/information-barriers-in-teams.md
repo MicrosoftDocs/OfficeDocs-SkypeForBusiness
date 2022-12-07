@@ -142,7 +142,6 @@ If there's an existing chat or other communication between users, and a new poli
 Currently, users experience the following scenarios if an IB policy blocks another user:
 
 - **People tab**: A user can't see blocked users on the **People** tab.
-
 - **People Picker**: Blocked users won't be visible in the people picker.
 
     ![Screenshot of Teams alerting the user that policy prevents display of another user's information.](media/information-barriers-people-picker.png)
@@ -154,13 +153,9 @@ Currently, users experience the following scenarios if an IB policy blocks anoth
     ![Screenshot showing the activity tab that is blocked.](media/ib-after-activity-tab-policy.png)
 
 - **Org charts**: If a user accesses an org chart on which a blocked user appears, the blocked user won't appear on the org chart. Instead, an error message will appear.
-
 - **People card**: If a user participates in a conversation and the user is later blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
-
 - **Suggested contacts**: Blocked users don't appear on the suggested contacts list (the initial contact list that appears for new users).
-
 - **Chat contacts**: A user can see blocked users on the chats contact list, but the blocked users will be identified. The only action that the user can perform on the blocked users is to delete them. The user can also select them to view their past conversation.
-
 - **Calls contacts**: A user can see blocked users on the calls contact list, but the blocked users will be identified. The only action that the user can perform on the block users is to delete them.
 
     Here's an example of a blocked user in the calls contact list.
@@ -209,7 +204,6 @@ For more information on licenses and permissions, plans, and pricing, see [Micro
 
 - **Users can't join ad-hoc meetings**: If IB policies are enabled, users aren't allowed to join meetings if the size of the meeting roster is greater than the [meeting attendance limits](limits-specifications-teams.md). The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. A user joining a meeting once adds that user to the roster; hence for recurring meetings, the roster can fill up fast. Once the chat roster reaches the [meeting attendance limits](limits-specifications-teams.md), additional users can't be added to the meeting. If IB is enabled for the organization and the chat roster is full for a meeting, new users (those users who aren't already on the roster) aren't allowed to join the meeting. But if IB isn't enabled for the organization and the meeting chat roster is full, new users (those users who aren't already on the roster) are allowed to join the meeting, though they won't see the chat option in the meeting. A short-term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
 - **Users can't join channel meetings**: If IB policies are enabled, users aren't allowed to join channel meetings if they're not a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. The chat thread in a channel meeting is available to Team/Channel members only, and non-members can't see or access the chat thread. If IB is enabled for the organization and a non-team member attempts to join a channel meeting, that user isn't allowed to join the meeting. However, if IB isn't* enabled for the organization and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting—but they won't see the chat option in the meeting.
-- **Maximum number of segments allowed in a organization**: Each organization can set up to 100 segments when configuring IB policies. There's no limit on the number of policies that can be configured.
 - **IB policies don't work for federated users**: If you allow federation with external organizations, the users of those organizations won't be restricted by IB policies. If users of your organization join a chat or meeting organized by external federated users, then IB policies also won't restrict communication between users of your organization.
 
 ## More information
