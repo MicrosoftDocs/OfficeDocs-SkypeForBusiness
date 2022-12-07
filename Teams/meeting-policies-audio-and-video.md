@@ -32,7 +32,7 @@ This article describes the meeting policy settings specific to audio and video. 
 - [Mode for IP audio](#mode-for-ip-audio)
 - [Mode for IP video](#mode-for-ip-video)
 - [IP video](#ip-video)
-- [Media bit rate (Kbs)](#media-bit-rate-kbs)
+- [Media bit rate (Kbps)](#media-bit-rate-kbps)
 - [Video filters mode](#video-filters-mode)
 - [Allow custom background settings](#allow-custom-background-settings)
 - [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras)
@@ -132,7 +132,7 @@ The most restrictive policy between the meeting organizer’s policy and the use
 
 For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
 
-## Media bit rate (Kbs)
+## Media bit rate (Kbps)
 
 This is a per-user policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
 
