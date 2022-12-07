@@ -35,7 +35,7 @@ This article describes the meeting policy settings specific to audio and video. 
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
 - [Video filters mode](#video-filters-mode)
 - [Allow custom background settings](#allow-custom-background-settings)
-- [Far end camera control (FECC) for point tilt zoom (PTZ) cameras](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
+- [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras)
 
 ## Mode for IP audio
 
@@ -199,7 +199,7 @@ The meeting attendees will see a selection of background images that they can us
 >
 > This feature is temporarily available in public preview for all Microsoft Teams customers. To get this feature after the preview, each user will need the Advanced Communications add-on license. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
-## Far end camera control (FECC) for point tilt zoom (PTZ) cameras
+## Far end camera control (FECC) for pan tilt zoom (PTZ) cameras
 
 Far end camera control is a policy that can be assigned to Teams Rooms on Windows resource accounts. It allows PTZ cameras that are connected to a Teams Room to be controlled by meeting participants in the Teams client app during meetings.
 
