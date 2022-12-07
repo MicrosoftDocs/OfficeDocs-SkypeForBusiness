@@ -42,7 +42,7 @@ If any of these settings are turned off, that type of external participant won't
 
 ## Overview of lobby settings and policies
 
-The following table shows the Teams meeting settings and policies that affect how meeting participants interact with the lobby.
+The following table shows the Teams meeting policies that affect how meeting participants interact with the lobby.
 
 |Setting|Description|
 |:------|:----------|
