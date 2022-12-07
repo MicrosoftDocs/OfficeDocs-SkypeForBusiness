@@ -884,7 +884,7 @@ For more information about diagnostic data, including how to control what diagno
 - **preJoinDenied** - A user is unable to join a meeting.
 - **preJoinDeviceAudio** - **Join with device audio** is selected from dropdown.
 - **preJoinDialIn** - The **Dial in** button is selected in the pre-join dropdown.
-- **preJoinDialInCall** - A user confirms the **DIal in** request on prejoin.
+- **preJoinDialInCall** - A user confirms the **Dial in** request on prejoin.
 - **preJoinDialInCancel** - A user cancels the **Dial in** request on prejoin.
 - **preJoinDialOut** - The **Call me back** button is selected the in pre-join dropdown.
 - **preJoinDialOutCall** - A user confirms the **Call me back** request on prejoin.
