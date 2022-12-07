@@ -1838,9 +1838,9 @@ items:
           href: teams-exploratory.md
         - name: Upgrade users from Teams Exploratory
           href: upgrade-from-teams-exploratory.md
-        - name: Manage the free version of Teams
+        - name: Manage Microsoft Teams Free (classic)
           href: manage-freemium.md
-        - name: Upgrade Teams free to subscription version
+        - name: Upgrade Microsoft Teams Free (classic) to subscription version
           href: upgrade-freemium.md
         - name: Advanced Communications
           href: teams-add-on-licensing/advanced-communications.md
