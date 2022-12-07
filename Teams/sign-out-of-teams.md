@@ -45,7 +45,7 @@ If you have multiple accounts added, you'll need to sign out of each individual 
 
 ## Sign out of Teams on mobile devices
 
-On mobile, you can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
+On mobile, you can sign out of Teams by going to the user icon, selecting **Settings**, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
 
 ### Global sign-in and sign-out for Frontline workers
 
