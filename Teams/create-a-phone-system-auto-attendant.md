@@ -21,7 +21,7 @@ ms.localizationpriority: medium
 ms.custom: 
   - Phone System
 adobe-target: true
-adobe-target-activity: 
+adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
