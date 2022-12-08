@@ -46,7 +46,7 @@ As a Teams admin, you get full access to all real-time telemetry data for each u
 
 ## Where to find per-user real-time troubleshooting telemetry
 
-To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting is not in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
+To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
 
 :::image type="content" alt-text="Screenshot of recent meetings table." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
@@ -69,23 +69,23 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 |:---|:---|:---|
 | Audio capture device | Name of the audio capture device (eg: microphone) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
 | Audio render device | Name of the audio render device (eg: speakers or headphones) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
-| Video capture device | Name of the video capture device in use | User is not sending video from the endpoint being monitored |
+| Video capture device | Name of the video capture device in use | User isn't sending video from the endpoint being monitored |
 
 ### Connectivity information
 | Metric | Units / Possible values | Description | Possible reasons for blank values|
 |:---|:---|:---|:---|
 | Network type | &bull; Ethernet <br/> &bull; Wi-Fi | Type of network connection in use | |
-| Wi-Fi strength | &bull; Excellent : -50dBm or greater <br/> &bull; Good : -51 dBm to -64 dBm<br/> &bull; Poor : -65 dBm or lower | Strength of the user's current Wi-Fi connection | User is not connected to Wi-Fi |
-| Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User is not connected to Wi-Fi |
-| Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User is not connected to Wi-Fi |
-| Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User is not connected to Wi-Fi |
+| Wi-Fi strength | &bull; Excellent : -50 dBm or greater <br/> &bull; Good : -51 dBm to -64 dBm<br/> &bull; Poor : -65 dBm or lower | Strength of the user's current Wi-Fi connection | User isn't connected to Wi-Fi |
+| Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
+| Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
+| Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
 | Location | String | Country in which the user is located | User's location information is blocked or unavailable |
 | Local IP address | String (IP:Port) | Local IP address of the user's endpoint and the media port | |
 | Server reflexive IP address | String (IP:Port) | Public IP address of the user's endpoint and the media port | |
 | Connectivity type | UDP or TCP | Transport layer protocol in use; UDP is preferred for real-time media | |
 
 ### User signals
-User signals identify when a user is actively participating in the call, is not speaking but unmuted, or is muted. Currently, user signals is only available for audio.
+User signals identify when a user is actively participating in the call, isn't speaking but unmuted, or is muted. Currently, user signals are only available for audio.
 
 | Modality | Possible values | Description |
 |:---|:---|:---|
@@ -147,7 +147,7 @@ User signals identify when a user is actively participating in the call, is not 
 
 ## Limitations
 
-- Real-time telemetry subscription is not automatic for all meetings and must be started by a Teams admin while the meeting is in progress.
+- Real-time telemetry subscription isn't automatic for all meetings and must be started by a Teams admin while the meeting is in progress.
 - Real-time telemetry will only be available for a meeting's supported endpoints from the point at which the admin first clicked the in-progress meeting in Real-Time Analytics.
 - Real-time telemetry is only available for scheduled meetings and Meet Now. For PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
 - Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
