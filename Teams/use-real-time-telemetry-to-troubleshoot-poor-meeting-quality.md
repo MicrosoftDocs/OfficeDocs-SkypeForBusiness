@@ -147,7 +147,8 @@ User signals identify when a user is actively participating in the call, is not 
 
 ## Limitations
 
-- Real-time telemetry subscription is not automatic, and will only show the telemetry for a given meeting's supported endpoints from the point at which the admin first clicked the in-progress meeting in Real-Time Analytics.
+- Real-time telemetry subscription is not automatic for all meetings and must be started by a Teams admin while the meeting is in progress.
+- Real-time telemetry will only be available for a meeting's supported endpoints from the point at which the admin first clicked the in-progress meeting in Real-Time Analytics.
 - Real-time telemetry is only available for scheduled meetings and Meet Now. For PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
 - Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
 - Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
