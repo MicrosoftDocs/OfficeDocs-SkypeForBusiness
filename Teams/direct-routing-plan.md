@@ -215,7 +215,7 @@ Placing these three FQDNs in order is required to:
 The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pstnhub.microsoft.com – will be resolved to IP addresses from the following subnets:
 
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 You need to open ports for all these IP address ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
