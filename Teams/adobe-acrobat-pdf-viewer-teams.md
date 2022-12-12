@@ -61,7 +61,9 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 1. Select **Save**.
 
-After you select save, Teams uses Adobe Acrobat app as the default file handler for PDF files.
+1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+
+After you complete the configuration, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 
 If you want to selectively allow the Adobe Acrobat app for a few individuals or for a group, you use [app permission policies](teams-app-permission-policies.md).
 
@@ -76,4 +78,5 @@ Know the following information about this functionality:
 * To uninstall the app, end-users can remove the app from their Teams client. Admin can remove the Adobe Acrobat app using setup policy.
 * If you block Adobe Acrobat app, then remove the app from the setup policy. It ensures that the end-user experience reverts to using the native PDF file viewer.
 * If you face any issues to sign in to the Adobe Acrobat app in the Teams desktop client, then use [Teams in browser](https://teams.microsoft.com/) to sign in.
-* Sign-in to a free [Adobe account](https://acrobat.adobe.com/us/en/) is required to comment or annotate PDF files.
+* Sign-in to a free [Adobe account](https://acrobat.adobe.com/us/en/) to comment or annotate on the PDF files. The app in Teams can offer functionality such as annotating, organizing, compressing, and protecting PDF files. For a complete list of functionality and the prerequisites, see [Manage PDF files in Teams with Acrobat app](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf).
+* When you collaborate on a PDF document, it is temporarily stored (for up to 24 hours) on the Adobe servers in the region in which you are located. This temporary storage is to facilitate transient processing. Your documents are encrypted end-to-end when being transferred from your local filesystem to the server and remain encrypted on the server as well. see [security for Acrobat](https://aka.ms/Adobe_Acrobat_Security).

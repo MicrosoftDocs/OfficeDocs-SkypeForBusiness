@@ -128,7 +128,7 @@ To pin the Virtual Appointments app for your users, you can edit the global (Org
 
 ## Terms of service
 
-See [Terms of service](virtual-appointments-app-terms-of-service.md).
+See [Terms of service](/legal/microsoft-365/virtual-appointments-app-terms-of-service).
 
 ## Related articles
 
