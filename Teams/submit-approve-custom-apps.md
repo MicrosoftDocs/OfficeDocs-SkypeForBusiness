@@ -6,14 +6,16 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/19/2022
 ms.collection: 
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
 ---
@@ -158,7 +160,7 @@ For more information about using the Graph API to update apps, see [here](/graph
 
 * [Publish a custom app by uploading an app package](upload-custom-apps.md)
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-* [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
+* [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md)
 * [Manage app permission policies in Teams](teams-app-permission-policies.md)
 * [Manage app setup policies in Teams](teams-app-setup-policies.md)
 * [Teams monitoring and alerting](alerts/teams-admin-alerts.md)

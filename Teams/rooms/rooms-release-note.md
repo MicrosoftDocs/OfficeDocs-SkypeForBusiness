@@ -35,6 +35,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -90,6 +91,20 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.14.24.0 (9/2/2022)
+
+Introduced in this update:
+
+- Front row layout experience update <sup>1</sup> 
+- Pin and hide room video <sup>1</sup> 
+- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>2</sup>
+- Dual-display Teams Rooms can now display up to 18 participant video streams <sup>1</sup>
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses <sup>1</sup>
+
+<sup>1</sup> This feature is rolling out to the Teams web client and will take about two weeks from the date this update was released to complete. For more information, see [Teams updates](../teams-client-update.md).
+
+<sup>2</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
+
 ### 4.13.132.0 (8/2/2022)
 
 Introduced in this update:
@@ -102,7 +117,7 @@ Introduced in this update:
 - Admin setting for content only layout default  
 - Modern authentication is on by default
 
- <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Room device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
 

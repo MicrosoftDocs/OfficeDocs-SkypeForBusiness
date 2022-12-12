@@ -21,6 +21,9 @@ ms.custom:
 
 Now that you have a clear understanding of your organization's unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaizala's capabilities complimented within Teams.
 
+> [!Important]
+> Microsoft Kaizala will retire on August 31, 2023. We recommend moving to Microsoft Teams for continued connection, sharing, and collaboration. After the retirement date, access and support for Kaizala will be discontinued.
+
 | From Kaizala | To Teams |
 |---------|-----------------------|
 | Getting started – sign in and profile setup| [Getting started with Teams](#getting-started) |

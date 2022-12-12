@@ -1,7 +1,7 @@
 ---
-title: Set up an auto attendant for Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Set up a Microsoft Teams auto attendant
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -19,10 +20,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
+adobe-target: true
+adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
+adobe-target-experience: Experience B
+adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
+
 --- 
 
-# Set up an auto attendant
+# Set up a Microsoft Teams auto attendant
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
 
@@ -41,6 +47,16 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+>
+> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted.  If an operator isn't defined, the auto attendant will drop the call.
+
+## What's new for auto attendants in the past 6 months
+
+- September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
+- August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
+- July - Call flow during holidays now supports **Play menu options**.
+
+## Steps to create an auto attendant
 
 The steps to add an auto attendant are:
 
@@ -55,7 +71,7 @@ The steps outlined in the article create auto attendants using the Teams admin c
 
 ## Follow these steps to set up your auto attendant
 
-# [Step 1: General info](#tab/general-info)
+## [Step 1: General info](#tab/general-info)
 
 ## Step 1: Set the auto attendant's general information
 
@@ -76,7 +92,7 @@ To set up an auto attendant, in the [Teams admin center](https://go.microsoft.co
 
 Once you've set your auto attendant's general info, select **Next**.
 
-# [Step 2: Basic call flow](#tab/call-flow)
+## [Step 2: Basic call flow](#tab/call-flow)
 
 ## Step 2: Set up the basic call flow
 
@@ -94,10 +110,10 @@ Once you've set your auto attendant's general info, select **Next**.
 
 #### Play menu options
 
-For dialing options, assign the 0-9 keys on the telephone keypad to one of the call routing destinations. The keys \* (asterisk) and \# (pound) are reserved by the system and can't be reassigned. Pressing either of these keys will repeat the current menu.
+*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
+*New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
 
-> [!NOTE]
-> The # key only backs up to the most recent auto attendant. Once the boundary is crossed to a new auto attendant, the # key will not be able to take you to the previous one.
+For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
 
 Key mappings don't have to be continuous. It's possible to create a menu with keys 0, 1, and 3 mapped to options, while the number 2 key isn't used.
 
@@ -128,7 +144,7 @@ For more information, refer to the [Dial and voice reference](dial-voice-referen
 
 Once you've set your basic call flow options, select **Next**.
 
-# [Step 3: After hours call flow](#tab/after-hours)
+## [Step 3: After hours call flow](#tab/after-hours)
 
 ## Step 3: Set up call flow for after hours (optional)
 
@@ -148,11 +164,15 @@ If you want separate call routing for after-hours callers, then specify your bus
 
 Once you've added your after hours call flow, select **Next**.
 
-# [Step 4: Holiday call flow](#tab/holidays)
+## [Step 4: Holiday call flow](#tab/holidays)
 
 ## Step 4: Set up call flows for holidays (optional)
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
+
+*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
+*New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
+*New - **Play menu options** is now available in Holiday call flows.*
 
 1. On the Holiday call settings page, select **Add**.
 
@@ -162,7 +182,7 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 1. Choose the type of greeting that you want to use.
 
-1. Choose if you want to **Disconnect** or **Redirect** the call.
+1. Choose if you want to **Disconnect**, **Redirect** or **Play menu options** the call.
 
     1. If you chose to redirect, choose the call routing destination for the call.
     1. If you choose to play menu options, configure the **Play menu options**.
@@ -173,7 +193,7 @@ Repeat the procedure as needed for each additional holiday.
 
 Once you've added all your holiday hours, select **Next**.
 
-# [Step 5: Dial scope](#tab/dial-scope)
+## [Step 5: Dial scope](#tab/dial-scope)
 
 ## Step 5: Set up dial scope (optional)
 
@@ -188,7 +208,7 @@ If a user is in both lists, they will be excluded from the directory.
 
 Once you've selected your **Dial scope** options, select **Next**.
 
-# [Step 6: Resource accounts](#tab/resource-accounts)
+## [Step 6: Resource accounts](#tab/resource-accounts)
 
 ## Step 6: Set up resource accounts (optional)
 
@@ -234,7 +254,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will identify tenant, policy, or resource account configurations that are preventing the auto attendant from being able to receive calls and provide steps to fix any problems identified.
 
-### Related topics
+## Related topics
 
 [Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
 

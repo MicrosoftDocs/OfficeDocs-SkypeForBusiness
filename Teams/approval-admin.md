@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: farhazk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -16,6 +16,9 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
+  - tier2
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---
@@ -131,7 +134,7 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ## Retention policy
 
@@ -207,7 +210,7 @@ Learn more about [Microsoft Dataverse and model-driven apps activity logging - P
 
 From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
 
-> [!Note]
+>[!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
 
 ## Approvals e-signature integration

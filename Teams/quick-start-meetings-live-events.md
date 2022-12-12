@@ -18,6 +18,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
@@ -26,12 +27,11 @@ appliesto:
 
 # Meetings, webinars, and live events
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
 This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
-
-> [!NOTE]
-> For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 [Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
@@ -41,7 +41,7 @@ The following table summarizes the three types of meetings, the number of recomm
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | No |
+| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes, with Meetings with registration (webinars 1.0) |
 | Webinars | - Up to 1,000<br>- Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |- Participants up to 1,000 have fully interactive capabilities.<br> - Audience interaction configurable.<br> - Can specify presenters. | Yes |
 | Live events | Up to 20,000** |- Broadcast to large audiences. <br>- Moderated Q&A for audience interaction. <br> - Can specify producers and presenters, including external presenters.<br>- Supports more advanced production capabilities. | No |
 
@@ -50,6 +50,12 @@ The following table summarizes the three types of meetings, the number of recomm
 **The usual 10,000 is increased to 20,000 through December 31, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
+> [!NOTE]
+> For additional information and to get guidance by role for delivering online events using Microsoft Teams, see the [Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook). You can also join the [Virtual Event Forum](https://aka.ms/VirtualEventForum) on the Microsoft Tech Community.
+
+> [!NOTE]
+> For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Meetings
 
@@ -86,7 +92,32 @@ The following table lists training available to the end users in your organizati
 
 ## Webinars
 
-**Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support registration and provide attendee engagement data. To enable webinars in your organization, see [Set up webinars in Teams](set-up-webinars.md).
+**Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, customizable event and registration site, and event-oriented default meeting options.
+
+If your organization is already using webinars, you're familiar with the Teams Meeting policy and the following settings that allow you to support meeting registration and track engagement data:
+
+- AllowMeetingRegistration (enabled or disabled)
+- WhoCanRegister (everyone in the company excluding guests or everyone)
+
+With the release of the new webinar experience, there will be a new Teams Events policy with the following settings:
+
+- AllowWebinars  (enabled or disabled)
+- EventAccessType (everyone in the company excluding guests or everyone)
+
+The new policy will continue to support registration and tracking, and it will provide additional functionality to the webinar experience. Initially, the following will be available:
+
+- Terms and conditions custom question
+- Presenter bio
+- Banner, logo, and predefined color
+- Advanced registration capabilities: manual approval, waitlist, registration date and time limit
+- Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
+
+For more information about feature availability and licensing, see **INCLUDE LINK TO  LICENSING DOC.**
+
+You'll want to start using the new policy to take advantage of new functionality as it becomes available.
+
+For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
+
 
 ### Key training for end users
 
@@ -134,7 +165,7 @@ The following table lists articles for more information:
 
 | Article | Description |
 |----------|--------|
-| [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) | Introduction to apps and how to deploy apps for your organization. |
+| [Overview of Teams apps](deploy-apps-microsoft-teams-landing-page.md) | Introduction to apps and how to deploy apps for your organization. |
 | [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Overview of meeting app extensibility, API references, and how to enable and configure apps for meetings. |
 | [Manage the Whiteboard in Teams](manage-whiteboard.md) | Describes Whiteboard functionality and how to enable and disable for your organization. |
 
@@ -210,4 +241,3 @@ Your organizers and presenters should implement the below recommendations:
 
 [Limits and specifications for Teams](limits-specifications-teams.md)
 
-[Microsoft Technical Community: Live events in Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)

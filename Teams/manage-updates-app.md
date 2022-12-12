@@ -4,7 +4,7 @@ author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -16,6 +16,9 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365-frontline
+  - tier2
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: 
@@ -49,7 +52,7 @@ At the store's manufacturing facilities, employees perform safety checks with Up
 
 Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
 
-[Download the Updates lookbook](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) to see more examples of what you can do with Updates.
+[Download the Updates lookbook](https://go.microsoft.com/fwlink/?linkid=2197649) to see more examples of what you can do with Updates.
 
 ## Required permissions and licenses
 
@@ -118,7 +121,7 @@ The Updates app is available by default. You can disable the app in the Teams ad
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users. The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-To pin the Updates app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Updates app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ## Retention policy
 
@@ -140,5 +143,5 @@ Each user can create at most 400 Updates templates, and each template can collec
 
 From the Teams Updates app, users have access to create new updates and view updates that they have sent and received. Users won't have access to Updates that are created by others unless they're a viewer of the request.
 
-> [!Note]
+>[!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the update report was created or the template creator manually adds them as a viewer. They won't have the ability to take action on the request if they weren't given that role when the report was created.

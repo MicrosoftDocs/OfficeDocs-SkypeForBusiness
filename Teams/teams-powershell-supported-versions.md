@@ -16,7 +16,7 @@ appliesto:
 
 # Teams PowerShell Module - Supported Versions
 
-Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series or later are the only versions supported now. All earlier versions are fully retired since June 15, 2022 & will stop working (Message center post for reference - MC350371). 
+Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series or later are the only versions supported now. All earlier versions are fully retired in commercial environments since June 15, 2022 & will stop working (Message center post for reference - MC350371). 
 
 It’s recommended to update to the latest Teams PowerShell Module version.
 
@@ -43,6 +43,8 @@ It’s recommended to update to the latest Teams PowerShell Module version.
   - Parameter changes in Get-CsTenant - more details in [Get-CsTenant](/powershell/module/skype/get-cstenant) (Message center post – MC365397).
   
   - If your scripts use New/Set of Policy or Configuration cmdlets with PSListModifier type parameters, it’s recommended to use the latest version (4.2.0 or later). Message center post for reference - MC397428.
+
+  - [New|Get]-CsCloudCallDataConnection cmdlets are now supported from versions 4.6.0 or later (Message center post - MC408993).
 
 - While using TPM 4.x.x or later, it's recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](#deprecated-cmdlets).
 

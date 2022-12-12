@@ -13,6 +13,7 @@ ms.collection:
   - m365initiative-voice
   - m365solution-voice
   - m365solution-scenario
+  - highpri
 audience: Admin
 appliesto:
   - Microsoft Teams
@@ -53,6 +54,8 @@ To enable your users to make and receive external calls, you'll need to connect 
 - Calling Plan. An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
 - Operator Connect. If your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs) for you.
+
+- Teams Phone Mobile. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams.
 
 - Direct Routing. Use your own PSTN carrier by connecting your SBCs to Phone System.
 

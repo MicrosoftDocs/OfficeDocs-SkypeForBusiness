@@ -143,6 +143,10 @@ To remove a group policy assignment, on the **Group policy assignment** tab of t
 
 To change the ranking of a group assignment, you need to remove the group policy assignment first. Then, follow the steps above to assign the policy to a group.
 
+This video shows the steps to create and assign a custom meeting policy to a group.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
+
 ### Use the PowerShell option
 
 > [!NOTE]

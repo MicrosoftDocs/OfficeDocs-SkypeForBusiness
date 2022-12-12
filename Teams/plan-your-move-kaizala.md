@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: This article describes how to plan for a successful transition from Kaizala to Microsoft Teams.
+description: This article describes how to plan for a successful move from Kaizala to Microsoft Teams.
 f1.keywords: 
 ms.localizationpriority: medium
 search.appverid: 
@@ -16,13 +16,16 @@ ms.collection:
 ms.custom: 
 ---
 
-# Planning for a successful transition from Kaizala to Microsoft Teams
+# Planning for a successful move from Kaizala to Microsoft Teams
+
+> [!Important]
+> Microsoft Kaizala will retire on August 31, 2023. We recommend moving to Microsoft Teams for continued connection, sharing, and collaboration. After the retirement date, access and support for Kaizala will be discontinued.
 
 As you embark on your move from Kaizala to Microsoft Teams, it's important to take the time to [plan](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) for a successful transition. A solid transition plan gives you structure for your move and ensures that all stakeholders are working towards a common goal. Using a proven framework to implement the change can help you get started on your transition today.
 
-## Transition framework
+## Framework for your move
 
-![Image depicting transition guidance](media/plan-for-successful-transition.png)
+![Image depicting move guidance](media/plan-for-successful-transition.png)
 
 We’ve outlined our recommended approach to a successful transition below and encourage you to follow the phases in order, as each step in the framework builds upon the step prior.
 

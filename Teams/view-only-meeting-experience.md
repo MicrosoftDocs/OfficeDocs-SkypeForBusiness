@@ -1,7 +1,7 @@
 ---
 title: View-only meeting experience
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Create a call queue via cmdlets
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -137,7 +137,7 @@ Connect-MsolService -Credential $credential
 Replace "d:\\" with the path to where the wav files are stored on your computer.
 
 ```powershell
-$content = Get-Content "d:\sales-hold-in-queue-music.wav" -Encoding byte -ReadCount 0
+$content = [System.IO.File]::ReadAllBytes('d:\sales-hold-in-queue-music.wav')
 $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "sales-hold-in-queue-music.wav" -Content $content).ID
 ```
 
@@ -197,20 +197,20 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 Replace "d:\\" with the path to where the wav files are stored on your computer.
 
 ```powershell
-$content = Get-Content "d:\support-greeting.wav" -Encoding byte -ReadCount 0
-$audioFileSupportGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-greeting.wav" -Content $content).ID
+$content1 = [System.IO.File]::ReadAllBytes('d:\support-greeting.wav')
+$audioFileSupportGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-greeting.wav" -Content $content1).ID
 
-$content = Get-Content "d:\support-hold-in-queue-music.wav" -Encoding byte -ReadCount 0
-$audioFileSupportHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-hold-in-queue-music.wav" -Content $content).ID
+$content2 = [System.IO.File]::ReadAllBytes('d:\support-hold-in-queue-music.wav')
+$audioFileSupportHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-hold-in-queue-music.wav" -Content $content2).ID
 
-$content = Get-Content "d:\support-shared-voicemail-greeting.wav" -Encoding byte -ReadCount 0
-$audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content).ID
+$content3 = [System.IO.File]::ReadAllBytes('d:\support-shared-voicemail-greeting.wav')
+$audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content3).ID
 ```
 
 ### Get Support team group ID
 
 ```powershell
-$teamSupportID = (Get-Team -displayname "Support").GroupID
+$teamSupportID = (Get-Team -DisplayName "Support").GroupID
 ```
 
 ### Get list of supported languages

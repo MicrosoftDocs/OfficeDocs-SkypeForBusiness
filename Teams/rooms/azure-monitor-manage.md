@@ -22,6 +22,8 @@ ms.custom: seo-marvel-apr2020
 
 This article discusses how to monitor Microsoft Teams Rooms in an integrated manner using Azure Monitor.
 
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
+
 You can configure Azure Monitor to provide basic telemetry to help you monitor Microsoft Teams meeting rooms devices. See [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md) and [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md) for details. As your monitoring solution matures, you can use other data and monitoring capabilities to create a more detailed view of device performance.
 
 ## Understand the log entries

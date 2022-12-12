@@ -1,7 +1,7 @@
 ---
 title: Create a call queue in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -23,10 +24,15 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
     - seo-marvel-apr2020
+adobe-target: true
+adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2 
+adobe-target-experience: Experience B
+adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
+
 ---
 
-# Create a call queue
+# Create a call queue in Microsoft Teams
 
 Call queues route callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
 
@@ -38,6 +44,14 @@ Call queues provide:
 - Handling options for queue overflow and timeout.
 
 Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
+
+## What's new for call queues in the past six months
+
+- August
+  - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
+  - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
+
+## Steps to create a call queue
 
 The steps to set up a call queue includes:
 
@@ -52,7 +66,7 @@ The steps outlined in the article create call queues using the Teams admin cente
 
 ## Follow these steps to set up your call queue
 
-# [Step 1: General info](#tab/general-info)
+## [Step 1: General info](#tab/general-info)
 
 ## Step 1: Set up general information
 
@@ -129,13 +143,17 @@ This language will be used for system-generated voice prompts and voicemail tran
 
 Once you've selected a language, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 2: Greeting and music](#tab/greeting-music)
+## [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
 
+*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.*
+
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
-If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
+- If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
+
+- If you select **Type a greeting message**, the system will read the text that you type (up to 1000 characters) when the call queue answers a call.
 
 Teams provides default music to callers while they are *on hold in a queue*.
 
@@ -147,7 +165,7 @@ Teams provides default music to callers while they are *on hold in a queue*.
 
 Once you've selected a greeting and on-hold music, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 3: Call answering](#tab/call-answering)
+## [Step 3: Call answering](#tab/call-answering)
 
 ## Step 3: Set up who will answer incoming calls
 
@@ -204,6 +222,9 @@ To **add a group** to the queue:
   
 Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are using compatible clients.
 
+> [!TIP]
+> Setting **Conference mode** to **On** is the recommended setting.
+
 > [!NOTE]
 > Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 >
@@ -212,14 +233,12 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > Conference mode is required if Teams users need to consult/transfer calls with call queues.
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
-
-
-> [!TIP]
-> Setting **Conference mode** to **On** is the recommended setting.
+> 
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use Attendant routing, set Conference mode to **Off**.
 
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 4: Agent routing](#tab/agent-routing)
+## [Step 4: Agent selection](#tab/agent-selection)
 
 ## Step 4: Select your agent routing options
 
@@ -235,7 +254,8 @@ Choose from these options:
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose presence state isn't Available won't be eligible to receive calls until they change their presence to Available.
 
-We recommend setting your **Routing Method** to either **Round robin** or **Longest idle**.
+> [!TIP]
+> Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
 
 > [!NOTE]
 > If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** isn't supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
@@ -256,7 +276,8 @@ You can enable **presence-based call routing** with any of the routing methods.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
 
-We recommend turning on **Presence-based routing**.
+> [!TIP]
+> Setting the **Presence-based routing** to **on** is the recommended setting.
 
 > [!NOTE]
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
@@ -277,11 +298,12 @@ We recommend turning on **Call agents can opt out of taking calls**.
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-We recommend setting the **Agent alert time** to **20 seconds**.
+> [!TIP]
+> Setting the **Agent alert time** to a minimum **20 seconds** is the recommended setting.
 
 Once you've selected your agent call routing options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 5: Call overflow](#tab/call-overflow)
+## [Step 5: Call overflow](#tab/call-overflow)
 
 ## Step 5: Set how to handle call overflow
 
@@ -295,16 +317,18 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
->
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
+>  
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
-Once you've selected your call timeout options, select the **Next** button at the bottom of the **Add a call queue** page.
+Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 6: Call timeout](#tab/call-timeout)
+## [Step 6: Call timeout](#tab/call-timeout)
 
 ## Step 6: Set how to handle call timeouts
 
@@ -316,12 +340,14 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
+*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
+
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
-> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
-Once you've selected your agent call routing options, select the **Submit** button at the bottom of the **Add a call queue** page.
+Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
 ---
 
@@ -334,11 +360,11 @@ The following settings are recommended:
 - **Conference mode** to **On**
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
-- **Agent alert time:** to **20 seconds**
+- **Agent alert time:** to a minimum of **20 seconds**
 
 ### Call queue feature compatibility
 
-|Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
+|Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Agent Routing Methods**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
@@ -346,11 +372,11 @@ The following settings are recommended:
 |`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
-|`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
+|`Agents can Opt-out`<sup>10</sup> |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Recommended* |
-|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |
@@ -358,8 +384,8 @@ The following settings are recommended:
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|`Direct Routing`                 |Y                         |Y         |Y               |N    |N         |Y                     |Y                         |   |
-|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
@@ -368,12 +394,15 @@ The following settings are recommended:
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
-4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
+4. It's not possible to set the order the agents will be called in.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only public channels are supported.
 9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
+10. For GCCH/DOD, only available through User Settings Portal at:
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### Supported clients
 
@@ -408,7 +437,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
 
-### Related topics
+## Related topics
 
 [Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
 

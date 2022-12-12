@@ -76,13 +76,21 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated August 2022*
+*Table Updated November 2022*
 
 > [!NOTE]
-> The date format is MMDDYYYY.
+> The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |ADAPT 561 II headset                                       |10/20/2022      |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 Buds                                               |10/17/2022      |Certified for Microsoft Teams                           |
+|Cisco                |Desk Camera 4K                                             |10/15/2022      |Certified for Microsoft Teams                           |
+|EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certified for Microsoft Teams                           |
+|Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certified for Microsoft Teams                           |
+|Logi                 |Brio 500/505/501 Cameras                                   |9/14/2022       |Certified for Microsoft Teams                           |
+|Jabra                |Engage 50 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
+|Jabra                |Engage 40 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certified for Microsoft Teams                           |
 |Dell                 |WB5023 camera                                              |6/29/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |
@@ -170,7 +178,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |

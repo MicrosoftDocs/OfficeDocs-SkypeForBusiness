@@ -18,6 +18,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 description: Learn how to manage settings for the Teams network roaming policy.
 ---
 

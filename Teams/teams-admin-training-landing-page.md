@@ -33,7 +33,7 @@ Learn how to manage Teams for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://learn.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -51,7 +51,7 @@ Learn how to manage Teams for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://learn.microsoft.com/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -69,7 +69,7 @@ Learn how to manage Teams for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/user-accounts.svg" alt="User account" />
+                            <img src="https://learn.microsoft.com/office/media/icons/user-accounts.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -87,7 +87,7 @@ Learn how to manage Teams for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Troubleshoot" />
+                            <img src="https://learn.microsoft.com/office/media/icons/toolbox.svg" alt="Troubleshoot" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,13 +99,13 @@ Learn how to manage Teams for your organization.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
+        <a href="https://learn.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://learn.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -129,7 +129,7 @@ Learn how to manage Teams for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
+                            <img src="https://learn.microsoft.com/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -148,7 +148,7 @@ Learn how to manage Teams for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
+                            <img src="https://learn.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -166,7 +166,7 @@ Learn how to manage Teams for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/connector-blue.svg" alt="Updates" />
+                            <img src="https://learn.microsoft.com/office/media/icons/connector-blue.svg" alt="Updates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -180,4 +180,3 @@ Learn how to manage Teams for your organization.
 </ul>
 
 ---
-

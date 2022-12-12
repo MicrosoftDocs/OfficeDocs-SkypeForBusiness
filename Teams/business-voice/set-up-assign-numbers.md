@@ -1,7 +1,7 @@
 ---
 title: Assign Teams Phone System phone numbers to your users
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,6 +16,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - M365initiative-voice
+  - highpri
 ---
 
 # Step 5: Assign Teams Phone System phone numbers to your users

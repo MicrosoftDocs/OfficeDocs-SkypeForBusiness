@@ -2,12 +2,13 @@
 title: Overview of app validation and app testing by Microsoft
 description: Learn about Teams app validation guidelines based on marketplace certification policies. Understand how Microsoft ensures that Teams apps adhere to high standards of privacy and security.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
+ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/11/2022
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -18,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Validation performed by Microsoft for all Teams apps
+# Know about the testing and validation done by Microsoft for all apps
 
 Microsoft requires all apps to pass a mandatory validation before being listed in the store for end-uses. It applies to all apps (except custom apps) published on the Teams App store. In addition, Microsoft strongly encourages app developers to participate in an optional certification of apps that indicates enhanced compliance, security, and privacy controls.
 

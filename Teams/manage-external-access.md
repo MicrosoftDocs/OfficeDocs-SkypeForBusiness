@@ -17,6 +17,7 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
+- chat-teams-channels-revamp
 description: Your Teams or IT admin can configure external meetings and chat for other domains to let users from those domains find, call, chat, and set up meetings with your users. 
 appliesto: 
   - Microsoft Teams
@@ -49,7 +50,9 @@ The Teams admin center controls external access at the organization level. Most 
 > [!NOTE]
 > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
-## Allow or block domains
+## Specify trusted organizations
+
+You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat. (Note that the other organizations will need to allow your organization's domain as well.)
 
 If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are four scenarios for setting up external access in the Teams admin center (**Users** > **External access**):
 
@@ -64,7 +67,7 @@ If you add blocked domains, all other domains will be allowed; and if you add al
 - **Block all external domains** - Prevents people in your organization from finding, calling, chatting, and setting up meetings with people external to your organization in any domain.
 
 > [!NOTE]
-> The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
+> People from blocked domains can still join meeting anonymously if anonymous access is allowed.
 
 ![Screenshot of external domains settings](./media/external-access-domain-settings.png)
 
@@ -269,6 +272,16 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant or policy configurations that are preventing communication with the federated user.
 
+## User-level controls
+
+When users receive 1:1 chats from someone outside the organization they are presented with a full-screen experience in which they can choose to **Preview** the message, **Accept** the chat, or **Block** the person sending the chat.
+
+Blocking external people is available in multiple places within Teams, including the more (**...**) menu on the chat list and the more (**...**) menu on the people card. Users can also unblock external people via the more (**...**) menu on the chat list, the more (**...**) menu on the people card, or by visiting **Settings** > **Blocked contacts** > **Edit blocked contacts**. Blocking is available prior to or after messages are sent.
+
+Blocking external people prevents them from sending messages in 1:1 chats, adding the user to new group chats, and viewing their presence. While group chat invitations are blocked, blocked users can be in the same chats with users that blocked them either because the chat was initiated prior to the block or the group chat invitation was sent by another member.
+
+> [!NOTE]
+> There are no Teams admin settings or policies that control a user's ability to block chats with external people.
 
 ## Related topics
 
