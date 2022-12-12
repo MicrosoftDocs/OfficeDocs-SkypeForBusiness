@@ -33,7 +33,7 @@ The scope of the monitoring is
   - Top issues affecting your rooms
   - Actions required to restore rooms to healthy status
   - Issues that are under investigation by Microsoft
-  - View of Microsoft Teams Rooms devices
+- View of Microsoft Teams Rooms devices
   - Snapshot of status at Microsoft Teams Rooms (MTR) device level
   - Basic history and details for every device
 
