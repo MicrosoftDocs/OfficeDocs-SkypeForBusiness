@@ -35,7 +35,7 @@ If you deploy Skype for Business in your organization, you can federate with the
 
 To federate with a Skype for Business Online customer, you should have already completed initial deployment and configuration of Skype for Business Server in your organization. This includes the following:
 
-- Deploying at least one Standard Edition server or one Enterprise Edition Front End pool in your organization.
+- Deploying at least one Standard Edition server or one Enterprise Edition Front End pool in your organization.
 - Enabling internal user accounts for Skype for Business Server.
 - Deploying at least one Edge Server and the other components required to support external user access. For details, see [Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).
 - Enabling federation support within your organization and configuring the appropriate method for controlling access by federated domains. For details, see [Enable or disable remote user access](../access-edge/enable-or-disable-remote-user-access.md) and [Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md).

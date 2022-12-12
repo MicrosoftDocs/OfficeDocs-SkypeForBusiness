@@ -1,7 +1,7 @@
 ---
 title: "Availability in Uganda"
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference

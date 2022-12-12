@@ -52,7 +52,7 @@ Remember to include the exact protocol, host name, and port (if any). Do not to 
   <appSettings>
     <add key="corsTrustedOrigin" value="https://<trusted-server>,http://<another-trusted-domain>:8080" /> <!-- Domains which are trusted to get the data -->
     <add key="QoEDataLib.DebugMode" value="True" /> <!-- Setting this to True, allows seeing of the detail logs in status page -->
-…  </appSettings>
+...  </appSettings>
 </configuration>
 ```
 

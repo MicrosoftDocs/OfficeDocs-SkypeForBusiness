@@ -1,16 +1,16 @@
-﻿---
+---
 title: Microsoft Teams Rooms Standards and Room planning
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome 
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
+  - Teams_ITAdmin_MTRP
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -25,7 +25,7 @@ Using smart recommendations from your environment, you can build and curate stan
 
 ## View meeting room types
 
-On this page, you can view room or meeting space types within your organization. A quick break down of how many standards you have for meeting rooms, how many new devices were discovered and number of devices that require an action to be taken.
+On this page, you can view room or meeting space types within your organization. A quick breakdown of how many standards you have for meeting rooms, how many new devices were discovered and number of devices that require an action to be taken.
 
 This page also has a command bar from where you can launch the  **Create a standard** workflow or navigate to Discovered Devices, Change logs, and Archive.
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Monitoring and Alerting 
-author: vaibhav
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -27,6 +27,9 @@ Your organization can use Teams monitoring and alerting to do the following item
 - Automatically manage Teams capabilities
 - Be alerted if they show something unexpected.
 - Take corrective actions to get things back on-track.
+
+> [!NOTE]
+> The alert functionality within the Teams admin center is not available in GCC/GCC-High environments.
 
 ## How to manage monitoring and alerting
 

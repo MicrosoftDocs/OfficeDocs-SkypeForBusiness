@@ -1,7 +1,7 @@
 ---
 title: View-only meeting experience
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article

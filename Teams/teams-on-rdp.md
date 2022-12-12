@@ -1,7 +1,7 @@
 ---
 title: Use Teams with remote desktop services
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---

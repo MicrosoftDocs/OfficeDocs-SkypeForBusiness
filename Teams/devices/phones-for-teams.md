@@ -1,7 +1,7 @@
 ---
-title: "Phones for Microsoft Teams"
-ms.author: czawideh
-author: cazawideh
+title: Phones for Microsoft Teams
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -10,13 +10,14 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams."
+description: This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams.
 ---
 
 # Phones for Microsoft Teams

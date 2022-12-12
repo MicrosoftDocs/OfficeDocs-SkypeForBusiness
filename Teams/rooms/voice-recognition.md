@@ -1,7 +1,7 @@
 ---
-title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms 
-author: cazawideh
-ms.author: czawideh
+title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
+author: dstrome
+ms.author: dstrome
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -10,10 +10,11 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 appliesto: 
   - Microsoft Teams
 ---
@@ -39,7 +40,7 @@ The following items are Intelligent Speaker requirements:
 Epos, Sennheiser, and Yealink intelligent speakers are supported.
 
 > [!NOTE]
-> Intelligent Speaker is available in all countries and regions except India, which is not yet supported. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
+> Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
@@ -65,12 +66,12 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
    ![The Intelligent Speaker setup with the speaker connecting directly to the console.](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
 
 ## Enable an Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#allow-transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
 
 The voice profile data of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile data is dismissed at the end of the meeting.
 
@@ -124,13 +125,29 @@ End-users can enroll their voices for recognition in the following locales:
 
 |**Language**|**Country/Region**|**Culture ID**|
 |:-----|:-----|:-----|
+|Arabic  <br/> |Saudi Arabia <br/> |ar-SA  <br/> |
+|Chinese  <br/> |China <br/> |zh-CN  <br/> |
+|Chinese  <br/> |Taiwan <br/> |zh-TW  <br/> |
+|Danish  <br/> |Denmark <br/> |da-DK  <br/> |
+|Dutch  <br/> |Netherlands <br/> |nl-NL  <br/> |
 |English  <br/> |Australia <br/> |en-AU  <br/> |
 |English  <br/> |Canada  <br/> |en-CA <br/> |
 |English  <br/> |India  <br/> |en-IN  <br/> |
 |English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
 |English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
 |English  <br/> |United States  <br/> |en-US  <br/> |
-
+|Finnish  <br/> |Finland  <br/> |fi-FI  <br/> |
+|French  <br/> |Canada <br/> |fr-CA  <br/> |
+|French  <br/> |France <br/> |fr-FR  <br/> |
+|Italian  <br/> |Italy <br/> |it-IT  <br/> |
+|Japanese  <br/> |Japan <br/> |ja-JP  <br/> |
+|Norwegian  <br/> |Norway <br/> |nb-NO  <br/> |
+|Polish  <br/> |Poland <br/> |pl-PL  <br/> |
+|Portuguese      <br/> |Brazil <br/> |pt-BR  <br/> |
+|Russian  <br/> |Russia <br/> |ru-RU  <br/> |
+|Swedish  <br/> |Sweden <br/> |sv-SE  <br/> |
+|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
+|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
 
 ### In-meeting transcription locales
 
@@ -157,4 +174,4 @@ Once an end-user enrolls, their voice can be recognized during meetings and iden
 
 ## Related topics
 
-[Support article: Use Intelligent Speakers to Identify in-room participants ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[Support article: Use Intelligent Speakers to Identify in-room participants](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

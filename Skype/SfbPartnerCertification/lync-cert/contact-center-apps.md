@@ -371,7 +371,7 @@ The T-Metrics Contact Center can support agents off of legacy switches and Lync 
 
   **Interact with customers swiftly and efficiently.**
 
-[Trio Enterprise](http://trio.com)
+Trio Enterprise
 
 A multimedia Contact Center with Attendant functionality, Trio Enterprise from Enghouse Interactive is developed upon a Scandinavian model. Integrating fully with the voice telephony and collaboration capabilities of MS Lync it also supports Microsoft Exchange and Active Directory. Manage all types of customer interactions such as Voice Call, Exchange UM Voicemail, SMS, e-mail, Web Chat & Web Callback, in one single application.
 Additional Functions:

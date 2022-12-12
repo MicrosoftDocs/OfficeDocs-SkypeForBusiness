@@ -1,5 +1,5 @@
 ---
-title: "Manage call notifications for Direct Routing"
+title: Manage call notifications for Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,17 +7,16 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 ms.reviewer: filippse
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: Direct Routing call notification
-appliesto:
-- Microsoft Teams
-ms.localizationpriority: medium 
+appliesto: 
+  - Microsoft Teams
+ms.localizationpriority: medium
 ---
 
 # Manage call notifications

@@ -1,7 +1,7 @@
 ---
 title: Plan Location-Based Routing for Direct Routing
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -164,11 +164,11 @@ When a user is enabled for Location-Based Routing, the following applies:
 
   - Whether the transfer will be permitted is based on the following:
   
-    - The Location-Based Routing settings of the user receiving the transferred call.
+    - The Location-Based Routing settings of the user being transferred to PSTN.
     - The endpoint network site location.
     - Whether the location is enabled for Location-Based Routing.
 
-    The transfer will be permitted if the user receiving the transferred call is able to make that PSTN call at their current location using the same PSTN gateway.
+    The transfer will be permitted if the user being transferred is able to make that PSTN call at their current location using the same PSTN gateway.
 
 - **For an incoming or outgoing PSTN call and transfer to another Teams user**, whether the transfer is permitted depends on the following:
 
@@ -294,15 +294,15 @@ The following table shows whether call forwarding and call transfers are allowed
 
     - If the caller is enabled for Location-Based Routing, they can be transferred only to a Location-Based Routing enabled gateway located at the same network site.
  
-The following table shows how Location-Based Routing affects routing of a VOIP call from User1 at Site1 to users in different locations who transfer or forward the call to a PSTN endpoint.  
+The following table shows how Location-Based Routing affects routing of a VOIP call from Location-Based Routing enabled User1 at Site1 to users in different locations who transfer or forward the call to a PSTN endpoint.  
 
-|User initiating call transfer or forward  |Transfer to PSTN  |Forward to PSTN  |
-|---------|---------|---------|
-|Same network site, site enabled for Location-Based Routing (User2)   |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |
-|Different network site, site enabled for Location-Based Routing (User3)    |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User3's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User3's voice routing policy         |
-|Different network site, site not enabled for Location-Based Routing (User4)    |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User4's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User4's voice routing policy         |
-|Unknown internal network (User5)     |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User5's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User5's voice routing policy         |
-|Unknown external network (User6)   |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User6's voice routing policy        |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User6's voice routing policy         |
+|User initiating call transfer or forward  |Transfer or forward to PSTN  |
+|---------|---------|
+|Same network site, site enabled for Location-Based Routing (User2)   |The resulting PSTN call will be permitted only if the calculated route based on User2's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1         |
+|Different network site, site enabled for Location-Based Routing (User3)    |The resulting PSTN call will be permitted only if the calculated route based on User3's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1 |
+|Different network site, site not enabled for Location-Based Routing (User4)    |The resulting PSTN call will be permitted only if the calculated route based on User4's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
+|Unknown internal network (User5)     |The resulting PSTN call will be permitted only if the calculated route based on User5's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
+|Unknown external network (User6)   |The resulting PSTN call will be permitted only if the calculated route based on User6's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
 
 ### Simultaneous ringing
 
@@ -323,15 +323,15 @@ The following table shows whether Location-Based Routing allows simultaneous rin
 
 #### Simultaneous ringing to a PSTN endpoint
 
-The following table shows Location-Based Routing behavior for an inbound VoIP call from User1 located at Site1 to users in different locations with simultaneous ring set to a PSTN number. 
+The following table shows Location-Based Routing behavior for an inbound VoIP call from Location-Based Routing enabled User1 located at Site1 to users in different locations with simultaneous ring set to a PSTN number. 
 
 |Called user endpoint location  |Simultaneous ring target is PSTN endpoint |
 |---------|---------|
-|Same network site, site enabled for Location-Based Routing (User2)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User2's voice routing policy       |
-|Different network site enabled for Location-Based Routing (User3)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User3's voice routing policy        |
-|Different network site not enabled for Location-Based Routing (User4)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User4's voice routing policy         |
-|Unknown internal network (User5)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User5's voice routing policy         |
-|Unknown external network (User6)   |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User6's voice routing policy         |
+|Same network site, site enabled for Location-Based Routing (User2)    |The resulting PSTN call will be permitted only if the calculated route based on User2's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1        |
+|Different network site enabled for Location-Based Routing (User3)    |The resulting PSTN call will be permitted only if the calculated route based on User3's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1         |
+|Different network site not enabled for Location-Based Routing (User4)    |The resulting PSTN call will be permitted only if the calculated route based on User4's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
+|Unknown internal network (User5)    |The resulting PSTN call will be permitted only if the calculated route based on User5's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
+|Unknown external network (User6)   |The resulting PSTN call will be permitted only if the calculated route based on User6's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
 
 #### Inbound calls through voice apps (Auto Attendant or Call Queue)
 
@@ -383,9 +383,9 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 ### Location-Based Routing for conferencing
 
-A Location-Based Routing enabled user on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
+A Location-Based Routing enabled user without an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
 
-If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.
+If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call. If the user is already on a PSTN call, they can add another user or PSTN number to the call via escalating the call using the conferencing bridge to dial out.
 
 In a conference call started by a user without an audio conferencing license, adding PSTN participants is not allowed if there is or has been at least one Location-Based Routing enabled user in the conference call. If at least one PSTN participant is or was part of such a conference call before any Location-Based Routing enabled participants was invited to join the call, such Location-Based Routing enabled participants can't be added to the call.
 
@@ -393,6 +393,7 @@ If the Location-Based Routing enabled user is joining the conference call from a
 
 On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
 
+A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call. The following are not supported: recording the PSTN call and compliance recording of the PSTN call.
 
 ### Media bypass requirement for Location-Based Routing
 
