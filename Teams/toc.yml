@@ -458,11 +458,11 @@ items:
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
-        - name: Teams Virtual Appointments usage report
+        - name: Virtual Appointments usage report
           href: /microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Teams Advanced Virtual Appointments activity report
+        - name: Advanced Virtual Appointments activity report
           href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Teams EHR connector Virtual Appointments report
+        - name: EHR connector Virtual Appointments report
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Walkie Talkie usage and performance report
           href: /microsoft-365/frontline/walkie-talkie-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
