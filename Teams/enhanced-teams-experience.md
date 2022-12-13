@@ -60,13 +60,13 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 
 
-| Feature/Task  | Documentation for administrators |
-| -------------------- | ----------- | 
-| Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | 
-| Watermarks | [Require a watermark for meetings (article)](watermark-meeting-content-video.md) |
-| End-to-end encryption (E2EE) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | 
-| Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)
-| Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | 
+| Feature/Task  | Documentation for administrators | Documentation for your end users
+| -------------------- | ----------- | ------------ |
+| Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | |
+| Watermarks | [Require a watermark for meetings (article)](watermark-meeting-content-video.md) | [Watermarks for meetings](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
+| End-to-end encryption (E2EE) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | [Use encryption](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)  | [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
+| Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 
 
 ## Custom meetings
@@ -81,12 +81,12 @@ Teams Premium provides the following additional features for customizing meeting
 
 - **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
 
-| Feature/Task | Documentation for administrators |
-| -------------------- | ----------- | 
-| Meeting templates | - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)|
-| Meeting themes | [Themes for Teams meetings](meeting-themes.md) | 
-| Custom meeting backgrounds | [Meeting backgrounds](custom-meeting-backgrounds.md)| 
-| Custom together mode scenes | [Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+| Feature/Task | Documentation for administrators | Documentation for your end users
+| -------------------- | ----------- | ------------ |
+| Meeting templates | - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| Meeting themes | [Themes for Teams meetings](meeting-themes.md) | [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| Custom meeting backgrounds | [Meeting backgrounds](custom-meeting-backgrounds.md)| |
+| Custom together mode scenes | [Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 
@@ -103,11 +103,11 @@ Teams Premium provides an advanced webinar experience for your users with the ne
 - **Registration overview and management** - For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
 
-| Feature/Task | Documentation for administrators | 
-| -------------------- | ----------- | 
-| Understand meetings, webinars, and live events | [Quick start](quick-start-meetings-live-events.md) | 
-| Set up webinars | [Set up webinars](set-up-webinars.md) | 
-| Meeting policy for webinars | [Meeting policies](meeting-policies-in-teams-general.md)
+| Feature/Task | Documentation for administrators | Documentation for your end users
+| -------------------- | ----------- | ----------- |
+| Understand meetings, webinars, and live events | [Quick start](quick-start-meetings-live-events.md) | |
+| Set up webinars | [Set up webinars](set-up-webinars.md) | - [Manage webinar registration](https://support.microsoft.com/office/manage-webinar-registration-923f382a-0cca-433a-b38d-7461971192d1) <br> - [Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| Meeting policy for webinars | [Meeting policies](meeting-policies-in-teams-general.md) | |
 
 
 
