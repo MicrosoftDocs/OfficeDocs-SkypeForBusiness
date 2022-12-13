@@ -34,21 +34,21 @@ When it comes to Teams or Skype for Business traffic over proxies, Microsoft rec
   
 And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
 
-We recommend that Teams traffic bypasses proxy server infrastructure.
+We recommend that Teams traffic bypasses proxy server infrastructure. You can achieve this by putting Teams Phones and Meeting Room devices on their own VLAN and providing them with Internet access.
 
 ## Teams Phones
 
-We don't support proxy servers for Teams Phones. 
+We don't support proxy servers for Teams Phones.
 
-Our recommendation is to ensure that both signalling (TCP 443) and media (UDP 3478-3481) traffic bypasses proxy server infrastructure.
+Our recommendation is to ensure that all Teams Phone traffic bypasses proxy server infrastructure.
 
 ## Teams Meeting Rooms and Panels
 
-We recommend you bypass proxy server infrastructure for Teams Meeting Room and panel devices. This includes android-based touch screen displays.
+We recommend you bypass proxy server infrastructure for Teams Meeting Room and panel devices. This includes android-based touch screen displays/boards.
 
-Windows-based Teams Meeting Rooms, including the surface hub support proxy servers, but do not support proxy servers that require authentication.
+Windows-based Teams Meeting Rooms including the surface hub support proxy servers, but do not support proxy servers that require authentication.
 
-Android-based Teams Meeting Rooms including panels and touch screen displays don't support proxy servers.
+Android-based Teams Meeting Rooms including panels and touch screen displays/panels don't support proxy servers.
 
 ## If you need to use a proxy server
 
@@ -59,7 +59,7 @@ Some organizations have no option to bypass a proxy for Teams or Skype for Busin
   
 Microsoft also strongly recommends:
   
-- Using local, external DNS resolution (some cloud-based proxy solutions can cause DNS resolution to occur in another location)
+- Using local, external DNS resolution (some cloud-based proxy solutions can cause DNS resolution to occur in another location).
 
 - Ensuring the path between the Teams device and our service is as short and direct as possible
     
@@ -67,7 +67,7 @@ Microsoft also strongly recommends:
     
 - Allowing UDP traffic for Teams Media (3478-3481)
 
-- Allowing all required URLs and IPs, including those for Azure, Office 365, Intune and Teams Room Pro (where used)
+- Allowing all required URLs and IPs, including those for Azure, Office 365, Intune and Teams Room Pro (where used) through your firewall
     
 - Following the other recommendations in our networking guidelines:
   [Prepare your organization's network for Teams](prepare-network.md)
