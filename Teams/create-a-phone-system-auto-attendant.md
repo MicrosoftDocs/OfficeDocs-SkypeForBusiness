@@ -168,7 +168,7 @@ Once you've added your after hours call flow, select **Next**.
 
 ## Step 4: Set up call flows for holidays (optional)
 
-Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each auto attendant. Each holiday set can contain up to 10 unique date ranges.  Holiday dates must be unique across all holiday sets being added to the auto attendant.
+Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each auto attendant. Each holiday set can contain up to 10 unique date ranges. Holiday dates must be unique across all holiday sets being added to the auto attendant.
 
 *New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 *New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
