@@ -30,13 +30,17 @@ To see if you already have **Teams Phone Resource Account** licenses, sign into 
 
 There's zero cost, but you still need to follow these steps to acquire the license.
 
-### Obtain service numbers
+### Obtain phone numbers
 
-Service numbers are optional for auto attendants and call queues; however, you'll need at least one service number in order for callers to reach your auto attendant and call queue configuration. For any auto attendant or call queue that you want to be reachable directly by a service number, you must have a resource account with an associated service number.
+Phone numbers are optional for auto attendants and call queues; however, you'll need at least one phone number in order for callers to reach your auto attendant and call queue configuration. For any auto attendant or call queue that you want to be reachable directly by a phone number, you must have a resource account with an associated phone number.
 
-Resource accounts can use either toll or toll-free service numbers. You can request new numbers or port existing numbers from another carrier.
+Resource accounts can use either toll or toll-free phone numbers. You can request new numbers or port existing numbers from another carrier.
 
-To get new service numbers, see [Getting service phone numbers](../getting-service-phone-numbers.md).
+Acceptable phone numbers that can be applied to resource accounts include:
+
+- **Calling Plans service numbers:** To acquire service numbers with Calling Plans, see [Getting service phone numbers](../getting-service-phone-numbers.md).
+- **Direct Routing numbers:** To acquire Direct Routing numbers, see [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users#configure-the-phone-number-and-enable-enterprise-voice).
+- **Operator Connect numbers:** To acquire Operator Connect numbers, see [Configure Operator Connect](/microsoftteams/operator-connect-configure#set-up-phone-numbers).
 
 To port a number from another carrier, see [Transfer phone numbers to Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
