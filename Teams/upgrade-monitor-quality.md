@@ -1,7 +1,7 @@
 ---
 title: Quality of User Experience | Microsoft Teams | QoS | Call Quality 
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

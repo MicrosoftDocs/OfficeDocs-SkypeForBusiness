@@ -1,5 +1,5 @@
 ---
-title: "Manually update a Microsoft Teams Rooms device"
+title: Manually update a Microsoft Teams Rooms device
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -9,11 +9,12 @@ appliesto:
 ms.reviewer: sohailta
 ms.topic: article
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-ms.collection:
+ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 description: Learn how to manually update your Microsoft Teams Rooms device to a specific version.
 ---
 

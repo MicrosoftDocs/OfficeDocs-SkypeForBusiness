@@ -1,7 +1,7 @@
 ---
 title: Assign policies to users and groups
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
 ms.topic: article
@@ -26,27 +26,30 @@ This article reviews the different ways to assign policies to users and groups i
 
 ## Assign a policy to individual users
 
-Follow these steps to assign a policy to an individual user or to a small number of users at a time.
+Follow these steps to assign a policy to an individual user or to a few users at a time.
 
 ### Use the Microsoft Teams admin center
 
 To assign a policy to a user:
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then select the user.
+1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), go to **Users** > **Manage users**.
 2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
 3. Select the policy you want to assign, and then select **Apply**.
 
-![Assign a policy to a user in the Teams admin center.](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="Screenshot of Edit settings pane under Manage users." lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
-Or, you can also do the following:
+> [!NOTE]
+> To unassign a specialized policy from a user, you can set each policy to **Global (Org-wide default)**. You can also remove policy assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](#unassign-policies-in-bulk).
+
+You can also do the following to assign a policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy page.
 2. Select the policy you want to assign by clicking to the left of the policy name.
-3. Select **Manage users**.
+3. Select **Assign users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, select **Apply**.
 
-![Assign a policy to a user in the Teams admin center via second method.](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="Screenshot that shows how to assign a policy to a user in the Teams admin center via second method." lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### Use PowerShell
 
@@ -77,7 +80,7 @@ To learn more, read [Manage policies via PowerShell](teams-powershell-managing-t
 
 ## Assign a policy to a group
 
-Policy assignment to groups lets you assign a policy to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
+Policy assignment to groups lets you assign a policy to a group of users, such as a security group, an organizational unit, or a distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
 Policy assignment to groups is recommended for groups of up to 50,000 users but it will also work with larger groups.
 
@@ -105,9 +108,12 @@ A user's effective policy is updated according to these rules:
 
 #### Group assignment ranking
 
-When you assign a policy to a group, you specify a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
+> [!NOTE]
+> A given policy type can be assigned to a maximum of 64 groups across policy instances for that type.
 
-The group assignment ranking is relative to other group assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
+When you assign a policy to a group, you specify a ranking for the group assignment. This ranking is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
+
+The group assignment ranking is relative to other group assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships regarding inheritance.
 
 Say, for example, you have two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should have a higher ranking.
 
@@ -130,12 +136,16 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
     2. Set the ranking for the group assignment.
     3. Select the policy that you want to assign.
     4. Select **Apply**.
-    
-![Assign a policy to a group in the Teams admin center.](media/assign-policy-group.png)
+
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Screenshot that shows how to assign a policy to a group in the Teams admin center." lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
 
-To change the ranking of a group assignment, you have to first remove the group policy assignment. Then, follow the steps above to assign the policy to a group.
+To change the ranking of a group assignment, you need to remove the group policy assignment first. Then, follow the steps above to assign the policy to a group.
+
+This video shows the steps to create and assign a custom meeting policy to a group.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
 
 ### Use the PowerShell option
 
@@ -158,7 +168,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 
 #### Get policy assignments for a group
 
-Use the [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment) cmdlet to get all policies assigned to a group. Note that groups are always listed by their group ID even if its SIP address or email address was used to assign the policy.
+Use the [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment) cmdlet to get all policies assigned to a group. Groups are always listed by their group ID even if its SIP address or email address was used to assign the policy.
 
 In this example, we retrieve all policies assigned to a specific group.
 
@@ -226,7 +236,7 @@ First, we use the [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csus
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
 ```
 
-The output shows that the user was directly assigned a Teams meeting broadcast policy named Employee Events, which takes precedence over the policy named Vendor Live Events that's assigned to a group the user belongs to.
+The output shows that the user was directly assigned a Teams meeting broadcast policy named **Employee Events**, which takes precedence over the policy named **Vendor Live Events** that's assigned to a group the user belongs to.
 
 ```console
 AssignmentType PolicyName         Reference
@@ -243,7 +253,7 @@ Use the following cmdlet in the Skype for Business PowerShell module to do this.
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-Use following cmdlet in the Teams PowerShell module to do this at scale though a batch policy assignment, where $users is a list of users that you specify.
+Use following cmdlet in the Teams PowerShell module to do this at scale through a batch policy assignment, where $users is a list of users that you specify.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -257,7 +267,7 @@ To assign a policy to users in bulk:
 
 1. In the left navigation of the Microsoft Teams admin center, select **Users**.
 2. Search for the users you want to assign the policy to or filter the view to show the users you want.
-3. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. In the **&#x2713;** (check mark) column, select the users. To select all users, select the &#x2713; (check mark) at the top of the table.
 4. Select **Edit settings**, make the changes that you want, and then select **Apply**.
 
 To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you select **Apply** to submit your policy assignment, select **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, select **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
@@ -267,9 +277,9 @@ To view the status of your policy assignment, in the banner that appears at the 
 > [!NOTE]
 > Currently, batch policy assignment using PowerShell isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for the list of supported policy types.
 
-With batch policy assignment, you can assign a policy to large sets of users at a time without having to use a script. You use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
+With batch policy assignment, you can assign a policy to large sets of users at a time without using a script. You use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
 
-Specify users by their object ID or Session Initiation Protocol (SIP) address. A user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this is not required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing and status will only be provided for the unique users remaining in the batch.
+Specify users by their object ID or Session Initiation Protocol (SIP) address. A user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this isn't required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing, and status will only be provided for the unique users remaining in the batch.
 
 A batch can contain up to 5,000 users. For best results, don't submit more than a few batches at a time. Allow batches to complete processing before submitting more batches.
 
@@ -303,11 +313,11 @@ When you're prompted, sign in using the same admin credentials that you used to 
 
 #### Assign a setup policy to a batch of users
 
-In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
+In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the users_ids.text file.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $user_ids -OperationName "Example 1 batch"
 ```
 
 In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their SIP address.
@@ -333,6 +343,37 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 ```
 
 To learn more, see [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+
+## Unassign policies in bulk
+
+When you unassign policies in bulk, you're removing policy assignments that were assigned to individual users through direct assignment. This is useful in the following scenarios:
+
+1. **For Global (Org-wide default) or group policy assignments to take effect:** Due to [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence), Global (Org-wide default) or group policy assignments won't take effect for uses who have a direct policy assignment. As an admin, you can unassign policies in bulk to remove direct assignments so Global (Org-wide default) or group policy assignments take effect.
+1. **Clean up policy assignments from the Teams Education wizard:** The Teams Education policy wizard applies the global policy defaults for students and assigns a custom policy set for a group of staff using group policy assignment. Admins need to clean up student and staff individual policies for Global (Org-wide default) and group assignments to be effective.
+1. **Remove incorrect policy assignments:** If there's a large group of individual users who were assigned the wrong policy through direct assignment, you can use unassign policies in bulk to remove these assignments.
+
+ You can unassign policies in bulk from the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+
+1. Go to **Users** > **Manage users**.
+2. In the top right corner of the page, select **Unassign policies in bulk** from the **Actions** drop-down menu.
+
+    ![Manage users page in the Teams admin center.](media/manage-users-unassign-policies.png)
+
+    > [!NOTE]
+    > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
+
+3. Select a policy type.
+
+    ![Unassign policies in bulk page in the Teams admin center.](media/unassign-policies-page.png)
+
+4. Choose the policy that you want to reassign and select **Load data** to get the number of users who are currently assigned to that policy.
+
+    > [!IMPORTANT]
+    > When you choose a policy, you're removing **all** of the individually assigned users from that policy.
+
+5. Select **Unassign policy**.
+
+After you unassign policies, you can review operation details in the [Activity log](https://admin.teams.microsoft.com/activity-log).
 
 ## Related topics
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams live event usage report
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -42,7 +42,7 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 |**5**   |Select **Edit columns** to add or remove columns in the table.|
 
 ## Notes
-We show up to 100 live events that match the current report criteria. To see more live events, apply date filters to reduce the list size.
+We show a maximum of up to 100 live events that match the current report criteria. To see more live events, apply date filters to reduce the list size.
 
 Anonymous presenters will not be included in the report.
 
@@ -54,7 +54,7 @@ The live event details page gives you a summary of the details of a live event a
 
 :::image type="content" alt-text="Screenshot showing details of a live event." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
+If your organization uses Microsoft eCDN, advanced analytics can be viewed and exported from the [eCDN Dashboard](https://admin.ecdn.microsoft.com).  If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
 
 ## Related topics
 

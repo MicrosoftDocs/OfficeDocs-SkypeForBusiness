@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Create security groups for educators and students in your school
-author: serdars
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -64,17 +64,17 @@ Version 1.0, 10/08/2019 - First Draft
 param
 (
     [string]$teachergroupname,
-	[string]$teachergroupdesc,
-	[string]$studentgroupname,
-	[string]$studentgroupdesc,
-	[Guid]$facultyid,
-	[Guid]$studentid
+    [string]$teachergroupdesc,
+    [string]$studentgroupname,
+    [string]$studentgroupdesc,
+    [Guid]$facultyid,
+    [Guid]$studentid
 )
 
 [bool] $create = $false
 
 if ([string]::IsNullOrEmpty($teachergroupname) -and [string]::IsNullOrEmpty($studentgroupname) -and [string]::IsNullOrEmpty($studentid) -and [string]::IsNullOrEmpty($facultyid)) {
-	throw "Please enter valid groupnames to create groups for Teachers and Students. In order to update a group, please enter the teacher and/or student group id's."
+    throw "Please enter valid groupnames to create groups for Teachers and Students. In order to update a group, please enter the teacher and/or student group id's."
 }
 
 #Connect to Azure AD
@@ -87,17 +87,17 @@ Connect-MsolService
 [Guid] $studentgroupid = New-Guid
 
 if (![string]::IsNullOrEmpty($teachergroupname)) {
-	New-MsolGroup -DisplayName $teachergroupname -Description $teachergroupdesc
-	$Group = Get-MsolGroup -SearchString $teachergroupname
-	$teachergroupid = $Group.ObjectId
-	$create = $true
+    New-MsolGroup -DisplayName $teachergroupname -Description $teachergroupdesc
+    $Group = Get-MsolGroup -SearchString $teachergroupname
+    $teachergroupid = $Group.ObjectId
+    $create = $true
 }
 
 if (![string]::IsNullOrEmpty($studentgroupname)) {
-	New-MsolGroup -DisplayName $studentgroupname -Description $studentgroupdesc
-	$Group = Get-MsolGroup -SearchString $studentgroupname
-	$studentgroupid = $Group.ObjectId
-	$create = $true
+    New-MsolGroup -DisplayName $studentgroupname -Description $studentgroupdesc
+    $Group = Get-MsolGroup -SearchString $studentgroupname
+    $studentgroupid = $Group.ObjectId
+    $create = $true
 }
 
 
@@ -139,131 +139,131 @@ $studentAdd = $create -and ($studentgroupid -ne $null)
 
 #Start foreach loop for all users with student licenses
 if ($teacherAdd -or $studentAdd) {
-	Foreach ($User in $AllUsers) {
-	$ObjectID = $User.ObjectID
-	Write-host "`n"
-	Write-Host -ForegroundColor Green "Getting Assigned Licenses for $DN"
-	$GetUser = Get-AzureADUser -objectid $user.objectid
-	$AssignedLicenses = ($GetUser | select -ExpandProperty assignedlicenses).skuid
-	Write-Host -ForegroundColor Green "User Assigned License: " $User.Displayname "-" $AssignedLicenses "-" $User.ObjectId
+    Foreach ($User in $AllUsers) {
+    $ObjectID = $User.ObjectID
+    Write-host "`n"
+    Write-Host -ForegroundColor Green "Getting Assigned Licenses for $DN"
+    $GetUser = Get-AzureADUser -objectid $user.objectid
+    $AssignedLicenses = ($GetUser | select -ExpandProperty assignedlicenses).skuid
+    Write-Host -ForegroundColor Green "User Assigned License: " $User.Displayname "-" $AssignedLicenses "-" $User.ObjectId
 
 
-	#Set Variables
-	$UPN = $User.userprincipalname
-	$DN = $User.Displayname
-	$OBJ = $User.ObjectID
-	$Age = $User.AgeGroup
-	$Consent = $User.ConsentProvidedForMinor
-	$Legal = $User.LegalAgeGroupClassification
+    #Set Variables
+    $UPN = $User.userprincipalname
+    $DN = $User.Displayname
+    $OBJ = $User.ObjectID
+    $Age = $User.AgeGroup
+    $Consent = $User.ConsentProvidedForMinor
+    $Legal = $User.LegalAgeGroupClassification
 
-		#Start foreach loop for all assigned skus
-		Foreach ($License in $AssignedLicenses) {
+        #Start foreach loop for all assigned skus
+        Foreach ($License in $AssignedLicenses) {
 
-			#Creating new PS Object for each Sku and adding to the array
-			If ($TeacherSkuIDs -contains $License) {
-				$TeacherObj = New-Object PSObject
-				$TeacherObj | Add-Member NoteProperty -Name UserPrincipalName -Value $UPN
-				$TeacherObj | Add-Member NoteProperty -Name DisplayName -Value $DN
-				$TeacherObj | Add-Member NoteProperty -Name ObjectID -Value $OBJ
-				$TeacherObj | Add-Member NoteProperty -Name SkuID -Value $License
-				$TeacherObj | Add-Member NoteProperty -Name AgeGroup -Value $Age
-				$TeacherObj | Add-Member NoteProperty -Name ConsentProvidedForMinor -Value $Consent
-				$TeacherObj | Add-Member NoteProperty -Name LegalAgeGroupClassification -Value $Legal
-				$TeachersArray += $TeacherObj
-				if ($teachergroupid -ne $null) {
-					Add-MsolGroupMember -GroupObjectId $teachergroupid -GroupMemberType User -GroupMemberObjectId $OBJ
-				}
-			}
-						
-			If ($StudentSkuIDs -contains $License) {
-				$StudentObj = New-Object PSObject
-				$StudentObj | Add-Member NoteProperty -Name UserPrincipalName -Value $UPN
-				$StudentObj | Add-Member NoteProperty -Name DisplayName -Value $DN
-				$StudentObj | Add-Member NoteProperty -Name ObjectID -Value $OBJ
-				$StudentObj | Add-Member NoteProperty -Name SkuID -Value $License
-				$StudentObj | Add-Member NoteProperty -Name AgeGroup -Value $Age
-				$StudentObj | Add-Member NoteProperty -Name ConsentProvidedForMinor -Value $Consent
-				$StudentObj | Add-Member NoteProperty -Name LegalAgeGroupClassification -Value $Legal
-				$StudentsArray += $StudentObj
-				if ($studentgroupid -ne $null) {
-					Add-MsolGroupMember -GroupObjectId $studentgroupid -GroupMemberType User -GroupMemberObjectId $OBJ
-				}
-			}
-		}
-	}
+            #Creating new PS Object for each Sku and adding to the array
+            If ($TeacherSkuIDs -contains $License) {
+                $TeacherObj = New-Object PSObject
+                $TeacherObj | Add-Member NoteProperty -Name UserPrincipalName -Value $UPN
+                $TeacherObj | Add-Member NoteProperty -Name DisplayName -Value $DN
+                $TeacherObj | Add-Member NoteProperty -Name ObjectID -Value $OBJ
+                $TeacherObj | Add-Member NoteProperty -Name SkuID -Value $License
+                $TeacherObj | Add-Member NoteProperty -Name AgeGroup -Value $Age
+                $TeacherObj | Add-Member NoteProperty -Name ConsentProvidedForMinor -Value $Consent
+                $TeacherObj | Add-Member NoteProperty -Name LegalAgeGroupClassification -Value $Legal
+                $TeachersArray += $TeacherObj
+                if ($teachergroupid -ne $null) {
+                    Add-MsolGroupMember -GroupObjectId $teachergroupid -GroupMemberType User -GroupMemberObjectId $OBJ
+                }
+            }
+                        
+            If ($StudentSkuIDs -contains $License) {
+                $StudentObj = New-Object PSObject
+                $StudentObj | Add-Member NoteProperty -Name UserPrincipalName -Value $UPN
+                $StudentObj | Add-Member NoteProperty -Name DisplayName -Value $DN
+                $StudentObj | Add-Member NoteProperty -Name ObjectID -Value $OBJ
+                $StudentObj | Add-Member NoteProperty -Name SkuID -Value $License
+                $StudentObj | Add-Member NoteProperty -Name AgeGroup -Value $Age
+                $StudentObj | Add-Member NoteProperty -Name ConsentProvidedForMinor -Value $Consent
+                $StudentObj | Add-Member NoteProperty -Name LegalAgeGroupClassification -Value $Legal
+                $StudentsArray += $StudentObj
+                if ($studentgroupid -ne $null) {
+                    Add-MsolGroupMember -GroupObjectId $studentgroupid -GroupMemberType User -GroupMemberObjectId $OBJ
+                }
+            }
+        }
+    }
 }
 
 if ((!$teacherAdd) -and ($facultyid -ne $null)) {
-	#Users to be Added in the Teacher Group that are not present
-	$teacherGrpMembers = Get-MsolGroupMember -GroupObjectId $facultyid
-	$teachersToAdd = ($AllUsers | ? {$_.ObjectId -ne $null}).objectid | Where {($teacherGrpMembers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
-	Foreach ($id in $teachersToAdd) {
-		$GetUser = Get-AzureADUser -objectid $id
-		$AssignedLicenses = ($GetUser | select -ExpandProperty assignedlicenses).skuid
-		Foreach ($License in $AssignedLicenses) {
+    #Users to be Added in the Teacher Group that are not present
+    $teacherGrpMembers = Get-MsolGroupMember -GroupObjectId $facultyid
+    $teachersToAdd = ($AllUsers | ? {$_.ObjectId -ne $null}).objectid | Where {($teacherGrpMembers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
+    Foreach ($id in $teachersToAdd) {
+        $GetUser = Get-AzureADUser -objectid $id
+        $AssignedLicenses = ($GetUser | select -ExpandProperty assignedlicenses).skuid
+        Foreach ($License in $AssignedLicenses) {
 
-			#Adding faculty members to the security group
-			If ($TeacherSkuIDs -contains $License) {
-				Add-MsolGroupMember -GroupObjectId $facultyid -GroupMemberType User -GroupMemberObjectId $id
-			}
-		}
-	}
-	
-	#Users (Faculty) to be removed from the group that are not in tenant anymore
-	$teachersToRemove = ($teacherGrpMembers | ? {$_.ObjectId -ne $null}).objectid | Where {($AllUsers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
-	if ($teachersToRemove.Count > 0) {
-		Foreach ($id in $teachersToRemove) {
-			Remove-MsoLGroupMember -GroupObjectId $facultyid -GroupMemberType User -GroupmemberObjectId $id
-		}
-	}
+            #Adding faculty members to the security group
+            If ($TeacherSkuIDs -contains $License) {
+                Add-MsolGroupMember -GroupObjectId $facultyid -GroupMemberType User -GroupMemberObjectId $id
+            }
+        }
+    }
+    
+    #Users (Faculty) to be removed from the group that are not in tenant anymore
+    $teachersToRemove = ($teacherGrpMembers | ? {$_.ObjectId -ne $null}).objectid | Where {($AllUsers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
+    if ($teachersToRemove.Count > 0) {
+        Foreach ($id in $teachersToRemove) {
+            Remove-MsoLGroupMember -GroupObjectId $facultyid -GroupMemberType User -GroupmemberObjectId $id
+        }
+    }
 }
 
 if ((!$studentAdd) -and ($studentid -ne $null)) {
-	#Users to be Added in the Student Group that are not present
-	$studentGrpMembers = Get-MsolGroupMember -GroupObjectId $studentid
-	$studentsToAdd = ($AllUsers | ? {$_.ObjectId -ne $null}).objectid | Where {($studentGrpMembers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
-	Foreach ($id in $studentsToAdd) {
-		$GetUser = Get-AzureADUser -objectid $id
-		$AssignedLicenses = ($GetUser | select -ExpandProperty assignedlicenses).skuid
-		Foreach ($License in $AssignedLicenses) {
+    #Users to be Added in the Student Group that are not present
+    $studentGrpMembers = Get-MsolGroupMember -GroupObjectId $studentid
+    $studentsToAdd = ($AllUsers | ? {$_.ObjectId -ne $null}).objectid | Where {($studentGrpMembers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
+    Foreach ($id in $studentsToAdd) {
+        $GetUser = Get-AzureADUser -objectid $id
+        $AssignedLicenses = ($GetUser | select -ExpandProperty assignedlicenses).skuid
+        Foreach ($License in $AssignedLicenses) {
 
-			#Adding student members to the security group
-			If ($StudentSkuIDs -contains $License) {
-				Add-MsolGroupMember -GroupObjectId $studentid -GroupMemberType User -GroupMemberObjectId $id
-			}
-		}
-	}
-	
-	#Users (Students) to be removed the group that are not in tenant anymore
-	$studentsToRemove = ($studentGrpMembers | ? {$_.ObjectId -ne $null}).objectid | Where {($AllUsers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
-	if ($studentsToRemove.Count > 0) {
-		Foreach ($id in $studentsToRemove) {
-			Remove-MsolGroupMember -GroupObjectId $studentid -GroupMemberType User -GroupmemberObjectId $id
-		}
-	}
+            #Adding student members to the security group
+            If ($StudentSkuIDs -contains $License) {
+                Add-MsolGroupMember -GroupObjectId $studentid -GroupMemberType User -GroupMemberObjectId $id
+            }
+        }
+    }
+    
+    #Users (Students) to be removed the group that are not in tenant anymore
+    $studentsToRemove = ($studentGrpMembers | ? {$_.ObjectId -ne $null}).objectid | Where {($AllUsers | ? {$_.ObjectId -ne $null}).objectid -NotContains $_}
+    if ($studentsToRemove.Count > 0) {
+        Foreach ($id in $studentsToRemove) {
+            Remove-MsolGroupMember -GroupObjectId $studentid -GroupMemberType User -GroupmemberObjectId $id
+        }
+    }
 }
 
 Start-Transcript -Path "C:\results\log.txt"
 if ($facultyid -ne $null) {
-	$TeacherGroup = Get-MsolGroupMember -GroupObjectId $facultyid
-	Write-Host -ForegroundColor Green "Teacher Group Count:" $TeacherGroup.Count
-	Write-Host -ForegroundColor Green "Teacher Group Id:" $facultyid
+    $TeacherGroup = Get-MsolGroupMember -GroupObjectId $facultyid
+    Write-Host -ForegroundColor Green "Teacher Group Count:" $TeacherGroup.Count
+    Write-Host -ForegroundColor Green "Teacher Group Id:" $facultyid
 }
 else {
-	$TeacherGroup = Get-MsolGroupMember -GroupObjectId $teachergroupid
-	Write-Host -ForegroundColor Green "Teacher Group Count:" $TeacherGroup.Count
-	Write-Host -ForegroundColor Green "Teacher Group Id:" $teachergroupid
+    $TeacherGroup = Get-MsolGroupMember -GroupObjectId $teachergroupid
+    Write-Host -ForegroundColor Green "Teacher Group Count:" $TeacherGroup.Count
+    Write-Host -ForegroundColor Green "Teacher Group Id:" $teachergroupid
 }
 
 if ($studentid -ne $null) {
-	$StudentGroup = Get-MsolGroupMember -GroupObjectId $studentid
-	Write-Host -ForegroundColor Green "Student Group Count:" $StudentGroup.Count
-	Write-Host -ForegroundColor Green "Student Group Id:" $studentid
+    $StudentGroup = Get-MsolGroupMember -GroupObjectId $studentid
+    Write-Host -ForegroundColor Green "Student Group Count:" $StudentGroup.Count
+    Write-Host -ForegroundColor Green "Student Group Id:" $studentid
 }
 else {
-	$StudentGroup = Get-MsolGroupMember -GroupObjectId $studentgroupid
-	Write-Host -ForegroundColor Green "Student Group Count:" $StudentGroup.Count
-	Write-Host -ForegroundColor Green "Student Group Id:" $studentgroupid
+    $StudentGroup = Get-MsolGroupMember -GroupObjectId $studentgroupid
+    Write-Host -ForegroundColor Green "Student Group Count:" $StudentGroup.Count
+    Write-Host -ForegroundColor Green "Student Group Id:" $studentgroupid
 }
 Stop-Transcript
 ```

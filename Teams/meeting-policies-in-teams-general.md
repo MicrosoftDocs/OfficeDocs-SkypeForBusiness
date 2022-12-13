@@ -1,7 +1,7 @@
 ---
 title: Manage general meeting policies
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -35,14 +36,16 @@ This article describes the following general policy settings for Teams meetings:
 - [Designated presenter role mode](#designated-presenter-role-mode)
 - [Engagement report](#engagement-report)
 - [Meeting registration](#meeting-registration)
-- [Who can register](#who-can-register)
+- [Webinars](#webinars)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
+- [Meeting reactions](#meeting-reactions)
+- [Speaker Coach](#speaker-coach)
 
 ## Meet now in channels
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click the **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
 
-[ ![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## Outlook add-in
 
@@ -64,7 +67,7 @@ Schedule a meeting will be disabled.
 
 Channel selection is disabled.
 
-[ ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 In the channel posts page, the following will be disabled:
 
@@ -117,47 +120,34 @@ Keep in mind that after you set the default value, meeting organizers can still 
 
 ## Engagement report
 
-This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
+This is a per-user policy. This setting controls whether meeting organizers can download the [meeting engagement report](teams-analytics-and-reports/meeting-attendance-report.md).
 
 This policy is on by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Off**.
 
 You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-By default, the **AllowEngagementReport** parameter is set to **Enabled** in PowerShell. To prevent a meeting organizer from downloading the meeting attendance report, set the **AllowEngagementReport** parameter to **Disabled**.
+By default, the **AllowEngagementReport** parameter is set to **Enabled** in PowerShell. To prevent a meeting organizer from downloading the meeting engagement report, set the **AllowEngagementReport** parameter to **Disabled**.
 
-When this policy is enabled, the option to download the meeting attendance report is displayed in the **Participants** pane.
+When this policy is enabled, the option to download the meeting engagement report is displayed in the **Participants** pane.
 
 > [!NOTE]
 > As an administrator, you can’t view the attendance report for meetings that you don’t organize. However, you can view participant details for a given meeting within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
 
-For more information, including limits of the engagement report, see [viewing and downloading meeting attendance reports in Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
+For more information, including limits of the engagement report, see [viewing and downloading meeting attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Meeting registration
 
-This is a per-user policy. If you turn this on, users in your organization can set up webinars. This policy is enabled by default.
+This is a per-user policy. If you turn this on, users in your organization can add registration to a meeting. This policy is enabled by default.
 
-To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**. To turn off meeting registration, set the policy to **Off**.
+To find out more about meeting registration, read [Configure meeting registration](set-up-webinars.md#configure-meeting-registration).
 
-You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+## Webinars
 
-To turn on meeting registration, set the  **MeetingRegistration** parameter to **True**. This is set to **True** by default.
+This is a per-user policy. If you enable webinars, users in your organization can create webinars with robust registration management, customizable event and registration sites, and event-oriented default meeting options. This policy is enabled by default.
 
-To turn off meeting registration and prevent users from scheduling webinars, set the parameter to **False**.
+Read more about webinars in [Set up webinars](set-up-webinars.md).
 
-## Who can register
-
-This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Meeting registration** is turned on.
-
-- Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization set up.
-- Set **Who can register** to **Everyone in the organization** if you want to allow only the users in your organization to register and attend webinars.
-
-By default, **Who can register** is set to **Everyone**. To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**.
-
-You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
-
-To allow everyone, including anonymous users, to register and attend webinars, set the **WhoCanRegister** parameter to **Everyone**. This is set to **Everyone** by default.
-
-To allow only users in your organization to register and attend webinars, set the parameter to **EveryoneInCompany**.
+For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 ## Meeting provider for Islands mode
 
@@ -176,10 +166,24 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
 ## Meeting reactions
 
-The AllowMeetingReactions setting can only be applied using PowerShell. There is no option to toggle AllowMeetingReactions on or off from the Teams admin center.
+The availability of meeting reactions can be configured through either the Teams admin center interface or using PowerShell. Meeting reactions are enabled by default.
 
-Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
+In the Teams admin center, Meeting reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Participants & guests** section of a meeting policy.
 
+To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
+
+Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
+
+## Speaker Coach
+
+This setting lets users turn on Speaker Coach during a Teams meeting. Speaker Coach listens to the audio of the user while they present and provides private real-time feedback and suggestions for improvement. The user also gets a summary report of their feedback after the meeting.
+
+> [!NOTE]
+> The user who turned on Speaker Coach during the meeting is the only one who can see the summary report of feedback. Admins won't have access to any of this data.
+
+Currently, you can only set and edit this policy in PowerShell. by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to **False**.
 
 ## Related topics
 

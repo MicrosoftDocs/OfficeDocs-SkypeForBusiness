@@ -1,7 +1,7 @@
 ---
 title: Define usage scenarios for Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin

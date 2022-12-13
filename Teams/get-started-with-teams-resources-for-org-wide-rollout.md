@@ -1,7 +1,7 @@
 ---
 title: Start your organization-wide rollout of Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
@@ -28,7 +28,7 @@ appliesto:
 Now that you've successfully set up your first teams and onboarded a few early adopters, it's time to begin your rollout of Teams to the rest of your organization.
 
 > [!TIP]
-> Before you begin your Teams rollout, we strongly recommend that you complete the [Prepare for a Teams deployment with Microsoft 365](/learn/modules/m365-teams-collab-prepare-deployment/) Microsoft Learn module. This 30 minute module will jump-start your understanding of Teams and talk through key decisions you need to make as you roll out Teams.
+> Before you begin your Teams rollout, we strongly recommend that you complete the [Prepare for a Teams deployment with Microsoft 365](/training/modules/m365-teams-collab-prepare-deployment/) Microsoft Learn module. This 30 minute module will jump-start your understanding of Teams and talk through key decisions you need to make as you roll out Teams.
 >
 > If you want to check out more learning paths and modules available for Teams, see [Microsoft Learn for Teams](/learn/teams/).
 

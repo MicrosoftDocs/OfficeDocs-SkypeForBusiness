@@ -1,8 +1,8 @@
 ---
 title: "Install administrative tools in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: "Summary: Learn how to install the administrative tools required for an installation of Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to install the administrative tools required for an installation of Skype for Business Server."
 ---
 
 # Install administrative tools in Skype for Business Server
  
-**Summary:** Learn how to install the administrative tools required for an installation of Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to install the administrative tools required for an installation of Skype for Business Server.
   
 The administrative tools include Topology Builder and the Control Panel. The administrative tools must be installed on at least one server in the topology or a 64-bit management workstation running a Windows OS version that is supported for Skype for Business Server. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Installing the administrative tools is step 3 of 8.
   
@@ -29,7 +29,7 @@ The administrative tools include Topology Builder and the Control Panel. The adm
   
 ## Install Skype for Business Server administrative tools
 
-The installation media for Skype for Business Server provides a flexible experience. When you first run Setup.exe, the only tools installed are the Skype for Business Server Deployment Wizard and the Skype for Business Server Management Shell. By using these two tools, known as Core Components, you can continue with the installation process, but they do not provide primary functionality for the overall Skype for Business Server environment. The Deployment Wizard launches automatically after you install the Core Components. The section of the Deployment Wizard titled **Install Administrative Tools** installs Skype for Business Server Topology Builder and Skype for Business Server Control Panel.
+The installation media for Skype for Business Server provides a flexible experience. When you first run Setup.exe, the only tools installed are the Skype for Business Server Deployment Wizard and the Skype for Business Server Management Shell. By using these two tools, known as Core Components, you can continue with the installation process, but they don't provide primary functionality for the overall Skype for Business Server environment. The Deployment Wizard launches automatically after you install the Core Components. The section of the Deployment Wizard titled **Install Administrative Tools** installs Skype for Business Server Topology Builder and Skype for Business Server Control Panel.
   
 > [!IMPORTANT]
 > Every Skype for Business Server environment must have at least one server with the administrative tools installed. 
@@ -40,7 +40,7 @@ Watch the video steps for **Install administrative tools**:
   
 ### Install Skype for Business Server administrative tools from the Deployment Wizard
 
-1. Insert the Skype for Business Server installation media. If the setup does not automatically begin, double-click **Setup**.
+1. Insert the Skype for Business Server installation media. If the setup doesn't automatically begin, double-click **Setup**.
     
 2. The installation media requires Microsoft Visual C++ to run. A dialog box will pop up asking if you want to install it. Click **Yes**.
     

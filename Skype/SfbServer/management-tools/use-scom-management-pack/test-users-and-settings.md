@@ -1,8 +1,8 @@
 ---
 title: How to configure watcher node test users and settings
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -369,7 +369,7 @@ In this example, a Skype for Business Server rule will need to exist to route me
   
 ### Video Interop Server (VIS) Synthetic Transaction
 
-The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
+The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files (VISSTSupportPackage.msi). 
   
 To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   

@@ -128,46 +128,46 @@ The steps are the same as assigning a Microsoft 365 or Office 365 license. See [
 
 2. Download and install the **Windows Azure Active Directory Module.** See[Manage Azure AD using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)) for download instructions and cmdlet syntax.
 
-    Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users:
+   Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users:
 
-    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
+   The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
 
-    This example assigns an Enterprise E3 license along with an Audio Conferencing license.
+   This example assigns an Enterprise E3 license along with an Audio Conferencing license.
 
-	```powershell
-	#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
-	#Example of text file:
-	#user1@domain.com
-	#user2@domain.com
+   ```powershell
+   #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
+   #Example of text file:
+   #user1@domain.com
+   #user2@domain.com
 
-	#Import Module
-	ipmo MSOnline
+   #Import Module
+   ipmo MSOnline
 
-	#Authenticate to MSOLservice
-	Connect-MSOLService
-	#File prompt to select the userlist txt file
-	[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-	  $OFD = New-Object System.Windows.Forms.OpenFileDialog
-	  $OFD.filter = "text files (*.*)| *.txt"
-	  $OFD.ShowDialog() | Out-Null
-	  $OFD.filename
+   #Authenticate to MSOLservice
+   Connect-MSOLService
+   #File prompt to select the userlist txt file
+   [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+     $OFD = New-Object System.Windows.Forms.OpenFileDialog
+     $OFD.filter = "text files (*.*)| *.txt"
+     $OFD.ShowDialog() | Out-Null
+     $OFD.filename
 
-	If ($OFD.filename -eq '')
-	{
-	Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-	}
+   If ($OFD.filename -eq '')
+   {
+   Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
+   }
 
-	#Create a variable of all users
-	$users = Get-Content $OFD.filename
+   #Create a variable of all users
+   $users = Get-Content $OFD.filename
 
-	#License each user in the $users variable
-	foreach ($user in $users)
-		{
-		Write-host "Assigning License: $user"
-		Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
-		Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
-		}
-	```
+   #License each user in the $users variable
+   foreach ($user in $users)
+    {
+    Write-host "Assigning License: $user"
+    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
+    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+    }
+   ```
 
 ### Audio Conferencing product names or SKUs used for scripting
 <a name="sku"> </a>

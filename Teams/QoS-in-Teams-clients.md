@@ -1,7 +1,7 @@
 ---
 title: Implement Quality of Service (QoS) in Microsoft Teams clients
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams

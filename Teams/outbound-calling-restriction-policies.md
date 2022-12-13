@@ -5,14 +5,13 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
   - M365-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -69,7 +68,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **Set the policy on the tenant level with the following cmdlet**.
 
 ```powershell
-Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 All users of the tenant who don't have any dialout policy assigned will get this policy. Other users remain with their current policy.

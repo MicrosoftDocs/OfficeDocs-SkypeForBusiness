@@ -1,7 +1,7 @@
 ---
 title: Set up for live events in Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,6 +16,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 description: Set up for live events in Teams, including set up your network, assign licenses, enable live event features and scheduling, and video distribution solutions.
 appliesto: 
   - Microsoft Teams
@@ -65,7 +66,7 @@ Live events policies are used to control who in your organization can hold live 
 |**Who can join scheduled live events**    |Choose one of the following.<br><br>**Everyone** Users can create live events that everyone, including people outside your organization, can attend. This setting enables the **Public** permission type in Teams when a user schedules a live event.<br> **Everyone in the organization** Users can create live events that people in your organization, including [guest users](../add-guests.md) added to your organization, can attend. Users can't create live events that are attended by anonymous users. This setting enables the **Org-wide** permission type in Teams when a user schedules a live event.<br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. Users can't create live events that are attended by everyone in your organization or by anonymous users. This setting enables the **People and groups** permission type in Teams when a user schedules a live event.       |
 |**Recording setting**  <br>     | This setting can only be applied to events produced in Teams. Choose one of the following. <br><br> **Always record** Live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** Live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it's recorded, after the event is over, event team members can download the recording and attendees can watch the event.
 
-You can also do this by using Windows PowerShell. For more information, see [Use PowerShell to set live events policies in Teams](set-teams-live-events-policies-using-powershell.md).
+You can also do this by using Windows PowerShell, and, currently, GCC High and DoD customers must use this method. For more information, see [Use PowerShell to set live events policies in Teams](set-teams-live-events-policies-using-powershell.md).
 
 ### Assign a live events policy to users
 
@@ -86,23 +87,26 @@ For users to schedule events produced with an external app or device, you must a
 
 ## Step 4: Set up a video distribution solution for live events in Teams
 
-Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
+Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, Microsoft offers a first-party solution, [Microsoft eCDN](/ecdn) (enterprise content delivery network). Live events solutions are also integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or eCDNs. These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end-user viewing experiences. These solutions can help enable a more scalable and efficient video distribution across your enterprise network.
 
-**Purchase and set up your solution outside of Teams**
-Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams, you must purchase and set up the SDN/eCDN solution outside and separate from Teams.
+- **Microsoft eCDN**
+Microsoft eCDN is integrated into Teams and is also compatible with Stream and Yammer. It employs peer-to-peer technology within a corporate network to offload bandwidth from the WAN connection.
+
+- **Purchase and set up your solution outside of Teams**
+Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. 
 
 The following SDN/eCDN solutions are pre-integrated and can be set up to be used with Stream.
 
 - **Hive Streaming** provides a simple and powerful solution for live and on-demand enterprise video distribution. Hive is a software-based solution that requires no additional hardware or bandwidth and provides a secure way to enable thousands of simultaneous video viewers without impact to your network. For customers looking to understand the impact video is having on their network prior to purchasing an SDN/eCDN solution, Hive Streaming also provides a browser-based analytics solution for Microsoft customers. [Learn more](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
-- **Kollective** is a cloud-based, smart peering distribution platform that leverages your existing network infrastructure to deliver content, in many forms, (live streaming video, on-demand video, software updates, security patches, etc.) faster, more reliably and with less bandwidth. Our secure platform is trusted by the world's largest financial institutions and with no additional hardware, setup and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
+- **Kollective** is a cloud-based, smart-peering distribution platform that leverages your existing network infrastructure to deliver content in many forms (live streaming video, on-demand video, software updates, security patches, and more) faster, more reliably, and with less bandwidth. Our secure platform is trusted by the world's largest financial institutions and with no additional hardware, setup and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
 
 - **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for live events produced in Teams is coming soon. [Learn more](https://rampecdn.com).
 
 - **Riverbed**, the industry standard in network optimization, is extending its acceleration solutions to Microsoft Teams and Stream.  Now Microsoft 365 customers can confidently accelerate 365 traffic including Teams and Stream along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams and Stream acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
 
 > [!NOTE]
-> Your chosen SDN or eCDN solution is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams.
+> If you choose a 3rd-party SDN or eCDN solution, it is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams.
 
 After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams.
 

@@ -1,14 +1,13 @@
 ---
 title: Support remote government workers using Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: aytange
 ms.localizationpriority: high
 search.appverid: MET150

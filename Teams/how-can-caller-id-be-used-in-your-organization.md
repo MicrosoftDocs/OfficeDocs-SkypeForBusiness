@@ -26,17 +26,13 @@ description: "Caller ID can be controlled for both inbound and outbound calls fo
 
 # How can caller ID be used in your organization
 
-Caller ID consists of two user-facing identifiable pieces of information:
+Caller ID consists of two user-facing pieces of information:
 
-- A phone number (typically referred to as CLID or calling line ID). This is the Public Switched Telephone Number (PSTN) presented as the identification of the caller.
+- A phone number (referred to as CLID or calling line ID). This is the Public Switched Telephone Network (PSTN) number presented as the identification of the caller.
 
 - A Calling party name (typically referred to as CNAM). 
   
-The caller ID functionality is available to all Phone System users regardless of PSTN connectivity option:
-
-- Microsoft Calling Plans 
-
-- Phone System Direct Routing 
+The caller ID functionality is available to all Phone System users regardless of [PSTN connectivity option](pstn-connectivity.md): Microsoft Calling Plan, Operator Connect, or Direct Routing. 
   
 You can control Caller ID for both inbound and outbound calls by using a policy called CallingLineIdentity. For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md).
 
@@ -51,7 +47,7 @@ For the outbound PSTN caller ID, the following options are available.
 
 - A substitute phone number, which can be:
 
-  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is usually assigned to a Teams Auto Attendant or Call Queue.
+  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is assigned to a Teams Auto Attendant or Call Queue.
 
   - An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue. 
 
@@ -63,9 +59,9 @@ For more information, see [Set the Caller ID for a user](./set-the-caller-id-for
 
 Users can change their caller ID setting to **Anonymous** by setting the EnableUserOverride attribute. 
 
-If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect and the caller ID is always set to Anonymous. The default value of EnableUserOverride is False.
+If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect, and the caller ID is always set to Anonymous. The default value of EnableUserOverride is False.
 
-Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.
+Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. It takes a few minutes for this setting change to reflect on new calls. 
 
 ### Notes
 
@@ -79,9 +75,9 @@ Keep the following in mind:
 
   - A Skype for Business Server on-premises telephone number.
 
-- The use of resource account phone number substitution only works for Teams users. The substitution of service phone number works for both Skype for Business Online and Teams users.
+- The use of resource account phone number substitution works for Teams users. The substitution of service phone number works for Teams users.
 
-- Calling Party Name is only sent on calls where the caller ID is substituted with LineUri, a service or resource account phone number and when the caller is a Teams user.
+- Calling Party Name is sent on calls where the caller ID is substituted with LineUri, a service or resource account phone number, and when the caller is a Teams user.
 
 - Calling Party Name can have a maximum of 200 characters, but downstream systems might support fewer characters.
 
@@ -92,9 +88,9 @@ Keep the following in mind:
    
 ## Inbound caller ID
 
-Phone System will show the incoming external phone number as the caller ID. If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number is not in Azure AD or a personal contact, the telco-provided display name will be shown if it is available.
+Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number is not in Azure AD or a personal contact, the telco-provided display name will be shown if it is available.
 
-The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. When this setting is enabled the incoming PSTN caller will be displayed as coming from Anonymous.
+The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. When this setting is enabled, the incoming PSTN caller is displayed as coming from Anonymous.
   
 To block the inbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
   

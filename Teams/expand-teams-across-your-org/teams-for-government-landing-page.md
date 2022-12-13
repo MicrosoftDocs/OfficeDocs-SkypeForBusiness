@@ -1,8 +1,8 @@
 ---
 title: Teams for Government
 description: Learn how to plan and deploy Teams in Microsoft 365 Government environments.
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.topic: article
 manager: serdars
 audience: admin

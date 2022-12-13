@@ -1,7 +1,7 @@
 ---
 title: Set up auto answer for Teams Android devices
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: 
-description: Learn how to set up the auto answer feature for Teams Android devices with PowerShell.
+description: Learn how to set up the auto answer feature for Microsoft Teams Rooms on Android and Teams video phone devices with PowerShell.
 ---
 
-# Set up auto answer for Teams Android devices
+# Set up auto answer for Microsoft Teams Rooms on Android and Teams video phone devices
 
-This article will help you set up the auto answer feature on Teams Android devices. Auto answer allows people in your organization with administrative privileges to change their device settings to automatically accept incoming meeting invites and automatically accept calls with video.
+This article will help you set up the auto answer feature on Microsoft Teams Rooms on Android and Teams video phone devices. Auto answer allows people in your organization with administrative privileges to change their device settings to automatically accept incoming meeting invites and automatically accept calls with video.
 
 ## Enable auto answer with PowerShell
 
-Use the following attributes to enable auto answer on Teams Android devices:
+Use the following attributes to enable auto answer on Microsoft Teams Rooms on Android and Teams video phone devices:
 
 - **Set-CsTeamsCallingPolicy -AutoAnswerEnabledType**
 - **Set-CsTeamsIPPhonePolicy -SignInMode**

@@ -1,13 +1,12 @@
 ---
 title: Configure an Exchange hybrid organization
-author: dstrome
-ms.author: dstrome
+author: JoanneHendrickson 
+ms.author: jhendr 
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dstrome
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams to ensure Group memberships are synchronized.
 f1.keywords:
 - NOCSH

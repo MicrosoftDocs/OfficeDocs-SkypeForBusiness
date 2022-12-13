@@ -1,7 +1,7 @@
 ---
 title: "Manage Skype Room System accounts"
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

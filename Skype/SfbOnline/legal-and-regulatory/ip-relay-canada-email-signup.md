@@ -29,25 +29,25 @@ To get an IP Relay account set up for Canada, please complete the information in
 
 - First & Last Name:
 
-- Microsoft 365 or Office 365 Organization Domain Name:(Example: Contoso.com)	
+- Microsoft 365 or Office 365 Organization Domain Name:(Example: Contoso.com)
 
 - Microsoft 365 or Office 365 User phone number:(Example: +1 XXX XXX XXXX)
 
-- Password (8 to 16 characters):	
+- Password (8 to 16 characters):
 
-- Most likely physical address at the time of an emergency:	
+- Most likely physical address at the time of an emergency:
 
-- Street Number & Name:	
+- Street Number & Name:
 
-- Apartment / Suite:	
+- Apartment / Suite:
 
-- City:	
+- City:
 
-- Province / State:	
+- Province / State:
 
-- Postal Code / Zip Code:	
+- Postal Code / Zip Code:
 
-- Phone Number:	
+- Phone Number:
 
 - Microsoft 365 or Office 365 Email Address:
 
@@ -56,7 +56,4 @@ To get an IP Relay account set up for Canada, please complete the information in
 
 Once your account is ready (within 24 working hours), we will email you back with the User Name and Password. 
 
-
 Next, see the [IP Relay in Canada - user guide](ip-relay-canada-user-guide.md) to get started. 
-
-
