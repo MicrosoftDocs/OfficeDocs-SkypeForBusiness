@@ -5,7 +5,7 @@ This article covers how to create resource accounts and ready them for use with 
 Before you start the procedures in this article, ensure you've done the following steps:
 
 - [Obtain Microsoft Teams Phone Resource Account licenses](#obtain-microsoft-teams-phone-resource-account-licenses)
-- [Obtain service numbers](#obtain-service-numbers)
+- [Obtain phone numbers](#obtain-phone-numbers)
 
 > [!NOTE]
 > Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
@@ -64,13 +64,13 @@ For each resource account, you must assign a **Microsoft Teams Phone Resource Ac
 4. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Resource Account**.
 5. Select **Save changes**.
 
-## Assign a service number
+## Assign a phone number
 
-If you're planning to use the resource account with an auto attendant or call queue that requires a service number, assign a number to the resource account.
+If you're planning to use the resource account with an auto attendant or call queue that requires a phone number, assign a number to the resource account.
 
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expand **Voice**, and then select **Resource accounts** page.
-3. Select the resource account to which you want to assign a service number, and then select **Assign/unassign**.
+3. Select the resource account to which you want to assign a phone number, and then select **Assign/unassign**.
 4. In the **Phone number type** dropdown, choose the type of number that you want to use.
 5. In the **Assigned phone number** box, search for the number you want to use and select **Add**. Be sure to include the country code (for example, +1 250 555 0012).
 6. Select **Save**.
