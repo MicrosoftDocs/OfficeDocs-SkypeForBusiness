@@ -1,4 +1,4 @@
-In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned service telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
+In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
 
 This article covers how to create resource accounts and ready them for use with auto attendants and call queues.
 
@@ -32,7 +32,7 @@ There's zero cost, but you still need to follow these steps to acquire the licen
 
 ### Obtain phone numbers
 
-Phone numbers are optional for auto attendants and call queues; however, you'll need at least one phone number in order for callers to reach your auto attendant and call queue configuration. For any auto attendant or call queue that you want to be reachable directly by a phone number, you must have a resource account with an associated phone number.
+Phone numbers are optional for auto attendants and call queues. For any auto attendant or call queue that you want to be reachable directly by a phone number, you must have a resource account with an associated phone number.
 
 Resource accounts can use either toll or toll-free phone numbers. You can request new numbers or port existing numbers from another carrier.
 
