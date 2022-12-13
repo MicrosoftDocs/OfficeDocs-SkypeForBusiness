@@ -78,9 +78,9 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   | NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Required<sup>1</sup>  |
   | NetworkRange       | Number    | 26                        | Required              |
   | BuildingName       | String    | SEATTLE-SEA-1             | Required<sup>1</sup>  |
-  | OwnershipType      | String    | Contoso                   | Optional              |
-  | BuildingType       | String    | IT Termination            | Optional              |
-  | BuildingOfficeType | String    | Engineering               | Optional              |
+  | OwnershipType      | String    | Contoso                   | Optional<sup>4</sup>  |
+  | BuildingType       | String    | IT Termination            | Optional<sup>4</sup>  |
+  | BuildingOfficeType | String    | Engineering               | Optional<sup>4</sup>  |
   | City               | String    | Seattle                   | Recommended           |
   | ZipCode            | String    | 98001                     | Recommended           |
   | Country            | String    | US                        | Recommended           |
@@ -95,6 +95,8 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   <sup>2</sup> This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes.
 
   <sup>3</sup> This setting can be used to reflect whether or not the network uses Azure ExpressRoute. You can customize usage for other purposes.  
+  
+  <sup>4</sup> While these optional columns are named to suggest what values you may want to populate them with, you can customize usage for other purposes. eg: Network Priority - `Tier 1, Tier 2, Tier 3` 
 
   **Sample row:**
 

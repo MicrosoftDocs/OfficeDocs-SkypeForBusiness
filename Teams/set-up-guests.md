@@ -16,6 +16,7 @@ ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
   - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+  - chat-teams-channels-revamp
 ms.localizationpriority: medium
 f1.keywords:
 - CSH

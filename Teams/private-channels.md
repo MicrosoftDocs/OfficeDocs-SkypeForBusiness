@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
   - m365initiative-securecollab
@@ -126,8 +127,6 @@ It is not possible to convert a private channel to another channel type.
 Notifications from private channels are not included in missed activity emails.
 
 Channel meetings can't be scheduled.
-
-Channel meetings can't be customized with a meeting title.
 
 ## Related topics
 
