@@ -267,6 +267,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #3  | Dec 13, 2022 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
 | 2022 Update #2B  | Sep 15, 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #2A  | August 8, 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #2  | May 25, 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -285,6 +286,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar  | `1.8.290`     | 2022 Update #2B  |
+| Logi Rallybar Mini  | `1.8.290`     | 2022 Update #2B  |
+| Logi Console  | `1.8.177`    | 2022 Update #2B  |
 | Logi Rallybar  | `1.7.300`     | 2022 Update #2B  |
 | Logi Rallybar Mini  | `1.7.300`     | 2022 Update #2B  |
 | Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
