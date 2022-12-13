@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_SB_Hybrid
 ms.custom:
@@ -61,7 +61,7 @@ Add the following DNS records to your Microsoft 365 or Office 365 organization. 
     
 2. SRV records will automatically be created by Microsoft 365 or Office 365 and the deployment scripts. Confirm that you can look up the following two SIP services on the Edge: \_sip and \_sipfederationtls.
     
-     ![SRV Records confirmation](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
+     ![SRV Records confirmation.](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
 ## Set up hybrid connectivity between Cloud Connector Edition and Microsoft 365 or Office 365
 

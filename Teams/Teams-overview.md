@@ -1,14 +1,14 @@
 ---
 title: Welcome to Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Microsoft 365 or Office 365.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.allteamsdocuments
+  - intro-overview
 appliesto: 
   - Microsoft Teams
 ---
@@ -47,11 +48,10 @@ When you create a team, here's what gets created:
 
 When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams. To learn more, check out this poster: [Groups in Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-To customize and extend Teams, add third-party apps through [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Microsoft 365 and Office 365, Teams offers a robust [development platform](/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
+To customize and extend Teams, add third-party apps using [app management tasks](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Microsoft 365 and Office 365, Teams offers a robust [development platform](/microsoftteams/platform) so you can build the teamwork hub you need for your organization.
 
 > [!TIP]
 > For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
-
 
 ## Managing Teams
 

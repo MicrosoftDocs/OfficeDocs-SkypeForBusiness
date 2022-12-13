@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Skype for Business Server 2019 supports multi-site and multi-pool deployments. The process of migrating multiple pools to Skype for Business Server 2019 requires the following considerations:"
 ---
 

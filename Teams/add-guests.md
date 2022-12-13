@@ -9,13 +9,14 @@ ms.service: msteams
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
-  - m365initiative-externalcollab
 search.appverid: MET150
 ms.reviewer: rafarhi
-f1.keywords:
-- NOCSH
-localization_priority: Normal
-ms.custom: seo-marvel-mar2020
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
+ms.custom: 
+  - seo-marvel-mar2020
+  - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
 description: Admins can learn how to add new guests to an organization in Microsoft Teams desktop and web clients and Azure Active Directory B2B collaboration portal.

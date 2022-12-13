@@ -1,7 +1,7 @@
 ---
 title: Availability in Antigua and Barbuda
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -57,7 +57,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
 |Can make outbound calls to?  <br/> |Not applicable  <br/> |
 
-If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
+If Calling Plans are not available to purchase, see [PSTN connectivity options](../pstn-connectivity.md) for all available options.
 
    
 ## Toll and toll free numbers for services

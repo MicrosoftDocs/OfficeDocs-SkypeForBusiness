@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: 'Teams voice Contoso case study: Location-based routing'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: 'Teams voice case study for multi-national corporation: Location-based Routing'
 appliesto: 
   - Microsoft Teams
 ---
@@ -42,11 +42,11 @@ The following diagrams show the before and after deployments for a country with 
 
 **Original deployment**
 
-![Diagram showing before state](media/voice-case-study-5.png)
+![Diagram showing before state.](media/voice-case-study-5.png)
 
 **Deployment with Direct Routing**
 
-![Diagram showing before state](media/voice-case-study-6.png)
+![Diagram 2 showing before state.](media/voice-case-study-6.png)
 
 
 ## Configuration: 

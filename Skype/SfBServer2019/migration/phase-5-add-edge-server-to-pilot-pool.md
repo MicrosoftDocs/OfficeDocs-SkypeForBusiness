@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "The topics in this section explain how to add a Skype for Business Server 2019 Edge Server to the pilot pool deployment. The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard."
 ---
 

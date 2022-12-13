@@ -1,7 +1,7 @@
 ---
 title: Network settings for cloud voice features
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -9,12 +9,13 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn about the network settings that you must configure for Location-Based Routing for Direct Routing and enhanced emergency services.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

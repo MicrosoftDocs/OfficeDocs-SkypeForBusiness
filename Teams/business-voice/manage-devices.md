@@ -1,22 +1,21 @@
 ---
 title: Manage devices
-author: dstrome 
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
-localization_priority: Normal
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 
+description: Learn how to manage devices for Teams Phone System with Calling Plan.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
+  - Teams_ITAdmin_Devices
 ---
 
 [!INCLUDE [device-management](../devices/device-management.md)]

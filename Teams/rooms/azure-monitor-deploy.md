@@ -1,5 +1,5 @@
 ---
-title: Deploy Microsoft Teams Rooms management with Azure Monitor
+title: Deploy Microsoft Teams Rooms monitoring with Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -7,25 +7,28 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
-localization_priority: Normal
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: "This article discusses how to deploy management of Microsoft Teams Rooms devices in an integrated, end-to-end manner using Azure Monitor."
+description: This article discusses how to deploy monitoring of Microsoft Teams Rooms in an integrated, end-to-end manner using Azure Monitor.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Deploy :::no-loc text="Microsoft Teams Rooms"::: management with :::no-loc text="Azure Monitor":::
+# Deploy :::no-loc text="Microsoft Teams Rooms"::: monitoring with :::no-loc text="Azure Monitor":::
 
-This article discusses how to set up and deploy integrated, end-to-end management of :::no-loc text="Microsoft Teams Rooms"::: devices by using :::no-loc text="Azure Monitor":::.
+This article discusses how to set up and deploy integrated, end-to-end monitoring of :::no-loc text="Microsoft Teams Rooms"::: devices by using :::no-loc text="Azure Monitor":::.
 
-You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure Monitor"::: to provide basic telemetry and alerts that will help you manage :::no-loc text="Microsoft Teams Rooms"::: meeting room devices. As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
+
+You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure Monitor"::: to provide basic telemetry and alerts that will help you manage :::no-loc text="Microsoft Teams Rooms":::. As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and :::no-loc text="Microsoft Teams Rooms"::: application and operating system version distribution.
 
-![Screenshot of sample Log Analytics view for Microsoft Teams Rooms](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
+![Screenshot of sample Log Analytics view for Microsoft Teams Rooms.](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
 
 At a high level, you need to perform the following tasks:
 
@@ -45,7 +48,7 @@ At a high level, you need to perform the following tasks:
 ## Validate :::no-loc text="Log Analytics"::: configuration
 <a name="validate_LogAnalytics"> </a>
 
-You need to have a :::no-loc text="Log Analytics"::: workspace to start collecting logs from :::no-loc text="Microsoft Teams Rooms"::: devices. A workspace is a unique :::no-loc text="Log Analytics"::: environment with its own data repository, data sources, and solutions. If you already have an existing :::no-loc text="Log Analytics"::: workspace, you might use it to monitor your :::no-loc text="Microsoft Teams Rooms"::: deployment or alternatively, you can create a dedicated :::no-loc text="Log Analytics"::: workspace specific to your :::no-loc text="Microsoft Teams Rooms"::: monitoring needs.
+You need to have a :::no-loc text="Log Analytics"::: workspace to start collecting logs from :::no-loc text="Microsoft Teams Rooms":::. A workspace is a unique :::no-loc text="Log Analytics"::: environment with its own data repository, data sources, and solutions. If you already have an existing :::no-loc text="Log Analytics"::: workspace, you might use it to monitor your :::no-loc text="Microsoft Teams Rooms"::: deployment or alternatively, you can create a dedicated :::no-loc text="Log Analytics"::: workspace specific to your :::no-loc text="Microsoft Teams Rooms"::: monitoring needs.
 
 If you need to create a new :::no-loc text="Log Analytics"::: workspace, follow the instructions in the article [Create a :::no-loc text="Log Analytics"::: workspace in the :::no-loc text="Azure"::: portal](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -56,11 +59,11 @@ If you need to create a new :::no-loc text="Log Analytics"::: workspace, follow 
 
 :::no-loc text="Log Analytics"::: only collects events from the :::no-loc text="Windows"::: event logs that are specified in the settings. For each log, only the events with the selected severities are collected.
 
-You need to configure :::no-loc text="Log Analytics"::: to collect the logs required to monitor :::no-loc text="Microsoft Teams Rooms"::: device and application status. :::no-loc text="Microsoft Teams Rooms"::: devices use the **:::no-loc text="Skype Room System":::** event log.
+You need to configure :::no-loc text="Log Analytics"::: to collect the logs required to monitor :::no-loc text="Microsoft Teams Rooms"::: device and application status. :::no-loc text="Microsoft Teams Rooms"::: use the **:::no-loc text="Skype Room System":::** event log.
 
 To configure :::no-loc text="Log Analytics"::: to collect the :::no-loc text="Microsoft Teams Rooms"::: events, see [:::no-loc text="Windows"::: event log data sources in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Screenshot of event log settings](../media/Deploy-Azure-Monitor-2.png "Event log settings")
+![Screenshot of event log settings.](../media/Deploy-Azure-Monitor-2.png "Event log settings")
 
 > [!IMPORTANT]
 > Configure :::no-loc text="Windows"::: Event Log settings and enter **:::no-loc text="Skype Room System":::** as event log name, and then select the **Error**, **Warning**, and **Information** check boxes.
@@ -68,7 +71,7 @@ To configure :::no-loc text="Log Analytics"::: to collect the :::no-loc text="Mi
 ## Configure test devices for Azure Monitoring
 <a name="configure_test_devices"> </a>
 
-You need to prepare :::no-loc text="Log Analytics"::: to be able to monitor :::no-loc text="Microsoft Teams Rooms":::–related events. To start with, you need to deploy :::no-loc text="Microsoft Monitoring"::: agents to just one or two :::no-loc text="Microsoft Teams Rooms"::: devices that you have physical access to, and get those test devices generate some data and push it to the :::no-loc text="Log Analytics"::: workspace.
+You need to prepare :::no-loc text="Log Analytics"::: to be able to monitor :::no-loc text="Microsoft Teams Rooms":::–related events. To start with, you need to deploy :::no-loc text="Microsoft Monitoring"::: agents to one or two :::no-loc text="Microsoft Teams Rooms"::: devices that you have physical access to, and get those test devices to generate some data and push it to the :::no-loc text="Log Analytics"::: workspace.
 
 ### Install :::no-loc text="Microsoft Monitoring"::: agents to test devices
 
@@ -90,12 +93,12 @@ After the :::no-loc text="Microsoft Monitoring"::: agent is deployed onto the te
 3.  Make sure that the query returns log records that include events generated by the :::no-loc text="Microsoft Teams Rooms"::: meetings app.
 
 4.  Generate a hardware issue, and validate that the required events are logged in :::no-loc text="Azure Log Analytics":::.
-    1.  Unplug one of the peripheral devices on the test :::no-loc text="Microsoft Teams Rooms"::: system. This could be the camera, speakerphone, microphone, or Front Room Display
+    1.  Unplug one of the peripheral devices on the test :::no-loc text="Microsoft Teams Rooms"::: system. This could be the camera, speaker, microphone, or Front Room Display
     2.  Wait 10 minutes for the event log to be populated in :::no-loc text="Azure Log Analytics":::.
     3.  Use a query to list hardware error events: `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  Generate an application issue, and validate that the required events are logged.
-    1.  Modify :::no-loc text="Microsoft Teams Rooms"::: application configuration, and type an incorrect Session Initiation Protocol (SIP) address/password pair.
+    1.  Modify :::no-loc text="Microsoft Teams Rooms"::: account configuration, and type an incorrect Email/password pair.
     2.  Wait 10 minutes for the event log to be populated in :::no-loc text="Azure Log Analytics":::.
     3.  Use a query to list application error events: `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -155,16 +158,9 @@ After data is collected and custom fields are mapped, you can use View Designer 
 
 > [!NOTE]
 > Previous steps in this guide should have been completed for the dashboard tiles to work properly.
-
-### Create a Microsoft Teams Rooms dashboard by using the import method
-
-You can import an :::no-loc text="Microsoft Teams Rooms"::: dashboard and start monitoring your devices quickly. Take the following steps to import the dashboard:
-
-1.  Get the [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) dashboard file.
-2.  Sign in to the [:::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) and go to :::no-loc text="Log Analytics"::: and select your workspace.
-3.  Open **View Designer**.
-4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
-5.  Select **Save**.
+>
+> [!IMPORTANT]
+> [View Designer in Azure Monitor is retiring on 31 August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) and create and clone functionalities have been disabled on 30 November 2020. Workbooks can be used instead. For more information on the view designer transitioning guide to workbooks, see [Quickstart with preset view designer templates](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates).
 
 ### Create a Microsoft Teams Rooms dashboard manually
 
@@ -362,7 +358,7 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 5.  Configure the Alert logic settings:<br>
     **Based on:** Number of results<br>
-    **Condition:** Greater then<br>
+    **Condition:** Greater than<br>
     **Threshold:** 0<br>
 
 6. Configure Evaluation settings and select **Done**: <br>
@@ -391,13 +387,13 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 Repeat the same procedure but use the following query to list devices that have encountered application issues within the last hour.
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+ ```
+ Event
+ | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+ | summarize arg_max(TimeGenerated, *) by Computer
+ | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+ | sort by TimeGenerated desc
+ ```
 
 Now you've completed defining alerts. You can define additional alerts by using the examples above.
 
@@ -440,7 +436,7 @@ If you already deployed your :::no-loc text="Microsoft Teams Rooms"::: devices b
     6.  Select **Add**, and then **Browse**.
     7.  Select the ps1 script you just copied.
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: devices should install and configure the :::no-loc text="Microsoft Monitoring"::: agent with the second reboot.
+7.  :::no-loc text="Microsoft Teams Rooms"::: should install and configure the :::no-loc text="Microsoft Monitoring"::: agent with the second reboot.
 
 ```PowerShell
 # Install-MMAgent.ps1

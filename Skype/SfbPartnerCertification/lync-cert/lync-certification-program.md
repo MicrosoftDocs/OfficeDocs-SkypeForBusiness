@@ -1,6 +1,6 @@
 ---
 title: "Solutions qualified with Lync Online Dedicated"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,16 +12,16 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Lync Certification
 - dn788947
-description: "Partner qualification requirements for Lync."
+description: "Lync partner qualification requirements."
 ---
 
-# Solutions qualified with Lync Online Dedicated
+# Solutions that are qualified with Lync Online Dedicated
 
 Customers deployed with Lync Online Dedicated have Lync running in data centers hosted and managed by Microsoft with infrastructure provisioned specifically for their deployment.
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer:
 description: Security advice and learnings for IT admins on using Sentinel to monitor and hunt threats that may arise in Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -48,7 +48,7 @@ Sentinel workbooks and runbooks can make security monitoring *systematic*. A goo
 
 ## Step 1: Collect Teams logs: Enable Audit logs in Microsoft 365
 
-Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature with [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
+Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature with [these steps](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
 
 ## Step 2: Connect Office 365 logs to Azure Sentinel
 
@@ -215,14 +215,14 @@ SigninLogs
 
 **Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.** Pete Bryan, and people he collaborates with, continue to develop detection and hunting queries for Teams.
 
-Stay in touch with this [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) repository for updates.
+Stay in touch with this [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/) repository for updates.
 
 Watch for updates to the [parser](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) and [logic app](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) used in this article.
 
 You should also join (and contribute to) the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki). We are actively looking for feedback on this article, so please use the feedback option below. Thank you & Happy hunting.
 
-[Registering your application in Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Registering your application in Azure AD](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
-[Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [What is Azure Sentinel?](/azure/sentinel/overview)

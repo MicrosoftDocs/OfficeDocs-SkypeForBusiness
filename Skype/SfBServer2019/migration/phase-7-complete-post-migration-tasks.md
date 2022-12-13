@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "The topics in this section describe tasks that you will need to perform after you have completed your migration to Skype for Business Server 2019."
 ---
 

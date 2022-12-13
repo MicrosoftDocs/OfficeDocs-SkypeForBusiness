@@ -1,15 +1,15 @@
 ---
 title: "Manage trusted applications"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Skype for Business Server."
 ---
 
@@ -35,7 +35,7 @@ Use this article to learn how to configure a new trusted application server, vie
 
 6.  Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.
 
-7.  On the **Select the next hop** page, from the list, select the Skype for Business Server Front End pool.
+7.  On the **Select the next hop** page, from the list, select the Skype for Business Server Front End pool.
 
 8.  Click **Finish**.
 
@@ -79,24 +79,24 @@ You can view information about your trusted applications by using Windows PowerS
 
 To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
-        Get-CsConferenceDisclaimer
+   **Get-CsConferenceDisclaimer**
     
    This command returns information similar to the following for each trusted application:
     
-        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        RegistrarPool          : 487279971
-        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        OwnerUrn               : urn:application:helpdesk
-        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
-        DisplayName            :
-        DisplayNumber          :
-        LineURI                :
-        PrimaryLanguage        : 0
-        SecondaryLanguages     : {}
-        EnterpriseVoiceEnabled : True
-        ExUmEnabled            : False
-        Enabled                : True
+   Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
+                            Service,CN=Services,CN=Configuration,DC=litware,DC=com<br/>
+   RegistrarPool          : 487279971<br/>
+   HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
+                            Service,CN=Services,CN=Configuration,DC=litware,DC=com
+   OwnerUrn               : urn:application:helpdesk<br/>
+   SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
+   DisplayName            :<br/>
+   DisplayNumber          :<br/>
+   LineURI                :<br/>
+   PrimaryLanguage        : 0<br/>
+   SecondaryLanguages     : {}<br/>
+   EnterpriseVoiceEnabled : True<br/>
+   ExUmEnabled            : False<br/>
+   Enabled                : True<br/>
     
    For details, see [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

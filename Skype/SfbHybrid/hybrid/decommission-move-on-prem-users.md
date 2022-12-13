@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -21,6 +21,8 @@ description: "Move users before decommissioning a Skype for Business on-premises
 ---
 
 # Move required users before decommissioning your on-premises environment
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 This article describes how to move required users to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 1 of the following steps to decommission your on-premises environment:
 

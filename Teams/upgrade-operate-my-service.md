@@ -1,14 +1,14 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,7 +22,7 @@ appliesto:
 
 # Operate your service
 
-![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
+![Upgrade journey diagram, emphasizing the Operational Excellence stage.](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.
 
@@ -55,7 +55,7 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![A diagram depicting a list of categories of tasks and activities](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
+![A diagram depicting a list of categories of tasks and activities.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
@@ -356,10 +356,10 @@ The other two reports are Teams-specific, and they provide further detail about
 Teams usage from a user and device perspective. Both reports can be found here:
 
 [Microsoft Teams device usage
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+report](/microsoftteams/teams-analytics-and-reports/device-usage-report)
 
 [Microsoft Teams user activity
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+report](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview)
 
 #### Required permissions
 
@@ -459,7 +459,7 @@ based on the following ratings:
 
 - From 1 through 6 are Detractors: Unhappy customers who can damage your service and impede growth.
 
-![A diagram that demonstrates the NPS scale](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
+![A diagram that demonstrates the NPS scale.](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
 
 Although the base NPS number is useful, you'll get the most value from analyzing
 user comments. They'll help you understand why the user would (or wouldn't)
@@ -704,7 +704,7 @@ duties. The following tasks are commonly required to support users in Teams.
 
 By default, all users with a mailbox in Exchange Online have permissions to
 create Microsoft 365 groups and, therefore, a team in Microsoft Teams. If you want
-to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md#permissions-to-create-teams)
+to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md)
 (and thus the creation of new Microsoft 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow

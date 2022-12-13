@@ -12,7 +12,7 @@ ms.reviewer: rowille
 description: Use onboarding checklists to prepare Microsoft 365 or Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -132,7 +132,7 @@ For additional information, see:
 ### Execute the test plan
 
 [//]: # (Edit okay? "User" seemed a bit ambiguous to me.)
-After the user environment and the service have been configured, the last step of testing includes test plan execution with focus on feature and functionality validation. 
+After the user environment and the service have been configured, the last step of testing includes test plan execution with focus on feature and functionality validation. 
 
 **Audio Conferencing testing prerequisites and assumptions for users and sites in scope:**
 

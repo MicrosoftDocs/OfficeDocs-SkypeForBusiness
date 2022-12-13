@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding roles:"
 ---
 

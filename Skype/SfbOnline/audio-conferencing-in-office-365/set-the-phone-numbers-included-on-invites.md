@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -51,7 +51,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
 3. Choose **Users**.
     
-    ![Shows selecting users in the Skype for Business admin center](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![Shows selecting users in the Skype for Business admin center.](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. Choose the users you want to edit:
     

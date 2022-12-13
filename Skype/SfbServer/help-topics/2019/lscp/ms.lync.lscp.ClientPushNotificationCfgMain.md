@@ -1,8 +1,8 @@
 ---
 title: "Mobile Client Push Notification Configuration"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To configure the Microsoft push notifications and Apple push notifications, you must create a policy to define which types of push notification you require."
@@ -32,7 +32,7 @@ Two selections are available for policy creation and editing:
     
 2. **Edit**: Select a policy and click Edit to select an action from a drop-down. You can only edit sites that you have already created or edit the Global policy:
     
-   - **Show details…**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
+   - **Show details...**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
     
    - **Select all**: If you have a number of policies and need to select all policies, click Select all
     

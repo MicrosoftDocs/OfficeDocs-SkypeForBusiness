@@ -1,22 +1,22 @@
 ---
 title: Microsoft Teams PSTN blocked users report
-author: cichur    
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
-f1.keywords:
-- NOCSH
-localization_priority: Normal
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection: 
-- M365-voice
 description: Use the PSTN blocked users report in Microsoft Teams admin center to get an overview of your organization's Teams users that are blocked from making PSTN calls.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.collection: 
+  - M365-voice
 ---
 # Microsoft Teams PSTN blocked users report
 
@@ -26,7 +26,7 @@ The PSTN blocked users report in the Microsoft Teams admin center shows you the 
 
 In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN blocked users**, and then click **Run report**.
 
-![Screenshot of the PSTN blocked users report report in the admin center](../media/teams-reports-pstn-blocked-users-with-callouts.png "Screenshot of the PSTN blocked users report in the Microsoft Teams admin center with numbered callouts")
+![Screenshot of the PSTN blocked users report report in the admin center.](../media/teams-reports-pstn-blocked-users-with-callouts.png "Screenshot of the PSTN blocked users report in the Microsoft Teams admin center with numbered callouts")
 
 ## Interpret the report
 

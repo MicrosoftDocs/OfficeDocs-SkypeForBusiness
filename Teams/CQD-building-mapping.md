@@ -1,7 +1,7 @@
 ---
 title: Create a building map for Call Quality Dashboard (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -13,7 +13,7 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
 ms.custom: 

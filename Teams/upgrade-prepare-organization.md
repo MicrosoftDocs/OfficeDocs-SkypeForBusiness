@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Assess your organization's readiness to accept change, and prepare a plan for getting users ready to upgrade from Skype for Business to Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -24,7 +24,7 @@ appliesto:
 
 # Prepare your organization
 
-![Stages of the upgrade journey, with emphasis on User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
+![Stages of the upgrade journey, with emphasis on User Readiness stage.](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 

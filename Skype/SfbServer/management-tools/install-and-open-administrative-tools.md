@@ -1,15 +1,15 @@
 ---
 title: "Install and open administrative tools"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This topic describes how to install and open the administrative tools you need to deploy and manage Skype for Business."
 ---
 

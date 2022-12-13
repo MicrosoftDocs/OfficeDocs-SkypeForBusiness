@@ -1,5 +1,5 @@
 ---
-title: Solutions qualified with Lync Online Dedicated
+title: Lync Online Dedicated partner qualified solutions and technical requirements
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,7 +22,7 @@ description: Partner qualification requirements for Lync include Infrastructure,
 ---
 
 
-# Partner qualification processes
+# Lync Online Dedicated partner qualified solutions and technical requirements
 
 ## Infrastructure
 With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).
@@ -57,7 +57,7 @@ The timeline that follows shows the approximate timeline for the qualification p
 
 ***Partner qualification timeline for Microsoft Partner Program***
 
-![Qualification timeline for Skype for Business](../media/OIPpartneringTimeline.jpg)
+![Qualification timeline for Skype for Business.](../media/OIPpartneringTimeline.jpg)
 
 To begin the process, vendors should:
 - Download the trial versions of the product.
@@ -114,7 +114,7 @@ The diagram that follows displays the approximated timeline for the qualificatio
 
 ***Technical qualifications timeline***
 
-![timeline](../media/timeline4technicalqualification.png)
+![timeline.](../media/timeline4technicalqualification.png)
 
 ### How to engage
 Currently video qualification tests are performed by Microsoft Lync logo team. To introduce yourself and obtain more specifics, email LyncLogo.

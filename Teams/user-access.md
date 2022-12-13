@@ -1,8 +1,8 @@
 ---
 title: Manage user access to Microsoft Teams
-author: cichur
-ms.author: v-cichur
-manager: serdars
+manager: SerdarSoysal
+author: DaniEASmith
+ms.author: danismith
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -35,7 +35,7 @@ You manage Teams licenses in the Microsoft 365 admin center or by using PowerShe
 
 ## Using the Microsoft 365 admin center
 
-Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. 
+Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts.
 
 > [!IMPORTANT]
 > The administrator must have Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
@@ -47,9 +47,9 @@ If you need to manage Teams licenses for a large number of users, such as hundre
 
 The steps are different depending on whether you use the **Licenses** page or **Active users** page.  For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot of Teams license enabled for a user](media/assign-teams-licenses-1.png)    | ![Screenshot of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
+|![Screenshot 1 of Teams license enabled for a user.](media/assign-teams-licenses-1.png)    | ![Screenshot 2 of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
 
 ### Remove a Teams license
 
@@ -58,9 +58,9 @@ The steps are different depending on whether you use the **Licenses** page or **
 
 When you remove a Teams license from a user, Teams is disabled for that user, and they will no longer see Teams in the app launcher or homepage. For detailed steps, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot of Teams license disabled for a user](media/remove-teams-licenses-1.png)    | ![Screenshot of Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
+|![Screenshot 1 of the Teams license disabled for a user.](media/remove-teams-licenses-1.png)    | ![Screenshot 2 of the Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
 
 ## Using PowerShell
 
@@ -95,7 +95,7 @@ Get-MsolAccountSku
 Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
-$acctSKU="<CompanyName:License>
+$acctSKU="<CompanyName:License>"
 $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 

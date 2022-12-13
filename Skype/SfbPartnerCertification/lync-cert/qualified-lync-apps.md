@@ -1,6 +1,6 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+title: "Lync qualified applications"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,16 +12,17 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "Lync qualification helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
 
-# Qualified Lync applications
+# Microsoft Lync qualified applications
+
 Microsoft Lync empowers organizations by bringing the power of software to communications. It integrates telephony, voice, web conferencing, presence, and instant messaging into one seamless experience. Microsoft partners extend the Lync software platform with applications that meet an expanding variety of business and communications needs.
 
 See the [Skype for Business Applications](http://apps.skypeforbusiness.com/) page and find out about [application certification](http://apps.skypeforbusiness.com/certified.aspx).
@@ -32,11 +33,3 @@ The Lync ISV qualification program is designed to help ensure that qualified app
 With third-party testing, the program defines specific requirements for interoperability with Lync Server, installation, set-up and configuration, documentation, and support.
 
 Designed with enterprise-class industry standards, testing covers performance, reliability, and SDK/API utilization.
-
-* * *
-### Related resources
-[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

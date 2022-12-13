@@ -1,15 +1,15 @@
 ---
 title: "Data API for Call Quality Dashboard (CQD) in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: "Summary: Learn about the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
@@ -52,7 +52,7 @@ Remember to include the exact protocol, host name, and port (if any). Do not to 
   <appSettings>
     <add key="corsTrustedOrigin" value="https://<trusted-server>,http://<another-trusted-domain>:8080" /> <!-- Domains which are trusted to get the data -->
     <add key="QoEDataLib.DebugMode" value="True" /> <!-- Setting this to True, allows seeing of the detail logs in status page -->
-…  </appSettings>
+...  </appSettings>
 </configuration>
 ```
 

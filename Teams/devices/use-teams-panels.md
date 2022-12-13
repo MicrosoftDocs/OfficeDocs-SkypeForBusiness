@@ -1,7 +1,7 @@
 ---
-title: "How to use Microsoft Teams panels devices"
-ms.author: v-mdhiman
-author: ManikaDhiman
+title: How to use Microsoft Teams panels devices
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -9,13 +9,14 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
-localization_priority: Normal
-description: "This article provides guidance on how to use Teams panels devices."
+ms.localizationpriority: medium
+description: This article provides guidance on how to use Teams panels devices.
 ---
 
 # How to use Microsoft Teams panels
@@ -49,7 +50,7 @@ From the Home screen, you can view location and meeting details, reserve a space
 
 The following screenshot shows different parts or tiles on the Teams panels Home screen:
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="This screenshot displays different areas on the Teams panels Home screen":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="This screenshot displays different areas on the Teams panels Home screen.":::
 
 Refer to the following table for a description of each tile:
 
@@ -68,7 +69,7 @@ The appearance of this tile and its capabilities vary depending on the meeting s
 
 The tile appears in purple for a meeting space that is reserved for a scheduled meeting (scheduled via Outlook or Teams). It displays meeting title in prominent text, meeting start and end times, and meeting organizer's name. For a Teams meeting, the Teams logo also appears. With meeting details prominently displayed, attendees can easily confirm they’re in the right meeting space, at the right time, and for the right meeting.
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for a scheduled meeting":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for a scheduled meeting.":::
 
 > [!NOTE]
 >
@@ -79,13 +80,13 @@ The tile appears in purple for a meeting space that is reserved for a scheduled 
 
 The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text along with the meeting start and end times. Ad-hoc meetings are automatically scheduled as Teams meetings, hence the Teams logo always appears on the screen.
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting.":::
 
 #### Meeting space is available
 
 The tile appears in green for an available meeting space. It displays **Available** in prominent text, and a **Reserve** button also appears that you can tap to [reserve the meeting space for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). You can check the upcoming calendar of the meeting space (right bottom tile) to decide the end time for your ad hoc meeting.
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="This screenshot shows how the Teams panels Home screen appears when the meeting space is available":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="This screenshot shows how the Teams panels Home screen appears when the meeting space is available.":::
 
 ## Reserve meeting spaces for ad hoc meetings
 
@@ -99,10 +100,10 @@ For ad hoc meetings that are booked directly from panels:
 To reserve an available meeting space for an ad hoc meeting:
 
 1. On the Home screen, tap the **Reserve** button.
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams panels Home screen showing the Reserve button":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams panels Home screen showing the Reserve button.":::
 2. In the **Ad hoc meeting** screen, review the available end time choices. You can use the right or left arrows to browse the available end time choices.
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad hoc meeting screen showing end time slots":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad hoc meeting screen showing end time slots.":::
 
     > [!Note]
     >
@@ -113,10 +114,10 @@ To reserve an available meeting space for an ad hoc meeting:
 3. Tap the desired end time interval, and then tap **Reserve**.
 
     A confirmation window appears with a thumbs up emoji, meeting start and end time, and meeting space name.
-    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Ad hoc meeting confirmation message":::
+    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Ad hoc meeting confirmation message.":::
 The right tile on the Home screen now appears in purple and displays the **Reserved** text and the Teams logo. This indicates that the meeting space is now reserved for an ad hoc Teams meeting.
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting.":::
 
     > [!NOTE]
     > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Room or Surface Hub devices.
@@ -165,46 +166,98 @@ Your panels devices provide two types of admin settings. You must be a device ad
 
 ### Access Panels App settings
 
-You can access **Panels App**-specific settings by using the **Panels App Settings** option under the admin settings. The steps to access **Panels App Settings** may differ based on the OEM of your device.
+You can access **Panels App**-specific settings by using the **Teams admin settings** option under the admin settings. The steps to access **Teams admin settings** may differ based on the OEM of your device.
 
-To access the **Panels App Settings** option:
+To access the **Teams admin settings** option:
 
 1. Tap the **Settings** icon on the Home screen.
 2. On the **Settings** screen, tap **Device settings**.
-3. Tap the **Admin Settings**.
 
     > [!NOTE]
     > Depending on the OEM of your device, you may need to enter the device admin password now or after the next step.
 
-4. Scroll down to find the **Panels App Settings** option. Tap it.
-5. Tap the **Panels App Settings** button on the right screen.
-    The screen with the available **Panels App** settings is displayed.
+3. Scroll down to find the **Teams admin settings** option. Tap it.
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="This screenshot displays the screen with the available Panels app settings":::
+> [!NOTE]
+> Some OEMs may replace the **Teams admin settings** option with their own custom option. If you don't see the **Teams admin settings** option, check your device documentation for instructions on how to access your panel's admin settings.
 
-    Use this screen to update the following **Panels App** settings for your device:
+#### Pair a Teams panel with a Microsoft Teams Room on Android
 
-    - [Wallpaper](#update-the-wallpaper)
-    - [LED indicator](#change-the-busy-state-led-color)
+To pair a Teams panel and Teams Room on Android, both devices must be signed into the same resource account.
+
+On the Teams panel, sign in using your admin credentials.
+
+1. Go to **Settings > Device settings > Teams admin settings > Device pairing.**
+
+2. A six-digit code will appear on the Teams Rooms on Android front of room display. Enter the code on the Teams Panel.  
+
+#### Enable or disable meeting check-in and automatic room release
+
+Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
+
+When Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
+
+To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
+
+#### Enable or disable check out (manual room release)
+
+When check out is enabled, end users can use a Teams panel to manually release a room. Releasing a room ends the current reservation and makes the room available for others to schedule.
+
+This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Check out**.
+
+> [!NOTE]
+> If a room is released before the end of a scheduled reservation, the organizer will receive an email message from the room declining it. This happens because the room removes the reservation from its schedule so it can be booked by other users. The message declining the reservation can be ignored.
+
+> [!NOTE]
+> A Teams panel can't be used to release a room if the Teams Rooms device it's paired with is in an active call.
+
+#### Enable or disable room reservations
+
+When room reservations are enabled, end users can use a Teams panel to reserve a room that's currently available. Reservations start at the time the **Reserve** button is tapped and their duration can be increased in 15-minute increments up to the start time of the next reservation, or to a maximum of 24 hours.
+
+This feature is enabled by default, but it can be disabled per device. To disable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Disable room reservations**.
+
+#### Enable or disable extension of existing room reservations
+
+When room reservation extensions are enabled, end users can use a Teams panel to extend a room's existing reservation if the room is available after the reservation's original end time. Reservations can be extended in 15 minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
+
+This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Extend room reservation**.
+
+#### Enable or disable room capacity warnings
+
+Teams panels that are paired with a Teams Room on Android can display a warning message when a room is at or over capacity. To use this feature, the Teams Room must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
+
+Room capacity warnings are disabled by default, but they can be enabled per device. To enable the feature, do the following:
+
+1. Follow the steps in [Pair a Teams panel with a Microsoft Teams Room on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Room device must be signed into the same resource account.
+2. Go to **Settings > Device settings > Teams admin settings > Meetings** and turn on **Max room occupancy notification**.
+
+#### Enable or disable viewing of room equipment
+
+When this feature is turned on, end-users can view what equipment is available in a space on a Teams panel.
+
+This feature is off by default, and it can be enabled per device. To turn it on, use [Set-Place](/powershell/module/exchange/set-place) in PowerShell to configure the display names for `AudioDeviceName`, `DisplayDeviceName`, `VideoDeviceName`, `Tags`, and `IsWheelChairAccessible`.
+
+Or, you can enable this feature in the Exchange admin center. See [Edit a resource](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) for more information.
 
 #### Update the wallpaper
 
 Change the Home screen wallpaper image.
 
-1. [Access **Panels App Settings**](#access-panels-app-settings).
+1. [Access **Teams admin settings**](#access-panels-app-settings).
 2. Tap **Wallpapers**.
 3. From **Choose your image**, select an image to set as the Home screen background image. Preview the selected image under **Background**.
-:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="This screenshot displays the wallpaper settings screen":::
+:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="This screenshot displays the wallpaper settings screen.":::
 4. Go back to the Home screen and verify that the wallpaper is updated.
 
 #### Change the busy state LED color
 
 Admins can choose either red or purple as the LED color to indicate that the meeting space is busy or reserved. The LED color to indicate an available space is always green and can't be changed.
 
-1. [Access **Panels App Settings**](#access-panels-app-settings).
+1. [Access **Teams admin settings**](#access-panels-app-settings).
 2. Tap **LED Settings**.
 3. From **Choose your LED color**, select the desired color.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings.":::
 4. Go back to the Home screen and verify that the LED color for the busy state is updated. If the meeting space is currently available, try to schedule a test meeting to verify the change in LED color for the busy state.
 
 ## Frequently asked questions

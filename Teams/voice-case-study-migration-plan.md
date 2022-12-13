@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: Teams voice Contoso case study upgrade plan
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: 'Teams voice case study for multi-national corporation: Upgrade planning.'
 appliesto: 
   - Microsoft Teams
 ---
@@ -28,7 +28,7 @@ To understand fundamental concepts about upgrade, methods, and modes, Contoso re
 - [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md) 
 - [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso also attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions). Contoso learned about:
+Contoso also attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.microsoft.com/archives/IG20-OD251). Contoso learned about:
 
 - Fundamental concepts such as interoperability, federation, and upgrade behavior 
 

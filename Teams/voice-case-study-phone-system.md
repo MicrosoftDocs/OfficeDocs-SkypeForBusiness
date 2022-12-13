@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: 'Contoso case study: Phone System for a multi-national corporation'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,13 +13,13 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: 'Teams voice case study for multi-national corporation: phone system'
 appliesto: 
   - Microsoft Teams
 ---
 
 
-# Contoso case study: Phone System
+# Contoso case study: Phone System for a multi-national corporation
 
 Depending on geographic location and other factors, Contoso had offices using the following telephony solutions:
 
@@ -38,7 +38,7 @@ To implement a Microsoft Phone System solution for their entire organization, Co
 
 - Combination of Phone System with Calling Plan and Phone System with own PSTN carrier through Direct Routing
  
-To determine the right solution for their organization, Contoso used [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+To determine the right solution for their organization, Contoso used [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) and the Ignite 2019 session [Calling in Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-for-calling-in-microsoft-teams-ignite-2019-edition/ba-p/974935).  
 
 ## Site Type A: Skype for Business Enterprise Voice 
 
@@ -73,7 +73,7 @@ Based on the answers to their questions, Contoso decided to:
 
 The following diagram shows the initial Skype for Business Enterprise Voice deployment and how this deployment was migrated to both Microsoft Calling Plans and Direct Routing:
 
-![Diagram showing before and after states](media/voice-case-study-1.png)
+![Diagram shows before and after states.](media/voice-case-study-1.png)
 
 ## Site Type B: Traditional legacy telephony systems
 
@@ -104,12 +104,12 @@ Based on the answers to their questions, Contoso decided to:
 The following diagrams show the original legacy system deployment with remote sites and the migration to a Direct Routing deployment with Local Media Optimization:
 
 **Original legacy deployment** 
-![Diagram showing before and after states](media/voice-case-study-2.png)
+![A diagram shows before and after states.](media/voice-case-study-2.png)
 
 
 **Deployment with Direct Routing**
 
-![Diagram showing before and after states](media/voice-case-study-3.png)
+![A diagram showing the before and after states.](media/voice-case-study-3.png)
  
 ## Site Type C: Combination of Skype for Business Enterprise Voice and traditional legacy telephony systems
 
@@ -143,10 +143,10 @@ Based on the answers to their questions, Contoso decided on the following:
 The following diagrams show the original Skype for Business Enterprise Voice and legacy telephony system deployment and the migration to a mixed deployment using Direct Routing:
 
 **Original mixed deployment**
-![Diagram showing before state](media/voice-case-study-4.png)
+![Diagram 1 showing the before state.](media/voice-case-study-4.png)
 
 **Mixed deployment with Direct Routing**
-![Diagram showing before state](media/voice-case-study-4a.png)
+![Diagram 2 showing the before state.](media/voice-case-study-4a.png)
 
 
 ## Calling Plans
@@ -167,9 +167,9 @@ To determine the configuration requirements for Calling Plans, Contoso reviewed 
 
 Contoso attended Ignite to stay current on Office 365 features including those available with Phone system and Direct Routing. Technical leadership and architects used the guidance provided during the Ignite 2019 to determine their direction.  Key sessions that were used: 
 
-- [Plan for success with Microsoft Teams Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
+- [Plan for success with Microsoft Teams Direct Routing](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
 
-- [Updates for Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
+- [Updates for Direct Routing](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
 
 
 ## Configuration
@@ -184,7 +184,7 @@ Due to the number of users that needed to be assigned phone numbers, Contoso dec
 
 To connect Contoso's on-premises telephony infrastructure to Microsoft Teams, Contoso's administrator followed the steps in [Configure Direct Routing](direct-routing-configure.md) and reviewed the video [Direct Routing in Microsoft Teams](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) for guidance.  Contoso also referred to the Direct routing deployment documentation by the certified SBC vendor. 
 
-Once Direct Routing was configured between the SBC and Microsoft Phone System, it was necessary for Contoso to test the configuration. To do this, Contoso administrators used the SIP Tester client that was discussed in the [Updates for Direct Routing session at Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). The SIP Tester client script and documentation was downloaded from the PowerShell script to test Direct Routing Session Border Controller connections.   
+Once Direct Routing was configured between the SBC and Microsoft Phone System, it was necessary for Contoso to test the configuration. To do this, Contoso administrators used the SIP Tester client that was discussed in the `[Updates for Direct Routing session at Ignite 2019](https://techcommunity.microsoft.com/t5/microsoft-teams-events-blog/ignite-live-blog-session-vce20-updates-for-direct-routing/ba-p/1025138). The SIP Tester client script and documentation was downloaded from the PowerShell script to test Direct Routing Session Border Controller connections.   
 
 
 ### Local Media Optimization

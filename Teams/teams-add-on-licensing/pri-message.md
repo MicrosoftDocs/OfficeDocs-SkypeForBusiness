@@ -1,7 +1,7 @@
 ---
 title: "Priority notifications in Teams messaging"
-ms.author: v-cichur
-author: cichur
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
   - Licensing
   - LIL_Placement

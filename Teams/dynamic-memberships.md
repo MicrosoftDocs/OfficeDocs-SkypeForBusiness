@@ -1,7 +1,7 @@
 ---
 title: Overview of dynamic membership for teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
@@ -11,8 +11,10 @@ search.appverid: MET150
 description: Learn how Microsoft Teams supports teams associated with Microsoft 365 groups by using dynamic membership.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-ms.custom: seo-marvel-apr2020
+ms.localizationpriority: medium
+ms.custom: 
+  - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 

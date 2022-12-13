@@ -1,7 +1,7 @@
 ---
 title: Upload tenant and building data in Call Quality Dashboard (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -14,7 +14,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
 ms.custom: 
@@ -34,11 +34,11 @@ From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the C
 
 1. Open CQD (from the Teams admin center, or at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)), then select the gear icon in the upper-right corner and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+   ![Screenshot of dialog box that appears while data is being uploaded.](media/qerguide-image-tenantdataupload.png)
     
 2. Alternatively, if this is your first time visiting CQD, you'll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Screenshot of  banner that notifies a user to upload building data.](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
@@ -46,7 +46,7 @@ From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the C
 
 5. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it's validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-   ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
+   ![Example of dialog box displaying a building data upload error.](media/qerguide-image-buildingdatauploaderror.png)
  
 6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
@@ -78,9 +78,9 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   | NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Required<sup>1</sup>  |
   | NetworkRange       | Number    | 26                        | Required              |
   | BuildingName       | String    | SEATTLE-SEA-1             | Required<sup>1</sup>  |
-  | OwnershipType      | String    | Contoso                   | Optional              |
-  | BuildingType       | String    | IT Termination            | Optional              |
-  | BuildingOfficeType | String    | Engineering               | Optional              |
+  | OwnershipType      | String    | Contoso                   | Optional<sup>4</sup>  |
+  | BuildingType       | String    | IT Termination            | Optional<sup>4</sup>  |
+  | BuildingOfficeType | String    | Engineering               | Optional<sup>4</sup>  |
   | City               | String    | Seattle                   | Recommended           |
   | ZipCode            | String    | 98001                     | Recommended           |
   | Country            | String    | US                        | Recommended           |
@@ -95,6 +95,8 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   <sup>2</sup> This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes.
 
   <sup>3</sup> This setting can be used to reflect whether or not the network uses Azure ExpressRoute. You can customize usage for other purposes.  
+  
+  <sup>4</sup> While these optional columns are named to suggest what values you may want to populate them with, you can customize usage for other purposes. eg: Network Priority - `Tier 1, Tier 2, Tier 3` 
 
   **Sample row:**
 
@@ -141,11 +143,11 @@ The quality of experience (QoE) data that clients send to Microsoft 365 or Offic
 
 - Define a **Network Name** by entering "VPN" in this field for VPN subnets.
 
-  ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
+  ![QCD report screenshot showing VPN using network name.](media/qerguide-image-vpnnetworkname.png)
 
 - Define a **Building Name** by entering "VPN" in this field for VPN subnets.
 
-  ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screenshot showing VPN using building name.](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > VPN connections have been known to misidentify the network connection type as wired when the underlying connection is wireless. When looking at quality over VPN connections, you can't assume that the connection type has been accurately identified.
@@ -159,6 +161,8 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
 
 - All seven columns use the String data type only. The maximum allowed length is 64 characters.
+
+- Entries are case-sensitive; EndpointName **ABC123** will be treated as unique from EndpointName **abc123**.
 
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 

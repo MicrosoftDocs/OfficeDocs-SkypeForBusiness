@@ -1,7 +1,7 @@
 ---
 title: "Toll-free dialing restrictions in Portugal"
-ms.author: v-cichur
-author: cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH

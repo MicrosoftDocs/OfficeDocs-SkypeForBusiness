@@ -1,7 +1,7 @@
 ---
 title: Live events recording policies
-author: cichur
-ms.author: v-cichur
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 description: Learn about live event recording policies.
@@ -23,7 +23,7 @@ ms.custom: seo-marvel-mar2020
 
 You have several options for recording a Microsoft Teams live event. The recording options are set using recording policies. This article describes the various settings.
 
-The recording options are set using the PowerShell command [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps).
+The recording options are set using the PowerShell command [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy).
 
 ## Scheduling and option behaviors
 
@@ -43,7 +43,7 @@ There are two organizer options while scheduling a live event recording:
 
 As part of the broadcast policy, there's a setting that you can toggle to turn recording on or off for a live event.
 
-|                                 | Recording available for producers and presenters | Recording available for attendees |
+| &nbsp;| Recording available for producers and presenters | Recording available for attendees |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Always record               | Disabled and selected                                | Enabled and selected         |
 | Organizer can record or not | Enabled and selected by default                  | Enabled and selected by default   |
@@ -56,7 +56,7 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 | Recording available for attendees | Selected     | DVR is available and the Azure Media Services (AMS) asset is stored for 180 days | Attendee can access and watch the event                     |                              |
 |                                                  | Not Selected | DVR is available and the AMS asset is stored for 180 days | Attendee won't get access into the event after it's over |                              |
 ||Disabled (Not selected)|DVR is available and the AMS asset is deleted after the event|Attendee won't get access into the event after it's over||
-| Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored |
+| Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored for 180 days |
 |                                                  | Not Selected |                                                           |                                                             | No file is created           |
 
 ### Related topics

@@ -1,7 +1,7 @@
 ---
 title: "Set up call analytics for Microsoft Teams"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
     - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
   - Reporting
-description: "Set up per-user call analytics for to identify and troubleshoot Microsoft Teams call quality problems."
+description: "Set up per-user call analytics to identify and troubleshoot Microsoft Teams call quality problems."
 ---
 
 # Set up call analytics for Microsoft Teams
@@ -48,9 +48,9 @@ You can add building, site, and tenant information to per-user call analytics by
 
 If you're a Teams or Skype for Business admin, you can use an existing tenant and building data file from the Teams or Skype for Business Call Quality Dashboard (CQD). First, you download the file from CQD, then upload it to call analytics. 
 
-- To download an existing data file, go to **Microsoft Teams admin center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want. 
+- To download an existing data file, go to **Microsoft Teams admin center** > **Analytics & reports** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want. 
 
-- To upload the new file, go to **Microsoft Teams admin center** > **Locations**, and then select **Upload location data** or **Replace location data**.
+- To upload the new file, see [Add and update reporting labels](/microsoftteams/learn-more-about-site-upload).
   
 If you're creating the .tsv or .csv file from scratch, see [Upload tenant and building data](CQD-upload-tenant-building-data.md).
   

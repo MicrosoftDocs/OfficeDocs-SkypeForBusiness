@@ -1,5 +1,5 @@
 ---
-title: "Configure voice routing for Direct Routing"
+title: "Configure call routing for Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -15,21 +15,21 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure voice routing with Microsoft Phone System Direct Routing."
+description: "Learn how to configure call routing with Microsoft Direct Routing."
 ---
 
-# Configure voice routing for Direct Routing
+# Configure call routing for Direct Routing
 
-This article describes how to configure voice routing for Phone System Direct Routing.  This is step 3 of the following steps for configuring Direct Routing:
+This article describes how to configure call routing for Direct Routing. This is step 3 of the following steps for configuring Direct Routing:
 
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
 - Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
-- **Step 3. Configure voice routing** (This article)
+- **Step 3. Configure call routing** (This article)
 - Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
 For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-## Voice routing overview
+## Call routing overview
 
 Microsoft Phone System has a routing mechanism that allows a call to be sent to a specific Session Border Controller (SBC) based on: 
 
@@ -38,9 +38,9 @@ Microsoft Phone System has a routing mechanism that allows a call to be sent to 
  
 SBCs can be designated as active and backup. When the SBC that is configured as active is not available for a specific call route, then the call will be routed to a backup SBC.
  
-Voice routing is made up of the following elements: 
+Call routing is made up of the following elements: 
 
-- **Voice routing policy** – A container for PSTN usages, which can be assigned to a user or to multiple users. 
+- **Call routing policy** – Also called a voice routing policy. A container for PSTN usages, which can be assigned to a user or to multiple users. 
 
 - **PSTN usages** – A container for voice routes and PSTN usages, which can be shared in different voice routing policies. 
 
@@ -53,7 +53,7 @@ Voice routing is made up of the following elements:
 If a user has a Calling Plan license, that user’s outgoing calls are automatically routed through the Microsoft Calling Plan PSTN infrastructure. If you configure and assign an online voice routing policy to a Calling Plan user, that user’s outgoing calls are checked to determine whether the dialed number matches a number pattern defined in the online voice routing policy. If there’s a match, the call is routed through the Direct Routing trunk. If there’s no match, the call is routed through the Calling Plan PSTN infrastructure.
 
 > [!CAUTION]
-> If you configure and apply the global (Org-wide default) online voice routing policy, all voice-enabled users in your organization will inherit that policy, which may result in PSTN calls from Calling Plan users being inadvertently routed to a Direct Routing trunk. If you don't want all users to use the global online voice routing policy, configure a custom online voice routing policy and assign it to individual voice-enabled users.
+> If you configure and apply the global (Org-wide default) online voice routing policy, all voice-enabled users in your organization will inherit that policy, which may result in PSTN calls from Calling Plan and Operator Connect users being inadvertently routed to a Direct Routing trunk. If you don't want all users to use the global online voice routing policy, configure a custom online voice routing policy and assign it to individual voice-enabled users.
 
 ## Example 1: Voice routing with one PSTN usage
 
@@ -63,7 +63,7 @@ The following diagram shows two examples of voice routing policies in a call flo
 
 **Call Flow 2 (on the right):** If a user makes a call to +1 425 XXX XX XX or +1 206 XXX XX XX, the call is first routed to SBC sbc1.contoso.biz or sbc2.contoso.biz. If neither SBC is available, the route with lower priority will be tried (sbc3.contoso.biz and sbc4.contoso.biz). If none of the SBCs are available, the call is dropped. 
 
-![Shows voice routing policy examples](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![Shows voice routing policy examples.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 In both examples, while the voice route is assigned priorities, the SBCs in the routes are tried in random order.
 
@@ -72,7 +72,7 @@ In both examples, while the voice route is assigned priorities, the SBCs in the 
 
 In the example shown in the following diagram, a voice route is added to send calls to all other US and Canadian numbers (calls that go to called number pattern +1 XXX XXX XX XX).
 
-![Shows voice routing policy with a third route](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+![Shows voice routing policy with a third route.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
 For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), the automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan. If the user only has Microsoft Phone System, the call is dropped because no matching rules are available.
 
@@ -305,11 +305,11 @@ The examples that are shown assign the US Only policy to user Spencer Low, and t
 
 - John Woods – International policy.  Calls are allowed to any number. When calling to the Redmond number range, the specific set of SBCs must be used. Non-US numbers will be routed using sbc2.contoso.biz and sbc5.contoso.biz.
 
-![Shows voice routing policy assigned to user Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![Shows voice routing policy assigned to user Spencer Low.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
 For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed using Microsoft Calling Plan.  If the user has only Microsoft Phone System, the call is dropped because no matching rules are available.
 
-![Shows voice routing policy assigned to user John Woods](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![Shows voice routing policy assigned to user John Woods.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
 The following table summarizes routing policy "No Restrictions" usage designations and voice routes. 
 
@@ -455,6 +455,19 @@ No Restrictions
 ```
 
 The result is that the voice policy applied to John Woods' calls is unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
+
+## Run a Self-diagnostics tool
+
+Microsoft 365 admin users have access to diagnostics that can be run within the tenant to verify a user is correctly configured for Direct Routing. 
+
+> [!NOTE]
+>This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 Admin Center.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Teams Direct Routing](https://aka.ms/TeamsDirectRoutingDiag)
+
+The diagnostic performs a large range of verifications.
 
 ## See also
 

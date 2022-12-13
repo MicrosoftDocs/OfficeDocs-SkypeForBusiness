@@ -6,13 +6,13 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: serdars
-  manager: serdars
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   ms.date: 05/16/2019
   ms.reviewer: rowille
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ms.collection: 
   - M365-collaboration
   ms.custom: seo-marvel-apr2020

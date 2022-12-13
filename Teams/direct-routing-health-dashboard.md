@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -33,7 +33,7 @@ You can view Health Dashboard in the Microsoft Teams and Skype for Business Admi
 
 Health Dashboard provides the following information related to overall health of the connected SBCs:
 
- ![Shows Health Dashboard statistics](media/direct-routing-dashboard-stats1.png)
+ ![Shows Health Dashboard statistics.](media/direct-routing-dashboard-stats1.png)
 
 - **Direct Routing summary** - Shows the total number of SBCs registered in the system. Registration means that the tenant administrator added an SBC by using the New-CsOnlinePSTNGateway command. If the SBC was added in PowerShell, but never connected, the Health Dashboard shows it in an unhealthy status.
 
@@ -77,7 +77,7 @@ Health Dashboard provides the following information related to overall health of
 
 You can also view the detailed information for a specific SBC as shown in the following screenshot:
 
-![Health dashboard SBC details](media/direct-routing-dashboard-SBC-detail1.png)
+![Health dashboard SBC details.](media/direct-routing-dashboard-SBC-detail1.png)
 
 The detailed view shows the following additional parameters:
 

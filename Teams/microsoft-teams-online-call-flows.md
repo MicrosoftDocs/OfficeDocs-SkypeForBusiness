@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -109,7 +109,7 @@ To learn more about the details on the media path that is chosen, see [Understan
 
 This topology is used by customers that leverage Teams services from the cloud without any on-premises deployment, such as Skype for Business Server or Phone System Direct Routing. In addition, the interface to Microsoft 365 or Office 365 is done over the Internet without Azure Express Route.
 
-[![Microsoft Teams Online Call Flows Figure 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
+[![Microsoft Teams Online Call Flows Figure 01.](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
 *Figure 1 - Teams topology*
 
@@ -154,7 +154,7 @@ If one client is internal on the customer network and one client is external (fo
 
 **Within customer network:**
 
-[![Microsoft Teams Online Call Flows Figure 02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
+[![Microsoft Teams Online Call Flows Figure 02.](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
 
 *Figure 2 - Within customer network*
 
@@ -164,7 +164,7 @@ Media is bidirectional. The direction of flow 5 indicates that one side initiate
 
 **Customer network to external user (media relayed by Teams Transport Relay):**
 
-[![Microsoft Teams Online Call Flows Figure 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
+[![Microsoft Teams Online Call Flows Figure 03.](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
 *Figure 3 - Customer network to external user (media relayed by Teams Transport Relay)*
 
@@ -174,7 +174,7 @@ Media is bidirectional, where direction indicates which side initiates the commu
 
 **Customer network to external user (direct media):**
 
-[![Microsoft Teams Online Call Flows Figure 04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
+[![Microsoft Teams Online Call Flows Figure 04.](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
 
 *Figure 4 - Customer network to external user (direct media)*
 
@@ -186,7 +186,7 @@ In step 7, flow 2, from customer network to the Internet (client's peer), is sel
 
 **VPN user to internal user (media relayed by Teams Transport Relay)**
 
-[![Microsoft Teams Online Call Flows Figure 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
+[![Microsoft Teams Online Call Flows Figure 05.](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
 *Figure 5 - VPN user to internal user (media relayed by Teams Transport Relay)*
 
@@ -194,7 +194,7 @@ Signaling between the VPN to the customer network is using flow 2'. Signaling be
 
 **VPN user to internal user (direct media)**
 
-[![Microsoft Teams Online Call Flows Figure 06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
+[![Microsoft Teams Online Call Flows Figure 06.](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
 
 *Figure 6 - VPN user to internal user (direct media)*
 
@@ -204,7 +204,7 @@ Media is bidirectional. The direction of flow 2 to the remote mobile user indica
 
 **VPN user to external user (direct media)**
 
-[![Microsoft Teams call flows Figure 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
+[![Microsoft Teams call flows Figure 07.](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
 
 *Figure 7 - VPN user to external user (direct media)*
 
@@ -216,7 +216,7 @@ Media is bidirectional. The direction of flow 6 to the remote mobile user indica
 
 Microsoft 365 and Office 365 have a Phone System that allows placing and receiving calls from the Public Switched Telephone Network (PSTN). If the PSTN trunk is connected using the Phone System Calling Plan, then there are no special connectivity requirements for this use case. (If you want to connect your own on-premises PSTN trunk to Microsoft 365 or Office 365, you can use Phone System Direct Routing.)
 
-[![Microsoft Teams Online Call Flows Figure 08](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
+[![Microsoft Teams Online Call Flows Figure 08.](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
 
 *Figure 8 - Teams to PSTN through Office 365 Trunk*
 
@@ -234,7 +234,7 @@ Note that:
 
 - A guest user or a customer user may join from a guest private network, which is protected using FW/NAT with strict rules.
 
-[![Microsoft Teams Online Call Flows Figure 09](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
+[![Microsoft Teams Online Call Flows Figure 09.](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
 
 *Figure 9 - Teams Meeting*
 
@@ -242,7 +242,7 @@ Note that:
 
 **Media relayed by Teams Transport Relay in Microsoft 365 or Office 365**
 
-[![Microsoft Teams Online Call Flows Figure 10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
+[![Microsoft Teams Online Call Flows Figure 10.](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
 
 *Figure 10 - Media relayed by Teams Transport Relay in Office 365*
 
@@ -258,7 +258,7 @@ Note that:
 
 **Media relayed by Skype for Business Media Relay in federated tenant**
 
-[![Microsoft Teams Online Call Flows Figure 11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
+[![Microsoft Teams Online Call Flows Figure 11.](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
 
 *Figure 11 - Media relayed by Skype for Business Media Relay in federated tenant*
 
@@ -272,7 +272,7 @@ Note that:
 
 **Direct (peer-to-peer)**
 
-[![Microsoft Teams Online Call Flows Figure 12](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
+[![Microsoft Teams Online Call Flows Figure 12.](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
 
 *Figure 12 - Direct (peer-to-peer)*
 
@@ -280,7 +280,7 @@ Note that:
 
 This topology includes Teams with a Skype for Business on-premises deployment.
 
-[![Microsoft Teams Online Call Flows Figure 13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
+[![Microsoft Teams Online Call Flows Figure 13.](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
 
 *Figure 13 - Teams hybrid topology*
 
@@ -296,7 +296,7 @@ Additional flow (on top of Teams topology):
 
 **Hybrid within the customer network**
 
-[![Microsoft Teams Online Call Flows Figure 14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
+[![Microsoft Teams Online Call Flows Figure 14.](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
 
 *Figure 14 - Hybrid within customer network*
 
@@ -304,7 +304,7 @@ Signaling between Teams and Skype for Business is bridged by a gateway. However,
 
 **Hybrid customer network with external Skype for Business user – relayed by Microsoft 365 or Office 365**
 
-[![Microsoft Teams Online Call Flows Figure 15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
+[![Microsoft Teams Online Call Flows Figure 15.](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
 
 *Figure 15 - Hybrid customer network with external Skype for Business user - relayed by Office 365*
 
@@ -318,7 +318,7 @@ Note that:
 
 **Hybrid customer network with external Skype for Business user – relayed by on-premises Edge**
 
-[![Microsoft Teams Online Call Flows Figure 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
+[![Microsoft Teams Online Call Flows Figure 16.](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
 *Figure 16 - Hybrid customer network with external Skype for Business user - relayed by on-premises Edge*
 
@@ -338,7 +338,7 @@ Direct Routing enables you to use a third-party Public Switched Telephone Networ
 
 To support this scenario, the customer must deploy a certified SBC for Direct Routing from one of Microsoft's certified partners. The SBC must be configured as recommended by the vendor, and be routable from Microsoft 365 or Office 365 for direct UDP traffic. The media may flow directly from Teams and/or the Skype for Business client to the SBC (bypassing the Teams gateway) or traverse through the Teams gateway. The connectivity with the SBC, when the trunk is configured to bypass the Teams gateway, is based on ICE, where SBC supports ICE-Lite, while the Teams/Skype for Business media endpoint supports ICE Full Form.
 
-[![Microsoft Teams Online Call Flows Figure 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
+[![Microsoft Teams Online Call Flows Figure 17.](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
 *Figure 17 - Teams with Phone System Direct Routing topology
 
@@ -356,7 +356,7 @@ Additional flows (on top of Teams online topology):
 
 **Internal user with Direct Routing (media relayed by Teams Transport Relay)**
 
-[![Microsoft Teams Online Call Flows Figure 18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
+[![Microsoft Teams Online Call Flows Figure 18.](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
 
 *Figure 18 - Internal user with Direct Routing (media relayed by Teams Transport Relay)*
 
@@ -370,7 +370,7 @@ Note that:
 
 **Remote user with Direct Routing (media is routed through a media server (MP))**
 
-[![Microsoft Teams Online Call Flows Figure 19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
+[![Microsoft Teams Online Call Flows Figure 19.](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
 
 *Figure 19 - Remote user with Direct Routing (media is routed through a media server (MP))*
 
@@ -384,7 +384,7 @@ Note that:
 
 **Internal user Direct Routing (media bypass)**
 
-[![Microsoft Teams Online Call Flows Figure 20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
+[![Microsoft Teams Online Call Flows Figure 20.](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
 
 *Figure 20 - Internal user Direct Routing (media bypass)*
 
@@ -400,7 +400,7 @@ Note that:
 
 **Remote user with Direct Routing (media bypass relayed by Teams Transport Relay)**
 
-[![Microsoft Teams Online Call Flows Figure 21](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
+[![Microsoft Teams Online Call Flows Figure 21.](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
 
 *Figure 21 - Remote user with Direct Routing (media bypass relayed by Teams Transport Relay)*
 
@@ -416,7 +416,7 @@ Note that:
 
 **Remote user Direct Routing (media bypass direct)**
 
-[![Microsoft Teams Online Call Flows Figure 22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
+[![Microsoft Teams Online Call Flows Figure 22.](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
 
 *Figure 22 - Remote user Direct Routing (media bypass direct)*
 
@@ -432,7 +432,7 @@ Note that:
 
 **Direct Routing (media bypass) – PSTN hairpin call (due to call forward/transfer)**
 
-[![Microsoft Teams Online Call Flows Figure 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
+[![Microsoft Teams Online Call Flows Figure 23.](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
 *Figure 23 - Direct Routing (media bypass) - PSTN hairpin call (due to call forward/transfer)*
 
@@ -448,7 +448,7 @@ Note that:
 
 **Direct Routing (media through Microsoft 365 or Office 365) – PSTN hairpin call across two tenants**
 
-[![Microsoft Teams Online Call Flows Figure 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
+[![Microsoft Teams Online Call Flows Figure 24.](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
 *Figure 24 - Direct Routing (media through Microsoft 365 or Office 365) – PSTN hairpin call across two tenants*
 
@@ -464,7 +464,7 @@ Note that:
 
 ## Teams with Express Route optimization
 
-[![Microsoft Teams Online Call Flows Figure 25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
+[![Microsoft Teams Online Call Flows Figure 25.](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
 
 *Figure 25 - Teams with Express Route optimization*
 
@@ -477,7 +477,7 @@ To prevent asymmetrical flows, re-routing must be in both directions. In other w
 
 **Customer network to external user (media relayed by Teams Transport Relay):**
 
-[![Microsoft Teams Online Call Flows Figure 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
+[![Microsoft Teams Online Call Flows Figure 26.](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
 *Figure 26 - Customer network to external user (media relayed by Teams Transport Relay)*
 

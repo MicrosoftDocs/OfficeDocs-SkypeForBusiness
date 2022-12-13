@@ -1,7 +1,7 @@
 ---
 title: "Dialing out from a meeting so other people can join"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -41,11 +41,11 @@ When you dial out to someone, we recommend that you do so using their full phone
 
 Here's how to get dial out to work:
 
- **Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.
+ **Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button.](media/add-people-button.png) option to dial out to a phone number.
  **Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.
   
-![Screenshot of the Invite someone or dial a number box](media/invite-someone-box.png)
-    
+![Screenshot of the Invite someone or dial a number box.](media/invite-someone-box.png)
+
 ## Supported countries and regions
 
 Dial-out is only available to some countries/regions. For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
@@ -57,5 +57,5 @@ If you are looking for instructions on how to let your users dial in to a Teams 
 ## Want to know more about audio conferencing?
 
 [Try or purchase Audio Conferencing](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-    
+
 [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

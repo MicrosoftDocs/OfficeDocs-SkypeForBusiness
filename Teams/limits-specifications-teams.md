@@ -1,19 +1,18 @@
 ---
 title: Limits and specifications for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: siunies
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
-localization_priority: Priority
-f1.keywords:
-- NOCSH
+ms.localizationpriority: high
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
-  - SPO_Content
   - m365initiative-deployteams
 search.appverid: MET150
 appliesto: 
@@ -40,8 +39,8 @@ This article describes some of the limits, specifications, and other requirement
 |Number of channels per team    | 200 (includes deleted channels)<sup>4</sup>        |
 |Number of Private channels per team    |30 (includes deleted channels)<sup>4</sup>        |
 |Number of members in a Private channel    |250|
-|Maximum size of distribution list, security group or Office 365 group that can be imported in to a team    |3,500|
-|Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>6</sup>     |
+|Maximum size of distribution list, security group or Microsoft 365 group that can be imported in to a team    |3,500|
+|Maximum number of members in a Microsoft 365 group that can be converted to a team    |10,000<sup>6</sup>     |
 |Channel conversation post size | Approximately 28 KB per post<sup>5</sup> |
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
@@ -54,7 +53,10 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>5</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
-<sup>6</sup> Teams in GCC can accommodate 25,000 members but teams in GCCH/DoD can only accommodate 2,500 members. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
+<sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
+
+> [!NOTE]
+> For limits for shared channels, see [Limits for shared channels](/MicrosoftTeams/shared-channels#limits-for-shared-channels).
 
 ## Messaging
 
@@ -62,7 +64,6 @@ This article describes some of the limits, specifications, and other requirement
 
 Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
-Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits apply to the chat function within Teams.
 
 |Feature  | Maximum limit  |
 |---------|---------|
@@ -90,6 +91,8 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Size of each file attachment | Less than 10 MB |
 |Number of inline images<sup>2</sup> |50   |
 
+> [!NOTE]
+> There is a throttling limit on how many emails you can send to a channel. The limit is six emails per ten seconds per channel per user and eight emails per ten seconds per tenant per user.
 <sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
@@ -115,17 +118,18 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
+|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). The view-only experience will soon be available for webinars as well. Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Number of people in a video or audio call from chat | 20 |
-|Max PowerPoint File Size | 2GB|
+|Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
+| Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording will end and automatically restart.
   
-<sup>1</sup> For the best experience in large meetings, we recommend using the Teams desktop client or Teams mobile clients.
-  
-<sup>2</sup> In large meetings, we recommend that presenters use the Teams desktop client. For more tips on hosting large meetings, please see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-  
+<sup>1</sup> For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of Teams desktop client or Teams mobile clients.
+
+<sup>2</sup> Presenters in large meetings, webinars, and live events should use the Teams desktop client. For more tips on hosting large meetings, please see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+
 > [!NOTE]
-> Breakout rooms can only be created in meetings that have fewer than 300 attendees. In addition, creating breakout rooms in a meeting automatically limits the number of meeting attendees to 300. Advise your end-users to not initiate breakout rooms in meetings where they expect more than 300 participants. For more information on large Team meetings, share the guidance [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) with your end-users. 
+> Breakout rooms can only be created in meetings that have fewer than 300 attendees. In addition, creating breakout rooms in a meeting automatically limits the number of meeting attendees to 300. Advise your end-users to not initiate breakout rooms in meetings where they expect more than 300 participants. For more information on large Team meetings, share the guidance [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) with your end-users.
 
 ### Meeting expiration
 
@@ -141,7 +145,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
 
 > [!NOTE]
-> Microsoft Teams meetings have a time limit of 24 hours.
+> Microsoft Teams meetings have a time limit of 30 hours.
 
 ## Teams Live Events
 
@@ -153,18 +157,18 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 <sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+For more information about live events, go to [Teams live events](teams-live-events/plan-for-teams-live-events.md#teams-live-events). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, through December 31, 2021, we will extend temporary limit increases for live events, including**:
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2023, including:**
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
 >- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## Presence in Outlook
 
@@ -218,7 +222,7 @@ A class team can support more than 300 members. However, if you plan to use eith
 |---------|---------|
 |Number of tags per team    | 100        |
 |Number of suggested default tags per team    | 25        |
-|Number of team members assign to a tag    |100         |
+|Number of team members assigned to a tag    |200         |
 |Number of tags assigned to a user per team    |25         |
 
 ## Contacts

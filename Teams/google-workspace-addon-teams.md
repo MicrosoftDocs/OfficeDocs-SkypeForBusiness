@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Teams meeting add-on for Google Workspace
-author: cichur
-ms.author: v-cichur
+ms.author: mabond
+author: mkbond007
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -11,7 +11,7 @@ searchScope:
   - Microsoft Teams
 search.appverid: MET150
 description: Learn how to Set up Microsoft Teams meeting add-on for Google Workspace.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -38,11 +38,11 @@ The add-on is enabled by default.
 
 3. Search for **Microsoft Teams meeting add-on for Google Workspace**.
 
-   ![Azure portal showing all applications](media/aad-add-google-workspace.png)
+   ![Azure portal showing all applications.](media/aad-add-google-workspace.png)
 
 4. Select **Yes**.
 
-   ![Azure portal showing the google workspace properties](media/google-workspace-properties.png)
+   ![Azure portal showing the google workspace properties.](media/google-workspace-properties.png)
 
 5. (Optional) To disable the add-on, select **No** instead of **Yes** in Step 4.
 
@@ -63,7 +63,7 @@ if ($servicePrincipal) {
 } else {
     # Service principal does not yet exist, create it and disable it at the same time
     New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
-    $servicePrincipal = New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName -AccountEnabled $false
+    Get-AzureADServicePrincipal -Filter "appId eq '$appId'" | Set-AzureADServicePrincipal -AccountEnabled:$false
     Write-Host "Created and disabled the Service Principal \n"
 }
 ```
@@ -73,3 +73,25 @@ For more information, see [Create an Azure service principal with Azure PowerShe
 ## Delete the Microsoft Teams meeting add-on for Google Workspace
 
 See the Google documentation [Delete a Google Workspace Marketplace app](https://support.google.com/a/answer/6216211?hl=en) for instructions.
+
+## Create the Microsoft Teams meeting add-on for Google Workspace using PowerShell
+
+In case the Microsoft Teams meeting add-on is not present in your tenant, you can create it using PowerShell: 
+
+```powershell
+Connect-AzureAD
+
+$displayName = 'Microsoft Teams meeting add-on for Google Workspace'
+$appId = '7969c887-ba98-48bb-8832-6c9239929d7c'
+
+# Check if a service principal already exists for the app
+$servicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$appId'"
+if ($servicePrincipal) {
+    # Service principal exists already
+    Write-Host "The Service principal already exists"
+} else {
+    # Service principal does not yet exist, create it
+    New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
+    Write-Host "Created the Service Principal"
+}
+```

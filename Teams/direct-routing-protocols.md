@@ -1,5 +1,5 @@
 ---
-title:  Phone System Direct Routing
+title: "Teams phone system direct routing: Definitions and RFC standards"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,19 +7,18 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
-f1.keywords:
-- NOCSH
-description: Direct Routing protocols
-appliesto:
-- Microsoft Teams
+f1.keywords: 
+  - NOCSH
+description: How Microsoft Phone System Direct Routing implements RFC standard protocols.
+appliesto: 
+  - Microsoft Teams
 ---
 
-# Direct Routing - Definitions and RFC standards
+# Direct routing - definitions and RFC standards
 
 This article describes how Microsoft Phone System Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
 

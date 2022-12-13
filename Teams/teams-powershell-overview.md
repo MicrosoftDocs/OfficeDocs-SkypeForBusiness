@@ -24,6 +24,8 @@ You can use the Microsoft Teams PowerShell module using one of the following met
 - Install the Microsoft Teams PowerShell module via [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) (recommended option). 
 - Install the Microsoft Teams PowerShell module via [Manual Download](https://www.powershellgallery.com/packages/MicrosoftTeams). 
 
+> [!NOTE]
+> Microsoft Teams PowerShell module versions earlier than 4.x.x are retiring. Please update to the latest version. More details in [Teams PowerShell Module - Supported Versions](teams-powershell-supported-versions.md).
 
 ## Features 
 
@@ -34,7 +36,7 @@ The Microsoft Teams PowerShell module includes the following features:
 
 ##  Data collection 
 
-Microsoft Teams PowerShell module default settings collect telemetry data. Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience. Microsoft Teams PowerShell module does not collect any private or personal data.  
+Microsoft Teams PowerShell module default settings collect telemetry data. Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience. Microsoft Teams PowerShell module does not collect any private or personal data. For more details, refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ## Related topics
 
