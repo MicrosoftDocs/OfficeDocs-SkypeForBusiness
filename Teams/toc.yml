@@ -610,8 +610,6 @@ items:
               href: meetings-policies-recording-and-transcription.md
             - name: Who can bypass the lobby
               href: who-can-bypass-meeting-lobby.md
-            - name: Turn off the lobby
-              href: disable-meeting-lobby.md
             - name: Content and screen sharing policies
               items:
                 - name: Content sharing
