@@ -76,7 +76,7 @@ To set meeting join and lobby policies
    - **Let anonymous people join a meeting**
    - **Let anonymous people start a meeting**
    - **Automatically admit people** (Who can bypass the lobby)
-   - **Dial-in users can bypass the lobby**
+   - **Dial-in users can bypass the lobby**<br>
     ![Screenshot showing the meeting join and lobby settings in the Teams admin center.](media/meeting-join-and-lobby-tac-settings.png)
 1. Select **Save**.
 
