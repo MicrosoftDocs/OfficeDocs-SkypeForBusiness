@@ -172,25 +172,6 @@ The **user requirement** is:
 
 - An Office 365 or Microsoft 365 subscription with Teams.
 
-## How does Teams enforce access to Teams Premium features?
-
-Which Teams experience a user has depends on their Teams license and their Teams role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
-
-For example, in a Teams meeting, Teams will check each users’ Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other participants’ experience in the meeting.
-
-- **Organizer-based:** Some features check licensing at the organizer level. If a meeting organizer has the right license for a feature, that feature will also be shared and made accessible to the meeting attendees during that meeting.
-- **Attendee-based:** Some features check licensing at the attendee level. Their Teams experience won’t be shared and made accessible to other attendees during the meeting.
-
-The following table shows the license checks for each Teams Premium feature.
-
-|  | Organizer-based license check | Attendee-based license check |
-|--|-------------------------------|------------------------------|
-| **Meetings** | &#10004; Use custom meeting templates </br> &#10004; Use custom themed meetings </br> &#10004; Use Microsoft eCDN for Live Events | &#10004; Use custom Together mode scenes </br> &#10004; Use custom backgrounds and lobbies |
-| **Webinars** | &#10004; Set up Webinar green rooms </br> &#10004; Manage Webinar mode </br> &#10004; Use RTMP-In </br> &#10004; Manually approve Webinar registrations </br> &#10004; Create a registration wait list </br> &#10004; Limit registration date and time |  |
-| **Meetings protection** | &#10004; Use end-to-end encryption for meetings up to 50 participants </br> &#10004; Add watermarks to meetings </br> &#10004; Apply sensitivity labels to meetings </br> &#10004; Prevent copy/paste in meeting chats </br> &#10004; Control who can record a meeting </br> &#10004; Custom user policy packages |  |
-| **Intelligent Meetings** | &#10004; Read translated captions live </br> &#10004; Navigate meetings with auto-generated chapters | &#10004; Translate post-meeting transcriptions </br></br> *Meeting recap AI features:* </br> &#10004; See timestamps for when you joined and left a meeting </br> &#10004; Receive suggested tasks after a meeting </br> &#10004; Search with suggested speaker </br> &#10004; View @mentions to you |
-| **Virtual Appointments** | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; Use custom backgrounds for appointments and lobbies | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; View and manage scheduled and on-demand appointment queue </br> &#10004; View Advanced Virtual Appointments analytics </br> &#10004; Send post-appointment follow ups |
-
 ## How does Teams Premium differ from Teams Rooms Pro?
 
 Teams Premium licenses are assigned to your organization’s users, and Teams Rooms Pro licenses should only be assigned to Microsoft Teams Rooms devices. These two licenses aren’t dependent on one another, don’t overlap features, and won’t cause license enforcement conflicts.
