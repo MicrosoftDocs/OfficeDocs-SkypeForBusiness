@@ -36,7 +36,6 @@ This article is for IT admins who wish to understand Teams Premium licensing and
 - [How does Teams Premium compare to Teams?](#how-does-teams-premium-compare-to-teams)
 - [Are there current Teams features that will move to Teams Premium?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
-- [How does Teams enforce access to Teams Premium features?](#how-does-teams-enforce-access-to-teams-premium-features)
 - [How does Teams Premium differ from Teams Rooms Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
 - [How do I purchase Teams Premium licenses?](#how-do-i-purchase-teams-premium-licenses)
@@ -55,7 +54,7 @@ The following table compares key features between Teams and Teams Premium.
 |---------|:-----:|:-------------:|
 | Host and attend Teams Meetings | x | x |
 | Experience Teams’ standard look and feel | x | x |
-| Use standard Teams Meetings backgrounds | x | x |
+| Use standard and custom meeting backgrounds at the user level| x | x |
 | Read live captions during meetings | x | x |
 | Customize meeting templates for your organization |  | x |
 | Add organization branding to meeting lobbies |  | x |
@@ -171,25 +170,6 @@ The **tenant requirement** is:
 The **user requirement** is:
 
 - An Office 365 or Microsoft 365 subscription with Teams.
-
-## How does Teams enforce access to Teams Premium features?
-
-Which Teams experience a user has depends on their Teams license and their Teams role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
-
-For example, in a Teams meeting, Teams will check each users’ Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other participants’ experience in the meeting.
-
-- **Organizer-based:** Some features check licensing at the organizer level. If a meeting organizer has the right license for a feature, that feature will also be shared and made accessible to the meeting attendees during that meeting.
-- **Attendee-based:** Some features check licensing at the attendee level. Their Teams experience won’t be shared and made accessible to other attendees during the meeting.
-
-The following table shows the license checks for each Teams Premium feature.
-
-|  | Organizer-based license check | Attendee-based license check |
-|--|-------------------------------|------------------------------|
-| **Meetings** | &#10004; Use custom meeting templates </br> &#10004; Use custom themed meetings </br> &#10004; Use Microsoft eCDN for Live Events | &#10004; Use custom Together mode scenes </br> &#10004; Use custom backgrounds and lobbies |
-| **Webinars** | &#10004; Set up Webinar green rooms </br> &#10004; Manage Webinar mode </br> &#10004; Use RTMP-In </br> &#10004; Manually approve Webinar registrations </br> &#10004; Create a registration wait list </br> &#10004; Limit registration date and time |  |
-| **Meetings protection** | &#10004; Use end-to-end encryption for meetings up to 50 participants </br> &#10004; Add watermarks to meetings </br> &#10004; Apply sensitivity labels to meetings </br> &#10004; Prevent copy/paste in meeting chats </br> &#10004; Control who can record a meeting </br> &#10004; Custom user policy packages |  |
-| **Intelligent Meetings** | &#10004; Read translated captions live </br> &#10004; Navigate meetings with auto-generated chapters | &#10004; Translate post-meeting transcriptions </br></br> *Meeting recap AI features:* </br> &#10004; See timestamps for when you joined and left a meeting </br> &#10004; Receive suggested tasks after a meeting </br> &#10004; Search with suggested speaker </br> &#10004; View @mentions to you |
-| **Virtual Appointments** | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; Use custom backgrounds for appointments and lobbies | &#10004; Set up SMS notifications </br> &#10004; Access Premium Virtual Appointments app </br> &#10004; View and manage scheduled and on-demand appointment queue </br> &#10004; View Advanced Virtual Appointments analytics </br> &#10004; Send post-appointment follow ups |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
