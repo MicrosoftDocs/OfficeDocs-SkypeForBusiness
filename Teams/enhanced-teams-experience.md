@@ -80,8 +80,6 @@ Teams Premium provides the following additional features for customizing meeting
 - **Custom together mode scenes for organizations** -  You can create, customize, or accept custom together mode scenes for meetings that are then available to your end users with a Teams Premium license.
 
 
-A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
-
 | Feature/Task | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ------------ |
 | Meeting templates | - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
