@@ -36,20 +36,17 @@ Praise is enabled by default for all Teams users in your organization. You can t
 
 Keep in mind that this setting affects both the Praise app and the Praise feature in the Viva Insights app in Teams.
 
-If you set the Status to Blocked, the Praise app is blocked within a few minutes for Teams. However, praise in Viva Insights can take 7-9 days to be blocked.
+If you set the status to **Blocked**, the Praise app is blocked within a few minutes for Teams. However, Praise in Viva Insights can take 7-9 days to be blocked.
 
 ## Enable or disable Praise for specific users in your organization
 
 To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-## Badges
+## Composer
 
-Here's the default set of badges in Praise. Teams users in your organization can use these badges to recognize their peers for going above and beyond with their work.
+Teams users in your organization can use the praise composer to recognize their peers for going above and beyond with their work. While crafting their message, they can pick from 14 titles&mdash;like **Courage**, **Optimism**, **Kind heart**, and **Creative**&mdash;to recognize their colleagues’ contributions.
 
-:::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in the default badge set.":::
-
-> [!NOTE]
-> Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges have been removed from the Teams admin center.
+:::image type="content" source="media/praise.png" alt-text="Screenshot of the praise composer.":::
 
 ## Related articles
 

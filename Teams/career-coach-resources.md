@@ -1,7 +1,7 @@
 ---
 title: Resources for Career Coach integration in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -37,7 +37,7 @@ Use the following resources for IT admins to get started with Microsoft Teams.
 
 ## Resources for faculty and staff
 
-Use the following resources for higher education faculty and staff to get started with Career Coach and Microsoft Teams.
+Use the following resources for education faculty and staff to get started with Career Coach and Microsoft Teams.
 
 | Resource | Description |
 |----------|-------------|

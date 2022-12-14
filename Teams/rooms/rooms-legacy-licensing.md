@@ -70,4 +70,4 @@ The following table lists the features available for Teams Rooms with the Teams 
 
  See also [Great meeting room experiences: Meet the new Microsoft Teams Rooms Standard and Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
 
- You can read [Set up the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing Common Area Phones.
+ You can read [Set up common area phones for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing common area phones.

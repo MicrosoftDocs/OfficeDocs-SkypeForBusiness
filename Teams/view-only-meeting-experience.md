@@ -26,6 +26,9 @@ appliesto:
 > [!Note]
 > If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year. Webinars currently don't support a view-only broadcast experience.
 
+> [!Note]
+> A Teams Meeting is not a Teams Live Event (TLE) and will not leverage Microsoft eCDN. For more information, see [Microsoft eCDN onboarding checklist](/ecdn/integration/onboarding-checklist-for-tle-customers).
+
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience.
 
 Attendees who join the meeting first, up to the capacity of the main meeting, will get the full Teams meeting experience. They can share audio and video, see shared videos, and participate in meeting chat.
@@ -39,7 +42,7 @@ Attendees will be able to join the view-only experience through desktop, web, an
 
 ## Teams view-only experience controls
 
-You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/?view=skype-ps) or at least version 2.0.0 of the [MicrosoftTeams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
+You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/) or at least version 2.0.0 of the [MicrosoftTeams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 To use the recommended `MicrosoftTeams` module:
 

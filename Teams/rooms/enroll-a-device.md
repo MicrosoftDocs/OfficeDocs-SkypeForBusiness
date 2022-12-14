@@ -48,7 +48,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
      *Example:*
 
      ```DOS
-     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
 ### Enabling TPM settings
