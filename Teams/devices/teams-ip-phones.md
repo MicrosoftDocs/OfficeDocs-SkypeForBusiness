@@ -83,7 +83,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | September 3, 2024  |  Medium size room (4.5 m x 6 m) | 10|
 | Neat Bar | `NFF1.20220914.1210` |September 3, 2024|    Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar only | 9 |
+| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar & Neat Bar Pro | 9 |
 | Neat Board | `NFC1.20220914.1210 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
@@ -160,6 +160,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX350 | `8.0.2.2643` | 2022 Update #4A |
 |Yealink CP965  | `143.15.0.27`     | 2022 Update #4A  |
 |Yealink MP54/MP56/MP58  | `122.15.0.107`     | 2022 Update #4A  |
 |Yealink MP52  | `145.15.0.59`     | 2022 Update #4A  |
@@ -286,6 +287,11 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 86" | `155.15.0.17` | 2022 Update #2B |
+| Neat Bar | `NFB1.20220914.1215` | 2022 Update #2B |
+| Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
+| Neat Board | `NFC1.20220914.1215` |  2022 Update #2B |
+| Neat Pad touch console | `NFA1.20220914.1215`  |  2022 Update #2B |
 | Logi Rallybar  | `1.8.290`     | 2022 Update #2B  |
 | Logi Rallybar Mini  | `1.8.290`     | 2022 Update #2B  |
 | Logi Console  | `1.8.177`    | 2022 Update #2B  |
