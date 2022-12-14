@@ -173,7 +173,7 @@ Anyone can attend a Teams meeting, webinar, or Public Live Event for free—no l
 
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
 
-For information about Teams Premium licensing, see [Teams Premium licensing](/teams-add-on-licensing/licensing-enhance-teams.md).
+For information about Teams Premium licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
 
 To allow people to dial in to a meeting by phone, you'll need to set up audio conferencing. For more information about audio conferencing, see [Audio conferencing in Teams](deploy-audio-conferencing-teams-landing-page.md).
 
