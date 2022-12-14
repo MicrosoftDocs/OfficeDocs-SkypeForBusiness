@@ -112,8 +112,6 @@ The new policy will continue to support registration and tracking, and it will p
 - Advanced registration capabilities: manual approval, waitlist, registration date and time limit
 - Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
 
-For more information about feature availability and licensing, see **INCLUDE LINK TO  LICENSING DOC.**
-
 You'll want to start using the new policy to take advantage of new functionality as it becomes available.
 
 For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
@@ -174,6 +172,8 @@ The following table lists articles for more information:
 Anyone can attend a Teams meeting, webinar, or Public Live Event for free—no license is required.
 
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
+
+For information about Teams Premium licensing, see [Teams Premium licensing](/teams-add-on-licensing/licensing-enhance-teams.md).
 
 To allow people to dial in to a meeting by phone, you'll need to set up audio conferencing. For more information about audio conferencing, see [Audio conferencing in Teams](deploy-audio-conferencing-teams-landing-page.md).
 

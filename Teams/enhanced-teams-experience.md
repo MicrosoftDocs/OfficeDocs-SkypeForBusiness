@@ -58,8 +58,6 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 - **End-to-end encryption** - Enforced through a sensitivity label. End-to-end encryption provides increased security for meetings that require a higher level of protection.
 
 
-
-
 | Feature/Task  | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ------------ |
 | Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | |
@@ -77,16 +75,19 @@ Teams Premium provides the following additional features for customizing meeting
 
 - **Meeting themes** - Allows your organization to extend their visual identities across the meeting experience. You can set up and create meeting themes for a variety of business units and departments within a single tenant.
 
-- **Custom meeting backgrounds** - You can create and define custom meeting backgrounds that are then available to your end users. 
+- **Custom meeting backgrounds for organizations** - You can create and define custom meeting backgrounds that are then available to your end users with a Teams Premium license.
 
-- **Custom together mode scenes** -  A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
+- **Custom together mode scenes for organizations** -  You can create, customize, or accept custom together mode scenes for meetings that are then available to your end users with a Teams Premium license.
+
+
+A Teams app that enables developers in your organization to define and customize video scenes for meetings.  
 
 | Feature/Task | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ------------ |
 | Meeting templates | - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | Meeting themes | [Themes for Teams meetings](meeting-themes.md) | [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| Custom meeting backgrounds | [Meeting backgrounds](custom-meeting-backgrounds.md)| |
-| Custom together mode scenes | [Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| Custom meeting backgrounds for organizations | [Meeting backgrounds](custom-meeting-backgrounds.md)| |
+| Custom together mode scenes for organizations | [Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 
