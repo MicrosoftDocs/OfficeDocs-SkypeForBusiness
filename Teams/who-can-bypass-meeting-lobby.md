@@ -66,7 +66,7 @@ The following table shows how each option for the **Who can bypass the lobby** p
 
 ## Choose who can bypass the lobby in meetings hosted by your organization
 
-You can configure the settings and policies described above in the Teams admin center. See the sections below for guidance on which setting to choose for different circumstances.
+You can configure the settings and policies described above in the Teams admin center. See the sections below for guidance on which setting to choose for different circumstances. For information about how meeting policies work, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 > [!Important]
 > Meeting organizers can change the default values that you choose for the **People dialing in can bypass the lobby** and **Who can bypass the lobby** settings. If you need to enforce these settings to a particular value, you can use a meeting template or sensitivity label (Teams Premium required).  For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
@@ -97,9 +97,8 @@ To set the organization-wide meeting setting for anonymous meeting join
 Anonymous participants are anonymous because they are not logged in to an account that can be verified by Microsoft 365. This could include:
 
 - People who are not logged in to Microsoft 365 with a work or school account 
-- People from non-trusted organizations (as configured in [external access](manage-external-access.md)). 
-- People from domains that you allow but which do not allow your domain  
-- People from your organization who are not logged in
+- People from non-trusted organizations (as configured in [external access](manage-external-access.md)).
+- People from organizations that you trust but which do not trust your organization
 
 If you want to prevent anonymous participants from joining meeting completely, you can turn off the **Anonymous users can join a meeting** organization-wide meeting setting. You can also disable anonymous join for specific meeting organizers by using the **Anonymous users can join a meeting** meeting policy.
 
@@ -122,7 +121,7 @@ If you want all verified meeting participants from outside your organization to 
 
 ## Control access to meetings by people without invitations
 
-If you want to allow only people who have invitations to join meetings directly and have all other participants wait in the lobby, set **Who can bypass the lobby** to **Only people who were invited**.
+If you want to allow only people who have invitations to join meetings directly and have all other participants wait in the lobby, set **Who can bypass the lobby** to **Only people who were invited**. (People invited via distribution list are not included.)
 
 The **Only people who were invited** setting includes verified participants to whom the invite was forwarded, not just those invited directly by the organizer. It doesn’t include people who have the meeting join link but not the invitation itself and unverified (anonymous) participants. They must wait in the lobby.
 
@@ -149,5 +148,3 @@ You can set the meeting policies described in this article by using the [Set-CsT
 [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 [External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
-
-[Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview)
