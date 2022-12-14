@@ -23,7 +23,7 @@ Using the Microsoft Teams admin center, you can update your Teams devices, such 
 - Teams app
 - Device firmware
 
-Device firmware updates happen automatically by default. You can, however, set up Teams to update firmware and other software components manually. When applying updates manually, they can be applied immediately or scheduled for a future date and time.
+Device firmware updates happen automatically by default. You can, however, update firmware and other software components manually. When applying updates manually, they can be applied immediately or scheduled for a future date and time.
 
 Only firmware versions that have been tested by Microsoft are available for automatic or manual update via the Teams admin center. Firmware versions tested by Microsoft are labeled **Verified by Microsoft**. Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated; these devices can only be manually updated.
 
@@ -36,7 +36,7 @@ Assigning devices to an automatic update phase is a Teams Rooms Pro feature for 
 Automatic updates of Teams devices using the Teams admin center isn't available in GCC High. Organizations in GCC High can, however, [manually update Teams devices](#manually-update-remote-devices) using the Teams admin center.
 
 > [!IMPORTANT]
-> The automatic update feature is currently in early release. Updates might be released more slowly than the phase you selected. Over the next few months, the speed at which updates are automatically released will increase until they reach the phase you've selected.
+> The automatic update feature is currently in early release. Updates might be deployed more slowly than the phase you selected. Over the next few months, the speed at which updates are automatically deployed will increase until they reach the phase you've selected.
 
 > [!NOTE]
 > Some devices don't support automatic firmware updates yet. Applying automatic firmware update settings on devices that don't support automatic updates won't have any affect on those devices. For questions about whether your device will support automatic firmware updates, contact your device manufacturer.
@@ -54,7 +54,7 @@ To choose the automatic update phase for your devices, do the following:
     - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation has been completed. Updates start deployment only after 90 days have elapsed from the release of the new firmware version. Previously called **Defer by 90 days**.
 5. Select **Update**.
 
-To see which phase devices are in, see the **Firmware auto-update** column in the Teams admin center. To see which devices are part of a specific phase, use the **Filter** option.
+To see which phase devices are in, see the **Firmware auto-update** column in the Teams admin center. To see which devices are part of a specific phase, use the **Filter** option with the **Auto-update phase** parameter.
 
 To revert a device firmware update, you need to reset your device to its factory settings. Reset your device using the instructions from its manufacturer.  
 
