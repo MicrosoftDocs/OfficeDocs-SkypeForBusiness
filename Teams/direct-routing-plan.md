@@ -280,7 +280,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 ### Microsoft 365, Office 365, and Office 365 GCC environments
 
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254).
-- 52.120.0.0/14 (IP addresses from 52.120.0.1 to 52.123.255.254).
+- 52.122.0.0/15 (IP addresses from 52.122.0.1 to 52.123.255.254).
 
 ### Office 365 DoD environment
 
