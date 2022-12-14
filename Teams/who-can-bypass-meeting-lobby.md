@@ -52,14 +52,14 @@ The following table shows the Teams meeting policies that affect how meeting par
 
 The following table shows how each option for the **Who can bypass the lobby** control affects each type of meeting participant.
 
-|*Who can bypass the lobby?* policy value|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
+|**Who can bypass the lobby?** policy value|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
 |:------------------------|:------:|:----------------------------------------------------------:|:-----------------------------------|:------------------------|:---------------------------|:--------------------------------|
-||||||||
-|**Organizer and co-organizers**|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
-|**People in the organization**|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
-|**Guests**|Bypass|Bypass|Bypass|Lobby|Lobby|Lobby|
-|**People in trusted organizations**|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
-|**Anonymous participants**|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
+|*Participant type*|||*Lobby behavior*||||
+|*Organizer and co-organizers*|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
+|*People in the organization*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
+|*Guests*|Bypass|Bypass|Bypass|Lobby|Lobby|Lobby|
+|*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
+|*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
 
 **Only people who were invited** applies only to verified participants who were sent an invite or to whom an invite was forwarded. Users added as a part of a distribution group will wait in the lobby.
 
