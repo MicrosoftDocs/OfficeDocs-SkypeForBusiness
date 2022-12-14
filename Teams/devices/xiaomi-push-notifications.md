@@ -15,7 +15,7 @@ ms.collection:
   - Teams_ITAdmin_Devices
 ms.topic: reference
 search.appverid: MET150
-description: This article provides guidance on how to enable check-in and room release Teams panels devices.
+description: This article provides guidance on how to enable push notifications in your Xiaomi Android phones.
 ---
 
 # How to make Teams push notifications work in your Xiaomi phone?
