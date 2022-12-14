@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Learn to use the meeting lobby in Microsoft Teams to allow only certain meeting participants to join the meeting directly
+description: Learn to use the meeting lobby in Microsoft Teams to allow only certain meeting participants to join the meeting directly.
 ---
 
 # Control who can bypass the meeting lobby in Microsoft Teams
@@ -54,7 +54,7 @@ The following table shows how each option for the **Who can bypass the lobby** c
 
 |*Who can bypass the lobby?* policy value|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
 |:------------------------|:------:|:----------------------------------------------------------:|:-----------------------------------|:------------------------|:---------------------------|:--------------------------------|
-|*Participant type*|||*Lobby behavior*||||
+||||||||
 |**Organizer and co-organizers**|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
 |**People in the organization**|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |**Guests**|Bypass|Bypass|Bypass|Lobby|Lobby|Lobby|
