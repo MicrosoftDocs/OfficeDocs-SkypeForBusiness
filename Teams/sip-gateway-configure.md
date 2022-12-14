@@ -3,7 +3,7 @@ title: Configure SIP Gateway
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/30/2021
+ms.date: 12/8/2022
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -36,9 +36,9 @@ Before you can configure SIP Gateway, do the following:
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
-- **Open the UDP port.** Open UDP port in the range 49152 to 53247 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
+- **Open the UDP port.** Open UDP port in the range 49152 to 53247 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
-- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
+- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
 - **Open the following https endpoints (IP addresses and URLs):**
 
@@ -99,7 +99,7 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 ### By using PowerShell
 
-You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
+You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 > [!NOTE]
 > - Policy propagation may take up to 24 hours.
