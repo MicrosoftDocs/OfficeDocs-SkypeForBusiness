@@ -49,7 +49,7 @@ storing, and analyzing Teams communications. Enhancements include communications
     integration with existing Teams administrative calling and
     meeting tools and policies
 
-Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 users or Teams Room/Common Area Phone license. 
+Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 users, Teams Rooms license, or Microsoft Teams Shared Devices license.
 
 > [!NOTE]
 > Compliance recording is currently not supported for E911 emergency calling services.
