@@ -55,7 +55,7 @@ The following table compares key features between Teams and Teams Premium.
 |---------|:-----:|:-------------:|
 | Host and attend Teams Meetings | x | x |
 | Experience Teams’ standard look and feel | x | x |
-| Use standard Teams Meetings backgrounds | x | x |
+| Use standard and custom meeting backgrounds at the user level| x | x |
 | Read live captions during meetings | x | x |
 | Customize meeting templates for your organization |  | x |
 | Add organization branding to meeting lobbies |  | x |
