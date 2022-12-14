@@ -104,6 +104,7 @@ Introduced in this update:
 - Join Zoom meeting by ID (Direct guest join)
 - Quality fixes for third-party meetings (Direct guest join)
 - Fix for license information in settings showing no license when Teams is not signed in
+- A new default wallpaper (Vivid Flag) and four other new wallpapers
 
 <sup>1</sup> Administrator configuration for hiding meeting chat from all meeting layouts through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
