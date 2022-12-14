@@ -133,6 +133,14 @@ If you have meetings where sensitive information is shared or that are subject t
 
 Since **Who can bypass the lobby** only sets a default that meeting organizers can change, consider enforcing the value with a sensitivity label or meeting template if you have compliance requirements in this area. For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
+## Set meeting policies by using PowerShell
+
+You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
+
+- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-allowanonymoususerstojoinmeeting) to control if anonymous users can joint meetings
+- [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
+- [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-autoadmittedusers) to control who can bypass the lobby
+
 ## Related topics
 
 [Join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
