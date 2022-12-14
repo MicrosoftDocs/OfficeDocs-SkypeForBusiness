@@ -20,9 +20,9 @@ description: Learn to use the meeting lobby in Microsoft Teams to allow only cer
 
 # Control who can bypass the meeting lobby in Microsoft Teams
 
-The Teams meeting lobby is a way of preventing certain types of meeting attendees from joining a meeting until a meeting organizer or other authorized person admits them. When an attendee goes to the lobby, meeting organizers are notified and can choose to admit them to the meeting or not.
+The Teams meeting lobby is a way of preventing certain types of meeting attendees from joining a meeting until a meeting organizer, co-organizer,  or presenter admits them. When an attendee goes to the lobby, organizers, co-organizers, and presenters are notified and can choose to admit them to the meeting or not.
 
-Using the lobby settings in the Teams admin center, you can control which types of meeting participants are able to bypass the lobby and which must wait there until admitted to the meeting. You can control the following types of participants:
+Using the lobby settings in the Teams admin center, you can create defaults for which types of meeting participants are able to bypass the lobby and which participants must wait there until admitted to the meeting. You can control how the following types of participants interact with the lobby:
 
 - Meeting organizer and co-organizers
 - People in your organization
@@ -35,7 +35,7 @@ Using the lobby settings in the Teams admin center, you can control which types 
 There are several settings in Teams that control whether people outside the organization can interact with Teams. The following settings must be enabled for people outside the organization to join meetings:
 
 - [Guest access in Teams](guest-access.md) must be enabled in order for guests to be able to join meetings.
-- [External access](manage-external-access.md) must be enabled in order for people in trusted organizations to join meetings. A mutual trust between your organization and the external organization must also be configured.
+- [External access](manage-external-access.md) must be enabled in order for people in trusted organizations to join meetings. A mutual trust between your organization and the external organization must be configured and the meeting organizer in your organization as well as any attendees from the external organization must be enabled for external access.
 - Both the **Anonymous users can join a meeting** meeting setting (organization level) and meeting policy (for the organizer who is creating the meeting) must be **On** in order for anonymous participants to join meetings.
 
 If any of these settings are turned off, that type of external participant won't be able to join meetings regardless of lobby settings.
@@ -46,7 +46,7 @@ The following table shows the Teams meeting policies that affect how meeting par
 
 |Setting|Description|
 |:------|:----------|
-|**Anonymous users and dial-in callers can start a meeting**|This is a per-organizer policy that allows for leaderless meetings. This setting controls whether anonymous participants and dial-in users can join the meeting without an organizer, co-organizer, or presenter in attendance. By default, this setting is turned off, which means anonymous participants and dial-in users will wait in the lobby until an organizer, co-organizer, or presenter joins the meeting. This setting only applies when **Who can bypass the lobby** is set to **Everyone**. If the **Anonymous users can join a meeting** organization or meeting setting is **Off**, this setting only applies to dial-in callers.|
+|**Anonymous users and dial-in callers can start a meeting**|This is a per-organizer policy that allows for leaderless meetings. This setting controls whether anonymous participants and dial-in users can join the meeting without a verified participant in attendance. This setting only applies when **Who can bypass the lobby** is set to **Everyone**. If the **Anonymous users can join a meeting** organization or meeting setting is **Off**, this setting only applies to dial-in callers. By default, this setting is turned off to prevent potential abuse of your meeting links by anonymous users. <br> While **Off**, anonymous participants and dial-in users will wait in the lobby until a verified participant joins the meeting, at which point they will be automatically admitted. Once the meeting has started, anonymous participants and dial-in users will join the call automatically, even if the organizer leaves. <br> If this setting is **On**, anonymous and dial-in participants can start and join the meeting without a verified participant present.|
 |**People dialing in can bypass the lobby**|This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby. When this setting is **Off**, dial-in users will wait in the lobby until an organization user joins the meeting and admits them. When this setting is **On**, dial-in users will automatically join the meeting without going through the lobby, or after an organization user joins the meeting if **Anonymous users and dial-in callers can start a meeting** is **Off**.|
 |**Who can bypass the lobby**|This is a per-organizer policy. This setting controls which types of participants join a meeting directly and which wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
 
