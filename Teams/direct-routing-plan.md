@@ -117,26 +117,25 @@ A Teams user can start a one-on-one Teams-to-PSTN or Teams-to-Teams call and add
 
 You must ensure the following:
  
-- CsOnlineVoiceRoutingPolicy is assigned to the user. 
+- CsOnlineVoiceRoutingPolicy is assigned to the user.
 
-- Allow Private Calling is enabled at the tenant level for Microsoft Teams. 
+- Allow Private Calling is enabled at the tenant level for Microsoft Teams.
 
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. Phone System with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
 
-Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan, but calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN. 
+Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan, but calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN.
 
-For more information about Phone System licensing, see [Get the most from Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) and [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+For more information about Phone System licensing, see [Get the most from Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) and [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-## Supported end points 
+## Supported end points
 
 You can use as an end point:
 
-- Any Teams client. 
+- Any Teams client.
 
-- Common Area Phones. See [Set up Common Area Phones for Microsoft Teams](./set-up-common-area-phones.md). You do not need a Calling Plan license when setting up a Common Area Phone with Direct Routing.
+- Common area phones. See [Set up common area phones for Microsoft Teams](./set-up-common-area-phones.md). You don't need a Calling Plan license when setting up a common area phone with Direct Routing.
 
 - Skype for Business 3PIP phones. See [Skype for Business phones (3PIP) support with Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
-
 
 ## SBC domain names
 
@@ -150,7 +149,8 @@ contoso.com|Yes|**Valid names:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br
 |contoso.onmicrosoft.com|No|Using *.onmicrosoft.com domains is not supported for SBC names
 
 Assume you want to use a new domain name. For example, your tenant has contoso.com as a domain name registered in your tenant, and you want to use sbc1.sip.contoso.com. Before you can pair an SBC with the name sbc1.sip.contoso.com, you must register the domain name sip.contoso.com in Domains in your tenant. If you try pairing an SBC with sbc1.sip.contoso.com before registering the domain name, you will get the following error: "Cannot use the "sbc1.sip.contoso.com" domain as it was not configured for this tenant."
-After you add the domain name, you also need to create a user with UPN user@sip.contoso.com and assign a Teams license. It might take up to 24 hours to fully provision the domain name after it is added to Domains of your tenant, a user with a new name is created, and a license is assigned to the user. 
+
+After you add the domain name, you also need to create a user with UPN user@sip.contoso.com and assign a Teams license. It might take up to 24 hours to fully provision the domain name after it is added to Domains of your tenant, a user with a new name is created, and a license is assigned to the user.
 
 It is possible that a company might have several SIP address spaces in one tenant. For example, a company might have contoso.com as a SIP address space and fabrikam.com as the second SIP address space. Some users have address user@contoso.com and some users have address user@fabrikam.com. 
 
@@ -161,14 +161,15 @@ The SBC only needs one FQDN and can service users from any address space in the 
   
 ## Public trusted certificate for the SBC
 
-Microsoft recommends that you request the certificate for the SBC by generating a certification signing request (CSR). For specific instructions on generating a CSR for an SBC, refer to the interconnection instructions or documentation provided by your SBC vendors. 
+Microsoft recommends that you request the certificate for the SBC by generating a certification signing request (CSR). For specific instructions on generating a CSR for an SBC, refer to the interconnection instructions or documentation provided by your SBC vendors.
 
 > [!NOTE]
 > Most Certificate Authorities (CAs) require the private key size to be at least 2048. Keep this in mind when generating the CSR.
 
 The certificate needs to have the SBC FQDN as the common name (CN) or the subject alternative name (SAN) field.
 
-Alternatively, Direct Routing  supports a wildcard in the CN and/or SAN, and the wildcard needs to conform to standard [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1). 
+Alternatively, Direct Routing  supports a wildcard in the CN and/or SAN, and the wildcard needs to conform to standard [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1).
+
 An example would be using \*.contoso.com which would match the SBC FQDN sbc.contoso.com, but wouldn't match with sbc.test.contoso.com.
 
 Direct Routing SIP interface will only trust certificates that are signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Make sure that your SBC certificate is signed by a CA that is part of the program and that the Extended Key Usage (EKU) extension of your certificate includes Server Authentication.
@@ -185,7 +186,7 @@ Learn more:
 > [!NOTE]
 > If Mutual TLS (MTLS) support is enabled for the Teams connection on the SBC, then you must install the Baltimore CyberTrust Root and the DigiCert Global Root G2 certificates in the SBC Trusted Root Store of the Teams TLS context. (This is because the Microsoft service certificates use one of these two root certificates.) To download these root certificates, see [Office 365 Encryption chains](/microsoft-365/compliance/encryption-office-365-certificate-chains). For more details, see [Office TLS Certificate Changes](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
-## SIP Signaling: FQDNs 
+## SIP Signaling: FQDNs
 
 Direct Routing is offered in the following environments:
 
@@ -271,6 +272,7 @@ The table below summarizes the relationships between primary, secondary, and ter
 |||||
 
 ## Media traffic: Port ranges
+
 Note that the requirements below apply if you want to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass, please refer to [Plan for media bypass with Direct Routing](./direct-routing-plan-media-bypass.md).
 
 The media traffic flows to and from a separate service in the Microsoft Cloud. The IP address ranges for Media traffic are as follows.
@@ -289,7 +291,8 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 - 52.127.88.0/21
 
 ### Port range (applicable to all environments)
-The port range of the Media Processors is shown in the following table: 
+
+The port range of the Media Processors is shown in the following table:
 
 |Traffic|From|To|Source port|Destination port|
 |:--- |:--- |:--- |:--- |:--- |
@@ -298,7 +301,6 @@ The port range of the Media Processors is shown in the following table:
 
   > [!NOTE]
   > Microsoft recommends at least two ports per concurrent call on the SBC.
-
 
 ## Media traffic: Media processors geography
 
@@ -328,22 +330,23 @@ You can force use of the specific codec on the Session Border Controller by excl
 
 Applies to non-media bypass case only. With Media Bypass, the media flows directly between the Teams client and the SBC.
 
-On the leg between the Cloud Media Processor and Microsoft Teams client, either SILK or G.722 is used. The codec choice on this leg is based on Microsoft algorithms, which take into consideration multiple parameters. 
+On the leg between the Cloud Media Processor and Microsoft Teams client, either SILK or G.722 is used. The codec choice on this leg is based on Microsoft algorithms, which take into consideration multiple parameters.
 
   > [!NOTE]
   > Media re-targeting is not supported. During a Direct Routing call, if the SBC sends a new media IP to Teams Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from Teams Direct Routing.
 
 ## Supported Session Border Controllers (SBCs)
 
-Microsoft only supports certified SBCs to pair with Direct Routing. Because Enterprise Voice is critical for businesses, Microsoft runs intensive tests with the selected SBCs, and works with the SBC vendors to ensure the two systems are compatible. 
+Microsoft only supports certified SBCs to pair with Direct Routing. Because Enterprise Voice is critical for businesses, Microsoft runs intensive tests with the selected SBCs, and works with the SBC vendors to ensure the two systems are compatible.
 
-Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios. 
+Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios.
 
 For more information about supported SBCs, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 ## Support Boundaries
+
 Microsoft only supports Phone System with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Phone System through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
- 
+
 ## See also
 
 [Configure Direct Routing](direct-routing-configure.md)
