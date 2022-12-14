@@ -27,7 +27,7 @@ appliesto:
 > If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year. Webinars currently don't support a view-only broadcast experience.
 
 > [!Note]
-> A Teams Meeting is not a Teams Live Event (TLE) and will not leverage Microsoft eCDN. For more information, see (Microsoft eCDN onboarding checklist)[/ecdn/integration/onboarding-checklist-for-tle-customers].
+> A Teams Meeting is not a Teams Live Event (TLE) and will not leverage Microsoft eCDN. For more information, see [Microsoft eCDN onboarding checklist](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience.
 
