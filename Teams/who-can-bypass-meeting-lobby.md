@@ -50,7 +50,7 @@ The following table shows the Teams meeting policies that affect how meeting par
 |**People dialing in can bypass the lobby**|This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby. When this setting is **Off**, dial-in users will wait in the lobby until an organizer, co-organizer, or presenter joins the meeting and admits them. When this setting is **On**, dial-in users will automatically join the meeting without going through the lobby. (If **Anonymous users and dial-in callers can start a meeting** is **Off**, they will wait in the lobby until the meeting starts.)|
 |**Who can bypass the lobby**|This is a per-organizer policy. This setting controls which types of participants (except those dialing in by phone) join a meeting directly and which types of participants wait in the lobby until they're admitted by an organizer, co-organizer, or presenter.|
 
-The following table shows how each option for the **Who can bypass the lobby** policy affects each type of meeting participant.
+The following table shows how each option for the **Who can bypass the lobby** policy affects each *type of meeting participant*.
 
 |Policy value:|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
 |:------------------------|:------:|:----------------------------------------------------------:|:-----------------------------------|:------------------------|:---------------------------|:--------------------------------|
