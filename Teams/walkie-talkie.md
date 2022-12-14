@@ -129,7 +129,7 @@ On devices running Android OS version 12 or later, Bluetooth permissions are req
 
 ## Get insight into Walkie Talkie usage and performance
 
-The [Walkie Talkie usage and performance report](/microsoft-365/frontline/walkie-talkie-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) in the Teams admin center gives you and overview of Walkie Talkie activity and performance in your organization. The report provides information such as the number of PTT transmissions made and received, channel activity, transmission duration, device and participant details, and network quality.
+The [Walkie Talkie usage and performance report](/microsoft-365/frontline/walkie-talkie-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) in the Teams admin center gives you and overview of Walkie Talkie activity and performance in your organization. The report provides information such as the number of PTT transmissions made and received, channel activity, transmission duration, and device and participant details.
 
 ## More information
 
