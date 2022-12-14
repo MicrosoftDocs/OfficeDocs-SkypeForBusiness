@@ -36,7 +36,6 @@ This article is for IT admins who wish to understand Teams Premium licensing and
 - [How does Teams Premium compare to Teams?](#how-does-teams-premium-compare-to-teams)
 - [Are there current Teams features that will move to Teams Premium?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
-- [How does Teams enforce access to Teams Premium features?](#how-does-teams-enforce-access-to-teams-premium-features)
 - [How does Teams Premium differ from Teams Rooms Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
 - [How do I purchase Teams Premium licenses?](#how-do-i-purchase-teams-premium-licenses)
