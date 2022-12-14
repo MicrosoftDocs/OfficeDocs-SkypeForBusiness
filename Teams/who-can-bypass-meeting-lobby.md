@@ -20,7 +20,7 @@ description: Learn to use the meeting lobby in Microsoft Teams to allow only cer
 
 # Control who can bypass the meeting lobby in Microsoft Teams
 
-The Teams meeting lobby is a way of preventing certain types of meeting attendees from joining a meeting until a meeting organizer, co-organizer, or presenter admits them. When an attendee goes to the lobby, organizers, co-organizers, and presenters are notified and can choose to admit them to the meeting or not.
+The Teams meeting lobby is a way of preventing certain types of meeting participants from joining a meeting until a meeting organizer, co-organizer, or presenter admits them. When a participant goes to the lobby, organizers, co-organizers, and presenters are notified and can choose to admit them to the meeting or not.
 
 Using the lobby settings in the Teams admin center, you can create defaults for which types of meeting participants are able to bypass the lobby and which participants must wait there until admitted to the meeting. You can control how the following types of participants interact with the lobby:
 
@@ -30,12 +30,14 @@ Using the lobby settings in the Teams admin center, you can create defaults for 
 - People in trusted organizations
 - Anonymous participants
 
+The identities of people joining meetings are verified by Microsoft 365 unless the participant is anonymous. Anonymous participants can't be verified.
+
 ## Prerequisites for meeting with people outside your organization
 
 There are several settings in Teams that control whether people outside the organization can interact with Teams. The following settings must be enabled for people outside the organization to join meetings:
 
 - [Guest access in Teams](guest-access.md) must be enabled in order for guests to be able to join meetings.
-- [External access](manage-external-access.md) must be enabled in order for people in trusted organizations to join meetings. A mutual trust between your organization and the external organization must be configured and the meeting organizer in your organization as well as any attendees from the external organization must be enabled for external access.
+- [External access](manage-external-access.md) must be enabled in order for people in trusted organizations to join meetings. A mutual trust between your organization and the external organization must be configured and the meeting organizer in your organization as well as any participants from the external organization must be enabled for external access.
 - Both the **Anonymous users can join a meeting** meeting setting (organization level) and meeting policy (for the organizer who is creating the meeting) must be **On** in order for anonymous participants to join meetings.
 
 If any of these settings are turned off, that type of external participant won't be able to join meetings regardless of lobby settings.
@@ -56,8 +58,8 @@ The following table shows how each option for the **Who can bypass the lobby** p
 |:--------|:------|:-----|:-----|:------|:-------|:---------------|
 |*Organizer and co-organizers*|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
 |*People in the organization*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
-|*Guests*|Bypass|Bypass|Bypass|Lobby|Lobby|Lobby|
-|*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|Lobby|Lobby|
+|*Guests*|Bypass|Bypass|Bypass|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
+|*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
 
 **Only people who were invited** applies only to verified participants who were sent an invite or to whom an invite was forwarded. Users added as a part of a distribution group will wait in the lobby.
@@ -128,7 +130,7 @@ Note that meeting organizers can disable forwarding the meeting invite if they o
 
 ## Control access to meetings by non-organizers
 
-If you have meetings where sensitive information is shared or that are subject to regulatory requirements, you might want to have all attendees wait in the lobby until they are admitted by a meeting organizer or co-organizers. In this case, you can set **Who can bypass the lobby** to **Only organizers and co-organizers**.
+If you have meetings where sensitive information is shared or that are subject to regulatory requirements, you might want to have all participants wait in the lobby until they are admitted by a meeting organizer or co-organizers. In this case, you can set **Who can bypass the lobby** to **Only organizers and co-organizers**.
 
 Since **Who can bypass the lobby** only sets a default that meeting organizers can change, consider enforcing the value with a sensitivity label or meeting template if you have compliance requirements in this area. For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
@@ -147,3 +149,5 @@ You can set the meeting policies described in this article by using the [Set-CsT
 [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 [External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
+
+[Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview)
