@@ -79,7 +79,7 @@ To set meeting join and lobby policies
    - **Let anonymous people start a meeting**
    - **Automatically admit people** (Who can bypass the lobby)
    - **Dial-in users can bypass the lobby**<br>
-    ![Screenshot showing the meeting join and lobby settings in the Teams admin center.](media/meeting-join-and-lobby-tac-settings.png)
+    ![Screenshot showing the meeting join and lobby policy in the Teams admin center.](media/meeting-join-and-lobby-tac-settings.png)
 1. Select **Save**.
 
 Note that changes can take up to twenty-four hours to take effect.
@@ -137,9 +137,9 @@ Since **Who can bypass the lobby** only sets a default that meeting organizers c
 
 You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
 
-- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
-- [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
-- [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-autoadmittedusers) to control who can bypass the lobby
+- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
+- [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
+- [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
 
 ## Related topics
 
