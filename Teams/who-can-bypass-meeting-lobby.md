@@ -138,7 +138,7 @@ Since **Who can bypass the lobby** only sets a default that meeting organizers c
 
 You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
 
-- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-allowanonymoususerstojoinmeeting) to control if anonymous users can joint meetings
+- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
 - [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
 - [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps#-autoadmittedusers) to control who can bypass the lobby
 
