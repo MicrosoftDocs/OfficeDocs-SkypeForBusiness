@@ -73,14 +73,11 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550103" -PhoneNumberType OCMobile
 ```
 
-
-
-
-
-
-
 > [!NOTE]
 > Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+
+> [!NOTE]
+> When you assign a phone number the EnterpriseVoiceEnabled flag is automatically set to True.
 
 ## Change a phone number for a user
 

@@ -55,7 +55,7 @@ The following is an example of the SIP Invite message on an incoming call:
 | From Header | From Header From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
-| Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
+| Contact Header | Contact: <sip:+17168712781@sbc1.adatum.biz:5058;transport=tls> | 
 
 On receiving the invite, the SIP proxy performs the following steps:
 
