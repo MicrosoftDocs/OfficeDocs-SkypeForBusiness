@@ -39,7 +39,7 @@ Automatic updates of Teams devices using the Teams admin center isn't available 
 > The automatic update feature is currently in early release. Updates might be deployed more slowly than the phase you selected. Over the next few months, the speed at which updates are automatically deployed will increase until they reach the phase you've selected.
 
 > [!NOTE]
-> Some devices don't support automatic firmware updates yet. Applying automatic firmware update settings on devices that don't support automatic updates won't have any affect on those devices. For questions about whether your device will support automatic firmware updates, contact your device manufacturer.
+> Some devices don't support automatic firmware updates yet. Applying automatic firmware update settings on devices that don't support automatic updates won't have any effect on those devices. For questions about whether your device will support automatic firmware updates, contact your device manufacturer.
 >
 > Updates are applied on weekends and outside typical business hours to avoid disruptions. Devices within a phase will be updated gradually over a few weeks rather than all at once.
 
