@@ -103,9 +103,9 @@ To access and use information barriers, your organization must have one of the f
 
 #### Teams Admin Center
 
-Go to Teams -> Teams settings and scroll down to "Search by name" and turn the toggle on and save the change.
+Go to Teams -> Teams settings and scroll down to "Search by name" and turn on the toggle and save the change.
 
-For more information on this option please refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
+For more information on this option refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Compliance - Auditing
 
@@ -122,7 +122,7 @@ For more information on auditing refer to: [Set up Audit (Standard) in Microsoft
 
 #### Segmenting Data
 
-The Resource Accounts that shouldn't be called directly need to be segmented (identifiable) by making them members of a particular group or by some information in their user profile such as: 
+The Resource Accounts that shouldn't be called directly need to be segmented / easily identifiable.  This can be done by making them members of a particular group or by some unique information in their user profile such as: 
 
 -	Company
 -	User principal name
@@ -149,9 +149,9 @@ Go to: [Microsoft 365 Admin Center](https://admin.microsoft.com/Adminportal/Home
 1. In the left navigation pane, click Active Users 
 2. Click on the first Resource Account to block direct calls to 
 3. Click on Manage contact information in the right pane 
-4. Replace the contents of the Department field with a unique word or acronym that is not used as a department name. For example, set this to: DNC 
+4. Replace the contents of the Department field with a unique word or acronym that is not used as a department name. For example: DNC 
 5. Save changes 
-6. Repeat this for each Resource Account that needs to be blocked from receiving direct calls 
+6. Repeat for each Resource Account that needs to be blocked from receiving direct calls 
 
 #### Compliance - Information Barriers
 
@@ -166,20 +166,20 @@ Go to [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
 7. Click **New segment** 
 8. Enter a name for the segment and click **Next**.  For example: Callable Users 
 9. Click **+Add** and then Department 
-10. Click on the **Equal** drop down and select **Not equal to**
+10. Click on the **Equal** drop-down and select **Not equal to**
 11. Enter the unique word or acronym used in Microsoft Admin Center step 4 above.  For example: DNC 
 12. Click **Next** and then **Submit* and Done 
 13. In the left navigation pane, click **Information barriers -> Policies** 
 14. Click **Create policy** 
-15. Enter a name for the policy and click **Next**.  For example: Uncallable Resource Acounts 
+15. Enter a name for the policy and click **Next**.  For example: Uncallable Resource Accounts 
 16. Click **+Choose segment** and add the segment created in step 8 above and click **Next** 
-17. Select **Blocked** from the **Communication and collaboration** drop down 
+17. Select **Blocked** from the **Communication and collaboration** drop-down 
 18. Click **+Choose segment** and add the segment created in step 3 above and click **Next** 
 19. Set the policy to **On** and click **Next** and then **Submit**
 20. Click **Create policy** 
 21. Enter a name for the policy and click **Next**.  For example: Callable Users 
 22. Click **+Choose segment** and add the segment created in step 3 and click **Next **
-23. Select **Blocked** from the **Communication and collaboration** drop down 
+23. Select **Blocked** from the **Communication and collaboration** drop-down 
 24. Click **+Choose segment** and add the segment created in step 8 above and click **Next** 
 25. Set the policy to **On** and click **Next** and then **Submit** 
 26. In the left navigation pane, click **Information barriers -> Policy application** 
