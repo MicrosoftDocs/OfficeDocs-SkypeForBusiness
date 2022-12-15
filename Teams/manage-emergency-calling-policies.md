@@ -49,8 +49,8 @@ If you assigned an emergency calling policy to a network site and to a user and 
 5. Set how you want to notify people in your organization, typically the security desk, when an emergency call is made. To do this, under **Notification mode**, select one of the following:
 
     - **Send notification only**: A Teams chat message is sent to the users and groups that you specify.
-    - **Conferenced in muted and unable to unmute**: A Teams chat message is sent to the users and groups that you specify and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
-    - **Conferenced in muted but are able to unmute**: A Teams chat message is sent to the users and groups that you specify and they can unmute to listen and participate in the conversation between the caller and the PSAP operator.
+    - **Conferenced in but are muted**: A Teams chat message is sent to the users and groups that you specify and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
+    - **Conferenced in and are unmuted**: A Teams chat message is sent to the users and groups that you specify and they can unmute to listen and participate in the conversation between the caller and the PSAP operator.
 
 6.  Set the **Emergency service disclaimer** to show a banner to remind your end users to confirm their emergency location.
 
