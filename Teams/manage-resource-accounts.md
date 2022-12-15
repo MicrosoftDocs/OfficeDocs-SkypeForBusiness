@@ -82,11 +82,11 @@ Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumb
 
 You may want to hide certain resources accounts from Teams users. For example, you may want to prevent Teams users from directly calling a call queue and bypassing the auto attendant where the hours of operation are configured.
 
-[Information Barriers](information-barriers-in-teams.md) are used to hide the resource accounts.  Please review the Information Barriers docuemntation to understand the possible impacts before proceeding with the steps below.
+[Information Barriers](information-barriers-in-teams.md) are used to hide the resource accounts.  Review the Information Barriers documentation to understand the possible impacts before proceeding with the steps below.
 
 ### Required subscriptions and permissions 
 
-Before you get started with IB, you should confirm your Microsoft 365 subscription and any add-ons. To access and use IB, your organization must have one of the following subscriptions or add-ons: 
+To access and use information barriers, your organization must have one of the following subscriptions or add-ons: 
 
 -	Microsoft 365 E5/A5 subscription (paid or trial version)
 -	Office 365 E5/A5/A3/A1 subscription (paid or trial version)
@@ -95,9 +95,57 @@ Before you get started with IB, you should confirm your Microsoft 365 subscripti
 - Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Insider Risk Management add-on
 
 [!NOTE]
-> If you already have Exchange Online address book policies configuredthese must be removed before proceeding with the steps below.   
+> If you already have [Exchange Online](exchange/address-books/address-book-policies/address-book-policies.md) address book policies configuredthese must be removed before proceeding with the steps below.   
 > 
 >	All the steps below are performed by the Tenant Global Administrator credentials. 
 >	
 > These instructions assume there are no other Information Barriers configured.
+
+#### Teams Admin Center
+
+Go to Teams -> Teams settings and scroll down to "Search by name" and turn the toggle on and save the change.
+
+For more information on this option please refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
+
+#### Compliance
+
+Go to [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
+
+1. In the left navigation pane, click Audit 
+2. If auditing is turned off, the following banner will be displayed 
+ 
+ IMAGE HERE
+ 
+3. Click the Start recording user and admin activity 
+
+For more information on auditing refer to: [Set up Audit (Standard) in Microsoft 365](microsoft-365/compliance/audit-standard-setup?view=o365-worldwide)
+
+#### Segmenting Data
+
+The Resource Accounts that shouldn't be called directly need to be segmented (identifiable) by making them members of a particular group or by some information in their user profile such as: 
+
+-	Company
+-	User principal name
+-	Location
+-	Department
+-	Usage location
+-	Mail nickname (Alias)
+-	Physical delivery office name (Office)
+-	Postal code
+-	Proxy address (Email Address)
+-	Street address
+-	Target address (ExternalEmailAddress)
+-	Mail (WindowsEmailAddress)
+-	Description
+
+In the example steps below, the Department field will be used. 
+
+For more information on segmenting users refer to: [Identify segments](microsoft-365/compliance/information-barriers-policies?view=o365-worldwide#identify-segments)
+
+#### Microsoft Admin Center
+
+
+
+
+
 
