@@ -34,7 +34,7 @@ If no actions are taken before June 1, users won't be able to make or receive ca
 
 To prevent service impact:
 
-- Use the recommended subnets: (52.112.0.0/14 and 52.120.0.0/14) for any classification or ACL rules.
+- Use the recommended subnets: (52.112.0.0/14 and 52.122.0.0/15) for any classification or ACL rules.
 - Discontinue use of the sip-all FQDN when configuring Session Border Controls for  Direct Routing.
 
 For more information, see [Plan Direct Routing](direct-routing-plan.md).
