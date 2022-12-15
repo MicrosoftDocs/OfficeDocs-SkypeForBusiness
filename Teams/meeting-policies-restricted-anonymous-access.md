@@ -27,7 +27,7 @@ This article shows you how to use PowerShell to remove the RestrictedAnonymousAc
 
 ## Before you start
 
-Install and connect to the [Skype for Business PowerShell module](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell). For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).
+Install and connect to the [Microsoft Teams PowerShell module](teams-powershell-install.md).
 
 ## Get the Teams meeting policy assignments for your organization
 
@@ -56,7 +56,7 @@ To remove the the RestrictedAnonymous meeting policy from users, you can use the
 Run the following to remove the RestrictedAnonymous meeting policy from users.
 
 ```powershell
-Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}
+Get-CsOnlineUser | Where-Object {$_.TeamsMeetingPolicy.Name -eq "RestrictedAnonymousAccess"} | ForEach-Object {Grant-CsTeamsMeetingPolicy -Identity $_.UserPrincipalName -PolicyName $null}
 ```
 
 ### Use the New-CsBatchPolicyAssignmentOperation cmdlet
@@ -69,7 +69,7 @@ With [batch policy assignment](assign-policies-users-and-groups.md#assign-a-poli
 Run the following commands to remove the RestrictedAnonymousAccess meeting policy from a batch of users.
 
 ```powershell
-$restrictedAnonymousUsers = @(Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | %{ $_.ObjectId })
+$restrictedAnonymousUsers = @(Get-CsOnlineUser | Where-Object {$_.TeamsMeetingPolicy.Name -eq "RestrictedAnonymousAccess"} | ForEach-Object {$_.UserPrincipalName})
 ```
 
 ```powershell
