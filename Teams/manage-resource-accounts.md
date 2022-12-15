@@ -95,7 +95,7 @@ To access and use information barriers, your organization must have one of the f
 - Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Insider Risk Management add-on
 
 [!NOTE]
-> If you already have [Exchange Online](/exchange/address-books/address-book-policies/address-book-policies.md) address book policies configuredthese must be removed before proceeding with the steps below.   
+> If you already have [Exchange Online](/exchange/address-books/address-book-policies/address-book-policies) address book policies configuredthese must be removed before proceeding with the steps below.   
 > 
 >	All the steps below are performed by the Tenant Global Administrator credentials. 
 >	
@@ -105,7 +105,7 @@ To access and use information barriers, your organization must have one of the f
 
 Go to Teams -> Teams settings and scroll down to "Search by name" and turn on the toggle and save the change.
 
-For more information on this option refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
+For more information on this option refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search)
 
 #### Compliance - Auditing
 
