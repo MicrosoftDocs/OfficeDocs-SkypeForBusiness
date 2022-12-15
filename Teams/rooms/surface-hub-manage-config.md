@@ -75,13 +75,10 @@ You can use Windows Configuration Designer to create a provisioning package that
 Do the following to create the provisioning package in Windows Configuration Designer:
 
 1. Install Windows Configuration Designer from the Windows Store on your local computer and open it
-2. Select **Provision Surface Hub devices** and then **Switch to advanced editor**
-3. On the next screen, expand **WindowsTeamSettings** > **Teams** and select **Configurations**
-4. In the field next to **Configurations** in the middle pane, paste the single line of XML you created above
-5. Select **Export** > **Provisioning package**
-6. Provide a name for the provisioning package in **Name** and select **Next** > **Next**
-7. Specify a location to save the provisioning package and select **Next**
-8. Select **Build** to create the provisioning package and then **Finish**
+2. Select **Provision Surface Hub devices**
+3. Provide a name for the provisioning package in **Name**, specify a location to save the provisioning package in **Project folder** and select **Finish**
+4. Select **Add a Teams configuration file**, then select **Yes**, paste the content of the XML you created above and select **Next**
+5. Select **Create** to create the provisioning package
 
 Finally, after you've created the provisioning package, do the following to apply the provisioning package to your Surface Hub:
 
