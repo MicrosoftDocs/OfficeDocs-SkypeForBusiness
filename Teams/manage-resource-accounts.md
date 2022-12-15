@@ -105,7 +105,7 @@ To access and use information barriers, your organization must have one of the f
 
 Go to Teams -> Teams settings and scroll down to "Search by name" and turn on the toggle and save the change.
 
-For more information on this option refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search)
+For more information on this option refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Compliance - Auditing
 
