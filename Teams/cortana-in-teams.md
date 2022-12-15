@@ -65,11 +65,7 @@ This example shows updating the policy and enabling Cortana voice assistance wit
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode WakeWordPushToTalkUserOverride
 ```
 
-At the time, of the initial release for Microsoft 365 Enterprise users in the US in English, the following are available functions:
-
-- The Teams mobile app won't support wake word activation, but it will be supported in the future.
-
-- Microsoft Teams Rooms on Windows and Microsoft Teams display devices will support wake word activation.
+Wake word activation is now supported for Microsoft 365 Enterprise users in the US for The Teams mobile app, Microsoft Teams Rooms on Windows, and Microsoft Teams Display that have their language set to English.
 
 ## User control
 
