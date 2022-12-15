@@ -158,32 +158,32 @@ Go to: [Microsoft 365 Admin Center](https://admin.microsoft.com/Adminportal/Home
 Go to [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
 
 1. In the left navigation pane, click **Information barriers -> Segments**
-2. Click New segment 
-3. Enter a name for the segment and click Next.  For example: Uncallable Resource Acounts 
-4. Click +Add and then Department 
-5. Enter the unique word or acronym used in 3.4 above.  For example: DNC 
-6. Click Next and then Submit and Done 
-7. Click New segment 
-8. Enter a name for the segment and click Next.  For example: Callable Users 
-9. Click +Add and then Department 
-10. Click on the Equal drop down and select Not equal to  
-11. Enter the unique word or acronym used in 3.4 above.  For example: DNC 
-12. Click Next and then Submit and Done 
-13. In the left navigation pane, click Information barriers -> Policies 
-14. Click Create policy 
-15. Enter a name for the policy and click Next.  For example: Uncallable Resource Acounts 
-16. Click +Choose segment and add the segment created in 4.8 and click Next 
-17. Select Blocked from the Communication and collaboration drop down 
-18. Click +Choose segment and add the segment created in 4.3 above and click Next 
-19. Set the policy to On and click Next and then Submit 
-20. Click Create policy 
-21. Enter a name for the policy and click Next.  For example: Callable Users 
-22. Click +Choose segment and add the segment created in 4.3 and click Next 
-23. Select Blocked from the Communication and collaboration drop down 
-24. Click +Choose segment and add the segment created in 4.8 above and click Next 
-25. Set the policy to On and click Next and then Submit 
-26. In the left navigation pane, click Information barriers -> Policy application 
-27. Click on Apply all policies 
+2. Click **New segment*
+3. Enter a name for the segment and click **Next**.  For example: Uncallable Resource Accounts 
+4. Click **+Add** and then **Department**
+5. Enter the unique word or acronym used in Microsoft Admin Center step 4 above.  For example: DNC 
+6. Click **Next** and then **Submit** and Done 
+7. Click **New segment** 
+8. Enter a name for the segment and click **Next**.  For example: Callable Users 
+9. Click **+Add** and then Department 
+10. Click on the **Equal** drop down and select **Not equal to**
+11. Enter the unique word or acronym used in Microsoft Admin Center step 4 above.  For example: DNC 
+12. Click **Next** and then **Submit* and Done 
+13. In the left navigation pane, click **Information barriers -> Policies** 
+14. Click **Create policy** 
+15. Enter a name for the policy and click **Next**.  For example: Uncallable Resource Acounts 
+16. Click **+Choose segment** and add the segment created in step 8 above and click **Next** 
+17. Select **Blocked** from the **Communication and collaboration** drop down 
+18. Click **+Choose segment** and add the segment created in step 3 above and click **Next** 
+19. Set the policy to **On** and click **Next** and then **Submit**
+20. Click **Create policy** 
+21. Enter a name for the policy and click **Next**.  For example: Callable Users 
+22. Click **+Choose segment** and add the segment created in step 3 and click **Next **
+23. Select **Blocked** from the **Communication and collaboration** drop down 
+24. Click **+Choose segment** and add the segment created in step 8 above and click **Next** 
+25. Set the policy to **On** and click **Next** and then **Submit** 
+26. In the left navigation pane, click **Information barriers -> Policy application** 
+27. Click on **Apply all policies** 
 
 [!NOTE]
 > It may take 30 minutes or more for the policy to be applied.  
@@ -191,7 +191,3 @@ Go to [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
 > Once the status shows completed go into Teams Client and try to search for the Resource Accounts that were blocked.  It may be necessary to clear the Teams cache.  
 > 
 > If a Teams user has saved the Resource Account as a contact they will no longer be able to call it
-
-
-
-
