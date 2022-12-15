@@ -24,7 +24,7 @@ ms.custom:
 description: This article provides information about using a proxy server with Microsoft Teams or Skype for Business.
 ---
 
-# Proxy servers for Teams or Skype for Business Online
+# Proxy servers for Teams and Skype for Business Online
 
 This article provides guidance about using a proxy server with Teams or Skype for Business.
   
@@ -36,26 +36,24 @@ And having a proxy can cause issues. Performance-related problems can be introdu
 
 We recommend that Teams traffic bypasses proxy server infrastructure. You can achieve this by putting Teams Phones and Meeting Room devices on their own VLAN and providing them with Internet access.
 
-## Teams Phones
+## Windows Based Teams Devices
 
-We don't support proxy servers for Teams Phones.
+Windows-based Teams Meeting Rooms, and surface hubs support some proxy servers, but do not support proxy servers that require authentication.
 
-Our recommendation is to ensure that all Teams Phone traffic bypasses proxy server infrastructure.
+We recommend that these devices bypass your proxy infrastructure and access Microsoft 365 services via your firewall.
 
-## Teams Meeting Rooms and Panels
+## Android Based Teams Devices
 
-We recommend you bypass proxy server infrastructure for Teams Meeting Room and panel devices. This includes android-based touch screen displays/boards.
+Android based Teams devices, including Teams phones, panels, displays and boards do not support proxy servers.
 
-Windows-based Teams Meeting Rooms including the surface hub support proxy servers, but do not support proxy servers that require authentication.
-
-Android-based Teams Meeting Rooms including panels and touch screen displays/panels don't support proxy servers.
+Due to the way certain components running on these devices access the Internet, It is not possible to route all traffic through a proxy. You must ensure that traffic between these devices and Microsoft 365 services is allowed through your firewall.
 
 ## If you need to use a proxy server
 
 Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
 
 > [!Note]
-> If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones and Android-based Teams devices is not supported.
+> If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones and other Android-based Teams devices is not supported.
   
 Microsoft also strongly recommends:
   
@@ -65,7 +63,7 @@ Microsoft also strongly recommends:
     
 - Using direct UDP based routing rather than relying on TCP based routing for media
     
-- Allowing UDP traffic for Teams Media (3478-3481)
+- Allowing UDP traffic for Teams Media (3478-3481) through your firewall
 
 - Allowing all required URLs and IPs, including those for Azure, Office 365, Intune and Teams Room Pro (where used) through your firewall
     
