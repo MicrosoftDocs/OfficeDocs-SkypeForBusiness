@@ -114,8 +114,10 @@ Go to [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
 1. In the left navigation pane, click Audit 
 2. If auditing is turned off, the following banner will be displayed 
  
- IMAGE HERE
+ ![Banner on Audit page.](/microsoft-365/media/AuditingBanner.png)
  
+  :::image type="content" source="/microsoft-365/media/AuditingBanner.png" alt-text="Screenshot showing audit banner if auditting is not enabled":::
+  
 3. Click the Start recording user and admin activity 
 
 For more information on auditing refer to: [Set up Audit (Standard) in Microsoft 365](/microsoft-365/compliance/audit-standard-setup?view=o365-worldwide&preserve-view=true)
