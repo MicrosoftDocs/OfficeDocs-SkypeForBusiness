@@ -95,7 +95,7 @@ To access and use information barriers, your organization must have one of the f
 - Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Insider Risk Management add-on
 
 [!NOTE]
-> If you already have [Exchange Online](exchange/address-books/address-book-policies/address-book-policies.md) address book policies configuredthese must be removed before proceeding with the steps below.   
+> If you already have [Exchange Online](/exchange/address-books/address-book-policies/address-book-policies.md) address book policies configuredthese must be removed before proceeding with the steps below.   
 > 
 >	All the steps below are performed by the Tenant Global Administrator credentials. 
 >	
@@ -118,7 +118,7 @@ Go to [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
  
 3. Click the Start recording user and admin activity 
 
-For more information on auditing refer to: [Set up Audit (Standard) in Microsoft 365](microsoft-365/compliance/audit-standard-setup?view=o365-worldwide&preserve-view=true)
+For more information on auditing refer to: [Set up Audit (Standard) in Microsoft 365](/microsoft-365/compliance/audit-standard-setup?view=o365-worldwide&preserve-view=true)
 
 #### Segmenting Data
 
@@ -140,7 +140,7 @@ The Resource Accounts that shouldn't be called directly need to be segmented (id
 
 In the example steps below, the Department field will be used. 
 
-For more information on segmenting users refer to: [Identify segments](microsoft-365/compliance/information-barriers-policies?view=o365-worldwide#identify-segments&preserve-view=true)
+For more information on segmenting users refer to: [Identify segments](/microsoft-365/compliance/information-barriers-policies?view=o365-worldwide#identify-segments&preserve-view=true)
 
 #### Microsoft Admin Center
 
