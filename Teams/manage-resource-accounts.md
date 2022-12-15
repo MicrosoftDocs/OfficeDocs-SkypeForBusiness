@@ -77,3 +77,27 @@ To disassociate a Direct Routing telephone number from the resource account, use
 ```powershell
 Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
+
+## Hide resource accounts from Teams users
+
+You may want to hide certain resources accounts from Teams users. For example, you may want to prevent Teams users from directly calling a call queue and bypassing the auto attendant where the hours of operation are configured.
+
+[Information Barriers](information-barriers-in-teams.md) are used to hide the resource accounts.  Please review the Information Barriers docuemntation to understand the possible impacts before proceeding with the steps below.
+
+### Required subscriptions and permissions 
+
+Before you get started with IB, you should confirm your Microsoft 365 subscription and any add-ons. To access and use IB, your organization must have one of the following subscriptions or add-ons: 
+
+-	Microsoft 365 E5/A5 subscription (paid or trial version)
+-	Office 365 E5/A5/A3/A1 subscription (paid or trial version)
+-	Office 365 Advanced Compliance add-on
+-	Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Compliance add-on
+- Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Insider Risk Management add-on
+
+[!NOTE]
+> If you already have Exchange Online address book policies configuredthese must be removed before proceeding with the steps below.   
+> 
+>	All the steps below are performed by the Tenant Global Administrator credentials. 
+>	
+> These instructions assume there are no other Information Barriers configured.
+
