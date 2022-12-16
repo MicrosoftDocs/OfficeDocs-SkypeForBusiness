@@ -36,21 +36,21 @@ And having a proxy can cause issues. Performance-related problems can be introdu
 
 We recommend that Teams traffic bypasses proxy server infrastructure. You can achieve this by putting Teams Phones and Meeting Room devices on their own VLAN and providing them with Internet access.
 
-## Windows Based Teams Devices
+## Windows-Based Teams Devices
 
 Windows-based Teams Meeting Rooms, and surface hubs support some proxy servers, but do not support proxy servers that require authentication.
 
 We recommend that these devices bypass your proxy infrastructure and access Microsoft 365 services via your firewall.
 
-## Android Based Teams Devices
+## Android-Based Teams Devices
 
-Android based Teams devices, including Teams phones, panels, displays and boards do not support proxy servers.
+Android-based Teams devices, including Teams phones, panels, displays and boards do not support proxy servers.
 
-Due to the way certain components running on these devices access the Internet, It is not possible to route all traffic through a proxy. You must ensure that traffic between these devices and Microsoft 365 services is allowed through your firewall.
+Due to the way certain components running on these devices access the Internet, it is not possible to route all traffic through a proxy. You must ensure that traffic between these devices and Microsoft 365 services is allowed through your firewall.
 
 ## If you need to use a proxy server
 
-Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
+Some organisations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
 
 > [!Note]
 > If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams Meeting Room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones and other Android-based Teams devices is not supported.
