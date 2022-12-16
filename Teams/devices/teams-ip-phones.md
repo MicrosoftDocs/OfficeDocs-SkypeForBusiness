@@ -384,6 +384,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 Update #4A | December 14, 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #1  |November 14, 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
 |2021 Update #4  |January 5, 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
 |2021 Update #3  |December 8, 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -397,7 +398,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
-|Neat Frame nf21f1 | `NFF1.20220914.1215` | November 30, 2022 |
+|Neat Frame nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
 |Crestron UC-P10-TD     |1.0.0.57 |2022 Update #3A|
 |Crestron UC-P8-TD     |1.0.0.57 |2022 Update #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |
@@ -412,6 +413,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 Update #4A  | December 14, 2022 | `1449/1.0.97.2022748302` | `5.0.5484.0` | `361`|
 |2022 Update #4  | December 05, 2022 | `1449/1.0.97.2022747803` | `5.0.5484.0` | `361`|
 |2022 Update #3A  | September 16, 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |2022 Update #3  | July 12, 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
@@ -426,6 +428,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.15.0.36 ` | 2022 Update #4 |
 |Neat Pad Panel | `NFA1.20220914.1215` | 2022 Update #3A  |
 |Neat Pad Panel | `NFA1.20220914.1206` | 2022 Update #3A  |
 |Logitech Tap Scheduler | `1.7.200` |2022 Update #3A  |
