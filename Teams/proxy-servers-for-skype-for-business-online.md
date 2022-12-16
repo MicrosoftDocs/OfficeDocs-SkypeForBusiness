@@ -50,7 +50,7 @@ Due to the way certain components running on these devices access the Internet, 
 
 ## If you need to use a proxy server
 
-Some organisations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
+Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
 
 > [!Note]
 > If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams meeting room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones and other Android-based Teams devices is not supported.
