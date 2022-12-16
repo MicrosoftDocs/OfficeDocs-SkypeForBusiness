@@ -25,13 +25,12 @@ appliesto:
 # Upgrade Microsoft Teams Free (classic) to subscription version
 
 > [!IMPORTANT]
-> You must upgrade from Microsoft Teams Free (classic) to the full version of Microsoft Teams as Microsoft Teams Free (classic) will not be supported from April 12, 2023.
+> You must upgrade from Microsoft Teams Free (classic) to a subscription version of Microsoft Teams as Microsoft Teams Free (classic) will not be supported from April 12, 2023.
 
-If your organization is using Microsoft Teams Free (classic), you must upgrade to the subscription version by purchasing a Microsoft Teams Essentials or Microsoft 365 or Office 365 subscription plan for your users. The full version provides other Teams features — like audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
-
+If your organization is using Microsoft Teams Free (classic), you must upgrade to the subscription version by purchasing a Microsoft Teams Essentials or Microsoft 365 or Office 365 subscription plan for your users. The subscription versions provide other Teams features — like audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
 
 > [!NOTE]
-> If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides the full version of Teams for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
+> If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides these subscription versions for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
 
 ## How does Teams Free (classic) compare to the subscription versions of Teams?
 
@@ -102,5 +101,9 @@ After your upgrade is complete, perform the following steps:
 ## More information
 
 - To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).
-- For information about upgrading to the full version of Teams, that is, to Microsoft 365 subscriptions, see [Upgrade from Teams Free (classic) to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+- For information about upgrading to subscription versions such as Microsoft 365 Business (Basic/Standard), see [Upgrade from Teams Free (classic) to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+
+> [!NOTE]
+> These instructions to upgrade to subscriptions such as Microsoft 365 Business (Basic/Standard) is applicable to the Microsoft Teams Free (classic) users who want to upgrade directly to Microsoft 365 Business (Basic/Standard) and not to Microsoft Teams Essentials.
+
 - For information about managing Teams free in your organization, see [Manage Microsoft Teams Free (Classic)](manage-freemium.md).
