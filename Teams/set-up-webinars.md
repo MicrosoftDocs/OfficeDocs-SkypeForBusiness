@@ -53,6 +53,9 @@ For more information about the differences between meetings, webinars, and live 
 
 ## Set up new webinar experience
 
+> [!NOTE]
+> The new webinar experience is not available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience is not available for Microsoft 365 GCC High or Microsoft 365 DoD.
+
 You must use PowerShell to set up the new webinar experience for your organization. The ability to configure the new webinar experience in the Teams admin center is not available yet.
 
 Meeting registration must be on to use the new webinar experience.
