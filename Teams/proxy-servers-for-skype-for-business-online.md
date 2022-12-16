@@ -34,7 +34,7 @@ When it comes to Teams or Skype for Business traffic over proxies, Microsoft rec
   
 And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
 
-We recommend that Teams traffic bypasses proxy server infrastructure. You can achieve this by putting Teams Phones and Meeting Room devices on their own VLAN and providing them with Internet access.
+We recommend that Teams traffic bypasses proxy server infrastructure. You may wish to achieve this by putting Teams Phones and Meeting Room devices on their own VLAN and providing them with Internet access.
 
 ## Windows-Based Teams Devices
 
