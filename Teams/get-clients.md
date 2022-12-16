@@ -24,6 +24,9 @@ appliesto:
 > [!TIP]
 > **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://go.microsoft.com/fwlink/?linkid=855754).
 
+> [!TIP]
+> **Want to get highly reliable push notifications on your Xiaomi phones?** Check out [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone).
+
 Microsoft Teams can be installed on PCs, Macs, and mobile devices, and can also be accessed via a web browser. Most end users can start using Teams just by [installing the client](https://go.microsoft.com/fwlink/?linkid=855754) themselves. After they install the Teams client, all they need to do is sign in with their username and password.
 
 If you're an IT Pro and want to know more about the Teams installation experience and its requirements, select a client operating system in this article for more information.
