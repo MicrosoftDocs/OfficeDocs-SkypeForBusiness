@@ -27,6 +27,8 @@ appliesto:
 
 # Meetings, webinars, and live events
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
 This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
@@ -39,7 +41,7 @@ The following table summarizes the three types of meetings, the number of recomm
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | No |
+| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes, with Meetings with registration (webinars 1.0) |
 | Webinars | - Up to 1,000<br>- Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |- Participants up to 1,000 have fully interactive capabilities.<br> - Audience interaction configurable.<br> - Can specify presenters. | Yes |
 | Live events | Up to 20,000** |- Broadcast to large audiences. <br>- Moderated Q&A for audience interaction. <br> - Can specify producers and presenters, including external presenters.<br>- Supports more advanced production capabilities. | No |
 
@@ -90,7 +92,30 @@ The following table lists training available to the end users in your organizati
 
 ## Webinars
 
-**Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support registration and provide attendee engagement data. To enable webinars in your organization, see [Set up webinars in Teams](set-up-webinars.md).
+**Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, customizable event and registration site, and event-oriented default meeting options.
+
+If your organization is already using webinars, you're familiar with the Teams Meeting policy and the following settings that allow you to support meeting registration and track engagement data:
+
+- AllowMeetingRegistration (enabled or disabled)
+- WhoCanRegister (everyone in the company excluding guests or everyone)
+
+With the release of the new webinar experience, there will be a new Teams Events policy with the following settings:
+
+- AllowWebinars  (enabled or disabled)
+- EventAccessType (everyone in the company excluding guests or everyone)
+
+The new policy will continue to support registration and tracking, and it will provide additional functionality to the webinar experience. Initially, the following will be available:
+
+- Terms and conditions custom question
+- Presenter bio
+- Banner, logo, and predefined color
+- Advanced registration capabilities: manual approval, waitlist, registration date and time limit
+- Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
+
+You'll want to start using the new policy to take advantage of new functionality as it becomes available.
+
+For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
+
 
 ### Key training for end users
 
@@ -147,6 +172,8 @@ The following table lists articles for more information:
 Anyone can attend a Teams meeting, webinar, or Public Live Event for free—no license is required.
 
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
+
+For information about Teams Premium licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
 
 To allow people to dial in to a meeting by phone, you'll need to set up audio conferencing. For more information about audio conferencing, see [Audio conferencing in Teams](deploy-audio-conferencing-teams-landing-page.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Create a call queue in Microsoft Teams
+title: Create a Microsoft Teams call queue 
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -27,7 +27,7 @@ ms.custom:
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
 ---
 
-# Create a call queue
+# Create a Microsoft Teams call queue 
 
 Call queues route callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
 
@@ -126,9 +126,9 @@ If you don't have a resource account with an assigned phone number:
 
 After you've created this new resource account for calling ID, you'll still need to:
 
-- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license)
-- Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
-- Assign the [service phone number to the resource account](manage-resource-accounts.md#assign-a-service-number), if you're using Microsoft Calling Plan
+- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
+- Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
+- Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
 ### Set the call queue language
 

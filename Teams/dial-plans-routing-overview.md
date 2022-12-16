@@ -1,5 +1,5 @@
 ---
-title: "Dial plans and routing"
+title: "Microsoft Teams Dial plans and routing"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,7 +23,7 @@ f1.keywords:
 description: "Dial plans and routing in Microsoft Teams"
 ---
 
-# Overview
+# Microsoft Teams Dial plans and routing
 
 The articles in this section describe dial plans and call routing in Microsoft Teams. 
 
