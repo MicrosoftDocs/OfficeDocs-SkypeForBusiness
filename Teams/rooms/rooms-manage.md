@@ -20,7 +20,7 @@ ms.custom: seo-marvel-apr2020
 
 # Manage Microsoft Teams Rooms
 
-If you have Microsoft Teams Rooms in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams admin center. Alternately, you can transfer management responsibility to dedicated experts using [Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com).  You can also delegate management access to a partner of your choice for either of the options.
+If you have Microsoft Teams Rooms in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams admin center.
 
 With Microsoft Teams admin center, you can:
 
