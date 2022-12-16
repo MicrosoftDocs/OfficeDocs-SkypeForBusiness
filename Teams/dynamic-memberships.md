@@ -12,7 +12,9 @@ description: Learn how Microsoft Teams supports teams associated with Microsoft 
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+  - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 

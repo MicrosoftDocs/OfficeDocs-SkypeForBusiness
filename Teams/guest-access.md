@@ -11,7 +11,9 @@ search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+ms.custom: 
+  - ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+  - chat-teams-channels-revamp
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
