@@ -608,6 +608,8 @@ items:
               href: meeting-policies-audio-and-video.md
             - name: Recording and transcription policies
               href: meetings-policies-recording-and-transcription.md
+            - name: Who can bypass the lobby
+              href: who-can-bypass-meeting-lobby.md
             - name: Content and screen sharing policies
               items:
                 - name: Content sharing
@@ -868,8 +870,6 @@ items:
           href: here-s-what-you-get-with-phone-system.md
         - name: Set up Phone System
           href: setting-up-your-phone-system.md
-        - name: Set up common area phones
-          href: set-up-common-area-phones.md
         - name: Voicemail
           items: 
             - name: Manage Cloud Voicemail
@@ -1842,6 +1842,8 @@ items:
           href: manage-freemium.md
         - name: Upgrade Microsoft Teams Free (classic) to subscription version
           href: upgrade-freemium.md
+        - name: Microsoft Teams Shared Devices licensing
+          href: teams-add-on-licensing/teams-shared-device-license.md
         - name: Advanced Communications
           href: teams-add-on-licensing/advanced-communications.md
         - name: Messaging policies licensing

@@ -83,7 +83,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | September 3, 2024  |  Medium size room (4.5 m x 6 m) | 10|
 | Neat Bar | `NFF1.20220914.1210` |September 3, 2024|    Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar only | 9 |
+| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar & Neat Bar Pro | 9 |
 | Neat Board | `NFC1.20220914.1210 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
@@ -160,6 +160,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX350 | `8.0.2.2643` | 2022 Update #4A |
 |Yealink CP965  | `143.15.0.27`     | 2022 Update #4A  |
 |Yealink MP54/MP56/MP58  | `122.15.0.107`     | 2022 Update #4A  |
 |Yealink MP52  | `145.15.0.59`     | 2022 Update #4A  |
@@ -267,6 +268,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #3  | Dec 13, 2022 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
 | 2022 Update #2B  | Sep 15, 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #2A  | August 8, 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 Update #2  | May 25, 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -285,6 +287,14 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 86" | `155.15.0.17` | 2022 Update #2B |
+| Neat Bar | `NFB1.20220914.1215` | 2022 Update #2B |
+| Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
+| Neat Board | `NFC1.20220914.1215` |  2022 Update #2B |
+| Neat Pad touch console | `NFA1.20220914.1215`  |  2022 Update #2B |
+| Logi Rallybar  | `1.8.290`     | 2022 Update #2B  |
+| Logi Rallybar Mini  | `1.8.290`     | 2022 Update #2B  |
+| Logi Console  | `1.8.177`    | 2022 Update #2B  |
 | Logi Rallybar  | `1.7.300`     | 2022 Update #2B  |
 | Logi Rallybar Mini  | `1.7.300`     | 2022 Update #2B  |
 | Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
@@ -388,7 +398,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
-|Neat Frame nf21f1 | `NFF1.20220914.1215` | November 30, 2022 |
+|Neat Frame nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
 |Crestron UC-P10-TD     |1.0.0.57 |2022 Update #3A|
 |Crestron UC-P8-TD     |1.0.0.57 |2022 Update #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |
