@@ -51,7 +51,7 @@ This per-organizer setting allows anyone to join meetings as an anonymous user b
 
 ## Let anonymous people start a meeting
 
-This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in and anonymous users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means dial-in and anonymous users will wait in the lobby until an authenticated user from the organization joins the meeting.
+This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether anonymous users and dial-in callers can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means anonymous users and dial-in callers will wait in the lobby until an authenticated user from the organization joins the meeting.
 
 > [!NOTE]
 > If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
