@@ -121,11 +121,13 @@ For meeting participants and organizers:
 
 For meeting organizers only:
 
-| Command Name                   | Command Keys | Description                                                 |
-|--------------------------------|--------------|-------------------------------------------------------------|
-| Admit all                      | \*21         | Press \*21 to admit all participants waiting in the lobby.  |
-| Mute all                       | \*22         | Press \*22 to mute all participants (except the organizer). |
-| Toggle Enter/Exit Announcement | \*23         | Press \*23 to enable or disable Enter/Exit Announcement.    |
+| Command Name                     | Command Keys | Description                                                   |
+|----------------------------------|--------------|---------------------------------------------------------------|
+| Admit all                        | \*21         | Press \*21 to admit all participants waiting in the lobby.    |
+| Mute all                         | \*22         | Press \*22 to mute all participants (except the organizer).   |
+| Toggle Enter/Exit Announcement   | \*23         | Press \*23 to enable or disable Enter/Exit Announcement.      |
+| Hear participant count in lobby  | \*24         | Press \*24 to hear the participant count waiting in the lobby.|
+
 
 ## Can attendees dial out to international phone numbers when they are in a Teams meeting?
 

@@ -30,8 +30,6 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
 
-Transcription for recorded meetings is currently only supported for users who set their language to or speak English in Teams meetings.
-
 ## Cloud recording
 
 This setting is a combination of a per-organizer and per-user policy and controls whether the meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
@@ -95,11 +93,11 @@ You shouldn’t rely on meeting expiration settings for legal protection since e
 
 #### Recording expiration settings and Microsoft 365 retention policies in Microsoft Purview
 
-File retention takes precedence over file deletion. A Teams meeting recording with a Purview retention policy cannot be deleted by a Teams meeting recording expiration policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy will delete the recording after five years.
+File retention takes precedence over file deletion. A Teams meeting recording with a Purview retention policy cannot be deleted by a Teams meeting recording expiration policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy will permanently delete the recording after five years.
 
 If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
 
-Users can manually delete their recordings prior to the expiration date unless there is a Purview retention policy that prevents it.
+Users can manually delete their recordings prior to the expiration date unless there is a Purview retention policy that prevents it. If a recording that’s still in the retention period is manually deleted by a user, the recording will be held in the Preservation Hold library. However, the recording will show as deleted to the end user. To find out more, see [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
 
 ### Deletion of recordings
 

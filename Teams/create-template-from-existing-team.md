@@ -12,6 +12,7 @@ description: Learn how to use an existing team to create a new template in Micro
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 

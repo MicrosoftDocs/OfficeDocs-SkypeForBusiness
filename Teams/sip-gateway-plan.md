@@ -59,25 +59,25 @@ If you have a 3PIP or SIP device, you must have:
 
 - A license for Microsoft Teams, Skype for Business Online Plan 2, and Microsoft 365 Phone System (via E5 or standalone licenses)
 - PSTN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
-- A Common Area Phone license for any common area devices
+- A **Microsoft Teams Shared Devices** license for any common area devices
 
 ## Compatible devices
 
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832       |11.3.5MPP   |11-3-7MPP  |   |   |
-|          |6821       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7811       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7821       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7841       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7861       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8811       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8841       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8845       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8851       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8861       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8865       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8832<sup>1</sup>       |11.3.5MPP   |11-3-7MPP  |   |   |
+|          |6821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8845<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8851<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8865<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
@@ -131,6 +131,18 @@ If you have a 3PIP or SIP device, you must have:
 |          |T53W<sup>1</sup>      |83          |96.86.5.1  |   |   |
 |          |T54W<sup>1</sup>      |83          |96.86.5.1  |   |   |
 |          |T57W<sup>1</sup>      |83          |96.86.5.1  |   |   |
+|          |W56H                  |            |61.85.0.56 |   |   |
+|          |W73H                  |            |116.85.0.38|   |   |
+|          |W59R                  |            |115.85.0.56|   |   |
+|          |W70B NOAM             |            |146.85.5.4 |   |   |
+|          |W70B EMEA             |            |146.85.5.2 |   |   |
+|          |W70B APAC             |            |146.85.5.3 |   |   |
+|          |W80 NOAM              |            |130.85.5.5 |   |   |
+|          |W80 EMEA              |            |130.85.5.6 |   |   |
+|          |W80 APAC              |            |130.85.5.4 |   |   |
+|          |W90 NOAM              |            |130.85.5.5 |   |   |
+|          |W90 EMEA              |            |130.85.5.6 |   |   |
+|          |W90 APAC              |            |130.85.5.4 |   |   |
 |**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
 |          |405<sup>1</sup>        |2.2.8      |2.2.16.589 |   |   |
 |          |405HD<sup>1</sup>      |3.2.1      |2.2.16.589 |   |   |
@@ -182,6 +194,9 @@ If you have a 3PIP or SIP device, you must have:
 
 > [!NOTE]
 > Ascom Handsets receive firmware updates over the air from Ascom IP-DECT servers.
+
+> [!NOTE]
+> For Yealink DECT Base Stations, please use the appropriate region specific firmware version listed above for having the best calling experience.
 
 > [!NOTE]
 > For support queries, customers using IP-DECT systems with Teams SIP Gateway should reach out to their DECT manufacturer or their implementation channel partners.

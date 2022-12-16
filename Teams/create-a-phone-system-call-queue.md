@@ -24,10 +24,15 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
     - seo-marvel-apr2020
+adobe-target: true
+adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2 
+adobe-target-experience: Experience B
+adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
+
 ---
 
-# Create a call queue
+# Create a call queue in Microsoft Teams
 
 Call queues route callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
 
@@ -61,7 +66,7 @@ The steps outlined in the article create call queues using the Teams admin cente
 
 ## Follow these steps to set up your call queue
 
-# [Step 1: General info](#tab/general-info)
+## [Step 1: General info](#tab/general-info)
 
 ## Step 1: Set up general information
 
@@ -126,9 +131,9 @@ If you don't have a resource account with an assigned phone number:
 
 After you've created this new resource account for calling ID, you'll still need to:
 
-- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license)
-- Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
-- Assign the [service phone number to the resource account](manage-resource-accounts.md#assign-a-service-number), if you're using Microsoft Calling Plan
+- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
+- Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
+- Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
 ### Set the call queue language
 
@@ -138,7 +143,7 @@ This language will be used for system-generated voice prompts and voicemail tran
 
 Once you've selected a language, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 2: Greeting and music](#tab/greeting-music)
+## [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
 
@@ -160,7 +165,7 @@ Teams provides default music to callers while they are *on hold in a queue*.
 
 Once you've selected a greeting and on-hold music, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 3: Call answering](#tab/call-answering)
+## [Step 3: Call answering](#tab/call-answering)
 
 ## Step 3: Set up who will answer incoming calls
 
@@ -233,7 +238,7 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 4: Agent selection](#tab/agent-selection)
+## [Step 4: Agent selection](#tab/agent-selection)
 
 ## Step 4: Select your agent routing options
 
@@ -298,7 +303,7 @@ We recommend turning on **Call agents can opt out of taking calls**.
 
 Once you've selected your agent call routing options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 5: Call overflow](#tab/call-overflow)
+## [Step 5: Call overflow](#tab/call-overflow)
 
 ## Step 5: Set how to handle call overflow
 
@@ -323,7 +328,7 @@ For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#
 
 Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-# [Step 6: Call timeout](#tab/call-timeout)
+## [Step 6: Call timeout](#tab/call-timeout)
 
 ## Step 6: Set how to handle call timeouts
 
@@ -389,7 +394,7 @@ The following settings are recommended:
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
-4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
+4. It's not possible to set the order the agents will be called in.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
@@ -432,7 +437,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
 
-### Related topics
+## Related topics
 
 [Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
 

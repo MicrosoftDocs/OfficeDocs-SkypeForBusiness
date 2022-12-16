@@ -16,29 +16,20 @@ appliesto:
 
 # Application-based authentication in Teams PowerShell Module
 
-Application-based authentication is supported now in Teams PowerShell Module for a limited set of cmdlets in preview with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments.
+Application-based authentication is supported now in Teams PowerShell Module with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments.
 
 
 ## Cmdlets Supported
 
-Cmdlets below are already supported, other cmdlets will be gradually rolled out. 
+All cmdlets are supported now, except for the cmdlets mentioned below. 
 
-  - Non \*-Cs cmdlets (except New-Team)
-  - Get-CsTenant
-  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
-  - \*-CsOnlineSipDomain 
-  - \*-CsPhoneNumberAssignment
-  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
-  - \*-CsCallQueue
-  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
-  - \*-CsOnlineVoicemailUserSettings
-  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
-  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
-  - \*-CsOnlineAudioFile
-  - Find-CsGroup
-  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
-  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
-  - \*-CsCloudCallDataConnection
+  - New-Team
+  - [Get|Set|New|Sync]-CsOnlineApplicationInstance
+  - \*-CsUserCallingSettings
+  - \*-CsUserCallingDelegate
+  - \*PolicyPackage\*
+  - \*-CsTeamsShiftsConnection\*
+  - \*-CsBatchTeamsDeployment\*
 
 
 ## Examples
@@ -95,8 +86,8 @@ Sample steps for creating applications in Azure Ad are mentioned below, for deta
 
 1. Register the application in Azure AD
 2. Assign API permissions to the application
-   - For \*-Cs cmdlets - no API permissions are needed.
-   - For Non \*-Cs cmdlets - the Microsoft Graph API permissions needed are `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`.  
+   - For \*-Cs cmdlets - the Microsoft Graph API permission needed is `Organization.Read.All`.
+   - For Non \*-Cs cmdlets - the Microsoft Graph API permissions needed are `Organization.Read.All`, `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`.  
 3. Generate a self-signed certificate
 4. Attach the certificate to the Azure AD application
 5. Assign [Azure AD roles](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) to the application

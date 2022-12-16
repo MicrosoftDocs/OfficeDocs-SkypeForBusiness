@@ -87,10 +87,13 @@ For users to schedule events produced with an external app or device, you must a
 
 ## Step 4: Set up a video distribution solution for live events in Teams
 
-Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
+Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, Microsoft offers a first-party solution, [Microsoft eCDN](/ecdn) (enterprise content delivery network). Live events solutions are also integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or eCDNs. These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end-user viewing experiences. These solutions can help enable a more scalable and efficient video distribution across your enterprise network.
 
-**Purchase and set up your solution outside of Teams**
-Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams, you must purchase and set up the SDN/eCDN solution outside and separate from Teams.
+- **Microsoft eCDN**
+Microsoft eCDN is integrated into Teams and is also compatible with Stream and Yammer. It employs peer-to-peer technology within a corporate network to offload bandwidth from the WAN connection.
+
+- **Purchase and set up your solution outside of Teams**
+Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. 
 
 The following SDN/eCDN solutions are pre-integrated and can be set up to be used with Stream.
 
@@ -98,12 +101,12 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 
 - **Kollective** is a cloud-based, smart-peering distribution platform that leverages your existing network infrastructure to deliver content in many forms (live streaming video, on-demand video, software updates, security patches, and more) faster, more reliably, and with less bandwidth. Our secure platform is trusted by the world's largest financial institutions and with no additional hardware, setup and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
 
-- **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for live events produced in Teams is coming soon. [Learn more](https://rampecdn.com).
+- **Ramp** provides a universal eCDN solution for secure and flawless video delivery. Trusted by the top financial, healthcare, and government institutions, Ramp deploys on-prem, in the cloud, or hybrid and is perfect for Zero Trust environments. Our universal license includes all three eCDN delivery methods (P2P, Multicast, and Cache), ensuring your live streaming and on-demand video is delivered at the highest quality with the lowest bandwidth impact to protect business-critical applications that share the corporate network. [Learn more](https://rampecdn.com/).
 
 - **Riverbed**, the industry standard in network optimization, is extending its acceleration solutions to Microsoft Teams and Stream.  Now Microsoft 365 customers can confidently accelerate 365 traffic including Teams and Stream along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams and Stream acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
 
 > [!NOTE]
-> Your chosen SDN or eCDN solution is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams.
+> If you choose a 3rd-party SDN or eCDN solution, it is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams.
 
 After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams.
 

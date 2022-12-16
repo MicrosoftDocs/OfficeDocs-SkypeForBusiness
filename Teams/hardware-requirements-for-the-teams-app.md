@@ -39,7 +39,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    |
-|Video calls and meetings|<ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended.</li> <li>Background video effects require Windows 10 or a processor with AVX2 instruction set.</li> <li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room requires Bluetooth LE. Bluetooth LE on Windows requires Bluetooth to be enabled on the client device and requires the 64-bit version of the Teams client. This feature is not available on 32-bit Teams clients.</li></ul> |
+|Video calls and meetings|<ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended.</li> <li>Background video effects require Windows 10 or a processor with AVX2 instruction set.</li> <li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.</li><li>Joining a meeting using proximity detection in Microsoft Teams Rooms requires Bluetooth LE. Bluetooth LE on Windows requires Bluetooth to be enabled on the client device and requires the 64-bit version of the Teams client. This feature is not available on 32-bit Teams clients.</li></ul> |
 |Teams live events | If you are producing a Teams live event, we recommend using a computer that has a Core i5 Kaby Lake processor, 4.0-GB RAM (or higher), and hardware encoder. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of **unsupported** decoders and encoders. |
 
 ## Hardware requirements for Teams on a Mac
@@ -57,6 +57,9 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |
 
 ## Hardware requirements for Teams on Linux
+
+> [!NOTE]
+> Teams Desktop on Linux will be retired in December 2022.
 
 | Component | Requirement |
 |---------|---------|

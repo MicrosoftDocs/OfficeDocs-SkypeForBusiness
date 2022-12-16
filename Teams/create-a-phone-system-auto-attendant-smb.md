@@ -43,7 +43,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if the caller doesn't make a selection on menus, repeatedly selects invalid options, or dials by name or number repeatedly fail.  If an operator isn't defined, the auto attendant will drop the call.
+> While defining an **Operator** is optional, it's recommended. Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted. If an operator isn't defined, the auto attendant will drop the call.
 
 ## What's new for auto attendants in the past 6 months
  
@@ -165,7 +165,7 @@ Once you've added your after hours call flow, select **Next**.
 
 ## Step 4: Set up call flows for holidays (optional)
 
-Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
+Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each auto attendant. Each holiday set can contain up to 10 unique date ranges. Holiday dates must be unique across all holiday sets being added to the auto attendant.
 
 *New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 *New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
