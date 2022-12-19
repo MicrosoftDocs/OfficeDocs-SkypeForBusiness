@@ -92,7 +92,7 @@ Once you've set your auto attendant's general info, select **Next**.
 
 - If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
-- If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
+- If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.  Special characters such as "@" and "&" are not supported and their use can result in the greeting not playing. Use the full word such as "at" and "and" in the greeting text.
 
 #### Route the call
 
