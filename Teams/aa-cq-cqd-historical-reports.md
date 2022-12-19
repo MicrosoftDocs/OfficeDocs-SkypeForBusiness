@@ -305,7 +305,7 @@ Perform the following steps:
   
 ## Dimensions and measurements
 
-The following dimensions and measurements are available to be used:
+The following dimensions and measurements are available to be used.
 
 ### Common dimensions
 
@@ -477,7 +477,7 @@ A valid input is a JSON object consists of several attributes:
 }
 ```
 
-#### Required fields:
+#### Required fields
 
 - Filters: used to filter data returned by VAAC
 - - DataModelName should be one of the supported dimensions
@@ -500,22 +500,70 @@ A valid input is a JSON object consists of several attributes:
 - Measurements:
 - - DataModelName should be one of the supported measurements
 
-- Parameters: Currently only UserAgent and RequestId are used. The latter allows you to customize your request id
+- Parameters: Currently only UserAgent is supported.
 
 - LimitResultRowsCount: the max count of rows returned by VAAC
 
+### SOME STUFF HERE ABOUT ACCESSING THE ENDPOINT DIRECTLY
+
+blah blah blah
 
 #### Compress the JSON input
-VAAC API only accepts GZip-compressed, Base64-encoded string as input. This can be done by Power BI but we can also do it manually.
+The VAAC API only accepts GZip-compressed or Base64-encoded strings as input.
 
-Find any website to compress the JSON blob using GZIP. (for example this website  will even output the Base64 encoded result)
-Output should look like this: H4sIAAAAAAAACq2SQWsCMRCF7/6KkLNC3EoPe9u6FISuFbW9lB4GM9TQbEaSCSLif+9mV4uCBwXnMkze5L0vkH1PCCFfjWX0QeZfaWxqf+xJLIGhIo12CjXKPM0o+2cLn2BjEjKVZQM1Gqjhhfy+QQ9Oy3x0PDz0H5HypK6nPJ9SUv9uV2RpanTBkLvxiUVkKpjRaXA80ejY8E7eg3/hUBqPKya/WyD41bpCXpP+tzvjrBBC9NjA8o2ks8VyuiQGWxkXGcNdkO3FMVg7puj4GtAMfLPa/Y2Tk/wI6IufhjHl0xa9eJmIEsMv06Y16cLlm6kNzzFEy3Pahi4kH6pUvcMfrAhUU3oCAAA=
-If the result is not Base64, encode it using Base64.
+Find any website to compress the JSON blob using GZIP or Base64.
+
+- GZIP: (https://www.multiutil.com/text-to-gzip-compress/)
+- Base64: (https://www.multiutil.com/text-to-base64-converter/)
+
+GZIP output should look like this:
+````
+H4sIAAAAAAAACq2SQWsCMRCF7/6KkLNC3EoPe9u6FISuFbW9lB4GM9TQbEaSCSLif+9mV4uCBwXnMkze5L0vkH1PCCFfjWX0QeZfaWxqf+xJLIGhIo12CjXKPM0o+2cLn2BjEjKVZQM1Gqjhhfy+QQ9Oy3x0PDz0H5HypK6nPJ9SUv9uV2RpanTBkLvxiUVkKpjRaXA80ejY8E7eg3/hUBqPKya/WyD41bpCXpP+tzvjrBBC9NjA8o2ks8VyuiQGWxkXGcNdkO3FMVg7puj4GtAMfLPa/Y2Tk/wI6IufhjHl0xa9eJmIEsMv06Y16cLlm6kNzzFEy3Pahi4kH6pUvcMfrAhUU3oCAAA=
+````
+
+Base64 output should look like this:
+````
+ew==
+IkZpbHRlcnMiOls=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJEYXRlIiw=
+IlZhbHVlIjoiMjAyMi0wNC0wMSIs
+Ik9wZXJhbmQiOjQ=
+fSw=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJEYXRlIiw=
+IlZhbHVlIjoiMjAyMi0wNC0zMCIs
+Ik9wZXJhbmQiOjY=
+fQ==
+XSw=
+IkRpbWVuc2lvbnMiOls=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJBdXRvQXR0ZW5kYW50SWRlbnRpdHki
+fSw=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJBdXRvQXR0ZW5kYW50RGlyZWN0b3J5U2VhcmNoTWV0aG9kIg==
+fQ==
+XSw=
+Ik1lYXN1cmVtZW50cyI6Ww==
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJQU1ROVG90YWxNaW51dGVzIg==
+fSw=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJUb3RhbENhbGxDb3VudCI=
+fQ==
+XSw=
+IlBhcmFtZXRlcnMiOns=
+IlVzZXJBZ2VudCI6IlBvd2VyIEJJIERlc2t0b3Ai
+fSw=
+IkxpbWl0UmVzdWx0Um93c0NvdW50IjoxMDAwMDA=
+fQ==
+````
 
 #### URL-Encode the string
-If you're using Swagger, you can skip this step and paste the result directly into "query" field
-
-If you're hitting the endpoint directly or through Postman, you need to URL-Encode  the string and append it after getanalytics?query=
+If you're hitting the endpoint directly or through Postman, you need to [URL-Encode](https://meyerweb.com/eric/tools/dencoder/) the string and append it after
+````
+getanalytics?query=
+````
 
 #### Reading the result
 After you submit your input, there will be a couple of possible result
