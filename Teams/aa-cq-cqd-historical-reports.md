@@ -53,6 +53,8 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
+Any CQD role with both **View Reports** and **View EUII fields** set to **Yes** will work.
+
 - This requirement will be removed in a future release.
 
 ## V3.x.x installation 
