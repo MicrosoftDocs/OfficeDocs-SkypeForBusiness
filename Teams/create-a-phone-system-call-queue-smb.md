@@ -174,7 +174,7 @@ If you want to [use a Teams channel to manage the queue](https://support.microso
 
 1. Select the **Choose a team** radio button and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
-1. Select the channel that you want to use (only standard channels are supported) and select **Apply**.
+1. Select the channel that you want to use (only standard or private channels are supported) and select **Apply**.
 
 The following clients are supported when using a Teams channel for call queues:
 
@@ -185,6 +185,8 @@ The following clients are supported when using a Teams channel for call queues:
 > If you use this option, it can take up to 24 hours for the call queue to be fully operational.
 >
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
+> 
+> Calls will be distributed to all members of the team even if the private channel only has a subset of team members.
 
 ### Users and groups
 
