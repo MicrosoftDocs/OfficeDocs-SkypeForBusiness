@@ -40,8 +40,8 @@ Microsoft offers two licenses for Teams Rooms systems that participate in Teams 
 
 A Teams Room system can be one of the following:
 
-- A Teams Rooms for Windows compute module and attached touch console
-- A Teams Rooms for Android device and touch console connected via either an IP-based or USB connection
+- A Teams Rooms on Windows compute module and attached touch console
+- A Teams Rooms on Android device and touch console connected via either an IP-based or USB connection
 - A Surface Hub
 
 The remote administration tasks you perform on a Teams Rooms system or device in the Teams admin center depend on the license that's assigned the system or device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](admin-center-license-overview.md).

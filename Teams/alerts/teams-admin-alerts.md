@@ -20,7 +20,7 @@ ms.custom:
 
 # Microsoft Teams monitoring and alerting
 
-New monitoring and alerting capabilities for Microsoft Teams are available in the Teams admin center. Use different sets of rules available under the **Notifications & alerts** section in the Teams admin center to monitor Teams capabilities and receive alerts. For example, you can actively monitor the health of Teams devices such as IP Phones, collaboration bars, and others if they unexpectedly go offline.  
+New monitoring and alerting capabilities for Microsoft Teams are available in the Teams admin center. Use different sets of rules available under the **Notifications & alerts** section in the Teams admin center to monitor Teams capabilities and receive alerts. For example, you can actively monitor the health of Teams devices such as IP Phones, Teams Rooms on Android, and others if they unexpectedly go offline.  
 
 Your organization can use Teams monitoring and alerting to do the following items:
 
