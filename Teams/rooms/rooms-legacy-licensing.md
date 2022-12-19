@@ -33,7 +33,7 @@ This article is provided to customers who purchased Microsoft Teams Rooms Standa
 
 ## Licensing Solutions for Shared Communication Devices
 
-The following licenses were available to customers who purchased Teams Rooms devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and Teams Rooms for Android) prior to September 6th, 2022.
+The following licenses were available to customers who purchased Teams Rooms devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and Teams Rooms on Android) prior to September 6th, 2022.
 
 |&nbsp;|Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
 |:--- |:---: |:---: |
