@@ -30,7 +30,7 @@ description: In this article, you'll learn how to create, edit, and manage resou
 
 ## Next steps
 
-Once you've completed the resource account setup and assigning a service number if needed, you're ready to use the resource account with an auto attendant or call queue.
+Once you've completed the resource account setup and assigning a phone number if needed, you're ready to use the resource account with an auto attendant or call queue.
 
 See the following references to learn more:
 
@@ -68,7 +68,7 @@ For implementations that are hybrid with Skype for Business Server:
 
 ## Delete a resource account
 
-Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode.
+Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your phone number stuck in pending mode.
 
 After you do that, you can delete the resource account in the Microsoft 365 admin center, under the **Users** tab.
 
