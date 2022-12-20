@@ -21,7 +21,7 @@ appliesto:
 
 # Manage voice recognition technology controls for an Intelligent Speaker
 
-An Intelligent Speaker uses voice profile information to recognize who said what in live transcription. When a Microsoft Teams Rooms for Windows meeting room is equipped with an Intelligent Speaker, live transcription can be used during the meeting. This article explains how you, a tenant admin, control the voice profiling that's used for voice recognition to generate live transcription. You can control to what degree the organization is using voice recognition and the following features:
+An Intelligent Speaker uses voice profile information to recognize who said what in live transcription. When a Microsoft Teams Rooms on Windows meeting room is equipped with an Intelligent Speaker, live transcription can be used during the meeting. This article explains how you, a tenant admin, control the voice profiling that's used for voice recognition to generate live transcription. You can control to what degree the organization is using voice recognition and the following features:
 
 - Edit the speaker's name in transcripts.
 - Change the speaker of a single utterance in the transcript or change the speaker in all the utterances in the transcript (but not on future transcripts).

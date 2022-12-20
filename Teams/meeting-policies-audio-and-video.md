@@ -32,10 +32,10 @@ This article describes the meeting policy settings specific to audio and video. 
 - [Mode for IP audio](#mode-for-ip-audio)
 - [Mode for IP video](#mode-for-ip-video)
 - [IP video](#ip-video)
-- [Media bit rate (Kbs)](#media-bit-rate-kbs)
+- [Media bit rate (Kbps)](#media-bit-rate-kbps)
 - [Video filters mode](#video-filters-mode)
 - [Allow custom background settings](#allow-custom-background-settings)
-- [Far end camera control (FECC) for point tilt zoom (PTZ) cameras](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
+- [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras)
 
 ## Mode for IP audio
 
@@ -132,7 +132,7 @@ The most restrictive policy between the meeting organizer’s policy and the use
 
 For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
 
-## Media bit rate (Kbs)
+## Media bit rate (Kbps)
 
 This is a per-user policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
 
@@ -199,23 +199,23 @@ The meeting attendees will see a selection of background images that they can us
 >
 > This feature is temporarily available in public preview for all Microsoft Teams customers. To get this feature after the preview, each user will need the Advanced Communications add-on license. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
-## Far end camera control (FECC) for point tilt zoom (PTZ) cameras
+## Far end camera control (FECC) for pan tilt zoom (PTZ) cameras
 
-Far end camera control is a policy that can be assigned to Teams Rooms on Windows resource accounts. It allows PTZ cameras that are connected to a Teams Room to be controlled by meeting participants in the Teams client app during meetings.
+Far end camera control is a policy that can be assigned to Teams Rooms resource accounts. It allows PTZ cameras that are connected to a Teams Room to be controlled by meeting participants in the Teams client app during meetings.
 
 To use far end camera control, meeting participants will need to get the **PTZ Camera Controls** app.  See [Allow and block apps](manage-apps.md#allow-and-block-apps) to learn how to make the app available in your organization's app store.
 
-To specify who can use far end camera control in a meeting, create and assign a new policy to a Teams Rooms resource account using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet, or use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to modify an existing one. Set the `TeamsCameraFarEndPTZMode` parameter to one of the following values:
+To specify who can use far end camera control in a meeting, create and assign a new policy to a Teams Rooms resource account using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, or use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to modify an existing one. Set the `TeamsCameraFarEndPTZMode` parameter to one of the following values:
 
 |Setting value|Behavior|
 |---|---|
-|Disabled|This is the default setting. When set to ‘disabled,’ no one can use PTZ camera controls.|
-|AutoAcceptAll|PTZ camera controls are automatically available to any meeting participant.|
-|AutoAcceptInTenant|PTZ camera controls are automatically available only to participants in the same organization as the Teams Room.|
+|`Disabled`|This is the default setting. When set to `Disabled`, no one can use PTZ camera controls.|
+|`AutoAcceptAll`|PTZ camera controls are automatically available to any meeting participant.|
+|`AutoAcceptInTenant`|PTZ camera controls are automatically available only to participants in the same organization as the Teams Room.|
 
 When `TeamsCameraFarEndPTZMode` is set to `AutoAcceptAll` or `AutoAcceptInTenant`, camera control can still be manually turned off from the Teams Room at any point during a meeting. Camera control is also unavailable when the camera is turned off.
 
-Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). This feature is not yet supported on cameras with digital PTZ controls or on Teams Rooms on Android.  
+Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). This feature is not yet supported on cameras with digital PTZ controls.  
 
 > [!NOTE]
 > Update your camera firmware before testing PTZ controls. See the original equipment manufacturer (OEM) documentation to update firmware.

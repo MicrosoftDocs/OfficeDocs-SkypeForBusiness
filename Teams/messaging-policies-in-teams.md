@@ -19,6 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.messagingpolicies.overview
   - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
 ---
 
@@ -74,16 +75,18 @@ A user can only be assigned one messaging policy at a time.
 Here are the messaging policy settings that you can configure.
 
 - **Owners can delete sent messages**  Use this setting to let owners delete channel messages or posts that users sent.
-- **Delete sent messages** Use this setting to let users delete messages that they sent in chat.
+- **Delete sent messages** Use this setting to let users delete individual messages that they sent in chat.
+- **Delete chat** Use this setting to let users have the option to delete entire conversations from their chat list. This will only delete the chat content for the user taking the action; other users in the chat will still be able to see all of the messages. The user who deleted the chat will not see any existing messages in their activity feed or search results for the deleted chat; this user will also be removed from the deleted chat. Users will be prompted to confirm the decision to delete a chat. This setting is on by default. If this setting is turned off, users will no longer see the delete option for their chats.
 - **Edit sent messages** Use this setting to let users edit the messages that they sent in chat.
 - **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainty about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
-    - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
-    - **Turned on for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. When using the **On for everyone** setting, the only way to set receipts for the whole tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts. The read receipts feature is most effective when the feature is enabled to **On for everyone**.
-    - **Turned off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
+  - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
+  - **Turned on for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. When using the **On for everyone** setting, the only way to set receipts for the whole tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts. The read receipts feature is most effective when the feature is enabled to **On for everyone**.
+  - **Turned off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
 <a name="bkchat"> </a>
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
-- *Use Giphy in conversations**  If you turn on Giphys, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating. In addition to turning on this setting, you need to enable [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) to allow Giphys in conversations.
+- **Chat with groups** Users can start a chat with distribution groups, mail-enabled security groups, and Microsoft 365 groups.
+- **Use Giphy in conversations**  If you turn on Giphys, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating. In addition to turning on this setting, you need to enable [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) to allow Giphys in conversations.
 - **Giphy content rating**
   - **No restriction** This means that your users will be able to insert any Giphy in chats regardless of the content rating.
   - **Moderate**  This means that your users will be able to insert Giphys in chats, but will be moderately restricted from adult content.

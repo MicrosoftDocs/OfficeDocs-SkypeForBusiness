@@ -31,7 +31,7 @@ The MTM portal can be accessed through this [link](https://partner.rooms.microso
 
 ## Pre-requisites for managing your customers through the MTM experience
 
-To gain access to the MTM portal, your organization must be onboarded as an Elite Partner for MTR Pro Management. To become an Elite partner contact askelite@microsoft.com.
+The Elite program that offered access to the Multitenant Management console has been discontinued and we are not onboarding any new partners to this program. We appreciate your understanding and patience, and will announce a new format soon. 
 
 ## On-boarding customers
 
@@ -97,7 +97,7 @@ To off-board a customer, you must remove them from the **Tenants** list.
 
 ## Managing partner roles
 
-Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](microsoft-teams-rooms-premium-rbac.md), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
+Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](rooms-pro-rbac.md), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
 
 The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions—in context of the customer—for the Pro Management service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the customer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
 
@@ -122,7 +122,7 @@ As a partner, you can create custom roles to suit your operational requirements.
 
 1. Go to **Settings > Roles**. 
 1. Select the customer from the dropdown menu for which you want to edit the partner role.
-1. Create a [custom role](microsoft-teams-rooms-premium-rbac.md#built-in-roles).
+1. Create a [custom role](rooms-pro-rbac.md#built-in-roles).
 
 
 
