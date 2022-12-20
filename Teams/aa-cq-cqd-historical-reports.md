@@ -438,7 +438,7 @@ These dimensions are common to both auto attendants and call queues:
 
 ### Constructing a valid query
 
-A valid input is a JSON object consists of several attributes:
+A valid qeury consists of several attributes in a JSON object:
 
 ```json
 {
