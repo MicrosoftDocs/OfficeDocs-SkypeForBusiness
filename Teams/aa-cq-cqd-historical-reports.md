@@ -71,7 +71,7 @@ Perform the following steps:
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v305.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -534,7 +534,7 @@ Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.co
 
 Import the folder into Postman. 
 
-IMAGE GOES HERE
+:::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
 
 ### Accessing VAAC using Postman
 
@@ -543,6 +543,9 @@ IMAGE GOES HERE
 3. Replace **userName**, **password** and **tenantId** with the applicable credentials
 4. Click **Reset All"" in the top right corneer
 5. Click **Save**
+
+:::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
+
 6. Select **Collections** on the left hand rail menu
 7. Select **Config API Access Token - Prod** and navigate to the **Body** tab
 8. Click **Send**.
@@ -552,10 +555,12 @@ An access token will be returned.
 If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
 9. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab
+
 - [Compress](#compress-the-json-query) the query as outlined below
 - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
+
 10. Fill in your [query](#constructing-a-valid-query) string
-11. Click **Send**.
+12. Click **Send**.
 
 ### Reading the result
 
@@ -564,7 +569,7 @@ After you submit your input, there will be a couple of possible results
 - If the input is invalid, you will get an error message with actual reason
 - If the input is valid, you will get the result - for example
 
-IMAGE HERE
+:::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing query result with dataResult field":::
 
 In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements
 
@@ -623,7 +628,7 @@ fQ==
 
 ### URL-Encode the compressed JSON query
 
-[URL-Encode](https://meyerweb.com/eric/tools/dencoder/) the GZIP or Base64 JSON query
+The GZIP or Base64 compressed JSON query must be [URL encoded](https://meyerweb.com/eric/tools/dencoder/).
 
 GZIP URL encoded output will look like this:
 ````
