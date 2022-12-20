@@ -530,7 +530,9 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 In normal case, we use Postman to construct the requests. Please download [Postman](https://www.postman.com/).
 
-Check in our repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics)
+Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it
+
+Import the folder into Postman. 
 
 Import the postman collection and environments in this [directory](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics?path=/VoiceAnalytics/VoiceAnalytics.VoiceAnalyticsApi/PostmanCollections) into Postman
 
@@ -538,28 +540,23 @@ IMAGE GOES HERE
 
 ### Accessing VAAC using Postman
 
-1. Pick your environment from right top corner. These environments have some pre-defined test user data.
-
-IMAGE GOES HERE
-
-2. Open "Config API Access Token - Prod", and navigate to "Body" tab.
-
-Here are the descriptions of some important fields: 
-
-- client_id: use PowerBI app id (a672d62c-fc7b-4e81-a576-e60dc46e951d) in MSIT, or use your own client id
-- scope: user_impersonation
-- resource: 48ac35b8-9aa8-4d74-927d-1f4a14a0b239
-
-Replace **username** and **password** with your credentials. 
-
-4. Click **Send**.
+1. Select **Environments** on the left hand rail menu
+2. Select **VAAC - msit** under **Globals**
+3. Replace **userName**, **password** and **tenantId** with the applicable credentials
+4. Click **Reset All"" in the top right corneer
+5. Click **Save**
+6. Select **Config API Access Token - Prod** and navigate to the **Body** tab
+7. Click **Send**.
 
 An access token will be returned.
 
 If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
-6. Open "VAAC ConfigAPI Prod", fill in your query string in "Params" tab.
-7. Click **Send**.
+8. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab
+8. Compress the query as outlined below
+9. URL encode the compressed result as outlined below
+10. Fill in your [query](#constructing-a-valid-query) string
+11. Click **Send**.
 
 ### Compress the JSON input
 
@@ -615,21 +612,22 @@ fQ==
 
 ### URL-Encode the string
 
-If you're hitting the endpoint directly or through Postman, you need to [URL-Encode](https://meyerweb.com/eric/tools/dencoder/) the string and append it after
+[URL-Encode](https://meyerweb.com/eric/tools/dencoder/) the string and append it after
+
 ````
 getanalytics?query=
 ````
 
 ### Reading the result
 
-After you submit your input, there will be a couple of possible result
+After you submit your input, there will be a couple of possible results
 
-If the input is invalid, you will get an error message with actual reason
-If the input is valid, you will get the result
-For example:
-image.png
-In this case, the data will be in "dataResult" field in the same order of your requested dimension and measurements
-Request ID can be used to search for logs
+- If the input is invalid, you will get an error message with actual reason
+- If the input is valid, you will get the result - for example
+
+IMAGE HERE
+
+In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements
 
 
 ## Version 3.x.x history
