@@ -133,26 +133,35 @@ You'll have to refresh the data to see any new data.
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
+|AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount (Measure)           |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
+|AACallerActionCount (Measure)           |Whole number             |Same as AACallerActionCount except will be 0 if no calls instead of blank                |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank                              |
-|AAChainIndex                            |Text                     |                                                                                         |
-|AAConnectivityType                      |Text                     |                                                                                         |
-|AACount                                 |Text                     |Number of Auto Attendants involved in call                                               |
+|AAChainDuration (Measure)               |Decimal number           |Same as AAChainDuration except will be 0 if no calls instead of blank                    |
+|AAChainIndex                            |Whole Number             |                                                                                         |
+|AAConnectivityType                      |Text                     |See Common dimensions -> PSTNConnectivityType                                            |
+|AACount                                 |Whole Number             |Number of Auto Attendants involved in call                                               |
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
 |AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                                    |
-|AAStartHour                             |Decimal number           |Auto Attendant call start hour                                                           |
+|AAStartHour                             |Whole number             |Auto Attendant call start hour                                                           |
 |AAStartTime                             |Date/time                |Auto Attendant call start time                                                           |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
+|Call Duration Seconds                   |Whole number             |Call duration                                                                            |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |Call Type<sup>1</sup>                   |Text                     |See Common Dimensions -> PSTNCallType                                                    |
+|ConferenceID                            |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
+|DialogID                                |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
+|DocumentID                              |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
+|Sum of TotalCallCount (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
-|Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 
 
 ### Cloud Call Queue Analytics report
@@ -162,7 +171,7 @@ You'll have to refresh the data to see any new data.
 |Report Section                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
 |Incoming Call Source                    |Distribution of calls by Internal/External call source             |
-|Average Wait Time (seconds)             |Wait time for answered and abandoned calls                          |
+|Average Wait Time (seconds)             |Wait time for answered and abandoned calls                         |
 |Call Volume and Agent Opt-in Count      |Distribution of calls by call queues / Maximum agent opt-in count  |
 |Call Results                            |Distribution of calls by call result                               |
 |Abandoned Calls                         |Distribution of abandoned calls by call queues                     |
@@ -192,24 +201,32 @@ You'll have to refresh the data to see any new data.
 
 #### fCallQueueAnalytics field description
 
-|Name                                    |Data Type                |Description                                                                |
-|:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
-|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue            |
-|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue              |
-|Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
-|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                            |
-|Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                           |
-|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                       |
-|Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                              |
+|Name                                    |Data Type                |Description                                                                              |
+|:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
+|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
+|Call Duration Seconds                   |Whole number             |Call duration                                                                            |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
+|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue                          |
+|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue                            |
+|Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                                         |
+|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                                          |
+|Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                                         |
+|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                                     |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
+|Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                                                    |
+|ConferenceID                            |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
-|CQ Hour                                 |Whole Number             |Call queue call start hour                                                 |
-|Date                                    |Date/time                |Call queue call start date and time (hour)                                 | 
-|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
-|PSTN Connectivity Type                  |Text                     |See Common Dimensions -> PSTNConnectivityType                              |
-|PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                       |
-|Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                          |
-|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                               |
+|CQ Hour                                 |Whole Number             |Call queue call start hour                                                               |
+|Date                                    |Date/time                |Call queue call start date and time (hour)                                               | 
+|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                                   |
+|DialogID                                |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
+|DocumentID                              |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
+|PSTN Connectivity Type                  |Text                     |See Common Dimensions -> PSTNConnectivityType                                            |
+|PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                                     |
+|Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                                        |
+|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                             |
 
 
 #### fCallQueueFinalStateAction field description
@@ -265,14 +282,15 @@ You'll have to refresh the data to see any new data.
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls answered by the agent     |
 |Call Duration (Minutes)                 |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
+|Calls Answered                          |Whole number             |Number of calls answered by agent                        |
+|Calls Not Answered                      |Whole number             |Number of calls not answered by agent                    |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Date                                    |Date                     |Date of call                                             |
 |DateTime                                |DateTime                 |Date of call                                             |
 |Hour                                    |Whole number             |Hour of call                                             |
 |MM-DD                                   |Text                     |Month and day of call                                    |
-
+|Total Call Count                        |Whole number             |Summarize: Sum<br>Number of calls presented to agent     |
 
 > [!NOTE]
 > When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
@@ -319,19 +337,19 @@ These dimensions are common to both auto attendants and call queues:
 |DocumentId<br>(Text)                                   |GUID                           |Call identifier                                                   |
 |Duration<br>(Whole Number)                             |                               |Duration of call, in seconds                                      |
 |EndTime<br>(DateTime)                                  |                               |Time call ended (UTC)                                             |
-|FirstIsCaller<br>(Boolean)                             |                               |                                                                  |
-|FirstUPN<br>(Text)                                     |                               |                                                                  |
+|FirstIsCaller<br>(Boolean)                             |                               |[First and Second endpoint classification](dimensions-and-measures-available-in-call-quality-dashboard.md)     |
+|FirstUPN<br>(Text)                                     |                               |The user principal name (UPN) of the first endpoint's user        |
 |Hour<br>(Text)                                         |                               |Hour call started (UTC)                                           |
 |Minute<br>(Text)                                       |                               |Minute call started (UTC)                                         |
-|PSTNCallDuration<br>(Whole Number)                     |                               |                                                                  |
+|PSTNCallDuration<br>(Whole Number)                     |                               |Duration of the call                                              |
 |PSTNCallType<br>(Text)                                 |                               |                                                                  |
-|                                                       |External                       |                                                                  |
-|                                                       |Internal                       |                                                                  |
+|                                                       |External                       |Call is coming from outside the tenant                            |
+|                                                       |Internal                       |Call is coming from within the tenant                             |
 |PSTNConnectivityType<sup>1</sup><br>(Text)             |                               |                                                                  |
 |                                                       |CallingPlan                    |                                                                  |
 |                                                       |DirectRouting                  |                                                                  |
 |Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
-|SecondUPN<br>(Text)                                    |                               |                                                                  |
+|SecondUPN<br>(Text)                                    |                               |The user principal name (UPN) of the second endpoint's user       |
 |TenantId<br>(Text)                                     |                               |Tenant ID                                                         |
 |Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
 |UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
@@ -406,13 +424,13 @@ These dimensions are common to both auto attendants and call queues:
 |                                                       |overflown                      |Overflow condition met                                            |
 |                                                       |timed_out                      |Timeout condition met                                             |
 |                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
-|CallQueueDurationSeconds<br>(Real Number)              |                               |                                                                  |
+|CallQueueDurationSeconds<br>(Real Number)              |                               |Call duration in the call queue                                   |
 |CallQueueFinaleStateAction<br>(Text)                   |                               |Call queue final action                                           |
 |                                                       |disconnect                     |time_out calls                                                    |
 |                                                       |disconnect_with_busy           |overflown calls                                                   |
 |                                                       |failed_to_accept_call          |                                                                  |
-|                                                       |forward                        |                                                                  |
-|                                                       |shared_voicemail               |                                                                  |
+|                                                       |forward                        |Call was forwarded to a user or externally                        |
+|                                                       |shared_voicemail               |Call was sent to shared voicemail                                 |
 |                                                       |other                          |                                                                  |
 |                                                       |voicemail                      |                                                                  |
 |CallQueueIdentity<br>(Text)                            |                               |Resource account URI call arrived on                              |
