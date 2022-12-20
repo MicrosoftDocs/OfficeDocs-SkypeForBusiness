@@ -1,11 +1,11 @@
-In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned service telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
+In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
 
 This article covers how to create resource accounts and ready them for use with auto attendants and call queues.
 
 Before you start the procedures in this article, ensure you've done the following steps:
 
 - [Obtain Microsoft Teams Phone Resource Account licenses](#obtain-microsoft-teams-phone-resource-account-licenses)
-- [Obtain service numbers](#obtain-service-numbers)
+- [Obtain phone numbers](#obtain-phone-numbers)
 
 > [!NOTE]
 > Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
@@ -30,13 +30,17 @@ To see if you already have **Teams Phone Resource Account** licenses, sign into 
 
 There's zero cost, but you still need to follow these steps to acquire the license.
 
-### Obtain service numbers
+### Obtain phone numbers
 
-Service numbers are optional for auto attendants and call queues; however, you'll need at least one service number in order for callers to reach your auto attendant and call queue configuration. For any auto attendant or call queue that you want to be reachable directly by a service number, you must have a resource account with an associated service number.
+Phone numbers are optional for auto attendants and call queues. For any auto attendant or call queue that you want to be reachable directly by a phone number, you must have a resource account with an associated phone number.
 
-Resource accounts can use either toll or toll-free service numbers. You can request new numbers or port existing numbers from another carrier.
+Resource accounts can use either toll or toll-free phone numbers. You can request new numbers or port existing numbers from another carrier.
 
-To get new service numbers, see [Getting service phone numbers](../getting-service-phone-numbers.md).
+Acceptable phone numbers that can be applied to resource accounts include:
+
+- **Calling Plans service numbers:** To acquire service numbers with Calling Plans, see [Getting service phone numbers](../getting-service-phone-numbers.md).
+- **Direct Routing numbers:** To acquire Direct Routing numbers, see [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users#configure-the-phone-number-and-enable-enterprise-voice).
+- **Operator Connect numbers:** To acquire Operator Connect numbers, see [Configure Operator Connect](/microsoftteams/operator-connect-configure#set-up-phone-numbers).
 
 To port a number from another carrier, see [Transfer phone numbers to Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
@@ -60,13 +64,13 @@ For each resource account, you must assign a **Microsoft Teams Phone Resource Ac
 4. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Resource Account**.
 5. Select **Save changes**.
 
-## Assign a service number
+## Assign a phone number
 
-If you're planning to use the resource account with an auto attendant or call queue that requires a service number, assign a number to the resource account.
+If you're planning to use the resource account with an auto attendant or call queue that requires a phone number, assign a number to the resource account.
 
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expand **Voice**, and then select **Resource accounts** page.
-3. Select the resource account to which you want to assign a service number, and then select **Assign/unassign**.
+3. Select the resource account to which you want to assign a phone number, and then select **Assign/unassign**.
 4. In the **Phone number type** dropdown, choose the type of number that you want to use.
 5. In the **Assigned phone number** box, search for the number you want to use and select **Add**. Be sure to include the country code (for example, +1 250 555 0012).
 6. Select **Save**.

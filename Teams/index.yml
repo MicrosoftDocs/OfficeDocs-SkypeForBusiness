@@ -33,9 +33,9 @@ highlightedContent:
       itemType: how-to-guide
       url: ./upgrade-skype-teams.yml
     # Card
-    - title: Use Advisor for Teams to help you roll out Teams
-      itemType: get-started
-      url: ./use-advisor-teams-roll-out.md
+    - title: Discover Microsoft Teams Premium (Preview)
+      itemType: overview
+      url: ./enhanced-teams-experience.md
 
 # productDirectory section (optional)
 productDirectory:
