@@ -556,7 +556,7 @@ Replace **username** and **password** with your credentials.
 
 An access token will be returned.
 
-If an access token is not returned, check your credentials to make they have [sufficient permissions](#Permissions-to-access-the-CQD-pipeline).
+If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
 6. Open "VAAC ConfigAPI Prod", fill in your query string in "Params" tab.
 7. Click **Send**.
