@@ -101,8 +101,8 @@ Introduced in this update:
 - Start whiteboard in Teams meetings
 - Fit-to-frame room video roster control
 - Overflow meeting support
-- Join Zoom meeting by ID (Direct guest join)
-- Quality fixes for third-party meetings (Direct guest join)
+- Join Zoom meetings by ID via Direct Guest Join. Support for joining Zoom meetings by ID has been added in this release and will be enabled in the coming weeks.
+- Quality fixes for third-party meetings (Direct Guest Join)
 - Fix for license information in settings showing no license when Teams is not signed in
 - A new default wallpaper (Vivid Flag) and four other new wallpapers
 
@@ -318,7 +318,7 @@ Introduced in this update:
 
 - See more videos with 3x3 video gallery on front of room displays  
 - Start local live closed captions from MTR
-- Join Zoom meetings from Teams Rooms with direct guest join (Preview)
+- Join Zoom meetings from Teams Rooms with Direct Guest Join (Preview)
 
 > [!NOTE]
 > 3x3 video gallery and local live closed captions are delivered through the Microsoft Teams service. These features are available to all Teams Rooms devices with application version 4.5.37.0 and above.
@@ -334,7 +334,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Join Cisco Webex meetings from Teams Rooms with direct guest join
+- Join Cisco Webex meetings from Teams Rooms with Direct Guest Join
 - Teams Admin Center enablement and auto-enrollment
 - Windows 10 1909 release support
 - Switch to video gallery layout even when content is present
