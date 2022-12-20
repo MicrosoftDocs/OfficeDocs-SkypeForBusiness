@@ -528,9 +528,9 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 ### Preparation
 
-In normal case, we use Postman to construct the requests. Please download [Postman](https://www.postman.com/).
+Please download [Postman](https://www.postman.com/).
 
-Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it
+Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it.
 
 Import the folder into Postman. 
 
@@ -538,40 +538,40 @@ Import the folder into Postman.
 
 ### Accessing VAAC using Postman
 
-1. Select **Environments** on the left hand rail menu
-2. Select **VAAC - msit** under **Globals**
-3. Replace **userName**, **password** and **tenantId** with the applicable credentials
-4. Click **Reset All"" in the top right corneer
-5. Click **Save**
+1. Select **Environments** on the left hand rail menu.
+2. Select **VAAC - msit** under **Globals**.
+3. Replace **userName**, **password** and **tenantId** with the applicable credentials.
+4. Click **Reset All"" in the top right corneer.
+5. Click **Save**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
 
-6. Select **Collections** on the left hand rail menu
-7. Select **Config API Access Token - Prod** and navigate to the **Body** tab
+6. Select **Collections** on the left hand rail menu.
+7. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
 8. Click **Send**.
 
 An access token will be returned.
 
 If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
-9. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab
+9. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
 - [Compress](#compress-the-json-query) the query as outlined below
 - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
 
-10. Fill in your [query](#constructing-a-valid-query) string
+10. Fill in your [query](#constructing-a-valid-query) string.
 12. Click **Send**.
 
 ### Reading the result
 
-After you submit your input, there will be a couple of possible results
+After you submit your input, there will be a couple of possible results:
 
-- If the input is invalid, you will get an error message with actual reason
-- If the input is valid, you will get the result - for example
+- If the input is invalid, you will get an error message with the actual reason
+- If the input is valid, you will get the result - for example:
 
 :::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing query result with dataResult field":::
 
-In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements
+In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
 
 
 ### Compress the JSON query
