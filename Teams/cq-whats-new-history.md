@@ -24,7 +24,7 @@ ms.custom:
 description: The history of call queue feature updates.
 ---
 
-# Auto attendant what's new history
+# Call queue what's new history
 
 ## 2022
 
