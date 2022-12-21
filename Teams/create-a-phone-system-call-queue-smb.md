@@ -437,7 +437,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
 
-### Related topics
+### Related articles
 
 [Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
 
