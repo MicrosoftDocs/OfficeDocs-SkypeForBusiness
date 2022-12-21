@@ -28,7 +28,10 @@ description: The history of call queue feature updates.
 
 ## 2022
 
-July - Call flow during holidays now supports **Play menu options**.
+|Month                          |Description                                                           |
+|:------------------------------|:---------------------------------------------------------------------|
+|August                         |**Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.|
+|                               |**Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts. |
 
 
 ## Related topics
