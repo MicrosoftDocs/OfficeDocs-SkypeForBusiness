@@ -28,7 +28,9 @@ description: The history of auto attendant feature updates.
 
 ## 2022
 
-July - Call flow during holidays now supports **Play menu options**.
+|Month                          |Description                                                           |
+|:------------------------------|:---------------------------------------------------------------------|
+|July                           |Call flow during hoildays support for **Play menu options** added     |
 
 
 ## Related topics
