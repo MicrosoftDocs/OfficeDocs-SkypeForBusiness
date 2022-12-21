@@ -34,7 +34,7 @@ description: The history of call queue feature updates.
 |                               |**Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts. |
 
 
-## Related topics
+## Related articles
 
 [Auto attendant what's new history](aa-whats-new-history.md)
 
