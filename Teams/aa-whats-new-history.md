@@ -28,9 +28,11 @@ description: The history of auto attendant feature updates.
 
 ## 2022
 
-|Month                          |Description                                                           |
-|:------------------------------|:---------------------------------------------------------------------|
-|July                           |Call flow during hoildays support for **Play menu options** added     |
+|Month     |Description                                                                                                                                             |
+|:---------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
+|September |**Force Listen** option support with **Play menu option** for *Call flow*, *Call flow for after hours*, and *Call flow during holidays*.                |
+|August    |**Play menu options** in *Call flow*, *Call flow for after hours*, and *Call flow during holidays* support for \* (asterisk) and \# (pound) keys added. |
+|July      |*Call flow during hoildays* support for **Play menu options** added.                                                                                    |
 
 
 ## Related topics
