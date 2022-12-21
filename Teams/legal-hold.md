@@ -53,7 +53,7 @@ To put a user or a team on legal hold in a eDiscovery (Standard) case:
   
        ![This screenshot shows the Name your hold tab, where you can enter in a name and description for the hold you are creating.](media/LegalHold3.png)
 
-   2. **Choose locations**. Choose whether you want the hold to be applied on a user or on an entire Team (a hold can't be applied on individual channels for now). If a user is on hold, all their messages are preserved, including messages in 1:1 chats, group chats, and private channels. Messages in standard and shared channels are preserved when the parent team is placed on hold.
+   2. **Choose locations**. Choose whether you want the hold to be applied on a user or on an entire team (a hold can't be applied on individual channels for now). If a user is on hold, all their messages are preserved, including messages in 1:1 chats, group chats, and private channels. Messages in standard and shared channels are preserved when the parent team is placed on hold.
 
       ![Choose the data locations that you want to place on hold.](media/LegalHold4.png)
 
