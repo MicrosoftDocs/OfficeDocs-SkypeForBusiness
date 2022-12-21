@@ -35,7 +35,7 @@ description: The history of auto attendant feature updates.
 |July      |*Call flow during holidays* support for **Play menu options** added.                                                                                    |
 
 
-## Related topics
+## Related articles
 
 [Call queue what's new history](cq-whats-new-history.md)
 
