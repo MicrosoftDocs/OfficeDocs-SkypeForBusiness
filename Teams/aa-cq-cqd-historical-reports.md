@@ -155,9 +155,9 @@ You'll have to refresh the data to see any new data.
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |Call Type<sup>1</sup>                   |Text                     |See Common Dimensions -> PSTNCallType                                                    |
-|ConferenceID                            |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
-|DialogID                                |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
-|DocumentID                              |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
+|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
 |Sum of TotalCallCount (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
@@ -216,13 +216,13 @@ You'll have to refresh the data to see any new data.
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                                                    |
-|ConferenceID                            |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
+|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Whole Number             |Call queue call start hour                                                               |
 |Date                                    |Date/time                |Call queue call start date and time (hour)                                               | 
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                                   |
-|DialogID                                |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
-|DocumentID                              |Text                     |Used for troubleshooting purposes - please provide this information when opening a ticket |
+|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |PSTN Connectivity Type                  |Text                     |See Common Dimensions -> PSTNConnectivityType                                            |
 |PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                                     |
 |Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                                        |
@@ -456,7 +456,7 @@ These dimensions are common to both auto attendants and call queues:
 
 ### Constructing a valid query
 
-A valid qeury consists of several attributes in a JSON object:
+A valid query consists of several attributes in a JSON object:
 
 ```json
 {
@@ -528,7 +528,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 ### Preparation
 
-Please download [Postman](https://www.postman.com/).
+Download [Postman](https://www.postman.com/).
 
 Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it.
 
@@ -541,7 +541,7 @@ Import the folder into Postman.
 1. Select **Environments** on the left hand rail menu.
 2. Select **VAAC - msit** under **Globals**.
 3. Replace **userName**, **password** and **tenantId** with the applicable credentials.
-4. Click **Reset All"" in the top right corneer.
+4. Click **Reset All** in the top right corner.
 5. Click **Save**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
@@ -566,8 +566,8 @@ If an access token is not returned, check your credentials to make they have [su
 
 After you submit your input, there will be a couple of possible results:
 
-- If the input is invalid, you will get an error message with the actual reason
-- If the input is valid, you will get the result - for example:
+- If the input is invalid, an error message with the actual reason will be returned
+- If the input is valid, the result will look like this:
 
 :::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing query result with dataResult field":::
 
