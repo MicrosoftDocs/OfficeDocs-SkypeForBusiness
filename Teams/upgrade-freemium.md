@@ -48,7 +48,7 @@ Teams Free (classic) is designed for small to medium businesses and has the foll
 A Microsoft 365 or Office 365 plan provides the following features in addition to the features that Microsoft Teams Free (classic) provides:
 
 - No user limit (with an enterprise license)
-- Exchange email hosting and custom email domain
+- Exchange email hosting with customer email domain address
 - OneDrive, SharePoint, Planner, Yammer, and more Microsoft 365 and Office 365 services
 - 1 TB of storage per user
 - Scheduled meetings
