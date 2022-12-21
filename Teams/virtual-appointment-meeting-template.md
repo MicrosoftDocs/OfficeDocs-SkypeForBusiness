@@ -62,7 +62,7 @@ Keep in mind that some Teams meeting options may not apply to external guests or
 
 People within your organization receive a meeting invitation and the appointment appears in their Teams and Outlook calendar, where they can easily join as in any other Teams meeting. All Teams meeting options apply to attendees who join using the Teams meeting link in the meeting invitation or from the Teams or Outlook calendar.
 
-To learn more about how to use the Virtual appointment template and the user experience, see [Use a Teams meeting template to create a Virtual Appointment](https://support.microsoft.com/office/6a9e8cbb-c0ed-4598-851e-3b1750a4a747).
+To learn more about how to use the Virtual appointment meeting template and the user experience, see [Use a Teams meeting template to create a Virtual Appointment](https://support.microsoft.com/office/6a9e8cbb-c0ed-4598-851e-3b1750a4a747).
 
 ## Related articles
 
