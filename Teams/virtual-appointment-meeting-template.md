@@ -58,11 +58,11 @@ Keep in mind that some Teams meeting options may not apply to external guests or
 - **Who can bypass the lobby**: The **Everyone** setting allows external guests to bypass the lobby.
 - **Choose co-organizers**
 - **Record automatically**
-- **Allow meeting chat**: Set to **Disabled** to prevent meeting chat before, during, and after the meeting.
+- **Allow meeting chat**: Set to **Disabled** if you want to prevent meeting chat before, during, and after the meeting.
 
 People within your organization receive a meeting invitation and the appointment appears in their Teams and Outlook calendar, where they can easily join as in any other Teams meeting. All Teams meeting options apply to attendees who join using the Teams meeting link in the meeting invitation or from the Teams or Outlook calendar.
 
-To learn more about how to use the Virtual appointment template and the user experience, see [Use a Teams meeting template to create a virtual appointment]().
+To learn more about how to use the Virtual appointment template and the user experience, see [Use a Teams meeting template to create a Virtual Appointment](https://support.microsoft.com/office/6a9e8cbb-c0ed-4598-851e-3b1750a4a747).
 
 ## Related articles
 
