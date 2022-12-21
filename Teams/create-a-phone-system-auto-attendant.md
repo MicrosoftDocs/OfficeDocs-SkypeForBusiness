@@ -254,7 +254,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will identify tenant, policy, or resource account configurations that are preventing the auto attendant from being able to receive calls and provide steps to fix any problems identified.
 
-## Related topics
+## Related articles
 
 [Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
