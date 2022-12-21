@@ -58,7 +58,7 @@ The application IDs that you need to use while creating the application instance
 > [!NOTE]
 > If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.
 
-For implementations that are hybrid with Skype for Business Server:
+For hybrid implementations with Skype for Business Server:
 
    [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
@@ -105,7 +105,7 @@ To access and use information barriers, your organization must have one of the f
 
 Go to Teams -> Teams settings and scroll down to "Search by name" and turn on the toggle and save the change.
 
-For more information on this option refer to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
+For more information on this option, see to: [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Compliance - Auditing
 
@@ -118,7 +118,7 @@ Go to [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
   
 3. Click the Start recording user and admin activity 
 
-For more information on auditing refer to: [Set up Audit (Standard) in Microsoft 365](/microsoft-365/compliance/audit-standard-setup?view=o365-worldwide&preserve-view=true)
+For more information on auditing, see to: [Set up Audit (Standard) in Microsoft 365](/microsoft-365/compliance/audit-standard-setup?view=o365-worldwide&preserve-view=true)
 
 #### Segmenting Data
 
@@ -140,7 +140,7 @@ The Resource Accounts that shouldn't be called directly need to be segmented / e
 
 In the example steps below, the Department field will be used. 
 
-For more information on segmenting users refer to: [Identify segments](/microsoft-365/compliance/information-barriers-policies?view=o365-worldwide#identify-segments&preserve-view=true)
+For more information on segmenting users, see to: [Identify segments](/microsoft-365/compliance/information-barriers-policies?view=o365-worldwide#identify-segments&preserve-view=true)
 
 #### Microsoft Admin Center
 
