@@ -173,7 +173,6 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 *New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 *New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
-*New - **Play menu options** is now available in Holiday call flows.*
 
 1. On the Holiday call settings page, select **Add**.
 
