@@ -46,6 +46,8 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
   - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
   - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
 
+[Call queue what's new history](cq-whats-new-history.md)
+
 ## Steps to create a call queue
 
 The steps to set up a call queue include:
