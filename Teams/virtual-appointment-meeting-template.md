@@ -67,4 +67,3 @@ To learn more about how to use the Virtual appointment meeting template and the 
 ## Related articles
 
 - [Overview of custom meeting templates in Teams](custom-meeting-templates-overview.md)
-- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
