@@ -50,7 +50,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 >
 > While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted.  If an operator isn't defined, the auto attendant will drop the call.
 
-## What's new for auto attendants in the past siz months
+## What's new for auto attendants in the past six months
 
 - September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
 - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
@@ -130,7 +130,7 @@ For each menu option, specify the following settings:
 
 ##### Directory search
 
-If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed.  If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they will be routed to that destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
+If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed.  If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they'll be routed to that destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
