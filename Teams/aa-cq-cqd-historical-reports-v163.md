@@ -70,6 +70,7 @@ Perform the following steps:
   :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
 Public Cloud Tenants
+
 6. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
     ```powershell
@@ -81,23 +82,24 @@ Public Cloud Tenants
     The region will be displayed after the **/** as in the above example where the region is `noam`.
 
 GCC High and DoD Tenants
- 6. Update the template to use one of the following connectors:
+
+6. Update the template to use one of the following connectors:
 
 - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
 - DoD: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
 
 
- 7. The report will launch with sample data.
+7. The report will launch with sample data.
  
- 8. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
+8. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Screenshot selecting the refresh option.":::
 
- 9. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
+9. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
 
   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login for V1.63.":::
 
- 10. Select **Connect**, and the data will refresh.
+10. Select **Connect**, and the data will refresh.
 
 ## Data latency for AA and CQ analytics
 
