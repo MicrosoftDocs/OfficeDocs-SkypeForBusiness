@@ -35,7 +35,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 - **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
-  - In M365 Admin Center enable "Let people outside the organization email this team" for the Microsoft 365 group that you specify
+  - In Microsoft 365 Admin Center enable "Let people outside the organization email this team" for the Microsoft 365 group that you specify
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
@@ -78,7 +78,7 @@ To set up an auto attendant, in the [Teams admin center](https://go.microsoft.co
 
 3. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](?tabs=after-hours).
 
-4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts.
+4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This language that will be used for system-generated voice prompts.
 
 5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
@@ -127,7 +127,7 @@ For each menu option, specify the following settings:
 
 ##### Directory search
 
-If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they might be unexpectedly routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
+If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed. If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they will be routed to that destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
@@ -138,7 +138,7 @@ If you didn't assign dial keys, then choose an option for **Directory search**.
 > [!NOTE]
 > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
 
-For more information, refer to the [Dial and voice reference](dial-voice-reference.md).
+For more information, see the [Dial and voice reference](dial-voice-reference.md).
 
 Once you've set your basic call flow options, select **Next**.
 
@@ -216,7 +216,7 @@ To add a resource account, select **Add account** and search for the account tha
 
 Once you've added resource accounts, select **Next**.
 
-See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
+For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
 ---
 
@@ -234,7 +234,7 @@ The outbound phone number that's displayed is determined as follows:
 
 - For Calling Plan and Operator Connect numbers, the original caller's phone number is displayed.
 - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
-  - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+  - If set to Disabled, the original caller's phone number is displayed. Disabled is the default and recommended setting.
   - If set to Enabled, the resource account phone number is displayed.
 
 In a Skype for Business hybrid environment, to transfer an auto attendant call to the PSTN, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
@@ -250,7 +250,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
 
-3. The tests will identify tenant, policy, or resource account configurations that are preventing the auto attendant from being able to receive calls and provide steps to fix any problems identified.
+3. The tests will identify tenant, policy, or resource account configurations that are preventing the auto attendant from receiving calls and will also provide steps to fix any problems identified.
 
 ### Related articles
 
