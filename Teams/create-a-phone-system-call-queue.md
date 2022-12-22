@@ -43,7 +43,7 @@ Call queues provide:
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 - Handling options for queue overflow and timeout.
 
-Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
+Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md), and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
 ## What's new for call queues in the past six months
 
@@ -336,7 +336,7 @@ Once you've selected your call overflow handling options, select the **Next** bu
 
 ## Step 6: Set how to handle call timeouts
 
-**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected.
+**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it's redirected or disconnected.
 
 You can specify a value from 0 seconds to 45 minutes.
 
@@ -403,7 +403,7 @@ The following settings are recommended:
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only public channels are supported.
-9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
+9. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
 10. For GCCH/DOD, only available through User Settings Portal at:
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
 - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
