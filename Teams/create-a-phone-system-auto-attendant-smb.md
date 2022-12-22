@@ -35,7 +35,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 - **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
-  - In Microsoft 365 Admin Center enable "Let people outside the organization email this team" for the Microsoft 365 group that you specify
+  - In Microsoft 365 Admin Center, enable "Let people outside the organization email this team" for the Microsoft 365 group that you specify
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
@@ -45,7 +45,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 >
 > While defining an **Operator** is optional, it's recommended. Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted. If an operator isn't defined, the auto attendant will drop the call.
 
-## What's new for auto attendants in the past 6 months
+## What's new for auto attendants in the past six months
 
 - September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
 - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
@@ -123,11 +123,11 @@ For each menu option, specify the following settings:
 
 - **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." For example, the caller can press 2, say "two," or say "Sales" to select the option mapped to the two keys. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to sales."
 
-- **Redirect to** - the call routing destination used when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
+- **Redirect to** - the call routing destination used when callers choose this option. If you're redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
 ##### Directory search
 
-If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed. If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they will be routed to that destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
+If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed. If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they'll be routed to that destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
@@ -149,10 +149,10 @@ Once you've set your basic call flow options, select **Next**.
 Business hours can be set for each auto attendant.
 
 - If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default.
-- Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours.
+- Business hours can be set with breaks in time during the day, and all of the hours that aren't set as business hours are considered after-hours.
 - You can set different incoming call-handling options and greetings for after-hours.
 
-Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
+Depending on how you've configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
 
 If you want separate call routing for after-hours callers, then specify your business hours for each day.
 
