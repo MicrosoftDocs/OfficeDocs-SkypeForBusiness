@@ -63,12 +63,13 @@ Perform the following steps:
 
 1. Open the zip file.
 
-1. Open the `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` template file. Power BI Desktop should launch.
+1. Open the `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` template file. Power BI Desktop should launch.
 
 1. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
   :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
+Public Cloud Tenants
 1. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
     ```powershell
@@ -79,17 +80,24 @@ Perform the following steps:
 
     1. The region will be displayed after the **/** as in the above example where the region is `noam`.
 
- 1. The report will launch with sample data.
+GCC High and DoD Tenants
+ 1. Update the template to use one of the following connectors
+
+- GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+- DoD: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+ 2. The report will launch with sample data.
  
- 1. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
+ 3. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Screenshot selecting the refresh option.":::
 
-1. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
+4. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
 
   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login for V1.63.":::
 
-1. Select **Connect**, and the data will refresh.
+5. Select **Connect**, and the data will refresh.
 
 ## Data latency for AA and CQ analytics
 
