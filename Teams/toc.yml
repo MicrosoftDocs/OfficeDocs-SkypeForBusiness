@@ -654,6 +654,8 @@ items:
                   href: create-custom-meeting-template.md
                 - name: Manage meeting templates
                   href: manage-meeting-templates.md
+            - name: Virtual appointment meeting template
+              href: virtual-appointment-meeting-template.md
             - name: Use templates, labels, and policies together
               href: meeting-templates-sensitivity-labels-policies.md
         - name: Manage who can start and schedule meetings
