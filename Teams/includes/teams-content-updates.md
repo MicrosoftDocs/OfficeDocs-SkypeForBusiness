@@ -1,6 +1,27 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
+
 
 
+## Week of December 12, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/14/2022 | [Microsoft Teams Shared Devices licensing](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | added |
+| 12/14/2022 | [Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | added |
+| 12/14/2022 | [Set Microsoft Teams Android devices user interface](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modified |
+| 12/14/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 12/14/2022 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
+| 12/14/2022 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | modified |
+| 12/14/2022 | [Set up the common area phones for Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modified |
+| 12/14/2022 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 12/15/2022 | [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions) | modified |
+| 12/15/2022 | [Phone numbers and licensing changes](/MicrosoftTeams/phone-numbers-licensing-changes) | modified |
+| 12/15/2022 | [Release notes for Microsoft Teams Rooms (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 12/16/2022 | [Proxy servers for Teams or Skype for Business Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | modified |
+| 12/16/2022 | [Deploy Microsoft Teams Rooms on Android](/MicrosoftTeams/devices/collab-bar-deploy) | modified |
+| 12/16/2022 | [Update Microsoft Teams devices remotely](/MicrosoftTeams/devices/remote-update) | modified |
+| 12/16/2022 | [Microsoft Teams Rooms on Windows security](/MicrosoftTeams/rooms/security-windows) | modified |
 
 
 ## Week of December 05, 2022
