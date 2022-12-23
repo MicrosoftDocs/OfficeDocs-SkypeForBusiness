@@ -23,11 +23,13 @@ appliesto:
 
 # Manage the Virtual Appointments app for your organization in Microsoft Teams
 
-The Virtual Appointments app provides a central hub for all your virtual appointments needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), analytics, and management options, all in one place.
+The Virtual Appointments app provides a central hub for all your virtual appointments needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating Bookings schedules, analytics, and management options, all in one place.
 
 You can schedule, view, and manage virtual appointments, get real-time status updates in a queue view, send appointment reminders, view analytics and reports to gain insight into virtual appointments activity, and configure calendar, staff, and booking page settings.
 
 With any Microsoft 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) unlocks advanced Virtual Appointments capabilities that your organization can use to manage and personalize the experience. These include a queue view of scheduled and on-demand appointments, SMS text notifications, custom waiting rooms, and analytics.
+
+To learn more, see [Virtual Appointments with Teams and the Virtual Appointments app](/microsoft-365/frontline/virtual-appointments-app).
 
 ## Overview of the Virtual Appointments app
 
@@ -53,7 +55,7 @@ Get easy access to key actions and information. The Home page provides a quick v
 
 ![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
 
-Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
+Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing calendar or create a new one. To learn more, see [Set up a new booking calendar](/microsoft-365/frontline/virtual-appointments-app#set-up-a-new-booking-calendar).
 
 :::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Bookings schedule page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
@@ -65,7 +67,7 @@ View and monitor all scheduled and on-demand virtual appointments in the Booking
 
 From here, schedulers can add a new booking, view relevant appointment details, and see appointment statuses throughout the day. They can also send email reminders to assigned staff and attendees and send SMS text notifications to attendees for scheduled appointments. Staff can join appointments directly from the queue.
 
-To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/bookings-virtual-appointments#monitor-appointments-and-get-real-time-status-updates-in-the-queue-view).
+To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/virtual-appointments-app#monitor-appointments-and-get-real-time-status-updates-in-the-queue-view).
 
 :::image type="content" source="media/manage-virtual-appointments-app-queue.png" alt-text="Screenshot of the Queue page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-queue.png":::
 
