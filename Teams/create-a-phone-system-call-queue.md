@@ -133,7 +133,7 @@ If you don't have a resource account with an assigned phone number:
 
 After you've created this new resource account for calling ID, you'll still need to:
 
-- Assign a [Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
+- Assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
 - Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
