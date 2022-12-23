@@ -105,7 +105,7 @@ For more information, see [Manage Teams resource accounts](manage-resource-accou
 
 **Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard call queues.**
 
-You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
+Assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
 
 > [!NOTE]
 > The resource account used for calling ID purposes must have a **Microsoft Teams Phone Resource Account** license and one of the following assigned:
@@ -177,7 +177,7 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 You can add up to 200 agents via a Teams channel. You must be a member of the team or the creator or owner of the channel to add a channel to the queue.
 
-If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
+To [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
 
 1. Select the **Choose a team** radio button and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
@@ -230,9 +230,9 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > Setting **Conference mode** to **On** is the recommended setting.
 
 > [!NOTE]
-> Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
+> Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 >
-> Conference mode isn't supported if phone calls are routed to the queue from Skype for Business Server.
+> Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
 > 
 > Conference mode is required if Teams users need to consult/transfer calls with call queues.
 >
