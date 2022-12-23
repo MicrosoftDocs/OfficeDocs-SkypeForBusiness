@@ -75,14 +75,14 @@ Type a name for the call queue in the box at the top.
 
 To add an existing resource account:
 
-1. Under **Resource accounts**, click the **Add** button to add a resource account for this call queue.
+1. Under **Resource accounts**, select the **Add** button to add a resource account for this call queue.
 1. On the **Add accounts** pane, search for the resource account to add.
 1. Select the **Add** button next to the resource account you want to assign to this call queue.
 1. At the bottom of the pane, select the **Add** button.
 
 If you need to create a resource account:
 
-1. Under **Resource accounts**, click the **Add** button to add a resource account for this call queue.
+1. Under **Resource accounts**, select the **Add** button to add a resource account for this call queue.
 1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
 1. Select the **+ Add a resource account** button at the bottom of the results.
 1. On the **Add resource account** pane:
@@ -116,7 +116,7 @@ You can assign outbound caller ID numbers for the agents by specifying one or mo
 
 If you don't have a resource account with an assigned phone number:
 
-1. Under **Resource accounts**, click the **Add** button to add a resource account.
+1. Under **Resource accounts**, select the **Add** button to add a resource account.
 1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
 1. Select the **+ Add a resource account** button at the bottom of the results.
 1. On the **Add resource account** pane:
@@ -128,7 +128,7 @@ If you don't have a resource account with an assigned phone number:
 
 After you've created this new resource account for calling ID, you'll still need to:
 
-- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
+- Assign a [Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
 - Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
@@ -200,11 +200,11 @@ If you want to add individual users or groups to the queue:
 
 To **add a user** to the queue:
 
-1. Select **Add users**, search for the user, click **Add**, and then click **Add**.
+1. Select **Add users**, search for the user, select **Add**, and then select **Add**.
 
 To **add a group** to the queue:
 
-1. Select **Add groups**, search for the group, click **Add**, and then click **Add**. 
+1. Select **Add groups**, search for the group, select **Add**, and then select **Add**. 
     1. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
 
 > [!NOTE]
@@ -217,7 +217,7 @@ To **add a group** to the queue:
 **Conference mode** reduces the amount of time it takes for a caller to be connected to an agent after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
+- Microsoft Teams Phone System version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are using compatible clients.
 
@@ -395,7 +395,7 @@ The following settings are recommended:
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
 4. It's not possible to set the order the agents will be called in.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
-6. Microsoft Teams Phone only.
+6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
 - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
@@ -437,7 +437,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 ### Related articles
 
-[Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Microsoft Teams Phone System](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](getting-service-phone-numbers.md)
 
