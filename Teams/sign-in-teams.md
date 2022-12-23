@@ -1,5 +1,5 @@
 ---
-title: How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviours.
+title: How different technologies affect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviours.
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
-description: Learn how technologies like Single sign-on, and Modern Authentication effects your sign in behaviour on iOS, Android, macOS, and PC. How to use teams with many accounts, and restrict sign in. Includes how to tell Teams to ignore the pre-fill of the user's name (UPN) at sign-in.
+description: Learn how technologies like Single sign-on, and Modern Authentication affects your sign in behaviour on iOS, Android, macOS, and PC. How to use teams with many accounts, and restrict sign in. Includes how to tell Teams to ignore the pre-fill of the user's name (UPN) at sign-in.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection: 
@@ -19,9 +19,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# How different technologies effect Microsoft Teams sign-on
+# How different technologies affect Microsoft Teams sign-on
 
-If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) effect users' experience of sign-in, this article will help clarify what users and admins can expect to see. It also outlines the log-in behaviour for macOS, android, and iOS devices, how login works using multiple accounts, how to remove automatically filled credentials or 'pre-fill' at the login screen, and how to restrict sign-on.
+If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article will help clarify what users and admins can expect to see. It also outlines the log-in behaviour for macOS, android, and iOS devices, how login works using multiple accounts, how to remove automatically filled credentials or 'pre-fill' at the login screen, and how to restrict sign-on.
 
 Bookmark this article if your role involves knowing Microsoft Team's expected behaviours during login.
 
@@ -31,7 +31,7 @@ Microsoft recommends that organizations use recent versions of Windows 10 with e
 
 Microsoft Teams uses modern authentication to keep the sign-in experience simple and secure. To see how users sign in to Teams, read [Sign in to Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
-### How modern authentication (MA) effects your sign-in: what users will see when MA is on
+### How modern authentication (MA) affects your sign-in: what users will see when MA is on
 
 Modern authentication is part of a process that lets Teams know that users have already entered their credentials -- such as their work email and password -- elsewhere, and they shouldn't be required to enter them again to start the app. The experience varies depending on a couple factors, like if users are working in a Windows operating system, or on a Mac.
 
