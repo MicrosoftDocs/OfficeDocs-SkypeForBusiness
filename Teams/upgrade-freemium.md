@@ -95,10 +95,10 @@ This section describes the procedure for Microsoft Teams Free (classic) users to
 
 This section is classified into:
 
-- [Upgrade to Microsoft Teams Essentials](#upgrade-to-microsoft-teams-essentials)
+- [Upgrade to Microsoft Teams Essentials (AAD Identity)](#upgrade-to-microsoft-teams-essentials-aad-identity)
 - [Upgrade to Microsoft 365 Business subscriptions](#upgrade-to-microsoft-365-business-subscriptions)
 
-### Upgrade to Microsoft Teams Essentials
+### Upgrade to Microsoft Teams Essentials (AAD Identity)
 
 To upgrade to a subscription version such as Microsoft Team Essentials, perform the following steps:
 
