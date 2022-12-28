@@ -115,7 +115,7 @@ To access MCAS information for an app:
 
 1. Select the **Security and compliance** tab.
 
-   :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab.":::
+   :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab." lightbox="media/mcas.png":::
 
    To get more details on the supported capabilities for the app, select the dropdown list for each category.
 
