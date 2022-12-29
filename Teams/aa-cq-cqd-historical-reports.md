@@ -24,7 +24,7 @@ ms.custom:
 description: Learn about how to use the updated Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
-# Updated auto attendant and call queue historical reports
+# Auto attendant and call queue historical reports
 
 >[!NOTE]
 > GCC HIgh and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
