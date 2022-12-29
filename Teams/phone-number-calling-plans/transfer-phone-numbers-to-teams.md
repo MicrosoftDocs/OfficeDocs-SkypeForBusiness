@@ -65,7 +65,7 @@ Before you start, we recommend that you review the information in [What's a port
 5. On the **Add numbers** page, click **Select a file**, browse to and select the CSV file that contains the phone numbers that you want to transfer, and then click **Next**.  
 
     > [!NOTE]
-    > The CSV file must have only one column with a header named PhoneNumber. Each phone number must be on a separate row and can be digits only or in E.164 format.
+    > List the phone numbers you want to port in a CSV file that has one column with no header and one phone number per row in E.164 format.
 
 6. On the **Complete your order** page, click **Upload a signed Letter of Authorization** to upload a scanned copy of the signed Letter of Authorization (LOA).
 
