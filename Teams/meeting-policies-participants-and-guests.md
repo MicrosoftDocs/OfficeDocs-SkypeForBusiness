@@ -151,7 +151,7 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 This is a per-organizer policy. This setting turns the Questions & Answers experience (Q&A) on or off.
 
-The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](/manage-qna-for-teams).
+The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](manage-qna-for-teams.md).
 
 The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the Teams admin center.
 
