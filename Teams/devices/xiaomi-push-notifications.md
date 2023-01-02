@@ -33,13 +33,11 @@ To configure the Mi push in Xiaomi Android phones, perform the following steps:
 1. Install the Teams application.
 1. Sign in to Teams using your Office 365 account.
 1. Launch the **Setting** application.
-1. Select **Notifications & Control Center**.
-1. Select **App Notification**.
-1. Choose and select **Teams**.
+1. Select **Notifications & Control Center > App Notification > Teams**.
 1. Ensure all the options that enable display of notifications are checked.
-1. Scroll down to the bottom of this configuration page for Teams application, find for and select **Operational message**.
+1. Scroll down to the bottom of this configuration page for Teams application, find and select **Operational message**.
    > [!NOTE]
-   > You may not be able to find the **Operational message** in the configuration panel. Hence, perform the steps specificed in [Activate Operational message](#activate-operational-message).
+   > You may not be able to find the **Operational message** in the configuration panel. Hence, perform the steps specified in [Activate Operational message](#activate-operational-message).
 
 1. Enable all permissions associated with  the operational message.
 
@@ -58,7 +56,7 @@ There are several limitations in the solution that configures Mi push to Xiaomi 
 
 1. When Teams is not in the foreground, Teams message notification includes just the generic information such as **You have received a message**.
 1. The Teams Incoming call will have the notification message **Incoming call** only, unless you explicitly tap the incoming call notification to answer or reject the VOIP calls.
-1. Behavior in Xiaomi devices/series with different Android.MIUI versions may be different due to the native Android or MIUI’s handling logic on notification.
+1. Behavior in Xiaomi devices/series with different Android or MIUI versions may be different due to the native Android or MIUI’s handling logic on notification.
 1. After installing the new Teams client, you need to send several messages before you can see the operational message in your OS’ notification configuration panel for Teams.
 
    > [!NOTE]
