@@ -27,17 +27,19 @@ appliesto:
 > [!IMPORTANT]
 > You must upgrade from Microsoft Teams Free (classic) to a subscription version of Teams as Microsoft Teams Free (classic) will not be supported from April 12, 2023.
 
-If your organization is using Microsoft Teams Free (classic), you must upgrade to a subscription version such Microsoft Teams Essentials/Microsoft 365 Business subscriptions for your users, by purchasing these subscriptions.
+If your organization is using Microsoft Teams Free (classic), you must upgrade to a subscription version such as:
+- Microsoft Teams Essentials (AAD Identity version or non-AAD Identity version)
+- Microsoft 365 Business subscriptions for your users
 
 > [!NOTE]
-> To upgrade to Microsoft Teams Essentials, the Microsoft Team Free (classic) users must also have been using TFL which is readily available. These users can then upgrade from Microsoft Teams Essentials to Microsoft 365 Business subscriptions.
+> To upgrade to Microsoft Teams Essentials (AAD Identity/non-AAD Identity), the Microsoft Team Free (classic) users must also have been using TFL which is readily available. These users can then upgrade from Microsoft Teams Essentials to Microsoft 365 Business subscriptions.
 
 A Microsoft Teams Free (classic) user who isn't using TFL can directly upgrade to Microsoft 365 Business subscriptions. For more information, see [Upgrade Microsoft Teams Free (classic) to subscription versions](#upgrade-microsoft-teams-free-classic-to-subscription-versions).
 
-The subscription versions provide other Teams features — like audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide.
+The subscription versions provide other Teams features — audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide.
 
 > [!IMPORTANT]
-> The Microsoft Teams Essentials product which is included in the subscription versions referred to, here, is the AAD version; that is, Microsoft Teams Essentials (AAD Identity).
+> With reference to Microsoft Teams Essentials which is included in the subscription versions being referred to, only the Microsoft Teams Essentials (AAD Identity) provides these features and not Microsoft Teams Essentials (non-AAD Identity).
 
 Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
 
