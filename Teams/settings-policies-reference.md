@@ -140,15 +140,31 @@ Template policies control what team templates users see when they create a new t
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
 |Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
 
-##### PowerShell-only audio & video meeting policies
+#### PowerShell-only meeting policies
 
 | Parameter | Default | Description |
 |:-----|:-----|:-----|
+|-AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
+|-AllowCartCaptionsScheduling|DisabledUserOverride|This setting determines whether a user can add a URL for captions from a Communicatons Access Real-Time Translation (CART) captioner to provide real-time captions in meetings.|
+|-BlockedAnonymousJoinClientTypes|(empty list)|This setting allows users to join a Teams meeting anonymously using a Teams client or using a custom application built using Azure Communication Services. When anonymous meeting join is enabled, both types of clients may be used by default. This optional parameter can be used to block one of the client types that can be used. If both clients are specified, this will be equivalent to disabling anonymous join completely.|
+|-ChannelRecordingDownload|Allow|This setting controls how channel meeting recordings are saved, permissioned, and who can download them.|
+|-LiveInterpretationEnabledType|DisabledUserOverride|This setting allows meeting organizers to configure a meeting for language interpretation and select attendees to become interpreters that other attendees can select and listen to the real-time translation they provide.|
+|-|||
+|-|||
+|-|||
+|-|||
+|-|||
+|-|||
 
-##### Related topics
+##### Related topics to meeting policies
 
-- 
--  
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Manage meeting policies in Microsoft Teams](meeting-policies-overview.md)
+- [Meeting policy settings - Participants & guests](meeting-policies-participants-and-guests.md)
+- [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
+- [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md)
+- [Meeting policy settings for recording & transcription](meetings-policies-recording-and-transcription.md)
+- [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
 
 ### Live events policies
 
@@ -221,10 +237,10 @@ Template policies control what team templates users see when they create a new t
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|-AllowCallRedirect|||
-|-CallRecordingExpirationDays|60||
+|-AllowCallRedirect|None|This setting provides the ability to configure call redirection capabilities on Teams phones. When set to **Enabled** users will have the ability to redirect received calls.|
+|-CallRecordingExpirationDays|60|This setting controls the expiration of recorded 1:1 calls, measured in days.|
 
-#### Related topics
+#### Related topics to calling policies
 
 - 
 -  
