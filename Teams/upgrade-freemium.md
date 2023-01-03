@@ -27,7 +27,7 @@ appliesto:
 > [!IMPORTANT]
 > You must upgrade from Microsoft Teams Free (classic) to a subscription version of Teams as Microsoft Teams Free (classic) will not be supported from April 12, 2023.
 
-If your organization is using Microsoft Teams Free (classic), you must upgrade to a subscription version by purchasing a Microsoft Teams Essentials/Microsoft 365 Business subscriptions for your users.
+If your organization is using Microsoft Teams Free (classic), you must upgrade to a subscription version such Microsoft Teams Essentials/Microsoft 365 Business subscriptions for your users, by purchasing these subscriptions.
 
 > [!NOTE]
 > To upgrade to Microsoft Teams Essentials, the Microsoft Team Free (classic) users must also have been using TFL which is readily available. These users can then upgrade from Microsoft Teams Essentials to Microsoft 365 Business subscriptions.
@@ -57,7 +57,7 @@ Teams Free (classic) is designed for small to medium businesses and has the foll
 - Channel meetings
 - Screen sharing
 
-A Microsoft 365 or Office 365 plan provides the following features in addition to the features that Microsoft Teams Free (classic) provides:
+A Microsoft Teams Essentials plan (AAD Identity) or a Microsoft 365/Office 365 plan provides the following features in addition to the features that Microsoft Teams Free (classic) provides:
 
 - No user limit (with an enterprise license)
 - Exchange email hosting with customer email domain address
@@ -91,7 +91,7 @@ Keep the following limitations in mind:
 
 ## How do I upgrade my organization?
 
-This section describes the procedure for Microsoft Teams Free (classic) users to upgrade to higher subscriptions such as Microsoft Teams Essentials, Microsoft 365 Business (Basic/Standard).
+This section describes the procedure for Microsoft Teams Free (classic) users to upgrade to higher subscriptions such as Microsoft Teams Essentials, Microsoft 365 Business subscriptions.
 
 This section is classified into:
 
