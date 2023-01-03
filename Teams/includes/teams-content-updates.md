@@ -2,6 +2,23 @@
 
 
 
+## Week of December 26, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/27/2022 | [Teams sessions at Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | modified |
+
+
+## Week of December 19, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/19/2022 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
+| 12/21/2022 | [Virtual appointment meeting template in Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | added |
+
+
 ## Week of December 12, 2022
 
 
