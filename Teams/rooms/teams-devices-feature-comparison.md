@@ -1,5 +1,5 @@
 ---
-title: Teams Rooms for Windows and Android feature comparison
+title: Teams Rooms on Windows and Android feature comparison
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams Rooms for Windows and Android feature comparison
+# Teams Rooms on Windows and Android feature comparison
 
 Microsoft Teams Rooms experiences are designed with customers in mind. Every customer has unique needs, which is why Microsoft offers a breadth of options, including Teams Rooms on Windows and on Android. 
 
@@ -61,6 +61,7 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Wireless sharing                                                                                             | Available                                                                                                                                      | Available                                           |
 |                                          | Cast from mobile                                                                                             | Available                                                                                                                                      | Available                                           |
 |                                          | Video and content resolution: 1080p, 30 FPS                                                                  | Available                                                                                                                                      | Available                                           |
+|                                          | Pan tilt zoom (PTZ) control for cameras with mechanical PTZ controls                                         | Available                                                                                                                                      | Available                                           |
 |                                          | Meeting participants roster                                                                                  | Available                                                                                                                                      | Available                                           |
 |                                          | Cortana voice skills                                                                                         | Available                                                                                                                                      | Coming soon                                         |
 |                                          | Dual screen support                                                                                          | Available                                                                                                                                      | Available                                           |
@@ -82,4 +83,3 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Medium (6-12 people)                                                                                         | Available                                                                                                                                      | Available                                           |
 |                                          | Large (12-16 people)                                                                                         | Available                                                                                                                                      | Available                                           |
 |                                          | Multi-purpose room (16+ people)                                                                              | Available                                                                                                                                      | Not available                                       |
-

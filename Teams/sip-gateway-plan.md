@@ -59,7 +59,7 @@ If you have a 3PIP or SIP device, you must have:
 
 - A license for Microsoft Teams, Skype for Business Online Plan 2, and Microsoft 365 Phone System (via E5 or standalone licenses)
 - PSTN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
-- A Common Area Phone license for any common area devices
+- A **Microsoft Teams Shared Devices** license for any common area devices
 
 ## Compatible devices
 
