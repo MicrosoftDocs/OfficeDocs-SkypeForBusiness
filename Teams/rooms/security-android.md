@@ -27,7 +27,7 @@ Microsoft works with our OEM partners to deliver a solution that is secure by de
 > [!NOTE]
 > Microsoft Teams Android devices shouldn't be treated as a typical Android device. Teams Android devices are purpose-built appliances designed for use with Teams and their respective use cases. This article applies to certified and dedicated Microsoft Teams devices running the Android operating system only. Teams certified devices can only be purchased from certified OEM vendors. For information about Microsoft Teams certified Android devices, see [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
 
-For information about security on Teams Rooms for Windows devices, see [Microsoft Teams Rooms for Windows security](security-windows.md).
+For information about security on Teams Rooms on Windows devices, see [Microsoft Teams Rooms on Windows security](security-windows.md).
 
 ## Software security
 
@@ -122,7 +122,7 @@ Teams Android devices don't need to connect to an internal LAN. Consider placing
 
 We strongly recommend that you connect your Teams Android devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience.
 
-Proximity Join, Better Together, Teams Cast, and pairing of Teams panels rely on Bluetooth. Bluetooth technology use on Teams Rooms for Android devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for non-connectable devices advertising information to the listening device. There is no Bluetooth device pairing as part of these features. Additional details on Bluetooth protocols can be found on the Bluetooth SIG website.
+Proximity Join, Better Together, Teams Cast, and pairing of Teams panels rely on Bluetooth. Bluetooth technology use on Teams Rooms on Android devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for non-connectable devices advertising information to the listening device. There is no Bluetooth device pairing as part of these features. Additional details on Bluetooth protocols can be found on the Bluetooth SIG website.
 
 Teams Phones and Displays offers Bluetooth pairing capability to pair with headsets using the Bluetooth Hands-Free Profile.
 
