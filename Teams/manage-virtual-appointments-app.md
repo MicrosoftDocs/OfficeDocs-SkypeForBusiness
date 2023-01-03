@@ -29,7 +29,7 @@ You can schedule, view, and manage virtual appointments, get real-time status up
 
 With any Microsoft 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) unlocks advanced Virtual Appointments capabilities that your organization can use to manage and personalize the experience. These include a queue view of scheduled and on-demand appointments, SMS text notifications, custom waiting rooms, and analytics.
 
-To learn more about how to use the app, see [Virtual Appointments with Teams and the Virtual Appointments app](/microsoft-365/frontline/virtual-appointments-app).
+To learn more, see [Use the Virtual Appointments app in Teams](/microsoft-365/frontline/virtual-appointments-app).
 
 ## Overview of the Virtual Appointments app
 
