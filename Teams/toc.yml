@@ -360,6 +360,14 @@ items:
           items: 
             - name: Manage external meetings and chat
               href: manage-external-access.md
+            - name: Manage trusted organizations
+              href: trusted-organizations-meetings-chat.md
+            - name: Users not managed by an organization
+              href: skype-extended-directory-access.md
+            - name: Limit to specific users
+              href: limit-external-meetings-chat-to-specific-users.md
+            - name: Hybrid
+              href: external-meetings-skype-for-business-server-hybrid.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
