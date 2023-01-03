@@ -32,7 +32,6 @@ This article describes the following general policy settings for Teams meetings:
 - [Outlook add-in](#outlook-add-in)
 - [Channel meeting scheduling](#channel-meeting-scheduling)
 - [Private meeting scheduling](#private-meeting-scheduling)
-- [Designated presenter role mode](#designated-presenter-role-mode)
 - [Engagement report](#engagement-report)
 - [Meeting registration](#meeting-registration)
 - [Webinars](#webinars)
