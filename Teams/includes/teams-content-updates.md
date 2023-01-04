@@ -2,6 +2,14 @@
 
 
 
+## Week of December 26, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/27/2022 | [Teams sessions at Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | modified |
+
+
 ## Week of December 19, 2022
 
 
