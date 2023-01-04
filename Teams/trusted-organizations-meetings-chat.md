@@ -95,7 +95,7 @@ The following table shows the cmdlet parameters used for configuring trusted org
 
 |Configuration|Parameter|
 |:-------|:--------|
-|Enable/disable meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|
+|Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|
 |Specify allowed domains|`-AllowedDomains`|
 |Specify blocked domains|`-BlockedDomains`|
 

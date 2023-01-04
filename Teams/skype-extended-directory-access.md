@@ -72,9 +72,9 @@ The following table shows the cmdlet parameters used for configuring chat with S
 
 |Configuration|Parameter|
 |:-------|:--------|
-|Enable/disable chat with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|
-|Enable/disable Teams users not managed by an organization initiating conversations|`-AllowTeamsConsumerInbound`|
-|Enable/disable chat with Skype users|`-AllowPublicUsers`|
+|Allow or prevent chat with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|
+|Allow or prevent Teams users not managed by an organization starting conversations|`-AllowTeamsConsumerInbound`|
+|Allow or prevent chat with Skype users|`-AllowPublicUsers`|
 
 Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 

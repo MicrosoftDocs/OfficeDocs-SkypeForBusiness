@@ -27,25 +27,25 @@ description: "Learn how to specify which users in your organization can engage i
 
 If you've enabled [chat and meetings with trusted organizations](trusted-organizations-meetings-chat.md) or [chat with people not managed by an organization](skype-extended-directory-access.md), you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy.
 
-These settings are configured by using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet.
+External access policies are configured by using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet.
 
 The following table shows the cmdlet parameters used for configuring who can chat and meet with people outside your organization.
 
 |Configuration|Parameter|
 |:-------|:--------|
-|Enable/disable meetings and chat with other Teams organizations and Skype for Business|`-EnableFederationAccess`|
-|Enable/disable chat with Teams users that are not managed by an organization|`-EnableTeamsConsumerAccess`|
-|Enable/disable Teams users not managed by an organization initiating conversations|`-EnableTeamsConsumerInbound`|
-|Enable/disable chat with Skype users|`-EnablePublicCloudAccess`|
+|Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-EnableFederationAccess`|
+|Allow or prevent chat with Teams users that are not managed by an organization|`-EnableTeamsConsumerAccess`|
+|Allow or prevent Teams users not managed by an organization starting conversations|`-EnableTeamsConsumerInbound`|
+|Allow or prevent chat with Skype users|`-EnablePublicCloudAccess`|
 
 To limit external meetings and chat to specific users, you must:
 - Turn off the control for the default global policy.
-- Create a new policy with the control on, and assign the appropriate users to it.
+- Create a new policy with the control turned on, and assign the appropriate users to it.
 
 > [!NOTE]
-> People who have been disabled from meeting with people outside the organization can still meet with those people if they join as guests or anonymous users (if guest sharing or anonymous join are enabled).
+> People for whom external meetings have been turned off can still meet with people outside the organization if those people join as guests or anonymous users (if guest sharing or anonymous join are enabled).
 
-You can use the following example script, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
+You can use the following example script, substituting *parameter* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
 Be sure you have installed the [Microsoft Teams PowerShell Module](/microsoftteams/teams-powershell-install) before running the script.
 
@@ -53,10 +53,10 @@ Be sure you have installed the [Microsoft Teams PowerShell Module](/microsofttea
 Connect-MicrosoftTeams
 
 # Disable external access globally
-Set-CsExternalAccessPolicy -<Control> $false
+Set-CsExternalAccessPolicy -<parameter> $false
 
 # Create a new external access policy
-New-CsExternalAccessPolicy -Identity <PolicyName> -<Control> $true
+New-CsExternalAccessPolicy -Identity <PolicyName> -<parameter> $true
 
 # Assign users to the policy
 $users_ids = @("<UserName1>", "<UserName2>")
@@ -64,7 +64,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 ```
 
-For example, enable communications with external Teams users not managed by an organization:
+For example, to enable communications with external Teams users not managed by an organization:
 
 ```PowerShell
 Connect-MicrosoftTeams
@@ -78,13 +78,14 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 ```
 
-See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for additional examples of how to compile a user list.
-
 You can see the new policy by running `Get-CsExternalAccessPolicy`.
 
-See also [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) and [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
-
+See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for additional examples of how to compile a user list.
 
 ## Related topics
 
 [Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
+
+[New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
+
+[Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
