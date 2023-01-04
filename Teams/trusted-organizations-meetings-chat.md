@@ -20,14 +20,14 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: normal
-description: 
+description: "For IT admins: Learn how to chat and meet with people in other Microsoft 365 organizations."
 ---
 
 # Configure trusted organizations for external meetings and chat
 
-You can configure meetings and chat with people in other organizations using the *external access* feature in Teams. External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams.
+You can configure meetings and chat with people in other organizations by using the *external access* feature in Teams. External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams.
 
-This article covers how to manage external meetings and chat with people in other Microsoft 365 and Azure Active Directory organizations. If you are using Skype for Business hybrid, see [Configure external meetings and chat with Skype for Business Server hybrid](external-meetings-skype-for-business-server-hybrid.md). For information about managing chat and meetings with people who are not managed by an organization, see [Manage external meetings and chat with Teams for Life, Skype, and extended directory](skype-extended-directory-access.md).
+This article covers how to manage external meetings and chat with people in other Microsoft 365 organizations. If you are using Skype for Business hybrid, see [Configure external meetings and chat with Skype for Business Server hybrid](external-meetings-skype-for-business-server-hybrid.md). For information about managing chat and meetings with people who are not managed by an organization, see [Manage external meetings and chat with people not managed by an organization](skype-extended-directory-access.md).
 
 People from trusted organizations can chat and meet with people in your organization, but they won't have access to your teams, sites, or other Microsoft 365 resources. If you want people from other organizations to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect). 
 
@@ -106,3 +106,4 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 ## Related topics
 
+[Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
