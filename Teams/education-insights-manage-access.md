@@ -44,7 +44,7 @@ To provide organization-level Insights, you must [import data from the Student I
 > Only provide permission to those education leaders that need them and only to the organizational units they are responsible for. If you are unsure whether user permission for a specific organization is required, consult your institution's privacy subject matter experts, such as legal or HR personnel.
 
 > [!IMPORTANT]
-> After assigning permissions for the first time, users will be able to view the data within the app only if at least **two** users have accessed the app. This requirement helps to ensure that the time zone for the data is configured correctly and the data is displayed accurately for all users. If users are experiencing issues accessing the data after permissions have been granted, please check if at least two users have accessed the app.
+> After assigning permissions for the first time, users will be able to view the data within the app only if at least **two** users have accessed the app. This requirement helps to ensure that the time zone for the data is configured correctly and the data is displayed accurately for all users. If users are experiencing issues accessing the data after permissions have been granted, check if at least two users have accessed the app.
 
 ## Role-based permissions
 
