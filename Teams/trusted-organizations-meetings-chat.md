@@ -29,7 +29,7 @@ You can configure meetings and chat with people in other organizations by using 
 
 This article covers how to manage external meetings and chat with people in other Microsoft 365 organizations. If you are using Skype for Business hybrid, see [Configure external meetings and chat with Skype for Business Server hybrid](external-meetings-skype-for-business-server-hybrid.md). For information about managing chat and meetings with people who are not managed by an organization, see [Manage external meetings and chat with people not managed by an organization](skype-extended-directory-access.md).
 
-People from trusted organizations can chat and meet with people in your organization, but they won't have access to your teams, sites, or other Microsoft 365 resources. If you want people from other organizations to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect). 
+With external access, people from trusted organizations can chat and meet with people in your organization, but they won't have access to your teams, sites, or other Microsoft 365 resources. If you want people from other organizations to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect). 
 
 If you want to limit external meetings and chat to specific users in your organization, see [Limit external meetings and chat to specific users](limit-external-meetings-chat-to-specific-users.md).
 
@@ -86,6 +86,20 @@ To block specific domains
 5. If you want to block another domain, click **Add a domain**.
 
 6. Click **Save**.
+
+## Configure trusted organizations by using PowerShell
+
+Trusted organizations can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
+
+The following table shows the cmdlet parameters used for configuring trusted organizations.
+
+|Configuration|Parameter|
+|:-------|:--------|
+|Enable/disable meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|
+|Specify allowed domains|`-AllowedDomains`|
+|Specify blocked domains|`-BlockedDomains`|
+
+Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 ## Skype for Business Online
 
