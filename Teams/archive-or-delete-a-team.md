@@ -15,6 +15,7 @@ f1.keywords:
 ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 ms.collection:
   - M365-collaboration
 appliesto:

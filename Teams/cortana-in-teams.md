@@ -12,6 +12,7 @@ description: Learn how to use Cortana voice assistance with Teams
 ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
+- chat-teams-channels-revamp
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -58,17 +59,11 @@ This example shows updating an existing policy with name "EmployeeCortanaPolicy"
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
 ```
 
-This example shows updating the policy and enabling Cortana voice assistance with both push button and wake word invocation.
+This example shows updating the policy and enabling Cortana voice assistance with both push button and wake word invocation. (Wake word activation is supported for Microsoft 365 Enterprise users in the US for The Teams mobile app, Microsoft Teams Rooms on Windows, and Microsoft Teams Display that have their language set to English.)
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode WakeWordPushToTalkUserOverride
 ```
-
-At the time, of the initial release for Microsoft 365 Enterprise users in the US in English, the following are available functions:
-
-- The Teams mobile app won't support wake word activation, but it will be supported in the future.
-
-- Microsoft Teams Rooms on Windows and Microsoft Teams display devices will support wake word activation.
 
 ## User control
 
@@ -93,7 +88,7 @@ At the device level, you can configure Cortana to be used in two different ways.
 - By tapping on a microphone, which is called Cortana _Push to talk_
 - By saying "Hey, Cortana", which is called _Cortana Voice Activation_
 
-Cortana _Push to talk_ is enabled by default if your room is set up with any of the following languages: en-au (Australia), en-ca (Canada), en-gb (United Kingdom), en-in (India), en-us (United States). [Learn More.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana icon will displace the _Present_ button under the _More..._ menu in your Teams Room console. To disable Cortana _Push to talk_ use PowerShell.[Learn More.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+Cortana _Push to talk_ is enabled by default if your room is set up with any of the following languages: en-au (Australia), en-ca (Canada), en-gb (United Kingdom), en-in (India), en-us (United States). [Learn More.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana icon will displace the _Present_ button under the _More..._ menu in your Teams Room console. To disable Cortana _Push to talk_ use PowerShell.[Learn More.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1&preserve-view=true)
 
 To enable Cortana _Voice Activation_, these conditions must be met:
 

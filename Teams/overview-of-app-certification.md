@@ -19,9 +19,9 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Find Teams apps that undergo Microsoft 365 app compliance program for security, compliance, and privacy
+# Know about apps that undergo app compliance program for security, data handling, and privacy
 
-Microsoft compliance program checks and audits an app against controls that are derived from leading industry-standard frameworks. The program demonstrates that strong security and compliance practices are in place to protect customer data. The program has the following phases:
+Microsoft 365 app compliance program checks and audits an app against controls that are derived from leading industry-standard frameworks. The program demonstrates that strong security and compliance practices are in place to protect customer data. The program has the following phases:
 
 * [Publisher verification](#publisher-verification).
 * [Publisher attestation](#publisher-attestation).
@@ -115,7 +115,7 @@ To access MCAS information for an app:
 
 1. Select the **Security and compliance** tab.
 
-   :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab.":::
+   :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab." lightbox="media/mcas.png":::
 
    To get more details on the supported capabilities for the app, select the dropdown list for each category.
 
