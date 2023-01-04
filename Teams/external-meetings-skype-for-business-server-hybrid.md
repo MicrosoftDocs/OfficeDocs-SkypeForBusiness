@@ -28,7 +28,7 @@ description: Learn how to configure Skype for Business Server for external chat 
 If you're using Skype for Business Server by itself or in a hybrid configuration with Teams in Microsoft 365, you can configure chat and meetings with people in other Microsoft 365 organizations and with Skype users.
 
 > [!NOTE]
-> Chat with unmanaged Teams users is not supported for on-premises only organizations.
+> Chat with unmanaged Teams users is not supported for on-premises only organizations. To configure this for Teams in Microsoft 365, see [Manage external meetings and chat with people not managed by an organization](skype-extended-directory-access.md).
 
 ## Configure external meetings and chat with other Microsoft 365 organizations
 
