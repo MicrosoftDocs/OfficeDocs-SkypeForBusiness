@@ -34,7 +34,7 @@ If you want to configure meetings and chat with people from other Microsoft 365 
 
 ## Manage chat with external Teams users not managed by an organization
 
-You can choose to enable or disable communications with external unmanaged Teams users (those not managed by an organization). If enabled, you can also control if people with unmanaged Teams accounts can start chats with people in your organization.
+You can choose to enable or disable communications with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If enabled, you can also control if people with unmanaged Teams accounts can start chats with people in your organization.
 
 To allow chat with unmanaged Teams accounts
 1. In the Teams admin center, go to **Users** > **External access**.
@@ -42,14 +42,14 @@ To allow chat with unmanaged Teams accounts
 1. If you want to allow external users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 1. Select **Save**.
 
-Note that if **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
+![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
+
+Note that if **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search by email address to find people in your organization. All communications with unmanaged Teams users must be initiated by people in your organization.
 
 To prevent chat with unmanaged Teams accounts
 1. In the Teams admin center, go to **Users** > **External access**.
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 1. Select **Save**.
-
-![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
 ## Manage chat and calls with Skype users
 
@@ -68,9 +68,7 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 Chat with Teams users not managed by an organization and Skype users can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
 
-Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
-
-The following table shows the cmdlet parameters used for configuring federation.
+The following table shows the cmdlet parameters used for configuring chat with Skype and unmanaged Teams users.
 
 |Configuration|Parameter|
 |:-------|:--------|
