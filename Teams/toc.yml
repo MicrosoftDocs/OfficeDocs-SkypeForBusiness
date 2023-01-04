@@ -366,7 +366,7 @@ items:
               href: skype-extended-directory-access.md
             - name: Limit to specific users
               href: limit-external-meetings-chat-to-specific-users.md
-            - name: Hybrid
+            - name: Skype for Business Server
               href: external-meetings-skype-for-business-server-hybrid.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
