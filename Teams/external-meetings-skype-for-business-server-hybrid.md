@@ -1,5 +1,5 @@
 ---
-title: Configure external meetings and chat with Skype for Business Server hybrid
+title: Configure external meetings and chat with Skype for Business Server
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,37 +20,35 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: normal
-description: 
+description: Learn how to configure Skype for Business Server for external chat and meetings with other Microsoft 365 organizations and external chat and calls with Skype users.
 ---
 
-# Configure external meetings and chat with Skype for Business Server hybrid
+# Configure external meetings and chat with Skype for Business Server
 
-You can configure external meetings and chat in Teams using the *external access* feature. External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype.
+If you're using Skype for Business Server by itself or in a hybrid configuration with Teams in Microsoft 365, you can configure chat and meetings with people in other Microsoft 365 organizations and with Skype users.
 
-If you want people from other organizations to have access to your teams and channels, use guest access instead. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+> [!NOTE]
+> Chat with unmanaged Teams users is not supported for on-premises only organizations.
 
+## Configure external meetings and chat with other Microsoft 365 organizations
 
-To enable users in your organization to communicate with users in another organization, both organizations must enable federation. The steps to enable federation for a given organization depend on whether the organization is purely online, hybrid, or purely on-premises.
+To allow chatting and meetings with other Microsoft 365 organizations, configure your Skype for Business Server environment as follows:
+- Ensure federation is enabled in `CsAccessEdgeConfiguration`.
+- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy).
+- If you are not using open federation, ensure the target domain is listed in `AllowedDomains`.
 
-| If your organization is | Enable federation as follows |
-|:---------|:-----------------------|
-|On-premises only| In on-premises tools: <br>- Ensure federation is enabled in `CsAccessEdgeConfiguration`.<br>- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in `AllowedDomains`.|
-|Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both online and on-premises organizations. |
+If you are using Microsoft 365 with Skype for Business Server in a hybrid configuration, configure external meetings and chat in Microsoft 365 as described in [Configure trusted organizations for external meetings and chat](trusted-organizations-meetings-chat.md). Note that organizations that you're communicating with must also trust your organization.
 
+## Configure external chat and calling with Skype users
 
-## Federation Diagnostic Tool
+To allow chatting and calls with Skype users, configure your Skype for Business Server environment as follows:
+- Ensure Skype is enabled as a federated partner.
+- Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).
 
-If you're an administrator, you can use the following diagnostic tool to validate a Teams user can communicate with a federated Teams user:
-
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
-
-   > [!div class="nextstepaction"]
-   > [Run Tests: Teams Federation](https://aka.ms/TeamsFederationDiag)
-
-2. In the Run diagnostic pane, enter the **Session Initiation Protocol (SIP) Address** and the **Federated tenant's domain name**, and then select **Run Tests**.
-
-3. The tests will return the best next steps to address any tenant or policy configurations that are preventing communication with the federated user.
-
+If you are using Microsoft 365 with Skype for Business Server in a hybrid configuration, configure external chat and calling with Skype users in Microsoft 365 as described in [Manage external meetings and chat with people not managed by an organization](skype-extended-directory-access.md#manage-chat-and-calls-with-skype-users).
 
 ## Related topics
 
+[Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)
+
+[Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
