@@ -59,7 +59,7 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ## SMS text notifications
 
-![Information icon](media/info.png) **This feature is moving to [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**\
+![Information icon](media/info.png) **This feature is moving to [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
 
 > [!NOTE]
 > We'll be providing unlimited SMS notifications through January 31, 2023 (previously November 30, 2022) for customers with Bookings licenses. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.
