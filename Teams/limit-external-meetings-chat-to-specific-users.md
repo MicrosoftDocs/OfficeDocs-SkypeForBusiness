@@ -32,6 +32,33 @@ If you've enabled any of the external access controls at an organization level, 
 
 You can use the following example script, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
+
+### Using PowerShell
+
+Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
+
+The following table shows the cmdlet parameters used for configuring federation.
+
+|Configuration|Organization level (Set-CSTenantFederationConfiguration)|User level (Set-CsExternalAccessPolicy)|
+|:-------|:--------|:------------------|
+|Enable/disable meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
+|Specify allowed domains|`-AllowedDomains`|Not available|
+|Specify blocked domains|`-BlockedDomains`|Not available|
+|Enable/disable chat with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
+|Enable/disable Teams users not managed by an organization initiating conversations|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
+|Enable/disable chat with Skype users|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
+
+It's important to note that disabling a policy "rolls down" from tenant to users. For example:
+
+```PowerShell
+Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
+Set-CsExternalAccessPolicy -EnableFederationAccess $true
+```
+
+In this example, although the user level policy is enabled, users would not be able to communicate with managed Teams users or Skype for Business users because this type of federation was turned off at the organization level. Therefore, if you want to enable these controls for a subset of users you must turn on the control at an organization level and create two group policies – one that applies to the users that should have the control turned off, and one that applies to the users that should have the control turned on.
+
+
+
 Be sure you have installed the [Microsoft Teams PowerShell Module](/microsoftteams/teams-powershell-install) before running the script.
 
 ```PowerShell
