@@ -163,9 +163,9 @@ Before you can purchase Teams Premium licenses for your users, ensure that your 
 
 The **tenant requirement** is:
 
-- Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant.
+- Must be a commercial, worldwide public sector, EDU, or non-profit tenant.
   - At general release, Microsoft won’t offer an EDU-specific license or EDU discounts for Teams Premium.
-  - GCC High and DoD tenants won’t be able to purchase Teams Premium licenses at general release.
+  - GCC, GCC High, and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
 
