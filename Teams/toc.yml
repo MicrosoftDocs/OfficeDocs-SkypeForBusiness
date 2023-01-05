@@ -1538,6 +1538,8 @@ items:
           href: devices/device-store.md
         - name: Deploy
           items:
+            - name: Configure notifications for Mi push
+              href: devices/xiaomi-push-notifications.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: Set up common area phones
