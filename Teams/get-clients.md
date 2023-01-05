@@ -200,7 +200,8 @@ If you're in China, you can install Teams from the following app stores:
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
 
 > [!NOTE]
-> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
+> When users install Teams from one of the China-based Android app stores and enables push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
+>Currently, Microsoft supports push notifications in Xiaomi phones. Hence, you must enable the push notifications in the Xiaomi phones. For information on how do it, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone). 
 
 ## Browser client
 
