@@ -72,12 +72,6 @@ You can also do this by using Windows PowerShell, and, currently, GCC High and D
 
 If you created a custom live events policy, assign it to users for the policy to be active. <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
-### Enable users to schedule events that were produced with an external app or device
-
-For users to schedule events produced with an external app or device, you must also do the following steps:
-
-For external events, please review [Live streaming events in Microsoft Teams](../teams-stream-overview.md).
-
 ## Step 4: Set up a video distribution solution for live events in Teams
 
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, Microsoft offers a first-party solution, [Microsoft eCDN](/ecdn) (enterprise content delivery network). Live events solutions are also integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or eCDNs. These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end-user viewing experiences. These solutions can help enable a more scalable and efficient video distribution across your enterprise network.
@@ -94,7 +88,7 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 
 - **Kollective** is a cloud-based, smart-peering distribution platform that leverages your existing network infrastructure to deliver content in many forms (live streaming video, on-demand video, software updates, security patches, and more) faster, more reliably, and with less bandwidth. Our secure platform is trusted by the world's largest financial institutions and with no additional hardware, setup and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
 
-- **Ramp** provides a universal eCDN solution for secure and flawless video delivery. Trusted by the top financial, healthcare, and government institutions, Ramp deploys on-prem, in the cloud, or hybrid and is perfect for Zero Trust environments. Our universal license includes all three eCDN delivery methods (P2P, Multicast, and Cache), ensuring your live streaming and on-demand video is delivered at the highest quality with the lowest bandwidth impact to protect business-critical applications that share the corporate network. [Learn more](https://rampecdn.com/).
+- **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for live events produced in Teams is coming soon. [Learn more](https://rampecdn.com).
 
 - **Riverbed**, the industry standard in network optimization, is extending its acceleration solutions to Microsoft Teams. Now Microsoft 365 customers can confidently accelerate 365 traffic including Teams along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
 
