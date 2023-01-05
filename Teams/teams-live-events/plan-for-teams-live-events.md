@@ -102,35 +102,35 @@ The following table highlights core capabilities and features offered in live ev
 >
 > Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
-| Capability | Skype Meeting Broadcast | Events produced in Teams | Events produced in external app or device |
-|---------|---------|---------|---------|
-|Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
-|Maximum duration of live event |4 hours |4 hours |4 hours |
-|Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Maximum number of concurrent live events per Microsoft 365 or Office 365 organization |15  | 15  | 15  |
-|Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
-|Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
-|Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
-|Producer client on Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Producer client on Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Attendee count in Producer UI |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Allows multiple presenters |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-|Invite a presenter during the meeting |&#x2714; (Skype for Business) |&#x274C; |N/A |
-|Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |&#x274C; |N/A |
-|External access (federation) & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
-|Presenter – PSTN access |&#x274C; |&#x2714; (Teams) |N/A |
-|Present a screen |&#x274C; |&#x2714; (Teams) |N/A |
-|Share system audio on Windows (available only when screen sharing)|&#x274C; |&#x2714; (Teams) |&#x2714; |
-|Present a PowerPoint (PPT sharing) |&#x2714; |&#x274C; (mitigated via screen sharing) |N/A |
-|Cloud based meeting recording |&#x2714; |&#x2714; |&#x2714; |
-|Auto publish recording to Stream |&#x274C; |&#x274C; |&#x2714; |
-|Live captions and subtitles |&#x2714; |&#x2714; |&#x274C; |
-|Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
-|Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
-|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
-|Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |&#x274C; |
-|Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
+| Capability | Events produced in Teams | Events produced in external app or device |
+|---------|---------|---------|
+|Maximum audience size |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
+|Maximum duration of live event |4 hours |4 hours |
+|Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |
+|Maximum number of concurrent live events per Microsoft 365 or Office 365 organization | 15  | 15  |
+|Live event creation |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
+|Audience engagement – Yammer |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
+|Audience engagement – Moderated Q & A |&#x2714; |&#x2714; |
+|Producer client on Windows |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Producer client on Mac |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Attendee count in Producer UI |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Allows multiple presenters |&#x2714; (Teams) |N/A  |
+|Invite a presenter during the meeting |&#x274C; |N/A |
+|Presenter join on Web and Mobile |&#x274C; |N/A |
+|External access (federation) & Guest presenters/attendees |&#x2714; (Teams) |N/A |
+|Presenter – PSTN access |&#x2714; (Teams) |N/A |
+|Present a screen |&#x2714; (Teams) |N/A |
+|Share system audio on Windows (available only when screen sharing)|&#x2714; (Teams) |&#x2714; |
+|Present a PowerPoint (PPT sharing) |&#x274C; (mitigated via screen sharing) |N/A |
+|Cloud based meeting recording |&#x2714; |&#x2714; |
+|Auto publish recording to Stream |&#x274C; |&#x2714; |
+|Live captions and subtitles |&#x2714; |&#x274C; |
+|Captions in live event recordings |&#x2714; |&#x2714; |
+|Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |
+|Microsoft eCDN |&#x2714; |&#x2714; |
+|Partner eCDN Support |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|Post-broadcast attendance report for Producers |&#x2714; |&#x274C; |
+|Audience Sentiment Analysis – Live voting & polls |&#x274C; |&#x274C; |
 
 <sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> You can have up to 100 presenters and producers in a live event, but only the last 10 who spoke show up in the list.
