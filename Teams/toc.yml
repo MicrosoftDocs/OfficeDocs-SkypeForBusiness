@@ -1874,8 +1874,6 @@ items:
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
-        - name: Enhance existing Microsoft 365 groups with Teams
-          href: enhance-office-365-groups.md
         - name: How Exchange and Teams interact
           items:
             - name: How Exchange and Teams interact
