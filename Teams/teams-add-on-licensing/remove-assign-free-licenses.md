@@ -55,7 +55,18 @@ If your organization has few users assigned the **Teams Free (Classic)** license
 1. Select the **Communication and collaboration** category filter to see Teams licenses.
 1. Choose the paid Teams license you would like to replace **Teams Free (Classic)**.
     1. We recommend the [**Teams Essentials** license](https://admin.microsoft.com/adminportal/home#/catalog/offer-details/microsoft-teams-essentials-aad-identity-/2D7C59AC-F814-43E0-8E8E-E4EA91A09CAF), which is available up to 300 seats.
-    1. If you need more than 300 seats, we recommend purchasing Microsoft 365 Business or Enterprise licenses.
+    1. If you need more than 300 seats, we recommend purchasing [Microsoft 365 E1 licenses](https://admin.microsoft.com/Adminportal/Home#/catalog/offer-details/office-365-e1/CF4A479A-2119-4EF2-83D1-37CF8460EADA).
+1. Enter in the number of licenses you would like to purchase, and then choose a billing frequency.
+1. Select the **Buy** button to complete the purchasing process.
+
+#### Purchase licenses in the admin center Marketplace
+
+Some tenants have access to the Microsoft 365 admin center Marketplace. For these tenants, you will purchase licenses in the Marketplace.
+
+1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), select **Marketplace** from the left-side menu.
+1. Select the **All products** tab.
+1. Select the **Communication and collaboration** category filter to see Teams licenses.
+1. Choose the paid Teams license you would like to replace **Teams Free (Classic)**.
 1. Enter in the number of licenses you would like to purchase, and then choose a billing frequency.
 1. Select the **Buy** button to complete the purchasing process.
 
