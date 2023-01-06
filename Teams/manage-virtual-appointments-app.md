@@ -45,7 +45,7 @@ Here's an overview of what's on each tab.
 
 ### Home
 
-![Information icon](media/info.png) **The Queue and Analytics tiles are part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
+![Information icon](media/info.png) **The Queue and Analytics tiles require [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 Get easy access to key actions and information. The Home page provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
@@ -53,7 +53,7 @@ Get easy access to key actions and information. The Home page provides a quick v
 
 ### Bookings schedule
 
-![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
+![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing calendar or create a new one. To learn more, see [Set up a new booking calendar](/microsoft-365/frontline/virtual-appointments-app#set-up-a-new-booking-calendar).
 
@@ -61,7 +61,7 @@ Access your Bookings calendar to schedule virtual appointments such as healthcar
 
 ### Queue
 
-![Information icon](media/info.png) **The scheduled queue view and SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md). Users can continue using these features during the preview period. After the preview, users need a Teams Premium license. To access the on-demand queue during the preview period, users need a Teams Premium trial license.**
+![Information icon](media/info.png) **This feature requires [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 View and monitor all scheduled and on-demand virtual appointments in the Bookings calendar that you pinned, with updates in real time.
 
@@ -73,6 +73,8 @@ To learn more, see [Monitor appointments and get real-time status updates](/micr
 
 ### Analytics
 
+![Information icon](media/info.png) **This feature requires [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
+
 Get insight into usage activity and trends to help optimize Virtual Appointments and deliver better business outcomes.
 
 The Teams Virtual Appointments usage report gives admins, decision makers, and users an overview of virtual appointments activity in your organization. The report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows.
@@ -83,8 +85,6 @@ The analytics experience depends on user role. Admins get [organizational analyt
 
 #### Organizational analytics
 
-![Information icon](media/info.png) **This feature is available as part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md). After the preview period, a Teams Premium license is required.**
-
 Admins see an org-level report that shows aggregated analytics across all departments within your organization.
 
 :::image type="content" source="media/manage-virtual-appointments-app-analytics-org.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for admins." lightbox="media/manage-virtual-appointments-app-analytics-org.png":::
@@ -92,8 +92,6 @@ Admins see an org-level report that shows aggregated analytics across all depart
 To learn more, see [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 #### Departmental and individual analytics
-
-![Information icon](media/info.png) **To access this feature during the preview period, users need a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) trial license.**
 
 Non-admins see a department-level report that provides data for the given department.
 
