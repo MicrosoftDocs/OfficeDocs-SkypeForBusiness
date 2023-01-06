@@ -654,8 +654,6 @@ items:
                   href: create-custom-meeting-template.md
                 - name: Manage meeting templates
                   href: manage-meeting-templates.md
-            - name: Virtual appointment meeting template
-              href: virtual-appointment-meeting-template.md
             - name: Use templates, labels, and policies together
               href: meeting-templates-sensitivity-labels-policies.md
         - name: Manage who can start and schedule meetings
@@ -680,6 +678,8 @@ items:
               href: custom-meeting-backgrounds.md
             - name: Meeting themes
               href: meeting-themes.md
+            - name: Virtual appointment meeting template
+              href: virtual-appointment-meeting-template.md
             - name: Teams meeting recording
               href: cloud-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
@@ -1874,8 +1874,6 @@ items:
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
-        - name: Enhance existing Microsoft 365 groups with Teams
-          href: enhance-office-365-groups.md
         - name: How Exchange and Teams interact
           items:
             - name: How Exchange and Teams interact
