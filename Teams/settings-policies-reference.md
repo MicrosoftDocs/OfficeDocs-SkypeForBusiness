@@ -22,6 +22,8 @@ description: This reference describes each of the policies available in Microsof
 
 # Teams policies reference
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
 ## Teams
 
 ### Teams policies
@@ -76,6 +78,11 @@ Template policies control what team templates users see when they create a new t
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
 |Engagement report|Turn on|When **On**, meeting organizers can see who registered and attended the meetings they set up.|
 
+#### PowerShell-only meeting scheduling policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+
 #### Meeting join & lobby
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
@@ -87,6 +94,11 @@ Template policies control what team templates users see when they create a new t
 |Who can bypass the lobby|Everyone in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly without waiting in the lobby.|
 
+##### PowerShell-only meeting join & lobby policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+
 #### Meeting engagement
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
@@ -96,6 +108,11 @@ Template policies control what team templates users see when they create a new t
 |Meeting chat|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages.|
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings.|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
+
+##### PowerShell-only meeting engagement policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
 
 #### Content sharing
 
@@ -111,6 +128,27 @@ Template policies control what team templates users see when they create a new t
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
 
+##### PowerShell-only content sharing policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+
+#### Watermark
+
+**Navigation:** Teams admin center > Meetings > Meeting policies
+
+ Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled. Read more about [how to require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md).
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Watermark videos|Off|This setting controls watermarks on attendee videos. This setting requires a Teams Premium license.|
+|Watermark shared content|Off|This setting controls watermarks on content shared on screen in a meeting. This setting requires a Teams Premium license.|
+
+##### PowerShell-only watermark policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+
 #### Recording & transcription
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
@@ -123,6 +161,11 @@ Template policies control what team templates users see when they create a new t
 |Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Not enabled but the user can override|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
 |Store recordings outside your country or region|Off|Controls whether meeting records can be permanently stored in another country or region.|
+
+##### PowerShell-only recording & transcription policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
 
 #### Audio & video
 
@@ -140,23 +183,23 @@ Template policies control what team templates users see when they create a new t
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
 |Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
 
-#### PowerShell-only meeting policies
+##### PowerShell-only audio & video meeting policies
 
 | Parameter | Default | Description |
 |:-----|:-----|:-----|
-|-AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
-|-AllowCartCaptionsScheduling|DisabledUserOverride|This setting determines whether a user can add a URL for captions from a Communicatons Access Real-Time Translation (CART) captioner to provide real-time captions in meetings.|
-|-BlockedAnonymousJoinClientTypes|(empty list)|This setting allows users to join a Teams meeting anonymously using a Teams client or using a custom application built using Azure Communication Services. When anonymous meeting join is enabled, both types of clients may be used by default. This optional parameter can be used to block one of the client types that can be used. If both clients are specified, this will be equivalent to disabling anonymous join completely.|
-|-ChannelRecordingDownload|Allow|This setting controls how channel meeting recordings are saved, permissioned, and who can download them.|
-|-LiveInterpretationEnabledType|DisabledUserOverride|This setting allows meeting organizers to configure a meeting for language interpretation and select attendees to become interpreters that other attendees can select and listen to the real-time translation they provide.|
-|-MeetingInviteLanguages|None|This setting controls how the join information in meeting invitations is displayed by enforcing a common language or enabling up to two languages to be displayed. All Teams supported languages can be specified using language codes.|
-|-|||
-|-|||
-|-|||
-|-|||
-|-|||
+|AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
+|AllowCartCaptionsScheduling|DisabledUserOverride|This setting determines whether a user can add a URL for captions from a Communications Access Real-Time Translation (CART) captioner to provide real-time captions in meetings.|
+|BlockedAnonymousJoinClientTypes|(empty list)|This setting allows users to join a Teams meeting anonymously using a Teams client or using a custom application built using Azure Communication Services. When anonymous meeting join is enabled, both types of clients may be used by default. This optional parameter can be used to block one of the client types that can be used. If both clients are specified, this will be equivalent to disabling anonymous join completely.|
+|ChannelRecordingDownload|Allow|This setting controls how channel meeting recordings are saved, permissioned, and who can download them.|
+|LiveInterpretationEnabledType|DisabledUserOverride|This setting allows meeting organizers to configure a meeting for language interpretation and select attendees to become interpreters that other attendees can select and listen to the real-time translation they provide.|
+|MeetingInviteLanguages|None|This setting controls how the join information in meeting invitations is displayed by enforcing a common language or enabling up to two languages to be displayed. All Teams supported languages can be specified using language codes.|
+|PreferredMeetingProviderForIslandsMode|||
+||||
+||||
+||||
+||||
 
-##### Related topics to meeting policies
+##### Related topics to audio & video meeting policies
 
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Manage meeting policies in Microsoft Teams](meeting-policies-overview.md)
@@ -176,6 +219,11 @@ Template policies control what team templates users see when they create a new t
 |Transcription for attendees|Off|Turning this on enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
 |Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection.|
 |Record an event|Organizer can record|This controls whether the event is recorded.|
+
+#### PowerShell-only live events policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
 
 ## Messaging policies
 
@@ -204,6 +252,11 @@ Template policies control what team templates users see when they create a new t
 |Suggested replies|On|When **On**, users get text predictions for chat messages.|
 |Chat permissions role|Restricted permissions|Defines the supervised chat role of a user.|
 |Users with full chat permissions can delete any message|Off|Use this setting to let users with full chat permissions delete any group or meeting chat message.|
+
+### PowerShell-only messaging policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
 
 ## Voice
 
@@ -237,13 +290,8 @@ Template policies control what team templates users see when they create a new t
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|-AllowCallRedirect|None|This setting provides the ability to configure call redirection capabilities on Teams phones. When set to **Enabled** users will have the ability to redirect received calls.|
-|-CallRecordingExpirationDays|60|This setting controls the expiration of recorded 1:1 calls, measured in days.|
-
-#### Related topics to calling policies
-
-- 
--  
+|AllowCallRedirect|None|This setting provides the ability to configure call redirection capabilities on Teams phones. When set to **Enabled** users will have the ability to redirect received calls.|
+|CallRecordingExpirationDays|60|This setting controls the expiration of recorded 1:1 calls, measured in days.| 
 
 ### Call hold policies
 
@@ -264,6 +312,11 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 |Call pickup end of range|99|The pickup code of the last parked call within in the range. After which, the rendered pickup codes start over from the start of the range once again.|
 |Park timeout (seconds)|300|The number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds.|
 
+#### PowerShell-only call park policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+
 ### Caller ID policies
 
 **Navigation:** Teams admin center > Voice > Caller ID policies
@@ -277,6 +330,11 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 |Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call.|
 |Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
 |Replace the caller ID with this service number|(Choose a service number)|Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace the caller ID with**.|
+
+#### PowerShell-only caller ID policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
 
 ### Emergency policies
 
@@ -293,6 +351,11 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
 |Dynamic emergency calling|Off|If you turn this on, users assigned to the policy can use emergency call routing features when they move from one location to another.|
 
+#### PowerShell-only emergency policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+
 ### Voice routing policies
 
 **Navigation:** Teams admin center > Voice > Voice routing policies
@@ -300,6 +363,11 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 :::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
 
 If you've deployed Direct Routing in your organization, you use voice routing policies (also known as call routing policies) to allow Teams users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure. A voice routing policy is a container for PSTN usage records.
+
+#### PowerShell-only voice routing policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
 
 ### Voicemail policies
 
@@ -317,3 +385,24 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 |Translation for transcriptions|On|Turn this on to enable translation for voicemail transcriptions.|
 |Mask profanity in voicemail transcription|Off|If you turn this on, profanity will be masked in voicemail transcriptions.|
 |Users can share data for service improvement|On|If you turn this on, users can share voicemail and transcription data for training and improving accuracy. If you turn this off, voicemail data won't be shared.|
+
+#### PowerShell-only voicemail policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+
+## Enhanced encryption policies
+
+### End-to-end encryption
+
+**Navigation:** Teams admin center > Enhanced encryption policies
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|End-to-end call encryption|Not enabled|This setting determines whether end-to-end encrypted calling is available for users. Read more about [how to configure end-to-end encryption for one-to-one Microsoft Teams calls](teams-end-to-end-encryption.md).|
+|End-to-end meeting encryption|Not enabled, but users can enable|This setting determines whether end-to-end encrypted meetings are available for users. This setting requires a Teams Premium license. Read more about [how to require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).|
+
+#### PowerShell-only end-to-end encryption policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
