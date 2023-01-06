@@ -546,11 +546,14 @@ Import the folder into Postman.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
 
-6. Select **Collections** on the left hand rail menu.
-7. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
-8. Click **Send**.
+6. Select **VAAC - msit** on the top right drop down.
+7. Select **Collections** on the left hand rail menu.
+8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
+9. Click **Send**.
 
 An access token will be returned.
+
+:::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned":::
 
 If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
@@ -569,7 +572,7 @@ After you submit your input, there will be a couple of possible results:
 - If the input is invalid, an error message with the actual reason will be returned
 - If the input is valid, the result will look like this:
 
-:::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing query result with dataResult field":::
+:::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field":::
 
 In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
 
