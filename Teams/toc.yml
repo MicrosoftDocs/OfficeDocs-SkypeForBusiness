@@ -1842,6 +1842,8 @@ items:
           href: upgrade-from-teams-exploratory.md
         - name: Manage Microsoft Teams Free (classic)
           href: manage-freemium.md
+        - name: Retire Microsoft Teams Free (classic)
+          href: remove-assign-free-licenses.md
         - name: Upgrade Microsoft Teams Free (classic) to subscription version
           href: upgrade-freemium.md
         - name: Microsoft Teams Shared Devices licensing
