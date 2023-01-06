@@ -156,7 +156,8 @@ The following limitations also apply:
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
 - Bots, connectors, and message extensions are not supported.
-- -org-wide teams are not supported to be added as members from a shared channel.
+
+- Org-wide teams are not supported to be added as members of a shared channel.
 
 - When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 
