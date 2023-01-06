@@ -61,6 +61,9 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ![Information icon](media/info.png) **This feature is now a part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
 
+> [!NOTE]
+> We'll be providing unlimited SMS notifications through March 1, 2023 (previously January 31, 2023) for customers with Bookings licenses. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.
+
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
 By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in scheduled appointment types and scheduled individual appointments.
