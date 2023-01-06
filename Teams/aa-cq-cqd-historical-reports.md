@@ -538,15 +538,16 @@ Import the folder into Postman.
 
 ### Accessing VAAC using Postman
 
-1. Select **Environments** on the left hand rail menu.
-2. Select **VAAC - msit** under **Globals**.
-3. Replace **userName**, **password** and **tenantId** with the applicable credentials.
-4. Click **Reset All** in the top right corner.
-5. Click **Save**.
+1. Select **VAAC - msit** on the top ***Environments** right drop down.
+2. Select **Environments** on the left hand rail menu.
+3. Select **VAAC - msit** under **Globals**.
+4. Replace **userName**, **password** and **tenantId** with the applicable credentials.
+5. Click **Reset All** in the top right corner.
+6. Click **Save**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
 
-6. Select **VAAC - msit** on the top right drop down.
+
 7. Select **Collections** on the left hand rail menu.
 8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
 9. Click **Send**.
@@ -557,12 +558,12 @@ An access token will be returned.
 
 If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
-9. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
+10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
 - [Compress](#compress-the-json-query) the query as outlined below
 - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
 
-10. Fill in your [query](#constructing-a-valid-query) string.
+11. Fill in your [query](#constructing-a-valid-query) string.
 12. Click **Send**.
 
 ### Reading the result
