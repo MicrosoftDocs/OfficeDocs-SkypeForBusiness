@@ -538,7 +538,7 @@ Import the folder into Postman.
 
 ### Accessing VAAC using Postman
 
-1. Select **VAAC - msit** on the top ***Environments** right drop down.
+1. Select **VAAC - msit** on the top right ***No Environment*** drop down.
 2. Select **Environments** on the left hand rail menu.
 3. Select **VAAC - msit** under **Globals**.
 4. Replace **userName**, **password** and **tenantId** with the applicable credentials.
