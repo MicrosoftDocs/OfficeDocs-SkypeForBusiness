@@ -2,6 +2,18 @@
 
 
 
+## Week of January 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/3/2023 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | modified |
+| 1/3/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+| 1/3/2023 | [Audio Conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modified |
+| 1/4/2023 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 1/5/2023 | Enhance existing Microsoft 365 groups | removed |
+
+
 ## Week of December 26, 2022
 
 
