@@ -84,13 +84,13 @@ Before you start, we recommend that you review the information in [What's a port
 
 ## What happens next?
 
-When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your port request is rejected by the losing carrier, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your port request is rejected by the losing carrier, first contact Microsoft Teams admin center for assistance. Then contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for additional assistance.
 
 To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md)
 
 
 ## Reporting Telephone Number Issues?
-If you notice any issue with the ported numbers within the first 24-48 hours after the port completed, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). For any issue that goes beyond 48 hours, contact the Microsoft Support Team.
+If you notice any issue with the ported numbers within the first 24-48 hours after the port completed, contact Microsoft Teams admin center. For special cases such as large number orders or ports (1000+), complex ports, etc. or additional assistance contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). For any issue that goes beyond 48 hours, contact the Microsoft Support Team.
 
 ## Related topics
 
