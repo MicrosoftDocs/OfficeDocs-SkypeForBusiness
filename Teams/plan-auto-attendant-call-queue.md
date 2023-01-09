@@ -147,7 +147,7 @@ If you have an existing auto attendant and call queue infrastructure and you're 
   
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 
-Conference mode is enabled by default.  If you have agents who don't meet the requirements then conference mode must be manually disabled during call queue configuration.
+Conference mode is enabled by default. If you have agents who don't meet the requirements, then conference mode must be manually disabled during call queue configuration.
 
 **Call routing flow** plans help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Plan your call routing flow](plan-your-call-routing-flow.md).
 
