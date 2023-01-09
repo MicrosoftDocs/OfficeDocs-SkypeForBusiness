@@ -48,7 +48,7 @@ Office 365 provides the ability to integrate third-party applications into Share
 third-party systems that are outside of the Office 365 infrastructure and therefore are not covered by the Office 365 compliance and data protection commitments. **It is recommended that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.**
 
 > [!NOTE]
-> Pexip connectors must be hosted in the Arizona or Texas Azure regions for GCCH. The Virginia region does not support hosting of the Pexip connector for GCCH.
+> Pexip connectors must be hosted in the Arizona or Texas Azure regions for GCC High. The Virginia region does not support the hosting of the Pexip connector for GCC High.
 
 ### Partners Certified for Microsoft Teams
 
