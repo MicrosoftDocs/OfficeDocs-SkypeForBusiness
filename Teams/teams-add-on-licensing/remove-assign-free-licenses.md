@@ -17,6 +17,7 @@ ms.localizationpriority: medium
 ms.custom:
   - Licensing
   - admindeeplinkMAC
+robots: noindex
 description: Learn how to remove the Teams free (classic) licenses and assign paid Teams licenses for your organization's users.
 ---
 
