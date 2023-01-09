@@ -25,23 +25,24 @@ appliesto:
 # Upgrade Microsoft Teams Free (classic) to subscription versions
 
 > [!IMPORTANT]
-> You must upgrade from Microsoft Teams Free (classic) to a subscription version of Teams as Microsoft Teams Free (classic) will not be supported from April 12, 2023.
+> You must upgrade from Microsoft Teams Free (classic) to a subscription version of Teams as Microsoft Teams Free (classic) will not be supported from mid-April 2023.
 
 If your organization is using Microsoft Teams Free (classic), you must upgrade to a subscription version such as:
-- Microsoft Teams Essentials (AAD Identity version or non-AAD Identity version)
-- Microsoft 365 Business subscriptions for your users
+
+- Microsoft Teams Essentials (AAD Identity)
+- Microsoft 365 Business or Enterprise subscriptions for your users
 
 > [!NOTE]
-> To upgrade to Microsoft Teams Essentials (AAD Identity/non-AAD Identity), the Microsoft Team Free (classic) users must also have been using TFL which is readily available. These users can then upgrade from Microsoft Teams Essentials to Microsoft 365 Business subscriptions.
+> To upgrade to Microsoft Teams Essentials (AAD Identity), the Microsoft Team Free (classic) users must also have been using Teams for Life (TFL) which is readily available. These users can then upgrade from Microsoft Teams Essentials to Microsoft 365 Business subscriptions.
 
 A Microsoft Teams Free (classic) user who isn't using TFL can directly upgrade to Microsoft 365 Business subscriptions. For more information, see [Upgrade Microsoft Teams Free (classic) to subscription versions](#upgrade-microsoft-teams-free-classic-to-subscription-versions).
 
 The subscription versions provide other Teams features — audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide.
 
 > [!IMPORTANT]
-> With reference to Microsoft Teams Essentials which is included in the subscription versions being referred to, only the Microsoft Teams Essentials (AAD Identity) provides these features and not Microsoft Teams Essentials (non-AAD Identity).
+> With reference to Microsoft Teams Essentials, which is included in the subscription versions being referred to, only Microsoft Teams Essentials (AAD Identity) provides these features and not Microsoft Teams Essentials (non-AAD Identity).
 
-Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
+Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost. All your teams, channels, chats, files, and permissions come with you.
 
 > [!NOTE]
 > If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides these subscription versions for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
@@ -104,7 +105,7 @@ This section is classified into:
 
 To upgrade to a subscription version such as Microsoft Team Essentials, perform the following steps:
 
-1. Launch the URL https://signup.microsoft.com/get-started/upgrade.
+1. Launch the URL [https://signup.microsoft.com/get-started/upgrade](https://signup.microsoft.com/get-started/upgrade).
 1. Create your username and password for the account with which you must sign in to Teams.
 1. Make the payment for Microsoft Teams Essentials.
    Once you have made the payment, you have purchased Microsoft Teams Essentials.
@@ -119,7 +120,7 @@ To upgrade to a subscription version such as Microsoft Team Essentials, perform 
 After your upgrade is complete, perform the following steps:
 
 > [!NOTE]
-> Prior to getting started with Teams post-upgrade, ensure that you manage your users in the organization by upgrading them too to the subscribed product, which involves adding user licenses, changing user names, and assigning temporary passwords. For more information, see [For admins upgrading from Teams Free (classic) to a paid subscription](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
+> Prior to getting started with Teams, ensure that you manage your users in the organization by upgrading them to the subscribed product, which involves adding user licenses, changing user names, and assigning temporary passwords. For more information, see [For admins upgrading from Teams Free (classic) to a paid subscription](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
 
 1. Get started with Microsoft Teams' subscription versions to explore the features they offer. For more information, see [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 1. Adopt Microsoft Teams across your organization in a phased approach. For more information, see [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md).
