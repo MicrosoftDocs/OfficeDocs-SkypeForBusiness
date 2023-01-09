@@ -42,7 +42,7 @@ There are four ways to get user (subscriber) and service (toll and toll-free) ph
 > For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan). For new phone numbers in Japan, see [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan).
 
 ***
-If you know what kind of forms you are looking for, use the drop-down to select the country/region where you're getting numbers.
+If you know what kind of forms you're looking for, use the drop-down to select the country/region where you're getting numbers.
 
 **Select your country or region to find the downloadable PDF LOA forms you will need**
 > [!div class="op_single_selector"]
@@ -94,11 +94,11 @@ Each country or region has different instructions, different types of phone numb
 
 Sometimes (depending on your country or region) you won't be able to get new user (subscriber) or service (toll or toll-free) phone numbers using the Microsoft Teams admin center or you might need _specific_ phone numbers (vanity requests) or _specific_ area codes.
 
-If so, you will need to download the correct PDF LOA form (per country or region and type of phone numbers) and send it back to us. Our service desk will take it from there and start processing your request.
+If so, you'll need to download the correct PDF LOA form (per country or region and type of phone numbers) and send it back to us. Our service desk will take it from there and start processing your request.
 
 ### Letters of Authorization (LOAs) to transfer/port existing phone numbers 
 
-If you need to transfer/port your existing phone numbers from another service provider to Teams, you will need to download, fill out, sign, and send us a Letter of Authorization (LOA). The LOA gives Microsoft permission to request and transfer, on your behalf, those existing numbers from a different service provider into Teams.
+If you need to transfer/port your existing phone numbers from another service provider to Teams, you'll need to download, fill out, sign, and send us a Letter of Authorization (LOA). The LOA gives Microsoft permission to request and transfer, on your behalf, those existing numbers from a different service provider into Teams.
 
 Once you have the **filled and signed** LOA, upload the documents in the Microsoft Teams admin center. For special cases such as a large number ports (1000+), complex ports, or if you need assistance, [contact our TNS Service Desk](./contact-tns-service-desk.md).
 
