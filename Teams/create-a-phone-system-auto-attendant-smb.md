@@ -50,8 +50,6 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 - September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
 - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
 
-[Auto attendant what's new history](aa-whats-new-history.md)
-
 ## Steps to create an auto attendant
 The steps to add an auto attendant are:
 
