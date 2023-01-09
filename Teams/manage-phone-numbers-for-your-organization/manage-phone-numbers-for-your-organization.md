@@ -107,7 +107,7 @@ Please send us an **LOA** if you currently have the following with another carri
 - Toll-Free phone numbers.
 - More than 999 user phone numbers that you need to transfer/port but can't get in the Microsoft Teams admin center using the local number porting wizard.
 
-Once you have your **filled and signed** LOA, upload the documents in Microsoft Teams admin center. For special cases such as large number orders or ports (1000+), complex ports, etc. or additional assistance [contact our TNS Service Desk](./contact-tns-service-desk.md) so we can assist you.
+Once you have the **filled and signed** LOA, upload the documents in the Microsoft Teams admin center. For special cases such as a large number ports (1000+), complex ports, or if you need assistance, [contact our TNS Service Desk](./contact-tns-service-desk.md).
 
 ## Still need assistance?
 
