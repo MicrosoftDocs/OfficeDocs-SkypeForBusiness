@@ -27,6 +27,9 @@ The native chat experience for people in other organizations is turned on for al
 
 To see a list of capabilities for external access users in Teams, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
 
+> [!NOTE]
+> The native chat experience is not available for cross Microsoft 365 cloud environments: Microsoft 365 WorldWide (including GCC) from/to GCC High, GCC High from/to DoD, or WW from/to DoD.
+
 ## How do I know if I'm in a native chat?
 
 If you can only exchange text in your chat with people in other organizations, then you're in a standard external-access (federated) chat. If you've got other chat functionality, including formatting, @mentions, emojis, etc., then you're in a native Teams chat. 
