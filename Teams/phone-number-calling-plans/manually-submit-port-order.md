@@ -28,12 +28,15 @@ Use the steps in this article to manually submit a port order if your country or
 
 ## Manually submit a new port order request
 
-To manually submit a new port order, send your completed Letter of Authorization (LOA) form directly to the TNS service desk for your region.
+To manually submit a new port order, upload your completed Letter of Authorization (LOA) form directly to the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
 1. Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for your country or region.
 2. Complete the form.
-3. Upload the documents in Microsoft Teams admin center.
-4. For special cases such as large number orders or ports (1000+), complex ports, etc. or additional assistance contact [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for your region.
+3. Sign into the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+4. Expand the **Voice** option from the left-side menu.
+5. Select **Phone numbers** from the menu.
+6. With the **Numbers** tab selected, select **Port** to complete the porting wizard.
+4. For special cases such as a large number ports (1000+), complex ports, or if you need assistance, contact the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for your region.
 
 ## What else should you know about number porting
 
