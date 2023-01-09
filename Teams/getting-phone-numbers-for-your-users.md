@@ -32,9 +32,9 @@ There are three ways to get user numbers:
 
 - **Use the Microsoft Teams admin center.** For some countries and regions, you can get numbers for your users using the Microsoft Teams admin center. See [Get new phone numbers for your users](#get-new-phone-numbers-for-your-users).
 
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. For more information, see [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center or you'll need specific phone numbers or area codes. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
+- **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center or you'll need specific phone numbers or area codes. For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
 > If you need help setting up phone numbers for your organization, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
@@ -81,7 +81,7 @@ In the left navigation of the admin center, go to **Voice** > **Phone numbers** 
   
 ## Assign phone numbers to users
 
-After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](./assign-change-or-remove-a-phone-number-for-a-user.md) for more information.
+After you get your phone numbers, you'll need to assign a number to each of your users. For more information, see [Assign, change, or remove a phone number for a user](./assign-change-or-remove-a-phone-number-for-a-user.md).
 
 > [!NOTE]
 > If you need to get more phone numbers than this, [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
