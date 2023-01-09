@@ -22,21 +22,19 @@ description: Learn how to manually submit a port order request.
 
 # Manually submit a port order
 
-In some countries and regions, you may have to manually submit a service request to get phone numbers, transfer phone numbers, release phone numbers, or change addresses. To see what's required for each country and region or to learn more about number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+For most customers, port orders can be completed in the Microsoft Teams admin center. For instructions on that process, see [Transfer phone numbers to Microsoft Teams](transfer-phone-numbers-to-teams.md).
 
-Use the steps in this article to manually submit a port order if your country or region isn't listed in the [porting wizard in the Microsoft ](transfer-phone-numbers-to-teams.md).
+In some situations, you may have to manually submit a service request to get phone numbers, transfer phone numbers, release phone numbers, or change addresses. To see what's required for each country and region or to learn more about number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+
+Use the steps in this article to manually submit a port order if you're unable to use the [porting wizard in the Teams admin center](transfer-phone-numbers-to-teams.md).
 
 ## Manually submit a new port order request
 
-To manually submit a new port order, upload your completed Letter of Authorization (LOA) form directly to the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+To manually submit a new port order, upload your completed Letter of Authorization (LOA) form directly to the TNS Service Desk.
 
 1. Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for your country or region.
 2. Complete the form.
-3. Sign into the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
-4. Expand the **Voice** option from the left-side menu.
-5. Select **Phone numbers** from the menu.
-6. With the **Numbers** tab selected, select **Port** to complete the porting wizard.
-4. For special cases such as a large number ports (1000+), complex ports, or if you need assistance, contact the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for your region.
+4. Send it to the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## What else should you know about number porting
 
