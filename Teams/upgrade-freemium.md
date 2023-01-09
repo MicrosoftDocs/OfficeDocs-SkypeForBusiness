@@ -37,12 +37,12 @@ If your organization is using Microsoft Teams Free (classic), you must upgrade t
 
 A Microsoft Teams Free (classic) user who isn't using TFL can directly upgrade to Microsoft 365 Business subscriptions. For more information, see [Upgrade Microsoft Teams Free (classic) to subscription versions](#upgrade-microsoft-teams-free-classic-to-subscription-versions).
 
-The subscription versions provide other Teams features — audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide.
+The subscription versions provide other Teams features that the free version doesn't provide: audio conferencing, enhanced administration, and security capabilities.
 
 > [!IMPORTANT]
 > With reference to Microsoft Teams Essentials, which is included in the subscription versions being referred to, only Microsoft Teams Essentials (AAD Identity) provides these features and not Microsoft Teams Essentials (non-AAD Identity).
 
-Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost. All your teams, channels, chats, files, and permissions come with you.
+Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services, like Exchange Online, SharePoint Online, and Office, to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost. All your teams, channels, chats, files, and permissions come with you.
 
 > [!NOTE]
 > If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides these subscription versions for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
