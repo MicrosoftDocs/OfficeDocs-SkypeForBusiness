@@ -38,9 +38,9 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
 - **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
-- **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
+- **Voice app** - another auto attendant or a call queue. Choose the resource account associated with the auto attendant or call queue when choosing this destination.
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
-  - In Microsoft 365 Admin Center, enable "Let people outside the organization email this team" for the Microsoft 365 group that you specify
+  - In Microsoft 365 admin center, enable **Let people outside the organization email this team** for the Microsoft 365 group that you specify.
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
@@ -54,8 +54,6 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 - September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
 - August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
-
-[Auto attendant what's new history](aa-whats-new-history.md)
 
 ## Steps to create an auto attendant
 
