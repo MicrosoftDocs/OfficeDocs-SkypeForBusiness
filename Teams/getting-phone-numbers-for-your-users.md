@@ -69,7 +69,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
   
 ## Port or transfer phone numbers from your service provider or phone carrier
   
-- If you need 999 or fewer phone numbers for your users, use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). If your country or region isn't listed in the porting wizard, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA).
+- If you need 999 or fewer phone numbers for your users, use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). If you need assistance with this process, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA).
 
 - If you need to port more than 999 phone numbers, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA). Complete and sign the LOA documents, and then contact [the TNS service desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for your region.
 
