@@ -729,7 +729,7 @@ items:
               href: teams-encoder-configuration.md
             - name: Creating an event
               href: teams-stream-create-event.md
-            - name: Setting up an ecdn encoder
+            - name: Scale video delivery
               href: teams-stream-ecdn.md
             - name: Troubleshooting
               href: teams-stream-troubleshooting.md
