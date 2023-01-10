@@ -25,11 +25,9 @@ description: "For IT admins: Learn how to chat and meet with people in other Mic
 
 # Configure trusted organizations for external meetings and chat
 
-You can configure meetings and chat with people in other organizations by using the *external access* feature in Teams. External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams.
+You can configure meetings and chat with people in other organizations, Teams users not managed by an organization, and Skype users by using the *external access* feature in Teams. External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams.
 
-This article covers how to manage external meetings and chat with people in other Microsoft 365 organizations. If you are using Skype for Business hybrid, see [Configure external meetings and chat with Skype for Business Server hybrid](external-meetings-skype-for-business-server-hybrid.md). For information about managing chat and meetings with people who are not managed by an organization, see [Manage external meetings and chat with people not managed by an organization](skype-extended-directory-access.md).
-
-With external access, people from trusted organizations can chat and meet with people in your organization, but they won't have access to your teams, sites, or other Microsoft 365 resources. If you want people from other organizations to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect). 
+With external access, people from outside your organization can chat and meet with people in your organization, but they won't have access to your teams, sites, or other Microsoft 365 resources. If you want people from other organizations to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect). 
 
 If you want to limit external meetings and chat to specific users in your organization, see [Limit external meetings and chat to specific users](limit-external-meetings-chat-to-specific-users.md).
 
@@ -38,7 +36,7 @@ If you want to limit external meetings and chat to specific users in your organi
 
 ## Specify trusted organizations
 
-External meetings and chat is managed by specifying which domains you want to trust. By default, all external domains are allowed. You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat.
+For meetings and chat with other Microsoft 365 organizations, you can specify which domains you want to trust. By default, all external domains are allowed. You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat.
 
 In order to chat and meet with people in external domains, those organizations must trust your domain as well. 
 
@@ -87,25 +85,7 @@ To block specific domains
 
 6. Click **Save**.
 
-## Configure trusted organizations by using PowerShell
-
-Trusted organizations can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
-
-The following table shows the cmdlet parameters used for configuring trusted organizations.
-
-|Configuration|Parameter|
-|:-------|:--------|
-|Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|
-|Specify allowed domains|`-AllowedDomains`|
-|Specify blocked domains|`-BlockedDomains`|
-
-Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
-
-## Skype for Business Online
-
-If you want chats and calls to arrive in the user's Skype for Business client, configure your users to be in any mode other than TeamsOnly.
-
-## Diagnostic Tool
+### Diagnostic Tool
 
 If you're an administrator, you can use the following diagnostic tool to validate if a Teams user can communicate with a Teams user in a trusted organization:
 
@@ -118,21 +98,14 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any setting or policy configurations that are preventing communication with the external user.
 
+## Skype for Business Online
 
-
-
-
-
-## Manage external meetings and chat with people not managed by an organization
-
-You can configure external meetings and chat with Teams users not managed by an organization and Skype users by using the *external access* feature in Teams. External access is a way for people from outside your organization to find, call, chat, and set up meetings with you in Teams.
-
-If you want to configure meetings and chat with people from other Microsoft 365 organizations, see [Configure trusted organizations for external meetings and chat](trusted-organizations-meetings-chat.md). If you want to limit external meetings and chat to specific users in your organization, see [Limit external meetings and chat to specific users](limit-external-meetings-chat-to-specific-users.md).
-
-> [!NOTE]
-> The capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
+If you want chats and calls to arrive in the user's Skype for Business client, configure your users to be in any mode other than TeamsOnly.
 
 ## Manage chat with external Teams users not managed by an organization
+
+> [!NOTE]
+> The capabilities discussed in this section aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
 You can choose to enable or disable communications with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If enabled, you can also control if people with unmanaged Teams accounts can start chats with people in your organization.
 
@@ -153,6 +126,9 @@ To prevent chat with unmanaged Teams accounts
 
 ## Manage chat and calls with Skype users
 
+> [!NOTE]
+> The capabilities discussed in this section aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
+
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
 
 ![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
@@ -166,6 +142,16 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 ## Configure settings by using PowerShell
 
+Trusted organizations can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
+
+The following table shows the cmdlet parameters used for configuring trusted organizations.
+
+|Configuration|Parameter|
+|:-------|:--------|
+|Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|
+|Specify allowed domains|`-AllowedDomains`|
+|Specify blocked domains|`-BlockedDomains`|
+
 Chat with Teams users not managed by an organization and Skype users can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
 
 The following table shows the cmdlet parameters used for configuring chat with Skype and unmanaged Teams users.
@@ -177,15 +163,6 @@ The following table shows the cmdlet parameters used for configuring chat with S
 |Allow or prevent chat with Skype users|`-AllowPublicUsers`|
 
 Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
-
-
-
-
-
-
-
-
-
 
 ## Related topics
 
