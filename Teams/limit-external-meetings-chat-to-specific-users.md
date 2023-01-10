@@ -25,7 +25,7 @@ description: "Learn how to specify which users in your organization can engage i
 
 # Limit external meetings and chat to specific users
 
-If you've enabled [chat and meetings with trusted organizations](trusted-organizations-meetings-chat.md) or [chat with people not managed by an organization](skype-extended-directory-access.md), you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy.
+If you've enabled [chat and meetings with trusted organizations](trusted-organizations-meetings-chat.md) or [chat with people not managed by an organization](skype-extended-directory-access.md), you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (One or both of these must be enabled for users to chat or meet with people outside your organization.)
 
 External access policies are configured by using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet.
 
@@ -43,7 +43,7 @@ To limit external meetings and chat to specific users, you must:
 - Create a new policy with the control turned on, and assign the appropriate users to it.
 
 > [!NOTE]
-> People for whom external meetings have been turned off can still meet with people outside the organization if those people join as guests or anonymous users (if guest sharing or anonymous join are enabled).
+> People for whom external meetings have been turned off can still meet with people outside of their organization if guest sharing or anonymous join are enabled. In this case, users would join as anonymous or guest.
 
 You can use the following example script, substituting *parameter* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
@@ -63,6 +63,11 @@ $users_ids = @("<UserName1>", "<UserName2>")
 New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
 
 ```
+
+The parameters for configuring external access are:
+- EnableFederationAccess - controls chat and meetings with other Microsoft 365 organizations
+- EnableTeamsConsumerAccess - controls chat with Teams users not managed by an organization
+- 
 
 For example, to enable communications with external Teams users not managed by an organization:
 
