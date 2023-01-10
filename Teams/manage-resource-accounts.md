@@ -92,7 +92,7 @@ To access and use information barriers, your organization must have one of the f
 -	Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Compliance add-on.
 - Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Insider Risk Management add-on.
 
-[!NOTE]
+> [!NOTE]
 > If you already have [Exchange Online](/exchange/address-books/address-book-policies/address-book-policies) address book policies configured, they must be removed before proceeding with the steps below.   
 > 
 >	All the steps below are performed by the Tenant Global Administrator. 
