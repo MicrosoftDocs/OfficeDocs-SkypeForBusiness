@@ -76,7 +76,7 @@ See [Microsoft Teams event group roles](https://support.office.com/article/micro
 
 ### I don't know how to set up my encoder
 
-The easiest way to get started is to follow the instructions outlined from the [Using an encoder for live streaming in Microsoft Teams](teams-stream-setup.md) article.
+The easiest way to get started is to follow the instructions outlined from the [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md) article.
 
 ### My encoder isn't connecting to the server ingest URL
 
@@ -84,11 +84,11 @@ The easiest way to get started is to follow the instructions outlined from the [
 - Check that the RTMP Key is correctly entered as the output of your encoder.
 - Check the status of your internet connection to ensure that your encoder is correctly connected and online.
 - You may have network security or firewall-related settings that may be blocking the output of your connection.
-- Your encoder may not be supported with Teams. Check out the list of tested encoders in [Using an encoder for live streaming in Microsoft Teams](teams-stream-setup.md).
+- Your encoder may not be supported with Teams. Check out the list of tested encoders in [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md).
 
 ### I can't get RTMPs to work
 
-- Some encoders may support a different implementation that is not supported by Teams. Check out the list of tested encoders that work with Teams in [Using an encoder for live streaming in Microsoft Teams](teams-stream-setup.md).
+- Some encoders may support a different implementation that is not supported by Teams. Check out the list of tested encoders that work with Teams in [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md).
 - Not all encoders or versions support RTMPs. Check with the manufacturer or software creator to see what they support.
 
 ### I tried to start setup and it's taking a long time
@@ -104,12 +104,12 @@ If you receive a message when starting an event that the maximum number of event
 1. It may take a few seconds for the producer preview to appear after you've started streaming from your encoder.
 1. Make sure that that the encoder is connected to Teams.
 1. It can sometimes help to refresh the page in Teams. You may be asked if you want to leave the page; this will not affect your live event.
-1. Some networks may block access to content. Ensure that your network security and firewall settings allow the RTMP protocol and the [required domains](https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) are in the allowed list. It can help to try to see if it works on a different network environment, independent from a corporate network, VPN, or locked-down network.
+1. Some networks may block access to content. Ensure that your network security and firewall settings allow the RTMP protocol and the [required domains](/microsoft-365/enterprise/urls-and-ip-address-ranges) are in the allowed list. It can help to try to see if it works on a different network environment, independent from a corporate network, VPN, or locked-down network.
 
 ### My feed looks bad, has poor quality, or is glitchy
 
 1. Check your upload bandwidth from the machine you're pushing the live stream from. Low bandwidth can cause dropped frames, poor quality, or a glitchy looking video stream. You need an upload bandwidth that is higher than the bitrate you're streaming at.
-1. Make sure you're using the recommended encoder settings for Teams. See [Manually configure encoders for live event streaming in Microsoft Teams](teams-stream-configuration.md) for more info.
+1. Make sure you're using the recommended encoder settings for Teams. See [Manually configure encoders for live event streaming in Microsoft Teams](teams-encoder-configuration.md) for more info.
 1. Check that the audio/video coming into the encoder doesn't have any issues. The source audio or video feeds routed to the encoder could have issues itself, which would result in a bad experience sent out to viewers.
 1. Check the CPU load on your encoder. You may be maxing out your CPU with the source content and/or with the bitrate you are trying to push. If the CPU load is too high, try reducing the complexity of your live feed overlays/content or reduce the bitrate you're streaming at.
 1. Make sure your encoder is up to date. If it's a hardware encoder, ensure you have the latest firmware updates. If it's a software encoder, make sure you're running the latest version.
