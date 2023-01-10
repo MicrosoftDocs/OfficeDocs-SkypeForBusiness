@@ -83,7 +83,7 @@ Perform the following steps:
 
 GCC High and DoD Tenants
 
-6. Update the template to use one of the following connectors:
+7. Update the template to use one of the following connectors:
 
   - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
   - DoD: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
