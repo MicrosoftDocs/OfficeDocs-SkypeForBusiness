@@ -31,15 +31,7 @@ An encoder takes audio and video content from various sources you use during a l
 
 The workflow for producing a Teams Live Event is as follows:
 
-
-
 A live event is scheduled in Teams or Yammer, and the **Teams Encoder** option is selected. This provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding key. The URL and key are used by the encoder to connect to the RTMP endpoint for the scheduled live event.
-
-
-If you're not sure if your hardware or software encoder will work seamlessly with Teams, read on to see which ones we've already tested that work best.
-
-> [!TIP]
-> We recommend you select and set up an encoder well before you begin your live event.
 
 ### Common encoders user with live events
 
@@ -59,9 +51,9 @@ The encoders in the following two lists have been tested by Microsoft for live s
 |XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Produces, mixes, and delivers rich video content, including gameplay for live streaming. |
 |FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
 |Production Truck          |[Production Truck](https://www.blueframetech.com/productiontruck) |Films and streams events on location from a mobile van or truck. |
-|Live Arena AI Producer	                |AI Producer |Production studio integrated in Microsoft Teams as a meeting app.|
-|StreamYard	                            |StreamYard |Live streaming studio in the browser.|
-|Socialive	                            |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
+|Live Arena AI Producer                 |AI Producer |Production studio integrated in Microsoft Teams as a meeting app.|
+|StreamYard                             |StreamYard |Live streaming studio in the browser.|
+|Socialive                              |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
 |Brandlive                              |BrandLive |Cloud based production platform.|
 
 ### Haivision Makito X Encoder and Makito KB Encoder
