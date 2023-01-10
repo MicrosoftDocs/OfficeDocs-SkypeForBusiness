@@ -69,7 +69,7 @@ Perform the following steps:
 
   :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
-Public Cloud Tenants
+  Public Cloud Tenants
 
 5. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
