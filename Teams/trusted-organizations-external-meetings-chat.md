@@ -26,8 +26,11 @@ description: "For IT admins: Learn how to configure chat and meetings with peopl
 # Manage external meetings and chat
 
 With the *external access* feature in Teams, you can allow people in your organization to chat and meet with people outside the organization. You can configure external access with:
+
 - Other Microsoft 365 organizations
+
 - Teams users not managed by an organization
+
 - Skype users
 
 Note that these external users won't have access to your teams, sites, or other Microsoft 365 resources. If you want people from other organizations to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect).
@@ -116,8 +119,11 @@ You can choose to enable or disable communications with external unmanaged Teams
 
 To allow chat with unmanaged Teams accounts
 1. In the Teams admin center, go to **Users** > **External access**.
+
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+
 1. If you want to allow external users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+
 1. Select **Save**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
@@ -126,7 +132,9 @@ Note that if **External users with Teams accounts not managed by an organization
 
 To prevent chat with unmanaged Teams accounts
 1. In the Teams admin center, go to **Users** > **External access**.
+
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+
 1. Select **Save**.
 
 ## Manage chat and calls with Skype users
@@ -140,7 +148,9 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 To configure chat and calls with Skype users
 1. In the Teams admin center, go to **Users** > **External access**.
+
 1. Turn the **Allow users in my organization to communicate with Skype users** setting on or off.
+
 1. Select **Save**.
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
