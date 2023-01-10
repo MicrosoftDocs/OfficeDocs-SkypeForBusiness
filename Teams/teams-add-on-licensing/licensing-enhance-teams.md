@@ -145,8 +145,8 @@ With the general release of Teams Premium, some Teams features will move from Te
 The features that are moving to Teams Premium are:
 
 - Live translated captions. (in April 2023)
-- Timeline markers in Teams meeting recordings for when a user left or joined meetings.
-- Custom organization Together mode scenes.
+- Timeline markers in Teams meeting recordings for when a user left or joined meetings. (in April 2023)
+- Custom organization Together mode scenes. (in March 2023)
 - Virtual Appointments: SMS notifications. (in March 2023)
 - Virtual Appointments: Organizational analytics in the Teams admin center. (in March 2023)
 - Virtual Appointments: Scheduled queue view. (in March 2023)
@@ -181,7 +181,7 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 ## Which users should be assigned Teams Premium licenses?
 
-Teams Premium is per-user, per-month license where each user requiring Teams Premium functionality needs to have a license assigned.
+Teams Premium is per-user, per-month license where any user benefiting from Teams Premium functionality needs to have a license assigned.
 
 A few meeting and event features extend the Teams Premium benefit to all attendees when the organizer has a Teams Premium license. This extended coverage optimizes the meeting or event by ensuring all attendees have a uniform experience. Extended coverage scenarios don't change the need for IT admins to license each user benefitting from Teams Premium features.
 
