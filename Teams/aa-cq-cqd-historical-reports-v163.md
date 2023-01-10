@@ -71,7 +71,7 @@ Perform the following steps:
 
 Public Cloud Tenants
 
-6. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
+5. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
     ```powershell
     (Get-CsTenant).ServiceInstance
