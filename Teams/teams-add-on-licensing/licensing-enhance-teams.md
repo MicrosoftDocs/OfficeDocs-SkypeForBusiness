@@ -234,7 +234,7 @@ The following list indicates Teams Premium features that require admin configura
 - Being assigned a custom policy package
 - Using organization customized meeting templates
 - Seeing organization customized branding
-- Using eCDN for Live events
+- Using eCDN for Live Events
 - Using RTMP-In
 - Sending SMS notifications for Virtual Appointments
 - Accessing the Virtual Appointments Premium app
