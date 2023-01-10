@@ -360,10 +360,8 @@ items:
           items: 
             - name: Manage external meetings and chat
               href: manage-external-access.md
-            - name: Manage trusted organizations
-              href: trusted-organizations-meetings-chat.md
-            - name: Users not managed by an organization
-              href: skype-extended-directory-access.md
+            - name: Configure external meetings & chat
+              href: trusted-organizations-external-meetings-chat.md
             - name: Limit to specific users
               href: limit-external-meetings-chat-to-specific-users.md
             - name: Skype for Business Server
