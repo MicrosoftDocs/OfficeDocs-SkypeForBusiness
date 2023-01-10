@@ -115,7 +115,7 @@ For more information on this option, see [Limit who users can see when searching
 2. In the left navigation pane, select **Audit**.
 3. If auditing is turned off, the following banner will be displayed: 
  
-     :::image type="content" source="/microsoft-365/media/AuditingBanner.png" alt-text="Screenshot showing audit banner if auditting is not enabled":::
+     :::image type="content" source="/microsoft-365/media/AuditingBanner" alt-text="Screenshot showing audit banner if auditting is not enabled":::
   
 4. Select the **Start recording user and admin activity**. 
 
