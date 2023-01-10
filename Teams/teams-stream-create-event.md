@@ -31,31 +31,25 @@ ms.custom:
 
 ## Schedule the live event
 
-1. In Teams, go to the calendar
-2. Use the **New meeting** dropdown.
-3. Select the **Live event** option.
-4. Enter your event details and save.
+1. Open Microsoft Teams client and go to the calendar.
+1. Use the **New meeting** dropdown.
+1. Select the **Live event** option.
+1. On the **New live event** pop-up window, enter your event details to the left (**Title**, **Location**, **Start**, **End**, **Time Zone**, and **Details**).
+1. On the same page, to the right, **Invite presenters** to add presenters and producers, either individually or via groups.
+1. When everything's entered, select **Next**.
+1. Select **People and groups**, **Org-wide**, or **Public** under **Live event permissions** to specify who can watch the live event.
+1. Select **Teams Encoder (Preview)** under **How will you produce your live event**?
+1. Configure required options like **Q&A**, **Captions**, and others under **Event options**.
+1. Select **Schedule** to complete the scheduling for your live event.
 
 ## Stream the live event
 
-1. When you save your live event, you'll get the RTMP server ingest URL located in the encoder setup tab. Select an encoder from the drop down list, or choose to configure manually. Check out the list of [encoders](teams-encoder-setup.md) for easy setup instructions.
-2. To set up your encoder, select **Start setup** on the producer controls. It may take some time to start the setup process.
-3. When the setup is ready, copy the server ingest URL into your encoder to start sending the live encoder feed to Teams. [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md) has more information.
+1. Once you schedule your live event, you can retrieve the **RTMP server ingest URL** and **RTMP Key** under the **RTMP In details** section of the calendar invite, which you can use to push the content from Encoder through RTMP Ingest.
+1. To set up your encoder, copy the RTMP ingest URL and the RTMP Key into your encoder to start sending the live encoder feed to Team. Using an encoder for live streaming in Microsoft Teams has more information.
+1. Using a Microsoft Teams client, join the live event as a Producer. You can also find RTMP In details from more -> Meeting options.
+1. When you start pushing content from the encoder to the server ingest point, you should see the producer preview update.
+1. After you're satisfied with your setup and can see the preview in the Producer UI, select the **RTMP feed** from sources and **Send Live**.
+1. Select **Start event** to start the live event, post which audience members can see the event.
+1. When you're finished with your event, select **End event** on the producer UI. This ends the event and makes the content immediately available for video-on-demand.
 
-> [!NOTE]
-> It's important to set up your encoder with the correct configuration, and specify both audio and video for playback. Check out the [configuration requirements](teams-stream-configuration.md) to make sure you set up the encoder correctly.
-
-4. When you start pushing from the encoder to the server ingest point, you should see the producer preview update.
-
-> [!NOTE]
-> Audience members won't see this until you start the live event, they will see the automatically-generated slate.
-
-5. After you are satisfied with your setup and can see the preview, select **Start event**. If you didn't previously publish your event, Teams will do so automatically when you start the event. After the event starts, audience members can see the event.
-
-> [!NOTE]
-> You can also choose to disconnect at this point, which will take you back to step #2 if your intent was to test before the event.
-
-6. When you're finished with your event, select **End event** on the producer controls. This ends the event and makes the content immediately available for video-on-demand.
-
-  > [!IMPORTANT]
-  > Make sure to end the event in Teams before stopping your encoder. If you do this in reverse order, audience members will see an error.
+For more information on streaming the live event, review [Produce a live event using Teams encoder](https://support.microsoft.com/office/produce-a-teams-live-event-using-teams-encoder-b0026c9d-fd37-4bb3-bffc-6961f221fbe9).
