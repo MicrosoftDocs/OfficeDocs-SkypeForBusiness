@@ -95,7 +95,7 @@ To access and use information barriers, your organization must have one of the f
 > [!NOTE]
 > If you already have [Exchange Online](/exchange/address-books/address-book-policies/address-book-policies) address book policies configured, they must be removed before proceeding with the steps below.   
 > 
->	All the steps below are performed by the Tenant Global Administrator. 
+> All the steps below are performed by the Tenant Global Administrator. 
 >	
 > These instructions assume there are no other information barriers configured.
 
