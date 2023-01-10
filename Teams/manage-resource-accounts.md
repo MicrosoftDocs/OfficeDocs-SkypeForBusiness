@@ -184,7 +184,7 @@ For more information on segmenting users, see  [Identify segments](/microsoft-36
 27. In the left navigation pane, select **Information barriers** > **Policy application**.
 28. Select **Apply all policies**.
 
-[!NOTE]
+> [!NOTE]
 > It may take 30 minutes or more for the policy to be applied.  
 > 
 > Once the status shows completed, go into Teams Client and try to search for the Resource Accounts that were blocked. It may be necessary to clear the Teams cache.  
