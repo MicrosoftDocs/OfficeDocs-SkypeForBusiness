@@ -47,7 +47,7 @@ Ensure that users you want to be able to create live events have the granted per
 
 ## Monitor your event
 
-As a producer you can use the Teams client to see the audience feed (visible on the right side) as well as the number of attendees currently viewing the event.
+As a producer you can use the Teams client to see the audience feed (visible on the right side) and the number of attendees currently viewing the event.
 
 ## Capabilities
 
@@ -71,4 +71,4 @@ The following are capabilities of live streaming events:
 |On-demand viewing on live event (after event)        |Automatic transition for live to on-demand for immediate viewing and indexing in Teams |
 |Downloadable recording                               |Processed and available after the live event by owners               |
 
-Live events in Teams is a highly available service and you can expect good performance at scale. In the very unlikely scenario that results in failover being required, live events using external encoding will not have redundancy and are not recoverable.
+Live events in Teams is a highly available service and you can expect good performance at scale. In the very unlikely scenario that results in failover being required, live events using external encoding won't have redundancy and aren't recoverable.
