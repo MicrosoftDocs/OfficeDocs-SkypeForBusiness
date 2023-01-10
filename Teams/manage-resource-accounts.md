@@ -58,13 +58,11 @@ The application IDs that you need to use while creating the application instance
 > [!NOTE]
 > If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.
 
-For implementations that are hybrid with Skype for Business Server:
+For hybrid implementations with Skype for Business Server:
 
-   [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
-
-   [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue)
-
-   [Configure on-premises resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra)
+- [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).
+- [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue).
+- [Configure on-premises resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
 ## Delete a resource account
 
@@ -77,3 +75,118 @@ To disassociate a Direct Routing telephone number from the resource account, use
 ```powershell
 Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
+
+## Hide resource accounts from Teams users
+
+You may want to hide certain resources accounts from Teams users. For example, you may want to prevent Teams users from directly calling a call queue and bypassing the auto attendant where the hours of operation are configured.
+
+[Information barriers](information-barriers-in-teams.md) are used to hide the resource accounts.  Review the information barriers documentation to understand the possible impacts before proceeding with the steps below.
+
+### Required subscriptions and permissions 
+
+To access and use information barriers, your organization must have one of the following subscriptions or add ons: 
+
+-	Microsoft 365 E5/A5 subscription (paid or trial version).
+-	Office 365 E5/A5/A3/A1 subscription (paid or trial version).
+-	Office 365 Advanced Compliance add-on.
+-	Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Compliance add-on.
+- Microsoft 365 E3/A3/A1 subscription + the Microsoft 365 E5/A5 Insider Risk Management add-on.
+
+> [!NOTE]
+> If you already have [Exchange Online](/exchange/address-books/address-book-policies/address-book-policies) address book policies configured, they must be removed before proceeding with the steps below.   
+> 
+> All the steps below are performed by the Tenant Global Administrator. 
+>	
+> These instructions assume there are no other information barriers configured.
+
+#### Teams admin center
+
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+2. In the left-rail menu, expand **Teams**.
+3. Select **Teams settings**. 
+4. Scroll down to **Search by name**.
+5. Turn on the toggle, and save the change.
+
+For more information on this option, see [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md).
+
+#### Compliance - Auditing
+
+1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com/).
+2. In the left navigation pane, select **Audit**.
+3. If auditing is turned off, the following banner will be displayed: 
+ 
+     :::image type="content" source="/microsoft-365/media/AuditingBanner" alt-text="Screenshot showing audit banner if auditting is not enabled":::
+  
+4. Select the **Start recording user and admin activity**. 
+
+For more information on auditing, see [Set up Audit (Standard) in Microsoft 365](/microsoft-365/compliance/audit-standard-setup).
+
+#### Segmenting Data
+
+The Resource Accounts that shouldn't be called directly need to be segmented and easily identifiable.  This can be done by making them members of a particular group or by some unique information in their user profile such as: 
+
+-	Company
+-	User principal name
+-	Location
+-	Department
+-	Usage location
+-	Mail nickname (Alias)
+-	Physical delivery office name (Office)
+-	Postal code
+-	Proxy address (Email Address)
+-	Street address
+-	Target address (ExternalEmailAddress)
+-	Mail (WindowsEmailAddress)
+-	Description
+
+In the example steps below, the `Department` field will be used. 
+
+For more information on segmenting users, see  [Identify segments](/microsoft-365/compliance/information-barriers-policies).
+
+#### Microsoft admin center
+
+1. Sign into the [Microsoft 365 Admin Center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+2. In the left navigation pane, select **Active Users**.
+3. Select the first Resource Account to block direct calls to.
+4. Select **Manage contact information** in the right pane.
+5. Replace the contents of the `Department` field with a unique word or acronym that isn't used as a department name. For example, `DNC`.
+6. Save changes.
+7. Repeat for each Resource Account that needs to be blocked from receiving direct calls.
+
+#### Compliance - Information Barriers
+
+1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com/).
+2. In the left navigation pane, select **Information barriers** > **Segments**.
+3. Select **New segment**.
+4. Enter a name for the segment, and select **Next**. For example, `Uncallable Resource Accounts`.
+5. Select **+ Add**, and then **Department**.
+6. Enter the unique word or acronym used in Microsoft admin center step 5 above. For example, `DNC`.
+7. Select **Next**, and then **Submit**.
+8. Select **New segment**.
+9. Enter a name for the segment, and select **Next**. For example, `Callable Users`.
+10. Select **+ Add**, and then **Department**.
+11. Select the **Equal** drop-down, and select **Not equal to**.
+12. Enter the unique word or acronym used in Microsoft admin center step 5 above. For example, `DNC`.
+13. Select **Next**, and then **Submit**. 
+14. In the left navigation pane, select **Information barriers** > **Policies**.
+15. Select **Create policy**.
+16. Enter a name for the policy, and select **Next**. For example, `Uncallable Resource Accounts`.
+17. Select **+ Choose segment**, add the segment created in step 9 above, and select **Next**. For example, `Callable Users`.
+18. Select **Blocked** from the **Communication and collaboration** drop-down.
+19. Select **+ Choose segment**, add the segment created in step 4 above, and select **Next**. For example, `Uncallable Resource Accounts`.
+20. Set the policy to **On**, select **Next**, and then **Submit**.
+21. Select **Create policy**.
+22. Enter a name for the policy, and select **Next**. For example, `Callable Users`.
+23. Select **+ Choose segment**, add the segment created in step 4, and select **Next**.
+24. Select **Blocked** from the **Communication and collaboration** drop-down. 
+25. Select **+ Choose segment**, add the segment created in step 9 above, and select **Next**.
+26. Set the policy to **On**, select **Next**, and then **Submit**.
+27. In the left navigation pane, select **Information barriers** > **Policy application**.
+28. Select **Apply all policies**.
+
+> [!NOTE]
+> It may take 30 minutes or more for the policy to be applied.  
+> 
+> Once the status shows completed, go into Teams Client and try to search for the Resource Accounts that were blocked. It may be necessary to clear the Teams cache.  
+> 
+> If a Teams user has saved the Resource Account as a contact, they will no longer be able to call it.
