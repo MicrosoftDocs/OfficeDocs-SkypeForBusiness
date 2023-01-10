@@ -80,7 +80,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 | Attendee visibility | Teams production | External app or device production | Teams Powered Encoder
 |------------------------------|-----------------|----------------------|----------------|
 |Public (anonymous users)      |  Yes            |  No                  | Yes
-|Guest users                   |  Yes<sup>1</sup>            |  No                  |  yes            |
+|Guest users                   |  Yes<sup>1</sup>            |  No                  |  Yes            |
 |Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  | Yes            |
 |Everyone in company           |  Yes            |  Yes                 | Yes                |
 |Specific groups / people      |  Yes            |  Yes                 | Yes                |
