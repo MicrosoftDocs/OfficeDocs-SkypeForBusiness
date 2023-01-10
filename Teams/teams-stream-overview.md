@@ -33,7 +33,7 @@ After the event, the video will be available on demand with intelligent features
 
 ## Live events in Microsoft 365
 
-You can create a live steaming event in Teams or Yammer — wherever your audience, team, or community resides. Attendees can watch the event in high-definition (HD) video and submit questions through a moderated Q&A experience. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
+You can create a live steaming event in Teams or Yammer, wherever your audience, team, or community resides. Attendees can watch the event in high-definition (HD) video and submit questions through a moderated Q&A experience. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
 
 ## Get started
 
@@ -71,4 +71,4 @@ The following are capabilities of live streaming events:
 |On-demand viewing on live event (after event)        |Automatic transition for live to on-demand for immediate viewing and indexing in Teams |
 |Downloadable recording                               |Processed and available after the live event by owners               |
 
-Live events in Teams is a highly available service and you can expect good performance at scale. In the very unlikely scenario that results in failover being required, live events using external encoding won't have redundancy and aren't recoverable.
+Live events in Teams is a highly available service and you can expect good performance at scale. In the unlikely scenario that results in failover being required, live events using external encoding won't have redundancy and aren't recoverable.
