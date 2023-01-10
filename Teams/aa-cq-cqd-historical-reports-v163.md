@@ -81,7 +81,7 @@ Perform the following steps:
 
     The region will be displayed after the **/** as in the above example where the region is `noam`.
 
-GCC High and DoD Tenants
+  GCC High and DoD Tenants
 
 7. Update the template to use one of the following connectors:
 
