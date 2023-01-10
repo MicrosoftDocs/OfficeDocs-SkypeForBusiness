@@ -86,7 +86,7 @@ GCC High and DoD Tenants
 6. Update the template to use one of the following connectors:
 
 - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
-- DoD: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+  - DoD: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
 
 
 7. The report will launch with sample data.
