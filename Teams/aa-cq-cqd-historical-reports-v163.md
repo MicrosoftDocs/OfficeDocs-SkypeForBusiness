@@ -67,7 +67,7 @@ Perform the following steps:
 
 4. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
   Public Cloud Tenants
 
