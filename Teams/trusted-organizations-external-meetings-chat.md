@@ -46,7 +46,7 @@ Once you have configured external access, you can specify which users in your or
 
 For meetings and chat with other Microsoft 365 organizations, you can specify which domains you want to trust. By default, all external domains are allowed. You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat.
 
-In order to chat and meet with people in external domains, those organizations must trust your domain as well.
+In order to chat and meet with people in external domains, the organizations that you trust must also trust your organization, and their users must be enabled for external access. If not, they won't be able to chat with people in your organization and will show up as anonymous when joining your meetings.
 
 You can specify which domains are allowed or which domains are blocked. If you specify blocked domains, all other domains will be allowed; if you specify allowed domains, all other domains will be blocked. There are four scenarios for configuring trusted organizations:
 
