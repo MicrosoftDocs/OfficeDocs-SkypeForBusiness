@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: 
 audience: admin
 search.appverid: MET150
-description: Learn how to easily upgrade from Microsoft Teams Free (classic) to a subscription version by purchasing a Microsoft Teams Essentials/Microsoft 365/Office 365 plan for your users.
+description: Learn how to easily upgrade from Microsoft Teams Free (classic) to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -22,32 +22,17 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Upgrade Microsoft Teams Free (classic) to subscription versions
+# Upgrade Microsoft Teams Free (classic) to subscription version
 
 > [!IMPORTANT]
-> You must upgrade from Microsoft Teams Free (classic) to a subscription version of Teams as Microsoft Teams Free (classic) will not be supported from mid-April 2023.
+> You must upgrade from Microsoft Teams Free (classic) to a subscription version of Teams as the Microsoft Teams Free (classic) license will be deprecated and unavailable starting mid-April 2023. This article will be updated soon with instructions on how to upgrade your users to paid Teams licenses.
 
-If your organization is using Microsoft Teams Free (classic), you must upgrade to a subscription version such as:
-
-- Microsoft Teams Essentials (AAD Identity)
-- Microsoft 365 Business or Enterprise subscriptions for your users
+If your organization is using Microsoft Teams Free (classic), you can easily upgrade to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users. The full version provides other Teams features — like audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
 
 > [!NOTE]
-> To upgrade to Microsoft Teams Essentials (AAD Identity), the Microsoft Team Free (classic) users must also have been using Teams for Life (TFL) which is readily available. These users can then upgrade from Microsoft Teams Essentials to Microsoft 365 Business subscriptions.
+> If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides the full version of Teams for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
 
-A Microsoft Teams Free (classic) user who isn't using TFL can directly upgrade to Microsoft 365 Business subscriptions. For more information, see [Upgrade Microsoft Teams Free (classic) to subscription versions](#upgrade-microsoft-teams-free-classic-to-subscription-versions).
-
-The subscription versions provide other Teams features that the free version doesn't provide: audio conferencing, enhanced administration, and security capabilities.
-
-> [!IMPORTANT]
-> With reference to Microsoft Teams Essentials, which is included in the subscription versions being referred to, only Microsoft Teams Essentials (AAD Identity) provides these features and not Microsoft Teams Essentials (non-AAD Identity).
-
-Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services, like Exchange Online, SharePoint Online, and Office, to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost. All your teams, channels, chats, files, and permissions come with you.
-
-> [!NOTE]
-> If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides these subscription versions for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
-
-## How does Teams Free (classic) compare to the subscription versions of Teams?
+## How does Teams Free (classic) compare to the full version of Teams?
 
 Teams Free (classic) is designed for small to medium businesses and has the following features:
 
@@ -60,10 +45,10 @@ Teams Free (classic) is designed for small to medium businesses and has the foll
 - Channel meetings
 - Screen sharing
 
-A Microsoft Teams Essentials plan (AAD Identity) or a Microsoft 365/Office 365 plan provides the following features in addition to the features that Microsoft Teams Free (classic) provides:
+The full version of Teams included with a Microsoft 365 or Office 365 subscription provides the following features in addition to the features that Microsoft Teams Free (classic) provides:
 
 - No user limit (with an enterprise license)
-- Exchange email hosting with customer email domain address
+- Exchange email hosting and custom email domain
 - OneDrive, SharePoint, Planner, Yammer, and more Microsoft 365 and Office 365 services
 - 1 TB of storage per user
 - Scheduled meetings
@@ -75,7 +60,7 @@ For a detailed comparison of Teams Free (classic) and Teams features, see [Compa
 
 ## Upgrade requirements
 
-You can upgrade to the subscription versions of Teams if you meet the following requirements:
+You can upgrade to the full version of Teams if you meet the following requirements:
 
 - You're the person who signed up for the existing Microsoft Teams Free (classic) subscription.
 - If you're bringing your own domain, it isn't already associated with Azure Active Directory (via trial or purchased Microsoft 365 or Office 365 subscription).
@@ -94,38 +79,19 @@ Keep the following limitations in mind:
 
 ## How do I upgrade my organization?
 
-This section describes the procedure for Microsoft Teams Free (classic) users to upgrade to higher subscriptions such as Microsoft Teams Essentials, Microsoft 365 Business subscriptions.
+To upgrade to the full version of Teams, select **Upgrade** in Teams.
 
-This section is classified into:
+![screenshot showing Upgrade button.](media/teams-freemium-upgrade-image1.png)
 
-- [Upgrade to Microsoft Teams Essentials (AAD Identity)](#upgrade-to-microsoft-teams-essentials-aad-identity)
-- [Upgrade to Microsoft 365 Business subscriptions](#upgrade-to-microsoft-365-business-subscriptions)
-
-### Upgrade to Microsoft Teams Essentials (AAD Identity)
-
-To upgrade to a subscription version such as Microsoft Team Essentials, perform the following steps:
-
-1. Launch the URL [https://signup.microsoft.com/get-started/upgrade](https://signup.microsoft.com/get-started/upgrade).
-1. Create your username and password for the account with which you must sign in to Teams.
-1. Make the payment for Microsoft Teams Essentials.
-   Once you have made the payment, you have purchased Microsoft Teams Essentials.
-    If you would like to purchase Microsoft 365 Business Basic or an Enterprise edition of Office 365, [contact support](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
-
-### Upgrade to Microsoft 365 Business subscriptions
-
- A Teams Free (classic) user who doesn't use TFL can directly upgrade to Microsoft 365 Business subscriptions by following the steps specified in [Upgrade from Teams Free (classic) to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+Enter the email address that you use to sign in to Teams, and then purchase a Microsoft 365 Business Standard plan. If you would like to purchase Microsoft 365 Business Basic or an Enterprise edition of Office 365, [contact support](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
 
 ## What's next?
 
-After your upgrade is complete, perform the following steps:
-
-> [!NOTE]
-> Prior to getting started with Teams, ensure that you manage your users in the organization by upgrading them to the subscribed product, which involves adding user licenses, changing user names, and assigning temporary passwords. For more information, see [For admins upgrading from Teams Free (classic) to a paid subscription](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
-
-1. Get started with Microsoft Teams' subscription versions to explore the features they offer. For more information, see [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
-1. Adopt Microsoft Teams across your organization in a phased approach. For more information, see [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md).
+After your upgrade is complete, see [Get started with Microsoft Teams](get-started-with-teams-quick-start.md) for first steps and [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md) for a phased approach to Teams adoption across your organization.
 
 ## More information
 
 - To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).
+- For more information about upgrading to the full version of Teams, see [Upgrade from Teams Free (classic) to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+- For information about other admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams Free (classic) to a paid subscription](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
 - For information about managing Teams free in your organization, see [Manage Microsoft Teams Free (Classic)](manage-freemium.md).
