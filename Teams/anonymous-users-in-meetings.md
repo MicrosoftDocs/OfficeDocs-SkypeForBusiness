@@ -28,10 +28,7 @@ Anonymous participants in meetings are those who's identity can't be verified. T
 
 Anonymous meeting join is controlled by an organization level setting and user level policies. For anonymous meeting join to work, the **anonymous participants can join a meeting** organization level setting must be turned on and the meeting organizer must be assigned a policy where the **Let anonymous people join a meeting** is turned on. Anonymous join is turned on by default for the organization and in the default global meeting policy.
 
-Mention impact on meeting experience, meeting join and Lobby
-Passed some content from our last Lobby article especially about Let anonymous people start a meeting policy
-
-To understand how anonymous participants interact with the meeting lobby, see [Control who can bypass the meeting lobby in Microsoft Teams](/microsoftteams/who-can-bypass-meeting-lobby).
+To understand how anonymous participants interact with the meeting lobby, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
 #### Meetings with trusted organizations
 
@@ -57,7 +54,7 @@ To configure anonymous meeting join for the organization
 
 ## Manage anonymous meeting join for meeting organizers
 
-A meeting policy with anonymous meeting join turned on must be assigned to each meeting organizer who needs to create meetings that allow anonymous join.
+A meeting policy with anonymous meeting join turned on must be assigned to each meeting organizer who needs to create meetings that allow anonymous participants.
 
 To configure anonymous meeting join for specific meeting organizers
 1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
@@ -80,15 +77,15 @@ You can control whether anonymous participants can join meetings by using:
 In order to allow anonymous participants to join meetings, you must configure both to allow anonymous join by setting the following values:
 
 - `Set-CsTeamsMeetingPolicy -DisableAnonymousJoin` set to **$false**
-- `Set-CsTeamsMeetingConfiguration -AllowAnonymousUsersToJoinMeeting` set to **$true**
-
-Any other combination of values will prevent anonymous participants from joining meetings.
+- `Set-CsTeamsMeetingConfiguration -AllowAnonymousUsersToJoinMeeting` set to **$true** for the relevant meeting organizers
 
 ## Control if anonymous participants can start a meeting
 
-The **anonymous participants and dial-in callers can start a meeting** policy setting controls whether anonymous participants and dial-in users can join the meeting without a verified participant in attendance. 
+The **anonymous participants and dial-in callers can start a meeting** policy setting controls whether anonymous participants and dial-in users can join a meeting without a verified participant in attendance. 
 
 By default, the **Anonymous participants and dial-in callers can start a meeting** policy is **Off**. This means that anonymous participants and people calling in by phone will always wait in the lobby if a verified participant has not yet started the meeting. While you can turn this setting on if there are circumstances where you want to allow anonymous participants and people calling in by phone to start meetings, we recommend that you leave it off.  When the setting is on, people with unverified accounts can start meetings, including using the meeting link to have meetings at unscheduled times.
+
+For information on how to configure this setting, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
 ## Block anonymous join for specific client types
 
