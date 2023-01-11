@@ -297,6 +297,8 @@ You'll have to refresh the data to see any new data.
 
 ## Known issues
 
+- The **Call Results** visual on the **Call Queue** report may report a large number of ***Unknown*** calls. This is due to a call classification issue that Support is working to correct.  This is a call classification issue only and these calls were successfullly processed by the system .
+
 - Call queues and auto attendants are shown by the resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
 - Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
