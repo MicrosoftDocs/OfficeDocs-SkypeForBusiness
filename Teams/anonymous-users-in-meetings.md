@@ -20,48 +20,26 @@ description: Learn how anonymous meeting participation works in Microsoft Teams.
 
 # Manage anonymous participants in Teams meetings
 
-Anonymous participants in meetings are those who's identity can't be verified. This happens when a participant isn't an internal user, a guest, or a participant from a trusted organization.
+Anonymous participants in meetings are those who's identity can't be verified. This could include:
+
+- People who are not logged in to Microsoft 365 with a work or school account 
+- People from non-trusted organizations (as configured in [external access](manage-external-access.md)).
+- People from organizations that you trust but which do not trust your organization
 
 Anonymous meeting join is controlled by an organization level setting and user level policies. For anonymous meeting join to work, the **anonymous participants can join a meeting** organization level setting must be turned on and the meeting organizer must be assigned a policy where the **Let anonymous people join a meeting** is turned on. Anonymous join is turned on by default for the organization and in the default global meeting policy.
 
 Mention impact on meeting experience, meeting join and Lobby
 Passed some content from our last Lobby article especially about Let anonymous people start a meeting policy
 
-Nuances around external orgs that don't have trust set up or specific users who aren't enabled in external access
-
-Four ways to attend meetings:
-- Internal user
-- Guest
-- Participant from a trusted organization
-- Anonymous
-
-
-Circumstances when participant can be anonymous
-- Not logged in to anything
-- 
-
-
-Questions:
-- When do people show up as anonymous
-- What can anonymous participants do
-
-
-Admin intents
-- Specify which users
-- Turn on/off generally
-
-
-
-Anonymous participants are anonymous because they are not logged in to an account that can be verified by Microsoft 365. This could include:
-
-- People who are not logged in to Microsoft 365 with a work or school account 
-- People from non-trusted organizations (as configured in [external access](manage-external-access.md)).
-- People from organizations that you trust but which do not trust your organization
-
 To understand how anonymous participants interact with the meeting lobby, see [Control who can bypass the meeting lobby in Microsoft Teams](/microsoftteams/who-can-bypass-meeting-lobby).
 
+#### Meetings with trusted organizations
+
+When you set up [trusted organizations for external meetings and chat](manage-external-access.md), keep in mind that the organizations that you trust must also trust your organization, and their users must be enabled for external access. If not, these participants will show up as anonymous when joining your meetings.
 
 ## Manage anonymous meeting join for the organization
+
+The organization level anonymous meeting join setting must be turned on for anyone in the organization to create meetings that allow anonymous participants.
 
 > [!Important]
 > The **Anonymous participants can join a meeting** organization-wide setting will be removed in the future. We recommend leaving this setting **On** and using the the **Let anonymous people join a meeting** user level meeting policy control instead.
@@ -79,7 +57,7 @@ To configure anonymous meeting join for the organization
 
 ## Manage anonymous meeting join for meeting organizers
 
-
+A meeting policy with anonymous meeting join turned on must be assigned to each meeting organizer who needs to create meetings that allow anonymous join.
 
 To configure anonymous meeting join for specific meeting organizers
 1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
