@@ -108,7 +108,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 ## Skype for Business Online
 
-If you want chats and calls to arrive in the user's Skype for Business client, configure your users to be in any mode other than TeamsOnly.
+If you want chats and calls to arrive in the user's Skype for Business client, configure your users to be in any mode other than TeamsOnly. For more information, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ## Manage chat with external Teams users not managed by an organization
 
