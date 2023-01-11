@@ -45,7 +45,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
->[!Note]
+> [!NOTE]
 > The change from using Microsoft Stream to [OneDrive for Business and SharePoint (ODSP) for meeting recordings](../tmr-meeting-recording-change.md) has been completed as of August 30th, 2021. All recordings are now stored in ODSP.
 
 > [!NOTE]
