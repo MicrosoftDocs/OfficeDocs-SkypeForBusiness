@@ -105,6 +105,7 @@ Busy on busy when in a call (also called "busy options") lets you configure how 
 - **Not enabled** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
 - **Enabled** New or incoming calls will be rejected with a busy signal.
 - **Unanswered** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
+- **User controlled** This option is not currently functional; if set, this will be read as setting the value to **Not enabled**.
 
 ### Web PSTN calling
 
