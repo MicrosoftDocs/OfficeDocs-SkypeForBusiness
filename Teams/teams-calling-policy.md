@@ -56,23 +56,23 @@ Here are the settings that you can configure for calling policies.
 
 ### Make private calls
 
-This setting controls all calling capabilities in Teams. Turn this off to turn off all calling functionality in Teams.
+This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
 
 ### Cloud recording for calling
 
-This setting controls whether users can record calls. This is off by default.
+This setting controls whether users can record calls. This setting is off by default.
 
 ### Transcription
 
-This setting controls whether the transcription of calls is available for your users. This is off by default.
+This setting controls whether the transcription of calls is available for your users. This setting is off by default.
 
 ### Call forwarding and simultaneous ringing to people in your organization
 
-This setting controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time. This is on by default.
+This setting controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time. This setting is on by default.
 
 ### Call forwarding and simultaneous ringing to external phone numbers
 
-This setting controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time. This is on by default.
+This setting controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time. This setting is on by default.
 
 ### Voicemail is available for routing inbound calls
 
@@ -84,7 +84,7 @@ This setting enables inbound calls to be sent to voicemail. The default setting 
 
 ### Inbound calls can be routed to call groups
 
-This setting controls whether incoming calls can be forwarded to a call group. This is turned on by default.
+This setting controls whether incoming calls can be forwarded to a call group. This setting is turned on by default.
 
 ### Delegation for inbound and outbound calls
 
@@ -92,7 +92,7 @@ This setting enables inbound calls to be routed to delegates, allowing delegates
 
 ### Prevent toll bypass and send calls through the PSTN
 
-Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
+Turning on this setting will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
 
 ### Music on hold for PSTN calls
 
@@ -109,11 +109,11 @@ Busy on busy when in a call (also called "busy options") lets you configure how 
 
 ### Web PSTN calling
 
-This setting enables users to call PSTN numbers using the Teams web client. This is on by default.
+This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
 
 ### Real-time captions in Teams calls
 
-This setting controls whether real-time captions in Teams calls are available for your users. This is turned on by default.
+This setting controls whether real-time captions in Teams calls are available for your users. This setting is turned on by default.
 
 ### Automatically answer incoming meeting invites
 
@@ -121,11 +121,11 @@ This setting controls whether incoming meeting invites are automatically answere
 
 ### Spam filtering
 
-This setting allows you to control the type of spam filtering available on incoming calls. Both Basic and Captcha Interactive Voice (IVR) checks can be performed. This is turned on by default.
+This setting allows you to control the type of spam filtering available on incoming calls. Both Basic and Captcha Interactive Voice (IVR) checks can be performed. This setting is turned on by default.
 
 ### SIP devices can be used for calls
 
-This setting enables users to use a SIP device to make and receive calls. This is turned off by default.
+This setting enables users to use a SIP device to make and receive calls. This setting is turned off by default.
 
 ### Open apps in browser for incoming PSTN calls
 
