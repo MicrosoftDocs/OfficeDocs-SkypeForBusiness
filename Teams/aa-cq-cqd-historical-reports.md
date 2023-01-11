@@ -299,6 +299,8 @@ You'll have to refresh the data to see any new data.
 
 - The **Call Results** visual on the **Call Queue** report may report a large number of ***Unknown*** calls. This is due to a call classification issue that Support is working to correct.  This is a call classification issue only and these calls were successfullly processed by the system.
 
+- Only the calls/caller actions in the first AA or CQ that answers the call are reported on.  Calls/caller actions in chained auto attendants (when one AA transfers to another AA) or chained call queues (when one CQ transfers to another CQ) are not reported on. 
+
 - Call queues and auto attendants are shown by the resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
 - Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
