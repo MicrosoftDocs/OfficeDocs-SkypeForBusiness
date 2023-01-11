@@ -61,12 +61,6 @@ Anonymous participants are anonymous because they are not logged in to an accoun
 To understand how anonymous participants interact with the meeting lobby, see [Control who can bypass the meeting lobby in Microsoft Teams](/microsoftteams/who-can-bypass-meeting-lobby).
 
 
-## Control if anonymous participants can start a meeting
-
-The **anonymous participants and dial-in callers can start a meeting** policy setting controls whether anonymous participants and dial-in users can join the meeting without a verified participant in attendance. 
-
-By default, the **Anonymous participants and dial-in callers can start a meeting** policy is **Off**. This means that anonymous participants and people calling in by phone will always wait in the lobby if a verified participant has not yet started the meeting. While you can turn this setting on if there are circumstances where you want to allow anonymous participants and people calling in by phone to start meetings, we recommend that you leave it off.  When the setting is on, people with unverified accounts can start meetings, including using the meeting link to have meetings at unscheduled times.
-
 ## Manage anonymous meeting join for the organization
 
 > [!Important]
@@ -98,7 +92,7 @@ To configure anonymous meeting join for specific meeting organizers
 
 1. Select **Save**.
 
-### Configure anonymous meeting join using PowerShell
+## Configure anonymous meeting join using PowerShell
 
 You can control whether anonymous participants can join meetings by using:
 
@@ -112,7 +106,13 @@ In order to allow anonymous participants to join meetings, you must configure bo
 
 Any other combination of values will prevent anonymous participants from joining meetings.
 
-### Block anonymous join for specific client types
+## Control if anonymous participants can start a meeting
+
+The **anonymous participants and dial-in callers can start a meeting** policy setting controls whether anonymous participants and dial-in users can join the meeting without a verified participant in attendance. 
+
+By default, the **Anonymous participants and dial-in callers can start a meeting** policy is **Off**. This means that anonymous participants and people calling in by phone will always wait in the lobby if a verified participant has not yet started the meeting. While you can turn this setting on if there are circumstances where you want to allow anonymous participants and people calling in by phone to start meetings, we recommend that you leave it off.  When the setting is on, people with unverified accounts can start meetings, including using the meeting link to have meetings at unscheduled times.
+
+## Block anonymous join for specific client types
 
 When anonymous participants are allowed to join meetings, they can use either the Teams client or a custom client built using [Azure Communication Services](/azure/communication-services/). 
 
