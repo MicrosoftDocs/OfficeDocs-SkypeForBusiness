@@ -25,11 +25,13 @@ As an admin, you can restrict which users can start instant meetings and schedul
 
 The meeting policy settings are turned on by default. These settings can be found in the Teams admin center under **Meetings** > **Meeting policies**.
 
-- **Meet now in channels**: Controls whether a user can start an instant meeting in a channel.
-- **Channel meeting scheduling**: Controls whether a user can schedule a meeting in a channel.
+- **Meet now in channels**: Controls whether a user can start an instant meeting in a channel. This is a per-user policy and applies before a meeting starts. If you turn on this setting, users can click the **Meet** button to start an instant meeting or schedule a meeting in the channel. This setting is on by default.
+- **Channel meeting scheduling**: Controls whether a user can schedule a meeting in a channel. This is a per-user policy and applies before a meeting starts. If this policy is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event. This setting is on by default.
 - **Private meeting scheduling**: Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
-- **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
-- **Meet now in private meetings**: Controls whether a user can start an instant private meeting.
+- **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team. This is a per-user policy and applies before a meeting starts. If you turn this setting off, users will be unable to schedule Teams meetings when they create a new meeting in Outlook.
+- **Meet now in private meetings**: Controls whether a user can start an instant private meeting. This is a per-user policy and applies before a meeting starts. This setting is on by default.
+
+If you turn off both the **Private meeting scheduling** and **Channel meeting scheduling** settings, the **Add required attendees** and **Add channel** options are disabled for users in Teams.
 
 > [!NOTE]
 > If the meeting was sent by a delegate, who was given permissions to send meeting invitations on behalf of another person, such as a manager, the meeting policy setting is applied to the person who granted permission (the manager).
