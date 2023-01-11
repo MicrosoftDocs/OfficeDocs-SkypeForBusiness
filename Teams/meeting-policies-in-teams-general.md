@@ -41,7 +41,7 @@ This article describes the following general policy settings for Teams meetings:
 
 ## Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn on this setting, users can click the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. This setting is on by default.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an instant meeting in a Teams channel. If you turn on this setting, users can click the **Meet** button to start an instant meeting or schedule a meeting in the channel. This setting is on by default.
 
 [![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -59,15 +59,15 @@ Use the existing AllowChannelMeetingScheduling policy to control the types of ev
 
 If this policy is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
-Schedule a meeting will be disabled.
+Schedule a meeting won't be enabled.
 
 ![Screenshot showing the Schedule a meeting option in Teams.](media/schedule-meeting-option.png)
 
-Channel selection is disabled.
+Channel selection won't be enabled.
 
 [![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-In the channel posts page, the following functionalities will be disabled:
+In the channel posts page, the following functionalities won't be available:
 
 - **Schedule a meeting** button on the channel reply compose box.
   ![Screenshot showing the calendar option for selecting a channel in which you want to schedule a meeting.](media/schedule-meeting-disabled-in-chat2.png)
@@ -77,7 +77,7 @@ In the channel posts page, the following functionalities will be disabled:
 
 In the channel calendar:
 
-- **Add new event** button on channel calendar header will be disabled.
+- **Add new event** button on channel calendar header won't be enabled.
   ![Screenshot showing the calendar option for selecting a channel that will enable you to schedule a meeting.](media/add-new-event-disabled.png)
 
 - Users won't be able to drag and select a time block on the channel calendar to create a channel meeting.
@@ -94,7 +94,7 @@ The channel calendar app will show up in the **Microsoft apps** section on the a
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team. **Private meeting scheduling** is turned on by default.
 
-If you turn off both the **Private meeting scheduling** and **Channel meeting scheduling** settings, the **Add required attendees** and **Add channel** options are disabled for users in Teams.
+If you turn off both the **Private meeting scheduling** and **Channel meeting scheduling** settings, the **Add required attendees** and **Add channel** options will not be enabled for users in Teams.
 
 ## Engagement report
 
@@ -146,7 +146,7 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
 The availability of meeting reactions can be configured through either the Teams admin center interface or using PowerShell. Meeting reactions are enabled by default.
 
-In the Teams admin center, Meeting reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Participants & guests** section of a meeting policy.
+In the Teams admin center, Meeting reactions can be turned off or on under the **Meetings** > **Meeting policies** under the **Participants & guests** section of a meeting policy.
 
 To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
 
