@@ -74,7 +74,7 @@ See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivica
 ## Remove an emergency location
 
 > [!NOTE]
-> You can't remove a location if it has users or phone numbers assigned to it. You need to remove or move those users or phone numbers first.
+> You can remove a location only if it has no users or phone numbers assigned to it. If it has you need to remove or move those users or phone numbers first.
 
 ### Using the Microsoft Teams admin center
 
