@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
