@@ -132,7 +132,7 @@ Introduced in this update:
 - Admin setting for content only layout default  
 - Modern authentication is on by default
 
- <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Rooms user account.](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
 
