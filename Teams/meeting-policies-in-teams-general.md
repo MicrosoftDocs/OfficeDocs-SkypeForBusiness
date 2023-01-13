@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -32,8 +33,6 @@ This article describes the following general policy settings for Teams meetings:
 - [Outlook add-in](#outlook-add-in)
 - [Channel meeting scheduling](#channel-meeting-scheduling)
 - [Private meeting scheduling](#private-meeting-scheduling)
-- [Meet now in private meetings](#meet-now-in-private-meetings)
-- [Designated presenter role mode](#designated-presenter-role-mode)
 - [Engagement report](#engagement-report)
 - [Meeting registration](#meeting-registration)
 - [Webinars](#webinars)
@@ -43,7 +42,7 @@ This article describes the following general policy settings for Teams meetings:
 
 ## Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click the **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn on this setting, users can click the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. This setting is on by default.
 
 [![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -53,13 +52,13 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ![Screenshot showing the ability to schedule a new meeting.](media/meeting-policies-outlook-add-in.png)
 
-If you turn this off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
+If you turn this setting off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
 ## Channel meeting scheduling
 
 Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
 
-If this policy is turned off, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
+If this policy is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
 Schedule a meeting will be disabled.
 
@@ -69,7 +68,7 @@ Channel selection is disabled.
 
 [![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-In the channel posts page, the following will be disabled:
+In the channel posts page, the following functionalities will be disabled:
 
 - **Schedule a meeting** button on the channel reply compose box.
   ![Screenshot showing the calendar option for selecting a channel in which you want to schedule a meeting.](media/schedule-meeting-disabled-in-chat2.png)
@@ -82,9 +81,9 @@ In the channel calendar:
 - **Add new event** button on channel calendar header will be disabled.
   ![Screenshot showing the calendar option for selecting a channel that will enable you to schedule a meeting.](media/add-new-event-disabled.png)
 
-- Users will not be able to drag and select a time block on the channel calendar to create a channel meeting.
+- Users won't be able to drag and select a time block on the channel calendar to create a channel meeting.
 
-- Users cannot use Keyboard shortcuts to create a meeting on the channel calendar.
+- Users can't use Keyboard shortcuts to create a meeting on the channel calendar.
 
 In the admin center:
 
@@ -94,29 +93,9 @@ The channel calendar app will show up in the **Microsoft apps** section on the a
 
 ## Private meeting scheduling
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team. **Private meeting scheduling** is turned on by default.
 
-Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. By default, this setting is turned on.
-
-## Meet now in private meetings
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  By default, this setting is turned on.
-
-## Designated presenter role mode
-
-This is a per-user policy. This setting lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. This policy setting affects all meetings, including Meet Now meetings.
-
-The **Who can present?** setting lets meeting organizers choose who can be presenters in a meeting. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
-
-Currently, you can only use PowerShell to configure this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
-
-To specify the default value of the **Who can present?** setting in Teams, set the **DesignatedPresenterRoleMode** parameter to one of the following:
-
-- **EveryoneUserOverride**:  All meeting participants can be presenters. This is the default value. This parameter corresponds to the **Everyone** setting in Teams.
-- **EveryoneInCompanyUserOverride**: Authenticated users in the organization, including guest users, can be presenters. This parameter corresponds to the **People in my organization** setting in Teams.
-- **OrganizerOnlyUserOverride**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only me** setting in Teams.
-
-Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
+If you turn off both the **Private meeting scheduling** and **Channel meeting scheduling** settings, the **Add required attendees** and **Add channel** options are disabled for users in Teams.
 
 ## Engagement report
 
@@ -137,7 +116,7 @@ For more information, including limits of the engagement report, see [viewing an
 
 ## Meeting registration
 
-This is a per-user policy. If you turn this on, users in your organization can add registration to a meeting. This policy is enabled by default.
+This is a per-user policy. If you turn this setting on, users in your organization can add registration to a meeting. This policy is enabled by default.
 
 To find out more about meeting registration, read [Configure meeting registration](set-up-webinars.md#configure-meeting-registration).
 
@@ -159,7 +138,7 @@ Currently, you can only use PowerShell to set this policy. You can edit an exist
 
 To specify which meeting add-in you want to be available to users, set the **PreferredMeetingProviderForIslandsMode** parameter as follows:
 
-- Set the parameter to **TeamsAndSfB** to enable both the Teams Meeting add-in and Skype for Business add-in in Outlook. This is the default value.
+- Set the parameter to **TeamsAndSfB** to enable both the Teams Meeting add-in and Skype for Business add-in in Outlook. **TeamsAndSfB** is the default value.
 - Set the parameter to **Teams** to enable only the Teams Meeting add-in in Outlook. This policy setting ensures that all future meetings have a Teams meeting join link. It doesn't migrate existing Skype for Business meeting join links to Teams. This policy setting doesn't affect presence, chat, PSTN calling, or any other capabilities in Skype for Business, which means that users will continue to use Skype for Business for these capabilities.
 
   If you set the parameter to **Teams**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. However, note that existing Teams meeting join links won't be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
@@ -172,7 +151,7 @@ In the Teams admin center, Meeting reactions can be enabled or disabled under th
 
 To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
 
-Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
+Turning off reactions for a user doesn't mean a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Speaker Coach
 
