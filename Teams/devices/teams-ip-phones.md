@@ -58,7 +58,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | AudioCodes C435HD                      | `1.12.33`                                                  | August 5, 2023               | 9 |
 | AudioCodes C455HD                      | `1.14.404`                                                 | August 5, 2023               | 9 |
 | Crestron UC-2                          |`1.0.1.46`                                                  | August 5, 2023               | 9 |
-| Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | December 5, 2022             | 8.1 |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155`                                              | August 5, 2023               | 9 |
 | Poly CCX400                            | `1.0.0.0200`                                               | August 5, 2023               | 9 |
 | Poly CCX600                            | `5.9.12.1122`                                              | August 5, 2023               | 9 |
@@ -108,7 +107,6 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 | Neat Frame nf21f1 | `NFF1.20220914.1210` | September 3, 2024 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| August 5, 2023 |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| August 5, 2023 |  9  |
-|Lenovo ThinkSmart View|`CD-18781Y.201006.099`| December 5, 2022 |  8.1  |
 
 ## Certified Teams panels
 The following devices are Certified under the Microsoft Teams panels Certification Program:
