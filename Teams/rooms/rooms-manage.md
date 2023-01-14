@@ -18,9 +18,9 @@ description: Learn about how to develop and execute ongoing maintenance and oper
 ms.custom: seo-marvel-apr2020
 ---
 
-# Manage Microsoft Teams Rooms
+# Manage Microsoft Teams Rooms and Surface Hubs
 
-If you have Microsoft Teams Rooms in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams admin center.
+If you have Microsoft Teams Rooms device or a Surface Hub in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all your Teams solutions, Microsoft Teams admin center.
 
 With Microsoft Teams admin center, you can:
 
@@ -28,9 +28,9 @@ With Microsoft Teams admin center, you can:
 - Apply Teams-specific settings
 - Check the health status of Microsoft Teams Rooms and their peripherals, including cameras, displays, microphones, and so on
 - Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
-- See peripherals (such as cameras and projectors) connected to Microsoft Teams Rooms
+- See peripherals (such as cameras and projectors) connected to Microsoft Teams Rooms (only for Teams Rooms on Windows)
 
-To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows**.
+To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows** or **Surface Hubs**.
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams Rooms summary page in Teams admin center.":::
 
@@ -38,13 +38,13 @@ To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://a
 > [!IMPORTANT]
 > To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator, or Teams Devices Administrator roles.
 
-## Make changes to Teams Rooms devices
+## Make changes to Teams Rooms devices or Surface Hubs
 
-If you have more than one Teams Rooms, you can do most actions on multiple devices at the same time. For example, you can set Teams app settings on all of your Teams Rooms at the same time.
+If you have more than one Teams Rooms or Surface Hub device, you can do most actions on multiple devices at the same time. For example, you can set Teams app settings on all of your Teams Rooms at the same time.
 
 ### Device settings
 
-You can change settings on one or more Teams Rooms in your organization. To change settings, select the device or devices you want to manage and then select **Edit Settings**. A new pane will open with all of the settings you can change. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single Teams Rooms.
+You can change settings on one or more Teams Rooms or Surface Hubs in your organization. To change settings, select the device or devices you want to manage and then select **Edit Settings**. A new pane will open with all of the settings you can change. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single Teams Rooms.
 
 If you select more than one, settings that support bulk editing show the two following options.
 
@@ -55,51 +55,53 @@ If you select more than one, settings that support bulk editing show the two fol
     >
     > If you select multiple Teams Rooms, the setting on all of the devices you select will be changed to the value you provide. If Teams Rooms have different values for a setting, they'll all be updated to the same value.
 
-| Setting                                                      | Accepted values                                        | Supports bulk edit |
-|--------------------------------------------------------------|--------------------------------------------------------|--------------------|
-| *Account*                                                    |                                                        |                    |
-| **Email**                                                    | Email address                                          | No                 |
-| **Supported meeting mode**                                   | Microsoft Teams only<br>Skype for Business (default) and Microsoft Teams<br>Skype for Business and Microsoft Teams (default)<br>Skype for Business Only|Yes|
-| **Modern authentication**                                    | On<br>Off                                              | Yes                |
-| **Exchange address**                                         | Email address                                          | No                 |
-| **Domain\username (optional)**                               | Account domain and user name                           | No                 |
-| **Configure domain**                                         | Comma-separated list                                   | Yes                |
-| *Meetings*                                                   |                                                        |                    |
-| **Automatic screen sharing**                                 | On<br>Off                                              | Yes                |
-| **HDMI ingest audio sharing**                                 | On<br>Off                                              | Yes                |
-| **Show meeting names**                                       | On<br>Off                                              | Yes                |
-| **Auto-leave if everyone else left meeting**                 | On<br>Off                                              | Yes                |
-| **Join third-party meetings**                 | Cisco Webex<br>Zoom                                              | Yes                |
-| **Join with room info**                 | Selected<br>Unselected                                              | Yes                |
-| **Join with custom info**                 | Selected<br>Unselected                                              | Yes                |
-| **Name (required)**                 | Name of room or space                                              | Yes                |
-| **Email (required)**                 | Email address                                              | Yes                |
-| *Device*                                                     |                                                        |                    |
-| **Dual monitor mode**                                        | On<br>Off                                              | Yes                |
-| **Allow content duplication** | Selected<br>Unselected                                 | Yes                |
-| **Bluetooth beaconing**                                      | On<br>Off                                              | Yes                |
-| **Automatically accept proximity-based meeting invitations** | Selected<br>Unselected                                 | Yes                |
-| **Send logs with feedback**                                  | On<br>Off                                              | Yes                |
-| **Email address for logs and feedback**                      | Email address                                          | Yes                |
-| *Coordinate Meetings*                                                     |                                                        |                    |
-| **Coordinated Meetings** | On<br>Off                                 | No                |
-| **Turn on this device’s microphone** | On<br>Off                                 | No                |
-| **Let people enable when joining a meeting** | Selected<br>Unselected                                 | No                |
-| **Turn on this device’s camera** | On<br>Off                                 | No                |
-| **Let people enable when joining a meeting** | Selected<br>Unselected                                 | No                |
-| **Turn on whiteboarding for this device** | On<br>Off                                 | No                |
-| **Trusted device accounts (separate with commas)** | List of devices                              | No                |
-| *Peripherals*                                                |                                                        |                    |
-| **Conferencing microphone**                                  | List of available microphones                          | No                 |
-| **Conferencing speaker**                                     | List of available speakers                             | No                 |
-| **Default volume**                                           | 0-100                                                  | No                 |
-| **Default speaker**                                          | List of available speakers                             | No                 |
-| **Default volume**                                           | 0-100                                                  | No                 |
-| **Content camera**                                           | List of available cameras                              | No                 |
-| **Content Camera Enhancements**                              | On<br>Off                                              | No                 |
-| **Rotate Content Camera 180 degrees**                        | On<br>Off                                              | No                 |
-| *Theming*                                                    |                                                        |                    |
-|                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                |
+| Setting                                                      | Accepted values                                        | Supports bulk edit | Supported device types |
+|--------------------------------------------------------------|--------------------------------------------------------|--------------------|------------------------|
+| *Account*                                                    |                                                        |                    | Teams Rooms on Windows |
+| **Email**                                                    | Email address                                          | No                 | Teams Rooms on Windows |
+| **Supported meeting mode**                                   | Microsoft Teams only<br>Skype for Business (default) and Microsoft Teams<br>Skype for Business and Microsoft Teams (default)<br>Skype for Business Only|Yes| Teams Rooms on Windows |
+| **Modern authentication**                                    | On<br>Off                                              | Yes                | Teams Rooms on Windows |
+| **Exchange address**                                         | Email address                                          | No                 | Teams Rooms on Windows |
+| **Domain\username (optional)**                               | Account domain and user name                           | No                 | Teams Rooms on Windows |
+| **Configure domain**                                         | Comma-separated list                                   | Yes                | Teams Rooms on Windows |
+| *Meetings*                                                   |                                                        |                    | Teams Rooms on Windows, Surface Hubs |
+| **Automatic screen sharing**                                 | On<br>Off                                              | Yes                | Teams Rooms on Windows |
+| **HDMI ingest audio sharing**                                 | On<br>Off                                              | Yes                | Teams Rooms on Windows |
+| **Show meeting names**                                       | On<br>Off                                              | Yes                | Teams Rooms on Windows |
+| **Auto-leave if everyone else left meeting**                 | On<br>Off                                              | Yes                | Teams Rooms on Windows |
+| **Join third-party meetings**                 | Cisco Webex<br>Zoom                                              | Yes                | Teams Rooms on Windows, Surface Hubs |
+| **Join with room info**                 | Selected<br>Unselected                                              | Yes                | Teams Rooms on Windows, Surface Hubs |
+| **Join with custom info**                 | Selected<br>Unselected                                              | Yes                | Teams Rooms on Windows |
+| **Name (required)**                 | Name of room or space                                              | Yes                | Teams Rooms on Windows |
+| **Email (required)**                 | Email address                                              | Yes                | Teams Rooms on Windows |
+| *Device*                                                     |                                                        |                    | Teams Rooms on Windows |
+| **Dual monitor mode**                                        | On<br>Off                                              | Yes                | Teams Rooms on Windows |
+| **Allow content duplication** | Selected<br>Unselected                                 | Yes                | Teams Rooms on Windows |
+| **Bluetooth beaconing**                                      | On<br>Off                                              | Yes                | Teams Rooms on Windows, Surface Hubs |
+| **Automatically accept proximity-based meeting invitations** | Selected<br>Unselected                                 | Yes                | Teams Rooms on Windows, Surface Hubs |
+| **Send logs with feedback**                                  | On<br>Off                                              | Yes                | Teams Rooms on Windows |
+| **Email address for logs and feedback**                      | Email address                                          | Yes                | Teams Rooms on Windows |
+| *Coordinate Meetings*                                                     |                                                        |                    | Teams Rooms on Windows |
+| **Coordinated Meetings** | On<br>Off                                 | No                | Teams Rooms on Windows, Surface Hubs |
+| **Turn on this device’s microphone** | On<br>Off                                 | No                | Teams Rooms on Windows, Surface Hubs |
+| **Let people enable when joining a meeting** | Selected<br>Unselected                                 | No                | Teams Rooms on Windows, Surface hubs |
+| **Turn on this device’s camera** | On<br>Off                                 | No                | Teams Rooms on Windows, Surface Hubs |
+| **Let people enable when joining a meeting** | Selected<br>Unselected                                 | No                | Teams Rooms on Windows, Surface Hubs |
+| **Turn on whiteboarding for this device** | On<br>Off                                 | No                | Teams Rooms on Windows, Surface Hubs |
+| **Trusted device accounts (separate with commas)** | List of devices                              | No                | Teams Rooms on Windows, Surface Hubs |
+| *Peripherals*                                                |                                                        |                    | Teams Rooms on Windows |
+| **Conferencing microphone**                                  | List of available microphones                          | No                 | Teams Rooms on Windows |
+| **Conferencing speaker**                                     | List of available speakers                             | No                 | Teams Rooms on Windows |
+| **Default volume**                                           | 0-100                                                  | No                 | Teams Rooms on Windows |
+| **Default speaker**                                          | List of available speakers                             | No                 | Teams Rooms on Windows |
+| **Default volume**                                           | 0-100                                                  | No                 | Teams Rooms on Windows |
+| **Content camera**                                           | List of available cameras                              | No                 | Teams Rooms on Windows |
+| **Content Camera Enhancements**                              | On<br>Off                                              | No                 | Teams Rooms on Windows |
+| **Rotate Content Camera 180 degrees**                        | On<br>Off                                              | No                 | Teams Rooms on Windows |
+| *Theming*                                                    |                                                        |                    | Teams Rooms on Windows |
+|                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                | Teams Rooms on Windows |
+
+See [Manage Microsoft Teams configuration on Surface Hubs](surface-hub-manage-config.md) for more options to configure Surface Hubs.
 
 ### Cortana settings
 
@@ -123,7 +125,7 @@ See [Known issues](known-issues.md#Limits) for more information on managing Fron
 
 ## Device restart options
 
-Changes to device settings will only take effect after Teams Rooms has been restarted. When you make changes that need a restart, you can choose whether to restart immediately or schedule a restart. Here are the available restart options:
+Changes to device settings will only take effect after the device has been restarted. When you make changes that need a restart, you can choose whether to restart immediately or schedule a restart. Here are the available restart options:
 
 - **Immediate restart** If you choose this option, all of the devices you're making changes to will restart as soon as you select this option.
 - **Scheduled restart** If you choose this option, you can restart the devices you're making changes to at a time that's less disruptive to your organization.
@@ -131,17 +133,17 @@ Changes to device settings will only take effect after Teams Rooms has been rest
   - **Leave update for nightly reboot** Devices are restarted nightly to perform maintenance. Changes you make to devices will be applied during this restart.
 
 > [!CAUTION]
-> Teams Rooms that are in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
+> Teams Rooms and Surface Hubs that are in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings while the device is restarting.
 
 ## Remove device
 
-When you remove a device, the device is removed from your organization and no longer appears in your list of Teams Rooms on Windows in the Teams admin center.
+When you remove a device, the device is removed from your organization and no longer appears in your list of Teams Rooms on Windows or Surface Hubs in the Teams admin center.
 
-If you remove a device and it's still configured with a valid username and password, it will be automatically re-added to your Teams Rooms list if it connects to Microsoft 365 again.
+If you remove a device and it's still configured with a valid username and password, it will be automatically re-added to your list of Teams Rooms or Surface Hubs if it connects to Microsoft 365 again.
 
 To remove one or more devices, do the following:
 
-1. Go to **Teams Devices** > **Teams Rooms on Windows** and select the devices you want to remove.
+1. Go to **Teams Devices** > **Teams Rooms on Windows** or **Surface Hubs** and select the devices you want to remove.
 2. Select **Remove**.
 
 ## Download device logs
@@ -150,7 +152,7 @@ You can download a copy of a device's diagnostic log files if requested to do so
 
 To download logs from a Teams Rooms device to your computer, do the following:
 
-1. Go to **Teams Devices** > **Teams Rooms on Windows** and select the name of the device you want to download logs from.
+1. Go to **Teams Devices** > **Teams Rooms on Windows** or **Surface Hubs** and select the name of the device you want to download logs from.
 1. Select **Download device logs**. It can take several minutes for device logs to become available.
 1. Select the **History** tab and then select log file link under **Diagnostics file**. A zip file containing your device's diagnostic log files will be downloaded to your browser's default Downloads folder.
 
@@ -166,18 +168,18 @@ The Teams Rooms system dashboard shows you the status and health of all of your 
 
 To view detailed information about a device, select its name from the device list. When in details view, you can see the following information about your device:
 
-- **Health status** Shows the overall health of the Teams Rooms device. Health status can be either **Healthy** or **Unhealthy**.
+- **Health status** Shows the overall health of the Teams Rooms or Surface Hub device. Health status can be either **Healthy**, **Non-urgent**, **Critical**, or **Offline**.
 - **Offline since** Shows the last time Microsoft 365 was able to communicate with the device.
-- **Device status** Shows the current state of the device: **Idle**, **Teams meeting**, **Skype meeting**, or **Ingest**.
-- **Peripherals** Shows the peripherals connected to your Teams Rooms device and their health status. Health status can be either **Connected** or **Disconnected**.
+- **Usage status** Shows the current state of the device: **Idle**, **Busy**, or **Unavailable**. Only for Teams Rooms on Windows.
+- **Peripherals** Shows the peripherals connected to your Teams Rooms device and their health status. Health status can be either **Connected** or **Disconnected**. Only for Teams Rooms on Windows.
 - **Health** Shows detailed information about the peripherals connected to your Teams Rooms device, network connectivity, sign in status to required services, and software version information.
 - **Details** Shows manufacturer information, network IP address, and Teams Rooms device serial/MAC address.
 - **Activity** Shows past meeting details including date and time of the meeting, number of participants, duration, and audio quality. For more information about meeting details, see the [Meeting activity details](#meeting-activity-details) section later in this article.
-- **History** Shows a history of management activity on the Teams Rooms device, including configuration updates, device restarts, and device log download links.
+- **History** Shows a history of management activity on the Teams Rooms or Surface Hub device, including configuration updates, device restarts, and device log download links.
 
 #### Meeting activity details
 
-The **Activity** tab in Teams Rooms device details shows high-level and detailed information about all of the meetings the device has participated in over time. In the **Activity** tab, you can see when a meeting was held, how many participants attended the meeting, and the quality of audio during the meeting.
+The **Activity** tab in device details shows high-level and detailed information about all of the meetings the device has participated in over time. In the **Activity** tab, you can see when a meeting was held, how many participants attended the meeting, and the quality of audio during the meeting.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Rooms device activity summary list.":::
 
