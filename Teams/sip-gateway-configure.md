@@ -40,7 +40,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
-- **Open the following https endpoints (IP addresses and URLs):**
+- **Open TCP port 443 for the following https endpoints (IP addresses and URLs):**
 
   - 13.75.175.145
   - 52.189.219.201
