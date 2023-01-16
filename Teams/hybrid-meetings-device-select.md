@@ -222,6 +222,7 @@ The following are examples of displays for Signature Teams Rooms:
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
+- [Jupiter Pana 105D 105" LCD | 5K Resolution | 21:9 FrontRow Aspect Ratio](https://www.jupiter.com/pana105/#flipbook-df_10959/3/)
 
 ## Primary cameras
 
