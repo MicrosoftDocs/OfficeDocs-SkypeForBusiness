@@ -297,7 +297,7 @@ You'll have to refresh the data to see any new data.
 
 ## Known issues
 
-- The **Call Results** visual on the **Call Queue** report may report a large number of ***Unknown*** calls. This is due to a call classification issue that Support is working to correct.  This is a call classification issue only and these calls were successfullly processed by the system.
+- The **Call Results** visual on the **Call Queue** report may report a large number of ***Unknown*** calls. This is due to a call classification issue that Support is working to correct.  This is a call classification issue only and these calls were successfully processed by the system.
 
 - Only the calls/caller actions in the first AA or CQ that answers the call are reported on.  Calls/caller actions in chained auto attendants (when one AA transfers to another AA) or chained call queues (when one CQ transfers to another CQ) are not reported on. 
 
