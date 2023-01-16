@@ -490,6 +490,7 @@ The following calling and meeting features are not supported:
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
 - Zoom control
+- Cross cloud anonymous join in GCC-High
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
