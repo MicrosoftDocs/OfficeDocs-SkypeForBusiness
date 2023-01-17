@@ -53,7 +53,7 @@ Here's an overview of the capabilities of Microsoft Teams Rooms Pro management.
 |**Update management**    |Automated configuration and delivery of the Microsoft Teams Rooms application based on preconfigured rings of deployment.         |
 |**Insights and recommendations**     |Insights into room health, usage, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
-|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub and MTR Android support coming in the second half of 2022*        |
+|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub and MTR Android support coming in 2023*        |
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available basic integration with customer-hosted Service Now for incident coordination.         |
 

@@ -27,7 +27,6 @@ This article describes what you need to know to use Location-Based Routing to re
 When you're ready to enable Location-Based Routing, see:
 
 - [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-- [Deploy network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
 > [!NOTE]
@@ -337,7 +336,7 @@ The following table shows Location-Based Routing behavior for an inbound VoIP ca
 
 Inbound PSTN calls from a Location-Based Routing enabled gateway are allowed to connect to an auto attendant or call queue. 
 
-Users enabled for Location-Based Routing are supported to receive inbound call transfers for these applications when they are located at the same site the inbound PSTN call originates from.
+Users enabled for Location-Based Routing are supported to receive inbound call transfers for these applications when they are located at the same site the inbound PSTN call originates from. To support Local Media Optimization and Media Bypass in these scenarios, Calls Queues must be configured for transfer mode (Conference Mode = OFF).
  
 Call forwarding and simultaneous ringing to users and PSTN is allowed for voice app transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier.  
  
