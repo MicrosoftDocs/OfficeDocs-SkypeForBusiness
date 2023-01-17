@@ -240,3 +240,5 @@ The following list indicates Teams Premium features that require admin configura
 - Sending SMS notifications for Virtual Appointments
 - Accessing the Virtual Appointments Premium app
 - Accessing Virtual Appointments data in the Teams admin center
+
+For instructions on how to configure these features, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
