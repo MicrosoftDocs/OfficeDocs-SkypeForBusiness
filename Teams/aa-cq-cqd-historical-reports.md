@@ -530,7 +530,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 Download [Postman](https://www.postman.com/).
 
-Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it.
+Unzip the `sync_pstn_avs-analytics.zip` file.
 
 Import the folder into Postman. 
 
