@@ -176,6 +176,12 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 See also [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenanttrustedipaddress).
 
+## Enabling Network Roaming Policies
+
+Once you have configured your network roaming policies, you need to enable **Network configuration lookup*** within each of your **Meeting Policies** in the Teams Admin Center under **Meetings > Meeting Policies.**
+
+You may wish to either edit the global policy, or create a new policy and assign the policy to specific users.
+
 ## Related topics
 
 - [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
