@@ -48,7 +48,7 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   ```powershell
   Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
-  When you use the Certificate parameter, the certificate does not need to be installed on the computer where you're running the command. The certificate can be remotely stored & fetched when the script is run. The Certificate parameter is available from Teams PowerShell Module version 4.9.2-preview or later.
+  When you use the Certificate parameter, the certificate doesn't need to be installed on the computer where you're running the command. The certificate can be remotely stored & fetched when the script is run. The Certificate parameter is available from Teams PowerShell Module version 4.9.2-preview or later.
   
 - Connect using Access Tokens:
   
