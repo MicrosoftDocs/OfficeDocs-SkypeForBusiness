@@ -1,5 +1,5 @@
 ---
-title: "Add, change, remove emergency locations"
+title: Add, change, remove emergency locations
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,26 +9,28 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- M365-voice
+  - M365-voice
+  - m365initiative-voice
+  - highpri
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-description: "Learn how to add, change, or remove an emergency location for your organization. "
+f1.keywords: 
+  - NOCSH
+description: Learn how to add, change, or remove an emergency location for your organization.
 ms.custom: seo-marvel-mar2020
 ---
 
 # Add, change, or remove an emergency location for your organization
 
-Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, or Direct Routing&mdash;emergency locations can be associated with a phone number.
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;emergency locations can be associated with a phone number.
 
 However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 This article describes how to add, change, or remove an emergency location for your organization. 
 
-This article applies to Microsoft Calling Plans, Operator Connect, and Direct Routing.
+This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
 
@@ -70,6 +72,9 @@ See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
     
 ## Remove an emergency location
+
+> [!NOTE]
+> You can remove a location only if no users or phone numbers are assigned to it. If numbers or users are assigned to the location, you need to remove them first.
 
 ### Using the Microsoft Teams admin center
 

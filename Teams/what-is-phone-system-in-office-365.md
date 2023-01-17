@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -33,6 +34,8 @@ Phone System works with Teams clients and certified devices. Phone System allows
 Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls. 
 
 For making external calls, Phone System provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
+
+Phone System is available world wide except for Macau. 
 
 ## Phone System features
 

@@ -1,10 +1,10 @@
 ---
 title: Manage the Lists app for your organization
-author: SerdarSoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
-ms.topic: article
+manager: samanro
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -21,6 +21,9 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365initiative-lists
+  - m365-frontline
+  - tier2
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: 
@@ -90,7 +93,7 @@ If users in your organization created lists using the SharePoint app, those list
 
 Lists is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
+1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Do one of the following:
 
     - To turn off Lists for your organization, search for the Lists app, select it, and then select **Block**.
@@ -98,7 +101,7 @@ Lists is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Lists for specific users in your organization
 
-To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ## Search the audit log for list events
 
@@ -114,7 +117,7 @@ Lists supports [Power Automate](/power-automate/flow-types) for workflows and [P
 
 ## Give feedback or report an issue
   
-To send us feedback or report an issue, select **Help** near the bottom of the left navigation in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
 
 ## Related articles
 

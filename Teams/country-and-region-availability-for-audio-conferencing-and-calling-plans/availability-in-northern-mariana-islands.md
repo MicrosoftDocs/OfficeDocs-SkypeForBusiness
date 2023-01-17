@@ -1,7 +1,7 @@
 ---
 title: "Availability in Northern Mariana Islands"
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference

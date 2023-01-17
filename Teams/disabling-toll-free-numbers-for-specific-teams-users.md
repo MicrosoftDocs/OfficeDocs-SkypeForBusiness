@@ -34,28 +34,14 @@ When toll-free numbers are disabled for a given organizer:
 - A toll-free number will no longer be included in his or her meeting invites.
 - Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.
 - Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.
-- All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.  
-
-    > [!IMPORTANT]
-    > This will resend all of the email invites of the organizer to all the participants of those meetings.
-
 - Participants can continue joining meetings of the organizer using toll numbers.
 
 ## Disabling toll-free numbers for specific users
 
-From the **Microsoft Teams admin center**:
+You can disable toll-free numbers for specific users by changing the setting for *AllowTollFreeDialIn* to **Off** within the *TeamsAudioConferencingPolicy* assigned to those users. Once turned off any new meetings created by such users will not include any Toll free numbers. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
 
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
-
-2. Next to **Audio Conferencing**, click **Edit**.
-
-3. Set **Include toll-free numbers in meeting requests from this user** to **Off**.
-
-4. Click **Save.**
+> [!IMPORTANT]
+> Old and previously scheduled recurring meetings may still show toll-free numbers and participants won't be able to join such meetings using a toll-free number. You can reschedule all old and recurring meetings for these users and remove toll-free numbers from them using MMS.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-
-### Using PowerShell
-
-See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.

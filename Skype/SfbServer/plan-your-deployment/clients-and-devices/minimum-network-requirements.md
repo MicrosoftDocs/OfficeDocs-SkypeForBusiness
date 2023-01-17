@@ -11,29 +11,28 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
-ms.custom: 
+ms.custom:
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: "Summary: Information for organizations who don't use Microsoft 365 or Office 365 and need to access meetings hosted by organizations that do."
 ---
 
 # Skype Meetings App minimum network requirements
- 
-**Summary:**  Information for organizations who don't use Microsoft 365 or Office 365 and need to access meetings hosted by organizations that do. This article is not intended for the users of these apps.
-  
-To allow users to use Skype Meetings App to  attend meetings hosted in Skype for Business Online, network administrators of organizations who don't use Microsoft 365 or Office 365 should allow or otherwise make available the FQDNs, IPs, and ports mentioned below.
+
+**Summary:** Information for organizations who don't use Microsoft 365 or Office 365 and need to access meetings hosted by organizations that do. This article is not intended for Office 365 or Microsoft 365 end-users.
+
+Users of the Skype Meetings App in organizations that don't use Microsoft 365 or Office 365 might need to attend meetings hosted in Skype for Business Online. To attend these meetings, their network administrators need to allow the following FQDNs, IP addresses, and ports through their firewall.
 
 ## Requirements for Skype Meetings App connectivity
 
-The information listed here is a subset of [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US), which provides more depth and will always be the most up to date.
-					
- 
-|App |Destination FQDNs  |IP Addresses  |Ports  |
+The information listed here is a subset of the information in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). That topic is much more in-depth, and will always be current.
+
+|App|Destination FQDNs|IP Addresses|Ports|
 |---|---------|---------|---------|
-|**Skype Meetings App** | \*.lync.com <br/>\*.infra.lync.com<br/>\*.pipe.aria.microsoft.com<br/>\*.sfbassets.com<br/>\*.msecnd.net<br/>\*broadcast<span></span>.officeapps.live.com <br/>\*powerpoint<span></span>.officeapps.live.com <br/>\*.office.live.com<br/>\*.cdn.office.net<br/>*.s-microsoft.com<br/>        |   These IP addresses are frequently updated.  See [Skype for Business IP ranges](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) as well as [Office IP Ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478-3481<br/>
-|**Teams**    | \*<span></span>.microsoft.com <br/>\*<span></span>.skype.com | These IP addresses are frequently updated.  See [Skype for Business IP ranges](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) as well as [Office IP Ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP:  443 <br/> UDP: 3478-3481
+|**Skype Meetings App**|\*.lync.com <br/>\*.infra.lync.com<br/>\*.pipe.aria.microsoft.com<br/>\*.sfbassets.com<br/>\*.msecnd.net<br/>\*broadcast<span></span>.officeapps.live.com <br/>\*powerpoint<span></span>.officeapps.live.com <br/>\*.office.live.com<br/>\*.cdn.office.net<br/>*.s-microsoft.com<br/>|These IP addresses are frequently updated. See [Skype for Business and Microsoft Teams IP ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) as well as [Office IP Ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)|TCP: 80 & 443<br/>UDP: 3478-3481|
+|**Teams**|\*<span></span>.microsoft.com <br/>\*<span></span>.skype.com|These IP addresses are frequently updated. See [Skype for Business and Microsoft Teams IP ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) as well as [Office IP Ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)|TCP: 443 <br/> UDP: 3478-3481|
 
 ## See also
 <a name="BKMK_Conferencing"> </a>

@@ -381,10 +381,10 @@ The other two reports are Teams-specific, and they provide further detail about
 Teams usage from a user and device perspective. Both reports can be found here:
 
 [Microsoft Teams device usage
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+report](/microsoftteams/teams-analytics-and-reports/device-usage-report)
 
 [Microsoft Teams user activity
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+report](/microsoftteams/teams-analytics-and-reports/user-activity-report)
 
 #### Required permissions
 
@@ -805,10 +805,10 @@ user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 As your organization grows or contracts, it’s important that you plan licensing
 for current and future needs. There is a base Teams license, in addition to
-licensing for cloud voice capabilities ([Phone
+licensing for cloud voice capabilities [Phone
 System](here-s-what-you-get-with-phone-system.md)
 and [Audio
-Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
+Conferencing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing#requirements-for-audio-conferencing).
 
 For Teams, Phone System licenses require associated [Calling
 Plans](calling-plan-landing-page.md)
@@ -858,7 +858,7 @@ organization](/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phon
 
 By default, all users with a mailbox in Exchange Online have permissions to
 create Microsoft 365 groups and, therefore, a team in Microsoft Teams. If you want
-to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md#permissions-to-create-teams)
+to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md)
 (and thus the creation of new Microsoft 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow

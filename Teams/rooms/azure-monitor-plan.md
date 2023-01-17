@@ -7,13 +7,14 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: 
   - M365-collaboration
-description: "This article discusses planning considerations for using Azure Monitor to monitor Microsoft Teams Rooms in your Skype for Business or Teams implementation."
+  - Teams_ITAdmin_Rooms
+description: This article discusses planning considerations for using Azure Monitor to monitor Microsoft Teams Rooms in your Skype for Business or Teams implementation.
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -23,6 +24,8 @@ ms.custom: seo-marvel-mar2020
 
 > [!NOTE]
 > You can also [set up health monitoring of Teams Rooms](../alerts/device-health-status.md) using Teams admin center.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) is a collection of monitoring services that were designed in the cloud from the start. Rather than deploying and managing on-premise resources, Azure Monitor components are entirely hosted in Azure. Configuration is minimal, and you can be up and running in a matter of minutes. With some customization work, it can aid in monitoring Microsoft Teams Rooms by providing notifications of system health or faults for individual room systems, and it can scale up to managing thousands of Microsoft Teams Rooms.
   

@@ -211,7 +211,7 @@ The **Common Configuration** tab of the Load Configuration Tool is shown below. 
   
 1. In the **Number of Available Machines** field, type the number of computers you want to use to run the Stress and Performance tool (LyncPerfTool.exe). We recommend that you have one computer for every 4500 users you'll be simulating, but that number may vary if you reduce the load level, or use only a subset of the tool's available features (Load levels are set on the General Scenarios tab).
     
-2. In the **Prefix for User Names** field, enter a prefix for the user name field of all users. To log in the Uniform Resource Identifier (URI) will be: *UserPrefix[User Start Index…(Number Of Users-1)]@User Domain*  , for example, myUser009@Contoso.com.
+2. In the **Prefix for User Names** field, enter a prefix for the user name field of all users. To log in the Uniform Resource Identifier (URI) will be: *UserPrefix[User Start Index...(Number Of Users-1)]@User Domain*  , for example, myUser009@Contoso.com.
     
 3. In the **Password for All Users** field, enter the password used during creation of the users. If you leave this field empty the username will be set as the password.
     

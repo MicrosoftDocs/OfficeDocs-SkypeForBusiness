@@ -1,7 +1,7 @@
 ---
 title: Network settings for cloud voice features
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
