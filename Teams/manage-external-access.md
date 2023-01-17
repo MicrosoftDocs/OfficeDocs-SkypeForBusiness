@@ -129,6 +129,25 @@ To let Teams users in your organization communicate with external Teams users wh
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
+
+
+**Restrict communication to the list of external user profiles added to extended directory**
+
+To add an external user profile
+1. Select **Manage external user profiles**.
+1. Select **Add**.
+1. Type a **Display name** for the contact. (Users will be able to search for this name in Teams.)
+1. Type a **Country or region code** and **Phone number**.
+1. Add any additional information that you want to include.
+1. Read the Data Controller statement and select the check box to agree.
+1. Select **Save**.
+
+
+
+**Manage external user profiles**
+
+
+
 ## Communicate with Skype users
 
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
