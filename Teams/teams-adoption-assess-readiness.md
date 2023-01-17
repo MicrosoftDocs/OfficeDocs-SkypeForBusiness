@@ -1,7 +1,7 @@
 ---
 title: How ready is your organization for Microsoft Teams?
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin

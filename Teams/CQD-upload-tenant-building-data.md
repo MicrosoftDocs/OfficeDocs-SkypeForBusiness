@@ -1,7 +1,7 @@
 ---
 title: Upload tenant and building data in Call Quality Dashboard (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -78,9 +78,9 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   | NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Required<sup>1</sup>  |
   | NetworkRange       | Number    | 26                        | Required              |
   | BuildingName       | String    | SEATTLE-SEA-1             | Required<sup>1</sup>  |
-  | OwnershipType      | String    | Contoso                   | Optional              |
-  | BuildingType       | String    | IT Termination            | Optional              |
-  | BuildingOfficeType | String    | Engineering               | Optional              |
+  | OwnershipType      | String    | Contoso                   | Optional<sup>4</sup>  |
+  | BuildingType       | String    | IT Termination            | Optional<sup>4</sup>  |
+  | BuildingOfficeType | String    | Engineering               | Optional<sup>4</sup>  |
   | City               | String    | Seattle                   | Recommended           |
   | ZipCode            | String    | 98001                     | Recommended           |
   | Country            | String    | US                        | Recommended           |
@@ -95,6 +95,8 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   <sup>2</sup> This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes.
 
   <sup>3</sup> This setting can be used to reflect whether or not the network uses Azure ExpressRoute. You can customize usage for other purposes.  
+  
+  <sup>4</sup> While these optional columns are named to suggest what values you may want to populate them with, you can customize usage for other purposes. eg: Network Priority - `Tier 1, Tier 2, Tier 3` 
 
   **Sample row:**
 
@@ -159,6 +161,8 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
 
 - All seven columns use the String data type only. The maximum allowed length is 64 characters.
+
+- Entries are case-sensitive; EndpointName **ABC123** will be treated as unique from EndpointName **abc123**.
 
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 

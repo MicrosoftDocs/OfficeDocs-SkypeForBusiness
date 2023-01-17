@@ -1,8 +1,8 @@
 ---
 title: Best practices for user feedback methods
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: "Set up holidays in Microsoft Teams"
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -32,7 +32,7 @@ The holidays you create here are available when you [set up an auto attendant](c
 
 To create a holiday
 
-1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
+1. In the Microsoft Teams admin center, go to **Voice** > **Holidays**.
 
 2. Select **New holiday**.
 
@@ -51,7 +51,7 @@ To create a holiday
    > [!NOTE]
    > If the holiday is for one full day (i.e., a 24 hour period), the **End time** should be set to the next day and the time to 12:00 AM. For example, if your organization is closed on January 1 for New Year's day, set the **Start time** to January 1 12:00 AM and set the **End time** to January 2 @ 12:00 AM.
 
-9. Optionally, add more dates for recurring holidays.
+9. Optionally, add more dates for recurring holidays. Up to 10 separate date ranges can be added to a single holiday.  
 
 10. Select **Save**.
 
@@ -61,7 +61,7 @@ To create a holiday
 
 To change a holiday
 
-1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
+1. In the Microsoft Teams admin center, go to **Voice** > **Holidays**.
 
 2. Select the holiday from the list.
 

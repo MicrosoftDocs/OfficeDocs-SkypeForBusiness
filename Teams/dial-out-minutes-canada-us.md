@@ -1,7 +1,7 @@
 ---
 title: Office 365 Audio Conferencing Extended Dial-out Minutes to US and Canada
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams

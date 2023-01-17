@@ -1,229 +1,97 @@
 ---
-title: "Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365"
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Create resource accounts for rooms and shared Teams devices
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, where Teams or Skype for Business and Exchange are both online.
+description: Read this article for information on how to create resource accounts for rooms and shared devices, including Microsoft Teams Rooms, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
 ---
 
-# Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365
+# Create and configure resource accounts for rooms and shared Teams devices
 
-Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, where Microsoft Teams or Skype for Business and Exchange are both online.
+This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
 
-The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts. If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.
+Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability. 
 
-## Requirements
+Every resource account is unique to a single Microsoft Teams Rooms installation or Teams display hot-desking implementation.
 
-Before you deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
+[!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-To enable Skype for Business, you must have the following:
+> [!NOTE]
+> If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
 
-- Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Microsoft 365 or Office 365 plan. The plan needs to allow dial-in conferencing capabilities.
+> [!NOTE]
+> **Skype for Business** <br><br>
+> If you need to enable your resource account to work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
 
-- If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.
+## Before you begin
 
-- Your tenant users must have Exchange mailboxes.
+### Requirements
 
-- Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license. See [Microsoft Teams Rooms licenses](rooms-licensing.md) for details.
+Depending on your environment, you need one or more roles to create resource accounts.
 
-For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
+|**Environment**|**Required Roles**|
+|-----|-----|
+|Azure Active Directory  <br/> |Global Administrator or User Administrator  <br/> |
+|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Azure Active Directory Connect Sync rights.  <br/> |
+|Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
+|Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
 
-### Add a device account
+If you're creating resource accounts for Teams Rooms, the UPN must match the SMTP address of the resource account. See [Microsoft Teams Rooms requirements](requirements.md) before you deploy Teams Rooms.
 
-1. Connect to Exchange Online PowerShell. For instructions, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+### What license do you need?
 
-2. In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox. By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Skype Room Systems v2.
+[!INCLUDE [mtr-device-config-license-include](../includes/mtr-device-config-license-include.md)]
 
-   - To create a new room mailbox, use the following syntax:
+## Create a resource account
 
-     ``` PowerShell
-     New-Mailbox -Name "<Unique Name>" -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-     ```
+[!INCLUDE [mtr-device-config-account-include](../includes/mtr-device-config-account-include.md)]
 
-     This example creates a new room mailbox with the following settings:
+## Configure mailbox properties
 
-     - Name: Rigel-01
+[!INCLUDE [mtr-device-config-mailbox-include](../includes/mtr-device-config-mailbox-include.md)]
 
-     - Alias: Rigel1
+## Turn off password expiration
 
-     - Account: Rigel1@contoso.onmicrosoft.com
+[!INCLUDE [mtr-device-config-password-include](../includes/mtr-device-config-password-include.md)]
 
-     - Account password: P@$$W0rd5959
+## Assign a meeting room license
 
-     ``` PowerShell
-     New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
-     ```
+[!INCLUDE [mtr-device-config-assign-include](../includes/mtr-device-config-assign-include.md)]
 
-   - To modify an existing room mailbox, use the following syntax:
+## Next steps
 
-     ``` PowerShell
-     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-     ```
+### Meeting policies
 
-     This example enables the account for the existing room mailbox that has the alias value Rigel2, and sets the password to 9898P@$$W0rd. Note that the account will be Rigel2@contoso.onmicrosoft.com because of the existing alias value.
+[!INCLUDE [mtr-device-config-policies-include](../includes/mtr-device-config-policies-include.md)]
 
-     ``` PowerShell
-     Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
-     ```
+### Calling
 
-   For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
+There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
 
-3. In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
+> [!NOTE]
+> We recommend turning off voice mail for shared devices by assigning a calling policy to the device resource accounts. See [Calling and call-forwarding in Teams](../teams-calling-policy.md) for more information.
 
-   - AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)
+[!INCLUDE [mtr-device-config-calendar-include](../includes/mtr-device-config-calendar-include.md)]
 
-   - AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)
-
-   - DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)
-
-   - DeleteSubject: $false (Keep the subject of incoming meeting requests.)
-
-   - RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)
-
-   - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
-
-   - AdditionalResponse: "This is a Microsoft Teams Meeting room!" (The additional text to add to the meeting request.)
-
-   This example configures these settings on the room mailbox named Rigel-01.
-
-   ``` PowerShell
-   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
-   ```
-
-   For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
-
-4. Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` PowerShell cmdlet. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
-
-   > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.
-
-5. If you do not want the password to expire, use the following syntax:
-
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
-   ```
-
-   <!--
-   ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
-   ```  -->
-
-   This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.
-
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
-   ```
-
-   <!-- 
-   ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
-   ``` -->
-
-   You can also set a phone number for the account by running the following command:
-
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
-   ```
-
-   <!-- 
-   ```PowerShell
-   Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
-   ```  -->
-
-    > [!NOTE]
-    > If the password is not set to Never Expire, the account will no longer sign in on the device when the account reaches the expiry period. The password will then need to be changed for the account and also updated locally on the MTR device.
-
-6. The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:
-
-   ```Powershell
-   Get-MsolAccountSku
-   ```
-
-   <!--
-   ```Powershell
-   Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ```  -->
-
-   Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. This example adds the Meeting Room license to the account:
-
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
-   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses "Contoso:MEETING_ROOM"
-   ```
-
-   <!-- 
-   ```Powershell
-   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
-   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
-   ```   -->
-
-   For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
-
-   You can also add Phone System capabilities to this account, but you have to configure it first. See [What is Phone System?](../what-is-phone-system-in-office-365.md) for more details. This example adds the PSTN Domestic and International Calling Plan:
-
-   ```PowerShell
-   Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
-   ```
-
-    > [!NOTE]
-    > If you are configuring Teams Rooms to only natively join Microsoft Teams meetings, you should not proceed with the following step. The following is only required if you will also be enabling support for Skype for Business on-premises.
-
-7. To enable the device account with Skype for Business on-premises, be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).
-
-   Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
-
-   > [!NOTE]
-   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-   >
-   > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
-
-   ``` Powershell
-   # When using Teams PowerShell Module
-
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-   ```
-
-   Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
-
-   ``` Powershell
-    Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
-   ```
-
-   Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:
-
-   ``` Powershell
-   Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
-   ```
-
-   > [!NOTE]
-   > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
-
-## Validate
-
-For validation, you should be able to use any Skype for Business client to sign in to the account you created.
-
-## See also
+## Related articles
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 
 [Deploy Microsoft Teams Rooms](rooms-deploy.md)
-
-[Configure a Microsoft Teams Rooms console](console.md)
 
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 

@@ -9,6 +9,7 @@ audience: admin
 ms.collection:  
   - M365-voice
   - m365initiative-voice
+  - highpri
 ms.reviewer: roykuntz
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -22,7 +23,7 @@ appliesto:
 
 # Plan and configure dynamic emergency calling 
 
-Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
+Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
 Based on the network topology (network elements associated with emergency addresses) that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client.
 
@@ -46,9 +47,9 @@ For dynamic emergency calling, the following must occur:
 
 The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
 
-Microsoft Calling Plans and Operator Connect partners include dynamic emergency routing services for users in the United States and Canada.
+Microsoft Calling Plans, Operator Connect partners, and Teams Phone Mobile partners include dynamic emergency routing services for users in the United States and Canada.
 
-For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must ensure that the PSTN gateway routing the emergency call has been configured to add location information to the outgoing INVITE (by setting the parameter PidfloSupported to True on the online PSTN gateway object. In addition the administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 This article contains the following sections.
 
@@ -80,16 +81,19 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> 3PIP phones do not support dynamic emergency calling. 
+> Subnet and WiFi-based locations are supported on all supported Teams clients. <br><br>
+> Ethernet/Switch (LLDP) is supported on:
+> - Windows versions 10.0 and later at this time.<br>
+> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
+> - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
 
 > [!NOTE]
 > Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all Teams clients. <br>
-> Ethernet/Switch (LLDP) is supported on:
-> - Windows versions 8.1 and later at this time.<br>
-> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).
+> 3PIP phones do not support dynamic emergency calling. 
+
+
 
 ## Assign emergency addresses
 
@@ -97,7 +101,7 @@ You can assign emergency addresses as follows:
 
 - To Calling Plan users.
 
-- To Operator Connect users&mdash;depending on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
+- To Operator Connect and Teams Phone Mobile users&mdash;depending on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
 
 - To the network identifiers that are required for dynamically obtaining a location. 
 
@@ -136,7 +140,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 
 
-**For Calling Plan and Operator Connect users:**
+**For Calling Plan, Operator Connect, and Teams Phone Mobile users:**
 
 - If dynamic configuration of security desk notification is required, you must configure both trusted IP addresses and network sites.
 
@@ -148,7 +152,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 - If dynamic enablement of emergency calling or dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.
 
-- If only dynamic locations are required, you must configure only trusted IP addresses; configuring metwork settings isn't required.
+- If only dynamic locations are required, you must configure only trusted IP addresses; configuring network settings isn't required.
 
 - If neither are required, configuring network settings isn't required.
 
@@ -183,13 +187,13 @@ Use the following policies to configure emergency calling. You can manage these 
 
 - **Emergency call routing policy – Applies only to Direct Routing**. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  
 
-   (Calling Plan and Operator Connect users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)
+   (Calling Plan, Operator Connect, and Teams Phone Mobile users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)
 
-- **Emergency calling policy - Applies to Calling Plans, Operator Connect, and Direct Routing.** This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
+- **Emergency calling policy - Applies to Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.** This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
 ## Enable users and sites
 
-You can assign emergency call routing policies and emergency calling policies to users and to sites. Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan or Operator Connect user, the policy will have no effect.)
+You can assign emergency call routing policies and emergency calling policies to users and to sites. Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan, Operator Connect, or Teams Phone Mobile user, the policy will have no effect.)
 
 You assign policies in the Microsoft Teams admin center or by using PowerShell. To learn more, see:
 
@@ -228,7 +232,7 @@ If you assigned an emergency calling policy to a network site and to a user, and
 
 Some Emergency Routing Service Providers (ERSPs) in the United States offer an emergency calling test bot.
 
-- **Calling Plan and Operator Connect users in the United States or Canada** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
+- **Calling Plan, Operator Connect, and Teams Phone Mobile users in the United States or Canada** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
 
 - **Direct Routing customers in the United States** should coordinate with their ERSP for a test service.
 
@@ -240,7 +244,7 @@ The following table shows support for dynamic emergency calling in the governmen
 | :------------|:-------|
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
-| GCCH | Available on Teams desktop |
+| GCCH | -Available on Teams desktop <br> -Available on Teams mobile clients <br> -Available on Teams phones, app version: 1449/1.0.94.2022061702 |
 | DoD | Pending |
 
  ## Related topics

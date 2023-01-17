@@ -120,7 +120,7 @@ There are two components in the Microsoft Cloud that can be in the path of media
 
 - The Transport Relay is used to connect to the closest Transport Service to send real time traffic.
 
-   Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured .
+   Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured.
 
 The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled.
 
@@ -143,7 +143,6 @@ The table below summarizes the difference between Media Processors and Transport
 |In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address |
 |In media path for voice applications | Always | Never |
 |Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints |
-|Number of instances worldwide and location | 10 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan ; 2 in Australia East and Southeast | Multiple|
 
 The IP ranges are:
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
@@ -198,7 +197,7 @@ The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **s
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP subnets. 
+You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ### Office 365 GCC DoD environment
 
@@ -253,8 +252,8 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
-| UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and 49152 – 53247  |
+| UDP/SRTP | Client | SBC | 50000-50019| Defined on the SBC |
+| UDP/SRTP | SBC | Client | Defined on the SBC | 50000-50019  |
 
 
 > [!NOTE]

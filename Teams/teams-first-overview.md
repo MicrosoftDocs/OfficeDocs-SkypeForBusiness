@@ -72,7 +72,7 @@ To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-
 
 **Application Platform**: Apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
 
-**Security and Compliance features:** Teams has a wide range of information to help you with compliance areas, including retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search. To learn more, read [Security and compliance in Microsoft Teams](security-compliance-overview.md).  
+**Security and Compliance features:** Teams has a wide range of information to help you with compliance areas, including retention policies, data loss prevention (DLP), eDiscovery and legal hold for channels, chats and files, audit log search. To learn more, read [Security and compliance in Microsoft Teams](security-compliance-overview.md).  
 
 > [!NOTE]
 > Advance eDiscovery features require E5 licensing.
@@ -138,7 +138,7 @@ Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for app
 <td><ul>
 <li><p>Retention policies are available.</p></li>
 <li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
-<li><p>Data Loss Prevention policies (DLP) are available.</p></li>
+<li><p>Data loss prevention policies (DLP) are available.</p></li>
 </ul>
 <p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a full list, see <a href="/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a>.</p></td>
 </tr>
@@ -188,7 +188,7 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
-<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy">
+<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy's PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy">
 set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>
@@ -282,7 +282,7 @@ For specifics on each of the services listed above, please follow the links belo
   - Exchange Online is used for calendaring features and storing peer to peer messages in Teams. To learn more, read [How Exchange and Teams interact](exchange-teams-interact.md)
 
 > [!IMPORTANT]
-> For Teams interop with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+> For Teams interop with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   - SharePoint is used for file sharing in channels, while /OneDrive for Business is used for file sharing in 1:1 or group chat. To learn more, read [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 

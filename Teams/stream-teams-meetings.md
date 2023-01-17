@@ -1,7 +1,7 @@
 ---
 title: Stream Teams meetings
-author: KarliStites
-ms.author: kastites
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
@@ -12,12 +12,11 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
 ms.collection: 
   - M365-collaboration
-  - m365initiative-meetings
 description: Learn how to set up and manage streaming for your Teams meetings.
 ---
 

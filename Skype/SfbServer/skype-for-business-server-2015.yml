@@ -32,10 +32,6 @@ landingContent:
             url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
           - text: Technical diagrams
             url: ./technical-diagrams.md
-      - linkListType: download
-        links:
-          - text: Download now!
-            url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 
   # Card (optional)
   - title: Plan

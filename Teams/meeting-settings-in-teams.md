@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -21,6 +21,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 description: Learn how to manage settings for Teams meetings that users schedule in your organization.
 ---
 
@@ -41,7 +42,7 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
 You must be a Teams admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-1. Go to the [Teams admin center](https://admin.teams.microsoft.net).
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
 
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 
@@ -49,7 +50,7 @@ You must be a Teams admin to make these changes. See [Use Teams administrator ro
 
     ![Screenshot of participants settings for meetings in the admin center.](media/meeting-settings-participants.png "Screenshot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
-> [!CAUTION]
+> [!Important]
 > If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
 
 ### Using PowerShell to configure per-organizer policy
@@ -65,8 +66,16 @@ Since both the organization-wide and per-organizer policies control anonymous jo
 
 Any other combination of values will prevent anonymous users from joining meetings.
 > [!NOTE]
-> To use the per-organizer policy for organizations with anonymous join turned off per organization, admins need to create a policy and then assign it to users. To learn how to do that, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> To learn more about managing meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
+### Blocking anonymous join for specific client types
+
+When anonymous users are allowed to join meetings, they can use either the Teams client or a custom client built using [Azure Communication Services](/azure/communication-services/). Admins can block selected client types using the **-BlockedAnonymousJoinClientTypes** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+
+The possible values are:
+- Null (default). All client types are allowed.
+- Acs. Blocks custom clients built using [Azure Communication Services](/azure/communication-services/).
+- Teams. Blocks the Teams client.
 
 ## Allow anonymous users to interact with apps in meetings
 
@@ -79,13 +88,13 @@ Anonymous users will now inherit the user-level global default permission policy
 
 You must be a Teams service admin to access this setting. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-1. Go to the admin center.
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
 
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 
 3. Under **Participants**, the setting for **Anonymous users can interact with apps in meetings** can be changed.
 
-> [!CAUTION]
+> [!Important]
 > If you don't want anonymous users to interact with apps in meetings scheduled by users in your organization, turn off this setting.
 
 ## Customize meeting invitations
@@ -104,7 +113,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
  **Using the Microsoft Teams admin center**
 
-1. Go to the admin center.
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Email invitation**, do the following:
 
@@ -136,7 +145,7 @@ If you're using Quality of Service (QoS) to prioritize network traffic, you can 
 > If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
   **Using the Microsoft Teams admin center**
-1. Go to the admin center.
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Network**, do the following:
 

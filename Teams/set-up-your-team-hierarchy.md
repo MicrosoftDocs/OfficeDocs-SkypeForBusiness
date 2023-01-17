@@ -1,7 +1,7 @@
 ---
 title: Set up your team targeting hierarchy
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,11 +10,11 @@ search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Set up your team targeting hierarchy
@@ -145,11 +145,8 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## Apply your hierarchy
 
-> [!NOTE] 
-> To perform this step, you must install and use the Teams PowerShell public preview module from the PowerShell Gallery. For steps on how to install the module, see Install Teams PowerShell.
-
 > [!NOTE]
-> Government Community Cloud (GCC) customers must use [cmdlet preview version 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) or later to ensure data is routed to the GCC environment, rather than the public cloud environment.
+> To perform this step, you must use Microsoft Teams PowerShell cmdlets. You should use version 4.6.0 or later of the Microsoft Teams cmdlets. This requirement also applies to Government Community Cloud (GCC) customers.
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
 
@@ -197,7 +194,7 @@ When confirming deletion, the status message will still display the previous sch
 ### Install the Teams PowerShell module
 
 > [!IMPORTANT]
-> To perform this step, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Teams PowerShell](teams-powershell-install.md).
+> To perform this step, you must install and use the Teams PowerShell module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Microsoft Teams PowerShell module](teams-powershell-install.md).
 
 ### Sample script
 
