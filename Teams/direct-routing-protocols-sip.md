@@ -331,7 +331,7 @@ If sending, the History-Info is enabled as follows:
   > [!NOTE]
   > Entries that are private (as determined by the mechanisms defined in Section 3.3 of RFC 4244) will be forwarded as is because  the SIP trunk provider is a trusted peer.
 
-- Inbound History-Info is preserved when ForwardCallHistory parameter is enabled. Preserved History-Info could be used for loop-prevention.
+- Inbound History-Info is preserved when the ForwardCallHistory parameter is enabled. Preserved History-Info can be used for loop-prevention.
 
 Following is the format of the History-info header sent by the SIP proxy:
 
