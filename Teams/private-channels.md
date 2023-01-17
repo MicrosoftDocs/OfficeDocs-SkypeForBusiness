@@ -8,16 +8,17 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+  - m365initiative-securecollab
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage private channels in Microsoft Teams. 
+description: Learn how to use and manage private channels in Microsoft Teams.
 ---
 
 # Private channels in Microsoft Teams
@@ -29,11 +30,13 @@ You might want to use a private channel if you want to limit collaboration to th
 For example, a private channel is useful in these scenarios:
 
 - A group of people in a team want a focused space to collaborate without having to create a separate team.
-- A subset of people in a team want a private channel to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
+- A subset of people in a team wants a private channel to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
 
 A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
+
+[Compare private channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ![Screenshot of private channels in a team.](media/private-channels-in-teams.png)
 
@@ -118,6 +121,8 @@ Currently, private channels support connectors and tabs (except Stream, Planner,
 Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team. 
 
 When you create a team from an existing team, any private channels in the existing team won't be copied over.
+
+It is not possible to convert a private channel to another channel type.
 
 Notifications from private channels are not included in missed activity emails.
 

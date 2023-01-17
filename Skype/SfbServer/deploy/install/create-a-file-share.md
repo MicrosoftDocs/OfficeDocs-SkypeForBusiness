@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: "Summary: Learn how to create a Windows Server file share as part of the installation of Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to create a Windows Server file share as part of the installation of Skype for Business Server."
 ---
 
 # Create a file share in Skype for Business Server
  
-**Summary:** Learn how to create a Windows Server file share as part of the installation of Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to create a Windows Server file share as part of the installation of Skype for Business Server.
   
 Skype for Business Server requires a file share so that computers throughout the topology can exchange files. Creating a file share is step 2 of 8 in the installation process for Skype for Business Server. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5 as outlined in the diagram. For planning details about file share, see [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   

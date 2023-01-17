@@ -87,7 +87,6 @@ You can also choose to manage firmware updates using a partner provisioning syst
 
 You can set up the most commonly used phone options and policies using Skype for Business In-band management Windows PowerShell cmdlets. See [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) for details of those parameters and settings.
   
-For network infrastructure planning, see [Skype Operations Framework](https://www.skypeoperationsframework.com/).
   
 ### Step 6 - Preparing for users to sign in
 

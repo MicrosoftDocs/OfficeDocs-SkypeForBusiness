@@ -1,29 +1,32 @@
 ---
-title: "Check-in and room release on Microsoft Teams panels"
-ms.author: czawideh
-author: cazawideh
+title: Check-in and room release on Microsoft Teams panels
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: gary.lai
 ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 ms.topic: reference
 search.appverid: MET150
-description: "This article provides guidance on how to enable check-in and room release Teams panels devices."
+description: This article provides guidance on how to enable check-in and room release Teams panels devices.
 ---
 
 # Check-in and room release on Microsoft Teams panels
 
-When check-in and room release are enabled, users check in on Teams panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.  
+When check-in and room release are enabled, users check in on Teams panels at the room they reserved at the start of the meeting. If a user doesn’t check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.  
 
 ## Requirements 
 
-This feature can be used in a standalone Teams panel deployment. You can also pair Teams panels with Teams Rooms on Android with app version 1449/1.0.96.2022011305 or later for additional functionalities like check-in notifications.  
+This feature can be used in a standalone Teams panel deployment. You can also pair Teams panels with Teams Rooms on Android with app version 1449/1.0.96.2022011305 or later for additional functionalities like check-in notifications.
+
+The shared mailbox associated with the Teams panel needs to have the correct time zone set for this feature to work correctly. For information about how to set the time zone for shared mailboxes, see [Time zone settings for shared mailboxes in Outlook on the web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
 ## Enable check-in and room release 
 
@@ -31,13 +34,13 @@ Check-in and room release is off by default. To turn it on,
 
 1. On the Teams panel, sign in using your admin credentials.  
 
-2. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**.
+2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
-3. Turn on Release room if no one checks in.
+3. Turn on **Release room if no one checks in**.
 
 4. To adjust the amount of time users have to check in before the room is released, go to **Release after:** and select an option from the dropdown.  
 
-When Teams panels are paired with a Teams Room on Android, a user can check-in joining the meeting on the Teams Room.  
+When Teams panels are paired with a Teams Room on Android, a user can check in joining the meeting on the Teams Room.  
 
 ## Turn on check-in notifications
 
@@ -50,7 +53,7 @@ To turn on check-in notifications,
 
 1. On the Teams panel, sign in using your admin credentials. 
 
-2. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**.
+2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
 3. Go to **Check-in** and turn on **Send check-in notification**.
 

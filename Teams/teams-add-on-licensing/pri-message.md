@@ -1,7 +1,7 @@
 ---
 title: "Priority notifications in Teams messaging"
-ms.author: serdars
-author: SerdarSoysal
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference

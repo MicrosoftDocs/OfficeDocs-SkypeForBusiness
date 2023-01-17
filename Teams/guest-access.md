@@ -11,7 +11,9 @@ search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+ms.custom: 
+  - ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+  - chat-teams-channels-revamp
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
@@ -54,12 +56,6 @@ Guest access in Teams requires configuring other settings in Microsoft 365, incl
 > If you're an administrator, and you're having trouble with Guest Access in Microsoft Teams, select **Run Tests** below, which will populate the Guest Access diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to enable Guest Access for your tenant.
 >> [!div class="nextstepaction"]
 >> [Run Tests: Guest Access](https://aka.ms/TeamsGuestAccessDiagDMC)
-
-### Turning guest access off
-
-If you turn guest access off in Teams, existing guests lose access to their team. However, they are not removed from the team. They are still visible to people in the team and can be @mentioned. If you turn Teams guest access on again, they will regain access.
-
-If you plan to leave guest access off, you may want to advise your team owners to manually remove the guest accounts from their teams. While these guests won't have access, having their accounts visible in the team could lead to confusion for other people in the team.
 
 ## How a guest gets added to a team
 

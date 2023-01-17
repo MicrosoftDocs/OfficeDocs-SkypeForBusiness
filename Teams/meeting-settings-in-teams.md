@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -21,6 +21,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 description: Learn how to manage settings for Teams meetings that users schedule in your organization.
 ---
 
@@ -49,7 +50,7 @@ You must be a Teams admin to make these changes. See [Use Teams administrator ro
 
     ![Screenshot of participants settings for meetings in the admin center.](media/meeting-settings-participants.png "Screenshot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
-> [!CAUTION]
+> [!Important]
 > If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
 
 ### Using PowerShell to configure per-organizer policy
@@ -65,7 +66,7 @@ Since both the organization-wide and per-organizer policies control anonymous jo
 
 Any other combination of values will prevent anonymous users from joining meetings.
 > [!NOTE]
-> To use the per-organizer policy for organizations with anonymous join turned off per organization, admins need to create a policy and then assign it to users. To learn how to do that, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> To learn more about managing meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### Blocking anonymous join for specific client types
 
@@ -93,7 +94,7 @@ You must be a Teams service admin to access this setting. See [Use Teams adminis
 
 3. Under **Participants**, the setting for **Anonymous users can interact with apps in meetings** can be changed.
 
-> [!CAUTION]
+> [!Important]
 > If you don't want anonymous users to interact with apps in meetings scheduled by users in your organization, turn off this setting.
 
 ## Customize meeting invitations

@@ -1,20 +1,21 @@
 ---
-title: "Deploy Microsoft Teams Rooms on Android"
-ms.author: czawideh
-author: cazawideh
+title: Deploy Microsoft Teams Rooms on Android
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Devices
 ms.custom: 
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: "Read this article to learn about deploying Microsoft Teams Rooms on Android."
+description: Read this article to learn about deploying Microsoft Teams Rooms on Android.
 ---
 
 # Deploy Microsoft Teams Rooms on Android
@@ -31,7 +32,7 @@ To manage Teams Rooms, you need to be a Global admin, Teams Service admin, or Te
 
 While the ordered devices are being delivered to your organization, work with your networking, facilities, and audio-visual teams to make sure that deployment requirements are met and each site and room is ready in terms of power, networking, and display.
 
-Our recommendations for collaboration bar sites are:
+Our recommendations for Teams Rooms on Android sites are:
 
 - Rooms up to 5 people in size
 - Dedicated resource accounts
@@ -48,8 +49,8 @@ For physical installation considerations, see the manufacturer's documentation a
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
-| ![An icon depicting decision points.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the site readiness requirements for collaboration bars for Microsoft Teams.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>|
-| ![An icon depicting next steps.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your collaboration bar deployment and configuration.</li></ul>|
+| ![An icon depicting decision points.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the site readiness requirements for Teams Rooms on Android.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>|
+| ![An icon depicting next steps.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your Teams Rooms on Android deployment and configuration.</li></ul>|
 
 ## Service readiness
 
@@ -84,9 +85,9 @@ Planning for configuration and deployment covers the following key areas:
 
 ### Account provisioning
 
-If you plan on using Microsoft 365 resource accounts to let users book collaboration bars, follow the instructions in [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) to create a Microsoft 365 resource account for each collaboration bar that needs one. This is also where you'll need to add a Meeting Room license to the resource account and, if you want to make or receive calls to or from external phone numbers, a Calling Plan or Business Voice license if your organization is not using Direct Routing.
+If you plan on using Microsoft 365 resource accounts to let users book Teams Rooms on Android devices, follow the instructions in [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) to create a Microsoft 365 resource account for each Teams Rooms on Android device that needs one. This is also where you'll need to add a Meeting Room license to the resource account and, if you want to make or receive calls to or from external phone numbers, a Calling Plan or Business Voice license if your organization is not using Direct Routing.
 
-If you want to assign Teams Rooms to individual users for their private use, you don't need to set up any additional accounts. Users can sign into collaboration bars using their personal accounts.
+If you want to assign Teams Rooms to individual users for their private use, you don't need to set up any additional accounts. Users can sign into Teams Rooms on Android devices using their personal accounts.
 
 > [!TIP]
 > Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Teams Rooms to meetings. You could use a convention like *Site*-*Room Name*(*Max Room Capacity*), so for example Curie, a 4-person meeting room in London, might have the display name LON-CURIE(4).
@@ -107,7 +108,7 @@ Next, you need to create your plan to deliver the devices and their assigned per
 
 ### Testing
 
-After you have deployed Teams Rooms, you should test them. Sign in to Teams Rooms and check that the expected capabilities are working. We highly recommend that you verify that they are appearing in the **Collaboration bars** section under the **Teams Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
+After you have deployed Teams Rooms, you should test them. Sign in to Teams Rooms and check that the expected capabilities are working. We highly recommend that you verify that they appear in the **Teams Rooms on Android** section under the **Teams Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
 
 We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](../quality-of-experience-review-guide.md).
 

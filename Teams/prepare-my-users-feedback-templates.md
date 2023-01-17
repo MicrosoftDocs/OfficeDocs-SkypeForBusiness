@@ -1,7 +1,7 @@
 ---
 title: Feedback surveys in Teams or Skype for Business
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -11,11 +11,13 @@ audience: admin
 description: Gather user feedback to improve cloud voice implementation in Microsoft Teams or Skype for Business.
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-collaboration
 ---
 
 # User feedback surveys 

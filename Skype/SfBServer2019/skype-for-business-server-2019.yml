@@ -29,12 +29,8 @@ landingContent:
         links:
           - text: System requirements
             url: ./plan/system-requirements.md
-          - text: Network requirements	
+          - text: Network requirements
             url: ../SfbServer/plan-your-deployment/network-requirements/network-requirements.md
-      - linkListType: download
-        links:
-          - text: Download now!
-            url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
 
   # Card (optional)
   - title: Plan

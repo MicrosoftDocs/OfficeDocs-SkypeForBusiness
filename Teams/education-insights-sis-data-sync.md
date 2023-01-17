@@ -12,31 +12,32 @@ ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-ms.collection: 
+ms.collection:
   - M365-collaboration
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
 # Sync Student Information System (SIS) data with Education Insights
+
 The more data is fed into [Education Insights](class-insights.md), the better educators can support their students, and education leaders can support the educators.
 
-To provide organization-level Insights, we must use [School Data Sync (SDS)](/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
+To provide organization-level Insights, we must use [School Data Sync (SDS)](/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly.
 
 Viewing class-level Insights as the class educator *does not* require this sync because we use Teams' class structure and permissions.
 
 ## Plan your School Data Sync integration
-The Microsoft School Data Sync (a.k.a SDS) provides the School Information System (a.k.a SIS) data and it’s hierarchical structure of the educational system and maps which user is assigned where, as well as provides additional data on the student and organizational hierarchy.
+
+The Microsoft School Data Sync (a.k.a SDS) provides the School Information System (a.k.a SIS) data and it's hierarchical structure of the educational system and maps which user is assigned where, as well as provides additional data on the student and organizational hierarchy.
 
 Insights works best when using [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) but also supports [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format) and  [SDS V1 file format](/schooldatasync/school-data-sync-format-csv-files-for-sds) *with limited functionality*.
-
 
 ### Differences between SDS V1 and V2 file formats
 
 | Data type | V1 | V2 and V2.1 |
 |:--- |:--- |:--- |
-| **Users** |Supports only ‘educator’ role, as a result org-level permissions for your education leaders need to be set manually|Supports multiple roles so that role-based permissions can be set|
-| **Orgs** | Supports only ‘schools’, aggregation level.<br><br>As a result, does not provide multiple aggregation levels and provide limited ability to compare different types of schools (e.g primary vs. secondary school, science vs. art school)|Supports multi-layer hierarchy, including district/institution, universities, colleges, faculties, campuses, regions, programs, etc.<br><br>Allows for multiple aggregation levels and to easily compare between organizational units at each level, assign permissions to specific levels, set goals by org level, etc.|
+| **Users** |Supports only 'educator' role, as a result org-level permissions for your education leaders need to be set manually|Supports multiple roles so that role-based permissions can be set|
+| **Orgs** | Supports only 'schools', aggregation level.<br><br>As a result, does not provide multiple aggregation levels and provide limited ability to compare different types of schools (e.g primary vs. secondary school, science vs. art school)|Supports multi-layer hierarchy, including district/institution, universities, colleges, faculties, campuses, regions, programs, etc.<br><br>Allows for multiple aggregation levels and to easily compare between organizational units at each level, assign permissions to specific levels, set goals by org level, etc.|
 | **Additional optional information** |None|**V2.1 file format only**<br><br>*Academic Sessions* - timeframes of sessions (semesters, school years etc.)<br><br>Demographics and student flags* - data like race, ethnicity, and gender, as well as special programs (IEP, 504)|
 
 > [!NOTE]
@@ -49,31 +50,33 @@ The accurate mapping of the hierarchy and where everyone belongs within that hie
 The more detail you provide, the better and more relevant the reports and spotlights will be.
 
 #### File format version to use adn data to sync
-*	Use file format V2.1 and sync the optional data used by Education Insights as described [here](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv).
+
+- Use file format V2.1 and sync the optional data used by Education Insights as described [here](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv).
 
 #### Users and Roles
-*	Make sure **all users are listed in the files** you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.
-*	If you currently only have educators listed in your SIS, add all other users manually before uploading the files to SDS and syncing the data. The stats gathered by Insights will onlybe  from the registered students, if some students are missing, that will make the data and conclusions misleading.
-	
-*	If you use SDS for provisioning as well, make sure to **provide the first and last name of each user**. Otherwise, students will be referenced by their email address, resulting in a non-optimal experience.
 
-*	The grade/year level must be based on this [mapping list](#supported-grade-level-values). 
+- Make sure **all users are listed in the files** you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.
+- If you currently only have educators listed in your SIS, add all other users manually before uploading the files to SDS and syncing the data. The stats gathered by Insights will onlybe  from the registered students, if some students are missing, that will make the data and conclusions misleading.
 
-*	Make sure to **add the year/grade level to all students** .    
+- If you use SDS for provisioning as well, make sure to **provide the first and last name of each user**. Otherwise, students will be referenced by their email address, resulting in a non-optimal experience.
 
-*	Make sure to **assign each user to their relevant organizational unit**.
+- The grade/year level must be based on this [mapping list](#supported-grade-level-values).
 
-    *	A student can be associated to more than one organizational unit, for example, students who are registered in a special program or two faculties. In case the student has more then one organizational unit, provide a line for each in the users file for that student.
-	
-    *	IT admin can grant permissions based on organizational unit for staff. **Make sure staff members are associated with the correct unit level**, so they receive the permissions they need. For example, a counselor assigned to four schools needs to see all the grades in those schools; a principal needs to see all the classes in their school. 
-	
-*	**The role is vital**. Although this list is closed, try to match the role from [the list](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) to the real role of each user you upload. This will enable you to assign role-based permissions accordingly. For example, provide permissions for all principals to see the classes in their school, or for all professors to see their faculty. 
+- Make sure to **add the year/grade level to all students** .
+
+- Make sure to **assign each user to their relevant organizational unit**.
+
+  - A student can be associated to more than one organizational unit, for example, students who are registered in a special program or two faculties. In case the student has more then one organizational unit, provide a line for each in the users file for that student.
+
+  - IT admin can grant permissions based on organizational unit for staff. **Make sure staff members are associated with the correct unit level**, so they receive the permissions they need. For example, a counselor assigned to four schools needs to see all the grades in those schools; a principal needs to see all the classes in their school.
+
+- **The role is vital**. Although this list is closed, try to match the role from [the list](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) to the real role of each user you upload. This will enable you to assign role-based permissions accordingly. For example, provide permissions for all principals to see the classes in their school, or for all professors to see their faculty.
 
 #### Organizations
 
-* Make sure to **reflect the real and full hierarchy of your organization**. In some cases, this hierarchy is not reflected in the SIS, in which case it needs to be added manually to the CSV file efore syncing.
+- Make sure to **reflect the real and full hierarchy of your organization**. In some cases, this hierarchy is not reflected in the SIS, in which case it needs to be added manually to the CSV file before syncing.
 
-* Make sure that **all organization units down the organization tree include students or classes**. We recommend that students are on the lowest branch of the tree.
+- Make sure that **all organization units down the organization tree include students or classes**. We recommend that students are on the lowest branch of the tree.
 
 > [!NOTE]
 > For more details about SDS deployment, visit [Planning SDS](/schooldatasync/planning-school-data-sync).
@@ -89,7 +92,8 @@ As an IT Admin, you can choose to use SDS for provisioning only, Insights only o
 To Sync your SIS information with Educations Insights follow the instructions in [How to deploy SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### Deploy SDS
-**If you already use SDS**, we recommend you follow our [best practices](#best-practices). 
+
+**If you already use SDS**, we recommend you follow our [best practices](#best-practices).
 
 **If you don't use SDS yet**, you now need to [deploy it](/schooldatasync/deploying-school-data-sync).
 
@@ -99,6 +103,7 @@ During the deployment process, you can decide if you want to use SDS for provisi
 > If it's the middle of the year and you already created teams manually, use SDS only to provide the user and organizational hierarchy data to Insights, and next year consider using SDS for provisioning users and classes for Teams as well.
 
 ### Verify the sync process
+
 To verify the sync status progress follow the instructions in [SDS for Insights Data Health and Monitoring](/schooldatasync/sds-for-insights-data-health-and-monitoring).
 
 > [!IMPORTANT]
@@ -111,8 +116,9 @@ In the SDS files, grade/year level defined as Enumerated values, which means you
 The section below defines the supported values in the users file.
 
 ### United States / worldwide grade levels
+
 |Value in file (Grade column) | Label in Insights|
-|:---|:---| 
+|---|---|
 |IT|Infant|
 |PR|Pre-school|
 |PK|Pre-kindergarten|
@@ -144,8 +150,9 @@ The section below defines the supported values in the users file.
 |Other|Other|
 
 ### United Kingdom year groups
+
 |Value in file (Grade column) | Label in Insights|
-|:---|:---| 
+|---|---|
 |IT|Nursery|
 |PR|Pre-school|
 |PK|Reception|
@@ -174,4 +181,3 @@ The section below defines the supported values in the users file.
 |adultEducation|Adult Education|
 |UG|Ungraded|
 |Other|Other|
-

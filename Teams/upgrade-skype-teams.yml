@@ -52,7 +52,7 @@ productDirectory:
     # Card
     - title: Teams upgrade stories
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
       links:
         - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
           text: Royal DSM – Skype for Business Server to Teams
@@ -69,49 +69,49 @@ productDirectory:
     # Card
     - title: "Ignite Session: Design your path to Teams"
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/walkthrough-map-teams.svg
       summary: This session from Ignite 2020 helps you find the approach most suitable for your Skype for Business implementation and goals.
       url: https://go.microsoft.com/fwlink/?linkid=2154668
     # Card
     - title: Upgrade Success Kit
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/success-teams.svg
       summary: Download user readiness materials including communications templates, user surveys, and sample project and pilot test plans.
       url: https://aka.ms/UpgradeSuccessKit
     # Card
     - title: Teams admin documentation
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/document-teams.svg
       summary: Learn how to roll out and manage Teams, and prepare your users for new communications and collaboration experiences.
       url: ./index.yml
     # Card
     - title: Instructor-led Teams training
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/presenter-with-podium.svg
       summary: Free, live, online training classes designed to get you up and running with Teams.
       url: ./instructor-led-training-teams-landing-page.yml
     # Card
     - title: Expand your Teams scenarios
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/best-practices-teams.svg
       summary: Our Teams Chalk Talks online workshops are designed to help IT Pros get the most from Teams.
       url: ./chalk-talks-landing-page.yml
     # Card
     - title: Skype for Business Online retirement
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
       summary: Prepare for the July 31, 2021 retirement of the Skype for Business Online service and learn how to plan a successful transition to Teams.
       url: ./skype-for-business-online-retirement.md
     # Card
     - title: Microsoft Teams blog
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/blog-site-teams.svg
       summary: Learn best practices, news, and trends directly from the team behind Microsoft Teams.
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog      
     # Card
     - title: Total Economic Impact of Teams
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/trend-graph-teams.svg
       summary: Dive into the Forrester Research report that quantifies improvements in employee and company performance after adopting Teams.
       url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
 

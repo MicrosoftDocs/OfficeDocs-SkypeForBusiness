@@ -1,7 +1,7 @@
 ---
 title: "Using the CQD PSTN Direct Routing report"
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article
@@ -19,7 +19,7 @@ description: "Use the Microsoft Teams Call Quality Dashboard (CQD)) PSTN Direct 
 
 # Using the CQD PSTN Direct Routing report
 
-New in March 2020, we've added a Microsoft Teams Call Quality Dashboard (CQD) PSTN Direct Routing report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+The Microsoft Teams Call Quality Dashboard (CQD) PSTN Direct Routing report is available in our downloadable [Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
 
 The CQD PSTN Direct Routing report (CQD PSTN Direct Routing Report.pbit) helps you understand the usage patterns and quality of your PSTN services. Use this report to monitor service usage, information about your Session Border Controller (SBC), the telephony service, network parameters, and Network Effectiveness Ratio details. This information can help you identify issues, including the reason for dropped calls. For example, you'll be able to see when volume drops, or how many calls get affected and for what reason.

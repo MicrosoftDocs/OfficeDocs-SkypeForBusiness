@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: "Summary: Learn about the servers and server roles you must configure before you install Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn about the servers and server roles you must configure before you install Skype for Business Server."
 ---
 
 # Install prerequisites for Skype for Business Server
  
-**Summary:** Learn about the servers and server roles you must configure before you install Skype for Business Server. Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn about the servers and server roles you must configure before you install Skype for Business Server.
   
 Installing prerequisites consists of setting up Windows Server by installing the required roles and features on each of the servers in the topology. The requirements are based on the role the server will fulfill in the topology. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Installing prerequisites is step 1 of 8.
   

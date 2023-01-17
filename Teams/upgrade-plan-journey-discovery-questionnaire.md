@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Upgrade | Environment Evaluation, Discovery Questions
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -63,7 +63,7 @@ Use the following table to capture information about your existing collaboration
 > | Is Exchange deployed? <br/>For on-premises and hybrid deployments, make sure <br>you note the version and CU details in the Comments <br>column. | <input type="checkbox"> Yes, Microsoft 365 or Office 365 <br/> <input type="checkbox"> Yes, hybrid (with Microsoft 365 or Office 365) <br/> <input type="checkbox"> Yes, on-premises <br/> <input type="checkbox"> Yes, online, dedicated <br>&nbsp; &nbsp; &nbsp;(Microsoft) <br/> <input type="checkbox"> Yes, hosted, dedicated <br>&nbsp; &nbsp; &nbsp;(third party) <br/> <input type="checkbox"> Yes, hosted, shared <br>&nbsp; &nbsp; &nbsp;(third party) <br/> <input type="checkbox"> No, other | |
 > | Is SharePoint deployed? <br/>For on-premises and hybrid deployments, make sure <br>you note the version and CU details in the Comments <br>column. | <input type="checkbox"> Yes, Microsoft 365 or Office 365 <br/> <input type="checkbox"> Yes, hybrid (with Microsoft 365 or Office 365) <br/> <input type="checkbox"> Yes, on-premises <br/> <input type="checkbox"> Yes, online, dedicated <br>&nbsp; &nbsp; &nbsp;(Microsoft) <br/> <input type="checkbox"> Yes, hosted, dedicated <br>&nbsp; &nbsp; &nbsp;(third party) <br/> <input type="checkbox"> Yes, hosted, shared <br>&nbsp; &nbsp; &nbsp;(third party) <br/> <input type="checkbox"> No, other | |
 > | Is Microsoft 365 or Office 365 OneDrive for Business deployed? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
-> | Do you have any other third-party platforms deployed <br>and in use today? If so, note the number of users of <br>these platforms and the usage details in the Comments <br>column. | <input type="checkbox"> Cisco WebEx <br/> <input type="checkbox"> Slack <br/> <input type="checkbox"> Other (Specify in the Comments <br>&nbsp; &nbsp; &nbsp;column.) | Number of users: <br/>Details:|
+> | Do you have any other third-party platforms deployed <br>and in use today? If so, note the number of users of <br>these platforms and the usage details in the Comments <br>column. | <input type="checkbox"> Cisco Webex <br/> <input type="checkbox"> Slack <br/> <input type="checkbox"> Other (Specify in the Comments <br>&nbsp; &nbsp; &nbsp;column.) | Number of users: <br/>Details:|
 > | Are you planning to move users from these third-party <br>platforms to Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | What is the current telephony and conferencing solution <br>of the users who are in scope for this initiative? | | |
 > | Do you have [SBCs that support Direct Routing](direct-routing-plan.md#supported-session-border-controllers-sbcs) deployed for your offices that are in scope for this initiative? <br>If Yes, note the details in the Comments column.| <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||

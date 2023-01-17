@@ -1,7 +1,7 @@
 ---
-title: "Phones for Microsoft Teams"
-ms.author: czawideh
-author: cazawideh
+title: Phones for Microsoft Teams
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -10,13 +10,14 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-f1.keywords:
+f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-voice
+  - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams."
+description: This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams.
 ---
 
 # Phones for Microsoft Teams
@@ -44,7 +45,7 @@ Teams-certified phones have a broad array of features to help your users do thei
     > [!IMPORTANT]
     > If a phone isn't signed in, or if it doesn't have an Internet connection, 911 calls can't be placed. If this happens, a notification is displayed on the phone.
 
-In addition to the above features, you can control what capabilities are available depending on the type of license and phone policy that are assigned to the user signing into the phone. For example, users who sign into a phone with their personal accounts can access the full range of features - calling, meetings, voicemail, and so on. Accounts assigned a Common Area Phone license that sign into a phone, however, may only get access to a limited range of features; call history and meeting schedules may not be retained, for example, to protect users' privacy.
+In addition to the above features, you can control what capabilities are available depending on the type of license and phone policy that are assigned to the user signing into the phone. For example, users who sign into a phone with their personal accounts can access the full range of features - calling, meetings, voicemail, and so on. Accounts assigned a **Microsoft Teams Shared Devices** license that sign into a phone, however, may only get access to a limited range of features; call history and meeting schedules may not be retained, for example, to protect users' privacy.
 
 ## Required licenses
 

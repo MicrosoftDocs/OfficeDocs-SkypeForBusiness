@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -69,6 +69,10 @@ Under **Content sharing**:
 
 Then assign the policy to the users.
 
+This video shows the steps to create and assign a custom meeting policy to a user (or users).
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
+
 ## Edit a meeting policy
 
 You can edit the global policy and any custom policies that you create.
@@ -80,6 +84,10 @@ You can edit the global policy and any custom policies that you create.
 
 > [!NOTE]
 > A user can be assigned only one meeting policy at a time.
+
+This video shows the steps to edit an organizational-wide default meeting policy.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
 
 ## Assign a meeting policy to users
 

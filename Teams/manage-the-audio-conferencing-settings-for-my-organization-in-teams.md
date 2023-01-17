@@ -1,5 +1,5 @@
 ---
-title: "Manage Audio Conferencing settings"
+title: Manage Audio Conferencing settings
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -12,17 +12,16 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
-  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: "See Microsoft Teams steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings. "
+description: See Microsoft Teams steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings.
 ---
 
 # Manage the Audio Conferencing settings for your organization in Microsoft Teams
@@ -112,15 +111,10 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 ### Set invite phone numbers using the Microsoft Teams admin center
 
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
+Refer to [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
-2. Next to **Audio Conferencing**, click **Edit**.
-
-3. In the **Audio Conferencing** pane, you can set the **Toll number** and, if allowed, the **Toll-free number**.
-
-4. Click **Save**.
-
-See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
+> [!NOTE]
+> You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
 
 ## Choose audio conferencing bridge settings
 
