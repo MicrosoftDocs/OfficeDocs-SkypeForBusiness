@@ -45,7 +45,7 @@ External access policies include controls for both the organization and user lev
 The Teams admin center controls external access at the organization level. Most options (except domain restrictions) are available at the user level by using PowerShell. See [Using PowerShell](#using-powershell) below for more information.
 
 > [!NOTE]
-> In cross-cloud federation, sipfederationtls DNS records are required for routing of federated chats. For more information, see [External DNS records required for Teams](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams).
+> External access between different cloud environments (such as Microsoft 365 and Office 365 Government) requires external DNS records for Teams. For more information, see [External DNS records required for Teams](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams).
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
