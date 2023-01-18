@@ -162,7 +162,7 @@ Some tenants may have Teams Premium trial licenses. Once the trial licenses expi
 
 ## What are the requirements to purchase Teams Premium?
 
-At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, EES, CSP, Web Direct, NCE – Customer led, and NCE – Partner led.
+At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE – Customer led, and NCE – Partner led.
 
 Before you can purchase Teams Premium licenses for your users, ensure that your tenant and users meet the requirements.
 
@@ -182,11 +182,9 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 ## Which users should be assigned Teams Premium licenses?
 
-Teams Premium is per-user, per-month license where any user benefiting from Teams Premium functionality needs to have a license assigned.
+Teams Premium is per-user, per-month license where any user benefiting from Teams Premium functionality needs to have a Teams Premium license assigned.
 
-A few meeting and event features extend the Teams Premium benefit to all attendees when the organizer has a Teams Premium license. This extended coverage optimizes the meeting or event by ensuring all attendees have a uniform experience. Extended coverage scenarios don't change the need for IT admins to license each user benefitting from Teams Premium features.
-
-For advanced Virtual Appointments, assign Teams Premium licenses to the meeting organizer, meeting scheduler (if scheduling on behalf of others), and any user within the organization who needs access to Virtual Appointments actions or data. There is no license requirement for Virtual Appointments external participants.
+There is no license requirement for Virtual Appointments external participants.
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
