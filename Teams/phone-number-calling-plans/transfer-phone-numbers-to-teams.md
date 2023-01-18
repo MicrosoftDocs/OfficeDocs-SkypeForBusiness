@@ -78,16 +78,14 @@ Before you start, we recommend you review the information in [What's a port orde
     4. Scan the signed LOA, and then select **Upload a signed Letter of Authorization** to upload it.
 
     > [!NOTE]
-    > After you upload your LOA, submit your order. Just uploading the LOA isn't sufficient. You have to also submit the order for it be processed.
+    > After you upload your LOA, submit your order. Just uploading the LOA isn't sufficient. You have to also submit the order for it be processed.</br> 
+    > For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).</br> 
+    >
+    >To port/transfer 999 or fewer phone numbers for your users, you can upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.</br> 
+    >
+    > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
 
 7. Review your order details, and then select **Submit**.
-
-> [!NOTE]
-> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).</br> 
->
->To port/transfer 999 or fewer phone numbers for your users, you can upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.</br> 
->
-> To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Teams admin center, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) to the TNS Service Desk for your region.
 
 ## What happens next?
 

@@ -73,7 +73,7 @@ If you experience issues with the porting wizard, you can [manually submit a por
 >
 >To port/transfer 999 or fewer phone numbers for your users, you can upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.</br> 
 >
-> To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Teams admin center, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) to the TNS Service Desk for your region.
+> To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
 
 > [!NOTE]
 > You can purchase extra phone numbers in the Microsoft Teams admin center. For special cases such as a large number of ports (1000+), complex ports, or if you need assistance, [contact the TNS service desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
