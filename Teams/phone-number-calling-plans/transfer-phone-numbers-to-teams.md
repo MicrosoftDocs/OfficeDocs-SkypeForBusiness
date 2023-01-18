@@ -82,6 +82,13 @@ Before you start, we recommend you review the information in [What's a port orde
 
 7. Review your order details, and then select **Submit**.
 
+> [!NOTE]
+> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).</br> 
+>
+>To port/transfer 999 or fewer phone numbers for your users, you can upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.</br> 
+>
+> To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Teams admin center, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) to the TNS Service Desk for your region.
+
 ## What happens next?
 
 When we receive your port order, you'll receive an email that verifies your request. Your request is checked and updated daily, and you'll be notified of its progress and status in email. If your port request is rejected by the carrier, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.

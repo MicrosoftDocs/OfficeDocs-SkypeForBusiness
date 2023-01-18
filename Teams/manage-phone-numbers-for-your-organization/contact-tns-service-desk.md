@@ -144,6 +144,13 @@ Case type can be one of the following:
 
   - **Letter of authorization (LOA)** - Attach a signed and filled out LOA here. Microsoft cannot process a port request without an LOA.
 
+    > [!NOTE]
+    > For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).</br> 
+    >
+    >To port/transfer 999 or fewer phone numbers for your users, you can upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.</br> 
+    >
+    > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Teams admin center, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) to the TNS Service Desk for your region.
+
 - **Address Update** – Update emergency calling address. Note that this field applies to select countries only.
 
   - **Location id** - The location ID for your emergency address.
