@@ -27,7 +27,13 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 ## How to access the reports
 
-To access the reports, you must be a global admin in Microsoft 365 or Office 365, global reader in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
+To access the reports, you must be assigned one of the following roles:
+
+- Global administrator.
+- Teams or Skype for Business administrator.
+- Global reader (only tenant-level aggregate and no per-user or team data).
+
+To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **View Reports**, choose the report you want to run.
 
@@ -59,7 +65,7 @@ We're continually improving the Teams reporting experience and adding features a
 
 ## Make the user specific data anonymous
 
-To make the data in Teams user activity report anonymous, you have to be a global administrator. The global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and AAD ID in the report and its export.
+To make the identifiable information in usage reports anonymous, you have to be a Global administrator. The Global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and AAD ID in the report and its export.
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
     
