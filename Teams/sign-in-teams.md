@@ -149,14 +149,17 @@ For macOS managed devices, use .plist to deploy sign-in restrictions. The config
 
 ### Global sign in and Microsoft Teams
 
-The Teams Android app now supports Global sign-in, to provide a hassle free sign-in experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](sign-out-of-teams.md) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. Make sure to end any active meeting or call on the device before signing out. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+Our improved sign-in experience on shared device provides a hassle free sign-in for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](https://learn.microsoft.com/microsoftteams/sign-out-of-teams) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be set in shared mode. Make sure to end any active meeting or call on the device before signing out.
+
+Android: To learn how to set up android devices in shared mode, see [How to use a shared device mode in Android](https://learn.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+
+iOS: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](https://learn.microsoft.com/azure/active-directory/develop/msal-ios-shared-devices). Download Teams app from app store, once the device is set in shared mode. Launch Teams and leave it open for 30 seconds, close the app and relaunch (this step is only needed for public preview phase).
 
 The sign-in experience looks similar to our standard Teams sign-in experience.
 
 ## URLs and IP address ranges for Microsoft Teams
 
 Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government, and other clouds, read [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
-
 
 ## Related topics
 
