@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
