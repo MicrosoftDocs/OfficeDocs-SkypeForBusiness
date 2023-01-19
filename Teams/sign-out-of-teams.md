@@ -55,6 +55,8 @@ Our improved sign-in experience on shared device provides a hassle free sign-in 
 
 **iOS**: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices). Once the device is set in shared mode, launch Teams and leave it open for 30 seconds, close the app and relaunch (this step is only needed for public preview phase).
 
+![Sign-out-section](media/signout.png)
+
 ## Manual Cleanup
 
 While rare, it's possible that Teams might not be able to clean up after itself fully on sign-out. Based on user reports, the common causes include files being locked by a service running on the system but there could be other reasons dependent on an individual's device configurations or policies and user permissions applied to the device.
