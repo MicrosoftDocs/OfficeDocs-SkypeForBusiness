@@ -534,7 +534,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 Download [Postman](https://www.postman.com/).
 
-Unzip the `sync_pstn_avs-analytics.zip` file in the [downloaded zip file](./aa-cq-cqd-historical-reports#v3xx-installation)
+Unzip the `sync_pstn_avs-analytics.zip` file in the [downloaded zip file](aa-cq-cqd-historical-reports.md#v3xx-installation)
 
 Import the folder into Postman. 
 
