@@ -39,6 +39,18 @@ description: This reference describes each of the policies available in Microsof
 |Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Azure AD organizations to join the channel, if Azure AD cross-tenant access settings are configured.|
 |Join external shared channels|On|When **On**, users and teams can be invited to external shared channels, if Azure AD cross-tenant access settings are configured.|
 
+#### PowerShell-only Teams policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+|AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md) |
+|EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this to **True** to allow or **False** to prohibit.|
+
+#### Related topics to Teams policies
+
+- [Set-CsTeamsChannelsPolicy](/powershell/module/skype/set-csteamschannelspolicy)
+- [Manage channel policies in Microsoft Teams](teams-policies.md)
+
 ### Template policies
 
 **Navigation:** Teams admin center > Teams > Template policies
@@ -58,6 +70,10 @@ Template policies control what team templates users see when they create a new t
 - Hospital
 - Quality and Safety
 - Retail for Managers
+
+### Related topics to template policies
+
+- [](templates-policies.md)
 
 ## Meetings
 
@@ -217,13 +233,21 @@ Template policies control what team templates users see when they create a new t
 |:-----|:-----|:-----|
 |Live events scheduling|On|When **On**, users in your organization can create and schedule live events in Teams.|
 |Transcription for attendees|Off|Turning this on enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
-|Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection.|
-|Record an event|Organizer can record|This controls whether the event is recorded.|
+|Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection. If using PowerShell, `-BroadcastAttendeeVisibilityMode` gives the options to also use `EveryoneInCompanyAndExternal` or `InvitedUsersInCompanyAndExternal`. |
+|Record an event|Organizer can record|This controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](live-events-recording-policies.md).|
 
 #### PowerShell-only live events policies
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+
+#### Related topics to live events meeting policies
+
+- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
+- [What are Teams live events?](what-are-teams-live-events.md)
+- [Plan for live events in Microsoft Teams](plan-for-teams-live-events.md)
+- [Live streaming events in Microsoft Teams](teams-stream-overview.md)
+- [Configuring encoders for live event streaming in Microsoft Teams](teams-encoder-configuration.md)
 
 ## Messaging policies
 
@@ -243,7 +267,7 @@ Template policies control what team templates users see when they create a new t
 |Memes in conversations|On|When **On**, users can include Memes in chat conversations with other people.|
 |Stickers in conversations|On|When **On**, users can include Stickers in chat conversations with other people.|
 |URL previews|On|Controls automatic URL previewing in messages.|
-|Translate messages|On|Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.|
+|Translate messages|On|Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365. Read more on [inline message translation in Microsoft Teams](inline-message-translation-teams.md)|
 |Immersive reader for messages|On|When **On**, users can view messages in Microsoft Immersive Reader.|
 |Send urgent messages using priority notifications|On|If you turn this on, users can send messages using priority notifications. Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as urgent are picked up and read by the recipient.|
 |Create voice messages|Allowed in chats and channels|This setting controls whether users can leave audio messages in chats and channels.|
@@ -257,6 +281,14 @@ Template policies control what team templates users see when they create a new t
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+
+#### Related topics to messaging policies
+
+- [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)
+- [Manage messaging policies in Teams](messaging-policies-in-teams.md)
+- [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md)
+- [Manage external meetings and chat in Microsoft Teams](manage-external-access.md)
+- [Native chat experience for external (federated) users in Microsoft Teams](native-chat-for-external-users.md)
 
 ## Voice
 
@@ -291,13 +323,19 @@ Template policies control what team templates users see when they create a new t
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowCallRedirect|None|This setting provides the ability to configure call redirection capabilities on Teams phones. When set to **Enabled** users will have the ability to redirect received calls.|
-|CallRecordingExpirationDays|60|This setting controls the expiration of recorded 1:1 calls, measured in days.| 
+|CallRecordingExpirationDays|60|This setting controls the expiration of recorded 1:1 calls, measured in days.|
+
+#### Related topics to calling policies
+
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+- [Plan your Teams voice solution](cloud-voice-landing-page.md)
+- [Calling and call-forwarding features in Teams](teams-calling-policy.md)
 
 ### Call hold policies
 
 **Navigation:** Teams admin center > Voice > Call hold policies
 
-Call hold policies allow you to specify a custom audio file to play while calls are on hold. The **Music on hold** setting must also be **Enabled** in **Voice** > **Calling policies** or no music will be played.
+Call hold policies allow you to specify a custom audio file to play while calls are on hold. The **Music on hold** setting must also be **Enabled** in **Voice** > **Calling policies** or no music will be played. Read more on [how to setup Music on Hold](music-on-hold.md).In PowerShell, the [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy) is used.
 
 ### Call park policies
 
@@ -312,10 +350,10 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 |Call pickup end of range|99|The pickup code of the last parked call within in the range. After which, the rendered pickup codes start over from the start of the range once again.|
 |Park timeout (seconds)|300|The number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds.|
 
-#### PowerShell-only call park policies
+#### Related topics to call park policies
 
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
+- [Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
+- [Configure Call park and retrieve](call-park-and-retrieve.md)
 
 ### Caller ID policies
 
@@ -327,14 +365,16 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 |:-----|:-----|:-----|
 |Block incoming caller ID|Off|Turn on this setting to block the caller ID of incoming calls from being displayed.|
 |Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID.|
-|Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call.|
+|Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call. Read more about [Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).|
 |Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
 |Replace the caller ID with this service number|(Choose a service number)|Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace the caller ID with**.|
 
-#### PowerShell-only caller ID policies
+#### Related topics to Caller ID policies
 
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
+- [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity)
+- [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
+- [Manage caller ID policies in Microsoft Teams](caller-id-policies.md)
+- [Set the Caller ID for a user](set-the-caller-id-for-a-user.md)
 
 ### Emergency policies
 
@@ -344,17 +384,22 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|External location lookup mode|Off|Turn this on to allow your end users to configure their emergency address when they are working from a network location outside of the corporate network.|
+|External location lookup mode|Off|Turn this on to allow your end users to configure their emergency address when they are working from a network location outside of the corporate network. Read more about [emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and how to [add, change, or remove an emergency location](add-change-remove-emergency-location-organization.md) or [place for an emergency location](add-change-remove-emergency-place-organization.md) for your organization.|
 |Notification mode|(Blank)|This sets the type of notification sent to a security desk or team when someone calls emergency services. You can set it to just send a notification to them, or if they can, join an emergency call muted or unmuted.|
 |Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location.|
 |Numbers to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
-|Dynamic emergency calling|Off|If you turn this on, users assigned to the policy can use emergency call routing features when they move from one location to another.|
+|Dynamic emergency calling|Off|If you turn this on, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
-#### PowerShell-only emergency policies
+#### Related topics to emergency policies
 
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
+- [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)
+- [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
+- [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
+- [Assign or change the place for an emergency location for a user](assign-change-emergency-place-user.md)
+- [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 ### Voice routing policies
 
@@ -368,6 +413,12 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+
+#### Related topics to voice routing policies
+
+- [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy)
+- [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md)
+- [Configure call routing for Direct Routing](direct-routing-voice-routing.md)
 
 ### Voicemail policies
 
