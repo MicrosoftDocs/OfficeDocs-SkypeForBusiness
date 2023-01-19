@@ -145,12 +145,18 @@ With the general release of Teams Premium, some Teams features will move from Te
 
 The features that are moving to Teams Premium are:
 
-- Live translated captions. (in April 2023)
-- Timeline markers in Teams meeting recordings for when a user left or joined meetings. (in April 2023)
-- Custom organization Together mode scenes. (in March 2023)
-- Virtual Appointments: SMS notifications. (in March 2023)
-- Virtual Appointments: Organizational analytics in the Teams admin center. (in March 2023)
-- Virtual Appointments: Scheduled queue view. (in March 2023)
+- Live translated captions.
+  - Available to all Teams subscribers until 60 days after Teams Premium general availability.
+- Timeline markers in Teams meeting recordings for when a user left or joined meetings.
+  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+- Custom organization Together mode scenes.
+  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+- Virtual Appointments: SMS notifications.
+  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+- Virtual Appointments: Organizational analytics in the Teams admin center.
+  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+- Virtual Appointments: Scheduled queue view.
+  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
 
 ### Is there a grace period to switch to Team Premium before my users lose functionality?
 
