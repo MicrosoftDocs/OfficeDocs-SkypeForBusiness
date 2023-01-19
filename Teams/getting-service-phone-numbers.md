@@ -69,14 +69,11 @@ To transfer your phone numbers from your current service provider or carrier to 
 If you experience issues with the porting wizard, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download a Letter of Authorization (LOA). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) you'll be transferring by using an LOA. In the LOA, you must select the correct type of service number. Make sure you specify you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
 
 > [!NOTE]
-> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).</br> 
+> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 >
->To port/transfer 999 or fewer phone numbers for your users, you can upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.</br> 
+>To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing. You can also purchase extra phone numbers in the Microsoft Teams admin center.
 >
 > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
-
-> [!NOTE]
-> You can purchase extra phone numbers in the Microsoft Teams admin center. For special cases such as a large number of ports (1000+), complex ports, or if you need assistance, [contact the TNS service desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## View the phone numbers for your organization
 
