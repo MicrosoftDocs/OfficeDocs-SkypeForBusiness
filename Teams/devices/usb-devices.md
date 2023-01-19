@@ -88,8 +88,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH76 Headset                                               |12/22/2022      |Certified for Microsoft Teams                           |
 |Logitech             |Brio 300/301/305 Camera                                    |12/22/2022      |Certified for Microsoft Teams                           |
-|Poly                 |Poly Savi 7310 UC Series headsets with dongle version v1008|12/22/2022      |Certified for Microsoft Teams                           |
-|Poly                 |Poly Savi 7320 UC Series headsets with dongle version v1008|12/22/2022      |Certified for Microsoft Teams                           |
+|Poly                 |Savi 7310 UC Series headsets with dongle version v1008     |12/22/2022      |Certified for Microsoft Teams                           |
+|Poly                 |Savi 7320 UC Series headsets with dongle version v1008     |12/22/2022      |Certified for Microsoft Teams                           |
 |Yealink              |WH62 Dual/Mono Portable headset                            |12/21/2022      |Certified for Microsoft Teams                           |
 |Yealink              |WH63 Portable headset with DECT dongle                     |12/21/2022      |Certified for Microsoft Teams                           |
 |Cisco                |320 series (321/322) headsets                              |12/20/2022      |Certified for Microsoft Teams                           |
