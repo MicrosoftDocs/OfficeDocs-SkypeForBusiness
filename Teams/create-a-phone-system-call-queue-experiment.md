@@ -380,7 +380,7 @@ The following settings are recommended:
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Only public channels are supported.
+8. Only standard channels are supported.
 9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
 10. For GCCH/DOD, only available through User Settings Portal at:
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

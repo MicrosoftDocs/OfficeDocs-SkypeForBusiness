@@ -35,9 +35,6 @@ Before you start, we recommend you review the information in [What's a port orde
 
 ## Create a port order and transfer your phone numbers to Teams
 
-> [!NOTE]
-> If you experience issues with the porting process in the Teams admin center, you can [manually submit a port order](manually-submit-port-order.md) to the TNS Service Desk. To get the form you need to manually submit a port order, select your country or region in the drop-down list in [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
-
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port** to start the porting wizard.
 2. Review the information on the **Get started** page, and then when you're ready, select **Next**.
 3. On the **Select location and number type** page, specify the following, and then select **Next**:
@@ -79,6 +76,10 @@ Before you start, we recommend you review the information in [What's a port orde
 
     > [!NOTE]
     > After you upload your LOA, submit your order. Just uploading the LOA isn't sufficient. You have to also submit the order for it be processed.
+    >
+    > For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+    >
+    > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
 
 7. Review your order details, and then select **Submit**.
 
