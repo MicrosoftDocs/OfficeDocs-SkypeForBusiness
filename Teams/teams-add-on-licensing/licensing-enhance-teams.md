@@ -64,7 +64,7 @@ The following table compares key features between Teams and Teams Premium.
 | Read live translated captions during meetings |  | x |
 | Translate post-meeting transcriptions (*coming soon*) |  | x |
 | Turn on real-time data storage |  | x |
-| Turn on eCDN for Live Events |  | x |
+| Turn on [Microsoft eCDN](/ecdn/intro) for Live Events |  | x |
 
 ### Webinars
 
