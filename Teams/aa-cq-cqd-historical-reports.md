@@ -530,7 +530,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 Download [Postman](https://www.postman.com/).
 
-Unzip the `sync_pstn_avs-analytics.zip` file.
+Unzip the `sync_pstn_avs-analytics.zip` file that is part of [Teams Auto Attendant & Call Queue Historical Reports V3.0.5.zip](https://www.microsoft.com/download/details.aspx?id=104623).
 
 Import the folder into Postman. 
 
