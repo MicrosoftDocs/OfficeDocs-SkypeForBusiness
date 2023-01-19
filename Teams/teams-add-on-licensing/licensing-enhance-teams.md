@@ -245,4 +245,4 @@ The following list indicates Teams Premium features that require admin configura
 - Accessing the Virtual Appointments Premium app
 - Accessing Virtual Appointments data in the Teams admin center
 
-For instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
+For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
