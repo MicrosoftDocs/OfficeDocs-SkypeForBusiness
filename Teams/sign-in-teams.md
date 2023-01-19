@@ -157,6 +157,8 @@ Our improved sign-in experience on shared device provides a hassle free sign-in 
 
 The sign-in experience looks similar to our standard Teams sign-in experience.
 
+![Sign-in-section](media/signin.png)
+
 ## URLs and IP address ranges for Microsoft Teams
 
 Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government, and other clouds, read [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
