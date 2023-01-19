@@ -33,7 +33,7 @@ description: "When you get phone numbers or port (transfer) numbers for your org
 There is a new process to interact with the Telephone Number Services (TNS) service desk from our new **[Phone Number Service Center](https://pstnsd.powerappsportals.com)**. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. These tasks are described in more detail in the following sections.
 
 
-- **[Create a new case](#create-a-new-case)** – Submit a new request or general enquiry.
+- **[Create a new case](#create-a-new-case)** – Submit a new request or general inquiry.
 
 - **[View my existing cases](#view-and-manage-existing-cases)** – Track and monitor your existing case(s).
 
@@ -78,7 +78,7 @@ A case can have one of two categories:
 
 - **Submit a new request**- Choose this option if you want to submit a new request. For example, you want to submit a port request or you want to purchase phone numbers from Microsoft.
 
-- **General enquiry** - Choose this option if you have questions that will help you determine your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers.
+- **General inquiry** - Choose this option if you have questions that will help you determine your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers.
 
 #### Country or region
 
@@ -196,7 +196,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
 - For information about the calling plans that are available in your country/region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- For information zbout the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- For information about the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 - For information about managing phone numbers for your organization, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
 
