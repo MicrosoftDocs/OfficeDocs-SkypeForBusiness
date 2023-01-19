@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 # Teams meeting recording
 
-In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. The recording happens in the cloud and is saved to OneDrive and SharePoint, so users can share it securely across their organization.
+In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. The recording happens in Microsoft 365 and is saved to OneDrive and SharePoint, so users can share it securely across their organization.
 
 When a meeting is recorded, it's automatically:
 
