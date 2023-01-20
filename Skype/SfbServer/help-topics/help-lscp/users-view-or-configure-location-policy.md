@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.UserViewLoc
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: "What do you want to do? Click the link to the task that you want to perform."
