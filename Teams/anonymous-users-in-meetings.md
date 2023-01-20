@@ -49,7 +49,7 @@ To configure anonymous meeting join for the organization
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 
-1. Under **Participants**, set **Anonymous participants can join a meeting** to **On** or **Off**.
+1. Under **Participants**, set **Anonymous participants can join a meeting** to **On** (recommended) or **Off**.
 
     ![Screenshot of participants settings for meetings in the admin center.](media/meeting-settings-participants.png "Screenshot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
@@ -99,10 +99,6 @@ Anonymous participants don’t have all the same capabilities that other meeting
 
 ### How anonymous participants interact with apps in meetings
 
-Anonymous participants inherit the Global (Org-wide default) Teams apps permission policy. This control allows anonymous participants to interact with apps in Teams meetings as long as the app is enabled in that policy.
-
-Note that anonymous participants can only interact with apps that are already available in a meeting and cannot acquire and/or manage these apps.
-
 By default, the setting to allow anonymous participants to interact with apps in meetings is enabled.
 
 To configure app access for anonymous meeting participants
@@ -114,6 +110,10 @@ To configure app access for anonymous meeting participants
 1. Under **Participants**, set  **Anonymous participants can interact with apps in meetings** to **On** or **Off**.
 
 You can also control this with PowerShell by using `Set-CsTeamsMeetingConfiguration -DisableAppInteractionForAnonymousUsers`.
+
+Anonymous participants inherit the Global (Org-wide default) Teams apps permission policy. Anonymous participants can interact with apps in Teams meetings as long as the app is enabled in that policy and **Anonymous participants can interact with apps in meetings** is **On**.
+
+Note that anonymous participants can only interact with apps that are already available in a meeting and cannot acquire and/or manage these apps.
 
 ## Related topics
 
