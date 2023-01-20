@@ -44,6 +44,7 @@ The report gives you a breakdown of each transmission made during the date range
 |UserId|User ID.|
 |DeviceId|Device ID.|
 |ChannelId|The Walkie Talkie channel in which communication happens.|
+|clientCallStatus | Indicates if the device was able to receive the transmission without any issue.|
 |ConversationId|ID of each PTT transmission.|
 |TeamId|ID of the team that corresponds to the Walkie Talkie channel in which the user connects to.|
 |UnreachableParticipantsCount|Number of participants flagged as unreachable and hidden from the roster because they weren't able to receive any of the last five transmissions.|
@@ -53,8 +54,8 @@ The report gives you a breakdown of each transmission made during the date range
 |NotifiedParticipants|The participants to which a push notification is sent when a transmission starts. In scenarios where the connection between the device and service is lost, a notification is sent to the device to re-establish the connection as soon as possible because a transmission is coming.|
 |AudioDurationMilliseconds|Duration of the transmission in milliseconds.|
 |ConnectionId|ID of each connection to a Walkie Talkie channel that's established by the device.|
-|TransmissionStartTime |Date and time when the the first audio packet is received by the service.
-|TransmissionEndTime|Date and time when the the last audio packet is received by the service.|
+|TransmissionStartTime |Date and time when the first audio packet is received by the service.
+|TransmissionEndTime|Date and time when the last audio packet is received by the service.|
 |ParticipantList|A semi-colon delimited list of IDs of the devices connected to the channel at the time the transmission is sent.|
 |CallTimedOut|Whether the transmission exceeded the duration limit. This is a Boolean value.|
 |Platform|Device operating system.|
