@@ -1,5 +1,5 @@
 --- 
-title: Manage anonymous participant access to Teams meetings
+title: Manage anonymous participant access to Teams meetings (IT admins)
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
@@ -18,7 +18,7 @@ f1.keywords:
 description: For IT Pros - Learn how anonymous meeting participation works in Microsoft Teams.
 ---
 
-# Manage anonymous participant access to Teams meetings
+# Manage anonymous participant access to Teams meetings (IT admins)
 
 Anonymous participants in meetings hosted by your organization are those who's identity can't be verified. This could include:
 
