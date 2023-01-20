@@ -436,11 +436,16 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 |Translation for transcriptions|On|Turn this on to enable translation for voicemail transcriptions.|
 |Mask profanity in voicemail transcription|Off|If you turn this on, profanity will be masked in voicemail transcriptions.|
 |Users can share data for service improvement|On|If you turn this on, users can share voicemail and transcription data for training and improving accuracy. If you turn this off, voicemail data won't be shared.|
+|Before the user's greeting, play audio file|(none)|The audio file to play to the caller before the user's voicemail greeting is played.|
+|After the user's greeting, play audio file|(none)|The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.|
+|Disconnect the call if preamble or postamble cannot be played|Off|If you turn this on, the Pre- or Postamble mandatory will play before the caller can leave a message.|
 
-#### PowerShell-only voicemail policies
+#### Related topics to voicemail policies
 
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
+- [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+- [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
+- [Manage voicemail policies for your users](manage-voicemail-policies.md)
+- [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 
 ## Enhanced encryption policies
 
