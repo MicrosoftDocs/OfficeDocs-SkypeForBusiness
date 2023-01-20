@@ -29,52 +29,53 @@ Microsoft 365 connectors are used with both Microsoft Teams and Microsoft 365 gr
 
 Any member of a team can connect their team to popular cloud services with the connectors if the team permissions allow, and all team members are notified of activities from that service. Connectors continue to work after the member who initially set up the connector leaves. Any team member with the permissions to add or remove can modify connectors setup by other members.
 
->[!IMPORTANT]
->Starting January 2023, some Microsoft 365 connectors will be retired. The list of retiring connectors is as follows:
->AHA
->AIRBRAKE
->AIRCALL
->APPLINKS
->APPSIGNAL
->BEANSTALK
->BITBUCKET
->BITBUCKETSERVER
->BUDDY
->BUGSNAG
->BUILDKITE
->CATSONE
->CHATRA
->CIRCLECI
->CODESHIP
->GETRESPONSE
->GHOSTINSPECTOR
->GROOVE
->HEROKU
->HONEYBADGER
->INTERCOM
->LOGENTRIES
->NEWRELIC
->OPSGENIE
->PAGERDUTY
->PAPERTRAIL
->PINGDOM
->PIVOTALTRACKER
->RAYGUN
->ROLLBAR
->RUNSCOPE
->SATISMETER
->SEMAPHORE
->SENTRY
->SHAREPOINTNEWS
->SIMPLEINOUT
->STATUSPAGEIO
->SUBVERSION
->TEAMFOUNDATIONSERVER
->TESTFAIRY
->TRAVISCI
->UPDOWN
->USERLIKE
->XPDEV
+> [!IMPORTANT]
+> Starting January 2023, some Microsoft 365 connectors will be deprecated. The list of connectors being deprecated is as follows:
+
+> - AHA
+> - AIRBRAKE
+> - AIRCALL
+> - APPLINKS
+> - APPSIGNAL
+> - BEANSTALK
+> - BITBUCKET
+> - BITBUCKETSERVER
+> - BUDDY
+> - BUGSNAG
+> - BUILDKITE
+> - CATSONE
+> - CHATRA
+> - CIRCLECI
+> - CODESHIP
+> - GETRESPONSE
+> - GHOSTINSPECTOR
+> - GROOVE
+> - HEROKU
+> - HONEYBADGER
+> - INTERCOM
+> - LOGENTRIES
+> - NEWRELIC
+> - OPSGENIE
+> - PAGERDUTY
+> - PAPERTRAIL
+> - PINGDOM
+> - PIVOTALTRACKER
+> - RAYGUN
+> - ROLLBAR
+> - RUNSCOPE
+> - SATISMETER
+> - SEMAPHORE
+> - SENTRY
+> - SHAREPOINTNEWS
+> - SIMPLEINOUT
+> - STATUSPAGEIO
+> - SUBVERSION
+> - TEAMFOUNDATIONSERVER
+> - TESTFAIRY
+> - TRAVISCI
+> - UPDOWN
+> - USERLIKE
+> - XPDEV
 
 
 ## Enable or disable connectors in Teams
