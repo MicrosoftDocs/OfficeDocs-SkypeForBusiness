@@ -723,6 +723,18 @@ items:
               href: teams-live-events/configure-teams-live-events.md
             - name: Live events recording policies
               href: teams-live-events/live-events-recording-policies.md
+            - name: Streaming overview
+              href: teams-stream-overview.md
+            - name: Teams encoder
+              href: teams-encoder-setup.md
+            - name: Configuration
+              href: teams-encoder-configuration.md
+            - name: Creating an event
+              href: teams-stream-create-event.md
+            - name: Scale video delivery
+              href: teams-stream-ecdn.md
+            - name: Troubleshooting
+              href: teams-stream-troubleshooting.md
 
         - name: Create a Teams hybrid meeting experience
           items:
@@ -1846,6 +1858,8 @@ items:
           href: manage-freemium.md
         - name: Upgrade Microsoft Teams Free (classic) to subscription version
           href: upgrade-freemium.md
+        - name: Retire Microsoft Teams Free (classic)
+          href: teams-add-on-licensing/remove-assign-free-licenses.md
         - name: Microsoft Teams Shared Devices licensing
           href: teams-add-on-licensing/teams-shared-device-license.md
         - name: Advanced Communications

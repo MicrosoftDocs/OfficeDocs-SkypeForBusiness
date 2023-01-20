@@ -35,7 +35,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|4.15.54.0 | 12/15/2022 |
+|4.15.58.0 | 1/10/2023 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -92,7 +92,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
-### 4.15.54.0 (12/15/2022)
+### 4.15.58.0 (1/10/2023)
 
 Introduced in this update:
 

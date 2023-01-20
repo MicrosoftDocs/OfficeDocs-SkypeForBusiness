@@ -24,20 +24,20 @@ ms.custom:
 description: Learn about how to use the updated Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
-# Updated auto attendant and call queue historical reports
+# Auto attendant and call queue historical reports
 
 >[!NOTE]
 > GCC HIgh and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
-## V3.0.4 published on November 18, 2022
+## V3.0.5 published on January 9, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v304.png) report shows analytics for calls coming into your auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v304.png) report shows analytics for calls coming into your call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v304.png) report shows a timeline view of agents being active in call queue calls.
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v305.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v305.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v305.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -53,6 +53,8 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
+Any CQD role with both **View Reports** and **View EUII fields** set to **Yes** will work.
+
 - This requirement will be removed in a future release.
 
 ## V3.x.x installation 
@@ -61,15 +63,15 @@ The following steps assume you've already installed Power BI Desktop on your com
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.5.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.5.pbit` template file. Power BI Desktop should launch.
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v305.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -90,157 +92,6 @@ Perform the following steps:
 Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
 
 You'll have to refresh the data to see any new data.
-
-## Customization 
-
-You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and more.
-
-The report contains all the data metrics currently available.
-
-### Change color schema 
-
-The following steps assume you've already completed the installation steps.
-
-Perform the following steps:
-
-1. Select **View tab** on the ribbon.
-
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
-
-2. Select the color schema from the drop-down list.
-
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
-  
-## Dimensions and measurements
-
-### Common dimensions
-
-These dimensions are common to both auto attendants and call queues:
-
-|Name (Type)                                            |Possible Values                |Description                                                       |
-|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|ConferenceId<br>(Text)                                 |GUID                           |Call identifier                                                   |
-|Date<br>(DateTime)                                     |                               |Date of call (UTC)                                                |
-|DialogId<br>(Text)                                     |GUID                           |Call identifier                                                   |
-|DocumentId<br>(Text)                                   |GUID                           |Call identifier                                                   |
-|Duration<br>(Whole Number)                             |                               |Duration of call, in seconds                                      |
-|EndTime<br>(DateTime)                                  |                               |Time call ended (UTC)                                             |
-|FirstIsCaller<br>(Boolean)                             |                               |                                                                  |
-|FirstUPN<br>(Text)                                     |                               |                                                                  |
-|Hour<br>(Text)                                         |                               |Hour call started (UTC)                                           |
-|Minute<br>(Text)                                       |                               |Minute call started (UTC)                                         |
-|PSTNCallDuration<br>(Whole Number)                     |                               |                                                                  |
-|PSTNCallType<br>(Text)                                 |                               |                                                                  |
-|                                                       |External                       |                                                                  |
-|                                                       |Internal                       |                                                                  |
-|PSTNConnectivityType<sup>1</sup><br>(Text)             |                               |                                                                  |
-|                                                       |CallingPlan                    |                                                                  |
-|                                                       |DirectRouting                  |                                                                  |
-|Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
-|SecondUPN<br>(Text)                                    |                               |                                                                  |
-|TenantId<br>(Text)                                     |                               |Tenant ID                                                         |
-|Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
-|UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
-
-- <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as **Internal**.
-
-
-### Auto attendant dimensions
-
-|Name (Type)                                            |Possible Values                |Description                                                       |
-|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|AutoAttendantCallFlow<br>(Text)                        |                               |Encapsulates the different states of Auto Attendant call          |
-|                                                       |abs_search                     |                                                                  |
-|                                                       |announcement                   |                                                                  |
-|                                                       |automatic_menu                 |                                                                  |
-|                                                       |call_termination               |                                                                  |
-|                                                       |call_transfer                  |                                                                  |
-|                                                       |first_level_menu               |                                                                  |
-|                                                       |main_menu                      |                                                                  |
-|                                                       |speech_input_confirmation      |                                                                  |
-|                                                       |user_selection                 |                                                                  |
-|AutoAttendantCallResult<br>(Text)                      |                               |Final call result                                                 |
-|                                                       |failed_to_establish_media      |The media portion of the call couldn't be established             |
-|                                                       |failover_to_operator           |Call transferred to operator typically due to a system error      |
-|                                                       |oaa_chain_too_long             |Too many legs in the AA                                           |
-|                                                       |oaa_session_too_long           |AA session has lasted too long                                    |
-|                                                       |service_declined               |AA didn't accept the call                                         |
-|                                                       |service_terminated             |AA configuration disconnects the call or call hung up             |
-|                                                       |terminated_automatic_selection |AA configuration disconnects the calls                           |
-|                                                       |terminated_no_operator         |All terminated due to error no operator defined                   |
-|                                                       |terminated_transfer_failed     |Call terminated as transfer failed - typically to external number |
-|                                                       |transfer_in_progress           |AA->AA transfer                                                   |
-|                                                       |transferred_to_operator        |Call was transferred to operator                                  |
-|                                                       |transferred_to_cq              |Call was transferred to call queue                                |
-|                                                       |transferred_to_receptionist    |Same as transferred_to_operator                                   |
-|                                                       |transferred_to_self            |Call was returned to the start of the AA                          |
-|                                                       |transferred_to_shared_voicemail |Call was transferred to shared voicemail                         |
-|                                                       |transferred_to_user            |Call was transferred to a user                                    |
-|                                                       |unknown                        |An unknown condition has occurred                                 |
-|                                                       |user_terminated                |Caller hung up                                                    |
-|AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |                                                                  |
-|AutoAttendantChairDurationInSecs<br>(Real Number)      |                               |                                                                  |
-|AutoAttendantChainIndex<br>(Whole Number)              |                               |                                                                  |
-|AutoAttendantChainStartTime<br>(DateTime)              |                               |                                                                  |
-|AutoAttendantCount<br>(Whole Number)                   |                               |                                                                  |
-|AutoAttendantDirectorySearchMethod<br>(Text)           |                               |Directory search method                                           |
-|                                                       |abs_search_dtmf                |Touch tone                                                        |
-|                                                       |abs_search_voice               |Voice                                                             |
-|AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI call arrived on                              |
-|AutoAttendantTransferAction<br>(Text)                  |                               |Call transfer target type                                         |
-|                                                       |AA                             |Transferred to an AA                                              |
-|                                                       |CQ                             |Transferred to a CQ                                               |
-|                                                       |external_pstn                  |Transferred to an external number                                 |
-|                                                       |shared voicemail               |Transferred to shared voicemail                                   |
-|                                                       |Unknown                        |Unknown action                                                    |
-|HasAA<br>(Boolean)                                     |                               |Is AA involved in call                                            |
-
-
-### Call queue dimensions
-
-|Name (Type)                                            |Possible Values                |Description                                                       |
-|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|CallQueueAgentCount<br>(Whole Number)                  |                               |Number of agents in call queue                                    |
-|CallQueueAgentOptInCount<br>(Whole Number)             |                               |Number of agents opted-in to call queue                           |
-|CallQueueCallResult<br>(Text)                          |                               |Call queue call final state                                       |
-|                                                       |agent_joined_conference        |Call answered - conference mode CQ                                |
-|                                                       |declined                       |                                                                  |
-|                                                       |disconnected                   |                                                                  |
-|                                                       |error                          |                                                                  |
-|                                                       |failed                         |                                                                  |
-|                                                       |invalid                        |                                                                  |
-|                                                       |overflown                      |Overflow condition met                                            |
-|                                                       |timed_out                      |Timeout condition met                                             |
-|                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
-|CallQueueDurationSeconds<br>(Real Number)              |                               |                                                                  |
-|CallQueueFinaleStateAction<br>(Text)                   |                               |Call queue final action                                           |
-|                                                       |disconnect                     |time_out calls                                                    |
-|                                                       |disconnect_with_busy           |overflown calls                                                   |
-|                                                       |failed_to_accept_call          |                                                                  |
-|                                                       |forward                        |                                                                  |
-|                                                       |shared_voicemail               |                                                                  |
-|                                                       |other                          |                                                                  |
-|                                                       |voicemail                      |                                                                  |
-|CallQueueIdentity<br>(Text)                            |                               |Resource account URI call arrived on                              |
-|CallQueueTargetType<br>(Text)                          |                               |Call redirection target                                           |
-|                                                       |ApplicationEndpoint            |                                                                  |
-|                                                       |Mailbox                        |                                                                  |
-|                                                       |Other                          |                                                                  |
-|                                                       |Phone                          |                                                                  |
-|                                                       |User                           |                                                                  |
-|HasCQ<br>(Boolean)                                     |                               |Is CQ involved in call                                            |
-|TransferredFromCallQueueIdentity<br>(Text)             |                               |                                                                  |
-
-### Measurements
-
-|Name (Type)                                            |Possible Values                |Description                                                       |
-|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|AvgAutoAttendantChainDurationSeconds<br>(Real Number)  |                               |                                                                  |
-|AvgCallDuration<br>(Real Number)                       |                               |                                                                  |
-|AvgCallQueueDurationSeconds<br>(Real Number)           |                               |                                                                  |
-|PSTNTotalMinutes<br>(Real Number)                      |                               |                                                                  |
-|TotalAudioStreamDuration<br>(Real Number)              |                               |                                                                  |
-|TotalCallCount<br>(Whole Number)                       |                               |                                                                  |
 
 ## Auto attendant and call queue historical reports definitions
 
@@ -282,26 +133,35 @@ These dimensions are common to both auto attendants and call queues:
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
+|AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount (Measure)           |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
+|AACallerActionCount (Measure)           |Whole number             |Same as AACallerActionCount except will be 0 if no calls instead of blank                |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDuration (Measure)               |Decimal number           |Same as above except will be 0 if no calls instead of blank                              |
-|AAChainIndex                            |Text                     |                                                                                         |
-|AAConnectivityType                      |Text                     |                                                                                         |
-|AACount                                 |Text                     |Number of Auto Attendants involved in call                                               |
+|AAChainDuration (Measure)               |Decimal number           |Same as AAChainDuration except will be 0 if no calls instead of blank                    |
+|AAChainIndex                            |Whole Number             |                                                                                         |
+|AAConnectivityType                      |Text                     |See Common dimensions -> PSTNConnectivityType                                            |
+|AACount                                 |Whole Number             |Number of Auto Attendants involved in call                                               |
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
 |AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                                    |
-|AAStartHour                             |Decimal number           |Auto Attendant call start hour                                                           |
+|AAStartHour                             |Whole number             |Auto Attendant call start hour                                                           |
 |AAStartTime                             |Date/time                |Auto Attendant call start time                                                           |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
+|Call Duration Seconds                   |Whole number             |Call duration                                                                            |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |Call Type<sup>1</sup>                   |Text                     |See Common Dimensions -> PSTNCallType                                                    |
+|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
+|Sum of TotalCallCount (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
-|Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank                              |
 
 
 ### Cloud Call Queue Analytics report
@@ -311,7 +171,7 @@ These dimensions are common to both auto attendants and call queues:
 |Report Section                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
 |Incoming Call Source                    |Distribution of calls by Internal/External call source             |
-|Average Wait Time (seconds)             |Wait time for answered and abandoned calls                          |
+|Average Wait Time (seconds)             |Wait time for answered and abandoned calls                         |
 |Call Volume and Agent Opt-in Count      |Distribution of calls by call queues / Maximum agent opt-in count  |
 |Call Results                            |Distribution of calls by call result                               |
 |Abandoned Calls                         |Distribution of abandoned calls by call queues                     |
@@ -341,24 +201,32 @@ These dimensions are common to both auto attendants and call queues:
 
 #### fCallQueueAnalytics field description
 
-|Name                                    |Data Type                |Description                                                                |
-|:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
-|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue            |
-|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue              |
-|Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
-|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                            |
-|Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                           |
-|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                       |
-|Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                              |
+|Name                                    |Data Type                |Description                                                                              |
+|:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
+|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
+|Call Duration Seconds                   |Whole number             |Call duration                                                                            |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
+|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue                          |
+|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue                            |
+|Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                                         |
+|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                                          |
+|Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                                         |
+|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                                     |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
+|Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                                                    |
+|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
-|CQ Hour                                 |Whole Number             |Call queue call start hour                                                 |
-|Date                                    |Date/time                |Call queue call start date and time (hour)                                 | 
-|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
-|PSTN Connectivity Type                  |Text                     |See Common Dimensions -> PSTNConnectivityType                              |
-|PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                       |
-|Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                          |
-|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                               |
+|CQ Hour                                 |Whole Number             |Call queue call start hour                                                               |
+|Date                                    |Date/time                |Call queue call start date and time (hour)                                               | 
+|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                                   |
+|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|PSTN Connectivity Type                  |Text                     |See Common Dimensions -> PSTNConnectivityType                                            |
+|PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                                     |
+|Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                                        |
+|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                             |
 
 
 #### fCallQueueFinalStateAction field description
@@ -414,33 +282,380 @@ These dimensions are common to both auto attendants and call queues:
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls answered by the agent     |
 |Call Duration (Minutes)                 |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
+|Calls Answered                          |Whole number             |Number of calls answered by agent                        |
+|Calls Not Answered                      |Whole number             |Number of calls not answered by agent                    |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Date                                    |Date                     |Date of call                                             |
 |DateTime                                |DateTime                 |Date of call                                             |
 |Hour                                    |Whole number             |Hour of call                                             |
 |MM-DD                                   |Text                     |Month and day of call                                    |
-
+|Total Call Count                        |Whole number             |Summarize: Sum<br>Number of calls presented to agent     |
 
 > [!NOTE]
 > When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
 ## Known issues
 
-- Call queues and auto attendants are shown by the resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
+- The **Call Results** visual on the **Call Queue** report may report a large number of ***Unknown*** calls. This is due to a call classification issue that Support is working to correct.  This is a call classification issue only, and these calls were successfully processed by the system.
 
-- Only 28 days of history are available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
+- Only the calls and caller actions in the first auto attendant or call queue that answers the call are reported on.  Calls and caller actions in chained auto attendants (when one auto attendant transfers to another auto attendant) or chained call queues (when one call queue transfers to another call queue) aren't reported on. 
+
+- Call queues and auto attendants are shown by the resource account's ID instead of call queue or auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
+
+- Only 28 days of history are available in the dashboard as call queue and auto attendant data is considered personal data and is subject to data privacy retention policies.
 
 - In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
+
+## Customization 
+
+You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and more.
+
+### Change color schema 
+
+The following steps assume you've already completed the installation steps.
+
+Perform the following steps:
+
+1. Select **View tab** on the ribbon.
+
+  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
+
+2. Select the color schema from the drop-down list.
+
+  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
+  
+## Dimensions and measurements
+
+The following dimensions and measurements are available to be used.
+
+### Common dimensions
+
+These dimensions are common to both auto attendants and call queues:
+
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|ConferenceId<br>(Text)                                 |GUID                           |Call identifier                                                   |
+|Date<br>(DateTime)                                     |                               |Date of call (UTC)                                                |
+|DialogId<br>(Text)                                     |GUID                           |Call identifier                                                   |
+|DocumentId<br>(Text)                                   |GUID                           |Call identifier                                                   |
+|Duration<br>(Whole Number)                             |                               |Duration of call, in seconds                                      |
+|EndTime<br>(DateTime)                                  |                               |Time call ended (UTC)                                             |
+|FirstIsCaller<br>(Boolean)                             |                               |[First and Second endpoint classification](dimensions-and-measures-available-in-call-quality-dashboard.md)     |
+|FirstUPN<br>(Text)                                     |                               |The user principal name (UPN) of the first endpoint's user        |
+|Hour<br>(Text)                                         |                               |Hour call started (UTC)                                           |
+|Minute<br>(Text)                                       |                               |Minute call started (UTC)                                         |
+|PSTNCallDuration<br>(Whole Number)                     |                               |Duration of the call                                              |
+|PSTNCallType<br>(Text)                                 |                               |                                                                  |
+|                                                       |External                       |Call is coming from outside the tenant                            |
+|                                                       |Internal                       |Call is coming from within the tenant                             |
+|PSTNConnectivityType<sup>1</sup><br>(Text)             |                               |                                                                  |
+|                                                       |CallingPlan                    |                                                                  |
+|                                                       |DirectRouting                  |                                                                  |
+|Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
+|SecondUPN<br>(Text)                                    |                               |The user principal name (UPN) of the second endpoint's user       |
+|TenantId<br>(Text)                                     |                               |Tenant ID                                                         |
+|Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
+|UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
+
+- <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as **Internal**.
+
+
+### Auto attendant dimensions
+
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|AutoAttendantCallFlow<br>(Text)                        |                               |Encapsulates the different states of Auto Attendant call          |
+|                                                       |abs_search                     |                                                                  |
+|                                                       |announcement                   |                                                                  |
+|                                                       |automatic_menu                 |                                                                  |
+|                                                       |call_termination               |                                                                  |
+|                                                       |call_transfer                  |                                                                  |
+|                                                       |first_level_menu               |                                                                  |
+|                                                       |main_menu                      |                                                                  |
+|                                                       |speech_input_confirmation      |                                                                  |
+|                                                       |user_selection                 |                                                                  |
+|AutoAttendantCallResult<br>(Text)                      |                               |Final call result                                                 |
+|                                                       |failed_to_establish_media      |The media portion of the call couldn't be established             |
+|                                                       |failover_to_operator           |Call transferred to operator typically due to a system error      |
+|                                                       |oaa_chain_too_long             |Too many legs in the AA                                           |
+|                                                       |oaa_session_too_long           |AA session has lasted too long                                    |
+|                                                       |service_declined               |AA didn't accept the call                                         |
+|                                                       |service_terminated             |AA configuration disconnects the call or call hung up             |
+|                                                       |terminated_automatic_selection |AA configuration disconnects the calls                           |
+|                                                       |terminated_no_operator         |All terminated due to error no operator defined                   |
+|                                                       |terminated_transfer_failed     |Call terminated as transfer failed - typically to external number |
+|                                                       |transfer_in_progress           |AA->AA transfer                                                   |
+|                                                       |transferred_to_operator        |Call was transferred to operator                                  |
+|                                                       |transferred_to_cq              |Call was transferred to call queue                                |
+|                                                       |transferred_to_receptionist    |Same as transferred_to_operator                                   |
+|                                                       |transferred_to_self            |Call was returned to the start of the AA                          |
+|                                                       |transferred_to_shared_voicemail |Call was transferred to shared voicemail                         |
+|                                                       |transferred_to_user            |Call was transferred to a user                                    |
+|                                                       |unknown                        |An unknown condition has occurred                                 |
+|                                                       |user_terminated                |Caller hung up                                                    |
+|AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |                                                                  |
+|AutoAttendantChainDurationInSecs<br>(Real Number)      |                               |                                                                  |
+|AutoAttendantChainIndex<br>(Whole Number)              |                               |                                                                  |
+|AutoAttendantChainStartTime<br>(DateTime)              |                               |                                                                  |
+|AutoAttendantCount<br>(Whole Number)                   |                               |                                                                  |
+|AutoAttendantDirectorySearchMethod<br>(Text)           |                               |Directory search method                                           |
+|                                                       |abs_search_dtmf                |Touch tone                                                        |
+|                                                       |abs_search_voice               |Voice                                                             |
+|AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI call arrived on                              |
+|AutoAttendantTransferAction<br>(Text)                  |                               |Call transfer target type                                         |
+|                                                       |AA                             |Transferred to an AA                                              |
+|                                                       |CQ                             |Transferred to a CQ                                               |
+|                                                       |external_pstn                  |Transferred to an external number                                 |
+|                                                       |shared voicemail               |Transferred to shared voicemail                                   |
+|                                                       |Unknown                        |Unknown action                                                    |
+|HasAA<br>(Boolean)                                     |                               |Is AA involved in call                                            |
+
+
+### Call queue dimensions
+
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|CallQueueAgentCount<br>(Whole Number)                  |                               |Number of agents in call queue                                    |
+|CallQueueAgentOptInCount<br>(Whole Number)             |                               |Number of agents opted-in to call queue                           |
+|CallQueueCallResult<br>(Text)                          |                               |Call queue call final state                                       |
+|                                                       |agent_joined_conference        |Call answered - conference mode CQ                                |
+|                                                       |declined                       |                                                                  |
+|                                                       |disconnected                   |                                                                  |
+|                                                       |error                          |                                                                  |
+|                                                       |failed                         |                                                                  |
+|                                                       |invalid                        |                                                                  |
+|                                                       |overflown                      |Overflow condition met                                            |
+|                                                       |timed_out                      |Timeout condition met                                             |
+|                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
+|CallQueueDurationSeconds<br>(Real Number)              |                               |Call duration in the call queue                                   |
+|CallQueueFinaleStateAction<br>(Text)                   |                               |Call queue final action                                           |
+|                                                       |disconnect                     |time_out calls                                                    |
+|                                                       |disconnect_with_busy           |overflown calls                                                   |
+|                                                       |failed_to_accept_call          |                                                                  |
+|                                                       |forward                        |Call was forwarded to a user or externally                        |
+|                                                       |shared_voicemail               |Call was sent to shared voicemail                                 |
+|                                                       |other                          |                                                                  |
+|                                                       |voicemail                      |                                                                  |
+|CallQueueIdentity<br>(Text)                            |                               |Resource account URI call arrived on                              |
+|CallQueueTargetType<br>(Text)                          |                               |Call redirection target                                           |
+|                                                       |ApplicationEndpoint            |                                                                  |
+|                                                       |Mailbox                        |                                                                  |
+|                                                       |Other                          |                                                                  |
+|                                                       |Phone                          |                                                                  |
+|                                                       |User                           |                                                                  |
+|HasCQ<br>(Boolean)                                     |                               |Is CQ involved in call                                            |
+|TransferredFromCallQueueIdentity<br>(Text)             |                               |                                                                  |
+
+### Measurements
+
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|AvgAutoAttendantChainDurationSeconds<br>(Real Number)  |                               |                                                                  |
+|AvgCallDuration<br>(Real Number)                       |                               |                                                                  |
+|AvgCallQueueDurationSeconds<br>(Real Number)           |                               |                                                                  |
+|PSTNTotalMinutes<br>(Real Number)                      |                               |                                                                  |
+|TotalAudioStreamDuration<br>(Real Number)              |                               |                                                                  |
+|TotalCallCount<br>(Whole Number)                       |                               |                                                                  |
+
+### Constructing a valid query
+
+A valid query consists of several attributes in a JSON object:
+
+```json
+{
+   "Filters":[
+      {
+         "DataModelName":"Date",
+         "Value":"2022-04-01",
+         "Operand":4
+      },
+      {
+         "DataModelName":"Date",
+         "Value":"2022-04-30",
+         "Operand":6
+      }
+   ],
+   "Dimensions":[
+      {
+         "DataModelName":"AutoAttendantIdentity"
+      },
+      {
+         "DataModelName":"AutoAttendantDirectorySearchMethod"
+      }
+   ],
+   "Measurements":[
+      {
+         "DataModelName":"PSTNTotalMinutes"
+      },
+      {
+         "DataModelName":"TotalCallCount"
+      }
+   ],
+   "Parameters":{
+      "UserAgent":"Power BI Desktop"
+   },
+   "LimitResultRowsCount":100000
+}
+```
+
+#### Required fields
+
+- Filters: used to filter data returned by VAAC
+- - DataModelName should be one of the supported dimensions
+- - Value should be in the correct format (datetime, string, number etc.)
+- - Operands:
+- - - 0 - Equals
+- - - 1 - Not Equals
+- - - 2 - Contains
+- - - 3 - Begins With
+- - - 4 - Greater Than
+- - - 5 - Greater Than or Equal To
+- - - 6 - Less Than
+- - - 7 - Less Than or Equal To
+- - - 8 - Does Not Contain
+- - - 9 - Does Not Begin With
+
+- Dimensions:
+- - DataModelName should be one of the supported dimensions
+
+- Measurements:
+- - DataModelName should be one of the supported measurements
+
+- Parameters: Currently only UserAgent is supported.
+
+- LimitResultRowsCount: the max count of rows returned by VAAC
+
+## Accessing VAAC outside of Power BI
+
+The VAAC API can be accessed by any application that can access RESTful applications.  In the example below, [Postman](https://www.postman.com/) will be used.
+
+### Preparation
+
+Download [Postman](https://www.postman.com/).
+
+Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it.
+
+Import the folder into Postman. 
+
+:::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
+
+### Accessing VAAC using Postman
+
+1. Select **VAAC - msit** on the top right ***No Environment*** drop down.
+2. Select **Environments** on the left hand rail menu.
+3. Select **VAAC - msit** under **Globals**.
+4. Replace **userName**, **password** and **tenantId** with the applicable credentials.
+5. Click **Reset All** in the top right corner.
+6. Click **Save**.
+
+:::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
+
+
+7. Select **Collections** on the left hand rail menu.
+8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
+9. Click **Send**.
+
+An access token will be returned.
+
+:::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned":::
+
+If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
+
+10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
+
+- [Compress](#compress-the-json-query) the query as outlined below
+- [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
+
+11. Fill in your [query](#constructing-a-valid-query) string.
+12. Click **Send**.
+
+### Reading the result
+
+After you submit your input, there will be a couple of possible results:
+
+- If the input is invalid, an error message with the actual reason will be returned
+- If the input is valid, the result will look like this:
+
+:::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field":::
+
+In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
+
+
+### Compress the JSON query
+
+The VAAC API only accepts GZip-compressed or Base64-encoded strings as input.
+
+Find any website to compress the JSON blob using GZIP or Base64.
+
+- GZIP: (https://www.multiutil.com/text-to-gzip-compress/)
+- Base64: (https://www.multiutil.com/text-to-base64-converter/)
+
+GZIP output should look like this:
+````
+H4sIAAAAAAAACq2SQWsCMRCF7/6KkLNC3EoPe9u6FISuFbW9lB4GM9TQbEaSCSLif+9mV4uCBwXnMkze5L0vkH1PCCFfjWX0QeZfaWxqf+xJLIGhIo12CjXKPM0o+2cLn2BjEjKVZQM1Gqjhhfy+QQ9Oy3x0PDz0H5HypK6nPJ9SUv9uV2RpanTBkLvxiUVkKpjRaXA80ejY8E7eg3/hUBqPKya/WyD41bpCXpP+tzvjrBBC9NjA8o2ks8VyuiQGWxkXGcNdkO3FMVg7puj4GtAMfLPa/Y2Tk/wI6IufhjHl0xa9eJmIEsMv06Y16cLlm6kNzzFEy3Pahi4kH6pUvcMfrAhUU3oCAAA=
+````
+
+Base64 output should look like this:
+````
+ew==
+IkZpbHRlcnMiOls=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJEYXRlIiw=
+IlZhbHVlIjoiMjAyMi0wNC0wMSIs
+Ik9wZXJhbmQiOjQ=
+fSw=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJEYXRlIiw=
+IlZhbHVlIjoiMjAyMi0wNC0zMCIs
+Ik9wZXJhbmQiOjY=
+fQ==
+XSw=
+IkRpbWVuc2lvbnMiOls=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJBdXRvQXR0ZW5kYW50SWRlbnRpdHki
+fSw=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJBdXRvQXR0ZW5kYW50RGlyZWN0b3J5U2VhcmNoTWV0aG9kIg==
+fQ==
+XSw=
+Ik1lYXN1cmVtZW50cyI6Ww==
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJQU1ROVG90YWxNaW51dGVzIg==
+fSw=
+ew==
+IkRhdGFNb2RlbE5hbWUiOiJUb3RhbENhbGxDb3VudCI=
+fQ==
+XSw=
+IlBhcmFtZXRlcnMiOns=
+IlVzZXJBZ2VudCI6IlBvd2VyIEJJIERlc2t0b3Ai
+fSw=
+IkxpbWl0UmVzdWx0Um93c0NvdW50IjoxMDAwMDA=
+fQ==
+````
+
+### URL-Encode the compressed JSON query
+
+The GZIP or Base64 compressed JSON query must be [URL encoded](https://meyerweb.com/eric/tools/dencoder/).
+
+GZIP URL encoded output will look like this:
+````
+H4sIAAAAAAAACq2SQWsCMRCF7%2F6KkLNC3EoPe9u6FISuFbW9lB4GM9TQbEaSCSLif%2B9mV4uCBwXnMkze5L0vkH1PCCFfjWX0QeZfaWxqf%2BxJLIGhIo12CjXKPM0o%2B2cLn2BjEjKVZQM1Gqjhhfy%2BQQ9Oy3x0PDz0H5HypK6nPJ9SUv9uV2RpanTBkLvxiUVkKpjRaXA80ejY8E7eg3%2FhUBqPKya%2FWyD41bpCXpP%2BtzvjrBBC9NjA8o2ks8VyuiQGWxkXGcNdkO3FMVg7puj4GtAMfLPa%2FY2Tk%2FwI6IufhjHl0xa9eJmIEsMv06Y16cLlm6kNzzFEy3Pahi4kH6pUvcMfrAhUU3oCAAA%3D
+````
+
+Base64 URL encoded output will look like this:
+````
+%0Aew%3D%3D%0AIkZpbHRlcnMiOls%3D%0Aew%3D%3D%0AIkRhdGFNb2RlbE5hbWUiOiJEYXRlIiw%3D%0AIlZhbHVlIjoiMjAyMi0wNC0wMSIs%0AIk9wZXJhbmQiOjQ%3D%0AfSw%3D%0Aew%3D%3D%0AIkRhdGFNb2RlbE5hbWUiOiJEYXRlIiw%3D%0AIlZhbHVlIjoiMjAyMi0wNC0zMCIs%0AIk9wZXJhbmQiOjY%3D%0AfQ%3D%3D%0AXSw%3D%0AIkRpbWVuc2lvbnMiOls%3D%0Aew%3D%3D%0AIkRhdGFNb2RlbE5hbWUiOiJBdXRvQXR0ZW5kYW50SWRlbnRpdHki%0AfSw%3D%0Aew%3D%3D%0AIkRhdGFNb2RlbE5hbWUiOiJBdXRvQXR0ZW5kYW50RGlyZWN0b3J5U2VhcmNoTWV0aG9kIg%3D%3D%0AfQ%3D%3D%0AXSw%3D%0AIk1lYXN1cmVtZW50cyI6Ww%3D%3D%0Aew%3D%3D%0AIkRhdGFNb2RlbE5hbWUiOiJQU1ROVG90YWxNaW51dGVzIg%3D%3D%0AfSw%3D%0Aew%3D%3D%0AIkRhdGFNb2RlbE5hbWUiOiJUb3RhbENhbGxDb3VudCI%3D%0AfQ%3D%3D%0AXSw%3D%0AIlBhcmFtZXRlcnMiOns%3D%0AIlVzZXJBZ2VudCI6IlBvd2VyIEJJIERlc2t0b3Ai%0AfSw%3D%0AIkxpbWl0UmVzdWx0Um93c0NvdW50IjoxMDAwMDA%3D%0AfQ%3D%3D
+````
 
 ## Version 3.x.x history
 
 Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes 
 
-|Version  |Date Published     |Filename                                                           |Description                                         |
-|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4        |Corrected error, improved call classification, added legend |
-|3.0.3    |November 8, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.3        |Corrected error, added documentation link, optimized queries |
-|3.0.1    |October 26, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.1        |Removed testing data source entry                   |
-|3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0        |New backend data source                             |
+|Version  |Date Published     |Filename                                                    |Description                                                             |
+|:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
+|3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
+|3.0.3    |November 8, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.3 |Corrected error, added documentation link, optimized queries            |
+|3.0.1    |October 26, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.1 |Removed testing data source entry                                       |
+|3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0 |New backend data source                                                 |
