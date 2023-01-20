@@ -31,7 +31,7 @@ Any member of a team can connect their team to popular cloud services with the c
 
 > [!IMPORTANT]
 > Starting January 2023, some Microsoft 365 connectors will be deprecated. The list of connectors being deprecated is as follows:
-
+>
 > - AHA
 > - AIRBRAKE
 > - AIRCALL
