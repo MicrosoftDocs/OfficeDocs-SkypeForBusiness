@@ -26,6 +26,8 @@ ms.date: 11/17/2022
 
 # Walkie Talkie app in Microsoft Teams
 
+## Overview of Walkie Talkie
+
 The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
 Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap  **Disconnect**.
@@ -140,3 +142,7 @@ To learn more about the end-user experience, see:
 
 - [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
 - [Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
+
+## Give feedback or report an issue
+
+To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.

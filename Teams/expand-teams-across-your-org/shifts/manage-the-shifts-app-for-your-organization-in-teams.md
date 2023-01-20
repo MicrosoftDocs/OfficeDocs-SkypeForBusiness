@@ -107,6 +107,10 @@ You can search the audit log to view Shifts activity in your organization.  To l
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
+## Give feedback or report an issue
+
+To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Shifts" so we can easily identify Shifts issues.
+
 ## Related articles
 
 - [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)

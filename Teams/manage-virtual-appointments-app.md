@@ -25,6 +25,8 @@ appliesto:
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
+## Overview of Virtual Appointments
+
 The Virtual Appointments app provides a central hub for all your virtual appointments needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), analytics, and management options, all in one place.
 
 You can schedule, view, and manage virtual appointments, get real-time status updates in a queue view, send appointment reminders, view analytics and reports to gain insight into virtual appointments activity, and configure calendar, staff, and booking page settings.
@@ -129,6 +131,10 @@ To pin the Virtual Appointments app for your users, you can edit the global (Org
 ## Terms of service
 
 See [Terms of service](/legal/microsoft-365/virtual-appointments-app-terms-of-service).
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Virtual Visits**, and then enter your feedback or details about the issue you're experiencing.
 
 ## Related articles
 

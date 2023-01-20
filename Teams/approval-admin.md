@@ -25,6 +25,8 @@ appliesto:
 
 # Manage the Approvals app in Microsoft Teams
 
+## Overview of Approvals
+
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
 
@@ -230,3 +232,7 @@ You can use the Teams admin center to control, which third-party e-signature pro
 4. Select **Submit**.
 
 E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage, export, and retention of e-signature agreements, see the provider's documentation.
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Approvals**, and then enter your feedback or details about the issue you're experiencing.
