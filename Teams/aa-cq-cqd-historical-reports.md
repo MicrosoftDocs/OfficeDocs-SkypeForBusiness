@@ -532,11 +532,9 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 ### Preparation
 
-Download [Postman](https://www.postman.com/).
-
-Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it.
-
-Import the folder into Postman. 
+1. Download [Postman](https://www.postman.com/).
+1. Unzip the `sync_pstn_avs-analytics.zip` file in the [downloaded zip file instructions](#v3xx-installation).
+1. Import the folder into Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
 
@@ -550,7 +548,6 @@ Import the folder into Postman.
 6. Click **Save**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
-
 
 7. Select **Collections** on the left hand rail menu.
 8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
@@ -580,7 +577,6 @@ After you submit your input, there will be a couple of possible results:
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field":::
 
 In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
-
 
 ### Compress the JSON query
 
