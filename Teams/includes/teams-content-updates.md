@@ -12,6 +12,11 @@
 | 1/19/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
 | 1/19/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
 | 1/20/2023 | [Walkie Talkie usage and performance report](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | added |
+| 1/18/2023 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
+| 1/19/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
+| 1/19/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
+| 1/19/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 1/20/2023 | [Walkie Talkie usage and performance report](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | added |
 
 
 ## Week of January 09, 2023
