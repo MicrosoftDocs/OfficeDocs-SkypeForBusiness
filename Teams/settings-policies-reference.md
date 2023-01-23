@@ -89,7 +89,7 @@ Template policies control what team templates users see when they create a new t
 |Meet now in private meetings|On|Controls whether a user can start an instant private meeting.|
 |Channel meeting scheduling|On|When **On**, meeting organizers allow users to schedule channel meetings within channels that the users belong to.|
 |Meet now in channels|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
-|Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook.|
+|Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
 |Engagement report|Turn on|When **On**, meeting organizers can see who registered and attended the meetings they set up.|
@@ -98,6 +98,11 @@ Template policies control what team templates users see when they create a new t
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+
+#### Related topics to meeting scheduling
+
+- [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
+- [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 
 #### Meeting join & lobby
 
@@ -114,6 +119,13 @@ Template policies control what team templates users see when they create a new t
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+|BlockedAnonymousJoinClientTypes|(empty list)|This setting allows users to join a Teams meeting anonymously using a Teams client or using a custom application built using Azure Communication Services. When anonymous meeting join is enabled, both types of clients may be used by default. This optional parameter can be used to block one of the client types that can be used. If both clients are specified, this will be equivalent to disabling anonymous join completely.|
+
+##### Related topics to meeting join & lobby policies
+
+- [Control who can bypass the meeting lobby and access meetings](who-can-bypass-meeting-lobby.md)
+-  
+- 
 
 #### Meeting engagement
 
@@ -122,13 +134,19 @@ Template policies control what team templates users see when they create a new t
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting chat|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages.|
-|Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings.|
+|Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
 
 ##### PowerShell-only meeting engagement policies
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+|StreamingAttendeeMode|Enabled|This setting enables view-only mode for meetings that exceed the capacity of the main meeting. Read more about [Teams view-only meeting experience](view-only-meeting-experience.md)|
+
+##### Related topics to meeting engagement policies
+
+- 
+- 
 
 #### Content sharing
 
@@ -137,7 +155,7 @@ Template policies control what team templates users see when they create a new t
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Who can present|Everyone, but user can override|Controls what the default value is for **Who can  present?** in **Meeting options** for the Teams client.|
-|Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting.|
+|Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
 |External participants can give or request control|Off|Controls whether external users can be given or request control of the shared desktop or window. This must be turned on in both organizations for an external user to take control in Teams meetings hosted by people in your organization.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
@@ -149,21 +167,26 @@ Template policies control what team templates users see when they create a new t
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 
+##### Related topics to content sharing policies
+
+- [Meeting policy settings - Content sharing](who-can-bypass-meeting-lobby.md)
+
 #### Watermark
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
- Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled. Read more about [how to require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md).
+ Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Watermark videos|Off|This setting controls watermarks on attendee videos. This setting requires a Teams Premium license.|
 |Watermark shared content|Off|This setting controls watermarks on content shared on screen in a meeting. This setting requires a Teams Premium license.|
 
-##### PowerShell-only watermark policies
+##### Related topics to watermark policies
 
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 #### Recording & transcription
 
@@ -182,6 +205,13 @@ Template policies control what team templates users see when they create a new t
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+|AllowCartCaptionsScheduling|DisabledUserOverride|This setting determines whether a user can add a URL for captions from a Communications Access Real-Time Translation (CART) captioner to provide real-time captions in meetings.|
+|ChannelRecordingDownload|Allow|This setting controls how channel meeting recordings are saved, permissioned, and who can download them.|
+|EnrollUserOverride|Disabled|This setting sets voice profile capture, or enrollment, in Teams settings for a tenant.|
+|LiveInterpretationEnabledType|DisabledUserOverride|This setting allows meeting organizers to configure a meeting for language interpretation and select attendees to become interpreters that other attendees can select and listen to the real-time translation they provide.|
+|MeetingInviteLanguages|None|This setting controls how the join information in meeting invitations is displayed by enforcing a common language or enabling up to two languages to be displayed. All Teams supported languages can be specified using language codes.|
+|SpeakerAttributionMode|EnabledUserOverride|Speakers are identified in transcription. If enabled, users can override this and choose not to be identified in their Teams profile settings.|
+|RoomAttributeUserOverride|(none)|This setting controls the voice-based user identification in meeting rooms. This setting is required for Teams Rooms account. Read more about how to [Manage voice recognition technology controls for an Intelligent Speaker](rooms/voice-recognition.md).|
 
 ##### Related topics to recording & transcription policies
 
@@ -210,25 +240,11 @@ Template policies control what team templates users see when they create a new t
 | Parameter | Default | Description |
 |:-----|:-----|:-----|
 |AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
-|AllowCartCaptionsScheduling|DisabledUserOverride|This setting determines whether a user can add a URL for captions from a Communications Access Real-Time Translation (CART) captioner to provide real-time captions in meetings.|
-|BlockedAnonymousJoinClientTypes|(empty list)|This setting allows users to join a Teams meeting anonymously using a Teams client or using a custom application built using Azure Communication Services. When anonymous meeting join is enabled, both types of clients may be used by default. This optional parameter can be used to block one of the client types that can be used. If both clients are specified, this will be equivalent to disabling anonymous join completely.|
-|ChannelRecordingDownload|Allow|This setting controls how channel meeting recordings are saved, permissioned, and who can download them.|
-|LiveInterpretationEnabledType|DisabledUserOverride|This setting allows meeting organizers to configure a meeting for language interpretation and select attendees to become interpreters that other attendees can select and listen to the real-time translation they provide.|
-|MeetingInviteLanguages|None|This setting controls how the join information in meeting invitations is displayed by enforcing a common language or enabling up to two languages to be displayed. All Teams supported languages can be specified using language codes.|
-|PreferredMeetingProviderForIslandsMode|||
-||||
-||||
-||||
-||||
+|PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. By default, this is set to TeamsAndSfb, and users see both the Skype for Business and Teams add-ins. Set this to Teams to remove the Skype for Business add-in and only show the Teams add-in.|
 
 ##### Related topics to audio & video meeting policies
 
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [Manage meeting policies in Microsoft Teams](meeting-policies-overview.md)
-- [Meeting policy settings - Participants & guests](meeting-policies-participants-and-guests.md)
-- [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
-- [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md)
-- [Meeting policy settings for recording & transcription](meetings-policies-recording-and-transcription.md)
 - [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
 
 ### Live events policies
