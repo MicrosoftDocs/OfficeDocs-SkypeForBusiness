@@ -17,6 +17,8 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
   - Licensing
+  - admindeeplinkTEAMS
+  - admindeeplinkMAC
 description: Learn how to enhance your Microsoft Teams experience with the Microsoft Teams Premium add-on license
 ---
 
@@ -228,21 +230,20 @@ For instructions on assigning licenses in the Microsoft 365 admin center, see [A
 
 Many Teams Premium features require an IT admin to configure the feature before users can access the feature.
 
-The following list indicates Teams Premium features that require admin configuration before users can access the feature:
+The following list indicates Teams Premium features that require admin configuration in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) before users can access the feature:
 
-- Using end-to-end encryption on meetings up to 50 participants
-- Adding watermarks to meetings
-- Adding sensitivity labels
-- Preventing copy and paste in meeting chats
-- Using organization customized backgrounds
-- Using organization customized Together-mode scenes
-- Being assigned a custom policy package
-- Using organization customized meeting templates
-- Seeing organization customized branding
-- Using eCDN for Live Events
-- Using RTMP-In
-- Sending SMS notifications for Virtual Appointments
-- Accessing the Virtual Appointments Premium app
-- Accessing Virtual Appointments data in the Teams admin center
+- Using end-to-end encryption on meetings up to 50 participants.
+- Adding watermarks to meetings.
+- Adding sensitivity labels.
+- Preventing copy and paste in meeting chats.
+- Using organization customized backgrounds.
+- Using organization customized Together mode scenes.
+  - Admin must create the custom Together mode scene.
+- Being assigned a custom policy package.
+- Using organization customized meeting templates.
+- Seeing organization customized branding.
+- Using eCDN for Live Events.
+- Using RTMP-In.
+- Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
