@@ -82,12 +82,12 @@ productDirectory:
     # Card
     - title: Approvals in Microsoft Teams
       imageSrc: https://learn.microsoft.com/office/media/icons/success-teams.svg
-      summary: 'xxx)'
+      summary: 'Learn how to track and manage approvals with the Approvals app and Power Automate. (Audience: Everyone)'
       url: https://aka.ms/xxx
     # Card
     - title: Discover insights with Microsoft Power BI in Microsoft Teams
       imageSrc: https://learn.microsoft.com/office/media/icons/trend-graph-teams.svg
-      summary: 'xxx)'
+      summary: 'Use the Power BI App to bring data and insights into Teams, where you can have insights-based discussions and make better decisions, faster. (Audience: Everyone)'
       url: https://aka.ms/xxx
 
 # additionalContent section (optional)
