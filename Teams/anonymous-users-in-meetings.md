@@ -31,11 +31,11 @@ Anonymous meeting join is controlled by an organization level setting and user l
 
 Anonymous join is turned on by default for the organization and in the default global meeting policy.
 
-If anonymous join is enabled, anonymous participants go through the meeting lobby when joining the meeting. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
+Note that if anonymous join is enabled, lobby policies affect how anonymous participants join meetings. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
 #### Meetings with trusted organizations
 
-When you set up [trusted organizations for external meetings and chat](manage-external-access.md), keep in mind that the organizations that you trust must also trust your organization, and their users must be enabled for external access. If not, these participants will be considered anonymous when joining your meetings.
+When you set up trusted organizations for external meetings and chat, meeting attendees from those organizations may be considered anonymous if external access settings are not configured correctly for both organizations. For details, see [trusted organizations for external meetings and chat](manage-external-access.md).
 
 ## Manage anonymous meeting join for the organization
 
