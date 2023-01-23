@@ -438,7 +438,7 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 |Users can share data for service improvement|On|If you turn this on, users can share voicemail and transcription data for training and improving accuracy. If you turn this off, voicemail data won't be shared.|
 |Before the user's greeting, play audio file|(none)|The audio file to play to the caller before the user's voicemail greeting is played.|
 |After the user's greeting, play audio file|(none)|The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.|
-|Disconnect the call if preamble or postamble cannot be played|Off|If you turn this on, the Pre- or Postamble mandatory will play before the caller can leave a message.|
+|Disconnect the call if preamble or postamble cannot be played|Off|If you turn this on, the Pre- or Postamble will play before the caller can leave a message.|
 
 #### Related topics to voicemail policies
 
@@ -462,3 +462,8 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+
+#### Related topics to end-to-end encryption policies
+
+- [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)
+- [Security and Microsoft Teams](teams-security-guide.md)
