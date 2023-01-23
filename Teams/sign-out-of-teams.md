@@ -53,7 +53,7 @@ Our improved sign-in experience on shared device provides a hassle free sign-in 
 
 **Android**: To learn how to set up android devices in shared mode, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-**iOS**: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices). Once the device is set in shared mode, launch Teams and leave it open for 30 seconds, close the app and relaunch (this step is only needed for public preview phase).
+**iOS**: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
 
 ![Sign-out-section](media/signout.png)
 
