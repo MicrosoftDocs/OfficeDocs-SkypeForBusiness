@@ -79,16 +79,6 @@ productDirectory:
       imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
       summary: 'Plan and implement a successful upgrade to Teams. (Audience: IT professionals, adoption change managers)'
       url: https://aka.ms/upgradeworkshops
-    # Card
-    - title: Approvals in Microsoft Teams
-      imageSrc: https://learn.microsoft.com/office/media/icons/success-teams.svg
-      summary: 'xxx)'
-      url: https://aka.ms/xxx
-    # Card
-    - title: Discover insights with Microsoft Power BI in Microsoft Teams
-      imageSrc: https://learn.microsoft.com/office/media/icons/trend-graph-teams.svg
-      summary: 'xxx)'
-      url: https://aka.ms/xxx
 
 # additionalContent section (optional)
 # Card with summary style
