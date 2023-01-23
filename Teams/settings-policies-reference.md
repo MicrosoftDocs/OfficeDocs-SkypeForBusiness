@@ -335,7 +335,12 @@ Template policies control what team templates users see when they create a new t
 
 **Navigation:** Teams admin center > Voice > Call hold policies
 
-Call hold policies allow you to specify a custom audio file to play while calls are on hold. The **Music on hold** setting must also be **Enabled** in **Voice** > **Calling policies** or no music will be played. Read more on [how to setup Music on Hold](music-on-hold.md).In PowerShell, the [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy) is used.
+Call hold policies allow you to specify a custom audio file to play while calls are on hold. The **Music on hold** setting must also be **Enabled** in **Voice** > **Calling policies** or no music will be played.
+
+#### Related topics to call hold policies
+
+- [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy)
+- [How to setup Music on hold](music-on-hold.md).
 
 ### Call park policies
 
@@ -417,6 +422,8 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 #### Related topics to voice routing policies
 
 - [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy)
+- [Set-CsOnlineVoiceRoute](/powershell/module/skype/set-csonlinevoiceroute)
+- [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage)
 - [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md)
 - [Configure call routing for Direct Routing](direct-routing-voice-routing.md)
 
@@ -457,11 +464,6 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 |:-----|:-----|:-----|
 |End-to-end call encryption|Not enabled|This setting determines whether end-to-end encrypted calling is available for users. Read more about [how to configure end-to-end encryption for one-to-one Microsoft Teams calls](teams-end-to-end-encryption.md).|
 |End-to-end meeting encryption|Not enabled, but users can enable|This setting determines whether end-to-end encrypted meetings are available for users. This setting requires a Teams Premium license. Read more about [how to require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).|
-
-#### PowerShell-only end-to-end encryption policies
-
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
 
 #### Related topics to end-to-end encryption policies
 
