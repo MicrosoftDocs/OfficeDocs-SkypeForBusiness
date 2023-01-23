@@ -29,6 +29,8 @@ ms.localizationpriority: high
 
 
 
+> [!NOTE]
+> External access between different cloud environments (such as Microsoft 365 and Office 365 Government) requires external DNS records for Teams. For more information, see [External DNS records required for Teams](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams).
 
 ## Common external access scenarios
 

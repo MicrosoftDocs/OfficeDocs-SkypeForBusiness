@@ -470,6 +470,8 @@ items:
           href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: EHR connector Virtual Appointments report
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Walkie Talkie usage and performance report
+          href: teams-analytics-and-reports/walkie-talkie-usage-report.md
               
     - name: Log files, service health, and support
       items:
@@ -624,6 +626,8 @@ items:
                   href: configure-desktop-sharing.md
             - name: Participant, guest, and access policies
               items:
+                - name: Anonymous participants
+                  href: anonymous-users-in-meetings.md
                 - name: Participants and guest policies
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
@@ -1862,6 +1866,8 @@ items:
           href: manage-freemium.md
         - name: Upgrade Microsoft Teams Free (classic) to subscription version
           href: upgrade-freemium.md
+        - name: Retire Microsoft Teams Free (classic)
+          href: teams-add-on-licensing/remove-assign-free-licenses.md
         - name: Microsoft Teams Shared Devices licensing
           href: teams-add-on-licensing/teams-shared-device-license.md
         - name: Advanced Communications

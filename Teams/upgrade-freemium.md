@@ -24,6 +24,9 @@ appliesto:
 
 # Upgrade Microsoft Teams Free (classic) to subscription version
 
+> [!IMPORTANT]
+> You must upgrade from Microsoft Teams Free (classic) to a subscription version of Teams as the Microsoft Teams Free (classic) license will be deprecated and unavailable starting mid-April 2023. This article will be updated soon with instructions on how to upgrade your users to paid Teams licenses.
+
 If your organization is using Microsoft Teams Free (classic), you can easily upgrade to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users. The full version provides other Teams features — like audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
 
 > [!NOTE]
