@@ -111,11 +111,11 @@ preferred language of the voicemail receiver.
 - **Dual language system prompts** - By default, the voicemail system prompts are presented to callers in the language selected by the user when setting up their voicemail. If there is a business 
 requirement to have the voicemail system prompts presented in two languages, a primary and secondary language can be set and they may not be the same.
 
-- **PreambleAudioFile** - Currently only available via PowerShell. The audio file to play to the caller before the user's voicemail greeting is played.
+- **PreambleAudioFile** - The audio file to play to the caller before the user's voicemail greeting is played.
 
-- **PostambleAudioFile** - Currently only available via PowerShell. The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.
+- **PostambleAudioFile** - The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.
 
-- **PreamblePostambleMandatory** - Currently only available via PowerShell. Is playing the Pre- or Postamble mandatory before the caller can leave a message.
+- **PreamblePostambleMandatory** - Is playing the Pre- or Postamble mandatory before the caller can leave a message.
 
 ### Share data for service improvements
 
