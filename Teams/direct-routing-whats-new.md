@@ -22,7 +22,7 @@ This article describes what's new in Direct Routing. Check back often for update
 
 ## New Direct Routing SIP endpoints 
 
-Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints.  To ensure that this change doesn’t affect your service availability make sure that your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.120.0.0/14 for classification and ACL rules as documented here - https://learn.microsoft.com/en-us/microsoftteams/direct-routing-plan#microsoft-365-office-365-and-office-365-gcc-environments  
+Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.120.0.0/14 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan#microsoft-365-office-365-and-office-365-gcc-environments).  
 
 ## Trunk demoting logic based on SIP Options
 
