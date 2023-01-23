@@ -464,6 +464,8 @@ items:
           href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: EHR connector Virtual Appointments report
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Walkie Talkie usage and performance report
+          href: teams-analytics-and-reports/walkie-talkie-usage-report.md
               
     - name: Log files, service health, and support
       items:
