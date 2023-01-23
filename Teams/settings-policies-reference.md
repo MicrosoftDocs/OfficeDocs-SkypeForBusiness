@@ -183,6 +183,12 @@ Template policies control what team templates users see when they create a new t
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 
+##### Related topics to recording & transcription policies
+
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Teams meeting recording](cloud-recording.md)
+- [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
+
 #### Audio & video
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
@@ -233,19 +239,17 @@ Template policies control what team templates users see when they create a new t
 |:-----|:-----|:-----|
 |Live events scheduling|On|When **On**, users in your organization can create and schedule live events in Teams.|
 |Transcription for attendees|Off|Turning this on enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
-|Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection. If using PowerShell, `-BroadcastAttendeeVisibilityMode` gives the options to also use `EveryoneInCompanyAndExternal` or `InvitedUsersInCompanyAndExternal`. |
-|Record an event|Organizer can record|This controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](live-events-recording-policies.md).|
+|Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection. For PowerShell, the [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy) cmdlet with `-BroadcastAttendeeVisibilityMode` gives the options to also use `EveryoneInCompanyAndExternal` or `InvitedUsersInCompanyAndExternal`.|
+|Record an event|Organizer can record|This controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](teams-live-events/live-events-recording-policies.md).|
 
-#### PowerShell-only live events policies
-
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
+> [!NOTE]
+> GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](teams-live-events/set-teams-live-events-policies-using-powershell).
 
 #### Related topics to live events meeting policies
 
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
 - [What are Teams live events?](what-are-teams-live-events.md)
-- [Plan for live events in Microsoft Teams](plan-for-teams-live-events.md)
+- [Plan for live events in Microsoft Teams](teams-live-events/plan-for-teams-live-events.md)
 - [Live streaming events in Microsoft Teams](teams-stream-overview.md)
 - [Configuring encoders for live event streaming in Microsoft Teams](teams-encoder-configuration.md)
 
