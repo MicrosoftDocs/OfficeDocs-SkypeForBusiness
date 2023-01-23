@@ -17,6 +17,7 @@ ms.collection:
   - highpri
 appliesto: 
   - Microsoft Teams
+ms.date: 11/21/2022
 ---
 
 # Get started with Teams for frontline workers
