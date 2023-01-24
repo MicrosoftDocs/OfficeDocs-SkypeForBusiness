@@ -1,6 +1,6 @@
 ---
 title: Create and manage Caller ID for users
-ms.author: crowe; wlibebe
+ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: roykuntz; jens
@@ -52,7 +52,7 @@ By default, the following list of caller ID settings are turned off. With the se
 > [!NOTE]
 > Emergency calls will always send the user's telephone number (caller ID).
 
-To learn more about these settings and how you can use them, see [How can caller ID be used in your organization.](how-can-caller-id-be-used-in-your-organization)
+To learn more about these settings and how you can use them, see [How can caller ID be used in your organization.](how-can-caller-id-be-used-in-your-organization.md)
 
 ## Set up and manage caller ID policies
 
