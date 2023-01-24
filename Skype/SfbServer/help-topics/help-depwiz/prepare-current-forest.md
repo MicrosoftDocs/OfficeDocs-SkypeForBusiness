@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployMainForestPrep
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: "To prepare the Active Directory Domain Services forest, you must successfully extend the schema, as described in the topic Running Schema Preparation, and make sure that the schema has replicated."

@@ -5,7 +5,7 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 search.appverid: MET150
 ms.collection: 
 - Hybrid 
