@@ -73,7 +73,10 @@ Template policies control what team templates users see when they create a new t
 
 ### Related topics to template policies
 
-- [](templates-policies.md)
+- [Manage team templates in the admin center](templates-policies.md)
+- [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
 
 ## Meetings
 
@@ -234,6 +237,7 @@ Template policies control what team templates users see when they create a new t
 |Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
 |Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
+|Live streaming mode|Disabled|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
 
 ##### PowerShell-only audio & video meeting policies
 
@@ -241,6 +245,7 @@ Template policies control what team templates users see when they create a new t
 |:-----|:-----|:-----|
 |AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
 |PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. By default, this is set to TeamsAndSfb, and users see both the Skype for Business and Teams add-ins. Set this to Teams to remove the Skype for Business add-in and only show the Teams add-in.|
+|TeamsCameraFarEndPTZMode|Disabled|Read more about how to to configure [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](meeting-policies-audio-and-video.md#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras).|
 
 ##### Related topics to audio & video meeting policies
 
