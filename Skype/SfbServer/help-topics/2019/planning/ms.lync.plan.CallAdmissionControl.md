@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW

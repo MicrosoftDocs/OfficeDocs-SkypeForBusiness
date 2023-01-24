@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: "This node shows the pool fully qualified domain name (FQDN), replication setting, and next hop pool for this trusted application pool. You can perform the following actions:"

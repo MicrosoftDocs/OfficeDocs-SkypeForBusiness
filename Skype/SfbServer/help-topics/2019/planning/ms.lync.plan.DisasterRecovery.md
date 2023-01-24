@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
