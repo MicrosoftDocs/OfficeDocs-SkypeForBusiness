@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 description: "Instructions for configuring Call Data Connector, which allows telemetry from Skype for Business on-premises to be viewed using Skype for Business Online tools."
