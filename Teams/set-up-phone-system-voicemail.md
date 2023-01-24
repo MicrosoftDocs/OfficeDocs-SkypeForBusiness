@@ -116,7 +116,7 @@ To create the auto-labeling policy to apply a sensitivity label to voicemail, se
 - Exchange rules:
   - Conditions:
     - **Header matches pattern**: Content-Class = Voice-CA
-    - **Sender IP address is**: 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+    - **Sender IP address is**: 13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 52.238.119.141/32, 52.244.160.207/32
 
 - For **Choose a label to auto-apply**, select the sensitivity label you created for voicemail in the step above.
 

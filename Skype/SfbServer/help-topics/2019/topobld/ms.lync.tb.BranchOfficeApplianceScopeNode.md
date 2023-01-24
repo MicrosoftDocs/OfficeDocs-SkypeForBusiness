@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW

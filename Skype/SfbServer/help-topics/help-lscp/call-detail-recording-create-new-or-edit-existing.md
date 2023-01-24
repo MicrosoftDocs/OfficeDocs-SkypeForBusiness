@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.MonArchCdrEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: "What do you want to do? Click the link to the task that you want to perform."
