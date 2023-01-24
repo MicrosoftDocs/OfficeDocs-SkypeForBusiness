@@ -1,7 +1,7 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: LanaChin
-ms.author: v-lanachin
+author: daisyfell
+ms.author: daisyfeller
 manager: samanro
 audience: ITPro
 ms.topic: how-to 
@@ -23,7 +23,7 @@ ms.collection:
   - tier2
   - highpri
   - m365initiative-meetings
-ms.reviewer: 
+ms.reviewer: megano
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
 
