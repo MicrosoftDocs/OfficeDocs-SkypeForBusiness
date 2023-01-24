@@ -188,7 +188,7 @@ Learn more:
   
 To verify that the MTLS connection originates from Teams infrastructure, the SBC should be configured to implement the following checks on Teams server-side certificate:
 - Check that the certificate issuance chain originates from one of the following root CAs
--- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.mdm#baltimore-cybertrust-root)
+-- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
 -- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
 - Check that the certificate "Subject Alternative Name" includes "sip.pstnhub.microsoft.com"
 
