@@ -185,6 +185,12 @@ Learn more:
 
 > [!NOTE]
 > If Mutual TLS (MTLS) support is enabled for the Teams connection on the SBC, then you must install the Baltimore CyberTrust Root and the DigiCert Global Root G2 certificates in the SBC Trusted Root Store of the Teams TLS context. (This is because the Microsoft service certificates use one of these two root certificates.) To download these root certificates, see [Office 365 Encryption chains](/microsoft-365/compliance/encryption-office-365-certificate-chains). For more details, see [Office TLS Certificate Changes](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+  
+To verify that the MTLS connection originates from Teams infrastructure, the SBC should be configured to implement the following checks on Teams server-side certificate:
+- Check that the certificate issuance chain originates from one of the following root CAs
+-- Baltimore CyberTrust Root - https://learn.microsoft.com/en-us/microsoft-365/compliance/encryption-office-365-certificate-chains?view=o365-worldwide#baltimore-cybertrust-root
+-- DigiCert Global Root G2 - https://learn.microsoft.com/en-us/microsoft-365/compliance/encryption-office-365-certificate-chains?view=o365-worldwide#digicert-global-root-g2
+- Check that the certificate "Subject Alternative Name" includes "sip.pstnhub.microsoft.com"
 
 ## SIP Signaling: FQDNs
 
