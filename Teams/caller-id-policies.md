@@ -33,7 +33,7 @@ This article describes how to manage caller ID settings for your users.  You can
 
 ## Which Caller ID settings can administrators manage for Teams?
 
-By default, the following list of caller ID settings are turned off. With the settings turned off, the Teams user's phone number is visible when that user makes a call to a Public Switched Telephone Network (PSTN) phone. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
+By default, the following list of caller ID settings are **turned off**. With the settings turned off, the Teams user's phone number is visible when that user makes a call to a Public Switched Telephone Network (PSTN) phone. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
 **
 
 - **Block incoming caller ID:** Block a user from receiving Caller ID on any incoming PSTN calls.
@@ -162,14 +162,6 @@ To remove a policy from a user, run:
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $null
 ```
 
-For more information on Teams PowerShell Module cmdlets, see the following points articles:
-
-- New-CsCallingLineIdentity
-- Set-CsCallingLineIdentity
-- Remove-CsCallingLineIdentity
-- Get-CsCallingLineIdentity
-- Grant-CsCallingLineIdentity
-
 ### Examples
 
 #### New custom call park policy
@@ -214,7 +206,13 @@ This example grants the Anonymous Caller ID policy to Amos Marble.
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Anonymous"
 ```
 
-For more examples, see the cmdlet reference pages.
+For more information on Teams PowerShell Module cmdlets, see the following articles:
+
+- [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
+- [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
+- [Remove-CsCallingLineIdentity](/powershell/module/skype/remove-cscallinglineidentity)
+- [Get-CsCallingLineIdentity](/powershell/module/skype/get-cscallinglineidentity)
+- [Grant-CsCallingLineIdentity](/powershell/module/skype/grant-cscallinglineidentity)
 
 ## Related topics
 
