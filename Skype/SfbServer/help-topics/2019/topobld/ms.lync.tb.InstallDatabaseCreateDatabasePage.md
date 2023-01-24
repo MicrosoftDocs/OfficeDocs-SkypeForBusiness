@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW

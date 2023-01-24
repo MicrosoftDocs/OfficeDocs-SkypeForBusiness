@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW

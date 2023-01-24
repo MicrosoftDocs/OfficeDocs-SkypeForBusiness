@@ -8,7 +8,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoicePolicyEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
