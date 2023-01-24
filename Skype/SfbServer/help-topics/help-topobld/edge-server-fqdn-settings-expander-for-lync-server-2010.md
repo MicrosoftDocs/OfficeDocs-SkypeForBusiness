@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: "To define the properties under External settings, configure the following:"

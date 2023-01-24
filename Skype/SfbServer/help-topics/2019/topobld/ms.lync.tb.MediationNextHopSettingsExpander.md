@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.MediationNextHopSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW

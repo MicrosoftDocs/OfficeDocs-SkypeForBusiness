@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.MonitoringServersScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW

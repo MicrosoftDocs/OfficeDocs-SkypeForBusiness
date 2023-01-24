@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
