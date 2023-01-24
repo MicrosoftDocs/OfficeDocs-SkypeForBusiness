@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.BranchOfficesScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: "The Branch Sites node lists the branch sites that are associated with this central site. You can perform the following action:"
