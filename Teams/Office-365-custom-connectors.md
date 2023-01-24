@@ -81,7 +81,7 @@ The Teams connectors are transitioning to a new URL to enhance security. During 
 
 * If the user who added a connector to a team leaves the team, the connector continues to work.
 
-* Starting January 2023, the following connectors are not available for use:
+* The following connectors are not available for use January 2023 onwards:
 
   * AHA
   * AIRBRAKE
