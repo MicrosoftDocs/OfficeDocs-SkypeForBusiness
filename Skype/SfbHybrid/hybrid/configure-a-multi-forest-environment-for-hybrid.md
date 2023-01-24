@@ -8,7 +8,7 @@ audience: ITPro
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
