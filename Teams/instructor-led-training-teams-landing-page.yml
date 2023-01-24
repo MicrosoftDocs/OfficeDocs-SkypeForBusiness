@@ -70,16 +70,6 @@ productDirectory:
       summary: 'Learn how to make the most of channels, chat, and connected apps to improve communication and deepen collaboration across teams of all sizes. (Level: Teams Basics; Audience: Everyone)'
       url: https://aka.ms/CollaborateInTeams
     # Card
-    - title: Teams for Education - Webinars
-      imageSrc: https://learn.microsoft.com/office/media/icons/education-tutorial-teams.svg
-      summary: 'Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)'
-      url: https://aka.ms/TeamsEduWebinars
-    # Card
-    - title: Upgrade planning workshops
-      imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
-      summary: 'Plan and implement a successful upgrade to Teams. (Audience: IT professionals, adoption change managers)'
-      url: https://aka.ms/upgradeworkshops
-    # Card
     - title: Approvals in Microsoft Teams
       imageSrc: https://learn.microsoft.com/office/media/icons/success-teams.svg
       summary: 'Learn how to track and manage approvals with the Approvals app and Power Automate. (Audience: Everyone)'
@@ -89,6 +79,16 @@ productDirectory:
       imageSrc: https://learn.microsoft.com/office/media/icons/trend-graph-teams.svg
       summary: 'Use the Power BI App to bring data and insights into Teams, where you can have insights-based discussions and make better decisions, faster. (Audience: Everyone)'
       url: https://aka.ms/xxx
+    # Card
+    - title: Teams for Education - Webinars
+      imageSrc: https://learn.microsoft.com/office/media/icons/education-tutorial-teams.svg
+      summary: 'Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)'
+      url: https://aka.ms/TeamsEduWebinars
+    # Card
+    - title: Upgrade planning workshops
+      imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
+      summary: 'Plan and implement a successful upgrade to Teams. (Audience: IT professionals, adoption change managers)'
+      url: https://aka.ms/upgradeworkshops
 
 # additionalContent section (optional)
 # Card with summary style
