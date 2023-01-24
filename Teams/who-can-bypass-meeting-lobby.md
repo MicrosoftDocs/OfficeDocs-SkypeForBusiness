@@ -54,7 +54,7 @@ The following table shows the Teams meeting policies that affect how meeting par
 
 The following table shows how each option for the **Who can bypass the lobby** policy affects each *type of meeting participant*.
 
-|Policy value:|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
+|Policy value:|Everyone|Everyone in my organization, trusted organizations, and guests|Everyone in my organization and guests|People in my organization|Only people who were invited|Only organizers and co-organizers|
 |:--------|:------|:-----|:-----|:------|:-------|:---------------|
 |*Organizer and co-organizers*|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
 |*People in the organization*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
@@ -75,10 +75,10 @@ To set meeting join and lobby policies
 1. In the Teams admin center, expand **Meetings** and then select **Meeting policies**.
 1. Select the policy that you want to update.
 1. In the **Participant & guests** sections, update the settings that you want to change:
-   - **Let anonymous people join a meeting**
-   - **Let anonymous people start a meeting**
-   - **Automatically admit people** (Who can bypass the lobby)
-   - **Dial-in users can bypass the lobby**
+   - **Anonymous users can join a meeting**
+   - **Anonymous users and dial-in callers can start a meeting**
+   - **Who can bypass the lobby** (Who can bypass the lobby)
+   - **People dialing in can bypass the lobby**
 
     ![Screenshot showing the meeting join and lobby policy in the Teams admin center.](media/meeting-join-and-lobby-tac-settings.png)
 1. Select **Save**.

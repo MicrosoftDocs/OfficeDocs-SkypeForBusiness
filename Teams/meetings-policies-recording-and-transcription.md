@@ -40,7 +40,7 @@ People outside your organization, such as federated and anonymous users, can't s
 
 Let's look at the following example.
 
-| User                 | Meeting policy         | Allow cloud recording |
+| User                 | Meeting policy         | Allow meeting recording |
 |----------------------|------------------------|-----------------------|
 | Daniela              | Global                 | Off                   |
 | Amanda               | Location1MeetingPolicy | On                    |
