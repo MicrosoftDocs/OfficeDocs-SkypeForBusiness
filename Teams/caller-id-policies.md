@@ -34,7 +34,6 @@ This article describes how to manage caller ID settings for your users.  You can
 ## Which Caller ID settings can administrators manage for Teams?
 
 By default, the following list of caller ID settings are **turned off**. With the settings turned off, the Teams user's phone number is visible when that user makes a call to a Public Switched Telephone Network (PSTN) phone. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
-**
 
 - **Block incoming caller ID:** Block a user from receiving Caller ID on any incoming PSTN calls.
 - **Override the caller ID policy:** Allow users to override the settings in the policy that decide whether or not they display their number to the callee. This means that users can choose whether to display their caller ID. For more information, see [End user control of outbound caller ID.](/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of**-outbound-caller-id)
@@ -89,7 +88,7 @@ You can edit the global policy or any custom policies that you create.
 You can manage caller ID policies through PowerShell.
 
   > [!NOTE]
-  > Using the Service number caller ID substitution will be deprecated. Use Resource account substitution instead.To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.)
+  > Using the Service number caller ID substitution will be deprecated. Use Resource account substitution instead. To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.)
 
 Open a Windows PowerShell command prompt and run the following commands:
 
