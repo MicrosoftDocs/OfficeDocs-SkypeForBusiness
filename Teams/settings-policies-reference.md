@@ -302,12 +302,7 @@ Template policies control what team templates users see when they create a new t
 |Chat permissions role|Restricted permissions|Defines the supervised chat role of a user.|
 |Users with full chat permissions can delete any message|Off|Use this setting to let users with full chat permissions delete any group or meeting chat message.|
 
-### PowerShell-only messaging policies
-
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
-
-#### Related topics to messaging policies
+### Related topics to messaging policies
 
 - [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
