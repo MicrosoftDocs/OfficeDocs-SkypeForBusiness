@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - tier1
 description: Remotely configure the scale, resolution, and default layout of displays on Microsoft Teams Rooms systems.
 ---
 
@@ -39,13 +40,13 @@ For example, to default to the "content and people" layout, use the following:
 
 You can set the scale and resolution for your main front of room display. If you have dual displays, you can and set the scale and resolution for an extended display too.
 
-Both main and extended displays have an option to set the display resolution. Those options are `MainFoRDisplayResolution` and `ExtendedFoRDisplayResolution` respectively. Both options accept two numerical values that represent the width and height of a display, separated by a comma. For example, to specify a display resolution of width of 1920 and a height of 1080, the value to enter would be `1920,1080`. If you enter display resolution values that the display doesn't support, the values will be ignored.
+You can manually set the display resolution on main and extended displays. Those options are `MainFoRDisplayResolution` and `ExtendedFoRDisplayResolution` respectively. Both options accept two numerical values that represent the width and height of a display, separated by a comma. For example, to specify a display resolution of width of 1920 and a height of 1080, the value to enter would be `1920,1080`. If you enter display resolution values that the display doesn't support, the values will be ignored.
 
-Both main and extended displays have an option to set the display scaling. Those options are `MainFoRDisplayScaling` and `ExtendedFoRDisplayScaling` respectively. Both options accept the values 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you enter a value the display doesn't support, it'll default to the closest supported value.
+You can manually set the display scaling on main and extended displays. Those options are `MainFoRDisplayScaling` and `ExtendedFoRDisplayScaling` respectively. Both options accept the values 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you enter a value the display doesn't support, it'll default to the closest supported value.
 
 ### Enable customized scale and resolution for front of room displays
 
-To set the scale and resolution for your displays, you first need to tell Teams that you want to do so by adding `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` to the XML file. After you've added this line to the XML file, you can set the scale and resolution for your main display, and your extended display if you have one.
+To set the scale and resolution for your displays, you first need to tell. Teams that you want to do so by adding `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` to the XML file. After you've added this line to the XML file, you can set the scale and resolution for your main display, and your extended display if you have one.
 
 > [!IMPORTANT]
 > If you enable customized scale and resolution and you have dual front of room displays, you need to specify both `MainFoRDisplay` and `ExtendedFoRDisplay` and their respective options. If you don't specify both, the custom configuration will be ignored.

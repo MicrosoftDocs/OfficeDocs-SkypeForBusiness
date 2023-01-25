@@ -14,6 +14,7 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - tier1
 ms.custom: 
   - seo-marvel-mar2020
 description: Remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme and creating a master settings file.

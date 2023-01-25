@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - tier1
 description: Remotely configure the front row layout on Microsoft Teams Rooms systems.
 ---
 
@@ -26,7 +27,7 @@ For more information about the Teams Rooms XML configuration file, see [Manage a
 
 ## Turn off front row
 
-Front row is enabled by default. Turn off Front row if you don't want to allow end-users to use Front row in a certain room. To do this, add `<FrontRowEnabled>false</FrontRowEnabled>` to your XML configuration file.
+Front row is enabled by default. Turn off Front row if you don't want to allow end-users to use Front row in a certain room. To do disable front row, add `<FrontRowEnabled>false</FrontRowEnabled>` to your XML configuration file.
 
 ## Set front row as the default layout
 
