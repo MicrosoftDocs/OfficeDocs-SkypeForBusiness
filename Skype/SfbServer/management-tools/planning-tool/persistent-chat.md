@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - ms.lync.plan.PersistentChat
 - ms.lync.plan.PersistentChat
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: "With Persistent Chat Server, users can participate in multiparty, topic-based conversations that persist over time."
