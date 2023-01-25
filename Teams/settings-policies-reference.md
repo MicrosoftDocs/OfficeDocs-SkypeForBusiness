@@ -97,11 +97,6 @@ Template policies control what team templates users see when they create a new t
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
 |Engagement report|Turn on|When **On**, meeting organizers can see who registered and attended the meetings they set up.|
 
-#### PowerShell-only meeting scheduling policies
-
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
-
 #### Related topics to meeting scheduling
 
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
@@ -126,9 +121,8 @@ Template policies control what team templates users see when they create a new t
 
 ##### Related topics to meeting join & lobby policies
 
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Control who can bypass the meeting lobby and access meetings](who-can-bypass-meeting-lobby.md)
--  
-- 
 
 #### Meeting engagement
 
@@ -136,7 +130,7 @@ Template policies control what team templates users see when they create a new t
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Meeting chat|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages.|
+|Meeting chat|Turn it on for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages. Read more about how to [Manage messaging policies in Teams](messaging-policies-in-teams.md).|
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
 
@@ -148,8 +142,7 @@ Template policies control what team templates users see when they create a new t
 
 ##### Related topics to meeting engagement policies
 
-- 
-- 
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Content sharing
 
@@ -162,17 +155,13 @@ Template policies control what team templates users see when they create a new t
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
 |External participants can give or request control|Off|Controls whether external users can be given or request control of the shared desktop or window. This must be turned on in both organizations for an external user to take control in Teams meetings hosted by people in your organization.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
-|Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
+|Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
-
-##### PowerShell-only content sharing policies
-
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
 
 ##### Related topics to content sharing policies
 
-- [Meeting policy settings - Content sharing](who-can-bypass-meeting-lobby.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md)
 
 #### Watermark
 
