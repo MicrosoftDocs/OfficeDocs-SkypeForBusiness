@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.MediaBypass
 - ms.lync.plan.MediaBypass
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
