@@ -1,7 +1,7 @@
 ---
 title: "Teams: Manage meeting policies"
-author: tonysmit
-ms.author: tonysmit
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams

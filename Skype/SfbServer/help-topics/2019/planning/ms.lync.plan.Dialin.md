@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW

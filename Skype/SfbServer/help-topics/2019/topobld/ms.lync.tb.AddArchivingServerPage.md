@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddArchivingServerPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
 ROBOTS: NOINDEX, NOFOLLOW

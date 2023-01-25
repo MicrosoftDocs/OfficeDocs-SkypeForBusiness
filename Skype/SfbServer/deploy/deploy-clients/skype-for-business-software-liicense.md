@@ -8,7 +8,7 @@ ms.reviewer: sohailta
 ms.topic: quickstart
 f1.keywords:
 - NOCSH
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: "Read this topic to learn how to check whether you have a Skype for Business software volume license."
