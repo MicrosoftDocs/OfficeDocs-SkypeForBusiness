@@ -423,10 +423,14 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 If you've deployed Direct Routing in your organization, you use voice routing policies (also known as call routing policies) to allow Teams users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure. A voice routing policy is a container for PSTN usage records.
 
+<!---
+
 #### PowerShell-only voice routing policies
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
+
+--->
 
 #### Related topics to voice routing policies
 

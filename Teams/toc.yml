@@ -1836,6 +1836,8 @@ items:
           href: get-started-with-retail-teams-templates.md
 - name: Reference
   items: 
+    - name: Teams policies reference
+      href: settings-policies-reference.md   
     - name: Limits and specifications for Teams
       href: limits-specifications-teams.md            
     - name: Licensing
