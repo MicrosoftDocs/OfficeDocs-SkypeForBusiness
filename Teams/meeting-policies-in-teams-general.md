@@ -147,7 +147,7 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
 The availability of reactions can be configured through either the Teams admin center interface or using PowerShell. Reactions are enabled by default.
 
-In the Teams admin center, reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Participants & guests** section of a meeting policy.
+In the Teams admin center, reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Meeting join & lobby** section of a meeting policy.
 
 To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
 
