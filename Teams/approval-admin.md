@@ -1,7 +1,7 @@
 ---
 title: Manage the Approvals app in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
+author: daisyfell
+ms.author: daisyfeller
 ms.reviewer: farhazk
 manager: samanro
 ms.topic: how-to
@@ -17,6 +17,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 appliesto: 

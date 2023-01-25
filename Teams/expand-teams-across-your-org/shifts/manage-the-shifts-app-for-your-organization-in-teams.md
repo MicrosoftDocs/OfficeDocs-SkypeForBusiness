@@ -1,7 +1,7 @@
 ---
 title: Manage the Shifts app for your organization
-author: LanaChin
-ms.author: v-lanachin
+author: samanro
+ms.author: samanro
 ms.reviewer: aaku
 manager: samanro
 ms.topic: conceptual
@@ -21,7 +21,8 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365-frontline
-  - tier2
+  - teams-1p-app-admin
+  - tier
   - highpri
 appliesto: 
   - Microsoft Teams

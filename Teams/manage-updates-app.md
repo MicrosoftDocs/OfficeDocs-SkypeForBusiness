@@ -2,7 +2,7 @@
 title: Manage the Updates app for your organization
 author: daisyfell
 ms.author: daisyfeller
-ms.reviewer: samanro
+ms.reviewer: acolonna, diyu
 manager: pamgreen
 ms.topic: how-to
 audience: admin
@@ -17,6 +17,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 appliesto: 
