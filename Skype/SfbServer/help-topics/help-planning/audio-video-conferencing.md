@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.AV
 - ms.lync.plan.AV
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: "Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences."
