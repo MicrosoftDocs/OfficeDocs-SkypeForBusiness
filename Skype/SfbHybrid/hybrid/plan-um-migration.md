@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.localizationpriority: medium
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 description: "This topic covers what you need to consider when you decide to migrate your existing Skype for Business Server or Exchange Server deployments to the latest version or to Skype for Business Online or Exchange Online."
 ---
 

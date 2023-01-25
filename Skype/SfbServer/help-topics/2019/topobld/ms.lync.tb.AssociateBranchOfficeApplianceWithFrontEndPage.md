@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithFrontEndPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 ROBOTS: NOINDEX, NOFOLLOW

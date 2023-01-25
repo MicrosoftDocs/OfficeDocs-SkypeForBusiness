@@ -2,6 +2,59 @@
 
 
 
+## Week of January 16, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/18/2023 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
+| 1/19/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
+| 1/19/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
+| 1/19/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 1/20/2023 | [Walkie Talkie usage and performance report](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | added |
+| 1/18/2023 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
+| 1/19/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
+| 1/19/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
+| 1/19/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 1/20/2023 | [Walkie Talkie usage and performance report](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | added |
+
+
+## Week of January 09, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/9/2023 | [Retire Microsoft Teams Free (classic) for your organization](/MicrosoftTeams/teams-add-on-licensing/remove-assign-free-licenses) | added |
+| 1/9/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
+| 1/9/2023 | [Get service phone numbers for Calling Plans](/MicrosoftTeams/getting-service-phone-numbers) | modified |
+| 1/9/2023 | [Manage phone numbers for Calling Plan](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modified |
+| 1/9/2023 | [Manually submit a port order](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | modified |
+| 1/9/2023 | [Transfer phone numbers to Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | modified |
+| 1/10/2023 | [Auto attendant and call queue historical reports for GCC High and DoD](/MicrosoftTeams/aa-cq-cqd-historical-reports-v163) | modified |
+| 1/10/2023 | [Updated auto attendant and call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 1/10/2023 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | modified |
+| 1/10/2023 | [Set up a Microsoft Teams auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 1/10/2023 | [Create a Microsoft Teams call queue](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | modified |
+| 1/10/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 1/10/2023 | [Manage resource accounts in Teams](/MicrosoftTeams/manage-resource-accounts) | modified |
+| 1/10/2023 | [Encoder configuration for streaming in Microsoft Teams](/MicrosoftTeams/teams-encoder-configuration) | added |
+| 1/10/2023 | [Encoder setup for streaming in Microsoft Teams](/MicrosoftTeams/teams-encoder-setup) | added |
+| 1/10/2023 | [Creating a stream in Microsoft Teams](/MicrosoftTeams/teams-stream-create-event) | added |
+| 1/10/2023 | [Scale video delivery in Microsoft Teams](/MicrosoftTeams/teams-stream-ecdn) | added |
+| 1/10/2023 | [Overview of the encoder for streaming in Microsoft Teams](/MicrosoftTeams/teams-stream-overview) | added |
+| 1/10/2023 | [Troubleshooting live streaming in Microsoft Teams](/MicrosoftTeams/teams-stream-troubleshooting) | added |
+| 1/10/2023 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
+| 1/10/2023 | [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modified |
+| 1/11/2023 | [Use healthcare team templates](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modified |
+| 1/11/2023 | [Use financial team templates](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | modified |
+| 1/11/2023 | [Get started with team templates in the Teams admin center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
+| 1/11/2023 | [Get started with manufacturing team templates in the admin center](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modified |
+| 1/11/2023 | [Use nonprofit team templates](/MicrosoftTeams/team-templates-nonprofit) | modified |
+| 1/11/2023 | [Calling policies in Microsoft Teams: Calling and call-forwarding features](/MicrosoftTeams/teams-calling-policy) | modified |
+| 1/13/2023 | [Manage devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
+| 1/13/2023 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
+
+
 ## Week of January 02, 2023
 
 
@@ -29,61 +82,3 @@
 |------|------------|--------|
 | 12/19/2022 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
 | 12/21/2022 | [Virtual appointment meeting template in Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | added |
-
-
-## Week of December 12, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/14/2022 | [Microsoft Teams Shared Devices licensing](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | added |
-| 12/14/2022 | [Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | added |
-| 12/14/2022 | [Set Microsoft Teams Android devices user interface](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modified |
-| 12/14/2022 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 12/14/2022 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
-| 12/14/2022 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | modified |
-| 12/14/2022 | [Set up the common area phones for Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modified |
-| 12/14/2022 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 12/15/2022 | [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions) | modified |
-| 12/15/2022 | [Phone numbers and licensing changes](/MicrosoftTeams/phone-numbers-licensing-changes) | modified |
-| 12/15/2022 | [Release notes for Microsoft Teams Rooms (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modified |
-| 12/16/2022 | [Proxy servers for Teams or Skype for Business Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | modified |
-| 12/16/2022 | [Deploy Microsoft Teams Rooms on Android](/MicrosoftTeams/devices/collab-bar-deploy) | modified |
-| 12/16/2022 | [Update Microsoft Teams devices remotely](/MicrosoftTeams/devices/remote-update) | modified |
-| 12/16/2022 | [Microsoft Teams Rooms on Windows security](/MicrosoftTeams/rooms/security-windows) | modified |
-
-
-## Week of December 05, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/5/2022 | [Manage the Bookings app in Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modified |
-| 12/5/2022 | [Configure the Microsoft Teams meeting lobby for sensitive meetings](/MicrosoftTeams/configure-lobby-sensitive-meetings) | added |
-| 12/5/2022 | [Configure Teams meetings with baseline protection](/MicrosoftTeams/configure-meetings-baseline-protection) | added |
-| 12/5/2022 | [Configure Teams meetings with protection for highly sensitive data](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | added |
-| 12/5/2022 | [Configure Teams meetings with protection for sensitive data](/MicrosoftTeams/configure-meetings-sensitive-protection) | added |
-| 12/5/2022 | [Configure Teams meetings with three tiers of protection](/MicrosoftTeams/configure-meetings-three-tiers-protection) | added |
-| 12/5/2022 | [Create a custom meeting template in Microsoft Teams](/MicrosoftTeams/create-custom-meeting-template) | added |
-| 12/5/2022 | [Custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds) | added |
-| 12/5/2022 | [Overview of custom meeting templates in Microsoft Teams](/MicrosoftTeams/custom-meeting-templates-overview) | added |
-| 12/5/2022 | [Require end-to-end encryption for sensitive Teams meetings](/MicrosoftTeams/end-to-end-encrypted-meetings) | added |
-| 12/5/2022 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | added |
-| 12/5/2022 | [Manage chat for sensitive Teams meetings](/MicrosoftTeams/manage-chat-sensitive-meetings) | added |
-| 12/5/2022 | [Manage the meeting presentation experience for sensitive Teams meetings](/MicrosoftTeams/manage-meeting-presentation-experience) | added |
-| 12/5/2022 | [Manage Microsoft Teams meeting recording options for sensitive meetings](/MicrosoftTeams/manage-meeting-recording-options) | added |
-| 12/5/2022 | [Manage meeting templates in Microsoft Teams](/MicrosoftTeams/manage-meeting-templates) | added |
-| 12/5/2022 | [Manage the Virtual Appointments app in Microsoft Teams](/MicrosoftTeams/manage-virtual-appointments-app) | added |
-| 12/5/2022 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | modified |
-| 12/5/2022 | [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](/MicrosoftTeams/meeting-templates-sensitivity-labels-policies) | added |
-| 12/5/2022 | [Meeting themes for Teams meetings](/MicrosoftTeams/meeting-themes) | added |
-| 12/5/2022 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
-| 12/5/2022 | [Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
-| 12/5/2022 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | added |
-| 12/5/2022 | [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modified |
-| 12/5/2022 | [Require a watermark for sensitive Teams meetings](/MicrosoftTeams/watermark-meeting-content-video) | added |
-| 12/7/2022 | [Microsoft Teams Essentials QuickStart guide for small businesses](/MicrosoftTeams/get-started-with-teams-essentials) | modified |
-| 12/7/2022 | [Manage Microsoft Teams Free (classic)](/MicrosoftTeams/manage-freemium) | modified |
-| 12/7/2022 | [Required mobile diagnostic data for Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | modified |
-| 12/7/2022 | [Upgrade Microsoft Teams Free (classic) to subscription](/MicrosoftTeams/upgrade-freemium) | modified |
-| 12/8/2022 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
