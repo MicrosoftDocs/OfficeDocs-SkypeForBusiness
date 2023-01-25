@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.VideoInteropServerPortSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW

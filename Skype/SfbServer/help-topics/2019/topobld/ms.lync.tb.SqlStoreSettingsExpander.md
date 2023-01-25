@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW

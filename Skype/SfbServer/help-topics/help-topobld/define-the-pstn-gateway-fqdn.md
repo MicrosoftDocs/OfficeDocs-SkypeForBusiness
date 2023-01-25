@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddPstnGatewayFqdnPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: "You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX)."

@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SipVideoTrunkScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 ROBOTS: NOINDEX, NOFOLLOW
