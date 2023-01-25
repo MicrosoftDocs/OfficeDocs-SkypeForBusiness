@@ -83,6 +83,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |SDW 5061 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
+|EPOS                 |SDW 5031 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
+|EPOS                 |SDW 5011 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
 |Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
 |Dell                 |P2724DEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
 |Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
@@ -107,12 +110,14 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Jabra                |Engage 50 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certified for Microsoft Teams                           |
+|Microsoft            |Audio Dock Speakerphone                                    |7/12/2022       |Certified for Microsoft Teams                           |
 |Dell                 |WB5023 camera                                              |6/29/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |C10/C20/C50 Series headsets                                |5/31/2022       |Certified for Microsoft Teams                           |
 |Jabra                |Engage55 Mono/Stereo Headset                               |5/25/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Certified for Microsoft Teams                           | 
 |Dell                 |U3223QZ Monitor                                            |5/24/2022       |Certified for Microsoft Teams                           |
+|Microsoft            |Presenter+                                                 |5/12/2022       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Certified for Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |

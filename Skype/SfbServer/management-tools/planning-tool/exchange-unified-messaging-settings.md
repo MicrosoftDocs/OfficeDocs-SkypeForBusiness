@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: "Skype for Business Server 2015 supports integration with Exchange Unified Messaging to combine voice messaging and email messaging into a single messaging infrastructure."
