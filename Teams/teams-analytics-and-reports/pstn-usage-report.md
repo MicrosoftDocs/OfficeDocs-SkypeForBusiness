@@ -29,7 +29,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ## View the PSTN usage report
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN usage report**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN and SMS (preview) usage**.
 2. Under **Date range**, select a predefined range of 7 or 28 days, or set a custom range, and then select **Run report**.
 
 ## Interpret the report
