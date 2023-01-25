@@ -42,8 +42,8 @@ The following table describes which actions we'll restrict for baseline meetings
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|Yes|
 |Record automatically|**Off**|Template|No|
-|Who can bypass the lobby|**People in my organization, people in trusted organizations, and guests**|Template|No|
-|Who can present|**Everyone in the organization, but user can override**|Teams admin center|No|
+|Who can bypass the lobby|**Everyone in my organization, people in trusted organizations, and guests**|Template|No|
+|Who can present|**Everyone in my organization and guests**|Teams admin center|No|
 |Who can record|**Organizers and presenters**|Template|No|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
@@ -54,10 +54,10 @@ The default value for **Who can present** is **Everyone**. For the baseline prot
 
 We can set this value with a sensitivity label, but the value will be enforced for any meetings with that label. This setting isn't available in meeting templates, so we'll set it in the Teams admin center.
 
-To configure who can present in meetings
+To configure who can present 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to update.
-1. Under **Participants & guests**, set **Who can present in meetings** to **Everyone in the organization, but user can override**.
+1. Under **Participants & guests**, set **Who can present** to **Everyone in my organization, but user can override**.
 1. Select **Save**.
 
 ## Watermarks and end-to-end encryption
