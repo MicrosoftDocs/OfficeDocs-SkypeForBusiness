@@ -22,7 +22,7 @@ ms.collection:
   - microsoftcloud-retail
   - m365-frontline
   - teams-1p-app-admin
-  - tier
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams

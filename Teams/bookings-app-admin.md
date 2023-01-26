@@ -21,7 +21,7 @@ ms.collection:
   - m365solution-scenario
   - m365-frontline
   - teams-1p-app-admin
-  - tier
+  - tier2
   - highpri
   - m365initiative-meetings
 ms.reviewer: revathim, thyagarajans
