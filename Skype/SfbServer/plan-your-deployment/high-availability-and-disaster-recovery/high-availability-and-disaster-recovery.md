@@ -8,7 +8,7 @@ audience: ITPro
 ms.topic: conceptual
 ms.custom:
 - ms.lync.plan.HighAvailabilityType
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
