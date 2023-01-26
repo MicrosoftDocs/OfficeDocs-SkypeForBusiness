@@ -57,7 +57,7 @@ We can set this value with a sensitivity label, but the value will be enforced f
 To configure who can present 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to update.
-1. Under **Meeting join & lobby**, set **Who can present** to **Everyone in my organization, but user can override**.
+1. Under **Content sharing**, set **Who can present** to **Everyone in my organization, but user can override**.
 1. Select **Save**.
 
 ## Watermarks and end-to-end encryption

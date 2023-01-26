@@ -38,7 +38,7 @@ To turn on live captions for users:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Meeting join and lobby** section.
+3. Go to the **Recording & transcription** section.
 
 4. Switch **Live captions** to **Off but the user can override**.
 
@@ -155,7 +155,7 @@ To turn on video filters:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Content sharing** section.
+3. Go to the **Audio & video** section.
 
 4. Choose the option under **Select video filters** that best fits your organization's compliance and security requirements. Select one of the following options:
 
