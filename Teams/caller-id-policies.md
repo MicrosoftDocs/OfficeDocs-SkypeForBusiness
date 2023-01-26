@@ -88,7 +88,7 @@ You can edit the global policy or any custom policies that you create.
 You can manage caller ID policies through PowerShell.
 
   > [!NOTE]
-  > Using the Service number caller ID substitution will be deprecated. Use Resource account substitution instead. To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.)
+  > Using the service number calling ID substitute will be deprecated. Use Resource account substitution instead. To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.)
 
 Open a Windows PowerShell command prompt and run the following commands:
 
