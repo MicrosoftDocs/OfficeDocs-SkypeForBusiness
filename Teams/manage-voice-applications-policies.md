@@ -75,5 +75,3 @@ IMPORTANT: In addition to assigning the policy to users, the users must also be 
 [New-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/new-csteamsvoiceapplicationspolicy)
 
 [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/remove-csteamsvoiceapplicationspolicy)
-
-[Assign policies to your users in Teams](policy-assignment-overview.md)
