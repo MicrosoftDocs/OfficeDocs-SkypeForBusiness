@@ -17,7 +17,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: normal
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access and guest access.
 ---
 
@@ -25,7 +25,7 @@ description: Learn how to call, chat, find, and add users from outside the organ
 
 This article describes two of the options for collaborating with people outside your organization:
 
-- **External access** - A type of federation that allows users to find, call, and chat with people in other organizations. These people cannot be added to a team unless they are invited as guests.
+- **External access** - A feature that allows users to find, call, and chat with people in other organizations. These people cannot be added to a team unless they are invited as guests.
 - **Guest access** - Guest access allows you to invite people from outside your organization to join a team. Invited people get a guest account in Azure Active Directory.
 
 For a complete overview of the external collaboration in Microsoft 365, see [Overview of external collaboration options in Microsoft 365](/microsoft-365/enterprise/external-guest-access).
@@ -72,7 +72,7 @@ To configure guest access for Teams, see [Collaborate with guests in a team](/mi
 
 ## Compare external and guest access
 
-The following tables show the differences between using external access (federation) and guests. In both cases, people outside your organization are identified to your users as being external.
+The following tables show the differences between using external access and guests. In both cases, people outside your organization are identified to your users as being external.
 
 ### Things your users can do
 

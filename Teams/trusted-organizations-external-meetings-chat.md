@@ -29,7 +29,7 @@ With the *external access* feature in Teams, you can allow people in your organi
 
 - Other Microsoft 365 organizations
 
-- Teams users not managed by an organization
+- Teams users not managed by an organization (those using a [Microsoft account](https://account.microsoft.com))
 
 - Skype users
 
