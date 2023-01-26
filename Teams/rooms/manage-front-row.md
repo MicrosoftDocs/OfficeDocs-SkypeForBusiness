@@ -37,5 +37,5 @@ End-users can switch from the default display layout using the layout picker dur
 
 ## Set front row size
 
-You can control the size of front row to give more or less space to meeting participant video or to meeting content. To set the front row size, add `<FrontRowVideoSize>` to your XML configuration file. You can set `<FrontRowVideoSize>` to 'small', 'medium', or 'large'. The default is 'medium'. For example, to set the front row size to large, use `<FrontRowVideoSize>large</FrontRowVideoSize>`.
+You can control the size of front row to give more or less space to meeting participant video or to meeting content. To set the front row size, add `<FrontRowVideoSize>` to your XML configuration file. You can set `<FrontRowVideoSize>` to `small`, `medium`, or `large`. The default is `medium`. For example, to set the front row size to large, use `<FrontRowVideoSize>large</FrontRowVideoSize>`.
 
