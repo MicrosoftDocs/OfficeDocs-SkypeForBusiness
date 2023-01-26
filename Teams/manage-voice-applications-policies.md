@@ -64,6 +64,8 @@ NOTE: It's not possible to change the name or description of the policy.
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
+IMPORTANT: In addition to assigning the policy to users, the users must also be configured as Auto attendant [Authorized users](put link here) or Call queue [Authorized users](put link here)
+
 ## Related topics
 
 [Get-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/get-csteamsvoiceapplicationspolicy)
