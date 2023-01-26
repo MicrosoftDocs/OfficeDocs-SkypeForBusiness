@@ -37,7 +37,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Meeting registration](#meeting-registration)
 - [Webinars](#webinars)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
-- [Reactions](#Reactions)
+- [Reactions](#reactions)
 - [Speaker Coach](#speaker-coach)
 
 ## Meet now in channel meetings 
