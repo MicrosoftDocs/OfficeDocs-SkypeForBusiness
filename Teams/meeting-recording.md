@@ -113,34 +113,16 @@ The two values for this setting are:
 >Install-Module -Name MicrosoftTeams -Force -AllowClobber -AllowPrerelease
 >```
 
-### Turn on or turn off recording transcription
+### Meeting recording transcription
 
-This setting controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.
+This setting controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording. Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **Transcripts** on the meeting recording.
+
+In the Microsoft Teams admin center, turn on or turn off the **Transcription** setting in the meeting policy. This setting is off by default.
+
+Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
   
-Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
-
 > [!NOTE]
 > That transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates) , Arabic (Saudi Arabia) , Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia) , Danish (Denmark), Dutch (Belgium) , Dutch (Netherlands), French (Canada), French (France), Finnish (Finland) , German (Germany), Greek (Greece), Hebrew (Israel) , Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea) , Norwegian (Norway), Polish (Poland) , Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand) , Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam). They are stored together with the meeting recordings in OneDrive and SharePoint storage.
-
-You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
-
-In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#transcription).
-
-Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
-
-Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
-
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
-
-```powershell
-Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
-```
-
-To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
-
-```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
-```
 
 |Scenario|Steps |
 |---|---|
