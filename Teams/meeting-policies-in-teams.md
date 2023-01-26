@@ -432,7 +432,7 @@ Daniela can take notes in Amanda's meetings and Amanda can't take notes in any m
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
-- [Anonymous users and dial-in callers can start a meeting](#anonymous-user-and-dial-in-callers-can-start-a-meeting)
+- [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
 - [Who can bypass the lobby](#who-can-bypass-the-lobby)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
 - [Allow team members to bypass the lobby](#allow-team-members-to-bypass-the-lobby)
@@ -442,7 +442,7 @@ These settings control which meeting participants wait in the lobby before they 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](./audio-conferencing-in-office-365.md). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
-### Anonymous users and dial-in callers can start a meeting 
+### Let anonymous people start a meeting 
 
 This is a per-organizer policy that allows for leaderless conferencing meetings. This setting controls whether anonymous users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off which means anonymous users will wait in the lobby until an authenticated user from the organization joins the meeting.
 

@@ -100,7 +100,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
   - This must be turned on at the tenant level and the user level. The tenant-level setting can be found in **Users > External Access** in the Teams admin center. This setting can also be accessed via PowerShell. User-level external access policies can only be accessed via PowerShell. For more information, see the [PowerShell commands below](#allow-external-access-with-teams-accounts-not-managed-by-an-organization).
 - To allow meeting creation from the Parent Connection app, the following policies must be turned on:
   - [Allow private meeting scheduling](meeting-policies-in-teams.md#allow-scheduling-private-meetings).
-  - [Allow anonymous users to join the meeting](meeting-policies-participants-and-guests.md#let-anonymous-people-join-a-meeting).
+  - [Allow anonymous users to join the meeting](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
 #### Parent and guardian restrictions
 
