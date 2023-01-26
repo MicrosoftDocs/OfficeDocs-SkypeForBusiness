@@ -52,7 +52,7 @@ Follow these steps to control which organizers can use Q&A:
 
 1. In the Teams admin center, go to **Meetings** > [**Meeting Policies**](/meeting-policies-participants-and-guests)
 2. Select an existing policy or create a new one and give it a name such as “No Q&A for these organizers”
-3. Scroll to the section called **“Participants & Guests”**, select disable for the **“Question & Answer experience”** setting, and save the policy
+3. Scroll to the section called **Meeting engagement**, select disable for the **“Question & Answer experience”** setting, and save the policy
 4. Assign the policy to specific M365 Groups, end-users, or subscriptions that you want to prevent from setting up Q&A
 
 ## Use PowerShell to manage Q&A

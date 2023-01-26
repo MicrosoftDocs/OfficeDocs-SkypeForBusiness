@@ -153,7 +153,7 @@ This is a per-organizer policy. This setting turns the Questions & Answers exper
 
 The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](/manage-qna-for-teams).
 
-Q&A can be adjusted within the Teams admin center under **Meetings** > **Meeting policies** in the **Participants & guests** section. The parameter `-QnAEngagementMode` controls this policy in PowerShell.
+Q&A can be adjusted within the Teams admin center under **Meetings** > **Meeting policies** in the **Meeting engagement** section. The parameter `-QnAEngagementMode` controls this policy in PowerShell.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -166,7 +166,7 @@ Reactions are on by default. Turning off reactions for a user doesn't mean that 
 
 ## Enable meeting policy settings
 
-To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet in Teams PowerShell.
+To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Meeting engagement**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet in Teams PowerShell.
 
 In this example, we use PowerShell to modify the global meeting policy to allow anyone to start or join a meeting.
 

@@ -93,13 +93,13 @@ After guest access has been given, to admit sign language interpreters and CART 
 
 2. Select the policy you want to modify.
 
-3. Go to the **Meeting join and lobby** section.
+3. Go to the **Meeting join & lobby** section.
 
 4. Choose the option under **Who can bypass the lobby** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
    - Everyone (not recommended)
 
-   - Everyone in my organization  and guests (recommended)
+   - Everyone in my organization and guests (recommended)
 
    - Everyone in my organization , trusted organizations, and guests
 
@@ -202,7 +202,7 @@ To check if in-meeting chat is turned on:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Meeting join and lobby** section.
+3. Go to the **Meeting engagement** section.
 
 4. Choose the option under **Chat in meetings** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
