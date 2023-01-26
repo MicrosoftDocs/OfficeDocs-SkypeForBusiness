@@ -2966,9 +2966,9 @@
     "redirect_document_id": false
   }, 
   {
-    "source_path": "Teams/meetings-policies-recording-and-transcription.md",
+    "source_path": "Teams/cloud-recording.md",
     "redirect_url": "/microsoftteams/meeting-recording",
-    "redirect_document_id": false
+    "redirect_document_id": true
    },
   {
     "source_path": "Teams/rooms/microsoft-teams-rooms-premium-rbac.md",

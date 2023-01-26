@@ -75,26 +75,14 @@ This section explains how you can set up and plan for recording Teams meetings v
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether user's meetings can be recorded.
 
-In the Microsoft Teams admin center, turn on or turn off the **Meeting recording** setting under **Meetings** > **Meeting policies**. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#cloud-recording).
+In the Microsoft Teams admin center, turn on or turn off the **Meeting recording** setting under **Meetings** > **Meeting policies**.
 
-Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+With PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 Both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has **Meeting recording** enabled by default.
 
 > [!NOTE]
 > For more information about using Teams roles to configure who has permission to record a meeting, see [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
-
-For a user to fall back to the Global policy, use the following cmdlet to remove a specific policy assignment for a user:
-
-```powershell
-Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
-```
-
-To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
-
-```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
-```
 
 |Scenario|Steps|
 |--|--|
@@ -110,29 +98,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 
 ### Block or allow download of channel meeting recordings
 
-This setting controls if channel meetings are saved to a "Recordings" folder or a "Recordings\View only" folder in the channel. The setting applies to the policy of the user who selects record for the channel meeting.
+Using PowerShell, The ChannelRecordingDownload setting in TeamsMeetingPolicy controls if channel meetings are saved to a "Recordings" folder or a "Recordings\View only" folder in the channel. The setting applies to the policy of the user who selects record for the channel meeting. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 The two values for this setting are:
 
-- **Allow** (default)—Saves channel meeting recordings to a "Recordings" folder in the channel. The permissions on the recording files will be based off the Channel SharePoint permissions. This is the same as any other file uploaded for the channel.
+- **Allow** — Saves channel meeting recordings to a "Recordings" folder in the channel. The permissions on the recording files will be based off the Channel SharePoint permissions. This is the same as any other file uploaded for the channel. This is the default setting.
 
-- **Block**—Saves channel meeting recordings to a "Recordings\View only" folder in the channel. Channel owners will have full rights on the recordings in this folder, but channel members will have read access without ability to download.
-
-Using PowerShell, you configure the ChannelRecordingDownload setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
-
-Unless you have assigned a custom policy to the users, users get the Global policy, which has ChannelRecordingDownload set to Allow by default.
-
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
-
-```powershell
-Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
-```
-
-To change value of ChannelRecordingDownload in the Global policy, use the following cmdlet:
-
-```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
-```
+- **Block** — Saves channel meeting recordings to a "Recordings\View only" folder in the channel. Channel owners will have full rights on the recordings in this folder, but channel members will have read access without ability to download.
 
 > [!NOTE]
 > The ChannelRecordingDownload setting is only available in the Teams PowerShell module version 2.4.1-preview or higher. To download the latest preview version of the module use this command:
