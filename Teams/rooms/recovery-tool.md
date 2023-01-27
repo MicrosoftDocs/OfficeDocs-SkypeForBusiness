@@ -40,6 +40,7 @@ Download the latest [Microsoft Teams Rooms installation package](https://go.micr
       2. Navigate to the **Recovery** tab.
       3. Beneath **Reset this PC**, select **Get started**
       4. Select **Remove everything**, then **Next** and **Reset**
+      
         > [!WARNING]
         > The Microsoft Teams Rooms device can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected             during the Windows Reset process. Do not select this option.
       
