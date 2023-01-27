@@ -2,7 +2,7 @@
 title: Manage the Updates app for your organization
 author: daisyfell
 ms.author: daisyfeller
-ms.reviewer: samanro
+ms.reviewer: acolonna, diyu
 manager: pamgreen
 ms.topic: how-to
 audience: admin
@@ -17,6 +17,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 appliesto: 
@@ -26,7 +27,7 @@ ms.custom:
 
 # Manage the Updates app for your organization in Microsoft Teams
 
-## What is the Updates app
+## Overview of Updates
 
 The Updates in Microsoft Teams app provides a centralized place for members of your organization to create, review, and submit updates. By creating templates, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
@@ -145,3 +146,7 @@ From the Teams Updates app, users have access to create new updates and view upd
 
 >[!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the update report was created or the template creator manually adds them as a viewer. They won't have the ability to take action on the request if they weren't given that role when the report was created.
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Updates**, and then enter your feedback or details about the issue you're experiencing.
