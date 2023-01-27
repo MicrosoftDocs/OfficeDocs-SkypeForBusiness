@@ -27,12 +27,13 @@ When a Microsoft Teams user is chatting with someone outside the organization, t
 - Native chat - a chat experience that includes formatting, @mentions, emojis, etc.
 - Basic chat - a text-only chat experience
 
-Native chat is available when communicating with people in other Microsoft 365 organizations, provided both users are in [Teams only coexistence mode](setting-your-coexistence-and-upgrade-settings.md) and both are in the same cloud environment. (Native chat is not available when communicating between cloud environments, such as GCC to GCC High or commercial cloud.)
+Native chat is available when communicating with people in other Microsoft 365 organizations, provided both users are in [Teams only coexistence mode](setting-your-coexistence-and-upgrade-settings.md) and both are in the same cloud environment. It is also available when communicating with Teams users not managed by an organization (those using Microsoft accounts).
 
-Basic chat is available in all other chat experiences, including communicating with:
-- Skype for Business users
-- Skype users
-- Teams users not managed by an organization (those using Microsoft accounts)
+Basic chat is available in all other chat experiences, including:
+
+- Communicating with Skype for Business users
+- Communicating with Skype users
+- Communicating between cloud environments, such as GCC to GCC High or commercial cloud
 
 ## Related topics
 
