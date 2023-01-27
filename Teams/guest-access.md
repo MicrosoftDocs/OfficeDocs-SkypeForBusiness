@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
-ms.localizationpriority: high
+ms.localizationpriority: normal
 f1.keywords:
 - CSH
 ms.custom: 
@@ -36,14 +36,12 @@ When you invite a guest to Teams, a guest account is created for them in Azure A
 
 The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest access in Microsoft Teams](guest-experience.md).
 
-> [!IMPORTANT]
-> Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
-
-To compare external access (federation) with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
+To compare external access with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
 
 Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
-To set up guest access, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team). 
+> [!NOTE]
+> Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
 
 ## Set up guest access
 
@@ -60,10 +58,10 @@ Guest access in Teams requires configuring other settings in Microsoft 365, incl
 ## How a guest gets added to a team
 
 1. A team owner or a Microsoft 365 admin [adds a guest to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-2. The guest receives a welcome email from the team owner, with information about the team and what to expect now that they've been added.
-3. The guest accepts the invitation.
+1. The guest receives a welcome email from the team owner, with information about the team and what to expect now that they've been added.
+1. The guest accepts the invitation.
   Guests who have a work or school account in Azure Active Directory can accept the invitation and authenticate directly. Other users are sent a one-time pass code to validate their identity ([One-time passcode authentication](/azure/active-directory/external-identities/one-time-passcode) required).
-4. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
+1. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
 
 In Teams, guests are clearly identified. A guest's name includes the label **(Guest)**, and a channel includes an icon to indicate that there are guests on the team. For more details, see [What the guest experience is like](guest-experience.md).
   
