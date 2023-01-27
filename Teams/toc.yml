@@ -515,6 +515,8 @@ items:
       href: teams-outlook-share-teams.md
     - name: Manage messaging policies
       href: messaging-policies-in-teams.md
+    - name: Chat with Distribution Lists 
+      href: chat-with-distribution-lists.md
     - name: User presence in Teams
       href: presence-admins.md
     - name: Manage tags in Teams
