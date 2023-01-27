@@ -76,28 +76,48 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated November 2022*
+*Table Updated January 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |SDW 5061 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
+|EPOS                 |SDW 5031 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
+|EPOS                 |SDW 5011 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
+|Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
+|Dell                 |P2724DEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
+|Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
+|Yealink              |BH76 Headset                                               |12/22/2022      |Certified for Microsoft Teams                           |
+|Logitech             |Brio 300/301/305 Camera                                    |12/22/2022      |Certified for Microsoft Teams                           |
+|Poly                 |Savi 7310 UC Series headsets with dongle version v1008     |12/22/2022      |Certified for Microsoft Teams                           |
+|Poly                 |Savi 7320 UC Series headsets with dongle version v1008     |12/22/2022      |Certified for Microsoft Teams                           |
+|Yealink              |WH62 Dual/Mono Portable headset                            |12/21/2022      |Certified for Microsoft Teams                           |
+|Yealink              |WH63 Portable headset with DECT dongle                     |12/21/2022      |Certified for Microsoft Teams                           |
+|Cisco                |320 series (321/322) headsets                              |12/20/2022      |Certified for Microsoft Teams                           |
+|Cisco                |720 series (721/722) headsets                              |12/20/2022      |Certified for Microsoft Teams                           |
+|Lenovo               |T24mv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
+|Lenovo               |T27hv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
+|Lenovo               |Conference Call Base Speakerphone                          |12/19/2022      |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 561 II headset                                       |10/20/2022      |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Certified for Microsoft Teams                           |
 |Cisco                |Desk Camera 4K                                             |10/15/2022      |Certified for Microsoft Teams                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Brio 500/505/501 Cameras                                   |9/14/2022       |Certified for Microsoft Teams                           |
+|Sony                 |YY2969 Earbuds                                             |9/6/2022        |Certified for Microsoft Teams                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |Certified for Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certified for Microsoft Teams                           |
+|Microsoft            |Audio Dock Speakerphone                                    |7/12/2022       |Certified for Microsoft Teams                           |
 |Dell                 |WB5023 camera                                              |6/29/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II headset                                       |6/22/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |C10/C20/C50 Series headsets                                |5/31/2022       |Certified for Microsoft Teams                           |
 |Jabra                |Engage55 Mono/Stereo Headset                               |5/25/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Certified for Microsoft Teams                           | 
 |Dell                 |U3223QZ Monitor                                            |5/24/2022       |Certified for Microsoft Teams                           |
+|Microsoft            |Presenter+                                                 |5/12/2022       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Certified for Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |
