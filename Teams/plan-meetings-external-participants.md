@@ -31,4 +31,7 @@ Guests can be used for non-AAD orgs to validate participants
 
 If neither of those is used, then the participant is anonymous
 
+Validating external meeting participants
+
+Lobby implications
 
