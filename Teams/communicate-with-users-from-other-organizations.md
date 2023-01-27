@@ -76,34 +76,18 @@ The following tables show the differences between using external access and gues
 
 | Users can | External access users | Guests |
 |---------|-----------------------|--------------------|
-| Chat with someone in another organization | Yes | Yes |
-| Call someone in another organization | Yes | Yes |
-| See if someone from another organization is available for call or chat | Yes | Yes<sup>1</sup> |
 | Search for people in other organizations | Yes<sup>2</sup> | No |
 | Share files | No | Yes |
 | See the out-of-office message of someone in another organization | No | Yes |
 | Block someone in another organization  | No | Yes |
-| Use @mentions | Yes<sup>3</sup> | Yes |
 
 ### Things people outside your organization can do
 
 | People outside your organization can | External access users | Guests |
 |---------|-----------------------|--------------------|
 | Access Teams resources | No | Yes |
-| Be added to a group chat | Yes | Yes |
-| Be invited to a meeting | Yes | Yes |
-| Make private calls | Yes | Yes<sup>5</sup> |
 | View the phone number for dial-in meeting participants | No<sup>4</sup> | Yes |
-| Use IP video | Yes | Yes<sup>5</sup> |
-| Use screen sharing | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Use meet now | No | Yes<sup>5</sup> |
-| Edit sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
-| Delete sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
-| Use Giphy in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
-| Use memes in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
-| Use stickers in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
-| Presence is displayed | Yes | Yes |
-| Use @mentions | Yes<sup>3</sup> | Yes |
 
 <br>
 
