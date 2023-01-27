@@ -33,7 +33,7 @@ Shared line appearance lets a user choose a delegate to answer or handle calls o
 
 ## Dialing Permissions and Routing
 
-When a delegate makes an outbound PSTN call on behalf of a delegator, the dialing permissions and routing are based on the delegator.
+When a delegate makes an outbound PSTN call on behalf of a delegator, the delegator's settings control the checks for appropriate licensing, dial-out restrictions, and call routing.
 
 ## License required
 
