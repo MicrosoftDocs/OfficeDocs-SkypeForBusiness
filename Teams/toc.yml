@@ -503,7 +503,7 @@ items:
           - name: Best practices for organizing teams in Teams
             href: best-practices-organizing.md
           - name: Set up your teams targeting hierarchy
-            href: set-up-your-team-hierarchy
+            href: set-up-your-team-hierarchy.md
           - name: Manage large Teams
             href: best-practices-large-groups.md
           - name: Create an org-wide team in Teams
@@ -524,7 +524,7 @@ items:
           - name: Manage tags in Teams
             href: manage-tags.md
           - name: View analytics in Teams
-            href: view-analytics.md
+            href: Teams\teams-analytics-and-reports\view-analytics.md
 
     - name: Chats
       items: 
@@ -533,7 +533,7 @@ items:
         - name: User presence in Teams
           href: presence-admins.md
         - name: Supervised chat for non-educational tenants
-          href: supervised-chat-non-edu
+          href: supervised-chat-non-edu.md
 
     - name: Channels
       items:
@@ -575,7 +575,7 @@ items:
             - name: Guest experience
               href: guest-experience.md
             - name: Collaborate with guests
-              href: collaborate-as-team.md
+              href: microsoft-365/solutions/collaborate-as-team.md
             - name: Turn on guest access or turn off
               href: set-up-guests.md
             - name: Add a guest
@@ -584,15 +584,15 @@ items:
     - name: Templates
       items:
         - name: Use team templates in the admin center
-          href: get-started-with-teams-template-in-the-admin-console.md
+          href: Teams/get-started-with-teams-templates-in-the-admin-console.md
         - name: Get started with team templates using Microsoft Graph
-          href: get-standard-with-teams-templates.md
+          href: get-started-with-teams-templates.md
         - name: Team templates built in Graph for Small and Medium Businesses
           href: smb-templates.md
         - name: Create a custom team template
           href: create-a-team-template.md
         - name: Create a template from an existing team
-          href: create-team-template-from-existing-team.md
+          href: Teams/create-template-from-existing-team.md
         - name: Create a template from an existing template
           href: create-template-from-existing-template.md
         - name: Financial team template
