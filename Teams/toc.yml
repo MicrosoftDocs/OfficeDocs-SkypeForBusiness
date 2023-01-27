@@ -904,10 +904,8 @@ items:
           items: 
             - name: How can caller ID be used in your organization
               href: how-can-caller-id-be-used-in-your-organization.md
-            - name: Manage Caller ID policies
+            - name: Create and manage Caller ID for users
               href: caller-id-policies.md
-            - name: Set the Caller ID for a user
-              href: set-the-caller-id-for-a-user.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: Auto attendants and call queues
