@@ -2973,7 +2973,7 @@
   {
     "source_path": "Teams/set-the-caller-id-for-a-user.md",
     "redirect_url": "/microsoftteams/caller-id-policies",
-    "redirect_document_id": false
+    "redirect_document_id": true
   }
   ] 
 }
