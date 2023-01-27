@@ -35,3 +35,34 @@ Validating external meeting participants
 
 Lobby implications
 
+## Types of meeting participants
+
+External participants in Teams meetings have one of three possible identities:
+- **Guests** - people who have an [Azure AD B2B collaboration guest account](/azure/active-directory/external-identities/what-is-b2b) in your directory
+- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have a two-way trust relationship and who are assigned a meeting policy that allows them to communicate with trusted organizations
+- **Anonymous** - People who's identity can't be validated by Teams
+
+Both guests and people from trusted organizations can be validated by Teams. Guests are validated in your own directory and people in trusted organizations are validated by Azure AD in an organization that you have a trust relationship with.
+
+## Meetings with other Microsoft 365 organizations
+
+
+
+
+## Meetings with non-Microsoft 365 organizations
+
+
+
+
+[Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md)
+
+[Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
+
+[Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
+
+[Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
+
+
+## Related topics
+
+[Add Azure Active Directory B2B collaboration users in the Azure portal](/azure/active-directory/external-identities/add-users-administrator)
