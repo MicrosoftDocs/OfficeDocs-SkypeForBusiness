@@ -90,80 +90,19 @@ You can manage caller ID policies through PowerShell.
   > [!NOTE]
   > Using the service number calling ID substitute will be deprecated. Use Resource account substitution instead. To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.)
 
-Open a Windows PowerShell command prompt and run the following commands:
+For more information on Teams PowerShell Module cmdlets, see the following articles:
 
-```PowerShell
-# When using Teams PowerShell Module
-
-Import-Module MicrosoftTeams
-$credential = Get-Credential
-Connect-MicrosoftTeams -Credential $credential
-```
-
-1. To view all of the caller ID policy settings in your organization, run:
-
-     ```PowerShell
-     Get-CsCallingLineIdentity |fl
-     ```
-
-   For more information, see [Get-CsCallingLineIdentity](/powershell/module/skype/Get-CsCallingLineIdentity).
-2. To create a new caller ID policy for your organization, use the New-CsCallingIdentity cmdlet:
-
-     ```PowerShell
-     New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
-     ```
-
-    In all cases, the "Service Number" field should not include an initial "+".
-
-   For more information, see [New-CsCallingLineIdentity](/powershell/module/skype/New-CsCallingLineIdentity).
-3. Apply the new policy you created by using the Grant-CsCallingIdentity cmdlet. For example, the following example applies the new policy to user Amos Marble.
-
-     ```PowerShell
-     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
-     ```
-
-   For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
-4. If you want to block the incoming caller ID, run:
-
-   ```PowerShell
-   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true
-   ```
-
-   For more information, see [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity).
-5. To apply the policy setting you created to a user in your organization, run:
-
-   ```PowerShell
-   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
-   ```
-
-   For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity).
-
-6. To create a new Caller ID policy that sets the Caller ID to the phone number of the specified resource account and sets the Calling party name to Contoso:
-
-   ```PowerShell
-   $ObjId = (Get-CsOnlineApplicationInstance -Identity dkcq@contoso.com).ObjectId
-   New-CsCallingLineIdentity  -Identity DKCQ -CallingIDSubstitute Resource -EnableUserOverride $false -ResourceAccount $ObjId -CompanyName "Contoso"
-   ```
-
-If you have already created a policy, you can use the [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet to apply the settings to your users.
-
-#### Remove a policy setting
-
-To remove a policy from your organization, run:
-  
-```PowerShell
-Remove-CsCallingLineIdentity -Identity "My Caller ID Policy"
-```
-
-To remove a policy from a user, run:
-  
-```PowerShell
-Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $null
-```
+- [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
+- [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
+- [Remove-CsCallingLineIdentity](/powershell/module/skype/remove-cscallinglineidentity)
+- [Get-CsCallingLineIdentity](/powershell/module/skype/get-cscallinglineidentity)
+- [Grant-CsCallingLineIdentity](/powershell/module/skype/grant-cscallinglineidentity)
 
 ### Examples
 
-#### New custom call park policy
+For more examples, see the cmdlet reference pages.
+
+#### New custom Caller ID policy
 
 This example creates a new Caller ID policy that sets the Caller ID to the phone number of the specified resource account and sets the Calling party name to Contoso:
 
@@ -183,18 +122,18 @@ New-CsCallingLineIdentity -Identity Anonymous -Description "anonymous policy" -C
 
 #### Change a caller ID policy
 
-This example modifies the UKOrgAA Caller ID policy to set the Caller ID to a specified service number.
+This example modifies the UKAA Caller ID policy to set a new description.
 
 ```PowerShell
-Set-CsCallingLineIdentity -Identity "UKOrgAA" -CallingIdSubstitute "Service" -ServiceNumber "14258828080"
+Set-CsCallingLineIdentity -Identity "UKAA" -Description "UK Main office"
 ```
 
 #### Remove a caller ID policy
 
-This example removes the UKOrgAA Caller ID policy.
+This example removes the UKAA Caller ID policy.
 
 ```PowerShell
-Remove-CsCallingLineIdentity -Identity "UKOrgAA"
+Remove-CsCallingLineIdentity -Identity "UKAA"
 ```
 
 #### Grant a caller ID policy
@@ -204,14 +143,6 @@ This example grants the Anonymous Caller ID policy to Amos Marble.
 ```PowerShell
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Anonymous"
 ```
-
-For more information on Teams PowerShell Module cmdlets, see the following articles:
-
-- [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
-- [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
-- [Remove-CsCallingLineIdentity](/powershell/module/skype/remove-cscallinglineidentity)
-- [Get-CsCallingLineIdentity](/powershell/module/skype/get-cscallinglineidentity)
-- [Grant-CsCallingLineIdentity](/powershell/module/skype/grant-cscallinglineidentity)
 
 ## Related topics
 
