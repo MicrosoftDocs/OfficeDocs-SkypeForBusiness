@@ -31,6 +31,10 @@ Shared line appearance lets a user choose a delegate to answer or handle calls o
 > [!IMPORTANT]
 > This feature is only available in Teams Only deployment mode. For more details on Teams deployment modes, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
+## Dialing Permissions and Routing
+
+Dialing permissions and routing are based on the delegator.
+
 ## License required
 
 Both managers and delegates must have a Phone System license with PSTN connectivity (Calling Plan, Operator Connect, or Direct Routing). The shared line experience is part of delegation and is included with Phone System. For more information on licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
