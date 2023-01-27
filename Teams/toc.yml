@@ -1507,6 +1507,10 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Remotely configure front row layout
+              href: rooms/manage-front-row.md
+            - name: Remotely configure layout, scale, and resolution
+              href: rooms/manage-front-room-scale-res.md
             - name: Join third-party meetings
               href: rooms/third-party-join.md
             - name: Known issues
