@@ -358,6 +358,8 @@ items:
           href: communicate-with-users-from-other-organizations.md
         - name: External meetings and chat
           items: 
+            - name: Plan for external meetings
+              href: plan-meetings-external-participants.md
             - name: Manage external meetings and chat
               href: manage-external-access.md
             - name: Configure external meetings & chat
