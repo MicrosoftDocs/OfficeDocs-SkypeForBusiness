@@ -25,12 +25,11 @@ description: Learn how to plan for meetings with people outside your organizatio
 
 # Plan for meetings with external participants in Microsoft Teams
 
-You can allow people from outside your organization to join Teams meetings.
-
-
-
+You can allow people from outside your organization to join Teams meetings that are hosted by your organization. This article describes the options available for meeting with people outside your organization, which types of external meeting participants can be validated, and which Teams and Microsoft 365 features are used to control their access to meetings in your organization.
 
 ## Meeting with validated external participants
+
+How external participants appear in meetings depends on a combination of your Microsoft 365 configuration and their identity provider. Some external participants can be validated by Microsoft 365 and others are considered anonymous.
 
 A *validated* meeting participant is one that is logged in to Microsoft 365 in way that you trust. There are two types of validated external participants:
 
@@ -41,13 +40,13 @@ External participants who are not validated in one of these two ways are conside
 
 When planning your configuration for external meetings, consider the types of meetings where you want all participants to be validated and which can allow anonymous participants. You might want all confidential meetings to have only validated participants, whereas there may be marketing or sales meetings where anonymous participants are fine.
 
-The external participant's identity provider determines which type of verified account they would use. People in other Microsoft 365 organizations can join meetings through the external access feature. People who don't have a work or school account in Microsoft 365 must be invited as guests to your organization and can join using guest access.
+The external participant's identity provider determines which type of verified account they would use. People in other Microsoft 365 organizations can join meetings through the external access feature. People who don't have a work or school account in Microsoft 365 must be invited as guests to your organization and can join meetings using guest access.
 
-### External participants and the Teams meeting lobby
+#### External participants and the Teams meeting lobby
 
 The Teams meeting lobby is a waiting area for meeting participants. Meeting organizers can use the lobby to vet participants before allowing them to join the meeting. Depending on its configuration, certain types of participants - including external participants - can be required to wait in the lobby until they're admitted by an organizer, co-organizer, or presenter.
 
-The lobby can be configured by the meeting organizer or administrators can enforce settings by using meeting templates or sensitivity labels. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md) and [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
+The lobby can be configured by the meeting organizer or administrators can enforce lobby settings by using meeting templates or sensitivity labels. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md) and [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
 ## Meetings with other Microsoft 365 organizations
 
@@ -67,9 +66,13 @@ Guests must log in to Teams with their guest account in order to join meetings. 
 
 ## Meetings with anonymous participants
 
-Any participant attempting to join a Teams meeting who can't be validated will be considered anonymous. Anonymous meeting access is turned on by default. If you compliance requirements or business rules require you to validate all meeting participants, you can turn anonymous access off for certain meeting organizers or for everyone.
+Any participant attempting to join a Teams meeting who can't be validated will be considered anonymous. Anonymous meeting access is turned on by default. If your compliance requirements or business rules require you to validate all meeting participants, you can turn anonymous access off for certain meeting organizers or for everyone.
 
 For details about configuring anonymous meeting access, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
+
+## Dial-in users
+
+External participants can dial in to Teams meetings using the conference number provided in the meeting invite. By default, people dialing in must wait in the lobby. Meeting organizers can change this setting, or you can enforce it by using a meeting template.
 
 ## Related topics
 
