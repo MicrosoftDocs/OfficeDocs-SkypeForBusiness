@@ -69,13 +69,11 @@ You can manage caller ID policies by going to **Voice** > **Caller ID policies**
 
 3. Enter a name and description for the policy.
 
-4. Choose the settings that you want.
-
-    **Replace the caller ID with:** Set which caller ID will be displayed for users by selecting one of the following:
+4. Under **Replace the caller ID with**, set which caller ID is displayed for users by selecting one of the following:
       - **User's number:** Display the user's number.
-      - **Service number:** Display the service number. (Note: will be deprecated.)
+      - **Service number:** Display the service number. (Note: this option will be deprecated.)
       - **Anonymous:** Display the caller ID as Anonymous.
-      - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.<br><br>
+      - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.
     
     The option you choose determines next steps. If you choose **Service number** or **Resource account**, you are prompted to specify a service number or a resource account, respectively.
 
