@@ -904,7 +904,7 @@ items:
           items: 
             - name: How can caller ID be used in your organization
               href: how-can-caller-id-be-used-in-your-organization.md
-            - name: Create and manage Caller ID for users
+            - name: Manage caller ID for users
               href: caller-id-policies.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
