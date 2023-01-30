@@ -27,8 +27,6 @@ You can enable a watermark to be displayed in Teams meetings both for content sh
 
 Watermarks are supported on Teams desktop and mobile. People joining meetings from unsupported platforms will have an audio-only experience.
 
-Participants joining from [Cloud Video Interop (CVI)](cloud-video-interop.md), will be able to see content without watermarks.
-
 The following participants have an audio-only experience when a watermark is in use:
 
 - Participants using the Teams web client
@@ -39,6 +37,7 @@ The following participants have an audio-only experience when a watermark is in 
 - Microsoft Teams Rooms on Android
 - Older Teams clients
 - [Direct Guest Join on Microsoft Teams Rooms devices](/microsoftteams/rooms/third-party-join)
+- [Cloud Video Interop (CVI)](cloud-video-interop.md). (Check with your CVI partner for watermark support information.)
 
 > [!Note]
 > Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
