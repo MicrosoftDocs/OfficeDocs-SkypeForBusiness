@@ -81,7 +81,7 @@ For the incoming calls, the caller number is obfuscated, for outgoing calls, the
 The obfuscation is based on the organization's location (country). Full phone numbers are shown for the countries that are not listed in the following table:
 
 | Country | Number of obfuscation digits |
-| :-: | :- |
+| :---: | :--- |
 |BE – Belgium | 3 |
 |CH – Switzerland | 4 |
 |DE - Germany | 3 |
