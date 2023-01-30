@@ -35,7 +35,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
   
 ## Audio Conferencing
 
-|**Feature**|**Details**|
+| Feature | Details |
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for: <br/><ul><li> London</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
@@ -43,7 +43,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
    
 ## Phone System
 
-|**Feature**|**Details**|
+| Feature | Details |
 |:-----|:-----|
 |Is Phone System available for purchase?  <br/> |Yes  <br/> |
 | Auto attendants <br/> |Available  <br/> |
@@ -61,7 +61,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
    
 ## Toll and toll-free numbers for services
 
-|**Feature**|**Details**|
+| Feature | Details |
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  Hull <li>  Leeds <li>  Leicester <li>  Liverpool <li>  London <li>  Manchester <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-on-Trent <li>  Teesside (Middlesbrough) </ul> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
@@ -71,7 +71,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
   
 ## Communications Credits
 
-|**Feature**|**Details**|
+| Feature | Details |
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |Yes  <br/> |
    
