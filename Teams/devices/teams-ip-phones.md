@@ -114,6 +114,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
 |EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2024 | 10 |
 |Neat Pad Panel    | `NFA1.20220211.1400` | August 5, 2023 | 9 |
 |Crestron TSS-770 | `2.001.0058` |September 3, 2024  | 10 |
@@ -129,6 +130,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #5 | January 25, 2023 | `1449/1.0.94.2023010607` | `5.0.5484.0` | `382`|
 | 2022 Update #4A | November 30, 2022 | `1449/1.0.94.2022110803` | `5.0.5484.0` | `382`|
 | 2022 Update #4  | September 22, 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
 | 2022 Update #3A| July 13,2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
@@ -383,6 +385,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 Update #5 | January 25, 2023 | `1449/1.0.95.2023011001` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #4A | December 14, 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #1  |November 14, 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
 |2021 Update #4  |January 5, 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
