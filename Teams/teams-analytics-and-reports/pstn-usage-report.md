@@ -20,7 +20,7 @@ ms.collection:
 ---
 # Microsoft Teams PSTN usage report
 
-The Teams PSTN (Public Switched Telephone Network) usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
+The Teams PSTN (Public Switched Telephone Network) and SMS usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
 
 The **Calling Plans** tab shows information including the number of minutes that users spent in inbound and outbound PSTN calls and the cost of these calls. The **Direct Routing** tab shows you information including the SIP address and call start and end times. Use the information in this report to gain insight into PSTN usage in your organization and help you to investigate, plan, and make business decisions.
 
@@ -29,7 +29,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ## View the PSTN usage report
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN usage report**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN and SMS (preview) usage**.
 2. Under **Date range**, select a predefined range of 7 or 28 days, or set a custom range, and then select **Run report**.
 
 ## Interpret the report
