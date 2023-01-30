@@ -52,7 +52,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
    
 ## Calling Plans
     
-|**Feature**|**Details**|
+| Feature | Details |
 |:-----|:-----|
 |Calling Plans are available to purchase?  |Yes          |   
 |Minutes available for Calling Plans.    |There are five plan options available per calendar month: <ul><li>Pay-As-You-Go Calling Plan </li><li> 120 minutes Domestic Calling Plan </li><li> 240 minutes Domestic Calling Plan </li><li> 3,000 minutes Domestic Calling Plan </li><li> International Calling Plan: 3,000 minutes of domestic or 600 minutes of international calling (whichever is reached first in the calendar month)</li></ul>| 
