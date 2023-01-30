@@ -28,7 +28,7 @@ description: "Learn how to enable and disable Chat with group in the Microsoft T
 Users can start a chat with distribution groups (distribution lists), mail-enabled security groups, and Microsoft 365 groups. Once the **Chat with groups** setting is enabled, users can search, select the group, and start chatting with the members of the group.
 
 > [!NOTE]
-> Users can only add members from distribution lists, Microsoft 365 groups, or mail-enabled security.
+> Users can only add members from distribution lists, Microsoft 365 groups, or mail-enabled security groups.
 >
 > Users can add up to 250 members to their recipient list.
 
