@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: "The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices."

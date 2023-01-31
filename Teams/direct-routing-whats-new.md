@@ -20,6 +20,10 @@ ms.collection:
 
 This article describes what's new in Direct Routing. Check back often for updates.
 
+## New Direct Routing SIP endpoints 
+
+Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.120.0.0/14 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
+
 ## Trunk demoting logic based on SIP Options
 
 A new feature based on SIP Options is introduced for trunk health. When enabled in the gateway configuration (see Set-CsOnlinePSTNGateway cmdlet and SendSipOptions parameter), the routing logic for outbound calls demotes trunks that do not send SIP Options periodically (expected period is one SIP Option sent by the SBC per minute) to the Microsoft backend. These demoted trunks are put to the end of trunks list available for the outbound call and are tried as the last ones; thereby potentially decreasing the call setup time.
@@ -34,7 +38,7 @@ If no actions are taken before June 1, users won't be able to make or receive ca
 
 To prevent service impact:
 
-- Use the recommended subnets: (52.112.0.0/14 and 52.120.0.0/14) for any classification or ACL rules.
+- Use the recommended subnets: (52.112.0.0/14 and 52.122.0.0/15) for any classification or ACL rules.
 - Discontinue use of the sip-all FQDN when configuring Session Border Controls for  Direct Routing.
 
 For more information, see [Plan Direct Routing](direct-routing-plan.md).

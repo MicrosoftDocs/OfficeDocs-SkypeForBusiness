@@ -372,6 +372,8 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
+            - name: Add a guest to a team
+              href: add-guests.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -464,6 +466,8 @@ items:
           href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: EHR connector Virtual Appointments report
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Walkie Talkie usage and performance report
+          href: teams-analytics-and-reports/walkie-talkie-usage-report.md
               
     - name: Log files, service health, and support
       items:
@@ -549,38 +553,6 @@ items:
           href: team-templates-nonprofit.md
         - name: Manage team template policies
           href: templates-policies.md
-    - name: Work with people outside the organization
-      items: 
-        - name: Communicate with users from other organizations
-          href: communicate-with-users-from-other-organizations.md
-        - name: External meetings and chat
-          items: 
-            - name: Manage external meetings and chat
-              href: manage-external-access.md
-            - name: Native Teams chats
-              href: native-chat-for-external-users.md
-            - name: Teams and Skype interoperability
-              href: teams-skype-interop.md
-        - name: Guest access
-          items: 
-            - name: About guest access
-              href: guest-access.md
-            - name: Guest access checklist
-              href: /microsoft-365/solutions/collaborate-as-team
-            - name: Guest experience
-              href: guest-experience.md
-            - name: Authorize guest access
-              href: teams-dependencies.md
-            - name: Turn on guest access or turn off
-              href: set-up-guests.md
-            - name: Add a guest to a team
-              href: add-guests.md
-            - name: View guests in a team
-              href: view-guests.md
-            - name: Edit guest information
-              href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
     - name: Cortana in Teams
       href: cortana-in-teams.md
     - name: Set up your team targeting hierarchy
@@ -618,6 +590,8 @@ items:
                   href: configure-desktop-sharing.md
             - name: Participant, guest, and access policies
               items:
+                - name: Anonymous participants
+                  href: anonymous-users-in-meetings.md
                 - name: Participants and guest policies
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
@@ -1503,6 +1477,10 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Remotely configure front row layout
+              href: rooms/manage-front-row.md
+            - name: Remotely configure layout, scale, and resolution
+              href: rooms/manage-front-room-scale-res.md
             - name: Join third-party meetings
               href: rooms/third-party-join.md
             - name: Known issues
