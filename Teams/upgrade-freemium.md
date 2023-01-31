@@ -5,7 +5,7 @@ ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: alyake
 audience: admin
 search.appverid: MET150
 description: Learn how to easily upgrade from Microsoft Teams Free (classic) to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users.
@@ -66,7 +66,9 @@ You can upgrade to the full version of Teams if you meet the following requireme
 - If you're bringing your own domain, it isn't already associated with Azure Active Directory (via trial or purchased Microsoft 365 or Office 365 subscription).
 
 > [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the upgrade process in the Teams application. If you purchased Microsoft 365 or Office 365 with Teams without going through the upgrade process, you can't transfer your data because you will already have a separate tenant.
+> Learn about your upgrade options on the page [Microsoft Teams Free (classic) is retiring](https://www.microsoft.com/microsoft-teams/free-classic-retirement).
+> 
+> We recommend you use one of Microsoft's upgrade methods. If you begin buying licenses outside of one of Microsoft's upgrade methods, your existing Teams data won't automatically transfer because you'll be setting up a new tenant.
 
 ## Limitations
 
@@ -83,7 +85,7 @@ To upgrade to the full version of Teams, select **Upgrade** in Teams.
 
 ![screenshot showing Upgrade button.](media/teams-freemium-upgrade-image1.png)
 
-Enter the email address that you use to sign in to Teams, and then purchase a Microsoft 365 Business Standard plan. If you would like to purchase Microsoft 365 Business Basic or an Enterprise edition of Office 365, [contact support](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
+Enter the email address that you use to sign in to Teams, and then purchase a Microsoft 365 Business Standard plan. If you would like to purchase Microsoft 365 Business Basic or an Enterprise edition of Office 365, [contact Microsoft 365 sales and support](https://www.microsoft.com/microsoft-365/business/sales-support?rtc=1).
 
 ## What's next?
 
