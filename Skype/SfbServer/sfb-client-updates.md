@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: qingy
 audience: ITPro
 ms.topic: reference
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

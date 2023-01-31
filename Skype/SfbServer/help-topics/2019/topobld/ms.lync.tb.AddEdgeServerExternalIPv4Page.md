@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPv4Page
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 ROBOTS: NOINDEX, NOFOLLOW

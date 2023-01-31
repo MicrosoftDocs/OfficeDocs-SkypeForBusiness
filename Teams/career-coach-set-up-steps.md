@@ -22,6 +22,9 @@ appliesto:
 
 # Set up and configure Career Coach for Microsoft Teams
 
+> [!NOTE]
+> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation.
+
 This article is for education IT admins to learn how to set up Career Coach for Microsoft Teams.
 
 The primary steps to set up, configure, and release Career Coach are:

@@ -17,6 +17,8 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
   - Licensing
+  - admindeeplinkTEAMS
+  - admindeeplinkMAC
 description: Learn how to enhance your Microsoft Teams experience with the Microsoft Teams Premium add-on license
 ---
 
@@ -65,7 +67,6 @@ The following table compares key features between Teams and Teams Premium.
 | Customize Together mode scenes for your organization |  | x |
 | Read live translated captions during meetings |  | x |
 | Translate post-meeting transcriptions (*coming soon*) |  | x |
-| Turn on real-time data storage |  | x |
 | Turn on eCDN for Live Events\* |  | x |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn).*
@@ -141,30 +142,24 @@ The following table compares key features between Teams and Teams Premium.
 
 ## Are there current Teams features that will move to Teams Premium?
 
-With the general release of Teams Premium, some Teams features will move from Teams licenses to Teams Premium licenses. To allow your users to keep using these features, you'll need to purchase and assign Teams Premium licenses.
+With the general release of Teams Premium, some Teams features will move from Teams licenses to Teams Premium licenses. Each of these features has a grace period of 30 or 60 days after general availability. When the grace period expires, users will lose access to that feature.
+
+To allow your users to keep using these features, you'll need to purchase and assign Teams Premium licenses.
 
 The features that are moving to Teams Premium are:
 
 - Live translated captions.
-  - Available to all Teams subscribers until 60 days after Teams Premium general availability.
+  - Available to all Teams subscribers for a 60-day grace period after Teams Premium general availability.
 - Timeline markers in Teams meeting recordings for when a user left or joined meetings.
-  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+  - Available to all Teams subscribers for a 60-day grace period after Teams Premium general availability.
 - Custom organization Together mode scenes.
-  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+  - Available to all Teams subscribers for a 30-day grace period after Teams Premium general availability.
 - Virtual Appointments: SMS notifications.
-  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+  - Available to all Teams subscribers for a 30-day grace period after Teams Premium general availability.
 - Virtual Appointments: Organizational analytics in the Teams admin center.
-  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
+  - Available to all Teams subscribers for a 30-day grace period after Teams Premium general availability.
 - Virtual Appointments: Scheduled queue view.
-  - Available to all Teams subscribers until 30 days after Teams Premium general availability.
-
-### Is there a grace period to switch to Team Premium before my users lose functionality?
-
-When Teams Premium becomes generally available to purchase, there will be a 60-day grace period for admins to purchase Teams Premium.
-
-After the 60-day grace period, users will lose access to features previously available in Teams without the Teams Premium add-on, unless the admin purchases and assigns Teams Premium licenses for their users.
-
-Some tenants may have Teams Premium trial licenses. Once the trial licenses expire, users will immediately lose Teams Premium features. Assets associated with Teams Premium features like custom templates and meeting backgrounds will remain in the tenant but will be grayed out and unusable.
+  - Available to all Teams subscribers for a 30-day grace period after Teams Premium general availability.
 
 ## What are the requirements to purchase Teams Premium?
 
@@ -228,21 +223,20 @@ For instructions on assigning licenses in the Microsoft 365 admin center, see [A
 
 Many Teams Premium features require an IT admin to configure the feature before users can access the feature.
 
-The following list indicates Teams Premium features that require admin configuration before users can access the feature:
+The following list indicates Teams Premium features that require admin configuration in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) before users can access the feature:
 
-- Using end-to-end encryption on meetings up to 50 participants
-- Adding watermarks to meetings
-- Adding sensitivity labels
-- Preventing copy and paste in meeting chats
-- Using organization customized backgrounds
-- Using organization customized Together-mode scenes
-- Being assigned a custom policy package
-- Using organization customized meeting templates
-- Seeing organization customized branding
-- Using eCDN for Live Events
-- Using RTMP-In
-- Sending SMS notifications for Virtual Appointments
-- Accessing the Virtual Appointments Premium app
-- Accessing Virtual Appointments data in the Teams admin center
+- Using end-to-end encryption on meetings up to 50 participants.
+- Adding watermarks to meetings.
+- Adding sensitivity labels.
+- Preventing copy and paste in meeting chats.
+- Using organization customized backgrounds.
+- Using organization customized Together mode scenes.
+  - Admin must create the custom Together mode scene.
+- Being assigned a custom policy package.
+- Using organization customized meeting templates.
+- Seeing organization customized branding.
+- Using eCDN for Live Events.
+- Using RTMP-In.
+- Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
