@@ -354,20 +354,20 @@ items:
       items: 
         - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
-        - name: External meetings and chat
+        - name: Plan for external meetings
+          href: plan-meetings-external-participants.md
+        - name: External meetings and chat with Microsoft identities
           items: 
-            - name: Plan for external meetings
-              href: plan-meetings-external-participants.md
             - name: Configure external meetings & chat
               href: trusted-organizations-external-meetings-chat.md
-            - name: Limit to specific users
+            - name: Limit to specific users (DELETE)
               href: limit-external-meetings-chat-to-specific-users.md
-            - name: Skype for Business Server
-              href: external-meetings-skype-for-business-server-hybrid.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
+            - name: Skype for Business Server
+              href: external-meetings-skype-for-business-server-hybrid.md
         - name: Guest access
           items: 
             - name: About guest access
@@ -588,18 +588,16 @@ items:
               href: meetings-policies-recording-and-transcription.md
             - name: Who can bypass the lobby
               href: who-can-bypass-meeting-lobby.md
+            - name: Participants and guest policies
+              href: meeting-policies-participants-and-guests.md
+            - name: Remove the RestrictedAnonymousAccess meeting policy from users
+              href: meeting-policies-restricted-anonymous-access.md
             - name: Content and screen sharing policies
               items:
                 - name: Content sharing
                   href: meeting-policies-content-sharing.md
                 - name: Configure desktop sharing
                   href: configure-desktop-sharing.md
-            - name: Participant, guest, and access policies
-              items:
-                - name: Participants and guest policies
-                  href: meeting-policies-participants-and-guests.md
-                - name: Remove the RestrictedAnonymousAccess meeting policy from users
-                  href: meeting-policies-restricted-anonymous-access.md
         - name: Compliant meetings
           items: 
             - name: Three tiers of protection overview
