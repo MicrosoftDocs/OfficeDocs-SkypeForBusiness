@@ -11,7 +11,8 @@ metadata:
   ms.topic: hub-page # Required
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
-  ms.date: 03/04/2022 #Required; mm/dd/yyyy format.
+  ms.reviewer: jhwang
+  ms.date: 01/27/2023 #Required; mm/dd/yyyy format.
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -69,6 +70,16 @@ productDirectory:
       imageSrc: https://learn.microsoft.com/office/media/icons/structure-teams.svg
       summary: 'Learn how to make the most of channels, chat, and connected apps to improve communication and deepen collaboration across teams of all sizes. (Level: Teams Basics; Audience: Everyone)'
       url: https://aka.ms/CollaborateInTeams
+    # Card
+    - title: Approvals in Microsoft Teams
+      imageSrc: https://learn.microsoft.com/office/media/icons/success-teams.svg
+      summary: 'Learn how to track and manage approvals with the Approvals app and Power Automate. (Audience: Everyone)'
+      url: https://aka.ms/TeamsApprovalsTraining
+    # Card
+    - title: Discover insights with Microsoft Power BI in Microsoft Teams
+      imageSrc: https://learn.microsoft.com/office/media/icons/trend-graph-teams.svg
+      summary: 'Use the Power BI App to bring data and insights into Teams, where you can have insights-based discussions and make better decisions, faster. (Audience: Everyone)'
+      url: https://aka.ms/TeamsPBITraining
     # Card
     - title: Teams for Education - Webinars
       imageSrc: https://learn.microsoft.com/office/media/icons/education-tutorial-teams.svg
