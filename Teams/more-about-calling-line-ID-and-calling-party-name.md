@@ -11,7 +11,6 @@ ms.collection:
   - M365-voice
 audience: Admin
 appliesto: 
-  - Skype for Business Online
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -36,6 +35,6 @@ CLID & CNAM transmission is the responsibility of the terminating carrier. The t
 
 Inconsistencies in CNAM can be caused when the intermediate or terminating carriers delay refreshing the CNAM information in authoritative databases--as in the case of the United States. In countries where there are no authoritative databases for CNAM, individual carrier practices can also cause problems with CNAM information arriving intact with the call. Microsoft currently does not support originating CNAM information in countries other than the United States.
 
-## Related topics
+
 
 

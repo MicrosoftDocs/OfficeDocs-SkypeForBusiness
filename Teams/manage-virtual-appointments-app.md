@@ -1,7 +1,7 @@
 ---
 title: Manage the Virtual Appointments app in Microsoft Teams
-author: daisyfell
-ms.author: daisyfeller
+author: samanro
+ms.author: samanro
 manager: samanro
 ms.topic: conceptual
 ms.service: msteams
@@ -17,6 +17,8 @@ ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help
   - M365-collaboration
+  - teams-1p-app-admin
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---
@@ -127,6 +129,10 @@ To pin the Virtual Appointments app for your users, you can edit the global (Org
 ## Terms of service
 
 See [Terms of service](/legal/microsoft-365/virtual-appointments-app-terms-of-service).
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Virtual Visits**, and then enter your feedback or details about the issue you're experiencing.
 
 ## Related articles
 

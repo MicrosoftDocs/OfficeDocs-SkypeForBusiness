@@ -1,7 +1,7 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: daisyfell
-ms.author: daisyfeller
+author: samanro
+ms.author: samanro
 manager: samanro
 audience: ITPro
 ms.topic: how-to 
@@ -20,10 +20,11 @@ ms.collection:
   - m365solution-healthcare
   - m365solution-scenario
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
   - m365initiative-meetings
-ms.reviewer: megano
+ms.reviewer: revathim, thyagarajans
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
 
@@ -99,15 +100,9 @@ To learn more, see [Set Mailbox](/powershell/module/exchange/mailboxes/set-mailb
 > [!NOTE]
 > If you're using an Exchange hybrid configuration, we recommend that you thoroughly test mail flow between on-premises Exchange and Exchange Online when changing the default domain.
 
-## Send feedback
+## Give feedback or report an issue
 
-We welcome your feedback on:
-
-* User experience or ease of use
-* Feature gaps or missing functionality
-* Bugs or issues
-  
-To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem** for **ALL** issues. Indicate at the beginning of your feedback report that you're sending feedback about "Bookings" so we can easily identify Bookings issues.
+To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Bookings" so we can easily identify Bookings issues.
 
 ## Related articles
 
