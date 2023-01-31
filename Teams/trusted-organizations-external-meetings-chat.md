@@ -25,7 +25,7 @@ description: "For IT admins: Learn how to configure chat and meetings with peopl
 
 # Manage external meetings and chat with people and organizations using Microsoft identities
 
-With the *external access* feature in Teams, you can allow people in your organization to chat and meet with people outside the organization. You can configure external access with:
+With the *external access* feature in Teams, you can allow people in your organization to chat and meet with people outside the organization who are using Microsoft as an identity provider. You can configure external access with:
 
 - Other Microsoft 365 organizations
 
@@ -42,9 +42,9 @@ Users in your organization can accept or block incoming chats from people outsid
 
 ### Organization settings and user policies for external access
 
-Each external access option has both an organization setting and user policies. The organization setting determines if the option is on or off for the whole organization. User policies determine which users can use the options that you've turned on at the organization level.
+Each external access option has both an organization setting and user policies. The organization setting determines if the option is on or off for your entire organization. User policies determine which users can use the options that you've turned on at the organization level.
 
-
+Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Note that both the organization settings and user policies are turned on by default.
 
 ## [Organization settings](#tab/organization-settings)
 
@@ -256,6 +256,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 You can see the new policy by running `Get-CsExternalAccessPolicy`.
 
 See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for additional examples of how to compile a user list.
+
 ---
 
 ## Related topics
