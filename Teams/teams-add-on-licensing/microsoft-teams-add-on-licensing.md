@@ -80,7 +80,7 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 <tbody>
 <tr>
 <td>Teams Essentials (AAD identity) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
-<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan, International Calling, or Pay-As-You-Go Calling Plan licenses <br/> </td>
+<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan, International Calling Plan, or Pay-As-You-Go Calling Plan licenses <br/> </td>
 <td>Teams Phone Standard licenses <br/> </td>
 </tr>
 <tr>
