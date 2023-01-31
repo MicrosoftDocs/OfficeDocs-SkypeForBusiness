@@ -161,6 +161,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.341` | 2022 Update #4A    |
 |Poly CCX350 | `8.0.2.2643` | 2022 Update #4A |
 |Yealink CP965  | `143.15.0.27`     | 2022 Update #4A  |
 |Yealink MP54/MP56/MP58  | `122.15.0.107`     | 2022 Update #4A  |
