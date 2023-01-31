@@ -32,7 +32,6 @@ These settings control which meeting participants wait in the lobby before they'
 - [Let anonymous people join a meeting](#let-anonymous-people-join-a-meeting)
 - [Who can present in meetings](#who-can-present-in-meetings)
 - [Automatically admit people](#automatically-admit-people)
-- [Dial-in users can bypass the lobby](#dial-in-users-can-bypass-the-lobby)
 - [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Live captions](#live-captions)
 - [Chat in meetings](#chat-in-meetings)
