@@ -352,8 +352,6 @@ items:
 
     - name: Work with people outside the organization
       items: 
-        - name: Secure file sharing and collaboration with Teams
-          href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
         - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
         - name: External meetings and chat
@@ -374,10 +372,10 @@ items:
           items: 
             - name: About guest access
               href: guest-access.md
-            - name: Guest experience
-              href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
+            - name: Guest experience
+              href: guest-experience.md
             - name: Add a guest to a team
               href: add-guests.md
     - name: Monitor and manage call quality
