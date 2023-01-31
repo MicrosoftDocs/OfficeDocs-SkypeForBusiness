@@ -67,7 +67,6 @@ The following table compares key features between Teams and Teams Premium.
 | Customize Together mode scenes for your organization |  | x |
 | Read live translated captions during meetings |  | x |
 | Translate post-meeting transcriptions (*coming soon*) |  | x |
-| Turn on real-time data storage |  | x |
 | Turn on eCDN for Live Events\* |  | x |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn).*
