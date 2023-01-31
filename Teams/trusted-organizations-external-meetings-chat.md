@@ -191,7 +191,6 @@ The following table shows the cmdlet parameters used for configuring chat with S
 
 Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
-
 ## [User policies](#tab/user-policies)
 
 If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (One or both of these must be enabled for users to chat or meet with people outside your organization.)
