@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW

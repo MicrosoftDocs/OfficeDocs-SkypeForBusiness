@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeNextHopPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 ROBOTS: NOINDEX, NOFOLLOW

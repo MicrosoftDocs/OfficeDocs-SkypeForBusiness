@@ -55,8 +55,32 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
-> [!NOTE]
-> For limits for shared channels, see [Limits for shared channels](/MicrosoftTeams/shared-channels#limits-for-shared-channels).
+### Limits for shared channels
+
+The following table describes the maximum number of channels and members.
+
+|Maximum...|Value|Notes|
+|:---------|:----|:----|
+|Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
+|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
+|Teams a channel can be shared with|50|Excluding parent team|
+|Members in a shared channel|5,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
+
+The following limitations also apply:
+
+- Only Azure AD work or school accounts are supported for external participants.
+
+- Shared channels support tabs except for Stream, Planner, and Forms.
+
+- Bots, connectors, and message extensions are not supported.
+
+- Org-wide teams are not supported to be added as members of a shared channel.
+
+- When you create a team from an existing team, any shared channels in the existing team won't be copied over.
+
+- Notifications from shared channels are not included in missed activity emails.
+
+- Shared channels are not supported in class teams.
 
 ## Messaging
 
@@ -118,16 +142,14 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). The view-only experience will soon be available for webinars as well. Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
+|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300).|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 | Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording will end and automatically restart.
+
+For more information, see [Meetings, webinars, and live events](/microsoftteams/quick-start-meetings-live-events).  
   
-<sup>1</sup> For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of Teams desktop client or Teams mobile clients.
-
-<sup>2</sup> Presenters in large meetings, webinars, and live events should use the Teams desktop client. For more tips on hosting large meetings, please see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-
 > [!NOTE]
 > Breakout rooms can only be created in meetings that have fewer than 300 attendees. In addition, creating breakout rooms in a meeting automatically limits the number of meeting attendees to 300. Advise your end-users to not initiate breakout rooms in meetings where they expect more than 300 participants. For more information on large Team meetings, share the guidance [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) with your end-users.
 
@@ -147,15 +169,19 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 > [!NOTE]
 > Microsoft Teams meetings have a time limit of 30 hours.
 
-## Teams Live Events
+## Live Events
+  
+Live events are structured meetings that enable your organization to schedule and produce events that stream to large online audiences—up to 20,000 people. With live events, the audience interaction is a managed Q&A experience.
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Audience size | 10,000 attendees |
+|Audience size | Up to 20,000 attendees <sup>1</sup> |
 |Duration of event | 4 hours |
-|Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>1</sup> | 15 |
+|Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>2</sup> | 15 |
 
-<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
+<sup>1</sup> The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).  
+  
+<sup>2</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
 For more information about live events, go to [Teams live events](teams-live-events/plan-for-teams-live-events.md#teams-live-events). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 

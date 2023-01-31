@@ -35,7 +35,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|4.15.58.0 | 12/15/2022 |
+|4.15.58.0 | 1/10/2023 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -92,7 +92,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
-### 4.15.58.0 (12/15/2022)
+### 4.15.58.0 (1/10/2023)
 
 Introduced in this update:
 
@@ -173,13 +173,13 @@ Introduced in this update:
 - Support for Windows 10 21H2 feature release for Teams rooms   
 - New Cortana entry point on home screen, Share/ present button is back 
 
-> <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview)
+> <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview).
 > 
-> <sup>2</sup> Front of Room display resolution and scaling remotely through XML can be found [here](../rooms/xml-config-file.md#set-front-of-room-scale-and-resolution)
+> <sup>2</sup> For information about setting Front of Room display resolution and scaling remotely through XML, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).
 >
-> <sup>3</sup> At this time, only admin setting is being released. User control and enablement of the noise suppression will follow post 4.12 release in May 2022. 
+> <sup>3</sup> At this time, only admin setting is being released. User control and enablement of the noise suppression will follow post 4.12 release in May 2022.
 >
-> <sup>4</sup> Device clean up instructions can be found [here](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms)
+> <sup>4</sup> Device clean up instructions can be found [here](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms).
 > 
 > 
 > [!NOTE]

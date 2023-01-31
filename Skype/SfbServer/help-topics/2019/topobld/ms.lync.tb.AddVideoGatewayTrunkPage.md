@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddVideoGatewayTrunkPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 ROBOTS: NOINDEX, NOFOLLOW
