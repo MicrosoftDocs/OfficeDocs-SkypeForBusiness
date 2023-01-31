@@ -39,7 +39,7 @@ As an admin, you can enable or disable **Chat with groups** setting in the Micro
 3. In the left navigation pane, select **Messaging policies** and select **Global (Org-wide default)**.
 4. Turn on the **Chat with groups** setting and then select **Save**. 
 
-    :::image type="content" source="media/chat-with-groups-setting.png" alt-text="Screen shot that shows enabling the Chat with groups setting.":::
+    :::image type="content" source="media/chat-with-groups-setting.png" alt-text="Screenshot that shows enabling the Chat with groups setting.":::
 
 ### Related topics
 
