@@ -360,8 +360,6 @@ items:
           items: 
             - name: Plan for external meetings
               href: plan-meetings-external-participants.md
-            - name: Manage external meetings and chat
-              href: manage-external-access.md
             - name: Configure external meetings & chat
               href: trusted-organizations-external-meetings-chat.md
             - name: Limit to specific users
