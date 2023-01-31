@@ -55,8 +55,32 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
-> [!NOTE]
-> For limits for shared channels, see [Limits for shared channels](/MicrosoftTeams/shared-channels#limits-for-shared-channels).
+### Limits for shared channels
+
+The following table describes the maximum number of channels and members.
+
+|Maximum...|Value|Notes|
+|:---------|:----|:----|
+|Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
+|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
+|Teams a channel can be shared with|50|Excluding parent team|
+|Members in a shared channel|5,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
+
+The following limitations also apply:
+
+- Only Azure AD work or school accounts are supported for external participants.
+
+- Shared channels support tabs except for Stream, Planner, and Forms.
+
+- Bots, connectors, and message extensions are not supported.
+
+- Org-wide teams are not supported to be added as members of a shared channel.
+
+- When you create a team from an existing team, any shared channels in the existing team won't be copied over.
+
+- Notifications from shared channels are not included in missed activity emails.
+
+- Shared channels are not supported in class teams.
 
 ## Messaging
 
