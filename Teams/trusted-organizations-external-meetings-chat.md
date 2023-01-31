@@ -40,17 +40,22 @@ Users in your organization can accept or block incoming chats from people outsid
 > [!NOTE]
 > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
-### How settings and policies work together for external access
+### Organization settings and user policies for external access
 
-The
+Each external access option has both an organization setting and user policies. The organization setting determines if the option is on or off for the whole organization. User policies determine which users can use the options that you've turned on at the organization level.
 
-Once you have configured external access, you can specify which users in your organization can use each type of external access. For details, see [Limit external meetings and chat to specific users](limit-external-meetings-chat-to-specific-users.md). Only these users can use the external access options that you configure here.
 
 
 ## [Organization settings](#tab/organization-settings)
 
+In this section, you can configure:
+- [Trusted Microsoft 365 organizations](#specify-trusted-microsoft-365-organizations)
+- [Chat with external Teams users not managed by an organization](#manage-chat-with-external-teams-users-not-managed-by-an-organization)
+- [Chat and calls with Skype users](#manage-chat-and-calls-with-skype-users)
 
-## Specify trusted Microsoft 365 organizations
+You can also [configure these settings by using PowerShell](#configure-settings-by-using-powershell)
+
+### Specify trusted Microsoft 365 organizations
 
 For meetings and chat with other Microsoft 365 organizations, you can specify which domains you want to trust. By default, all external domains are allowed. You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat.
 
@@ -101,7 +106,7 @@ To block specific domains
 
 6. Click **Save**.
 
-### Diagnostic Tool
+#### Diagnostic Tool
 
 If you're an administrator, you can use the following diagnostic tool to validate if a Teams user can communicate with a Teams user in a trusted organization:
 
@@ -114,11 +119,11 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any setting or policy configurations that are preventing communication with the external user.
 
-### Skype for Business Online
+#### Skype for Business Online
 
 If you want chats and calls to arrive in the user's Skype for Business client, configure your users to be in any mode other than TeamsOnly. For more information, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-## Manage chat with external Teams users not managed by an organization
+### Manage chat with external Teams users not managed by an organization
 
 > [!NOTE]
 > The capabilities discussed in this section aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
@@ -145,7 +150,7 @@ To prevent chat with unmanaged Teams accounts
 
 1. Select **Save**.
 
-## Manage chat and calls with Skype users
+### Manage chat and calls with Skype users
 
 > [!NOTE]
 > The capabilities discussed in this section aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
@@ -190,8 +195,67 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
 
 ## [User policies](#tab/user-policies)
 
-User policies tab
+If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (One or both of these must be enabled for users to chat or meet with people outside your organization.)
 
+External access policies are configured by using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet.
+
+The following table shows the cmdlet parameters used for configuring who can chat and meet with people outside your organization.
+
+|Configuration|Parameter|
+|:-------|:--------|
+|Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-EnableFederationAccess`|
+|Allow or prevent chat with Teams users that are not managed by an organization|`-EnableTeamsConsumerAccess`|
+|Allow or prevent Teams users not managed by an organization starting conversations|`-EnableTeamsConsumerInbound`|
+|Allow or prevent chat with Skype users|`-EnablePublicCloudAccess`|
+
+To limit external meetings and chat to specific users, you must:
+- Turn off the control for the default global policy.
+- Create a new policy with the control turned on, and assign the appropriate users to it.
+
+> [!NOTE]
+> People for whom external meetings have been turned off can still meet with people outside of their organization if guest sharing or anonymous join are enabled. In this case, users would join as anonymous or guest.
+
+You can use the following example script, substituting *parameter* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
+
+Be sure you have installed the [Microsoft Teams PowerShell Module](/microsoftteams/teams-powershell-install) before running the script.
+
+```PowerShell
+Connect-MicrosoftTeams
+
+# Disable external access globally
+Set-CsExternalAccessPolicy -<parameter> $false
+
+# Create a new external access policy
+New-CsExternalAccessPolicy -Identity <PolicyName> -<parameter> $true
+
+# Assign users to the policy
+$users_ids = @("<UserName1>", "<UserName2>")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
+
+```
+
+The parameters for configuring external access are:
+- EnableFederationAccess - controls chat and meetings with other Microsoft 365 organizations
+- EnableTeamsConsumerAccess - controls chat with Teams users not managed by an organization
+- 
+
+For example, to enable communications with external Teams users not managed by an organization:
+
+```PowerShell
+Connect-MicrosoftTeams
+
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+New-CsExternalAccessPolicy -Identity ContosoExternalAccess -EnableTeamsConsumerAccess $true
+
+$users_ids = @("MeganB@contoso.com", "AlexW@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "ContosoExternalAccess" -Identity $users_ids
+
+```
+
+You can see the new policy by running `Get-CsExternalAccessPolicy`.
+
+See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for additional examples of how to compile a user list.
 ---
 
 ## Related topics
