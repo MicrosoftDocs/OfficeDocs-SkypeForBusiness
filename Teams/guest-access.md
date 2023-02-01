@@ -44,19 +44,12 @@ With Azure AD B2B collaboration, organizations can enforce conditional access an
 
 Guests you have already added via Azure AD B2B, Microsoft 365 Groups, or SharePoint are ready to go. The Microsoft 365 admin or a team owner can add those guests to their respective teams. If you add a guest directly to the Microsoft 365 group associated with a team, the guest will get access to the team but the Microsoft 365 group doesn't generate an invitation email to the guest, so someone on the team should notify the guest.
 
-
-
-
-
-
-
-To compare external access with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
-
-Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
-
 > [!NOTE]
 > Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
 
+### Shared channels
+
+Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
 ## Set up guest access
 
@@ -110,6 +103,6 @@ You can perform a guest access review yourself, ask guests to review their own a
 
 [Create a secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-[Contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products)
-
 [Configure Teams with three tiers of protection](/microsoft-365/solutions/configure-teams-three-tiers-protection)
+
+[Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
