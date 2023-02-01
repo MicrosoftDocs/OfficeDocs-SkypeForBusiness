@@ -28,6 +28,8 @@ This article describes two of the options for collaborating with people outside 
 - **External access** - A feature that allows users to find, call, and chat with people who have Microsoft identities, including those other organizations.
 - **Guest access** - A feature that allows you to invite people from outside your organization to join a team. Guests can also call, chat, and meet with people in your organization and you can share files and folders with them. Invited people get an [Azure AD B2B collaboration guest account](/azure/active-directory/external-identities/what-is-b2b) in your directory.
 
+![Venn diagram of features in guest access and external access.](media/guest-external-access-venn.png)
+
 For a complete overview of the external collaboration options in Microsoft 365, see [Overview of external collaboration options in Microsoft 365](/microsoft-365/enterprise/external-guest-access).
 
 ## External access
