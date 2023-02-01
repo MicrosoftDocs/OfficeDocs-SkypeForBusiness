@@ -51,13 +51,14 @@ External access is available to the following tenants:
 
 To configure external access, see [Manage external access](manage-external-access.md). 
 
-|    |Commercial|GCC|GCC High|DoD|Skype|
-|:---|:---------|:--|:-------|:--|:----|
-|Commercial|Native|Text only|Text only|Text only|Text only|
-|GCC|Text only|Native|Text only|Text only|Text only|
-|GCC High|Text only|Text only|Native|Text only|Text only|
-|DoD|Text only|Text only|Text only|Native|Text only|
-|Skype|Text only|Text only|Text only|Text only|N/A|
+|Chat experience|Commercial|GCC|GCC High|DoD|
+|:---|:---------|:--|:-------|:--|
+|**Commercial**|Native|Text only|Text only|Text only|
+|**GCC**|Text only|Native|Text only|Text only|
+|**GCC High**|Text only|Text only|Native|Text only|
+|**DoD**|Text only|Text only|Text only|Native|
+|**Skype**|Text only|Not available|Not available|Not available|
+|**Unmanaged Teams**|Text only|Not available|Not available|Not available|
 
 ## Guest access
 
