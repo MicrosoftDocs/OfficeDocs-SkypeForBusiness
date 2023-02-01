@@ -149,6 +149,9 @@ For macOS managed devices, use .plist to deploy sign-in restrictions. The config
 
 ### Global sign in and Microsoft Teams
 
+> [!NOTE]
+> This feature is in public preview. This preview is provided without a service-level agreement and isn't recommended for production workloads. Some features might be unsupported or have constrained capabilities. 
+
 Our improved sign-in experience on shared device provides a hassle free sign-in for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](/microsoftteams/sign-out-of-teams) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be set in shared mode. Make sure to end any active meeting or call on the device before signing out.
 
 **Android**: To learn how to set up android devices in shared mode, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
