@@ -33,7 +33,7 @@ This article describes how to configure guest access settings - including calls,
 - To collaborate with a partner organization that uses Azure Active Directory and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
 
 > [!NOTE]
-> If you just want to find, call, chat, and set up meetings with people in other organizations, use [external access](manage-external-access.md).
+> If you just want to find, call, chat, and set up meetings with people in other organizations, use [external access](trusted-organizations-external-meetings-chat.md).
 
 ## Configure guest access in the Teams admin center
 
