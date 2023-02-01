@@ -523,6 +523,8 @@ items:
       href: teams-outlook-share-teams.md
     - name: Manage messaging policies
       href: messaging-policies-in-teams.md
+    - name: Chat with distribution lists 
+      href: chat-with-distribution-lists.md
     - name: User presence in Teams
       href: presence-admins.md
     - name: Manage tags in Teams
@@ -876,10 +878,8 @@ items:
           items: 
             - name: How can caller ID be used in your organization
               href: how-can-caller-id-be-used-in-your-organization.md
-            - name: Manage Caller ID policies
+            - name: Manage caller ID for users
               href: caller-id-policies.md
-            - name: Set the Caller ID for a user
-              href: set-the-caller-id-for-a-user.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: Auto attendants and call queues
