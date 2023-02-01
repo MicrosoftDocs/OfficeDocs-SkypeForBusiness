@@ -32,7 +32,7 @@ description: Learn how to manage the Bookings app in Teams for users in your org
 
 ## Overview of Bookings
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For example, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments).
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For example, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
 
 Schedulers can manage multiple department and staff calendars and communications with internal and external attendees, from a single experience. Virtual appointments are held via Teams meetings that offer robust videoconferencing capabilities.
 
@@ -62,14 +62,14 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ## SMS text notifications
 
-![Information icon](media/info.png) **This feature is moving to [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
+![Information icon](media/info.png) **This feature is now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 > [!NOTE]
 > We'll be providing unlimited SMS notifications through March 1, 2023 (previously January 31, 2023) for customers with Bookings licenses. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
-By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in [scheduled appointment types](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) and scheduled individual appointments.
+By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in scheduled appointment types and scheduled individual appointments.
 
 To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the **Allow Microsoft to send SMS text message notifications** check box.
 
