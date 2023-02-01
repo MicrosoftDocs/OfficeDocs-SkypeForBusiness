@@ -2969,6 +2969,11 @@
     "source_path": "Teams/rooms/microsoft-teams-rooms-premium-rbac.md",
     "redirect_url": "/microsoftteams/rooms/rooms-pro-rbac",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/set-the-caller-id-for-a-user.md",
+    "redirect_url": "/microsoftteams/caller-id-policies",
+    "redirect_document_id": true
   }
   ] 
 }
