@@ -20,8 +20,6 @@ description: Learn about custom meeting templates in Microsoft Teams Premium.
 
 # Overview of custom meeting templates in Microsoft Teams
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
-
 Microsoft Teams Premium includes the ability to create custom meeting templates. Meeting templates can be used to control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
 
 Meeting templates can be used to enforce settings or to set defaults. Each template setting can be locked so the meeting organizer can't change it, or can be left unlocked for the meeting organizer to change if needed.
