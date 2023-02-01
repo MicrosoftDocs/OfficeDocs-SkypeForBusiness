@@ -32,18 +32,18 @@ For a complete overview of the external collaboration in Microsoft 365, see [Ove
 
 ## External access (external chat and meetings)
 
-Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business (online or on premises) or Skype. 
+Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business Server, or Skype.
 
 By default, external access is enabled for all domains. You can restrict external access by allowing or blocking specific domains or by turning it off.
 
 External access is available to the following tenants:
-- Managed enterprise accounts
+- Teams in Microsoft 365
      - Between Commercial only
      - Between GCC only
      - Between GCC High only
      - Between DOD only
-- Unmanaged (Personal) accounts
-     - Between Commercial and Personal accounts only
+- Teams accounts not managed by an organization
+     - Between Commercial only and Teams accounts not managed by an organization
 - Skype for Business interop
      - Between and across Commercial, GCC, GCC High, and DoD
 - Skype interop
@@ -51,14 +51,19 @@ External access is available to the following tenants:
 
 To configure external access, see [Manage external access](manage-external-access.md). 
 
->[!NOTE]
-> [Microsoft Teams Free (classic)](https://support.microsoft.com/office/welcome-to-microsoft-teams-free-classic-6d79a648-6913-4696-9237-ed13de64ae3c) licenses do not support external access.
+|    |Commercial|GCC|GCC High|DoD|Skype|
+|:---|:---------|:--|:-------|:--|:----|
+|Commercial|Native|Text only|Text only|Text only|Text only|
+|GCC|Text only|Native|Text only|Text only|Text only|
+|GCC High|Text only|Text only|Native|Text only|Text only|
+|DoD|Text only|Text only|Text only|Native|Text only|
+|Skype|Text only|Text only|Text only|Text only|N/A|
 
 ## Guest access
 
 Use guest access to add a person from outside your organization to a team, where they can chat, call, meet, and collaborate on files. A guest can be given nearly all the same Teams capabilities as a native team member. For more information, see [Guest experience in Teams](guest-experience.md).
 
-Guests are added to your organization's Azure Active Directory as B2B collaboration users and must sign in to Teams using their guest account. This means that they may have to sign out of their own organization to sign in to your organization.
+Guests are added to your organization's Azure Active Directory as B2B collaboration users and must sign in to Teams using their guest account. If their account is in another Microsoft 365 organization, they may have to sign out of their own organization to sign in to your organization.
 
 Guest access is available to the following tenants:
 
