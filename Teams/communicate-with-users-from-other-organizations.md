@@ -51,6 +51,8 @@ External access is available to the following tenants:
 
 To configure external access, see [Manage external access](manage-external-access.md). 
 
+The following table shows the chat experience users get when communicating between organizations, across clouds, and with people with personal accounts.
+
 |Chat experience|Commercial|GCC|GCC High|DoD|
 |:---|:---------|:--|:-------|:--|
 |**Commercial**|Native|Text only|Text only|Text only|
@@ -82,18 +84,34 @@ The following tables show the differences between using external access and gues
 
 | Users can | External access users | Guests |
 |---------|-----------------------|--------------------|
+| Chat with someone in another organization | Yes | Yes |
+| Call someone in another organization | Yes | Yes |
+| See if someone from another organization is available for call or chat | Yes | Yes<sup>1</sup> |
 | Search for people in other organizations | Yes<sup>2</sup> | No |
 | Share files | No | Yes |
 | See the out-of-office message of someone in another organization | No | Yes |
 | Block someone in another organization  | No | Yes |
+| Use @mentions | Yes<sup>3</sup> | Yes |
 
 ### Things people outside your organization can do
 
 | People outside your organization can | External access users | Guests |
 |---------|-----------------------|--------------------|
 | Access Teams resources | No | Yes |
+| Be added to a group chat | Yes | Yes |
+| Be invited to a meeting | Yes | Yes |
+| Make private calls | Yes | Yes<sup>5</sup> |
 | View the phone number for dial-in meeting participants | No<sup>4</sup> | Yes |
+| Use IP video | Yes | Yes<sup>5</sup> |
+| Use screen sharing | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Use meet now | No | Yes<sup>5</sup> |
+| Edit sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Delete sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use Giphy in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use memes in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use stickers in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Presence is displayed | Yes | Yes |
+| Use @mentions | Yes<sup>3</sup> | Yes |
 
 <br>
 
@@ -102,6 +120,7 @@ The following tables show the differences between using external access and gues
 <sup>3</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
 <sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Allowed by default, but can be turned off by the Teams admin
+
 
 ## Related topics
 
