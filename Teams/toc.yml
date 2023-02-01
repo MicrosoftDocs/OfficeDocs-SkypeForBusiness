@@ -376,8 +376,6 @@ items:
               href: set-up-guests.md
             - name: Guest experience
               href: guest-experience.md
-            - name: Add a guest to a team
-              href: add-guests.md
         - name: Anonymous meeting participants
           href: anonymous-users-in-meetings.md
     - name: Monitor and manage call quality
