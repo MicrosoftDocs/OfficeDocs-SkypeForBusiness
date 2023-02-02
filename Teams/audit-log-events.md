@@ -106,7 +106,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Deleted team|TeamDeleted|A team owner deletes a team.|
 |Edited a message with a URL link in Teams|MessageEditedHasLink|A user edits a message and adds a URL link to it in Teams.|
 |Exported messages <sup>1, </sup> <sup>2</sup>|MessagesExported|Chat or channel messages were exported.|
-|Failed to validate invitation to shared channel<sup>3</sup>|FailedValidation|A user responds to an invitation to a shared channel but the invitation failed validation.|
+|Failed to validate invitation to shared channel <sup>3</sup>|FailedValidation|A user responds to an invitation to a shared channel but the invitation failed validation.|
 |Fetched chat <sup>1, </sup> <sup>2</sup>|ChatRetrieved|A Microsoft Teams chat was retrieved.|
 |Fetched all hosted content of a message<sup>1, </sup> <sup>2</sup>|MessageHostedContentsListed|All hosted content in  a message, such as images or code snippets, was retrieved.|
 |Installed app|AppInstalled|An app was installed.|
@@ -119,17 +119,17 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Removed connector|ConnectorRemoved|A user removes a connector from a channel.|
 |Removed members|MemberRemoved|A team owner removes members from a team, channel, or group chat.|
 | Removed sensitivity label | SensitivityLabelRemoved | A user removed a sensitivity label from a Teams meeting. |
-|Removed sharing of team channel<sup>3</sup>|TerminatedSharing|A team or channel owner disabled sharing for a shared channel.|
-|Restored sharing of team channel<sup>3</sup>|SharingRestored|A team or channel owner re-enabled sharing for a shared channel.|
+|Removed sharing of team channel <sup>3</sup>|TerminatedSharing|A team or channel owner disabled sharing for a shared channel.|
+|Restored sharing of team channel <sup>3</sup>|SharingRestored|A team or channel owner re-enabled sharing for a shared channel.|
 |Removed tab|TabRemoved|A user removes a tab from a channel.|
-|Responded to invitation for shared channel<sup>3</sup>|InviteeResponded|A user responded to a shared channel invitation.|
-|Responded to invitee response to shared channel<sup>3</sup>|ChannelOwnerResponded|A channel owner responded to a response from a user who responded to a shared channel invitation.|
+|Responded to invitation for shared channel <sup>3</sup>|InviteeResponded|A user responded to a shared channel invitation.|
+|Responded to invitee response to shared channel <sup>3</sup>|ChannelOwnerResponded|A channel owner responded to a response from a user who responded to a shared channel invitation.|
 |Retrieved messages <sup>1, </sup> <sup>2</sup>|MessagesListed|Messages from a chat or channel were retrieved.|
 |Sent a message with a URL link in Teams|MessageCreatedHasLink|A user sends a message containing a URL link in Teams.|
 |Sent change notification for message creation <sup>1, </sup> <sup>2</sup>|MessageCreatedNotification|A change notification was sent to notify a subscribed listener application of a new message.|
 |Sent change notification for message deletion <sup>1, </sup> <sup>2</sup>|MessageDeletedNotification|A change notification was sent to notify a subscribed listener application of a deleted message.|
 |Sent change notification for message update <sup>1, </sup> <sup>2</sup>|MessageUpdatedNotification|A change notification was sent to notify a subscribed listener application of an updated message.|
-|Sent invitation for shared channel<sup>3</sup>|InviteSent|A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users.|
+|Sent invitation for shared channel <sup>3</sup>|InviteSent|A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users.|
 |Subscribed to message change notifications <sup>1, </sup> <sup>2</sup>|SubscribedToMessages|A subscription was created by a listener application to receive change notifications for messages.|
 |Uninstalled app|AppUninstalled|An app was uninstalled.|
 |Updated app|AppUpdatedInCatalog|An app was updated in the catalog.|
