@@ -372,6 +372,8 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
+            - name: Add a guest to a team
+              href: add-guests.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -515,6 +517,8 @@ items:
       href: teams-outlook-share-teams.md
     - name: Manage messaging policies
       href: messaging-policies-in-teams.md
+    - name: Chat with distribution lists 
+      href: chat-with-distribution-lists.md
     - name: User presence in Teams
       href: presence-admins.md
     - name: Manage tags in Teams
@@ -551,38 +555,6 @@ items:
           href: team-templates-nonprofit.md
         - name: Manage team template policies
           href: templates-policies.md
-    - name: Work with people outside the organization
-      items: 
-        - name: Communicate with users from other organizations
-          href: communicate-with-users-from-other-organizations.md
-        - name: External meetings and chat
-          items: 
-            - name: Manage external meetings and chat
-              href: manage-external-access.md
-            - name: Native Teams chats
-              href: native-chat-for-external-users.md
-            - name: Teams and Skype interoperability
-              href: teams-skype-interop.md
-        - name: Guest access
-          items: 
-            - name: About guest access
-              href: guest-access.md
-            - name: Guest access checklist
-              href: /microsoft-365/solutions/collaborate-as-team
-            - name: Guest experience
-              href: guest-experience.md
-            - name: Authorize guest access
-              href: teams-dependencies.md
-            - name: Turn on guest access or turn off
-              href: set-up-guests.md
-            - name: Add a guest to a team
-              href: add-guests.md
-            - name: View guests in a team
-              href: view-guests.md
-            - name: Edit guest information
-              href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
     - name: Cortana in Teams
       href: cortana-in-teams.md
     - name: Set up your team targeting hierarchy
@@ -904,10 +876,8 @@ items:
           items: 
             - name: How can caller ID be used in your organization
               href: how-can-caller-id-be-used-in-your-organization.md
-            - name: Manage Caller ID policies
+            - name: Manage caller ID for users
               href: caller-id-policies.md
-            - name: Set the Caller ID for a user
-              href: set-the-caller-id-for-a-user.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: Auto attendants and call queues
