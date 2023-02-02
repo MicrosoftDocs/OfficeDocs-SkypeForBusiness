@@ -27,8 +27,6 @@ appliesto:
 
 # Meetings, webinars, and live events
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
-
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
 This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
