@@ -21,8 +21,6 @@ description: Learn how to configure Teams meetings for protection for highly sen
 
 # Configure Teams meetings with protection for highly sensitive data
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
-
 For the *highly sensitive* level of protection, we'll look at two different scenarios:
 - Highly sensitive meetings where attendees participate and interact with the presenters
 - Highly sensitive presentations where attendees don't interact and are just viewing the presentation
