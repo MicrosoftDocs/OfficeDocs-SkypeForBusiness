@@ -24,19 +24,18 @@ description: Learn about Microsoft Teams Premium for administrators and IT Profe
 
 # Microsoft Teams Premium - Overview for administrators
 
-![Information icon](media/info.png) **Most of the features described in this article require Teams Premium, which is a preview release.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
+![Information icon](media/info.png) **Most of the features described in this article require Teams Premium.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
 
 Teams Premium is an add-on license that provides the following enhancements to Teams:  
 
 -	Enhanced meeting experiences for your end users
--	Enhanced security and protection for meetings 
+-	Enhanced security and protection for meetings
 -	Enhanced administrative and telemetry support
 
-
 > [!IMPORTANT]
-> Because Teams Premium is a public preview release, at general availability, some features currently available with Teams will only be available with a Teams Premium license. 
+> Now that Teams Premium has reached general availability, some features formerly available with Teams will only be available with a Teams Premium license.
 
 The following sections describe the Teams Premium enhancements for:
 
@@ -136,6 +135,3 @@ You can find additional resources here:
 
 - [Microsoft Teams Premium product site](https://www.microsoft.com/microsoft-teams/premium)
 - [Microsoft Teams Premium blog](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
-
-
-
