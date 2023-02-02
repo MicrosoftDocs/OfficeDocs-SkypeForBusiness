@@ -24,9 +24,6 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 
 # Microsoft Teams Premium licensing
 
-> [!NOTE]
-> Teams Premium is currently available as a preview release, allowing organizations to experience and plan for the generally available release of Teams Premium. Not all Teams Premium features are available in this preview release, but more features will be released throughout the preview period. To experience Teams Premium preview features, see [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
-
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
 - More personalized and intelligent meetings and webinars.
