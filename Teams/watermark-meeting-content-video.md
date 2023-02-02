@@ -39,6 +39,8 @@ The following participants have an audio-only experience when a watermark is in 
 - [Direct Guest Join on Microsoft Teams Rooms devices](/microsoftteams/rooms/third-party-join)
 - [Cloud Video Interop (CVI)](cloud-video-interop.md). Check with your CVI partner for watermark support information.
 
+Participants joining from unsupported platform will not be able to see other attendee's video or share any content during the meeting.
+
 > [!Note]
 > Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
 
