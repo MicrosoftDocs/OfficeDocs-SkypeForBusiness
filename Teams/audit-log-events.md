@@ -139,9 +139,10 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Updated tab|TabUpdated|A user modified a tab in a channel.|
 |Upgraded app|AppUpgraded|An app was upgraded to its latest version in the catalog.|
 |User signed in to Teams|TeamsSessionStarted|A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.|
+|Posted New Message <sup>3, </sup> <sup>4</sup>|MessageSent|A new message was posted to a chat or a channel. This event is a premium feature with licensing details to be defined.|
 
 > [!NOTE]
-> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><sup>2</sup> This event is only available in Audit (Premium). That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Audit (Premium), see [Audit (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Audit (Premium) licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> This event is in public preview.
+> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><sup>2</sup> This event is only available in Audit (Premium). That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Audit (Premium), see [Audit (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Audit (Premium) licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> This event is in public preview. <br/> <sup>4</sup>This event is generated for chat only if there are guests, federated and/or anonymous users.
 
 ## Shifts in Teams activities
 
