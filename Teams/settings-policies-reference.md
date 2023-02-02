@@ -24,11 +24,15 @@ description: This reference describes each of the policies available in Microsof
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
+This reference describes each of the policies available in Microsoft Teams. Each section is broken down by the corresponding policy area in the Teams admin center, along with any PowerShell-only policies that may also exist.
+
 ## Teams
 
 ### Teams policies
 
 **Navigation:** Teams admin center > Teams > Teams policies
+
+Teams policies are used to control what settings or features are available to users when they are using teams and channels.
 
 :::image type="content" source="media/teams-policies-teams.png" alt-text="Screenshot of Teams team policies.":::
 
@@ -48,8 +52,8 @@ description: This reference describes each of the policies available in Microsof
 
 #### Related topics to Teams policies
 
-- [Set-CsTeamsChannelsPolicy](/powershell/module/skype/set-csteamschannelspolicy)
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
+- [Set-CsTeamsChannelsPolicy](/powershell/module/skype/set-csteamschannelspolicy)
 
 ### Template policies
 
@@ -81,6 +85,8 @@ Template policies control what team templates users see when they create a new t
 ## Meetings
 
 ### Meeting policies
+
+Meeting policies are used to control what features are available to users when they join Microsoft Teams meetings.
 
 #### Meeting scheduling
 
@@ -148,6 +154,8 @@ Template policies control what team templates users see when they create a new t
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
+Content sharing settings let you control the different types of content that can be used during Teams meetings that are held in your organization.
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Who can present|Everyone, but user can override|Controls what the default value is for **Who can  present?** in **Meeting options** for the Teams client.|
@@ -176,9 +184,9 @@ Template policies control what team templates users see when they create a new t
 
 ##### Related topics to watermark policies
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Recording & transcription
 
@@ -207,9 +215,9 @@ Template policies control what team templates users see when they create a new t
 
 ##### Related topics to recording & transcription policies
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Teams meeting recording](cloud-recording.md)
 - [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Audio & video
 
@@ -238,12 +246,14 @@ Template policies control what team templates users see when they create a new t
 
 ##### Related topics to audio & video meeting policies
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 ### Live events policies
 
 **Navigation:** Teams admin center > Meetings > Live events policies
+
+Teams live events policies are used to turn on or off features, such as who can join a live event, if transcription is provided for attendees, or if recording live events is available for people who schedule and hold live events.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -257,15 +267,17 @@ Template policies control what team templates users see when they create a new t
 
 #### Related topics to live events meeting policies
 
-- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for live events in Microsoft Teams](teams-live-events/plan-for-teams-live-events.md)
 - [Live streaming events in Microsoft Teams](teams-stream-overview.md)
 - [Configuring encoders for live event streaming in Microsoft Teams](teams-encoder-configuration.md)
+- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
 
 ## Messaging policies
 
 **Navigation:** Teams admin center > Messaging policies
+
+Messaging policies are used to control what chat and channel messaging features are available to users in Teams.
 
 :::image type="content" source="media/teams-policies-messaging.png" alt-text="Screenshot of Teams messaging policies.":::
 
@@ -293,17 +305,19 @@ Template policies control what team templates users see when they create a new t
 
 ### Related topics to messaging policies
 
-- [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
 - [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md)
 - [Manage external meetings and chat in Microsoft Teams](manage-external-access.md)
 - [Native chat experience for external (federated) users in Microsoft Teams](native-chat-for-external-users.md)
+- [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)
 
 ## Voice
 
 ### Calling policies
 
 **Navigation:** Teams admin center > Voice > Calling policies
+
+Calling policies are used to control what calling features are available to people in Teams.
 
 :::image type="content" source="media/teams-policies-calling.png" alt-text="Screenshot of Teams calling policies.":::
 
@@ -336,9 +350,9 @@ Template policies control what team templates users see when they create a new t
 
 #### Related topics to calling policies
 
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 - [Plan your Teams voice solution](cloud-voice-landing-page.md)
 - [Calling and call-forwarding features in Teams](teams-calling-policy.md)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 ### Call hold policies
 
@@ -348,12 +362,14 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 #### Related topics to call hold policies
 
-- [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy)
 - [How to setup Music on hold](music-on-hold.md).
+- [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy)
 
 ### Call park policies
 
 **Navigation:** Teams admin center > Voice > Call park policies
+
+Call park lets people put a call on hold and transfer it to other people within your organization. Call park policies let you control which users are call park enabled and make other call park setting changes for them.
 
 :::image type="content" source="media/teams-policies-call-park.png" alt-text="Screenshot of Teams call park policies.":::
 
@@ -366,12 +382,14 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 #### Related topics to call park policies
 
-- [Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
 - [Configure Call park and retrieve](call-park-and-retrieve.md)
+- [Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
 
 ### Caller ID policies
 
 **Navigation:** Teams admin center > Voice > Caller ID policies
+
+Caller ID policies are used to change or block the Caller ID (also called a Calling Line ID) for users. By default, the user's phone number is displayed when a call is made to a PSTN phone number such as a landline or mobile phone. You can use the Global (Org-wide default) policy and customize it or create a custom policy that provides an alternate number to display, or to block any number from being displayed.
 
 :::image type="content" source="media/teams-policies-caller-id.png" alt-text="Screenshot of Teams caller ID policies.":::
 
@@ -385,14 +403,16 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 #### Related topics to Caller ID policies
 
-- [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity)
 - [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
 - [Manage caller ID policies in Microsoft Teams](caller-id-policies.md)
 - [Set the Caller ID for a user](set-the-caller-id-for-a-user.md)
+- [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity)
 
 ### Emergency policies
 
 **Navigation:** Teams admin center > Voice > Emergency policies
+
+Emergency calling policies are used to control how users in your organization can use dynamic emergency calling features.
 
 :::image type="content" source="media/teams-policies-emergency-calling.png" alt-text="Screenshot of Teams emergency calling policies.":::
 
@@ -407,21 +427,21 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 #### Related topics to emergency policies
 
-- [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)
-- [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
 - [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
 - [Assign or change the place for an emergency location for a user](assign-change-emergency-place-user.md)
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+- [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)
+- [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
 
 ### Voice routing policies
 
 **Navigation:** Teams admin center > Voice > Voice routing policies
 
-:::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
+A voice routing policy for Direct Routing will be linked to a voice route using PSTN usage records. You can add existing PSTN usage records, change the order in which the usages will be processed, and assign the voice routing policy to users or resource accounts.
 
-If you've deployed Direct Routing in your organization, you use voice routing policies (also known as call routing policies) to allow Teams users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure. A voice routing policy is a container for PSTN usage records.
+:::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
 
 <!---
 
@@ -434,15 +454,17 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 
 #### Related topics to voice routing policies
 
+- [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md)
+- [Configure call routing for Direct Routing](direct-routing-voice-routing.md)
 - [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy)
 - [Set-CsOnlineVoiceRoute](/powershell/module/skype/set-csonlinevoiceroute)
 - [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage)
-- [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md)
-- [Configure call routing for Direct Routing](direct-routing-voice-routing.md)
 
 ### Voicemail policies
 
 **Navigation:** Teams admin center > Voice > Voicemail policies
+
+Voicemail policies control the available features for the voicemail service in Teams.
 
 :::image type="content" source="media/meetings-policies-voicemail.png" alt-text="Screenshot of Teams voicemail policies.":::
 
@@ -462,16 +484,18 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 
 #### Related topics to voicemail policies
 
-- [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
-- [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
 - [Manage voicemail policies for your users](manage-voicemail-policies.md)
 - [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
+- [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+- [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
 
 ## Enhanced encryption policies
 
 ### End-to-end encryption
 
 **Navigation:** Teams admin center > Enhanced encryption policies
+
+Enhanced encryption policies are used to control if users in your organization can use enhanced encryption settings in Teams.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -480,5 +504,5 @@ If you've deployed Direct Routing in your organization, you use voice routing po
 
 #### Related topics to end-to-end encryption policies
 
-- [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)
 - [Security and Microsoft Teams](teams-security-guide.md)
+- [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)
