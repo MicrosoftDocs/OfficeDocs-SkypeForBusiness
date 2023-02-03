@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-description: Learn how to manage the Music on Hold feature in Phone System.
+description: Learn how to manage the Music on Hold feature in Microsoft Teams Phone System.
 ---
 
 # Music on Hold
