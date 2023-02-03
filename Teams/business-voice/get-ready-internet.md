@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier2
 ---
 
 # Check your internet connection for Teams Phone System

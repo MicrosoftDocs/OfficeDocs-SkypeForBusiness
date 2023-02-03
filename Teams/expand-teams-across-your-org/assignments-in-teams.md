@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - tier2
 search.appverid: MET150
 ms.reviewer: jastark
 f1.keywords: 
