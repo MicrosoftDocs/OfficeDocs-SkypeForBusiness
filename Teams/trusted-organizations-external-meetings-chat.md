@@ -46,6 +46,8 @@ Each external access option has both an organization setting and user policies. 
 
 Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Note that both the organization settings and user policies are turned on by default.
 
+Use the procedures on the tabs below to configure organization settings and user policies.
+
 <br>
 
 ## [**1: Organization settings**](#tab/organization-settings)
