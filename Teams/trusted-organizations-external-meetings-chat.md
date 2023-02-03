@@ -46,7 +46,7 @@ Each external access option has both an organization setting and user policies. 
 
 Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Note that both the organization settings and user policies are turned on by default.
 
-## [Organization settings](#tab/organization-settings)
+## [**Organization settings**](#tab/organization-settings)
 
 In this section, you can configure:
 - [Meetings and chat with trusted Microsoft 365 organizations](#specify-trusted-microsoft-365-organizations)
