@@ -128,6 +128,10 @@ Captions help create inclusive content for viewers of all abilities. As an owner
 
 Closed captions for the recording video file are linked to the Teams meeting transcript. This link will remain for the lifetime of the file in most cases, but can be broken if the video file is copied within the same OneDrive or SharePoint site, which would result in captions not being available on the copied video file.
 
+### Meetings automatically expire
+
+
+
 ## Permissions and storage
 
 Meeting recordings are stored in OneDrive and SharePoint storage. The location and permissions depend on the type of meeting and the role of the user in the meeting. The default permissions applied to the recording are listed below, users that have full edit rights on the video recording file can change the permissions and share it later with others as needed.
