@@ -49,10 +49,13 @@ The hardware, software, and network requirements to deploy panels devices may di
 
 ## License requirement
 
-To use Teams panels, you need a [Microsoft Teams Rooms License](../rooms/rooms-licensing.md).
+Each Teams panel needs a [Microsoft Teams Rooms Pro license](../rooms/rooms-licensing.md) or a [Teams Shared Device license](../teams-add-on-licensing/teams-shared-device-license.md). The license you use depends on how you're going to use your Teams panel:
 
-> [!Note]
-> If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need an additional license to use Teams panels.
+- **Teams Rooms Pro** - Use this license if your meeting room has a Teams Rooms system or a Surface Hub. You can share one Teams Rooms Pro license with one Teams Rooms system or Surface Hub and your Teams panel. For more information, see [Resource account provisioning](#resource-account-provisioning).
+- **Teams Shared Device** - Use this license if your meeting room doesn't have a Teams Rooms system or Surface Hub.
+
+    > [!NOTE]
+    > Teams Rooms Basic and Teams Shared Device licenses can't be used with the same resource account. Use a Teams Rooms Pro license instead.
 
 ## Deploy Teams panels devices
 
