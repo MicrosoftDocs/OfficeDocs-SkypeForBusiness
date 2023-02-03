@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier1
 ---
 
 [!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]
