@@ -12,6 +12,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
