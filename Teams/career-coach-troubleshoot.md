@@ -13,11 +13,15 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - m365initiative-edu
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---
 
 # Troubleshoot Career Coach for Microsoft Teams
+
+> [!NOTE]
+> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation.
 
 This article is for education IT admins who need to troubleshoot Career Coach for Microsoft Teams.
 

@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection:
   - M365-collaboration
   - m365initiative-edu
+  - tier2
 appliesto:
   - Microsoft Teams
 ---
@@ -140,7 +141,6 @@ Currently, data is collected from the following areas in class teams:
 |**Meetings**|Attendance (not including meeting content).|
 |**[Reading Progress](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)**|Accuracy rate, most challenging words, and words per minute.|
 |**[Reflect](reflect.md)**|Check-ins (including values).|
-|**Career Coach**|Student provided major (field of study) and year of school, student activity in career coach app including: skills, skills interest, career interests, learnings interests and career related activities.|
 
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
@@ -302,8 +302,8 @@ Insights stores student and educator activities performed in Microsoft Teams for
 
 There are two types of data collected by insights:
 
-- **Comingled data** – data that is generated as part of the class learning activities.
-- **Non-comingled (private) data** – data that is collected by the students activity in Teams for education that isn't part of the class learning activity.
+- **Commingled data** – data that is generated as part of the class learning activities.
+- **Non-commingled (private) data** – data that is collected by the students activity in Teams for education that isn't part of the class learning activity.
 
 The full data collected by insights is listed [here](class-insights.md#data-collection).
 
@@ -312,9 +312,8 @@ In order to provide completeness and integrity of the data for past time frames 
 - Open a [support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted.
 There's no ability to limit the data set or time window of the deletion.
 - In the request the IT Admin should clearly state the type of data that needs to be deleted for that user, out of the following options:
-  - All data (comingled and private)
+  - All data (commingled and private)
   - All private data
-  - Career coach data only
 - Once filed, the support ticket waits in the queue for one week to meet compliance's minimal retention policy. You have the opportunity to cancel the operation during this time.
 - After one week, the Education Insights team ensures all data related to the user ID of the specific type as described above is deleted from the service. Microsoft support monitors the ticket and will notify you once the deletion process is complete, in no more than 28 days
 

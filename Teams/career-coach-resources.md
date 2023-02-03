@@ -13,11 +13,15 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - m365initiative-edu
+  - tier1
 appliesto: 
   - Microsoft Teams
 ---
 
 # Resources for Career Coach in Microsoft Teams
+
+> [!NOTE]
+> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation.
 
 The following resources for IT admins, faculty, staff, and students will help you plan your Career Coach implementation with Microsoft Teams.
 

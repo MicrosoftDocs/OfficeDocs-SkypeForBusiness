@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection:
   - M365-collaboration
+  - tier2
 ms.custom:
   - admindeeplinkTEAMS
 appliesto:
@@ -31,8 +32,8 @@ This article provides guidance to education IT professionals on requirements and
 
 Here are some resources IT admins can share with guardians and educators on how they can get started using the Parent Connection.
 
-- For guidance on getting guardians set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
-- For guidance on getting educators set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- For guidance on getting guardians set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- For guidance on getting educators set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
 ## Benefits of Parent Connection
 

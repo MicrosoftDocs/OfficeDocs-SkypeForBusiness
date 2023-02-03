@@ -34,7 +34,7 @@ A guest is someone who doesn't have a school or work account with your organizat
 
 When you invite a guest to Teams, a guest account is created for them in Azure Active Directory and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
-The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest access in Microsoft Teams](guest-experience.md).
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest experience in Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
 > Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.

@@ -11,6 +11,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

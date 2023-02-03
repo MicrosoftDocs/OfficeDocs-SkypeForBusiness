@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW

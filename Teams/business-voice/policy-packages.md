@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
+  - tier1
 ---
 
 [!INCLUDE [manage-policy-packages](../manage-policy-packages.md)]
