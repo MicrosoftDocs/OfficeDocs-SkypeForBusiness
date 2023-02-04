@@ -22,7 +22,6 @@ description: Learn how to set up a Teams Premium trial to understand and test pr
 
 # Roll out a Teams Premium trial
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 
 To add the Teams Premium trail to Microsoft 365
