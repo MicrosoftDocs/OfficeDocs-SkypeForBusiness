@@ -26,7 +26,7 @@ ms.custom:
 description: Learn about dialing toll-free numbers in US, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 
-# Toll-free dialing restrictions in the Unites States
+# Toll-free dialing restrictions in the United States
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
