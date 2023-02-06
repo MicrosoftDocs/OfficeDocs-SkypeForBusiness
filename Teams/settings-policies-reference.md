@@ -75,12 +75,66 @@ Template policies control what team templates users see when they create a new t
 - Quality and Safety
 - Retail for Managers
 
-### Related topics to template policies
+#### Related topics to template policies
 
 - [Manage team templates in the admin center](templates-policies.md)
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+
+### Teams update policies
+
+**Navigation:** Teams admin center > Teams > Template policies
+
+Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app. Public preview is not enabled by default.
+
+You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
+
+#### Related topics to Teams update policies
+
+- [Microsoft Teams Public Preview](public-preview-doc-updates.md)
+- [Public Preview Features - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
+
+## Teams apps
+
+### Permission policies
+
+**Navigation:** Teams admin center > Teams apps > Permission policies
+
+App permission policies control what apps you want to make available to Teams users in your organization. The type of apps are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
+
+- **Allow all apps** - Users can install and use any app published by your organization in the Teams app store.
+- **Allow specific apps and block all others** - Allow specific apps you want to allow from the Teams app store and all other apps would be blocked.
+- **Block specific apps and allow all others** - Add which apps you want to block from the Teams app store and all the other apps would be allowed.
+- **Block all apps** - Users can't install apps that are published by your organization in the Teams app store.
+
+#### Related topics to permission policies
+
+- [Use app permission policies to control user access to apps](teams-app-permission-policies.md)
+- [Overview of app management and governance in Teams admin center](manage-apps.md)
+- [Information accessed and actions performed by apps and related admin considerations](app-permissions.md)
+- [View app permissions and grant admin consent in Teams admin center](app-permissions-admin-center.md)
+- [Resource-specific consent in Microsoft Teams](resource-specific-consent.md)
+- [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy)
+
+### Setup policies
+
+**Navigation:** Teams admin center > Teams apps > Setup policies
+
+App setup policies control how apps are made available to a user with the Teams app.
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Upload custom apps|Off|This setting determines if a user can upload a custom app package in the Teams app. Turning it on lets you create or develop a custom app to be used personally or across your organization without having to submit it to the Teams app store. Uploading a custom app also lets you test an app before you distribute it more widely by only assigning it to a single user or group of users. Read more about how to [Manage custom and sideloaded apps in Teams admin center](teams-custom-app-policies-and-settings.md)|
+|User pinning|On|If you turn this on, the user’s existing app pins will be added to the list of pinned apps set in this policy. Users can rearrange, add, and remove pins as they choose. If you turn this off, the user’s existing app pins will be removed and replaced with the apps defined in this policy.|
+|Installed apps|(none)|Choose which apps and messaging extensions you want installed in your users' personal Teams environment and in meetings they create. Users can install other available apps from the Teams app store.|
+|Pinned apps|Activity, Chat, Teams, Calendar, Calling, Files|Choose the order apps are pinned in messaging extensions and the Teams app bar.|
+
+#### Related topics to setup policies
+
+- [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
+- [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
+- [Understand Microsoft Teams apps and their capabilities](deploy-apps-microsoft-teams-landing-page.md)
 
 ## Meetings
 
@@ -127,8 +181,8 @@ Meeting policies are used to control what features are available to users when t
 
 ##### Related topics to meeting join & lobby policies
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Control who can bypass the meeting lobby and access meetings](who-can-bypass-meeting-lobby.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Meeting engagement
 
@@ -168,8 +222,8 @@ Content sharing settings let you control the different types of content that can
 
 ##### Related topics to content sharing policies
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Watermark
 
@@ -248,6 +302,49 @@ Content sharing settings let you control the different types of content that can
 
 - [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+
+### Customization policies
+
+**Navigation:** Teams admin center > Meetings > Customization policies
+
+Use customization policies to customize the look of Teams meetings with your organization's logo, colors, or other visuals. These settings require a Teams Premium license.
+
+#### Custom meeting visuals
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Currently Active|No|After adding a theme, this setting allows admins to define their branding by enabling a custom meeting theme. Read more on [Meeting themes for Teams meetings](meeting-themes.md).|
+|Allow organizer to control meeting theme|Off|When this is on, meeting organizers can turn off meeting themes for specific meeting instances through the meeting options.|
+|Custom backgrounds|Off|This setting gives you the ability to upload custom background images for Teams meetings that will appear on your end users' interfaces, ordered by the time of upload. Read how to enable [Custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md).|
+
+#### Related topics to customization policies
+
+- [Microsoft Teams Premium - Overview for administrators](enhanced-teams-experience.md)
+- [Custom Together Mode scenes in Teams](platform/apps-in-teams-meetings/teams-together-mode)
+- [Set up webinars in Microsoft Teams](set-up-webinars.md)
+
+### Meeting template policies
+
+Meeting templates policies let you create and set up policies that control what templates people in your organization can see. Microsoft Teams custom meeting templates require a Teams Premium license. The following meeting settings can be controlled by using a meeting template:
+
+- Chat
+- End-to-end encryption
+- Lobby
+- Manage what attendees see
+- Mic and camera for attendees
+- Notify when callers join and leave
+- Q&A
+- Reactions
+- Recording
+- Sensitivity label
+- Watermarks
+
+#### Related topics to meeting template policies
+
+- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
+- [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
+- [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 ### Live events policies
 
