@@ -2,6 +2,27 @@
 
 
 
+## Week of January 30, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/30/2023 | [Manage Microsoft 365 connectors and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 1/30/2023 | [Availability in the United Kingdom (U.K.)](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | modified |
+| 1/30/2023 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
+| 1/31/2023 | [Chat with distribution lists (DLs)](/MicrosoftTeams/chat-with-distribution-lists) | added |
+| 1/31/2023 | [Manage caller ID policies for users](/MicrosoftTeams/caller-id-policies) | modified |
+| 1/31/2023 | [How can caller ID be used in your organization](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modified |
+| 1/31/2023 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 1/31/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+| 1/31/2023 | Set the Caller ID for a user | removed |
+| 1/31/2023 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
+| 1/31/2023 | [Shared line appearance in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modified |
+| 1/31/2023 | [How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviors.](/MicrosoftTeams/sign-in-teams) | modified |
+| 2/1/2023 | [Manage the Virtual Appointments app in Microsoft Teams](/MicrosoftTeams/manage-virtual-appointments-app) | modified |
+| 2/2/2023 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | modified |
+
+
 ## Week of January 23, 2023
 
 
@@ -90,11 +111,3 @@
 | 1/3/2023 | [Audio Conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modified |
 | 1/4/2023 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
 | 1/5/2023 | Enhance existing Microsoft 365 groups | removed |
-
-
-## Week of December 26, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/27/2022 | [Teams sessions at Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | modified |

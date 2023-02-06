@@ -20,6 +20,7 @@ ms.collection:
   - M365-voice
   - M365initiative-voice
   - highpri
+  - tier1
 ---
 
 # Teams Phone System guidance for small and medium businesses

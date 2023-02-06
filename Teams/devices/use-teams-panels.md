@@ -209,7 +209,7 @@ This feature is disabled by default, but it can be enabled per device. To enable
 > If a room is released before the end of a scheduled reservation, the organizer will receive an email message from the room declining it. This happens because the room removes the reservation from its schedule so it can be booked by other users. The message declining the reservation can be ignored.
 
 > [!NOTE]
-> A Teams panel can't be used to release a room if the Teams Rooms device it's paired with is in an active call.
+> A Teams panel can't be used to release a room if the Teams Rooms device it shares a resource account with is in an active call.
 
 #### Enable or disable room reservations
 

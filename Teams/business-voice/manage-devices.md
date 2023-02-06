@@ -16,6 +16,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - tier1
 ---
 
 [!INCLUDE [device-management](../devices/device-management.md)]
