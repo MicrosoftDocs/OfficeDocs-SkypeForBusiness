@@ -494,7 +494,20 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 
 ### Allow chat in meetings
 
-This is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
+This is a per-user and per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. This setting doesn't apply to channel meetings.
+
+|Setting value |Behavior  |
+|---------|---------|
+|**Turn it on for everyone**     | All participants can write and view chat messages. |
+|**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
+|**Turn it on for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
+
+Once this **Chat in meetings** policy is applied to users, an organizer can't override this policy through **Meeting options**.
+
+The policy applied to the meeting organizer can affect other users in the meeting. For example:
+
+- If the organizer has **Chat in meetings** set to **Turn it on for everyone** or **Turn it on for everyone but anonymous users**, then a user's individual policy will apply and any users with **Turn it off for everyone** set will not be able to chat in the meeting.
+- If the organizer has **Chat in meetings** set to **Turn it off for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
 
 <a name="bkparticipantsandguests"> </a>
 
