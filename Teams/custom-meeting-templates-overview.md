@@ -75,9 +75,8 @@ Teams Premium includes several default meeting templates that you can make avail
 Additionally, these templates are available in Teams for Education:
 
 - Class
-- Discussion group
 - Lecture
-- Parent teacher conference
+- Webinar
 
 You can update the settings on these templates if you need to.
 
