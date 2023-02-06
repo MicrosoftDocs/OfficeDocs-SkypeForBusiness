@@ -30,7 +30,7 @@ Users can share a whiteboard to make it available to all participants in a Teams
 
 To turn the Whiteboard app on or off, see [Enable Microsoft Whiteboard for your organization](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Keep in mind that this setting will enable or disable Whiteboard for your entire organization, and not just for Teams.
 
-Whiteboards will be created in the OneDrive for Business folder of the person who starts the whiteboard. For more information, see [Manage data for Microsoft Whiteboard](/microsoft-365/whiteboard/manage-data-organizations?view=o365-worldwide#onedrive-for-business-storage-overview).
+Whiteboards will be created in the OneDrive for Business folder of the person who starts the whiteboard. For more information, see [Manage data for Microsoft Whiteboard](/microsoft-365/whiteboard/manage-data-organizations).
 
 ## Whiteboard on Surface Hub
 
