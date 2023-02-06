@@ -17,6 +17,7 @@ ms.collection:
   - M365-voice
   - M365initiative-voice
   - highpri
+  - tier1
 ---
 
 # Step 3: Assign Teams Phone with Calling Plan bundle licenses
