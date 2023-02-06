@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 01/24/2023
+ms.date: 01/30/2023
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lucarras
@@ -23,13 +23,13 @@ ms.custom: seo-marvel-mar2020
 
 # Manage Microsoft 365 connectors and custom connectors
 
-Connectors in Microsoft Teams deliver content and service updates directly from third-party services into a Teams channel. Using connectors, the users receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services. The updates are posted directly into the chat stream. This make it easy for all members to stay in sync and quickly receive the relevant information.
+Connectors in Microsoft Teams deliver content and service updates directly from third-party services into a Teams channel. Using connectors, the users receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services. The updates are posted directly into the chat stream. This functionality makes it easy for all the team members to stay in sync and quickly receive the relevant information.
 
-Microsoft 365 connectors are used with both Teams and Microsoft 365 groups. You can use the same connectors in Teams and Microsoft Exchange. 
+Microsoft 365 connectors are used with both Teams and Microsoft 365 groups. You can use the same connectors in Teams and Microsoft Exchange.
 
 <!--- However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors. --->
 
-If the team permissions allow it, any member of a team can add a connector in the team and all team members are notified of activities from that service. Any team member with the permissions to add or remove can modify connectors setup by other members.
+If the team permissions allow it, any member of a team can add a connector in the team, and all team members are notified of activities from that service. Any team member with the permissions to add or remove can modify connectors setup by other members.
 
 ## Enable or disable connectors in Teams
 
@@ -59,6 +59,70 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 :::image type="content" source="media/connectors-selection-ui.png" alt-text="Add connectors to your channel in Teams from the More options in the upper right corner of the channel.":::
 
+## Considerations when using Connectors in Teams
+
+* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable those, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. Connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+
+* If the user who added a connector to a team leaves the team, the connector continues to work.
+
+* Jenkins connector is scheduled for release on Feb 28, 2023.
+
+* The following connectors aren't available for use January 2023 onwards:
+
+  * Aha!
+  * Airbrake
+  * Aircall
+  * App Links
+  * AppSignal
+  * Beanstalk
+  * Bing News
+  * Bitbucket
+  * Bitbucket Server
+  * Buddy
+  * BugSnag
+  * Buildkite
+  * CATS
+  * Chatra
+  * CircleCI
+  * CodeShip
+  * Constant Contact
+  * GetResponse
+  * Ghost Inspector
+  * Google Analytics
+  * Groove
+  * Heroku
+  * Honeybadger
+  * Intercom
+  * Logentries
+  * Mailchimp
+  * Microsoft Forms
+  * New Relic
+  * Opsgenie
+  * PagerDuty
+  * Papertrail
+  * Pingdom
+  * ivotal Tracker
+  * Raygun
+  * Rollbar
+  * Runscope
+  * SatisMeter
+  * Semaphore
+  * Sentry
+  * SharePoint News
+  * Simple In/Out
+  * Stack Exchange
+  * status.io
+  * SUBVERSION
+  * Team Foundation Server (TFS)
+  * TestFairy
+  * Travis CI
+  * Trello
+  * Uptodown
+  * Userlike
+  * Wrike
+  * XP-Dev
+  * Zendesk
+
 ## Update URL of a connector
 
 The Teams connectors are transitioning to a new URL to enhance security. During transition, you'll receive a notification to update the configured connector. Update your connector at the earliest to prevent any disruption to connector services. To update your connector:
@@ -74,59 +138,6 @@ The Teams connectors are transitioning to a new URL to enhance security. During 
 1. For other connector types, remove the connector and recreate the connector configuration. A **URL is up-to-date** message appears.
 
    :::image type="content" source="media/teams-url-updated.png" alt-text="Screenshot of the URL is up-to-date message.":::
-
-## Considerations when using Connectors in Teams
-
-* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable those, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. Connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
-
-* If the user who added a connector to a team leaves the team, the connector continues to work.
-
-* The following connectors are not available for use January 2023 onwards:
-
-  * AHA
-  * AIRBRAKE
-  * AIRCALL
-  * APPLINKS
-  * APPSIGNAL
-  * BEANSTALK
-  * BITBUCKET
-  * BITBUCKETSERVER
-  * BUDDY
-  * BUGSNAG
-  * BUILDKITE
-  * CATSONE
-  * CHATRA
-  * CIRCLECI
-  * CODESHIP
-  * GETRESPONSE
-  * GHOSTINSPECTOR
-  * GROOVE
-  * HEROKU
-  * HONEYBADGER
-  * INTERCOM
-  * LOGENTRIES
-  * NEWRELIC
-  * OPSGENIE
-  * PAGERDUTY
-  * PAPERTRAIL
-  * PINGDOM
-  * PIVOTALTRACKER
-  * RAYGUN
-  * ROLLBAR
-  * RUNSCOPE
-  * SATISMETER
-  * SEMAPHORE
-  * SENTRY
-  * SHAREPOINTNEWS
-  * SIMPLEINOUT
-  * STATUSPAGEIO
-  * SUBVERSION
-  * TEAMFOUNDATIONSERVER
-  * TESTFAIRY
-  * TRAVISCI
-  * UPDOWN
-  * USERLIKE
-  * XPDEV
 
 ## Related articles
 
