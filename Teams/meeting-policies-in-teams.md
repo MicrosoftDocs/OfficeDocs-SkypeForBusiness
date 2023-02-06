@@ -526,7 +526,7 @@ Currently, you can only use PowerShell to configure this policy setting. You can
 
 To enable a meeting organizer to download the meeting attendance report, set the **AllowEngagementReport** parameter  to **Enabled**. When enabled, the option to download the report is displayed in the **Participants** pane.
 
-To prevent a meeting organizer from downloading the report, set the parameter to **Disabled**. By default, this setting is disabled and the option to download the report isn't available.
+To prevent a meeting organizer from downloading the report, set the parameter to **Disabled**. By default, this setting is enabled and the option to download the report is available to the organizer.
 
 ## Meeting policy settings - Meeting provider for Islands mode
 
