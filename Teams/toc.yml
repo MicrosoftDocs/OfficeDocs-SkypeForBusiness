@@ -372,6 +372,18 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
+
+    - name: Integrate apps with Teams
+      items:
+        - name: Manage Loop components
+          href: loop-components-in-teams.md
+        - name: Manage actionable activity emails
+          href: teams-outlook-email-integration.md
+        - name: Share to Teams from Outlook
+          href: teams-outlook-share-teams.md
+        - name: Cortana in Teams
+          href: cortana-in-teams.md     
+
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -538,48 +550,11 @@ items:
     - name: Channels
       items:
         - name: Overview of channels
-          href: teams-overview.md
+          href: teams-channels-overview.md
         - name: Overview of private channels
           href: private-channels.md
         - name: Overview of shared channels
           href: shared-channels.md
-
-    - name: Integration
-      items:
-        - name: Teams and Skype interoperability
-          href: teams-skype-interop.md
-        - name: Manage Loop components
-          href: loop-components-in-teams.md
-        - name: Manage actionable activity emails
-          href: teams-outlook-email-integration.md
-        - name: Share to Teams from Outlook
-          href: teams-outlook-share-teams.md
-        - name: Cortana in Teams
-          href: cortana-in-teams.md
-
-    - name: External collaboration
-      items:
-        - name: Communicate with users from other organizations
-          href: communicate-with-users-from-other-organizations.md
-        - name: Manage external meetings and chat
-          href: manage-external-access.md
-        - name: Native chats for external users
-          href: native-chat-for-external-users.md
-        - name: Turn off Teams Native File Upload policy
-          href: turn-off-teams-native-file-upload-policy.md
-      
-        - name: Guest access
-          items:
-            - name: Overview of guest access
-              href: guest-access.md
-            - name: Guest experience
-              href: guest-experience.md
-            - name: Collaborate with guests
-              href: /microsoft-365/solutions/collaborate-as-team.md
-            - name: Turn on guest access or turn off
-              href: set-up-guests.md
-            - name: Add a guest
-              href: add-guests.md
 
     - name: Templates
       items:
