@@ -29,9 +29,9 @@ description: Learn to manage meeting policy settings in Teams for participants a
 
 These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
 
-- [Let anonymous people join a meeting](#let-anonymous-people-join-a-meeting)
-- [Who can present in meetings](#who-can-present-in-meetings)
-- [Automatically admit people](#automatically-admit-people)
+- [Anonymous users can join a meeting](#anonymous-users-can-join-a-meeting)
+- [Who can present](#who-can-present)
+- [Who can bypass the lobby](#who-can-bypass-the-lobby)
 - [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Live captions](#live-captions)
 - [Chat in meetings](#chat-in-meetings)
