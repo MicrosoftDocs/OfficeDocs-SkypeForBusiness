@@ -181,9 +181,9 @@ A Signature Teams Room experience is all those components and ideas put together
 
 Examples of specific feature deployment:
 
-- Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Room solution that supports it.
+- Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Rooms solution that supports it.
 
-- Implement curved tables and front-facing layouts with traditional Microsoft Teams Room experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
+- Implement curved tables and front-facing layouts with traditional Microsoft Teams Rooms experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
 
 ## When should you deploy this room type?
 
@@ -395,7 +395,7 @@ All Teams Rooms on Windows can leverage traditional whiteboards in a Teams meeti
 
 ## Recommended products for this space
 
-### Microsoft Teams Room console and compute
+### Microsoft Teams Rooms console and compute
 
 - A Windows-based Microsoft Teams Rooms solution.
 
