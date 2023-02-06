@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - m365initiative-edu
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---

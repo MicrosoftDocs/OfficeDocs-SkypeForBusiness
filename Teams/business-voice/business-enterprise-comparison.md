@@ -13,6 +13,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier3
 ---
 
 # What's the difference between Business Voice and Enterprise Voice?
