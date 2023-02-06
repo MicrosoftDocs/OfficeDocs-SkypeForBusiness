@@ -82,7 +82,17 @@ See also [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/gran
 
 ## Assign a custom emergency call routing policy to a network site
 
-Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling routing policy to a network site.
+### Using the Microsoft Teams admin center
+
+You can assign the global policy or any custom policies that you create.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and click the **Network sites** tab.
+2. Select the site by clicking to the left of the name, and then click **Edit**.
+3. Under **Emergency call routing policy**, select the policy, and then click **Save**.
+
+### Using PowerShell
+
+Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency call routing policy to a network site.
 
 This example shows how to assign a policy called Emergency Call Routing Policy 1 to the Site1 site.
 

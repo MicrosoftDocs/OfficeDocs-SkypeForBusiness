@@ -7,16 +7,15 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: How Microsoft Phone System Direct Routing implements RFC standard protocols.
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Direct routing - definitions and RFC standards

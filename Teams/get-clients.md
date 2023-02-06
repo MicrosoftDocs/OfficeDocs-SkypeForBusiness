@@ -34,8 +34,8 @@ For details about each client's capabilities on different platforms, see [Teams 
 
 The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
-- 32-bit and 64-bit versions of Windows (8.1 or later)
-- ARM64 for Windows 10 on ARM
+- 32-bit and 64-bit versions of Windows (8.1 or later, excluding Windows 10 LTSC) 
+- ARM64 for Windows 10 on ARM 
 - Windows Server (2012 R2 or later)
 - macOS
 - Linux (in `.deb` and `.rpm` formats)
@@ -60,7 +60,7 @@ Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.
 
 Teams requires .NET Framework 4.5 or later. If .NET Framework or later isn't installed the Teams installer will offer to install for you.
 
-The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client leverages the following locations:
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -75,7 +75,9 @@ When users initiate a call using the Teams client for the first time, they might
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Allow action for both TCP and UDP protocols.
+> Windows Firewall configuration will be altered. Two inbound rules for teams.exe for both TCP and UDP protocols will be created with 
+> - Allow action in case the user is a local administrator and clicks 'Allow access' only.
+> - Block action if the user is not a local administrator and, in any case, when the prompt is dismissed by selecting “Cancel”.
 
 If you want to prevent Teams from prompting users to create firewall rules when the users make their first call from Teams, use the PowerShell script in [Sample script - Microsoft Teams firewall PowerShell script](client-firewall-script.md).
 
@@ -133,9 +135,9 @@ You can launch Teams via Activities or via Terminal by typing `teams`.
 Install manually on Debian and Ubuntu distributions:
 
 ```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
 
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
 
 sudo apt update
 sudo apt install teams
@@ -193,6 +195,9 @@ If you're in China, you can install Teams from the following app stores:
 - **Huawei** <https://aka.ms/TeamsHuawei>
 - **Oppo** Search for "Teams" in the Oppo store
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+
+> [!NOTE]
+> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
 
 ## Browser client
 

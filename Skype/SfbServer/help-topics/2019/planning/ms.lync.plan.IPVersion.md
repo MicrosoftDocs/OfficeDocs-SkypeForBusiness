@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW

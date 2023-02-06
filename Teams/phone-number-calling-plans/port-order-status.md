@@ -1,5 +1,5 @@
 ---
-title: "What's the status of your port orders?"
+title: What's the status of your port orders?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,14 +9,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
-ms.custom:
-- Calling Plans
-description: "Learn how to get the status of your port orders, and what the different actions you can take on them. "
+f1.keywords: 
+  - CSH
+ms.custom: 
+  - Calling Plans
+description: Learn how to get the status of your port orders, and what the different actions you can take on them. 
+ms.collection: 
+  - M365-voice
 ---
 
 # What's the status of your port orders?

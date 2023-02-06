@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Teams Rooms maintenance and operations"
-ms.author: czawideh
-author: cazawideh
+title: Microsoft Teams Rooms maintenance and operations
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -9,10 +9,11 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "Learn about managing Microsoft Teams Rooms."
+description: Learn about managing Microsoft Teams Rooms.
 ---
 
 # Microsoft Teams Rooms maintenance and operations
@@ -32,19 +33,32 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 The logs will be output as a ZIP file in c:\rigel.
+
+### Managing Disk Space
+<a name="Space"> </a>
+
+Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean up using the device registry setting.
+
+|Setting|Allows|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Cleans up logs after 30 days.  <br/> |
   
-## Front of Room Display Settings
+## Front of Room display settings
 <a name="Display"> </a>
 
 Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
   
 If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
 
-### Change scale and resolution
+### Scale and resolution
 
-If the font size on your Front of Room display is too large or small, you'll need to adjust the screen's resolution. 
+To get Teams Rooms designed experience, your Front of Room displays need to meet resolution and scale requirements.
 
-1. Switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+To set the scale and resolution of your Front of Rooms displays remotely, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).
+
+To set the scale and resolution manually in the Teams Rooms admin settings:
+
+1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
 2. Select the start icon. Then **Settings > System > Display**
 
@@ -59,11 +73,13 @@ If the font size on your Front of Room display is too large or small, you'll nee
 ```cmdlet
  Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
 ```
+
+7. Restart the device.
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
 
-If Microsoft Teams Rooms isn't running well, performing a factory reset might help. To do this, use the [Microsoft Teams Room recovery tool](recovery-tool.md) and follow the factory restore instructions.
+If Microsoft Teams Rooms isn't running well, performing a factory reset might help. To do this, use the [Microsoft Teams Rooms recovery tool](recovery-tool.md) and follow the factory restore instructions.
 
 > [!NOTE]
 > There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do *not* use this option.
@@ -201,11 +217,13 @@ Copy-Item $movefile $targetDevice
 ## Software updates
 <a name="SWupdate"> </a>
 
-By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
+By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the **Settings** app.
   
-Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. It also connects to the Microsoft Store to retrieve application updates.
+If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire and run the latest MTR-Update script from [Manually update a Microsoft Teams Rooms device](/microsoftteams/rooms/manual-update).
 
-If you need to manage application updates manually but can't follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire Teams Rooms update packages to perform app updates on supported operating systems. The update release may lag behind the store release, and it might not always match the latest available build. See [Manually Update a Microsoft Teams Rooms device](manual-update.md) to learn more.
+By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
+
+
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>

@@ -120,7 +120,7 @@ There are two components in the Microsoft Cloud that can be in the path of media
 
 - The Transport Relay is used to connect to the closest Transport Service to send real time traffic.
 
-   Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured .
+   Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured.
 
 The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled.
 
@@ -143,11 +143,10 @@ The table below summarizes the difference between Media Processors and Transport
 |In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address |
 |In media path for voice applications | Always | Never |
 |Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints |
-|Number of instances worldwide and location | 15 total: 3 in US East, West, and South Central; 4 in Amsterdam, Dublin, UK South, and France Central; 2 in Hong Kong and Singapore; 2 in Japan; 2 in Australia East and Southeast; 1 in Brazil South; 1 in South Africa North | Multiple|
 
 The IP ranges are:
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
-- 52.120.0.0/14 (IP addresses from 52.120.0.1 to 52.123.255.254)
+- 52.122.0.0/15 (IP addresses from 52.122.0.1 to 52.123.255.254)
 
 \* Transcoding explanation: 
 
@@ -196,7 +195,7 @@ You must place these three FQDNs in order to:
 
 The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **sip3.pstnhub.microsoft.com** will be resolved to IP addresses from the following subnets:
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 

@@ -4,15 +4,22 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 ms.reviewer: rjam
-audience: admin 
-ms.topic: article 
+audience: admin
+ms.topic: how-to
 ms.service: msteams
-ms.localizationpriority: medium 
+ms.localizationpriority: medium
 description: Learn how to manage the Praise app in the Microsoft Teams admin center.
-
+ms.collection: 
+  - M365-collaboration
+  - m365-frontline
+  - teams-1p-app-admin
+  - tier2
+  - highpri
 ---
 
 # Manage the Praise app in the Microsoft Teams admin center
+
+## Overview of Praise
 
 The Praise app in Microsoft Teams helps users show appreciation to members of your organization or classroom. The badges in Praise are designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to frontline workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
@@ -27,23 +34,26 @@ Praise is enabled by default for all Teams users in your organization. You can t
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Screenshot of the Praise app details page in the Teams admin center, showing the Status toggle.":::
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, search for the Praise app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
 
 Keep in mind that this setting affects both the Praise app and the Praise feature in the Viva Insights app in Teams.
 
+If you set the status to **Blocked**, the Praise app is blocked within a few minutes for Teams. However, Praise in Viva Insights can take 7-9 days to be blocked.
+
 ## Enable or disable Praise for specific users in your organization
 
-To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-## Badges
+## Composer
 
-Here's the default set of badges in Praise. Teams users in your organization can use these badges to recognize their peers for going above and beyond with their work.
+Teams users in your organization can use the praise composer to recognize their peers for going above and beyond with their work. While crafting their message, they can pick from 14 titles&mdash;like **Courage**, **Optimism**, **Kind heart**, and **Creative**&mdash;to recognize their colleagues’ contributions.
 
-:::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in the default badge set.":::
+:::image type="content" source="media/praise.png" alt-text="Screenshot of the praise composer.":::
 
-> [!NOTE]
-> Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges have been removed from the Teams admin center.
+## Give feedback or report an issue
+
+To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Praise" so we can easily identify Praise issues.
 
 ## Related articles
 

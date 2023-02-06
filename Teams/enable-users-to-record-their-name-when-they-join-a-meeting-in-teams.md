@@ -56,7 +56,3 @@ Windows PowerShell is all about managing users and what users are allowed or not
 - [Best ways to manage Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-  
-## Related topics
-
-[Try or purchase Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

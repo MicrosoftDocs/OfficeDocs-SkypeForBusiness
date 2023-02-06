@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
@@ -25,6 +26,9 @@ When a Microsoft Teams user is chatting with an external (federated) user, the c
 The native chat experience for people in other organizations is turned on for all Teams tenants, but not all people are eligible. To be offered a native chat experience, both the sender and receiver need to be configured for TeamsOnly upgrade mode. To learn more about upgrade policies, read [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md).
 
 To see a list of capabilities for external access users in Teams, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+
+> [!NOTE]
+> The native chat experience is not available for cross Microsoft 365 cloud environments: Microsoft 365 WorldWide (including GCC) from/to GCC High, GCC High from/to DoD, or WW from/to DoD.
 
 ## How do I know if I'm in a native chat?
 

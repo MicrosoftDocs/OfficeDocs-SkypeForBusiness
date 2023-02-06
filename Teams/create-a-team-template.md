@@ -1,9 +1,9 @@
 ---
 title: Create a custom team template in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: aaglick
-manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -12,6 +12,7 @@ description: Learn how to create a custom team template in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -31,7 +32,7 @@ A custom team template is a predefined team structure with a set of channels, ta
 
 To get started:
 
-1. Sign in to the Teams admin center.
+1. Sign in to the Teams admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 

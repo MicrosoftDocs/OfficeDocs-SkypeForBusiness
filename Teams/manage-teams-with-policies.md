@@ -1,7 +1,7 @@
 ---
 title: Manage Teams with policies
-author: karlistites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,11 +10,10 @@ search.appverid:
 description: Lean about Teams policies.
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Manage Teams with policies
@@ -29,9 +28,12 @@ Policies are used to accomplish many tasks in your organization across different
 
 Policies can be assigned in several different ways depending on what your organization is trying to accomplish. You can make and view assignments in the Teams admin center.
 
-![Screenshot of group policy assignment.](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Screenshot of Teams group policy assignment." lightbox="media/group-policy-assignment.png":::
 
 Learn more about assigning policies [here](policy-assignment-overview.md).
+
+> [!NOTE]
+> To unassign policies, you can remove assignments in bulk for all users directly assigned to a policy. To learn more, read [Unassign policies in bulk](assign-policies-users-and-groups.md#unassign-policies-in-bulk).
 
 ## How to manage policies
 
@@ -39,17 +41,17 @@ Policies are managed with the Microsoft Teams admin center or [using PowerShell]
 
 For example, an app setup policy can allow you to enable users to upload custom apps, install apps on behalf of your users, and pin apps to the Teams app bar. These policies are configured in the Teams admin center.
 
-![Screenshot of app setup policy.](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="Screenshot of app setup policy." lightbox="media/app-setup-policy.png":::
 
 Additionally, a meeting policy can be used to control audio and video settings in Teams meetings such as transcriptions, cloud recordings, and IP audio/video.
 
-![Screenshot of meeting policy.](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="Screenshot of meeting policy." lightbox="media/engineering-meeting-policy.png":::
 
 ### Teams for Education
 
 You can also use the [Teams for Education policy wizard](easy-policy-setup-edu.md) to easily set up and manage policies for your learning environment.
 
-![Screenshot of Teams for Education policy wizard.](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of Teams for Education policy wizard." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## Types of policies
 

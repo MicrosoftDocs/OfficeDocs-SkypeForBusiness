@@ -113,7 +113,7 @@ An Internet dialler, which is similar to a computer virus, is software that can 
 
 ### PhonepayPlus
 
-All Service Providers must register with PhonepayPlus, which is an independent organization approved by Ofcom. PhonepayPlus regulates Premium Rate Services and investigates complaints filed by consumers. All Service Providers must adhere to the PhonepayPlus Code of Practice, which can be found at [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). If a Service Provider violates the Code of Practice, PhonepayPlus may:
+All Service Providers must register with PhonepayPlus, which is an independent organization approved by Ofcom. PhonepayPlus regulates Premium Rate Services and investigates complaints filed by consumers. All Service Providers must adhere to the PhonepayPlus Code of Practice, which can be found at [code of practice](https://psauthority.org.uk/for-business/code-15). If a Service Provider violates the Code of Practice, PhonepayPlus may:
 
 - Require a party to remedy a breach
 
@@ -123,7 +123,7 @@ All Service Providers must register with PhonepayPlus, which is an independent o
 
 ### Service provider contact information
 
-To find contact information for a Service Provider, you can use PhonepayPlus' #NumberChecker tool at [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). If you believe that you were wrongfully charged for a Premium Rate Service, you should contact the Service Provider directly.
+To find contact information for a Service Provider, you can use PhonepayPlus' #NumberChecker tool at [Submit an online enquiry](https://psauthority.org.uk/For-Consumers/Contact-Us). If you believe that you were wrongfully charged for a Premium Rate Service, you should contact the Service Provider directly.
 
 ### Complaints
 
@@ -131,7 +131,7 @@ If you wish to file a complaint about a Service Provider with PhonepayPlus, you 
 
 - Phone: 0300 30 300 20 (9:30 am - 5 pm Monday to Friday)
 
-- Online Enquiry: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- Online Enquiry: [Submit an online enquiry](https://psauthority.org.uk/For-Consumers/Contact-Us)
 
 ### Dispute resolution
 

@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.ClientCapacity
 - ms.lync.plan.ClientCapacity
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
