@@ -29,17 +29,16 @@ In Microsoft Teams, all auto attendants and call queues require an associated re
 
 > [!NOTE]
 > Previously, a **Teams Phone Resource Account** license (once known as a **Virtual user** license) was only required when assigning a phone number to a resource account. Now, all resource accounts must be assigned a **Teams Phone Resource Account** license, regardless of whether they'll be assigned a phone number or not. Also, don't assign a **Teams Phone Standard** license to a resource account. If you currently have resource accounts configured with **Teams Phone Standard** licenses, you must switch to a **Teams Phone Resource Account** license as described below.
- 
 
 ## Resource Account license allocation
 
-Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Phone System features, such as **Teams Phone Standard** and **Teams Phone with Calling Plan** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost. 
+Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Phone System features, such as **Teams Phone Standard** and **Teams Phone with Calling Plan** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost.
 
-For every 10 user licenses of **Teams Phone Standard** or **Teams Phone with Calling Plan** in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations will have enough **Teams Phone Resource Account** licenses based on this scaling plan. In the event more **Teams Phone Resource Account** licenses are required, you can purchase more **Teams Phone Resource Account** licenses beyond the standard allocation through EA, EAS, EES, CSP, Web Direct, NCE – Customer led, and NCE – Partner led or your Microsoft account representative.
+For every 10 user licenses of **Teams Phone Standard**, **Teams Phone with Calling Plan**, or devices licensed with the **Teams Shared Devices** license in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations will have enough **Teams Phone Resource Account** licenses based on this scaling plan. In the event more **Teams Phone Resource Account** licenses are required, you can purchase more **Teams Phone Resource Account** licenses beyond the standard allocation through EA, EAS, EES, CSP, Web Direct, NCE – Customer led, and NCE – Partner led or your Microsoft account representative.
 
 ### License allocation example
 
-Contoso, Inc. purchased 600 licenses that include Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses. 
+Contoso, Inc. purchased 600 licenses that include Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses.
 
 ## How to obtain Microsoft Teams Phone Resource Account licenses
 

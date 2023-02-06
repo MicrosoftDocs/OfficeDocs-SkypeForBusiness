@@ -16,7 +16,7 @@ Each resource account requires a license in order to work with auto attendants a
 
 We cover how to [assign the license to a resource account later in this article](#assign-a-license).
 
-If you purchased **Teams Phone Standard** or **Teams Phone with Calling Plan** bundle licenses, **Teams Phone Resource Account** licenses are already in your account.
+If you purchased **Teams Phone Standard**, **Teams Phone with Calling Plan**, or **Teams Shared Devices** licenses, **Teams Phone Resource Account** licenses are already in your account.
 
 To see if you already have **Teams Phone Resource Account** licenses, sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) using an account with Global admin permissions. Then, go to [Billing > Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have **Teams Phone Resource Account** licenses, they'll appear as **Microsoft Teams Phone Resource Account**.
 
