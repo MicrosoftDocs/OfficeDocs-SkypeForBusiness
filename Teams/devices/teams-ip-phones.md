@@ -402,8 +402,8 @@ When you install a new firmware version on your device, you can determine the co
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
 |Neat Frame nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
-|Crestron UC-P10-TD     |1.0.0.57 |2022 Update #3A|
-|Crestron UC-P8-TD     |1.0.0.57 |2022 Update #3A|
+|Crestron UC-P10-TD     |`1.0.0.57` |2022 Update #3A|
+|Crestron UC-P8-TD     |`1.0.0.57` |2022 Update #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 Update #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 Update #1 |
@@ -440,7 +440,7 @@ When you install a new firmware version on your device, you can determine the co
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
 |Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
-|Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
+|Neat Pad Panel |`NFA1.20220512.2158` | 2022 Update #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
 |Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 Update #1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | 2022 Update #1 |
