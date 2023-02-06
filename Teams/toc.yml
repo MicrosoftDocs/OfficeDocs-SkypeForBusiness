@@ -372,7 +372,6 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
-<<<<<<< HEAD
 
     - name: Integrate apps with Teams
       items:
@@ -385,10 +384,6 @@ items:
         - name: Cortana in Teams
           href: cortana-in-teams.md     
 
-=======
-            - name: Add a guest to a team
-              href: add-guests.md
->>>>>>> main
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -504,7 +499,6 @@ items:
       - name: Use Advisor for Teams to roll out Teams
         href: use-advisor-teams-roll-out.md
 
-<<<<<<< HEAD
     - name: Teams
       items:
       - name: Team basics
@@ -545,59 +539,6 @@ items:
             href: teams-analytics-and-reports\view-analytics.md
 
     - name: Chats
-=======
-- name: Chat, teams, and channels
-  items: 
-    - name: Plan your deployment
-      href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
-    - name: Use Advisor for Teams to roll out Teams
-      href: use-advisor-teams-roll-out.md
-    - name: Overview of teams and channels
-      href: teams-channels-overview.md
-    - name: Overview of private channels
-      href: private-channels.md
-    - name: Overview of shared channels
-      href: shared-channels.md
-    - name: Assign team owners and members in Teams
-      href: assign-roles-permissions.md
-    - name: Overview of dynamic membership for teams
-      href: dynamic-memberships.md
-    - name: Best practices for organizing teams in Teams
-      href: best-practices-organizing.md
-    - name: Manage large Teams
-      href: best-practices-large-groups.md
-    - name: Create an org-wide team in Teams
-      href: create-an-org-wide-team.md
-    - name: Create people manager teams
-      href: create-manager-directs-teams.md
-    - name: Manage teams and channel policies
-      href: teams-policies.md
-    - name: Turn off Teams Native File Upload policy
-      href: turn-off-teams-native-file-upload-policy.md
-    - name: Manage Loop components
-      href: loop-components-in-teams.md
-    - name: Manage actionable activity emails
-      href: teams-outlook-email-integration.md
-    - name: Share to Teams from Outlook
-      href: teams-outlook-share-teams.md
-    - name: Manage messaging policies
-      href: messaging-policies-in-teams.md
-    - name: Chat with distribution lists 
-      href: chat-with-distribution-lists.md
-    - name: User presence in Teams
-      href: presence-admins.md
-    - name: Manage tags in Teams
-      href: manage-tags.md
-    - name: View analytics in Teams
-      href: teams-analytics-and-reports/view-analytics.md
-    - name: Team expiration and renewal
-      href: team-expiration-renewal.md
-    - name: Archive or delete a team
-      href: archive-or-delete-a-team.md
-    - name: Migrate from Slack to Teams
-      href: migrate-slack-to-teams.md
-    - name: Work with team templates
->>>>>>> main
       items: 
         - name: Manage messaging policies
           href: messaging-policies-in-teams.md
@@ -639,16 +580,6 @@ items:
           href: team-templates-nonprofit.md
         - name: Manage team template policies
           href: templates-policies.md
-<<<<<<< HEAD
-=======
-    - name: Cortana in Teams
-      href: cortana-in-teams.md
-    - name: Set up your team targeting hierarchy
-      href: set-up-your-team-hierarchy.md
-    - name: Supervised chat for non-educational tenants
-      href: supervised-chat-non-edu.md  
-    
->>>>>>> main
 
 - name: Meetings and audio conferencing
   items: 
