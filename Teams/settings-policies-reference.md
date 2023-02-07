@@ -320,24 +320,16 @@ Use customization policies to customize the look of Teams meetings with your org
 #### Related topics to customization policies
 
 - [Microsoft Teams Premium - Overview for administrators](enhanced-teams-experience.md)
-- [Custom Together Mode scenes in Teams](platform/apps-in-teams-meetings/teams-together-mode)
+- [Custom Together Mode scenes in Teams](/platform/apps-in-teams-meetings/teams-together-mode)
 - [Set up webinars in Microsoft Teams](set-up-webinars.md)
 
 ### Meeting template policies
 
-Meeting templates policies let you create and set up policies that control what templates people in your organization can see. Microsoft Teams custom meeting templates require a Teams Premium license. The following meeting settings can be controlled by using a meeting template:
+**Navigation:** Teams admin center > Meetings > Meeting template policies
 
-- Chat
-- End-to-end encryption
-- Lobby
-- Manage what attendees see
-- Mic and camera for attendees
-- Notify when callers join and leave
-- Q&A
-- Reactions
-- Recording
-- Sensitivity label
-- Watermarks
+:::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
+
+Meeting templates policies let you create and set up policies that control what templates people in your organization can see. Microsoft Teams custom meeting templates require a Teams Premium license.
 
 #### Related topics to meeting template policies
 
@@ -350,6 +342,8 @@ Meeting templates policies let you create and set up policies that control what 
 
 **Navigation:** Teams admin center > Meetings > Live events policies
 
+:::image type="content" source="media/teams-live-events-policies.png" alt-text="Screenshot of Teams live events policies.":::
+
 Teams live events policies are used to turn on or off features, such as who can join a live event, if transcription is provided for attendees, or if recording live events is available for people who schedule and hold live events.
 
 | Setting | Default | Description |
@@ -360,7 +354,7 @@ Teams live events policies are used to turn on or off features, such as who can 
 |Record an event|Organizer can record|This controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](teams-live-events/live-events-recording-policies.md).|
 
 > [!NOTE]
-> GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](teams-live-events/set-teams-live-events-policies-using-powershell).
+> GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](/teams-live-events/set-teams-live-events-policies-using-powershell).
 
 #### Related topics to live events meeting policies
 
@@ -374,9 +368,9 @@ Teams live events policies are used to turn on or off features, such as who can 
 
 **Navigation:** Teams admin center > Messaging policies
 
-Messaging policies are used to control what chat and channel messaging features are available to users in Teams.
+:::image type="content" source="media/teams-messaging-policies-small.png" alt-text="Screenshot of Teams messaging policies." lightbox="media/teams-messaging-policies.png":::
 
-:::image type="content" source="media/teams-policies-messaging.png" alt-text="Screenshot of Teams messaging policies.":::
+Messaging policies are used to control what chat and channel messaging features are available to users in Teams.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -414,9 +408,9 @@ Messaging policies are used to control what chat and channel messaging features 
 
 **Navigation:** Teams admin center > Voice > Calling policies
 
-Calling policies are used to control what calling features are available to people in Teams.
+:::image type="content" source="media/teams-calling-policies-small.png" alt-text="Screenshot of Teams calling policies." lightbox="media/teams-calling-policies.png":::
 
-:::image type="content" source="media/teams-policies-calling.png" alt-text="Screenshot of Teams calling policies.":::
+Calling policies are used to control what calling features are available to people in Teams.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -455,6 +449,8 @@ Calling policies are used to control what calling features are available to peop
 
 **Navigation:** Teams admin center > Voice > Call hold policies
 
+:::image type="content" source="media/teams-call-hold-policy.png" alt-text="Screenshot of Teams call hold policies.":::
+
 Call hold policies allow you to specify a custom audio file to play while calls are on hold. The **Music on hold** setting must also be **Enabled** in **Voice** > **Calling policies** or no music will be played.
 
 #### Related topics to call hold policies
@@ -466,9 +462,9 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 **Navigation:** Teams admin center > Voice > Call park policies
 
-Call park lets people put a call on hold and transfer it to other people within your organization. Call park policies let you control which users are call park enabled and make other call park setting changes for them.
+:::image type="content" source="media/teams-call-park-policy.png" alt-text="Screenshot of Teams call park policy.":::
 
-:::image type="content" source="media/teams-policies-call-park.png" alt-text="Screenshot of Teams call park policies.":::
+Call park lets people put a call on hold and transfer it to other people within your organization. Call park policies let you control which users are call park enabled and make other call park setting changes for them.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -485,6 +481,8 @@ Call park lets people put a call on hold and transfer it to other people within 
 ### Caller ID policies
 
 **Navigation:** Teams admin center > Voice > Caller ID policies
+
+:::image type="content" source="media/teams-caller-id-policy.png" alt-text="Screenshot of Teams caller ID policy.":::
 
 Caller ID policies are used to change or block the Caller ID (also called a Calling Line ID) for users. By default, the user's phone number is displayed when a call is made to a PSTN phone number such as a landline or mobile phone. You can use the Global (Org-wide default) policy and customize it or create a custom policy that provides an alternate number to display, or to block any number from being displayed.
 
