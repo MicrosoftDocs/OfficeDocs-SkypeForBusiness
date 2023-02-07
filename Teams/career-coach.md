@@ -21,7 +21,7 @@ appliesto:
 # Get started with Career Coach for Microsoft Teams
 
 > [!NOTE]
-> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation. For more information, see [Career Coach Sunset FAQs](https://aka.ms/CareerCoachUpdate).
+> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation. For more information, see [Career Coach Sunset FAQs](https://download.microsoft.com/download/a/4/f/a4f9f9ee-854c-4d87-b76d-db4516ef5521/Career Coach Deprecation FAQ.pdf).
 
 Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for students to navigate their career journey. With Career Coach, educational institutions can help students discover their career path, grow real-world skills, and build their network all in one place.
 
