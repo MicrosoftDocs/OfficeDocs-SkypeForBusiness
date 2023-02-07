@@ -62,6 +62,7 @@ To turn off and turn on the features, set the following parameters:
  - **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
 
  - **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
+**Note**: Call quality feedback is now not gated by **receiveSurveysMode**.
 
  - **Screenshots**: Use the **AllowScreenshotCollection** flag to add screenshot collection opt-in for users.
  - **Email**: Use the **AllowEmailCollection** flag to add an email field.
