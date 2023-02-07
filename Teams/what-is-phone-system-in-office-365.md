@@ -52,7 +52,7 @@ For external calling, Phone System can be connected to the PSTN in one of severa
 
 - Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
-  You can connect your on-premises telephony infrastructure to Phone System by using Operator Connect Calling or Direct Routing. 
+  You can connect your on-premises telephony infrastructure to Phone System by using Operator Connect or Direct Routing. 
 
 For more information about all PSTN Connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
