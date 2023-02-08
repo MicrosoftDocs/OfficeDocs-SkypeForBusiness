@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.VoiceTrunkMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: "What do you want to do? Click the link to the task that you want to perform."

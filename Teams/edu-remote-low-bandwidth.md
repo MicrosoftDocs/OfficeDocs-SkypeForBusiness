@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---

@@ -16,6 +16,7 @@ f1.keywords:
 - NOCSH
 ms.collection:
   - M365-collaboration
+  - tier1
 appliesto:
   - Microsoft Teams
 ---

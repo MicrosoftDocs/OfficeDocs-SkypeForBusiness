@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020

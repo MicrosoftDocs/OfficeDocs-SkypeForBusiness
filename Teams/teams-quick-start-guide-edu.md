@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
+  - tier2
 f1.keywords:
   - CSH
 ms.custom:

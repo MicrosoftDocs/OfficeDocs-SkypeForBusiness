@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier1
 ---
 
 # Create and license Teams Phone System with Calling Plan bundle users and assign them phone numbers

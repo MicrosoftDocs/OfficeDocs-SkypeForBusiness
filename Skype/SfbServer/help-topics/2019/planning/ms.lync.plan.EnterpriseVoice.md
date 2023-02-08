@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW

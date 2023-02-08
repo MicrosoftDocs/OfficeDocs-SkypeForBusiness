@@ -21,8 +21,6 @@ description: Learn how to configure Teams meetings for a baseline level of prote
 
 # Configure Teams meetings with baseline protection
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
-
 For the *baseline* level of protection, we'll restrict who can bypass the lobby by using a sensitivity label and set a default value for who can present with a Teams admin policy. You can restrict additional actions as well if your organization requires it.
 
 > [!Note]
@@ -83,10 +81,10 @@ To create a sensitivity label
 1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
 1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
-    1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Off**.
-    1. Select **Control watermarks** and set **Apply watermarks to shared content** and **Apply watermarks to everyone's video feed** to **Off**.
+    1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Don't apply end-to-end encryption**.
+    1. Select **Control watermarks** and select **Don't apply watermark to shared content** and **Don't apply watermark to everyone's video feed**.
     1. Configure any other settings that you need for your organization.
-    <!--:::image type="content" source="media/teams-meeting-sensitivity-label-baseline-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-baseline-large.png":::-->
+    ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-baseline-small.png)
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 
