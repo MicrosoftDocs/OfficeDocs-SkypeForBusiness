@@ -26,9 +26,22 @@ You can try Teams Premium in your organization for free by adding the Teams Prem
 
 The Teams Premium trial provides 25 licenses for 30 days. Before you start the trial, it's important to plan who will be provided with licenses and what use cases you want to validate during the trial, as well as how feedback will be collected while the trial is underway.
 
+The following are the basic steps involved in the trial:
+
+1. **Pre-trial planning** including defining test cases, choosing users, and deciding which feature settings and policies you want to use
+1. **Add trial to your tenant** including assigning licenses
+1. **Administrative setup** including creating meeting templates and sensitivity labels, uploading logos and backgrounds, and assigning policies to users
+1. **Start the trial** including notifying the trial participants to begin testing the use cases you defined and providing feedback to stakeholders
+
+This article covers pre-trial planning and how to add the trail to your tenant and assign licenses. Specific steps for administrators to set up features for the trial are covered in other Teams Premium article which we link to in the sections below.
+
+## Determine trial participants and stakeholders
+
+Teams Premium provides a variety of enhancements to Teams meetings. We recommend that you find participants from around your organization who can make use of the Teams Premium features in the normal course of their work, as well as stakeholders and specialists who can validate the features for your business and compliance needs.
+
 The following table lists some of the people to consider including in the trial.
 
-|Who|Role|Trial license|
+|Who|Their role in the trial|Trial license?|
 |:--|:---|:--------------------|
 |Microsoft 365 global administrator|Assign Teams Premium trial licenses to trial participants.|No|
 |Teams administrator|Configure Teams Premium settings and policies|No|
@@ -37,51 +50,29 @@ The following table lists some of the people to consider including in the trial.
 |Meeting participants|People in the organization who can attend meetings that use Teams Premium features and give feedback on them|No|
 |Compliance specialists|Compliance or governance specialists who can validate use cases for compliant meetings|Yes|
 
+
+Does Teams admin need a license?
+
+
 We recommend creating security groups with
 - **Compliance testers** - Users who will be testing sensitivity labels and meeting templates in meetings. Sensitivity lables can be published to this group in Microsoft Purview and meeting templates can be made available to this group with a meeting template policy in Teams.
 - **Custom meetings testers** - Users who will be testing templates, backgrounds, and themes. Themes, backgrounds, and templates can be assigned to this group by using meetings customization policies.
 
 
-Before starting the trial:
-- Review the [features available in Teams Premium](enhanced-teams-experience.md)
-- Define the use cases you want to test and validate
-- Assemble a pilot group
-
-
-
-1. **Pre-trial planning** including defining test cases, choosing users, and deciding which feature settings and policies you want to use
-1. **Add trial to your tenant** including assigning licenses
-1. **Administrative setup** including creating meeting templates and sensitivity labels, uploading logos and backgrounds, and assigning policies to users
-1. **Start trial**
-
-
-
-
-Figure out:
-- Label settings for temporary label
-- Template types needed and the settings for each
-
-
-
-- Images for custom meeting backgrounds
-- Logo and images for custom meeting theme
-- 
-
-[Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection)
-
 
 ## Define use cases
 
 Create post-meeting surveys for participants
-[Poll attendees during a Teams meeting](https://support.microsoft.com/office/9923b7d4-ea97-4aa2-b8b8-b45fefe7d454)
-
-[Add a poll to your Teams channel or chat](https://support.microsoft.com/office/a3f9112c-01e1-4ee4-bd88-25e4e243b80b)
 
 
 ## Find a pilot group
 
-- People who hold sensitive meetings
-- Branding or comms people
+Look for the following types of people in your organization:
+
+- People who need to present sensitive information in meetings
+- Branding and corporate communications specialists
+- Compliance and governance specialists
+- People who present to large audience
 
 Create a team in Teams for trial participants.
 
@@ -93,6 +84,12 @@ Give licenses to organizers
 Have a feedback line for meeting participants
 
 Not all pilot group members get a license. Some may be business stakeholders who help define use cases, some may be users with licenses.
+
+You can create a team in Microsoft Teams to gather all the pilot participants and stakeholders in one place where they can communicate and share ideas and feedback. Use channels to organize participants around the different use cases that you want to test.
+
+Beyond Teams chat, there are several options for gathering feedback from trial participants, including [polling attendees during a Teams meeting](https://support.microsoft.com/office/9923b7d4-ea97-4aa2-b8b8-b45fefe7d454) and [adding a poll to your Teams channel or chat](https://support.microsoft.com/office/a3f9112c-01e1-4ee4-bd88-25e4e243b80b).
+
+
 
 ## Get started
 
@@ -107,14 +104,56 @@ Assign licenses to the preview users
 
 ## Compliant meetings
 
-Find people who need to organize sensitive meetings
-Create a temporary label
+To help meet your compliance requirements for meetings, Teams Premium provides sensitivity label controls and custom meeting templates that you can use to define the meeting experience.
 
-Use labels and templates together
+By using sensitivity labels in Microsoft Purview and Teams meeting templates, you can enforce meeting features such as watermarks and encryption, and control many of the meeting settings that are available to meeting organizers.
+
+You can create a combination of sensitivity labels and meeting templates to define meeting experiences for meetings with different sensitivity levels. For ideas on how to use labels and meeting templates for different types of meetings, read [Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection).
+
+For the trial, you'll want to define the different types of meeting experiences that you want to validate and then determine how you want to use sensitivity labels and meeting templates to make these meeting experiences available to trial participants.
+
+We suggest creating temporary sensitivity labels for the trial and publishing them to your trial participants. This way you don't need to update production labels that are available widely within the organization.
+
+For your trial group, you may want to include people who need to present sensitive information in meetings as well as compliance specialists who can validate the features and settings used against your business requirements.
+
+For more information about using Teams Premium for meeting compliance, see the following references:
+
+- [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md)
+- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
+- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 ## Custom meetings
 
+Teams meetings allows organizations to extend their visual identities across the meeting experience.
+
+Upload images that people can use when they attend Teams meetings. Select up to 50 images that you'd like to add. These images will appear on users' interfaces in order of upload. 
+
+Add a theme to customize the look of your organization's Teams meetings with images and colors that represent your organization. Meeting organizers with a Teams Premium license can create meetings using the theme you add, which will be visible to all meeting participants.
+
+
+1 theme per policy
+work with Teams admin to swap out materials
+create multiple policies and assign to different participants
+
+
+Meeting themes
+Use logos, images, and colors from your organization to create a meeting theme. You can apply the theme to all meetings now, or save your work to apply it later. Preview the theme before applying.
+Logos appear in the meeting lobby and other places in Teams.
+Dark theme
+Upload logo
+Accepted file formats are PNG and JPEG. File must be less than 5 MB, and must be at least 576 by 576 pixels.
+Images appear in the meeting lobby background and other places in Teams.
+Enter a hex code to set the color of the buttons and other details in meetings.
+
 Use templates, backgrounds, and themes
+- Template types needed and the settings for each
+
+- [Custom meeting backgrounds for Teams Meetings](custom-meeting-backgrounds.md)
+- [Meeting themes for Teams meetings](meeting-themes.md)
+- [Use meeting themes for Teams meetings](https://support.microsoft.com/office/fbfd826d-1112-4790-918a-5a82cac8250e)
+
+
 
 ## Premium events
 
