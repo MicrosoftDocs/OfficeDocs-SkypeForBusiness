@@ -22,33 +22,56 @@ description: Learn how to set up a Teams Premium trial to understand and test pr
 
 # Roll out a Teams Premium trial
 
+You can try Teams Premium in your organization for free by adding the Teams Premium trial to your organization.
+
+The Teams Premium trial provides 25 licenses for 30 days. Before you start the trial, it's important to plan who will be provided with licenses and what use cases you want to validate during the trial, as well as how feedback will be collected while the trial is underway.
+
+The following table lists some of the people to consider including in the trial.
+
+|Who|Role|Trial license|
+|:--|:---|:--------------------|
+|Microsoft 365 global administrator|Assign Teams Premium trial licenses to trial participants.|No|
+|Teams administrator|Configure Teams Premium settings and policies|No|
+|Compliance administrator|Set up and publish sensitivity labels|No|
+|Meeting organizers|Schedule meetings where participants can test Teams Premium features|Yes|
+|Meeting participants|People in the organization who can attend meetings that use Teams Premium features and give feedback on them|No|
+|Compliance specialists|Compliance or governance specialists who can validate use cases for compliant meetings|Yes|
+
+We recommend creating security groups with
+- **Compliance testers** - Users who will be testing sensitivity labels and meeting templates in meetings. Sensitivity lables can be published to this group in Microsoft Purview and meeting templates can be made available to this group with a meeting template policy in Teams.
+- **Custom meetings testers** - Users who will be testing templates, backgrounds, and themes. Themes, backgrounds, and templates can be assigned to this group by using meetings customization policies.
 
 
-To add the Teams Premium trail to Microsoft 365
-1. In the Microsoft 365 admin center, expand **Billing**, and then select **Purchase services**.
-1. Search for *Teams Premium*.
-1. Under **Microsoft Teams Premium Trial**, select **Details**.
-1. Select **Start free trial**.
-1. On the checkout page, select **Try now**.
-1. Select **Continue**.
+Before starting the trial:
+- Review the [features available in Teams Premium](enhanced-teams-experience.md)
+- Define the use cases you want to test and validate
+- Assemble a pilot group
 
-It may take up to 72 hours for Teams Premium sensitivity label settings to be available.
 
-## Planning checklist
 
-30-day trial, so plan before you install.
+1. **Pre-trial planning** including defining test cases, choosing users, and deciding which feature settings and policies you want to use
+1. **Add trial to your tenant** including assigning licenses
+1. **Administrative setup** including creating meeting templates and sensitivity labels, uploading logos and backgrounds, and assigning policies to users
+1. **Start trial**
 
-Create a security group and add trial participants to it. Assign Teams Premium meeting policies to this group, make the templates and labels available to them.
+
 
 
 Figure out:
 - Label settings for temporary label
 - Template types needed and the settings for each
+
+
+
 - Images for custom meeting backgrounds
 - Logo and images for custom meeting theme
 - 
 
-Define use cases
+[Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection)
+
+
+## Define use cases
+
 Create post-meeting surveys for participants
 [Poll attendees during a Teams meeting](https://support.microsoft.com/office/9923b7d4-ea97-4aa2-b8b8-b45fefe7d454)
 
@@ -98,6 +121,19 @@ Use templates, backgrounds, and themes
 
 ## Advanced Virtual Appointments
 
+## Add the Teams Premium trial and assign licenses
+
+The Teams Premium trial is added from the Microsoft 365 admin center.
+
+To add the Teams Premium trail to Microsoft 365
+1. In the Microsoft 365 admin center, expand **Billing**, and then select **Purchase services**.
+1. Search for *Teams Premium*.
+1. Under **Microsoft Teams Premium Trial**, select **Details**.
+1. Select **Start free trial**.
+1. On the checkout page, select **Try now**.
+1. Select **Continue**.
+
+Note that it may take up to 72 hours for Teams Premium sensitivity label settings to be available in the Microsoft Purview compliance portal.
 
 
 ## Related topics
