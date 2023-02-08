@@ -64,7 +64,7 @@ If any of these settings are configured in the label, they will override these s
 
 ## Templates included with Teams
 
-Teams Premium includes several default meeting template:
+Teams Premium includes the following default meeting template:
 
 - [Virtual appointment](virtual-appointment-meeting-template.md)
 
