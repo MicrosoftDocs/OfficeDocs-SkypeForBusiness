@@ -1,5 +1,5 @@
 ---
-title: Phone system direct routing overview
+title: Direct Routing support for media bypass
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-description: hHw Direct Routing supports media bypass with a Session Border Controller enabled for ICE Lite.
+description: How Direct Routing supports media bypass with a Session Border Controller enabled for ICE Lite.
 appliesto: 
   - Microsoft Teams
 ---
