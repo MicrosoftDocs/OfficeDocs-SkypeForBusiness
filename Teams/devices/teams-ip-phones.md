@@ -38,13 +38,14 @@ Certification programs are designed to ensure all certified devices run an Andro
 Beyond the certification period, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
 
 >[!NOTE]
->Certification end dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
+> Certification end dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
 
 ## Certified Teams phones
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
->[!NOTE]
->Certification end date for Qualcomm based devices on Andriod 10 has been extended to September 3, 2025
+
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -73,8 +74,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 ## Certified Teams Rooms on Android
 
 The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
->[!NOTE]
->Certification end date for Qualcomm based devices on Andriod 10 has been extended to September 3, 2025
+
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
@@ -106,8 +108,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 ## Certified Teams Displays
 
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
->[!NOTE]
->Certification end date for Qualcomm based devices on Andriod 10 has been extended to September 3, 2025
+
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -117,8 +120,9 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 ## Certified Teams panels
 The following devices are Certified under the Microsoft Teams panels Certification Program:
->[!NOTE]
->Certification end date for Qualcomm based devices on Andriod 10 has been extended to September 3, 2025
+
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
