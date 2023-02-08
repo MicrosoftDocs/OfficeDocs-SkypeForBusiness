@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Overview
+# Direct Routing - media protocols
 
 This article describes how Direct Routing supports media bypass with a Session Border Controller (SBC) enabled for ICE Lite as described in [RFC 5245](https://tools.ietf.org/html/rfc5245). This article is intended for voice administrators who are responsible for configuring the connection between the on-premises SBC and the SIP proxy service.
 
