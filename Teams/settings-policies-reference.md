@@ -88,6 +88,8 @@ Template policies control what team templates users see when they create a new t
 
 Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app. Public preview is not enabled by default.
 
+:::image type="content" source="media/teams-update-policy.png" alt-text="Screenshot of Teams update policy.":::
+
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
 
 #### Related topics to Teams update policies
@@ -101,7 +103,11 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 
 **Navigation:** Teams admin center > Teams apps > Permission policies
 
-App permission policies control what apps you want to make available to Teams users in your organization. The type of apps are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
+App permission policies control what apps you want to make available to Teams users in your organization.
+
+:::image type="content" source="media/teams-apps-permission-policies.png" alt-text="Screenshot of Teams apps permission policies.":::
+
+The type of apps to permission are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
 
 - **Allow all apps** - Users can install and use any app published by your organization in the Teams app store.
 - **Allow specific apps and block all others** - Allow specific apps you want to allow from the Teams app store and all other apps would be blocked.
@@ -122,6 +128,8 @@ App permission policies control what apps you want to make available to Teams us
 **Navigation:** Teams admin center > Teams apps > Setup policies
 
 App setup policies control how apps are made available to a user with the Teams app.
+
+:::image type="content" source="media/teams-apps-setup-policies-small.png" alt-text="Screenshot of Teams apps setup policy." lightbox="media/teams-apps-setup-policies.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -309,6 +317,8 @@ Content sharing settings let you control the different types of content that can
 
 Use customization policies to customize the look of Teams meetings with your organization's logo, colors, or other visuals. These settings require a Teams Premium license.
 
+:::image type="content" source="media/teams-meetings-customization-policies-small.png" alt-text="Screenshot of Teams meetings customization policies." lightbox="media/teams-meetings-customization-policies.png":::
+
 #### Custom meeting visuals
 
 | Setting | Default | Description |
@@ -327,9 +337,9 @@ Use customization policies to customize the look of Teams meetings with your org
 
 **Navigation:** Teams admin center > Meetings > Meeting template policies
 
-:::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
-
 Meeting templates policies let you create and set up policies that control what templates people in your organization can see. Microsoft Teams custom meeting templates require a Teams Premium license.
+
+:::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
 
 #### Related topics to meeting template policies
 
@@ -342,9 +352,9 @@ Meeting templates policies let you create and set up policies that control what 
 
 **Navigation:** Teams admin center > Meetings > Live events policies
 
-:::image type="content" source="media/teams-live-events-policies.png" alt-text="Screenshot of Teams live events policies.":::
-
 Teams live events policies are used to turn on or off features, such as who can join a live event, if transcription is provided for attendees, or if recording live events is available for people who schedule and hold live events.
+
+:::image type="content" source="media/teams-live-events-policies.png" alt-text="Screenshot of Teams live events policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -368,9 +378,9 @@ Teams live events policies are used to turn on or off features, such as who can 
 
 **Navigation:** Teams admin center > Messaging policies
 
-:::image type="content" source="media/teams-messaging-policies-small.png" alt-text="Screenshot of Teams messaging policies." lightbox="media/teams-messaging-policies.png":::
-
 Messaging policies are used to control what chat and channel messaging features are available to users in Teams.
+
+:::image type="content" source="media/teams-messaging-policies-small.png" alt-text="Screenshot of Teams messaging policies." lightbox="media/teams-messaging-policies.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -408,9 +418,9 @@ Messaging policies are used to control what chat and channel messaging features 
 
 **Navigation:** Teams admin center > Voice > Calling policies
 
-:::image type="content" source="media/teams-calling-policies-small.png" alt-text="Screenshot of Teams calling policies." lightbox="media/teams-calling-policies.png":::
-
 Calling policies are used to control what calling features are available to people in Teams.
+
+:::image type="content" source="media/teams-calling-policies-small.png" alt-text="Screenshot of Teams calling policies." lightbox="media/teams-calling-policies.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -449,9 +459,9 @@ Calling policies are used to control what calling features are available to peop
 
 **Navigation:** Teams admin center > Voice > Call hold policies
 
-:::image type="content" source="media/teams-call-hold-policy.png" alt-text="Screenshot of Teams call hold policies.":::
-
 Call hold policies allow you to specify a custom audio file to play while calls are on hold. The **Music on hold** setting must also be **Enabled** in **Voice** > **Calling policies** or no music will be played.
+
+:::image type="content" source="media/teams-call-hold-policy.png" alt-text="Screenshot of Teams call hold policies.":::
 
 #### Related topics to call hold policies
 
@@ -462,9 +472,9 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 **Navigation:** Teams admin center > Voice > Call park policies
 
-:::image type="content" source="media/teams-call-park-policy.png" alt-text="Screenshot of Teams call park policy.":::
-
 Call park lets people put a call on hold and transfer it to other people within your organization. Call park policies let you control which users are call park enabled and make other call park setting changes for them.
+
+:::image type="content" source="media/teams-call-park-policy.png" alt-text="Screenshot of Teams call park policy.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -481,8 +491,6 @@ Call park lets people put a call on hold and transfer it to other people within 
 ### Caller ID policies
 
 **Navigation:** Teams admin center > Voice > Caller ID policies
-
-:::image type="content" source="media/teams-caller-id-policy.png" alt-text="Screenshot of Teams caller ID policy.":::
 
 Caller ID policies are used to change or block the Caller ID (also called a Calling Line ID) for users. By default, the user's phone number is displayed when a call is made to a PSTN phone number such as a landline or mobile phone. You can use the Global (Org-wide default) policy and customize it or create a custom policy that provides an alternate number to display, or to block any number from being displayed.
 
@@ -591,6 +599,8 @@ Voicemail policies control the available features for the voicemail service in T
 **Navigation:** Teams admin center > Enhanced encryption policies
 
 Enhanced encryption policies are used to control if users in your organization can use enhanced encryption settings in Teams.
+
+:::image type="content" source="media/teams-e2ee-policies.png" alt-text="Screenshot of Teams end-to-end encryption policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
