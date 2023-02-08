@@ -3,8 +3,8 @@ title: Meetings, webinars, and live events
 ms.reviewer: 
 description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
