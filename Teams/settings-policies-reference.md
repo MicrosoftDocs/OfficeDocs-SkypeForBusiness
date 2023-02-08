@@ -32,13 +32,13 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 **Navigation:** Teams admin center > Teams > Teams policies
 
-Teams policies are used to control what settings or features are available to users when they are using teams and channels.
+Teams policies are used to control what settings or features are available to users when they're using teams and channels.
 
 :::image type="content" source="media/teams-policies-teams.png" alt-text="Screenshot of Teams team policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Create private channels|On|When **On**, team owners and members can create private channels which contain a subset of team members.|
+|Create private channels|On|When **On**, team owners and members can create private channels that contain a subset of team members.|
 |Create shared channels|On|When **On**, team owners can create shared channels for people within and outside the organization.|
 |Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Azure AD organizations to join the channel, if Azure AD cross-tenant access settings are configured.|
 |Join external shared channels|On|When **On**, users and teams can be invited to external shared channels, if Azure AD cross-tenant access settings are configured.|
@@ -47,8 +47,8 @@ Teams policies are used to control what settings or features are available to us
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md) |
-|EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this to **True** to allow or **False** to prohibit.|
+|AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this value to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md).|
+|EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this value to **True** to allow or **False** to prohibit.|
 
 #### Related topics to Teams policies
 
@@ -86,7 +86,7 @@ Template policies control what team templates users see when they create a new t
 
 **Navigation:** Teams admin center > Teams > Template policies
 
-Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app. Public preview is not enabled by default.
+Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app. Public preview isn't enabled by default.
 
 :::image type="content" source="media/teams-update-policy.png" alt-text="Screenshot of Teams update policy.":::
 
@@ -107,7 +107,7 @@ App permission policies control what apps you want to make available to Teams us
 
 :::image type="content" source="media/teams-apps-permission-policies.png" alt-text="Screenshot of Teams apps permission policies.":::
 
-The type of apps to permission are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
+The types of apps to permission are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
 
 - **Allow all apps** - Users can install and use any app published by your organization in the Teams app store.
 - **Allow specific apps and block all others** - Allow specific apps you want to allow from the Teams app store and all other apps would be blocked.
@@ -133,8 +133,8 @@ App setup policies control how apps are made available to a user with the Teams 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Upload custom apps|Off|This setting determines if a user can upload a custom app package in the Teams app. Turning it on lets you create or develop a custom app to be used personally or across your organization without having to submit it to the Teams app store. Uploading a custom app also lets you test an app before you distribute it more widely by only assigning it to a single user or group of users. Read more about how to [Manage custom and sideloaded apps in Teams admin center](teams-custom-app-policies-and-settings.md)|
-|User pinning|On|If you turn this on, the user’s existing app pins will be added to the list of pinned apps set in this policy. Users can rearrange, add, and remove pins as they choose. If you turn this off, the user’s existing app pins will be removed and replaced with the apps defined in this policy.|
+|Upload custom apps|Off|This setting determines if a user can upload a custom app package in the Teams app. Turning it on lets you create or develop a custom app to be used personally or across your organization without having to submit it to the Teams app store. Uploading a custom app also lets you test an app before you distribute it more widely by only assigning it to a single user or group of users. Read more about how to [Manage custom and sideloaded apps in Teams admin center](teams-custom-app-policies-and-settings.md).|
+|User pinning|On|If you turn this setting on, the user’s existing app pins will be added to the list of pinned apps set in this policy. Users can rearrange, add, and remove pins as they choose. If you turn this setting off, the user’s existing app pins will be removed and replaced with the apps defined in this policy.|
 |Installed apps|(none)|Choose which apps and messaging extensions you want installed in your users' personal Teams environment and in meetings they create. Users can install other available apps from the Teams app store.|
 |Pinned apps|Activity, Chat, Teams, Calendar, Calling, Files|Choose the order apps are pinned in messaging extensions and the Teams app bar.|
 
@@ -206,7 +206,7 @@ Meeting policies are used to control what features are available to users when t
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|StreamingAttendeeMode|Enabled|This setting enables view-only mode for meetings that exceed the capacity of the main meeting. Read more about [Teams view-only meeting experience](view-only-meeting-experience.md)|
+|StreamingAttendeeMode|Enabled|This setting enables view-only mode for meetings that exceed the capacity of the main meeting. Read more about [Teams view-only meeting experience](view-only-meeting-experience.md).|
 
 ##### Related topics to meeting engagement policies
 
@@ -223,7 +223,7 @@ Content sharing settings let you control the different types of content that can
 |Who can present|Everyone, but user can override|Controls what the default value is for **Who can  present?** in **Meeting options** for the Teams client.|
 |Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
-|External participants can give or request control|Off|Controls whether external users can be given or request control of the shared desktop or window. This must be turned on in both organizations for an external user to take control in Teams meetings hosted by people in your organization.|
+|External participants can give or request control|Off|Controls whether external participants can be given or request control of the shared desktop or window. This setting must be turned on in both organizations for an external participant to take control in Teams meetings hosted by people in your organization.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
@@ -237,7 +237,7 @@ Content sharing settings let you control the different types of content that can
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
- Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled.
+ Watermarks can be useful for protecting confidential information shared in meetings. They're most useful when sharing information with people who don't normally have access to the information. Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -272,7 +272,7 @@ Content sharing settings let you control the different types of content that can
 |EnrollUserOverride|Disabled|This setting sets voice profile capture, or enrollment, in Teams settings for a tenant.|
 |LiveInterpretationEnabledType|DisabledUserOverride|This setting allows meeting organizers to configure a meeting for language interpretation and select attendees to become interpreters that other attendees can select and listen to the real-time translation they provide.|
 |MeetingInviteLanguages|None|This setting controls how the join information in meeting invitations is displayed by enforcing a common language or enabling up to two languages to be displayed. All Teams supported languages can be specified using language codes.|
-|SpeakerAttributionMode|EnabledUserOverride|Speakers are identified in transcription. If enabled, users can override this and choose not to be identified in their Teams profile settings.|
+|SpeakerAttributionMode|EnabledUserOverride|Speakers are identified in transcription. If enabled, users can override this setting and choose not to be identified in their Teams profile settings.|
 |RoomAttributeUserOverride|(none)|This setting controls the voice-based user identification in meeting rooms. This setting is required for Teams Rooms account. Read more about how to [Manage voice recognition technology controls for an Intelligent Speaker](rooms/voice-recognition.md).|
 
 ##### Related topics to recording & transcription policies
@@ -303,7 +303,7 @@ Content sharing settings let you control the different types of content that can
 | Parameter | Default | Description |
 |:-----|:-----|:-----|
 |AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
-|PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. By default, this is set to TeamsAndSfb, and users see both the Skype for Business and Teams add-ins. Set this to Teams to remove the Skype for Business add-in and only show the Teams add-in.|
+|PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. With the default value of `TeamsAndSfb`, users see both the Skype for Business and Teams add-ins. If you set this value to `Teams`, the Skype for Business add-in will be removed and only the Teams add-in will be shown.|
 |TeamsCameraFarEndPTZMode|Disabled|Read more about how to to configure [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](meeting-policies-audio-and-video.md#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras).|
 
 ##### Related topics to audio & video meeting policies
@@ -324,7 +324,7 @@ Use customization policies to customize the look of Teams meetings with your org
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Currently Active|No|After adding a theme, this setting allows admins to define their branding by enabling a custom meeting theme. Read more on [Meeting themes for Teams meetings](meeting-themes.md).|
-|Allow organizer to control meeting theme|Off|When this is on, meeting organizers can turn off meeting themes for specific meeting instances through the meeting options.|
+|Allow organizer to control meeting theme|Off|When this setting is on, meeting organizers can turn off meeting themes for specific meeting instances through the meeting options.|
 |Custom backgrounds|Off|This setting gives you the ability to upload custom background images for Teams meetings that will appear on your end users' interfaces, ordered by the time of upload. Read how to enable [Custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md).|
 
 #### Related topics to customization policies
@@ -359,9 +359,9 @@ Teams live events policies are used to turn on or off features, such as who can 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Live events scheduling|On|When **On**, users in your organization can create and schedule live events in Teams.|
-|Transcription for attendees|Off|Turning this on enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
+|Transcription for attendees|Off|Turning this setting on enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
 |Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection. For PowerShell, the [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy) cmdlet with `-BroadcastAttendeeVisibilityMode` gives the options to also use `EveryoneInCompanyAndExternal` or `InvitedUsersInCompanyAndExternal`.|
-|Record an event|Organizer can record|This controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](teams-live-events/live-events-recording-policies.md).|
+|Record an event|Organizer can record|This setting controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](teams-live-events/live-events-recording-policies.md).|
 
 > [!NOTE]
 > GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](/teams-live-events/set-teams-live-events-policies-using-powershell).
@@ -396,7 +396,7 @@ Messaging policies are used to control what chat and channel messaging features 
 |URL previews|On|Controls automatic URL previewing in messages.|
 |Translate messages|On|Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365. Read more on [inline message translation in Microsoft Teams](inline-message-translation-teams.md)|
 |Immersive reader for messages|On|When **On**, users can view messages in Microsoft Immersive Reader.|
-|Send urgent messages using priority notifications|On|If you turn this on, users can send messages using priority notifications. Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as urgent are picked up and read by the recipient.|
+|Send urgent messages using priority notifications|On|If you turn this setting on, users can send messages using priority notifications. Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as urgent are picked up and read by the recipient.|
 |Create voice messages|Allowed in chats and channels|This setting controls whether users can leave audio messages in chats and channels.|
 |On mobile devices, display favorite channels above recent chats|Not enabled|When **Enabled**, this setting moves favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.|
 |Remove users from group chats|On|Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.|
@@ -424,23 +424,23 @@ Calling policies are used to control what calling features are available to peop
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Make private calls|On|This setting controls all calling capabilities in Teams. Turn this off to turn off all calling functionality in Teams.|
-|Cloud recording for calling|Off|This settings allow you to control whether call recording is available for your users.|
-|Transcription|Off|This settings allow you to control whether post-call transcriptions are available for your users.|
+|Make private calls|On|This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.|
+|Cloud recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
+|Transcription|Off|This setting allows you to control whether post-call transcriptions are available for your users.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
 |Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|
 |Voicemail is available for routing inbound calls|User controlled|When set to **Enabled** or **User controlled**, inbound calls can be sent to voicemail.|
 |Inbound calls can be routed to call groups|On|This setting controls whether incoming calls can be forwarded to a call group.|
 |Delegation for inbound and outbound calls|On|This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.|
-|Prevent toll bypass and send calls through the PSTN|Off|Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
+|Prevent toll bypass and send calls through the PSTN|Off|Turn this setting **On** to send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
 |Music on hold|Enabled|Controls whether music is played when a PSTN caller is placed on hold.|
 |Busy on busy when in a call|Not enabled|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
 |Web PSTN calling|On|This setting enables users to call PSTN numbers using the Teams web client.|
-|Real-time captions in Teams calls|On|This settings allow you to control whether real-time captions in Teams calls are available for your users.|
+|Real-time captions in Teams calls|On|This setting allows you to control whether real-time captions in Teams calls are available for your users.|
 |Automatically answer incoming meeting invites|Off|This setting controls whether incoming meeting invites are automatically answered on Teams phones. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.|
 |Spam filtering|Turn on|This setting allows you to control the type of Spam filtering available on incoming calls.|
 |SIP devices can be used for calls|Off|This setting enables users to use a SIP device to make and receive calls.|
-|Open apps in browser for incoming PSTN calls|Off|This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This can be used to pass  the phone of an inbound caller to an app to find the associated customer record while the call is taking place.|
+|Open apps in browser for incoming PSTN calls|Off|This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This setting can be used to pass the phone of an inbound caller to an app to find the associated customer record while the call is taking place.|
 
 #### PowerShell-only calling policies
 
@@ -499,7 +499,7 @@ Caller ID policies are used to change or block the Caller ID (also called a Call
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Block incoming caller ID|Off|Turn on this setting to block the caller ID of incoming calls from being displayed.|
-|Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID.|
+|Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. Users can then choose whether or not to display their caller ID.|
 |Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call. Read more about [Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).|
 |Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
 |Replace the caller ID with this service number|(Choose a service number)|Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace the caller ID with**.|
@@ -521,12 +521,12 @@ Emergency calling policies are used to control how users in your organization ca
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|External location lookup mode|Off|Turn this on to allow your end users to configure their emergency address when they are working from a network location outside of the corporate network. Read more about [emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and how to [add, change, or remove an emergency location](add-change-remove-emergency-location-organization.md) or [place for an emergency location](add-change-remove-emergency-place-organization.md) for your organization.|
+|External location lookup mode|Off|Turn this setting on to allow your end users to configure their emergency address when they're working from a network location outside of the corporate network. Read more about [emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and how to [add, change, or remove an emergency location](add-change-remove-emergency-location-organization.md) or [place for an emergency location](add-change-remove-emergency-place-organization.md) for your organization.|
 |Notification mode|(Blank)|This sets the type of notification sent to a security desk or team when someone calls emergency services. You can set it to just send a notification to them, or if they can, join an emergency call muted or unmuted.|
 |Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location.|
 |Numbers to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
-|Dynamic emergency calling|Off|If you turn this on, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
+|Dynamic emergency calling|Off|If you turn this setting on, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
 #### Related topics to emergency policies
 
@@ -574,16 +574,16 @@ Voicemail policies control the available features for the voicemail service in T
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Users can edit call answering rules|On|This setting controls whether the user is allowed to configure voicemail call answering rules in Microsoft Teams.|
-|Maximum voicemail recording length (seconds)|300|The maximum length of a voicemail. This must be between 30 and 600 seconds.|
+|Maximum voicemail recording length (seconds)|300|The maximum length of a voicemail. This length must be between 30 and 600 seconds.|
 |Primary prompt language|(Blank)|The first language used to play system prompts to callers and the first option on the language selection menu.|
 |Secondary prompt language|(Blank)|The second language used to play system prompts to callers and the second option on the language selection menu.|
-|Voicemail transcription|On|Turn this on to enable transcription for voicemails.|
-|Translation for transcriptions|On|Turn this on to enable translation for voicemail transcriptions.|
-|Mask profanity in voicemail transcription|Off|If you turn this on, profanity will be masked in voicemail transcriptions.|
-|Users can share data for service improvement|On|If you turn this on, users can share voicemail and transcription data for training and improving accuracy. If you turn this off, voicemail data won't be shared.|
+|Voicemail transcription|On|Turn this setting on to enable transcription for voicemails.|
+|Translation for transcriptions|On|Turn this setting on to enable translation for voicemail transcriptions.|
+|Mask profanity in voicemail transcription|Off|If you turn this setting on, profanity will be masked in voicemail transcriptions.|
+|Users can share data for service improvement|On|If you turn this setting on, users can share voicemail and transcription data for training and improving accuracy. If you turn this setting off, voicemail data won't be shared.|
 |Before the user's greeting, play audio file|(none)|The audio file to play to the caller before the user's voicemail greeting is played.|
 |After the user's greeting, play audio file|(none)|The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.|
-|Disconnect the call if preamble or postamble cannot be played|Off|If you turn this on, the Pre- or Postamble will play before the caller can leave a message.|
+|Disconnect the call if preamble or postamble can't be played|Off|If you turn this setting on, the Pre- or Postamble will play before the caller can leave a message.|
 
 #### Related topics to voicemail policies
 
