@@ -105,7 +105,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 
 > [!NOTE]
-> Users will need one of the following to use BlueParrott headsets: Teams iOS version: 4.16 or greater, or Teams Android version: 2022372201 or greater
+> Users will need one of the following to use BlueParrott headsets: Teams iOS version: 4.16 or greater, or Teams Android version: 2022372201 or greater.
 
 #### Rugged Android phones
 
