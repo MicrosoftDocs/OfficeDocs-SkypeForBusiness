@@ -70,14 +70,13 @@ Teams Premium includes several default meeting templates that you can make avail
 - Protected meeting
 - Town hall
 - [Virtual appointment](virtual-appointment-meeting-template.md)
-- Webinar
+- [Webinar](set-up-webinars.md)
 
 Additionally, these templates are available in Teams for Education:
 
 - Class
-- Discussion group
 - Lecture
-- Parent teacher conference
+- [Webinar](set-up-webinars.md)
 
 You can update the settings on these templates if you need to.
 
@@ -86,3 +85,5 @@ You can update the settings on these templates if you need to.
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
+
+[Meetings, webinars, and live events](quick-start-meetings-live-events.md)
