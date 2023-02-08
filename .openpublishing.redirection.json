@@ -2974,6 +2974,1101 @@
     "source_path": "Teams/set-the-caller-id-for-a-user.md",
     "redirect_url": "/microsoftteams/caller-id-policies",
     "redirect_document_id": true
+  },
+  {
+    "source_path":  "Teams/manage-phone-numbers-for-your-organization/contact-tns-service-desk.md",
+    "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
+    "redirect_document_id":  true
+  },
+  {
+    "source_path":  "Teams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md",
+    "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/manage-phone-numbers-for-your-organization",
+    "redirect_document_id":  true
+  },
+  {
+    "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md",
+    "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia",
+    "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-austria",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-belgium",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-canada",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-croatia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-croatia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-czech-republic",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-denmark",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-estonia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-finland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-france",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-germany",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hungary",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-ireland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-italy",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-japan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-latvia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-lithuania",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-luxembourg",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-mexico",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-new-zealand",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-norway",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-poland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-portugal",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-romania",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-singapore",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovakia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovenia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-south-africa",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-spain",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-sweden",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-switzerland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-netherlands",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-k",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md",
+      "redirect_url":  "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-s",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-argentina",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-australia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-austria",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-belarus",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-belgium",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-belize",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-bosnia-and-herzegovina",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-brazil",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-brunei",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-bulgaria",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-canada.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-canada",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-chile",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-columbia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-croatia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-cyprus",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-denmark",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-ecuador",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-egypt",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-estonia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-finland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-france",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-germany",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-honduras",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-hong-kong",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-hungary",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-india",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-indonesia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-ireland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-israel",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-italy",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-japan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-kenya",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-luxembourg",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-malaysia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-mexico",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-moldova",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-monaco",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-panama",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-paraguay",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-peru",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-poland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-portugal",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-qatar",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-romania",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-saudi-arabia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-serbia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-singapore",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-slovakia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-slovenia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-south-africa",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-south-korea",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-spain",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-sweden",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-switzerland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-taiwan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-thailand",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-the-netherlands",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-the-philippines",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-the-united-arab-emirates",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-the-united-kingdom-u-k",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-states-u-s.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-the-united-states-u-s",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-turkey",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-uruguay",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-venezuela",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md",
+      "redirect_url":  "/microsoftteams/phone-reference/toll-free/toll-free-dialing-restrictions-in-vietnam",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-albania",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-algeria",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-antigua-and-barbuda",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-argentina",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-australia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-austria",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-bahrain",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-bangladesh",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-barbados",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-belarus",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-belgium",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-belize",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-benin",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-bermuda",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-bosniaherzegovina",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-brazil",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-brunei",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-bulgaria",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-cambodia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-cameroon",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-canada",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-chile",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-china",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-colombia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-costa-rica",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-croatia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-cyprus",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-denmark",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-dominica",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-ecuador",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-egypt",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-el-salvador",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-estonia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-finland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-france",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-georgia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-germany",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-ghana",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-greece",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-grenada",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-guam",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-guatemala",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-honduras",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-hong-kong",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-hungary",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-india",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-indonesia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-ireland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-israel",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-italy",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-jamaica",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-japan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-jordan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kazakhstan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-kazakhstan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-kenya",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-kuwait",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-latvia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-lithuania",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-luxembourg",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-macedonia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-malaysia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-malta",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-mexico",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-moldova",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-monaco",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-morocco",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-new-zealand",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-nicaragua",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-nigeria",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-northern-mariana-islands",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-norway",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-pakistan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-panama",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-paraguay",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-peru",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-poland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-portugal",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-puerto-rico",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-qatar",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-romania",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-russia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-saint-kitts-and-nevis",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-saint-lucia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-saudi-arabia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-serbia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-singapore",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-slovakia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-slovenia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-south-africa",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-south-korea",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-spain",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-sri-lanka",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-sweden",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-switzerland",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-taiwan",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-thailand",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-bahamas",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-cayman-islands",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-czech-republic",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-dominican-republic",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-netherlands",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-philippines",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-ukraine",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-united-arab-emirates-uae",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-united-kingdom-u-k",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-the-united-states-u-s",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-trinidad-and-tobago",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-tunisia",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-turkey",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-turks-and-caicos-islands",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-uganda",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-uruguay",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-venezuela",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/availability-in-vietnam",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/country-and-region-availability-for-audio-conferencing-and-calling-plans",
+      "redirect_document_id":  true
+  },
+  {
+      "source_path":  "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md",
+      "redirect_url":  "/microsoftteams/phone-reference/plan-availability/users-can-make-outbound-calls-to-these-countries-and-regions",
+      "redirect_document_id":  true
   }
   ] 
 }
