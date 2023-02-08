@@ -104,6 +104,9 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 
+> [!NOTE]
+> Users will need one of the following to use BlueParrott headsets: Teams iOS version: 4.16 or greater, or Teams Android version: 2022372201 or greater
+
 #### Rugged Android phones
 
 - Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html), and [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
