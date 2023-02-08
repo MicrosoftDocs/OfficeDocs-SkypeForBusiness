@@ -86,9 +86,6 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS                 |SDW 5061 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |SDW 5031 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |SDW 5011 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
-|Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
-|Dell                 |P2724DEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
-|Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH76 Headset                                               |12/22/2022      |Certified for Microsoft Teams                           |
 |Logitech             |Brio 300/301/305 Camera                                    |12/22/2022      |Certified for Microsoft Teams                           |
 |Poly                 |Savi 7310 UC Series headsets with dongle version v1008     |12/22/2022      |Certified for Microsoft Teams                           |
