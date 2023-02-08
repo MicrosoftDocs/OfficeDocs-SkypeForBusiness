@@ -23,6 +23,33 @@ f1keywords:
 
 The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
 
+## Reporting Q4: Export Tickets button
+
+A new export Ticket history feature has been created that will allow you to export all incident ticket history information to be used for deeper reporting and analysis.  
+
+To view the export ticket button, navigate to Reports >Overview> Export ticket
+
+Under the Overview report, the “export tickets” button will provide detailed data about the ticket history which includes the following fields: creation date, device name, incident type, ticket state, ticket ID, last update, history, last resolved date, message/notes conversations, closure summary, closed by and last closed date. 
+
+|Column |Description   |
+|----------|-----------|
+|Created |Date and time the ticket was created |
+|Device |Device ID of the room mapped in room name (display name) and host name  |
+|Incident Type  |Spread in incident type id, incident type display name which is sub category in UI, the incident type category (Ex: account, config,) and the incident type severity ( Ex: critical, important, ) |
+|State |The state/status of the ticket which can be either new, investigating, resolved, closed and watching |
+|TicketID |The ticket ID in "7B7365-EPDOLF" format |
+|WaitingOn |The waiting stage of the ticket with waiting on the system or customer for actions  |
+|LatsUpdate |Any updates made on the ticket with specific date and time  |
+|History |Provide a detail history of the ticket status overtime |
+|SnowIncident |SNOW incident number in "INC11684776" format |
+|LastResolved |Date and time when the ticket was last resolved  |
+|Conversation |All conversations/ texts about the ticket with the exact time/ date and the user |
+|Closure Summary/ Reason |Ex: Self Resolved |
+|Closure Summary/ Closed By |Ex: Managed Room Services |
+|LastClosed |The date/time when the ticket was closed |
+
+Once clicked on the button, the download will start, if you leave the portal before it begins the downloading, the file will need to be requested again. All the data will be generated in a JSON file which can be downloaded and imported into PowerBI for use.
+
 ## Navigating reports
 
 <!--![A screenshot of active tickets bar graph](../media/health-and-usage-002new.png)-->
