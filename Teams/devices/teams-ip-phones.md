@@ -398,6 +398,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2023 Update #1A | February 9, 2023 | `1.0.95.2023011903` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #5 | January 25, 2023 | `1449/1.0.95.2023011001` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #4A | December 14, 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #1  |November 14, 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
