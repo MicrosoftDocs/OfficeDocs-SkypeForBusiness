@@ -22,9 +22,9 @@ description: Learn how to set up a Teams Premium trial to understand and test pr
 
 # Roll out a Teams Premium trial
 
-You can try Teams Premium in your organization for free by adding the Teams Premium trial to your organization.
+You can try [Teams Premium](enhanced-teams-experience.md) for free by adding the Teams Premium trial to your organization. The Teams Premium trial provides 25 licenses for 30 days.
 
-The Teams Premium trial provides 25 licenses for 30 days. Before you start the trial, it's important to plan who will be provided with licenses and what use cases you want to validate during the trial, as well as how feedback will be collected while the trial is underway.
+Before you start the trial, it's important to plan who will be provided with licenses and what use cases you want to validate during the trial, as well as how you'll collect feedback while the trial is underway.
 
 The following are the basic steps involved in the trial:
 
@@ -33,11 +33,11 @@ The following are the basic steps involved in the trial:
 1. **Administrative setup** including creating meeting templates and sensitivity labels, uploading logos and backgrounds, and assigning policies to users
 1. **Start the trial** including notifying the trial participants to begin testing the use cases you defined and providing feedback to stakeholders
 
-This article covers pre-trial planning and how to add the trail to your tenant and assign licenses. Specific steps for administrators to set up features for the trial are covered in other Teams Premium article which we link to in the sections below.
+This article covers pre-trial planning and how to add the trial to your tenant and assign licenses. Specific steps for administrators to set up features for the trial are covered in other Teams Premium articles which we link to in the sections below.
 
 ## Determine trial participants and stakeholders
 
-Teams Premium provides a variety of enhancements to Teams meetings. We recommend that you find participants from around your organization who can make use of the Teams Premium features in the normal course of their work, as well as stakeholders and specialists who can validate the features for your business and compliance needs.
+Teams Premium provides a variety of enhancements to Teams meetings. We recommend that you find participants from around your organization who can make use of the Teams Premium features in the normal course of their work, as well as stakeholders and specialists who can validate the features for your business, branding, and compliance needs.
 
 The following table lists some of the people to consider including in the trial.
 
@@ -50,8 +50,6 @@ The following table lists some of the people to consider including in the trial.
 |Meeting participants|People in the organization who can attend meetings that use Teams Premium features and give feedback on them|No|
 |Compliance specialists|Compliance or governance specialists who can validate use cases for compliant meetings|Yes|
 
-
-Does Teams admin need a license?
 
 
 We recommend creating security groups with
