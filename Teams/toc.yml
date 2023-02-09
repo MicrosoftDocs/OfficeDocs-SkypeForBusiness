@@ -1791,8 +1791,6 @@ items:
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items: 
-        - name: Support remote workers (WFH)
-          href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
         - name: Get started with Government team templates
           href: government-teams-templates-in-the-admin-console.md
         - name: Manage the Office 365 G1 Trial offer
@@ -1896,8 +1894,6 @@ items:
           href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
           href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-    - name: Turn on Teams in your organization
-      href: Office-365-set-up.md
     - name: Teams PowerShell
       items: 
         - name: Overview
