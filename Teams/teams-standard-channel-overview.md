@@ -5,6 +5,7 @@ ms.author: mactra
 ms.reviewer: 
 manager: serdars
 ms.topic: conceptual
+ms.date: 02/09/2023
 ms.service: msteams
 ms.subservice: teams-chat
 audience: admin
@@ -29,9 +30,9 @@ appliesto:
 
 # Overview of standard channels in Microsoft Teams
 
-There are three types of channels in Microsoft Teams that serve different purposes: standard, private, shared.
+There are three types of channels in Microsoft Teams that serve different purposes: standard, private, and shared.
 
-In this article, we'll go over what a standard channel is, what situations is it used for, and ___.
+In this article, we'll go over what a standard channel is and what it can be used for.
 
 ## What is a standard channel?
 
