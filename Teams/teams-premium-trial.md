@@ -123,7 +123,14 @@ For more information about using Teams Premium for meeting compliance, see the f
 
 ## Custom meetings
 
-Teams meetings allows organizations to extend their visual identities across the meeting experience.
+Teams meetings allows organizations to extend their visual identities across the meeting experience by adding logos and backgrounds that are displayed in the meeting lobby background and other places in Teams.
+
+There are three primary ways to customize meetings in Teams Premium:
+- **Themes** - logos and colors that represent your organization
+- **Backgrounds** - images that people can use when they attend Teams meetings
+- **Templates** - preset lists of meeting options for different meeting types
+
+Each of these must be set up and maintained by a Teams administrator.
 
 Upload images that people can use when they attend Teams meetings. Select up to 50 images that you'd like to add. These images will appear on users' interfaces in order of upload. 
 
@@ -138,11 +145,9 @@ create multiple policies and assign to different participants
 Meeting themes
 Use logos, images, and colors from your organization to create a meeting theme. You can apply the theme to all meetings now, or save your work to apply it later. Preview the theme before applying.
 Logos appear in the meeting lobby and other places in Teams.
-Dark theme
-Upload logo
 Accepted file formats are PNG and JPEG. File must be less than 5 MB, and must be at least 576 by 576 pixels.
 Images appear in the meeting lobby background and other places in Teams.
-Enter a hex code to set the color of the buttons and other details in meetings.
+set the color of the buttons and other details in meetings.
 
 Use templates, backgrounds, and themes
 - Template types needed and the settings for each
