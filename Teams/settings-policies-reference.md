@@ -1,9 +1,9 @@
 ---
 title: Teams policies reference
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: mkbond007
+ms.author: mabond
 manager: serdars
-ms.reviewer: arundas
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -154,12 +154,14 @@ Meeting policies are used to control what features are available to users when t
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
+:::image type="content" source="media/teams-meetings-meeting-scheduling.png" alt-text="Screenshot of Teams meeting scheduling policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Private meeting scheduling|On|When **On**, meeting organizers allow users to schedule private meetings.|
 |Meet now in private meetings|On|Controls whether a user can start an instant private meeting.|
 |Channel meeting scheduling|On|When **On**, meeting organizers allow users to schedule channel meetings within channels that the users belong to.|
-|Meet now in channels|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
+|Meet now in channel meetings|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
@@ -174,11 +176,13 @@ Meeting policies are used to control what features are available to users when t
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
+:::image type="content" source="media/teams-meetings-meeting-join-lobby.png" alt-text="Screenshot of Teams meeting join & lobby policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Anonymous users can join a meeting|On|This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation.|
-|Anonymous and dial-in users can start a meeting|Off|This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance.|
-|Who can bypass the lobby|Everyone in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
+|Anonymous users and dial-in callers can start a meeting|Off|This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in callers can join the meeting without an authenticated user from the organization in attendance.|
+|Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in callers.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly without waiting in the lobby.|
 
 ##### PowerShell-only meeting join & lobby policies
@@ -195,6 +199,8 @@ Meeting policies are used to control what features are available to users when t
 #### Meeting engagement
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
+
+:::image type="content" source="media/teams-meetings-meeting-engagement.png" alt-text="Screenshot of Teams meeting engagement policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -216,11 +222,11 @@ Meeting policies are used to control what features are available to users when t
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-Content sharing settings let you control the different types of content that can be used during Teams meetings that are held in your organization.
+:::image type="content" source="media/teams-meetings-content-sharing.png" alt-text="Screenshot of Teams meetings content sharing policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Who can present|Everyone, but user can override|Controls what the default value is for **Who can  present?** in **Meeting options** for the Teams client.|
+|Who can present|Everyone|Controls who can be a presenter in Teams meetings. Organizers and co-organizers can change this when they set up Teams meetings.|
 |Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
 |External participants can give or request control|Off|Controls whether external participants can be given or request control of the shared desktop or window. This setting must be turned on in both organizations for an external participant to take control in Teams meetings hosted by people in your organization.|
@@ -233,35 +239,20 @@ Content sharing settings let you control the different types of content that can
 - [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
-#### Watermark
-
-**Navigation:** Teams admin center > Meetings > Meeting policies
-
- Watermarks can be useful for protecting confidential information shared in meetings. They're most useful when sharing information with people who don't normally have access to the information. Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled.
-
-| Setting | Default | Description |
-|:-----|:-----|:-----|
-|Watermark videos|Off|This setting controls watermarks on attendee videos. This setting requires a Teams Premium license.|
-|Watermark shared content|Off|This setting controls watermarks on content shared on screen in a meeting. This setting requires a Teams Premium license.|
-
-##### Related topics to watermark policies
-
-- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
-- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-
 #### Recording & transcription
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
+
+:::image type="content" source="media/teams-meetings-recording-and-transcription.png" alt-text="Screenshot of Teams meetings recording & transcription policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
 |Recordings automatically expire|On|When **On**, meeting recordings will automatically expire in the number of days shown in the Default expiration time setting.|
 |Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. **Meetings automatically expire** must also be turned **On**.|
+|Store recordings outside your country or region|Off|If you want to store meeting recordings outside of your country or region, turn both this setting and meeting recording on. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
-|Live captions|Not enabled but the user can override|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Store recordings outside your country or region|Off|Controls whether meeting records can be permanently stored in another country or region.|
+|Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
 
 ##### PowerShell-only recording & transcription policies
 
@@ -285,7 +276,7 @@ Content sharing settings let you control the different types of content that can
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-policies-meetings-audio-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
+:::image type="content" source="media/teams-meetings-audio-and-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -295,8 +286,8 @@ Content sharing settings let you control the different types of content that can
 |Local broadcasting|Off|Use NDI or SDI technology to capture and deliver broadcast-quality audio and video over your network.|
 |Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
-|Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
-|Live streaming mode|Disabled|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
+|Participants can use video effects|All video effects|Controls if participants can customize their camera feed with video background images and filters.|
+|Live streaming|Off|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
 
 ##### PowerShell-only audio & video meeting policies
 
@@ -309,6 +300,25 @@ Content sharing settings let you control the different types of content that can
 ##### Related topics to audio & video meeting policies
 
 - [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+
+#### Watermark
+
+**Navigation:** Teams admin center > Meetings > Meeting policies
+
+ Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled. These settings require a Teams Premium license.
+
+:::image type="content" source="media/teams-meetings-watermark.png" alt-text="Screenshot of Teams meetings watermark policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Watermark videos|Off|This setting controls watermarks on attendee videos.|
+|Watermark shared content|Off|This setting controls watermarks on content shared on screen in a meeting.|
+
+##### Related topics to watermark policies
+
+- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 ### Customization policies
