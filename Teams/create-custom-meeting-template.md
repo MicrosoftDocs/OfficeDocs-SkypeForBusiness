@@ -50,7 +50,6 @@ Once the template has been created, it may take up to 24 hours to be available t
 |Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain settings in the template.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
-|Notify when callers join and leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
 |Enable meeting end-to-end encryption|Specify if you want the meeting to use end-to-end encryption. Recording and transcription won't work if this is on.|
 |Apply a watermark to shared content|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
 |Apply a watermark to everyone's video feed|Specifies if a watermark is overlaid on attendees video feeds in the meeting.|
@@ -68,6 +67,12 @@ Once the template has been created, it may take up to 24 hours to be available t
 |:------|:----------|
 |Record meetings automatically|When **On** meetings are recorded automatically.|
 |Who can record meetings?|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
+
+#### Roles
+
+|Setting|Description|
+|:------|:----------|
+|Notify when callers join and leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
 
 #### Meeting Engagement
 

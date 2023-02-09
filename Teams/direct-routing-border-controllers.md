@@ -142,7 +142,7 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 ||VME|8.4.0.0.1 &  9.x|
 ||AP 3950|9.x|
 ||AP 4900|9.x|
-|[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|10.1.2|
+
 
 ## Direct Routing and analog devices interoperability
 
