@@ -18,6 +18,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - tier1
 appliesto: 
   - Microsoft Teams
 ---

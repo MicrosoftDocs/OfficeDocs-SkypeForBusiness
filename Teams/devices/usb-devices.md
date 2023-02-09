@@ -76,7 +76,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated January 2023*
+*Table Updated February 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
@@ -86,9 +86,6 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS                 |SDW 5061 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |SDW 5031 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |SDW 5011 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
-|Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
-|Dell                 |P2724DEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
-|Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH76 Headset                                               |12/22/2022      |Certified for Microsoft Teams                           |
 |Logitech             |Brio 300/301/305 Camera                                    |12/22/2022      |Certified for Microsoft Teams                           |
 |Poly                 |Savi 7310 UC Series headsets with dongle version v1008     |12/22/2022      |Certified for Microsoft Teams                           |
@@ -100,6 +97,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Lenovo               |T24mv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |T27hv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |Conference Call Base Speakerphone                          |12/19/2022      |Certified for Microsoft Teams                           |
+|Dell                 |WB3023 Camera                                              |11/23/2022      |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 561 II headset                                       |10/20/2022      |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Certified for Microsoft Teams                           |
 |Cisco                |Desk Camera 4K                                             |10/15/2022      |Certified for Microsoft Teams                           |

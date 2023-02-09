@@ -17,6 +17,7 @@ search.appverid: MET150
 description: Learn about supervised chats in Microsoft Teams meetings.
 ms.collection: 
   - M365-collaboration
+  - tier2
 ---
 
 # Supervised chats in Microsoft Teams
