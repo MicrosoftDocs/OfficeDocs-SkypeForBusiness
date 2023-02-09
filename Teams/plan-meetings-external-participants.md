@@ -25,7 +25,7 @@ description: Learn how to plan for meetings with people outside your organizatio
 
 # Plan for meetings with external participants in Microsoft Teams
 
-You can allow people from outside your organization to join Teams meetings that are hosted by your organization. This article describes the options available for meeting with people outside your organization, which types of external meeting participants can be validated, and which Teams and Microsoft 365 features are used to control their access to meetings.
+You can allow people from outside your organization to join Teams meetings that are hosted by users in your organization. This article describes the options available for meeting with people outside your organization, which types of external meeting participants can be validated, and which Teams and Microsoft 365 features are used to control their access to meetings.
 
 ## Meeting with validated external participants
 
