@@ -38,11 +38,14 @@ Certification programs are designed to ensure all certified devices run an Andro
 Beyond the certification period, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
 
 >[!NOTE]
->Certification end dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
+> Certification end dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
 
 ## Certified Teams phones
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
+
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -72,6 +75,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
 
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
+
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | Yealink MeetingBar A10 | `278.15.0.6 `   | September 3, 2025 | Small meeting room (4.5 m x 4.5 m)| 11|
@@ -83,7 +89,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | September 3, 2024  |  Medium size room (4.5 m x 6 m) | 10|
 | Neat Bar | `NFF1.20220914.1210` |September 3, 2024|    Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad touch console | `NFA1.20220914.1206`  | September 3, 2024 | Compatible with Neat Bar & Neat Bar Pro | 9 |
+| Neat Pad touch console | `NFA1.20220914.1206`  | August 5, 2023 | Compatible with Neat Bar & Neat Bar Pro | 9 |
 | Neat Board | `NFC1.20220914.1210 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
@@ -103,6 +109,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
+
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 | Neat Frame nf21f1 | `NFF1.20220914.1210` | September 3, 2024 | 10 |
@@ -111,6 +120,9 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 ## Certified Teams panels
 The following devices are Certified under the Microsoft Teams panels Certification Program:
+
+> [!NOTE]
+> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -402,8 +414,8 @@ When you install a new firmware version on your device, you can determine the co
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
 |Neat Frame nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
-|Crestron UC-P10-TD     |1.0.0.57 |2022 Update #3A|
-|Crestron UC-P8-TD     |1.0.0.57 |2022 Update #3A|
+|Crestron UC-P10-TD     |`1.0.0.57` |2022 Update #3A|
+|Crestron UC-P8-TD     |`1.0.0.57` |2022 Update #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 Update #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 Update #1 |
@@ -440,7 +452,7 @@ When you install a new firmware version on your device, you can determine the co
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |
 |Neat Pad Panel | `NFA1.20220512.2210` | 2022 Update #2  |
 |Logitech Tap Scheduler | `1.6.762` |2022 Update #2  |
-|Neat Pad Panel |NFA1.20220512.2158 | 2022 Update #2 |
+|Neat Pad Panel |`NFA1.20220512.2158` | 2022 Update #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
 |Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 Update #1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | 2022 Update #1 |

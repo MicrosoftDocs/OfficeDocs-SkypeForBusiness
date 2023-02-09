@@ -54,9 +54,6 @@ Each Teams panel needs a [Microsoft Teams Rooms Pro license](../rooms/rooms-lice
 - **Teams Rooms Pro** - Use this license if your meeting room has a Teams Rooms system or a Surface Hub. You can share one Teams Rooms Pro license with one Teams Rooms system or Surface Hub and your Teams panel. For more information, see [Resource account provisioning](#resource-account-provisioning).
 - **Teams Shared Device** - Use this license if your meeting room doesn't have a Teams Rooms system or Surface Hub.
 
-    > [!NOTE]
-    > Teams Rooms Basic and Teams Shared Device licenses can't be used with the same resource account. Use a Teams Rooms Pro license instead.
-
 ## Deploy Teams panels devices
 
 If you're involved in planning, deploying, and managing Teams panels devices, then this section is for you. This section isn't intended for the end users of Teams panels.
