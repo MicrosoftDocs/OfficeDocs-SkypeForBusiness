@@ -12,11 +12,11 @@ Before you start the procedures in this article, ensure you've done the followin
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
-Each resource account requires a license in order to work with auto attendants and call queues, known as a **Microsoft Teams Phone Resource Account** license. Subscriptions with Teams Phone have access to a free allocation of **Microsoft Teams Phone Resource Account** licenses, and if more are needed, extra **Microsoft Teams Phone Resource Account** licenses can be purchased at a cost. For details on how to obtain these licenses, see [Microsoft Teams Phone Resource Account licenses](../teams-add-on-licensing/virtual-user.md).
+Each resource account requires a license in order to work with auto attendants and call queues, known as a **Microsoft Teams Phone Resource Account** license. Subscriptions with Teams Phone have access to a zero-cost allocation of **Microsoft Teams Phone Resource Account** licenses, and if more are needed, extra **Microsoft Teams Phone Resource Account** licenses can be purchased at a cost. For details on how to obtain these licenses, see [Microsoft Teams Phone Resource Account licenses](../teams-add-on-licensing/virtual-user.md).
 
 We cover how to [assign the license to a resource account later in this article](#assign-a-license).
 
-If you purchased **Teams Phone Standard**, **Teams Phone with Calling Plan**, or **Teams Shared Devices** licenses, you will still need to complete the purchasing process for your allocation of **Teams Phone Resource Account** licenses, but your allotment of licenses will be zero cost at checkout.
+If you purchased **Teams Phone Standard**, **Teams Phone with Calling Plan**, or **Teams Shared Devices** licenses, you still need to complete the purchasing process for your allocation of **Teams Phone Resource Account** licenses, but your allotment of licenses will be zero cost at checkout.
 
 To see if you already have **Teams Phone Resource Account** licenses in your tenant, sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) using an account with Global admin permissions. Then, go to [Billing > Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have **Teams Phone Resource Account** licenses, they'll appear as **Microsoft Teams Phone Resource Account**.
 
