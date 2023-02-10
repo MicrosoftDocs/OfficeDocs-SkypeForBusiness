@@ -55,7 +55,7 @@ Before you use the functionality, understand the following considerations:
    | What is different | <br> <li>Single and easy control to auto-install apps instead of creating app setup policies and assigning those to users.</li><li> Instead of switching context to browser for web apps or to email for notifications, users easily get the Teams apps in their Teams client. </li><li>Apps are installed without ad-hoc admin or user intervention but with predefined admin action. </li></br> | <br><li>A new admin control to enable (or disable). Zero-touch App Install functionality is made available in Teams admin center. </li><li>Apps are automatically installed when users take certain actions. For example, when a user opens a PDF file or signs into an app using Azure AD on another platform, like a web browser. </li></br> |
    | What doesn't change | <br><li> App governance controls set by admins are always respected.</li> <li> An app is installed only if it is allowed in the tenant and for the user. </li><li> User actions are respected, such as no reinstallation of an app if a user uninstalls it. </li></br> | <br><li>The apps and their security, compliance, privacy, and other characteristics continue to remain as before. No change in apps.</li> <li> The governance controls to allow or block apps and permission policy to control app access for end-users remain as before. </li> <li> Users can uninstall any apps added to their Teams client and the apps aren’t reinstalled. </li> </br> |
 
-## Benefits of the Zero-touch App Install functionality
+## Benefits of the functionality
 
 The feature benefits you and your end-users in the following ways:
 
@@ -67,7 +67,7 @@ The feature benefits you and your end-users in the following ways:
 
 To enable and use the functionality, meet the following prerequisites and complete these tasks:
 
-* [Allow apps in your tenant](#allow-apps-in-your-organization).
+* [Allow apps in your tenant](#allow-third-party-apps-in-your-organization).
 * [Allow end-users to use an app](#allow-end-users-to-use-specific-apps).
 * [Enable the Zero-touch App Install option](#enable-the-zero-touch-app-install-option).
 * [Grant admin consent](app-permissions-admin-center.md) for Microsoft Graph permissions that an app requires.
@@ -88,7 +88,7 @@ You must enable the zero-touch install feature manually. To do so, follow these 
 
 1. Select **Org-wide app settings** and enable the **Zero-touch app install** option.
 
-    :::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing zero-touch app install feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/zero-touch-apps-large.png":::
+    :::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing zero-touch app install option in admin center that must be enabled to use the feature." lightbox="media/zero-touch-apps-large.png":::
 
 1. Select **Save**.
 
