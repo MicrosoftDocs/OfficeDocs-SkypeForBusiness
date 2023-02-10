@@ -614,8 +614,6 @@ items:
                   href: anonymous-users-in-meetings.md
                 - name: Participants and guest policies
                   href: meeting-policies-participants-and-guests.md
-                - name: Remove the RestrictedAnonymousAccess meeting policy from users
-                  href: meeting-policies-restricted-anonymous-access.md
         - name: Compliant meetings
           items: 
             - name: Three tiers of protection overview
