@@ -27,7 +27,7 @@ Admins can allow users to use Azure Active Directory identify to sign into apps 
 
 The zero-touch install functionality is available only for a few Teams apps. You can view the apps in the **Zero-touch app install** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
 
-:::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing zero-touch App Install feature toggle and list of apps are available in the org-wide app settings in admin center.":::
+:::image type="content" source="media/zero-touch-apps-list.png" alt-text="Screenshot showing zero-touch app install feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/zero-touch-apps.png":::
 
 ## Prerequisites and considerations for zero-touch App Install feature
 
@@ -63,7 +63,7 @@ The feature benefits you and your end-users in the following ways:
 * Businesses can realize more value from their SaaS licenses by letting their users use the web apps and Teams apps. Some Teams apps like Adobe Acrobat offer more functionality than the default Teams PDF viewer. The default PDF viewer in Teams can only read PDF files, but Acrobat allows editing and commenting in PDF files.
 * Users avoid context-switching by using the apps within Teams. They don’t have to use a browser or email to stay updated, work on their tasks, or receive notifications.
 
-## Use the functionality
+## Use Zero-touch App Installation feature
 
 To enable and use the functionality, meet the following prerequisites and complete these tasks:
 
@@ -72,7 +72,7 @@ To enable and use the functionality, meet the following prerequisites and comple
 * [Enable the Zero-touch App Install option](#enable-the-zero-touch-app-install-option).
 * [Grant admin consent](app-permissions-admin-center.md) for Microsoft Graph permissions that an app requires.
 
-### Allow apps in your organization
+### Allow third-party apps in your organization
 
 The functionality respects the app governance controls and works only if use of third-party apps is allowed by admins. If you haven't changed the default admin configurations, third-party apps are allowed. To update or to verify, see [allow apps](/microsoftteams/manage-apps#allow-and-block-apps).
 
