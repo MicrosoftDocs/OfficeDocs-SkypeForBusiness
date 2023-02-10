@@ -29,7 +29,7 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 This article describes the following meeting policy settings related to content sharing:
 
 - [Screen sharing mode](#screen-sharing-mode)
-- [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
+- [Participants can give or request control](#participants-can-give-or-request-control)
 - [External participants can give or request control](#external-participants-can-give-or-request-control)
 - [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
@@ -138,9 +138,6 @@ Let's look at the following example.
 |Amanda   | Location1MeetingPolicy | Off |
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
-
-
-
 
 ## Related topics
 
