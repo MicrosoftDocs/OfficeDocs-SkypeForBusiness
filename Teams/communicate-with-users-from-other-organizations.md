@@ -36,18 +36,6 @@ For a complete overview of the external collaboration options in Microsoft 365, 
 
 Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business Server, or Skype. By default, external access is enabled.
 
-The following table shows the chat experience users get when communicating between organizations, across clouds, and with unmanaged Teams accounts (people with personal accounts).
-
-|Chat experience|Commercial|GCC|GCC High|DoD|
-|:---|:---------|:--|:-------|:--|
-|**Commercial**|Native|Text only|Text only|Text only|
-|**GCC**|Text only|Native|Text only|Text only|
-|**GCC High**|Text only|Text only|Native|Text only|
-|**DoD**|Text only|Text only|Text only|Native|
-|**Skype**|Text only|Not available|Not available|Not available|
-|**Skype for Business Server**|Text only|Text only|Text only|Text only|
-|**Unmanaged Teams accounts**|Native|Not available|Not available|Not available|
-
 To configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
 #### Teams and Skype for Business users in external organizations

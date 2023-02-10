@@ -48,6 +48,8 @@ Each external access option has both an organization setting and user policies. 
 
 Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Note that both the organization settings and user policies are turned on by default.
 
+For a user to use external access, both the organization setting and a user policy must allow it.
+
 Use the procedures on the tabs below to configure organization settings and user policies.
 
 <br>
@@ -241,7 +243,6 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 The parameters for configuring external access are:
 - EnableFederationAccess - controls chat and meetings with other Microsoft 365 organizations
 - EnableTeamsConsumerAccess - controls chat with Teams users not managed by an organization
-- 
 
 For example, to enable communications with external Teams users not managed by an organization:
 

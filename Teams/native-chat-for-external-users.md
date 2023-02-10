@@ -17,7 +17,6 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Learn about the native Teams chat experience for external access users in Microsoft Teams where both users are in the TeamsOnly upgrade mode.
-
 ---
 
 # Microsoft Teams chat experience when communicating with people outside the organization
@@ -34,6 +33,18 @@ Text-only chat is available in all other chat experiences, including:
 - Communicating with Skype for Business users
 - Communicating with Skype users
 - Communicating between cloud environments, such as GCC to GCC High or commercial cloud
+
+The following table shows the chat experience users get when communicating between organizations, across clouds, and with unmanaged Teams accounts (people with personal accounts).
+
+|Chat experience|Commercial|GCC|GCC High|DoD|
+|:---|:---------|:--|:-------|:--|
+|**Commercial**|Native|Text only|Text only|Text only|
+|**GCC**|Text only|Native|Text only|Text only|
+|**GCC High**|Text only|Text only|Native|Text only|
+|**DoD**|Text only|Text only|Text only|Native|
+|**Skype**|Text only|Not available|Not available|Not available|
+|**Skype for Business Server**|Text only|Text only|Text only|Text only|
+|**Unmanaged Teams accounts**|Native|Not available|Not available|Not available|
 
 ## Teams chat experience while migrating from Skype for Business Server
 
