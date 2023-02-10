@@ -121,13 +121,13 @@ There are two types of people outside your organization who can join meetings as
 - Guests - people who have an [Azure Active Directory (Azure AD) B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
 - External access users - people who have Azure AD accounts in a trusted organization, as defined in Teams [external access](manage-external-access.md)
 
-If you want all verified meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my organization** or **Only organizers and co-organizers** (as long as a guest isn't the organizer or co-organizer). If you want only people from trusted organizations (external access users) to wait in the lobby, you can choose **Everyone in my organization and guests**.
+If you want all verified meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my organization** or **Only organizers and co-organizers** (as long as a guest isn't the organizer or co-organizer). If you want only people from trusted organizations (external access users) to wait in the lobby, you can choose **People in my organization and guests**.
 
 ## Control access to meetings by people without invitations
 
-If you want to allow only people who have invitations to join meetings directly and have all other participants wait in the lobby, set **Who can bypass the lobby** to **Only people who were invited**. (People invited via distribution list are not included.)
+If you want to allow only people who have invitations to join meetings directly and have all other participants wait in the lobby, set **Who can bypass the lobby** to **People who were invited**. (People invited via distribution list are not included.)
 
-The **Only people who were invited** setting includes verified participants to whom the invite was forwarded, not just those invited directly by the organizer. It doesn’t include people who have the meeting join link but not the invitation itself and unverified (anonymous) participants. They must wait in the lobby.
+The **People who were invited** setting includes verified participants to whom the invite was forwarded, not just those invited directly by the organizer. It doesn’t include people who have the meeting join link but not the invitation itself and unverified (anonymous) participants. They must wait in the lobby.
 
 Note that meeting organizers can disable forwarding the meeting invite if they only want people directly invited by them to attend the meeting.
 
