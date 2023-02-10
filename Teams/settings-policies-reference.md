@@ -180,10 +180,11 @@ Meeting policies are used to control what features are available to users when t
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Anonymous users can join a meeting|On|This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation.|
-|Anonymous users and dial-in callers can start a meeting|Off|This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in callers can join the meeting without an authenticated user from the organization in attendance.|
-|Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in callers.|
-|People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly without waiting in the lobby.|
+|Anonymous users can join a meeting|On|TWhen this is on, anyone can join Teams meetings, including Teams users in other organizations that aren't on your allowed domains list. If anonymous join is turned off in org-wide meeting settings, anonymous users can't join any meetings, regardless of what you set here.|
+|Anonymous users and dial-in callers can start a meeting|Off|When this is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest user, or an external user from a trusted organization.  
+This setting will work only if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
+|Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This sets the default value of who can bypass the lobby. Organizers and co-organizers can change this when they set up Teams meetings.|
+|People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This sets the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings. |
 
 ##### PowerShell-only meeting join & lobby policies
 
@@ -194,6 +195,7 @@ Meeting policies are used to control what features are available to users when t
 ##### Related topics to meeting join & lobby policies
 
 - [Control who can bypass the meeting lobby and access meetings](who-can-bypass-meeting-lobby.md)
+- [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Meeting engagement
@@ -229,7 +231,7 @@ Meeting policies are used to control what features are available to users when t
 |Who can present|Everyone|Controls who can be a presenter in Teams meetings. Organizers and co-organizers can change this when they set up Teams meetings.|
 |Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
-|External participants can give or request control|Off|Controls whether external participants can be given or request control of the shared desktop or window. This setting must be turned on in both organizations for an external participant to take control in Teams meetings hosted by people in your organization.|
+|External participants can give or request control|Off|This setting controls whether external participants, anonymous users, and guests can be given control or request control of people in your organization's shared screen during a Teams meeting. This setting must be turned on in both organizations for an external participant to take control.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
