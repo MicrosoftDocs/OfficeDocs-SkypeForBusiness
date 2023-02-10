@@ -29,11 +29,11 @@ Microsoft 365 connectors are used with both Teams and Microsoft 365 groups. You 
 
 <!--- However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors. --->
 
-If the team permissions allow it, any member of a team can add a connector in the team, and all team members are notified of activities from that service. Any team member with the permissions to add or remove can modify connectors setup by other members.
+If the team permissions allow a connector to be added to a team, any member of a team can add a connector. All team members are notified of updates from the service that the connector fetches information from. Any team member with the permissions to add or remove can modify connectors setup done by other members.
 
 ## Enable or disable connectors in Teams
 
-The Exchange Online PowerShell v2 module uses modern authentication and works with multi-factor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox, affecting all users in that tenant or mailbox. It isn't possible to disable for a few specific users.
+The Exchange Online PowerShell v2 module uses modern authentication and works with multi-factor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox. If a connector is disabled, it affects all users in that tenant or mailbox. You cannot disable a connector for a few specific users.
 
 The tenant setting overrides the group setting. For example, if an admin enables connectors for the group and disables them on the tenant, connectors for the group is disabled. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
 
@@ -117,7 +117,7 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * XP-Dev
   * Zendesk
 
-* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable those, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. Connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable connectors, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
 * If the user who added a connector to a team leaves the team, the connector continues to work.
 
