@@ -61,13 +61,7 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 ## Considerations when using Connectors in Teams
 
-* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable those, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. Connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
-
-* If the user who added a connector to a team leaves the team, the connector continues to work.
-
-* Jenkins connector is scheduled for release on Feb 28, 2023.
-
-* The following connectors aren't available for use January 2023 onwards:
+* New connections cannot be configured for the following connectors. The existing connections continue to work.
 
   * Aha!
   * Airbrake
@@ -122,6 +116,12 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * Wrike
   * XP-Dev
   * Zendesk
+
+* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable those, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. Connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+
+* If the user who added a connector to a team leaves the team, the connector continues to work.
+
+* Jenkins connector is scheduled for release on Feb 28, 2023.
 
 ## Update URL of a connector
 
