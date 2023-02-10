@@ -558,15 +558,6 @@ A voice routing policy for Direct Routing will be linked to a voice route using 
 
 :::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
 
-<!---
-
-#### PowerShell-only voice routing policies
-
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
-
---->
-
 #### Related topics to voice routing policies
 
 - [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md)
