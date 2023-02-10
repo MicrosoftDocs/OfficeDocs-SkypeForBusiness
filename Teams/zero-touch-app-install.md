@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.service: msteams
 ms.subservice: teams-apps
+ms.topic: article
 ms.date: 02/10/2023
 search.appverid: 
 description: Zero-touch App Install functionality adds apps in Teams for users who are already using its web app outside Teams.
@@ -60,10 +61,10 @@ The following are the benefits of the functionality:
 
 The following is a comparison with other methods of manual app installation and app governance
 
-| | Conceptually | Functionally |
+| Feature behavior | Conceptually | Functionally |
 |--------------------|----------------------|-------------------|
 | What is different | <br> <li>Single and easy control to auto-install apps instead of creating app setup policies and assigning those to users.</li><li> Instead of switching context to browser for web apps or to email for notifications, users easily get the Teams apps in their Teams client. </li><li>Apps are installed without ad-hoc admin or user intervention but with predefined admin action. </li></br> | <br><li>A new admin control to enable (or disable). Zero-touch App Install functionality is made available in Teams admin center. </li><li>Apps are automatically installed when users take certain actions. For example, when a user opens a PDF file or signs into an app using Azure AD on another platform, like a web browser. </li></br> |
-| What is similar | <br><li> App governance controls set by admins are always respected.</li> <li> An app is installed only if it is allowed in the tenant and for the user. </li><li> User actions are respected, such as no reinstallation of an app if a user uninstalls it. </li></br> | <br><li>The apps and their security, compliance, privacy, and other characteristics continue to remain as before.</li> <li> The governance controls to allow or block apps and permission policy to control app access for end-users remain as before. </li> <li> Users can uninstall any apps added to their Teams client and the apps aren’t reinstalled. </li> </br> |
+| What doesn't change | <br><li> App governance controls set by admins are always respected.</li> <li> An app is installed only if it is allowed in the tenant and for the user. </li><li> User actions are respected, such as no reinstallation of an app if a user uninstalls it. </li></br> | <br><li>The apps and their security, compliance, privacy, and other characteristics continue to remain as before. No change in apps.</li> <li> The governance controls to allow or block apps and permission policy to control app access for end-users remain as before. </li> <li> Users can uninstall any apps added to their Teams client and the apps aren’t reinstalled. </li> </br> |
 
 ## Use the functionality
 
