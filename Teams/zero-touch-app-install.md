@@ -40,7 +40,7 @@ The following prerequisites must be met before an app is installed so that admin
 * The functionality supports an app.
 * User signs in to the app outside Teams using Azure AD identity, for example in a web app.
 
-Before you use the functionality, understand the following:
+Before you use the functionality, understand the following considerations:
 
 * The functionality adheres to all admin controls for app governance.
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
@@ -48,23 +48,20 @@ Before you use the functionality, understand the following:
 * If an app supports mobile platforms, then the functionality installs it on the mobile client in addition to installing it on the desktop client.
 * The activity feed notification after app installation does not appear on mobile devices when we install it for the Azure AD sign-in automation.
 * End-users can uninstall an app installed by this functionality. These users can manually reinstall the app later. Once uninstalled, the app isn’t automatically installed later.
+* The following is a comparison with other methods of manual app installation and app governance
+
+   | Feature behavior | Conceptually | Functionally |
+   |--------------------|----------------------|-------------------|
+   | What is different | <br> <li>Single and easy control to auto-install apps instead of creating app setup policies and assigning those to users.</li><li> Instead of switching context to browser for web apps or to email for notifications, users easily get the Teams apps in their Teams client. </li><li>Apps are installed without ad-hoc admin or user intervention but with predefined admin action. </li></br> | <br><li>A new admin control to enable (or disable). Zero-touch App Install functionality is made available in Teams admin center. </li><li>Apps are automatically installed when users take certain actions. For example, when a user opens a PDF file or signs into an app using Azure AD on another platform, like a web browser. </li></br> |
+   | What doesn't change | <br><li> App governance controls set by admins are always respected.</li> <li> An app is installed only if it is allowed in the tenant and for the user. </li><li> User actions are respected, such as no reinstallation of an app if a user uninstalls it. </li></br> | <br><li>The apps and their security, compliance, privacy, and other characteristics continue to remain as before. No change in apps.</li> <li> The governance controls to allow or block apps and permission policy to control app access for end-users remain as before. </li> <li> Users can uninstall any apps added to their Teams client and the apps aren’t reinstalled. </li> </br> |
 
 ## Benefits of the Zero-touch App Install functionality
 
-The feature provides a convenient way to add a few selected and commonly used apps for users who already use these apps outside Teams. This feature make the most relevant apps available within Teams, while adhering to all the app governance controls defined by you.
+The feature benefits you and your end-users in the following ways:
 
-The following are the benefits of the functionality:
-
-* The feature helps admins with the last mile of app adoption. The admins have already reviewed and approved the selected apps and allowed the users to use these apps. The feature simply adds the app in the Teams client of users who are approved to use it.
-* Users avoid context-switching by using the apps within Teams. They don’t have to use a browser or email to stay updated, work on their tasks, or receive notifications.
+* The feature helps admins with the last mile of app adoption. You must review and approve the selected apps and allow the users to use these apps. The feature simply adds the app in the Teams client of users without a need to create setup policies.
 * Businesses can realize more value from their SaaS licenses by letting their users use the web apps and Teams apps. Some Teams apps like Adobe Acrobat offer more functionality than the default Teams PDF viewer. The default PDF viewer in Teams can only read PDF files, but Acrobat allows editing and commenting in PDF files.
-
-The following is a comparison with other methods of manual app installation and app governance
-
-| Feature behavior | Conceptually | Functionally |
-|--------------------|----------------------|-------------------|
-| What is different | <br> <li>Single and easy control to auto-install apps instead of creating app setup policies and assigning those to users.</li><li> Instead of switching context to browser for web apps or to email for notifications, users easily get the Teams apps in their Teams client. </li><li>Apps are installed without ad-hoc admin or user intervention but with predefined admin action. </li></br> | <br><li>A new admin control to enable (or disable). Zero-touch App Install functionality is made available in Teams admin center. </li><li>Apps are automatically installed when users take certain actions. For example, when a user opens a PDF file or signs into an app using Azure AD on another platform, like a web browser. </li></br> |
-| What doesn't change | <br><li> App governance controls set by admins are always respected.</li> <li> An app is installed only if it is allowed in the tenant and for the user. </li><li> User actions are respected, such as no reinstallation of an app if a user uninstalls it. </li></br> | <br><li>The apps and their security, compliance, privacy, and other characteristics continue to remain as before. No change in apps.</li> <li> The governance controls to allow or block apps and permission policy to control app access for end-users remain as before. </li> <li> Users can uninstall any apps added to their Teams client and the apps aren’t reinstalled. </li> </br> |
+* Users avoid context-switching by using the apps within Teams. They don’t have to use a browser or email to stay updated, work on their tasks, or receive notifications.
 
 ## Use the functionality
 
