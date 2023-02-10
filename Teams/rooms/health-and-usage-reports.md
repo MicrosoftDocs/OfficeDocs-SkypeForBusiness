@@ -27,7 +27,7 @@ The reporting node contains data for the health and usage of your Microsoft Team
 
 A new export Ticket history feature has been created that will allow you to export all incident ticket history information to be used for deeper reporting and analysis.  
 
-To view the export ticket button, navigate to Reports >Overview> Export ticket
+To view the export ticket button, navigate to **Reports >Overview> Export ticket**.
 
 Under the Overview report, the “export tickets” button will provide detailed data about the ticket history which includes the following fields: creation date, device name, incident type, ticket state, ticket ID, last update, history, last resolved date, message/notes conversations, closure summary, closed by and last closed date. 
 
