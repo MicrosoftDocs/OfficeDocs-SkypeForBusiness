@@ -38,12 +38,11 @@ To turn on live captions for users:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Participants & guests** section.
+3. Go to the **Recording & transcription** section.
 
-4. Switch **Live captions** to **Not enabled but the user can override**.
+4. Switch **Live captions** to **Off but the user can override**.
 
 5. Select **Save**.
-
 > [!TIP]
 > Share the following link so users can learn how to [turn on live captions during meetings](https://support.microsoft.com/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260#ID0EBD=Desktop).
 
@@ -94,21 +93,21 @@ After guest access has been given, to admit sign language interpreters and CART 
 
 2. Select the policy you want to modify.
 
-3. Go to the **Participants & guests** section.
+3. Go to the **Meeting join & lobby** section.
 
-4. Choose the option under **Automatically admit people** that best fits your organization's compliance and security requirements. You can select one of the following options:
+4. Choose the option under **Who can bypass the lobby** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
    - Everyone (not recommended)
 
-   - People in my organization and guests (recommended)
+   - Everyone in my organization and guests (recommended)
 
-   - People in my organization, trusted organizations, and guests
+   - Everyone in my organization , trusted organizations, and guests
 
-   - People in my organization
+   - Everyone in my organization 
 
-   - Organizer only
+   - Only organizers and co-organizers 
 
-   - Invited users only
+   - Only invited users 
 
 5. Select **Save**.
 
@@ -156,7 +155,7 @@ To turn on video filters:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Content sharing** section.
+3. Go to the **Audio & video** section.
 
 4. Choose the option under **Select video filters** that best fits your organization's compliance and security requirements. Select one of the following options:
 
@@ -203,15 +202,15 @@ To check if in-meeting chat is turned on:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Participants & guests** section.
+3. Go to the **Meeting engagement** section.
 
 4. Choose the option under **Chat in meetings** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
-   - Turn it on for everyone (recommended)
+   - On for everyone (recommended)
 
-   - Turn it off for everyone (not recommended)
+   - Off (not recommended)
 
-   - Turn it on for everyone but anonymous users
+   - On for everyone but anonymous users
 
 5. Select **Save**.
 

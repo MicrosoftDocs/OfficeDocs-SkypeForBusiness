@@ -30,9 +30,7 @@ Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
-On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
-
-CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. 
+On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. 
 
 > [!IMPORTANT]
 > To use CQD with Skype for Business Server 2019, you'll have to [Configure Call Data Connector](/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
@@ -68,7 +66,7 @@ After the first time you sign in, CQD will begin collecting and processing data.
 
 ## Use Power BI to analyze CQD data
 
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+[Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). These are customizable Power BI templates you can use to analyze and report your CQD data.
 
 Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 
