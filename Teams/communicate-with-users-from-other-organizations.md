@@ -25,7 +25,7 @@ description: Learn how to call, chat, find, and add users from outside the organ
 
 This article describes two of the options for collaborating with people outside your organization:
 
-- **External access** - A feature that allows users to find, call, and chat with people who have Microsoft identities, including those other organizations.
+- **External access** - A feature that allows users to find, call, and chat with people who have Microsoft identities, including those from other organizations.
 - **Guest access** - A feature that allows you to invite people from outside your organization to join a team. Guests can also call, chat, and meet with people in your organization and you can share files and folders with them. Invited people get an [Azure AD B2B collaboration guest account](/azure/active-directory/external-identities/what-is-b2b) in your directory.
 
 ![Venn diagram of features in guest access and external access.](media/guest-external-access-venn.png)
@@ -34,11 +34,9 @@ For a complete overview of the external collaboration options in Microsoft 365, 
 
 ## External access
 
-Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business Server, or Skype.
+Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business Server, or Skype. By default, external access is enabled.
 
-By default, external access is enabled for all domains. You can restrict external access by allowing or blocking specific domains, by blocking all domains (which turns external access off) or by limiting which users can use external access.
-
-The following table shows the chat experience users get when communicating between organizations, across clouds, and with people with personal accounts.
+The following table shows the chat experience users get when communicating between organizations, across clouds, and with unmanaged Teams accounts (people with personal accounts).
 
 |Chat experience|Commercial|GCC|GCC High|DoD|
 |:---|:---------|:--|:-------|:--|
@@ -48,9 +46,21 @@ The following table shows the chat experience users get when communicating betwe
 |**DoD**|Text only|Text only|Text only|Native|
 |**Skype**|Text only|Not available|Not available|Not available|
 |**Skype for Business Server**|Text only|Text only|Text only|Text only|
-|**Unmanaged Teams accounts**|Text only|Not available|Not available|Not available|
+|**Unmanaged Teams accounts**|Native|Not available|Not available|Not available|
 
 To configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
+
+#### Teams and Skype for Business users in external organizations
+
+For external access with other Microsoft 365 organizations you allow all domains (the default) or you can restrict external access by allowing or blocking specific domains, by blocking all domains (which turns external access off) or by limiting which users can use external access.
+
+#### Teams accounts not managed by an organization
+
+You can control whether users in your organization can communicate with Teams users who are not managed by an organization by turing external access on or off at the organization level or by using a policy to control it for individual users and groups. You can also control if people with unmanaged Teams accounts can start a conversation with people in your organization.
+
+#### Skype users
+
+You can control whether users in your organization can communicate with Skype users by turning external access for Skype users on or off either for the entire organization  or by using a policy to control it for individual users and groups.
 
 ## Guest access
 
