@@ -21,7 +21,7 @@ ms.collection:
 
 Some apps exist as web-based services or desktop apps and users use these apps without being aware that they can use the equivalent Teams apps. Using a Teams app allows the users to work in the same context with added benefits of unique Teams capabilities such as in-context notifications and collaboration in Teams.
 
-Zero-touch App Install feature automatically adds approved apps in Teams client of permitted users. The functionality respects all app governance controls and only installs apps that the users have used outside Teams.
+The Zero-touch App Install feature automatically adds approved apps in the Teams clients of permitted users. The functionality respects all app governance controls and only installs apps that the users have used outside Teams.
 
 Admins can allow users to use Azure Active Directory identify to sign into apps outside Teams, for example web apps. The sign-in permission is used as an intelligent signal by the functionality to add the app for such users. The apps must be allowed by admins in their organization and the users must be allowed to use the app.
 
