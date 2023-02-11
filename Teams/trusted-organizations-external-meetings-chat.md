@@ -201,7 +201,9 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
 
 ## [**User policies**](#tab/user-policies)
 
-If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (One or both of these must be enabled for users to chat or meet with people outside your organization.)
+If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (Both of these must be enabled for users to chat or meet with people outside your organization.)
+
+### Configure external access policies
 
 External access policies are configured by using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet.
 
@@ -217,9 +219,6 @@ The following table shows the cmdlet parameters used for configuring who can cha
 To limit external meetings and chat to specific users, you must:
 - Turn off the control for the default global policy.
 - Create a new policy with the control turned on, and assign the appropriate users to it.
-
-> [!NOTE]
-> People for whom external meetings have been turned off can still meet with people outside of their organization if guest sharing or anonymous join are enabled. In this case, users would join as anonymous or guest.
 
 You can use the following example script, substituting *parameter* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 

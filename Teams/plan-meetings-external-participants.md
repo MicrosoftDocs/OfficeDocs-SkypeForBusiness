@@ -52,7 +52,11 @@ The lobby can be configured by the meeting organizer or administrators can enfor
 
 To have meetings with validated participants in other Microsoft 365 organizations, you must add that organization as a trusted organization in external access. Meeting organizers in your organization and meeting participants from the other organization must be assigned an external access policy that allows them to communicate with external Teams and Skype for Business users.
 
-Note that meeting participants who don't have the correct external access permissions will be considered anonymous when they join meetings.
+Note that meeting participants from other organizations who don't have the correct external access permissions will be considered anonymous when they join meetings.
+
+Similarly, if a meeting organizer in your organization doesn't have external access permissions, all external participants joining their meetings will be considered anonymous unless they're logged in with a guest account.
+
+If [anonymous meeting join](anonymous-users-in-meetings.md) is turned off, anonymous participants won't be able to join meetings at all.
 
 For information on how to configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
