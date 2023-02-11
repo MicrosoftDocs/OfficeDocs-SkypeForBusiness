@@ -137,6 +137,15 @@ If you have meetings where sensitive information is shared or that are subject t
 
 Since **Who can bypass the lobby** only sets a default that meeting organizers can change, consider enforcing the value with a sensitivity label or meeting template if you have compliance requirements in this area. For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
+## Turn off the lobby
+
+While there isn't a specific control that turns the meeting lobby off completely, you can effectively disable the meeting lobby by using a combination of settings:
+
+- Set **Who can bypass the lobby** to **Everyone**.
+- Set **People dialing in can bypass the lobby** to **On**.
+
+Note that with these settings, anonymous users and dial-in callers will still wait in the lobby if the meeting hasn't started. While you can set **Anonymous users and dial-in callers can start a meeting** to **On** to avoid this, we don't recommend it.
+
 ## Set meeting policies by using PowerShell
 
 You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
