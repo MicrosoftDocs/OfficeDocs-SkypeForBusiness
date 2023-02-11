@@ -51,7 +51,7 @@ To configure anonymous meeting join for the organization
 
 1. Under **Participants**, set **Anonymous participants can join a meeting** to **On** (recommended) or **Off**.
 
-    ![Screenshot of participants settings for meetings in the Teams admin center.](media/meeting-settings-participants.png)
+    :::image type="content" alt-text="Screenshot of participants settings for meetings in the Teams admin center." source="media/meeting-settings-participants.png":::
 
 1. Select **Save**.
 
