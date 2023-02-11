@@ -17,7 +17,7 @@ ms.collection:
   - M365-collaboration
 ---
 
-# Zero-touch App Install for Teams apps
+# Zero-touch app install for Teams apps
 
 Some apps exist as web-based services or desktop apps and users use these apps without being aware that they can use the equivalent Teams apps. Using a Teams app allows the users to work in the same context with added benefits of unique Teams capabilities such as in-context notifications and collaboration in Teams.
 
