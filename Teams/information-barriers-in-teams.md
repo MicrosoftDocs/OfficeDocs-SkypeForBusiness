@@ -62,16 +62,22 @@ You might want to use IBs in situations like these:
 
 The Information Barrier Policy Evaluation Service determines whether a communication complies with IB policies.
 
-## Managing information barrier policies
+## Managing information barriers segments
 
-IB policies are managed in the Microsoft Purview compliance portal (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+IB segments are managed in the Microsoft Purview compliance portal or by using PowerShell cmdlets. For more information, see [Step 2: Segment users in your organization](/microsoft-365/compliance/information-barriers-policies#step-2-segment-user-in-your-organization).
+
+If you've enabled information barriers in your organization after February 15, 2023 and configured Teams for information barriers for multi-segment support, see [Multi-segment support for users in Microsoft Teams](/microsoft-365/compliance/information-barriers-multi-segement#multi-segment-support-for-users-in-microsoft-teams) for more information about the multi-segment user experience and Teams.
+
+## Managing information barriers policies
+
+IB policies are managed in the Microsoft Purview compliance portal or by using PowerShell cmdlets. For more information, see [Step 3: Create IB policies](/microsoft-365/compliance/information-barriers-policies#step-3-create-ib-policies).
 
 >[!IMPORTANT]
->Before you set up or define policies, you must enable scoped directory search in Microsoft Teams. Wait at least a few hours after enabling scoped directory search before you set up or define policies for information barriers. For more information, see [Define information barrier policies](/office365/securitycompliance/information-barriers-policies#prerequisites).
+>Before you set up or define policies, you must enable scoped directory search in Microsoft Teams. Wait at least a few hours after enabling scoped directory search before you set up or define policies for information barriers. For more information, see [Define information barrier policies](/microsoft-365/compliance/information-barriers-policies#prerequisites).
 
 ## Information barriers administrator role
 
-The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview compliance portal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center-permissions).
 
 ## Information barrier triggers
 
