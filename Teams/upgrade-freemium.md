@@ -26,7 +26,7 @@ appliesto:
 # Upgrade Microsoft Teams Free (classic) to subscription version
 
 > [!IMPORTANT]
-> You must upgrade from **Microsoft Teams Free (classic)** to a subscription version of Teams as the **Microsoft Teams Free (classic)** license will be deprecated and unavailable starting mid-April 2023.
+> You must upgrade from **Microsoft Teams Free (classic)** to a subscription version of Teams as the **Microsoft Teams Free (classic)** license will be deprecated and unavailable starting April 12, 2023.
 > 
 > Microsoft now provides a single, free Teams experience for personal and small business use through a Microsoft Account rather than Azure Active Directory. For over a year, Microsoft has only allowed new customers to sign up for the new **Teams (Free)** license.
 > 
