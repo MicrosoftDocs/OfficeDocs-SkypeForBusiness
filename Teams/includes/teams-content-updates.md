@@ -2,6 +2,35 @@
 
 
 
+## Week of February 06, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/6/2023 | [Manage Audio Conferencing settings](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modified |
+| 2/6/2023 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 2/8/2023 | [Teams policies reference](/MicrosoftTeams/settings-policies-reference) | added |
+| 2/8/2023 | [Accessibility guide for Microsoft Teams Admins](/MicrosoftTeams/accessibility-guide-admin) | modified |
+| 2/8/2023 | [Configure desktop sharing in Microsoft Teams](/MicrosoftTeams/configure-desktop-sharing) | modified |
+| 2/8/2023 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 2/8/2023 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
+| 2/8/2023 | [Manage the meeting presentation experience for sensitive Teams meetings](/MicrosoftTeams/manage-meeting-presentation-experience) | modified |
+| 2/8/2023 | [Manage Q&A in Teams Meetings](/MicrosoftTeams/manage-qna-for-teams) | modified |
+| 2/8/2023 | [Manage who can start instant meetings and schedule meetings](/MicrosoftTeams/manage-who-can-schedule-meetings) | modified |
+| 2/8/2023 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | modified |
+| 2/8/2023 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 2/8/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+| 2/8/2023 | [Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
+| 2/9/2023 | [Overview of custom meeting templates in Microsoft Teams](/MicrosoftTeams/custom-meeting-templates-overview) | modified |
+| 2/9/2023 | Turn on Teams in your Microsoft 365 | removed |
+| 2/9/2023 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
+| 2/9/2023 | Support remote government workers using Microsoft Teams | removed |
+| 2/9/2023 | [Microsoft 365 Government - GCC deployments](/MicrosoftTeams/plan-for-government-gcc) | modified |
+| 2/9/2023 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
+| 2/10/2023 | Remove the RestrictedAnonymousAccess Teams meeting policy from users | removed |
+| 2/10/2023 | [Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
+
+
 ## Week of January 30, 2023
 
 
@@ -99,15 +128,3 @@
 | 1/11/2023 | [Calling policies in Microsoft Teams: Calling and call-forwarding features](/MicrosoftTeams/teams-calling-policy) | modified |
 | 1/13/2023 | [Manage devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
 | 1/13/2023 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
-
-
-## Week of January 02, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/3/2023 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | modified |
-| 1/3/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
-| 1/3/2023 | [Audio Conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modified |
-| 1/4/2023 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
-| 1/5/2023 | Enhance existing Microsoft 365 groups | removed |
