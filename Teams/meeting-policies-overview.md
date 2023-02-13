@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
+ms.date: 06/07/2018
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150

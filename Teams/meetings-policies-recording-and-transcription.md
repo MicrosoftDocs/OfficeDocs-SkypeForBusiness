@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark
+ms.date: 08/19/2021
 audience: admin
 localization_priority: Normal
 search.appverid: MET150

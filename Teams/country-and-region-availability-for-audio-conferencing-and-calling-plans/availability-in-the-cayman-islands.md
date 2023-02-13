@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.date: 11/28/2017
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams

@@ -3,6 +3,7 @@ title: Manage anonymous participant access to Teams meetings (IT admins)
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
+ms.date: 01/09/2023
 manager: serdars
 ms.topic: article
 ms.service: msteams

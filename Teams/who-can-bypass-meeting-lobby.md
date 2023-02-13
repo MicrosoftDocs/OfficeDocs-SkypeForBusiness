@@ -3,6 +3,7 @@ title: Control who can bypass the meeting lobby in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
+ms.date: 11/30/2022
 manager: serdars
 ms.topic: article
 ms.service: msteams

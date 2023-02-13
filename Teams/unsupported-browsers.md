@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: nakulm
+ms.date: 11/26/2019
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

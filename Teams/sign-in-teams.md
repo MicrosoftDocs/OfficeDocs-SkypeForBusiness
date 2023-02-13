@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
+ms.date: 03/26/2018
 description: Learn how technologies like Single sign-on, and Modern Authentication affects your sign in behavior on iOS, Android, macOS, and PC. How to use teams with many accounts, and restrict sign in. Includes how to tell Teams to ignore the pre-fill of the user's name (UPN) at sign-in.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
