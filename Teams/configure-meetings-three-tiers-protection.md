@@ -14,14 +14,13 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365solution-overview
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for better security using three tiers of protection, balancing security with ease of collaboration.
 ---
 
 # Configure Teams meetings with three tiers of protection
-
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 The articles in this series provide options for using the compliance features available in Teams and Microsoft 365 to create a meeting environment that meets your compliance requirements. We'll look at the options available with sensitivity labels and templates and how you can use them together with other Teams admin settings.
 

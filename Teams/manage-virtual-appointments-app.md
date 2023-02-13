@@ -1,11 +1,11 @@
 ---
 title: Manage the Virtual Appointments app in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
+author: samanro
+ms.author: samanro
 manager: samanro
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: megano
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
@@ -17,19 +17,23 @@ ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help
   - M365-collaboration
+  - teams-1p-app-admin
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---
 
 # Manage the Virtual Appointments app for your organization in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+## Overview of Virtual Appointments
 
-The Virtual Appointments app provides a central hub for all your virtual appointments needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules from the [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5), analytics, and management options, all in one place.
+The Virtual Appointments app provides a central hub for all your virtual appointments needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating Bookings schedules, analytics, and management options, all in one place.
 
 You can schedule, view, and manage virtual appointments, get real-time status updates in a queue view, send appointment reminders, view analytics and reports to gain insight into virtual appointments activity, and configure calendar, staff, and booking page settings.
 
-With any Microsoft 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview) unlocks advanced Virtual Appointments capabilities that your organization can use to manage and personalize the experience. These include a queue view of scheduled and on-demand appointments, SMS text notifications, custom waiting rooms, and analytics.
+With any Microsoft 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the Bookings calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) unlocks advanced Virtual Appointments capabilities that your organization can use to manage and personalize the experience. These include a queue view of scheduled and on-demand appointments, SMS text notifications, custom waiting rooms, and analytics.
+
+To learn more, see [Use the Virtual Appointments app in Teams](/microsoft-365/frontline/virtual-appointments-app).
 
 ## Overview of the Virtual Appointments app
 
@@ -45,7 +49,7 @@ Here's an overview of what's on each tab.
 
 ### Home
 
-![Information icon](media/info.png) **The Queue and Analytics tiles are part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview).**
+![Information icon](media/info.png) **The Queue and Analytics tiles require [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 Get easy access to key actions and information. The Home page provides a quick view of the Bookings schedule, a summary of the queue of appointments, a snapshot of appointment analytics, and management options.
 
@@ -53,25 +57,27 @@ Get easy access to key actions and information. The Home page provides a quick v
 
 ### Bookings schedule
 
-![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
+![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
-Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments) and [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
+Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing calendar or create a new one. To learn more, see [Set up a new booking calendar](/microsoft-365/frontline/virtual-appointments-app#set-up-a-new-booking-calendar).
 
 :::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Bookings schedule page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
 ### Queue
 
-![Information icon](media/info.png) **The scheduled queue view and SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview). Users can continue using these features during the preview period. After the preview, users need a Teams Premium license. To access the on-demand queue during the preview period, users need a Teams Premium trial license.**
+![Information icon](media/info.png) **This feature requires [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 View and monitor all scheduled and on-demand virtual appointments in the Bookings calendar that you pinned, with updates in real time.
 
 From here, schedulers can add a new booking, view relevant appointment details, and see appointment statuses throughout the day. They can also send email reminders to assigned staff and attendees and send SMS text notifications to attendees for scheduled appointments. Staff can join appointments directly from the queue.
 
-To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/bookings-virtual-appointments#monitor-appointments-and-get-real-time-status-updates-in-the-queue-view).
+To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/virtual-appointments-app#monitor-appointments-and-get-real-time-status-updates-in-the-queue-view).
 
 :::image type="content" source="media/manage-virtual-appointments-app-queue.png" alt-text="Screenshot of the Queue page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-queue.png":::
 
 ### Analytics
+
+![Information icon](media/info.png) **This feature requires [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 Get insight into usage activity and trends to help optimize Virtual Appointments and deliver better business outcomes.
 
@@ -83,8 +89,6 @@ The analytics experience depends on user role. Admins get [organizational analyt
 
 #### Organizational analytics
 
-![Information icon](media/info.png) **This feature is available as part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview). After the preview period, a Teams Premium license is required.**
-
 Admins see an org-level report that shows aggregated analytics across all departments within your organization.
 
 :::image type="content" source="media/manage-virtual-appointments-app-analytics-org.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for admins." lightbox="media/manage-virtual-appointments-app-analytics-org.png":::
@@ -92,8 +96,6 @@ Admins see an org-level report that shows aggregated analytics across all depart
 To learn more, see [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 #### Departmental and individual analytics
-
-![Information icon](media/info.png) **To access this feature during the preview period, users need a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) trial license.**
 
 Non-admins see a department-level report that provides data for the given department.
 
@@ -129,6 +131,10 @@ To pin the Virtual Appointments app for your users, you can edit the global (Org
 ## Terms of service
 
 See [Terms of service](/legal/microsoft-365/virtual-appointments-app-terms-of-service).
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Virtual Visits**, and then enter your feedback or details about the issue you're experiencing.
 
 ## Related articles
 

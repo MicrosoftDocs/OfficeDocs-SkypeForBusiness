@@ -82,8 +82,8 @@ Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audi
 
 Here's a list of all events that are logged for user and admin activities in Teams in the Microsoft 365 audit log. The table includes the friendly name that's displayed in the **Activities** column and the name of the corresponding operation that appears in the detailed information of an audit record and in the CSV file when you export the search results.
 
-|Friendly name|Operation|Description|
-|---|---|---|
+|**Friendly name**|**Operation**|**Description**|
+|:----------------|:------------|:--------------|
 |Added bot to team|BotAddedToTeam|A user adds a bot to a team.|
 |Added channel|ChannelAdded|A user adds a channel to a team.|
 |Added connector|ConnectorAdded|A user adds a connector to a channel.|
@@ -91,10 +91,12 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Added information about meeting participants <sup>2</sup>|MeetingParticipantDetail|Teams added information about the participants of a meeting, including the user ID of each participant, the time a participant joined the meeting, and the time a participant left the meeting.|
 |Added members|MemberAdded|A team owner adds members to a team, channel, or group chat.|
 |Added tab|TabAdded|A user adds a tab to a channel.|
+| Applied sensitivity label | SensitivityLabelApplied | A user or meeting organizer applied a sensitivity label to a Teams meeting. |
 |Changed channel setting|ChannelSettingChanged|The ChannelSettingChanged operation is logged when the following activities are performed by a team member. For each of these activities, a description of the setting that was changed (shown in parentheses is displayed in the **Item** column in the audit log search results. <ul><li>Changes name of a team channel (**Channel name**)</li><li>Changes description of a team channel (**Channel description**)</li> </ul>|
 |Changed organization setting|TeamsTenantSettingChanged|The TeamsTenantSettingChanged operation is logged when the following activities are performed by a global admin in the Microsoft 365 admin center. These activities affect org-wide Teams settings. To learn more, see [Manage Teams settings for your organization](enable-features-office-365.md). <br>For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Enables or disables Teams for the organization (**Microsoft Teams**).</li><li>Enables or disables interoperability between Microsoft Teams and Skype for Business for the organization (**Skype for Business interoperability**).</li><li>Enables or disables the organizational chart view in Microsoft Teams clients (**Org chart view**).</li><li>Enables or disables the ability for team members to schedule private meetings (**Private meeting scheduling**).</li><li>Enables or disables the ability for team members to schedule channel meetings (**Channel meeting scheduling**).</li><li>Enables or disables video calling in Teams meetings (**Video for Skype meetings**).</li><li>Enables or disables screen sharing in Microsoft Teams meetups for the organization (**Screen sharing for Skype meetings**).</li><li>Enables or disables that ability to add animated images (called Giphys) to Teams conversations (**Animated images**).</li><li>Changes the content rating setting for the organization (**Content rating**). The content rating restricts the type of animated image that can be displayed in conversations.</li><li>Enables or disables the ability for team members to add customizable images (called custom memes) from the internet to team conversations (**Customizable images from the Internet**).</li><li>Enables or disables the ability for team members to add editable images (called stickers) to team conversations (**Editable images**).</li><li>Enables or disables that ability for team members to use bots in Microsoft Teams chats and channels (**Org-wide bots)**.</li><li>Enables specific bots for Microsoft Teams. This doesn't include the T-Bot, which is Teams help bot that's available when bots are enabled for the organization (**Individual bots**).</li><li>Enables or disables the ability for team members to add extensions or tabs (**Extensions or tabs**).</li><li>Enables or disables the side-loading of proprietary bots for Microsoft Teams (**Side loading of Bots**).</li><li>Enables or disables the ability for users to send email messages to a Microsoft Teams channel (**Channel email**).</li></ul>|
 |Changed role of members in team|MemberRoleChanged|A team owner changes the role of members in a team. The following values indicate the role type assigned to the user. <br><br>**1** - Indicates the Member role.<br>**2** -  Indicates the Owner role.<br>**3** -  Indicates the Guest role.<br><br>The Members property also includes the name of your organization and the member's email address.|
 |Changed team setting|TeamSettingChanged|The TeamSettingChanged operation is logged when the following activities are performed by a team owner. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Changes the access type for a team. Teams can be set as private or public (**Team access type**). When a team is private (the default setting), users can access the team only by invitation. When a team is public, it's discoverable by anyone.</li><li>Changes the information classification of a team (**Team classification**). For example, team data can be classified as high business impact, medium business impact, or low business impact.</li><li>Changes the name of a team (**Team name**).</li><li>Changes the team description (**Team description**).</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then click the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>|
+| Changed sensitivity label | SensitivityLabelChanged | A user changed a sensitivity label on a Teams meeting. |
 |Created a chat <sup>1, </sup> <sup>2</sup>|ChatCreated|A Teams chat was created.|
 |Created team|TeamCreated|A user creates a team.|
 |Deleted a message|MessageDeleted|A message in a chat or channel was deleted.|
@@ -104,7 +106,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Deleted team|TeamDeleted|A team owner deletes a team.|
 |Edited a message with a URL link in Teams|MessageEditedHasLink|A user edits a message and adds a URL link to it in Teams.|
 |Exported messages <sup>1, </sup> <sup>2</sup>|MessagesExported|Chat or channel messages were exported.|
-|Failed to validate invitation to shared channel<sup>3</sup>|FailedValidation|A user responds to an invitation to a shared channel but the invitation failed validation.|
+|Failed to validate invitation to shared channel <sup>3</sup>|FailedValidation|A user responds to an invitation to a shared channel but the invitation failed validation.|
 |Fetched chat <sup>1, </sup> <sup>2</sup>|ChatRetrieved|A Microsoft Teams chat was retrieved.|
 |Fetched all hosted content of a message<sup>1, </sup> <sup>2</sup>|MessageHostedContentsListed|All hosted content in  a message, such as images or code snippets, was retrieved.|
 |Installed app|AppInstalled|An app was installed.|
@@ -116,17 +118,18 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Removed bot from team|BotRemovedFromTeam|A user removes a bot from a team.|
 |Removed connector|ConnectorRemoved|A user removes a connector from a channel.|
 |Removed members|MemberRemoved|A team owner removes members from a team, channel, or group chat.|
-|Removed sharing of team channel<sup>3</sup>|TerminatedSharing|A team or channel owner disabled sharing for a shared channel.|
-|Restored sharing of team channel<sup>3</sup>|SharingRestored|A team or channel owner re-enabled sharing for a shared channel.|
+| Removed sensitivity label | SensitivityLabelRemoved | A user removed a sensitivity label from a Teams meeting. |
+|Removed sharing of team channel <sup>3</sup>|TerminatedSharing|A team or channel owner disabled sharing for a shared channel.|
+|Restored sharing of team channel <sup>3</sup>|SharingRestored|A team or channel owner re-enabled sharing for a shared channel.|
 |Removed tab|TabRemoved|A user removes a tab from a channel.|
-|Responded to invitation for shared channel<sup>3</sup>|InviteeResponded|A user responded to a shared channel invitation.|
-|Responded to invitee response to shared channel<sup>3</sup>|ChannelOwnerResponded|A channel owner responded to a response from a user who responded to a shared channel invitation.|
+|Responded to invitation for shared channel <sup>3</sup>|InviteeResponded|A user responded to a shared channel invitation.|
+|Responded to invitee response to shared channel <sup>3</sup>|ChannelOwnerResponded|A channel owner responded to a response from a user who responded to a shared channel invitation.|
 |Retrieved messages <sup>1, </sup> <sup>2</sup>|MessagesListed|Messages from a chat or channel were retrieved.|
 |Sent a message with a URL link in Teams|MessageCreatedHasLink|A user sends a message containing a URL link in Teams.|
 |Sent change notification for message creation <sup>1, </sup> <sup>2</sup>|MessageCreatedNotification|A change notification was sent to notify a subscribed listener application of a new message.|
 |Sent change notification for message deletion <sup>1, </sup> <sup>2</sup>|MessageDeletedNotification|A change notification was sent to notify a subscribed listener application of a deleted message.|
 |Sent change notification for message update <sup>1, </sup> <sup>2</sup>|MessageUpdatedNotification|A change notification was sent to notify a subscribed listener application of an updated message.|
-|Sent invitation for shared channel<sup>3</sup>|InviteSent|A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users.|
+|Sent invitation for shared channel <sup>3</sup>|InviteSent|A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users.|
 |Subscribed to message change notifications <sup>1, </sup> <sup>2</sup>|SubscribedToMessages|A subscription was created by a listener application to receive change notifications for messages.|
 |Uninstalled app|AppUninstalled|An app was uninstalled.|
 |Updated app|AppUpdatedInCatalog|An app was updated in the catalog.|
@@ -136,9 +139,10 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Updated tab|TabUpdated|A user modified a tab in a channel.|
 |Upgraded app|AppUpgraded|An app was upgraded to its latest version in the catalog.|
 |User signed in to Teams|TeamsSessionStarted|A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.|
+|Posted New Message <sup>3, </sup> <sup>4</sup>|MessageSent|A new message was posted to a chat or a channel. This event is a premium feature with licensing details to be defined.|
 
 > [!NOTE]
-> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><sup>2</sup> This event is only available in Audit (Premium). That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Audit (Premium), see [Audit (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Audit (Premium) licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> This event is in public preview.
+> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><sup>2</sup> This event is only available in Audit (Premium). That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Audit (Premium), see [Audit (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Audit (Premium) licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> This event is in public preview. <br/> <sup>4</sup>This event is generated for chat only if there are guests, federated and/or anonymous users.
 
 ## Shifts in Teams activities
 

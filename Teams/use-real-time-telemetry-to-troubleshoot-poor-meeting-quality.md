@@ -100,16 +100,20 @@ User signals identify when a user is actively participating in the call, isn't s
 |Round Trip Time |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of this is when two people in a meeting are unintentionally speaking over each other due to the delay. Shown for outbound audio only. |
 |Bitrate |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
 | Codec | String <br/> &bull; Example: SATIN | Information only | Displays the audio codec being sent and received. A different codec can be received than the one being sent. |
+| Local Healed Ratio | Ratio | Information only | Indicates when the audio healer is being invoked on the local endpoint for the inbound audio stream. High healer usage is experienced by end-users "choppy audio".|
 
 
 ### Video
 |Measure Name |Units |Good Threshold |Description |
 |:---|:---|:---|:---|
-|Round Trip Time |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of this is when two people in a meeting are unintentionally speaking over each other due to the delay. |
+|Round Trip Time |Milliseconds | Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of this is when two people in a meeting are unintentionally speaking over each other due to the delay. |
 |Bitrate |Megabits per second (Mbps) | Information only |Throughput of the video stream expressed in megabits per second. |
 |Frame Rate (Video) |Frames per second |360p or better: 25-30 FPS <br/> 270p or lower: 7-15 FPS |For outbound video streams, frame rate (FPS) is the number of frames per second of video the client is sending. Lower than expected values here may suggest system resource constraints, insufficient network bandwidth, or misbehaving video capture devices. Different resolutions have different acceptable FPS ranges. |
 |Codec |String | Information only |Displays the video codec and rendering mode of the outbound video stream. (Example: H264 SW HW indicates an H264 video stream using both software and hardware rendering.)|
 |Resolution |Pixels | Information only |The resolution of the video being sent. Outbound video resolution is dynamic, based on the highest requirement from an endpoint in the meeting. A client capable of 1920 x 1080 video will only send 640 x 360 video if no clients are displaying that user's video in a frame larger than 640 x 360 |
+| Source Freeze Count | Count | Less than 2 | The number of times the camera didn’t generate a new frame for more than 1s at a stretch. For video, this is typically indicative of an issue with the device generating content at the asked format. |
+| Loss Recovery Attempt Rate | Rate per minute | Less than 25 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
+
 
 
 ### Application Sharing (VBSS)
@@ -121,6 +125,18 @@ User signals identify when a user is actively participating in the call, isn't s
 |Frame Rate |Frames per second (FPS) | Information only |For VBSS, frame rate is content-aware to ensure as many frames as necessary are sent to ensure a good experience while avoiding sending frames if they're not needed. For example, sharing a text document on-screen only requires 1 frame-per-second to produce a good experience, whereas sharing a video or content with more activity will increase frames per second to a maximum of 30 FPS to produce a smoother experience. |
 |Codec |String | Information only |Displays the codec and rendering mode of the VBSS stream. (Example: H264 SW HW indicates an H264 VBSS stream using both software and hardware rendering.)|
 |Resolution |Pixels | Information only |The resolution of the VBSS stream being sent and received. |
+| Normalized Freeze Duration | Milliseconds per minute| Less than 25 | This is the rate of video freezing that is observed on the receiver side and is represented in milliseconds of freeze per minute of active video. Loss-free networks should have a value of 0. Video freeze is typically caused by network loss. Larger percentages of loss or short, high bursts of loss may lead to higher normalized freeze. |
+| Harmonic Frame Rate Average | Frames per second (FPS) | Greater than 0.15 | The harmonic average of the incoming video framerate. This typically represents the regularity of the incoming frames along with the rate of frames. A low value can stem from jitter in the incoming frames, freezes, burst arrivals, and low FPS itself. These are typically related to network issues, but -- although rare -- can also be caused by devices not producing consistent output framerates.|
+| Audio / Video Sync | Milliseconds | Less than 900 ms | This metric indicates the audio / video sync in milliseconds. The sync value is calculated as (audioDelay – videoDelay). A positive value indicates audio is behind while a negative value indicates video is behind. Audio video sync issues may be caused by a variety of factors, most common of which include bad capture devices and network issues delaying one modality more than the other. |
+| Loss Recovery Attempt Rate | Rate per minute | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
+| Source Freeze Count | Count | Less than 75 | The number of times the outbound screen share didn’t generate a new frame for more than 1s at a stretch. For screen sharing, this value can potentially relate to permissions of screen capture, and can also result from performance issues causing glitches while capturing screen content. |
+
+### CPU and Battery Details
+|Measure Name |Units |Good Threshold |Description |
+|:---|:---|:---|:---|
+|System CPU Usage | Percentage |Information only | The percentage of system CPU resources being consumed during the call. If this is high relative to the Teams app CPU usage, it can indicate resource contention on the host. |
+|Teams app CPU Usage | Percentage |Information only | The percentage of system CPU resources being consumed specifically by the Teams app during the call. |
+| Battery level | Charging or Percentage | Information only | Where an endpoint includes a battery as a power source, this indicates the percentage of the battery remaining or if the device is plugged in and charging. |
 
 
 ## Client platforms supported for real-time telemetry

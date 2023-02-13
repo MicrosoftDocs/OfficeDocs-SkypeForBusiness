@@ -3,8 +3,8 @@ title: Meetings, webinars, and live events
 ms.reviewer: 
 description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
@@ -27,8 +27,6 @@ appliesto:
 
 # Meetings, webinars, and live events
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
-
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
 This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
@@ -45,9 +43,9 @@ The following table summarizes the three types of meetings, the number of recomm
 | Webinars | - Up to 1,000<br>- Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |- Participants up to 1,000 have fully interactive capabilities.<br> - Audience interaction configurable.<br> - Can specify presenters. | Yes |
 | Live events | Up to 20,000** |- Broadcast to large audiences. <br>- Moderated Q&A for audience interaction. <br> - Can specify producers and presenters, including external presenters.<br>- Supports more advanced production capabilities. | No |
 
-*The usual 10,000 is increased to 20,000 through December 31, 2022.
+*The usual 10,000 is increased to 20,000 through June 30, 2023.
 
-**The usual 10,000 is increased to 20,000 through December 31, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
+**The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 

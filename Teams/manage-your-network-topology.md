@@ -28,6 +28,9 @@ If your organization is deploying [Location-Based Routing for Direct Routing](lo
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
 
+> [!NOTE]
+> Network configuration data may be used across Microsoft 365 services to provide additional services your organization has subscribed to.
+
 ## Configure network settings in the Microsoft Teams admin center
 
 You define network regions, network sites, and subnets on the **Network sites** tab of the **Network topology** page. Here, you can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
@@ -175,6 +178,12 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 ```
 
 See also [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenanttrustedipaddress).
+
+## Enabling Network Roaming Policies
+
+Once you have configured your network roaming policies, you need to enable **Network configuration lookup*** within each of your **Meeting Policies** in the Teams Admin Center under **Meetings > Meeting Policies.**
+
+You may wish to either edit the global policy, or create a new policy and assign the policy to specific users.
 
 ## Related topics
 

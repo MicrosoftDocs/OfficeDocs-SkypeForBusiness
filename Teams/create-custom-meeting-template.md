@@ -13,14 +13,13 @@ f1.keywords:
 ms.collection: 
   - m365solution-compliantmeetings
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 description: Learn how Microsoft Teams administrators can create a custom meeting template to set or enforce meeting organizer settings for enhanced meeting security and compliance.
 ---
 
 # Create a custom meeting template in Microsoft Teams
-
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting settings available to meeting organizers. Templates can configure settings that meeting organizers can change or can lock settings so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
 
@@ -51,7 +50,6 @@ Once the template has been created, it may take up to 24 hours to be available t
 |Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain settings in the template.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
-|Notify when callers join and leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
 |Enable meeting end-to-end encryption|Specify if you want the meeting to use end-to-end encryption. Recording and transcription won't work if this is on.|
 |Apply a watermark to shared content|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
 |Apply a watermark to everyone's video feed|Specifies if a watermark is overlaid on attendees video feeds in the meeting.|
@@ -69,6 +67,12 @@ Once the template has been created, it may take up to 24 hours to be available t
 |:------|:----------|
 |Record meetings automatically|When **On** meetings are recorded automatically.|
 |Who can record meetings?|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
+
+#### Roles
+
+|Setting|Description|
+|:------|:----------|
+|Notify when callers join and leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
 
 #### Meeting Engagement
 

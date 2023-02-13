@@ -10,6 +10,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -20,8 +21,6 @@ description: Using approved corporate assets like images and logos to create som
 ---
 
 # Meeting themes for Teams meetings
-
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. An organization’s images and colors help foster internal corporate culture building and increase overall brand awareness with guests. With the help of an organization's brand management and corporate communications teams, tenant admins can easily set up and create meeting themes for various business units and departments within a single tenant.
 By default, Teams premium licensed users who have been assigned a meeting customization policy can create meeting themes-enabled meetings. These meetings feature themes by default, and anyone who joins the meetings can see the themes (including unlicensed internal users, guests, and anonymous users).

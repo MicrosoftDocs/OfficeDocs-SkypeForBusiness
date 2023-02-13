@@ -8,7 +8,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployAdminToolsInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium

@@ -13,14 +13,13 @@ f1.keywords:
 ms.collection: 
   - m365solution-compliantmeetings
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 description: Learn how to enable end-to-end encryption for Teams meetings.
 ---
 
 # Require end-to-end encryption for sensitive Teams meetings
-
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 End-to-end encryption is the encryption of information at its origin and decryption at its intended destination without the ability for intermediate nodes to decrypt. When meetings in Teams are end-to-end encrypted, nobody except for the participants in the meeting can hear or see the communication. No other party, including Microsoft, has access to the decrypted conversation.
 
@@ -50,6 +49,10 @@ The following features aren't available during an end-to-end encrypted meeting:
 - Together mode, companion mode, large gallery
 
 - Breakout rooms
+
+- PowerPoint Live
+
+- Excel Live
 
 If your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 

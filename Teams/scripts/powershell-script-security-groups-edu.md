@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - tier1
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
