@@ -163,7 +163,9 @@ Meeting policies are used to control what features are available to users when t
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
-|Engagement report|Turn on|When **On**, meeting organizers can see who registered and attended the meetings they set up.|
+|Attendance report|Everyone, unless organizers opt-out|This setting allows meeting organizers the ability to see the toggle that turns on or off Attendance Reports within Meeting options.|
+|Who's in the report|Everyone, but users can opt-out|This setting controls whether users in the meeting can opt in or out of offering their attendance information in the Attendance Report.|
+|Attendance information collection|All information|This setting controls whether to show attendance time information (such as join times, leave times and in-meeting duration) for each participant in the meeting.|
 
 #### Related topics to meeting scheduling
 
