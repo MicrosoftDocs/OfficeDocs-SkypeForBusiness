@@ -28,7 +28,7 @@ If your organization is deploying [Location-Based Routing for Direct Routing](lo
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
 
-> [NOTE!]
+> [!NOTE]
 > Network configuration data may be used across Microsoft 365 services to provide additional services your organization has subscribed to.
 
 ## Configure network settings in the Microsoft Teams admin center
