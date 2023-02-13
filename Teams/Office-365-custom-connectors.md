@@ -61,7 +61,7 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 ## Considerations when using Connectors in Teams
 
-* New connections cannot be configured for the following connectors. The existing connections continue to work.
+* New connections cannot be configured for the following connectors.
 
   * Aha!
   * Airbrake
