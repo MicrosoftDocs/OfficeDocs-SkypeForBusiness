@@ -34,18 +34,22 @@ This article provides a roadmap to content for setting up Phone System--Microsof
 Before reading this article, make sure you've read [What is Phone System](what-is-phone-system-in-office-365.md) and [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). The latter two articles describe Phone System requirements and features.
 
 This article describes the following steps:
-
+ 
 - [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
-- [Step 3: Get phone numbers for your users](#step-3-get-phone-numbers-for-your-users)
-- [Step 4: Get phone numbers for services](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
+- [Step 3: Set up emergency locations](#step-3-choose-a-pstn-connectivity-option)
+- [Step 4: Get phone numbers for your users and services](#step-4-get-phone-numbers-for-your-users-and-services)
 - [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
 - [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [Step 7: Set up communication credits for toll-free numbers](#step-7-set-up-communications-credits-for-toll-free-numbers)
 
 ## Step 1: Buy and assign a Phone System license
 
-To assign a Phone System license to a single user, the steps are the same as assigning a Microsoft 365 license. You can also assign licenses to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+For each user who uses Phone System, you must assign a Phone System license to that user.   
+
+You can assign a license to a single user or you can assign licenses to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+
+The Microsoft Teams Phone System with Calling Plan license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Phone System with Calling Plan bundle is available in your location, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
 
 ## Step 2. Choose a PSTN connectivity option
 
@@ -61,43 +65,42 @@ To enable your users to make and receive external calls, you'll need to connect 
 
 For more information about all connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
-## Step 3: Get phone numbers for your users
+## Step 3. Set up emergency locations
+
+An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. 
+
+How you set up emergency locations differs depending on the PSTN connectivity option you choose.  For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
+## Step 4: Get phone numbers for your users and services
 
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
 
-For information on how to manage phone numbers for your users, see the following articles. How you manage numbers for a user depends on the PSTN connectivity option you choose.
-
-- [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types with links to specific articles for acquiring and managing numbers depending on your PSTN connectivity option.
-Describes the two types of [user phone numbers](manage-phone-numbers-landing-page.md#user-telephone-numbers).
-
-- [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the phone numbers you've acquired.
-
-- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get, depending on the types of telephone numbers and types of licenses you've bought and assigned.
-
-## Step 4: Get phone numbers for services (call queues, auto attendants)
-
 In addition to getting phone numbers for your users, you can acquire toll or toll-free phone numbers for services such as auto attendants and call queues. A service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
 
-You can obtain service numbers from Microsoft that are included in your licensing. If you have PSTN connectivity through Operator Connect or Direct Routing, you can use service numbers provided by your own carrier or operator.
+How you acquire and manage phone numbers differs depending on your PSTN connectivity option.
 
-For more information, see:
+For information on how to manage phone numbers for your users and services, see the following articles. 
 
-- [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types with links to specific articles for acquiring and managing numbers depending on your PSTN connectivity option.
-Describes [service phone numbers](manage-phone-numbers-landing-page.md#service-telephone-numbers) available from Microsoft that are included in your licensing. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.
+- [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types (user and service) with links to specific articles for acquiring and managing numbers.
+
+- [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the user phone numbers you've acquired.  
+
+- [Manage resource accounts for service numbers](manage-resource-accounts.md) - Describes how to create resource accounts for auto attendants and call queues, and assign service numbers to those resource accounts.
 
 - [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get, depending on the types of telephone numbers and types of licenses you've bought and assigned.
+
 
 ## Step 5: If you want to set up a call queue
 
 Call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call. You can create single or multiple call queues for your organization.
 
-For more information about call queues, see [Create a call queue](create-a-phone-system-call-queue.md).
+For more information about call queues, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Create a call queue](create-a-phone-system-call-queue.md).
 
 ## Step 6: If you want to set up an auto attendant
 
 Auto attendants let people who call in to your organization navigate a menu system to get them to the right department, call queue, person, or operator.
 
-For information about setting up auto attendants, see [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
+For information about setting up auto attendants, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
 
 ## Step 7: Set up Communications Credits for toll-free numbers
 
