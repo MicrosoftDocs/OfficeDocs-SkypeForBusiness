@@ -17,17 +17,17 @@ ms.collection:
   - M365-collaboration
 ---
 
-# Zero-touch app install of Microsoft Teams apps by admins
+# Zero-touch App Install of Microsoft Teams apps by admins
 
 Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps aren't aware that the same app functionality can be used as a Teams app. Using a Teams app allows the users to be more productive as the users work without switching context too often and with the added benefits of having unique Teams capabilities. Some such capabilities are in-context notifications and collaboration within Microsoft Teams.
 
 If an admin enables the feature, Zero-touch App Install automatically adds admin-approved apps to Teams for the permitted users. It happens only after users have used Azure AD credentials to sign-in. The Zero-touch App Install feature automatically adds approved apps in the Teams clients of the permitted users. The functionality respects all app governance controls and only installs apps that the users have used outside Teams.
 
-Admins can allow users to use Azure Active Directory identify to sign into apps outside Teams, for example in a web browser. The sign-in permission is used as an intelligent signal by the functionality to add the app for such users. The apps must be allowed by admins in their organization and the users must be allowed to use the app.
+Admins can allow users to use Azure Active Directory identity to sign into apps outside Teams, for example in a web browser. The sign-in permission is used as an intelligent signal by the functionality to add the app for such users. The apps must be allowed by admins in their organization and the users must be allowed to use the app.
 
 The Zero-touch install functionality is available only for a few Teams apps. You can view the apps in the **Zero-touch app install** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
 
-:::image type="content" source="media/zero-touch-apps-list.png" alt-text="Screenshot showing Zero-touch app install feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/zero-touch-apps.png":::
+:::image type="content" source="media/zero-touch-apps-list.png" alt-text="Screenshot showing Zero-touch App Install feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/zero-touch-apps.png":::
 
 ## Prerequisites and considerations for Zero-touch App Install feature
 
@@ -65,7 +65,7 @@ The feature benefits admins and end-users in the following ways:
 * Users continue to use the app functionality inside Teams without switching context. They don’t have to discover apps and install the app, use a browser to use the app, or individually request admins for access to an app.
 * Users continue to have admin-approved access to use the apps on the surface and in the context that is most convenient to them. Users also receive the highly relevant apps as a Teams app if and when they demonstrate the need through their actions.
 
-## Use Zero-touch App Installation feature
+## Use Zero-touch App Install feature
 
 To enable and use the functionality, meet the following prerequisites and complete these tasks:
 
@@ -87,7 +87,7 @@ You must enable the Zero-touch App Install feature manually. To do so, follow th
 
 1. Select **Org-wide app settings** and enable the **Zero-touch app install** option.
 
-    :::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing Zero-touch app install option in admin center that must be enabled to use the feature." lightbox="media/zero-touch-apps-large.png":::
+    :::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing Zero-touch App Install option in admin center that must be enabled to use the feature." lightbox="media/zero-touch-apps-large.png":::
 
 1. Select **Save**.
 
