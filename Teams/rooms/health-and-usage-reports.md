@@ -25,7 +25,7 @@ The reporting node contains data for the health and usage of your Microsoft Team
 
 ## Export Tickets
 
-A new export Ticket history feature has been created that will allow you to export all incident ticket history information to be used for deeper reporting and analysis.  
+A new export Ticket history feature has been created that will allow you to export all active and closed ticket history information within a select date range. this export will give you the ability to easily access and analyze your ticket history data for better decision making.  
 
 To view the export ticket button, navigate to **Reports >Overview> Export ticket**.
 
@@ -40,12 +40,10 @@ Once clicked on the button, the download will start, if you leave the portal bef
 |Incident Type  |Spread in incident type id, incident type display name which is sub category in UI, the incident type category (Ex: account, config,) and the incident type severity ( Ex: critical, important, ) |
 |State |The state/status of the ticket which can be either new, investigating, resolved, closed and watching |
 |TicketID |The ticket ID in "7B7365-EPDOLF" format |
-|WaitingOn |The waiting stage of the ticket with waiting on the system or customer for actions  |
 |LatsUpdate |Any updates made on the ticket with specific date and time  |
 |History |Provide a detail history of the ticket status overtime |
 |SnowIncident |SNOW incident number in "INC11684776" format |
 |LastResolved |Date and time when the ticket was last resolved  |
-|Conversation |All conversations/ texts about the ticket with the exact time/ date and the user |
 |Closure Summary/ Reason |Provide the reason behind the ticket resolution. Ex: Self Resolved |
 |Closure Summary/ Closed By |Provide information about who was responsible for closing the ticket. Ex: Managed Room Services |
 |LastClosed |The date/time when the ticket was closed |
