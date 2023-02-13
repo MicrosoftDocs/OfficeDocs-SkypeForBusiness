@@ -17,11 +17,11 @@ ms.collection:
   - M365-collaboration
 ---
 
-# Zero-touch app install for Teams apps
+# Zero-touch app install of Teams apps by admins
 
-Some apps exist as web-based services or desktop apps and users use these apps without being aware that they can use the equivalent Teams apps. Using a Teams app allows the users to work in the same context with added benefits of unique Teams capabilities such as in-context notifications and collaboration in Teams.
+Some apps exist as web-based services or desktop apps and users use these apps without being aware that they can use the equivalent Teams apps. Using a Teams app allows the users to be more productive as the users work without switching context too often and with the added benefits of having unique Teams capabilities such as in-context notifications and collaboration in Teams.
 
-The Zero-touch App Install feature automatically adds approved apps in the Teams clients of permitted users. The functionality respects all app governance controls and only installs apps that the users have used outside Teams.
+If an admin enables the feature, Zero-touch App Install automatically adds admin-approved apps to Teams for the permitted users. It happens only after users have used Azure AD credentials to sign-in. The Zero-touch App Install feature automatically adds approved apps in the Teams clients of the permitted users. The functionality respects all app governance controls and only installs apps that the users have used outside Teams.
 
 Admins can allow users to use Azure Active Directory identify to sign into apps outside Teams, for example web apps. The sign-in permission is used as an intelligent signal by the functionality to add the app for such users. The apps must be allowed by admins in their organization and the users must be allowed to use the app.
 
@@ -46,7 +46,12 @@ Before you use the functionality, understand the following considerations:
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 * Only a few apps are available with this functionality.
 * If an app supports mobile platforms, then the functionality installs it on the mobile client in addition to installing it on the desktop client.
+
+
+
 * The activity feed notification after app installation does not appear on mobile devices when we install it for the Azure AD sign-in automation.
+
+
 * End-users can uninstall an app installed by this functionality. These users can manually reinstall the app later. Once uninstalled, the app isn’t automatically installed later.
 * The following is a comparison with other methods of manual app installation and app governance
 
@@ -92,7 +97,9 @@ You must enable the zero-touch install feature manually. To do so, follow these 
 
 1. Select **Save**.
 
-The app installation takes a few hours or up to a day. End-users receive a welcome message to notify them of the installation if the installed app supports bots.
+After a user's first sign into an app using Azure AD on another platform, the app installation can take a few hours or up to a day. End-users receive a welcome message from the app if the installed app supports bots. End-users also receive an Activity Feed notification informing them about the new app that is added.
+
+:::image type="content" source="media/zti-activity-feed.png" alt-text="Screenshot showing a new activity feed notification in Teams after a zero-touch app is installed for a user." lightbox="media/zti-activity-feed-large.png":::
 
 ### Grant consent to Microsoft Graph permissions
 
