@@ -8,7 +8,7 @@ ms.subservice: teams-apps
 ms.topic: article
 ms.date: 02/10/2023
 search.appverid: 
-description: Zero-touch App Install functionality adds apps in Teams for users who are already using its web app outside Teams.
+description: Zero-touch App Install functionality adds apps in Teams for users who are already using its web browser outside Teams.
 audience: admin
 ms.localizationpriority: medium
 appliesto: 
@@ -23,87 +23,81 @@ Some apps exist as web-based services or desktop apps and users use these apps w
 
 If an admin enables the feature, Zero-touch App Install automatically adds admin-approved apps to Teams for the permitted users. It happens only after users have used Azure AD credentials to sign-in. The Zero-touch App Install feature automatically adds approved apps in the Teams clients of the permitted users. The functionality respects all app governance controls and only installs apps that the users have used outside Teams.
 
-Admins can allow users to use Azure Active Directory identify to sign into apps outside Teams, for example web apps. The sign-in permission is used as an intelligent signal by the functionality to add the app for such users. The apps must be allowed by admins in their organization and the users must be allowed to use the app.
+Admins can allow users to use Azure Active Directory identify to sign into apps outside Teams, for example in a web browser. The sign-in permission is used as an intelligent signal by the functionality to add the app for such users. The apps must be allowed by admins in their organization and the users must be allowed to use the app.
 
-The zero-touch install functionality is available only for a few Teams apps. You can view the apps in the **Zero-touch app install** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
+The Zero-touch install functionality is available only for a few Teams apps. You can view the apps in the **Zero-touch app install** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
 
-:::image type="content" source="media/zero-touch-apps-list.png" alt-text="Screenshot showing zero-touch app install feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/zero-touch-apps.png":::
+:::image type="content" source="media/zero-touch-apps-list.png" alt-text="Screenshot showing Zero-touch app install feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/zero-touch-apps.png":::
 
-## Prerequisites and considerations for zero-touch App Install feature
+## Prerequisites and considerations for Zero-touch App Install feature
 
-The following prerequisites must be met before an app is installed so that admins have complete control over what apps are installed for their users:
+The feature can be turned on independently of the admin allow and block policies for apps. The feature respects these policies and does not install any blocked apps and for users who are not allowed use of any apps.
 
-* An admin must allow third-party apps to be used in their organization.
-* An admin must allow a specific app to be used in their organization.
-* An admin must permit the intended end-users to use a specific app.
-* An admin must enable the Zero-touch App Install option, which is disabled by default.
-* The functionality supports an app.
-* User signs in to the app outside Teams using Azure AD identity, for example in a web app.
+To ensure that the feature installs the relevant apps and for the permitted users, meet the following requirements as a Global admin or a Teams admin:
+
+* Enable the Zero-touch App Install option, which is disabled by default.
+* Allow the app to be used in their organization. That is, admins must enable use of third-party apps, allow the use of one of the apps in the list apps supported by the feature, and permit the users to use the app.
+
+In addition, the app is only installed if a user signs in to the app outside Teams using Azure AD identity, for example in a web browser.
 
 Before you use the functionality, understand the following considerations:
 
 * The functionality adheres to all admin controls for app governance.
-* If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 * Only a few apps are available with this functionality.
 * If an app supports mobile platforms, then the functionality installs it on the mobile client in addition to installing it on the desktop client.
-
-
-
-* The activity feed notification after app installation does not appear on mobile devices when we install it for the Azure AD sign-in automation.
-
-
-* End-users can uninstall an app installed by this functionality. These users can manually reinstall the app later. Once uninstalled, the app isn’t automatically installed later.
+* An Activity feed notification appears, informing users of the app install. It is not available on mobile devices.
+* End-users can uninstall an app installed by this functionality. These users can manually reinstall the app later. Once uninstalled, the app isn't automatically installed through Zero-touch App Install feature in the future.
+* If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 * The following is a comparison with other methods of manual app installation and app governance
 
    | Feature behavior | Conceptually | Functionally |
    |--------------------|----------------------|-------------------|
-   | What is different | <br> <li>Single and easy control to auto-install apps instead of creating app setup policies and assigning those to users.</li><li> Instead of switching context to browser for web apps or to email for notifications, users easily get the Teams apps in their Teams client. </li><li>Apps are installed without ad-hoc admin or user intervention but with predefined admin action. </li></br> | <br><li>A new admin control to enable (or disable). Zero-touch App Install functionality is made available in Teams admin center. </li><li>Apps are automatically installed when users take certain actions. For example, when a user opens a PDF file or signs into an app using Azure AD on another platform, like a web browser. </li></br> |
-   | What doesn't change | <br><li> App governance controls set by admins are always respected.</li> <li> An app is installed only if it is allowed in the tenant and for the user. </li><li> User actions are respected, such as no reinstallation of an app if a user uninstalls it. </li></br> | <br><li>The apps and their security, compliance, privacy, and other characteristics continue to remain as before. No change in apps.</li> <li> The governance controls to allow or block apps and permission policy to control app access for end-users remain as before. </li> <li> Users can uninstall any apps added to their Teams client and the apps aren’t reinstalled. </li> </br> |
+   | What is different | <br> <li>Single and easy control to auto-install apps instead of creating app setup policies and assigning those to users.</li><li> Instead of switching context to browser for web apps or to email for notifications, users easily get the Teams apps in their Teams client. </li><li>Apps are installed without ad-hoc admin or user intervention but after an admin has enabled the feature. </li></br> | <br><li>A new admin control to enable (or disable). Zero-touch App Install functionality is made available in Teams admin center. </li><li>Allowed apps are automatically installed on Teams when users sign in to the app using Azure AD on another platform, like a web browser. </li></br> |
+   | What doesn't change | <br><li> App governance controls set by admins are always respected.</li> <li> An app is installed only if it is allowed in the tenant and for the user. </li><li> User actions are respected. No reinstallation of an app via this feature if a user uninstalls it. </li></br> | <br><li>The apps and their security, compliance, privacy, and other characteristics continue to remain as before. No change in apps.</li> <li> The governance controls to allow or block apps and permission policy to control app access for end-users remain as before. </li> <li> Users can uninstall any apps added to their Teams client and the apps aren’t reinstalled. </li> </br> |
 
 ## Benefits of the functionality
 
-The feature benefits you and your end-users in the following ways:
+The feature benefits admins and end-users in the following ways:
 
-* The feature helps admins with the last mile of app adoption. You must review and approve the selected apps and allow the users to use these apps. The feature simply adds the app in the Teams client of users without a need to create setup policies.
+* Last-mile app delivery happens while respecting all app governance controls. For example, you can turn the feature on or off, only permitted apps get added, and users who are not permitted to use apps can't add apps to their Teams.
+* Admins don't have to create app setup policies to deliver apps to the intended users. This feature only does the app roll out in accordance with admin policies. It adds the app in the Teams client for users as if the user installed it themselves.
 * Businesses can realize more value from their SaaS licenses by letting their users use the web apps and Teams apps. Some Teams apps like Adobe Acrobat offer more functionality than the default Teams PDF viewer. The default PDF viewer in Teams can only read PDF files, but Acrobat allows editing and commenting in PDF files.
-* Users avoid context-switching by using the apps within Teams. They don’t have to use a browser or email to stay updated, work on their tasks, or receive notifications.
+* Users continue to use the app functionality inside Teams without switching context. They don’t have to discover apps and install the app, use a browser to use the app, or individually request admins for access to an app.
+* Users continue to have admin-approved access to use the apps on the surface and in the context that is most convenient to them. Users also receive the highly relevant apps as a Teams app if and when they demonstrate the need through their actions.
 
 ## Use Zero-touch App Installation feature
 
 To enable and use the functionality, meet the following prerequisites and complete these tasks:
 
 * [Allow apps in your tenant](#allow-third-party-apps-in-your-organization).
-* [Allow end-users to use an app](#allow-end-users-to-use-specific-apps).
 * [Enable the Zero-touch App Install option](#enable-the-zero-touch-app-install-option).
-* [Grant admin consent](app-permissions-admin-center.md) for Microsoft Graph permissions that an app requires.
+* [Enable user consent or grant admin consent](app-permissions-admin-center.md) for Azure AD permissions that an app requires.
 
 ### Allow third-party apps in your organization
 
-The functionality respects the app governance controls and works only if use of third-party apps is allowed by admins. If you haven't changed the default admin configurations, third-party apps are allowed. To update or to verify, see [allow apps](/microsoftteams/manage-apps#allow-and-block-apps).
-
-### Allow end-users to use specific apps
+The functionality respects the app governance controls and works only if the use of an app is allowed by admins. To allow any app, you must also allow use of third-party apps. If you haven't changed the default admin configurations, third-party apps are allowed. To update or to verify, see [allow apps](/microsoftteams/manage-apps#allow-and-block-apps).
 
 Allow the use of the specific apps that your end-users require for their daily tasks. To do so, allow individual apps and also ensure that app permission policies allow the intended users to use these apps. For more information, see [app permission policies](/microsoftteams/teams-app-permission-policies).
 
 ### Enable the Zero-touch App Install option
 
-You must enable the zero-touch install feature manually. To do so, follow these steps:
+You must enable the Zero-touch App Onstall feature manually. To do so, follow these steps:
 
 1. Sign-in to the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Select **Org-wide app settings** and enable the **Zero-touch app install** option.
 
-    :::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing zero-touch app install option in admin center that must be enabled to use the feature." lightbox="media/zero-touch-apps-large.png":::
+    :::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing Zero-touch app install option in admin center that must be enabled to use the feature." lightbox="media/zero-touch-apps-large.png":::
 
 1. Select **Save**.
 
 After a user's first sign into an app using Azure AD on another platform, the app installation can take a few hours or up to a day. End-users receive a welcome message from the app if the installed app supports bots. End-users also receive an Activity Feed notification informing them about the new app that is added.
 
-:::image type="content" source="media/zti-activity-feed.png" alt-text="Screenshot showing a new activity feed notification in Teams after a zero-touch app is installed for a user." lightbox="media/zti-activity-feed-large.png":::
+:::image type="content" source="media/zti-activity-feed.png" alt-text="Screenshot showing a new activity feed notification in Teams after a Zero-touch app is installed for a user." lightbox="media/zti-activity-feed-large.png":::
 
-### Grant consent to Microsoft Graph permissions
+### Grant consent to Azure AD permissions
 
-Some apps require access to your user’s and organization’s information to work. A user must grant consent for the application or an admin can grant consent on behalf of the users. To use the zero-touch install functionality, we recommend that you grant Graph permission as an admin, so that each user is not prompted for consent. Otherwise, if you choose to let individual users provide the consent themselves, then ensure that the user consent setting in Azure portal permits it. By default, users can provide their consent for apps. If you’ve modified the default setting, then revert it to allow users to provide consent. See [how to grant admin consent to the app permissions](/microsoftteams/app-permissions-admin-center) and [permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/permissions-consent-overview).
+Some apps require access to your user’s and organization’s information to work. A user must grant consent for the application or an admin can grant consent on behalf of the users. To use the Zero-touch App Install functionality, we recommend that you grant Azure AD permission as an admin, so that each user is not prompted for consent. Otherwise, if you choose to let individual users provide the consent themselves, then ensure that the user consent setting in Azure portal permits it. By default, users can provide their consent for apps. If you’ve modified the default setting, then revert it to allow users to provide consent. See [how to grant admin consent to the app permissions](/microsoftteams/app-permissions-admin-center) and [permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/permissions-consent-overview).
 
 > [!NOTE]
 > If admin consent is not granted and users are not allowed to consent to an app, then end-users cannot use the app.

@@ -72,14 +72,15 @@ As an admin, you control access to all types of apps that are used across all co
 
 To allow an app, all the following settings must be done. To block an app, block it via any one of the following settings.
 
-* [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings): Use this setting to allow use of apps in your org. You decide which specific apps are used.
-* [Allow an individual app](manage-apps.md#allow-and-block-apps): Use this setting to allow a specific app in your org. You decide which users can use the app.
+* Org-wide app settings: Use this setting to allow use of third-party apps in your org. You control the specific apps that are allowed and used.
+* Allow an individual app: Use this setting to allow a specific app in your org. You control which users can use a specific app and which users can use apps.
 * [App permission policy](teams-app-permission-policies.md): Use policies to allow all or allow specific users to use an app. You decide access on a per-user and per-app basis.
 
 The Manage apps page is where you allow or block individual apps at the org level. The page displays all the available app and their current org-level app status. To allow or block an app, follow these steps:
 
-1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**
-1. Locate an app and select it.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Select **Org-wide app settings** and allow the use of third-party apps.
+1. On the **Manage apps** page, locate an app and select it.
 1. Select **Allow** or **Block** option.
 
 To allow an app for specific users, see [app permission policies](teams-app-permission-policies.md).
@@ -104,7 +105,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Under **Tailored apps**, turn off or turn on **Show tailored apps**. When this setting is on, users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience. This experience pins the most relevant apps in Teams for frontline workers. To learn more, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
 
     This feature is available for F licenses. Other license types will be supported in the future.
-1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
+1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps in your organization:
 
     * **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
 
