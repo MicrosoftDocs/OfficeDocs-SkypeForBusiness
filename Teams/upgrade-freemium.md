@@ -30,7 +30,7 @@ appliesto:
 > 
 > Microsoft now provides a single, free Teams experience for personal and small business use through a Microsoft Account rather than Azure Active Directory. For over a year, Microsoft has only allowed new customers to sign up for the new **Teams (Free)** license.
 > 
-> This article will be updated soon with instructions on how to upgrade your users to paid Teams licenses.
+> For instructions on how to upgrade to your organization, see [Upgrade from Teams Free (classic) to Teams](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 
 If your organization is using Microsoft Teams Free (classic), you can easily upgrade to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users. The full version provides other Teams features — like audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
 
