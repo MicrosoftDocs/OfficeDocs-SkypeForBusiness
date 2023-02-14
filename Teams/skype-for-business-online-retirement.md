@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 09/06/2019
 audience: admin
 description: Learn about the retirement plan for Skype for Business Online, and how Microsoft is helping customers migrate to Teams. 
 ms.localizationpriority: medium
@@ -89,8 +90,3 @@ We strongly recommend that you begin your upgrade from Skype for Business Online
 - [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – Teams news about new features, adoption and usage resources, Teams devices, and integration with other business applications.
 
 If you’re a current Skype for Business Online customer, start planning your upgrade to Teams today. We’re excited for you to experience its powerful communication and collaboration capabilities, and we’re committed to helping along the way.  For more information about the Skype for Business Online retirement, see [FAQ—Upgrading from Skype for Business to Microsoft Teams](FAQ-journey.yml).
-
-
-
-
-

@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: anblak
+ms.date: 05/14/2020
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH

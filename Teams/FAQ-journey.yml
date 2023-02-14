@@ -8,6 +8,7 @@ metadata:
   ms.service: msteams
   audience: admin
   ms.reviewer: landerl
+  ms.date: 12/17/2020
   description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
   ms.localizationpriority: high
   search.appverid: MET150

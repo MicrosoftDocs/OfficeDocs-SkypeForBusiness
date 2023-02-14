@@ -4,6 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 ms.reviewer: aaglick
+ms.date: 07/07/2020
 ms.topic: article
 audience: admin
 ms.service: msteams

@@ -4,6 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: tonysmit
+ms.date: 11/28/2017
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams

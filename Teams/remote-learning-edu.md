@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith, lakuan
+ms.date: 03/03/2020
 description: Remote learning startup guidance for Microsoft Teams for EDU.
 ms.localizationpriority: high
 search.appverid: MET150

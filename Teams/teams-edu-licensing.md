@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
+ms.date: 03/05/2020
 description: Learn how to assign licenses for Microsoft Teams for Education.
 ms.localizationpriority: high
 search.appverid: MET150

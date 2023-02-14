@@ -5,6 +5,7 @@ author: robmazz
 ms.author: robmazz
 manager: laurawi
 ms.reviewer: smahadevan
+ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
 audience: admin

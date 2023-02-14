@@ -5,6 +5,7 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
+ms.date: 02/23/2018
 ms.topic: quickstart
 ms.service: msteams
 f1.keywords: 
