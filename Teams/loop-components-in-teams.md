@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: michalbr
+ms.date: 07/16/2021
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 

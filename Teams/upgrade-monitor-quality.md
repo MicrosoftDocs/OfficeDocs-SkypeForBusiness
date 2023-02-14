@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 06/04/2018
 description: Admin can learn about the tasks and activities required for monitoring quality and usage of Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150

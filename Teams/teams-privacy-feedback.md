@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: stbyer
+ms.date: 07/27/2021
 description: Learn more about feedback privacy with Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150

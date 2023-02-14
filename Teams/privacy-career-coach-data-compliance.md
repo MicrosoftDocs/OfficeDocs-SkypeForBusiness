@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
+ms.date: 08/03/2022
 search.appverid: MET150
 f1keywords: 
 description: Learn the privacy, compliance, and purview measures taken by Microsoft regarding Education or EDU's Career Coach.
