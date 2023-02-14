@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 03/09/2018
 audience: admin
 description: Sample emails and surveys to use in conjunciton with the accelerated ten-step action plan for upgrading from Skype for Business to Teams
 ms.localizationpriority: medium

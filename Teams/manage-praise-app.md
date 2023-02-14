@@ -4,6 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 ms.reviewer: rjam
+ms.date: 07/30/2020
 audience: admin
 ms.topic: how-to
 ms.service: msteams

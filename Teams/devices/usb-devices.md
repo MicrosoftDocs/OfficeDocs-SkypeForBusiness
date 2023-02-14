@@ -4,6 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: dougand
+ms.date: 06/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: 

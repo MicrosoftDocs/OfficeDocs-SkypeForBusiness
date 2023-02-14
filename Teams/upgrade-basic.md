@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 03/09/2018
 audience: admin
 description: Follow this accelerated ten-step action plan to transition from a basic Skype for Business set-up to the Microsoft Teams set-up. 
 ms.localizationpriority: medium

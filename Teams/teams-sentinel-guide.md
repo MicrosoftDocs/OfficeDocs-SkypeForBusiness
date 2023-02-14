@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
+ms.date: 04/30/2020
 description: Security advice and learnings for IT admins on using Sentinel to monitor and hunt threats that may arise in Teams.
 ms.localizationpriority: high
 search.appverid: MET150

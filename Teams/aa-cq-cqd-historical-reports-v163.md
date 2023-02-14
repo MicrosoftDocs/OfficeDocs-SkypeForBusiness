@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 10/21/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -332,4 +333,3 @@ Refer to: CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.
 |1.63     |August 24, 2022    |CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit |                                                    |
 |1.60     |July 22, 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |                                                    |
 |1.00     |November 5, 2020   |CQ and AA combined Analytics 20201105.pbit                         |Initial release                                     |
-

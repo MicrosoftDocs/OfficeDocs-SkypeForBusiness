@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
+ms.date: 07/01/2020
 description: An IT Admin guide to Insights in Microsoft Teams for Education.
 ms.localizationpriority: high
 search.appverid: MET150
