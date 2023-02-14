@@ -73,7 +73,7 @@ Perform the following steps:
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v306.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v306.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
