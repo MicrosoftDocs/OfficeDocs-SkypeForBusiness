@@ -3,6 +3,7 @@ title: Remotely configure layout, scale, and resolution on Teams Rooms displays
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 01/24/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -72,4 +73,3 @@ To set the scale and resolution for your extended front of room display, add the
     <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
 </ExtendedFoRDisplay>  
 ```
-

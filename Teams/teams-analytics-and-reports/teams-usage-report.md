@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kojika
+ms.date: 12/21/2018
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

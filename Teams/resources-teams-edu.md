@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
+ms.date: 06/14/2018
 description: Education admins will find resources for Microsoft Teams to help users adopt Teams.
 ms.localizationpriority: medium
 search.appverid: MET150

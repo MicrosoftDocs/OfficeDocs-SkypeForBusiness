@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 12/17/2018
 audience: admin
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams.
 ms.localizationpriority: medium

@@ -3,6 +3,7 @@ title: Manage the Updates app for your organization
 author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: acolonna, diyu
+ms.date: 09/26/2018
 manager: pamgreen
 ms.topic: how-to
 audience: admin
