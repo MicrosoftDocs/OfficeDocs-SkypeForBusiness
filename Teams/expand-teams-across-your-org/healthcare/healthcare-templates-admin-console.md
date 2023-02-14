@@ -22,6 +22,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: yinchang
+ms.date: 09/10/2020
 description: Learn how to manage and use the healthcare team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your healthcare organization.
 ms.custom: seo-marvel-mar2020
 ---

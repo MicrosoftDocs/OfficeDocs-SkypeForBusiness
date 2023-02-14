@@ -3,6 +3,7 @@ title: Teams PowerShell Module - Supported Versions
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
+ms.date: 01/08/2022
 manager: sshastri
 ms.topic: conceptual
 audience: admin

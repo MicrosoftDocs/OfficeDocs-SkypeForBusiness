@@ -3,6 +3,7 @@ title: Overview of teams and channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 ms.reviewer: 
+ms.date: 08/11/2017
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

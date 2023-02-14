@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 01/28/2022
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -149,7 +150,7 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 ## Additional notes
 
-- The default behavior for a user that has never had the call answering rules modified, either by the user or a Tenant admin, are that unanswered calls will be forwarded to voicemail after 30 seconds. The settings displayed for the user in Team Admin Center or Teams PowerShell will show unanswered target as none and delay of 20 seconds.
+The default behavior for a user (whose call answering rules have not been modified either by the user or a Tenant admin) is that unanswered calls will be forwarded to voicemail after 30 seconds. The settings displayed for the user in Team Admin Center or Teams PowerShell will show unanswered target as none and delay of 20 seconds.
 
 ## Related topics
 

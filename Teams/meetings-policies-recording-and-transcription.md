@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark
+ms.date: 08/19/2021
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -116,7 +117,8 @@ This policy controls whether meeting records can be permanently stored in anothe
 
 ## Related topics
 
-- [Manage meeting policies in Teams](meeting-policies-overview.md)
-- [Assign policies to users in Teams](policy-assignment-overview.md)
 - [Cloud meeting recording](cloud-recording.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
+- [Teams policies reference - Recording & transcription](settings-policies-reference.md#recording--transcription)
+- [Assign policies to users in Teams](policy-assignment-overview.md)
 - [Manage who can schedule meetings](manage-who-can-schedule-meetings.md)

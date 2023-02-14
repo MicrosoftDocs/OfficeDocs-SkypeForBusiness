@@ -3,6 +3,7 @@ title: Broadcast meeting content
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: aalinne
+ms.date: 07/28/2020
 manager: serdars
 ms.topic: article
 audience: admin
@@ -58,8 +59,3 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
 After this change has populated, the end user must turn on local streaming for their specific client from **Settings** > **Permissions**. For more information, see [Broadcasting audio and video from Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
-
-
-
-
-
