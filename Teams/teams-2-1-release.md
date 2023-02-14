@@ -154,4 +154,6 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackag
 |||Can't reorder pinned chats|
 |||Immersive reader not available
 |***Teams and channels***|
-
+|||new channel experience|
+|||Pop out channels
+|||
