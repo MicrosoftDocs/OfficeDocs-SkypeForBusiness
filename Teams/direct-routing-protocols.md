@@ -94,7 +94,7 @@ When sending a SIP request (new or in-dialogue), Microsoft SIP Proxy may open a 
 
   - Outbound SIP proxy TCP connections only service outbound SIP Proxy requests (to SBCs) and related responses.
 
-  - Inbound SIP proxy TCP connections (from SBCs) only service incoming SIP requests, and related responses.  
+  - Inbound SIP proxy TCP connections (from SBCs) only service incoming SIP requests and related responses.  
 
 
 ### Timeout policies 
@@ -113,13 +113,13 @@ When sending a SIP request (new or in-dialogue), Microsoft SIP Proxy may open a 
 
 ### Notes
 
-- It is recommended that SBC actively re-uses connections, like SIP proxy. This method saves time, which is needed for TCP and TLS connections. 
+- It is recommended that the SBC actively re-uses connections, like SIP proxy. This method saves time, which is needed for TCP and TLS connections. 
 
-- SBC should renew the connection at least once per hour. 
+- The SBC should renew the connection at least once per hour. 
 
 - When a new SBC’s certificate is uploaded, the SBC must renew all connections. 
 
-- When domain configurations are updated, it is recommended that SBC’s connections will be renewed. Otherwise, a new configuration will be applied after the internal SIP proxy cache is renewed – up to four hours. 
+- When domain configurations are updated, it is recommended that the SBC’s connections are renewed. Otherwise, a new configuration will be applied after the internal SIP proxy cache is renewed – up to four hours. 
 
  
 ## Operational modes
