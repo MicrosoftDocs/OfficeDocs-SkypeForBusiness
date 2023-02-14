@@ -155,7 +155,6 @@ You'll have to refresh the data to see any new data.
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|Call Type<sup>1</sup>                   |Text                     |See Common Dimensions -> PSTNCallType                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
@@ -216,7 +215,6 @@ You'll have to refresh the data to see any new data.
 |Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                                     |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Whole Number             |Call queue call start hour                                                               |
@@ -283,6 +281,7 @@ You'll have to refresh the data to see any new data.
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
+|Call Duration (HH:MM:SS)                |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
 |Call Duration (Minutes)                 |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
 |Calls Answered                          |Whole number             |Number of calls answered by agent                        |
 |Calls Not Answered                      |Whole number             |Number of calls not answered by agent                    |
