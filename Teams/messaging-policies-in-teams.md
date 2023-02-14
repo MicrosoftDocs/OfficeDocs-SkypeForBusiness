@@ -116,5 +116,6 @@ Here are the messaging policy settings that you can configure.
 
 ### Related topics
 
+- [Teams policies reference - Messaging policies](settings-policies-reference.md#messaging-policies)
 - [Assign policies to users and groups in Teams](assign-policies-users-and-groups.md)
 - [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)

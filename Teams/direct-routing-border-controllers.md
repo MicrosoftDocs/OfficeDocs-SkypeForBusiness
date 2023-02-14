@@ -53,14 +53,15 @@ Note that we are not accepting new nominations for certification until further n
 |Vendor|Product|Non-media bypass|Media bypass|Software version|911 Service Provider Capable*|ELIN capable|
 |---|---|---|---|---|---|---|
 |[Microsoft](https://azure.microsoft.com/products/communications-gateway/)|Azure Communications Gateway |&#10004;|&#10004;|2023-01-31|&#10004;|&#10004;|
-|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|Mediant 500 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
-||Mediant 800 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
-||Mediant 2600 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
-||Mediant 4000 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
-||Mediant 1000B  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
-||Mediant 9000  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
-||Virtual Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
-||Mediant Cloud Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.250 or 7.40A.300)|&#10004;|&#10004;|
+|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|Mediant 500 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant 800 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant 2600 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant 4000 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant 1000B  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant 9000  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Virtual Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant Cloud Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant 3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.400)|&#10004;|&#10004;|
 |[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
 ||SBC 5200/5210|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1)|&#10004;||
 ||SBC 5400|&#10004;|&#10004;|Supported on all versions of 10.1, 9.2, 8.2 and 7.2 (Recommend latest version of 10.1))|&#10004;||
