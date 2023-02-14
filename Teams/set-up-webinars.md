@@ -53,9 +53,6 @@ For more information about the differences between meetings, webinars, and live 
 >
 > The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
-> [!IMPORTANT]
-> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists for eDiscovery purposes. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
-
 ## Set up new webinar experience
 
 You must use PowerShell to set up the new webinar experience for your organization. The ability to configure the new webinar experience in the Teams admin center isn't available yet.
