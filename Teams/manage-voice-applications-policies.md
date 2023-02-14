@@ -22,13 +22,13 @@ description: Learn how to use and manage voice applications policies in Microsof
 
 # Manage voice applications policies in Microsoft Teams
 
-Voice applications policies allow you to configure and assign existing or new voice application policies to authorized users.  Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they are authorized for.
+Voice applications policies allow you to create and assign voice application policies to authorized users.  Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
 
 Before creating and assigning policies, read [Authorized users](put link here).
 
 You manage voice applications policies by going to **Voice** > **Voice applications policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
-Alternatively, the [Powershell cmdlets](./manage-voice-applications-policies.md#powershell-cmdlets) listed below may also be used.
+Alternatively, the [PowerShell cmdlets](./manage-voice-applications-policies.md#powershell-cmdlets) listed below may also be used.
 
 [!TIP]
 > Best practice is to create custom policies based on needs of the user(s).
@@ -41,17 +41,18 @@ Alternatively, the [Powershell cmdlets](./manage-voice-applications-policies.md#
 3. Enter a name and description for the policy.
 4. From here, choose the settings that you want:
 - Auto Attendant
-    - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the Business Hours Greeting on the auto attendants they are authorized for.
-    - **After Hours Greeting**: Turn on this setting to allow authorized users to change the After Hours Greeting on the auto attendants they are authorized for.
-    - **Holiday Greeting**: Turn on this setting to allow authorized users to change the Holiday Greeting on the auto attendants they are authorized for.
+    - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the Business Hours Greeting on the auto attendants they're authorized for.
+    - **After Hours Greeting**: Turn on this setting to allow authorized users to change the After Hours Greeting on the auto attendants they're authorized for.
+    - **Holiday Greeting**: Turn on this setting to allow authorized users to change the Holiday Greeting on the auto attendants they're authorized for.
 
 - Call Queue
-    - **Welcome greeting**: Turn on this setting to allow users to change the Welcome greeting on the call queues they are authorized for.
-    - **Music on hold**: Turn on this setting to allow users to change the Music on hold on the call queues they are authorized for.
-    - **Overflow shared voicemail greeting**: Turn on this setting to allow users to change the Overflow shared voicemail greeting on the call queues they are authorized for.
-    - **Timeout shared voicemail greeting**: Turn on this setting to allow users to change the Timeout shared voicemail greeting on the call queues they are authorized for.
+    - **Welcome greeting**: Turn on this setting to allow users to change the Welcome greeting on the call queues they're authorized for.
+    - **Music on hold**: Turn on this setting to allow users to change the Music on hold on the call queues they're authorized for.
+    - **Overflow shared voicemail greeting**: Turn on this setting to allow users to change the Overflow shared voicemail greeting on the call queues they're authorized for.
+    - **Timeout shared voicemail greeting**: Turn on this setting to allow users to change the Timeout shared voicemail greeting on the call queues they're authorized for.
 
-NOTE: Choose name and description carefully as these can't be changed later.
+[!NOTE}
+> Choose the policy name and description carefully as these can't be changed later.
 
 5. Click **Save**.
 
@@ -72,7 +73,7 @@ NOTE: It's not possible to change the name or description of the policy.
 [!IMPORTANT]
 > In addition to assigning the policy to users, the users must also be configured as Auto attendant [Authorized users](put link here) or Call queue [Authorized users](put link here)
 
-## Powershell cmdlets
+## PowerShell cmdlets
 
 [Get-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/get-csteamsvoiceapplicationspolicy)
 
