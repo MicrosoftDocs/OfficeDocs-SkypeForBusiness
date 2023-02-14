@@ -90,7 +90,7 @@ Note that we are not accepting new nominations for certification until further n
 ||Cisco Unified Border Element (CUBE) for Catalyst 8000 Edge Platforms|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.3.2 (Recommended 17.6.1a)|&#10004;||
 |[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|&#10004;|&#10004;|Release 8.1.1 (8.1.2 for Media Bypass)|||
 |[Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|Nokia Session Border Controller|&#10004;|&#10004;|22.0|&#10004;||
-|[Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|NetMatch-S CI|&#10004;|&#10004;|Supported 5.0, 5.1  (Recommended 5.3)|||
+|[Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|NetMatch-S CI|&#10004;|&#10004;|Supported 5.6 or higher|||
 |[Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|vSBC 2.16|&#10004;|||||
 |[Cataleya](https://cataleya.com/orchidplatforms/)|Orchid Link|&#10004;||3.1|||
 |[ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|Teams SBC|&#10004;|&#10004;|1.6|||
@@ -100,7 +100,7 @@ Note that we are not accepting new nominations for certification until further n
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies (previously known as Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel Series|&#10004;||DGW 48.0.2340 (Recommended DGW 48.1.2503)|||
 |[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Supported 6.8.x (Recommended 6.9.x)|||
-||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Supported 6.6.1m5ha1 (Recommended 6.8.x)|||
+||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Supported 6.8.x (Recommended 6.9.x)|||
 |[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Peeredge Orchestrator|&#10004;|&#10004;|1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
@@ -144,7 +144,7 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 ||VME|8.4.0.0.1 &  9.x|
 ||AP 3950|9.x|
 ||AP 4900|9.x|
-
+|[Avaya](https://documentation.avaya.com/en-US/bundle/WorkingWithAvayaSBCEandMicrosoftTeams_r81x/page/About_Avaya_SBCE_and_MS_Teams.html)|Avaya Session Border Controller for Enterprise (ASBCE)|10.1.2|
 
 ## Direct Routing and analog devices interoperability
 
