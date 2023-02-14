@@ -1,9 +1,9 @@
 ---
 title: Teams policies reference
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: mkbond007
+ms.author: mabond
 manager: serdars
-ms.reviewer: arundas
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -134,7 +134,7 @@ App setup policies control how apps are made available to a user with the Teams 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Upload custom apps|Off|This setting determines if a user can upload a custom app package in the Teams app. Turning it on lets you create or develop a custom app to be used personally or across your organization without having to submit it to the Teams app store. Uploading a custom app also lets you test an app before you distribute it more widely by only assigning it to a single user or group of users. Read more about how to [Manage custom and sideloaded apps in Teams admin center](teams-custom-app-policies-and-settings.md).|
-|User pinning|On|If you turn this setting on, the user’s existing app pins will be added to the list of pinned apps set in this policy. Users can rearrange, add, and remove pins as they choose. If you turn this setting off, the user’s existing app pins will be removed and replaced with the apps defined in this policy.|
+|User pinning|On|If you turn on this setting, the user’s existing app pins will be added to the list of pinned apps set in this policy. Users can rearrange, add, and remove pins as they choose. If you turn off this setting, the user’s existing app pins will be removed and replaced with the apps defined in this policy.|
 |Installed apps|(none)|Choose which apps and messaging extensions you want installed in your users' personal Teams environment and in meetings they create. Users can install other available apps from the Teams app store.|
 |Pinned apps|Activity, Chat, Teams, Calendar, Calling, Files|Choose the order apps are pinned in messaging extensions and the Teams app bar.|
 
@@ -154,12 +154,14 @@ Meeting policies are used to control what features are available to users when t
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
+:::image type="content" source="media/teams-meetings-meeting-scheduling.png" alt-text="Screenshot of Teams meeting scheduling policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Private meeting scheduling|On|When **On**, meeting organizers allow users to schedule private meetings.|
 |Meet now in private meetings|On|Controls whether a user can start an instant private meeting.|
 |Channel meeting scheduling|On|When **On**, meeting organizers allow users to schedule channel meetings within channels that the users belong to.|
-|Meet now in channels|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
+|Meet now in channel meetings|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
@@ -174,12 +176,14 @@ Meeting policies are used to control what features are available to users when t
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
+:::image type="content" source="media/teams-meetings-meeting-join-lobby.png" alt-text="Screenshot of Teams meeting join & lobby policies.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Anonymous users can join a meeting|On|This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation.|
-|Anonymous and dial-in users can start a meeting|Off|This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance.|
-|Who can bypass the lobby|Everyone in my organization and guests|Controls who can join a meeting directly and who has to wait in the lobby until they're admitted by an authenticated user. This setting doesn't apply to dial-in users.|
-|People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly without waiting in the lobby.|
+|Anonymous users can join a meeting|On|When this setting is on, anyone can join Teams meetings, including Teams users in other organizations that aren't on your allowed domains list. If anonymous join is turned off in org-wide meeting settings, anonymous users can't join any meetings, regardless of what you set here.|
+|Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest, or an external user from a trusted organization. This setting will work only if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
+|Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
+|People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings. |
 
 ##### PowerShell-only meeting join & lobby policies
 
@@ -190,11 +194,14 @@ Meeting policies are used to control what features are available to users when t
 ##### Related topics to meeting join & lobby policies
 
 - [Control who can bypass the meeting lobby and access meetings](who-can-bypass-meeting-lobby.md)
+- [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Meeting engagement
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
+
+:::image type="content" source="media/teams-meetings-meeting-engagement.png" alt-text="Screenshot of Teams meeting engagement policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -216,14 +223,14 @@ Meeting policies are used to control what features are available to users when t
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-Content sharing settings let you control the different types of content that can be used during Teams meetings that are held in your organization.
+:::image type="content" source="media/teams-meetings-content-sharing.png" alt-text="Screenshot of Teams meetings content sharing policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Who can present|Everyone, but user can override|Controls what the default value is for **Who can  present?** in **Meeting options** for the Teams client.|
+|Who can present|Everyone|Controls who can be a presenter in Teams meetings. Organizers and co-organizers can change this when they set up Teams meetings.|
 |Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
-|External participants can give or request control|Off|Controls whether external participants can be given or request control of the shared desktop or window. This setting must be turned on in both organizations for an external participant to take control in Teams meetings hosted by people in your organization.|
+|External participants can give or request control|Off|This setting controls whether external participants, anonymous users, and guests can be given control or request control of people in your organization's shared screen during a Teams meeting. This setting must be turned on in both organizations for an external participant to take control.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
@@ -233,35 +240,20 @@ Content sharing settings let you control the different types of content that can
 - [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
-#### Watermark
-
-**Navigation:** Teams admin center > Meetings > Meeting policies
-
- Watermarks can be useful for protecting confidential information shared in meetings. They're most useful when sharing information with people who don't normally have access to the information. Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled.
-
-| Setting | Default | Description |
-|:-----|:-----|:-----|
-|Watermark videos|Off|This setting controls watermarks on attendee videos. This setting requires a Teams Premium license.|
-|Watermark shared content|Off|This setting controls watermarks on content shared on screen in a meeting. This setting requires a Teams Premium license.|
-
-##### Related topics to watermark policies
-
-- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
-- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-
 #### Recording & transcription
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
+
+:::image type="content" source="media/teams-meetings-recording-and-transcription.png" alt-text="Screenshot of Teams meetings recording & transcription policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
 |Recordings automatically expire|On|When **On**, meeting recordings will automatically expire in the number of days shown in the Default expiration time setting.|
 |Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. **Meetings automatically expire** must also be turned **On**.|
+|Store recordings outside your country or region|Off|If you want to store meeting recordings outside of your country or region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
-|Live captions|Not enabled but the user can override|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Store recordings outside your country or region|Off|Controls whether meeting records can be permanently stored in another country or region.|
+|Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
 
 ##### PowerShell-only recording & transcription policies
 
@@ -271,7 +263,7 @@ Content sharing settings let you control the different types of content that can
 |ChannelRecordingDownload|Allow|This setting controls how channel meeting recordings are saved, permissioned, and who can download them.|
 |EnrollUserOverride|Disabled|This setting sets voice profile capture, or enrollment, in Teams settings for a tenant.|
 |LiveInterpretationEnabledType|DisabledUserOverride|This setting allows meeting organizers to configure a meeting for language interpretation and select attendees to become interpreters that other attendees can select and listen to the real-time translation they provide.|
-|MeetingInviteLanguages|None|This setting controls how the join information in meeting invitations is displayed by enforcing a common language or enabling up to two languages to be displayed. All Teams supported languages can be specified using language codes.|
+|MeetingInviteLanguages|None|This setting controls how the join information in meeting invitations displays by enforcing a common language or by enabling up to two languages. All Teams supported languages can be specified using language codes.|
 |SpeakerAttributionMode|EnabledUserOverride|Speakers are identified in transcription. If enabled, users can override this setting and choose not to be identified in their Teams profile settings.|
 |RoomAttributeUserOverride|(none)|This setting controls the voice-based user identification in meeting rooms. This setting is required for Teams Rooms account. Read more about how to [Manage voice recognition technology controls for an Intelligent Speaker](rooms/voice-recognition.md).|
 
@@ -285,7 +277,7 @@ Content sharing settings let you control the different types of content that can
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-policies-meetings-audio-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
+:::image type="content" source="media/teams-meetings-audio-and-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -295,8 +287,8 @@ Content sharing settings let you control the different types of content that can
 |Local broadcasting|Off|Use NDI or SDI technology to capture and deliver broadcast-quality audio and video over your network.|
 |Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
-|Select video filters|All filters|Controls whether users can customize their video background in a meeting.|
-|Live streaming mode|Disabled|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
+|Participants can use video effects|All video effects|Controls if participants can customize their camera feed with video background images and filters.|
+|Live streaming|Off|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
 
 ##### PowerShell-only audio & video meeting policies
 
@@ -309,6 +301,25 @@ Content sharing settings let you control the different types of content that can
 ##### Related topics to audio & video meeting policies
 
 - [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+
+#### Watermark
+
+**Navigation:** Teams admin center > Meetings > Meeting policies
+
+ Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled. These settings require a Teams Premium license.
+
+:::image type="content" source="media/teams-meetings-watermark.png" alt-text="Screenshot of Teams meetings watermark policies.":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Watermark videos|Off|This setting controls watermarks on attendee videos.|
+|Watermark shared content|Off|This setting controls watermarks on content shared on screen in a meeting.|
+
+##### Related topics to watermark policies
+
+- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 ### Customization policies
@@ -359,7 +370,7 @@ Teams live events policies are used to turn on or off features, such as who can 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Live events scheduling|On|When **On**, users in your organization can create and schedule live events in Teams.|
-|Transcription for attendees|Off|Turning this setting on enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
+|Transcription for attendees|Off|Turning on this setting enables live event attendees to see live captions and subtitles during the event. This setting can only be applied to events produced in Teams.|
 |Who can join scheduled live events|Everyone|This setting restricts who can attend live events. Teams permission types are updated based on the selection. For PowerShell, the [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy) cmdlet with `-BroadcastAttendeeVisibilityMode` gives the options to also use `EveryoneInCompanyAndExternal` or `InvitedUsersInCompanyAndExternal`.|
 |Record an event|Organizer can record|This setting controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](teams-live-events/live-events-recording-policies.md).|
 
@@ -394,12 +405,12 @@ Messaging policies are used to control what chat and channel messaging features 
 |Memes in conversations|On|When **On**, users can include Memes in chat conversations with other people.|
 |Stickers in conversations|On|When **On**, users can include Stickers in chat conversations with other people.|
 |URL previews|On|Controls automatic URL previewing in messages.|
-|Translate messages|On|Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365. Read more on [inline message translation in Microsoft Teams](inline-message-translation-teams.md)|
+|Translate messages|On|Turn on this setting to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365. Read more on [inline message translation in Microsoft Teams](inline-message-translation-teams.md)|
 |Immersive reader for messages|On|When **On**, users can view messages in Microsoft Immersive Reader.|
-|Send urgent messages using priority notifications|On|If you turn this setting on, users can send messages using priority notifications. Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as urgent are picked up and read by the recipient.|
+|Send urgent messages using priority notifications|On|If you turn on this setting, users can send messages using priority notifications. Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as urgent are picked up and read by the recipient.|
 |Create voice messages|Allowed in chats and channels|This setting controls whether users can leave audio messages in chats and channels.|
 |On mobile devices, display favorite channels above recent chats|Not enabled|When **Enabled**, this setting moves favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.|
-|Remove users from group chats|On|Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.|
+|Remove users from group chats|On|Turn on this setting to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.|
 |Suggested replies|On|When **On**, users get text predictions for chat messages.|
 |Chat permissions role|Restricted permissions|Defines the supervised chat role of a user.|
 |Users with full chat permissions can delete any message|Off|Use this setting to let users with full chat permissions delete any group or meeting chat message.|
@@ -424,7 +435,7 @@ Calling policies are used to control what calling features are available to peop
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Make private calls|On|This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.|
+|Make private calls|On|This setting controls all calling capabilities in Teams. Turn off this setting to turn off all calling functionality in Teams.|
 |Cloud recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
 |Transcription|Off|This setting allows you to control whether post-call transcriptions are available for your users.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
@@ -432,7 +443,7 @@ Calling policies are used to control what calling features are available to peop
 |Voicemail is available for routing inbound calls|User controlled|When set to **Enabled** or **User controlled**, inbound calls can be sent to voicemail.|
 |Inbound calls can be routed to call groups|On|This setting controls whether incoming calls can be forwarded to a call group.|
 |Delegation for inbound and outbound calls|On|This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.|
-|Prevent toll bypass and send calls through the PSTN|Off|Turn this setting **On** to send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
+|Prevent toll bypass and send calls through the PSTN|Off|Turn on this setting to send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
 |Music on hold|Enabled|Controls whether music is played when a PSTN caller is placed on hold.|
 |Busy on busy when in a call|Not enabled|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
 |Web PSTN calling|On|This setting enables users to call PSTN numbers using the Teams web client.|
@@ -521,12 +532,12 @@ Emergency calling policies are used to control how users in your organization ca
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|External location lookup mode|Off|Turn this setting on to allow your end users to configure their emergency address when they're working from a network location outside of the corporate network. Read more about [emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and how to [add, change, or remove an emergency location](add-change-remove-emergency-location-organization.md) or [place for an emergency location](add-change-remove-emergency-place-organization.md) for your organization.|
-|Notification mode|(Blank)|This sets the type of notification sent to a security desk or team when someone calls emergency services. You can set it to just send a notification to them, or if they can, join an emergency call muted or unmuted.|
+|External location lookup mode|Off|Turn on this setting to allow your end users to configure their emergency address when they're working from a network location outside of the corporate network. Read more about [emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and how to [add, change, or remove an emergency location](add-change-remove-emergency-location-organization.md) or [place for an emergency location](add-change-remove-emergency-place-organization.md) for your organization.|
+|Notification mode|(Blank)|This setting controls the type of notification sent to a security desk or team when someone calls emergency services. You can set it to just send a notification to them, or if they can, join an emergency call muted or unmuted.|
 |Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location.|
 |Numbers to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
-|Dynamic emergency calling|Off|If you turn this setting on, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
+|Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
 #### Related topics to emergency policies
 
@@ -545,15 +556,6 @@ Emergency calling policies are used to control how users in your organization ca
 A voice routing policy for Direct Routing will be linked to a voice route using PSTN usage records. You can add existing PSTN usage records, change the order in which the usages will be processed, and assign the voice routing policy to users or resource accounts.
 
 :::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
-
-<!---
-
-#### PowerShell-only voice routing policies
-
-|Parameter|Default|Description|
-|:-----|:-----|:-----|
-
---->
 
 #### Related topics to voice routing policies
 
@@ -577,13 +579,13 @@ Voicemail policies control the available features for the voicemail service in T
 |Maximum voicemail recording length (seconds)|300|The maximum length of a voicemail. This length must be between 30 and 600 seconds.|
 |Primary prompt language|(Blank)|The first language used to play system prompts to callers and the first option on the language selection menu.|
 |Secondary prompt language|(Blank)|The second language used to play system prompts to callers and the second option on the language selection menu.|
-|Voicemail transcription|On|Turn this setting on to enable transcription for voicemails.|
-|Translation for transcriptions|On|Turn this setting on to enable translation for voicemail transcriptions.|
-|Mask profanity in voicemail transcription|Off|If you turn this setting on, profanity will be masked in voicemail transcriptions.|
-|Users can share data for service improvement|On|If you turn this setting on, users can share voicemail and transcription data for training and improving accuracy. If you turn this setting off, voicemail data won't be shared.|
+|Voicemail transcription|On|Turn on this setting to enable transcription for voicemails.|
+|Translation for transcriptions|On|Turn on this setting to enable translation for voicemail transcriptions.|
+|Mask profanity in voicemail transcription|Off|If you turn on this setting, profanity will be masked in voicemail transcriptions.|
+|Users can share data for service improvement|On|If you turn on this setting, users can share voicemail and transcription data for training and improving accuracy. If you turn off this setting, voicemail data won't be shared.|
 |Before the user's greeting, play audio file|(none)|The audio file to play to the caller before the user's voicemail greeting is played.|
 |After the user's greeting, play audio file|(none)|The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.|
-|Disconnect the call if preamble or postamble can't be played|Off|If you turn this setting on, the Pre- or Postamble will play before the caller can leave a message.|
+|Disconnect the call if preamble or postamble can't be played|Off|If you turn on this setting, the Pre- or Postamble will play before the caller can leave a message.|
 
 #### Related topics to voicemail policies
 

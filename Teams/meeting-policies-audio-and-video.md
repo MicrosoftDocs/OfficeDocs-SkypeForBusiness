@@ -85,7 +85,7 @@ Meetings organized by a user who has this policy setting enabled, allow video sh
 
 |Teams desktop and web client|Teams mobile client|
 |:---:|:---:|
-|![Screenshot showing meeting join with audio/video settings on desktop.](media/meeting-policies-audio-video-settings.png)|![Screenshot showing meeting join sreen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)|
+|![Screenshot showing meeting join with audio/video settings on desktop.](media/meeting-policies-audio-video-settings.png)|![Screenshot showing meeting join screen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)|
 
 Let's look at the following example.
 
@@ -108,19 +108,19 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 
 |IP video|Mode for IP video|Meeting experience|
 |---|---|---|
-|Organizer: **On**<br><br>Participant: **On**|Participant: **Disabled**|The **Mode for IP video** setting takes precedence. The participant who is assigned this policy can't turn on or view videos shared by others.|
+|Organizer: **On**<br><br>Participant: **On**|Participant: **Not enabled**|The **Mode for IP video** setting takes precedence. The participant who is assigned this policy can't turn on or view videos shared by others.|
 |Organizer: **On**<br><br>Participant: **On**|Participant: **Outgoing and incoming video enabled**|The participant who is assigned this policy can turn on or view videos shared by others.|
 |Organizer: **On**<br><br>Participant: **Off**|Participant: **Outgoing and incoming video enabled**|The **IP video** setting takes precedence. Participants can only see incoming video and can't send outgoing video.|
-|Organizer: **On**<br><br>Participant: **Off**|Participant: **Disabled**|The **Mode for IP video** setting takes precedence. The participant can't see incoming or outgoing video.|
+|Organizer: **On**<br><br>Participant: **Off**|Participant: **Not enabled**|The **Mode for IP video** setting takes precedence. The participant can't see incoming or outgoing video.|
 |Organizer: **Off**||The **IP video** setting takes precedence because it's turned off for the organizer. No one can turn on video in meetings organized by the user who is assigned this policy.|
 
 ### Manage audio/video for meeting participants
 
 |If you want to...|Set the following policy settings|
 |---|---|
-|Disable audio and video for participants in meetings|Mode for IP audio: **Disabled**<br> Mode for IP video: **Disabled**<br>IP video: N/A|
+|Disable audio and video for participants in meetings|Mode for IP audio: **Not enabled**<br> Mode for IP video: **Disabled**<br>IP video: N/A|
 |Enable only incoming video and audio for participants in meetings|Mode for IP audio: **Outgoing and incoming audio enabled**<br> Mode for IP video: **Outgoing and incoming video enabled**<br>IP video: **Off**|
-|Disable video for participants in meetings (participants have audio only)|Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>IP video: N/A
+|Disable video for participants in meetings (participants have audio only)|Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Not enabled**<br>IP video: N/A
 |Enable audio and video for participants in meetings|Mode for IP audio: **Outgoing and incoming audio enabled** (default)<br> Mode for IP video: **Outgoing and incoming video enabled** (default)<br>IP video: **On** (default)|
 
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, if an organizer has a policy that restricts video and a user’s policy doesn't restrict video, meeting participants inherit the policy of the meeting organizer and don't have access to video in meetings. This means that they can join the meeting with audio only.
@@ -148,7 +148,7 @@ This is a per-user policy. This setting controls whether users can customize the
 
 You can use both Teams admin center and PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
 
-To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter (**Select video filters** setting in Teams admin center) as follows:
+To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter (**Participants can use video effects** setting in Teams admin center) as follows:
 
 |Setting value in PowerShell|Setting value in Teams admin center|Behavior|
 |---|---|---|
@@ -222,5 +222,6 @@ Any camera with mechanical PTZ and UVC controls is supported. For a list of came
 
 ## Related topics
 
+- [Teams policies reference](settings-policies-reference.md#audio--video)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
