@@ -3,6 +3,7 @@ title: Custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
+ms.date: 09/15/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

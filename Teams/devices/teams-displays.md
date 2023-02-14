@@ -4,6 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: weizxue
+ms.date: 08/24/2020
 ms.topic: reference
 ms.service: msteams
 audience: Admin

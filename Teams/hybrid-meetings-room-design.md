@@ -7,6 +7,7 @@ f1.keywords:
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Learn about the different types of meeting spaces you can set up for Teams Rooms meetings.
 ms.topic: article

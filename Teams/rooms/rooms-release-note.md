@@ -3,6 +3,7 @@ title: Release notes for Microsoft Teams Rooms (Windows)
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 04/26/2018
 manager: serdars
 audience: ITPro
 ms.topic: article

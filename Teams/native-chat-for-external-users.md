@@ -12,6 +12,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-externalcollab
 ms.reviewer: vinbel
+ms.date: 10/24/2019
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:

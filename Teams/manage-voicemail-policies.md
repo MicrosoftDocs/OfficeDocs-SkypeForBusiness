@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 05/21/2021
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -123,5 +124,3 @@ Specifies whether voicemail and transcription data is shared with the service fo
 
 
 ## Related articles
-
-
