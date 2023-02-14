@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: billkau
+ms.date: 04/22/2021
 audience: admin
 description: Overview of assisted upgrades from Skype for Business Online to Teams
 ms.localizationpriority: medium

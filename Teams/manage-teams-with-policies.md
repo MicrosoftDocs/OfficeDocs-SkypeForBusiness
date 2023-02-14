@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
+ms.date: 01/07/2021
 search.appverid: 
 description: Lean about Teams policies.
 audience: admin

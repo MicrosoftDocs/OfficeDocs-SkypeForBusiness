@@ -4,6 +4,7 @@ author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
+ms.date: 06/26/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
