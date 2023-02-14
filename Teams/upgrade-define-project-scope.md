@@ -7,6 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 04/26/2018
 description: Scope your upgrade project by refining your vision and goals to ensure all project stakeholders are aligned and working toward the same end results.
 ms.localizationpriority: medium
 search.appverid: MET150

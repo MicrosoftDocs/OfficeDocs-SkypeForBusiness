@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
+ms.date: 07/27/2018
 audience: admin
 description: In this article, you will learn about how to plan for implementing lifecycle management capabilities in Teams.
 ms.localizationpriority: high

@@ -3,6 +3,7 @@ title: Supported Conditional Access and Intune device compliance policies for Mi
 ms.author: dstrome
 author: dstrome
 ms.reviewer: kspiess
+ms.date: 02/28/2022
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

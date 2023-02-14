@@ -10,6 +10,7 @@ metadata:
   ms.author: mikeplum
   author: MikePlumleyMSFT
   ms.reviewer: shalenc
+  ms.date: 02/27/2018
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
@@ -20,7 +21,6 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-
 items:
 - durationInMinutes: 1
   content: |

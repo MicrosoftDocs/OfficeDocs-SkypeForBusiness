@@ -4,6 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: sohailta
+ms.date: 04/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams

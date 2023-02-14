@@ -3,6 +3,7 @@ title: Data transfers between carriers and Microsoft for Operator Connect
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: alaina, creager
+ms.date: 05/27/2021
 manager: serdars
 ms.topic: article
 audience: admin
