@@ -29,12 +29,12 @@ You can allow people from outside your organization to join Teams meetings that 
 
 ## Meeting with validated external participants
 
-How external participants appear in meetings depends on a combination of your Microsoft 365 configuration and their identity provider. Some external participants can be validated by Microsoft 365 and others are considered anonymous.
+How external participants appear in meetings depends on a combination of your Teams admin configuration and their identity provider. Some external participants can be validated by Teams and others are considered anonymous.
 
-A *validated* meeting participant is one that is logged in to Microsoft 365 in way that you trust. There are two types of validated external participants:
+A *validated* meeting participant is one that is logged in to Teams in way that you trust. There are two types of validated external participants:
 
 - **Guests** - people who are logged in with an [Azure AD B2B collaboration guest account](/azure/active-directory/external-identities/what-is-b2b) in your directory
-- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user permissions
+- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user-level external access permissions
 
 External participants who are not validated in one of these two ways are considered *anonymous*.
 
