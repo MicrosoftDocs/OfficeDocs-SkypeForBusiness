@@ -25,7 +25,7 @@ The reporting node contains data for the health and usage of your Microsoft Team
 
 ## Export Tickets
 
-A new export Ticket history feature has been created that will allow you to export all active and closed ticket history information within a select date range. this export will give you the ability to easily access and analyze your ticket history data for better decision making.  
+A new export Ticket history feature has been created that will allow you to export all active and closed ticket history information within a select date range. This export will give you the ability to easily access and analyze your ticket history data for better decision making.  
 
 To view the export ticket button, navigate to **Reports >Overview> Export ticket**.
 
