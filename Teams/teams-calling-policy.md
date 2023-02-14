@@ -1,5 +1,5 @@
 ---
-title: 'Calling policies in Microsoft Teams: Calling and call-forwarding features'
+title: 'Calling policies in Microsoft Teams'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,7 +23,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Calling policies: Calling and call-forwarding features in Teams
+# Calling policies in Teams
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
 
@@ -93,7 +93,7 @@ This setting enables inbound calls to be routed to delegates, allowing delegates
 
 ### Prevent toll bypass and send calls through the PSTN
 
-Turning on this setting will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
+Turning on this setting will send calls through the Public Switched Telephone Network (PSTN)and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
 
 ### Music on hold for PSTN calls
 
@@ -119,10 +119,6 @@ This setting controls whether real-time captions in Teams calls are available fo
 ### Automatically answer incoming meeting invites
 
 This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
-
-### Spam filtering
-
-This setting allows you to control the type of spam filtering available on incoming calls. Both Basic and Captcha Interactive Voice (IVR) checks can be performed. This setting is turned on by default.
 
 ### SIP devices can be used for calls
 

@@ -30,7 +30,7 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 This article describes the following meeting policy settings related to content sharing:
 
 - [Screen sharing mode](#screen-sharing-mode)
-- [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
+- [Participants can give or request control](#participants-can-give-or-request-control)
 - [External participants can give or request control](#external-participants-can-give-or-request-control)
 - [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
@@ -44,20 +44,20 @@ This setting is a combination of a per-organizer and per-user policies. This set
 |---------|---------|
 |**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting |
 |**Single application**   | Application sharing is allowed in the meeting        |
-|**Disabled**     |Screen sharing and application sharing turned off in the meeting.       |
+|**Not enabled**     |Screen sharing and application sharing turned off in the meeting.       |
 
 Let's look at the following example.
 
 |User |Meeting policy |Screen sharing mode |
 |---------|---------|---------|
 |Daniela  | Global   | Entire screen |
-|Amanda   | Location1MeetingPolicy  | Disabled |
+|Amanda   | Location1MeetingPolicy  | Not enabled |
 
-Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings.  
+Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is **Not enabled**. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings.  
 
 Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
 
-## Allow a participant to give or request control
+## Participants can give or request control
 
 This setting is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
 
@@ -71,10 +71,10 @@ If the setting is turned off for the user, the **Give Control** option isn't ava
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow participant to give or request control |
-|---------|---------|---------|
-|Daniela   | Global   | On       |
-|Babek    | Location1MeetingPolicy        | Off   |
+| User | Meeting policy | Allow participant to give or request control |
+|---|---|---|
+| Daniela | Global | On |
+| Babek | Location1MeetingPolicy | Off |
 
 Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek. However, Babek can't give control to other participants.
 
@@ -91,7 +91,7 @@ This setting is a per-user policy. Whether an organization has set this policy f
 - Guests
 - External access users
 
-Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization.
+Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization. This setting must be turned on in both organizations for an external participant to take control in Teams meetings hosted by people in your organization.
 
 To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
@@ -125,7 +125,7 @@ To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true 
 
 ### Annotation
 
-When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If whiteboard is disabled, users will not have access to annotation.
+When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
 
 ## Shared notes
 
@@ -140,11 +140,9 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
-
-
-
 ## Related topics
 
+- [Teams policy reference - Content sharing](settings-policies-reference.md#content-sharing)
+- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
-- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

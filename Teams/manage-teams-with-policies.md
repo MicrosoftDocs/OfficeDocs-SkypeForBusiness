@@ -71,5 +71,5 @@ Policy type | Description
 * [Assign policies in Teams - getting started](policy-assignment-overview.md)
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
-* [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
+* [Teams policies reference](settings-policies-reference.md)
 * [Teams for Education policies and policy packages](policy-packages-edu.md)

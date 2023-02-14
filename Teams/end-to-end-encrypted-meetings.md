@@ -51,6 +51,10 @@ The following features aren't available during an end-to-end encrypted meeting:
 
 - Breakout rooms
 
+- PowerPoint Live
+
+- Excel Live
+
 If your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Enable end-to-end encryption for meetings
