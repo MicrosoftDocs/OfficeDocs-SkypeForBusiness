@@ -1,7 +1,7 @@
 ---
 title: Auto attendant and call queue authorized users
 ms.author: colongma
-author: Colin Longman
+author: colongma
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -23,13 +23,13 @@ description: Learn about authorized users and what they can do
 # Authorized Users
 
 
-# General Overview
+## General Overview
 
 
-# Requirements
+## Requirements
 
 
-# Examples
+## Examples
 
 
 ## Related articles
