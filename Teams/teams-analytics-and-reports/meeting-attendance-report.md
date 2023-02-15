@@ -20,15 +20,20 @@ ms.custom:
 ---
 # Microsoft Teams meeting attendance report
 
-As an admin, you control whether meeting organizers can download an Attendance report by setting a Teams meeting policy. By default, the ability to download the report is turned on. For steps on how to turn off this feature, see [Meeting policy settings - Allow engagement report](../meeting-policies-in-teams-general.md#engagement-report).
+As an admin, you control whether meeting organizers can download an Attendance report by setting a Teams meeting policy. By default, the ability to download the report is turned on.
 
 Meeting organizers can find this report in the **Participants** pane of the meeting, by clicking the download arrow as shown below. They can download the report as a .CSV file (text format).
 
 :::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Control for downloading meeting attendance reports in Microsoft Teams.":::
 
+> [!NOTE]
+> As an administrator, you can’t view the attendance report for meetings that you don’t organize. However, you can view participant details for a given meeting within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
+
 For education tenants, this report is useful to track student attendance in online classes. For example, the teacher can download the Attendance report at the start of class as a simple way to do a "roll call." To learn more, read [Download attendance reports in Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 If meeting organizers need access to more meeting attendance data than they get from the report available within the meeting, you can assign the *Report reader* role so they can access the Teams admin reports themselves. To learn about this, read [Who can access the Teams activity reports](../teams-activity-reports.md#who-can-access-the-teams-activity-reports).
+
+To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Attendance report** setting to **Off**. You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet and set the `AllowEngagementReport` parameter to `Disabled`.
 
 ## Set attendance report policies in Teams admin center
 
@@ -49,13 +54,15 @@ If meeting organizers need access to more meeting attendance data than they get 
 
 ## Set attendance report policies with PowerShell
 
-In PowerShell, the **AllowEngagementReport** parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) can be used to turn this on. This policy is on by default. To turn it off, run the following command in PowerShell:
+In PowerShell, the **AllowEngagementReport** parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) can be used to turn this on. This policy is on by default.
+
+To turn off attendance reports, run the following command in PowerShell:
 
     ```powershell
     Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
     ```
 
-To turn on Attendance reports for all webinars and meetings with users not initially included and only gathering the identity of users attending the meeting:
+To turn on attendance reports for all webinars and meetings with users not initially included and only gathering the identity of users attending the meeting:
 
     ```powershell
     Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEnabled

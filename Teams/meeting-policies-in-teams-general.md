@@ -33,7 +33,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Outlook add-in](#outlook-add-in)
 - [Channel meeting scheduling](#channel-meeting-scheduling)
 - [Private meeting scheduling](#private-meeting-scheduling)
-- [Engagement report](#engagement-report)
+- [Attendance report](#attendance-report)
 - [Meeting registration](#meeting-registration)
 - [Webinars](#webinars)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
@@ -97,22 +97,11 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 If you turn off both the **Private meeting scheduling** and **Channel meeting scheduling** settings, the **Add required attendees** and **Add channel** options are disabled for users in Teams.
 
-## Engagement report
+## Attendance report
 
-This is a per-user policy. This setting controls whether meeting organizers can download the [meeting engagement report](teams-analytics-and-reports/meeting-attendance-report.md).
+This is a per-user policy. Attendance reports are enabled by default with **Everyone, unless organizers opt-out**. These reports allow your meeting organizers to see who registered and attended the meetings and webinars they've set up, giving them the option to download the report from the **Participants** pane of a meeting or webinar.
 
-This policy is on by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Off**.
-
-You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
-
-By default, the **AllowEngagementReport** parameter is set to **Enabled** in PowerShell. To prevent a meeting organizer from downloading the meeting engagement report, set the **AllowEngagementReport** parameter to **Disabled**.
-
-When this policy is enabled, the option to download the meeting engagement report is displayed in the **Participants** pane.
-
-> [!NOTE]
-> As an administrator, you can’t view the attendance report for meetings that you don’t organize. However, you can view participant details for a given meeting within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
-
-For more information, including limits of the engagement report, see [viewing and downloading meeting attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+To find out more about attendance reports and the corresponding **Who's in the report** and **Attendance information collection** policy settings, read [Microsoft Teams meeting attendance report](\teams-analytics-and-reports\meeting-attendance-report.md).
 
 ## Meeting registration
 
