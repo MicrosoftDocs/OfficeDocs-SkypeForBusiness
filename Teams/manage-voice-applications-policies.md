@@ -24,7 +24,7 @@ description: Learn how to use and manage voice applications policies in Microsof
 
 Voice applications policies allow you to create and assign voice application policies to authorized users.  Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
 
-Before creating and assigning policies, read [Authorized users](put link here).
+Before creating and assigning policies, read [Authorized users](./aa-cq-authorized-users).
 
 You manage voice applications policies by going to **Voice** > **Voice applications policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
@@ -71,7 +71,7 @@ NOTE: It's not possible to change the name or description of the policy.
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 [!IMPORTANT]
-> In addition to assigning the policy to users, the users must also be configured as Auto attendant [Authorized users](put link here) or Call queue [Authorized users](put link here)
+> In addition to assigning the policy to users, the users must also be configured as Auto attendant or Call Queue [Authorized users](./aa-cq-authorized-users)
 
 ## PowerShell cmdlets
 
