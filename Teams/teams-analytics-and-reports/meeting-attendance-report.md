@@ -34,42 +34,40 @@ For education tenants, this report is useful to track student attendance in onli
 
 If meeting organizers need access to more meeting attendance data than they get from the report available within the meeting, you can assign the *Report reader* role so they can access the Teams admin reports themselves. To learn about this, read [Who can access the Teams activity reports](../teams-activity-reports.md#who-can-access-the-teams-activity-reports).
 
-To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Attendance report** setting to **Off**. You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet and set the `AllowEngagementReport` parameter to `Disabled`.
-
 ## Set attendance report policies in Teams admin center
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to update. To create a new policy, click **Add**.
-1. Under **Meeting scheduling**, choose the following for **Attendance report**
-    1. If you want meeting organizers to have the option to turn on or off Attendance reports for a meeting, select **Everyone, unless organizers opt-out**. This setting is on by default.
-    1. If you don't want meeting organizers to have the ability to view or download Attendance reports for a webinar or meeting they have organized, select **No one**.
-    1. If you want all webinars or meetings to include an Attendance report without the option for meeting organizers to turn on or off, select **Everyone**.
-1. For **Who's in the report**, choose the following:
-    1. If you want all users to initially be included in the Attendance report but want to give them the option to opt out, select **Everyone, but users can opt-out**. This setting is on by default.
-    1. If you don't want users to initially be included in the Attendance report but want to give them the option to opt in, select **No one, but users can opt-in**.
-    1. If you want all users to be included in the Attendance report without the option to opt out, select **Everyone**.
-    1. If you don't want users to be included in the Attendance report without the option to opt out, select **No one**.
-1. For **Attendance information collection**, choose the following:
-    1. If you want to include meeting attendees' join times, leave times, and in-meeting duration, select **All information**. This setting is on by default.
-    1. If you don't want to include meeting attendees' join times, leave times, and in-meeting duration, select **Only who attended**.
+1. Under **Meeting scheduling**, choose one of the following for **Attendance report**
+    - **Everyone, unless organizers opt-out** - Meeting organizers to have the option to turn on or off attendance reports for a meeting. This setting is on by default.
+    - **No one** - Meeting organizers can't view or download attendance reports for a webinar or meeting they have organized.
+    - **Everyone** - Meeting organizers can't turn off attendance reports for a webinar or meeting.
+1. For **Who's in the report**, choose one of the following:
+    - **Everyone, but users can opt-out** - All users are initially included from the attendance report, but they can opt-out. This setting is on by default.
+    - **No one, but users can opt-in** - All users are initially excluded from the attendance report, but they can opt-in.
+    - **Everyone** - All users are included in the attendance report, and users can't opt-out.
+    - **No one** - All users are excluded from the attendance report, and users can't opt-in.
+1. For **Attendance information collection**, choose one of the following:
+    - **All information** - Include meeting attendees' join times, leave times, and in-meeting duration. This setting is on by default.
+    - **Only who attended** - Doesn't include meeting attendees' join times, leave times, and in-meeting duration.
 1. Once you have made your policy setting selections, hit **Save** at the bottom of the page.
 
 ## Set attendance report policies with PowerShell
 
 In PowerShell, the **AllowEngagementReport** parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) can be used to turn this on. This policy is on by default.
 
-To turn off attendance reports, run the following command in PowerShell:
+To turn off attendance reports, run the following:
 
-    ```powershell
-    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
-    ```
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
+```
 
-To turn on attendance reports for all webinars and meetings with users not initially included and only gathering the identity of users attending the meeting:
+To turn on attendance reports for all webinars and meetings with users who are initially excluded and only gather the identity of users attending the meeting, run the following:
 
-    ```powershell
-    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEnabled
-    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTrackingInReport DisabledUserOverride
-    Set-CsTeamsMeetingPolicy -Identity <policy name> -InfoShownInReportMode identityOnly
-    ```
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEnabled
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTrackingInReport DisabledUserOverride
+Set-CsTeamsMeetingPolicy -Identity <policy name> -InfoShownInReportMode identityOnly
+```
 
 ## Related topics
 

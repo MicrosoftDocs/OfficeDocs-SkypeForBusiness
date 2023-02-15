@@ -143,7 +143,7 @@ Use the following PowerShell script to turn off webinars:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False
-Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
 
 ## Related topics
