@@ -181,6 +181,16 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 |Added workforce integration|WorkforceIntegrationAdded|The Shifts app is integrated with a third-party system.|
 |Accepted off shift message|OffShiftDialogAccepted|A user acknowledges the off-shift message to access Teams after shift hours.|
 
+## Updates app in Teams activities
+
+If your organization is using the Updates app in Teams, you can search the audit log for activities related to the Updates app. Here's a list of all events that are logged for Updates App activities in Teams in the Microsoft 365 audit log.
+|Friendly name|Operation|Description|
+|---|---|---|
+|Create an update request|CreateUpdateRequest|A user successfully creates an update request.|
+|Edite an update request|EditUpdateRequest|A user opens request editing wizard and hits ‘save’ button to confirm and save any changes, or enable/disable the update request directly.|
+|Submit an update|SubmitUpdate|A user successfully submits an update..|
+|View the details of one update|ViewUpdate|A user views the details of the update.|
+
 ## Office 365 Management Activity API
 
 You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
