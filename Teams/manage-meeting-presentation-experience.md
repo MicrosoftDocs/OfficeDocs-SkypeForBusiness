@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 10/07/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -157,4 +158,3 @@ If you choose to turn off reactions, remember that this will disable the hand-ra
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Manage access to Microsoft Whiteboard for your organization](/microsoft-365/whiteboard/manage-whiteboard-access-organizations)
-

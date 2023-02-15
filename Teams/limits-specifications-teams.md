@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: siunies
+ms.date: 03/02/2018
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
 ms.localizationpriority: high
 f1.keywords: 
