@@ -4,6 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: divank
+ms.date: 06/13/2018
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -173,6 +174,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-2     | `1.0.6.28`    | 2022 Update #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.341` | 2022 Update #4A    |
 |Poly CCX350 | `8.0.2.2643` | 2022 Update #4A |
 |Yealink CP965  | `143.15.0.27`     | 2022 Update #4A  |

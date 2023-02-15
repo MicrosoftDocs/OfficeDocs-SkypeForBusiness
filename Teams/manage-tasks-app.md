@@ -6,6 +6,7 @@ manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
+ms.date: 04/09/2020
 search.appverid: MET150
 searchScope: 
   - Microsoft Teams

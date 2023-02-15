@@ -4,6 +4,7 @@ ms.author: mabond
 author: mkbond007
 manager: serdars
 ms.reviewer: sachung, emryan
+ms.date: 04/08/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -52,9 +53,6 @@ For more information about the differences between meetings, webinars, and live 
 > For on-premises users, the new webinar experience isn't available yet.
 >
 > The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
-
-> [!IMPORTANT]
-> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists for eDiscovery purposes. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
 
 ## Set up new webinar experience
 

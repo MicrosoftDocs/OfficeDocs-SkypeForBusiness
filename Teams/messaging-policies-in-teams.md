@@ -4,6 +4,7 @@ ms.author: mabond
 author: mkbond007
 manager: serdars
 ms.reviewer: jastark
+ms.date: 08/08/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -116,5 +117,6 @@ Here are the messaging policy settings that you can configure.
 
 ### Related topics
 
+- [Teams policies reference - Messaging policies](settings-policies-reference.md#messaging-policies)
 - [Assign policies to users and groups in Teams](assign-policies-users-and-groups.md)
 - [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)

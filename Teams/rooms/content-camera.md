@@ -3,6 +3,7 @@ title: Learn how to setup content cameras - Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 ms.reviewer: sohailta
+ms.date: 08/12/2019
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -100,5 +101,3 @@ You can also adjust these settings remotely using an [XML configuration file](xm
 [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
 
 [Microsoft Teams Rooms requirements](requirements.md)
-
-

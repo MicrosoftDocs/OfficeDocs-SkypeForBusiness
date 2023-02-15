@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
+ms.date: 01/28/2022
 description: This article describes how to plan for a successful move from Kaizala to Microsoft Teams.
 f1.keywords: 
 ms.localizationpriority: medium

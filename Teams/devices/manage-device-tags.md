@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: kelsawi
+ms.date: 07/20/2020
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
