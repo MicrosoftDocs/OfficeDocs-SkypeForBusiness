@@ -52,6 +52,9 @@ You can use the global (Org-wide default) policy that's created automatically or
 
 ## Use Teams admin center
 
+> [!NOTE]
+> Managing Voicemail Policies through the Teams Admin Center is not currently available in GCC High and DoD environments.
+
 ### Create a custom voicemail policy
 
 Follow these steps to create a custom voicemail policy.
