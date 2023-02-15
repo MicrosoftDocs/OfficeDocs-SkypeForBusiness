@@ -1,5 +1,5 @@
 ---
-title: Phone System Direct Routing: SIP protocols
+title: "Teams Phone System Direct Routing: SIP protocols"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
