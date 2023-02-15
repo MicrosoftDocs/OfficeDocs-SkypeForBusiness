@@ -4,6 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: 
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: Admin

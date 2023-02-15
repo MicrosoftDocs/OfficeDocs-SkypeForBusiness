@@ -7,6 +7,7 @@ f1.keywords:
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 08/05/2022
 audience: ITPro
 description: Step through the complete process of setting up a new Teams Rooms device in your organization.
 ms.topic: article

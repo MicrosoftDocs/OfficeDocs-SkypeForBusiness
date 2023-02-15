@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
+ms.date: 03/15/2021
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -166,6 +167,7 @@ This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to
 
 ## Related topics
 
+- [Teams policies reference](settings-policies-reference.md#meetings)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

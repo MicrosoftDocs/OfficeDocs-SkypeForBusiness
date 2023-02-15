@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kblevens
+ms.date: 03/10/2021
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about the Share to Teams feature, which allows users to share emails and email attachments from Outlook to any chat or channel in Teams.  

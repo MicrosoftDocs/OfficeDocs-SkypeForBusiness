@@ -3,6 +3,7 @@ title: Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
+ms.date: 07/29/2020
 manager: serdars
 audience: ITPro
 ms.topic: article

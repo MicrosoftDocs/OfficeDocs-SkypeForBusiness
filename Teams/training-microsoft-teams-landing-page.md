@@ -1,6 +1,7 @@
 ---
 title: Microsoft Teams admin training
 ms.reviewer: 
+ms.date: 12/13/2018
 description: Use these end user, admin, and instructor-led training resources and tutorial videos to help you get the most out of Microsoft Teams in your organization.
 ms.topic: overview
 ms.author: mikeplum
