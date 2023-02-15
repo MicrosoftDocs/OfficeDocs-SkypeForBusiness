@@ -1,5 +1,5 @@
 ---
-title: "Teams Phone System Direct Routing: SIP protocols"
+title: "Teams Phone System Direct Routing: SIP protocol"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-description: Direct Routing SIP protocols
+description: Direct Routing SIP protocol
 appliesto: 
   - Microsoft Teams
 ---
