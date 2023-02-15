@@ -43,7 +43,7 @@ This article describes the following steps:
  
 - [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
-- [Step 3: Set up emergency locations](#step-3-set-up-emergency-locations)
+- [Step 3: Set up emergency locations for emergency calling](#step-3-set-up-emergency-locations-for-emergency-calling)
 - [Step 4: Get phone numbers for your users and services](#step-4-get-phone-numbers-for-your-users-and-services)
 - [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
 - [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
@@ -75,11 +75,13 @@ Microsoft provides multiple options for making external calls to the PSTN, inclu
 For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](/teams-add-on-licensing/microsoft-teams-add-on-licensing?branch=crowe-phone-system#voice-and-pstn-connectivity.md).
 
 
-## Step 3. Set up emergency locations
+## Step 3. Set up emergency locations for emergency calling
 
 An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. 
 
 How you set up emergency locations differs depending on the PSTN connectivity option you choose.  For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
+Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology.  For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 ## Step 4: Get phone numbers for your users and services
 
@@ -114,13 +116,20 @@ For information about setting up auto attendants, see [Plan for Teams auto atten
 
 ## Step 7: Set up other Phone System features
 
-There are numerous Phone System features, which are summarized in [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not.  In addition to cloud queues and auto attendants,some of the more common features you might want to configure include:
+There are numerous Phone System features, which are summarized in [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not.  In addition to cloud queues and auto attendants, some of the more common features you might want to configure include:
 
 - [Cloud voicemail](set-up-phone-system-voicemail.md)
 - [Caller ID](caller-id-policies.md)
 - [Call forwarding and delegation](user-call-settings.md)
 
 Calling policies control which calling and call forwarding features are available to your users. For more information, see [Calling policies](teams-calling-policy.md).
+
+## Manage your deployment
+
+A successful Phone System deployment also involves managing your devices and monitoring call quality and performance. For more information, see:
+
+- [Manage devices](/devices/device-management.md)
+- [Manage and monitor call quality](monitor-call-quality-qos.md)
 
 
 ## Related articles
