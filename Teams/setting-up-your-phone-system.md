@@ -30,9 +30,14 @@ description: Step-by-step guide detailing how to set up Teams Phone System for y
 
 # Set up Phone System in your organization
 
-This article provides a roadmap to content for setting up Phone System--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. Links to more detailed information are available at the end of each step.
+This article provides a roadmap to content for setting up Phone System--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud.
+
+To enable your users to make and receive external calls, you'll also need to connect Phone System to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
+
+If you are still planning your voice solution, you should start with this article, which helps you decide which Microsoft voice solution is right for your organization: [Plan your voice solution](cloud-voice-landing-page.md).
 
 Before reading this article, make sure you've read [What is Phone System](what-is-phone-system-in-office-365.md) and [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). The latter two articles describe Phone System requirements and features.
+
 
 This article describes the following steps:
  
@@ -42,7 +47,9 @@ This article describes the following steps:
 - [Step 4: Get phone numbers for your users and services](#step-4-get-phone-numbers-for-your-users-and-services)
 - [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
 - [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
-- [Step 7: Set up communication credits for toll-free numbers](#step-7-set-up-communications-credits-for-toll-free-numbers)
+
+
+Links to more detailed information are available at the end of each step.
 
 ## Step 1: Buy and assign a Phone System license
 
@@ -54,17 +61,18 @@ The Microsoft Teams Phone System with Calling Plan license bundle is Microsoftâ€
 
 ## Step 2. Choose a PSTN connectivity option
 
-To enable your users to make and receive external calls, you'll need to connect Phone System to the Public Switched Telephone Network (PSTN). Microsoft provides multiple options for connecting to the PSTN, including:
+Microsoft provides multiple options for making external calls to the PSTN, including:
 
-- Calling Plan. An all-in-the-cloud solution with Microsoft as your PSTN carrier.
+- [Microsoft Calling Plan](calling-plans-for-office-365.md). An all-in-the-cloud solution with Microsoft as your PSTN carrier. If you choose Microsoft Calling Plan as your connectivity option, you have a choice of Calling Plan options, including Domestic, International, and Pay-as-you-go plans.
 
-- Operator Connect. If your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs) for you.
+- [Operator Connect](operator-connect-plan.md). If your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling for you.
 
-- Teams Phone Mobile. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams.
+- [Teams Phone Mobile](operator-connect-mobile-plan.md). If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams.
 
-- Direct Routing. Use your own PSTN carrier by connecting your SBCs to Phone System.
+- [Direct Routing](direct-routing-plan.md). This option lets you use your own PSTN carrier by connecting your SBCs to Phone System.
 
-For more information about all connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
+For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md).
+
 
 ## Step 3. Set up emergency locations
 
@@ -103,21 +111,6 @@ Auto attendants let people who call in to your organization navigate a menu syst
 
 For information about setting up auto attendants, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
 
-## Step 7: Set up Communications Credits for toll-free numbers
-
-If you'd like to use toll-free numbers with Microsoft Teams, you'll need to set up Communications Credits. Toll-free calls are billed per minute and require a positive Communications Credits balance.
-
-Communications Credits are a convenient way to add toll-free numbers to use as follows:
-
-- With service numbers for voice apps, such as auto attendants or call queues.
-
-- To dial any international phone number when you have Domestic Calling Plan subscriptions or beyond what is included in a Domestic and International Calling Plan subscription.
-
-- To dial out and pay per minute once you've exhausted your monthly minute allotment.
-
-- To dial out and pay per minute for all outgoing calls, if you have a Pay-As-You-Go Calling Plan.
-
-For more information, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
 ## Related articles
 
