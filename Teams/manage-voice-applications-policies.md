@@ -1,7 +1,7 @@
 ---
 title: Manage voice applications policies in Microsoft Teams
-ms.author: 
-author: 
+ms.author: colongma
+author: colongma
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
