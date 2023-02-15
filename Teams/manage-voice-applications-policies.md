@@ -37,7 +37,7 @@ Alternatively, the [PowerShell cmdlets](./manage-voice-applications-policies.md#
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice applications policies**.
 2. Click **Add**. <br>
-![Screenshot of new voice applications policy page in the admin center.](media/caller-id-policies-add-policy.png)
+![Screenshot of new voice applications policy page in the admin center.](media/voiceapplications-policies-add-policy.png)
 3. Enter a name and description for the policy.
 4. From here, choose the settings that you want:
 - Auto Attendant
