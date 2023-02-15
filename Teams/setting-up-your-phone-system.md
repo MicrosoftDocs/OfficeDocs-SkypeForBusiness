@@ -48,6 +48,7 @@ This article describes the following steps:
 - [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
 - [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [Step 7: Set up other Phone System features](#step-7-set-up-other-phone-system-features)
+- [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
 
 Links to more detailed information are available at the end of each step.
@@ -60,7 +61,7 @@ You can assign a license to a single user or you can assign licenses to multiple
 
 The Microsoft Teams Phone System with Calling Plan license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Phone System with Calling Plan bundle is available in your location, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
 
-## Step 2. Choose a PSTN connectivity option
+## Step 2: Choose a PSTN connectivity option
 
 Microsoft provides multiple options for making external calls to the PSTN, including:
 
@@ -75,7 +76,7 @@ Microsoft provides multiple options for making external calls to the PSTN, inclu
 For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](/teams-add-on-licensing/microsoft-teams-add-on-licensing?branch=crowe-phone-system#voice-and-pstn-connectivity.md).
 
 
-## Step 3. Set up emergency locations for emergency calling
+## Step 3: Set up emergency locations for emergency calling
 
 An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. 
 
@@ -124,7 +125,7 @@ There are numerous Phone System features, which are summarized in [Here's what y
 
 Calling policies control which calling and call forwarding features are available to your users. For more information, see [Calling policies](teams-calling-policy.md).
 
-## Manage your deployment
+## Step 8: Manage your deployment
 
 A successful Phone System deployment also involves managing your devices and monitoring call quality and performance. For more information, see:
 
