@@ -46,16 +46,7 @@ Alternatively, the [PowerShell cmdlets](./manage-voice-applications-policies.md#
 ![Screenshot of new voice applications policy page in the admin center.](media/voiceapplications-policies-add-policy.png)
 3. Enter a name and description for the policy.
 4. From here, choose the settings that you want:
-- Auto Attendant
-    - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the Business Hours Greeting on the auto attendants they're authorized for.
-    - **After Hours Greeting**: Turn on this setting to allow authorized users to change the After Hours Greeting on the auto attendants they're authorized for.
-    - **Holiday Greeting**: Turn on this setting to allow authorized users to change the Holiday Greeting on the auto attendants they're authorized for.
 
-- Call Queue
-    - **Welcome greeting**: Turn on this setting to allow users to change the Welcome greeting on the call queues they're authorized for.
-    - **Music on hold**: Turn on this setting to allow users to change the Music on hold on the call queues they're authorized for.
-    - **Overflow shared voicemail greeting**: Turn on this setting to allow users to change the Overflow shared voicemail greeting on the call queues they're authorized for.
-    - **Timeout shared voicemail greeting**: Turn on this setting to allow users to change the Timeout shared voicemail greeting on the call queues they're authorized for.
 
 > [!NOTE]
 > Choose the policy name and description carefully as these can't be changed later.
@@ -86,3 +77,17 @@ You can edit the global policy or any custom policies that you create.
 [New-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/new-csteamsvoiceapplicationspolicy)
 
 [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/remove-csteamsvoiceapplicationspolicy)
+
+## Voice applications policy settings
+
+- Auto Attendant
+    - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the Business Hours Greeting on the auto attendants they're authorized for.
+    - **After Hours Greeting**: Turn on this setting to allow authorized users to change the After Hours Greeting on the auto attendants they're authorized for.
+    - **Holiday Greeting**: Turn on this setting to allow authorized users to change the Holiday Greeting on the auto attendants they're authorized for.
+       - Testing another sub level?
+
+- Call Queue
+    - **Welcome greeting**: Turn on this setting to allow users to change the Welcome greeting on the call queues they're authorized for.
+    - **Music on hold**: Turn on this setting to allow users to change the Music on hold on the call queues they're authorized for.
+    - **Overflow shared voicemail greeting**: Turn on this setting to allow users to change the Overflow shared voicemail greeting on the call queues they're authorized for.
+    - **Timeout shared voicemail greeting**: Turn on this setting to allow users to change the Timeout shared voicemail greeting on the call queues they're authorized for.
