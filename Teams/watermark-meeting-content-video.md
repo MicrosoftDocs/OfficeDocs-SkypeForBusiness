@@ -40,6 +40,7 @@ The following participants have an audio-only experience when a watermark is in 
 
 > [!Note]
 > Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
+> If UPN and email address are different, then we display UPN of the participant
 
 Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer or enforced by a template or sensitivity label.
 
