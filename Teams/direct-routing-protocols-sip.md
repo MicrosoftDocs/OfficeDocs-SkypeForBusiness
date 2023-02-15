@@ -304,6 +304,21 @@ The size of the Refer Header can be up to 400 symbols in this case. The SBC must
 > [!div class="mx-imgBorder"]
 > ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-5.png)
 
+## Call forwarding
+
+A Teams user can forward incoming calls to another number or Teams user, ring other user or users in parallel (simultaneous ring), or ring a group of users or numbers. Consider the following:
+
+- Request-URI in INVITE request from SIP proxy to User C contains the *cause* parameter. 
+
+- Based on trunk configurations (*ForwardCallHistory* parameter), the History-Info header is populated. 
+
+- When User A is another PSTN user, SIP proxy generates the "SIP SIP/2.0 181 Call is being forwarded" provisional response to User A. 
+
+- If User A and User C are PSTN users, SIP proxy preserves the "SIP SIP/2.0 181 Call is being forwarded" provisional response. 
+
+- The History-Info header should be used for loop-prevention.  
+
+
 ## Session timer
 
 The SIP proxy supports (always offers) the Session Timer on non-bypass calls but does not offer it on bypass calls. Use of the Session Timer by the SBC is not mandatory.
