@@ -1,7 +1,7 @@
 ---
 title: Auto attendant and call queue authorized users
 ms.author: colongma
-author: colongma
+author: CLYVR
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -34,7 +34,7 @@ description: Learn about authorized users and what they can do
 
 ## Related articles
 
-Manage Teams Voice Applications Policies
+[Manage Teams Voice Applications Policies](./manage-voice-applications-policies.md)
 
 Setup Auto Attendants
 
