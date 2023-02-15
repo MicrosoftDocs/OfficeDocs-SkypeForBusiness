@@ -87,7 +87,7 @@ The following table tells you what per-user information is available for each co
 
 3. Select the user from the list.
 
-4. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
+4. Select **Meetings & Calls**, and then select the call or meeting that you want to troubleshoot.
 
 5. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
 
