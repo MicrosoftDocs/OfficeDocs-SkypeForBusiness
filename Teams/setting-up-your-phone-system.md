@@ -30,23 +30,24 @@ description: Step-by-step guide detailing how to set up Teams Phone System for y
 
 # Set up Phone System in your organization
 
-This article provides a roadmap to content for setting up Phone System--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud.
+This article provides a roadmap to content for setting up Phone System--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. 
+
+To learn more about Phone System features and requirements, see [What is Phone System](what-is-phone-system-in-office-365.md) and [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). 
 
 To enable your users to make and receive external calls, you'll also need to connect Phone System to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
 
-If you are still planning your voice solution, you should start with this article, which helps you decide which Microsoft voice solution is right for your organization: [Plan your voice solution](cloud-voice-landing-page.md).
-
-Before reading this article, make sure you've read [What is Phone System](what-is-phone-system-in-office-365.md) and [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). The latter two articles describe Phone System requirements and features.
+If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization. 
 
 
 This article describes the following steps:
  
 - [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
-- [Step 3: Set up emergency locations](#step-3-choose-a-pstn-connectivity-option)
+- [Step 3: Set up emergency locations](#step-3-set-up-emergency-locations)
 - [Step 4: Get phone numbers for your users and services](#step-4-get-phone-numbers-for-your-users-and-services)
 - [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
 - [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
+- [Step 7: Set up other Phone System features](#step-7-set-up-other-phone-system-features)
 
 
 Links to more detailed information are available at the end of each step.
@@ -71,7 +72,7 @@ Microsoft provides multiple options for making external calls to the PSTN, inclu
 
 - [Direct Routing](direct-routing-plan.md). This option lets you use your own PSTN carrier by connecting your SBCs to Phone System.
 
-For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md).
+For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](teams-add-on-licensing/microsoft-teams-add-on-licensing?branch=crowe-phone-system#voice-and-pstn-connectivity.md).
 
 
 ## Step 3. Set up emergency locations
@@ -110,6 +111,16 @@ For more information about call queues, see [Plan for Teams auto attendants and 
 Auto attendants let people who call in to your organization navigate a menu system to get them to the right department, call queue, person, or operator.
 
 For information about setting up auto attendants, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
+
+## Step 7: Set up other Phone System features
+
+There are numerous Phone System features, which are summarized in [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not.  In addition to cloud queues and auto attendants,some of the more common features you might want to configure include:
+
+- [Cloud voicemail](set-up-phone-system-voicemail.md)
+- [Caller ID](caller-id-policies.md)
+- [Call forwarding and delegation](user-call-settings.md)
+
+Calling policies control which calling and call forwarding features are available to your users. For more information, see [Calling policies](teams-calling-policy.md).
 
 
 ## Related articles
