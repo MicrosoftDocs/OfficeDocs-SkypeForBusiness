@@ -1,7 +1,7 @@
 ---
 title: Manage voice applications policies in Microsoft Teams
 ms.author: colongma
-author: colongma
+author: CLYVR
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -30,7 +30,7 @@ You manage voice applications policies by going to **Voice** > **Voice applicati
 
 Alternatively, the [PowerShell cmdlets](./manage-voice-applications-policies.md#powershell-cmdlets) listed below may also be used.
 
-[!TIP]
+> [!TIP]
 > Best practice is to create custom policies based on needs of the user(s).
 
 ## Create a custom voice applications policy
@@ -51,7 +51,7 @@ Alternatively, the [PowerShell cmdlets](./manage-voice-applications-policies.md#
     - **Overflow shared voicemail greeting**: Turn on this setting to allow users to change the Overflow shared voicemail greeting on the call queues they're authorized for.
     - **Timeout shared voicemail greeting**: Turn on this setting to allow users to change the Timeout shared voicemail greeting on the call queues they're authorized for.
 
-[!NOTE}
+> [!NOTE]
 > Choose the policy name and description carefully as these can't be changed later.
 
 5. Click **Save**.
@@ -64,13 +64,14 @@ You can edit the global policy or any custom policies that you create.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
 3. Change the settings that you want, and then click **Save**.
 
-NOTE: It's not possible to change the name or description of the policy.
+> [!NOTE]
+> It's not possible to change the name or description of the policy.
 
 ## Assign a custom voice applications policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > In addition to assigning the policy to users, the users must also be configured as Auto attendant or Call Queue [Authorized users](./aa-cq-authorized-users)
 
 ## PowerShell cmdlets
