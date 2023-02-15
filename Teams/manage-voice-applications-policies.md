@@ -24,14 +24,20 @@ description: Learn how to use and manage voice applications policies in Microsof
 
 Voice applications policies allow you to create and assign voice application policies to authorized users.  Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
 
-Before creating and assigning policies, read [Authorized users](./aa-cq-authorized-users).
+Before creating and assigning policies, read [Authorized users](./aa-cq-authorized-users.md).
 
 You manage voice applications policies by going to **Voice** > **Voice applications policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 Alternatively, the [PowerShell cmdlets](./manage-voice-applications-policies.md#powershell-cmdlets) listed below may also be used.
 
 > [!TIP]
-> Best practice is to create custom policies based on needs of the user(s).
+> Best practice is to create custom policies that reflect the configuration changes you want to allow authorized users to make to auto attendants and call queues.
+
+> [!IMPORTANT]
+> The global policy disables all configuration change capabilities by default.  Changing the global policy or creating a custom policy and assigning to user(s) is one of two steps required to create authorized users.  
+> In additional to having a Teams Voice Applications Policy assigned, users must also be configured as Auto attendant or Call Queue [Authorized users](./aa-cq-authorized-users.md).  
+> Having only a policy assigned or only being assigned as an authorized user will not result in the user being able to make any changes.
+
 
 ## Create a custom voice applications policy
 
@@ -70,9 +76,6 @@ You can edit the global policy or any custom policies that you create.
 ## Assign a custom voice applications policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
-
-> [!IMPORTANT]
-> In addition to assigning the policy to users, the users must also be configured as Auto attendant or Call Queue [Authorized users](./aa-cq-authorized-users)
 
 ## PowerShell cmdlets
 
