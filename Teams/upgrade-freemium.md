@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: alyake
+ms.date: 12/19/2018
 audience: admin
 search.appverid: MET150
 description: Learn how to easily upgrade from Microsoft Teams Free (classic) to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users.

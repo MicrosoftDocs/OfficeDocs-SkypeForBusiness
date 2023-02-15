@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
+ms.date: 08/13/2020
 description: A list of desktop properties and events for the policy controls for Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150
