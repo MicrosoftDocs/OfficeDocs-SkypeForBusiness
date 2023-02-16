@@ -42,12 +42,12 @@ In this article:
 [Apps, including Microsoft Viva](#apps-including-microsoft-viva)
 [Multi-Tenant Multi-Account](#multi-tenant-multi-account)
 
-## Manage new Teams rollout via Teams Policy
+## Manage new Teams roll out via Teams Policy
 
-As an admin, you can manage which users in your organizations see or do not see the ***Try Teams (preview)*** toggle to use the Microsoft Teams (preview) client.
+As an admin, you can manage which users in your organizations see or don't see the ***Try Teams (preview)*** toggle to use the Microsoft Teams (preview) client.
 
 This can be controlled on a per-user basis and Teams’ admin setting **UseNewTeamsClient** under 
-"TeamsUpdateManagement" policy can be used to control availability of the toggle for users in your organization. You can configure the **UseNewTeamsClient** either via Teams Powershell or ni the Teams admin center.
+"TeamsUpdateManagement" policy can be used to control availability of the toggle for users in your organization. You can configure the **UseNewTeamsClient** either via Teams PowerShell or in the Teams admin center.
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
@@ -55,14 +55,14 @@ Configure the UseNewTeamsClient setting to one of the following possible values:
 |:-----|:-----|
 |MicrosoftChoice|Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness.|
 |UserChoice| This value lets the Teams (preview) toggle switch display to all users. Users can choose to opt in or out.|
-|AdminDisabled|This value hides the Teams (preview) toggle switch from view. Users will not be able to opt-in to the new Teams.|
+|AdminDisabled|This value hides the Teams (preview) toggle switch from view. Users won't be able to opt in to the new Teams.|
 
 ## Configure setting using Teams PowerShell
 
 Here are the steps needed to configure this setting in PowerShell.
 
-1. Import the latest Teams PowerShell cmdlets (require version 4.9.1 or greater) by following [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams) instructions. Direct link: [PowerShell Gallery MicrosoftTeams 4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1).
-2. Connect using an admin account using this command:
+1. Import the latest Teams PowerShell cmdlets (require version 4.9.1 or greater) by following [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams) instructions. Direct link: [PowerShell Gallery Microsoft Teams 4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1).
+2. Connect to an admin account using this command:
 
 ```powershell
 Connect-MicrosoftTeams
@@ -121,34 +121,34 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
 |Setting |Description|
 |:-----|:-----|
-|Microsoft controlled| Default. This is the automatic default that allows Microsoft to control whether the Teams (preview) toggle switch is shown or not based on product readiness |
+|Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
 |User can choose| Use this value to show the Teams (preview) toggle switch, and allow 
-users to opt-in to the new Teams, and switch back if they need to.|
+users to opt in to the new Teams, and switch back if they need to.|
 |Not enabled| Use this value to hide the Teams (preview) toggle switch. Users will 
-not be able to opt-in to the new Teams|
+not be able to opt in to the new Teams|
 
 5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and hit apply (as shown below for Contoso sales policy.
 6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
-If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user does not have to restart the app.
+If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
 
 ## How to uninstall the new Teams client
 
-Users who were using Teams preview before the policy was implemented can manually opt-out by using the Teams (preview) toggle. 
+Any user who was using Teams preview before the policy was implemented can manually opt out by using the Teams (preview) toggle. 
 
-After they opt out, the toggle will not appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can just manually uninstall it from settings as per the below screenshot
+After they opt out, the toggle won't appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can manually uninstall it from settings as per the below screenshot
 
 ### Remove Teams 2.1 for all users
 
-To remove the Teams 2.1 from all users computers, use the following PowerShell command:
+To remove the Teams 2.1 from all users' computers, use the following PowerShell command:
 
 ```powershell
 
 Remove-AppxPackage 
 ```
 
-Powershell cmdlet to remove Teams 2.x from all users on the machine:
+PowerShell cmdlet to remove Teams 2.x from all users on the machine:
 
 Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
@@ -168,8 +168,7 @@ Teams (preview) gives you:
 - [Apps (limited), including Microsoft Viva](#apps-including-microsoft-viva)
 - [Support for multiple work (or school) accounts (exclusively available in New Teams!)](#multi-tenant-multi-account)
 
-Teams is still working on adding features including support for Mac and web browsers.  Currently you can't make calls to and from telephone numbers, also known as the public switched telephone network (PSTN).  When a meeting starts, you won’t receive a notification with an option to join
-You can’t update your notification settings from within the app—you’ll be directed to Windows settings
+Teams is still working on adding features including support for Mac and web browsers.  Currently you can't make calls to and from telephone numbers, also known as the public switched telephone network (PSTN).  When a meeting starts, you won’t receive a notification with an option to join. You can’t update your notification settings from within the app; you’ll be directed to Windows settings
 
 
 ## Chat
@@ -182,7 +181,7 @@ Most chat features are available, including GIFs and emojis. There are just a fe
 
 ## Teams and channels
 
-New Teams features a brand-new channel experience that hasn’t been released in Classic Teams yet. You’ll find the latest conversations at the top of your feed (like you do in Viva Engage). You can also pop out channel conversations just like you do with chats, as well as drill down to individual channel conversations. 
+New Teams features a brand-new channel experience that hasn’t been released in Classic Teams yet. You’ll find the latest conversations at the top of your feed (like you do in Viva Engage). You can also pop out channel conversations just like you do with chats, and drill down to individual channel conversations. 
 
 When you need some of the more advanced functionality, switch back to Classic Teams.
 
@@ -190,25 +189,25 @@ Here are the limitations:
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team.</br></br>You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available yet.</br></br>You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>"Post in multiple channels" is not supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br> </br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F isn’t yet available for searching within channels.</br></br>Channel notification settings aren’t editable yet.</br></br>The channel info pane isn't available.</br></br>When a meeting is hosted in a channel, a banner won't appear at the top of the channel|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available yet.</br></br>You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>"Post in multiple channels" isn't supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br> </br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F isn’t yet available for searching within channels.</br></br>Channel notification settings aren’t editable yet.</br></br>The channel info pane isn't available.</br></br>When hosting a meeting in a channel, a banner won't appear at the top of the channel|
 
 
 ## Calendar and meetings
 
 You can schedule and join meetings in Teams (preview) with basic functionality and experience the better performance of Teams (preview). If you need more advanced meeting features, use Classic Teams for the time being. ​​​​​​​
 
-On days when you have a lot of meetings, you may want to use Classic Teams to make sure you get meeting-start notifications.
+On days when you have many meetings, you may want to use Classic Teams to make sure you get meeting-start notifications.
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join</br></br>Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events</br></br>“Present in Teams” feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you cannot add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. </br></br>Meeting start notification won't appear when a meeting starts with an option to join</br></br>When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in New Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join</br></br>Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events</br></br>“Present in Teams” feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you can't add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. </br></br>Meeting start notification won't appear when a meeting starts with an option to join</br></br>When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in New Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
 
 
 ## Calls
 
-You can make Teams-to-Teams internet-based calls through Chat.  However, traditional phone service (calls to and from telephone numbers) is not available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
+You can make Teams-to-Teams internet-based calls through Chat.  However, traditional phone service (calls to and from telephone numbers) isn't available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
 
-The Calls icon is not visible on the left rail and the dial pad is not available. Missed calls will show up in your Activity feed, but the callback button will not be available if the call is from a telephone number.  Live captions and transcriptions are available for Teams-to-Teams calls.
+The Calls icon isn't visible on the left rail and the dial pad isn't available. Missed calls will show up in your Activity feed, but the callback button won't be available if the call is from a telephone number.  Live captions and transcriptions are available for Teams-to-Teams calls.
 
 **Known issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.
 
@@ -241,7 +240,7 @@ The following apps are available in Teams (preview). If you need to use an app t
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|You won't get notifications from any apps in your Activity feed.</br></br>“Pop out app” is not yet available.</br></br>You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps will not display content in meeting window. For apps like Polls please use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|You won't get notifications from any apps in your Activity feed.</br></br>“Pop out app” isn't yet available.</br></br>You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
 
 ## Multi-Tenant Multi-Account
