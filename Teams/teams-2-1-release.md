@@ -32,9 +32,7 @@ Microsoft Teams (preview) is the new version of Microsoft Teams desktop client a
 As an admin, you can manage which users in your organizations see or do not see the ***Try Teams (preview)*** toggle to use the Microsoft Teams (preview) client.
 
 This can be controlled on a per-user basis and Teams’ admin setting **UseNewTeamsClient** under 
-"TeamsUpdateManagement" policy can be used to control availability of the toggle for users in your organization.
-
-There are two methods to configure UseNewTeamsClient via Teams Powershell, via Teams admin center.
+"TeamsUpdateManagement" policy can be used to control availability of the toggle for users in your organization. You can configure the **UseNewTeamsClient** either via Teams Powershell or ni the Teams admin center.
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
@@ -44,12 +42,10 @@ Configure the UseNewTeamsClient setting to one of the following possible values:
 |UserChoice| This value lets the Teams (preview) toggle switch display to all users. Users can choose to opt in or out.|
 |AdminDisabled|This value hides the Teams (preview) toggle switch from view. Users will not be able to opt-in to the new Teams.|
 
-## Control setting via Teams PowerShell
+## Configure setting using Teams PowerShell
 
-Here are the steps needed to configure this setting:
+Here are the steps needed to configure this setting in PowerShell.
 
-Control setting via Teams PowerShell
-Here are the steps needed to configure this setting:
 1. Import the latest Teams PowerShell cmdlets (require version 4.9.1 or greater) by following [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams) instructions. Direct link: [PowerShell Gallery MicrosoftTeams 4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1).
 2. Connect using an admin account using this command:
 
@@ -67,9 +63,12 @@ Set-CsTeamsUpdateManagementPolicy -identity <new_policy_name> -UseNewTeamsClient
 ```
 
 UserChoice
+
 Example:
 ```powershell 
+
 Set-CsTeamsUpdateManagementPolicy -identity MySetting -UseNewTeamsClient UserChoice
+
 ```
 
 >[!Note]
@@ -114,10 +113,9 @@ users to opt-in to the new Teams, and switch back if they need to.|
 not be able to opt-in to the new Teams|
 
 5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and hit apply (as shown below for Contoso sales policy.
+6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
-6. Once the policy is defined, you can also assign it to a specific user via Manage users under Users> Manage users drop-down.
-
-Updating the policy setting using this way goes into effect within one minute. The user does not have to restart the app. 
+If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user does not have to restart the app.
 
 
 ## How to uninstall the new Teams client
@@ -144,30 +142,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 ## Before you begin
 
-### PSTN
 
-If your work includes any of the below activities, use **Teams v1** until traditional phone services are available in Teams Preview:
-
-- Call Queues
-- Auto Attendants
-- Critical Functions: Data Centers - Security Operations Center (SOC)/Security Operations Center (SOC), Site Services, Logistics
-- CRITSIT support to external customers/ partners
-- Customer-facing rolesCalls
-
-You can make Teams-to-Teams internet-based calls through Chat.
-
-Traditional phone service (calls to and from telephone numbers) is not available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
-
-The Calls icon is not visible on the left rail and the dial pad is not available. Missed calls will show up in your Activity feed, but the callback button will not be available if the call is from a telephone number.  
-Live captions and transcriptions are available for Teams-to-Teams calls.
-
-
-### Known issues
-
-Increased power usage during calls may cause CPU throttling and negatively impact performance.
-
->[!Warning]
->Calls, to and from phone numbers, including emergency calls, are NOT available on Teams Preview.  
 
 
 
@@ -227,6 +202,12 @@ On days when you have a lot of meetings, you may want to use Classic Teams to ma
 
 ## Calls
 
+You can make Teams-to-Teams internet-based calls through Chat.  However, traditional phone service (calls to and from telephone numbers) is not available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
+
+The Calls icon is not visible on the left rail and the dial pad is not available. Missed calls will show up in your Activity feed, but the callback button will not be available if the call is from a telephone number.  Live captions and transcriptions are available for Teams-to-Teams calls.
+
+**Known issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.
+
 >[!Important]
 >Calls, to and from phone numbers, including emergency calls, are NOT available in New Teams.
 >​If your work includes any of the following activities, use Classic Teams until traditional phone services are available:
@@ -236,9 +217,10 @@ On days when you have a lot of meetings, you may want to use Classic Teams to ma
 >- CRITSIT support to external customers/ partners
 >- Customer-facing roles
 
+
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/red-checkmark-teams.png" border="false":::|PSTN NOT SUPPORTED YET|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/red-checkmark-teams.png" border="false":::|PSTN not yet available|
 
 
 ## Apps, including Microsoft Viva
@@ -250,7 +232,7 @@ The following apps are available in Teams (preview).
 
 |Microsoft Viva|Microsoft 365|Miscellaneous|
 |:-----|:-----|:-----|
-|Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|</br>Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
+|Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
 
 
 |Teams 1.0 |Teams 2.1|Limitations|
