@@ -164,7 +164,7 @@ The Calls icon is not visible on the left rail and the dial pad is not available
 Live captions and transcriptions are available for Teams-to-Teams calls.
 
 
-Known issues
+### Known issues
 
 Increased power usage during calls may cause CPU throttling and negatively impact performance.
 
@@ -216,7 +216,7 @@ At a high level, Teams (preview) gives you:
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|- When a meeting starts, you won’t receive a notification with an option to join</br>- Breakout rooms</br>- Presenter toolbar</br>Whiteboard</br>Live Events</br>- “Present in Teams” feature in PowerPoint</br>- As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.</br>New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you cannot add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. </br>Meeting start notification won't appear when a meeting starts with an option to join</br>- When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br>- Some meeting details won’t show up in New Teams.</br>- When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>- For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|- When a meeting starts, you won’t receive a notification with an option to join</br>- Breakout rooms not supported</br>- Presenter toolbar not supported</br>- Whiteboard not supported</br>- Live Events</br>- “Present in Teams” feature in PowerPoint not available</br>- As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.</br>- New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you cannot add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. </br>- Meeting start notification won't appear when a meeting starts with an option to join</br>- When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br>- Some meeting details won’t show up in New Teams.</br>- When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>- For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.|
 
 
 ## Calls
