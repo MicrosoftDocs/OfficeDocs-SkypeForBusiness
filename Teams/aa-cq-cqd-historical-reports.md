@@ -1,5 +1,5 @@
 ---
-title: Updated auto attendant and call queue historical reports
+title: Auto attendant and call queue historical reports
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -33,13 +33,13 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
-## V3.0.6 published on February 14, 2023
+## V3.0.7 published on February 16, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v306.png) report shows analytics for calls coming into your auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v306.png) report shows analytics for calls coming into your call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v306.png) report shows a timeline view of agents being active in call queue calls.
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v307.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v307.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v307.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -65,15 +65,15 @@ The following steps assume you've already installed Power BI Desktop on your com
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.6.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.7.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.6.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.7.pbit` template file. Power BI Desktop should launch.
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v306.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v307.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -503,25 +503,25 @@ A valid query consists of several attributes in a JSON object:
 #### Required fields
 
 - Filters: used to filter data returned by VAAC
-- - DataModelName should be one of the supported dimensions
-- - Value should be in the correct format (datetime, string, number etc.)
-- - Operands:
-- - - 0 - Equals
-- - - 1 - Not Equals
-- - - 2 - Contains
-- - - 3 - Begins With
-- - - 4 - Greater Than
-- - - 5 - Greater Than or Equal To
-- - - 6 - Less Than
-- - - 7 - Less Than or Equal To
-- - - 8 - Does Not Contain
-- - - 9 - Does Not Begin With
+  - DataModelName should be one of the supported dimensions
+  - Value should be in the correct format (datetime, string, number etc.)
+  - Operands:
+    - 0 - Equals
+    - 1 - Not Equals
+    - 2 - Contains
+    - 3 - Begins With
+    - 4 - Greater Than
+    - 5 - Greater Than or Equal To
+    - 6 - Less Than
+    - 7 - Less Than or Equal To
+    - 8 - Does Not Contain
+    - 9 - Does Not Begin With
 
 - Dimensions:
-- - DataModelName should be one of the supported dimensions
+  - DataModelName should be one of the supported dimensions
 
 - Measurements:
-- - DataModelName should be one of the supported measurements
+  - DataModelName should be one of the supported measurements
 
 - Parameters: Currently only UserAgent is supported.
 
@@ -534,8 +534,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 ### Preparation
 
 1. Download [Postman](https://www.postman.com/).
-1. Unzip the `sync_pstn_avs-analytics.zip` file in the [downloaded zip file instructions](#v3xx-installation).
-1. Import the folder into Postman. 
+1. Import the folder `postman` in the [downloaded zip file instructions](#v3xx-installation) into Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
 
@@ -651,6 +650,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes was greater than 9  |
 |3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
 |3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
