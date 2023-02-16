@@ -44,9 +44,9 @@ In this article:
 
 ## Manage new Teams roll out via Teams Policy
 
-As an admin, you can manage which users in your organizations see or do not see the "Try Teams (preview)" toggle to use Microsoft Teams (preview), our new Teams client.
+As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use Microsoft Teams (preview), our new Teams client.
 
-To control the toggle availability for your users, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement**  policy. You can this setting using Teams PowerShell or in the Teams admin center.
+To control which users can see the toggle, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement**  policy. You can this setting using Teams PowerShell or in the Teams admin center.
 
 
 ## Configure setting using Teams PowerShell
