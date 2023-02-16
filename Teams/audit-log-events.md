@@ -183,7 +183,7 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 
 ## Updates app in Teams activities
 
-If your organization is using the Updates app in Teams, you can search the audit log for activities related to the Updates app. Here's a list of all events that are logged for Updates App activities in Teams in the Microsoft 365 audit log.
+If your organization is using the Updates app in Teams, you can search the audit log for activities related to the Updates app. Here's a list of all events that are logged for the Updates app activities in Teams in the Microsoft 365 audit log.
 |Friendly name|Operation|Description|
 |---|---|---|
 |Create an update request|CreateUpdateRequest|A user successfully creates an update request.|
