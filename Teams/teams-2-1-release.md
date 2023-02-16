@@ -243,6 +243,14 @@ On days when you have a lot of meetings, you may want to use Classic Teams to ma
 
 ## Apps, including Microsoft Viva
 
+The following apps are available in Teams (preview). 
+
+|Microsoft Viva|Microsoft 365|Miscellaneous|
+|:-----|:-----|:-----|
+|Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|</br>Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
+
+>[!Note]
+>You must install the apps in Classic Teams first.
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
