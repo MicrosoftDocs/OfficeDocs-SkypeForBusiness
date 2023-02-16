@@ -27,6 +27,21 @@ Microsoft Teams (preview) is the new version of Microsoft Teams desktop client a
 >[!Note]
 >Teams (preview) is currently not available for EDU, VDI, PSTN enabled, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
 
+In this article:
+
+[Manage new Teams rollout via Teams Policy](#manage-new-teams-rollout-via-teams-policy)
+[Configure setting using Teams PowerShell](#configure-setting-using-teams-powershell)
+[Configure setting via Teams Admin Center](#configure-setting-in-teams-admin)
+[How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
+[Remove Teams 2.1 for all users](#remove-teams-21-for-all-users)
+[What's available in Teams 2.1 preview](#whats-available-in-teams-21-preview)
+[Chat](#chat)
+[Teams and channels](#teams-and-channels)
+[Calendar and meetings](#calendar-and-meetings)
+[Calls](#calls)
+[Apps, including Microsoft Viva](#apps-including-microsoft-viva)
+[Multi-Tenant Multi-Account](#multi-tenant-multi-account)
+
 ## Manage new Teams rollout via Teams Policy
 
 As an admin, you can manage which users in your organizations see or do not see the ***Try Teams (preview)*** toggle to use the Microsoft Teams (preview) client.
@@ -95,7 +110,7 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 >This new policy assignmentmethod should take effect within one minute. Users do not need to restart the app.
 
 
-## Control setting via Teams Admin Center
+## Configure setting via Teams Admin Center
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
@@ -140,7 +155,7 @@ For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 
-## What's available in 2.1
+## What's available in Teams 2.1 preview
 
 Teams (preview) gives you:
 
