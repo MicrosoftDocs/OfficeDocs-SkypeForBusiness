@@ -1,12 +1,12 @@
 ---
 title: "Walkie Talkie app in Microsoft Teams"
-author: LanaChin
-ms.author: v-lanachin
+author: samanro
+ms.author: samanro
 manager: samanro
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer:
+ms.reviewer: prastogi
 description: How to configure the Walkie Talkie app in Microsoft Teams, from an IT admin perspective.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 ms.custom: 
@@ -25,6 +26,8 @@ ms.date: 11/17/2022
 ---
 
 # Walkie Talkie app in Microsoft Teams
+
+## Overview of Walkie Talkie
 
 The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
@@ -97,9 +100,17 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 #### Headsets
 
 - Wireless headsets (iOS and Android)
-  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie) C300-XT and B450-XT
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+
+> [!NOTE]
+> Users will need one of the following to use BlueParrott headsets:
+>
+> - Teams iOS version: 4.16 or greater
+> - Teams Android version: 2022372201 or greater.
+>
+> Users must be using the latest headset firmware version and recommended MS Teams version to avoid bluetooth connectivity problems with the headset.
 
 #### Rugged Android phones
 
@@ -127,6 +138,10 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions to connect using the BLE stack are no longer required. If "nearby permissions" aren't granted at the Teams level, a user will receive a prompt for Bluetooth permissions. This prompt is displayed, whether or not a Bluetooth accessory, such as a headset, is connected to their device. If a Bluetooth accessory is connected, tapping **Allow** connects Walkie Talkie to the Bluetooth accessory.
 
+## Get insight into Walkie Talkie usage and performance
+
+The [Walkie Talkie usage and performance report](teams-analytics-and-reports/walkie-talkie-usage-report.md) in the Teams admin center gives you and overview of Walkie Talkie activity and performance in your organization. The report provides information such as the number of PTT transmissions made and received, channel activity, transmission duration, and device and participant details.
+
 ## More information
 
 - If users are using mobile data to communicate via Teams, Walkie Talkie will use the same method.
@@ -136,3 +151,7 @@ To learn more about the end-user experience, see:
 
 - [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
 - [Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
+
+## Give feedback or report an issue
+
+To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.

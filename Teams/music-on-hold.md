@@ -10,11 +10,12 @@ ms.collection:
   - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
+ms.date: 08/31/2021
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-description: Learn how to manage the Music on Hold feature in Phone System.
+description: Learn how to manage the Music on Hold feature in Microsoft Teams Phone System.
 ---
 
 # Music on Hold
@@ -124,8 +125,8 @@ The following table indicates which features on which clients and devices suppor
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
-| Hold on Transfer on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | | |
-| Hold on Transfer on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold| | | |
+| Hold on Transfer on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | 
+| Hold on Transfer on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | 
 | Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on Consultative Transfer on 1:1 Teams call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 

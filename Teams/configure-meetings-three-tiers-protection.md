@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,8 +22,6 @@ description: Learn how to configure Teams meetings for better security using thr
 ---
 
 # Configure Teams meetings with three tiers of protection
-
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 The articles in this series provide options for using the compliance features available in Teams and Microsoft 365 to create a meeting environment that meets your compliance requirements. We'll look at the options available with sensitivity labels and templates and how you can use them together with other Teams admin settings.
 

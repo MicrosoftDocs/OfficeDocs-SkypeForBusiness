@@ -3,6 +3,7 @@ title: Get help from a Microsoft reseller or partner
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 03/27/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,6 +17,7 @@ appliesto:
 no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]
 ms.collection: 
   - M365-voice
+  - tier2
 ---
 
 # Get help from a Microsoft reseller or partner

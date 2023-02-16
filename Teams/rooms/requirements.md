@@ -3,6 +3,7 @@ title: Microsoft Teams Rooms requirements
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -92,6 +93,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   |[Poly G85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |Poly GC8 Console with Lenovo Thinksmart Core|Core i5|8 GB|128 GB|
   |Poly GC8 Console with Dell Optiplex 7080|Core i5|8 GB|128 GB|
+  |[Poly GC8 Console with HP 800 G9 Compute -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows)|Core i7|16 GB|256 GB|
   |[Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 with Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
@@ -104,7 +106,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   |[Yealink MVC840](https://www.yealink.com/product/microsoft-teams-room-system-mvc840) |Core i5|8 GB | 128 GB|
   |[Yealink MVC940](https://www.yealink.com/product/microsoft-teams-room-system-mvc940) |Core i5|8 GB | 128 GB|
   |[Yealink MVC940 Bundle with AV Hub](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc940-avhub) |Core i5|8 GB | 128 GB|
-  |Yealink MVC660|Core i5|8 GB | 128 GB|
+  |[Yealink MVC860](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc860)|Core i5|8 GB | 128 GB|
   |Yealink MVC640|Core i5|8 GB | 128 GB|
   |Yealink MVC320|Core i5|8 GB | 128 GB|
   |Yealink MVC340|Core i5|8 GB | 128 GB|
@@ -165,6 +167,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
+|[Lenovo Thinksmart One AIO Bar + Lenovo Core](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006)|Lenovo Camera Driver: 1.0.111.1|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |

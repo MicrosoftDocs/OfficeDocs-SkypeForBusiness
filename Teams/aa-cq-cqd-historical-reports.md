@@ -4,11 +4,13 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 10/21/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -31,13 +33,13 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
 
-## V3.0.5 published on January 9, 2023
+## V3.0.6 published on February 14, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v305.png) report shows analytics for calls coming into your auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v305.png) report shows analytics for calls coming into your call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v305.png) report shows a timeline view of agents being active in call queue calls.
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v306.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v306.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v306.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -63,15 +65,15 @@ The following steps assume you've already installed Power BI Desktop on your com
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.5.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.6.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.5.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.6.pbit` template file. Power BI Desktop should launch.
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v305.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Soure":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v306.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -154,7 +156,6 @@ You'll have to refresh the data to see any new data.
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|Call Type<sup>1</sup>                   |Text                     |See Common Dimensions -> PSTNCallType                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
@@ -215,7 +216,6 @@ You'll have to refresh the data to see any new data.
 |Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                                     |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|Call Type                               |Text                     |See Common Dimensions -> PSTNCallType                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Whole Number             |Call queue call start hour                                                               |
@@ -282,6 +282,7 @@ You'll have to refresh the data to see any new data.
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
+|Call Duration (HH:MM:SS)                |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
 |Call Duration (Minutes)                 |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
 |Calls Answered                          |Whole number             |Number of calls answered by agent                        |
 |Calls Not Answered                      |Whole number             |Number of calls not answered by agent                    |
@@ -532,11 +533,9 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 ### Preparation
 
-Download [Postman](https://www.postman.com/).
-
-Download the repository: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) and unzip it.
-
-Import the folder into Postman. 
+1. Download [Postman](https://www.postman.com/).
+1. Unzip the `sync_pstn_avs-analytics.zip` file in the [downloaded zip file instructions](#v3xx-installation).
+1. Import the folder into Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
 
@@ -550,7 +549,6 @@ Import the folder into Postman.
 6. Click **Save**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
-
 
 7. Select **Collections** on the left hand rail menu.
 8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
@@ -580,7 +578,6 @@ After you submit your input, there will be a couple of possible results:
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field":::
 
 In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
-
 
 ### Compress the JSON query
 
@@ -654,6 +651,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
 |3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
 |3.0.3    |November 8, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.3 |Corrected error, added documentation link, optimized queries            |

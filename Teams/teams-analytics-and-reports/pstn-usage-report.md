@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+ms.date: 12/21/2018
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -20,7 +21,7 @@ ms.collection:
 ---
 # Microsoft Teams PSTN usage report
 
-The Teams PSTN (Public Switched Telephone Network) usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
+The Teams PSTN (Public Switched Telephone Network) and SMS usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
 
 The **Calling Plans** tab shows information including the number of minutes that users spent in inbound and outbound PSTN calls and the cost of these calls. The **Direct Routing** tab shows you information including the SIP address and call start and end times. Use the information in this report to gain insight into PSTN usage in your organization and help you to investigate, plan, and make business decisions.
 
@@ -29,17 +30,17 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ## View the PSTN usage report
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN usage report**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN and SMS (preview) usage**.
 2. Under **Date range**, select a predefined range of 7 or 28 days, or set a custom range, and then select **Run report**.
 
 ## Interpret the report
 
 ### Calling Plans
 
-   ![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png)![Screenshot of the PSTN    usage report in the Microsoft Teams admin center with numbered callouts](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+   ![Screenshot of the Calling Plans PSTN usage report report in the admin center.](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png)![Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts.](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Callout |Description  |
-|--------|-------------|
+|:--------|:-------------|
 |**1**   |The report can be viewed for trends over the last 7 days, 28 days, or a custom date range that you set. |
 |**2**   |Each report has a date for when it was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
 |**3**   |The X axis is the selected date range for the specific report. The Y axis is the total number of calls over the selected time period. <br>Hover over the dot on a given date to see the total calls on that date.  |
@@ -54,7 +55,7 @@ The **Calling Plans** tab shows information including the number of minutes that
    ![Screenshot of the Direct Routing PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png)![Screenshot of the Direct Routing PSTN usage report in the Microsoft Teams admin center with numbered callouts](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Callout |Description  |
-|--------|-------------|
+|:--------|:-------------|
 |**1**   |The report can be viewed for trends over the last 7 days or 28 days. |
 |**2**   |Each report has a date for when it was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
 |**3**   |The X axis is the selected date range for the specific report. The Y axis is the total number of calls over the selected time period.<br>Hover over the dot on a given date to see the total calls on that date.  |
@@ -81,7 +82,7 @@ For the incoming calls, the caller number is obfuscated, for outgoing calls, the
 The obfuscation is based on the organization's location (country). Full phone numbers are shown for the countries that are not listed in the following table:
 
 | Country | Number of obfuscation digits |
-| :-: | :- |
+| :---: | :--- |
 |BE – Belgium | 3 |
 |CH – Switzerland | 4 |
 |DE - Germany | 3 |
@@ -99,17 +100,17 @@ The obfuscation is based on the organization's location (country). Full phone nu
 The Shared Correlation ID only exists in the exported Excel file that you download and indicates that two or more calls are related. 
 The following explains the different scenarios, and when Shared Correlation ID is present.
 
-1.    PSTN User 1 on a PSTN endpoint called Teams User 1 on Teams client, call type Dr_In, correlation ID    57f28917-42k5-4c0c-9433-79734873f2ac, no shared correlation ID.
-2.    Teams User 1 on Teams client called PSTN User 1 on a PSTN endpoint, call type    Dr_Out    2c12b8ca-62eb-4c48-b68d-e451f518ff4, no shared correlation ID.
-3.    PSTN User 1 on a PSTN endpoint called a Teams User 2 on Teams client, call type    Dr_In    f45e9a25-9f94-46e7-a457-84f5940efde9, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
-4.    Existing call 3 with correlation ID "f45e9a25-9f94-46e7-a457-84f5940efde9". PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type    Dr_Out_User_Transfer    45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID    f45e9a25-9f94-46e7-a457-84f5940efde9.
+1.    PSTN User 1 on a PSTN endpoint called Teams User 1 on Teams client, call type Dr_In, correlation ID 57f28917-42k5-4c0c-9433-79734873f2ac, no shared correlation ID.
+2.    Teams User 1 on Teams client called PSTN User 1 on a PSTN endpoint, call type Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4, no shared correlation ID.
+3.    PSTN User 1 on a PSTN endpoint called a Teams User 2 on Teams client, call type Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+4.    Existing call 3 with correlation ID "f45e9a25-9f94-46e7-a457-84f5940efde9". PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
 
 ## Exporting the reports
 Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready. Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data.
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis. Exported files contain additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
- You will receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being a unique ID for the export that can be used for troubleshooting.
+ You'll receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being a unique ID for the export that can be used for troubleshooting.
 
 If you have both Calling Plans and Direct Routing, the exported file may contain data for both products. PSTN usage report file will have filename "**PSTN.calls.`[UTC date]`.csv**" and Direct Routing "**DirectRouting.calls.`[UTC date]`.csv**".
 

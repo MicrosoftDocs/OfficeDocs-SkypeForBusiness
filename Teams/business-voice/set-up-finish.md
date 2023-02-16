@@ -3,6 +3,7 @@ title: Finished Teams Phone System with Calling Plan setup
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier1
 ---
 
 # Finished Teams Phone System with Calling Plan setup

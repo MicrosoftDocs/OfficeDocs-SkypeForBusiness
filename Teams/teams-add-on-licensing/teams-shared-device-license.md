@@ -3,6 +3,7 @@ title: Microsoft Teams Shared Devices licensing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 12/08/2022
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -10,6 +11,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - tier1
 audience: Admin
 appliesto:
   - Microsoft Teams

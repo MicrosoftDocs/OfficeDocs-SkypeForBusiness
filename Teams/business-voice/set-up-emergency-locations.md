@@ -3,6 +3,7 @@ title: Set up Microsoft Teams Phone System with Calling Plan emergency locations
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 07/24/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,6 +18,7 @@ ms.collection:
   - M365-voice
   - M365initiative-voice
   - highpri
+  - tier1
 ---
 
 # Step 1: Set up a Teams Phone System emergency location

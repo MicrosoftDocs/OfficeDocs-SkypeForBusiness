@@ -3,6 +3,7 @@ title: Custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
+ms.date: 09/15/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,8 +22,6 @@ description: Using approved corporate assets like backgrounds to create custom b
 ---
 
 # Custom meeting backgrounds for Teams Meetings
-
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 ## Overview
 
@@ -63,7 +62,7 @@ Uploads must adhere to the following parameters. Admins can upload:
 
 - PNG and JPEG image formats for their images
 - Images with minimum dimensions of 360 px X 360 px
-- Images with minimum dimensions of 3840 px X 2160 px
+- Images with maximum dimensions of 3840 px X 2160 px
 - A maximum of 50 custom background images
 
 To upload your images, navigate to **Meetings** > **Customization Policies** and select your policy from the previous step. Scroll down to the **Custom meeting backgrounds** section, and under the table with the custom background’s toggle, select **+Add**. Once you select +Add, a pane called **Managing Backgrounds** will open, allowing you to add your images.

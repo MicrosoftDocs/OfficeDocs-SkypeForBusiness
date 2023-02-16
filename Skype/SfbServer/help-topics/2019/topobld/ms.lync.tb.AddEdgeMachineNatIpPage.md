@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW

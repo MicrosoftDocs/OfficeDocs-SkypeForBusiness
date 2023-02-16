@@ -4,6 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 ms.reviewer: rjam
+ms.date: 07/30/2020
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -12,11 +13,14 @@ description: Learn how to manage the Praise app in the Microsoft Teams admin cen
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 ---
 
 # Manage the Praise app in the Microsoft Teams admin center
+
+## Overview of Praise
 
 The Praise app in Microsoft Teams helps users show appreciation to members of your organization or classroom. The badges in Praise are designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to frontline workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
@@ -47,6 +51,10 @@ To allow or block specific users in your organization from using Praise, make su
 Teams users in your organization can use the praise composer to recognize their peers for going above and beyond with their work. While crafting their message, they can pick from 14 titles&mdash;like **Courage**, **Optimism**, **Kind heart**, and **Creative**&mdash;to recognize their colleagues’ contributions.
 
 :::image type="content" source="media/praise.png" alt-text="Screenshot of the praise composer.":::
+
+## Give feedback or report an issue
+
+To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Praise" so we can easily identify Praise issues.
 
 ## Related articles
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: nej, brgussin
+ms.date: 07/15/2020
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -23,13 +24,16 @@ description: Learn how to use Teams meeting policy settings to control who can s
 
 As an admin, you can restrict which users can start instant meetings and schedule meetings in Teams. This can be especially useful for privacy and security reasons, where you may not want particular users setting up meetings.
 
-The following meeting policy settings are turned on by default. Each setting is a per-user policy that applies before a meeting starts. These settings can be found in the Teams admin center under **Meetings** > **Meeting policies**.
+The meeting policy settings are turned on by default. These settings can be found in the Teams admin center under **Meetings** > **Meeting scheduling**.
 
-- **Channel meeting scheduling**: Controls whether a user can schedule a meeting in a channel. If this policy is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
-- **Meet now in channels**: Controls whether a user can start an instant meeting in a channel. If you turn on this setting, users can click the **Meet** button to start an instant meeting in the channel.
-- **Private meeting scheduling**: Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team. 
-- **Meet now in private meetings**: Controls whether a user can start an instant private meeting.
-- **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team. If you turn this setting off, users will be unable to schedule Teams meetings when they create a new meeting in Outlook.
+- **Private meeting scheduling**: Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
+- **Meet now in channel meetings**: Controls whether a user can start an instant meeting in a channel.
+- **Channel meeting scheduling**: Controls whether a user can schedule a meeting in a channel.
+- **Meet now in channel meetings**: Controls whether a user can start an instant private meeting.
+- **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
+- **Meeting registration**: Controls whether a user can register the meeting.
+- **Who can register**: Choose **Everyone** from the dropdown list.
+- **Engagement report**: Choose **Turn it on for everyone** from the dropdown list.
 
 > [!NOTE]
 > If the meeting was sent by a delegate, who was given permissions to send meeting invitations on behalf of another person, such as a manager, the meeting policy setting is applied to the person who granted permission (the manager).
@@ -40,7 +44,7 @@ If you have compliance requirements that mandate only specific people start inst
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to update. To create a new policy, click **Add**.
 1. Under **General**, toggle the following:
-    1. If you want to restrict who can start instant meetings in a channel, toggle **Meet now in channels** to **Off**.
+    1. If you want to restrict who can start instant meetings in a channel, toggle **Meet now in channel meetings** to **Off**.
     1. If you want to restrict who can schedule meetings in a channel, toggle **Channel meeting scheduling** to **Off**.
 1. Hit **Save** at the bottom of the page.
 
@@ -56,22 +60,18 @@ If you have compliance requirements that mandate only specific people start inst
 
 ## Turning off meeting policy settings
 
-After any of these meeting policy settings are turned off, any user assigned to the policy won't be able to start or schedule meetings of that type. The meeting join links and conference IDs of all existing meetings of that type that the user had previously started or scheduled won't work. (The conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.)
+After any of these meeting policy settings are turned off, any user assigned to the policy will not be able to start or schedule meetings of that type. The meeting join links and conference IDs of all existing meetings of that type that the user had previously started or scheduled will not work. (The conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.)
 
-If you turn off both the **Private meeting scheduling** and **Channel meeting scheduling** settings, the **Add required attendees** and **Add channel** options won't be enabled for users in Teams.
-
-With **Channel meeting scheduling** turned off, the **Schedule a meeting** buttons will not be enabled for users on the channel reply compose box or in the channel header within the channel posts page. In the channel calendar, the **Add new event** button on the calendar header won't be enabled and users won't be able to drag and select a time block on the channel calendar to create a channel meeting.
-
-If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user will become active and people will be able to join them using the meeting join link or by phone.
+If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user become active and people can join them using the meeting join link or by phone.
 
 ## Related topics
+
+[Change meeting expiration date - end-user controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 
 [Manage meeting policies in Teams](meeting-policies-overview.md)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[Teams Meeting Policies in PowerShell](powershell/module/skype/set-csteamsmeetingpolicy)
+[Teams PowerShell overview](teams-powershell-overview.md)
 
-[Meeting policy settings - Participants & guests](meeting-policies-participants-and-guests.md)
-
-[Security and compliance in Microsoft Teams](security-compliance-overview.md)
+[Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams)

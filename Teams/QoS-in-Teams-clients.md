@@ -6,6 +6,7 @@ manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
+ms.date: 02/19/2019
 audience: admin
 description: Learn how to use Quality of Service (QoS) to optimize network traffic for the Microsoft Teams desktop client.
 ms.localizationpriority: medium

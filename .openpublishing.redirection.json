@@ -12,7 +12,7 @@
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/bookings-virtual-visits.md",
-      "redirect_url": "/microsoft-365/frontline/bookings-virtual-appointments",
+      "redirect_url": "/microsoft-365/frontline/virtual-appointments-app",
       "redirect_document_id": false
     },
     {
@@ -2969,6 +2969,26 @@
     "source_path": "Teams/rooms/microsoft-teams-rooms-premium-rbac.md",
     "redirect_url": "/microsoftteams/rooms/rooms-pro-rbac",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/office-365-set-up.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/expand-teams-across-your-org/gov-support-remote-work-with-teams.md",
+    "redirect_url": "/microsoft-365/solutions/empower-people-to-work-remotely",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/meeting-policies-restricted-anonymous-access.md",
+    "redirect_url": "/microsoft-365/solutions/empower-people-to-work-remotely",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/set-the-caller-id-for-a-user.md",
+    "redirect_url": "/microsoftteams/anonymous-users-in-meetings",
+    "redirect_document_id": true
   }
   ] 
 }
