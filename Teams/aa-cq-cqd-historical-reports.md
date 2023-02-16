@@ -240,7 +240,7 @@ You'll have to refresh the data to see any new data.
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                       |
-|Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinalStateAction                    |
+|Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinalStateAction                     |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Number                   |Hour that the call took place in
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
