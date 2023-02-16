@@ -203,7 +203,7 @@ At a high level, Teams (preview) gives you:
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
 |:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|You can’t add a new member to a team.</br>You can’t create, edit, delete, or archive a team.</br>You won’t be notified when someone requests to join a team.</br>You won’t see team renewal notifications.</br>There isn’t the option to share a link to a team.</br>Offline support isn’t available yet.|
-
+|||You can’t add a new member to a private or shared channel.</br>You can’t create, edit, or delete a channel.</br>"Post in multiple channels" is not supported.|You can’t invite an entire team to a shared channel.</br>You can't manage Tabs. </br>There isn’t the option to share a link to a channel.</br>Ctrl+F isn’t yet available for searching within channels.</br>Channel notification settings aren’t editable yet.</br>The channel info pane isn't available.</br>When a meeting is hosted in a channel, a banner won't appear at the top of the channel|
 
 
 ## Calendar and meetings
