@@ -28,7 +28,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 # Auto attendant and call queue historical reports
 
->[!NOTE]
+> [!NOTE]
 > GCC High and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by auto attendants and call queues.  It also provides agent performance insights.
@@ -57,7 +57,7 @@ While this version of the reports doesn't use the Call Quality Dashboard (CQD) d
 
 Any CQD role with both **View Reports** and **View EUII fields** set to **Yes** will work.
 
-- This requirement will be removed in a future release.
+This requirement will be removed in a future release.
 
 ## V3.x.x installation 
 
@@ -73,11 +73,11 @@ Perform the following steps:
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v307.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v307.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.0.0.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.0.0.":::
 
 6. Select **Connect**, and the data will refresh.
 
