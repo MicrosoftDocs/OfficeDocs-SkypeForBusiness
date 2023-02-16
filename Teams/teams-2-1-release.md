@@ -146,23 +146,30 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 ## Before you begin
 
-PSTN:   If your work includes any of the below activities, use Teams v1 until traditional phone services are available in Teams Preview:
-•	Call Queues
-•	Auto Attendants
-•	Critical Functions: Data Centers - Security Operations Center (SOC)/Security Operations Center (SOC), Site Services, Logistics
-•	CRITSIT support to external customers/ partners
-•	Customer-facing rolesCalls
+### PSTN
+
+If your work includes any of the below activities, use **Teams v1** until traditional phone services are available in Teams Preview:
+
+- Call Queues
+- Auto Attendants
+- Critical Functions: Data Centers - Security Operations Center (SOC)/Security Operations Center (SOC), Site Services, Logistics
+- CRITSIT support to external customers/ partners
+- Customer-facing rolesCalls
+
 You can make Teams-to-Teams internet-based calls through Chat.
 
-Traditional phone service (calls to and from telephone numbers) is not available. This includes emergency calls (i.e. 911 in North America, or 112 in India and parts of Europe.)
+Traditional phone service (calls to and from telephone numbers) is not available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
 
 The Calls icon is not visible on the left rail and the dial pad is not available. Missed calls will show up in your Activity feed, but the callback button will not be available if the call is from a telephone number.  
 Live captions and transcriptions are available for Teams-to-Teams calls.
+
+
 Known issues
-
+
 Increased power usage during calls may cause CPU throttling and negatively impact performance.
-Please be aware:
-Calls, to and from phone numbers, including emergency calls, are NOT available on Teams Preview.  
+
+>[!Warning]
+>Calls, to and from phone numbers, including emergency calls, are NOT available on Teams Preview.  
 
 
 
