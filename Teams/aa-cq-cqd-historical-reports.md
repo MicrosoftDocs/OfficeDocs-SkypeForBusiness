@@ -240,7 +240,7 @@ You'll have to refresh the data to see any new data.
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                       |
-|Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinaleStateAction                    |
+|Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinalStateAction                    |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Number                   |Hour that the call took place in
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
@@ -430,7 +430,7 @@ These dimensions are common to both auto attendants and call queues:
 |                                                       |timed_out                      |Timeout condition met                                             |
 |                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
 |CallQueueDurationSeconds<br>(Real Number)              |                               |Call duration in the call queue                                   |
-|CallQueueFinaleStateAction<br>(Text)                   |                               |Call queue final action                                           |
+|CallQueueFinalStateAction<br>(Text)                    |                               |Call queue final action                                           |
 |                                                       |disconnect                     |time_out calls                                                    |
 |                                                       |disconnect_with_busy           |overflown calls                                                   |
 |                                                       |failed_to_accept_call          |                                                                  |
