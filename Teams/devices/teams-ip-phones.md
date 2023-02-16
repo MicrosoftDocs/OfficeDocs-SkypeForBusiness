@@ -303,6 +303,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Neat Bar | `NFB1.20221128.0009` | 2022 Update #3 |
+| Neat Bar Pro| `NFD1.20221128.0009` | 2022 Update #3 |
+| Neat Board | `NFC1.20221128.0009` |  2022 Update #3 |
+| Neat Pad touch console | `NFA1.20221128.0005`  |  2022 Update #3 |
 | Yealink MeetingBoard 86" | `155.15.0.17` | 2022 Update #2B |
 | Neat Bar | `NFB1.20220914.1215` | 2022 Update #2B |
 | Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
