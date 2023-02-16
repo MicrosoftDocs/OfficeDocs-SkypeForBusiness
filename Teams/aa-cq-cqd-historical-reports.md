@@ -534,7 +534,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 ### Preparation
 
 1. Download [Postman](https://www.postman.com/).
-1. Import the folder `postman` in the [downloaded zip file instructions](#v3xx-installation) into Postman. 
+1. Import the folder `postman` in the [downloaded zip file](#v3xx-installation) instructions into Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
 
