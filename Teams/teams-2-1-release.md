@@ -145,13 +145,13 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackag
 Teams (preview) gives you:
 
 - Activity feed (except app notifications)
-- Chat
-- Teams and channels (limited)
-- Calendar and meetings (limited)
+- [Chat](#chat)
+- [Teams and channels (limited)](#teams-and-channels)
+- [Calendar and meetings (limited)](#calendar-and-meetings)
 - Teams-to-Teams calls
 - Files
-- Apps (limited), including Microsoft Viva
-- Support for multiple work (or school) accounts (exclusively available in New Teams!)
+- [Apps (limited), including Microsoft Viva](#apps-including-microsoft-viva)
+- [Support for multiple work (or school) accounts (exclusively available in New Teams!)](#multi-tenant-multi-account)
 
 Teams is still working on adding features including support for Mac and web browsers.  Currently you can't make calls to and from telephone numbers, also known as the public switched telephone network (PSTN).  When a meeting starts, you won’t receive a notification with an option to join
 You can’t update your notification settings from within the app—you’ll be directed to Windows settings
