@@ -246,10 +246,6 @@ At a high level, Teams (preview) gives you:
 
 ## Multi-Tenant Multi-Account
 
-|Teams 1.0 |Teams 2.1|Limitations|
+|Teams 1.0 |Teams 2.1|Only in 2.1|
 |:-----|:-----|:-----|:-----|
-||:::image type="icon" source="media/green-checkmark.png" border="false":::|No|Multi-Tenant Multi-Account (MTMA) support|
-||:::image type="icon" source="media/green-checkmark.png" border="false":::|Receive real-time notifications from all the accounts you’re signed into.|
-||:::image type="icon" source="media/green-checkmark.png" border="false":::|Participate in chats, meetings, and calls across multiple accounts and organizations. There’s no need to drop from a call or meeting to switch accounts—you can do it seamlessly.|  
-||:::image type="icon" source="media/green-checkmark.png" border="false":::|Set your presence and status for each account and organization individually.|
-||:::image type="icon" source="media/green-checkmark.png" border="false":::|Intuitive visual indicators help differentiate between your different accounts and organizations, so you’re aware of which one you’re working in.|
+|||||No|Multi-Tenant Multi-Account (MTMA) support|Receive real-time notifications from all the accounts you’re signed into.</br>Participate in chats, meetings, and calls across multiple accounts and organizations. There’s no need to drop from a call or meeting to switch accounts—you can do it seamlessly.</br>Set your presence and status for each account and organization individually.</br>Intuitive visual indicators help differentiate between your different accounts and organizations, so you’re aware of which one you’re working in.|
