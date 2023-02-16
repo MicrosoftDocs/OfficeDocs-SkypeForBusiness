@@ -29,25 +29,27 @@ Microsoft Teams (preview) is the new version of Microsoft Teams desktop client a
 
 In this article:
 
-[Manage new Teams rollout via Teams Policy](#manage-new-teams-rollout-via-teams-policy)
-[Configure setting using Teams PowerShell](#configure-setting-using-teams-powershell)
-[Configure setting via Teams Admin Center](#configure-setting-in-teams-admin)
-[How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
-[Remove Teams 2.1 for all users](#remove-teams-21-for-all-users)
-[What's available in Teams 2.1 preview](#whats-available-in-teams-21-preview)
-[Chat](#chat)
-[Teams and channels](#teams-and-channels)
-[Calendar and meetings](#calendar-and-meetings)
-[Calls](#calls)
-[Apps, including Microsoft Viva](#apps-including-microsoft-viva)
-[Multi-Tenant Multi-Account](#multi-tenant-multi-account)
+- [Manage new Teams rollout via Teams Policy](#manage-new-teams-rollout-via-teams-policy)
+- [Configure setting using Teams PowerShell](#configure-setting-using-teams-powershell)
+- [Configure setting via Teams Admin Center](#configure-setting-in-teams-admin)
+- [How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
+- [Remove Teams 2.1 for all users](#remove-teams-21-for-all-users)
+- [What's available in Teams 2.1 preview](#whats-available-in-teams-21-preview)
+  - [Chat](#chat)
+  - [Teams and channels](#teams-and-channels)
+  - [Calendar and meetings](#calendar-and-meetings)
+  - [Calls](#calls)
+  - [Apps, including Microsoft Viva](#apps-including-microsoft-viva)
+  - [Multi-Tenant Multi-Account](#multi-tenant-multi-account)
 
 ## Manage new Teams roll out via Teams Policy
 
-As an admin, you can manage which users in your organizations see or don't see the ***Try Teams (preview)*** toggle to use the Microsoft Teams (preview) client.
+As an admin, you can manage which users in your organizations see or do not see the "Try Teams (preview)" toggle to use Microsoft Teams (preview), our new Teams client.
 
-This can be controlled on a per-user basis and Teams’ admin setting **UseNewTeamsClient** under 
-"TeamsUpdateManagement" policy can be used to control availability of the toggle for users in your organization. You can configure the **UseNewTeamsClient** either via Teams PowerShell or in the Teams admin center.
+To control the toggle availability for your users, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement**  policy. You can this setting using Teams PowerShell or in the Teams admin center.
+
+
+## Configure setting using Teams PowerShell
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
@@ -55,11 +57,7 @@ Configure the UseNewTeamsClient setting to one of the following possible values:
 |:-----|:-----|
 |MicrosoftChoice|Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness.|
 |UserChoice| This value lets the Teams (preview) toggle switch display to all users. Users can choose to opt in or out.|
-|AdminDisabled|This value hides the Teams (preview) toggle switch from view. Users won't be able to opt in to the new Teams.|
-
-## Configure setting using Teams PowerShell
-
-Here are the steps needed to configure this setting in PowerShell.
+|AdminDisabled|This value hides the Teams (preview) toggle switch from view. Users won't be able to opt in to the new Teams.|Here are the steps needed to configure this setting in PowerShell.
 
 1. Import the latest Teams PowerShell cmdlets (require version 4.9.1 or greater) by following [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams) instructions. Direct link: [PowerShell Gallery Microsoft Teams 4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1).
 2. Connect to an admin account using this command:
