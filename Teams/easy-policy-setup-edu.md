@@ -207,7 +207,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||Allow channel meeting scheduling|Off|On|
 |||Allow scheduling private meetings|Off|On|
 |||Allow meeting registration|On|On|
-|||Who can register|Everyone in the organization|Everyone in the organization|
+|||Who can register|People in my organization|People in my organization|
 ||Audio & video|Transcription|On|On|
 |||Meeting recording|Off|On|
 |||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
@@ -222,15 +222,15 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||Whiteboard|On|On|
 |||Shared notes|On|On|
 ||Participants & guests|Anonymous users and dial-in callers can start a meeting|Off|On|
-|||Roles that have presenter rights in meetings|EveryoneUserOverride|EveryoneUserOverride|
-|||Who can bypass the lobby|EveryoneInCompany|EveryoneInCompany|
-|||Allow dial-in users to bypass the lobby|Off|Off|
+|||Roles that have presenter rights in meetings|People in my organization and guests|People in my organization and guests|
+|||Who can bypass the lobby|People in my organization|People in my organization|
+|||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|Off|On|
-|||Live captions|Disabled but user can override|Disabled but user can override|
-|||Chat in meetings|On|On|
+|||Live captions|Off, but organizers and co-organizers can turn them on|Off, but organizers and co-organizers can turn them on|
+|||Meeting chat|On|On|
 |Live events policy||Live events scheduling|Off|Off|
 |||Transcription for attendees|On|On|
-|||Who can join scheduled live events|Everyone in organization|Everyone in organization|
+|||Who can join scheduled live events|People in my organization|People in my organization|
 |||Who can record an event|Always|Always|
 |Messaging policy||Owners can delete sent messages|Off|On|
 |||Delete sent messages|Off|On|
@@ -280,7 +280,7 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Allow channel meeting scheduling|On|On|
 |||Allow scheduling private meetings|On|On|
 |||Allow meeting registration|On|On|
-|||Who can register|Everyone in the organization|Everyone in the organization|
+|||Who can register|People in my organization|People in my organization|
 ||Audio & video|Transcription|On|On|
 |||Meeting recording|On|On|
 |||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
@@ -297,13 +297,13 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 ||Participants & guests|Anonymous users and dial-in callers can start a meeting|On|On|
 |||Roles that have presenter rights in meetings|OrganizerOnlyUserOverride|OrganizerOnlyUserOverride|
 |||Who can bypass the lobby|OrganizerOnly|OrganizerOnly|
-|||Allow dial-in users to bypass the lobby|Off|Off|
+|||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|On|On|
 |||Live captions|Disabled but user can override|Disabled but user can override|
-|||Chat in meetings|On|On|
+|||Meeting chat|On|On|
 |Live events policy||Live events scheduling|On|On|
 |||Transcription for attendees|On|On|
-|||Who can join scheduled live events|Everyone in organization|Everyone in organization|
+|||Who can join scheduled live events|People in my organization|People in my organization|
 |||Who can record an event|Always record|Always record|
 |Messaging policy||Owners can delete sent messages|On|On|
 |||Delete sent messages|On|On|

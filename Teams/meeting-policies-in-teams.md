@@ -435,7 +435,7 @@ These settings control which meeting participants wait in the lobby before they 
 
 - [Anonymous users and dial-in callers can start a meeting](#anonymous-users-and-dial-in-callers-can-start-a-meeting)
 - [Who can bypass the lobby](#who-can-bypass-the-lobby)
-- [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [People dialing in can bypass the lobby](#people-dialing-in-can-bypass-the-lobby)
 - [Allow team members to bypass the lobby](#allow-team-members-to-bypass-the-lobby)
 - [Enable live captions](#enable-live-captions)
 - [Allow chat in meetings](#allow-chat-in-meetings)
@@ -469,7 +469,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 |**Only organizers and co-organizers**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations and anonymous users must wait in the lobby.           |
 |**People in my organization**  |Authenticated users from within the organization, excluding guest users, join the meeting directly without waiting in the lobby. Guests and users from trusted organizations and anonymous users wait in the lobby.|
 
-### Allow dial-in users to bypass the lobby
+### People dialing in can bypass the lobby
 
 This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Who can bypass the lobby** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting.
 
