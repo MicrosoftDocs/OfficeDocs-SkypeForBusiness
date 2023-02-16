@@ -211,7 +211,7 @@ You won’t be notified when someone requests to join a team.</br>You won’t se
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
-||:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join|
+||:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join|
 |:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Breakout rooms|
 |:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Presenter toolbar|
 |:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Whiteboard|
