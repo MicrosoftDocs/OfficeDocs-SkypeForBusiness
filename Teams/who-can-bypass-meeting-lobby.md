@@ -55,10 +55,10 @@ The following table shows the Teams meeting policies that affect how meeting par
 
 The following table shows how each option for the **Who can bypass the lobby** policy affects each *type of meeting participant*.
 
-|Policy value:|Everyone|Everyone in my organization, trusted organizations, and guests|Everyone in my organization and guests|Everyone in my organization|Only people who were invited|Only organizers and co-organizers|
+|Policy value:|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|People who were invited|Only organizers and co-organizers|
 |:--------|:------|:-----|:-----|:------|:-------|:---------------|
 |*Organizer and co-organizers*|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
-|*Everyone in my organization and guests*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
+|*People in my organization and guests*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Guests*|Bypass|Bypass|Bypass|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
@@ -75,7 +75,7 @@ You can configure the settings and policies described above in the Teams admin c
 To set meeting join and lobby policies
 1. In the Teams admin center, expand **Meetings** and then select **Meeting policies**.
 1. Select the policy that you want to update.
-1. In the **Participant & guests** sections, update the settings that you want to change:
+1. In the **Meeting join & lobby** sections, update the settings that you want to change:
    - **Anonymous users can join a meeting**
    - **Anonymous users and dial-in callers can start a meeting**
    - **Who can bypass the lobby** (Who can bypass the lobby)
