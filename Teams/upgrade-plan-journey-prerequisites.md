@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 05/30/2018
 audience: admin
 description: Use this guidance to learn about the prerequisites and the environmental dependencies for deploying Teams in your organization 
 ms.localizationpriority: medium

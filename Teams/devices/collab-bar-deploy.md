@@ -5,6 +5,7 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
+ms.date: 04/21/2020
 ms.topic: quickstart
 ms.service: msteams
 f1.keywords: 

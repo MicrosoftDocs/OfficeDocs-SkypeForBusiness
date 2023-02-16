@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+ms.date: 05/24/2019
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

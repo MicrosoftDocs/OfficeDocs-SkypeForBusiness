@@ -4,6 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 08/24/2020
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 audience: admin
