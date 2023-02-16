@@ -86,7 +86,7 @@ Perform the following steps:
 > 
 > 1. Open the v3.x.x template to clear the error. 
 > 1. Select **File** > **Options & Settings** > **Data source settings**.
-> 1. Select the drop-down for **Clear Permissions**, and then select **Clear All Permissions**.
+> 1. Select the dropdown menu for **Clear Permissions**, and then select **Clear All Permissions**.
 > 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
 
 ## Data latency for auto attendant and call queue analytics
@@ -547,7 +547,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 5. Select **Reset All** in the top right corner.
 6. Select **Save**.
 
-   :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured" lightbox="media/aa-cq-historical-report-postman-02.png:::
+   :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured" lightbox="media/aa-cq-historical-report-postman-02.png":::
 
 7. Select **Collections** on the left hand rail menu.
 8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
