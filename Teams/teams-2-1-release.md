@@ -140,12 +140,6 @@ For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 
-## Before you begin
-
-
-
-
-
 ## What's available in 2.1
 
 Teams (preview) gives you:
@@ -159,15 +153,8 @@ Teams (preview) gives you:
 - Apps (limited), including Microsoft Viva
 - Support for multiple work (or school) accounts (exclusively available in New Teams!)
 
-
-**What is still pending:**
-
-- Calls to and from telephone numbers, also known as the public switched telephone network (PSTN)
-- When a meeting starts, you won’t receive a notification with an option to join
-- Some advanced meeting features, like breakout rooms
-- Slash commands (For example " /chat")
-- You can’t update your notification settings from within the app—you’ll be directed to Windows settings
-- Support for Mac and web browsers
+Teams is still working on adding features including support for Mac and web browsers.  Currently you can't make calls to and from telephone numbers, also known as the public switched telephone network (PSTN).  When a meeting starts, you won’t receive a notification with an option to join
+You can’t update your notification settings from within the app—you’ll be directed to Windows settings
 
 
 ## Chat
