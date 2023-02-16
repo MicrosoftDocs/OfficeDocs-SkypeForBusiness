@@ -197,13 +197,17 @@ At a high level, Teams (preview) gives you:
 
 ## Chat
 
+Most chat features are available, including GIFs and emojis. There are just a few limitations.
+
 |Teams 1.0 |Teams 2.1|Limitations|
-|:-----|:-----|:-----|:-----|
-| ||Can't add tabs to chat|
-||Can't reorder pinned chats|
-||Immersive reader not available
+|:-----|:-----|:-----|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|Can't add tabs to chat</br></br>Can't reorder pinned chats</br></br>Immersive reader not available|
 
 ## Teams and channels
+
+New Teams features a brand-new channel experience that hasn’t been released in Classic Teams yet. You’ll find the latest conversations at the top of your feed (like you do in Viva Engage). You can also pop out channel conversations just like you do with chats, as well as drill down to individual channel conversations. 
+
+Here are the limitations:
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
@@ -211,6 +215,10 @@ At a high level, Teams (preview) gives you:
 
 
 ## Calendar and meetings
+
+You can schedule and join meetings in Teams (preview) with basic functionality and experience the better performance of Teams (preview). If you need more advanced meeting features, use Classic Teams for the time being. ​​​​​​​
+
+On days when you have a lot of meetings, you may want to use Classic Teams to make sure you get meeting-start notifications.
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
