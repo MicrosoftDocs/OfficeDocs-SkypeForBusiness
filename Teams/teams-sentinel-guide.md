@@ -57,7 +57,7 @@ Microsoft Sentinel provides a built-in connector for Office 365 logs, which enab
  
 In Microsoft Sentinel, enable the Office 365 data connector. For more information, see the [Microsoft Sentinel documentation](/azure/sentinel/connect-office-365).
 
-In this example query you will verify that the connector are sending in data into Log Analytics and Microsoft Sentinel
+In the following example query, you will verify that the connector is sending in data into Log Analytics and Microsoft Sentinel:
 
 ```Kusto
 OfficeActivity
