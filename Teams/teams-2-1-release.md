@@ -229,7 +229,7 @@ At a high level, Teams (preview) gives you:
 
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|-You won't get notifications from any apps in your Activity feed.</br></br>-“Pop out app” is not yet available.</br></br>You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps will not display content in meeting window. For apps like Polls please use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|You won't get notifications from any apps in your Activity feed.</br></br>“Pop out app” is not yet available.</br></br>You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps will not display content in meeting window. For apps like Polls please use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
 
 ## Multi-Tenant Multi-Account
