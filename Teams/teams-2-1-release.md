@@ -144,16 +144,92 @@ For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 
+## Before you begin
+
+PSTN:   If your work includes any of the below activities, use Teams v1 until traditional phone services are available in Teams Preview:
+•	Call Queues
+•	Auto Attendants
+•	Critical Functions: Data Centers - Security Operations Center (SOC)/Security Operations Center (SOC), Site Services, Logistics
+•	CRITSIT support to external customers/ partners
+•	Customer-facing rolesCalls
+You can make Teams-to-Teams internet-based calls through Chat.
+
+Traditional phone service (calls to and from telephone numbers) is not available. This includes emergency calls (i.e. 911 in North America, or 112 in India and parts of Europe.)
+
+The Calls icon is not visible on the left rail and the dial pad is not available. Missed calls will show up in your Activity feed, but the callback button will not be available if the call is from a telephone number.  
+Live captions and transcriptions are available for Teams-to-Teams calls.
+Known issues
+
+Increased power usage during calls may cause CPU throttling and negatively impact performance.
+Please be aware:
+Calls, to and from phone numbers, including emergency calls, are NOT available on Teams Preview.  
+
+
+
+## What's available in 2.1
+
+At a high level, Teams (preview) gives you:
+
+- Activity feed (except app notifications)
+- Chat
+- Teams and channels (limited)
+- Calendar and meetings (limited)
+- Teams-to-Teams calls
+- Files
+- Apps (limited), including Microsoft Viva
+- Support for multiple work (or school) accounts (exclusively available in New Teams!)
+
+
+**What is still pending:**
+
+- Calls to and from telephone numbers, also known as the public switched telephone network (PSTN)
+- When a meeting starts, you won’t receive a notification with an option to join
+- Some advanced meeting features, like breakout rooms
+- Slash commands (For example " /chat")
+- You can’t update your notification settings from within the app—you’ll be directed to Windows settings
+- Support for Mac and web browsers
+
 
 ## Feature parity
 
-|Feature|Teams 1.0 | Teams 2.1|
-|:-----|:-----|:-----|
+
+
+|Feature|Teams 1.0 | Teams 2.1|Limitations|
+|:-----|:-----|:-----|:-----|
 |***Chat***|
-|||Can't add tabs to chat|
-|||Can't reorder pinned chats|
-|||Immersive reader not available
+||X |X|Can't add tabs to chat|
+||||Can't reorder pinned chats|
+||||Immersive reader not available
 |***Teams and channels***|
 |||new channel experience|
 |||Pop out channels
 |||
+|***Calendar and meetings***|
+||||When a meeting starts, you won’t receive a notification with an option to join|
+|||Breakout rooms|
+|||Presenter toolbar|
+|||Whiteboard|
+|||Live Events|
+|||“Present in Teams” feature in PowerPoint|
+|||As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.|
+|||New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you cannot add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. |
+|||Meeting start notification won't appear when a meeting starts with an option to join|
+|||When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.|
+|||Some meeting details won’t show up in New Teams.|
+|||When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”|
+|||For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.|
+|***Calls***|
+|||PSTN NOT SUPPORTED YET|
+|***Apps, including Microsoft Viva***|
+|||You won't get notifications from any apps in your Activity feed.|
+|||“Pop out app” is not yet available.|
+|||You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.|
+|||Apps will not display content in meeting window. For apps like Polls please use meeting chat to respond to poll.|
+|||You may notice some small differences in the user interface (UI).|
+|||The App Store is currently not available.|
+|***Multi-Tenant Multi-Account***|
+||No|Multi-Tenant Multi-Account (MTMA) support|
+|||Receive real-time notifications from all the accounts you’re signed into.|
+|||Participate in chats, meetings, and calls across multiple accounts and organizations. There’s no need to drop from a call or meeting to switch accounts—you can do it seamlessly.|  
+|||Set your presence and status for each account and organization individually.|
+|||Intuitive visual indicators help differentiate between your different accounts and organizations, so you’re aware of which one you’re working in.|
