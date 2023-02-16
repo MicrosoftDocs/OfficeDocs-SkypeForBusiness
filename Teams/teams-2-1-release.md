@@ -173,7 +173,7 @@ Increased power usage during calls may cause CPU throttling and negatively impac
 
 ## What's available in 2.1
 
-At a high level, Teams (preview) gives you:
+Teams (preview) gives you:
 
 - Activity feed (except app notifications)
 - Chat
