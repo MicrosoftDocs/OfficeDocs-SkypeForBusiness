@@ -190,46 +190,66 @@ At a high level, Teams (preview) gives you:
 - Support for Mac and web browsers
 
 
-## Feature parity
+## Chat
 
-
-
-|Feature|Teams 1.0 | Teams 2.1|Limitations|
+|Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|:-----|
-|***Chat***|
-||X |X|Can't add tabs to chat|
-||||Can't reorder pinned chats|
-||||Immersive reader not available
-|***Teams and channels***|
-|||new channel experience|
+| ||Can't add tabs to chat|
+||Can't reorder pinned chats|
+||Immersive reader not available
+
+## Teams and channels
+
+|Teams 1.0 |Teams 2.1|Limitations|
+|:-----|:-----|:-----|:-----|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|new channel experience|
 |||Pop out channels
-|||
-|***Calendar and meetings***|
-||||When a meeting starts, you won’t receive a notification with an option to join|
-|||Breakout rooms|
-|||Presenter toolbar|
-|||Whiteboard|
-|||Live Events|
-|||“Present in Teams” feature in PowerPoint|
-|||As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.|
-|||New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you cannot add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. |
-|||Meeting start notification won't appear when a meeting starts with an option to join|
-|||When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.|
-|||Some meeting details won’t show up in New Teams.|
-|||When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”|
-|||For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.|
-|***Calls***|
-|||PSTN NOT SUPPORTED YET|
-|***Apps, including Microsoft Viva***|
-|||You won't get notifications from any apps in your Activity feed.|
-|||“Pop out app” is not yet available.|
-|||You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.|
-|||Apps will not display content in meeting window. For apps like Polls please use meeting chat to respond to poll.|
-|||You may notice some small differences in the user interface (UI).|
-|||The App Store is currently not available.|
-|***Multi-Tenant Multi-Account***|
-||No|Multi-Tenant Multi-Account (MTMA) support|
-|||Receive real-time notifications from all the accounts you’re signed into.|
-|||Participate in chats, meetings, and calls across multiple accounts and organizations. There’s no need to drop from a call or meeting to switch accounts—you can do it seamlessly.|  
-|||Set your presence and status for each account and organization individually.|
-|||Intuitive visual indicators help differentiate between your different accounts and organizations, so you’re aware of which one you’re working in.|
+
+
+## Calendar and meetings
+
+|Teams 1.0 |Teams 2.1|Limitations|
+|:-----|:-----|:-----|:-----|
+||:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Breakout rooms|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Presenter toolbar|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Whiteboard|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Live Events|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|“Present in Teams” feature in PowerPoint|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you cannot add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. |
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Meeting start notification won't appear when a meeting starts with an option to join|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Some meeting details won’t show up in New Teams.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.|
+
+
+## Calls
+
+|Teams 1.0 |Teams 2.1|Limitations|
+|:-----|:-----|:-----|:-----|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|PSTN NOT SUPPORTED YET|
+
+
+## Apps, including Microsoft Viva
+
+
+|Teams 1.0 |Teams 2.1|Limitations|
+|:-----|:-----|:-----|:-----|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|You won't get notifications from any apps in your Activity feed.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|“Pop out app” is not yet available.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|Apps will not display content in meeting window. For apps like Polls please use meeting chat to respond to poll.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|You may notice some small differences in the user interface (UI).|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::|The App Store is currently not available.|
+
+## Multi-Tenant Multi-Account
+
+|Teams 1.0 |Teams 2.1|Limitations|
+|:-----|:-----|:-----|:-----|
+||:::image type="icon" source="media/green-checkmark.png" border="false":::|No|Multi-Tenant Multi-Account (MTMA) support|
+||:::image type="icon" source="media/green-checkmark.png" border="false":::|Receive real-time notifications from all the accounts you’re signed into.|
+||:::image type="icon" source="media/green-checkmark.png" border="false":::|Participate in chats, meetings, and calls across multiple accounts and organizations. There’s no need to drop from a call or meeting to switch accounts—you can do it seamlessly.|  
+||:::image type="icon" source="media/green-checkmark.png" border="false":::|Set your presence and status for each account and organization individually.|
+||:::image type="icon" source="media/green-checkmark.png" border="false":::|Intuitive visual indicators help differentiate between your different accounts and organizations, so you’re aware of which one you’re working in.|
