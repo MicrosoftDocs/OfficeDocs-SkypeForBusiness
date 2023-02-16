@@ -318,13 +318,13 @@ The following steps assume you've already completed the installation steps.
 
 Perform the following steps:
 
-   1. Select **View tab** on the ribbon.
+1. Select **View tab** on the ribbon.
 
-     :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
+   :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
 
-   2. Select the color schema from the drop-down list.
+2. Select the color schema from the drop-down list.
 
-     :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
+   :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
 ## Dimensions and measurements
 
