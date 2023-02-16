@@ -536,7 +536,7 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 1. Download [Postman](https://www.postman.com/).
 1. Import the folder `postman` in the [downloaded zip file](#v3xx-installation) instructions into Postman. 
 
-:::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
+:::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed" lightbox="media/aa-cq-historical-report-postman-01.png":::
 
 ### Accessing VAAC using Postman
 
@@ -547,22 +547,22 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 5. Select **Reset All** in the top right corner.
 6. Select **Save**.
 
-:::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
+   :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured" lightbox="media/aa-cq-historical-report-postman-02.png:::
 
 7. Select **Collections** on the left hand rail menu.
 8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
 9. Select **Send**.
 
-An access token will be returned.
+   An access token will be returned.
 
-:::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned":::
+   :::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned" lightbox="media/aa-cq-historical-report-postman-03.png":::
 
-If an access token isn't returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
+   If an access token isn't returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
 10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
-- [Compress](#compress-the-json-query) the query as outlined below
-- [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
+   - [Compress](#compress-the-json-query) the query as outlined below
+   - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
 
 11. Fill in your [query](#constructing-a-valid-query) string.
 12. Select **Send**.
@@ -574,9 +574,9 @@ After you submit your input, there will be a couple of possible results:
 - If the input is invalid, an error message with the actual reason will be returned
 - If the input is valid, the result will look like this:
 
-:::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field":::
+   :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field" lightbox="media/aa-cq-historical-report-postman-04.png" :::
 
-In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
+   In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
 
 ### Compress the JSON query
 
