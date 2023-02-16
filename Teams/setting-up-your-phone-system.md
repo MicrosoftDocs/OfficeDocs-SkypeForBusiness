@@ -39,7 +39,7 @@ To enable your users to make and receive external calls, you'll also need to con
 If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization. 
 
 
-This article describes the following steps:
+This article describes the following steps. Each step contains links to more detailed information.
  
 - [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
@@ -51,7 +51,7 @@ This article describes the following steps:
 - [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
 
-Links to more detailed information are available at the end of each step.
+
 
 ## Step 1: Buy and assign a Phone System license
 
