@@ -169,6 +169,8 @@ Most chat features are available, including GIFs and emojis. There are just a fe
 
 New Teams features a brand-new channel experience that hasn’t been released in Classic Teams yet. You’ll find the latest conversations at the top of your feed (like you do in Viva Engage). You can also pop out channel conversations just like you do with chats, as well as drill down to individual channel conversations. 
 
+When you need some of the more advanced functionality, switch back to Classic Teams.
+
 Here are the limitations:
 
 |Teams 1.0 |Teams 2.1|Limitations|
@@ -212,7 +214,7 @@ The Calls icon is not visible on the left rail and the dial pad is not available
 
 ## Apps, including Microsoft Viva
 
-The following apps are available in Teams (preview). 
+The following apps are available in Teams (preview). If you need to use an app that’s not on this list, switch back to Classic Teams.
 
 >[!Note]
 >You must install the apps in Classic Teams first.
