@@ -9,7 +9,7 @@ ms.reviewer: jastark
 ms.date: 04/12/2019
 audience: admin
 search.appverid: MET150
-description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, as well as various calling policy settings.
+description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, and various calling policy settings.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
@@ -23,7 +23,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Calling policies in Microsoft Teams
+# Calling policies in Teams
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
 
@@ -80,7 +80,7 @@ This setting controls whether incoming calls can be forwarded to an external num
 This setting enables inbound calls to be sent to voicemail. The default setting is **User controlled**. Valid options are:
 
 - **Enabled** Voicemail is always available for inbound calls.
-- **Not enabled**  Voicemail is not available for inbound calls.
+- **Not enabled**  Voicemail isn't available for inbound calls.
 - **User controlled** Users can determine whether they want voicemail to be available.
 
 ### Inbound calls can be routed to call groups
@@ -93,7 +93,7 @@ This setting enables inbound calls to be routed to delegates, allowing delegates
 
 ### Prevent toll bypass and send calls through the PSTN
 
-Turning on this setting will send calls through the Public Switched Telephone Network (PSTN)and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
+Turning on this setting sends calls through the Public Switched Telephone Network (PSTN) and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
 
 ### Music on hold for PSTN calls
 
@@ -101,12 +101,12 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ### Busy on busy when in a call
 
-Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
+Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold aren't prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
 
 - **Not enabled** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
 - **Enabled** New or incoming calls will be rejected with a busy signal.
 - **Unanswered** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
-- **User controlled** This option is not currently functional; if set, this will be read as setting the value to **Not enabled**.
+- **User controlled** This option isn't currently functional; if set, this will be read as setting the value to **Not enabled**.
 
 ### Web PSTN calling
 
@@ -128,7 +128,7 @@ This setting enables users to use a SIP device to make and receive calls. This s
 
 This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This can be used to pass the phone number of an inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
 
-If turned on, a link to the app will need to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This will simply launch the listed URL.
+If turned on, a link to the app needs to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This will simply launch the listed URL.
 
 ![Screenshot of Open apps in browser for incoming PSTN calls policy setting.](media/teams-open-apps-in-browser-pstn.png)
 
