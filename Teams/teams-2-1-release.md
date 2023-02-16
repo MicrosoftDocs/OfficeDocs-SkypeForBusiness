@@ -227,6 +227,15 @@ On days when you have a lot of meetings, you may want to use Classic Teams to ma
 
 ## Calls
 
+>[!Important]
+>Calls, to and from phone numbers, including emergency calls, are NOT available in New Teams.
+>​If your work includes any of the following activities, use Classic Teams until traditional phone services are available:
+> - Call Queues
+>- Auto Attendants
+>- Critical Functions: Data Centers - Security Operations Center (SOC)/Security >Operations Center (SOC), Site Services, Logistics
+>- CRITSIT support to external customers/ partners
+>- Customer-facing roles
+
 |Teams 1.0 |Teams 2.1|Limitations|
 |:-----|:-----|:-----|
 |:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/red-checkmark-teams.png" border="false":::|PSTN NOT SUPPORTED YET|
