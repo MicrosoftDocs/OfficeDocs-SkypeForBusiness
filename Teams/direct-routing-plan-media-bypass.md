@@ -147,7 +147,10 @@ The table below summarizes the difference between Media Processors and Transport
 
 The IP ranges are:
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
-- 52.122.0.0/15 (IP addresses from 52.122.0.1 to 52.123.255.254)
+- 52.122.0.0/14 (IP addresses from 52.122.0.1 to 52.123.255.254)
+
+> [!NOTE]
+> IP ranges presented in this document are specific to Direct Routing and may differ from the ones advised for Teams client.
 
 \* Transcoding explanation: 
 
@@ -196,7 +199,7 @@ You must place these three FQDNs in order to:
 
 The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **sip3.pstnhub.microsoft.com** will be resolved to IP addresses from the following subnets:
 - 52.112.0.0/14
-- 52.122.0.0/15
+- 52.122.0.0/14
 
 You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
