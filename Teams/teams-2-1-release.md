@@ -22,7 +22,18 @@ ms.localizationpriority: high
 
 # Microsoft Teams 2.1 Public Preview
 
-Microsoft Teams (preview) is the new version of Microsoft Teams desktop client and currently available for Windows non-EDU desktop users only.
+We’re excited to announce Microsoft Teams (preview), the new version of Microsoft Teams desktop client.  
+
+The Teams app has being rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.
+
+What can you expect?
+
+- Better performance—the goal is 2x faster than "Classic Teams"
+- Lower CPU, memory usage, and disk space consumption
+- Your device will consume less battery
+- More reliable all-around​​​​​​​
+- Multi-account support allows you to collaborate seamlessly across accounts and tenants 
+
 
 >[!Note]
 >Teams (preview) is currently not available for EDU, VDI, PSTN enabled, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
