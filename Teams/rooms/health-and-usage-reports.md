@@ -25,13 +25,11 @@ The reporting node contains data for the health and usage of your Microsoft Team
 
 ## Export tickets
 
-A new export ticket history feature enables you to export all incident ticket history information to use for deeper reporting and analysis.  
+A new export ticket history feature lets you export all incident ticket history information for reporting and analysis. To access this feature, go **Reports** > **Overview** > **Export ticket**.
 
-To view the export ticket button, navigate to **Reports** > **Overview** > **Export ticket**.
+Under the Overview report, the **Export tickets** button provides ticket history details, which includes the following fields: creation date, device name, incident type, ticket state, ticket, last update, history, last resolved date, message/notes conversations, closure summary, closed by, and last closed date. 
 
-Under the Overview report, the **export tickets** button provides details about the ticket history, which includes the following fields: creation date, device name, incident type, ticket state, ticket, last update, history, last resolved date, message/notes conversations, closure summary, closed by and last closed date. 
-
-The data is generated in a JSON file that can be downloaded and imported into Power BI for use. When you select **export tickets**, the download will start. If you leave the portal before the download starts, you will have to request the file again. 
+The data is generated in a JSON file that you can downloaded and import into Power BI. The download starts after you select **Export tickets**. If you leave the portal before the download starts, you will have to request the file again. 
 
 |Column |Description   |
 |----------|-----------|
@@ -45,7 +43,7 @@ The data is generated in a JSON file that can be downloaded and imported into Po
 |History |Detailed history of the ticket status overtime |
 |SnowIncident |SNOW incident number in "INC11684776" format |
 |LastResolved |Date and time when the ticket was last resolved  |
-|Conversation |All conversations/texts about the ticket with the exact time/date and the user |
+|Conversation |All conversations/texts about the ticket with the exact time/date and user |
 |Closure Summary/Reason |The reason for ticket resolution (for example, self resolved) |
 |Closure Summary/Closed By |Who is responsible for closing the ticket (for example, Managed Room Services |
 |LastClosed |The date/time the ticket was closed |
