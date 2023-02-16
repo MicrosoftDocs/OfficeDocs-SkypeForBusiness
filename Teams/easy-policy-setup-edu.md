@@ -202,14 +202,14 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||Create shared channels|On|On|
 |||Share channel with external participants|On|On|
 |||Participate in an external shared channel|On|On|
-|Meetings policy|General|Allow Meet now in channels|Off|On|
+|Meetings policy|General|Allow Meet now in channel meetings|Off|On|
 |||Allow the Outlook add-in|Off|On|
 |||Allow channel meeting scheduling|Off|On|
 |||Allow scheduling private meetings|Off|On|
 |||Allow meeting registration|On|On|
 |||Who can register|Everyone in the organization|Everyone in the organization|
 ||Audio & video|Transcription|On|On|
-|||Cloud recording|Off|On|
+|||Meeting recording|Off|On|
 |||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
 |||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
 |||IP video|On|On|
@@ -221,9 +221,9 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||PowerPoint sharing|On|On|
 |||Whiteboard|On|On|
 |||Shared notes|On|On|
-||Participants & guests|Let anonymous people start a meeting|Off|On|
+||Participants & guests|Anonymous users and dial-in callers can start a meeting|Off|On|
 |||Roles that have presenter rights in meetings|EveryoneUserOverride|EveryoneUserOverride|
-|||Automatically admit people|EveryoneInCompany|EveryoneInCompany|
+|||Who can bypass the lobby|EveryoneInCompany|EveryoneInCompany|
 |||Allow dial-in users to bypass the lobby|Off|Off|
 |||Meet now in private meetings|Off|On|
 |||Live captions|Disabled but user can override|Disabled but user can override|
@@ -275,14 +275,14 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Create shared channels|On|On|
 |||Share channel with external participants|On|On|
 |||Participate in an external shared channel|On|On|
-|Meetings policy|General|Allow Meet now in channels|On|On|
+|Meetings policy|General|Allow Meet now in channel meetings|On|On|
 |||Allow the Outlook add-in|On|On|
 |||Allow channel meeting scheduling|On|On|
 |||Allow scheduling private meetings|On|On|
 |||Allow meeting registration|On|On|
 |||Who can register|Everyone in the organization|Everyone in the organization|
 ||Audio & video|Transcription|On|On|
-|||Cloud recording|On|On|
+|||Meeting recording|On|On|
 |||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
 |||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
 |||IP video|On|On|
@@ -294,9 +294,9 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||PowerPoint sharing|On|On|
 |||Whiteboard|On|On|
 |||Shared notes|On|On|
-||Participants & guests|Let anonymous people start a meeting|On|On|
+||Participants & guests|Anonymous users and dial-in callers can start a meeting|On|On|
 |||Roles that have presenter rights in meetings|OrganizerOnlyUserOverride|OrganizerOnlyUserOverride|
-|||Automatically admit people|OrganizerOnly|OrganizerOnly|
+|||Who can bypass the lobby|OrganizerOnly|OrganizerOnly|
 |||Allow dial-in users to bypass the lobby|Off|Off|
 |||Meet now in private meetings|On|On|
 |||Live captions|Disabled but user can override|Disabled but user can override|

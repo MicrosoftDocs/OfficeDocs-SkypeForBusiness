@@ -101,12 +101,12 @@ For more information, see [Manage chat for sensitive Teams meetings](manage-chat
 
 As an admin, you can control meeting recordings in the following ways:
 
-- The **Cloud recording** admin meeting policy (per user or group)
-- The **Meetings automatically expire** (recording deletion) admin meeting policy (per user or group)
+- The **Meeting recording** admin meeting policy (per user or group)
+- The **Recordings automatically expire** (recording deletion) admin meeting policy (per user or group)
 - The **Who can record** setting in sensitivity labels and meeting templates (per meeting)
 - The **Record automatically** setting in sensitivity labels and meeting templates (per meeting)
 
-If your organization or certain people or groups within it should never be able to record meetings, you can turn off the feature by using the **Cloud recording** admin meeting policy.
+If your organization or certain people or groups within it should never be able to record meetings, you can turn off the feature by using the **Meeting recording** admin meeting policy.
 
 If there are certain types of meetings that must always be recorded, you can enforce the **Record automatically** setting using either a meeting template or a sensitivity label.
 
@@ -140,8 +140,8 @@ For the baseline tier, we allow everyone except anonymous attendees to bypass th
 
 As an admin, you can control the lobby in the following ways:
 
-- The **Automatically admit people** admin meeting policy (per user or group)
-- The **Dial-in users can bypass the lobby** admin meeting policy (per user or group)
+- The **Who can bypass the lobby** admin meeting policy (per user or group)
+- The **People dialing in can bypass the lobby** admin meeting policy (per user or group)
 - The **Who can bypass the lobby** setting in sensitivity labels and meeting templates (per meeting)
 - The **People dialing in can bypass the lobby** admin meeting policy (per user or group) or in sensitivity labels and meeting templates (per meeting)
 
