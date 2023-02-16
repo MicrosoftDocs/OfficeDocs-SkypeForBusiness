@@ -31,7 +31,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 >[!NOTE]
 > GCC High and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
 
-This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
+This Power BI template provides three reports that allow organizations to report on the number of calls processed by auto attendants and call queues.  It also provides agent performance insights.
 
 ## V3.0.7 published on February 16, 2023
 
@@ -77,7 +77,7 @@ Perform the following steps:
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.0.0.":::
 
 6. Select **Connect**, and the data will refresh.
 
@@ -86,7 +86,7 @@ Perform the following steps:
 > 
 > 1. Open the v3.x.x template to clear the error. 
 > 1. Select **File** > **Options & Settings** > **Data source settings**.
-> 1. Select the drop down for **Clear Permissions**, and then select **Clear All Permissions**.
+> 1. Select the drop-down for **Clear Permissions**, and then select **Clear All Permissions**.
 > 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
 
 ## Data latency for auto attendant and call queue analytics
@@ -540,24 +540,24 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 
 ### Accessing VAAC using Postman
 
-1. Select **VAAC - msit** on the top right ***No Environment*** drop down.
+1. Select **VAAC - msit** on the top right ***No Environment*** drop-down.
 2. Select **Environments** on the left hand rail menu.
 3. Select **VAAC - msit** under **Globals**.
 4. Replace **userName**, **password** and **tenantId** with the applicable credentials.
-5. Click **Reset All** in the top right corner.
-6. Click **Save**.
+5. Select **Reset All** in the top right corner.
+6. Select **Save**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
 
 7. Select **Collections** on the left hand rail menu.
 8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
-9. Click **Send**.
+9. Select **Send**.
 
 An access token will be returned.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned":::
 
-If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
+If an access token isn't returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
 10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
@@ -565,7 +565,7 @@ If an access token is not returned, check your credentials to make they have [su
 - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
 
 11. Fill in your [query](#constructing-a-valid-query) string.
-12. Click **Send**.
+12. Select **Send**.
 
 ### Reading the result
 
@@ -650,7 +650,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes was greater than 9  |
+|3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9  |
 |3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
 |3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
