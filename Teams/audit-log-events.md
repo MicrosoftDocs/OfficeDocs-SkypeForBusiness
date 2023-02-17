@@ -188,7 +188,7 @@ If your organization is using the Updates app in Teams, you can search the audit
 |Friendly name|Operation|Description|
 |---|---|---|
 |Create an update request|CreateUpdateRequest|A user successfully creates an update request.|
-|Edite an update request|EditUpdateRequest|A user opens the request editing wizard and selects **Save** to confirm and save any changes or enable or disable the update request directly.|
+|Edit an update request|EditUpdateRequest|A user opens the request editing wizard and selects **Save** to confirm and save any changes or enable or disable the update request directly.|
 |Submit an update|SubmitUpdate|A user successfully submits an update.|
 |View the details of one update|ViewUpdate|A user views the details of the update.|
 
