@@ -42,10 +42,12 @@ Alternatively, the [PowerShell cmdlets](./manage-voice-applications-policies.md#
 ## Create a custom voice applications policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice applications policies**.
-2. Click **Add**. <br>
-![Screenshot of new voice applications policy page in the admin center.](media/voiceapplications-policies-add-policy.png)
-3. Enter a name and description for the policy.
-4. From here, choose the settings that you want:
+1. Click **Add**.
+
+:::image type="content" source="media/voiceapplications-policies-add-policy.png" alt-text="Screenshot of voice applications policy page in teams admin center.":::
+
+1. Enter a name and description for the policy.
+1. From here, choose the settings that you want:
 
 
 > [!NOTE]
@@ -84,7 +86,6 @@ You can edit the global policy or any custom policies that you create.
     - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the Business Hours Greeting on the auto attendants they're authorized for.
     - **After Hours Greeting**: Turn on this setting to allow authorized users to change the After Hours Greeting on the auto attendants they're authorized for.
     - **Holiday Greeting**: Turn on this setting to allow authorized users to change the Holiday Greeting on the auto attendants they're authorized for.
-       - Testing another sub level?
 
 - Call Queue
     - **Welcome greeting**: Turn on this setting to allow users to change the Welcome greeting on the call queues they're authorized for.
