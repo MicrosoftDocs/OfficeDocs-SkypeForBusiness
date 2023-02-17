@@ -21,7 +21,7 @@ description: Learn about authorized users and what they can do
 ---
 
 # Authorized Users
-An authorized user is a Teams user who has been authorized by an Teams Admin Center administrator to make configuration changes to auto attendants and call queues.  The user doesn't need to have access to the Teams Admin Center portal nor be assigned any administrative roles.
+An authorized user is a Teams user who has been authorized by a Teams Admin Center administrator to make configuration changes to auto attendants and call queues.  The user doesn't need to have access to the Teams Admin Center portal nor be assigned any administrative roles.
 
 The Teams user accesses these configuration items through their Teams client desktop.
 
@@ -41,12 +41,13 @@ There are two configuration steps required in order to configure an authorized u
 User 1 needs to be able to change auto attendant business hours greetings and call queue timeout shared voicemail greetings for AA1 and CQ1.
 User 2 needs to be able to change auto attendant after hours greetings for AA1.
 
-1. Create a Teams Voice Appplications Policy that enables the Auto Attendant **Business Hours Greeting** and the Call Queue **Timeout shared voicemail greeting**
+1. Create a Teams Voice Applications Policy that enables the Auto Attendant **Business Hours Greeting** and the Call Queue **Timeout shared voicemail greeting**
 
- :::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot of voice applications policy that enables auto attendant business hours greetings and call queue timeout shared voicemail greetings changes.":::
+ :::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot":::
+ :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
 
 1. Assisgn this policy to User 1.
-1. Create another Teams Voice Appplications Policy that enables the Auto Attendant **After Hours Greeting**
+1. Create another Teams Voice Applications Policy that enables the Auto Attendant **After Hours Greeting**
 
  :::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy that enables auto attendant after hours greeting changes.":::
 
