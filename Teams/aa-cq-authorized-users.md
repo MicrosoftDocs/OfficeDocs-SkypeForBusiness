@@ -21,7 +21,7 @@ description: Learn about authorized users and what they can do
 ---
 
 # Authorized Users
-An authorized user is a Teams user who has been authorized by an Teams Admin Center administrator to make configuration changes to auto attendants and call queues.  The user does not need to have access to the Teams Admin Center portal nor do they need to be assigned any administrative roles.
+An authorized user is a Teams user who has been authorized by an Teams Admin Center administrator to make configuration changes to auto attendants and call queues.  The user doesn't need to have access to the Teams Admin Center portal nor be assigned any administrative roles.
 
 The Teams user accesses these configuration items through their Teams client desktop.
 
