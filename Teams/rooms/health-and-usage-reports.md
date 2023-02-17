@@ -21,13 +21,13 @@ f1keywords:
 ---
 # Health and usage reports
 
-The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
+The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** tab surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on calendar information and call quality data is visible under the **Usage** tab.
 
 ## Export tickets
 
-A new export Ticket history feature has been created that will allow you to export all active and closed ticket history information within a select date range. This export will give you the ability to easily access and analyze your ticket history data for better decision making.  
+The ticket export feature lets you export all active and closed ticket history information within a select date range. Exporting tickets lets you easily access and analyze your ticket history data for better decision making.  
 
-Under the Overview report, the **Export tickets** button provides ticket history details, which includes the following fields: creation date, device name, incident type, ticket state, ticket, last update, history, last resolved date, message/notes conversations, closure summary, closed by, and last closed date. 
+Under the **Overview** report, the **Export tickets** button provides ticket history details, which includes the following fields: creation date, device name, incident type, ticket state, ticket, last update, history, last resolved date, message/notes conversations, closure summary, closed by, and last closed date. 
 
 The data is generated in a JSON file that you can downloaded and import into Power BI. The download starts after you select **Export tickets**. If you leave the portal before the download starts, you'll have to request the file again. 
 
