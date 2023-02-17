@@ -43,19 +43,19 @@ User 2 needs to be able to change auto attendant after hours greetings for AA1.
 
 1. Create a Teams Voice Appplications Policy that enables the Auto Attendant **Business Hours Greeting** and the Call Queue **Timeout shared voicemail greeting**
 
-:::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot of voice applications policy that enables auto attendant business hours greetings and call queue timeout shared voicemail greetings changes.":::
+ :::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot of voice applications policy that enables auto attendant business hours greetings and call queue timeout shared voicemail greetings changes.":::
 
 1. Assisgn this policy to User 1.
 1. Create another Teams Voice Appplications Policy that enables the Auto Attendant **After Hours Greeting**
 
-:::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy that enables auto attendant after hours greeting changes.":::
+ :::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy that enables auto attendant after hours greeting changes.":::
 
 1. Assign this policy to User 2.
 
 1. Assign both User 1 and User 2 as Authorized Users for AA1
 1. Assign User 1 as an Authorized User for CQ1
 
-Both User 1 and User 2 are now fully authorized users and will have new configuration options available to them in their Teams desktop client.  Please see [Teams Client User Guide](link is tbd).
+Both User 1 and User 2 are now fully authorized users and will have new configuration options available to them in their Teams desktop client.  See [Teams Client User Guide](link is tbd).
 
 
 ## Related articles
