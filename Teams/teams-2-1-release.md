@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 We’re excited to announce Microsoft Teams (preview), the new version of Microsoft Teams desktop client.  
 
-The Teams app has being rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.
+The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.
 
 What can you expect?
 
