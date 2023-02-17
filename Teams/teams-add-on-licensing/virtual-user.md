@@ -4,11 +4,13 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
+ms.date: 07/11/2019
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

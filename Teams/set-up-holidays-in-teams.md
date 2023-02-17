@@ -4,12 +4,14 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 03/08/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

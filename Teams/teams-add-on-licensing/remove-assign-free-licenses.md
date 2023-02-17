@@ -4,12 +4,14 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: alyake
+ms.date: 01/04/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
   - m365initiative-meetings
+  - tier1
 audience: Admin
 appliesto:
   - Microsoft Teams

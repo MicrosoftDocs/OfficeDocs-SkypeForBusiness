@@ -41,11 +41,14 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 3. Give your policy a unique title and enter a brief description.
 
-4. Under **Content sharing**, choose a **Screen sharing mode** from the drop-down list:
-
-   - **Entire screen** – lets users share their entire desktop.
-   - **Single application** – lets users limit screen sharing to a single active application.
-   - **Disabled** – Turns off screen sharing.
+4. Under **Content sharing**, choose the following options:
+ 
+    - **Who can present** – Select **Present** from the dropdown list.
+    - **Screen sharing mode** - Select **Entire screen** from the dropdown list.
+    - **External participants can give or request control** - Select **On** from the dropdown list.
+    - **PowerPoint Live** - Select **On** from the dropdown list.
+    - **Whiteboard** - Select **On** the dropdown list.
+    - **Shared notes** - Select **On** from the dropdown list.
 
     ![The sharing mode options.](media/configure-desktop-sharing-image3.png)
 

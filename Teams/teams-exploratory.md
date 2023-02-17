@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: reference
 audience: Admin
 ms.reviewer: baluc
+ms.date: 12/04/2019
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - tier1
 appliesto: 
   - Microsoft Teams
 ---

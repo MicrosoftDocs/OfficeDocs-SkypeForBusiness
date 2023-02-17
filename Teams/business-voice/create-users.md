@@ -3,6 +3,7 @@ title: Create Microsoft 365 users, add Teams Phone with Calling Plan bundle lice
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 07/24/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier1
 ---
 
 # Create and license Teams Phone System with Calling Plan bundle users and assign them phone numbers

@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith, lakuan
+ms.date: 03/03/2020
 description: Remote learning startup guidance for Microsoft Teams for EDU.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---
@@ -92,7 +94,7 @@ Teams policies control the capabilities available for specific users or groups. 
 > [!IMPORTANT]
 > For meeting policies assigned to any users, we recommend setting the **Automatically admit people** setting to **Everyone in your organization**. This will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings.
 >
-> For more information, see [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
+> For more information, see [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
 # [Class teams](#tab/class-teams)
 

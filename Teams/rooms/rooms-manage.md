@@ -3,6 +3,7 @@ title: Manage Microsoft Teams Rooms
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -119,7 +120,7 @@ Front row is meeting view layout option for Teams Rooms on Windows.
 
 See [Microsoft Teams Rooms maintenance and operations](rooms-operations.md#scale-and-resolution), to adjust your display settings to meet Front row's requirements.
 
-To learn how to set Front row as the default layout for a room, or how to turn it off, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-front-row-as-the-default-layout).
+To learn how to set Front row as the default layout for a room, or how to turn it off, see [Remotely configure front row on Teams Rooms](manage-front-row.md).
 
 See [Known issues](known-issues.md#Limits) for more information on managing Front row.
 

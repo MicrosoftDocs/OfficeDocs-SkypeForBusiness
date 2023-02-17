@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -373,6 +374,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Mic Glitch Rate|Number |Average glitches per 5 minutes for the microphone capture of the second endpoint. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information. ||
 | First Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the first loudspeaker rendering.| |
 | Second Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the second loudspeaker rendering.| |
+| First Send Mute Percent | Range (Percentage) | Percentage of the audio stream from the first endpoint where the client was muted.| &bull; Stream is not an audio stream <br/> &bull; Data wasn't reported by the first endpoint|
+| Second Send Mute Percent | Range (Percentage) |Percentage of the audio stream from the second endpoint where the client was muted.| &bull; Stream is not an audio stream <br/> &bull; Data wasn't reported by the second endpoint|
 |**Audio**||||
 | Audio FEC Used  | Boolean  | True indicates that audio forward error correction (FEC) was used at some point during the call. False otherwise     | &bull; The stream wasn't an audio stream <br/>&bull; The data wasn't reported by the endpoint sending the stream  |
 | First Audio Render Device In Use  | String  | Indicates which hardware device was used for playback of the audio stream on the first endpoint.  | <br/>&bull; The data wasn't reported by the endpoint  |
@@ -746,6 +749,8 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Mic Glitch Rate|Number of glitches|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. |
 | Avg First Speaker Glitch Rate|Number of glitches|Average First Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
+| Avg First Send Mute Percent |Percentage|Average of the percentage of the audio stream that was muted from the first endpoint. |
+| Avg Second Send Mute Percent |Percentage|Average of the percentage of the audio stream that was muted from the second endpoint. |
 | First User Count|Number | Number of unique or distinct first endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Second User Count|Number|Number of unique or distinct second endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|

@@ -3,6 +3,7 @@ title: Monitor call quality
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 07/24/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier1
 ---
 
 [!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]

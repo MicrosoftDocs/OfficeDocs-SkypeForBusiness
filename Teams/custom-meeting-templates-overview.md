@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,9 +21,7 @@ description: Learn about custom meeting templates in Microsoft Teams Premium.
 
 # Overview of custom meeting templates in Microsoft Teams
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
-
-Microsoft Teams Premium includes the ability to create custom meeting templates. Meeting templates can be used to control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
+[Microsoft Teams Premium](enhanced-teams-experience.md) includes the ability to create custom meeting templates. Meeting templates can be used to control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
 
 Meeting templates can be used to enforce settings or to set defaults. Each template setting can be locked so the meeting organizer can't change it, or can be left unlocked for the meeting organizer to change if needed.
 
@@ -66,20 +65,17 @@ If any of these settings are configured in the label, they will override these s
 
 ## Templates included with Teams
 
-Teams Premium includes several default meeting templates that you can make available to your users:
+Teams Premium includes the following default meeting template:
 
-- Large Meeting
-- Protected meeting
-- Town hall
 - [Virtual appointment](virtual-appointment-meeting-template.md)
-- Webinar
 
 Additionally, these templates are available in Teams for Education:
 
 - Class
-- Discussion group
 - Lecture
-- Parent teacher conference
+- [Webinar](set-up-webinars.md)
+
+For information about the class and lecture templates, see [Use education templates for Teams meetings](https://support.microsoft.com/topic/9567d25f-3ac5-4fcf-9b66-18f70e5d42b3).
 
 You can update the settings on these templates if you need to.
 
@@ -88,3 +84,5 @@ You can update the settings on these templates if you need to.
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
+
+[Meetings, webinars, and live events](quick-start-meetings-live-events.md)

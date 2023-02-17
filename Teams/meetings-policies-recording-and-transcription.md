@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark
+ms.date: 08/19/2021
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -30,7 +31,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
 
-## Cloud recording
+## Meeting recording
 
 This setting is a combination of a per-organizer and per-user policy and controls whether the meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
 
@@ -40,7 +41,7 @@ People outside your organization, such as federated and anonymous users, can't s
 
 Let's look at the following example.
 
-| User                 | Meeting policy         | Allow cloud recording |
+| User                 | Meeting policy         | Allow meeting recording |
 |----------------------|------------------------|-----------------------|
 | Daniela              | Global                 | Off                   |
 | Amanda               | Location1MeetingPolicy | On                    |
@@ -54,7 +55,7 @@ Let's look at the following example.
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
-## Meetings automatically expire
+## Recordings automatically expire
 
 This setting controls whether or not meeting recordings automatically expire. After turning on this setting, you'll get the option to set a default expiration time, measured in days.
 
@@ -116,7 +117,8 @@ This policy controls whether meeting records can be permanently stored in anothe
 
 ## Related topics
 
-- [Manage meeting policies in Teams](meeting-policies-overview.md)
-- [Assign policies to users in Teams](policy-assignment-overview.md)
 - [Cloud meeting recording](cloud-recording.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
+- [Teams policies reference - Recording & transcription](settings-policies-reference.md#recording--transcription)
+- [Assign policies to users in Teams](policy-assignment-overview.md)
 - [Manage who can schedule meetings](manage-who-can-schedule-meetings.md)

@@ -100,9 +100,17 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 #### Headsets
 
 - Wireless headsets (iOS and Android)
-  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie) C300-XT and B450-XT
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+
+> [!NOTE]
+> Users will need one of the following to use BlueParrott headsets:
+>
+> - Teams iOS version: 4.16 or greater
+> - Teams Android version: 2022372201 or greater.
+>
+> Users must be using the latest headset firmware version and recommended MS Teams version to avoid bluetooth connectivity problems with the headset.
 
 #### Rugged Android phones
 

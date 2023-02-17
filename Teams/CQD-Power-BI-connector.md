@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: siunies
+ms.date: 03/06/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -126,7 +127,7 @@ Despite making use of Power BI, not all Power BI functionality is support by the
 
 6. **Measurement Only Queries -** Are not supported at this time in the Microsoft Call Quality connector. When creating a visualization with three or more measurements and no dimensions, the column data will be transposed. To avoid this, always include at least one dimension (eg: Month Year) in your visualizations. This is slated to be resolved in an upcoming release of the Microsoft Call Quality connector for Power BI.
 
-7. **Government Community Cloud (GCC) Support –** For customers in the GCC environment, the Microsoft Call Quality connector will work when using Power BI Desktop only. The Microsoft Call Quality connector is not presently compatible with the Power BI service for GCC customers.
+7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector will work when using Power BI Desktop only. The Microsoft Call Quality connector is not presently compatible with the Power BI service for Government cloud customers.
 
 Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 

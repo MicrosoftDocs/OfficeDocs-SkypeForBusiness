@@ -7,6 +7,7 @@ audience: ITPro
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
+ms.date: 07/26/2021
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium

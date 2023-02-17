@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: mikedav
+ms.date: 11/28/2017
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -11,6 +12,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - tier1
 audience: Admin
 appliesto:
   - Microsoft Teams
@@ -80,12 +82,12 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 <tbody>
 <tr>
 <td>Teams Essentials (AAD identity) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
-<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan or International Calling Plan licenses <br/> </td>
+<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan, International Calling Plan, or Pay-As-You-Go Calling Plan licenses <br/> </td>
 <td>Teams Phone Standard licenses <br/> </td>
 </tr>
 <tr>
 <td>Microsoft 365 E5/A5/G5 plans</td>
-<td>Domestic Calling Plan or International Calling Plan licenses <br/> </td>
+<td>Domestic Calling Plan, International Calling Plan, or Pay-As-You-Go Calling Plan licenses <br/> </td>
 <td></td>
 </tr>
 </tbody>

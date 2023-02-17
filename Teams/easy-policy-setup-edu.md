@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: shajohri, angch
+ms.date: 03/09/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -11,6 +12,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

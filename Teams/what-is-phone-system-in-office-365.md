@@ -1,6 +1,7 @@
 ---
 title: "What is Phone System"
 ms.reviewer: roykuntz
+ms.date: 11/28/2017
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,7 +23,7 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - intro-overview
-description: "In this article, you'll learn about the Phone System technology in Microsoft 365."
+description: "In this article, you'll learn about Teams Phone System technology in Microsoft 365."
 ---
 
 # What is Phone System
@@ -33,9 +34,7 @@ Phone System works with Teams clients and certified devices. Phone System allows
 
 Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls. 
 
-For making external calls, Phone System provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
-
-Phone System is available world wide except for Macau. 
+For making external calls, Phone System provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn). 
 
 ## Phone System features
 
@@ -54,7 +53,7 @@ For external calling, Phone System can be connected to the PSTN in one of severa
 
 - Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
-  You can connect your on-premises telephony infrastructure to Phone System by using Operator Connect Calling or Direct Routing. 
+  You can connect your on-premises telephony infrastructure to Phone System by using Operator Connect or Direct Routing. 
 
 For more information about all PSTN Connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 

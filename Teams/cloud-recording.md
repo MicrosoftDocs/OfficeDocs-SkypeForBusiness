@@ -12,6 +12,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
 ms.reviewer: nakulm
+ms.date: 05/24/2018
 search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
@@ -67,15 +68,15 @@ For a Teams user's meetings to be recorded, OneDrive and SharePoint must be enab
 >
 > For more [information on how temporary meeting recording storage works](#temp-storage), see below.  
 
-## Set up Teams cloud meeting recording for users in your organization
+## Set up Teams meeting recording  recording for users in your organization
 
 This section explains how you can set up and plan for recording Teams meetings via [Teams meeting policies](policy-assignment-overview.md).
 
-### Turn on or turn off cloud recording
+### Turn on or turn off meeting recording 
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether user's meetings can be recorded.
 
-In the Microsoft Teams admin center, turn on or turn off the **Cloud recording** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#cloud-recording).
+In the Microsoft Teams admin center, turn on or turn off the **Meeting recording** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#meeting-recording).
 
 Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -275,7 +276,7 @@ Meeting recordings are stored as video files in OneDrive and SharePoint and foll
 
 For non-channel meetings, the recordings are stored in the recorder's OneDrive, thus handling ownership and retention after an employee leaves will follow the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
-Meeting recordings have a Default expiration time of 120 days. You can turn off the Meetings automatically expire setting or change the Default expiration time. Learn more about [meeting recordings automatically expiring](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
+Meeting recordings have a Default expiration time of 120 days. You can turn off the Meetings automatically expire setting or change the Default expiration time. Learn more about [meeting recordings automatically expiring](meetings-policies-recording-and-transcription.md#recordings-automatically-expire).
 
 ## Closed captions for recordings
 

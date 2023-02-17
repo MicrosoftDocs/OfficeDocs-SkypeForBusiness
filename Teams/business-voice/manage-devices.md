@@ -3,6 +3,7 @@ title: Manage devices
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 07/24/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,6 +17,7 @@ appliesto:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - tier1
 ---
 
 [!INCLUDE [device-management](../devices/device-management.md)]

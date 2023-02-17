@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -18,8 +19,6 @@ description: Learn how to manage who can record Teams meetings, automatic record
 ---
 
 # Manage Microsoft Teams meeting recording options for sensitive meetings
-
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 Teams is designed to allow easy recording for meeting participants. If you have compliance requirements around how meeting recordings are used, there are several options available for administrators and meeting organizers to help you use meeting recordings in a compliant way.
 
@@ -68,7 +67,7 @@ The expiration feature is meant for removing old recordings to save storage spac
 
 For information about configuring admin meeting policies for meeting recordings, see [Teams cloud meeting recording](/microsoftteams/cloud-recording).
 
-For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](/configure-meetings-sensitive-protection) and [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
+For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md) and [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md).
 
 ## Related topics
 

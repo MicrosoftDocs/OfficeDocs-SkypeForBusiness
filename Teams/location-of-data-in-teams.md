@@ -7,6 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: anach, kehardy
+ms.date: 09/24/2018
 description: In this article, you will learn about where does the data resides geographically in Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
