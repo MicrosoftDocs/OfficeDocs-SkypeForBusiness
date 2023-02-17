@@ -27,9 +27,9 @@ The reporting node contains data for the health and usage of your Microsoft Team
 
 The ticket export feature lets you export all active and closed ticket history information within a select date range. Exporting tickets lets you easily access and analyze your ticket history data for better decision making.  
 
-Under the **Overview** report, the **Export tickets** button provides ticket history details, which includes the following fields: creation date, device name, incident type, ticket state, ticket, last update, history, last resolved date, message/notes conversations, closure summary, closed by, and last closed date. 
+Under the **Overview** report, the **Export tickets** button provides ticket history details that include the following fields: creation date, device name, incident type, ticket state, ticket, last update, history, last resolved date, message/notes conversations, closure summary, closed by, and last closed date. 
 
-The data is generated in a JSON file that you can downloaded and import into Power BI. The download starts after you select **Export tickets**. If you leave the portal before the download starts, you'll have to request the file again. 
+The data is generated in a JSON file that you can download and import into Power BI. The download starts after you select **Export tickets**. If you leave the portal before the download starts, you'll have to request the file again. 
 
 |Column |Description   |
 |----------|-----------|
@@ -104,7 +104,7 @@ To navigate to the Health report for all rooms, select Reports, then select  **H
 
 <!--!![A screenshot of a Reports health percentage](../media/health-and-usage-001.png)-->
 
-The health score is a metric designed to surface rooms that are most likely to cause end-user frustration. A room can either be healthy or unhealthy for a given day. It is considered unhealthy if a ticket or many tickets impacted the room for more than 20 total minutes during non-maintenance hours (5AM -9PM machine local time). For example, if a ticket is opened at 5:00 AM but closed at 5:15 AM, the room is still considered healthy. But, if a second ticket occurred from 09:00AM to 9:10AM, the room would e considered unhealthy for the day. Similarly, if a ticket occurred from 5:00 AM to 5:21 AM, it is considered unhealthy for the day.
+The health score is a metric designed to surface rooms that are most likely to cause end-user frustration. A room can either be healthy or unhealthy for a given day. It is considered unhealthy if a ticket or many tickets impacted the room for more than 20 total minutes during non-maintenance hours (5AM -9PM machine local time). For example, if a ticket is opened at 5:00 AM but closed at 5:15 AM, the room is still considered healthy. But, if a second ticket occurred from 09:00AM to 9:10AM, the room would be considered unhealthy for the day. Similarly, if a ticket occurred from 5:00 AM to 5:21 AM, it is considered unhealthy for the day.
 
 > [!NOTE]
 > Health for the day is aggregated once a day at 12:00 AM UTC time. For customers near the international date line, health aggregation may occur near the middle of the workday.
@@ -144,7 +144,7 @@ The headlines provide a few insights:
 - Total calls with room participation
 - Aggregate call performance score from all calls classified with "Good" quality to all calls. 
 
-Below the headline metrics is a table of rooms with corresponding metrics. Select a room to view more usage details. The metrics in the table are described in the following table.
+Below the headline **Metrics** is a table of rooms with corresponding metrics. Select a room to view more usage details. The metrics in the table are described in the following table.
 
 |Column|Description|
 |---|---|
