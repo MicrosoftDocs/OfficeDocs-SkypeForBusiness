@@ -42,6 +42,9 @@ The data is generated in a JSON file that you can downloaded and import into Pow
 |History |Detailed history of the ticket status overtime |
 |SnowIncident |SNOW incident number in "INC11684776" format |
 |LastResolved |Date and time when the ticket was last resolved  |
+|Closure Summary/Reason |The reason for ticket resolution (for example, self resolved) |
+|Closure Summary/Closed By |Who is responsible for closing the ticket (for example, Managed Room Services |
+|LastClosed |The date/time the ticket was closed |
 
 ## Navigating reports
 
