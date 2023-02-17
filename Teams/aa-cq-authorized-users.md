@@ -46,7 +46,7 @@ User 2 needs to be able to change auto attendant after hours greetings for AA1.
  :::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot":::
  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
 
-1. Assisgn this policy to User 1.
+1. Assign this policy to User 1.
 1. Create another Teams Voice Applications Policy that enables the Auto Attendant **After Hours Greeting**
 
  :::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy that enables auto attendant after hours greeting changes.":::
