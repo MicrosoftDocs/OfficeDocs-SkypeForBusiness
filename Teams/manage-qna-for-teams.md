@@ -3,6 +3,7 @@ title: Manage Q&A in Teams Meetings
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
+ms.date: 06/13/2022
 manager: serdars
 ms.topic: article
 ms.service: msteams

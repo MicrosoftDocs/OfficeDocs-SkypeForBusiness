@@ -4,6 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: divank
+ms.date: 06/13/2018
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -173,6 +174,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX 350/400/500/600/505 | `8.0.2.3267` | 2022 Update #4A |
+|Poly Trio C60 | `8.0.2.3266` | 2022 Update #4A |
+|Crestron UC-2     | `1.0.6.28`    | 2022 Update #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.341` | 2022 Update #4A    |
 |Poly CCX350 | `8.0.2.2643` | 2022 Update #4A |
 |Yealink CP965  | `143.15.0.27`     | 2022 Update #4A  |
@@ -301,6 +305,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Neat Bar | `NFB1.20221128.0009` | 2022 Update #3 |
+| Neat Bar Pro| `NFD1.20221128.0009` | 2022 Update #3 |
+| Neat Board | `NFC1.20221128.0009` |  2022 Update #3 |
+| Neat Pad touch console | `NFA1.20221128.0005`  |  2022 Update #3 |
 | Yealink MeetingBoard 86" | `155.15.0.17` | 2022 Update #2B |
 | Neat Bar | `NFB1.20220914.1215` | 2022 Update #2B |
 | Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |

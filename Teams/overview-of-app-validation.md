@@ -19,11 +19,11 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Know about the testing and validation done by Microsoft for all apps
+# Know about the testing done by Microsoft for all Teams apps
 
-Microsoft requires all apps to pass a mandatory validation before being listed in the store for end-uses. It applies to all apps (except custom apps) published on the Teams App store. In addition, Microsoft strongly encourages app developers to participate in an optional certification of apps that indicates enhanced compliance, security, and privacy controls.
+Microsoft requires an app to pass mandatory and strict validation tests before listing it in the [AppStore](https://appsource.microsoft.com/marketplace/apps) for end-users to use. The testing applies to all apps in the Teams app store. In addition, Microsoft strongly encourages app developers to participate in an optional certification of apps that indicates enhanced compliance, security, and privacy controls.
 
-All the apps are mandatorily required to adhere to the Microsoft App Certification policies. The Teams store team performs 400+ tests to ensure that the apps are usable and adhere to high standards of privacy and security.
+All the apps are mandatorily required to adhere to the Microsoft App Certification policies. The Teams store team performs more than 400 tests to ensure that the apps are usable and adhere to high standards of privacy and security.
 
 To know the detailed validation guidelines that app developers adhere to, see [Validation guidelines for developers](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). The guidance is based on the [Certification policies for Teams apps](/legal/marketplace/certification-policies#1140-teams).
 

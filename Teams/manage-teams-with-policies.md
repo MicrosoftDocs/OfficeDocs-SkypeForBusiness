@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
+ms.date: 01/07/2021
 search.appverid: 
 description: Lean about Teams policies.
 audience: admin
@@ -70,5 +71,5 @@ Policy type | Description
 * [Assign policies in Teams - getting started](policy-assignment-overview.md)
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
-* [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
+* [Teams policies reference](settings-policies-reference.md)
 * [Teams for Education policies and policy packages](policy-packages-edu.md)

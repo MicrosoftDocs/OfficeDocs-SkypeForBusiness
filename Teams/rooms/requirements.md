@@ -3,6 +3,7 @@ title: Microsoft Teams Rooms requirements
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

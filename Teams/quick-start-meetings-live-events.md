@@ -1,6 +1,7 @@
 ---
 title: Meetings, webinars, and live events
 ms.reviewer: 
+ms.date: 04/01/2020
 description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
 author: MicrosoftHeidi
@@ -238,4 +239,3 @@ Your organizers and presenters should implement the below recommendations:
 [Teams view-only meeting experience](view-only-meeting-experience.md)
 
 [Limits and specifications for Teams](limits-specifications-teams.md)
-
