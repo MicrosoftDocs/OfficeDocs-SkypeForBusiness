@@ -41,7 +41,7 @@ Shared Teams devices can't use the same requirements for enrollment and complian
 
 Accounts used on Teams devices have a password-expiration policy. The accounts used with shared devices don't have a specific user to update and restore them to a working state when their passwords expire. If your organization requires passwords to expire and reset occasionally, these accounts will stop working on Teams devices until a Teams administrator resets the password and signs back in.
 
-**Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they simply change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
+**Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
 
 When your organization requires a password reset or enforces password expiration, be sure a Teams administrator is prepared to reset the password so these shared accounts can sign back in.
 
@@ -72,7 +72,7 @@ Azure AD Conditional Access sets other requirements that devices must meet in or
 > [!TIP]
 > For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)?
 
-### Do not use Multi-factor authentication for shared devices
+### Don't use Multi-factor authentication for shared devices
 
 Accounts for shared devices are linked to a room or physical space, rather than to an end user account. Because shared devices don't support multi-factor authentication, exclude shared devices from any multi-factor authentication policies.
 
@@ -114,5 +114,5 @@ Use filters for devices to identify your common-area devices and enable policies
 > Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
 
 ### Microsoft Teams room usage report
-New capabilities like the camera video minutes and call minutes data have been added to the Teams Rooms Pro management portal in the report section. This data allows users to track engagment during each meeting and have a better understanding of those data. 
+New capabilities like the camera video minutes and call minutes data have been added to the Teams Rooms Pro management portal in the report section. This data allows users to track engagement during each meeting and have a better understanding of those data. 
 
