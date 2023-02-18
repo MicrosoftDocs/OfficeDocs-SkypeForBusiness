@@ -59,15 +59,15 @@ Microsoft recommends the following settings when deploying Teams devices in your
 
 ### **Use a Resource account and curtail its password expiration**
 
-Teams shared devices should use an [Exchange resource mailbox](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). Creating these mailboxes generates an account automatically. These accounts can either be synced to Azure AD from Active Directory or created directly in Azure AD. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration polices, set the password expiration policy for shared devices to never expire.
+Teams shared devices should use an [Exchange resource mailbox](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). Creating these mailboxes generates an account automatically. You can either sync these accounts to Azure AD from Active Directory or create them directly in Azure AD. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration polices, set the password expiration policy for shared devices to never expire.
 
-Starting with Teams devices CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 for Teams phones) and [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 for Microsoft Teams Rooms on Android), tenant administrators can sign into Teams devices remotely. Instead of sharing passwords with technicians to set up devices, Tenant administrators should use remote sign-in to issue verification codes. Sign in can be done for these devices from the Teams admin center.
+Starting with Teams devices CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 for Teams phones) and [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 for Microsoft Teams Rooms on Android), tenant administrators can sign into Teams devices remotely. Instead of sharing passwords with technicians to set up devices, Tenant administrators should use remote sign-in to issue verification codes. You can sign into these devices from the Teams admin center.
 
 For more information, see [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login). 
 
 ### **Review these Conditional Access policies**
 
-Azure AD Conditional Access sets additional requirements that devices must meet in order to sign in. For Teams devices, review the guidance that follows to determine if you have authored the policies that will allow shared device users to do their work.
+Azure AD Conditional Access sets other requirements that devices must meet in order to sign in. For Teams devices, review the guidance that follows to determine if you have authored the policies that will allow shared device users to do their work.
 
 > [!TIP]
 > For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)?
