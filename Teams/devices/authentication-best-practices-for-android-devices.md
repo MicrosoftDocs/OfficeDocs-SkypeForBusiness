@@ -93,8 +93,8 @@ If you're enrolling shared devices into Intune, you can configure device complia
 To set compliance setting for your devices using Intune, see [Use compliance policies to set rules for devices you manage with Intune](/intune/protect/device-compliance-get-started).
 
 >[!NOTE]
-> Shared devices being used for *hot desking* should be excluded from compliance policies. Compliance polices prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
-> To increase security, you can also [require multi-factor authentication](/azure/active-directory/authentication/tutorial-enable-azure-mfa) for *hot desking users / user accounts* in addition to the named location policies.
+> Shared devices being used for *hot-desking* should be excluded from compliance policies. Compliance polices prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
+> To increase security, you can also [require multi-factor authentication](/azure/active-directory/authentication/tutorial-enable-azure-mfa) for *hot-desking users / user accounts* in addition to the named location policies.
 
 ### Exclude shared devices from sign-in frequency conditions
 
@@ -106,7 +106,7 @@ In Conditional Access, you can [configure sign-in frequency](/azure/active-direc
 
 Use filters for devices to identify your common-area devices and enable policies in two key scenarios:
 
-1.  Excluding shared devices from policies applied for personal devices. For example, requiring device compliance *isn't enforced* for shared devices used for hot desking, but *is enforced* for all other devices, based on model number.
+1.  Excluding shared devices from policies applied for personal devices. For example, requiring device compliance *isn't enforced* for shared devices used for hot-desking, but *is enforced* for all other devices, based on model number.
 
 2.  Enforcing special policies on shared devices that *should not* be applied to personal devices. For example, requiring named locations as policy only for common-area devices based on an extension attribute you set for these devices (for example: “CommonAreaPhone”).
 
@@ -114,5 +114,5 @@ Use filters for devices to identify your common-area devices and enable policies
 > Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
 
 ### Microsoft Teams room usage report
-New capabilities like the camera video minutes and call minutes data have been added to the Teams Rooms Pro management portal in the report section. This data allows users to track engagment during each meeting and have a beter understanding of those data. 
+New capabilities like the camera video minutes and call minutes data have been added to the Teams Rooms Pro management portal in the report section. This data allows users to track engagment during each meeting and have a better understanding of those data. 
 
