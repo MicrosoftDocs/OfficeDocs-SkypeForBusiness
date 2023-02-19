@@ -2,6 +2,29 @@
 
 
 
+## Week of February 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/13/2023 | [Zero-touch App Install for Teams apps](/MicrosoftTeams/zero-touch-app-install) | added |
+| 2/13/2023 | [Manage anonymous participant access to Teams meetings (IT admins)](/MicrosoftTeams/anonymous-users-in-meetings) | modified |
+| 2/13/2023 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 2/13/2023 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 2/13/2023 | [Calling policies in Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | modified |
+| 2/14/2023 | [Manage meeting policies for audio and video](/MicrosoftTeams/meeting-policies-audio-and-video) | modified |
+| 2/14/2023 | [Manage meeting policies for content sharing](/MicrosoftTeams/meeting-policies-content-sharing) | modified |
+| 2/14/2023 | [Teams policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
+| 2/14/2023 | [Zero-touch App Install for Teams apps](/MicrosoftTeams/zero-touch-app-install) | modified |
+| 2/14/2023 | [Updated auto attendant and call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 2/15/2023 | [Teams Phone System Direct Routing: SIP protocol](/MicrosoftTeams/direct-routing-protocols-sip) | modified |
+| 2/15/2023 | [Teams Phone System Direct Routing: Definitions and RFC standards](/MicrosoftTeams/direct-routing-protocols) | modified |
+| 2/16/2023 | [Emergency call routing for Calling Plans](/MicrosoftTeams/emergency-calling-availability) | added |
+| 2/16/2023 | [Health and usage reports](/MicrosoftTeams/rooms/health-and-usage-reports) | modified |
+| 2/17/2023 | [Auto attendant and call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 2/17/2023 | [Health and usage reports](/MicrosoftTeams/rooms/health-and-usage-reports) | modified |
+
+
 ## Week of February 06, 2023
 
 
@@ -92,39 +115,3 @@
 | 1/19/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
 | 1/19/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
 | 1/20/2023 | [Walkie Talkie usage and performance report](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | added |
-
-
-## Week of January 09, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/9/2023 | [Retire Microsoft Teams Free (classic) for your organization](/MicrosoftTeams/teams-add-on-licensing/remove-assign-free-licenses) | added |
-| 1/9/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
-| 1/9/2023 | [Get service phone numbers for Calling Plans](/MicrosoftTeams/getting-service-phone-numbers) | modified |
-| 1/9/2023 | [Manage phone numbers for Calling Plan](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modified |
-| 1/9/2023 | [Manually submit a port order](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | modified |
-| 1/9/2023 | [Transfer phone numbers to Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | modified |
-| 1/10/2023 | [Auto attendant and call queue historical reports for GCC High and DoD](/MicrosoftTeams/aa-cq-cqd-historical-reports-v163) | modified |
-| 1/10/2023 | [Updated auto attendant and call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
-| 1/10/2023 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | modified |
-| 1/10/2023 | [Set up a Microsoft Teams auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 1/10/2023 | [Create a Microsoft Teams call queue](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | modified |
-| 1/10/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 1/10/2023 | [Manage resource accounts in Teams](/MicrosoftTeams/manage-resource-accounts) | modified |
-| 1/10/2023 | [Encoder configuration for streaming in Microsoft Teams](/MicrosoftTeams/teams-encoder-configuration) | added |
-| 1/10/2023 | [Encoder setup for streaming in Microsoft Teams](/MicrosoftTeams/teams-encoder-setup) | added |
-| 1/10/2023 | [Creating a stream in Microsoft Teams](/MicrosoftTeams/teams-stream-create-event) | added |
-| 1/10/2023 | [Scale video delivery in Microsoft Teams](/MicrosoftTeams/teams-stream-ecdn) | added |
-| 1/10/2023 | [Overview of the encoder for streaming in Microsoft Teams](/MicrosoftTeams/teams-stream-overview) | added |
-| 1/10/2023 | [Troubleshooting live streaming in Microsoft Teams](/MicrosoftTeams/teams-stream-troubleshooting) | added |
-| 1/10/2023 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
-| 1/10/2023 | [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modified |
-| 1/11/2023 | [Use healthcare team templates](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modified |
-| 1/11/2023 | [Use financial team templates](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | modified |
-| 1/11/2023 | [Get started with team templates in the Teams admin center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
-| 1/11/2023 | [Get started with manufacturing team templates in the admin center](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modified |
-| 1/11/2023 | [Use nonprofit team templates](/MicrosoftTeams/team-templates-nonprofit) | modified |
-| 1/11/2023 | [Calling policies in Microsoft Teams: Calling and call-forwarding features](/MicrosoftTeams/teams-calling-policy) | modified |
-| 1/13/2023 | [Manage devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
-| 1/13/2023 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
