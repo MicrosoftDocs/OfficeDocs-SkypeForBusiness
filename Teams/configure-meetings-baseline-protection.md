@@ -49,7 +49,7 @@ Settings that are listed as enforced are enforced by the sensitivity label or me
 
 ## Default values for **Who can present**
 
-The default value for **Who can present** is **Everyone**. For the baseline protection tier, we'll set a more secure default of **Everyone in the organization** which meeting organizers can change if they want.
+The default value for **Who can present** is **Everyone**. For the baseline protection tier, we'll set a more secure default of **People in my organization and guests** which meeting organizers can change if they want.
 
 We can set this value with a sensitivity label, but the value will be enforced for any meetings with that label. This setting isn't available in meeting templates, so we'll set it in the Teams admin center.
 

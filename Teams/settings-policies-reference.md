@@ -165,7 +165,7 @@ Meeting policies are used to control what features are available to users when t
 |Meet now in channel meetings|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
-|Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **Everyone in the organization**.|
+|Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
 |Engagement report|Turn on|When **On**, meeting organizers can see who registered and attended the meetings they set up.|
 
 #### Related topics to meeting scheduling

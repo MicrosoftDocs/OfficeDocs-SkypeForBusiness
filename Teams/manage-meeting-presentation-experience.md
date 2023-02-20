@@ -33,7 +33,7 @@ Meeting organizers can specify many of theses settings when they create the meet
 
 ## Manage who can present
 
-The following table shows where settings are available to manage who can present in meetings:
+The following table shows where settings are available to manage who can present:
 
 |Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
 |:------|:----------:|:---------------:|:------:|:---------------:|
@@ -43,17 +43,17 @@ The following table shows where settings are available to manage who can present
 
 By using these controls, you can limit who is able to share content on screen in meetings.
 
-### Default value for who can present in meetings
+### Default value for who can present
 
 The Teams admin meeting policy **Who can present** has the following options:
 
-- Organizers
-- People in my organization
+- Only organizers and co-organizers
+- People in my organization and guests
 - Everyone
 
 This setting does not enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
 
-The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **People in my organization** or **Organizers and co-organizers** to provide a more secure default for users.
+The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present, consider changing this value to **People in my organization and guests** or **Only organizers and co-organizers** to provide a more secure default for users.
 
 To set the **Who can present** policy
 

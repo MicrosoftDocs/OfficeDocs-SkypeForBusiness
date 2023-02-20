@@ -56,7 +56,7 @@ The following table summarizes the configurations for each tier. Use these confi
 |People dialing in can bypass the lobby|**Off**|**Off**|**Off**|**Off**|
 |Prevent copying chat content to clipboard|**Off**|**Off**|**On**|**On**|
 |Record automatically|**Off**|**Off**|**Off**|**Off**|
-|Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People I invite**|**Only me and co-organizers**|**Only me and co-organizers**|
+|Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People who were invited**|**Only me and co-organizers**|**Only me and co-organizers**|
 |Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
 |Who can record|**Organizers and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
 

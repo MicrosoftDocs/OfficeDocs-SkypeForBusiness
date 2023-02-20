@@ -56,8 +56,8 @@ The **Who can present?** setting lets meeting organizers choose who can be prese
 
 To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the **Who can present** policy:
 
-- **Only organizers and co-organizers**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only me** setting in Teams.
-- **People in my organization and guests**: Authenticated users in the organization, including guests, can be presenters. This setting corresponds to the **People in my organization** setting in Teams.
+- **Only organizers and co-organizers**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only organizers and co-organizers** setting in Teams.
+- **People in my organization and guests**: Authenticated users in the organization, including guests, can be presenters. This setting corresponds to the **People in my organization and guests** setting in Teams.
 - **Everyone**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
