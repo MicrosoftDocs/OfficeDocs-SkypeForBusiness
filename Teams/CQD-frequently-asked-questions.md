@@ -45,6 +45,7 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 [I turned on Policy-based Recording in Teams and now Peer-to-Peer calls are marked as Conferences--what happened?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-marked-as-conferences--what-happened)
 
 
+
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
