@@ -1,5 +1,5 @@
 ---
-title: Health and Usage Reports
+title: Health and usage reports
 author: altsou
 ms.author: altsou
 manager: serdars
@@ -19,9 +19,32 @@ search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
-# Health and Usage Reports
+# Health and usage reports
 
-The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
+The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** tab surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on calendar information and call quality data is visible under the **Usage** tab.
+
+## Export tickets
+
+The ticket export feature lets you export all active and closed ticket history information within a select date range. Exporting tickets lets you easily access and analyze your ticket history data for better decision making.  
+
+Under the **Overview** report, the **Export tickets** button provides ticket history details that include the following fields: creation date, device name, incident type, ticket state, ticket, last update, history, last resolved date, message/notes conversations, closure summary, closed by, and last closed date. 
+
+The data is generated in a JSON file that you can download and import into Power BI. The download starts after you select **Export tickets**. If you leave the portal before the download starts, you'll have to request the file again. 
+
+|Column |Description   |
+|----------|-----------|
+|Created |Date and time the ticket was created |
+|Device |Device ID of the room mapped in room name (display name) and host name  |
+|Incident Type  |Spread in incident type ID, incident type display name, which is a sub category in UI, the incident type category (for example, account, config) and the incident type severity (for example, critical, important)  |
+|State |The state/status of the ticket, which can be new, investigating, resolved, or closed and watching |
+|TicketID |The ticket ID in "7B7365-EPDOLF" format |
+|LatsUpdate |Any updates made on the ticket with specific date and time  |
+|History |Detailed history of the ticket status overtime |
+|SnowIncident |SNOW incident number in "INC11684776" format |
+|LastResolved |Date and time when the ticket was last resolved  |
+|Closure Summary/Reason |The reason for ticket resolution (for example, self resolved) |
+|Closure Summary/Closed By |Who is responsible for closing the ticket (for example, Managed Room Services |
+|LastClosed |The date/time the ticket was closed |
 
 ## Navigating reports
 
@@ -40,11 +63,11 @@ The donut displays the total tickets raised for the selected time span and group
 
 <!--!![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)-->
 
-A flyout for the detailed view for tickets of that category is displayed when selected.
+A flyout for the detailed view for tickets of that category appears when selected.
 
 <!--!![A screenshot of tickets and versioning side by side](../media/health-and-usage-007.png)-->
 
-In the flyout, it is possible to filter the list of tickets by the subcategory by selecting the respective part of the donut. 
+In the flyout, it's possible to filter the list of tickets by the subcategory by selecting the respective part of the donut. 
 
 <!--!![A screenshot tickets by subcategory automatically generated](../media/health-and-usage-008.png)-->
 
@@ -63,7 +86,7 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 
 ### Health history
 
-This graph shows the average health (definition in Health section) for all the rooms in the tenant as well as the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
+This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 
@@ -81,7 +104,7 @@ To navigate to the Health report for all rooms, select Reports, then select  **H
 
 <!--!![A screenshot of a Reports health percentage](../media/health-and-usage-001.png)-->
 
-The health score is a metric designed to surface rooms that are most likely to cause end-user frustration. A room can either be healthy or unhealthy for a given day. It is considered unhealthy if a ticket or many tickets impacted the room for more than 20 total minutes during non-maintenance hours (5AM -9PM machine local time). For example, if a ticket is opened at 5:00AM but closed at 5:15AM, the room is still considered healthy. But, if a second ticket occurred from 09:00AM to 9:10AM, the room would then be considered unhealthy for the day. Similarly, if a ticket occurred from 5:00AM to 5:21AM, it is considered unhealthy for the day.
+The health score is a metric designed to surface rooms that are most likely to cause end-user frustration. A room can either be healthy or unhealthy for a given day. It is considered unhealthy if a ticket or many tickets impacted the room for more than 20 total minutes during non-maintenance hours (5AM -9PM machine local time). For example, if a ticket is opened at 5:00 AM but closed at 5:15 AM, the room is still considered healthy. But, if a second ticket occurred from 09:00AM to 9:10AM, the room would be considered unhealthy for the day. Similarly, if a ticket occurred from 5:00 AM to 5:21 AM, it is considered unhealthy for the day.
 
 > [!NOTE]
 > Health for the day is aggregated once a day at 12:00 AM UTC time. For customers near the international date line, health aggregation may occur near the middle of the workday.
@@ -93,7 +116,7 @@ Clicking on a room listed in this view displays more details.
 
 The bar graph displays the number of tickets on each day. Tickets opened on that respective day appear in blue. Tickets opened prior to the respective day appear in orange. Clicking on a day on the graph filters the pie chart and table to the relevant tickets. To reverse the filter, navigate with the breadcrumbs or click on the graph.
 
-Categorization of tickets are represented in the donut chart. Interacting with this filters the timeline graph and table. To reverse the filter, navigate with the breadcrumbs or click on the graph.
+Categorization of tickets is represented in the donut chart. Interacting with this filters the timeline graph and table. To reverse the filter, navigate with the breadcrumbs or click on the graph.
 
 <!--!![A screenshot of a Reports health bar graph](../media/health-and-usage-014.png)-->
 
@@ -121,7 +144,7 @@ The headlines provide a few insights:
 - Total calls with room participation
 - Aggregate call performance score from all calls classified with "Good" quality to all calls. 
 
-Below the headline metrics is a table of rooms with corresponding metrics. Select a room to view more usage details. The metrics in the table are described in the following table.
+Below the headline **Metrics** is a table of rooms with corresponding metrics. Select a room to view more usage details. The metrics in the table are described in the following table.
 
 |Column|Description|
 |---|---|

@@ -82,7 +82,7 @@ If applicable, capture the details of your Teams deployment by using the sample 
 > | What applications have you deployed to Teams? | | |
 > | Have you specifically blocked any Teams capabilities? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 > | Which Teams clients are in use? | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |
-> | Who has permissions to create teams? | <input type="checkbox"> Everyone in the organization <br>&nbsp; &nbsp; &nbsp;(This is the default setting) <br/> <input type="checkbox"> Specific people <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column.) | |
+> | Who has permissions to create teams? | <input type="checkbox"> People in my organization<br>&nbsp; &nbsp; &nbsp;(This is the default setting) <br/> <input type="checkbox"> Specific people <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column.) | |
 > | Are you using security and compliance features in Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 
 ### Skype for Business Online (if applicable)
