@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# Microsoft new Teams (public preview)
+# Microsoft Wew Teams (public preview)
 
 We’re excited to announce Microsoft New Teams (preview), the new version of Microsoft Teams desktop client.  
 
