@@ -42,7 +42,7 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[I turned on Policy-based Recording in Teams and now Peer-to-Peer calls are marked as Conferences--what happened?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[I turned on Policy-based Recording in Teams and now Peer-to-Peer calls are marked as Conferences--what happened?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-marked-as-conferences----what-happened)
 
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
