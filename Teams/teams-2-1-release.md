@@ -38,20 +38,13 @@ What can you expect?
 >[!Note]
 >Teams (preview) is currently not available for EDU, VDI, PSTN enabled, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
 
-In this article:
+## Is the New Teams right for my org?
 
-- [Manage new Teams rollout via Teams Policy](#manage-new-teams-rollout-via-teams-policy)
-- [Configure setting using Teams PowerShell](#configure-setting-using-teams-powershell)
-- [Configure setting via Teams Admin Center](#configure-setting-in-teams-admin)
-- [How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
-- [Remove new Teams for all users](#remove-new-teams-for-all-users)
-- [What's available in new Teams preview](#whats-available-in-new-teams-preview)
-  - [Chat](#chat)
-  - [Teams and channels](#teams-and-channels)
-  - [Calendar and meetings](#calendar-and-meetings)
-  - [Calls](#calls)
-  - [Apps, including Microsoft Viva](#apps-including-microsoft-viva)
-  - [Multi-Tenant Multi-Account](#multi-tenant-multi-account)
+|If you ...|You should...|
+|:-----|:-----|
+|Use PSNT|Stay on Classic Teams for now|
+|blah||
+|blah ||
 
 ## Manage new Teams roll out via Teams Policy
 
