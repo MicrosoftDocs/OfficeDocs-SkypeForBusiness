@@ -24,33 +24,39 @@ ms.localizationpriority: high
 
 We’re excited to announce Microsoft New Teams (preview), the new version of Microsoft Teams desktop client.  
 
-The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.
-
-What can you expect?
+The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.  New Teams offers you:
 
 - Better performance—the goal is 2x faster than "Classic Teams"
 - Lower CPU, memory usage, and disk space consumption
 - Your device will consume less battery
 - More reliable all-around​​​​​​​
-- Multi-account support allows you to collaborate seamlessly across accounts and tenants 
+- Multi-account support - letting you collaborate seamlessly across accounts and tenants 
 
 
 >[!Note]
 >Teams (preview) is currently not available for EDU, VDI, PSTN enabled, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
 
-## Is the New Teams right for my org?
+## Before you begin
 
+The New Teams is still in development and currently does not have the full feature set of Classic Teams. 
 
-|Available |Not available|
-|:-----|:-----|
-|Activity feed|Calls to and from telephone numbers, also known as the public switched telephone network (PSTN) –​​​​​​​ coming very soon!|
+Stay on Classic Teams if:
+
+-  You use PSTN - and make traditional phone service (calls to and from telephone numbers). Support for PSTN is currently not available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
+- You use a Mac or Web browser for Teams
+
+It is easy to toggle back and forth between using the Classic and New Teams, so you might choose to take advantage of the New Teams performance enhancements on some days and switch back to Classic when more advanced features are required.
+
+|Not Available|
+|:-----|
+|Calls to and from telephone numbers, also known as the public switched telephone network (PSTN) |
 |Chat|When a meeting starts, you won’t receive a notification with an option to join|
-|Teams to Teamns calls |You can’t update your notification settings from within the app—you’ll be directed to Windows settings|
-|Files|Some advanced meeting features, like breakout rooms|
-|Apps|Slash commands (like /chat)|
-|Support of MTMA|Support for Mac and web browsers|
+|You can’t update your notification settings from within the app—you’ll be directed to Windows settings|
+|Some advanced meeting features, like breakout rooms|
+|Slash commands (like /chat)|
+|Support for Mac and web browsers|
 
-## Manage new Teams roll out via Teams Policy
+## How to roll out New Teams
 
 As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use Microsoft Teams (preview), our New Teams client.
 
