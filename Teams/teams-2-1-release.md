@@ -38,7 +38,7 @@ The Teams app has been rebuilt from the ground up, and you can now preview the n
 
 ## Before you begin
 
-The New Teams is still in development and currently does not have the full feature set of Classic Teams. 
+The New Teams is still in development and currently does not have the full feature set of Classic Teams. Review the list below for feature limitations.
 
 Stay on Classic Teams if:
 
@@ -47,14 +47,6 @@ Stay on Classic Teams if:
 
 It is easy to toggle back and forth between using the Classic and New Teams, so you might choose to take advantage of the New Teams performance enhancements on some days and switch back to Classic when more advanced features are required.
 
-|Not Available|
-|:-----|
-|Calls to and from telephone numbers, also known as the public switched telephone network (PSTN) |
-|Chat|When a meeting starts, you won’t receive a notification with an option to join|
-|You can’t update your notification settings from within the app—you’ll be directed to Windows settings|
-|Some advanced meeting features, like breakout rooms|
-|Slash commands (like /chat)|
-|Support for Mac and web browsers|
 
 ## How to roll out New Teams
 
