@@ -42,7 +42,7 @@ There are two options for who can record a meeting:
 
 This choice is normally made by the meeting organizer when they create the meeting. If you have meetings where sensitive information is being shared and you want to limit the ability to record to organizers only, you can enforce this setting by using a meeting template or sensitivity label. 
 
-If you need to prevent meetings from being recorded entirely, you must configure the **Cloud recording** meetings policy in the Teams admin center. This setting applies to the people or groups that you specify and can't be applied via a meeting template or sensitivity label.
+If you need to prevent meetings from being recorded entirely, you must configure the **Meeting recording** meetings policy in the Teams admin center. This setting applies to the people or groups that you specify and can't be applied via a meeting template or sensitivity label.
 
 ## Automatic recording
 
@@ -56,7 +56,7 @@ If all of a particular type of meeting must be recorded (for example, all sensit
 
 By default, meeting recordings are deleted after 120 days. This is configured by using two policies in the Teams admin center:
 
-- **Meetings automatically expire** determines if meeting recordings are automatically deleted after a specified time.
+- **Recordings automatically expire** determines if meeting recordings are automatically deleted after a specified time.
 - **Default expiration time** specifies the number of days after which recordings are deleted. The default is 120.
 
 When a meeting participant records a meeting, the recording is stored in their OneDrive. Channel meetings are stored in the SharePoint site associated with the channel. Because meeting recordings are .mp4 files, they can be moved or deleted like any other file. If a meeting recording is moved from its original location, the expiration setting will no longer affect it.
