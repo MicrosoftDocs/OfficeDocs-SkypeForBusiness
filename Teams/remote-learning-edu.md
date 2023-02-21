@@ -92,7 +92,7 @@ Teams policies control the capabilities available for specific users or groups. 
 **Primary-secondary school staff and educators** should be assigned policies that grant key capabilities, like allowing private chat and meeting scheduling. [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
 > [!IMPORTANT]
-> For meeting policies assigned to any users, we recommend setting the **Automatically admit people** setting to **Everyone in your organization**. This will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings.
+> For meeting policies assigned to any users, we recommend setting the **Who can bypass the lobby** setting to **Everyone in your organization**. This will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings.
 >
 > For more information, see [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
