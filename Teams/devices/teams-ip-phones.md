@@ -174,6 +174,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX 350/400/500/600/505 | `8.0.2.3267` | 2022 Update #4A |
+|Poly Trio C60 | `8.0.2.3266` | 2022 Update #4A |
+|Crestron UC-2     | `1.0.6.28`    | 2022 Update #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.341` | 2022 Update #4A    |
 |Poly CCX350 | `8.0.2.2643` | 2022 Update #4A |
 |Yealink CP965  | `143.15.0.27`     | 2022 Update #4A  |
@@ -302,6 +305,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Neat Bar | `NFB1.20221128.0009` | 2022 Update #3 |
+| Neat Bar Pro| `NFD1.20221128.0009` | 2022 Update #3 |
+| Neat Board | `NFC1.20221128.0009` |  2022 Update #3 |
+| Neat Pad touch console | `NFA1.20221128.0005`  |  2022 Update #3 |
 | Yealink MeetingBoard 86" | `155.15.0.17` | 2022 Update #2B |
 | Neat Bar | `NFB1.20220914.1215` | 2022 Update #2B |
 | Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
@@ -415,6 +422,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Frame nf21f1 | `NFF1.20221128.0005` | 2022 Update #4A |
 |Neat Frame nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
 |Crestron UC-P10-TD     |`1.0.0.57` |2022 Update #3A|
 |Crestron UC-P8-TD     |`1.0.0.57` |2022 Update #3A|
@@ -445,6 +453,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel /770-T/1070-T | `2.003.1024.001` | 2022 Update #4|
 |Neat Pad Panel | `NFA1.20221128.0005` | 2022 Update #4  |
 |Logitech Tap Scheduler | `1.8.181` |2022 Update #4  |
 |Yealink RoomPanel | ` 147.15.0.36 ` | 2022 Update #4 |
