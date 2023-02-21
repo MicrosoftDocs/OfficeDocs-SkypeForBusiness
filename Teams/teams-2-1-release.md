@@ -40,14 +40,6 @@ What can you expect?
 
 ## Is the New Teams right for my org?
 
-|If you ...|You should...|
-|:-----|:-----|
-|Use PSNT|Stay on Classic Teams for now|
-|blah||
-|blah ||
-
-
-## What's in 
 
 |Available |Not available|
 |:-----|:-----|
