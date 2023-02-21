@@ -121,9 +121,9 @@ For students in education tenants, this policy is turned off by default. For mor
 
 This policy controls which users can register and attend webinars with meeting registration only. This policy has two options, which are only available if **Meeting registration** is turned on. By default, **Who can register** is set to **Everyone**.
 
-If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **Everyone in my organization**, only users in your organization can register for and attend webinars. If meeting registration is turned off, the **Who can register** setting won't be available and no one can register for webinars.
+If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **People in my organization**, only users in your organization can register for and attend webinars. If meeting registration is turned off, the **Who can register** setting won't be available and no one can register for webinars.
 
-The default value for **Who can register** is **Everyone in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
+The default value for **Who can register** is **People in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
 ## Collect webinar and meeting registration attendance
 

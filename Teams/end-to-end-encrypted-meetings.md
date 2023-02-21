@@ -69,7 +69,7 @@ To enable end-to-end encryption for meetings
 
 1. Select the policy you want to update.
 
-1. Set **End-to-end meeting encryption**, to **Not enabled, but users can override**.
+1. Set **End-to-end meeting encryption**, to **Off, but organizers and co-organizers can turn them on**.
 
 1. Select **Save**.
 
