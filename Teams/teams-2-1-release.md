@@ -46,6 +46,18 @@ What can you expect?
 |blah||
 |blah ||
 
+
+## What's in 
+
+|Available |Not available|
+|:-----|:-----|
+|Activity feed|Calls to and from telephone numbers, also known as the public switched telephone network (PSTN) –​​​​​​​ coming very soon!|
+|Chat|When a meeting starts, you won’t receive a notification with an option to join|
+|Teams to Teamns calls |You can’t update your notification settings from within the app—you’ll be directed to Windows settings|
+|Files|Some advanced meeting features, like breakout rooms|
+|Apps|Slash commands (like /chat)|
+|Support of MTMA|Support for Mac and web browsers|
+
 ## Manage new Teams roll out via Teams Policy
 
 As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use Microsoft Teams (preview), our New Teams client.
