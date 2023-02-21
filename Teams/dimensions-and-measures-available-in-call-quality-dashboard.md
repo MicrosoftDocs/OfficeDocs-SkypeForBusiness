@@ -27,17 +27,17 @@ description: "Get detailed information about the dimensions and measurements use
 
 # Dimensions and measurements available in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to better understand call quality of calls made with these services. This article provides detailed information about the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to understand the quality of calls made with these services. This article describes the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## First and Second endpoint classification
 
 Many of the dimensions and measurements in CQD are labeled as first or second. The following logic determines which endpoint involved in the stream or call is labeled as first:
 
-- A Server endpoint (AV MCU, Mediation Server, and so on) is considered First when a Server is involved in the stream or call.
-- A Client endpoint is considered Second unless the stream is between two Server endpoints.
-- If both endpoints are the same type, first vs. second is set based on internal ordering of the user agent category to ensure that the ordering is consistent.
+- A server endpoint (AV MCU, Mediation Server, and so on) is considered first when a server is involved in the stream or call.
+- A client endpoint is considered second unless the stream is between two server endpoints.
+- If both endpoints are the same type, first versus second is set based on internal ordering of the user agent category to ensure that the ordering is consistent.
 
-For example, here each row represents a pair of User Agents involved in a stream:
+In the following example, each row represents a pair of User Agents involved in a stream:
 
 |User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller
 |:--- |:--- |:--- |:--- |:--- |
@@ -50,7 +50,7 @@ For example, here each row represents a pair of User Agents involved in a stream
 |OC Phone (Skype for Business IP Phone) |OC (Skype for Business client) |OC (Skype for Business client) |OC Phone (Skype for Business IP Phone) |FALSE |
 
 > [!NOTE]
-> That First and Second classification is separate from which endpoint is the caller or callee. The First Is Caller dimension can be used to help identify which endpoint was the caller or callee.
+> That first and second classification is separate from which endpoint is the caller or callee. The First Is Caller dimension can be used to help identify which endpoint was the caller or callee.
 
 ## Dimensions
 
@@ -60,7 +60,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 
 #### Boolean
 
-Boolean values are always either True or False. In some cases, True can also be represented as 1 and False can be represented as 0.
+Boolean values are always either True or False. In some cases, True can be represented as 1, and False can be represented as 0.
 
 #### Range
 
@@ -81,11 +81,11 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
 
 > [!NOTE]
-> You may notice ranges that seem to be invalid for a given dimension. An example would be Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value for Wifi Signal Strength. This is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it will be counted in the 081: [90 - 100) range. If that value is 100, it will be counted in the 082: [100 - 110) range. This doesn't indicate that there are Wifi Signal Strength values greater than 100% being reported.
+> You may notice ranges that seem to be invalid for a given dimension. An example is Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value. This range is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it is counted in the 081: [90 - 100) range. If that value is 100, it is counted in the 082: [100 - 110) range. This doesn't indicate that there are Wifi Signal Strength values greater than 100% being reported.
 
 #### Enumeration strings
 
-Strings used by CQD are often derived from data files, and these can be nearly any combination of character within the allowed length. Some dimensions look like strings, but since they can only be one of a short list of predefined values, they're enumerations and not true strings. Some enumerations strings are also used in pairs.
+Strings used by CQD are often derived from data files, and these can be any combination of character within the allowed length. Some dimensions look like strings, but since they can only be one of a short list of predefined values, they're enumerations and not true strings. Some enumerations strings are also used in pairs.
 
 #### Enumeration pair
 
@@ -106,7 +106,7 @@ For example, the Network Connection Detail Pair shows the Network Connection Det
 
 #### Blank values
 
-The table below lists possible reasons why a dimension may be blank. Many dimensions and measurements will be blank if the QoE Record Available dimension is false. This typically occurs when the call wasn't successfully established, or when the client failed to send its telemetry to the service.
+The table below describes why a dimension may be blank. Many dimensions and measurements will be blank if the QoE Record Available dimension is false. This typically occurs when the call wasn't successfully established, or when the client failed to send its telemetry to the service.
 
 ### Available dimensions 
 
