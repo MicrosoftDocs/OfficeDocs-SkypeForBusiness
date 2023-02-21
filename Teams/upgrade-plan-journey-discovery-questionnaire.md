@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 05/29/2018
 description: Use this guidance to learn about the requirements for properly evaluating your current environment for upgrading to Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -169,5 +170,3 @@ Use the following table and capture the current adoption and readiness state of 
 > | What percentage of your user base would you say has <br>adopted Skype for Business? | | |
 > | What is user sentiment around Skype for Business? | <input type="checkbox"> Good <br/> <input type="checkbox"> Neutral <br/> <input type="checkbox"> Bad | |
 > | Which of the following best describes the rollout <br>strategy used for your Skype for Business <br>deployment? | <input type="checkbox"> Broad reach: Email campaign with <br>&nbsp; &nbsp; &nbsp;links to training <br/> <input type="checkbox"> Expanded: Broad reach plus a variety <br>&nbsp; &nbsp; &nbsp;of awareness campaigns (posters, <br>&nbsp; &nbsp; &nbsp;events, champions) and training <br>&nbsp; &nbsp; &nbsp;(videos, user guides, in-person) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted <br>&nbsp; &nbsp; &nbsp;messaging and training by persona <br/> <input type="checkbox"> Other <br>&nbsp; &nbsp; &nbsp;(Note the details in the Comments column.) | |
-
-

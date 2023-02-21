@@ -7,6 +7,7 @@ audience: ITPro
 appliesto: 
   - Microsoft Teams
 ms.reviewer: sohailta
+ms.date: 10/05/2022
 ms.topic: article
 ms.service: msteams
 f1.keywords: 

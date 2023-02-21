@@ -15,6 +15,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.reviewer: anwara
+ms.date: 08/11/2017
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams

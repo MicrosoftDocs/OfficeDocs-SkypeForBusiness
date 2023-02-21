@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 06/07/2018
 description: Learn about the requirements for preparing your organization for collaboration and cloud voice services with Teams.
 ms.localizationpriority: medium
 search.appverid: MET150

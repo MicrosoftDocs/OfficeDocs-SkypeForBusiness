@@ -1667,6 +1667,8 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Zero-touch App Install
+          href: zero-touch-app-install.md
 
     - name: Manage custom apps
       items:

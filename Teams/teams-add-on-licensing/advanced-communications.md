@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: reference
 audience: Admin
 ms.reviewer: nogaro
+ms.date: 07/24/2020
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
