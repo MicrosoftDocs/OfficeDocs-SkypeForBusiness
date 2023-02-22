@@ -1,7 +1,7 @@
 ---
 title: "Use Power BI to analyze CQD data for Microsoft Teams"
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: siunies
 ms.date: 03/06/2020
