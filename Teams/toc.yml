@@ -943,12 +943,8 @@ items:
           items: 
             - name: Calling Plans for Microsoft 365
               href: calling-plans-for-office-365.md
-            - name: Which Calling Plan is right for you?
-              href: calling-plan-landing-page.md
             - name: Set up Calling Plans
               href: set-up-calling-plans.md
-            - name: "Quick start guide: Configuring Calling Plans"
-              href: configuring-teams-calling-quickstartguide.md
             - name: Country and region availability for Calling Plans
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Operator Connect
