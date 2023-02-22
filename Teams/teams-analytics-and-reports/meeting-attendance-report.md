@@ -57,7 +57,7 @@ To turn off attendance reports, run the following:
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
 ```
 
-To turn on attendance reports for all webinars and meetings with all users initially excluded, but users have the option to opt-in and the report will only gather the identity of users attending the meeting, run the following:
+To turn on attendance reports that initially exclude all users, but that give users the option to opt-in, and that will only gather the identity of users attending the meeting, run the following:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEnabled
