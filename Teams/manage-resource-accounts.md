@@ -26,7 +26,7 @@ ms.custom:
 description: In this article, you'll learn how to create, edit, and manage resource accounts for service numbers in Microsoft Teams.
 ---
 
-# Manage resource accounts in Microsoft Teams
+# Manage resource accounts for service numbers
 
 [!INCLUDE [set-up-resource-account-steps](./includes/set-up-resource-account-steps.md)]
 

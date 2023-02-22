@@ -25,7 +25,7 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - intro-get-started
-description: Step-by-step guide detailing how to set up Teams Phone System for your organization in Microsoft 365.
+description: Learn how to set up Teams Phone System for your organization in Microsoft 365.
 ---
 
 # Set up Phone System in your organization
@@ -82,11 +82,11 @@ An emergency location is used when someone in your organization calls emergency 
 
 How you set up emergency locations differs depending on the PSTN connectivity option you choose. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology.  For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
+Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology. For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 For information about assigning emergency locations to users, see [Assign an emergency location](assign-change-emergency-location-user.md).
 
-## Step 4: Get phone numbers for your users and services
+## Step 4: Get and assign phone numbers for your users and services
 
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
 
