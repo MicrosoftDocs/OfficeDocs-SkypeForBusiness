@@ -4,6 +4,7 @@ ms.author: mabond
 author: mkbond007
 manager: serdars
 ms.reviewer: sachung, emryan
+ms.date: 04/08/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -52,9 +53,6 @@ For more information about the differences between meetings, webinars, and live 
 > For on-premises users, the new webinar experience isn't available yet.
 >
 > The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
-
-> [!IMPORTANT]
-> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists for eDiscovery purposes. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
 
 ## Set up new webinar experience
 
@@ -123,9 +121,9 @@ For students in education tenants, this policy is turned off by default. For mor
 
 This policy controls which users can register and attend webinars with meeting registration only. This policy has two options, which are only available if **Meeting registration** is turned on. By default, **Who can register** is set to **Everyone**.
 
-If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **Everyone in my organization**, only users in your organization can register for and attend webinars. If meeting registration is turned off, the **Who can register** setting won't be available and no one can register for webinars.
+If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **People in my organization**, only users in your organization can register for and attend webinars. If meeting registration is turned off, the **Who can register** setting won't be available and no one can register for webinars.
 
-The default value for **Who can register** is **Everyone in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
+The default value for **Who can register** is **People in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
 ## Collect webinar and meeting registration attendance
 

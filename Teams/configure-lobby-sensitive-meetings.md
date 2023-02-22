@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -51,7 +52,7 @@ The following settings are available for **Who can bypass the lobby**:
 - People in my organization and guests
 - People in my organization
 - People who were invited
-- Organizers and co-organizers
+- Only organizers and co-organizers
 
 An additional setting, **People dialing in can bypass the lobby**, controls if people calling in by phone can bypass the lobby.
 
@@ -69,7 +70,7 @@ For information about using meeting templates and sensitivity labels together, s
 
 ### Attendees calling in by phone
 
-By default, attendees who are dialing in by phone go through the lobby. Administrators can change this default with the **Dial-in users can bypass the lobby** admin meeting policy. If you want to enforce this setting to be on or off, you must use a meeting template or sensitivity label.
+By default, attendees who are dialing in by phone go through the lobby. Administrators can change this default with the **People dialing in can bypass the lobby** admin meeting policy. If you want to enforce this setting to be on or off, you must use a meeting template or sensitivity label.
 
 If there are circumstances where you want to allow callers to bypass the lobby, meeting organizers can control this setting, or you can enforce it through a meeting template or sensitivity label.
 

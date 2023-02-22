@@ -3,6 +3,7 @@ title: Assign policies to users and groups
 author: mkbond007
 ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
+ms.date: 11/15/2019
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud

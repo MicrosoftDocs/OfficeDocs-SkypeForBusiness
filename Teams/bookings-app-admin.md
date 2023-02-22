@@ -25,6 +25,7 @@ ms.collection:
   - highpri
   - m365initiative-meetings
 ms.reviewer: revathim, thyagarajans
+ms.date: 05/15/2020
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
 
@@ -56,7 +57,7 @@ You can also [create a Teams app setup policy to pin the Bookings app for select
 
 ## Recommended meeting policy settings
 
-To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **Everyone in my organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [how to automatically admit people to meetings](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
+To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **People in my organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [who can bypass the lobby to meetings](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
 For more information about meeting policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md) and [Meeting policies and meeting expiration in Teams](meeting-expiration.md).
 

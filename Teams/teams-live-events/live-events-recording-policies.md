@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: christi.balaki
+ms.date: 06/10/2020
 audience: admin
 search.appverid: MET150
 f1.keywords:
