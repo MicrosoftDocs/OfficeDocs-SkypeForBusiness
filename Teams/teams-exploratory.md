@@ -79,7 +79,7 @@ Eligible users can sign up for the Teams Exploratory experience by signing into 
 > [!NOTE]
 > There are two possible experiences of Teams Exploratory. Some of the instructions in this article will depend on which experience of Teams Exploratory your users have access to.
 >
-> One Teams Exploratory experience is for tenants on the New Commerce Experience or tenants that have no users with a Teams Exploratory license.
+> One Teams Exploratory experience is for tenants on the New Commerce Experience (NCE) or tenants that have no users with a Teams Exploratory license.
 >
 > The other experience is for tenants that aren't on the New Commerce Experience and who currently have users with a current Teams Exploratory license.
 >
@@ -106,13 +106,13 @@ Admins can turn off the ability for end users to run the Teams Exploratory exper
 
 You can turn off a user's ability to install trial apps and services, which would prevent the user from running the Teams Exploratory experience.
 
-#### If your users have V3 of the Teams Exploratory license
+#### If your users have the NCE experience of Teams Exploratory
 
 If your tenant is on the New Customer Experience or if you currently have no users with a Teams Exploratory license, you need to use PowerShell to turn off a user's ability to install trial apps and services.
 
 For instructions on how to turn off and on users' ability to to install trial apps and services, see [Use AllowSelfServicePurchase for the MSCommerce PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
-#### If your users have V2 of the Teams Exploratory license
+#### If your users have the non-NCE experience of Teams Exploratory
 
 1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 1. On the left-side navigation, go to **Settings** > **Org settings**.
@@ -174,12 +174,12 @@ To learn about Microsoft's data retention policy, see [Microsoft 365 subscriptio
 
 Teams Exploratory lasts depending on which Teams Exploratory experience your users have access to.
 
-For users with the V3 experience of Teams Exploratory, there are two different trial periods:
+For users with the NCE experience of Teams Exploratory, there are two different trial periods:
 
 - For Enterprise Agreement (EA) customers: 6-month trial period
 - For non-Enterprise Agreement customers: 3-month trail period
 
-For users with the V2 experience of Teams Exploratory, they will have a 12-month trial period.
+For users with the non-NCE experience of Teams Exploratory, they will have a 12-month trial period.
 
 The Teams Exploratory subscription starts when the first user in an organization signs up for Teams Exploratory. The expiry date will apply to all users in the same tenant as the trial period begins on the first user's sign-up date.
 
