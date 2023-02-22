@@ -33,13 +33,15 @@ description: Learn about Calling Plan (PSTN Calling plan) for Skype for business
 
 # Micosoft Calling Plans for Teams
 
-Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN).
+Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN) by selecting a calling plan.
 
-Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Phone System to the PSTN for external calling. **With this option, Microsoft acts as your PSTN carrier.**
+This article describes Phone System with Microsoft Calling Plan--Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Phone System to the PSTN for external calling. **With this option, Microsoft acts as your PSTN carrier.**
 
-This article describes Microsoft Calling Plan options. For more information about planning your voice solution, and for information on all PSTN connectivity options, see the following articles:
+To find out if Microsoft Calling Plans are available in your area, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- [Plan yourvoice solution](cloud-voice-landing-page.md)
+If Calling Plans are not available in your area, Microsoft provides other PSTN connecticity options.  For more information about planning your voice solution, and for information on all PSTN connectivity options, see the following articles:
+
+- [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
 
  
@@ -54,7 +56,7 @@ Microsoft Calling Plan options include the following:
 
 To decide which option is right for your organizations, ask yourself the following:
 
-- Are Calling Plans available in my area? Which user locations will have Calling Plan service?
+- Are Calling Plans available in my area? Which user locations will have Calling Plan service? 
 - Do my users need international calling?
 - If some of my users don't make a significant number of outgoing calls, is the Pay-As-You-Go Calling Plan the most economical option for them?
 
