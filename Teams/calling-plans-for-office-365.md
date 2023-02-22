@@ -28,10 +28,10 @@ ms.custom:
   - Licensing
   - LIL_Placement
   - seo-marvel-apr2020
-description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. 
+description: Learn about Microsoft Calling Plans for Teams and how to get licenses for your organization. 
 ---
 
-# Micosoft Calling Plans for Teams
+# Microsoft Calling Plans for Teams
 
 Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Teams Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN) by selecting a calling plan.
 
