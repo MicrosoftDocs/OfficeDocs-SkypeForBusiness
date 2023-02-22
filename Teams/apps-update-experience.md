@@ -44,7 +44,7 @@ If an app's newer version doesn't require any new permissions and doesn't have c
 
 If an app's newer version requires new permissions, then the user is prompted to grant their consent for the permissions and update the app. The user can proceed if they have the permissions to update. Otherwise, Teams notifies the user to contact their IT admin.
 
-It is not possible for you to consent on behalf of your org for a new version of an app, if the new version requires more permissions. In case of an app update, users are required to update the app on their own.
+It isn't possible for you to consent on behalf of your org for a new version of an app, if the new version requires more permissions. When an app updates, users must update the app on their own.
 
 > [!NOTE]
 > When a newer version of an app is made available and needs more permissions, then you can't consent on behalf of the users. Each user must individually provide consent in their Teams client.
