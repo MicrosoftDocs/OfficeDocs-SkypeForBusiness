@@ -23,9 +23,7 @@ ms.custom:
 
 As an admin, you control whether meeting organizers can download an attendance report by settings in a Teams meeting policy. By default, the ability to download the report is turned on.
 
-During the meeting, organizers can find the attendance report in the **People** > **Participants** pane of the meeting, as well as areas within the meeting invite and in the meeting chat. For education tenants, attendance report is useful to track student attendance in online classes. For example, the teacher can download the attendance report at the start of class as a simple way to do a "roll call." Read more about [how organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
-
-If meeting organizers need access to more meeting attendance data than they get from the attendance report available within the meeting, you can assign them the *Report reader* role so they can access the Teams admin reports themselves. To learn about this, read [Who can access the Teams activity reports](../teams-activity-reports.md#who-can-access-the-teams-activity-reports).
+During the meeting, organizers can find the attendance report in the **People** > **Participants** pane of the meeting, as well as areas within the meeting invite and in the meeting chat. For education tenants, attendance report is useful to track student attendance in online classes. For example, the teacher can download the attendance report at the start of class as a simple way to do a roll call. Read more about [how organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Set attendance report policies in Teams admin center
 
