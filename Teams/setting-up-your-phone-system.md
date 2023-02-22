@@ -44,7 +44,7 @@ This article describes the following steps. Each step contains links to more det
 - [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
 - [Step 3: Set up emergency locations for emergency calling](#step-3-set-up-emergency-locations-for-emergency-calling)
-- [Step 4: Get phone numbers for your users and services](#step-4-get-phone-numbers-for-your-users-and-services)
+- [Step 4: Get and assign phone numbers for your users and services](#step-4-get-and-assign-phone-numbers-for-your-users-and-services)
 - [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
 - [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [Step 7: Set up other Phone System features](#step-7-set-up-other-phone-system-features)
