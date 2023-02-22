@@ -33,7 +33,7 @@ description: Learn about Calling Plan (PSTN Calling plan) for Skype for business
 
 # Micosoft Calling Plans for Teams
 
-Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN) by selecting a calling plan.
+Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Teams Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN) by selecting a calling plan.
 
 This article describes Phone System with Microsoft Calling Plan--Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Phone System to the PSTN for external calling. **With this option, Microsoft acts as your PSTN carrier.**
 

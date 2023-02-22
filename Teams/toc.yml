@@ -941,7 +941,7 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
-            - name: Calling Plans for Microsoft 365
+            - name: Calling Plans for Teams Phone System
               href: calling-plans-for-office-365.md
             - name: Set up Calling Plans
               href: set-up-calling-plans.md
