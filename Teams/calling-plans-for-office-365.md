@@ -44,6 +44,8 @@ If Calling Plans are not available in your area, Microsoft provides other PSTN c
 - [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
 
+After reading this article, see [Set up Calling Plans](set-up-calling-plans.md).
+
  
 
 ## Calling Plan options
@@ -54,7 +56,7 @@ Microsoft Calling Plan options include the following:
 - [International Calling Plan](#international-calling-plan)
 - [Pay-As-You-Go Calling Plan](#pay-as-you-go-calling-plan)
 
-To decide which option is right for your organizations, ask yourself the following:
+To decide which option is right for your organization, ask yourself the following:
 
 - Are Calling Plans available in my area? Which user locations will have Calling Plan service? 
 - Do my users need international calling?
@@ -66,7 +68,7 @@ All users in the same country/region with the same Calling Plan share a pool of 
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
 
 
-For more information about monthly minutes available for each organization in each country/region, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+For more information about monthly minutes available in each country/region, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 ### Domestic Calling Plan
 
@@ -127,12 +129,6 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 
 - [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling).
 - [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings).
-
-
-### Transfer phone numbers to Microsoft 365 or Office 365
-
-It's easy to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
-
 
 
 ## Related articles
