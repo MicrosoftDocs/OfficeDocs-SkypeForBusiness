@@ -382,6 +382,14 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Audio Render Device In Use  | String  | Indicates which hardware device was used for playback of the audio stream on the second endpoint.  | <br/>&bull; The data wasn't reported by the endpoint  |
 | First Audio Capture Device In Use  | String  | Indicates which hardware device was used for capture of the audio stream on the first endpoint.  | <br/>&bull; The data wasn't reported by the endpoint  |
 | Second Audio Capture Device In Use  | String  | Indicates which hardware device was used for capture of the audio stream on the second endpoint.  | <br/>&bull; The data wasn't reported by the endpoint  |
+| First Audio Codec Average BW| Integer | Indcates the average bandwidth for the first endpoint's audio stream measured, in bytes per second. | &bull; Stream was not an audio stream|
+| Second Audio Codec Average BW| Integer | Indcates the average bandwidth for the second endpoint's audio stream measured, in bytes per second. | &bull; Stream was not an audio stream|
+| First Mic Device Is Speaker Device| Boolean | Indicates if the same audio device was used by the first endpoint for both capture and rendering. ||
+| Second Mic Device Is Speaker Device| Boolean |Indicates if the same audio device was used by the second endpoint for both capture and rendering. ||
+| First Capture Dev Name| String | Name of the audio capture device used by the first endpoint. ||
+| Second Capture Dev Name| String | Name of the audio capture device used by the second endpoint. ||
+| First Render Dev Name| String | Name of the audio playback device used by the first endpoint. ||
+| Second Render Dev Name| String | Name of the audio playback device used by the second endpoint. ||
 |**Measure**||||
 | ClassifiedPoorCall  | Boolean  | True if one or more streams in the call were classified as poor based on the metrics listed in [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).   | &bull; The call didn't have sufficient metrics reported to be classified as good or poor   |
 | Video Poor Due To VideoPostFecplr  | Boolean  | True if the stream was classified as poor based on the Video Post FEC PLR metric threshold listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). Will always be False for non-video streams.   | &bull; The endpoint didn't report this data  <br/>&bull; The stream wasn't a video stream.  |
@@ -574,6 +582,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |Is Call Queue Involved|Boolean|If True, a Call Queue was involved in a given call or stream. ||
 |**Meeting**||||
 |Scheduling Source App Id|String |The AppID of the first or third-party scheduling client that booked the meeting.|The scheduling client hasn't provided this parameter through its telemetry.|
+| Total User Count | Integer | Total number of unique users associated with a query. | |
 |**Common**||||
 | First ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the first endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint isn't using Azure Communication Services APIs|
 | Second ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the second endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint isn't using Azure Communication Services APIs|
