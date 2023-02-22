@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 10/22/2022
+ms.date: 02/23/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -39,6 +39,10 @@ If app developers make one or more the following changes to their apps, then the
 * Add or remove permissions in authorization.
 * Add or remove a messaging extension, add a group tab, add a connector, or add a channel.
 * Change parameters in the [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) in the manifest file.
+
+If an app's newer version doesn't require any new permissions and doesn't have changes in the above properties, then it updates to a new version automatically.
+
+If an app's newer version requires new permissions, then the user is prompted to grant their consent for the permissions and update the app. The user can proceed if they have the permissions to update. Otherwise, Teams notifies the user to contact their IT admin.
 
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::

@@ -56,7 +56,7 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 ## Third-party apps created by independent app developers
 
-In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation.
+In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams' store.":::
 
