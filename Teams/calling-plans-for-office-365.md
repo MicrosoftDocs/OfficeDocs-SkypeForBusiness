@@ -39,7 +39,7 @@ This article describes Phone System with Microsoft Calling Plan--Microsoft's all
 
 To find out if Microsoft Calling Plans are available in your area, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-If Calling Plans are not available in your area, Microsoft provides other PSTN connecticity options.  For more information about planning your voice solution, and for information on all PSTN connectivity options, see the following articles:
+If Calling Plans are not available in your area, Microsoft provides other PSTN connectivity options. For more information about planning your voice solution, and for information on all PSTN connectivity options, see the following articles:
 
 - [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
