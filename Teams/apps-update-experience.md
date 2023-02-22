@@ -59,7 +59,7 @@ It isn't possible for you to consent on behalf of your org for a new version of 
 
 Custom apps that are created and deployed within your organization are available to the users on your tenant or organization. Teams admin updates a custom app to its new version when a new version is provided by their organization's developers. For more information, see [how admins manage custom apps](custom-app-overview.md).
 
-For custom apps, you must upload the newer version of the app or accept the same if [developer submits via API](submit-approve-custom-apps.md). The users are required to provide their consent as applicable, before the app updates.
+For custom apps to update, after you upload the new version of the app to Teams, users must individually provide their consent if it is required.
 
 ## Related articles
 
