@@ -31,19 +31,20 @@ description: Learn to set up Calling Plans, including view plans available in yo
 ---
 # Set up Microsoft Calling Plans
 
-This article describes how to set up Phone System with Microsoft Calling Plans, 
-Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Phone System to the Public Switched Telephone Network (PSTN) for external calling. With this option, **Microsoft acts as your PSTN carrier**.
+This article describes how to set up Microsoft Calling Plans with Teams Phone System. This solution is the simplest option that connects Phone System to the Public Switched Telephone Network (PSTN) for external calling. With this option, **Microsoft acts as your PSTN carrier**.
 
 This article assumes that you already have Phone System licenses for your users, which is a requirement for purchasing Calling Plans. If you do not have a Phone System license, see [Set up Phone System](setting-up-your-phonesystem.md).
 
 For more information about all Microsoft Calling Plan options, see [Calling Plans for Teams](calling-plans-for-office-365.md).
+
+For more information about Phone System, see [What is Phone System](what-is-phone-system-in-office-365.md).
 
 
 ## Step 1: Find out if Calling Plans are available in your country/region
 
 Go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Calling Plans.
 
-If Calling Plans aren't available for your country or region, see [PSTN connectivity options](pstn-connectivity.md) for all available options.
+If Calling Plans aren't available for your country or region, see [PSTN connectivity options](pstn-connectivity.md) for other available PSTN connectivity options.
   
 ## Step 2: Buy and assign licenses
 
@@ -74,7 +75,7 @@ For information about emergency calling and managing emergency addresses, see [M
 ## Step 5: Assign an emergency address and a phone number to a user
 <a name="bkmk_add_addresses"> </a>
 
-When you're setting up Calling Plans in Microsoft 365, you must assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. For more information, see [Assign or change an emergency address](assign-change-emergency-location-user.md).
+You must assign a phone number and an emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. For more information, see [Assign or change an emergency address](assign-change-emergency-location-user.md) and [Assign a phone number](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 > [!TIP]
 > If you add more people to your business right before doing this step, it may take **several hours** for them to appear on the **Voice users** page.
@@ -83,9 +84,7 @@ When you're setting up Calling Plans in Microsoft 365, you must assign a phone n
 
 Microsoft recommends sending mail or using your business's preferred communication method to tell the people about their new phone numbers.
 
-In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
-
-![Screen shot of the options available after clicking Calls.](media/teams-phone-number.png)
+In **Microsoft Teams**, users can see their phone number by selecting **Calls** in the left navigation. The phone number is shown above the dial pad.
 
 ## Run a Self-diagnostics tool
 
@@ -99,17 +98,6 @@ Select Run Tests, as follows. This will populate the diagnostic in the Microsoft
 >> [Run Tests: Teams PSTN](https://aka.ms/TeamsPSTNDiag)
 
 The diagnostic performs a large range of verifications.
-
-## Do you want to automate assigning phone numbers?
-<a name="bkmk_add_addresses"> </a>
-
-If you know Windows PowerShell, you can use the following cmdlets to automate assigning phone numbers to your users.
-  
-- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment): Retrieves the telephone numbers from the tenant.
-
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment): Sets the telephone numbers.
-
-To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
   
 ## Related articles
 
