@@ -364,7 +364,7 @@ History-Info:
   <sip:+14257123456@sip.pstnhub.microsoft.com:5061;user=phone?Reason=SIP%3Bcause%3D496%3Btext%3D%22User%20Busy%22>;index=1.1
 ```
 
-The SIP URI in the History-Info header is formatted as per Section 25 of RFC 3261 (see the definition of `addr-spec`). In the above example, the original text of the URI header `Reason` is `SIP;cause=496;text="User Busy"`, which gets its `;`, `"` and `=` characters escaped to their ASCII hex values `%3B`, `%22` and `3D`, respectively.
+The SIP URI in the History-Info header is formatted as per Section 25 of RFC 3261 (see the definition of `addr-spec`). In the previous example, the original text of the URI header `Reason` is `SIP;cause=496;text="User Busy"`, which gets its `;`, `"`, and `=` characters escaped to their ASCII hex values `%3B`, `%22`, and `3D`, respectively.
 
 The History-Info is protected by a mandatory TLS mechanism. 
 
