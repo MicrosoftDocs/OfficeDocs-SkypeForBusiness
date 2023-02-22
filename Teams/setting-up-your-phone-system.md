@@ -45,7 +45,6 @@ This article describes the following steps. Each step contains links to more det
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
 - [Step 3: Set up emergency locations for emergency calling](#step-3-set-up-emergency-locations-for-emergency-calling)
 - [Step 4: Get phone numbers for your users and services](#step-4-get-phone-numbers-for-your-users-and-services)
-- Step 5: Assign emergency locations to users
 - [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
 - [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [Step 7: Set up other Phone System features](#step-7-set-up-other-phone-system-features)
@@ -84,6 +83,8 @@ An emergency location is used when someone in your organization calls emergency 
 How you set up emergency locations differs depending on the PSTN connectivity option you choose. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology.  For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
+
+For information about assigning emergency locations to users, see [Assign an emergency location](assign-change-emergency-location-user.md).
 
 ## Step 4: Get phone numbers for your users and services
 
