@@ -51,7 +51,7 @@ This article describes the following steps. Each step contains links to more det
 - [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
 > [!NOTE]
-> Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, phone number management and emergency calling management will differ.  These differences are described in detailed in the associated articles.
+> Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, phone number management and emergency calling management might differ.  These differences are described in detail in the associated articles.
 
 ## Step 1: Buy and assign a Phone System license
 
@@ -119,7 +119,7 @@ For information about setting up auto attendants, see [Plan for Teams auto atten
 
 ## Step 7: Set up other Phone System features
 
-There are numerous Phone System features, which are summarized in [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not.  In addition to cloud queues and auto attendants, some of the more common features you might want to configure include:
+There are numerous Phone System features, which are summarized in [Phone System features](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not. In addition to cloud queues and auto attendants, some of the more common features you might want to configure include:
 
 - [Cloud voicemail](set-up-phone-system-voicemail.md)
 - [Caller ID](caller-id-policies.md)
