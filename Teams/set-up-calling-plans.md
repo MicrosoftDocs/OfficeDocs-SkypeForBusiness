@@ -33,7 +33,7 @@ description: Learn to set up Calling Plans, including view plans available in yo
 
 This article describes how to set up Microsoft Calling Plans with Teams Phone System. This solution is the simplest option that connects Phone System to the Public Switched Telephone Network (PSTN) for external calling. With this option, **Microsoft acts as your PSTN carrier**.
 
-This article assumes that you already have Phone System licenses for your users, which is a requirement for purchasing Calling Plans. If you do not have a Phone System license, see [Set up Phone System](setting-up-your-phonesystem.md).
+This article assumes that you already have Phone System licenses for your users, which is a requirement for purchasing Calling Plans. If you do not have a Phone System license, see [Set up Phone System](setting-up-your-phone-system.md).
 
 For more information about all Microsoft Calling Plan options, see [Calling Plans for Teams](calling-plans-for-office-365.md).
 
