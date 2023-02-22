@@ -48,7 +48,7 @@ If Calling Plans aren't available for your country or region, see [PSTN connecti
   
 ## Step 2: Buy and assign licenses
 
-1. After you buy and assign **Phone System** licenses, you can purchase [Calling Plans for Microsoft 365](calling-plans-for-office-365.md). For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. After you buy and assign **Teams Phone** licenses, you can purchase [Calling Plans for Teams Phone System](calling-plans-for-office-365.md). For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Assign a Calling Plan license to the people in your organization. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
