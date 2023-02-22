@@ -55,7 +55,7 @@ If your network runs through a proxy, you'll need the proxy address or script in
 
 > [!IMPORTANT]
 > - Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
-> - WiFi connections **are not supported**.
+> - Wi-Fi connections **are not supported**.
 
 > [!NOTE]
 > Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.
