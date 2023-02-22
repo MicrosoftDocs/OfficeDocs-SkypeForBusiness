@@ -46,6 +46,9 @@ If an app's newer version requires new permissions, then the user is prompted to
 
 It is not possible for you to consent on behalf of your org for a new version of an app, if the new version requires more permissions. In case of an app update, users are required to update the app on their own.
 
+> [!NOTE]
+> When a newer version of an app is made available and needs more permissions, then you can't consent on behalf of the users. Each user must individually provide consent in their Teams client.
+
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
 
@@ -55,6 +58,8 @@ It is not possible for you to consent on behalf of your org for a new version of
 ## Updates to custom apps
 
 Custom apps that are created and deployed within your organization are available to the users on your tenant or organization. Teams admin updates a custom app to its new version when a new version is provided by their organization's developers. For more information, see [how admins manage custom apps](custom-app-overview.md).
+
+For custom apps, you must upload the newer version of the app or accept the same if [developer submits via API](submit-approve-custom-apps.md). The users are required to provide their consent as applicable, before the app updates.
 
 ## Related articles
 
