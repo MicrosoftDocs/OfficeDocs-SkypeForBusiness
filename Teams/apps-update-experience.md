@@ -24,10 +24,10 @@ description: In this article, learn how Microsoft apps, custom apps, and third-p
 
 Teams admins can help their end-users get the latest version of the apps. To do so, they accomplish one or both of the following tasks:
 
-* [Update third-party apps](#updates-to-third-party-apps) that are available in Teams store when a new version is provided by the app developer or vendor.
-* [Update custom apps](#updates-to-custom-apps) that are available only in your organization when your developer submits a new version.
+* [Update Store apps](#store-app-updates) that are available in Teams store when a new version is provided by the app developer or vendor.
+* [Update custom apps](#custom-app-updates) that are available only in your organization when your developer submits a new version.
 
-## Updates to third-party apps
+## Store app updates
 
 For users to install and use an app, they must give permissions to the app to access the required services and information. In most cases, when a new version of an installed app is available in the Teams store, the app is automatically updated for all users. However, a few specific changes in the new version of the app require a user permission again. This repeat user acceptance ensures awareness about the changes such as functionality or access to personal information. Teams admins can [provide permissions to an app on behalf of the users](app-permissions-admin-center.md).
 
@@ -55,7 +55,7 @@ It isn't possible for you to consent on behalf of your org for a new version of 
 :::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
 --->
 
-## Updates to custom apps
+## Custom app updates
 
 Custom apps that are created and deployed within your organization are available to the users on your tenant or organization. Teams admin updates a custom app to its new version when a new version is provided by their organization's developers. For more information, see [how admins manage custom apps](custom-app-overview.md).
 
