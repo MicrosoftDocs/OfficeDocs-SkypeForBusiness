@@ -519,14 +519,22 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Organizer ObjectId|String|The Active Directory object ID of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | &bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
 | Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
 | Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
+| PII Scrubbed | Boolean | Indicates if the end-user identifiable information has been scrubbed from the record. This happens automatically after a record is 28 days old. ||
 |**Devices**||||
 | First Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | First Render Device Form Factor|Enumeration string|The form factor of the audio capture device (speakers) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Render Device Form Factor|Enumeration string|The form factor of the audio capture device (speakers) on the first endpoint. | &bull; Not reported by the endpoint. |
 |**Video**||||
+| First Recv Resolution Height | Number (pixels) | Vertical resolution of the video stream received by the first endpoint. | &bull; Stream is not a video stream |
+| Second Recv Resolution Height | Number (pixels) | Vertical resolution of the video stream received by the second endpoint. | &bull; Stream is not a video stream |
+| First Recv Resolution Width | Number (pixels) | Horizontal resolution of the video stream received by the first endpoint. | &bull; Stream is not a video stream |
+| Second Recv Resolution Width | Number (pixels) | Horizontal resolution of the video stream received by the second endpoint. | &bull; Stream is not a video stream |
 | First Video Duration Seconds |Range (seconds)| Duration of the first endpoint's video stream, measured in seconds and displayed as a range. <br/>**Example value:** 254: [1000 - 1500] | &bull; Not reported by the endpoint. |
 | Second Video Duration Seconds |Range (seconds)| Duration of the second endpoint's video stream, measured in seconds and displayed as a range. <br/>**Example value:** 254: [1000 - 1500] | &bull; Not reported by the endpoint. |
+
+
+
 |**PSTN**||||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it's false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Second PSTN Country Region|String|If FirstIsCaller is false, Second PSTN Country Region is the caller's country. If it's true, then First PSTN Country region is the caller's country.<br/>**Example:** US||
