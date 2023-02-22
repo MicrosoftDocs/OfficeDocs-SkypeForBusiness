@@ -40,9 +40,11 @@ If app developers make one or more the following changes to their apps, then the
 * Add or remove a messaging extension, add a group tab, add a connector, or add a channel.
 * Change parameters in the [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) in the manifest file.
 
-If an app's newer version doesn't require any new permissions and doesn't have changes in the above properties, then it updates to a new version automatically.
+If an app's newer version doesn't require any new permissions and doesn't have changes in the above properties, then it updates to a new version automatically. When updating the app, users must update the app in each scope in which the app is added, for example, in personal, team, chats, and meeting scopes.
 
 If an app's newer version requires new permissions, then the user is prompted to grant their consent for the permissions and update the app. The user can proceed if they have the permissions to update. Otherwise, Teams notifies the user to contact their IT admin.
+
+It is not possible for you to consent on behalf of your org for a new version of an app, if the new version requires more permissions. In case of an app update, users are required to update the app on their own.
 
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
