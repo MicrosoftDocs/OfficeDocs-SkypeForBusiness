@@ -540,9 +540,6 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Recv Resolution Width | Number (pixels) | Horizontal resolution of the video stream received by the second endpoint. | &bull; Stream is not a video stream |
 | First Video Duration Seconds |Range (seconds)| Duration of the first endpoint's video stream, measured in seconds and displayed as a range. <br/>**Example value:** 254: [1000 - 1500] | &bull; Not reported by the endpoint. |
 | Second Video Duration Seconds |Range (seconds)| Duration of the second endpoint's video stream, measured in seconds and displayed as a range. <br/>**Example value:** 254: [1000 - 1500] | &bull; Not reported by the endpoint. |
-
-
-
 |**PSTN**||||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it's false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Second PSTN Country Region|String|If FirstIsCaller is false, Second PSTN Country Region is the caller's country. If it's true, then First PSTN Country region is the caller's country.<br/>**Example:** US||
