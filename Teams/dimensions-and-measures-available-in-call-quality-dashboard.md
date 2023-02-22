@@ -408,8 +408,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Detected Uplink Problem| Boolean | If true, indicates high confidence that a media stream may have been impacted due to the network uplink. | &bull; This dimension doesn't apply to P2P calls. |
 | Detected Other User Device Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the remote capture device. |
 | Detected Local Input Device Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the render device on the first endpoint. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
-| Detected Hearing Echo Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to echo.|
-| Detected Other User Compute Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to compute resources on the remote side. |
+| Detected Hearing Echo Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to echo.||
+| Detected Other User Compute Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to compute resources on the remote side. ||
 | Detected Local Compute Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to local compute resources. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
 | Detected Media Modality Problem | Boolean | If true, indicates high confidence that the user's experience of the inbound media stream was poor. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
 |**Rating**||||
