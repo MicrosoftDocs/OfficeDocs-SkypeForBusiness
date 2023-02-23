@@ -34,9 +34,9 @@ Organizations with a subscription that includes Teams Phone are allocated a cert
 
 ## Resource Account license allocation
 
-Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Phone System features, such as **Teams Phone Standard** or **Teams Phone with Calling Plan** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost.
+Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Phone System features, such as **Teams Phone Standard**, **Teams Phone with Calling Plan**, and **Teams Shared Devices** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost.
 
-For every 10 user licenses of **Teams Phone Standard**, **Teams Phone with Calling Plan**, or devices licensed with the **Teams Shared Devices** license in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations will have enough **Teams Phone Resource Account** licenses based on this scaling plan.
+For every 10 user licenses of **Teams Phone Standard**, **Teams Phone with Calling Plan**, or devices with **Teams Shared Devices** license in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations will have enough **Teams Phone Resource Account** licenses based on this scaling plan.
 
 In the event more **Teams Phone Resource Account** licenses are required, you can purchase more **Teams Phone Resource Account** licenses beyond the standard allocation through EA, EAS, EES, CSP, Web Direct, NCE – Customer led, and NCE – Partner led or your Microsoft account representative at a cost.
 
