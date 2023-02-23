@@ -119,13 +119,11 @@ Users who have permissions to the app can find it in your organization's app sto
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
-## Update
+## Update a custom app
 
-To update an app, developers should continue to follow the steps in the [Develop](#develop) section.
+When the developer submits an update to a published custom app, you get notified in the **Pending approval** widget on the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps) in admin center. In app listing on Manage apps page, the **Publishing status** of the app is set to **Update submitted**.
 
-When the developer submits an update to a published custom app, you'll get notified in the **Pending approval** widget of the [Manage apps](/microsoftteams/manage-apps) page. In the table, the **Publishing status** of the app will be set to **Update submitted**. You'll also be notified in the **Admin Alerts and Notifications** team under the **App submission** channel if you turned on app submission notifications. The notification card will have a link to take you directly to the app in the Teams admin center. For more information on how to turn on app submission notifications, see [Notify](#notify).
-
-:::image type="content" source="media/custom-app-lifecycle-update-submitted.png" alt-text="Manage apps page showing pending requests and app status." lightbox="media/custom-app-lifecycle-update-submitted.png":::
+:::image type="content" source="media/custom-app-lifecycle-update-submitted.png" alt-text="Screenshot shows Manage apps page with a pending request and status of a newly submitted app." lightbox="media/custom-app-lifecycle-update-submitted.png":::
 
 To review and publish an app update:
 
@@ -147,7 +145,7 @@ For more information about using the Graph API to update apps, see [here](/graph
 
 ## Considerations and limitations
 
-Consider the following issues when using this feature:
+Consider the following issue when using this feature:
 
 * Th method is not available in GCC environments. [Upload a custom app](upload-custom-apps.md) to publish it in GCC environments.
 
