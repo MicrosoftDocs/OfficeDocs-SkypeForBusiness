@@ -59,7 +59,7 @@ Users in TeamsOnly mode receive incoming chats and calls in Teams, and also sche
 ## Actions to take before June 30, 2022
 Now that Skype for Business Online is retired, Microsoft will begin decommissioning the supporting infrastructure no sooner than June 30, 2022.  For any organization with TeamsOnly users that were upgraded from any version of Skype for Business, you need to take action if either of these situations applies:
 
-- If you have any TeamsOnly users users that previoulsy had contacts in Skype for Business *and* who have not yet logged in to Teams since being upgraded.
+- If you have any TeamsOnly users users that previously had contacts in Skype for Business *and* who have not yet logged in to Teams since being upgraded.
 - If you have any TeamsOnly users that still have Skype for Business Online meetings that they organized before they were upgraded to TeamsOnly.
 
 If either of these situations apply to your organization, you must take action by June 30, 2022 as described below:
