@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -121,7 +122,7 @@ To create a sensitivity label
 1. Select **Next**.
 1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
     1. Select **Control who can bypass the lobby** and select **Only organizers and co-organizers** from the dropdown list.
-    1. Ensure that **Allow dial-in users to bypass the lobby** is unchecked
+    1. Ensure that **People dialing in can bypass the lobby** is unchecked
     1. Select **Control who can present** and select **Only organizers and co-organizers** from the dropdown list.
     1. Select **Control end-to-end encryption for meeting video and audio** and then select **Apply end-to-end encryption**.
     1. Select **Control watermarks** and then select **Apply watermark to shared content** and **Apply watermark to everyone's video feed**.

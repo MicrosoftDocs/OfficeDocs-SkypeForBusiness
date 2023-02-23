@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
+ms.date: 01/28/2022
 description: This article describes how Kaizala compliments the rich capabilities and features in Microsoft Teams.
 f1.keywords: 
 ms.localizationpriority: medium

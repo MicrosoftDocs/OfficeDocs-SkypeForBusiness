@@ -12,6 +12,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
 ms.reviewer: nakulm
+ms.date: 05/24/2018
 search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
@@ -275,7 +276,7 @@ Meeting recordings are stored as video files in OneDrive and SharePoint and foll
 
 For non-channel meetings, the recordings are stored in the recorder's OneDrive, thus handling ownership and retention after an employee leaves will follow the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
-Meeting recordings have a Default expiration time of 120 days. You can turn off the Meetings automatically expire setting or change the Default expiration time. Learn more about [meeting recordings automatically expiring](meetings-policies-recording-and-transcription.md#recordings-automatically-expire).
+Meeting recordings have a Default expiration time of 120 days. You can turn off the Recordings automatically expire setting or change the Default expiration time. Learn more about [meeting recordings automatically expiring](meetings-policies-recording-and-transcription.md#recordings-automatically-expire).
 
 ## Closed captions for recordings
 

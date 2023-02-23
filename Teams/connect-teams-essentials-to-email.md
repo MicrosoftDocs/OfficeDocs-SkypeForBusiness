@@ -3,6 +3,7 @@ title: Connect Microsoft Teams Essentials (AAD Identity) to an existing email sy
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: jimmyw
+ms.date: 11/13/2021
 manager: serdars
 ms.topic: article
 audience: admin

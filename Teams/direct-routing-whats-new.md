@@ -1,6 +1,7 @@
 ---
 title: What's New Direct Routing
 ms.reviewer: CarolynRowe
+ms.date: 03/29/2022
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
@@ -26,8 +27,8 @@ Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints
 
 ## Trunk demoting logic based on SIP Options
 
-A new feature based on SIP Options is introduced for trunk health. When enabled in the gateway configuration (see Set-CsOnlinePSTNGateway cmdlet and SendSipOptions parameter), the routing logic for outbound calls demotes trunks that do not send SIP Options periodically (expected period is one SIP Option sent by the SBC per minute) to the Microsoft backend. These demoted trunks are put to the end of trunks list available for the outbound call and are tried as the last ones; thereby potentially decreasing the call setup time.
-Any trunk enabled for that feature that does not send at least one SIP Option within five minutes to any of the Microsoft regional (NOAM, EMEA, APAC, OCEA) SIP Proxies is considered demoted. If a trunk sends SIP Options to only a subset of Microsoft regional SIP Proxies, then these routes are tried first and the rest are demoted.
+A new feature based on SIP Options is introduced for trunk health. When enabled in the gateway configuration (see Set-CsOnlinePSTNGateway cmdlet and SendSipOptions parameter), the routing logic for outbound calls demotes trunks that don't send SIP Options periodically (expected period is one SIP Option sent by the SBC per minute) to the Microsoft backend. These demoted trunks are put to the end of trunks list available for the outbound call and are tried last, which potentially decreases the call setup time.
+Any trunk enabled for that feature that doesn't send at least one SIP Option within five minutes to any of the Microsoft regional (NOAM, EMEA, APAC, OCEA) SIP Proxies is considered demoted. If a trunk sends SIP Options to only a subset of Microsoft regional SIP Proxies, then these routes are tried first and the rest are demoted.
 
 
 ## SIP support
@@ -38,10 +39,12 @@ If no actions are taken before June 1, users won't be able to make or receive ca
 
 To prevent service impact:
 
-- Use the recommended subnets: (52.112.0.0/14 and 52.122.0.0/15) for any classification or ACL rules.
+- Use the recommended subnets: (52.112.0.0/14 and 52.120.0.0/14) for any classification or ACL rules.
 - Discontinue use of the sip-all FQDN when configuring Session Border Controls for  Direct Routing.
 
 For more information, see [Plan Direct Routing](direct-routing-plan.md).
+> [!NOTE]
+> IP ranges presented in this document are specific to Direct Routing and may differ from the ones advised for Teams client.
 
 ## TLS certificates
 

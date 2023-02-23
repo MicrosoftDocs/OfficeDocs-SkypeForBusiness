@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
+ms.date: 06/07/2018
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -108,6 +109,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ## Related topics
 
+- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

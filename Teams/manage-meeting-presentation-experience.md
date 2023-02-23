@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 10/07/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -46,13 +47,13 @@ By using these controls, you can limit who is able to share content on screen in
 
 The Teams admin meeting policy **Who can present** has the following options:
 
-- Organizers
-- Everyone in my organization 
+- Only organizers and co-organizers
+- People in my organization and guests
 - Everyone
 
 This setting does not enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
 
-The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **Everyone in my organization** or **Organizers** to provide a more secure default for users.
+The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **People in my organization and guests** or **Only organizers and co-organizers** to provide a more secure default for users.
 
 To set the **Who can present** policy
 
@@ -68,7 +69,7 @@ To set the **Who can present** policy
 
 Meeting organizers can choose from the following options for who can present in a meeting:
 
-- Everyone in my organization and guests
+- People in my organization and guests
 - Only me and co-organizers
 - Specific people
 - Everyone
@@ -157,4 +158,3 @@ If you choose to turn off reactions, remember that this will disable the hand-ra
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Manage access to Microsoft Whiteboard for your organization](/microsoft-365/whiteboard/manage-whiteboard-access-organizations)
-

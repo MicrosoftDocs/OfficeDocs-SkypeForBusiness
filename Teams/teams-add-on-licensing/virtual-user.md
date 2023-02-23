@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
+ms.date: 07/11/2019
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -30,7 +31,7 @@ In Microsoft Teams, all auto attendants and call queues require an associated re
 Organizations with a subscription that includes Teams Phone are allocated a certain amount of **Teams Phone Resource Account** licenses at no extra cost.  A Microsoft calling plan isn't required unless you want to be able to dial out using that resource account. For more information, see [Plan for Teams auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites).
 
 > [!NOTE]
-> Previously, a **Teams Phone Resource Account** license (once known as a **Virtual user** license) was only required when assigning a phone number to a resource account. Now, all resource accounts must be assigned a **Teams Phone Resource Account** license, regardless of whether they'll be assigned a phone number or not. Also, don't assign a **Teams Phone Standard** license to a resource account. If you currently have resource accounts configured with **Teams Phone Standard** licenses, you must switch to a **Teams Phone Resource Account** license as described below.
+> Previously, a **Teams Phone Resource Account** license (once known as a **Virtual user** license) was only required when assigning a phone number to a resource account. Now, all resource accounts must be assigned a **Teams Phone Resource Account** license, regardless of whether they'll be assigned a phone number or not. If you're currently using resource accounts that aren't assigned any license, you should revisit them to ensure they're assigned a **Teams Phone Resource Account** license. Also, don't assign a **Teams Phone Standard** license to a resource account. If you currently have resource accounts configured with **Teams Phone Standard** licenses, you must switch to a **Teams Phone Resource Account** license as described below.
 
 ## Resource Account license allocation
 

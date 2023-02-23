@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
+ms.date: 03/15/2021
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -45,7 +46,7 @@ These settings are found in the Teams admin center under **Meetings** > **Meetin
 
 ## Anonymous users can join a meeting
 
-To learn about anonymous people joining meetings, read [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
+To learn about anonymous users joining meetings, read [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
 
 ## Who can present
 
@@ -55,8 +56,8 @@ The **Who can present?** setting lets meeting organizers choose who can be prese
 
 To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the **Who can present** policy:
 
-- **Only organizers and co-organizers**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only me** setting in Teams.
-- **Everyone in my organization and guests**: Authenticated users in the organization, including guests, can be presenters. This setting corresponds to the **Everyone in my organization** setting in Teams.
+- **Only organizers and co-organizers**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only organizers and co-organizers** setting in Teams.
+- **People in my organization and guests**: Authenticated users in the organization, including guests, can be presenters. This setting corresponds to the **People in my organization and guests** setting in Teams.
 - **Everyone**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
@@ -77,7 +78,7 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Off, but organizers can turn them on**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Off, but organizers and co-organizers can turn them on**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
 |**Off**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
 
 For more information on how your end users can turn on **Live captions**, see [Use live captions in a Teams meeting](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
@@ -89,7 +90,7 @@ For more information on how your end users can turn on **Live captions**, see [U
 
 By default, **Live captions** are displayed in the language that’s spoken during a meeting. **Live translated captions** allow your users to see captions translated into the language they’re most comfortable with.
 
-To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers can turn them on** in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
+To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers and co-organizers can turn them on** in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
 
 <a name="bkcontentsharing"> </a>
 

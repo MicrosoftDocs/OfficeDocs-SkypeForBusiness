@@ -3,6 +3,7 @@ title: View-only meeting experience
 ms.author: mabond
 author: mkbond007
 ms.reviewer: christi.balaki
+ms.date: 10/15/2020
 manager: serdars
 ms.topic: article
 audience: admin

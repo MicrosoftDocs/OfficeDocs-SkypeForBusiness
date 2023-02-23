@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
+ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high

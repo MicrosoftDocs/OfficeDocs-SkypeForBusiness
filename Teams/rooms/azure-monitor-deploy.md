@@ -3,6 +3,7 @@ title: Deploy Microsoft Teams Rooms monitoring with Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

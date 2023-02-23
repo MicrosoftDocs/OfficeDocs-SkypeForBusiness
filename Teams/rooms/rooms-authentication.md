@@ -3,6 +3,7 @@ title: "Authentication in Microsoft Teams Rooms on Windows"
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 04/06/2020
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

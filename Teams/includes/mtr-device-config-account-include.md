@@ -1,4 +1,6 @@
-
+---
+ms.date: 08/03/2022
+---
 Each Microsoft Teams Rooms device needs its own resource account. The resource account is the account the Teams Rooms device logs into and is what users in your organization invite to book the Teams Room.
 
 When you create the resource mailbox, you can specify whether you want to allow recurring meetings, have the room auto accept invites, how many days into the future to accept invites, and so on.
