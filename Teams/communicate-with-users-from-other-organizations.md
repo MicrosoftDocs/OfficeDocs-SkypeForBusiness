@@ -69,7 +69,7 @@ To configure guest access for Teams, see [Collaborate with guests in a team](/mi
 
 ## Compare external access and guest access
 
-The following tables show the differences between using external access and guests. In both cases, people outside your organization are identified to your users as being external.
+The following tables show the differences between using external access and guests.
 
 ### Things your users can do
 

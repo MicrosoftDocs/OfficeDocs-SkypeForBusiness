@@ -44,7 +44,7 @@ Note that these people from outside your organization won't have access to your 
 
 ### Organization settings and user policies for external access
 
-Each external access option has both an organization setting and user policies. The organization setting determines if the option is on or off for your entire organization. User policies determine which users can use the options that you've turned on at the organization level.
+Each external access option has both an organization setting and user policies. The organization settings apply to your entire organization. User policies determine which users can use the options that you've configured at the organization level.
 
 Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Note that both the organization settings and user policies are turned on by default.
 
