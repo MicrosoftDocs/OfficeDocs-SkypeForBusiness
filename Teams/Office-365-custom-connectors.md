@@ -31,7 +31,7 @@ Any team member can add a connector to a channel, if the team permissions allow 
 
 ## Enable or disable connectors in Teams
 
-The Exchange Online PowerShell v2 module uses modern authentication and works with multi-factor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox. If a connector is disabled, it affects all users in that tenant or mailbox. You cannot disable a connector for a few specific users.
+The Exchange Online PowerShell v2 module uses modern authentication and works with multi-factor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox. If a connector is disabled, it affects all users in that tenant or mailbox. You can't disable a connector for a few specific users.
 
 The tenant setting overrides the group setting. For example, if an admin enables connectors for the group and disables them on the tenant, connectors for the group are disabled. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
 
@@ -59,7 +59,7 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 ## Considerations when using Connectors in Teams
 
-* You cannot configure new connections for the following connectors:
+* You can't configure new connections for the following connectors:
 
   * Aha!
   * Airbrake
