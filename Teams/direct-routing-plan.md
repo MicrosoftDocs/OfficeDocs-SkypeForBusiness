@@ -286,9 +286,9 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 
 ### Microsoft 365, Office 365, and Office 365 GCC environments
 
-- 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254).
-- 52.122.0.0/14 (IP addresses from 52.122.0.1 to 52.123.255.254).
-- 52.120.0.0/16 (IP addresses from 52.120.0.1 to 52.120.255.254).
+- 52.112.0.0/14 (IP addresses from 52.112.0.0 to 52.115.255.255).
+- 52.120.0.0/14 (IP addresses from 52.120.0.0 to 52.123.255.255).
+
   
 > [!NOTE]
 > IP ranges presented in this document are specific to Direct Routing and may differ from the ones advised for Teams client.

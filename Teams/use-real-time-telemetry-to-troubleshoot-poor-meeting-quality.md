@@ -76,7 +76,7 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 | Metric | Units / Possible values | Description | Possible reasons for blank values|
 |:---|:---|:---|:---|
 | Network type | &bull; Ethernet <br/> &bull; Wi-Fi | Type of network connection in use | |
-| Wi-Fi strength | &bull; Excellent : -50 dBm or greater <br/> &bull; Good : -51 dBm to -64 dBm<br/> &bull; Poor : -65 dBm or lower | Strength of the user's current Wi-Fi connection | User isn't connected to Wi-Fi |
+| Wi-Fi strength | &bull; Excellent: -50 dBm or greater <br/> &bull; Good: -51 dBm to -64 dBm<br/> &bull; Poor: -65 dBm or lower | Strength of the user's current Wi-Fi connection | User isn't connected to Wi-Fi |
 | Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
 | Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
 | Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
@@ -173,9 +173,6 @@ User signals identify when a user is actively participating in the call, isn't s
 - Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 - Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
-
-> [!NOTE]
-> As part of a limited-time public preview, real-time telemetry data is currently available for **7 days** after a meeting has ended. After the preview ends, only tenants with Advanced Communications add-on licensing will have telemetry available for the extended 7 day period. All other tenants will be subject to the aforementioned limits.
 
 ## Related topics
 
