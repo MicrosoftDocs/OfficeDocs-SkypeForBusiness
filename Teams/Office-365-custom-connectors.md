@@ -121,8 +121,6 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 * If the user who added a connector to a team leaves the team, the connector continues to work.
 
-* Jenkins connector is scheduled for release on Feb 28, 2023.
-
 ## Update URL of a connector
 
 The Teams connectors are transitioning to a new URL to enhance security. During transition, you'll receive a notification to update the configured connector. Update your connector at the earliest to prevent any disruption to connector services. To update your connector:
