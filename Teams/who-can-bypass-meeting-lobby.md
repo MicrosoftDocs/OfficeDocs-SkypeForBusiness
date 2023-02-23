@@ -155,6 +155,13 @@ You can set the meeting policies described in this article by using the [Set-CsT
 - [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
 - [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
 
+## Run the lobby diagnostic tool
+
+If a user recently had an undesired lobby experience in a meeting hosted by your organization, you can use the lobby diagnostic tool to investigate the expected lobby experience. This tool will explain the expected lobby experience for a specific user in a specific meeting and provide guidance to make policy changes if the current experience is not aligned with your configuration. Make sure you're signed into Microsoft 365 as a Teams administrator to access the tool.
+
+>> [!div class="nextstepaction"]
+>> [Run Tests: Lobby Access](https://admin.microsoft.com/AdminPortal/?searchSolutions=Diag:%20Bypass%20Lobby#/homepage)
+
 ## Related topics
 
 [Join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
