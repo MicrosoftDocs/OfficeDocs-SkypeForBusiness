@@ -11,8 +11,6 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
-  - m365solution-compliantmeetings
-  - m365solution-overview
   - m365initiative-meetings
   - highpri
 appliesto: 
@@ -133,15 +131,16 @@ Advanced virtual appointments
 
 ## Get started with the trail
 
-Global admin to assign licenses. They don't need one.
-License for Teams admin so they can set things up
-License for compliance admin so they can set up labels
-Upload images
-Assign policies
-Create label and publish to security group
-Assign licenses to the preview users
+When you've completed your pre-trial planning, the next step is to add the Teams Premium trial to your Microsoft 365 subscription.
 
+Once you've added the trial, you can do the administrative setup steps to get the trial ready for your users:
 
+- Create the sensitivity labels that you want to test and publish them to the trial participants.
+- Create the meeting templates that you want to test, both for compliance and custom meetings.
+- Create the meeting customization policies that you want to use to test your themes and backgrounds.
+- Assign the template and customization policies to the appropriate trial participants.
+
+Once the administrative setup is complete, notify your trial participants that the trial is underway and have them start testing their use cases.
 
 ### Add the Teams Premium trial to your organization and assign licenses
 
@@ -156,7 +155,6 @@ To add the Teams Premium trail to Microsoft 365
 1. Select **Continue**.
 
 Note that it may take up to 72 hours for Teams Premium sensitivity label settings to be available in the Microsoft Purview compliance portal.
-
 
 ## Related topics
 
