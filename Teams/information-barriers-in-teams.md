@@ -5,7 +5,7 @@ author: robmazz
 ms.author: robmazz
 manager: laurawi
 ms.reviewer: smahadevan
-ms.date: 02/24/2023
+ms.date: 02/27/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -67,7 +67,8 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 IB segments are managed in the Microsoft Purview compliance portal or by using PowerShell cmdlets. For more information, see [Step 2: Segment users in your organization](/microsoft-365/compliance/information-barriers-policies#step-2-segment-user-in-your-organization).
 
-If you've enabled information barriers in your organization after February 15, 2023 and configured Teams for information barriers for multi-segment support, see [Multi-segment support for users in Microsoft Teams](/microsoft-365/compliance/information-barriers-multi-segement#multi-segment-support-for-users-in-microsoft-teams) for more information about the multi-segment user experience and Teams.
+> [!IMPORTANT]
+> Support for assigning users to multiple segments is only available when your organization isn't in *Legacy* mode. To determine if your organization is in *Legacy* mode, see [Use multi-segment support in information barriers)](/microsoft-365/compliance/information-barriers-multi-segment#enable-multiple-segment-support-for-users) and check the value of the `InformationBarrierMode` property. <br><br> Users are restricted to being assigned to only one segment for organizations in *Legacy* mode. Organizations in *Legacy* mode will be eligible to upgrade to the newest version of information barriers in the future. For more information, see the [information barriers roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=information%2Cbarriers).
 
 ## Managing information barriers policies
 
