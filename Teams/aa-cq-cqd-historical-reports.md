@@ -1,5 +1,5 @@
 ---
-title: Updated auto attendant and call queue historical reports
+title: Auto attendant and call queue historical reports
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -28,18 +28,18 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 # Auto attendant and call queue historical reports
 
->[!NOTE]
-> GCC HIgh and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
+> [!NOTE]
+> GCC High and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
 
-This Power BI template provides three reports that allow organizations to report on the number of calls being processed by auto attendants and call queues.  It also provides agent performance insights.
+This Power BI template provides three reports that allow organizations to report on the number of calls processed by auto attendants and call queues.  It also provides agent performance insights.
 
-## V3.0.6 published on February 14, 2023
+## V3.0.7 published on February 16, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v306.png) report shows analytics for calls coming into your auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v306.png) report shows analytics for calls coming into your call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v306.png) report shows a timeline view of agents being active in call queue calls.
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v307.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v307.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v307.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -57,7 +57,7 @@ While this version of the reports doesn't use the Call Quality Dashboard (CQD) d
 
 Any CQD role with both **View Reports** and **View EUII fields** set to **Yes** will work.
 
-- This requirement will be removed in a future release.
+This requirement will be removed in a future release.
 
 ## V3.x.x installation 
 
@@ -65,19 +65,19 @@ The following steps assume you've already installed Power BI Desktop on your com
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.6.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.7.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.6.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.7.pbit` template file. Power BI Desktop should launch.
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v306.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v307.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing login for V3.0.0.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.0.0.":::
 
 6. Select **Connect**, and the data will refresh.
 
@@ -86,7 +86,7 @@ Perform the following steps:
 > 
 > 1. Open the v3.x.x template to clear the error. 
 > 1. Select **File** > **Options & Settings** > **Data source settings**.
-> 1. Select the drop down for **Clear Permissions**, and then select **Clear All Permissions**.
+> 1. Select the dropdown menu for **Clear Permissions**, and then select **Clear All Permissions**.
 > 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
 
 ## Data latency for auto attendant and call queue analytics
@@ -240,7 +240,7 @@ You'll have to refresh the data to see any new data.
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                       |
-|Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinaleStateAction                    |
+|Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinalStateAction                     |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |CQ Hour                                 |Number                   |Hour that the call took place in
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
@@ -320,11 +320,11 @@ Perform the following steps:
 
 1. Select **View tab** on the ribbon.
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
+   :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
 
 2. Select the color schema from the drop-down list.
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
+   :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
 ## Dimensions and measurements
 
@@ -430,7 +430,7 @@ These dimensions are common to both auto attendants and call queues:
 |                                                       |timed_out                      |Timeout condition met                                             |
 |                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
 |CallQueueDurationSeconds<br>(Real Number)              |                               |Call duration in the call queue                                   |
-|CallQueueFinaleStateAction<br>(Text)                   |                               |Call queue final action                                           |
+|CallQueueFinalStateAction<br>(Text)                    |                               |Call queue final action                                           |
 |                                                       |disconnect                     |time_out calls                                                    |
 |                                                       |disconnect_with_busy           |overflown calls                                                   |
 |                                                       |failed_to_accept_call          |                                                                  |
@@ -503,25 +503,25 @@ A valid query consists of several attributes in a JSON object:
 #### Required fields
 
 - Filters: used to filter data returned by VAAC
-- - DataModelName should be one of the supported dimensions
-- - Value should be in the correct format (datetime, string, number etc.)
-- - Operands:
-- - - 0 - Equals
-- - - 1 - Not Equals
-- - - 2 - Contains
-- - - 3 - Begins With
-- - - 4 - Greater Than
-- - - 5 - Greater Than or Equal To
-- - - 6 - Less Than
-- - - 7 - Less Than or Equal To
-- - - 8 - Does Not Contain
-- - - 9 - Does Not Begin With
+  - DataModelName should be one of the supported dimensions
+  - Value should be in the correct format (datetime, string, number etc.)
+  - Operands:
+    - 0 - Equals
+    - 1 - Not Equals
+    - 2 - Contains
+    - 3 - Begins With
+    - 4 - Greater Than
+    - 5 - Greater Than or Equal To
+    - 6 - Less Than
+    - 7 - Less Than or Equal To
+    - 8 - Does Not Contain
+    - 9 - Does Not Begin With
 
 - Dimensions:
-- - DataModelName should be one of the supported dimensions
+  - DataModelName should be one of the supported dimensions
 
 - Measurements:
-- - DataModelName should be one of the supported measurements
+  - DataModelName should be one of the supported measurements
 
 - Parameters: Currently only UserAgent is supported.
 
@@ -534,39 +534,38 @@ The VAAC API can be accessed by any application that can access RESTful applicat
 ### Preparation
 
 1. Download [Postman](https://www.postman.com/).
-1. Unzip the `sync_pstn_avs-analytics.zip` file in the [downloaded zip file instructions](#v3xx-installation).
-1. Import the folder into Postman. 
+1. Import the folder `postman` in the [downloaded zip file](#v3xx-installation) instructions into Postman. 
 
-:::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed":::
+:::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed" lightbox="media/aa-cq-historical-report-postman-01.png":::
 
 ### Accessing VAAC using Postman
 
-1. Select **VAAC - msit** on the top right ***No Environment*** drop down.
+1. Select **VAAC - msit** on the top right ***No Environment*** drop-down.
 2. Select **Environments** on the left hand rail menu.
 3. Select **VAAC - msit** under **Globals**.
 4. Replace **userName**, **password** and **tenantId** with the applicable credentials.
-5. Click **Reset All** in the top right corner.
-6. Click **Save**.
+5. Select **Reset All** in the top right corner.
+6. Select **Save**.
 
-:::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured":::
+   :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Screenshot showing username, password and tenant ID fields configured" lightbox="media/aa-cq-historical-report-postman-02.png":::
 
 7. Select **Collections** on the left hand rail menu.
 8. Select **Config API Access Token - Prod** and navigate to the **Body** tab.
-9. Click **Send**.
+9. Select **Send**.
 
-An access token will be returned.
+   An access token will be returned.
 
-:::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned":::
+   :::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned" lightbox="media/aa-cq-historical-report-postman-03.png":::
 
-If an access token is not returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
+   If an access token isn't returned, check your credentials to make they have [sufficient permissions](#permissions-to-access-the-cqd-pipeline).
 
 10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
-- [Compress](#compress-the-json-query) the query as outlined below
-- [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
+   - [Compress](#compress-the-json-query) the query as outlined below
+   - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
 
 11. Fill in your [query](#constructing-a-valid-query) string.
-12. Click **Send**.
+12. Select **Send**.
 
 ### Reading the result
 
@@ -575,9 +574,9 @@ After you submit your input, there will be a couple of possible results:
 - If the input is invalid, an error message with the actual reason will be returned
 - If the input is valid, the result will look like this:
 
-:::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field":::
+   :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field" lightbox="media/aa-cq-historical-report-postman-04.png" :::
 
-In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
+   In this case, the data will be in "dataResult" field in the same order requested in the query dimension and measurements attributes.
 
 ### Compress the JSON query
 
@@ -651,6 +650,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9  |
 |3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
 |3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
