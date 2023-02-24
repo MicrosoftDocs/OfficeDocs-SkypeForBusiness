@@ -185,17 +185,17 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 ## Which users should be assigned Teams Premium licenses?
 
-Teams Premium is per-user, per-month license where any user benefiting from Teams Premium functionality needs to have a Teams Premium license assigned.
+Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
 
-Here is some guidance to help you decide who to acquire Teams Premium licenses for:
+There are some specific meeting and event features that will provide the feature benefit to all meeting attendees, including guests and external participants. Here is some guidance to help you decide who to acquire Teams Premium licenses for:
 
 - External participants in Virtual Appointments don't require a Teams Premium license to benefit from Teams Premium advanced Virtual Appointments.
 
 - For intelligent recap, all meeting participants need a Teams Premium license to benefit from this feature.​
 
-- For live caption translation, advanced meeting protection, and advanced webinars, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features, if the meeting organizer is licensed with Teams Premium.​
+- For live caption translation, advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.​
 
-- If a user needs access to a Teams Premium feature, license them to ensure consistent access to Teams Premium capabilities. Not licensing users who benefit from premium features will result in inconsistent experiences.
+ If a user needs access to a Teams Premium feature, license them to ensure consistent access and experiences to Teams Premium capabilities. Note that the extended coverage scenarios above can't be used against our [Online Services license terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and these coverage scenarios are subject to change.
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
