@@ -44,7 +44,7 @@ The different types of apps that your users can use in Teams are:
 
 Some Teams functionalities such as activity feed, teams, chat, calendar, calls, files, and assignments (education tenants) are available by default and pinned by default for ease of access for users. For frontline workers, only activity, shifts, chat, and calling are available and pinned. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
-:::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
+:::image type="content" source="media/core-apps-pinned1.png" alt-text="Screenshot showing the core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
 ## Apps created by Microsoft
 
@@ -58,7 +58,7 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation.
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams' store.":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams store.":::
 
 ## Custom apps created within an organization for internal use
 
@@ -66,7 +66,7 @@ Apps created by developers in your organization are called custom apps (or Line 
 
 After an admin allows the use of custom apps, users can find such apps by selecting **Built for your org** in the left navigation of Teams store.
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams' store in the Teams' desktop app." lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams store in the Teams desktop app." lightbox="media/built-for-your-org2.png":::
 
 For more information, see [Understand and manage custom and sideloaded apps](custom-app-overview.md).
 
@@ -101,7 +101,7 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. These are the different capabilities of Teams app and the admins only govern the apps using the common [app governance methods](manage-apps.md).
 
-:::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
+:::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Diagram that shows the app capabilities of a Microsoft Teams app." border="false":::
 
 To provide a rich experience that allows users to work inside Teams, apps contain the following capabilities:
 
