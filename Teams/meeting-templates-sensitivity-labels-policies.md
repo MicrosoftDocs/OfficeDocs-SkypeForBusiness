@@ -22,6 +22,8 @@ description: Learn how to use Teams admin policies together with sensitivity lab
 
 # Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 In Teams meetings, meeting organizers can configure [a variety of settings](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) that determine which features are available in the meeting. As an administrator, you can disable or enforce specific values for these settings by using a combination of admin policies, sensitivity labels, and meeting templates.
 
 [Meeting templates](custom-meeting-templates-overview.md) are created and managed in the Teams admin center. Sensitivity labels are created and manged in the Microsoft Purview compliance portal. 
@@ -48,7 +50,7 @@ The following table shows a list of Teams features that may be useful for managi
 |Prevent copying chat content to clipboard|No setting|Can prevent the meeting chat from being copied. (Does not apply to anonymous participants.)|No setting|No setting|
 |Record automatically|No setting|Can enforce or prevent automatic meeting recording or be left uncontrolled.|If not controlled by a sensitivity label, can be set to On or Off and can enforce the setting or allow the meeting organizer to change it.|Meeting organizer can turn on or off unless the setting is enforced on or off by a meeting template or sensitivity label.|
 |Who can bypass the lobby|Sets the default setting for new meetings.|Can enforce a particular option for who can bypass the lobby, or can be left uncontrolled.|If not controlled by a sensitivity label, selects a setting for who can bypass the lobby. Setting can be enforced or meeting organizer can be allowed to change.|Meeting organizer can choose who can bypass the lobby unless the setting is enforced by a label or template.|
-|Who can present|Sets the default setting for new meetings. Available values are Organizers, Everyone in the organization, and Everyone.|Can enforce settings of everyone, authenticated attendees, organizers, or specific people, or can be left uncontrolled.|No setting|Meeting organizer can select who can present unless enforced by a sensitivity label.|
+|Who can present|Sets the default setting for new meetings. Available values are Only organizers and co-organizers, People in my organization and guests, and Everyone.|Can enforce settings of everyone, authenticated attendees, organizers, or specific people, or can be left uncontrolled.|No setting|Meeting organizer can select who can present unless enforced by a sensitivity label.|
 |Who can record|No setting|Can enforce settings of organizers or organizers and presenters, or can be left uncontrolled.|If not controlled by a sensitivity label, selects a setting of organizers or organizers and presenters.  Setting can be enforced or meeting organizer can be allowed to change.|Meeting organizer can choose who can record - organizers or organizers and presenters - unless the setting is enforced by a label or template.|
 
 ## Admin policies' effect on sensitivity labels and meeting templates

@@ -22,6 +22,8 @@ description: Learn how to configure Teams meetings for a baseline level of prote
 
 # Configure Teams meetings with baseline protection
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 For the *baseline* level of protection, we'll restrict who can bypass the lobby by using a sensitivity label and set a default value for who can present with a Teams admin policy. You can restrict additional actions as well if your organization requires it.
 
 > [!Note]
@@ -41,22 +43,22 @@ The following table describes which actions we'll restrict for baseline meetings
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|Yes|
 |Record automatically|**Off**|Template|No|
-|Who can bypass the lobby|**Everyone in my organization, people in trusted organizations, and guests**|Template|No|
-|Who can present|**Everyone in my organization and guests**|Teams admin center|No|
+|Who can bypass the lobby|**People in my organization, people in trusted organizations, and guests**|Template|No|
+|Who can present|**People in my organization and guests**|Teams admin center|No|
 |Who can record|**Organizers and presenters**|Template|No|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
 ## Default values for **Who can present**
 
-The default value for **Who can present** is **Everyone**. For the baseline protection tier, we'll set a more secure default of **Everyone in the organization** which meeting organizers can change if they want.
+The default value for **Who can present** is **Everyone**. For the baseline protection tier, we'll set a more secure default of **People in my organization and guests** which meeting organizers can change if they want.
 
 We can set this value with a sensitivity label, but the value will be enforced for any meetings with that label. This setting isn't available in meeting templates, so we'll set it in the Teams admin center.
 
 To configure who can present 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to update.
-1. Under **Content sharing**, set **Who can present** to **Everyone in my organization, but user can override**.
+1. Under **Content sharing**, set **Who can present** to **People in my organization and guests**.
 1. Select **Save**.
 
 ## Watermarks and end-to-end encryption
@@ -108,7 +110,7 @@ To create a custom meeting template
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. In the **Lobby** dropdown, select **Everyone in my organization, trusted organizations, and guests**.
+1. In the **Lobby** dropdown, select **People in my organization, trusted organizations, and guests**.
 1. Make sure **People calling in my phone can bypass the lobby** is set to **Off**, then select it and select **Lock**.
 1. If you've disabled watermarks and end-to-end encryption with the sensitivity label, consider selecting those settings here and selecting **Hide** so meeting organizers won't see them.
 1. Change any additional settings if desired.

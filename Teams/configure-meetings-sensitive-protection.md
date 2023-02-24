@@ -22,6 +22,8 @@ description: Learn how to configure Teams meetings for protection for sensitive 
 
 # Configure Teams meetings with protection for sensitive data
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 For the *sensitive* level of protection, we'll restrict who can bypass the lobby, who can present, and who can record. You can restrict additional actions as well if your organization requires it.
 
 The following table describes which actions we'll restrict for sensitive meetings and where those settings are configured.
@@ -77,10 +79,10 @@ To create a sensitivity label
 1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
 1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
-    1. Select **Control who can bypass the lobby** and choose **Only people who were invited** from the dropdown list.
-    1. Clear the **Allow dial-in users to bypass the lobby** check box.
-    1. Select **Control who can present** and choose **Everyone in my org and guests** from the dropdown list.
-    1. Select **Who can record** and choose **Organizers and co-organizers** from the dropdown list.
+    1. Select **Who can bypass the lobby** and choose **People who were invited** from the dropdown list.
+    1. Clear the **People dialing in can bypass the lobby** check box.
+    1. Select **Who can present** and choose **People in my organization and guests** from the dropdown list.
+    1. Select **Who can record** and choose **Only organizers and co-organizers** from the dropdown list.
     1. Configure any other settings that you need for your organization.
     ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-sensitive-small.png)
 1. Select **Next**.
