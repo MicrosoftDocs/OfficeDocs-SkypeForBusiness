@@ -191,7 +191,7 @@ Here is some guidance to help you decide who to acquire Teams Premium licenses f
 
 - External participants in Virtual Appointments don't require a Teams Premium license to benefit from Teams Premium advanced Virtual Appointments.
 
-- For meeting intelligence, including intelligent recap, all meeting participants need a Teams Premium license to benefit from these features.​
+- For intelligent recap, all meeting participants need a Teams Premium license to benefit from this feature.​
 
 - For live caption translation, advanced meeting protection, and advanced webinars, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features, if the meeting organizer is licensed with Teams Premium.​
 
