@@ -127,40 +127,11 @@ If you turn off this feature, users are unable to schedule. Teams meetings when 
 
 ### Allow channel meeting scheduling
 
-Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
 
-If this policy is turned off, users can't create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
+If this policy is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
-Schedule a meeting will be disabled.
-
- ![The Schedule a meeting option in Teams.](media/schedule-meeting-option.png)
-
-Channel selection is disabled.
-
-![the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)
-
-In the channel posts page, the following features will be disabled:
-
-- **Schedule a meeting** button on the channel reply compose box.
-  ![schedule a meeting button reply compose box.](media/schedule-meeting-disabled-in-chat2.png)
-  
-- **Schedule a meeting** button on the channel header.
-  ![schedule a meeting button in the channel header.](media/schedule-now-in-header.png)
-
-In the channel calendar:
-
-- **Add new event** button on channel calendar header will be disabled.
-  ![button on channel calendar header disabled.](media/add-new-event-disabled.png)
-
-- Users can't drag and select a time block on the channel calendar to create a channel meeting.
-
-- Users can't use Keyboard shortcuts to create a meeting on the channel calendar.
-
-In the admin center:
-
-The channel calendar app will show up in the **Microsoft apps** section on the app permission policies page.
-
- ![the app permissions policy in the Teams admin center.](media/manage-microsoft-apps-policy.png)
+To find out more about channel meeting scheduling, read [Manage who can start and schedule meetings](manage-who-can-schedule-meetings.md).
 
 ### Allow scheduling private meetings
 
@@ -207,8 +178,6 @@ Here's how the **Allow transcription** and **Allow meeting recording** policy se
 Allow meeting recording is controlled at a per-user policy. This setting controls whether a user can record. The recording can be started by the meeting organizer or by another meeting participant if their specific policy setting is turned on and if they're an authenticated user from the same organization as the organizer.
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
-
-![the recording options.](media/meeting-policies-recording.png)
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
