@@ -3,8 +3,8 @@ title: Set up webinars
 ms.author: mabond
 author: mkbond007
 manager: serdars
-ms.reviewer: sachung, emryan
-ms.date: 04/08/2021
+ms.reviewer: justle, sachung
+ms.date: 02/21/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -20,6 +20,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - tier1
 description: Learn how to manage webinar and meeting registration policies in Teams.
 ---
 
@@ -131,9 +132,7 @@ The attendance report policy setting controls whether meeting organizers can see
 
 If **Who's in the report** is set to **Everyone, but users can opt-out**, **No one, but users can opt-in**, or **Everyone**, users will be able to toggle on or off **Identify me in attendance reports** within their Teams settings.
 
-If **Attendance information collection** is set to **All information**, then the webinar or meeting attendees' join times, leave times, and "in-meeting duration" will show up in the attendance report.
-
-To find out more about attendance reports and their associated settings, read [Microsoft Teams meeting attendance report](\teams-analytics-and-reports\meeting-attendance-report.md). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](\teams-analytics-and-reports\meeting-attendance-report.md). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Turn off webinars
 

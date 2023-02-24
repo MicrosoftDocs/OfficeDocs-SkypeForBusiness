@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
-ms.date: 03/15/2021
+ms.date: 01/03/2023
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -14,6 +14,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -41,7 +42,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Reactions](#reactions)
 - [Speaker Coach](#speaker-coach)
 
-## Meet now in channel meetings 
+## Meet now in channel meetings
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn on this setting, users can click the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. This setting is on by default.
 
@@ -102,7 +103,7 @@ If you turn off both the **Private meeting scheduling** and **Channel meeting sc
 
 This is a per-user policy. Attendance reports are enabled by default with **Everyone, unless organizers opt-out**. These reports allow your meeting organizers to see who registered and attended the meetings and webinars they've set up, giving them the option to download the report from the **Participants** pane of a meeting or webinar.
 
-To find out more about attendance reports and the corresponding **Who's in the report** and **Attendance information collection** policy settings, read [Microsoft Teams meeting attendance report](\teams-analytics-and-reports\meeting-attendance-report.md).
+To find out more about attendance reports and the corresponding **Who's in the report** policy setting, read [Attendance report for meetings and webinars in Microsoft Teams](\teams-analytics-and-reports\meeting-attendance-report.md).
 
 ## Meeting registration
 
