@@ -84,9 +84,9 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 ## Discover and use apps in Teams
 
-Users can view all the apps available in Teams from the Teams apps store in a Teams desktop or web client. Users can search by name, browse by category, and browse by apps built for your org and built with Power Platform to discover and install apps in Teams.
+Users can view all the apps available in Teams from the Teams apps store in a Teams desktop or web client. Users can search or browse and install apps in Teams. They can search by name or browse by category, apps built for your org, and apps built with Power Platform.
 
-Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and if the app is allowed by Teams admin. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/microsoftteams/teams-app-setup-policies).
+Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if allowed by their setup policy and by Teams admin. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshot that shows all the places where the users can browse apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 
@@ -99,7 +99,7 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 ## Understand app capabilities
 
-Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. Apps contain one or more of the following capabilities. All these are different capabilities of Teams apps and admins govern these apps using the common [app governance methods](manage-apps.md).
+Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. These are the different capabilities of Teams app and the admins only govern the apps using the common [app governance methods](manage-apps.md).
 
 :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
 
@@ -113,7 +113,7 @@ To provide a rich experience that allows users to work inside Teams, apps contai
 
 * **Messaging extensions**: Messaging extensions are shortcuts to insert app content or to act on a message without users having to move away from the conversation. Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
 
-* **Meeting extensions**: Meeting extensions are apps to enhance live meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+* **Meeting extensions**: Meeting extensions are apps that enhance live meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
 * **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
