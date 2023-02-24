@@ -33,7 +33,7 @@ highlightedContent:
       itemType: how-to-guide
       url: ./upgrade-skype-teams.yml
     # Card
-    - title: Discover Microsoft Teams Premium (Preview)
+    - title: Discover Microsoft Teams Premium
       itemType: overview
       url: ./enhanced-teams-experience.md
 
