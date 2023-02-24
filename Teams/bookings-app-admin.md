@@ -75,6 +75,7 @@ By default, this setting is on, and SMS text notifications are enabled for all B
 To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the **Allow Microsoft to send SMS text message notifications** check box.
 
 Learn more about how to [configure SMS text notifications for your organization](/microsoft-365/bookings/turn-bookings-on-or-off).
+Use the [SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) to understand how your organization is using SMS notifications.
 
 ## Optional staff approvals setting
 
