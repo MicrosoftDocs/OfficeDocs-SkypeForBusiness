@@ -33,7 +33,6 @@ These settings control which meeting participants wait in the lobby before they'
 - [Anonymous users can join a meeting](#anonymous-users-can-join-a-meeting)
 - [Who can present](#who-can-present)
 - [Who can bypass the lobby](#who-can-bypass-the-lobby)
-- [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Live captions](#live-captions)
 - [Chat in meetings](#chat-in-meetings)
 - [Q&A](#qa)
@@ -68,7 +67,7 @@ To learn about the meeting lobby, read [Control who can bypass the meeting lobby
 
 ## Meet now in private meetings
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting. By default, this setting is turned on.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting. By default, this setting is turned on. To learn more about private meetings, read [Manage who can start and schedule meetings](manage-who-can-schedule-meetings.md).
 
 ## Live captions
 
@@ -128,7 +127,13 @@ Q&A can be adjusted within the Teams admin center under **Meetings** > **Meeting
 
 ## Reactions
 
-Reactions are on by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
+The availability of reactions can be configured through either the Teams admin center interface or using PowerShell. Reactions are enabled by default.
+
+In the Teams admin center, reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Meeting engagement** section of a meeting policy.
+
+To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
+
+Turning off reactions for a user doesn't mean a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting..
 
 ## Enable meeting policy settings
 
@@ -144,6 +149,7 @@ Once you’ve set up a policy, you need to apply it to users. If you modified th
 
 ## Related topics
 
-- [Teams PowerShell overview](teams-powershell-overview.md)
+- [Teams policy reference - Meetings](settings-policies-reference.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
