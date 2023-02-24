@@ -320,6 +320,9 @@ When you install a new firmware version on your device, you can determine the co
 | Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
 | Neat Board | `NFC1.20220914.1215` |  2022 Update #2B |
 | Neat Pad touch console | `NFA1.20220914.1215`  |  2022 Update #2B |
+| Logi Rallybar | `1.8.295`   | 2022 Update #2B  |
+| Logi Rallybar Mini | `1.8.295`   | 2022 Update #2B  |
+| Logi RoomMate | `1.8.536`   | 2022 Update #2B  |
 | Logi Rallybar  | `1.8.290`     | 2022 Update #2B  |
 | Logi Rallybar Mini  | `1.8.290`     | 2022 Update #2B  |
 | Logi Console  | `1.8.177`    | 2022 Update #2B  |

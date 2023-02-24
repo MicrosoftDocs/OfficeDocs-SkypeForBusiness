@@ -147,7 +147,7 @@ For more information about using the Graph API to update apps, see [here](/graph
 
 Consider the following issue when using this feature:
 
-* The method is not available in GCC environments. [Upload a custom app](upload-custom-apps.md) to publish it in GCC environments.
+* The method is not available in GCC environments. See [Upload a custom app](upload-custom-apps.md) to know how to publish it in GCC environments.
 
 ## Related articles
 
