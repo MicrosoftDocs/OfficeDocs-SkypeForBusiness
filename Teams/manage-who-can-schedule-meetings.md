@@ -67,14 +67,14 @@ After any of these meeting policy settings are turned off, any user assigned to 
 
 If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user become active and people can join them using the meeting join link or by phone.
 
-To restrict who can start and schedule both private and channel meetings, run the following script in [Microsoft PowerShell](teams-powershell-overview.md) with the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet:
+To restrict who can start and schedule both private and channel meetings, run the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetNow $False
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowChannelMeetingScheduling $False
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowPrivateMeetNow $False
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowPrivateMeetingScheduling $False
-Set-CsTeamsMeetingPolicy -Identity <policy name>  -AllowOutlookAddIn $False
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowOutlookAddIn $False
 ```
 
 ## Related topics
