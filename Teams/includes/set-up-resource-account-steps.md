@@ -21,12 +21,14 @@ If you purchased **Teams Phone Standard**, **Teams Phone with Calling Plan**, or
 To see if you already have **Teams Phone Resource Account** licenses in your tenant, sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) using an account with Global admin permissions. Then, go to [Billing > Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have **Teams Phone Resource Account** licenses, they'll appear as **Microsoft Teams Phone Resource Account**.
 
 1. Open the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in with a user that is a Global admin. This is usually the account you used to sign up for Microsoft 365.
-2. In the left navigation pane, go to [**Billing** > **Purchase services**](https://admin.microsoft.com/Adminportal/Home#/catalog) > **Add-ons** > **See all Add-ons products**.
-3. Scroll to the end to find the **Microsoft Teams Phone Resource Account** license. Select **Details**, then **Buy**.
-4. On the license purchase page, select the number of licenses you want. You need one license for each auto attendant and call queue you plan to set up. We recommend selecting at least five licenses so you can easily set up more auto attendants and call queues in the future without having to purchase more licenses right away.
-5. Uncheck **Automatically assign to all of your users with no licenses**.
-6. Select **Check out now**.
-7. Confirm your order, select **Next**, and then **Place order**.
+1. In the left navigation pane, go to [**Billing** > **Purchase services**](https://admin.microsoft.com/Adminportal/Home#/catalog) > **Add-ons**.
+1. Scroll to find the **Microsoft Teams Phone Resource Account** license.
+1. Select the **Details** button.
+1. Choose the number of licenses you want to purchase and a billing frequency.
+    1. You need one license for each auto attendant and call queue you plan to set up. We recommend selecting at least five licenses so you can easily set up more auto attendants and call queues in the future without having to purchase more licenses right away.
+1. Select the **Buy** button.
+1. Fill in the purchasing details.
+1. Confirm your order details, and then select the **Place order** button.
 
 There's zero cost for your allotment of licenses, but you still need to follow these steps to acquire the licenses.
 
@@ -48,7 +50,7 @@ To port a number from another carrier, see [Transfer phone numbers to Teams](../
 
 You can create a resource account in the Teams admin center.
 
-1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). 
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expand **Voice**, and then select **Resource accounts**.
 3. Select **Add**.
 4. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
@@ -58,7 +60,7 @@ You can create a resource account in the Teams admin center.
 
 For each resource account, you must assign a **Microsoft Teams Phone Resource Account** license.
 
-1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). 
+1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 2. Expand **Users**, then select **Active users**.
 3. Select the resource account to which you want to assign a license. The resource account's user pane will appear.
 4. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Resource Account**.
