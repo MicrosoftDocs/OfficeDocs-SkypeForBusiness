@@ -3,8 +3,8 @@ title: Microsoft Teams Phone Resource Account licenses
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: waseemh
-ms.date: 07/11/2019
+ms.reviewer: roykuntz
+ms.date: 02/24/2023
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -50,8 +50,13 @@ Contoso, Inc. purchased 600 licenses that include Phone System (one for each emp
 ## How to obtain Microsoft Teams Phone Resource Account licenses
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-2. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
-3. Scroll to find the **Microsoft Teams Phone Resource Account** license. Select **Buy now**.
+1. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
+1. Scroll to find the **Microsoft Teams Phone Resource Account** license.
+1. Select the **Details** button.
+1. Choose the number of licenses you wish to purchase and your billing frequency.
+1. Select the **Buy** button.
+1. Fill in the purchasing details.
+1. Select the **Place order** button.
 
    > [!NOTE]
    > Keep in mind, even if you're within your allocation, you must still **Buy** the license even though it has a cost of zero.
@@ -60,7 +65,7 @@ Contoso, Inc. purchased 600 licenses that include Phone System (one for each emp
 
 If you have existing resource accounts using a **Teams Phone Standard** license, you must switch to using to a **Teams Phone Resource Account** license:
 
-1. Get the new **Teams Phone Resource Account** license.
+1. Purchase the new **Teams Phone Resource Account** license.
 2. Follow the linked steps in the Microsoft 365 admin center to [Move users to a different subscription](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]

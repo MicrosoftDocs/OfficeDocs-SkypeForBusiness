@@ -3,8 +3,8 @@ title: Manage resource accounts in Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: jastark, wasseemh
-ms.date: 01/22/2019
+ms.reviewer: roykuntz
+ms.date: 02/24/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
