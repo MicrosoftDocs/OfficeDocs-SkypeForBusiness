@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: This reference describes each of the policies available in Microsoft Teams
+description: This reference describes each of the policies available in Microsoft Teams.
 ---
 
 # Teams policies reference
@@ -168,7 +168,6 @@ Meeting policies are used to control what features are available to users when t
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
 |Attendance report|Everyone, unless organizers opt-out|This setting allows meeting organizers the ability to see the toggle that turns on or off Attendance Reports within Meeting options.|
 |Who's in the report|Everyone, but users can opt-out|This setting controls whether users in the meeting can opt in or out of offering their attendance information in the Attendance Report.|
-|Attendance information collection|All information|This setting controls whether to show attendance time information (such as join times, leave times and in-meeting duration) for each meeting participant.|
 
 #### Related topics to meeting scheduling
 
