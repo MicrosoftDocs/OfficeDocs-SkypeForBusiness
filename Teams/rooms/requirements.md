@@ -74,6 +74,16 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
    |Crestron FLEX UC-MX70-T with Dell OPTIPLEX|Core i5|8 GB|128 GB|
    |Crestron FLEX UC-C100-T with Dell OPTIPLEX|Core i5|8 GB|128 GB|
    |Crestron FLEX UC-CX100-T with Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MM30-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MM30-T-I with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B30-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B30-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B31-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B31-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M50-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M70-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-C100-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-C100-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
