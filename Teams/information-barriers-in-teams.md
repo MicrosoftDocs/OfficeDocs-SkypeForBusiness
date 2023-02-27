@@ -182,13 +182,13 @@ When a team is created, a SharePoint site is provisioned and associated with Mic
 
 ## Information  barrier modes and Teams
 
-Information barriers mode  help strengthen who can be added to or removed from a Team. When using information barriers with Teams, the following IB modes are supported:
+Information barriers modes help strengthen who can be added to or removed from a Team. When using information barriers with Teams, the following IB modes are supported:
 
 - **Open**: This configuration is the default IB mode for all existing groups that were provisioned before information barriers were enabled. In this mode, there are no IB policies applicable.
-- **Implicit**: This configuration is the default IB mode when a Team is provisioned after enabling Information barriers. Implicit mode allows you to add all compatible users in the group.
+- **Implicit**: This configuration is the default IB mode when a Team is provisioned after enabling information barriers. Implicit mode allows you to add all compatible users in the group.
 - **Owner Moderated**: This mode is set on a team when you want to allow collaboration between incompatible segment users that are moderated by the owner. The team owner can add new members per their IB policy.
 
-Teams created before activating an information barrier policy in your tenant are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you're required to update mode of your existing teams to *Implicit* to ensure that existing teams are IB-compliant.
+Teams created before activating an information barrier policy in your tenant are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you're required to update mode of your existing teams to *Implicit* to ensure that existing teams are IB-compliant. For more information about updating modes, see [Change information barriers modes with a PowerShell script](/microsoftteams/information-barriers-mode-script).
 
 Use the [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open*, *Implicit*, and *Owner Moderated*.
 
@@ -198,9 +198,18 @@ For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll 
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-To update the mode from Open to Implicit for all existing teams, use this [PowerShell script](information-barriers-mode-script.md).
+To update the mode from *Open* to *Implicit* for all existing teams, use this [PowerShell script](information-barriers-mode-script.md).
 
-If you change the Open mode configuration on existing Teams-connected groups to meet compliance requirements for your organization, you'll need to [update the IB modes](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for associated SharePoint sites connected to the Teams team.
+If you change the *Open* mode configuration on existing Teams-connected groups to meet compliance requirements for your organization, you'll need to [update the IB modes](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for associated SharePoint sites connected to the Teams team.
+
+## IB policy application in Teams
+
+IB policy application is a background IB processor for Teams that gets a notification when there are changes to either users (policy or segment changes) or groups (mode changes). The the following steps outline the processing flow:
+
+- The policy application receives a group change notification when mode is updated and retrieves the message thread and Group IDs applicable to the update.
+- If the message thread exists, processing is scheduled and all members are fetched from the team and underlying group and are sent to downstream Teams components for IB evaluation.
+- The mode on the group and the IB policies per user are evaluated and the results are sent to the policy application.
+- Policy application removes the non-compliant users from the group and team.
 
 ## Required licenses and permissions
 
