@@ -74,4 +74,6 @@ Blocking the download of Teams meeting recording files may impact the user exper
 
 ## Related topics
 
+[Block download policy for SharePoint sites and OneDrive](/sharepoint/block-download-from-sites)
+
 [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
