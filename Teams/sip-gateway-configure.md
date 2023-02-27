@@ -189,7 +189,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 5.  On the **Provision devices** pane, under **Waiting for sign in**, select **Signed out**.
 
-6. In the **Sign in a user** dialog, authentication URL and pairing code will be displayed.
+6. In the **Sign in a user** dialog, the authentication URL and pairing code will be displayed.
 
 7. Navigate to the authentication URL on the user's desktop or mobile browser and use corporate credentials to log in.
 
