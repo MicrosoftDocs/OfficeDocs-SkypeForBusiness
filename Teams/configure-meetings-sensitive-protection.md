@@ -22,6 +22,8 @@ description: Learn how to configure Teams meetings for protection for sensitive 
 
 # Configure Teams meetings with protection for sensitive data
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 For the *sensitive* level of protection, we'll restrict who can bypass the lobby, who can present, and who can record. You can restrict additional actions as well if your organization requires it.
 
 The following table describes which actions we'll restrict for sensitive meetings and where those settings are configured.
