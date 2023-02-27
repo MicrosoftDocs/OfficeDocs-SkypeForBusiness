@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 12/02/2022
+ms.date: 02/23/2023
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
