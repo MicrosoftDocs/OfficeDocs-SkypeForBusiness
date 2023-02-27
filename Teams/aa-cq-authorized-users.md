@@ -21,9 +21,9 @@ search.appverid: MET150
 description: Learn about setting up authorized users and what they can manage for auto attendants and call queues.
 ---
 
-# Authorized ssers
+# Authorized users
 
-An authorized user is a Teams user who has been authorized by a Teams admin center administrator to make configuration changes to auto attendants and call queues.  The user doesn't need to have access to the Teams admin center portal nor be assigned any administrative roles.
+An authorized user is a Teams user who has been authorized by a Teams admin center administrator to make configuration changes to auto attendants and call queues. The user doesn't need to have access to the Teams admin center portal nor be assigned any administrative roles.
 
 The Teams user accesses these configuration items through their Teams desktop client.
 
