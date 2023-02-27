@@ -2,6 +2,37 @@
 
 
 
+## Week of February 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/21/2023 | [Accessibility guide for Microsoft Teams Admins](/MicrosoftTeams/accessibility-guide-admin) | modified |
+| 2/21/2023 | [Configure Teams meetings with baseline protection](/MicrosoftTeams/configure-meetings-baseline-protection) | modified |
+| 2/21/2023 | [Configure Teams meetings with three tiers of protection](/MicrosoftTeams/configure-meetings-three-tiers-protection) | modified |
+| 2/21/2023 | [Authentication best practices for Microsoft Teams shared device management of Android devices.](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | modified |
+| 2/21/2023 | [Teams for Education Policy Wizard to easily apply policies for safe learning](/MicrosoftTeams/easy-policy-setup-edu) | modified |
+| 2/21/2023 | [Manage meeting policies for audio and video](/MicrosoftTeams/meeting-policies-audio-and-video) | modified |
+| 2/21/2023 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 2/21/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+| 2/21/2023 | [Availability and use of Teams apps by different types of users](/MicrosoftTeams/non-standard-users) | modified |
+| 2/21/2023 | [Microsoft Teams live event usage report](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | modified |
+| 2/21/2023 | [Calling policies in Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | modified |
+| 2/21/2023 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
+| 2/21/2023 | [Install Power BI Connector to use CQD query templates](/MicrosoftTeams/cqd-power-bi-connector) | modified |
+| 2/21/2023 | [Call Quality Dashboard (CQD) Frequently asked questions (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | modified |
+| 2/21/2023 | [View Microsoft Teams utilization in Power BI using CQD data](/MicrosoftTeams/cqd-teams-utilization-report) | modified |
+| 2/22/2023 | [Microsoft Calling Plans for Teams](/MicrosoftTeams/calling-plans-for-office-365) | modified |
+| 2/22/2023 | [Set up Microsoft Calling Plans](/MicrosoftTeams/set-up-calling-plans) | modified |
+| 2/22/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 2/23/2023 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
+| 2/24/2023 | [Manage Microsoft 365 connectors and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 2/24/2023 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
+| 2/24/2023 | [Customize your app store in Teams](/MicrosoftTeams/customize-your-app-store) | modified |
+| 2/24/2023 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
+| 2/24/2023 | [Teams Phone System Direct Routing: SIP protocol](/MicrosoftTeams/direct-routing-protocols-sip) | modified |
+
+
 ## Week of February 13, 2023
 
 
@@ -98,20 +129,3 @@
 | 1/27/2023 | [Remotely configure front row layout on Teams Rooms](/MicrosoftTeams/rooms/manage-front-row) | added |
 | 1/27/2023 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
 | 1/27/2023 | [End-user training for Microsoft Teams # < 60 chars](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modified |
-
-
-## Week of January 16, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/18/2023 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
-| 1/19/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
-| 1/19/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
-| 1/19/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 1/20/2023 | [Walkie Talkie usage and performance report](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | added |
-| 1/18/2023 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
-| 1/19/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
-| 1/19/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modified |
-| 1/19/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 1/20/2023 | [Walkie Talkie usage and performance report](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | added |
