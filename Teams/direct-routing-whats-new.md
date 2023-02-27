@@ -31,7 +31,7 @@ A new feature based on SIP Options is introduced for trunk health. When enabled 
 Any trunk enabled for that feature that doesn't send at least one SIP Option within five minutes to any of the Microsoft regional (NOAM, EMEA, APAC, OCEA) SIP Proxies is considered demoted. If a trunk sends SIP Options to only a subset of Microsoft regional SIP Proxies, then these routes are tried first and the rest are demoted.
 > [!NOTE] 
 >
-> Any SBC (configured under the customer or the carrier tenant with SendSipOptions set to true) not sending SIP OPTIONS will be demoted. Customers who don't want that behavior should set **SendSipOptins** to *false* in their SBC configuration. The same applies to carrier trunks where the SBC configuration is either under the carrier or customer tenant. In these cases, when **SendSipOptions** is set to *true*, the SBC sends SIP OPTIONS.
+> Any SBC (configured under the customer or carrier tenant with SendSipOptions set to true) not sending SIP OPTIONS will be demoted. Customers who don't want that behavior should set **SendSipOptins** to *false* in their SBC configuration. The same applies to carrier trunks where the SBC configuration is either under the carrier or customer tenant. In these cases, when **SendSipOptions** is set to *true*, the SBC sends SIP OPTIONS.
 
 
 ## SIP support
