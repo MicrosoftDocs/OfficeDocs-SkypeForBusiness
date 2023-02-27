@@ -97,16 +97,6 @@ This video shows the steps to edit an organizational-wide default meeting policy
 > [!NOTE]
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
 
-## Meeting policy settings
-
-When you select an existing policy on the **Meeting policies** page or select **Add** to add a new policy, you can configure settings for the following.
-
-- [General](meeting-policies-in-teams-general.md)
-- [Audio & video](meeting-policies-audio-and-video.md)
-- [Recording & transcription](meetings-policies-recording-and-transcription.md)
-- [Content sharing](meeting-policies-content-sharing.md)
-- [Participants & guests](meeting-policies-participants-and-guests.md)
-
 ## Related topics
 
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
