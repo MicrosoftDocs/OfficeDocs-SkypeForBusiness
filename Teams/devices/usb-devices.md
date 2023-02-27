@@ -8,6 +8,7 @@ ms.date: 06/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: 
+  - Tier3
   - M365-voice
   - Teams_ITAdmin_Devices
 audience: Admin
