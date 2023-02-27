@@ -193,7 +193,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 7. Navigate to the authentication URL on the user's desktop or mobile browser and use corporate credentials to log in.
 
-8. Enter the pairing code displayed in the **Sign in a user dialog** into the web authentication app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username, if the device supports it.
+8. Enter the pairing code displayed in the **Sign in a user** dialog into the web authentication app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username, if the device supports it.
 
 ## How to sign in and sign out
 
