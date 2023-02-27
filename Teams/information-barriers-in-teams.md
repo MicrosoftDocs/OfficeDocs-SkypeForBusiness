@@ -204,10 +204,10 @@ If you change the *Open* mode configuration on existing Teams-connected groups t
 
 ## IB policy application in Teams
 
-IB policy application is a background IB processor for Teams that gets a notification when there are changes to either users (policy or segment changes) or groups (mode changes). The the following steps outline the processing flow:
+IB policy application is a background IB processor for Teams that gets a notification when there are changes to either users (policy or segment changes) or groups (mode changes). The following steps outline the processing flow:
 
 - The policy application receives a group change notification when mode is updated and retrieves the message thread and Group IDs applicable to the update.
-- If the message thread exists, processing is scheduled and all members are fetched from the team and underlying group and are sent to downstream Teams components for IB evaluation.
+- If the message thread exists, processing is scheduled and all members are fetched from the team, and underlying group and are sent to downstream Teams components for IB evaluation.
 - The mode on the group and the IB policies per user are evaluated and the results are sent to the policy application.
 - Policy application removes the non-compliant users from the group and team.
 
