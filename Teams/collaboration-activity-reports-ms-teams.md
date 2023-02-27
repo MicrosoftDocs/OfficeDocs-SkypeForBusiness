@@ -1,5 +1,5 @@
 ---
-title: ACM Insights
+title: Collaborative activity reports in Microsoft Teams
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
@@ -21,24 +21,24 @@ search.appverid: MET150
 description: Learn about the ACM insights feature that provides transparency and visibility for the Teams administrators regarding their organization's external collaboration habits.
 ---
 
-# ACM Insights
+# Collaborative activity reports in Microsoft Teams
 
-The ACM Insights is a feature with an objective of:
+The Collaborative activity reports is a feature in Microsoft Teams that has the following objectives:
 
 - Giving Teams administrators the visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
 - Enabling Teams administrators automate their work
 
-The ACM insights feature includes insights regarding teams, domains, channels, external users, guest users, and users internal to your organization.
+Collaborative activity reports in Microsoft Teams includes insights regarding teams, domains, channels, external users, guest users, and users internal to your organization.
 
 ## Where to find ACM Insights
 
-ACM Insights is found in Teams Admin Center dashboard under the **Collaboration activity** tab, described as follows.
+Collaborative activity reports is found in Teams Admin Center dashboard under the **Collaboration activity** tab, described as follows.
 
-:::image type="content" source="media/dashboard-acm-insights.png" alt-text="The dashboard displaying the ACM Insights menu item.":::
+:::image type="content" source="media/dashboard-collaboration-activity-reports.png" alt-text="The dashboard displaying the ACM Insights menu item.":::
 
 ### Insight descriptions
 
-The components of ACM Insights are:
+The components of Collaborative activity reports are:
 
 - [Inactive teams](#inactive-teams)
 - [External domain activity](#external-domain-activity)
@@ -126,9 +126,9 @@ You can click **View details** to see the guest’s names and the sent message c
 
 1. All reports only show users and teams owned by your tenant but the counts could include activities in cross-tenant collaborations.
     1. For channel events, only the channel’s owning tenant knows about the event. Therefore, if your tenant’s user is participating in channels owned by other tenants, these events won't accrue to any of the reports in your tenant.
-    1. For chat (1:1, group, meeting) events, all participating tenants know about the events. So, your tenant’s report will know events initiated not only by users in your tenant but also by others in other tenants.
+    1. For chat (1:1, group, meeting) events, all participating tenants know about the events. So, your tenant’s report knows events initiated not only by users in your tenant but also by others in other tenants.
     1. These are to uphold Microsoft’s promise on privacy and compliance.
-2. These reports honor M365 level “admin report setting” about concealing or displaying team/user details. For more information, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide&preserve-view=true). When a global administrator configures “conceal team/user details”, reports show obfuscated user/team names instead of their display names.
+2. These reports honor Microsoft 365 level “admin report setting” about concealing or displaying team/user details. For more information, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide&preserve-view=true). When a global administrator configures “conceal team/user details”, reports show obfuscated user/team names instead of their display names.
 
 ### Known Issues
 
