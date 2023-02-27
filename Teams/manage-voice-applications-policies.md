@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use and manage voice applications policies in Microsoft Teams to enable authorized end users to perform configuration changes on auto attendants and call queues.
+description: Learn how to use and manage voice applications policies in Microsoft Teams to allow authorized end users to perform configuration changes on auto attendants and call queues.
 ---
 
 # Manage voice applications policies in Microsoft Teams
