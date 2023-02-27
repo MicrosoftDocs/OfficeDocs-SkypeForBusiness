@@ -99,9 +99,7 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 ## Understand app capabilities
 
-Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. These are the different capabilities of Teams app and the admins only govern the apps using the common [app governance methods](manage-apps.md).
-
-:::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Diagram that shows the app capabilities of a Microsoft Teams app." border="false":::
+Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. Admins only govern the apps using the common [app governance methods](manage-apps.md).
 
 To provide a rich experience that allows users to work inside Teams, apps contain the following capabilities:
 
