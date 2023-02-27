@@ -195,7 +195,7 @@ There are some specific meeting and event features that will provide the feature
 
 - For live caption translation, advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.​
 
- If a user needs access to a Teams Premium feature, license them to ensure consistent access and experiences to Teams Premium capabilities. Note that the extended coverage scenarios above can't be used against our [Online Services license terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and these coverage scenarios are subject to change.
+ If a user needs access to a Teams Premium feature, license them to ensure consistent access and experiences to Teams Premium capabilities. Note that the scenarios above can't be used against our [Online Services license terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and these scenarios are subject to change.
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
@@ -223,7 +223,7 @@ If your organization wishes to keep Teams Premium features after the trial perio
 
 ## How do I purchase Teams Premium licenses?
 
-If your tenant and users meet the requirements for Teams Premium, you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
+If your tenant and users meet [the requirements for Teams Premium](#what-are-the-requirements-to-purchase-teams-premium), you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
 
 After you purchase your Teams Premium licenses, you’ll assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
 
