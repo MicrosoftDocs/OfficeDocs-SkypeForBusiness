@@ -1,7 +1,7 @@
 ---
 title: Manage voice applications policies in Microsoft Teams
-ms.author: colongma
-author: CLYVR
+ms.author: danismith
+author: DaniEASmith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-voice
+  - tier1
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.voiceapplications.overview
