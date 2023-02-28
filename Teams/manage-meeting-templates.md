@@ -20,6 +20,8 @@ description: Learn how Microsoft Teams Administrators can specify which meeting 
 
 # Manage meeting templates in Microsoft Teams
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 You can use meeting template policies in Microsoft Teams to determine which meeting templates are available to users in your organization.
 
 ## Specify which meeting templates are available to users

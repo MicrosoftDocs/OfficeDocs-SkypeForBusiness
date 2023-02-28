@@ -81,6 +81,8 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| EPOS Expand 5T | `1.2.22362.04`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
+| EXPAND Control Touch Console | `1.2.22250.08`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A10 | `278.15.0.6 `   | September 3, 2025 | Small meeting room (4.5 m x 4.5 m)| 11|
 | Logitech Tap IP (VR0029) with RoomMate (VR0030) | `1.6.565`  |   September 3, 2024  | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Yealink MeetingBoard 86" | `155.15.0.10 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
@@ -143,6 +145,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #1A | February 21, 2023 | `1449/1.0.94.2023020602` | `5.0.5484.0` | `382`|
 | 2022 Update #5 | January 25, 2023 | `1449/1.0.94.2023010607` | `5.0.5484.0` | `382`|
 | 2022 Update #4A | November 30, 2022 | `1449/1.0.94.2022110803` | `5.0.5484.0` | `382`|
 | 2022 Update #4  | September 22, 2022| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
@@ -305,6 +308,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBar A20 | `133.320.0.8 `   | 2022 Update #3  |
+| Yealink MeetingBar A30 | `133.320.0.8 `   | 2022 Update #3  |
+| Yealink CTP18 | `133.320.0.10`   | 2022 Update #3  |
 | Neat Bar | `NFB1.20221128.0009` | 2022 Update #3 |
 | Neat Bar Pro| `NFD1.20221128.0009` | 2022 Update #3 |
 | Neat Board | `NFC1.20221128.0009` |  2022 Update #3 |
@@ -314,6 +320,9 @@ When you install a new firmware version on your device, you can determine the co
 | Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
 | Neat Board | `NFC1.20220914.1215` |  2022 Update #2B |
 | Neat Pad touch console | `NFA1.20220914.1215`  |  2022 Update #2B |
+| Logi Rallybar | `1.8.295`   | 2022 Update #2B  |
+| Logi Rallybar Mini | `1.8.295`   | 2022 Update #2B  |
+| Logi RoomMate | `1.8.536`   | 2022 Update #2B  |
 | Logi Rallybar  | `1.8.290`     | 2022 Update #2B  |
 | Logi Rallybar Mini  | `1.8.290`     | 2022 Update #2B  |
 | Logi Console  | `1.8.177`    | 2022 Update #2B  |
@@ -406,7 +415,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2023 Update #1A | February 9, 2023 | `1.0.95.2023011903` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
+|2023 Update #1A | February 9, 2023 | `1449/1.0.95.2023011903` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #5 | January 25, 2023 | `1449/1.0.95.2023011001` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #4A | December 14, 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #1  |November 14, 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
