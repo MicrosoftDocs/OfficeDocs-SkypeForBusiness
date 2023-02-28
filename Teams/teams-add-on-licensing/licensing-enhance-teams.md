@@ -187,13 +187,13 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
 
-There are some specific meeting and event features that will provide the feature benefit to all meeting attendees, including guests and external participants. Here is some guidance to help you decide who to acquire Teams Premium licenses for:
+There are some specific meeting and event features that will provide the feature benefit to all meeting attendees, including guests and external participants. Here's some guidance to help you decide who to acquire Teams Premium licenses for:
 
 - External participants in Virtual Appointments don't require a Teams Premium license to benefit from Teams Premium advanced Virtual Appointments.
 
-- For intelligent recap, all meeting participants need a Teams Premium license to benefit from this feature.​
+- For intelligent recap, all meeting participants need a Teams Premium license to benefit from this feature.
 
-- For live translation (for captions), advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.​ If an attendee is licensed with Teams Premium but the meeting organizer is not, that attendee will still be able to access live translations.
+- For live translation (for captions), advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features. If an attendee is licensed with Teams Premium but the meeting organizer isn't, that attendee will still be able to access live translations.
 
 - For advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.
 
