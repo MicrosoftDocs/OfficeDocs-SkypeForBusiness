@@ -2989,6 +2989,11 @@
     "source_path": "Teams/set-the-caller-id-for-a-user.md",
     "redirect_url": "/microsoftteams/anonymous-users-in-meetings",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/aa-cq-cqd-historical-reports-v163.md",
+    "redirect_url": "/microsoftteams/aa-cq-cqd-historical-reports",
+    "redirect_document_id": true
   }
   ] 
 }
