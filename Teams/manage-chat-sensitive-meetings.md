@@ -20,6 +20,8 @@ description: Learn how to manage Teams meeting chat options for sensitive meetin
 
 # Manage chat for sensitive Teams meetings
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 By default, all meeting attendees can chat both during and after the meeting. Meeting organizers can turn this feature off or allow chat only during the meeting.
 
 If you have compliance requirements for certain types of meetings, you can manage how and when chat is enabled by using a combination of Teams admin policies, meeting templates, and sensitivity labels.
