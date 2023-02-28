@@ -140,6 +140,44 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 6. Confirm the team appears correctly in the Microsoft Teams admin center - Team Overview.
 
+## Deleted Teams
+
+If you are a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
+
+ 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 
+ 2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
+ 
+    ![image](image)
+   
+ 3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
+ 
+    ![image](image)
+ 
+ > [!NOTE]
+ > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
+
+## Expiring Teams
+
+If you are a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
+
+ 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 
+ 2. Select **Filter**, and in the **Filter** section, do the following:
+ 
+     1. Select **Match all these conditions**. 
+     
+     2. Choose the **Expiration Date** and select one of values from the list (for example: in the next 7 days, in the next 14 days, or in the next 30 days).
+     
+     3. Click **Apply**.
+ 
+ 4. Select the expiring team that you want to renew, and then click **Renew**. You can also select multiple teams and renew them. 
+
+    ![image](image)
+    
+ > [!NOTE]
+ > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team's details and expiration date to get updated.
+
 ## Learn more
 
 - [Teams cmdlet reference](/powershell/teams/)  
