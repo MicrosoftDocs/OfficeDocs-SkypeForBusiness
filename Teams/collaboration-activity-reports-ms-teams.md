@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about the ACM insights feature that provides transparency and visibility for the Teams administrators regarding their organization's external collaboration habits.
+description: Learn about the Collaboration activity reports in Microsoft Teams.
 ---
 
 # Collaboration activity reports in Microsoft Teams
