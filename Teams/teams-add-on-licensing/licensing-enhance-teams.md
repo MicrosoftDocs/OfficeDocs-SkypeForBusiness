@@ -167,7 +167,7 @@ The features that are moving to Teams Premium are:
 
 At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE – Customer led, and NCE – Partner led.
 
-Before you can purchase Teams Premium licenses for your users, ensure that your tenant and users meet the requirements.
+Before you can purchase Teams Premium licenses for your users, ensure your tenant and users meet the requirements.
 
 The **tenant requirement** is:
 
@@ -197,7 +197,7 @@ There are some specific meeting and event features that will provide the feature
 
 - For advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.
 
- If a user needs access to a Teams Premium feature, license them to ensure consistent access and experiences to Teams Premium capabilities. Note that the scenarios above can't be used against our [Online Services license terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and these scenarios are subject to change.
+If a user needs access to a Teams Premium feature, license them to ensure consistent access and experiences to Teams Premium capabilities. The scenarios above can't be used against our [Online Services license terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and these scenarios are subject to change.
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
