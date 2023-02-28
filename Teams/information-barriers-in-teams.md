@@ -5,7 +5,7 @@ author: robmazz
 ms.author: robmazz
 manager: laurawi
 ms.reviewer: smahadevan
-ms.date: 01/09/2019
+ms.date: 02/27/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -63,16 +63,23 @@ You might want to use IBs in situations like these:
 
 The Information Barrier Policy Evaluation Service determines whether a communication complies with IB policies.
 
-## Managing information barrier policies
+## Managing information barriers segments
 
-IB policies are managed in the Microsoft Purview compliance portal (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+IB segments are managed in the Microsoft Purview compliance portal or by using PowerShell cmdlets. For more information, see [Step 2: Segment users in your organization](/microsoft-365/compliance/information-barriers-policies#step-2-segment-user-in-your-organization).
+
+> [!IMPORTANT]
+> Support for assigning users to multiple segments is only available when your organization isn't in *Legacy* mode. To determine if your organization is in *Legacy* mode, see [Check the IB mode for your organization)](/microsoft-365/compliance/information-barriers-multi-segment#check-the-ib-mode-for-your-organization). <br><br> Users are restricted to being assigned to only one segment for organizations in *Legacy* mode. Organizations in *Legacy* mode will be eligible to upgrade to the newest version of information barriers in the future. For more information, see the [information barriers roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=information%2Cbarriers).
+
+## Managing information barriers policies
+
+IB policies are managed in the Microsoft Purview compliance portal or by using PowerShell cmdlets. For more information, see [Step 3: Create IB policies](/microsoft-365/compliance/information-barriers-policies#step-3-create-ib-policies).
 
 >[!IMPORTANT]
->Before you set up or define policies, you must enable scoped directory search in Microsoft Teams. Wait at least a few hours after enabling scoped directory search before you set up or define policies for information barriers. For more information, see [Define information barrier policies](/office365/securitycompliance/information-barriers-policies#prerequisites).
+>Before you set up or define policies, you must enable scoped directory search in Microsoft Teams. Wait at least a few hours after enabling scoped directory search before you set up or define policies for information barriers. For more information, see [Define information barrier policies](/microsoft-365/compliance/information-barriers-policies#prerequisites).
 
 ## Information barriers administrator role
 
-The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview compliance portal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center-permissions).
 
 ## Information barrier triggers
 
@@ -143,7 +150,6 @@ If there's an existing chat or other communication between users, and a new poli
 Currently, users experience the following scenarios if an IB policy blocks another user:
 
 - **People tab**: A user can't see blocked users on the **People** tab.
-
 - **People Picker**: Blocked users won't be visible in the people picker.
 
     ![Screenshot of Teams alerting the user that policy prevents display of another user's information.](media/information-barriers-people-picker.png)
@@ -155,13 +161,9 @@ Currently, users experience the following scenarios if an IB policy blocks anoth
     ![Screenshot showing the activity tab that is blocked.](media/ib-after-activity-tab-policy.png)
 
 - **Org charts**: If a user accesses an org chart on which a blocked user appears, the blocked user won't appear on the org chart. Instead, an error message will appear.
-
 - **People card**: If a user participates in a conversation and the user is later blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
-
 - **Suggested contacts**: Blocked users don't appear on the suggested contacts list (the initial contact list that appears for new users).
-
 - **Chat contacts**: A user can see blocked users on the chats contact list, but the blocked users will be identified. The only action that the user can perform on the blocked users is to delete them. The user can also select them to view their past conversation.
-
 - **Calls contacts**: A user can see blocked users on the calls contact list, but the blocked users will be identified. The only action that the user can perform on the block users is to delete them.
 
     Here's an example of a blocked user in the calls contact list.
@@ -215,11 +217,10 @@ IB policy application is a background IB processor for Teams that gets a notific
 
 For more information on licenses and permissions, plans, and pricing, see [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
-## Known Issues
+## Usage notes
 
 - **Users can't join ad-hoc meetings**: If IB policies are enabled, users aren't allowed to join meetings if the size of the meeting roster is greater than the [meeting attendance limits](limits-specifications-teams.md). The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. A user joining a meeting once adds that user to the roster; hence for recurring meetings, the roster can fill up fast. Once the chat roster reaches the [meeting attendance limits](limits-specifications-teams.md), additional users can't be added to the meeting. If IB is enabled for the organization and the chat roster is full for a meeting, new users (those users who aren't already on the roster) aren't allowed to join the meeting. But if IB isn't enabled for the organization and the meeting chat roster is full, new users (those users who aren't already on the roster) are allowed to join the meeting, though they won't see the chat option in the meeting. A short-term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
 - **Users can't join channel meetings**: If IB policies are enabled, users aren't allowed to join channel meetings if they're not a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. The chat thread in a channel meeting is available to Team/Channel members only, and non-members can't see or access the chat thread. If IB is enabled for the organization and a non-team member attempts to join a channel meeting, that user isn't allowed to join the meeting. However, if IB isn't* enabled for the organization and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting—but they won't see the chat option in the meeting.
-- **Maximum number of segments allowed in a organization**: Each organization can set up to 100 segments when configuring IB policies. There's no limit on the number of policies that can be configured.
 - **IB policies don't work for federated users**: If you allow federation with external organizations, the users of those organizations won't be restricted by IB policies. If users of your organization join a chat or meeting organized by external federated users, then IB policies also won't restrict communication between users of your organization.
 
 ## More information
