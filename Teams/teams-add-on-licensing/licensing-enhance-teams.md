@@ -68,7 +68,7 @@ The following table compares key features between Teams and Teams Premium.
 | Translate post-meeting transcriptions (*coming soon*) |  | x |
 | Turn on eCDN for Live Events\* |  | x |
 
-\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn).*
+\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Webinars
 
