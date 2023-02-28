@@ -148,11 +148,11 @@ If you are a Global administrator or a Teams administrator, to restore a deleted
  
  2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
  
-    ![image](image)
+    ![view-deleted-teams](media/actions-menu.png)
    
  3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
  
-    ![image](image)
+    ![list-of-deleted-teams](media/selected-team.png)
  
  > [!NOTE]
  > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
@@ -173,7 +173,7 @@ If you are a Global administrator or a Teams administrator, to renew an expiring
  
  4. Select the expiring team that you want to renew, and then click **Renew**. You can also select multiple teams and renew them. 
 
-    ![image](image)
+    ![list-of-expiring-teams](media/expired-team.png)
     
  > [!NOTE]
  > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team's details and expiration date to get updated.
