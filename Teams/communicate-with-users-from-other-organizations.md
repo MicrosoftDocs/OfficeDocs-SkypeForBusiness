@@ -73,7 +73,7 @@ The following tables show the differences between using external access and gues
 
 ### Things your users can do
 
-| Users can | External access users | Guests |
+| Your users can | External access users | Guests |
 |:---------|:-----------------------|:--------------------|
 | Chat with someone in another organization | Yes | Yes |
 | Call someone in another organization | Yes | Yes |
