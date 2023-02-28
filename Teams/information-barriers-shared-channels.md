@@ -1,5 +1,5 @@
 ---
-title: Information barriers and shared channels (preview)
+title: Information barriers and shared channels
 description: This article explains how information barriers support in Microsoft Teams with Shared Channels.
 author: robmazz
 ms.author: robmazz
@@ -21,7 +21,7 @@ appliesto:
 ms.custom: information-barriers
 ---
 
-# Information barriers and shared channels (preview)
+# Information barriers and shared channels
 
 [Shared channels](shared-channels.md) in Microsoft Teams create collaboration spaces where you can invite people who aren't in the team. [Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) are policies implemented to restrict and prevent users and groups from communicating with each other within and outside of your organization.
 
