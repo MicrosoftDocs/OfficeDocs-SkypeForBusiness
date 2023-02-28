@@ -32,7 +32,7 @@ Collaboration activity reports in Microsoft Teams includes insights regarding te
 
 ## Where to find ACM Insights
 
-Collaboration activity reports is found in Teams Admin Center dashboard under the **Collaboration activity** tab, described as follows.
+The Collaboration activity reports feature is found in Teams Admin Center dashboard under the **Collaboration activity** tab, described as follows.
 
 :::image type="content" source="media/dashboard-collaboration-activity-reports.png" alt-text="The dashboard displaying the ACM Insights menu item.":::
 
