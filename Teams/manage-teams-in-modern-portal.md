@@ -142,7 +142,7 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 ## Deleted Teams
 
-If you are a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
+If you're a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
 
  1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
  
@@ -159,7 +159,7 @@ If you are a Global administrator or a Teams administrator, to restore a deleted
 
 ## Expiring Teams
 
-If you are a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
+If you're a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
 
  1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
  
