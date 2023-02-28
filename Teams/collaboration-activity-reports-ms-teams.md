@@ -1,5 +1,5 @@
 ---
-title: Collaborative activity reports in Microsoft Teams
+title: Collaboration activity reports in Microsoft Teams
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
@@ -21,24 +21,24 @@ search.appverid: MET150
 description: Learn about the ACM insights feature that provides transparency and visibility for the Teams administrators regarding their organization's external collaboration habits.
 ---
 
-# Collaborative activity reports in Microsoft Teams
+# Collaboration activity reports in Microsoft Teams
 
-The Collaborative activity reports is a feature in Microsoft Teams that has the following objectives:
+The Collaboration activity reports is a feature in Microsoft Teams that has the following objectives:
 
 - Giving Teams administrators the visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
 - Enabling Teams administrators automate their work
 
-Collaborative activity reports in Microsoft Teams includes insights regarding teams, domains, channels, external users, guest users, and users internal to your organization.
+Collaboration activity reports in Microsoft Teams includes insights regarding teams, domains, channels, external users, guest users, and users internal to your organization.
 
 ## Where to find ACM Insights
 
-Collaborative activity reports is found in Teams Admin Center dashboard under the **Collaboration activity** tab, described as follows.
+Collaboration activity reports is found in Teams Admin Center dashboard under the **Collaboration activity** tab, described as follows.
 
 :::image type="content" source="media/dashboard-collaboration-activity-reports.png" alt-text="The dashboard displaying the ACM Insights menu item.":::
 
 ### Insight descriptions
 
-The components of Collaborative activity reports are:
+The components of Collaboration activity reports are:
 
 - [Inactive teams](#inactive-teams)
 - [External domain activity](#external-domain-activity)
