@@ -34,9 +34,9 @@ This article provides an overview of how to upgrade your users from a Teams Expl
 > [!NOTE]
 > There are two possible experiences of Teams Exploratory. Some of the instructions in this article will depend on which experience of Teams Exploratory your users have access to.
 >
-> One Teams Exploratory experience is for tenants on the New Commerce Experience or tenants that have no users with a Teams Exploratory license.
+> One Teams Exploratory experience is for tenants on the New Commerce Experience or tenants that have no users with a Teams Exploratory license. This experience allows end users to initiate a self-service trial.
 >
-> The other experience is for tenants that aren't on the New Commerce Experience and who currently have users with a current Teams Exploratory license.
+> The other experience is for tenants that aren't on the New Commerce Experience and may or may not currently have users with a current Teams Exploratory license. If the tenant already has users with Teams Exploratory, this experience allows for tenant-based trials.
 
 ## Step 1: When to upgrade  
 
@@ -63,7 +63,7 @@ Depending on the subscriptions your organization currently has, there are severa
 
 - **Buy a new Microsoft 365 subscription.** Use this option if your organization doesn’t have any existing subscriptions to Office products, or if your organization wants to buy a subscription that’s different from their existing subscription to cover Teams Exploratory users. For more information, see [Buy a different Microsoft 365 for business subscription](/microsoft-365/commerce/try-or-buy-microsoft-365\#buy-a-different-subscription).
 
-- **Move users to a new license.** This method can only be used by customers who are on the New Customer Experience.
+- **Move users to a new license.** This method can only be used by customers who have users with the self-service Teams Exploratory trial.
   - Sign in to the [Microsoft admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and go to **Billing** > **Your products** > **Microsoft Teams Exploratory Trial**. Choose the users you need to move. Select the **Move** button in the actions bar, and then select a subscription to move those users to.
 
 If you’re not sure which Microsoft 365 subscription to upgrade to, see [Microsoft 365 for Business](https://www.microsoft.com/microsoft-365/business#coreui-heading-hiatrep). If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your [Microsoft partner](https://www.microsoft.com/solution-providers/home) or Microsoft account representative.

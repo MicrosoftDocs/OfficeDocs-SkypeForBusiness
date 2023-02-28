@@ -81,7 +81,7 @@ Eligible users can sign up for the Teams Exploratory experience by signing into 
 >
 > One Teams Exploratory experience is for tenants on the New Commerce Experience (NCE) or tenants that have no users with a Teams Exploratory license. This experience allows end users to initiate a self-service trial.
 >
-> The other experience is for tenants that aren't on the New Commerce Experience and who may or may not currently have users with a current Teams Exploratory license. If the tenant already has users with Teams Exploratory, this experience allows for tenant-based trials.
+> The other experience is for tenants that aren't on the New Commerce Experience and may or may not currently have users with a current Teams Exploratory license. If the tenant already has users with Teams Exploratory, this experience allows for tenant-based trials.
 >
 > To see if you have users with a Teams Exploratory license, you can go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) > **Billing** > **Licenses** > and scroll to see if **Microsoft Teams Exploratory** is listed. If it is listed, you have users with a Teams Exploratory license.
 >
