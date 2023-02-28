@@ -193,7 +193,9 @@ There are some specific meeting and event features that will provide the feature
 
 - For intelligent recap, all meeting participants need a Teams Premium license to benefit from this feature.​
 
-- For live caption translation, advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.​
+- For live translation (for captions), advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.​ If an attendee is licensed with Teams Premium but the meeting organizer is not, that attendee will still be able to access live translations.
+
+- For advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.
 
  If a user needs access to a Teams Premium feature, license them to ensure consistent access and experiences to Teams Premium capabilities. Note that the scenarios above can't be used against our [Online Services license terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and these scenarios are subject to change.
 
