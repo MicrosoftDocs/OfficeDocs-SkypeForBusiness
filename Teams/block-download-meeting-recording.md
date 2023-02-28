@@ -38,6 +38,10 @@ Note that this policy doesn't apply to manually uploaded meeting recording files
 > [!IMPORTANT]
 > This feature doesn't prevent the download of files that were uploaded by the Teams service prior to turning the policy on. If you would like to do so, you can open a support ticket.
 
+## Requirements
+
+This feature requires a Microsoft Syntex - SharePoint Advanced Management license.
+
 ## Turn on the policy for your organization
 
 1. To use PowerShell, [download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
