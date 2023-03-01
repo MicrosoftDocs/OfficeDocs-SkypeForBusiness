@@ -30,11 +30,11 @@ The Collaboration activity reports is a feature in Microsoft Teams that has the 
 
 Collaboration activity reports in Microsoft Teams includes insights regarding teams, domains, channels, external users, guest users, and users internal to your organization.
 
-## Where to find ACM Insights
+## Where to find Collaboration activity reports
 
 The Collaboration activity reports feature is found in Teams Admin Center dashboard under the **Collaboration activity** tab, described as follows.
 
-:::image type="content" source="media/dashboard-collaboration-activity-reports.png" alt-text="The dashboard displaying the ACM Insights menu item.":::
+:::image type="content" source="media/dashboard-collaboration-activity-reports.png" alt-text="The dashboard displaying the Collaboration activity reports menu item.":::
 
 ### Insight descriptions
 
