@@ -48,7 +48,7 @@ For more information on PowerShell module exchange, see [Set-OrganizationConfig]
 
 ## Publish connectors for your organization
 
-To make a custom connector available to your organization's users, upload a custom connector app to your org's app catalog. End-users within the org can install, configure, and use the connector in a team.
+To make a custom connector available to your organization's users, upload a custom connector app to your org's app catalog. Users within the org can install, configure, and use the connector in a team.
 
 > [!IMPORTANT]
 > Custom connectors are not available in Government Community Cloud (GCC), Government Community Cloud-High (GCCH), and Department of Defense (DOD) environments.

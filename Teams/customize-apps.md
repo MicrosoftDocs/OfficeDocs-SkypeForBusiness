@@ -22,7 +22,7 @@ description: Learn how to change the metadata and appearance of an app to rebran
 
 # Use app customization to update branding of apps in your org store
 
-Microsoft Teams admins can modify the appearance of some Teams apps to provide a personalized branded experience to their organization's end-users. Such modifications can enhance Teams store experience for end-users and help adhere to organization's branding. For example, admins can modify the description and icon of an app. The customization makes it easy for end-users to identify the app as internal tooling, to understand its org-specific use case, and to use it with confidence. Admins make these updates by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
+Microsoft Teams admins can modify the appearance of some Teams apps to provide a personalized branded experience to their organization's users. Such modifications can enhance Teams store experience for users and help adhere to organization's branding. For example, admins can modify the description and icon of an app. The customization makes it easy for users to identify the app as internal tooling, to understand its org-specific use case, and to use it with confidence. Admins make these updates by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
 
 Admins can only customize apps if the app developer allows their app to be customized. While Teams provides an option to customize the following properties, app developers control which  properties can actually be customized by any admin.
 
@@ -127,7 +127,7 @@ Consider the following details about app customization functionality:
 
 * For an existing app to become customizable, the developer can provide a new version of the app on the Teams store.
 
-* The [app usage report](teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that is provided by the publisher, even if the customized app is used by end-users.
+* The [app usage report](teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that is provided by the publisher, even if the customized app is used by the users.
 
 * The Microsoft Graph permission consent dialog displays the original name of the app that is provided by the publisher. It helps you to accurately identify an app while providing permissions to it.
 
@@ -147,7 +147,7 @@ The limitations on some of the customizable fields are below:
 
 | Errors and issues | Possible fix or understanding of the issue |
 | --- | --- |
-| My updates aren't available to my end-users. | Wait a few hours for changes to propagate. |
+| My updates aren't available to my users. | Wait a few hours for changes to propagate. |
 | I can't customize an app. | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).|
 | I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
 | Manage apps page not loading properly. List of apps is not displayed. | Admin account in use must have the Teams license assigned. |
