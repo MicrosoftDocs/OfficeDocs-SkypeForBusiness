@@ -68,7 +68,6 @@ If Calling Plans are not available to purchase, see [PSTN connectivity options](
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |No  <br/> |
    
-  
 ## Related topics
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
