@@ -127,7 +127,7 @@ The **People in my organization can communicate with Teams users whose accounts 
 
 ### Control if Teams people with unmanaged Teams accounts can initiate the communication
 
-To let unmanaged Teams users initiate requests to communicate with people in your organization, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox. If this option is unchecked, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by users in your organization.
+To let unmanaged Teams users initiate requests to communicate with people in your organization, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox. If this option is unchecked, unmanaged Teams users will not be able to search the full email address to find contacts in your organization and all communications with unmanaged Teams users must be initiated by users in your organization.
 
 ### Restrict communication to a list of external user profiles
 
@@ -135,7 +135,7 @@ To restrict communication with people with unmanaged Teams accounts to a specifi
 
 ### Manage external user profiles
 
-External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it the first time they are contacted by someone in your organization. Once they have created a Teams account, they can also use Teams on the desktop.
+External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it via SMS. Once they have created a Teams account, they can also use Teams on the desktop.
 
 When a profile is added for someone outside you're organization, they're notified and can choose to allow or block the connection. Once the external user accepts the invitation, your users can search for external profiles by name or phone number and communicate with them using chat in Teams.
 
