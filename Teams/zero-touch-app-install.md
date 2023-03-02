@@ -6,7 +6,7 @@ manager: prkosh
 ms.service: msteams
 ms.subservice: teams-apps
 ms.topic: article
-ms.date: 02/10/2023
+ms.date: 03/03/2023
 search.appverid: 
 description: Zero-touch App Install functionality adds apps in Teams for users who are already using its web browser outside Teams.
 audience: admin
@@ -18,6 +18,9 @@ ms.collection:
 ---
 
 # Zero-touch App Install of Microsoft Teams apps by admins
+
+>[!NOTE]
+> The feature is currently available only as a public preview. To enable public preview for specific users, see [Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available on your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
 
 Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps aren't aware that the same app functionality can be used as a Teams app. Using a Teams app allows the users to be more productive as the users work without switching context too often and with the added benefits of having unique Teams capabilities. Some such capabilities are in-context notifications and collaboration within Microsoft Teams.
 
@@ -43,9 +46,9 @@ In addition, the app is only installed if a user signs in to the app outside Tea
 Before you use the functionality, understand the following considerations:
 
 * The functionality adheres to all admin controls for app governance.
-* Only a few apps are available with this functionality.
+* Only a few selected apps are available with this functionality. More apps will be added with default setting as off and with appropriate customer announcements.
 * If an app supports mobile platforms, then the functionality installs it on the mobile client in addition to installing it on the desktop client.
-* An Activity feed notification appears, informing users of the app install. It isn't available on mobile devices.
+* An Activity feed notification appears, informing users of the app install. The notification isn't available on mobile devices.
 * End-users can uninstall an app installed by this functionality. These users can manually reinstall the app later. Once uninstalled, the app isn't automatically installed through Zero-touch App Install feature in the future.
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 * The following is a comparison with other methods of manual app installation and app governance
