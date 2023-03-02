@@ -41,7 +41,7 @@ The Collaboration activity reports feature is found in the Teams Admin Center da
 The components of Collaboration activity reports are:
 
 - [Inactive teams](#inactive-teams)
-- [External domain activity](#external-domain-activity)
+- [External domains activity](#external-domains-activity)
 - [Teams by user type](#teams-by-user-type)
 - [Channels by user type](#channels-by-user-type)
 - [External collaboration activity by team](#external-collaboration-activity-by-team)
