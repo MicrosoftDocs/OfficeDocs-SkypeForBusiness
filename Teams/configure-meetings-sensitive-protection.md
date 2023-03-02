@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -78,11 +79,12 @@ To create a sensitivity label
 1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
 1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
-    1. Select **Control who can bypass the lobby** and choose **Only people who were invited** from the dropdown list.
-    1. Select **Control who can present** and choose **People in my organization and guests** from the dropdown list.
-    1. Select **Who can record** and choose **Organizers and co-organizers** from the dropdown list.
+    1. Select **Who can bypass the lobby** and choose **People who were invited** from the dropdown list.
+    1. Clear the **People dialing in can bypass the lobby** check box.
+    1. Select **Who can present** and choose **People in my organization and guests** from the dropdown list.
+    1. Select **Who can record** and choose **Only organizers and co-organizers** from the dropdown list.
     1. Configure any other settings that you need for your organization.
-    <!--:::image type="content" source="media/teams-meeting-sensitivity-label-sensitive-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-sensitive-large.png":::-->
+    ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-sensitive-small.png)
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 

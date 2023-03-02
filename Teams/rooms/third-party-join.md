@@ -4,6 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: sohailta
+ms.date: 07/22/2020
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -133,4 +134,3 @@ To configure Teams Rooms on Android using the touchscreen console or front-of-ro
 
 3.  Select a third-party meeting provider you want to enable.
 4.  If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.
-

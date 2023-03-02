@@ -3,6 +3,7 @@ title: What's the difference between Business Voice and Enterprise Voice?
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 02/04/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -13,6 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier3
 ---
 
 # What's the difference between Business Voice and Enterprise Voice?

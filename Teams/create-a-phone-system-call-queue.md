@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -13,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -29,7 +31,6 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
-
 ---
 
 # Create a call queue in Microsoft Teams

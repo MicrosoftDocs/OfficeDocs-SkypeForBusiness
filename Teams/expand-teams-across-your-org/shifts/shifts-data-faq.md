@@ -1,8 +1,9 @@
 ---
 title: Shifts data FAQ
-author: lanachin
-ms.author: v-lanachin
+author: samanro
+ms.author: samanro
 ms.reviewer: aaku
+ms.date: 08/19/2021
 manager: samanro
 ms.topic: conceptual
 audience: admin
@@ -19,6 +20,7 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 appliesto: 

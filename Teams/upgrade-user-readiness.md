@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 05/17/2018
 audience: admin
 description: Plan to communicate with, train, and support your users as you pilot, onboard, and upgrade to Microsoft Teams.
 ms.localizationpriority: medium

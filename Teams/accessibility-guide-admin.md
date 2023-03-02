@@ -3,6 +3,7 @@ title: Accessibility guide for Microsoft Teams Admins
 ms.author: meghan
 author: meganrmhan
 ms.reviewer: eljones    
+ms.date: 08/31/2022
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -38,9 +39,9 @@ To turn on live captions for users:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Participants & guests** section.
+3. Go to the **Recording & transcription** section.
 
-4. Switch **Live captions** to **Not enabled but the user can override**.
+4. Switch **Live captions** to **Off, but organizers and co-organizers can turn them on**.
 
 5. Select **Save**.
 
@@ -94,26 +95,26 @@ After guest access has been given, to admit sign language interpreters and CART 
 
 2. Select the policy you want to modify.
 
-3. Go to the **Participants & guests** section.
+3. Go to the **Meeting join & lobby** section.
 
-4. Choose the option under **Automatically admit people** that best fits your organization's compliance and security requirements. You can select one of the following options:
+4. Choose the option under **Who can bypass the lobby** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
    - Everyone (not recommended)
 
    - People in my organization and guests (recommended)
 
-   - People in my organization, trusted organizations, and guests
+   - People in my organization , trusted organizations, and guests
 
-   - People in my organization
+   - People in my organization 
 
-   - Organizer only
+   - Only organizers and co-organizers 
 
-   - Invited users only
+   - People who were invited
 
 5. Select **Save**.
 
 > [!NOTE]
-> The setting **Automatically admit people** doesn't apply to dial-in users.
+> The setting **Who can bypass the lobby** doesn't apply to dial-in users.
 
 ### Turn on IP video feed for your users
 
@@ -156,15 +157,15 @@ To turn on video filters:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Content sharing** section.
+3. Go to the **Audio & video** section.
 
-4. Choose the option under **Select video filters** that best fits your organization's compliance and security requirements. Select one of the following options:
+4. Choose the option under **Participants can use video effects** that best fits your organization's compliance and security requirements. Select one of the following options:
 
-   - Background blur only
+   - Only background blur
 
-   - Background blur and default images
+   - Only background blur and default images
 
-   - All filters
+   - All video effects
 
 5. Select **Save**.
 
@@ -203,15 +204,15 @@ To check if in-meeting chat is turned on:
 
 2. Select the policy you want to modify.
 
-3. Go to the **Participants & guests** section.
+3. Go to the **Meeting engagement** section.
 
 4. Choose the option under **Chat in meetings** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
-   - Turn it on for everyone (recommended)
+   - On for everyone (recommended)
 
-   - Turn it off for everyone (not recommended)
+   - Off (not recommended)
 
-   - Turn it on for everyone but anonymous users
+   - On for everyone but anonymous users
 
 5. Select **Save**.
 

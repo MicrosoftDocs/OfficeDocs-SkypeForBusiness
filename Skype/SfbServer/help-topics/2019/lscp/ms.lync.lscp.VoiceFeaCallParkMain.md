@@ -8,7 +8,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium

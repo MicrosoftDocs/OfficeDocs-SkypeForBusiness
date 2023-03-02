@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -33,7 +34,7 @@ description: "When you get phone numbers or port (transfer) numbers for your org
 There is a new process to interact with the Telephone Number Services (TNS) service desk from our new **[Phone Number Service Center](https://pstnsd.powerappsportals.com)**. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. These tasks are described in more detail in the following sections.
 
 
-- **[Create a new case](#create-a-new-case)** – Submit a new request or general enquiry.
+- **[Create a new case](#create-a-new-case)** – Submit a new request or general inquiry.
 
 - **[View my existing cases](#view-and-manage-existing-cases)** – Track and monitor your existing case(s).
 
@@ -78,7 +79,7 @@ A case can have one of two categories:
 
 - **Submit a new request**- Choose this option if you want to submit a new request. For example, you want to submit a port request or you want to purchase phone numbers from Microsoft.
 
-- **General enquiry** - Choose this option if you have questions that will help you determine your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers.
+- **General inquiry** - Choose this option if you have questions that will help you determine your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers.
 
 #### Country or region
 
@@ -144,6 +145,13 @@ Case type can be one of the following:
 
   - **Letter of authorization (LOA)** - Attach a signed and filled out LOA here. Microsoft cannot process a port request without an LOA.
 
+    > [!NOTE]
+    > For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+    >
+    >To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.
+    >
+    > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
+
 - **Address Update** – Update emergency calling address. Note that this field applies to select countries only.
 
   - **Location id** - The location ID for your emergency address.
@@ -179,9 +187,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
   Responses from the **TNS service desk** will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update.
 
-- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**.
-
-- **Resolve a case** - If you believe your request has been completed, you can resolve a case by navigating to an existing case, scrolling down, and selecting **Resolve case**. Select **Close**; the case will now show as **Resolved – Problem solved**.
+- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**. You can also request to cancel cases created by other members of your company.
 
 ## Related topics and additional resources
 
@@ -189,7 +195,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
 - For information about the calling plans that are available in your country/region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- For information zbout the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- For information about the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 - For information about managing phone numbers for your organization, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
 

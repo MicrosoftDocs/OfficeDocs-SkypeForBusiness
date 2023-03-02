@@ -6,6 +6,7 @@ manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
+ms.date: 04/09/2020
 search.appverid: MET150
 searchScope: 
   - Microsoft Teams
@@ -19,6 +20,7 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 ---
@@ -133,3 +135,7 @@ Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn mor
 
 - [Planner tasks and plans API overview](/graph/planner-concept-overview)
 - [Using Microsoft To Do with Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Tasks**, and then enter your feedback or details about the issue you're experiencing.

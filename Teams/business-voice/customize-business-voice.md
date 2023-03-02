@@ -3,6 +3,7 @@ title: Customize Microsoft Teams Phone System with Calling Plan in Microsoft Tea
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 08/12/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier1
 ---
 
 # Customize Teams Phone System with Calling Plan

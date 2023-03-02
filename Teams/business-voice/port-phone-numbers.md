@@ -3,6 +3,7 @@ title: Port phone numbers to Teams Phone System with Calling Plan
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 07/24/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,6 +18,7 @@ ms.collection:
   - M365-voice
   - M365initiative-voice
   - highpri
+  - tier1
 ---
 
 # Step 7: Port phone numbers to Teams Phone System with Calling Plan (optional)

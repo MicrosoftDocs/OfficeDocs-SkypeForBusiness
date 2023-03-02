@@ -3,6 +3,7 @@ title: Microsoft Teams Rooms maintenance and operations
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -54,7 +55,7 @@ If you desire a front of room display to automatically switch to Teams Rooms whe
 
 To get Teams Rooms designed experience, your Front of Room displays need to meet resolution and scale requirements.
 
-To set the scale and resolution of your Front of Rooms displays remotely, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-front-of-room-scale-and-resolution).
+To set the scale and resolution of your Front of Rooms displays remotely, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).
 
 To set the scale and resolution manually in the Teams Rooms admin settings:
 

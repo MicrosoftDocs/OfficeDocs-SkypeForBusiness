@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 05/21/2021
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -30,11 +31,11 @@ description: Manage Voicemail Policies for your users.
 
 Voicemail policies allow you to configure and assign existing or new voicemail policies to groups of users for features such as call answering rules, voicemail transcription, transcription profanity masking, transcription translation, and system prompt language.
 
-Before specifying policies, you should read [Set up Cloud Voicemail](set-up-phone-system-voicemail.md). For information on managing settings for individual users, see [Manage Voicemail setltings](manage-voicemail-settings.md).
+Before specifying policies, you should read [Set up Cloud Voicemail](set-up-phone-system-voicemail.md). For information on managing settings for individual users, see [Manage Voicemail settings](manage-voicemail-settings.md).
 
 To manage voicemail policies, you can use the Teams admin center or the New-CsOnlineVoicemailPolicy PowerShell cmdlet. 
 
-The default polices for users are:
+The default policies for users are:
 
 - Voicemail transcription is enabled.
 - Voicemail transcription translation is enabled.
@@ -50,6 +51,9 @@ You can use the global (Org-wide default) policy that's created automatically or
 > The voicemail service in Microsoft 365 caches voicemail policies and updates the cache every 6 hours. So, policy changes that you make can take up to 6 hours to be applied.
 
 ## Use Teams admin center
+
+> [!NOTE]
+> Managing Voicemail Policies through the Teams Admin Center is not currently available in GCC High and DoD environments.
 
 ### Create a custom voicemail policy
 
@@ -97,7 +101,7 @@ You can also use PowerShell to configure and assign existing or new voicemail po
 
 ## Voicemail policy settings
   
-- **Enable transcription** - This setting controls whether the Cloud Voicemail service will generate a text transciption of the recorded voicemail and include it in the voicemail message. The transcription will be done based on the language detected in the recorded voicemail.
+- **Enable transcription** - This setting controls whether the Cloud Voicemail service will generate a text transcription of the recorded voicemail and include it in the voicemail message. The transcription will be done based on the language detected in the recorded voicemail.
 
 - **Transcription translation** - This setting controls whether the Cloud Voicemail service will translate the transcription of the recorded voicemail. The translation will be attempted into the
 preferred language of the voicemail receiver.
@@ -111,11 +115,11 @@ preferred language of the voicemail receiver.
 - **Dual language system prompts** - By default, the voicemail system prompts are presented to callers in the language selected by the user when setting up their voicemail. If there is a business 
 requirement to have the voicemail system prompts presented in two languages, a primary and secondary language can be set and they may not be the same.
 
-- **PreambleAudioFile** - Currently only available via PowerShell. The audio file to play to the caller before the user's voicemail greeting is played.
+- **PreambleAudioFile** - The audio file to play to the caller before the user's voicemail greeting is played.
 
-- **PostambleAudioFile** - Currently only available via PowerShell. The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.
+- **PostambleAudioFile** - The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.
 
-- **PreamblePostambleMandatory** - Currently only available via PowerShell. Is playing the Pre- or Postamble mandatory before the caller can leave a message.
+- **PreamblePostambleMandatory** - Is playing the Pre- or Postamble mandatory before the caller can leave a message.
 
 ### Share data for service improvements
 
@@ -123,5 +127,3 @@ Specifies whether voicemail and transcription data is shared with the service fo
 
 
 ## Related articles
-
-

@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -13,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -25,7 +27,6 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
-
 --- 
 
 # Set up a Microsoft Teams auto attendant
@@ -47,8 +48,13 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
->
-> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted.  If an operator isn't defined, the auto attendant will drop the call.
+
+>[!IMPORTANT]
+> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted or if the caller doesn't make any selection after listening to the menu three consecutive times. 
+> 
+> If an operator isn't defined, the auto attendant will drop the call.
+> 
+> In addition to defining an operator, the operator needs to be one of the configured menu choices.
 
 ## What's new for auto attendants in the past six months
 

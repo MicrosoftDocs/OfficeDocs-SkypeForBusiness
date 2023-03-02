@@ -3,6 +3,7 @@ title: Custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
+ms.date: 09/15/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,13 +23,11 @@ description: Using approved corporate assets like backgrounds to create custom b
 
 # Custom meeting backgrounds for Teams Meetings
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
-
 ## Overview
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. Using custom meeting backgrounds helps foster internal corporate culture building and increase overall brand awareness with both internal and external meeting participants. With the help of an organization's brand management and corporate communications teams, admins can easily set up and create custom meeting backgrounds for various business units and departments within a single tenant.
 
-By default, Teams premium licensed users who are either admins or have been assigned a meeting customization policy can create meetings that feature custom meeting  backgrounds. These custom backgrounds will only be available for end users within your organization who have a Teams Premium license to use.
+By default, Teams premium licensed users who are either admins or have been assigned a meeting customization policy can create meetings that feature custom meeting  backgrounds. These custom backgrounds will only be available for end users within your organization who have a Teams Premium license to use. These users will still be able to upload their own custom backgrounds.
 
 ## Prerequisites
 
@@ -63,7 +62,7 @@ Uploads must adhere to the following parameters. Admins can upload:
 
 - PNG and JPEG image formats for their images
 - Images with minimum dimensions of 360 px X 360 px
-- Images with minimum dimensions of 3840 px X 2160 px
+- Images with maximum dimensions of 3840 px X 2160 px
 - A maximum of 50 custom background images
 
 To upload your images, navigate to **Meetings** > **Customization Policies** and select your policy from the previous step. Scroll down to the **Custom meeting backgrounds** section, and under the table with the custom background’s toggle, select **+Add**. Once you select +Add, a pane called **Managing Backgrounds** will open, allowing you to add your images.

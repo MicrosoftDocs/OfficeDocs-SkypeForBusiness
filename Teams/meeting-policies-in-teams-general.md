@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
+ms.date: 03/15/2021
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -29,7 +30,7 @@ description: Learn to manage general meeting policy settings in Teams.
 
 This article describes the following general policy settings for Teams meetings:
 
-- [Meet now in channels](#meet-now-in-channels)
+- [Meet now in channel meetings](#meet-now-in-channel-meetings)
 - [Outlook add-in](#outlook-add-in)
 - [Channel meeting scheduling](#channel-meeting-scheduling)
 - [Private meeting scheduling](#private-meeting-scheduling)
@@ -37,10 +38,10 @@ This article describes the following general policy settings for Teams meetings:
 - [Meeting registration](#meeting-registration)
 - [Webinars](#webinars)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
-- [Meeting reactions](#meeting-reactions)
+- [Reactions](#reactions)
 - [Speaker Coach](#speaker-coach)
 
-## Meet now in channels
+## Meet now in channel meetings 
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn on this setting, users can click the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. This setting is on by default.
 
@@ -143,11 +144,11 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
   If you set the parameter to **Teams**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. However, note that existing Teams meeting join links won't be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
 
-## Meeting reactions
+## Reactions
 
-The availability of meeting reactions can be configured through either the Teams admin center interface or using PowerShell. Meeting reactions are enabled by default.
+The availability of reactions can be configured through either the Teams admin center interface or using PowerShell. Reactions are enabled by default.
 
-In the Teams admin center, Meeting reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Participants & guests** section of a meeting policy.
+In the Teams admin center, reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Meeting engagement** section of a meeting policy.
 
 To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
 
@@ -166,6 +167,7 @@ This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to
 
 ## Related topics
 
+- [Teams policies reference](settings-policies-reference.md#meetings)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

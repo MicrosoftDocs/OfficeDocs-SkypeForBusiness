@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
 search.appverid: MET150
-description: Learn how apps in Microsoft Teams work for guests, federated users, and anonymous users.
+description: Learn how apps in Microsoft Teams work for guests, external access users, and anonymous users.
 ms.localizationpriority: high
 ms.date: 09/28/2022
 f1.keywords:
@@ -22,19 +22,19 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use of Teams apps for external attendees or guest from outside an organization
+# Use of Teams apps for external attendees or guests from outside an organization
 
 Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external attendees](manage-external-access.md) and [what can guests do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
 
 The following types of users can be present in a Teams chat or meeting and if you allow it, they can use apps in Teams.
 
-* A **guest user** is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization.
+* A **guest** is someone who has an [Azure Active Directory (Azure AD) B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) guest account your organization.
 
-* An **external (federated) user** is from another domain and doesn't have access to your organization's Teams resources.
+* An **external access user** is from another domain and doesn't have access to your organization's Teams resources.
 
 * An **anonymous user** is a user who joins a meeting via a link. The user isn't logged in with their Microsoft account or their organization’s account.
 
-For a more detailed comparison between guest and external users, see [communicate with users from other organizations](communicate-with-users-from-other-organizations.md).
+For a more detailed comparison between guest and external access users, see [communicate with users from other organizations](communicate-with-users-from-other-organizations.md).
 
 ## Guests
 
@@ -58,13 +58,13 @@ Guests can mention the bot and interact with adaptive cards.
 * You can't remove a guest from the global default app setup policy.
 * To avoid guest from accessing bots, you can create more app setup policies, assign them to internal users, and install bots with the custom policies.
 
-## Federated users
+## External access users
 
-### Install, update, and delete apps for federated users
+### Install, update, and delete apps for external access users
 
-Federated users can't install, update, or delete apps into any context, such as a personal, chat, channel, or meeting. They don't have access to the Teams app store of the hosting organization.
+External access users can't install, update, or delete apps into any context, such as a personal, chat, channel, or meeting. They don't have access to the Teams app store of the hosting organization.
 
-### Usage behavior and policy for federated users
+### Usage behavior and policy for external access users
 
 * People from other organizations adhere to the hosting organization's global (org-wide default) policy
 * Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations can't add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
