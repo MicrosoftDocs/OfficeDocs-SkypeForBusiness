@@ -46,6 +46,8 @@ To create a custom meeting template
 
 Once the template has been created, it may take up to 24 hours to be available to your users.
 
+[!NOTE] Ensure the watermark is enabled under Meeting Policies. Enable Watermarks ([watermark-meeting-content-video.md](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/523374d0d5165fedc8f691ccc6786ab4d67e42d9/Teams/watermark-meeting-content-video.md))
+
 #### Security
 
 |Setting|Description|
