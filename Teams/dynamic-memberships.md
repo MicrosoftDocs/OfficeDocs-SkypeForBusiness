@@ -4,6 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: kblevens, phlouie
+ms.date: 10/19/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

@@ -3,6 +3,7 @@ title: Accessibility guide for Microsoft Teams Admins
 ms.author: meghan
 author: meganrmhan
 ms.reviewer: eljones    
+ms.date: 08/31/2022
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -40,9 +41,10 @@ To turn on live captions for users:
 
 3. Go to the **Recording & transcription** section.
 
-4. Switch **Live captions** to **Off but the user can override**.
+4. Switch **Live captions** to **Off, but organizers and co-organizers can turn them on**.
 
 5. Select **Save**.
+
 > [!TIP]
 > Share the following link so users can learn how to [turn on live captions during meetings](https://support.microsoft.com/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260#ID0EBD=Desktop).
 
@@ -99,20 +101,20 @@ After guest access has been given, to admit sign language interpreters and CART 
 
    - Everyone (not recommended)
 
-   - Everyone in my organization and guests (recommended)
+   - People in my organization and guests (recommended)
 
-   - Everyone in my organization , trusted organizations, and guests
+   - People in my organization , trusted organizations, and guests
 
-   - Everyone in my organization 
+   - People in my organization 
 
    - Only organizers and co-organizers 
 
-   - Only invited users 
+   - People who were invited
 
 5. Select **Save**.
 
 > [!NOTE]
-> The setting **Automatically admit people** doesn't apply to dial-in users.
+> The setting **Who can bypass the lobby** doesn't apply to dial-in users.
 
 ### Turn on IP video feed for your users
 
@@ -157,13 +159,13 @@ To turn on video filters:
 
 3. Go to the **Audio & video** section.
 
-4. Choose the option under **Select video filters** that best fits your organization's compliance and security requirements. Select one of the following options:
+4. Choose the option under **Participants can use video effects** that best fits your organization's compliance and security requirements. Select one of the following options:
 
-   - Background blur only
+   - Only background blur
 
-   - Background blur and default images
+   - Only background blur and default images
 
-   - All filters
+   - All video effects
 
 5. Select **Save**.
 

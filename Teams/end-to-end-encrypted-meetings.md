@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,6 +21,8 @@ description: Learn how to enable end-to-end encryption for Teams meetings.
 ---
 
 # Require end-to-end encryption for sensitive Teams meetings
+
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 End-to-end encryption is the encryption of information at its origin and decryption at its intended destination without the ability for intermediate nodes to decrypt. When meetings in Teams are end-to-end encrypted, nobody except for the participants in the meeting can hear or see the communication. No other party, including Microsoft, has access to the decrypted conversation.
 
@@ -50,6 +53,10 @@ The following features aren't available during an end-to-end encrypted meeting:
 
 - Breakout rooms
 
+- PowerPoint Live
+
+- Excel Live
+
 If your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Enable end-to-end encryption for meetings
@@ -64,7 +71,7 @@ To enable end-to-end encryption for meetings
 
 1. Select the policy you want to update.
 
-1. Set **End-to-end meeting encryption**, to **Not enabled, but users can override**.
+1. Set **End-to-end meeting encryption**, to **Off, but organizers and co-organizers can turn them on**.
 
 1. Select **Save**.
 

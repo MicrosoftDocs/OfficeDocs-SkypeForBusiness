@@ -3,6 +3,7 @@ title: Control who can bypass the meeting lobby in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
+ms.date: 11/30/2022
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -54,10 +55,10 @@ The following table shows the Teams meeting policies that affect how meeting par
 
 The following table shows how each option for the **Who can bypass the lobby** policy affects each *type of meeting participant*.
 
-|Policy value:|Everyone|Everyone in my organization, trusted organizations, and guests|Everyone in my organization and guests|Everyone in my organization|Only people who were invited|Only organizers and co-organizers|
+|Policy value:|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|People who were invited|Only organizers and co-organizers|
 |:--------|:------|:-----|:-----|:------|:-------|:---------------|
 |*Organizer and co-organizers*|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
-|*Everyone in my organization and guests*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
+|*People in my organization and guests*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Guests*|Bypass|Bypass|Bypass|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|Lobby|Lobby|
@@ -74,7 +75,7 @@ You can configure the settings and policies described above in the Teams admin c
 To set meeting join and lobby policies
 1. In the Teams admin center, expand **Meetings** and then select **Meeting policies**.
 1. Select the policy that you want to update.
-1. In the **Participant & guests** sections, update the settings that you want to change:
+1. In the **Meeting join & lobby** sections, update the settings that you want to change:
    - **Anonymous users can join a meeting**
    - **Anonymous users and dial-in callers can start a meeting**
    - **Who can bypass the lobby** (Who can bypass the lobby)
@@ -153,6 +154,13 @@ You can set the meeting policies described in this article by using the [Set-CsT
 - [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
 - [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
 - [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
+
+## Run the lobby diagnostic tool
+
+If a user recently had an undesired lobby experience in a meeting hosted by your organization, you can use the lobby diagnostic tool to investigate the expected lobby experience. This tool will explain the expected lobby experience for a specific user in a specific meeting and provide guidance to make policy changes if the current experience is not aligned with your configuration. Make sure you're signed into Microsoft 365 as a Teams administrator to access the tool.
+
+>> [!div class="nextstepaction"]
+>> [Run Tests: Lobby Access](https://admin.microsoft.com/AdminPortal/?searchSolutions=Diag:%20Bypass%20Lobby#/homepage)
 
 ## Related topics
 

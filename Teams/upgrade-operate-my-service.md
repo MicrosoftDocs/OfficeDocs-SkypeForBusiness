@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 06/04/2018
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -279,7 +280,7 @@ or users, or feature evaluation and adoption campaigns. This is the primary role
 of a change management team in your organization. Below is a collection of sample tables that
 can help you plan for change.
 
-#### Feature: Cloud Recording (Release date: January 2018)
+#### Feature: Meeting recording (Release date: January 2018)
 
 **General track**
 

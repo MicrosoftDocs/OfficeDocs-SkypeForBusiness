@@ -4,6 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: aaglick
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams

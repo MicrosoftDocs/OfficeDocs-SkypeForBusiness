@@ -3,6 +3,7 @@ title: Get help from a Microsoft reseller or partner
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 03/27/2020
 ms.topic: article
 ms.service: msteams
 audience: admin

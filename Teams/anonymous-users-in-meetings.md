@@ -3,6 +3,7 @@ title: Manage anonymous participant access to Teams meetings (IT admins)
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
+ms.date: 01/09/2023
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,7 +21,7 @@ description: For IT Pros - Learn how anonymous meeting participation works in Mi
 
 # Manage anonymous participant access to Teams meetings (IT admins)
 
-Anonymous participants in meetings hosted by your organization are those who's identity can't be verified. This could include:
+Anonymous participants in meetings hosted by your organization are those who's identity can't be validated. This could include:
 
 - People who are not logged in to Teams with a work or school account 
 - People from non-trusted organizations (as configured in [external access](manage-external-access.md)) and from organizations that you trust but which do not trust your organization.

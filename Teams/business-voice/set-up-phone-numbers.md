@@ -3,6 +3,7 @@ title: Set up Microsoft Teams Phone System with Calling Plan phone numbers
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 07/24/2019
 ms.topic: article
 ms.service: msteams
 audience: admin

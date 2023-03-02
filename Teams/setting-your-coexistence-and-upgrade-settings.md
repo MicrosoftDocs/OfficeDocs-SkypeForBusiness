@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: bjwhalen
+ms.date: 05/11/2018
 search.appverid: MET150
 description: Learn about how to set coexistence and upgrade settings for all users in your organization at once, or for a single or set of users in your organization.
 f1.keywords:

@@ -12,6 +12,7 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
+ms.date: 07/27/2018
 description: Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH

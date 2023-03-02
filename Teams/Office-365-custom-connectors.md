@@ -23,19 +23,17 @@ ms.custom: seo-marvel-mar2020
 
 # Manage Microsoft 365 connectors and custom connectors
 
-Connectors in Microsoft Teams deliver content and service updates directly from third-party services into a Teams channel. Using connectors, the users receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services. The updates are posted directly into the chat stream. This functionality makes it easy for all the team members to stay in sync and quickly receive the relevant information.
+Connectors in Microsoft Teams deliver content and service updates directly from third-party services into a Teams channel. Using connectors, the users receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services. Connectors post these updates directly into the chat stream. This functionality makes it easy for all the team members to stay in sync and quickly receive the relevant information.
 
-Microsoft 365 connectors are used with both Teams and Microsoft 365 groups. You can use the same connectors in Teams and Microsoft Exchange.
+Teams and Microsoft 365 groups use connectors. You can use the same connectors in Teams and Microsoft Exchange.
 
-<!--- However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors. --->
-
-If the team permissions allow it, any member of a team can add a connector in the team, and all team members are notified of activities from that service. Any team member with the permissions to add or remove can modify connectors setup by other members.
+Any team member can add a connector to a channel, if the team permissions allow it. The updates from the service, that the connector fetches information from, notifies all the team members. Any team member with the permissions to add or remove can modify connectors setup done by other members.
 
 ## Enable or disable connectors in Teams
 
-The Exchange Online PowerShell v2 module uses modern authentication and works with multi-factor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox, affecting all users in that tenant or mailbox. It isn't possible to disable for a few specific users.
+The Exchange Online PowerShell v2 module uses modern authentication and works with multi-factor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox. If a connector is disabled, it affects all users in that tenant or mailbox. You can't disable a connector for a few specific users.
 
-The tenant setting overrides the group setting. For example, if an admin enables connectors for the group and disables them on the tenant, connectors for the group is disabled. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
+The tenant setting overrides the group setting. For example, if an admin enables connectors for the group and disables them on the tenant, connectors for the group are disabled. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
 
 To enable or disable a connector, execute the following commands in Exchange Online PowerShell:
 
@@ -61,13 +59,7 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 ## Considerations when using Connectors in Teams
 
-* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable those, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. Connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
-
-* If the user who added a connector to a team leaves the team, the connector continues to work.
-
-* Jenkins connector is scheduled for release on Feb 28, 2023.
-
-* The following connectors aren't available for use January 2023 onwards:
+* You can't configure new connections for the following connectors:
 
   * Aha!
   * Airbrake
@@ -122,6 +114,10 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * Wrike
   * XP-Dev
   * Zendesk
+
+* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable connectors, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+
+* If the user who added a connector to a team leaves the team, the connector continues to work.
 
 ## Update URL of a connector
 

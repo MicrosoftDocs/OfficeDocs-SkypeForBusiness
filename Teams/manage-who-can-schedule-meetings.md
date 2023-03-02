@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: nej, brgussin
+ms.date: 07/15/2020
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -32,7 +33,7 @@ The meeting policy settings are turned on by default. These settings can be foun
 - **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
 - **Meeting registration**: Controls whether a user can register the meeting.
 - **Who can register**: Choose **Everyone** from the dropdown list.
-- **Engagement report**: Choose **Turn it on for everyone** from the dropdown list.
+- **Engagement report**: Choose **On for everyone** from the dropdown list.
 
 > [!NOTE]
 > If the meeting was sent by a delegate, who was given permissions to send meeting invitations on behalf of another person, such as a manager, the meeting policy setting is applied to the person who granted permission (the manager).

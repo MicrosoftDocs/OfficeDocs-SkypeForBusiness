@@ -4,6 +4,7 @@ author: altsou
 ms.author: altsou
 manager: serdars
 ms.reviewer: altsou
+ms.date: 11/30/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -63,5 +64,3 @@ The following table describes the properties that are included in the CSV.
 |creationTime|The date and time in Coordinated Universal Time (UTC) in the ISO format when the user performed the activity.|
 |user.userId|The user who performed the action that resulted in the record being logged.|
 |user.userTenantId|The GUID of the tenant for the user who performed the action|
-
-

@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -186,9 +187,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
   Responses from the **TNS service desk** will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update.
 
-- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**.
-
-- **Resolve a case** - If you believe your request has been completed, you can resolve a case by navigating to an existing case, scrolling down, and selecting **Resolve case**. Select **Close**; the case will now show as **Resolved – Problem solved**.
+- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**. You can also request to cancel cases created by other members of your company.
 
 ## Related topics and additional resources
 

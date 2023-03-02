@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
+ms.date: 02/27/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -31,7 +32,7 @@ description: Step-by-step guide detailing how to set up Teams Phone System for y
 
 This article provides a roadmap to content for setting up Phone System--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. Links to more detailed information are available at the end of each step.
 
-Before reading this article, make sure you've read [What is Phone System](what-is-phone-system-in-office-365.md) and [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). The latter two articles describe Phone System requirements and features.
+Before reading this article, make sure you've read [What is Phone System](what-is-phone-system-in-office-365.md) and [Phone System features](here-s-what-you-get-with-phone-system.md). The latter two articles describe Phone System requirements and features.
 
 This article describes the following steps:
 
@@ -45,13 +46,13 @@ This article describes the following steps:
 
 ## Step 1: Buy and assign a Phone System license
 
-To assign a Phone System license to a single user, the steps are the same as assigning a Microsoft 365 license. You can also assign licenses to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+You can assign a Phone System license to a single user or to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## Step 2. Choose a PSTN connectivity option
 
 To enable your users to make and receive external calls, you'll need to connect Phone System to the Public Switched Telephone Network (PSTN). Microsoft provides multiple options for connecting to the PSTN, including:
 
-- Calling Plan. An all-in-the-cloud solution with Microsoft as your PSTN carrier.
+- Microsoft Calling Plan. An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
 - Operator Connect. If your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs) for you.
 

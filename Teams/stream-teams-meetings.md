@@ -4,6 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.reviewer: suchakr
+ms.date: 08/12/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -39,7 +40,7 @@ You can use the following attribute within the Windows PowerShell **Set-CsTeamsM
 
 - LiveStreamingMode
 
-Set **LiveStreamingMode** to **Enabled** to turn on streaming capabilities for one or more users.
+Set **LiveStreamingMode** to **On** to turn on streaming capabilities for one or more users.
 
 > [!IMPORTANT]
 > You have to turn on meeting registration before your organizers can stream webinars. For more information, see [Set up webinars](set-up-webinars.md).

@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: reference
 audience: Admin
 ms.reviewer: 
+ms.date: 06/22/2021
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
