@@ -1,7 +1,7 @@
 ---
 title: Teams Contact Center
-author: cazawideh
-ms.author: czawideh
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
