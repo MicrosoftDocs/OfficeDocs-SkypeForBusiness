@@ -35,7 +35,7 @@ To configure the Mi push in Xiaomi Android phones, perform the following steps:
 1. Launch the **Setting** application.
 1. Select **Notifications & Control Center > App Notification > Teams**.
 1. Ensure all the options that enable display of notifications are checked.
-1. Scroll down to the bottom of this configuration page for Teams application, find and select **Operational message**.
+1. Scroll down to the bottom of this configuration page for Teams application, find and select **Mi Push (小米推送)**.
    > [!NOTE]
    > You may not be able to find the **Operational message** in the configuration panel. Hence, perform the steps specified in [Activate Operational message](#activate-operational-message).
 
