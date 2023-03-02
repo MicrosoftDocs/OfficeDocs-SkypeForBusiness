@@ -23,16 +23,16 @@ description: Learn about the Collaboration activity reports in Microsoft Teams.
 
 # Collaboration activity reports in Microsoft Teams
 
-The Collaboration activity reports is a feature in Microsoft Teams that has the following objectives:
+The Collaboration activity reports in Microsoft Teams has the following objectives:
 
 - Giving Teams administrators the visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
 - Enabling Teams administrators automate their work.
 
-Collaboration activity reports in Microsoft Teams provides insights regarding teams, domains, channels, external users, guest users, and users internal to your organization.
+With the help of Collaboration activity reports, you can get an insight into teams, domains, channels, external users, guest users, and users internal to your organization.
 
 ## Where to find Collaboration activity reports
 
-The Collaboration activity reports feature is found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
+The Collaboration activity reports can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
 
 :::image type="content" source="media/dashboard-collaboration-activity-reports.png" alt-text="The dashboard displaying the Collaboration activity reports menu item.":::
 
@@ -73,10 +73,10 @@ This insight will only surface for organizations that don't have open federation
 #### Teams by user type
 
 The **Teams by user type** widget shows you how many of your "active" teams comprise:
-- Your users only.
-- Your users and guests.
-- Your users and external users.
-- All user types.
+- Your users only
+- Your users and guests
+- Your users and external users
+- All user types
 
 > [!NOTE]
 > Only active teams are included in the breakdown. To change the time frame for which you want to view the active teams count, use the duration selector that contains the options of **7 days** and **30 days**.
@@ -88,9 +88,9 @@ This insight doesn't tell you how many users are in a team; it shows how many te
 #### Channels by user type
 
 The **Channels by user type** widget tells you how many standard, private, and shared channels in your organization comprise:
-- Your users (internal to your organization) only.
-- Your users and guests.
-- Your users and external users.
+- Your users (internal to your organization) only
+- Your users and guests
+- Your users and external users
 
 > [!NOTE]
 > To change the time frame for which you want to view the active channels count, use the duration selector that contains the options of **7 days** and **30 days**.
@@ -98,12 +98,12 @@ The **Channels by user type** widget tells you how many standard, private, and s
 External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
 
 For example, for standard and private channels, you’ll see:
-- How many are made up of your users only.
-- How many are made up of your users and guests.
+- How many are made up of your users only
+- How many are made up of your users and guests
 
 For shared channels, you’ll see:
-- How many are made up of your users only.
-- How many are made up of your users and external users.
+- How many are made up of your users only
+- How many are made up of your users and external users
 
 :::image type="content" source="media/channels-by-user-type.png" alt-text="The Channels by user type widget.":::
 
