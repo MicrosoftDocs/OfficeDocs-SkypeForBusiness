@@ -109,35 +109,35 @@ To communicate with another tenant, they must either enable **Allow all external
 
 ## Manage contact with external Teams users not managed by an organization
 
-You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)).
+You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). You can also add external user profiles for people outside your organization who you want your users to be able to communicate with.
 
-If the setting is on, you can further control how your users communicate with Teams users whose accounts are not managed by an organization:
+If you allow chat with unmanaged Teams users, you can further control how your users communicate with them:
 
-- You can control if Teams users whose accounts are not managed by an organization can initiate the communication
-- You can restrict communication to a list of external user profiles that you manage
+- You can control if unmanaged Teams users can initiate the communication with your users.
+- You can restrict communication to a list of external user profiles that you manage.
 
 > [!NOTE]
 > Chat with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
-To configure this setting, in the Teams admin center, go to **Users** > **External access** and scroll down to **Teams accounts not managed by an organization**.
+To configure contact with external Teams users not managed by an organization, in the Teams admin center, go to **Users** > **External access** and scroll down to **Teams accounts not managed by an organization**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
-The **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting controls whether your users can communicate with Teams users whose accounts are not managed by an organization. If you turn this setting **Off**, they will be blocked from doing so.
+The **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting controls whether your users can communicate with unmanaged Teams users. If you turn this setting **Off**, they will be blocked from doing so.
 
 ### Control if Teams people with unmanaged Teams accounts can initiate the communication
 
-To let Teams users whose accounts are not managed by an organization initiate requests to communicate with people in your organization select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
-
-If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
+To let unmanaged Teams users initiate requests to communicate with people in your organization, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox. If this option is unchecked, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by users in your organization.
 
 ### Restrict communication to a list of external user profiles
 
-To restrict communication with people with unmanaged Teams accounts, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and add the user profiles that you want to allow.
+To restrict communication with people with unmanaged Teams accounts to a specific list of user profiles, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and add the user profiles that you want to allow.
 
-#### Manage external user profiles
+### Manage external user profiles
 
-You can add people outside your organization by phone number and your users will be able to communicate with them using chat in Teams.
+External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it the first time they are contacted by someone in your organization. Once they have created a Teams account, they can also use Teams on the desktop.
+
+When a profile is added for someone outside you're organization, they're notified and can choose to allow or block the connection. Once the external user accepts the invitation, your users can search for external profiles by name or phone number and communicate with them using chat in Teams.
 
 To add an external user profile
 1. Select **Manage external user profiles**.
@@ -149,6 +149,24 @@ To add an external user profile
 1. Select **Save**.
 
 You can remove an existing profile by selecting the profile and then selecting **Delete**.
+
+#### Import a list of profiles
+
+If you want to upload a list of users via .csv file, you can download a template file, add the people you want to include and their phone numbers, and upload the file.
+
+To download the .csv template
+1. On the Manage external user profiles page, select **Import** on the command bar.
+1. Select **download a template**.
+
+Required fields in the template are *DisplayName* and *PhoneNumber*. Other fields are optional.
+
+To upload a completed template file
+1. On the Manage external user profiles page, select **Import** on the command bar.
+1. Select **Select a file**.
+1. Select the file that you want to upload and then select **Open**.
+1. If you want to update the profile information for existing profiles, select the **Update existing external users** checkbox.
+1. Read the Data Controller statement and select the check box to agree.
+1. Select **Import**.
 
 ## Communicate with Skype users
 
