@@ -1,7 +1,7 @@
 ---
 title: Teams Contact Center
-author: cazawideh
-ms.author: czawideh
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -90,6 +90,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
+| `Telia` | https://ace-showcase.com/                  |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
