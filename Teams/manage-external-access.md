@@ -109,33 +109,35 @@ To communicate with another tenant, they must either enable **Allow all external
 
 ## Manage contact with external Teams users not managed by an organization
 
+You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)).
+
+If the setting is on, you can further control how your users communicate with Teams users whose accounts are not managed by an organization:
+
+- You can control if Teams users whose accounts are not managed by an organization can initiate the communication
+- You can restrict communication to a list of external user profiles that you manage
+
 > [!NOTE]
-> The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
+> Chat with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
-Admins can choose to enable or disable communications with external Teams users that are not managed by an organization ("unmanaged"). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
-
-In the Teams admin center, go to **Users** > **External access**.
+To configure this setting, in the Teams admin center, go to **Users** > **External access** and scroll down to **Teams accounts not managed by an organization**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
-To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
+The **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting controls whether your users can communicate with Teams users whose accounts are not managed by an organization. If you turn this setting **Off**, they will be blocked from doing so.
 
-1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+### Control if Teams people with unmanaged Teams accounts can initiate the communication
 
-To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact:
+To let Teams users whose accounts are not managed by an organization initiate requests to communicate with people in your organization select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
-1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
-To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
+### Restrict communication to a list of external user profiles
 
-1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+To restrict communication with people with unmanaged Teams accounts, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and add the user profiles that you want to allow.
 
+#### Manage external user profiles
 
-
-**Restrict communication to the list of external user profiles added to extended directory**
+You can add people outside your organization by phone number and your users will be able to communicate with them using chat in Teams.
 
 To add an external user profile
 1. Select **Manage external user profiles**.
@@ -146,11 +148,7 @@ To add an external user profile
 1. Read the Data Controller statement and select the check box to agree.
 1. Select **Save**.
 
-
-
-**Manage external user profiles**
-
-
+You can remove an existing profile by selecting the profile and then selecting **Delete**.
 
 ## Communicate with Skype users
 
