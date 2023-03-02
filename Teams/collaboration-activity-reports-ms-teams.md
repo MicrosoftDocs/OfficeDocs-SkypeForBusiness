@@ -147,7 +147,7 @@ You can click **View details** to see the guest’s names and the "sent message 
 
 ### Known Issues
 
-1. On time-series charts, last day’s data may be empty. For example, on 2/17, time-series chart doesn’t have data for 2/17; so, the data of 2/16 is shown since the lines stop at 2/16.
+1. On time-series charts, last day’s data is empty. For example, on 2/17, time-series chart doesn’t have data for 2/17; so, the data of 2/16 is shown since the lines stop at 2/16.
 1. Widget location customizations on dashboard have yet been persisted across sessions.
 1. Csv download hasn’t been enabled.
 1. Very large events may have a small chance of data categorization error. For example, a very large team with very few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
