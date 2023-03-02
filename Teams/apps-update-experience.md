@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 02/23/2023
+ms.date: 03/03/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -29,7 +29,7 @@ Teams admins can help their end-users get the latest version of the apps. To do 
 
 ## Store app updates
 
-For users to install and use an app, they must give permissions to the app to access the required services and information. In most cases, when a new version of an installed app is available in the Teams store, the app is automatically updated for all users. However, a few specific changes in the new version of the app require a user permission again. This repeat user acceptance ensures awareness about the changes such as functionality or access to personal information. Teams admins can [provide permissions to an app on behalf of the users](app-permissions-admin-center.md).
+For users to install and use an app, they must give permissions to the app to access the required services and information. In most cases, when a new version of an installed app is available in the Teams store, the app is automatically updated for all users. However, a few specific changes in the new version of the app require a user permission again. This repeat user acceptance ensures awareness about the changes such as functionality or access to personal information.
 
 If app developers make one or more the following changes to their apps, then the end-users must approve the update of app.
 
