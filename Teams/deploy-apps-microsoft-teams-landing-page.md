@@ -9,7 +9,7 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 10/01/2022
+ms.date: 03/03/2023
 ms.collection: 
   - M365-collaboration
   - m365-frontline
