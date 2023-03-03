@@ -48,9 +48,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for call queues in the past six months
 
-- August
-  - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
-  - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
+- No new features in the past 6 months
 
 ## Steps to create a call queue
 
@@ -147,8 +145,6 @@ Once you've selected a language, select the **Next** button at the bottom of the
 ## [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
-
-*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.*
 
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
@@ -320,8 +316,6 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
-
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
@@ -342,8 +336,6 @@ You can specify a value from 0 seconds to 45 minutes.
 You can choose to **disconnect** the call or **redirect** it to one of the call routing destinations.
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
-
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
 
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
