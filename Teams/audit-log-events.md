@@ -54,7 +54,7 @@ Before you can look at audit data, you have to first turn on auditing in the Mic
 
 3. Export your results to Excel for further analysis.
 
-For step-by-step instructions, see [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
+For step-by-step instructions, see [Search the audit log in the compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
 
 > [!IMPORTANT]
 > Audit data is only visible in the audit log if auditing is turned on.
@@ -65,15 +65,15 @@ The length of time that an audit record is retained and searchable in the audit 
 
 Here are tips for searching for Teams activities in the audit log.
 
-:::image type="content" alt-text="Screenshot of the audit log search page in the compliance center" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
+:::image type="content" alt-text="Screenshot of the audit log search page in the compliance portal" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
-- You can select specific activities to search for by clicking the checkbox next to one or more activities. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
+- You can select specific activities to search for by clicking the checkbox next to one or more activities. If an activity is selected, you can select it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
 
   ![Screenshot of activities dropdown list on the audit log search page](media/audit-log-search.png)
 
-- To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, type it in the search box to display the activity and then select it.
+- To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, type it in the search box to display the activity, and then select it.
 
-- To clear the current search criteria, click **Clear all**. The date range returns to the default of the last seven days.
+- To clear the current search criteria, select **Clear all**. The date range returns to the default of the last seven days.
 
 - If 5,000 results are found, you can probably assume that there are more than 5,000 events that met the search criteria. You can refine the search criteria and rerun the search to return fewer results, or you can export all the search results by selecting **Export** > **Download all results**. For step-by-step instructions to export audit logs, see [Export the search results to a file](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file).
 
@@ -96,7 +96,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Changed channel setting|ChannelSettingChanged|The ChannelSettingChanged operation is logged when the following activities are performed by a team member. For each of these activities, a description of the setting that was changed (shown in parentheses is displayed in the **Item** column in the audit log search results. <ul><li>Changes name of a team channel (**Channel name**)</li><li>Changes description of a team channel (**Channel description**)</li> </ul>|
 |Changed organization setting|TeamsTenantSettingChanged|The TeamsTenantSettingChanged operation is logged when the following activities are performed by a global admin in the Microsoft 365 admin center. These activities affect org-wide Teams settings. To learn more, see [Manage Teams settings for your organization](enable-features-office-365.md). <br>For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Enables or disables Teams for the organization (**Microsoft Teams**).</li><li>Enables or disables interoperability between Microsoft Teams and Skype for Business for the organization (**Skype for Business interoperability**).</li><li>Enables or disables the organizational chart view in Microsoft Teams clients (**Org chart view**).</li><li>Enables or disables the ability for team members to schedule private meetings (**Private meeting scheduling**).</li><li>Enables or disables the ability for team members to schedule channel meetings (**Channel meeting scheduling**).</li><li>Enables or disables video calling in Teams meetings (**Video for Skype meetings**).</li><li>Enables or disables screen sharing in Microsoft Teams meetups for the organization (**Screen sharing for Skype meetings**).</li><li>Enables or disables that ability to add animated images (called Giphys) to Teams conversations (**Animated images**).</li><li>Changes the content rating setting for the organization (**Content rating**). The content rating restricts the type of animated image that can be displayed in conversations.</li><li>Enables or disables the ability for team members to add customizable images (called custom memes) from the internet to team conversations (**Customizable images from the Internet**).</li><li>Enables or disables the ability for team members to add editable images (called stickers) to team conversations (**Editable images**).</li><li>Enables or disables that ability for team members to use bots in Microsoft Teams chats and channels (**Org-wide bots)**.</li><li>Enables specific bots for Microsoft Teams. This doesn't include the T-Bot, which is Teams help bot that's available when bots are enabled for the organization (**Individual bots**).</li><li>Enables or disables the ability for team members to add extensions or tabs (**Extensions or tabs**).</li><li>Enables or disables the side-loading of proprietary bots for Microsoft Teams (**Side loading of Bots**).</li><li>Enables or disables the ability for users to send email messages to a Microsoft Teams channel (**Channel email**).</li></ul>|
 |Changed role of members in team|MemberRoleChanged|A team owner changes the role of members in a team. The following values indicate the role type assigned to the user. <br><br>**1** - Indicates the Member role.<br>**2** -  Indicates the Owner role.<br>**3** -  Indicates the Guest role.<br><br>The Members property also includes the name of your organization and the member's email address.|
-|Changed team setting|TeamSettingChanged|The TeamSettingChanged operation is logged when the following activities are performed by a team owner. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Changes the access type for a team. Teams can be set as private or public (**Team access type**). When a team is private (the default setting), users can access the team only by invitation. When a team is public, it's discoverable by anyone.</li><li>Changes the information classification of a team (**Team classification**). For example, team data can be classified as high business impact, medium business impact, or low business impact.</li><li>Changes the name of a team (**Team name**).</li><li>Changes the team description (**Team description**).</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then click the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>|
+|Changed team setting|TeamSettingChanged|The TeamSettingChanged operation is logged when the following activities are performed by a team owner. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Changes the access type for a team. Teams can be set as private or public (**Team access type**). When a team is private (the default setting), users can access the team only by invitation. When a team is public, it's discoverable by anyone.</li><li>Changes the information classification of a team (**Team classification**). For example, team data can be classified as high business impact, medium business impact, or low business impact.</li><li>Changes the name of a team (**Team name**).</li><li>Changes the team description (**Team description**).</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then select the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>|
 | Changed sensitivity label | SensitivityLabelChanged | A user changed a sensitivity label on a Teams meeting. |
 |Created a chat <sup>1, </sup> <sup>2</sup>|ChatCreated|A Teams chat was created.|
 |Created team|TeamCreated|A user creates a team.|
@@ -181,6 +181,17 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 |Added workforce integration|WorkforceIntegrationAdded|The Shifts app is integrated with a third-party system.|
 |Accepted off shift message|OffShiftDialogAccepted|A user acknowledges the off-shift message to access Teams after shift hours.|
 
+## Updates app in Teams activities
+
+If your organization is using the Updates app in Teams, you can search the audit log for activities related to the Updates app. Here's a list of all events that are logged for Updates app activities in Teams in the Microsoft 365 audit log.
+
+|Friendly name|Operation|Description|
+|---|---|---|
+|Create an update request|CreateUpdateRequest|A user successfully creates an update request.|
+|Edit an update request|EditUpdateRequest|A user opens the request editing wizard and selects **Save** to confirm and save any changes, or enables or disables the update request directly.|
+|Submit an update|SubmitUpdate|A user successfully submits an update.|
+|View the details of one update|ViewUpdate|A user views the details of the update.|
+
 ## Office 365 Management Activity API
 
 You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
@@ -221,7 +232,7 @@ After you establish a policy that works for your business, you can review the re
 
 :::image type="content" alt-text="Screenshot events triggered by mass deletions." source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
 
-You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log are not satisfactory (maybe you're seeing lots of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
+You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log aren't satisfactory (maybe you're seeing lots of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
 
 ### Alert and governance scenario
 
@@ -235,6 +246,6 @@ You can set alerts and send emails to admins and other users when an activity po
 
 We're working to integrate Teams events into anomaly detection policies. For now, you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 
-## Related topics
+## Related articles
 
 - [Search the audit log in the Microsoft Purview compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
