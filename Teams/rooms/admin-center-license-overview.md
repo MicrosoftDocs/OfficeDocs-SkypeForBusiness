@@ -34,11 +34,16 @@ For more information about Microsoft Teams Rooms licenses, see [Microsoft Teams 
 > [!NOTE]
 > If you have existing Teams Rooms Standard or Teams Rooms Premium legacy licenses, you'll need to switch to Teams Rooms Pro when your legacy licenses expire. If you have an Enterprise Agreement, you'll need to switch to Teams Rooms Pro licenses at your next renewal period. For more information, see [Switching from Teams Rooms Standard and Teams Rooms Premium](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium).
 
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
+
 ## See which licenses are assigned to Teams Rooms devices
 
 You can see what license your devices have by going to Teams devices in the Teams admin center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see. For example, if you select **Teams devices** > **Teams Rooms on Windows**, you'll see something similar to the following image. The **License** column shows the Teams Rooms license assigned to each device.
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams Rooms inventory list with focus on Standard, Pro, and Pro (Trial) licenses.":::
+
+To quickly filter the device inventory for 1 or more licenses, you can use the filter tool on each device category page.  Using the Filter drop down menu, select the License option and select to appropriate operator and license value(s) to create the filtered inventory list.
+<img width="712" alt="image" src="https://user-images.githubusercontent.com/42681285/222838338-c593a363-5fd3-49d1-9219-b0b889c58618.png">
 
 Devices that have the **Pro** license can access all the features of the Teams admin center. Devices with other licenses can access a subset of those features. You can see which features are available to each license in [Comparison of Teams Rooms feature availability by license](#comparison-of-teams-rooms-feature-availability-by-license).
 
