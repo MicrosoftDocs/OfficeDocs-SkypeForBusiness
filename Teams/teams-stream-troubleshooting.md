@@ -66,7 +66,7 @@ There are permissions across Microsoft Teams and Yammer that a user needs to be 
 
 1. Check that the Teams admin has enabled you to create live events.
 2. Check with your administrator that you have a valid Teams license that allows the creation of live events.
-3. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center to help you validate if a user is able to schedule Teams live events.
+3. Select the following **Run Tests**, which will populate the diagnostic in Microsoft 365 admin center to help you validate if a user is able to schedule Teams live events.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Schedule Teams live events](https://aka.ms/TeamsLiveEventsDiag)
