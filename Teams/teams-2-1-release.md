@@ -49,7 +49,7 @@ Education
 Note: Mobile app (iOS and Android) is out of scope since the new Teams is an update focused on desktop, web, and VDI.
 
 >[!Note]
->Teams (preview) is currently not available for EDU, VDI, PSTN enabled, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
+>The new Microsoft Teams is currently not available for EDU, VDI, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
 
 ## What is changing and what is not
 
@@ -63,7 +63,6 @@ Stay on classic Teams for now if:
 
 - You are using a custom line of business apps or apps from the AppStore
 - You are using Virtual Desktop Infrastructure (VDI)
--  You use PSTN - and make traditional phone service (calls to and from telephone numbers). Support for PSTN is currently not available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
 - You use a Mac or Web browser for Teams
 
 It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
@@ -193,7 +192,6 @@ Teams (preview) gives you:
 - [Apps (limited), including Microsoft Viva](#apps-including-microsoft-viva)
 - [Support for multiple work (or school) accounts (exclusively available in New Teams!)](#multi-tenant-multi-account)
 
-Teams is still working on adding features including support for Mac and web browsers.  Currently you can't make calls to and from telephone numbers, also known as the public switched telephone network (PSTN).  When a meeting starts, you won’t receive a notification with an option to join. You can’t update your notification settings from within the app; you’ll be directed to Windows settings
 
 
 ### Chat
@@ -236,19 +234,10 @@ The Calls icon isn't visible on the left rail and the dial pad isn't available. 
 
 **Known issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.
 
->[!Important]
->Calls, to and from phone numbers, including emergency calls, are NOT available in new Teams.
->​If your work includes any of the following activities, use classic Teams until traditional phone services are available:
-> - Call Queues
->- Auto Attendants
->- Critical Functions: Data Centers - Security Operations Center (SOC)/Security >Operations Center (SOC), Site Services, Logistics
->- CRITSIT support to external customers/ partners
->- Customer-facing roles
-
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/red-checkmark-teams.png" border="false":::|PSTN not yet available|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/green-checkmark.png" border="false":::||
 
 
 ### Apps
