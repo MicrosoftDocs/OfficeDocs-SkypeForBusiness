@@ -1,5 +1,5 @@
 ---
-title:  Microsoft New Teams (preview)
+title:  Microsoft new Teams (preview)
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -14,38 +14,59 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview of the Microsoft New Teams. Try out New features and provide feedback.
+description: Learn about the public preview of the new Microsoft Teams. Try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# Microsoft New Teams (public preview)
+# The new Microsoft Teams desktop client
 
-We’re excited to announce Microsoft New Teams (preview), the new version of Microsoft Teams desktop client.  
+We’re excited to announce the new Microsoft Teams, the new version of Microsoft Teams desktop client.  
 
-The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.  New Teams offers you:
+>[!Note]
+>There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
 
-- Better performance—the goal is 2x faster than "Classic Teams"
+The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.  The new Teams desktop client offers you:
+
+- Better performance—the goal is 2x faster than "classic Teams"
 - Lower CPU, memory usage, and disk space consumption
 - Your device will consume less battery
 - More reliable all-around​​​​​​​
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants 
 
+The preview of new Teams will not be available to the following customer segments or platforms in the public preview phase.
+
+|Platforms|Customer segments|
+Mac
+Virtual Desktop Infrastructure (VDI)
+Web	
+
+Education
+•	Special cloud (GCC High, DoD, Gallatin, Air-gapped)
+•	Consumers
+                                                              
+Note: Mobile app (iOS and Android) is out of scope since the new Teams is an update focused on desktop, web, and VDI.
 
 >[!Note]
 >Teams (preview) is currently not available for EDU, VDI, PSTN enabled, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
 
+## What is changing and what is not
+
+This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile client. 
+
 ## Before you begin
 
-The New Teams is still in development and currently does not have the full feature set of Classic Teams. Review the list below for feature limitations.
+The new Teams is still in development and currently does not have the full feature set of classic Teams. Review the list below for feature limitations.
 
-Stay on Classic Teams if:
+Stay on classic Teams for now if:
 
+- You are using a custom line of business apps or apps from the AppStore
+- You are using Virtual Desktop Infrastructure (VDI)
 -  You use PSTN - and make traditional phone service (calls to and from telephone numbers). Support for PSTN is currently not available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
 - You use a Mac or Web browser for Teams
 
-It is easy to toggle back and forth between using the Classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to Classic when more advanced features are required.
+It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
 
 
 ## How to roll out new Teams
@@ -127,9 +148,9 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |:-----|:-----|
 |Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
 |User can choose| Use this value to show the Teams (preview) toggle switch, and allow 
-users to opt in to the New Teams, and switch back if they need to.|
+users to opt in to the new Teams, and switch back if they need to.|
 |Not enabled| Use this value to hide the Teams (preview) toggle switch. Users will 
-not be able to opt in to the New Teams|
+not be able to opt in to the new Teams|
 
 5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and hit apply (as shown below for Contoso sales policy.
 6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
@@ -177,7 +198,7 @@ Teams is still working on adding features including support for Mac and web brow
 
 ### Chat
 
-Most chat features are available, including GIFs and emojis. There are just a few limitations.
+Most chat features are available, including GIFs and emojis. There are just a few limitations.  image.png
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
@@ -185,9 +206,9 @@ Most chat features are available, including GIFs and emojis. There are just a fe
 
 ### Teams and channels
 
-New Teams features a brand-new channel experience that hasn’t been released in Classic Teams yet. You’ll find the latest conversations at the top of your feed (like you do in Viva Engage). You can also pop out channel conversations just like you do with chats, and drill down to individual channel conversations. 
+New Teams features a brand-new channel experience that hasn’t been released in classic Teams yet. You’ll find the latest conversations at the top of your feed. You can also pop out channel conversations just like you do with chats, and drill down to individual channel conversations. 
 
-When you need some of the more advanced functionality, switch back to Classic Teams.
+When you need some of the more advanced functionality, switch back to classic Teams.
 
 Here are the limitations:
 
@@ -198,13 +219,13 @@ Here are the limitations:
 
 ### Calendar and meetings
 
-You can schedule and join meetings in Teams (preview) with basic functionality and experience the better performance of Teams (preview). If you need more advanced meeting features, use Classic Teams for the time being. ​​​​​​​
+You can schedule and join meetings in Teams (preview) with basic functionality and experience the better performance of Teams (preview). If you need more advanced meeting features, use classic Teams for the time being. ​​​​​​​
 
-On days when you have many meetings, you may want to use Classic Teams to make sure you get meeting-start notifications.
+On days when you have many meetings, you may want to use classic Teams to make sure you get meeting-start notifications.
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join</br></br>Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events</br></br>“Present in Teams” feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using New Teams won't be able to post questions or responses unless they switch to Classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you can't add the Polls app or create a new poll from New Teams. However, any attendees using New Teams will be able to participate in polls that you launch from Classic Teams. </br></br>Meeting start notification won't appear when a meeting starts with an option to join</br></br>When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in New Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join</br></br>Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events</br></br>“Present in Teams” feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams won't be able to post questions or responses unless they switch to classic Teams.</br></br>new app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams will be able to participate in polls that you launch from classic Teams. </br></br>Meeting start notification won't appear when a meeting starts with an option to join</br></br>When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in new Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
 
 
 ### Calls
@@ -216,8 +237,8 @@ The Calls icon isn't visible on the left rail and the dial pad isn't available. 
 **Known issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.
 
 >[!Important]
->Calls, to and from phone numbers, including emergency calls, are NOT available in New Teams.
->​If your work includes any of the following activities, use Classic Teams until traditional phone services are available:
+>Calls, to and from phone numbers, including emergency calls, are NOT available in new Teams.
+>​If your work includes any of the following activities, use classic Teams until traditional phone services are available:
 > - Call Queues
 >- Auto Attendants
 >- Critical Functions: Data Centers - Security Operations Center (SOC)/Security >Operations Center (SOC), Site Services, Logistics
@@ -230,12 +251,12 @@ The Calls icon isn't visible on the left rail and the dial pad isn't available. 
 |:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/red-checkmark-teams.png" border="false":::|PSTN not yet available|
 
 
-### Apps, including Microsoft Viva
+### Apps
 
-The following apps are available in Teams (preview). If you need to use an app that’s not on this list, switch back to Classic Teams.
+The following apps are available in Teams (preview). If you need to use an app that’s not on this list, switch back to classic Teams. You are using a custom line of business apps or apps from the AppStore stay on classic Teams until these are fully supported.
 
 >[!Note]
->You must install the apps in Classic Teams first.
+>You must install the apps in classic Teams first.
 
 |Microsoft Viva|Microsoft 365|Miscellaneous|
 |:-----|:-----|:-----|
@@ -244,7 +265,7 @@ The following apps are available in Teams (preview). If you need to use an app t
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|You won't get notifications from any apps in your Activity feed.</br></br>“Pop out app” isn't yet available.</br></br>You can only pin an app in Classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="icon" source="media/green-checkmark.png" border="false":::|:::image type="icon" source="media/orange-checkmark-teams.png" border="false":::|You won't get notifications from any apps in your Activity feed.</br></br>“Pop out app” isn't yet available.</br></br>You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
 
 ### Multi-Tenant Multi-Account
