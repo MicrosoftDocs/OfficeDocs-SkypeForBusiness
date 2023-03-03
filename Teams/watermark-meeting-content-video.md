@@ -76,13 +76,13 @@ For information about using watermarks with other meeting features to help prote
 
 ## Enable watermarks
 
-For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled in the Teams admin center.
+For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled under "Global" Meeting policy in the Teams admin center.
 
 To enable watermarking for meetings
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 
-1. Select the policy you want to update.
+1. Select the "Global" policy to update.
 
 1. To enable watermark on attendee video, set **Watermark videos** to **On**.
 
