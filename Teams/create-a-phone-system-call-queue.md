@@ -48,7 +48,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for call queues in the past six months
 
-- No new features in the past 6 months
+- No new features in the past 6 months.
 
 ## Steps to create a call queue
 
