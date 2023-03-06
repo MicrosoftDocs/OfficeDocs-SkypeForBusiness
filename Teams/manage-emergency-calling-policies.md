@@ -77,7 +77,7 @@ The following example shows how to create an emergency call notification setting
 
 1. Configure a specific notification setting for the test emergency number 933. For the number 933, there are no settings to notify parties of a test emergency call. 
 
-  If you are using Calling Plan or Operator Connect, the emergency number is predefined. If you are using Direct Routing, you need to define the emergency nubmer in the emergency call routing policy.
+   If you are using Calling Plan or Operator Connect, the emergency number is predefined. If you are using Direct Routing, you need to define the emergency nubmer in the emergency call routing policy.
 
 2. Configure a notification setting when an emergency call is made to any defined emergency number except 993. For any number except 933, notify the security desk via a conference call with an external PSTN participant. 
 
