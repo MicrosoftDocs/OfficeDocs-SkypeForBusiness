@@ -38,7 +38,7 @@ The Collaboration activity reports can be found in the Teams Admin Center dashbo
 
 ### Insight descriptions
 
-The components of Collaboration activity reports are:
+This section describes the following insights provided by Collaboration activity reports:
 
 - [Inactive teams](#inactive-teams)
 - [External domains activity](#external-domains-activity)
@@ -50,21 +50,28 @@ The components of Collaboration activity reports are:
 
 #### Inactive teams
 
-The **Inactive teams** widget displays how many teams in your organization have been inactive for the past 30 and 60 days. You can hover over each date to see the exact count for that day.
+The **Inactive teams** widget view displays how many teams in your organization have been inactive for the past 30 and 60 days. You can hover over each date to see the exact count for that day.
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive.":::
 
-You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "30 days" and "60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can also archive the team directly from this view. You can change the time frame by selecting the dropdown list under **Date range** and choosing the time period you want, and then click **Run report**.
+You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can also archive the team directly from this view. You can archive the details of any team for any time frame by selecting the dropdown list under **Date range** and choosing the time period you want, and then click **Run report**.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive.":::
 
 #### External domains activity
 
-The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the past 7, 30, and 60 days. You can hover over each date to see the exact count for that day.
+The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 7 days", "past 30 days", and "past 60 days".
 
 :::image type="content" source="media/external-domains-activity.png" alt-text="The report displaying the total number of allowed domains.":::
 
-You can click **View details** to see which of your allowed domains have been inactive for the past 7, 30, and 60 days. You can archive domain names and the Last Activity Date for each domain. You can change the time frame by selecting the dropdown list under **Date range** and choosing the time period you want, and then click **Run report**.
+You can click **View details** to see which of your allowed domains have been inactive/active for the following time frames:
+- Past 7 days
+- Past 30 days
+- Past 60 days
+
+You can view and archive the detail of any domain's inactive/active team for any 7-day, 30-day, or 60-day period by selecting the dropdown list under **Date range** and choosing the time period you want, and then click **Run report**.
+
+You can archive names of inactive/active domains and the Last Activity Date for each domain.
 
 This insight will only surface for organizations that don't have open federation enabled.
 
@@ -72,14 +79,18 @@ This insight will only surface for organizations that don't have open federation
 
 #### Teams by user type
 
-The **Teams by user type** widget shows you how many of your "active" teams comprise:
+The **Teams by user type** widget view shows you how many of your "active" teams comprise:
 - Your users only
 - Your users and guests
 - Your users and external users
 - All user types
 
 > [!NOTE]
-> Only active teams are included in the breakdown. To change the time frame for which you want to view the active teams count, use the duration selector that contains the options of **7 days** and **30 days**.
+> Only active teams are included in the breakdown. 
+
+You can view the count of active teams by using the duration selector that contains the options of **7 days** and **30 days**.
+
+You can also view the composition types for any of the active teams.
 
 This insight doesn't tell you how many users are in a team; it shows how many teams have each composition type. For example, a team with 100 of your users, no external users, and one guest will count as one team comprised of “my users and guests.”
 
@@ -87,13 +98,13 @@ This insight doesn't tell you how many users are in a team; it shows how many te
 
 #### Channels by user type
 
-The **Channels by user type** widget tells you how many standard, private, and shared channels in your organization comprise:
+The **Channels by user type** widget view tells you how many standard, private, and shared channels in your organization comprise:
 - Your users (internal to your organization) only
 - Your users and guests
 - Your users and external users
 
 > [!NOTE]
-> To change the time frame for which you want to view the active channels count, use the duration selector that contains the options of **7 days** and **30 days**.
+> To change the time frame for which you want to view the count of active channels (standard, private, or shared), use the duration selector that contains the options of **7 days** and **30 days**.
 
 External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
 
@@ -109,7 +120,7 @@ For shared channels, you’ll see:
 
 #### External collaboration activity by team
 
-The **External collaboration activity by team** widget shows you which teams in your organization have the most collaboration with guests and external users.
+The **External collaboration activity by team** widget view shows you which teams in your organization have the most collaboration with guests and external users.
 
 :::image type="content" source="media/external-collaboration-activity-by-team.png" alt-text="The External collaboration activity by team widget.":::
 
@@ -119,7 +130,7 @@ You can click **View details** to see the teams’ names and the "sent message c
 
 #### External collaboration activity by user
 
-The **External collaboration activity by user** widget shows you which of the users internal to your organization have the most collaboration with guests and external users.
+The **External collaboration activity by user** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users.
 
 :::image type="content" source="media/external-collaboration-activity-by-user.png" alt-text="The External collaboration activity by user widget.":::
 
