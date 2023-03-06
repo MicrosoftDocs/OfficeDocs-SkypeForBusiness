@@ -13,7 +13,7 @@ ms.collection:
   - M365-voice
 f1.keywords:
 - CSH
-ms.custom: seo-marvel-mar2020
+ms.custom:
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
