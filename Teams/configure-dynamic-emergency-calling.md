@@ -165,10 +165,22 @@ For a client to obtain a location, you must populate the LIS with network identi
 
 ### Using the Microsoft Teams admin center
 
-1. In the left navigation, go to **Locations** > **Networks & locations**.
-2. Click the tab that represents the network identifier that you want to add. For example, click **Subnets**, **Wi-Fi access points**, **Switches**, or **Ports**. Then click one of the following:
-    1. **Add** - Complete the fields, add an emergency location, and then click **Apply**.
-    1. **Upload** - Download the zipped CSV templates, open the corresponding network identifier template file, complete the fields, save, choose **Select a file** and then click **Upload** in the Teams admin center.
+In the Teams admin center, you can add or upload subnet, Wi-Fi access point, switch, or port information.
+
+1. In the left navigation of the Teams admin center, go to **Locations** > **Networks & locations**.
+1. At the top of the page, click the tab that represents the network identifier that you want to add (i.e. **Subnets**, **Wi-Fi access points**, **Switches**, or **Ports**).
+1. From that tab's table, click on one of the following:
+    - **Add** - This option allows you to insert network identifiers one at a time.
+        1. Fill out the ID and description fields.
+        1. Enter an emergency location.
+        1. Click **Apply**.
+    - **Upload** - This option allows you to insert many network identifiers at once with a CSV or TSV template.
+        1. Download the zipped CSV/TSV templates.
+        1. Open the corresponding network identifier template file.
+        1. Complete the fields within the file.
+        1. Save the template file.
+        1. From the Teams admin center, choose **Select a file** and choose the file you just saved.
+        1. Click **Upload**.
 
 ### Using PowerShell
 
