@@ -42,7 +42,7 @@ A *validated* external meeting participant is one that is logged in to Teams in 
 - **Guests** - people who are logged in to Teams with a guest account in your directory. (Teams uses [Azure AD B2B collaboration guest accounts](/azure/active-directory/external-identities/what-is-b2b).)
 - **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user-level external access permissions
 
-External participants who are not validated in one of these two ways are considered *anonymous*.
+External participants who are not validated in one of these two ways are considered *[anonymous](#meetings-with-anonymous-participants)*.
 
 When planning your configuration for external meetings, consider the types of meetings where you want all participants to be validated and which can allow anonymous participants. You might want all confidential meetings to have only validated participants, whereas there may be marketing or sales meetings where anonymous participants are fine.
 
