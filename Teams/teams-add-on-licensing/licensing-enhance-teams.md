@@ -68,7 +68,7 @@ The following table compares key features between Teams and Teams Premium.
 | Translate post-meeting transcriptions (*coming soon*) |  | x |
 | Turn on eCDN for Live Events\* |  | x |
 
-\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn).*
+\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Webinars
 
@@ -167,7 +167,7 @@ The features that are moving to Teams Premium are:
 
 At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE – Customer led, and NCE – Partner led.
 
-Before you can purchase Teams Premium licenses for your users, ensure that your tenant and users meet the requirements.
+Before you can purchase Teams Premium licenses for your users, ensure your tenant and users meet the requirements.
 
 The **tenant requirement** is:
 
@@ -185,9 +185,19 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 ## Which users should be assigned Teams Premium licenses?
 
-Teams Premium is per-user, per-month license where any user benefiting from Teams Premium functionality needs to have a Teams Premium license assigned.
+Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
 
-There is no license requirement for Virtual Appointments external participants.
+There are some specific meeting and event features that will provide the feature benefit to all meeting attendees, including guests and external participants. Here's some guidance to help you decide who to acquire Teams Premium licenses for:
+
+- External participants in Virtual Appointments don't require a Teams Premium license to benefit from Teams Premium advanced Virtual Appointments.
+
+- For intelligent recap, all meeting participants need a Teams Premium license to benefit from this feature.
+
+- For live translation (for captions), advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features. If an attendee is licensed with Teams Premium but the meeting organizer isn't, that attendee will still be able to access live translations.
+
+- For advanced meeting protection, and advanced webinars, if the meeting organizer is licensed with Teams Premium, meeting participants (including guests and external participants) don't need the Teams Premium license to benefit from these premium features.
+
+If a user needs access to a Teams Premium feature, license them to ensure consistent access and experiences to Teams Premium capabilities. The scenarios above can't be used against our [Online Services license terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and these scenarios are subject to change.
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
@@ -215,7 +225,7 @@ If your organization wishes to keep Teams Premium features after the trial perio
 
 ## How do I purchase Teams Premium licenses?
 
-If your tenant and users meet the requirements for Teams Premium, you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
+If your tenant and users meet [the requirements for Teams Premium](#what-are-the-requirements-to-purchase-teams-premium), you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
 
 After you purchase your Teams Premium licenses, you’ll assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
 
