@@ -42,8 +42,9 @@ You can see what license your devices have by going to Teams devices in the Team
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams Rooms inventory list with focus on Standard, Pro, and Pro (Trial) licenses.":::
 
-To quickly filter the device inventory for 1 or more licenses, you can use the filter tool on each device category page.  Using the Filter drop down menu, select the License option and select to appropriate operator and license value(s) to create the filtered inventory list.
-<img width="712" alt="image" src="https://user-images.githubusercontent.com/42681285/222838338-c593a363-5fd3-49d1-9219-b0b889c58618.png">
+To quickly filter the device inventory for one or more licenses, you can use the filter tool on each device category page.  Using the **Filter** drop down menu (highlighted in yellow in the following image), select **License**, and then select the appropriate operator and license values to create the filtered inventory list.
+
+:::image type="content" source="../media/mtr-device-inventory-license-filter.png" alt-text="Teams Rooms inventory list with focus the filter menu option.":::
 
 Devices that have the **Pro** license can access all the features of the Teams admin center. Devices with other licenses can access a subset of those features. You can see which features are available to each license in [Comparison of Teams Rooms feature availability by license](#comparison-of-teams-rooms-feature-availability-by-license).
 
