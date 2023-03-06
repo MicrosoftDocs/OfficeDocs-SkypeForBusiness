@@ -65,6 +65,33 @@ If you assigned an emergency calling policy to a network site and to a user and 
 
 See [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamsemergencycallingpolicy).
 
+## Configure extended notifications
+
+Extended notifications allow you to define appropriate settings for  emergency numbers and emergency test numbers; for example, for 911 and for  933. In this way you can avoid notifying your security desk for test emergency calls.
+
+You can configure extended notification settings per emergency number by adding information to the emergency calling policy with the extended notification parameter. 
+
+To configure extended notifications, use the Teams PowerShell New-CsTeamsEmergencyCallingExtendedNotification cmdlet.
+
+The following example shows how to create an emergency call notification setting to:
+
+1. Configure a specific notification setting for the test emergency number 933. For the number 933, there are no settings to notify parties of a test emergency call. 
+
+  If you are using Calling Plan or Operator Connect, the emergency number is predefined. If you are using Direct Routing, you need to define the emergency nubmer in the emergency call routing policy.
+
+2. Configure a notification setting when an emergency call is made to any defined emergency number except 993. For any number except 933, notify the security desk via a conference call with an external PSTN participant. 
+
+  This example creates a new emergency calling policy called Default911. The policy specifies that the alert@contoso.com group is notified of an emergency call via a conference call. The external PSTN number +14255551234 is brought into the conference call and the extended notification is added. 
+
+
+``` PowerShell
+$en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933" 
+
+New-CsTeamsEmergencyCallingPolicy -Identity Default911 -Description "Default Emergency notification" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceMuted -ExtendedNotifications @{add=$en1}
+```
+
+
+
 ## Edit an emergency calling policy
 
 ### Using the Microsoft Teams admin center

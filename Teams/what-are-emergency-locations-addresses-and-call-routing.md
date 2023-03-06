@@ -45,7 +45,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 
   When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site.
 
-- **Registered address** - An emergency address that is assigned to each user. A registered address is sometimes referred to as a static emergency address or address of record. (Currently, registered addresses are not supported for Direct Routing. Check back soon for updates.)
+- **Registered address** - An emergency address that is assigned to each user. A registered address is sometimes referred to as a static emergency address or address of record. 
 
 >[!Note]
 >There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md). These considerations are described throughout this article.
@@ -241,9 +241,9 @@ Dynamic emergency calling for Direct Routing provides the capability to configur
 
 For Direct Routing users, dynamic location for routing emergency calls is only supported in the United States as follows:
 
-- If a Teams client for a United States Direct Routing user dynamically acquires an emergency address within the United States, that address is used for emergency routing, and the call will be automatically routed to the PSAP in the serving area of the address.
+- If a Teams client for a United States Direct Routing user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address, and the call will be automatically routed to the PSAP in the serving area of the address.
 
-- If a Teams client for a United States Direct Routing user doesn't dynamically acquire an emergency address within the United States, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
+- If a Teams client for a United States Direct Routing user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
 Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exception: all emergency calls will be screened nationally before being transferred to the PSAP.
 
@@ -291,6 +291,8 @@ For more information, see [Session Border Controllers certified for Direct Routi
 Security desk notification is available with both Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
 You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
+
+You can configure specific notification settings per emergency number. You specify the default notification settings by using the Teams emergency calling policy. Any specific notification settings per emergency number are added to the policy by using the extended notification parameter. This concept allows you to configure appropriate settings for the default emergency number 911 and for the the test emergency number 933. You can, for example, avoid notifying your security desk for test emergency calls.
 
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
