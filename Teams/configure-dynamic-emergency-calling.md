@@ -37,7 +37,7 @@ For dynamic emergency calling, the following must occur:
 
 2. During startup and periodically afterwards, or when a network connection is changed, the Teams client sends a location request that contains its network connectivity information to the network settings and the LIS.
 
-   - If there's a network settings site match, emergency calling policies are returned to the Teams client from that site. (For more information about policies, see [Configure emergency policies](#configure-emergency-policies.))
+   - If there's a network settings site match, emergency calling policies are returned to the Teams client from that site. (For more information about policies, see [Configure emergency policies](#configure-emergency-policies).)
 
    - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client. The match is performed in the following order with the first matched result being returned:
        - WAP
