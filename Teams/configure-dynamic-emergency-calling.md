@@ -10,8 +10,9 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ms.reviewer: roykuntz
-ms.date: 10/02/2019
+ms.date: 03/06/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -22,7 +23,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Plan and configure dynamic emergency calling 
+# Plan and configure dynamic emergency calling
 
 Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
@@ -69,7 +70,6 @@ For more information about emergency calling, including information about emerge
 
 For more information about which features are available in the government clouds, see [Government support](#government-support) at the end of this article.
 
-
 ## Supported clients
 
 The following clients are currently supported.  Check back often to see updates to this list.
@@ -82,19 +82,19 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all supported Teams clients. <br><br>
+> Subnet and WiFi-based locations are supported on all supported Teams clients.
+>
 > Ethernet/Switch (LLDP) is supported on:
-> - Windows versions 10.0 and later at this time.<br>
-> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
+>
+> - Windows versions 10.0 and later at this time.
+> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).
 > - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
 
 > [!NOTE]
-> Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
+> Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 > [!NOTE]
-> 3PIP phones do not support dynamic emergency calling. 
-
-
+> 3PIP phones do not support dynamic emergency calling.
 
 ## Assign emergency addresses
 
@@ -102,7 +102,7 @@ You can assign emergency addresses as follows:
 
 - To Calling Plan users.
 
-- To Operator Connect and Teams Phone Mobile users&mdash;depending on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
+- To Operator Connect and Teams Phone Mobile users &mdash; depending on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
 
 - To the network identifiers that are required for dynamically obtaining a location. 
 
@@ -112,7 +112,7 @@ Azure Maps is used for location-based services. When you enter an emergency addr
 
 - If a match is found, the geo codes are automatically included.
 
-- If a match isn't found, you will have the opportunity to manually create an emergency address. You can use the PIN drop feature to do this. 
+- If a match isn't found, you will have the opportunity to manually create an emergency address. You can use the PIN drop feature to do this.
 
 > [!NOTE]
 > Emergency addresses that are more than a couple of years old cannot be assigned to network identifiers. You will need to re-create older addresses.
@@ -133,13 +133,11 @@ You configure network settings in the Microsoft Teams admin center or by using P
 
 Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.  
 
-> [!Note]
+> [!NOTE]
 > Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is 10.10.10.128. For more information, see [Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
 
-> [!Important]
+> [!IMPORTANT]
 > Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.
-
-
 
 **For Calling Plan, Operator Connect, and Teams Phone Mobile users:**
 
@@ -257,14 +255,14 @@ The following table shows support for dynamic emergency calling in the governmen
 | :------------|:-------|
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
-| GCCH | -Available on Teams desktop <br> -Available on Teams mobile clients <br> -Available on Teams phones, app version: 1449/1.0.94.2022061702 |
-| DoD | -Available on Teams desktop <br>-Available on Teams mobile clients <br>-Pending on Teams phones |
+| GCCH | - Available on Teams desktop <br> - Available on Teams mobile clients <br> - Available on Teams phones, app version: 1449/1.0.94.2022061702 |
+| DoD | - Available on Teams desktop <br>- Available on Teams mobile clients <br>- Pending on Teams phones |
 
- ## Related topics
+## Related topics
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
-- [Manage emergency call routing policies ](manage-emergency-call-routing-policies.md)
+- [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
 - [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 - [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
 - [Network settings for cloud voice features](cloud-voice-network-settings.md)
