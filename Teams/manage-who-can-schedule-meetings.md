@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: brgussin
-ms.date: 02/24/2023
+ms.date: 03/06/2023
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -33,7 +33,7 @@ The meeting scheduling policy settings are turned on by default. These settings 
 - **Meet now in channel meetings**: Controls whether a user can start an instant private meeting.
 - **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook.
 
-You can also use [Microsoft PowerShell](teams-powershell-overview.md) with the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to create, update, and remove these meeting policy settings.
+You can also use [Microsoft PowerShell](teams-powershell-overview.md) with the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to update these meeting policy settings.
 
 > [!NOTE]
 > If the meeting was sent by a delegate, who was given permissions to send meeting invitations on behalf of another person, such as a manager, the meeting policy setting is applied to the person who granted permission (the manager).
@@ -46,8 +46,8 @@ If you have compliance requirements that mandate only specific people start inst
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to update. To create a new policy, click **Add**.
 1. Under **Meeting scheduling**, toggle the following:
-    1. If you want to restrict who can start instant meetings in a channel, toggle **Meet now in channel meetings** to **Off**. This setting is on by default.
-    1. If you want to restrict who can schedule meetings in a channel, toggle **Channel meeting scheduling** to **Off**. If this setting is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event. This setting is on by default.
+    - If you want to restrict who can start instant meetings in a channel, toggle **Meet now in channel meetings** to **Off**. This setting is on by default.
+    - If you want to restrict who can schedule meetings in a channel, toggle **Channel meeting scheduling** to **Off**. If this setting is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event. This setting is on by default.
 1. Hit **Save** at the bottom of the page.
 
 ### Configure channel meetings using PowerShell
@@ -67,8 +67,8 @@ A meeting is private when it's not published to a channel in a team. If you have
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you want to update. To create a new policy, click **Add**.
 1. Under **Meeting scheduling**, toggle the following:
-    1. If you want to restrict who can start instant private meetings, toggle **Meet now in private meetings** to **Off**. This setting is on by default.
-    1. If you want to restrict who can schedule private meetings in a channel, toggle both **Private meeting scheduling** and **Outlook add-in** to **Off**. These settings are on by default.
+    - If you want to restrict who can start instant private meetings, toggle **Meet now in private meetings** to **Off**. This setting is on by default.
+    - If you want to restrict who can schedule private meetings in a channel, toggle both **Private meeting scheduling** and **Outlook add-in** to **Off**. These settings are on by default.
 1. Hit **Save** at the bottom of the page.
 
 ### Configure private meetings using PowerShell
