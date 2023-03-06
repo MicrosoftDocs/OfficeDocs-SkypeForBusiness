@@ -70,6 +70,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <CustomDisplayEmailForThirdPartyMeetings>guest@microsoft.com</CustomDisplayEmailForThirdPartyMeetings>
   <BluetoothAdvertisementEnabled>false</BluetoothAdvertisementEnabled>
   <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+  <AllowRoomRemoteEnabled>true</AllowRoomRemoteEnabled>
   <CortanaWakewordEnabled>true</CortanaWakewordEnabled>
   <DualScreenMode>0</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
@@ -150,6 +151,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<CustomDisplayEmailForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest email used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
 | `<BluetoothAdvertisementEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
 | `<AutoAcceptProximateMeetingInvitations>` | Boolean &#x2777; | First &#x2776; | If true, proximity based meetings are automatically accepted. Disabled by default. |
+| `<AllowRoomRemoteEnabled>` | Boolean &#x2777; | First &#x2776; | If true, room remote connections are allowed. Enabled by default. |
 | `<AutoExitMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | If true, device will automatically leave the meeting if it is the last participant remaining in the meeting.  Disabled by default. |
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
