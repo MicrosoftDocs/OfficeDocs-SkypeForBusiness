@@ -211,7 +211,7 @@ You assign policies in the Microsoft Teams admin center or by using PowerShell. 
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
 - [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md)
 
-The following are PowerShell examples:
+The following examples are in PowerShell.
 
 To enable a specific user for security desk notification, use the following command:
 
