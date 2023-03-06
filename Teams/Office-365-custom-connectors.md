@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 01/30/2023
+ms.date: 03/03/2023
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lucarras

@@ -1,7 +1,7 @@
 ---
 title: Teams Contact Center
-author: cazawideh
-ms.author: czawideh
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -77,6 +77,7 @@ The following providers offer contact center solutions that are integrated into 
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Bright Pattern` | https://www.brightpattern.com/                              |
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `Evolve IP` | https://www.evolveip.net/contact-center   |
