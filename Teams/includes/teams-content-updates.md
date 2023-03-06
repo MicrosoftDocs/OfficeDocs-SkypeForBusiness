@@ -2,6 +2,24 @@
 
 
 
+## Week of February 27, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/27/2023 | [Manage meeting policies in Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | modified |
+| 2/27/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 2/28/2023 | Auto attendant and call queue historical reports for GCC High and DoD | removed |
+| 2/28/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
+| 2/28/2023 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
+| 2/28/2023 | [Information barriers and shared channels](/MicrosoftTeams/information-barriers-shared-channels) | modified |
+| 2/28/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 3/3/2023 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
+| 3/3/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 3/3/2023 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
+| 3/3/2023 | [Zero-touch App Install for Teams apps](/MicrosoftTeams/zero-touch-app-install) | modified |
+
+
 ## Week of February 20, 2023
 
 
@@ -104,28 +122,3 @@
 | 1/31/2023 | [How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviors.](/MicrosoftTeams/sign-in-teams) | modified |
 | 2/1/2023 | [Manage the Virtual Appointments app in Microsoft Teams](/MicrosoftTeams/manage-virtual-appointments-app) | modified |
 | 2/2/2023 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | modified |
-
-
-## Week of January 23, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/23/2023 | [Manage anonymous participant access to Teams meetings (IT admins)](/MicrosoftTeams/anonymous-users-in-meetings) | added |
-| 1/23/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 1/23/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
-| 1/23/2023 | [Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
-| 1/23/2023 | [Require a watermark for sensitive Teams meetings](/MicrosoftTeams/watermark-meeting-content-video) | modified |
-| 1/24/2023 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 1/24/2023 | [Manage Microsoft 365 connectors and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
-| 1/24/2023 | [Manage anonymous participant access to Teams meetings (IT admins)](/MicrosoftTeams/anonymous-users-in-meetings) | modified |
-| 1/25/2023 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 1/26/2023 | [Manage the Approvals app in Microsoft Teams](/MicrosoftTeams/approval-admin) | modified |
-| 1/26/2023 | [Manage the Bookings app in Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modified |
-| 1/26/2023 | [Manage the Virtual Appointments app in Microsoft Teams](/MicrosoftTeams/manage-virtual-appointments-app) | modified |
-| 1/26/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
-| 1/26/2023 | [Manage Voicemail Policies](/MicrosoftTeams/manage-voicemail-policies) | modified |
-| 1/27/2023 | [Remotely configure layout, scale, and resolution on Teams Rooms displays](/MicrosoftTeams/rooms/manage-front-room-scale-res) | added |
-| 1/27/2023 | [Remotely configure front row layout on Teams Rooms](/MicrosoftTeams/rooms/manage-front-row) | added |
-| 1/27/2023 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
-| 1/27/2023 | [End-user training for Microsoft Teams # < 60 chars](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modified |
