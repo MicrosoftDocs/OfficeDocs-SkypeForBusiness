@@ -225,7 +225,7 @@ The following sections describe how to manage emergency calling for Direct Routi
 
 ### Emergency call enablement for Direct Routing
 
-For Direct Routing, you must define emergency calling policies for users by using a [Teams emergency call routing policy](manage-emergency-call-routing-policies.md) to define emergency numbers and their associated routing destination. (Currently, registered emergency locations are not supported for Direct Routing users.)
+For Direct Routing, you must define emergency calling policies for users by using a [Teams emergency call routing policy](manage-emergency-call-routing-policies.md) to define emergency numbers and their associated routing destination. 
 
 You can assign an emergency call routing policy to a Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
@@ -292,7 +292,7 @@ Security desk notification is available with both Microsoft Calling Plans, Opera
 
 You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
 
-You can configure specific notification settings per emergency number. You specify the default notification settings by using the Teams emergency calling policy. Any specific notification settings per emergency number are added to the policy by using the extended notification parameter. This concept allows you to configure appropriate settings for the default emergency number 911 and for the the test emergency number 933. You can, for example, avoid notifying your security desk for test emergency calls.
+You can configure specific notification settings per emergency number. Any specific notification settings per emergency number are added to the policy by using the extended notification parameter. This capability allows you to configure appropriate settings for the default emergency number and for the the test emergency number. With this capability, you can avoid notifying your security desk for test emergency calls.
 
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
