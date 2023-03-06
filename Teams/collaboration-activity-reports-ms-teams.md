@@ -50,11 +50,11 @@ This section describes the following insights provided by Collaboration activity
 
 #### Inactive teams
 
-The **Inactive teams** widget view displays how many teams in your organization have been inactive for the past 30 and 60 days. You can hover over each date to see the exact count for that day.
+The **Inactive teams** widget view displays how many teams in your organization have been inactive for the past 30 and 60 days. You can hover over each date in the time frame (30 days or 60 days) to see the exact count for that day.
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive.":::
 
-You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can also archive the team directly from this view. You can archive the details of any team for any time frame by selecting the dropdown list under **Date range** and choosing the time period you want, and then click **Run report**.
+You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can directly archive the details of any team for any time frame by selecting the dropdown list under **Date range** and choosing the time period you want, and by clicking **Run report**.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive.":::
 
@@ -69,9 +69,11 @@ You can click **View details** to see which of your allowed domains have been in
 - Past 30 days
 - Past 60 days
 
-You can view and archive the detail of any domain's inactive/active team for any 7-day, 30-day, or 60-day period by selecting the dropdown list under **Date range** and choosing the time period you want, and then click **Run report**.
+You can archive the detail of any domain's inactive and active teams for any 7-day, 30-day, or 60-day period by:
+- Selecting the dropdown list under **Date range**
+- Choosing the time period you want, and then click **Run report**
 
-You can archive names of inactive/active domains and the Last Activity Date for each domain.
+You also can archive names of inactive/active domains and the Last Activity Date for each domain.
 
 This insight will only surface for organizations that don't have open federation enabled.
 
@@ -104,7 +106,7 @@ The **Channels by user type** widget view tells you how many standard, private, 
 - Your users and external users
 
 > [!NOTE]
-> To change the time frame for which you want to view the count of active channels (standard, private, or shared), use the duration selector that contains the options of **7 days** and **30 days**.
+> To change the time frame for which you want to view the count of active channels (standard, private, or shared) and their user composition, use the duration selector that contains the options of **7 days** and **30 days**.
 
 External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
 
