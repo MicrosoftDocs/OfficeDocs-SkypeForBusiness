@@ -626,6 +626,8 @@ items:
               href: configure-meetings-highly-sensitive-protection.md
             - name: Manage recording options
               href: manage-meeting-recording-options.md
+            - name: Prevent recording download
+              href: block-download-meeting-recording.md
             - name: Manage meeting lobby
               href: configure-lobby-sensitive-meetings.md
             - name: Manage presentation experience
