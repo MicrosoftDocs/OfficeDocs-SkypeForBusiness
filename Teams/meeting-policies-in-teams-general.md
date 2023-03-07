@@ -77,7 +77,7 @@ This policy is on by default and allows your organizers to see who registered an
 
 When this policy is enabled, the option to download the meeting engagement report is displayed in the **Participants** pane.
 
-For more information on engagement reports, read [Microsoft Teams meeting attendance report](../meeting-attendance-report.md).
+For more information on engagement reports, read [Microsoft Teams meeting attendance report](MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report.md).
 
 ## Meeting registration
 
