@@ -147,15 +147,11 @@ Advanced virtual appointments
 
 #### Custom policy packages
 
-Messaging policy
-Meeting policy
-App setup policy
-Calling policy
-Live events policy
+A policy package is a collection of predefined policies that you can assign to users or groups who have similar roles in your organization. Teams includes several pre-defined policy packages and Teams Premium allows you to create your own.
 
-[Managing policy packages in Teams](manage-policy-packages.md)
+If you want to test custom policy packages as part of your trial, see [Managing policy packages in Teams](manage-policy-packages.md) for information.
 
-## Get started with the trail
+## Get started with the trial
 
 When you've completed your pre-trial planning, the next step is to add the Teams Premium trial to your Microsoft 365 subscription.
 
@@ -172,7 +168,7 @@ Once the administrative setup is complete, notify your trial participants that t
 
 The Teams Premium trial is added from the Microsoft 365 admin center.
 
-To add the Teams Premium trail to Microsoft 365
+To add the Teams Premium trial to Microsoft 365
 1. In the Microsoft 365 admin center, expand **Billing**, and then select **Purchase services**.
 1. Search for *Teams Premium*.
 1. Under **Microsoft Teams Premium Trial**, select **Details**.
