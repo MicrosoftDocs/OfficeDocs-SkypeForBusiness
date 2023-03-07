@@ -123,11 +123,35 @@ Custom meeting templates can be used to preset many of the options that are avai
 
 #### Premium events
 
-Premium events
+With premium events, meeting organizers have additional features to help them organize webinars, including enhanced registration, a green room where organizers can meet before the webinar, and enhanced controls for presenter and attendee video.
+
+These features don't have administrative controls, so you don't need a Teams admin to set them up. They're automatically available to meeting organizers who have a Teams Premium license.
+
+The following webinar features are available in Teams Premium:
+
+- **[Enhanced registration capabilities](https://support.microsoft.com/office/923f382a-0cca-433a-b38d-7461971192d1)** - Additional webinar registration options, including manual registration approval, waitlist, and registration start and end time.
+
+- **[Green room for Teams meetings](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)** - A place where organizers can meet with each other, change meeting options and admit participants from the lobby into the meeting.
+
+- **[Enhanced video feed controls](https://products.support.services.microsoft.com/office/19bfd690-8122-49f4-bc04-c2c5f69b4e16)** - Options to decide whose avatars or video feeds to spotlight during a Teams meeting.
+
+As you determine which users will get trial licenses, consider which of your webinar organizers can best test these features.
+
+For more information about setting up webinars, see [Set up webinars in Microsoft Teams](set-up-webinars.md).
 
 #### Advanced Virtual Appointments
 
 Advanced virtual appointments
+
+#### Custom policy packages
+
+[Managing policy packages in Teams](manage-policy-packages.md)
+
+Messaging policy
+Meeting policy
+App setup policy
+Calling policy
+Live events policy
 
 ## Get started with the trail
 
