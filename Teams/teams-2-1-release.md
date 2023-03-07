@@ -55,11 +55,12 @@ It is easy to toggle back and forth between using the classic and new Teams, so 
 
 ## How to roll out new Teams
 
-As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use Microsoft Teams (preview), our new Teams client.
+As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use the new Teams.
+To control which users can see the toggle, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
-To control which users can see the toggle, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement**  policy. Manage this setting using Teams PowerShell or in the Teams admin center.
+Manage this setting using Teams PowerShell or in the Teams admin center.
 
-# [Powershell](#tab/powrshell)
+# [Powershell](#tab/powershell)
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
