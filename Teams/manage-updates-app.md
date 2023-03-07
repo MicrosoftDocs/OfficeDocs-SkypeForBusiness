@@ -139,7 +139,7 @@ You can use [Teams app permission policies](teams-app-permission-policies.md) to
 
 ## Data limitations
 
-Each user can create at most 400 Updates templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
+Each user can create at most 400 Updates templates, and each template can collect a maximum of 500,000 requests based on the current capability in Microsoft Forms.
 
 ## Security
 
