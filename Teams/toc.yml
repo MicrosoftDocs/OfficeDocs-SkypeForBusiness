@@ -352,10 +352,10 @@ items:
 
     - name: Work with people outside the organization
       items: 
-        - name: Secure file sharing and collaboration with Teams
-          href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
         - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
+        - name: Plan for external meetings
+          href: plan-meetings-external-participants.md
         - name: External meetings and chat
           items: 
             - name: Manage external meetings and chat
