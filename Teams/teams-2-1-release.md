@@ -236,9 +236,9 @@ The following apps are available in Teams (preview). If you need to use an app t
 |Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
 
 
-|Classic|New|Limitations|
-|:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/purple-square.png" border="false":::|:::image type="icon" source="media/orange-square-teams.png" border="false":::|You won't get notifications from any apps in your Activity feed.</br></br>“Pop out app” isn't yet available.</br></br>You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|Classic Teams |New Teams|
+|:-----|:-----|
+|:::image type="icon" source="media/purple-square.png" border="false":::|Limitations:::image type="icon" source="media/orange-square-teams.png" border="false":::</br>- No notifications from any apps in your Activity feed.</br></br>- “Pop out app” isn't yet available.</br></br>- You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>- Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>- You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
 
 ### Multi-Tenant Multi-Account
