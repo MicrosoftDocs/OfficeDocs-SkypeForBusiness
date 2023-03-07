@@ -174,9 +174,8 @@ Teams (preview) gives you:
 - [Calendar and meetings (limited)](#calendar-and-meetings)
 - Teams-to-Teams calls
 - Files
-- [Apps (limited), including Microsoft Viva](#apps-including-microsoft-viva)
+- [Apps](#apps-including-microsoft-viva)
 - [Support for multiple work (or school) accounts (exclusively available in New Teams!)](#multi-tenant-multi-account)
-
 
 
 ### Chat
