@@ -131,11 +131,13 @@ The following webinar features are available in Teams Premium:
 
 - **[Enhanced registration capabilities](https://support.microsoft.com/office/923f382a-0cca-433a-b38d-7461971192d1)** - Additional webinar registration options, including manual registration approval, waitlist, and registration start and end time.
 
-- **[Green room for Teams meetings](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)** - A place where organizers can meet with each other, change meeting options and admit participants from the lobby into the meeting.
+- **[Green room for Teams meetings](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)** - A place where organizers can meet with each other, change meeting options and admit participants from the lobby into the meeting. Available for both meetings and webinars.
 
-- **[Enhanced video feed controls](https://products.support.services.microsoft.com/office/19bfd690-8122-49f4-bc04-c2c5f69b4e16)** - Options to decide whose avatars or video feeds to spotlight during a Teams meeting.
+- **[Enhanced video feed controls](https://products.support.services.microsoft.com/office/19bfd690-8122-49f4-bc04-c2c5f69b4e16)** - Options to decide whose avatars or video feeds to spotlight during a Teams meeting. Available for both meetings and webinars.
 
-As you determine which users will get trial licenses, consider which of your webinar organizers can best test these features.
+- **[Live translated captions](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)** - Allows users to see captions translated into the language they're most comfortable with.
+
+As you determine which users will get trial licenses, consider which of your meeting and webinar organizers can best test these features.
 
 For more information about setting up webinars, see [Set up webinars in Microsoft Teams](set-up-webinars.md).
 
@@ -145,13 +147,13 @@ Advanced virtual appointments
 
 #### Custom policy packages
 
-[Managing policy packages in Teams](manage-policy-packages.md)
-
 Messaging policy
 Meeting policy
 App setup policy
 Calling policy
 Live events policy
+
+[Managing policy packages in Teams](manage-policy-packages.md)
 
 ## Get started with the trail
 
