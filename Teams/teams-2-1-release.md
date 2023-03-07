@@ -117,7 +117,7 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 >[!Note]
 >This new policy assignmentmethod should take effect within one minute. Users do not need to restart the app.
 
-#[Teams Admin Center](#tab/teams-admin-center)
+# [Teams Admin Center](#tab/teams-admin-center)
 
 Configure setting via Teams Admin Center
 
@@ -180,11 +180,11 @@ Teams (preview) gives you:
 
 ### Chat
 
-Most chat features are available, including GIFs and emojis. There are just a few limitations.  image.png
+Most chat features are available, including GIFs and emojis. There are just a few limitations.
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="icon" source="media/purple-square.png" border="false":::|:::image type="icon" source="media/orange-square-teams.png" border="false":::|Can't add tabs to chat</br></br>Can't reorder pinned chats</br></br>Immersive reader not available|
+|Full featured|Available with limitations|Can't add tabs to chat</br>Can't reorder pinned chats</br>Immersive reader not available|
 
 ### Teams and channels
 
@@ -196,7 +196,7 @@ Here are the limitations:
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/purple-square.png" border="false":::|:::image type="icon" source="media/orange-square-teams.png" border="false":::|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available yet.</br></br>You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>"Post in multiple channels" isn't supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br> </br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F isn’t yet available for searching within channels.</br></br>Channel notification settings aren’t editable yet.</br></br>The channel info pane isn't available.</br></br>When hosting a meeting in a channel, a banner won't appear at the top of the channel|
+|Full featured|Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available yet.</br></br>You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>"Post in multiple channels" isn't supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br> </br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F isn’t yet available for searching within channels.</br></br>Channel notification settings aren’t editable yet.</br></br>The channel info pane isn't available.</br></br>When hosting a meeting in a channel, a banner won't appear at the top of the channel|
 
 
 ### Calendar and meetings
@@ -206,8 +206,8 @@ You can schedule and join meetings in Teams (preview) with basic functionality a
 On days when you have many meetings, you may want to use classic Teams to make sure you get meeting-start notifications.
 
 |Classic|New|Limitations|
-|:-----|:-----|:-----|:-----|
-|:::image type="icon" source="media/purple-square.png" border="false":::|:::image type="icon" source="media/orange-square-teams.png" border="false":::|When a meeting starts, you won’t receive a notification with an option to join</br></br>Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events</br></br>“Present in Teams” feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams won't be able to post questions or responses unless they switch to classic Teams.</br></br>new app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams will be able to participate in polls that you launch from classic Teams. </br></br>Meeting start notification won't appear when a meeting starts with an option to join</br></br>When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in new Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
+|:-----|:-----|:-----|
+|Full featured|Available with limitations|When a meeting starts, you won’t receive a notification with an option to join</br></br>Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events</br></br>“Present in Teams” feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams won't be able to post questions or responses unless they switch to classic Teams.</br></br>new app installation isn’t supported. However, some limited app capabilities are available.For example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams will be able to participate in polls that you launch from classic Teams. </br></br>Meeting start notification won't appear when a meeting starts with an option to join</br></br>When using the “Share screen” option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in new Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
 
 
 ### Calls
@@ -221,7 +221,7 @@ The Calls icon isn't visible on the left rail and the dial pad isn't available. 
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="icon" source="media/purple-square.png" border="false":::|:::image type="icon" source="media/purple-square.png" border="false":::||
+|Full featured|Available with limitations||
 
 
 ### Apps
@@ -236,9 +236,9 @@ The following apps are available in Teams (preview). If you need to use an app t
 |Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
 
 
-|Classic Teams |New Teams|
+|Classic Teams |New Teams|Limitations
 |:-----|:-----|
-|:::image type="icon" source="media/purple-square.png" border="false":::|Limitations:::image type="icon" source="media/orange-square-teams.png" border="false":::</br>- No notifications from any apps in your Activity feed.</br></br>- “Pop out app” isn't yet available.</br></br>- You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>- Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>- You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|Available with limitations|No notifications from any apps in your Activity feed.</br>- “Pop out app” isn't yet available.</br>- You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br>- Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br>- You may notice some small differences in the user interface (UI).</br>The App Store is currently not available.|
 
 
 ### Multi-Tenant Multi-Account
