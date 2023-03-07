@@ -128,7 +128,7 @@ If you want all verified meeting participants from outside your organization to 
 
 If you want to allow only people who have invitations to join meetings directly and have all other participants wait in the lobby, set **Who can bypass the lobby** to **People who were invited**. (People invited via distribution list are not included.)
 
-The **People who were invited** setting includes verified participants to whom the invite was forwarded, not just those invited directly by the organizer. It doesn’t include people who have the meeting join link but not the invitation itself and unverified (anonymous) participants. They must wait in the lobby.
+The **People who were invited** setting includes verified participants to whom the invite was forwarded, not just those invited directly by the organizer. This includes participants from blocked organizations in external access if anonymous meeting join is enabled. It doesn’t include people who have the meeting join link but not the invitation itself and unverified (anonymous) participants. They must wait in the lobby.
 
 Note that meeting organizers can disable forwarding the meeting invite if they only want people directly invited by them to attend the meeting.
 
