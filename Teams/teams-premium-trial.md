@@ -24,7 +24,7 @@ You can try [Teams Premium](enhanced-teams-experience.md) for free by adding the
 
 Before you start the trial, it's important to plan who will be provided with licenses and what use cases you want to validate during the trial, as well as how you'll collect feedback while the trial is underway.
 
-The following are the basic steps involved in the trial:
+The following are the basic steps involved in a trial:
 
 1. **Pre-trial planning** - including defining test cases, choosing users, and deciding which feature settings and policies you want to use
 1. **Add trial to your tenant** - including assigning licenses
@@ -46,7 +46,7 @@ Not all trial participants need a Teams Premium license. Some people, such as bu
 
 The following table lists potential trial participants and their roles.
 
-|Who|Their role in the trial|Trial license?|
+|Who|Their role in the trial|Trial license needed?|
 |:--|:---|:--------------------|
 |Microsoft 365 global administrator|Assign Teams Premium trial licenses to trial participants.|No|
 |Teams administrator|Configure Teams Premium settings and policies|No|
@@ -78,7 +78,7 @@ The sections below describe the areas where Teams Premium offers enhanced meetin
 
 To help meet your compliance requirements for meetings, Teams Premium provides sensitivity label controls and custom meeting templates that you can use to define the meeting experience.
 
-By using sensitivity labels in Microsoft Purview and Teams meeting templates, you can enforce meeting features such as watermarks and encryption, and control many of the [meeting settings that are available to meeting organizers](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e).
+By using sensitivity labels, you can enforce meeting features such as watermarks and encryption, and control many of the [meeting settings that are available to meeting organizers](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e). Sensitivity labels are defined in Microsoft Purview and you can use them in meetings or specify them in meeting templates.
 
 You can create a combination of sensitivity labels and meeting templates to define meeting experiences for meetings with different sensitivity levels. For ideas on how to use labels and meeting templates for different types of meetings, read [Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection).
 
@@ -123,11 +123,11 @@ Custom meeting templates can be used to preset many of the options that are avai
 
 #### Premium events
 
-With premium events, meeting organizers have additional features to help them organize webinars, including enhanced registration, a green room where organizers can meet before the webinar, and enhanced controls for presenter and attendee video.
+With premium events, meeting organizers have additional features to help them organize meetings and webinars, including enhanced registration, a green room where organizers can meet apart from attendees, and enhanced controls for presenter and attendee video.
 
 These features don't have administrative controls, so you don't need a Teams admin to set them up. They're automatically available to meeting organizers who have a Teams Premium license.
 
-The following webinar features are available in Teams Premium:
+The following meeting and webinar features are available in Teams Premium:
 
 - **[Enhanced registration capabilities](https://support.microsoft.com/office/923f382a-0cca-433a-b38d-7461971192d1)** - Additional webinar registration options, including manual registration approval, waitlist, and registration start and end time.
 
@@ -135,7 +135,7 @@ The following webinar features are available in Teams Premium:
 
 - **[Enhanced video feed controls](https://products.support.services.microsoft.com/office/19bfd690-8122-49f4-bc04-c2c5f69b4e16)** - Options to decide whose avatars or video feeds to spotlight during a Teams meeting. Available for both meetings and webinars.
 
-- **[Live translated captions](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)** - Allows users to see captions translated into the language they're most comfortable with.
+- **[Live translated captions](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)** - Allows users to see captions translated into the language they're most comfortable with. Available for both meetings and webinars.
 
 As you determine which users will get trial licenses, consider which of your meeting and webinar organizers can best test these features.
 
