@@ -20,7 +20,7 @@ ms.collection:
 # Zero-touch App Install of Microsoft Teams apps by admins
 
 >[!NOTE]
-> The feature is currently available only as a public preview. To enable public preview for specific users, see [Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available on your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+> The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available on your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
 
 Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps aren't aware that the same app functionality can be used as a Teams app. Using a Teams app allows the users to be more productive as the users work without switching context too often and with the added benefits of having unique Teams capabilities. Some such capabilities are in-context notifications and collaboration within Microsoft Teams.
 
