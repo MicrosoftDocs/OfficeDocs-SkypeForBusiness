@@ -3013,7 +3013,7 @@
   {
     "source_path": "Teams/reset-a-conference-id-for-a-user-in-teams.md",
     "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md",
