@@ -197,7 +197,7 @@ When you need some of the more advanced functionality, switch back to classic Te
 Here are the limitations:
 
 |Classic|New|Limitations|
-|:-----|:-----|:-----|:-----|
+|:-----|:-----|:-----|
 |:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="availalbe ":::Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available yet.</br></br>You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>"Post in multiple channels" isn't supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br> </br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F isn’t yet available for searching within channels.</br></br>Channel notification settings aren’t editable yet.</br></br>The channel info pane isn't available.</br></br>When hosting a meeting in a channel, a banner won't appear at the top of the channel|
 
 
