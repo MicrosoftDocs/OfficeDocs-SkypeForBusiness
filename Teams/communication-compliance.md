@@ -46,12 +46,12 @@ Teams administrators can configure communication compliance policies at the foll
 - **User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats. Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.
 - **Teams level**: Policies at this level apply to a Microsoft Teams channel, including a Private channel. These policies cover messages sent in the Teams channel only.
 
-### Report a concern in Microsoft Teams
+### Report a message in Microsoft Teams
 
 >[!NOTE]
 >Availability for user-reported messages for organizations licensed and using [communication compliance](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) and Microsoft Teams started in May 2022. This feature will be available by August 31, 2022 for all organizations licensed and using communication compliance through July 2022. For organizations starting to use communication compliance after July 2022, user-reported messages policy availability may take up to 30 days from the date of your licensing and first use of communication compliance.
 
-The *Report a concern* option for Teams personal and group chat messages is enabled by default and can be controlled via Teams messaging policies in the [Teams admin center](/microsoftteams/manage-teams-in-modern-portal). This allows users in your organization to submit inappropriate internal chat messages for review by communication compliance reviewers for the policy. For more information about user-reported messages in communication compliance, see [Communication compliance policies](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
+The *Report a message* option for Teams personal and group chat messages is enabled by default and can be controlled via Teams messaging policies in the [Teams admin center](/microsoftteams/manage-teams-in-modern-portal). This allows users in your organization to submit inappropriate internal chat messages for review by communication compliance reviewers for the policy. For more information about user-reported messages in communication compliance, see [Communication compliance policies](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
 ![Report a concern menu.](./media/communication-compliance-report-a-concern-full-menu.png)
 
