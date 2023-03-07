@@ -39,28 +39,28 @@ To put a user or a team on legal hold in a eDiscovery (Standard) case:
 
 1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com). When you create a new case, you're presented with the option to place mailboxes or sites on hold.
 
-2. Go to **eDiscovery** > **Core** and create a case by clicking **Create a case**. After the case is created, open it.
+1. Go to **eDiscovery** > **Standard** and create a case by clicking **Create a case**. After the case is created, open it.
   
    ![Microsoft Teams eDiscovery tab is selected, showing the Create a case button.](media/LegalHold1.png)
 
    > [!NOTE]
    > You can also place a user on a hold that's associated with an eDiscovery (Premium) case. For more information, see [Manage holds in eDiscovery (Premium)](/microsoft-365/compliance/managing-holds).
 
-3. Go to the **Holds** tab on the top menu and click **Create** to create a hold. Placing a user or a team on hold preserves all the messages exchanged by those users. When you create a new case, you're presented with the option to place mailboxes or sites on hold.
+1. Go to the **Hold** tab on the top menu and click **Create** to create a hold. Placing a user or a team on hold preserves all the messages exchanged by those users. When you create a new case, you're presented with the option to place mailboxes or sites on hold.
 
    ![An image showing the Holds tab selected, and the Create button underneath.](media/LegalHold2.png)
 
-   1. **Name your hold**. Select a descriptive and unique name for the hold you're going to create.
+ 1. **Name your hold**. Select a descriptive and unique name for the hold you're going to create.
   
        ![This screenshot shows the Name your hold tab, where you can enter in a name and description for the hold you are creating.](media/LegalHold3.png)
 
-   2. **Choose location**. Choose whether you want the hold to be applied on a user or on an entire Team (a hold can't be applied on individual channels for now). If a user is on hold, all their messages are preserved, including messages in 1:1 chats, group chats, and private channels. Messages in standard and shared channels are preserved when the parent team is placed on hold.
+ 1. **Choose locations**. Choose whether you want the hold to be applied on a user or on an entire team (a hold can't be applied on individual channels for now). If a user is on hold, all their messages are preserved, including messages in 1:1 chats, group chats, and private channels. Messages in standard and shared channels are preserved when the parent team is placed on hold.
 
       ![Choose the data locations that you want to place on hold.](media/LegalHold4.png)
 
-   3. **Create query**. You can customize the hold if you want more granularity in the hold policy. For example, you can specify keywords to look for, or you can add more conditions, that would need to be satisfied for the hold to take effect.
+ 1. **Query**. You can customize the hold if you want more granularity in the hold policy. For example, you can specify keywords to look for, or you can add more conditions, that would need to be satisfied for the hold to take effect.
 
-   4. **Review your settings** before creating the hold.
+ 1. **Review your settings** before creating the hold.
 
 After the hold is created, you can search the content retained by the hold policy. For more information, see [Conduct an eDiscovery investigation in Teams](eDiscovery-investigation.md).
 
