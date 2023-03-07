@@ -50,17 +50,17 @@ To put a user or a team on legal hold in a eDiscovery (Standard) case:
 
    ![An image showing the Holds tab selected, and the Create button underneath.](media/LegalHold2.png)
 
-   1. **Name your hold**. Select a descriptive and unique name for the hold you're going to create.
+ 1. **Name your hold**. Select a descriptive and unique name for the hold you're going to create.
   
        ![This screenshot shows the Name your hold tab, where you can enter in a name and description for the hold you are creating.](media/LegalHold3.png)
 
-   1. **Choose locations**. Choose whether you want the hold to be applied on a user or on an entire team (a hold can't be applied on individual channels for now). If a user is on hold, all their messages are preserved, including messages in 1:1 chats, group chats, and private channels. Messages in standard and shared channels are preserved when the parent team is placed on hold.
+ 1. **Choose locations**. Choose whether you want the hold to be applied on a user or on an entire team (a hold can't be applied on individual channels for now). If a user is on hold, all their messages are preserved, including messages in 1:1 chats, group chats, and private channels. Messages in standard and shared channels are preserved when the parent team is placed on hold.
 
       ![Choose the data locations that you want to place on hold.](media/LegalHold4.png)
 
-   1. **Query**. You can customize the hold if you want more granularity in the hold policy. For example, you can specify keywords to look for, or you can add more conditions, that would need to be satisfied for the hold to take effect.
+ 1. **Query**. You can customize the hold if you want more granularity in the hold policy. For example, you can specify keywords to look for, or you can add more conditions, that would need to be satisfied for the hold to take effect.
 
-   1. **Review your settings** before creating the hold.
+ 1. **Review your settings** before creating the hold.
 
 After the hold is created, you can search the content retained by the hold policy. For more information, see [Conduct an eDiscovery investigation in Teams](eDiscovery-investigation.md).
 
