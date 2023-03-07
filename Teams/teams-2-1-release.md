@@ -140,7 +140,7 @@ not be able to opt in to the new Teams|
 6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
-
+---
 
 ## How to uninstall the new Teams client
 
@@ -164,7 +164,7 @@ For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 
-## What's available in new Teams  preview
+## What's available in new Teams preview
 
 Teams (preview) gives you:
 
