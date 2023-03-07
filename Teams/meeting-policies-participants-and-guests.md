@@ -133,7 +133,7 @@ In the Teams admin center, reactions can be enabled or disabled under the **Meet
 
 To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
 
-Turning off reactions for a user doesn't mean a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting..
+Turning off reactions for a user doesn't mean a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Enable meeting policy settings
 
