@@ -32,7 +32,7 @@ How external participants can attend meetings depends on a combination of your T
 There are three types of external participants who can attend meetings hosted by your organization:
 
 - **Guests** - people who are logged in to Teams in your organization using a guest account
-- **People from trusted organizations** - people who are logged in to Teams in other Microsoft 365 organizations that you trust
+- **People from trusted organizations** - people who are logged in to Teams in other Microsoft 365 organizations that you have a two-way trust relationship with
 - **Anonymous** - people whose identity can't be validated. They may be logged in to an organization without a two-way trust relationship or they may not have an account.
 
 ## Meeting with validated external participants
@@ -89,3 +89,5 @@ The lobby can be configured by the meeting organizer before or during the meetin
 ## Related topics
 
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
+[External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
