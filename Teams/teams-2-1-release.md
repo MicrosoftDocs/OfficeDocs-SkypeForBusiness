@@ -238,8 +238,8 @@ The following apps are available in Teams (preview). If you need to use an app t
 |Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
 
 
-|Classic Teams |New Teams|Limitations
-|:-----|:-----|
+|Classic|New|Limitations|
+|:-----|:-----|:-----|
 |:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="availalbe ":::Available with limitations|No notifications from any apps in your Activity feed.</br>- “Pop out app” isn't yet available.</br>- You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br>- Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br>- You may notice some small differences in the user interface (UI).</br>The App Store is currently not available.|
 
 
