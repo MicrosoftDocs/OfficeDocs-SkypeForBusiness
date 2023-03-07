@@ -117,6 +117,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2024 | 10 |
 | Neat Frame nf21f1 | `NFF1.20220914.1210` | September 3, 2024 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| August 5, 2023 |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| August 5, 2023 |  9  |
@@ -320,6 +321,9 @@ When you install a new firmware version on your device, you can determine the co
 | Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
 | Neat Board | `NFC1.20220914.1215` |  2022 Update #2B |
 | Neat Pad touch console | `NFA1.20220914.1215`  |  2022 Update #2B |
+| Logi Rallybar | `1.8.295`   | 2022 Update #2B  |
+| Logi Rallybar Mini | `1.8.295`   | 2022 Update #2B  |
+| Logi RoomMate | `1.8.536`   | 2022 Update #2B  |
 | Logi Rallybar  | `1.8.290`     | 2022 Update #2B  |
 | Logi Rallybar Mini  | `1.8.290`     | 2022 Update #2B  |
 | Logi Console  | `1.8.177`    | 2022 Update #2B  |
@@ -459,6 +463,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.8.184` |2022 Update #4A  |
 |Crestron Touchpanel /770-T/1070-T | `2.003.1024.001` | 2022 Update #4|
 |Neat Pad Panel | `NFA1.20221128.0005` | 2022 Update #4  |
 |Logitech Tap Scheduler | `1.8.181` |2022 Update #4  |
