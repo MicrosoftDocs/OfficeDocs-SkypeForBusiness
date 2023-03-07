@@ -22,10 +22,11 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client
 
-We’re excited to announce the new Microsoft Teams, the new version of Microsoft Teams desktop client.  
+We’re excited to announce the new Microsoft Teams, the latest version of the Microsoft Teams desktop client.  
+
 
 >[!Note]
->There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
+>This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
 
 The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.  The new Teams desktop client offers you:
 
@@ -51,9 +52,7 @@ Note: Mobile app (iOS and Android) is out of scope since the new Teams is an upd
 >[!Note]
 >The new Microsoft Teams is currently not available for EDU, VDI, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
 
-## What is changing and what is not
 
-This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile client. 
 
 ## Before you begin
 
