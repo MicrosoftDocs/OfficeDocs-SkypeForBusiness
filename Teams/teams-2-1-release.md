@@ -59,8 +59,7 @@ As an admin, you can manage which users in your organizations see or don't see t
 
 To control which users can see the toggle, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement**  policy. Manage this setting using Teams PowerShell or in the Teams admin center.
 
-
-### Configure setting using Teams PowerShell
+# [Powershell](#tab/powrshell)
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
@@ -118,8 +117,9 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 >[!Note]
 >This new policy assignmentmethod should take effect within one minute. Users do not need to restart the app.
 
+#[Teams Admin Center](#tab/teams-admin-center)
 
-### Configure setting via Teams Admin Center
+Configure setting via Teams Admin Center
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
