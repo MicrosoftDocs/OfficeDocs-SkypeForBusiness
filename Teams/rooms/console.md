@@ -56,15 +56,15 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 > [!TIP]
 > Each time the CreateSrsMedia.ps1 script starts, the screen output will include the name of a log file or transcript for the session. If there are issues with running the script, make sure to have a copy of that transcript available when requesting support. 
 
-The CreateSrsMedia.ps1 script automates the following tasks:
+The CreateSrsMedia.ps1 script performs the following tasks:
 
 1. Download the latest MSI installer for Microsoft Teams Rooms.
-2. Determine the build of Windows that the user must supply. The most recently released versions may or may not be tested and supported for use with Microsoft Teams Rooms devices.
+2. If the script rejects the ISO you supply, it will provide a detailed description of the ISO you must download from VLSC.
 3. Download necessary supporting components.
 4. Assemble the needed components on the installation media.
 
 > [!NOTE]
-A specific version of Windows 10 is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
+> A specific version of Windows 10 is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
 
 When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage).
 
