@@ -176,6 +176,8 @@ To add the Teams Premium trial to Microsoft 365
 1. On the checkout page, select **Try now**.
 1. Select **Continue**.
 
+For information about how to assign the licenses to your users, see [Assign Microsoft 365 licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
+
 Note that it may take up to 72 hours for Teams Premium sensitivity label settings to be available in the Microsoft Purview compliance portal.
 
 ## Related topics
