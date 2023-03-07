@@ -24,7 +24,7 @@ description: Read this article to learn about deploying Microsoft Teams Rooms on
 Deployment of Microsoft Teams Rooms on Android can be broken down into the following phases:
 
 - **Site readiness** - Confirm that your deployment locations (rooms) meet the deployment requirements.
-- **Service readiness** - Create resource accounts and assign them to the devices. ([See Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).)
+- **Service readiness** - Create resource accounts and assign them to the devices. (See [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).)
 - **Configuration and deployment** - Set up Teams Rooms and connect the peripheral devices you need. (See the manufacturer's documentation for details.)
 
 To manage Teams Rooms, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
