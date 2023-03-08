@@ -126,13 +126,13 @@ If you select **Everyone**, all users, including anonymous users, can register f
 
 The default value for **Who can register** is **People in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
-## Collect webinar registration and attendance information
+## Collect webinar and meeting registration attendance
 
-The attendance report policy setting controls whether meeting organizers can see reports of who registered and attended the webinars they set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
+The attendance report policy setting controls whether meeting organizers can see reports of who registered and attended the webinars or meetings they set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
 
-If **Who's in the report** is set to **Everyone, but users can opt-out**, **No one, but users can opt-in**, users will be able to toggle on or off **Identify me in attendance reports** within their Teams settings.
+If **Who's in the report** is set to **Everyone, but users can opt-out** or **No one, but users can opt-in**, users will be able to toggle on or off **Identify me in attendance reports** within their Teams settings.
 
-To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](\teams-analytics-and-reports\meeting-attendance-report.md). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Turn off webinars
 
@@ -147,6 +147,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 
 ## Related topics
 
+- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Meeting policies in Teams - General](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
