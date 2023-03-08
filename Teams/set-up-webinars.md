@@ -126,7 +126,7 @@ If you select **Everyone**, all users, including anonymous users, can register f
 
 The default value for **Who can register** is **People in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
-## Collect webinar and meeting registration attendance
+## Collect webinar and meeting registration attendance information
 
 The attendance report policy setting controls whether meeting organizers can see reports of who registered and attended the webinars or meetings they set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
 
