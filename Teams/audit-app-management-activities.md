@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 
 # Search audit logs for app management activities and events
 
-Microsoft Purview Audit (Standard) in Microsoft 365 lets you search for audit records of activities performed in the various Microsoft 365 services by end-users and administrators.
+Microsoft Purview Audit (Standard) in Microsoft 365 lets you search for audit records of activities performed in the various Microsoft 365 services by users and administrators.
 
 Before you can search the audit records, ensure that you complete the following prerequisites:
 
