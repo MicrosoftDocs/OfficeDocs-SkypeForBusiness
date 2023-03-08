@@ -43,7 +43,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT) | [Video: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: Deploy & Configure Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Foundations - Core components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
-| Apps - Managing and deploying |  | [Deck](https://aka.ms/managing-deplying-apps-deck) |
+| Apps - Managing and deploying |  | [Deck](https://aka.ms/managing-deploying-apps-deck) |
 | Audio conferencing |  | [Deck](https://aka.ms/teams-audio-conferencing-deck) |
 | Call quality overview | | [Deck](https://aka.ms/teams-quality-deck) |
 | Direct routing | [Video 1: Planning for Direct Routing in Teams](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
