@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
-ms.date: 11/28/2017
+ms.date: 03/07/2023
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -291,8 +291,6 @@ For more information, see [Session Border Controllers certified for Direct Routi
 Security desk notification is available with both Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
 You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
-
-You can configure specific notification settings per emergency number. Any specific notification settings per emergency number are added to the policy by using the extended notification parameter. This capability allows you to configure appropriate settings for the default emergency number and for the the test emergency number. With this capability, you can avoid notifying your security desk for test emergency calls.
 
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
