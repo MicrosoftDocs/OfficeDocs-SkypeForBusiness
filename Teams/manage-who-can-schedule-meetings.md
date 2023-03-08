@@ -91,6 +91,7 @@ If a meeting policy setting is turned off and then turned on again for a user, a
 
 - [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Teams policy reference - Meetings](settings-policies-reference.md#meetings)
+- [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
