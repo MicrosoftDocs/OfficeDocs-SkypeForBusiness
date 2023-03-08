@@ -50,7 +50,7 @@ Don't miss our [Manage call and meeting quality](quality-of-experience-review-gu
 
 ## Use Power BI to analyze CQD data
 
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+See [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) for customizable Power BI templates you can use to analyze and report your CQD data.
 
 Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 
