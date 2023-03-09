@@ -2996,6 +2996,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/meeting-policies-in-teams.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference#meetings",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "Teams/set-the-caller-id-for-a-user.md",
     "redirect_url": "/microsoftteams/anonymous-users-in-meetings",
     "redirect_document_id": true

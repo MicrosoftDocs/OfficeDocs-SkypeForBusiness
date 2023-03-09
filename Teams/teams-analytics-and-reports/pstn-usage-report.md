@@ -136,17 +136,21 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 > | 6 | User Display Name | `nvarchar(128)` | Display name of the user |
 > | 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
 > | 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
-> | 9 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
-> | 10 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
-> | 11 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
-> | 12 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
-> | 13 | Start Time | `datetimeoffset` | Call start time |
-> | 14 | End Time | `datetimeoffset` | Call end time |
-> | 15 | Duration Seconds | `int` | How long the call was connected |
-> | 16 | Connection Fee | `numeric(16, 2)` | Connection fee price |
-> | 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
-> | 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-> | 19 | Capability | `nvarchar(32)` | The license used for the call |
+> | 9 | Call Direction | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call | 
+> | 10 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
+> | 11 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
+> | 12 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
+> | 13 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
+> | 14 | External Country | `nvarchar(16)` | Two digits country code dialed |
+> | 15 | Start Time | `datetimeoffset` | Call start time |
+> | 16 | End Time | `datetimeoffset` | Call end time |
+> | 17 | Duration Seconds | `int` | How long the call was connected |
+> | 18 | Connection Fee | `numeric(16, 2)` | Connection fee price |
+> | 19 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
+> | 20 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 21 | Capability | `nvarchar(32)` | The license used for the call |
+> | 22 | Operator | `nvarchar(32)` | Microsoft |
+> | 23 | Source of Call Duration | `nvarchar(32)` | Microsoft |
 
 ### Exported Direct Routing usage report
 
@@ -169,14 +173,15 @@ You can export data up to five months (150 days) from the current date unless co
 > | 11 | Caller Number | `nvarchar(32)` | Number of the user or bot who made the call. On inbound to a Team user call it will be a PSTN User, on outbound from Teams user call it will be the Teams user number |
 > | 12 | Callee Number | `nvarchar(32)` | Number of the user or bot who received the call. On inbound to a Team user call it will be the Teams user, on outbound from Teams user call it will be the PSTN User |
 > | 13 | Call type | `nvarchar(32)` | Call type and direction |
-> | 14 | Azure region for Media | `nvarchar(8)` | The datacenter used for media path in non-bypass call |
-> | 15 | Azure region for Signaling | `nvarchar(8)` | The datacenter used for signaling for both bypass and non-bypass calls |
-> | 16 | Final SIP code | `int` | The code with which the call ended, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-> | 17 | Final Microsoft subcode | `int` | In addition to the SIP codes, Microsoft has own subcodes that indicate the specific issue |
-> | 18 | Final SIP Phrase | `nvarchar(256)` | Description of the SIP code and Microsoft subcode |
-> | 19 | SBC FQDN | `nvarchar(64)` | Fully qualified domain name of the session border controller |
-> | 20 | Media bypass | `nvarchar(3)` | Yes/No. Indicates if the trunk was enabled for media bypass or not |
-> | 21 | Shared correlation ID | `uniqueidentifier` | Indicates that two or more calls are related |
+> | 14 | Call Direction | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call |
+> | 15 | Azure region for Media | `nvarchar(8)` | The datacenter used for media path in non-bypass call |
+> | 16 | Azure region for Signaling | `nvarchar(8)` | The datacenter used for signaling for both bypass and non-bypass calls |
+> | 17 | Final SIP code | `int` | The code with which the call ended, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 18 | Final Microsoft subcode | `int` | In addition to the SIP codes, Microsoft has own subcodes that indicate the specific issue |
+> | 19 | Final SIP Phrase | `nvarchar(256)` | Description of the SIP code and Microsoft subcode |
+> | 20 | SBC FQDN | `nvarchar(64)` | Fully qualified domain name of the session border controller |
+> | 21 | Media bypass | `nvarchar(3)` | Yes/No. Indicates if the trunk was enabled for media bypass or not |
+> | 22 | Shared correlation ID | `uniqueidentifier` | Indicates that two or more calls are related |
 
 
 ## Related topics
