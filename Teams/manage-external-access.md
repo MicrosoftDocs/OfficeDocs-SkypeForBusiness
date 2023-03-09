@@ -139,6 +139,9 @@ External user profiles are based on phone numbers. You can add the name and phon
 
 When a profile is added for someone outside you're organization, they're notified and can choose to allow or block the connection. Once the external user accepts the invitation, your users can search for external profiles by name or phone number and communicate with them using chat in Teams.
 
+> [!IMPORTANT]
+> Your organization is the Data Controller for the external user profiles that you add. This may have GDPR implications. For more information, see [General Data Protection Regulation Summary](/compliance/regulatory/gdpr).
+
 To add an external user profile
 1. Select **Manage external user profiles**.
 1. Select **Add**.
