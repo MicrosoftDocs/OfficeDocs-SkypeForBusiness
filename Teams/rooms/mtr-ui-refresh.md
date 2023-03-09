@@ -38,6 +38,20 @@ You can create a custom wallpaper for your Teams Rooms theme to represent your b
 
 Custom wallpapers need to be exactly 3840x1080 pixels in size, regardless of whether the wallpaper will be used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the left half of the image is used and the right half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays.
 
+When you create a custom wallpaper, keep the following guidelines in mind:
+
+- Place text, logos, or icons, in the middle of the screen so it isn't obscured by UI elements
+- Avoid placing text, logos, or icons, near these locations:
+  - Upper left corner - Time and room information. Size: 280x130
+  - Bottom left corner - Help information. Size: 500x40
+  - Right side - Room calendar. Size: 512x585
+- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations
+- For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text
+
+:::image type="content" source="../media/front-of-room-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-single-dimensions.png":::
+
+:::image type="content" source="../media/front-of-room-dual-dimensions.png" alt-text="Dual front of room display with element dimensions" lightbox="../media/front-of-room-dual-dimensions.png":::
+
 ## Updating Teams Rooms device configuration
 
 To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). Support image file formats include `.jpg`, `jpeg`, `png`, and `bmp`.
