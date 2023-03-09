@@ -122,8 +122,6 @@ Categorization of tickets is represented in the donut chart. Interacting with th
 
 The meeting impact view shows scheduled meetings during which a ticket with a severity of "Important" or "Critical" was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
 
-The meeting impact view shows scheduled meetings during which a ticket with a severity of "Important" or "Critical" was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
-
 <!--![A screenshot of a Reports meeting impact](../media/health-and-usage-015.png)-->
 
 The Settings tab displays the metadata of the room such as the hardware information, device settings, BIOS information, app settings and location.
