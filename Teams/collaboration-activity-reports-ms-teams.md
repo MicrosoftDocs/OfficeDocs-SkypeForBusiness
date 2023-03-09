@@ -1,5 +1,5 @@
 ---
-title: Collaboration activity reports in Microsoft Teams
+title: Collaboration activity feature in Microsoft Teams
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
@@ -18,27 +18,32 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about the Collaboration activity reports in Microsoft Teams.
+description: Learn about the Collaboration activity feature in Microsoft Teams.
 ---
 
-# Collaboration activity reports in Microsoft Teams
+# Collaboration activity feature in Microsoft Teams
 
-The Collaboration activity reports in Microsoft Teams has the following objectives:
+> [!IMPORTANT]
+> Advanced Collaboration Management Insights Private Preview is provided for evaluation purposes only and may not include all expected functionality.  Data provided during preview will be deleted within 180 days from a tenant deletion action.
 
-- Giving Teams administrators the visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
-- Enabling Teams administrators automate their work.
+The Collaboration activity feature in Microsoft Teams has the following objectives:
 
-With the help of Collaboration activity reports, you can get an insight into teams, domains, channels, external users, guest users, and users internal to your organization.
+- Give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
+- Enable Teams administrators to automate their work.
+  > [!NOTE]
+  > This objective is currently not yet functional; we aim to make this objective functional in the future sprints.
 
-## Where to find Collaboration activity reports
+With the help of Collaboration activity feature, you can get an insight into teams, domains, channels, external users, guest users, and users internal to your organization.
 
-The Collaboration activity reports can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
+## Where to find Collaboration activity feature
 
-:::image type="content" source="media/dashboard-collaboration-activity-reports.png" alt-text="The dashboard displaying the Collaboration activity reports menu item." lightbox="media/dashboard-collaboration-activity-reports.png":::
+The Collaboration activity feature can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
+
+:::image type="content" source="media/dashboard-collaboration-activity-feature.png" alt-text="The dashboard displaying the Collaboration activity feature menu item." lightbox="media/dashboard-collaboration-activity-feature.png":::
 
 ### Insight descriptions
 
-This section describes the following insights provided by Collaboration activity reports:
+This section describes the following insights provided by Collaboration activity feature:
 
 - [Inactive teams](#inactive-teams)
 - [External domains activity](#external-domains-activity)
@@ -60,12 +65,11 @@ You can click **View details** to see which are the teams that have been inactiv
 
 #### External domains activity
 
-The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 7 days", "past 30 days", and "past 60 days".
+The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 30 days" and "past 60 days".
 
 :::image type="content" source="media/external-domains-activity.png" alt-text="The report displaying the total number of allowed domains." lightbox="media/external-domains-activity.png":::
 
 You can click **View details** to see which of your allowed domains have been inactive/active for the following time frames:
-- Past 7 days
 - Past 30 days
 - Past 60 days
 
