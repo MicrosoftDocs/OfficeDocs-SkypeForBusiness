@@ -2991,6 +2991,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/meeting-policies-in-teams.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference#meetings",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "Teams/set-the-caller-id-for-a-user.md",
     "redirect_url": "/microsoftteams/anonymous-users-in-meetings",
     "redirect_document_id": true
@@ -2998,6 +3003,31 @@
   {
     "source_path": "Teams/aa-cq-cqd-historical-reports-v163.md",
     "redirect_url": "/microsoftteams/aa-cq-cqd-historical-reports",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/calling-plan-landing-page.md",
+    "redirect_url": "/microsoftteams/calling-plans-for-office-365",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/configuring-teams-calling-quickstartguide.md",
+    "redirect_url": "/microsoftteams/set-up-calling-plans",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/raise-hand-meetings.md",
+    "redirect_url": "https://support.microsoft.com/en-us/office/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/reset-a-conference-id-for-a-user-in-teams.md",
+    "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md",
+    "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
     "redirect_document_id": true
   }
   ] 
