@@ -24,7 +24,7 @@ description: "Test specifications describe the unified Skype and Lync requiremen
 
 # Microsoft Teams and Skype for Business specifications for USB peripherals, PCs, and Microsoft Teams Room systems
 
-The current "V4" specification is the first version that grants devices certification for Microsoft Teams (and also certification for Skype for Business). Prior versions only granted certification for Skype for Business and Lync.
+The "V4" specification is the first version that grants devices certification for Microsoft Teams (and also certification for Skype for Business). Prior versions only granted certification for Skype for Business and Lync.
 
 > [!NOTE]
 > Starting with the V4 specification package, Microsoft is only releasing a subset of the specifications to the public. Specifications for user flow, Accessory Signaling Protocol, are subject to more frequent change as the Teams client adds new features or refines existing ones, and are therefore only shared with direct device OEM partners.
