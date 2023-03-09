@@ -55,31 +55,25 @@ This section describes the following insights provided by Collaboration activity
 
 #### Inactive teams
 
-The **Inactive teams** widget view displays how many teams in your organization have been inactive for the past 30 and 60 days. You can hover over each date in the time frame (30 days or 60 days) to see the exact count for that day.
+The **Inactive teams** widget view displays how many teams in your organization have been inactive for the past 30 and 60 days. You can hover over each date in either of the time frames (30 days or 60 days, whichever you've chosen) to see the exact count for that day.
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
-You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can directly archive these details of any team for any time frame. To archive, you can select the **Date range** dropdown list and choose the time period you want, and then click **Run report**.
+You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can directly archive these details of any team for any time frame. To do this task, you can select the **Date range** dropdown list and choose the time period for which you want to archive details of teams. Then, click **Run report**.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
 #### External domains activity
 
-The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 30 days" and "past 60 days".
+The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 30 days" and "past 60 days". You can hover over each date in either of the time frames (30 days or 60 days, whichever you've chosen) to see the exact count of active and inactive domains for that day.
 
 :::image type="content" source="media/external-domains-activity.png" alt-text="The report displaying the total number of allowed domains." lightbox="media/external-domains-activity.png":::
 
-You can click **View details** to see which of your allowed domains have been inactive/active for the following time frames:
-- Past 30 days
-- Past 60 days
+You can click **View details** to see which of your allowed domains have been inactive/active for the past 30 days and 60 days.
 
-You can archive the detail of any domain's inactive and active teams for any 7-day, 30-day, or 60-day period by:
-- Selecting the dropdown list under **Date range**
-- Choosing the time period you want, and then click **Run report**
+For any allowed domain of any chosen time frame, you can archive the details such as its name and its last activity date. To do this task, you can select the **Date range** dropdown list and choose the time period for which you want to archive details of the domains. Then, click **Run report**.
 
-You also can archive names of inactive/active domains and the Last Activity Date for each domain.
-
-This insight will only surface for organizations that don't have open federation enabled.
+This insight surfaces only for organizations that don't have open federation enabled.
 
 :::image type="content" source="media/detailed-report-view-external-domains-activity.png" alt-text="The detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-external-domains-activity.png":::
 
@@ -94,11 +88,9 @@ The **Teams by user type** widget view shows you how many of your "active" teams
 > [!NOTE]
 > Only active teams are included in the breakdown. 
 
-You can view the count of active teams by using the duration selector that contains the options of **7 days** and **30 days**.
+You can view the count of active teams for each user-composition type for the "past-7-days" and "past-30-days" time frames. To do this task, you can use the duration selector and choose either **7 days** and **30 days** from the options.
 
-You can also view the composition types for any of the active teams.
-
-This insight doesn't tell you how many users are in a team; it shows how many teams have each composition type. For example, a team with 100 of your users, no external users, and one guest will count as one team comprised of “my users and guests.”
+This insight doesn't tell you how many users are in a team; it shows how many teams have each composition type. For example, a team with 100 of your users, no external users, and one guest counts as one team comprised of “my users and guests.”
 
 :::image type="content" source="media/teams-by-user-type.png" alt-text="The Teams by user type widget." lightbox="media/teams-by-user-type.png":::
 
@@ -110,7 +102,9 @@ The **Channels by user type** widget view tells you how many standard, private, 
 - Your users and external users
 
 > [!NOTE]
-> To change the time frame for which you want to view the count of active channels (standard, private, or shared) and their user composition, use the duration selector that contains the options of **7 days** and **30 days**.
+> Only active standard, private, and shared channels are included in the breakdown.
+
+To change the time frame for which you want to view the count of active channels (standard, private, or shared) that are mapped to each of the user-composition types, use the duration selector and choose either **7 days** and **30 days** from the options.
 
 External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
 
@@ -157,7 +151,7 @@ You can click **View details** to see the guest’s names and the "sent message 
 ### Notes
 
 1. All reports only show users and teams owned by your tenant, but the counts could include activities in cross-tenant collaborations.
-    1. For channel events, only the channel’s owning tenant knows about the event. Therefore, if your tenant’s user is participating in channels owned by other tenants, these events won't accrue to any of the reports in your tenant.
+    1. For channel events, only the channel’s owning tenant knows about the event. Therefore, if your tenant’s user is participating in channels owned by other tenants, these events don't accrue to any of the reports in your tenant.
     1. For chat (1:1, group, meeting) events, all participating tenants know about the events. So, your tenant’s report knows events initiated not only by users in your tenant but also by others in other tenants.
     1. These are to uphold Microsoft’s promise on privacy and compliance.
 2. These reports honor Microsoft 365 level “admin report setting” about concealing or displaying team/user details. For more information, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide&preserve-view=true). When a global administrator configures “conceal team/user details”, reports show obfuscated user/team names instead of their display names.
@@ -168,6 +162,3 @@ You can click **View details** to see the guest’s names and the "sent message 
 1. Widget location customizations on dashboard have yet been persisted across sessions.
 1. Csv download hasn’t been enabled.
 1. Very large events may have a small chance of data categorization error. For example, a very large team with very few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
-
-
-
