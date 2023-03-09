@@ -59,7 +59,7 @@ The **Inactive teams** widget view displays how many teams in your organization 
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
-You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can directly archive these details of any team for any time frame. To do this task, you can select the **Date range** dropdown list and choose the time period for which you want to archive details of teams. Then, click **Run report**.
+You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can archive these details for any inactive team of any time frame. That is, you can select a time frame of choice from the **Date range** dropdown list, and then from the list of inactive teams for that period, you can select any team and click **Run report**.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
