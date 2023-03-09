@@ -48,8 +48,10 @@ When you create a custom wallpaper, keep the following guidelines in mind:
 - Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text
 
+**Single room front-of-room display dimensions**
 :::image type="content" source="../media/front-of-room-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-single-dimensions.png":::
 
+**Dual room front-of-room display dimensions**
 :::image type="content" source="../media/front-of-room-dual-dimensions.png" alt-text="Dual front of room display with element dimensions" lightbox="../media/front-of-room-dual-dimensions.png":::
 
 ## Updating Teams Rooms device configuration
