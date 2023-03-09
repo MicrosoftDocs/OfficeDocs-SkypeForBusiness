@@ -42,9 +42,16 @@ When you create a custom wallpaper, keep the following guidelines in mind:
 
 - Place text, logos, or icons, in the middle of the screen so it isn't obscured by UI elements
 - Avoid placing text, logos, or icons, near these locations:
-  - Upper left corner - Time and room information. Size: 280x130
-  - Bottom left corner - Help information. Size: 500x40
-  - Right side - Room calendar. Size: 512x585
+  - **Upper left corner** - Time and room information.
+    - **Size**: 280 x 130
+    - **Upper-left corner coordinates**: 96, 96
+  - **Bottom left corner** - Help information.
+    - **Size**: 500 x 40
+    - **Upper-left corner coordinates**: 96, 946
+  - **Right side** - Room calendar.
+    - **Size**: 512 x 585
+    - **Upper-left corner (single display) coordinates**: 1312, 248
+    - **Upper-left corner (dual display) coordinates**: 3232, 248
 - Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text
 
