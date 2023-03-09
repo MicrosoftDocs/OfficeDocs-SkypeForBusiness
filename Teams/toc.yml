@@ -352,10 +352,10 @@ items:
 
     - name: Work with people outside the organization
       items: 
-        - name: Secure file sharing and collaboration with Teams
-          href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
         - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
+        - name: Plan for external meetings
+          href: plan-meetings-external-participants.md
         - name: External meetings and chat
           items: 
             - name: Manage external meetings and chat
@@ -812,8 +812,6 @@ items:
                   href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
                 - name: Enable users to record their name when they join a meeting
                   href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-                - name: Reset a conference ID for a user
-                  href: reset-a-conference-id-for-a-user-in-teams.md
                 - name: Reset the Audio Conferencing PIN for a user
                   href: reset-the-audio-conferencing-pin-in-teams.md
                 - name: Emails that are automatically sent to users when their settings change
@@ -826,8 +824,6 @@ items:
                   href: disabling-toll-free-numbers-for-specific-teams-users.md
                 - name: Outbound calling restriction policies for Audio Conferencing and user PSTN call
                   href: outbound-calling-restriction-policies.md
-                - name: View and reset a conference ID assigned to a user
-                  href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
             - name: Manage meetings settings for audio conferencing
