@@ -22,27 +22,34 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client
 
-
-|What|Description|
-|:-----|:-----|
-|:::image type="content" source="/office/media/icons/deploy-teams-blue.png" alt-text="teams deploy":::|[How to roll out new Teams](#how-to-roll-out-new-teams)|
-|:::image type="content" source="/office/media/icons/whats-new-megaphone-teams.png" alt-text="whats in new teams":::|[What's available in new Teams](#whats-available-in-the-new-teams)
-
-The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available.
-
-New Teams will not be available to the following platforms or customer segments during the public preview phase.
-
-|Platforms|Customer segments|
-|- Mac</br>- VDI</br>- Web|- Education</br>- Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>- Consumer</br>- desktop running Windows 10 version 10.0.19041 or earlier|
-
-
-The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. The new Teams desktop client offers you:
+The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available. The new Teams has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. 
 
 - Better performance—the goal is 2x faster than "classic Teams"
 - Lower CPU, memory usage, and disk space consumption
 - Your device will consume less battery
 - More reliable all-around​​​​​​​
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants  
+
+|What|Description|
+|:-----|:-----|
+|![Get started](/office/media/icons/deploy-teams-blue.png)|[How to roll out new Teams](#how-to-roll-out-new-teams)|
+|![Features](/office/media/icons/whats-new-megaphone-teams.png)|[What's available in new Teams](#whats-available-in-the-new-teams)|
+
+
+
+The new Teams is still in development and currently does not have the full feature set of classic Teams. New Teams will not be available to the following platforms or customer segments during the public preview phase.
+
+|Platforms|Customer segments|
+|- Mac</br>- VDI</br>- Web|- Education</br>- Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>- Consumer</br>- desktop running Windows 10 version 10.0.19041 or earlier|
+
+Stay on classic Teams for now if:
+
+- You are using a custom line of business apps or apps from the AppStore
+- You are using Virtual Desktop Infrastructure (VDI)
+- You use a Mac or Web browser for Teams
+
+It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
+
 
 
 >[!Note]
@@ -63,8 +70,8 @@ It is easy to toggle back and forth between using the classic and new Teams, so 
 
 |What|Description|
 |:-----|:-----|
-|:::image type="content" source="/office/media/icons/deploy-teams-blue.png" alt-text="teams deploy":::|[How to roll out new Teams](#how-to-roll-out-new-teams)|
-|:::image type="content" source="/office/media/icons/whats-new-megaphone-teams.png" alt-text="whats in new teams":::|[What's available in new Teams](#whats-available-in-the-new-teams)
+|![Deploy](/office/media/icons/deploy-teams-blue.png)|[How to roll out new Teams](#how-to-roll-out-new-teams)|
+|:::image type="content" source="(/office/media/icons/whats-new-megaphone-teams.png)" alt-text="whats in new teams":::|[What's available in new Teams](#whats-available-in-the-new-teams)
 
 
 ## How to roll out new Teams
