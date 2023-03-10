@@ -43,6 +43,8 @@ Location-Based Routing uses the network topology you define for network region, 
 
 A network site represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A network region is a collection of network sites. Each network site must be associated with a network region. Location-based routing can be applied to the user location, network sites and PSTN gateways. 
 
+![Diagram showing network topology for Location-Based Routing.](media/lbr-network-topology.png "Diagram showing network topology for Location-Based Routing")
+
 **INSERT GRAPHIC**
 
 At the time of a PSTN call, a user’s location is determined by the IP subnet that the user’s Teams endpoints are connected to. If a user has multiple Teams clients located at different sites, Location-Based Routing enforces each client’s routing separately depending on the location of the Teams endpoints.
@@ -167,14 +169,14 @@ When a Teams user is not enabled for Location-Based Routing, all calls to and fr
 
 The following diagrams show the decision flows for inbound and outbound calls.
 
-For Location-Based Routing enabled users
+For users who ARE ENABLED for Location-Based Routing:
 
-![Diagram showing LBR for inbound calls](media/lbr-enabled-diagram.png "Diagram showing scenarios for Location-Based Routing")
+![Diagram showing flows for users who are enabled for Location-Based Routing](media/lbr-enabled-diagram.png "Diagram showing flows for users who are enabled for Location-Based Routing")
 
-**Outbound calls**
+For users who ARE NOT ENABLED for Location-Based Routing:
 
-![Diagram showing LBR for outbound calls](media/lbr-routing-outbound1.png "Diagram showing scenarios for Location-Based Routing")
-
+**INSERT NEW GRAPHIC HERE**
+![Diagram showing flows for users who are not enabled for Location-Based Routing](media/lbr-not-enabled-diagram.png "Diagram showing flows for users who are not enabled for Location-Based Routing")
 
 ## Scenarios for Location-Based Routing
 
@@ -334,6 +336,38 @@ When a delegate sets a PSTN endpoint as a simultaneous ring target, the voice ro
 
 - For delegation, Microsoft recommends that the delegator and associated delegates be located in the same network site. 
 
+
+
+## Conditions for call transfers with Location-Based Routing 
+
+When a user is enabled for Location-Based Routing and needs to transfer calls the following applies: 
+
+When a user enabled for Location-Based Routing transfers a call, the system will decide to deny or allow this action based on conditions applied to the PSTN gateway used to egress the call, the following are the two possible scenarios: 
+
+- For a 1:1 Teams VoIP call and transfer to PSTN: The transfer will be permitted if the user being transferred is able to make that PSTN call at their location using the same PSTN Gateway as the user transferring the call. 
+
+- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.  
+
+### Media bypass requirement for Location-Based Routing
+
+If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
+
+### Location-Based Routing for conferencing
+
+A Location-Based Routing enabled user without an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
+
+If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call. If the user is already on a 1:1 PSTN call, the *People* modality in the Teams client will be hidden, preventing the Teams LBR user from adding a participant or escalating the existing call to a conference.  In this scenario, the call must be ended. The Teams LBR user will then need to create a conference and use the conferencing bridge to dial out to the required PSTN numbers. 
+
+In a conference call started by a user without an audio conferencing license, adding PSTN participants is not allowed if there is or has been at least one Location-Based Routing enabled user in the conference call. If at least one PSTN participant is or was part of such a conference call before any Location-Based Routing enabled participants was invited to join the call, such Location-Based Routing enabled participants can't be added to the call.
+
+If the Location-Based Routing enabled user is joining the conference call from an internal site that is not enabled for Location-Based Routing, the restrictions in the above paragraph are not enforced. 
+
+On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
+
+A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call. The following are not supported: recording the PSTN call and compliance recording of the PSTN call.
+
+## 
+
 ## Other planning considerations
 
 ### Changes from an on-premises Location-Based Routing deployment
@@ -361,23 +395,9 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 - An on-premises Skype for Business user or a Skype for Business Online user calls a Teams user  
 
-### Location-Based Routing for conferencing
 
-A Location-Based Routing enabled user without an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
 
-If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call. If the user is already on a 1:1 PSTN call, the *People* modality in the Teams client will be hidden, preventing the Teams LBR user from adding a participant or escalating the existing call to a conference.  In this scenario, the call must be ended. The Teams LBR user will then need to create a conference and use the conferencing bridge to dial out to the required PSTN numbers. 
 
-In a conference call started by a user without an audio conferencing license, adding PSTN participants is not allowed if there is or has been at least one Location-Based Routing enabled user in the conference call. If at least one PSTN participant is or was part of such a conference call before any Location-Based Routing enabled participants was invited to join the call, such Location-Based Routing enabled participants can't be added to the call.
-
-If the Location-Based Routing enabled user is joining the conference call from an internal site that is not enabled for Location-Based Routing, the restrictions in the above paragraph are not enforced. 
-
-On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
-
-A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call. The following are not supported: recording the PSTN call and compliance recording of the PSTN call.
-
-### Media bypass requirement for Location-Based Routing
-
-If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
 ### Direct Voice over IP (VoIP)
 
