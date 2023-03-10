@@ -9,7 +9,7 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 10/01/2022
+ms.date: 03/03/2023
 ms.collection: 
   - M365-collaboration
   - m365-frontline
@@ -25,15 +25,15 @@ ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # Understand Microsoft Teams apps and their capabilities
 
-Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel. Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally. Adding the apps to Teams client by your end-users doesn't require installation of, say a binary file.
+Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various users in a channel. Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally. Adding the apps to Teams client by your users doesn't require installation of, say a binary file.
 
-As an admin, you set an app governance process that balances wide-ranging requirements of end-users along with your organization's IT policies, standards, and risk-profiles.
+As an admin, you set an app governance process that balances wide-ranging requirements of users along with your organization's IT policies, standards, and risk-profiles.
 
-Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides end-users access to the tools and services that your organization needs every day. Teams admin center provides admins enterprise-grade controls and configurations to govern the apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
+Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides users access to the tools and services that your organization needs every day. Teams admin center provides admins enterprise-grade controls and configurations to govern the apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
 
-This article helps you understand the types of apps and where from your users access those apps. To learn more about the use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+This article helps you understand the types of apps and where from your users access those apps. To learn more about the use of apps, read [Overview of apps for users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-The different types of apps that your end-users can use in Teams are:
+The different types of apps that your users can use in Teams are:
 
 * [Core apps that are part of Teams](#core-apps).
 * Other [apps created by Microsoft](#apps-created-by-microsoft).
@@ -42,13 +42,13 @@ The different types of apps that your end-users can use in Teams are:
 
 ## Core apps
 
-Some Teams functionalities such as activity feed, teams, chat, calendar, calls, files, and assignments (education tenants) are available by default and pinned by default for ease of access for end-users. For frontline workers, only activity, shifts, chat, and calling are available and pinned. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
+Some Teams functionalities such as activity feed, teams, chat, calendar, calls, files, and assignments (education tenants) are available by default and pinned by default for ease of access for users. For frontline workers, only activity, shifts, chat, and calling are available and pinned. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
 ## Apps created by Microsoft
 
-Microsoft provides many apps to improve productivity and collaboration. You and end-users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
+Microsoft provides many apps to improve productivity and collaboration. You and the users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
 
 Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
@@ -64,7 +64,7 @@ In addition to Microsoft-provided apps, you can use third-party apps. Microsoft 
 
 Apps created by developers in your organization are called custom apps (or Line of Business apps). Your organization may commission the creation of custom apps for org-specific requirements. You have the control to allow or block such apps for entire organization or for specific users. Developers in your organization can build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
-After an admin allows the use of custom apps, end-users can find such apps by selecting **Built for your org** in the left navigation of Teams store.
+After an admin allows the use of custom apps, users can find such apps by selecting **Built for your org** in the left navigation of Teams store.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams' store in the Teams' desktop app." lightbox="media/built-for-your-org2.png":::
 
@@ -78,7 +78,7 @@ Using the app development methods, Microsoft creates and provides functional and
 * Showcase app development best practices and methods.
 * Provide open-source apps that developers can extend to create their own apps.
 
-Your organization developers customize App Templates with simple changes to the provided source code. You provide these apps as custom apps for your end-users, to meet any organization needs.
+Your organization developers customize App Templates with simple changes to the provided source code. You provide these apps as custom apps for your users, to meet any organization needs.
 
 To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
@@ -113,7 +113,7 @@ Teams app capabilities are the core functionalities that developers build in an 
 
   To allow users to use custom connectors in Teams, see [Use custom connectors in Teams](office-365-custom-connectors.md).
 
-* **Messaging extensions**: Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to move away from the conversation. Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
+* **Messaging extensions**: Messaging extensions are shortcuts to insert app content or to act on a message without the users having to move away from the conversation. Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
 
 * **Meeting extensions**: Users can enhance the meeting experience by integrating message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
