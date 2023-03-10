@@ -22,15 +22,16 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client
 
-The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available. 
+The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available.
 
-The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams.  The new Teams desktop client offers you:
+The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. The new Teams desktop client offers you:
 
 - Better performance—the goal is 2x faster than "classic Teams"
 - Lower CPU, memory usage, and disk space consumption
 - Your device will consume less battery
 - More reliable all-around​​​​​​​
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants  
+
 
 >[!Note]
 >This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
@@ -52,6 +53,10 @@ Stay on classic Teams for now if:
 
 It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
 
+|||
+|:-----|:-----|
+|:::image type="content" source="/office/media/icons/deploy-teams-blue.png" alt-text="teams deploy":::|[How to roll out new Teams](#how-to-roll-out-new-teams)|
+|:::image type="content" source="/office/media/icons/whats-new-megaphone-teams.png" alt-text="whats in new teams":::|[What's available in new Teams](#whats-available-in-the-new-teams)
 
 ## How to roll out new Teams
 
