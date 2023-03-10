@@ -83,9 +83,43 @@ This video shows the steps to view and edit the details of an existing team.
 
 You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
 
-### Delete
+## Deleted Teams
 
-Deleting a team is a soft-delete of the team and corresponding Microsoft 365 group. To restore a mistakenly deleted team, follow the instructions in [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
+If you're a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
+
+ 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 
+ 2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
+ 
+    ![view-deleted-teams](media/actions-menu.png)
+   
+ 3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
+ 
+    ![list-of-deleted-teams](media/selected-team.png)
+ 
+ > [!NOTE]
+ > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
+
+## Expiring Teams
+
+If you're a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
+
+ 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 
+ 2. Select **Filter**, and in the **Filter** section, do the following:
+ 
+     1. Select **Match all these conditions**. 
+     
+     2. Choose the **Expiration Date** and select one of values from the list (for example: in the next 7 days, in the next 14 days, or in the next 30 days).
+     
+     3. Click **Apply**.
+ 
+ 4. Select the expiring team that you want to renew, and then click **Renew**. You can also select multiple teams and renew them. 
+
+    ![list-of-expiring-teams](media/expired-team.png)
+    
+ > [!NOTE]
+ > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team's details and expiration date to get updated.
 
 ### Search
 
@@ -139,44 +173,6 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 5. Run the query on the top-right.
 
 6. Confirm the team appears correctly in the Microsoft Teams admin center - Team Overview.
-
-## Deleted Teams
-
-If you're a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
-
- 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
- 
- 2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
- 
-    ![view-deleted-teams](media/actions-menu.png)
-   
- 3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
- 
-    ![list-of-deleted-teams](media/selected-team.png)
- 
- > [!NOTE]
- > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
-
-## Expiring Teams
-
-If you're a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
-
- 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
- 
- 2. Select **Filter**, and in the **Filter** section, do the following:
- 
-     1. Select **Match all these conditions**. 
-     
-     2. Choose the **Expiration Date** and select one of values from the list (for example: in the next 7 days, in the next 14 days, or in the next 30 days).
-     
-     3. Click **Apply**.
- 
- 4. Select the expiring team that you want to renew, and then click **Renew**. You can also select multiple teams and renew them. 
-
-    ![list-of-expiring-teams](media/expired-team.png)
-    
- > [!NOTE]
- > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team's details and expiration date to get updated.
 
 ## Learn more
 
