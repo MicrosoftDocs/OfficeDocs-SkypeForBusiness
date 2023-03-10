@@ -72,9 +72,9 @@ It is easy to toggle back and forth between using the classic and new Teams, so 
 As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use the new Teams.
 To control which users can see the toggle, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
-Manage this setting using Teams PowerShell or in the Teams admin center.
+Manage this setting in the Teams admin center or using Teams PowerShell.
 
-# [Teams Admin Center](#tab/teams-admin-center)
+# [**Teams Admin Center**](#tab/teams-admin-center)
 
 Configure setting via Teams Admin Center
 
@@ -97,7 +97,7 @@ users to opt in to the new Teams, and switch back if they need to.|
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
-# [Powershell](#tab/powershell)
+# [**Powershell**](#tab/powershell)
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
