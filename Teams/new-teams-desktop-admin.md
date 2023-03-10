@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available. The new Teams has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. 
 
-- Better performance—the goal is 2x faster than "classic Teams"
+- Better performance
 - Lower CPU, memory usage, and disk space consumption
 - Your device will consume less battery
 - More reliable all-around​​​​​​​
