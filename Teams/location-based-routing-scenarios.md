@@ -158,28 +158,6 @@ The following table shows Location-Based Routing behavior for an inbound VoIP ca
 |Unknown internal network (User5)    |The resulting PSTN call will be permitted only if the calculated route based on User5's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
 |Unknown external network (User6)   |The resulting PSTN call will be permitted only if the calculated route based on User6's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1          |
 
-#### Inbound calls through voice apps (Auto Attendant or Call Queue)
-
-Inbound PSTN calls from a Location-Based Routing enabled gateway are allowed to connect to an auto attendant or call queue. 
-
-Users enabled for Location-Based Routing are supported to receive inbound call transfers for these applications when they are located at the same site the inbound PSTN call originates from. To support Local Media Optimization and Media Bypass in these scenarios, Calls Queues must be configured for transfer mode (Conference Mode = OFF).
- 
-Call forwarding and simultaneous ringing to users and PSTN is allowed for voice app transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier.  
- 
-Forwarding to voicemail is also allowed.  
-
-### Delegation
-
-A Teams user may choose delegates who can make and receive calls on their behalf. Delegation capabilities in Teams are affected by Location-Based Routing as follows: 
-
-- For outbound calls from a Location-Based Routing enabled delegate on behalf of a delegator, the same rules apply. Call routing is based on the delegate’s call authorization policy, voice routing policy, and location. For more information, see [Teams user places an outbound call to the PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
-
-- For inbound PSTN calls to a delegator, the same Location-Based Routing rules that apply for call forwarding or simultaneously ringing to other users also apply to delegates. For more information, see [Teams user transfers or forwards call to another Teams user](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams user transfers or forwards call to PSTN endpoint](#teams-user-transfers-or-forwards-call-to-pstn-endpoint), and [Simultaneous ringing](#simultaneous-ringing). 
-When a delegate sets a PSTN endpoint as a simultaneous ring target, the voice routing policy of the delegate is used to route the call to the PSTN. 
-
-- For delegation, Microsoft recommends that the delegator and associated delegates be located in the same network site. 
-
-
 
 ## Related articles
 
