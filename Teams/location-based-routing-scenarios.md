@@ -30,7 +30,6 @@ This article describes different scenarios for restricting toll bypass by using 
 - [Teams user transfers or forwards call to another Teams user](#teams-user-transfers-or-forwards-call-to-another-teams-user)
 - [Teams user transfers or forwards call to PSTN endpoint](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [Simultaneous ringing](#simultaneous-ringing)
-- [Delegation](#delegation)
 
 The following diagram shows the restrictions enabled by Location-Based Routing in each scenario. Users, network sites, and gateways that are enabled for Location-Based Routing have a border around them. Use the diagram as a guide to help you understand how Location-Based Routing works in each scenario.  
 
