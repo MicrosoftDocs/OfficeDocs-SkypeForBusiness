@@ -61,7 +61,7 @@ The background image or color is used as the background for the top banner in th
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Provide enough contrast to the text color as compared to the background so that the end-users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your org** header.
+Provide enough contrast to the text color as compared to the background so that the users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your org** header.
 
 When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
