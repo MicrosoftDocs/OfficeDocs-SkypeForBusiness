@@ -30,12 +30,15 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 - More reliable all-around​​​​​​​
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants  
 
+It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
+
 |What|Description|
 |:-----|:-----|
 |![Get started](/office/media/icons/deploy-teams-blue.png)|[How to roll out new Teams](#how-to-roll-out-new-teams)|
 |![Features](/office/media/icons/whats-new-megaphone-teams.png)|[What's available in new Teams](#whats-available-in-the-new-teams)|
 
 
+## Before you begin
 
 The new Teams is still in development and currently does not have the full feature set of classic Teams. New Teams will not be available to the following platforms or customer segments during the public preview phase.
 
@@ -43,36 +46,8 @@ The new Teams is still in development and currently does not have the full featu
 |:-----|:-----|
 |- Mac</br>- VDI</br>- Web|- Education</br>- Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>- Consumer</br>- desktop running Windows 10 version 10.0.19041 or earlier|
 
-Stay on classic Teams for now if:
-
-- You are using a custom line of business apps or apps from the AppStore
-- You are using Virtual Desktop Infrastructure (VDI)
-- You use a Mac or Web browser for Teams
-
-It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
-
-
-
 >[!Note]
 >This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
-
-
-## Before you begin
-
-The new Teams is still in development and currently does not have the full feature set of classic Teams. Review the list below for feature limitations.
-
-Stay on classic Teams for now if:
-
-- You are using a custom line of business apps or apps from the AppStore
-- You are using Virtual Desktop Infrastructure (VDI)
-- You use a Mac or Web browser for Teams
-
-It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
-
-|What|Description|
-|:-----|:-----|
-|![Deploy](/office/media/icons/deploy-teams-blue.png)|[How to roll out new Teams](#how-to-roll-out-new-teams)|
-|:::image type="content" source="(/office/media/icons/whats-new-megaphone-teams.png)" alt-text="whats in new teams":::|[What's available in new Teams](#whats-available-in-the-new-teams)
 
 
 ## How to roll out new Teams
@@ -250,10 +225,14 @@ The Calls icon isn't visible on the left rail and the dial pad isn't available. 
 
 ### Apps
 
-The following apps are available in the new Teams. If you need to use an app that’s not on this list, switch back to classic Teams. You are using a custom line of business apps or apps from the AppStore stay on classic Teams until these are fully supported.
+The following apps are available in the new Teams.
 
 >[!Note]
->You must install the apps in classic Teams first.
+>You must install the apps in classic Teams first. 
+
+>[!Important]
+>Stay on classic Teams for now if you are using a custom line of business apps or apps from the AppStore until these are fully supported.
+
 
 |Microsoft Viva|Microsoft 365|Miscellaneous|
 |:-----|:-----|:-----|
