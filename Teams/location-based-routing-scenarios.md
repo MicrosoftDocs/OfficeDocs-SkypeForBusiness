@@ -23,7 +23,7 @@ appliesto:
 
 Before reading this article, be sure you have read [Plan for Location-Based Routing](location-based-routing-plan.md).
 
-This article describes different scenarios for restricting toll bypass by using Location-Based Routing. The scenarios compare how calls are routed for users who are and aren't enabled for Location-Based Routing.
+This article describes different scenarios for restricting toll bypass by using Location-Based Routing. The scenarios compare how calls are routed for users who are and are not enabled for Location-Based Routing.
 
 - [Teams user places an outbound call to the PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
 - [Teams user receives an inbound call from the PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)
