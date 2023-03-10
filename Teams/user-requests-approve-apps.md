@@ -93,7 +93,7 @@ To dismiss the requests, follow the steps:
 1. Select **Manage requests**.
 1. In the Manage user requests dialog, select **Dismiss all requests**.
 
-   :::image type="content" source="media/dismiss-user-requests-apps.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::​
+   :::image type="content" source="media/dismiss-user-requests-apps.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::
 
 If you dismiss a request, it doesn't inform the user that their request is acted upon. When you dismiss a request to allow an app, the requests count in the admin center resets to zero. Also, after a few hours of dismissing a request, users can again request the same app to be allowed.
 
