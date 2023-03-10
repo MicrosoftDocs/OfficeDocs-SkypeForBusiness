@@ -22,7 +22,7 @@ description: Learn about the improvements to the Microsoft Teams Rooms on Window
 
 Microsoft Teams Rooms on Windows version 4.16 and later includes a refreshed home screen design that adds a calendar to front-of-room displays, quick access to more commonly used actions on consoles, additional built-in themes, and better consistency with other Teams devices.
 
-The refreshed home screen design is available to anyone who has Teams Rooms on Windows version 4.16 or later. However, because the refreshed design makes changes to Exchange calendar integration and the layout of the Teams Rooms home screen, we haven't made it the default experience yet. To see the refreshed home screen in Teams Rooms version 4.16, you need to [manually enable it](#enable-refreshed-ui-design).
+The refreshed home screen design is available to anyone who has Teams Rooms on Windows version 4.16 or later. However, because the refreshed design makes changes to Exchange calendar integration and the layout of the Teams Rooms home screen, we haven't made it the default experience yet. To see the refreshed home screen in Teams Rooms version 4.16, you need to [manually enable it](#enable-refreshed-home-screen-design).
 
 > [!IMPORTANT]
 > The refreshed home screen is opt-in for Teams Rooms version 4.16. The refreshed home screen will become the default experience in a future release. Be sure to review the guidelines in this article, and update your custom themes if you have any, before the refreshed home screen becomes the default experience.
@@ -34,7 +34,7 @@ Before you enable the refreshed home screen design in Teams Rooms version 4.16, 
   > If you're using Teams Rooms with an on-premises Exchange server, some calendar functionality is unavailable in Teams Rooms version 4.16. If you use your Teams Rooms devices to join forwarded meetings, third-party meetings, cross-tenant meetings, or Teams Live Events, we recommend that you don't enable the refreshed home screen design yet. These meetings scenarios will be supported when the refreshed home screen becomes the default experience in an upcoming release.
 - **Custom themes** - A calendar has been added to front-of-room display with the refreshed home screen. If you have a custom theme that has logos or information that users need to see, we recommend that you don't enable the refreshed home screen design until you've [updated your theme](#custom-wallpaper-guidelines) or that you temporarily [remove the calendar from the front-of-room display](#hide-front-of-room-calendar-display).
 
-If you want roll back to the previous Teams Rooms home screen design, see [Roll back to legacy home screen design](#roll-back-to-legacy-ui-design).
+If you want roll back to the previous Teams Rooms home screen design, see [Roll back to legacy home screen design](#roll-back-to-legacy-home-screen-design).
 
 ## Custom wallpaper guidelines
 
