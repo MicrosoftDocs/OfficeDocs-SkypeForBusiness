@@ -106,6 +106,7 @@ To create a custom meeting template
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
 1. Make sure **People calling in my phone can bypass the lobby** is set to **Off**, then select it and select **Lock**.
+1. Under **Meeting engagement**, set **Manage what attendees see** to **On**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
