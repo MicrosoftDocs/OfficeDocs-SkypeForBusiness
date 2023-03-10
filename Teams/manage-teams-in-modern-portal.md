@@ -83,7 +83,7 @@ This video shows the steps to view and edit the details of an existing team.
 
 You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
 
-## Deleted Teams
+### Deleted Teams
 
 If you're a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
 
@@ -100,7 +100,7 @@ If you're a Global administrator or a Teams administrator, to restore a deleted 
  > [!NOTE]
  > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
 
-## Expiring Teams
+### Expiring Teams
 
 If you're a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
 
