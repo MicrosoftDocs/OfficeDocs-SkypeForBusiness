@@ -50,7 +50,7 @@ Make sure that the background has enough contrast with the text so the users can
 Your options are:
 
 * Use Teams client default background theme
-* Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212 x 100 pixels, or it is scaled to that size. It should be no larger than 5 MB. The supported formats are .svg, .png, and .jpg.
+* Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212 x 100 pixels, or it's scaled to that size. It should be no larger than 5 MB. The supported formats are .svg, .png, and .jpg.
 * Choose a custom background. When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
 The background image or color is used as the background for the top banner in the Teams tenant app catalog.
