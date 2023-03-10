@@ -41,9 +41,9 @@ The Collaboration activity feature can be found in the Teams Admin Center dashbo
 
 :::image type="content" source="media/dashboard-collaboration-activity-feature.png" alt-text="The dashboard displaying the Collaboration activity feature menu item." lightbox="media/dashboard-collaboration-activity-feature.png":::
 
-### Insight descriptions
+### Components
 
-This section describes the following insights provided by Collaboration activity feature:
+This section describes the following components of the Collaboration activity feature:
 
 - [Inactive teams](#inactive-teams)
 - [External domains activity](#external-domains-activity)
@@ -69,9 +69,9 @@ The **External domains activity** widget view displays the total number of allow
 
 :::image type="content" source="media/external-domains-activity.png" alt-text="The report displaying the total number of allowed domains." lightbox="media/external-domains-activity.png":::
 
-You can click **View details** to see which of your allowed domains have been inactive/active for the past 30 days and 60 days.
+You can click **View details** to view the names of your allowed domains that have been inactive for the past 30 days and 60 days, and the last activity date of these domains.
 
-For any allowed domain of any chosen time frame, you can archive the details such as its name and its last activity date. To do this task, you can select the **Date range** dropdown list and choose the time period for which you want to archive details of the domains. Then, click **Run report**.
+You can choose the specific date range for which you want to view the details such as names of the inactive domains and the last activity date for each of these domains. To do this task, choose a date range from the **Date range** dropdown list and click **Run report**.
 
 This insight surfaces only for organizations that don't have open federation enabled.
 
@@ -88,7 +88,7 @@ The **Teams by user type** widget view shows you how many of your "active" teams
 > [!NOTE]
 > Only active teams are included in the breakdown. 
 
-You can view the count of active teams for each user-composition type for the "past-7-days" and "past-30-days" time frames. To do this task, you can use the duration selector and choose either **7 days** and **30 days** from the options.
+There's a duration selector with the time-frame options **7 days** and **30 days**. You can view the count of active teams and the user-composition type for either of these two time frames. To do this task, you can click the duration selector option (**7 days**/**30 days**), and hover over the pie-chart representation. You'll then be able to view the count of active teams for each user-composition type.
 
 This insight doesn't tell you how many users are in a team; it shows how many teams have each composition type. For example, a team with 100 of your users, no external users, and one guest counts as one team comprised of “my users and guests.”
 
@@ -104,7 +104,7 @@ The **Channels by user type** widget view tells you how many standard, private, 
 > [!NOTE]
 > Only active standard, private, and shared channels are included in the breakdown.
 
-To change the time frame for which you want to view the count of active channels (standard, private, or shared) that are mapped to each of the user-composition types, use the duration selector and choose either **7 days** and **30 days** from the options.
+There's a duration selector with the time-frame options **7 days** and **30 days**. You can view the count of active channels (standard, private, and shared) and their user-composition type for either of these two time frames. To do this task, you can click the duration selector option (**7 days**/**30 days**), and hover over the graphical representation. You'll then be able to view the count of active channels for each user-composition type.
 
 External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
 
@@ -147,6 +147,8 @@ The **Guest user activity** widget shows you which of your guests have the most 
 You can click **View details** to see the guest’s names and the "sent message count" for each guest. An average message count will also be displayed.
 
 :::image type="content" source="media/guest-user-activity-detailed-report.png" alt-text="The detailed report - Guest user activity." lightbox="media/guest-user-activity-detailed-report.png":::
+
+This insight doesn't capture Guest<>In-tenant user activity.
 
 ### Notes
 
