@@ -185,7 +185,7 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 ## Which users should be assigned Teams Premium licenses?
 
-Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
+Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
 
 There are some specific meeting and event features that will provide the feature benefit to all meeting attendees, including guests and external participants. Here's some guidance to help you decide who to acquire Teams Premium licenses for:
 
