@@ -49,7 +49,7 @@ The following table lists potential trial participants and their roles.
 |Who|Their role in the trial|Trial license needed?|
 |:--|:---|:--------------------|
 |Microsoft 365 global administrator|Assign Teams Premium trial licenses to trial participants.|No|
-|Teams administrator|Configure Teams Premium settings and policies|No|
+|Teams administrator|Configure Teams Premium settings and policies|If using the Advanced Virtual Appointments activity report|
 |Compliance administrator|Set up and publish sensitivity labels|No|
 |Meeting organizers|Schedule meetings where participants can test Teams Premium features|Yes|
 |Meeting participants|People in the organization who can attend meetings that use Teams Premium features and give feedback on them|No|
@@ -148,7 +148,11 @@ Teams Premium includes extra features to help your workforce get the most out of
 - Meeting organizers can view and manage both scheduled and on-demand appointments in the queue.
 - Organizational and departmental analytics help you see and understand how your users are working with Virtual Appointments.
 
+Consider which of your meeting organizers should get a license to test SMS notifications and managing appointments in the queue.
+
 Use the [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report) to understand how your team members are using basic Virtual Appointments features. You can compare this with the [Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report), which shows how much your users are utilizing the features in Virtual Appointments that are only available with Teams Premium. You can use these two reports to understand which features are the most useful for your team, and gain insight into the adoption of advanced features within your  organization.
+
+Note that the Teams administrator requires a trial license to access the Advanced Virtual Appointments activity report.
 
 #### Custom policy packages
 
