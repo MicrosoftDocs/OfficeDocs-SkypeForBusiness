@@ -22,7 +22,19 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client
 
+
+|What|Description|
+|:-----|:-----|
+|:::image type="content" source="/office/media/icons/deploy-teams-blue.png" alt-text="teams deploy":::|[How to roll out new Teams](#how-to-roll-out-new-teams)|
+|:::image type="content" source="/office/media/icons/whats-new-megaphone-teams.png" alt-text="whats in new teams":::|[What's available in new Teams](#whats-available-in-the-new-teams)
+
 The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available.
+
+New Teams will not be available to the following platforms or customer segments during the public preview phase.
+
+|Platforms|Customer segments|
+|- Mac</br>- VDI</br>- Web|- Education</br>- Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>- Consumer</br>- desktop running Windows 10 version 10.0.19041 or earlier|
+
 
 The Teams app has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. The new Teams desktop client offers you:
 
@@ -35,10 +47,6 @@ The Teams app has been rebuilt from the ground up, and you can now preview the n
 
 >[!Note]
 >This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
-
->[!Note]
->New Teams will not be available to the following customer segments or platforms in the public preview phase.
->- EDU, VDI, Government cloud (DoD, GCC, GCC high), Mac, Web, Consumer, and any desktop running Windows 10 version 10.0.19041 or earlier.
 
 
 ## Before you begin
@@ -65,6 +73,29 @@ As an admin, you can manage which users in your organizations see or don't see t
 To control which users can see the toggle, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
 Manage this setting using Teams PowerShell or in the Teams admin center.
+
+# [Teams Admin Center](#tab/teams-admin-center)
+
+Configure setting via Teams Admin Center
+
+In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
+
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+2. Select Teams>Teams Update policies from the left pane, as shown below.
+3. Select Add to create a new policy or select an existing policy to open Update policy.
+4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below
+
+|Setting |Description|
+|:-----|:-----|
+|Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
+|User can choose| Use this value to show the new Teams toggle switch, and allow 
+users to opt in to the new Teams, and switch back if they need to.|
+|Not enabled| Use this value to hide the new Teams toggle switch. Users will not be able to opt in to the new Teams|
+
+5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and hit apply (as shown below for Contoso sales policy.
+6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
+
+If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
 # [Powershell](#tab/powershell)
 
@@ -122,35 +153,11 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 ```
 
 >[!Note]
->This new policy assignmentmethod should take effect within one minute. Users do not need to restart the app.
-
-# [Teams Admin Center](#tab/teams-admin-center)
-
-Configure setting via Teams Admin Center
-
-In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
-
-1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select Teams>Teams Update policies from the left pane, as shown below.
-3. Select Add to create a new policy or select an existing policy to open Update policy.
-4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below
-
-|Setting |Description|
-|:-----|:-----|
-|Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
-|User can choose| Use this value to show the new Teams toggle switch, and allow 
-users to opt in to the new Teams, and switch back if they need to.|
-|Not enabled| Use this value to hide the new Teams toggle switch. Users will 
-not be able to opt in to the new Teams|
-
-5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and hit apply (as shown below for Contoso sales policy.
-6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
-
-If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
+>This new policy assignment method should take effect within one minute. Users do not need to restart the app.
 
 ---
 
-## How to uninstall the new Teams client
+### How to uninstall the new Teams client
 
 Any user who was using the new Teams before the policy was implemented can manually opt out by using the new Teams toggle. 
 
