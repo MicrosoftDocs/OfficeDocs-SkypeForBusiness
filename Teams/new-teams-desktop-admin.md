@@ -67,8 +67,8 @@ Configure the UseNewTeamsClient setting to one of the following possible values:
 |Value|Description|
 |:-----|:-----|
 |MicrosoftChoice|Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness.|
-|UserChoice| This value lets the Teams (preview) toggle switch display to all users. Users can choose to opt in or out.|
-|AdminDisabled|This value hides the Teams (preview) toggle switch from view. Users won't be able to opt in to the new Teams.|Here are the steps needed to configure this setting in PowerShell.
+|UserChoice| This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
+|AdminDisabled|This value hides the new Teams toggle switch from view. Users won't be able to opt in to the new Teams.|Here are the steps needed to configure this setting in PowerShell.
 
 1. Import the latest Teams PowerShell cmdlets (require version 4.9.1 or greater) by following [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams) instructions. Direct link: [PowerShell Gallery Microsoft Teams 4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1).
 2. Connect to an admin account using this command:
@@ -132,9 +132,9 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |Setting |Description|
 |:-----|:-----|
 |Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
-|User can choose| Use this value to show the Teams (preview) toggle switch, and allow 
+|User can choose| Use this value to show the new Teams toggle switch, and allow 
 users to opt in to the new Teams, and switch back if they need to.|
-|Not enabled| Use this value to hide the Teams (preview) toggle switch. Users will 
+|Not enabled| Use this value to hide the new Teams toggle switch. Users will 
 not be able to opt in to the new Teams|
 
 5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and hit apply (as shown below for Contoso sales policy.
@@ -146,9 +146,9 @@ If you update the policy setting in the Teams Admin Center, the new setting goes
 
 ## How to uninstall the new Teams client
 
-Any user who was using Teams preview before the policy was implemented can manually opt out by using the Teams (preview) toggle. 
+Any user who was using the new Teams before the policy was implemented can manually opt out by using the new Teams toggle. 
 
-After they opt out, the toggle won't appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can manually uninstall it from settings as per the below screenshot
+After they opt out, the toggle won't appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can manually uninstall it from settings.
 
 ### Remove new Teams for all users
 
@@ -166,7 +166,7 @@ For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 
-## What's available in new Teams preview
+## What's available in the new Teams
 
 Teams (preview) gives you:
 
@@ -204,7 +204,7 @@ Here are the limitations:
 
 ### Calendar and meetings
 
-You can schedule and join meetings in Teams (preview) with basic functionality and experience the better performance of Teams (preview). If you need more advanced meeting features, use classic Teams for the time being. ​​​​​​​
+You can schedule and join meetings in the new Teams with basic functionality and experience the better performance of the new Teams. If you need more advanced meeting features, use classic Teams for the time being. ​​​​​​​
 
 On days when you have many meetings, you may want to use classic Teams to make sure you get meeting-start notifications.
 
@@ -229,7 +229,7 @@ The Calls icon isn't visible on the left rail and the dial pad isn't available. 
 
 ### Apps
 
-The following apps are available in Teams (preview). If you need to use an app that’s not on this list, switch back to classic Teams. You are using a custom line of business apps or apps from the AppStore stay on classic Teams until these are fully supported.
+The following apps are available in the new Teams. If you need to use an app that’s not on this list, switch back to classic Teams. You are using a custom line of business apps or apps from the AppStore stay on classic Teams until these are fully supported.
 
 >[!Note]
 >You must install the apps in classic Teams first.
