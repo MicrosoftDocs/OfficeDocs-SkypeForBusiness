@@ -99,7 +99,7 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Discover and adopt
 
-End-users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
+Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
 :::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Screenshot of Teams store showing custom app published for organization" lightbox="media/custom-app-lifecycle-discovery.png":::
 
@@ -111,9 +111,9 @@ To update an app, developers follow the steps in the [Create your app](#create-y
 
 You can update the app on the Manage apps page in the Microsoft Teams admin center. To update the app, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. select the app name, and then select **Update**. Updating the app replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
 
-### End-user update experience
+### User update experience
 
-In most cases, after you publish a new version of an app, it is automatically updated for end users who have added the app to their Teams client. For more information, see [end-user app update experience](apps-update-experience.md).
+In most cases, after you publish a new version of an app, it is automatically updated for users who have added the app to their Teams client. For more information, see [user app update experience](apps-update-experience.md).
 
 ## Remove a custom app from your organization's store
 
