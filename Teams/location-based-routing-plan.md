@@ -45,8 +45,6 @@ A network site represents a location where your organization has a physical venu
 
 ![Diagram showing network topology for Location-Based Routing.](media/lbr-network-topology.png "Diagram showing network topology for Location-Based Routing")
 
-**INSERT GRAPHIC**
-
 At the time of a PSTN call, a user’s location is determined by the IP subnet that the user’s Teams endpoints are connected to. If a user has multiple Teams clients located at different sites, Location-Based Routing enforces each client’s routing separately depending on the location of the Teams endpoints.
 
 For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
@@ -80,9 +78,9 @@ If a call can't complete, the Teams user is notified as follows:
 
 You must apply Location-Based Routing to the following:
 
-- [Users](#apply-location-based-routing-at-the-user-location)
-- [Network sites](#apply-location-based-routing-at-the-network-site)
-- [PSTN gateways](#apply-location-based-routing-at-the-pstn-gateway)
+- [Users](#apply-location---based-routing-at-the-user-location)
+- [Network sites](#apply-location---based-routing-at-the-network-site)
+- [PSTN gateways](#apply-location---based-routing-at-the-network-site)
 
 Keep the following best practices in mind:
 
@@ -98,7 +96,7 @@ Keep the following best practices in mind:
 
 ### Apply Location-Based Routing at the user location
 
-Location-Based Routing works by determining the user’s current location based on Teams Endpoint IP and Trusted IP (Public IP addresses). Then conditions are applied to determine which user can make and receive PSTN calls and the PSTN gateway that can be used. 
+Location-Based Routing works by determining the user’s current location based on Teams Endpoint IP and Trusted IP (Public IP addresses). Conditions are then applied to determine which user can make and receive PSTN calls and the PSTN gateway that can be used. 
 
 When users are Location-Based enabled and roaming, the network site at the location of the user will help determine which PSTN gateways to use.  
 
@@ -124,7 +122,7 @@ The location of a user who is enabled for Location-Based Routing can be categori
 
 ### Apply Location-Based Routing at the network site 
 
-When users who are enabled for Location-Based Routing are roaming, network sites enabled for Location-Based Routing will help determine which gateways to use. 
+When users who are enabled for Location-Based Routing are roaming, network sites enabled for Location-Based Routing will help determine which gateways to use. The following sections describe specifics for users who are and are not enabled for Location-Based-Routing.
 
 #### User is enabled for Location-Based Routing
 
@@ -142,12 +140,9 @@ When users who are enabled for Location-Based Routing are roaming, network sites
 
 Outbound PSTN calls are also allowed for LBR enabled users when the user's endpoint is located at a known site that is not enabled for Location-Based Routing and calls egress through a PSTN gateway that's not enabled for Location-Based Routing, given that the Online Voice Routing Policy allows it.  
 
-This is not an exhaustive list of scenarios for more scenarios refer to Scenarios for Location-Based Routing. 
+This is not an exhaustive list of scenarios. For more scenarios, see [Location-Based Routing scenarios](location-based-routing-scenarios.md). 
 
-To receive an inbound PSTN call the following applies: 
-
-**For inbound PSTN calls**, the following applies: 
-
+**For inbound PSTN calls**, when a user is enabled for Location-Based-routing, the following applies: 
 
 | User location | Network site LBR status  | Gateway LBR status​ | Override status | Inbound calls |
 | --------- | --------- | --------- | --------- | --------- |
@@ -157,11 +152,11 @@ To receive an inbound PSTN call the following applies:
 | Roaming at unknown site | Disabled ​| Enabled ​| False | Not Allowed** |
 | Roaming at unknown site | Disabled ​| Disabled ​| True or False | Allowed​** |
 
-/* This scenario involves re-routing the incoming PSTN call to ingress through another PSTN gateway than the one normally used for incoming calls to the user’s phone number.
+\* This scenario involves re-routing the incoming PSTN call to ingress through another PSTN gateway than the one normally used for incoming calls to the user’s phone number.
 
-/** The call isn’t allowed and is routed to the user’s unanswered call forwarding settings (typically voicemail). 
+\** The call isn’t allowed and is routed to the user’s unanswered call forwarding settings (typically voicemail). 
 
-### User is not enabled for Location-Based Routing
+#### User is not enabled for Location-Based Routing
 
 When a Teams user is not enabled for Location-Based Routing, all calls to and from that user must route through a PSTN gateway that is not enabled for Location-Based Routing. An inbound call to such a user routed through a PSTN gateway enabled for Location-Based Routing will route to the user’s unanswered call forwarding settings (typically voicemail).
 
@@ -180,7 +175,7 @@ For users who ARE NOT ENABLED for Location-Based Routing:
 
 ## Conditions for call transfers with Location-Based Routing 
 
-When a user is enabled for Location-Based Routing and needs to transfer calls the following applies: 
+When a user is enabled for Location-Based Routing and needs to transfer calls, the following applies: 
 
 When a user enabled for Location-Based Routing transfers a call, the system will decide to deny or allow this action based on conditions applied to the PSTN gateway used to egress the call, the following are the two possible scenarios: 
 
@@ -188,11 +183,11 @@ When a user enabled for Location-Based Routing transfers a call, the system will
 
 - For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.  
 
-### Media bypass requirement for Location-Based Routing
+## Media bypass requirement for Location-Based Routing
 
 If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
-### Location-Based Routing for conferencing
+## Location-Based Routing for conferencing
 
 A Location-Based Routing enabled user without an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
 
@@ -205,8 +200,6 @@ If the Location-Based Routing enabled user is joining the conference call from a
 On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
 
 A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call. The following are not supported: recording the PSTN call and compliance recording of the PSTN call.
-
-## 
 
 ## Other planning considerations
 
@@ -235,14 +228,9 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 - An on-premises Skype for Business user or a Skype for Business Online user calls a Teams user  
 
-
-
-
-
 ### Direct Voice over IP (VoIP)
 
 Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in India.
-
 
 ## Related articles
 
