@@ -143,7 +143,7 @@ For more information about setting up webinars, see [Set up webinars in Microsof
 
 #### Advanced Virtual Appointments
 
-Teams Premium includes extra features to help your workforce get the most out of the [Virtual Appointments app](/microsoft-365/frontline/virtual-appointments-app). These include:
+Teams Premium includes additional features to help your workforce get the most out of the [Virtual Appointments app](/microsoft-365/frontline/virtual-appointments-app). These include:
 - SMS notifications remind attendees of meetings.
 - Meeting organizers can view and manage both scheduled and on-demand appointments in the queue.
 - Organizational and departmental analytics help you see and understand how your users are working with Virtual Appointments.
