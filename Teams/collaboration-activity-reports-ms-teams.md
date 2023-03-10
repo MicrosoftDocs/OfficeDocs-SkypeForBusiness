@@ -65,7 +65,7 @@ You can click **View details** to see which are the teams that have been inactiv
 
 #### External domains activity
 
-The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 30 days" and "past 60 days". You can hover over each date in either of the time frames (30 days or 60 days, whichever you've chosen) to see the exact count of active and inactive domains for that day.
+The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 30 days" and "past 60 days". You can hover over to see the exact count of active and inactive domains for the chosen time frame.
 
 :::image type="content" source="media/external-domains-activity.png" alt-text="The report displaying the total number of allowed domains." lightbox="media/external-domains-activity.png":::
 
