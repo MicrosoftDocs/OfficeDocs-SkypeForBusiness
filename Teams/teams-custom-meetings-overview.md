@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: serdars
-ms.date: 13/03/2023
+ms.date: 03/13/2023
 description: Learn the different customization options for meetings in Microsoft Teams, and where you can go for more detailed steps.
 ms.localizationpriority: normal
 search.appverid: MET150
