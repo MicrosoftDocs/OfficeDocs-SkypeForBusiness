@@ -26,8 +26,7 @@ In some countries and regions, it's illegal to bypass the Public Switched Teleph
 This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. Location-Based Routing doesn't apply to Calling Plan or Operator Connect.
 
 > [!NOTE]
-> - You should not use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results. <br>
-- Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments. 
+> - You should not use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results. <br> - Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments. 
 
 When you're ready to enable Location-Based Routing, see:
 
@@ -39,9 +38,7 @@ When you're ready to enable Location-Based Routing, see:
 
 Location-Based Routing lets you restrict toll bypass for a user based on policy and the user's geographic location at the time of an inbound or outbound PSTN call. 
 
-Location-Based Routing uses the network topology you define for network region, site, and subnet. 
-
-A network site represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A network region is a collection of network sites. Each network site must be associated with a network region. Location-based routing can be applied to the user location, network sites and PSTN gateways. 
+Location-Based Routing uses the network topology you define for network region, site, and subnet. A **network site** represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A **network region** is a collection of network sites. Each network site must be associated with a network region. Location-Based Routing can be applied to the user location, network sites and PSTN gateways. 
 
 ![Diagram showing network topology for Location-Based Routing.](media/lbr-network-topology.png "Diagram showing network topology for Location-Based Routing")
 
@@ -78,9 +75,9 @@ If a call can't complete, the Teams user is notified as follows:
 
 You must apply Location-Based Routing to the following:
 
-- [Users](#apply-location---based-routing-at-the-user-location)
-- [Network sites](#apply-location---based-routing-at-the-network-site)
-- [PSTN gateways](#apply-location---based-routing-at-the-network-site)
+- [Users](#apply-location-based-routing-at-the-user-location)
+- [Network sites](#apply-location-based-routing-at-the-network-site)
+- [PSTN gateways](#apply-location-based-routing-at-the-network-site)
 
 Keep the following best practices in mind:
 
@@ -93,13 +90,6 @@ Keep the following best practices in mind:
   - The call needs to egress from a PSTN gateway that is enabled for Location-Based Routing.
   - The PSTN gateway must be configured with the flag GatewayLbrEnabledUserOverride set to True.
 
-
-### Apply Location-Based Routing at the user location
-
-Location-Based Routing works by determining the user’s current location based on Teams Endpoint IP and Trusted IP (Public IP addresses). Conditions are then applied to determine which user can make and receive PSTN calls and the PSTN gateway that can be used. 
-
-When users are Location-Based enabled and roaming, the network site at the location of the user will help determine which PSTN gateways to use.  
-
 This article assumes that a network site can be in one of the following states: 
 
 - Enabled - A site configured using tenant network subnets and sites and enabled for Location-Based Routing. 
@@ -107,6 +97,13 @@ This article assumes that a network site can be in one of the following states:
 - Not enabled - A site configured using tenant network subnets and sites, but not enabled for Location-Based Routing. 
 
 - Unknown - A site not configured using tenant network subnets and sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case, these sites aren't enabled for Location-Based Routing. 
+
+
+### Apply Location-Based Routing at the user location
+
+Location-Based Routing works by determining the user’s current location based on Teams Endpoint IP and Trusted IP (Public IP addresses). Conditions are then applied to determine which user can make and receive PSTN calls and the PSTN gateway that can be used. 
+
+When users are Location-Based enabled and roaming, the network site at the location of the user will help determine which PSTN gateways to use.  
 
 The location of a user who is enabled for Location-Based Routing can be categorized as follows: 
 
@@ -122,12 +119,16 @@ The location of a user who is enabled for Location-Based Routing can be categori
 
 ### Apply Location-Based Routing at the network site 
 
-When users who are enabled for Location-Based Routing are roaming, network sites enabled for Location-Based Routing will help determine which gateways to use. The following sections describe specifics for users who are and are not enabled for Location-Based-Routing.
+When users who are enabled for Location-Based Routing are roaming, network sites enabled for Location-Based Routing will help determine which gateways to use. The following sections describe specifics for the following: 
+
+- [Users who ARE ENABLED for Location-Based Routing](#user-is-enabled-for-location-based-routing)
+- [Users who ARE NOT ENABLED for Location-Based Routing](#user-is-not-enabled-for-location-based-routing)
+
+For more scenarios, see [Location-Based Routing scenarios](location-based-routing-scenarios.md). 
 
 #### User is enabled for Location-Based Routing
 
 **For outbound PSTN calls**, when a user is enabled for Location-Based Routing, the following applies: 
-
 
 | User location | Network site LBR status  | Gateway LBR status​ | Override status | Outbound calls |
 | --------- | --------- | --------- | --------- | --------- |
@@ -140,7 +141,6 @@ When users who are enabled for Location-Based Routing are roaming, network sites
 
 Outbound PSTN calls are also allowed for LBR enabled users when the user's endpoint is located at a known site that is not enabled for Location-Based Routing and calls egress through a PSTN gateway that's not enabled for Location-Based Routing, given that the Online Voice Routing Policy allows it.  
 
-This is not an exhaustive list of scenarios. For more scenarios, see [Location-Based Routing scenarios](location-based-routing-scenarios.md). 
 
 **For inbound PSTN calls**, when a user is enabled for Location-Based-routing, the following applies: 
 
@@ -156,21 +156,17 @@ This is not an exhaustive list of scenarios. For more scenarios, see [Location-B
 
 \** The call isn’t allowed and is routed to the user’s unanswered call forwarding settings (typically voicemail). 
 
+The following diagram shows the decision flows for inbound and outbound calls for users who are enabled for Location-Based Routing:
+
+![Diagram showing flows for users who are enabled for Location-Based Routing](media/lbr-enabled-diagram.png "Diagram showing flows for users who are enabled for Location-Based Routing")
+
 #### User is not enabled for Location-Based Routing
 
 When a Teams user is not enabled for Location-Based Routing, all calls to and from that user must route through a PSTN gateway that is not enabled for Location-Based Routing. An inbound call to such a user routed through a PSTN gateway enabled for Location-Based Routing will route to the user’s unanswered call forwarding settings (typically voicemail).
 
-### Decision flows for inbound and outbound calls
 
-The following diagrams show the decision flows for inbound and outbound calls.
+The following diagram shows the decision flows for inbound and outbound calls for usrs who are not enabled for Location-Based Routing:
 
-For users who ARE ENABLED for Location-Based Routing:
-
-![Diagram showing flows for users who are enabled for Location-Based Routing](media/lbr-enabled-diagram.png "Diagram showing flows for users who are enabled for Location-Based Routing")
-
-For users who ARE NOT ENABLED for Location-Based Routing:
-
-**INSERT NEW GRAPHIC HERE**
 ![Diagram showing flows for users who are not enabled for Location-Based Routing](media/lbr-not-enabled-diagram.png "Diagram showing flows for users who are not enabled for Location-Based Routing")
 
 ## Conditions for call transfers with Location-Based Routing 
@@ -202,6 +198,8 @@ On-network conferencing for Audio Conferencing must NOT be deployed with any tel
 A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call. The following are not supported: recording the PSTN call and compliance recording of the PSTN call.
 
 ## Other planning considerations
+
+The following sections describe other planning considerations for Location-Based-Routing.
 
 ### Changes from an on-premises Location-Based Routing deployment
 
