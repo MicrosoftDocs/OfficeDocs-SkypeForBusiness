@@ -40,6 +40,7 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 The new Teams is still in development and currently does not have the full feature set of classic Teams. New Teams will not be available to the following platforms or customer segments during the public preview phase.
 
 |Platforms|Customer segments|
+|:-----|:-----|
 |- Mac</br>- VDI</br>- Web|- Education</br>- Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>- Consumer</br>- desktop running Windows 10 version 10.0.19041 or earlier|
 
 Stay on classic Teams for now if:
