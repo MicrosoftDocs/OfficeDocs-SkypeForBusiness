@@ -40,7 +40,9 @@ It is easy to toggle back and forth between using the classic and new Teams, so 
 
 ## Before you begin
 
-The new Teams is still in development and currently does not have the full feature set of classic Teams. New Teams will not be available to the following platforms or customer segments during the public preview phase.
+The new Teams is still in development and currently does not have the full feature set of classic Teams. 
+
+New Teams **will not** be available to the following platforms or customer segments during the public preview phase.
 
 |Platforms|Customer segments|
 |:-----|:-----|
