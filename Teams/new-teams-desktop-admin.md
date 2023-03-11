@@ -32,10 +32,8 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 
 It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
 
-|What|Description|
-|:-----|:-----|
-|![Get started](/office/media/icons/deploy-teams-blue.png)|[How to roll out new Teams](#how-to-roll-out-new-teams)|
-|![Features](/office/media/icons/whats-new-megaphone-teams.png)|[What's available in new Teams](#whats-available-in-the-new-teams)|
+- [How to roll out new Teams](#how-to-roll-out-new-teams)
+- [What's available in new Teams](#whats-available-in-the-new-teams)
 
 
 ## Before you begin
@@ -46,7 +44,7 @@ New Teams **will not** be available to the following platforms or customer segme
 
 |Platforms|Customer segments|
 |:-----|:-----|
-|- Mac</br>- VDI</br>- Web|- Education</br>- Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>- Consumer</br>- desktop running Windows 10 version 10.0.19041 or earlier|
+|Mac</br>VDI</br>Web|Education</br>Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>Consumer</br>Desktop running Windows 10 version 10.0.19041 or earlier|
 
 >[!Note]
 >This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
