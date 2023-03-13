@@ -163,6 +163,9 @@ The **External collaboration activity by team** widget view shows you which team
 
 :::image type="content" source="media/external-collaboration-activity-by-team.png" alt-text="The External collaboration activity by team widget." lightbox="media/external-collaboration-activity-by-team.png":::
 
+> [!NOTE]
+> The data is concealed by default in this widget. To unconceal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+
 You can click **View details** to see the teams’ names and the "sent message count" for each team. An average message count will also be displayed.
 
 :::image type="content" source="media/external-collaboration-activity-by-team-detailed-report.png" alt-text="The detailed report - External collaboration activity by team." lightbox="media/external-collaboration-activity-by-team-detailed-report.png":::
@@ -173,6 +176,9 @@ The **External collaboration activity by user** widget view shows you which of t
 
 :::image type="content" source="media/external-collaboration-activity-by-user.png" alt-text="The External collaboration activity by user widget." lightbox="media/external-collaboration-activity-by-user.png":::
 
+> [!NOTE]
+> The data is concealed by default in this widget. To unconceal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+
 You can click **View details** to see the users’ names and the "sent message count" for each user. An average message count will also be displayed.
 
 :::image type="content" source="media/external-collaboration-activity-by-user-detailed-report.png" alt-text="The detailed report - External collaboration activity by user." lightbox="media/external-collaboration-activity-by-user-detailed-report.png":::
@@ -182,6 +188,9 @@ You can click **View details** to see the users’ names and the "sent message c
 The **Guest user activity** widget shows you which of your guests have the most collaboration with users who are internal to your organization.
 
 :::image type="content" source="media/guest-user-activity.png" alt-text="The Guest user activity widget." lightbox="media/guest-user-activity.png":::
+
+> [!NOTE]
+> The data is concealed by default in this widget. To unconceal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can click **View details** to see the guest’s names and the "sent message count" for each guest. An average message count will also be displayed.
 
@@ -203,3 +212,21 @@ This insight doesn't capture Guest<>In-tenant user activity.
 1. Widget location customizations on dashboard have yet been persisted across sessions.
 1. Csv download hasn’t been enabled.
 1. Very large events may have a small chance of data categorization error. For example, a very large team with very few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
+
+### Remove data obfuscation
+
+Three widgets - External collaboration activity by team, External collaboration activity by user, and Guest user activity - use data obfuscation (in other words, concealing the data). To reveal the data, perform the following steps.
+
+1. Launch the URL [https://admin.microsoft.com/](https://admin.microsoft.com/Adminportal/Home).
+1. Select **ShowAll < Settings < Org settings**.
+   The **Reports** page is displayed.
+1. Check the **Display concealed user, group, and site names in all reports** checkbox.
+   :::image type="content" source="media/unconcealing-data.png" alt-text="The option to unconceal the data." lightbox="media/unconcealing-data.png":::
+
+   The data obfuscation is removed.
+
+   > [!NOTE]
+   > Unchecking the **Display concealed user, group, and site names in all reports** checkbox will conceal the data.
+
+1. Save the policy.
+1. Naviate back to TAC to verify whether the data is visible.
