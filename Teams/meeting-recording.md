@@ -11,12 +11,14 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - Tier1
 ms.reviewer: nakulm
+ms.date: 03/13/23
 search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - NOCSH
-description: Practical guidance for deploying features in Teams to record Teams meetings to capture audio, video, and screen sharing activity.
+description: Practical guidance for deploying features in Teams meetings to record audio, video, and screen sharing activity.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -24,7 +26,7 @@ ms.custom: seo-marvel-apr2020
 
 # Teams meeting recording
 
-In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. The recording happens in Microsoft 365 and is saved to OneDrive and SharePoint, so users can share it securely across their organization.
+In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive and SharePoint, so users can share it securely across their organization.
 
 When a meeting is recorded, it’s automatically:
 
@@ -35,11 +37,13 @@ When a meeting is recorded, it’s automatically:
 - Added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Indexed for Microsoft 365 Search
 
-For detailed information on the change in storing meeting recordings from Microsoft Stream (Classic) to OneDrive and SharePoint, see [Use OneDrive and SharePoint for meeting recordings]().
+There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. For more information about transcription and captions, read [Configure transcription, translation, and captions for Teams meetings](meeting-transcription-captions.md).
 
-For live events recording options, see [Live event recording policies in Teams]().
+For detailed information on the change in storing meeting recordings from Microsoft Stream (Classic) to OneDrive and SharePoint, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
-For 1:1 calling recording options, see []().
+For live events recording options, see [Live event recording policies in Teams](/teams-live-events/live-events-recording-policies.md).
+
+For compliance recording options, read [Policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Prerequisites for Teams meeting recording
 
@@ -83,28 +87,6 @@ The two values for this setting are:
 > [!NOTE] The ChannelRecordingDownload setting is only available in the Teams PowerShell module version 2
 > 4.1-preview or higher. To download the latest preview version of the module use this command:
 > Install-Module -Name MicrosoftTeams -Force -AllowClobber -AllowPrerelease
-
-### Transcription
-
-This setting is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording. Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **Closed Captions**, and **Transcripts** on the meeting recording.
-
-In the Microsoft Teams admin center, turn on or turn off the **Transcription** setting in the meeting policy. This setting is off by default.
-
-Using PowerShell, you configure the `-AllowTranscription` setting in TeamsMeetingPolicy. To learn more, see Set-CsTeamsMeetingPolicy.
-
-> [!NOTE] Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam). The transcription is stored together with the meeting recordings in OneDrive and SharePoint storage.
-
-#### Closed captions for recordings
-
-Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must turn on recording transcription via policy to ensure their users have the option to record meetings with transcription.
-
-Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
-
-Closed captions for the recording video file are linked to the Teams meeting transcript. This link will remain for the lifetime of the file in most cases, but can be broken if the video file is copied within the same OneDrive or SharePoint site, which would result in captions not being available on the copied video file.
-
-Any future changes to the link between the transcript in Teams and the recording will be clarified here and in message center notifications. If we make any changes in the future, we will ensure recording files less than 60-days old display the transcript from the meeting as captions.
-
-> [!NOTE] Meeting transcription is not yet available in GCC.
 
 ### Meetings automatically expire
 

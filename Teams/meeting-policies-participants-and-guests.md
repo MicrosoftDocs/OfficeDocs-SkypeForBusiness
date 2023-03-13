@@ -23,7 +23,6 @@ description: Learn to manage meeting policy settings in Teams for participants a
 ---
 
 
-
 # Meeting policy settings - Participants & guests
 
 <a name="bkmeetingparticipants"> </a>
@@ -68,28 +67,6 @@ To learn about the meeting lobby, read [Control who can bypass the meeting lobby
 ## Meet now in private meetings
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting. By default, this setting is turned on. To learn more about private meetings, read [Manage who can start and schedule meetings](manage-who-can-schedule-meetings.md).
-
-## Live captions
-
-This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
-
-![Screenshot showing the Turn on live captions option.](media/meeting-policies-live-captions.png)
-
-|Setting value |Behavior  |
-|---------|---------|
-|**Off, but organizers and co-organizers can turn them on**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
-|**Off**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
-
-For more information on how your end users can turn on **Live captions**, see [Use live captions in a Teams meeting](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
-
-### Live translated captions
-
-> [!NOTE]
-> This feature is temporarily available in public preview. After the preview, the meeting organizer must have a Teams Premium license for attendees to use live translated captions.
-
-By default, **Live captions** are displayed in the language that’s spoken during a meeting. **Live translated captions** allow your users to see captions translated into the language they’re most comfortable with.
-
-To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers and co-organizers can turn them on** in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
 
 <a name="bkcontentsharing"> </a>
 
