@@ -149,7 +149,7 @@ App setup policies control how apps are made available to a user with the Teams 
 
 ### Meeting policies
 
-Meeting policies are used to control what features are available to users when they join Microsoft Teams meetings.
+Meeting policies are used to control what features are available in meetings organized by users who have the policy assigned to them. Meeting policies also affect the meeting join experience of meeting participants.
 
 #### Meeting scheduling
 
@@ -194,8 +194,9 @@ Meeting policies are used to control what features are available to users when t
 
 ##### Related topics to meeting join & lobby policies
 
-- [Control who can bypass the meeting lobby and access meetings](who-can-bypass-meeting-lobby.md)
+- [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
 - [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
+- [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Meeting engagement
