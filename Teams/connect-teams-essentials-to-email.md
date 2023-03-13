@@ -25,7 +25,7 @@ appliesto:
 # Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
 
 > [!IMPORTANT]
-> The "bring your own email" (BYOE) wizard is now available at [https://admin.microsoft.com,](http://admin.microsoft.com) which automates most of the steps described in this article.
+> The "bring your own email" (BYOE) wizard is now available at [https://admin.microsoft.com,](https://admin.microsoft.com) which automates most of the steps described in this article.
 
 :::image type="content" source="media/bring-your-own-email.png" alt-text="Screenshot that displays bring your own email wizard" lightbox="media/bring-your-own-email.png":::
 
