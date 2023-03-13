@@ -82,11 +82,12 @@ If this setting is off:
 - Meetings they organize won't allow video
 - They can't use their video in meetings they attend 
 
+For a given user, the **Mode for IP video** setting affects video in both meetings they organize and meetings they attend. See the following table for details.
 
 ||Meetings the user organizes|Meetings the user attends|
 |:-|:------------------------|:------------------------|
-|**Mode for IP video** set to **On**|All attendees can use video unless their personal policy prohibits it.|User can use video unless the organizer's policy prohibits it.|
-|**Mode for IP video** set to **Off**|No attendees can use video.|User can't use video. Other attendees may be able to use video if their policy and the meeting organizer's policy allow it.|
+|**Mode for IP video** set to **On** for the user|All attendees can use video unless their personal policy prohibits it.|User can use video unless the organizer's policy prohibits it.|
+|**Mode for IP video** set to **Off** for the user|No attendees can use video.|User can't use video. Other attendees may be able to use video if their policy and the meeting organizer's policy allow it.|
 
 
 
