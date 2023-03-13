@@ -34,7 +34,7 @@ Refer to:
 > [!NOTE]
 > Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
 >
-> Earlier platforms like Lync Server 2013 are not supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
+> Earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
 >
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
@@ -123,7 +123,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   
   
 > [!NOTE]
-> - Core M3 processors are not supported.
+> - Core M3 processors aren't supported.
 > - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
 
 **Supported Surface Pro tablets for dock-style systems**
@@ -255,7 +255,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 
 #### USB extenders
 
-- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders are not recommended for USB 3.0 peripherals.
+- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders aren't recommended for USB 3.0 peripherals.
 - An extender must meet USB 2.0 or newer specifications.
   - Tablet docks support at least two stages of external USB hub extension. If you connect more than two USB hubs in series, check with the dock manufacturer to confirm whether they support series connection.
   - Wired GbE connection in the room. Ethernet cable of appropriate length.
