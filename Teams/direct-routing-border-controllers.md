@@ -145,6 +145,7 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 ||AP 3950|9.x|
 ||AP 4900|9.x|
 |[Avaya](https://documentation.avaya.com/en-US/bundle/WorkingWithAvayaSBCEandMicrosoftTeams_r81x/page/About_Avaya_SBCE_and_MS_Teams.html)|Avaya Session Border Controller for Enterprise (ASBCE)|10.1.2|
+|[Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|NetMatch-S CI|5.7 or higher SW version|
 
 ## Direct Routing and analog devices interoperability
 
