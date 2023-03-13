@@ -43,10 +43,10 @@ You can create a custom wallpaper for your Teams Rooms theme to represent your b
 Custom wallpapers need to be exactly 3840 x 1080 pixels in size, regardless of whether the wallpaper is used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the left half of the image is used and the right half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays. 
 
 **Single room front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-single-dimensions.png":::
+:::image type="content" source="../media/front-of-room-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-single-dimensions-large.png":::
 
 **Dual room front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-dual-dimensions.png" alt-text="Dual front of room display with element dimensions" lightbox="../media/front-of-room-dual-dimensions.png":::
+:::image type="content" source="../media/front-of-room-dual-dimensions.png" alt-text="Dual front of room display with element dimensions" lightbox="../media/front-of-room-dual-dimensions-large.png":::
 
 When you create a custom wallpaper, use the following guidelines:
 
