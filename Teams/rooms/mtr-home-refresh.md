@@ -34,13 +34,13 @@ Before you enable the refreshed home screen design in Teams Rooms version 4.16, 
   > If you're using Teams Rooms with an on-premises Exchange server, some calendar functionality is unavailable in Teams Rooms version 4.16. If you use your Teams Rooms devices to join forwarded meetings, third-party meetings, cross-tenant meetings, or Teams Live Events, we recommend that you don't enable the refreshed home screen design yet. These meetings scenarios will be supported when the refreshed home screen becomes the default experience in an upcoming release.
 - **Custom themes** - A calendar has been added to front-of-room display with the refreshed home screen. If you have a custom theme that has logos or information that users need to see, we recommend that you don't enable the refreshed home screen design until you've [updated your theme](#custom-wallpaper-guidelines) or that you temporarily [remove the calendar from the front-of-room display](#hide-front-of-room-calendar-display).
 
-If you want roll back to the previous Teams Rooms home screen design, see [Roll back to legacy home screen design](#roll-back-to-legacy-home-screen-design).
+You can temporarily roll back to the previous Teams Rooms home screen design if you need to do so by following the information in [Roll back to legacy home screen design](#roll-back-to-legacy-home-screen-design). Keep in mind, however, that new features are being added only to the refreshed home screen going forward. We recommend that you move to refreshed home screen as soon as possible to take advantage of these new investments.
 
 ## Custom wallpaper guidelines
 
 You can create a custom wallpaper for your Teams Rooms theme to represent your brand or to provide instructions to Teams Rooms users. The guidelines in this section apply to Teams Rooms on Windows version 4.16 and later devices that have the refreshed home screen enabled. If your device is running 4.15 and earlier, or if you haven't enabled the refreshed home screen, use the guidelines provided in [Custom theme images](xml-config-file.md#custom-theme-images).
 
-Custom wallpapers need to be exactly 3840 x 1080 pixels in size, regardless of whether the wallpaper is used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the left half of the image is used and the right half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays. 
+Custom wallpapers need to be exactly 3840 x 1080 pixels in size, regardless of whether the wallpaper is used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the left half of the image is used and the right half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays.
 
 **Single room front-of-room display dimensions**
 :::image type="content" source="../media/front-of-room-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-single-dimensions-large.png":::
@@ -82,8 +82,7 @@ After you've copied your custom wallpaper to the device, you need to tell Teams 
 <CustomThemeImageUrl>ContosoWallpaper.png</CustomThemeImageUrl>
 ```
 
-Change `ContosoWallpaper.png` to the file name of your custom wallpaper. 
-
+Change `ContosoWallpaper.png` to the file name of your custom wallpaper.
 
 ### Enable refreshed home screen design
 
@@ -98,7 +97,7 @@ To enable the refreshed home screen design, add the following to your XML config
 To hide the calendar on your front-of-room display, add the following to your XML configuration file:
 
 > [!IMPORTANT]
-> The `<RemoveFoRCalendar>` setting is available only during the opt-in period for the refreshed home screen. When the refreshed home screen becomes the default experience, the `<RemoveFoRCalendar>` will be removed.
+> The `<RemoveFoRCalendar>` setting is available only during the opt-in period for the refreshed home screen. When the refreshed home screen becomes the default experience, the `<RemoveFoRCalendar>` setting will be removed.
 
 ```xml
 <RemoveFoRCalendar>true</RemoveFoRCalendar> 
@@ -111,4 +110,3 @@ To roll back to the legacy home screen design, add the following to your XML con
 ```xml
 <TeamsRoomsNewExperience>false</TeamsRoomsNewExperience> 
 ```
-
