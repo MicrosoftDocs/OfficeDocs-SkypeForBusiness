@@ -101,9 +101,8 @@ The following table compares key features between Teams and Teams Premium.
 | End-to-end encryption for meetings with up to 50 attendees |  | x |
 | Control who can record |  | x |
 | Prevent copy/paste in meeting chats |  | x |
-| Assign Microsoft Purview Information Protection sensitivity labels for meetings\*  |  | x |
+| Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | x |
 | Custom user policy packages |  | x |
-| Turn on advanced meeting monitoring and alerting |  | x |
 
 \* *This feature is only available to Teams Premium users with a Microsoft 365 E5 subscription or Microsoft E3 subscription plus the Advanced Compliance license. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
@@ -252,3 +251,4 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
+
