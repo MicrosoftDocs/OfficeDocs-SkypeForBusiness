@@ -22,8 +22,7 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client (preview)
 
-
-[!Note]
+>[!Note]
 >This is a public preview release and does not have the full feature set of classic Teams.
 
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
