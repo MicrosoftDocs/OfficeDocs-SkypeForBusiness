@@ -186,9 +186,10 @@ When you need some of the more advanced functionality, switch back to classic Te
 Here are the limitations:
 
 **Teams** 
+
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available yet.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available.|
 
 
 **Channels**
@@ -236,7 +237,7 @@ The following apps are available in the new Teams.
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't yet available.</br></br>You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
 
 ### Multi-Tenant Multi-Account
