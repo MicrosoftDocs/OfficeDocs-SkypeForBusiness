@@ -143,7 +143,7 @@ By default, the **7 days** time frame is chosen.
 
 You can view the count and user-composition type for each active channel type for the last 30 days. To do this task, you can click **30 days** on the **Channels by user type** widget.
 
-:::image type="content" source="media/thirty-days-time-frame-channels-by-user-type.png" alt-text="The 30-days time frame in the Teams by user type widget." lightbox="media/thirty-days-time-frame-channels-by-user-type.png":::
+:::image type="content" source="media/thirty-days-time-frame-channels-by-user-type.png" alt-text="The 30-days time frame in the Channels by user type widget." lightbox="media/thirty-days-time-frame-channels-by-user-type.png":::
 
 External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
 
