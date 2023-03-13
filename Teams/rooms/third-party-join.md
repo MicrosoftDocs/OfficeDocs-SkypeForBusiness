@@ -52,7 +52,7 @@ The first thing you need to do to enable a one-touch join experience from Team R
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
-    
+
 3. Find the name of the room mailbox associated with your Teams Rooms device and make note of its UPN.
 
 4. After you find the room mailbox's UPN, run the following command. Replace `<UserPrincipalName>` with the room mailbox's UPN:
@@ -119,18 +119,20 @@ You can optionally specify a custom username and email address to join third-par
 
 <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
 ```
+
 ## Step 3b: Enable third-party meetings on Teams Rooms on Android
 
 To configure Teams Rooms on Android using the touchscreen console or front-of-room display, do the following:
 
-1.  On the Microsoft Teams Rooms console or front-of-room display, select **More**.
-2.  Select **Settings**, and:
-    -   If using a personal account (for example, an account with an E5 license), choose **Meetings** option.
-    -   If using a shared account (for example, a resource account with a Teams Rooms license), choose **Device settings**, locate **Teams Admin settings**, enter an admin password, and choose a **Meetings** option.
+1. On the Microsoft Teams Rooms console or front-of-room display, select **More**.
+2. Select **Settings**, and:
+   - If using a personal account (for example, an account with an E5 license), choose **Meetings** option.
+   - If using a shared account (for example, a resource account with a Teams Rooms license), choose **Device settings**, locate **Teams Admin settings**, enter an admin password, and choose a **Meetings** option.
+
       > [!NOTE]
       > Some device manufacturers require an admin password before **Device settings** can be accessed.
 
     ![Meetings settings for MTR on Android](..\media\mtrandroid.png)
 
-3.  Select a third-party meeting provider you want to enable.
-4.  If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.
+3. Select a third-party meeting provider you want to enable.
+4. If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.

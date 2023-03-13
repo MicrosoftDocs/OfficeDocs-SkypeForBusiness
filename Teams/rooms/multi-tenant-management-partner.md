@@ -31,7 +31,7 @@ The MTM portal can be accessed through this [link](https://partner.rooms.microso
 
 ## Pre-requisites for managing your customers through the MTM experience
 
-The Elite program that offered access to the Multitenant Management console has been discontinued and we are not onboarding any new partners to this program. We appreciate your understanding and patience, and will announce a new format soon. 
+The Elite program that offered access to the Multitenant Management console has been discontinued and we are not onboarding any new partners to this program. We appreciate your understanding and patience, and will announce a new format soon.
 
 ## On-boarding customers
 
