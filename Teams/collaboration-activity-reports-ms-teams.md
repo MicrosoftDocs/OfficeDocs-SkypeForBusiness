@@ -155,7 +155,7 @@ For shared channels, you’ll see:
 - How many are made up of your users only
 - How many are made up of your users and external users
 
-:::image type="content" source="media/channels-by-user-type.png" alt-text="The Channels by user type widget." lightbox="media/channels-by-user-type.png":::
+  :::image type="content" source="media/channels-by-user-type.png" alt-text="The Channels by user type widget." lightbox="media/channels-by-user-type.png":::
 
 #### External collaboration activity by team
 
