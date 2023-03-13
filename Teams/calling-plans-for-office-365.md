@@ -80,7 +80,7 @@ With the International Calling Plan, licensed users can call out to numbers loca
 
 ### Pay-As-You-Go Calling Plan
 
-With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). 
+With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). 
 
 Unlimited incoming minutes are included. No outgoing minutes are included. All outgoing calls are charged based on the minutes used, either with Communication Credits or post-usage billing (for new commerce experience calling subscriptions only). Licenses are assigned to users based on their location.
 
@@ -88,11 +88,11 @@ To learn how to fund and use minutes for a Pay-As-You-Go Calling Plan, see [How 
 
 There are two **Pay-As-You-Go Calling Plan** options to choose from:
 
-- **Pay-As-You-Go Calling Plan Zone-1**: For users in the United States and Puerto Rico, Canada, and the United Kingdom.
+- **Pay-As-You-Go Calling Plan Zone-1**: For users in the United States and Puerto Rico, Canada, and the United Kingdom.
 
   Note: Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to United States and Puerto Rico users if bought in other countries.
 
-- **Pay-As-You-Go Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
+- **Pay-As-You-Go Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 
   Note: Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
 
