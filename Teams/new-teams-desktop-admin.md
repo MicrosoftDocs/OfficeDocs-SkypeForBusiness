@@ -22,6 +22,10 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client (preview)
 
+
+[!Note]
+>This is a public preview release and does not have the full feature set of classic Teams.
+
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
 
@@ -33,14 +37,14 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 - More reliable all-around​​​​​​​
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants  
 
-It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
+It's easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
 
 
 ## Before you begin
 
-The new Teams is still in development and currently does not have the full feature set of classic Teams. 
+The new Teams is still in development and currently doesn't have the full feature set of classic Teams. 
 
-New Teams **will not** be available to the following platforms or customer segments during the public preview phase.
+New Teams **is not** available to the following platforms or customer segments during the public preview phase.
 
 |Platforms|Customer segments|
 |:-----|:-----|
@@ -73,9 +77,9 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
 |User can choose| Use this value to show the new Teams toggle switch, and allow 
 users to opt in to the new Teams, and switch back if they need to.|
-|Not enabled| Use this value to hide the new Teams toggle switch. Users will not be able to opt in to the new Teams|
+|Not enabled| Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams|
 
-5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and hit apply (as shown below for Contoso sales policy.
+5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and select apply.
 6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
@@ -100,7 +104,7 @@ Connect-MicrosoftTeams
 3. Once connected and logged in via PowerShell, you can explore the list of related commands:
 Enter *-CsTeamsUpdateManagementPolicy and tab through the commands (tab key).
 
-4. Use the following commands to change the existing Update Management policy to opt in the assigned users to ensure that they have the option to try the new Teams:
+4. Use the following commands to change the existing Update Management policy to opt in the assigned users to allow them to try the new Teams:
 
 ```powershell
 Set-CsTeamsUpdateManagementPolicy -identity <new_policy_name> -UseNewTeamsClient 
@@ -164,7 +168,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 ## What's available in the new Teams
 
-While new Teams is still in development and currently does not have the full feature set of classic Teams, this is continually changing. This available features list will be updated as new features are added and limitations removed.
+While new Teams is still in development and currently doesn't have the full feature set of classic Teams, this is continually changing. This available features list will be updated as new features are added and limitations removed.
 
 ### Chat
 
