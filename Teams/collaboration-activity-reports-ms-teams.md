@@ -24,7 +24,7 @@ description: Learn about the Collaboration activity feature in Microsoft Teams.
 # Collaboration activity feature in Microsoft Teams
 
 > [!IMPORTANT]
-> Advanced Collaboration Management Insights Private Preview is provided for evaluation purposes only and may not include all expected functionality.  Data provided during preview will be deleted within 180 days from a tenant deletion action.
+> Advanced Collaboration Management Insights Preview is provided for evaluation purposes only and may not include all expected functionality.  Data provided during preview will be deleted within 180 days from a tenant deletion action.
 
 The Collaboration activity feature in Microsoft Teams has the following objectives:
 
