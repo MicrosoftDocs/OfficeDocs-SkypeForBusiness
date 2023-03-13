@@ -20,12 +20,12 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# The new Microsoft Teams desktop client
+# The new Microsoft Teams desktop client (preview)
 
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
 
-The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available. New Teams has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. 
+The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available for preview. New Teams has been rebuilt from the ground up and offers:
 
 - Better performance
 - Lower CPU, memory usage, and disk space consumption
@@ -164,17 +164,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackag
 
 ## What's available in the new Teams
 
-Teams (preview) gives you:
-
-- Activity feed (except app notifications)
-- [Chat](#chat)
-- [Teams and channels (limited)](#teams-and-channels)
-- [Calendar and meetings (limited)](#calendar-and-meetings)
-- Teams-to-Teams calls
-- Files
-- [Apps](#apps)
-- [Support for multiple work (or school) accounts (exclusively available in New Teams!)](#multi-tenant-multi-account)
-
+While new Teams is still in development and currently does not have the full feature set of classic Teams, this is continually changing. This available features list will be updated as new features are added and limitations removed.
 
 ### Chat
 
