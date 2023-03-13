@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Learn how to easily preview and evaluate pre-release Teams features.
+description: Learn how to easily preview and evaluate prerelease Teams features.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -20,19 +20,19 @@ appliesto:
 
 # Force Public Preview  
 
-Teams Public Preview channel allow customers to easily preview and evaluate pre-release Teams features. There are no program requirements or commitments. This is an opt-in channel controlled via IT admin policy (`AllowPublicPreview`). Public preview is enabled on a per-user basis.  
+Teams Public Preview channel allows customers to easily preview and evaluate prerelease Teams features. There are no program requirements or commitments. This is an opt-in channel controlled via IT admin policy (`AllowPublicPreview`). Public preview is enabled on a per-user basis.  
 
 IT admins have three options to configure their users' public preview setting: 
 
  - **Follow Office Preview** (default): This default option will automatically enable Teams Public Preview features for any user enrolled in Office Current Channel (Preview). There are no more actions required by the end user. 
 
- - **Enabled**: This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview). The end user must also opt-in to Teams public preview in their Teams app. 
+ - **Enabled**: This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview). The end user must also opt in to Teams public preview in their Teams app. 
 
- - **Not enabled**: Teams Public Preview features will not be available to end users. 
+ - **Not enabled**: Teams Public Preview features won't be available to end users. 
 
 [image]
  
-IT admins can update this policy from Teams admin center (as shown above) or via PowerShell cmdlet (`CsTeamsUpdateManagementPolicy`). Here is an example cmdlet to set the Teams global policy to Enabled:  
+IT admins can update this policy from Teams admin center (as shown above) or via PowerShell cmdlet (`CsTeamsUpdateManagementPolicy`). Here's an example cmdlet to set the Teams global policy to Enabled:  
 
 ```
 Set-CsTeamsUpdateManagementPolicy -Identity Global -AllowPublicPreview "Enabled" 
