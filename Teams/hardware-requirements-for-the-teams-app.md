@@ -60,23 +60,8 @@ All of the requirements in the following sections apply to both the Microsoft Te
 ## Hardware requirements for Teams on Linux
 
 > [!NOTE]
-> Teams Desktop on Linux will be retired in December 2022.
+> The Teams Desktop on Linux was retired in December 2022.
 
-| Component | Requirement |
-|---------|---------|
-|Computer and processor    | 1.6 GHz (or higher) (32-bit or 64-bit), 2 core        |
-|Memory     |    4.0 GB RAM |
-|Hard disk    | 3.0 GB of available disk space        |
-|Display    |   1024 x 768 screen resolution |
-|Graphics hardware |  128 MB graphics memory
-|Operating system  | Linux distribution capable of installing DEB or RPM. |
-|Video    |  USB 2.0 video camera       |
-|Devices    |   Standard laptop camera, microphone, and speakers    |
-|Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | <ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended.</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on Linux.</li></ul>
-|Supported Linux distributions | Ubuntu 18.04 LTS, 20.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8       |
-|Supported Desktop environment | GNOME, KDE       |
-|Supported Display server | X11       |
 
 ## Hardware requirements for Teams on mobile devices
 
