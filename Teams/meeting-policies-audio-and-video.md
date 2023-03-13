@@ -28,15 +28,7 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
-This article describes the meeting policy settings specific to audio and video. These include the following:
-
-- [Mode for IP audio](#mode-for-ip-audio)
-- [Mode for IP video](#mode-for-ip-video)
-- [IP video](#ip-video)
-- [Media bit rate (Kbps)](#media-bit-rate-kbps)
-- [Video filters mode](#video-filters-mode)
-- [Allow custom background settings](#allow-custom-background-settings)
-- [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras)
+This article describes the meeting policy settings specific to audio and video.
 
 ## Mode for IP audio
 
@@ -47,11 +39,11 @@ This is a per-user policy. This setting controls whether audio can be turned on 
 |**Outgoing and incoming audio enabled**|Outgoing and incoming audio is allowed in the meeting. This is the default setting.|
 |**Not enabled**|Outgoing and incoming audio is turned off in the meeting.|
 
-If set to **Not enabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. On Teams mobile clients, if this setting is not enabled, the user has to dial in to the meeting through the PSTN.
+If set to **Not enabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. On Teams mobile clients, if this setting is not enabled, the user has to dial in to the meeting.
 
 This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Teams [calling policy](teams-calling-policy.md) and turn off the **Make private calls** setting. This setting also doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
-This setting isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
+This setting isn't available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
 
 To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
@@ -68,7 +60,7 @@ If set to **Not enabled** for a  user, that user can't turn on video or view vid
 
 This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
-This setting isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
+This setting isn't available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
 
 > [!NOTE]
 > Keep in mind that this setting controls both outgoing and incoming video whereas the **IP video** setting controls outgoing video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
@@ -77,16 +69,29 @@ To learn more, see [Manage audio/video for meeting participants](#manage-audiovi
 
 ## IP video
 
-This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.
+This is a combination of a per-organizer and per-user policy that controls which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.
 
-Meetings organized by a user who has this policy setting enabled, allow video sharing in the meeting by the meeting participants, if the participants also have the policy setting enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
+Meetings organized by a user who has this policy setting enabled allow video sharing in the meeting by the meeting participants, if the participants also have the policy setting enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
+
+
+For a given user, if this setting is on:
+- Meetings they organize will allow video
+- They can use their video in meetings they attend
+
+If this setting is off:
+- Meetings they organize won't allow video
+- They can't use their video in meetings they attend 
+
+
+||Meetings the user organizes|Meetings the user attends|
+|:-|:------------------------|:------------------------|
+|**Mode for IP video** set to **On**|All attendees can use video unless their personal policy prohibits it.|User can use video unless the organizer's policy prohibits it.|
+|**Mode for IP video** set to **Off**|No attendees can use video.|User can't use video. Other attendees may be able to use video if their policy and the meeting organizer's policy allow it.|
+
+
 
 > [!NOTE]
 > Keep in mind that this setting controls outgoing video whereas the **Mode for IP video** setting controls both outgoing and incoming video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
-
-|Teams desktop and web client|Teams mobile client|
-|:---:|:---:|
-|![Screenshot showing meeting join with audio/video settings on desktop.](media/meeting-policies-audio-video-settings.png)|![Screenshot showing meeting join screen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)|
 
 Let's look at the following example.
 
