@@ -59,19 +59,41 @@ The **Inactive teams** widget view displays how many teams in your organization 
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
-You can click **View details** to see which are the teams that have been inactive for both the time frames, namely "past 30 days" and "past 60 days". For each team, you can see the privacy type, number of channels in the team, and number of users in the team. You can archive these details for any inactive team of any time frame. That is, you can select a time frame of choice from the **Date range** dropdown list, and then from the list of inactive teams for that period, you can select any team and click **Run report**.
+You can click **View details** to see:
+
+- Names of the inactive teams
+- For each of the displayed inactive teams, details such as privacy type, number of channels in the team, and number of users in the team
+
+These details displayed are for the time frame **Last 30 days** which is the default **Date range** value.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
+You can also view the names and similar details of inactive teams for another time frame, you can do it by choosing the **Last 60 days** time frame from the **Date range** dropdown list, and then clicking **Run report**.
+
+You can archive the names and details of the time frame-specific inactive teams. To do this task, you can scroll to the extreme right of the **Inactive teams** widget and click the **bin** icon under the **Action** column, and then select Archive from the **Archive team?** dialog box.
+
+:::image type="content" source="media/archive-option.png" alt-text="The option to archive the details of an inactive team." lightbox="media/archive-option.png":::
+
 #### External domains activity
 
-The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active for the time frames of "past 30 days" and "past 60 days". You can hover over to see the exact count of active and inactive domains for the chosen time frame.
+The **External domains activity** widget view displays the total number of allowed domains; and how many of your allowed domains have been inactive and active. These details of the domains are displayed in the form of a pie-chart representation for the **30 days** or **60 days** time frame, whichever you choose.
+
+> [!NOTE]
+> By default, the 30 days time frame is chosen.
 
 :::image type="content" source="media/external-domains-activity.png" alt-text="The report displaying the total number of allowed domains." lightbox="media/external-domains-activity.png":::
 
-You can click **View details** to view the names of your allowed domains that have been inactive for the past 30 days and 60 days, and the last activity date of these domains.
+You can hover over the pie-chart representation to see the exact count of active and inactive domains for the chosen time frame.
 
-You can choose the specific date range for which you want to view the details such as names of the inactive domains and the last activity date for each of these domains. To do this task, choose a date range from the **Date range** dropdown list and click **Run report**.
+You can click **View details** to view details such as the names of the inactive domains and the last activity date for each of these domains. You can view these details for any of the two time frames, namely **30 days** and **60 days**.
+
+By default, the **30 days** time frame is chosen.
+ 
+:::image type="content" source="media/default-time-frame-external-domains-activity.png" alt-text="The default time frame for the External domains activity widget." lightbox="media/default-time-frame-external-domains-activity.png":::
+
+Therefore, on clicking **View details** when the **30 days** time frame is chosen by default, names of the inactive domains for the last 30 days are displayed. Along with these names, the last activity date of these last-30-days-inactive domains is also displayed.
+
+To view the names of inactive domains for the last 60 days, choose **Last 60 days** from the **Date range** dropdown list on the **Usage reports** page.
 
 This insight surfaces only for organizations that don't have open federation enabled.
 
@@ -79,32 +101,49 @@ This insight surfaces only for organizations that don't have open federation ena
 
 #### Teams by user type
 
-The **Teams by user type** widget view shows you how many of your "active" teams comprise:
+The **Teams by user type** widget view shows you how many of your teams comprise:
 - Your users only
 - Your users and guests
 - Your users and external users
 - All user types
 
 > [!NOTE]
-> Only active teams are included in the breakdown. 
-
-There's a duration selector with the time-frame options **7 days** and **30 days**. You can view the count of active teams and the user-composition type for either of these two time frames. To do this task, you can click the duration selector option (**7 days**/**30 days**), and hover over the pie-chart representation. You'll then be able to view the count of active teams for each user-composition type.
-
-This insight doesn't tell you how many users are in a team; it shows how many teams have each composition type. For example, a team with 100 of your users, no external users, and one guest counts as one team comprised of “my users and guests.”
+> Only active teams are included in the breakdown.
 
 :::image type="content" source="media/teams-by-user-type.png" alt-text="The Teams by user type widget." lightbox="media/teams-by-user-type.png":::
 
+You can view the count of active teams and the user-composition type for any of the two time frames, namely **7 days** and **30 days**.
+
+By default, the **7 days** time frame is chosen.
+
+:::image type="content" source="media/default-time-frame-teams-by-user-type.png" alt-text="The default time frame for the Teams by user type widget." lightbox="media/default-time-frame-teams-by-user-type.png":::
+
+You can view the count of active teams and the user-composition type for the last 30 days. To do this task, you can click **30 days** on the **Teams by user type** widget.
+
+:::image type="content" source="media/thirty-days-time-frame-teams-by-user-type.png" alt-text="The 30-days time frame in the Teams by user type widget." lightbox="media/thirty-days-time-frame-teams-by-user-type.png":::
+
+This insight doesn't tell you how many users are in a team; it shows how many teams have each composition type. For example, a team with 100 of your users, no external users, and one guest counts as one team comprised of “my users and guests.”
+
 #### Channels by user type
 
-The **Channels by user type** widget view tells you how many standard, private, and shared channels in your organization comprise:
+The **Channels by user type** widget view tells you how many channels in your organization comprise:
 - Your users (internal to your organization) only
 - Your users and guests
 - Your users and external users
 
 > [!NOTE]
-> Only active standard, private, and shared channels are included in the breakdown.
+> Only active channels are included in the breakdown.
+> The supported types of channels are standard, private, and shared.
 
-There's a duration selector with the time-frame options **7 days** and **30 days**. You can view the count of active channels (standard, private, and shared) and their user-composition type for either of these two time frames. To do this task, you can click the duration selector option (**7 days**/**30 days**), and hover over the graphical representation. You'll then be able to view the count of active channels for each user-composition type.
+You can view the count and user-composition type for each active channel type for the two time frames, namely **7 days** and **30 days**.
+
+By default, the **7 days** time frame is chosen.
+
+:::image type="content" source="media/default-time-frame-channels-by-user-type.png" alt-text="The default time frame in the Channels by user type widget." lightbox="media/default-time-frame-channels-by-user-type.png":::
+
+You can view the count and user-composition type for each active channel type for the last 30 days. To do this task, you can click **30 days** on the **Channels by user type** widget.
+
+:::image type="content" source="media/thirty-days-time-frame-channels-by-user-type.png" alt-text="The 30-days time frame in the Teams by user type widget." lightbox="media/thirty-days-time-frame-channels-by-user-type.png":::
 
 External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
 
