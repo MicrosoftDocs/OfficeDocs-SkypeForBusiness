@@ -107,9 +107,9 @@ When users are enabled for Location-Based Routing and roaming, the network site 
 
 The location of a user who is enabled for Location-Based Routing can be categorized as follows: 
 
-- **The user is located at the same Location-Based Routing enabled site associated to the PSTN gateway where their DID is assigned.**<br>In this scenario, the user is located in a configured network site that's enabled for Location-Based Routing and the user's Direct Inward Dial (DID) number terminates on a PSTN gateway that's in the same network site. For example, the user is at their office. 
+- **The user is located at the same Location-Based Routing enabled site associated to the PSTN gateway where their DID is assigned.**<br>In this scenario, the user is located in a configured network site that's enabled for Location-Based Routing and the user's Direct Inward Dial (DID) number terminates on a PSTN gateway that's in the same network site. For example, the user is at their office. (Office location)
 
-- **The user is located at a different Location-Based Routing enabled site not associated to PSTN gateway where their DID is assigned.**<br>In this scenario, the user is located in a configured network site that’s enabled for Location-Based Routing, and that site isn't associated with the PSTN gateway where the user’s DID number is assigned. For example, the user travels to another office.  
+- **The user is located at a different Location-Based Routing enabled site not associated to PSTN gateway where their DID is assigned.**<br>In this scenario, the user is located in a configured network site that’s enabled for Location-Based Routing, and that site isn't associated with the PSTN gateway where the user’s DID number is assigned. For example, the user travels to another office. (Remote location)
 
 - **The user is located at an internal site that's not enabled for Location-Based Routing.** <br>In this scenario, the user is located in a configured network site that's not enabled for Location-Based Routing. 
 
@@ -193,6 +193,10 @@ When a user enabled for Location-Based Routing transfers a call, the system will
 
 If you're deploying Location-Based Routing in India, you must also configure media bypass. For more information, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
+### Direct Voice over IP (VoIP)
+
+Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in India.
+
 ## Location-Based Routing for conferencing
 
 A user who is enabled for Location-Based Routing but who does not have an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
@@ -258,9 +262,7 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 - An on-premises Skype for Business user or a Skype for Business Online user calls a Teams user  
 
-### Direct Voice over IP (VoIP)
 
-Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in India.
 
 ## Related articles
 
