@@ -28,11 +28,13 @@ IT admins have three options to configure their users' public preview setting:
 
  - **Enabled**: This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview). The end user must also opt in to Teams public preview in their Teams app. 
 
- - **Not enabled**: Teams Public Preview features won't be available to end users. 
-
-[image]
+ - **Not enabled**: Teams Public Preview features will not be available to end users. 
  
-IT admins can update this policy from Teams admin center (as shown above) or via PowerShell cmdlet (`CsTeamsUpdateManagementPolicy`). Here's an example cmdlet to set the Teams global policy to Enabled:  
+IT admins can update this policy from Teams admin center (as shown below) or via PowerShell cmdlet (`CsTeamsUpdateManagementPolicy`). 
+
+ ![force public preview policy update](media/force-preview.png)
+
+Here is an example cmdlet to set the Teams global policy to Enabled:  
 
 ```
 Set-CsTeamsUpdateManagementPolicy -Identity Global -AllowPublicPreview "Enabled" 
