@@ -66,7 +66,7 @@ When you create a custom wallpaper, use the following guidelines:
 - Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
-Save the custom wallpaper image file in one of the following format: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-wallpaper).
+Save the custom wallpaper image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-wallpaper).
 
 ## Updating Teams Rooms device configuration
 
