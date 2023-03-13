@@ -22,7 +22,10 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client
 
-The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available. The new Teams has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. 
+- [How to roll out new Teams](#how-to-roll-out-new-teams)
+- [What's available in new Teams](#whats-available-in-the-new-teams)
+
+The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available. New Teams has been rebuilt from the ground up, and you can now preview the next evolution of Microsoft Teams. 
 
 - Better performance
 - Lower CPU, memory usage, and disk space consumption
@@ -31,9 +34,6 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants  
 
 It is easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
-
-- [How to roll out new Teams](#how-to-roll-out-new-teams)
-- [What's available in new Teams](#whats-available-in-the-new-teams)
 
 
 ## Before you begin
