@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: jogruszc
-ms.date: 11/09/2022
+ms.date: 03/13/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -77,6 +77,7 @@ The following table compares key features between Teams and Teams Premium.
 | Require attendees to register | x | x |
 | Assign a co-organizer | x | x |
 | Limit the number of people who can register | x | x |
+| Allow registered users to bypass the lobby | x | x |
 | Turn on Q&A for webinars with up to 1000 attendees | x | x |
 | View attendance reports | x | x |
 | Integrate with Dynamics 365 | x | x |
@@ -86,8 +87,7 @@ The following table compares key features between Teams and Teams Premium.
 | Create a webinar wait list |  | x |
 | Manually approve registrants |  | x |
 | Limit the day and time when people can register |  | x |
-| Allow registered users to bypass the lobby |  | x |
-| Use RTMP-In for Webinars (*coming soon*) |  | x |
+| Use RTMP-In for Webinars |  | x |
 
 ### Meetings protection
 
