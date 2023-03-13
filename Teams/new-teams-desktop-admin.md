@@ -211,16 +211,11 @@ On days when you have many meetings, you may want to use classic Teams to make s
 
 ### Calls
 
-You can make Teams-to-Teams internet-based calls through Chat. However, traditional phone service (calls to and from telephone numbers) isn't available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
-
-The Calls icon isn't visible on the left rail and the dial pad isn't available. Missed calls will show up in your Activity feed, but the callback button won't be available if the call is from a telephone number. Live captions and transcriptions are available for Teams-to-Teams calls.
-
-**Known issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.
-
+You can make both traditional phone calls (to and from telephone numbers) and Teams-to-Teams internet-based calls. Most basic features are available. 
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations||
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|Voicemail shortcut on dial pad not available</br></br>Contacts and speed dial not available</br></br>Live captions and transcriptions not available for external calls</br></br>Call merges and transfers not available for external calls</br></br>Call forwarding and routing not available</br></br>Call queues not available</br></br>Reverse number lookup not available </br></br>Voice-enabled channels not available</br></br>Delegation not available</br></br>Shared lines not available</br></br>Survivable branch appliance (SBA) not available|
 
 
 ### Apps
