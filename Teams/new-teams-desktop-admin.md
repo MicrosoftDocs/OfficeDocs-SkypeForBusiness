@@ -34,7 +34,7 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 - Lower CPU, memory usage, and disk space consumption
 - Your device will consume less battery
 - More reliable all-around​​​​​​​
-- Multi-account support - letting you collaborate seamlessly across accounts and tenants  
+- Multi-account support - letting you collaborate seamlessly across accounts and tenants 
 
 It's easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
 
@@ -43,7 +43,7 @@ It's easy to toggle back and forth between using the classic and new Teams, so y
 
 The new Teams is still in development and currently doesn't have the full feature set of classic Teams. 
 
-New Teams **is not** available to the following platforms or customer segments during the public preview phase.
+New Teams **won't** available to the following platforms or customer segments during the public preview phase.
 
 |Platforms|Customer segments|
 |:-----|:-----|
@@ -56,7 +56,7 @@ New Teams **is not** available to the following platforms or customer segments d
 ## How to roll out new Teams
 
 As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use the new Teams.
-To control which users can see the toggle, use the Teams admin setting  **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
+To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
 Manage this setting in the Teams admin center or using Teams PowerShell.
 
@@ -162,7 +162,7 @@ PowerShell cmdlet to remove new Teams from all users on all computers:
 
 Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
-Get-AppxPackage *MSTeams*|Remove-AppxPackag
+Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 
 ## What's available in the new Teams
@@ -175,7 +175,7 @@ Most chat features are available, including GIFs and emojis. There are just a fe
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available  ":::Available with limitations|Can't add tabs to chat</br></br>Immersive reader not available|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|Can't add tabs to chat</br></br>Immersive reader not available|
 
 ### Teams and channels
 
@@ -206,21 +206,21 @@ On days when you have many meetings, you may want to use classic Teams to make s
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available  ":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available. Example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams can participate in polls you launch from classic Teams. </br></br>When using the *Share screen* option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in new Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available. Example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams can participate in polls you launch from classic Teams. </br></br>When using the *Share screen* option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in new Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
 
 
 ### Calls
 
-You can make Teams-to-Teams internet-based calls through Chat.  However, traditional phone service (calls to and from telephone numbers) isn't available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
+You can make Teams-to-Teams internet-based calls through Chat. However, traditional phone service (calls to and from telephone numbers) isn't available. This includes emergency calls (911 in North America, or 112 in India and parts of Europe.)
 
-The Calls icon isn't visible on the left rail and the dial pad isn't available. Missed calls will show up in your Activity feed, but the callback button won't be available if the call is from a telephone number.  Live captions and transcriptions are available for Teams-to-Teams calls.
+The Calls icon isn't visible on the left rail and the dial pad isn't available. Missed calls will show up in your Activity feed, but the callback button won't be available if the call is from a telephone number. Live captions and transcriptions are available for Teams-to-Teams calls.
 
 **Known issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.
 
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available  ":::Available with limitations||
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations||
 
 
 ### Apps
@@ -241,7 +241,7 @@ The following apps are available in the new Teams.
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available  ":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't yet available.</br></br>You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't yet available.</br></br>You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
 
 ### Multi-Tenant Multi-Account
