@@ -225,16 +225,14 @@ You can make both traditional phone calls (to and from telephone numbers) and Te
 
 The following apps are available in the new Teams.
 
->[!Note]
->You must install the apps in classic Teams first. 
-
->[!Important]
->Stay on classic Teams for now if you are using a custom line of business apps or apps from the AppStore until these are fully supported.
-
-
 |Microsoft Viva|Microsoft 365|Miscellaneous|
 |:-----|:-----|:-----|
 |Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
+
+>[!Important]
+>You must install the apps in classic Teams first. 
+>
+>Stay on classic Teams for now if you are using a custom line of business apps or apps from the AppStore until these are fully supported.
 
 
 |Classic|New|Limitations|
