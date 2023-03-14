@@ -224,22 +224,25 @@ You can make both traditional phone calls (to and from telephone numbers) and Te
 
 ### Apps
 
-The following apps are available in the new Teams. You must install the apps in classic Teams first.
+The following apps are available in the new Teams. **Note:** You must install the apps in classic Teams first.
+
+Apps will continue to be added individually until the AppStore is available.
+
+>[!Important]
+>Stay on classic Teams for now if you are using a custom line of business apps or apps from the AppStore until these are fully supported.
 
 |Microsoft Viva|Microsoft 365|Miscellaneous|
 |:-----|:-----|:-----|
 |Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
 
->[!Important]
->Stay on classic Teams for now if you are using a custom line of business apps or apps from the AppStore until these are fully supported.
-
+</br></br>
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams.After 24 hours, it will be reflected in new Teams. </br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams. After 24 hours, it will</br> be reflected in new Teams.</br</br>>Apps won't display content in meeting window. For apps like Polls, </br>use meeting chat to respond to poll.
+</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
->[!Note]
->Apps will be added individually as development continues, until the AppStore is available.
+
 
 
 ### Multi-Tenant Multi-Account
