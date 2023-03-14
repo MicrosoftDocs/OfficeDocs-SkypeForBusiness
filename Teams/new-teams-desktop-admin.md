@@ -207,7 +207,9 @@ On days when you have many meetings, you may want to use classic Teams to make s
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting </br>options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available. </br>Example: As the meeting organizer, you can't add the</br> Polls app or create a new poll from new Teams. </br>However, any attendees using new Teams can participate in polls you launch from classic Teams.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting </br>options; however, attendees using new Teams can only post </br>questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported, however, some limited app</br> capabilities are available. Example: As the meeting organizer, you </br>
+can't add the Polls app or create a new poll from new Teams.</br>
+However, any attendees using new Teams can participate in polls </br>you launch from classic Teams.|
 
 
 ### Calls
