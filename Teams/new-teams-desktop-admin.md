@@ -268,9 +268,9 @@ Apps will continue to be added individually until the AppStore is available.
 |Feature area|March 2023|Q3 2023|Q4 2023|
 |:-----|:-----|:-----|:-----|
 |Platforms|Desktop|Mac|VDI</br>Web|
-|Activity & Notifications|:::image type="content" source="media/orange-circle.png" alt-text="available with limitations":::Available with limitations</br>Notifications from **apps**, including Microsoft Viva, won't appear in your activity feed</br></br>Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|X|X|
-|Chat|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations</br>Can't add tabs to chat</br>Immersive reader not available|X|X|
-|Teams|X|X|X|
+|Activity & Notifications|:::image type="content" source="media/orange-circle.png" alt-text="available with limitations":::Available with limitations</br></br>-Notifications from **apps**, including Microsoft Viva, won't appear in your activity feed</br></br>-Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|X|X|
+|Chat|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations</br></br>-Can't add tabs to chat</br>-Immersive reader not available|X|X|
+|Teams|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations</br></br>-You can’t add a new member to a team.</br></br>-You can’t create, edit, delete, or archive a team. </br></br>-You won’t be notified when someone requests to join a team.</br></br>-You won’t see team renewal notifications.</br></br>-There isn’t the option to share a link to a team.</br></br>-Offline support isn’t available.|X|X|
 |Channels|X|X|X|
 |Calendars & Meetings|X|X|X|
 |Calls|X|X|X|
