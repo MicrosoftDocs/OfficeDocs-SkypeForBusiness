@@ -63,7 +63,7 @@ Here are frequently used terms in the portal.
 
 ## Incidents view
 
-This view is an overview of the Incidents tab in your Pro Management Portal. This page is the default home page of the portal.
+This view is an overview of the Incidents tab in your Microsoft Teams Rooms Pro Management Portal. This page is the default home page of the portal.
 
 ### Top-level summary 
 The top-level summary shows at a glance the issues affecting your rooms, what you need to do.
