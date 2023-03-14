@@ -159,10 +159,11 @@ Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
+</br>
 
 ## What's available in the new Teams
 
-While new Teams is still in development and currently doesn't have the full feature set of classic Teams, this is continually changing. The features lists shown here will be updated as new features are added and limitations removed.
+While new Teams currently doesn't have the full feature set of classic Teams, this is continually changing. The features lists shown here will be updated as new features are added and limitations removed.
 
 ### Activity and notifications
 
