@@ -356,7 +356,7 @@ In the future, when notification are turned off, you'll see a banner indicating 
 
 
 
-||	March 23|April 23|May 23|June 23|July 23|August 23|September 23	|Oct 23|Nov 23|Dec 23|
+|Area|March 23|April 23|May 23|June 23|July 23|Augu 23|Sept 23|Oct 23|Nov 23|Dec 23|
 |:-----|:-----|:-----|:-----|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|
 |**Activity and notifications**|X||||||||||
 |	Limitations will release:	|||||||||||
