@@ -14,7 +14,7 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview of the new Microsoft Teams. Try out new features and provide feedback.
+description: Learn about the preview of the new Microsoft Teams. Try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -23,7 +23,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client (preview)
 
 >[!Note]
->This is a public preview release and does not have the full feature set of classic Teams.
+>This is a preview release and does not have the full feature set of classic Teams and strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) 
 
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
@@ -38,19 +38,10 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 
 It's easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
 
-
-## Before you begin
-
-The new Teams is still in development and currently doesn't have the full feature set of classic Teams. 
-
-New Teams **won't** available to the following platforms or customer segments during the public preview phase.
-
-|Platforms|Customer segments|
-|:-----|:-----|
-|Mac</br>VDI</br>Web|Education</br>Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>Consumer</br>Desktop running Windows 10 version 10.0.19041 or earlier|
-
 >[!Note]
->This release is strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) as the new Teams is focused on desktop, web, and VDI.
+>The new Teams is still in development and currently doesn't have the full feature set of classic Teams. New Teams **won't** available to the following platforms or customer segments during the preview phase.
+>**Platforms**. Mac, VDI, Web
+>**Customer segments**. Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 
 ## How to roll out new Teams
