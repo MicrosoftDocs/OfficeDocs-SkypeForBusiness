@@ -26,15 +26,17 @@ In this article:
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
 
-This is a preview release of a new desktop client and does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
+This article describes the preview release of a new desktop client and does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
 
-New Teams **will not** be available to the following platforms or customer segments during the preview phase:
+New Teams **is not** available to the following platforms or customer segments during the preview phase:
 
 |Platforms|Customer segments|
 |:-----|:-----|
 |Mac</br>VDI</br>Web|Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>Consumer</br>Desktop running Windows 10 version 10.0.19041 or earlier
 
-The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available for preview. New Teams has been rebuilt from the ground up and offers:
+## What is new Teams?
+
+New Microsoft Teams is the latest version of the Microsoft Teams desktop client. New Teams has been rebuilt from the ground up and offers:
 
 - Better performance
 - Lower CPU, memory usage, and disk space consumption
@@ -159,7 +161,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 ## What's available in the new Teams
 
-While new Teams is still in development and currently doesn't have the full feature set of classic Teams, this is continually changing. This available features list will be updated as new features are added and limitations removed.
+While new Teams is still in development and currently doesn't have the full feature set of classic Teams, this is continually changing. The features lists shown here will be updated as new features are added and limitations removed.
 
 ### Activity and notifications
 
