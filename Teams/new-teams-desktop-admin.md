@@ -415,3 +415,60 @@ In the future, when notification are turned off, you'll see a banner indicating 
 
 
 
+
+|Area|	Limitation|Available|
+|:-----|:-----|:-----|
+|***Activity and notifications***|
+|	Pending |
+|	Notifications from apps, including Microsoft Viva, won't appear in your activity feed	|
+|	Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|
+|***Chats***|
+|	Can't add tabs to chat	||
+|	Immersive reader not available	||
+|***Teams***|
+|	You can’t add a new member to a team.	|
+|	You can’t create, edit, delete, or archive a team.	|
+|	You won’t be notified when someone requests to join a team.	||
+|	You won’t see team renewal notifications.||
+|	There isn’t the option to share a link to a team.||
+|	Offline support isn’t available.||
+|***Channels***|
+|	You can’t add a new member to a private or shared channel.||
+|	You can’t create, edit, or delete a channel.||
+|	Post in multiple channels isn't supported.||
+|	You can’t invite an entire team to a shared channel.||
+|	You can't manage Tabs.||
+|	There isn’t the option to share a link to a channel.||
+|	Ctrl+F not available for searching within channels.||
+|	You can't edit channel notification settings.||
+|	The channel info pane isn't available.||
+|	Calendars & Meetings||
+|	Breakout rooms not supported||
+|	Presenter toolbar not supported	||
+|	Whiteboard not supported||
+|	Live Events not supported||
+|	Present in Teams feature in PowerPoint not available||
+|	As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.	||
+|	New app installation isn’t supported, however, some limited app capabilities are available. Example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams can participate in polls you launch from classic Teams.||
+|***Calls***|
+|	Voicemail shortcut on dial pad not available||
+|	Contacts and speed dial not available||
+|	Live captions and transcriptions not available for external calls||
+|	Call merges and transfers not available for external calls||
+|	Call forwarding and routing not available||
+|	Call queues not available||
+|	Reverse number lookup not available	||
+|	Voice-enabled channels not available||
+|	Delegation not available||
+|	Shared lines not available||
+|	Survivable branch appliance (SBA) not available||
+|**Apps**|
+|	No notifications from any apps in your Activity feed.||
+|	Pop out app isn't available.||
+|	You can only pin an app in classic Teams. After 24 hours, it will be reflected in new Teams. Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll. ||
+|	You may notice some small differences in the user interface (UI).||
+|	The App Store is currently not available.	||
+|**Multi-tenant multi account**|
+
+
+
