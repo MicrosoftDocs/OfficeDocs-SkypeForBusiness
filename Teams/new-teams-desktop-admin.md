@@ -306,46 +306,46 @@ If you would like a response or the issue is impacting your work, please contact
 ### Calls
 
 **Issue:** Increased power usage during calls may cause CPU throttling and negatively impact performance.
-The product group is working to resolve this issue.
+Workaround/details: The product group is working to resolve this issue.
 
 ### Meetings
 
-**Issue** When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).
-​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
+**Issue:** When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).</br>
+Workaround/details: ​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
 
-**Issue** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.
+**Issue:** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
 This means that meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
-**Issue**  Some meeting details won’t appear in New Teams.
+**Issue:**  Some meeting details won’t appear in New Teams.</br>
 This includes forwards, "show as," and assigned meeting categories. 
 
-**Issue**  When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”
+**Issue:**  When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
 If you leave a meeting by accident, simply re-join. (It happens to the best of us!)
 
-**Issue** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.
+**Issue:** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.</br>
 ​Select Join in the channel conversation to join the meeting.
 
-**Issue**  When you disable attendee mic/camera, it may not look like it's disabled to attendees.
+**Issue:**  When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
 When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However, nothing will happen until they come off mute or turn on their video.
 
-**Issue**  Some people are experiencing poor resolution when screen-sharing during a meeting.
+**Issue:**  Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
 ​The product group is investigating this issue.
 
 ### Messaging
 
-**Issue** Compose box is not defaulting to typing field once switching to Chat. Click to start typing. 
+**Issue:** Compose box is not defaulting to typing field once switching to Chat. Click to start typing. 
 
 ### Multi-Tenant Multi-Account (MTMA)
 
-**Issue**  When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts.
+**Issue:**  When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts.
 For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
 
 If you sign out and back in, the banner shouldn't appear anymore. Learn more about this issue.
 
 ### Notifications
 
-**Issue** Some Teams users are not receiving notifications of chat mentions, meetings or calls.
+**Issue:** Some Teams users are not receiving notifications of chat mentions, meetings or calls.
 In some cases this is due to bugs that the product group are working to fix.
 
 You may also want to check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
@@ -356,9 +356,9 @@ In the future, when notification are turned off, you'll see a banner indicating 
 
 
 
-||	March 2023	|April 2023|May 2023|June 2023|July 2023|August 2023|September 2023	|October 2023|November 2023	|December 2023|
-|	:-----|:-----|:-----|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|
-|**Activity and notifications**|	X	||||||||||
+||	March 23|April 23|May 23|June 23|July 23|August 23|September 23	|Oct 23|Nov 23|Dec 23|
+|:-----|:-----|:-----|:-----|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|
+|**Activity and notifications**|X||||||||||
 |	Limitations will release:	|||||||||||
 |	Notifications from apps, including Microsoft Viva, won't appear in your activity feed	|||||||||||
 |	Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right	|||||||||||
