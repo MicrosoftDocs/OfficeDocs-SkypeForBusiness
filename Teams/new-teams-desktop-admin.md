@@ -23,7 +23,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client (preview)
 
 >[!Note]
->This is a preview release and does not have the full feature set of classic Teams and strictly a new desktop client. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android) 
+>This is a preview release of a new desktop client and does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
 
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
