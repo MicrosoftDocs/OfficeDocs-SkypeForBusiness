@@ -118,7 +118,7 @@ For more information about call queues, see [Plan for Teams auto attendants and 
 
 ## Step 7: Set up other Phone System features
 
-There are numerous Phone System features, which are summarized in [Phone System features](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not. In addition to cloud queues and auto attendants, some of the more common features you might want to configure include:
+There are numerous Phone System features, which are summarized in [Phone System features](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not. In addition to auto attendants and call queues, some of the more common features you might want to configure include:
 
 - [Cloud voicemail](set-up-phone-system-voicemail.md)
 - [Caller ID](caller-id-policies.md)
@@ -141,3 +141,5 @@ A successful Phone System deployment also involves managing your devices and mon
 - [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
+
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
