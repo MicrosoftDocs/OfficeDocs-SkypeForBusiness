@@ -237,7 +237,10 @@ The following apps are available in the new Teams.
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams. Once done, this will reflect in New Teams as well, but it may take up to 24 hours.</br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams.After 24 hours, it will be reflected in new Teams. </br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+
+>[!Note]
+>Apps will be added individually as development continues, until the AppStore is available.
 
 
 ### Multi-Tenant Multi-Account
