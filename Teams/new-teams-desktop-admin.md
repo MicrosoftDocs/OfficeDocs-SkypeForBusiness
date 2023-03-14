@@ -22,11 +22,17 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client (preview)
 
->[!Note]
->This is a preview release of a new desktop client and does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
-
+In this article:
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
+
+This is a preview release of a new desktop client and does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
+
+New Teams **will not** be available to the following platforms or customer segments during the preview phase:
+
+|Platforms|Customer segments|
+|:-----|:-----|
+|Mac</br>VDI</br>Web|Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>Consumer</br>Desktop running Windows 10 version 10.0.19041 or earlier
 
 The new Microsoft Teams, the latest version of the Microsoft Teams desktop client is now available for preview. New Teams has been rebuilt from the ground up and offers:
 
@@ -37,11 +43,6 @@ The new Microsoft Teams, the latest version of the Microsoft Teams desktop clien
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants 
 
 It's easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
-
->[!Note]
->The new Teams is still in development and currently doesn't have the full feature set of classic Teams. New Teams **won't** available to the following platforms or customer segments during the preview phase.
->**Platforms**. Mac, VDI, Web</br>
->**Customer segments**. Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 
 ## How to roll out new Teams
@@ -207,9 +208,7 @@ On days when you have many meetings, you may want to use classic Teams to make s
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting </br>options; however, attendees using new Teams can only post </br>questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported, however, some limited app</br> capabilities are available. Example: As the meeting organizer, you </br>
-can't add the Polls app or create a new poll from new Teams.</br>
-However, any attendees using new Teams can participate in polls </br>you launch from classic Teams.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting </br>options; however, attendees using new Teams can only post </br>questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported, however, some limited app</br> capabilities are available. Example: As the meeting organizer, you </br>can't add the Polls app or create a new poll from new Teams.</br>However, any attendees using new Teams can participate in polls </br>you launch from classic Teams.|
 
 
 ### Calls
@@ -223,15 +222,13 @@ You can make both traditional phone calls (to and from telephone numbers) and Te
 
 ### Apps
 
-The following apps are available in the new Teams.
+The following apps are available in the new Teams. You must install the apps in classic Teams first.
 
 |Microsoft Viva|Microsoft 365|Miscellaneous|
 |:-----|:-----|:-----|
 |Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
 
 >[!Important]
->You must install the apps in classic Teams first. 
->
 >Stay on classic Teams for now if you are using a custom line of business apps or apps from the AppStore until these are fully supported.
 
 
