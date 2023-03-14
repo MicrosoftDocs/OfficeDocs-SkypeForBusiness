@@ -248,3 +248,31 @@ Apps will continue to be added individually until the AppStore is available.
 |Classic|New|Highlights|
 |:-----|:-----|:-----|
 |:::image type="content" source="media/black-diamond.png" alt-text=" not available ":::Not available|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Available only in new Teams|Multi-tenant Multi-account (MTMA) support</br></br>Receive real-time notifications from all the accounts you’re signed into</br></br>Participate in chats, meetings, and calls across multiple accounts </br>and organizations. Switch accounts without having to drop from </br>a call or meeting </br></br>Set your presence and status for each account and organization individually</br></br>Intuitive visual indicators help differentiate between your different accounts</br> and organizations, so you’re aware of which one you’re working in|
+
+
+
+|Feature area|March 2023|Q3 2023|Q4 2023|
+|:-----|:-----|:-----|:-----|
+|Platforms|Desktop|Mac|VDI</br>Web|
+|Activity & Notifications|X|X|X|
+|Chat|X|X|X|
+|Teams|X|X|X|
+|Channels|X|X|X|
+|Calendars & Meetings|X|X|X|
+|Calls|X|X|X|
+|Apps|X|X|X|
+|Multi-tenant Multi account|X|X|X|
+
+</br></br>
+
+|Feature area|March 2023|Q3 2023|Q4 2023|
+|:-----|:-----|:-----|:-----|
+|Platforms|Desktop|Mac|VDI</br>Web|
+|Activity & Notifications|:::image type="content" source="media/orange-circle.png" alt-text="available with limitations":::Available with limitations</br>Notifications from **apps**, including Microsoft Viva, won't appear in your activity feed</br></br>Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|X|X|
+|Chat|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations</br>Can't add tabs to chat</br>Immersive reader not available|X|X|
+|Teams|X|X|X|
+|Channels|X|X|X|
+|Calendars & Meetings|X|X|X|
+|Calls|X|X|X|
+|Apps|X|X|X|
+|Multi-tenant Multi account|X|X|X|
