@@ -103,18 +103,18 @@ Dynamic emergency calling provides the capability to configure and route emergen
 
 For information about assigning emergency locations to users, see [Assign an emergency location](assign-change-emergency-location-user.md).
 
+## Step 5: If you want to set up an auto attendant
 
-## Step 5: If you want to set up a call queue
+Auto attendants let people who call in to your organization navigate a menu system to get them to the right department, call queue, person, or operator.
+
+For information about setting up auto attendants, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
+
+## Step 6: If you want to set up a call queue
 
 Call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call. You can create single or multiple call queues for your organization.
 
 For more information about call queues, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Create a call queue](create-a-phone-system-call-queue.md).
 
-## Step 6: If you want to set up an auto attendant
-
-Auto attendants let people who call in to your organization navigate a menu system to get them to the right department, call queue, person, or operator.
-
-For information about setting up auto attendants, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
 
 ## Step 7: Set up other Phone System features
 
