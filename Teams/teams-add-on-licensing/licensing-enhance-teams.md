@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: jogruszc
-ms.date: 11/09/2022
+ms.date: 03/13/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -77,6 +77,7 @@ The following table compares key features between Teams and Teams Premium.
 | Require attendees to register | x | x |
 | Assign a co-organizer | x | x |
 | Limit the number of people who can register | x | x |
+| Allow registered users to bypass the lobby | x | x |
 | Turn on Q&A for webinars with up to 1000 attendees | x | x |
 | View attendance reports | x | x |
 | Integrate with Dynamics 365 | x | x |
@@ -86,8 +87,7 @@ The following table compares key features between Teams and Teams Premium.
 | Create a webinar wait list |  | x |
 | Manually approve registrants |  | x |
 | Limit the day and time when people can register |  | x |
-| Allow registered users to bypass the lobby |  | x |
-| Use RTMP-In for Webinars (*coming soon*) |  | x |
+| Use RTMP-In for Webinars |  | x |
 
 ### Meetings protection
 
@@ -101,9 +101,8 @@ The following table compares key features between Teams and Teams Premium.
 | End-to-end encryption for meetings with up to 50 attendees |  | x |
 | Control who can record |  | x |
 | Prevent copy/paste in meeting chats |  | x |
-| Assign Microsoft Purview Information Protection sensitivity labels for meetings\*  |  | x |
+| Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | x |
 | Custom user policy packages |  | x |
-| Turn on advanced meeting monitoring and alerting |  | x |
 
 \* *This feature is only available to Teams Premium users with a Microsoft 365 E5 subscription or Microsoft E3 subscription plus the Advanced Compliance license. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
@@ -185,7 +184,7 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 ## Which users should be assigned Teams Premium licenses?
 
-Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
+Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
 
 There are some specific meeting and event features that will provide the feature benefit to all meeting attendees, including guests and external participants. Here's some guidance to help you decide who to acquire Teams Premium licenses for:
 
@@ -252,3 +251,4 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
+
