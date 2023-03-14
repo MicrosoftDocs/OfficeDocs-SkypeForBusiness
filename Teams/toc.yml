@@ -1489,6 +1489,8 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Enable home screen refresh
+              href: rooms/mtr-home-refresh.md
             - name: Remotely configure front row layout
               href: rooms/manage-front-row.md
             - name: Remotely configure layout, scale, and resolution
