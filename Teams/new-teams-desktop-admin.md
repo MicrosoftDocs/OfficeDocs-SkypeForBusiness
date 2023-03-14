@@ -166,7 +166,7 @@ You'll receive notifications in your activity feed for most things, including @m
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::|Notifications from **apps**, including Microsoft Viva, won't appear in your activity feed</br></br>Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="available with limitations":::Available with limitations|Notifications from **apps**, including Microsoft Viva, won't appear in your activity feed</br></br>Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|
 
 
 ### Chat
@@ -175,7 +175,7 @@ Most chat features are available, including GIFs and emojis. There are just a fe
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::|Can't add tabs to chat</br></br>Immersive reader not available|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Can't add tabs to chat</br></br>Immersive reader not available|
 
 ### Teams and channels
 
@@ -189,14 +189,14 @@ Here are the limitations:
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. </br></br>You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. </br></br>You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available.|
 
 
 **Channels**
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::|You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>*Post in multiple channels* isn't supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br></br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F not available for searching within channels.</br></br>You can't edit channel notification settings.</br></br>The channel info pane isn't available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>*Post in multiple channels* isn't supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br></br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F not available for searching within channels.</br></br>You can't edit channel notification settings.</br></br>The channel info pane isn't available.|
 
 
 ### Calendar and meetings
@@ -207,7 +207,7 @@ On days when you have many meetings, you may want to use classic Teams to make s
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting </br>options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available. </br>Example: As the meeting organizer, you can't add the</br> Polls app or create a new poll from new Teams. </br>However, any attendees using new Teams can participate in polls you launch from classic Teams.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting </br>options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available. </br>Example: As the meeting organizer, you can't add the</br> Polls app or create a new poll from new Teams. </br>However, any attendees using new Teams can participate in polls you launch from classic Teams.|
 
 
 ### Calls
@@ -216,7 +216,7 @@ You can make both traditional phone calls (to and from telephone numbers) and Te
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::|Voicemail shortcut on dial pad not available</br></br>Contacts and speed dial not available</br></br>Live captions and transcriptions not available for external calls</br></br>Call merges and transfers not available for external calls</br></br>Call forwarding and routing not available</br></br>Call queues not available</br></br>Reverse number lookup not available </br></br>Voice-enabled channels not available</br></br>Delegation not available</br></br>Shared lines not available</br></br>Survivable branch appliance (SBA) not available|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Voicemail shortcut on dial pad not available</br></br>Contacts and speed dial not available</br></br>Live captions and transcriptions not available for external calls</br></br>Call merges and transfers not available for external calls</br></br>Call forwarding and routing not available</br></br>Call queues not available</br></br>Reverse number lookup not available </br></br>Voice-enabled channels not available</br></br>Delegation not available</br></br>Shared lines not available</br></br>Survivable branch appliance (SBA) not available|
 
 
 ### Apps
@@ -237,7 +237,7 @@ The following apps are available in the new Teams.
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams.After 24 hours, it will be reflected in new Teams. </br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams.After 24 hours, it will be reflected in new Teams. </br></br>Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
 
 >[!Note]
 >Apps will be added individually as development continues, until the AppStore is available.
