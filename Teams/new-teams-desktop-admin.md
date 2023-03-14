@@ -250,6 +250,112 @@ Apps will continue to be added individually until the AppStore is available.
 |:::image type="content" source="media/black-diamond.png" alt-text=" not available ":::Not available|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Available only in new Teams|Multi-tenant Multi-account (MTMA) support</br></br>Receive real-time notifications from all the accounts you’re signed into</br></br>Participate in chats, meetings, and calls across multiple accounts </br>and organizations. Switch accounts without having to drop from </br>a call or meeting </br></br>Set your presence and status for each account and organization individually</br></br>Intuitive visual indicators help differentiate between your different accounts</br> and organizations, so you’re aware of which one you’re working in|
 
 
+## Known issues
+
+### Installation
+
+**Issue:** After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
+This is expected behavior. Go ahead and select the link to restart.
+
+**Issue:** Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install New Teams.
+Download and install WebView2 Runtime. After you’ve finished, restart the Teams desktop app and try again.
+
+If you're still running into problems, contact the Global Helpdesk.
+
+**Issue:** Sign-in using email address <first name>.<last name>@microsoft.com is not yet supported.
+Please use your primary Azure account name (your alias) to sign into New Teams.
+
+**Issue:** Some people do not see the toggle to opt in.
+First, double check the system requirements. You'll need a Windows device and an up-to-date version of Classic Teams.
+
+Next, try signing out and back into the Teams desktop app.
+
+Select your profile pic in the upper-right corner
+Select Sign out
+When the app relaunches, sign back in
+Profile pic selected in the Teams desktop app, with "Sign out" highlighted
+
+If you still don’t see the toggle, you can try the following:
+
+Right-click on the Teams app icon in your taskbar and select Quit
+Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
+
+File Explorer with address bar highlighted
+
+Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
+Delete all contents of the folder (don’t worry, this will not delete the Teams app or affect any of your custom settings).
+If you get any messages that a certain file or folder can’t be deleted, select Skip.
+Relaunch the Teams app, then right-click on the icon and select Quit
+Relaunch the Teams app one more time, and you should see the switcher.
+If these steps don’t work, please reach out to the Global Helpdesk.
+
+### General
+
+**Issue:** Organization tab is not available on chat
+This has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card.
+
+This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
+
+### Accessibility
+
+**Issue:** There may be accessibility gaps between New and Classic Teams.
+If you discover any accessibility gaps, please select the ellipsis (...) > Help > Report a problem in the Teams desktop app. This will alert the product group to the issue.
+
+If you would like a response or the issue is impacting your work, please contact the Global Helpdesk.
+
+### Calls
+
+**Issue:** Increased power usage during calls may cause CPU throttling and negatively impact performance.
+The product group is working to resolve this issue.
+
+### Meetings
+
+**Issue** When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).
+​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
+
+**Issue** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.
+This means that meeting attendees may see preview content in those notifications.
+Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
+
+**Issue**  Some meeting details won’t appear in New Teams.
+This includes forwards, "show as," and assigned meeting categories. 
+
+**Issue**  When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”
+If you leave a meeting by accident, simply re-join. (It happens to the best of us!)
+
+**Issue** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.
+​Select Join in the channel conversation to join the meeting.
+
+**Issue**  When you disable attendee mic/camera, it may not look like it's disabled to attendees.
+When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However, nothing will happen until they come off mute or turn on their video.
+
+**Issue**  Some people are experiencing poor resolution when screen-sharing during a meeting.
+​The product group is investigating this issue.
+
+### Messaging
+
+**Issue** Compose box is not defaulting to typing field once switching to Chat. Click to start typing. 
+
+### Multi-Tenant Multi-Account (MTMA)
+
+**Issue**  When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts.
+For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
+
+If you sign out and back in, the banner shouldn't appear anymore. Learn more about this issue.
+
+### Notifications
+
+**Issue** Some Teams users are not receiving notifications of chat mentions, meetings or calls.
+In some cases this is due to bugs that the product group are working to fix.
+
+You may also want to check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
+
+In the future, when notification are turned off, you'll see a banner indicating this.
+
+ 
+
+
+
 
 |Feature area|March 2023|Q3 2023|Q4 2023|
 |:-----|:-----|:-----|:-----|
