@@ -186,8 +186,10 @@ You can view your cases by selecting **View my existing cases** and selecting th
 - **Communicate with the TNS service desk** regarding your case by opening an existing case, scrolling down, and selecting **Add comment**. A new window will appear. Enter your message in the comment box. Attach any supporting documents (if available), and then select **Submit**.
 
   Responses from the **TNS service desk** will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update.
+  
+- **Add a responsible contact** that will allow a specified member of your company to request to cancel a case on your behalf. You can do this by navigating to a case you created and selecting the search button next to the **Responsible Contact** field. A new window will appear where you can search for the contact you would like to add. After selecting the contact, scroll down to the bottom of the case, and then select **Submit**.
 
-- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**. You can also request to cancel cases created by other members of your company.
+- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**. Only case creators and designated responsible contacts can request to cancel a case.
 
 ## Related topics and additional resources
 

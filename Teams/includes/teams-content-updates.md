@@ -2,6 +2,41 @@
 
 
 
+## Week of March 06, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/6/2023 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
+| 3/6/2023 | [Configure dynamic emergency calling](/MicrosoftTeams/configure-dynamic-emergency-calling) | modified |
+| 3/6/2023 | [Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | modified |
+| 3/7/2023 | [Plan for meetings with external participants in Microsoft Teams](/MicrosoftTeams/plan-meetings-external-participants) | added |
+| 3/7/2023 | Calling Plans in Microsoft Teams | removed |
+| 3/7/2023 | Quick start guide - Configuring Calling Plans | removed |
+| 3/7/2023 | [Deploy Microsoft Teams Rooms on Android](/MicrosoftTeams/devices/collab-bar-deploy) | modified |
+| 3/7/2023 | [Place a Microsoft Teams user or team on legal hold](/MicrosoftTeams/legal-hold) | modified |
+| 3/7/2023 | Raise hand in Teams meetings | removed |
+| 3/7/2023 | Reset a conference ID for a user in Microsoft Teams | removed |
+| 3/7/2023 | See, change, and reset a user's conference ID | removed |
+| 3/8/2023 | [Admin training resources - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modified |
+| 3/8/2023 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 3/8/2023 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
+| 3/8/2023 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
+| 3/8/2023 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 3/8/2023 | [User requests for admins](/MicrosoftTeams/user-requests-approve-apps) | modified |
+| 3/8/2023 | [Zero-touch App Install for Teams apps](/MicrosoftTeams/zero-touch-app-install) | modified |
+| 3/8/2023 | [Manage who can start instant meetings and schedule meetings](/MicrosoftTeams/manage-who-can-schedule-meetings) | modified |
+| 3/8/2023 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | modified |
+| 3/8/2023 | Teams: Manage meeting policies | removed |
+| 3/8/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+| 3/9/2023 | [Microsoft Teams Rooms home screen design refresh](/MicrosoftTeams/rooms/mtr-home-refresh) | added |
+| 3/10/2023 | [Set up and configure Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | modified |
+| 3/10/2023 | [Emergency call routing for Calling Plans](/MicrosoftTeams/emergency-calling-availability) | modified |
+| 3/10/2023 | [Career Coach data and compliance information](/MicrosoftTeams/privacy-career-coach-data-compliance) | modified |
+| 3/10/2023 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
+| 3/10/2023 | [Scale video delivery in Microsoft Teams](/MicrosoftTeams/teams-stream-ecdn) | modified |
+
+
 ## Week of February 27, 2023
 
 
@@ -101,24 +136,3 @@
 | 2/9/2023 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
 | 2/10/2023 | Remove the RestrictedAnonymousAccess Teams meeting policy from users | removed |
 | 2/10/2023 | [Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
-
-
-## Week of January 30, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/30/2023 | [Manage Microsoft 365 connectors and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
-| 1/30/2023 | [Availability in the United Kingdom (U.K.)](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | modified |
-| 1/30/2023 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
-| 1/31/2023 | [Chat with distribution lists (DLs)](/MicrosoftTeams/chat-with-distribution-lists) | added |
-| 1/31/2023 | [Manage caller ID policies for users](/MicrosoftTeams/caller-id-policies) | modified |
-| 1/31/2023 | [How can caller ID be used in your organization](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modified |
-| 1/31/2023 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 1/31/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
-| 1/31/2023 | Set the Caller ID for a user | removed |
-| 1/31/2023 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
-| 1/31/2023 | [Shared line appearance in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modified |
-| 1/31/2023 | [How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviors.](/MicrosoftTeams/sign-in-teams) | modified |
-| 2/1/2023 | [Manage the Virtual Appointments app in Microsoft Teams](/MicrosoftTeams/manage-virtual-appointments-app) | modified |
-| 2/2/2023 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | modified |
