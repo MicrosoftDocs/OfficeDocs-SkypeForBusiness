@@ -169,6 +169,15 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 While new Teams is still in development and currently doesn't have the full feature set of classic Teams, this is continually changing. This available features list will be updated as new features are added and limitations removed.
 
+### Activity and notifications
+
+You'll receive notifications in your activity feed for most things, including @mentions, reactions, missed calls, and replies. 
+
+|Classic|New|Limitations|
+|:-----|:-----|:-----|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|Notifications from **apps**, including Microsoft Viva won't appear in your activity feed</br></br>Change:  Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|
+
+
 ### Chat
 
 Most chat features are available, including GIFs and emojis. There are just a few limitations.
@@ -207,7 +216,7 @@ On days when you have many meetings, you may want to use classic Teams to make s
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available. Example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams can participate in polls you launch from classic Teams. </br></br>When using the *Share screen* option to share content, toast notifications will still pop up, even if you have notifications muted.</br></br>Some meeting details won’t show up in new Teams.</br></br>When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br></br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported. However, some limited app capabilities are available. Example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams can participate in polls you launch from classic Teams.|
 
 
 ### Calls
