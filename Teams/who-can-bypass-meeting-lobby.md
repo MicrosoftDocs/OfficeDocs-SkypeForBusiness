@@ -158,8 +158,8 @@ You can set the meeting policies described in this article by using the [Set-CsT
 
 If a user recently had an undesired lobby experience in a meeting hosted by your organization, you can use the lobby diagnostic tool to investigate the expected lobby experience. This tool will explain the expected lobby experience for a specific user in a specific meeting and provide guidance to make policy changes if the current experience is not aligned with your configuration. Make sure you're signed into Microsoft 365 as a Teams administrator to access the tool.
 
->> [!div class="nextstepaction"]
->> [Run Tests: Lobby Access](https://admin.microsoft.com/AdminPortal/?searchSolutions=Diag:%20Bypass%20Lobby#/homepage)
+> [!div class="nextstepaction"]
+> [Run Tests: Lobby Access](https://admin.microsoft.com/AdminPortal/?searchSolutions=Diag:%20Bypass%20Lobby#/homepage)
 
 ## Related topics
 
