@@ -40,7 +40,7 @@ It's easy to toggle back and forth between using the classic and new Teams, so y
 
 >[!Note]
 >The new Teams is still in development and currently doesn't have the full feature set of classic Teams. New Teams **won't** available to the following platforms or customer segments during the preview phase.
->**Platforms**. Mac, VDI, Web
+>**Platforms**. Mac, VDI, Web</br>
 >**Customer segments**. Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 
