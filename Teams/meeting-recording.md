@@ -57,7 +57,7 @@ For a Teams user’s meetings to be recorded, OneDrive and SharePoint must be en
 > [!IMPORTANT]
 > Users won’t need OneDrive or SharePoint enabled if you want users to only record and download the recordings. This will mean that the recordings aren’t stored in OneDrive or SharePoint, but are instead stored in temporary Teams storage with a 21-day limit before it’s deleted. It’s not something that an admin can control, manage, or delete at this time.
 >  
-> For more [information on how temporary meeting recording storage works](#temp-storage), see below.
+> For more [information on how temporary meeting recording storage works](#temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint), see below.
 
 ## Configure Teams meeting recording policies
 
@@ -144,12 +144,12 @@ Migrated recordings from Stream (Classic) will not come with an expiration set o
 
 ## Permissions and storage
 
-Meeting recordings are stored in OneDrive and SharePoint storage. The location and permissions depend on the type of meeting and the role of the user in the meeting. Users that have full edit rights on the video recording file can change the permissions and share it later with others as needed. The default permissions applied to the recording are listed below.
+Teams meeting recordings are stored in OneDrive and SharePoint storage. The location and permissions depend on the type of meeting and the role of the user in the meeting. Users that have full edit rights on the video recording file can change the permissions and share it later with others as needed. The default permissions applied to the recording are listed below.
 
 ### Non-Channel meetings
 
-- The recording is stored in a folder named **Recordings** in the OneDrive of the user who clicked record.
-    Example: *recorder’s OneDrive*/**Recordings**
+- For non-channel meetings, the recording will be stored in the **Recordings** folder in the OneDrive directory of the user who started the recording.
+    Example: *Lee Gu - Contoso*/Recordings
 - People invited to the meeting, except external participants, will automatically be granted permission to the recording file with view access without ability to download.
 - The meeting owner and the person who clicked record will get full edit access with ability to change permissions and share with other people.
 
@@ -158,7 +158,7 @@ Meeting recordings are stored in OneDrive and SharePoint storage. The location a
 If the download of channel meeting recordings is allowed:
 
 - The recording is stored in the Teams site documentation library in a folder named **Recordings**.
-    Example: *Teams name - Channel name*/**Documents**/**Recordings**
+    Example: *Contoso Sales and Marketing - General*/**Documents**/**Recordings**
 - The user who clicked record has edit rights to the recording.
 - Every other member’s permissions are based on the Channel SharePoint permissions.
 
@@ -181,9 +181,9 @@ Meeting recordings may end up in this temporary storage for the following reason
 
 The recording retention for this is temporary storage is affected by the chat message itself. As such, any deletion of the original chat message for the recording will prevent users from being able to access the recording. There are two scenarios that can affect this:
 
-- **User manually deletes the chat message**—In this scenario, as the original message is gone, users will no longer be able to access the recording and no further downloads will be possible. However, the recording itself may still be retained within Microsoft’s internal systems for a time (not exceeding the original 21-day period).
+- **User manually deletes the chat message** — In this scenario, as the original message is gone, users will no longer be able to access the recording and no further downloads will be possible. However, the recording itself may still be retained within Microsoft’s internal systems for a time (not exceeding the original 21-day period).
 
-- **Recording chat message is deleted by chat retention policy**—Temporary storage recordings are directly tied to the chat retention policy. As such, although recordings on Teams temporary storage will by default be retained for 21 days before being deleted, if the chat message is deleted before the 21-day time period, due to chat message retention policies, the recording will also be deleted. There is no way to recover the recording after this.
+- **Recording chat message is deleted by chat retention policy** — Temporary storage recordings are directly tied to the chat retention policy. As such, although recordings on Teams temporary storage will by default be retained for 21 days before being deleted, if the chat message is deleted before the 21-day time period, due to chat message retention policies, the recording will also be deleted. There is no way to recover the recording after this.
 
 ### Planning for storage
 
@@ -216,5 +216,9 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 1. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
 
 ## Related topics
-- [Teams PowerShell overview]()
-- [Teams policy reference - Meeting]()
+
+- [Teams policy reference - Meetings](settings-policies-reference.md#meetings)
+- [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
+- [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
+- [Live event recording policies in Teams](/teams-live-events/live-events-recording-policies.md)
+- [Policy-based recording for callings & meetings](teams-recording-policy.md)
