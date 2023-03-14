@@ -26,9 +26,9 @@ In this article:
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
 
-This article describes the preview release of a new desktop client and does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
+This article describes the preview release of the new Teams desktop client, which does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
 
-New Teams **is not** available to the following platforms or customer segments during the preview phase:
+**Important:** New Teams **is not** available to the following platforms or customer segments during the preview phase:
 
 |Platforms|Customer segments|
 |:-----|:-----|
@@ -50,9 +50,10 @@ It's easy to toggle back and forth between using the classic and new Teams, so y
 ## How to roll out new Teams
 
 As an admin, you can manage which users in your organizations see or don't see the "Try Teams (preview)" toggle to use the new Teams.
+
 To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
-Manage this setting in the Teams admin center or using Teams PowerShell.
+Manage this setting in the **Teams admin center** or using **Teams PowerShell**.
 
 # [**Teams Admin Center**](#tab/teams-admin-center)
 
