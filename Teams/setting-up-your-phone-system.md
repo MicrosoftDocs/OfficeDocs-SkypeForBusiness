@@ -63,7 +63,7 @@ The Microsoft Teams Phone System with Calling Plan license bundle is Microsoftâ€
 
 ## Step 2: Choose a PSTN connectivity option
 
-Microsoft provides multiple options for making external calls to the PSTN, including:
+Microsoft options for making external calls to the PSTN include:
 
 - [Microsoft Calling Plan](calling-plans-for-office-365.md). An all-in-the-cloud solution with Microsoft as your PSTN carrier. If you choose Microsoft Calling Plan as your connectivity option, you have a choice of Calling Plan options, including Domestic, International, and Pay-as-you-go plans.
 
