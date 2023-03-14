@@ -73,7 +73,7 @@ To find out more about private meeting scheduling, read [Manage who can start an
 
 This is a per-user policy. This setting controls whether meeting organizers can download the engagement report for a meeting or webinar.
 
-This policy is on by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Off**.
+This policy is off by default. If you turn this on, your organizers can see who registered and attended the meetings and webinars they set up. To turn it on in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Turn on**.
 
 When this policy is enabled, the option to download the meeting engagement report is displayed in the **Participants** pane.
 
