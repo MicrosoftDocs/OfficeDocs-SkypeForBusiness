@@ -43,15 +43,15 @@ This article describes the following steps. Each step contains links to more det
  
 - [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
-- [Step 3: Set up emergency locations for emergency calling](#step-3-set-up-emergency-locations-for-emergency-calling)
-- [Step 4: Get and assign phone numbers for your users and services](#step-4-get-and-assign-phone-numbers-for-your-users-and-services)
-- [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue)
-- [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant)
+- [Step 3: Get and assign phone numbers for your users and services](#step-3-get-and-assign-phone-numbers-for-your-users-and-services)
+- [Step 4: Set up emergency locations for emergency calling](#step-4-set-up-emergency-locations-for-emergency-calling)
+- [Step 5: If you want to set up an auto attendant](#step-5-if-you-want-to-set-up-an-auto-attendant)
+- [Step 6: If you want to set up a call queue](#step-6-if-you-want-to-set-up-a-call-queue)
 - [Step 7: Set up other Phone System features](#step-7-set-up-other-phone-system-features)
 - [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
 > [!NOTE]
-> Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, phone number management and emergency calling management might differ.  These differences are described in detail in the associated articles.
+> Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, phone number management and emergency calling management might differ. These differences are described in detail in the associated articles.
 
 ## Step 1: Buy and assign a Phone System license
 
@@ -75,18 +75,7 @@ Microsoft provides multiple options for making external calls to the PSTN, inclu
 
 For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](/teams-add-on-licensing/microsoft-teams-add-on-licensing?branch=crowe-phone-system#voice-and-pstn-connectivity.md).
 
-
-## Step 3: Set up emergency locations for emergency calling
-
-An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. 
-
-How you set up emergency locations differs depending on the PSTN connectivity option you choose. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
-
-Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology. For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
-
-For information about assigning emergency locations to users, see [Assign an emergency location](assign-change-emergency-location-user.md).
-
-## Step 4: Get and assign phone numbers for your users and services
+## Step 3: Get and assign phone numbers for your users and services
 
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
 
@@ -103,6 +92,16 @@ For information on how to manage phone numbers for your users and services, see 
 - [Manage resource accounts for service numbers](manage-resource-accounts.md) - Describes how to create resource accounts for auto attendants and call queues, and assign service numbers to those resource accounts.
 
 - [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get, depending on the types of telephone numbers and types of licenses you've bought and assigned.
+
+## Step 4: Set up emergency locations for emergency calling
+
+An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. 
+
+How you set up emergency locations differs depending on the PSTN connectivity option you choose. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
+Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology. For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
+
+For information about assigning emergency locations to users, see [Assign an emergency location](assign-change-emergency-location-user.md).
 
 
 ## Step 5: If you want to set up a call queue
