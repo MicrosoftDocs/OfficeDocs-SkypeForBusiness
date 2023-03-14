@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
-ms.date: 02/01/2019
+ms.date: 03/15/2023
 search.appverid: MET150
 description: Learn how to plan Location-Based Routing for Teams Phone Direct Routing.
 ms.localizationpriority: medium
@@ -193,7 +193,7 @@ When a user enabled for Location-Based Routing transfers a call, the system will
 
 If you're deploying Location-Based Routing in India, you must also configure media bypass. For more information, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
-### Direct Voice over IP (VoIP)
+## Direct Voice over IP (VoIP)
 
 Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in India.
 
