@@ -39,7 +39,7 @@ To enable your users to make and receive external calls, you'll need to connect 
 If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization. 
 
 
-This article describes the following steps. Each step contains links to more detailed information.
+This article introduces the following steps. Each step contains links to more detailed information.
  
 - [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
@@ -93,11 +93,13 @@ For information on how to manage phone numbers for your users and services, see 
 
 - [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get, depending on the types of telephone numbers and types of licenses you've bought and assigned.
 
-## Step 4: Set up emergency locations for emergency calling
+## Step 4: Set up emergency calling
+
+To set up emergency calling, you--or your PSTN carrier--must define emergency locations and ensure that emergency locations are assigned to each user.  
 
 An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. 
 
-How you set up emergency locations differs depending on the PSTN connectivity option you choose. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+How you set up emergency locations and assign these locations to users differs depending on the PSTN connectivity option you choose. For some options, your carrier assumes much of the responsibility for setting up emergency calling.  For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology. For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
