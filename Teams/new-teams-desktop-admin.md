@@ -357,18 +357,6 @@ In the future, when notification are turned off, you'll see a banner indicating 
 
 
 
-|Feature area|March 2023|Q3 2023|Q4 2023|
-|:-----|:-----|:-----|:-----|
-|Platforms|Desktop|Mac|VDI</br>Web|
-|Activity & Notifications|X|X|X|
-|Chat|X|X|X|
-|Teams|X|X|X|
-|Channels|X|X|X|
-|Calendars & Meetings|X|X|X|
-|Calls|X|X|X|
-|Apps|X|X|X|
-|Multi-tenant Multi account|X|X|X|
-
 </br></br>
 
 |Feature area|March 2023|Q3 2023|Q4 2023|
