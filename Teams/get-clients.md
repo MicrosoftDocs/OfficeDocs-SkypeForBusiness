@@ -101,8 +101,6 @@ If a user currently has a DMG installation of Teams and wants to replace it with
 
 IT Pros can use a managed deployment solution, such as Jamf Pro, to distribute the Teams installation files to all Macs in their organization.
 
----
-
 ## Mobile clients
 
 The Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.
