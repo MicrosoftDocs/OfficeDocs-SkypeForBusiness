@@ -189,7 +189,7 @@ Here are the limitations:
 
 |Classic|New|Limitations|
 |:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available.|
+|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-square.png" alt-text="available ":::Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. </br></br>You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available.|
 
 
 **Channels**
