@@ -51,7 +51,7 @@ This article describes the following steps. Each step contains links to more det
 - [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
 > [!NOTE]
-> Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, phone number management and emergency calling management might differ. These differences are described in detail in the associated articles.
+> Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, the steps and sequence for phone number management and emergency calling management might differ. These differences are described in detail in the associated articles.
 
 ## Step 1: Buy and assign a Phone System license
 
