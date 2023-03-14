@@ -35,7 +35,7 @@ When a Microsoft Power Platform app is created or shared, users can view and ins
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built with Power Platform.":::
 
-End-users see an app in **Built with Power Platform** if the app meets one of the following conditions.
+Users see an app in **Built with Power Platform** if the app meets one of the following conditions.
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
