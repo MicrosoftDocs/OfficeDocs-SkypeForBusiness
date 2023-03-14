@@ -42,15 +42,6 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li>Vienna </ul>If you want dedicated phone numbers, see [Getting service phone numbers](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
-## Phone System
-
-|**Feature**|**Details**|
-|:-----|:-----|
-|Is Phone System available for purchase?  <br/> |Yes  <br/> |
-| Auto attendants <br/> |Available  <br/> |
-|Call queues  <br/> |Available  <br/> |
-|Voicemail  <br/> |Available  <br/> |
-   
 ## Calling Plans
 
 |**Feature**|**Details**|
@@ -60,7 +51,6 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Can make outbound calls to premium numbers?  <br/> | Yes <br/> |
 |Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
-   
 ## Toll and toll-free numbers for services
 
 |**Feature**|**Details**|
