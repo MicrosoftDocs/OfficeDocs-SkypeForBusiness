@@ -48,34 +48,20 @@ New Microsoft Teams is the latest version of the Microsoft Teams desktop client.
 
 It's easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
 
-## Release roadmap
+## New Teams release roadmap
 
-Starting with desktop, the new Teams will soon be available for Mac, Web, & VDI.
+While all major of areas of new Teams will be available during the preview phase, additional functionality will be added over the next few months and in this calendar year (CY).
 
-### Platform release
-
-
-|Platform|March '23|Summer 23|Fall 23|
+|Area|March 2023|Q2 CY23|Q3 CY23|Q4 CY23|
 |:-----|-----|:-----|:-----|:-----|
-|Desktop|:::image type="content" source="media/purple-square.png" alt-text="Available":::|||
-|Mac||:::image type="content" source="media/purple-square.png" alt-text="Available":::||
-|Web||:::image type="content" source="media/purple-square.png" alt-text="Available":::||
-|VDI|||:::image type="content" source="media/purple-square.png" alt-text="Available":::|
-
-### Feature release
-
-While all major of areas of new Teams will be available during the preview phase, additional functionality will be added over the next few months.
-
-
-|Area|March '23|April '23|May '23|Jun '23|
-|:-----|-----|:-----|:-----|:-----|
+|Platform|Desktop||Mac|VDI</br>Web|
 |Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Apps notifications in your activity feed, including Microsoft Viva</br></br>Notifications for multi-tenant multi-accounts|||
-|Chats|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add tabs to chat</br></br>Immersive reader||
+|Chats|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add tabs to chat</br></br>Immersive reader|||
 |Teams|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add a new member to a team</br></br>Create, edit, delete, or archive a team</br></br>Notified  when someone requests to join a team</br></br>Team renewal notifications</br></br>Option to share a link to a team</br></br>Offline support</br></br>|||
-|Channels|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane||
-|Calendars & Meetings|:::image type="content" source="media/purple-square.png" alt-text="Available":::|||Breakout rooms</br></br>Presenter toolbar</br></br>Whiteboard</br></br>Live Events</br></br>Present in Teams feature in PowerPoint</br></br>New app installation|
+|Channels|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane|||
+|Calendars & Meetings|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Breakout rooms</br></br>Presenter toolbar</br></br>Whiteboard</br></br>Live Events</br></br>Present in Teams feature in PowerPoint</br></br>New app installation||
 |Calls|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
-|Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>AppStore||
+|Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>AppStore|||
 |Multi-tenant multi-account|:::image type="content" source="media/purple-square.png" alt-text="Available":::||||
 
 
