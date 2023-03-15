@@ -25,6 +25,7 @@ ms.localizationpriority: high
 In this article:
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [What's available in new Teams](#whats-available-in-the-new-teams)
+- [Known issues](#known-issues)
 
 This article describes the preview release of the new Teams desktop client, and currently does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
 
