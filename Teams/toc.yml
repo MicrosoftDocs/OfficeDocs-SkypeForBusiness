@@ -673,7 +673,7 @@ items:
             - name: Virtual appointment meeting template
               href: virtual-appointment-meeting-template.md
             - name: Teams meeting recording
-              href: cloud-recording.md
+              href: meeting-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
             - name: Use the Teams Meeting add-in in Outlook
