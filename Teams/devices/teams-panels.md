@@ -53,6 +53,8 @@ Teams panels are supported in the following Microsoft Cloud environments:
 - Worldwide
 - GCC
 - GCC-High
+  > [!NOTE]
+  > Room capacity warnings, which can be displayed on a panel when a room's maximum capacity is exceeded, aren't available in the GCC-High environment.
 
 ## License requirement
 
