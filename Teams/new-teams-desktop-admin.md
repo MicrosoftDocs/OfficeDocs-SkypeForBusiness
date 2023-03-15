@@ -179,6 +179,7 @@ As we improve the client, the experience has been improved to align with similar
 |:-----|:-----|:-----|
 |Wiki|The Wiki app has been replaced by the Notes app|
 |Saving messages and files in Teams|Use the new flagging feature|
+|Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
 |Channels DocLib app|Use the Sharepoint app in channels instead|
 |DocLib folder select in channel upload|Go to a specific folder and upload|
 |Legacy web app companion (WAC) viewer|Use the OneUp viewer|
