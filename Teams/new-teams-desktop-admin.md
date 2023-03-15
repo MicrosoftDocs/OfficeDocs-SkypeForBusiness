@@ -40,7 +40,7 @@ This article describes the preview release of the new Teams desktop client. No c
 
 Reimagined from the ground up with a performance-first mindset, the new Teams provides a faster, simpler, and more flexible experience. New Teams installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
-New Teams ensures more efficient use of device resources. Lower memory and disk usage by using a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
+New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 ## How to roll out new Teams
 
