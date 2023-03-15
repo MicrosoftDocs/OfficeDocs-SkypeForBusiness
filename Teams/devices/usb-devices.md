@@ -4,9 +4,10 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: dougand
-ms.date: 06/13/2018
+ms.date: 03/15/2023
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
   - Tier3
   - M365-voice
