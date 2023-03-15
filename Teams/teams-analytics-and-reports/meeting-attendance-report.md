@@ -1,7 +1,7 @@
 ---
 title: Attendance report for meetings and webinars in Microsoft Teams
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
