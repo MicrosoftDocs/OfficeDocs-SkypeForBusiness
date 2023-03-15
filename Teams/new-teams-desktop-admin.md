@@ -24,11 +24,11 @@ ms.localizationpriority: high
 
 In this article:
 - [What is new Teams?](#what-is-new-teams)
-- [Release roadmap](#release-roadmap)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
+- [Release roadmap](#release-roadmap)
 - [Known issues](#known-issues)
 
-This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There is no new mobile app (iOS or Android). This preview release does not have the complete feature set of classic Teams.
+This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
 **Important:** New Teams **is not** available to the following platforms or customer segments during the preview phase:
 
@@ -38,32 +38,9 @@ This article describes the preview release of the new Teams desktop client. No c
 
 ## What is new Teams?
 
-New Microsoft Teams is the latest version of the Microsoft Teams desktop client. New Teams has been rebuilt from the ground up and offers:
+Reimagined from the ground up with a performance-first mindset, the new Teams provides a faster, simpler, and more flexible experience. New Teams installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
-- Better performance
-- Lower CPU, memory usage, and disk space consumption
-- Your device will consume less battery
-- More reliable all-around​​​​​​​
-- Multi-account support - letting you collaborate seamlessly across accounts and tenants 
-
-It's easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
-
-## New Teams release roadmap
-
-While all significant areas of new Teams will be available at the initial preview release, additional features will be added over the next few months with support for more platforms later in this calendar year (CY).
-
-|Area|March 2023|Q2 CY23|Q3 CY23|Q4 CY23|
-|:-----|-----|:-----|:-----|:-----|
-|Platform|Desktop||Mac|VDI</br>Web|
-|Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Apps notifications in your activity feed, including Microsoft Viva</br></br>Notifications for multi-tenant multi-accounts|||
-|Chats|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add tabs to chat</br></br>Immersive reader|||
-|Teams|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add a new member to a team</br></br>Create, edit, delete, or archive a team</br></br>Notified  when someone requests to join a team</br></br>Team renewal notifications</br></br>Option to share a link to a team</br></br>Offline support</br></br>|||
-|Channels|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane|||
-|Calendars & Meetings|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Breakout rooms</br></br>Presenter toolbar</br></br>Whiteboard</br></br>Live Events</br></br>Present in Teams feature in PowerPoint</br></br>New app installation||
-|Calls|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
-|Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>AppStore|||
-|Multi-tenant multi-account|:::image type="content" source="media/purple-square.png" alt-text="Available":::||||
-
+New Teams ensures more efficient use of device resources. Lower memory and disk usage by using a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 ## How to roll out new Teams
 
@@ -177,26 +154,40 @@ Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
+## New Teams release roadmap
 
+While all significant areas of new Teams will be available at the initial preview release, more features will be added over the next few months with support for more platforms later in this calendar year (CY).
+
+|Area|March 2023|Q2 CY23|Q3 CY23|Q4 CY23|
+|:-----|-----|:-----|:-----|:-----|
+|Platform|Desktop||Mac|VDI</br>Web|
+|Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Apps notifications in your activity feed, including Microsoft Viva</br></br>Notifications for multi-tenant multi-accounts|||
+|Chats|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add tabs to chat</br></br>Immersive reader|||
+|Teams|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add a new member to a team</br></br>Create, edit, delete, or archive a team</br></br>Notified  when someone requests to join a team</br></br>Team renewal notifications</br></br>Option to share a link to a team</br></br>Offline support</br></br>|||
+|Channels|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane|||
+|Calendars & Meetings|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Breakout rooms</br></br>Presenter toolbar</br></br>Whiteboard</br></br>Live Events</br></br>Present in Teams feature in PowerPoint</br></br>New app installation||
+|Calls|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
+|Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>AppStore|||
+|Multi-tenant multi-account|:::image type="content" source="media/purple-square.png" alt-text="Available":::||||
 
 ## Known issues
 
-There are a few known issues we are working on.
+There are a few known issues we're working on.
 
 ### Installation
 
 - **Issue:** </br>After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
-This is expected behavior. Go ahead and select the link to restart.
+Receiving this message is expected behavior. Go ahead and select the link to restart.
 
 - **Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.
 Download and install WebView2 Runtime. After you’ve finished, restart the Teams desktop app and try again.
 
 If you're still running into problems, contact the Global Helpdesk.
 
-- **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com is not yet supported.
-Please use your primary Azure account name (your alias) to sign into new Teams.
+- **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com isn't yet supported.
+Use your primary Azure account name (your alias) to sign into new Teams.
 
-- **Issue:** </br>Some people do not see the toggle to opt in.
+- **Issue:** </br>Some people don't see the toggle to opt in.
 First, double check the system requirements. You'll need a Windows device and an up-to-date version of classic Teams.
 
 Next, try signing out and back into the Teams desktop app.
@@ -205,21 +196,21 @@ Next, try signing out and back into the Teams desktop app.
 2. Select Sign out
 3. When the app relaunches, sign back in
 
-If you still don’t see the toggle, you can try the following:
+If you still don’t see the toggle, try this:
 
 1. Right-click on the Teams app icon in your taskbar and select Quit
 2. Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
 3. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
-4. Delete all contents of the folder (don’t worry, this will not delete the Teams app or affect any of your custom settings).If you get any messages that a certain file or folder can’t be deleted, select Skip.
+4. Delete all contents of the folder (don’t worry, this won't delete the Teams app or affect any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
 5. Relaunch the Teams app, then right-click on the icon and select Quit
 6. Relaunch the Teams app one more time, and you should see the switcher.
 
-If these steps don’t work, please reach out to the Global Helpdesk.
+If these steps don’t work, reach out to the Global Helpdesk.
 
 ### General
 
-- **Issue:** </br>Organization tab is not available on chat
-Details: This has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
+- **Issue:** </br>Organization tab isn't available on chat
+Details: The organization tab has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 ### Accessibility
 
@@ -235,7 +226,7 @@ Workaround/details: The product group is working to resolve this issue.
 
 ### Meetings
 
-- **Issue:** </br>When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).</br>
+- **Issue:** </br>When a meeting starts, you won’t receive a Teams notification with an option to join (for example, a meeting-start notification).</br>
 Workaround/details: ​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
 
 - **Issue:** </br>When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
@@ -246,9 +237,9 @@ Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 Details: This includes forwards, "show as," and assigned meeting categories. 
 
 - **Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
-Workaround:  If you leave a meeting by accident, simply re-join.
+Workaround:  If you leave a meeting by accident, re-join.
 
-- **Issue:** </br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.</br>
+- **Issue:** </br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.</br>
 Workaround: ​Select Join in the channel conversation to join the meeting.
 
 - **Issue:** </br> When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
@@ -259,7 +250,7 @@ Details: ​The product group is investigating this issue.
 
 ### Messaging
 
-- **Issue:** </br>Compose box is not defaulting to typing field once switching to Chat. Workaround:  Click to start typing. 
+- **Issue:** </br>Compose box isn't defaulting to typing field once switching to Chat. Workaround:  Select to start typing. 
 
 ### Multi-Tenant Multi-Account (MTMA)
 
@@ -268,8 +259,8 @@ Workaround: If you sign out and back in, the banner shouldn't appear anymore. [L
 
 ### Notifications
 
-- **Issue:** </br>Some Teams users are not receiving notifications of chat mentions, meetings or calls.
-Details: In some cases this is due to bugs that the product group are working to fix.
-Check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
+- **Issue:** </br>Some Teams users aren't receiving notifications of chat mentions, meetings or calls.
+Details: In some cases, this is due to bugs that the product group is working to fix.
+Check to make sure that you have notifications turned on in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
 
-In the future, when notification are turned off, you'll see a banner indicating this.
+In the future, when notifications are turned off, you'll see a banner indicating this.
