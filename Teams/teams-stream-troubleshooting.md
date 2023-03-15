@@ -37,7 +37,7 @@ Teams requires connectivity to the internet. All endpoints listed on [Office 365
 
 #### Teams Encoder live events - RMTP ingest endpoints
 
-To get a video feed for a Teams Encoder live event sent to Teams from your encoder, you'll need the domain name and ports open in your network's firewall:
+To get a video feed for a Teams Encoder live event sent to Teams from your encoder, you'll need the domain name and ports open in your network's firewall:
 
 - Domains: *.rtmpingest.mcr.teams.microsoft.com
 - Ports: 1935/1936 (for RTMP/RTMPS)
