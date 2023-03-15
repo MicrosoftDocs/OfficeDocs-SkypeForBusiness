@@ -255,223 +255,97 @@ Apps will continue to be added individually until the AppStore is available.
 
 ### Installation
 
-**Issue:** After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
+**Issue:** </br>After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
 This is expected behavior. Go ahead and select the link to restart.
 
-**Issue:** Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install New Teams.
+**Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install New Teams.
 Download and install WebView2 Runtime. After you’ve finished, restart the Teams desktop app and try again.
 
 If you're still running into problems, contact the Global Helpdesk.
 
-**Issue:** Sign-in using email address <first name>.<last name>@microsoft.com is not yet supported.
+**Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com is not yet supported.
 Please use your primary Azure account name (your alias) to sign into New Teams.
 
-**Issue:** Some people do not see the toggle to opt in.
+**Issue:** </br>Some people do not see the toggle to opt in.
 First, double check the system requirements. You'll need a Windows device and an up-to-date version of Classic Teams.
 
 Next, try signing out and back into the Teams desktop app.
 
-Select your profile pic in the upper-right corner
-Select Sign out
-When the app relaunches, sign back in
-Profile pic selected in the Teams desktop app, with "Sign out" highlighted
+1. Select your profile pic in the upper-right corner
+2. Select Sign out
+3. When the app relaunches, sign back in
 
 If you still don’t see the toggle, you can try the following:
 
-Right-click on the Teams app icon in your taskbar and select Quit
-Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
+1. Right-click on the Teams app icon in your taskbar and select Quit
+2. Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
+3. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
+4. Delete all contents of the folder (don’t worry, this will not delete the Teams app or affect any of your custom settings).If you get any messages that a certain file or folder can’t be deleted, select Skip.
+5. Relaunch the Teams app, then right-click on the icon and select Quit
+6. Relaunch the Teams app one more time, and you should see the switcher.
 
-File Explorer with address bar highlighted
-
-Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
-Delete all contents of the folder (don’t worry, this will not delete the Teams app or affect any of your custom settings).
-If you get any messages that a certain file or folder can’t be deleted, select Skip.
-Relaunch the Teams app, then right-click on the icon and select Quit
-Relaunch the Teams app one more time, and you should see the switcher.
 If these steps don’t work, please reach out to the Global Helpdesk.
 
 ### General
 
-**Issue:** Organization tab is not available on chat
+**Issue:** </br>Organization tab is not available on chat
 This has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card.
 
 This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 ### Accessibility
 
-**Issue:** There may be accessibility gaps between New and Classic Teams.
+**Issue:** </br>There may be accessibility gaps between New and Classic Teams.
 If you discover any accessibility gaps, please select the ellipsis (...) > Help > Report a problem in the Teams desktop app. This will alert the product group to the issue.
 
 If you would like a response or the issue is impacting your work, please contact the Global Helpdesk.
 
 ### Calls
 
-**Issue:** Increased power usage during calls may cause CPU throttling and negatively impact performance.
+**Issue:** </br>Increased power usage during calls may cause CPU throttling and negatively impact performance.
 Workaround/details: The product group is working to resolve this issue.
 
 ### Meetings
 
-**Issue:** When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).</br>
+**Issue:** </br>When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).</br>
 Workaround/details: ​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
 
-**Issue:** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
+**Issue:** </br>When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
 This means that meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
-**Issue:**  Some meeting details won’t appear in New Teams.</br>
+**Issue:** </br> Some meeting details won’t appear in New Teams.</br>
 This includes forwards, "show as," and assigned meeting categories. 
 
-**Issue:**  When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
+**Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
 If you leave a meeting by accident, simply re-join. (It happens to the best of us!)
 
-**Issue:** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.</br>
+**Issue:** </br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.</br>
 ​Select Join in the channel conversation to join the meeting.
 
-**Issue:**  When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
+**Issue:** </br> When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
 When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However, nothing will happen until they come off mute or turn on their video.
 
-**Issue:**  Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
+**Issue:** </br> Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
 ​The product group is investigating this issue.
 
 ### Messaging
 
-**Issue:** Compose box is not defaulting to typing field once switching to Chat. Click to start typing. 
+**Issue:** </br>Compose box is not defaulting to typing field once switching to Chat. Click to start typing. 
 
 ### Multi-Tenant Multi-Account (MTMA)
 
-**Issue:**  When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts.
+**Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts.
 For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
 
 If you sign out and back in, the banner shouldn't appear anymore. Learn more about this issue.
 
 ### Notifications
 
-**Issue:** Some Teams users are not receiving notifications of chat mentions, meetings or calls.
+**Issue:** </br>Some Teams users are not receiving notifications of chat mentions, meetings or calls.
 In some cases this is due to bugs that the product group are working to fix.
 
 You may also want to check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
 
 In the future, when notification are turned off, you'll see a banner indicating this.
-
- 
-</br><br>
-Ignore
-below is testing viability of tables 
-
-
-|Area|March 23|April 23|May 23|June 23|July 23|Augu 23|Sept 23|Oct 23|Nov 23|Dec 23|
-|:-----|:-----|:-----|:-----|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|
-|**Activity and notifications**|X||||||||||
-|	Features pending:	|||||||||||
-|	Notifications from apps, including Microsoft Viva, in your activity feed	|||||||||||
-|	Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right	|||||||||||
-|**Chats**|||||||||||
-|	Adding tabs to chat	|||||||||||
-||||||||||||
-|	Immersive reader |||||||||||
-|**Teams**|||||||||||
-|	Add a new member to a team.	|||||||||||
-|	Create, edit, delete, or archive a team.	|||||||||||
-|	Notification when someone requests to join a team.	|||||||||||
-|	Team renewal notifications.	|||||||||||
-|	Share a link to a team.	|||||||||||
-|	Offline support |||||||||||
-|**Channels**	|||||||||||
-|	You can’t add a new member to a private or shared channel.	|||||||||||
-|	You can’t create, edit, or delete a channel.	|||||||||||
-|	Post in multiple channels isn't supported.	|||||||||||
-|	You can’t invite an entire team to a shared channel.	|||||||||||
-|	You can't manage Tabs.	|||||||||||
-|	There isn’t the option to share a link to a channel.	|||||||||||
-|	Ctrl+F not available for searching within channels.	|||||||||||
-|	You can't edit channel notification settings.	|||||||||||
-|	The channel info pane isn't available.	|||||||||||
-|	Calendars & Meetings	|||||||||||
-|	Breakout rooms not supported	|||||||||||
-|	Presenter toolbar not supported	|||||||||||
-|	Whiteboard not supported	|||||||||||
-|	Live Events not supported	|||||||||||
-|	Present in Teams feature in PowerPoint not available	|||||||||||
-|	As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.	|||||||||||
-|	New app installation isn’t supported, however, some limited app capabilities are available. Example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams can participate in polls you launch from classic Teams.	|||||||||||
-|**Calls**|||||||||||
-|	Voicemail shortcut on dial pad not available	|||||||||||
-|	Contacts and speed dial not available	|||||||||||
-|	Live captions and transcriptions not available for external calls	|||||||||||
-|	Call merges and transfers not available for external calls	|||||||||||
-|	Call forwarding and routing not available	|||||||||||
-||||||||||||
-|	Call queues not available	|||||||||||
-|	Reverse number lookup not available	|||||||||||
-|	Voice-enabled channels not available	|||||||||||
-|	Delegation not available	|||||||||||
-|	Shared lines not available	|||||||||||
-|	Survivable branch appliance (SBA) not available	|||||||||||
-|**Apps**|||||||||||
-|	No notifications from any apps in your Activity feed.	|||||||||||
-|	Pop out app isn't available.	|||||||||||
-|	You can only pin an app in classic Teams. After 24 hours, it will	|||||||||||
-|	be reflected in new Teams. Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll. 	|||||||||||
-|	You may notice some small differences in the user interface (UI).	|||||||||||
-|	The App Store is currently not available.	|||||||||||
-|**Multi-tenant multi account**|||||||||||
-
-
-
-
-|Area|	Limitation|Available|
-|:-----|:-----|:-----|
-|***Activity and notifications***|
-|	Pending |
-|	Notifications from apps, including Microsoft Viva, won't appear in your activity feed	|
-|	Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|
-|***Chats***|
-|	Can't add tabs to chat	||
-|	Immersive reader not available	||
-|***Teams***|
-|	You can’t add a new member to a team.	|
-|	You can’t create, edit, delete, or archive a team.	|
-|	You won’t be notified when someone requests to join a team.	||
-|	You won’t see team renewal notifications.||
-|	There isn’t the option to share a link to a team.||
-|	Offline support isn’t available.||
-|***Channels***|
-|	You can’t add a new member to a private or shared channel.||
-|	You can’t create, edit, or delete a channel.||
-|	Post in multiple channels isn't supported.||
-|	You can’t invite an entire team to a shared channel.||
-|	You can't manage Tabs.||
-|	There isn’t the option to share a link to a channel.||
-|	Ctrl+F not available for searching within channels.||
-|	You can't edit channel notification settings.||
-|	The channel info pane isn't available.||
-|	Calendars & Meetings||
-|	Breakout rooms not supported||
-|	Presenter toolbar not supported	||
-|	Whiteboard not supported||
-|	Live Events not supported||
-|	Present in Teams feature in PowerPoint not available||
-|	As a meeting organizer, you can enable Q&A from meeting options; however, attendees using new Teams can only post questions or responses if they switch back to classic Teams.	||
-|	New app installation isn’t supported, however, some limited app capabilities are available. Example: As the meeting organizer, you can't add the Polls app or create a new poll from new Teams. However, any attendees using new Teams can participate in polls you launch from classic Teams.||
-|***Calls***|
-|	Voicemail shortcut on dial pad not available||
-|	Contacts and speed dial not available||
-|	Live captions and transcriptions not available for external calls||
-|	Call merges and transfers not available for external calls||
-|	Call forwarding and routing not available||
-|	Call queues not available||
-|	Reverse number lookup not available	||
-|	Voice-enabled channels not available||
-|	Delegation not available||
-|	Shared lines not available||
-|	Survivable branch appliance (SBA) not available||
-|**Apps**|
-|	No notifications from any apps in your Activity feed.||
-|	Pop out app isn't available.||
-|	You can only pin an app in classic Teams. After 24 hours, it will be reflected in new Teams. Apps won't display content in meeting window. For apps like Polls, use meeting chat to respond to poll. ||
-|	You may notice some small differences in the user interface (UI).||
-|	The App Store is currently not available.	||
-|**Multi-tenant multi account**|
-
-
 
