@@ -23,8 +23,9 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client (preview)
 
 In this article:
+- [What is new Teams?](#what-is-new-teams)
+- [Release roadmap](#release-roadmap)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
-- [What's available in new Teams](#whats-available-in-the-new-teams)
 - [Known issues](#known-issues)
 
 This article describes the preview release of the new Teams desktop client, and currently does not have the full feature set of classic Teams. No changes have been made in how the service works and the backend remains the same. There is no new mobile app (iOS or Android).
@@ -46,6 +47,20 @@ New Microsoft Teams is the latest version of the Microsoft Teams desktop client.
 - Multi-account support - letting you collaborate seamlessly across accounts and tenants 
 
 It's easy to toggle back and forth between using the classic and new Teams, so you might choose to take advantage of the new Teams performance enhancements on some days and switch back to classic when more advanced features are required.
+
+## Release roadmap
+
+
+|Area|March '23|April '23|May '23|Jun '23|
+|:-----|-----|:-----|:-----|:-----|
+|Activity & Notifications|X|Notifications in your activity feed from apps, including Microsoft Viva</br></br>Notifications for accounts you've added using multi-tenant multi-account will appear in the upper-right|||
+|Chats|X||Add tabs to chat</br></br>Immersive reader||
+|Teams|X|Add a new member to a team</br></br>Create, edit, delete, or archive a team</br></br>Notified  when someone requests to join a team</br></br>Team renewal notifications</br></br>Option to share a link to a team</br></br>Offline support</br></br>|||
+|Channels|X||Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane||
+|Calendars & Meetings|X|||Breakout rooms</br></br>Presenter toolbar</br></br>Whiteboard</br></br>Live Events</br></br>Present in Teams feature in PowerPoint</br></br>New app installation|
+|Calls|x|Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
+|Apps|X||Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>AppStore<||
+|Multi-tenant multi-account|X||||
 
 
 ## How to roll out new Teams
@@ -160,98 +175,11 @@ Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
-</br>
-
-## What's available in the new Teams
-
-While new Teams currently doesn't have the full feature set of classic Teams, this is continually changing. The features lists shown here will be updated as new features are added and limitations removed.
-
-### Activity and notifications
-
-You'll receive notifications in your activity feed for most things, including @mentions, reactions, missed calls, and replies. 
-
-|Classic|New|Limitations|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="available with limitations":::Available with limitations|Notifications from **apps**, including Microsoft Viva, won't appear in your activity feed</br></br>Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right|
-
-
-### Chat
-
-Most chat features are available, including GIFs and emojis. There are just a few limitations.
-
-|Classic|New|Limitations|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Can't add tabs to chat</br></br>Immersive reader not available|
-
-### Teams and channels
-
-New Teams features a brand-new channel experience that hasn’t been released in classic Teams yet. You’ll find the latest conversations at the top of your feed. You can also pop out channel conversations just like you do with chats, and drill down to individual channel conversations. 
-
-When you need some of the more advanced functionality, switch back to classic Teams.
-
-Here are the limitations:
-
-**Teams** 
-
-|Classic|New|Limitations|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|You can’t add a new member to a team.</br></br>You can’t create, edit, delete, or archive a team. </br></br>You won’t be notified when someone requests to join a team.</br></br>You won’t see team renewal notifications.</br></br>There isn’t the option to share a link to a team.</br></br>Offline support isn’t available.|
-
-
-**Channels**
-
-|Classic|New|Limitations|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|You can’t add a new member to a private or shared channel.</br></br>You can’t create, edit, or delete a channel.</br></br>*Post in multiple channels* isn't supported.</br></br>You can’t invite an entire team to a shared channel.</br></br>You can't manage Tabs.</br></br>There isn’t the option to share a link to a channel.</br></br>Ctrl+F not available for searching within channels.</br></br>You can't edit channel notification settings.</br></br>The channel info pane isn't available.|
-
-
-### Calendar and meetings
-
-You can schedule and join meetings in the new Teams with basic functionality and experience the better performance of the new Teams. If you need more advanced meeting features, use classic Teams for the time being. ​​​​​​​
-
-On days when you have many meetings, you may want to use classic Teams to make sure you get meeting-start notifications.
-
-|Classic|New|Limitations|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Breakout rooms not supported</br></br>Presenter toolbar not supported</br></br>Whiteboard not supported</br></br>Live Events not supported</br></br>*Present in Teams* feature in PowerPoint not available</br></br>As a meeting organizer, you can enable Q&A from meeting </br>options; however, attendees using new Teams can only post </br>questions or responses if they switch back to classic Teams.</br></br>New app installation isn’t supported, however, some limited app</br> capabilities are available. Example: As the meeting organizer, you </br>can't add the Polls app or create a new poll from new Teams.</br>However, any attendees using new Teams can participate in polls </br>you launch from classic Teams.|
-
-
-### Calls
-
-You can make both traditional phone calls (to and from telephone numbers) and Teams-to-Teams internet-based calls. Most basic features are available. 
-
-|Classic|New|Limitations|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|Voicemail shortcut on dial pad not available</br></br>Contacts and speed dial not available</br></br>Live captions and transcriptions not available for external calls</br></br>Call merges and transfers not available for external calls</br></br>Call forwarding and routing not available</br></br>Call queues not available</br></br>Reverse number lookup not available </br></br>Voice-enabled channels not available</br></br>Delegation not available</br></br>Shared lines not available</br></br>Survivable branch appliance (SBA) not available|
-
-
-### Apps
-
-The following apps are available in the new Teams. **Note:** You must install the apps in classic Teams first.
-
-Apps will continue to be added individually until the AppStore is available.
-
->[!Important]
->Stay on classic Teams for now if you are using a custom line of business apps or apps from the AppStore until these are fully supported.
-
-|Microsoft Viva|Microsoft 365|Miscellaneous|
-|:-----|:-----|:-----|
-|Viva Connections</br>Viva Engage</br>Viva Goals</br>Viva Insights</br>Viva Learning|Excel</br>OneNote</br>PowerPoint</br>Power Apps</br>Word|Approvals</br>Tasks by Planner and To Do</br>Math</br>Shifts</br>Shifts (Intl)</br>Wiki|
-
-</br></br>
-
-|Classic|New|Limitations|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Full featured|:::image type="content" source="media/orange-circle.png" alt-text="Available with limitations":::Available with limitations|No notifications from any apps in your Activity feed.</br></br>*Pop out app* isn't available.</br></br>You can only pin an app in classic Teams. After 24 hours, it will</br> be reflected in new Teams.</br</br>>Apps won't display content in meeting window. For apps like Polls, </br>use meeting chat to respond to poll.</br></br>You may notice some small differences in the user interface (UI).</br></br>The App Store is currently not available.|
-
-### Multi-Tenant Multi-Account
-
-|Classic|New|Highlights|
-|:-----|:-----|:-----|
-|:::image type="content" source="media/black-diamond.png" alt-text=" not available ":::Not available|:::image type="content" source="media/purple-square.png" alt-text="full featured":::Available only in new Teams|Multi-tenant Multi-account (MTMA) support</br></br>Receive real-time notifications from all the accounts you’re signed into</br></br>Participate in chats, meetings, and calls across multiple accounts </br>and organizations. Switch accounts without having to drop from </br>a call or meeting </br></br>Set your presence and status for each account and organization individually</br></br>Intuitive visual indicators help differentiate between your different accounts</br> and organizations, so you’re aware of which one you’re working in|
 
 
 ## Known issues
+
+There are a few known issues we are working on.
 
 ### Installation
 
@@ -348,4 +276,3 @@ In some cases this is due to bugs that the product group are working to fix.
 You may also want to check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
 
 In the future, when notification are turned off, you'll see a banner indicating this.
-
