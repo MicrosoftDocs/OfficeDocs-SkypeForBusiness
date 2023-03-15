@@ -38,7 +38,7 @@ For additional details about hosting meetings with external participants, see [P
 
 #### Meetings with trusted organizations
 
-When you set up trusted organizations for external meetings and chat, meeting attendees from those organizations may be considered anonymous if external access settings are not configured correctly for both organizations. For details, see [trusted organizations for external meetings and chat](manage-external-access.md).
+When you set up trusted organizations for external meetings and chat, meeting attendees from those organizations may be considered anonymous if external access settings are not configured correctly for both organizations. Both organizations must allow each other's domain and the meeting organizer in your organization and participants from other organizations must be assigned a user policy that allows external access. For details, see [trusted organizations for external meetings and chat](manage-external-access.md).
 
 ## Manage anonymous meeting join for the organization
 

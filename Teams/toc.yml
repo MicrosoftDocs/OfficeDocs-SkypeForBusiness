@@ -598,8 +598,6 @@ items:
           items: 
             - name: Overview
               href: meeting-policies-overview.md
-            - name: General policies
-              href: meeting-policies-in-teams-general.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
             - name: Recording and transcription policies
@@ -608,8 +606,10 @@ items:
               href: who-can-bypass-meeting-lobby.md
             - name: Participants and guest policies
               href: meeting-policies-participants-and-guests.md
-            - name: Remove the RestrictedAnonymousAccess meeting policy from users
-              href: meeting-policies-restricted-anonymous-access.md
+            - name: Island mode
+              href: meeting-provider-islands-mode.md
+            - name: Speaker coach
+              href: meeting-speaker-coach.md
             - name: Content and screen sharing policies
               items:
                 - name: Content sharing
