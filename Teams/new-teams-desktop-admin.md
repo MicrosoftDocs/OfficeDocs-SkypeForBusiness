@@ -50,9 +50,10 @@ It's easy to toggle back and forth between using the classic and new Teams, so y
 
 ## Release roadmap
 
-While all major of areas of new Teams will be available during the preview phase, Additional functionality will be added over the next few months.
+Starting with desktop, the new Teams will soon be available for Mac, Web, & VDI.
 
-**Platform release**
+### Platform release
+
 
 |Platform|March '23|Summer 23|Fall 23|
 |:-----|-----|:-----|:-----|:-----|
@@ -61,8 +62,10 @@ While all major of areas of new Teams will be available during the preview phase
 |Web||:::image type="content" source="media/purple-square.png" alt-text="Available":::||
 |VDI|||:::image type="content" source="media/purple-square.png" alt-text="Available":::|
 
+### Feature release
 
-**Feature roadmap**
+While all major of areas of new Teams will be available during the preview phase, additional functionality will be added over the next few months.
+
 
 |Area|March '23|April '23|May '23|Jun '23|
 |:-----|-----|:-----|:-----|:-----|
