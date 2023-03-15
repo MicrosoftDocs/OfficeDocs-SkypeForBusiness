@@ -7,10 +7,11 @@ ms.reviewer: colongma
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-audience: Admin
+audience: admin
+ms.date: 03/15/2023
 ms.collection: 
-  - M365-voice
-  -tier1
+- M365-voice
+- tier1
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.voiceapplications.overview
@@ -29,10 +30,10 @@ The Teams user accesses these configuration items through their Teams desktop cl
 
 ## Requirements
 
-There are two configuration steps required in order to configure an authorized user:
+There are two required configuration steps to configure an authorized user:
 
-1. The first step is to create a [Teams Voice Applications Policy](./manage-voice-applications-policies.md) that turns on the change functionality that the user will need and to assign that policy to the user.
-1. The second step is to assign the user as an Authorized user to at least one auto attendant or call queue.
+1. The first step is to create a [Teams Voice Applications Policy](manage-voice-applications-policies.md) that turns on the change functionality that the user needs and to assign that policy to the user.
+1. The second step is to assign the user as an *Authorized user* to at least one auto attendant or call queue.
 
 > [!IMPORTANT]
 > A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one auto attendant or call queue.
@@ -48,25 +49,23 @@ User 1 needs to be able to change auto attendant business hours greetings and ca
 
 User 2 needs to be able to change auto attendant after hours greetings for *Auto attendant 1*.
 
-1. Create a *Teams Voice Applications Policy* that enables the Auto attendant **Business Hours Greeting** and the Call queue **Timeout shared voicemail greeting**.
+1. Create a *Teams Voice Applications Policy* that enables the auto attendant **Business Hours Greeting** and the call queue **Timeout shared voicemail greeting**.
 
- :::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot of voice applications policy that enables auto attendant business hours greeting changes and call queue timeout shared voicemail greeting changes.":::
+    :::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot of voice applications policy that enables auto attendant business hours greeting changes and call queue timeout shared voicemail greeting changes.":::
 
-2. Assign this policy to User 1.
-3. Create another *Teams Voice Applications Policy* that enables the Auto Attendant **After Hours Greeting**.
+1. Assign this policy to User 1.
+1. Create another *Teams Voice Applications Policy* that enables the Auto Attendant **After Hours Greeting**.
 
- :::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy that enables auto attendant after hours greeting changes.":::
+    :::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy that enables auto attendant after hours greeting changes.":::
 
-4. Assign this policy to User 2.
-5. Assign both User 1 and User 2 as *Authorized users* for *Auto attendant 1*.
-6. Assign User 1 as an *Authorized User* for *Call queue 1*.
+1. Assign this policy to User 2.
+1. Assign both User 1 and User 2 as *Authorized users* for *Auto attendant 1*.
+1. Assign User 1 as an *Authorized User* for *Call queue 1*.
 
-Both User 1 and User 2 are now fully authorized users and will have new configuration options available to them in their Teams desktop client.  For more information, see [Teams Client User Guide](link is tbd).
+Both User 1 and User 2 are now fully authorized users and have new configuration options available to them in their Teams desktop client. For more information, see [Teams client user guide](link is tbd).
 
 ## Related articles
 
-[Manage Teams Voice Applications Policies](./manage-voice-applications-policies.md)
-
-[Set up a Microsoft Teams auto attendant](./create-a-phone-system-auto-attendant.md)
-
-[Create a call queue in Microsoft Teams](./create-a-phone-system-call-queue.md)
+- [Manage Teams Voice Applications Policies](manage-voice-applications-policies.md).
+- [Set up a Microsoft Teams auto attendant](create-a-phone-system-auto-attendant.md).
+- [Create a call queue in Microsoft Teams](create-a-phone-system-call-queue.md).
