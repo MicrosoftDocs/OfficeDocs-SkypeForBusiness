@@ -10,10 +10,12 @@ ms.reviewer:
 ms.date: 07/26/2021
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 description: Learn how to set the user interface on Teams Android devices.
 ---
 # Set Microsoft Teams Android devices user interface

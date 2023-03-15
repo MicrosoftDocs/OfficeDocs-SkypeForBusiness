@@ -7,10 +7,12 @@ ms.date: 01/04/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 appliesto: 
