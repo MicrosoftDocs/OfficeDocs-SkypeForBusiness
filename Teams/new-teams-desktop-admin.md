@@ -199,16 +199,16 @@ There are a few known issues we are working on.
 **Issue:** </br>After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
 This is expected behavior. Go ahead and select the link to restart.
 
-**Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install New Teams.
+**Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.
 Download and install WebView2 Runtime. After you’ve finished, restart the Teams desktop app and try again.
 
 If you're still running into problems, contact the Global Helpdesk.
 
 **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com is not yet supported.
-Please use your primary Azure account name (your alias) to sign into New Teams.
+Please use your primary Azure account name (your alias) to sign into new Teams.
 
 **Issue:** </br>Some people do not see the toggle to opt in.
-First, double check the system requirements. You'll need a Windows device and an up-to-date version of Classic Teams.
+First, double check the system requirements. You'll need a Windows device and an up-to-date version of classic Teams.
 
 Next, try signing out and back into the Teams desktop app.
 
@@ -253,7 +253,7 @@ Workaround/details: ​Join the meeting from your Teams calendar (or chat/channe
 Details: The meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
-**Issue:** </br> Some meeting details won’t appear in New Teams.</br>
+**Issue:** </br> Some meeting details won’t appear in new Teams.</br>
 Details: This includes forwards, "show as," and assigned meeting categories. 
 
 **Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
