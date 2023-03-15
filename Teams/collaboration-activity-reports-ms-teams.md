@@ -26,13 +26,8 @@ description: Learn about the Collaboration activity feature in Microsoft Teams.
 > [!IMPORTANT]
 > Advanced Collaboration Management Insights Preview is provided for evaluation purposes only and may not include all expected functionality.  Data provided during preview will be deleted within 180 days from a tenant deletion action.
 
-The Collaboration activity feature in Microsoft Teams has the following objectives:
-
-- Give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
-- Enable Teams administrators to automate their work.
-  > [!NOTE]
-  > This objective is currently not yet functional; we aim to make this objective functional in the future sprints.
-
+The Collaboration activity feature for Microsoft Teams aims to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. Eventually, the Collaboration activity feature will enable Teams administrators to automate their work.
+  
 With the help of Collaboration activity feature, you can get an insight into teams, domains, channels, external users, guest users, and users internal to your organization.
 
 ## Where to find Collaboration activity feature
@@ -84,7 +79,7 @@ You can click **View details** to see which domains are inactive. For each domai
 
 By default, we show you details for the last 30 days.
 
-You change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
+You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
  
 :::image type="content" source="media/detailed-report-view-external-domains-activity.png" alt-text="The detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-external-domains-activity.png":::
 
