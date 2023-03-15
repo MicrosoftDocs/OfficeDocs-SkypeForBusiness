@@ -32,7 +32,6 @@ These settings control which meeting participants wait in the lobby before they'
 - [Anonymous users can join a meeting](#anonymous-users-can-join-a-meeting)
 - [Who can present](#who-can-present)
 - [Who can bypass the lobby](#who-can-bypass-the-lobby)
-- [Live captions](#live-captions)
 - [Chat in meetings](#chat-in-meetings)
 - [Q&A](#qa)
 - [Reactions](#reactions)

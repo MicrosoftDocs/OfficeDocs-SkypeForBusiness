@@ -1,5 +1,5 @@
 ---
-title: Configure transcription, translation, and captions for Teams meetings
+title: Configure transcription and captions for Teams meetings
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Configure transcription, translation, and captions for Teams meetings
+# Configure transcription and captions for Teams meetings
 
 In Microsoft Teams, there's an option for meeting recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript.
 
@@ -54,10 +54,10 @@ For information on how your end users can use transcription, read [View live tra
 
 This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on or turn off live captions in meetings that the user attends.  
 
-|Setting value |Behavior  |
-|---------|---------|
-|**Off, but organizers and co-organizers can turn them on**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
-|**Off**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
+| Setting value | Behavior |
+|---|---|
+| **Off, but organizers and co-organizers can turn them on** | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+| **Off** | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on. |
 
 Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must turn on recording transcription via policy to ensure their users have the option to record meetings with transcription.
 
@@ -75,3 +75,10 @@ For information on how your end users can turn on **Live captions**, read [Use l
 By default, **Live captions** are displayed in the language that’s spoken during a meeting. **Live translated captions** allow your users to see captions translated into the language they’re most comfortable with.
 
 To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers and co-organizers can turn them on** in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
+
+## Related topics
+
+- [Teams meeting recording](meeting-recording.md)
+- [Accessibility guide for Microsoft Teams Admins](accessibility-guide-admin.md)
+- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
