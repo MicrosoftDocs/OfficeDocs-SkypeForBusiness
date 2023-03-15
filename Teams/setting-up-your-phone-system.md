@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
-ms.date: 02/27/2018
+ms.date: 03/15/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,7 +23,6 @@ f1.keywords:
 - CSH
 ms.custom:
   - Phone System
-  - seo-marvel-apr2020
   - intro-get-started
 description: Learn how to set up Teams Phone System for your organization in Microsoft 365.
 ---
@@ -37,7 +36,6 @@ To learn more about Phone System features and requirements, see [What is Phone S
 To enable your users to make and receive external calls, you'll need to connect Phone System to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
 
 If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization. 
-
 
 This article introduces the following steps. Each step contains links to more detailed information.
  
@@ -140,7 +138,7 @@ A successful Phone System deployment also involves managing your devices and mon
 
 - [What is Phone System](what-is-phone-system-in-office-365.md)
 
-- [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
+- [Phone System features](here-s-what-you-get-with-phone-system.md)
 
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
