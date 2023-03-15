@@ -55,6 +55,7 @@ Note that we are not accepting new nominations for certification until further n
 |---|---|---|---|---|---|---|
 |[Microsoft](https://azure.microsoft.com/products/communications-gateway/)|Azure Communications Gateway |&#10004;|&#10004;|2023-01-31|&#10004;|&#10004;|
 |[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|Mediant 500 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||Mediant 500 Li SBC|&#10004;|&#10004;|Supported 7.2x.xxx (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||Mediant 800 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||Mediant 2600 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||Mediant 4000 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
@@ -89,7 +90,7 @@ Note that we are not accepting new nominations for certification until further n
 ||Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.2.1r (Recommended 17.6.1a)|&#10004;||
 ||Cisco Unified Border Element (CUBE) for Catalyst 8000 Edge Platforms|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.3.2 (Recommended 17.6.1a)|&#10004;||
 |[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|&#10004;|&#10004;|Release 8.1.1 (8.1.2 for Media Bypass)|||
-|[Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|Nokia Session Border Controller|&#10004;|&#10004;|22.0|&#10004;||
+|[Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|Nokia Session Border Controller|&#10004;|&#10004;|22.8|&#10004;||
 |[Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|NetMatch-S CI|&#10004;|&#10004;|Supported 5.6 or higher|||
 |[Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|vSBC 2.16|&#10004;|||||
 |[Cataleya](https://cataleya.com/orchidplatforms/)|Orchid Link|&#10004;||3.1|||

@@ -5,9 +5,10 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 03/09/2023
+ms.date: 03/15/2023
 ms.topic: quickstart
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
