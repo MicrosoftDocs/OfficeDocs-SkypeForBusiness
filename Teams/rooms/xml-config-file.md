@@ -3,11 +3,12 @@ title: Remotely manage Microsoft Teams Rooms device settings
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 03/15/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
