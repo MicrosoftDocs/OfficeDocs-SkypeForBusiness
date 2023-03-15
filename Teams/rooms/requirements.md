@@ -94,6 +94,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   | Lenovo ThinkSmart Hub 500 |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) |Core i5|8 GB|128 GB|
+  |[Lenovo Thinksmart One AIO Bar + Lenovo Core Bundle](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006?orgRef=https%253A%252F%252Flearn.microsoft.com%252F&sortBy=priceUp) |Core i5|8 GB|256 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap and Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
@@ -178,7 +179,6 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
-|[Lenovo Thinksmart One AIO Bar + Lenovo Core](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006)|Lenovo Camera Driver: 1.0.111.1|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
