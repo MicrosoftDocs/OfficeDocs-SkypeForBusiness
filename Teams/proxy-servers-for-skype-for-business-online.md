@@ -45,9 +45,9 @@ We recommend that these devices bypass your proxy infrastructure and access Micr
 
 ## Android-Based Teams Devices
 
-Android-based Teams devices, including Teams phones, panels, displays and boards do not support proxy servers.
+Android-based Teams devices, including Teams phones, panels, displays and boards do not support authenticated proxy servers or tenant restrictions. Contact your OEM partner for details on unauthenticated proxy support.
 
-Due to the way certain components running on these devices access the Internet, it is not possible to route all traffic through a proxy. You must ensure that traffic between these devices and Microsoft 365 services is allowed through your firewall.
+We recommend that these devices bypass your proxy infrastructure and access Microsoft 365 services via your firewall.
 
 ## If you need to use a proxy server
 

@@ -13,7 +13,7 @@ ms.collection:
 - M365-voice
 - tier1
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.voiceapplications.overview
 appliesto: 
   - Microsoft Teams

@@ -185,19 +185,6 @@ In Audio Conferencing, the "*Call Me*" feature is used to let other people join 
   
 Dialing out from a meeting to another country/region in the world that isn't listed below is available using [Communication Credits](../what-are-communications-credits.md). For those users, you'll need to [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
 
-### Phone System
-
-With Phone System, you create auto attendants and call queues (with a toll or toll free number) to answer incoming calls for your organization. When you add a Calling Plan for users, they can use Teams to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users click a name in their address book, and Teams will place a call to that person. To place and receive calls, **Phone System** users use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams.
-
-The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. In addition to getting phone numbers for individual users, it's also possible to search and acquire toll or toll free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](../getting-service-phone-numbers.md) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](../getting-phone-numbers-for-your-users.md). You can also see [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
-
-[Pricing for Phone System](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
-
-> [!NOTE]
-> The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels.
-
-Use the drop-down list at the top of the page to search for a country or region and what services are available.
-
 ### Microsoft Teams Calling Plans
 
 Along with Phone System, Calling Plans let users make and receive phone calls. You first get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are three types of Calling Plans available: **Domestic**, **International**, and **Pay-As-You-Go**. See [Calling Plans for Microsoft Teams](../calling-plans-for-office-365.md) for more details.
