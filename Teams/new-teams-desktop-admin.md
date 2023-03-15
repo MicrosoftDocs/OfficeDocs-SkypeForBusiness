@@ -173,7 +173,7 @@ While all significant areas of new Teams will be available at the initial previe
 
 ## What features are changing?
 
-As we improve the client, changes have been made to improve the experience to align with similar features. Here are the changes.
+As we improve the client, the experience has been improved to align with similar features. Here are the changes.
 
 |Classic Teams|New Teams|
 |:-----|:-----|:-----|
