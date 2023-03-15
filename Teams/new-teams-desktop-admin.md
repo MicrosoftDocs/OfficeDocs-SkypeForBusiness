@@ -199,18 +199,18 @@ There are a few known issues we are working on.
 
 ### Installation
 
-**Issue:** </br>After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
+- **Issue:** </br>After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
 This is expected behavior. Go ahead and select the link to restart.
 
-**Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.
+- **Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.
 Download and install WebView2 Runtime. After you’ve finished, restart the Teams desktop app and try again.
 
 If you're still running into problems, contact the Global Helpdesk.
 
-**Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com is not yet supported.
+- **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com is not yet supported.
 Please use your primary Azure account name (your alias) to sign into new Teams.
 
-**Issue:** </br>Some people do not see the toggle to opt in.
+- **Issue:** </br>Some people do not see the toggle to opt in.
 First, double check the system requirements. You'll need a Windows device and an up-to-date version of classic Teams.
 
 Next, try signing out and back into the Teams desktop app.
@@ -232,57 +232,57 @@ If these steps don’t work, please reach out to the Global Helpdesk.
 
 ### General
 
-**Issue:** </br>Organization tab is not available on chat
+- **Issue:** </br>Organization tab is not available on chat
 Details: This has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 ### Accessibility
 
-**Issue:** </br>There may be accessibility gaps between new and classic Teams.
+- **Issue:** </br>There may be accessibility gaps between new and classic Teams.
 If you discover any accessibility gaps, please select the ellipsis (...) > Help > Report a problem in the Teams desktop app. This will alert the product group to the issue.
 
 If you would like a response or the issue is impacting your work, please contact the Global Helpdesk.
 
 ### Calls
 
-**Issue:** </br>Increased power usage during calls may cause CPU throttling and negatively impact performance.
+- **Issue:** </br>Increased power usage during calls may cause CPU throttling and negatively impact performance.
 Workaround/details: The product group is working to resolve this issue.
 
 ### Meetings
 
-**Issue:** </br>When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).</br>
+- **Issue:** </br>When a meeting starts, you won’t receive a Teams notification with an option to join (e.g. a meeting-start notification).</br>
 Workaround/details: ​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
 
-**Issue:** </br>When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
+- **Issue:** </br>When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
 Details: The meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
-**Issue:** </br> Some meeting details won’t appear in new Teams.</br>
+- **Issue:** </br> Some meeting details won’t appear in new Teams.</br>
 Details: This includes forwards, "show as," and assigned meeting categories. 
 
-**Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
+- **Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
 Workaround:  If you leave a meeting by accident, simply re-join.
 
-**Issue:** </br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.</br>
+- **Issue:** </br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.</br>
 Workaround: ​Select Join in the channel conversation to join the meeting.
 
-**Issue:** </br> When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
+- **Issue:** </br> When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
 Details:  When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However nothing will happen until they come off mute or turn on their video.
 
-**Issue:** </br> Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
+- **Issue:** </br> Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
 Details: ​The product group is investigating this issue.
 
 ### Messaging
 
-**Issue:** </br>Compose box is not defaulting to typing field once switching to Chat. Workaround:  Click to start typing. 
+- **Issue:** </br>Compose box is not defaulting to typing field once switching to Chat. Workaround:  Click to start typing. 
 
 ### Multi-Tenant Multi-Account (MTMA)
 
-**Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
+- **Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
 Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 ### Notifications
 
-**Issue:** </br>Some Teams users are not receiving notifications of chat mentions, meetings or calls.
+- **Issue:** </br>Some Teams users are not receiving notifications of chat mentions, meetings or calls.
 Details: In some cases this is due to bugs that the product group are working to fix.
 Check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
 
