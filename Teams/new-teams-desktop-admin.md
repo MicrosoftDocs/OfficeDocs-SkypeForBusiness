@@ -178,18 +178,12 @@ As we improve the client, the experience has been improved to align with similar
 |Classic Teams|New Teams|
 |:-----|:-----|:-----|
 |Wiki|The Wiki app has been replaced by the Notes app|
-|Saving messages and files in Teams|Use the new flagging feature|
 |Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
 |Channels DocLib app|Use the Sharepoint app in channels instead|
 |DocLib folder select in channel upload|Go to a specific folder and upload|
 |Legacy web app companion (WAC) viewer|Use the OneUp viewer|
-|How to view a contact in chat|People app|
-|How to view a contact in a call|People app|
-|Looking up an org chart while in a 1:1 chat|Org chart in LPC Expanded View|
-|Looking up LinkedIn while in a 1:1 chat|LinkedIn in LPC Expanded View|
 |Allow users to follow another users presence and then notify them of availability|No longer available|
 |Activity tab| The activity tab has been removed due to lack of usage|
-
 
 
 
