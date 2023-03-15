@@ -8,9 +8,11 @@ ms.date: 06/13/2018
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier3
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -46,7 +48,7 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
 > [!NOTE]
-> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
+> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
