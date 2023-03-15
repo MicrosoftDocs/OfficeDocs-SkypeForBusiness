@@ -354,26 +354,28 @@ You may also want to check to make sure that you have notifications turned on in
 In the future, when notification are turned off, you'll see a banner indicating this.
 
  
-
+</br><br>
+Ignore
+below is testing viability of tables 
 
 
 |Area|March 23|April 23|May 23|June 23|July 23|Augu 23|Sept 23|Oct 23|Nov 23|Dec 23|
 |:-----|:-----|:-----|:-----|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|:-----	|
 |**Activity and notifications**|X||||||||||
-|	Limitations will release:	|||||||||||
-|	Notifications from apps, including Microsoft Viva, won't appear in your activity feed	|||||||||||
+|	Features pending:	|||||||||||
+|	Notifications from apps, including Microsoft Viva, in your activity feed	|||||||||||
 |	Notifications for any other accounts you've added using multi-tenant multi-account will appear in the upper-right	|||||||||||
 |**Chats**|||||||||||
-|	Can't add tabs to chat	|||||||||||
+|	Adding tabs to chat	|||||||||||
 ||||||||||||
-|	Immersive reader not available	|||||||||||
+|	Immersive reader |||||||||||
 |**Teams**|||||||||||
-|	You can’t add a new member to a team.	|||||||||||
-|	You can’t create, edit, delete, or archive a team.	|||||||||||
-|	You won’t be notified when someone requests to join a team.	|||||||||||
-|	You won’t see team renewal notifications.	|||||||||||
-|	There isn’t the option to share a link to a team.	|||||||||||
-|	Offline support isn’t available.	|||||||||||
+|	Add a new member to a team.	|||||||||||
+|	Create, edit, delete, or archive a team.	|||||||||||
+|	Notification when someone requests to join a team.	|||||||||||
+|	Team renewal notifications.	|||||||||||
+|	Share a link to a team.	|||||||||||
+|	Offline support |||||||||||
 |**Channels**	|||||||||||
 |	You can’t add a new member to a private or shared channel.	|||||||||||
 |	You can’t create, edit, or delete a channel.	|||||||||||
