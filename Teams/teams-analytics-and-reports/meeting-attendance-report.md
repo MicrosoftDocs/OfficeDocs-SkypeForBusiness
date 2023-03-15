@@ -7,22 +7,24 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: richardzhang
-ms.date: 02/24/2023
+ms.date: 03/15/2023
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - tier1
+  - m365initiative-meetings
+  - Tier1
 description: Collect meeting or webinar attendance information from the attendance report in Microsoft Teams. The attendance report shows join times, leave times, and in-meeting duration by attendee.
 appliesto: 
   - Microsoft Teams
 ms.custom: 
 ---
+
 # Attendance report for meetings and webinars in Microsoft Teams
 
-As an admin, you control whether meeting organizers can download an attendance report by settings in a Teams meeting policy. By default, the ability to download the report is on.
+As an admin, you control whether meeting organizers can download an attendance report (formerly known as an "engagement report") by settings in a Teams meeting policy. By default, the ability to download the report is on.
 
 During the meeting, organizers can find the attendance report in the **People** > **Participants** pane of the meeting, in areas within the meeting invite, and in the meeting chat. After the meeting has ended, organizers can view and download the attendance report under the **Attendance** tab of the meeting invite or meeting chat. Read more about [how meeting organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
