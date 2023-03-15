@@ -21,7 +21,7 @@ description: For IT Pros - Learn how anonymous meeting participation works in Mi
 
 # Manage anonymous participant access to Teams meetings (IT admins)
 
-Anonymous participants in meetings hosted by your organization are those who's identity can't be validated. This could include:
+Anonymous participants in meetings hosted by your organization are those who can't be validated. This could include:
 
 - People who are not logged in to Teams with a work or school account 
 - People from non-trusted organizations (as configured in [external access](manage-external-access.md)) and from organizations that you trust but which do not trust your organization.
@@ -34,9 +34,11 @@ Anonymous meeting join is turned on by default for the organization and in the d
 
 Note that if anonymous meeting join is enabled, lobby policies affect how anonymous participants join meetings. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
+For additional details about hosting meetings with external participants, see [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md).
+
 #### Meetings with trusted organizations
 
-When you set up trusted organizations for external meetings and chat, meeting attendees from those organizations may be considered anonymous if external access settings are not configured correctly for both organizations. For details, see [trusted organizations for external meetings and chat](manage-external-access.md).
+When you set up trusted organizations for external meetings and chat, meeting attendees from those organizations may be considered anonymous if external access settings are not configured correctly for both organizations. Both organizations must allow each other's domain and the meeting organizer in your organization and participants from other organizations must be assigned a user policy that allows external access. For details, see [trusted organizations for external meetings and chat](manage-external-access.md).
 
 ## Manage anonymous meeting join for the organization
 
