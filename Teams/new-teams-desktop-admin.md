@@ -50,7 +50,7 @@ It's easy to toggle back and forth between using the classic and new Teams, so y
 
 ## Release roadmap
 
-Additional functionality will be added over the next few months.
+While all major of areas of new Teams will be available during the preview phase, Additional functionality will be added over the next few months.
 
 **Platform release**
 
@@ -66,7 +66,7 @@ Additional functionality will be added over the next few months.
 
 |Area|March '23|April '23|May '23|Jun '23|
 |:-----|-----|:-----|:-----|:-----|
-|Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Notifications in your activity feed from apps, including Microsoft Viva</br></br>Notifications for accounts you've added using multi-tenant multi-account will appear in the upper-right|||
+|Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Apps notifications in your activity feed, including Microsoft Viva</br></br>Notifications for multi-tenant multi-accounts|||
 |Chats|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add tabs to chat</br></br>Immersive reader||
 |Teams|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Add a new member to a team</br></br>Create, edit, delete, or archive a team</br></br>Notified  when someone requests to join a team</br></br>Team renewal notifications</br></br>Option to share a link to a team</br></br>Offline support</br></br>|||
 |Channels|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane||
@@ -230,13 +230,11 @@ If these steps don’t work, please reach out to the Global Helpdesk.
 ### General
 
 **Issue:** </br>Organization tab is not available on chat
-This has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card.
-
-This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
+Details: This has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 ### Accessibility
 
-**Issue:** </br>There may be accessibility gaps between New and Classic Teams.
+**Issue:** </br>There may be accessibility gaps between new and classic Teams.
 If you discover any accessibility gaps, please select the ellipsis (...) > Help > Report a problem in the Teams desktop app. This will alert the product group to the issue.
 
 If you would like a response or the issue is impacting your work, please contact the Global Helpdesk.
@@ -252,40 +250,37 @@ Workaround/details: The product group is working to resolve this issue.
 Workaround/details: ​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
 
 **Issue:** </br>When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
-This means that meeting attendees may see preview content in those notifications.
+Details: The meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
 **Issue:** </br> Some meeting details won’t appear in New Teams.</br>
-This includes forwards, "show as," and assigned meeting categories. 
+Details: This includes forwards, "show as," and assigned meeting categories. 
 
 **Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
-If you leave a meeting by accident, simply re-join. (It happens to the best of us!)
+Workaround:  If you leave a meeting by accident, simply re-join.
 
 **Issue:** </br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there is active.</br>
-​Select Join in the channel conversation to join the meeting.
+Workaround: ​Select Join in the channel conversation to join the meeting.
 
 **Issue:** </br> When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
-When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However, nothing will happen until they come off mute or turn on their video.
+Details:  When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However nothing will happen until they come off mute or turn on their video.
 
 **Issue:** </br> Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
-​The product group is investigating this issue.
+Details: ​The product group is investigating this issue.
 
 ### Messaging
 
-**Issue:** </br>Compose box is not defaulting to typing field once switching to Chat. Click to start typing. 
+**Issue:** </br>Compose box is not defaulting to typing field once switching to Chat. Workaround:  Click to start typing. 
 
 ### Multi-Tenant Multi-Account (MTMA)
 
-**Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts.
-For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
-
-If you sign out and back in, the banner shouldn't appear anymore. Learn more about this issue.
+**Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
+Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 ### Notifications
 
 **Issue:** </br>Some Teams users are not receiving notifications of chat mentions, meetings or calls.
-In some cases this is due to bugs that the product group are working to fix.
-
-You may also want to check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
+Details: In some cases this is due to bugs that the product group are working to fix.
+Check to make sure that you have notifications turned on in in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
 
 In the future, when notification are turned off, you'll see a banner indicating this.
