@@ -50,7 +50,7 @@ It's easy to toggle back and forth between using the classic and new Teams, so y
 
 ## New Teams release roadmap
 
-While all major of areas of new Teams will be available during the preview phase, additional functionality will be added over the next few months and in this calendar year (CY).
+While all significant areas of new Teams will be available at the initial preview release, additional features will be added over the next few months with support for more platforms later in this calendar year (CY).
 
 |Area|March 2023|Q2 CY23|Q3 CY23|Q4 CY23|
 |:-----|-----|:-----|:-----|:-----|
