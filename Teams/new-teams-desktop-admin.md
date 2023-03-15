@@ -26,11 +26,12 @@ In this article:
 - [What is new Teams?](#what-is-new-teams)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [Release roadmap](#release-roadmap)
+- [What features are changing?](#what-features-are-changing)
 - [Known issues](#known-issues)
 
 This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
-**Important:** New Teams **is not** available to the following platforms or customer segments during the preview phase:
+**Important:** The new Teams client **is not** available to the following platforms or customer segments during the preview phase:
 
 |Platforms|Customer segments|
 |:-----|:-----|
@@ -38,7 +39,7 @@ This article describes the preview release of the new Teams desktop client. No c
 
 ## What is new Teams?
 
-Reimagined from the ground up with a performance-first mindset, the new Teams provides a faster, simpler, and more flexible experience. New Teams installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+Reimagined from the ground up with a performance-first mindset, the new Teams client provides a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
 New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
@@ -169,6 +170,28 @@ While all significant areas of new Teams will be available at the initial previe
 |Calls|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
 |Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>AppStore|||
 |Multi-tenant multi-account|:::image type="content" source="media/purple-square.png" alt-text="Available":::||||
+
+## What features are changing?
+
+As we improve the client, changes have been made to improve the experience to align with similar features. Here are the changes.
+
+|Classic Teams|New Teams|
+|:-----|:-----|:-----|
+|Wiki|The Wiki app has been replaced by the Notes app|
+|Saving messages and files in Teams|Use the new flagging feature|
+|Channels DocLib app|Use the Sharepoint app in channels instead|
+|DocLib folder select in channel upload|Go to a specific folder and upload|
+|Legacy web app companion (WAC) viewer|Use the OneUp viewer|
+|How to view a contact in chat|People app|
+|How to view a contact in a call|People app|
+|Looking up an org chart while in a 1:1 chat|Org chart in LPC Expanded View|
+|Looking up LinkedIn while in a 1:1 chat|LinkedIn in LPC Expanded View|
+|Allow users to follow another users presence and then notify them of availability|No longer available|
+|Activity tab| The activity tab has been removed due to lack of usage|
+
+
+
+
 
 ## Known issues
 
