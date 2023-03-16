@@ -141,15 +141,14 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
 
 - Call Queue - Monitor, whisper, barge, takeover
   - **CallQueueAgentMonitorMode**: When set to Monitor, Whisper, Barge or Takeover this setting allows an authorized user to perform the following actions:
-    - When set to Disabled an authorized user won't be able to monitor an agent.
     - When set to Monitor, an authorized user will be able to monitor an agent and listen to them while they are on an inbound call queue call.
     - When set to Whisper, an authorized user will be able to monitor an agent and whisper to them while they are on an inbound call queue call - the caller won't hear the authorized user.
     - When set to Barge, an authorized user will be able to monitor an agent, whisper to them and barge-in or join their inbound call queue call.
     - When set to Takeover, an authorized user will be able to monitor an agent, whisper to them, barge-in and take over the inbound call queue.
 
-> [!NOTE]
-> An agent may only be monitored by one authorized user at a time.
-> An authorized user may only be in one monitor session at a time.
+    > [!NOTE]
+    > An agent may only be monitored by one authorized user at a time.
+    > An authorized user may only be in one monitor session at a time.
 
   - **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner will be presented to an agent who is being actively monitored by an authorized user.
  
