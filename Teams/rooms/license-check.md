@@ -33,7 +33,7 @@ To determine your license position, we suggest two ways to check your machines d
  
  - For example, if you select **Teams devices > Teams Rooms on Windows**, you'll see the following image. The License column shows the Teams Rooms license assigned to each device. 
 
-   ![Teams-room-license-for-devices](media/Teams-rooms.png)
+   ![Teams-room-license-for-devices](../media/Teams-rooms.png)
 
  - Devices that have the Pro license can access all the all the capabilities of their Teams Room devices.
   
