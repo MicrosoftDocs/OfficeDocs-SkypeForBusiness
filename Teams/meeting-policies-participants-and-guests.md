@@ -27,7 +27,7 @@ description: Learn to manage meeting policy settings in Teams for  meeting exper
 # Meeting policy settings for meeting experience
 
 <a name="bkmeetingparticipants"> </a>
-
+<a name="who-can-bypass-the-lobby"> </a>
 These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
 
 - [Who can present](#who-can-present)
