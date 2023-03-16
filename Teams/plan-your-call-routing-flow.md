@@ -85,3 +85,10 @@ Here are some call routing best practices:
 - Describe the service first, followed by the option to press (eg: For Sales press 1) rather than the other way around (eg. Press 1 for Sales).
 - User terminology your callers will understand rather than what you may use internally.
 - Avoid frequent updates to call routing. If you change your menu options for an auto attendant in the future, call that out in the voice prompts for the first 30 days.
+
+> [!IMPORTANT]
+> The maximum number of transitions a single call is permitted to make through auto attendants and call queues is twenty-five (25).  After this, the call will be disconnected.  This is done to prevent a call from infinitely looping through a series of auto attendants and call queues.
+> 
+> For example, if a call arrives on auto attendant #1 and the caller selects an option which sends them to auto attendant #2 this counts as 1 transition.  If the caller selects an option on auto attendant #2 that returns them to auto attendant #1 or sends them to call queue #1 then this would count as a second transition. 
+> 
+> Calls that remain in the same auto attendant but return to the main menu multiple times, for example when an announcement is played or there is a configured menu option to repeat, are not impacted by this maximum transition limit.  
