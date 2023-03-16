@@ -4,10 +4,12 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: dougand
-ms.date: 06/13/2018
+ms.date: 03/15/2023
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
+  - Tier3
   - M365-voice
   - Teams_ITAdmin_Devices
 audience: Admin
@@ -77,13 +79,18 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated February 2023*
+*Table Updated March 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |SPEAK2 55 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
+|Jabra                |SPEAK2 40 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Free 60 UC Earbuds                                 |3/3/2023        |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Free 60+ UC Earbuds                                |3/3/2023        |Certified for Microsoft Teams                           |
+|B&O                  |Beoplay 500 Wireless Headphones                            |2/24/2023       |Certified for Microsoft Teams                           |
 |Logitech             |Zone Vibe Wireless Headset                                 |2/13/2023       |Certified for Microsoft Teams                           |
 |Yealink              |UH37 Dual/ Mono Headset                                    |2/13/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |SDW 5061 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |

@@ -8,6 +8,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -15,6 +16,7 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: Learn about the requirements for supporting Microsoft Teams Rooms, including choosing the appropriate device, microphones, speakers, cameras, and displays.
 ms.custom: seo-marvel-apr2020
 ---
@@ -34,7 +36,7 @@ Refer to:
 > [!NOTE]
 > Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
 >
-> Earlier platforms like Lync Server 2013 are not supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
+> Earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
 >
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
@@ -74,6 +76,16 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
    |Crestron FLEX UC-MX70-T with Dell OPTIPLEX|Core i5|8 GB|128 GB|
    |Crestron FLEX UC-C100-T with Dell OPTIPLEX|Core i5|8 GB|128 GB|
    |Crestron FLEX UC-CX100-T with Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MM30-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MM30-T-I with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B30-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B30-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B31-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-B31-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M50-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M70-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-C100-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-C100-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE|Core i5|8 GB|128 GB|
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
@@ -113,7 +125,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   
   
 > [!NOTE]
-> - Core M3 processors are not supported.
+> - Core M3 processors aren't supported.
 > - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
 
 **Supported Surface Pro tablets for dock-style systems**
@@ -147,6 +159,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) |0.0.7002.17|
 |[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
+|[Aver TR313V2 Camera](https://www.averusa.com/products/ptz-camera/tr313v2) |0.3.0011.38 |
 |[Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) |1.0.5 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
@@ -244,7 +257,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 
 #### USB extenders
 
-- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders are not recommended for USB 3.0 peripherals.
+- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders aren't recommended for USB 3.0 peripherals.
 - An extender must meet USB 2.0 or newer specifications.
   - Tablet docks support at least two stages of external USB hub extension. If you connect more than two USB hubs in series, check with the dock manufacturer to confirm whether they support series connection.
   - Wired GbE connection in the room. Ethernet cable of appropriate length.

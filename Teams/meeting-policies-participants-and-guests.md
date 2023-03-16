@@ -1,5 +1,5 @@
 --- 
-title: Manage meeting policies for participants and guests
+title: Meeting policy settings for meeting experience
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -19,35 +19,31 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
   - seo-marvel-apr2020
-description: Learn to manage meeting policy settings in Teams for participants and guests.
+description: Learn to manage meeting policy settings in Teams for  meeting experience.
 ---
 
 
 
-# Meeting policy settings - Participants & guests
+# Meeting policy settings for meeting experience
 
 <a name="bkmeetingparticipants"> </a>
-
+<a name="who-can-bypass-the-lobby"> </a>
 These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
 
-- [Anonymous users can join a meeting](#anonymous-users-can-join-a-meeting)
 - [Who can present](#who-can-present)
-- [Who can bypass the lobby](#who-can-bypass-the-lobby)
-- [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Live captions](#live-captions)
-- [Chat in meetings](#chat-in-meetings)
+- [Meeting chat](#meeting-chat)
 - [Q&A](#qa)
 - [Reactions](#reactions)
 
-These settings are found in the Teams admin center under **Meetings** > **Meeting policies** in the **Participants & guests** section.
+These settings are found in the Teams admin center under **Meetings** > **Meeting policies**.
 
 > [!NOTE]
 > Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
-## Anonymous users can join a meeting
-
-To learn about anonymous users joining meetings, read [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
-
+<!---
+## Who can bypass the lobby
+--->
 ## Who can present
 
 This setting is a per-user policy that lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. The **Who can present** policy setting affects all meetings, including Meet Now meetings.
@@ -61,14 +57,6 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 - **Everyone**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
-
-## Who can bypass the lobby
-
-To learn about the meeting lobby, read [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
-
-## Meet now in private meetings
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting. By default, this setting is turned on.
 
 ## Live captions
 
@@ -94,7 +82,7 @@ To enable **Live translated captions**, **Live captions** must be set to **Off, 
 
 <a name="bkcontentsharing"> </a>
 
-## Chat in meetings
+## Meeting chat
 
 This is a per-user and per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. This setting doesn't apply to channel meetings.
 
@@ -117,7 +105,7 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 This is a per-organizer policy. This setting turns the Questions & Answers experience (Q&A) on or off.
 
-The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](/manage-qna-for-teams).
+The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](manage-qna-for-teams.md).
 
 Q&A can be adjusted within the Teams admin center under **Meetings** > **Meeting policies** in the **Meeting engagement** section. The parameter `-QnAEngagementMode` controls this policy in PowerShell.
 
@@ -128,7 +116,13 @@ Q&A can be adjusted within the Teams admin center under **Meetings** > **Meeting
 
 ## Reactions
 
-Reactions are on by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
+The availability of reactions can be configured through either the Teams admin center interface or using PowerShell. Reactions are enabled by default.
+
+In the Teams admin center, reactions can be enabled or disabled under the **Meetings** > **Meeting policies** under the **Meeting engagement** section of a meeting policy.
+
+To configure the setting in PowerShell, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. To turn it off, set **AllowMeetingReactions** to **False**.
+
+Turning off reactions for a user doesn't mean a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Enable meeting policy settings
 
@@ -144,6 +138,7 @@ Once you’ve set up a policy, you need to apply it to users. If you modified th
 
 ## Related topics
 
-- [Teams PowerShell overview](teams-powershell-overview.md)
+- [Teams policy reference - Meetings](settings-policies-reference.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

@@ -101,7 +101,7 @@ After you add the three required columns, you can add optional attribute columns
 When you add an attribute column, keep the following in mind:
 
 * The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
-* You can have up to 50 attribute columns in your hierarchy.
+* You can have up to 100 attribute columns in your hierarchy.
 * The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9, and spaces. Column names must be unique.
 
 ### Add bucket columns
@@ -115,7 +115,7 @@ When you add a bucket column, note the following:
 * The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy.
 * We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
 * The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
-* A hierarchy may contain up to 25 bucket columns. We plan to work with customers to increase this limit for larger organizations.
+* A hierarchy may contain up to 100 bucket columns. We plan to work with customers to increase this limit for larger organizations.
 
 ### Example
 

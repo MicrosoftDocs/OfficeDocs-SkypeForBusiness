@@ -3,11 +3,12 @@ title: Remotely manage Microsoft Teams Rooms device settings
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 03/15/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -15,7 +16,7 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - tier1
+  - Tier2
 ms.custom: 
   - seo-marvel-mar2020
 description: Remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme and creating a master settings file.
@@ -76,6 +77,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <FrontRowVideoSize>medium</FrontRowVideoSize>
+  <FrontRowPanelDefaults>0,0</FrontRowPanelDefaults>
   <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
   <ShowMeetingChat>true</ShowMeetingChat>
@@ -156,6 +158,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front Row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front Row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
+| `<FrontRowPanelDefaults>` | String | | Input the numeric values for left and right front-of-room displays, separated by a comma (for example, `3,1`). Displays using the same component will be ignored except for <b>0</b> Auto and <b>1</b> Hide on both displays.<ul><li><b>0</b> Auto (default). The "raise hand" component on the left display and "chat" component on the right display. In single display mode, the left display will not be displayed by default for front-of-room displays narrower than 21:9.</li><li><b>1</b> Hide the panel.  </li><li><b>2</b> Show meeting chat.</li><li><b>3</b> Show raised hand list.</li></ul>|
 | `<DefaultFoRExperience>` | Boolean &#x2777; | First &#x2776; | Gallery View by default. Put 1 to change the default layout from Gallery View to Front Row. For more information, see [Set front row as the default layout](manage-front-row.md). |
 | `<MainFoRDisplay>` | Container | First &#x2776; | Use this container if your device is using single display mode.<br><br>In dual display mode, Main Front of Room (FoR) is a screen with clock (out of meeting) and self-preview video (in meeting). `<MainFoRDisplayResolution>` and `<MainFoRDisplayScaling>` have to be set together at a time. If you only use either `<MainFoRDisplayResolution>` or `<MainFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<MainFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (e.g. 1920,1080). It will be ignored if your FoR does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|

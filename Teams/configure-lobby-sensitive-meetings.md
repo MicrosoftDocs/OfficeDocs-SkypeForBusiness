@@ -22,6 +22,8 @@ description: Learn how to configure the Teams meeting lobby to enhance security 
 
 # Configure the Microsoft Teams meeting lobby for sensitive meetings
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 The meeting lobby is a tool that you can use to ensure that inappropriate people are not admitted to meetings. By holding different types of participants in the lobby, meeting organizers can vet them and make sure it's appropriate for them to attend the meeting.
 
 By default, people in your organization and [guests](guest-access.md) are admitted to meetings directly and participants from trusted domains and anonymous participants must wait in the lobby to be admitted by a meeting organizer. Meeting organizers can change this default setting for each meeting they create.
@@ -84,9 +86,7 @@ Unless you allow everyone to bypass the lobby, anonymous participants must go th
 
 If your organization does not allow anonymous participants to join meetings at all, you can turn off the **Anonymous users can join a meeting** setting in the Teams admin center. For more information, see [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams).
 
-If you have certain groups in your organization - such as marketing - who need to organize meetings with anonymous participants and others - such as research - who should not, you can use Teams meeting policies to configure anonymous meeting join for different groups. (You'll need to turn the **Anonymous users can join a meeting** setting mentioned above on for this to work.) For details, see [Meeting policy settings - Participants & guests](/microsoftteams/meeting-policies-participants-and-guests).
-
-For details about which participants are considered anonymous in meetings, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
+If you have certain groups in your organization - such as marketing - who need to organize meetings with anonymous participants and others - such as research - who should not, you can use Teams meeting policies to configure anonymous meeting join for different groups. (You'll need to turn the **Anonymous users can join a meeting** setting mentioned above on for this to work.) For details, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 
 ## Related topics
 

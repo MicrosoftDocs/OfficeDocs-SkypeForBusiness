@@ -22,6 +22,8 @@ description: Learn how Microsoft Teams administrators can create a custom meetin
 
 # Create a custom meeting template in Microsoft Teams
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting settings available to meeting organizers. Templates can configure settings that meeting organizers can change or can lock settings so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
 
 You can create up to 50 custom templates. See [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md) for information on how to manage which templates are available to your users.

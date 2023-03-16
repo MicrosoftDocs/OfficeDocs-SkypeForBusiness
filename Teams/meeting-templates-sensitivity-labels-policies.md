@@ -22,6 +22,8 @@ description: Learn how to use Teams admin policies together with sensitivity lab
 
 # Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 In Teams meetings, meeting organizers can configure [a variety of settings](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) that determine which features are available in the meeting. As an administrator, you can disable or enforce specific values for these settings by using a combination of admin policies, sensitivity labels, and meeting templates.
 
 [Meeting templates](custom-meeting-templates-overview.md) are created and managed in the Teams admin center. Sensitivity labels are created and manged in the Microsoft Purview compliance portal. 

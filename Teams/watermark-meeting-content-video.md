@@ -22,6 +22,8 @@ description: Learn how to enable or require watermarks on attendee video and sha
 
 # Require a watermark for sensitive Teams meetings
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Meeting participants can't turn the watermark off.
 
 Watermarks are supported on Teams desktop and mobile. People joining meetings from unsupported platforms will have an audio-only experience.

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 09/29/2022
+ms.date: 02/23/2023
 ms.collection: 
   - M365-collaboration
   - m365-frontline

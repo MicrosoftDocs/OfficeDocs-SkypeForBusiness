@@ -149,7 +149,7 @@ App setup policies control how apps are made available to a user with the Teams 
 
 ### Meeting policies
 
-Meeting policies are used to control what features are available to users when they join Microsoft Teams meetings.
+Meeting policies are used to control what features are available in meetings organized by users who have the policy assigned to them. Meeting policies also affect the meeting join experience of meeting participants.
 
 #### Meeting scheduling
 
@@ -182,7 +182,7 @@ Meeting policies are used to control what features are available to users when t
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Anonymous users can join a meeting|On|When this setting is on, anyone can join Teams meetings, including Teams users in other organizations that aren't on your allowed domains list. If anonymous join is turned off in org-wide meeting settings, anonymous users can't join any meetings, regardless of what you set here.|
-|Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest, or an external user from a trusted organization. This setting will work only if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
+|Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest, or a user from a trusted organization. This setting will work only if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
 |Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings. |
 
@@ -194,8 +194,9 @@ Meeting policies are used to control what features are available to users when t
 
 ##### Related topics to meeting join & lobby policies
 
-- [Control who can bypass the meeting lobby and access meetings](who-can-bypass-meeting-lobby.md)
+- [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
 - [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
+- [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Meeting engagement

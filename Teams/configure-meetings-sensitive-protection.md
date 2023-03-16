@@ -22,6 +22,8 @@ description: Learn how to configure Teams meetings for protection for sensitive 
 
 # Configure Teams meetings with protection for sensitive data
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 For the *sensitive* level of protection, we'll restrict who can bypass the lobby, who can present, and who can record. You can restrict additional actions as well if your organization requires it.
 
 The following table describes which actions we'll restrict for sensitive meetings and where those settings are configured.
@@ -96,6 +98,8 @@ An advantage of using templates is that you can create multiple templates that u
 
 In the *sensitive* level of protection, we'll use the template to prevent people dialing in by phone from bypassing the lobby. If there are certain types of meetings where you want to allow people calling in by phone to bypass the lobby, consider using a separate template with the same label for those meetings.
 
+We'll also set **Manage what attendees see** to **On**. This will give the meeting organizer the ability to manage how content is shown to meeting participants. We won't enforce the value in this case, allowing the meeting organizer to change it if they need to.
+
 To create a custom meeting template
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
@@ -104,6 +108,7 @@ To create a custom meeting template
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
 1. Make sure **People calling in my phone can bypass the lobby** is set to **Off**, then select it and select **Lock**.
+1. Under **Meeting engagement**, set **Manage what attendees see** to **On**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
