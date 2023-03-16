@@ -48,7 +48,7 @@ Alternatively, the [PowerShell cmdlets](#powershell-cmdlets) listed below may al
 1. In the left navigation of the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), go to **Voice** > **Voice applications policies**.
 1. Select **Add**.
 
-    :::image type="content" source="media/voiceapplications-policies-add-policy.png" alt-text="Screenshot of voice applications policy page in the microsoft teams admin center.":::
+    :::image type="content" source="media/voiceapplications-policies-add-policy.png" alt-text="Screenshot of voice applications policy page in the Microsoft Teams admin center.":::
 
 1. Enter a name and description for the policy.
 1. From here, choose the settings you want.
