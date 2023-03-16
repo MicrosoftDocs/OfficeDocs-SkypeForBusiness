@@ -68,18 +68,6 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ### Enable or disable using Windows PowerShell
 
 See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-  
-## Reset the meeting conference ID
-
-### Reset the meeting conference ID using the Microsoft Teams admin center
-
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
-
-2. Under **Audio Conferencing**, click **Reset conference ID**.  
-
-3. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
-
-See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
 
 ## Reset a conference organizer's PIN
 
