@@ -15,7 +15,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.contentsharing
   - seo-marvel-apr2020

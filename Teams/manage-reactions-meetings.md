@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Learn to manage meeting reactions in Teams meetings.

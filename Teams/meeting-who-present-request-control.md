@@ -16,10 +16,10 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: Learn to manage meeting policy settings in Teams for  meeting experience.
+description: Learn to manage who can present and take control in Teams meetings.
 ---
 
 # Manage who can present and request control in Teams meetings

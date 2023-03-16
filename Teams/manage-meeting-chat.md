@@ -1,7 +1,7 @@
 --- 
 title: Manage chat in Teams meetings
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Learn to manage meeting policy settings in Teams for  meeting experience.
@@ -50,6 +50,10 @@ Information about chat for your end users can be found in [Chat in a Teams meeti
 
 ## Related topics
 
-- [Teams policy reference](settings-policies-reference.md)
-- [Assign policies to your users in Teams](policy-assignment-overview.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
+[Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md)
+
+[Teams policy reference](settings-policies-reference.md)
+
+[Assign policies to your users in Teams](policy-assignment-overview.md)
+
+[Teams PowerShell overview](teams-powershell-overview.md)
