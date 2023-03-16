@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
-ms.date: 03/15/2021
+ms.date: 03/16/2023
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -22,16 +22,14 @@ ms.custom:
 description: Learn to manage meeting policy settings in Teams for  meeting experience.
 ---
 
-
-
 # Meeting policy settings for meeting experience
 
 <a name="bkmeetingparticipants"> </a>
 <a name="who-can-bypass-the-lobby"> </a>
-These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
+
+These settings control the level of participation meeting attendees are allowed in a meeting.
 
 - [Who can present](#who-can-present)
-- [Live captions](#live-captions)
 - [Meeting chat](#meeting-chat)
 - [Q&A](#qa)
 - [Reactions](#reactions)
