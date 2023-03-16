@@ -3,7 +3,7 @@ title: Accessibility guide for Microsoft Teams Admins
 ms.author: meghan
 author: meganrmhan
 ms.reviewer: eljones    
-ms.date: 03/15/2023
+ms.date: 03/15/2022
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

@@ -102,7 +102,7 @@ People outside your organization, such as federated and anonymous users, can't s
 
 This setting provides you with a simple tool that reduces the amount of storage older recordings use. The OneDrive and SharePoint system will monitor the expiration set on all meeting recordings and will automatically move recordings to the recycle bin on their expiration date.
 
-You can turn off the **Meetings automatically expire** setting in the Teams admin center, under **Meetings** > **Meeting policies** > **Recording & transcription**. 
+You can turn off the **Meetings automatically expire** setting in the Teams admin center, under **Meetings** > **Meeting policies** > **Recording & transcription**.
 
 #### Default expiration time
 
@@ -207,7 +207,8 @@ For non-channel meetings, the recordings are stored in the recorder’s OneDrive
 If you’re an administrator, you can use the following diagnostic tool to validate that the user is properly configured to record a meeting in Teams:
 
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
-    > [!div class=“nextstepaction”] [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
+    > [!div class=“nextstepaction”]
+    > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
 1. In the Run diagnostic pane, enter the email of the user who cannot record meetings in the **Username or Email** field, and then select **Run Tests**.
 1. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to record a meeting in Teams.
 
@@ -216,7 +217,8 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 If you’re an administrator, you can use the following diagnostic tool to validate that the meeting recording completed successfully and it was uploaded to OneDrive or Stream, based on the meeting ID and recording start time:
 
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
-    > [!div class=“nextstepaction”] [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
+    > [!div class=“nextstepaction”]
+    > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
 1. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
 1. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
 
