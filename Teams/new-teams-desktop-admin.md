@@ -179,13 +179,13 @@ As we improve the client, the experience has been improved to align with similar
 |:-----|:-----|:-----|
 |Wiki|The Wiki app has been replaced by the Notes app|
 |Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
+|Looking up an organizational chart while in a 1:1 chat  |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
+|Looking up LinkedIn while in a 1:1 chat   |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Channels DocLib app|Use the Sharepoint app in channels instead|
 |DocLib folder select in channel upload|Go to a specific folder and upload|
 |Legacy web app companion (WAC) viewer|Use the OneUp viewer|
 |Allow users to follow another users presence and then notify them of availability|No longer available|
 |Activity tab| The activity tab has been removed due to lack of usage|
-
-
 
 
 ## Known issues
