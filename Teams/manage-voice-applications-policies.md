@@ -121,8 +121,8 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
   - **AllowCallQueueOptOutChange**: Turn this setting on to allow authorized users to change the *call queue opt-out setting* for the call queues they're authorized for.  This setting allows agents to opt-out of receiving calls from the call queue.
   - **AllowCallQueueConferenceModeChange**: Turn this setting on to allow authorized users to change the *call queue conference mode setting* for the call queues they're authorized for.
 
-> [!WARNING]
-> akdjfhalksjdfalkjsfalkjf
+    > [!WARNING]
+    > akdjfhalksjdfalkjsfalkjf
 
   - **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *call queue language* for call queues they're authorized for.
   - **AllowCallQueueMembershipChange**: Turn this setting on to allow authorized users to change the agents who are part of the call queue.
@@ -136,9 +136,8 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
 - Call Queue - Agent opt-in status
   - **AllowCallQueueAgentOptChange**: Turn on this setting to allow authorized users to change an agent's opt-in status for the call queues they're authorized for. 
 
-> [!NOTE]
-> The call queue must be configured to allow agents to opt out in order for this option to work.
-
+  > [!NOTE]
+  > The call queue must be configured to allow agents to opt out in order for this option to work.
 
 - Call Queue - Monitor, whisper, barge, takeover
   - **CallQueueAgentMonitorMode**: When set to Monitor, Whisper, Barge or Takeover this setting allows an authorized user to perform the following actions:
