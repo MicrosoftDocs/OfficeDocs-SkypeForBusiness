@@ -248,16 +248,17 @@ The console is now back in its normal operation mode. The following procedure re
 
 ### Clearing the Teams Rooms on Windows Client Cache
 
-1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen.
-2. Log in to the desktop with your administrative credentials.
-3. Sign off the Skype User
+1. Plug in a physical keyboard to the Teams Rooms device.
+2. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen.
+3. Log in to the desktop with your administrative credentials.
+4. Sign off the Skype User
    1. Open Task Manager
    1. Select the "Users" tab
    1. Right click the Skype User
    1. Select "Sign Off"
-4. Navigate to "C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\"
-5. Delete the "Teams" folder
-6. Restart the Teams Room when you're finished
+5. Navigate to "C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\"
+6. Delete the "Teams" folder
+7. Restart the Teams Room when you're finished
  
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
