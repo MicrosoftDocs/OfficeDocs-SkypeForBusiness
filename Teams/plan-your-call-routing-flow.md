@@ -39,7 +39,7 @@ Auto attendants route all calls in one of the following ways:
 > [!NOTE]
 > A single Auto attendant can only support a single "dial by" method.  To allow callers to dial by name and by number, you will need to create an auto attendant that has an option for dial by name and the another for dial by extension.  Each of these options will route to separate auto attendants configured for these "dial by" scenarios.
 
-When calls are redirected by an auto attendant or call queue, you can choose from the following call routing destinations:
+An auto attendant or call queue may redirect calls to the following destinations:
 
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another auto attendant or a call queue. Choose the resource account associated with the destination.
@@ -63,13 +63,13 @@ The example below shows an example of call routing using auto attendants and cal
 
 In the example above:
 
-- The zero (0) key redirects callers to an operator. The operator for that auto attendant has been configured as a **Person in the organization**.
+- The zero (0) key redirects callers to an operator. The operator for the auto attendant has been configured as a **Person in the organization**.
 - The one (1) key redirects callers to the sales call queue. This call queue is connected to a team that contains the sales team assigned to the queue.
 - The two (2) key redirects callers to the support call queue. This call queue is connected to a team that contains the support team assigned to the team.
 - The support call queue has a direct phone number via an intervening auto attendant. Having an auto attendant answer the support line allows for separate off hours and holiday call routing.
 - The three (3) key redirects users to another auto attendant for the company directory. The company directory auto attendant allows callers to call individuals in the organization by dialing their name or extension.
 
-We recommend that you create one or more diagrams similar to the one above to map out your call routing. Be sure to include the following in your diagram or accompanying documentation:
+We recommend that you create one or more diagrams similar to the one above to map out your call routing. Be sure your diagram or accompanying documentation includes the following:
 
 - Which auto attendants will have direct access via phone numbers?
 - What are the off-hours and holiday routing requirements for each auto attendant?
@@ -82,7 +82,7 @@ Here are some call routing best practices:
 - Avoid connecting service numbers directly to call queues unless the queues are available 24/7. Call queues don't allow for separate call handling for off hours or holidays. If you want to have a queue with a direct number, assign the number to an auto attendant that automatically redirects to the queue during business hours.
 - If you receive numerous calls requesting basic information about your company, such as business hours, location, or web site address, consider creating an auto attendant to answer these questions with recorded messages.
 - Keep the list of menu items to five or fewer. Callers can have trouble remembering more than five options. Use nested auto attendants if more options are needed to properly route a call.
-- Describe the service first, followed by the option to press (eg: For Sales press 1) rather than the other way around (eg. Press 1 for Sales).
+- Describe the service first, followed by the option to press (for example: For Sales press 1) rather than the other way around (for example: Press 1 for Sales).
 - User terminology your callers will understand rather than what you may use internally.
 - Avoid frequent updates to call routing. If you change your menu options for an auto attendant in the future, call that out in the voice prompts for the first 30 days.
 
