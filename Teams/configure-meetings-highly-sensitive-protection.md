@@ -15,6 +15,7 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for protection for highly sensitive information by using templates and sensitivity labels.
@@ -120,9 +121,10 @@ To create a sensitivity label
 1. Click **Create a label**.
 1. Give the label a name. We suggest **Highly sensitive**, but you can choose a different name if that one is already in use.
 1. Add a display name and description, and then click **Next**.
-1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
+1. On the **Define the scope for this label** page, make sure **Items** and **Include meetings** are selected. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
-1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
+1. On the **Choose protection settings for labeled items** page, select **Protect Teams meetings and chats** and then select **Next**
+1. On the **Settings for Teams meetings and chats** page, choose the following values:
     1. Select **Control who can bypass the lobby** and select **Only organizers and co-organizers** from the dropdown list.
     1. Ensure that **People dialing in can bypass the lobby** is unchecked
     1. Select **Control who can present** and select **Only organizers and co-organizers** from the dropdown list.
