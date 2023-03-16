@@ -127,7 +127,7 @@ Many organizations have the following GPOs, which affect Teams Rooms functionali
   - Denying access to local drives
   - Prompting users for slow network connections
   - Start a certain program at logon
-  - Create another domain user account on all domain-joined machines.
+  - Create another domain user account on all domain-joined machines
   - Push Windows Update to Teams Rooms
 
 When joining Microsoft Teams Rooms to a domain, ensure that your group policies don't override the settings in the following table.
