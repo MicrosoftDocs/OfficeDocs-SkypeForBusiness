@@ -32,7 +32,7 @@ These settings control which meeting participants wait in the lobby before they'
 
 - [Who can present](#who-can-present)
 - [Live captions](#live-captions)
-- [Meeting chat](#chat-in-meetings)
+- [Meeting chat](#meetings-chat)
 - [Q&A](#qa)
 - [Reactions](#reactions)
 
