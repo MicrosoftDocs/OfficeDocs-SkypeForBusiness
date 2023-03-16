@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: Learn to manage meeting policy settings in Teams for  meeting experience.
+description: Learn to manage meeting chat in Teams meetings.
 ---
 
 # Manage chat in Teams meetings
