@@ -133,6 +133,13 @@ To let unmanaged Teams users initiate requests to communicate with people in you
 
 To restrict communication with people with unmanaged Teams accounts to a specific list of user profiles, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and add the user profiles that you want to allow.
 
+You can also configure this setting in PowerShell by using the [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet with the *RestrictTeamsConsumerAccessToExternalUserProfiles* parameter. For example:
+
+```powershell
+Set-CsExternalAccessPolicy -Identity Global -RestrictTeamsConsumerAccessToExternalUserProfiles $true
+```
+restricts communication to the list of user profiles in extended directory for the default global external access policy.
+
 ### Manage external user profiles
 
 External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it via SMS. Once they have created a Teams account, they can also use Teams on the desktop.
