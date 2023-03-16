@@ -1,5 +1,5 @@
 --- 
-title: Manage meeting policies for participants and guests
+title: Meeting policy settings for meeting experience
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -19,33 +19,27 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
   - seo-marvel-apr2020
-description: Learn to manage meeting policy settings in Teams for participants and guests.
+description: Learn to manage meeting policy settings in Teams for  meeting experience.
 ---
 
 
 
-# Meeting policy settings - Participants & guests
+# Meeting policy settings for meeting experience
 
 <a name="bkmeetingparticipants"> </a>
 
 These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
 
-- [Anonymous users can join a meeting](#anonymous-users-can-join-a-meeting)
 - [Who can present](#who-can-present)
-- [Who can bypass the lobby](#who-can-bypass-the-lobby)
 - [Live captions](#live-captions)
-- [Chat in meetings](#chat-in-meetings)
+- [Meeting chat](#chat-in-meetings)
 - [Q&A](#qa)
 - [Reactions](#reactions)
 
-These settings are found in the Teams admin center under **Meetings** > **Meeting policies** in the **Participants & guests** section.
+These settings are found in the Teams admin center under **Meetings** > **Meeting policies**.
 
 > [!NOTE]
 > Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
-
-## Anonymous users can join a meeting
-
-To learn about anonymous users joining meetings, read [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
 
 ## Who can present
 
@@ -60,14 +54,6 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 - **Everyone**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
-
-## Who can bypass the lobby
-
-To learn about the meeting lobby, read [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
-
-## Meet now in private meetings
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting. By default, this setting is turned on. To learn more about private meetings, read [Manage who can start and schedule meetings](manage-who-can-schedule-meetings.md).
 
 ## Live captions
 
@@ -93,7 +79,7 @@ To enable **Live translated captions**, **Live captions** must be set to **Off, 
 
 <a name="bkcontentsharing"> </a>
 
-## Chat in meetings
+## Meeting chat
 
 This is a per-user and per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. This setting doesn't apply to channel meetings.
 
