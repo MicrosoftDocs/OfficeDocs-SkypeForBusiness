@@ -45,7 +45,7 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
 - **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
 - **Offboard stale devices:** SIP Gateway supports auto offboarding of stale devices provisioned for a tenant. Paired (signed-in) devices will be offboarded if not connected for 30 days, and unpaired (signed-out) devices after 14 days. An offboarded device can be re-onboarded after a factory reset.
-- **Set DND from SIP devices:** You can use your SIP device for setting and/or fetching your Teams DND status. To set DND for your Teams account from SIP device, dial the feature code \*30* on the SIP device. To reset your Teams DND status, dial \*31* from the SIP device. This will clear user configured presence status, in this case DND.  
+- **Set DND from SIP devices:** You can use your SIP device for setting and fetching your Teams Do Not Disturb (DND) status. To set the DND status for your Teams account from your SIP device, dial the feature code \*30\* on the SIP device. To reset your Teams DND status, dial \*31\* from the SIP device. Dialing \*31\* clears the user-configured presence status, in this case DND.  
 
 ## Requirements to use SIP Gateway
 
