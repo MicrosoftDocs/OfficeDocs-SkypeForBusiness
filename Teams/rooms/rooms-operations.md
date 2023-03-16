@@ -40,7 +40,7 @@ The logs will be output as a ZIP file in c:\rigel.
 ### Managing Disk Space
 <a name="Space"> </a>
 
-Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean up using the device registry setting.
+Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean-up using the device registry setting.
 
 |Setting|Allows|
 |:-----|:-----|
@@ -251,14 +251,14 @@ The console is now back in its normal operation mode. The following procedure re
 1. Plug in a physical keyboard to the Teams Rooms device.
 2. Press the **Windows** key five times in rapid succession. This will bring you to the Windows logon screen.
 3. Log in to the desktop with your administrative credentials.
-4. Sign off the **Skype** user
-   1. Open **Task Manager**
-   1. Select the **Users** tab
-   1. Right click the **Skype** user
-   1. Select **Sign Off**
+4. Sign the **Skype** user out of the account.
+   1. Open **Task Manager**.
+   1. Select the **Users** tab.
+   1. Right click the **Skype** user.
+   1. Select **Sign Off**.
 5. Navigate to `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
-6. Delete the **Teams** folder
-7. Restart the Teams Room when you're finished
+6. Delete the **Teams** folder.
+7. Restart the Teams Room when you're finished.
  
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
