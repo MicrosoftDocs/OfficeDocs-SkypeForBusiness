@@ -245,7 +245,20 @@ Some management functions, like manually installing a private CA certificate, re
 8.  Restart the machine when you're finished.
     
 The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one is not already attached. 
-  
+
+### Clearing the Teams Rooms on Windows Client Cache
+
+1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen.
+2. Log in to the desktop with your administrative credentials.
+3. Sign off the Skype User
+   1. Open Task Manager
+   1. Select the "Users" tab
+   1. Right click the Skype User
+   1. Select "Sign Off"
+4. Navigate to "C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\"
+5. Delete the "Teams" folder
+6. Restart the Teams Room when you're finished
+ 
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
 1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen. 
