@@ -74,7 +74,7 @@ You need permission for the following items to deploy Updates:
 
 The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model](/common-data-model/).
 
-Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Learn more about  [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Learn more about [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >If you delete the Form template on the Microsoft Forms site, it'll break your Updates template and users are unable to submit the update. Users get an error "CDB TableNotFound" when trying to open a template that has been deleted on Microsoft Forms.
