@@ -45,6 +45,7 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
 - **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
 - **Offboard stale devices:** SIP Gateway supports auto offboarding of stale devices provisioned for a tenant. Paired (signed-in) devices will be offboarded if not connected for 30 days, and unpaired (signed-out) devices after 14 days. An offboarded device can be re-onboarded after a factory reset.
+- **Set DND from SIP devices:** You can use your SIP device for setting and/or fetching your Teams DND status. To set DND for your Teams account from SIP device, dial the feature code \*30* on the SIP device. To reset your Teams DND status, dial \*31* from the SIP device. This will clear user configured presence status, in this case DND.  
 
 ## Requirements to use SIP Gateway
 
@@ -98,10 +99,12 @@ If you have a 3PIP or SIP device, you must have:
 |          |VVX501<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX600     |5.9.5       |5.9.7.3480 |   |   |
 |          |VVX601<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |Rove B2    |8.0.3.0010  |8.0.3.0010 |   |   |
-|          |Rove B4    |8.0.3.0010  |8.0.3.0010 |   |   |
-|          |Rove 30    |8.0.3.0010  |8.0.3.0010 |   |   |
-|          |Rove 40    |8.0.3.0010  |8.0.3.0010 |   |   |
+|          |Rove B1    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove B2    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove B4    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove 20    |8.0.5.0003  |8.0.5.0003 |   |   |
+|          |Rove 30    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove 40    |8.0.5.0003  |8.0.5.0003 |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
 |          |T21P       |83          |34.72.0.75 |   |   |
 |          |T21P_E2    |83          |52.84.0.125|   |   |
