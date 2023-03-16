@@ -15,6 +15,7 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for protection for sensitive information by using templates and sensitivity labels.
