@@ -156,7 +156,7 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
 
   - Real Time
     - **RealTimeAutoAttendantMetricsPermission**: Controls access to real-time auto attendant metrics - see below for values
-    - **RealTimeQueueMetricsPermission**: Controls acccess to real-time call queue metrics - see below for values
+    - **RealTimeQueueMetricsPermission**: Controls access to real-time call queue metrics - see below for values
     - **RealTimeAgentMetricsPermission**: Controls access to real-time agent metrics - see below for values
 
   - Historical
@@ -166,5 +166,5 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
 
     Values:
     - None - no access
-    - Authorized - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they are authorized for
-    - All - the authorized user sees metrics for all auto attendants and call queues (and associated agents) they are authorized for
+    - Authorized - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for
+    - All - the authorized user sees metrics for all auto attendants and call queues (and associated agents) they're authorized for
