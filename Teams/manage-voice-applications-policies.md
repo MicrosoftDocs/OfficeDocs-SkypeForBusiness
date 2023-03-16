@@ -144,19 +144,15 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
 
 - Call Queue - Monitor, whisper, barge, takeover
 
-- **CallQueueAgentMonitorMode**: 
+- **CallQueueAgentMonitorMode**: When set to Monitor, Whisper, Barge or Takeover this setting allows an authorized user to perform the following actions:
+ - - When set to Disabled an authorized user will not be allowed to monitor an agent.
+ - - When set to Monitor, an authorized user will be able to monitor an agent and listen to them while they are on an inbound call queue call.
+ - - When set to Whisper, an authorized user will be able to monitor an agent and whisper to them while they are on an inbound call queue call - the caller will not hear the authozied user.
+ - - When set to Barge, an authorized user will be able to monitor an agent, whisper to them and barge-in or join their inbound call queue call.
+ - - When set to Takeover, an authorized user will be able to monitor an agent, whisper to them, barge-in and take over the inbound call queue.
 
- - - When set to Disabled an authorized user will not be allowed to monitor agents.
+> [!NOTE]
+> Only one authorized user may be in a monitor session with an agent at a time.  
 
-When set to Monitor, users affected by the policy will be allowed to monitor and listen to call sessions.
-
-When set to Whisper, users affected by the policy will be allowed to monitor call sessions and whisper to an agent in the call.
-
-When set to Barge, users affected by the policy will be allowed to monitor call sessions, whisper to an agent in the call, or join the call session.
-
-When set to Takeover, users affected by the policy will be allowed to monitor call sessions, whisper to an agent in the call, join the call session, or take over the call from an agent.
-
--CallQueueAgentMonitorNotificationMode
-PARAMVALUE: Disabled | Agent
-
-When set to Agent, users affected by the policy will be allowed to monitor agents during call sessions. When set to Disabled (the default value) users affected by the policy will not be allowed to monitor agents during call sessions.
+ - **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner will be presented to an agent who is being actively monitored by an authorized user.
+ 
