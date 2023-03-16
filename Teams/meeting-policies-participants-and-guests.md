@@ -32,7 +32,7 @@ These settings control which meeting participants wait in the lobby before they'
 
 - [Who can present](#who-can-present)
 - [Live captions](#live-captions)
-- [Meeting chat](#meetings-chat)
+- [Meeting chat](#meeting-chat)
 - [Q&A](#qa)
 - [Reactions](#reactions)
 
@@ -41,6 +41,9 @@ These settings are found in the Teams admin center under **Meetings** > **Meetin
 > [!NOTE]
 > Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
+<!---
+## Who can bypass the lobby
+--->
 ## Who can present
 
 This setting is a per-user policy that lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. The **Who can present** policy setting affects all meetings, including Meet Now meetings.
