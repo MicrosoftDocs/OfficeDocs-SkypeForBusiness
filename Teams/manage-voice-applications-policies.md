@@ -149,7 +149,8 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
     - When set to Takeover, an authorized user will be able to monitor an agent, whisper to them, barge-in and take over the inbound call queue.
 
 > [!NOTE]
-> Only one authorized user may be in a monitor session with an agent at a time.  
+> An agent may only be monitored by one authorized user at a time.
+> An authorized user may only be in one monitor session at a time.
 
   - **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner will be presented to an agent who is being actively monitored by an authorized user.
  
