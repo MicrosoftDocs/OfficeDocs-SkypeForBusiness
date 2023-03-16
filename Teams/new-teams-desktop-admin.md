@@ -185,7 +185,7 @@ As we improve the client, the experience has been improved to align with similar
 |DocLib folder select in channel upload|Go to a specific folder and upload|
 |Legacy web app companion (WAC) viewer|Use the OneUp viewer|
 |Allow users to follow another users presence and then notify them of availability|No longer available|
-|Activity tab| The activity tab has been removed due to lack of usage|
+|Activity tab| No longer available|
 
 
 ## Known issues
