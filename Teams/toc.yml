@@ -610,6 +610,8 @@ items:
                   href: meeting-policies-content-sharing.md
                 - name: Configure desktop sharing
                   href: configure-desktop-sharing.md
+                - name: Who can present
+                  href: meeting-who-present-request-control.md
             - name: Participant, guest, and access policies
               items:
                 - name: Anonymous participants
@@ -698,6 +700,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
+            - name: Meeting chat
+              href: manage-meeting-chat.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up webinars
