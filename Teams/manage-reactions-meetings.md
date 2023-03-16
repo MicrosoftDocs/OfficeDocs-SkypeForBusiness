@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua, shalenc
+ms.reviewer: 
 ms.date: 03/15/2021
 audience: admin
 ms.localizationpriority: medium
@@ -19,7 +19,6 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
-  - seo-marvel-apr2020
 description: Learn to manage meeting reactions in Teams meetings.
 ---
 
