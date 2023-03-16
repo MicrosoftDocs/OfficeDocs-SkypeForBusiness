@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - ediscovery
 ms.reviewer: anwara
-ms.date: 08/11/2017
+ms.date: 03/15/2023
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
@@ -39,7 +39,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Audio recordings||
 |Card content|See [Search for card content](#search-for-card-content) for more information.|
 |Chat links||
-|Chat messages|This includes content in standard Teams channels, 1:1 chats, 1:N group chats, and chats with guest user participants.|
+|Chat messages|This includes content in standard Teams channels, 1:1 chats, 1:N group chats, chats with yourself, and chats with guest user participants.|
 |Code snippets||
 |Edited messages|If the user is on hold, previous versions of edited messages are also preserved.|
 |Emojis, GIFs, and stickers||
