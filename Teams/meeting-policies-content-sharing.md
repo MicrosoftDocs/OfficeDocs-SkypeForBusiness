@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies for content sharing
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -26,15 +26,6 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 # Meeting policy settings - Content sharing
 
 <a name="bkcontentsharing"> </a>
-
-This article describes the following meeting policy settings related to content sharing:
-
-- [Screen sharing mode](#screen-sharing-mode)
-- [Participants can give or request control](#participants-can-give-or-request-control)
-- [External participants can give or request control](#external-participants-can-give-or-request-control)
-- [PowerPoint Live](#powerpoint-live)
-- [Whiteboard](#whiteboard)
-- [Shared notes](#shared-notes)
 
 ## Screen sharing mode
 
