@@ -23,7 +23,7 @@ description: Learn about the User Subscription Licenses assigned to Microsoft Te
 
 User licenses aren't supported for use with meeting devices. User licenses that have been assigned to teams meeting devices need to be replaced by a Teams Rooms Basic or Teams Rooms Pro license prior to July 1, 2023. They may also be assigned legacy licenses Teams Rooms Standard and Teams Rooms Premium. Meeting devices that have a user subscription license after July 1, 2023 will be unable to sign in until a Teams Rooms license is assigned. 
 
-Also, Microsoft Teams Shared Devices licenses aren't supported on and will not work with Teams Rooms devices. Teams Rooms devices should only be assigned Teams Rooms Basic or Teams Rooms Pro licenses. 
+Also, Microsoft Teams Shared Devices licenses aren't supported on and won't work with Teams Rooms devices. Teams Rooms devices should only be assigned Teams Rooms Basic or Teams Rooms Pro licenses. 
 
 To determine your license position, we suggest two ways to check your machines depending on the number of devices you have in your organization.  
 
@@ -35,7 +35,7 @@ To determine your license position, we suggest two ways to check your machines d
 
    ![Teams-room-license-for-devices](../media/Teams-rooms.png)
 
- - Devices that have the Pro license can access all the all the capabilities of their Teams Room devices.
+ - Devices that have the Pro license can access all the capabilities of their Teams Room devices.
   
  - Devices with other licenses can access a subset of those features. You can see which features are available to each license in Comparison of Teams Rooms feature availability by license. 
 
@@ -229,9 +229,9 @@ Write-Host "Done" -ForegroundColor Green
 
 ## See which features require a Microsoft Teams Rooms Pro license 
 
-Features that require a Microsoft Teams Rooms Pro license can be identified by looking for the  icon on a device's details page. If the device that's currently selected isn't assigned a Microsoft Teams Rooms Pro license, you won't be able to perform the action and will see a prompt to upgrade. 
+Features that require a Microsoft Teams Rooms Pro license can be identified by looking for the icon on a device's details page. If the device that's currently selected isn't assigned a Microsoft Teams Rooms Pro license, you can't perform the action and a prompt to upgrade is displayed. 
 
-[image]
+![image](../media/restart-pro.png)
 
 ### Related Content
 
