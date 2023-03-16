@@ -155,16 +155,16 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
 - Real-time and historical reporting
 
   - Real Time
-    - **RealTimeAutoAttendantMetricsPermission**: Controls access to real-time auto attendant metrics - see below for values
-    - **RealTimeQueueMetricsPermission**: Controls access to real-time call queue metrics - see below for values
-    - **RealTimeAgentMetricsPermission**: Controls access to real-time agent metrics - see below for values
+    - **RealTimeAutoAttendantMetricsPermission**: Controls access to real-time auto attendant metrics - see below for values.
+    - **RealTimeQueueMetricsPermission**: Controls access to real-time call queue metrics - see below for values.
+    - **RealTimeAgentMetricsPermission**: Controls access to real-time agent metrics - see below for values.
 
   - Historical
-    - **HistoricalAutoAttendantMetricsPermission**: Controls access to historical auto attendant metrics - see below for values
-    - **HistoricalQueueMetricsPermission**: Controls access to historical call queue metrics - see below for values
-    - **HistoricalAgentMetricsPermission**: Controls access to historical agent metrics - see below for values
+    - **HistoricalAutoAttendantMetricsPermission**: Controls access to historical auto attendant metrics - see below for values.
+    - **HistoricalQueueMetricsPermission**: Controls access to historical call queue metrics - see below for values.
+    - **HistoricalAgentMetricsPermission**: Controls access to historical agent metrics - see below for values.
 
     Values:
-    - None - no access
-    - Authorized - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for
-    - All - the authorized user sees metrics for all auto attendants and call queues (and associated agents) they're authorized for
+    - None - no access to any metrics.
+    - Authorized - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
+    - All - the authorized user sees metrics for all auto attendants and call queues (and associated agents) they're authorized for.
