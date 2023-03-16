@@ -18,6 +18,7 @@ f1.keywords:
 ms.custom: 
 ms.collection: 
   - M365-collaboration
+  - Tier2
 description: Learn how to set up and manage streaming for your Teams meetings.
 ---
 
