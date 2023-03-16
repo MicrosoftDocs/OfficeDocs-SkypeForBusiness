@@ -61,9 +61,9 @@ To set the scale and resolution of your Front of Rooms displays remotely, see [R
 
 To set the scale and resolution manually in the Teams Rooms admin settings:
 
-1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
 
-2. Select the start icon. Then **Settings > System > Display**
+2. Select the start icon. Then **Settings > System > Display**.
 
 3. Go to **Scale and layout**, then **Change the size of text, apps, and other items**, and set the scaling to 100%.
 
