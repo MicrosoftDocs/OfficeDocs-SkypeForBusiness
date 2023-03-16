@@ -38,16 +38,17 @@ Alternatively, the [PowerShell cmdlets](#powershell-cmdlets) listed below may al
 > [!IMPORTANT]
 > The global, org-wide default policy turns off all configuration change capabilities. Changing the global policy or creating a custom policy and assigning to user(s) is one of two steps required to create authorized users.
 >
-> In addition to having a Teams Voice Applications Policy assigned, users must also be assigned to an auto attendant or call queue [Authorized users](aa-cq-authorized-users.md).
+> In addition to having a Teams Voice Applications Policy assigned, users must also be assigned as an [Authorized users](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
 >
-> Having only a policy assigned or only being assigned as an authorized user results in the user not being able to make changes to auto attendant or call queue configurations.
+> Having only a policy assigned and not being assigned as an authorized user to at least one auto attendant or call queue will not enable the user to perform the actions described below.
+> Having only been assigned as an authorized user to at least one auto attendant or call queue but not being assigned a policy will not enable the user to perform the actions described below.
 
 ## Create a custom voice applications policy
 
 1. In the left navigation of the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), go to **Voice** > **Voice applications policies**.
 1. Select **Add**.
 
-    :::image type="content" source="media/voiceapplications-policies-add-policy.png" alt-text="Screenshot of voice applications policy page in teams admin center.":::
+    :::image type="content" source="media/voiceapplications-policies-add-policy.png" alt-text="Screenshot of voice applications policy page in the microsoft teams admin center.":::
 
 1. Enter a name and description for the policy.
 1. From here, choose the settings you want.
@@ -92,7 +93,7 @@ You can edit the global policy or any custom policies you create.
 > [!IMPORTANT]
 > In addition to creating a TeamsVoiceApplicationsPolicy and assigning it to users, a user must also be assigned as an [Authorized users](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
 
-- Auto attendant configuraton:
+- Auto attendant configuration:
   - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the *Business Hours Greeting* for the auto attendants they're authorized for.
   - **After Hours Greeting**: Turn on this setting to allow authorized users to change the *After Hours Greeting* for the auto attendants they're authorized for.
   - **Holiday Greeting**: Turn on this setting to allow authorized users to change the *Holiday Greeting* for the auto attendants they're authorized for.
@@ -108,51 +109,47 @@ You can edit the global policy or any custom policies you create.
 The following policy settings are referenced in the [PowerShell cmdlets](#powershell-cmdlets) however they are not generally available and are not shown in Teams Admin Center.
 
 - Auto attendant configuration
- - **AllowAutoAttendantBusinessHoursChange**: Turn on this setting to allow authorized users to change the *auto attendant business hours schedule* for the auto attendnats they're authorized for.
- - **AllowAutoAttendantBusinessHoursRoutingChange**: Turn on this setting to allow authroized users to change the *auto attendant business hours call flow* for the auto attendants they're authorized for.
- - **AllowAutoAttendantAfterHoursRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant after-hours call flow* for the auto attendants they're authorized for.
- - **AllowAutoAttendantHolidaysChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday schedules* for the auto attendants they're authorized for.
- - **AllowAutoAttendantHolidayRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday call flows* for the auto attendants they're authorized for.
- - **AllowAutoAttendantLanguageChange**: Turn on this setting to allow authorized users to change the *auto attendant language* for the auto attendants they're authorized for.
- - **AllowAutoAttendantTimeZoneChange**: Turn on this setting to allow authorized users to change the *auto attendant time zone* for the auto attendants they're authorized for.
+  - **AllowAutoAttendantBusinessHoursChange**: Turn on this setting to allow authorized users to change the *auto attendant business hours schedule* for the auto attendants they're authorized for.
+  - **AllowAutoAttendantBusinessHoursRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant business hours call flow* for the auto attendants they're authorized for.
+  - **AllowAutoAttendantAfterHoursRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant after-hours call flow* for the auto attendants they're authorized for.
+  - **AllowAutoAttendantHolidaysChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday schedules* for the auto attendants they're authorized for.
+  - **AllowAutoAttendantHolidayRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday call flows* for the auto attendants they're authorized for.
+  - **AllowAutoAttendantLanguageChange**: Turn on this setting to allow authorized users to change the *auto attendant language* for the auto attendants they're authorized for.
+  - **AllowAutoAttendantTimeZoneChange**: Turn on this setting to allow authorized users to change the *auto attendant time zone* for the auto attendants they're authorized for.
 
 - Call Queue configuration
-
- - **AllowCallQueueOptOutChange**: Turn this setting on to allow authorized users to change the *call queue opt-out setting* for the call queues they're authorized for.  This setting allows agents to opt-out of receiving calls from the call queue.
-
- - **AllowCallQueueConferenceModeChange**: Turn this setting on to allow authorized users to change the *call queue conference mode setting* for the call queues they're authorized for.
+  - **AllowCallQueueOptOutChange**: Turn this setting on to allow authorized users to change the *call queue opt-out setting* for the call queues they're authorized for.  This setting allows agents to opt-out of receiving calls from the call queue.
+  - **AllowCallQueueConferenceModeChange**: Turn this setting on to allow authorized users to change the *call queue conference mode setting* for the call queues they're authorized for.
 
 > [!WARNING]
 > akdjfhalksjdfalkjsfalkjf
 
- - **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *call queue language* for call queues they're authorized for.
- - **AllowCallQueueMembershipChange**: Turn this setting on to allow authorized users to change the agents who are part of the call queue.
- - **AllowCallQueueMusicOnHoldChange**: Turn this setting on to allow authorized users to change the *call queue music on hold* for the call queues they're authorized for.
-- **AllowCallQueueNoAgentsRoutingChange**: Turn this setting on to allow authorized users to change the *call queue no-agent handling properties* for the call queues they're authorized for.
- - **AllowCallQueueOverflowRoutingChange**: Turn this setting on to allow authorized users to change the *call queue overflow handling properties* for the call queues they're authorized for.
- - **AllowCallQueuePresenceBasedRoutingChange**: Turn this setting on to allow authorized users to change the *call queue presence-based routing option* for the call queues they're authorized for.
- - **AllowCallQueueRoutingMethodChange**: Turn this setting on to allow authorized users to change the *call queue routing method* for the call queues they're authorized for.
-- **AllowCallQueueTimeoutRoutingChange**: Turn this setting on to allow authorized users to change the *call queue timeout handling properties* for the call queues they're authorized for.
+  - **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *call queue language* for call queues they're authorized for.
+  - **AllowCallQueueMembershipChange**: Turn this setting on to allow authorized users to change the agents who are part of the call queue.
+  - **AllowCallQueueMusicOnHoldChange**: Turn this setting on to allow authorized users to change the *call queue music on hold* for the call queues they're authorized for.
+  - **AllowCallQueueNoAgentsRoutingChange**: Turn this setting on to allow authorized users to change the *call queue no-agent handling properties* for the call queues they're authorized for.
+  - **AllowCallQueueOverflowRoutingChange**: Turn this setting on to allow authorized users to change the *call queue overflow handling properties* for the call queues they're authorized for.
+  - **AllowCallQueuePresenceBasedRoutingChange**: Turn this setting on to allow authorized users to change the *call queue presence-based routing option* for the call queues they're authorized for.
+  - **AllowCallQueueRoutingMethodChange**: Turn this setting on to allow authorized users to change the *call queue routing method* for the call queues they're authorized for.
+  - **AllowCallQueueTimeoutRoutingChange**: Turn this setting on to allow authorized users to change the *call queue timeout handling properties* for the call queues they're authorized for.
 
 - Call Queue - Agent opt-in status
-
- - **AllowCallQueueAgentOptChange**: Turn on this setting to allow authorized users to change an agent's opt-in status for the call queues they're authorized for. 
+  - **AllowCallQueueAgentOptChange**: Turn on this setting to allow authorized users to change an agent's opt-in status for the call queues they're authorized for. 
 
 > [!NOTE]
 > The call queue must be configured to allow agents to opt out in order for this option to work.
 
 
 - Call Queue - Monitor, whisper, barge, takeover
-
-- **CallQueueAgentMonitorMode**: When set to Monitor, Whisper, Barge or Takeover this setting allows an authorized user to perform the following actions:
- - - When set to Disabled an authorized user will not be allowed to monitor an agent.
- - - When set to Monitor, an authorized user will be able to monitor an agent and listen to them while they are on an inbound call queue call.
- - - When set to Whisper, an authorized user will be able to monitor an agent and whisper to them while they are on an inbound call queue call - the caller will not hear the authozied user.
- - - When set to Barge, an authorized user will be able to monitor an agent, whisper to them and barge-in or join their inbound call queue call.
- - - When set to Takeover, an authorized user will be able to monitor an agent, whisper to them, barge-in and take over the inbound call queue.
+  - **CallQueueAgentMonitorMode**: When set to Monitor, Whisper, Barge or Takeover this setting allows an authorized user to perform the following actions:
+    - When set to Disabled an authorized user won't be able to monitor an agent.
+    - When set to Monitor, an authorized user will be able to monitor an agent and listen to them while they are on an inbound call queue call.
+    - When set to Whisper, an authorized user will be able to monitor an agent and whisper to them while they are on an inbound call queue call - the caller won't hear the authorized user.
+    - When set to Barge, an authorized user will be able to monitor an agent, whisper to them and barge-in or join their inbound call queue call.
+    - When set to Takeover, an authorized user will be able to monitor an agent, whisper to them, barge-in and take over the inbound call queue.
 
 > [!NOTE]
 > Only one authorized user may be in a monitor session with an agent at a time.  
 
- - **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner will be presented to an agent who is being actively monitored by an authorized user.
+  - **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner will be presented to an agent who is being actively monitored by an authorized user.
  
