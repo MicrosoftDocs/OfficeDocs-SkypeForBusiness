@@ -29,11 +29,15 @@ To determine your license position, we suggest two ways to check your machines d
 
 ## To check the license of a few Teams Rooms devices 
 
-For a small number of devices, you can see what license your devices have by going to Teams devices in the Teams Admin Center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see. For example, if you select Teams devices > Teams Rooms on Windows, you'll see the following image. The License column shows the Teams Rooms license assigned to each device. 
+ - For a small number of devices, you can see what license your devices have by going to Teams devices in the Teams Admin Center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see. 
+ 
+ - For example, if you select **Teams devices > Teams Rooms on Windows**, you'll see the following image. The License column shows the Teams Rooms license assigned to each device. 
 
-[image]
+   ![Teams-room-license-for-devices](media/Teams-rooms.png)
 
-Devices that have the Pro license can access all the all the capabilities of their Teams Room devices. Devices with other licenses can access a subset of those features. You can see which features are available to each license in Comparison of Teams Rooms feature availability by license. 
+ - Devices that have the Pro license can access all the all the capabilities of their Teams Room devices.
+  
+ - Devices with other licenses can access a subset of those features. You can see which features are available to each license in Comparison of Teams Rooms feature availability by license. 
 
 ## Checking the License of Multiple Microsoft Teams Rooms Devices in Bulk 
 
@@ -232,12 +236,16 @@ Features that require a Microsoft Teams Rooms Pro license can be identified by l
 ### Related Content
 
  - [Teams add-on licensing ](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+ 
  - [Manage user access to Teams ](/microsoftteams/user-access)
+ 
  - [View licenses and services with PowerShell](/microsoft-365/enterprise/view-licenses-and-services-with-microsoft-365-powershell?)
+ 
  - [Product names and service plan identifiers for licensing](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
+ 
  - [Education SKU reference](/microsoftteams/sku-reference-edu)
+ 
  - [How long does it take for new license orders to appear in the license summary](/licensing/license-faq#how-long-does-it-take-for-new-license-orders-to-appear-in-the-license-summary)
-
 
 
 
