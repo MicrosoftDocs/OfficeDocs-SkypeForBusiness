@@ -114,7 +114,7 @@ If your tenant has users with the self-service Teams Exploratory trial (New Comm
 
 For instructions on how to turn off and on users' ability to to install trial apps and services, see [Use AllowSelfServicePurchase for the MSCommerce PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
-#### If your users have the tenant-based organizational Teams exploratory trial
+#### If your users have the tenant-based organizational Teams Exploratory trial
 
 1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 1. On the left-side navigation, go to **Settings** > **Org settings**.
@@ -176,14 +176,20 @@ To learn about Microsoft's data retention policy, see [Microsoft 365 subscriptio
 
 Teams Exploratory lasts depending on which Teams Exploratory experience your users have access to.
 
-For users with the self-service Teams Exploratory trial, there are two different trial periods:
+### Self-service Teams Exploratory trial
+
+For users with the **self-service Teams Exploratory trial**, there are two different trial periods:
 
 - For Enterprise Agreement (EA) customers: 6-month trial period
 - For non-Enterprise Agreement customers: 3-month trial period
 
-For users with the tenant-based organizational trial, they will have a 12-month trial period.
+The **self-service trial** period begins when a user signs up for Teams Exploratory. The expiry date is determined per-user. Each user will have a unique expiry date depending on the length of trial period they qualify for and when they sign up.
 
-The Teams Exploratory subscription starts when the first user in an organization signs up for Teams Exploratory. The expiry date will apply to all users in the same tenant as the trial period begins on the first user's sign-up date.
+### Tenant-based organizational Teams Exploratory trial
+
+For users with the **tenant-based organizational trial**, they will have a 12-month trial period.
+
+The **tenant-based trial** starts when the first user in an organization signs up for Teams Exploratory. The expiry date will apply to all users in the same tenant as the trial period begins on the first user's sign-up date.
 
 > [!NOTE]
 > The end date for the experience is configured at an organization level, meaning it will apply to all users in the same organization. For example, User 1 signs up for the subscription on January 1, 2021. This initiates a subscription end-date of December 31, 2021. Another user, User 2, signs up for the subscription on October 1, 2021. User 2 can use Teams Exploratory for two months, as their end-date will be December 31, 2021 because they're under the same organization's subscription as User 1.
