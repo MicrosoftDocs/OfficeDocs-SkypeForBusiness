@@ -46,7 +46,7 @@ In the Teams admin center, you can turn on or turn off the **Transcription** set
 
 ### Use PowerShell to turn on or turn off transcription
 
-Using PowerShell, you can configure the `-AllowTranscription` setting in TeamsMeetingPolicy. To learn more, see [Set-CsTeamsMeetingPolicy](\powershell\module\skype\set-csteamsmeetingpolicy).
+Using PowerShell, you can configure the `-AllowTranscription` setting in TeamsMeetingPolicy. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTranscription $True
