@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Partner qualification for Lync: Phones and devices"
 ms.author: serdars
 author: msdmaguire
@@ -69,5 +70,6 @@ Contact the vendors for more information about these products.
 | Yealink SIP-T22P                          | March 2015         | 7.7.0.26                                                                                      | Not tested                                 | 7.7.0.26                                                                                      |
 | Yealink SIP-T48G                          | March 2015         | 35.7.0.26                                                                                     | Not tested                                 | 35.7.0.26                                                                                     |
 |                                           |                    |                                                                                               |                                            |                                                                                               |
+
 
 

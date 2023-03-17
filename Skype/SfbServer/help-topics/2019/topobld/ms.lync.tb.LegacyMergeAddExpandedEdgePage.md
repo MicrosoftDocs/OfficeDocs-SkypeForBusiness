@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Legacy Merge Add Expanded Edge"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "Skype for Business Server does not support merging a legacy Office
  
 Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration. The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information. 
   
+
 

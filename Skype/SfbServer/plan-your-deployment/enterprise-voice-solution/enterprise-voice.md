@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Enterprise Voice in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -72,4 +73,5 @@ See the following sections for more information on planning your Enterprise Voic
     
 - [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md)
     
+
 

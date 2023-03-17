@@ -1,4 +1,5 @@
 ---
+ms.date: 11/16/2018
 title: "Move users from the cloud to on-premises"
 ms.author: crowe
 author: CarolynRowe

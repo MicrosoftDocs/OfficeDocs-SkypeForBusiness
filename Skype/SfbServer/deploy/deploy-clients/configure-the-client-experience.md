@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure the client experience with Skype for Business 2015"
 ms.reviewer: 
 ms.author: serdars
@@ -209,3 +210,4 @@ Next, you'll need to link the GPO you created to the group of users that you wan
     You should see "Assigned Group Policy Objects" with the name of the GPO you created displayed below.
     
 You can also verify that the GPO has successfully updated the registry on a user's computer by examining the registry. Open Registry Editor and navigate to the **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** key. If the GPO successfully updated the registry you will see a value named EnableSkypeUI with a value of 0.
+

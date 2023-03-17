@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Load Balancers"
 ms.author: serdars
 author: msdmaguire
@@ -34,4 +35,5 @@ Listed here are load balancers that work with Skype for Business.
 
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+
 

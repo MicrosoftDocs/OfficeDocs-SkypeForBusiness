@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Phones and Devices for Skype for Business - PCs"
 ms.author: serdars
 author: msdmaguire
@@ -431,4 +432,5 @@ When the Skype for Business PC certification program was active, PCs were tested
 > Monitors require an embedded camera and embedded speakerphone, both passing Lync Logo specs (including USB HID support). The display is not tested.
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+
 

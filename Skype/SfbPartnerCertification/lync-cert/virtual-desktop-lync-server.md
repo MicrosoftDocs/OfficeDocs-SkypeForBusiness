@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Virtual Desktop Infrastructure for Lync Server 2013"
 ms.author: serdars
 author: msdmaguire
@@ -130,3 +131,4 @@ The specific VDI client terminals tested by the VDI client manufacturers and val
 
 
 For additional information about specific thin clients, please contact the client hardware manufacturer.
+

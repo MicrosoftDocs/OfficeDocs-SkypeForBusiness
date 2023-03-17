@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Customize the Mac client experience in Skype for Business"
 ms.author: serdars
 author: SerdarSoysal
@@ -107,3 +108,4 @@ For reference, here is a sample settings file using default settings only:
     showEndCallDialog = 1;
 }
 ```
+
