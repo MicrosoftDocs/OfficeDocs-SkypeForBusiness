@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: Decommission Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
@@ -137,4 +138,5 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
 - [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
+
 

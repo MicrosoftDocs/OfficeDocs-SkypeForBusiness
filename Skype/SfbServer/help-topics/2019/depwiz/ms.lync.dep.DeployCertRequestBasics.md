@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Basic)"
 ms.reviewer: 
 ms.author: serdars
@@ -30,4 +31,5 @@ Selecting the check box for **Mark the certificate's private key as exportable**
 > [!CAUTION]
 > To help maintain the security of the certificate and the key pair, you should select the Mark the certificate's private key as exportable option only if it is absolutely necessary. 
   
+
 

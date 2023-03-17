@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage Front End Servers in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -108,3 +109,4 @@ When you patch the servers in a Front End pool, you do so one server at a time.
     The server is returned to service.
     
 5. Repeat Steps 2-4 for each server that needs to be upgraded.
+

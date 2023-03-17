@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Prevent sessions for services"
 ms.reviewer: 
 ms.author: serdars
@@ -51,4 +52,5 @@ You can use the legacy installs Control Panel to prevent new sessions for all th
     
 9. Click **Close**.
     
+
 

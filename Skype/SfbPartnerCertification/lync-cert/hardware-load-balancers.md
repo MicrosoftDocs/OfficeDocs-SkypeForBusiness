@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Load balancer partner qualification for Lync"
 ms.author: serdars
 author: msdmaguire
@@ -78,3 +79,4 @@ Software load balancers listed in the table that follows  have been tested by th
 |     |         |         | |
 
 Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.
+

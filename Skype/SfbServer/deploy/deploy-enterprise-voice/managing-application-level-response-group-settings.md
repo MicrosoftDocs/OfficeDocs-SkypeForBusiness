@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Managing application-level Response Group settings in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -58,3 +59,4 @@ The default music on hold is played when a call is placed on hold only if no cus
 [Set-CsRgsConfiguration](/powershell/module/skype/set-csrgsconfiguration)
   
 [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile)
+

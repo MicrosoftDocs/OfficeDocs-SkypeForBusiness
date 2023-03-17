@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Media Quality and Network Connectivity Performance"
 ms.author: tonysmit
 author: tonysmit
@@ -341,3 +342,4 @@ Below is another deployment option for Contoso. In this case, they decided to se
 [ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
 
   
+

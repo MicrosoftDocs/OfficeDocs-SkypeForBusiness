@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure SCOM monitoring"
 ms.reviewer: 
 ms.author: serdars
@@ -60,4 +61,5 @@ Instructions for carrying out each of these tasks are provided below.
     
 To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.
   
+
 

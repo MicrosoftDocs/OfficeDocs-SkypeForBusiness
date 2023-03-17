@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Users View PIN Status"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ What do you want to do? Click the link to the task that you want to perform.
 - [Set a user's dial-in conferencing PIN in Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
+
 
