@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Customize user account properties for Skype for Business Server"
 ms.reviewer: 
 ms.author: v-mathavale
@@ -200,5 +201,6 @@ in your internal deployment.
     ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
+
 
 

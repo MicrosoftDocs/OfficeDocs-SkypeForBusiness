@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan to integrate Skype for Business and Exchange"
 ms.reviewer: 
 ms.author: serdars

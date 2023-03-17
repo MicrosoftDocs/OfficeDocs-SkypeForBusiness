@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure clients for migration"
 ms.reviewer: 
 ms.author: serdars

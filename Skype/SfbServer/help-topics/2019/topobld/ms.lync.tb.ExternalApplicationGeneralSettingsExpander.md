@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "External Application General Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -40,4 +41,5 @@ You can specify the trusted application server pool's next hop server by selecti
 
 Click **OK** to accept and save your changes. Click **Cancel** to discard your changes and exit the properties page.
   
+
 

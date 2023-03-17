@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Manage the Audio Conferencing settings for a user in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -65,3 +66,4 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
 [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md)
 
 [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)
+

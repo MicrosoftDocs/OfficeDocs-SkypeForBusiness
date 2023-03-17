@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Client Version Rule"
 ms.reviewer: 
 ms.author: serdars

@@ -136,3 +136,4 @@
 | 2/9/2023 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
 | 2/10/2023 | Remove the RestrictedAnonymousAccess Teams meeting policy from users | removed |
 | 2/10/2023 | [Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
+

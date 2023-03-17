@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Specify Termplate)"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ The **Specify Alternate Certificate Template** page enables you to define a cert
 > [!CAUTION]
 > You should use this option only if you are advised by your public CA that you should use a specific template that is defined on their system for issuing certificates. If the certificate is being issued by your internal CA, your CA administrator should advise you what name to use for the alternate certificate template. This option is extremely valuable in cases where your organization has defined a new WebServer template and has disabled the default WebServer template. 
   
+
 
