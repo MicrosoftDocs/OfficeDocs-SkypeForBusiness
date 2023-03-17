@@ -79,7 +79,7 @@ The following tables show the differences between using external access and gues
 | Search for people in other organizations | Yes<sup>2</sup> | No |
 | Share files | No | Yes |
 | See the out-of-office message of someone in another organization | No | Yes |
-| Block someone in another organization  | No | Yes |
+| Block someone in another organization  | Yes | Yes |
 | Use @mentions | Yes<sup>3</sup> | Yes |
 
 ### Things people outside your organization can do
@@ -97,8 +97,7 @@ The following tables show the differences between using external access and gues
 | Edit sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Delete sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Use Giphy in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
-| Use memes in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
-| Use stickers in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use stickers and memes in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Presence is displayed | Yes | Yes |
 | Use @mentions | Yes<sup>3</sup> | Yes |
 
