@@ -162,13 +162,13 @@ While all significant areas of new Teams will be available at the initial previe
 |Area|March 2023|Q2 CY23|Q3 CY23|Q4 CY23|
 |:-----|-----|:-----|:-----|:-----|
 |Platform|Desktop||Mac|VDI</br>Web|
-|Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Apps notifications in your activity feed, including Microsoft Viva</br></br>Notifications for multi-tenant multi-accounts|||
+|Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|||||
 |Chats|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add tabs to chat</br></br>Immersive reader||
 |Teams|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add a new member to a team</br></br>Create, edit, delete, or archive a team</br></br>Notified  when someone requests to join a team</br></br>Team renewal notifications</br></br>Option to share a link to a team</br></br>Offline support</br></br>||
 |Channels|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane|||
 |Calendars & Meetings|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Breakout rooms</br></br>Whiteboard|Presenter toolbar|Live Events</br></br>Present in Teams feature in PowerPoint</br></br>New app installation||
-|Calls|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
-|Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>AppStore|||
+|Calls|:::image type="content" source="media/purple-square.png" alt-text="Available":::|||Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
+|Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>|AppStore|
 |Multi-tenant multi-account|:::image type="content" source="media/purple-square.png" alt-text="Available":::||||
 
 ## What features are changing?
