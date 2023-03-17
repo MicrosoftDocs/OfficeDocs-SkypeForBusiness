@@ -75,3 +75,4 @@ The following articles will help you set up the various devices that use the **T
 - [Microsoft Teams panels](/microsoftteams/devices/teams-panels)
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
 
+
