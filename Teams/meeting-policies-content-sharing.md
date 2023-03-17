@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies for content sharing
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,7 +15,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.contentsharing
   - seo-marvel-apr2020
@@ -26,15 +26,6 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 # Meeting policy settings - Content sharing
 
 <a name="bkcontentsharing"> </a>
-
-This article describes the following meeting policy settings related to content sharing:
-
-- [Screen sharing mode](#screen-sharing-mode)
-- [Participants can give or request control](#participants-can-give-or-request-control)
-- [External participants can give or request control](#external-participants-can-give-or-request-control)
-- [PowerPoint Live](#powerpoint-live)
-- [Whiteboard](#whiteboard)
-- [Shared notes](#shared-notes)
 
 ## Screen sharing mode
 
@@ -56,44 +47,6 @@ Let's look at the following example.
 Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is **Not enabled**. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings.  
 
 Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
-
-## Participants can give or request control
-
-This setting is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
-
-If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
-
-![Screenshot showing the Give Control option.](media/meeting-policies-give-control.png)
-
-If the setting is turned off for the user, the **Give Control** option isn't available.
-
-![Screenshot showing that the Give Control option is not available.](media/meeting-policies-give-control-not-available.png)
-
-Let's look at the following example.
-
-| User | Meeting policy | Allow participant to give or request control |
-|---|---|---|
-| Daniela | Global | On |
-| Babek | Location1MeetingPolicy | Off |
-
-Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek. However, Babek can't give control to other participants.
-
-To use PowerShell to control who can give control or accept requests for control, use the AllowParticipantGiveRequestControl cmdlet.
-
-> [!NOTE]
-> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
-
-## External participants can give or request control
-
-This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
-
-- Anonymous participant
-- Guests
-- External access users
-
-Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization. This setting must be turned on in both organizations for an external participant to take control in Teams meetings hosted by people in your organization.
-
-To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
 ### PowerPoint Live
 
