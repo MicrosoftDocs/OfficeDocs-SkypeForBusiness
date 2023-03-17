@@ -298,7 +298,7 @@ items:
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
         - name: Auditing
           href: audit-log-events.md
-        - name: Customer key
+        - name: Customer Key
           href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Export API for Teams content
           href: export-teams-content.md
@@ -596,8 +596,8 @@ items:
               href: meeting-policies-overview.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
-            - name: Recording and transcription policies
-              href: meetings-policies-recording-and-transcription.md
+            - name: Configure transcription and captions for Teams meetings
+              href: meeting-transcription-captions.md
             - name: Who can bypass the lobby
               href: who-can-bypass-meeting-lobby.md
             - name: Island mode
@@ -608,8 +608,8 @@ items:
               items:
                 - name: Content sharing
                   href: meeting-policies-content-sharing.md
-                - name: Configure desktop sharing
-                  href: configure-desktop-sharing.md
+                - name: Who can present
+                  href: meeting-who-present-request-control.md
             - name: Participant, guest, and access policies
               items:
                 - name: Anonymous participants
@@ -675,7 +675,7 @@ items:
             - name: Virtual appointment meeting template
               href: virtual-appointment-meeting-template.md
             - name: Teams meeting recording
-              href: cloud-recording.md
+              href: meeting-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
             - name: Use the Teams Meeting add-in in Outlook
@@ -688,8 +688,6 @@ items:
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Manage Q&A in Teams Meetings
               href: manage-qna-for-teams.md
-            - name: Manage the Whiteboard in Teams
-              href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
             - name: Cloud Video Interop
@@ -698,6 +696,10 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
+            - name: Meeting chat
+              href: manage-meeting-chat.md
+            - name: Reactions
+              href: manage-reactions-meetings.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up webinars
@@ -766,7 +768,7 @@ items:
             href: hybrid-meetings-manage.md
     - name: Audio conferencing
       items: 
-        - name: Audio Conferencing in M365
+        - name: Audio Conferencing in Microsoft 365
           href: audio-conferencing-in-office-365.md
         - name: Planning
           items:
@@ -1863,7 +1865,9 @@ items:
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
-          href: connect-teams-essentials-to-email.md 
+          href: connect-teams-essentials-to-email.md
+        - name: Move from Business Voice to Teams Phone
+          href: business-voice-to-teams-phone-licenses.md
     - name: Move from Kaizala
       items: 
         - name: Get started
