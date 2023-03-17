@@ -97,7 +97,7 @@ After guest access has been given, to admit sign language interpreters and CART 
 
    - Everyone (not recommended)
    - People in my organization and guests (recommended)
-   - People in my organization , trusted organizations, and guests
+   - People in my organization, trusted organizations, and guests
    - People in my organization
    - Only organizers and co-organizers
    - People who were invited
