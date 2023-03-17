@@ -1863,7 +1863,9 @@ items:
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
-          href: connect-teams-essentials-to-email.md 
+          href: connect-teams-essentials-to-email.md
+        - name: Move from Business Voice to Teams Phone
+          href: business-voice-to-teams-phone-licenses.md
     - name: Move from Kaizala
       items: 
         - name: Get started
