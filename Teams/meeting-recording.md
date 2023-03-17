@@ -182,7 +182,7 @@ Meeting recordings may end up in this temporary storage for the following reason
 
 - For non-channel meetings if the user who is recording doesn’t have OneDrive or their OneDrive has reached its storage quota
 - For a channel meeting if the SharePoint site has reached its storage quota or the site wasn’t provisioned yet
-- If specific OneDrive and SharePoint policies are enabled restricting users from uploading files when not on specific IP ranges, etc.
+- If specific OneDrive and SharePoint policies are enabled restricting users from uploading files when not on specific IP ranges, for example.
 
 The recording retention for this is temporary storage is affected by the chat message itself. As such, any deletion of the original chat message for the recording will prevent users from being able to access the recording. There are two scenarios that can affect this:
 
@@ -208,7 +208,7 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
-  > [!div class=“nextstepaction”]
+  > [!div class="nextstepaction"]
   > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
 
 1. In the Run diagnostic pane, enter the email of the user who cannot record meetings in the **Username or Email** field, and then select **Run Tests**.
@@ -220,8 +220,8 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
-      > [!div class=“nextstepaction”]
-      > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
+  > [!div class=“nextstepaction”]
+  > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
 
 1. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
 1. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
