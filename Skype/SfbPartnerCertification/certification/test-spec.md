@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Skype for Business certification program — Test Specifications"
 ms.author: serdars
 author: msdmaguire
@@ -73,3 +74,4 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 View the [Microsoft Teams devices store](https://products.office.com/microsoft-teams/across-devices/devices) to see products certified for Microsoft Teams and Skype for Business.
+

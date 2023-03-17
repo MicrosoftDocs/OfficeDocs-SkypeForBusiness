@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy clients for Skype for Business Server"
 ms.author: serdars
 author: SerdarSoysal
@@ -56,3 +57,4 @@ The topics in this section describe how to use and customize the Windows Install
 ## See also
 
 [Deploy the Skype for Business client in Microsoft 365 or Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
+

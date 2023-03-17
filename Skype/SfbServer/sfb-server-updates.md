@@ -1,4 +1,5 @@
 ---
+ms.date: 07/23/2018
 title: "Skype for Business Server updates"
 author: ariantor
 ms.author: arianr
@@ -276,3 +277,4 @@ Software updates include any update, update rollup, service pack, feature pack, 
 - [Install Skype for Business Server 2015](./deploy/install/install.md)
 - [Upgrade to  Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](sfb-client-updates.md)
+

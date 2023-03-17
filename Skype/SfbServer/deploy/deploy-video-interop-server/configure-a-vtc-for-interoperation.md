@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure a VTC for Interoperation with Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -106,4 +107,5 @@ The VTC is now configured for interoperation. Before service can begin, there ar
 5. When finished, scroll to the top of the screen and press **Save**. 
     
 Configuration is now complete for this VTC device. You will need to repeat this process for other VTC devices in your enterprise.
+
 
