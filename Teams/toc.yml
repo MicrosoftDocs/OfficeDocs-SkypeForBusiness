@@ -608,8 +608,6 @@ items:
               items:
                 - name: Content sharing
                   href: meeting-policies-content-sharing.md
-                - name: Configure desktop sharing
-                  href: configure-desktop-sharing.md
                 - name: Who can present
                   href: meeting-who-present-request-control.md
             - name: Participant, guest, and access policies
@@ -690,8 +688,6 @@ items:
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Manage Q&A in Teams Meetings
               href: manage-qna-for-teams.md
-            - name: Manage the Whiteboard in Teams
-              href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
             - name: Cloud Video Interop

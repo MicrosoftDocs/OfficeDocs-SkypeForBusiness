@@ -18,14 +18,30 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.contentsharing
-  - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams for content sharing.
 ---
 
+# Manage meeting policies for content sharing
 
-# Meeting policy settings - Content sharing
+Content sharing settings control how users present a screen or app during a meeting or chat. You can configure admin settings for screen sharing mode, PowerPoint sharing, whiteboard, and shared notes. (For information about how to manage who can present and who can request control, see [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md).)
 
-<a name="bkcontentsharing"> </a>
+To change a content sharing setting
+1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
+1. Select the policy that you want to edit.
+1. Scroll to the **Content sharing** section.
+1. Select the settings you want to use (described below).
+1. Select **Save**.
+
+#### Use PowerShell to configure content sharing
+
+You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to control the content sharing settings. Set the following parameters:
+
+- ScreenSharingMode
+- AllowPowerPointSharing
+- AllowWhiteboard
+- AllowSharedNotes
+
+[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## Screen sharing mode
 
@@ -63,7 +79,15 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ## Whiteboard
 
-This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
+Microsoft Whiteboard is a free-form, digital canvas where people, content, and ideas come together. Whiteboard integration in Microsoft Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
+
+Users can share a whiteboard to make it available to all participants in a Teams meeting. That same whiteboard is simultaneously available in all the Whiteboard applications on Windows 10, iOS, and the web app.
+
+To turn the Whiteboard app on or off, see [Enable Microsoft Whiteboard for your organization](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Keep in mind that this setting will enable or disable Whiteboard for your entire organization, and not just for Teams.
+
+Whiteboards will be created in the OneDrive of the person who starts the whiteboard. For more information, see [Manage data for Microsoft Whiteboard](/microsoft-365/whiteboard/manage-data-organizations).
+
+The Whiteboard setting for Teams meetings is a per-user setting. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -74,9 +98,15 @@ Let's look at the following example.
 
 Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.
 
-To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
+To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant).
 
-### Annotation
+For information for your end users about how to use Whiteboard, see [Use Whiteboard in Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee).
+
+#### Whiteboard on Surface Hub
+
+Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is installed on your Surface Hub device. If Whiteboard isn't installed, on the Surface Hub device, go to the Microsoft Store app, and get [Microsoft Whiteboard](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). For more information, see [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
+
+#### Annotation
 
 When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
 
@@ -95,7 +125,8 @@ Daniela can take notes in Amanda's meetings and Amanda can't take notes in any m
 
 ## Related topics
 
-- [Teams policy reference - Content sharing](settings-policies-reference.md#content-sharing)
-- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](policy-assignment-overview.md)
+[Teams policy reference - Content sharing](settings-policies-reference.md#content-sharing)
+
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Assign policies to your users in Teams](policy-assignment-overview.md)
