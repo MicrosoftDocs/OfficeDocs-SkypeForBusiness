@@ -30,7 +30,7 @@ Microsoft Teams can support hybrid work scenarios and enable users to work in fl
 
 For information about other Teams add-on licenses, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
-The **Microsoft Teams Shared Devices** license supports:
+The **Microsoft Teams Shared Devices** license includes the following service plans:
 
 - Microsoft Teams
 - Microsoft Teams Phone &sup1;
@@ -74,3 +74,4 @@ The following articles will help you set up the various devices that use the **T
 - [Set up common area phones](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams panels](/microsoftteams/devices/teams-panels)
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
+
