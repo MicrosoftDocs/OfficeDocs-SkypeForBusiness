@@ -94,7 +94,7 @@ No, a user can't get any operator assistance or support by pressing *0 during th
   
 ## How does a user access or change their conference ID?
 
-Teams users can find the conference ID assigned to them by scheduling a meeting in Outlook and Outlook on the web. Also, users can find the conference ID in the email that will be sent to them after they are set up. Users won't be able to reset their conference ID.
+Teams users can find the conference ID assigned to them by scheduling a meeting in Outlook and Outlook on the web. Users won't be able to reset the conference ID associated with a meeting.
 
 ## How do users access or change their PIN?
 
