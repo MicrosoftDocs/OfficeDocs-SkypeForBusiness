@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage your topology in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -31,4 +32,5 @@ The following topics provide step-by-step instructions on tasks involved with ma
 - [Manage services](manage-services.md)
 
     
+
 

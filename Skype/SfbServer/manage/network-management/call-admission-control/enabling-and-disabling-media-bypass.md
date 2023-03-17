@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Enabling and disabling media bypass'
 ms.reviewer: 
 ms.author: serdars
@@ -76,3 +77,4 @@ Media bypass settings apply globally across a Skype for Business Server deployme
 7.  Click **Commit** to save your changes.
 
   
+

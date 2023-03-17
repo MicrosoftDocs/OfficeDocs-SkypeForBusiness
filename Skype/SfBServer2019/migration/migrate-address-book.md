@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrate Address Book"
 ms.reviewer: 
 ms.author: serdars
@@ -85,5 +86,6 @@ If you set the value for **UseNormalizationRules** to False so that users can us
    ```PowerShell
    Update-CsAddressBook
    ```
+
 
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get User Settings"
 ms.reviewer: 
 ms.author: serdars
@@ -58,3 +59,4 @@ Get User Settings returns a list of settings for a specified user.
 "value": "true"
 }]
 ```
+

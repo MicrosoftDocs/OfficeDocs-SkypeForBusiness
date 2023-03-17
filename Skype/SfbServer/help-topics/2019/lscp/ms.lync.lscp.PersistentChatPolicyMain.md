@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Persistent Chat Policy Main Page"
 ms.reviewer: 
 ms.author: serdars

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype for Business Server: Modify SIP trunk configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -71,3 +72,4 @@ When modifying SIP trunk configuration settings using Skype for Business Server 
 5. In the **Uncommitted Voice Configuration Settings** dialog box, click **OK**.
     
 6. In the **Skype for Business Server Control Panel** dialog box click **OK**.
+

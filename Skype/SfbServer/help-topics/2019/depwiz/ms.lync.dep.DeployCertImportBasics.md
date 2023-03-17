@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Import Certificate (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -26,4 +27,5 @@ If the certificate contains a private key, select the check box **Certificate fi
 > [!IMPORTANT]
 > If you do not know the password for the private key, the import will fail. 
   
+
 
