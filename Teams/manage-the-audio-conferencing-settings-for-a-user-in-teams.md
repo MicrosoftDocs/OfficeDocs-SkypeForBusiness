@@ -47,9 +47,9 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
 |**Unauthenticated users can be the first person in the meeting**|To change this setting, toggle **Unauthenticated users can be the first person in the meeting** On or Off.
 |**Dial-out permissions**|To change this setting, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, choose an option under **Dial-out from meetings**.|
 
-![Shows the Audio Conferencing settings for a user.](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
+:::image type="content" source="media/teams-manage-audio-conferencing-settings-for-a-user-image-2023.png" alt-text="Screenshot of Audio Conferencing settings for a user in the Microsoft Teams Admin Center.":::
 
-> [!Note]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## Related topics
