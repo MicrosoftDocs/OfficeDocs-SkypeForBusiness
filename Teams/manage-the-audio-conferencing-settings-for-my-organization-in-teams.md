@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: See Microsoft Teams steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings.
+description: See Microsoft Teams steps to assign a dial-in conferencing license to a user and many other dial-in conferencing settings.
 ---
 
 # Manage the Audio Conferencing settings for your organization in Microsoft Teams
@@ -150,7 +150,7 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 
     You can also send email to the user with the audio conferencing settings, by going to the user's audio conferencing properties and clicking **Send conference info in email**.
 
-    If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
+    If you do this, an email will be sent that only includes the conference phone number, but the PIN won't be included.
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
 
