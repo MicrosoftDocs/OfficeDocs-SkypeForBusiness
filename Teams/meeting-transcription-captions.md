@@ -60,7 +60,7 @@ Teams can detect what’s said in a meeting and present real-time captions. And,
 
 This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on or turn off automatically generated live captions in meetings that the user attends. These captions will not be saved alongside the video file.
 
-![Screenshot showing the Turn on live captions option.](media/meeting-policies-live-captions.png)
+:::image type="content" alt-text="This screenshot shows the menu initiated by selecting the ellipses icon. The option to Turn on live captions is highlighted." source="media/meeting-policies-live-captions.png" lightbox="media/meeting-policies-live-captions.png":::
 
 | Setting value | Behavior |
 |---|---|
