@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
-ms.date: 03/15/2021
+ms.date: 03/16/2023
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -22,16 +22,14 @@ ms.custom:
 description: Learn to manage meeting policy settings in Teams for  meeting experience.
 ---
 
-
-
 # Meeting policy settings for meeting experience
 
 <a name="bkmeetingparticipants"> </a>
 <a name="who-can-bypass-the-lobby"> </a>
-These settings control which meeting participants wait in the lobby before they're admitted to the meeting and the level of participation they're allowed in a meeting.
+
+These settings control the level of participation meeting attendees are allowed in a meeting.
 
 - [Who can present](#who-can-present)
-- [Live captions](#live-captions)
 - [Meeting chat](#meeting-chat)
 - [Q&A](#qa)
 - [Reactions](#reactions)
@@ -58,28 +56,6 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
 
-## Live captions
-
-This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
-
-![Screenshot showing the Turn on live captions option.](media/meeting-policies-live-captions.png)
-
-|Setting value |Behavior  |
-|---------|---------|
-|**Off, but organizers and co-organizers can turn them on**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
-|**Off**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
-
-For more information on how your end users can turn on **Live captions**, see [Use live captions in a Teams meeting](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
-
-### Live translated captions
-
-> [!NOTE]
-> This feature is temporarily available in public preview. After the preview, the meeting organizer must have a Teams Premium license for attendees to use live translated captions.
-
-By default, **Live captions** are displayed in the language that’s spoken during a meeting. **Live translated captions** allow your users to see captions translated into the language they’re most comfortable with.
-
-To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers and co-organizers can turn them on** in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
-
 <a name="bkcontentsharing"> </a>
 
 ## Meeting chat
@@ -92,12 +68,12 @@ This is a per-user and per-organizer policy. This setting controls whether meeti
 |**On for everyone**     | Meeting chat is turned off for all participants.  |
 |**On for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
 
-Once this **Chat in meetings** policy is applied to users, an organizer can't override this policy through **Meeting options**.
+Once this **Meeting chat** policy is applied to users, an organizer can't override this policy through **Meeting options**.
 
 The policy applied to the meeting organizer can affect other users in the meeting. For example:
 
-- If the organizer has **Chat in meetings** set to **On for everyone** or **On for everyone but anonymous users**, then a user's individual policy will apply and any users with **On for everyone** set won't be able to chat in the meeting.
-- If the organizer has **Chat in meetings** set to **On for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
+- If the organizer has **Meeting chat** set to **On for everyone** or **On for everyone but anonymous users**, then a user's individual policy will apply and any users with **On for everyone** set won't be able to chat in the meeting.
+- If the organizer has **Meeting chat** set to **On for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
 
 <a name="bkparticipantsandguests"> </a>
 
@@ -138,7 +114,7 @@ Once you’ve set up a policy, you need to apply it to users. If you modified th
 
 ## Related topics
 
-- [Teams policy reference - Meetings](settings-policies-reference.md)
+- [Teams policy reference](settings-policies-reference.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

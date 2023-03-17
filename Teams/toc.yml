@@ -596,8 +596,8 @@ items:
               href: meeting-policies-overview.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
-            - name: Recording and transcription policies
-              href: meetings-policies-recording-and-transcription.md
+            - name: Configure transcription and captions for Teams meetings
+              href: meeting-transcription-captions.md
             - name: Who can bypass the lobby
               href: who-can-bypass-meeting-lobby.md
             - name: Island mode
@@ -675,7 +675,7 @@ items:
             - name: Virtual appointment meeting template
               href: virtual-appointment-meeting-template.md
             - name: Teams meeting recording
-              href: cloud-recording.md
+              href: meeting-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
             - name: Use the Teams Meeting add-in in Outlook
