@@ -208,8 +208,8 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
-  > [!div class="nextstepaction"]
-  > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
+   > [!div class="nextstepaction"]
+   > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
 
 1. In the Run diagnostic pane, enter the email of the user who cannot record meetings in the **Username or Email** field, and then select **Run Tests**.
 1. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to record a meeting in Teams.
@@ -220,8 +220,8 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
-  > [!div class=“nextstepaction”]
-  > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
+   > [!div class=“nextstepaction”]
+   > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
 
 1. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
 1. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
