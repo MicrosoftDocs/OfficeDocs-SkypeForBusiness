@@ -220,7 +220,7 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
-   > [!div class=“nextstepaction”]
+   > [!div class="nextstepaction"]
    > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
 
 1. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
