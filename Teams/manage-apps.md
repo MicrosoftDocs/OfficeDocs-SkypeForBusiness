@@ -119,7 +119,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
 ## Zero-touch installation of apps based on admin approval
 
-Zero-touch App Install feature automatically adds approved apps in Teams client of permitted users. The functionality respects all admin and user governance controls and only installs apps that the users have used outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. For details about the feature and about the admin governance controls, see [Zero-touch App Install for Teams apps](zero-touch-app-install.md).
+Zero-touch App Install feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users have used although outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Zero-touch App Install for Teams apps](zero-touch-app-install.md).
 
 ## Manage org-wide app settings for Microsoft 365 Government  
 
