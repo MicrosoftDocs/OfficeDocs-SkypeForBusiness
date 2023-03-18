@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Simple URL"
 ms.reviewer: 
 ms.author: serdars
@@ -28,5 +29,6 @@ To add additional simple URLs to the definition of the deployment, specify the U
 > [!IMPORTANT]
 > You can have one Dial in simple URL and one Meet simple URL active at any time. Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL. You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active. 
   
+
 
 

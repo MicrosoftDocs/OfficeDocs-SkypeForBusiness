@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Change simple URLs after migration"
 ms.reviewer: 
 ms.author: serdars
@@ -45,3 +46,4 @@ After migrating to Skype for Business Server, you must be aware of how the chang
 ## See also
 
 [DNS requirements for simple URLs in Skype for Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
+

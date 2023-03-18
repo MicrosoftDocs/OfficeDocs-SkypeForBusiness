@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Diagnose connection problems with the Skype for Business Online Connector"
 ms.reviewer: 
 ms.author: tonysmit
@@ -147,3 +148,4 @@ Although each administrator is allowed to have as many as three simultaneous con
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
+
