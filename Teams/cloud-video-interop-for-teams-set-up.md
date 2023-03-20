@@ -93,7 +93,7 @@ When these steps are complete, the users who are individually enabled via the Gr
 
 Next, schedule Teams meeting with video interop coordinates. The enabled user can schedule teams meetings via:
 
-- [Teams Meeting add-in for Outlook](teams-add-in-for-outlook.md)
+- [Teams Meeting add-in for Outlook](outlook-add-in-authentication-policy-requirements.md)
 - Teams client desktop and mobile
 
 ## Join

@@ -243,7 +243,7 @@ items:
     ### Suggested scenarios to test
     -   Schedule different meeting types from within the Teams client: Channel
         meetings, ad-hoc meetings, private meetings.
-    -   Schedule meetings by using the [Outlook add-in](./teams-add-in-for-outlook.md).
+    -   Schedule meetings by using the [Outlook add-in](https://support.microsoft.com/office/883cc15c-580f-441a-92ea-0992c00a9b0f).
     -   For scheduled meetings, initiate a chat before the meeting begins (to
         discuss the agenda, for example).
     -   Join meetings and test different scenarios and workloads: For example, audio only, video,
