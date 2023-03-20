@@ -1,5 +1,5 @@
 ---
-title: Use the Microsoft Teams Meeting add-in in Outlook
+title: Admin - authentication requirements and functionality of the Teams Meeting add-in in Outlook
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,9 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 ms.date: 01/16/2018
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
+description: IT Admins - Learn about the requirements and policy settings for the Teams Meeting add-in in Outlook
 f1.keywords:
 - CSH
 ms.custom: 
@@ -18,12 +18,12 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
-  - highpri
+  - Tier2
 appliesto: 
   - Microsoft Teams
 ---
 
-# Use the Teams Meeting add-in in Outlook
+# Admin - authentication requirements and functionality of the Teams Meeting add-in in Outlook
 
 This article details authentication requirements and functionality of the Teams Meeting add-in in Outlook for your end users. It also shows how you can enable private meetings and adjust policy settings for users in Island Mode. If you are having issues with the add-in, see our [latest troubleshooting guidance](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
 
