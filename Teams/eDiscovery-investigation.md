@@ -39,7 +39,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Audio recordings||
 |Card content|See [Search for card content](#search-for-card-content) for more information.|
 |Chat links||
-|Chat messages|This includes content in standard Teams channels, 1:1 chats, 1:N group chats, chats with yourself, and chats with guest user participants.|
+|Chat messages|This includes content in standard Teams channels, 1:1 chats, 1:N group chats, chats with yourself, and chats with guests.|
 |Code snippets||
 |Edited messages|If the user is on hold, previous versions of edited messages are also preserved.|
 |Emojis, GIFs, and stickers||
@@ -61,7 +61,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 - VOIP joins/calls
 - Anonymous joins
 - Federated user joins
-- Guest user joins
+- Guest joins
 
 Here's an example of a chat conversation between participants during a meeting.
 
@@ -161,15 +161,15 @@ Before you perform these steps, [install the SharePoint Online Management Shell 
 
 4. Include the site associated with a private or shared channel as part of your [eDiscovery search query in eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
-## Search for content for guest users
+## Search for content for guests
 
-You can use eDiscovery tools to search for Teams content related to guest users in your organization. Teams chat content that's associated with a guest user is preserved in a cloud-based storage location and can be searched for using eDiscovery. This includes searching for content in 1:1 and 1:N chat conversations in which a guest user is a participant with other users in your organization. You can also search for private channel messages in which a guest user is a participant and search for content in *guest:guest* chat conversations where the only participants are guest users.
+You can use eDiscovery tools to search for Teams content related to guests in your organization. Teams chat content that's associated with a guest is preserved in a cloud-based storage location and can be searched for using eDiscovery. This includes searching for content in 1:1 and 1:N chat conversations in which a guest is a participant with other users in your organization. You can also search for private channel messages in which a guest is a participant and search for content in *guest:guest* chat conversations where the only participants are guests.
 
-To search for content for guest users:
+To search for content for guests:
 
 1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous article.
 
-2. After you successfully connect to Azure AD PowerShell, run the following command to display the user principal name (UPN) for all guest users in your organization. You have to use the UPN of the guest user when you create the search in step 4.
+2. After you successfully connect to Azure AD PowerShell, run the following command to display the user principal name (UPN) for all guests in your organization. You have to use the UPN of the guest when you create the search in step 4.
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -178,18 +178,18 @@ To search for content for guest users:
    > [!TIP]
    > Instead of displaying a list of user principal names on the computer screen, you can redirect the output of the command to a text file. You can do this by appending `> filename.txt` to the previous command. The text file with the user principal names will be saved to the current folder.
 
-3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multi-factor authentication.
+3. In a different Windows PowerShell window, connect to Security & Compliance PowerShell. For instructions, see [Connect to Security & Compliance PowerShell](/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multi-factor authentication.
 
-4. Create a content search that searches for all content (such as chat messages and email messages) in which the specified guest user was a participant by running the following command.
+4. Create a content search that searches for all content (such as chat messages and email messages) in which the specified guest was a participant by running the following command.
 
    ```powershell
-   New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   New-ComplianceSearch <search name> -ExchangeLocation <guest UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-   For example, to search for content associated with the guest user Sara Davis, you would run the following command.
+   For example, to search for content associated with the guest Sara Davis, you would run the following command.
 
    ```powershell
-   New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   New-ComplianceSearch "Sara Davis Guest" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
     For more information about using PowerShell to create content searches, see [New-ComplianceSearch](/powershell/module/exchange/new-compliancesearch).
