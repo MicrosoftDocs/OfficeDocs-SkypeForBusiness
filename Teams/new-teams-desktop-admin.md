@@ -155,37 +155,10 @@ Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
-## New Teams release roadmap
+## What features are available?
 
-While all significant areas of new Teams will be available at the initial preview release, more features will be added over the next few months with support for more platforms later in this calendar year (CY).
+All functional areas will be available at the initial release of new Teams. 
 
-|Area|March 2023|Q2 CY23|Q3 CY23|Q4 CY23|
-|:-----|-----|:-----|:-----|:-----|
-|Platform|Desktop||Mac|VDI</br>Web|
-|Activity & Notifications|:::image type="content" source="media/purple-square.png" alt-text="Available":::|||||
-|Chats|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add tabs to chat</br></br>Immersive reader||
-|Teams|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add a new member to a team</br></br>Create, edit, delete, or archive a team</br></br>Notified  when someone requests to join a team</br></br>Team renewal notifications</br></br>Option to share a link to a team</br></br>Offline support</br></br>||
-|Channels|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Add a new member to a private or shared channel.</br></br>Create, edit, or delete a channel.</br></br>Post in multiple channels </br></br>Invite an entire team to a shared channel.</br></br>Manage Tabs.</br></br>Option to share a link to a channel.</br></br>Ctrl+F ability for searching within channels.</br></br>Edit channel notification settings.</br></br>Channel info pane|||
-|Calendars & Meetings|:::image type="content" source="media/purple-square.png" alt-text="Available":::|Breakout rooms</br></br>Whiteboard|Presenter toolbar|Live Events</br></br>Present in Teams feature in PowerPoint</br></br>New app installation||
-|Calls|:::image type="content" source="media/purple-square.png" alt-text="Available":::|||Voicemail shortcut on dial pad </br></br>Contacts and speed dial </br></br>Live captions and transcriptions  for external calls</br></br>Call merges and transfers  for external calls</br></br>Call forwarding and routing </br></br>Call queues</br></br>Reverse number lookup</br></br>Voice-enabled channels</br></br>Delegation</br></br>Shared lines</br></br>Survivable branch appliance(SBA) |||
-|Apps|:::image type="content" source="media/purple-square.png" alt-text="Available":::||Notifications from apps in your Activity feed</br></br>Pop out app</br></br>Pin apps</br></br>|AppStore|
-|Multi-tenant multi-account|:::image type="content" source="media/purple-square.png" alt-text="Available":::||||
-
-## What features are changing?
-
-As we improve the client, the experience has been improved to align with similar features. Here are the changes.
-
-|Classic Teams|New Teams|
-|:-----|:-----|:-----|
-|Wiki|The Wiki app has been replaced by the Notes app|
-|Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
-|Looking up an organizational chart while in a 1:1 chat  |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
-|Looking up LinkedIn while in a 1:1 chat   |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
-|Channels DocLib app|Use the Sharepoint app in channels instead|
-|DocLib folder select in channel upload|Go to a specific folder and upload|
-|Legacy web app companion (WAC) viewer|Use the OneUp viewer|
-|Allow users to follow another users presence and then notify them of availability|No longer available|
-|Activity tab| No longer available|
 
 
 ## Known issues
