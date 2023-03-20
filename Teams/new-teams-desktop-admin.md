@@ -157,7 +157,9 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 ## What features are available?
 
-While all major areas will be available at the initial release of new Teams, it won't have the full functionality of classic Teams. We're working hard to continually add features. [Learn more about when features will be available](/microsoft-365/roadmap?rtc=1&filters=&searchterms=%22new%2CTeams%22)
+While many of the features you're familiar with in classic Teams are already in the new experience,  others—like avatars and app notifications—are still being worked on. </br>
+
+[**Follow our release roadmap for the latest information on upcoming features for the new Teams**](/microsoft-365/roadmap?rtc=1&filters=&searchterms=%22new%2CTeams%22).
 
 ## What features are changing?
 
