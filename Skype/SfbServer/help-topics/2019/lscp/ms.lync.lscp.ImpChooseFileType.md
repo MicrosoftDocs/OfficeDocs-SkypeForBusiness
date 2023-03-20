@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select File Type Extensions"
 ms.reviewer: 
 ms.author: serdars
@@ -27,4 +28,5 @@ After you have added all of the file type extensions that you want to the **Sele
   
  
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure Call Data Connector"
 ms.reviewer: 
 ms.author: crowe
@@ -147,3 +148,4 @@ Get-Help Get-CsCloudCallDataConnector | more
 Get-Help Set-CsCloudCallDataConnector | more
 
 Get-Help Set-CsCloudCallDataConnectorConfiguration | more
+

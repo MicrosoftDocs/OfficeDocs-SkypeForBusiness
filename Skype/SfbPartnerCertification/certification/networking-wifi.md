@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Skype for Business - Networking Wi-Fi"
 ms.author: serdars
 author: msdmaguire
@@ -177,3 +178,4 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 |[Lenovo](http://shop.lenovo.com/us/en/laptops/)|T450, L450, T550, W550s, X1 Carbon, X250||
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

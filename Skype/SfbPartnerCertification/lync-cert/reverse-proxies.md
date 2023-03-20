@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Reverse proxies"
 ms.author: serdars
 author: msdmaguire
@@ -56,3 +57,4 @@ Please contact the vendor for more information on these products.
 
 
 &Dagger; In November, 2012, Microsoft ceased license sales of Forefront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties.
+

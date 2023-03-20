@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Branch Office Appliance With Front End"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "To associate the Survivable Branch Appliance or Survivable Branch 
  
 To associate the Survivable Branch Appliance or Survivable Branch Server with a Front End pool or a Standard Edition server, on the **Select the Front End pool** page, select the Front End pool or a Standard Edition server from the **Front End pool** drop-down list. Click **Next** to continue.
   
+
 
