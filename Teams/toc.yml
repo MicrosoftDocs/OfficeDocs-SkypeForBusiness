@@ -678,8 +678,8 @@ items:
               href: meeting-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
-            - name: Use the Teams Meeting add-in in Outlook
-              href: teams-add-in-for-outlook.md
+            - name: Teams Meeting add-in in Outlook
+              href: outlook-add-in-authentication-policy-requirements.md
             - name: Configure the Skype Meetings App to work with Teams
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up the Call me feature for your users
