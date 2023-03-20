@@ -159,7 +159,21 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 All functional areas will be available at the initial release of new Teams. 
 
+## What features are changing?
 
+As we improve the client, the experience has been improved to align with similar features. Here are the changes.
+
+|Classic Teams|New Teams|
+|:-----|:-----|:-----|
+|Adding a Wiki to a channel|In the channel select the Notes app instead|
+|Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
+|Looking up an organizational chart while in a 1:1 chat  |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
+|Looking up LinkedIn while in a 1:1 chat   |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
+|Add the DocLib app to tab in channels|Use the Sharepoint app instead|
+|Uploading content to a DocLib folder|Go to a specific folder and upload to SharePoint app|
+|Legacy web app companion (WAC) viewer|Use the OneUp viewer|
+|Allow users to follow another users presence and then notify them of availability|No longer available|
+|Activity tab| No longer available|
 
 ## Known issues
 
