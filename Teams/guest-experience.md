@@ -7,6 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: rafarhi
+ms.date: 10/20/2017
 search.appverid: MET150
 f1.keywords:
 - NOCSH

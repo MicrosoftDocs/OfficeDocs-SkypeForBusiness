@@ -10,6 +10,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 ms.reviewer: karuanag
+ms.date: 10/12/2018
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -36,5 +37,3 @@ Teams provides localized language support for help content. For the most current
 
  - **Share an Idea** - 
    We always want to hear from you about how to improve Teams. This option takes you to our product feedback forum where you can submit new feature requests or vote on existing ones. We constantly review this information as we plan new features. 
-
-

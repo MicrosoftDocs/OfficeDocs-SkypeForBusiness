@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Branch site SIP trunking in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -34,4 +35,5 @@ To determine whether a distributed SIP trunk in New York is cost-effective, iden
 
 The choice between a deploying a SIP trunk instead of a gateway is based on the difference between the public switched telephone network (PSTN) long distance toll charges of each option. If you deploy a branch site SIP trunk, you also need to determine your resiliency and bandwidth requirements. If the link between your branch site and central site is resilient and has sufficient bandwidth, you can deploy a SIP trunk or a gateway. You do not need to deploy a Survivable Branch Appliance at the branch site. If the link between your branch site and central site is not resilient, deploy a Survivable Branch Appliance, or deploy a Survivable Branch Server with either a gateway or SIP trunk at the branch site. 
   
+
 

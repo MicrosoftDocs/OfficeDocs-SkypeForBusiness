@@ -4,8 +4,10 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
+ms.date: 12/17/2021
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -16,6 +18,7 @@ description: This article provides an overview of the tasks and steps to deploy 
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 ---
 
 # Plan your deployment for Teams phone devices and Displays

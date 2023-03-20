@@ -3,10 +3,12 @@ title: Tenant Administration control for voice recognition (voice profile) in Te
 author: dstrome
 ms.author: dstrome
 ms.reviewer: parisataheri
+ms.date: 03/29/2021
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: itpro-rooms
 search.appverid: MET150
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ms.localizationpriority: medium
@@ -15,6 +17,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage conference join and leave announcements in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -62,3 +63,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 ```
 
 For more information, including syntax and a complete list of parameters, see [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).
+

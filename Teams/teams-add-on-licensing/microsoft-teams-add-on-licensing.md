@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: mikedav
+ms.date: 11/28/2017
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150

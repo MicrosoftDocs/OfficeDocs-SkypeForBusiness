@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Download topology from existing deployment"
 ms.reviewer: 
 ms.author: serdars
@@ -32,4 +33,5 @@ When creating a Skype for Business Server 2019 pool, you will use the Central Ma
 6. Expand the Skype for Business Server node to reveal the various server roles in the deployment.
     
   
+
 

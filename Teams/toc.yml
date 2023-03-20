@@ -298,7 +298,7 @@ items:
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
         - name: Auditing
           href: audit-log-events.md
-        - name: Customer key
+        - name: Customer Key
           href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Export API for Teams content
           href: export-teams-content.md
@@ -352,10 +352,10 @@ items:
 
     - name: Work with people outside the organization
       items: 
-        - name: Secure file sharing and collaboration with Teams
-          href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
         - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
+        - name: Plan for external meetings
+          href: plan-meetings-external-participants.md
         - name: External meetings and chat
           items: 
             - name: Manage external meetings and chat
@@ -594,28 +594,28 @@ items:
           items: 
             - name: Overview
               href: meeting-policies-overview.md
-            - name: General policies
-              href: meeting-policies-in-teams-general.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
-            - name: Recording and transcription policies
-              href: meetings-policies-recording-and-transcription.md
+            - name: Configure transcription and captions for Teams meetings
+              href: meeting-transcription-captions.md
             - name: Who can bypass the lobby
               href: who-can-bypass-meeting-lobby.md
+            - name: Island mode
+              href: meeting-provider-islands-mode.md
+            - name: Speaker coach
+              href: meeting-speaker-coach.md
             - name: Content and screen sharing policies
               items:
                 - name: Content sharing
                   href: meeting-policies-content-sharing.md
-                - name: Configure desktop sharing
-                  href: configure-desktop-sharing.md
+                - name: Who can present
+                  href: meeting-who-present-request-control.md
             - name: Participant, guest, and access policies
               items:
                 - name: Anonymous participants
                   href: anonymous-users-in-meetings.md
                 - name: Participants and guest policies
                   href: meeting-policies-participants-and-guests.md
-                - name: Remove the RestrictedAnonymousAccess meeting policy from users
-                  href: meeting-policies-restricted-anonymous-access.md
         - name: Compliant meetings
           items: 
             - name: Three tiers of protection overview
@@ -628,6 +628,8 @@ items:
               href: configure-meetings-highly-sensitive-protection.md
             - name: Manage recording options
               href: manage-meeting-recording-options.md
+            - name: Prevent recording download
+              href: block-download-meeting-recording.md
             - name: Manage meeting lobby
               href: configure-lobby-sensitive-meetings.md
             - name: Manage presentation experience
@@ -673,11 +675,11 @@ items:
             - name: Virtual appointment meeting template
               href: virtual-appointment-meeting-template.md
             - name: Teams meeting recording
-              href: cloud-recording.md
+              href: meeting-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
-            - name: Use the Teams Meeting add-in in Outlook
-              href: teams-add-in-for-outlook.md
+            - name: Teams Meeting add-in in Outlook
+              href: outlook-add-in-authentication-policy-requirements.md
             - name: Configure the Skype Meetings App to work with Teams
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up the Call me feature for your users
@@ -686,8 +688,6 @@ items:
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Manage Q&A in Teams Meetings
               href: manage-qna-for-teams.md
-            - name: Manage the Whiteboard in Teams
-              href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
             - name: Cloud Video Interop
@@ -696,6 +696,10 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
+            - name: Meeting chat
+              href: manage-meeting-chat.md
+            - name: Reactions
+              href: manage-reactions-meetings.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up webinars
@@ -764,7 +768,7 @@ items:
             href: hybrid-meetings-manage.md
     - name: Audio conferencing
       items: 
-        - name: Audio Conferencing in M365
+        - name: Audio Conferencing in Microsoft 365
           href: audio-conferencing-in-office-365.md
         - name: Planning
           items:
@@ -812,8 +816,6 @@ items:
                   href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
                 - name: Enable users to record their name when they join a meeting
                   href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-                - name: Reset a conference ID for a user
-                  href: reset-a-conference-id-for-a-user-in-teams.md
                 - name: Reset the Audio Conferencing PIN for a user
                   href: reset-the-audio-conferencing-pin-in-teams.md
                 - name: Emails that are automatically sent to users when their settings change
@@ -826,8 +828,6 @@ items:
                   href: disabling-toll-free-numbers-for-specific-teams-users.md
                 - name: Outbound calling restriction policies for Audio Conferencing and user PSTN call
                   href: outbound-calling-restriction-policies.md
-                - name: View and reset a conference ID assigned to a user
-                  href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
             - name: Manage meetings settings for audio conferencing
@@ -874,7 +874,7 @@ items:
       items: 
         - name: What is Phone System
           href: what-is-phone-system-in-office-365.md
-        - name: Here's what you get with Phone System
+        - name: Phone System features
           href: here-s-what-you-get-with-phone-system.md
         - name: Set up Phone System
           href: setting-up-your-phone-system.md
@@ -943,14 +943,10 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
-            - name: Calling Plans for Microsoft 365
+            - name: Calling Plans for Teams Phone System
               href: calling-plans-for-office-365.md
-            - name: Which Calling Plan is right for you?
-              href: calling-plan-landing-page.md
-            - name: Set up Calling Plans for your organization
+            - name: Set up Calling Plans
               href: set-up-calling-plans.md
-            - name: "Quick start guide: Configuring Calling Plans"
-              href: configuring-teams-calling-quickstartguide.md
             - name: Country and region availability for Calling Plans
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Operator Connect
@@ -1495,6 +1491,8 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Enable home screen refresh
+              href: rooms/mtr-home-refresh.md
             - name: Remotely configure front row layout
               href: rooms/manage-front-row.md
             - name: Remotely configure layout, scale, and resolution
@@ -1667,6 +1665,8 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Zero-touch App Install
+          href: zero-touch-app-install.md
 
     - name: Manage custom apps
       items:
@@ -1791,8 +1791,6 @@ items:
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items: 
-        - name: Support remote workers (WFH)
-          href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
         - name: Get started with Government team templates
           href: government-teams-templates-in-the-admin-console.md
         - name: Manage the Office 365 G1 Trial offer
@@ -1867,7 +1865,9 @@ items:
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
-          href: connect-teams-essentials-to-email.md 
+          href: connect-teams-essentials-to-email.md
+        - name: Move from Business Voice to Teams Phone
+          href: business-voice-to-teams-phone-licenses.md
     - name: Move from Kaizala
       items: 
         - name: Get started
@@ -1896,8 +1896,6 @@ items:
           href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
           href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-    - name: Turn on Teams in your organization
-      href: Office-365-set-up.md
     - name: Teams PowerShell
       items: 
         - name: Overview

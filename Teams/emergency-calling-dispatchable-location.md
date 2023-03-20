@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
+ms.date: 08/22/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -128,4 +129,3 @@ Keep the following in mind:
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 
 - [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
-

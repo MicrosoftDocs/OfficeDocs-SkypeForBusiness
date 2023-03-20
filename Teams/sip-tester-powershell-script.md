@@ -5,6 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
+ms.date: 10/03/2019
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script sample to test Direct Routing Session Border Controller connections in Microsoft Teams.

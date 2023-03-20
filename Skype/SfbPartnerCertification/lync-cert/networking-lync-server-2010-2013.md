@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Partner qualification for Lync"
 ms.author: serdars
 author: SerdarSoysal
@@ -206,3 +207,4 @@ For more information about these products, contact the listed partner.
         <td>Juniper 10.2R2.11</td>
     </tr>
 </table>
+

@@ -3,6 +3,7 @@ title: Assign Teams Phone System phone numbers to your users
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: msteams
 audience: admin

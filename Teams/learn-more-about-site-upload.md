@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/11/2018
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 

@@ -1,11 +1,13 @@
 ---
 title: Upgrade Teams phones to Teams displays
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: weizxue
+ms.date: 10/19/2020
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -14,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn how to upgrade Teams phones to Teams displays in the Microsoft Teams admin center.

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Mediation Server General Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -41,4 +42,5 @@ You specify the Mediation Server pool or Mediation Server next hop by selecting 
     
 3. If you have more than one trunk associated with a Mediation Server, you can specify a default trunk by selecting the trunk and then clicking **Make Default**. To unselect a gateway as the default, click **Unmake Default**. 
     
+
 

@@ -1,6 +1,7 @@
 ---
 title: "Monitor Direct Routing"
 ms.reviewer: 
+ms.date: 07/11/2018
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

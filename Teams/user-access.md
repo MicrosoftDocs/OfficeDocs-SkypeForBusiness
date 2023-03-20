@@ -10,6 +10,7 @@ ms.collection:
   - M365-collaboration
   - tier1
 ms.reviewer: ritikag
+ms.date: 08/11/2017
 search.appverid: MET150
 description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:

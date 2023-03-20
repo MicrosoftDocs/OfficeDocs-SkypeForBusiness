@@ -11,6 +11,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-externalcollab
 ms.reviewer: vinbel
+ms.date: 12/10/2018
 search.appverid: MET150
 f1.keywords:
 - CSH

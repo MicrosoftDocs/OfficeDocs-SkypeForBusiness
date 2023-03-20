@@ -4,13 +4,16 @@ author: altsou
 ms.author: altsou
 manager: serdars
 ms.reviewer: altsou
+ms.date: 03/25/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

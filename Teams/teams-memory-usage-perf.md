@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
+ms.date: 01/23/2020
 audience: admin
 description: Learn about Microsoft Teams system memory usage, and why memory usage is the same between the desktop application and the web application.
 ms.localizationpriority: medium

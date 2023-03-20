@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Create or delete an announcement in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -121,3 +122,4 @@ To create a new announcement, you need to perform the following steps:
 [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement)
 
 [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement)
+

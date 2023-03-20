@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "XMPP Federated Partners Create New or Edit Existing"
 ms.reviewer: 
 ms.author: serdars

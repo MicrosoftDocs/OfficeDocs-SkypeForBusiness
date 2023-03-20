@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: serdars
+ms.date: 08/10/2017
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Microsoft 365 or Office 365.
 ms.localizationpriority: high
 search.appverid: MET150

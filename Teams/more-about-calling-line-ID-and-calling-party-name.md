@@ -4,6 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: roykuntz, jenstr
+ms.date: 04/20/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 search.appverid: MET150
@@ -34,7 +35,3 @@ When a call is made, the CLID (phone number) is routed to the destination's carr
 CLID & CNAM transmission is the responsibility of the terminating carrier. The terminating carrier must support CLID & CNAM functionality as well as provide up-to-date records for both values. Microsoft reliably provides CLID values when originating calls, but those values may not be kept intact once they pass through an intermediary carrier or the terminating carrier. If the CLID value is changed, omitted, or truncated by the intermediary or terminating carrier, Microsoft has little to no recourse in correcting such problems in the public telephone network.
 
 Inconsistencies in CNAM can be caused when the intermediate or terminating carriers delay refreshing the CNAM information in authoritative databases--as in the case of the United States. In countries where there are no authoritative databases for CNAM, individual carrier practices can also cause problems with CNAM information arriving intact with the call. Microsoft currently does not support originating CNAM information in countries other than the United States.
-
-
-
-

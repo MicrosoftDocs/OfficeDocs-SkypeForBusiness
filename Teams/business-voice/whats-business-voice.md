@@ -3,6 +3,7 @@ title: Teams Phone System guidance for small and medium businesses
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 07/24/2019
 ms.topic: article
 ms.service: msteams
 audience: admin

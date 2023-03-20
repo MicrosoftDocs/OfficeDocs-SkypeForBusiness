@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -14,12 +15,15 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to enable or require watermarks on attendee video and shared content in sensitive Teams meetings.
 ---
 
 # Require a watermark for sensitive Teams meetings
+
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Meeting participants can't turn the watermark off.
 
@@ -106,3 +110,5 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowWatermarkForScreenSharing $True
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+
+[Teams policies reference - Watermark](settings-policies-reference.md#watermark)

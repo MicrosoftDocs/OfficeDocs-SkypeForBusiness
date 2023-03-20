@@ -3,6 +3,7 @@ title: Migrating from Skype for Business Online Connector to the Teams PowerShel
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
+ms.date: 10/14/2020
 manager: bulenteg
 ms.topic: conceptual
 audience: admin

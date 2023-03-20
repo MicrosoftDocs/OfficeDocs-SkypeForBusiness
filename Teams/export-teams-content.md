@@ -7,6 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
+ms.date: 09/15/2020
 description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export APIs.
 ms.localizationpriority: medium
 f1.keywords:

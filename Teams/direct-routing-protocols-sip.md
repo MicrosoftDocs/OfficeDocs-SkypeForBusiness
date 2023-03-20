@@ -1,5 +1,5 @@
 ---
-title: Phone System Direct Routing
+title: "Teams Phone System Direct Routing: SIP protocol"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-description: Direct Routing protocols
+description: Direct Routing SIP protocol
 appliesto: 
   - Microsoft Teams
 ---
@@ -304,6 +304,21 @@ The size of the Refer Header can be up to 400 symbols in this case. The SBC must
 > [!div class="mx-imgBorder"]
 > ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-5.png)
 
+## Call forwarding
+
+A Teams user can forward incoming calls to another number or Teams user, ring other user or users in parallel (simultaneous ring), or ring a group of users or numbers. Consider the following:
+
+- Request-URI in INVITE request from SIP proxy to User C contains the *cause* parameter. 
+
+- Based on trunk configurations (*ForwardCallHistory* parameter), the History-Info header is populated. 
+
+- When User A is another PSTN user, SIP proxy generates the "SIP SIP/2.0 181 Call is being forwarded" provisional response to User A. 
+
+- If User A and User C are PSTN users, SIP proxy preserves the "SIP SIP/2.0 181 Call is being forwarded" provisional response. 
+
+- The History-Info header should be used for loop-prevention.  
+
+
 ## Session timer
 
 The SIP proxy supports (always offers) the Session Timer on non-bypass calls but does not offer it on bypass calls. Use of the Session Timer by the SBC is not mandatory.
@@ -336,19 +351,20 @@ If sending, the History-Info is enabled as follows:
 Following is the format of the History-info header sent by the SIP proxy:
 
 ```console
-<sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
+<sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3Bcause%3D486>;index=1.2
 ```
 
-If the call was redirected several times, information about every redirect is included with the appropriate reason in chronological order.
-
+If the call was redirected several times, information about every redirect is included with the appropriate reason in chronological order, in a comma-separated list.
 
 Header Example:
 
 ```console
-History-info: 
-<sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
-<sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1
+History-Info:
+  <sip:+14257123456@sip.pstnhub.microsoft.com:5061;user=phone?Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20temporarily%22>;index=1,
+  <sip:+14257123456@sip.pstnhub.microsoft.com:5061;user=phone?Reason=SIP%3Bcause%3D496%3Btext%3D%22User%20Busy%22>;index=1.1
 ```
+
+The SIP URI in the History-Info header is formatted as per Section 25 of RFC 3261 (see the definition of `addr-spec`). In the previous example, the original text of the URI header `Reason` is `SIP;cause=496;text="User Busy"`, which gets its `;`, `"`, and `=` characters escaped to their ASCII hex values `%3B`, `%22`, and `3D`, respectively.
 
 The History-Info is protected by a mandatory TLS mechanism. 
 

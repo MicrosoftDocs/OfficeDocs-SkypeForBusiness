@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Assign Skype for Business licenses"
 ms.author: tonysmit
 author: tonysmit
@@ -204,3 +205,4 @@ Take a look at the sample script for assigning **Audio Conferencing** licenses. 
 [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
+

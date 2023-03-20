@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: yinchang
+ms.date: 09/18/2020
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium

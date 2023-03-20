@@ -4,11 +4,14 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
+ms.date: 03/18/2022
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

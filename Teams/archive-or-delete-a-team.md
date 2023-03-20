@@ -7,6 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: jastark
+ms.date: 04/12/2019
 search.appverid: MET150
 description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 ms.localizationpriority: medium
@@ -122,4 +123,3 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 ## Related topics
 
 - [Archive or restore a team](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
-

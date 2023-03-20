@@ -3,6 +3,7 @@ title: Manage the Approvals app in Microsoft Teams
 author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: farhazk
+ms.date: 12/02/2020
 manager: samanro
 ms.topic: how-to
 audience: admin

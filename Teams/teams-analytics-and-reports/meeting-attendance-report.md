@@ -1,12 +1,13 @@
 ---
 title: Microsoft Teams meeting attendance report
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: asappiah
+ms.date: 05/12/2020
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -24,11 +25,21 @@ Meeting organizers can view and download a meeting attendance report. Find this 
 
 :::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Control for downloading meeting attendance reports in Microsoft Teams.":::
 
-For education tenants, this report is useful to track student attendance in online classes. For example, the teacher can download the attendance report at the start of class as a simple way to do a "roll call." To learn more, read [Download attendance reports in Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
+For education tenants, this report is useful to track student attendance in online classes. For example, the teacher can download the attendance report at the start of class as a simple way to do a "roll call." To learn more, read [Download attendance reports in Teams](https://support.office.com/article/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-As an admin, you control whether meeting organizers can download meeting attendance reports by setting a Teams meeting policy. By default, the ability to download the report is turned on. For steps on how to turn off this feature, see [Meeting policy settings - Allow engagement report](../meeting-policies-in-teams-general.md#engagement-report).
+## Configure the Teams meeting attendance report
 
-If meeting organizers need access to more meeting attendance data than they get from the report available within the meeting, you can assign the *Report reader* role so they can access the Teams admin reports themselves. To learn about this, read [Who can access the Teams activity reports](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
+This is a per-user policy. This setting controls whether meeting organizers can download the engagement report for a meeting or webinar.
+
+This policy is on by default and allows your organizers to see who registered and attended the meetings and webinars they set up. 
+
+To turn the engagement report on or off
+1. In the Teams admin center, expand **Meetings**.
+1. Select **Meeting policies**.
+1. Select the policy that you want to update.
+1. Under **Meeting scheduling**, set **Engagement report** to **On** or **Off**.
+
+When this policy is enabled, the option to download the meeting engagement report is displayed in the **Participants** pane in the meeting.
 
 ## Related topics
 

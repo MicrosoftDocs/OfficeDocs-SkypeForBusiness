@@ -1,9 +1,10 @@
 ---
-title: Manage resource accounts in Teams
+title: Manage resource accounts for service numbers
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: jastark, wasseemh
+ms.date: 01/22/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,10 +23,10 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
   - seo-marvel-apr2020
-description: In this article, you'll learn how to create, edit, and manage resource accounts in Microsoft Teams.
+description: In this article, you'll learn how to create, edit, and manage resource accounts for service numbers in Microsoft Teams.
 ---
 
-# Manage resource accounts in Microsoft Teams
+# Manage resource accounts for service numbers
 
 [!INCLUDE [set-up-resource-account-steps](./includes/set-up-resource-account-steps.md)]
 

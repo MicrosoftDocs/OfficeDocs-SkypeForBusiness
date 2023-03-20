@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
+ms.date: 09/13/2018
 description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
 ms.localizationpriority: high
 f1.keywords:

@@ -4,13 +4,16 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: sohailta
+ms.date: 09/30/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

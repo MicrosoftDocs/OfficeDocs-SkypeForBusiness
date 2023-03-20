@@ -7,6 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dansteve
+ms.date: 08/10/2017
 search.appverid: MET150
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
 f1.keywords:
