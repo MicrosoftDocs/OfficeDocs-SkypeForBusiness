@@ -60,8 +60,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 ## Hardware requirements for Teams on Linux
 
 > [!NOTE]
-> The Teams Desktop on Linux was retired in December 2022.
-
+> Teams Desktop on Linux was retired in December 2022.
 
 ## Hardware requirements for Teams on mobile devices
 
