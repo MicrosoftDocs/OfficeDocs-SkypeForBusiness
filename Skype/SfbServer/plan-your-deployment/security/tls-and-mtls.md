@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "TLS and MTLS for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ Server-to-server connections rely on MTLS for mutual authentication. On an MTLS 
   
 TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks. In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker's computer without the knowledge of either party. TLS and Skype for Business Server specification of trusted servers (only those specified in Topology Builder) mitigate the risk of a man-in-the middle attack partially on the application layer by using end-to-end encryption coordinated using the Public Key cryptography between the two endpoints, and an attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication. Ultimately, however, you must follow best security practices with your networking infrastructure (in this case corporate DNS). Skype for Business Server assumes that the DNS server is trusted in the same way that domain controllers and global catalogs are trusted, but DNS does provide a level of safeguard against DNS hijack attacks by preventing an attacker's server from responding successfully to a request to the spoofed name.
   
+
 

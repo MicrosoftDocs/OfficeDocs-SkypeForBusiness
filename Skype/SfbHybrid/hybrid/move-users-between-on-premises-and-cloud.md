@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Move users between on-premises and cloud"
 ms.author: crowe
 author: CarolynRowe
@@ -124,3 +125,4 @@ The policies (such as to control messaging, meeting, and calling behavior) in on
 [Plan Direct Routing](/microsoftteams/direct-routing-plan)
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
+

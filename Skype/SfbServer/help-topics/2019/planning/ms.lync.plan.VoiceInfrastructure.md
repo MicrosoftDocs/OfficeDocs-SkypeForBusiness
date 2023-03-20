@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Voice Infrastructure (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -22,4 +23,5 @@ description: "Skype for Business Server provides reliable, scalable PSTN connect
  
 Skype for Business Server provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX. For details, see [Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
+
 

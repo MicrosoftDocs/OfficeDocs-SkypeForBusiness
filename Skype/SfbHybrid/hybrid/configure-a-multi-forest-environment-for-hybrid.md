@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy a resource forest topology"
 ms.reviewer: 
 ms.author: crowe
@@ -147,3 +148,4 @@ Follow the best practices for configuring Skype for Business hybrid. For more in
 ## Configure hybrid connectivity for Exchange Server
 
 If necessary, follow the best practices for configuring Exchange hybrid. For more information, see [Exchange Server Hybrid Deployments](/exchange/exchange-hybrid). 
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Front End With AV MCU"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ A/V Conferencing enables real-time audio and video communications between your u
   
 All pools at a site and the pools of multiple central sites can use the same A/V Conferencing Server, if usage does not exceed the capacity of the A/V Conferencing Server. 
   
+
 

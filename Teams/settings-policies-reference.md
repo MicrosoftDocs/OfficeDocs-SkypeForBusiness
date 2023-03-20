@@ -271,7 +271,8 @@ Meeting policies are used to control what features are available in meetings org
 
 ##### Related topics to recording & transcription policies
 
-- [Teams meeting recording](cloud-recording.md)
+- [Teams meeting recording](meeting-recording.md)
+- [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 

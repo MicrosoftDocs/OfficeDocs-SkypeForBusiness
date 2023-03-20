@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Configuring port ranges and a Quality of Service for your Edge Servers'
 ms.reviewer: 
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
@@ -149,3 +150,4 @@ To help ensure that network packets are marked with the appropriate DSCP value, 
 6.  Double-click **Do no use NLA**. In the **Edit String** dialog box, type **1** in the **Value data** box, and then click **OK**.
 
 7.  Close the Registry Editor and reboot your computer.
+

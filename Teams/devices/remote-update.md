@@ -8,9 +8,11 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

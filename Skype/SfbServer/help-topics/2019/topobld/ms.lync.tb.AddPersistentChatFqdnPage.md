@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define Persistent Chat FQDN"
 ms.reviewer: 
 ms.author: serdars

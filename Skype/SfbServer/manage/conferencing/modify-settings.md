@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Modify meeting configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -45,3 +46,4 @@ Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Every
 ```
 
 For more information, including a complete list of parameters, see [Set-CsMeetingConfiguration](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).
+

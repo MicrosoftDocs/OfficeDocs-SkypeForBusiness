@@ -1,4 +1,5 @@
 ---
+ms.date: 06/12/2018
 title: "Qualified Lync recording applications"
 ms.author: serdars
 author: msdmaguire
@@ -171,3 +172,4 @@ Features include:
 - Call Analytics
 - Call Trend Analytics
 - Quality Management
+

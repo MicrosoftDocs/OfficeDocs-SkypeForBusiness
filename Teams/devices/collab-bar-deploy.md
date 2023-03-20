@@ -8,12 +8,14 @@ ms.reviewer: payurevi
 ms.date: 04/21/2020
 ms.topic: quickstart
 ms.service: msteams
+ms.subservice: itpro-devices
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 ms.custom: 
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Read this article to learn about deploying Microsoft Teams Rooms on Android.
