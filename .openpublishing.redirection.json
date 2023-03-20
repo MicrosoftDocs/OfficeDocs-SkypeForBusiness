@@ -2998,7 +2998,7 @@
   {
     "source_path": "Teams/set-the-caller-id-for-a-user.md",
     "redirect_url": "/microsoftteams/anonymous-users-in-meetings",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/aa-cq-cqd-historical-reports-v163.md",
@@ -3059,17 +3059,6 @@
     "source_path": "Teams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md",
     "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
     "redirect_document_id": true
-  },
-  {
-
-    "source_path": "Teams/rooms/microsoft-teams-rooms-premium.md",
-    "redirect_url": "/microsoftteams/rooms/rooms-pro-management",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "Teams/enhance-office-365-groups.md",
-    "redirect_url": "https://support.microsoft.com/office/24ec428e-40d7-4a1a-ab87-29be7d145865",
-    "redirect_document_id": false
   },
   {
     "source_path": "Teams/rooms/microsoft-teams-rooms-premium-rbac.md",
