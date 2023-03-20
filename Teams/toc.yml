@@ -1507,6 +1507,8 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
+            - name: Find user licenses
+              href: rooms/license-check.md
     - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
