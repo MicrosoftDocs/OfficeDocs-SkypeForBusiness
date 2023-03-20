@@ -31,7 +31,7 @@ This feature can be used in a standalone Teams panel deployment. You can also pa
 
 The shared mailbox associated with the Teams panel needs to have the correct time zone set for this feature to work correctly. For information about how to set the time zone for shared mailboxes, see [Time zone settings for shared mailboxes in Outlook on the web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
-You can also use configuration profiles to apply this feature to a set of devices, for more information, see [Use configuration profiles in Teams](device-management.md#use-configuration-profiles-in-teams)
+You can also use configuration profiles to apply this feature to a set of devices, for more information, see [Use configuration profiles in Teams](device-management.md#use-configuration-profiles-in-teams).
 
 ## Enable check-in and room release 
 
