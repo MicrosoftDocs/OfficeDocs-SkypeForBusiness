@@ -1,5 +1,5 @@
 ---
-title: How to Check for User Subscription Licenses assigned to Microsoft Teams Rooms 
+title: Find user licenses assigned to Teams Rooms devices 
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -16,30 +16,31 @@ ms.collection:
   - Tier1
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-description: Learn about the User Subscription Licenses assigned to Microsoft Teams Rooms.
+description: Learn how to find user licenses that have been assigned to Teams Rooms devices.
 ---
 
-# How to Check for User Subscription Licenses assigned to Microsoft Teams Rooms 
+# Find user licenses assigned to Teams Rooms devices
 
-User licenses aren't supported for use with meeting devices. User licenses that have been assigned to teams meeting devices need to be replaced by a Teams Rooms Basic or Teams Rooms Pro license prior to July 1, 2023. They may also be assigned legacy licenses Teams Rooms Standard and Teams Rooms Premium. Meeting devices that have a user subscription license after July 1, 2023 will be unable to sign in until a Teams Rooms license is assigned. 
+User licenses aren't supported for use with meeting devices. User licenses that have been assigned to teams meeting devices need to be replaced by a Teams Rooms Basic or Teams Rooms Pro license prior to July 1, 2023. They may also be assigned legacy licenses Teams Rooms Standard and Teams Rooms Premium. Meeting devices that have a user subscription license after July 1, 2023 will be unable to sign in until a Teams Rooms license is assigned.
 
-Also, Microsoft Teams Shared Devices licenses aren't supported on and won't work with Teams Rooms devices. Teams Rooms devices should only be assigned Teams Rooms Basic or Teams Rooms Pro licenses. 
+Also, Microsoft Teams Shared Devices licenses aren't supported on and won't work with Teams Rooms devices. Teams Rooms devices should only be assigned Teams Rooms Basic or Teams Rooms Pro licenses.
 
 To determine your license position, we suggest two ways to check your machines depending on the number of devices you have in your organization.  
 
-## To check the license of a few Teams Rooms devices 
+## To check the license of a few Teams Rooms devices
 
- - For a small number of devices, you can see what license your devices have by going to Teams devices in the Teams Admin Center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see. 
- 
- - For example, if you select **Teams devices > Teams Rooms on Windows**, you'll see the following image. The License column shows the Teams Rooms license assigned to each device. 
+- For a small number of devices, you can see what license your devices have by going to Teams devices in the Teams Admin Center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see.
 
-   ![Teams-room-license-for-devices](../media/Teams-rooms.png)
+- For example, if you select **Teams devices > Teams Rooms on Windows**, you'll see the following image. The License column shows the Teams Rooms license assigned to each device.
 
- - Devices that have the Pro license can access all the capabilities of their Teams Room devices.
-  
- - Devices with other licenses can access a subset of those features. You can see which features are available to each license in Comparison of Teams Rooms feature availability by license. 
 
-## Checking the License of Multiple Microsoft Teams Rooms Devices in Bulk 
+:::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams Rooms inventory list with focus on Standard, Pro, and Pro (Trial) licenses.":::
+
+- Devices that have the Pro license can access all the capabilities of their Teams Room devices.
+
+- Devices with other licenses can access a subset of those features. You can see which features are available to each license in Comparison of Teams Rooms feature availability by license.
+
+## Checking the License of Multiple Microsoft Teams Rooms Devices in Bulk
 
 ```PowerShell
 <#PSScriptInfo,  
@@ -62,7 +63,7 @@ Version 0.24: updating file/path UI
 
 <# 
 .SYNOPSIS 
-Reports out the list of all resource accounts that have assigned licenses, highlighting the ones with Teams Meeting Room Pro liceses in green 
+Reports out the list of all resource accounts that have assigned licenses, highlighting the ones with Teams Meeting Room Pro licenses in green 
 .DESCRIPTION 
 This script uses MgGraph modules to check for resource accounts and their licenses.  
 .PARAMETER  
@@ -70,22 +71,23 @@ None
 .NOTES 
 author: Peter Lurie 
 created: 2022-05-10 
-editied: 2023-03-01 
+edited: 2023-03-01 
 #>  
 
-Function Get-SaveFilePath ([string]$initialDirectory) { #prompts for filename and path for exporting to CSV, if needed 
+Function Get-SaveFilePath ([string]$initialDirectory) {
+    #prompts for filename and path for exporting to CSV, if needed 
 
-Add-Type -AssemblyName System.Windows.Forms 
-$SaveFileDialog = New-Object System.Windows.Forms.SaveFileDialog 
-$SaveInitialPath = ".\" 
-$SaveFileName = "TeamsMeetingRoomLicenses.csv" 
-$SaveFileDialog.initialDirectory = $SaveInitialPath #Sets current starting path 
-$SaveFileDialog.filter = "CSV (*.csv)| *.csv" 	#Restricts to CSV by default 
-
-$SaveFileDialog.FileName = $SaveFileName 			#Default filename  
-
-$SaveFileDialog.ShowDialog() #actually asks for the filepath 
-return $SaveFileDialog.filename #Returns filepath for writing to CSV 
+    Add-Type -AssemblyName System.Windows.Forms 
+    $SaveFileDialog = New-Object System.Windows.Forms.SaveFileDialog 
+    $SaveInitialPath = ".\" 
+    $SaveFileName = "TeamsMeetingRoomLicenses.csv" 
+    $SaveFileDialog.initialDirectory = $SaveInitialPath #Sets current starting path 
+    $SaveFileDialog.filter = "CSV (*.csv)| *.csv"  #Restricts to CSV by default 
+    
+    $SaveFileDialog.FileName = $SaveFileName    #Default filename  
+    
+    $SaveFileDialog.ShowDialog() #actually asks for the filepath 
+    return $SaveFileDialog.filename #Returns filepath for writing to CSV 
 } 
 
 Clear-Host 
@@ -99,37 +101,36 @@ Write-Host
  
 #Setup for Graph 
 Write-Host "Loading Microsoft Graph Modules"  
-If (!(Get-Module -listavailable | Where-Object {$_.name -like "*Microsoft.Graph.Users*"}))  
-{  
-Install-Module Microsoft.Graph.Users #-ErrorAction SilentlyContinue  
+If (!(Get-Module -listavailable | Where-Object { $_.name -like "*Microsoft.Graph.Users*" })) {  
+    Install-Module Microsoft.Graph.Users #-ErrorAction SilentlyContinue  
 }  
-Else  
-{	Import-Module Microsoft.Graph.Users #-ErrorAction SilentlyContinue  
+Else {
+    Import-Module Microsoft.Graph.Users #-ErrorAction SilentlyContinue  
 }  
-Try 
-{	write-host "Getting ready to connect to the Microsoft Graph"  
-Connect-MgGraph -Scopes "User.Read.All" 
-write-host "Connected successfully the Microsoft Graph" -ForegroundColor Green 
+Try {
+    write-host "Getting ready to connect to the Microsoft Graph"  
+    Connect-MgGraph -Scopes "User.Read.All" 
+    write-host "Connected successfully the Microsoft Graph" -ForegroundColor Green 
 } 
-Catch 
-{	write-host "Unable to connect to your Microsoft Graph Environment"	-ForegroundColor Red 
+Catch {
+    write-host "Unable to connect to your Microsoft Graph Environment" -ForegroundColor Red 
 } 
 
 Write-Host  
 Write-Host "Getting ready to connect to Exchange Online." -ForegroundColor Green 
-If (!(Get-Module -listavailable | Where-Object {$_.name -like "*ExchangeOnlineManagement*"}))  
-{ 	Install-Module ExchangeOnlineManagement -ErrorAction SilentlyContinue  
+If (!(Get-Module -listavailable | Where-Object { $_.name -like "*ExchangeOnlineManagement*" })) {
+    Install-Module ExchangeOnlineManagement -ErrorAction SilentlyContinue  
 }  
-Else  
-{ 	Import-Module ExchangeOnlineManagement -ErrorAction SilentlyContinue  
+Else {
+    Import-Module ExchangeOnlineManagement -ErrorAction SilentlyContinue  
 }  
-Try 
-{	write-host "Connecting to your Exchange Online instance" 
-$Prompt_EXOCreds = Connect-ExchangeOnline -ShowBanner:$false #Note if using GCC, DOD, or a soverign cloud, see docs for this command for the correct -ExchangeEnvironmentName. Default is Commerical cloud 
-write-host "Connected successfully to your Exchange Online" -ForegroundColor Green 
+Try {
+    write-host "Connecting to your Exchange Online instance" 
+    $Prompt_EXOCreds = Connect-ExchangeOnline -ShowBanner:$false #Note if using GCC, DOD, or a sovereign cloud, see docs for this command for the correct -ExchangeEnvironmentName. Default is Commercial cloud 
+    write-host "Connected successfully to your Exchange Online" -ForegroundColor Green 
 } 
-Catch 
-{	write-host "Unable to connect to your Exchange Online Environment"	 -ForegroundColor Red 
+Catch {
+    write-host "Unable to connect to your Exchange Online Environment"  -ForegroundColor Red 
 }  
 
 Write-Host  
@@ -143,35 +144,35 @@ $StartElapsedTime = $(get-date)
 [System.Collections.ArrayList]$MeetingRoomOther_License = @() #Licenses OTHER than what should be applied to a Teams Room Resource Account 
 $Report = [System.Collections.Generic.List[Object]]::new() 
 
-$Room_UPNs = get-mailbox | Where-Object {$_.recipientTypeDetails -eq "roomMailbox"} | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
+$Room_UPNs = get-mailbox | Where-Object { $_.recipientTypeDetails -eq "roomMailbox" } | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
 Write-Host $Room_UPNs.Length " were found." -ForegroundColor Green 
 Write-Host "Note that resource accounts can contain 0 or multiple licenses. As such, the total of all licenses discovered may be different than the number of resource accounts" -ForegroundColor Yellow 
 Write-Host  
 
-$i,$x = 0,$Room_UPNs.count #Setup for counting devices 
-if ($null -eq $x) {$x = 1} #run through the loop at least once to print results, otherwise will get a divide/0 error 
-# Note that resource accounts can contain multiple licenese. As such, the sum of all licenses may exceed the number of resource accounts 
+$i, $x = 0, $Room_UPNs.count #Setup for counting devices 
+if ($null -eq $x) { $x = 1 } #run through the loop at least once to print results, otherwise will get a divide/0 error 
+# Note that resource accounts can contain multiple license. As such, the sum of all licenses may exceed the number of resource accounts 
 
-ForEach ($UPN in $Room_UPNs){ 
-$i++ 
-Write-Progress -activity "Searching for resource accounts with licenses..." -status "Scanned: $i of $x"  
-$UPN_license = Get-MgUserLicenseDetail -UserID $UPN.ExternalDirectoryObjectId | Select-Object -ExpandProperty SkuPartNumber 
-$temp = [pscustomobject]@{'DisplayName'=$UPN.DisplayName;'UPN'=$UPN.PrimarySmtpAddress; 'Licenses'=$UPN_license -join ", "} 
-#pulls out the license from a UPN 
+ForEach ($UPN in $Room_UPNs) { 
+    $i++ 
+    Write-Progress -activity "Searching for resource accounts with licenses..." -status "Scanned: $i of $x"  
+    $UPN_license = Get-MgUserLicenseDetail -UserID $UPN.ExternalDirectoryObjectId | Select-Object -ExpandProperty SkuPartNumber 
+    $temp = [pscustomobject]@{'DisplayName' = $UPN.DisplayName; 'UPN' = $UPN.PrimarySmtpAddress; 'Licenses' = $UPN_license -join ", " } 
+    #pulls out the license from a UPN 
 
-if ($null -eq $UPN_license) {$No_License.add($temp) | Out-Null} #find resource accounts without licenses 
+    if ($null -eq $UPN_license) { $No_License.add($temp) | Out-Null } #find resource accounts without licenses 
 
-if ($UPN_license -like "MTR_PREM*" -or $UPN_license -like "MMR_P*" ) {$MTR_Premium_License.add($temp) | Out-Null} #find resource accounts with legacy MTR Premium  
-if ($UPN_license -like "MEETING_ROOM*") {$MeetingRoom_License.add($temp) | Out-Null} #find resource accounts with legacy Teams Room Standard licenses 
-if ($UPN_license -like "Microsoft_Teams_Rooms_Pro*") {$MeetingRoomPro_License.add($temp) | Out-Null} #find resource accounts with meeting room pro licenses 
-if ($UPN_license -like "Microsoft_Teams_Rooms_Basic*") {$MeetingRoomBasic_License.add($temp) | Out-Null} #find resource accounts with meeting room basic licenses  
+    if ($UPN_license -like "MTR_PREM*" -or $UPN_license -like "MMR_P*" ) { $MTR_Premium_License.add($temp) | Out-Null } #find resource accounts with legacy MTR Premium  
+    if ($UPN_license -like "MEETING_ROOM*") { $MeetingRoom_License.add($temp) | Out-Null } #find resource accounts with legacy Teams Room Standard licenses 
+    if ($UPN_license -like "Microsoft_Teams_Rooms_Pro*") { $MeetingRoomPro_License.add($temp) | Out-Null } #find resource accounts with meeting room pro licenses 
+    if ($UPN_license -like "Microsoft_Teams_Rooms_Basic*") { $MeetingRoomBasic_License.add($temp) | Out-Null } #find resource accounts with meeting room basic licenses  
 
-if (!(($UPN_license -like "MEETING_ROOM*" ) -or ($UPN_license -like "Microsoft_Teams_Rooms_*" ) -or ($UPN_License -like "MTR_PREM") -or ($UPN_License -like "MMR_P1")-or ($null -eq $UPN_license) )) {$MeetingRoomOther_License.add($temp) | Out-Null}
-#If there are resource accounts that have other licenses, add them too. 
+    if (!(($UPN_license -like "MEETING_ROOM*" ) -or ($UPN_license -like "Microsoft_Teams_Rooms_*" ) -or ($UPN_License -like "MTR_PREM") -or ($UPN_License -like "MMR_P1") -or ($null -eq $UPN_license) )) { $MeetingRoomOther_License.add($temp) | Out-Null }
+    #If there are resource accounts that have other licenses, add them too. 
 
-$Report.Add($temp) #Creating the file for the CSV, if needed later 
+    $Report.Add($temp) #Creating the file for the CSV, if needed later 
 
-$temp = $null 
+    $temp = $null 
 } 
 
 Write-Progress -Completed -activity "Searching for resource accounts with licenses..."  
@@ -209,16 +210,15 @@ Write-Host "Processing took $totalTime." -ForegroundColor Green
 Write-Host  
 Write-Host 
 $answer = read-host -prompt "Do you want to export results to a CSV file? [y/N]" 
-If ($answer.ToLower() -eq 'y' )  
-{ 
-try { 
-$SaveMyFile = Get-SaveFilePath #Use Get-SaveFilePath function to prompt for filepath information 
-$Report | Sort-Object UPN | Export-CSV -Path $SaveMyFile[1] -NoTypeInformation  
-Write-Host "Results Saved." -ForegroundColor green 
-} 
-catch { 
-Write-Host "Unable to save CSV" -ForegroundColor red 
-} 
+If ($answer.ToLower() -eq 'y' ) { 
+    try { 
+        $SaveMyFile = Get-SaveFilePath #Use Get-SaveFilePath function to prompt for filepath information 
+        $Report | Sort-Object UPN | Export-CSV -Path $SaveMyFile[1] -NoTypeInformation  
+        Write-Host "Results Saved." -ForegroundColor green 
+    } 
+    catch { 
+        Write-Host "Unable to save CSV" -ForegroundColor red 
+    } 
 }  
 
 Write-Host  
@@ -227,25 +227,22 @@ Write-Host
 Write-Host "Done" -ForegroundColor Green 
 ```
 
-## See which features require a Microsoft Teams Rooms Pro license 
+## See which features require a Microsoft Teams Rooms Pro license
 
-Features that require a Microsoft Teams Rooms Pro license can be identified by looking for the icon on a device's details page. If the device that's currently selected isn't assigned a Microsoft Teams Rooms Pro license, you can't perform the action and a prompt to upgrade is displayed. 
+Features that require a Microsoft Teams Rooms Pro license can be identified by looking for the icon on a device's details page. If the device that's currently selected isn't assigned a Microsoft Teams Rooms Pro license, you can't perform the action and a prompt to upgrade is displayed.
 
-![image](../media/restart-pro.png)
+:::image type="content" source="../media/mtr-restart-device-dialog.png" alt-text="Dialog showing Teams Rooms device restart options.":::
 
 ### Related Content
 
- - [Teams add-on licensing ](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
- 
- - [Manage user access to Teams ](/microsoftteams/user-access)
- 
- - [View licenses and services with PowerShell](/microsoft-365/enterprise/view-licenses-and-services-with-microsoft-365-powershell?)
- 
- - [Product names and service plan identifiers for licensing](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
- 
- - [Education SKU reference](/microsoftteams/sku-reference-edu)
- 
- - [How long does it take for new license orders to appear in the license summary](/licensing/license-faq#how-long-does-it-take-for-new-license-orders-to-appear-in-the-license-summary)
+- [Teams add-on licensing](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
+- [Manage user access to Teams](/microsoftteams/user-access)
 
+- [View licenses and services with PowerShell](/microsoft-365/enterprise/view-licenses-and-services-with-microsoft-365-powershell?)
 
+- [Product names and service plan identifiers for licensing](/azure/active-directory/enterprise-users/licensing-service-plan-reference)
+
+- [Education SKU reference](/microsoftteams/sku-reference-edu)
+
+- [How long does it take for new license orders to appear in the license summary](/licensing/license-faq#how-long-does-it-take-for-new-license-orders-to-appear-in-the-license-summary)
