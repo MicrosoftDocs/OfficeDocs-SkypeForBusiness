@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 05/21/2021
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -50,6 +51,9 @@ You can use the global (Org-wide default) policy that's created automatically or
 > The voicemail service in Microsoft 365 caches voicemail policies and updates the cache every 6 hours. So, policy changes that you make can take up to 6 hours to be applied.
 
 ## Use Teams admin center
+
+> [!NOTE]
+> Managing Voicemail Policies through the Teams Admin Center is not currently available in GCC High and DoD environments.
 
 ### Create a custom voicemail policy
 
@@ -123,5 +127,3 @@ Specifies whether voicemail and transcription data is shared with the service fo
 
 
 ## Related articles
-
-

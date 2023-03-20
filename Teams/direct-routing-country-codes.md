@@ -5,6 +5,7 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
+ms.date: 06/28/2019
 ms.topic: reference
 ms.service: msteams
 ms.localizationpriority: medium

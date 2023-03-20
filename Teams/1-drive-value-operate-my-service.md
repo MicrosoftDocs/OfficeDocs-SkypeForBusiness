@@ -299,7 +299,7 @@ or users, or feature evaluation and adoption campaigns. This is the primary role
 of a change management team in your organization. Below is a collection of sample tables that
 can help you plan for change.
 
-#### Feature: Cloud Recording (Release date: January 2018)
+#### Feature: Meeting recording (Release date: January 2018)
 
 **General track**
 

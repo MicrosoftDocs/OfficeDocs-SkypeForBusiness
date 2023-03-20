@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -116,13 +117,7 @@ For example:
 
 **In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.
 
-**In France, Germany, and Spain**, emergency calls are routed directly to the PSAP serving the emergency address associated with the number regardless of the location of the caller.
-
-**In the Netherlands**, emergency calls are routed directly to the PSAP for the local area code of the number regardless of the location of the caller.
-
-**In Australia**, emergency addresses are configured and routed by the carrier partner.
-
-**In Japan**, emergency calling is not supported.
+**For information about how emergency calls are routed in all countries**, see [Emergency call routing for different countries](emergency-calling-availability.md).
 
 For more information, see:
 

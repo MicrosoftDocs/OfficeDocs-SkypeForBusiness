@@ -3,6 +3,7 @@ title: Application-based authentication in Teams PowerShell Module
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
+ms.date: 09/09/2022
 manager: sshastri
 ms.topic: conceptual
 audience: admin

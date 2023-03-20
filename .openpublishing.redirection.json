@@ -2966,6 +2966,11 @@
     "redirect_document_id": false
   }, 
   {
+    "source_path": "Teams/cloud-recording.md",
+    "redirect_url": "/microsoftteams/meeting-recording",
+    "redirect_document_id": true
+   },
+  {
     "source_path": "Teams/rooms/microsoft-teams-rooms-premium-rbac.md",
     "redirect_url": "/microsoftteams/rooms/rooms-pro-rbac",
     "redirect_document_id": false
@@ -2981,8 +2986,78 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/meeting-policies-restricted-anonymous-access.md",
+    "redirect_url": "/microsoft-365/solutions/empower-people-to-work-remotely",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/meeting-policies-in-teams.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference#meetings",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "Teams/set-the-caller-id-for-a-user.md",
-    "redirect_url": "/microsoftteams/caller-id-policies",
+    "redirect_url": "/microsoftteams/anonymous-users-in-meetings",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/aa-cq-cqd-historical-reports-v163.md",
+    "redirect_url": "/microsoftteams/aa-cq-cqd-historical-reports",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/calling-plan-landing-page.md",
+    "redirect_url": "/microsoftteams/calling-plans-for-office-365",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/configuring-teams-calling-quickstartguide.md",
+    "redirect_url": "/microsoftteams/set-up-calling-plans",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/raise-hand-meetings.md",
+    "redirect_url": "https://support.microsoft.com/en-us/office/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/reset-a-conference-id-for-a-user-in-teams.md",
+    "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/meeting-policies-in-teams-general.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference#meetings",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/meetings-policies-recording-and-transcription.md",
+    "redirect_url": "/microsoftteams/meeting-recording",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/meeting-policies-participants-and-guests.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/configure-desktop-sharing.md",
+    "redirect_url": "/microsoftteams/meeting-policies-content-sharing",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/manage-whiteboard.md",
+    "redirect_url": "/microsoftteams/meeting-policies-content-sharing",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-add-in-for-outlook.md",
+    "redirect_url": "https://support.microsoft.com/office/883cc15c-580f-441a-92ea-0992c00a9b0f",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md",
+    "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
     "redirect_document_id": true
   }
   ] 

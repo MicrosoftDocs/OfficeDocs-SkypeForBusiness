@@ -4,6 +4,7 @@ ms.author: czawideh
 author: cazawideh
 manager: serdars
 ms.reviewer: 
+ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
@@ -40,15 +41,6 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Phone numbers aren't linked to a specific city or location. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
-   
-## Phone System
-
-|**Feature**|**Details**|
-|:-----|:-----|
-|Is Phone System available for purchase?  <br/> |Yes  <br/> |
-| Auto attendants <br/> |Available  <br/> |
-|Call queues  <br/> |Available  <br/> |
-|Voicemail  <br/> |Available  <br/> |
    
 ## Calling Plans
 

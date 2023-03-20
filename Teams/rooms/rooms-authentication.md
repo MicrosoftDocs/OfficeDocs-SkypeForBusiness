@@ -3,10 +3,12 @@ title: "Authentication in Microsoft Teams Rooms on Windows"
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 04/06/2020
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -14,6 +16,7 @@ ms.assetid:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: Learn how to configure modern authentication for Microsoft Teams Rooms on Windows
 ---
 

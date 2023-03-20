@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
+ms.date: 07/16/2018
 audience: admin
 description: Guidance for IT pros to drive Microsoft 365 deployments in entities that handle data subject to US government regulation
 ms.localizationpriority: medium

@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: harij, rafarhi
+ms.date: 01/28/2022
 ms.localizationpriority: medium
 search.appverid: MET150
 description: A sample script that can be used to configure Windows to allow Teams connections through Windows Firewall.

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Move Conference Directories"
 ms.reviewer: 
 ms.author: serdars
@@ -66,4 +67,5 @@ This operation failed because the QueryInterface call on the COM component for t
 
 This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task. To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.
   
+
 

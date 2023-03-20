@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -14,12 +15,15 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for protection for highly sensitive information by using templates and sensitivity labels.
 ---
 
 # Configure Teams meetings with protection for highly sensitive data
+
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 For the *highly sensitive* level of protection, we'll look at two different scenarios:
 - Highly sensitive meetings where attendees participate and interact with the presenters
@@ -104,7 +108,7 @@ While we'll leave attendee mic and camera enabled for meetings, we'll turn them 
 
 ## Sensitivity labels
 
-For the sensitive level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
+For the highly sensitive level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
 
 If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings if needed to meet the needs of your organization. If you already have a label that you use for sensitive information, you can edit the label and add Teams meetings to it.
 
@@ -117,11 +121,12 @@ To create a sensitivity label
 1. Click **Create a label**.
 1. Give the label a name. We suggest **Highly sensitive**, but you can choose a different name if that one is already in use.
 1. Add a display name and description, and then click **Next**.
-1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
+1. On the **Define the scope for this label** page, make sure **Items** and **Include meetings** are selected. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
-1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
+1. On the **Choose protection settings for labeled items** page, select **Protect Teams meetings and chats** and then select **Next**
+1. On the **Settings for Teams meetings and chats** page, choose the following values:
     1. Select **Control who can bypass the lobby** and select **Only organizers and co-organizers** from the dropdown list.
-    1. Ensure that **Allow dial-in users to bypass the lobby** is unchecked
+    1. Ensure that **People dialing in can bypass the lobby** is unchecked
     1. Select **Control who can present** and select **Only organizers and co-organizers** from the dropdown list.
     1. Select **Control end-to-end encryption for meeting video and audio** and then select **Apply end-to-end encryption**.
     1. Select **Control watermarks** and then select **Apply watermark to shared content** and **Apply watermark to everyone's video feed**.

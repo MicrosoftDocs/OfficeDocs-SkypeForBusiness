@@ -4,6 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: lenatarhun
+ms.date: 10/23/2019
 ms.topic: article
 ms.service: msteams
 audience: Admin

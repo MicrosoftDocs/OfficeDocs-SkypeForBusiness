@@ -12,6 +12,7 @@ ms.collection:
   - m365solution-scenario
   - highpri
 ms.reviewer: sonua
+ms.date: 07/10/2018
 audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content too large online audiences in Teams, Yammer, and Stream.

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Set up and troubleshoot Skype for Business Online delegation"
 ms.reviewer: 
 ms.author: tonysmit
@@ -148,3 +149,4 @@ If the setup is successful, the delegate should see the **You were added as a de
 
   
  
+

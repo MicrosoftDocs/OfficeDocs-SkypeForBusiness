@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+ms.date: 06/24/2019
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

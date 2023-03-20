@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Manage external access policy for your organization'
 ms.reviewer: 
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
@@ -69,3 +70,4 @@ These options include the following types of external access:
     EnablePublicCloudAudioVideoAccess : False
     EnableOutsideAccess               : False
     ```
+

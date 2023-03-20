@@ -3,10 +3,12 @@ title: Remotely manage Microsoft Teams Rooms device settings
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -14,7 +16,7 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - tier1
+  - Tier2
 ms.custom: 
   - seo-marvel-mar2020
 description: Remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme and creating a master settings file.

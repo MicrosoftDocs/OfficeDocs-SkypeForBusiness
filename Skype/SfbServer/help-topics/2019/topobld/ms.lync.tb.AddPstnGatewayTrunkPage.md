@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define the Root Trunk for a New IP or PSTN Gateway"
 ms.reviewer: 
 ms.author: serdars

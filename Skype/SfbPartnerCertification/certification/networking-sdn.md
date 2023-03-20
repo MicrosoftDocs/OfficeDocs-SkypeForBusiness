@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Skype for Business - networking - wired"
 ms.author: serdars
 author: msdmaguire
@@ -46,3 +47,4 @@ This table lists the SDN solutions certified for Skype for Business.
 All SDN solutions qualified on Lync 2013 will be considered certified for Skype for Business.
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

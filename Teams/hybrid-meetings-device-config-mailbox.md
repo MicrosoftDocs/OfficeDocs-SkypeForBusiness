@@ -7,6 +7,7 @@ f1.keywords:
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Configure mailbox properties of a resource account mailbox for use with Teams Rooms.
 ms.topic: article

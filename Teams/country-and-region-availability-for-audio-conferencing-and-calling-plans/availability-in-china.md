@@ -4,6 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 30fde7fa-fb2b-4e73-8217-bdd41bd38567
 ms.tgt.pltfrm: cloud
@@ -41,15 +42,6 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | Non-geographic. Phone numbers aren't linked to a specific city or location. <br/>  If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> | Yes, except for customers who purchase the service from China. Dial-out capabilities are disabled for customers who purchase the service from China.   <br/> |
    
-## Phone System
-
-|**Feature**|**Details**|
-|:-----|:-----|
-|Is Phone System available for purchase?  <br/> |Yes  <br/> |
-| Auto attendants <br/> |Available  <br/> |
-|Call queues  <br/> |Available  <br/> |
-|Voicemail  <br/> |Available  <br/> |
-   
 ## Calling Plans
 
 |**Feature**|**Details**|
@@ -76,7 +68,6 @@ If Calling Plans are not available to purchase, see [PSTN connectivity options](
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |No  <br/> |
    
-  
 ## Related topics
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)

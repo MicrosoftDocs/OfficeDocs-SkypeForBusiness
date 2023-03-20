@@ -3,6 +3,7 @@ title: Microsoft Teams deployment overview
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+ms.date: 01/26/2021
 ms.topic: article
 ms.service: msteams
 audience: admin

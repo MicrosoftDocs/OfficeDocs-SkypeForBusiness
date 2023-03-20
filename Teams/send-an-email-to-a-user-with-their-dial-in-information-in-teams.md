@@ -4,6 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 08/15/2018
 ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
@@ -30,8 +31,6 @@ Sometimes Microsoft Teams users may need you to send them their Audio Conferenci
   
 - The conference phone or dial-in phone number for the user.
 
-- The user's conference ID.
-
 Here is an example of the email that is sent:
 
 ![Example of a dial-in conferencing email message.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
@@ -56,8 +55,6 @@ Here is an example of the email that is sent:
   - When an **Audio Conferencing** license is assigned to them.
 
   - When you manually reset the user's audio conferencing PIN.
-
-  - When you manually reset the user's conference ID.
 
   - When an **Audio Conferencing** license is removed from them.
 

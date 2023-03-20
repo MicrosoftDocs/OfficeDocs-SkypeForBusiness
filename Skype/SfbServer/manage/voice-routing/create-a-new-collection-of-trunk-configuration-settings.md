@@ -1,4 +1,5 @@
 ---
+ms.date: 10/03/2018
 title: "Skype for Business Server: Create a new collection of trunk configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -58,3 +59,4 @@ When creating SIP trunk configuration settings usingSkype for Business Server Co
 5. The **State** property for the collection will be updated to **Uncommitted**. To commit the changes, and to delete the collection, click **Commit** and then click **Commit All**.
 6. In the **Uncommitted Voice Configuration Settings** dialog box, click **OK**.
 7. In the **Skype for Business Control Panel** dialog box, click **OK**.
+

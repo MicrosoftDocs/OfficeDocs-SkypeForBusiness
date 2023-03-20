@@ -11,6 +11,7 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rafarhi
+ms.date: 10/23/2017
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
+ms.date: 02/05/2021
 description: Manage user access to Education Insights in Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150

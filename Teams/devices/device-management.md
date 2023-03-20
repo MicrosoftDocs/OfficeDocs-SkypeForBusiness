@@ -5,12 +5,15 @@ ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: admin
 ms.reviewer: kelsawi
+ms.date: 08/31/2018
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
   - Teams_ITAdmin_Devices
+  - Tier1
 f1.keywords: 
   - CSH
 ms.custom: 

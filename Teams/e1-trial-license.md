@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 audience: Admin
 ms.reviewer: aytange
+ms.date: 03/02/2020
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high

@@ -11,6 +11,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-externalcollab
 ms.reviewer: rafarhi
+ms.date: 10/20/2017
 search.appverid: MET150
 ms.custom: 
   - NewAdminCenter_Update

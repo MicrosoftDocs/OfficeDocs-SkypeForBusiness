@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Enable Skype Meeting Broadcast"
 ms.author: tonysmit
 author: tonysmit
@@ -99,3 +100,4 @@ To skip this step and instead add another business to your federation, see [Allo
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
+

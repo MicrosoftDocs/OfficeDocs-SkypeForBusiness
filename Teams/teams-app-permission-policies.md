@@ -8,14 +8,14 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 09/29/2022
+ms.date: 02/23/2023
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn about app permission policies in Microsoft Teams and how to control apps availability for your end-users.
+description: Learn about app permission policies in Microsoft Teams and how to control apps availability for your users.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -88,7 +88,7 @@ The following are a few considerations when using app permissions policies to gr
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect.
 
-* An end-user cannot interact with any functionality of an app that the user is not allowed to use.
+* A user cannot interact with any functionality of an app that the user is not allowed to use.
 
 * Users can search for blocked apps and request admin approval. Admins retain complete control to [approve or ignore user requests](user-requests-approve-apps.md).
 

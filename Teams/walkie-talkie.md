@@ -100,7 +100,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 #### Headsets
 
 - Wireless headsets (iOS and Android)
-  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie) C300-XT and B450-XT
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 

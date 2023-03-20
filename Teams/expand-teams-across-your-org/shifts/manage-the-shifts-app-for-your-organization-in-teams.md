@@ -3,6 +3,7 @@ title: Manage the Shifts app for your organization
 author: samanro
 ms.author: samanro
 ms.reviewer: aaku
+ms.date: 09/26/2018
 manager: samanro
 ms.topic: conceptual
 audience: admin

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Director Web Service"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ You cannot override the internal Web Services pool fully qualified domain name (
   
 You can specify an external base URL that is different it from your internal base URL to differentiate domain naming. For example, your internal domain is `contoso.net`, but your external domain name is `contoso.com`. You would define the external base URL by using the `contoso.com domain name`. This is important for reverse proxy servers for an edge deployment. The external base URL domain name should be the same as the domain name of the FQDN of the reverse proxy. 
   
+
 

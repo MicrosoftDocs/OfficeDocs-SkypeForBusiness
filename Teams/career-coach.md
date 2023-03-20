@@ -3,6 +3,7 @@ title: Get started with Career Coach for Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 ms.reviewer: alaina.creager
+ms.date: 04/14/2021
 manager: serdars
 ms.topic: article
 audience: admin

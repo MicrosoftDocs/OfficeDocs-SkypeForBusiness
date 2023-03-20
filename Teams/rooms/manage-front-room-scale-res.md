@@ -3,17 +3,19 @@ title: Remotely configure layout, scale, and resolution on Teams Rooms displays
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 01/24/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - tier1
+  - Tier1
 description: Remotely configure the scale, resolution, and default layout of displays on Microsoft Teams Rooms systems.
 ---
 
@@ -72,4 +74,3 @@ To set the scale and resolution for your extended front of room display, add the
     <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
 </ExtendedFoRDisplay>  
 ```
-

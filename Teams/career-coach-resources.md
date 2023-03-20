@@ -3,6 +3,7 @@ title: Resources for Career Coach integration in Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 ms.reviewer: alaina.creager
+ms.date: 07/12/2022
 manager: serdars
 ms.topic: article
 audience: admin

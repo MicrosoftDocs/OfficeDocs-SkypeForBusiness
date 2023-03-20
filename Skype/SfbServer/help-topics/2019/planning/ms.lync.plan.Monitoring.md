@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype for Business Server Monitoring planning tool"
 ms.reviewer: 
 ms.author: serdars
@@ -22,3 +23,4 @@ description: "In Skype for Business Server, monitoring is used to collect usage 
 In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.
 
 For more details about planning for Monitoring Server, see [Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring).
+

@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
+ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 931c6b7a-3ea7-421f-a321-860da3e16273
 ms.tgt.pltfrm: cloud
@@ -41,15 +42,6 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for: <br/><ul><li>Manama</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
-## Phone System
-
-|**Feature**|**Details**|
-|:-----|:-----|
-|Is Phone System available for purchase?  <br/> |Yes  <br/> |
-| Auto attendants <br/> |Available  <br/> |
-|Call queues  <br/> |Available  <br/> |
-|Voicemail  <br/> |Available  <br/> |
-   
 ## Calling Plans
 
 |**Feature**|**Details**|
@@ -60,7 +52,6 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 
 If Calling Plans are not available to purchase, see [PSTN connectivity options](../pstn-connectivity.md) for all available options.
 
-   
 ## Toll and toll-free numbers for services
 
 |**Feature**|**Details**|
