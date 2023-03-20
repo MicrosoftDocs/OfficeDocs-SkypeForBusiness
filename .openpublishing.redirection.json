@@ -3051,6 +3051,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/teams-add-in-for-outlook.md",
+    "redirect_url": "https://support.microsoft.com/office/883cc15c-580f-441a-92ea-0992c00a9b0f",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md",
     "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
     "redirect_document_id": true
