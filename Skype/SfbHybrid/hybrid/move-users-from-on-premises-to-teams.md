@@ -1,4 +1,5 @@
 ---
+ms.date: 07/02/2018
 title: Move users from Skype for Business Server 2019 to Teams
 ms.author: crowe
 author: CarolynRowe
@@ -124,3 +125,4 @@ By default, the value of DownloadTeams is True; however, it's *only* honored if 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Coexistence with Skype for Business](/microsoftteams/coexistence-chat-calls-presence)
+

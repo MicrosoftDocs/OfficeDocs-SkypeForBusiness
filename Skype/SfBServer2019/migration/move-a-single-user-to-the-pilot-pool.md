@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Move a single user to the pilot pool"
 ms.reviewer: 
 ms.author: serdars
@@ -56,4 +57,5 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
     > [!NOTE]
     > For details about the **Get-CsUser** cmdlet, run: **Get-Help Get-CsUser -Detailed**
   
+
 

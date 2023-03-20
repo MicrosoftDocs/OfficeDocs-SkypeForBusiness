@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure a resource account in Skype for Business Server 2019"
 ms.author: crowe
 author: CarolynRowe

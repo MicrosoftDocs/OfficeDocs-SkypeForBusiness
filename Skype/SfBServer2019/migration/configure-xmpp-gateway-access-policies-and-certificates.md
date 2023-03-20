@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure XMPP gateway access policies and certificates"
 ms.reviewer: 
 ms.author: serdars
@@ -44,4 +45,5 @@ When you configure policies for support of XMPP federated partners, the policies
     
 8. Click **Commit** to save your changes to the site or user policy. 
     
+
 

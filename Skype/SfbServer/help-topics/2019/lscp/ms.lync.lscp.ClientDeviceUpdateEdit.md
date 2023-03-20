@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Device Log Configuration Edit"
 ms.reviewer: 
 ms.author: serdars
@@ -51,3 +52,4 @@ The following lists describe the menus, commands, fields, and properties on the 
 ## See also
 
 [Device Log Configuration](ms.lync.lscp.ClientDeviceCfgMain.md)
+

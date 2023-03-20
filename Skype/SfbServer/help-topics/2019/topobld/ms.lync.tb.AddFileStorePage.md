@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add File Store"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ To define a new file store, specify the following:
     
 - The name of the file share on the host server. The file share must exist before you publish the topology. 
     
+
 

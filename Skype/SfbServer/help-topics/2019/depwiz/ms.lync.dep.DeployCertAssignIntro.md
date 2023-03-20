@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Assignment (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "To begin assigning a certificate for use in Skype for Business Ser
  
 To begin assigning a certificate for use in Skype for Business Server, click **Next**.
   
+
 
