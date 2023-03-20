@@ -233,13 +233,13 @@ When viewing card content in Content search results, the content appears as an a
 > [!NOTE]
 > To display images from card content in search results at this time (such as the checkmarks in the previous screenshot), you have to be signed into Teams (at <https://teams.microsoft.com>) in a different tab in the same browser session that you use to view the search results. Otherwise, image placeholders are displayed.
 
-## eDiscovery in federated and non-federated environments
+## eDiscovery in external access and guest environments
 
-Admins can use eDiscovery to search for content in chats messages in a Teams meeting in federated (called *external access*) and non-federated (called *guest access*) environments based on the following restrictions:
+Admins can use eDiscovery to search for content in chats messages in a Teams meeting in external access and guest access environments based on the following restrictions:
 
-- **Federated**: In a Teams meeting with users from your organization and users from an external organization (who have external access in your organization), admins in both organizations can search for content in chat messages from the meeting.
+- **External access**: In a Teams meeting with users from your organization and users from an external organization where external attendees are using external access, admins in both organizations can search for content in chat messages from the meeting.
 
-- **Non-federated**: In a Teams meeting with users from your organization and guest users, only admins in the organization who hosts the Teams meeting can search for content in chat messages from the meeting.
+- **Guest**: In a Teams meeting with users from your organization and guests, only admins in the organization who hosts the Teams meeting can search for content in chat messages from the meeting.
 
 ## Related articles
 
