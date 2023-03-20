@@ -157,7 +157,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 ## What features are available?
 
-While all major areas will be available at the initial release of new Teams, it won't have the full functionality of classic Teams. We are working hard to continually add features. [Learn more about when features will be available](/microsoft-365/roadmap?rtc=1&filters=&searchterms=%22new%2CTeams%22)
+While all major areas will be available at the initial release of new Teams, it won't have the full functionality of classic Teams. We're working hard to continually add features. [Learn more about when features will be available](/microsoft-365/roadmap?rtc=1&filters=&searchterms=%22new%2CTeams%22)
 
 ## What features are changing?
 
@@ -165,14 +165,14 @@ As we improve the client, the experience has been improved to align with similar
 
 |Classic Teams|New Teams|
 |:-----|:-----|:-----|
-|Adding a Wiki to a channel|In the channel select the Notes app instead|
+|Adding a Wiki to a channel|In a channel, select the Notes app instead|
 |Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
-|Looking up an organizational chart while in a 1:1 chat  |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
-|Looking up LinkedIn while in a 1:1 chat   |   Click on a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
-|Add the DocLib app to tab in channels|Use the Sharepoint app instead|
+|Looking up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
+|Looking up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
+|Add the DocLib app to a tab in channels|Use the Sharepoint app instead|
 |Uploading content to a DocLib folder|Go to a specific folder and upload to SharePoint app|
 |Legacy web app companion (WAC) viewer|Use the OneUp viewer|
-|Allow users to follow another users presence and then notify them of availability|No longer available|
+|Allow users to follow a user's presence and then notify them of availability|No longer available|
 |Activity tab| No longer available|
 
 ## Known issues
@@ -201,12 +201,12 @@ Next, try signing out and back into the Teams desktop app.
 2. Select Sign out
 3. When the app relaunches, sign back in
 
-If you still don’t see the toggle, try this:
+If you still don’t see the toggle, try:
 
 1. Right-click on the Teams app icon in your taskbar and select Quit
 2. Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
 3. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
-4. Delete all contents of the folder (don’t worry, this won't delete the Teams app or affect any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
+4. Delete all contents of the folder (don’t worry,  Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
 5. Relaunch the Teams app, then right-click on the icon and select Quit
 6. Relaunch the Teams app one more time, and you should see the switcher.
 
@@ -239,7 +239,7 @@ Details: The meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
 - **Issue:** </br> Some meeting details won’t appear in new Teams.</br>
-Details: This includes forwards, "show as," and assigned meeting categories. 
+Details you won't see include forwards, "show as," and assigned meeting categories. 
 
 - **Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
 Workaround:  If you leave a meeting by accident, re-join.
