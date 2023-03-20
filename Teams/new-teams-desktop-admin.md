@@ -157,7 +157,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 ## What features are available?
 
-All functional areas will be available at the initial release of new Teams. 
+While all major areas will be available at the initial release of new Teams, it won't have the full functionality of classic Teams. We are working hard to continually add features. [Learn more about when features will be available](/microsoft-365/roadmap?rtc=1&filters=&searchterms=%22new%2CTeams%22)
 
 ## What features are changing?
 
