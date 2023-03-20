@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Topology Builder Startup Dialog"
 ms.reviewer: 
 ms.author: serdars
@@ -29,3 +30,4 @@ You start Topology Builder to configure the properties and configuration of your
     
 ![Topology Builder Startup Dialog.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   
+

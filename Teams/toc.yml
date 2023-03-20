@@ -608,8 +608,6 @@ items:
               items:
                 - name: Content sharing
                   href: meeting-policies-content-sharing.md
-                - name: Configure desktop sharing
-                  href: configure-desktop-sharing.md
                 - name: Who can present
                   href: meeting-who-present-request-control.md
             - name: Participant, guest, and access policies
@@ -680,8 +678,8 @@ items:
               href: meeting-recording.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
-            - name: Use the Teams Meeting add-in in Outlook
-              href: teams-add-in-for-outlook.md
+            - name: Teams Meeting add-in in Outlook
+              href: outlook-add-in-authentication-policy-requirements.md
             - name: Configure the Skype Meetings App to work with Teams
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up the Call me feature for your users
@@ -690,8 +688,6 @@ items:
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Manage Q&A in Teams Meetings
               href: manage-qna-for-teams.md
-            - name: Manage the Whiteboard in Teams
-              href: manage-whiteboard.md
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
             - name: Cloud Video Interop

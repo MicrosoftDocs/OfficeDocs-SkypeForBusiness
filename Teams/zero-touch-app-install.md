@@ -20,11 +20,11 @@ ms.collection:
 # Zero-touch App Install of Microsoft Teams apps by admins
 
 >[!NOTE]
-> The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available on your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+> The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available in your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
 
-Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps aren't aware that the same app functionality can be used as a Teams app. Using a Teams app allows the users to be more productive as the users work without switching context too often and with the added benefits of having unique Teams capabilities. Some such capabilities are in-context notifications and collaboration within Microsoft Teams.
+Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps may not be aware that the same app functionality is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. Some such unique capabilities are in-context notifications and collaboration within Microsoft Teams.
 
-If an admin enables the feature, Zero-touch App Install automatically adds admin-approved apps to Teams for the permitted users. It happens only after users have used Azure AD credentials to sign-in. The Zero-touch App Install feature automatically adds approved apps in the Teams clients of the permitted users. The functionality respects all app governance controls and only installs apps that the users have used outside Teams.
+If an admin enables the Zero-touch App Install feature, it automatically adds admin-approved apps to Teams for the permitted users. An app is added only after users use Azure Active Directory credentials to sign-in. The functionality respects all app governance controls and only installs an app if the users used it outside Teams.
 
 Admins can allow users to use Azure Active Directory identity to sign into apps outside Teams, for example in a web browser. The sign-in permission is used as an intelligent signal by the functionality to add the app for such users. The apps must be allowed by admins in their organization and the users must be allowed to use the app.
 

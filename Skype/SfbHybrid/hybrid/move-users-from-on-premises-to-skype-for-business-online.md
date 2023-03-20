@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Move users from on premises to Skype for Business Online"
 ms.author: crowe
 author: CarolynRowe
@@ -76,3 +77,4 @@ If the administrator account is MFA (Multi-Factor Authentication) enabled, do no
 ## See also
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
+

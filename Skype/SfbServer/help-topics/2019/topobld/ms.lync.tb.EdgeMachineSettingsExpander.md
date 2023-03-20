@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Edge Machine Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -42,4 +43,5 @@ Edit the external IP address that is assigned to the network interface for audio
   
 The setting for **NAT enabled public IP address used** is the public address used by the external interface for either the A/V network interface or the Edge Server in general. If the setting **Enable separate FQDN and IP address for web conferencing and A/V** is enabled, this public IP address is used for all three external interfaces.
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy paired Front End pools for disaster recovery in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -82,3 +83,4 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
 ## See also
 
 [Front End pool disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migration to Skype for Business Server 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -55,4 +56,5 @@ This article defines terms as specified in the following list.
     
 - [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md)
     
+
 

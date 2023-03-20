@@ -1,4 +1,5 @@
 ---
+ms.date: 11/05/2018
 title: "Disable hybrid to complete migration to Teams Only"
 ms.author: crowe
 author: CarolynRowe
@@ -105,4 +106,5 @@ Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 - [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
 

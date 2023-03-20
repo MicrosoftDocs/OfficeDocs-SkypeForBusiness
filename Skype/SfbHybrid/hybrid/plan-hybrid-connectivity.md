@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: Plan hybrid connectivity | Skype for Business Server and Teams 
 ms.author: crowe
 author: CarolynRowe
@@ -197,3 +198,4 @@ Computers on your network must be able to perform standard Internet DNS lookups.
 Depending on the location of your Microsoft Online Services data center, you must also configure your network firewall devices to accept connections based on wildcard domain names (for example, all traffic from \*.outlook.com). If your organization's firewalls do not support wildcard name configurations, you will have to manually determine the IP address ranges that you would like to allow and the specified ports.
 
 For more information, including details about ports and protocol requirements, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+
