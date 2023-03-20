@@ -137,6 +137,8 @@ You can click **View details** to see the teams’ names and the "sent message c
 
 By default, we show you details for the last 7 days.
 
+You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
+
 #### External collaboration activity by user
 
 The **External collaboration activity by user** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
@@ -151,6 +153,8 @@ You can click **View details** to see the users’ names and the "sent message c
 :::image type="content" source="media/external-collaboration-activity-by-user-detailed-report.png" alt-text="The detailed report - External collaboration activity by user." lightbox="media/external-collaboration-activity-by-user-detailed-report.png":::
 
 By default, we show you details for the last 7 days.
+
+You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
 
 #### Guest user activity
 
@@ -167,6 +171,8 @@ You can click **View details** to see the guest’s names and the "sent message 
 :::image type="content" source="media/guest-user-activity-detailed-report.png" alt-text="The detailed report - Guest user activity." lightbox="media/guest-user-activity-detailed-report.png":::
 
 By default, we show you details for the last 7 days.
+
+You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
 
 ### Notes
 
