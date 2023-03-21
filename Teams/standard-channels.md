@@ -30,7 +30,7 @@ In this article, we'll focus on standard channels, compare them to private and s
 By default, every team created in Microsoft Teams has a "**General**" channel. Standard channels are visible and accessible by all team members and designed to provide spaces for members to collaborate and communicate. Like private and shared channels, you can designate a standard channel to a specific article, project, or department.
 
 > [!TIP]
-Conversations and shared files in a standard channel are also searchable within the channel and across the team.
+> Conversations and shared files in a standard channel are also searchable within the channel and across the team.
 
 ## Features of standard, private and shared channels
 
