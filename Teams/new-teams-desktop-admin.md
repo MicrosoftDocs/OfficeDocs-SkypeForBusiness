@@ -1,5 +1,5 @@
 ---
-title:  Microsoft new Teams (preview)
+title:  The new Microsoft Teams desktop client
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -14,13 +14,16 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the preview of the new Microsoft Teams. Try out new features and provide feedback.
+description: Learn about the new Microsoft Teams desktop client. Try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# The new Microsoft Teams desktop client (preview)
+# The new Microsoft Teams desktop client 
+
+>[Note]
+>This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
 In this article:
 - [What is new Teams?](#what-is-new-teams)
@@ -29,7 +32,7 @@ In this article:
 - [What features are changing?](#what-features-are-changing)
 - [Known issues](#known-issues)
 
-This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
+
 
 >[!Important]
 >The new Teams client **is not** available to the following platforms or customer segments during the preview phase:
