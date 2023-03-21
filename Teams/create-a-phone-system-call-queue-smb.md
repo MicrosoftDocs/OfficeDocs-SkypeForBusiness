@@ -57,7 +57,7 @@ The steps to set up a call queue include:
 1. Set call overflow handling
 1. Set call timeout handling
 
-The steps outlined in this article for creating call queues uses the the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
+The steps outlined in this article for creating call queues use the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
 
 ## Follow these steps to set up your call queue
 
