@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Delete a site or user policy for external user access'
 ms.reviewer: 
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
@@ -64,3 +65,4 @@ External access policies can be deleted by using Windows PowerShell and the Remo
 
 
 For more information, see the help topic for the [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.
+

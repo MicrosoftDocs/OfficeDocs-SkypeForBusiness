@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Lync Online Dedicated-qualified solutoins"
 ms.author: serdars
 author: msdmaguire

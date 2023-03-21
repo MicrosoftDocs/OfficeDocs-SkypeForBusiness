@@ -1,4 +1,5 @@
 ---
+ms.date: 06/14/2018
 title: "Skype for Business certification program - ISV"
 ms.author: serdars
 author: msdmaguire
@@ -125,3 +126,4 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 |WORKSTREAMPEOPLE BV|Anywhere365 Reception Attendant|Attendant Console|
 |Zylinc|Attendant Console|Attendant Console|
 |Zylinc|Service Center|Contact Center|
+

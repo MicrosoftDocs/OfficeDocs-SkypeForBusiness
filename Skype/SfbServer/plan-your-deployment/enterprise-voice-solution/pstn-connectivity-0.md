@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for PSTN connectivity in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -46,4 +47,5 @@ Depending on its size, geographic coverage, and existing voice infrastructure, a
     
 - [Plan for outbound voice routing in Skype for Business Server](outbound-voice-routing.md)
     
+
 

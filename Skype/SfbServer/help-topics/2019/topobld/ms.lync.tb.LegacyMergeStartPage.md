@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Legacy Merge Start"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "To begin merging a legacy deployment with Skype for Business Serve
  
 To begin merging a legacy deployment with Skype for Business Server, click **Next**. 
   
+
 

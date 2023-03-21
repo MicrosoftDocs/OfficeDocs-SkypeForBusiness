@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define a gateway in Topology Builder in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -62,4 +63,5 @@ Follow these steps to use Topology Builder to define a peer with which you can a
     
 11. Right-click the **Skype for Business Server** node, and then click **Publish Topology**.
     
+
 

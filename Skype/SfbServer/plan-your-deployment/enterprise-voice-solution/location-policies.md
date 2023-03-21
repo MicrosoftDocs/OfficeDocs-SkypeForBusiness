@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan location policies for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -85,3 +86,4 @@ Specifies if the conference URI will be conferenced into the emergency call by u
  **Location Refresh Interval**
   
 Specifies the amount of time (in hours) between client requests for a location update from the Location Information service. The value can be set to any value between 1 and 12. The default value is 4.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Skype for Business Certification Program - Survivable branch appliances"
 ms.author: serdars
 author: msdmaguire
@@ -36,3 +37,4 @@ The following survivable branch appliances and relevant firmware have been indep
 |[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 1000|SBA V5.0.4 build 412 <br> SBA V6.1.0 build 457|
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available program details.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Lync: Phones and qualified devices - USB and video devices"
 ms.author: serdars
 author: msdmaguire
@@ -45,3 +46,4 @@ USB audio and video devices are tested and qualified for Lync through the [Compa
 - [Lync test specifications and tools](../certification/test-spec.md)
 
 All peripherals Optimized for Lync work with Lync 2013, Lync Online, and Lync Server 2010. 
+
