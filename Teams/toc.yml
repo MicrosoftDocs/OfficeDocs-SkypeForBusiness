@@ -614,8 +614,6 @@ items:
               items:
                 - name: Anonymous participants
                   href: anonymous-users-in-meetings.md
-                - name: Participants and guest policies
-                  href: meeting-policies-participants-and-guests.md
         - name: Compliant meetings
           items: 
             - name: Three tiers of protection overview
@@ -666,8 +664,6 @@ items:
               href: use-NDI-in-meetings.md
             - name: Teams meetings on unsupported browsers
               href: unsupported-browsers.md
-            - name: Configure desktop sharing in Teams
-              href: configure-desktop-sharing.md
             - name: Custom meeting backgrounds
               href: custom-meeting-backgrounds.md
             - name: Meeting themes
