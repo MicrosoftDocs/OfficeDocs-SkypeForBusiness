@@ -194,7 +194,7 @@ Teams created before activating an information barrier policy in your tenant are
 
 Use the [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open*, *Implicit*, and *Owner Moderated*.
 
-For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll use the following PowerShell command:
+For example, to configure the *Implicit* mode for a Microsoft 365 group, you'll use the following PowerShell command:
 
 ```powershell
 Set-UnifiedGroup -InformationBarrierMode Implicit
