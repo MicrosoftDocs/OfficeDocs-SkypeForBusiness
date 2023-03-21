@@ -452,6 +452,8 @@ items:
           href: teams-analytics-and-reports/teams-reporting-reference.md
         - name: Teams usage report
           href: teams-analytics-and-reports/teams-usage-report.md
+        - name: Collaboration activity reports
+          href: collaboration-activity-reports-ms-teams.md
         - name: Teams user activity report
           href: teams-analytics-and-reports/user-activity-report.md
         - name: Teams app usage report
