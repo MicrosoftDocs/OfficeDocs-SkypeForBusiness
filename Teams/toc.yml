@@ -666,8 +666,6 @@ items:
               href: use-NDI-in-meetings.md
             - name: Teams meetings on unsupported browsers
               href: unsupported-browsers.md
-            - name: Configure desktop sharing in Teams
-              href: configure-desktop-sharing.md
             - name: Custom meeting backgrounds
               href: custom-meeting-backgrounds.md
             - name: Meeting themes
