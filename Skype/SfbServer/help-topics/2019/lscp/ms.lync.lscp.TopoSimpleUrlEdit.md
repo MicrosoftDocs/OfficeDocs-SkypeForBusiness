@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Topology View Simple URL Detail"
 ms.reviewer: 
 ms.author: serdars

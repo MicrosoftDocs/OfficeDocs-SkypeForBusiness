@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Delete a PIN policy in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -67,3 +68,4 @@ You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPoli
   ```
 
 For more information, see the help topic for the [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) cmdlet.
+

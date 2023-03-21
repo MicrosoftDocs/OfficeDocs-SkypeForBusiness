@@ -8,10 +8,12 @@ ms.reviewer:
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

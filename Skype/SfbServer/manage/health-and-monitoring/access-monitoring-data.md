@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Access monitoring data in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -26,4 +27,5 @@ As noted, Monitoring Reports requires the use of SQL Server Reporting Service. S
   
 For more information, see the topic [Install Monitoring Reports in Skype for Business Server](../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
+
 

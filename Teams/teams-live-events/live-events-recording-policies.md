@@ -65,4 +65,4 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 - [What is Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
-- [Teams clouds meeting recording](../cloud-recording.md)
+- [Teams clouds meeting recording](../meeting-recording.md)

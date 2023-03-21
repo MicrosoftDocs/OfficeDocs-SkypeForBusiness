@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Lync: Partner qualification"
 ms.author: serdars
 author: msdmaguire
@@ -138,3 +139,4 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 </table>
 
 For more information on Survivable Branch Appliance configurations with Lync Server, see <a href="/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->
+

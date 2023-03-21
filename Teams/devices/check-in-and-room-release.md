@@ -6,6 +6,7 @@ manager: serdars
 ms.reviewer: gary.lai
 ms.date: 03/01/2022
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -14,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 ms.topic: reference
 search.appverid: MET150
 description: This article provides guidance on how to enable check-in and room release Teams panels devices.
