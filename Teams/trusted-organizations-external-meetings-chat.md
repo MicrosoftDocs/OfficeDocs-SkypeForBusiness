@@ -263,6 +263,16 @@ See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchp
 
 ---
 
+## Compliance and external access
+
+See the following references to understand how external access works with Microsoft 365 compliance features.
+
+- [eDiscovery in external access and guest environments](/microsoftteams/ediscovery-investigation#ediscovery-in-external-access-and-guest-environments)
+- [Message retention with external access users](/microsoft-365/compliance/retention-policies-teams#messages-and-external-users)
+- [Data loss prevention and Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams)
+
 ## Related topics
 
 [Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
+
+[Search the audit log for events in Microsoft Teams](audit-log-events.md)
