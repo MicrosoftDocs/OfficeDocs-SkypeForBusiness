@@ -31,13 +31,12 @@ In this article:
 
 This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
-**Important:** The new Teams client **is not** available to the following platforms or customer segments during the preview phase:
+>[!Important]
+>The new Teams client **is not** available to the following platforms or customer segments during the preview phase:
+>Platforms:  Mac, VDI, Web
+>Customer segments: Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
-|Platforms|Customer segments|
-|:-----|:-----|
-|Mac</br>VDI</br>Web|Special cloud (GCC High, DoD, Gallatin, Air-gapped)</br>Consumer</br>Desktop running Windows 10 version 10.0.19041 or earlier
-
-## What is new Teams?
+## What is the new Teams?
 
 Reimagined from the ground up with a performance-first mindset, the new Teams client provides a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
@@ -175,7 +174,7 @@ As we improve the client, the experience has been improved to align with similar
 |Uploading content to a DocLib folder|Go to a specific folder and upload to SharePoint app|
 |Legacy web app companion (WAC) viewer|Use the OneUp viewer|
 |Allow users to follow a user's presence and then notify them of availability|No longer available|
-|Activity tab| No longer available|
+|Activity tab in chat| No longer available|
 
 ## Known issues
 
