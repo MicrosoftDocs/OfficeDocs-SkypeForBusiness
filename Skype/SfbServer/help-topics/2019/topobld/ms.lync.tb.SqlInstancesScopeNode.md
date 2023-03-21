@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "SQL Instances Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -31,4 +32,5 @@ In addition to the SQL Server database options, you can perform the following ge
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

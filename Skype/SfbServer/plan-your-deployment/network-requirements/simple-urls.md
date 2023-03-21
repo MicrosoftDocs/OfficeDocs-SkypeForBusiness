@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "DNS requirements for simple URLs in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -126,5 +127,6 @@ HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/
 ```
 
 For internal access, you must monitor port 5061 on the internal web FQDN or load balancer IP address for the two pools. If any connectivity failures are detected, the VIP for these pools must close ports 80, 443 and 4443.
+
 
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Configuring port ranges and a Quality of Service policy for your clients'
 ms.reviewer: 
 ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
@@ -257,3 +258,4 @@ After creating and configuring the new registry value, you will need to reboot y
 ## See also
 
 [Create a Group Policy Object in Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+

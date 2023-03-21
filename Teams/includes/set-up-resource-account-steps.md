@@ -80,3 +80,4 @@ To assign a Direct Routing or hybrid number to a resource account, you need to u
 ```powershell
 Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
 ```
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Reset the Audio Conferencing PIN in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -103,3 +104,4 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
 ## Related topics
 
 [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md)
+
