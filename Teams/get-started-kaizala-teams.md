@@ -28,11 +28,11 @@ Open the door to an entirely new way of doing business with Microsoft Teams. Tea
 
 Teams improves workplace collaboration by helping organizations move from an array of disparate apps to a single, secure hub that brings together what teams need, including chat, meetings, and calling, all with native integration to the Office 365 apps. Currently, organizations worldwide use Teams to collaborate across locations, time zones, and languages.
 
-Microsoft Teams will be replacing Kaizala as the primary communication client in Microsoft 365 for both internal employees and people in your extended networks.
+Microsoft Teams is replacing Kaizala as the primary communication client in Microsoft 365 for both internal employees and people in your extended networks.
 
 Kaizala Pro capabilities are now available in Teams and include Kaizala actions that are now available as Teams [app templates](/microsoftteams/platform/samples/app-templates), such as [polls](/microsoftteams/platform/samples/app-templates#poll), [surveys](/microsoftteams/platform/samples/app-templates#survey), [checklists](/microsoftteams/platform/samples/app-templates#checklist), [quizzes](/microsoftteams/platform/samples/app-templates#quiz--), and [training](/microsoftteams/platform/samples/app-templates#training--). We've recently released the capability for any Teams users to interact with external users through their phone numbers. View the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) and [article](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) to learn more.
 
-Enabling every member of an organization’s network with digital communication and collaboration tools can transform the way work gets done. This overview will help you start your transition from Kaizala to Microsoft Teams today.
+Enabling every member of an organization’s network with digital communication and collaboration tools can transform the way work gets done. This overview helps you start your transition from Kaizala to Microsoft Teams today.
 
 ## Move from Kaizala to Microsoft Teams
 
@@ -46,7 +46,7 @@ This section provides information regarding the migration from Kaizala to Micros
 
 SMB users can move from Kaizala to Teams Essentials, a component of Microsoft Teams, by subscribing to [Microsoft Teams Essentials](https://www.microsoft.com/microsoft-teams/essentials).
 
-Teams Essentials is an affordable and professional meeting solution designed with small businesses, such as restaurants, retailers, professional services, in mind. This solution enables communication and collaboration in an easy and reliable way.
+Teams Essentials is an affordable and professional meeting solution designed with small businesses, such as restaurants, retailers, professional services, in mind. This solution enables communication and collaboration in an easy and reliable way. For more information on Microsoft Teams Essentials and how to get started with it, see [Microsoft Teams Essentials QuickStart guide for small businesses](get-started-with-teams-essentials.md).
 
 ### Enterprise users
 
@@ -58,7 +58,7 @@ Microsoft Teams for Work provides the most productive and secure experience, all
 
 Consumers can move from Kaizala to the free app, namely [Microsoft Teams (free)](https://www.microsoft.com/microsoft-teams/free).
 
-Get started with Microsoft Teams (Free), which includes built-in online meetings and audio and video calling, seamless file sharing, and the ability to communicate and collaborate inside and outside your organization.
+Get started with Microsoft Teams (Free), which includes built-in online meetings and audio and video calling, seamless file sharing, and the ability to communicate and collaborate inside and outside your organization. For more information on Microsoft Teams (Free), see [Introduction to Microsoft Teams](https://www.youtube.com/watch?v=UoWHXrmIszg).
 
 ## FAQ
 
