@@ -75,17 +75,15 @@ Security desk notification is available with both Microsoft Calling Plans, Opera
 
 During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification. If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
 
-You use the TeamsEmergencyCallingPolicy ([Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute.
+An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
-To create a security desk notification to select groups and users that are conferenced in and muted but with the ability to unmute, run this script:
+- If an emergency calling policy is associated with a network site, then the site policy is used to configure security desk notification.
 
-```powershell
-Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationMode ConferenceUnMuted -NotificationGroup "group1@contoso.com;group2@contoso.com;user1@contoso.com;user2@contoso.com"
-```
+- If there is no emergency calling policy associated with the site, or if the client is connected at an undefined site, then the emergency calling policy associated with the user account is used to configure security desk notification.
 
-You can also specify an external PSTN number of a user or group to call and join the emergency call with the `-NotificationDialOutNumber` parameter and [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy) cmdlet. Note that the PSTN party is not allowed to unmute.
+- If the Teams client is unable to obtain an emergency calling policy, then the user is not enabled for security desk notification.
 
-To enable these security desk notification features in the Teams admin center, do the following:
+To enable security desk notification features in the Teams admin center, do the following:
 
 1. In the Teams admin center, select **Voice** > **Emergency policies**.
 1. Under the **Calling policies** section, either create a new policy or choose an existing policy to update.
@@ -99,15 +97,17 @@ To enable these security desk notification features in the Teams admin center, d
     - Numbers to dial for emergency calls notifications
     - Users and groups for emergency calls notifications
   
-1. Hit **Apply** once you are done.
+1. Hit **Apply** once you're done.
 
-An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
+Using Microsoft PowerShell, you use the TeamsEmergencyCallingPolicy ([Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute.
 
-- If an emergency calling policy is associated with a network site, then the site policy is used to configure security desk notification.
+To create a security desk notification to select groups and users that are conferenced in and muted but with the ability to unmute, run this script:
 
-- If there is no emergency calling policy associated with the site, or if the client is connected at an undefined site, then the emergency calling policy associated with the user account is used to configure security desk notification.
+```powershell
+Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationMode ConferenceUnMuted -NotificationGroup "group1@contoso.com;group2@contoso.com;user1@contoso.com;user2@contoso.com"
+```
 
-- If the Teams client is unable to obtain an emergency calling policy, then the user is not enabled for security desk notification.
+You can also specify an external PSTN number of a user or group to call and join the emergency call with the `-NotificationDialOutNumber` parameter and [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy) cmdlet. Note that the PSTN party is not allowed to unmute.
 
 ### Create a custom emergency service disclaimer
 
@@ -118,6 +118,7 @@ To create a custom emergency service disclaimer in the Teams admin center, do th
 1. In the Teams admin center, select **Voice** > **Emergency policies**.
 1. Under the **Calling policies** section, either create a new policy or choose an existing policy to update.
 1. Once you have selected a policy, the **Emergency calling policy** pane will open. For  **Emergency service disclaimer**, enter a string message to be displayed to users. This field is optional when setting up a custom policy; the string field is limited to 250 characters.
+1. Hit **Apply** once you're done.
 
 To create this custom emergency disclaimer with PowerShell, run the following script:
 
