@@ -1102,6 +1102,14 @@ items:
       items: 
         - name: Overview
           href: what-are-emergency-locations-addresses-and-call-routing.md
+        - name: Calling Plan considerations
+          href: considerations-calling-plan.md
+        - name: Operator Connect considerations
+          href: considerations-operator-connect.md
+        - name: Teams phone mobile considerations
+          href: considerations-teams-phone-mobile.md
+        - name: Direct Routing considerations
+          href: considerations-direct-routing.md
         - name: Configure dynamic emergency calling
           href: configure-dynamic-emergency-calling.md
         - name: Emergency addresses for remote locations
