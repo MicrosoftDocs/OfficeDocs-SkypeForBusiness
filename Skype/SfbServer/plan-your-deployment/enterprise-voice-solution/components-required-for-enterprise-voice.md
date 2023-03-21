@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Components required for Enterprise Voice in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -38,4 +39,5 @@ To deploy Enterprise Voice, the following components are required in your topolo
     
 - Additionally, some Enterprise Voice components run on Front End Servers. For details about these components, see [Front End Server VoIP components for Skype for Business Server](front-end-server-voip.md)
     
+
 

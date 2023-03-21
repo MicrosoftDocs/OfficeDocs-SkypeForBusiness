@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Remove Deployment"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ Click **Finish** to create an empty topology as the first step in decommissionin
 > [!CAUTION]
 > You cannot undo this step. 
   
+
 

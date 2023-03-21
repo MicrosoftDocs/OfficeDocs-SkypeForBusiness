@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Configure presence in Skype for Business Online"
 ms.reviewer: 
 ms.author: tonysmit
@@ -59,3 +60,4 @@ For information about what your users can change in Skype for Business, see thes
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+

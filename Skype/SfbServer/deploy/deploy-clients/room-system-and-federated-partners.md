@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype Room System and Skype for Business federated partners"
 ms.author: serdars
 author: SerdarSoysal
@@ -30,3 +31,4 @@ Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
 After TNEF is enabled for the remote organization, any message sent over the Internet to the organization is sent as an attachment in TNEF format. With TNEF enabled, when a Skype for Business meeting request is sent to the Skype for Business federated partner, Skype Room System will be able to render the Join Skype for Business Meeting and remote users will be able to join Skype for Business meetings. 
+

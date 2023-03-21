@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add NextHop Trusted Application Server"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ In the **Next Hop pool** drop-down list, select the Enterprise Edition pool or S
   
 Click **Finish** to complete the Trusted Application pool creation.
   
+
 

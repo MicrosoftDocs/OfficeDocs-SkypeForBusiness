@@ -1,4 +1,5 @@
 ---
+ms.date: 10/02/2018
 title: "Skype for Business Server: Inter-trunk routing"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ The following figure illustrates Skype for Business Server providing interconnec
 The next figure illustrates Skype for Business Server connecting two IP-PBX systems.
 
 ![Skype for Business Server connecting two IP-PGX systems.](../../media/two-ip-pbx-systems.jpg)
+
 
