@@ -56,17 +56,17 @@ All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
 
-- Buy a Teams Essentials with AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and add **Teams Phone with Calling Plan** bundle licenses.
+- Buy a Teams Essentials with AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and then buy **Teams Phone with Calling Plan** bundle licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
   - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
   - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Buy a Teams Essentials with AAD, E1/E3, A1/A3, F1/F3, or G1/G3 plan, add **Teams Phone Standard** licenses, and choose a Microsoft standalone calling plan or third-party PSTN carrier.
+- Buy a Teams Essentials with AAD, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** licenses, and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
   - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
   - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
   - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 
-- Buy an E5/A5/G5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
+- Buy an E5/A5/G5 plan and buy **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
   - The Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
 Here's a summary of which Microsoft voice and calling licenses to purchase, based on Microsoft 365 plan:
@@ -93,6 +93,10 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 </tbody>
 </table>
 
+For instructions on how to buy licenses in the Microsoft 365 admin center, see [Buy or remove licenses](/microsoft-365/commerce/licenses/buy-licenses).
+
+After you've purchased licenses, you'll need to assign them to your users. For more information, see [Assign Teams add-on licenses](assign-teams-add-on-licenses.md).
+
 ## Unassign licenses from users
 
 You have two ways to remove users' access to certain products: unassign product licenses from specific users or unassign user licenses from a specific product.
@@ -118,3 +122,4 @@ Need to talk to someone about the add-on options? [Contact support for business 
 - [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
 - [Manage user access to Teams](../user-access.md)
 - [Teams service description](/office365/servicedescriptions/teams-service-description)
+
