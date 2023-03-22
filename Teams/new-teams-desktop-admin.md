@@ -47,7 +47,11 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 
 ## How to roll out new Teams
 
+
+
 As an admin, you can manage which users in your organizations see or don't see the "Try the new Teams" toggle to use the new Teams.
+
+:::image type="content" source="media/new-teams-toggle.png" alt-text="new teams toggle":::
 
 To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
