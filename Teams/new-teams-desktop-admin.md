@@ -176,9 +176,8 @@ As we improve the client, the experience has been improved to align with similar
 |Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
 |Looking up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Looking up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
-|Add the DocLib app to a tab in channels|Use the Sharepoint app instead|
+|Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add document library from there as a tab to the channel. Existing document libraries will automatically get converted to a SharePoint document library on first use.|
 |Uploading content to a DocLib folder|Go to a specific folder and upload to SharePoint app|
-|Legacy web app companion (WAC) viewer|Use the OneUp viewer|
 |Allow users to follow a user's presence and then notify them of availability|No longer available|
 |Activity tab in chat| No longer available|
 
