@@ -217,7 +217,7 @@ If you still don’t see the toggle, try:
 5. Relaunch the Teams app, then right-click on the icon and select Quit
 6. Relaunch the Teams app one more time, and you should see the switcher.
 
-If these steps don’t work, reach out to the Global Helpdesk.
+
 
 ### General
 
@@ -227,9 +227,8 @@ Details: The organization tab has moved to a person's Microsoft 365 contact card
 ### Accessibility
 
 - **Issue:** </br>There may be accessibility gaps between new and classic Teams.
-If you discover any accessibility gaps, please select the ellipsis (...) > Help > Report a problem in the Teams desktop app. This will alert the product group to the issue.
+If you discover any accessibility gaps, select **Give Feedback**.
 
-If you would like a response or the issue is impacting your work, please contact the Global Helpdesk.
 
 ### Calls
 
@@ -237,9 +236,6 @@ If you would like a response or the issue is impacting your work, please contact
 Workaround/details: The product group is working to resolve this issue.
 
 ### Meetings
-
-- **Issue:** </br>When a meeting starts, you won’t receive a Teams notification with an option to join (for example, a meeting-start notification).</br>
-Workaround/details: ​Join the meeting from your Teams calendar (or chat/channel) or Outlook.
 
 - **Issue:** </br>When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
 Details: The meeting attendees may see preview content in those notifications.
@@ -260,14 +256,11 @@ Details:  When you disable attendee mic/camera for a meeting, attendees will sti
 - **Issue:** </br> Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
 Details: ​The product group is investigating this issue.
 
-### Messaging
-
-- **Issue:** </br>Compose box isn't defaulting to typing field once switching to Chat. Workaround:  Select to start typing. 
 
 ### Multi-Tenant Multi-Account (MTMA)
 
 - **Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
-Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
+Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 ### Notifications
 
