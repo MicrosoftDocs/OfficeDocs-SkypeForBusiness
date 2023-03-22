@@ -173,7 +173,7 @@ As we improve the client, the experience has been improved to align with similar
 |Classic Teams|New Teams|
 |:-----|:-----|:-----|
 |Adding a Wiki to a channel|In a channel, select the Notes app instead|
-|Ability to add third party cloud storage|Refer to the Cloud storage partner program (CSPP)|
+|Ability to add third party cloud storage|Use the Teams app from From your third party cloud provider to collaborate with files in Teams. Teams admins also can turn off native OneDrive and SharePoint file entry points. Learn more at [Turn off Teams nave file upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)|
 |Looking up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Looking up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add document library from there as a tab to the channel. Existing document libraries will automatically get converted to a SharePoint document library on first use.|
