@@ -467,6 +467,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.15.0.40 ` | 2022 Update #4A |
 |Logitech Tap Scheduler | `1.8.184` |2022 Update #4A  |
 |Crestron Touchpanel /770-T/1070-T | `2.003.1024.001` | 2022 Update #4|
 |Neat Pad Panel | `NFA1.20221128.0005` | 2022 Update #4  |
