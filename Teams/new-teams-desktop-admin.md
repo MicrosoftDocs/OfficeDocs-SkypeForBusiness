@@ -165,7 +165,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 While many of the features you're familiar with in classic Teams are already in the new experience,  others—like avatars and app notifications—are still being worked on. </br>
 
-[**Follow our release roadmap for the latest information on upcoming features for the new Teams**](/microsoft-365/roadmap?rtc=1&filters=&searchterms=%22new%2CTeams%22).
+[**Follow our release roadmap for the latest information on upcoming features for the new Teams**](/adoption-dev.azurewebsites.net/en-us/dev/new-microsoft-teams).
 
 ## What features are changing?
 
