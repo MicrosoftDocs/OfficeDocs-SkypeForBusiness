@@ -54,7 +54,7 @@ As an admin, you can manage which users in your organizations see or don't see t
 
 To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
-Manage this setting in the **Teams admin center** or using **Teams PowerShell**.
+Manage this setting in the **Teams admin center** or using **Teams PowerShell**.</br>
 
 # [**Teams Admin Center**](#tab/teams-admin-center)
 
