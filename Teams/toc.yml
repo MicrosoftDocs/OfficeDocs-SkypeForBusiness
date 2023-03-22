@@ -590,30 +590,54 @@ items:
       items:
         - name: Quick start 
           href: quick-start-meetings-live-events.md
-        - name: Manage meeting policies
+        - name: Manage meetings settings
+          href: meeting-settings-in-teams.md
+        - name: Meeting policies overview
+          href: meeting-policies-overview.md
+        - name: Presenter & organizer experience
           items: 
-            - name: Overview
-              href: meeting-policies-overview.md
-            - name: Audio and video policies
-              href: meeting-policies-audio-and-video.md
-            - name: Configure transcription and captions for Teams meetings
-              href: meeting-transcription-captions.md
+            - name: Manage who can start and schedule meetings
+              href: manage-who-can-schedule-meetings.md
+            - name: Get a meeting attendance report
+              href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
               href: who-can-bypass-meeting-lobby.md
-            - name: Island mode
-              href: meeting-provider-islands-mode.md
+            - name: Content sharing
+              href: meeting-policies-content-sharing.md
+            - name: Who can present
+              href: meeting-who-present-request-control.md
+            - name: Anonymous participants
+              href: anonymous-users-in-meetings.md
             - name: Speaker coach
               href: meeting-speaker-coach.md
-            - name: Content and screen sharing policies
-              items:
-                - name: Content sharing
-                  href: meeting-policies-content-sharing.md
-                - name: Who can present
-                  href: meeting-who-present-request-control.md
-            - name: Participant, guest, and access policies
-              items:
-                - name: Anonymous participants
-                  href: anonymous-users-in-meetings.md
+        - name: Attendee experience
+          items: 
+            - name: Manage Q&A in Teams Meetings
+              href: manage-qna-for-teams.md
+            - name: Meeting chat
+              href: manage-meeting-chat.md
+            - name: Reactions
+              href: manage-reactions-meetings.md
+            - name: Enable users to record their name when they join a meeting
+              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+            - name: Turn on or off entry and exit announcements for meetings
+              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+            - name: Emails sent to users when their settings change
+              href: emails-sent-to-users-when-their-settings-change-in-teams.md
+            - name: Set up the Call me feature for your users
+              href: set-up-the-call-me-feature-for-your-users.md
+            - name: View-only meeting experience
+              href: view-only-meeting-experience.md
+            - name: Stream Teams meetings
+              href: stream-teams-meetings.md
+        - name: Standardized meetings
+          items: 
+            - name: Custom meeting backgrounds
+              href: custom-meeting-backgrounds.md
+            - name: Meeting themes
+              href: meeting-themes.md
+            - name: Virtual appointment meeting template
+              href: virtual-appointment-meeting-template.md
         - name: Compliant meetings
           items: 
             - name: Three tiers of protection overview
@@ -648,59 +672,38 @@ items:
                   href: manage-meeting-templates.md
             - name: Use templates, labels, and policies together
               href: meeting-templates-sensitivity-labels-policies.md
-        - name: Manage who can start and schedule meetings
-          href: manage-who-can-schedule-meetings.md
-        - name: Manage meetings settings
-          href: meeting-settings-in-teams.md
-        - name: Emails sent to users when their settings change
-          href: emails-sent-to-users-when-their-settings-change-in-teams.md
-        - name: Manage meetings and meeting features
+        - name: Audio & video
           items:
-            - name: Enable users to record their name when they join a meeting
-              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: Turn on or off entry and exit announcements for meetings
-              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+            - name: Audio and video policies
+              href: meeting-policies-audio-and-video.md
             - name: Use NDI® technology in Teams
               href: use-NDI-in-meetings.md
-            - name: Teams meetings on unsupported browsers
-              href: unsupported-browsers.md
-            - name: Custom meeting backgrounds
-              href: custom-meeting-backgrounds.md
-            - name: Meeting themes
-              href: meeting-themes.md
-            - name: Virtual appointment meeting template
-              href: virtual-appointment-meeting-template.md
+            - name: Cloud Video Interop
+              href: cloud-video-interop.md
+        - name: Recording & transcription
+          items:
             - name: Teams meeting recording
               href: meeting-recording.md
+            - name: Configure transcription and captions for Teams meetings
+              href: meeting-transcription-captions.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
+        - name: Integration
+          items:
             - name: Teams Meeting add-in in Outlook
               href: outlook-add-in-authentication-policy-requirements.md
             - name: Configure the Skype Meetings App to work with Teams
               href: configure-skype-meetings-app-to-work-with-teams.md 
-            - name: Set up the Call me feature for your users
-              href: set-up-the-call-me-feature-for-your-users.md
-            - name: Get a meeting attendance report
-              href: teams-analytics-and-reports/meeting-attendance-report.md
-            - name: Manage Q&A in Teams Meetings
-              href: manage-qna-for-teams.md
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
-            - name: Cloud Video Interop
-              href: cloud-video-interop.md
-            - name: View-only meeting experience
-              href: view-only-meeting-experience.md
-            - name: Stream Teams meetings
-              href: stream-teams-meetings.md
-            - name: Meeting chat
-              href: manage-meeting-chat.md
-            - name: Reactions
-              href: manage-reactions-meetings.md
+            - name: Island mode
+              href: meeting-provider-islands-mode.md
+            - name: Teams meetings on unsupported browsers
+              href: unsupported-browsers.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up webinars
           href: set-up-webinars.md
-
         - name: Live events
           items: 
             - name: What are Teams live events?
@@ -1141,61 +1144,6 @@ items:
         - name: Auto attendants and call queues
           href: voice-case-study-call-queues.md
   
-    - name: Guidance for small and medium businesses
-      items: 
-      - name: Phone System guidance
-        href: business-voice/whats-business-voice.md
-      - name: Move from Business Voice to Teams Phone licenses
-        href: business-voice-to-teams-phone-licenses.md
-      - name: Country and region availability
-        href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: Check your internet connection
-        href: business-voice/get-ready-internet.md
-      - name: Get help from a reseller or partner
-        href: business-voice/reseller-partner-support.md
-      - name: Set up Phone System
-        items:
-          - name: Overview
-            href: business-voice/set-up-overview.md
-          - name: "Step 1: Set up emergency locations"
-            href: business-voice/set-up-emergency-locations.md
-          - name: "Step 2: Set up phone numbers"
-            href: business-voice/set-up-phone-numbers.md
-          - name: "Step 3: Assign licenses"
-            href: business-voice/set-up-licenses.md
-          - name: "Step 4: Set up a resource account"
-            href: business-voice/set-up-resource-account.md
-          - name: "Step 5: Assign phone numbers to users"
-            href: business-voice/set-up-assign-numbers.md
-          - name: "Step 6: Set up an auto attendant"
-            href: create-a-phone-system-auto-attendant-smb.md
-          - name: "Step 7: Port phone numbers (optional)"
-            href: business-voice/port-phone-numbers.md
-          - name: "Post-setup resources"
-            href: business-voice/set-up-finish.md
-      - name: Customize your Phone System setup
-        items: 
-          - name: Customization options
-            href: business-voice/customize-business-voice.md
-          - name: Set up calling policies
-            href: business-voice/set-up-policies.md
-          - name: Manage policy packages
-            href: business-voice/policy-packages.md
-          - name: Create more users
-            href: business-voice/create-users.md
-          - name: Set up a call queue
-            href: create-a-phone-system-call-queue-smb.md
-      - name: Manage your Phone System setup
-        items: 
-          - name: Manage devices
-            href: business-voice/manage-devices.md
-          - name: Monitor call quality
-            href: business-voice/monitor-quality.md
-          - name: Call Quality Dashboard
-            href: business-voice/analytics-dashboard.md
-      - name: Partner resources
-        href: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
-
     - name: Reference
       items: 
         - name: Country phone number management
