@@ -33,11 +33,11 @@ In this article:
 - [Known issues](#known-issues)
 
 
-
 >[!Important]
->The new Teams client **is not** available to the following platforms or customer segments during the preview phase:
->Platforms:  Mac, VDI, Web
->Customer segments: Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
+>The new Teams client **is not** available for the following during the preview phase:
+>
+>**Platforms:**  Mac, VDI, Web
+>**Customer segments:** Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 ## What is the new Teams?
 
