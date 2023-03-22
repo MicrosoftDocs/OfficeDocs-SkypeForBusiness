@@ -46,6 +46,10 @@ Reimagined from the ground up with a performance-first mindset, the new Teams cl
 
 New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
+## System requirements
+
+
+
 ## How to roll out new Teams
 
 As an admin, you can manage which users in your organizations see or don't see the "Try the new Teams" toggle to use the new Teams.
@@ -191,7 +195,7 @@ There are a few known issues we're working on.
 - **Issue:** </br>After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
 Receiving this message is expected behavior. Go ahead and select the link to restart.
 
-- **Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.
+- **Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.</br>
 Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
 - **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com isn't yet supported.
