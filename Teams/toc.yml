@@ -1144,61 +1144,6 @@ items:
         - name: Auto attendants and call queues
           href: voice-case-study-call-queues.md
   
-    - name: Guidance for small and medium businesses
-      items: 
-      - name: Phone System guidance
-        href: business-voice/whats-business-voice.md
-      - name: Move from Business Voice to Teams Phone licenses
-        href: business-voice-to-teams-phone-licenses.md
-      - name: Country and region availability
-        href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: Check your internet connection
-        href: business-voice/get-ready-internet.md
-      - name: Get help from a reseller or partner
-        href: business-voice/reseller-partner-support.md
-      - name: Set up Phone System
-        items:
-          - name: Overview
-            href: business-voice/set-up-overview.md
-          - name: "Step 1: Set up emergency locations"
-            href: business-voice/set-up-emergency-locations.md
-          - name: "Step 2: Set up phone numbers"
-            href: business-voice/set-up-phone-numbers.md
-          - name: "Step 3: Assign licenses"
-            href: business-voice/set-up-licenses.md
-          - name: "Step 4: Set up a resource account"
-            href: business-voice/set-up-resource-account.md
-          - name: "Step 5: Assign phone numbers to users"
-            href: business-voice/set-up-assign-numbers.md
-          - name: "Step 6: Set up an auto attendant"
-            href: create-a-phone-system-auto-attendant-smb.md
-          - name: "Step 7: Port phone numbers (optional)"
-            href: business-voice/port-phone-numbers.md
-          - name: "Post-setup resources"
-            href: business-voice/set-up-finish.md
-      - name: Customize your Phone System setup
-        items: 
-          - name: Customization options
-            href: business-voice/customize-business-voice.md
-          - name: Set up calling policies
-            href: business-voice/set-up-policies.md
-          - name: Manage policy packages
-            href: business-voice/policy-packages.md
-          - name: Create more users
-            href: business-voice/create-users.md
-          - name: Set up a call queue
-            href: create-a-phone-system-call-queue-smb.md
-      - name: Manage your Phone System setup
-        items: 
-          - name: Manage devices
-            href: business-voice/manage-devices.md
-          - name: Monitor call quality
-            href: business-voice/monitor-quality.md
-          - name: Call Quality Dashboard
-            href: business-voice/analytics-dashboard.md
-      - name: Partner resources
-        href: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
-
     - name: Reference
       items: 
         - name: Country phone number management
@@ -1506,6 +1451,8 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
+            - name: Find user licenses
+              href: rooms/license-check.md
     - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
