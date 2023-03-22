@@ -172,7 +172,7 @@ As we improve the client, the experience has been improved to align with similar
 
 |Classic Teams|New Teams|
 |:-----|:-----|:-----|
-|Purple app notifications|You will no longer see the purple "toast" notifications, and the taskbar icon will behave a little different.Notifications will be via Windows notifications to provide a consistent experience.|
+|Purple app notifications|You will no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|In a channel, select the Notes app instead|
 |Ability to add third party cloud storage|Use the Teams app from your third party cloud provider to collaborate with files in Teams. Note:  Teams admins also can turn off native OneDrive and SharePoint file entry points. Learn more at [Turn off Teams nave file upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
@@ -193,7 +193,6 @@ Receiving this message is expected behavior. Go ahead and select the link to res
 
 - **Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.
 Download and install WebView2 Runtime. After you’ve finished, restart the Teams desktop app and try again.
-
 
 - **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com isn't yet supported.
 Use your primary Azure account name (your alias) to sign into new Teams.
