@@ -194,7 +194,6 @@ Receiving this message is expected behavior. Go ahead and select the link to res
 - **Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.
 Download and install WebView2 Runtime. After you’ve finished, restart the Teams desktop app and try again.
 
-If you're still running into problems, contact the Global Helpdesk.
 
 - **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com isn't yet supported.
 Use your primary Azure account name (your alias) to sign into new Teams.
