@@ -122,9 +122,9 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
   - **AllowCallQueueConferenceModeChange**: Turn this setting on to allow authorized users to change the *call queue conference mode setting* for the call queues they're authorized for.
 
     > [!WARNING]
-    > **Conference mode** reduces the amount of time it takes for a caller to be connected to an agent after the agent accepts the call.
+    > **Conference mode** reduces the amount of time it takes for a caller and agent to be connected after the agent accepts the call.
     > .
-    > Turning off **Conference Mode** will result in longer caller-to-agent connection times
+    > Turning off **Conference Mode** will result in longer caller-to-agent connection times.
 
   - **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *call queue language* for call queues they're authorized for.
   - **AllowCallQueueMembershipChange**: Turn this setting on to allow authorized users to change the agents who are part of the call queue.
@@ -169,4 +169,4 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
     Values:
     - None - no access to any metrics.
     - Authorized - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
-    - All - the authorized user sees metrics for all auto attendants and call queues (and associated agents) they're authorized for.
+    - All - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
