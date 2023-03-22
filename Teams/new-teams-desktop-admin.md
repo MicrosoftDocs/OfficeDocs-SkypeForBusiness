@@ -213,7 +213,7 @@ If you still don’t see the toggle, try:
 3. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
 4. Delete all contents of the folder (don’t worry,  Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
 5. Relaunch the Teams app, then right-click on the icon and select Quit
-6. Relaunch the Teams app one more time, and you should see the switcher.
+6. Relaunch the Teams app one more time, and you should see the toggle switch.
 
 
 
