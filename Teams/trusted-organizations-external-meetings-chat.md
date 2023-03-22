@@ -27,13 +27,11 @@ description: "For IT admins: Learn how to configure chat and meetings with peopl
 
 With the *external access* feature in Teams, you can allow users in your organization to chat and meet with people outside the organization who are using Microsoft as an identity provider. You can configure external access with:
 
-- Other Microsoft 365 organizations
+- Other Microsoft 365 organizations (chat and meetings)
 
-- Teams users not managed by an organization (those using a [Microsoft account](https://account.microsoft.com))
+- Teams users not managed by an organization (those using a [Microsoft account](https://account.microsoft.com)) (chat only)
 
-- Skype users
-
-It's important to note that there are other settings in Teams - including guest access and anonymous access - that affect meetings with people outside your organization. See [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md) for more information.
+- Skype users (chat only)
 
 Users in your organization can accept or block incoming chats from people outside the organization. For details, see [Accept or block people outside your org who send you a chat](https://support.microsoft.com/office/4b5b917d-895a-4379-a204-a111b2e24f41).
 
@@ -41,6 +39,12 @@ Note that these people from outside your organization won't have access to your 
 
 > [!NOTE]
 > Your users can add apps when they host meetings or chats with people outside your organization. They can also use apps shared by external users when they join meetings or chats hosted externally. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied. [Learn more about use of apps by people outside your organization](non-standard-users.md).
+
+##### Related settings
+
+It's important to note that there are other settings in Teams - including guest access and anonymous access - that affect meetings with people outside your organization. See [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md) for more information.
+
+The meeting lobby can control how people outside your organization join meetings. For more information, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md) and [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
 ### Organization settings and user policies for external access
 
@@ -67,7 +71,7 @@ You can also [configure these settings by using PowerShell](#configure-settings-
 
 For meetings and chat with other Microsoft 365 organizations, you can specify which domains you want to trust. By default, all external domains are allowed. You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat.
 
-In order to chat and meet with people in external domains, the organizations that you trust must also trust your organization, and their users must be enabled for external access. If not, they won't be able to chat with users in your organization and will show up as anonymous when joining meetings hosted by your organization.
+In order to chat and meet with people in external domains, the organizations that you trust must also trust your organization, and their users must be enabled for external access. If not, they won't be able to chat with users in your organization and will be considered anonymous when joining meetings hosted by your organization. [Learn more about meetings with other Microsoft 365 organizations](plan-meetings-external-participants.md#meetings-with-other-microsoft-365-organizations).
 
 You can specify which domains are allowed or which domains are blocked. If you specify blocked domains, all other domains will be allowed; if you specify allowed domains, all other domains will be blocked. There are four scenarios for configuring trusted organizations:
 
@@ -135,6 +139,8 @@ If you want chats and calls to arrive in the user's Skype for Business client, c
 
 You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If enabled, you can also control if people with unmanaged Teams accounts can start chats with users in your organization.
 
+Meetings are not supported with unmanaged Teams users. If invited to a meeting, they're considered anonymous when joining.
+
 > [!NOTE]
 > Chat with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
@@ -161,6 +167,8 @@ To prevent chat with unmanaged Teams accounts
 ### Manage chat and calls with Skype users
 
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
+
+Meetings are not supported with Skype users. If invited to a meeting, they're considered anonymous when joining.
 
 > [!NOTE]
 > External communication with Skype users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
