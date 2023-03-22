@@ -22,7 +22,7 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client 
 
->!Note]
+>[!Note]
 >This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
 **In this article:**
@@ -50,7 +50,7 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 
 As an admin, you can manage which users in your organizations see or don't see the "Try the new Teams" toggle to use the new Teams.
 
-    :::image type="content" source="media/new-teams-toggle.png" alt-text="new teams toggle":::
+:::image type="content" source="media/new-teams-toggle.png" alt-text="new teams toggle":::
 
 To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
