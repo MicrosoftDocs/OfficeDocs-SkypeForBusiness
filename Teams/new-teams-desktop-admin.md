@@ -172,7 +172,7 @@ As we improve the client, the experience has been improved to align with similar
 
 |Classic Teams|New Teams|
 |:-----|:-----|:-----|
-|Windows notifications - purple toasts|You will no longer see the purple "toast" notifications, and the taskbar icon will behave a little different.|
+|Purple app notifications|You will no longer see the purple "toast" notifications, and the taskbar icon will behave a little different.Notifications will be via Windows notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|In a channel, select the Notes app instead|
 |Ability to add third party cloud storage|Use the Teams app from your third party cloud provider to collaborate with files in Teams. Note:  Teams admins also can turn off native OneDrive and SharePoint file entry points. Learn more at [Turn off Teams nave file upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
