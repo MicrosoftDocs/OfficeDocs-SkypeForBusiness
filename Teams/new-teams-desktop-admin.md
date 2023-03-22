@@ -231,6 +231,14 @@ Details: The organization tab has moved to a person's Microsoft 365 contact card
 - **Issue:** </br>There may be accessibility gaps between new and classic Teams.
 If you discover any accessibility gaps, select **Give Feedback**.
 
+## Calendar
+
+- **Issue:** </br> There is no option to add a Channel calendar to a channel.
+Workaround:  Switch back to classic Teams to use this feature.
+
+- **Issue:** </br> Unable to add an app in scheduling form
+Workaround:  Switch back to classic Teams to use this feature.
+
 
 ### Calls
 
@@ -259,15 +267,28 @@ Details:  When you disable attendee mic/camera for a meeting, attendees will sti
 Details: ​The product group is investigating this issue.
 
 
+
+
 ### Multi-Tenant Multi-Account (MTMA)
 
 - **Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
 Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
+- **Issue:** New tenant invitations may not appear or get updated for 24 hours.
+Workaround:  Switch back to classic Teams if the user needs access earlier thatn 24 hours.
+
 ### Notifications
+
+- **Issue:** </br> If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.
+Details: The @mention Everyone feature still to be implemented.
+
 
 - **Issue:** </br>Some Teams users aren't receiving notifications of chat mentions, meetings or calls.
 Details: In some cases, this is due to bugs that the product group is working to fix.
 Check to make sure that you have notifications turned on in Windows system notifications. In the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preference.
 
 In the future, when notifications are turned off, you'll see a banner indicating this.
+
+
+## Miscellaneous
+
