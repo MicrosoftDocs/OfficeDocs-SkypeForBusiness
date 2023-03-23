@@ -30,9 +30,9 @@ ms.localizationpriority: high
 - [What is new Teams?](#what-is-new-teams)
 - [Prerequisites](#prerequisites)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
-- [Installation issues](#installation-issues)
 - [How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
 - [Remove the new Teams client for all users](#remove-new-teams-for-all-users)
+- [Installation issues](#installation-issues)
 - [What features are still missing?](#what-features-are-still-missing)
 - [What features are changing?](#what-features-are-changing)
 - [Known issues](#known-issues)
@@ -44,7 +44,7 @@ ms.localizationpriority: high
 >**Customer segments:** Special cloud (GCC High, DoD, Microsoft 365 operated by 21Vianet in China, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 >[!Tip]
->Visit our [Microsoft Adoption site to learn more about the new Teams!](https://aka.ms/newTeams )
+>Visit our [**Microsoft Adoption site**](https://aka.ms/newTeams) to learn about the new Teams!
 
 ## What is the new Teams?
 
