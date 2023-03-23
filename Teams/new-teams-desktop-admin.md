@@ -54,48 +54,6 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Teams app|Version 1.5.00.29212 or higher to see the *Try the new Teams* toggle. </br></br>If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
-## App installation
-
-If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
-
-:::image type="content" source="media/new-teams-install-error.png" alt-text="error when attempting to install the new teams desktop client":::
-
-Possible causes:
-•	MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
-
-A full list of registry keys can be found here: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
- 
-“BlockNonAdminUserInstall “, “AllowAllTrustedApps” and “AllowDevelopmentWithoutDevLicense” are registry keys that could block new Teams MSIX package installation. These registry keys can be found at one of these locations:
-  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
-  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
- 
-There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation include: 
-
-- Prevent non-admins users from installing packaged Windows apps
-- Allow all trusted apps to install (disabled)
-
-**To check this setting for your commputer**
-
-1. In Windows, search for **Edit Group Policy**.
-2. This will open the Local Group Policy Editor screen.
-3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
-  - *Prevent non-admins users from installing packaged Windows apps*
-  - *Allow all trusted apps to install*
-4. Make sure that value for these settings is set as follows:
-
-|Setting |Value|
-|:-----|:-----|
-|Prevent non-admins users from installing packaged Windows apps|Not configured|
-|Allow all trusted apps to install|Not configured|
-
-## Troubleshooting and error handling
-
-##### App Switcher Toggle
-
-•	Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there is any Windows update pending, install them before you try new Teams.
-•	If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
-•	After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
-
 
 
 
@@ -191,6 +149,47 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 >This new policy assignment method should take effect within one minute. Users do not need to restart the app.
 
 ---
+
+## App installation issues
+
+If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
+
+:::image type="content" source="media/new-teams-install-error.png" alt-text="error when attempting to install the new teams desktop client":::
+
+It is possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
+
+For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
+ 
+“BlockNonAdminUserInstall “, “AllowAllTrustedApps” and “AllowDevelopmentWithoutDevLicense” are registry keys that could block new Teams MSIX package installation. These registry keys can be found at one of these locations:
+  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
+  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
+ 
+There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation include: 
+
+- Prevent non-admins users from installing packaged Windows apps
+- Allow all trusted apps to install (disabled)
+
+**To check this setting for your commputer**
+
+1. In Windows, search for **Edit Group Policy**.
+2. This will open the Local Group Policy Editor screen.
+3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
+  - *Prevent non-admins users from installing packaged Windows apps*
+  - *Allow all trusted apps to install*
+4. Make sure that value for these settings is set as follows:
+
+|Setting |Value|
+|:-----|:-----|
+|Prevent non-admins users from installing packaged Windows apps|Not configured|
+|Allow all trusted apps to install|Not configured|
+
+## Troubleshooting and error handling
+
+App Switcher Toggle
+
+•	Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there is any Windows update pending, install them before you try new Teams.
+•	If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
+•	After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
 ### How to uninstall the new Teams client
 
