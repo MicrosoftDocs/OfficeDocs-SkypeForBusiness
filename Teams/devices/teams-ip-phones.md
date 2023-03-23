@@ -311,6 +311,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `4.0.0-376092` | 2022 Update #3 |
+| Poly Studio X50 | `4.0.0-376092` | 2022 Update #3 |
+| Poly Studio X70 | `4.0.0-376092` | 2022 Update #3 |
+| Poly Studio G7500 | `4.0.0-376092` | 2022 Update #3 |
 | Poly Studio X30 | `3.14.1.374010` | 2022 Update #2B |
 | Poly Studio X50 | `3.14.1.374010` | 2022 Update #2B |
 | Yealink MeetingBar A20 | `133.320.0.8 `   | 2022 Update #3  |
