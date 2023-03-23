@@ -277,6 +277,7 @@ Workaround: If you sign out and back in, the banner shouldn't appear anymore. [L
 - **Issue:** New tenant invitations may not appear or get updated for 24 hours.
 Workaround:  Switch back to classic Teams if the user needs access earlier thatn 24 hours.
 
+
 ### Notifications
 
 - **Issue:** </br> If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.
