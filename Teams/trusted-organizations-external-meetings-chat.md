@@ -209,7 +209,9 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
 
 ## [**User policies**](#tab/user-policies)
 
-If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (Both of these must be enabled for users to chat or meet with people outside your organization.)
+If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (It's important to note that both of these must be enabled for users to chat or meet with people outside your organization.)
+
+For meeting organizers who are not enabled for external access, meeting attendees from other organizations will be considered anonymous when joining their meetings.
 
 ### Configure external access policies
 
