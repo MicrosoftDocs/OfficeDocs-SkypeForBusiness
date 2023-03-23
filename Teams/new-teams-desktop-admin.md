@@ -28,8 +28,12 @@ ms.localizationpriority: high
 **In this article:**
 
 - [What is new Teams?](#what-is-new-teams)
+- [Prerequisites](#prerequisites)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
-- [Release roadmap](#release-roadmap)
+- [App installation issues](#app-installation-issues)
+- [How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
+- [Remove the new Teams client for all users](#remove-new-teams-for-all-users)
+- [What features are still pending?](#what-features-are-still-pending)
 - [What features are changing?](#what-features-are-changing)
 - [Known issues](#known-issues)
 
@@ -183,13 +187,11 @@ There are a few policies that could alter these registry keys and block app inst
 |Prevent non-admins users from installing packaged Windows apps|Not configured|
 |Allow all trusted apps to install|Not configured|
 
-## Troubleshooting and error handling
+### Troubleshooting the App switcher toggle
 
-App Switcher Toggle
-
-•	Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there is any Windows update pending, install them before you try new Teams.
-•	If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
-•	After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
+- Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there is any Windows update pending, install them before you try new Teams.
+- If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
+- After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
 ### How to uninstall the new Teams client
 
@@ -212,11 +214,11 @@ Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
-## What features are available?
+## What features are still pending?
 
-While many of the features you're familiar with in classic Teams are already in the new experience,  others—like avatars and app notifications—are still being worked on. </br>
+While many of the features you're familiar with in classic Teams are already in the new experience, others—like avatars and app notifications—are still being worked on. </br>
 
-[**Follow our release roadmap for the latest information on upcoming features for the new Teams**](/adoption-dev.azurewebsites.net/en-us/dev/new-microsoft-teams).
+[**Find the latest information on upcoming features for the new Teams**](/adoption-dev.azurewebsites.net/en-us/dev/new-microsoft-teams).
 
 ## What features are changing?
 
