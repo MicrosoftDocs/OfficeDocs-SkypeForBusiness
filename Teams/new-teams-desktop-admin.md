@@ -57,7 +57,7 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Requirement|Version|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher or </br>Windows 11 version 22000.856 or higher|
-|Teams app|Version 1.5.00.29212 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. |
+|Teams app|Version 1.5.00.29212 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
 
@@ -201,7 +201,7 @@ There are a few policies that could alter these registry keys and block app inst
 - Prevent non-admins users from installing packaged Windows apps
 - Allow all trusted apps to install (disabled)
 
-**To check this setting for your commputer**
+**To check this setting for your computer**
 
 1. In Windows, search for **Edit Group Policy**.
 2. This will open the Local Group Policy Editor screen.
@@ -219,7 +219,7 @@ There are a few policies that could alter these registry keys and block app inst
 
 **Troubleshooting the App switcher toggle**</br>
 
-- Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there is any Windows update pending, install them before you try new Teams.
+- Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there's any Windows update pending, including security updates, install them before you try new Teams.
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
 - After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
@@ -248,17 +248,17 @@ If the toggle still doesn't appear, then:
 
 ## What features are still missing?
 
-While many of the features you're familiar with in classic Teams are already in the new experience, others—like avatars and app notifications—are still being worked on. </br>
+While many of the features you're familiar with in classic Teams are already in the new experience, others, like avatars and app notifications, are still being worked on. </br>
 
 [**Find the latest information on upcoming features for the new Teams**](https://aka.ms/newTeams).
 
 ## What features are changing?
 
-As we improve the client, the experience has been improved to align with similar features. Here are the changes.
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you'll see.
 
 |Classic Teams|New Teams|
 |:-----|:-----|
-|Purple toast notifications|You will no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
+|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|In a channel, select the Notes app instead|
 |Ability to add third party cloud storage|Use the Teams app from your third party cloud provider to collaborate with files in Teams. Note:  Teams admins also can turn off native OneDrive and SharePoint file entry points. Learn more at [Turn off Teams nave file upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
@@ -293,7 +293,7 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 ### Calendar
 
-- **Issue:**   There is no option to add a Channel calendar to a channel.
+- **Issue:**   There's no option to add a Channel calendar to a channel.
 Workaround:  Switch back to classic Teams to use this feature.
 
 - **Issue:**   Unable to add an app in scheduling form
@@ -306,11 +306,11 @@ Workaround:  Switch back to classic Teams to use this feature.
 - **Issue:**  Increased power usage during calls may cause CPU throttling and negatively impact performance.
 Workaround/details: We are working to resolve this.
 
-- **Issue:**  Full HID capabilities (e.g. device mute/unmute, LED sync) are not yet supported.
+- **Issue:**  Full HID capabilities (for example, device mute/unmute, LED sync) aren't yet supported.
 
 - **Issue:**  When using the “share screen” option to share content or in DND mode, call toast notifications will still pop up.
 
-- **Issue:**  Call toast stacking is not supported by default in Windows 10.
+- **Issue:**  Call toast stacking isn't supported by default in Windows 10.
 Workaround:  Open the action center to view secondary incoming call toasts
 
 
@@ -347,7 +347,7 @@ Details: ​The product group is investigating this issue.
 - **Issue:**  Some people are experiencing poor resolution when screen-sharing during a meeting.
 Details: The product group is investigating this issue.
 
-- **Issue:**  An error occurs when joining a meeting whose organizer is from an organization for which you either (1) do not have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guested there.
+- **Issue:**  An error occurs when joining a meeting whose organizer is from an organization for which you either (1) don't have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guests there.
 Details: Before joining the meeting, turn off preview using the toggle button on the title bar.
 
 - **Issue:**  When using the "Share screen" option to share content, toast notifications will still pop up, even if you have notifications muted.
@@ -360,14 +360,14 @@ Details include forwards, "show as," and assigned meeting categories.
 - **Issue:**  When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"
 Workaround:  If you leave the meeting by accident, re-join. 
 
-- **Issue:**  If you are using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.
+- **Issue:**  If you're using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.
 Workaround: As an organizer, if you plan to run Breakout sessions, switch back to classic Teams and inform all participants that the meeting includes Breakout Rooms, and they all must switch to classic Teams to participate.
 
 - **Issue:**  In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
 
 - **Issue:**  When a user raises their hand in Gallery view, two hands are displayed raised on their gallery (bottom left and upper right).
 
-- **Issue:**  Selecting Room Audio has a blank UI, and it is unable to detect rooms or search on the Join screen.
+- **Issue:**  Selecting Room Audio has a blank UI, and it's unable to detect rooms or search on the Join screen.
 
 - **Issue:**  In Settings->Devices, users can't preview their video. 
 
@@ -376,7 +376,7 @@ Details:  Users on Windows 11 can’t share the app using the taskbar.
 Workaround Share the app or window using the share tray within Teams meeting. 
 
 - **Issue:**  Users can’t use the advanced presenter modes (Standout, Side-by-side, Reporter, Cameo)
-- **Issue:**  Users wont see the presenter toolbar when a screen sharing session is active.
+- **Issue:**  Users won't see the presenter toolbar when a screen sharing session is active.
 
 
 
