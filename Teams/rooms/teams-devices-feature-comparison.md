@@ -7,12 +7,14 @@ ms.date: 06/03/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
+ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.reviewer: 
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 f1.keywords: 
   - NOCSH
 localization_priority: Normal

@@ -4,7 +4,7 @@ ms.author: mabond
 author: mkbond007
 manager: serdars
 ms.reviewer: sachung, emryan
-ms.date: 04/08/2021
+ms.date: 02/01/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -108,7 +108,7 @@ You can use the Teams admin center under **Meetings** > **Meeting policies** to 
 
 ### Meeting registration
 
-If you turn on **Meeting registration**, users in your organization can schedule webinars and meetings requiring registration. By default, this setting is turned on. If you want to turn off meeting registration and webinars, set this policy to **Off**.
+If you turn on **Meeting registration**, users in your organization can schedule webinars and meetings requiring registration. By default, this setting is turned on. If you want to turn off meeting registration and webinars, set this policy to **Off**. This is a per-user policy.
 
 **Private meeting scheduling** must be on for meeting registration to work. Find out more about [private meeting scheduling](meeting-policies-in-teams-general.md).
 

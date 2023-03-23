@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy the SEFAUtil tool in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -78,3 +79,4 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
    ```
 
 The call forwarding settings for the user will be displayed.
+

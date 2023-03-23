@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Assign an external user access policy'
 ms.reviewer: 
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
@@ -66,3 +67,4 @@ Per-user external access policies can be assigned by using Windows PowerShell an
 
 
 For more information, see the help topic for the [Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet.
+

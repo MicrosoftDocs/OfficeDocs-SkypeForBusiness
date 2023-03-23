@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Legacy Merge Edge Type"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "For a Single Edge Server or Load-balanced consolidated Edge server
  
 For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information. For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged. 
   
+
 

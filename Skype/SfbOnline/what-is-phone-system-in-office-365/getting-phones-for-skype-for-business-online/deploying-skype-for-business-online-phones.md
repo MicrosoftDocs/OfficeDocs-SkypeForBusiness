@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Deploying Skype for Business Online phones"
 ms.author: tonysmit
 author: tonysmit
@@ -222,4 +223,5 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+
 

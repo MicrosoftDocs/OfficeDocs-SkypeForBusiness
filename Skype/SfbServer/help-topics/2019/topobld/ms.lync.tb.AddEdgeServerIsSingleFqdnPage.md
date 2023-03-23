@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Edge Server With Single FQDN Page"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ Information on Edge Server Single FQDN Page.
   
 For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)
   
+
 

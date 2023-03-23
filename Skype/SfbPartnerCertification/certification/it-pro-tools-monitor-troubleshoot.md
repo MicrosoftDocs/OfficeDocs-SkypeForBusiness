@@ -1,4 +1,5 @@
 ---
+ms.date: 06/14/2018
 title: "Skype for Business certification program - Monitoring and Troubleshooting"
 ms.author: serdars
 author: msdmaguire
@@ -35,4 +36,5 @@ The tools provide network performance visibility and server-KPI (key performance
 
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+
 

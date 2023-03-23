@@ -1,4 +1,5 @@
 ---
+ms.date: 03/07/2023
 title: Plan for meetings with external participants in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -91,3 +92,4 @@ The lobby can be configured by the meeting organizer before or during the meetin
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
+

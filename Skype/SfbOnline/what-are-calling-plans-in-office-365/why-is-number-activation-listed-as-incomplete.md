@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Why is number activation listed as incomplete?"
 ms.author: tonysmit
 author: tonysmit
@@ -108,3 +109,4 @@ Address validation is an important part of setting up Calling Plans. If for some
 
   
  
+

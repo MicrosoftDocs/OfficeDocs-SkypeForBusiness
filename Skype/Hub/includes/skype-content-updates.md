@@ -25,3 +25,4 @@
 | 8/20/2022 | [Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) | modified |
 | 8/20/2022 | [Move users from on premises to Skype for Business Online](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) | modified |
 | 8/20/2022 | [Plan hybrid connect \| Skype for Business Server 2019 and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
+

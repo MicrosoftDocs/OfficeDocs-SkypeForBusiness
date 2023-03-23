@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Download and install Windows PowerShell 5.1"
 ms.reviewer: 
 ms.author: tonysmit
@@ -145,3 +146,4 @@ If basic authentication has been set to true, then you're ready to use PowerShel
 [Set up your computer for Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
   
+

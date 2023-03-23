@@ -1,4 +1,5 @@
 ---
+ms.date: 06/12/2018
 title: "Qualified Lync applications for persistent chat"
 ms.author: serdars
 author: msdmaguire
@@ -44,3 +45,4 @@ MindLink allows real-time collaboration across the business and improves team ef
 [Openjive Inc.](http://openjive.com)
 
 ***Lingo*** connects disparate systems and processes, extending your line of business applications to Lync 2013 persistent chat. Lingo seamlessly allows for collaboration within a persistent chat room by enabling the use of multiple add-ins and easy file transfer and storage of documents to SharePoint 2010 or 2013 document libraries. In addition, Lingo extends persistent chat by providing real-time analytics to room managers and persistent chat administrators based on activity.
+

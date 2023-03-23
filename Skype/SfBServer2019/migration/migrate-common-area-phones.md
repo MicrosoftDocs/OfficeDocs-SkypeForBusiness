@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrate Common Area Phones"
 ms.reviewer: 
 ms.author: serdars
@@ -35,4 +36,5 @@ Common Area Phones are IP phones that most often reside in a shared workspace or
 
     Verify that all contact objects are now associated with the Skype for Business Server 2019 pool.
     
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/05/2018
 title: "Cloud Consolidation for Teams and Skype for Business"
 ms.author: crowe
 author: CarolynRowe
@@ -183,3 +184,4 @@ When you move users from on premises to the cloud in a hybrid environment, these
 [Update AAD Connect to include more than one forest](cloud-consolidation-aad-connect.md)
 
 [Disable hybrid to complete migration to the cloud](cloud-consolidation-disabling-hybrid.md)
+

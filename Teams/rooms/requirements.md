@@ -8,6 +8,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -15,6 +16,7 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier3
 description: Learn about the requirements for supporting Microsoft Teams Rooms, including choosing the appropriate device, microphones, speakers, cameras, and displays.
 ms.custom: seo-marvel-apr2020
 ---
@@ -94,6 +96,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   | Lenovo ThinkSmart Hub 500 |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) |Core i5|8 GB|128 GB|
+  |[Lenovo Thinksmart One AIO Bar + Lenovo Core Bundle](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006?orgRef=https%253A%252F%252Flearn.microsoft.com%252F&sortBy=priceUp) |Core i5|8 GB|256 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap and Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
@@ -178,7 +181,6 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
-|[Lenovo Thinksmart One AIO Bar + Lenovo Core](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006)|Lenovo Camera Driver: 1.0.111.1|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -209,6 +211,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
 |[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Speakerphone — 4.6.55 <br/> Extension Mic — 0.2.314|
 |[EPOS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
+|[EPOS EXPAND VISION 1M camera](https://www.eposaudio.com/en/us/enterprise/products/expand-vision-1m-usb-meeting-room-video-camera-1001197) |9.24.0|
 |[Extron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
 |[Extron DMP 64 PLUS C V AT DSP System (DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
