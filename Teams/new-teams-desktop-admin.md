@@ -246,7 +246,7 @@ Receiving this message is expected behavior. Go ahead and select the link to res
 Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
 
-- **Issue:**  Some people don't see the toggle to opt in.
+- **Issue:**  Some people don't see the toggle to opt in.</br>
 Steps: First, double check to make sure you have the required system requirements.  Next, try signing out and back into the Teams desktop app.  
 If you still don’t see the toggle, try:
 
