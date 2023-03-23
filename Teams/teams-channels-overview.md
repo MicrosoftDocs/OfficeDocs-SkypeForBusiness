@@ -32,7 +32,7 @@ appliesto:
 
 Let's get started by thinking about how Microsoft Teams allows individual teams to self-organize and collaborate across business scenarios:
 
-- **Teams** are a collection of people, content, and tools surrounding different projects and outcomes within an organization.
+- **Teams** is a collection of people, content, and tools surrounding different projects and outcomes within an organization.
 
     - Teams can be created to be private to only invited users.
     - Teams can also be created to be public and open and anyone within the organization can join (up to 10,000 members).
