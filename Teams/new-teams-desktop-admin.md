@@ -30,10 +30,10 @@ ms.localizationpriority: high
 - [What is new Teams?](#what-is-new-teams)
 - [Prerequisites](#prerequisites)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
-- [App installation issues](#app-installation-issues)
+- [Installation issues](#installation-issues)
 - [How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
 - [Remove the new Teams client for all users](#remove-new-teams-for-all-users)
-- [What features are still pending?](#what-features-are-still-pending)
+- [What features are still missing?](#what-features-are-still-missing)
 - [What features are changing?](#what-features-are-changing)
 - [Known issues](#known-issues)
 
@@ -161,6 +161,8 @@ Any user who was using the new Teams before the policy was implemented can manua
 
 After they opt out, the toggle won't appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can manually uninstall it from settings.
 
+</br>
+
 ### Remove new Teams for all users
 
 To remove the new Teams from all users' computers, use the following PowerShell command:
@@ -176,9 +178,11 @@ Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
+</br>
 
+## Installation issues
 
-## App installation issues
+**Policy settings restricting download & install**
 
 If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
 
@@ -211,24 +215,28 @@ There are a few policies that could alter these registry keys and block app inst
 |Prevent non-admins users from installing packaged Windows apps|Not configured|
 |Allow all trusted apps to install|Not configured|
 
-### Troubleshooting the App switcher toggle
+</br>
+
+**Troubleshooting the App switcher toggle**</br>
 
 - Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there is any Windows update pending, install them before you try new Teams.
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
 - After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
-### Other installation issues
+**Update and restart message**</br>
 
-- **Issue:**  After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
-Receiving this message is expected behavior. Go ahead and select the link to restart.
+Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
+This is expected behavior. Select the link to restart.
 
-- **Issue:**  Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.</br>
+**Windows 10 users may receive an error message**</br>
+
+Issue:  Windows 10 users may receive the error “We’ve run into an issue” when they download and install the new Teams.</br>
 Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
+**Some people don't see the toggle to opt in.** </br>
 
-- **Issue:**  Some people don't see the toggle to opt in.</br>
-Steps: First, double check to make sure you have the required system requirements.  Next, try signing out and back into the Teams desktop app.  
-If you still don’t see the toggle, try:
+Make sure the user has the minimum requirements met on their computer.  Next, have them sign out and back into the Teams desktop app.  
+If the toggle still doesn't appear, then:
 
 1. Right-click on the Teams app icon in your taskbar and select Quit
 2. Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
@@ -263,8 +271,6 @@ As we improve the client, the experience has been improved to align with similar
 ## Known issues
 
 There are a few known issues we're working on.
-
-
 
 ### General
 
