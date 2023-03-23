@@ -58,6 +58,8 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 
 If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
 
+:::image type="content" source="media/new-teams-install-error.png" alt-text="error when attempting to install the new teams desktop client":::
+
 Possible causes:
 •	MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
 
