@@ -48,7 +48,8 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 
 ## Prerequisites
 
-- Windows 10 ersion 10.0.19041 or higher or Windows 11 version 22000.856 or higher
+
+- Windows 10 version 10.0.19041 or higher or Windows 11 version 22000.856 or higher
 - Your current Teams app must be running version 1.5.00.29212 or higher to see the *Try the new Teams* toggle. If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. 
 - Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.
 
@@ -59,26 +60,31 @@ If your users are experiencing issues installing the app,  as an administrator y
 Possible causes:
 •	MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
 
-A full list of registry keys can be found here: How Group Policy works with packaged apps - MSIX | Microsoft Learn.  
-
-As per the above documentation, 
-“BlockNonAdminUserInstall “, “AllowAllTrustedApps” and “AllowDevelopmentWithoutDevLicense” are registry keys that could block new Teams msix package installation. These regkeys can be found at one of these location:
-o	"Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock"
-o	"Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx"
-Additionally, there are few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation are: 
-•	Prevent non-admins users from installing packaged Windows apps
-•	Allow all trusted apps to install (disabled)
-
-How can you check this setting for your machine?  
-•	You can check this policy on your system by going to Windows search-> Edit Group Policy->
-•	This will open the Local Group Policy Editor screen (as shown in the screenshot). 
-•	Please go to Computer Configuration->Windows Components->App package Deployment and see the value for the below policies: “Prevent non-admins users from installing packaged Windows apps”, “Allow all trusted apps to install”
-
+A full list of registry keys can be found here: How Group Policy works with packaged apps - MSIX | Microsoft Learn.  As per the above documentation
  
-To avoid installation issues, make sure that value for these settings is set as below:
+“BlockNonAdminUserInstall “, “AllowAllTrustedApps” and “AllowDevelopmentWithoutDevLicense” are registry keys that could block new Teams MSIX package installation. These regkeys can be found at one of these location:
 
-- Prevent non-admins users from installing packaged Windows apps – Not configured 
-- Allow all trusted apps to install - Not configured
+- "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock"
+- "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx"
+- 
+There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation are: 
+
+- Prevent non-admins users from installing packaged Windows apps
+- Allow all trusted apps to install (disabled)
+
+**How can you check this setting for your commputer?**
+
+1. In Windows, search for **Edit Group Policy**.
+2. This will open the Local Group Policy Editor screen.
+3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
+  - *Prevent non-admins users from installing packaged Windows apps*
+  - *Allow all trusted apps to install*
+4. Make sure that value for these settings is set as follows:
+
+|Setting |Value|
+|:-----|:-----|
+|Prevent non-admins users from installing packaged Windows apps|Not configured|
+|Allow all trusted apps to install|Not configured|
 
 ## Troubleshooting and error handling
 
