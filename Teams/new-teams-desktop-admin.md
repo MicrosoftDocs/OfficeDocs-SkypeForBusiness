@@ -289,6 +289,3 @@ Check to make sure that you have notifications turned on in Windows system notif
 
 In the future, when notifications are turned off, you'll see a banner indicating this.
 
-
-## Miscellaneous
-
