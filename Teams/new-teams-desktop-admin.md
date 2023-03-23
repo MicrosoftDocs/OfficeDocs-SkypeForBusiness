@@ -211,7 +211,7 @@ Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
-## What features are still pending?
+## What features are still missing?
 
 While many of the features you're familiar with in classic Teams are already in the new experience, others—like avatars and app notifications—are still being worked on. </br>
 
