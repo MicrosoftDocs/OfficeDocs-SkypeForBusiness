@@ -151,6 +151,30 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 
 ---
 
+
+### How to uninstall the new Teams client
+
+Any user who was using the new Teams before the policy was implemented can manually opt out by using the new Teams toggle. 
+
+After they opt out, the toggle won't appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can manually uninstall it from settings.
+
+### Remove new Teams for all users
+
+To remove the new Teams from all users' computers, use the following PowerShell command:
+
+```powershell
+
+Remove-AppxPackage 
+```
+
+PowerShell cmdlet to remove new Teams from all users on all computers:
+
+Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
+For an individual user without administrator privilege, use this command:
+Get-AppxPackage *MSTeams*|Remove-AppxPackage
+
+
+
 ## App installation issues
 
 If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
@@ -190,26 +214,27 @@ There are a few policies that could alter these registry keys and block app inst
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
 - After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
-### How to uninstall the new Teams client
+### Other installation issues
 
-Any user who was using the new Teams before the policy was implemented can manually opt out by using the new Teams toggle. 
+- **Issue:**  After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
+Receiving this message is expected behavior. Go ahead and select the link to restart.
 
-After they opt out, the toggle won't appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can manually uninstall it from settings.
+- **Issue:**  Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.</br>
+Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
-### Remove new Teams for all users
 
-To remove the new Teams from all users' computers, use the following PowerShell command:
+- **Issue:**  Some people don't see the toggle to opt in.</br>
+Steps: First, double check to make sure you have the required system requirements.  Next, try signing out and back into the Teams desktop app.  
+If you still don’t see the toggle, try:
 
-```powershell
+1. Right-click on the Teams app icon in your taskbar and select Quit
+2. Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
+3. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
+4. Delete all contents of the folder (don’t worry,  Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
+5. Relaunch the Teams app, then right-click on the icon and select Quit
+6. Relaunch the Teams app one more time, and you should see the toggle switch.
 
-Remove-AppxPackage 
-```
 
-PowerShell cmdlet to remove new Teams from all users on all computers:
-
-Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
-For an individual user without administrator privilege, use this command:
-Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 ## What features are still missing?
 
@@ -237,25 +262,6 @@ As we improve the client, the experience has been improved to align with similar
 
 There are a few known issues we're working on.
 
-### Installation
-
-- **Issue:**  After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
-Receiving this message is expected behavior. Go ahead and select the link to restart.
-
-- **Issue:**  Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.</br>
-Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
-
-
-- **Issue:**  Some people don't see the toggle to opt in.</br>
-Steps: First, double check to make sure you have the required system requirements.  Next, try signing out and back into the Teams desktop app.  
-If you still don’t see the toggle, try:
-
-1. Right-click on the Teams app icon in your taskbar and select Quit
-2. Open File Explorer. In the address bar, enter the following: %appdata%/Microsoft/Teams
-3. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
-4. Delete all contents of the folder (don’t worry,  Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
-5. Relaunch the Teams app, then right-click on the icon and select Quit
-6. Relaunch the Teams app one more time, and you should see the toggle switch.
 
 
 ### General
