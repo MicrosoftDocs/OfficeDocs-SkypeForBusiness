@@ -245,18 +245,9 @@ Receiving this message is expected behavior. Go ahead and select the link to res
 - **Issue:**  Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.</br>
 Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
-- **Issue:**  Sign-in using email address <first name>.<last name>@microsoft.com isn't yet supported.
-Use your primary Azure account name (your alias) to sign into new Teams.
 
 - **Issue:**  Some people don't see the toggle to opt in.
-First, double check the system requirements. You'll need a Windows device and an up-to-date version of classic Teams.
-
-Next, try signing out and back into the Teams desktop app.
-
-1. Select your profile pic in the upper-right corner
-2. Select Sign out
-3. When the app relaunches, sign back in
-
+Steps: First, double check to make sure you have the required system requirements.  Next, try signing out and back into the Teams desktop app.  
 If you still don’t see the toggle, try:
 
 1. Right-click on the Teams app icon in your taskbar and select Quit
