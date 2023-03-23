@@ -22,7 +22,7 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams app usage report
 
-The Teams app usage report in the Microsoft Teams admin center provides you with insights about which apps users are using in Teams. You can gain insights into the apps activity in your organization for different microsoft (Viva learning, Shifts etc), third-party (Polly, Trello etc.) & Line of Business (LOB) Teams apps.   
+The Teams app usage report in the Microsoft Teams admin center provides you with insights about which apps users are using in Teams. You can gain insights into the apps activity in your organization for different microsoft (Viva learning, Shifts etc.), third-party (Polly, Trello etc.) & Line of Business (LOB) Teams apps.   
 
 You can use this report to understand where exactly different apps are getting used and deep dive into per-app utilization data.
 
