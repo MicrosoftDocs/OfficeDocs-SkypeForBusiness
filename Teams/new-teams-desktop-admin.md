@@ -182,7 +182,7 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 ## Installation issues
 
-**Policy settings restricting download & install**
+#### Policy settings restricting download & install
 
 If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
 
@@ -201,7 +201,7 @@ There are a few policies that could alter these registry keys and block app inst
 - Prevent non-admins users from installing packaged Windows apps
 - Allow all trusted apps to install (disabled)
 
-**To check this setting for your computer**
+#### To check this setting for your computer
 
 1. In Windows, search for **Edit Group Policy**.
 2. This will open the Local Group Policy Editor screen.
@@ -217,23 +217,23 @@ There are a few policies that could alter these registry keys and block app inst
 
 </br>
 
-**Troubleshooting the App switcher toggle**</br>
+#### Troubleshooting the App switcher toggle
 
 - Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there's any Windows update pending, including security updates, install them before you try new Teams.
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
 - After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
-**Update and restart message**</br>
+#### Update and restart message in title bar
 
 Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
 This is expected behavior. Select the link to restart.
 
-**Windows 10 users may receive an error message**</br>
+#### Windows 10 users may receive an error message
 
 Issue:  Windows 10 users may receive the error “We’ve run into an issue” when they download and install the new Teams.</br>
 Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
-**Some people don't see the toggle to opt in.** </br>
+#### Some people don't see the toggle to opt in
 
 Make sure the user has the minimum requirements met on their computer.  Next, have them sign out and back into the Teams desktop app.  
 If the toggle still doesn't appear, then:
