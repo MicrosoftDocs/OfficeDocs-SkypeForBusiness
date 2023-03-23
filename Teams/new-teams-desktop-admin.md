@@ -46,7 +46,7 @@ ms.localizationpriority: high
 
 ## What is the new Teams?
 
-Reimagined from the ground up with a performance-first mindset, the new Teams client provides a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Microsoft Teams client has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
 New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
