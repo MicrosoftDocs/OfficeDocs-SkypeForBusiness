@@ -225,7 +225,7 @@ As we improve the client, the experience has been improved to align with similar
 
 |Classic Teams|New Teams|
 |:-----|:-----|
-||You will no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
+|Purple toast notifications|You will no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|In a channel, select the Notes app instead|
 |Ability to add third party cloud storage|Use the Teams app from your third party cloud provider to collaborate with files in Teams. Note:  Teams admins also can turn off native OneDrive and SharePoint file entry points. Learn more at [Turn off Teams nave file upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
@@ -241,16 +241,16 @@ There are a few known issues we're working on.
 
 ### Installation
 
-- **Issue:** </br>After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
+- **Issue:**  After opting into the new Teams, you may receive an “Update and restart” message in the title bar.
 Receiving this message is expected behavior. Go ahead and select the link to restart.
 
-- **Issue:** </br>Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.</br>
+- **Issue:**  Windows 10 users may receive an error message that states “We’ve run into an issue” when you download/install new Teams.</br>
 Action:  [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
-- **Issue:** </br>Sign-in using email address <first name>.<last name>@microsoft.com isn't yet supported.
+- **Issue:**  Sign-in using email address <first name>.<last name>@microsoft.com isn't yet supported.
 Use your primary Azure account name (your alias) to sign into new Teams.
 
-- **Issue:** </br>Some people don't see the toggle to opt in.
+- **Issue:**  Some people don't see the toggle to opt in.
 First, double check the system requirements. You'll need a Windows device and an up-to-date version of classic Teams.
 
 Next, try signing out and back into the Teams desktop app.
@@ -272,114 +272,114 @@ If you still don’t see the toggle, try:
 
 ### General
 
-- **Issue:** </br>Organization tab isn't available on chat
+- **Issue:**  Organization tab isn't available on chat
 Details: The organization tab has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 ### Accessibility
 
-- **Issue:** </br>There may be accessibility gaps between new and classic Teams.
+- **Issue:**  There may be accessibility gaps between new and classic Teams.
 If you discover any accessibility gaps, select **Give Feedback**.
 
 ### Calendar
 
-- **Issue:** </br> There is no option to add a Channel calendar to a channel.
+- **Issue:**   There is no option to add a Channel calendar to a channel.
 Workaround:  Switch back to classic Teams to use this feature.
 
-- **Issue:** </br> Unable to add an app in scheduling form
+- **Issue:**   Unable to add an app in scheduling form
 Workaround:  Switch back to classic Teams to use this feature.
 
 ### Apps
 
-- **Issue:** </br>If custom apps are used, their icons are broken on the left pane.
+- **Issue:**  If custom apps are used, their icons are broken on the left pane.
 
-- **Issue:** </br>New Teams doesn't have the option to install/uninstall any app yet. So, the only apps installed in classic Teams will show up in new Teams. If we want to add new app, please add them in classic Teams so that they get added to new Teams as well. 
+- **Issue:**  New Teams doesn't have the option to install/uninstall any app yet. So, the only apps installed in classic Teams will show up in new Teams. If we want to add new app, please add them in classic Teams so that they get added to new Teams as well. 
 
-- **Issue:** </br>While all  the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, store navigation are still pending.
+- **Issue:**  While all  the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, store navigation are still pending.
 
 
 
 ### Calls
 
-- **Issue:** </br>Increased power usage during calls may cause CPU throttling and negatively impact performance.
+- **Issue:**  Increased power usage during calls may cause CPU throttling and negatively impact performance.
 Workaround/details: We are working to resolve this.
 
-- **Issue:** </br>Full HID capabilities (e.g. device mute/unmute, LED sync) are not yet supported.
+- **Issue:**  Full HID capabilities (e.g. device mute/unmute, LED sync) are not yet supported.
 
-- **Issue:** </br>When using the “share screen” option to share content or in DND mode, call toast notifications will still pop up.
+- **Issue:**  When using the “share screen” option to share content or in DND mode, call toast notifications will still pop up.
 
-- **Issue:** </br>Call toast stacking is not supported by default in Windows 10.
+- **Issue:**  Call toast stacking is not supported by default in Windows 10.
 Workaround:  Open the action center to view secondary incoming call toasts
 
 
 ### Chats
 
-- **Issue:** </br>When you pop out a chat, the window may appear blank for a few moments.
+- **Issue:**  When you pop out a chat, the window may appear blank for a few moments.
 
-- **Issue:** </br>You may still receive notifications on the muted meeting chats.
+- **Issue:**  You may still receive notifications on the muted meeting chats.
 
-- **Issue:** </br>You can't search for external users even if you enter full email address.
+- **Issue:**  You can't search for external users even if you enter full email address.
 
 
 ### Meetings
 
-- **Issue:** </br>When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
+- **Issue:**  When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
 Details: The meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
-- **Issue:** </br> Some meeting details won’t appear in new Teams.</br>
+- **Issue:**   Some meeting details won’t appear in new Teams.</br>
 Details you won't see include forwards, "show as," and assigned meeting categories. 
 
-- **Issue:** </br> When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
+- **Issue:**   When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
 Workaround:  If you leave a meeting by accident, re-join.
 
-- **Issue:** </br>For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.</br>
+- **Issue:**  For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.</br>
 Workaround: ​Select Join in the channel conversation to join the meeting.
 
-- **Issue:** </br> When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
+- **Issue:**   When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
 Details:  When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However nothing will happen until they come off mute or turn on their video.
 
-- **Issue:** </br> Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
+- **Issue:**   Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
 Details: ​The product group is investigating this issue.
 
-- **Issue:** </br>Some people are experiencing poor resolution when screen-sharing during a meeting.
+- **Issue:**  Some people are experiencing poor resolution when screen-sharing during a meeting.
 Details: The product group is investigating this issue.
 
-- **Issue:** </br>An error occurs when joining a meeting whose organizer is from an organization for which you either (1) do not have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guested there.
+- **Issue:**  An error occurs when joining a meeting whose organizer is from an organization for which you either (1) do not have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guested there.
 Details: Before joining the meeting, turn off preview using the toggle button on the title bar.
 
-- **Issue:** </br>When using the "Share screen" option to share content, toast notifications will still pop up, even if you have notifications muted.
+- **Issue:**  When using the "Share screen" option to share content, toast notifications will still pop up, even if you have notifications muted.
 Details: Meeting attendees may see preview content in those notifications.
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop."
 
-- **Issue:** </br>Some meeting details won't show up in new Teams.
+- **Issue:**  Some meeting details won't show up in new Teams.
 Details include forwards, "show as," and assigned meeting categories.
 
-- **Issue:** </br>When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"
+- **Issue:**  When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"
 Workaround:  If you leave the meeting by accident, re-join. 
 
-- **Issue:** </br>If you are using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.
+- **Issue:**  If you are using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.
 Workaround: As an organizer, if you plan to run Breakout sessions, switch back to classic Teams and inform all participants that the meeting includes Breakout Rooms, and they all must switch to classic Teams to participate.
 
-- **Issue:** </br>In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
+- **Issue:**  In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
 
-- **Issue:** </br>When a user raises their hand in Gallery view, two hands are displayed raised on their gallery (bottom left and upper right).
+- **Issue:**  When a user raises their hand in Gallery view, two hands are displayed raised on their gallery (bottom left and upper right).
 
-- **Issue:** </br>Selecting Room Audio has a blank UI, and it is unable to detect rooms or search on the Join screen.
+- **Issue:**  Selecting Room Audio has a blank UI, and it is unable to detect rooms or search on the Join screen.
 
-- **Issue:** </br>In Settings->Devices, users can't preview their video. 
+- **Issue:**  In Settings->Devices, users can't preview their video. 
 
-- **Issue:** </br>Users won't be able to start a "Screen sharing call".
+- **Issue:**  Users won't be able to start a "Screen sharing call".
 Details:  Users on Windows 11 can’t share the app using the taskbar. 
 Workaround Share the app or window using the share tray within Teams meeting. 
 
-- **Issue:** </br>Users can’t use the advanced presenter modes (Standout, Side-by-side, Reporter, Cameo)
-- **Issue:** </br>Users wont see the presenter toolbar when a screen sharing session is active.
+- **Issue:**  Users can’t use the advanced presenter modes (Standout, Side-by-side, Reporter, Cameo)
+- **Issue:**  Users wont see the presenter toolbar when a screen sharing session is active.
 
 
 
 ### Multi-Tenant Multi-Account (MTMA)
 
-- **Issue:** </br> When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
+- **Issue:**   When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
 Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 - **Issue:** New tenant invitations may not appear or get updated for 24 hours.
@@ -388,41 +388,41 @@ Workaround:  Switch back to classic Teams if the user needs access earlier thatn
 
 ### Notifications
 
-- **Issue:** </br> If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.
+- **Issue:**   If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.
 Details: The @mention Everyone feature still to be implemented.
 
-- **Issue:** </br>Some Teams users aren't receiving notifications of chat mentions, meetings or calls.
+- **Issue:**  Some Teams users aren't receiving notifications of chat mentions, meetings or calls.
 DYou aren't receiving notifications of chat mentions, meetings, or calls. 
 Details:  Review your Windows Notification settings. From the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preferences.
 
 ### Presence
 
-- **Issue:** </br>Occasionally when a user is in a meeting, their Presence Status shows as Available.
-- **Issue:** </br>Sometimes, users are not able to reset presence status
-- **Issue:** </br>The preview thumbnail for Teams appears but there are no presence buttons.
+- **Issue:**  Occasionally when a user is in a meeting, their Presence Status shows as Available.
+- **Issue:**  Sometimes, users are not able to reset presence status
+- **Issue:**  The preview thumbnail for Teams appears but there are no presence buttons.
 
 
 ## Teams and Channels
 
-- **Issue:** </br> You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
+- **Issue:**   You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
 
-- **Issue:** </br> Member and guest counts are occasionally displayed incorrectly in the members' tab.
+- **Issue:**   Member and guest counts are occasionally displayed incorrectly in the members' tab.
 
-- **Issue:** </br> Limited options on Team Channel properties Dialog, including:
+- **Issue:**   Limited options on Team Channel properties Dialog, including:
   - Pin, Manage Channel and Get Email Address available
   - Limited team site properties dialog – Hide, Manage Team, and Manage Tags available
   - Adding a tab to a channel is not currently available.
   - Webhooks not supported
 
-- **Issue:** </br> Attendance report doesn't show after a meeting.
+- **Issue:**   Attendance report doesn't show after a meeting.
 Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report.  There is no option to download a report of an older channel meeting at this time.
 
 ## Other areas:
 
-- **Issue:** </br> Right-clicking on the back button (next to Search) doesn't bring the old history for you to navigate.
+- **Issue:**   Right-clicking on the back button (next to Search) doesn't bring the old history for you to navigate.
 
-- **Issue:** </br> If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.
+- **Issue:**   If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.
 Workaround: Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications and enable it with Focus/Do not Disturb mode.
 
-- **Issue:** </br> If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).
+- **Issue:**   If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).
 Workaround: Before joining a meeting, sign in with primary tenant account.
