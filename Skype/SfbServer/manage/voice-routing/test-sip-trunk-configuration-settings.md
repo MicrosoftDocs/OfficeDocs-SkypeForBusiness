@@ -1,4 +1,5 @@
 ---
+ms.date: 10/03/2018
 title: "Skype for Business Server - Test SIP trunk configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -33,3 +34,4 @@ This command verifies that the trunk configuration settings for the Redmond site
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
 Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
 ```
+

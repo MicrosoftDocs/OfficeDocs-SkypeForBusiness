@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Conference Detail Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -76,5 +77,6 @@ The following table lists the information provided in the Conference Modalities 
 |**Leave time** <br/> |Date and time that a participant left the conference.  <br/> |
 |**Conferencing server URI** <br/> |URI for the Conferencing server used in the conference.  <br/> |
 |**Diagnostic reports** <br/> |Provides diagnostic and troubleshooting information. Including SIP response codes, diagnostic headers, conference join times, and diagnostic IDs for failed sessions.  <br/> |
+
 
 

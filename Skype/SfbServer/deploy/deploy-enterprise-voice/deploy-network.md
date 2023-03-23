@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy network regions, sites and subnets in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -326,3 +327,4 @@ For example, if the IP address list in the alert specifies 10.121.248.226 and 10
 [Set-CsNetworkSubnet](/powershell/module/skype/set-csnetworksubnet)
 
 [Remove-CsNetworkSubnet](/powershell/module/skype/remove-csnetworksubnet)
+

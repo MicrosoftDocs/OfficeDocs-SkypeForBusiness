@@ -7,10 +7,12 @@ ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -186,7 +188,7 @@ The following components are pre-requisites for successful installation:
    1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click **Select**.
       For more information, see [Add groups to organize users and devices](https://go.microsoft.com/fwlink/?linkid=2202166) and [Assign apps to groups with Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
 1. Click **Next** to display the **Review + create** page.
-1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
+1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
 
 Once the process is completed, your devices will start installing the MTR Pro agent after a few minutes.
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Call flow using ExpressRoute"
 ms.author: tonysmit
 author: tonysmit
@@ -234,3 +235,4 @@ Users that will connect to Cloud Connector Edition are all homed Online. This me
 ## Related topics
 
 [ExpressRoute documentation](/azure/expressroute/)
+

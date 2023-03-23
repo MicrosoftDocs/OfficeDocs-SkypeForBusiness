@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Schema (Invoke)"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ The **Executing Commands** page displays a summary of the commands that are issu
   
 Click **Finish** to complete the task.
   
+
 

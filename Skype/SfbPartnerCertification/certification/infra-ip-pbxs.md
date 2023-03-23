@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Skype for Business Certification Program: Gateways"
 ms.author: serdars
 author: msdmaguire
@@ -37,4 +38,5 @@ These devices haven't gone through the formal certification program nor was test
 All IP PBXs tested with Lync Server 2013 are forward compatible and supported with Skype for Business 2015. Review the Lync Server 2013 supported and qualified [IP PBXs and Gateways](../lync-cert/qualified-ip-pbx-gateway.md).
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs details.
+
 

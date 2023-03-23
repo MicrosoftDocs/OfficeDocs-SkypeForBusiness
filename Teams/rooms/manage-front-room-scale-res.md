@@ -8,13 +8,14 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - tier1
+  - Tier1
 description: Remotely configure the scale, resolution, and default layout of displays on Microsoft Teams Rooms systems.
 ---
 

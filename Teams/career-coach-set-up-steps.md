@@ -124,7 +124,7 @@ Career Coach is a Microsoft application, and so it must be allowed within Teams 
 2. In the left navigation, select **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 3. Select your preferred policy.
-    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 Learn more about [configuring permission policies](teams-app-permission-policies.md).
 
@@ -132,18 +132,18 @@ Learn more about [configuring permission policies](teams-app-permission-policies
 
 This step ensures Career Coach is properly configured for your institution and students can find Career Coach.
 
-1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
-2. Select **Teams apps** > **Setup policies**, and select your preferred policy.
-    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+2. Select **Teams apps** > **Setup policies**, and select your preferred policy.
+    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
-3. Under **Installed apps**, select **+ Add apps**.
+3. Under **Installed apps**, select **+ Add apps**.
 
 4. In the **Add installed apps** pane, search for the apps you want to automatically install for users when they start Teams. You can also filter apps by app permission policy.
 
-5. When you've chosen your list of apps, select **Add**.
+5. When you've chosen your list of apps, select **Add**.
 
-6. Select **Save** > **Confirm**.
+6. Select **Save** > **Confirm**.
 
 Editing or assigning a policy can take a few hours for changes to take effect. The Career Coach won't be available in Microsoft Teams until the changes are complete.
 
@@ -182,10 +182,10 @@ To set up and configure Career Coach settings for your institution, follow these
 
 To configure Career Coach settings and allow it for users, you must be a global admin or Teams service admin to access the page.
 
-1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
-2. In the left navigation, select **Teams apps** > **Manage apps**.
-3. Search or browse for **Career Coach**.
-4. Select **Career Coach**, and then **Settings**.
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+2. In the left navigation, select **Teams apps** > **Manage apps**.
+3. Search or browse for **Career Coach**.
+4. Select **Career Coach**, and then **Settings**.
 
 ![Screenshot that shows the Career Coach app selected with the Settings tab selected.](media/career-coach-app-updated.png)
 
@@ -230,7 +230,7 @@ The process of adding the LinkedIn School Page URL is handled by a Teams Adminis
 
 6. Select **Submit**.
 
-7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
+7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
 8. Copy the **Verification link** and share it with your educational institution’s LinkedIn School Page Super admin.
 
@@ -304,7 +304,7 @@ These courses are used within Career Coach in two areas:
 
 To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file using the [course catalog document format and schema](#course-catalog-document-format-and-schema).
 
-Start with the [sample course catalog](https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting.  You can also reference the [course catalog document format and schema](#course-catalog-document-format-and-schema) sections for details on required and recommended fields.
+Start with the [sample course catalog](https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting.  You can also reference the [course catalog document format and schema](#course-catalog-document-format-and-schema) sections for details on required and recommended fields.
 
 ##### Add the course catalog
 
@@ -332,7 +332,7 @@ To upload a new file, ensure the last file is cleared by selecting (**X**) to cl
 
 The document needs to be in CSV format with a maximum size of 18 MB. Large files should be split into multiple smaller files that include a maximum of 15,000 rows for successful processing.
 
-The document must contain the required course metadata: **course title**, **course ID**, and **course URL**.
+The document must contain the required course metadata: **course title**, **course ID**, and **course URL**.
 
 Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting. *Including the recommended fields improves the experience for students by returning better search results and skill identification.*
 
@@ -462,7 +462,7 @@ Next, follow these steps to ensure Career Coach is available to your institution
 
 ### Assign Career Coach licenses to users
 
-For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
+For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Set up policies and pin the app
 
@@ -478,7 +478,7 @@ Pinning Career Coach will add it to the left rail of the Microsoft Teams window 
 
 4. Select your preferred policy under **Search based on this app permission policy**.
 
-5. Search for **Career Coach** under **Search by name**, and then select **Add** > **Add** to close the pane.
+5. Search for **Career Coach** under **Search by name**, and then select **Add** > **Add** to close the pane.
 
 6. Choose the order for the app to appear and select **Confirm**.
 

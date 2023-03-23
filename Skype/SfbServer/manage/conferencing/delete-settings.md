@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Delete meeting configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -49,3 +50,4 @@ Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 
 For more information, including a complete list of parameters, see [Remove-CsMeetingConfiguration](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps).
+

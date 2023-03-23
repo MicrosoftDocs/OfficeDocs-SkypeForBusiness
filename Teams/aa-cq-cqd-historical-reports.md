@@ -28,8 +28,8 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 # Auto attendant and call queue historical reports
 
-> [!NOTE]
-> GCC High and DOD customers should continue to use V1.63 of [Auto Attendant & Call Queue Historical Reports (CQD)](aa-cq-cqd-historical-reports-v163.md).
+> [!IMPORTANT]
+> These reports aren't currently available for GCC High and DoD customers.
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by auto attendants and call queues.  It also provides agent performance insights.
 
@@ -297,8 +297,6 @@ You'll have to refresh the data to see any new data.
 > When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
 ## Known issues
-
-- The **Call Results** visual on the **Call Queue** report may report a large number of ***Unknown*** calls. This is due to a call classification issue that Support is working to correct.  This is a call classification issue only, and these calls were successfully processed by the system.
 
 - Only the calls and caller actions in the first auto attendant or call queue that answers the call are reported on.  Calls and caller actions in chained auto attendants (when one auto attendant transfers to another auto attendant) or chained call queues (when one call queue transfers to another call queue) aren't reported on. 
 

@@ -40,7 +40,7 @@ The following prerequisites are required for the user to schedule a Teams live e
 Here are the licenses that must be assigned to organize, produce or present a Teams live event:  
 
 - **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license.
-- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guests can present without a license if the other criteria for [guests](plan-for-teams-live-events.md#guest-to-present) is met.
 - A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
 
 > [!NOTE]
@@ -81,9 +81,9 @@ As a best practice, we recommend that you create a channel for producers and pre
 | Attendee visibility | Teams production | External app or device production | Teams Powered Encoder
 |------------------------------|-----------------|----------------------|----------------|
 |Public (anonymous users)      |  Yes            |  No                  | Yes
-|Guest users                   |  Yes<sup>1</sup>            |  No                  |  Yes            |
-|Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  | Yes            |
-|Everyone in company           |  Yes            |  Yes                 | Yes                |
+|Guests                   |  Yes<sup>1</sup>            |  No                  |  Yes            |
+|People in external access trusted organizations |  Yes<sup>1</sup>|  No                  | Yes            |
+|Everyone in the organization           |  Yes            |  Yes                 | Yes                |
 |Specific groups / people      |  Yes            |  Yes                 | Yes                |
 
 <sup>1</sup> Can only be invited through People & Group <br>
@@ -118,7 +118,7 @@ The following table highlights core capabilities and features offered in live ev
 |Allows multiple presenters |&#x2714; (Teams) |N/A  |
 |Invite a presenter during the meeting |&#x274C; |N/A |
 |Presenter join on Web and Mobile |&#x274C; |N/A |
-|External access (federation) & Guest presenters/attendees |&#x2714; (Teams) |N/A |
+|External access & guest presenters/attendees |&#x2714; (Teams) |N/A |
 |Presenter – PSTN access |&#x2714; (Teams) |N/A |
 |Present a screen |&#x2714; (Teams) |N/A |
 |Share system audio on Windows (available only when screen sharing)|&#x2714; (Teams) |&#x2714; |

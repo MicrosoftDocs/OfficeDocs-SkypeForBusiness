@@ -10,12 +10,14 @@ ms.reviewer: sohailta
 ms.date: 10/05/2022
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: Learn how to secure your Microsoft Teams for Android devices.
 ---
 

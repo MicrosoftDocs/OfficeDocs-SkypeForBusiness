@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Mediation Server With Edge"
 ms.reviewer: 
 ms.author: serdars
@@ -30,4 +31,5 @@ To define a Mediation Server, specify settings that associate the Mediation Serv
   
 For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
+
 
