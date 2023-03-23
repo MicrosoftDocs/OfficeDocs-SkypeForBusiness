@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: svemu
-ms.date: 12/21/2018
+ms.date: 03/23/2023
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
@@ -63,6 +63,7 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No|Number of users using advanced Virtual Appointments capabilities<br>Number of users who use SMS text notifications<br>Number of users who use lobby chat (coming soon)<br>Number of users who conduct on-demand appointments|
 |[Teams EHR connector Virtual Appointments report](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No| Start time<br>Duration<br>Primary (name of meeting organizer)<br>Primary's email (email of meeting organizer)<br>Department<br>Attendants<br>Lobby wait time<br>Whether the appointment is within the allocation limit|
 |[Walkie Talkie usage and performance report](walkie-talkie-usage-report.md) |Yes|Yes|No|No| Metrics include the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.|
+|[SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-reportbc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|No|No|No| Sent time <br> Sent from <br> SMS notification type <br> Product type <br> Status |
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## Make the user specific data anonymous
