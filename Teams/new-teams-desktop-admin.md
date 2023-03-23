@@ -359,7 +359,7 @@ Workaround: As an organizer, if you plan to run Breakout sessions, switch back t
 
 - **Issue:** </br>In Settings->Devices, users can't preview their video. 
 
-- **Issue:** </br>Users won't be able to start a "Screensharing call"
+- **Issue:** </br>Users won't be able to start a "Screen sharing call".
 Details:  Users on Windows 11 can’t share the app using the taskbar. 
 Workaround Share the app or window using the share tray within Teams meeting. 
 
@@ -391,7 +391,6 @@ Details:  Review your Windows Notification settings. From the upper-right corner
 - **Issue:** </br>Occasionally when a user is in a meeting, their Presence Status shows as Available.
 - **Issue:** </br>Sometimes, users are not able to reset presence status
 - **Issue:** </br>The preview thumbnail for Teams appears but there are no presence buttons.
-
 
 
 ## Teams and Channels
