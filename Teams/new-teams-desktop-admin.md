@@ -65,17 +65,16 @@ Possible causes:
 
 A full list of registry keys can be found here: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
  
-“BlockNonAdminUserInstall “, “AllowAllTrustedApps” and “AllowDevelopmentWithoutDevLicense” are registry keys that could block new Teams MSIX package installation. These regkeys can be found at one of these location:
-
-- "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock"
-- "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx"
+“BlockNonAdminUserInstall “, “AllowAllTrustedApps” and “AllowDevelopmentWithoutDevLicense” are registry keys that could block new Teams MSIX package installation. These registry keys can be found at one of these locations:
+  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
+  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
  
-There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation are: 
+There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation include: 
 
 - Prevent non-admins users from installing packaged Windows apps
 - Allow all trusted apps to install (disabled)
 
-**How can you check this setting for your commputer?**
+**To check this setting for your commputer**
 
 1. In Windows, search for **Edit Group Policy**.
 2. This will open the Local Group Policy Editor screen.
