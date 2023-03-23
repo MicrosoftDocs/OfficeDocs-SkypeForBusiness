@@ -43,6 +43,9 @@ ms.localizationpriority: high
 >**Platforms:**  Mac, VDI, Web</br>
 >**Customer segments:** Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
+>[!Tip]
+>To learn more go to the https://aka.ms/newTeams 
+
 ## What is the new Teams?
 
 The new Microsoft Teams client has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
@@ -235,12 +238,11 @@ If you still don’t see the toggle, try:
 6. Relaunch the Teams app one more time, and you should see the toggle switch.
 
 
-
 ## What features are still missing?
 
 While many of the features you're familiar with in classic Teams are already in the new experience, others—like avatars and app notifications—are still being worked on. </br>
 
-[**Find the latest information on upcoming features for the new Teams**](/adoption-dev.azurewebsites.net/en-us/dev/new-microsoft-teams).
+[**Find the latest information on upcoming features for the new Teams**](https://aka.ms/newTeams).
 
 ## What features are changing?
 
