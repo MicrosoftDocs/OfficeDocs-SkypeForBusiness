@@ -65,7 +65,7 @@ You must be either a global admin, global reader, or Teams service admin to view
 
 ## Managing apps in the Microsoft Teams admin center
 
-For more information about how to manage your Teams apps, refer to [About apps in Microsoft Teams](/microsoftteams/apps-in-teams.md).
+For more information about how to manage your Teams apps, refer to [About apps in Microsoft Teams](../apps-in-teams.md).
 
 To link an app in this report to the Manage Apps experience in the Microsoft Teams admin center, you can use the following:
 
