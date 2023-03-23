@@ -58,7 +58,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 
    -  **Forced** 
        - This option enables Teams Public Preview for the end user.
-       - There is no action required by the end user
+       - There is no action required by the end user.
        
     ![shows the preview settings dialog.](media/forced-preview.png)  
 
