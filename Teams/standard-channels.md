@@ -3,6 +3,7 @@ title: Overview of standard channels in Microsoft Teams
 author: MachelleTranMSFT
 ms.author: mactra
 manager: serdars
+ms.reviewer: mikeplum
 ms.topic: overview
 ms.date: 3/17/2023
 audience: Admin
@@ -32,13 +33,38 @@ By default, every team created in Microsoft Teams has a "**General**" channel. S
 > [!TIP]
 > Conversations and shared files in a standard channel are also searchable within the channel and across the team.
 
+## How are SharePoint sites and Teams standard channels linked?
+
+SharePoint sites let you create web pages and store files. When a SharePoint site is also used by Teams, it becomes a Teams-connected site.
+
+A Teams-connected site is created during the following scenarios:
+
+- Create a new team from scratch
+- Create a new team from an existing Microsoft 365 group
+- Add Microsoft Teams to any existing SharePoint site
+- Create a new private or shared channel
+
+Standard channels will share one SharePoint site known as the parent site. Each standard channel is listed as a folder in the **Files** tab of a team. All team owners and members can access the site.
+
 ## Features of standard, private and shared channels
 
-| Channel type | Visibility | Accessibility | Use cases | Permissions |
-|--------------|------------|--------------|-----------|-------------|
-| Standard     | Team       | All members  | Group discussions, project updates, file sharing | None |
-| Private      | Restricted | Subset of team members | Sensitive information, restricted discussions | Team owner/IT administrator |
-| Shared       | Cross-organizational | Both organizations | Cross-organizational projects, communication | Organization-level |
+|  Channel type | Visibility | Accessibility | Use cases |
+|--------------|------------|--------------|-----------|
+| ***Standard***    | Team       | All members  | Group discussions, project updates, file sharing |
+| ***Private***      | Restricted | Subset of team members | Sensitive information, restricted discussions |
+| ***Shared***       | Cross-organizational | Both organizations | Cross-organizational projects, internal collaboration
+
+## Standard channel owner and member actions
+
+The following table outlines what actions owners, members, and guests can do in standard channels.
+
+|***Standard channel tasks*** | **Team owner** | **Team member**|
+|----|----|----|
+|Create/Delete channel  |     Yes    |    Yes, if enabled by team owner      |
+| Restore deleted channel    |    Yes    |    Yes, if enabled by team owner    |
+|Add member to channel    |    Yes    |    Yes, if team owner approves request    |
+|Edit channel name/description    |    Yes     |     Yes, if enabled by team owner    |
+Manage tabs and apps    |    Yes    |    Yes, if enabled by team owner    |
 
 ## Use case scenarios for standard channels
 
