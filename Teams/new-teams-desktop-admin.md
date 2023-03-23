@@ -48,14 +48,15 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 
 ## Prerequisites
 
-
-- Windows 10 version 10.0.19041 or higher or Windows 11 version 22000.856 or higher
-- Your current Teams app must be running version 1.5.00.29212 or higher to see the *Try the new Teams* toggle. If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. 
-- Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.
+|Requirement|Version|
+|:-----|:-----|
+|Windows| Windows 10 version 10.0.19041 or higher or Windows 11 version 22000.856 or higher|
+|Teams app|Version 1.5.00.29212 or higher to see the *Try the new Teams* toggle. </br></br>If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. |
+|Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
 ## App installation
 
-If your users are experiencing issues installing the app,  as an administrator you may have set some restrictions preventing them from downloading and installing the app.  You might see this error: 
+If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
 
 Possible causes:
 •	MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
