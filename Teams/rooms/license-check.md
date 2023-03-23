@@ -21,11 +21,13 @@ description: Learn how to find user licenses that have been assigned to Teams Ro
 
 # Find user licenses assigned to Teams Rooms devices
 
-User licenses aren't supported for use with meeting devices. User licenses that have been assigned to teams meeting devices need to be replaced by a Teams Rooms Basic or Teams Rooms Pro license prior to July 1, 2023. They may also be assigned legacy licenses Teams Rooms Standard and Teams Rooms Premium. Meeting devices that have a user subscription license after July 1, 2023 will be unable to sign in until a Teams Rooms license is assigned.
+User licenses aren't supported for use with meeting devices. User licenses that have been assigned to teams meeting devices need to be replaced with a Teams Rooms Basic or Teams Rooms Pro license prior to July 1, 2023. They may also be assigned legacy licenses Teams Rooms Standard and Teams Rooms Premium. Meeting devices that have a user subscription license after July 1, 2023 will be unable to sign in until a Teams Rooms license is assigned.
 
 Also, Microsoft Teams Shared Devices licenses aren't supported on and won't work with Teams Rooms devices. Teams Rooms devices should only be assigned Teams Rooms Basic or Teams Rooms Pro licenses.
 
 To determine your license position, we suggest two ways to check your machines depending on the number of devices you have in your organization.  
+
+For information about Teams Rooms licensing, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
 
 ## To check the license of a few Teams Rooms devices
 
@@ -40,6 +42,13 @@ To determine your license position, we suggest two ways to check your machines d
 - Devices with other licenses can access a subset of those features. You can see which features are available to each license in Comparison of Teams Rooms feature availability by license.
 
 ## Checking the License of Multiple Microsoft Teams Rooms Devices in Bulk
+
+Checking licenses for Teams Room devices one at a time can be time consuming. To make this process easier, we're making available a sample script that checks the licenses of all your Teams Rooms devices. The script provides you with a list of the resource accounts that are associated with your Teams Rooms devices, organized by license type. Resource accounts with licenses that aren't supported with Teams Rooms devices are grouped together for your review. If resource accounts associated with Teams Rooms devices have an unsupported license type, you'll need to change it to a supported license before July 1, 2023.
+
+Take a look at this short video to see how to use the example script to audit your licenses:
+
+> [!VIDEO https://www.youtube.com/embed/Jd_dT4beJDw]
+
 
 ```PowerShell
 <#PSScriptInfo,  
