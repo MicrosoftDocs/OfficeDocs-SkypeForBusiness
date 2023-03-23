@@ -4159,6 +4159,11 @@
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md",
     "redirect_url": "/microsoftteams/phone-reference/plan-availability/users-can-make-outbound-calls-to-these-countries-and-regions",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md",
+    "redirect_url": "/microsoftteams/phone-reference/plan-availability/calling-plan-overview",
+    "redirect_document_id": true
   }
   ] 
 }
