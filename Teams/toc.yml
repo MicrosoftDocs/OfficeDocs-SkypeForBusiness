@@ -1565,7 +1565,7 @@ items:
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
-      href: deploy-apps-microsoft-teams-landing-page.md
+      href: apps-in-teams.md
     - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Admin app
