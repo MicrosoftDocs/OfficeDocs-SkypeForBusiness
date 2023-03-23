@@ -3,7 +3,7 @@ title: Teams Rooms on Windows and Android feature comparison
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
-ms.date: 06/03/2022
+ms.date: 03/23/2023
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -14,7 +14,7 @@ description: A guide comparing the Teams devices for shared spaces features betw
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - Tier1
+  - Tier2
 f1.keywords: 
   - NOCSH
 localization_priority: Normal
