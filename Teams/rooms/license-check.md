@@ -1,5 +1,5 @@
 ---
-title: Find user licenses assigned to Teams Rooms devices 
+title: Find Teams Rooms devices with unsupported licenses 
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -16,10 +16,10 @@ ms.collection:
   - Tier1
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-description: Learn how to find user licenses that have been assigned to Teams Rooms devices.
+description: Learn how to find Teams Rooms devices with unsupported licenses.
 ---
 
-# Find user licenses assigned to Teams Rooms devices
+# Find Teams Rooms devices with unsupported licenses
 
 Resource accounts that only have user licenses or Microsoft Teams Shared Device licenses assigned to them aren't supported for use with Microsoft Teams Rooms devices. Resource accounts used with Teams Rooms devices need to be assigned one of the following licenses:
 
