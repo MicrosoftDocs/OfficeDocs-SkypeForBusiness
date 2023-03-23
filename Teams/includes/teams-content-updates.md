@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 
 
 ## Week of March 13, 2023
@@ -68,7 +69,7 @@
 | 3/7/2023 | Reset a conference ID for a user in Microsoft Teams | removed |
 | 3/7/2023 | See, change, and reset a user's conference ID | removed |
 | 3/8/2023 | [Admin training resources - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modified |
-| 3/8/2023 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 3/8/2023 | [Know about apps in Microsoft Teams](/MicrosoftTeams/apps-in-teams) | modified |
 | 3/8/2023 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
 | 3/8/2023 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
 | 3/8/2023 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
