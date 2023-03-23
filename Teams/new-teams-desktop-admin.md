@@ -41,10 +41,10 @@ ms.localizationpriority: high
 >The new Teams client **is not** available for the following during the preview phase:
 >
 >**Platforms:**  Mac, VDI, Web</br>
->**Customer segments:** Special cloud (GCC High, DoD, Gallatin, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
+>**Customer segments:** Special cloud (GCC High, DoD, Microsoft 365 operated by 21Vianet in China, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 >[!Tip]
->To learn more go to the https://aka.ms/newTeams 
+>Visit our [Microsoft Adoption site to learn more about the new Teams!](https://aka.ms/newTeams )
 
 ## What is the new Teams?
 
@@ -57,7 +57,7 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Requirement|Version|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher or </br>Windows 11 version 22000.856 or higher|
-|Teams app|Version 1.5.00.29212 or higher to see the *Try the new Teams* toggle. </br></br>If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. |
+|Teams app|Version 1.5.00.29212 </br></br>If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
 
