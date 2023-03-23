@@ -37,7 +37,6 @@ ms.localizationpriority: high
 - [What features are changing?](#what-features-are-changing)
 - [Known issues](#known-issues)
 
-
 >[!Important]
 >The new Teams client **is not** available for the following during the preview phase:
 >
@@ -57,8 +56,6 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Windows| Windows 10 version 10.0.19041 or higher or Windows 11 version 22000.856 or higher|
 |Teams app|Version 1.5.00.29212 or higher to see the *Try the new Teams* toggle. </br></br>If you are at a lower version, click on the overflow menu (…) and click on check for updates, update, and restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
-
-
 
 
 ## How to roll out new Teams
@@ -270,24 +267,15 @@ If you still don’t see the toggle, try:
 6. Relaunch the Teams app one more time, and you should see the toggle switch.
 
 
-
 ### General
 
 - **Issue:**  Organization tab isn't available on chat
-Details: The organization tab has moved to a person's Microsoft 365 contact card. To view this, select someone's profile pic and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
+Details: The organization tab has moved to a person's Microsoft 365 contact card. To view this, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 ### Accessibility
 
 - **Issue:**  There may be accessibility gaps between new and classic Teams.
 If you discover any accessibility gaps, select **Give Feedback**.
-
-### Calendar
-
-- **Issue:**   There is no option to add a Channel calendar to a channel.
-Workaround:  Switch back to classic Teams to use this feature.
-
-- **Issue:**   Unable to add an app in scheduling form
-Workaround:  Switch back to classic Teams to use this feature.
 
 ### Apps
 
@@ -296,6 +284,15 @@ Workaround:  Switch back to classic Teams to use this feature.
 - **Issue:**  New Teams doesn't have the option to install/uninstall any app yet. So, the only apps installed in classic Teams will show up in new Teams. If we want to add new app, please add them in classic Teams so that they get added to new Teams as well. 
 
 - **Issue:**  While all  the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, store navigation are still pending.
+
+
+### Calendar
+
+- **Issue:**   There is no option to add a Channel calendar to a channel.
+Workaround:  Switch back to classic Teams to use this feature.
+
+- **Issue:**   Unable to add an app in scheduling form
+Workaround:  Switch back to classic Teams to use this feature.
 
 
 
@@ -403,7 +400,7 @@ Details:  Review your Windows Notification settings. From the upper-right corner
 - **Issue:**  The preview thumbnail for Teams appears but there are no presence buttons.
 
 
-## Teams and Channels
+### Teams and Channels
 
 - **Issue:**   You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
 
