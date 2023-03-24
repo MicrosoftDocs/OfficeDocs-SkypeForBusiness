@@ -258,15 +258,15 @@ The following list of policies can block users from seeing the app switcher togg
 5. Check **isAboveWin10Vibranium**.
   -  If true, the OS version is >= what is needed for app switcher  
   - If false, the OS is older than what we support. 
-6. Check the code.  and here’s what each code means: 
+6. Check the code to find out the cause.
 
 |Code|Meaning|
 |:-----|:-----|
-|TFLONLY|You are only signed into TFL|
-|TFLANDTFW| You are signed into TFL and TFW|
+|TFLONLY|You are only signed into *Teams for Life*|
+|TFLANDTFW| You are signed into *Teams for Life* and *Teams for Work*|
 |SPECIALCLOUD| You are signed into a special cloud that isn’t supported.|
-|CROSSCLOUD| You are signed into a government cloud| 
-|VDI|You are signed into a VDI machine (VMWare, Citrix, AVD/WV)|
+|CROSSCLOUD| You are signed into a government cloud.| 
+|VDI|You are signed into a VDI machine (VMWare, Citrix, AVD/WV).|
 
 
 #### Update and restart message in title bar
