@@ -274,16 +274,15 @@ There are a few known issues we're working on.
 
 ### General
 
-**Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.  
-Solution:  Install the Office and Windows security updates as it applies to your organization.  Learn more on [Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)
+**Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
+  
+Solution:  Install the Office and Windows security updates as it applies to your organization.  [Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)
 
 |Channel|Version & Build|
 |:-----|:-----|
 |Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944</br> |
 |Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
 |Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
-
-
 
 
 
@@ -335,6 +334,8 @@ Workaround:  Open the action center to view secondary incoming call toasts
 
 - **Issue:**  You can't search for external users even if you enter full email address.
 
+- **Issue:**  If you receive a message where @mention *Everyone* is used, it will show in your feed as a personal mention.</br>
+Details: The @mention Everyone feature is still pending for this release.
 
 ### Meetings
 
@@ -404,17 +405,16 @@ Workaround:  Switch back to classic Teams if the user needs access earlier thatn
 
 ### Notifications
 
-- **Issue:**   If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.
-Details: The @mention Everyone feature still to be implemented.
+- **Issue:**   If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.</br>
+Details: The @mention Everyone feature is still pending for this release.
 
 - **Issue:**  Some Teams users aren't receiving notifications of chat mentions, meetings or calls.
-DYou aren't receiving notifications of chat mentions, meetings, or calls. 
 Details:  Review your Windows Notification settings. From the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preferences.
 
 ### Presence
 
 - **Issue:**  Occasionally when a user is in a meeting, their Presence Status shows as Available.
-- **Issue:**  Sometimes, users are not able to reset presence status
+- **Issue:**  Sometimes users are not able to reset presence status.
 - **Issue:**  The preview thumbnail for Teams appears but there are no presence buttons.
 
 
