@@ -242,8 +242,8 @@ There are a few policies that could alter these registry keys and block app inst
 The following list of policies can block users from seeing the app switcher toggle today.
 
 - If the user is on a VDI computer (Citrix, VMWare etc.). 
-- If the user has a *Teams for Life* account and is signed in to classic Teams and a work account. 
-- If have a *Teams for life* account signed in classic Teams.
+- If the user is signed into classic Teams with a *Teams for Life* account and a work account. 
+- If the users is signed into classic Teams with a *Teams for life* account.
 - If you have an MSIX client. 
 
 
