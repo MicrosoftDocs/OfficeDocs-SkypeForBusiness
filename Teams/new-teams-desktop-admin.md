@@ -237,7 +237,7 @@ There are a few policies that could alter these registry keys and block app inst
 - After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
 
-#### Policies blocking the user from seeing the App switcher toggle
+#### Policies that could block the user from seeing the App switcher toggle
 
 The following list of policies can block users from seeing the app switcher toggle today.
 
