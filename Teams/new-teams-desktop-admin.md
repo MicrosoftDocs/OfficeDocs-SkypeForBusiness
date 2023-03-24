@@ -236,6 +236,17 @@ There are a few policies that could alter these registry keys and block app inst
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
 - After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
 
+
+#### Policies blocking the user from seeing the App switcher toggle
+
+The following list of policies can block users from seeing the app switcher toggle today.
+
+- If the user is on a VDI computer (Citrix, VMWare etc.). 
+- If the user has a *Teams for Life* account and is signed in to classic Teams and a work account. 
+- If have a *Teams for life* account signed in classic Teams.
+- If you have an MSIX client. 
+
+
 #### Update and restart message in title bar
 
 Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
