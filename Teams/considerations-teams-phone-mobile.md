@@ -1,5 +1,5 @@
 ---
-title: Considerations for Teams phone mobile
+title: Considerations for Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -26,12 +26,12 @@ ms.custom:
   - ms.lync.lac.AddressAndLocation
   - Calling Plans
   - Direct Routing
-description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
+description: "Learn about considerations to take into account with emergency calling for Teams Phone Mobile, including dynamic emergency calling and emergency call routing."
 ---
 
 # Considerations for Teams Phone Mobile
 
-The following sections describe how to manage emergency calling for Teams Phone Mobile users. To find out whether Teams Phone Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+This article describes how to manage emergency calling for Teams Phone Mobile users. To find out whether Teams Phone Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ## Emergency call enablement for Teams Phone Mobile
 

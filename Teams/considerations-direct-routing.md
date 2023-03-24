@@ -25,12 +25,12 @@ ms.custom:
   - ms.lync.lac.AddressAndLocation
   - Calling Plans
   - Direct Routing
-description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
+description: "Learn about considerations to take into account with emergency calling for Direct Routing, including dynamic emergency calling and emergency call routing."
 ---
 
 # Considerations for Direct Routing
 
-The following sections describe how to manage emergency calling for Direct Routing users. To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+This article describes how to manage emergency calling for Direct Routing users. To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ## Emergency call enablement for Direct Routing
 

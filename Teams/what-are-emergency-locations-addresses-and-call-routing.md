@@ -34,8 +34,7 @@ description: "Learn about emergency calling, including information about emergen
 
 This article describes concepts you'll need to know to manage emergency calling&mdash;it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing.
 
-This article uses the following terminology for emergency calling:
-
+The following table provides critical concepts and definitions to be used for emergency calling:
 
 |  | Definition | Example |
 |---|---|---|
@@ -44,22 +43,15 @@ This article uses the following terminology for emergency calling:
 | **Emergency location** | A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location.</br></br> When you create an emergency address, a unique location ID is automatically created for this address. If you add a place to an emergency address&mdash;for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.</br></br>When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site. | i.e. |
 | **Registered address** | An emergency address that is assigned to each user. A registered address is sometimes referred to as a "static emergency address" or "address of record". Currently, registered addresses are not supported for Direct Routing. Check back soon for updates. | i.e. |
 
-There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md).
+## Emergency address
 
-For your specific PSTN connectivity setup, read the following considerations:
-
-- [Calling Plan considerations](considerations-calling-plan.md)
-- [Operator Connect considerations](considerations-operator-connect.md)
-- [Teams Phone Mobile considerations](considerations-teams-phone-mobile.md)
-- [Direct Routing considerations](considerations-direct-routing.md)
-
-## Emergency address validation
+### Emergency address validation
 
 To assign an emergency address to a user or to a network identifier, you must ensure that the emergency address is marked as "validated." Address validation ensures that the address is legitimate, and that it cannot be modified after it is assigned.
 
 If you define an emergency address by using the address map search feature in the Teams admin center, the address is automatically marked as validated. Because you cannot modify a validated emergency address&mdash;if the format or representation of the address changes, you must create a new address with the updated format.
 
-## Associate a geo code with an Emergency address
+### Emergency address geo codes
 
 Each emergency address can have a geo code (latitude and longitude) associated with it. These geo codes are used in some countries to assist in routing emergency calls with dynamic locations.
 
@@ -69,6 +61,10 @@ Microsoft recommends that you create emergency addresses by using the map search
 
 >[!Important]
 >To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.
+
+## Dynamic emergency address
+
+## Emergency call routing
 
 ## Security desk notification
 
@@ -126,6 +122,17 @@ To create this custom emergency disclaimer with PowerShell, run the following sc
 ```powershell
 Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -EnhancedEmergencyServiceDisclaimer "Emergency test acknowledgement"
 ```
+
+## Considerations for managing emergency calling based on PSTN connectivity setup
+
+There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md).
+
+For your specific PSTN connectivity setup, read the following considerations:
+
+- [Calling Plan considerations](considerations-calling-plan.md)
+- [Operator Connect considerations](considerations-operator-connect.md)
+- [Teams Phone Mobile considerations](considerations-teams-phone-mobile.md)
+- [Direct Routing considerations](considerations-direct-routing.md)
 
 ## Related topics
 

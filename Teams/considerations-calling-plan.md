@@ -1,5 +1,5 @@
 ---
-title: Considerations for Teams phone mobile
+title: Considerations for Calling Plan
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,12 +25,12 @@ ms.custom:
   - ms.lync.lac.AddressAndLocation
   - Calling Plans
   - Direct Routing
-description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
+description: "Learn about considerations to take into account with emergency calling for Calling Plan, including dynamic emergency calling and emergency call routing."
 ---
 
 # Considerations for Calling Plans
 
-The following sections describe how to manage emergency calling for Microsoft Calling Plan users. To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+This article describes how to manage emergency calling for Microsoft Calling Plan users. To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ## Emergency call enablement for Calling Plans
 

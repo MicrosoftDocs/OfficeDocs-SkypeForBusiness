@@ -31,7 +31,7 @@ description: "Learn about emergency calling, including information about emergen
 
 # Considerations for Operator Connect
 
-The following sections describe how to manage emergency calling for Operator Connect users. To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+This article describes how to manage emergency calling for Operator Connect users. To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ## Emergency call enablement for Operator Connect
 
