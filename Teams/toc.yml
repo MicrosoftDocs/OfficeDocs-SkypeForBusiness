@@ -1051,7 +1051,7 @@ items:
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
 
-        - name: Manage phone numbers for Calling Plan
+        - name: Manage phone numbers for Calling Plan and services
           items: 
             - name: Overview
               href: manage-phone-numbers.md
