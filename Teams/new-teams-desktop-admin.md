@@ -188,7 +188,7 @@ If your users are experiencing issues installing the app, as an administrator yo
 
 :::image type="content" source="media/new-teams-install-error.png" alt-text="error when attempting to install the new teams desktop client":::
 
-It is possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
+It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
 
 For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
  
@@ -276,7 +276,7 @@ There are a few known issues we're working on.
 
 - **Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
   
-Solution:  Install the Office and Windows security updates as it applies to your organization.  [Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)
+Solution: Install the Office and Windows security updates as it applies to your organization.  [Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)
 
 |Channel|Version & Build|
 |:-----|:-----|
