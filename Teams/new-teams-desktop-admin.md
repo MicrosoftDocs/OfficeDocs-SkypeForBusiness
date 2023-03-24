@@ -40,7 +40,7 @@ ms.localizationpriority: high
 >[!Important]
 >The new Teams client **is not** available for the following during the preview phase:
 >
->**Platforms:**  Mac, VDI, Web
+>**Platforms:**  Mac, VDI, Web</br>
 >**Customer segments:**  Special cloud (GCC High, DoD, Microsoft 365 operated by 21Vianet in China, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 >[!Tip]
