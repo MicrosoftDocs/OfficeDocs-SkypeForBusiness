@@ -33,7 +33,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by auto attendants and call queues.  It also provides agent performance insights.
 
-## V3.0.7 published on February 16, 2023
+## V3.0.8 published on April XX, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -51,6 +51,10 @@ You need to have Power BI Desktop installed. You can install and use the free ve
 
 The minimum compatible version is 2.85.681.0 (September 2020).
 
+### Power BI Service
+
+Running this report in t Power BI service is not supported.
+
 ### Permissions to access the CQD pipeline
 
 While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
@@ -65,11 +69,11 @@ The following steps assume you've already installed Power BI Desktop on your com
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.7.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.8.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.7.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.8.pbit` template file. Power BI Desktop should launch.
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
@@ -91,7 +95,7 @@ Perform the following steps:
 
 ## Data latency for auto attendant and call queue analytics
 
-Data is typically available within 30 minutes of the call completing; however, there are occasions where it may take several hours for data to appear. 
+The data is usually available within 30 minutes of the call being completed, but there are cases where it can take several hours for the data to appear.
 
 You'll have to refresh the data to see any new data.
 
@@ -254,44 +258,63 @@ You'll have to refresh the data to see any new data.
 
 |Report Section                                          |Description                                                         |
 |:-------------------------------------------------------|:-------------------------------------------------------------------|
-|Number of Calls by Agent                                |Distribution of calls by call queue and agent                       |
-|Distribution by Agent and all Queue                     |Distribution of calls by agent and call queue                       |
+|Number of Calls Answered by Agent                       |Distribution of calls by call queue and agent                       |
+|Distribution of Calls Answered by Agent and Call Queue  |Distribution of calls by agent and call queue                       |
 |Table (bottom left)                                     |Distribution of calls by agent with average and total call duration |
-|Average Call Duration (seconds) by Agent (bottom right) |Average duration (seconds) of call by agent                         |
+|Average Answered Call Duration (seconds) by Agent (bottom right) |Average duration (seconds) of call by agent                |
 
 #### Report visual field mapping
 
-|Report Tab            |Report Table Name           |Global Filter       |
-|:---------------------|:---------------------------|:-------------------|
-|Agent Timeline        |fAgentTimelineAnalytics     |None                |
+|Report Tab            |Report Table Name                  |Global Filter       |
+|:---------------------|:----------------------------------|:-------------------|
+|Agent Timeline        |fAgentTimelineAnalyticsSummary     |None                |
 
 
 |Report Section                                |Field(s) Used                         |Filters Applied       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
-|Date selector                                 |DateTime                              |None                  |
+|Date selector                                 |Date                                  |None                  |
 |Agent Username selector                       |Agent Name                            |None                  |
 |Call Queue Resource Accounts selector         |CQ Name                               |None                  |
-|Number of Calls by Agent                      |Call Count<br>Agent Name<br>Date<br>Hour      |None                  |
-|Distribution by Agent and Call Queue          |Agent Name<br>Average Calls Duration (Seconds)<br>Call Count<br>CQ Name |None                      |
-|Bottom Left                                   |Agent Name<br>Average Call Duration (Seconds)<br>Call Count<br>Call Duration (Minute)<br>CQ Name<br>Hour<br>MM-DD | None |
-|Average Call Duration (Seconds) by Agent      |Agent Name<br>Average Call Duration (Seconds) | None |
+|Number of Calls Answered by Agent             |Total Call Count<br>Agent Name<br>Date<br>Hour      |None                  |
+|Distribution of Calls Answer by Agent and Call Queue          |Agent Name<br>Average Calls Duration (Seconds)<br>CQ Name<br>Total Call Count |None               |
+|Bottom Left                                   |Agent Name<br>Average Call Duration (Seconds)<br>CQ Name<br>Hour<br>MM-DD<br>Total Call Count<br>Total Call Duration (HH:MM:SS)<br>Total Call Duration (Minutes) | None |
+|Average Answered Call Duration (Seconds) by Agent      |Agent Name<br>Average Call Duration (Seconds) | None |
 
 #### fAgentTimelineAnalytics field description
 
 |Name                                    |Data Type                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
-|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
+|AgentTimelineAnalyticsSummaryLink       |Text                     |Used to link with fAgentTimelineAnalyticsSummary for the pop-up tooltip |
 |Call Duration (HH:MM:SS)                |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
-|Call Duration (Minutes)                 |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
-|Calls Answered                          |Whole number             |Number of calls answered by agent                        |
-|Calls Not Answered                      |Whole number             |Number of calls not answered by agent                    |
+|Call Duration (Minutes)                 |Whole number             |Total call duration of answered call queue calls in minutes  |
+|Call Duration (Second)                  |Whole number             |Total call duration of answered call queue calls in seconds  |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
+|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
+|DateTime                                |DateTime                 |Date of call                                             |
+|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|Hour                                    |Whole number             |Hour of call                                             |
+|Total Call Count                        |Whole number             |Summarize: Sum<br>Number of calls presented to agent     |
+
+#### fAgentTimelineAnalyticsSummary field description
+
+|Name                                    |Data Type                |Description                                         |
+|:---------------------------------------|:------------------------|:---------------------------------------------------|
+|Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
+|AgentTimelineAnalyticsLink              |Text                     |Used to link with fAgentTimelineAnalytics for the pop-up tooltip |
+|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Date                                    |Date                     |Date of call                                             |
-|DateTime                                |DateTime                 |Date of call                                             |
 |Hour                                    |Whole number             |Hour of call                                             |
 |MM-DD                                   |Text                     |Month and day of call                                    |
 |Total Call Count                        |Whole number             |Summarize: Sum<br>Number of calls presented to agent     |
+|Total Call Duration (HH:MM:SS)          |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
+|Total Call Duration (Minutes)           |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes  |
 
 > [!NOTE]
 > When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
@@ -648,7 +671,8 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9  |
+|3.0.8    |April XX, 2023     |Teams Auto Attendant & Call Queue Historical Reports V3.0.8 |Added detail call pop-up on Agent Timeline                              |
+|3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
 |3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
 |3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
