@@ -239,7 +239,7 @@ There are a few policies that could alter these registry keys and block app inst
 
 #### Policies that could block the user from seeing the App switcher toggle
 
-The following list of policies can block users from seeing the app switcher toggle today.
+The following list of policies can block users from seeing the app switcher toggle.
 
 - If the user is on a VDI computer (Citrix, VMWare etc.). 
 - If the user is signed into classic Teams with a *Teams for Life* account and a work account. 
