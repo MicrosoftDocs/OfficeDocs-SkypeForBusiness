@@ -274,8 +274,8 @@ There are a few known issues we're working on.
 
 ### General
 
-- **Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
-Solution: Install the Office and Windows security updates as it applies to your organization.  [Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)
+**Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
+Solution: Install the Office and Windows security updates as it applies to your organization.</br>[Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)</br>
 
 |Channel|Version & Build|
 |:-----|:-----|
