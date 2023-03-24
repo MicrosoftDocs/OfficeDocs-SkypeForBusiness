@@ -62,7 +62,7 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 
 <br>
 
-#### Required Security updates
+#### Required Microsoft 365 Apps Security Updates
 
 |Channel|Version & Build|
 |:-----|:-----|
@@ -71,6 +71,8 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
 
 </br>
+
+Learn more at: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions)
 
 ## How to roll out new Teams
 
@@ -261,7 +263,7 @@ If the toggle still doesn't appear, then:
 
 While many of the features you're familiar with in classic Teams are already in the new experience, others, like Breakout rooms, are still being worked on. </br>
 
-[**Find the latest information on upcoming features for the new Teams**](https://aka.ms/newTeams).
+[**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
 
 ## What features are changing?
 
