@@ -251,8 +251,8 @@ The following list of policies can block users from seeing the app switcher togg
 
 1. Open logs in this path: %appdata%/Microsoft/Teams 
 2. Open logs.txt 
-3. Search for **appswitcher_appstateservice_check** 
-4. Check the enggComplete flag:  
+3. Search for **appswitcher_appstateservice_check**.
+4. Check the **enggComplete** flag:  
  - If true, the Microsoft has turned the setting for you. 
   - If false, you didn’t the settings from MSFT yet or need an app relaunch (see below for steps to relaunch the app) 
 5. Check **isAboveWin10Vibranium**.
@@ -265,7 +265,7 @@ The following list of policies can block users from seeing the app switcher togg
 |TFLONLY|You are only signed into TFL
 |TFLANDTFW| You are signed into TFL and TFW
 |SPECIALCLOUD| You are signed into a special cloud that isn’t supported.
-|CROSSCLOUD| You are signed into some government cloud| 
+|CROSSCLOUD| You are signed into a government cloud| 
 |VDI|You are signed into a VDI machine (VMWare, Citrix, AVD/WV|
 
 
