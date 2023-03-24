@@ -1041,8 +1041,6 @@ items:
       items: 
         - name: Manage phone numbers for your organization
           href: manage-phone-numbers-landing-page.md
-        - name: How many phone numbers can you get?
-          href: how-many-phone-numbers-can-you-get.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
         - name: Assign, change, or remove a phone number for a user
@@ -1057,10 +1055,12 @@ items:
           items: 
             - name: Overview
               href: manage-phone-numbers.md
-            - name: Getting phone numbers for your users
+            - name: Get phone numbers for your users
               href: getting-phone-numbers-for-your-users.md
             - name: Get service phone numbers
               href: getting-service-phone-numbers.md
+            - name: How many phone numbers can you get?
+              href: how-many-phone-numbers-can-you-get.md
             - name: Transferring phone numbers
               items: 
                 - name: What's a port order?
