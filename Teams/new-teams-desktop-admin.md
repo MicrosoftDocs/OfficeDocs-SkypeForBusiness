@@ -246,6 +246,24 @@ The following list of policies can block users from seeing the app switcher togg
 - If the user is signed into classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
 
+##### How do I know which one of the above policies is blocking me?
+
+1.	Open logs present in this path: %appdata%/Microsoft/Teams 
+2.	Open logs.txt 
+3.	Search for appswitcher_appstateservice_check 
+  - a. Check of enggComplete flag:  
+  - If true, this means the settings is turned on from MSFT for you. 
+  - If false you haven’t received the settings from MSFT yet or need an app relaunch (see below for steps to relaunch the app). (Either Policy no. 1 or you got the settings late try relaunch). 
+  - b.	Check isAboveWin10Vibranium:  
+  - If true this mean the OS version is >= what we need for app switcher  
+  - if false the OS is older than what we support (Policy no. 2) 
+  c.	Check code and here’s what each code means: 
+i.	TFLONLY: You are only signed into TFL (Policy no. 5) 
+ii.	TFLANDTFW: You are signed into TFL and TFW (Policy no. 4) 
+iii.	SPECIALCLOUD: You are signed into some special cloud either gallatin/gcch/dod (Policy no. 6) 
+iv.	CROSSCLOUD: You are signed into some government cloud (Policy no. 6) 
+v.	VDI: You are signed into a VDI machine (VMWare, Citrix, AVD/WV
+
 
 #### Update and restart message in title bar
 
