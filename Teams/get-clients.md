@@ -34,7 +34,7 @@ For details about each client's capabilities on different platforms, see [Teams 
 ## Desktop clients
 
 >[!Note]
->The new Microsoft Teams desktop client is now available in preview. The minimum system requirements are different. Learn more: [The new Microsoft Teams desktop client](new.teams-desktop-admin.md)
+>The new Microsoft Teams desktop client is now available in preview. The minimum system requirements are different. Learn more: [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
 
 The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
