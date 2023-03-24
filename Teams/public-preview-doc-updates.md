@@ -87,6 +87,8 @@ All public preview features are announced at [Microsoft Teams Public Preview - M
 
 Users who are in the Public Preview  will see **EA** next to their profile picture indicating that they have Early Access to Teams features (as shown in the below image). 
 
+![EA-icon-screenshot](media/EA-screenshot.png)
+
 ## Related topics
 
 [Public developer preview](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
