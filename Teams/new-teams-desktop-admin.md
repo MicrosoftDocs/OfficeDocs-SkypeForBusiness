@@ -274,7 +274,7 @@ There are a few known issues we're working on.
 
 ### General
 
-**Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
+- **Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
   
 Solution:  Install the Office and Windows security updates as it applies to your organization.  [Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)
 
@@ -284,10 +284,9 @@ Solution:  Install the Office and Windows security updates as it applies to your
 |Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
 |Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
 
+</br>
 
 
-- **Issue:**  Organization tab isn't available on chat
-Details: The organization tab has moved to a person's Microsoft 365 contact card. To view this, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 ### Accessibility
 
@@ -312,7 +311,6 @@ Workaround:  Switch back to classic Teams to use this feature.
 Workaround:  Switch back to classic Teams to use this feature.
 
 
-
 ### Calls
 
 - **Issue:**  Increased power usage during calls may cause CPU throttling and negatively impact performance.
@@ -327,6 +325,9 @@ Workaround:  Open the action center to view secondary incoming call toasts
 
 
 ### Chats
+
+- **Issue:**  The Organization tab isn't available on chat.</br>
+Details: The organization tab has moved to a person's Microsoft 365 contact card. To view your organization tab, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 - **Issue:**  When you pop out a chat, the window may appear blank for a few moments.
 
