@@ -340,7 +340,7 @@ Details: The @mention Everyone feature is still pending for this release.
 ### Meetings
 
 - **Issue:**  When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
-Details: The meeting attendees may see preview content in those notifications.
+Details: The meeting attendees may see preview content in those notifications.</br>
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
 - **Issue:**   Some meeting details won’t appear in new Teams.</br>
@@ -365,16 +365,16 @@ Details: The product group is investigating this issue.
 Details: Before joining the meeting, turn off preview using the toggle button on the title bar.
 
 - **Issue:**  When using the "Share screen" option to share content, toast notifications will still pop up, even if you have notifications muted.
-Details: Meeting attendees may see preview content in those notifications.
+Details: Meeting attendees may see preview content in those notifications.</br>
 Workaround: Use "Share window" or "PowerPoint Live" instead of "Share desktop."
 
 - **Issue:**  Some meeting details won't show up in new Teams.
 Details include forwards, "show as," and assigned meeting categories.
 
-- **Issue:**  When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"
+- **Issue:**  When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"</br>
 Workaround:  If you leave the meeting by accident, re-join. 
 
-- **Issue:**  If you're using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.
+- **Issue:**  If you're using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.</br>
 Workaround: As an organizer, if you plan to run Breakout sessions, switch back to classic Teams and inform all participants that the meeting includes Breakout Rooms, and they all must switch to classic Teams to participate.
 
 - **Issue:**  In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
@@ -396,10 +396,10 @@ Workaround Share the app or window using the share tray within Teams meeting.
 
 ### Multi-Tenant Multi-Account (MTMA)
 
-- **Issue:**   When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."
+- **Issue:**   When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
 Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
-- **Issue:** New tenant invitations may not appear or get updated for 24 hours.
+- **Issue:** New tenant invitations may not appear or get updated for 24 hours.</br>
 Workaround:  Switch back to classic Teams if the user needs access earlier thatn 24 hours.
 
 
@@ -408,13 +408,15 @@ Workaround:  Switch back to classic Teams if the user needs access earlier thatn
 - **Issue:**   If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.</br>
 Details: The @mention Everyone feature is still pending for this release.
 
-- **Issue:**  Some Teams users aren't receiving notifications of chat mentions, meetings or calls.
+- **Issue:**  Some Teams users aren't receiving notifications of chat mentions, meetings or calls.</br>
 Details:  Review your Windows Notification settings. From the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preferences.
 
 ### Presence
 
 - **Issue:**  Occasionally when a user is in a meeting, their Presence Status shows as Available.
+
 - **Issue:**  Sometimes users are not able to reset presence status.
+
 - **Issue:**  The preview thumbnail for Teams appears but there are no presence buttons.
 
 
@@ -430,15 +432,15 @@ Details:  Review your Windows Notification settings. From the upper-right corner
   - Adding a tab to a channel is not currently available.
   - Webhooks not supported
 
-- **Issue:**   Attendance report doesn't show after a meeting.
+- **Issue:**   Attendance report doesn't show after a meeting.</br>
 Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report.  There is no option to download a report of an older channel meeting at this time.
 
 ## Other areas:
 
 - **Issue:**   Right-clicking on the back button (next to Search) doesn't bring the old history for you to navigate.
 
-- **Issue:**   If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.
+- **Issue:**   If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.</br>
 Workaround: Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications and enable it with Focus/Do not Disturb mode.
 
-- **Issue:**   If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).
+- **Issue:**   If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
 Workaround: Before joining a meeting, sign in with primary tenant account.
