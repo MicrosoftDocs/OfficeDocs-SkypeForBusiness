@@ -3,7 +3,7 @@ title: Release notes for Microsoft Teams Rooms (Windows)
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 04/26/2018
+ms.date: 3/24/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -100,12 +100,12 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 Introduced in this update:
 
-- A revitalized Teams Rooms User interface [Learn more](../rooms/mtr-home-refresh.md#enable-refreshed-home-screen-design)
+- A revitalized Teams Rooms user interface. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md#enable-refreshed-home-screen-design).
 - Enhanced View Switcher <sup>1</sup>
-- Support for Teams premium meetings protection policies (Watermark, End-to-end Encryption for meetings, and Sensitivity labels) <sup>2</sup>
+- Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
 - Increased default font size for the meeting interface 
 
- <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. [Learn more](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040)
+ <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. For more information, see [A new look for Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040)
 
  <sup>2</sup> Meeting organizers should have a valid license to use these policies. Learn more at [Microsoft Teams Premium licensing](../teams-add-on-licensing/licensing-enhance-teams.md)
 
