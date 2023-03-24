@@ -105,9 +105,9 @@ Introduced in this update:
 - Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
 - Increased default font size for the meeting interface 
 
- <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. For more information, see [A new look for Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040)
+ <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. For more information, see [A new look for Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040).
 
- <sup>2</sup> Meeting organizers should have a valid license to use these policies. Learn more at [Microsoft Teams Premium licensing](../teams-add-on-licensing/licensing-enhance-teams.md)
+ <sup>2</sup> Meeting organizers should have a valid license to use these policies. Learn more at [Microsoft Teams Premium licensing](../teams-add-on-licensing/licensing-enhance-teams.md).
 
 ### 4.15.58.0 (1/10/2023)
 
