@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Legacy Merge Landing"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "The Specify Edge Setup page enables you to configure your legacy E
  
 The **Specify Edge Setup** page enables you to configure your legacy Edge Server information. Click **Add** to specify the legacy Edge Server version of your Office Communications Server deployment. If you do not have any Edge Servers in your legacy environment, click **Next** to continue.
   
+
 

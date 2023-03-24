@@ -1,4 +1,5 @@
 ---
+ms.date: 10/31/2018
 title: 'Preventing new connections'
 ms.reviewer: 
 ms.author: serdars
@@ -53,3 +54,4 @@ In addition to preventing new connections for all services on a server running S
     
     > [!IMPORTANT]
     > When you set a server to prevent new connections, and then restart the server, by default the server will immediately begin accepting new connections after it starts. To prevent this, set the server to only pause and resume manually, before you restart the server.
+

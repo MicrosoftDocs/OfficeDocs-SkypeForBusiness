@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---

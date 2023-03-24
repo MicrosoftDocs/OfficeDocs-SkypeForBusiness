@@ -1,4 +1,5 @@
 ---
+ms.date: 11/02/2018
 title: 'Managing disaster recovery, high availability, and Backup Service'
 ms.reviewer: 
 author: SerdarSoysal
@@ -41,3 +42,4 @@ The disaster recovery procedures in this section assume the following:
 
 [Plan for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   
+

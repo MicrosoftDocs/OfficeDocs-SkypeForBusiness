@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "(Optional) Verify Announcement deployment in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ After you install and configure Announcement, you need to verify the configurati
     
 - Call the unassigned number and verify that the correct announcement plays.
     
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Design the SIP trunk for E9-1-1 in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -51,3 +52,4 @@ For details about deploying a SIP trunk in Skype for Business Server, see [SIP t
  **Is call admission control (CAC) enabled?**
   
 > Skype for Business Server does not handle emergency calls any differently than an ordinary call. For this reason, bandwidth management, or call admission control (CAC), can have a negative impact on an E9-1-1 configuration. Emergency calls will be blocked or routed to the local PSTN gateway if a CAC is enabled and the configured limit is exceeded on a link where emergency calls are being routed. As indicated earlier in this topic, such calls will not have location data and must be manually routed to the ECRC.
+

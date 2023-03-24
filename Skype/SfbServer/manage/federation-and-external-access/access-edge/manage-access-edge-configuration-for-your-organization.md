@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Manage Access Edge Configuration for your organization'
 ms.reviewer: 
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
@@ -67,4 +68,5 @@ These options include the following types of access that can be configured throu
     MaxRejectedCertificatesStored          : 500<br/>
     CertificatesDeletedPercentage          : 20<br/>
     RoutingMethod                          : UseDnsSrvRouting<br/>
+
 

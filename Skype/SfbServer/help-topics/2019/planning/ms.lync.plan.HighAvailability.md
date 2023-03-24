@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "High Availability (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -37,3 +38,4 @@ Skype for Business Server requires at least two Front End Servers in order to en
 The Planning Tool also adds a mirror SQL database for all databases. For example, if there is a Front End SQL Server database, the Planning Tool will add the other database as the mirror database for this one and name it as the "Front End mirror SQL database.
   
 For more details about preparing your environment for high availability, see [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+

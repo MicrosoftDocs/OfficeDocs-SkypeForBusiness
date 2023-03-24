@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove the Monitoring server association"
 ms.reviewer: 
 ms.author: serdars
@@ -42,4 +43,5 @@ To remove the Monitoring Server, you need to change or clear the dependency on t
     
 10. Publish the topology, check replication status, and run the Skype for Business Server Deployment Wizard as needed. 
     
+
 

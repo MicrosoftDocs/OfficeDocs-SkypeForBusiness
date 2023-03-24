@@ -143,7 +143,7 @@ App setup policies control how apps are made available to a user with the Teams 
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
 - [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
-- [Understand Microsoft Teams apps and their capabilities](deploy-apps-microsoft-teams-landing-page.md)
+- [Understand Microsoft Teams apps and their capabilities](apps-in-teams.md)
 
 ## Meetings
 
@@ -272,7 +272,8 @@ Meeting policies are used to control what features are available in meetings org
 
 ##### Related topics to recording & transcription policies
 
-- [Teams meeting recording](cloud-recording.md)
+- [Teams meeting recording](meeting-recording.md)
+- [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 

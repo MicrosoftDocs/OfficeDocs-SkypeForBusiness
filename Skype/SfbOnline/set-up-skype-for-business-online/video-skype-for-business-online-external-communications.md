@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Video Skype for Business Online external communications"
 ms.reviewer: 
 ms.author: tonysmit
@@ -43,3 +44,4 @@ Set up Skype for Business Online external communications so your users can commu
 
   
  
+

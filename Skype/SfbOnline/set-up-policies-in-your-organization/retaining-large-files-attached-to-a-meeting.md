@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Retaining large files attached to a Skype for Business meeting"
 ms.author: tonysmit
 author: tonysmit
@@ -44,3 +45,4 @@ Mailboxes that aren't on hold won't have any meeting data saved. For example, in
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
   
   
+

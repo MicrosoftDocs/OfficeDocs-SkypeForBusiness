@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deployment process for Group Call Pickup in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -35,3 +36,4 @@ Group Call Pickup enables users to answer incoming calls to their colleagues fro
 |Assign a call pickup number to users, and enable Group Call Pickup for the users  <br/> |Use the /enablegrouppickup parameter in the SEFAUtil resource kit tool to enable Group Call Pickup and assign a call pickup number for users.  <br/> |-  <br/> |[Enable Group Call Pickup for users and assign a group number in Skype for Business](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
 |Notify users of their assigned call pickup number and any other number of interest  <br/> |After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number. Notify users of the call pickup group number for any group that they might want to monitor. Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.  <br/> |-  <br/> ||
 |Verify your Group Call Pickup deployment  <br/> | Test placing and retrieving calls to make sure that your configuration works as expected. At a minimum, verify the following: <br/>  Call a user who is enabled for Group Call Pickup and have another user retrieve the call. The other user can be in the same group, in a different group, or not have Group Call Pickup enabled. <br/>  Call a user who is enabled for Group Call Pickup and do not answer the call. <br/> |-  <br/> ||
+
