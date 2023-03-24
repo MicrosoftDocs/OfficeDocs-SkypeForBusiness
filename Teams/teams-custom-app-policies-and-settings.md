@@ -32,7 +32,7 @@ Microsoft Teams allows developers within your organization to build, test, and d
 
 :::image type="content" source="media/custom-app-orgwide-setting-trimmed.png" alt-text="Screenshot that shows how to allow custom apps in your organization in the org-wide settings panel." lightbox="media/custom-app-orgwide-setting.png":::
 
-After you allow the use of a custom app, your end-users can find it by selecting **Built for your org** in the left navigation of Teams store.
+After you allow the use of a custom app, your users can find it by selecting **Built for your org** in the left navigation of Teams store.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams' store in the Teams' desktop app." lightbox="media/built-for-your-org2.png":::
 
@@ -44,13 +44,13 @@ Developers within your organization can add a custom app to Teams by uploading a
 
 ## Understand sideloading of custom apps
 
-When developing custom apps and before distributing those apps to the end-users, developers test the apps by adding it to Teams Store to test. The developers can test on their own or with a specified group of users, but the app isn't available to other end-users in the organization via the store. This method is called sideloading of apps and applies only to custom apps.
+When developing custom apps and before distributing those apps to the users, developers test the apps by adding it to Teams Store to test. The developers can test on their own or with a specified group of users, but the app isn't available to other users in the organization via the store. This method is called sideloading of apps and applies only to custom apps.
 
 Developers can sideload an app to make it available to the members of a specific team, typically to test an under-development app. Using an app in this way limits its usage to the app developers and doesn't require admin approval as long as admin allows sideloading in Teams.
 
-Developers can share a sideloaded app with a specific team without submitting it to the Teams app catalog. It makes the sideloaded custom app available to a limited group of end-users but not available in your organization's app store for all end-users.
+Developers can share a sideloaded app with a specific team without submitting it to the Teams app catalog. It makes the sideloaded custom app available to a limited group of users but not available in your organization's app store for all users.
 
-As an admin, you can disallow sideloading of app for all developers. If you disallow sideloading, the developers can still test their apps by [creating a separate test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the end-users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you allow (or block) the use a custom app for all users or for specific users.
+As an admin, you can disallow sideloading of app for all developers. If you disallow sideloading, the developers can still test their apps by [creating a separate test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you allow (or block) the use a custom app for all users or for specific users.
 
 ## App setup policy and settings for custom apps
 

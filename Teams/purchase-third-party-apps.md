@@ -24,7 +24,7 @@ Some Teams apps may require purchasing a service subscription to experience the 
 
 The paid apps are managed using the same governance controls as for any other app. You view and manage all Teams apps from the [Manage apps](manage-apps.md) page in Teams admin center.
 
-On the Manage apps page, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates if an app offers a SaaS subscription for purchase. End-users can purchase apps using a credit card, debit card, or with invoice billing.
+On the Manage apps page, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates if an app offers a SaaS subscription for purchase. Users can purchase apps using a credit card, debit card, or with invoice billing.
 
 :::image type="content" source="media/manage-apps-new-page.png" alt-text="Screenshot showing the purchase licenses option on the manage apps page in Teams admin center." lightbox="media/manage-apps-new-page-large.png":::
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Hardware and software requirements for conferencing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

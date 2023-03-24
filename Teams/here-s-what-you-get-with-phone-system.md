@@ -1,5 +1,5 @@
 ---
-title: "Here's what you get with Phone System"
+title: "Phone System features"
 ms.reviewer: 
 ms.date: 11/28/2017
 author: CarolynRowe
@@ -26,7 +26,7 @@ ms.custom:
 description: "Learn about the features, availability, and how to plan and set up Microsoft Phone System for your business. "
 ---
 
-# Here's what you get with Phone System
+# Phone System features
 
 This article describes Phone System features. For more information about using Phone System as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Phone System](what-is-phone-system-in-office-365.md).
 

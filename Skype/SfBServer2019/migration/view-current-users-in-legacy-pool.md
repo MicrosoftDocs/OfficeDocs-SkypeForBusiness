@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "View current users in legacy pool"
 ms.reviewer: 
 ms.author: serdars
@@ -26,4 +27,5 @@ Before learning the various ways you can move users between pools, we must first
 3. Click **Users**, click **Search**, and then click **Find**.
 
   
+
 

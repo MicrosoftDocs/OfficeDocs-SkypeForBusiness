@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add A/V MCU Pool"
 ms.reviewer: 
 ms.author: serdars
@@ -27,4 +28,5 @@ All Enterprise Edition Front End Servers of a central site that do not have a co
 > [!TIP]
 > If you plan to implement an A/V Conferencing pool in the future, select **Multiple computer pool**. Even though a pool is defined as two or more computers that are load balanced, you can create a single computer pool and create a pool FQDN for the single computer. When you are ready to add more computers to the pool later, you must Topology Builder again to define the new pool member, publish the new topology, and then set up the new A/V Conferencing pool member through the Skype for Business Server Deployment Wizard. A/V Conferencing Server pools are unique in that they do not need load balancers to create a pool. A/V Conferencing pools load balance internally and do not need additional hardware. 
   
+
 
