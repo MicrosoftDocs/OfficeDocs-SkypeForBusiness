@@ -262,9 +262,9 @@ The following list of policies can block users from seeing the app switcher togg
 
 |Code|Meaning|
 |:-----|:-----|
-|TFLONLY|You are only signed into TFL
-|TFLANDTFW| You are signed into TFL and TFW
-|SPECIALCLOUD| You are signed into a special cloud that isn’t supported.
+|TFLONLY|You are only signed into TFL|
+|TFLANDTFW| You are signed into TFL and TFW|
+|SPECIALCLOUD| You are signed into a special cloud that isn’t supported.|
 |CROSSCLOUD| You are signed into a government cloud| 
 |VDI|You are signed into a VDI machine (VMWare, Citrix, AVD/WV|
 
