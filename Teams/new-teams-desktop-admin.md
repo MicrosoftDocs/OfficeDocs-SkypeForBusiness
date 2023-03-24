@@ -274,6 +274,19 @@ There are a few known issues we're working on.
 
 ### General
 
+**Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.  
+Solution:  Install the Office and Windows security updates as it applies to your organization.  Learn more on [Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)
+
+|Channel|Version & Build|
+|:-----|:-----|
+|Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944</br> |
+|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
+|Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
+
+
+
+
+
 - **Issue:**  Organization tab isn't available on chat
 Details: The organization tab has moved to a person's Microsoft 365 contact card. To view this, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
