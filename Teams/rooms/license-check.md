@@ -1,5 +1,5 @@
 ---
-title: Find user licenses assigned to Teams Rooms devices 
+title: Find Teams Rooms devices with unsupported licenses 
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -16,32 +16,36 @@ ms.collection:
   - Tier1
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-description: Learn how to find user licenses that have been assigned to Teams Rooms devices.
+description: Learn how to find Teams Rooms devices with unsupported licenses.
 ---
 
-# Find user licenses assigned to Teams Rooms devices
+# Find Teams Rooms devices with unsupported licenses
 
-User licenses aren't supported for use with meeting devices. User licenses that have been assigned to teams meeting devices need to be replaced with a Teams Rooms Basic or Teams Rooms Pro license prior to July 1, 2023. They may also be assigned legacy licenses Teams Rooms Standard and Teams Rooms Premium. Meeting devices that have a user subscription license after July 1, 2023 will be unable to sign in until a Teams Rooms license is assigned.
+Resource accounts that only have user licenses or Microsoft Teams Shared Device licenses assigned to them aren't supported for use with Microsoft Teams Rooms devices. Resource accounts used with Teams Rooms devices need to be assigned one of the following licenses:
 
-Also, Microsoft Teams Shared Devices licenses aren't supported on and won't work with Teams Rooms devices. Teams Rooms devices should only be assigned Teams Rooms Basic or Teams Rooms Pro licenses.
+- Microsoft Teams Rooms Pro
+- Microsoft Teams Rooms Basic
+- Microsoft Teams Rooms Standard (legacy)
+- Microsoft Teams Rooms Premium (legacy)
 
-To determine your license position, we suggest two ways to check your machines depending on the number of devices you have in your organization.  
+> [!IMPORTANT]
+> Teams Rooms devices logged in with resource accounts that don't have one of the above supported Teams Rooms licenses assigned to them won't be able to sign in after July 1, 2023. To ensure your Teams Rooms devices can continue to sign in after July 1, 2023, use the information in this article to make sure they have a supported Teams Rooms license.
+
+You have a couple of options for checking whether the resource accounts signed into your Teams Rooms devices have a Teams Rooms license. If you only have a couple Teams Rooms devices, use the steps in [Check the license of a few Teams Rooms devices](#check-the-license-of-a-couple-teams-rooms-devices). If you have more than a few Teams Rooms devices, use the steps in [Check the license of multiple Microsoft Teams Rooms devices](#check-the-license-of-multiple-microsoft-teams-rooms-devices).
 
 For information about Teams Rooms licensing, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
 
-## To check the license of a few Teams Rooms devices
+## Check the license of a couple Teams Rooms devices
 
-- For a small number of devices, you can see what license your devices have by going to Teams devices in the Teams Admin Center, and then selecting the device category (Teams Rooms on Windows, Teams Rooms on Android, and Surface Hubs) you want to see.
+For a small number of devices, you can see what license your devices have by going to Teams devices in the Teams admin center, and then selecting the device category (**Teams Rooms on Windows**, **Teams Rooms on Android**, or **Surface Hubs**) you want to see.
 
-- For example, if you select **Teams devices > Teams Rooms on Windows**, you'll see the following image. The License column shows the Teams Rooms license assigned to each device.
+For example, if you select **Teams devices > Teams Rooms on Windows**, you'll see the following image. The **License** column shows the Teams Rooms license assigned to each device.
 
-  :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams Rooms inventory list with focus on Standard, Pro, and Pro (Trial) licenses.":::
+:::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams Rooms inventory list with focus on Standard, Pro, and Pro (Trial) licenses.":::
 
-- Devices that have the Pro license can access all the capabilities of their Teams Room devices.
+Devices that have the Teams Rooms Pro license can access all the capabilities of their Teams Room devices. Devices with other Teams Rooms licenses can access a subset of those features. You can see which features are available to each license in [Teams Rooms Basic and Teams Rooms Pro feature comparison](rooms-licensing.md#teams-rooms-basic-and-teams-rooms-pro-feature-comparison).
 
-- Devices with other licenses can access a subset of those features. You can see which features are available to each license in Comparison of Teams Rooms feature availability by license.
-
-## Checking the License of Multiple Microsoft Teams Rooms Devices in Bulk
+## Check the license of multiple Microsoft Teams Rooms devices
 
 Checking licenses for Teams Room devices one at a time can be time consuming. To make this process easier, we're making available a sample script that checks the licenses of all your Teams Rooms devices. The script provides you with a list of the resource accounts that are associated with your Teams Rooms devices, organized by license type. Resource accounts with licenses that aren't supported with Teams Rooms devices are grouped together for your review. If resource accounts associated with Teams Rooms devices have an unsupported license type, you'll need to change it to a supported license before July 1, 2023.
 
@@ -242,6 +246,8 @@ Features that require a Microsoft Teams Rooms Pro license can be identified by l
 :::image type="content" source="../media/mtr-restart-device-dialog.png" alt-text="Dialog showing Teams Rooms device restart options.":::
 
 ### Related Content
+
+- [Step 1 - Purchase a license for the Teams Rooms console](../hybrid-meetings-device-config-license.md)
 
 - [Teams add-on licensing](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
