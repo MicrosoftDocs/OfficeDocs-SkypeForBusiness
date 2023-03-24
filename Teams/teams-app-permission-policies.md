@@ -27,7 +27,7 @@ ms.custom:
 
 # Use app permission policies to control user access to apps
 
-As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](deploy-apps-microsoft-teams-landing-page.md). You must be a Global Admin or Teams service admin to manage these policies.
+As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](apps-in-teams.md). You must be a Global Admin or Teams service admin to manage these policies.
 
 To allow an app, you must allow it in [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings), [individual app's setting](manage-apps.md#allow-and-block-apps), and app permission policy. While the other two methods just allow an app for use in your organization, the permission policies allow you to control which users can use a specific app. You control access on a per-user and per-app basis by creating and applying the policy to specific users.
 
