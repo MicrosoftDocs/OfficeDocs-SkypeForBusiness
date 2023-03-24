@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "The user's Skype for Business Online service plan isn't valid"
 ms.reviewer: 
 ms.author: tonysmit
@@ -38,3 +39,4 @@ Go to the *Microsoft 365 admin center** > **Active users** and assign a valid se
   
   
  
+

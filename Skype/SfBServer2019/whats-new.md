@@ -1,4 +1,5 @@
 ---
+ms.date: 07/03/2018
 title: What's new in Skype for Business Server 2019 | Features
 ms.reviewer: 
 ms.author: serdars
@@ -50,3 +51,4 @@ See [Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) 
 ### See also
 
 [What's deprecated from Skype for Business Server 2019](deprecated.md)
+

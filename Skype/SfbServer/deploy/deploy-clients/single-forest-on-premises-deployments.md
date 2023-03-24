@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype Room System single forest on-premises deployments"
 ms.author: serdars
 author: SerdarSoysal
@@ -110,3 +111,4 @@ After you create a resource mailbox account for the conferencing rooms, use Skyp
 
 > [!NOTE]
 > If you enable Enterprise Voice for the Skype Room System conference room account, make sure to configure a restricted Voice Policy suitable for your organization. If the Skype for Business Meeting Room is a publicly available resource, anyone could use it to join a meeting, either scheduled or ad hoc. After joining a meeting, the person could dial out to any number. In Skype for Business Server, the dial-out from conferences feature uses the voice policy of the user, in this case the Skype Room System account used to join the meeting. In earlier versions of Lync Server, the voice policy of the organizer is used. Therefore, if a user of an earlier version of Lync Server schedules a meeting room and invites the Skype Room System room account, anyone could use the Skype for Business Meeting Room to join the meeting and could dial any national/regional or international phone number, as long as the organizer is allowed to dial those numbers. 
+

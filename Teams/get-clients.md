@@ -39,7 +39,6 @@ The Teams desktop client is available as a standalone application and as part of
 - ARM64 for Windows 10 on ARM 
 - Windows Server (2012 R2 or later)
 - macOS
-- Linux (in `.deb` and `.rpm` formats)
 - Chrome OS (For more information, see [How to use Microsoft Office on a Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
@@ -101,77 +100,6 @@ If a user currently has a DMG installation of Teams and wants to replace it with
 3. Install the PKG file.
 
 IT Pros can use a managed deployment solution, such as Jamf Pro, to distribute the Teams installation files to all Macs in their organization.
-
-### [Linux](#tab/Linux)
-
-On Linux, package managers such as `apt` and `yum` will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
-
-Users will be able to install native Linux packages in `.deb` and `.rpm` formats. Installing the DEB or RPM package will automatically install the package repository.
-
-- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM `https://packages.microsoft.com/yumrepos/ms-teams`
-
-The signing key to enable auto-updating using the system's package manager is installed automatically. However, it can also be found at: <https://packages.microsoft.com/keys/microsoft.asc>. Teams ships monthly and if the repository was installed correctly, then your system package manager should handle auto-updating in the same way as other packages on the system.
-
-#### Install Teams using DEB package
-
-1. Download the package from <https://aka.ms/getteams>.
-2. Install using one of the following:
-    - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo dpkg -i **teams download file**`
-
-You can launch Teams via Activities or via Terminal by typing `teams`.
-
-#### Install Teams using RPM package
-
-1. Download the package from <https://aka.ms/getteams>.
-2. Install using one of the following:
-    - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo yum install **teams download file**`
-
-You can launch Teams via Activities or via Terminal by typing `teams`.
-
-#### Install manually from the command line
-
-Install manually on Debian and Ubuntu distributions:
-
-```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
-
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
-
-sudo apt update
-sudo apt install teams
-```
-
-Install manually on RHEL, Fedora and CentOS based distributions:
-
-```bash
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
-
-sudo dnf check-update
-sudo dnf install teams
-```
-
-Alternatively, to use yum instead of dnf:
-
-```bash
-yum check-update
-sudo yum install teams
-```
-
-Install manually on openSUSE based distributions:
-
-```bash
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
-
-sudo zypper refresh
-sudo zypper install teams
-```
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Set the PIN length for Audio Conferencing meetings in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -83,3 +84,4 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
 ## See also
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+

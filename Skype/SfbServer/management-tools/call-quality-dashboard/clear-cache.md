@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Clear Cache"
 ms.reviewer: 
 ms.author: serdars
@@ -44,4 +45,5 @@ Clear Cache operation deletes the cache on server for queries and data. This wil
   
  **Response Body** - None.
   
+
 

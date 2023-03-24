@@ -1,4 +1,5 @@
 ---
+ms.date: 10/15/2018
 title: "Planning for Modern Authentication (ADAL) with Skype for Business"
 ms.reviewer: 
 ms.author: serdars
