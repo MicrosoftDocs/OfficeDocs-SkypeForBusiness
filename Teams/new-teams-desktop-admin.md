@@ -40,7 +40,7 @@ ms.localizationpriority: high
 >[!Important]
 >The new Teams client **is not** available for the following during the preview phase:
 >
->**Platforms:**  Mac, VDI, Web</br>
+>**Platforms:**  Mac, VDI, Web</br></br>
 >**Customer segments:** Special cloud (GCC High, DoD, Microsoft 365 operated by 21Vianet in China, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
 
 >[!Tip]
@@ -60,6 +60,17 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Teams app|Version 1.5.00.29212 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
+<br>
+
+#### Required Security updates
+
+|Channel|Version & Build|
+|:-----|:-----|
+|Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944)</br> |
+|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
+|Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
+
+</br>
 
 ## How to roll out new Teams
 
@@ -248,7 +259,7 @@ If the toggle still doesn't appear, then:
 
 ## What features are still missing?
 
-While many of the features you're familiar with in classic Teams are already in the new experience, others, like avatars and app notifications, are still being worked on. </br>
+While many of the features you're familiar with in classic Teams are already in the new experience, others, like Breakout rooms, are still being worked on. </br>
 
 [**Find the latest information on upcoming features for the new Teams**](https://aka.ms/newTeams).
 
@@ -274,14 +285,8 @@ There are a few known issues we're working on.
 
 ### General
 
-**Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook does not work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
-Solution: Install the Office and Windows security updates as it applies to your organization.</br>[Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)</br>
-
-|Channel|Version & Build|
-|:-----|:-----|
-|Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944</br> |
-|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
-|Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
+**Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
+Solution: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>[Learn more about Office version history](/officeupdates/update-history-microsoft365-apps-by-date#version-history)</br>
 
 </br>
 
@@ -294,7 +299,7 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 - **Issue:**  If custom apps are used, their icons are broken on the left pane.
 
-- **Issue:**  New Teams doesn't have the option to install/uninstall any app yet. So, the only apps installed in classic Teams will show up in new Teams. If we want to add new app, please add them in classic Teams so that they get added to new Teams as well. 
+- **Issue:**  You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams will show up in new Teams. </br>Workaround: Add your app in classic Teams. It will then appear in new Teams. 
 
 - **Issue:**  While all  the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, store navigation are still pending.
 
@@ -311,7 +316,7 @@ Workaround:  Switch back to classic Teams to use this feature.
 ### Calls
 
 - **Issue:**  Increased power usage during calls may cause CPU throttling and negatively impact performance.
-Workaround/details: We are working to resolve this.
+Workaround/details: We're working to resolve this.
 
 - **Issue:**  Full HID capabilities (for example, device mute/unmute, LED sync) aren't yet supported.
 
@@ -398,7 +403,7 @@ Workaround Share the app or window using the share tray within Teams meeting.
 Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 - **Issue:** New tenant invitations may not appear or get updated for 24 hours.</br>
-Workaround:  Switch back to classic Teams if the user needs access earlier thatn 24 hours.
+Workaround:  Switch back to classic Teams if the user needs access earlier than 24 hours.
 
 
 ### Notifications
@@ -413,7 +418,7 @@ Details:  Review your Windows Notification settings. From the upper-right corner
 
 - **Issue:**  Occasionally when a user is in a meeting, their Presence Status shows as Available.
 
-- **Issue:**  Sometimes users are not able to reset presence status.
+- **Issue:**  Sometimes users aren't able to reset presence status.
 
 - **Issue:**  The preview thumbnail for Teams appears but there are no presence buttons.
 
@@ -427,11 +432,11 @@ Details:  Review your Windows Notification settings. From the upper-right corner
 - **Issue:**   Limited options on Team Channel properties Dialog, including:
   - Pin, Manage Channel and Get Email Address available
   - Limited team site properties dialog – Hide, Manage Team, and Manage Tags available
-  - Adding a tab to a channel is not currently available.
+  - Adding a tab to a channel isn't currently available.
   - Webhooks not supported
 
 - **Issue:**   Attendance report doesn't show after a meeting.</br>
-Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report.  There is no option to download a report of an older channel meeting at this time.
+Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report.  There's no option to download a report of an older channel meeting at this time.
 
 ## Other areas:
 
