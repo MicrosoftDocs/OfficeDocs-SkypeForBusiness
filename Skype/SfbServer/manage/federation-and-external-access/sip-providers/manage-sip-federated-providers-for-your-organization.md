@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Manage SIP federated providers for your organization'
 ms.reviewer: 
 ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
@@ -105,4 +106,5 @@ Use the following procedure to create or edit hosted providers.
 [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+
 

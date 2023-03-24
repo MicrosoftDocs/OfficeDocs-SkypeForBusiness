@@ -1,4 +1,5 @@
 ---
+ms.date: 10/01/2018
 title: "Defining translation rules in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

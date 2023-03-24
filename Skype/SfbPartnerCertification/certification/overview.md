@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Skype for Business and Teams certification program"
 ms.author: serdars
 author: msdmaguire
@@ -43,3 +44,4 @@ Specifications apply to each category based on, but not exclusive to, industry s
 > **Certified for Microsoft Teams** <br/> Partners are currently designing products to bring new value to customers for Teams certified devices. Teams certified devices will continue to bring the same great experience you've come to expect from Skype for Business certified devices, but will add new benefits based on the device type. For more details as it applies to each category of devices, please see appropriate device page on this site.
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

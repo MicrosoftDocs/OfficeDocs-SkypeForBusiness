@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Block Point-to-Point file transfers"
 ms.reviewer: 
 ms.author: tonysmit
@@ -112,3 +113,4 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 
   
+

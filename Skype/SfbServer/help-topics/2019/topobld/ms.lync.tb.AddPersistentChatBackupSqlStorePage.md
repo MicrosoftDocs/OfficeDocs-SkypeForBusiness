@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Persistent Chat Backup SQL Server Store"
 ms.reviewer: 
 ms.author: serdars

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/27/2018
 title: "Install and open administrative tools"
 ms.reviewer: 
 ms.author: serdars
