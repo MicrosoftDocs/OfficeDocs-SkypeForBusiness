@@ -40,8 +40,8 @@ ms.localizationpriority: high
 >[!Important]
 >The new Teams client **is not** available for the following during the preview phase:
 >
->**Platforms:**  Mac, VDI, Web</br></br>
->**Customer segments:** Special cloud (GCC High, DoD, Microsoft 365 operated by 21Vianet in China, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
+>**Platforms:**</br>- Mac</br>- VDI</br>- Web</br>
+>**Customer segments:** </br>- Special cloud (GCC High, DoD, Microsoft 365 operated by 21Vianet in China, Air-gapped) </br>- Consumer</br>- Desktop running Windows 10 version 10.0.19041 or earlier
 
 >[!Tip]
 >Visit our [**Microsoft Adoption site**](https://aka.ms/newTeams) to learn about the new Teams!
@@ -288,9 +288,8 @@ There are a few known issues we're working on.
 ### General
 
 - **Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
-Solution: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>See [**Prerequisites**](#prerequisites) section in this article. 
+Fix: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>See [**Prerequisites**](#prerequisites) section in this article. 
 
-</br>
 
 ### Accessibility
 
