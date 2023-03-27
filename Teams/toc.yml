@@ -482,6 +482,8 @@ items:
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Walkie Talkie usage and performance report
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
+        - name: SMS notifications usage report
+          href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
               
     - name: Log files, service health, and support
       items:
@@ -1453,7 +1455,7 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-            - name: Find user licenses
+            - name: Find devices with unsupported licenses
               href: rooms/license-check.md
     - name: Microsoft Teams Rooms Pro Management
       items: 
@@ -1567,7 +1569,7 @@ items:
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
-      href: deploy-apps-microsoft-teams-landing-page.md
+      href: apps-in-teams.md
     - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Admin app
