@@ -31,7 +31,9 @@ description: "Learn about considerations to take into account with emergency cal
 
 # Considerations for Teams Phone Mobile
 
-This article describes how to manage emergency calling for Teams Phone Mobile users. To find out whether Teams Phone Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+This article describes how to manage emergency calling for Teams Phone Mobile users. For your planning purposes, review critical concepts and definitions to be used for emergency calling in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
+To find out whether Teams Phone Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ## Emergency call enablement for Teams Phone Mobile
 
@@ -79,8 +81,9 @@ Your mobile operator manages all emergency calls made through your SIM-Enabled S
 
 ## Related topics
 
+- [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
-- [Manage emergency call routing policies ](manage-emergency-call-routing-policies.md)
+- [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
 - [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 - [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
 - [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
