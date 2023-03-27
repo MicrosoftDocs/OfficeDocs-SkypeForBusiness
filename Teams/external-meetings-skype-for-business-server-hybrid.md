@@ -45,7 +45,7 @@ To allow chatting and calls with Skype users, configure your Skype for Business 
 - Ensure Skype is enabled as a federated partner.
 - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).
 
-If you are using Microsoft 365 with Skype for Business Server in a hybrid configuration, configure external chat and calling with Skype users in Microsoft 365 as described in [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md&tabs=organization-settings#manage-chat-and-calls-with-skype-users).
+If you are using Microsoft 365 with Skype for Business Server in a hybrid configuration, configure external chat and calling with Skype users in Microsoft 365 as described in [Manage external meetings and chat with people and organizations using Microsoft identities](/microsoftteams/trusted-organizations-external-meetings-chat#manage-chat-and-calls-with-skype-users).
 
 ## Related topics
 
