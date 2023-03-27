@@ -206,15 +206,16 @@ It's possible that the MSIX package installation could be blocked by registry ke
 
 The registry keys that could block new Teams MSIX package installation are: 
  
-- *BlockNonAdminUserInstall* 
-- *AllowAllTrustedApps* 
-- *AllowDevelopmentWithoutDevLicense* 
+- *BlockNonAdminUserInstall*
+- *AllowAllTrustedApps*
+- *AllowDevelopmentWithoutDevLicense*
 
 - These registry keys can be found at one of these locations:
   - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
   - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
- 
-There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation include: 
+
+</br>
+There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation include:
 
 - Prevent non-admins users from installing packaged Windows apps
 - Allow all trusted apps to install (disabled)
