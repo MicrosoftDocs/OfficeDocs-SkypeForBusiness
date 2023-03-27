@@ -42,7 +42,7 @@ Note that these people from outside your organization won't have access to your 
 
 ##### Related settings
 
-It's important to note that there are other settings in Teams - including guest access and anonymous access - that affect meetings with people outside your organization. See [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md) for more information.
+It's important to note that there are other settings in Teams—including guest access and anonymous access—that affect meetings with people outside your organization. See [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md) for more information.
 
 The meeting lobby can control how people outside your organization join meetings. For more information, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md) and [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
@@ -55,8 +55,6 @@ Configure the organization settings to specify which types of external meetings 
 For a user to use external access, both the organization setting and a user policy must allow it.
 
 Use the procedures on the tabs below to configure organization settings and user policies.
-
-<br>
 
 ## [**Organization settings**](#tab/organization-settings)
 
