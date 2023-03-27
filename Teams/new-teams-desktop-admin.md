@@ -456,7 +456,7 @@ Workaround Share the app or window using the share tray within Teams meeting.
 ### Multi-Tenant Multi-Account (MTMA)
 
 
-- **Issue:** After successfully seeing the toggle and installing the new Teams, a user signs into a different tenant that doesn't have new Teams enabled. The user can't sign back into their home tenant.</br>
+- **Issue:** After successfully seeing the toggle and installing the new Teams, a user switches to a different tenant that doesn't have new Teams enabled. The user can't sign back into their home tenant.</br>
 Workaround: Uninstall the new Teams and reinstall.
 
 - **Issue:**   When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
