@@ -97,7 +97,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
-|Setting |Description|
+|Setting|Description|
 |:-----|:-----|
 |Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
 |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
@@ -246,6 +246,10 @@ There are a few policies that could alter these registry keys and block app inst
 
 
 #### Policies that could block the user from seeing the App switcher toggle
+
+>[!Note]
+>If your admin has sign in restrictions applied, learn more at [How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviors](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
+
 
 The following list of policies can block users from seeing the app switcher toggle.
 
