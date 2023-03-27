@@ -382,7 +382,7 @@ Details: The @mention Everyone feature is still pending for this release.
 
 ### Meetings
 
-- **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud using Cross Cloud Anon (CCA).</br>
+- **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud (including GCC, GCC High, DoD) using Cross Cloud Anon (CCA).</br>
 Details: This feature is still pending in new Teams. Switch back to classic Teams for this meeting.
 
 - **Issue:**  When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
