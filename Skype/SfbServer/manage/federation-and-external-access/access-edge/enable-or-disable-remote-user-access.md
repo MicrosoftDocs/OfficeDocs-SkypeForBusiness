@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Enable or disable remote user access'
 ms.reviewer: 
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
@@ -69,3 +70,4 @@ To disable remote user access, set the value of the **AllowOutsideUsers** proper
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 ```
+

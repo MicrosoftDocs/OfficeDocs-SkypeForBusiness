@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "CQD Development Samples"
 ms.reviewer: 
 ms.author: serdars
@@ -729,3 +730,4 @@ HTML code for Example 3 (Scorecard sample):
 </body>
 </html>
 ```
+

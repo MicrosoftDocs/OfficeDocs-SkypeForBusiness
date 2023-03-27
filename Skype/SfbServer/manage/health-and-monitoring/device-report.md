@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Device Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -157,4 +158,5 @@ The following table lists the information provided in the Device Report.
 |**Echo send (%)** <br/> |Yes  <br/> |Percentage of echo transmitted to other users.  <br/> |
 |**Calls with echo (%)** <br/> |Yes  <br/> |Percentage of the total calls that had echo exceeding the acceptable level.  <br/> |
    
+
 

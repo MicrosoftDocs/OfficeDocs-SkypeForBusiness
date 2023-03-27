@@ -74,6 +74,18 @@ For more information about monthly minutes available in each country/region, see
 
 With the Domestic Calling Plan, licensed users can call out to numbers located in the country/region where they're assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
+There are three **Domestic Calling Plan** options to choose from:
+
+- **Domestic Calling Plan Zone-1 US**: For users in the United States and Puerto Rico.
+
+  Note: Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to United States and Puerto Rico users if bought in other countries.
+  
+- **Domestic Calling Plan Zone-1 Canada/UK**: For users in Canada and the United Kingdom.
+
+- **Domestic Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
+
+  Note: Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
+
 ### International Calling Plan
 
 With the International Calling Plan, licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.

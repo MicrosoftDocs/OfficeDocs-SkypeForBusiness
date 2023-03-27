@@ -8,9 +8,11 @@ ms.date: 07/22/2020
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

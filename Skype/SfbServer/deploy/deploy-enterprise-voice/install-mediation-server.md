@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install the files for Mediation Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -58,4 +59,5 @@ Use the steps in this topic to run Skype for Business Server Deployment Wizard t
 13. On the computer where you are running Skype for Business Server Control Panel, verify on the **Topology** page of Skype for Business Server Control Panel that the service status of the Mediation Server is shown as a green check mark. If a red X appears instead, select the Mediation Server. On the **Action** menu, click **Start All Services**. 
     
 If you added more than one computer to the Mediation Server pool, perform the steps in this procedure on all other computers in the Mediation Server pool. If you do not need to install files for Mediation Server for any other computers, then follow the procedures in [Configure trunks in Skype for Business Server](configure-trunks.md) to configure settings for the trunk connection between this Mediation Server pool (or all Mediation Servers at a site) and its peer.
+
 

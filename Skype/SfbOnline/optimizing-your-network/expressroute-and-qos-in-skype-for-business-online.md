@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "ExpressRoute and QoS in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -404,3 +405,4 @@ Effective business tools must perform reliably, consistently, and deliver a user
 [ExpressRoute documentation](/azure/expressroute/)
 
   
+

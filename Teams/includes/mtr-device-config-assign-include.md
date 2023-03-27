@@ -12,3 +12,4 @@ To assign licenses using the Microsoft 365 admin center, do the following:
 1. Select the resource account you created earlier.
 1. In the right pane, select **Licenses and Apps**.
 1. Expand the **Licenses** section, select the license you purchased earlier.
+
