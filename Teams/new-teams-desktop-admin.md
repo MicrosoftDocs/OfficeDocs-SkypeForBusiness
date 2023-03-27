@@ -25,6 +25,9 @@ ms.localizationpriority: high
 >[!Note]
 >The preview of the new Microsoft Teams desktop client for Windows will roll out beginning March 27, 2023 and is expected to complete over the following week.
 
+>[!Tip]
+>Looking for tips on using the new Teams?  See: [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5)
+
 ## Before you begin
 
 This article describes the preview release of tthe new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
@@ -93,18 +96,26 @@ Configure setting via Teams Admin Center
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select Teams>Teams Update policies from the left pane, as shown below.
+2. Select **Teams > Teams Update** policies from the left pane, as shown below.
+
+:::image type="content" source="media/new-teams-update-policies-toggle.png" alt-text="step in how to update teams policies":::
+
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
-|Setting |Description|
+|Setting|Description|
 |:-----|:-----|
-|Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
+|Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
-|Not enabled| Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams|
+|Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 
-1. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
-1. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
+:::image type="content" source="media/new-teams-update-policies-toggle2.png" alt-text="naming the update policy and the setting":::
+
+5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+
+:::image type="content" source="media/new-teams-update-policies-toggle3.png" alt-text="next step in enabling the toggle switch":::
+
+6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
@@ -112,7 +123,7 @@ If you update the policy setting in the Teams Admin Center, the new setting goes
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
-|Setting|Description|
+|Setting|Explanation|
 |:-----|:-----|
 |MicrosoftChoice|Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness.|
 |UserChoice|This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
@@ -253,7 +264,7 @@ The following list of policies can block users from seeing the app switcher togg
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
 - If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
-
+- [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
 
 ##### How do I know which one of the above policies is blocking me?
 
