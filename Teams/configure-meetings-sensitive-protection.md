@@ -36,9 +36,9 @@ The following table describes which actions we'll restrict for sensitive meeting
 |Apply a watermark to everyone's video feed|**Off**|Template|No|
 |Apply a watermark to shared content|**Off**|Template|No|
 |End-to-end encryption|**Off**|Template|No|
-|Manage what attendees see|**On**|Template|No|
+|Manage what attendees see|**On**|Template|Yes|
 |Meeting chat|**On**|Template|No|
-|People dialing in can bypass the lobby|**Off**|Template|Yes|
+|People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|No|
 |Record automatically|**Off**|Template|No|
 |Who can bypass the lobby|**Only people who were invited**|Label|Yes|
@@ -98,9 +98,7 @@ For additional information about using sensitivity labels with meetings, see [Us
 
 An advantage of using templates is that you can create multiple templates that use the same sensitivity label which lock different settings. For example, if some of your sensitive meetings are presentations where there is minimal interaction from attendees, you can create a template that turns off attendee video and even chat, and another template that leaves those options to the meeting organizer. Both templates would use the *Sensitive* label.
 
-In the *sensitive* level of protection, we'll use the template to prevent people dialing in by phone from bypassing the lobby. If there are certain types of meetings where you want to allow people calling in by phone to bypass the lobby, consider using a separate template with the same label for those meetings.
-
-We'll also set **Manage what attendees see** to **On**. This will give the meeting organizer the ability to manage how content is shown to meeting participants. We won't enforce the value in this case, allowing the meeting organizer to change it if they need to.
+In the *sensitive* level of protection, we'll use the template to set **Manage what attendees see** to **On** and enforce that value. (This option isn't available in sensitivity labels.) This will give the meeting organizer the ability to manage how content is shown to meeting participants. If there are certain types of meetings where you want to allow the organizer to change this setting, consider using a separate template with the same label for those meetings.
 
 To create a custom meeting template
 
@@ -109,8 +107,7 @@ To create a custom meeting template
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. Make sure **People calling in my phone can bypass the lobby** is set to **Off**, then select it and select **Lock**.
-1. Under **Meeting engagement**, set **Manage what attendees see** to **On**.
+1. Under **Meeting engagement**, set **Manage what attendees see** to **On**, then select it and select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
