@@ -41,7 +41,7 @@ ms.localizationpriority: high
 >The new Teams client **is not** available for the following during the preview phase:
 >
 >**Platforms:**  Mac, VDI, Web</br>
->**Customer segments:**  Special cloud (GCC High, DoD, Microsoft 365 operated by 21Vianet in China, Air-gapped), Consumer, Desktop running Windows 10 version 10.0.19041 or earlier
+>**Customer segments:**  </br>Government & Special cloud (GCC, GCC High, DoD, Air-gapped, Microsoft 365 operated by 21Vianet in China), Consumer, Desktop running Windows 10 version earlier than 10.0.19041
 
 >[!Tip]
 >Visit our [**Microsoft Adoption site**](https://aka.ms/newTeams) to learn about the new Teams!
@@ -98,11 +98,10 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |Setting |Description|
 |:-----|:-----|
 |Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
-|User can choose| Use this value to show the new Teams toggle switch, and allow 
-users to opt in to the new Teams, and switch back if they need to.|
+|User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
 |Not enabled| Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams|
 
-5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the Policy name>Assign users>Manage users. Enter the user to add and select apply.
+5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
 6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
@@ -111,11 +110,10 @@ If you update the policy setting in the Teams Admin Center, the new setting goes
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
-
 |Setting|Description|
 |:-----|:-----|
 |MicrosoftChoice|Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness.|
-|UserChoice| This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
+|UserChoice|This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
 |AdminDisabled|This value hides the new Teams toggle switch from view. Users won't be able to opt in to the new Teams.|Here are the steps needed to configure this setting in PowerShell.|
 
 1. Import the latest Teams PowerShell cmdlets (require version 4.9.1 or greater) by following [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams) instructions. Direct link: [PowerShell Gallery Microsoft Teams 4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1).
@@ -384,7 +382,7 @@ Details: The @mention Everyone feature is still pending for this release.
 
 ### Meetings
 
-- **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud using Cross Cloud Anon (CCA).</br>
+- **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud (including GCC, GCC High, DoD) using Cross Cloud Anon (CCA).</br>
 Details: This feature is still pending in new Teams. Switch back to classic Teams for this meeting.
 
 - **Issue:**  When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
