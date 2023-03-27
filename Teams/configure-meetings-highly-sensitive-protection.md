@@ -149,7 +149,7 @@ In the *highly sensitive* level of protection, we're configuring the following s
 - **Manage what attendees can see** - Enforced **On** for both meetings and presentations.
 - **Allow meeting chat** - Enforced to **In-meeting only** for meetings and enforced to **Off** for presentations.
 
-Since these settings differ between meetings and presentations, we'll create a template for each which share the same sensitivity label.
+Since these settings differ between meetings and presentations, we'll create one template for meetings and another presentations. Both templates can use the sensitivity label that we create above.
 
 #### Highly sensitive meetings template
 
