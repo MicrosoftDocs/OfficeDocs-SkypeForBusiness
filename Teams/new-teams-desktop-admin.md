@@ -99,12 +99,12 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
 |Setting|Description|
 |:-----|:-----|
-|Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
+|Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
-|Not enabled| Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams|
+|Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 
-1. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
-1. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
+5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
