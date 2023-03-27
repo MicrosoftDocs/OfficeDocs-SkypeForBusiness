@@ -91,6 +91,8 @@ items:
           items: 
             - name: Get Teams clients
               href: get-clients.md
+            - name: The new Teams client
+              href: new-teams-desktop-admin.md
             - name: Teams client updates
               href: teams-client-update.md
             - name: Bulk install Teams using Windows Installer
@@ -1043,8 +1045,6 @@ items:
       items: 
         - name: Manage phone numbers for your organization
           href: manage-phone-numbers-landing-page.md
-        - name: How many phone numbers can you get?
-          href: how-many-phone-numbers-can-you-get.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
         - name: Assign, change, or remove a phone number for a user
@@ -1055,14 +1055,16 @@ items:
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
 
-        - name: Manage phone numbers for Calling Plan
+        - name: Manage phone numbers for Calling Plan and services
           items: 
             - name: Overview
-              href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-            - name: Getting phone numbers for your users
+              href: manage-phone-numbers.md
+            - name: Get phone numbers for your users
               href: getting-phone-numbers-for-your-users.md
             - name: Get service phone numbers
               href: getting-service-phone-numbers.md
+            - name: How many phone numbers can you get?
+              href: how-many-phone-numbers-can-you-get.md
             - name: Transferring phone numbers
               items: 
                 - name: What's a port order?
