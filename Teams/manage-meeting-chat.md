@@ -32,6 +32,8 @@ The **Meeting chat** setting controls whether meeting chat is allowed in the use
 |**Off for everyone**     | Meeting chat is turned off for all participants.  |
 |**On for everyone but anonymous users**     | Meeting chat read and write access is turned off for anonymous participants only.  |
 
+## Manage meeting chat using the Teams admin enter
+
 To configure meeting chat
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
@@ -46,6 +48,24 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 - If the organizer has **Chat in meetings** set to **On for everyone** or **On for everyone but anonymous users**, then a user's individual policy will apply and any users with **On for everyone** set won't be able to chat in the meeting.
 - If the organizer has **Chat in meetings** set to **On for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
+
+## Manage meeting chat using PowerShell
+
+You can manage meeting chat in Teams meetings by using the following PowerShell cmdlet in Teams PowerShell:
+
+- Placeholder text for cmdlet links
+
+You'll run the following syntax to manage meeting chat:
+
+```PowerShell
+-MeetingChatEnabledType <String>
+```
+
+Use one of the following values:
+
+- **Enabled** to be **"On for everyone"**
+- **Disabled** to be **"Off for everyone"**
+- **EnabledExceptAnonymous** to be **"On for everyone but anonymous users"**
 
 Information about chat for your end users can be found in [Chat in a Teams meeting](https://support.microsoft.com/office/64e2cb91-8a11-4781-94ea-fbb23f2b922f).
 
