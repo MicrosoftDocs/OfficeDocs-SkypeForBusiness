@@ -60,7 +60,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
        - This option enables Teams Public Preview for the end user.
        - There is no action required by the end user.
        
-    ![shows the preview settings dialog.](media/forced-preview.png)  
+    ![Screenshot that shows the forced preview pane in Teams.](media/forced-preview.png)  
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
 
@@ -87,7 +87,7 @@ All public preview features are announced at [Microsoft Teams Public Preview - M
 
 Users who are in the Public Preview  will see **EA** next to their profile picture indicating that they have **E**arly **A**ccess to Teams features (as shown in the below image). 
 
-![EA-icon-screenshot](media/EA-screenshot.png)
+![Early-access-icon-screenshot.](media/EA-screenshot.png)
 
 ## Related topics
 
