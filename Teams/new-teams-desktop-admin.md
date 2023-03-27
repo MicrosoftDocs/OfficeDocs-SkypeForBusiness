@@ -99,12 +99,12 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
 |Setting|Description|
 |:-----|:-----|
-|Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
+|Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
-|Not enabled| Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams|
+|Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 
-1. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
-1. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
+5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
@@ -247,17 +247,13 @@ There are a few policies that could alter these registry keys and block app inst
 
 #### Policies that could block the user from seeing the App switcher toggle
 
->[!Note]
->If your admin has sign in restrictions applied, learn more at [How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviors](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
-
-
 The following list of policies can block users from seeing the app switcher toggle.
 
 - If the user is on a VDI computer (Citrix, VMware etc.). 
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
 - If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
-
+- [If your admin has sign in restrictions applied](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
 
 ##### How do I know which one of the above policies is blocking me?
 
