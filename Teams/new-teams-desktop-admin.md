@@ -25,6 +25,9 @@ ms.localizationpriority: high
 >[!Note]
 >The preview of the new Microsoft Teams desktop client for Windows will roll out beginning March 27, 2023 and is expected to complete over the following week.
 
+>[!Tip]
+>Looking for tips on using the new Teams?  See: [Try the new Microsoft Teams]
+
 ## Before you begin
 
 This article describes the preview release of tthe new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
@@ -261,7 +264,7 @@ The following list of policies can block users from seeing the app switcher togg
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
 - If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
-- [If your admin has sign in restrictions applied](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
+- [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
 
 ##### How do I know which one of the above policies is blocking me?
 
