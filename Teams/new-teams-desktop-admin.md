@@ -197,15 +197,19 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 #### Policy settings restricting download & install
 
-If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it.  If they see this error, 
+If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it. They may see this error: 
 
 :::image type="content" source="media/new-teams-install-error.png" alt-text="error when attempting to install the new teams desktop client":::
 
-It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool.
+It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool. For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
 
-For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
+The registry keys that could block new Teams MSIX package installation are: 
  
-“BlockNonAdminUserInstall “, “AllowAllTrustedApps” and “AllowDevelopmentWithoutDevLicense” are registry keys that could block new Teams MSIX package installation. These registry keys can be found at one of these locations:
+- *BlockNonAdminUserInstall* 
+- *AllowAllTrustedApps* 
+- *AllowDevelopmentWithoutDevLicense* 
+
+- These registry keys can be found at one of these locations:
   - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
   - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
  
@@ -241,9 +245,9 @@ There are a few policies that could alter these registry keys and block app inst
 
 The following list of policies can block users from seeing the app switcher toggle.
 
-- If the user is on a VDI computer (Citrix, VMWare etc.). 
-- If the user is signed into classic Teams with a *Teams for Life* account and a work account. 
-- If the user is signed into classic Teams with a *Teams for Life* account.
+- If the user is on a VDI computer (Citrix, VMware etc.). 
+- If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
+- If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
 
 
@@ -262,11 +266,11 @@ The following list of policies can block users from seeing the app switcher togg
 
 |Code|Meaning|
 |:-----|:-----|
-|TFLONLY|You are only signed into *Teams for Life*|
-|TFLANDTFW| You are signed into *Teams for Life* and *Teams for Work*|
-|SPECIALCLOUD| You are signed into a special cloud that isn’t supported.|
-|CROSSCLOUD| You are signed into a government cloud.| 
-|VDI|You are signed into a VDI machine (VMWare, Citrix, AVD/WV).|
+|TFLONLY|You're only signed in to *Teams for Life*|
+|TFLANDTFW| You're signed in to *Teams for Life* and *Teams for Work*|
+|SPECIALCLOUD| You're signed in to a special cloud that isn’t supported.|
+|CROSSCLOUD| You're signed in to a government cloud.| 
+|VDI|You're signed in to a VDI machine (VMware, Citrix, AVD/WV).|
 
 
 #### Update and restart message in title bar
@@ -436,7 +440,7 @@ Workaround Share the app or window using the share tray within Teams meeting.
 
 ### Multi-Tenant Multi-Account (MTMA)
 
-- **Issue:**   When you open an app, you may see a banner saying you're signed into that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
+- **Issue:**   When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
 Workaround: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 - **Issue:** New tenant invitations may not appear or get updated for 24 hours.</br>
