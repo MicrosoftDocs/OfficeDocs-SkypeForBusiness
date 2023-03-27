@@ -14,7 +14,7 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the new Microsoft Teams desktop client. Try out new features and provide feedback.
+description: Learn about the new Microsoft Teams desktop client for Windows . Try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -23,15 +23,17 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client 
 
 >[!Note]
->This article describes the preview release of the new Teams desktop client. No changes have been made in how the service works, and the backend remains the same. There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
+>The preview of the new Microsoft Teams desktop client for Windows will roll out beginning March 27, 2023 and is expected to complete over the following week.
 
-**In this article:**
+## Before you begin
+
+This article describes the preview release of tthe new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
 - [What is new Teams?](#what-is-the-new-teams)
 - [Prerequisites](#prerequisites)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
-- [How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
-- [Remove the new Teams client for all users](#remove-new-teams-for-all-users)
+- [How to uninstall the new Teams desktop client](#how-to-uninstall-the-new-teams-client)
+- [Remove the new Teams desktop client for all users](#remove-new-teams-for-all-users)
 - [Installation issues](#installation-issues)
 - [What features are still missing?](#what-features-are-still-missing)
 - [What features are changing?](#what-features-are-changing)
@@ -48,7 +50,7 @@ ms.localizationpriority: high
 
 ## What is the new Teams?
 
-The new Microsoft Teams client has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Microsoft Teams desktop client for Windows has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
 New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
@@ -93,7 +95,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 2. Select Teams>Teams Update policies from the left pane, as shown below.
 3. Select Add to create a new policy or select an existing policy to open Update policy.
-4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below
+4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
 |Setting |Description|
 |:-----|:-----|
@@ -101,8 +103,8 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
 |Not enabled| Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams|
 
-5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
-6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
+1. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+1. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
