@@ -483,7 +483,7 @@
     {
       "source_path": "Teams/transfer-phone-numbers-to-office-365.md",
       "redirect_url": "/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/transferring-phone-numbers-common-questions.md",
@@ -2098,7 +2098,7 @@
     {
       "source_path": "Teams/device-management.md",
       "redirect_url": "/microsoftteams/devices/device-management",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/phones-for-teams.md",
@@ -4168,12 +4168,12 @@
   {
     "source_path": "Teams/business-voice/business-enterprise-comparison.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },  
   {
     "source_path": "Teams/business-voice/create-users.md",
     "redirect_url": "/microsoftteams/setting-up-your-phone-system",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },  
   {
     "source_path": "Teams/business-voice/customize-business-voice.md",
@@ -4232,7 +4232,7 @@
   },  
   {
     "source_path": "Teams/business-voice/set-up-resource-account.md",
-    "redirect_url": "/microsoftteams/business-voice/set-up-resource-account",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
     "redirect_document_id": true
   },  
   {
