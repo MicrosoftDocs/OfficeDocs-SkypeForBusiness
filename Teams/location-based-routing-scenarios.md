@@ -61,15 +61,15 @@ A user who isn't enabled for Location-Based Routing can receive an inbound call 
   
 #### User enabled for Location-Based Routing
 
-In comparison, users enabled for Location-Based Routing can only receive inbound calls from the PSTN gateway their DID is assigned to when they are located at the same site. The following table shows how User1 receives inbound calls when User1 moves to different network locations. If the call isn't routed to the endpoint of the user, it goes to the user’s unanswered call forwarding settings, if the settings are configured. Typically, calls are forwarded to voicemail.  
+In comparison, users enabled for Location-Based Routing can receive inbound calls from the PSTN gateway their DID is assigned to when they are located at the same site, and when they are located in a different site with gateway that’s enabled for Location-Based Routing and GatewayLbrOverride set to True. The following table shows how User1 receives inbound calls when User1 moves to different network locations. If the call isn't routed to the endpoint of the user, it goes to the user’s unanswered call forwarding settings, if the settings are configured. Typically, calls are forwarded to voicemail.  
 
 |User1 endpoint location  |Routing of inbound calls to User1  |
 |---------|---------|
 |Same site as where user's DID is assigned, site enabled for Location-Based Routing (Site1)   | Calls routed to User1's endpoint in Site1        |
 |Different site than where user's DID is assigned, site enabled for Location-Based Routing (Site2)    | Calls not routed to endpoints in Site2        |
 |Different site than where user's DID is assigned, site not enabled for Location-Based Routing (Site3)    | Calls not routed to endpoints in Site3        |
-|Unknown internal network (Location4)   | Calls not routed to endpoints in Location4        |
-|Unknown external network (Location5)     | Calls not routed to endpoints in Location5        |
+|Unknown internal network (Location4)   | Call is not routed unless gateway has GatewayLbrEnabledUserOverride set to True         |
+|Unknown external network (Location5)     | Call is not routed unless gateway has GatewayLbrEnabledUserOverride set to True         |
 
 ### Teams user transfers or forwards call to another Teams user
 
