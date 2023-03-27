@@ -1,11 +1,11 @@
 ---
-title: Overview of standard channels in Microsoft Teams
+title: Standard channels in Microsoft Teams
 author: MachelleTranMSFT
 ms.author: mactra
 manager: serdars
 ms.reviewer: mikeplum
 ms.topic: overview
-ms.date: 3/17/2023
+ms.date: 3/27/2023
 audience: Admin
 ms.service: msteams
 ms.custom: chat-teams-channels-revamp
@@ -44,7 +44,8 @@ A Teams-connected site is created during the following scenarios:
 - Add Microsoft Teams to any existing SharePoint site
 - Create a new private or shared channel
 
-Standard channels will share one SharePoint site known as the parent site. Each standard channel is listed as a folder in the **Files** tab of a team. All team owners and members can access the site.
+> [!IMPORTANT]
+> Standard channels will share the first SharePoint site created when a team was created. Each standard channel is listed as a folder in the **Files** tab of a team. All team owners and members can access the site.
 
 ## Features of standard, private and shared channels
 
@@ -70,12 +71,12 @@ Manage tabs and apps    |    Yes    |    Yes, if enabled by team owner    |
 
 Standard channels are versatile and can be used in various scenarios to streamline team communication and collaboration. Here are some common use cases:
 
-- **Project collaboration**: Create a standard channel for each project to facilitate communication, file sharing, and collaboration among team members working on the project. Standard channels can be used as a shared workspace for teams to work on projects together, share files, track progress and communicate in real-time.
-- **Departmental communication**: Organize channels by department, such as Marketing, Sales, or HR, to create a dedicated space for each team to discuss department-specific subjects and share relevant resources.
+- **Project collaboration**: Create a standard channel for each project to facilitate communication, file sharing, and collaboration among team members. Standard channels can be used as a shared workspace for teammates to work on projects together, share files, track progress and communicate in real-time.
+- **Departmental communication**: Designate a channel for your team to discuss specific subjects and share relevant resources.
 - **Cross-functional teams**: Collaborate on initiatives that require input and participation from multiple departments with a standard channel.
-- **Announcements and updates**: Utilize the "General" channel or create a dedicated standard channel for company-wide announcements, updates, and news to keep everyone informed.
-- **Knowledge sharing**: Establish a standard channel for sharing best practices, training materials, and resources to support continuous learning and professional development. A standard channel can also act as a centralized repository for important information, such as company policies, procedures and best practices.
-- **Social and networking**: Encourage team bonding and camaraderie by creating standard channels for non-work-related articles, such as hobbies, interests, or company events.
+- **Announcements and updates**: Utilize the "General" channel or create a dedicated standard channel for announcements, updates and news to keep everyone informed.
+- **Knowledge sharing**: Establish a channel to share best practices, training materials and resources. A standard channel can also be a centralized knowledge base for procedural documentation and company policies such as role-specific procedures and best practices.
+- **Social and networking**: Encourage team bonding and camaraderie by creating standard channels to encourage non-work related conversation on topics like hobbies, interests, or morale events.
 
 ## Related articles
 
