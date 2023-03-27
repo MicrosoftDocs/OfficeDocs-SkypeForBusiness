@@ -3743,7 +3743,7 @@
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md",
     "redirect_url": "/microsoftteams/phone-reference/plan-availability/availability-in-estonia",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md",
@@ -3763,7 +3763,7 @@
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md",
     "redirect_url": "/microsoftteams/phone-reference/plan-availability/availability-in-germany",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md",
@@ -3783,7 +3783,7 @@
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md",
     "redirect_url": "/microsoftteams/phone-reference/plan-availability/availability-in-guam",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md",
@@ -3908,7 +3908,7 @@
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md",
     "redirect_url": "/microsoftteams/phone-reference/plan-availability/availability-in-morocco",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md",
