@@ -144,12 +144,12 @@ For additional information about using sensitivity labels with meetings, see [Us
 
 In the *highly sensitive* level of protection, we're configuring the following settings by using a meeting template:
 
-- **Allow camera for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
-- **Allow mic for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
+- **Enable camera for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
+- **Enable mic for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
 - **Manage what attendees can see** - Enforced **On** for both meetings and presentations.
-- **Meeting chat** - Enforced to **In-meeting only** for meetings and enforced to **Off** for presentations.
+- **Allow meeting chat** - Enforced to **In-meeting only** for meetings and enforced to **Off** for presentations.
 
-Since these setting differ between meetings and presentations, we'll create a template for each which share the same sensitivity label.
+Since these settings differ between meetings and presentations, we'll create one template for meetings and another for presentations. Both templates can use the sensitivity label that we create above.
 
 #### Highly sensitive meetings template
 
@@ -160,7 +160,7 @@ To create a meeting template for highly sensitive meetings
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. Set **Meeting chat** to **In-meeting only** and then select the setting and select **Lock**.
+1. Set **Allow meeting chat** to **Enabled only in meeting** and then select the setting and select **Lock**.
 1. Set **Manage what attendees see** to **On** and then select the setting and select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
@@ -176,9 +176,9 @@ To create a meeting template for highly sensitive presentations
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. Set **Allow mic for attendees** to **On** and then select the setting and select **Lock**.
-1. Set **Allow camera for attendees** to **On** and then select the setting and select **Lock**.
-1. Set **Meeting chat** to **Off** and then select the setting and select **Lock**.
+1. Set **Enable mic for attendees** to **Off** and then select the setting and select **Lock**.
+1. Set **Enable camera for attendees** to **Off** and then select the setting and select **Lock**.
+1. Set **Allow meeting chat** to **Disabled** and then select the setting and select **Lock**.
 1. Set **Manage what attendees see** to **On** and then select the setting and select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
