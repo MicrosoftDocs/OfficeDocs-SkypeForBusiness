@@ -60,7 +60,7 @@ The following features aren't available during an end-to-end encrypted meeting:
 
 - Excel Live
 
-If your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
+If your organization uses compliance recording for 1:1 calls, end-to-end encryption isn't available. For an end-to-end encrypted meeting if an individual who needs compliance recording tries to join, they will be blocked from joining. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Enable end-to-end encryption for meetings
 
