@@ -97,14 +97,14 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
-|Setting |Description|
+|Setting|Description|
 |:-----|:-----|
-|Microsoft controlled| Default. The value lets Microsoft control whether the Teams (preview) toggle switch is shown or not based on product readiness |
+|Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
-|Not enabled| Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams|
+|Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 
-1. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
-1. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
+5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
@@ -112,7 +112,7 @@ If you update the policy setting in the Teams Admin Center, the new setting goes
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
-|Setting|Description|
+|Setting|Explanation|
 |:-----|:-----|
 |MicrosoftChoice|Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness.|
 |UserChoice|This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
@@ -253,7 +253,7 @@ The following list of policies can block users from seeing the app switcher togg
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
 - If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
-
+- [If your admin has sign in restrictions applied](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
 
 ##### How do I know which one of the above policies is blocking me?
 
