@@ -93,7 +93,10 @@ Configure setting via Teams Admin Center
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select Teams>Teams Update policies from the left pane, as shown below.
+2. Select **Teams > Teams Update** policies from the left pane, as shown below.
+
+:::image type="content" source="media/new-teams-update-policies-toggle.png" alt-text="step in how to update teams policies":::
+
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
@@ -103,7 +106,12 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
 |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 
+:::image type="content" source="media/new-teams-update-policies-toggle2.png" alt-text="naming the update policy and the setting":::
+
 5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+
+:::image type="content" source="media/new-teams-update-policies-toggle3.png" alt-text="next step in enabling the toggle switch":::
+
 6. Once the policy is defined, you can assign it to a specific user via under **Users> Manage users** drop-down.
 
 If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
