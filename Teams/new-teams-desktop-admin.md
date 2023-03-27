@@ -23,7 +23,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client 
 
 >[!Note]
->The preview of the new Microsoft Teams desktop client for Windows will roll out beginning March 27, 2023 and is expected complete over the following week.
+>The preview of the new Microsoft Teams desktop client for Windows will roll out beginning March 27, 2023 and is expected to complete over the following week.
 
 ## Before you begin
 
