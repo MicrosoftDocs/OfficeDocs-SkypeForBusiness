@@ -149,7 +149,7 @@ To allow chat with unmanaged Teams accounts
 
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 
-1. If you want to allow external users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+1. If you want to allow external unmanaged Teams users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
 1. Select **Save**.
 
@@ -275,7 +275,7 @@ See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchp
 
 ## Compliance and external access
 
-See the following references to understand how external access works with Microsoft 365 compliance features.
+See the following references to understand how external access works with compliance features in Microsoft 365.
 
 - [eDiscovery in external access and guest environments](/microsoftteams/ediscovery-investigation#ediscovery-in-external-access-and-guest-environments)
 - [Message retention with external access users](/microsoft-365/compliance/retention-policies-teams#messages-and-external-users)
