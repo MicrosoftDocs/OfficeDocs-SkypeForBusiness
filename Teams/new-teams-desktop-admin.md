@@ -27,7 +27,7 @@ ms.localizationpriority: high
 
 **In this article:**
 
-- [What is new Teams?](#what-is-new-teams)
+- [What is new Teams?](#what-is-the-new-teams)
 - [Prerequisites](#prerequisites)
 - [How to roll out new Teams](#how-to-roll-out-new-teams)
 - [How to uninstall the new Teams client](#how-to-uninstall-the-new-teams-client)
@@ -111,7 +111,8 @@ If you update the policy setting in the Teams Admin Center, the new setting goes
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
-|Value|Description|
+
+|Setting|Description|
 |:-----|:-----|
 |MicrosoftChoice|Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness.|
 |UserChoice| This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
