@@ -27,7 +27,7 @@ Setting up the avatars for Teams app involves the following steps:
 
 1. [Allow the avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
 1. [Ensure essential URLs are allowed](#ensure-essential-urls-are-allowed).
-1. (Optional) Block the avatars for Teams app for specific users or user groups.
+1. (Optional) [Block the avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
 
 After you complete these steps, the avatars for Teams app will be available to users in your organization.
 
@@ -81,7 +81,7 @@ To ensure the avatars for Teams app works properly, TCP ports 443 and 80 need to
 
 TCP port 80 is required to allow requests to automatically redirect to TCP port 443.
 
-## Blocking Avatars app for specific users
+## Block the avatars for Teams app for specific users or groups
 
 Blocking users is important when you don't want certain users to access the avatars for Teams app. You can also block users if there's a report of an inappropriate avatar that violates company policy and needs to be disabled.
 
