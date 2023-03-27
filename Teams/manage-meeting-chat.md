@@ -29,10 +29,11 @@ The **Meeting chat** setting controls whether meeting chat is allowed in the use
 |Setting value |Behavior  |
 |---------|---------|
 |**On for everyone**     | All participants can write and view chat messages. |
-|**On for everyone**     | Meeting chat is turned off for all participants.  |
-|**On for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
+|**Off for everyone**     | Meeting chat is turned off for all participants.  |
+|**On for everyone but anonymous users**     | Meeting chat read and write access is turned off for anonymous participants only.  |
 
 To configure meeting chat
+
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Scroll to the **Meeting engagement** section.
