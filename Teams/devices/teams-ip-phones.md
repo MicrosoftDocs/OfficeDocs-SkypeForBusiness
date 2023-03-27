@@ -83,8 +83,8 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-|Cisco Board Pro 55 | '11.3.1.13' | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
-|Cisco Board Pro 75 | '11.3.1.13' | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
+|Cisco Board Pro 55 | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
+|Cisco Board Pro 75 | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
 | EPOS Expand 5T | `1.2.22362.04`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
 | EXPAND Control Touch Console | `1.2.22250.08`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A10 | `278.15.0.6 `   | September 3, 2025 | Small meeting room (4.5 m x 4.5 m)| 11|
