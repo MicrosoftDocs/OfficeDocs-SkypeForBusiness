@@ -247,17 +247,13 @@ There are a few policies that could alter these registry keys and block app inst
 
 #### Policies that could block the user from seeing the App switcher toggle
 
->[!Note]
->If your admin has sign in restrictions applied, learn more at [How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviors](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
-
-
 The following list of policies can block users from seeing the app switcher toggle.
 
 - If the user is on a VDI computer (Citrix, VMware etc.). 
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
 - If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
-
+- [If your admin has sign in restrictions applied](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
 
 ##### How do I know which one of the above policies is blocking me?
 
