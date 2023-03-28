@@ -34,7 +34,7 @@ This article describes how to configure guest access settings - including calls,
 - To collaborate with a partner organization that uses Azure Active Directory and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
 
 > [!NOTE]
-> If you just want to find, call, chat, and set up meetings with people in other organizations, use [external access](manage-external-access.md).
+> If you just want to find, call, chat, and set up meetings with people in other organizations, use [external access](trusted-organizations-external-meetings-chat.md).
 
 ## Configure guest access in the Teams admin center
 
@@ -71,6 +71,11 @@ This article describes how to configure guest access settings - including calls,
     ![Guest permissions settings in Teams.](media/manage-guest-access-image1.png)
 
 5. Select **Save**.
+
+> [!NOTE]
+> If you're an administrator, and you're having trouble with Guest Access in Microsoft Teams, select **Run Tests** below, which will populate the Guest Access diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to enable Guest Access for your tenant.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Guest Access](https://aka.ms/TeamsGuestAccessDiagDMC)
 
 ## Turning guest access off
 
