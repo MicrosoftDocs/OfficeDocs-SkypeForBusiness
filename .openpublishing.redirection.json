@@ -483,7 +483,7 @@
     {
       "source_path": "Teams/transfer-phone-numbers-to-office-365.md",
       "redirect_url": "/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/transferring-phone-numbers-common-questions.md",
@@ -2098,7 +2098,7 @@
     {
       "source_path": "Teams/device-management.md",
       "redirect_url": "/microsoftteams/devices/device-management",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/phones-for-teams.md",
@@ -4169,7 +4169,97 @@
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md",
     "redirect_url": "/microsoftteams/phone-reference/plan-availability/calling-plan-overview",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/analytics-dashboard.md",
+    "redirect_url": "/microsoftteams/turning-on-and-using-call-quality-dashboard",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/business-enterprise-comparison.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/create-users.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/customize-business-voice.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/manage-devices.md",
+    "redirect_url": "/microsoftteams/devices/device-management",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/monitor-quality.md",
+    "redirect_url": "/microsoftteams/monitor-call-quality-qos",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/policy-packages.md",
+    "redirect_url": "/microsoftteams/manage-policy-packages",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/port-phone-numbers.md",
+    "redirect_url": "/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/set-up-assign-numbers.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/set-up-emergency-locations.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/set-up-finish.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/set-up-overview.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/set-up-phone-numbers.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/set-up-policies.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/set-up-resource-account.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/things-to-try.md",
+    "redirect_url": "/microsoftteams/setting-up-your-phone-system",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/whats-business-voice.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/business-voice/index.yml",
+    "redirect_url": "/microsoftteams/",
+    "redirect_document_id": false
   }
-  ] 
+ ] 
 }
 

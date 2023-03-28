@@ -636,6 +636,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
+            - name: Set up avatars for Teams
+              href: meeting-avatars.md
         - name: Standardized meetings
           items: 
             - name: Custom meeting backgrounds
