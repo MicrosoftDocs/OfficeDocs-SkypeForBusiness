@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Best practices for your core infrastructure in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -32,4 +33,5 @@ To help protect the servers in your Skype for Business Server deployment from ac
     
 - Disable all external Direct Memory Access (DMA) ports of the server, unless you can guarantee very tight control over the physical access to the servers. DMA-based attacks, which can be initiated fairly easily, could expose very sensitive information, such as private encryption keys.
     
+
 

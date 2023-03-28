@@ -1,4 +1,5 @@
 ---
+ms.date: 09/27/2018
 title: "Manage services in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

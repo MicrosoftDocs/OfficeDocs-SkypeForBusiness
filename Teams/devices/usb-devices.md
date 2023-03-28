@@ -4,9 +4,10 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: dougand
-ms.date: 06/13/2018
+ms.date: 03/15/2023
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
   - Tier3
   - M365-voice
@@ -85,6 +86,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |BH71 Pro Headset                                           |3/17/2023       |Certified for Microsoft Teams                            |
+|Jabra                |SPEAK2 75 Speakerphone                                     |3/17/2023       |Certified for Microsoft Teams                            |
 |Jabra                |SPEAK2 55 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
 |Jabra                |SPEAK2 40 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
 |Poly                 |Voyager Free 60 UC Earbuds                                 |3/3/2023        |Certified for Microsoft Teams                           |

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Qualified Lync applications: Billing and enhanced reporting applications"
 ms.author: serdars
 author: msdmaguire
@@ -224,4 +225,5 @@ PowerView is a comprehensive reporting and billing solution for Lync that enable
 PowerView includes a scalable data warehouse that produces rich reports on the operation and management of Lync Server across an entire deployment over an unlimited period of time. Instant Messaging, voice, application sharing, audio and video conferencing, are all tracked and reported.
 
 Administrators can drill down through more than 30 prepackaged reports to browse usage, view by department or geography, sort by total usage or costs, and navigate to individual user reports. Customized reports can also be created to meet specific requirements. Reporting subscriptions can enable automation of activities such as sending out monthly departmental billing summaries.
+
 

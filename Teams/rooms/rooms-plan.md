@@ -8,6 +8,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -16,6 +17,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - Teams_ITAdmin_Rooms
+  - Tier1
   - highpri
 description: This article explains the relevant planning considerations for deploying Microsoft Teams Rooms, the next generation of Skype Room Systems.
 ---

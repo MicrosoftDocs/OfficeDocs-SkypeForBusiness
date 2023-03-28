@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Manage user accounts using the Online Connector"
 ms.reviewer: 
 ms.author: tonysmit
@@ -114,3 +115,4 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+

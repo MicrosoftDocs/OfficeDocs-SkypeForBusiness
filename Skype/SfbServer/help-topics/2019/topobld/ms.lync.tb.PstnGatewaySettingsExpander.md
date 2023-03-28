@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "PSTN Gateway Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -29,4 +30,5 @@ Select whether to enable IPv4 and IPv6 for the gateway.
   
 The **Alternate media IP address** is a definition for the Mediation Server for which the deployed PSTN gateway has a different IP address for media traffic than the default configured IP address, which is typically dedicated for SIP traffic. If you define this parameter, then the PSTN gateway supports a different supports a different network interface or path for media. If this address is left blank, then the PSTN gateway does not support the alternate path for media.
   
+
 
