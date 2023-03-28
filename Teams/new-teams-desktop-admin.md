@@ -14,7 +14,7 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the new Microsoft Teams desktop client for Windows . Try out new features and provide feedback.
+description: Learn about the new Microsoft Teams desktop client for Windows. Try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
