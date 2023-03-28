@@ -358,22 +358,26 @@ items:
           href: communicate-with-users-from-other-organizations.md
         - name: Plan for external meetings
           href: plan-meetings-external-participants.md
-        - name: External meetings and chat
+        - name: External meetings and chat with Microsoft identities
           items: 
-            - name: Manage external meetings and chat
-              href: manage-external-access.md
+            - name: Configure external meetings & chat
+              href: trusted-organizations-external-meetings-chat.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
+            - name: Skype for Business Server
+              href: external-meetings-skype-for-business-server-hybrid.md
         - name: Guest access
           items: 
             - name: About guest access
               href: guest-access.md
-            - name: Guest experience
-              href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
+            - name: Guest experience
+              href: guest-experience.md
+        - name: Anonymous meeting participants
+          href: anonymous-users-in-meetings.md
 
     - name: Integrate apps with Teams
       items:
@@ -610,8 +614,6 @@ items:
               href: meeting-policies-content-sharing.md
             - name: Who can present
               href: meeting-who-present-request-control.md
-            - name: Anonymous participants
-              href: anonymous-users-in-meetings.md
             - name: Speaker coach
               href: meeting-speaker-coach.md
         - name: Attendee experience
@@ -634,6 +636,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
+            - name: Set up avatars for Teams
+              href: meeting-avatars.md
         - name: Standardized meetings
           items: 
             - name: Custom meeting backgrounds
@@ -712,7 +716,7 @@ items:
           items: 
             - name: What are Teams live events?
               href: teams-live-events/what-are-teams-live-events.md
-            - name: Plan for Teams lives events
+            - name: Plan for Teams live events
               href: teams-live-events/plan-for-teams-live-events.md
             - name: Set up for Teams live events
               href: teams-live-events/set-up-for-teams-live-events.md
