@@ -1,4 +1,5 @@
 ---
+ms.date: 04/03/2021
 title: Migrate hybrid application endpoints to the cloud
 ms.author: crowe
 author: CarolynRowe
@@ -88,6 +89,7 @@ You are now ready to [remove your on-premises Skype for Business deployment](dec
 - [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md)
 
 - [Create an auto attendant via cmdlets](/microsoftteams/create-a-phone-system-auto-attendant-via-cmdlets)
+
 
 
 

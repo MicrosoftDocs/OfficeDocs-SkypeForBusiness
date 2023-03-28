@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Remove Certificate (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "On the Remove Certificate introduction page, read the information 
  
 On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.
   
+
 

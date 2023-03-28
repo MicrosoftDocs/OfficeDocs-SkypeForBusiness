@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype for Business topologies supported with Modern Authentication"
 ms.reviewer:
 ms.author: serdars

@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: serdars
 ms.reviewer: 
-ms.date: 08/26/2022
+ms.date: 03/28/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,13 +12,14 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - m365initiative-securecollab
+  - Tier1
 f1.keywords: 
   - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: This reference describes each of the policies available in Microsoft Teams
+description: This reference describes each of the policies available in Microsoft Teams.
 ---
 
 # Teams policies reference
@@ -143,7 +144,7 @@ App setup policies control how apps are made available to a user with the Teams 
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
 - [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
-- [Understand Microsoft Teams apps and their capabilities](deploy-apps-microsoft-teams-landing-page.md)
+- [Understand Microsoft Teams apps and their capabilities](apps-in-teams.md)
 
 ## Meetings
 
@@ -166,12 +167,15 @@ Meeting policies are used to control what features are available in meetings org
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
-|Engagement report|Turn on|When **On**, meeting organizers can see who registered and attended the meetings they set up.|
+|Attendance report|Everyone, unless organizers opt-out|This setting allows meeting organizers the ability to see the toggle that turns on or off Attendance Reports within Meeting options.|
+|Who is in the report|Everyone, but users can opt-out|This setting controls whether users in the meeting can opt in or out of offering their attendance information in the Attendance Report.|
+|Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant.|
 
 #### Related topics to meeting scheduling
 
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
+- [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 
 #### Meeting join & lobby
 
@@ -184,7 +188,7 @@ Meeting policies are used to control what features are available in meetings org
 |Anonymous users can join a meeting|On|When this setting is on, anyone can join Teams meetings, including Teams users in other organizations that aren't on your allowed domains list. If anonymous join is turned off in org-wide meeting settings, anonymous users can't join any meetings, regardless of what you set here.|
 |Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest, or a user from a trusted organization. This setting will work only if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
 |Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
-|People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings. |
+|People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 
 ##### PowerShell-only meeting join & lobby policies
 
@@ -237,9 +241,16 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
 
+##### PowerShell-only content sharing policies
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+|AllowMeetingCoach|True|This setting lets users turn on Speaker Coach during a Teams meeting. Read more on [how to turn Speaker Coach on or off](meeting-speaker-coach.md).|
+
 ##### Related topics to content sharing policies
 
-- [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md)
+- [Manage meeting policies for content sharing](meeting-policies-content-sharing.md)
+- [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Recording & transcription
@@ -271,7 +282,8 @@ Meeting policies are used to control what features are available in meetings org
 
 ##### Related topics to recording & transcription policies
 
-- [Teams meeting recording](cloud-recording.md)
+- [Teams meeting recording](meeting-recording.md)
+- [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 

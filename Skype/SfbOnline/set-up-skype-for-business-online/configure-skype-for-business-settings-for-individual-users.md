@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Admins Configure Skype for Business settings for individual users"
 ms.reviewer: 
 ms.author: tonysmit
@@ -115,3 +116,4 @@ To configure these settings in bulk, use PowerShell. See [Set the phone numbers 
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
+

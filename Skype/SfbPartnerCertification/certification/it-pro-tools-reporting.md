@@ -1,4 +1,5 @@
 ---
+ms.date: 06/14/2018
 title: "Skype for Business certification program - Reporting"
 ms.author: serdars
 author: msdmaguire
@@ -34,5 +35,6 @@ The tools allow IT Pros to pivot data against time, network location, and more, 
 
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+
 
 

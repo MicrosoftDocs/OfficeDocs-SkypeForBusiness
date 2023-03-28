@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Accessibility Declaration of Conformance in France"
 ms.author: tonysmit
 author: tonysmit
@@ -205,4 +206,5 @@ Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE 
   
 ## Related topics
 [Accessibility solutions for Skype for Business Online in France](/microsoftteams/accessibility-solutions-in-france)
+
 
