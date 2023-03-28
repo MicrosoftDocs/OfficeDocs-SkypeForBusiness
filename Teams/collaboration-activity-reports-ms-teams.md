@@ -24,11 +24,11 @@ description: Learn about the Collaboration activity reports in Microsoft Teams.
 # Collaboration activity reports for Microsoft Teams
 
 > [!IMPORTANT]
-> Advanced Collaboration Management Insights Preview is provided for evaluation purposes only and may not include all expected functionality.  Data provided during preview will be deleted within 180 days from a tenant deletion action.
+> Advanced Collaboration Management Insights Preview is provided for evaluation purposes only and may not include all expected functionality. Data provided during preview will be deleted within 180 days from a tenant deletion action.
 
-The Collaboration activity reports for Microsoft Teams aims to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. Eventually, the Collaboration activity reports will enable Teams administrators to automate their work.
+The Collaboration activity reports for Microsoft Teams aim to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. In future iterations of the Collaboration activity reports, this feature will enable Teams administrators to automate their work.
   
-With the help of Collaboration activity reports, you can get an insight into teams, domains, channels, external users, guest users, and users internal to your organization.
+Through Collaboration activity reports, you can surface insights about your teams, domains, channels, external users, guest users, and users internal to your organization.
 
 ## Where to find Collaboration activity reports
 
@@ -109,6 +109,7 @@ The **Channels by user type** widget view shows you how many active channels are
 
 > [!NOTE]
 > The supported types of channels are standard, private, and shared.
+> This insight doesn't tell you how many users are in a channel; it shows how many channels have a specific user composition.
 
 By default, we show you details for the last 7 days.
 
@@ -129,7 +130,7 @@ The **External collaboration activity by team** widget view shows you which team
 :::image type="content" source="media/external-collaboration-activity-by-team.png" alt-text="The External collaboration activity by team widget." lightbox="media/external-collaboration-activity-by-team.png":::
 
 > [!NOTE]
-> The data is concealed by default in this widget. To unconceal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can click **View details** to see the teams’ names and the "sent message count" for each team. An average message count will also be displayed.
 
@@ -146,7 +147,7 @@ The **External collaboration activity by user** widget view shows you which of t
 :::image type="content" source="media/external-collaboration-activity-by-user.png" alt-text="The External collaboration activity by user widget." lightbox="media/external-collaboration-activity-by-user.png":::
 
 > [!NOTE]
-> The data is concealed by default in this widget. To unconceal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can click **View details** to see the users’ names and the "sent message count" for each user. An average message count will also be displayed.
 
@@ -164,7 +165,7 @@ The **Guest user activity** widget shows you which of your guests have the most 
 
 > [!NOTE]
 > This insight doesn't capture Guest<>In-tenant user activity.
-> The data is concealed by default in this widget. To unconceal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can click **View details** to see the guest’s names and the "sent message count" for each guest. An average message count will also be displayed.
 
