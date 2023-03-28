@@ -151,9 +151,9 @@ As an administrator, you can hide or show captions for users by using the PowerS
     ```
 
 
-Download the latest Teams cmdlet at [Teams cmdlet PowerShell Gallery | MicrosoftTeams 5.0.1](https://www.powershellgallery.com/packages/MicrosoftTeams/5.0.1-preview)
+For more information about PowerShell, see [Microsoft Teams PowerShell Overview - Microsoft Teams | Microsoft Learn](teams-powershell-overview.md)
 
-:::image type="content" source="media/powershell-commands.png" alt-text="Screenshot that shows the PowerShell commands." lightbox="media/powershell-commands.png":::
+
 
 ### Related topics
 
