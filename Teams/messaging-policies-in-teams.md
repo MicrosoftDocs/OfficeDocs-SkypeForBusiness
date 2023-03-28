@@ -120,7 +120,7 @@ Here are the messaging policy settings that you can configure.
 To improve the user experience, Teams Chat now supports closed captions for video messages. Users can disable captions at any point in time if they don’t wish to see them.
 
 > [!NOTE]
-> Captions are auto generated and currently available only in English; however, other languages will soon be added.
+> Captions are auto-generated and currently available only in English; other languages will soon be added.
 
 As an administrator, you can hide or show captions for users by using the PowerShell cmdlet.
 
@@ -142,7 +142,7 @@ As an administrator, you can hide or show captions for users by using the PowerS
     ```
 
 
-- Use the following command to get the value for teams messaging config:	
+- Use the following command to get the value for `TeamsMessagingConfiguration`:	
 
     
     ```powershell
