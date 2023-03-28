@@ -41,13 +41,21 @@ You can temporarily roll back to the previous Teams Rooms home screen design if 
 
 You can create a custom wallpaper for your Teams Rooms theme to represent your brand or to provide instructions to Teams Rooms users. The guidelines in this section apply to Teams Rooms on Windows version 4.16 and later devices that have the refreshed home screen enabled. If your device is running 4.15 and earlier, or if you haven't enabled the refreshed home screen, use the guidelines provided in [Custom theme images](xml-config-file.md#custom-theme-images).
 
-Custom wallpapers need to be exactly 3840 x 1080 pixels in size, regardless of whether the wallpaper is used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the left half of the image is used and the right half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays.
+Custom wallpapers are supported on 16:9 and 21:9 displays. The guidelines differ slightly depending on the size of your display:
 
-**Single room front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-single-dimensions-large.png":::
+- **16:9 displays** Custom wallpapers need to be exactly 3840 x 1080 pixels in size, regardless of whether the wallpaper is used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the left half of the image is used and the right half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays.
+- **21:9 displays** Custom wallpapers need to be exactly 2520 x 1080 pixels in size. Only one 21:9 front-of-room display is supported.
 
-**Dual room front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-dual-dimensions.png" alt-text="Dual front of room display with element dimensions" lightbox="../media/front-of-room-dual-dimensions-large.png":::
+If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
+
+**16:9 - Single front-of-room display dimensions**
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+
+**16:9 - Dual front-of-room display dimensions**
+:::image type="content" source="../media/front-of-room-16-9-dual-dimensions.png" alt-text="Dual front of room display with element dimensions" lightbox="../media/front-of-room-16-9-dual-dimensions-large.png":::
+
+**21:9 - Single front-of-room display dimensions**
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
 When you create a custom wallpaper, use the following guidelines:
 
@@ -61,9 +69,12 @@ When you create a custom wallpaper, use the following guidelines:
     - **Upper-left corner coordinates**: 96, 946
   - **Right side** - Room calendar.
     - **Size**: 512 x 585
-    - **Upper-left corner (single display) coordinates**: 1312, 248
-    - **Upper-left corner (dual display) coordinates**: 3232, 248
-
+    - 16:9 displays
+      - **Upper-left corner (single display) coordinates**: 1312, 248
+      - **Upper-left corner (dual display) coordinates**: 3232, 248
+    - 21:9 displays
+      - **Upper-left corner coordinates**: 1912, 248
+  
 - Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
