@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: richardzhang
-ms.date: 03/15/2023
+ms.date: 03/28/2023
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -18,8 +18,7 @@ ms.collection:
   - Tier1
 description: Collect meeting or webinar attendance information from the attendance report in Microsoft Teams. The attendance report shows join times, leave times, and in-meeting duration by attendee.
 appliesto: 
-  - Microsoft Teams
-ms.custom: 
+  - Microsoft Teams 
 ---
 
 # Attendance report for meetings and webinars in Microsoft Teams
@@ -37,11 +36,14 @@ For education tenants, the attendance report can be used to track student attend
     - **Everyone, unless organizers opt-out** - Meeting organizers to can turn on or off attendance reports for a meeting. This setting is on by default.
     - **No one** - Meeting organizers can't view or download attendance reports for a webinar or meeting they have organized.
     - **Everyone** - Meeting organizers can't turn off attendance reports for a webinar or meeting.
-1. For **Who's in the report**, choose one of the following:
+1. For **Who is in the report**, choose one of the following:
     - **Everyone, but users can opt-out** - The attendance report will initially include all users, but users can opt-out. This setting is on by default.
     - **No one, but users can opt-in** - The attendance report will initially exclude all users, but users can opt-in.
     - **Everyone** - The attendance report will include all users, and users can't opt-out.
     - **No one** - The attendance report will exclude all users, and users can't opt-in.
+1. For **Attendance summary**, choose one of the following:
+    - **Show everything** - Include meeting attendees' join times, leave times, and in-meeting duration. This setting is on by default.
+    - **Only show who attended** - Doesn't include meeting attendees' join times, leave times, and in-meeting duration.
 1. Once you have made your policy setting selections, hit **Save** at the bottom of the page.
 
 > [!NOTE]
@@ -64,9 +66,17 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEna
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTrackingInReport DisabledUserOverride
 ```
 
+To give meeting organizers the option to turn on or turn off attendance reports that only show who attended:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Enabled
+Set-CsTeamsMeetingPolicy -Identity <policy name> -InfoShownInReportMode identityOnly
+```
+
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
 - [Teams usage report](teams-usage-report.md)
+- [Set up webinars](set-up-webinars.md)
 - [Teams policies reference - Meeting policies](../settings-policies-reference.md#meeting-policies)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
