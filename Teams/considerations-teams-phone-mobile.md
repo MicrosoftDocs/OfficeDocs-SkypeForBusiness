@@ -31,9 +31,9 @@ description: "Learn about considerations to take into account with emergency cal
 
 # Considerations for Teams Phone Mobile
 
-This article describes how to manage emergency calling for Teams Phone Mobile users. For your planning purposes, review critical concepts and definitions to be used for emergency calling in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+This article describes considerations for emergency calling for Teams Phone Mobile users. With Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams. To find out whether Teams Phone Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md).
 
-To find out whether Teams Phone Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+For your emergency calling planning purposes, review critical concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 ## Emergency call enablement for Teams Phone Mobile
 
@@ -84,6 +84,5 @@ Your mobile operator manages all emergency calls made through your SIM-Enabled S
 - [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
 - [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
-- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
-- [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
 - [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
+- [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md)

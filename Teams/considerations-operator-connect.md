@@ -31,9 +31,9 @@ description: "Learn about emergency calling, including information about emergen
 
 # Considerations for Operator Connect
 
-This article describes how to manage emergency calling for Operator Connect users. For your planning purposes, review critical concepts and definitions to be used for emergency calling in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+This article describes considerations for emergency calling for Operator Connect users. With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Plan for Operator Connect](operator-connect-plan.md).
 
-To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+For your emergency calling planning purposes, review critical concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 ## Emergency call enablement for Operator Connect
 
@@ -80,6 +80,5 @@ When a Teams Operator Connect user dials an emergency number, how the call is ro
 - [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
 - [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
-- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
-- [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
 - [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
+- [Plan for Operator Connect](operator-connect-plan.md)
