@@ -96,10 +96,9 @@ You can turn off a user's ability to install trial apps and services, which woul
 1. 2. Clear the check mark from **Let users install trial apps and services**.
 
     ![the User owned apps and services page in admin center.](media/iw-trial-user-owned-apps-services.png)
-
    
-  > [!NOTE]
-    > If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.
+   > [!NOTE]
+   > If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.
 
 ### Manage availability for a user with a license that includes Teams
 
