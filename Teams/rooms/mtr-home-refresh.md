@@ -49,13 +49,13 @@ Custom wallpapers are supported on 16:9 and 21:9 displays. The guidelines differ
 If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
 
 **16:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single 16:9 front of room display with element dimensions" lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
 **16:9 - Dual front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-dual-dimensions.png" alt-text="Dual front of room display with element dimensions" lightbox="../media/front-of-room-16-9-dual-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-dual-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions" lightbox="../media/front-of-room-16-9-dual-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single front of room display with element dimensions" lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single 21:9 front of room display with element dimensions" lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
 When you create a custom wallpaper, use the following guidelines:
 
