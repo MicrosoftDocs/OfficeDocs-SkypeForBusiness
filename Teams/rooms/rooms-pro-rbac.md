@@ -29,11 +29,11 @@ Role-based access control (RBAC) in the Microsoft Teams Rooms Pro Management por
 To create, edit, or assign roles, your account must have one of the following permissions:
 
 - Global Administrator through Azure Active Directory (Azure AD)
-- Managed Service Administrator through the Microsoft Teams Rooms Pro Management portal
+- Teams Rooms Pro Manager through the Microsoft Teams Rooms Pro Management portal
 
 ## What is a role?
 
-A role defines the set of permissions granted to users assigned to that role. For now, the Microsoft Teams Rooms Pro Management portal has three built-in roles: **Managed Service Administrator**, **Site Lead**, and **Site Tech**. They cover some common scenarios for users in your organization that may be involved in managing your rooms.
+A role defines the set of permissions granted to users assigned to that role. For now, the Microsoft Teams Rooms Pro Management portal has three built-in roles: **Teams Rooms Pro Manager**, **Site Lead**, and **Site Tech**. They cover some common scenarios for users in your organization that may be involved in managing your rooms.
 
 To see roles, in the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Roles**, and then select any of the roles to see the role’s properties, permissions, and assignments.  
 
@@ -45,13 +45,13 @@ To see roles, in the left navigation of the Microsoft Teams Rooms Pro Management
 
 You can assign built-in roles to groups or users without further configuration. Keep in mind that you can't delete or edit the name, description, type, or permissions of a built-in role.
 
-- **Managed Service Administrator**: Has full access to the Microsoft Teams Room Pro Management portal.
+- **Teams Rooms Pro Manager**: Has full access to the Microsoft Teams Room Pro Management portal.
 - **Site Lead**: Organizes rooms, has access to reports and can manage tickets. Can't reset enrollment key or make changes to service configurations.  
 - **Site Tech**: Manages tickets for specific rooms. Doesn't have permissions to modify service configurations or organize rooms.
 
 The following table summarizes what each role can do.
 
-|Features |Permission |Managed Service Administrator  |Site Lead  |Site Tech  |
+|Features |Permission |Teams Rooms Pro Manager  |Site Lead  |Site Tech  |
 |---------|---------|---------|---------|---------|
 |Rooms     |View        |&#10004;           |&#10004;           |&#10004;  |
 |    |Modify         |&#10004;           |&#10004;           |&#10004; |
@@ -75,7 +75,7 @@ The following table summarizes what each role can do.
 
 ## Create a custom role
 
-If the built-in roles do not suit your organizational needs, you can create a role and configure its permissions as desired. To create a role, you must be a Global Administrator or Managed Service Administrator. 
+If the built-in roles do not suit your organizational needs, you can create a role and configure its permissions as desired. To create a role, you must be a Global Administrator or Teams Rooms Pro Manager. 
 
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Settings** > **Roles**.
 2. Select **Create role**.
@@ -88,7 +88,7 @@ If the built-in roles do not suit your organizational needs, you can create a ro
 
 ## Assign a role
 
-To assign roles, you must be a Global Administrator or Managed Service Administrator or have a role with role management permissions.
+To assign roles, you must be a Global Administrator or Teams Rooms Pro Manager or have a role with role management permissions.
 
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Settings** > **Roles**.
 
