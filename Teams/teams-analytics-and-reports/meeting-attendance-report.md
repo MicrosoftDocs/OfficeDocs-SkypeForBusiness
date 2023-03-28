@@ -66,7 +66,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEna
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTrackingInReport DisabledUserOverride
 ```
 
-To give meeting organizers the option to turn on or turn off attendance reports that only show who attended:
+To give meeting organizers the option to turn on or turn off attendance reports that only show who attended, run the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Enabled
