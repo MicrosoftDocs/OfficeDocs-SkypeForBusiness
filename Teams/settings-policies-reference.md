@@ -175,7 +175,7 @@ Meeting policies are used to control what features are available in meetings org
 
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
-- [Attendance report for meetings and webinars in Microsoft Teams](Teams/teams-analytics-and-reports/meeting-attendance-report.md)
+- [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 
 #### Meeting join & lobby
 
