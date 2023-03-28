@@ -77,6 +77,6 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -InfoShownInReportMode identity
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
 - [Teams usage report](teams-usage-report.md)
-- [Set up webinars](set-up-webinars.md)
+- [Set up webinars](../set-up-webinars.md)
 - [Teams policies reference - Meeting policies](../settings-policies-reference.md#meeting-policies)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
