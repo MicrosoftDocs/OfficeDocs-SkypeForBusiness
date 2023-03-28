@@ -159,6 +159,15 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 1. Select **Save** for org-wide app settings to take effect.
 
+## Support information for apps
+
+You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more. Different app developers provide varying levels of support for their app. Teams acts as a platform for apps and does diligent testing of apps as part of its [app validation program](/microsoftteams/overview-of-app-validation). App developers provide updates to the apps, security and compliance information, bug fixes, customer support, and so on.
+
+Third-party app developer publish app updates as per their business requirements and service agreements, if any. For this information, contact the application developer at the website address available in either of the two places:
+
+* App details page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
+* `Details + support` tab of the app's [AppSource](https://appsource.microsoft.com/) page.
+
 ## Related article
 
 * [Manage user requests to allow apps](user-requests-approve-apps.md).
