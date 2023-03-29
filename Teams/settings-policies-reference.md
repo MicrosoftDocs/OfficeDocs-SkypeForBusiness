@@ -357,6 +357,8 @@ Use customization policies to customize the look of Teams meetings with your org
 - [Microsoft Teams Premium - Overview for administrators](enhanced-teams-experience.md)
 - [Custom Together Mode scenes in Teams](/platform/apps-in-teams-meetings/teams-together-mode)
 - [Set up webinars in Microsoft Teams](set-up-webinars.md)
+- [Meeting themes for Teams meetings](meeting-themes.md)
+- [Custom meeting backgrounds for Teams Meetings](custom-meeting-backgrounds.md)
 
 ### Meeting template policies
 
