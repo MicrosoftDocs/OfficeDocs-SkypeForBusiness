@@ -49,13 +49,13 @@ Custom wallpapers are supported on 16:9 and 21:9 displays. The guidelines differ
 If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
 
 **16:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single 16:9 front of room display with element dimensions" lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
 **16:9 - Dual front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-dual-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions" lightbox="../media/front-of-room-16-9-dual-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-dual-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single 21:9 front of room display with element dimensions" lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
 When you create a custom wallpaper, use the following guidelines:
 
@@ -75,7 +75,7 @@ When you create a custom wallpaper, use the following guidelines:
     - 21:9 displays
       - **Upper-left corner coordinates**: 1912, 248
   
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations
+- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
 Save the custom wallpaper image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-wallpaper).
