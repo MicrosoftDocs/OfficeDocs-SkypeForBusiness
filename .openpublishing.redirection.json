@@ -1972,7 +1972,7 @@
     },
     {
       "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md",
-      "redirect_url": "/MicrosoftTeams/manage-external-access",
+      "redirect_url": "/microsoftteams/trusted-organizations-external-meetings-chat",
       "redirect_document_id": true
     },
     {
@@ -2971,13 +2971,23 @@
     "redirect_document_id": false
   }, 
   {
+    "source_path": "Teams/manage-external-access.md",
+    "redirect_url": "/microsoftteams/trusted-organizations-external-meetings-chat",
+    "redirect_document_id": false
+  }, 
+  {
     "source_path": "Teams/cloud-recording.md",
     "redirect_url": "/microsoftteams/meeting-recording",
     "redirect_document_id": true
-   },
+  },
   {
     "source_path": "Teams/rooms/microsoft-teams-rooms-premium-rbac.md",
     "redirect_url": "/microsoftteams/rooms/rooms-pro-rbac",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/add-guests.md",
+    "redirect_url": "/microsoftteams/guest-access",
     "redirect_document_id": false
   },
   {
