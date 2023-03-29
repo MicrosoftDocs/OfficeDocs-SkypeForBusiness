@@ -52,7 +52,7 @@ App management tasks that are supported in admin center are in the table below.
 | The Teams app usage report provides information about which apps in use, active users, and other app usage information. | [Usage reports](https://admin.teams.microsoft.com/analytics/reports) | [Teams app usage report](teams-analytics-and-reports/app-usage-report.md) |
 | Your users can add apps when they host meetings or chats with guests. They can also use apps shared by guests when they join meetings or chats hosted externally. The data policies of the hosting user's organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](non-standard-users.md) |
 | With guest access, you can provide access to applications and other Teams functionality to people outside your organization, while maintaining control over your corporate data. | [Guest access](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Guest access in Teams](guest-access.md) |
-| Teams update policies are used to manage Teams and Office preview users that can see pre-release or preview features in the Teams app. | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
+| Teams update policies are used to manage Teams and Office preview users who can see pre-release or preview features in the Teams app. | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
 
 App management tasks that are supported on other portals are in the table below.
 
@@ -158,6 +158,15 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Screenshot of org-wide app settings in GCCH and DoD.":::
 
 1. Select **Save** for org-wide app settings to take effect.
+
+## Support information for apps
+
+You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more. Different app developers provide varying levels of support for their app. Microsoft does testing of apps as part of its [app validation program](/microsoftteams/overview-of-app-validation). However, app developers provide updates to the apps, security and compliance information, bug fixes, customer support, and so on.
+
+Third-party app developers publish app updates as per their business requirements and service agreements, if any. For this information, contact the application developer at the website address available in either of the two places:
+
+* App details page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
+* `Details + support` tab of the app's [AppSource](https://appsource.microsoft.com/) page.
 
 ## Related article
 
