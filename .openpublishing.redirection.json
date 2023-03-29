@@ -4256,6 +4256,16 @@
     "redirect_document_id": false
   },  
   {
+    "source_path": "Teams/information-barriers-in-teams.md",
+    "redirect_url": "/microsoft-365/compliance/information-barriers-teams",
+    "redirect_document_id": false
+  },  
+  {
+    "source_path": "Teams/information-barriers-shared-channels.md",
+    "redirect_url": "/microsoft-365/compliance/information-barriers-teams-shared-channels",
+    "redirect_document_id": false
+  }, 
+  {
     "source_path": "Teams/business-voice/index.yml",
     "redirect_url": "/microsoftteams/",
     "redirect_document_id": false
