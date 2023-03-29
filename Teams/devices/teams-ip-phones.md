@@ -79,10 +79,12 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
 
 > [!NOTE]
-> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
+> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+|[Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
+|[Cisco Board Pro 75](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
 | EPOS Expand 5T | `1.2.22362.04`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
 | EXPAND Control Touch Console | `1.2.22250.08`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A10 | `278.15.0.6 `   | September 3, 2025 | Small meeting room (4.5 m x 4.5 m)| 11|
@@ -106,6 +108,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Yealink CTP18 touch console  | `137.15.0.28`    | August 5, 2023   | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 9 |
 | Poly Studio X30         | `4.0.0.100885`     | September 4, 2024  | Small meeting room(4.5 m x 4.5 m) | 10 |
 | Poly Studio X50         | `4.0.0.100885`     | September 4, 2024   | Medium size room (4.5 m x 6 m) | 10 |
+| Poly Studio X70         | `4.0.0-376092`     | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500              | `4.0.0.1009138`    | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) |  9  |
@@ -115,7 +118,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
 > [!NOTE]
-> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
+> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -128,7 +131,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
 > [!NOTE]
-> The certification end date for Qualcomm-based devices on Andriod 10 has been extended to September 3, 2025.
+> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
