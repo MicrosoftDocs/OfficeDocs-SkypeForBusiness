@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Using the Meeting Migration Service (MMS)"
 ms.author: tonysmit
 author: tonysmit
@@ -200,3 +201,4 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Move users between on-premises and cloud](../../SfbHybrid/hybrid/move-users-between-on-premises-and-cloud.md)
+

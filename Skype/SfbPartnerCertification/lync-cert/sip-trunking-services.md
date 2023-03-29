@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "SIP Trunking and E-911 services partner qualification for Lync"
 ms.author: serdars
 author: SerdarSoysal
@@ -152,3 +153,4 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Windstream](http://www.windstreambusiness.com/) |Dynamic IP| |
 |[XO Communications](http://www.xo.com/unified-communications/sip/) |SIP Trunk| |
 |     |         |         |
+

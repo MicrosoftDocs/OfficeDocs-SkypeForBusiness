@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Configure policies to control remote user access'
 ms.reviewer: 
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
@@ -62,3 +63,4 @@ Use the following procedure to configure each external access policy that you wa
 To enable remote user access, you must also enable support for remote user access in your organization. For details, see [Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
 If this is a user policy, you must also apply the policy to users that you want to be able to connect remotely. For details, see [Assign an external user access policy](assign-an-external-user-access-policy.md).
+

@@ -35,7 +35,6 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Make calls:** SIP device users can make calls to the Public Switched Telephone Network (PSTN), to other SIP devices, and to Teams and Skype for Business users. SIP device users can only call users who have phone numbers.
 - **Receive calls:** SIP device users can receive a call from the PSTN, from Teams or Skype for Business users who have SIP devices, and from Teams and Skype for Business client applications. The SIP device acts as a Teams endpoint. Inbound calls will also be forked to the user's SIP device.
 - **Multiple simultaneous calls:** A SIP device user in a call can put the call on hold to make or receive other calls. A SIP device user can also conference two calls.
-- **Do not disturb:** A SIP device user can set do not disturb on the device so that the device will not ring for incoming calls. This has no impact on the user's status on all other Teams endpoints.
 - **Hold/Resume and Mute/Unmute:** A SIP device user can hold and resume or mute and unmute a call by using the features for those actions on the device.
 - **Voicemail:** SIP device users can listen to electronically stored voice messages that callers leave for them.
 - **Message waiting indicator:** SIP device users can receive notifications that alert them when they have new voicemail messages.
@@ -45,13 +44,15 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
 - **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
 - **Offboard stale devices:** SIP Gateway supports auto offboarding of stale devices provisioned for a tenant. Paired (signed-in) devices will be offboarded if not connected for 30 days, and unpaired (signed-out) devices after 14 days. An offboarded device can be re-onboarded after a factory reset.
+- **Set DND from SIP devices:** You can use your SIP device for setting and fetching your Teams Do Not Disturb (DND) status. To set the DND status for your Teams account from your SIP device, dial the feature code \*30\* on the SIP device. To reset your Teams DND status, dial \*31\* from the SIP device. Dialing \*31\* clears the user-configured presence status, in this case DND.
+- **Call Queues and voice apps support:** Customers can use SIP devices as call queue agents with some restrictions, for instance, SIP Gateway doesn't publish presence for devices hence presence based routing is not supported.
 
 ## Requirements to use SIP Gateway
 
 Teams users must have a phone number with PSTN calling enabled to use SIP Gateway.
 
 > [!NOTE]
-> SIP Gateway is not available for government environments (GCC, GCC High and DoD).
+> SIP Gateway is now available for government community cloud (GCC) environment. It is not yet available for GCC High and DoD.
 
 ### Hardware, software, and licenses
 
@@ -98,10 +99,12 @@ If you have a 3PIP or SIP device, you must have:
 |          |VVX501<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX600     |5.9.5       |5.9.7.3480 |   |   |
 |          |VVX601<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |Rove B2    |8.0.3.0010  |8.0.3.0010 |   |   |
-|          |Rove B4    |8.0.3.0010  |8.0.3.0010 |   |   |
-|          |Rove 30    |8.0.3.0010  |8.0.3.0010 |   |   |
-|          |Rove 40    |8.0.3.0010  |8.0.3.0010 |   |   |
+|          |Rove B1    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove B2    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove B4    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove 20    |8.0.5.0003  |8.0.5.0003 |   |   |
+|          |Rove 30    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove 40    |8.0.5.0002  |8.0.5.0002 |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
 |          |T21P       |83          |34.72.0.75 |   |   |
 |          |T21P_E2    |83          |52.84.0.125|   |   |
@@ -183,6 +186,12 @@ If you have a 3PIP or SIP device, you must have:
 |          |IP-DECT Gateway IPBL     |11.8.8     |11.8.8     |IP-DECT Gateway |   |
 |          |TDM Base Station        |R3N     |R3N     |IP-DECT Base Station |   |
 |          |IP-DECT Virtual Appliance IPVM        |11.8.8     |11.8.8     |IP-DECT Server |   |
+|**Gigaset**|       |           |           |   |[Gigaset Support](https://support.spectralink.com](https://www.gigaset.com/en_en/cms/home/support/support.html)|
+|          |N610 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
+|          |N670 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
+|          |N870 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
+|          |N870E IP PRO        |2.52.0     |2.52.0     |Base Station |   |
+|          |N870 VI PRO        |2.52.0     |2.52.0     |Base Station |   |
 
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
@@ -194,6 +203,9 @@ If you have a 3PIP or SIP device, you must have:
 
 > [!NOTE]
 > Ascom Handsets receive firmware updates over the air from Ascom IP-DECT servers.
+
+> [!NOTE]
+> Gigaset Handsets receive firmware updates over the air from Gigaset IP-DECT servers. All Gigaset PRO DECT Handset models are compatible with Microsoft Teams SIP Gateway.
 
 > [!NOTE]
 > For Yealink DECT Base Stations, please use the appropriate region specific firmware version listed above for having the best calling experience.

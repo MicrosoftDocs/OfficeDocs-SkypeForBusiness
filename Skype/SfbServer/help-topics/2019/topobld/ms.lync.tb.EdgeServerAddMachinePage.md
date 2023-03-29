@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Edge Server Add Machine"
 ms.reviewer: 
 ms.author: serdars

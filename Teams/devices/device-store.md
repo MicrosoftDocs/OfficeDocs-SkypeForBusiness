@@ -4,7 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
-ms.date: 03/18/2022
+ms.date: 03/28/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -24,13 +24,13 @@ description: Learn how to browse and purchase devices in the Teams admin center 
 
 # Purchase devices in the Teams device store
 
-The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams.  
+The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams. The device store is available in Canada, the United States, and the United Kingdom.
 
- To use the devices store in the Teams admin center, go to **Devices > Store**.
+To use the devices store in the Teams admin center, go to **Devices > Store**.
 
 ## Requirements
 
-To use the device store, you must be a Global admin, a Teams admin or a Teams device admin.
+To use the device store, you need to be a Global admin, a Teams admin or a Teams device admin.
 
 ## Browse the store
 
@@ -42,7 +42,7 @@ When you purchase devices from the device store, the payment and fulfillment, in
 
 You can pay with a credit card or a purchase order. Purchase order payment requires one-time setup with the fulfillment provider.
 
-All orders can be returned up to 30 days after they’re delivered.
+All orders can be returned up to 30 days after they're delivered.
 
 ## Order tracking and history
 
@@ -55,3 +55,6 @@ Orders placed in the Teams device store and any data associated with them are cl
 When you purchase devices that support remote provisioning, the MAC address of those devices is automatically added to the Teams admin center when the device is shipped. Depending on the order and when it ships, it can take approximately 5 days for the MAC address to appear in the Teams admin center.
 
 Once your devices are delivered, see [Remotely provision devices](remote-provision-remote-login.md#generate-a-verification-code) to complete the provision and sign-in process.
+
+> [!NOTE]
+> Device provisioning via the device store isn't available in the United Kingdom.
