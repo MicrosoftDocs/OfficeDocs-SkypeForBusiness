@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: normal
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access and guest access.
 ---
 
@@ -36,8 +36,6 @@ For a complete overview of the external collaboration in Microsoft 365, see [Ove
 Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business (online or on premises) or Skype. 
 
 By default, external access is enabled for all domains. You can restrict external access by allowing or blocking specific domains or by turning it off.
-
-![Screenshot of external access settings.](media/external-access-federation-settings.png)
 
 External access is available to the following tenants:
 - Managed enterprise accounts

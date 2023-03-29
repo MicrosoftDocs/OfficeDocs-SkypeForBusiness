@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Edit Office Web Apps Server Settings"
 ms.reviewer: 
 ms.author: serdars

@@ -1,12 +1,13 @@
 ---
 title: Microsoft Teams panels
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: weizxue
 ms.date: 02/15/2021
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article provides an overview of and features supported by Microsoft Teams panels.

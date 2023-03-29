@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Customize meeting invitations"
 ms.reviewer: 
 ms.author: tonysmit
@@ -77,3 +78,4 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 
   
  
+

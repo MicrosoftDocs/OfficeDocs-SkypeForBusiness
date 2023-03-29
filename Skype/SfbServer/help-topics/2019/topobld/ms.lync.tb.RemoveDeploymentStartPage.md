@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Remove Deployment Introduction"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ Run the **Remove Deployment Wizard** only if you want to decommission your entir
 > [!IMPORTANT]
 > Before you click **Next**, be sure to remove any inactive computers, disable all users and endpoints from unified communications, and remove all conference directories as specified on the first page of the wizard. 
   
+
 

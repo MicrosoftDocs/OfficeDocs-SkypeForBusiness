@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage key mapping for DTMF commands in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -55,3 +56,4 @@ Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -
 ```
 
 For more information, see [Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps), and [New-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
+
