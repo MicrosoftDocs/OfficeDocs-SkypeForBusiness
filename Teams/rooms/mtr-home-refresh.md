@@ -59,7 +59,7 @@ If you want to have dual front-of-room displays, they both need to be 16:9 displ
 
 When you create a custom wallpaper, use the following guidelines:
 
-- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements
+- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
 - Avoid placing text, logos, or icons, near these locations:
   - **Upper left corner** - Time and room information.
     - **Size**: 280 x 130
