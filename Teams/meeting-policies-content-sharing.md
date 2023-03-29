@@ -63,7 +63,7 @@ Let's look at the following example.
 
 Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is **Not enabled**. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings.  
 
-Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
+Note: If the users are trying to share screen using Teams Browser clients and if their setting value is "Single application", the Screensharing experience while using Teams Browser client will effectively be treated as "Not enabled".
 
 ### PowerPoint Live
 
