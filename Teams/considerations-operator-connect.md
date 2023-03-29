@@ -31,9 +31,9 @@ description: "Learn about emergency calling, including information about emergen
 
 # Considerations for Operator Connect
 
-This article describes considerations for emergency calling for Operator Connect users. With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Plan for Operator Connect](operator-connect-plan.md).
+This article describes considerations for emergency calling for Operator Connect users. Before reading the rest of this article, make sure you've reviewed critical emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-For your emergency calling planning purposes, review critical concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Plan for Operator Connect](operator-connect-plan.md).
 
 ## Emergency call enablement for Operator Connect
 

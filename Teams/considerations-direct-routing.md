@@ -30,9 +30,9 @@ description: "Learn about considerations to take into account with emergency cal
 
 # Considerations for Direct Routing
 
-This article describes considerations for emergency calling for Direct Routing users. Direct Routing enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System. To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Plan Direct Routing](direct-routing-plan.md).
+This article describes considerations for emergency calling for Direct Routing users. Before reading the rest of this article, make sure you've reviewed critical emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-For your emergency calling planning purposes, review critical concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Plan Direct Routing](direct-routing-plan.md).
 
 ## Emergency call enablement for Direct Routing
 

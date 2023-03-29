@@ -30,9 +30,9 @@ description: "Learn about considerations to take into account with emergency cal
 
 # Considerations for Calling Plans
 
-This article describes considerations for emergency calling for Microsoft Calling Plan users. Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Phone System to the PSTN for external calling. With this option, Microsoft acts as your PSTN carrier. To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Microsoft Calling Plans for Teams](calling-plans-for-office-365.md).
+This article describes considerations for emergency calling for Microsoft Calling Plan users. Before reading the rest of this article, make sure you've reviewed critical emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-For your emergency calling planning purposes, review critical concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Microsoft Calling Plans for Teams](calling-plans-for-office-365.md).
 
 ## Emergency call enablement for Calling Plans
 

@@ -64,7 +64,11 @@ Microsoft recommends that you create emergency addresses by using the map search
 
 ## Dynamic emergency address
 
+Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
+
 ## Emergency call routing
+
+ An emergency call routing policy determines whether enhanced emergency services are enabled for users who are assigned the policy, the numbers used to call emergency services (for example, 911 in the United States), and how calls to emergency services are routed. Read more about [how to manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
 ## Security desk notification
 
