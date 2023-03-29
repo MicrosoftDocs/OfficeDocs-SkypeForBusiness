@@ -21,7 +21,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to manage webinar and meeting registration policies in Teams.
+description: Learn how to set up and manage webinar policies in Teams.
 ---
 
 # Set up webinars in Microsoft Teams
