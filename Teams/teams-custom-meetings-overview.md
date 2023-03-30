@@ -20,40 +20,33 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Enhancing Meetings with Microsoft Teams: Customization and Collaboration
+# Teams Premium meetings customization options
 
-Microsoft Teams has become an essential tool for remote communication and collaboration. With its various features, users can make their virtual meetings more productive and engaging. In this article, we will explore some of the ways that Teams can be customized to make meetings more effective.
+Microsoft Teams has a number of options for meeting customization for organizations with Teams Premium licensing. From templates to meeting themes to custom backgrounds, personalizing the meeting experience and making meeting set-up more efficient has never been easier. If you have a Developer License as well as Teams Premium, Teams Custom Together Mode is also something you can explore.
 
 ## Custom Meeting Templates
 
-Creating meeting templates can save time and improve consistency when scheduling recurring meetings. Teams' custom meeting templates feature allows users to create pre-populated meeting invitations with specific settings, attendees, and agendas. This feature is particularly helpful for organizations with regular meetings or training sessions.
+Creating meeting templates can save time and improve consistency when scheduling recurring meetings. Teams' custom meeting templates feature allows users to create pre-populated meeting invitations with specific settings, attendees, and agendas. This feature is particularly helpful for organizations who need consistency or required elements in their meeting invites, and template elements can be modifiable or locked, depending on the organization's needs.
 
-To create a custom meeting template in Teams, navigate to the Meeting Templates tab in the Teams Admin Center. From there, you can create a new template by specifying the meeting details, such as the agenda, participants, and recurrence. Once created, the template can be shared with other users in your organization, allowing them to easily schedule meetings with the same settings.
-
-Learn more about custom meeting templates in Microsoft Teams [here](custom-meeting-templates-overview.md).
+[Learn more](custom-meeting-templates-overview.md) about custom meeting templates in Microsoft Teams.
 
 ## Meeting Themes
 
-Meeting themes can be used to add some fun and personality to virtual meetings. Teams' meeting themes feature allows users to select from a variety of pre-designed themes to customize the meeting background, colors, and fonts.
+Meeting themes can be used to add desirable custom elements, such as an organization's branding, to meetings. Once you've set up the customization policy and added theme elements, such as the logos, images, and colors, users will be able to select from these themes to add them to their meetings.
 
-To apply a meeting theme in Teams, click on the ellipsis icon in the meeting toolbar and select **Change Background Effects**. From there, you can choose a theme or customize the background, such as by adding a custom image or blurring the background.
-
-Learn more about meeting themes in Microsoft Teams [here](meeting-themes.md).
+[Learn more](meeting-themes.md) about meeting themes in Microsoft Teams.
 
 ## Custom Meeting Backgrounds
 
-Custom backgrounds can help users create a more professional or fun meeting atmosphere. Teams' custom backgrounds feature allows users to upload their own images or select from a variety of pre-designed images.
+Custom backgrounds allow organizations to put specific elements together for meeting organizers to choose for their backgrounds. After you enable the custom background property and upload your chosen background images, users can select them or (if you allow), upload their own for use in meetings.
 
-To apply a custom background in Teams, click on the ellipsis icon in the meeting toolbar and select **Change Background Effects**. From there, you can choose a custom image or select from the pre-designed backgrounds.
-
-Learn more about custom meeting backgrounds in Microsoft Teams [here](custom-meeting-backgrounds.md).
+[Learn more](custom-meeting-backgrounds.md) about custom meeting backgrounds in Microsoft Teams.
 
 ## Teams Together Mode
 
-Teams Together Mode is a feature that uses AI segmentation technology to place meeting participants in a shared virtual space. This feature can help make meetings feel more natural and engaging, even when participants are not in the same physical location.
+Teams Together Mode uses AI segmentation technology to place meeting participants in a shared virtual space. Teams Together Mode can help make your meetings feel more natural and engaging, and bringing that sense of togetherness to your organization's meetings.
 
-To enable Teams Together Mode, click on the ellipsis icon in the meeting toolbar and select **Together Mode**. From there, you can choose from a variety of virtual spaces, such as a conference room or a coffee shop.
+> [!NOTE]
+> In addition to a Teams Premium license, a Teams Developer license will be needed to implement Teams Together Mode.
 
-Learn more about Teams Together Mode in Microsoft Teams [here](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode).
-
-In conclusion, Microsoft Teams offers a variety of customization options that can help users create engaging and productive virtual meetings. From custom meeting templates to fun backgrounds and virtual spaces, Teams has a solution for almost any meeting scenario.
+[Learn more](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode) about Teams Together Mode in Microsoft Teams.
