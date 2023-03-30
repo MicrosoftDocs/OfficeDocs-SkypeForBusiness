@@ -156,7 +156,6 @@ To know how to assign policies to your users and to groups, see [how to assign p
 
 * In Teams for Education, the Calling app isn't available. When you create a new custom policy in app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams.
 
-## Related articles
+## Related article
 
-* [Admin settings for apps in Teams](admin-settings.md)
 * [Assign policies to users in Teams](assign-policies-users-and-groups.md)

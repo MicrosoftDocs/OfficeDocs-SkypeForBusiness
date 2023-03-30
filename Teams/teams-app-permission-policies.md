@@ -98,6 +98,5 @@ The following are a few considerations when using app permissions policies to gr
 
 ## Related articles
 
-* [Admin settings for apps in Teams](admin-settings.md)
 * [Assign policies to your users in Teams](policy-assignment-overview.md)
 * [Teams feature availability comparison](/office365/servicedescriptions/teams-service-description#feature-availability)
