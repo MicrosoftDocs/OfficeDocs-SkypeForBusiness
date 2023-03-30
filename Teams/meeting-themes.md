@@ -211,8 +211,8 @@ Supported clients:
 
 |         | Join Launcher | Meeting Pre-Join | Meeting Lobby | Meeting Stage |
 | :---:          |     :---:      |         :---:  |         :---:  |         :---:  |
-| **Logo**   | No | Yes| Yes| Yes|
-| **Image**     | No | Yes| Yes| Yes|
+| **Logo**   | No | Yes| Yes| No|
+| **Image**     | No | Yes| Yes| No|
 | **Color**     | Yes | Yes| Yes| Yes|
 
 Logos and images will be available for Join Launcher in future updates.
