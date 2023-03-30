@@ -4,6 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
+ms.date: 03/30/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -30,7 +31,7 @@ ms.localizationpriority: high
 
 ## Before you begin
 
-This article describes the preview release of tthe new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
+This article describes the preview release of the new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
 - [What is new Teams?](#what-is-the-new-teams)
 - [Prerequisites](#prerequisites)
@@ -291,7 +292,7 @@ The following list of policies can block users from seeing the app switcher togg
 #### Update and restart message in title bar
 
 Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
-This is expected behavior. Select the link to restart.
+Action:  This is expected behavior. Select the link to restart.
 
 #### Windows 10 users may receive an error message
 
@@ -324,8 +325,8 @@ As we improve the client, the experience has been improved to align with similar
 |Classic Teams|New Teams|
 |:-----|:-----|
 |Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
-|Adding a Wiki to a channel tab|In a channel, select the Notes app instead|
-|Adding third party cloud storage service from Files app|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar. Instead, use the Teams app provided by your third-party cloud storage provider.|
+|Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
+|Adding third party cloud storage service from Files app|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar. Instead, download the 3rd party storage app from the Teams App Store.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
@@ -496,7 +497,7 @@ Details:  Review your Windows Notification settings. From the upper-right corner
   - Webhooks not supported
 
 - **Issue:**   Attendance report doesn't show after a meeting.</br>
-Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report.  There's no option to download a report of an older channel meeting at this time.
+Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report. Currently, there's no option to download a report of an older channel meeting.
 
 ## Other areas:
 
