@@ -1111,9 +1111,9 @@ items:
           href: network-roaming-policy.md
     - name: Emergency calling
       items: 
-        - name: Overview
+        - name: Plan and manage emergency calling
           items:
-          - name: Plan and manage emergency calling
+          - name: Overview
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: Considerations for Calling Plan
             href: considerations-calling-plan.md
