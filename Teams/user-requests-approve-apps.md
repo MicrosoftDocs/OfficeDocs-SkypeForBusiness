@@ -28,13 +28,13 @@ The apps that are blocked in your organization may affect user productivity and 
 
 This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for each requested app. It helps you make an informed decision about which apps to evaluate for allowing.
 
-You can't stop blocked apps from displaying for the users, but you retain complete control of the apps that are allowed or blocked for users. If you choose to allow an app, the controls and user interface to manage apps remain the same.
+Users can view all the available apps, including the blocked apps. You can't hide blocked apps, but you retain complete control of the apps that users can or can't use. If you choose to allow an app, the controls and user interface to manage apps remain the same.
 
 * The default option sends the user requests to Teams admin center where you can [view user requests and allow the requested apps](#view-and-act-on-user-requests-in-teams-admin-center).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
-* A customization lets you [configure user experience](#modify-the-default-setting-to-receive-user-requests) that is best suited for your organization. You can provide an instruction or a custom message that is displayed in the Teams app store and the request approval option directs the users to an org-specific URL to collect their requests.
+* A customization lets you [configure user experience](#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that is displayed in the Teams app store and the request approval option directs the users to an org-specific URL to collect their requests.
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
 
