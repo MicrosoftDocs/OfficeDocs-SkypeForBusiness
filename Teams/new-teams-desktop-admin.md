@@ -476,7 +476,7 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue**: Sometimes users aren't able to reset presence status.
 
-- **Issue:*: The preview thumbnail for Teams appears but there are no presence buttons.
+- **Issue**: The preview thumbnail for Teams appears but there are no presence buttons.
 
 ### Teams and Channels
 
