@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Client Settings (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars

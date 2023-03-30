@@ -4,9 +4,10 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: dougand
-ms.date: 06/13/2018
+ms.date: 03/15/2023
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
   - Tier3
   - M365-voice
@@ -78,13 +79,20 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated February 2023*
+*Table Updated March 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 65 Flex Headset                                    |3/20/2023       |Certified for Microsoft Teams                            |
+|Yealink              |BH71 Pro Headset                                           |3/17/2023       |Certified for Microsoft Teams                            |
+|Jabra                |SPEAK2 75 Speakerphone                                     |3/17/2023       |Certified for Microsoft Teams                            |
+|Jabra                |SPEAK2 55 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
+|Jabra                |SPEAK2 40 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Free 60 UC Earbuds                                 |3/3/2023        |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Free 60+ UC Earbuds                                |3/3/2023        |Certified for Microsoft Teams                           |
 |B&O                  |Beoplay 500 Wireless Headphones                            |2/24/2023       |Certified for Microsoft Teams                           |
 |Logitech             |Zone Vibe Wireless Headset                                 |2/13/2023       |Certified for Microsoft Teams                           |
 |Yealink              |UH37 Dual/ Mono Headset                                    |2/13/2023       |Certified for Microsoft Teams                           |
@@ -102,6 +110,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Lenovo               |T24mv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |T27hv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |Conference Call Base Speakerphone                          |12/19/2022      |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 55 Stereo/Mono                                     |11/29/2022      |Certified for Microsoft Teams                            |
+|Jabra                |Evolve2 50 Stereo/Mono                                     |11/25/2022      |Certified for Microsoft Teams                            |
 |Dell                 |WB3023 Camera                                              |11/23/2022      |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 561 II headset                                       |10/20/2022      |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Certified for Microsoft Teams                           |

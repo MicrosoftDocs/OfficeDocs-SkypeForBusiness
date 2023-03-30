@@ -22,7 +22,7 @@ description: In this article, learn how Microsoft apps, custom apps, and third-p
 
 # Role of an admin in upgrading Teams apps
 
-Teams admins can help their end-users get the latest version of the apps. To do so, they accomplish one or both of the following tasks:
+Teams admins can help their users get the latest version of the apps. To do so, they accomplish one or both of the following tasks:
 
 * [Update Store apps](#store-app-updates) that are available in Teams store when a new version is provided by the app developer or vendor.
 * [Update custom apps](#custom-app-updates) that are available only in your organization when your developer submits a new version.
@@ -31,7 +31,7 @@ Teams admins can help their end-users get the latest version of the apps. To do 
 
 For users to install and use an app, they must give permissions to the app to access the required services and information. In most cases, when a new version of an installed app is available in the Teams store, the app is automatically updated for all users. However, a few specific changes in the new version of the app require a user permission again. This repeat user acceptance ensures awareness about the changes such as functionality or access to personal information.
 
-If app developers make one or more the following changes to their apps, then the end-users must approve the update of app.
+If app developers make one or more the following changes to their apps, then the users must approve the update of app.
 
 * Add a bot. Change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that may change the bot's notifications.

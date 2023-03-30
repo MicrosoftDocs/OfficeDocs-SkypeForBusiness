@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype Room System migration considerations"
 ms.author: serdars
 author: SerdarSoysal
@@ -56,4 +57,5 @@ When the Skype Room System client joins a scheduled conference call that has bee
     
 - Users won't be able to join private (restricted) meetings that are hosted on Lync 2010 with Skype Room System.
     
+
 

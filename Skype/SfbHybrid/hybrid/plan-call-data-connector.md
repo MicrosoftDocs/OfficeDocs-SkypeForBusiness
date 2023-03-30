@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: Plan Call Data Connector | Call Quality Dashboard Monitoring Hybrid Analytics
 ms.reviewer: 
 ms.author: crowe
@@ -88,3 +89,4 @@ The following requirements assume that you already have Skype for Business Serve
 | Video-based screen sharing metrics | Yes | No |
 | Data APIs for programmatic access <br> to CQD | No | Yes |
 ||||
+

@@ -54,11 +54,11 @@ To learn more about these options, check out [this link](https://kollective.com/
 
 ### Microsoft eCDN
 
-**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
+**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
 
-- Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic won't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [this link](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
-- Silent Testing with Microsoft eCDN allows IT admins to simulate large live events on their corporate network, permitting thorough and non-disruptive testing and troubleshooting before a real event. Learn more at [this link](/ecdn/how-to/perform-silent-test).
-- Industry-leading analytics from Microsoft eCDN provide granular analyses and allow admins to quickly find the root cause for any streaming issue. Your toolkit includes delivery and UX metrics, advanced drilldowns, per-user analytics, and a back-end API. Learn more at [this link](/ecdn/technical-documentation/analytics).
+- Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic won't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [this link](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
+- Silent Testing with Microsoft eCDN allows IT admins to simulate large live events on their corporate network, permitting thorough and non-disruptive testing and troubleshooting before a real event. Learn more at [this link](/ecdn/how-to/perform-silent-test).
+- Industry-leading analytics from Microsoft eCDN provide granular analyses and allow admins to quickly find the root cause for any streaming issue. Your toolkit includes delivery and UX metrics, advanced drilldowns, per-user analytics, and a back-end API. Learn more at [this link](/ecdn/technical-documentation/analytics).
 
 ### Ramp
 
@@ -79,12 +79,12 @@ To learn more about these options, check out [this link](https://kollective.com/
 
 After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Yammer.
 
-1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
-1. Toggle the **Video distribution provider** to **On**.
-1. Choose an **eCDN/SDN provider** from the the **Video distribution provider** dropdown list.
+1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
+1. Toggle the **Video distribution provider** to **On**.
+1. Choose an **eCDN/SDN provider** from the the **Video distribution provider** dropdown list.
 1. Fill out the other fields as directed by your solution provider (Not all fields are used by all solution providers).
 1. Select **Save**.
-1. To check if your setup is correct, select **Verify setup**.
+1. To check if your setup is correct, select **Verify setup**.
     - Search for any video in your organization to validate with.
     - If your eCDN provider is set up correctly, you'll see a **Success** message on the verify setup tool.
     - If you aren't set up correctly, you'll see a **Failure** message. Copy the event message to share with your provider for troubleshooting.

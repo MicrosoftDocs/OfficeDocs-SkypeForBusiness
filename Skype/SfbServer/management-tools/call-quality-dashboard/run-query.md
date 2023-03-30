@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Run Query"
 ms.reviewer: 
 ms.author: serdars
@@ -123,3 +124,4 @@ Run Query operation provides the ability to run a query on the cube based on spe
  *Data Result*  - The result of the query. It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.
 
  *Result is From Cache*  - For diagnostics. Indicates whether the result came from the cache or from the QoE Cube.
+

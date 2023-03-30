@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn about app permission policies in Microsoft Teams and how to control apps availability for your end-users.
+description: Learn about app permission policies in Microsoft Teams and how to control apps availability for your users.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -27,7 +27,7 @@ ms.custom:
 
 # Use app permission policies to control user access to apps
 
-As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](deploy-apps-microsoft-teams-landing-page.md). You must be a Global Admin or Teams service admin to manage these policies.
+As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](apps-in-teams.md). You must be a Global Admin or Teams service admin to manage these policies.
 
 To allow an app, you must allow it in [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings), [individual app's setting](manage-apps.md#allow-and-block-apps), and app permission policy. While the other two methods just allow an app for use in your organization, the permission policies allow you to control which users can use a specific app. You control access on a per-user and per-app basis by creating and applying the policy to specific users.
 
@@ -88,7 +88,7 @@ The following are a few considerations when using app permissions policies to gr
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect.
 
-* An end-user cannot interact with any functionality of an app that the user is not allowed to use.
+* A user cannot interact with any functionality of an app that the user is not allowed to use.
 
 * Users can search for blocked apps and request admin approval. Admins retain complete control to [approve or ignore user requests](user-requests-approve-apps.md).
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Lync Room Systems"
 ms.author: serdars
 author: msdmaguire
@@ -100,3 +101,4 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
         </tr>
     </tbody>
 </table>
+

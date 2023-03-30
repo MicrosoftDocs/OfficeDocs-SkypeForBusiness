@@ -46,7 +46,7 @@ Some manage topics remain under the relevant workload sections. For more informa
 - [Chat, teams, channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Meetings and Audio Conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Voice](cloud-voice-landing-page.md)
-- [Overview of Teams apps](deploy-apps-microsoft-teams-landing-page.md)
+- [Overview of Teams apps](apps-in-teams.md)
 
 
 ### Related topics

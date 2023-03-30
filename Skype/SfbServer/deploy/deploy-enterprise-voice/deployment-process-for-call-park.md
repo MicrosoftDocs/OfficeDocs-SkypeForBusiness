@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deployment process for Call Park in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -37,4 +38,5 @@ The components that Call Park uses are automatically installed and enabled on th
 |Verify normalization rules for Call Park  <br/> |Call park orbits must not be normalized. Verify that your normalization rules do not include any of your orbit ranges. If necessary, create additional normalization rules to prevent orbits being normalized.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Verify normalization rules for Call Park in Skype for Business](verify-normalization-rules-for-call-park.md) <br/> |
 |Verify your Call Park deployment  <br/> |Test parking and retrieving calls to make sure that your configuration works as expected.  <br/> |-  <br/> |[(Optional) Verify Call Park deployment in Skype for Business](optional-verify-call-park-deployment.md) <br/> |
    
+
 

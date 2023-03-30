@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add A/V MCU Machine"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "Specify the fully qualified domain name (FQDN) of each computer th
  
 Specify the fully qualified domain name (FQDN) of each computer that you want to add as an A/V Conferencing Server in this A/V Conferencing pool. After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology. After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN. 
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2021
 title: Manage DNS entries when decommissioning your on-premises environment
 ms.author: crowe
 author: CarolynRowe
@@ -66,3 +67,4 @@ In addition, CNAME records for meet or dialin (if present) can be deleted. Final
 > - Any federated organization that does not have an enabled hosting provider for sipfed.online.lync.<span>com will need to update their configuration to enable that. This situation is only possible if the federated organization is purely on-premises and has never federated with any hybrid or online tenant. In such a case, federation with these organizations will not work until they enable their hosting provider.
 >
 > If you suspect that any of your federated partners may be using Direct Federation or have not federated with any online or hybrid organization, we suggest you send them a communication about this as you prepare to complete your migration to the cloud.
+

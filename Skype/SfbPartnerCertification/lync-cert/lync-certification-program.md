@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Solutions qualified with Lync Online Dedicated"
 ms.author: serdars
 author: msdmaguire
@@ -66,3 +67,4 @@ All SIP Trunking providers qualified for Lync Server 2013 are supported in ***Ly
 Session border controllers (SBCs) provide a secure gateway capability between a customer's datacenter and the Microsoft Online Dedicated environment. 
 
 All Session Border Controllers (SBCs) that qualified for Lync Server 2013 are supported in ***Lync Online Dedicated***. For a list of qualified SBC products, go to [Session Border Controllers](sbcs-lync-server.md).
+
