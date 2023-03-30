@@ -324,8 +324,8 @@ As we improve the client, the experience has been improved to align with similar
 |Classic Teams|New Teams|
 |:-----|:-----|
 |Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
-|Adding a Wiki to a channel tab|In a channel, select the Notes app instead|
-|Adding third party cloud storage service from Files app|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar. Instead, use the third-party cloud storage app for Microsoft Teams.|
+|Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
+|Adding third party cloud storage service from Files app|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar. Instead, download the 3rd party storage app from the Teams App Store.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
