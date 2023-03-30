@@ -237,7 +237,7 @@ There are a few policies that could alter these registry keys and block app inst
 
 1. In Windows, search for **Edit Group Policy**.
 2. This will open the Local Group Policy Editor screen.
-3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
+3. Go to **Computer Configuration > Administrative Templates > Windows Components > App package Deployment** to check settings for these policies: 
   - *Prevent non-admins users from installing packaged Windows apps*
   - *Allow all trusted apps to install*
 4. Make sure that value for these settings is set as follows:
