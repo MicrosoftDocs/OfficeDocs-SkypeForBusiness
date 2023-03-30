@@ -189,20 +189,20 @@ Use the [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgroup
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
-|Group name  |Policy name  |Rank|
-|---------|---------|---------|
-|Sales    |Sales policy       | 1        |
-|West Region     |West Region policy         |2         |
-|Division    |Division policy         |3         |
-|Subsidiary   |Subsidiary policy        |4         |
+|Policy name  |Rank|
+|---------|---------|
+|Sales policy       | 1        |
+|West Region policy         |2         |
+|Division policy         |3         |
+|Subsidiary policy        |4         |
 
-If we remove the West Region policy from the West Region group, the policy assignments and priorities are updated as follows.
+If we remove the West Region policy, the policy assignments and priorities are updated as follows.
 
-|Group name  |Policy name  |Rank|
-|---------|---------|---------|
-|Sales    |Sales policy       | 1        |
-|Division    |Division policy         |2         |
-|Subsidiary   |Subsidiary policy        |3        |
+|Policy name  |Rank|
+|---------|---------|
+|Sales policy       | 1        |
+|Division policy         |2         |
+|Subsidiary policy        |3        |
 
 In this example, we remove the Teams meeting policy from a group.
 
