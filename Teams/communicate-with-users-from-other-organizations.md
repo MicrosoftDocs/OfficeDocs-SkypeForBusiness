@@ -37,6 +37,8 @@ Set up external access if you need to find, call, chat, and set up meetings with
 
 To configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
+For information about cross-cloud external access, such as between commercial and GCC, see [Microsoft Teams chat experience when communicating with people outside the organization](native-chat-for-external-users.md).
+
 #### Teams and Skype for Business users in external organizations
 
 For external access with other Microsoft 365 organizations you allow all domains (the default) or you can restrict external access by allowing or blocking specific domains, by blocking all domains (which turns external access off) or by limiting which users can use external access.
@@ -69,7 +71,7 @@ To configure guest access for Teams, see [Collaborate with guests in a team](/mi
 
 The following tables show the differences between using external access and guests.
 
-### Things your users can do
+#### Things your users can do when communicating with people outside the organization
 
 | Your users can | External access users | Guests |
 |:---------|:-----------------------|:--------------------|
@@ -82,7 +84,7 @@ The following tables show the differences between using external access and gues
 | Block someone in another organization  | Yes | Yes |
 | Use @mentions | Yes<sup>3</sup> | Yes |
 
-### Things people outside your organization can do
+#### Things people outside your organization can do
 
 | People outside your organization can | External access users | Guests |
 |:---------|:-----------------------|:--------------------|
