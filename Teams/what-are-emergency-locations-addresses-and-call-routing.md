@@ -32,14 +32,14 @@ description: "Learn about emergency calling, including information about emergen
 
 # Manage emergency calling
 
-This article describes concepts you'll need to know to manage emergency calling&mdash;it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing.
+This article describes concepts you'll need to know to manage emergency calling&mdash;it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing. If you need help deciding which Microsoft voice solution is right for you, read [Plan your Teams voice solution](cloud-voice-landing-page.md) first.
 
 The following table provides critical concepts and definitions to be used for emergency calling:
 
 |  | Definition | Example |
 |---|---|---|
-| **Emergency address** | A civic address&mdash;the physical or street address of a place of business for your organization. | i.e. |
-| **Place** | Typically a floor, building, wing, or office number. Place is associated with an emergency address to give a more exact location within a building. You can have an unlimited number of places associated with an emergency address. For example, if your organization has multiple buildings, you might want to include place information for each building and every floor within each building. | i.e. |
+| **Emergency address** | A civic address&mdash;the physical or street address of a place of business for your organization. | 1234 Peachtree Street, Atlanta, GA 30309, USA|
+| **Place** | Typically a floor, building, wing, or office number. Place is associated with an emergency address to give a more exact location within a building. You can have an unlimited number of places associated with an emergency address. For example, if your organization has multiple buildings, you might want to include place information for each building and every floor within each building. | 4th floor, Apt 309 |
 | **Emergency location** | A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location.</br></br> When you create an emergency address, a unique location ID is automatically created for this address. If you add a place to an emergency address&mdash;for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.</br></br>When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site. | i.e. |
 | **Registered address** | An emergency address that is assigned to each user. A registered address is sometimes referred to as a "static emergency address" or "address of record". Currently, registered addresses are not supported for Direct Routing. Check back soon for updates. | i.e. |
 
@@ -59,12 +59,12 @@ If you define an emergency address by using the address map search feature in th
 
 Microsoft recommends that you create emergency addresses by using the map search feature in Teams admin center, which will ensure that the addresses are formatted, validated, and have the appropriate geo codes.
 
->[!Important]
->To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.
+> [!IMPORTANT]
+> To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.
 
-## Dynamic emergency address
+## Dynamic emergency calling
 
-Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
+Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 ## Emergency call routing
 
@@ -110,7 +110,7 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationMode Conferen
 
 You can also specify an external PSTN number of a user or group to call and join the emergency call with the `-NotificationDialOutNumber` parameter and [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy) cmdlet. Note that the PSTN party is not allowed to unmute.
 
-### Create a custom emergency service disclaimer
+## Create a custom emergency service disclaimer
 
 Administrators have the ability to add a custom banner in the tenant for their users to enable E911. Users can dismiss the banner when they confirm their address, and the banner will reappear when Teams is restarted.
 
@@ -131,7 +131,7 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -EnhancedEmergencyServiceD
 
 There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md).
 
-For your specific PSTN connectivity setup, read the following considerations:
+For your specific PSTN connectivity setup, read the following considerations for managing emergency calling:
 
 - [Calling Plan considerations](considerations-calling-plan.md)
 - [Operator Connect considerations](considerations-operator-connect.md)
