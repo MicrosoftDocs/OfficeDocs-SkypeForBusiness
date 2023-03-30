@@ -80,8 +80,6 @@ After following the recommended framework for planning a successful transition f
 
     - For IT Admin readiness, see [Admin training resources](/microsoftteams/itadmin-readiness).
 
-    - For instructor led training, see [Instructor-led training for Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page).
-  
     - For training videos, see [Microsoft Teams video training](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us).
 
 ## Champion Microsoft Teams adoption
