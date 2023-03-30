@@ -28,70 +28,91 @@ description: Learn how to set up and manage webinar policies in Teams.
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
+## Overview
+
 Microsoft now offers a new webinar experience; this article describes how to update your settings to use these features.
 
-We recommend that you use the new webinar experience if you plan to use webinars.
+Previously, to use webinars, you had to enable **both**:
 
-Meeting registration includes basic webinar functionality, the ability to require registration for meetings, and an attendance report. By enabling the new webinar experience, you have the ability to use meeting registration and many new webinar features, such as:
+- Meeting registration using the Teams meeting policy parameter “**AllowMeetingRegistration**”,
+- Webinars using the Teams events policy parameter “**AllowWebinars**”.
 
-- Dedicated event and registration page for your webinar
-- Co-organizers
-- Presenter bios on the event page
-- Registration status overview and management
+Now, we’ve separated meeting registration and webinars.
 
-Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
+If you want your users to still have a **webinar** entry point to create webinars, you’ll **only** need to verify that the “**AllowWebinars**” parameter is enabled.
+If you currently have webinars turned off, they will remain off as the new experience rolls out.
 
-If your organization has meeting registration enabled, all newly created webinars will have the new experience. Previously scheduled webinars will use the previous webinar experience. The new experience uses the TeamsEventsPolicy. If you have webinars turned off, they will remain off as the new experience rolls out.
+If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure “AllowWebinars” is disabled and “AllowMeetingRegistration” is enabled. To learn more about the meeting with registration experience, see [Set up meeting registration.](set-up-meeting-registration.md)
 
-Currently, the basic webinar experience is controlled by meeting registration using the Teams Meeting policy (Set-CsTeamsMeetingPolicy). In the future, the meeting registration setting won't control webinars; webinars are transitioning over to being controlled by the Teams Events policy (Set-CsTeamsEventsPolicy).
-
-The new webinar experience is configured in PowerShell. See examples on [how to set up the new webinar experience](#set-up-new-webinar-experience).
-
-For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
+The new webinar experience is configured in PowerShell. For examples on how to set up webinars, see the section [How to set up the new webinar experience.](#set-up-new-webinar-experience)
 
 > [!NOTE]
 > For on-premises users, the new webinar experience isn't available yet.
 >
 > The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
+## What’s the difference between a webinar and meeting registration?
+
+Webinars and meetings are both virtual events that allow participants to connect remotely. However, there are some key differences in terms of their purpose, format, and registration process. 
+A meeting is a collaborative virtual event where participants can discuss and share information with each other. This collaborative format allows up to 20k participants.
+Meeting registration includes basic webinar functionality, an attendance report, and the ability to require registration for meetings.
+
+A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides additional control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars have the capacity for up to 1,000 people to attend and allows for collection of pre-event attendee registration data.
+
+In terms of registration, webinar attendees typically are required to register in advance to reserve their spot. With meetings, attendees can join the meeting without any pre-reservation, but for instances where an organizer wants registration, this is where you'd enable meeting registration.
+
+The entry points your end users will use to set up a webinar vs meeting registration are in separate places.
+**THINKING OF ADDING SCREENSHOTS HERE TO SHOW ENTRY POINTS**
+
+To learn more about the end user experience, see [Get Started with Teams webinars](/office/manage-webinar-registration) and [Schedule a Teams meeting with registration.](/office/schedule-a-teams-meeting-with-registration)
+
+For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
+
+## Basic vs advanced webinars
+
+We offer basic and advanced webinars. Basic webinars are included in your subscription, but advanced webinars are part of the Teams Premium subscription.
+**PLACEHOLDER FOR BASIC VS ADVANCED MATRIX**
+
 ## Set up new webinar experience
 
 You must use PowerShell to set up the new webinar experience for your organization. The ability to configure the new webinar experience in the Teams admin center isn't available yet.
 
-Meeting registration must be on to use the new webinar experience.
+To set up the new webinar experience, use the "**AllowWebinars**" attribute within the Windows PowerShell **Set-CsTeamsEventsPolicy** cmdlet.
+
+The table below shows the behavior of the settings for "**AllowWebinars**":
+
+|Setting value| Description|
+|---------|---------------|
+|Enabled| The webinar entry point is available for your users to create webinars. |
+|Disabled| There is no webinar entry point for your users to create webinars.|
+
+Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 ### Configure the new webinar experience with PowerShell
 
-To set up the new webinar experience, use the following attributes within the Windows PowerShell **Set-CsTeamsEventsPolicy** cmdlet.
+You can configure the new events policy using the following PowersShell cmdlets:
 
-|Parameter|Default Setting|Description|
-|---------|-----------|---------------|
-|AllowWebinars|Enabled|This setting determines if a user can create webinars.|
-|EventAccessType|Everyone|This setting determines which users can access the event registration page or the event site to register, as well as which user type is allowed to join the session(s) in the event.|
+- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
+- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
+- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
+- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
 
-Before you can run these cmdlets you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
-
-1. Turn on meeting registration.
-
-    ```powershell
-    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
-    ```
-
-1. Activate the new webinar experience.
+1. Create a new webinar experience:
 
     ```powershell
     Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
     ```
 
-1. Configure who can register for webinars and meetings.
+1. Manage who can register for webinars:
 
-    - **Allow ***only*** users in your organization to register for webinars and meetings**
+    - **Allow ***only*** users in your organization to register for webinars:**
 
         ```powershell
         Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
         ```
 
-    - **Allow everyone, including anonymous users, to register for webinars and meetings**
+    - **Allow everyone, including anonymous users, to register for webinars:**
 
         ```powershell
         Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
@@ -100,54 +121,31 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
 > [!IMPORTANT]
 > If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join webinars. To learn more and enable this setting, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 
-## Configure meeting registration
-
-If you want to use webinars, meeting registration must be turned on.
-
-You can use the Teams admin center under **Meetings** > **Meeting policies** to set up meeting registration and webinars.
-
-### Meeting registration
-
-If you turn on **Meeting registration**, users in your organization can schedule webinars and meetings requiring registration. By default, this setting is turned on. If you want to turn off meeting registration and webinars, set this policy to **Off**. This is a per-user policy.
-
-**Private meeting scheduling** must be on for meeting registration to work. Read more on how to [configure private meeting scheduling](manage-who-can-schedule-meetings.md#private-meetings).
-
-For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
-
-#### Who can register
-
-> [!NOTE]
-> This policy does not apply to the new webinar experience. To configure who can register for the new webinar experience, use `Set-CsTeamsEventsPolicy -EventAccessType`, as shown in [configure the new webinar experience with PowerShell](#configure-the-new-webinar-experience-with-powershell).
-
-This policy controls which users can register and attend webinars with meeting registration only. This policy has two options, which are only available if **Meeting registration** is turned on. By default, **Who can register** is set to **Everyone**.
-
-If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **People in my organization**, only users in your organization can register for and attend webinars. If meeting registration is turned off, the **Who can register** setting won't be available and no one can register for webinars.
-
-The default value for **Who can register** is **People in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
-
-## Collect webinar and meeting registration attendance information
-
-The attendance report policy setting controls whether meeting organizers can see reports of who registered and attended the webinars or meetings they set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
-
-If **Who is in the report** is set to **Everyone, but users can opt-out** or **No one, but users can opt-in**, users will be able to toggle on or off **Identify me in attendance reports** within their Teams settings.
-
-To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
-
 ## Turn off webinars
 
-You can turn off webinars using PowerShell. This will turn off the new webinar experience as well as webinars with meeting registration only.
+You can turn off webinars using PowerShell.
 
 Use the following PowerShell script to turn off webinars:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
+
+## Collect webinar attendance information
+
+The attendance report policy setting controls whether organizers can see reports of who registered and attended the webinars they've set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
+
+If **Who is in the report** is set to **Everyone, but users can opt-out** or **No one, but users can opt-in**, users will be able to toggle on or off **Identify me in attendance reports** within their Teams settings.
+
+To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Related topics
 
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
+- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
+- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
