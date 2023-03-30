@@ -325,7 +325,7 @@ As we improve the client, the experience has been improved to align with similar
 |:-----|:-----|
 |Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|In a channel, select the Notes app instead|
-|Add third party cloud storage to a teams channel from the desktop client|Use the integrated Teams app created by your third party cloud storage provider. </br>**Note:** Teams admins can also choose to hide all native OneDrive and SharePoint file entry points like Files app, Files tab, and File picker to use those from their third party cloud provider if they prefer. Learn more at [Turn off Teams native file upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)|
+|Add third party cloud storage to a teams channel from the desktop client|You'll no longer see the "Add cloud storage" in Files app on the left side of Teams. Instead, use the Teams app provided by your 3rd party cloud storage provider.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
