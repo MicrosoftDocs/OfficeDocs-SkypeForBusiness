@@ -3,17 +3,19 @@ title: Release notes for Microsoft Teams Rooms (Windows)
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 04/26/2018
+ms.date: 3/24/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier2
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
@@ -36,6 +38,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.16.40.0 | 3/24/2023 |
 |4.15.58.0 | 1/10/2023 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
@@ -92,6 +95,19 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.16.40.0 (3/24/2023)
+
+Introduced in this update:
+
+- A revitalized Teams Rooms user interface. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md#enable-refreshed-home-screen-design).
+- Enhanced View Switcher <sup>1</sup>
+- Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
+- Increased default font size for the meeting interface 
+
+ <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. For more information, see [A new look for Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040).
+
+ <sup>2</sup> Meeting organizers should have a valid license to use these policies. Learn more at [Microsoft Teams Premium licensing](../teams-add-on-licensing/licensing-enhance-teams.md).
 
 ### 4.15.58.0 (1/10/2023)
 
@@ -152,7 +168,7 @@ Introduced in this update:
 - Changes the version number to allow systems impacted by Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) to re-register the app so it can launch. There are no functional changes in this app version from 4.1.2.138.0.
 
 > [!NOTE]
-> For more information, see "⁠Teams Rooms app fails to start after update" in [Known issues in Teams Rooms and devices](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues).
+> For more information, see "Teams Rooms app fails to start after update" in [Known issues in Teams Rooms and devices](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues).
 
 ### 4.12.138.0 (5/26/2022)
 

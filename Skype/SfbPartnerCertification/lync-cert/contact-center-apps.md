@@ -1,4 +1,5 @@
 ---
+ms.date: 06/12/2018
 title: "Qualified Lync apps"
 ms.author: serdars
 author: msdmaguire
@@ -454,5 +455,6 @@ With staff located throughout the Americas, EMEA, and Asia-Pacific, Zeacom has t
 - PBX migration path to Lync
 
 Zylinc Contact Center is used with Lync for successful contact centers in several industries and around the world.
+
 
 

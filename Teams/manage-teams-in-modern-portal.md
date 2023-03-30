@@ -130,7 +130,7 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-2. Sign in to Graph Explorer on the left menu.
+2. Sign in to Graph Explorer on the right of the top menu.
 
 3. Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}.
 

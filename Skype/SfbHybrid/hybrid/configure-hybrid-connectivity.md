@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: Configure hybrid connectivity | Deploy Skype for Business Server 2019 connect
 ms.author: crowe
 author: CarolynRowe
@@ -56,3 +57,4 @@ When an existing Microsoft 365 tenant is re-provisioned (typically because of a 
 There are some limitations for this automatic detection mechanism:
 - If your organization does not have any public DNS records, the TeamsOnly mode will not be removed since Microsoft 365 will not be able to detect the records. If your organization has on-premises Skype for Business Server with no public DNS entries, you will need to contact Microsoft Support to have your tenant downgraded.
 - If you add/update a public DNS record to a domain that is *already* a Microsoft 365 verified domain, this DNS change is not detected, and TeamsOnly mode won’t be removed. TeamsOnly mode is only removed if the tenant is re-provisioned, which typically happens when there is a change to Microsoft 365 verified domains or to the subscription.  
+

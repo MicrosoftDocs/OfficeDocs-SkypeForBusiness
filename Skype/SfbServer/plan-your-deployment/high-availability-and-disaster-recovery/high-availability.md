@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Front End Pool high availability and management"
 ms.reviewer: 
 ms.author: serdars
@@ -112,3 +113,4 @@ Whenever you make a configuration change to a Front End pool, such as adding or 
 - After the new topology has been published, you must restart each Front End server in the pool. Restart them one at a time.
     
 - If the entire pool has been down during the configuration change, then run the following cmdlet after the new topology is published:  `Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
+

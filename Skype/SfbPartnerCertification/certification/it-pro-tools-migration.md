@@ -1,4 +1,5 @@
 ---
+ms.date: 06/14/2018
 title: "Skype for Business certification program - Migration"
 ms.author: serdars
 author: msdmaguire
@@ -40,4 +41,5 @@ The Skype for Business Server migration tools do various tasks. These jobs inclu
 
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+
 

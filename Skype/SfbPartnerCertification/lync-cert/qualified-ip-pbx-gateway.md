@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Infrastructure qualified for Lync - IP PBXs and Gateways "
 ms.author: serdars
 author: msdmaguire
@@ -296,3 +297,4 @@ We recommend that you visit the vendor's web site for the latest information.
 <br/><br/>
 
 For more information on Direct SIP configurations, see [PSTN Connectivity Components](../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md).
+

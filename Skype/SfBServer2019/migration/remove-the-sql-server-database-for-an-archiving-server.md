@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove the SQL Server database for an Archiving server"
 ms.reviewer: 
 ms.author: serdars
@@ -41,4 +42,5 @@ After you remove an Archiving Server, you can remove the SQL Server databases th
     
 4. When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (if there are errors). 
     
+
 

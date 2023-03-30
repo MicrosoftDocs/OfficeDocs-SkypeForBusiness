@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Edge Server scenarios in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -91,3 +92,4 @@ With this scenario, you are able to have high availability in your Edge deployme
   
 ![Edge Scenario for Scaled Consolidated Edge with HLB.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  
+

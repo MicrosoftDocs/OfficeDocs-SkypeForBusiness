@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Items"
 ms.reviewer: 
 ms.author: serdars
@@ -63,3 +64,4 @@ Get Items returns all Items in the repository.
 "type": "application/json"
 }]
 ```
+
