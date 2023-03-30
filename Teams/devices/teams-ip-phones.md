@@ -110,7 +110,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X50         | `4.0.0.100885`     | September 4, 2024   | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70         | `4.0.0-376092`     | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500              | `4.0.0.1009138`    | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
+| Poly TC8                | `3.3.2.210441`     | August 5, 2023 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500|  9  |
 | Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) |  9  |
 
 ## Certified Teams Displays
@@ -128,6 +128,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 | Crestron UC-P10-TD |`1.0.0.42`| August 5, 2023 |  9  |
 
 ## Certified Teams panels
+
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
 > [!NOTE]
@@ -517,3 +518,4 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Teams and Skype interoperability](../teams-skype-interop.md)
+
