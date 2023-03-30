@@ -183,6 +183,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX 350/400/500/600/505 | `8.1.1.3290` | 2022 Update #4A |
+|Poly Trio C60 | `8.1.1.3291` | 2022 Update #4A |
 |Poly CCX 350/400/500/600/505 | `8.0.2.3267` | 2022 Update #4A |
 |Poly Trio C60 | `8.0.2.3266` | 2022 Update #4A |
 |Crestron UC-2     | `1.0.6.28`    | 2022 Update #3A |
