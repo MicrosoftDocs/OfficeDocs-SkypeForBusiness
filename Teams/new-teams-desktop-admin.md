@@ -30,7 +30,7 @@ ms.localizationpriority: high
 
 ## Before you begin
 
-This article describes the preview release of tthe new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
+This article describes the preview release of the new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
 
 - [What is new Teams?](#what-is-the-new-teams)
 - [Prerequisites](#prerequisites)
@@ -291,7 +291,7 @@ The following list of policies can block users from seeing the app switcher togg
 #### Update and restart message in title bar
 
 Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
-This is expected behavior. Select the link to restart.
+Action:  This is expected behavior. Select the link to restart.
 
 #### Windows 10 users may receive an error message
 
@@ -496,7 +496,7 @@ Details:  Review your Windows Notification settings. From the upper-right corner
   - Webhooks not supported
 
 - **Issue:**   Attendance report doesn't show after a meeting.</br>
-Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report.  There's no option to download a report of an older channel meeting at this time.
+Workaround: To download, go to **Edit Meeting Details > Attendance > Download**.  It will always download the latest meeting's report. Currently, there's no option to download a report of an older channel meeting.
 
 ## Other areas:
 
