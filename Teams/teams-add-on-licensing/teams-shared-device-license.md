@@ -37,13 +37,14 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Audio Conferencing &sup2;
 - Teams panels
 - Teams displays
-- Microsoft Intune
+- Microsoft Intune &sup3;
 - Azure Active Directory Premium Plan 1
-- Exchange Online Plan 2 &sup3;
+- Exchange Online Plan 2 &sup4;
 
 &sup1; Previously known as *Phone System*. </br>
 &sup2; Common area phones can join audio conferences via a dial-in number provided by the meeting organizer. </br>
-&sup3; Cloud-based voicemail capabilities only.
+&sup3; Microsoft Intune Plan 1 and Plan 2. </br>
+&sup4; Cloud-based voicemail capabilities only.
 
 ## Teams Shared Devices license availability
 
