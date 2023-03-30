@@ -53,7 +53,9 @@ This article introduces the following steps. Each step contains links to more de
 
 ## Step 1: Buy and assign a Phone System license
 
-For each user who uses Phone System, you must assign a Phone System license to that user.   
+For each user who uses Phone System, you must assign a Phone System license to that user.
+
+Don't assign the **Microsoft Teams Phone Resource Account** license to any user other than resource accounts.
 
 You can assign a license to a single user or you can assign licenses to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
