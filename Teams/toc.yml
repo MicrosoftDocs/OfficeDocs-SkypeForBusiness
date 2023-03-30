@@ -280,7 +280,7 @@ items:
           href: /microsoft-365/information-barriers-teams-shared-channels?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Information barriers and Shared Channels
         - name: Change information barriers modes with a PowerShell script
-          href: information-barriers-mode-script.md
+          href: /microsoft-365/information-barriers-teams-powershell-script?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Retention policies
           href: retention-policies.md
         - name: Communication compliance

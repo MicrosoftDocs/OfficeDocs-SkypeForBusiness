@@ -4266,6 +4266,11 @@
     "redirect_document_id": false
   }, 
   {
+    "source_path": "Teams/information-barriers-mode-script.md",
+    "redirect_url": "/microsoft-365/compliance/information-barriers-teams-powershell-script",
+    "redirect_document_id": false
+  }, 
+  {
     "source_path": "Teams/business-voice/index.yml",
     "redirect_url": "/microsoftteams/",
     "redirect_document_id": false
