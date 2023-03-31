@@ -45,7 +45,7 @@ For external access with other Microsoft 365 organizations you allow all domains
 
 #### Teams accounts not managed by an organization
 
-You can control whether users in your organization can communicate with Teams users who are not managed by an organization by turing external access on or off at the organization level or by using a policy to control it for individual users and groups. You can also control if people with unmanaged Teams accounts can start a conversation with people in your organization.
+You can control whether users in your organization can communicate with Teams users who are not managed by an organization by turning external access on or off at the organization level or by using a policy to control it for individual users and groups. You can also control if people with unmanaged Teams accounts can start a conversation with people in your organization.
 
 #### Skype users
 
