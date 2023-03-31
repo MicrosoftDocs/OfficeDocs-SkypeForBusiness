@@ -120,7 +120,7 @@ items:
         - name: Admin training for Teams
           href: itadmin-readiness.md
         - name: End user training for Teams
-          href: instructor-led-training-teams-landing-page.yml
+          href: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
@@ -716,7 +716,7 @@ items:
           items: 
             - name: What are Teams live events?
               href: teams-live-events/what-are-teams-live-events.md
-            - name: Plan for Teams lives events
+            - name: Plan for Teams live events
               href: teams-live-events/plan-for-teams-live-events.md
             - name: Set up for Teams live events
               href: teams-live-events/set-up-for-teams-live-events.md
@@ -972,8 +972,6 @@ items:
           items: 
             - name: What's new
               href: direct-routing-whats-new.md
-            - name: Overview
-              href: direct-routing-landing-page.md
             - name: Plan Direct Routing
               href: direct-routing-plan.md
             - name: Session Border Controllers certified for Direct Routing
@@ -1002,6 +1000,8 @@ items:
               items: 
                 - name: Plan Location-Based Routing for Direct Routing
                   href: location-based-routing-plan.md
+                - name: Location-Based Routing scenarios
+                  href: location-based-routing-scenarios.md
                 - name: Configure network settings for Location-Based Routing
                   href: location-based-routing-configure-network-settings.md
                 - name: Enable Location-Based Routing for Direct Routing
