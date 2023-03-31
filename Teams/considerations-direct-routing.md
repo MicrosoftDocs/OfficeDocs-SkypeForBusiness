@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
-ms.date: 11/28/2017
+ms.date: 03/07/2023
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -36,7 +36,7 @@ To find out whether Direct Routing is the right solution for your business, see 
 
 ## Emergency call enablement for Direct Routing
 
-For Direct Routing, you must define emergency calling policies for users by using a [Teams emergency call routing policy](manage-emergency-call-routing-policies.md) to define emergency numbers and their associated routing destination. (Currently, registered emergency locations are not supported for Direct Routing users.)
+For Direct Routing, you must define emergency calling policies for users by using a [Teams emergency call routing policy](manage-emergency-call-routing-policies.md) to define emergency numbers and their associated routing destination.
 
 You can assign an emergency call routing policy to a Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
@@ -52,9 +52,9 @@ Dynamic emergency calling for Direct Routing provides the capability to configur
 
 For Direct Routing users, dynamic location for routing emergency calls is only supported in the United States as follows:
 
-- If a Teams client for a United States Direct Routing user dynamically acquires an emergency address within the United States, that address is used for emergency routing, and the call will be automatically routed to the PSAP in the serving area of the address.
+- If a Teams client for a United States Direct Routing user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address, and the call will be automatically routed to the PSAP in the serving area of the address.
 
-- If a Teams client for a United States Direct Routing user doesn't dynamically acquire an emergency address within the United States, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
+- If a Teams client for a United States Direct Routing user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
 Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exception: all emergency calls will be screened nationally before being transferred to the PSAP.
 
