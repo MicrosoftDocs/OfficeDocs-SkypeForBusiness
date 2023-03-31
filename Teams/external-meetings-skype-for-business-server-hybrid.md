@@ -12,6 +12,7 @@ ms.collection:
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
   - m365initiative-externalcollab
+  - Tier2
 search.appverid: MET150
 f1.keywords:
 - CSH
