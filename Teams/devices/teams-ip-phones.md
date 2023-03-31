@@ -318,6 +318,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Cisco Board Pro 55] | `11.3.1.16` | 2022 Update #3A |
+| Cisco Board Pro 75] | `11.3.1.16` | 2022 Update #3A |
 | Poly Studio X30 | `4.0.0-376092` | 2022 Update #3 |
 | Poly Studio X50 | `4.0.0-376092` | 2022 Update #3 |
 | Poly Studio X70 | `4.0.0-376092` | 2022 Update #3 |
