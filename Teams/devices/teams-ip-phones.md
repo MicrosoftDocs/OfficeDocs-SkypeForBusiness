@@ -318,6 +318,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.37` | 2022 Update #3 |
+| Yealink MeetingBoard 86" | `155.15.0.37` | 2022 Update #3 |
 | Poly Studio X30 | `4.0.0-376092` | 2022 Update #3 |
 | Poly Studio X50 | `4.0.0-376092` | 2022 Update #3 |
 | Poly Studio X70 | `4.0.0-376092` | 2022 Update #3 |
