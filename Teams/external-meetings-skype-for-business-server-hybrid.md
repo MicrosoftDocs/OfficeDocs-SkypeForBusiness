@@ -49,6 +49,6 @@ If you are using Microsoft 365 with Skype for Business Server in a hybrid config
 
 ## Related topics
 
-[Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)
+[Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-access-and-guest-access)
 
 [Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
