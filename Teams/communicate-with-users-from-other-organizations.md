@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: vinbel, luises
-ms.date: 12/10/2018
+ms.date: 03/31/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -13,6 +13,7 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-externalcollab
+- Tier2
 search.appverid: MET150
 f1.keywords:
 - NOCSH
