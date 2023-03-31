@@ -57,7 +57,7 @@ Use guest access to add a person from outside your organization to a team, where
 
 If you need to have meetings with people outside your organization who aren't part of another Microsoft 365 organization, you can use guest access to allow them to log in to your organization for meetings.
 
-Guests are added to your organization's Azure Active Directory as B2B collaboration users and must sign in to Teams using their guest account. If their account is in another Microsoft 365 organization, they may have to sign out of their own organization to sign in to your organization.
+Guests are added to your organization's Azure Active Directory as B2B collaboration users. They must sign in to Teams using their guest account. If the normally use Teams with another Microsoft 365 organization, they need to switch organizations in Teams to interact with your organization.
 
 Guest access is available to the following tenants:
 
