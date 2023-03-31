@@ -1129,13 +1129,13 @@ items:
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
           items: 
-            - name: Add, change, or remove an emergency location for your organization
+            - name: Manage an emergency location for your organization
               href: add-change-remove-emergency-location-organization.md
-            - name: Add, change, or remove a place for an emergency location in your organization
+            - name: Manage a place for an emergency location in your organization
               href: add-change-remove-emergency-place-organization.md
-            - name: Assign or change an emergency location for a user
+            - name: Assign an emergency location for a user
               href: assign-change-emergency-location-user.md
-            - name: Assign or change a place for an emergency location for a user
+            - name: Assign a place for an emergency location
               href: assign-change-emergency-place-user.md
             - name: Emergency call labels
               href: emergency-calling-labels.md
@@ -1143,8 +1143,8 @@ items:
           href: manage-emergency-calling-policies.md
         - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
-        - name: Manage voice and calling policies in Teams
-          href: settings-policies-reference.md#voice
+    - name: Voice policies reference
+      href: settings-policies-reference.md#voice
     - name: Contoso voice migration case study
       items: 
         - name: Overview
