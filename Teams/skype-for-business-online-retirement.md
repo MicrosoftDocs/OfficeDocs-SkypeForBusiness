@@ -81,7 +81,7 @@ We strongly recommend that you begin your upgrade from Skype for Business Online
 
 - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams deployment assistance available for qualifying plans.
 
-- [Teams live training](./instructor-led-training-teams-landing-page.yml) – Free online training classes designed to get your organization up and running with Teams.
+- [Teams training](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) – Free online training videos designed to get your organization up and running with Teams.
 
 - [Teams Chalk Talks](./chalk-talks-landing-page.yml) – Free online workshops for IT pros and decision makers that describe best practices for key scenarios in Teams.
 
