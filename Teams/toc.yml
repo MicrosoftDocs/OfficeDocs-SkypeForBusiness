@@ -275,9 +275,9 @@ items:
     - name: Compliance
       items: 
         - name: Information barriers
-          href: /microsoft-365/information-barriers-teams?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: /microsoft-365/compliance/information-barriers-teams?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Information barriers and Shared Channels
-          href: /microsoft-365/information-barriers-teams-shared-channels?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: /microsoft-365/compliance/information-barriers-teams-shared-channels?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Information barriers and Shared Channels
         - name: Change information barriers modes with a PowerShell script
           href: /microsoft-365/information-barriers-teams-powershell-script?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
