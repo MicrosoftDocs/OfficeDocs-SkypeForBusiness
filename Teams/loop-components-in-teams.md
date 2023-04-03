@@ -39,7 +39,7 @@ For information on admin settings for Loop components in Teams, see [Manage Loop
 
 ## Clients and platforms
 
-Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
+Available on Teams apps on Windows, Mac, iOS, and Android.
 
 ## Loop components and .fluid files
 

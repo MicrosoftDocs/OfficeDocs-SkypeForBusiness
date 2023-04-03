@@ -200,9 +200,9 @@ End users with mobile devices can download the Microsoft Teams app from the mobi
 
 ### Operating system requirements
 
-|Windows |macOS |Linux |iOS |Android |
-|--------|------|------|----|--------|
-|7 and later |10.10 and later |DEB or RPM |10 or later |4.4 and later |
+|Windows |macOS |iOS |Android |
+|--------|------|----|--------|
+|7 and later |10.10 and later |10 or later |4.4 and later |
 
 ### Internet browser support
 
