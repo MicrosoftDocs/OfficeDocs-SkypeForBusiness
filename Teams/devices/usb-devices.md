@@ -86,6 +86,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 65 Flex Headset                                    |3/20/2023       |Certified for Microsoft Teams                            |
 |Yealink              |BH71 Pro Headset                                           |3/17/2023       |Certified for Microsoft Teams                            |
 |Jabra                |SPEAK2 75 Speakerphone                                     |3/17/2023       |Certified for Microsoft Teams                            |
 |Jabra                |SPEAK2 55 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
@@ -109,6 +110,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Lenovo               |T24mv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |T27hv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |Conference Call Base Speakerphone                          |12/19/2022      |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 55 Stereo/Mono                                     |11/29/2022      |Certified for Microsoft Teams                            |
+|Jabra                |Evolve2 50 Stereo/Mono                                     |11/25/2022      |Certified for Microsoft Teams                            |
 |Dell                 |WB3023 Camera                                              |11/23/2022      |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 561 II headset                                       |10/20/2022      |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Certified for Microsoft Teams                           |
