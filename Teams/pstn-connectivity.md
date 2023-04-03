@@ -158,7 +158,6 @@ The following table highlights the primary configuration differences. The sectio
 | Teams Phone Mobile | -Carrier manages SIM-Enabled Mobile number, PSTN connectivity, and SBCs. <br> -You don't need to buy or manage SBCs. | -Obtained through carrier. <br> -Numbers associated with emergency addresses managed by carrier. | -Managed by carrier. <br> Admin configures user dial plans for number translation. |- Enabled by carrier. <br> - Admin registers addresses. <br> - Dynamic calling supported. <br> - Carrier supported Native dialer emergency calling. |
 | Direct Routing | -Requires certified SBC purchased from third-party vendor.<br>-Connect your SBC to Phone System.<br> -Use your existing PSTN carrier. | Obtained through carrier. | -Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <br>-LBR available to restrict toll bypass. | -Requires extra configuration by admin. <br>-Registered addresses not supported. <br>-Dynamic calling supported but requires additional configuration. |
 
-
 ### Phone number management
 
 Microsoft has two types of telephone numbers available: subscriber (user) numbers, which can be assigned to users in your organization, and service numbers, available as toll and toll-free service numbers. Service numbers have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
@@ -201,21 +200,23 @@ In some countries and regions, it's illegal to bypass the PSTN carrier to decrea
 
 ### Emergency calling
 
+Before reading the rest of this section on emergency calling considerations, make sure you've reviewed critical emergency calling concepts and definitions outlined in [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
 How you configure emergency calling differs depending on your PSTN connectivity option.
 
-- For Calling Plan, each user is automatically enabled for emergency calling. Ths user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Calling Plans](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans) 
+- For Calling Plan, each user is automatically enabled for emergency calling. Ths user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Calling Plans](considerations-calling-plan.md).
 
-- For Operator Connect, each user is automatically enabled for emergency calling. The user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Operator Connect](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect). 
+- For Operator Connect, each user is automatically enabled for emergency calling. The user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Operator Connect](considerations-operator-connect.md).
 
-- For Teams Phone Mobile, each user is automatically enabled for emergency calling. Emergency calls are routed automatically to the Teams Phone Mobile carrier for a given number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Teams Phone Mobile](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile). 
+- For Teams Phone Mobile, each user is automatically enabled for emergency calling. Emergency calls are routed automatically to the Teams Phone Mobile carrier for a given number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Teams Phone Mobile](considerations-teams-phone-mobile.md).
 
-- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy). The policy will define emergency numbers and their associated routing destination. Registered emergency locations aren't supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity. For more information, see [Considerations for Direct Routing](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing).
+- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy). The policy will define emergency numbers and their associated routing destination. Registered emergency locations aren't supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity. For more information, see [Considerations for Direct Routing](considerations-direct-routing.md).
 
 #### For more information
 
 For more information about emergency calling concepts and terminology, and how to configure emergency calling and dynamic emergency calling, see the following articles:
 
-- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency calling - Overview](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
