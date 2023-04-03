@@ -10,7 +10,6 @@ audience: admin
 ms.date: 02/23/2023
 ms.collection: 
   - M365-collaboration
-  - m365-frontline
   - tier2
   - highpri
 ms.reviewer: mhayrapetyan
