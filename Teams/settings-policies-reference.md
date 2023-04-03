@@ -30,6 +30,73 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 ## Teams
 
+### Teams settings
+
+**Navigation:** Teams admin center > Teams > Teams settings
+
+#### Notifications and feeds
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Suggested feeds can appear in a user's activity feed|On||
+
+#### Tagging
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Who can manage tags|Team owners||
+|Team owners can change who can manage tags|On||
+|Suggested tags|(none)||
+|Custom tags|On||
+|Shifts app can apply tags|On||
+
+#### Email integration
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Users can send emails to a channel email address|On||
+|Accept channel email from these SMTP domains|(none)||
+
+#### Files
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Citrix files|On||
+|DropBox|On||
+|Box|On||
+|Google Drive|On||
+|Egnyte|On||
+
+#### Organization
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Show organization tab for users|On||
+
+#### Devices
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Require a secondary form of authentication to access meeting content|No access||
+|Set content PIN|Required for outside scheduled meeting||
+|Surface hub accounts can send emails|On||
+
+#### Search by name
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Scope directory search using an Exchange address book policy|Off||
+
+#### Safety and communications
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Role-based chat permissions|Off||
+
+
+
+
+
 ### Teams policies
 
 **Navigation:** Teams admin center > Teams > Teams policies
@@ -98,6 +165,28 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 
 - [Microsoft Teams Public Preview](public-preview-doc-updates.md)
 - [Public Preview Features - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
+
+### Teams upgrade settings
+
+**Navigation:** Teams admin center > Teams > Teams upgrade settings
+
+#### Coexistence mode
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+||||
+||||
+
+
+#### App preferences
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+||||
+||||
+
+
+
 
 ## Teams apps
 
@@ -360,20 +449,18 @@ Use customization policies to customize the look of Teams meetings with your org
 - [Meeting themes for Teams meetings](meeting-themes.md)
 - [Custom meeting backgrounds for Teams Meetings](custom-meeting-backgrounds.md)
 
-### Meeting template policies
+### Meeting settings
 
-**Navigation:** Teams admin center > Meetings > Meeting template policies
+**Navigation:** Teams admin center > Meetings > Meeting settings
 
-Meeting templates policies let you create and set up policies that control what templates people in your organization can see. Microsoft Teams custom meeting templates require a Teams Premium license.
+| Setting | Default | Description |
+|:-----|:-----|:-----|
 
-:::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
 
-#### Related topics to meeting template policies
 
-- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
-- [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
-- [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md)
-- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+
+
+
 
 ### Live events policies
 
@@ -400,6 +487,35 @@ Teams live events policies are used to turn on or off features, such as who can 
 - [Live streaming events in Microsoft Teams](teams-stream-overview.md)
 - [Configuring encoders for live event streaming in Microsoft Teams](teams-encoder-configuration.md)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
+
+### Live event settings
+
+**Navigation:** Teams admin center > Meetings > Live event settings
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+
+
+
+
+
+
+
+
+### Meeting template policies
+
+**Navigation:** Teams admin center > Meetings > Meeting template policies
+
+Meeting templates policies let you create and set up policies that control what templates people in your organization can see. Microsoft Teams custom meeting templates require a Teams Premium license.
+
+:::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
+
+#### Related topics to meeting template policies
+
+- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
+- [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
+- [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 ## Messaging policies
 
