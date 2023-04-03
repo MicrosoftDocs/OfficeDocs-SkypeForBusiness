@@ -275,12 +275,11 @@ items:
     - name: Compliance
       items: 
         - name: Information barriers
-          href: /microsoft-365/compliance/information-barriers-teams?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: /microsoft-365/compliance/information-barriers-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Information barriers and Shared Channels
-          href: /microsoft-365/compliance/information-barriers-teams-shared-channels?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Information barriers and Shared Channels
+          href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Change information barriers modes with a PowerShell script
-          href: /microsoft-365/compliance/information-barriers-teams-powershell-script?toc=/microsoftteams/teams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: /microsoft-365/compliance/information-barriers-teams-powershell-script?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Retention policies
           href: retention-policies.md
         - name: Communication compliance
