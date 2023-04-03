@@ -27,7 +27,7 @@ description: Learn how to enable or require watermarks on attendee video and sha
 
 You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Meeting participants can't turn the watermark off.
 
-Watermarks are supported on Teams desktop, mobile and Microsoft Teams Room. People joining meetings from unsupported platforms will have an audio-only experience.
+Watermarks are supported on Teams desktop, mobile, and Microsoft Teams Rooms. People joining meetings from unsupported platforms will have an audio-only experience.
 
 The following participants have an audio-only experience when a watermark is in use:
 
