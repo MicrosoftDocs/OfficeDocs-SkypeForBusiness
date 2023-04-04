@@ -17,7 +17,7 @@ f1.keywords:
   - NOCSH
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: normal
 search.appverid: MET150
 description: This reference describes each of the policies available in Microsoft Teams.
 ---
