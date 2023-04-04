@@ -36,7 +36,7 @@ Voice applications policies can be managed in the Microsoft Teams admin center:
 1. Sign into the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 1. Navigate to **Voice** > **Voice applications policies**.
 
-Alternatively, the [PowerShell cmdlets](##voice-applications-powershell-cmdlets) in this article may also be used.
+Alternatively, the [PowerShell cmdlets](#voice-applications-powershell-cmdlets) in this article may also be used.
 
 ## Before creating and assigning Voice application policies
 
@@ -70,7 +70,7 @@ Similarly, being assigned as an authorized user to at least one auto attendant o
 
 1. Enter a name and description for the policy.
 1. From here, choose the settings you want.
-  1. Choose the policy name and description carefully as these can't be changed later.
+    1. Choose the policy name and description carefully as these can't be changed later.
 1. Select **Save**.
 
 ## Edit a custom voice applications policy
@@ -78,9 +78,13 @@ Similarly, being assigned as an authorized user to at least one auto attendant o
 You can edit the global policy or any custom policies you create.
 
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+
 1. Navigate to **Voice** > **Voice applications policies**.
+
 1. Select the policy by selecting to the left of the policy name, and then select **Edit**.
+
 1. Change the settings you want.
+
 1. Select **Save**.
 
 > [!NOTE]
@@ -109,16 +113,23 @@ You can edit the global policy or any custom policies you create.
 > [!IMPORTANT]
 > In addition to creating a `TeamsVoiceApplicationsPolicy` and assigning it to users, a user must also be assigned as an [Authorized users](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
 
-- Auto attendant configuration:
-  - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the *Business Hours Greeting* for the auto attendants they're authorized for.
-  - **After Hours Greeting**: Turn on this setting to allow authorized users to change the *After Hours Greeting* for the auto attendants they're authorized for.
-  - **Holiday Greeting**: Turn on this setting to allow authorized users to change the *Holiday Greeting* for the auto attendants they're authorized for.
+### Auto attendant configuration
 
-- Call queue configuration:
-  - **Welcome Greeting**: Turn on this setting to allow authorized users to change the *Welcome Greeting* for the call queues they're authorized for.
-  - **Music on hold**: Turn on this setting to allow authorized users to change the *Music on hold* for the call queues they're authorized for.
-  - **Overflow Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *Overflow Shared Voicemail Greeting* for the call queues they're authorized for.
-  - **Timeout Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *Timeout Shared Voicemail Greeting* for the call queues they're authorized for.
+- **Business Hours Greeting**: Turn on this setting to allow authorized users to change the *Business Hours Greeting* for the auto attendants they're authorized for.
+
+- **After Hours Greeting**: Turn on this setting to allow authorized users to change the *After Hours Greeting* for the auto attendants they're authorized for.
+
+- **Holiday Greeting**: Turn on this setting to allow authorized users to change the *Holiday Greeting* for the auto attendants they're authorized for.
+
+### Call queue configuration
+
+- **Welcome Greeting**: Turn on this setting to allow authorized users to change the *Welcome Greeting* for the call queues they're authorized for.
+
+- **Music on hold**: Turn on this setting to allow authorized users to change the *Music on hold* for the call queues they're authorized for.
+
+- **Overflow Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *Overflow Shared Voicemail Greeting* for the call queues they're authorized for.
+
+- **Timeout Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *Timeout Shared Voicemail Greeting* for the call queues they're authorized for.
 
 ## Future release Voice applications policy settings
 
@@ -127,16 +138,23 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
 ### Auto attendant configuration
 
 - **AllowAutoAttendantBusinessHoursChange**: Turn on this setting to allow authorized users to change the *auto attendant business hours schedule* for the auto attendants they're authorized for.
+
 - **AllowAutoAttendantBusinessHoursRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant business hours call flow* for the auto attendants they're authorized for.
+
 - **AllowAutoAttendantAfterHoursRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant after-hours call flow* for the auto attendants they're authorized for.
+
 - **AllowAutoAttendantHolidaysChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday schedules* for the auto attendants they're authorized for.
+
 - **AllowAutoAttendantHolidayRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday call flows* for the auto attendants they're authorized for.
+
 - **AllowAutoAttendantLanguageChange**: Turn on this setting to allow authorized users to change the *auto attendant language* for the auto attendants they're authorized for.
+
 - **AllowAutoAttendantTimeZoneChange**: Turn on this setting to allow authorized users to change the *auto attendant time zone* for the auto attendants they're authorized for.
 
 ### Call queue configuration
 
 - **AllowCallQueueOptOutChange**: Turn this setting on to allow authorized users to change the *call queue opt-out setting* for the call queues they're authorized for. This setting allows agents to opt-out of receiving calls from the call queue.
+
 - **AllowCallQueueConferenceModeChange**: Turn this setting on to allow authorized users to change the *call queue conference mode setting* for the call queues they're authorized for.
 
   > [!WARNING]
@@ -145,12 +163,19 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
   > Turning off **Conference Mode** will result in longer caller-to-agent connection times.
 
 - **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *call queue language* for call queues they're authorized for.
+
 - **AllowCallQueueMembershipChange**: Turn this setting on to allow authorized users to change the agents who are part of the call queue.
+
 - **AllowCallQueueMusicOnHoldChange**: Turn this setting on to allow authorized users to change the *call queue music on hold* for the call queues they're authorized for.
+
 - **AllowCallQueueNoAgentsRoutingChange**: Turn this setting on to allow authorized users to change the *call queue no-agent handling properties* for the call queues they're authorized for.
+
 - **AllowCallQueueOverflowRoutingChange**: Turn this setting on to allow authorized users to change the *call queue overflow handling properties* for the call queues they're authorized for.
+
 - **AllowCallQueuePresenceBasedRoutingChange**: Turn this setting on to allow authorized users to change the *call queue presence-based routing option* for the call queues they're authorized for.
+
 - **AllowCallQueueRoutingMethodChange**: Turn this setting on to allow authorized users to change the *call queue routing method* for the call queues they're authorized for.
+
 - **AllowCallQueueTimeoutRoutingChange**: Turn this setting on to allow authorized users to change the *call queue timeout handling properties* for the call queues they're authorized for.
 
 ### Call queue agent opt-in status
