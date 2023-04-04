@@ -54,14 +54,12 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 [Manage tags in Microsoft Teams](manage-tags.md)
 
-
 #### Email integration
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Users can send emails to a channel email address|On|When **On**, users can send emails to a channel email address and the email will appear in the channel.|
 |Accept channel email from these SMTP domains|(none)|Used to limit the domain from which channels can receive emails.|
-
 
 #### Files
 
@@ -81,7 +79,11 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Show organization tab for users|On||
+|Show organization tab for users|On|When **On**, users see the **Organization** tab in their personal chat in Teams. The **Organization** tab shows the organizational hierarchy as defined in Azure Active Directory.|
+
+##### Related topics for 
+
+[Use the Organization tab in Teams](https://support.microsoft.com/office/ff02568b-290a-46d6-ae7a-cda22f723894)
 
 #### Devices
 
@@ -121,14 +123,14 @@ Teams policies are used to control what settings or features are available to us
 |Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Azure AD organizations to join the channel, if Azure AD cross-tenant access settings are configured.|
 |Join external shared channels|On|When **On**, users and teams can be invited to external shared channels, if Azure AD cross-tenant access settings are configured.|
 
-#### PowerShell-only Teams policies
+**PowerShell-only Teams policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this value to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md).|
 |EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this value to **True** to allow or **False** to prohibit.|
 
-#### Related topics for Teams policies
+##### Related topics for Teams policies
 
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
 - [Set-CsTeamsChannelsPolicy](/powershell/module/skype/set-csteamschannelspolicy)
@@ -153,7 +155,7 @@ Template policies control what team templates users see when they create a new t
 - Quality and Safety
 - Retail for Managers
 
-#### Related topics for template policies
+##### Related topics for template policies
 
 - [Manage team templates in the admin center](templates-policies.md)
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
@@ -170,7 +172,7 @@ Update policies are used to manage Teams and Office preview users that will see 
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
 
-#### Related topics for Teams update policies
+##### Related topics for Teams update policies
 
 - [Microsoft Teams Public Preview](public-preview-doc-updates.md)
 - [Public Preview Features - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
@@ -214,7 +216,7 @@ The types of apps to permission are divided into three categories - Microsoft ap
 - **Block specific apps and allow all others** - Add which apps you want to block from the Teams app store and all the other apps would be allowed.
 - **Block all apps** - Users can't install apps that are published by your organization in the Teams app store.
 
-#### Related topics for permission policies
+##### Related topics for permission policies
 
 - [Use app permission policies to control user access to apps](teams-app-permission-policies.md)
 - [Overview of app management and governance in Teams admin center](manage-apps.md)
@@ -238,7 +240,7 @@ App setup policies control how apps are made available to a user with the Teams 
 |Installed apps|(none)|Choose which apps and messaging extensions you want installed in your users' personal Teams environment and in meetings they create. Users can install other available apps from the Teams app store.|
 |Pinned apps|Activity, Chat, Teams, Calendar, Calling, Files|Choose the order apps are pinned in messaging extensions and the Teams app bar.|
 
-#### Related topics for setup policies
+##### Related topics for setup policies
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
 - [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
@@ -269,7 +271,7 @@ Meeting policies are used to control what features are available in meetings org
 |Who is in the report|Everyone, but users can opt-out|This setting controls whether users in the meeting can opt in or out of offering their attendance information in the Attendance Report.|
 |Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant.|
 
-#### Related topics for meeting scheduling
+##### Related topics for meeting scheduling
 
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
@@ -450,7 +452,7 @@ Use customization policies to customize the look of Teams meetings with your org
 |Allow organizer to control meeting theme|Off|When this setting is on, meeting organizers can turn off meeting themes for specific meeting instances through the meeting options.|
 |Custom backgrounds|Off|This setting gives you the ability to upload custom background images for Teams meetings that will appear on your end users' interfaces, ordered by the time of upload. Read how to enable [Custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md).|
 
-#### Related topics for customization policies
+##### Related topics for customization policies
 
 - [Microsoft Teams Premium - Overview for administrators](enhanced-teams-experience.md)
 - [Custom Together Mode scenes in Teams](/platform/apps-in-teams-meetings/teams-together-mode)
@@ -510,7 +512,7 @@ Teams live events policies are used to turn on or off features, such as who can 
 > [!NOTE]
 > GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](/teams-live-events/set-teams-live-events-policies-using-powershell).
 
-#### Related topics for live events meeting policies
+##### Related topics for live events meeting policies
 
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for live events in Microsoft Teams](teams-live-events/plan-for-teams-live-events.md)
@@ -545,7 +547,7 @@ Meeting templates policies let you create and set up policies that control what 
 
 :::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
 
-#### Related topics for meeting template policies
+##### Related topics for meeting template policies
 
 - [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 - [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
@@ -627,7 +629,7 @@ Calling policies are used to control what calling features are available to peop
 |AllowCallRedirect|None|This setting provides the ability to configure call redirection capabilities on Teams phones. When set to **Enabled** users will have the ability to redirect received calls.|
 |CallRecordingExpirationDays|60|This setting controls the expiration of recorded 1:1 calls, measured in days.|
 
-#### Related topics for calling policies
+##### Related topics for calling policies
 
 - [Plan your Teams voice solution](cloud-voice-landing-page.md)
 - [Calling and call-forwarding features in Teams](teams-calling-policy.md)
@@ -641,7 +643,7 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 :::image type="content" source="media/teams-call-hold-policy.png" alt-text="Screenshot of Teams call hold policies.":::
 
-#### Related topics for call hold policies
+##### Related topics for call hold policies
 
 - [How to setup Music on hold](music-on-hold.md).
 - [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy)
@@ -661,7 +663,7 @@ Call park lets people put a call on hold and transfer it to other people within 
 |Call pickup end of range|99|The pickup code of the last parked call within in the range. After which, the rendered pickup codes start over from the start of the range once again.|
 |Park timeout (seconds)|300|The number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds.|
 
-#### Related topics for call park policies
+##### Related topics for call park policies
 
 - [Configure Call park and retrieve](call-park-and-retrieve.md)
 - [Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
@@ -682,7 +684,7 @@ Caller ID policies are used to change or block the Caller ID (also called a Call
 |Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
 |Replace the caller ID with this service number|(Choose a service number)|Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace the caller ID with**.|
 
-#### Related topics for Caller ID policies
+##### Related topics for Caller ID policies
 
 - [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
 - [Manage caller ID policies in Microsoft Teams](caller-id-policies.md)
@@ -706,7 +708,7 @@ Emergency calling policies are used to control how users in your organization ca
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
 |Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
-#### Related topics for emergency policies
+##### Related topics for emergency policies
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
@@ -724,7 +726,7 @@ A voice routing policy for Direct Routing will be linked to a voice route using 
 
 :::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
 
-#### Related topics for voice routing policies
+##### Related topics for voice routing policies
 
 - [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md)
 - [Configure call routing for Direct Routing](direct-routing-voice-routing.md)
@@ -754,7 +756,7 @@ Voicemail policies control the available features for the voicemail service in T
 |After the user's greeting, play audio file|(none)|The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.|
 |Disconnect the call if preamble or postamble can't be played|Off|If you turn on this setting, the Pre- or Postamble will play before the caller can leave a message.|
 
-#### Related topics for voicemail policies
+##### Related topics for voicemail policies
 
 - [Manage voicemail policies for your users](manage-voicemail-policies.md)
 - [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
@@ -776,7 +778,7 @@ Enhanced encryption policies are used to control if users in your organization c
 |End-to-end call encryption|Not enabled|This setting determines whether end-to-end encrypted calling is available for users. Read more about [how to configure end-to-end encryption for one-to-one Microsoft Teams calls](teams-end-to-end-encryption.md).|
 |End-to-end meeting encryption|Not enabled, but users can enable|This setting determines whether end-to-end encrypted meetings are available for users. This setting requires a Teams Premium license. Read more about [how to require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).|
 
-#### Related topics for end-to-end encryption policies
+##### Related topics for end-to-end encryption policies
 
 - [Security and Microsoft Teams](teams-security-guide.md)
 - [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)
