@@ -33,6 +33,9 @@ For details about each client's capabilities on different platforms, see [Teams 
 
 ## Desktop clients
 
+>[!Note]
+>The new Microsoft Teams desktop client is now available in preview. The minimum system requirements are different. Learn more: [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
+
 The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
 - 32-bit and 64-bit versions of Windows (8.1 or later, excluding Windows 10 LTSC) 
@@ -100,8 +103,6 @@ If a user currently has a DMG installation of Teams and wants to replace it with
 3. Install the PKG file.
 
 IT Pros can use a managed deployment solution, such as Jamf Pro, to distribute the Teams installation files to all Macs in their organization.
-
----
 
 ## Mobile clients
 

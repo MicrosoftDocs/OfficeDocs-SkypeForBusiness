@@ -31,7 +31,7 @@ In Microsoft Teams, users can record their Teams meetings and group calls to cap
 When a meeting is recorded, it’s automatically:
 
 - Uploaded to OneDrive or SharePoint
-- Permissioned to the people invited to the meeting
+- Permissioned to the people invited to the meeting (guests and external attendees can view the recording only if it's explicitly shared with them)
 - Linked in the chat for the meeting
 - Displayed in the Recordings and Transcripts tab for the meeting in Teams calendar
 - Added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.

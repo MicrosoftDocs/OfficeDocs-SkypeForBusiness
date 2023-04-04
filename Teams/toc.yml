@@ -91,6 +91,8 @@ items:
           items: 
             - name: Get Teams clients
               href: get-clients.md
+            - name: The new Teams client
+              href: new-teams-desktop-admin.md
             - name: Teams client updates
               href: teams-client-update.md
             - name: Bulk install Teams using Windows Installer
@@ -118,7 +120,7 @@ items:
         - name: Admin training for Teams
           href: itadmin-readiness.md
         - name: End user training for Teams
-          href: instructor-led-training-teams-landing-page.yml
+          href: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
@@ -273,11 +275,11 @@ items:
     - name: Compliance
       items: 
         - name: Information barriers
-          href: information-barriers-in-teams.md
-        - name: Information barriers and Shared Channels
-          href: information-barriers-shared-channels.md
+          href: /microsoft-365/compliance/information-barriers-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Information barriers and shared channels
+          href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Change information barriers modes with a PowerShell script
-          href: information-barriers-mode-script.md
+          href: /microsoft-365/compliance/information-barriers-teams-powershell-script?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Retention policies
           href: retention-policies.md
         - name: Communication compliance
@@ -356,22 +358,26 @@ items:
           href: communicate-with-users-from-other-organizations.md
         - name: Plan for external meetings
           href: plan-meetings-external-participants.md
-        - name: External meetings and chat
+        - name: External meetings and chat with Microsoft identities
           items: 
-            - name: Manage external meetings and chat
-              href: manage-external-access.md
+            - name: Configure external meetings & chat
+              href: trusted-organizations-external-meetings-chat.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
+            - name: Skype for Business Server
+              href: external-meetings-skype-for-business-server-hybrid.md
         - name: Guest access
           items: 
             - name: About guest access
               href: guest-access.md
-            - name: Guest experience
-              href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
+            - name: Guest experience
+              href: guest-experience.md
+        - name: Anonymous meeting participants
+          href: anonymous-users-in-meetings.md
 
     - name: Integrate apps with Teams
       items:
@@ -478,6 +484,8 @@ items:
           href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Walkie Talkie usage and performance report
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
+        - name: SMS notifications usage report
+          href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
               
     - name: Log files, service health, and support
       items:
@@ -606,8 +614,6 @@ items:
               href: meeting-policies-content-sharing.md
             - name: Who can present
               href: meeting-who-present-request-control.md
-            - name: Anonymous participants
-              href: anonymous-users-in-meetings.md
             - name: Speaker coach
               href: meeting-speaker-coach.md
         - name: Attendee experience
@@ -630,6 +636,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
+            - name: Set up avatars for Teams
+              href: meeting-avatars.md
         - name: Standardized meetings
           items: 
             - name: Custom meeting backgrounds
@@ -708,7 +716,7 @@ items:
           items: 
             - name: What are Teams live events?
               href: teams-live-events/what-are-teams-live-events.md
-            - name: Plan for Teams lives events
+            - name: Plan for Teams live events
               href: teams-live-events/plan-for-teams-live-events.md
             - name: Set up for Teams live events
               href: teams-live-events/set-up-for-teams-live-events.md
@@ -964,8 +972,6 @@ items:
           items: 
             - name: What's new
               href: direct-routing-whats-new.md
-            - name: Overview
-              href: direct-routing-landing-page.md
             - name: Plan Direct Routing
               href: direct-routing-plan.md
             - name: Session Border Controllers certified for Direct Routing
@@ -994,6 +1000,8 @@ items:
               items: 
                 - name: Plan Location-Based Routing for Direct Routing
                   href: location-based-routing-plan.md
+                - name: Location-Based Routing scenarios
+                  href: location-based-routing-scenarios.md
                 - name: Configure network settings for Location-Based Routing
                   href: location-based-routing-configure-network-settings.md
                 - name: Enable Location-Based Routing for Direct Routing
@@ -1039,8 +1047,6 @@ items:
       items: 
         - name: Manage phone numbers for your organization
           href: manage-phone-numbers-landing-page.md
-        - name: How many phone numbers can you get?
-          href: how-many-phone-numbers-can-you-get.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
         - name: Assign, change, or remove a phone number for a user
@@ -1051,14 +1057,16 @@ items:
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
 
-        - name: Manage phone numbers for Calling Plan
+        - name: Manage phone numbers for Calling Plan and services
           items: 
             - name: Overview
-              href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-            - name: Getting phone numbers for your users
+              href: manage-phone-numbers.md
+            - name: Get phone numbers for your users
               href: getting-phone-numbers-for-your-users.md
             - name: Get service phone numbers
               href: getting-service-phone-numbers.md
+            - name: How many phone numbers can you get?
+              href: how-many-phone-numbers-can-you-get.md
             - name: Transferring phone numbers
               items: 
                 - name: What's a port order?
@@ -1451,7 +1459,7 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-            - name: Find user licenses
+            - name: Find devices with unsupported licenses
               href: rooms/license-check.md
     - name: Microsoft Teams Rooms Pro Management
       items: 
@@ -1565,7 +1573,7 @@ items:
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
-      href: deploy-apps-microsoft-teams-landing-page.md
+      href: apps-in-teams.md
     - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Admin app
