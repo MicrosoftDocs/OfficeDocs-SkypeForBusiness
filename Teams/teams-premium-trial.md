@@ -28,7 +28,7 @@ The following are the basic steps involved in a trial:
 
 1. **Pre-trial planning** - including defining test cases, choosing users, and deciding which feature settings and policies you want to use
 1. **Add trial to your tenant** - including assigning licenses
-1. **Administrative setup** - including creating meeting templates and sensitivity labels, uploading logos and backgrounds, and assigning policies to users
+1. **Administrative setup** - including creating meeting templates, uploading logos and backgrounds, and assigning policies to users. If your organization uses sensitivity labels, this also includes creating meeting sensitivity labels in Microsoft Purview.
 1. **Start the trial** - including notifying the trial participants to begin testing the use cases you defined and providing feedback to stakeholders
 
 This article covers pre-trial planning and how to add the trial to your tenant and assign licenses. Specific steps for administrators to set up features for the trial are covered in other Teams Premium articles which we link to in the sections below.
@@ -50,19 +50,15 @@ The following table lists potential trial participants and their roles.
 |:--|:---|:--------------------|
 |Microsoft 365 global administrator|Assign Teams Premium trial licenses to trial participants.|No|
 |Teams administrator|Configure Teams Premium settings and policies|If using the Advanced Virtual Appointments activity report|
-|Compliance administrator|Set up and publish sensitivity labels|No|
+|Compliance administrator|Set up and publish sensitivity labels if needed|No|
 |Meeting organizers|Schedule meetings where participants can test Teams Premium features|Yes|
 |Meeting participants|People in the organization who can attend meetings that use Teams Premium features and give feedback on them|No|
 |Compliance specialists|Compliance or governance specialists who can validate use cases for compliant meetings|Yes|
 
-
-
 You can use security groups to easily assign policies in Teams and to specify who can use specific sensitivity labels. We recommend creating security groups for the following trial participants:
 
-- **Compliance testers** - Users who will be testing sensitivity labels and meeting templates in meetings. Sensitivity labels can be published to this group in Microsoft Purview and meeting templates can be made available to this group with a meeting template policy in Teams.
+- **Compliance testers** - Users who will be testing sensitivity labels. Sensitivity labels can be published to this group in Microsoft Purview.
 - **Custom meetings testers** - Users who will be testing templates, backgrounds, and themes. Themes, backgrounds, and templates can be assigned to this group by using meetings customization policies.
-
-
 
 ### Collect feedback from trial participants
 
@@ -76,15 +72,25 @@ The sections below describe the areas where Teams Premium offers enhanced meetin
 
 #### Compliant meetings
 
-To help meet your compliance requirements for meetings, Teams Premium provides sensitivity label controls and custom meeting templates that you can use to define the meeting experience.
+To help meet your compliance requirements for meetings, Teams Premium provides the following options for meeting organizers:
 
-By using sensitivity labels, you can enforce meeting features such as watermarks and encryption, and control many of the [meeting settings that are available to meeting organizers](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e). Sensitivity labels are defined in Microsoft Purview and you can use them in meetings or specify them in meeting templates.
+- Watermarks for attendee video and content shared on screen
+- End-to-end encryption
+- Options for who can record the meeting
 
-You can create a combination of sensitivity labels and meeting templates to define meeting experiences for meetings with different sensitivity levels. For ideas on how to use labels and meeting templates for different types of meetings, read [Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection).
+These options are available to meeting organizers with a Teams Premium license. (Watermarks must be enabled by a Teams administrator before meeting organizers can use them.)
 
-For the trial, you'll want to define the different types of meeting experiences that you want to validate and then determine how you want to use sensitivity labels and meeting templates to make these meeting experiences available to trial participants.
+Teams Premium also includes custom meeting templates and additional options for sensitivity labels that can be used to control many of the [meeting settings that are available to meeting organizers](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e), including those listed above.
 
-We suggest creating temporary sensitivity labels for the trial and publishing them to your trial participants. This way you don't need to update production labels that are available widely within the organization.
+If your organization uses sensitivity labels, you can create a combination of sensitivity labels and meeting templates to define meeting experiences for meetings with different sensitivity levels. For ideas on how to use labels and meeting templates for different types of meetings, read [Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection).
+
+Sensitivity labels are defined in Microsoft Purview and you can use them in meetings directly or specify them as part of a meeting template.
+
+If your organization doesn't use sensitivity labels, you can control many of the same features by using custom meeting templates alone.
+
+For the trial, you'll want to define the different types of meeting experiences that you want to validate and then determine how you want to use sensitivity labels (if applicable) and meeting templates to make these meeting experiences available to trial participants.
+
+If you use sensitivity labels, we suggest creating temporary labels for the trial and publishing them to your trial participants. This way you don't need to update production labels that are available widely within the organization.
 
 For your trial group, you may want to include people who need to present sensitive information in meetings as well as compliance specialists who can validate the features and settings used with respect to your business requirements.
 
