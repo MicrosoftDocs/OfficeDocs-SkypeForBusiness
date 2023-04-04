@@ -174,16 +174,16 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-||||
-||||
+|Coexistence mode|Teams only||
+|Notify Skype for Business users that an upgrade to Teams is available.|Off||
 
 
 #### App preferences
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-||||
-||||
+|Preferred app for users to join Skype for Business meetings|Skype for Business||
+|Download the Teams app in the background for Skype for Business users|On||
 
 
 
@@ -453,12 +453,33 @@ Use customization policies to customize the look of Teams meetings with your org
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
+
+#### Participants
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Anonymous users can join a meeting|On||
+|Anonymous users can interact with apps in meetings|On||
+
+#### Email invitation
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Logo URL|(none)||
+|Legal URL|(none)||
+|Help URL|(none)||
+|Footer|(none)||
 
 
+#### Network
 
-
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Insert Quality of Service (QoS) markers for real-time media traffic|Off||
+|Select a port range for each type of real-time media traffic|Specify port ranges||
+|Audio|Starting port: 50000 / Ending port: 50019||
+|Video|Starting port: 50020 / Ending port: 50039||
+|Screen sharing|Starting port: 50040 / Ending port: 50059||
 
 
 
@@ -492,13 +513,18 @@ Teams live events policies are used to turn on or off features, such as who can 
 
 **Navigation:** Teams admin center > Meetings > Live event settings
 
+#### Support URL
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Custom support URL|(none)||
 
+#### Video distribution providers
 
-
-
-
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Video distribution provider|Off||
+|SDN provider name|(none)||
 
 
 
