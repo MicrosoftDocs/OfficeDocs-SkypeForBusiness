@@ -111,7 +111,7 @@ You can edit the global policy or any custom policies you create.
 
 ## Voice applications policy settings - Not generally available
 
-The following policy settings are referenced in the [PowerShell cmdlets](#powershell-cmdlets) however they are not generally available at this time and are not shown in Teams Admin Center.  Changing these policy keys via the cmdlet will not enable authorized users to perform these functions.  
+The following policy settings are referenced in the [PowerShell cmdlets section](#powershell-cmdlets); however, they aren't generally available at this time and aren't shown in Teams admin center.  Changing these policy keys via the cmdlet won't enable authorized users to perform these functions.  
 
 - Auto attendant configuration
   - **AllowAutoAttendantBusinessHoursChange**: Turn on this setting to allow authorized users to change the *auto attendant business hours schedule* for the auto attendants they're authorized for.
@@ -128,7 +128,7 @@ The following policy settings are referenced in the [PowerShell cmdlets](#powers
 
     > [!WARNING]
     > **Conference mode** reduces the amount of time it takes for a caller and agent to be connected after the agent accepts the call.
-    > .
+    > 
     > Turning off **Conference Mode** will result in longer caller-to-agent connection times.
 
   - **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *call queue language* for call queues they're authorized for.
