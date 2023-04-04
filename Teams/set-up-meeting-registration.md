@@ -24,18 +24,15 @@ ms.collection:
 description: Learn how to set up and manage meeting registration policies in Teams.
 ---
 
-# Set up meeting registration in Teams
+# Set up meeting registration in Microsoft Teams meetings
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-This article describes how to set up and manage meeting registration.
+## Overview
 
-Meeting registration is a virtual meeting where registration is required for participants. This meeting format includes includes basic webinar functionality, the ability to require registration for meetings, and an attendance report.
+This article describes how to set up and manage meeting registration for Microsoft teams meetings.
 
-To learn more about the differences between webinars and meeting registration, see [What's the difference between webinars and meeting registration.](/MicrosoftTeams/set-up-webinars#whats-the-difference-between-a-webinar-and-meeting-registration)
-
-Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
-
+Meeting registration is a virtual meeting where registration organizers can require registration from participants. This meeting format includes includes basic webinar functionality, the ability to require registration for meetings, and an attendance report.
 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
@@ -49,9 +46,9 @@ Now, **we’ve separated meeting registration and webinars.**
 If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled.
 
 If you want your users to still have a **webinar** entry point to create webinars, you’ll **only** need to verify that the **`-AllowWebinars`** parameter is still enabled.
-If you currently have webinars turned off, they will remain off as the new experience rolls out. For information on how to set up webinars, see [Set up webinars](set-up-webinars).
+If you currently have webinars turned off, they will remain off as the new experience rolls out. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
 
-
+Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
 
 > [!NOTE]
 > For on-premises users, the new webinar experience isn't available yet.
