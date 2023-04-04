@@ -81,7 +81,7 @@ This reference describes each of the policies available in Microsoft Teams. Each
 |:-----|:-----|:-----|
 |Show organization tab for users|On|When **On**, users see the **Organization** tab in their personal chat in Teams. The **Organization** tab shows the organizational hierarchy as defined in Azure Active Directory.|
 
-##### Related topics for 
+##### Related topics for Organization
 
 [Use the Organization tab in Teams](https://support.microsoft.com/office/ff02568b-290a-46d6-ae7a-cda22f723894)
 
@@ -89,24 +89,29 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Require a secondary form of authentication to access meeting content|No access||
-|Set content PIN|Required for outside scheduled meeting||
-|Surface hub accounts can send emails|On||
+|Require a secondary form of authentication to access meeting content|No access|Skype for Business users require a secondary form of authentication to access meeting content.|
+|Set content PIN|Required for outside scheduled meeting|Specifies if Skype for Business users require a content PIN.|
+|Surface hub accounts can send emails|On|When **On**, Surface Hub accounts can send emails.|
 
 #### Search by name
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Scope directory search using an Exchange address book policy|Off||
+|Scope directory search using an Exchange address book policy|Off|When **On**, hides the **Search teams** box and public teams listing in **Join or create a team** in Teams|
+
+##### Related topics for search by name
+
+[Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Safety and communications
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Role-based chat permissions|Off||
+|Role-based chat permissions|Off|When **On**, supervised chat is available for all users.|
 
+##### Related topics for safety and communication
 
-
+[Supervised chats in Microsoft Teams](supervise-chats-edu.md)
 
 ### Teams policies
 
@@ -290,7 +295,7 @@ Meeting policies are used to control what features are available in meetings org
 |Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 
-##### PowerShell-only meeting join & lobby policies
+**PowerShell-only meeting join & lobby policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
@@ -315,7 +320,7 @@ Meeting policies are used to control what features are available in meetings org
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
 
-##### PowerShell-only meeting engagement policies
+**PowerShell-only meeting engagement policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
@@ -341,7 +346,7 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
 
-##### PowerShell-only content sharing policies
+**PowerShell-only content sharing policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
@@ -368,7 +373,7 @@ Meeting policies are used to control what features are available in meetings org
 |Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
 
-##### PowerShell-only recording & transcription policies
+**PowerShell-only recording & transcription policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
@@ -404,7 +409,7 @@ Meeting policies are used to control what features are available in meetings org
 |Participants can use video effects|All video effects|Controls if participants can customize their camera feed with video background images and filters.|
 |Live streaming|Off|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
 
-##### PowerShell-only audio & video meeting policies
+**PowerShell-only audio & video meeting policies**
 
 | Parameter | Default | Description |
 |:-----|:-----|:-----|
@@ -622,7 +627,7 @@ Calling policies are used to control what calling features are available to peop
 |SIP devices can be used for calls|Off|This setting enables users to use a SIP device to make and receive calls.|
 |Open apps in browser for incoming PSTN calls|Off|This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This setting can be used to pass the phone of an inbound caller to an app to find the associated customer record while the call is taking place.|
 
-#### PowerShell-only calling policies
+**PowerShell-only calling policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
