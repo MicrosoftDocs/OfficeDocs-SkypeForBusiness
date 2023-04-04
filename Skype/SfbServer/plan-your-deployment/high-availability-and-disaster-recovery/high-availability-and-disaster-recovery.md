@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for high availability and disaster recovery in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -48,3 +49,4 @@ This section explains these features, and also covers what steps you can take fo
 [Back End Server high availability in Skype for Business Server](back-end-server.md)
   
 [File sharing high availability in Skype for Business Server](file-sharing.md)
+

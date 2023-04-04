@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Switching between the Skype for Business and the Lync client user interfaces"
 ms.reviewer: 
 ms.author: tonysmit
@@ -281,3 +282,4 @@ You can also verify that the GPO has successfully updated the registry on a user
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
   
+

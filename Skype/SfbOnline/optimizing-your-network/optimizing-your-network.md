@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Optimizing your network"
 ms.author: tonysmit
 author: tonysmit
@@ -144,3 +145,4 @@ To get a clearer picture of a user's audio and video experience use the Skype fo
 ## Related topics
 
 [ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "File sharing high availability in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -26,3 +27,4 @@ Depending on your network's size, and the amount of resiliency you want, you can
 DFS is a best effort file replication mechanism, with no published recovery time objective (RTO) or recovery point objective (RPO) commitment. A failover between DFS servers should be completed quickly, but data replication delay may prevent users from being able to continue work in progress when the failover happens.
   
 If you use DFS and the data store on the fileshare is critical, you should back up the file shares frequently, such as every 4 to 8 hours. When one file share goes down and replication is not up to date, you can use the backup to restore the content on the failed server to the other server that is paired with the server that is now unavailable.
+

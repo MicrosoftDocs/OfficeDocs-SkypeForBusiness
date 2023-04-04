@@ -8,12 +8,14 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 ms.assetid: 
 description: Admin can learn about how to manage Windows Updates and Windows feature updates for Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020

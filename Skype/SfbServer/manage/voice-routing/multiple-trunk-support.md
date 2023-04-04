@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Multiple trunk support in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -29,3 +30,4 @@ The administrator must select a default trunk associated with a Mediation Server
 The following diagram illustrates the multiple trunks that are defined for each Mediation Server and gateway. 
 
 ![Multiple trunk assignments.](../../media/multiple-trunk-assignments.jpg)
+

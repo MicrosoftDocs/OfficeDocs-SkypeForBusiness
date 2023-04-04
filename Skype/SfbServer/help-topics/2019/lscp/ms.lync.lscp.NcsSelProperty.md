@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Assign Properties"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ Use the **Assign Properties** dialog box to specify a description and network si
   
  
   
+
 

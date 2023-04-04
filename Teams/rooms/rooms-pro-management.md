@@ -8,16 +8,18 @@ ms.date: 03/25/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Microsoft Teams Rooms Pro management.
-f1keywords: 
+f1keywords:
 ---
 
 # Microsoft Teams Rooms Pro Management
@@ -55,6 +57,7 @@ Here's an overview of the capabilities of Microsoft Teams Rooms Pro management.
 |**Insights and recommendations**     |Insights into room health, usage, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
 |**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub and MTR Android support coming in 2023*        |
+|**Supported clouds**|All Microsoft clouds except GCC, GCC-High, DoD, and Office 365 operated by 21Vianet.|
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available basic integration with customer-hosted Service Now for incident coordination.         |
 
@@ -71,9 +74,7 @@ The Microsoft Teams Rooms Pro license is available in the following countries/re
 The Microsoft Teams Rooms Pro license is available in the following countries/regions without audio-conferencing:
 
 - Afghanistan, Åland Islands, Albania, Algeria, American Samoa, Andorra, Angola, Anguilla, Antarctica, Antigua & Barbuda, Argentina, Armenia, Aruba, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bonaire, Sint Eustatius and Saba, Bosnia & Herzegovina, Botswana, Bouvet Island, Brazil, British Indian Ocean Territory, British Virgin Islands, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Cayman Islands, Central African Republic, Chad, Chile, China, Christmas Island, Cocos (Keeling) Islands, Colombia, Comoros, Congo, Congo (DRC), Cook Islands, Costa Rica, Côte d’Ivoire, Croatia, Curaçao, Cyprus, Czechia, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, English (French Southern Territories), Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Falkland Islands, Faroe Islands, Fiji, Finland, France, French Guiana, French Polynesia, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Greenland, Grenada, Guadeloupe, Guam, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Heard And Mc Donald Islands, Holy See (Vatican City), Honduras, Hong Kong SAR, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Isle of Man, Israel, Italy, Jamaica, Japan, Jersey, Jordan, Kazakhstan, Kenya, Kiribati, Korea, Kosovo, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macao SAR, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, New Caledonia, New Zealand, Nicaragua, Niger, Nigeria, Niue, Norfolk Island, North Macedonia, Northern Mariana Islands, Norway, Oman, Pakistan, Palau, Palestinian Territory, Occupied, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Pitcairn Islands, Poland, Portugal, Puerto Rico, Qatar, Réunion, Romania, Russia, Rwanda, Samoa, San Marino, São Tomé & Príncipe, Saudi Arabia, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Sint Maarten, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Africa, South Georgia And The South Sandwich Islands, South Sudan, Spain, Sri Lanka, St Helena, Ascension, Tristan da Cunha, St. Barthélemy, St. Kitts & Nevis, St. Lucia, St. Martin, St. Pierre & Miquelon, St. Vincent & Grenadines, Suriname, Svalbard & Jan Mayen, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tokelau, Tonga, Trinidad & Tobago, Tunisia, Turkey, Turkmenistan, Turks & Caicos Islands, Tuvalu, U.S. Outlying Islands, U.S. Virgin Islands, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Wallis & Futuna, Yemen, Zambia, Zimbabwe
-
-The Microsoft Teams Rooms Pro portal is **not** supported in GCC and GCCHigh environments.
-
+   
 ## Data collection
 
 Microsoft Teams Rooms Pro management monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Microsoft Teams Rooms managed service doesn't access the live content of a meeting.
@@ -83,3 +84,4 @@ Data collected is specific to a room account, not an individual user. Incidental
 ## Related topics
 
 - [Microsoft Teams Rooms](https://rooms.microsoft.com)
+
