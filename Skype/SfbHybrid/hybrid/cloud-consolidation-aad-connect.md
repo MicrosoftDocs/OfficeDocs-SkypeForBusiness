@@ -1,8 +1,8 @@
 ---
 ms.date: 11/09/2018
 title: "Update AAD Connect to include more than one forest"
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
