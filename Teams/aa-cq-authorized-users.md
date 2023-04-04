@@ -23,9 +23,10 @@ description: Learn about setting up authorized users and what they can manage fo
 ---
 
 > [!IMPORTANT]
-> The Authorized users feature is currently available as part of a Public Preview.
+> The Voice applications policy and Authorized user configuaration options are available to all customers however the end user features in Teams clint are currently only available as part of a Public Preview.
 > 
 > General availability for all customers is scheduled for the end of April, 2023.
+
 
 # Auto attendant and call queue authorized users
 
@@ -67,7 +68,7 @@ User 2 needs to be able to change auto attendant after hours greetings for *Auto
 1. Assign both User 1 and User 2 as *Authorized users* for *Auto attendant 1*.
 1. Assign User 1 as an *Authorized User* for *Call queue 1*.
 
-Both User 1 and User 2 are now fully authorized users and have new configuration options available to them in their Teams desktop client. For more information, see [Teams client user guide](link is tbd).
+Both User 1 and User 2 are now fully authorized users and will have new configuration options available to them in their Teams desktop client once they logout and log back in.
 
 ## Related articles
 
