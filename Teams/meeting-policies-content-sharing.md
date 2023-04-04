@@ -46,7 +46,7 @@ You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-cst
 
 ## Screen sharing mode
 
-This setting is a per-user policy. This setting controls whether a user can share a desktop and window in a Teams meeting.
+This setting is a per-user policy. The setting controls whether a user can share a desktop and window in a Teams meeting.
 
 |Setting value |Behavior  |
 |---------|---------|
