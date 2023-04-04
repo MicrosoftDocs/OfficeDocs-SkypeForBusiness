@@ -30,21 +30,21 @@ description: Learn how to set up and manage webinar policies in Teams.
 
 ## Overview
 
-Microsoft now offers a new webinar experience; this article describes how to update your settings to use these features.
+Microsoft Teams now offers a new webinar experience; this article describes how to update your settings to use and manage these features.
 
 Previously, to use webinars, you had to enable **both**:
 
-- Meeting registration using the Teams meeting policy parameter “**AllowMeetingRegistration**”,
-- Webinars using the Teams events policy parameter “**AllowWebinars**”.
+- Meeting registration using the Teams meeting policy parameter **`-AllowMeetingRegistration`**,
+- Webinars using the Teams events policy parameter **`-AllowWebinars`**.
 
 Now, we’ve separated meeting registration and webinars.
 
-If you want your users to still have a **webinar** entry point to create webinars, you’ll **only** need to verify that the “**AllowWebinars**” parameter is enabled.
+If you want your users to still have a **webinar** entry point to create webinars, you’ll **only** need to verify that the **`-AllowWebinars`** parameter is still enabled.
 If you currently have webinars turned off, they will remain off as the new experience rolls out.
 
-If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure “AllowWebinars” is disabled and “AllowMeetingRegistration” is enabled. To learn more about the meeting with registration experience, see [Set up meeting registration.](set-up-meeting-registration.md)
+If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled. To learn more about the meeting with registration experience, see [Set up meeting registration.](set-up-meeting-registration.md)
 
-The new webinar experience is configured in PowerShell. For examples on how to set up webinars, see the section [How to set up the new webinar experience.](#set-up-new-webinar-experience)
+Webinars are created and managed in PowerShell. For examples on how to set up webinars, see the section [How to set up the new webinar experience.](#set-up-webinars)
 
 > [!NOTE]
 > For on-premises users, the new webinar experience isn't available yet.
@@ -53,7 +53,7 @@ The new webinar experience is configured in PowerShell. For examples on how to s
 
 ## What’s the difference between a webinar and meeting registration?
 
-Webinars and meetings are both virtual events that allow participants to connect remotely. However, there are some key differences in terms of their purpose, format, and registration process. 
+Webinars and meetings are both virtual events that allow participants to connect remotely. However, there are some key differences in terms of their purpose, format, and registration process.
 A meeting is a collaborative virtual event where participants can discuss and share information with each other. This collaborative format allows up to 20k participants.
 Meeting registration includes basic webinar functionality, an attendance report, and the ability to require registration for meetings.
 
@@ -73,24 +73,24 @@ For more information about the differences between meetings, webinars, and live 
 We offer basic and advanced webinars. Basic webinars are included in your subscription, but advanced webinars are part of the Teams Premium subscription.
 **PLACEHOLDER FOR BASIC VS ADVANCED MATRIX**
 
-## Set up new webinar experience
+## Set up webinars
 
 You must use PowerShell to set up the new webinar experience for your organization. The ability to configure the new webinar experience in the Teams admin center isn't available yet.
 
-To set up the new webinar experience, use the "**AllowWebinars**" attribute within the Windows PowerShell **Set-CsTeamsEventsPolicy** cmdlet.
+To set up the new webinar experience, use the **`-AllowWebinars`** parameter within the Windows PowerShell **CsTeamsEventsPolicy** cmdlet.
 
-The table below shows the behavior of the settings for "**AllowWebinars**":
+The table below shows the behaviors of the settings for the **`-AllowWebinars`** parameter:
 
-|Setting value| Description|
+|Setting value| Behavior|
 |---------|---------------|
 |Enabled| The webinar entry point is available for your users to create webinars. |
 |Disabled| There is no webinar entry point for your users to create webinars.|
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
-### Configure the new webinar experience with PowerShell
+### Create and manage webinars using PowerShell
 
-You can configure the new events policy using the following PowersShell cmdlets:
+You can manage the new events policy using the following PowersShell cmdlets:
 
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
@@ -101,7 +101,7 @@ You can configure the new events policy using the following PowersShell cmdlets:
 1. Create a new webinar experience:
 
     ```powershell
-    Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
+    New-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
     ```
 
 1. Manage who can register for webinars:
