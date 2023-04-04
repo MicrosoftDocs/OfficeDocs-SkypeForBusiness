@@ -12,7 +12,6 @@ ms.subservice: teams-apps
 ms.date: 03/03/2023
 ms.collection: 
   - M365-collaboration
-  - m365-frontline
   - tier2
   - highpri
 f1.keywords:
@@ -44,7 +43,7 @@ The different types of apps that your users can use in Teams are:
 
 Some Teams functionalities such as activity feed, teams, chat, calendar, calls, files, and assignments (education tenants) are available by default and pinned by default for ease of access for users. For frontline workers, only activity, shifts, chat, and calling are available and pinned. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
-:::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
+:::image type="content" source="media/core-apps-pinned1.png" alt-text="Screenshot showing the core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
 ## Apps created by Microsoft
 
@@ -58,7 +57,7 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams' store.":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams store.":::
 
 ## Custom apps created within an organization for internal use
 
@@ -66,7 +65,7 @@ Apps created by developers in your organization are called custom apps (or Line 
 
 After an admin allows the use of custom apps, users can find such apps by selecting **Built for your org** in the left navigation of Teams store.
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams' store in the Teams' desktop app." lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams store in the Teams desktop app." lightbox="media/built-for-your-org2.png":::
 
 For more information, see [Understand and manage custom and sideloaded apps](custom-app-overview.md).
 
@@ -99,27 +98,23 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 ## Understand app capabilities
 
-Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. Apps contain one or more of the following capabilities. All these are different capabilities of Teams apps and admins govern these apps using the common [app governance methods](manage-apps.md).
+Teams app capabilities are the core functionalities that developers build in an app to fulfill various use cases of Teams apps. Admins only govern the apps using the common [app governance methods](manage-apps.md).
 
-<!---
-        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
---->
-
-* **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
+To provide a rich experience that allows users to work inside Teams, apps contain the following capabilities:
 
 * **Tabs**: Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. They're simple HTML `iframe` tags that can be added as part of a channel inside a team, group chat, or personal app for an individual user. For more information, see [Microsoft Teams tabs](/microsoftteams/platform/tabs/what-are-tabs).
 
-* **Webhooks and connectors**: Webhooks and connectors help to connect various web services to channels and teams in Microsoft Teams. Webhooks are user-defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It's a way for an app to get real-time data. Connectors allow users to subscribe to receive notifications and messages from web services. For more information, see [Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+* **Webhooks and connectors**: Webhooks and connectors help to connect various web services to channels and teams in Microsoft Teams. Webhooks are user-defined HTTP callback that notifies users about any action that has taken place in the Teams channel. It's a way for an app to get real-time data. Connectors allow users to receive notifications and messages from web services. For more information, see [Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 
   To allow users to use custom connectors in Teams, see [Use custom connectors in Teams](office-365-custom-connectors.md).
 
 * **Messaging extensions**: Messaging extensions are shortcuts to insert app content or to act on a message without the users having to move away from the conversation. Users can search or initiate actions in an external system from the compose message area, the command box, or directly from a message. For more information, see [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
 
-* **Meeting extensions**: Users can enhance the meeting experience by integrating message extensions within meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+* **Meeting extensions**: Meeting extensions are apps that enhance live meetings and make meetings more productive. You can identify various participant roles and user types, get meeting events, and generate in-meeting dialogs. For more information, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
-<!---
-* **Cards and task modules**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
---->
+* **Bots**: Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can have a conversation with a bot in a personal chat,  channel, or group chat. For more information, see [Bots in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
+
+* **Cards and task modules**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
 
 * **Activity feeds**: Activity Feed in Teams contains a notification of all the activity in various scopes like channels and chats. Apps can broadcast a message to all the members of say a team or a channel to notify of any updates. Users can customize what notifications they view.
 
@@ -127,6 +122,6 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 
 ## Related articles
 
-* [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates).
+* [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates)
 * [Teams app updates and admin role](apps-update-experience.md)
 * [Overview of app management and governance in Teams admin center](manage-apps.md)

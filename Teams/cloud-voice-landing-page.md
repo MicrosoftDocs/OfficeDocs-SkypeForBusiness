@@ -139,7 +139,7 @@ For more information about Cloud Voicemail and its configuration, see the follow
 
 ### Calling identity
 
-By default, all outbound calls use the assigned phone number as calling identity (caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. For information about configuring caller ID or to change or block the caller ID, see [Set the caller ID for a user](set-the-caller-id-for-a-user.md). 
+By default, all outbound calls use the assigned phone number as calling identity (caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. For information about configuring caller ID or to change or block the caller ID, see [Manage caller ID policies for users](caller-id-policies.md). 
 
 ## Public Switched Telephone Network connectivity options
 
