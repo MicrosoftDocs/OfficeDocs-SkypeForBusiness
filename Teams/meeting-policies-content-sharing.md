@@ -54,7 +54,6 @@ This setting is a per-user policy. The setting controls whether a user can share
 |**Single application**   | Application sharing is allowed in the meeting. If your users are using Teams in a web browser and are assigned this value, this setting will function as **Not enabled**.  |
 |**Not enabled**     |Screen sharing and application sharing turned off in the meeting.       |
 
-
 ### PowerPoint Live
 
 This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
