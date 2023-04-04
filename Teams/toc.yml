@@ -120,7 +120,7 @@ items:
         - name: Admin training for Teams
           href: itadmin-readiness.md
         - name: End user training for Teams
-          href: instructor-led-training-teams-landing-page.yml
+          href: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
@@ -275,11 +275,11 @@ items:
     - name: Compliance
       items: 
         - name: Information barriers
-          href: information-barriers-in-teams.md
-        - name: Information barriers and Shared Channels
-          href: information-barriers-shared-channels.md
+          href: /microsoft-365/compliance/information-barriers-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Information barriers and shared channels
+          href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Change information barriers modes with a PowerShell script
-          href: information-barriers-mode-script.md
+          href: /microsoft-365/compliance/information-barriers-teams-powershell-script?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Retention policies
           href: retention-policies.md
         - name: Communication compliance
