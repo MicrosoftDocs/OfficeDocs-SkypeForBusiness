@@ -25,7 +25,7 @@ description: Learn about setting up authorized users and what they can manage fo
 # Auto attendant and call queue authorized users
 
 > [!IMPORTANT]
-> The Voice applications policy and Authorized user configuaration options are available to all customers however the end user features in Teams clint are currently only available as part of a Public Preview.
+> The Voice applications policy and Authorized user configuaration options are available to all customers. However, the end-user features in the Teams client are currently only available as part of a public preview.
 > 
 > General availability for all customers is scheduled for the end of April, 2023.
 
