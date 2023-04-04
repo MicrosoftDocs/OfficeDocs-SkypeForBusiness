@@ -45,7 +45,7 @@ Now, **we’ve separated meeting registration and webinars.**
 
 If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled.
 
-If you want your users to still have a **webinar** entry point to create webinars, you’ll **only** need to verify that the **`-AllowWebinars`** parameter is still enabled.
+If you want your users to still have a **webinar** entry point to create webinars, you’ll need to verify that the **`-AllowWebinars`** parameter is still enabled.
 If you currently have webinars turned off, they will remain off as the new experience rolls out. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
 
 Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
