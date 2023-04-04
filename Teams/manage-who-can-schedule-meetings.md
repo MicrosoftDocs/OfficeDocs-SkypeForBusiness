@@ -1,7 +1,7 @@
 ---
 title: Manage who can start instant meetings and schedule meetings
-author: mkbond007
-ms.author: mabond
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -23,7 +23,7 @@ description: Learn how to use Teams meeting policy settings to control who can s
 
 # Manage who can start instant meetings and schedule meetings
 
-As an admin, you can restrict which users can start instant meetings and schedule meetings in Teams. This can be especially useful for privacy and security reasons, where you may not want particular users setting up meetings.
+As an admin, you can control which users can start instant meetings and schedule meetings in Teams. This can be especially useful for privacy and compliance reasons, where you may not want particular users setting up meetings.
 
 The meeting scheduling policy settings are turned on by default. These settings are per-user policies and they apply before a meeting starts. These settings can be found in the Teams admin center under **Meetings** > **Meeting scheduling**.
 
@@ -40,7 +40,7 @@ You can also use [Microsoft PowerShell](teams-powershell-overview.md) with the [
 
 ## Channel meetings
 
-If you have compliance requirements that mandate only specific people start instant channel meetings and schedule channel meetings, then you can create or update your meeting policy to restrict these settings. You can then create a separate policy attributed to users who you want to start instant channel meetings and schedule channel meetings.
+If you need to restrict the ability to start instant channel meetings and schedule channel meetings to specific people, you can create or update your meeting policy to restrict these settings. You can then create a separate policy attributed to users who you want to start instant channel meetings and schedule channel meetings.
 
 ### Configure channel meetings in the Teams admin center
 
@@ -58,10 +58,11 @@ To restrict who can start and schedule channel meetings, run the following scrip
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetNow $False
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowChannelMeetingScheduling $False
 ```
+Set these to `$True` for policies where you want to allow users to start channel meetings.
 
 ## Private meetings
 
-A meeting is private when it's not published to a channel in a team. If you have compliance requirements that mandate only specific people start instant private meetings and schedule private meetings, then you can create or update your meeting policies to restrict these settings. You can then create a separate policy attributed to users who you want to start instant meetings and schedule private meetings.
+A meeting is private when it's not published to a channel in a team. If you restrict the ability to start instant private meetings and schedule private meetings to specific people, then you can create or update your meeting policies to restrict these settings. You can then create a separate policy attributed to users who you want to start instant meetings and schedule private meetings.
 
 ### Configure private meetings in the Teams admin center
 
@@ -87,11 +88,17 @@ After any of these meeting policy settings are turned off, any user assigned to 
 
 If a meeting policy setting is turned off and then turned on again for a user, all previously scheduled meetings organized by the user become active and people can join them using the meeting join link or by phone.
 
+## Outlook add-in
+
+This setting controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile).
+
+If you turn this setting off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
+
 ## Related topics
 
 - [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Teams policy reference - Meetings](settings-policies-reference.md#meetings)
-- [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
+- [Use the Teams Meeting add-in in Outlook](outlook-add-in-authentication-policy-requirements.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)

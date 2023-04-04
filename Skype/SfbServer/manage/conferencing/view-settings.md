@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "View meeting configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -64,3 +65,4 @@ AllowConferenceRecording        : True
 </pre>
 
 For more information, including a complete list of parameters, see [Get-CsMeetingConfiguration](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).
+

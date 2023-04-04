@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Edge Machine NAT IP"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ If the public IP address of this Edge pool is translated by a network address tr
   
 To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.
   
+
 

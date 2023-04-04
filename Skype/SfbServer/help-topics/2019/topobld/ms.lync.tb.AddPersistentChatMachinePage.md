@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define Computers in Persistent Chat Pool"
 ms.reviewer: 
 ms.author: serdars

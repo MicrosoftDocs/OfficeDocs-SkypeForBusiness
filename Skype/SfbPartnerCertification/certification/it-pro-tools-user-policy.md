@@ -1,4 +1,5 @@
 ---
+ms.date: 06/14/2018
 title: "Skype for Business certification program - User and Policy Provisioning"
 ms.author: serdars
 author: msdmaguire
@@ -34,5 +35,6 @@ User and Policy Provisioning tools certification validates the ability of the to
 
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+
 
 

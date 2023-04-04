@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy high availability and disaster recovery"
 ms.reviewer: 
 ms.author: serdars
@@ -37,3 +38,4 @@ This section tells how to deploy these features, and also covers what steps you 
   
 [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](sql-mirroring-for-high-availability.md)
   
+

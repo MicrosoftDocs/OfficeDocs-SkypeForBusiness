@@ -141,7 +141,7 @@ The following table compares key features between Teams and Teams Premium.
 
 ## Are there current Teams features that will move to Teams Premium?
 
-With the general release of Teams Premium, some Teams features will move from Teams licenses to Teams Premium licenses. Each of these features has a grace period of 30 or 60 days after general availability. When the grace period expires, users will lose access to that feature.
+With the general release of Teams Premium on February 1st, 2023, some Teams features will move from Teams licenses to Teams Premium licenses. Each of these features has a grace period of 30 or 60 days after general availability. When the grace period expires, users will lose access to that feature.
 
 To allow your users to keep using these features, you'll need to purchase and assign Teams Premium licenses.
 
@@ -170,9 +170,10 @@ Before you can purchase Teams Premium licenses for your users, ensure your tenan
 
 The **tenant requirement** is:
 
-- Must be a commercial, worldwide public sector, EDU, or non-profit tenant.
-  - At general release, Microsoft won’t offer an EDU-specific license or EDU discounts for Teams Premium.
-  - GCC, GCC High, and DoD licenses will become available sometime after the general release.
+- Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant at general release.
+   - Teams Premium for GCC became available on March 1st, 2023.
+   - At general release, Microsoft won’t offer an EDU-specific license or EDU discounts for Teams Premium.
+   - GCC High and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
 
@@ -251,4 +252,3 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
-

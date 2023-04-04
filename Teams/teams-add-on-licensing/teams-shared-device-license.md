@@ -30,20 +30,16 @@ Microsoft Teams can support hybrid work scenarios and enable users to work in fl
 
 For information about other Teams add-on licenses, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
-The **Microsoft Teams Shared Devices** license supports:
+The **Microsoft Teams Shared Devices** license includes the following service plans:
 
 - Microsoft Teams
-- Microsoft Teams Phone &sup1;
-- Audio Conferencing &sup2;
+- Microsoft Teams Phone (Previously known as *Phone System*)
+- Audio Conferencing (Common-area phones can join audio conferences via a dial-in number provided by the meeting organizer.)
 - Teams panels
 - Teams displays
-- Microsoft Intune
+- Microsoft Intune (Microsoft Intune Plan 1 and Plan 2)
 - Azure Active Directory Premium Plan 1
-- Exchange Online Plan 2 &sup3;
-
-&sup1; Previously known as *Phone System*. </br>
-&sup2; Common area phones can join audio conferences via a dial-in number provided by the meeting organizer. </br>
-&sup3; Cloud-based voicemail capabilities only.
+- Exchange Online Plan (Cloud-based voicemail capabilities only.)
 
 ## Teams Shared Devices license availability
 
@@ -74,3 +70,4 @@ The following articles will help you set up the various devices that use the **T
 - [Set up common area phones](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams panels](/microsoftteams/devices/teams-panels)
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
+
