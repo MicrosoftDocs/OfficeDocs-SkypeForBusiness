@@ -37,9 +37,12 @@ This Power BI template provides three reports that allow organizations to report
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v307.png) report shows analytics for calls coming into your auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v307.png) report shows analytics for calls coming into your call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v307.png) report shows a timeline view of agents being active in call queue calls.
+- The [Auto Attendant (old)](media/aa-cq-historical-report-sample-aa-v308-orig.png) report shows analytics for calls coming into your auto attendants.
+- The [Auto Attendant (new)](media/aa-cq-historical-report-sample-aa-v308-new.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue (old)](media/aa-cq-historical-report-sample-cq-v308-orig.png) report shows analytics for calls coming into your call queues.
+- The [Call Queue (new)](media/aa-cq-historical-report-sample-cq-v308-new.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline (old)](media/aa-cq-historical-report-sample-at-v308-orig.png) report shows a timeline view of agents being active in call queue calls.
+- The [Agent Timeline (new)](media/aa-cq-historical-report-sample-at-v308-new.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -77,7 +80,7 @@ Perform the following steps:
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v307.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v308.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -678,7 +681,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.0.8    |April XX, 2023     |Teams Auto Attendant & Call Queue Historical Reports V3.0.8 |Added detail call pop-up on Agent Timeline                              |
+|3.0.8    |April XX, 2023     |Teams Auto Attendant & Call Queue Historical Reports V3.0.8 |New templates, added detail call pop-up on Agent Timeline               |
 |3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
 |3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
