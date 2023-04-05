@@ -157,7 +157,7 @@ If you’re an administrator, you can use the following diagnostic tool to valid
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Call Forwarding](https://aka.ms/TeamsCallForwardingDiag)
 
-2. In the Run diagnostic pane, enter the email of the user who is having issues forwarding calls in the **Username or Email** field; enter the phone number (in E.164 format) that the user wants calls to be forwarded to, and then select **Run Tests**.
+2. In the Run diagnostic pane, enter the email of the user who's having issues forwarding calls in the **Username or Email** field. Enter the phone number (in E.164 format) that the user wants calls to be forwarded to and then select **Run Tests**.
 3. The tests will return the best next steps to address any user settings or configurations to validate that the user is properly configured to forward calls to a specific number in Teams.
 
 ## Additional notes
