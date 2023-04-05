@@ -29,18 +29,18 @@ description: Learn how to use and manage voice applications policies for Microso
 > 
 > General availability for all customers is scheduled for the end of April, 2023.
 
-Voice applications policies allow you to create and assign voice application policies to authorized users. Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
+Voice applications policies allow you to create and assign voice applications policies to authorized users. Voice applications policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
 
-Voice applications policies can be managed in the Microsoft Teams admin center:
+Voice applications policies can be managed in the Microsoft Teams admin center.
 
 1. Sign into the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 1. Navigate to **Voice** > **Voice applications policies**.
 
-Alternatively, the [PowerShell cmdlets](#voice-applications-powershell-cmdlets) in this article may also be used.
+Alternatively, the [PowerShell cmdlets](#voice-applications-policy-powershell-cmdlets) in this article may be used.
 
-## Before creating and assigning Voice application policies
+## Before creating and assigning voice applications policies
 
-Before creating and assigning policies, read [Authorized users](aa-cq-authorized-users.md). The [Authorized users](aa-cq-authorized-users.md) article describes how to plan and assign users as authorized users for auto attendants or call queues.
+Before creating and assigning policies, read [Authorized users](aa-cq-authorized-users.md). The [Authorized users](aa-cq-authorized-users.md) article describes how to plan and assign users as authorized users for auto attendants and call queues.
 
 ### Choose the appropriate policy for authorized users
 
@@ -54,7 +54,7 @@ We recommend you create custom policies that reflect the configuration changes y
 
 Changing the global policy or creating a custom policy and assigning to user(s) is only one of two steps required to create authorized users.
 
-In addition to having a *Teams Voice Applications Policy* assigned, users must also be assigned as an [Authorized user](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
+In addition to having a voice applications policy assigned, users must also be assigned as an [Authorized user](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
 
 Having only a policy assigned and not being assigned as an authorized user to at least one auto attendant or call queue won't enable the user to perform the actions described in this article.
 
@@ -94,7 +94,7 @@ You can edit the global policy or any custom policies you create.
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## Voice applications PowerShell cmdlets
+## Voice applications policy PowerShell cmdlets
 
 - [Get-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/get-csteamsvoiceapplicationspolicy):
   - Retrieve Teams voice applications policy information.
@@ -115,25 +115,25 @@ You can edit the global policy or any custom policies you create.
 
 ### Auto attendant configuration
 
-- **Business Hours Greeting**: Turn on this setting to allow authorized users to change the *Business Hours Greeting* for the auto attendants they're authorized for.
+- **Business Hours Greeting**: Turn on this setting to allow authorized users to change the *business hours greeting* for the auto attendants they're authorized for.
 
-- **After Hours Greeting**: Turn on this setting to allow authorized users to change the *After Hours Greeting* for the auto attendants they're authorized for.
+- **After Hours Greeting**: Turn on this setting to allow authorized users to change the *after hours greeting* for the auto attendants they're authorized for.
 
-- **Holiday Greeting**: Turn on this setting to allow authorized users to change the *Holiday Greeting* for the auto attendants they're authorized for.
+- **Holiday Greeting**: Turn on this setting to allow authorized users to change the *holiday greeting* for the auto attendants they're authorized for.
 
 ### Call queue configuration
 
-- **Welcome Greeting**: Turn on this setting to allow authorized users to change the *Welcome Greeting* for the call queues they're authorized for.
+- **Welcome Greeting**: Turn on this setting to allow authorized users to change the *welcome greeting* for the call queues they're authorized for.
 
-- **Music on hold**: Turn on this setting to allow authorized users to change the *Music on hold* for the call queues they're authorized for.
+- **Music on hold**: Turn on this setting to allow authorized users to change the *music on hold* for the call queues they're authorized for.
 
-- **Overflow Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *Overflow Shared Voicemail Greeting* for the call queues they're authorized for.
+- **Overflow Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *overflow shared voicemail greeting* for the call queues they're authorized for.
 
-- **Timeout Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *Timeout Shared Voicemail Greeting* for the call queues they're authorized for.
+- **Timeout Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *timeout shared voicemail greeting* for the call queues they're authorized for.
 
-## Future release Voice applications policy settings
+## Future release voice applications policy settings
 
-The following policy settings are referenced in the [PowerShell cmdlets section](#voice-applications-powershell-cmdlets); however, they aren't generally available at this time and aren't shown in Teams admin center. Currently, changing these policies via the PowerShell won't allow authorized users to perform these functions.  
+The following policy settings are referenced in the [PowerShell cmdlets section](#voice-applications-policy-powershell-cmdlets); however, they aren't generally available at this time and aren't shown in Teams admin center. Currently, changing these policies via PowerShell won't allow authorized users to perform these functions.  
 
 ### Auto attendant configuration
 
