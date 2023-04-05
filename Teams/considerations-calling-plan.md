@@ -58,7 +58,7 @@ Dynamic location for routing emergency calls is supported in Canada the same as 
 
 For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
-### Emergency call routing for Calling Plans
+## Emergency call routing for Calling Plans
 
 When a Teams Calling Plan user dials an emergency number, how the call is routed to the PSAP depends on the following:
 
