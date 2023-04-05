@@ -40,7 +40,7 @@ Alternatively, the [PowerShell cmdlets](#voice-applications-policy-powershell-cm
 
 ## Before creating and assigning voice applications policies
 
-Before creating and assigning policies, read [Authorized users](aa-cq-authorized-users.md). The [Authorized users](aa-cq-authorized-users.md) article describes how to plan and assign users as authorized users for auto attendants and call queues.
+Before creating and assigning policies, read [Set up auto attendant and call queue authorized users](aa-cq-authorized-users.md). The [Set up auto attendant and call queue authorized users](aa-cq-authorized-users.md) article describes how to plan and assign users as authorized users for auto attendants and call queues.
 
 ### Choose the appropriate policy for authorized users
 
