@@ -32,15 +32,23 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 ### Teams settings
 
-**Navigation:** Teams admin center > Teams > Teams settings
+Teams settings are used to control notification, tagging, email integration, and file storage providers.
 
 #### Notifications and feeds
+
+**Navigation:** Teams admin center > Teams > Teams settings
+
+:::image type="content" source="media/teams-settings-notifications-feeds.png" alt-text="Screenshot of Teams notifications and feeds settings.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Suggested feeds can appear in a user's activity feed|On|When **On**, suggested feeds can appear in a user's activity feed.|
 
 #### Tagging
+
+**Navigation:** Teams admin center > Teams > Teams settings
+
+:::image type="content" source="media/teams-settings-tagging.png" alt-text="Screenshot of Teams tagging settings.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -56,12 +64,20 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 #### Email integration
 
+**Navigation:** Teams admin center > Teams > Teams settings
+
+:::image type="content" source="media/teams-settings-email-integration.png" alt-text="Screenshot of Teams email integration settings.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Users can send emails to a channel email address|On|When **On**, users can send emails to a channel email address and the email will appear in the channel.|
 |Accept channel email from these SMTP domains|(none)|Used to limit the domain from which channels can receive emails.|
 
 #### Files
+
+**Navigation:** Teams admin center > Teams > Teams settings
+
+:::image type="content" source="media/teams-settings-files.png" alt-text="Screenshot of Teams cloud storage service files settings.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -77,6 +93,10 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 #### Organization
 
+**Navigation:** Teams admin center > Teams > Teams settings
+
+:::image type="content" source="media/teams-settings-organization.png" alt-text="Screenshot of Teams organization settings.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Show organization tab for users|On|When **On**, users see the **Organization** tab in their personal chat in Teams. The **Organization** tab shows the organizational hierarchy as defined in Azure Active Directory.|
@@ -87,6 +107,10 @@ This reference describes each of the policies available in Microsoft Teams. Each
 
 #### Devices
 
+**Navigation:** Teams admin center > Teams > Teams settings
+
+:::image type="content" source="media/teams-settings-devices.png" alt-text="Screenshot of Teams devices settings.":::
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Require a secondary form of authentication to access meeting content|No access|Skype for Business users require a secondary form of authentication to access meeting content.|
@@ -94,6 +118,10 @@ This reference describes each of the policies available in Microsoft Teams. Each
 |Surface hub accounts can send emails|On|When **On**, Surface Hub accounts can send emails.|
 
 #### Search by name
+
+**Navigation:** Teams admin center > Teams > Teams settings
+
+:::image type="content" source="media/teams-settings-search-by-name.png" alt-text="Screenshot of Teams search by name settings.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -104,6 +132,10 @@ This reference describes each of the policies available in Microsoft Teams. Each
 [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Safety and communications
+
+:::image type="content" source="media/teams-settings-safety-communications.png" alt-text="Screenshot of Teams safety and communications settings.":::
+
+**Navigation:** Teams admin center > Teams > Teams settings
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -184,9 +216,13 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 
 ### Teams upgrade settings
 
-**Navigation:** Teams admin center > Teams > Teams upgrade settings
+Teams upgrade settings let you set up your upgrade experience from Skype for Business to Teams for your users.
 
 #### Coexistence mode
+
+**Navigation:** Teams admin center > Teams > Teams upgrade settings
+
+:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -198,6 +234,10 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 
 #### App preferences
+
+**Navigation:** Teams admin center > Teams > Teams upgrade settings
+
+:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -471,9 +511,13 @@ Use customization policies to customize the look of Teams meetings with your org
 
 ### Meeting settings
 
-**Navigation:** Teams admin center > Meetings > Meeting settings
+Meeting settings allow you to customize meeting email invitations and configure network settings including port ranges for media traffic.
 
 #### Participants
+
+**Navigation:** Teams admin center > Meetings > Meeting settings
+
+:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -485,6 +529,10 @@ Use customization policies to customize the look of Teams meetings with your org
 [Manage anonymous participant access to Teams meetings (IT admins)](anonymous-users-in-meetings.md)
 
 #### Email invitation
+
+**Navigation:** Teams admin center > Meetings > Meeting settings
+
+:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -498,6 +546,10 @@ Use customization policies to customize the look of Teams meetings with your org
 [Manage meeting settings in Microsoft Teams](meeting-settings-in-teams.md)
 
 #### Network
+
+**Navigation:** Teams admin center > Meetings > Meeting settings
+
+:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -539,15 +591,23 @@ Teams live events policies are used to turn on or off features, such as who can 
 
 ### Live event settings
 
-**Navigation:** Teams admin center > Meetings > Live event settings
+Teams live events settings let you control org-wide settings for all live events that are scheduled in your organization.
 
 #### Support URL
+
+**Navigation:** Teams admin center > Meetings > Live event settings
+
+:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Custom support URL|(none)|URL for live event attendees to contact support during a live event.|
 
 #### Video distribution providers
+
+**Navigation:** Teams admin center > Meetings > Live event settings
+
+:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
