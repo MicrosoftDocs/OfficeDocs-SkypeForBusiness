@@ -115,7 +115,10 @@ The following is the recommended minimum VM configuration.
 |---------|---------|---------|
 |vCPU   |    2 cores     |  4, 6, or 8 cores<br>It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.     |
 |RAM     |   4 GB      | 512 MB to 1 GB per user        |
-|Storage    | 8 GB        | 40 GB to 60 GB        |
+|Storage    | 32 GB        | 40 GB to 60 GB        |
+
+> [!NOTE]
+> Microsoft Teams requires 3.0 GB of available disk space.
 
 #### Non-persistent setup
 
