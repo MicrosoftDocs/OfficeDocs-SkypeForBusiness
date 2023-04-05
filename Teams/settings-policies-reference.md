@@ -190,19 +190,23 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Coexistence mode|Teams only||
-|Notify Skype for Business users that an upgrade to Teams is available.|Off||
+|Coexistence mode|Teams only|Determines both routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings.|
+|Notify Skype for Business users that an upgrade to Teams is available.|Off|When **On**, your users will see a yellow banner in their Skype for Business app telling them that they will soon be upgraded to Teams.|
 
+##### Related topics for coexistence mode
+
+[Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 
 #### App preferences
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Preferred app for users to join Skype for Business meetings|Skype for Business||
-|Download the Teams app in the background for Skype for Business users|On||
+|Preferred app for users to join Skype for Business meetings|Skype for Business|Sets the app is used for joining Skype for Business meetings. This setting isn't dependent on the **Coexistence mode** setting.|
+|Download the Teams app in the background for Skype for Business users|On|When **On**, downloads the Teams app in the background for users running the Skype for Business app on Windows PCs. This happens if the Coexistence mode for the user is **Teams Only**, or if a pending upgrade notification is enabled in the Skype for Business app.|
 
+##### Related topics for app preferences
 
-
+[Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Teams apps
 
@@ -469,23 +473,29 @@ Use customization policies to customize the look of Teams meetings with your org
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-
 #### Participants
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Anonymous users can join a meeting|On|This setting will be removed in the future. We recommend leaving this setting **On** and using the the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.|
-|Anonymous users can interact with apps in meetings|On||
+|Anonymous users can interact with apps in meetings|On|When **On**, anonymous participants can interact with apps in Teams meetings as long as the app is enabled in a Teams apps permission policy.|
+
+##### Related topics for participants
+
+[Manage anonymous participant access to Teams meetings (IT admins)](anonymous-users-in-meetings.md)
 
 #### Email invitation
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Logo URL|(none)||
-|Legal URL|(none)||
-|Help URL|(none)||
-|Footer|(none)||
+|Logo URL|(none)|The URL where your organization's logo is stored. Displayed in meeting invites.|
+|Legal URL|(none)|The URL for your organization's legal site. Displayed in meeting invites.|
+|Help URL|(none)|The URL for your organization's help or support site. Displayed in meeting invites.|
+|Footer|(none)|Footer text to be included in meeting invitations. Displayed in meeting invites.|
 
+##### Related topics for email invitation
+
+[Manage meeting settings in Microsoft Teams](meeting-settings-in-teams.md)
 
 #### Network
 
