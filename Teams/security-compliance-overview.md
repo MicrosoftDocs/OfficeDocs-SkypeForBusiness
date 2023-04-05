@@ -151,13 +151,13 @@ Customers can leverage eDiscovery or [eDiscovery (Premium)](/microsoft-365/compl
 |Relevance Searches with Machine Learning    |-         |X         |
 |Unstructured Data Analysis      |-         |X         |
 
-### Information Barriers
+### Information barriers
 
 Microsoft Purview Information Barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level. The Information Barrier feature is available in the public cloud and starting January 2021 it has been rolled out to the GCC cloud.
 
 For further reading on this topic, go to [Information barriers in Microsoft Teams](/microsoft-365/compliance/information-barriers-teams).
 
-### Legal Hold
+### Legal hold
 
 During litigation, you may need all data associated with a user (custodian) or a Team to be preserved as immutable, so that it can be used as evidence for the case. You can do this by placing either a user (user mailbox) or a Team on legal hold. For a team legal hold, the team's mailbox can be put on the following holds:
 
