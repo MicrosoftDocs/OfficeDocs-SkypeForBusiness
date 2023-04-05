@@ -110,7 +110,7 @@ Content search can be used to search for all Teams data through rich filtering c
 > [!TIP]
 > Using content search, you can filter down to Microsoft Teams only content, such as Chat and Channel Messages, Meetings, and Calls, if necessary.
 
-If you'd like further Teams-specific information on configuring content search, review [Content search in Microsoft Teams](microsoft-365/compliance/ediscovery-teams-content-search).
+If you'd like further Teams-specific information on configuring content search, review [Content search in Microsoft Teams](/microsoft-365/compliance/ediscovery-teams-content-search).
 
 ### Customer Key
 
