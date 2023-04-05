@@ -129,7 +129,7 @@ For more information about message encryption, see [Define mail flow rules to en
 
 ## Diagnosing issues with Voicemail
 
-If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to use voicemail in Teams 
+If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to use voicemail in Teams:
 
 1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
 
