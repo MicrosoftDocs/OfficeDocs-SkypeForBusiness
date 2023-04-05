@@ -60,17 +60,17 @@ Because Teams works in partnership with SharePoint, OneNote, Exchange, and more,
 
 Microsoft Defender for Office 365 is available for Microsoft Teams, along with SharePoint and OneDrive, applications that integrate with Teams for content management. Defender for Office 365 allows you to determine if content in these applications is malicious in nature, and block this content from user access.
 
-How the affected content is managed after detection is up to the settings you've selected in Microsoft 365 or Office 365. We strongly recommend you consider all applications when it comes to configuring Defender for Office 365, and for further reading, [an overview of how safe links works, and steps to set it up are here](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide) for detailed information to get started.
+How the affected content is managed after detection is up to the settings you've selected in Microsoft 365 or Office 365. We strongly recommend you consider all applications when it comes to configuring Defender for Office 365, and for further reading, [an overview of how safe links works, and steps to set it up are here](/microsoft-365/security/office-365-security/safe-links) for detailed information to get started.
 
 ### Safe Links in Microsoft Teams
 
-Defender for Office 365 safe links are available in Microsoft Teams. To get more information on what safe links are and what to do with this feature, read [safe Links settings for Teams](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide). Safe links is available in both [Defender for Office 365 Plan 1 and Plan 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide).
+Defender for Office 365 safe links are available in Microsoft Teams. To get more information on what safe links are and what to do with this feature, read [safe Links settings for Teams](/microsoft-365/security/office-365-security/safe-links). Safe links is available in both [Defender for Office 365 Plan 1 and Plan 2](/microsoft-365/security/office-365-security/overview).
 
 ### Safe Attachments
 
-Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators [turn the feature on](/microsoft-365/security/office-365-security/turn-on-mdo-for-spo-odb-and-teams?view=o365-worldwide) and [create policies](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon.
+Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators [turn the feature on](/microsoft-365/security/office-365-security/turn-on-mdo-for-spo-odb-and-teams) and [create policies](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon.
 
-Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 in [Microsoft Defender for Office 365 Plan 1 and Plan 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide). Read more about Safe Attachments and how they can help protect your organization in [this article](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide).
+Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 in [Microsoft Defender for Office 365 Plan 1 and Plan 2](/microsoft-365/security/office-365-security/overview). Read more about Safe Attachments and how they can help protect your organization in [this article](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies).
 
 ### Secure Score
 
