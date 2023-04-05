@@ -39,8 +39,8 @@ Previously, to use webinars, you had to enable **both**:
 
 Now, we’ve separated meeting registration and webinars.
 
-If you want your users to still have a **webinar** entry point to create webinars, you’ll **only** need to verify that the **`-AllowWebinars`** parameter is still enabled.
-If you currently have webinars turned off, they will remain off as the new experience rolls out.
+If you want your users to still have a **webinar** entry point to create webinars, you need to verify that the **`-AllowWebinars`** parameter is still enabled.
+If you currently have webinars turned off, they'll remain off as the new experience rolls out.
 
 If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled. To learn more about the meeting with registration experience, see [Set up meeting registration.](set-up-meeting-registration.md)
 
@@ -57,11 +57,11 @@ Webinars and meetings are both virtual events that allow participants to connect
 A meeting is a collaborative virtual event where participants can discuss and share information with each other. This collaborative format allows up to 20k participants.
 Meeting registration includes basic webinar functionality, an attendance report, and the ability to require registration for meetings.
 
-A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides additional control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars have the capacity for up to 1,000 people to attend and allows for collection of pre-event attendee registration data.
+A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars have the capacity for up to 1,000 people to attend and allows for collection of pre-event attendee registration data.
 
-In terms of registration, webinar attendees typically are required to register in advance to reserve their spot. With meetings, attendees can join the meeting without any pre-reservation, but for instances where an organizer wants registration, this is where you'd enable meeting registration.
+In terms of registration, webinar attendees typically are required to register in advance to reserve their spot. With meetings, attendees can join the meeting without any prior reservation, but for instances where an organizer wants registration, you'd enable meeting registration.
 
-The entry points your end users will use to set up a webinar vs meeting registration are in separate places.
+The entry points your end users use to set up a webinar vs meeting registration are in separate places.
 **THINKING OF ADDING SCREENSHOTS HERE TO SHOW ENTRY POINTS**
 
 To learn more about the end user experience, see [Get Started with Teams webinars](/office/manage-webinar-registration) and [Schedule a Teams meeting with registration.](/office/schedule-a-teams-meeting-with-registration)
@@ -79,18 +79,18 @@ You must use PowerShell to set up the new webinar experience for your organizati
 
 To set up the new webinar experience, use the **`-AllowWebinars`** parameter within the Windows PowerShell **CsTeamsEventsPolicy** cmdlet.
 
-The table below shows the behaviors of the settings for the **`-AllowWebinars`** parameter:
+The following table shows the behaviors of the settings for the **`-AllowWebinars`** parameter:
 
 |Setting value| Behavior|
 |---------|---------------|
 |Enabled| The webinar entry point is available for your users to create webinars. |
-|Disabled| There is no webinar entry point for your users to create webinars.|
+|Disabled| There's no webinar entry point for your users to create webinars.|
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 ### Create and manage webinars using PowerShell
 
-You can manage the new events policy using the following PowersShell cmdlets:
+You can manage the new events policy using the following PowerShell cmdlets:
 
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
@@ -135,7 +135,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 
 The attendance report policy setting controls whether organizers can see reports of who registered and attended the webinars they've set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
 
-If **Who is in the report** is set to **Everyone, but users can opt-out** or **No one, but users can opt-in**, users will be able to toggle on or off **Identify me in attendance reports** within their Teams settings.
+If **Who is in the report** is set to **Everyone, but users can opt-out** or **No one, but users can opt-in**, users can toggle on or off **Identify me in attendance reports** within their Teams settings.
 
 To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
