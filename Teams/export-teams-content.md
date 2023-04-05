@@ -85,9 +85,18 @@ Export API supports Security and Compliance (S+C) and general usage scenarios th
 
 Restricted to applications performing security and/or compliance functions, users must have specific E5 licenses to use this functionality and receive seeded capacity. Seeded capacity is per user and is calculated per month and is aggregated at the tenant level. For usage beyond the seeded capacity, app owners are billed for API consumption. Model A can only access messages from users with an assigned E5 license.
 
+|Partner Name|Partner Solution|
+|---|---|
+|![logo-of-smarsh](image) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
+
 ### General usage/Model B scenarios
 
 Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
+
+|Partner Name|Partner Solution|
+|---|---|
+|![logo-of-rubrik](image) |[Microsoft Teams backup and recovery](https://www.rubrik.com/solutions/microsoft-365) |
+|![logo-of-veeam](image) |[Microsoft Teams backup and recovery](https://www.veeam.com/blog/microsoft-teams-backup-office-365-v5.html) |
 
 ### Evaluation Mode (default)
 
