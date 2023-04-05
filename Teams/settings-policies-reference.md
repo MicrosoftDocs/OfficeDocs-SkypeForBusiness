@@ -1,17 +1,15 @@
 ---
-title: Teams policies reference
+title: Teams settings and policies reference
 author: mkbond007
 ms.author: mabond
 manager: serdars
 ms.reviewer: 
-ms.date: 03/28/2023
+ms.date: 04/05/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-  - M365-collaboration
-  - m365initiative-securecollab
   - Tier1
 f1.keywords: 
   - NOCSH
@@ -19,10 +17,10 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: This reference describes each of the policies available in Microsoft Teams.
+description: This reference describes each of the settings and policies available in Microsoft Teams.
 ---
 
-# Teams policies reference
+# Teams settings and policies reference
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
@@ -317,7 +315,7 @@ Meeting policies are used to control what features are available in meetings org
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
 |Attendance report|Everyone, unless organizers opt-out|This setting allows meeting organizers the ability to see the toggle that turns on or off Attendance Reports within Meeting options.|
-|Who is in the report|Everyone, but participants can opt-out|This setting controls whether participants in the meeting can opt in or out of offering their attendance information in the Attendance Report.|
+|Who is in the report|Everyone, but participants can opt out|This setting controls whether participants in the meeting can opt in or out of offering their attendance information in the Attendance Report.|
 |Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant.|
 
 ##### Related topics for meeting scheduling
