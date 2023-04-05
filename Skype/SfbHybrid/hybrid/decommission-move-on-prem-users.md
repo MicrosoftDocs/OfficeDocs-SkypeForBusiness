@@ -1,8 +1,8 @@
 ---
 ms.date: 04/03/2021
 title: Move users to the cloud
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
