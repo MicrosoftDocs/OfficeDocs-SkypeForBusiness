@@ -501,13 +501,15 @@ Use customization policies to customize the look of Teams meetings with your org
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Insert Quality of Service (QoS) markers for real-time media traffic|Off||
-|Select a port range for each type of real-time media traffic|Specify port ranges||
-|Audio|Starting port: 50000 / Ending port: 50019||
-|Video|Starting port: 50020 / Ending port: 50039||
-|Screen sharing|Starting port: 50040 / Ending port: 50059||
+|Insert Quality of Service (QoS) markers for real-time media traffic|Off|When **On**, all real-time media traffic for meetings will be marked so that the network packets can be prioritized.|
+|Select a port range for each type of real-time media traffic|Specify port ranges|Allows you to specify port ranges for different types of media traffic or automatically use available ports.|
+|Audio|Starting port: 50000 / Ending port: 50019|Start and end ports for audio traffic. (Only available when **Select a port range for each type of real-time media traffic** is set to **Specify port ranges**)|
+|Video|Starting port: 50020 / Ending port: 50039|Start and end ports for video traffic. (Only available when **Select a port range for each type of real-time media traffic** is set to **Specify port ranges**)|
+|Screen sharing|Starting port: 50040 / Ending port: 50059|Start and end ports for screen sharing traffic. (Only available when **Select a port range for each type of real-time media traffic** is set to **Specify port ranges**)|
 
+##### Related topics for network
 
+[Implement Quality of Service (QoS) in Microsoft Teams](qos-in-teams.md)
 
 ### Live events policies
 
@@ -543,16 +545,21 @@ Teams live events policies are used to turn on or off features, such as who can 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Custom support URL|(none)||
+|Custom support URL|(none)|URL for live event attendees to contact support during a live event.|
 
 #### Video distribution providers
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Video distribution provider|Off||
-|SDN provider name|(none)||
+|Video distribution provider|Off|When **On**, you can select a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution.|
+|SDN provider name|(none)|The SDN provider that you want to use for live events.|
 
+> [!NOTE]
+> Additional fields may be available depending on the selected SDN provider.
 
+##### Related topics for live events settings
+
+[Configure live event settings in Microsoft Teams](/microsoftteams/teams-live-events/configure-teams-live-events)
 
 ### Meeting template policies
 
