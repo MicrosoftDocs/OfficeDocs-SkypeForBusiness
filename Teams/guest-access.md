@@ -86,16 +86,16 @@ Guests are subject to  [Microsoft 365 or Office 365](/office365/servicedescripti
 > [!NOTE]
 > Converting a guest account into an Azure AD member account or converting an Azure AD member account into a guest is not supported by Teams.
 
-# Diagnose issues with Guest Access
+## Diagnosing issues with Guest Access
 
-To troubleshoot issues with inviting Guest Users in Teams, administrators can run a diagnostic tool in the Microsoft 365 admin center to validate that Guest Access is correctly configured for use in Microsoft Teams. 
+To troubleshoot issues with inviting guest users in Teams, administrators can run a diagnostic tool in the Microsoft 365 admin center to validate that guest access is correctly configured for use in Microsoft Teams. 
 
 1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Guest Access](https://aka.ms/TeamsGuestAccessDiag)
 
-2. The test result will indicate whether the tenant is configured correctly for Guest Access. If the tenant isn't configured correctly, the diagnostic will provide information on next steps that you can use to address issues with tenant or policy configurations.
+2. The test result will tell you if the tenant is configured correctly for Guest Access. If the tenant isn't configured correctly, the diagnostic will provide information on what steps to take to address issues with tenant or policy configurations.
 
 ## Tracking guests in your organization
 
