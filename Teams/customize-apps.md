@@ -156,7 +156,7 @@ The limitations on some of the customizable fields are below:
 
 ## Reset app details to default values
 
-You can reset the app details to the original values provided by the app developer. The option is only available for app that you customize.
+You can reset your customizations to the original values provided by the app developer. The option is only available for the apps that you customize.
 
 1. In Teams admin center, access **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
