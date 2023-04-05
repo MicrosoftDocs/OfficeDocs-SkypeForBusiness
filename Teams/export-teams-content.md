@@ -87,7 +87,7 @@ Restricted to applications performing security and/or compliance functions, user
 
 |Partner Name|Partner Solution|
 |---|---|
-|![logo-of-smarsh](image) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
+|![logo-of-smarsh](media/smarsh-logo.png) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
 
 ### General usage/Model B scenarios
 
@@ -95,8 +95,8 @@ Available for all non-S+C related scenarios, there are no license requirements o
 
 |Partner Name|Partner Solution|
 |---|---|
-|![logo-of-rubrik](image) |[Microsoft Teams backup and recovery](https://www.rubrik.com/solutions/microsoft-365) |
-|![logo-of-veeam](image) |[Microsoft Teams backup and recovery](https://www.veeam.com/blog/microsoft-teams-backup-office-365-v5.html) |
+|![logo-of-rubrik](media/rubrik.png) |[Microsoft Teams backup and recovery](https://www.rubrik.com/solutions/microsoft-365) |
+|![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/blog/microsoft-teams-backup-office-365-v5.html) |
 
 ### Evaluation Mode (default)
 
