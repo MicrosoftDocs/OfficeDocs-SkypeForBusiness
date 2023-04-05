@@ -99,7 +99,7 @@ Teams has a wide range of information to help you with compliance areas, includi
 
 Microsoft Purview Information Barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level. The Information Barrier feature is available in the public cloud and starting January 2021 it has been rolled out to the GCC cloud.
 
-For further reading on this topic, go to [Information barriers in Microsoft Teams](information-barriers-in-teams.md).
+For further reading on this topic, go to [Information barriers in Microsoft Teams](/microsoft-365/compliance/information-barriers-teams).
 
 ### Communication compliance
 
@@ -143,7 +143,7 @@ For more details about how to use eDiscovery tools in the Microsoft Purview comp
 
 - [Content search](/microsoft-365/compliance/search-for-content)
 
-We have a Teams-specific article for more information at [Conduct an eDiscovery investigation of content in Microsoft Teams](eDiscovery-investigation.md).
+We have a Teams-specific article for more information at [Conduct an eDiscovery investigation of content in Microsoft Teams](/microsoft-365/compliance/ediscovery-teams-investigation).
 
 Customers can leverage eDiscovery or [eDiscovery (Premium)](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
 
@@ -167,7 +167,7 @@ During litigation, you may need all data associated with a user (custodian) or a
 
 In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
 
-Please see [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](legal-hold.md) for you to learn more.
+Please see [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](/microsoft-365/compliance/ediscovery-teams-legal-hold) for you to learn more.
 
 ### Content search
 
@@ -176,11 +176,11 @@ Content search can be used to search for all Teams data through rich filtering c
 > [!TIP]
 > Using content search, you can filter down to Microsoft Teams only content, such as Chat and Channel Messages, Meetings, and Calls, if necessary.
 
-If you'd like further Teams-specific information on configuring content search, review [Content search in Microsoft Teams](content-search.md).
+If you'd like further Teams-specific information on configuring content search, review [Content search in Microsoft Teams](microsoft-365/compliance/ediscovery-teams-content-search).
 
 ### Auditing
 
-Audit log search plugs right into the Microsoft Purview compliance portal and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft Purview compliance portal, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
+Audit log search plugs right into the Microsoft Purview compliance portal and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft Purview compliance portal, see [Search the audit log for events in Microsoft Teams](/microsoft/365/compliance/audit-teams-audit-log-events).
 
 ## Privacy
 
@@ -194,13 +194,11 @@ At Microsoft, protecting your data is our highest priority. To learn about our p
 
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages.
 
-> [!div class="mx-imgBorder"]
-> ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 The following figure indicates the ingestion flow of Teams Meetings and calling data to Exchange.
 
-> [!div class="mx-imgBorder"]
-> ![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > There can be up to a 24-hour delay to discover Teams content.
@@ -220,8 +218,7 @@ Data in Teams resides in the geographic region associated with your Microsoft 36
 
 If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Data location table including Teams in the admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Screenshot of Data location table including Teams in the admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## Compliance standards
 
