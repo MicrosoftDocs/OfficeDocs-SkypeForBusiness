@@ -64,16 +64,14 @@ Before setting up meeting registration in Teams meetings, check to make sure you
 
 ## Who can register for meetings
 
-The Teams admin center setting **"Who can register"** and PowerShell parameter **`-WhoCanRegister`** control which users can register for meetings. This setting has two options, which are only available if **Meeting registration** is turned on. By default, **Who can register** is set to **Everyone**.
-
-If you select **Everyone**, all users, including anonymous users, can register for meetings. If you select **People in my organization**, only users in your organization can register for meetings. If meeting registration is turned off, the **Who can register** setting won't be available, and no one can register for meetings.
+The Teams admin center setting **"Who can register"** and PowerShell parameter **`-WhoCanRegister`** control which users can register for meetings. This setting's two options are only available if **Meeting registration** is turned **on**. If **Meeting registration** is turned **off**, no one can register for meetings.
 
 The table below shows the behaviors of the settings for **"Who can register"** in the admin center and PowerShell :
 
 |Setting value| Behavior|
 |---------|---------------|
 |Everyone| **This is the default setting.** All users, including anonymous users, can register for meetings.|
-|**"People in my organization"** in the admin center or **"EveryoneInCompany"** in PowerShell| No one can register for meetings. **For ***education tenants***, this is the default setting.**|
+|**"People in my organization"** in the admin center or **"EveryoneInCompany"** in PowerShell| No one can register for meetings. **For ***education tenants*** only, this is the default setting.**|
 
 For more information, on **Who can register** for education tenants, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
@@ -94,7 +92,7 @@ Follow these steps in the Teams admin center to turn on meeting registration:
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Meeting Policies**.
-4. Either select an existing policy or create a new one
+4. Either select an existing policy or create a new one.
 5. Within your chosen policy, navigate to the **Meeting scheduling** section.
 6. Toggle the **"Meeting Registration"** setting from **Off** to **On** to turn on meeting registration.
 7. Select **Save** to enable meeting registration.
@@ -119,8 +117,8 @@ The table below shows the behaviors of the settings for **`-AllowMeetingRegistra
 
 |Setting value| Behavior|
 |---------|---------------|
-|True| The "require registration" entry point is available for your users to create meeting registration. |
-|False| There is no "require registration" entry point for your users to meeting registration.|
+|True| The "require registration" entry point **is available** for your users to create meeting registration. |
+|False| There is **no** "require registration" entry point for your users to meeting registration.|
 
 You can manage meeting registration using the following PowersShell cmdlets:
 
@@ -145,13 +143,13 @@ Turn on meeting registration for an existing policy.
 - Allow ***only*** users in your organization to register for meetings
 
   ```powershell
-  Set-CsTeamsMeetingPolicy-Identity <policy name> -WhoCanRegister EveryoneInCompany
+  Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister EveryoneInCompany
   ```
 
 - Allow ***everyone, including anonymous users***, to register for webinars and meetings
 
   ```powershell
-  Set-CsTeamsMeetingPolicy-Identity <policy name> -WhoCanRegister Everyone
+  Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister Everyone
   ```
 
 > [!IMPORTANT]
@@ -190,7 +188,7 @@ The table below shows the behavior of the settings for "**`-AllowEngagementRepor
 |Setting value| Behavior|
 |---------|---------------|
 |Everyone, unless organizers opt out| **This is the default setting.** Meeting organizers control whether attendance reports are on or off for a meeting. |
-|No one| Meeting organizers can't view or download attendance reports for a meeting they have organized.|
+|No one| Meeting organizers can't view or download attendance reports for a meeting they've organized.|
 |Everyone| Meeting organizers can't turn off attendance reports for meetings they create. The attendance report will be available for them.|
 
 For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
@@ -206,7 +204,7 @@ The table below shows the behavior of the settings for "**Who is in the attendan
 |Setting value| Behavior|
 |---------|---------------|
 |Everyone, but participants can opt out| **This is the default setting.** The attendance report will initially include all participants, but participants can opt-out. Participants can toggle **Identify me in attendance reports** on or off within their Teams settings. |
-|No one, but participants can opt in| TThe attendance report will initially exclude all participants, but participants can opt-in. Participants can toggle **Identify me in attendance reports** on or off within their Teams settings.|
+|No one, but participants can opt in| The attendance report will initially exclude all participants, but participants can opt-in. Participants can toggle **Identify me in attendance reports** on or off within their Teams settings.|
 |Everyone| The attendance report will include all participants, and participants can't opt-out.|
 |No one| The attendance report will exclude all participants, and participants can't opt-in.|
 
