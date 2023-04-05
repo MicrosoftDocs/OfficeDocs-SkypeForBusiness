@@ -222,7 +222,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 **Navigation:** Teams admin center > Teams > Teams upgrade settings
 
-:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
+:::image type="content" source="media/teams-upgrade-settings-coexistence-mode.png" alt-text="Screenshot of Teams upgrade coexistence mode settings.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -237,7 +237,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 **Navigation:** Teams admin center > Teams > Teams upgrade settings
 
-:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
+:::image type="content" source="media/teams-upgrade-settings-app-preferences.png" alt-text="Screenshot of Teams upgrade app preferences.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -517,7 +517,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
+:::image type="content" source="media/teams-meeting-settings-participants.png" alt-text="Screenshot of Teams meeting settings for anonymous participants.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -532,7 +532,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
+:::image type="content" source="media/teams-meeting-settings-email-invitation.png" alt-text="Screenshot of Teams meeting settings for email invitations.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -549,7 +549,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
+:::image type="content" source="media/teams-meeting-settings-network.png" alt-text="Screenshot of Teams meeting settings for network.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -597,7 +597,7 @@ Teams live events settings let you control org-wide settings for all live events
 
 **Navigation:** Teams admin center > Meetings > Live event settings
 
-:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
+:::image type="content" source="media/teams-live-events-settings-support-url.png" alt-text="Screenshot of Teams live event support URL setting.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -607,7 +607,7 @@ Teams live events settings let you control org-wide settings for all live events
 
 **Navigation:** Teams admin center > Meetings > Live event settings
 
-:::image type="content" source="media/.png" alt-text="Screenshot of Teams .":::
+:::image type="content" source="media/teams-live-events-settings-video-distribution-providers.png" alt-text="Screenshot of Teams live event settings for video distribution providers.":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
