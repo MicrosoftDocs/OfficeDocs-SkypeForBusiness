@@ -24,26 +24,26 @@ ms.collection:
 description: Learn how to set up and manage meeting registration policies in Teams.
 ---
 
-# Set up meeting registration in Microsoft Teams meetings
+# Set up a meeting with registration in Microsoft Teams meetings
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 ## Overview
 
-This article describes how to set up and manage meeting registration for Microsoft Teams meetings.
+This article describes how to set up and manage a meeting with registration for Microsoft Teams meetings.
 
-Meeting registration is a virtual meeting where organizers can require registration from participants. This meeting format includes basic webinar functionality, the ability to require registration for meetings, and an attendance report.
+A meeting with registration is a virtual meeting where organizers can require registration from participants. This meeting format includes basic webinar functionality, the ability to require registration for meetings, and an attendance report.
 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
-Previously, the parameters for webinars and meeting registration were grouped together, so for the webinar experience, you had to enable **both**:
+Previously, the parameters for webinars and meetings with registration were grouped together, so for the webinar experience, you had to enable **both**:
 
-- Meeting registration using the Teams meeting policy parameter **`-AllowMeetingRegistration`**,
+- Meeting with registration using the Teams meeting policy parameter **`-AllowMeetingRegistration`**,
 - Webinars using the Teams events policy parameter **`-AllowWebinars`**
 
 Now, **we’ve separated meeting registration and webinars.**
 
-If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled.
+If you want your users to **only** use **meeting registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled.
 
 If you want your users to still have a **webinar** entry point to create webinars, you need to verify that the **`-AllowWebinars`** parameter is still enabled.
 If you currently have webinars turned off, they'll remain off as the new experience rolls out. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
@@ -57,9 +57,9 @@ Read more about the new features available for your end users in [Get started wi
 
 ## Prerequisites
 
-Before setting up meeting registration in Teams meetings, check to make sure you have the following items:
+Before setting up meeting with registration in Teams meetings, check to make sure you have the following items:
 
-- The **Private meeting scheduling** setting must be on for meeting registration to work. To read more on private meeting scheduling, see [Configure private meeting scheduling](manage-who-can-schedule-meetings.md#private-meetings). For students in education tenants, the private meeting scheduling policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
+- The **Private meeting scheduling** setting must be on for meeting with registration to work. To read more on private meeting scheduling, see [Configure private meeting scheduling](manage-who-can-schedule-meetings.md#private-meetings). For students in education tenants, the private meeting scheduling policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
 - If you'd like to manage who can register for meetings, you must first [turn on meeting registration.](#set-up-and-manage-meeting-registration)
 
 ## Who can register for meetings
