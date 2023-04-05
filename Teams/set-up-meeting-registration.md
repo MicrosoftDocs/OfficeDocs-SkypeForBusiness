@@ -30,9 +30,9 @@ description: Learn how to set up and manage meeting registration policies in Tea
 
 ## Overview
 
-This article describes how to set up and manage meeting registration for Microsoft teams meetings.
+This article describes how to set up and manage meeting registration for Microsoft Teams meetings.
 
-Meeting registration is a virtual meeting where registration organizers can require registration from participants. This meeting format includes includes basic webinar functionality, the ability to require registration for meetings, and an attendance report.
+Meeting registration is a virtual meeting where organizers can require registration from participants. This meeting format includes basic webinar functionality, the ability to require registration for meetings, and an attendance report.
 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
