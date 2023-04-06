@@ -22,7 +22,7 @@ ms.localizationpriority: high
 
 Some Teams apps require purchasing a service subscription to use app functionality. These service subscriptions are called Software as a Service (SaaS) offers. A license is available for purchase through [AppSource](https://appsource.microsoft.com/) and through the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
-Paid apps require users to authenticate to prevent unwarranted access. Also, user signin is required to check for entitlement and to make the corresponding app functionality available for the logged in user. For authentication, app developers can use single sign-on (SSO) using Azure Active Directory or use third-party OAuth Identity Provider. The authentication mechanism is similar for Teams or web apps. For more information, see [How apps authenticate users](/microsoftteams/platform/concepts/authentication/authentication).
+Paid apps require users to authenticate to prevent unwarranted access. Also, user sign in is required to check for entitlement and to make the corresponding app functionality available for the logged in user. For authentication, app developers can use single sign-on (SSO) using Azure Active Directory or use third-party OAuth Identity Provider. The authentication mechanism is similar for Teams or web apps. For more information, see [How apps authenticate users](/microsoftteams/platform/concepts/authentication/authentication).
 
 You can purchase licenses for services offered by third-party apps from the Manage apps page in the Teams admin center. The **Licenses** column in the table indicates if an app offers a SaaS subscription for purchase. You can purchase apps using a credit card, debit card, or with invoice billing.
 
@@ -65,7 +65,7 @@ After you've purchased the SaaS offer associated with the Teams app, you can vie
 
 Select **Manage subscriptions** to view and manage the licenses you purchased.
 
-Global admins can view the subscriptions purchased by anyone in the organization, but they can only add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in their billing account. Teams service admins can perform the same actions for purchases made by themselves.
+Global Administrators can view the subscriptions purchased by anyone in the organization, but they can only add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in their billing account. Teams Administrators can perform the same actions for purchases made by them.
 
 > [!NOTE]
 > If a Global Admin wants to manage a subscription purchased by another Global Admin, they need to be in the same billing account. You can give another Global Admin access to a subscription you purchased by selecting the app in the [Microsoft 365 admin center](https://admin.microsoft.com). In admin center, access **View billing profile** > **Select billing account** > **Assign roles** > **Add other Global admins**.
@@ -137,7 +137,7 @@ You can assign a license to one or more users in your tenant. To view and assign
 
 ### Assign license to a team
 
-To manage licenses across multiple users who are part of the same team, you can select a team from the list of available options. The number of members in the a team must be smaller than the number of licenses available for the app. To assign a license to a team, follow these steps:
+To manage licenses across multiple users who are part of the same team, you can select a team from the list of available options. The number of members in a team must be smaller than the number of licenses available for the app. To assign a license to a team, follow these steps:
 
 1. Sign in to the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
