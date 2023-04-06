@@ -274,36 +274,36 @@ items:
           href: block-access-sharepoint.md
     - name: Compliance
       items: 
-        - name: Information barriers
-          href: /microsoft-365/compliance/information-barriers-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Information barriers and shared channels
-          href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Auditing
+          href: /microsoft-365/compliance/audit-teams-audit-log-events?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Change information barriers modes with a PowerShell script
           href: /microsoft-365/compliance/information-barriers-teams-powershell-script?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Retention policies
-          href: retention-policies.md
         - name: Communication compliance
           href: communication-compliance.md
-        - name: Policy-based recording for callings & meetings
-          href: teams-recording-policy.md
-        - name: Sensitivity labels
-          href: sensitivity-labels.md
+        - name: Content search
+          href: /microsoft-365/compliance/ediscovery-teams-content-search?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Customer Key
+          href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Data Loss Prevention
           href: /microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: eDiscovery investigations for Teams content
           href: /microsoft-365/compliance/ediscovery-teams-investigation?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Legal hold
-          href: legal-hold.md
-        - name: Content search
-          href: content-search.md
-        - name: Teams workflow in eDiscovery (Premium)
-          href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
-        - name: Auditing
-          href: /microsoft-365/compliance/audit-teams-audit-log-events?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Customer Key
-          href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Export API for Teams content
           href: export-teams-content.md
+        - name: Information barriers
+          href: /microsoft-365/compliance/information-barriers-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Information barriers and shared channels
+          href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Legal hold
+          href: /microsoft-365/compliance/ediscovery-teams-legal-hold?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Policy-based recording for callings & meetings
+          href: teams-recording-policy.md
+        - name: Retention policies
+          href: retention-policies.md        
+        - name: Sensitivity labels
+          href: sensitivity-labels.md    
+        - name: Teams workflow in eDiscovery (Premium)
+          href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery         
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
@@ -636,8 +636,6 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
-            - name: Set up avatars for Teams
-              href: meeting-avatars.md
         - name: Standardized meetings
           items: 
             - name: Custom meeting backgrounds
@@ -915,6 +913,10 @@ items:
               href: create-a-phone-system-auto-attendant.md
             - name: Set up call queues
               href: create-a-phone-system-call-queue.md
+            - name: Set up authorized users
+              href: aa-cq-authorized-users.md
+            - name: Manage voice applications policies
+              href: manage-voice-applications-policies.md
             - name: Manage Teams resource accounts
               href: manage-resource-accounts.md
             - name: Set up holidays
@@ -1578,6 +1580,8 @@ items:
       items:
         - name: Manage the Admin app
           href: manage-admin-app.md
+        - name: Manage the avatars app
+          href: meeting-avatars.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1598,7 +1602,6 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-          
     - name: Manage third-party apps
       items:
         - name: Understand third-party apps
