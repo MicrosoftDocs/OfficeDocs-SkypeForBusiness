@@ -117,10 +117,10 @@ As an administrator, it's important to understand how licenses work and how to m
 
 You can perform the following tasks to manage the licenses:
 
-* **[Assign license to users](#assign-license-to-a-user)** to assign an app subscription license to an individual or multiple users.
-* **[Assign license to a team](#assign-license-to-a-team)** when you need to assign an app subscription license to a team.
+* **[Assign license to users](#assign-a-license-to-a-user)** to assign an app subscription license to an individual or multiple users.
+* **[Assign license to a team](#assign-a-license-to-a-team)** when you need to assign an app subscription license to a team.
 
-### Assign license to a user
+### Assign a license to a user
 
 You can assign a license to one or more users in your tenant. To view and assign the licenses for an app:
 
@@ -135,9 +135,9 @@ You can assign a license to one or more users in your tenant. To view and assign
 
 1. Search and select the users and select **Assign**.
 
-### Assign license to a team
+### Assign a license to a team
 
-To manage licenses across multiple users who are part of the same team, you can select a team from the list of available options. The number of members in a team must be smaller than the number of licenses available for the app. To assign a license to a team, follow these steps:
+To manage licenses across multiple users who are part of the same team, you can select a team from the list of available options. The number of members in the team must be smaller than the number of licenses available for the app. To assign a license to a team, follow these steps:
 
 1. Sign in to the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
@@ -156,6 +156,6 @@ After you have assigned licenses to the users or team, you can view the list of 
 ## Related articles
 
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-* [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer)
+* [Create a SaaS offer](/partner-center/marketplace/create-new-saas-offer)
 * [Azure Active Directory built-in roles](/azure/active-directory/roles/permissions-reference)
 * [Understand how apps authenticate users](/microsoftteams/platform/concepts/authentication/authentication)
