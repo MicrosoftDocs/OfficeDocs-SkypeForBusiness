@@ -4,13 +4,14 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: roykuntz; jens
-ms.date: 07/18/2019
+ms.date: 03/14/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-voice
+  - Tier1
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.callinglineid.overview
@@ -44,23 +45,19 @@ With settings turned off, the Teams user's phone number is visible when that use
 
 - **Block outbound caller ID:** Block the outgoing caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called. This means that the call is seen as coming from Anonymous.
 
-
 > [!NOTE]
 > Emergency calls will always send the user's telephone number (caller ID).
-
-To learn more about these settings and how you can use them, see [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
 
 ## Set up and manage caller ID policies
 
 You can configure caller ID policies by using the Teams admin center or by using PowerShell.
 
   > [!NOTE]
-  > Using the service number calling ID substitute will be deprecated. Use Resource account substitution instead. 
+  > Using the service number calling ID substitute will be deprecated. Use Resource account substitution instead.
 
 ### Use the Teams admin center
 
 You can manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
-
 
 #### Create a custom caller ID policy
 
@@ -75,8 +72,8 @@ You can manage caller ID policies by going to **Voice** > **Caller ID policies**
       - **Service number:** Display the service number. (Note: this option will be deprecated.)
       - **Anonymous:** Display the caller ID as Anonymous.
       - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.
-    
-    The option you choose determines next steps. If you choose **Service number** or **Resource account**, you are prompted to specify a service number or a resource account, respectively.
+
+    If you choose **Service number** or **Resource account**, you are prompted to specify a service number or a resource account for the next field. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it may take a few minutes before the resource account is available for selection
 
 5. Select **Save**.
 
@@ -94,14 +91,13 @@ You can edit the global policy or any custom policies that you create.
 
 ### Use PowerShell
 
-You can manage caller ID policies by using the following PowerShell cmdlets in Teams PowerShell module 2.3.1 or later: 
+You can manage caller ID policies by using the following PowerShell cmdlets in Teams PowerShell module 2.3.1 or later:
 
 - [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
 - [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
 - [Remove-CsCallingLineIdentity](/powershell/module/skype/remove-cscallinglineidentity)
 - [Get-CsCallingLineIdentity](/powershell/module/skype/get-cscallinglineidentity)
 - [Grant-CsCallingLineIdentity](/powershell/module/skype/grant-cscallinglineidentity)
-
 
 #### New custom caller ID policy
 
@@ -148,6 +144,6 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Ano
 ## Related topics
 
 - [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
-- [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
-- [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
+- [Teams policies reference - Caller ID](settings-policies-reference.md#caller-id-policies)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
+- [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
