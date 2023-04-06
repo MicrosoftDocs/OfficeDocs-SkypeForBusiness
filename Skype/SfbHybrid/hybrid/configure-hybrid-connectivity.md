@@ -1,8 +1,8 @@
 ---
 ms.date: 03/17/2018
-title: Configure hybrid connectivity | Deploy Skype for Business Server 2019 connect
-ms.author: crowe
-author: CarolynRowe
+title: Configure hybrid connectivity 
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
