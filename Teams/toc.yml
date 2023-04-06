@@ -636,8 +636,6 @@ items:
               href: view-only-meeting-experience.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
-            - name: Set up avatars for Teams
-              href: meeting-avatars.md
         - name: Standardized meetings
           items: 
             - name: Custom meeting backgrounds
@@ -1582,6 +1580,8 @@ items:
       items:
         - name: Manage the Admin app
           href: manage-admin-app.md
+        - name: Manage the avatars app
+          href: meeting-avatars.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1602,7 +1602,6 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-          
     - name: Manage third-party apps
       items:
         - name: Understand third-party apps
