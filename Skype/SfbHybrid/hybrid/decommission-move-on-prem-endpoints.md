@@ -1,8 +1,8 @@
 ---
 ms.date: 04/03/2021
 title: Migrate hybrid application endpoints to the cloud
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
@@ -17,7 +17,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: "Migrate hyrid application endpoints before decommissioning a Skype for Business on-premises environment."
+description: "Migrate hyoid application endpoints before decommissioning a Skype for Business on-premises environment."
 
 ---
 
@@ -38,7 +38,7 @@ This article describes how to move required hybrid application endpoints to the 
 
 ## Migrate all required hybrid application endpoints from on-premises to online
 
-Before you can move these endpoints to online, you must ensure you have updated DNS records to point to Microsoft 365 for all sip domains used by the endpoints. Be aware that once you update DNS to point to Microsoft 365, any existing hybrid application endpoints will no longer be discoverable until you complete this step. Since this step (creating online Resource Accounts) is not possible if DNS records point to on-premises you should plan to do both steps 2 and 3 in the same maintenance window. For more information, see [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
+Before you can move these endpoints to online, you must ensure you have updated DNS records to point to Microsoft 365 for all sip domains used by the endpoints. After you update DNS to point to Microsoft 365, any existing hybrid application endpoints will no longer be discoverable until you complete this step. Since this step (creating online Resource Accounts) is not possible if DNS records point to on-premises you should plan to do both steps 2 and 3 in the same maintenance window. For more information, see [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
 1. Retrieve and export on-premises hybrid application endpoint settings by executing the following on-premises Skype for Business Server PowerShell command:
 
