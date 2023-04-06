@@ -1143,8 +1143,6 @@ items:
           href: manage-emergency-calling-policies.md
         - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
-    - name: Voice policies reference
-      href: settings-policies-reference.md#voice
     - name: Contoso voice migration case study
       items: 
         - name: Overview
@@ -1164,6 +1162,8 @@ items:
   
     - name: Reference
       items: 
+        - name: Voice policies reference
+          href: settings-policies-reference.md#voice
         - name: Country phone number management
           items: 
             - name: Phone number management for Australia
