@@ -43,8 +43,8 @@ To purchase apps in Teams admin center, follow these steps:
 
 1. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow opens directly in the Teams admin center.
 
-> [!NOTE]
-> Private plans may also be listed for purchase, which include special pricing that your organization can separately negotiate with an app developer. Such plans have the label **Private plan** under the plan name.
+   > [!NOTE]
+   > Private plans may also be listed for purchase, which include special pricing that your organization can separately negotiate with an app developer. Such plans have the label **Private plan** under the plan name.
 
 1. Select the number of user licenses you want to buy.
 
@@ -90,7 +90,7 @@ In Teams admins center, you can manage the app subscriptions and licenses you pu
 * Cancel a subscription
 * View your invoice
 
-  :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Screenshot of subscription details of an app." lightbox="media/manage-existing-subscriptions-all.png":::
+:::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Screenshot of subscription details of an app." lightbox="media/manage-existing-subscriptions-all.png":::
 
 To manage subscriptions, follow these steps:
 
@@ -127,11 +127,11 @@ You can assign a license to one or more users in your tenant. To view and assign
 1. Sign in to the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Select the app of your choice to view the licenses. The app details page shows the number of licenses available for the app on the **Licenses** tab.
 
-    :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app."  lightbox="media/purchased-licenses1.png":::
+   :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app."  lightbox="media/purchased-licenses1.png":::
 
 1. To view the license utilization and assign licenses, select **Assign licenses**. The assign licenses window appears.
 
-    :::image type="content" source="media/assign-licenses.png" alt-text="Screenshot that shows the Assign licenses dialog to select the user name."  lightbox="media/assign-licenses1.png":::
+   :::image type="content" source="media/assign-licenses.png" alt-text="Screenshot that shows the Assign licenses dialog to select the user name."  lightbox="media/assign-licenses1.png":::
 
 1. Search and select the users and select **Assign**.
 
@@ -145,7 +145,7 @@ To manage licenses across multiple users who are part of the same team, you can 
 
 1. In the **Licenses** tab, select **Assign licenses**.
 
-    :::image type="content" source="media/assign-licenses-group.png" alt-text="Screenshot that shows the Assign licenses dialog with the list of teams to assign license." lightbox="media/assign-licenses-group1.png":::
+   :::image type="content" source="media/assign-licenses-group.png" alt-text="Screenshot that shows the Assign licenses dialog with the list of teams to assign license." lightbox="media/assign-licenses-group1.png":::
 
 1. Search and select the team, and select **Assign**.
 
