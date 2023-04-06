@@ -82,9 +82,9 @@ Emergency call routing determines how an emergency call is routed to the Public 
 
 Security desk notification is available with both Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
-During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification. If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
+You use a Teams emergency calling policy ([TeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
 
-An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
+An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
 - If an emergency calling policy is associated with a network site, then the site policy is used to configure security desk notification.
 
@@ -92,48 +92,11 @@ An emergency calling policy can be granted to a Teams user account, assigned to 
 
 - If the Teams client is unable to obtain an emergency calling policy, then the user is not enabled for security desk notification.
 
-To enable security desk notification features in the Teams admin center, do the following:
-
-1. In the Teams admin center, select **Voice** > **Emergency policies**.
-1. Under the **Calling policies** section, either create a new policy or choose an existing policy to update.
-1. Once you have selected a policy, the **Emergency calling policy** pane will open. You can update the following settings:
-
-    - Name
-    - Description
-    - External location lookup mode
-    - Notification mode
-    - Emergency service disclaimer ([see below](#create-a-custom-emergency-service-disclaimer))
-    - Numbers to dial for emergency calls notifications
-    - Users and groups for emergency calls notifications
-  
-1. Hit **Apply** once you're done.
-
-Using Microsoft PowerShell, you use the TeamsEmergencyCallingPolicy ([Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute.
-
-To create a security desk notification to select groups and users that are conferenced in and muted but with the ability to unmute, run this script:
-
-```powershell
-Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationMode ConferenceUnMuted -NotificationGroup "group1@contoso.com;group2@contoso.com;user1@contoso.com;user2@contoso.com"
-```
-
-You can also specify an external PSTN number of a user or group to call and join the emergency call with the `-NotificationDialOutNumber` parameter and [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy) cmdlet. Note that the PSTN party is not allowed to unmute.
+During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification. If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
 
 ## Create a custom emergency service disclaimer
 
-Administrators have the ability to add a custom banner in the tenant for their users to enable E911. Users can dismiss the banner when they confirm their address, and the banner will reappear when Teams is restarted.
-
-To create a custom emergency service disclaimer in the Teams admin center, do the following:
-
-1. In the Teams admin center, select **Voice** > **Emergency policies**.
-1. Under the **Calling policies** section, either create a new policy or choose an existing policy to update.
-1. Once you have selected a policy, the **Emergency calling policy** pane will open. For  **Emergency service disclaimer**, enter a string message to be displayed to users. This field is optional when setting up a custom policy; the string field is limited to 250 characters.
-1. Hit **Apply** once you're done.
-
-To create this custom emergency disclaimer with PowerShell, run the following script:
-
-```powershell
-Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -EnhancedEmergencyServiceDisclaimer "Emergency test acknowledgement"
-```
+Administrators have the ability to add a custom banner in the tenant for their users to enable E911. Users can dismiss the banner when they confirm their address, and the banner will reappear when Teams is restarted. To enable this feature, you would set the Emergency service disclaimer under the Teams emergency calling policy and enter a string message to be displayed to users. This field is optional when setting up a custom policy, and the string field is limited to 250 characters. Read more on [how to manage emergency calling policies](manage-emergency-calling-policies.md).
 
 ## Considerations for PSTN connectivity options
 
@@ -150,7 +113,7 @@ For your specific PSTN connectivity setup, read the following considerations for
 
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
 - [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
-- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
-- [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
+- [Manage an emergency location for your organization](add-change-remove-emergency-location-organization.md)
+- [Assign an emergency location for your user](assign-change-emergency-location-user.md)
 - [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
 - [Teams policies reference - Emergency policies](settings-policies-reference.md#emergency-policies)
