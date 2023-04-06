@@ -44,7 +44,7 @@ For example, an app setup policy can allow you to enable users to upload custom 
 
 :::image type="content" source="media/app-setup-policy-small.png" alt-text="Screenshot of app setup policy." lightbox="media/app-setup-policy.png":::
 
-Additionally, a meeting policy can be used to control audio and video settings in Teams meetings such as transcriptions, meeting recordings, and IP audio/video.
+Each policy has multiple controls which you can use to choose the options you want to use for your organization. For example, meeting policies allow you to specify meeting scheduling options for the people in your organization.
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot of meeting policy." lightbox="media/engineering-meeting-policy.png":::
 
