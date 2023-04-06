@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
-ms.date: 03/07/2023
+ms.date: 04/06/2023
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -32,13 +32,9 @@ description: "Learn about concepts for managing emergency calling, including inf
 
 # Manage emergency calling
 
-This article describes concepts you'll need to know to manage emergency calling&mdash;it introduces information about emergency addresses, dynamic emergency calling, and emergency call routing.
+This article describes concepts you'll need to know to manage emergency calling&mdash;it introduces information about [emergency addresses](#emergency-address), [dynamic emergency calling](#dynamic-emergency-calling), and [emergency call routing](#emergency-call-routing).
 
-- [Emergency address](#emergency-address)
-- [Dynamic emergency calling](#dynamic-emergency-calling)
-- [Emergency call routing](#emergency-call-routing)
-
-Be aware that how you configure emergency calling will differ depending on your PSTN connectivity option. If you need help deciding which Microsoft voice solution is right for you, read [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Public Switched Telephone Network (PSTN) connectivity options](pstn-connectivity.md) first.  
+Be aware that how you configure emergency calling will differ depending on your Public Switched Telephone Network (PSTN) connectivity option. If you need help deciding which Microsoft voice solution is right for you, read [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md) first.  
 
 ## Emergency address
 
