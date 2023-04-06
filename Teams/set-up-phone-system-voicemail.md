@@ -127,6 +127,18 @@ The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in
 
 For more information about message encryption, see [Define mail flow rules to encrypt email messages](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 
+## Diagnosing issues with Voicemail
+
+If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to use voicemail in Teams:
+
+1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Voicemail](https://aka.ms/TeamsVoicemailDiag)
+
+2. In the Run diagnostic pane, enter the email of the user who is having issues receiving voicemail in the **Username or Email** field, and then select **Run Tests**.
+3. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to receive voicemail in Teams.
+
 ## Help your users learn about Cloud Voicemail features
 
 To help your users learn about how to use and manage Cloud Voicemail features, you can recommend the following articles:
