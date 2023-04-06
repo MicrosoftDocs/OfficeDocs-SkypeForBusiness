@@ -519,7 +519,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Anonymous users can join a meeting|On|This setting will be removed in the future. We recommend leaving this setting **On** and using the the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.|
+|Anonymous users can join a meeting|On|This setting will be removed in the future. We recommend leaving this setting **On** and using the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.|
 |Anonymous users can interact with apps in meetings|On|When **On**, anonymous participants can interact with apps in Teams meetings as long as the app is enabled in a Teams apps permission policy.|
 
 ##### Related topics for participants
@@ -725,7 +725,7 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 ##### Related topics for call hold policies
 
-- [How to setup Music on hold](music-on-hold.md).
+- [How to setup Music on hold](music-on-hold.md)
 - [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy)
 
 ### Call park policies
