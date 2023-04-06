@@ -123,6 +123,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   </ExtendedFoRDisplay>  
   <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
   <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
+  <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience>
+  <RemoveFoRCalendar>true</RemoveFoRCalendar>
 </SkypeSettings>
 ```
 
@@ -197,6 +199,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<Whiteboard>` | Boolean &#x2777; |  | Controls whiteboard configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the whiteboard will be active when a meeting starts. For the best experience, we recommend that the Teams Rooms device be set to `false` and that you use the whiteboard on a Surface Hub.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the whiteboard on or off. If you don't want participants to turn the whiteboard on or off on a device, set this to `false`.<p> If **Whiteboard default** is set to `true`, the **Whiteboard enabled** setting is ignored and participants can turn the whiteboard on or off.</li></ul> |
 | `<EnableDeviceEndToEndEncryption>` | Boolean &#x2777; |  | Default is `false`. Specify `true` to enable end-to-end encryption for one-to-one Teams calls. Both caller and recipient need to have end-to-end encryption enabled for this to work. |
 | `<SplitVideoLayoutsDisabled>` | Boolean &#x2777; |  | Default is `false`. This setting is only applicable to dual-display rooms. Specify `true` to disable splitting video gallery across both screens. This will also disable Front row layout, and any settings associated with Front row layout. |
+| `<TeamsRoomsNewExperience>` | Boolean &#x2777; |  | Default is `false`. This setting enables the refreshed home screen design. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md). |
+| `<RemoveFoRCalendar>` | Boolean &#x2777; |  | Default is `false`. This setting hides the calendar on your front-of-room display. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md). |
 
 &#x2776; All of the first-level elements are optional. If a first-level element is omitted, all of its child parameters remain unchanged on the device.
   
