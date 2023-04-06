@@ -109,25 +109,22 @@ Developers can create SaaS offers associated with their Teams apps. These offers
 
 For more information for third-party app developers, see [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer).
 
-## Admin experience for license management in Teams
+## Manage app licenses in Teams admin center
 
-Microsoft Teams offer a license management solution for SaaS offers built by Independent Software Vendors (ISVs), enabling customers to easily assign, use, and track SaaS licenses purchased in Teams and Teams admin center. This solution also provides ISVs with a ready-to-use solution, saving them the cost of developing their own license management and enforcement system.
+Microsoft Teams lets admins manage licenses for SaaS app offers thereby enabling admins to easily buy, assign, track, and remove SaaS app licenses purchased in Teams. It helps utilizing the available resources effectively.
 
 As an administrator, it's important to understand how licenses work and how to manage them effectively. For apps that are purchased with a set number of subscription licenses, you have to ensure that these licenses are being utilized properly.
 
-You can perform the following tasks as part of license management:
+You can perform the following tasks to manage the licenses:
 
-* **Assign license to users** when you need to assign an app subscription license to an individual or multiple users.
-* **Assign license to a team** when you need to assign an app subscription license to a team.
+* **[Assign license to users](#assign-license-to-a-user)** to assign an app subscription license to an individual or multiple users.
+* **[Assign license to a team](#assign-license-to-a-team)** when you need to assign an app subscription license to a team.
 
 ### Assign license to a user
 
-Based on the requirements, it's possible to assign a license to one or multiple users within your tenant.
+You can assign a license to one or more users in your tenant. To view and assign the licenses for an app:
 
-To view and assign the licenses for an app:
-
-1. Select **Teams apps** > **[Manage Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.  
-
+1. Sign in to the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Select the app of your choice to view the licenses. The app details page shows the number of licenses available for the app on the **Licenses** tab.
 
     :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app."  lightbox="media/purchased-licenses1.png":::
@@ -136,38 +133,25 @@ To view and assign the licenses for an app:
 
     :::image type="content" source="media/assign-licenses.png" alt-text="Screenshot that shows the Assign licenses dialog to select the user name."  lightbox="media/assign-licenses1.png":::
 
-1. Search and select the user(s).
-
-1. Select **Assign**. The license is assigned to the user(s).
+1. Search and select the users and select **Assign**.
 
 ### Assign license to a team
 
-You can select an entire team from the list of available options. This can be a quick and efficient way to manage licenses across multiple users of the same team.
+To manage licenses across multiple users who are part of the same team, you can select a team from the list of available options. The number of members in the a team must be smaller than the number of licenses available for the app. To assign a license to a team, follow these steps:
 
-To assign a license to a team:
-
-1. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Sign in to the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Under **All apps**, select the app to assign its licenses to a team.
 
-1. Under the **Licenses** tab, select **Assign licenses**.
+1. In the **Licenses** tab, select **Assign licenses**.
 
-    :::image type="content" source="media/assign-licenses-group.png" alt-text="Screenshot that shows the Assign licenses dialog with the list of Teams to assign license."  lightbox="media/assign-licenses-group1.png":::
+    :::image type="content" source="media/assign-licenses-group.png" alt-text="Screenshot that shows the Assign licenses dialog with the list of teams to assign license." lightbox="media/assign-licenses-group1.png":::
 
-1. Search and select the team.
-
-1. Select **Assign**. The license is assigned to the team.
-
-> [!NOTE]
-> The team size should be smaller than the number of licenses available for the app.
+1. Search and select the team, and select **Assign**.
 
 After you have assigned licenses to the users or team, you can view the list of assigned users. This list allows you to view who has been assigned licenses and which licenses are assigned.
 
 :::image type="content" source="media/remove-licenses.png" alt-text="Screenshot that shows list of assigned users to remove the licenses." lightbox="media/remove-licenses1.png":::
-
-In addition, Teams admin center lets you to remove licenses assigned to the users and teams. This helps you to streamline license management by ensuring that licenses are only assigned to users who need them.
-
-By understanding how to manage licenses, you can ensure that your team is utilizing the available resources effectively.
 
 ## Related articles
 
