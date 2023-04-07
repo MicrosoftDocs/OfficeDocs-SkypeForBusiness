@@ -61,8 +61,6 @@ After you've purchased the SaaS offer associated with the Teams app, you can vie
 * **License activation date**: Date on which your license was activated.
 * **Licenses**: Number of licenses you purchased.
 
-  :::image type="content" source="media/manage-apps-plans-and-subscription.png" alt-text="Screenshot of Plans and pricing tab on the app details page in Teams admin center." lightbox="media/purchase-third-party-apps-details-page.png":::
-
 Select **Manage subscriptions** to view and manage the licenses you purchased.
 
 Global Administrators can view the subscriptions purchased by anyone in the organization, but they can only add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in their billing account. Teams Administrators can perform the same actions for purchases made by them.
