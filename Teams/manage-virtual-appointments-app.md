@@ -18,6 +18,7 @@ ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help
   - M365-collaboration
+  - m365-frontline
   - teams-1p-app-admin
   - highpri
 appliesto: 
