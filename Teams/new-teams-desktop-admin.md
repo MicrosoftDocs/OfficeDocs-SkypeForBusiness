@@ -331,7 +331,6 @@ As we improve the client, the experience has been improved to align with similar
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
-|Uploading content to a DocLib folder|No need to select a folder, just upload directly to SharePoint. If you want to organize your uploads into a specific folder, go to the channel tab and move the file as needed.|
 |Allow users to follow a user's presence and then notify them of availability|No longer available|
 |Activity tab in chat| No longer available|
 

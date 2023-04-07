@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
-ms.date: 09/28/2022
+ms.date: 04/07/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -34,6 +34,17 @@ For each option in the template, you can define the following:
 - **Default value** - This is the value that is applied to a meeting when the template is used.
 - **Visible** - This determines if the meeting organizer can see this setting in the meeting options. 
 - **Lock status** - This determines if the meeting organizer can change the setting that was set by the template. If the setting is locked, the meeting organizer can't change it.
+
+## Video demonstration
+
+Watch this video for a walkthrough of the procedures described in this article.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW11u1o]
+
+## Create a custom meeting template
+
+Use this procedure to create a custom meeting template in the Teams admin center.
 
 To create a custom meeting template
 
