@@ -1620,7 +1620,7 @@ items:
           href: overview-of-app-validation.md
         - name: Know about security, compliance, and privacy of apps
           href: overview-of-app-certification.md
-        - name: Purchase and manage app subscriptions
+        - name: Purchase app subscriptions and manage licenses
           href: purchase-third-party-apps.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
