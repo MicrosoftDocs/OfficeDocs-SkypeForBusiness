@@ -25,12 +25,12 @@ description: IT admins - Learn to turn speaker coach on or off for Teams meeting
 
 # Speaker Coach
 
-This setting lets users turn on Speaker Coach during a Teams meeting. Speaker Coach processes the audio of the user while they present, and of all unmuted participants during the meeting and provides private real-time feedback and suggestions for improvement. The user also gets a summary report of the feedback after the meeting.
+This setting lets users turn on Speaker Coach during a Teams meeting. Speaker Coach processes the audio of the user while they present, and of all unmuted participants during the meeting and provides private real-time feedback and suggestions for improvement. The user who turned on the Speaker Coach also gets a summary report of the feedback after the meeting.
 
 > [!NOTE]
-> The user who turned on Speaker Coach during the meeting is the only one who can see the summary report of feedback. Administrators won't have access to any of this data.
+> Only the user can view the summary report of feedback. Administrators won't have access to any of this data.
 
-You can only set and edit this policy in PowerShell by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+You can only set and edit this policy in PowerShell by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, you can create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
 This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to **False**.
 
