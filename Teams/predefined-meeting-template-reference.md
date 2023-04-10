@@ -28,14 +28,6 @@ The following predefined meeting templates are included with Teams Premium
 
 <!---
 Template
-
-
---->
-
-
-
-## Virtual appointment
-
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
 |***Security***||||
@@ -51,6 +43,41 @@ Template
 |***Recording and transcription***||||
 |Record meetings automatically||||
 |Who can record meetings||||
+|***Roles***||||
+|Notify when callers join and leave||||
+|***Meeting engagement***||||
+|Allow meeting chat||||
+|Allow reactions||||
+|Enable Q&A||||
+|Manage what attendees see||||
+--->
+
+
+
+## Virtual appointment
+
+|Option|Default value|Visibility|Lock status|
+|:-----|:------------|:---------|:----------|
+|***Security***|None|Visible|Unlocked|
+|Apply sensitivity label|Everyone|Visible|Unlocked|
+|Lobby|Off|Visible|Unlocked|
+|People calling in by phone can bypass the lobby|Off|Visible|Unlocked|
+|Enable meeting end-to-end encryption|Off|Visible|Unlocked|
+|Enable watermark for screenshare|Off|Visible|Unlocked|
+|Enable watermark for video|Off|Visible|Unlocked|
+|***Audio and video***||||
+|Enable mic for attendees|On|Visible|Unlocked|
+|Enable camera for attendees|On|Visible|Unlocked|
+|***Recording and transcription***||||
+|Record meetings automatically|Off|Visible|Unlocked|
+|Who can record meetings|Only organizers and co-organizers|Visible|Unlocked|
+|***Roles***||||
+|Notify when callers join and leave|Off|Visible|Unlocked|
+|***Meeting engagement***||||
+|Allow meeting chat|On during the meeting only|Visible|Unlocked|
+|Allow reactions|Off|Visible|Unlocked|
+|Enable Q&A|Off|Visible|Unlocked|
+|Manage what attendees see|Off|Visible|Unlocked|
 
 
 #### Security
