@@ -1381,10 +1381,12 @@ items:
           href: rooms/index.md
         - name: Plan
           items: 
-            - name: Overview of Microsoft Teams Rooms planning
+            - name: Teams Rooms planning
               href: rooms/rooms-plan.md
             - name: Requirements
               href: rooms/requirements.md
+            - name: Windows version support
+              href: rooms/rooms-lifecycle-support.md
             - name: Licensing
               items:
                 - name: Overview of Teams Rooms licensing
@@ -1401,10 +1403,8 @@ items:
               href: rooms/security-windows.md
             - name: Android security
               href: rooms/security-android.md
-            - name: Azure Monitor
+            - name: Plan Azure Monitor
               href: rooms/azure-monitor-plan.md
-            - name: Version support
-              href: rooms/rooms-lifecycle-support.md
             - name: Release notes
               href: rooms/rooms-release-note.md
         - name: Deploy
@@ -1415,8 +1415,6 @@ items:
               href: rooms/rooms-prep.md
             - name: Create resource accounts 
               href: rooms/with-office-365.md
-            - name: Configure a console
-              href: rooms/console.md
             - name: Authentication
               items:
               - name: Configure authentication
@@ -1427,38 +1425,46 @@ items:
                 href: rooms/supported-ca-and-compliance-policies.md
             - name: Manually update a device
               href: rooms/manual-update.md
-            - name: Management with Azure Monitor
+            - name: Deploy Azure Monitor
               href: rooms/azure-monitor-deploy.md
-            - name: Content cameras
-              href: rooms/content-camera.md
-            - name: Voice recognition controls for Intelligent speakers
-              href: rooms/voice-recognition.md
             - name: Surface Hub
               items: 
                 - name: Set up Coordinated Meetings
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
+            - name: Peripherals
+              items:
+                - name: Content cameras
+                  href: rooms/content-camera.md
+                - name: Voice recognition controls for Intelligent speakers
+                  href: rooms/voice-recognition.md
+            - name: Legacy
+              items:
+                - name: Configure a custom-built console
+                  href: rooms/console.md
         - name: Manage
           items: 
             - name: Management overview
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
-            - name: Enable home screen refresh
-              href: rooms/mtr-home-refresh.md
-            - name: Remotely configure front row layout
-              href: rooms/manage-front-row.md
-            - name: Remotely configure layout, scale, and resolution
-              href: rooms/manage-front-room-scale-res.md
-            - name: Join third-party meetings
-              href: rooms/third-party-join.md
+            - name: Feature management
+              items:
+                - name: Manage settings with an XML file
+                  href: rooms/xml-config-file.md              
+                - name: Enable home screen refresh
+                  href: rooms/mtr-home-refresh.md
+                - name: Remotely configure front row layout
+                  href: rooms/manage-front-row.md
+                - name: Remotely configure layout, scale, and resolution
+                  href: rooms/manage-front-room-scale-res.md
+                - name: Join third-party meetings
+                  href: rooms/third-party-join.md
             - name: Known issues
               href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
             - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
-            - name: Manage settings with an XML file
-              href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
             - name: Find devices with unsupported licenses
