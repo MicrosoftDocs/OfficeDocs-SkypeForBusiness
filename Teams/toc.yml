@@ -1385,8 +1385,6 @@ items:
               href: rooms/rooms-plan.md
             - name: Requirements
               href: rooms/requirements.md
-            - name: Windows version support
-              href: rooms/rooms-lifecycle-support.md
             - name: Licensing
               items:
                 - name: Overview of Teams Rooms licensing
@@ -1397,12 +1395,16 @@ items:
                   href: rooms/rooms-legacy-licensing.md
             - name: Meeting room guidance for Teams
               href: rooms/room-planning-guidance.md
-            - name: Teams Rooms Windows and Android comparison
-              href: rooms/teams-devices-feature-comparison.md
-            - name: Windows security
-              href: rooms/security-windows.md
-            - name: Android security
-              href: rooms/security-android.md
+            - name: Hardware and operating systems
+              items:
+                - name: Windows version support
+                  href: rooms/rooms-lifecycle-support.md
+                - name: Teams Rooms Windows and Android comparison
+                  href: rooms/teams-devices-feature-comparison.md
+                - name: Windows security
+                  href: rooms/security-windows.md
+                - name: Android security
+                  href: rooms/security-android.md
             - name: Plan Azure Monitor
               href: rooms/azure-monitor-plan.md
             - name: Release notes
@@ -1461,14 +1463,14 @@ items:
                   href: rooms/manage-front-room-scale-res.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
-            - name: Known issues
-              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
             - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
-            - name: Use the recovery tool
-              href: rooms/recovery-tool.md
             - name: Find devices with unsupported licenses
               href: rooms/license-check.md
+            - name: Use the recovery tool
+              href: rooms/recovery-tool.md
+            - name: Known issues
+              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
     - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
