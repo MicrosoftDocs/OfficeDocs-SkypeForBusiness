@@ -51,6 +51,9 @@ Some examples of when a template can be useful are:
 
 To learn how to create meeting templates, see [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
 
+> [!NOTE]
+> The option to select a custom meeting template when creating a new meeting isn't available on Outlook for Mac or Outlook on the web.
+
 ## Templates with sensitivity labels
 
 Templates have the option of specifying a sensitivity label. Labels can also be applied directly to meetings, independent of templates. Sensitivity labels can control some of the same settings as templates:
