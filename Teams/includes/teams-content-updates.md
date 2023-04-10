@@ -2,6 +2,31 @@
 
 
 
+## Week of April 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/3/2023 | [Use guest access and external access to collaborate with people outside your organization](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modified |
+| 4/3/2023 | Information barriers in Microsoft Teams | removed |
+| 4/3/2023 | Change information barriers modes with a PowerShell script | removed |
+| 4/3/2023 | Information barriers and shared channels | removed |
+| 4/5/2023 | [Set up auto attendant and call queue authorized users](/MicrosoftTeams/aa-cq-authorized-users) | added |
+| 4/5/2023 | [Manage voice applications policies for Microsoft Teams](/MicrosoftTeams/manage-voice-applications-policies) | added |
+| 4/5/2023 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 4/5/2023 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
+| 4/5/2023 | [Configure call settings for users](/MicrosoftTeams/user-call-settings) | modified |
+| 4/5/2023 | Use Content Search in Microsoft Teams | removed |
+| 4/5/2023 | Place a Microsoft Teams user or team on legal hold | removed |
+| 4/5/2023 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
+| 4/6/2023 | [Manage Teams with policies](/MicrosoftTeams/manage-teams-with-policies) | modified |
+| 4/6/2023 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
+| 4/6/2023 | [Teams settings and policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
+| 4/7/2023 | [Create a custom meeting template in Microsoft Teams](/MicrosoftTeams/create-custom-meeting-template) | modified |
+| 4/7/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 4/7/2023 | [Purchase third-party apps and manage subscriptions and licenses](/MicrosoftTeams/purchase-third-party-apps) | modified |
+
+
 ## Week of March 27, 2023
 
 
@@ -456,21 +481,3 @@
 | 3/10/2023 | [Career Coach data and compliance information](/MicrosoftTeams/privacy-career-coach-data-compliance) | modified |
 | 3/10/2023 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
 | 3/10/2023 | [Scale video delivery in Microsoft Teams](/MicrosoftTeams/teams-stream-ecdn) | modified |
-
-
-## Week of February 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/27/2023 | [Manage meeting policies in Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | modified |
-| 2/27/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 2/28/2023 | Auto attendant and call queue historical reports for GCC High and DoD | removed |
-| 2/28/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
-| 2/28/2023 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
-| 2/28/2023 | [Information barriers and shared channels](/MicrosoftTeams/information-barriers-shared-channels) | modified |
-| 2/28/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 3/3/2023 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
-| 3/3/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
-| 3/3/2023 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
-| 3/3/2023 | [Zero-touch App Install for Teams apps](/MicrosoftTeams/zero-touch-app-install) | modified |
