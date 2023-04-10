@@ -1787,6 +1787,8 @@ items:
       href: settings-policies-reference.md   
     - name: Limits and specifications for Teams
       href: limits-specifications-teams.md            
+    - name: Meeting templates reference
+      href: predefined-meeting-template-reference.md
     - name: Licensing
       items: 
         - name: Manage user access to Teams
