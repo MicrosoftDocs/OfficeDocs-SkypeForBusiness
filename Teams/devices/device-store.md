@@ -57,4 +57,4 @@ When you purchase devices that support remote provisioning, the MAC address of t
 Once your devices are delivered, see [Remotely provision devices](remote-provision-remote-login.md#generate-a-verification-code) to complete the provision and sign-in process.
 
 > [!NOTE]
-> Device provisioning via the device store isn't available in the United Kingdom.
+> For devices purchased from the store, the automatic addition of the device MAC address to the Teams admin center isn't supported in United Kingdom. For information about manually adding a device using its MAC address, see [Add a device MAC address](remote-provision-remote-login.md#add-a-device-mac-address).
