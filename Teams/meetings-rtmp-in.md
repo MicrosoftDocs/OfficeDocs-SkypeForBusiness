@@ -28,14 +28,16 @@ RTMP-In allows meeting organizers to produce their Teams Meeting directly from a
 Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key which they can use to start streaming from the encoder.
 
 The incoming RTMP feed must deliver:  
-- 264 codec 
-- Strict Constant Bitrate (CBR)
-- Framerate of 29.97 or 30 fps
+- H.264 Advanced Video Coding (AVC)
+- Constant Bitrate (CBR)
+- Frame rate of 29.97 or 30 fps
 - Square Pixel Aspect Ratio (PAR)
 
 ## Turn RTMP-In on or off
 
 The RTMP-In meeting policy control is configured by using PowerShell. (See [Manage Teams with Microsoft Teams PowerShell](teams-powershell-managing-teams.md) to get started.)
+
+#### View the RTMP-In status for a policy
 
 To view the current status of RTMP-In for a meeting policy, use the [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy) cmdlet:
 
@@ -49,6 +51,8 @@ For example:
 Get-CsTeamsMeetingPolicy -Identity Global|fl AllowedStreamingMediaInput
 ```
 
+#### Turn RTMP-In on for a policy
+
 To turn RTMP-In on for a meeting policy, use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet:
 
 
@@ -61,6 +65,8 @@ For example:
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowedStreamingMediaInput "RTMP"  
 ```
+
+#### Turn RTMP-In off for a policy
 
 To turn RTMP-In off, use a null value with `-AllowedStreamingMediaInput`. For example:
 
