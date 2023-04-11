@@ -132,12 +132,14 @@ The following table compares key features between Teams and Teams Premium.
 | Allow users to join a virtual lobby waiting room | x | x |
 | Integrate with Microsoft Forms | x | x |
 | Customize the lobby waiting room with themes and logos |  | x |
-| Send SMS notifications |  | x |
+| Send SMS notifications\* |  | x |
 | Chat back and forth with attendees in the lobby waiting room (*coming soon*) |  | x |
 | Organizational and departmental analytics |  | x |
 | View and manage scheduled appointments in the queue |  | x |
 | View and manage on-demand appointments in the queue |  | x |
 | Send post-appointment follow-ups (*coming soon*) |  | x |
+
+\* *SMS notifications for Virtual Appointments is currently available in the US, Canada, and UK.
 
 ## Are there current Teams features that will move to Teams Premium?
 
@@ -252,3 +254,4 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
+
