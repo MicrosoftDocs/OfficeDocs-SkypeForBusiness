@@ -28,9 +28,12 @@ Apps in Teams help users bring together their workplace tools and services and c
 
 As an admin, you set an app governance process that balances wide-ranging requirements of users along with your organization's IT policies, standards, and risk-profiles.
 
-Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides users access to the tools and services that your organization needs every day. Teams admin center provides admins enterprise-grade controls and configurations to govern the apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
+Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides users the tools and services that your organization needs every day. Teams admin center provides admins with enterprise-grade controls and configurations to govern these apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
 
-This article helps you understand the types of apps and where from your users access those apps. To learn more about the use of apps, read [Overview of apps for users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+This article helps you understand the types of apps and where from your users access those apps.
+
+<!--- To learn more about the use of apps, read [Overview of apps for users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+--->
 
 The different types of apps that your users can use in Teams are:
 
