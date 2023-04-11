@@ -3,8 +3,8 @@ title: Microsoft Teams panels
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: eviegrimshaw
-ms.date: 04/07/2023
+ms.reviewer: weizxue
+ms.date: 02/15/2021
 ms.topic: reference
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -24,9 +24,9 @@ description: This article provides an overview of and features supported by Micr
 
 # Microsoft Teams panels
 
-Microsoft Teams panels are the compact touchscreen devices that are mounted right outside of your meeting spaces, typically next to entrances. Teams panels provide you the ability to view location and meeting details at a glance—and reserve an available meeting space on the spot. With rich, large text and color-coded indicators, you can see the meeting space's availability from a distance.
+Microsoft Teams panels are the compact touchscreen devices that are mounted right outside of your meeting spaces, typically next to entrances. Teams panels provide you the ability to view location and meeting details at a glance—and reserve an available meeting space on the spot. With rich, large text and color-coded indicators, you can see the meeting space’s availability from a distance.
 
-Teams panels are dedicated Microsoft Teams devices that display meeting details scheduled via Teams or Outlook 365 calendaring applications. With meeting details prominently displayed, attendees can confirm they're in the right meeting space, at the right time, and for the right meeting.
+Teams panels are dedicated Microsoft Teams devices that display meeting details scheduled via Teams or Outlook 365 calendaring applications. With meeting details prominently displayed, attendees can confirm they’re in the right meeting space, at the right time, and for the right meeting.
 
 This article provides an overview of Teams panels and can help you plan, deliver, and manage Teams panels devices in your organization.
 
@@ -69,7 +69,7 @@ If you're involved in planning, deploying, and managing Teams panels devices, th
 
 Deployment of Teams panels devices can be broken down into the following tasks:
 
-- [Meeting space inventory and capability planning](#inventory-sites-and-meeting-spaces): Create an inventory of your organization's sites and meeting spaces for deploying Teams panels devices.
+- [Meeting space inventory and capability planning](#inventory-sites-and-meeting-spaces): Create an inventory of your organization’s sites and meeting spaces for deploying Teams panels devices.
 - [Procurement](#procurement): Procure the devices from your selected device partner.  
 - [Site readiness](#site-readiness): Confirm that your deployment locations (meeting spaces) meet the deployment requirements.
 - [Configuration and deployment](#configuration-and-deployment): Create resource accounts and assign them to the devices.
@@ -80,7 +80,7 @@ Take an inventory of the existing bookable meeting spaces in your organization. 
 
 ## Procurement
 
-Based on the number of meeting spaces that are in scope for deploying Teams panels, procure the devices from one of the [partners certified for Teams panels](#partners-certified-for-teams-panels). Visit the partners' websites to learn more about the devices and procurement options.
+Based on the number of meeting spaces that are in scope for deploying Teams panels, procure the devices from one of the [partners certified for Teams panels](#partners-certified-for-teams-panels). Visit the partners’ websites to learn more about the devices and procurement options.
 
 Meeting spaces in your organization may have different hardware requirements for installing or mounting the devices. For example, hardware required for mounting the device on a glass, plaster, drywall, or wood paneling may not be the same. Refer to the device partner's documentation for available mounting options.
 
