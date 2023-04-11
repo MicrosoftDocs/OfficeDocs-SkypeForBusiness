@@ -77,7 +77,7 @@ If this setting is turned on:
 
 You can edit the settings in the global app setup policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom app setup policies.
 
-#### Set an app setup policy setting for custom apps
+#### Configure setup policy for custom apps
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**.
 1. Select **Add**.
@@ -85,10 +85,9 @@ You can edit the settings in the global app setup policy to include the apps tha
 1. Turn on or turn off **Upload custom apps** setting.
 1. Choose any other settings that you want to for the policy.
 1. Select **Save**.
-1. [Apply the policy to users](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users) who develop custom apps and are allowed to upload those apps.
+1. [Apply the policy to users](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users) who are allowed to upload custom apps.
 
-> [!NOTE]
-> To change this setting, allow custom apps in the [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
+To allow use of custom apps, see [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
 ### Team custom app setting
 
