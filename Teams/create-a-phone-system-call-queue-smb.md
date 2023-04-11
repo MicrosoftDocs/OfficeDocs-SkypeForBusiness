@@ -189,7 +189,7 @@ The following clients are supported when using a Teams channel for call queues:
 > 
 > You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
 >
-> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
+> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.  When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
 > 
 > Support is working on identifying the root cause of this problem and will then plan an update to address this issue. At this time, it is estimated that this problem will be resolved during the second half (July-November 2023) of this year.
 > 
