@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to control availability of apps for your Teams users by using permission policies and how to create, edit, assign, and unassign the policies.
+description: Learn how to control availability of Teams apps for users by using permission policies and how to create, edit, assign, and unassign the policies.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -110,7 +110,7 @@ You can also change existing policies for an individual user using PowerShell. F
 When you unassign policies in bulk, you're removing policy assignments that were assigned to individual users through direct assignment. To unassign permission policies in bulk, follow these steps:
 
 1. Sign in to the Teams admin center and go to **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/app-permission)**.
-1. Click on a policy's name to select it and then select **Bulk unassign users** from the **Manage users** menu.
+1. Click on the policy's name and then select **Bulk unassign users** from the **Manage users** menu.
 
     :::image type="content" source="media/app-permission-policy-manage-users.png" alt-text="Screenshot that shows the bulk unassign users option from the manage user dropdown menu.":::
 
@@ -130,11 +130,11 @@ The following are a few considerations when using app permissions policies to gr
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect.
 
-* A user cannot interact with any functionality of an app that the user is not allowed to use.
+* A user can't interact with any functionality of an app that the user isn't allowed to use.
 
 * Users can search for blocked apps and request admin approval. Admins retain complete control to [approve or ignore user requests](user-requests-approve-apps.md).
 
-* App setup policies work together with app permission policies. You select apps to pin in setup policy from a set of allowed apps. However, if a user has an app permission policy that blocks the use of a pinned app, then the user cannot use the app.
+* App setup policies work together with app permission policies. You select apps to pin in setup policy from a set of allowed apps. However, if a user has an app permission policy that blocks the use of a pinned app, then the user can't use the app.
 
 * App policies apply to users using any Teams on web, mobile, or desktop.
 

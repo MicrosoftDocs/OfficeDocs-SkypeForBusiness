@@ -24,7 +24,13 @@ ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # Understand Microsoft Teams apps and their capabilities
 
-Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various users in a channel. Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally. Adding the apps to Teams client by your users doesn't require installation of, say a binary file.
+Apps in Teams help users bring together their workplace tools and services and collaborate with others. A few examples are:
+
+* Users using a pinned Calendar app in Teams to collaborate quickly with others
+* An app with bots functionality informing users of the quality of a web service in a Teams channel
+* An app to share and assign tasks to various users in a channel.
+
+Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally, work only in the scope that's allowed, and reads the specified organization data only after an admin's consent. Adding an app to Teams client by your users doesn't require any installation, say of a binary file.
 
 As an admin, you set an app governance process that balances wide-ranging requirements of users along with your organization's IT policies, standards, and risk-profiles.
 
@@ -61,7 +67,7 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 ## Third-party apps created by independent app developers
 
-In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
+In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after an app is published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams store.":::
 
