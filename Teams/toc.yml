@@ -1451,16 +1451,16 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Remotely configure layout, scale, and resolution
+              href: rooms/manage-front-room-scale-res.md
+            - name: Manage settings with an XML file
+              href: rooms/xml-config-file.md   
             - name: Feature management
               items:
-                - name: Manage settings with an XML file
-                  href: rooms/xml-config-file.md              
                 - name: Enable home screen refresh
                   href: rooms/mtr-home-refresh.md
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
-                - name: Remotely configure layout, scale, and resolution
-                  href: rooms/manage-front-room-scale-res.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
             - name: Manage devices with Azure Monitor
