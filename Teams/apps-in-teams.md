@@ -38,9 +38,6 @@ Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product
 
 This article helps you understand the types of apps and where from your users access those apps.
 
-<!--- To learn more about the use of apps, read [Overview of apps for users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
---->
-
 The different types of apps that your users can use in Teams are:
 
 * [Core apps that are part of Teams](#core-apps).
@@ -134,6 +131,7 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 
 ## Related articles
 
+* [Overview of how apps are used by users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
 * [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates)
 * [Teams app updates and admin role](apps-update-experience.md)
 * [Overview of app management and governance in Teams admin center](manage-apps.md)
