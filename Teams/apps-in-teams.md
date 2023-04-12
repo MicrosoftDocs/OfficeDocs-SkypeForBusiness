@@ -24,13 +24,19 @@ ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # Understand Microsoft Teams apps and their capabilities
 
-Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various users in a channel. Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally. Adding the apps to Teams client by your users doesn't require installation of, say a binary file.
+Apps in Teams help users bring together their workplace tools and services and collaborate with others. A few examples are:
+
+* Users using a pinned Calendar app in Teams to collaborate quickly with others
+* An app with bots functionality informing users of the quality of a web service in a Teams channel
+* An app to share and assign tasks to various users in a channel.
+
+Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally, work only in the scope that's allowed, and reads the specified organization data only after an admin's consent. Adding an app to Teams client by your users doesn't require any installation, say of a binary file.
 
 As an admin, you set an app governance process that balances wide-ranging requirements of users along with your organization's IT policies, standards, and risk-profiles.
 
-Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides users access to the tools and services that your organization needs every day. Teams admin center provides admins enterprise-grade controls and configurations to govern the apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
+Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides users the tools and services that your organization needs every day. Teams admin center provides admins with enterprise-grade controls and configurations to govern these apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
 
-This article helps you understand the types of apps and where from your users access those apps. To learn more about the use of apps, read [Overview of apps for users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+This article helps you understand the types of apps and where from your users access those apps.
 
 The different types of apps that your users can use in Teams are:
 
@@ -58,7 +64,7 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 ## Third-party apps created by independent app developers
 
-In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after the apps are published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
+In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after an app is published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams store.":::
 
@@ -125,6 +131,7 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 
 ## Related articles
 
+* [Overview of how apps are used by users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
 * [Learn more about App Templates for Teams](/microsoftteams/platform/samples/app-templates)
 * [Teams app updates and admin role](apps-update-experience.md)
 * [Overview of app management and governance in Teams admin center](manage-apps.md)
