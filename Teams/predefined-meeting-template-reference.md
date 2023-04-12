@@ -56,7 +56,7 @@ Template
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
-|***Security***|||||
+|***Security***||||
 |Apply sensitivity label|None|Visible|Unlocked|
 |Lobby|Everyone|Visible|Unlocked|
 |People calling in by phone can bypass the lobby|Off|Visible|Unlocked|
