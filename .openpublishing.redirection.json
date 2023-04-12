@@ -4311,6 +4311,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/meeting-settings-in-teams.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/ediscovery-investigation.md",
     "redirect_url": "/microsoft-365/compliance/ediscovery-teams-investigation",
     "redirect_document_id": false
