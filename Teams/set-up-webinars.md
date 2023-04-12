@@ -50,9 +50,7 @@ The new webinar experience is configured in PowerShell. See examples on [how to 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 > [!NOTE]
-> For on-premises users, the new webinar experience isn't available yet.
->
-> The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
+> The new webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
 ## Set up new webinar experience
 

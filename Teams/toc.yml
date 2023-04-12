@@ -682,6 +682,8 @@ items:
           items:
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
+            - name: RTMP
+              href: meetings-rtmp-in.md
             - name: Use NDI® technology in Teams
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
