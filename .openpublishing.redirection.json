@@ -566,11 +566,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "Teams/customize-meeting-invitations.md",
-      "redirect_url": "/microsoftteams/meeting-settings-in-teams",
-      "redirect_document_id": true
-    },
-    {
       "source_path": "Teams/tutorial-journey-skypeforbusiness-to-teams.md",
       "redirect_url": "/MicrosoftTeams/upgrade-start-here",
       "redirect_document_id": true
