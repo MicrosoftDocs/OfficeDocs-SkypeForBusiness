@@ -172,7 +172,7 @@ To [use a Teams channel to manage the queue](https://support.microsoft.com/offic
 
 1. Select the **Choose a team** radio button, and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
-1. Select the channel that you want to use (only standard are fully supported), and select **Apply**.
+1. Select the channel that you want to use (only standard channels are fully supported), and select **Apply**.
 
 The following clients are supported when using a Teams channel for call queues:
 
@@ -185,14 +185,16 @@ The following clients are supported when using a Teams channel for call queues:
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
 
 > [!IMPORTANT]
-> Known Issue: Assigning Private Channels to Calls Queues
-> 
+> Known issue: Assigning private channels to call queues
+>
+> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+>
 > You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
 >
-> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.  When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
-> 
-> Support is working on identifying the root cause of this problem and will then plan an update to address this issue. At this time, it is estimated that this problem will be resolved during the second half (July-November 2023) of this year.
-> 
+> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
+>
+> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
+
 ### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
