@@ -218,7 +218,7 @@ This feature is disabled by default, but it can be enabled per device. To enable
 
 When room reservations are enabled, end users can use a Teams panel to reserve a room that's currently available. Reservations start at the time the **Reserve** button is tapped and their duration can be increased in 15-minute increments up to the start time of the next reservation, or to a maximum of 24 hours.
 
-This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Allow room reservations**.
+This feature is enabled by default, but it can be disabled per device. To disable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn off **Allow room reservations**.
 
 #### Enable or disable extension of existing room reservations
 
