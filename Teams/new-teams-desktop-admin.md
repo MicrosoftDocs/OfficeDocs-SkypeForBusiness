@@ -343,6 +343,10 @@ There are a few known issues we're working on.
 **Issue**: Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
 **Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>See [**Prerequisites**](#prerequisites) section in this article. 
 
+
+**Issue**:  You currently can't save messages or files in Teams.</br>
+Details:  This functionality will be available later this year.
+
 ### Accessibility
 
 **Issue**: There may be accessibility gaps between new and classic Teams.
