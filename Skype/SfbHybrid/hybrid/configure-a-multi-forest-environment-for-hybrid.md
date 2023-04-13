@@ -2,8 +2,8 @@
 ms.date: 03/17/2018
 title: "Deploy a resource forest topology"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -18,7 +18,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: 
-description: "The following sections descrbie how to configure an environment that has multiple forests in a resource/user forest model to provide functionality in a hybrid scenario."
+description: "The following sections describe how to configure an environment that has multiple forests in a resource/user forest model to provide functionality in a hybrid scenario."
 ---
 
 # Deploy a resource forest topology
@@ -43,13 +43,13 @@ Multiple user forests are supported. Keep the following in mind:
   
 ## User homing considerations
 
-Skype for Business users homed on premises can have Exchange homed on premises or online. Teams users should use Exchange Online for an optimal experience; however, this is not required. Exchange on premises is not required to implement Skype for Business in either case.
+Skype for Business users homed on premises can have Exchange homed on premises or online. Teams users should use Exchange Online for an optimal experience; however, this isn't required. Exchange on premises isn't required to implement Skype for Business in either case.
   
 ## Configure forest trusts
 
 In a resource forest topology, the resource forests hosting Skype for Business Server must trust each account forest that contains users' accounts that will access it. 
 
-If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). 
+If you have multiple user forests, to enable cross-forest authentication, it's important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). 
 
 If you have Exchange Server deployed in an another forest and Exchange provides functionality for Skype for Business users, the forest hosting Exchange must trust the forest hosting Skype for Business Server. For example, if Exchange were deployed in the account forest, a two-way trust between the account and the Skype for Business forests is required.
   
@@ -118,7 +118,7 @@ In this example, Azure AD Connect has identified the sourceAnchor and the cloudS
   
 For more information, see [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity). 
   
-Azure AD Connect should be installed using the defaults, except for the following: 
+Azure AD Connect should be installed using the defaults, except for the following situations: 
   
 1. Single sign-in - with AD FS already deployed and working: Select **Do not configure**.
     

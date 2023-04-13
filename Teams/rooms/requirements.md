@@ -3,7 +3,7 @@ title: Microsoft Teams Rooms requirements
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 04/06/2018
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,15 +23,13 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams Rooms requirements
 
-Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size from small huddle spaces up through large conference spaces and boardrooms.  The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
+Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size, from small huddle spaces up through large conference spaces and boardrooms. The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
 
 This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
 Your deployment involves resource account creation and setup of Teams Rooms as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md).
 
-Refer to:
-
-- [License options based on your plan: Microsoft Teams Rooms](rooms-licensing.md)
+For more information, see [License options based on your plan: Microsoft Teams Rooms](rooms-licensing.md).
 
 > [!NOTE]
 > Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
@@ -97,6 +95,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) |Core i5|8 GB|128 GB|
   |[Lenovo Thinksmart One AIO Bar + Lenovo Core Bundle](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006?orgRef=https%253A%252F%252Flearn.microsoft.com%252F&sortBy=priceUp) |Core i5|8 GB|256 GB|
+  |Lenovo Core + MIMO IP Controller Kit|Core i5|8 GB|256 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap and Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
@@ -123,6 +122,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   |Yealink MVC640|Core i5|8 GB | 128 GB|
   |Yealink MVC320|Core i5|8 GB | 128 GB|
   |Yealink MVC340|Core i5|8 GB | 128 GB|
+  |Yealink MCore 3 Kit|Core i5|8 GB| 128 GB|
   
   
 > [!NOTE]
@@ -260,8 +260,8 @@ These devices are available at the [Room System Accessories product showcase](ht
 - USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders aren't recommended for USB 3.0 peripherals.
 - An extender must meet USB 2.0 or newer specifications.
   - Tablet docks support at least two stages of external USB hub extension. If you connect more than two USB hubs in series, check with the dock manufacturer to confirm whether they support series connection.
-  - Wired GbE connection in the room. Ethernet cable of appropriate length.
-  - Up to two 1080p displays with HDMI connections. HDMI cables of appropriate length.
+  - Wired GbE connection in the room, with an ethernet cable of appropriate length.
+  - Up to two 1080p displays with HDMI connections, with HDMI cables of appropriate length.
 
 > [!NOTE]
 > A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs.

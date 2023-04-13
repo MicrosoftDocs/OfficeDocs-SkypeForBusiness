@@ -274,36 +274,36 @@ items:
           href: block-access-sharepoint.md
     - name: Compliance
       items: 
+        - name: Auditing
+          href: /microsoft-365/compliance/audit-teams-audit-log-events?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Change information barriers modes with a PowerShell script
+          href: /microsoft-365/compliance/information-barriers-teams-powershell-script?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Communication compliance
+          href: communication-compliance.md
+        - name: Content search
+          href: /microsoft-365/compliance/ediscovery-teams-content-search?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Customer Key
+          href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Data Loss Prevention
+          href: /microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: eDiscovery investigations for Teams content
+          href: /microsoft-365/compliance/ediscovery-teams-investigation?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Export API for Teams content
+          href: export-teams-content.md
         - name: Information barriers
           href: /microsoft-365/compliance/information-barriers-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Information barriers and shared channels
           href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Change information barriers modes with a PowerShell script
-          href: /microsoft-365/compliance/information-barriers-teams-powershell-script?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Retention policies
-          href: retention-policies.md
-        - name: Communication compliance
-          href: communication-compliance.md
+        - name: Legal hold
+          href: /microsoft-365/compliance/ediscovery-teams-legal-hold?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Policy-based recording for callings & meetings
           href: teams-recording-policy.md
+        - name: Retention policies
+          href: retention-policies.md        
         - name: Sensitivity labels
-          href: sensitivity-labels.md
-        - name: Data Loss Prevention
-          href: /microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: eDiscovery
-          href: ediscovery-investigation.md
-        - name: Legal hold
-          href: legal-hold.md
-        - name: Content search
-          href: content-search.md
+          href: sensitivity-labels.md    
         - name: Teams workflow in eDiscovery (Premium)
-          href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
-        - name: Auditing
-          href: audit-log-events.md
-        - name: Customer Key
-          href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Export API for Teams content
-          href: export-teams-content.md
+          href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery         
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
@@ -457,13 +457,13 @@ items:
         - name: Overview
           href: teams-analytics-and-reports/teams-reporting-reference.md
         - name: Teams usage report
-          href: teams-analytics-and-reports/teams-usage-report.md
+          href: /microsoft-365/admin/activity-reports/microsoft-teams-usage-activity?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams user activity report
-          href: teams-analytics-and-reports/user-activity-report.md
+          href: /microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams app usage report
           href: teams-analytics-and-reports/app-usage-report.md
         - name: Teams device usage report
-          href: teams-analytics-and-reports/device-usage-report.md
+          href: /microsoft-365/admin/activity-reports/microsoft-teams-device-usage-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: PSTN blocked users report
           href: teams-analytics-and-reports/pstn-blocked-users-report.md
         - name: PSTN minute pools report
@@ -598,8 +598,6 @@ items:
       items:
         - name: Quick start 
           href: quick-start-meetings-live-events.md
-        - name: Manage meetings settings
-          href: meeting-settings-in-teams.md
         - name: Meeting policies overview
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
@@ -634,10 +632,10 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: View-only meeting experience
               href: view-only-meeting-experience.md
+            - name: Meeting invitations
+              href: customize-meeting-invitations.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
-            - name: Set up avatars for Teams
-              href: meeting-avatars.md
         - name: Standardized meetings
           items: 
             - name: Custom meeting backgrounds
@@ -684,10 +682,14 @@ items:
           items:
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
+            - name: RTMP
+              href: meetings-rtmp-in.md
             - name: Use NDI® technology in Teams
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
+            - name: Real-time media traffic
+              href: meetings-real-time-media-traffic.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
@@ -915,6 +917,10 @@ items:
               href: create-a-phone-system-auto-attendant.md
             - name: Set up call queues
               href: create-a-phone-system-call-queue.md
+            - name: Set up authorized users
+              href: aa-cq-authorized-users.md
+            - name: Manage voice applications policies
+              href: manage-voice-applications-policies.md
             - name: Manage Teams resource accounts
               href: manage-resource-accounts.md
             - name: Set up holidays
@@ -1578,6 +1584,8 @@ items:
       items:
         - name: Manage the Admin app
           href: manage-admin-app.md
+        - name: Manage the avatars app
+          href: meeting-avatars.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1598,7 +1606,6 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-          
     - name: Manage third-party apps
       items:
         - name: Understand third-party apps
@@ -1607,7 +1614,7 @@ items:
           href: overview-of-app-validation.md
         - name: Know about security, compliance, and privacy of apps
           href: overview-of-app-certification.md
-        - name: Purchase and manage app subscriptions
+        - name: Purchase app subscriptions and manage licenses
           href: purchase-third-party-apps.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
@@ -1780,10 +1787,12 @@ items:
           href: get-started-with-retail-teams-templates.md
 - name: Reference
   items: 
-    - name: Teams policies reference
+    - name: Teams settings and policies reference
       href: settings-policies-reference.md   
     - name: Limits and specifications for Teams
       href: limits-specifications-teams.md            
+    - name: Meeting templates reference
+      href: predefined-meeting-template-reference.md
     - name: Licensing
       items: 
         - name: Manage user access to Teams

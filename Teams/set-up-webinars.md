@@ -47,9 +47,7 @@ If you want your users to **only** use **meeting with registration** and not the
 Webinars are created and managed in PowerShell. For examples on how to set up webinars, see the section [How to set up the new webinar experience.](#set-up-webinars)
 
 > [!NOTE]
-> For on-premises users, the new webinar experience isn't available yet.
->
-> The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
+> The new webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
 ## What’s the difference between a webinar and meeting registration?
 
