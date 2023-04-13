@@ -334,6 +334,7 @@ As we improve the client, the experience has been improved to align with similar
 |Allow users to follow a user's presence and then notify them of availability|No longer available|
 |Activity tab in chat| No longer available|
 |Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
+|Allow users to follow another users presence, then notify them of availability|No longer available.|
 
 ## Known issues
 
