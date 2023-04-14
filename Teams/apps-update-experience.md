@@ -26,10 +26,10 @@ Teams app developers provide newer version of their apps to enhance the experien
 
 As a Teams administrator, you can update Teams apps to help the users get the latest version of apps by performing one of the following tasks:
 
-* When a new app version is available in Teams store for a third-party app, allow users to update it.
+* When a new app version is available in Teams store, allow users to update it.
 * When your developer submits a new version of a custom app, [update or approve the submission](#custom-apps) and allow users to update it.
 
-The latest version of the app requires users to give consent if there's a change in permissions. Azure Administrators can allow users to provide their consent for app permissions. For more information, see [configure user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
+New version of an app requires users to provide consent if there's a change in permissions. Azure Administrators can [allow users to give their consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
 
 ## Conditions when an app updates and requires consent
 
@@ -67,7 +67,12 @@ A user can use an app in more than one context in Teams. When a user consents, t
 
 ## Custom apps
 
-Custom apps that are created and deployed within your organization are available to the users on your organization. Teams admin updates a custom app to its new version when a new version is provided by their organization's developers. For more information, see [how admins manage custom apps](teams-custom-app-policies-and-settings.md).
+Custom apps that are created and deployed within your organization are available to the users on your organization. Teams admin updates a custom app to its new version in one of the following ways:
+
+* If developers send the app package to you, then upload it to your organization's app catalog in Teams.
+* If developers submit the app via Teams, then review and approve the request for the app to be available in your organization's app catalog in Teams.
+
+For more information, see [how admins manage custom apps](teams-custom-app-policies-and-settings.md).
 
 For custom apps to update, after you upload the new version of the app to Teams, users must individually provide their consent if it's required.
 
