@@ -13,6 +13,7 @@ audience: admin
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # Manage voice and calling policies in Microsoft Teams

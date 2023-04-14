@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # What's new for Direct Routing
