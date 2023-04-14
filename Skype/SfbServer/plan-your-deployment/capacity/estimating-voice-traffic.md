@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Estimating voice usage and traffic for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -29,4 +30,5 @@ The number of ports in turn determines the number of Mediation Servers and gatew
   
 For example, an organization with 10,000 users and medium traffic would require 1000 ports. The number of gateways required would equal the total number of ports required as determined by the total capacity of the gateways.
   
+
 

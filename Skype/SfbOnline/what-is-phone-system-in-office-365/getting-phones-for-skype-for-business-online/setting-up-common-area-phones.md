@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Set up Common Area Phones"
 ms.author: tonysmit
 author: tonysmit
@@ -142,3 +143,4 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
 
 - Learn more about available phones at [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
 - [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md)
+

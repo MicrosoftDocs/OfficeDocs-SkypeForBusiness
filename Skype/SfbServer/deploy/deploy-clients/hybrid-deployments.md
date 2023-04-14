@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype Room System hybrid deployments"
 ms.author: serdars
 author: SerdarSoysal
@@ -57,4 +58,5 @@ For illustrative purpose, we use LyncSample.com for the on-premises domain and L
 > [!NOTE]
 > If you have Skype for Business Online instead of Skype for Business Server in the above scenario, then after provisioning the Exchange resource mailbox, provision a Skype for Business account as described in Skype for Business Online Provisioning. 
   
+
 

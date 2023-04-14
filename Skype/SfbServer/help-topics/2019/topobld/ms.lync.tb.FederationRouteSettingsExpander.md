@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Federation Route Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -32,4 +33,5 @@ If the federation setting at the Edge Server or pool has been configured, you ca
   > [!NOTE]
   > XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
     
+
 

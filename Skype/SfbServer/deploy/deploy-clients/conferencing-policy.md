@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Conferencing policy for Skype Room System accounts"
 ms.author: serdars
 author: SerdarSoysal
@@ -74,4 +75,5 @@ Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 
 By default, RequireRoomSystemsAuthorization is FALSE. 
   
+
 
