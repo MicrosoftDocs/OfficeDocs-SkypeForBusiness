@@ -23,7 +23,7 @@ In GCC High & DoD environments, the earlier versions will be retired as per the 
 
   - Non TPM active - Organizations who haven’t used Teams PowerShell Module during Feb’23 to Mar’23, will only be able to use Teams PowerShell Module versions in the 4.x.x series or later starting from April 1, 2023.
   
-  - TPM active - Organizations who have used Teams PowerShell Module during Feb’23 to Mar’23 will only be able to use Teams PowerShell Module versions in the 4.x.x series or later starting from June 15, 2023.
+  - TPM active - Organizations who have used Teams PowerShell Module during Feb’23 to Mar’23 will only be able to use Teams PowerShell Module versions in the 4.x.x series or later starting from June 15, 2023 (Message center post for reference - MC540151).
 
 It’s recommended to update to the latest Teams PowerShell Module version.
 

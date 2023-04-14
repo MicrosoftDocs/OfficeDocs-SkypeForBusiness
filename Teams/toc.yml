@@ -598,8 +598,6 @@ items:
       items:
         - name: Quick start 
           href: quick-start-meetings-live-events.md
-        - name: Manage meetings settings
-          href: meeting-settings-in-teams.md
         - name: Meeting policies overview
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
@@ -634,6 +632,8 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: View-only meeting experience
               href: view-only-meeting-experience.md
+            - name: Meeting invitations
+              href: customize-meeting-invitations.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
         - name: Standardized meetings
@@ -682,10 +682,14 @@ items:
           items:
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
+            - name: RTMP
+              href: meetings-rtmp-in.md
             - name: Use NDI® technology in Teams
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
+            - name: Real-time media traffic
+              href: meetings-real-time-media-traffic.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
@@ -1797,6 +1801,8 @@ items:
       href: settings-policies-reference.md   
     - name: Limits and specifications for Teams
       href: limits-specifications-teams.md            
+    - name: Meeting templates reference
+      href: predefined-meeting-template-reference.md
     - name: Licensing
       items: 
         - name: Manage user access to Teams
