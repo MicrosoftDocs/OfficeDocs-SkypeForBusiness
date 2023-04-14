@@ -29,8 +29,6 @@ As a Teams administrator, you can update Teams apps to help the users get the la
 * When a new app version is available in Teams store, allow users to update it.
 * When your developer submits a new version of a custom app, [update or approve the submission](#custom-apps) and allow users to update it.
 
-New version of an app requires users to provide consent if there's a change in permissions. Azure Administrators can [allow users to give their consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
-
 ## Conditions when an app updates and requires consent
 
 Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. Users can provide consent when they try to use the app for the first time.
