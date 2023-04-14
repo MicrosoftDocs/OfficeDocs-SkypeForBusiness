@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
-ms.date: 04/06/2023
+ms.date: 04/14/2023
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -39,7 +39,7 @@ To find out whether Teams Phone Mobile is the right solution for your business, 
 
 Each Teams Phone Mobile user is automatically enabled for emergency calling. Emergency calls are routed automatically to the Teams Phone Mobile carrier for a given number.
 
-The ability for a tenant admin to set the registered address for an Teams Phone Mobile user will depend upon the capabilities assigned to the number when the carrier uploads them into a customers inventory. Based upon this setting, the tenant administrator may or may not be required—or able—to set, modify, or delete the emergency location of a user.
+The ability for a tenant admin to set the registered address for a Teams Phone Mobile user will depend upon the capabilities assigned to the number when the carrier uploads them into a customer's inventory. Based upon this setting, the tenant administrator may or may not be required—or able—to set, modify, or delete the emergency location of a user.
 
 When calls made through the native dialer of the SIM-enabled smartphone, your operator may use the geographic coordinates or cell tower handling the call to approximate emergency location for assistance.
 
@@ -61,13 +61,13 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 When a Teams Teams Phone Mobile user dials an emergency number using a Microsoft Teams client, how the call is routed to the PSAP depends on the following:
 
-- Whether the emergency address is dynamically determined by the Teams client.
+- Whether the emergency address is dynamically determined by the Teams client
 
-- Whether the emergency address is the registered address associated with the user's phone number.
+- Whether the emergency address is the registered address associated with the user's phone number
 
-- The emergency calling network of that country.
+- The emergency calling network of that country
 
-- In the United States and Canada, dynamic routing is part of the carrier's service. You do not need to procure this service from another service provider.
+- In the United States and Canada, dynamic routing is part of the carrier's service. You don't need to procure this service from another service provider.
 
 - If a Teams client is located at a tenant-defined dynamic emergency location:
   - In the United States, emergency calls from that client are automatically routed to the PSAP serving that geographic location.

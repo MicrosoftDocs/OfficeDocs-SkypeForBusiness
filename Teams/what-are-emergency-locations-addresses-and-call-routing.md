@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
-ms.date: 04/06/2023
+ms.date: 04/14/2023
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -34,7 +34,7 @@ description: "Learn about concepts for managing emergency calling, including inf
 
 This article describes concepts you'll need to know to manage emergency calling&mdash;it introduces information about [emergency addresses](#emergency-address), [dynamic emergency calling](#dynamic-emergency-calling), and [emergency call routing](#emergency-call-routing).
 
-Be aware that how you configure emergency calling will differ depending on your Public Switched Telephone Network (PSTN) connectivity option. If you need help deciding which Microsoft voice solution is right for you, read [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md) first.  
+Be aware that how you configure emergency calling will differ depending on your Public Switched Telephone Network (PSTN) connectivity option. If you need help with deciding which Microsoft voice solution is right for you, read [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md) first.  
 
 ## Emergency address
 
@@ -46,8 +46,8 @@ The following table provides critical concepts and definitions for emergency cal
 |---|---|---|
 | **Emergency address** | A civic address&mdash;the physical or street address of a place of business for your organization. | 12345 North Main Street, Redmond, WA 98052 |
 | **Place** | Typically a floor, building, wing, or office number. Place is associated with an emergency address to give a more exact location within a building. You can have an unlimited number of places associated with an emergency address. For example, if your organization has multiple buildings, you might want to include place information for each building and every floor within each building. | 4th floor |
-| **Emergency location** | A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location.</br></br> When you create an emergency address, a unique location ID is automatically created for this address. If you add a place to an emergency address&mdash;for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.</br></br>When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site. | 12345 North Main Street, Redmond, WA 98052, 4th floor |
-| **Registered address** | An emergency address that is assigned to each user. A registered address is sometimes referred to as a "static emergency address" or "address of record".|**User A**:</br>12345 North Main Street, Redmond, WA 98052</br></br>**User B**:</br>6789 17th St NW, Atlanta, GA 30363 |
+| **Emergency location** | A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location.</br></br> When you create an emergency address, a unique location ID is automatically created for this address. If you add a place to an emergency address&mdash;for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place. </br></br>When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site. | 12345 North Main Street, Redmond, WA 98052, 4th floor |
+| **Registered address** | An emergency address that is assigned to each user. A registered address is sometimes referred to as a "static emergency address" or "address of record".|**User A**:</br>12345 North Main Street, Redmond, WA 98052 </br></br>**User B**:</br>6789 17th St NW, Atlanta, GA 30363 |
 
 ### Emergency address validation
 
@@ -96,7 +96,7 @@ Administrators have the ability to add a custom banner in the tenant for their u
 
 ## Considerations for PSTN connectivity options
 
-There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md).
+There are some differences in how you manage emergency calling depending on whether you're using Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md).
 
 For your specific PSTN connectivity setup, read the following considerations for managing emergency calling:
 

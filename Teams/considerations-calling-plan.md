@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
-ms.date: 04/06/2023
+ms.date: 04/14/2023
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -14,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto:
   - Microsoft Teams
@@ -62,11 +63,11 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 When a Teams Calling Plan user dials an emergency number, how the call is routed to the PSAP depends on the following:
 
-- Whether the emergency address is dynamically determined by the Teams client.
+- Whether the emergency address is dynamically determined by the Teams client
 
-- Whether the emergency address is the registered address associated with the user's phone number.
+- Whether the emergency address is the registered address associated with the user's phone number
 
-- The emergency calling network of that country.
+- The emergency calling network of that country
 
 For example:
 
