@@ -33,21 +33,21 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by auto attendants and call queues.  It also provides agent performance insights.
 
-## V3.0.8 published on April XX, 2023
+## V3.1.0 published on May 1, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
 - The Auto Attendant report shows analytics for calls coming into your auto attendants.
-  - [Original Report](media/aa-cq-historical-report-sample-aa-v308-orig.png)
-  - [New Report](media/aa-cq-historical-report-sample-aa-v308-new.png)
+  - [Original Report](media/aa-cq-historical-report-sample-aa-v310-orig.png)
+  - [New Report](media/aa-cq-historical-report-sample-aa-v310-new.png)
  
 - The Call Queue report shows analytics for calls coming into your call queues.
-  - [Original Report](media/aa-cq-historical-report-sample-cq-v308-orig.png)
-  - [New Report](media/aa-cq-historical-report-sample-cq-v308-new.png)
+  - [Original Report](media/aa-cq-historical-report-sample-cq-v310-orig.png)
+  - [New Report](media/aa-cq-historical-report-sample-cq-v310-new.png)
 
 - The Agent Timeline report shows a timeline view of agents being active in call queue calls.
-  - [Original Report](media/aa-cq-historical-report-sample-at-v308-orig.png)
-  - [New Report](media/aa-cq-historical-report-sample-at-v308-new.png)
+  - [Original Report](media/aa-cq-historical-report-sample-at-v310-orig.png)
+  - [New Report](media/aa-cq-historical-report-sample-at-v310-new.png)
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -77,15 +77,15 @@ The following steps assume you've already installed Power BI Desktop on your com
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.0.8.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.0.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.0.8.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.0.pbit` template file. Power BI Desktop should launch.
 
 4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v308.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v310.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -686,7 +686,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.0.8    |April XX, 2023     |Teams Auto Attendant & Call Queue Historical Reports V3.0.8 |New templates, added detail call pop-up on Agent Timeline               |
+|3.1.0    |May 1, 2023        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline               |
 |3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
 |3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
