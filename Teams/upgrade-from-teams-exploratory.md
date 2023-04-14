@@ -32,11 +32,11 @@ This article provides an overview of how to upgrade your users from a Teams Expl
 - [Step 3: Assign paid licenses](#step-3-assign-paid-licenses)
 
 > [!NOTE]
-> There are two possible experiences of Teams Exploratory. Some of the instructions in this article will depend on which experience of Teams Exploratory your users have access to.
+> There are two possible experiences of Teams Exploratory: **organizational** or **self-service**. Starting late April 2023, users in organizations that don't have the organizational trial will be eligible for the self-service trial. Some of the instructions in this article will depend on which experience of Teams Exploratory your users have access to.
 >
-> One Teams Exploratory experience is for tenants on the New Commerce Experience or tenants that have no users with a Teams Exploratory license. This experience allows end users to initiate a self-service trial.
+> To see if you have users with a Teams Exploratory license, you can go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) > **Billing** > **Licenses** > and scroll to see if **Microsoft Teams Exploratory** is listed. If it is listed, you have users with a Teams Exploratory license.
 >
-> The other experience is for tenants that aren't on the New Commerce Experience and may or may not currently have users with a current Teams Exploratory license. If the tenant already has users with Teams Exploratory, this experience allows for tenant-based trials.
+> From this Microsoft 365 admin center page, you can also check if your Teams Exploratory licenses are a tenant-based or self-service trial. Select the **Filter** icon, scroll to **Account type**, and choose either **Organizational** or **Self-service**. If the **Microsoft Teams Exploratory** license appears with the **Organizational** filter, your Teams Exploratory trial is tenant-based. If the license appears with the **Self-service** filter, it's self-service.
 
 ## Step 1: When to upgrade  
 

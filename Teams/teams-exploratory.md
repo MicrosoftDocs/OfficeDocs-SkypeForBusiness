@@ -25,9 +25,6 @@ appliesto:
 
 # Manage the Microsoft Teams Exploratory license
 
-> [!NOTE]
-> The Microsoft Teams Exploratory experience isn't currently available to tenants on the New Customer Experience (NCE). The Teams Exploratory license will become available to NCE tenants in late April 2023.
-
 The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
 
 ## What's in the Teams Exploratory experience
@@ -80,11 +77,7 @@ Eligible users can sign up for the Teams Exploratory experience by signing into 
 ## Manage the Teams Exploratory experience
 
 > [!NOTE]
-> There are two possible experiences of Teams Exploratory. Some of the instructions in this article will depend on which experience of Teams Exploratory your users have access to.
->
-> One Teams Exploratory experience is for tenants on the New Commerce Experience (NCE) or tenants that have no users with a Teams Exploratory license. This experience allows end users to initiate a self-service trial.
->
-> The other experience is for tenants that aren't on the New Commerce Experience and may or may not currently have users with a current Teams Exploratory license. If the tenant already has users with Teams Exploratory, this experience allows for tenant-based trials.
+> There are two possible experiences of Teams Exploratory: **organizational** or **self-service**. Starting late April 2023, users in organizations that don't have the organizational trial will be eligible for the self-service trial. Some of the instructions in this article will depend on which experience of Teams Exploratory your users have access to.
 >
 > To see if you have users with a Teams Exploratory license, you can go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) > **Billing** > **Licenses** > and scroll to see if **Microsoft Teams Exploratory** is listed. If it is listed, you have users with a Teams Exploratory license.
 >
@@ -115,7 +108,7 @@ You can turn off a user's ability to install trial apps and services, which woul
 
 #### If your users have the self-service Teams Exploratory trial
 
-If your tenant has users with the self-service Teams Exploratory trial (New Commerce Experience or non-New Commerce Experience), you need to use PowerShell to turn off a user's ability to install trial apps and services, even if trials were previously turned off.
+If your tenant has users with the self-service Teams Exploratory trial, you need to use PowerShell to turn off a user's ability to install trial apps and services, even if trials were previously turned off.
 
 For instructions on how to turn off and on users' ability to to install trial apps and services, see [Use AllowSelfServicePurchase for the MSCommerce PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
