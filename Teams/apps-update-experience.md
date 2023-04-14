@@ -51,15 +51,15 @@ Teams simplifies the app update experience for its users by requiring their cons
 
 A user can use an app in more than one context in Teams. When a user consents, the app is updated in their chats, channels, and meetings but only in the contexts where the previous version of the app was added. Users don't need to update the app separately in each context.
 
-* Personal app context - When a user is using an app in their private workspace.
+* **Personal app** context - When a user is using an app in their private workspace.
 
     :::image type="content" source="media/update-app-personal.png" alt-text="Screenshot that shows personal app context." lightbox="media/update-app-personal2.png":::
 
-* Tab app context - When a user opens an app from a tab within a team, meeting, or group chat.
+* **Tab app** context - When a user opens an app from a tab within a team, meeting, or group chat.
 
     :::image type="content" source="media/update-app-tab.png" alt-text="Screenshot that shows tab app context." lightbox="media/update-app-tab2.png":::
 
-* Bot app context - When a bot app initiates update in a chat with users.
+* **Bot app** context - When a bot app initiates update in a chat with users.
 
     :::image type="content" source="media/update-app-bot.png" alt-text="Screenshot that shows bot app context." lightbox="media/update-app-bot2.png":::
 
