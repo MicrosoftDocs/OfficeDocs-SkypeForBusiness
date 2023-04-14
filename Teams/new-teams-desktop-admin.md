@@ -333,6 +333,8 @@ As we improve the client, the experience has been improved to align with similar
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
 |Allow users to follow a user's presence and then notify them of availability|No longer available|
 |Activity tab in chat| No longer available|
+|Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
+|Allow users to follow another users presence, then notify them of availability|No longer available.|
 
 ## Known issues
 
@@ -342,10 +344,6 @@ There are a few known issues we're working on.
 
 **Issue**: Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
 **Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>See [**Prerequisites**](#prerequisites) section in this article. 
-
-
-**Issue**:  You currently can't save messages or files in Teams.</br>
-Details:  This functionality will be available later this year.
 
 ### Accessibility
 
@@ -418,9 +416,6 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue:** Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
   Details: The product group is investigating this issue.
 
-- **Issue:** Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
-  Details: The product group is investigating this issue.
-
 - **Issue:** An error occurs when joining a meeting whose organizer is from an organization for which you either (1) don't have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guests there.</br>
   Details: Before joining the meeting, turn off preview using the toggle button on the title bar.
 
@@ -430,9 +425,6 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue:** Some meeting details won't show up in new Teams.</br>
   Details include forwards, "show as," and assigned meeting categories.
-
-- **Issue:** When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"</br>
-  **Workaround**: If you leave the meeting by accident, re-join. 
 
 - **Issue:** If you're using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.</br>
   **Workaround**: As an organizer, if you plan to run Breakout sessions, switch back to classic Teams and inform all participants that the meeting includes Breakout Rooms, and they all must switch to classic Teams to participate.
