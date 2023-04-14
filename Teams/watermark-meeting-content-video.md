@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 09/28/2022
+ms.date: 04/14/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -69,23 +69,23 @@ When a watermark is being used in a meeting, the following features are turned o
 
 Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. For example, a member of the finance organization might use watermarks when sharing quarterly estimates with managers from different divisions.
 
-Since watermarks are designed to reduce the chances that confidential information will be exfiltrated, using them in meetings where all the participants have direct access to the content being shared, may not add to security.
+Since watermarks are designed to reduce the chances that confidential information will be exfiltrated, using them in meetings where all the participants have direct access to the content being shared may not add to security.
 
 For information about using watermarks with other meeting features to help protect confidential information in meetings, see [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
 
-## Enable watermarks
+## Configure watermarks
 
-For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled in the Teams admin center.
+For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled in the Teams admin center. (Watermarks are enabled by default.)
 
-To enable watermarking for meetings
+To configure watermarking for meetings
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 
 1. Select the policy you want to update.
 
-1. To enable watermark on attendee video, set **Watermark videos** to **On**.
+1. To configure watermark on attendee video, set **Watermark videos** to **On** or **Off**.
 
-1. To enable watermark on content shared on screen in a meeting, set **Watermark shared content** to **On**.
+1. To configure watermark on content shared on screen in a meeting, set **Watermark shared content** to **On** or **Off**.
 
     ![Screenshot of Teams admin policy for watermarks](media/watermark-admin-policy.png)
 
