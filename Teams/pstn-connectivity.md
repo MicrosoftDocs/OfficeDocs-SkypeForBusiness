@@ -204,7 +204,7 @@ Before reading the rest of this section on emergency calling considerations, mak
 
 How you configure emergency calling differs depending on your PSTN connectivity option.
 
-- For Calling Plan, each user is automatically enabled for emergency calling. Ths user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Calling Plans](considerations-calling-plan.md).
+- For Calling Plan, each user is automatically enabled for emergency calling. The user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Calling Plans](considerations-calling-plan.md).
 
 - For Operator Connect, each user is automatically enabled for emergency calling. The user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Operator Connect](considerations-operator-connect.md).
 
