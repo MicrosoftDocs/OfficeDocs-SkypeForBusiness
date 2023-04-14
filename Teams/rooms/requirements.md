@@ -147,8 +147,9 @@ Here are some examples of wireless network configuration best practices recommen
 - Keep wireless channel utilization below 50%.
 - Keep access point and router firmware up to date with the latest firmware versions and hot fixes.
 - Verify that Teams Rooms devices and at least one access point see each other with a signal strength of -60 dBm or better. A dBm value closer to zero is preferred. Follow your equipment manufacturer's recommendations.
-- Enable 802.11d to add country information to beacons, probe requests, and probe responses. If your wireless equipment doesn't support this, then use world-safe channels 36, 40, 44, or 48.
 - Implement QoS whenever possible to allow monitoring and resolution of issues in real time.
+
+For additional best practices specific to your wireless network hardware, check your manufacturer's documentation.
 
 You can also troubleshoot wireless network issues using the wireless network report built into Windows 10. For more information, see [Analyze the wireless network report - Microsoft Support](https://support.microsoft.com/windows/analyze-the-wireless-network-report-76da0daa-1db2-6049-d154-7bb679eb03ed).
 
