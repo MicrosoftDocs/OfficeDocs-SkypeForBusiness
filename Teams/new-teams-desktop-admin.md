@@ -47,7 +47,7 @@ This article describes the preview release of the new Microsoft Teams desktop cl
 > The new Teams client **is not** available for the following during the preview phase:
 >
 > **Platforms:**  Mac, VDI, Web</br>
-> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running Windows 10 version earlier than 10.0.19041
+> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 > [!TIP]
 > Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
