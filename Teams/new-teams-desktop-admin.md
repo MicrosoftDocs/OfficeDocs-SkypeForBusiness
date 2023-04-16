@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client 
 
 > [!NOTE]
-> The preview of the new Microsoft Teams desktop client for Windows will roll out beginning March 27, 2023 and is expected to complete over the following week.
+> The preview of the new Microsoft Teams desktop client for Windows rolled out on March 27, 2023 and is expected to complete over the following week.
 
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
@@ -47,7 +47,7 @@ This article describes the preview release of the new Microsoft Teams desktop cl
 > The new Teams client **is not** available for the following during the preview phase:
 >
 > **Platforms:**  Mac, VDI, Web</br>
-> **Customer segments:**  </br>Government & Special cloud (GCC, GCC High, DoD, Air-gapped, Microsoft 365 operated by 21Vianet in China), Consumer, Desktop running Windows 10 version earlier than 10.0.19041
+> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running Windows 10 version earlier than 10.0.19041
 
 > [!TIP]
 > Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
@@ -262,11 +262,12 @@ There are a few policies that could alter these registry keys and block app inst
 
 The following list of policies can block users from seeing the app switcher toggle.
 
+- Your admin has **sign in restrictions** set up [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
 - If the user is on a VDI computer (Citrix, VMware etc.). 
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
 - If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
-- [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
+
 
 ##### How do I know which one of the above policies is blocking me?
 
