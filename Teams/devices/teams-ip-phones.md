@@ -76,42 +76,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 ## Certified Teams Rooms on Android
 
-The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
-
-> [!NOTE]
-> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
-
-| Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
-|:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-|[Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
-|[Cisco Board Pro 75](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
-| EPOS Expand 5T | `1.2.22362.04`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
-| EXPAND Control Touch Console | `1.2.22250.08`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
-| Yealink MeetingBar A10 | `278.15.0.6 `   | September 3, 2025 | Small meeting room (4.5 m x 4.5 m)| 11|
-| Logitech Tap IP (VR0029) with RoomMate (VR0030) | `1.6.565`  |   September 3, 2024  | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Yealink MeetingBoard 86" | `155.15.0.10 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
-| Yealink MeetingBoard 65" | `155.15.0.6 `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
-| Yealink MeetingBar A20 | `133.15.0.108  `   | September 3, 2024 | Small meeting room(4.5 m x 4.5 m)| 10|
-| Yealink MeetingBar A30 | `133.15.0.108  `   | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10|
-| Logitech Tap IP VR0029     | `1.6.762`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
-| Neat Bar Pro   | `NFD1.20220914.1210 ` | September 3, 2024  |  Medium size room (4.5 m x 6 m) | 10|
-| Neat Bar | `NFF1.20220914.1210` |September 3, 2024|    Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad touch console | `NFA1.20220914.1206`  | August 5, 2023 | Compatible with Neat Bar & Neat Bar Pro | 9 |
-| Neat Board | `NFC1.20220914.1210 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
-| EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
-| Logitech Tap Device     | `1.2.982`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
-| Logitech Rally Bar Mini | `1.2.982`     |   September 3, 2024  |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Logitech Rally Bar      | `1.2.788`     |   September 3, 2024  |    Medium size room (4.5 m x 6 m)       | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| Yealink CTP18 touch console  | `137.15.0.28`    | August 5, 2023   | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 9 |
-| Poly Studio X30         | `4.0.0.100885`     | September 4, 2024  | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Poly Studio X50         | `4.0.0.100885`     | September 4, 2024   | Medium size room (4.5 m x 6 m) | 10 |
-| Poly Studio X70         | `4.0.0-376092`     | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly G7500              | `4.0.0.1009138`    | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly TC8                | `3.3.2.210441`     | August 5, 2023 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500|  9  |
-| Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) |  9  |
+For a list of certified Teams Rooms for Android systems, see [Teams Rooms certified hardware](../rooms/certified-hardware.md).
 
 ## Certified Teams Displays
 
