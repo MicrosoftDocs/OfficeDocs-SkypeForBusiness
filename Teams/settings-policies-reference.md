@@ -509,7 +509,7 @@ Use customization policies to customize the look of Teams meetings with your org
 
 ### Meeting settings
 
-Meeting settings allow you to customize meeting email invitations and configure network settings including port ranges for media traffic.
+Meeting settings allow you to customize meeting email invitations and configure network settings including port ranges for media traffic. These settings apply to all meetings organized by users in your organization.
 
 #### Participants
 
