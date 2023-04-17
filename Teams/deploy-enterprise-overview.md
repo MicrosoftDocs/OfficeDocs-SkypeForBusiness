@@ -28,6 +28,9 @@ If you're a medium or large business, you need to think about how you're going t
 
 After you've read the sections below and are ready to start deploying Teams in your organization, see [Set up Microsoft Teams in your enterprise](deploy-enterprise-setup.md).
 
+> [!TIP]
+> As a companion to this article, we recommend using the [**Microsoft Teams Rooms automated setup guide**](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [**M365 Setup portal**](https://go.microsoft.com/fwlink/?linkid=2222975).
+
 ## Architecture
 
 Teams is tightly integrated into Microsoft 365 and uses many features to power chat, file sharing, meetings, telephony, video streaming, and more. Before you roll out Teams, check out [Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md) to get familiar with how Teams works with the rest of Microsoft 365 to create a complete collaboration experience for your users.
