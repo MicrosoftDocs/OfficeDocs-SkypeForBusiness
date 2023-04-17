@@ -38,15 +38,11 @@ For more information, see [License options based on your plan: Microsoft Teams R
 >
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
-## Hardware requirements
+## Supported Microsoft Teams Rooms systems and peripherals
 
-A hardware deployment includes a selection of a Microsoft Teams Rooms system, combined with certified audio and video peripherals, and a cabling solution to integrate these devices together.  These options are described here.
+For a list of Windows and Android-based devices, and peripherals, that are certified for use with Teams Rooms systems, see [Teams Rooms certified hardware](certified-hardware.md).
 
-### Supported Microsoft Teams Rooms systems
-
-For a list of hardware that's certified for use with Teams Rooms systems, see [Teams Rooms certified hardware](certified-hardware.md).
-
-### Wireless network considerations
+## Wireless network considerations
 
 We strongly recommend that you connect your Teams Rooms devices to a wired network for greater stability and performance, ensuring a seamless meeting experience. If using a wired connection is not available, you may opt to use a wireless connection.
 

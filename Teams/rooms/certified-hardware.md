@@ -1,5 +1,5 @@
 ---
-title: Teams Rooms certified hardware
+title: Teams Rooms certified systems and peripherals
 author: dstrome
 ms.author: dstrome
 ms.reviewer: sohailta
@@ -18,10 +18,12 @@ ms.collection:
   - Tier1
 ms.custom: 
   - seo-marvel-mar2020
-description: Find lists of certified hardware for use with Microsoft Teams Rooms systems.
+description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems.
 ---
 
-# Teams Rooms certified hardware
+# Teams Rooms certified systems and peripherals
+
+A hardware deployment includes a selection of a Microsoft Teams Rooms system, combined with certified audio and video peripherals, and a cabling solution to integrate these devices together.  These options are described here.
 
 ## [Teams Rooms for Windows](#tab/Windows)
 
