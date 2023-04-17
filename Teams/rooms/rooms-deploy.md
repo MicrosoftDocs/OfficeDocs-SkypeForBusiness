@@ -30,6 +30,9 @@ Deployment of Microsoft Teams Rooms essentially breaks down into phases:
 - (Optional) Setting up Azure Monitor for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
 - Setting up Teams Rooms in meeting spaces and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
 
+> [!TIP]
+> As a companion to this article, we recommend using the [**Microsoft Teams Rooms automated setup guide**](https://go.microsoft.com/fwlink/?linkid=2224463) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [**M365 Setup portal**](https://go.microsoft.com/fwlink/?linkid=2222974).
+
 ## Site readiness 
 
 While the ordered devices are being delivered to your organization, work with your networking, facilities, and AV teams to make sure that deployment dependencies are met and each site and space is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, consult with your vendor and leverage the experience of your AV team when installing and mounting screens and running cabling.
