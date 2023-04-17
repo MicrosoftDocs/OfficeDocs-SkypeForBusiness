@@ -38,16 +38,16 @@ This Power BI template provides three reports that allow organizations to report
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
 - The Auto Attendant report shows analytics for calls coming into your auto attendants.
-  - [Original Report](media/aa-cq-historical-report-sample-aa-v310-orig.png)
-  - [New Report](media/aa-cq-historical-report-sample-aa-v310-new.png)
+  - [Original](media/aa-cq-historical-report-sample-aa-v310-orig.png)
+  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-aa-v310-new.png)
  
 - The Call Queue report shows analytics for calls coming into your call queues.
-  - [Original Report](media/aa-cq-historical-report-sample-cq-v310-orig.png)
-  - [New Report](media/aa-cq-historical-report-sample-cq-v310-new.png)
+  - [Original](media/aa-cq-historical-report-sample-cq-v310-orig.png)
+  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-cq-v310-new.png)
 
 - The Agent Timeline report shows a timeline view of agents being active in call queue calls.
-  - [Original Report](media/aa-cq-historical-report-sample-at-v310-orig.png)
-  - [New Report](media/aa-cq-historical-report-sample-at-v310-new.png)
+  - [Original](media/aa-cq-historical-report-sample-at-v310-orig.png)
+  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-at-v310-new.png)
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -113,21 +113,21 @@ You'll have to refresh the data to see any new data.
 
 #### Report description
 
-|Report Section                          |Description                                                       |
-|:---------------------------------------|:-----------------------------------------------------------------|
-|Incoming Call Source                    |Distribution of calls by Internal/External call source            |
-|Directory Search Method                 |Distribution of calls by search type                              |
-|Caller Action Count                     |Distribution of calls by number action used during the call       |
-|Average Seconds in AA                   |Average number of seconds callers spend in the AA                 |
-|Average Caller Actions                  |Average number of actions callers perform in the AA               |
-|Call Results                            |Distribution of calls by final call state                         |
-|Lower section of report                 |Call flow breakdown                                               |
+|Report Section                                                    |Description                                                       |
+|:-----------------------------------------------------------------|:-----------------------------------------------------------------|
+|Original:Incoming Call Source<br>New:Incoming Calls               |Distribution of calls by Internal/External call source            |
+|Directory Search Method                                           |Distribution of calls by search type                              |
+|Caller Action Count                                               |Distribution of calls by number action used during the call       |
+|Original:Average Seconds in AA<br>New:AA Stats Duration [secs]    |Average number of seconds callers spend in the AA                 |
+|Original:Average Caller Actions<br>New:AA Stats Caller Actions    |Average number of actions callers perform in the AA               |
+|Call Results                                                      |Distribution of calls by final call state                         |
+|Lower section of report                                           |Call flow breakdown                                               |
 
 #### Report visual and field mapping
 
-|Report Tab            |Report Table Name     |Global Filter                          |
-|:---------------------|:---------------------|:--------------------------------------|
-|Auto Attendant        |fAutoAttendant        |None                                   |
+|Report Tab                                  |Report Table Name     |Global Filter                          |
+|:-------------------------------------------|:---------------------|:--------------------------------------|
+|Auto Attendant<br>Auto Attendant - New      |fAutoAttendant        |None                                   |
 
 |Report Section                               |Field(s) Used                                                                                    |Filters Applied |
 |:--------------------------------------------|:------------------------------------------------------------------------------------------------|:----------|
@@ -142,7 +142,7 @@ You'll have to refresh the data to see any new data.
 |Call Results                                 |AACallResult<br>AACallResultLegend<br>TotalCallCount                                             |None       |
 |Lower section of report                      |MM-DD<br>AA Name<br>AACallFlow<br>Call Type<br>AACallResult<br>TotalCallCount<br>AAChainDuration |None       |
 
-#### fAutoAttendant field description
+#### fAutoAttendant table field description
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
@@ -181,15 +181,15 @@ You'll have to refresh the data to see any new data.
 
 #### Report description
 
-|Report Section                          |Description                                                        |
-|:---------------------------------------|:------------------------------------------------------------------|
-|Incoming Call Source                    |Distribution of calls by Internal/External call source             |
-|Average Wait Time (seconds)             |Wait time for answered and abandoned calls                         |
-|Call Volume and Agent Opt-in Count      |Distribution of calls by call queues / Maximum agent opt-in count  |
-|Call Results                            |Distribution of calls by call result                               |
-|Abandoned Calls                         |Distribution of abandoned calls by call queues                     |
-|Average Session Length (seconds)        |Call length in seconds grouped by call result                      |
-|Call Overflow/Timeout Destinations      |Distribution of calls that timed out or overflowed                 |
+|Report Section                                        |Description                                                        |
+|:-----------------------------------------------------|:------------------------------------------------------------------|
+|Original:Incoming Call Source<br>New:Incoming Calls   |Distribution of calls by Internal/External call source             |
+|Average Wait Time (seconds)                           |Wait time for answered and abandoned calls                         |
+|Call Volume and Agent Opt-in Count                    |Distribution of calls by call queues / Maximum agent opt-in count  |
+|Call Results                                          |Distribution of calls by call result                               |
+|Abandoned Calls                                       |Distribution of abandoned calls by call queues                     |
+|Average Session Length (seconds)                      |Call length in seconds grouped by call result                      |
+|Call Overflow/Timeout Destinations                    |Distribution of calls that timed out or overflowed                 |
 
 
 #### Report visual and field mapping
@@ -212,7 +212,7 @@ You'll have to refresh the data to see any new data.
 |Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
 
 
-#### fCallQueueAnalytics field description
+#### fCallQueueAnalytics table field description
 
 |Name                                    |Data Type                |Description                                                                              |
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ You'll have to refresh the data to see any new data.
 |TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                             |
 
 
-#### fCallQueueFinalStateAction field description
+#### fCallQueueFinalStateAction table field description
 
 |Name                                    |Data Type                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ You'll have to refresh the data to see any new data.
 |Bottom Left                                   |Agent Name<br>Average Call Duration (Seconds)<br>CQ Name<br>Hour<br>MM-DD<br>Total Call Count<br>Total Call Duration (HH:MM:SS)<br>Total Call Duration (Minutes) | None |
 |Average Answered Call Duration (Seconds) by Agent      |Agent Name<br>Average Call Duration (Seconds) | None |
 
-#### fAgentTimelineAnalytics field description
+#### fAgentTimelineAnalytics table field description
 
 |Name                                    |Data Type                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
@@ -309,7 +309,7 @@ You'll have to refresh the data to see any new data.
 |Hour                                    |Whole number             |Hour of call                                             |
 |Total Call Count                        |Whole number             |Summarize: Sum<br>Number of calls presented to agent     |
 
-#### fAgentTimelineAnalyticsSummary field description
+#### fAgentTimelineAnalyticsSummary table field description
 
 |Name                                    |Data Type                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
