@@ -7,6 +7,8 @@ items:
   items:
     - name: Deployment overview
       href: deploy-overview.md
+    - name: Teams Premium trial
+      href: teams-premium-trial.md
     - name: Quick start
       items: 
         - name: Quick start overview
