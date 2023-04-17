@@ -61,7 +61,7 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 ### Power BI Service
 
-Running this report in the Power BI service is not supported.
+Running this report in the Power BI service isn't supported.
 
 ### Permissions to access the CQD pipeline
 
@@ -333,7 +333,7 @@ You'll have to refresh the data to see any new data.
 
 - Call queues and auto attendants are shown by the resource account's ID instead of call queue or auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
-- Only 28 days of call history is available.  Call queue and auto attendant data is considered personal data and is subject to data privacy retention policies.
+- Only 28 days of call history is available. Call queue and auto attendant data is considered personal data and is subject to data privacy retention policies.
 
 - In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
@@ -558,7 +558,7 @@ A valid query consists of several attributes in a JSON object:
 
 ## Accessing VAAC outside of Power BI
 
-Any application that can access RESTful web services can use the VAAC API to retrieve historical data.  In the example below, [Postman](https://www.postman.com/) will be used.
+Any application that can access RESTful web services can use the VAAC API to retrieve historical data. In the example below, [Postman](https://www.postman.com/) will be used.
   
 
 ### Preparation
