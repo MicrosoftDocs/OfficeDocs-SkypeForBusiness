@@ -334,7 +334,7 @@ As we improve the client, the experience has been improved to align with similar
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
 |Activity tab in chat| No longer available|
 |Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
-|Allow users to follow another users presence, then notify them of availability|View a users profile card to see their availability.|
+|Allow users to follow another users presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
 
 ## Known issues
 
