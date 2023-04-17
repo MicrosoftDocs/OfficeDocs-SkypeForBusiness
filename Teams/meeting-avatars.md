@@ -22,6 +22,7 @@ description: Learn how to set up the avatars for Microsoft Teams app.
 Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. You can control whether avatars for Teams is available in your organization and who can use them using policies.
 
 > [!NOTE]
+> Avatars for Microsoft Teams are available as part of the public preview program and might undergo further changes before being released publicly.
 > There is a known limitation in the Teams admin center where you can only view and manage apps that are in the same release channel as the tenant. For example, if your tenant is in the general release channel, you can't manage apps that are deployed in the private or public preview channels. We're working to resolve this issue for future preview app releases. This won't be an issue for apps that are released to the general release channel.
 
 Setup and permissions policies allow or block the avatars for Teams app in your organization. Policies control whether an app is available to users, automatically pinned in their Teams client, or blocked from use. By default, the **Global (Org-wide default)** policy is applied to all users in your organization. However, you can create more policies for subsets of your users, such as executives, sales, manufacturing, and so on.
