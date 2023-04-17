@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client 
 
 > [!NOTE]
-> The preview of the new Microsoft Teams desktop client for Windows will roll out beginning March 27, 2023 and is expected to complete over the following week.
+> The preview of the new Microsoft Teams desktop client for Windows rolled out on March 27, 2023 and is expected to complete over the following week.
 
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
@@ -47,7 +47,7 @@ This article describes the preview release of the new Microsoft Teams desktop cl
 > The new Teams client **is not** available for the following during the preview phase:
 >
 > **Platforms:**  Mac, VDI, Web</br>
-> **Customer segments:**  </br>Government & Special cloud (GCC, GCC High, DoD, Air-gapped, Microsoft 365 operated by 21Vianet in China), Consumer, Desktop running Windows 10 version earlier than 10.0.19041
+> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 > [!TIP]
 > Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
@@ -262,11 +262,12 @@ There are a few policies that could alter these registry keys and block app inst
 
 The following list of policies can block users from seeing the app switcher toggle.
 
+- Your admin has **sign in restrictions** set up [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
 - If the user is on a VDI computer (Citrix, VMware etc.). 
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
 - If the user is signed in to classic Teams with a *Teams for Life* account.
 - If you have an MSIX client. 
-- [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
+
 
 ##### How do I know which one of the above policies is blocking me?
 
@@ -333,6 +334,8 @@ As we improve the client, the experience has been improved to align with similar
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
 |Allow users to follow a user's presence and then notify them of availability|No longer available|
 |Activity tab in chat| No longer available|
+|Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
+|Allow users to follow another users presence, then notify them of availability|No longer available.|
 
 ## Known issues
 
@@ -414,9 +417,6 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue:** Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
   Details: The product group is investigating this issue.
 
-- **Issue:** Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
-  Details: The product group is investigating this issue.
-
 - **Issue:** An error occurs when joining a meeting whose organizer is from an organization for which you either (1) don't have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guests there.</br>
   Details: Before joining the meeting, turn off preview using the toggle button on the title bar.
 
@@ -426,9 +426,6 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue:** Some meeting details won't show up in new Teams.</br>
   Details include forwards, "show as," and assigned meeting categories.
-
-- **Issue:** When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"</br>
-  **Workaround**: If you leave the meeting by accident, re-join. 
 
 - **Issue:** If you're using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.</br>
   **Workaround**: As an organizer, if you plan to run Breakout sessions, switch back to classic Teams and inform all participants that the meeting includes Breakout Rooms, and they all must switch to classic Teams to participate.

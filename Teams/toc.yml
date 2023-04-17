@@ -459,13 +459,13 @@ items:
         - name: Overview
           href: teams-analytics-and-reports/teams-reporting-reference.md
         - name: Teams usage report
-          href: teams-analytics-and-reports/teams-usage-report.md
+          href: /microsoft-365/admin/activity-reports/microsoft-teams-usage-activity?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams user activity report
-          href: teams-analytics-and-reports/user-activity-report.md
+          href: /microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams app usage report
           href: teams-analytics-and-reports/app-usage-report.md
         - name: Teams device usage report
-          href: teams-analytics-and-reports/device-usage-report.md
+          href: /microsoft-365/admin/activity-reports/microsoft-teams-device-usage-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: PSTN blocked users report
           href: teams-analytics-and-reports/pstn-blocked-users-report.md
         - name: PSTN minute pools report
@@ -600,8 +600,6 @@ items:
       items:
         - name: Quick start 
           href: quick-start-meetings-live-events.md
-        - name: Manage meetings settings
-          href: meeting-settings-in-teams.md
         - name: Meeting policies overview
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
@@ -636,6 +634,8 @@ items:
               href: set-up-the-call-me-feature-for-your-users.md
             - name: View-only meeting experience
               href: view-only-meeting-experience.md
+            - name: Meeting invitations
+              href: customize-meeting-invitations.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
         - name: Standardized meetings
@@ -684,10 +684,14 @@ items:
           items:
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
+            - name: RTMP
+              href: meetings-rtmp-in.md
             - name: Use NDI® technology in Teams
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
+            - name: Real-time media traffic
+              href: meetings-real-time-media-traffic.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
@@ -1115,21 +1119,31 @@ items:
           href: network-roaming-policy.md
     - name: Emergency calling
       items: 
-        - name: Overview
-          href: what-are-emergency-locations-addresses-and-call-routing.md
+        - name: Plan and manage emergency calling
+          items:
+          - name: Overview
+            href: what-are-emergency-locations-addresses-and-call-routing.md
+          - name: Considerations for Calling Plan
+            href: considerations-calling-plan.md
+          - name: Considerations for Operator Connect
+            href: considerations-operator-connect.md
+          - name: Considerations for Teams Phone Mobile
+            href: considerations-teams-phone-mobile.md
+          - name: Considerations for Direct Routing
+            href: considerations-direct-routing.md
         - name: Configure dynamic emergency calling
           href: configure-dynamic-emergency-calling.md
         - name: Emergency addresses for remote locations
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
           items: 
-            - name: Add, change, or remove an emergency location for your organization
+            - name: Manage an emergency location for your organization
               href: add-change-remove-emergency-location-organization.md
-            - name: Add, change, or remove a place for an emergency location in your organization
+            - name: Manage a place for an emergency location in your organization
               href: add-change-remove-emergency-place-organization.md
-            - name: Assign or change an emergency location for a user
+            - name: Assign an emergency location for a user
               href: assign-change-emergency-location-user.md
-            - name: Assign or change a place for an emergency location for a user
+            - name: Assign a place for an emergency location
               href: assign-change-emergency-place-user.md
             - name: Emergency call labels
               href: emergency-calling-labels.md
@@ -1137,8 +1151,6 @@ items:
           href: manage-emergency-calling-policies.md
         - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
-    - name: Manage voice and calling policies in Teams
-      href: voice-and-calling-policies.md
     - name: Contoso voice migration case study
       items: 
         - name: Overview
@@ -1158,6 +1170,8 @@ items:
   
     - name: Reference
       items: 
+        - name: Voice policies reference
+          href: settings-policies-reference.md#voice
         - name: Country phone number management
           items: 
             - name: Phone number management for Australia
@@ -1612,7 +1626,7 @@ items:
           href: overview-of-app-validation.md
         - name: Know about security, compliance, and privacy of apps
           href: overview-of-app-certification.md
-        - name: Purchase and manage app subscriptions
+        - name: Purchase app subscriptions and manage licenses
           href: purchase-third-party-apps.md
         - name: Manage user requests
           href: user-requests-approve-apps.md
@@ -1785,10 +1799,12 @@ items:
           href: get-started-with-retail-teams-templates.md
 - name: Reference
   items: 
-    - name: Teams policies reference
+    - name: Teams settings and policies reference
       href: settings-policies-reference.md   
     - name: Limits and specifications for Teams
       href: limits-specifications-teams.md            
+    - name: Meeting templates reference
+      href: predefined-meeting-template-reference.md
     - name: Licensing
       items: 
         - name: Manage user access to Teams
