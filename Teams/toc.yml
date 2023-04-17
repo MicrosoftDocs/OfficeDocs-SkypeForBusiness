@@ -1403,16 +1403,6 @@ items:
               href: rooms/rooms-plan.md
             - name: Requirements
               href: rooms/requirements.md
-            - name: Licensing
-              items:
-                - name: Overview of Teams Rooms licensing
-                  href: rooms/rooms-licensing.md
-                - name: Teams Rooms admin center licensing
-                  href: rooms/admin-center-license-overview.md
-                - name: Teams Rooms legacy licensing
-                  href: rooms/rooms-legacy-licensing.md
-            - name: Meeting room guidance for Teams
-              href: rooms/room-planning-guidance.md
             - name: Hardware and operating systems
               items:
                 - name: Certified Teams Rooms hardware
@@ -1425,6 +1415,16 @@ items:
                   href: rooms/security-windows.md
                 - name: Android security
                   href: rooms/security-android.md
+            - name: Licensing
+              items:
+                - name: Overview of Teams Rooms licensing
+                  href: rooms/rooms-licensing.md
+                - name: Teams Rooms admin center licensing
+                  href: rooms/admin-center-license-overview.md
+                - name: Teams Rooms legacy licensing
+                  href: rooms/rooms-legacy-licensing.md
+            - name: Meeting room guidance for Teams
+              href: rooms/room-planning-guidance.md
             - name: Plan Azure Monitor
               href: rooms/azure-monitor-plan.md
             - name: Release notes
