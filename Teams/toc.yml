@@ -640,6 +640,8 @@ items:
               href: stream-teams-meetings.md
         - name: Standardized meetings
           items: 
+            - name: Meeting customization
+              href: custom-meetings-overview.md
             - name: Custom meeting backgrounds
               href: custom-meeting-backgrounds.md
             - name: Meeting themes
