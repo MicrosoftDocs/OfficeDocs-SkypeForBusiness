@@ -51,6 +51,9 @@ This article introduces the following steps. Each step contains links to more de
 > [!NOTE]
 > Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, the steps and sequence for phone number management and emergency calling management might differ. These differences are described in detail in the associated articles.
 
+> [!TIP]
+> As a companion to this article, we recommend using the [**Plan and implement your Microsoft Teams Phone deployment setup guide**](https://go.microsoft.com/fwlink/?linkid=2224790) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [**M365 Setup portal**](https://go.microsoft.com/fwlink/?linkid=2223356).
+
 ## Step 1: Buy and assign a Phone System license
 
 For each user who uses Phone System, you must assign a Phone System license to that user.
