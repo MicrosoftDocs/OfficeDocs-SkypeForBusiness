@@ -110,7 +110,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X50         | `4.0.0.100885`     | September 4, 2024   | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70         | `4.0.0-376092`     | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500              | `4.0.0.1009138`    | September 4, 2024   | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
+| Poly TC8                | `3.3.2.210441`     | August 5, 2023 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500|  9  |
 | Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) |  9  |
 
 ## Certified Teams Displays
@@ -128,6 +128,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 | Crestron UC-P10-TD |`1.0.0.42`| August 5, 2023 |  9  |
 
 ## Certified Teams panels
+
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
 > [!NOTE]
@@ -151,6 +152,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2 | April 04, 2023 | `1449/1.0.94.2023032903` | `5.0.5484.0` | `413`|
 | 2023 Update #1A | February 21, 2023 | `1449/1.0.94.2023020602` | `5.0.5484.0` | `382`|
 | 2022 Update #5 | January 25, 2023 | `1449/1.0.94.2023010607` | `5.0.5484.0` | `382`|
 | 2022 Update #4A | November 30, 2022 | `1449/1.0.94.2022110803` | `5.0.5484.0` | `382`|
@@ -183,6 +185,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.456` | 2023 Update #1A    |
 |Poly CCX 350/400/500/600/505 | `8.1.1.3290` | 2022 Update #4A |
 |Poly Trio C60 | `8.1.1.3291` | 2022 Update #4A |
 |Poly CCX 350/400/500/600/505 | `8.0.2.3267` | 2022 Update #4A |
@@ -317,6 +320,18 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.37` | 2022 Update #3 |
+| Yealink MeetingBoard 86" | `155.15.0.37` | 2022 Update #3 |
+| Neat Bar | `NFB1.20221128.0011` | 2022 Update #3 |
+| Neat Bar Pro| `NFD1.20221128.0011` | 2022 Update #3 |
+| Neat Board | `NFC1.20221128.0011` |  2022 Update #3 |
+| Neat Pad touch console | `NFA1.20221128.0007`  |  2022 Update #3 |
+| Logi Rallybar | `1.8.714`   | 2023 Update #1  |
+| Logi Rallybar Mini | `1.8.714`   | 2023 Update #1  |
+| Logi RoomMate | `1.8.575`   | 2023 Update #1  |
+| Logi Console  | `1.8.558`    | 2023 Update #1  |
+| Cisco Board Pro 55] | `11.3.1.16` | 2022 Update #3A |
+| Cisco Board Pro 75] | `11.3.1.16` | 2022 Update #3A |
 | Poly Studio X30 | `4.0.0-376092` | 2022 Update #3 |
 | Poly Studio X50 | `4.0.0-376092` | 2022 Update #3 |
 | Poly Studio X70 | `4.0.0-376092` | 2022 Update #3 |
@@ -477,6 +492,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel /770-T/1070-T | `2.004.0033.001` | 2022 Update #4A|
 |Yealink RoomPanel | ` 147.15.0.40 ` | 2022 Update #4A |
 |Logitech Tap Scheduler | `1.8.184` |2022 Update #4A  |
 |Crestron Touchpanel /770-T/1070-T | `2.003.1024.001` | 2022 Update #4|
@@ -515,3 +531,4 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Teams and Skype interoperability](../teams-skype-interop.md)
+

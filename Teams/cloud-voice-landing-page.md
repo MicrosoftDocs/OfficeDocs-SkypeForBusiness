@@ -61,7 +61,6 @@ For a visual summary of all the voice solution options, see the voice solutions 
 
 **Required for all.** Some of the sections in this article pertain to all organizations. For example, everyone should read about Phone System and understand the options for connecting to the Public Switched Telephone Network (PSTN).
 
-
 | Required for all | Description |
 | :------------|:-------|
 | [**Phone System**](#phone-system) | Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams. |
@@ -82,9 +81,8 @@ Consider which of these other configurations you might need:
 | [**Network topology for cloud voice features**](pstn-connectivity.md#network-topology-for-voice-features) | If your organization is deploying Location-Based Routing (LBR) for Direct Routing or dynamic emergency calling, you must configure network settings for these features in Microsoft Teams. Read this section if you're implementing LBR for Direct Routing, or if you're implementing dynamic emergency calling with Calling Plan or Direct Routing. |
 | [**Migrate your existing voice solution**](#migrate-your-existing-voice-solution-to-teams) | What you need to think about when migrating your voice solution to Teams.  Read this section if you're migrating from an existing voice solution to Teams. 
 
-> [!Important]
+> [!IMPORTANT]
 > This article focuses on voice solutions with Microsoft Teams. Due to the retirement of Skype for Business Online on July 31, 2021, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online is no longer supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Operator Connect or Direct Routing.
-
 
 ## Phone System
 
@@ -109,7 +107,6 @@ For information about all Phone System features, and how to set up Phone System,
   Describes how to buy and assign Phone System licenses, manage phone numbers, and set up communication credits for toll-free numbers. 
 
 For information about managing supported devices, see [Manage your devices in Microsoft Teams](devices/device-management.md) and [Teams Marketplace](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
-
 
 ### Auto attendants and Call queues
 
@@ -136,10 +133,9 @@ For more information about Cloud Voicemail and its configuration, see the follow
 - [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
 - [Set voicemail policies in your organization](manage-voicemail-policies.md)
 
-
 ### Calling identity
 
-By default, all outbound calls use the assigned phone number as calling identity (caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. For information about configuring caller ID or to change or block the caller ID, see [Set the caller ID for a user](set-the-caller-id-for-a-user.md). 
+By default, all outbound calls use the assigned phone number as calling identity (caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. For information about configuring caller ID or to change or block the caller ID, see [Manage caller ID policies for users](caller-id-policies.md). 
 
 ## Public Switched Telephone Network connectivity options
 
@@ -153,11 +149,9 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 - [**Phone System with your own PSTN carrier by using Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) to connect your on-premises environment to Teams.
 
-
 You can choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration. You'll read more about migration later.
 
 Most Phone System features are the same regardless of the PSTN connectivity option you choose. There are some differences in functionality, however, that affect how you configure certain Phone System features, such as call routing and emergency calling. For more information about PSTN connectivity options and configuration considerations, see [PSTN connectivity options](pstn-connectivity.md).
-
 
 ## Migrate your existing voice solution to Teams
 
@@ -193,3 +187,4 @@ For more information about how to implement your voice migration for each of the
   - [Emergency calling](voice-case-study-emergency-calling.md)
   - [Auto attendants and call queues](voice-case-study-call-queues.md)
   - [Audio Conferencing](voice-case-study-audio-conferencing.md)
+  - [Teams voice policies reference](settings-policies-reference.md#voice)
