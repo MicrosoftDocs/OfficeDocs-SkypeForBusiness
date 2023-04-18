@@ -42,10 +42,26 @@ To configure meeting chat:
 
 Once this **Chat in meetings** policy is applied to users, an organizer can't override this policy through **Meeting options**.
 
+**OLD VERSION BELOW**
 The policy applied to the meeting organizer can affect other users in the meeting. For example:
 
 - If the organizer has **Chat in meetings** set to **On for everyone** or **On for everyone but anonymous users**, then a user's individual policy will apply and any users with **On for everyone** set won't be able to chat in the meeting.
 - If the organizer has **Chat in meetings** set to **Off for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
+
+------------
+|         | Chat in Meeting Policy | Allow meeting chat setting| Chat behavior for users| 
+| :---:          |     :---:      |         :---:  |         :---:  |
+| **On for everyone**   | Enabled | Participants and organizers can read and send messages before and during meetings. **Anonymous** users can read and send messages **during** meetings only.|
+| ** On for everyone**     | In meeting only | **Organizers** can send messages before and after the meeting, but **participants** can **only** read these messages. **During** the meeting, all participants can read and send messages.| 
+| ** On for everyone**     | Disabled | No one can send messages before, during, or after meetings.| 
+| **On for everyone but anonymous users**   | Enabled | Participants and organizers can read and send messages before, during, and after meetings. However, **Anonymous** users **can’t** read or send any messages before, during, or after the meeting.|
+| ** On for everyone but anonymous users**     | In meeting only | **Anonymous** users **can’t** read or send any messages before, during, or after the meeting. **Organizers** can send messages before and after the meeting, but **participants** (excluding anonymous users)can **only** read these messages. **During** the meeting, participants can read and write messages.|
+| ** On for everyone but anonymous users**     | Disabled | No one can send messages before, during, or after meetings.| 
+| **Off for everyone**   | Enabled | No one can send messages before, during, or after meetings|
+| **Off for everyone**     | In meeting only No one can send messages before, during, or after meetings.|
+| **Off for everyone**     | Disabled | No one can send messages before, during, or after meetings.|
+
+
 
 ## Manage meeting chat using PowerShell
 
