@@ -29,7 +29,7 @@ If you're a medium or large business, you need to think about how you're going t
 After you've read the sections below and are ready to start deploying Teams in your organization, see [Set up Microsoft Teams in your enterprise](deploy-enterprise-setup.md).
 
 > [!TIP]
-> As a companion to this article, we recommend using the [**Microsoft Teams Rooms automated setup guide**](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [**M365 Setup portal**](https://go.microsoft.com/fwlink/?linkid=2222975).
+> As a companion to this article, we recommend using the [Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222975).
 
 ## Architecture
 
