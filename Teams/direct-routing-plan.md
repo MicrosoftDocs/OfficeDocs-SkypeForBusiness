@@ -14,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
