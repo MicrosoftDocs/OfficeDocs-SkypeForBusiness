@@ -30,7 +30,7 @@ description: Learn how to set up and manage webinar policies in Teams.
 
 ## Overview
 
-Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how to configure your settings to use and manage webinar functionality.
+Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how you, as an admin, can configure your settings to use and manage webinar functionality.
 
 In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. To learn more about advanced webinars, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
@@ -135,7 +135,7 @@ For more information on the email communications experience for your end users, 
 
 ### Manage emails communications for webinars with PowerShell
 
-You can use PowerShell to manage whether organizers and co-organizers can edit the following email templates:
+As an admin, you can manage whether organizers and co-organizers can edit the following email templates through PowerShell:
 
 - Registration Confirmation
 - Webinar update
@@ -145,6 +145,8 @@ You can use PowerShell to manage whether organizers and co-organizers can edit t
 - Attendee in waitlist
 - Attendee pending approval
 - Attendee registers after waitlist
+
+The **`-EnableEventEmailEditing`** parameter in the **CsTeamsEventsPolicy** cmdlet controls the availability of email communication templates for your users.
 
 The following table shows the behaviors of the settings for the **`-EnableEventEmailEditing`** parameter:
 
