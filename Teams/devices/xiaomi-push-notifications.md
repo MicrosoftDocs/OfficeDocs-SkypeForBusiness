@@ -54,7 +54,7 @@ To activate the operational message, perform the following steps:
 
 There are several limitations in the solution that configures Mi push to Xiaomi Android phones:
 
-1. When Teams is not in the foreground, Teams message notification includes just the generic information such as **You have received a message**.
+1. When Teams isn't in the foreground, Teams message notification includes just the generic information such as **You have received a message**.
 1. The Teams Incoming call will have the notification message **Incoming call** only, unless you explicitly tap the incoming call notification to answer or reject the VOIP calls.
 1. Behavior in Xiaomi devices/series with different Android or MIUI versions may be different due to the native Android or MIUI’s handling logic on notification.
 1. After installing the new Teams client, you need to send several messages before you can see the operational message in your OS’ notification configuration panel for Teams.
