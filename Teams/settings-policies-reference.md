@@ -509,7 +509,7 @@ Use customization policies to customize the look of Teams meetings with your org
 
 ### Meeting settings
 
-Meeting settings allow you to customize meeting email invitations and configure network settings including port ranges for media traffic.
+Meeting settings allow you to customize meeting email invitations and configure network settings including port ranges for media traffic. These settings apply to all meetings organized by users in your organization.
 
 #### Participants
 
@@ -685,7 +685,7 @@ Calling policies are used to control what calling features are available to peop
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Make private calls|On|This setting controls all calling capabilities in Teams. Turn off this setting to turn off all calling functionality in Teams.|
-|Meeting recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
+|Cloud recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
 |Transcription|Off|This setting allows you to control whether post-call transcriptions are available for your users.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
 |Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|

@@ -11,6 +11,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:

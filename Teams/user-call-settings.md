@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 audience: Admin
 ms.localizationpriority: medium
 f1.keywords: 

@@ -16,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 
