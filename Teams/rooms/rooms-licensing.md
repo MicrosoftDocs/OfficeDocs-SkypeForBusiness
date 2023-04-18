@@ -142,7 +142,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 |:--------------------------------------------------------------------|:---------------------------:|:-------------------------:|
 | **Secure operating system**                                         | &#x2714;                    | &#x2714;                  |
 | **System level security (Secure boot, Assigned Access mode, etc.)** | &#x2714;                    | &#x2714;                  |
-| **Azure AD condition access policies**                              |                             | &#x2714;                  |
+| **Azure AD conditional access policies**                              |                             | &#x2714;                  |
 
 ### Device management
 
