@@ -59,11 +59,11 @@ The following table shows how an admin's **Meeting chat** policy settings intera
 
 | Meeting chat | Allow meeting chat| Chat behavior for users|
 |     :---:      |         :---:  |         :---:  |
-| On for everyone   | Enabled | Participants and organizers can read and send messages before and during meetings. **Anonymous** users can read and send messages **during** meetings only.|
+| On for everyone   | Enabled | Participants and organizers can read and send messages before, during, and after meetings. **Anonymous** users can read and send messages **during** meetings only.|
 | On for everyone    | In meeting only | **Organizers** can send messages before and after the meeting, but **participants** can **only** read these messages. **During** the meeting, all participants can read and send messages.|
 | On for everyone     | Disabled | **No one** can send messages before, during, or after meetings.|
 | On for everyone but anonymous users   | Enabled | Participants and organizers can read and send messages before, during, and after meetings. However, **Anonymous** users **can’t** read or send any messages before, during, or after the meeting.|
-| On for everyone but anonymous users     | In meeting only | **Anonymous** users **can’t** read or send any messages before, during, or after the meeting. **Organizers** can send messages before and after the meeting, but **participants** (excluding anonymous users)can **only** read these messages. **During** the meeting, participants can read and write messages.|
+| On for everyone but anonymous users     | In meeting only | **Anonymous** users **can’t** read or send any messages before, during, or after the meeting. **Organizers** can send messages before and after the meeting, but **participants** (excluding anonymous users)can **only** read these messages. **During** the meeting, participants can read and send messages.|
 | On for everyone but anonymous users     | Disabled | **No one** can send messages before, during, or after meetings.|
 | Off for everyone   | Enabled | **No one** can send messages before, during, or after meetings|
 | Off for everyone    | In meeting only | **No one** can send messages before, during, or after meetings.|
