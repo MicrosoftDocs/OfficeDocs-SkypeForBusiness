@@ -2928,7 +2928,7 @@
     {
       "source_path": "Teams/rooms/security-android.md",
       "redirect_url": "/microsoftteams/rooms/security?tabs=Android",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/audio-conferencing-smb.md",
