@@ -51,7 +51,6 @@ The policy applied to the meeting organizer can affect other users in the meetin
 - If the organizer has **Chat in meetings** set to **On for everyone** or **On for everyone but anonymous users**, then a user's individual policy will apply and any users with **On for everyone** set won't be able to chat in the meeting.
 - If the organizer has **Chat in meetings** set to **Off for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
 
-
 **NEW VERSION BELOW**:
 
 In addition to this **Meeting chat** policy, your users have their own meeting option called **Allow meeting chat**. Organizers can use this meeting option to manage chat availability in meetings they create. For more information on **Allow meeting chat**, see [Participant settings for a Teams meeting.](https://support.microsoft.com/office/participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)
