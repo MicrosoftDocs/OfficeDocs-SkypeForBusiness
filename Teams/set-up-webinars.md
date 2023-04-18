@@ -127,6 +127,41 @@ Use the following PowerShell script to turn off webinars:
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
+## Email communications for webinars
+
+Admins can now decide if event organizers and co-organizers can use email templates for webinars. With email templates, organizers and co-organizers can manage waitlists, remind attendees about webinars they've registered for, and provide clear instructions to attendees before, during, and after the event.
+
+For more information on the email communications experience for your end users, see [**PLACEHOLDER FOR END USER EMAIL COMMUNICATIONS DOC**].
+
+### Manage emails communications for webinars with PowerShell
+
+You can use PowerShell to manage whether organizers and co-organizers can edit the following email templates:
+
+- Registration Confirmation
+- Webinar update
+- Webinar cancellation
+- Reminder email
+- Attendee cancellation
+- Attendee in waitlist
+- Attendee pending approval
+- Attendee registers after waitlist
+
+The following table shows the behaviors of the settings for the **`-EnableEventEmailEditing`** parameter:
+
+|Setting value| Behavior|
+|---------|---------------|
+|Enabled| **This is the default value.** Event organizers and co-organizers can edit all email templates for every event they organize.|
+|Disabled| Event organizers and co-organizers can’t edit any email templates.|
+
+The following example turns off **`-EnableEventEmailEditing`** so organizers and co-organizers can’t edit any email templates:
+
+**BELOW COMMAND IS A PLACEHOLDER. I NEED AN ACTUAL EXAMPLE. REVISE BEFORE PUBLISHING.**
+
+```PowerShell
+Set-CsTeamsEventsPolicy -Identity <policy name> -EnableEventEmailEditing Enabled
+```
+
+To learn more about `-EnableEventEmailEditing`, see [**PLACEHOLDER FOR CMDLET REFERENCE**.]
 
 ## Collect webinar attendance information
 
