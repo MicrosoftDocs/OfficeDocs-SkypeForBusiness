@@ -54,7 +54,7 @@ The policy applied to the meeting organizer can affect other users in the meetin
 
 **NEW VERSION BELOW**:
 
-In addition to this **Meeting chat** policy, your users have their own meeting option called **Allow meeting chat**. Organizers can use this meeting option when setting up meetings to manage chat availability in meetings they create. For more information on **Allow meeting chat**, see [Participant settings for a Teams meeting.](https://support.microsoft.com/office/participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)
+In addition to this **Meeting chat** policy, your users have their own meeting option called **Allow meeting chat**. Organizers can use this meeting option to manage chat availability in meetings they create. For more information on **Allow meeting chat**, see [Participant settings for a Teams meeting.](https://support.microsoft.com/office/participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)
 
 The following table shows how an admin's **Meeting chat** policy settings will interact with an organizer's **Allow meeting chat** settings.
 
