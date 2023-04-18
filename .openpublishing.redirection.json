@@ -2921,8 +2921,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/rooms/security.md",
-      "redirect_url": "/microsoftteams/rooms/security-windows",
+      "source_path": "Teams/rooms/security-windows.md",
+      "redirect_url": "/microsoftteams/rooms/security?tabs=Windows",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/rooms/security-android.md",
+      "redirect_url": "/microsoftteams/rooms/security?tabs=Android",
       "redirect_document_id": true
     },
     {
