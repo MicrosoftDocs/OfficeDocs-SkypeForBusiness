@@ -14,6 +14,7 @@ ms.collection:
   - m365solution-voice
   - m365solution-scenario
   - highpri
+  - Tier1
 ms.reviewer: crowe
 f1.keywords:
 - CSH
