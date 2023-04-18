@@ -22,7 +22,7 @@ ms.custom: seo-marvel-apr2020
 
 # Release notes for Microsoft Teams Rooms
 
-This article discusses cumulative improvements in Microsoft Teams Rooms.
+This article discusses cumulative improvements in Microsoft Teams Rooms on Windows.
 
 There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web client.
 
