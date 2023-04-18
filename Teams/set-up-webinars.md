@@ -30,19 +30,22 @@ description: Learn how to set up and manage webinar policies in Teams.
 
 ## Overview
 
-Microsoft Teams now offers a new webinar experience; this article describes how to update your settings to use and manage these features.
+Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how to configure your settings to use and manage webinar functionality.
 
 Previously, to use webinars, you had to enable **both**:
 
 - Meeting registration using the Teams meeting policy parameter **`-AllowMeetingRegistration`**,
 - Webinars using the Teams events policy parameter **`-AllowWebinars`**.
 
-Now, we’ve separated meeting registration and webinars.
+Now, we’ve separated the parameters for meeting registration and webinars, which allows you to configure each feature independently. As a result, your users can use webinars and meetings with registration individually.
 
 If you want your users to still have a **webinar** entry point to create webinars, you need to verify that the **`-AllowWebinars`** parameter is still enabled.
-If you currently have webinars turned off, they'll remain off as the new experience rolls out.
 
-If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled. To learn more about the meeting with registration experience, see [Set up meeting registration.](set-up-meeting-registration.md)
+If you want your users to **only** use **meeting with registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled.
+> [!NOTE]
+> If `-AllowWebinars` is disabled,your end users will have no webinar entry point available to them, and they can't create webinars.
+
+To learn more about the meeting with registration experience, see [Set up meeting registration.](set-up-meeting-registration.md)
 
 Webinars are created and managed in PowerShell. For examples on how to set up webinars, see the section [How to set up the new webinar experience.](#set-up-webinars)
 
@@ -57,10 +60,10 @@ Meeting registration includes basic webinar functionality, an attendance report,
 
 A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars have the capacity for up to 1,000 people to attend and allows for collection of pre-event attendee registration data.
 
-In terms of registration, webinar attendees typically are required to register in advance to reserve their spot. With meetings, attendees can join the meeting without any prior reservation, but for instances where an organizer wants registration, you'd enable meeting registration.
+Webinar attendees are required to register in advance to reserve their spot. With meetings, attendees can join the meeting without any prior reservation, but for instances where an organizer wants registration, you'd enable meeting registration.
 
 The entry points your end users use to set up a webinar vs meeting registration are in separate places.
-**THINKING OF ADDING SCREENSHOTS HERE TO SHOW ENTRY POINTS**
+**NEED TO ADD SCREENSHOTS HERE TO SHOW ENTRY POINTS**
 
 To learn more about the end user experience, see [Get Started with Teams webinars](/office/manage-webinar-registration) and [Schedule a Teams meeting with registration.](/office/schedule-a-teams-meeting-with-registration)
 
@@ -88,7 +91,7 @@ Before you can run these cmdlets, you must be connected to Microsoft Teams Power
 
 ### Create and manage webinars using PowerShell
 
-You can manage the new events policy using the following PowerShell cmdlets:
+You can manage the events policy using the following PowerShell cmdlets:
 
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
@@ -131,11 +134,40 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 
 ## Collect webinar attendance information
 
-The attendance report policy setting controls whether organizers can see reports of who registered and attended the webinars they've set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
+### Attendance report for Teams webinars
 
-If **Who is in the report** is set to **Everyone, but users can opt-out** or **No one, but users can opt-in**, users can toggle on or off **Identify me in attendance reports** within their Teams settings.
+The attendance report for Teams webinars shows meeting organizers who attended a webinar, what time each person joined and left, and more. The attendance report setting controls whether organizers can view or download the attendance report for the webinars they've set up.
 
-To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+In the Teams admin center, the attendance report setting is called "**Attendance report**" and in PowerShell, its parameter is called "**`-AllowEngagementReport`**."
+
+The following table shows the behavior of the settings for "**`-AllowEngagementReport`**" and "**Attendance report**":
+
+|Setting value| Behavior|
+|---------|---------------|
+|Everyone, unless organizers opt out| **This is the default setting.** Webinar organizers control whether attendance reports are on or off for a webinar. |
+|No one| Webinar organizers can't view or download attendance reports for a webinar they've organized.|
+|Everyone| Webinar organizers can't turn off attendance reports for webinars they create. The attendance report is available for them.|
+
+For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+
+For more information on `-AllowEngagementReport`, see [Set-CsTeamsMeetingPolicy.](/powershell/module/teams/set-csteamsmeetingpolicy)
+
+### Who is in the attendance report for Teams webinars
+
+The **"Who is in the attendance report"** setting controls whether participants in the webinar can opt in or out of offering their attendance information to be included in the organizer's attendance report. You can manage this setting in the Teams admin center.
+
+The following table shows the behavior of the settings for "**Who is in the attendance report**":
+
+|Setting value| Behavior|
+|---------|---------------|
+|Everyone, but participants can opt out| **This is the default setting.** The attendance report initially includes all participants, but participants can opt out. Participants can toggle **Identify me in attendance reports** on or off within their Teams settings. |
+|No one, but participants can opt in| The attendance report initially excludes all participants, but participants can opt in. Participants can toggle **Identify me in attendance reports** on or off within their Teams settings.|
+|Everyone| The attendance report includes all participants, and participants can't opt out.|
+|No one| The attendance report excludes all participants, and participants can't opt in.|
+
+For instructions on how to manage who is in the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+
+For information on the end-user experience for attendance reports and who is in the reports, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Related topics
 
