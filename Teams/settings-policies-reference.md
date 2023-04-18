@@ -685,7 +685,7 @@ Calling policies are used to control what calling features are available to peop
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Make private calls|On|This setting controls all calling capabilities in Teams. Turn off this setting to turn off all calling functionality in Teams.|
-|Meeting recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
+|Cloud recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
 |Transcription|Off|This setting allows you to control whether post-call transcriptions are available for your users.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
 |Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|
