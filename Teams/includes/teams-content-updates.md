@@ -2,6 +2,31 @@
 
 
 
+## Week of April 10, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/10/2023 | Microsoft Teams device usage report | removed |
+| 4/10/2023 | Microsoft Teams usage report | removed |
+| 4/10/2023 | Microsoft Teams user activity report | removed |
+| 4/12/2023 | [Customize meeting invitations (IT admins)](/MicrosoftTeams/customize-meeting-invitations) | added |
+| 4/12/2023 | [Set how you want to handle real-time media traffic for Teams meetings](/MicrosoftTeams/meetings-real-time-media-traffic) | added |
+| 4/12/2023 | [Predefined meeting templates included with Microsoft Teams Premium](/MicrosoftTeams/predefined-meeting-template-reference) | added |
+| 4/12/2023 | Manage meeting settings | removed |
+| 4/13/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
+| 4/14/2023 | [Require a watermark for sensitive Teams meetings](/MicrosoftTeams/watermark-meeting-content-video) | modified |
+| 4/14/2023 | [Considerations for Calling Plan](/MicrosoftTeams/considerations-calling-plan) | added |
+| 4/14/2023 | [Considerations for Direct Routing](/MicrosoftTeams/considerations-direct-routing) | added |
+| 4/14/2023 | [Considerations for Operator Connect](/MicrosoftTeams/considerations-operator-connect) | added |
+| 4/14/2023 | [Considerations for Teams Phone Mobile](/MicrosoftTeams/considerations-teams-phone-mobile) | added |
+| 4/14/2023 | [PSTN connectivity options](/MicrosoftTeams/pstn-connectivity) | modified |
+| 4/14/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 4/14/2023 | Manage voice and calling policies in Teams | removed |
+| 4/14/2023 | [Teams voice Contoso case study: Emergency calling](/MicrosoftTeams/voice-case-study-emergency-calling) | modified |
+| 4/14/2023 | [Plan and manage emergency calling](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modified |
+
+
 ## Week of April 03, 2023
 
 
@@ -446,38 +471,3 @@
 | 3/17/2023 | Configure desktop sharing in Microsoft Teams | removed |
 | 3/17/2023 | [Manage Audio Conferencing settings](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modified |
 | 3/17/2023 | Manage the Whiteboard in Microsoft Teams | removed |
-
-
-## Week of March 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/6/2023 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
-| 3/6/2023 | [Configure dynamic emergency calling](/MicrosoftTeams/configure-dynamic-emergency-calling) | modified |
-| 3/6/2023 | [Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | modified |
-| 3/7/2023 | [Plan for meetings with external participants in Microsoft Teams](/MicrosoftTeams/plan-meetings-external-participants) | added |
-| 3/7/2023 | Calling Plans in Microsoft Teams | removed |
-| 3/7/2023 | Quick start guide - Configuring Calling Plans | removed |
-| 3/7/2023 | [Deploy Microsoft Teams Rooms on Android](/MicrosoftTeams/devices/collab-bar-deploy) | modified |
-| 3/7/2023 | [Place a Microsoft Teams user or team on legal hold](/MicrosoftTeams/legal-hold) | modified |
-| 3/7/2023 | Raise hand in Teams meetings | removed |
-| 3/7/2023 | Reset a conference ID for a user in Microsoft Teams | removed |
-| 3/7/2023 | See, change, and reset a user's conference ID | removed |
-| 3/8/2023 | [Admin training resources - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modified |
-| 3/8/2023 | [Know about apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
-| 3/8/2023 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
-| 3/8/2023 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
-| 3/8/2023 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 3/8/2023 | [User requests for admins](/MicrosoftTeams/user-requests-approve-apps) | modified |
-| 3/8/2023 | [Zero-touch App Install for Teams apps](/MicrosoftTeams/zero-touch-app-install) | modified |
-| 3/8/2023 | [Manage who can start instant meetings and schedule meetings](/MicrosoftTeams/manage-who-can-schedule-meetings) | modified |
-| 3/8/2023 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | modified |
-| 3/8/2023 | Teams: Manage meeting policies | removed |
-| 3/8/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
-| 3/9/2023 | [Microsoft Teams Rooms home screen design refresh](/MicrosoftTeams/rooms/mtr-home-refresh) | added |
-| 3/10/2023 | [Set up and configure Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | modified |
-| 3/10/2023 | [Emergency call routing for Calling Plans](/MicrosoftTeams/emergency-calling-availability) | modified |
-| 3/10/2023 | [Career Coach data and compliance information](/MicrosoftTeams/privacy-career-coach-data-compliance) | modified |
-| 3/10/2023 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
-| 3/10/2023 | [Scale video delivery in Microsoft Teams](/MicrosoftTeams/teams-stream-ecdn) | modified |
