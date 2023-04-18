@@ -133,8 +133,6 @@ The following table indicates which features on which clients and devices suppor
 
 ## Restrictions
 
-- Music on Hold is only available in commercial and GCC cloud instances.
-
 - Music on Hold is only available when the user is in TeamsOnly mode.
 
 - If the called Teams user is enabled for Location-Based Routing, only the standard Music on Hold is played to the caller.
