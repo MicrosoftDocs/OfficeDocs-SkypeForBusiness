@@ -23,6 +23,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ---
 
 # What's a port order?
