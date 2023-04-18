@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
-  - tier1
+  - Tier1
 ---
 
 # Move from Business Voice to Teams Phone licenses
