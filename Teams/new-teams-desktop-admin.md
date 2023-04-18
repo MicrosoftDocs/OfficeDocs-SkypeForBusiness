@@ -21,13 +21,13 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# The new Microsoft Teams desktop client 
+# The new Microsoft Teams desktop client
 
 > [!NOTE]
 > The preview of the new Microsoft Teams desktop client for Windows rolled out on March 27, 2023 and is expected to complete over the following week.
 
 > [!TIP]
-> Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
+> Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
 
 ## Before you begin
 
@@ -46,7 +46,7 @@ This article describes the preview release of the new Microsoft Teams desktop cl
 > [!IMPORTANT]
 > The new Teams client **is not** available for the following during the preview phase:
 >
-> **Platforms:**  Mac, VDI, Web</br>
+> **Platforms:**  Mac, VDI, Web </br>
 > **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 > [!TIP]
@@ -54,7 +54,7 @@ This article describes the preview release of the new Microsoft Teams desktop cl
 
 ## What is the new Teams?
 
-The new Microsoft Teams desktop client for Windows has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Microsoft Teams desktop client for Windows has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
 New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
@@ -66,17 +66,13 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
-<br>
-
-#### Required Microsoft 365 Apps Security Updates
+### Required Microsoft 365 Apps Security Updates
 
 |Channel|Version & Build|
 |:-----|:-----|
 |Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944)</br> |
 |Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
 |Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
-
-</br>
 
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
@@ -86,9 +82,9 @@ As an admin, you can manage which users in your organizations see or don't see t
 
 :::image type="content" source="media/new-teams-toggle.png" alt-text="new teams try me toggle at the top of the screen":::
 
-To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
+To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy.
 
-Manage this setting in the **Teams admin center** or using **Teams PowerShell**.</br>
+Manage this setting in the **Teams admin center** or using **Teams PowerShell**.
 
 # [**Teams Admin Center**](#tab/teams-admin-center)
 
@@ -102,7 +98,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
    :::image type="content" source="media/new-teams-update-policies-toggle.png" alt-text="step in how to update teams policies":::
 
 3. Select Add to create a new policy or select an existing policy to open Update policy.
-4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
+4. Name the update policy, add a description, and select the setting for "Use new Teams client", as shown below.
 
    |Setting|Description|
    |:-----|:-----|
@@ -128,7 +124,7 @@ Configure the UseNewTeamsClient setting to one of the following possible values:
 | :----- | :----- |
 | MicrosoftChoice | Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness. |
 | UserChoice | This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
-| AdminDisabled | This value hides the new Teams toggle switch from view. Users won't be able to opt in to the new Teams.| 
+| AdminDisabled | This value hides the new Teams toggle switch from view. Users won't be able to opt in to the new Teams.|
 
 Here are the steps needed to configure this setting in PowerShell:
 
@@ -142,19 +138,16 @@ Connect-MicrosoftTeams
 3. Once connected and logged in via PowerShell, you can explore the list of related commands:
 Enter *-CsTeamsUpdateManagementPolicy and tab through the commands (tab key).
 
-4. Use the following commands to change the existing Update Management policy to opt in the assigned users to allow them to try the new Teams:
+4. Use the following command to change the existing Update Management policy to opt in the assigned users to allow them to try the new Teams:
 
 ```powershell
-Set-CsTeamsUpdateManagementPolicy -identity <new_policy_name> -UseNewTeamsClient 
+Set-CsTeamsUpdateManagementPolicy -identity <existing_policy_name> -UseNewTeamsClient UserChoice
 ```
 
-UserChoice
+**Example:**
 
-Example:
-```powershell 
-
+```powershell
 Set-CsTeamsUpdateManagementPolicy -identity MySetting -UseNewTeamsClient UserChoice
-
 ```
 
    > [!NOTE]
@@ -163,11 +156,8 @@ Set-CsTeamsUpdateManagementPolicy -identity MySetting -UseNewTeamsClient UserCho
 5. Use the following commands to deploy a new policy to opt-out a specific user from seeing the toggle:
 
 ```powershell
-
 New-CsTeamsUpdateManagementPolicy -identity <new_policy_name> -UseNewTeamsClient AdminDisabled
-
 Grant-CsTeamsUpdateManagementPolicy -identity <user> -PolicyName <new_policy_name>
-
 ```
 
 **Example:**
@@ -184,52 +174,45 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 
 ### How to uninstall the new Teams client
 
-Any user who was using the new Teams before the policy was implemented can manually opt out by using the new Teams toggle. 
+Any user who was using the new Teams before the policy was implemented can manually opt out by using the new Teams toggle.
 
 After they opt out, the toggle won't appear when they relaunch Teams. To prevent users from using this client and want to uninstall the client, users can manually uninstall it from settings.
-
-</br>
 
 ### Remove new Teams for all users
 
 To remove the new Teams from all users' computers, use the following PowerShell command:
 
 ```powershell
-
-Remove-AppxPackage 
+Get-AppxPackage -Name MSTeams -AllUsers | Remove-AppxPackage -AllUsers
 ```
 
-PowerShell cmdlet to remove new Teams from all users on all computers:
-
-Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
-Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
-</br>
+```powershell
+Get-AppxPackage -Name MSTeams | Remove-AppxPackage
+```
 
 ## Installation issues
 
 #### Policy settings restricting download & install
 
-If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it. They may see this error: 
+If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it. They may see this error:
 
 :::image type="content" source="media/new-teams-install-error.png" alt-text="error when attempting to install the new teams desktop client":::
 
 It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool. For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
 
-The registry keys that could block new Teams MSIX package installation are: 
- 
+The registry keys that could block new Teams MSIX package installation are:
+
 - *BlockNonAdminUserInstall*
 - *AllowAllTrustedApps*
 - *AllowDevelopmentWithoutDevLicense*
 
-</br>
-
 These registry keys can be found at one of these locations:
-  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
-  - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
 
-</br>
+- Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
+- Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
+
 There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation include:
 
 - Prevent non-admins users from installing packaged Windows apps
@@ -239,9 +222,9 @@ There are a few policies that could alter these registry keys and block app inst
 
 1. In Windows, search for **Edit Group Policy**.
 2. This will open the Local Group Policy Editor screen.
-3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
-  - *Prevent non-admins users from installing packaged Windows apps*
-  - *Allow all trusted apps to install*
+3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies:
+   - *Prevent non-admins users from installing packaged Windows apps*
+   - *Allow all trusted apps to install*
 4. Make sure that value for these settings is set as follows:
 
 |Setting |Value|
@@ -249,74 +232,68 @@ There are a few policies that could alter these registry keys and block app inst
 |Prevent non-admins users from installing packaged Windows apps|Not configured|
 |Allow all trusted apps to install|Not configured|
 
-</br>
-
 #### Troubleshooting the App switcher toggle
 
 - Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there's any Windows update pending, including security updates, install them before you try new Teams.
-- If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
-- After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
-
+- If you're not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams.
+- After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar.
 
 #### Policies that could block the user from seeing the App switcher toggle
 
 The following list of policies can block users from seeing the app switcher toggle.
 
-- Your admin has **sign in restrictions** set up [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices) 
-- If the user is on a VDI computer (Citrix, VMware etc.). 
-- If the user is signed in to classic Teams with a *Teams for Life* account and a work account. 
+- Your admin has **sign in restrictions** set up. [Learn more about how to restrict Teams sign in on desktop devices](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
+- If the user is on a VDI computer (Citrix, VMware etc.).
+- If the user is signed in to classic Teams with a *Teams for Life* account and a work account.
 - If the user is signed in to classic Teams with a *Teams for Life* account.
-- If you have an MSIX client. 
-
+- If you have an MSIX client.
 
 ##### How do I know which one of the above policies is blocking me?
 
-1. Open logs in this path: %appdata%/Microsoft/Teams 
-1. Open logs.txt 
+1. Open logs in this path: `%appdata%/Microsoft/Teams`
+1. Open *logs.txt*
 1. Search for **appswitcher_appstateservice_check**.
 1. Check the **enggComplete** flag:  
-   - If true, the Microsoft has turned the setting for you. 
-   - If false, you didn’t the settings from MSFT yet or need an app relaunch (see below for steps to relaunch the app) 
+   - If true, then Microsoft has turned the setting on for you.
+   - If false, you didn't receive the settings from Microsoft yet or need an app relaunch (see below for steps to relaunch the app).
 1. Check **isAboveWin10Vibranium**.
-   - If true, the OS version is >= what is needed for app switcher  
-   - If false, the OS is older than what we support. 
+   - If true, the OS version is >= what is needed for app switcher.
+   - If false, the OS is older than what we support.
 1. Check the code to find out the cause.
 
 |Code|Meaning|
 |:-----|:-----|
 |TFLONLY|You're only signed in to *Teams for Life*|
 |TFLANDTFW| You're signed in to *Teams for Life* and *Teams for Work*|
-|SPECIALCLOUD| You're signed in to a special cloud that isn’t supported.|
-|CROSSCLOUD| You're signed in to a government cloud.| 
+|SPECIALCLOUD| You're signed in to a special cloud that isn't supported.|
+|CROSSCLOUD| You're signed in to a government cloud.|
 |VDI|You're signed in to a VDI machine (VMware, Citrix, AVD/WV).|
-
 
 #### Update and restart message in title bar
 
-Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
-Action: This is expected behavior. Select the link to restart.
+**Issue**: After opting into the new Teams, users may receive an "Update and restart" message in the title bar.  
+**Action**: This is expected behavior. Select the link to restart.
 
 #### Windows 10 users may receive an error message
 
-Issue: Windows 10 users may receive the error “We’ve run into an issue” when they download and install the new Teams.</br>
-Action: [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
+**Issue**: Windows 10 users may receive the error "We've run into an issue" when they download and install the new Teams.  
+**Action**: [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
 #### Some people don't see the toggle to opt in
 
 Make sure the user has the minimum requirements met on their computer.  Next, have them sign out and back into the Teams desktop app.  
-If the toggle still doesn't appear, then 
+If the toggle still doesn't appear, then
 
 1. Right-click on the Teams app icon in your taskbar and select Quit.
 1. Open File Explorer. In the address bar, enter the following: `%appdata%/Microsoft/Teams`.
-1. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
-1. Delete all contents of the folder (don’t worry, Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
+1. Select the arrow, or press Enter. You'll be taken to the contents of that folder.
+1. Delete all contents of the folder (don't worry, Teams app won't be deleted, nor any of your custom settings). If you get any messages that a certain file or folder can't be deleted, select Skip.
 1. Relaunch the Teams app, then right-click on the icon and select Quit.
 1. Relaunch the Teams app one more time, and you should see the toggle switch.
 
-
 ## What features are still missing?
 
-While many of the features you're familiar with in classic Teams are already in the new experience, others, like Breakout rooms, are still being worked on. </br>
+While many of the features you're familiar with in classic Teams are already in the new experience, others, like Breakout rooms, are still being worked on.
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
 
@@ -329,12 +306,12 @@ As we improve the client, the experience has been improved to align with similar
 |Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
 |Adding third party cloud storage service from Files app|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar. Now you can add the 3rd party storage app directly from the Teams App Store.|
-|Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
-|Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
+|Look up an organizational chart while in a 1:1 chat |Select a user's avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
+|Look up LinkedIn while in a 1:1 chat | Select a user's avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
 |Activity tab in chat| No longer available|
 |Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
-|Allow users to follow another users presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
+|Allow users to follow another users presence, then notify them of availability|Select a user's avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
 
 ## Known issues
 
@@ -342,8 +319,11 @@ There are a few known issues we're working on.
 
 ### General
 
-**Issue**: Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
-**Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>See [**Prerequisites**](#prerequisites) section in this article. 
+**Issue**: Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.
+
+**Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.
+
+See [**Prerequisites**](#prerequisites) section in this article.
 
 ### Accessibility
 
@@ -354,26 +334,27 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 - **Issue**: If custom apps are used, their icons are broken on the left pane.
 
-- **Issue**: You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams will show up in new Teams. </br>Workaround: Add your app in classic Teams. It will then appear in new Teams. 
+- **Issue**: You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams will show up in new Teams.</br>
+  **Workaround**: Add your app in classic Teams. It will then appear in new Teams.
 
 - **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, store navigation are still pending.
 
 ### Calendar
 
-- **Issue:* There's no option to add a Channel calendar to a channel.</br>
-  **Workaround**: Switch back to classic Teams to use this feature.</br>
+- **Issue**: There's no option to add a Channel calendar to a channel.</br>
+  **Workaround**: Switch back to classic Teams to use this feature.
 
 - **Issue**: Unable to add an app in scheduling form.</br>
-  **Workaround**: Switch back to classic Teams to use this feature.</br>
+  **Workaround**: Switch back to classic Teams to use this feature.
 
 ### Calls
 
 - **Issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.</br>
-**Workaround/details**: We're working to resolve this.
+  **Workaround/details**: We're working to resolve this.
 
 - **Issue**: Full HID capabilities (for example, device mute/unmute, LED sync) aren't yet supported.
 
-- **Issue**: When using the “share screen” option to share content or in DND mode, call toast notifications will still pop up.
+- **Issue**: When using the "share screen" option to share content or in DND mode, call toast notifications will still pop up.
 
 - **Issue**: Call toast stacking isn't supported by default in Windows 10.</br>
   **Workaround**: Open the action center to view secondary incoming call toasts.
@@ -381,7 +362,7 @@ If you discover any accessibility gaps, select **Give Feedback**.
 ### Chats
 
 - **Issue:** The Organization tab isn't available on chat.</br>
-  Details: The organization tab has moved to a person's Microsoft 365 contact card. To view your organization tab, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
+  **Details**: The organization tab has moved to a person's Microsoft 365 contact card. To view your organization tab, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
 
 - **Issue:** When you pop out a chat, the window may appear blank for a few moments.
 
@@ -390,24 +371,24 @@ If you discover any accessibility gaps, select **Give Feedback**.
 - **Issue:** You can't search for external users even if you enter full email address.
 
 - **Issue:** If you receive a message where @mention *Everyone* is used, it will show in your feed as a personal mention.</br>
-  Details: The @mention Everyone feature is still pending for this release.
+  **Details**: The @mention Everyone feature is still pending for this release.
 
 ### Meetings
 
 - **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud (including GCC, GCC High, DoD) using Cross Cloud Anon (CCA).</br>
   Details: This feature is still pending in new Teams. Switch back to classic Teams for this meeting.
 
-- **Issue:** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
+- **Issue:** When using the "Share screen" option to share content, notifications will still pop up, even if you have notifications muted.</br>
 Details: The meeting attendees may see preview content in those notifications.</br>
   **Workaround**: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
-- **Issue:** Some meeting details won’t appear in new Teams.</br>
-  Details you won't see include forwards, "show as," and assigned meeting categories. 
+- **Issue:** Some meeting details won't appear in new Teams.</br>
+  Details you won't see include forwards, "show as," and assigned meeting categories.
 
-- **Issue:** When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
+- **Issue:** When you close a meeting window by selecting "X" in the upper-right corner, you won't receive a prompt saying, "Are you sure you want to leave?"</br>
   **Workaround**: If you leave a meeting by accident, re-join.
 
-- **Issue:** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.</br>
+- **Issue:** For channel meetings, you won't see a banner at the top of a channel when a meeting hosted there's active.</br>
   **Workaround**: Select Join in the channel conversation to join the meeting.
 
 - **Issue:** When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
@@ -418,10 +399,6 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue:** An error occurs when joining a meeting whose organizer is from an organization for which you either (1) don't have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guests there.</br>
   Details: Before joining the meeting, turn off preview using the toggle button on the title bar.
-
-- **Issue:** When using the "Share screen" option to share content, toast notifications will still pop up, even if you have notifications muted.</br>
-  Details: Meeting attendees may see preview content in those notifications.</br>
-  **Workaround**: Use "Share window" or "PowerPoint Live" instead of "Share desktop."
 
 - **Issue:** Some meeting details won't show up in new Teams.</br>
   Details include forwards, "show as," and assigned meeting categories.
@@ -435,13 +412,13 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue:** Selecting Room Audio has a blank UI, and it's unable to detect rooms or search on the Join screen.
 
-- **Issue:** In Settings->Devices, users can't preview their video. 
+- **Issue:** In Settings->Devices, users can't preview their video.
 
 - **Issue:** Users won't be able to start a "Screen sharing call".</br>
-  Details: Users on Windows 11 can’t share the app using the taskbar. </br>
-  **Workaround**: Share the app or window using the share tray within Teams meeting. 
+  Details: Users on Windows 11 can't share the app using the taskbar. </br>
+  **Workaround**: Share the app or window using the share tray within Teams meeting.
 
-- **Issue:** Users can’t use the advanced presenter modes (Standout, Side-by-side, Reporter, Cameo).
+- **Issue:** Users can't use the advanced presenter modes (Standout, Side-by-side, Reporter, Cameo).
 
 - **Issue:** Users won't see the presenter toolbar when a screen sharing session is active.
 
@@ -450,12 +427,11 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue:** After successfully seeing the toggle and installing the new Teams, a user switches to a different tenant that doesn't have new Teams enabled. The user can't sign back into their home tenant.</br>
   **Workaround**: Uninstall the new Teams and reinstall.
 
-- **Issue:** When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
-  **Workaround**: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
+- **Issue:** When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There's a small chance you're signed in to Approvals and Teams with different accounts."</br>
+  **Workaround**: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 - **Issue:** New tenant invitations may not appear or get updated for 24 hours.</br>
   **Workaround**: Switch back to classic Teams if the user needs access earlier than 24 hours.
-
 
 ### Notifications
 
@@ -482,17 +458,17 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue**: Limited options on Team Channel properties Dialog, including:
   - Pin, Manage Channel and Get Email Address available
   - Limited team site properties dialog – Hide, Manage Team, and Manage Tags available
-  - Adding a tab to a channel isn't currently available.
+  - Adding a tab to a channel isn't currently available
   - Webhooks not supported
 
 - **Issue**: Attendance report doesn't show after a meeting.</br>
   **Workaround**: To download, go to **Edit Meeting Details** > **Attendance** > **Download**. It will always download the latest meeting's report. Currently, there's no option to download a report of an older channel meeting.
 
-## Other areas:
+## Other areas
 
 - **Issue**: Right-clicking on the back button (next to Search) doesn't bring the old history for you to navigate.
 
-- **Issue**: If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.</br>
+- **Issue**: If Windows (Focus/Do not Disturb) mode is on you won't receive Teams notifications.</br>
   **Workaround**: Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications and enable it with Focus/Do not Disturb mode.
 
 - **Issue:** If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
