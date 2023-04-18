@@ -11,7 +11,7 @@ audience: admin
 ms.date: 04/05/2023
 ms.collection: 
 - M365-voice
-- tier1
+- Tier1
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.voiceapplications.overview

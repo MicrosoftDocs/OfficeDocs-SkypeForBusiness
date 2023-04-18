@@ -461,6 +461,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron UC-P10-TD     |`1.0.0.60` |2022 Update #3A|
+|Crestron UC-P8-TD     |`1.0.0.60` |2022 Update #3A|
 |Neat Frame nf21f1 | `NFF1.20221128.0005` | 2022 Update #4A |
 |Neat Frame nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
 |Crestron UC-P10-TD     |`1.0.0.57` |2022 Update #3A|

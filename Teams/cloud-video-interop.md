@@ -16,6 +16,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020

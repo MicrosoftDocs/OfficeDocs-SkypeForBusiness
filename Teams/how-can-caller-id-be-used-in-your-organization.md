@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 ms.service: msteams
 audience: Admin
 appliesto: 
